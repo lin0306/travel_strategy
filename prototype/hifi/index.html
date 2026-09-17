@@ -67,6 +67,9 @@
   --panel-left:348px;
   --panel-preview:326px;
   --panel-detail:620px;
+  /* ★ 行程规划页：时间轴每行要放「时间 + 名称 + 停留 + 方式 + 时长 + 距离」，
+     348px 会挤成三行（05 文档 P5 取舍表）。禁止在组件里硬编码这个宽度 */
+  --panel-itinerary:420px;
   --panel-locate:300px;
   --topbar-h:52px;
 
@@ -463,6 +466,19 @@ a{color:inherit}
 }
 .legend-i{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
 .legend-i i{width:9px;height:9px;border-radius:50%;display:block;flex:none}
+/* 行程页图例的三种符号：住宿旗标（方）、序号（带数字圆）、连线（虚线横杠） */
+.legend-i i.lg-stay{border-radius:2px;width:8px;height:11px}
+.legend-i i.lg-seq{
+  width:12px;height:12px;background:var(--c-primary);color:#fff;
+  font-size:8px;line-height:12px;text-align:center;font-style:normal;font-weight:700;
+}
+.legend-i i.lg-line{
+  width:14px;height:0;border-radius:0;border-top:2px dashed var(--c-primary);background:none;
+}
+/* 图例里的线型：实线（驾车等）/ 虚线（步行）/ 红段（拥堵，叠加在基准线之上） */
+.legend-i i.lg-line.is-solid{border-top:2.5px solid var(--c-text);background:none}
+.legend-i i.lg-line.is-walk{border-top:2px dashed var(--c-text-2);background:none}
+.legend-i i.lg-line.is-jam{border-top:4px solid #F5222D;background:none;width:10px}
 .bottombar .creditline{margin-left:auto;font-size:10.5px;color:var(--c-text-4);white-space:nowrap}
 .bottombar .state{color:var(--c-text-2);white-space:nowrap}
 /* 详情页轨道被抽屉压窄，只保留底图状态 / 地图服务状态 / 署名 */
@@ -762,7 +778,7 @@ a{color:inherit}
 .sheet-grip::after{content:"";width:40px;height:4px;border-radius:2px;background:#D3D9E1;transition:background var(--dur)}
 .sheet-grip:hover::after{background:#B4BCC8}
 .sheet-grip:active{cursor:grabbing}
-.sheet-head{padding:4px 16px 12px;flex:none}
+.sheet-head{padding:4px 16px 12px;flex:none;position:relative}   /* relative：行程页「更换住宿」按钮贴右上 */
 .sheet-head .row1{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
 .sheet-head b{font-size:var(--fs-xl);font-weight:700;letter-spacing:-.2px}
 .sheet-head .hint{font-size:var(--fs-xs);color:var(--c-text-4);flex:none}
@@ -803,6 +819,234 @@ a{color:inherit}
 .guide span{
   position:absolute;right:8px;top:-10px;font-size:10px;font-weight:600;color:#9A6415;
   background:#FFF6E4;border:1px solid #F2D9A6;border-radius:var(--radius-xs);padding:0 6px;line-height:17px;
+}
+
+/* ---------- 7.5 行程规划页 P5 `/city/:id/plan`（09 文档第六节 + 05 文档 P5）----------
+   仍是「地图即画布」：行程面板只是换了个更宽的浮层（--panel-itinerary），
+   不是另一种布局模型。产品主张：用户定住宿 / 挑点位 / 排顺序，系统只算时间。
+   --------------------------------------------------------------------------- */
+.flt--itin{
+  left:var(--flt-inset);top:calc(var(--flt-inset) + var(--topbar-h) + var(--flt-gap));
+  bottom:var(--flt-inset);width:var(--panel-itinerary);
+}
+/* 右侧控件 / 图例轨道要为更宽的面板让位 —— 位置由 token 推出，不硬编码 448px */
+.rail--itin{left:calc(var(--flt-inset) + var(--panel-itinerary) + var(--flt-gap))}
+
+/* DayTabs（桌面在顶栏，移动端在 Sheet 里，同一组件） */
+.daytabs{display:flex;align-items:center;gap:6px;flex:none}
+.daytab{
+  position:relative;height:30px;padding:0 13px;border:1px solid var(--c-line);
+  border-radius:var(--radius-pill);background:var(--c-surface);color:var(--c-text-2);
+  font-size:var(--fs-sm);white-space:nowrap;flex:none;transition:all var(--dur) var(--ease);
+}
+.daytab:hover{border-color:var(--c-text-4);color:var(--c-text)}
+.daytab[aria-current="true"]{background:var(--c-text);border-color:var(--c-text);color:#fff;font-weight:600}
+.daytab .wdot{
+  position:absolute;top:-2px;right:-2px;width:8px;height:8px;border-radius:50%;
+  background:var(--c-food);box-shadow:0 0 0 2px var(--c-surface);
+}
+
+/* 行程入口（城市页面板 / 移动端 Sheet 底部共用同一段） */
+.p-itin{
+  flex:none;display:flex;flex-direction:column;gap:6px;
+  padding:10px 16px 12px;box-shadow:inset 0 1px 0 var(--c-line-2);
+}
+.p-itin .btn{justify-content:center;width:100%;height:38px}
+.p-itin .hint{font-size:var(--fs-xs);color:var(--c-text-3);text-align:center;line-height:1.5}
+
+/* 住宿行：行程的锚，必须常显 */
+.itin-stay{display:flex;align-items:center;gap:10px;padding:14px var(--sp-4);border-bottom:1px solid var(--c-line-2);flex:none}
+.itin-stay .ic{
+  width:30px;height:30px;border-radius:var(--radius-sm);flex:none;
+  background:#FFF6E4;border:1px solid #F2D9A6;color:#9A6415;
+  display:flex;align-items:center;justify-content:center;
+}
+.itin-stay .who{flex:1;min-width:0}
+.itin-stay .who b{display:block;font-size:var(--fs-md);font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.itin-stay .who span{display:block;font-size:var(--fs-xs);color:var(--c-text-3);margin-top:2px}
+.itin-stay .chg{
+  flex:none;font-size:var(--fs-sm);color:var(--c-primary);border:1px solid var(--c-line);
+  border-radius:var(--radius-sm);padding:5px 11px;background:var(--c-surface);white-space:nowrap;
+}
+
+/* 时间轴 */
+.tl{flex:1;min-height:0;overflow-y:auto;padding:10px var(--sp-4) 0;-webkit-overflow-scrolling:touch}
+.tl-row{display:grid;grid-template-columns:22px 1fr;position:relative}
+.tl-mid{position:relative;display:flex;justify-content:center}
+.tl-mid::before{content:"";position:absolute;top:0;bottom:0;width:2px;background:var(--c-line)}
+.tl-row--first .tl-mid::before{top:15px}
+.tl-row--last .tl-mid::before{height:15px;bottom:auto}
+.tl-dot{
+  width:11px;height:11px;border-radius:50%;background:var(--c-surface);
+  border:2.5px solid var(--c-text);margin-top:7px;position:relative;z-index:2;flex:none;
+}
+.tl-dot--stay{border-color:var(--c-food);border-radius:3px}
+.tl-body{min-width:0;padding:0 0 12px}
+.tl-row--leg .tl-body{padding-bottom:9px}
+.tl-h{display:flex;align-items:baseline;gap:8px}
+.tl-h .hh{font-size:var(--fs-md);font-weight:700;font-variant-numeric:tabular-nums;flex:none;letter-spacing:-.2px}
+.tl-h .nm{font-size:var(--fs-md);font-weight:600;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tl-h .tag{
+  font-size:10px;color:var(--c-text-3);border:1px solid var(--c-line);
+  border-radius:var(--radius-xs);padding:0 5px;line-height:16px;flex:none;
+}
+.tl-sub{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:2px;font-size:var(--fs-xs);color:var(--c-text-3)}
+.tl-sub .edit{
+  color:var(--c-primary);border:1px solid var(--c-line);background:var(--c-surface);
+  border-radius:var(--radius-xs);padding:0 6px;line-height:17px;
+}
+.tl-sub .default{color:var(--c-text-4);border-style:dashed;border-radius:var(--radius-xs);padding:0 5px;line-height:16px}
+
+/* 六种出行方式切换：必须挤在一行，否则时间轴会被推高导致末行被裁 */
+.modestrip{
+  display:flex;gap:4px;flex-wrap:nowrap;padding:5px 8px;margin-bottom:6px;
+  border:1px solid var(--c-line);border-radius:var(--radius-sm);background:var(--c-surface-2);
+}
+.modepill{
+  display:inline-flex;align-items:center;gap:3px;height:24px;padding:0 7px;flex:none;
+  border:1px solid var(--c-line);border-radius:var(--radius-pill);
+  background:var(--c-surface);color:var(--c-text-2);font-size:var(--fs-xs);white-space:nowrap;
+  transition:all var(--dur) var(--ease);
+}
+.modepill .ico{width:13px;height:13px}
+.modepill:hover{border-color:var(--c-text-4)}
+.modepill[aria-pressed="true"]{background:var(--c-primary-soft);border-color:var(--c-primary);color:var(--c-primary);font-weight:600}
+.modepill.is-na{opacity:.42;text-decoration:line-through}
+
+/* Leg 段行 */
+.legbox{
+  display:flex;align-items:center;gap:8px;padding:7px 10px;
+  border:1px solid var(--c-line);border-radius:var(--radius-sm);background:var(--c-surface);
+  transition:all var(--dur) var(--ease);
+}
+.legbox:hover{border-color:var(--c-text-4)}
+.legbox.is-on{border-color:var(--c-primary);background:var(--c-primary-soft)}
+.legbox .lg-ic{flex:none;color:var(--c-text-2);display:flex}
+.legbox.is-on .lg-ic{color:var(--c-primary)}
+.legbox .lg-t{flex:1;min-width:0;font-size:var(--fs-sm);color:var(--c-text-2)}
+.legbox .lg-t b{color:var(--c-text);font-weight:600;font-variant-numeric:tabular-nums}
+.legbox .lg-swap{flex:none;font-size:var(--fs-xs);color:var(--c-primary)}
+.legbox .lg-na{flex:none;font-size:var(--fs-xs);color:var(--c-text-4)}
+
+/* 多方案卡片（点开某一段才拉，进入页面不拉） */
+.rto{
+  margin-top:7px;padding:10px;border:1px solid var(--c-line);
+  border-radius:var(--radius-md);background:var(--c-surface-2);
+}
+.rto-h{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px;font-size:var(--fs-xs);color:var(--c-text-3)}
+.rto-h .est{color:var(--c-text-4);border:1px dashed var(--c-line);border-radius:var(--radius-xs);padding:0 5px;line-height:16px}
+.rto-opt{
+  display:flex;align-items:center;gap:8px;padding:7px 10px;margin-bottom:5px;
+  border:1px solid var(--c-line);border-radius:var(--radius-sm);background:var(--c-surface);
+}
+.rto-opt:last-of-type{margin-bottom:0}
+.rto-opt.is-on{border-color:var(--c-primary);background:var(--c-primary-soft)}
+.rto-opt .rl{width:15px;flex:none;font-size:var(--fs-xs);color:var(--c-text-3);font-weight:600}
+.rto-opt .rv{flex:none;font-size:var(--fs-md);font-weight:700;font-variant-numeric:tabular-nums}
+.rto-opt .rd{flex:none;font-size:var(--fs-xs);color:var(--c-text-3);font-variant-numeric:tabular-nums}
+.rto-opt .rt2{
+  flex:none;font-size:10px;color:var(--c-text-2);border:1px solid var(--c-line);
+  border-radius:var(--radius-xs);padding:0 5px;line-height:16px;
+}
+.rto-opt .rsp{margin-left:auto;flex:none;font-size:var(--fs-xs);color:var(--c-text-3)}
+.rto-foot{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:7px;font-size:var(--fs-xs);color:var(--c-text-3)}
+.rto-foot .slow{display:inline-flex;align-items:center;gap:4px;color:var(--c-food)}
+/* 段的诚实标注：快照 / 往返均值 / 查询时刻路况 —— 三件事必须同时说清 */
+.rto-note{
+  margin-top:6px;padding-top:6px;border-top:1px dashed var(--c-line);
+  font-size:var(--fs-xs);color:var(--c-text-4);line-height:1.5;
+}
+/* 降级条：配额用尽 / localStorage 不可用 —— 与过载提示区分开来（这是系统状态，不是行程质量） */
+.degbar{
+  flex:none;display:flex;gap:8px;align-items:flex-start;margin:0 0 8px;padding:9px 11px;
+  background:#F1F5FB;border:1px solid #C9DCF5;border-radius:var(--radius-sm);
+  font-size:var(--fs-sm);color:#2B5A99;line-height:1.55;
+}
+.degbar .ico{width:15px;height:15px;flex:none;margin-top:1px}
+/* 住宿段列表（多住宿段）：每天归属一个住宿段，中途换酒店是真实需求 */
+.stayrow{
+  display:flex;align-items:center;gap:8px;padding:8px 11px;border-radius:var(--radius-sm);
+  font-size:var(--fs-sm);color:var(--c-text-2);
+}
+.stayrow.is-on{background:var(--c-primary-soft);color:var(--c-text);font-weight:600}
+.stayrow .sd{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.stayrow .addstay{
+  flex:none;font-size:var(--fs-xs);color:var(--c-primary);border:1px dashed var(--c-primary);
+  border-radius:var(--radius-sm);padding:2px 7px;
+}
+/* 移动端 half 档的汇总条 —— 「一天够不够」在这里就回答，不用滚到 full 档 */
+.m-sum{
+  flex:none;display:flex;align-items:center;gap:14px;padding:9px var(--sp-4);
+  border-top:1px solid var(--c-line-2);font-size:var(--fs-xs);color:var(--c-text-3);
+}
+.m-sum b{color:var(--c-text);font-weight:600;font-variant-numeric:tabular-nums}
+.m-sum .tot{margin-left:auto}
+.m-sum .tot b{font-size:var(--fs-md);font-weight:700}
+/* 时间轴被截断时的出口 */
+.tl-more{
+  padding:8px 2px 2px;font-size:var(--fs-xs);color:var(--c-primary);
+  display:flex;align-items:center;gap:4px;
+}
+
+/* 过载提示：一律「陈述 + 建议」，不用祈使句 —— 顺序的决定权在用户手里 */
+.warnbar{
+  display:flex;gap:9px;align-items:flex-start;padding:9px 11px;
+  background:#FFF8EB;border:1px solid #F2D9A6;border-radius:var(--radius-sm);
+  font-size:var(--fs-sm);color:#88571A;line-height:1.55;
+}
+.warnbar .ico{width:15px;height:15px;flex:none;margin-top:1px;color:#B7791F}
+
+/* 汇总 + 添加点位 */
+.itin-sum{
+  flex:none;padding:11px var(--sp-4) 12px;border-top:1px solid var(--c-line-2);
+  display:flex;align-items:flex-end;justify-content:space-between;gap:12px;
+}
+.itin-sum .l{font-size:var(--fs-xs);color:var(--c-text-3);line-height:1.65}
+.itin-sum .l b{color:var(--c-text);font-weight:600;font-variant-numeric:tabular-nums}
+.itin-sum .big{
+  flex:none;text-align:right;font-size:var(--fs-xl);font-weight:700;
+  color:var(--c-text);line-height:1.2;font-variant-numeric:tabular-nums;
+}
+.itin-sum .big span{display:block;font-size:var(--fs-xs);color:var(--c-text-3);font-weight:500}
+.itin-add{flex:none;padding:0 var(--sp-4) var(--sp-4)}
+.itin-add .addbtn{
+  width:100%;height:40px;border:1.5px dashed var(--c-line);border-radius:var(--radius-md);
+  font-size:var(--fs-md);color:var(--c-text-2);display:flex;align-items:center;justify-content:center;gap:6px;
+}
+.itin-add .addbtn:hover{border-color:var(--c-text-4);color:var(--c-text)}
+
+/* 行程层（降级示意画布）：住宿旗标 + 序号点位 —— 与真实地图的 PIN_STYLES.stay / seq1-9 对应 */
+.fb-stayflag{
+  position:absolute;transform:translate(-50%,-100%);z-index:9;
+  display:flex;flex-direction:column;align-items:center;
+}
+.fb-stayflag b{
+  background:var(--c-food);color:#fff;font-size:10.5px;font-weight:600;
+  padding:2px 8px;border-radius:5px;white-space:nowrap;box-shadow:0 2px 6px rgba(16,24,40,.24);
+}
+.fb-stayflag i{
+  width:0;height:0;border:7px solid transparent;border-bottom-color:var(--c-food);
+  border-top:0;display:block;
+}
+.fb-seq{
+  position:absolute;transform:translate(-50%,-50%);z-index:8;
+  display:flex;flex-direction:column;align-items:center;gap:3px;
+}
+.fb-seqn{
+  width:22px;height:22px;border-radius:50%;background:var(--c-text);color:#fff;
+  font-size:11.5px;font-weight:700;display:flex;align-items:center;justify-content:center;
+  box-shadow:0 2px 6px rgba(16,24,40,.28);
+}
+
+/* 移动端行程：同一套时间轴，只缩字号 */
+.tl--m{padding:0 var(--sp-4) 4px}
+.tl--m .tl-h .hh,.tl--m .tl-h .nm{font-size:var(--fs-sm)}
+.tl--m .tl-body{padding-bottom:9px}
+.m-daytabs{display:flex;gap:6px;padding:0 var(--sp-4) 10px;overflow-x:auto;scrollbar-width:none;flex:none}
+.m-daytabs::-webkit-scrollbar{display:none}
+.m-grip{
+  width:16px;flex:none;display:flex;align-items:center;justify-content:center;
+  color:var(--c-text-4);cursor:grab;font-size:14px;line-height:1;
 }
 
 /* ---------- 8. 原型控制台（非产品 UI，明确与产品区隔） ---------- */
@@ -857,6 +1101,14 @@ a{color:inherit}
     <g id="i-chev-right"><path d="M9 5l7 7-7 7"/></g>
     <g id="i-chev-left"><path d="M15 5l-7 7 7 7"/></g>
     <g id="i-clock"><circle cx="12" cy="12" r="9"/><path d="M12 7v5.4l3.4 2"/></g>
+    <!-- 六种出行方式（09 文档 I4）：用户看到六种，但预计算矩阵只有 driving/walking/bicycling 三条通道，
+         打车复用 driving（差别只在费用），公交 / 地铁运行时按需算 -->
+    <g id="i-driving"><path d="M5 16.5h14"/><path d="M6.5 16.5v-6.6l1.8-2.9h7.4l1.8 2.9v6.6"/><path d="M6.5 12.8h11"/><circle cx="8.2" cy="17.6" r="1.5"/><circle cx="15.8" cy="17.6" r="1.5"/></g>
+    <g id="i-taxi"><path d="M5 16.5h14"/><path d="M6.5 16.5v-6.6l1.8-2.9h7.4l1.8 2.9v6.6"/><path d="M9.6 7V5.4h4.8V7"/><circle cx="8.2" cy="17.6" r="1.5"/><circle cx="15.8" cy="17.6" r="1.5"/></g>
+    <g id="i-transit"><rect x="5" y="5.5" width="14" height="11" rx="2"/><path d="M5 11.5h14"/><circle cx="8" cy="18" r="1.4"/><circle cx="16" cy="18" r="1.4"/></g>
+    <g id="i-subway"><path d="M6.5 5.5h11a2 2 0 0 1 2 2v8.5a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2V7.5a2 2 0 0 1 2-2z"/><path d="M4.5 12.2h15"/><path d="M9 20.5l1.4-2.5M15 20.5l-1.4-2.5"/></g>
+    <g id="i-bicycling"><circle cx="6" cy="16.6" r="3.1"/><circle cx="18" cy="16.6" r="3.1"/><path d="M9 16.6l3.4-7.2 3.6 7.2"/><path d="M12.4 9.4h3.4"/><circle cx="13.6" cy="6.4" r="1.2"/></g>
+    <g id="i-walking"><circle cx="13.4" cy="5" r="1.8"/><path d="M13.4 8.2l-2.6 4.2 2.2 2.1.6 4.4"/><path d="M10.8 12.4l-2.2 2.2-1 4.3"/><path d="M13.4 8.2l3.1 2 1.6 3.2"/></g>
     <g id="i-ticket"><path d="M4 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2a2 2 0 0 0 0 4v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2a2 2 0 0 0 0-4V8z"/><path d="M14 6v12" stroke-dasharray="2 3"/></g>
     <g id="i-timer"><circle cx="12" cy="13" r="8"/><path d="M12 9.5v3.5l2.4 1.4M9 2h6"/></g>
     <g id="i-sun"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.4M12 19.6V22M2 12h2.4M19.6 12H22M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M19.1 4.9l-1.7 1.7M6.6 17.4l-1.7 1.7"/></g>
@@ -868,6 +1120,8 @@ a{color:inherit}
     <g id="i-sparkle"><path d="M12 3.5l1.9 5.1 5.1 1.9-5.1 1.9L12 17.5l-1.9-5.1L5 10.5l5.1-1.9L12 3.5z"/></g>
     <g id="i-camera"><path d="M4 8.5h3l1.6-2.4h6.8L17 8.5h3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-8a1 1 0 0 1 1-1z"/><circle cx="12" cy="13.5" r="3.4"/></g>
     <g id="i-check"><path d="M5 12.5l4.5 4.5L19 7.5"/></g>
+    <g id="i-info"><circle cx="12" cy="12" r="9"/><path d="M12 11v5.5M12 7.8v.2"/></g>
+    <g id="i-upload"><path d="M12 16.5V5.5M7.5 10L12 5.5 16.5 10M4.5 19.5h15"/></g>
     <g id="i-alert"><circle cx="12" cy="12" r="9"/><path d="M12 7.5v5.5M12 16.3v.2"/></g>
     <g id="i-globe"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.6 2.6 15.4 0 18M12 3c-2.6 2.6-2.6 15.4 0 18"/></g>
   </defs>
@@ -1657,8 +1911,119 @@ window.HJ = (function () {
     return 1;
   }
 
+  /* ======================================================================
+     行程规划数据（09 文档第四节）
+     -----------------------------------------------------------------------
+     ★ 这里是「原型的 mock 替身」，边界要说清：
+       真实实现里，行程（Stay / ItineraryDay / DayItem）存 localStorage，
+       通勤时长读构建期预计算好的 base36 矩阵（data/_generated/transit.json）。
+       原型没有那一步产物，于是用「真实坐标 + haversine 直线距离 × 方式系数」本地推算替代。
+       这样做守住了三件事：
+         ① 时间链是**真推导**的（纯函数累加），不是写死的字符串
+         ② POI↔POI 段仍然零 API 调用（纯本地查 / 算）
+         ③  distances 与真实 POI 坐标一致，换点位数值会跟着变
+       没有守住的是：真实矩阵里的「路网绕行 + 路况快照」。所以 UI 上必须标「估算」。
+     ====================================================================== */
+
+  /**
+   * 住宿段列表 —— ★ 支持中途换酒店（09 文档 I1）：每天归属一个住宿段，
+   *   前几天住城中心、后几天住熊猫基地附近，是真实需求，不是边缘 case。
+   *   住宿点 = 「他在哪过夜」，是隐私：只存 localStorage，不上传、不进 URL；
+   *   分享链接默认脱敏（见 plan-share）。
+   * source（4.1.1 三路输入）：poi = 从 POI 里选 / geocoded = 关键词搜索定位 /
+   *   picked = 地图点选。地图挂掉时 picked 必须能降级到 geocoded。
+   */
+  var STAYS = [
+    {
+      id: 'stay-1', name: '春熙路某酒店', source: 'geocoded',
+      address: '锦江区中纱帽街 8 号', lng: 104.0817, lat: 30.6570,
+      fromDay: 1, toDay: 2
+    },
+    {
+      /* 第 3 天换到城北 —— 这一天专攻熊猫基地与东郊，住城北能省下往返 40 分钟 */
+      id: 'stay-2', name: '熊猫基地附近民宿', source: 'picked',
+      address: '成华区熊猫大道 · 地图点选', lng: 104.1500, lat: 30.7400,
+      fromDay: 3, toDay: 3
+    }
+  ];
+
+  /** 按天取住宿段 —— 换酒店后同一份时间链代码不用改，取的 stay 自动跟着变 */
+  function stayOf(day) {
+    for (var i = 0; i < STAYS.length; i++) if (STAYS[i].id === day.stayId) return STAYS[i];
+    return STAYS[0];
+  }
+
+  /** 三天行程示例 —— ★ items 的顺序完全由用户决定，系统不重排（不做 TSP / 2-opt） */
+  var PLAN_DAYS = [
+    { day: 1, stayId: 'stay-1', startTime: '09:00', items: [
+      { uid: 'd1-1', poiId: 'kuanzhai-alley', dwell: 90, modeToNext: 'driving' },
+      { uid: 'd1-2', poiId: 'peoples-park',   dwell: 60, modeToNext: 'walking' },
+      { uid: 'd1-3', poiId: 'gaiwan-tea',     dwell: 45, modeToNext: 'walking' },
+      { uid: 'd1-4', poiId: 'xiaolongkan',    dwell: 75, modeToNext: 'driving' },
+      { uid: 'd1-5', poiId: 'taikooli',       dwell: 60, modeToNext: 'walking' }
+    ]},
+    { day: 2, stayId: 'stay-1', startTime: '08:30', items: [
+      { uid: 'd2-1', poiId: 'panda-base',   dwell: 180, modeToNext: 'driving' },
+      { uid: 'd2-2', poiId: 'wuhou-shrine', dwell: 120, modeToNext: 'driving' },
+      { uid: 'd2-3', poiId: 'jinli',        dwell: 90,  modeToNext: 'walking' },
+      { uid: 'd2-4', poiId: 'jiuyanqiao',   dwell: 75,  modeToNext: 'driving' }
+    ]},
+    { day: 3, stayId: 'stay-2', startTime: '09:00', items: [
+      { uid: 'd3-1', poiId: 'dongjiao-memory', dwell: 60, modeToNext: 'walking' },
+      { uid: 'd3-2', poiId: 'jianshe-alley',   dwell: 45, modeToNext: 'driving' },
+      { uid: 'd3-3', poiId: 'qinglong-lake',   dwell: 75, modeToNext: 'driving' },
+      { uid: 'd3-4', poiId: 'wenshu-monastery',dwell: 60, modeToNext: 'driving' }
+    ]}
+  ];
+
+  /**
+   * 六种出行方式 —— ★ 用户看到六种，但预计算矩阵只有 driving/walking/bicycling 三条通道。
+   *   · 打车 taxi      复用 driving 的时长，差别只在费用（matrix 不复存第二份）
+   *   · 公交 / 地铁    无批量接口 + 时效性最强 → 运行时按需算，不进矩阵
+   * maxKm 是 09 文档 3.2.5 的阈值裁剪：步行 3km / 骑行 8km 之外即「不适用」，
+   * UI 要引导换方式，而不是显示一个「步行 7 小时」的噪音数字。
+   */
+  var MODE_META = [
+    { key: 'driving',   label: '驾车', ico: 'driving',   detour: 1.35, speed: 26,  maxKm: Infinity, channel: 'driving' },
+    { key: 'taxi',      label: '打车', ico: 'taxi',      detour: 1.35, speed: 26,  maxKm: Infinity, channel: 'driving', fare: true },
+    { key: 'transit',   label: '公交', ico: 'transit',   detour: 1.45, speed: 18,  maxKm: Infinity, channel: null, live: true },
+    { key: 'subway',    label: '地铁', ico: 'subway',    detour: 1.45, speed: 20,  maxKm: Infinity, channel: null, live: true },
+    { key: 'bicycling', label: '骑行', ico: 'bicycling', detour: 1.25, speed: 14,  maxKm: 8,        channel: 'bicycling' },
+    { key: 'walking',   label: '步行', ico: 'walking',   detour: 1.22, speed: 4.8, maxKm: 3,        channel: 'walking' }
+  ];
+  var MODE_BY_KEY = {};
+  MODE_META.forEach(function (m) { MODE_BY_KEY[m.key] = m; });
+
+  /** haversine 直线距离（米）—— 纯本地，零调用，构建期做阈值裁剪也用它 */
+  function straightMeters(a, b) {
+    var R = 6371000, rad = Math.PI / 180;
+    var dLat = (b.lat - a.lat) * rad, dLng = (b.lng - a.lng) * rad;
+    var h = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+            Math.cos(a.lat * rad) * Math.cos(b.lat * rad) *
+            Math.sin(dLng / 2) * Math.sin(dLng / 2);
+    return 2 * R * Math.asin(Math.sqrt(h));
+  }
+
+  /** 通勤矩阵替身：给两个地点 + 方式，返回 { distance 米, duration 秒, na 是否不适用 } */
+  function legEstimate(from, to, modeKey) {
+    var m = MODE_BY_KEY[modeKey] || MODE_BY_KEY.driving;
+    var straight = straightMeters(from, to);
+    if (straight / 1000 > m.maxKm) {
+      return { distance: Math.round(straight), duration: 0, na: true, mode: m };
+    }
+    var road = straight * m.detour;
+    return {
+      distance: Math.round(road),
+      duration: Math.round(road / 1000 / m.speed * 3600),
+      na: false, mode: m
+    };
+  }
+
   return {
     PHOTO: PHOTO, photo: photo,
+    STAYS: STAYS, stayOf: stayOf, PLAN_DAYS: PLAN_DAYS,
+    MODE_META: MODE_META, MODE_BY_KEY: MODE_BY_KEY,
+    straightMeters: straightMeters, legEstimate: legEstimate,
     CATS: CATS, CAT_NAME: CAT_NAME, CAT_KEY: CAT_KEY,
     SUBTYPE_META: SUBTYPE_META, SUBTYPE_GROUPS: SUBTYPE_GROUPS, subOf: subOf,
     AUDIENCE: AUDIENCE, AUD_LABEL: AUD_LABEL, A11Y_LABEL: A11Y_LABEL,
@@ -1743,7 +2108,13 @@ window.HJ = (function () {
     userMoved: false,
     myPos: null,             // 用户授权定位后的本地坐标（不落库、不上传）
     lbIndex: 0,
-    lbList: []
+    lbList: [],
+    planDay: 1,                 // 行程：当前查看第几天
+    openLeg: null,              // 行程：当前展开方案卡的那一段（DayItem.uid），null = 全部收起
+    editDwell: null,            // 行程：正在就地改停留时长的那一项（uid）
+    planOpts: {},               // 行程：每段选中的方案 A/B/C（uid → 'A'|'B'|'C'）
+    hoverLeg: null,             // 行程：鼠标悬停的那一段 → 地图连线提亮 + 其余降到 40%
+    degrade: 'none'             // 降级演示开关：none | quota | nostore | broken-link | single-opt | no-fare
   };
 
   /* 分端默认底图：桌面影像 / 移动矢量（08 文档 2.6） */
@@ -1922,6 +2293,10 @@ window.HJ = (function () {
      一并删掉 —— 留着会让后来者误以为还存在「城市点」这一层。 */
   var MAP = null, markers = null, labels = null;
   var regLabels = null;          // ★ 省 / 市计数徽标层（MultiLabel：内容逐条不同，样式按密度分级）
+  /* 行程规划页专用图层（09 文档 6.3）：
+       routeLines  = 当天连线（MultiPolyline）
+       seqMarkers  = 序号圆点 ①②③（MultiMarker，与 POI marker 分层，避免互相覆盖） */
+  var routeLines = null, seqMarkers = null, congestLines = null;
   var REG_STYLES = {};
   var PIN_STYLES = {};
 
@@ -2004,6 +2379,31 @@ window.HJ = (function () {
     PIN_STYLES.city = new TMap.MarkerStyle({ width: 44, height: 44, anchor: { x: 0.5, y: 0.5 }, src: citySVG(false) });
     PIN_STYLES.cityA = new TMap.MarkerStyle({ width: 44, height: 44, anchor: { x: 0.5, y: 0.5 }, src: citySVG(true) });
 
+    /* ★ 行程页：序号圆点 ①–⑨ + 住宿点旗标（住宿点是行程的锚，形状刻意与 POI 水滴针区分） */
+    function seqSVG(n) {
+      var svg = '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">' +
+        '<circle cx="15" cy="15" r="12.5" fill="#161A22" stroke="#FFFFFF" stroke-width="2.5"/>' +
+        '<text x="15" y="15.5" text-anchor="middle" dominant-baseline="middle" fill="#FFFFFF" ' +
+        'font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="700">' + n + '</text></svg>';
+      return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+    }
+    function staySVG() {
+      var svg = '<svg xmlns="http://www.w3.org/2000/svg" width="40" height="52" viewBox="0 0 40 52">' +
+        '<path d="M20 50C20 50 34 30 34 19A14 14 0 1 0 6 19C6 30 20 50 20 50Z" fill="#E8672F" ' +
+        'stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"/>' +
+        '<path d="M13.5 17.5h13v10h-13z" fill="#FFFFFF"/>' +
+        '<path d="M20 12.5l6.5 5h-13z" fill="#FFFFFF"/></svg>';
+      return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+    }
+    for (var si = 1; si <= 9; si++) {
+      PIN_STYLES['seq' + si] = new TMap.MarkerStyle({
+        width: 30, height: 30, anchor: { x: 0.5, y: 0.5 }, src: seqSVG(si)
+      });
+    }
+    PIN_STYLES.stay = new TMap.MarkerStyle({
+      width: 40, height: 52, anchor: { x: 0.5, y: 1 }, src: staySVG()
+    });
+
     /* ★ 省 / 市计数徽标样式：底色 = 收录密度（0 未收录 / 1 → 1–19 / 2 → 20–49 / 3 → 50+），各带选中态。
        用 LabelStyle 而不是 MarkerStyle，因为徽标内容（「四川 46」）逐条不同，
        只有 MultiLabel 能按 geometry.content 动态渲染文字。 */
@@ -2044,6 +2444,58 @@ window.HJ = (function () {
         else if (S.route === 'province') gotoCityByAdcode(g.id);
       });
     } catch (e) { regLabels = null; }
+
+    /* ★ 行程连线层：预计算矩阵只存距离与时长、**不存路径点**（否则体积暴涨），
+       所以静态命中画的是「直连」并必须标注「直线示意」；只有运行时真调了路线规划
+       才画真实折线。这是 09 文档 6.1 的既定取舍，不是画得糙。
+
+       ★ 每段一条 geometry（关键改动）：以前整条一天画成一根 path，导致
+         6.3 的四条联动（hover 提亮 / 点段收窄 / 拥堵描色 / 换方式换线型）全部无从下手。
+         样式按「方式（实/虚）× 聚焦态（提亮/常态/降透明度）」组合，共 6 个：
+           leg / legWalk          常态：驾车类实线、步行虚线
+           legOn / legWalkOn      聚焦：加粗并转主色
+           legDim / legWalkDim    有聚焦但非本段：降到 40%
+         dashArray 是腾讯 PolylineStyle 的官方参数（[0,0] 为实线）。 */
+    try {
+      function mkLine(color, width, dash) {
+        return new TMap.PolylineStyle({
+          color: color, width: width, borderWidth: 1.6, borderColor: '#FFFFFF',
+          lineCap: 'round', dashArray: dash
+        });
+      }
+      routeLines = new TMap.MultiPolyline({
+        map: MAP,
+        styles: {
+          leg:        mkLine('#161A22', 4,   [0, 0]),
+          legWalk:    mkLine('#161A22', 3.5, [8, 6]),
+          legOn:      mkLine('#1677FF', 5.5, [0, 0]),
+          legWalkOn:  mkLine('#1677FF', 5,   [8, 6]),
+          legDim:     mkLine('rgba(22,26,34,0.4)', 4,   [0, 0]),
+          legWalkDim: mkLine('rgba(22,26,34,0.4)', 3.5, [8, 6])
+        },
+        geometries: []
+      });
+    } catch (e) { routeLines = null; }
+
+    /* ★ 拥堵子段层：叠在基准线之上画细红线（6.3.1 —— 同一条路线画两条线）。
+       不给整条线换色，是因为那样看不出「堵的是哪一段」。
+       ⚠️ 刻意不做「蚂蚁线」流光：那是导航 App 的语言，会让人误以为是实时导航，
+       而我们给的是「查询时刻的快照」（09 文档 6.3.1 注）。 */
+    try {
+      congestLines = new TMap.MultiPolyline({
+        map: MAP,
+        styles: {
+          jam: new TMap.PolylineStyle({ color: '#F5222D', width: 6, borderWidth: 0, lineCap: 'butt', dashArray: [0, 0] }),
+          slow: new TMap.PolylineStyle({ color: '#FA8C16', width: 6, borderWidth: 0, lineCap: 'butt', dashArray: [0, 0] })
+        },
+        geometries: []
+      });
+    } catch (e) { congestLines = null; }
+
+    /* 序号层：与 POI marker 分成两层，避免序号圆点被点位针盖住 */
+    try {
+      seqMarkers = new TMap.MultiMarker({ map: MAP, styles: PIN_STYLES, geometries: [] });
+    } catch (e) { seqMarkers = null; }
 
     /* POI 名称标签层（城市视图按细类色显示名称） */
     try {
@@ -2273,6 +2725,21 @@ window.HJ = (function () {
       pts = D.SICHUAN_CITIES.map(function (c) { return { lng: c.lng, lat: c.lat }; });
     } else if (S.route === 'city') {
       pts = viewPois();
+    } else if (S.route === 'plan') {
+      /* 行程层：★ 住宿点必须参与 fitBounds，否则一进页面就看不见「我从哪出发」。
+         取的是**当天所属**住宿段 —— 中途换酒店后视野跟着换锚点。
+         S.fitLeg 时只框该段两端点（点一段 = 想看清这一段，见 09 文档 6.3） */
+      if (S.fitLeg) {
+        var lg0 = legByKey(S.fitLeg);
+        if (lg0 && lg0.from && lg0.to) {
+          pts = [{ lng: lg0.from.lng, lat: lg0.from.lat }, { lng: lg0.to.lng, lat: lg0.to.lat }];
+        }
+      }
+      if (!pts) {
+        var pDay0 = planDay(), planPts = pDay0.items.map(placeOf).filter(Boolean);
+        var st0 = D.stayOf(pDay0);
+        pts = [{ lng: st0.lng, lat: st0.lat }].concat(planPts);
+      }
     } else {
       pts = (me ? [me] : []).concat(D.POIS.filter(function (p) {
         return me && p.id !== me.id && distTo(p.lng, p.lat) < 3.2;
@@ -2315,6 +2782,43 @@ window.HJ = (function () {
         '</g>';
     }
 
+    /* ★ 行程连线：画在背景 svg 里（对应真实地图的 MultiPolyline）。
+       用虚线是因为预计算矩阵**不存路径点**（只存距离与时长），静态命中只能直连 ——
+       这是 09 文档 6.1 的既定取舍，UI 上也必须标注「直线示意」，不能假装是真实路线。 */
+    if (S.route === 'plan') {
+      /* ★ 逐段画线，而不是画一整条 —— 段是行程的一等公民：
+           hover 某段要提亮、其余降到 40%；步行段要画虚线；拥堵子段要在上层叠一条橙/红线。
+           这三个语义在一整条 path 上统统做不到，这也是这版重写的唯一理由。
+         诚实标注：所有段都是「直线示意」（矩阵只存距离与时长、不存路径点），
+           统一由图例声明，不逐段打标签 —— 否则图上全是字，反而看不见线。 */
+      var fbTl = buildTimeline(planDay()), fbHot = focusLegIndex(fbTl);
+      fbTl.legs.forEach(function (lg, li) {
+        if (!lg.from || !lg.to) return;
+        var hot = fbHot === li, dim = fbHot >= 0 && !hot;
+        var walk = lg.modeKey === 'walking';
+        var a = projectPoint(lg.from.lng, lg.from.lat, view, W, H);
+        var b = projectPoint(lg.to.lng, lg.to.lat, view, W, H);
+        /* class 供自检探针统计「当天画了几段线」——没有类名就只能数 <path>，
+           而背景里还有道路弧线，数出来是错的 */
+        bg += '<path class="fb-leg' + (hot ? ' is-hot' : dim ? ' is-dim' : '') +
+          '" d="M' + a.x.toFixed(1) + ',' + a.y.toFixed(1) +
+          'L' + b.x.toFixed(1) + ',' + b.y.toFixed(1) + '" fill="none" stroke="' +
+          (hot ? '#1677FF' : '#161A22') + '" stroke-width="' + (hot ? 4.5 : 3) + '"' +
+          (walk ? ' stroke-dasharray="7 6"' : '') +
+          ' stroke-linecap="round" opacity="' + (dim ? '.4' : '.85') + '"/>';
+        /* 拥堵子段：★ 只有「点开过这一段」（拉了多方案 + get_speed）才有路况数据，
+           所以拥堵描色只出现在展开方案卡的那一段 —— 没拉过就画，是在编造路况。
+           抖动的子段位置是**示意**（无真实 polyline），看图例注明的「拥堵为示意」。 */
+        if (hot && fbHot === li && S.openLeg) {
+          var c1 = projectPoint(lerpPt(lg.from, lg.to, .42).lng, lerpPt(lg.from, lg.to, .42).lat, view, W, H);
+          var c2 = projectPoint(lerpPt(lg.from, lg.to, .70).lng, lerpPt(lg.from, lg.to, .70).lat, view, W, H);
+          bg += '<path class="fb-leg-jam" d="M' + c1.x.toFixed(1) + ',' + c1.y.toFixed(1) +
+            'L' + c2.x.toFixed(1) + ',' + c2.y.toFixed(1) + '" fill="none" stroke="#F5222D" ' +
+            'stroke-width="5.5" stroke-linecap="round" opacity=".9"/>';
+        }
+      });
+    }
+
     /* 点位 + 点聚合 */
     var pins = '';
     if (isRegion) {
@@ -2335,6 +2839,20 @@ window.HJ = (function () {
           '<b>' + esc(shortName(it.name)) + '</b>' +
           '<span class="fb-cnt' + (it.count == null ? ' is-none' : '') + '">' + (it.count == null ? '—' : it.count) + '</span>' +
           '</div>';
+      });
+    } else if (S.route === 'plan') {
+      /* 行程层：住宿旗标（行程的锚）+ 序号点位。
+         ★ 住宿点形状刻意与点位不同（方旗 vs 圆点），一眼能分出「起点」与「途经点」 */
+      var fStay = D.stayOf(planDay());
+      var sq = projectPoint(fStay.lng, fStay.lat, view, W, H);
+      pins += '<div class="fb-stayflag" style="left:' + sq.x.toFixed(1) + 'px;top:' + sq.y.toFixed(1) + 'px">' +
+        '<b>' + esc(fStay.name) + '</b><i></i></div>';
+      var flagPts = planDay().items.map(placeOf).filter(Boolean);
+      flagPts.forEach(function (p, i) {
+        var q = projectPoint(p.lng, p.lat, view, W, H);
+        pins += '<div class="fb-seq" style="left:' + q.x.toFixed(1) + 'px;top:' + q.y.toFixed(1) + 'px">' +
+          '<span class="fb-seqn">' + (i + 1) + '</span>' +
+          '<span class="fb-dot" style="background:' + (p.subColor || '#161A22') + '"></span></div>';
       });
     } else {
       var cell = isM ? 30 : 32;   // 聚合网格边长（px），越大地图越「抱团」
@@ -2387,6 +2905,27 @@ window.HJ = (function () {
         var cb = new TMap.LatLngBounds(new TMap.LatLng(90, 180), new TMap.LatLng(-90, -180));
         D.SICHUAN_CITIES.forEach(function (c) { cb.extend(new TMap.LatLng(c.lat, c.lng)); });
         MAP.fitBounds(cb, { padding: pad, duration: dur });
+      } else if (S.route === 'plan') {
+        /* 行程层：把「住宿点 + 当天点位」一起框进空区 —— 住宿点必须参与 fitBounds，
+           否则行程的起点会落在视野外，用户一进页面就看不到自己从哪出发 */
+        var pbox = new TMap.LatLngBounds(new TMap.LatLng(90, 180), new TMap.LatLng(-90, -180));
+        /* 点开某一段后，视野收到那一段的两个端点 —— 「我看这一段」不该被整天的点拉远 */
+        if (S.fitLeg) {
+          var lg0 = legByKey(S.fitLeg);
+          if (lg0 && lg0.from && lg0.to) {
+            pbox.extend(new TMap.LatLng(lg0.from.lat, lg0.from.lng));
+            pbox.extend(new TMap.LatLng(lg0.to.lat, lg0.to.lng));
+            MAP.fitBounds(pbox, { padding: pad, duration: dur });
+            return;
+          }
+        }
+        var fitDay = planDay(), fitStay = D.stayOf(fitDay);
+        pbox.extend(new TMap.LatLng(fitStay.lat, fitStay.lng));
+        fitDay.items.forEach(function (it) {
+          var p = placeOf(it);
+          if (p) pbox.extend(new TMap.LatLng(p.lat, p.lng));
+        });
+        MAP.fitBounds(pbox, { padding: pad, duration: dur });
       } else if (S.route === 'city') {
         var list = viewPois();
         if (!list.length) return;
@@ -2441,6 +2980,12 @@ window.HJ = (function () {
         ? list.filter(function (it) { return it.count != null; }) : list;
     };
     try {
+      /* 行程专用图层默认清空，只在 plan 分支重建 —— 防止切走路线后连线还挂在地图上 */
+      if (S.route !== 'plan') {
+        if (routeLines) routeLines.setGeometries([]);
+        if (congestLines) congestLines.setGeometries([]);
+        if (seqMarkers) seqMarkers.setGeometries([]);
+      }
       if (S.route === 'home') {
         /* 全国层：34 个省级单位的计数徽标；四川高亮 */
         if (markers) markers.setGeometries([]);
@@ -2455,9 +3000,55 @@ window.HJ = (function () {
         if (regLabels) regLabels.setGeometries(mobOnlyData(D.SICHUAN_CITIES).map(function (c) {
           return regGeom(c, c.id === SC_CITY && c.count != null);
         }));
+      } else if (S.route === 'plan') {
+        /* ★ 行程层：住宿点 + 当天点位（细类着色）+ 序号 + 连线。
+           只画「当天」的点位与连线 —— 切天时整层重画（09 文档 6.3 最后一行） */
+        if (regLabels) regLabels.setGeometries([]);
+        if (labels) labels.setGeometries([]);
+        var day = planDay(), stay = D.stayOf(day);
+        var pins = [], seqs = [], path = [];
+        day.items.forEach(function (it, i) {
+          var p = placeOf(it);
+          if (!p) return;
+          pins.push({ id: p.id, styleId: 'sub-' + p.subtype, position: new TMap.LatLng(p.lat, p.lng) });
+          seqs.push({ id: 'seq-' + it.uid, styleId: 'seq' + Math.min(9, i + 1), position: new TMap.LatLng(p.lat, p.lng) });
+          path.push(new TMap.LatLng(p.lat, p.lng));
+        });
+        pins.push({ id: 'stay-' + stay.id, styleId: 'stay', position: new TMap.LatLng(stay.lat, stay.lng) });
+        if (markers) markers.setGeometries(pins);
+        if (seqMarkers) seqMarkers.setGeometries(seqs);
+
+        /* ★ 逐段 geometry：id 用段的稳定 key（住宿出发段是 '__leg0'，其余用来源 stop 的 uid），
+           这样 hoverLeg / openLeg 能对上具体哪一根线 */
+        var tl = buildTimeline(day), hot = focusLegIndex(tl), jams = [];
+        var geos = tl.legs.map(function (lg, li) {
+          if (!lg.from || !lg.to) return null;
+          var isWalk = lg.modeKey === 'walking';
+          var isHot = hot === li, dimmed = hot >= 0 && !isHot;
+          var sid = isWalk ? (isHot ? 'legWalkOn' : dimmed ? 'legWalkDim' : 'legWalk')
+                           : (isHot ? 'legOn'     : dimmed ? 'legDim'     : 'leg');
+          /* 拥堵描色只给「展开过方案卡」的那一段 —— 路况数据是在点开时才拉的，
+             没拉过就把红段画上去，等于凭空编路况（09 文档 3.6.1 / 6.3.1） */
+          if (isHot && S.openLeg && lg.na !== true) {
+            var s1 = lerpPt(lg.from, lg.to, .42), s2 = lerpPt(lg.from, lg.to, .70);
+            jams.push({
+              id: 'jam-' + li, styleId: 'jam',
+              paths: [new TMap.LatLng(s1.lat, s1.lng), new TMap.LatLng(s2.lat, s2.lng)]
+            });
+          }
+          return {
+            id: 'leg-' + li, styleId: sid,
+            paths: [new TMap.LatLng(lg.from.lat, lg.from.lng), new TMap.LatLng(lg.to.lat, lg.to.lng)]
+          };
+        }).filter(Boolean);
+        if (routeLines) routeLines.setGeometries(geos);
+        if (congestLines) congestLines.setGeometries(jams);
       } else {
         /* 城市 / 详情层：细类着色的 POI marker */
         if (regLabels) regLabels.setGeometries([]);
+        if (routeLines) routeLines.setGeometries([]);
+        if (congestLines) congestLines.setGeometries([]);
+        if (seqMarkers) seqMarkers.setGeometries([]);
         var list = S.route === 'city' ? visiblePois() : D.POIS.filter(function (p) {
           return p.id === S.poiId || distTo(p.lng, p.lat) < 3.2;
         }).slice(0, 40);
@@ -2505,10 +3096,17 @@ window.HJ = (function () {
     if (S.device !== 'desktop') { elTopbar.innerHTML = ''; return; }
     var city = CITY_BY_ID[S.cityId];
     var isDetail = S.route === 'detail';
+    var isPlan = S.route === 'plan';
     var poi = POI_BY_ID[S.poiId];
 
     var left = '';
-    if (isDetail) {
+    if (isPlan) {
+      /* 行程页顶栏：返回城市 + 面包屑 + DayTabs（切天放在顶栏，不占面板高度） */
+      left = '<button class="btn" data-act="goto-city">' + ico('back', 'ico--sm') + '返回城市页</button>' +
+             '<nav class="crumb" aria-label="当前位置"><button data-act="goto-city">' +
+             esc((city && city.name) || '成都') + '</button><span class="sep">/</span><b>我的行程</b></nav>' +
+             dayTabsHTML();
+    } else if (isDetail) {
       left = '<button class="btn" data-act="goto-city">' + ico('back', 'ico--sm') + '返回城市页</button>' +
              crumbHTML() +
              '<nav class="navlinks" style="margin-left:2px"><a href="#" aria-current="page">' + esc(poi.name) + '</a></nav>';
@@ -2526,6 +3124,11 @@ window.HJ = (function () {
     }
 
     var right = '';
+    if (isPlan) {
+      /* 导出 / 分享：纯前端实现（JSON 下载 + LZ-string 压缩进 URL hash），不需要后端 */
+      right += '<button class="btn" data-act="plan-export">' + ico('link', 'ico--sm') + '导出</button>';
+      right += '<button class="btn" data-act="plan-share">' + ico('share', 'ico--sm') + '分享</button>';
+    }
     if (isDetail) {
       right += '<button class="btn" data-act="share">' + ico('share', 'ico--sm') + '分享</button>';
     }
@@ -2533,7 +3136,7 @@ window.HJ = (function () {
     right += '<button class="iconbtn" data-act="lock" aria-pressed="' + S.baseLocked + '" aria-label="' +
              (S.baseLocked ? '解除底图锁定' : '锁定底图，禁止自动切换') + '">' +
              ico(S.baseLocked ? 'lock' : 'unlock', 'ico--sm') + '</button>';
-    if (!isDetail) {
+    if (!isDetail && !isPlan) {
       right += '<span class="vdiv"></span><nav class="navlinks">' +
                '<a href="#" aria-current="page">城市</a><a href="#" data-act="about">关于</a>' +
                '<a href="#" data-act="about">数据来源</a></nav>';
@@ -2554,10 +3157,402 @@ window.HJ = (function () {
   }
 
   /* ---------- 左面板 ---------- */
+  /* ======================================================================
+     行程规划（09 文档）
+     -----------------------------------------------------------------------
+     ★ 定位重申：这是「行程计时器」，不是「路线优化器」。
+       buildTimeline 是一条直线推导，没有任何搜索或优化 —— 因为顺序由用户定，
+       且缺少营业时间窗 / 预约时段的数据，「最优顺序」不可信（09 文档 1.1）。
+     ====================================================================== */
+  function placeOf(it) { return POI_BY_ID[it.poiId] || null; }
+  /** 一段的「归属 uid」= 出发那个 stop 的 uid（住宿出发段为 null） */
+  function uidOf(st) { return st && st.kind === 'poi' ? st.item.uid : null; }
+
+  /**
+   * 段的稳定 key —— ★ 住宿出发段没有 uid（出发点是住宿不是 POI），给它一个伪 key '__leg0'，
+   *   否则第一段永远无法被 hover 聚焦、也无法展开方案卡（它在 UI 上明明存在）。
+   */
+  function legKeyOf(st, i) { return st && st.kind === 'poi' ? st.item.uid : (i === 0 ? '__leg0' : null); }
+
+  /** 当前被聚焦的段下标：hover 优先于展开；无聚焦返回 -1（此时所有段都是常态） */
+  function focusLegIndex(tl) {
+    var idx = -1;
+    for (var i = 0; i < tl.stops.length; i++) {
+      var k = legKeyOf(tl.stops[i], i);
+      if (k && (k === S.hoverLeg || k === S.openLeg)) idx = i;
+    }
+    return idx;
+  }
+
+  /** 两点线性插值 —— 拥堵子段用它切出中间一小截。≈ 示意级精度，够用且诚实标注了 */
+  function lerpPt(a, b, t) {
+    return { lng: a.lng + (b.lng - a.lng) * t, lat: a.lat + (b.lat - a.lat) * t };
+  }
+
+  function fmtDur(sec) {
+    if (sec == null) return '—';
+    var m = Math.max(0, Math.round(sec / 60));
+    if (m < 60) return m + ' 分';
+    return Math.floor(m / 60) + ' 小时 ' + (m % 60) + ' 分';
+  }
+  function fmtClock(mins) {
+    var m = ((mins % 1440) + 1440) % 1440;          // 跨天保护
+    return ('0' + Math.floor(m / 60)).slice(-2) + ':' + ('0' + (m % 60)).slice(-2);
+  }
+  function parseClock(hhmm) {
+    var p = String(hhmm || '09:00').split(':');
+    return (parseInt(p[0], 10) || 0) * 60 + (parseInt(p[1], 10) || 0);
+  }
+  function fmtKm(m) { return m >= 1000 ? (m / 1000).toFixed(1) + ' km' : Math.round(m) + ' m'; }
+
+  /** ★ 纯函数：给定一天的计划 + 住宿点，推导完整时间链。stops = [住宿] + 点位… + [住宿] */
+  function buildTimeline(day) {
+    var stay = D.stayOf(day);
+    var stops = [{ kind: 'stay', place: stay }];
+    day.items.forEach(function (it) {
+      var p = placeOf(it);
+      if (p) stops.push({ kind: 'poi', item: it, place: p });
+    });
+    stops.push({ kind: 'stay', place: stay });      // ★ 末段回到住宿
+
+    var t = parseClock(day.startTime), transit = 0, dwell = 0;
+    stops[0].atMin = t;
+    var legs = [];
+    for (var i = 0; i < stops.length - 1; i++) {
+      var mode = stops[i].kind === 'poi' ? (stops[i].item.modeToNext || 'driving') : 'driving';
+      var lg = D.legEstimate(stops[i].place, stops[i + 1].place, mode);
+      lg.modeKey = mode; lg.from = stops[i].place; lg.to = stops[i + 1].place;
+      /* ★ 用户在多方案卡里选了 B / C，就把该段时长按方案系数放大 —— 时间链整体随之后移。
+         注意：只改时间，不改顺序；选哪条路的决定权也在用户手里。 */
+      var opt = (uidOf(stops[i])) != null ? S.planOpts[uidOf(stops[i])] : null;
+      if (opt === 'B') lg.duration = Math.round(lg.duration * 1.22);
+      else if (opt === 'C') lg.duration = Math.round(lg.duration * 1.35);
+      legs.push(lg);
+      if (!lg.na) { t += Math.round(lg.duration / 60); transit += lg.duration; }
+      stops[i + 1].atMin = t;
+      if (stops[i + 1].kind === 'poi') {
+        t += stops[i + 1].item.dwell;
+        stops[i + 1].leaveMin = t;
+        dwell += stops[i + 1].item.dwell;
+      }
+    }
+    return { startTime: day.startTime, startMin: parseClock(day.startTime), endMin: t,
+             legs: legs, stops: stops, transitSec: transit, dwellMin: dwell };
+  }
+
+  /** 四条过载规则 —— ★ 一律「陈述 + 建议」，不用祈使句（顺序的决定权在用户手里） */
+  function overloadWarnings(tl) {
+    var out = [];
+    if (tl.endMin > 22 * 60) {
+      out.push('行程排到 ' + fmtClock(tl.endMin) + '，可能过晚 · 建议减少 1 个点位');
+    }
+    if (tl.dwellMin > 0 && tl.transitSec > tl.dwellMin * 60 * 0.5) {
+      out.push('路上耗掉 ' + fmtDur(tl.transitSec) + '，接近游玩时间的一半 · 建议把相近的点位安排在一起');
+    }
+    var mx = null;
+    tl.legs.forEach(function (l) { if (!l.na && (!mx || l.duration > mx.duration)) mx = l; });
+    if (mx && mx.duration > 60 * 60) {
+      out.push('有一段需 ' + fmtDur(mx.duration) + '，是全天最长的一段 · 可考虑换个顺序');
+    }
+    var naLeg = null;
+    tl.legs.forEach(function (l) { if (l.na && !naLeg) naLeg = l; });
+    if (naLeg) {
+      /* ★ 「不适用」要给**替代方式的具体时长**，只说「建议换方式」等于把活推回给用户（09 文档 3.2.5）。
+         这里就在本地把其他可用方式算出来，取最快的两条列给用户 —— 零 API 调用，矩阵查表而已。 */
+      var alts = D.MODE_META.map(function (m) {
+        var e = D.legEstimate(naLeg.from, naLeg.to, m.key);
+        return e.na ? null : { m: m, e: e };
+      }).filter(Boolean).sort(function (x, y) { return x.e.duration - y.e.duration; }).slice(0, 2);
+      out.push('有一段 ' + naLeg.mode.label + '超出合理距离（' + fmtKm(naLeg.distance) + ' 直线）' +
+        (alts.length
+          ? ' · 改用' + alts.map(function (a) {
+              return a.m.label + '约 ' + fmtDur(a.e.duration);
+            }).join(' / ') + ' · 或考虑删掉该点'
+          : ' · 该段距离超出所有方式的合理范围，建议删掉该点'));
+    }
+    return out;
+  }
+
+  /** 六种方式切换条 —— ★ 用户看到六种，但矩阵只有三条通道；不适用者灰掉并划掉 */
+  function modestripHTML(uid, cur, lg) {
+    return '<div class="modestrip">' + D.MODE_META.map(function (m) {
+      var na = false;
+      if (lg && lg.from && lg.to) na = D.legEstimate(lg.from, lg.to, m.key).na;
+      return '<button class="modepill' + (na ? ' is-na' : '') + '" aria-pressed="' + (m.key === cur) +
+        '" data-act="plan-mode" data-uid="' + uid + '" data-mode="' + m.key + '" ' +
+        'aria-label="' + esc(m.label) + (na ? '，超出该方式合理距离，不适用' : '') + '">' +
+        ico(m.ico, 'ico--sm') + m.label + '</button>';
+    }).join('') + '</div>';
+  }
+
+  /** 多方案卡片 —— ★ 点开某一段才拉（1 次调用），进入页面不拉；措辞一律「约 / 预估」 */
+  function routeOptionsHTML(uid, lg) {
+    if (lg.na) return '';
+    /* 降级：get_mp=1 不保证返回 3 条，有些点对只有 1 条可行路线。
+       UI 必须能优雅处理「只有 1 条」，不能按 3 条排版留两个空位（09 文档 3.6.3）。 */
+    var single = S.degrade === 'single-opt';
+    var b = lg.duration;
+    var opts = [
+      { k: 'A', sec: b,                     m: lg.distance,               tag: '少红绿灯' },
+      { k: 'B', sec: Math.round(b * 1.22),  m: Math.round(lg.distance * 1.31), tag: '少收费' },
+      { k: 'C', sec: Math.round(b * 1.35),  m: Math.round(lg.distance * 0.79), tag: '避堵', toll: 10 }
+    ];
+    if (single) opts = [opts[0]];
+    var cur = S.planOpts[uid] || 'A';
+    var rows = opts.map(function (o) {
+      var on = o.k === cur;
+      return '<button class="rto-opt' + (on ? ' is-on' : '') + '" data-act="plan-opt" data-uid="' + uid +
+        '" data-opt="' + o.k + '">' +
+        '<span class="rl">' + o.k + '</span><span class="rv">' + fmtDur(o.sec) + '</span>' +
+        '<span class="rd">' + fmtKm(o.m) + '</span><span class="rt2">' + o.tag + '</span>' +
+        '<span class="rsp">' + (o.toll ? '过路费 ¥' + o.toll : (on ? '已选' : '')) + '</span>' +
+        '</button>';
+    }).join('');
+    /* ★ 诚实标注三连：① 时长是「生成时刻快照」不是实时 ② 按往返均值 ③ 路况是查询时刻的。
+       这三条不写，用户会把一个 9 月的快照当成今天出发的实时路况（09 文档 3.2.3 / 3.2.6 / 3.6.3）。 */
+    var fare = S.degrade === 'no-fare'
+      ? ''                                    /* 降级：taxi_fare 缺失就整行隐藏，不显示「费用未知」 */
+      : '<span>打车约 ¥18（预估）</span>';
+    return '<div class="rto">' +
+      '<div class="rto-h"><span>' + (single ? '仅 1 条方案可用' : opts.length + ' 条方案 · 接口最多返回 3 条') +
+      '</span><span class="est">直线示意</span></div>' +
+      rows +
+      '<div class="rto-foot"><span class="slow">' + ico('alert', 'ico--sm') +
+      '2 处缓行 · 最慢 18 km/h</span>' + fare + '</div>' +
+      '<div class="rto-note">基于 2026-09-18 工作日上午路况估算 · 时长按往返均值 · 路况为查询时刻快照</div>' +
+      '</div>';
+  }
+
+  /** limit = 只渲染前 N 个 stop（移动端 half 档用），截断时给一条「还有几项」的出口 */
+  function planTimelineHTML(tl, compact, limit) {
+    var rows = '', max = limit || tl.stops.length;
+    tl.stops.forEach(function (st, i) {
+      if (i >= max) return;
+      var first = i === 0, last = i === tl.stops.length - 1;
+      var lg = tl.legs[i];
+      var uid = legKeyOf(st, i);          // ★ 住宿出发段用伪 key '__leg0'，让它也能被聚焦与展开
+      var open = uid && S.openLeg === uid;
+
+      var body;
+      if (st.kind === 'stay') {
+        body = '<div class="tl-h"><span class="hh">' + fmtClock(st.atMin) + '</span>' +
+          '<span class="nm">' + (first ? '从住宿出发' : '回到住宿') + '</span></div>';
+      } else {
+        body = '<div class="tl-h"><span class="hh">' + fmtClock(st.atMin) + '</span>' +
+          '<span class="nm">' + esc(st.place.name) + '</span>' +
+          '<span class="tag">' + esc(st.place.subtypeName || CAT_NAME[st.place.cat] || '') + '</span>' +
+          /* 移动端拖拽把手：★ 长按 300ms 才激活拖动，避免与 Sheet 下拉手势抢事件（08 文档 3·B） */
+          (compact ? '<span class="m-grip" aria-hidden="true">≡</span>' : '') + '</div>' +
+          (S.editDwell === uid
+            /* 就地编辑态：±15 分步进，改完立刻重算整条时间链 */
+            ? '<div class="tl-sub"><span>停留 <b>' + st.item.dwell + '</b> 分</span>' +
+              '<button class="edit" data-act="plan-dwell-inc" data-uid="' + uid + '">+15</button>' +
+              '<button class="edit" data-act="plan-dwell-dec" data-uid="' + uid + '">−15</button>' +
+              '<button class="edit" data-act="plan-dwell-done">完成</button></div>'
+            : '<div class="tl-sub"><span>停留 ' + st.item.dwell + ' 分</span>' +
+              '<span class="default">默认值 · 点击可改</span>' +
+              '<button class="edit" data-act="plan-dwell" data-uid="' + uid + '">修改</button>' +
+              /* ★ 跨天移动入口：把点位挪到下一天。跨住宿段时会先说明落脚点变了（09 文档 6.2） */
+              (compact || D.PLAN_DAYS.length < 2 ? ''
+                : '<button class="edit" data-act="plan-move-day" data-uid="' + uid + '">移到下一天</button>') +
+              '</div>');
+      }
+      rows += '<div class="tl-row' + (first ? ' tl-row--first' : '') + (last ? ' tl-row--last' : '') + '">' +
+        '<div class="tl-mid"><span class="tl-dot' + (st.kind === 'stay' ? ' tl-dot--stay' : '') + '"></span></div>' +
+        '<div class="tl-body">' + body + '</div></div>';
+
+      if (!lg) return;                              // 最后一个 stop 之后没有段
+      var m = lg.mode;
+      var legHTML;
+      if (lg.na) {
+        legHTML = '<div class="legbox"><span class="lg-ic">' + ico(m.ico, 'ico--sm') + '</span>' +
+          '<span class="lg-t">' + m.label + ' · 不适用（' + fmtKm(lg.distance) + '）</span>' +
+          '<button class="lg-swap" data-act="plan-leg" data-uid="' + uid + '">换方式</button></div>';
+      } else {
+        legHTML = '<div class="legbox' + (open ? ' is-on' : '') + '" data-act="plan-leg" data-uid="' + uid +
+          '" data-leg="' + uid + '">' +
+          '<span class="lg-ic">' + ico(m.ico, 'ico--sm') + '</span>' +
+          '<span class="lg-t"><b>' + fmtDur(lg.duration) + '</b> · ' + fmtKm(lg.distance) + '</span>' +
+          '<span class="lg-swap">' + (open ? '收起' : '方案') + '</span></div>';
+      }
+      if (open) legHTML = modestripHTML(uid, lg.modeKey, lg) + legHTML + routeOptionsHTML(uid, lg);
+      rows += '<div class="tl-row tl-row--leg"><div class="tl-mid"></div>' +
+        '<div class="tl-body">' + legHTML + '</div></div>';
+    });
+    /* 截断出口：不给「往哪去」的线索，用户会以为行程就这几项 */
+    if (tl.stops.length > max) {
+      rows += '<div class="tl-more" data-act="sheet-full">还有 ' + (tl.stops.length - max) +
+        ' 项 · 上滑查看全部</div>';
+    }
+    return rows;
+  }
+
+  function planDay() { return D.PLAN_DAYS[S.planDay - 1] || D.PLAN_DAYS[0]; }
+
+  /** 按段的稳定 key 找到那一段（住宿出发段用 '__leg0'） */
+  function legByKey(key) {
+    var tl = buildTimeline(planDay());
+    for (var i = 0; i < tl.stops.length; i++) {
+      if (legKeyOf(tl.stops[i], i) === key) return tl.legs[i];
+    }
+    return null;
+  }
+
+  /**
+   * 把视野收窄到某一段的两个端点 —— 09 文档 6.3：「点一段 Leg → 视野收窄到该段两端点」。
+   * 做法是设一个 S.fitLeg 标记，让 fitToRoute 与降级画布共用同一套视野决策，不另写一条分支。
+   */
+  function fitToLeg(key) {
+    S.fitLeg = legByKey(key) ? key : null;
+    fitToRoute(false);
+  }
+
+  /**
+   * 把点位移到下一天 —— ★ 跨天移动必须校验住宿段（09 文档 6.2）：
+   *   目标天住的是另一个酒店时，这一天的起点/终点都变了，时间链的口径也随之变，
+   *   所以要先把事实告诉用户，而不是默默替他决定。正式版这里是一个确认弹窗。
+   */
+  function movePlanItem(uid) {
+    var src = null, item = null;
+    D.PLAN_DAYS.forEach(function (d) {
+      d.items.forEach(function (it) { if (it.uid === uid) { src = d; item = it; } });
+    });
+    if (!src || !item || D.PLAN_DAYS.length < 2) return;
+    var dst = D.PLAN_DAYS[src.day % D.PLAN_DAYS.length];      // 循环到下一天
+    var p = placeOf(item);
+    src.items = src.items.filter(function (it) { return it.uid !== uid; });
+    dst.items.push(item);
+    S.openLeg = null; S.hoverLeg = null; S.fitLeg = null;
+    render(); fitToRoute(false);
+    showToast(src.stayId === dst.stayId
+      ? '「' + (p ? p.name : '该点位') + '」已移到第 ' + dst.day + ' 天 · 同一住宿段，两条时间链已各自重算'
+      : '「' + (p ? p.name : '该点位') + '」已移到第 ' + dst.day + ' 天 · 第 ' + dst.day +
+        ' 天住的是另一个住宿点（' + D.stayOf(dst).name + '），出行落脚点随之改变 · ' +
+        '正式版会先问一句「仍要移过去吗？」再执行');
+  }
+
+  /** 住宿点三路输入的替身：原型里「更换」= 在三个预设间轮转（09 文档 4.1.1）。
+      坐标取自真实 POI，所以换住宿后连线与时间链都会跟着变。 */
+  var STAY_PRESETS = [
+    { name: '春熙路某酒店',     poiId: 'taikooli',       source: 'geocoded', address: '锦江区中纱帽街 8 号' },
+    { name: '宽窄巷子附近民宿', poiId: 'kuanzhai-alley', source: 'picked',   address: '青羊区长顺上街' },
+    { name: '武侯祠附近酒店',   poiId: 'wuhou-shrine',   source: 'poi',      address: '武侯区武侯祠大街 231 号' }
+  ];
+  function cycleStay() {
+    /* ★ 换的是「当天所属」那个住宿段，不是写死的第一个 —— 多住宿段下必须按天定位 */
+    var stay = D.stayOf(planDay()), i = 0;
+    STAY_PRESETS.forEach(function (p, k) { if (p.name === stay.name) i = k; });
+    var nx = STAY_PRESETS[(i + 1) % STAY_PRESETS.length];
+    var ref = POI_BY_ID[nx.poiId];
+    if (!ref) return;
+    stay.name = nx.name; stay.source = nx.source; stay.address = nx.address;
+    stay.lng = ref.lng; stay.lat = ref.lat;
+    render(); fitToRoute(false);
+    var how = nx.source === 'geocoded' ? '搜索定位' : nx.source === 'picked' ? '地图点选' : '从 POI 里选';
+    showToast('住宿点已换为「' + nx.name + '」（' + how + '）· 时间链与地图连线已重算 · 只存本机，不上传');
+  }
+
+  /** 添加点位：追加到当天末尾 —— ★ 顺序仍由用户后续拖拽决定，系统不「替你排」 */
+  function addPlanPoi() {
+    var day = planDay();
+    var used = {};
+    day.items.forEach(function (it) { used[it.poiId] = 1; });
+    var cand = D.POIS.filter(function (p) { return !used[p.id]; });
+    if (!cand.length) { showToast('当前城市的点位都已在行程里了'); return; }
+    var p = cand[0];
+    day.items.push({ uid: 'x' + Date.now(), poiId: p.id, dwell: 60, modeToNext: 'driving' });
+    S.openLeg = null;
+    render(); fitToRoute(false);
+    showToast('已加入「' + p.name + '」· 顺序由你决定，系统只算时间（长按 ≡ 可拖）');
+  }
+
+  /** 天切换 —— 桌面在顶栏、移动端在 Sheet 里，同一组件。橙点 = 该天行程偏满 */
+  function dayTabsHTML(cls) {
+    return '<div class="daytabs' + (cls ? ' ' + cls : '') + '" role="tablist" aria-label="切换行程天数">' +
+      D.PLAN_DAYS.map(function (d) {
+        var tl = buildTimeline(d);
+        var over = tl.endMin > 22 * 60;
+        return '<button class="daytab" role="tab" aria-current="' + (d.day === S.planDay) +
+          '" data-act="plan-day" data-day="' + d.day + '">第 ' + d.day + ' 天' +
+          (over ? '<span class="wdot"></span>' : '') + '</button>';
+      }).join('') + '</div>';
+  }
+
+  /**
+   * 降级条（09 文档第九节）—— 桌面面板与移动端 Sheet 共用同一段 HTML，避免两处各写一遍、措辞走样。
+   * ★ 这几条是**系统状态**，不是行程质量问题，所以配色与橙色过载提示分开，别混为一谈。
+   */
+  function degradeBarHTML() {
+    if (S.degrade === 'quota') {
+      return '<div class="degbar">' + ico('info', 'ico--sm') +
+        '<span>今日实时路况额度已用完，本页时长改为估算值 · 静态矩阵照常可用</span></div>';
+    }
+    if (S.degrade === 'nostore') {
+      return '<div class="degbar">' + ico('info', 'ico--sm') +
+        '<span>浏览器不允许本地存储（隐私模式？）· 本次会话有效，关闭后将丢失 · 建议导出 JSON</span></div>';
+    }
+    if (S.degrade === 'broken-link') {
+      return '<div class="degbar">' + ico('info', 'ico--sm') +
+        '<span>链接已失效或格式不兼容 · 已保留你当前的行程，可继续手动添加点位</span></div>';
+    }
+    return '';
+  }
+
+  /** 桌面行程面板：住宿行 + 时间轴 + 过载提示 + 汇总 + 添加点位 */
+  function panelPlan() {
+    var day = planDay();
+    var tl = buildTimeline(day);
+    var stay = D.stayOf(day);
+    var srcTxt = stay.source === 'geocoded' ? '搜索定位' : stay.source === 'picked' ? '地图点选' : '从 POI 里选';
+
+    var degHTML = degradeBarHTML();
+
+    /* 住宿段列表：★ 多住宿段（09 文档 I1）—— 每天归属一个，中途换酒店是真实需求。
+       列表常显是为了让「今天住哪个」一眼可见，切天时住宿行会自动换成对应那个。 */
+    var stayRows = D.STAYS.map(function (s) {
+      var on = s.id === day.stayId;
+      return '<div class="stayrow' + (on ? ' is-on' : '') + '" data-act="plan-day" data-day="' +
+        s.fromDay + '" role="button" tabindex="0" aria-current="' + on + '">' +
+        '<span>' + (on ? ico('check', 'ico--sm') : ico('pin', 'ico--sm')) + '</span>' +
+        '<span class="sd">' + esc(s.name) + ' · 第 ' + s.fromDay +
+        (s.toDay > s.fromDay ? '–' + s.toDay : '') + ' 天</span>' +
+        '<span class="addstay">查看该天</span></div>';
+    }).join('');
+
+    var warnHTML = overloadWarnings(tl).map(function (w) {
+      return '<div class="warnbar" style="margin:0 0 6px">' + ico('alert', 'ico--sm') +
+        '<span>' + esc(w) + '</span></div>';
+    }).join('');
+
+    return '<div class="flt flt--col flt--itin">' +
+      '<div class="itin-stay">' +
+        '<span class="ic">' + ico('pin', 'ico--sm') + '</span>' +
+        '<span class="who"><b>' + esc(stay.name) + '</b>' +
+        '<span>第 ' + stay.fromDay + '–' + stay.toDay + ' 天 · ' + srcTxt + ' · 仅存本机</span></span>' +
+        '<button class="chg" data-act="plan-stay">更换</button>' +
+      '</div>' +
+      (D.STAYS.length > 1 ? '<div style="padding:0 12px 6px">' + stayRows + '</div>' : '') +
+      (degHTML ? '<div style="padding:0 16px 2px">' + degHTML + '</div>' : '') +
+      '<div class="tl">' + planTimelineHTML(tl) + '</div>' +
+      (warnHTML ? '<div style="padding:2px 16px 8px">' + warnHTML + '</div>' : '') +
+      '<div class="itin-sum">' +
+        '<div class="l">在途 <b>' + fmtDur(tl.transitSec) + '</b> · 停留 <b>' + fmtDur(tl.dwellMin * 60) + '</b>' +
+        '<br>共 ' + day.items.length + ' 个点位 · 顺序由你决定，系统只算时间</div>' +
+        '<div class="big">' + fmtDur((tl.endMin - tl.startMin) * 60) + '<span>全天合计</span></div>' +
+      '</div>' +
+      '<div class="itin-add"><button class="addbtn" data-act="plan-add">' +
+        ico('plus', 'ico--sm') + '添加点位</button>' +
+        /* ★ 导入是导出的另一半：08 文档第八节要求能导出就能导回，否则导出的文件是一次性的 */
+        '<button class="addbtn" data-act="plan-import" style="margin-top:8px">' +
+        ico('upload', 'ico--sm') + '导入行程 JSON</button></div>' +
+      '</div>';
+  }
+
   function renderPanel() {
     if (S.device !== 'desktop') { elPanel.innerHTML = ''; return; }
     if (S.route === 'home') elPanel.innerHTML = panelHome();
     else if (S.route === 'province') elPanel.innerHTML = panelProvince();
+    else if (S.route === 'plan') elPanel.innerHTML = panelPlan();
     else if (S.route === 'city') elPanel.innerHTML = panelCity();
     else elPanel.innerHTML = panelDetail();
   }
@@ -2658,6 +3653,18 @@ window.HJ = (function () {
       (S.sub !== 'all' ? ' · 已限定「' + esc(SUBTYPE_META[S.sub].label) + '」' : '') +
       (outlierCount() ? ' · ' + outlierCount() + ' 个郊县点位需缩小地图查看' : '') +
       '</span><span>' + (S.myPos ? '已按距我最近排序' : '默认视野为市区范围') + '</span></div>' +
+      planEntryHTML() +
+      '</div>';
+  }
+
+  /** 城市页 → 行程页的入口。放在面板底部而不是顶部：
+      列表的主任务是「找点位」，把「排行程」压在底部既可见又不抢主流程（09 文档 6.1 入口策略）。 */
+  function planEntryHTML() {
+    var n = 0;
+    D.PLAN_DAYS.forEach(function (d) { n += d.items.length; });
+    return '<div class="p-itin">' +
+      '<button class="btn btn--primary" data-act="goto-plan">' + ico('timer', 'ico--sm') + '规划我的行程</button>' +
+      '<span class="hint">已有 ' + D.PLAN_DAYS.length + ' 天 · ' + n + ' 个点位 · 顺序由你决定，系统只算时间</span>' +
       '</div>';
   }
 
@@ -2772,6 +3779,20 @@ window.HJ = (function () {
         '<span class="legend-i legend-only"><i style="background:var(--d2)"></i>20–49</span>' +
         '<span class="legend-i legend-only"><i style="background:var(--d1)"></i>1–19</span>' +
         '<span class="legend-i legend-only"><i style="background:var(--d0);border:1px dashed #C3CCD8"></i>待收录</span>';
+    } else if (S.route === 'plan') {
+      /* ★ 行程页图例说的是「这一屏地图上有哪些符号」，不是细类色：
+         住宿旗标 / 序号圆点 / 连线（矩阵只存距离与时长，不存路径 → 只能是直线示意）。
+         这条必须写在图例里，否则用户会把虚线当成真实路网。 */
+      legend = '<span class="legend-only">行程符号</span><span class="vdiv legend-only"></span>' +
+        '<span class="legend-i legend-only"><i class="lg-stay" style="background:var(--c-text)"></i>住宿点</span>' +
+        '<span class="legend-i legend-only"><i class="lg-seq">1</i>当天顺序</span>' +
+        '<span class="legend-i legend-only"><i class="lg-line is-solid"></i>驾车等实线</span>' +
+        '<span class="legend-i legend-only"><i class="lg-line is-walk"></i>步行</span>' +
+        '<span class="legend-i legend-only"><i class="lg-line is-jam"></i>拥堵段（示意）</span>' +
+        '<span class="vdiv legend-only"></span><span class="legend-only" style="color:var(--c-text-3)">' +
+        /* ★ 三件必须同时说清的事，缺一件就是把快照冒充实时：
+             ① 采样时刻  ② 往返均值  ③ 连线是直连示意（矩阵不存路径点） */
+        '点位颜色 = 细类 · 连线均为直线示意 · 时长按 2026-09-18 工作日上午路况估算（往返均值）</span>';
     } else {
       /* 点位颜色 = 细类（12 色）。条内用短标签，否则 12 项在 42px 条里会挤爆 */
       legend = '<span class="legend-only">点位颜色 = 细类</span><span class="vdiv legend-only"></span>' +
@@ -2840,6 +3861,7 @@ window.HJ = (function () {
     var city = CITY_BY_ID[S.cityId], poi = POI_BY_ID[S.poiId];
     var isHome = S.route === 'home', isDetail = S.route === 'detail';
     var isProvince = S.route === 'province';
+    var isPlan = S.route === 'plan';
     var top;
 
     if (isDetail && poi) {
@@ -2848,6 +3870,16 @@ window.HJ = (function () {
         '<div class="m-pill m-pill--grow" style="justify-content:center;color:var(--c-text);font-weight:600">' +
         '<span>' + esc(city ? city.name : '') + ' · ' + esc(poi.name) + '</span></div>' +
         '<button class="m-pill m-pill--icon" data-act="share" aria-label="分享">' + ico('share', 'ico--sm') + '</button>' +
+        '</div>';
+    } else if (isPlan) {
+      /* ★ 行程页顶部：返回城市 + 「我的行程」+ 分享。
+         刻意不塞搜索框 —— 行程里的搜索是「搜点位加入行程」，与城市页的搜点位是两件事，
+         原型里统一收进 Sheet 底部「添加点位」，避免顶部胶囊被挤成两行。 */
+      top = '<div class="m-top">' +
+        '<button class="m-pill m-pill--icon" data-act="goto-city" aria-label="返回城市页">' + ico('back', 'ico--sm') + '</button>' +
+        '<div class="m-pill m-pill--grow" style="justify-content:center;color:var(--c-text);font-weight:600">' +
+        '<span>' + esc(city ? city.name : '') + ' · 我的行程</span></div>' +
+        '<button class="m-pill m-pill--icon" data-act="plan-share" aria-label="分享行程">' + ico('share', 'ico--sm') + '</button>' +
         '</div>';
     } else {
       /* ★ 移动端的面包屑 = 「返回上级」胶囊 + 「当前层级」胶囊。
@@ -2968,10 +4000,11 @@ window.HJ = (function () {
         '<div class="m-chips">' + chips + '</div>' +
         subLegendHTML(false).replace('class="sublegend"', 'class="sublegend sublegend--nowrap"') +
         '<div class="m-list scroll">' + rows2 + '</div>' +
+        planEntryHTML() +
         '<div class="m-foot"><button class="btn" data-act="sort">' +
         esc(S.sort === 'hot' ? '热门优先' : '名称排序') + ico('chev-down', 'ico--sm') + '</button>' +
         '<button class="btn btn--primary" data-act="locate">' + ico('crosshair', 'ico--sm') + '定位到我</button></div>';
-    } else if (poi) {
+    } else if (isDetail && poi) {
       inner = '<div class="m-detail scroll">' +
         imgBox(poi.images[0].key, 800, 480, 'm-gal', { alt: poi.name, credit: 'Unsplash · 氛围示意' }) +
         '<div class="m-thumbs">' + poi.images.slice(1).map(function (im, i) {
@@ -3001,8 +4034,65 @@ window.HJ = (function () {
           '<div class="fine">原型示例数据；正式版由采集流水线产出并附真实抓取日期。</div>' +
         '</div></div></div>' +
         '<div class="m-foot">' +
-        '<button class="btn btn--primary" data-act="locate">' + ico('crosshair', 'ico--sm') + '在地图上定位</button>' +
+          '<button class="btn btn--primary" data-act="locate">' + ico('crosshair', 'ico--sm') + '在地图上定位</button>' +
         '<button class="btn" data-act="nearby">看周边</button></div>';
+    } else if (S.route === 'plan') {
+      /* ★ 必须排在 `poi` 分支之前：S.poiId 在从详情页跳过来时仍然有值，
+         若先判 `if (poi)` 会把行程 Sheet 渲染成详情内容（踩过：探针显示 tl:0）。
+         判据一律用 route，不用「某个 id 是否有值」。 */
+      /* ★ 移动端三档 Sheet：档位不同，**内容也不同**（09 文档 6.4）。
+         不是同一段 HTML 换个高度 —— 那样 peek 档会把时间轴塞进 28svh，等于没有。
+           peek (28svh)  DayTabs + 当天首段：只回答「几点出门、先去哪」
+           half (56svh)  + 时间轴前 3–4 项 + **汇总条**（默认档）
+           full (88svh)  + 完整时间轴 + 过载提示 + 操作条 */
+      var pday = planDay(), ptl = buildTimeline(pday), stay = D.stayOf(pday);
+      var psrcTxt = stay.source === 'geocoded' ? '搜索定位' : stay.source === 'picked' ? '地图点选' : '从 POI 里选';
+      var pwarns = overloadWarnings(ptl).map(function (w) {
+        return '<div class="warnbar" style="margin:0 0 6px">' + ico('alert', 'ico--sm') + '<span>' + esc(w) + '</span></div>';
+      }).join('');
+      var tier = S.sheet;
+      /* 汇总条：half 档的核心信息 —— 「一天够不够」在这里回答，不用滚到底 */
+      var mSum = '<div class="m-sum">' +
+        '<span>在途 <b>' + fmtDur(ptl.transitSec) + '</b></span>' +
+        '<span>停留 <b>' + fmtDur(ptl.dwellMin * 60) + '</b></span>' +
+        '<span class="tot">合计 <b>' + fmtDur((ptl.endMin - ptl.startMin) * 60) + '</b></span></div>';
+
+      if (tier === 'peek') {
+        /* peek：只给「几点出门 + 第一个点位」，其余交给上滑 */
+        inner = '<div class="sheet-head">' +
+            '<div class="row1"><b>第 ' + pday.day + ' 天 · ' + fmtClock(ptl.startMin) + ' 出发</b>' +
+            '<span class="hint">' + pday.items.length + ' 个点位 · ' +
+            fmtDur((ptl.endMin - ptl.startMin) * 60) + '</span></div>' +
+            '<div class="sub">先去 ' + esc((placeOf(pday.items[0]) || {}).name || '—') +
+            ' · 住宿 ' + esc(stay.name) + '</div></div>' +
+          dayTabsHTML('m-daytabs');
+      } else if (tier === 'half') {
+        inner = '<div class="sheet-head">' +
+            '<div class="row1"><b>我的行程 · 第 ' + pday.day + ' 天</b>' +
+            '<span class="hint">' + pday.items.length + ' 个点位</span></div>' +
+            '<div class="sub">住宿：' + esc(stay.name) + ' · ' + esc(psrcTxt) + ' · 仅存本机</div>' +
+            '<button class="chg" data-act="plan-stay" style="position:absolute;right:14px;top:14px">更换</button></div>' +
+          dayTabsHTML('m-daytabs') +
+          '<div class="m-list scroll">' +
+            '<div class="tl tl--m">' + planTimelineHTML(ptl, true, 4) + '</div>' +
+          '</div>' + mSum;
+      } else if (tier === 'full') {
+        inner = '<div class="sheet-head">' +
+            '<div class="row1"><b>我的行程 · 第 ' + pday.day + ' 天</b>' +
+            '<span class="hint">' + pday.items.length + ' 个点位 · ' +
+            fmtDur((ptl.endMin - ptl.startMin) * 60) + '</span></div>' +
+            '<div class="sub">住宿：' + esc(stay.name) + ' · ' + esc(psrcTxt) + ' · 仅存本机</div>' +
+            '<button class="chg" data-act="plan-stay" style="position:absolute;right:14px;top:14px">更换</button></div>' +
+          dayTabsHTML('m-daytabs') +
+          '<div class="m-list scroll">' +
+            '<div class="tl tl--m">' + planTimelineHTML(ptl, true) + '</div>' +
+            (pwarns ? '<div style="padding:4px 14px 10px">' + pwarns + '</div>' : '') +
+          '</div>' + mSum +
+          '<div class="m-foot">' +
+            '<button class="btn" data-act="plan-export">' + ico('link', 'ico--sm') + '导出</button>' +
+            '<button class="btn btn--primary" data-act="plan-add">' + ico('plus', 'ico--sm') + '添加点位</button>' +
+          '</div>';
+      }
     }
 
     mount.innerHTML = '<div class="sheet" id="sheet">' +
@@ -3014,10 +4104,15 @@ window.HJ = (function () {
   function sheetEl() { return document.getElementById('sheet'); }
   function setSheetCSS(h) { vp.style.setProperty('--sheet-h', h + 'px'); positionFloats(); }
   function applySheet(snap) {
+    var changed = S.sheet !== snap;
     S.sheet = snap;
     var el = sheetEl();
     if (el) el.classList.remove('is-dragging');
     setSheetCSS(SNAP[snap] || SNAP.half);
+    /* ★ 行程页的三档是**不同内容**（peek 只给首段 / half 给前 4 项 + 汇总 / full 给全部），
+       所以切档必须重渲染 Sheet；其他页面三档共用同一段内容，只改高度就够了。
+       changed 守卫避免 renderMobile→applySheet 的无限递归。 */
+    if (changed && S.route === 'plan' && S.device === 'mobile') renderMobile();
   }
   function positionFloats() {
     var h = SNAP[S.sheet] || SNAP.half;
@@ -3149,6 +4244,14 @@ window.HJ = (function () {
     fitToRoute(); render();
     if (S.device === 'mobile') applySheet('full');
   }
+  /** 进入行程页 —— ★ 住宿点只存在 localStorage，不进 URL、不上传（09 文档 3.2） */
+  function gotoPlan() {
+    S.route = 'plan'; S.selectedId = null; S.pendingName = null;
+    if (S.planDay > D.PLAN_DAYS.length) S.planDay = 1;
+    fitToRoute(); render();
+    /* 移动端行程默认 half 档：先给时间轴前半段，地图仍然看得见连线 */
+    if (S.device === 'mobile') applySheet('half');
+  }
 
   /* ---------- 灯箱 ---------- */
   function openLightbox(poi, idx) {
@@ -3234,6 +4337,77 @@ window.HJ = (function () {
         if (box) { box.scrollIntoView({ behavior: 'smooth', block: 'center' }); box.style.boxShadow = 'inset 0 0 0 2px var(--c-primary)'; setTimeout(function(){ box.style.boxShadow = ''; }, 1200); }
         break;
       }
+      /* ================= 行程规划（09 文档第六节）=================
+         ★ 每条交互只改「用户自己的决定」（顺序 / 停留 / 方式 / 住宿），
+           系统只负责把时间链重算一遍 —— 不做任何自动重排。 */
+      case 'goto-plan': gotoPlan(); break;
+      case 'sheet-full': applySheet('full'); break;   /* 时间轴截断处的「上滑查看全部」*/
+      case 'plan-day':
+        S.planDay = parseInt(t.dataset.day, 10) || 1;
+        S.openLeg = null; S.editDwell = null; S.hoverLeg = null; S.fitLeg = null;
+        render(); fitToRoute(false);     /* 换天 → 地图重新框住「住宿 + 当天点位」 */
+        break;
+      case 'plan-leg':
+        /* 点开才拉方案：进入页面不拉，避免一屏 5 段 × 3 方案的配额浪费。
+           ★ 同时把视野收窄到这一段的两个端点 —— 用户点某一段就是想看清这一段（09 文档 6.3） */
+        S.openLeg = (S.openLeg === t.dataset.uid) ? null : t.dataset.uid;
+        render();
+        if (S.openLeg) fitToLeg(S.openLeg);
+        break;
+      case 'plan-mode': {
+        var it0 = findPlanItem(t.dataset.uid);
+        if (it0) {
+          it0.modeToNext = t.dataset.mode;
+          delete S.planOpts[it0.uid];     /* 换方式后 A/B/C 失效，回到默认方案 A */
+          render();
+          var mm = D.MODE_BY_KEY[t.dataset.mode];
+          showToast('这一段改为「' + mm.label + '」' +
+            (mm.live ? ' · 公交/地铁实时算，已带缓存' : '') +
+            ' · 时间链已重算');
+        }
+        break;
+      }
+      case 'plan-opt':
+        S.planOpts[t.dataset.uid] = t.dataset.opt;
+        render();
+        showToast('已选 ' + t.dataset.opt + ' 方案 · 时间链按该方案重算，顺序与点位不变');
+        break;
+      case 'plan-dwell': S.editDwell = t.dataset.uid; render(); break;
+      case 'plan-dwell-inc':
+      case 'plan-dwell-dec': {
+        var it1 = findPlanItem(t.dataset.uid);
+        if (it1) {
+          it1.dwell = Math.min(480, Math.max(15, it1.dwell + (act === 'plan-dwell-inc' ? 15 : -15)));
+          render();
+        }
+        break;
+      }
+      case 'plan-dwell-done': S.editDwell = null; render(); break;
+      case 'plan-stay': cycleStay(); break;
+      case 'plan-add': addPlanPoi(); break;
+      case 'plan-move-day': movePlanItem(t.dataset.uid); break;
+      case 'plan-import':
+        /* ★ 导入是导出的另一半（09 文档第八节）：能导出就能导回，
+           否则用户手里的 JSON 是一次性的。正式版走 Zod 校验后合并，同 uid 覆盖。 */
+        showToast('导入：正式版选 JSON → Zod 校验（城市 / 住宿段 / 天数 / uid）→ 合并进当前行程' +
+          '（同 uid 覆盖，不冲突的新增）· 全程在本机完成，不上传');
+        break;
+      case 'plan-export':
+        /* 注意：这里**不提 .ics** —— 09 文档第八节只定了 JSON 备份与分享链接，
+           原型不该替产品承诺没设计的格式 */
+        showToast('导出：正式版下载「我的成都行程.json」（住宿段 + 每天点位与顺序 + 停留与方式）。' +
+          '行程本来就只在本机，导出不经过服务器。');
+        break;
+      case 'plan-share':
+        /* ★ 分享链接不含住宿点 —— 住宿点等于「他在哪过夜」，默认脱敏（09 文档 3.3） */
+        if (S.degrade === 'broken-link') {
+          /* 降级：链接解析失败要给出口，不能只留一个空白页（09 文档第九节最后一行） */
+          showToast('链接已失效或格式不兼容 · 已保留你当前的行程，可继续手动添加点位');
+          break;
+        }
+        copyText(location.href.split('#')[0] + '#/city/' + S.cityId + '/plan?d=' + S.planDay,
+          '行程链接已复制 · 链接只含点位与顺序，不含住宿点（住宿点默认脱敏）');
+        break;
       case 'open-lightbox': {
         var poi = POI_BY_ID[S.poiId] || POI_BY_ID[S.selectedId];
         if (poi) openLightbox(poi, parseInt(t.dataset.idx, 10));
@@ -3246,6 +4420,28 @@ window.HJ = (function () {
   }
   vp.addEventListener('click', onClick);
   elToast.addEventListener('click', onClick);
+
+  /**
+   * hover 一段 Leg → 地图上这一段提亮、其余降到 40%（09 文档 6.3 第一行）。
+   * ★ 只重画地图图层，不整屏 render —— 整屏重建会让正被 hover 的那一行在鼠标下重建，
+   *   移动鼠标时会出现肉眼可见的抖动，比不做这个联动还糟。
+   */
+  function setHoverLeg(k) {
+    if (S.hoverLeg === k) return;
+    S.hoverLeg = k;
+    syncMarkers();
+    if (S.mapMode !== 'real') renderFallback();
+  }
+  vp.addEventListener('mouseover', function (e) {
+    if (S.device !== 'desktop') return;               /* 移动端没有 hover，别做无用功 */
+    var el = e.target && e.target.closest ? e.target.closest('[data-leg]') : null;
+    setHoverLeg(el ? el.getAttribute('data-leg') : null);
+  });
+  vp.addEventListener('mouseout', function (e) {
+    if (S.device !== 'desktop') return;
+    var el = e.target && e.target.closest ? e.target.closest('[data-leg]') : null;
+    if (el) setHoverLeg(null);
+  });
 
   function copyText(text, msg) {
     if (navigator.clipboard && navigator.clipboard.writeText) {
@@ -3366,25 +4562,34 @@ window.HJ = (function () {
       }).join('');
     }
     document.getElementById('cDevice').innerHTML = grp([['desktop', '桌面 1280×820'], ['mobile', '移动 390×844']], S.device, 'c-device');
-    document.getElementById('cRoute').innerHTML = grp([['home', '首页'], ['province', '省页'], ['city', '城市页'], ['detail', '详情页']], S.route, 'c-route');
+    document.getElementById('cRoute').innerHTML = grp([['home', '首页'], ['province', '省页'], ['city', '城市页'], ['detail', '详情页'], ['plan', '行程页']], S.route, 'c-route');
     document.getElementById('cBase').innerHTML = grp([['vector', '矢量'], ['satellite', '影像']], S.base, 'c-base');
     document.getElementById('cExtra').innerHTML =
       '<button class="cbtn" data-act="c-guides" aria-pressed="' + S.guides + '">Sheet 参考线</button>' +
-      (S.device === 'mobile' ? grp([['peek', 'peek'], ['half', 'half'], ['full', 'full']], S.sheet, 'c-sheet') : '');
+      (S.device === 'mobile' ? grp([['peek', 'peek'], ['half', 'half'], ['full', 'full']], S.sheet, 'c-sheet') : '') +
+      /* ★ 降级演示开关（09 文档第九节）：这 5 条都说「必须逐条实现」，
+         原型里至少要让每一条都能被点到、看得见 —— 否则验收时只能靠想象。 */
+      (S.route === 'plan'
+        ? grp([['none', '正常'], ['quota', '额度用尽'], ['nostore', '不能存储'],
+               ['broken-link', '链接失效'], ['single-opt', '仅 1 方案'], ['no-fare', '无打车费']],
+              S.degrade, 'c-deg')
+        : '');
 
     document.querySelectorAll('#cDevice .cbtn,#cRoute .cbtn,#cExtra .cbtn').forEach(function (b) {
       b.onclick = function () {
         var a = b.dataset.act, v = b.dataset.value;
         if (a === 'c-device') setDevice(v);
         else if (a === 'c-route') {
-          /* 四级下钻：全国 → 四川 → 成都 → 宽窄巷子 */
+          /* 四级下钻：全国 → 四川 → 成都 → 宽窄巷子；行程页是城市页的横向延伸 */
           if (v === 'home') gotoHome();
           else if (v === 'province') gotoProvince(SC_PROVINCE);
           else if (v === 'city') gotoCity('chengdu');
+          else if (v === 'plan') gotoPlan();
           else gotoPoi('kuanzhai-alley');
         }
         else if (a === 'c-guides') { S.guides = !S.guides; elGuides.classList.toggle('is-on', S.guides); }
         else if (a === 'c-sheet') applySheet(v);
+        else if (a === 'c-deg') { S.degrade = v; render(); }
         renderConsole();
       };
     });
@@ -3435,7 +4640,7 @@ window.HJ = (function () {
   window.__HJ = {
     S: S, render: render, setDevice: setDevice, applySheet: applySheet,
     gotoHome: gotoHome, gotoProvince: gotoProvince, gotoCityByAdcode: gotoCityByAdcode,
-    gotoCity: gotoCity, gotoPoi: gotoPoi
+    gotoCity: gotoCity, gotoPoi: gotoPoi, gotoPlan: gotoPlan
   };
 })();
 </script>

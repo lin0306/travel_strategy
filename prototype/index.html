@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>行迹 · 城市旅游攻略 — 低保真原型 v0.3（地图即画布 + 三级下钻）</title>
+<title>行迹 · 城市旅游攻略 — 低保真原型 v0.5（地图即画布 + 三级下钻 + 行程规划 + 边界态）</title>
 <style>
 /* ==========================================================================
    低保真线框原型 v0.3 —— 布局模型：地图即画布（Map as Canvas）
@@ -49,6 +49,13 @@
   --d0:#edeff2; --d1:#d6e4f7; --d2:#a9c7f0; --d3:#6e9fe0;
   /* 地图画布 */
   --mapbg:#e9edf2;
+  /* 浮层尺寸 token（★ 禁止在组件里写死宽度 —— 改这些值，
+     03 文档 4.1「浮层实测 → 地图 avoid 参数」会自动跟着变） */
+  --flt-inset:16px;          /* 浮层距视口边缘 */
+  --flt-gap:12px;            /* 浮层之间的间隙 */
+  --panel-left:348px;        /* 城市页 / 下钻页左面板 */
+  --panel-itinerary:420px;   /* ★ 行程规划页：时间轴每行要放「时间+名称+停留+方式+时长+距离」，
+                                348px 会挤成三行（见 05 文档 P5 取舍表） */
 }
 
 body{
@@ -292,7 +299,7 @@ body{
 
 /* ---- W1 左侧城市面板 ---- */
 .panel-left{
-  left:16px;top:80px;bottom:16px;width:348px;
+  left:var(--flt-inset);top:80px;bottom:var(--flt-inset);width:var(--panel-left);
 }
 .p-head{padding:14px 16px 12px;border-bottom:1px solid var(--line2);flex:none}
 .p-head h2{font-size:18px;font-weight:700;display:flex;align-items:center;gap:8px}
@@ -621,6 +628,175 @@ body{
   padding:1px 7px;border-radius:4px;border:1px solid #fde68a;
 }
 .sg.is-current{border-top-style:solid;border-top-width:2px}
+
+/* ==========================================================================
+   W5 / W6 / W7 · 行程规划页（依据 09 文档第六节 + 05 文档 P5）
+   ---------------------------------------------------------------------------
+   仍是「地图即画布」：行程面板只是「更宽的浮层」，不是另一种布局。
+   新增 token --panel-itinerary（420px），禁止在组件里写死宽度。
+   产品主张：用户定住宿 / 挑点位 / 排顺序，系统只算时间 —— 不做自动排序。
+   ========================================================================== */
+.panel-itin{
+  left:var(--flt-inset);top:80px;bottom:var(--flt-inset);width:var(--panel-itinerary);
+}
+/* 底部图例条要为更宽的面板让位（位置由 token 推出，不硬编码 448px） */
+.bottombar--itin{left:calc(var(--flt-inset) + var(--panel-itinerary) + var(--flt-gap))}
+
+/* 地图上的连线 + 序号 + 住宿点旗标 */
+.rt{position:absolute;inset:0;z-index:5;pointer-events:none}
+.seq{
+  position:absolute;z-index:8;transform:translate(-50%,-50%);
+  width:23px;height:23px;border-radius:50%;background:var(--ink);color:#fff;
+  font-size:11.5px;font-weight:700;display:flex;align-items:center;justify-content:center;
+  box-shadow:0 2px 6px rgba(16,24,40,.28);
+}
+.seq.is-on{background:var(--accent)}
+.stayflag{position:absolute;z-index:9;transform:translate(-50%,-100%);display:flex;flex-direction:column;align-items:center}
+.stayflag i{
+  width:0;height:0;border:7px solid transparent;border-bottom-color:var(--guide);
+  border-top:0;display:block;
+}
+.stayflag b{
+  background:var(--guide);color:#fff;font-size:10.5px;font-weight:600;
+  padding:2px 7px;border-radius:5px;white-space:nowrap;box-shadow:0 2px 6px rgba(16,24,40,.22);
+}
+
+/* 顶栏里的 DayTabs + 导出 / 分享 */
+.daytabs{display:flex;gap:6px;flex:none}
+.daytab{
+  position:relative;font-size:12px;padding:5px 12px;border:1px solid var(--line2);
+  border-radius:14px;color:var(--ink2);white-space:nowrap;flex:none;
+}
+.daytab.is-on{background:var(--ink);border-color:var(--ink);color:#fff}
+.daytab .wdot{position:absolute;top:-3px;right:-3px;width:8px;height:8px;border-radius:50%;background:var(--guide);border:1.5px solid #fff}
+.tbtn{font-size:12px;padding:5px 11px;border:1px solid var(--line2);border-radius:7px;color:var(--ink2);white-space:nowrap;flex:none}
+
+/* 住宿行（行程的锚，常显） */
+.itin-stay{flex:none;display:flex;align-items:center;gap:10px;padding:12px 16px;border-bottom:1px solid var(--line2)}
+.itin-stay .ic{
+  width:26px;height:26px;border-radius:7px;background:#fffbeb;border:1px solid #fde68a;
+  display:flex;align-items:center;justify-content:center;font-size:13px;flex:none;
+}
+.itin-stay .who{flex:1;min-width:0}
+.itin-stay .who b{font-size:14px;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.itin-stay .who span{display:block;font-size:11px;color:var(--ink3);margin-top:2px}
+.itin-stay .chg{flex:none;font-size:11.5px;color:var(--accent);border:1px solid var(--line);border-radius:6px;padding:3px 9px}
+
+/* 时间轴 */
+.tl{flex:1;overflow:hidden;padding:10px 16px 0;display:flex;flex-direction:column}
+.tl-row{display:grid;grid-template-columns:20px 1fr;flex:none}
+.tl-mid{position:relative;display:flex;justify-content:center}
+.tl-mid::before{content:"";position:absolute;top:0;bottom:0;width:2px;background:var(--line2)}
+.tl-row.is-first .tl-mid::before{top:13px}
+.tl-row.is-last .tl-mid::before{height:13px;bottom:auto}
+.tl-dot{width:11px;height:11px;border-radius:50%;background:#fff;border:2.5px solid var(--ink);margin-top:6px;position:relative;z-index:2;flex:none}
+.tl-dot--stay{border-color:var(--guide);border-radius:3px}
+.tl-body{min-width:0;padding:0 0 7px}
+.tl-h{display:flex;align-items:baseline;gap:8px}
+.tl-h .hh{font-size:13.5px;font-weight:700;letter-spacing:-.2px;flex:none}
+.tl-h .nm{font-size:13.5px;font-weight:600;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tl-h .tag{font-size:10px;color:var(--ink3);border:1px solid var(--line2);border-radius:4px;padding:0 5px;flex:none}
+.tl-sub{font-size:11px;color:var(--ink3);margin-top:1px;display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.tl-sub .edit{color:var(--accent)}
+.modepill{display:inline-flex;align-items:center;gap:3px;font-size:10.5px;padding:2px 6px;border:1px solid var(--line2);border-radius:11px;color:var(--ink2);white-space:nowrap}
+.modepill.is-on{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+/* 六种方式必须挤在一行 —— 换成两行会把时间轴多推高 30px，导致末行被裁 */
+.modestrip{flex:none;display:flex;gap:4px;flex-wrap:nowrap;padding:6px 8px;border:1px solid var(--line2);border-radius:8px;background:#fcfcfd;margin:0 0 3px}
+
+/* 段（Leg）行 + 多方案卡片 */
+.tl-row--leg .tl-body{padding-bottom:6px}
+.legbox{display:flex;align-items:center;gap:8px;border:1px solid var(--line2);border-radius:8px;padding:5px 9px;background:#fff}
+.legbox.is-on{border-color:var(--accent);background:var(--accent-soft)}
+.legbox .lg-ic{font-size:13px;flex:none}
+.legbox .lg-t{flex:1;min-width:0;font-size:11.5px;color:var(--ink2)}
+.legbox .lg-t b{color:var(--ink);font-weight:600}
+.legbox .lg-swap{font-size:10.5px;color:var(--accent);flex:none}
+.rto{flex:none;margin:0 0 4px;border:1px solid var(--line2);border-radius:9px;background:#fcfcfd;padding:8px 10px}
+.rto-h{font-size:10.5px;color:var(--ink3);display:flex;justify-content:space-between;align-items:center;margin-bottom:7px}
+.rto-opt{display:flex;align-items:center;gap:8px;padding:5px 9px;border:1px solid var(--line2);border-radius:7px;background:#fff;margin-bottom:4px}
+.rto-opt:last-of-type{margin-bottom:0}
+.rto-opt.is-on{border-color:var(--accent);background:var(--accent-soft)}
+.rto-opt .rl{width:14px;flex:none;text-align:center;font-size:11px;color:var(--ink3)}
+.rto-opt .rv{font-size:13px;font-weight:700;flex:none}
+.rto-opt .rd{font-size:11px;color:var(--ink3);flex:none}
+.rto-opt .rt2{font-size:10px;color:var(--ink2);border:1px solid var(--line2);border-radius:4px;padding:0 5px;flex:none}
+.rto-opt .rsp{margin-left:auto;font-size:10.5px;color:var(--ink3);flex:none}
+.rto-foot{font-size:10.5px;color:var(--ink3);margin-top:4px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+
+/* 过载提示（★ 一律「陈述 + 建议」，不用祈使句 —— 顺序的决定权在用户手里） */
+.warnbar{
+  flex:none;display:flex;gap:7px;align-items:flex-start;padding:7px 10px;
+  background:#fffbeb;border:1px solid #fde68a;border-radius:8px;
+  font-size:11.5px;color:#92400e;line-height:1.5;margin:0 0 4px;
+}
+.warnbar i{width:5px;height:5px;border-radius:50%;background:#d97706;margin-top:6px;flex:none}
+
+/* 汇总 + 添加点位 */
+.itin-sum{flex:none;padding:10px 16px 11px;border-top:1px solid var(--line2);display:flex;align-items:flex-end;justify-content:space-between;gap:10px}
+.itin-sum .l{font-size:11px;color:var(--ink3);line-height:1.6}
+.itin-sum .l b{color:var(--ink);font-weight:600}
+.itin-sum .big{font-size:16px;font-weight:700;color:var(--ink);flex:none;text-align:right;line-height:1.25}
+.itin-sum .big span{display:block;font-size:10.5px;color:var(--ink3);font-weight:500}
+.itin-add{flex:none;padding:0 16px 13px}
+.itin-add .btn{border:1.5px dashed var(--line);border-radius:8px;padding:9px;text-align:center;font-size:12.5px;color:var(--ink2)}
+.itin-add .btn+.btn{margin-top:7px}
+
+/* W7 行程页边界态：多住宿段列表 / 降级条 / 跨天校验提示 */
+.stayrows{flex:none;padding:0 12px 8px;display:flex;flex-direction:column;gap:5px}
+.stayrow{
+  display:flex;align-items:center;gap:8px;padding:6px 9px;
+  border:1px solid var(--line2);border-radius:8px;background:#fff;
+  font-size:11.5px;color:var(--ink2);
+}
+.stayrow.is-on{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+.stayrow .sd{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.stayrow .go{font-size:10.5px;color:var(--accent);flex:none}
+/* ★ 降级条是「系统状态」，不是行程质量问题 —— 配色刻意与橙色过载提示区分开，
+   两者混成一色会让人以为「今天排太满」是系统故障 */
+.degbar{
+  flex:none;display:flex;gap:7px;align-items:flex-start;padding:7px 10px;
+  background:#f3f4f6;border:1px solid var(--line);border-radius:8px;
+  font-size:11.5px;color:var(--ink2);line-height:1.5;margin:0 0 6px;
+}
+.degbar i{width:5px;height:5px;border-radius:50%;background:var(--ink3);margin-top:6px;flex:none}
+/* 地图上的瞬时提示（跨天移动触发住宿段校验） */
+.toast{
+  position:absolute;z-index:20;left:50%;bottom:74px;transform:translateX(-50%);
+  max-width:76%;background:rgba(17,24,39,.93);color:#fff;
+  font-size:11.5px;line-height:1.55;padding:9px 12px;border-radius:9px;
+  box-shadow:0 6px 18px rgba(16,24,40,.28);
+}
+
+/* W6 住宿点选择 StayPicker（三路输入：POI 选 / 搜索地址 / 地图点选） */
+.picker{
+  left:50%;top:50%;transform:translate(-50%,-50%);width:520px;
+  display:flex;flex-direction:column;
+}
+.picker .pk-h{flex:none;padding:14px 16px 12px;border-bottom:1px solid var(--line2);font-size:15px;font-weight:700;display:flex;align-items:center;gap:8px}
+.picker .pk-h span{font-size:11.5px;color:var(--ink3);font-weight:500}
+.pk-way{flex:none;display:flex;gap:9px;padding:11px 14px 9px;border-bottom:1px solid var(--line2)}
+.pk-way .w{flex:1;border:1px solid var(--line2);border-radius:9px;padding:9px 10px;background:#fff}
+.pk-way .w.is-on{border-color:var(--accent);background:var(--accent-soft)}
+.pk-way .w .wt{font-size:12.5px;font-weight:600;display:flex;align-items:center;gap:6px}
+.pk-way .w .ws{font-size:10.5px;color:var(--ink3);margin-top:3px;line-height:1.45}
+.pk-body{flex:none;max-height:268px;overflow:hidden;padding:11px 14px 12px;display:flex;flex-direction:column;gap:7px}
+.pk-row{display:flex;align-items:center;gap:9px;padding:8px 9px;border:1px solid var(--line2);border-radius:8px;background:#fff;flex:none}
+.pk-row .img-ph{width:40px;height:32px;border-radius:6px;flex:none}
+.pk-row .info{flex:1;min-width:0}
+.pk-row .info b{font-size:12.5px;display:block}
+.pk-row .info span{font-size:10.5px;color:var(--ink3)}
+.pk-foot{flex:none;padding:10px 14px 13px;border-top:1px solid var(--line2);display:flex;gap:9px;justify-content:flex-end}
+.pk-foot .pb{font-size:12px;padding:7px 15px;border-radius:7px;border:1px solid var(--line2);color:var(--ink2)}
+.pk-foot .pb.is-pri{background:var(--ink);border-color:var(--ink);color:#fff}
+
+/* 移动端行程：同一套时间轴，只缩字号；三档参考线复用 .sheet-guides */
+.tl--m .tl-h .hh,.tl--m .tl-h .nm{font-size:12.5px}
+.tl--m .tl-sub{font-size:10.5px}
+.tl--m .tl-body{padding-bottom:8px}
+.m-daytabs{flex:none;display:flex;gap:6px;padding:0 16px 9px;overflow:hidden}
+.m-grip{width:15px;flex:none;display:flex;align-items:center;justify-content:center;color:var(--ink3);font-size:14px;line-height:1}
+.m-leg{margin:0 0 3px}
+.m-warn{flex:none;margin:0 16px 8px}
 </style>
 </head>
 <body>
@@ -628,7 +804,7 @@ body{
 
   <!-- ==================== 头部 ==================== -->
   <header class="doc-head">
-    <h1>行迹 · 城市旅游攻略 — 低保真原型<em>v0.3</em></h1>
+    <h1>行迹 · 城市旅游攻略 — 低保真原型<em>v0.5</em></h1>
     <div class="sub">
       布局模型仍是 <b>地图即画布（Map as Canvas）</b>：每个屏幕的底层都是一张<b>铺满视口的地图</b>，
       所有 UI 全部是<b>悬浮在地图之上的浮层</b>。本版新增 <b>三级地图下钻</b> ——
@@ -1522,6 +1698,707 @@ body{
           <li><span class="n">5</span>元信息 2×2 栅格，右上角 ¹ 是字段级溯源角标，点击跳到来源。</li>
           <li><span class="n">6</span><b>适合人群</b>与地图列表同源：6 类适游群体 + ♿ 无障碍；♿ 只在有可靠来源时点亮，<b>不臆造</b>。</li>
           <li><span class="n">7</span>操作条固定在 Sheet 底部不随内容滚动，「在地图上定位」占主位。</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== 三、行程规划页 ==================== -->
+  <section class="doc-section">
+    <h2>三、行程规划页 `/city/:cityId/plan`</h2>
+    <p class="sec-note">
+      行程页是<b>唯一会挑战「运行时零 API 调用」这个功能</b>的一屏，但解法不是破例，而是拆开通勤：
+      <b>POI↔POI 走构建期预计算矩阵（默认 0 次调用）</b>，只有「自定住宿点」与「公交 / 地铁」才实时算。
+      产品主张是<b>用户定住宿、挑点位、排顺序，系统只算时间</b> —— <b>不做自动排序</b>：缺少营业时间窗与预约时段的数据，
+      算出来的「最优顺序」是在用数学的精确掩盖信息的缺失。所以这一屏的主角是时间轴，地图退居以提供空间校验。
+    </p>
+
+    <!-- ---------- W5 行程规划页 · 主态 ---------- -->
+    <div class="screen-block">
+      <div class="screen-caption">
+        <span class="no">W5</span><span class="name">行程规划页 · 时间轴 + 地图连线</span><span class="path">/city/chengdu/plan</span>
+      </div>
+
+      <div class="screen--web">
+        <div class="map-canvas"></div>
+
+        <!-- 4 地图上的连线 + 序号 + 住宿旗标（直连示意，矩阵不存路径点） -->
+        <svg class="rt" viewBox="0 0 1280 820" preserveAspectRatio="none">
+          <polyline points="900,150 620,250 760,360 700,500"
+                    fill="none" stroke="#1f2937" stroke-width="2.5" stroke-dasharray="7 5"/>
+        </svg>
+        <div class="stayflag" style="left:70.3%;top:18.3%"><b>春熙路某酒店</b><i></i></div>
+        <span class="seq" style="left:48.4%;top:30.5%">1</span>
+        <span class="seq" style="left:59.4%;top:43.9%">2</span>
+        <span class="seq" style="left:54.7%;top:61.0%">3</span>
+        <div class="map-tag" style="left:60%;top:7%"><span class="pn">4</span><b>全屏地图画布</b><span>当天连线 + 序号 + 住宿旗标 · 直连示意</span></div>
+
+        <!-- 1 顶部悬浮条：DayTabs 与导出 / 分享在顶栏 -->
+        <div class="flt topbar rel">
+          <span class="pn">1</span>
+          <div class="brand"><span class="logo"></span><span class="brand-text">行迹<em>城市旅游攻略</em></span></div>
+          <div class="crumb" style="font-size:12.5px"><span class="up">← 成都</span></div>
+          <div class="daytabs">
+            <span class="daytab is-on">第 1 天</span>
+            <span class="daytab">第 2 天<span class="wdot"></span></span>
+            <span class="daytab">第 3 天</span>
+          </div>
+          <div class="top-right">
+            <span class="tbtn">导出</span>
+            <span class="tbtn">分享</span>
+            <div class="iconbtn">◱</div>
+          </div>
+        </div>
+
+        <!-- 2 行程面板 420px（比城市页宽 72px，时间轴一行要放 6 项信息） -->
+        <div class="flt flt--col panel-itin">
+          <span class="pn pn--in">2</span>
+
+          <!-- 3 住宿行：行程的锚，常显 -->
+          <div class="itin-stay rel">
+            <span class="pn" style="top:14px;right:10px">3</span>
+            <div class="ic">⌂</div>
+            <div class="who"><b>春熙路某酒店</b><span>第 1–2 天 · 手动搜索定位 · 仅存本机</span></div>
+            <div class="chg">更换</div>
+          </div>
+
+          <!-- 时间轴 -->
+          <div class="tl">
+            <div class="tl-row is-first">
+              <div class="tl-mid"><span class="tl-dot tl-dot--stay"></span></div>
+              <div class="tl-body">
+                <div class="tl-h"><span class="hh">09:00</span><span class="nm">从住宿出发</span></div>
+              </div>
+            </div>
+
+            <div class="tl-row tl-row--leg">
+              <div class="tl-mid"></div>
+              <div class="tl-body">
+                <!-- 六种方式可逐段切换：矩阵只有 driving/walking/bicycling 三条通道，
+                     打车复用 driving（差别只在费用），公交 / 地铁运行时按需算 -->
+                <div class="modestrip">
+                  <span class="modepill is-on">🚗 驾车</span>
+                  <span class="modepill">🚕 打车</span>
+                  <span class="modepill">🚌 公交</span>
+                  <span class="modepill">🚇 地铁</span>
+                  <span class="modepill">🚴 骑行</span>
+                  <span class="modepill">🚶 步行</span>
+                </div>
+                <div class="legbox is-on">
+                  <span class="lg-ic">🚗</span>
+                  <span class="lg-t"><b>23 分</b> · 5.2 km</span>
+                  <span class="lg-swap">换方式</span>
+                </div>
+
+                <!-- 7 多方案卡片：点开某段才拉（1 次调用），默认不拉 -->
+                <div class="rto rel">
+                  <span class="pn" style="top:-9px;right:6px">7</span>
+                  <div class="rto-h"><span>第 1 段 · 驾车 · 3 条方案</span><span>直线示意</span></div>
+                  <div class="rto-opt is-on">
+                    <span class="rl">A</span><span class="rv">23 分</span><span class="rd">5.2 km</span>
+                    <span class="rt2">少红绿灯</span><span class="rsp">已选</span>
+                  </div>
+                  <div class="rto-opt">
+                    <span class="rl">B</span><span class="rv">28 分</span><span class="rd">6.8 km</span>
+                    <span class="rt2">少收费</span><span class="rsp"></span>
+                  </div>
+                  <div class="rto-opt">
+                    <span class="rl">C</span><span class="rv">31 分</span><span class="rd">4.1 km</span>
+                    <span class="rt2">避堵</span><span class="rsp">过路费 ¥10</span>
+                  </div>
+                  <div class="rto-foot"><span>路况：2 处缓行 · 最慢 18 km/h</span><span>打车约 ¥18（预估）</span></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 5 Stop 行 -->
+            <div class="tl-row">
+              <div class="tl-mid"><span class="tl-dot"></span></div>
+              <div class="tl-body">
+                <div class="tl-h rel">
+                  <span class="hh">09:23</span><span class="nm">宽窄巷子</span><span class="tag">街区巷弄</span>
+                  <span class="pn" style="top:-9px;right:6px">5</span>
+                </div>
+                <div class="tl-sub"><span>停留 90 分</span><span class="edit">修改</span></div>
+              </div>
+            </div>
+
+            <!-- 6 Leg 行 -->
+            <div class="tl-row tl-row--leg">
+              <div class="tl-mid"></div>
+              <div class="tl-body">
+                <div class="legbox rel">
+                  <span class="pn" style="top:-9px;right:6px">6</span>
+                  <span class="lg-ic">🚶</span>
+                  <span class="lg-t"><b>12 分</b> · 0.9 km</span>
+                  <span class="lg-swap">换方式</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="tl-row">
+              <div class="tl-mid"><span class="tl-dot"></span></div>
+              <div class="tl-body">
+                <div class="tl-h"><span class="hh">11:05</span><span class="nm">人民公园</span><span class="tag">城市公园</span></div>
+                <div class="tl-sub"><span>停留 60 分</span><span class="edit">修改</span></div>
+              </div>
+            </div>
+
+            <div class="tl-row tl-row--leg">
+              <div class="tl-mid"></div>
+              <div class="tl-body">
+                <div class="legbox">
+                  <span class="lg-ic">🚶</span>
+                  <span class="lg-t"><b>8 分</b> · 0.6 km</span>
+                  <span class="lg-swap">换方式</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="tl-row is-last">
+              <div class="tl-mid"><span class="tl-dot"></span></div>
+              <div class="tl-body">
+                <div class="tl-h"><span class="hh">12:13</span><span class="nm">某火锅店</span><span class="tag">本地菜</span></div>
+                <div class="tl-sub"><span>停留 75 分</span><span class="edit">修改</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 8 过载提示：陈述 + 建议，不用祈使句 -->
+          <div class="warnbar rel" style="margin:0 16px 8px">
+            <i></i><span>行程排到 21:40，可能过晚 · 建议减少 1 个点位。路上耗掉 96 分钟，接近游玩时间的一半。</span>
+            <span class="pn" style="top:-9px;right:6px">8</span>
+          </div>
+
+          <!-- 9 汇总 -->
+          <div class="itin-sum rel">
+            <span class="pn" style="top:-9px;right:10px">9</span>
+            <div class="l">在途 <b>43 分</b> · 停留 <b>225 分</b><br>点位 <b>5</b> 个 · 还有 1 项向下滚动</div>
+            <div class="big">4 小时 28 分<span>全天合计</span></div>
+          </div>
+
+          <!-- 10 添加点位 -->
+          <div class="itin-add rel">
+            <div class="btn">＋ 添加点位</div>
+            <span class="pn" style="top:-9px;right:10px">10</span>
+          </div>
+        </div>
+
+        <!-- 11 底部图例条：必须如实声明时长是「快照」不是实时 -->
+        <div class="flt bottombar bottombar--itin rel">
+          <span class="pn">11</span>
+          <span class="legend-i"><i style="background:var(--ink)"></i>第 1 天</span>
+          <span class="legend-i">⚠️ 第 2 天行程偏满</span>
+          <span class="vline"></span>
+          <span>时长按 2026-09-18 工作日上午路况估算 · 往返均值</span>
+          <span class="credit">© 腾讯地图</span>
+        </div>
+      </div>
+
+      <ul class="notes">
+        <li><span class="n">1</span>仍是<b>地图即画布</b>：行程面板只是换了个更宽的浮层。DayTabs 与「导出 / 分享」在顶栏，不占面板高度。</li>
+        <li><span class="n">2</span><b>面板 420px（城市页 348px）</b>：时间轴每行要放「时间 + 名称 + 停留 + 方式 + 时长 + 距离」，348px 会挤成三行。宽度走 token <code>--panel-itinerary</code>，不硬编码。</li>
+        <li><span class="n">3</span><b>住宿点是行程的锚，必须常显</b>：右上角 ◎ 标明来源（搜索 / 点选 / 从 POI 选），并注明「仅存本机」——住宿点等于「他在哪过夜」，是隐私。</li>
+        <li><span class="n">4</span>地图只画<b>当天的连线 + 序号 + 住宿旗标</b>。★ 预计算矩阵只存距离与时长、不存路径点，所以静态命中画的是<b>直连虚线</b>并标注「直线示意」；只有真调了路线规划才画真实折线。</li>
+        <li><span class="n">5</span>Stop 行：<b>到达时间 + 名称 + 停留时长（可改）</b>。默认值取自 POI 的结构化时长，用淡色标记说明「这是系统估的」，不冒充事实。</li>
+        <li><span class="n">6</span>Leg 行：<b>方式 + 时长 + 距离</b>，六种方式（驾车 / 打车 / 公交 / 地铁 / 骑行 / 步行）可逐段切换。hover 时地图上对应连线提亮。</li>
+        <li><span class="n">7</span><b>多方案在点开某一段时才拉取</b>（1 次调用），进入页面不拉 —— 一天 8 段全拉是 24 次调用，而用户大概率不会看大部分段。费用一律标「预估」，措辞用「约 / 预计」而不是「将 / 会」。</li>
+        <li><span class="n">8</span><b>过载提示一律「陈述事实 + 给建议」</b>，不用祈使句：顺序的决定权在用户手里，这跟「不做自动排序」是同一个取舍。</li>
+        <li><span class="n">9</span>汇总条给出<b>在途 / 停留 / 合计</b>三件套 —— 这是「一天够不够」这个问题的直接答案。</li>
+        <li><span class="n">10</span>「＋ 添加点位」复用城市页的列表 + 筛选，<b>不重新实现一套</b>。</li>
+        <li><span class="n">11</span><b>必须如实声明时长是快照</b>：矩阵里的驾车时长是「生成时刻的路况」，把它说成实时路况就是误导。这条是产品诚实度的底线。</li>
+      </ul>
+    </div>
+
+    <!-- ---------- W6 住宿点选择 StayPicker ---------- -->
+    <div class="screen-block">
+      <div class="screen-caption">
+        <span class="no">W6</span><span class="name">住宿点选择 · 三路输入（地图挂了也要能设）</span><span class="path">StayPicker</span>
+      </div>
+
+      <div class="screen--web">
+        <div class="map-canvas"></div>
+        <div class="map-tag" style="left:62%;top:8%"><span class="pn">4</span><b>全屏地图画布</b><span>可拖动 marker · 拖完微调几十米</span></div>
+
+        <!-- 背景：上一个状态的行程面板压暗示意 -->
+        <div class="flt flt--col panel-itin" style="opacity:.28">
+          <div class="itin-stay">
+            <div class="ic">⌂</div>
+            <div class="who"><b>春熙路某酒店</b><span>第 1–2 天 · 手动搜索定位</span></div>
+            <div class="chg">更换</div>
+          </div>
+          <div class="tl"><div class="tl-row is-first"><div class="tl-mid"><span class="tl-dot tl-dot--stay"></span></div><div class="tl-body"><div class="tl-h"><span class="hh">09:00</span><span class="nm">从住宿出发</span></div></div></div></div>
+        </div>
+
+        <div class="flt topbar">
+          <div class="brand"><span class="logo"></span><span class="brand-text">行迹<em>城市旅游攻略</em></span></div>
+          <div class="crumb" style="font-size:12.5px"><span class="up">← 行程</span></div>
+          <div class="top-right"><span class="tbtn">我的行程</span><div class="iconbtn">◱</div></div>
+        </div>
+
+        <!-- StayPicker 浮层 -->
+        <div class="flt picker">
+          <div class="pk-h rel">
+            <span class="pn">1</span>
+            选择住宿点<span>行程的锚 · 不在 POI 表里，可以是任意坐标</span>
+          </div>
+
+          <div class="pk-way rel">
+            <span class="pn" style="top:12px;right:8px">2</span>
+            <div class="w is-on"><div class="wt">🔍 搜索地址</div><div class="ws">知道酒店名字最准<br>消耗搜索配额 · 已防抖</div></div>
+            <div class="w"><div class="wt">◎ 地图点选</div><div class="ws">看着地图挑位置<br>零配额 · 需地图可用</div></div>
+            <div class="w"><div class="wt">☰ 从 POI 里选</div><div class="ws">拿春熙路当落脚点<br>零配额 · 永远可用</div></div>
+          </div>
+
+          <div class="pk-body rel">
+            <span class="pn pn--in">3</span>
+            <div class="p-input" style="flex:none">🔍 春熙路某酒店</div>
+            <div class="pk-row"><div class="img-ph"></div><div class="info"><b>春熙路亚朵酒店</b><span>锦江区中纱帽街 8 号 · 距点位群 1.2 km</span></div><span class="go">✓</span></div>
+            <div class="pk-row"><div class="img-ph"></div><div class="info"><b>成都春熙路 IFS 酒店</b><span>锦江区红星路三段 1 号</span></div><span class="go">→</span></div>
+            <div class="pk-row"><div class="img-ph"></div><div class="info"><b>春熙路地铁站如家</b><span>锦江区春熙路步行街东侧</span></div><span class="go">→</span></div>
+          </div>
+
+          <div class="pk-foot rel">
+            <span class="pn" style="top:-9px;right:8px">5</span>
+            <div class="pb">取消</div>
+            <div class="pb is-pri">确定为住宿点</div>
+          </div>
+        </div>
+      </div>
+
+      <ul class="notes">
+        <li><span class="n">1</span>住宿点<b>不在 POI 表里、可以是任意坐标</b> —— 这是「我自己确定住的地方」这句话的直接推论，不能只让用户在 46 个点里选。</li>
+        <li><span class="n">2</span><b>三路输入必须都留着</b>：覆盖的是不同精度需求（知道名字→搜索 / 只知道片区→点选 / 从 POI 里挑）。★ <b>地图 SDK 挂了不能导致住宿点不能设</b> —— 点选降级为搜索（走 Web 服务 API），最后兜底手动填经纬度。</li>
+        <li><span class="n">3</span>搜索要<b>防抖 + 单独计配额</b> —— 每打一个字搜一次会很快烧掉日配额。</li>
+        <li><span class="n">4</span>地图点选给的是<b>可拖动 marker，不是「点一下定死」</b>：用户点完之后几乎总想微调几十米，定死会让他反复重选。</li>
+        <li><span class="n">5</span>住宿段支持<b>中途换酒店</b>（fromDay / toDay）：前几天住城中心、后几天住熊猫基地附近，是真实需求。</li>
+      </ul>
+    </div>
+
+    <!-- ---------- W7 行程页 · 边界状态（多住宿段 / 降级 / 导入 / 跨天校验） ---------- -->
+    <div class="screen-block">
+      <div class="screen-caption">
+        <span class="no">W7</span><span class="name">行程页 · 多住宿段 + 降级态 + 导入</span><span class="path">/city/chengdu/plan（第 3 天）</span>
+      </div>
+
+      <div class="screen--web">
+        <div class="map-canvas"></div>
+
+        <!-- 第 3 天：住宿锚换成第二个住宿段，连线与时间链跟着换 -->
+        <svg class="rt" viewBox="0 0 1280 820" preserveAspectRatio="none">
+          <polyline points="1010,190 700,300 820,420"
+                    fill="none" stroke="#1f2937" stroke-width="2.5" stroke-dasharray="7 5"/>
+        </svg>
+        <div class="stayflag" style="left:78.9%;top:23.2%"><b>熊猫基地附近民宿</b><i></i></div>
+        <span class="seq" style="left:54.7%;top:36.6%">1</span>
+        <span class="seq" style="left:64.1%;top:51.2%">2</span>
+
+        <!-- 5 跨天移动触发住宿段校验：不硬阻止，而是先问一句。
+             ★ 位置由 token 推出（与图例条同一套让位逻辑），否则 420px 面板会压住它的一半 -->
+        <div class="toast rel" style="left:calc(var(--flt-inset) + var(--panel-itinerary) + var(--flt-gap));right:var(--flt-inset);transform:none;margin:0 auto">
+          <span class="pn" style="top:-9px;right:-9px">5</span>
+          「宽窄巷子」已移到第 3 天 · 第 3 天住的是<b>另一个住宿点</b>（熊猫基地附近民宿），出行落脚点随之改变 ·
+          正式版会先问一句「仍要移过去吗？」再执行
+        </div>
+
+        <div class="flt topbar">
+          <div class="brand"><span class="logo"></span><span class="brand-text">行迹<em>城市旅游攻略</em></span></div>
+          <div class="crumb" style="font-size:12.5px"><span class="up">← 成都</span></div>
+          <div class="daytabs">
+            <span class="daytab">第 1 天</span>
+            <span class="daytab">第 2 天<span class="wdot"></span></span>
+            <span class="daytab is-on">第 3 天</span>
+          </div>
+          <div class="top-right">
+            <span class="tbtn">导出</span>
+            <span class="tbtn">分享</span>
+            <div class="iconbtn">◱</div>
+          </div>
+        </div>
+
+        <div class="flt flt--col panel-itin">
+          <!-- 住宿行：切天之后锚点自动换成当天所属住宿段 -->
+          <div class="itin-stay">
+            <div class="ic">⌂</div>
+            <div class="who"><b>熊猫基地附近民宿</b><span>第 3 天 · 地图点选 · 仅存本机</span></div>
+            <div class="chg">更换</div>
+          </div>
+
+          <!-- 1 住宿段列表：中途换酒店是真实需求（fromDay / toDay） -->
+          <div class="stayrows rel" style="padding-top:11px">
+            <span class="pn" style="top:2px;right:10px">1</span>
+            <div class="stayrow"><span class="sd">春熙路某酒店 · 第 1–2 天</span><span class="go">查看该天</span></div>
+            <div class="stayrow is-on"><span class="sd">熊猫基地附近民宿 · 第 3 天</span><span class="go">当前</span></div>
+            <span class="pn" style="bottom:-6px;right:10px">2</span>
+          </div>
+
+          <!-- 3 降级条：系统状态，配色与橙色过载提示刻意区分 -->
+          <div style="padding:0 16px 2px">
+            <div class="degbar rel">
+              <span class="pn" style="top:-9px;right:0">3</span>
+              <i></i><span>今日实时路况额度已用完，本页时长改为估算值 · 静态矩阵照常可用</span>
+            </div>
+          </div>
+
+          <!-- 时间轴（与 W5 同一套，此处不重复标注） -->
+          <div class="tl" style="padding-top:8px">
+            <div class="tl-row is-first">
+              <div class="tl-mid"><span class="tl-dot tl-dot--stay"></span></div>
+              <div class="tl-body">
+                <div class="tl-h"><span class="hh">08:30</span><span class="nm">从住宿出发</span></div>
+              </div>
+            </div>
+            <div class="tl-row tl-row--leg">
+              <div class="tl-mid"></div>
+              <div class="tl-body">
+                <div class="legbox">
+                  <span class="lg-ic">🚗</span>
+                  <span class="lg-t"><b>32 分</b> · 12.4 km</span>
+                  <span class="lg-swap">换方式</span>
+                </div>
+              </div>
+            </div>
+            <div class="tl-row is-last">
+              <div class="tl-mid"><span class="tl-dot"></span></div>
+              <div class="tl-body">
+                <div class="tl-h"><span class="hh">09:02</span><span class="nm">大熊猫繁育研究基地</span><span class="tag">动物园</span></div>
+                <div class="tl-sub"><span>停留 180 分</span><span class="edit">修改</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="itin-sum">
+            <div class="l">在途 <b>32 分</b> · 停留 <b>180 分</b><br>点位 <b>2</b> 个 · 顺序由你决定，系统只算时间</div>
+            <div class="big">4 小时 6 分<span>全天合计</span></div>
+          </div>
+
+          <!-- 4 导入：导出的另一半，否则那份 JSON 是一次性的 -->
+          <div class="itin-add">
+            <div class="btn">＋ 添加点位</div>
+            <div class="btn rel">导入行程 JSON
+              <span class="pn" style="top:-9px;right:6px">4</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6 图例条：五种降级态逐条可点；分享默认脱敏 -->
+        <div class="flt bottombar bottombar--itin rel">
+          <span class="pn">6</span>
+          <span>五种降级态：额度用尽 / 不能存储 / 链接失效 / 仅 1 方案 / 无打车费</span>
+          <span class="vline"></span>
+          <span>时长按 2026-09-18 工作日上午路况估算 · 往返均值</span>
+          <span class="credit">© 腾讯地图</span>
+        </div>
+      </div>
+
+      <ul class="notes">
+        <li><span class="n">1</span><b>住宿段是列表不是单值</b>（<code>fromDay</code> / <code>toDay</code>）：前几天住城中心、后几天住熊猫基地附近，是真实需求。列表常显是为了让「今天住哪个」一眼可见。</li>
+        <li><span class="n">2</span><b>切天 = 换住宿锚</b>：点某一段跳到该天，视野、连线、时间链的起点全部跟着换 —— 住宿点是行程的锚，不是一条静态记录。</li>
+        <li><span class="n">3</span><b>降级条与过载提示必须分色</b>：额度用尽是<b>系统状态</b>（灰），行程排太满<b>是行程质量问题</b>（橙）。混成一色会让人以为「排太满是系统坏了」。</li>
+        <li><span class="n">4</span><b>能导出就要能导入</b>：只做导出的话，用户手里那份 JSON 是一次性的。导入全程在本机校验合并，不上传。</li>
+        <li><span class="n">5</span>跨天拖拽时若<b>两端归属不同住宿段</b>，给提示而不是默默执行 —— 落脚点变了是用户该知道的事，也不硬阻止（顺序的决定权在他手里）。</li>
+        <li><span class="n">6</span>第九节列出的<b>五种降级态逐条要实现</b>，原型里都能点到；分享链接<b>只含点位与顺序，不含住宿点</b>（住宿点等于「他在哪过夜」）。</li>
+      </ul>
+    </div>
+
+    <p class="sec-note" style="margin:30px 0 0">
+      移动端行程页是<b>第二大场景</b>（第一大是「现场找附近去处」）—— 「坐在酒店里排今天的计划」大概率发生在手机上。
+      仍是同一模型：地图铺满 + 连线，行程面板换成<b>底部 Sheet 三档吸附</b>。
+      ★ 三档的<b>内容不同</b>（peek 只给出发信息 / half 给时间轴前半段 + 汇总条 / full 给完整时间轴 + 拖拽把手），
+      不是同一段 HTML 换个高度 —— 否则 peek 档等于没有。
+    </p>
+    <div class="mobile-row">
+
+      <!-- ---------- M5 行程页 · peek 档（28svh） ---------- -->
+      <div class="screen-block" style="margin-bottom:0">
+        <div class="screen-caption">
+          <span class="no">M5</span><span class="name">行程页 · peek 档（只看地图）</span><span class="path">28svh</span>
+        </div>
+
+        <div class="device-wrap">
+          <div class="device">
+            <div class="device-screen">
+              <div class="map-canvas"></div>
+
+              <!-- 3 地图可见区最大：Sheet 只占 236px，连线与序号全露出来 -->
+              <span class="pn" style="left:56.4%;top:23.2%;right:auto;transform:translate(-50%,-50%)">3</span>
+              <svg class="rt" viewBox="0 0 390 844" preserveAspectRatio="none">
+                <polyline points="300,104 100,172 220,226"
+                          fill="none" stroke="#1f2937" stroke-width="2.5" stroke-dasharray="6 4"/>
+              </svg>
+              <div class="stayflag" style="left:76.9%;top:12.3%"><b>春熙路某酒店</b><i></i></div>
+              <span class="seq" style="left:25.6%;top:20.4%;width:19px;height:19px;font-size:10.5px">1</span>
+              <span class="seq" style="left:56.4%;top:26.8%;width:19px;height:19px;font-size:10.5px">2</span>
+
+              <div class="mflt m-pill" style="left:14px;top:44px">
+                <span style="font-size:12.5px;font-weight:600">← 我的行程 · 成都</span>
+              </div>
+              <div class="mflt m-icon" style="right:14px;top:44px"><span style="font-size:13px">◱</span></div>
+
+              <!-- 1 底部 Sheet：peek 档只给「几点出门 + 先去哪」 -->
+              <div class="m-sheet" style="height:236px">
+                <span class="pn pn--in" style="right:14px">1</span>
+                <div class="m-handle"></div>
+                <div class="m-sheet-head"><b>第 1 天 · 09:00 出发</b><span>5 个点位 · 全天 8 小时 21 分</span></div>
+                <div style="padding:0 16px 10px;font-size:12px;color:var(--ink2)">
+                  先去 <b>宽窄巷子</b> · 从春熙路某酒店出发
+                </div>
+
+                <!-- 2 DayTabs 常驻：切天不必先把 Sheet 拉开 -->
+                <div class="m-daytabs rel">
+                  <span class="pn pn--in">2</span>
+                  <span class="daytab is-on" style="font-size:11.5px">第 1 天</span>
+                  <span class="daytab" style="font-size:11.5px">第 2 天<span class="wdot"></span></span>
+                  <span class="daytab" style="font-size:11.5px">第 3 天</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="device-notch"></div>
+        </div>
+
+        <ul class="notes">
+          <li><span class="n">1</span><b>peek（28svh ≈ 236px）只回答两个问题</b>：几点出门、先去哪。★ 三档若共用同一段 HTML，peek 就等于把整条时间轴塞进 236px —— 那样这一档等于不存在。</li>
+          <li><span class="n">2</span><b>DayTabs 在 peek 档也保留</b>：切天是最常用的动作，不该逼用户先上滑一次。</li>
+          <li><span class="n">3</span>peek 档下<b>地图可见区最大</b>（844 − 236 = 608px）：这一档的用途就是「边看地图边确认行程对不对」。</li>
+        </ul>
+      </div>
+
+      <!-- ---------- M6 行程页 · half 档（默认） ---------- -->
+      <div class="screen-block" style="margin-bottom:0">
+        <div class="screen-caption">
+          <span class="no">M6</span><span class="name">行程页 · half 档（默认）</span><span class="path">56svh</span>
+        </div>
+
+        <div class="device-wrap">
+          <div class="device">
+            <div class="device-screen">
+              <div class="map-canvas"></div>
+
+              <!-- 2 地图：当天连线 + 序号 + 住宿旗标（小屏不显示段文字）
+                   ★ 坐标全部压在 y < 45% —— half 档 Sheet 高 472px，
+                     地图可见区只到 372px，再往下画就被 Sheet 盖住 -->
+              <span class="pn" style="left:25.6%;top:17.2%;transform:translate(-50%,-50%)">2</span>
+              <svg class="rt" viewBox="0 0 390 844" preserveAspectRatio="none">
+                <polyline points="300,104 100,172 220,226 152,282"
+                          fill="none" stroke="#1f2937" stroke-width="2.5" stroke-dasharray="6 4"/>
+              </svg>
+              <div class="stayflag" style="left:76.9%;top:12.3%"><b>春熙路某酒店</b><i></i></div>
+              <span class="seq" style="left:25.6%;top:20.4%;width:19px;height:19px;font-size:10.5px">1</span>
+              <span class="seq" style="left:56.4%;top:26.8%;width:19px;height:19px;font-size:10.5px">2</span>
+              <span class="seq" style="left:39.0%;top:33.4%;width:19px;height:19px;font-size:10.5px">3</span>
+
+              <!-- 1 顶部胶囊 -->
+              <div class="mflt m-pill rel" style="left:14px;top:44px">
+                <span class="pn" style="top:-9px;left:-9px;right:auto">1</span>
+                <span style="font-size:12.5px;font-weight:600">← 我的行程 · 成都</span>
+              </div>
+              <div class="mflt m-icon" style="right:14px;top:44px"><span style="font-size:13px">◱</span></div>
+
+              <!-- 4 底部 Sheet：half 档 -->
+              <div class="m-sheet" style="height:472px">
+                <span class="pn pn--in" style="right:14px">4</span>
+                <div class="m-handle"></div>
+                <div class="m-sheet-head"><b>第 1 天</b><span>5 个点位 · 全天 8 小时 21 分</span></div>
+
+                <!-- 5 DayTabs -->
+                <div class="m-daytabs rel">
+                  <span class="pn pn--in">5</span>
+                  <span class="daytab is-on" style="font-size:11.5px">第 1 天</span>
+                  <span class="daytab" style="font-size:11.5px">第 2 天<span class="wdot"></span></span>
+                  <span class="daytab" style="font-size:11.5px">第 3 天</span>
+                </div>
+
+                <!-- 3 时间轴前 3–4 项 -->
+                <div class="tl tl--m" style="padding:0 16px 4px">
+                  <div class="tl-row is-first">
+                    <div class="tl-mid"><span class="tl-dot tl-dot--stay"></span></div>
+                    <div class="tl-body">
+                      <div class="tl-h"><span class="hh">09:00</span><span class="nm">出发 · 春熙路某酒店</span></div>
+                    </div>
+                  </div>
+                  <div class="tl-row tl-row--leg">
+                    <div class="tl-mid"><span class="pn" style="position:absolute;top:-9px;left:-9px;z-index:3">3</span></div>
+                    <div class="tl-body">
+                      <div class="legbox m-leg" style="padding:4px 8px">
+                        <span class="lg-ic" style="font-size:11.5px">🚗</span>
+                        <span class="lg-t" style="font-size:10.5px"><b>23 分</b> · 5.2 km</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tl-row">
+                    <div class="tl-mid"><span class="tl-dot"></span></div>
+                    <div class="tl-body">
+                      <div class="tl-h"><span class="hh">09:23</span><span class="nm">宽窄巷子</span></div>
+                      <div class="tl-sub"><span>停留 90 分</span></div>
+                    </div>
+                  </div>
+                  <div class="tl-row is-last">
+                    <div class="tl-mid"><span class="tl-dot"></span></div>
+                    <div class="tl-body">
+                      <div class="tl-h"><span class="hh">11:05</span><span class="nm">人民公园</span></div>
+                      <div class="tl-sub"><span>停留 60 分</span></div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 6 汇总条 -->
+                <div class="itin-sum rel" style="padding:9px 16px 10px">
+                  <span class="pn" style="top:-9px;right:10px">6</span>
+                  <div class="l">在途 <b>43 分</b> · 停留 <b>225 分</b></div>
+                  <div class="big" style="font-size:14px">4 小时 28 分<span>全天合计</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="device-notch"></div>
+        </div>
+
+        <ul class="notes">
+          <li><span class="n">1</span>顶部胶囊只保留「返回 + 当前行程」，<b>DayTabs 下沉到 Sheet 里</b> —— 手机上顶栏不该抢地图的高度。</li>
+          <li><span class="n">2</span>地图仍是铺满：<b>地图可见区 = 视口 − Sheet 档位高度</b>，同一个 freeRect 逻辑，不是两套布局。</li>
+          <li><span class="n">3</span><b>小屏不显示段文字</b>（「23 分 · 5.2 km」在图上会糊）：改为<b>序号圆点 + 连线</b>，具体数字由 Sheet 里的时间轴承载。</li>
+          <li><span class="n">4</span><b>half（56svh）是默认档</b>：既不遮挡地图主体，又能一眼看到时间轴前几项。上滑到 full 展开全部，下滑到 peek 只看「几点出门、先去哪」。</li>
+          <li><span class="n">5</span>DayTabs 上的<b>橙点 = 该天行程偏满</b>，跨天一眼能看出哪天需要调整。</li>
+          <li><span class="n">6</span>汇总条<b>固定在 Sheet 底部不随滚动</b> —— 「今天够不够」是随时要瞄一眼的数字。</li>
+        </ul>
+      </div>
+
+      <!-- ---------- M7 行程页 · full 档 ---------- -->
+      <div class="screen-block" style="margin-bottom:0">
+        <div class="screen-caption">
+          <span class="no">M7</span><span class="name">行程页 · full 档（完整编排）</span><span class="path">88svh</span>
+        </div>
+
+        <div class="device-wrap">
+          <div class="device">
+            <div class="device-screen">
+              <div class="map-canvas"></div>
+              <!-- ★ full 档 Sheet 高 743px，地图只剩顶上约 101px 的一条边 —— 这是设计既定的
+                   （「专心编排」模式），所以这里的地图元素全部压在 y < 11% 的窄带里 -->
+              <svg class="rt" viewBox="0 0 390 844" preserveAspectRatio="none">
+                <polyline points="300,52 175,84 242,88"
+                          fill="none" stroke="#1f2937" stroke-width="2.5" stroke-dasharray="6 4"/>
+              </svg>
+              <div class="stayflag" style="left:76.9%;top:6.2%"><b>春熙路某酒店</b><i></i></div>
+              <span class="seq" style="left:44.9%;top:10.0%;width:19px;height:19px;font-size:10.5px">1</span>
+              <span class="seq" style="left:62.1%;top:10.4%;width:19px;height:19px;font-size:10.5px">2</span>
+
+              <div class="mflt m-pill" style="left:14px;top:44px">
+                <span style="font-size:12.5px;font-weight:600">← 我的行程 · 成都</span>
+              </div>
+
+              <!-- 1 底部 Sheet：full 档 -->
+              <div class="m-sheet" style="height:743px">
+                <span class="pn pn--in" style="right:14px">1</span>
+                <div class="m-handle"></div>
+                <div class="m-sheet-head"><b>第 1 天</b><span>长按 300ms 或用把手 ≡ 拖动排序</span></div>
+
+                <div class="m-daytabs rel">
+                  <span class="pn pn--in">2</span>
+                  <span class="daytab is-on" style="font-size:11.5px">第 1 天</span>
+                  <span class="daytab" style="font-size:11.5px">第 2 天<span class="wdot"></span></span>
+                  <span class="daytab" style="font-size:11.5px">第 3 天</span>
+                </div>
+
+                <!-- 3 完整时间轴（带拖拽把手） -->
+                <div class="tl tl--m rel" style="padding:0 16px 4px">
+                  <span class="pn pn--in">3</span>
+
+                  <div class="tl-row is-first">
+                    <div class="tl-mid"><span class="tl-dot tl-dot--stay"></span></div>
+                    <div class="tl-body"><div class="tl-h"><span class="hh">09:00</span><span class="nm">出发 · 春熙路某酒店</span></div></div>
+                  </div>
+
+                  <div class="tl-row tl-row--leg">
+                    <div class="tl-mid"></div>
+                    <div class="tl-body">
+                      <div class="legbox m-leg" style="padding:4px 8px">
+                        <span class="lg-ic" style="font-size:11.5px">🚗</span>
+                        <span class="lg-t" style="font-size:10.5px"><b>23 分</b> · 5.2 km</span>
+                        <span class="lg-swap">换</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tl-row">
+                    <div class="tl-mid"><span class="tl-dot"></span></div>
+                    <div class="tl-body" style="display:flex;gap:7px">
+                      <span class="m-grip">≡</span>
+                      <div style="flex:1;min-width:0">
+                        <div class="tl-h"><span class="hh">09:23</span><span class="nm">宽窄巷子</span></div>
+                        <div class="tl-sub"><span>停留 90 分</span><span class="edit">修改</span></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tl-row tl-row--leg">
+                    <div class="tl-mid"></div>
+                    <div class="tl-body">
+                      <div class="legbox m-leg rel" style="padding:4px 8px">
+                        <span class="pn" style="top:-9px;right:6px">4</span>
+                        <span class="lg-ic" style="font-size:11.5px">🚶</span>
+                        <span class="lg-t" style="font-size:10.5px"><b>12 分</b> · 0.9 km</span>
+                        <span class="lg-swap">换</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tl-row">
+                    <div class="tl-mid"><span class="tl-dot"></span></div>
+                    <div class="tl-body" style="display:flex;gap:7px">
+                      <span class="m-grip">≡</span>
+                      <div style="flex:1;min-width:0">
+                        <div class="tl-h"><span class="hh">11:05</span><span class="nm">人民公园</span></div>
+                        <div class="tl-sub"><span>停留 60 分</span><span class="edit">修改</span></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tl-row is-last">
+                    <div class="tl-mid"><span class="tl-dot"></span></div>
+                    <div class="tl-body" style="display:flex;gap:7px">
+                      <span class="m-grip">≡</span>
+                      <div style="flex:1;min-width:0">
+                        <div class="tl-h"><span class="hh">12:13</span><span class="nm">某火锅店</span></div>
+                        <div class="tl-sub"><span>停留 75 分</span><span class="edit">修改</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 5 过载提示 -->
+                <div class="warnbar m-warn rel">
+                  <i></i><span>行程排到 21:40，可能过晚 · 建议减少 1 个点位</span>
+                  <span class="pn" style="top:-9px;right:6px">5</span>
+                </div>
+
+                <div class="itin-sum" style="padding:9px 16px 10px">
+                  <div class="l">在途 <b>43 分</b> · 停留 <b>225 分</b></div>
+                  <div class="big" style="font-size:14px">4 小时 28 分<span>全天合计</span></div>
+                </div>
+
+                <!-- 6 底部操作条 -->
+                <div class="m-actionbar rel">
+                  <span class="pn" style="top:-9px;right:8px">6</span>
+                  <div class="mbtn">＋ 添加点位</div>
+                  <div class="mbtn">导出</div>
+                  <div class="mbtn">分享</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="device-notch"></div>
+        </div>
+
+        <ul class="notes">
+          <li><span class="n">1</span>full（88svh）时<b>地图只剩顶上一条边</b>，此时是「专心编排」模式 —— 这是刻意的，不是遮挡事故。</li>
+          <li><span class="n">2</span>DayTabs 在 full 档仍然常显：切天不需要先收起 Sheet。</li>
+          <li><span class="n">3</span><b>拖拽排序用长按 300ms 激活</b>，不是直接拖 —— 直接拖会和「滚动列表」无法区分，用户想往下滚一屏结果动了一行顺序，是最招人烦的交互事故之一。★ 必须有 Plan B：每行右侧<b>拖拽把手 ≡</b>，按住即可拖（微信内长按可能被「识别图中二维码」抢占）。</li>
+          <li><span class="n">4</span>Leg 行在移动端压缩为单行：方式图标 + 时长 + 距离 + 「换」。</li>
+          <li><span class="n">5</span>过载提示在移动端同样保留 —— 这是「算时间」最有价值的输出，不能因为屏小就砍掉。</li>
+          <li><span class="n">6</span>操作条固定在 Sheet 底部不随内容滚动。「分享」在移动端<b>默认关闭「显示住宿点名称」</b>，且分享前弹一次确认。</li>
         </ul>
       </div>
 
