@@ -1,0 +1,110 @@
+{
+  "id": "buddha-night",
+  "name": "大佛夜景灯光",
+  "category": "hotspot",
+  "subtype": "photo",
+  "summary": "乐山大佛景区夜里的灯光秀，崖壁和佛身打上光，另有一番样子。",
+  "description": "大佛夜景是景区晚上的灯光。崖壁和佛身打上暖光，再有投影，和白天的古朴不一样。游船晚上也开，从江上看灯更全。夏天晚上凉快，人比白天少些，适合散步看。清晨或傍晚来，人少光好。",
+  "highlights": [
+    "景区夜灯光秀",
+    "崖壁佛身打暖光",
+    "游船夜看灯更全"
+  ],
+  "location": {
+    "point": {
+      "lng": 103.774401,
+      "lat": 29.538761,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "四川省乐山市市中区乐山大佛景区",
+    "district": "市中区",
+    "transportTip": "市区乘车到乐山大佛景区夜游"
+  },
+  "practical": {
+    "openHours": "约19:30-22:30，以公告为准",
+    "openHoursRef": 0,
+    "ticket": "约80元（夜游，以官方为准）",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38869380/pexels-photo-38869380.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38869380/pexels-photo-38869380.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 3024,
+      "alt": "Explore the intricate ancient Buddhist rock carvings in Leshan, Sichuan, showcasing cultural heritage.",
+      "query": "Leshan Buddha Night Light",
+      "credit": {
+        "source": "pexels",
+        "author": "Guillaume Kremer",
+        "sourceUrl": "https://www.pexels.com/photo/leshan-ancient-buddhist-rock-carvings-in-sichuan-38869380/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38869376/pexels-photo-38869376.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38869376/pexels-photo-38869376.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5712,
+      "height": 4284,
+      "alt": "Intricate stone carvings and statues at Leshan Giant Buddha Park, showcasing Chinese cultural heritage.",
+      "query": "Leshan Buddha Night Light",
+      "credit": {
+        "source": "pexels",
+        "author": "Guillaume Kremer",
+        "sourceUrl": "https://www.pexels.com/photo/ancient-sculptures-at-leshan-giant-buddha-park-38869376/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33140330/pexels-photo-33140330.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33140330/pexels-photo-33140330.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4608,
+      "alt": "Buddha and monk stone carvings in Leshan, showcasing ancient Chinese spirituality.",
+      "query": "Leshan Buddha Night Light",
+      "credit": {
+        "source": "pexels",
+        "author": "Sandra Mosconi",
+        "sourceUrl": "https://www.pexels.com/photo/sacred-buddha-carvings-at-leshan-china-33140330/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "夜景",
+    "灯光",
+    "大佛"
+  ],
+  "popularity": 82,
+  "sources": [
+    {
+      "title": "百度百科·乐山大佛",
+      "url": "https://baike.baidu.com/item/%E4%B9%90%E5%B1%B1%E5%A4%A7%E4%BD%9B",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Leshan Buddha Night Light",
+    "zh": "大佛夜景灯光"
+  },
+  "district": "511102"
+}

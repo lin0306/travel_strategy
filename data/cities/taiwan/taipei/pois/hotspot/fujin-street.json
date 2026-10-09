@@ -1,0 +1,114 @@
+{
+  "id": "fujin-street",
+  "name": "富锦街",
+  "category": "hotspot",
+  "subtype": "photo",
+  "summary": "民生社区的街道，咖啡馆与设计小店沿街排开。",
+  "description": "富锦街在松山区民生社区，是一条绿树成荫的街道，两边是低层公寓与一间挨一间的小店。这里以咖啡馆、甜点店与设计小店出名，店面不大但各有风格，装修讲究。街区是棋盘式的路网，人行道宽，走起来舒服，随手拍都是街景。它离市中心不远，但游客相对少，氛围安静。附近有小公园与学校，白天来最好，很多店傍晚就打烊。逛累了就找一家坐下喝杯咖啡，是本地人周末的日常路线。",
+  "highlights": [
+    "绿树成荫的街道与低层公寓",
+    "咖啡馆与设计小店密集",
+    "游客少，氛围安静"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.5591,
+      "lat": 25.06063,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "台北市松山区富锦街一带",
+    "district": "松山区",
+    "transportTip": "捷运南京三民站步行约十五分钟"
+  },
+  "practical": {
+    "openHours": "店家多为11:00-19:00，各店不一",
+    "openHoursRef": 0,
+    "ticket": "免费逛街，消费另计，以店家为准",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "solo",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/20008780/pexels-photo-20008780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/20008780/pexels-photo-20008780.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2999,
+      "height": 3999,
+      "alt": "Explore the serene atmosphere of a vibrant alleyway in Taipei, Taiwan's urban landscape.",
+      "query": "Fujin Street Taipei cafe",
+      "credit": {
+        "source": "pexels",
+        "author": "Markus Winkler",
+        "sourceUrl": "https://www.pexels.com/photo/a-street-with-a-painted-white-line-and-a-crosswalk-20008780/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/28847816/pexels-photo-28847816.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/28847816/pexels-photo-28847816.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6774,
+      "height": 4492,
+      "alt": "Vibrant Taipei street scene featuring motorcycles, shops, and bustling city life.",
+      "query": "Fujin Street Taipei cafe",
+      "credit": {
+        "source": "pexels",
+        "author": "Inna YN",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-taipei-street-with-motorcycles-and-shops-28847816/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/17286486/pexels-photo-17286486.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/17286486/pexels-photo-17286486.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7952,
+      "height": 5304,
+      "alt": "Explore the vibrant urban life of Taipei with bustling streets, shops, and modern architecture.",
+      "query": "Fujin Street Taipei cafe",
+      "credit": {
+        "source": "pexels",
+        "author": "Jimmy Liao",
+        "sourceUrl": "https://www.pexels.com/photo/view-of-the-street-and-buildings-in-downtown-taipei-taiwan-17286486/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "街区",
+    "咖啡馆",
+    "街拍"
+  ],
+  "popularity": 78,
+  "sources": [
+    {
+      "title": "民生社区·百度百科",
+      "url": "https://baike.baidu.com/item/%E6%B0%91%E7%94%9F%E7%A4%BE%E5%8C%BA",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-03"
+    }
+  ],
+  "updatedAt": "2026-10-03",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Fujin Street Taipei cafe",
+    "zh": "富锦街"
+  },
+  "_geocodeTitle": "富锦街",
+  "_geocodeSuspect": false,
+  "district": "711001"
+}

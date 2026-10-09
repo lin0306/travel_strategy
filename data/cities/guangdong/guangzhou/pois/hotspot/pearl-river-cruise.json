@@ -1,0 +1,113 @@
+{
+  "id": "pearl-river-cruise",
+  "name": "珠江夜游",
+  "category": "hotspot",
+  "subtype": "photo",
+  "summary": "从水上把两岸连起来看：这一座城市的地标绝大多数排在江的两侧。",
+  "description": "珠江夜游从沿江的码头出发，上行一段再折返，航程通常在一小时上下。它的价值在于水这一层——广州大部分地标都排在江的两岸，白天在陆地上只能一个一个分别去，坐船则把它们连成一条线。沿途经过沙面、西堤、海珠桥、二沙岛，再到珠江新城那一面。码头与船型不同，价格差别不小。",
+  "highlights": [
+    "地标多数排在江两侧，坐船可一次连起来",
+    "航程一般一小时上下",
+    "码头与船型决定价格"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.277825,
+      "lat": 23.114635,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "广州市越秀区沿江西路西堤码头一带（另有多个码头）",
+    "district": "越秀区",
+    "transportTip": "地铁6号线、8号线文化公园站至西堤码头；另有海心沙一带码头"
+  },
+  "practical": {
+    "openHours": "夜航多在19:00-22:00间发船，以运营方公告为准",
+    "openHoursRef": 0,
+    "ticket": "约80元起，视船型与码头而定",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "family",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/23626370/pexels-photo-23626370.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/23626370/pexels-photo-23626370.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2433,
+      "height": 3637,
+      "alt": "Urban traffic scene at a busy intersection with taxis and cars in Guangzhou, China.",
+      "query": "China city street view guangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Grace L.",
+        "sourceUrl": "https://www.pexels.com/photo/cars-on-the-red-light-at-the-intersection-23626370/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/21628895/pexels-photo-21628895.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/21628895/pexels-photo-21628895.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4333,
+      "height": 2889,
+      "alt": "Motorcyclists ride through the bustling streets of Guangzhou, China, amidst urban traffic.",
+      "query": "China city street view guangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "tslui",
+        "sourceUrl": "https://www.pexels.com/photo/motor-scooters-and-cars-on-street-21628895/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/30304264/pexels-photo-30304264.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/30304264/pexels-photo-30304264.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6240,
+      "height": 4160,
+      "alt": "Colorful urban nightscape in Guangzhou with skyscrapers, a yellow taxi, and festive lanterns.",
+      "query": "China city street view guangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Muhamad Guruh Budi Hartono",
+        "sourceUrl": "https://www.pexels.com/photo/vibrant-night-street-scene-in-guangzhou-city-30304264/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "夜景",
+    "珠江",
+    "游船"
+  ],
+  "popularity": 88,
+  "sources": [
+    {
+      "title": "百度百科·珠江夜游",
+      "url": "https://baike.baidu.com/item/%E7%8F%A0%E6%B1%9F%E5%A4%9C%E6%B8%B8",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-24"
+    }
+  ],
+  "updatedAt": "2026-09-24",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "珠江夜游"
+  },
+  "_geocodeTitle": "珠江夜游",
+  "_geocodeSuspect": false,
+  "district": "440104"
+}

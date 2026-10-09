@@ -1,0 +1,119 @@
+{
+  "id": "linchunling",
+  "name": "临春岭森林公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "市区东边的一片山林，有条上山的石阶，半山腰能看城与河。",
+  "description": "临春岭在吉阳区凤凰路临春段，是贴着市区的一片山林，不用门票，从路边就能进。上山是一条修好的石阶，坡度不陡，四十分钟能到半山腰的平台，再往上到山顶还要一阵。林子里是次生的阔叶树与竹子，遮阴好，比城里凉两三度，清晨来爬山的人很多。半山腰的平台是看城的地方：临春河从山脚过去，远处是三亚湾那一线海。山上没有小卖部，水要自己带。雨后石阶滑，穿防滑的鞋。",
+  "highlights": [
+    "市区里免票的山林，石阶四十分钟到半山腰平台",
+    "林子里遮阴好，清晨来爬山的人很多",
+    "半山腰能看临春河与远处三亚湾那一线海"
+  ],
+  "location": {
+    "point": {
+      "lng": 109.526138,
+      "lat": 18.259756,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "海南省三亚市吉阳区凤凰路临春段（近艺术家新村）",
+    "district": "吉阳区",
+    "transportTip": "市区乘公交至临春岭一带，步行至公园入口",
+    "entrance": {
+      "lng": 109.521152,
+      "lat": 18.26113,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天（夜间不建议上山），以现场公示为准",
+    "openHoursRef": 0,
+    "ticket": "免费，以现场公示为准",
+    "ticketRef": 0,
+    "duration": "建议 90-240 分钟",
+    "durationMinutes": [
+      90,
+      240
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "elders",
+    "solo",
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/3878268/pexels-photo-3878268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/3878268/pexels-photo-3878268.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3148,
+      "height": 4457,
+      "alt": "Palm-lined tropical beach adorned with traditional red Chinese lanterns during sunset in Sanya, China.",
+      "query": "Chinese classical garden sanya",
+      "credit": {
+        "source": "pexels",
+        "author": "James Wheeler",
+        "sourceUrl": "https://www.pexels.com/photo/green-palm-trees-under-the-blue-sky-3878268/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39555092/pexels-photo-39555092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39555092/pexels-photo-39555092.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4592,
+      "height": 2584,
+      "alt": "Aerial view of a beautiful beach and walkway at Sanya, Hainan, China with clear blue waters.",
+      "query": "Chinese classical garden sanya",
+      "credit": {
+        "source": "pexels",
+        "author": "Alex Peet",
+        "sourceUrl": "https://www.pexels.com/photo/sunny-day-at-sanya-beach-with-scenic-view-39555092/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/4242876/pexels-photo-4242876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/4242876/pexels-photo-4242876.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8000,
+      "height": 6000,
+      "alt": "Aerial view of Sanya's beachfront with city skyline, palm trees, and clear water.",
+      "query": "Chinese classical garden sanya",
+      "credit": {
+        "source": "pexels",
+        "author": "光曦 刘",
+        "sourceUrl": "https://www.pexels.com/photo/sea-beach-trees-and-buildings-4242876/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "山林",
+    "爬山",
+    "免费"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "百度百科·临春岭",
+      "url": "https://baike.baidu.com/item/%E4%B8%B4%E6%98%A5%E5%B2%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-29"
+    }
+  ],
+  "updatedAt": "2026-09-29",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "临春岭森林公园"
+  },
+  "_geocodeTitle": "临春岭森林公园",
+  "_geocodeSuspect": false,
+  "district": "460203"
+}

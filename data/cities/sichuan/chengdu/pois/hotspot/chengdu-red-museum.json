@@ -1,0 +1,116 @@
+{
+  "id": "chengdu-red-museum",
+  "name": "红美术馆",
+  "category": "hotspot",
+  "subtype": "art",
+  "summary": "藏在天府广场地下的一座红色当代艺术空间",
+  "description": "红美术馆位于天府广场负一层，是成都较早进入公共视野的民营当代美术馆之一，长期专注当代绘画、装置与青年艺术家个案。馆内的红色主调与外部的下沉庭院构成强烈反差，加上位于地下、天然隔绝噪声，观感相当安静。它规模不大，一两个小时可以完整看完，适合与旁边的成都博物馆、四川科技馆安排在同一个下午——步行几步就是天府广场。免费但对部分特展可能另收门票，去前可留意当期展览。",
+  "highlights": [
+    "天府广场地下的民营当代美术馆，红调空间辨识度高",
+    "看展时段安静，可与成都博物馆连游"
+  ],
+  "location": {
+    "point": {
+      "lng": 104.087262,
+      "lat": 30.614192,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "成都市青羊区人民中路一段 20 号天府广场负一层",
+    "district": "锦江区",
+    "transportTip": "地铁 1/2 号线天府广场站步行约 200 米"
+  },
+  "practical": {
+    "openHours": "约 10:00-18:00，周一可能闭馆（以官方公告为准）",
+    "openHoursRef": 0,
+    "ticket": "免费（特展可能另行收费）",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "solo",
+    "couple",
+    "friends"
+  ],
+  "accessible": true,
+  "tips": [
+    "出发前先看当期展览信息",
+    "与成都博物馆、科技馆步行可达，可连成一条线"
+  ],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Anemona_Crisan%2C_Instalacja_do_wn%C4%99trza%2C_Zach%C4%99ta.jpg/1280px-Anemona_Crisan%2C_Instalacja_do_wn%C4%99trza%2C_Zach%C4%99ta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Anemona_Crisan%2C_Instalacja_do_wn%C4%99trza%2C_Zach%C4%99ta.jpg/1280px-Anemona_Crisan%2C_Instalacja_do_wn%C4%99trza%2C_Zach%C4%99ta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1620,
+      "alt": "Anemona Crisan, Instalacja do wnętrza, Zachęta.jpg",
+      "query": "红美术馆",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Anemona Crisan",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anemona_Crisan,_Instalacja_do_wn%C4%99trza,_Zach%C4%99ta.jpg",
+        "license": "CC BY 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Feng_Jicai_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Feng_Jicai_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Feng Jicai 2023.jpg",
+      "query": "红美术馆",
+      "credit": {
+        "source": "wikimedia",
+        "author": "中国新闻社",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Feng_Jicai_2023.jpg",
+        "license": "CC BY 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Mudan-chenshizeng.jpg/1280px-Mudan-chenshizeng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Mudan-chenshizeng.jpg/1280px-Mudan-chenshizeng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1129,
+      "alt": "Mudan-chenshizeng.jpg",
+      "query": "红美术馆",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Chen Shizeng",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mudan-chenshizeng.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "当代艺术",
+    "室内",
+    "市中心"
+  ],
+  "popularity": 76,
+  "sources": [
+    {
+      "title": "百度百科 · 天府广场",
+      "url": "https://baike.baidu.com/item/%E5%A4%A9%E5%BA%9C%E5%B9%BF%E5%9C%BA",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-18"
+    }
+  ],
+  "updatedAt": "2026-09-18",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Chengdu contemporary art museum",
+    "zh": "成都红美术馆",
+    "baike": "美术馆"
+  },
+  "_geocodeTitle": "红美术馆",
+  "_geocodeSuspect": false,
+  "district": "510104"
+}

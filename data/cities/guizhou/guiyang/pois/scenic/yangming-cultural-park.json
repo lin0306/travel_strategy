@@ -1,0 +1,113 @@
+{
+  "id": "yangming-cultural-park",
+  "name": "中国阳明文化园",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "修文县龙场的一片园区，王阳明悟道的地方，离市区四十公里。",
+  "description": "阳明文化园在修文县龙场，离市区四十公里上下。王阳明被贬到这儿当驿丞，在龙场那几年悟出他后来那一套，这件事叫龙场悟道。园里有阳明洞 —— 他当年住过的一个洞，也有后来修的祠与殿。它是一片园区，体量不小。来这儿的多是对这一段有兴趣的。要包车或者班车过去，来回半天。",
+  "highlights": [
+    "王阳明被贬到这儿当驿丞，龙场悟道就在这一带",
+    "园里有阳明洞，他当年住过的洞",
+    "来回半天，要对这一段有兴趣才值得"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.612486,
+      "lat": 26.846185,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "贵州省贵阳市修文县龙场街道阳明大道",
+    "district": "修文县",
+    "transportTip": "市区班车或包车往修文，约一小时"
+  },
+  "practical": {
+    "openHours": "约9:00-17:00，以园区公告为准",
+    "openHoursRef": 0,
+    "ticket": "便宜",
+    "ticketRef": 0,
+    "duration": "建议 150-270 分钟",
+    "durationMinutes": [
+      150,
+      270
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "elders",
+    "solo",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/29431917/pexels-photo-29431917.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29431917/pexels-photo-29431917.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7952,
+      "height": 5203,
+      "alt": "Harmonious blend of traditional Chinese pavilion and modern skyscraper in cityscape.",
+      "query": "Chinese historic architecture guiyang",
+      "credit": {
+        "source": "pexels",
+        "author": "雨 幽",
+        "sourceUrl": "https://www.pexels.com/photo/ancient-pavilion-and-modern-skyscraper-contrast-29431917/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32021194/pexels-photo-32021194.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32021194/pexels-photo-32021194.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3712,
+      "height": 5568,
+      "alt": "Traditional Jiaxiu Tower illuminated against the modern cityscape at night, showcasing architectural contrast.",
+      "query": "Chinese historic architecture guiyang",
+      "credit": {
+        "source": "pexels",
+        "author": "will louis",
+        "sourceUrl": "https://www.pexels.com/photo/jiaxiu-tower-at-night-with-modern-skyline-32021194/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/20499728/pexels-photo-20499728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/20499728/pexels-photo-20499728.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Night view of the illuminated Jiaxiu Tower in Guiyang, China, reflecting on the water.",
+      "query": "Chinese historic architecture guiyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Tito Zzzz",
+        "sourceUrl": "https://www.pexels.com/photo/jiaxiu-tower-in-guiyang-at-night-20499728/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "王阳明",
+    "文化园",
+    "龙场"
+  ],
+  "popularity": 44,
+  "sources": [
+    {
+      "title": "百度百科·阳明文化园",
+      "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E9%98%B3%E6%98%8E%E6%96%87%E5%8C%96%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "中国阳明文化园"
+  },
+  "_geocodeTitle": "中国阳明文化园",
+  "_geocodeSuspect": false,
+  "district": "520123"
+}

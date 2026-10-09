@@ -1,0 +1,88 @@
+{
+  "id": "zhiwu",
+  "name": "石家庄植物园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "鹿泉的植物园，温室与花展。",
+  "description": "石家庄植物园在鹿泉区，是城区主要的植物园，有热带温室、月季园、丁香园和各种季节花展，是亲子和拍照的去处。它离市区约半小时到一小时，适合半天的出城行程。春天和秋天花最多。",
+  "highlights": [
+    "鹿泉城区主要植物园，热带温室",
+    "月季丁香与季节花展",
+    "离城约一小时，亲子半天"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.3811,
+      "lat": 38.1086,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "石家庄市鹿泉区植物园街60号",
+    "district": "鹿泉区",
+    "transportTip": "市区乘公交或自驾至植物园街约40分钟",
+    "entrance": {
+      "lng": 114.384727,
+      "lat": 38.099517,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:30-17:30，以园区公告为准",
+    "openHoursRef": 0,
+    "ticket": "约30元起，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/16_March_2022%2C_South_Gate_of_Shijiazhuang_Botanical_Garden.jpg/1280px-16_March_2022%2C_South_Gate_of_Shijiazhuang_Botanical_Garden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/16_March_2022%2C_South_Gate_of_Shijiazhuang_Botanical_Garden.jpg/1280px-16_March_2022%2C_South_Gate_of_Shijiazhuang_Botanical_Garden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "16 March 2022, South Gate of Shijiazhuang Botanical Garden.jpg",
+      "query": "石家庄植物园 石家庄",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Xuezhenhao080716",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:16_March_2022,_South_Gate_of_Shijiazhuang_Botanical_Garden.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "植物园",
+    "温室",
+    "花展"
+  ],
+  "popularity": 58,
+  "sources": [
+    {
+      "title": "百度百科·石家庄植物园",
+      "url": "https://baike.baidu.com/item/%E7%9F%B3%E5%AE%B6%E5%BA%84%E6%A4%8D%E7%89%A9%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "石家庄植物园"
+  },
+  "_geocodeTitle": "石家庄植物园",
+  "_geocodeSuspect": false,
+  "district": "130110"
+}

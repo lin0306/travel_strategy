@@ -1,0 +1,113 @@
+{
+  "id": "daxiang-shudian",
+  "name": "大象书店",
+  "category": "food",
+  "subtype": "cafe",
+  "summary": "文林街一带的独立书店，书架与咖啡座挤在一起。",
+  "description": "大象书店在五华区文林街那一带，是昆明做得比较久的一家独立书店。店不大，靠墙是书架，中间几张桌子，坐得比较满，选书偏文学、艺术与云南本地题材。卖咖啡与茶，另有几样简单的点心，价格中等。店里常办读书会、放映与小型讲座，门口贴着当月的活动表。这一带是昆明的老学区，云大、师大与文化巷都在附近，白天人不多，下午与晚上热闹。它离翠湖步行十几分钟，逛完过来坐一会儿合适。",
+  "highlights": [
+    "文林街一带的独立书店，选书偏文学与本地题材",
+    "常办读书会、放映与小型讲座",
+    "离翠湖步行十几分钟，在老学区里"
+  ],
+  "location": {
+    "point": {
+      "lng": 102.698452,
+      "lat": 25.051192,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "云南省昆明市五华区文林街（大象书店）",
+    "district": "五华区",
+    "transportTip": "多路公交至文林街站，步行约五分钟"
+  },
+  "practical": {
+    "openHours": "约10:00-22:00，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "人均约40元起，以实际消费为准",
+    "ticketRef": 0,
+    "duration": "建议 45-120 分钟",
+    "durationMinutes": [
+      45,
+      120
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "solo",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/36911707/pexels-photo-36911707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36911707/pexels-photo-36911707.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3871,
+      "height": 5808,
+      "alt": "Outdoor cafe scene in Kunming, Yunnan with people enjoying a sunny day.",
+      "query": "cafe interior kunming",
+      "credit": {
+        "source": "pexels",
+        "author": "xiaoxian",
+        "sourceUrl": "https://www.pexels.com/photo/charming-street-scene-in-kunming-china-36911707/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39696918/pexels-photo-39696918.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39696918/pexels-photo-39696918.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3512,
+      "height": 6240,
+      "alt": "Cozy café with outdoor seating under trees on a sunny day, offering a relaxing urban retreat.",
+      "query": "cafe interior kunming",
+      "credit": {
+        "source": "pexels",
+        "author": "River He",
+        "sourceUrl": "https://www.pexels.com/photo/charming-outdoor-cafe-in-dappled-sunlight-39696918/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39696900/pexels-photo-39696900.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39696900/pexels-photo-39696900.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3432,
+      "height": 6098,
+      "alt": "Sunlit corridor with a circular geometric archway leading to a curtain backdrop.",
+      "query": "cafe interior kunming",
+      "credit": {
+        "source": "pexels",
+        "author": "River He",
+        "sourceUrl": "https://www.pexels.com/photo/beautiful-architectural-corridor-with-modern-design-39696900/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "书店",
+    "咖啡",
+    "文林街"
+  ],
+  "popularity": 73,
+  "sources": [
+    {
+      "title": "百度百科·书店",
+      "url": "https://baike.baidu.com/item/%E4%B9%A6%E5%BA%97",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-28"
+    }
+  ],
+  "updatedAt": "2026-09-28",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "大象书店"
+  },
+  "_geocodeTitle": "大象书店(文化巷店)",
+  "_geocodeSuspect": false,
+  "district": "530102"
+}

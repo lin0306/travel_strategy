@@ -1,0 +1,60 @@
+# ── 依赖与构建产物 ──────────────────────────────
+node_modules/
+dist/
+.react-router/
+
+# ── 环境变量（key 只从环境变量读，禁止硬编码进代码）──
+# ★ 用通配兜底，不要逐个枚举文件名：Vite 的合法名字有 6 种
+#   （.env / .env.local / .env.development / .env.production / .local 变体…），
+#   枚举必然漏 —— 漏掉的那个文件里的 key 会被 git 直接跟踪。
+#   check_app.py 的 M 项会断言「实际存在的 env 文件必须被这里忽略」。
+# ★★ 两个工程各一份（2026-09-30）：`web/` 是前端的（Vite 会加载并注入 import.meta.env），
+#    `pipeline/` 是采集侧的（Python 脚本读）。**两边都要通配兜底** ——
+#    只写 web/ 那份的话，`pipeline/.env.local` 里的腾讯/高德 key 会直接进 git。
+/web/.env*
+!/web/.env.example
+/pipeline/.env*
+!/pipeline/.env.example
+
+# ── 一次性探针与临时产物（可随时删除重建）──────────
+# ★ 2026-10-07：原来这里还有 4 条 `/prototype/…` 规则（原型阶段的截图与中间产物），
+#   随整个 `prototype/` 删除一并去掉。**没有兜底规则 = 一旦谁再 mkdir 出来就是裸奔**，
+#   所以下面补了通配，新开任何临时目录都自动忽略。
+/_tmp/
+_tmp/**/_shots/
+_tmp/**/_tmp/
+*.log
+
+# ── 采集流水线的中间态与本地缓存 ─────────────────
+# ★ 2026-09-21：抓取从 web/scripts/ 搬到仓库根的 pipeline/。
+#   旧写法 `scripts/.cache/` 是**锚定在根**的，而真实路径当时是 web/scripts/.cache/ ——
+#   一条从未生效过的规则（缓存文件一直在 git 视野里，只是没人注意）。
+#   现在路径与写法对上了。
+/pipeline/.cache/
+data/_generated/*.progress.json
+
+# ── Python 字节码（以前漏了，抓到过 .pyc 混进仓库）──
+__pycache__/
+*.py[cod]
+
+# ── 构建/校对残留（可再生，出现即说明该删）───────
+/web/_distcheck/
+/web/build/
+
+# ── 手工备份残留（2026-10-07 补）────────────────
+# ★ 之前只清了一处 `provinces.geo.json.bak1` 就以为完事 —— 那是个**漏网**，
+#   说明「手工留个 .bak」这个动作本身没被兜住。通配兜底，别再逐个文件补。
+*.bak
+*.bak[0-9]*
+*.orig
+*.rej
+*~
+
+# ── 编辑器 / 系统 ───────────────────────────────
+/.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+/.workbuddy/
+/.codegraph/

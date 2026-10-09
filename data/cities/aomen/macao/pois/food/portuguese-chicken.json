@@ -1,0 +1,112 @@
+{
+  "id": "portuguese-chicken",
+  "name": "葡国鸡",
+  "category": "food",
+  "subtype": "local",
+  "summary": "名字叫葡国鸡，其实是澳门的做法：鸡块与土豆、鸡蛋同焗，撒橄榄与椰丝。",
+  "description": "葡国鸡并不来自葡萄牙本土，而是在澳门长成的一道菜。做法是把鸡块与土豆块、洋葱先炒香，加入咖喱与椰奶，上面铺水煮蛋与橄榄，入炉焗到表面结一层浅黄的壳，最后撒上椰丝。味道是咖喱与椰奶的组合，温和，不太辣。上桌时常连焗盘一起端来，配白饭吃。它在澳门的正餐厅与茶餐厅都能点到，前者做得更细，后者分量更实在。",
+  "highlights": [
+    "在澳门长成的一道菜，非葡萄牙本土原产",
+    "鸡块与土豆、鸡蛋、橄榄同焗",
+    "撒椰丝，咖喱与椰奶的味道温和"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.552825,
+      "lat": 22.195328,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "澳门半岛与氹仔的葡菜餐厅（以实际门店为准）",
+    "district": "澳门半岛",
+    "transportTip": "历史城区与氹仔旧城区均有葡菜餐厅"
+  },
+  "practical": {
+    "openHours": "各店不同，午晚市为主",
+    "openHoursRef": 0,
+    "ticket": "一份约澳门元110元起，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/33534697/pexels-photo-33534697.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33534697/pexels-photo-33534697.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Busy street scene in Taipa, Macao featuring colonial architecture and pedestrians.",
+      "query": "Macau Portuguese chicken",
+      "credit": {
+        "source": "pexels",
+        "author": "Dincah Ignes",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-street-view-in-taipa-macao-33534697/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/18826615/pexels-photo-18826615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/18826615/pexels-photo-18826615.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5929,
+      "height": 3840,
+      "alt": "Busy tourist attraction at the historic Ruins of St. Paul in Macau, showcasing baroque architecture.",
+      "query": "Macau Portuguese chicken",
+      "credit": {
+        "source": "pexels",
+        "author": "Costa Karabelas",
+        "sourceUrl": "https://www.pexels.com/photo/tourists-in-front-of-the-ruins-of-saint-paul-catholic-complex-santo-antonio-china-18826615/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39594299/pexels-photo-39594299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39594299/pexels-photo-39594299.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4208,
+      "height": 2368,
+      "alt": "Front view of the yellow facade of St. Dominic's Church, a historic landmark in Macau.",
+      "query": "Macau Portuguese chicken",
+      "credit": {
+        "source": "pexels",
+        "author": "なかむーちょ Nakamuhcho",
+        "sourceUrl": "https://www.pexels.com/photo/yellow-facade-of-st-dominic-s-church-in-macau-39594299/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "土生葡菜",
+    "葡菜",
+    "正餐"
+  ],
+  "popularity": 76,
+  "sources": [
+    {
+      "title": "百度百科·葡国鸡",
+      "url": "https://baike.baidu.com/item/%E8%91%A1%E5%9B%BD%E9%B8%A1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-03"
+    }
+  ],
+  "updatedAt": "2026-10-03",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Macau Portuguese chicken",
+    "zh": "葡国鸡"
+  },
+  "_geocodeTitle": "澳门半岛",
+  "district": "820100"
+}

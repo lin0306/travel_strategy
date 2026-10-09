@@ -1,0 +1,118 @@
+{
+  "id": "jinan-wildlife-park",
+  "name": "济南野生动物世界",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "章丘的山地动物园，车行区与步行区分开，能带孩子玩一整天。",
+  "description": "济南野生动物世界在章丘区的山地里，园区面积大，分成车行区和步行区两段。车行区坐着观光车穿过草食动物和猛兽的散养区，长颈鹿和斑马就在窗外。步行区里有熊猫馆、猴山和鸟类区，还有定时的动物行为展示。园区建在山坡上，走路多，带孩子来要留足一整天。节假日人多，尽量早到，先坐车行区再步行。",
+  "highlights": [
+    "车行区看散养动物",
+    "熊猫馆与猴山",
+    "山地园区要走一整天"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.463966,
+      "lat": 36.614893,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山东省济南市章丘区埠村街道济南野生动物世界",
+    "district": "章丘区",
+    "transportTip": "市区自驾或乘旅游专线到章丘埠村",
+    "entrance": {
+      "lng": 117.470563,
+      "lat": 36.619142,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约八点半到十七点，以园区公告为准",
+    "openHoursRef": 0,
+    "ticket": "约一百二十元起，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 240-420 分钟",
+    "durationMinutes": [
+      240,
+      420
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/15539176/pexels-photo-15539176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/15539176/pexels-photo-15539176.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4080,
+      "alt": "A lioness drinks water in a serene zoo exhibit, showcasing natural behavior.",
+      "query": "Jinan Wild World Safari Park",
+      "credit": {
+        "source": "pexels",
+        "author": "Charlene Nicholas",
+        "sourceUrl": "https://www.pexels.com/photo/a-lioness-drinking-water-in-a-zoo-15539176/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/23843905/pexels-photo-23843905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/23843905/pexels-photo-23843905.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "A group of goitered gazelles relaxing on the ground inside a zoo enclosure.",
+      "query": "Jinan Wild World Safari Park",
+      "credit": {
+        "source": "pexels",
+        "author": "Begüm Ergeneli",
+        "sourceUrl": "https://www.pexels.com/photo/goitered-gazelles-on-the-ground-23843905/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6947816/pexels-photo-6947816.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6947816/pexels-photo-6947816.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5184,
+      "height": 3456,
+      "alt": "A solitary rhinoceros grazing in its natural habitat, showcasing its majestic presence in the wild.",
+      "query": "Jinan Wild World Safari Park",
+      "credit": {
+        "source": "pexels",
+        "author": "Rutpratheep Nilpechr",
+        "sourceUrl": "https://www.pexels.com/photo/close-up-shot-of-a-rhinoceros-6947816/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "动物园",
+    "亲子",
+    "车行区"
+  ],
+  "popularity": 78,
+  "sources": [
+    {
+      "title": "济南野生动物世界·百度百科",
+      "url": "https://baike.baidu.com/item/%E6%B5%8E%E5%8D%97%E9%87%8E%E7%94%9F%E5%8A%A8%E7%89%A9%E4%B8%96%E7%95%8C",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Jinan Wild World Safari Park",
+    "zh": "济南野生动物世界"
+  },
+  "_geocodeTitle": "济南野生动物世界",
+  "_geocodeSuspect": false,
+  "district": "370114"
+}

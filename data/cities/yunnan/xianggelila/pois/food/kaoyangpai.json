@@ -1,0 +1,83 @@
+{
+  "id": "kaoyangpai",
+  "name": "烤羊排",
+  "category": "food",
+  "subtype": "local",
+  "summary": "高原羊肉烤到焦边，撒一把孜然。",
+  "description": "烤羊排是高原羊肉的常见吃法，羊在草场上散养，肉不膻、带点奶香。炭火烤到外皮焦、内里嫩，撒孜然和辣椒。大份适合几个人分，配青稞酒很对路。市区和景区的烧烤摊都有。价格中上。夜里想吃夜宵，它是最扎实的那盘。",
+  "highlights": [
+    "高原散养羊不膻",
+    "外焦里嫩",
+    "配青稞酒对路"
+  ],
+  "location": {
+    "point": {
+      "lng": 99.708658,
+      "lat": 27.799093,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "迪庆藏族自治州香格里拉市建塘镇",
+    "district": "香格里拉",
+    "transportTip": "市区步行或打车可达"
+  },
+  "practical": {
+    "openHours": "约 17:00-23:00（以到店为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约 70-150 元，以实际为准",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "friends",
+    "couple",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Freshippo_grilled_lamb_chops.jpg/1280px-Freshippo_grilled_lamb_chops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Freshippo_grilled_lamb_chops.jpg/1280px-Freshippo_grilled_lamb_chops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 486,
+      "alt": "Freshippo grilled lamb chops.jpg",
+      "query": "烤羊排",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Fumikas Sagisavas",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Freshippo_grilled_lamb_chops.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "烤羊",
+    "夜宵",
+    "孜然"
+  ],
+  "popularity": 76,
+  "sources": [
+    {
+      "title": "百度百科·香格里拉",
+      "url": "https://baike.baidu.com/item/%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E5%B8%82",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-06"
+    }
+  ],
+  "updatedAt": "2026-10-06",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "烤羊排"
+  },
+  "_geocodeTitle": "建塘镇",
+  "_geocodeSuspect": false,
+  "district": "533401"
+}

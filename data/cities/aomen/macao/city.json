@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "macao",
+  "name": "澳门",
+  "province": "澳门",
+  "adcode": "820000",
+  "provinceAdcode": "820000",
+  "tagline": "三块地一条老街，四百年中西交错压进几平方公里",
+  "intro": "澳门在珠江口西岸，由澳门半岛、氹仔岛、路环岛三块地组成，中间的路氹城是填海连出来的新地。总面积只有三十多平方公里，却把四百多年的中西交错压进了几条街里。十六世纪中叶葡萄牙人在此定居，此后这里长期是远东的贸易与传教节点，1999 年澳门回归祖国，设立澳门特别行政区。今天走在半岛上，妈阁庙的香火与玫瑰堂的钟楼相距不过几百米，议事亭前地的黑白碎石地面旁边就是葡式老楼，红窗门的老街一段段接着走就能穿回旧时。吃的方面，葡式蛋挞与猪扒包是街边常见，更深的那一层是土生葡菜——以葡萄牙做法为底，取粤菜的食材与手法，再加东南亚与非洲沿线的香料，是一套只在澳门长成的融合菜。氹仔的龙环葡韵与官也街、路环的黑沙海滩与老村落，是半岛之外的另外两种节奏。行程上，半岛一天半，氹仔与路环各半天到一天，是最省力的分法。",
+  "center": {
+    "lng": 113.5686,
+    "lat": 22.1601,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    113.5333,
+    22.1062,
+    113.6039,
+    22.2141
+  ],
+  "defaultZoom": 13,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/17975657/pexels-photo-17975657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/17975657/pexels-photo-17975657.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3712,
+      "height": 5568,
+      "alt": "Aerial view of busy traffic on urban streets surrounded by skyscrapers in Xiamen, China.",
+      "query": "澳门 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Bryanken",
+        "sourceUrl": "https://www.pexels.com/photo/traffic-on-street-in-city-17975657/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/10753852/pexels-photo-10753852.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/10753852/pexels-photo-10753852.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 3375,
+      "alt": "A peaceful sunset view over Xiamen City's skyline with a boat and airplane, perfect travel inspiration.",
+      "query": "澳门 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "林 鸿颖",
+        "sourceUrl": "https://www.pexels.com/photo/fishing-boat-on-body-of-water-10753852/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27093153/pexels-photo-27093153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27093153/pexels-photo-27093153.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5568,
+      "height": 3712,
+      "alt": "Stunning sunset over Xiamen city skyline with silhouetted skyscrapers and golden clouds.",
+      "query": "澳门 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Bryanken",
+        "sourceUrl": "https://www.pexels.com/photo/city-during-sunset-27093153/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "10-12 月最舒服，天晴少雨、湿度下降；3-5 月潮湿多雾，5-9 月是台风季",
+    "suggestedDays": "3 天（澳门半岛 1.5 天 + 氹仔半天到一天 + 路环半天到一天）",
+    "transitTip": "澳门半岛、氹仔与路环之间有跨海大桥相连，公共巴士覆盖全境，是主要出行方式，上车投币不找零，也可用本地交通卡。酒店与口岸之间多有免费接驳车，路氹一带的班次最密。半岛的历史城区范围不大，主要点位靠步行就能串起来，但坡度起伏，鞋子要好走。前往路环的班次比市区稀疏，回程末班车时间要提前确认。与珠海之间的陆路口岸、国际机场与外港客运码头都有公共交通衔接。",
+    "climateTip": "亚热带海洋性季风气候，全年温暖，冬季一件薄外套通常够用。春季墙面返潮、大雾影响能见度与航班。夏季长、闷热多雨，午后雷暴频繁，台风集中在夏秋两季，悬挂较高风球时公共交通停运、跨海大桥可能封闭。出行前留意气象部门公告。"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-03"
+  },
+  "updatedAt": "2026-10-03"
+}

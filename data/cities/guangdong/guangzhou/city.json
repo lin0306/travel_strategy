@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "guangzhou",
+  "name": "广州",
+  "province": "广东",
+  "adcode": "440100",
+  "provinceAdcode": "440000",
+  "tagline": "两千年的口岸城市，早茶是它最稳定的日常",
+  "intro": "广州是中国少数几个两千年没换过位置的大城市。秦末这里已经是南海郡的治所，南越国的宫署就在今天北京路一带压着。明清两代它是长期对外通商的口岸，十三行那一段把海外的东西带进来，也把广府的口味带出去。这些东西今天还在地面上：西关是老城的那一套——陈家祠的三雕两塑、沙面岛的洋楼、荔湾涌边上的骑楼。天河是后来的另一个中心，珠江新城的天际线与夜景在这里。它的另一个特点是吃：早茶不是一顿饭，是一整套缓慢的流程，虾饺、烧卖、肠粉、凤爪轮着上。老城坐地铁就能走完，越秀、荔湾一天，天河与珠江边半天，白云山与番禺的园子另外留一天。",
+  "center": {
+    "lng": 113.2645,
+    "lat": 23.1301,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    112.9752,
+    22.5571,
+    114.0593,
+    23.9329
+  ],
+  "defaultZoom": 10,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/6743444/pexels-photo-6743444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6743444/pexels-photo-6743444.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 2250,
+      "alt": "A stunning aerial view of Guangzhou's cityscape and skyscrapers under a blue sky.",
+      "query": "广州 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Edward Wallace",
+        "sourceUrl": "https://www.pexels.com/photo/aerial-footage-of-a-city-6743444/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/14230470/pexels-photo-14230470.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/14230470/pexels-photo-14230470.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3249,
+      "height": 4874,
+      "alt": "Night view of Guangzhou's modern architecture with illuminated skyscrapers and crescent moon.",
+      "query": "广州 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Lywin",
+        "sourceUrl": "https://www.pexels.com/photo/aiqun-hotel-under-the-moon-14230470/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33481152/pexels-photo-33481152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33481152/pexels-photo-33481152.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5504,
+      "height": 8256,
+      "alt": "Canton Tower in Guangzhou, China, rises majestically against a cloudy sky, showcasing modern architecture.",
+      "query": "广州 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "JDer L",
+        "sourceUrl": "https://www.pexels.com/photo/canton-tower-against-a-cloudy-sky-in-guangzhou-33481152/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "10-12 月（雨季结束、湿度下降，一年里最舒服）；3-4 月回南天，墙面地面返潮",
+    "suggestedDays": "3 天（越秀/荔湾老城 1 天 + 沙面与珠江边 1 天 + 白云山或番禺园林 1 天）",
+    "transitTip": "地铁是主力，1 号线、2 号线、3 号线串起老城、火车站与新中轴，老城区基本靠走路加地铁。广州南站在番禺，是高铁主站，与市中心有一段距离。广州站靠近老城，广州东站在天河。白云国际机场有地铁 3 号线直达，夜里到也能进城。老城区单行线多，高峰期打车不如地铁稳。",
+    "climateTip": "亚热带海洋性季风气候，全年无霜，夏季长且湿热，午后雷雨频繁。春季有回南天，空气湿度大到墙面结水。冬季短且温和，一件外套够用。台风影响集中在夏末秋初。"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-09-24"
+  },
+  "updatedAt": "2026-09-24"
+}

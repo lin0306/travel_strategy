@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "shanghai",
+  "name": "上海",
+  "province": "上海",
+  "adcode": "310000",
+  "provinceAdcode": "310000",
+  "tagline": "江海交汇处的一百六十年",
+  "intro": "上海是一座看不出年代感的城市——它的主体建成于屈指可数的几十年里，却把自己经营得像已经老了几百年。外滩那一排建筑是二三十年代的国际资本；弄堂里是同一时期的市民生活，晾衣杆、老虎窗、公用厨房；再往东是浦东，天际线只用了三十年就长出来。这座城市的好处是不必按朝代理解，按片区走最省力：外滩—南京路—豫园一段，武康路—衡山路一片，浦东陆家嘴一带，再加一个古镇（朱家角或七宝）。吃的部分，本帮菜浓油赤酱，生煎与小笼是两回事，蟹壳黄、鲜肉月饼、排骨年糕属于日常。大多数场馆需要预约，迪士尼另需单独买票与安排整天。",
+  "center": {
+    "lng": 121.4737,
+    "lat": 31.2305,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    120.8569,
+    30.6882,
+    122.118,
+    31.8716
+  ],
+  "defaultZoom": 10,
+  "heroImages": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Pudong_Shanghai_November_2017_HDR_panorama.jpg/1280px-Pudong_Shanghai_November_2017_HDR_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Pudong_Shanghai_November_2017_HDR_panorama.jpg/1280px-Pudong_Shanghai_November_2017_HDR_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 540,
+      "alt": "Pudong Shanghai November 2017 HDR panorama.jpg",
+      "query": "上海 上海",
+      "credit": {
+        "source": "wikimedia",
+        "author": "King of Hearts",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pudong_Shanghai_November_2017_HDR_panorama.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Pudong_Shanghai_November_2017_panorama.jpg/1280px-Pudong_Shanghai_November_2017_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Pudong_Shanghai_November_2017_panorama.jpg/1280px-Pudong_Shanghai_November_2017_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 540,
+      "alt": "Pudong Shanghai November 2017 panorama.jpg",
+      "query": "上海 上海",
+      "credit": {
+        "source": "wikimedia",
+        "author": "King of Hearts",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pudong_Shanghai_November_2017_panorama.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Shanghai%2C_China%2C_December_2015_-_174.JPG/1280px-Shanghai%2C_China%2C_December_2015_-_174.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Shanghai%2C_China%2C_December_2015_-_174.JPG/1280px-Shanghai%2C_China%2C_December_2015_-_174.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Shanghai, China, December 2015 - 174.JPG",
+      "query": "上海 上海",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Another Believer",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shanghai,_China,_December_2015_-_174.JPG",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "3-5 月 / 10-11 月（梅雨与盛夏都闷热，冬季湿冷）",
+    "suggestedDays": "3-4 天（市区 2 天 + 古镇 1 天；迪士尼需另加 1 天）",
+    "transitTip": "地铁网全球最密之一，绝大多数地方可达。浦东机场可乘磁悬浮或地铁2号线，虹桥枢纽通高铁与飞机。热门场馆先在官方小程序预约；节假日景区建议早出门。",
+    "climateTip": "亚热带季风气候，湿润多雨。梅雨期（6-7月）连绵阴雨，夏季闷热且多台风影响，冬季湿冷体感偏低，全年务必备伞。"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-09-19"
+  },
+  "updatedAt": "2026-09-19"
+}

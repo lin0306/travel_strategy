@@ -1,0 +1,83 @@
+{
+  "id": "qingke-bing",
+  "name": "青稞饼",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "青稞烤饼，外脆里软。",
+  "description": "青稞饼是用青稞面烤出来的饼，高原上随处可见，是糌粑之外的另一种主食。刚出炉的外脆、里面松软，有股炒粮的香，空口吃或者夹肉都行。它顶饱、便宜、好带，赶路时揣两个很实用。县城的早餐摊和小馆子都有，一两块钱一个。配酥油茶是当地人的标配。当干粮比面包靠谱。",
+  "highlights": [
+    "青稞烤制",
+    "外脆里软",
+    "便宜顶饱"
+  ],
+  "location": {
+    "point": {
+      "lng": 100.294382,
+      "lat": 29.035351,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "四川省甘孜藏族自治州稻城县金珠镇",
+    "district": "稻城",
+    "transportTip": "县城早餐摊、小馆及宾馆均可"
+  },
+  "practical": {
+    "openHours": "约 07:00-20:00",
+    "openHoursRef": 0,
+    "ticket": "每个约 2-8 元，以实际为准",
+    "ticketRef": 0,
+    "duration": "建议 20-60 分钟",
+    "durationMinutes": [
+      20,
+      60
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/%E9%9D%92%E7%A8%9E%E9%A5%BC.jpg/1280px-%E9%9D%92%E7%A8%9E%E9%A5%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/%E9%9D%92%E7%A8%9E%E9%A5%BC.jpg/1280px-%E9%9D%92%E7%A8%9E%E9%A5%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1104,
+      "alt": "青稞饼.jpg",
+      "query": "青稞饼",
+      "credit": {
+        "source": "wikimedia",
+        "author": "EditQ",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%9D%92%E7%A8%9E%E9%A5%BC.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "面食",
+    "青稞",
+    "早餐"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·青稞",
+      "url": "https://baike.baidu.com/item/%E9%9D%92%E7%A8%9E",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-06"
+    }
+  ],
+  "updatedAt": "2026-10-06",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "青稞饼"
+  },
+  "_geocodeTitle": "金珠镇",
+  "_geocodeSuspect": false,
+  "district": "513337"
+}

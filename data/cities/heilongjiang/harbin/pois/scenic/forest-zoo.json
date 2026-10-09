@@ -1,0 +1,88 @@
+{
+  "id": "forest-zoo",
+  "name": "北方森林动物园",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "阿城区的大型动物园，依着林地建，展区散在山里，夏天去最舒服。",
+  "description": "动物园在阿城区，离市区四十公里上下，是一片山地林场改建的，面积很大，展区顺着山势分散排布，不像城里那种一格一格的笼舍。动物以北方物种为主，也有东北虎、熊、狼、鹿，以及一批来自更北边的种类。因为在林子里，夏天有树荫、比市区凉，是带小孩消磨一整天的地方；冬天山上冷、部分展区会调整，要先看公告。园里大，走路会很累，有观光车与缆索，进门先拿张图规划路线。市区过去一趟要一个多小时，多数人自驾或包车。",
+  "highlights": [
+    "山地林场改建，展区顺山势散开，不像城里那种笼舍",
+    "夏天有树荫比市区凉，能消磨一整天",
+    "园大有观光车与缆索，进门先拿图规划"
+  ],
+  "location": {
+    "point": {
+      "lng": 127.11415,
+      "lat": 45.391435,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "黑龙江省哈尔滨市阿城区",
+    "district": "阿城区",
+    "transportTip": "市区乘长途车至阿城后转园方接驳；或自驾、包车前往",
+    "entrance": {
+      "lng": 127.129268,
+      "lat": 45.389707,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约8:30-16:30（冬季略短），以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "门票中等，园内交通另付，以官方公告为准",
+    "ticketRef": 0,
+    "duration": "建议 240-420 分钟",
+    "durationMinutes": [
+      240,
+      420
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Harbin_Northern_Forest_Zoo_20180828_%2849026992643%29.jpg/1280px-Harbin_Northern_Forest_Zoo_20180828_%2849026992643%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Harbin_Northern_Forest_Zoo_20180828_%2849026992643%29.jpg/1280px-Harbin_Northern_Forest_Zoo_20180828_%2849026992643%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 625,
+      "alt": "Harbin Northern Forest Zoo 20180828 (49026992643).jpg",
+      "query": "北方森林动物园 哈尔滨",
+      "credit": {
+        "source": "wikimedia",
+        "author": "xiquinhosilva",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harbin_Northern_Forest_Zoo_20180828_(49026992643).jpg",
+        "license": "CC BY 2.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "动物园",
+    "山地",
+    "亲子"
+  ],
+  "popularity": 68,
+  "sources": [
+    {
+      "title": "百度百科·哈尔滨北方森林动物园",
+      "url": "https://baike.baidu.com/item/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8C%97%E6%96%B9%E6%A3%AE%E6%9E%97%E5%8A%A8%E7%89%A9%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "北方森林动物园"
+  },
+  "_geocodeTitle": "北方森林动物园",
+  "_geocodeSuspect": false,
+  "district": "230112"
+}

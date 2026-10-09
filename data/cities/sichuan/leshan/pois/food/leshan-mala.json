@@ -1,0 +1,113 @@
+{
+  "id": "leshan-mala",
+  "name": "乐山麻辣烫",
+  "category": "food",
+  "subtype": "local",
+  "summary": "乐山街头的麻辣烫，串串烫熟蘸料吃，便宜管饱。",
+  "description": "乐山麻辣烫是街头常见的一种吃法。各种串串烫熟，蘸麻辣的料吃，便宜管饱。它和牛华那支同源，市区到处有。赶路或宵夜来一碗，几块钱就能吃饱。分量不小，少点几样，每样尝一口就够。",
+  "highlights": [
+    "乐山街头麻辣烫",
+    "串串蘸麻辣料便宜管饱",
+    "市区随处有"
+  ],
+  "location": {
+    "point": {
+      "lng": 103.749984,
+      "lat": 29.583477,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "四川省乐山市市中区各麻辣烫店",
+    "district": "市中区",
+    "transportTip": "市区麻辣烫店均有"
+  },
+  "practical": {
+    "openHours": "约10:00-23:00",
+    "openHoursRef": 0,
+    "ticket": "约25元/人起",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "friends",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38841833/pexels-photo-38841833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38841833/pexels-photo-38841833.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5712,
+      "height": 4284,
+      "alt": "Aerial view of contemporary architecture in a Chinese city under a bright blue sky.",
+      "query": "Leshan Malatang",
+      "credit": {
+        "source": "pexels",
+        "author": "na kon",
+        "sourceUrl": "https://www.pexels.com/photo/modern-chinese-cityscape-with-government-buildings-38841833/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38869380/pexels-photo-38869380.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38869380/pexels-photo-38869380.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 3024,
+      "alt": "Explore the intricate ancient Buddhist rock carvings in Leshan, Sichuan, showcasing cultural heritage.",
+      "query": "Leshan Malatang",
+      "credit": {
+        "source": "pexels",
+        "author": "Guillaume Kremer",
+        "sourceUrl": "https://www.pexels.com/photo/leshan-ancient-buddhist-rock-carvings-in-sichuan-38869380/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37674222/pexels-photo-37674222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37674222/pexels-photo-37674222.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 6048,
+      "alt": "Charming exterior view of a traditional Chinese noodle shop adorned with red flags and bold signage.",
+      "query": "Leshan Malatang",
+      "credit": {
+        "source": "pexels",
+        "author": "Ruben VP",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-noodle-shop-exterior-with-flags-37674222/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "麻辣烫",
+    "街头",
+    "小吃"
+  ],
+  "popularity": 78,
+  "sources": [
+    {
+      "title": "百度百科·乐山",
+      "url": "https://baike.baidu.com/item/%E4%B9%90%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Leshan Malatang",
+    "zh": "乐山麻辣烫"
+  },
+  "_geocodeTitle": "乐山八婆麻辣烫(白云街直营店)",
+  "_geocodeSuspect": false,
+  "district": "511102"
+}

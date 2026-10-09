@@ -1,0 +1,113 @@
+{
+  "id": "binhai-cycling",
+  "name": "滨海路骑行",
+  "category": "hotspot",
+  "subtype": "photo",
+  "summary": "沿着北海岸的慢行道，海风相伴。",
+  "description": "烟台滨海路贴着北海岸展开，是骑行与慢跑的黄金线，一侧是海、一侧是城与林。从烟台山到养马岛方向串起多处海湾与公园，海风相伴、节奏舒缓。可租车分段骑，免费。春秋最舒服，夏季避开正午。",
+  "highlights": [
+    "北海岸慢行道",
+    "海风骑行",
+    "串起海湾公园"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.935726,
+      "lat": 37.798988,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "烟台市滨海路",
+    "district": "蓬莱区",
+    "transportTip": "租车沿滨海路"
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 120-180 分钟",
+    "durationMinutes": [
+      120,
+      180
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "friends",
+    "solo",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/35635447/pexels-photo-35635447.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35635447/pexels-photo-35635447.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6048,
+      "height": 4024,
+      "alt": "Yantai street view showcasing European-style architecture on a cloudy day.",
+      "query": "China city street view yantai",
+      "credit": {
+        "source": "pexels",
+        "author": "Kenny Foo",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-yantai-s-european-architecture-35635447/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/17563636/pexels-photo-17563636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/17563636/pexels-photo-17563636.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3964,
+      "height": 5946,
+      "alt": "Busy city street leading to the sea, captured at sunset with vibrant skies and city lights.",
+      "query": "China city street view yantai",
+      "credit": {
+        "source": "pexels",
+        "author": "Henley Wang",
+        "sourceUrl": "https://www.pexels.com/photo/street-in-seaside-at-sunset-17563636/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34099292/pexels-photo-34099292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34099292/pexels-photo-34099292.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8192,
+      "height": 5464,
+      "alt": "View of heavy traffic on a major road in a modern Chinese city with high-rise buildings and cloudy skies.",
+      "query": "China city street view yantai",
+      "credit": {
+        "source": "pexels",
+        "author": "Andy Lee",
+        "sourceUrl": "https://www.pexels.com/photo/busy-urban-traffic-in-modern-chinese-city-34099292/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "滨海路",
+    "骑行",
+    "海风"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "百度百科·烟台",
+      "url": "https://baike.baidu.com/item/%E7%83%9F%E5%8F%B0",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-05"
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "滨海路骑行"
+  },
+  "_geocodeTitle": "滨海路",
+  "_geocodeSuspect": false,
+  "district": "370614"
+}

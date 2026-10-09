@@ -1,0 +1,113 @@
+{
+  "id": "sanhe-rice-dumpling",
+  "name": "三河米饺",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "三河古镇的招牌小吃，籼米粉皮油炸起锅，外脆里糯、肉馅鲜香带汁。",
+  "description": "三河米饺是肥西三河最有名的小吃。皮用的是籼米粉烫熟后揉的团，包上猪肉和调料调的馅，捏成弯月状下油锅炸到金黄。刚出锅的米饺外壳脆得掉渣，里层的皮又软又糯，肉馅鲜香带点汤汁，烫嘴也要趁热吃。古镇街上现炸现卖的摊子到处都是，一碗米酒配两只米饺是本地人的早点搭配。挑油色清亮的那家，通常更新鲜。",
+  "highlights": [
+    "籼米粉皮油炸至金黄",
+    "外脆里糯肉馅带汁",
+    "配米酒是古镇早点"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.250462,
+      "lat": 31.517369,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "安徽省合肥市肥西县三河古镇街边摊位",
+    "district": "肥西县",
+    "transportTip": "到三河古镇后在古街步行寻找摊位"
+  },
+  "practical": {
+    "openHours": "约08:00-18:00",
+    "openHoursRef": 0,
+    "ticket": "约5元/只，以摊为准",
+    "ticketRef": 0,
+    "duration": "建议 20-40 分钟",
+    "durationMinutes": [
+      20,
+      40
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/18505754/pexels-photo-18505754.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/18505754/pexels-photo-18505754.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 3917,
+      "alt": "Close-up view of various Asian rice dumplings, beautifully presented on a leaf with spicy red peppers in the background.",
+      "query": "Sanhe Rice Dumpling Hefei",
+      "credit": {
+        "source": "pexels",
+        "author": "zhen tang",
+        "sourceUrl": "https://www.pexels.com/photo/meal-with-rice-on-leaf-on-tray-18505754/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38191818/pexels-photo-38191818.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38191818/pexels-photo-38191818.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Close-up of three traditional leaf-wrapped dumplings on a decorative white plate.",
+      "query": "Sanhe Rice Dumpling Hefei",
+      "credit": {
+        "source": "pexels",
+        "author": "高 长华",
+        "sourceUrl": "https://www.pexels.com/photo/delicious-traditional-leaf-wrapped-dumplings-38191818/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/18505750/pexels-photo-18505750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/18505750/pexels-photo-18505750.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 3783,
+      "alt": "Close-up of traditional zongzi rice dumpling wrapped in leaf, showcasing its sticky texture and rich filling.",
+      "query": "Sanhe Rice Dumpling Hefei",
+      "credit": {
+        "source": "pexels",
+        "author": "zhen tang",
+        "sourceUrl": "https://www.pexels.com/photo/pyramid-of-rice-18505750/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "小吃",
+    "油炸",
+    "古镇"
+  ],
+  "popularity": 88,
+  "sources": [
+    {
+      "title": "三河米饺·百度百科",
+      "url": "https://baike.baidu.com/item/%E4%B8%89%E6%B2%B3%E7%B1%B3%E9%A5%BA",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Sanhe Rice Dumpling Hefei",
+    "zh": "三河米饺"
+  },
+  "_geocodeTitle": "三河天赐米饺",
+  "_geocodeSuspect": false,
+  "district": "340123"
+}

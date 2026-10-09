@@ -1,0 +1,111 @@
+{
+  "id": "laosichuan-restaurant",
+  "name": "老四川大酒楼",
+  "category": "food",
+  "subtype": "local",
+  "summary": "中华老字号，以灯影牛肉、牛头方等牛肉菜著称。",
+  "description": "老四川是重庆的老牌餐馆，创立于上世纪三十年代，以牛肉菜立店：灯影牛肉薄到能透光，炸得酥脆后撒上辣椒与芝麻；牛头方、毛牛肉也都是招牌。这里做的是传统川菜的路子，不追求江湖菜的刺激，讲究火工与刀工。店面装修偏老派，服务也是国营馆子的风格，适合想吃点“正宗老重庆味道”而不是网红菜的时候。",
+  "highlights": [
+    "灯影牛肉薄可透光",
+    "中华老字号，传统川菜路子",
+    "牛肉菜是主打"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.57955,
+      "lat": 29.559568,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "重庆市渝中区八一路（以门店公告为准）",
+    "district": "南岸",
+    "transportTip": "轨道交通 2 号线临江门站，步行约 8 分钟"
+  },
+  "practical": {
+    "openHours": "约 11:00-21:00（以门店公告为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约 100 元起（以门店为准）",
+    "ticketRef": 0,
+    "duration": "建议 90-120 分钟",
+    "durationMinutes": [
+      90,
+      120
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/36002765/pexels-photo-36002765.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36002765/pexels-photo-36002765.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3648,
+      "height": 2432,
+      "alt": "Chinese noodle shop with signage and steamers at night.",
+      "query": "Chinese restaurant interior chongqing",
+      "credit": {
+        "source": "pexels",
+        "author": "mingche lee",
+        "sourceUrl": "https://www.pexels.com/photo/street-view-of-chinese-noodle-shop-at-night-36002765/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36849297/pexels-photo-36849297.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36849297/pexels-photo-36849297.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3000,
+      "height": 4000,
+      "alt": "A traditional-themed cafe with outdoor seating in vibrant Chongqing.",
+      "query": "Chinese restaurant interior chongqing",
+      "credit": {
+        "source": "pexels",
+        "author": "Jessica Sacco",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-outdoor-cafe-in-chongqing-china-36849297/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/4087429/pexels-photo-4087429.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/4087429/pexels-photo-4087429.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7360,
+      "height": 4912,
+      "alt": "Vibrant display of heart-shaped wishes hanging at a Chongqing street market, China.",
+      "query": "Chinese restaurant interior chongqing",
+      "credit": {
+        "source": "pexels",
+        "author": "痞子 欣",
+        "sourceUrl": "https://www.pexels.com/photo/close-up-of-colorful-articles-on-street-market-4087429/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "老字号",
+    "川菜",
+    "牛肉"
+  ],
+  "popularity": 68,
+  "sources": [
+    {
+      "title": "百度百科·老四川",
+      "url": "https://baike.baidu.com/item/%E8%80%81%E5%9B%9B%E5%B7%9D%E5%A4%A7%E9%85%92%E6%A5%BC",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "老四川大酒楼"
+  },
+  "_geocodeTitle": "老四川酒楼(解放碑洪崖洞店)",
+  "_geocodeSuspect": false,
+  "district": "500108"
+}

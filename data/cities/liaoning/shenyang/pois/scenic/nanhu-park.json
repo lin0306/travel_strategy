@@ -1,0 +1,119 @@
+{
+  "id": "nanhu-park",
+  "name": "南湖公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "市区综合公园，湖面大，划船和郁金香展是春夏季亮点。",
+  "description": "南湖公园是沈阳市区的综合公园，湖面不小。夏天划船，春天的郁金香展在东北有名。本地人遛弯、相亲角都在这。它免费，是城里便宜的休闲。晴天和雨后各有味道，都值得。留足时间，别赶场。",
+  "highlights": [
+    "市区综合公园湖面大",
+    "夏划船春郁金香展",
+    "免费遛弯相亲角"
+  ],
+  "location": {
+    "point": {
+      "lng": 123.41274,
+      "lat": 41.77065,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省沈阳市和平区文化路南湖公园",
+    "district": "和平区",
+    "transportTip": "公交或步行到南湖公园",
+    "entrance": {
+      "lng": 123.405483,
+      "lat": 41.769537,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37173337/pexels-photo-37173337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37173337/pexels-photo-37173337.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Stunning skyline of Shenyang reflected in a serene lake, capturing urban symmetry and autumn colors.",
+      "query": "Nanhu Park Shenyang",
+      "credit": {
+        "source": "pexels",
+        "author": "YFS Visuals",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-reflection-in-shenyang-s-tranquil-lake-37173337/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/30356098/pexels-photo-30356098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/30356098/pexels-photo-30356098.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5568,
+      "height": 3712,
+      "alt": "Scenic view of Ferris wheel and urban skyline reflecting in a lake in Shenyang, China.",
+      "query": "Nanhu Park Shenyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Pin Wang",
+        "sourceUrl": "https://www.pexels.com/photo/ferris-wheel-and-reflection-in-shenyang-china-30356098/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/24186299/pexels-photo-24186299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/24186299/pexels-photo-24186299.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5184,
+      "height": 3888,
+      "alt": "A traditional Chinese pavilion with a reflection in water at Shenyang, Liaoning, China.",
+      "query": "Nanhu Park Shenyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Teysa Tugadi",
+        "sourceUrl": "https://www.pexels.com/photo/dome-of-temple-in-beijing-24186299/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "公园",
+    "湖",
+    "郁金香"
+  ],
+  "popularity": 58,
+  "sources": [
+    {
+      "title": "百度百科·南湖公园",
+      "url": "https://baike.baidu.com/item/%E5%8D%97%E6%B9%96%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Nanhu Park Shenyang",
+    "zh": "南湖公园"
+  },
+  "_geocodeTitle": "南湖公园",
+  "_geocodeSuspect": false,
+  "district": "210102"
+}

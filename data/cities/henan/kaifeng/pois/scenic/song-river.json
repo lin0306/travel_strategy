@@ -1,0 +1,114 @@
+{
+  "id": "song-river",
+  "name": "大宋御河",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "连接龙亭湖与包公湖的运河，坐船看两岸宋风桥阁。",
+  "description": "大宋御河把龙亭湖和包公湖连起来，是一条能坐船的运河。两岸是宋风的桥和亭，水清树绿。白天坐一段凉快，晚上有灯光和演出。它把几个景点串成一线，省得来回走。船票不贵，当作水上公交。",
+  "highlights": [
+    "连龙亭包公二湖的运河",
+    "宋风桥亭水清树绿",
+    "串起景点省脚力"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.338448,
+      "lat": 34.792263,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河南省开封市城区大宋御河（包公湖至龙亭湖）",
+    "district": "鼓楼区",
+    "transportTip": "沿湖码头乘船"
+  },
+  "practical": {
+    "openHours": "约09:00-21:00（以公告为准）",
+    "openHoursRef": 0,
+    "ticket": "约50元（以官方为准）",
+    "ticketRef": 0,
+    "duration": "建议 40-90 分钟",
+    "durationMinutes": [
+      40,
+      90
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "family",
+    "friends",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/31256872/pexels-photo-31256872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31256872/pexels-photo-31256872.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8192,
+      "height": 5013,
+      "alt": "Traditional architecture and serene riverside landscape in Beijing, China captured on a calm day.",
+      "query": "Song Dynasty Royal Canal",
+      "credit": {
+        "source": "pexels",
+        "author": "Eclipse Chasers",
+        "sourceUrl": "https://www.pexels.com/photo/tranquil-riverside-scene-in-historic-beijing-village-31256872/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/10875545/pexels-photo-10875545.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/10875545/pexels-photo-10875545.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3610,
+      "height": 5415,
+      "alt": "Peaceful canal scene with a boat under a traditional arch bridge, tranquil and scenic.",
+      "query": "Song Dynasty Royal Canal",
+      "credit": {
+        "source": "pexels",
+        "author": "Marstion",
+        "sourceUrl": "https://www.pexels.com/photo/boat-on-a-canal-10875545/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39468933/pexels-photo-39468933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39468933/pexels-photo-39468933.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4925,
+      "height": 6567,
+      "alt": "A captivating view of the Forbidden City's traditional architecture during a sunny day in Beijing, China.",
+      "query": "Song Dynasty Royal Canal",
+      "credit": {
+        "source": "pexels",
+        "author": "BI ravencrow",
+        "sourceUrl": "https://www.pexels.com/photo/stunning-view-of-forbidden-city-architecture-39468933/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "运河",
+    "游船",
+    "宋风"
+  ],
+  "popularity": 68,
+  "sources": [
+    {
+      "title": "百度百科·开封",
+      "url": "https://baike.baidu.com/item/%E5%BC%80%E5%B0%81",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Song Dynasty Royal Canal",
+    "zh": "大宋御河"
+  },
+  "_geocodeTitle": "大宋御河",
+  "_geocodeSuspect": false,
+  "district": "410204"
+}

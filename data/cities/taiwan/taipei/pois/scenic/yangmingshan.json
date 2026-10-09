@@ -1,0 +1,114 @@
+{
+  "id": "yangmingshan",
+  "name": "阳明山",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "台北北面的火山山区，花钟、冷水坑与步道都在这一带。",
+  "description": "阳明山在台北市北面，是一片火山活动留下的山区，山里有喷气孔、温泉与草原。游客常去的是花钟一带，春天樱花与杜鹃接力开，是著名的赏花季；往上有冷水坑的温泉与步道，再往另一侧是小油坑的喷气景观。山区常年云雾多，气温比市区低好几度，夏天上山避暑的人很多。园区步道从半小时的散步到半天的纵走都有，可以自己配行程。上山主要靠公交与自驾，假日车位紧张，建议早出门并带件外套。",
+  "highlights": [
+    "火山地貌：喷气孔、温泉与草原",
+    "春季花季，花钟一带最热闹",
+    "气温比市区低，夏天避暑"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.54657,
+      "lat": 25.13778,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "台北市士林区与北投区阳明山一带",
+    "district": "士林区",
+    "transportTip": "捷运剑潭站或士林站转乘上山公交"
+  },
+  "practical": {
+    "openHours": "户外园区全天开放，游客中心以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "园区免费，部分设施另计，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 240-420 分钟",
+    "durationMinutes": [
+      240,
+      420
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "family",
+    "elders",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Forest_from_Yangming_Mountain.jpg/1280px-Forest_from_Yangming_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Forest_from_Yangming_Mountain.jpg/1280px-Forest_from_Yangming_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Forest from Yangming Mountain.jpg",
+      "query": "阳明山",
+      "credit": {
+        "source": "wikimedia",
+        "author": "IsaacHuang",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forest_from_Yangming_Mountain.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Qingtiangang%2C_Yangming_Mountains_-_panoramio.jpg/1280px-Qingtiangang%2C_Yangming_Mountains_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Qingtiangang%2C_Yangming_Mountains_-_panoramio.jpg/1280px-Qingtiangang%2C_Yangming_Mountains_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Qingtiangang, Yangming Mountains - panoramio.jpg",
+      "query": "阳明山",
+      "credit": {
+        "source": "wikimedia",
+        "author": "The Erica Chang",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qingtiangang,_Yangming_Mountains_-_panoramio.jpg",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Qingtiangang%2C_Yangming_Mountains_-_panoramio_%281%29.jpg/1280px-Qingtiangang%2C_Yangming_Mountains_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Qingtiangang%2C_Yangming_Mountains_-_panoramio_%281%29.jpg/1280px-Qingtiangang%2C_Yangming_Mountains_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Qingtiangang, Yangming Mountains - panoramio (1).jpg",
+      "query": "阳明山",
+      "credit": {
+        "source": "wikimedia",
+        "author": "The Erica Chang",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qingtiangang,_Yangming_Mountains_-_panoramio_(1).jpg",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "火山",
+    "花季",
+    "步道"
+  ],
+  "popularity": 92,
+  "sources": [
+    {
+      "title": "阳明山·百度百科",
+      "url": "https://baike.baidu.com/item/%E9%98%B3%E6%98%8E%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-03"
+    }
+  ],
+  "updatedAt": "2026-10-03",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Yangmingshan Taipei",
+    "zh": "阳明山"
+  },
+  "_geocodeTitle": "麦当劳-阳明山",
+  "_geocodeSuspect": false,
+  "district": "711015"
+}

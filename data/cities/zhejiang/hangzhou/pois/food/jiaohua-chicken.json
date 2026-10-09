@@ -1,0 +1,82 @@
+{
+  "id": "jiaohua-chicken",
+  "name": "新白鹿餐厅(西湖文化广场店)",
+  "category": "food",
+  "subtype": "local",
+  "summary": "整鸡裹泥烤熟，敲开泥壳的时候最有仪式感。",
+  "description": "叫化童鸡的做法是整鸡填馅、裹上荷叶，外面再糊一层泥，入火烤熟，上桌时敲开泥壳。传说来自乞丐的吃法，因此得名。它的意义更多在做法而不是味道——泥壳把水汽锁住，鸡肉的嫩度是别的方法做不出来的。现在多数馆子已改用改良做法，泥壳仍保留作为仪式。",
+  "highlights": [
+    "荷叶裹后再糊泥烤制",
+    "泥壳锁水是关键原理",
+    "敲壳上桌有仪式感"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.163112,
+      "lat": 30.277497,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "杭州市拱墅区西湖文化广场",
+    "district": "拱墅区",
+    "transportTip": "以具体门店为准"
+  },
+  "practical": {
+    "openHours": "约10:30-20:30(以门店公告为准)",
+    "openHoursRef": 0,
+    "ticket": "人均约150元起(以门店为准)",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/%E6%9D%AD%E5%B7%9E%E6%96%B0%E7%99%BD%E9%B9%BF_%28292201888%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/%E6%9D%AD%E5%B7%9E%E6%96%B0%E7%99%BD%E9%B9%BF_%28292201888%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 810,
+      "alt": "杭州新白鹿 (292201888).jpg",
+      "query": "新白鹿餐厅 杭州",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Jornny Liu",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%9D%AD%E5%B7%9E%E6%96%B0%E7%99%BD%E9%B9%BF_(292201888).jpg",
+        "license": "CC BY 2.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "杭帮菜",
+    "烤鸡",
+    "仪式感"
+  ],
+  "popularity": 78,
+  "sources": [
+    {
+      "title": "百度百科·叫化鸡",
+      "url": "https://baike.baidu.com/item/%E5%8F%AB%E5%8C%96%E9%B8%A1",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "新白鹿餐厅(西湖文化广场店)"
+  },
+  "_geocodeTitle": "新白鹿餐厅(银泰西湖文化广场店)",
+  "_geocodeSuspect": false,
+  "district": "330105"
+}

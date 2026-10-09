@@ -1,0 +1,119 @@
+{
+  "id": "dongqianhu",
+  "name": "东钱湖风景名胜区",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "宁波东边的天然淡水湖，浙江最大的一个，环湖是山、村与寺，骑车一圈最舒服。",
+  "description": "东钱湖在鄞州区，是浙江面积最大的天然淡水湖，水面约二十平方公里，是西湖的四倍。湖三面是山，环湖一圈有公路与绿道，骑车一圈三十公里上下，是这里最主流的玩法，沿线有租车点。环湖散着村子、寺庙、湿地与茶园：南边有韩岭这个老村，改造得很完整；北边有小普陀，是湖上一处伸进去的堤与寺；东边山里有天童寺与阿育王寺两座大寺。湖不收门票，里面的景点另收。安排一天最舒服：上午骑车半圈，中午在韩岭吃饭，下午看小普陀或进山看寺。地铁四号线能到湖边。",
+  "highlights": [
+    "浙江最大的天然淡水湖，水面是西湖的四倍",
+    "环湖三十公里绿道，骑车一圈是主流玩法",
+    "湖不收门票，里面景点另收；地铁四号线能到"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.670591,
+      "lat": 29.753893,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "浙江省宁波市鄞州区东钱湖镇",
+    "district": "鄞州区",
+    "transportTip": "地铁四号线至东钱湖站；或公交至东钱湖游客服务中心",
+    "entrance": {
+      "lng": 121.65398,
+      "lat": 29.767877,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "湖区全天；景点与场馆约8:00-17:00",
+    "openHoursRef": 0,
+    "ticket": "湖区免费，景点另计，以现场公告为准",
+    "ticketRef": 0,
+    "duration": "建议 180-420 分钟",
+    "durationMinutes": [
+      180,
+      420
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "friends",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37630414/pexels-photo-37630414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37630414/pexels-photo-37630414.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5712,
+      "height": 4284,
+      "alt": "A tranquil lake view featuring swans and distant mountains under a clear sky.",
+      "query": "natural landscape China ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Jayson liu",
+        "sourceUrl": "https://www.pexels.com/photo/serene-lake-scene-with-swans-and-mountains-37630414/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34029304/pexels-photo-34029304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34029304/pexels-photo-34029304.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3264,
+      "height": 2448,
+      "alt": "A pagoda atop a hill with lush greenery overlooks a serene lake under a clear sky.",
+      "query": "natural landscape China ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "子华 叶",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-eastern-pagoda-over-lake-34029304/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39364005/pexels-photo-39364005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39364005/pexels-photo-39364005.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8256,
+      "height": 5504,
+      "alt": "Container ships docked at a busy port with cranes and buildings in the background, under a clear sky.",
+      "query": "natural landscape China ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Oleksiy Yeshtokyn,🌻🇺🇦🌻",
+        "sourceUrl": "https://www.pexels.com/photo/shipping-containers-at-bustling-port-during-daytime-39364005/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "淡水湖",
+    "环湖骑行",
+    "免费"
+  ],
+  "popularity": 90,
+  "sources": [
+    {
+      "title": "百度百科·东钱湖",
+      "url": "https://baike.baidu.com/item/%E4%B8%9C%E9%92%B1%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "东钱湖风景名胜区"
+  },
+  "_geocodeTitle": "东钱湖风景名胜区",
+  "_geocodeSuspect": false,
+  "district": "330212"
+}

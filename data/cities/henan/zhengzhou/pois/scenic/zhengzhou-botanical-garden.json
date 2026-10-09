@@ -1,0 +1,118 @@
+{
+  "id": "zhengzhou-botanical-garden",
+  "name": "郑州植物园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "城西南的大型植物园，按专类园分区，温室里的热带植物是冬天的好去处。",
+  "description": "郑州植物园在郑州西南部的二七区侯寨一带，园子大，按专类园分块：月季园、牡丹园、木兰园、水生植物区各占一片，季节对了成片开花。温室是园里的重点，热带雨林植物与沙漠植物分别控温控湿，冬天进去暖和又好看。园中步道平缓，湖边有大片草坪，周末不少家庭铺着垫子野餐。春天看花，夏天躲太阳，秋天看叶色。",
+  "highlights": [
+    "专类园分区成片",
+    "温室热带与沙生植物",
+    "草坪野餐与湖边步道"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.536471,
+      "lat": 34.735882,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河南省郑州市二七区侯寨乡郑州植物园",
+    "district": "中原区",
+    "transportTip": "市区乘公交到侯寨一带，或自驾经郑密路向侯寨方向",
+    "entrance": {
+      "lng": 113.533301,
+      "lat": 34.734077,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:30-18:00，以园方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费或低价，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37510230/pexels-photo-37510230.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37510230/pexels-photo-37510230.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4912,
+      "height": 3264,
+      "alt": "Serene view of a park lake with willow trees in full spring bloom reflecting in the water.",
+      "query": "Zhengzhou Botanical Garden",
+      "credit": {
+        "source": "pexels",
+        "author": "gang liang",
+        "sourceUrl": "https://www.pexels.com/photo/tranquil-spring-lake-with-willow-trees-37510230/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34440134/pexels-photo-34440134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34440134/pexels-photo-34440134.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 3024,
+      "alt": "A cute domestic cat walks gracefully on bright green grass in a garden setting.",
+      "query": "Zhengzhou Botanical Garden",
+      "credit": {
+        "source": "pexels",
+        "author": "大 董",
+        "sourceUrl": "https://www.pexels.com/photo/charming-cat-strolling-on-lush-green-grass-34440134/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37039394/pexels-photo-37039394.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37039394/pexels-photo-37039394.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Beautiful spring garden scene with vivid foliage and a teal pavilion in Qingdao, Shandong, China.",
+      "query": "Zhengzhou Botanical Garden",
+      "credit": {
+        "source": "pexels",
+        "author": "Duncan Wang",
+        "sourceUrl": "https://www.pexels.com/photo/serene-garden-in-qingdao-during-springtime-37039394/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "植物园",
+    "赏花",
+    "温室"
+  ],
+  "popularity": 68,
+  "sources": [
+    {
+      "title": "郑州植物园·百度百科",
+      "url": "https://baike.baidu.com/item/%E9%83%91%E5%B7%9E%E6%A4%8D%E7%89%A9%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Zhengzhou Botanical Garden",
+    "zh": "郑州植物园"
+  },
+  "_geocodeTitle": "郑州植物园",
+  "_geocodeSuspect": false,
+  "district": "410102"
+}

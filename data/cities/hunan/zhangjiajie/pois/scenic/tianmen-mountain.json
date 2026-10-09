@@ -1,0 +1,119 @@
+{
+  "id": "tianmen-mountain",
+  "name": "天门山国家森林公园",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "永定区一座大山，有天门洞和挂在峭壁上的玻璃栈道，索道很长。",
+  "description": "天门山在永定区，是市区边上一座拔起的大山。它最出名的是山体中间那个大洞 —— 天门洞，汽车能从洞下的盘山道开上去。还有一条贴着峭壁的玻璃栈道，脚下是空的。上山坐索道，那条索道挺长，从城里一直拉到山顶，空中就能看城和山。",
+  "highlights": [
+    "山体天然大洞天门洞，可盘道上山",
+    "峭壁玻璃栈道，脚下悬空",
+    "市区索道上山，索道很长"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.479991,
+      "lat": 29.044562,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "湖南省张家界市永定区天门山国家森林公园",
+    "district": "永定区",
+    "transportTip": "市区天门山索道下站上车，或乘车到天门洞",
+    "entrance": {
+      "lng": 110.482687,
+      "lat": 29.111584,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:00-18:00，以景区公告为准",
+    "openHoursRef": 0,
+    "ticket": "约258元（含索道，以官方为准）",
+    "ticketRef": 0,
+    "duration": "建议 300-480 分钟",
+    "durationMinutes": [
+      300,
+      480
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "family",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Tian_Men_Shan_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Tian_Men_Shan_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1080,
+      "alt": "Tian Men Shan Temple.jpg",
+      "query": "天门山国家森林公园 张家界",
+      "credit": {
+        "source": "wikimedia",
+        "author": "HotShot²",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tian_Men_Shan_Temple.jpg",
+        "license": "CC BY 2.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Tian_Menshan_Mountain_1.jpg/1280px-Tian_Menshan_Mountain_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Tian_Menshan_Mountain_1.jpg/1280px-Tian_Menshan_Mountain_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Tian Menshan Mountain 1.jpg",
+      "query": "天门山国家森林公园 张家界",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Huangdan2060",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tian_Menshan_Mountain_1.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Tian_Menshan_Mountain_10.jpg/1280px-Tian_Menshan_Mountain_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Tian_Menshan_Mountain_10.jpg/1280px-Tian_Menshan_Mountain_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Tian Menshan Mountain 10.jpg",
+      "query": "天门山国家森林公园 张家界",
+      "credit": {
+        "source": "wikimedia",
+        "author": "huangdan2060",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tian_Menshan_Mountain_10.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "天门洞",
+    "玻璃栈道",
+    "索道"
+  ],
+  "popularity": 96,
+  "sources": [
+    {
+      "title": "百度百科·天门山",
+      "url": "https://baike.baidu.com/item/%E5%A4%A9%E9%97%A8%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Tianmen Mountain Zhangjiajie",
+    "zh": "天门山国家森林公园"
+  },
+  "_geocodeTitle": "天门山国家森林公园",
+  "_geocodeSuspect": false,
+  "district": "430802"
+}

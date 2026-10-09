@@ -1,0 +1,97 @@
+{
+  "id": "huangge-ancient-road",
+  "name": "黄葛古道",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "南山上的千年古道，黄桷树蔽日，曾是通往川黔的商道。",
+  "description": "黄葛古道在南山上，是古时从重庆通往贵州方向的商道之一，青石板被挑夫的草鞋磨得发亮，两侧是两人合抱的老黄葛树，夏天走进去像钻进一条绿色的隧道。沿途还能看到老君洞、黄桷垭老街等旧迹，走到高处视野会忽然打开，能看到渝中半岛。这条道不收门票、没有太多商业，是本地人周末徒步的经典线路，路面湿滑要注意脚下。",
+  "highlights": [
+    "千年青石板商道，老黄葛树蔽日",
+    "沿途有老君洞等旧迹",
+    "本地人周末徒步线路"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.598508,
+      "lat": 29.540668,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "重庆市南岸区南山黄葛古道",
+    "district": "南岸",
+    "transportTip": "轨道交通 6 号线上新街站，换乘公交至黄桷垭"
+  },
+  "practical": {
+    "openHours": "全天开放（建议白天前往）",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/China_from_the_Eyes_of_the_Flying_Tigers_1944-1945_53.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/China_from_the_Eyes_of_the_Flying_Tigers_1944-1945_53.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 778,
+      "alt": "China from the Eyes of the Flying Tigers 1944-1945 53.jpg",
+      "query": "Chinese old town street chongqing",
+      "credit": {
+        "source": "wikimedia",
+        "author": "William L. Dibble",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:China_from_the_Eyes_of_the_Flying_Tigers_1944-1945_53.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/%E6%8B%A5%E6%8C%A4%E7%9A%84%E7%A3%81%E5%99%A8%E5%8F%A3_-_Ciqikou_Old_Town_-_2015.04_-_panoramio.jpg/1280px-%E6%8B%A5%E6%8C%A4%E7%9A%84%E7%A3%81%E5%99%A8%E5%8F%A3_-_Ciqikou_Old_Town_-_2015.04_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/%E6%8B%A5%E6%8C%A4%E7%9A%84%E7%A3%81%E5%99%A8%E5%8F%A3_-_Ciqikou_Old_Town_-_2015.04_-_panoramio.jpg/1280px-%E6%8B%A5%E6%8C%A4%E7%9A%84%E7%A3%81%E5%99%A8%E5%8F%A3_-_Ciqikou_Old_Town_-_2015.04_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "拥挤的磁器口 - Ciqikou Old Town - 2015.04 - panoramio.jpg",
+      "query": "Chinese old town street chongqing",
+      "credit": {
+        "source": "wikimedia",
+        "author": "rheins",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%8B%A5%E6%8C%A4%E7%9A%84%E7%A3%81%E5%99%A8%E5%8F%A3_-_Ciqikou_Old_Town_-_2015.04_-_panoramio.jpg",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "古道",
+    "徒步",
+    "黄桷树",
+    "免费"
+  ],
+  "popularity": 66,
+  "sources": [
+    {
+      "title": "百度百科·黄葛古道",
+      "url": "https://baike.baidu.com/item/%E9%BB%84%E8%91%9B%E5%8F%A4%E9%81%93",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "黄葛古道"
+  },
+  "_geocodeTitle": "黄葛古道",
+  "_geocodeSuspect": false,
+  "district": "500108"
+}

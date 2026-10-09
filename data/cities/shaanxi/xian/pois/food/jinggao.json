@@ -1,0 +1,83 @@
+{
+  "id": "jinggao",
+  "name": "镜糕",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "小巧的糯米蒸糕，白白圆圆像面镜子，蘸白糖与玫瑰酱吃。",
+  "description": "镜糕是西安街头常见的小甜点，用糯米粉在小木碗里蒸熟，倒出来是一个两三厘米厚的白色圆饼，光滑圆润像面小镜子，名字由此而来。吃的时候蘸白糖、芝麻或玫瑰酱，口感软糯微甜，一口一个。在回民街、永兴坊一带推着小车卖的最多，价格便宜，适合边逛边尝。",
+  "highlights": [
+    "糯米蒸糕，形似小镜",
+    "蘸白糖或玫瑰酱，软糯微甜",
+    "街边小车现做，价格便宜"
+  ],
+  "location": {
+    "point": {
+      "lng": 108.969518,
+      "lat": 34.264771,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "西安市莲湖区北院门、永兴坊一带",
+    "district": "新城区",
+    "transportTip": "地铁 2 号线钟楼站，步行约 10 分钟"
+  },
+  "practical": {
+    "openHours": "约 10:00-21:00（以现场为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约 8 元起（以现场为准）",
+    "ticketRef": 0,
+    "duration": "建议 10-20 分钟",
+    "durationMinutes": [
+      10,
+      20
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "kids",
+    "couple",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Mirror_cake.jpg/1280px-Mirror_cake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Mirror_cake.jpg/1280px-Mirror_cake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Mirror cake.jpg",
+      "query": "镜糕",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Qianeal",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mirror_cake.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "镜糕",
+    "甜点",
+    "街头小吃"
+  ],
+  "popularity": 62,
+  "sources": [
+    {
+      "title": "百度百科·镜糕",
+      "url": "https://baike.baidu.com/item/%E9%95%9C%E7%B3%95",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "镜糕"
+  },
+  "_geocodeTitle": "长安玫瑰镜糕(永兴坊店)",
+  "_geocodeSuspect": false,
+  "district": "610102"
+}

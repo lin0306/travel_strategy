@@ -1,0 +1,118 @@
+{
+  "id": "nanning-zoo",
+  "name": "南宁动物园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "老牌动物园，白虎和海豚表演是招牌。",
+  "description": "南宁动物园在西乡塘区，是城区主要的动物园，以白虎种群和海洋表演出名，是很多南宁家庭遛娃的去处。园里动物种类多，场馆偏传统，节奏轻松。它与广西大学离得近，周边是大学城的生活圈。周末亲子家庭多，停车紧张。适合安排一个不累的半天。",
+  "highlights": [
+    "以白虎种群和海洋表演出名",
+    "城区主要遛娃动物园",
+    "周末人多停车紧"
+  ],
+  "location": {
+    "point": {
+      "lng": 108.268284,
+      "lat": 22.834894,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "南宁市西乡塘区大学东路73号",
+    "district": "西乡塘区",
+    "transportTip": "地铁1号线动物园站步行",
+    "entrance": {
+      "lng": 108.269048,
+      "lat": 22.837229,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约09:30-17:30，以园区公告为准",
+    "openHoursRef": 0,
+    "ticket": "约50元起，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 120-180 分钟",
+    "durationMinutes": [
+      120,
+      180
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/18722836/pexels-photo-18722836.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/18722836/pexels-photo-18722836.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4016,
+      "height": 6016,
+      "alt": "Beautiful traditional architecture and serene pond in Nan Lian Garden, Hong Kong, surrounded by lush greenery.",
+      "query": "Chinese classical garden nanning",
+      "credit": {
+        "source": "pexels",
+        "author": "King  Ho",
+        "sourceUrl": "https://www.pexels.com/photo/nan-lian-garden-in-hong-kong-18722836/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/4281933/pexels-photo-4281933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/4281933/pexels-photo-4281933.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5760,
+      "height": 3840,
+      "alt": "Explore the tranquil beauty of Kowloon's golden pagoda amidst lush greenery and serene water gardens.",
+      "query": "Chinese classical garden nanning",
+      "credit": {
+        "source": "pexels",
+        "author": "Boris Ulzibat",
+        "sourceUrl": "https://www.pexels.com/photo/pagoda-structure-surrounded-by-a-garden-4281933/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27098601/pexels-photo-27098601.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27098601/pexels-photo-27098601.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6016,
+      "height": 4016,
+      "alt": "View of a tranquil pond with water lilies at Nan Lian Garden, Hong Kong's iconic landmark.",
+      "query": "Chinese classical garden nanning",
+      "credit": {
+        "source": "pexels",
+        "author": "King  Ho",
+        "sourceUrl": "https://www.pexels.com/photo/nan-lian-garden-in-hong-kong-27098601/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "动物园",
+    "亲子",
+    "白虎"
+  ],
+  "popularity": 84,
+  "sources": [
+    {
+      "title": "百度百科·南宁动物园",
+      "url": "https://baike.baidu.com/item/%E5%8D%97%E5%AE%81%E5%8A%A8%E7%89%A9%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "南宁动物园"
+  },
+  "_geocodeTitle": "南宁动物园",
+  "_geocodeSuspect": false,
+  "district": "450107"
+}

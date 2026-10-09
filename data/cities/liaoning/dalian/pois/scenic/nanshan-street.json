@@ -1,0 +1,112 @@
+{
+  "id": "nanshan-street",
+  "name": "南山风情街",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "中山一片日式老建筑街区，绿荫小路与民宿。",
+  "description": "南山风情街在大连中山，是一片保留的日式老建筑，小楼、院墙、绿荫小路，是当年日本占领时的痕迹。现在是民宿、咖啡、小店，安静。和俄罗斯街两种味道。几个看点：中山日式老建筑街区，绿荫小路；日占时期的痕迹；民宿咖啡小店，安静。",
+  "highlights": [
+    "中山日式老建筑街区，绿荫小路",
+    "日占时期的痕迹",
+    "民宿咖啡小店，安静"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.652834,
+      "lat": 38.913009,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省大连市中山区南山风情街",
+    "district": "中山区",
+    "transportTip": "中山区步行或公交可达"
+  },
+  "practical": {
+    "openHours": "全天开放（店铺约9:00-21:00）",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/28490351/pexels-photo-28490351.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/28490351/pexels-photo-28490351.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Beautiful traditional Chinese temple architecture in Dalian, Liaoning Province, China during spring.",
+      "query": "Chinese historic architecture dalian",
+      "credit": {
+        "source": "pexels",
+        "author": "YFS Visuals",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-temple-in-dalian-china-28490351/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/26173365/pexels-photo-26173365.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/26173365/pexels-photo-26173365.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2710,
+      "height": 3612,
+      "alt": "A striking view of Dalian's urban skyline showcasing towering skyscrapers against a clear sky.",
+      "query": "Chinese historic architecture dalian",
+      "credit": {
+        "source": "pexels",
+        "author": "Zhengyang",
+        "sourceUrl": "https://www.pexels.com/photo/tall-buildings-with-chinese-signs-26173365/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36659522/pexels-photo-36659522.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36659522/pexels-photo-36659522.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6336,
+      "height": 9504,
+      "alt": "A historic building with distinct architecture in Dalian, showcasing clear skies and urban skyline.",
+      "query": "Chinese historic architecture dalian",
+      "credit": {
+        "source": "pexels",
+        "author": "evan Sw",
+        "sourceUrl": "https://www.pexels.com/photo/historic-building-in-dalian-china-36659522/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "日式",
+    "老建筑",
+    "街区"
+  ],
+  "popularity": 52,
+  "sources": [
+    {
+      "title": "百度百科·南山风情街",
+      "url": "https://baike.baidu.com/item/%E5%8D%97%E5%B1%B1%E9%A3%8E%E6%83%85%E8%A1%97",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "南山风情街"
+  },
+  "_geocodeTitle": "南山旅游风情一条街",
+  "_geocodeSuspect": false,
+  "district": "210202"
+}

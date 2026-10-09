@@ -1,0 +1,114 @@
+{
+  "id": "daan-forest-park",
+  "name": "大安森林公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "大安区中心的城市大公园，草地、水池与林荫道。",
+  "description": "大安森林公园在大安区中心，是市区里面积最大的公园之一，被高楼围着，走进去反而很安静。园内有大片草地、林地与水池，步道平整，早晚都有人跑步与散步。园里还有露天音乐台，周末常有小型演出与活动；南侧的竹林与生态池是观察鸟类的地方，常见鹭鸶与鸽子。夏天树荫厚，是躲太阳的好去处。公园四面都有出入口，捷运大安森林公园站就在旁边，进出方便。",
+  "highlights": [
+    "市区大面积公园，四面高楼围合",
+    "露天音乐台周末常有活动",
+    "生态池可观察鸟类"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.53451,
+      "lat": 25.03368,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "台北市大安区新生南路二段一带",
+    "district": "大安区",
+    "transportTip": "捷运大安森林公园站出站即到"
+  },
+  "practical": {
+    "openHours": "全天开放，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费入园，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "elders",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Daan_Park_061021.JPG/1280px-Daan_Park_061021.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Daan_Park_061021.JPG/1280px-Daan_Park_061021.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Daan Park 061021.JPG",
+      "query": "大安森林公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "User: (WT-shared) ResTpeTw at wts wikivoyage",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Daan_Park_061021.JPG",
+        "license": "CC BY 2.5",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Daan_Park_Ecological_Pool_West_Zone.jpg/1280px-Daan_Park_Ecological_Pool_West_Zone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Daan_Park_Ecological_Pool_West_Zone.jpg/1280px-Daan_Park_Ecological_Pool_West_Zone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Daan Park Ecological Pool West Zone.jpg",
+      "query": "大安森林公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "玄史生",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Daan_Park_Ecological_Pool_West_Zone.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Daan_Park_Ecological_Pool_in_Evening.jpg/1280px-Daan_Park_Ecological_Pool_in_Evening.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Daan_Park_Ecological_Pool_in_Evening.jpg/1280px-Daan_Park_Ecological_Pool_in_Evening.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Daan Park Ecological Pool in Evening.jpg",
+      "query": "大安森林公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "玄史生",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Daan_Park_Ecological_Pool_in_Evening.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "城市公园",
+    "草地",
+    "生态池"
+  ],
+  "popularity": 82,
+  "sources": [
+    {
+      "title": "大安森林公园·百度百科",
+      "url": "https://baike.baidu.com/item/%E5%A4%A7%E5%AE%89%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-03"
+    }
+  ],
+  "updatedAt": "2026-10-03",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Daan Forest Park Taipei",
+    "zh": "大安森林公园"
+  },
+  "_geocodeTitle": "大安森林公园捷运站",
+  "_geocodeSuspect": false,
+  "district": "711002"
+}

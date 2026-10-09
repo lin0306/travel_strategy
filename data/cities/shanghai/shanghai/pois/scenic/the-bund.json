@@ -1,0 +1,114 @@
+{
+  "id": "the-bund",
+  "name": "外滩",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "一公里长的万国建筑群，上海最直白的一张脸。",
+  "description": "外滩指的是黄浦江西岸从外白渡桥到延安东路那一段，集中了二十余栋二十世纪初到三十年代建成的银行、洋行与总会建筑，风格涵盖古典主义、哥特复兴、装饰艺术等各种当时流行的样式。它的特殊性在于：这些房子不是被保护起来的标本，至今仍被银行、酒店与餐厅使用。对岸陆家嘴的天际线是九十年代之后的事，两个年代隔着一条江面对面站着，是这座城市最核心的构图。",
+  "highlights": [
+    "二十余栋建筑仍在正常使用",
+    "隔江对着陆家嘴天际线",
+    "夜景是主要画面"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.487634,
+      "lat": 31.234969,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "上海市黄浦区中山东一路",
+    "district": "黄浦",
+    "transportTip": "地铁2号线/10号线南京东路站步行约8分钟"
+  },
+  "practical": {
+    "openHours": "全天开放(观景平台)",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 90-240 分钟",
+    "durationMinutes": [
+      90,
+      240
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "kids",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/35183631/pexels-photo-35183631.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35183631/pexels-photo-35183631.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Front entrance of a historic building in Shanghai with Chinese signs.",
+      "query": "Chinese historic architecture shanghai",
+      "credit": {
+        "source": "pexels",
+        "author": "Anderson Wei",
+        "sourceUrl": "https://www.pexels.com/photo/historic-building-entrance-in-shanghai-china-35183631/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39041276/pexels-photo-39041276.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39041276/pexels-photo-39041276.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4284,
+      "height": 5712,
+      "alt": "Vintage red brick building facade with Chinese architectural details and signage.",
+      "query": "Chinese historic architecture shanghai",
+      "credit": {
+        "source": "pexels",
+        "author": "Guillaume Kremer",
+        "sourceUrl": "https://www.pexels.com/photo/historical-red-brick-building-in-china-39041276/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31846435/pexels-photo-31846435.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31846435/pexels-photo-31846435.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5045,
+      "height": 3403,
+      "alt": "A historic building in Shanghai with an arched brick facade, typical of traditional Chinese architecture.",
+      "query": "Chinese historic architecture shanghai",
+      "credit": {
+        "source": "pexels",
+        "author": "Ran Hua",
+        "sourceUrl": "https://www.pexels.com/photo/historic-shanghai-building-with-arched-facade-31846435/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "地标",
+    "万国建筑",
+    "夜景",
+    "必去"
+  ],
+  "popularity": 98,
+  "sources": [
+    {
+      "title": "百度百科·外滩",
+      "url": "https://baike.baidu.com/item/%E5%A4%96%E6%BB%A9",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "外滩"
+  },
+  "_geocodeTitle": "外滩街道",
+  "_geocodeSuspect": false,
+  "district": "310101"
+}

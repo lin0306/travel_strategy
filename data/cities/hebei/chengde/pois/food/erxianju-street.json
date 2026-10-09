@@ -1,0 +1,112 @@
+{
+  "id": "erxianju-street",
+  "name": "二仙居美食街",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "承德市区一条小吃集中的街，碗坨、凉粉、烧烤挨着，晚上热闹。",
+  "description": "二仙居是承德市区一条街，小吃最集中。碗坨、凉粉、烧烤、炸串、羊汤挨着开，晚上人多热闹。它是本地人吃零嘴的地方，价格便宜。来这儿能把承德的小吃一次吃个遍。离避暑山庄不远，逛完顺路。晚上比白天有气氛。",
+  "highlights": [
+    "承德小吃最集中的一条街",
+    "碗坨凉粉烧烤挨着，晚上热闹",
+    "离山庄不远，可一次吃遍"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.935381,
+      "lat": 40.978672,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河北省承德市双桥区二仙居街",
+    "district": "双桥区",
+    "transportTip": "市区步行到二仙居"
+  },
+  "practical": {
+    "openHours": "全天，傍晚至夜间最热闹",
+    "openHoursRef": 0,
+    "ticket": "人均约30元",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4240,
+      "height": 2832,
+      "alt": "A bustling street food stall offering traditional dishes to a customer in stylish winter attire.",
+      "query": "Chinese street food dish chengde",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6440090/pexels-photo-6440090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6440090/pexels-photo-6440090.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4856,
+      "height": 3237,
+      "alt": "Close-up of delicious Chinese street food in a paper bowl held by a hand, featuring seasoned fried potatoes.",
+      "query": "Chinese street food dish chengde",
+      "credit": {
+        "source": "pexels",
+        "author": "Mackenzie Ryder",
+        "sourceUrl": "https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3032,
+      "height": 3923,
+      "alt": "Browse a bustling Shenzhen food stall with diverse Asian meals and colorful bowls, embodying Chinese culinary culture.",
+      "query": "Chinese street food dish chengde",
+      "credit": {
+        "source": "pexels",
+        "author": "Jaime Hernandez Erives",
+        "sourceUrl": "https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "小吃街",
+    "夜市",
+    "二仙居"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "百度百科·承德",
+      "url": "https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "二仙居美食街"
+  },
+  "_geocodeTitle": "二仙居美食街",
+  "_geocodeSuspect": false,
+  "district": "130802"
+}

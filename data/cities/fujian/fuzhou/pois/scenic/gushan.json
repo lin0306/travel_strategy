@@ -1,0 +1,118 @@
+{
+  "id": "gushan",
+  "name": "鼓山",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "福州东郊的一座山，涌泉寺在半山，缆车能直达。",
+  "description": "鼓山在福州东郊、闽江北岸，主峰海拔近千米，是本地人周末爬山的首选。山腰的涌泉寺是重点：始建于唐代，是福州香火最旺的寺院之一，寺里的千佛陶塔和藏经都是旧物。上山有石阶古道也有缆车，古道沿途的摩崖石刻数量很大，从宋到近代都有。登顶看的是闽江入海的方向，天气好时能看见江面铺得很远。它离城近，半天就能走一个来回。",
+  "highlights": [
+    "山腰涌泉寺是唐代古刹",
+    "沿途摩崖石刻从宋到近代",
+    "缆车可直达，登顶看闽江"
+  ],
+  "location": {
+    "point": {
+      "lng": 119.352886,
+      "lat": 26.072501,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "福州市晋安区鼓山镇凤池村",
+    "district": "晋安区",
+    "transportTip": "公交鼓山风景区站；市区打车约30分钟",
+    "entrance": {
+      "lng": 119.375455,
+      "lat": 26.052463,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约06:00-17:30（涌泉寺以公告为准）",
+    "openHoursRef": 0,
+    "ticket": "进山免费，涌泉寺约40元起，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/201904_Concourse_of_Gushan_Station.jpg/1280px-201904_Concourse_of_Gushan_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/201904_Concourse_of_Gushan_Station.jpg/1280px-201904_Concourse_of_Gushan_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "201904 Concourse of Gushan Station.jpg",
+      "query": "鼓山 福州",
+      "credit": {
+        "source": "wikimedia",
+        "author": "SCJiang",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:201904_Concourse_of_Gushan_Station.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/201904_Gushan_Station.jpg/1280px-201904_Gushan_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/201904_Gushan_Station.jpg/1280px-201904_Gushan_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "201904 Gushan Station.jpg",
+      "query": "鼓山 福州",
+      "credit": {
+        "source": "wikimedia",
+        "author": "SCJiang",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:201904_Gushan_Station.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/201904_Platform_of_Gushan_Station.jpg/1280px-201904_Platform_of_Gushan_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/201904_Platform_of_Gushan_Station.jpg/1280px-201904_Platform_of_Gushan_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "201904 Platform of Gushan Station.jpg",
+      "query": "鼓山 福州",
+      "credit": {
+        "source": "wikimedia",
+        "author": "SCJiang",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:201904_Platform_of_Gushan_Station.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "登山",
+    "古寺",
+    "石刻"
+  ],
+  "popularity": 90,
+  "sources": [
+    {
+      "title": "百度百科·鼓山",
+      "url": "https://baike.baidu.com/item/%E9%BC%93%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "鼓山"
+  },
+  "_geocodeTitle": "鼓山镇",
+  "_geocodeSuspect": false,
+  "district": "350111"
+}

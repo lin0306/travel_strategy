@@ -1,0 +1,113 @@
+{
+  "id": "baxian-fen",
+  "name": "南宁八仙粉",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "南宁的老牌米粉，叉烧卤味加高汤。",
+  "description": "八仙粉是南宁传统的米粉之一，以细米粉打底，浇上用叉烧、卤味和骨头熬的高汤，再配一点花生和葱花，鲜香清爽。它和老友粉、生榨米粉并称南宁的几张米粉名片，是本地人常吃的早点。多家老店做了几十年，风味稳定。人均低，是一顿很快的饭。",
+  "highlights": [
+    "南宁传统米粉，叉烧卤味高汤",
+    "与老友粉生榨并称名片",
+    "老店几十年，人均低"
+  ],
+  "location": {
+    "point": {
+      "lng": 108.3205,
+      "lat": 22.8148,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "南宁市兴宁区中山路美食街一带（八仙粉老字号聚集）",
+    "district": "青秀区",
+    "transportTip": "市区步行或乘公交至就近粉店"
+  },
+  "practical": {
+    "openHours": "约06:30-13:00（售完为止），以门店为准",
+    "openHoursRef": 0,
+    "ticket": "人均约15元，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 15-40 分钟",
+    "durationMinutes": [
+      15,
+      40
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "elders",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/12722180/pexels-photo-12722180.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/12722180/pexels-photo-12722180.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4896,
+      "height": 3264,
+      "alt": "A close-up of spicy tofu with sesame and spring onions in a paper cup, held by hand.",
+      "query": "Chinese street food dish nanning",
+      "credit": {
+        "source": "pexels",
+        "author": "suning lin",
+        "sourceUrl": "https://www.pexels.com/photo/close-up-of-a-tofu-dish-in-a-disposable-cup-12722180/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33672238/pexels-photo-33672238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33672238/pexels-photo-33672238.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5277,
+      "height": 3518,
+      "alt": "Authentic street food stall in Xiang Xi, China with vendor preparing snacks for customers.",
+      "query": "Chinese street food dish nanning",
+      "credit": {
+        "source": "pexels",
+        "author": "Trần Phan Phạm Lê",
+        "sourceUrl": "https://www.pexels.com/photo/street-food-stall-in-xiang-xi-china-33672238/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4240,
+      "height": 2832,
+      "alt": "A bustling street food stall offering traditional dishes to a customer in stylish winter attire.",
+      "query": "Chinese street food dish nanning",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "八仙粉",
+    "米粉",
+    "小吃"
+  ],
+  "popularity": 68,
+  "sources": [
+    {
+      "title": "百度百科·八仙粉",
+      "url": "https://baike.baidu.com/item/%E5%85%AB%E4%BB%99%E7%B2%89",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "南宁八仙粉"
+  },
+  "_geocodeTitle": "南宁中山路美食街",
+  "_geocodeSuspect": false,
+  "district": "450103"
+}

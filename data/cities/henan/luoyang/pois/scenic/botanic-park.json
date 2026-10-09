@@ -1,0 +1,118 @@
+{
+  "id": "botanic-park",
+  "name": "隋唐城遗址植物园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "洛龙一处建在隋唐遗址上的植物园，四季有花。",
+  "description": "隋唐城遗址植物园在洛阳洛龙，建在隋唐洛阳城遗址上，是一处大植物园。四季有花，春天牡丹、秋天菊展。湖、桥、草坪都有，本地人周末来搭帐篷。和应天门离得近。几个看点：建在隋唐遗址上的大植物园；四季有花，春牡丹秋菊展；本地人周末搭帐篷，邻应天门。",
+  "highlights": [
+    "建在隋唐遗址上的大植物园",
+    "四季有花，春牡丹秋菊展",
+    "本地人周末搭帐篷，邻应天门"
+  ],
+  "location": {
+    "point": {
+      "lng": 112.447361,
+      "lat": 34.6349,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河南省洛阳市洛龙区隋唐城遗址植物园",
+    "district": "洛龙区",
+    "transportTip": "洛龙区乘公交或地铁可达",
+    "entrance": {
+      "lng": 112.453072,
+      "lat": 34.629843,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约6:00-22:00（花展季收费）",
+    "openHoursRef": 0,
+    "ticket": "平时便宜，花展季约几十元",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/6374453/pexels-photo-6374453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6374453/pexels-photo-6374453.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "A woman in red explores the historical White Horse Temple in Luoyang, China, through a circular doorway.",
+      "query": "Chinese classical garden luoyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Kowal Tyler",
+        "sourceUrl": "https://www.pexels.com/photo/person-walking-through-a-circular-passage-fence-in-the-white-horse-temple-6374453/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/5305566/pexels-photo-5305566.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/5305566/pexels-photo-5305566.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5858,
+      "height": 3245,
+      "alt": "Stunning view of a traditional Chinese building illuminated at night, showcasing intricate architectural details.",
+      "query": "Chinese classical garden luoyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Kowal Tyler",
+        "sourceUrl": "https://www.pexels.com/photo/tang-paradise-during-night-time-5305566/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/11648438/pexels-photo-11648438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/11648438/pexels-photo-11648438.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5223,
+      "height": 2938,
+      "alt": "Photograph of the historic White Horse Temple entrance in Luoyang, China, reflecting architectural beauty.",
+      "query": "Chinese classical garden luoyang",
+      "credit": {
+        "source": "pexels",
+        "author": "will louis",
+        "sourceUrl": "https://www.pexels.com/photo/the-white-horse-temple-in-china-11648438/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "植物园",
+    "遗址",
+    "花卉"
+  ],
+  "popularity": 50,
+  "sources": [
+    {
+      "title": "百度百科·隋唐城遗址植物园",
+      "url": "https://baike.baidu.com/item/%E9%9A%8B%E5%94%90%E5%9F%8E%E9%81%97%E5%9D%80%E6%A4%8D%E7%89%A9%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "隋唐城遗址植物园"
+  },
+  "_geocodeTitle": "隋唐城遗址植物园",
+  "_geocodeSuspect": false,
+  "district": "410311"
+}

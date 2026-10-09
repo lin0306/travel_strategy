@@ -1,0 +1,98 @@
+{
+  "id": "shengjian-hangzhou",
+  "name": "新丰小吃(延安路店)",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "本地连锁的小吃店，小笼、馄饨与粉丝汤是日常组合。",
+  "description": "新丰小吃是杭州本地的连锁小吃店，价格低、分店多、营业时间长。它卖的是杭州人日常的那一套：小笼、馄饨、粉丝汤、牛肉粉丝。这类店谈不上出品惊艳，但它提供的是一个真实的参照——本地人早上吃什么、花多少钱。对游客来说，它是价格与口味都最安全的一档。",
+  "highlights": [
+    "本地连锁，分店多",
+    "小笼与粉丝汤是常见组合",
+    "价格最低的一档"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.164432,
+      "lat": 30.258161,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "杭州市上城区延安路",
+    "district": "拱墅区",
+    "transportTip": "以具体门店为准"
+  },
+  "practical": {
+    "openHours": "约06:00-21:00(以门店公告为准)",
+    "openHoursRef": 0,
+    "ticket": "人均约20元起(以门店为准)",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "kids",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/201607_Xinfeng_Deli_at_Jianghui_Road.jpg/1280px-201607_Xinfeng_Deli_at_Jianghui_Road.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/201607_Xinfeng_Deli_at_Jianghui_Road.jpg/1280px-201607_Xinfeng_Deli_at_Jianghui_Road.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "201607 Xinfeng Deli at Jianghui Road.jpg",
+      "query": "新丰小吃",
+      "credit": {
+        "source": "wikimedia",
+        "author": "MNXANL",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:201607_Xinfeng_Deli_at_Jianghui_Road.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Yang_Tang_Gao_%28%E6%B4%8B%E7%B3%96%E7%B3%95%29_in_a_plastic_bag.jpeg/1280px-Yang_Tang_Gao_%28%E6%B4%8B%E7%B3%96%E7%B3%95%29_in_a_plastic_bag.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Yang_Tang_Gao_%28%E6%B4%8B%E7%B3%96%E7%B3%95%29_in_a_plastic_bag.jpeg/1280px-Yang_Tang_Gao_%28%E6%B4%8B%E7%B3%96%E7%B3%95%29_in_a_plastic_bag.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1080,
+      "alt": "Yang Tang Gao (洋糖糕) in a plastic bag.jpeg",
+      "query": "新丰小吃",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Gu0427",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yang_Tang_Gao_(%E6%B4%8B%E7%B3%96%E7%B3%95)_in_a_plastic_bag.jpeg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "小吃",
+    "连锁",
+    "性价比"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "百度百科·杭州小吃",
+      "url": "https://baike.baidu.com/item/%E6%9D%AD%E5%B7%9E%E5%B0%8F%E5%90%83",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "新丰小吃(延安路店)"
+  },
+  "_geocodeTitle": "新丰小吃(庆春路分店)",
+  "_geocodeSuspect": false,
+  "district": "330105"
+}

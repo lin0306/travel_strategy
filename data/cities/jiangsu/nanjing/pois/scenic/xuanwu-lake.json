@@ -1,0 +1,119 @@
+{
+  "id": "xuanwu-lake",
+  "name": "玄武湖",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "城中央的一片大水，本地人的日常与游客的行程共用同一个湖。",
+  "description": "玄武湖是中国最大的皇家园林湖泊，六朝时期就是皇家苑囿。湖中有五洲——环洲、樱洲、菱洲、梁洲、翠洲，以堤桥相连。它现在是开放的城市公园，不收门票。走一圈环湖路大约十公里，有环湖观光车。城墙从湖东侧山上过，所以湖、城、山是连在一个画面里的，这是别处很难有的构图。清晨本地人在这里跑步游泳，是南京的日常面。从解放门下来正好进湖。",
+  "highlights": [
+    "中国最大的皇家园林湖泊",
+    "湖、城墙、紫金山同处一个画面",
+    "免费，本地人的日常"
+  ],
+  "location": {
+    "point": {
+      "lng": 118.823787,
+      "lat": 32.072564,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "南京市玄武区玄武巷1号",
+    "district": "玄武区",
+    "transportTip": "地铁1号线玄武门站/3号线南京林业大学站",
+    "entrance": {
+      "lng": 118.813101,
+      "lat": 32.069758,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放（洲园有开放时段）",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 90-240 分钟",
+    "durationMinutes": [
+      90,
+      240
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "elders",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/20260803_Xuanwu_Lake_and_Nanjing_Railway_Station.jpg/1280px-20260803_Xuanwu_Lake_and_Nanjing_Railway_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/20260803_Xuanwu_Lake_and_Nanjing_Railway_Station.jpg/1280px-20260803_Xuanwu_Lake_and_Nanjing_Railway_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "20260803 Xuanwu Lake and Nanjing Railway Station.jpg",
+      "query": "玄武湖",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Windmemories",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20260803_Xuanwu_Lake_and_Nanjing_Railway_Station.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/20260803_Xuanwu_Lake_and_Purple_Mountain.jpg/1280px-20260803_Xuanwu_Lake_and_Purple_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/20260803_Xuanwu_Lake_and_Purple_Mountain.jpg/1280px-20260803_Xuanwu_Lake_and_Purple_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "20260803 Xuanwu Lake and Purple Mountain.jpg",
+      "query": "玄武湖",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Windmemories",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20260803_Xuanwu_Lake_and_Purple_Mountain.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/XuanWuLake_all.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/XuanWuLake_all.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 720,
+      "alt": "XuanWuLake all.JPG",
+      "query": "玄武湖",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Farm",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:XuanWuLake_all.JPG",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湖景",
+    "免费",
+    "公园"
+  ],
+  "popularity": 88,
+  "sources": [
+    {
+      "title": "百度百科·玄武湖",
+      "url": "https://baike.baidu.com/item/%E7%8E%84%E6%AD%A6%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-23"
+    }
+  ],
+  "updatedAt": "2026-09-23",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "玄武湖"
+  },
+  "_geocodeTitle": "玄武湖街道",
+  "_geocodeSuspect": false,
+  "district": "320102"
+}

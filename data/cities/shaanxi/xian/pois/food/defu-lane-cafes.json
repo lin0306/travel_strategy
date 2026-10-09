@@ -1,0 +1,114 @@
+{
+  "id": "defu-lane-cafes",
+  "name": "德福巷咖啡街",
+  "category": "food",
+  "subtype": "cafe",
+  "summary": "城墙内的咖啡与酒吧一条街，老巷子里的慢节奏。",
+  "description": "德福巷在碑林区，紧挨着城墙与湘子庙街，是西安最早形成规模的咖啡酒吧街。巷子不长，两侧是青砖老屋改成的咖啡馆、小酒馆与甜品店，很多带院子，下午阳光斜进来的时候最舒服。它离碑林、书院门、城墙都不远，逛完古迹来这里坐一会儿是很顺的安排。夜里酒吧开门，氛围和白天完全不同。",
+  "highlights": [
+    "城墙内的老巷咖啡街",
+    "很多店带院子，下午最舒服",
+    "紧邻碑林、书院门、湘子庙街"
+  ],
+  "location": {
+    "point": {
+      "lng": 108.943818,
+      "lat": 34.253937,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "西安市碑林区德福巷",
+    "district": "碑林区",
+    "transportTip": "地铁 2 号线永宁门站，步行约 8 分钟"
+  },
+  "practical": {
+    "openHours": "约 10:00-次日 02:00（各店不同，以现场为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约 40 元起（以门店为准）",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "solo",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/14517408/pexels-photo-14517408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/14517408/pexels-photo-14517408.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4330,
+      "height": 5773,
+      "alt": "Creative wall decor using paper cups in a modern cafe interior.",
+      "query": "cafe interior xian",
+      "credit": {
+        "source": "pexels",
+        "author": "Afitab",
+        "sourceUrl": "https://www.pexels.com/photo/cups-hanging-on-the-wall-14517408/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/16827186/pexels-photo-16827186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/16827186/pexels-photo-16827186.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3376,
+      "height": 6000,
+      "alt": "A charming arched passageway with open doors leading to a cozy urban space.",
+      "query": "cafe interior xian",
+      "credit": {
+        "source": "pexels",
+        "author": "Harun",
+        "sourceUrl": "https://www.pexels.com/photo/narrow-passage-in-a-city-building-and-open-door-16827186/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32354649/pexels-photo-32354649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32354649/pexels-photo-32354649.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4912,
+      "height": 7360,
+      "alt": "Intimate cafe setting with a chair, table, and ambient lighting from a floor lamp.",
+      "query": "cafe interior xian",
+      "credit": {
+        "source": "pexels",
+        "author": "Sóc Năng Động",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-cafe-corner-with-lamp-and-chair-32354649/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "咖啡",
+    "老巷",
+    "酒吧",
+    "慢节奏"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "百度百科·德福巷",
+      "url": "https://baike.baidu.com/item/%E5%BE%B7%E7%A6%8F%E5%B7%B7",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "德福巷咖啡街"
+  },
+  "_geocodeTitle": "德福巷二十二号院",
+  "_geocodeSuspect": false,
+  "district": "610103"
+}

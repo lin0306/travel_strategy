@@ -1,0 +1,88 @@
+{
+  "id": "yuxi-park",
+  "name": "裕西公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "桥西区的老牌公园，林荫与湖。",
+  "description": "裕西公园在桥西区，是城西一片老牌综合公园，有湖、林荫道和一片绿地，是周边居民日常活动的地方。它位置在老城区里，闹中取静，游客很少。免费、树多、人少，适合不想跑远时的日常活动。",
+  "highlights": [
+    "桥西老牌综合公园，湖与林荫",
+    "闹中取静，游客很少",
+    "免费，树多人少"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.415569,
+      "lat": 38.037583,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "石家庄市桥西区裕西公园",
+    "district": "鹿泉区",
+    "transportTip": "市区乘公交或打车至裕西公园",
+    "entrance": {
+      "lng": 114.415043,
+      "lat": 38.040304,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/%E8%A5%BF%E6%99%AF%E4%BD%B3%E5%9B%AD%E7%9A%84%E6%B2%B3%E8%BE%B9%E5%85%AC%E5%9B%AD%E7%9C%8B%E5%87%AF%E8%A3%95%E8%8A%B1%E5%9B%AD_-_panoramio.jpg/1280px-%E8%A5%BF%E6%99%AF%E4%BD%B3%E5%9B%AD%E7%9A%84%E6%B2%B3%E8%BE%B9%E5%85%AC%E5%9B%AD%E7%9C%8B%E5%87%AF%E8%A3%95%E8%8A%B1%E5%9B%AD_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/%E8%A5%BF%E6%99%AF%E4%BD%B3%E5%9B%AD%E7%9A%84%E6%B2%B3%E8%BE%B9%E5%85%AC%E5%9B%AD%E7%9C%8B%E5%87%AF%E8%A3%95%E8%8A%B1%E5%9B%AD_-_panoramio.jpg/1280px-%E8%A5%BF%E6%99%AF%E4%BD%B3%E5%9B%AD%E7%9A%84%E6%B2%B3%E8%BE%B9%E5%85%AC%E5%9B%AD%E7%9C%8B%E5%87%AF%E8%A3%95%E8%8A%B1%E5%9B%AD_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "西景佳园的河边公园看凯裕花园 - panoramio.jpg",
+      "query": "裕西公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "江上清风1961",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E6%99%AF%E4%BD%B3%E5%9B%AD%E7%9A%84%E6%B2%B3%E8%BE%B9%E5%85%AC%E5%9B%AD%E7%9C%8B%E5%87%AF%E8%A3%95%E8%8A%B1%E5%9B%AD_-_panoramio.jpg",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "公园",
+    "免费",
+    "老城"
+  ],
+  "popularity": 52,
+  "sources": [
+    {
+      "title": "百度百科·裕西公园",
+      "url": "https://baike.baidu.com/item/%E8%A3%95%E8%A5%BF%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "裕西公园"
+  },
+  "_geocodeTitle": "裕西公园",
+  "_geocodeSuspect": false,
+  "district": "130110"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "xikou-oldstreet",
+  "name": "溪口老街",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "溪口镇上沿剡溪的那条老街，木结构店铺卖千层饼与水蜜桃，本地人照常在这里过日子。",
+  "description": "溪口老街沿剡溪铺开，是镇上最老的一条街。两边是木结构的店铺：两层、铺板门、窄开间，沿街排开，楼上还住人。卖的是本地东西 —— 千层饼一排铺子都在做，再就是水蜜桃（奉化一带出这个，夏天最好）、芋艿头、以及日常杂货。它与那些只服务游客的老街不同 —— 这里还有本地人在买菜、聊天、晒东西，生活没有被搬走。逛一个半到三小时。它与镇上那几处故居建筑是分开的：故居要票，老街不用。溪边有台阶下去，能到水边，夏天有人在洗东西。它在奉化西北，从宁波市区过去一个多小时，通常与雪窦山一天安排。",
+  "highlights": [
+    "沿剡溪的木结构店铺，铺板门楼上还住人",
+    "卖千层饼与奉化水蜜桃，夏天桃子最好",
+    "与只服务游客的老街不同，本地人还在买菜聊天"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.281925,
+      "lat": 29.690074,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "浙江省宁波市奉化区溪口镇",
+    "district": "奉化区",
+    "transportTip": "宁波站乘城际或长途车至奉化后转公交至溪口"
+  },
+  "practical": {
+    "openHours": "街区全天；店铺约8:00-18:00",
+    "openHoursRef": 0,
+    "ticket": "老街免费；镇上故居另收票",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/20256134/pexels-photo-20256134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/20256134/pexels-photo-20256134.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "Traditional alley adorned with vibrant red lanterns, capturing the essence of Asian street culture.",
+      "query": "Chinese old town street ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Tito Zzzz",
+        "sourceUrl": "https://www.pexels.com/photo/red-lantern-hanging-along-alley-20256134/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37111996/pexels-photo-37111996.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37111996/pexels-photo-37111996.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4896,
+      "height": 3264,
+      "alt": "Explore a picturesque Chinese alley with traditional architecture and modern shops.",
+      "query": "Chinese old town street ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "mingche lee",
+        "sourceUrl": "https://www.pexels.com/photo/charming-street-view-in-traditional-chinese-alley-37111996/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27927116/pexels-photo-27927116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27927116/pexels-photo-27927116.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6048,
+      "height": 4024,
+      "alt": "Quaint narrow street with rustic wooden houses under a clear blue sky.",
+      "query": "Chinese old town street ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Lu Zhao",
+        "sourceUrl": "https://www.pexels.com/photo/narrow-street-between-old-houses-27927116/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "老街",
+    "木结构",
+    "市井"
+  ],
+  "popularity": 76,
+  "sources": [
+    {
+      "title": "百度百科·溪口镇",
+      "url": "https://baike.baidu.com/item/%E6%BA%AA%E5%8F%A3%E9%95%87",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "溪口老街"
+  },
+  "_geocodeTitle": "溪口镇",
+  "district": "330213"
+}

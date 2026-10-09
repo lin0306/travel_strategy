@@ -1,0 +1,119 @@
+{
+  "id": "hequan-lake",
+  "name": "鹤泉湖",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "永宁的天然湖，芦苇鱼虾多，划船钓鲫、吃湖鲜，是本地人的后院。",
+  "description": "鹤泉湖在永宁县城边，是一片天然的湖，不大却水清草密。湖里鱼虾多，芦苇荡里常有水鸟，是本地人周末划船、钓鱼的地方。夏天荷叶铺面，坐小船钻进去凉快。岸上有农家乐，湖鲜现做，味道鲜。比起沙湖名气小，人少清静，适合想躲热闹的。免费进，船和餐另算。傍晚霞光落水好看。",
+  "highlights": [
+    "永宁天然湖芦苇鱼虾",
+    "划船钓鲫吃湖鲜",
+    "人少清静本地后院"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.285948,
+      "lat": 38.302276,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "宁夏回族自治区银川市永宁县鹤泉湖",
+    "district": "永宁县",
+    "transportTip": "银川市区自驾或乘公交到永宁鹤泉湖",
+    "entrance": {
+      "lng": 106.272631,
+      "lat": 38.299512,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:30-18:00，以公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费（船餐另计）",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "friends",
+    "solo",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/27578207/pexels-photo-27578207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27578207/pexels-photo-27578207.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "A picturesque cityscape featuring a stone bridge over a river with urban buildings in the background.",
+      "query": "Hequan Lake",
+      "credit": {
+        "source": "pexels",
+        "author": "Hao Liang",
+        "sourceUrl": "https://www.pexels.com/photo/a-bridge-over-a-river-with-buildings-in-the-background-27578207/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/12069839/pexels-photo-12069839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/12069839/pexels-photo-12069839.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3265,
+      "height": 4031,
+      "alt": "A couple walks along a peaceful park path beside a reflective lake and lush trees.",
+      "query": "Hequan Lake",
+      "credit": {
+        "source": "pexels",
+        "author": "Jimmy Liao",
+        "sourceUrl": "https://www.pexels.com/photo/couple-walking-along-a-lake-12069839/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34967559/pexels-photo-34967559.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34967559/pexels-photo-34967559.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4128,
+      "height": 6192,
+      "alt": "Serene concrete path leading to a tree-covered island on a sunny day.",
+      "query": "Hequan Lake",
+      "credit": {
+        "source": "pexels",
+        "author": "Leila Chen",
+        "sourceUrl": "https://www.pexels.com/photo/tranquil-pathway-leading-to-scenic-island-34967559/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湖",
+    "钓鲫",
+    "湖鲜"
+  ],
+  "popularity": 52,
+  "sources": [
+    {
+      "title": "百度百科·鹤泉湖",
+      "url": "https://baike.baidu.com/item/%E9%B9%A4%E6%B3%89%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Hequan Lake",
+    "zh": "鹤泉湖"
+  },
+  "_geocodeTitle": "鹤泉湖国家湿地公园",
+  "_geocodeSuspect": false,
+  "district": "640121"
+}

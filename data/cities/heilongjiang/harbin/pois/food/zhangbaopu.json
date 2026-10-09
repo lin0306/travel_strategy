@@ -1,0 +1,113 @@
+{
+  "id": "zhangbaopu",
+  "name": "张包铺(道外店)",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "老道外的一家排骨包子铺，一个包子有一整块排骨，铺子小、人多、出笼快。",
+  "description": "张包铺在道外区南勋街，是老道外那一片很出名的一家包子铺。招牌是排骨包子 —— 一个包子里面实实在在一块排骨，肉是带着骨头的，啃起来过瘾，一个人两三个就够。另有豆腐脑、小米粥、小菜，是一顿很典型的东北早点。铺子不大，早上人多，出笼快，翻台也快，基本不用等太久。价格便宜，人均一顿早点几块到十几块。它与老街砂锅居在同一条街上，周边就是中华巴洛克街区，吃完正好逛那片老房子。",
+  "highlights": [
+    "排骨包子，一个包子里一整块排骨",
+    "老道外的小铺子，早上人多但翻台快",
+    "与老街砂锅居同街，吃完正好逛中华巴洛克"
+  ],
+  "location": {
+    "point": {
+      "lng": 126.642671,
+      "lat": 45.78099,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "黑龙江省哈尔滨市道外区靖宇街道南勋街303号",
+    "district": "道外区",
+    "transportTip": "乘公交至道外南勋街站；或网约车前往"
+  },
+  "practical": {
+    "openHours": "约6:00-14:00，卖完即止，以门店公告为准",
+    "openHoursRef": 0,
+    "ticket": "人均便宜",
+    "ticketRef": 0,
+    "duration": "建议 40-80 分钟",
+    "durationMinutes": [
+      40,
+      80
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "friends",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/34354614/pexels-photo-34354614.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34354614/pexels-photo-34354614.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6061,
+      "height": 4041,
+      "alt": "Lively street food scene in Harbin, China with a bustling vendor and colorful market stall.",
+      "query": "Chinese street food dish harbin",
+      "credit": {
+        "source": "pexels",
+        "author": "Gibson Chan",
+        "sourceUrl": "https://www.pexels.com/photo/vibrant-street-food-market-in-harbin-china-34354614/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4240,
+      "height": 2832,
+      "alt": "A bustling street food stall offering traditional dishes to a customer in stylish winter attire.",
+      "query": "Chinese street food dish harbin",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36213086/pexels-photo-36213086.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36213086/pexels-photo-36213086.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 6048,
+      "alt": "Night scene of the famous Madier Popsicle shop in Harbin, China, with bright neon signs.",
+      "query": "Chinese street food dish harbin",
+      "credit": {
+        "source": "pexels",
+        "author": "ainc T",
+        "sourceUrl": "https://www.pexels.com/photo/nighttime-street-view-of-harbin-s-madier-popsicle-36213086/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "包子",
+    "早点",
+    "老道外"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "百度百科·排骨包子",
+      "url": "https://baike.baidu.com/item/%E6%8E%92%E9%AA%A8%E5%8C%85%E5%AD%90",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "张包铺(道外店)"
+  },
+  "_geocodeTitle": "张包铺(道外店)",
+  "_geocodeSuspect": false,
+  "district": "230104"
+}

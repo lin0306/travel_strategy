@@ -1,0 +1,88 @@
+{
+  "id": "nanxi-hill",
+  "name": "南溪山公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "城南的一座小山，白龙泉从山脚出来，山前有新石器时代的遗址，人比市中心的少。",
+  "description": "南溪山在桂林城南，漓江的支流南溪河从旁边绕过去。山不高，两座山峰东西对峙。它有桂林市区最早的一处人类活动痕迹 —— 山前的甑皮岩遗址出土过新石器时代的骸骨与陶片。山下有白龙泉，出水很稳，从唐代就在取。公园不收门票，游客比象山、七星少很多，本地人晨练的多。把它与山前的甑皮岩连着走，半天刚好。",
+  "highlights": [
+    "城南的免费公园，游客比市中心的山少很多",
+    "山前有白龙泉，唐代就在取这眼水",
+    "与山前的甑皮岩遗址连着走，半天刚好"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.287379,
+      "lat": 25.249578,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "广西壮族自治区桂林市象山区南溪山公园",
+    "district": "象山区",
+    "transportTip": "市区乘公交至南溪山站；从桂林站打车约十分钟",
+    "entrance": {
+      "lng": 110.28446,
+      "lat": 25.250172,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约6:30-18:30，以公园公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/%E5%8D%97%E6%BA%AA%E5%B1%B1%E5%85%AC%E5%9B%AD.jpg/1280px-%E5%8D%97%E6%BA%AA%E5%B1%B1%E5%85%AC%E5%9B%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/%E5%8D%97%E6%BA%AA%E5%B1%B1%E5%85%AC%E5%9B%AD.jpg/1280px-%E5%8D%97%E6%BA%AA%E5%B1%B1%E5%85%AC%E5%9B%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "南溪山公园.jpg",
+      "query": "南溪山公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "重庆轨交18",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E6%BA%AA%E5%B1%B1%E5%85%AC%E5%9B%AD.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "免费",
+    "清泉",
+    "人少"
+  ],
+  "popularity": 62,
+  "sources": [
+    {
+      "title": "百度百科·南溪山",
+      "url": "https://baike.baidu.com/item/%E5%8D%97%E6%BA%AA%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "南溪山公园"
+  },
+  "_geocodeTitle": "南溪山公园",
+  "_geocodeSuspect": false,
+  "district": "450304"
+}

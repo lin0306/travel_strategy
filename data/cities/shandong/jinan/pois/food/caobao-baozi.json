@@ -1,0 +1,113 @@
+{
+  "id": "caobao-baozi",
+  "name": "草包包子",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "济南出名的灌汤包，皮薄汁多，先吸汤再吃是本地规矩。",
+  "description": "草包包子是济南出名的灌汤包，因创始人的绰号得名，是本地人从小吃到大的味道。包子皮薄得透亮，里面裹着一汪汤汁，端上来要先小心咬开小口把汤吸掉，再连皮带馅吃。馅心有猪肉大葱和三鲜几种，鲜而不腻。老店里人声鼎沸，一屉一屉往上端，配一碗甜沫或小米粥正好。中午和傍晚都要等座。",
+  "highlights": [
+    "皮薄汁多要先吸汤",
+    "猪肉大葱与三鲜馅",
+    "配甜沫或小米粥"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.011412,
+      "lat": 36.664244,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山东省济南市老城区草包包子铺，历下区市中区均有",
+    "district": "市中区",
+    "transportTip": "市区老城各门店，就近选择"
+  },
+  "practical": {
+    "openHours": "约十点到二十点半",
+    "openHoursRef": 0,
+    "ticket": "约二十元一屉起",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "friends",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/8093353/pexels-photo-8093353.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/8093353/pexels-photo-8093353.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "A chef carefully handcrafts baozi dough with a bamboo steamer on a flour-dusted table.",
+      "query": "Caobao Baozi Jinan",
+      "credit": {
+        "source": "pexels",
+        "author": "Mikhail Nilov",
+        "sourceUrl": "https://www.pexels.com/photo/kitchen-table-with-baozi-steamer-baskets-and-a-chef-making-a-dough-8093353/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6440094/pexels-photo-6440094.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6440094/pexels-photo-6440094.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5124,
+      "height": 3416,
+      "alt": "Authentic Chinese street food stall featuring steamed buns in Fuzhou, China.",
+      "query": "Caobao Baozi Jinan",
+      "credit": {
+        "source": "pexels",
+        "author": "Mackenzie Ryder",
+        "sourceUrl": "https://www.pexels.com/photo/steamed-buns-at-market-6440094/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/17317227/pexels-photo-17317227.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/17317227/pexels-photo-17317227.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5889,
+      "height": 3926,
+      "alt": "Freshly steamed Chinese bao buns in bamboo baskets at an outdoor street food stall.",
+      "query": "Caobao Baozi Jinan",
+      "credit": {
+        "source": "pexels",
+        "author": "Sự Minh",
+        "sourceUrl": "https://www.pexels.com/photo/baozi-boiled-in-pot-17317227/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "包子",
+    "灌汤",
+    "老字号"
+  ],
+  "popularity": 84,
+  "sources": [
+    {
+      "title": "草包包子·百度百科",
+      "url": "https://baike.baidu.com/item/%E8%8D%89%E5%8C%85%E5%8C%85%E5%AD%90",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Caobao Baozi Jinan",
+    "zh": "草包包子"
+  },
+  "_geocodeTitle": "草包包子铺1937(普利街店)",
+  "_geocodeSuspect": false,
+  "district": "370103"
+}

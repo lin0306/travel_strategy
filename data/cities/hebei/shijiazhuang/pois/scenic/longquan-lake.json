@@ -1,0 +1,117 @@
+{
+  "id": "longquan-lake",
+  "name": "龙泉湖湿地公园",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "鹿泉的西郊湿地，骑行与看水。",
+  "description": "龙泉湖湿地在鹿泉区西郊，是一座新近建成的城市湿地，有湖、木栈道和一片骑行绿道，是城西看水与亲自然的新去处。它离市区约一小时，顺路能走。免费、人少，适合周末骑行走一段。",
+  "highlights": [
+    "鹿泉西郊新建城市湿地，湖与木栈道",
+    "骑行绿道，亲自然新去处",
+    "免费，人少"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.326858,
+      "lat": 38.006233,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "石家庄市鹿泉区龙泉湖",
+    "district": "鹿泉区",
+    "transportTip": "市区自驾约1小时",
+    "entrance": {
+      "lng": 114.349155,
+      "lat": 37.998093,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "kids",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38865779/pexels-photo-38865779.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38865779/pexels-photo-38865779.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 3024,
+      "alt": "Beautiful sunset view over mountains and buildings in Shijiazhuang, China.",
+      "query": "natural landscape China shijiazhuang",
+      "credit": {
+        "source": "pexels",
+        "author": "冰 白",
+        "sourceUrl": "https://www.pexels.com/photo/sunset-over-shijiazhuang-s-scenic-mountains-38865779/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27292261/pexels-photo-27292261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27292261/pexels-photo-27292261.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "A serene mountain temple amidst lush greenery and towering rocks in Shijiazhuang, Hebei, China.",
+      "query": "natural landscape China shijiazhuang",
+      "credit": {
+        "source": "pexels",
+        "author": "ANI Chen",
+        "sourceUrl": "https://www.pexels.com/photo/cloudy-view-in-the-mountain-27292261/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/15042553/pexels-photo-15042553.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/15042553/pexels-photo-15042553.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Serene wetland landscape during autumn with bare trees and calm waters under a clear sky.",
+      "query": "natural landscape China shijiazhuang",
+      "credit": {
+        "source": "pexels",
+        "author": "Super cute",
+        "sourceUrl": "https://www.pexels.com/photo/trees-in-a-wetland-in-early-spring-15042553/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湿地",
+    "骑行",
+    "免费"
+  ],
+  "popularity": 52,
+  "sources": [
+    {
+      "title": "百度百科·龙泉湖",
+      "url": "https://baike.baidu.com/item/%E9%BE%99%E6%B3%89%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "龙泉湖湿地公园"
+  },
+  "_geocodeTitle": "龙泉湖湿地公园",
+  "_geocodeSuspect": false,
+  "district": "130110"
+}

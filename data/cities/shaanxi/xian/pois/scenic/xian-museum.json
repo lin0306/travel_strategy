@@ -1,0 +1,113 @@
+{
+  "id": "xian-museum",
+  "name": "西安博物院",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "小雁塔脚下的市级馆，人少安静，把西安城的历史讲得清楚。",
+  "description": "西安博物院紧挨着小雁塔，由博物馆、荐福寺遗址与小雁塔三部分组成，等于买一送二。馆内的“古都西安”基本陈列按朝代讲这座城从丰镐、秦咸阳、汉长安到隋唐长安的城址变迁，配合沙盘与模型，比在遗址现场看更容易建立整体印象。藏品里唐代的金银器与三彩很出彩。因为名气不如陕历博，这里人少得多，参观体验从容。",
+  "highlights": [
+    "与小雁塔、荐福寺联成一体",
+    "城址变迁讲得系统，有沙盘模型",
+    "比陕历博清静得多"
+  ],
+  "location": {
+    "point": {
+      "lng": 108.939485,
+      "lat": 34.237877,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "西安市碑林区友谊西路 72 号",
+    "district": "雁塔区",
+    "transportTip": "地铁 2 号线南稍门站，步行约 10 分钟"
+  },
+  "practical": {
+    "openHours": "约 09:00-17:30（周二闭馆，以官方公告为准）",
+    "openHoursRef": 0,
+    "ticket": "免费（需预约，以官方为准）",
+    "ticketRef": 0,
+    "duration": "建议 120-180 分钟",
+    "durationMinutes": [
+      120,
+      180
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "kids",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Jianfu_Temple_20240809_14.jpg/1280px-Jianfu_Temple_20240809_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Jianfu_Temple_20240809_14.jpg/1280px-Jianfu_Temple_20240809_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Jianfu Temple 20240809 14.jpg",
+      "query": "西安博物院 西安",
+      "credit": {
+        "source": "wikimedia",
+        "author": "沈澄心",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jianfu_Temple_20240809_14.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Jianfu_Temple_20240809_28.jpg/1280px-Jianfu_Temple_20240809_28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Jianfu_Temple_20240809_28.jpg/1280px-Jianfu_Temple_20240809_28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Jianfu Temple 20240809 28.jpg",
+      "query": "西安博物院 西安",
+      "credit": {
+        "source": "wikimedia",
+        "author": "沈澄心",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jianfu_Temple_20240809_28.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Jianfu_Temple_20240809_30.jpg/1280px-Jianfu_Temple_20240809_30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Jianfu_Temple_20240809_30.jpg/1280px-Jianfu_Temple_20240809_30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Jianfu Temple 20240809 30.jpg",
+      "query": "西安博物院 西安",
+      "credit": {
+        "source": "wikimedia",
+        "author": "沈澄心",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jianfu_Temple_20240809_30.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "博物馆",
+    "免费",
+    "小雁塔",
+    "城址"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "百度百科·西安博物院",
+      "url": "https://baike.baidu.com/item/%E8%A5%BF%E5%AE%89%E5%8D%9A%E7%89%A9%E9%99%A2",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "西安博物院"
+  },
+  "_geocodeTitle": "西安博物院西门停车场",
+  "_geocodeSuspect": false,
+  "district": "610113"
+}

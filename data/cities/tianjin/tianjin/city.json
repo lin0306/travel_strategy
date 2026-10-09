@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "tianjin",
+  "name": "天津",
+  "province": "天津",
+  "adcode": "120000",
+  "provinceAdcode": "120000",
+  "tagline": "九国租界留下的街区，与一条穿过城中心的海河",
+  "intro": "天津的特点是「拼」：它不是一次规划出来的城，而是漕运码头、老城厢、九国租界各自长出来的几块，最后被一条海河缝在一起。海河两岸是骨架——从三岔河口到入海，桥与水岸是这座城的正面。城里最值得走的是老租界那一片：五大道的小洋楼、意式风情区的马可波罗广场、解放北路上的银行旧楼，三段挨着，一天能走完。老城厢那一头是另一路：古文化街、鼓楼、文庙、天后宫挤在一平方公里里，那是开埠之前那个天津。往外走才有山水——蓟州的盘山、黄崖关长城、独乐寺要单留一天。吃的东西偏咸鲜、重河海两鲜，煎饼馃子、锅巴菜、狗不理的灌汤包、耳朵眼炸糕是这个城市的日常。安排上，租界一片一天、老城加海河半天、蓟州一天，三天是不紧不慢的节奏。",
+  "center": {
+    "lng": 117.2015,
+    "lat": 39.0853,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    116.7231,
+    38.5556,
+    118.0365,
+    40.2531
+  ],
+  "defaultZoom": 10,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/33921375/pexels-photo-33921375.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33921375/pexels-photo-33921375.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 5414,
+      "alt": "Breathtaking view of Nanjing's skyline with lush greenery in the foreground.",
+      "query": "天津 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-view-of-nanjing-city-china-33921375/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33921377/pexels-photo-33921377.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33921377/pexels-photo-33921377.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3833,
+      "height": 5021,
+      "alt": "View of Nanjing's skyline featuring Zifeng Tower, framed by lush green trees.",
+      "query": "天津 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/nanjing-skyline-with-zifeng-tower-in-the-distance-33921377/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/35620192/pexels-photo-35620192.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35620192/pexels-photo-35620192.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2688,
+      "height": 4032,
+      "alt": "A scenic view of Guangzhou skyline from a balcony during sunset, featuring modern skyscrapers and a traditional overhang",
+      "query": "天津 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Glyne Yan",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-view-from-balcony-at-dusk-in-guangzhou-35620192/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "4-5 月 / 9-10 月（春季风大但气候舒服，秋季最稳；夏季闷热多雨，冬季干冷有雾霾）",
+    "suggestedDays": "3 天（租界五大道/意风区/解放北路 1 天 + 老城厢与海河两岸 0.5-1 天 + 蓟州盘山/独乐寺 1 天）",
+    "transitTip": "地铁 1/2/3 号线覆盖主城，3 号线通五大道与小洋楼一带，2 号线通古文化街与鼓楼。天津站就在海河边、离意风区步行十分钟，是进城最方便的落点；天津西站偏北，天津南站偏南。老租界街区路窄单行多，步行加共享单车比打车快。去蓟州要在天津站或天津北站坐火车，一个多小时；市区开车约两小时。",
+    "climateTip": "温带季风气候，四季分明。春季多风、昼夜温差大；夏季闷热，7-8 月是雨季；秋季天高气爽最舒服；冬季干冷，1 月常在零下。"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-09-27"
+  },
+  "updatedAt": "2026-09-27"
+}

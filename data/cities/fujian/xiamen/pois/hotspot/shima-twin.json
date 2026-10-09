@@ -1,0 +1,113 @@
+{
+  "id": "shima-twin",
+  "name": "世茂海峡大厦",
+  "category": "hotspot",
+  "subtype": "photo",
+  "summary": "厦港边上那对双塔，是厦门最高的楼，高处有观光厅。",
+  "description": "世茂海峡大厦在厦港演武西路，是两座并立的塔楼，三百米上下，厦门最高的建筑，本地叫双子塔。两座塔的外形像两片竖起的帆，因为这一带原来是码头，取的是这个意思。楼里有商场、写字楼与酒店，高处设有观光厅，上去可以看鼓浪屿、厦大、演武大桥与整片厦港老城，视野是这一带最好的。观光厅单独售票，以官方公告为准。它就在演武大桥边上，从观景平台抬头正看着这两座楼，傍晚灯亮以后是这一片的主角。楼下是商场与餐饮，离沙坡尾走路十分钟。",
+  "highlights": [
+    "两座塔楼三百米上下，是厦门最高的建筑",
+    "外形像两片竖起的帆，取自旧时码头",
+    "高处有观光厅，可俯瞰鼓浪屿与厦港老城"
+  ],
+  "location": {
+    "point": {
+      "lng": 118.088731,
+      "lat": 24.435663,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "福建省厦门市思明区演武西路180-188号",
+    "district": "思明区",
+    "transportTip": "地铁1号线镇海路站，步行约十五分钟"
+  },
+  "practical": {
+    "openHours": "商场约10:00-22:00（观光厅时间另计），以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "商场免费进，观光厅另计，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 45-120 分钟",
+    "durationMinutes": [
+      45,
+      120
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/18076626/pexels-photo-18076626.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/18076626/pexels-photo-18076626.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3529,
+      "height": 5294,
+      "alt": "Sunlit street scene in Xiamen, showcasing urban architecture and city traffic. Captures twilight ambiance.",
+      "query": "China city street view xiamen",
+      "credit": {
+        "source": "pexels",
+        "author": "Bryanken",
+        "sourceUrl": "https://www.pexels.com/photo/view-of-a-street-in-the-city-18076626/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/17985037/pexels-photo-17985037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/17985037/pexels-photo-17985037.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3226,
+      "height": 4032,
+      "alt": "Aerial view of Xiamen city bathed in dusky light, showcasing urban life and traffic.",
+      "query": "China city street view xiamen",
+      "credit": {
+        "source": "pexels",
+        "author": "toter yau",
+        "sourceUrl": "https://www.pexels.com/photo/urban-traffic-at-dusk-17985037/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37714928/pexels-photo-37714928.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37714928/pexels-photo-37714928.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8064,
+      "height": 6048,
+      "alt": "Aerial view of bustling Xiamen waterfront promenade with high-rise buildings and green spaces.",
+      "query": "China city street view xiamen",
+      "credit": {
+        "source": "pexels",
+        "author": "toter yau",
+        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-xiamen-waterfront-promenade-in-daylight-37714928/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "双子塔",
+    "观光厅",
+    "厦港"
+  ],
+  "popularity": 83,
+  "sources": [
+    {
+      "title": "百度百科·世茂海峡大厦",
+      "url": "https://baike.baidu.com/item/%E4%B8%96%E8%8C%82%E6%B5%B7%E5%B3%A1%E5%A4%A7%E5%8E%A6",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-28"
+    }
+  ],
+  "updatedAt": "2026-09-28",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "世茂海峡大厦"
+  },
+  "_geocodeTitle": "世茂海峡大厦",
+  "_geocodeSuspect": false,
+  "district": "350203"
+}

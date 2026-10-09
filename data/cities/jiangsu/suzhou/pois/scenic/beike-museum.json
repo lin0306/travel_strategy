@@ -1,0 +1,112 @@
+{
+  "id": "beike-museum",
+  "name": "苏州碑刻博物馆(文庙)",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "在文庙里的一座碑刻馆，四大宋碑是它最重要的东西。",
+  "description": "这座馆设在苏州文庙里，大成殿与棂星门都还在。馆里最重要的东西是四块南宋石碑：天文图、地理图、帝王绍运图、平江图。平江图刻的是宋代苏州城的格局，把那块图与今天的平江路对起来看，路网居然能对上。这个对照是这座馆最有意思的部分。文庙院里古木多，人也少。",
+  "highlights": [
+    "四大宋碑，平江图最值得看",
+    "宋代城图与今日路网能对上",
+    "设在文庙内，人少"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.62368,
+      "lat": 31.294737,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "苏州市姑苏区人民路",
+    "district": "姑苏区",
+    "transportTip": "地铁南门站步行约8分钟"
+  },
+  "practical": {
+    "openHours": "约09:00-16:30，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "elders",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/35870231/pexels-photo-35870231.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35870231/pexels-photo-35870231.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6990,
+      "height": 4660,
+      "alt": "Explore the elegant interior of an Istanbul museum showcasing art and artifacts.",
+      "query": "museum exhibition hall suzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Gül Işık",
+        "sourceUrl": "https://www.pexels.com/photo/intricate-istanbul-museum-interior-display-35870231/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/20203891/pexels-photo-20203891.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/20203891/pexels-photo-20203891.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5630,
+      "height": 4160,
+      "alt": "Elegant high-tech architecture inside Kunshan Grand Theater in Suzhou, China.",
+      "query": "museum exhibition hall suzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "KJ Brix",
+        "sourceUrl": "https://www.pexels.com/photo/interior-of-the-kunshan-grand-theater-in-suzhou-shi-china-20203891/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27945763/pexels-photo-27945763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27945763/pexels-photo-27945763.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Intricately crafted golden statue showcased in a Chinese history museum exhibit with detailed background art.",
+      "query": "museum exhibition hall suzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Teysa Tugadi",
+        "sourceUrl": "https://www.pexels.com/photo/a-statue-of-a-buddha-in-a-glass-case-27945763/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "碑刻",
+    "文庙",
+    "平江图"
+  ],
+  "popularity": 58,
+  "sources": [
+    {
+      "title": "百度百科·苏州文庙",
+      "url": "https://baike.baidu.com/item/%E8%8B%8F%E5%B7%9E%E6%96%87%E5%BA%99",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "苏州碑刻博物馆(文庙)"
+  },
+  "_geocodeTitle": "苏州碑刻博物馆",
+  "_geocodeSuspect": false,
+  "district": "320508"
+}

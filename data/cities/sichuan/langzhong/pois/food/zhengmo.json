@@ -1,0 +1,116 @@
+{
+  "id": "zhengmo",
+  "name": "阆中蒸馍",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "不加碱的老面蒸馍，冷了也不发硬，是本地人的早饭。",
+  "description": "阆中蒸馍是本地最日常的一种面食，外表朴素，白白胖胖一个，但做法有讲究——用老面发酵，不加碱，靠反复揉和长时间的发酵把酸味压下去。蒸出来的馍暄软但有筋道，掰开是细密的蜂窝。它最特别的一点是放凉了也不发硬、不发酸，掰开夹点腐乳或者牛肉就能吃，所以过去赶路的人常带。本地人早上一碗豆浆或一个蒸馍，是最常见的组合。在古城的早市和巷子里的小摊能买到刚出笼的，热的比什么都好吃。价格便宜，几块钱管饱。想体验本地人的一天，就从早上一个蒸馍开始。",
+  "highlights": [
+    "老面发酵不加碱",
+    "凉了不发硬",
+    "蜂窝细密有筋道",
+    "早市现出笼"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.021312,
+      "lat": 31.623799,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "南充市阆中市保宁街道，古城早市及巷口小摊",
+    "district": "阆中",
+    "transportTip": "古城内步行可达，早市集中在清晨"
+  },
+  "practical": {
+    "openHours": "一般 6:00-10:00（早市时段）",
+    "openHoursRef": 0,
+    "ticket": "无（几元一个）",
+    "ticketRef": 0,
+    "duration": "建议 20-40 分钟",
+    "durationMinutes": [
+      20,
+      40
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "elders",
+    "family",
+    "solo",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4240,
+      "height": 2832,
+      "alt": "A bustling street food stall offering traditional dishes to a customer in stylish winter attire.",
+      "query": "Chinese street food dish langzhong",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/11259688/pexels-photo-11259688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/11259688/pexels-photo-11259688.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Close-up of crispy youtiao served with dipping sauce and chopsticks on a metal table.",
+      "query": "Chinese street food dish langzhong",
+      "credit": {
+        "source": "pexels",
+        "author": "FOX ^.ᆽ.^= ∫",
+        "sourceUrl": "https://www.pexels.com/photo/meal-on-a-plate-11259688/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6440090/pexels-photo-6440090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6440090/pexels-photo-6440090.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4856,
+      "height": 3237,
+      "alt": "Close-up of delicious Chinese street food in a paper bowl held by a hand, featuring seasoned fried potatoes.",
+      "query": "Chinese street food dish langzhong",
+      "credit": {
+        "source": "pexels",
+        "author": "Mackenzie Ryder",
+        "sourceUrl": "https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "本地早饭",
+    "老面",
+    "便宜管饱",
+    "早市"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·阆中蒸馍",
+      "url": "https://baike.baidu.com/item/%E9%98%86%E4%B8%AD%E8%92%B8%E9%A6%8D",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "阆中蒸馍"
+  },
+  "_geocodeTitle": "阆中阆州蒸馍有限公司",
+  "_geocodeSuspect": false,
+  "district": "511381"
+}

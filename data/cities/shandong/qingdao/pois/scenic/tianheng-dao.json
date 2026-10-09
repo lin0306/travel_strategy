@@ -1,0 +1,118 @@
+{
+  "id": "tianheng-dao",
+  "name": "田横岛",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "即墨东南海里的岛，岛名来自田横五百士的故事。",
+  "description": "田横岛在即墨区东南的海面上，面积不大，从陆地乘船二十来分钟到。岛名来自秦末的那段旧事——齐王田横不愿降汉，带着五百余人退居海岛，最后自刎，岛上的人也随之而去，后人把这个岛叫作田横岛。岛上有田横的雕像与纪念的建筑，以及一处五百义士的墓。岛的南面是礁石与沙滩，海水清，夏天可以下水；北面是渔村与养殖区。岛不大，绕一圈两三小时，住一晚更从容。船班受潮汐与天气影响，去之前先问码头。",
+  "highlights": [
+    "岛名来自秦末齐王田横与五百余人的旧事",
+    "南面是礁石与沙滩，海水清",
+    "从陆地乘船二十来分钟，船班看潮汐天气"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.967524,
+      "lat": 36.420102,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山东省青岛市即墨区田横岛（田横岛度假区）",
+    "district": "即墨区",
+    "transportTip": "自驾至田横镇码头后乘船；班次以码头公告为准",
+    "entrance": {
+      "lng": 120.95228,
+      "lat": 36.42032,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:00-17:00（船班视潮汐天气），以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "船票与景区以官方公告为准，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 180-400 分钟",
+    "durationMinutes": [
+      180,
+      400
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38925247/pexels-photo-38925247.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38925247/pexels-photo-38925247.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "A scenic coastal view with a cabin perched on rocky cliffs overlooking the blue ocean under clear skies.",
+      "query": "natural landscape China qingdao",
+      "credit": {
+        "source": "pexels",
+        "author": "Aurora",
+        "sourceUrl": "https://www.pexels.com/photo/coastal-cliffside-with-cabin-and-blue-ocean-38925247/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36963223/pexels-photo-36963223.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36963223/pexels-photo-36963223.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6048,
+      "height": 4032,
+      "alt": "View of Qingdao's coastline featuring tall modern buildings and clear blue sea.",
+      "query": "natural landscape China qingdao",
+      "credit": {
+        "source": "pexels",
+        "author": "Zhengyang TIAN",
+        "sourceUrl": "https://www.pexels.com/photo/coastal-skyline-of-qingdao-with-modern-architecture-36963223/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37106092/pexels-photo-37106092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37106092/pexels-photo-37106092.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "Scenic aerial view of Qingdao with historic architecture and coastal landscape.",
+      "query": "natural landscape China qingdao",
+      "credit": {
+        "source": "pexels",
+        "author": "Whale I",
+        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-qingdao-s-historical-architecture-37106092/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "海岛",
+    "田横",
+    "即墨"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "百度百科·田横岛",
+      "url": "https://baike.baidu.com/item/%E7%94%B0%E6%A8%AA%E5%B2%9B",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-28"
+    }
+  ],
+  "updatedAt": "2026-09-28",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "田横岛"
+  },
+  "_geocodeTitle": "田横岛村村委会",
+  "_geocodeSuspect": false,
+  "district": "370215"
+}

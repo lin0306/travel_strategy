@@ -1,0 +1,122 @@
+{
+  "id": "yangshuo-gongyuan",
+  "name": "阳朔公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "县城里的老公园，靠着几座小山，本地人晨练的地方。",
+  "description": "阳朔公园在县城中心，依着几座小石山修的，是本地人日常活动的地方。园里有湖、有亭子、有几条穿山的小路，树长得很密。早上最热闹，有人在打太极、跳舞、遛鸟，也有人在湖边坐着。游客来这里多半是为了躲开西街的喧闹，或者爬到山顶的小亭子上看一眼县城的屋顶和周围的峰林。公园不收门票，离西街步行十分钟，是个很容易被忽略但可以歇脚的地方。",
+  "highlights": [
+    "县城老公园",
+    "本地晨练",
+    "山顶看县城"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.48961,
+      "lat": 24.77615,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "广西壮族自治区桂林市阳朔县阳朔公园",
+    "district": "阳朔",
+    "transportTip": "县城西街步行约十分钟",
+    "entrance": {
+      "lng": 110.491086,
+      "lat": 24.774442,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 45-120 分钟",
+    "durationMinutes": [
+      45,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "solo",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/33632718/pexels-photo-33632718.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33632718/pexels-photo-33632718.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 6825,
+      "height": 4541,
+      "alt": "Picturesque view of traditional Chinese architecture and mountains in Guilin, China.",
+      "query": "Chinese classical garden yangshuo",
+      "credit": {
+        "source": "pexels",
+        "author": "Vincent Tan",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-architecture-in-guilin-33632718/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31694561/pexels-photo-31694561.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31694561/pexels-photo-31694561.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4781,
+      "height": 3570,
+      "alt": "Scenic view of karst hills reflecting in a lake surrounded by buildings and greenery.",
+      "query": "Chinese classical garden yangshuo",
+      "credit": {
+        "source": "pexels",
+        "author": "Phil Mitchell",
+        "sourceUrl": "https://www.pexels.com/photo/tranquil-lake-view-with-karst-hills-reflection-31694561/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "Tranquil view of a traditional Chinese garden featuring a vibrant red lantern.",
+      "query": "Chinese classical garden yangshuo",
+      "credit": {
+        "source": "pexels",
+        "author": "Lily  Lili",
+        "sourceUrl": "https://www.pexels.com/photo/serene-chinese-garden-with-red-lantern-31956319/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "公园",
+    "免票",
+    "本地生活",
+    "县城",
+    "歇脚"
+  ],
+  "popularity": 56,
+  "sources": [
+    {
+      "title": "百度百科·阳朔公园",
+      "url": "https://baike.baidu.com/item/%E9%98%B3%E6%9C%94%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "阳朔公园"
+  },
+  "_geocodeTitle": "阳朔公园",
+  "_geocodeSuspect": false,
+  "district": "450321"
+}

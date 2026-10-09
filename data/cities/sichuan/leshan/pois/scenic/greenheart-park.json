@@ -1,0 +1,118 @@
+{
+  "id": "greenheart-park",
+  "name": "嘉州绿心公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "市中区一片城市绿心，环山步道多，本地人跑步遛弯的地方。",
+  "description": "嘉州绿心公园在市中区，是一片插在城里的大绿心。它被路围起来，里面是山和树，环山步道多。本地人早晚来跑步、遛弯。它免费，离市区近，是活动间隙透气的地方。穿舒服的鞋，路多台阶。",
+  "highlights": [
+    "市中区城市绿心",
+    "环山步道多",
+    "本地人跑步遛弯免费"
+  ],
+  "location": {
+    "point": {
+      "lng": 103.73238,
+      "lat": 29.576501,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "四川省乐山市市中区嘉州绿心公园",
+    "district": "市中区",
+    "transportTip": "市区公交或步行到绿心公园",
+    "entrance": {
+      "lng": 103.713955,
+      "lat": 29.574059,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 40-90 分钟",
+    "durationMinutes": [
+      40,
+      90
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/39389631/pexels-photo-39389631.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39389631/pexels-photo-39389631.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 6048,
+      "alt": "Heart-shaped tree in a park near a small building under a vibrant blue sky in Nanjing, China.",
+      "query": "Jiazhou Green Heart Park",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/heart-shaped-tree-in-nanjing-park-setting-39389631/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/22378101/pexels-photo-22378101.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/22378101/pexels-photo-22378101.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2980,
+      "height": 3973,
+      "alt": "Vibrant heart-shaped arch filled with flowers creating a romantic garden tunnel.",
+      "query": "Jiazhou Green Heart Park",
+      "credit": {
+        "source": "pexels",
+        "author": "Lera Mk",
+        "sourceUrl": "https://www.pexels.com/photo/wedding-venue-with-heart-shaped-tunnel-22378101/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34751554/pexels-photo-34751554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34751554/pexels-photo-34751554.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3456,
+      "height": 5184,
+      "alt": "A couple enjoys a leisure walk on a tree-lined path during a sunny autumn day.",
+      "query": "Jiazhou Green Heart Park",
+      "credit": {
+        "source": "pexels",
+        "author": "Anderson Wei",
+        "sourceUrl": "https://www.pexels.com/photo/couple-walking-on-tree-lined-path-in-autumn-34751554/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "公园",
+    "绿心",
+    "市区"
+  ],
+  "popularity": 50,
+  "sources": [
+    {
+      "title": "百度百科·乐山",
+      "url": "https://baike.baidu.com/item/%E4%B9%90%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Jiazhou Green Heart Park",
+    "zh": "嘉州绿心公园"
+  },
+  "_geocodeTitle": "嘉州绿心公园",
+  "_geocodeSuspect": false,
+  "district": "511102"
+}

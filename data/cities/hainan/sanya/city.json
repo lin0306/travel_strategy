@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "sanya",
+  "name": "三亚",
+  "province": "海南",
+  "adcode": "460200",
+  "provinceAdcode": "460000",
+  "tagline": "中国唯一的热带海滨城，一条海岸线上排着几个湾",
+  "intro": "三亚在海南岛的最南端，北纬十八度，是中国大陆上唯一一处真正的热带海滨。一条海岸线从西往东排着几个性格不同的湾：最西是崖州湾，接着是天涯海角与三亚湾，再往东是大东海、小东海、亚龙湾、海棠湾，每一个湾都有自己的沙滩与一整排度假酒店。城是贴着海长的，市区在三亚湾北岸，老的一片在解放路与第一市场一带，新建的一片沿着海棠湾往北铺。内陆那一边是山与田：亚龙湾背后是热带雨林，崖州那边是海南仅存的几片古水田与一座千年古城。吃的靠海：海鲜在市场买了交给店里加工，再就是抱罗粉、海南粉、清补凉、椰子鸡、文昌鸡。安排上，湾里泡两天、南山与崖州一天、蜈支洲或热带雨林一天，四天是合适的节奏。",
+  "center": {
+    "lng": 109.5117,
+    "lat": 18.2529,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    108.9766,
+    18.1575,
+    109.8108,
+    18.6233
+  ],
+  "defaultZoom": 10,
+  "heroImages": [
+    {
+      "url": "https://images.unsplash.com/photo-1636821772564-befe22b1b6e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8MXx8JUU0JUI4JTg5JUU0JUJBJTlBJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTA2OTc3NDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "thumbUrl": "https://images.unsplash.com/photo-1636821772564-befe22b1b6e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8MXx8JUU0JUI4JTg5JUU0JUJBJTlBJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTA2OTc3NDd8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "width": 7952,
+      "height": 5304,
+      "alt": "a view of a city from the top of a hill",
+      "query": "三亚 China city skyline",
+      "credit": {
+        "source": "unsplash",
+        "author": "ダモ リ",
+        "sourceUrl": "https://unsplash.com/photos/a-view-of-a-city-from-the-top-of-a-hill-W2X8IJyI_LU",
+        "license": "Unsplash License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1758856771278-e69c0a09ec92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8Mnx8JUU0JUI4JTg5JUU0JUJBJTlBJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTA2OTc3NDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "thumbUrl": "https://images.unsplash.com/photo-1758856771278-e69c0a09ec92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8Mnx8JUU0JUI4JTg5JUU0JUJBJTlBJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTA2OTc3NDd8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "width": 6000,
+      "height": 3376,
+      "alt": "Modern cityscape with illuminated skyscrapers at dusk",
+      "query": "三亚 China city skyline",
+      "credit": {
+        "source": "unsplash",
+        "author": "Jerry Chen",
+        "sourceUrl": "https://unsplash.com/photos/modern-cityscape-with-illuminated-skyscrapers-at-dusk-2eHPfmda3eQ",
+        "license": "Unsplash License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1762532957295-1d002cbbd9b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8M3x8JUU0JUI4JTg5JUU0JUJBJTlBJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTA2OTc3NDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "thumbUrl": "https://images.unsplash.com/photo-1762532957295-1d002cbbd9b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8M3x8JUU0JUI4JTg5JUU0JUJBJTlBJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTA2OTc3NDd8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "width": 8256,
+      "height": 5504,
+      "alt": "City skyline at sunset with dramatic clouds",
+      "query": "三亚 China city skyline",
+      "credit": {
+        "source": "unsplash",
+        "author": "Haoyuan Luo",
+        "sourceUrl": "https://unsplash.com/photos/city-skyline-at-sunset-with-dramatic-clouds-HS_JOmvD7_M",
+        "license": "Unsplash License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "10 月到次年 4 月最舒服（避开台风与酷暑）；5-9 月是雨季也是台风季，多午后雷雨，紫外线全年都强；冬天最冷的一月白天也有二十几度，可以下海",
+    "suggestedDays": "4 天（三亚湾·大东海 1 天 + 亚龙湾或蜈支洲 1 天 + 南山·崖州古城 1 天 + 海棠湾或雨林 1 天）",
+    "transitTip": "凤凰国际机场在天涯区西边，离市区约十五公里，机场巴士与网约车都方便。市区有轨电车一条线，走三亚湾路与迎宾路，串联火车站、海月广场与解放路一带，是游览主干道；其余靠公交与网约车。★ 三亚站在吉阳区，是环岛高铁与西环线上的站，去海口约一个半小时到两小时；亚龙湾站、崖州站也在同一条线上，去崖州古城坐高铁到崖州站比从市区坐公交快。去蜈支洲岛在海棠区的后海码头乘船，去西岛在天涯区的肖旗港乘船。旺季（春节、暑假）主干道与景区停车场都紧张，早出门。",
+    "climateTip": "热带海洋性季风气候，全年无冬，最冷的一月平均二十度上下；五到十月是雨季，多午后阵雨与夜雨，七到九月是台风季；全年紫外线极强，晴天的太阳比体感晒，防晒与补水要带足。"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-09-29"
+  },
+  "updatedAt": "2026-09-29"
+}

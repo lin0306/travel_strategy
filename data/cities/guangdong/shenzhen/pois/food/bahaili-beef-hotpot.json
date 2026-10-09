@@ -1,0 +1,112 @@
+{
+  "id": "bahaili-beef-hotpot",
+  "name": "八合里海记牛肉店",
+  "category": "food",
+  "subtype": "local",
+  "summary": "潮汕牛肉火锅在深圳的一个标准：按部位分盘，下锅的时间单位是秒。",
+  "description": "潮汕牛肉火锅的做法在深圳已经被接受为日常。它的逻辑是两件事：一是当天宰杀当天用，牛肉不冷冻；二是按部位分——吊龙、匙柄、五花趾、胸口朗各是各的，涮的时间从几秒到十几秒不等。沙茶酱是这一派的蘸料。海记是这个做法里在深圳开店多的一家，门店分布于福田、南山各处。客单属于中等。它的价值是稳定：同一套做法在各店差别不大。",
+  "highlights": [
+    "当天宰杀不冷冻，按部位分盘",
+    "涮制时间按秒计，部位决定口感",
+    "门店多，出餐标准稳定"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.097913,
+      "lat": 22.53919,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "深圳市福田区振华路华强北一带（多家门店，以实际地址为准）",
+    "district": "福田区",
+    "transportTip": "地铁1号线/2号线华强路站；各门店另有就近站点"
+  },
+  "practical": {
+    "openHours": "约11:00-次日凌晨（以门店公告为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约120元起，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/A_SUSHIRO_RESTAURANT_IN_SHENZHEN_MIXC.jpg/1280px-A_SUSHIRO_RESTAURANT_IN_SHENZHEN_MIXC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/A_SUSHIRO_RESTAURANT_IN_SHENZHEN_MIXC.jpg/1280px-A_SUSHIRO_RESTAURANT_IN_SHENZHEN_MIXC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 535,
+      "alt": "A SUSHIRO RESTAURANT IN SHENZHEN MIXC.jpg",
+      "query": "Chinese restaurant interior shenzhen",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Dinkun Chen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_SUSHIRO_RESTAURANT_IN_SHENZHEN_MIXC.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/A_SUSHIRO_RESTAURANT_IN_SHENZHEN_MIXC_%282%29.jpg/1280px-A_SUSHIRO_RESTAURANT_IN_SHENZHEN_MIXC_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/A_SUSHIRO_RESTAURANT_IN_SHENZHEN_MIXC_%282%29.jpg/1280px-A_SUSHIRO_RESTAURANT_IN_SHENZHEN_MIXC_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 873,
+      "alt": "A SUSHIRO RESTAURANT IN SHENZHEN MIXC (2).jpg",
+      "query": "Chinese restaurant interior shenzhen",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Dinkun Chen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_SUSHIRO_RESTAURANT_IN_SHENZHEN_MIXC_(2).jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Interior_of_McDonald%27s_in_Shenzhen%2C_China.jpg/1280px-Interior_of_McDonald%27s_in_Shenzhen%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Interior_of_McDonald%27s_in_Shenzhen%2C_China.jpg/1280px-Interior_of_McDonald%27s_in_Shenzhen%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 760,
+      "alt": "Interior of McDonald's in Shenzhen, China.jpg",
+      "query": "Chinese restaurant interior shenzhen",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Daniel Case",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Interior_of_McDonald%27s_in_Shenzhen,_China.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "潮汕",
+    "火锅",
+    "牛肉"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "百度百科·潮汕牛肉火锅",
+      "url": "https://baike.baidu.com/item/%E6%BD%AE%E6%B1%95%E7%89%9B%E8%82%89%E7%81%AB%E9%94%85",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-24"
+    }
+  ],
+  "updatedAt": "2026-09-24",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "八合里海记牛肉店"
+  },
+  "_geocodeTitle": "八合里海记牛肉店",
+  "_geocodeSuspect": false,
+  "district": "440304"
+}

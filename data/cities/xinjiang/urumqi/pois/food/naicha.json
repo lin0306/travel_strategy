@@ -1,0 +1,113 @@
+{
+  "id": "naicha",
+  "name": "奶茶",
+  "category": "food",
+  "subtype": "cafe",
+  "summary": "咸香的新疆奶茶，砖茶配牛奶加盐熬，配馕是牧区最暖的一杯。",
+  "description": "新疆奶茶用砖茶和牛奶同煮，加一撮盐，咸香暖胃。和甜奶茶不同，这杯是咸口，牧区天天喝。配一块馕掰进去，就是一顿简餐。哈萨克、维吾尔茶馆里最地道，也有甜版给外地人。冬天捧一杯从头暖到脚，配点心也好。",
+  "highlights": [
+    "砖茶牛奶加盐熬",
+    "咸香暖胃配馕",
+    "牧区日常一杯"
+  ],
+  "location": {
+    "point": {
+      "lng": 87.616174,
+      "lat": 43.828689,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "新疆维吾尔自治区乌鲁木齐市各奶茶馆与餐馆",
+    "district": "水磨沟区",
+    "transportTip": "市区茶馆、餐馆均有"
+  },
+  "practical": {
+    "openHours": "约09:00-22:00",
+    "openHoursRef": 0,
+    "ticket": "约10元/杯起",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
+      15,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "elders",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Bubble_tea_by_Johnny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Bubble_tea_by_Johnny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 810,
+      "alt": "Bubble tea by Johnny.jpg",
+      "query": "奶茶",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Baoothersks",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bubble_tea_by_Johnny.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Bubble_tea_six_languages.jpg/1280px-Bubble_tea_six_languages.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Bubble_tea_six_languages.jpg/1280px-Bubble_tea_six_languages.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1575,
+      "alt": "Bubble tea six languages.jpg",
+      "query": "奶茶",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Hippietrail",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bubble_tea_six_languages.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Fresh_Milk_Tea_1.jpg/1280px-Fresh_Milk_Tea_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Fresh_Milk_Tea_1.jpg/1280px-Fresh_Milk_Tea_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Fresh Milk Tea 1.jpg",
+      "query": "奶茶",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Gaurav Dhwaj Khadka",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fresh_Milk_Tea_1.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "奶茶",
+    "咸口",
+    "饮品"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "奶茶·百度百科",
+      "url": "https://baike.baidu.com/item/%E5%A5%B6%E8%8C%B6",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Milk Tea Urumqi",
+    "zh": "奶茶"
+  },
+  "_geocodeTitle": "解行舟中药奶茶(二附院店)",
+  "_geocodeSuspect": false,
+  "district": "650105"
+}

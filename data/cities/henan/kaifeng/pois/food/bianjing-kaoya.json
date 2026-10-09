@@ -1,0 +1,113 @@
+{
+  "id": "bianjing-kaoya",
+  "name": "汴京烤鸭",
+  "category": "food",
+  "subtype": "local",
+  "summary": "开封派的烤鸭，皮酥肉嫩，配薄饼葱酱，豫菜代表。",
+  "description": "汴京烤鸭是开封一脉的烤鸭，和北京烤鸭同源但有自家做法。鸭皮酥、鸭肉嫩，配薄饼、葱、酱。它是豫菜的代表之一。老馆子现烤的好，半只起步。趁热片，凉了皮软。街边老店往往比大馆子更正宗些。",
+  "highlights": [
+    "开封派烤鸭皮酥肉嫩",
+    "配薄饼葱酱豫菜代表",
+    "现烤趁热片"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.362149,
+      "lat": 34.799278,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河南省开封市各烤鸭老馆",
+    "district": "顺河回族区",
+    "transportTip": "市区豫菜馆均有"
+  },
+  "practical": {
+    "openHours": "约10:00-21:00",
+    "openHoursRef": 0,
+    "ticket": "约80元/半只起",
+    "ticketRef": 0,
+    "duration": "建议 40-80 分钟",
+    "durationMinutes": [
+      40,
+      80
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/36117440/pexels-photo-36117440.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36117440/pexels-photo-36117440.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Halal roasted ducks displayed in an Indonesian restaurant with Chinese characters above.",
+      "query": "Kaifeng Roast Duck",
+      "credit": {
+        "source": "pexels",
+        "author": "Ariel Sebasthian",
+        "sourceUrl": "https://www.pexels.com/photo/five-roasted-ducks-displayed-in-indonesian-restaurant-36117440/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33137966/pexels-photo-33137966.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33137966/pexels-photo-33137966.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 6714,
+      "height": 4468,
+      "alt": "A chef in a traditional Asian restaurant prepares roasted duck, displaying culinary skills.",
+      "query": "Kaifeng Roast Duck",
+      "credit": {
+        "source": "pexels",
+        "author": "Vincent Tan",
+        "sourceUrl": "https://www.pexels.com/photo/chef-preparing-roasted-duck-in-asian-restaurant-33137966/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/12350418/pexels-photo-12350418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/12350418/pexels-photo-12350418.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Succulent roasted ducks hanging on display in a Seattle butcher shop window, showcasing culinary craftsmanship.",
+      "query": "Kaifeng Roast Duck",
+      "credit": {
+        "source": "pexels",
+        "author": "Nathan Reynolds",
+        "sourceUrl": "https://www.pexels.com/photo/roasted-ducks-hanging-on-display-in-the-window-of-a-butchers-12350418/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "烤鸭",
+    "豫菜",
+    "代表"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "百度百科·汴京烤鸭",
+      "url": "https://baike.baidu.com/item/%E6%B1%B4%E4%BA%AC%E7%83%A4%E9%B8%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Kaifeng Roast Duck",
+    "zh": "汴京烤鸭"
+  },
+  "_geocodeTitle": "梅利汴京烤鸭·开封豫菜地标店(东大街店)",
+  "_geocodeSuspect": false,
+  "district": "410203"
+}

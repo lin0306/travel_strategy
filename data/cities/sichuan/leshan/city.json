@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "leshan",
+  "name": "乐山",
+  "province": "四川",
+  "adcode": "511100",
+  "provinceAdcode": "510000",
+  "tagline": "一座大佛守着三江汇流，背后是峨眉山的云海和猴群",
+  "intro": "乐山在四川西南，是一座被佛和山定义的城。城边的岷江、大渡河、青衣江在这里汇到一起，江边崖壁上凿着一座七十多米高的坐佛 —— 乐山大佛。往西是峨眉山，金顶上有普贤金像，云海和猴群都在。这里还留着蒸汽小火车和船形老街，吃的跷脚牛肉、甜皮鸭也出圈。山水、佛像、小吃凑在一块，两三天能玩得很充实。来乐山，山水和烟火气都能装下，慢慢逛才对味。",
+  "center": {
+    "lng": 103.5715,
+    "lat": 29.2128,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    102.909,
+    28.4207,
+    104.2498,
+    29.9205
+  ],
+  "defaultZoom": 9,
+  "heroImages": [
+    {
+      "url": "https://images.unsplash.com/photo-1528279455837-b87113226907?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8MXx8JUU0JUI5JTkwJUU1JUIxJUIxJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTA5MTQ5NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "thumbUrl": "https://images.unsplash.com/photo-1528279455837-b87113226907?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8MXx8JUU0JUI5JTkwJUU1JUIxJUIxJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTA5MTQ5NzF8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "width": 5760,
+      "height": 3840,
+      "alt": "aerial photography of city escape during golden hour",
+      "query": "乐山 China city skyline",
+      "credit": {
+        "source": "unsplash",
+        "author": "zhang kaiyv",
+        "sourceUrl": "https://unsplash.com/photos/aerial-photography-of-city-escape-during-golden-hour-Ca898f7Rbn8",
+        "license": "Unsplash License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1614052153442-4595f3d3d6e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8Mnx8JUU0JUI5JTkwJUU1JUIxJUIxJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTA5MTQ5NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "thumbUrl": "https://images.unsplash.com/photo-1614052153442-4595f3d3d6e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8Mnx8JUU0JUI5JTkwJUU1JUIxJUIxJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTA5MTQ5NzF8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "width": 7354,
+      "height": 3949,
+      "alt": "city skyline during night time",
+      "query": "乐山 China city skyline",
+      "credit": {
+        "source": "unsplash",
+        "author": "Henry Chen",
+        "sourceUrl": "https://unsplash.com/photos/city-skyline-during-night-time-OF8MM3_Glrc",
+        "license": "Unsplash License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1700593952998-01dcb1e301e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8M3x8JUU0JUI5JTkwJUU1JUIxJUIxJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTA5MTQ5NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "thumbUrl": "https://images.unsplash.com/photo-1700593952998-01dcb1e301e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8M3x8JUU0JUI5JTkwJUU1JUIxJUIxJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTA5MTQ5NzF8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "width": 4096,
+      "height": 2730,
+      "alt": "a view of a city with tall buildings",
+      "query": "乐山 China city skyline",
+      "credit": {
+        "source": "unsplash",
+        "author": "Albert Canite",
+        "sourceUrl": "https://unsplash.com/photos/a-view-of-a-city-with-tall-buildings-GAq5Nsk3MeM",
+        "license": "Unsplash License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "三到六月和九到十一月最舒服，夏天闷热多雨，冬天湿冷；峨眉山金顶要备厚衣",
+    "suggestedDays": "三到四天。乐山大佛加市区一天，峨眉山两天，犍为小火车罗城一天",
+    "transitTip": "成贵高铁和乐山机场都通了，市区到峨眉山有城际列车，景区间多靠班车与打车",
+    "climateTip": "亚热带湿润气候，雨量充沛；峨眉山是山地，山顶比山下低十度以上，分层穿衣"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-02"
+  },
+  "updatedAt": "2026-10-02"
+}

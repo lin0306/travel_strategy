@@ -1,0 +1,114 @@
+{
+  "id": "wencheng-theater",
+  "name": "文成公主实景剧场",
+  "category": "hotspot",
+  "subtype": "art",
+  "summary": "城南慈觉林村的户外实景演出，以山为背景，晚上开演。",
+  "description": "文成公主实景剧场在城南慈觉林村，是一场户外演出。它以后面的山为背景，舞台就搭在地上，讲文成公主进藏那一段。演员多，有马，有火，场面大。晚上开演，夏天八点前后，冬天早一些。票价不便宜，位置分档。户外冷，要带厚衣服。它在城南，要打车过去，散场不好打车，提前约好。",
+  "highlights": [
+    "以山为背景的户外演出，舞台搭在地上，有马有火",
+    "晚上开演，夏八点前后、冬早一些",
+    "户外冷要带厚衣服，散场不好打车提前约"
+  ],
+  "location": {
+    "point": {
+      "lng": 91.146621,
+      "lat": 29.622496,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "西藏自治区拉萨市城关区慈觉林村",
+    "district": "城关区",
+    "transportTip": "市区打车往城南慈觉林村"
+  },
+  "practical": {
+    "openHours": "夜间演出，约20:00开演（季节调整），以剧场公告为准",
+    "openHoursRef": 0,
+    "ticket": "较贵（分档，以剧场公告为准）",
+    "ticketRef": 0,
+    "duration": "建议 120-180 分钟",
+    "durationMinutes": [
+      120,
+      180
+    ],
+    "priceLevel": "high"
+  },
+  "audience": [
+    "couple",
+    "family",
+    "friends",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/3998378/pexels-photo-3998378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/3998378/pexels-photo-3998378.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2543,
+      "height": 1700,
+      "alt": "Monochrome photo capturing seniors sitting outdoors in Lhasa, Tibet.",
+      "query": "art district gallery lhasa",
+      "credit": {
+        "source": "pexels",
+        "author": "ZHANQUN CAI",
+        "sourceUrl": "https://www.pexels.com/photo/grayscale-photo-of-elderly-people-sitted-3998378/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38374705/pexels-photo-38374705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38374705/pexels-photo-38374705.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "Detailed view of classic Tibetan architecture with colorful decorations in Lhasa, Tibet.",
+      "query": "art district gallery lhasa",
+      "credit": {
+        "source": "pexels",
+        "author": "Martin Chan",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-tibetan-architecture-in-lhasa-38374705/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27134677/pexels-photo-27134677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27134677/pexels-photo-27134677.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "Close-up of ancient white wall architecture featuring rows of windows and unique stepped design.",
+      "query": "art district gallery lhasa",
+      "credit": {
+        "source": "pexels",
+        "author": "虎 曼",
+        "sourceUrl": "https://www.pexels.com/photo/low-angle-shot-of-the-potala-palace-exterior-lhasa-tibet-27134677/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "实景演出",
+    "夜场",
+    "户外"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·文成公主",
+      "url": "https://baike.baidu.com/item/%E6%96%87%E6%88%90%E5%85%AC%E4%B8%BB",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "文成公主实景剧场"
+  },
+  "_geocodeTitle": "文成公主实景剧场",
+  "_geocodeSuspect": false,
+  "district": "540102"
+}

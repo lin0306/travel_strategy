@@ -1,0 +1,83 @@
+{
+  "id": "taian-shangquan",
+  "name": "泰安商圈(银座·万达)",
+  "category": "hotspot",
+  "subtype": "photo",
+  "summary": "城区购物餐饮带，吃喝补给都方便。",
+  "description": "泰安的银座、万达等商圈集中在泰山区，是城区购物、餐饮和看电影的主要去处。爬泰山前后想补给装备、吃顿正餐或逛逛超市，来这最方便。它服务本地居民也服务游客，品牌齐全。免费逛，适合错峰休整。",
+  "highlights": [
+    "城区购物餐饮带，银座万达",
+    "补给装备吃正餐方便",
+    "服务游客与本地"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.085686,
+      "lat": 36.177984,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "泰安市泰山区商圈",
+    "district": "泰山区",
+    "transportTip": "公交至商圈站点"
+  },
+  "practical": {
+    "openHours": "全天开放（商铺多为10:00-22:00）",
+    "openHoursRef": 0,
+    "ticket": "无门票",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/%E6%B3%B0%E5%AE%89%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA_2021-01-25.jpg/1280px-%E6%B3%B0%E5%AE%89%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA_2021-01-25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/%E6%B3%B0%E5%AE%89%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA_2021-01-25.jpg/1280px-%E6%B3%B0%E5%AE%89%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA_2021-01-25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 540,
+      "alt": "泰安万达广场 2021-01-25.jpg",
+      "query": "泰安商圈 泰安",
+      "credit": {
+        "source": "wikimedia",
+        "author": "鏌翷",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B3%B0%E5%AE%89%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA_2021-01-25.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "商圈",
+    "购物",
+    "补给"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "百度百科·泰安",
+      "url": "https://baike.baidu.com/item/%E6%B3%B0%E5%AE%89",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "泰安商圈(银座·万达)"
+  },
+  "_geocodeTitle": "泰安泰山万达商圈停车场",
+  "_geocodeSuspect": false,
+  "district": "370902"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "fenglinge",
+  "name": "凤临阁",
+  "category": "food",
+  "subtype": "local",
+  "summary": "大同最有名的一家老字号，百花烧麦是招牌，环境是老院子。",
+  "description": "凤临阁在平城区鼓楼附近，是大同最有名的一家老字号。它的招牌是百花烧麦 —— 一笼里九种馅，花样不一样，摆开像一朵花。它的院子是老房子改的，讲究。除了烧麦，也做本地菜。价格中上，饭点要排队。来大同想吃顿体面的，来这儿。",
+  "highlights": [
+    "大同最有名老字号，招牌百花烧麦",
+    "一笼九种馅摆开像花",
+    "老院子讲究，饭点要排队"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.297481,
+      "lat": 40.091566,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山西省大同市平城区鼓楼附近凤临阁",
+    "district": "平城区",
+    "transportTip": "市区步行到鼓楼附近"
+  },
+  "practical": {
+    "openHours": "约10:00-21:00",
+    "openHoursRef": 0,
+    "ticket": "人均约110元",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Fenglinge_datong.JPG/1280px-Fenglinge_datong.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Fenglinge_datong.JPG/1280px-Fenglinge_datong.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Fenglinge datong.JPG",
+      "query": "凤临阁",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Mongol",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fenglinge_datong.JPG",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "老字号",
+    "烧麦",
+    "大同"
+  ],
+  "popularity": 88,
+  "sources": [
+    {
+      "title": "百度百科·百花烧麦",
+      "url": "https://baike.baidu.com/item/%E7%99%BE%E8%8A%B1%E7%83%A7%E9%BA%A6",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "凤临阁"
+  },
+  "_geocodeTitle": "凤临阁(鼓楼店)",
+  "_geocodeSuspect": false,
+  "district": "140213"
+}

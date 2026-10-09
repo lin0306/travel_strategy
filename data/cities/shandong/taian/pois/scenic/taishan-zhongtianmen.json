@@ -1,0 +1,119 @@
+{
+  "id": "taishan-zhongtianmen",
+  "name": "中天门",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "徒步与乘车的交汇点，半山腰的休息与补给站。",
+  "description": "中天门在泰山半山腰，是徒步路线与乘车索道路线的交汇处，海拔约八百米。从红门徒步到此约需三小时，天外村乘景区中巴也到这里。这里是登山中途最重要的休息、补给和观景节点，往上是著名的十八盘，最吃力的一段。很多人选择在此分两段爬，或换乘索道到南天门。视野开阔，可远看山势层叠。",
+  "highlights": [
+    "徒步与乘车路线的交汇点",
+    "半山补给与观景节点",
+    "往上是十八盘最吃力段"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.114472,
+      "lat": 36.239086,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "泰安市泰山区泰山中天门",
+    "district": "泰山区",
+    "transportTip": "徒步或景区中巴至中天门；索道换乘点",
+    "entrance": {
+      "lng": 117.128734,
+      "lat": 36.20709,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约06:00-18:00（以景区公告为准）",
+    "openHoursRef": 0,
+    "ticket": "含在泰山门票内",
+    "ticketRef": 0,
+    "duration": "建议 30-90 分钟",
+    "durationMinutes": [
+      30,
+      90
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "solo",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/6513729/pexels-photo-6513729.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6513729/pexels-photo-6513729.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6744,
+      "height": 4499,
+      "alt": "Tranquil landscape showcasing fields and mountains under a cloudy sky in Dali, Yunnan.",
+      "query": "natural landscape China taian",
+      "credit": {
+        "source": "pexels",
+        "author": "Mingsong Zhai",
+        "sourceUrl": "https://www.pexels.com/photo/view-of-fields-6513729/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38585066/pexels-photo-38585066.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38585066/pexels-photo-38585066.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "A serene landscape of mountains reflecting in a calm lake, under a cloudy sky.",
+      "query": "natural landscape China taian",
+      "credit": {
+        "source": "pexels",
+        "author": "Rain Lü",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-mountains-and-lake-reflection-landscape-38585066/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/15865968/pexels-photo-15865968.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/15865968/pexels-photo-15865968.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5922,
+      "height": 3781,
+      "alt": "Breathtaking view of a lush valley with dramatic clouds above and tranquil ponds below.",
+      "query": "natural landscape China taian",
+      "credit": {
+        "source": "pexels",
+        "author": "fei wang",
+        "sourceUrl": "https://www.pexels.com/photo/clouds-over-plains-in-valley-15865968/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "中转站",
+    "索道",
+    "半山"
+  ],
+  "popularity": 90,
+  "sources": [
+    {
+      "title": "百度百科·中天门",
+      "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%A4%A9%E9%97%A8",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "中天门"
+  },
+  "_geocodeTitle": "泰山风景名胜区-中天门",
+  "_geocodeSuspect": false,
+  "district": "370902"
+}

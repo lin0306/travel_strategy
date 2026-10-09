@@ -1,0 +1,104 @@
+{
+  "id": "daweishan",
+  "name": "大围山国家森林公园",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "浏阳东北角的山地公园，七星岭是长沙境内最高的地方。",
+  "description": "大围山在浏阳市东北，与江西交界，主峰七星岭海拔一千六百多米，是长沙境内最高的地方。园区主要看两段：一段是山上的杜鹃，四月底到五月初连片的野生杜鹃沿山脊开，是这里最出名的季节；另一段是峡谷与溪水，栗木桥、船底窝几处有瀑布与深潭，夏天能漂流。山上有玉泉寺、陈真人庙几处旧庙，以及一片高山草甸。园区很大，各景点之间要坐景区车，一天只够走一到两条线。海拔高，山顶比市区低十度左右，夏天上山要带件外套。从长沙市区过去单程三小时上下，住一晚更从容。",
+  "highlights": [
+    "主峰七星岭海拔一千六百多米，是长沙最高点",
+    "四月底到五月初的野生杜鹃沿山脊开",
+    "峡谷段有瀑布与深潭，夏季可漂流"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.117221,
+      "lat": 28.413144,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "湖南省长沙市浏阳市大围山镇（大围山国家森林公园）",
+    "district": "浏阳市",
+    "transportTip": "长沙市区自驾约三小时；或乘班车至浏阳再转大围山专线",
+    "entrance": {
+      "lng": 114.07736,
+      "lat": 28.424028,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:00-17:30（冬季略短），以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "门票与景区车票以官方公告为准（漂流项目另计），以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 180-360 分钟",
+    "durationMinutes": [
+      180,
+      360
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "couple",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Foliage_Dawei_Mountain.jpg/1280px-Foliage_Dawei_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Foliage_Dawei_Mountain.jpg/1280px-Foliage_Dawei_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Foliage Dawei Mountain.jpg",
+      "query": "大围山国家森林公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "no rights reserved",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Foliage_Dawei_Mountain.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Li%E2%80%99s_shrine_in_Dawei_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Li%E2%80%99s_shrine_in_Dawei_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 607,
+      "alt": "Li’s shrine in Dawei Mountain.jpg",
+      "query": "大围山国家森林公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Allervous",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Li%E2%80%99s_shrine_in_Dawei_Mountain.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "杜鹃",
+    "登山",
+    "漂流"
+  ],
+  "popularity": 82,
+  "sources": [
+    {
+      "title": "百度百科·大围山",
+      "url": "https://baike.baidu.com/item/%E5%A4%A7%E5%9B%B4%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-28"
+    }
+  ],
+  "updatedAt": "2026-09-28",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "大围山国家森林公园"
+  },
+  "_geocodeTitle": "大围山国家森林公园",
+  "_geocodeSuspect": false,
+  "district": "430181"
+}

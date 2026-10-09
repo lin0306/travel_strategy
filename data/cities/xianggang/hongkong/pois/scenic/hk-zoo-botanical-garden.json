@@ -1,0 +1,119 @@
+{
+  "id": "hk-zoo-botanical-garden",
+  "name": "香港动植物公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "中环山坡上的老公园：1864 年开放，上苑养着红鹳与猩猩，下苑是花园。",
+  "description": "这座公园在中环红棉路一侧的山坡上，1864 年开放，是香港最早的一座公园。它分上下两部分：上苑是动物园，养着红鹳、婆罗洲猩猩与一批猿猴；下苑是植物园与喷水池平台。园内保留着 1860 年代的旧石阶与一座纪念亭，纪念的是当年在公园原址的一处建筑。树多是它最大的特点——百年以上的老树在园内到处都是。这里也是本地人午间走动的地方。它紧邻中环的写字楼区，从地铁出来往上走几分钟就到。",
+  "highlights": [
+    "1864 年开放，香港最早的一座公园",
+    "上苑养有红鹳与婆罗洲猩猩",
+    "园内百年以上老树多，紧邻中环"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.160716,
+      "lat": 22.275122,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "香港岛中西区红棉路19号（香港动植物公园）",
+    "district": "中西区",
+    "transportTip": "港铁金钟站/中环站步行约10分钟",
+    "entrance": {
+      "lng": 114.160996,
+      "lat": 22.275931,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约06:00-19:00，动物区时间另有安排（以官方公告为准）",
+    "openHoursRef": 0,
+    "ticket": "免费（以官方公告为准）",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "elders",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Hong_Kong_Zoological_and_Botanical_Garden.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Hong_Kong_Zoological_and_Botanical_Garden.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1920,
+      "alt": "Hong Kong Zoological and Botanical Garden.JPG",
+      "query": "香港动植物公园 香港",
+      "credit": {
+        "source": "wikimedia",
+        "author": "文子言木",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Zoological_and_Botanical_Garden.JPG",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Hong_Kong_Zoological_and_Botanical_Gardens_01.jpg/1280px-Hong_Kong_Zoological_and_Botanical_Gardens_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Hong_Kong_Zoological_and_Botanical_Gardens_01.jpg/1280px-Hong_Kong_Zoological_and_Botanical_Gardens_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Hong Kong Zoological and Botanical Gardens 01.jpg",
+      "query": "香港动植物公园 香港",
+      "credit": {
+        "source": "wikimedia",
+        "author": "RG72",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Zoological_and_Botanical_Gardens_01.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Hong_Kong_Zoological_and_Botanical_Gardens_02.jpg/1280px-Hong_Kong_Zoological_and_Botanical_Gardens_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Hong_Kong_Zoological_and_Botanical_Gardens_02.jpg/1280px-Hong_Kong_Zoological_and_Botanical_Gardens_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Hong Kong Zoological and Botanical Gardens 02.jpg",
+      "query": "香港动植物公园 香港",
+      "credit": {
+        "source": "wikimedia",
+        "author": "RG72",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Zoological_and_Botanical_Gardens_02.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "公园",
+    "免费",
+    "动物园"
+  ],
+  "popularity": 62,
+  "sources": [
+    {
+      "title": "百度百科·香港动植物公园",
+      "url": "https://baike.baidu.com/item/%E9%A6%99%E6%B8%AF%E5%8A%A8%E6%A4%8D%E7%89%A9%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-24"
+    }
+  ],
+  "updatedAt": "2026-09-24",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "香港动植物公园"
+  },
+  "_geocodeTitle": "香港动植物公园",
+  "_geocodeSuspect": false,
+  "district": "811100"
+}

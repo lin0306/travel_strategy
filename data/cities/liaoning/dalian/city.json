@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "dalian",
+  "name": "大连",
+  "province": "辽宁",
+  "adcode": "210200",
+  "provinceAdcode": "210000",
+  "tagline": "浪漫之都，有海有轨电车",
+  "intro": "大连在辽东半岛最南端，三面临黄海渤海。它清末才开埠，后来被俄国和日本占过，所以城里到处是俄式日式的老楼、广场、有轨电车。一面是海：星海、付家庄、棒棰岛、金石滩；一面是城：中山广场一圈老建筑，电动老电车叮当开。吃的是海鲜那一套：海胆、焖子、咸鱼饼子、鲅鱼饺子。夏天的大连凉快，是东北人避暑的海。建议安排三天：市区滨海路与老广场两天，旅顺或金石滩一天。海鲜与有轨电车，是这座城最鲜明的两张名片，慢走才能体会。",
+  "center": {
+    "lng": 121.6148,
+    "lat": 38.914,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    121.0936,
+    38.7245,
+    123.52,
+    40.2041
+  ],
+  "defaultZoom": 9,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/38707930/pexels-photo-38707930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38707930/pexels-photo-38707930.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8256,
+      "height": 4951,
+      "alt": "View of Harbin's Central Avenue with classic and modern buildings.",
+      "query": "大连 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "sanynjez gao",
+        "sourceUrl": "https://www.pexels.com/photo/central-avenue-architecture-in-harbin-38707930/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33921377/pexels-photo-33921377.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33921377/pexels-photo-33921377.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3833,
+      "height": 5021,
+      "alt": "View of Nanjing's skyline featuring Zifeng Tower, framed by lush green trees.",
+      "query": "大连 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/nanjing-skyline-with-zifeng-tower-in-the-distance-33921377/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/21337901/pexels-photo-21337901.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/21337901/pexels-photo-21337901.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "A breathtaking cityscape view with skyscrapers and nature foreground, showcasing urban sprawl.",
+      "query": "大连 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Chaos Tyrone",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-a-city-21337901/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "六到九月避暑最佳，海水最暖；五月樱花与十月秋色也不错",
+    "suggestedDays": "三天。市区滨海路与广场两天，旅顺或金石滩一天",
+    "transitTip": "周水子机场与大连站连通；市内有轨电车与地铁覆盖；去旅顺金石滩有轻轨与公交",
+    "climateTip": "温带海洋性气候，夏无酷暑冬无严寒但风大，海边温差明显，带防风外套"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-01"
+  },
+  "updatedAt": "2026-10-01"
+}

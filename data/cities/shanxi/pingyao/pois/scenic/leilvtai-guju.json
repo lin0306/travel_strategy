@@ -1,0 +1,83 @@
+{
+  "id": "leilvtai-guju",
+  "name": "雷履泰故居",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "日升昌创始人的旧宅，晋商大佬的家就在城西南。",
+  "description": "雷履泰故居在古城西南照壁南街，是日升昌创始人雷履泰住的地方。他把一家颜料庄变成了中国第一家票号，是晋商里最被反复说起的人物之一。故居是一处前后两进的四合院，砖墙方正，门楼不张扬。正房里的陈设照当年的样子摆着，书房单独一间，窗外就是自家的小院。展板讲他从学徒到掌柜的经历。有意思的是这房子本身并不奢侈，与票号里的气派形成对照。从这里往北走就是明清街，把生意与生活连成一条线。",
+  "highlights": [
+    "日升昌创始人故居",
+    "两进四合院格局朴素",
+    "生活与生意可对照着看"
+  ],
+  "location": {
+    "point": {
+      "lng": 112.182648,
+      "lat": 37.19872,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "晋中市平遥县照壁南街58号平遥古城内",
+    "district": "平遥",
+    "transportTip": "古城内步行可达，古城西南部"
+  },
+  "practical": {
+    "openHours": "约 08:00-18:00（季节调整）",
+    "openHoursRef": 0,
+    "ticket": "含在古城通票内，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 40-80 分钟",
+    "durationMinutes": [
+      40,
+      80
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "elders",
+    "solo",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Roof_architecture_in_Pingyao.JPG/1280px-Roof_architecture_in_Pingyao.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Roof_architecture_in_Pingyao.JPG/1280px-Roof_architecture_in_Pingyao.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Roof architecture in Pingyao.JPG",
+      "query": "Chinese historic architecture pingyao",
+      "credit": {
+        "source": "wikimedia",
+        "author": "IceUnshattered",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roof_architecture_in_Pingyao.JPG",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "故居",
+    "晋商",
+    "四合院"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "百度百科·雷履泰",
+      "url": "https://baike.baidu.com/item/%E9%9B%B7%E5%B1%A5%E6%B3%B0",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-06"
+    }
+  ],
+  "updatedAt": "2026-10-06",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "雷履泰故居"
+  },
+  "_geocodeTitle": "雷履泰故居",
+  "_geocodeSuspect": false,
+  "district": "140728"
+}

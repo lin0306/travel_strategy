@@ -1,0 +1,118 @@
+{
+  "id": "mulan-grassland",
+  "name": "木兰草原",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "黄陂远郊的一片草场，骑马与户外是这里的全部内容。",
+  "description": "木兰草原在黄陂北部，属于木兰生态旅游区的一片。它做的是草场主题：大片的草坡、跑马场、滑草、星空营地这一类。它的逻辑与市区那些历史点位完全不同，是一个带孩子或一群人出来消耗一整天的地方。周末有时候有演出。它在黄陂，从市区过去一个多小时，要当作一天来安排。天气影响很大，下雨天不要来。",
+  "highlights": [
+    "草场与骑马的主题，适合带孩子",
+    "与市区的历史线路完全不同",
+    "远郊，要当一天安排"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.459851,
+      "lat": 30.960623,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "武汉市黄陂区王家河街道（木兰草原）",
+    "district": "黄陂区",
+    "transportTip": "市区乘292路至黄陂后换乘旅游专线；建议自驾",
+    "entrance": {
+      "lng": 114.461596,
+      "lat": 30.953668,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:30-17:30，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "约80元起（含部分项目），以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 180-360 分钟",
+    "durationMinutes": [
+      180,
+      360
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/7494211/pexels-photo-7494211.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7494211/pexels-photo-7494211.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3264,
+      "height": 4912,
+      "alt": "Tranquil riverside scenery with lush greenery and clear blue sky in Wuhan, China.",
+      "query": "natural landscape China wuhan",
+      "credit": {
+        "source": "pexels",
+        "author": "Leon Huang",
+        "sourceUrl": "https://www.pexels.com/photo/a-shore-under-a-blue-sky-7494211/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7494208/pexels-photo-7494208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7494208/pexels-photo-7494208.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4912,
+      "height": 3264,
+      "alt": "Beautiful scenic view of Wuhan's East Lake with lush green trees and aquatic plants under a clear blue sky.",
+      "query": "natural landscape China wuhan",
+      "credit": {
+        "source": "pexels",
+        "author": "Leon Huang",
+        "sourceUrl": "https://www.pexels.com/photo/a-shore-under-a-blue-sky-7494208/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/2310907/pexels-photo-2310907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/2310907/pexels-photo-2310907.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7467,
+      "height": 4980,
+      "alt": "A tranquil winter scene at a frozen lake in Wuhan, China, showcasing snowy reeds and distant trees.",
+      "query": "natural landscape China wuhan",
+      "credit": {
+        "source": "pexels",
+        "author": "jiawei cui",
+        "sourceUrl": "https://www.pexels.com/photo/field-covered-with-snow-under-white-and-gray-skies-2310907/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "草原",
+    "骑马",
+    "远郊"
+  ],
+  "popularity": 56,
+  "sources": [
+    {
+      "title": "百度百科·木兰草原",
+      "url": "https://baike.baidu.com/item/%E6%9C%A8%E5%85%B0%E8%8D%89%E5%8E%9F",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-23"
+    }
+  ],
+  "updatedAt": "2026-09-23",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "木兰草原"
+  },
+  "_geocodeTitle": "木兰草原",
+  "_geocodeSuspect": false,
+  "district": "420116"
+}

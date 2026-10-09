@@ -1,0 +1,6297 @@
+{
+  "version": "20261005",
+  "generatedAt": "2026-10-05",
+  "provinces": [
+    {
+      "adcode": "110000",
+      "name": "北京",
+      "fullname": "北京市",
+      "center": {
+        "lng": 116.4194,
+        "lat": 40.1869
+      },
+      "children": [
+        {
+          "adcode": "110101",
+          "name": "东城",
+          "center": {
+            "lng": 116.4163,
+            "lat": 39.9284
+          },
+          "cityId": null,
+          "poiCount": 28,
+          "level": "district"
+        },
+        {
+          "adcode": "110102",
+          "name": "西城",
+          "center": {
+            "lng": 116.3658,
+            "lat": 39.9126
+          },
+          "cityId": null,
+          "poiCount": 9,
+          "level": "district"
+        },
+        {
+          "adcode": "110105",
+          "name": "朝阳",
+          "center": {
+            "lng": 116.4431,
+            "lat": 39.9214
+          },
+          "cityId": null,
+          "poiCount": 7,
+          "level": "district"
+        },
+        {
+          "adcode": "110106",
+          "name": "丰台",
+          "center": {
+            "lng": 116.2867,
+            "lat": 39.8585
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "110107",
+          "name": "石景山",
+          "center": {
+            "lng": 116.223,
+            "lat": 39.9063
+          },
+          "cityId": null,
+          "poiCount": 2,
+          "level": "district"
+        },
+        {
+          "adcode": "110108",
+          "name": "海淀",
+          "center": {
+            "lng": 116.2977,
+            "lat": 39.9599
+          },
+          "cityId": null,
+          "poiCount": 4,
+          "level": "district"
+        },
+        {
+          "adcode": "110109",
+          "name": "门头沟",
+          "center": {
+            "lng": 116.1017,
+            "lat": 39.9408
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "110111",
+          "name": "房山",
+          "center": {
+            "lng": 116.1434,
+            "lat": 39.7489
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "110112",
+          "name": "通州",
+          "center": {
+            "lng": 116.7292,
+            "lat": 39.9164
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "110113",
+          "name": "顺义",
+          "center": {
+            "lng": 116.6615,
+            "lat": 40.1499
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "110114",
+          "name": "昌平",
+          "center": {
+            "lng": 116.231,
+            "lat": 40.221
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "110115",
+          "name": "大兴",
+          "center": {
+            "lng": 116.3415,
+            "lat": 39.7269
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "110116",
+          "name": "怀柔",
+          "center": {
+            "lng": 116.632,
+            "lat": 40.317
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "110117",
+          "name": "平谷",
+          "center": {
+            "lng": 117.1216,
+            "lat": 40.1408
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "110118",
+          "name": "密云",
+          "center": {
+            "lng": 116.8434,
+            "lat": 40.3771
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "110119",
+          "name": "延庆",
+          "center": {
+            "lng": 115.9746,
+            "lat": 40.457
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "110000",
+          "name": "北京",
+          "cityId": "beijing",
+          "poiCount": 0,
+          "level": "district",
+          "center": {
+            "lng": 116.4194,
+            "lat": 40.1869
+          }
+        }
+      ],
+      "poiCount": 114,
+      "cityCount": 2,
+      "childCount": 16,
+      "isCity": true,
+      "cityId": "beijing",
+      "level": "province"
+    },
+    {
+      "adcode": "120000",
+      "name": "天津",
+      "fullname": "天津市",
+      "center": {
+        "lng": 117.3464,
+        "lat": 39.2845
+      },
+      "children": [
+        {
+          "adcode": "120101",
+          "name": "和平",
+          "center": {
+            "lng": 117.2147,
+            "lat": 39.1169
+          },
+          "cityId": null,
+          "poiCount": 19,
+          "level": "district"
+        },
+        {
+          "adcode": "120102",
+          "name": "河东",
+          "center": {
+            "lng": 117.2514,
+            "lat": 39.1285
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "120103",
+          "name": "河西",
+          "center": {
+            "lng": 117.2234,
+            "lat": 39.1097
+          },
+          "cityId": null,
+          "poiCount": 6,
+          "level": "district"
+        },
+        {
+          "adcode": "120104",
+          "name": "南开",
+          "center": {
+            "lng": 117.1506,
+            "lat": 39.1386
+          },
+          "cityId": null,
+          "poiCount": 16,
+          "level": "district"
+        },
+        {
+          "adcode": "120105",
+          "name": "河北",
+          "center": {
+            "lng": 117.1969,
+            "lat": 39.148
+          },
+          "cityId": null,
+          "poiCount": 5,
+          "level": "district"
+        },
+        {
+          "adcode": "120106",
+          "name": "红桥",
+          "center": {
+            "lng": 117.1516,
+            "lat": 39.1673
+          },
+          "cityId": null,
+          "poiCount": 2,
+          "level": "district"
+        },
+        {
+          "adcode": "120110",
+          "name": "东丽",
+          "center": {
+            "lng": 117.3136,
+            "lat": 39.0868
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "120111",
+          "name": "西青",
+          "center": {
+            "lng": 117.009,
+            "lat": 39.1418
+          },
+          "cityId": null,
+          "poiCount": 3,
+          "level": "district"
+        },
+        {
+          "adcode": "120112",
+          "name": "津南",
+          "center": {
+            "lng": 117.3567,
+            "lat": 38.937
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "120113",
+          "name": "北辰",
+          "center": {
+            "lng": 117.1356,
+            "lat": 39.2246
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "120114",
+          "name": "武清",
+          "center": {
+            "lng": 117.0446,
+            "lat": 39.3841
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "120115",
+          "name": "宝坻",
+          "center": {
+            "lng": 117.3097,
+            "lat": 39.7171
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "120116",
+          "name": "滨海",
+          "center": {
+            "lng": 117.6964,
+            "lat": 39.0178
+          },
+          "cityId": null,
+          "poiCount": 2,
+          "level": "district"
+        },
+        {
+          "adcode": "120117",
+          "name": "宁河",
+          "center": {
+            "lng": 117.8267,
+            "lat": 39.3297
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "120118",
+          "name": "静海",
+          "center": {
+            "lng": 116.9755,
+            "lat": 38.9478
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "120119",
+          "name": "蓟州",
+          "center": {
+            "lng": 117.4084,
+            "lat": 40.0465
+          },
+          "cityId": null,
+          "poiCount": 3,
+          "level": "district"
+        },
+        {
+          "adcode": "120000",
+          "name": "天津",
+          "cityId": "tianjin",
+          "poiCount": 0,
+          "level": "district",
+          "center": {
+            "lng": 117.3464,
+            "lat": 39.2845
+          }
+        }
+      ],
+      "poiCount": 114,
+      "cityCount": 2,
+      "childCount": 16,
+      "isCity": true,
+      "cityId": "tianjin",
+      "level": "province"
+    },
+    {
+      "adcode": "130000",
+      "name": "河北",
+      "fullname": "河北省",
+      "center": {
+        "lng": 115.376,
+        "lat": 38.4114
+      },
+      "children": [
+        {
+          "adcode": "130100",
+          "name": "石家庄",
+          "center": {
+            "lng": 114.4458,
+            "lat": 38.1312
+          },
+          "cityId": "shijiazhuang",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "130200",
+          "name": "唐山",
+          "center": {
+            "lng": 118.3441,
+            "lat": 39.7142
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "130300",
+          "name": "秦皇岛",
+          "center": {
+            "lng": 119.2204,
+            "lat": 40.0189
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "130400",
+          "name": "邯郸",
+          "center": {
+            "lng": 114.4745,
+            "lat": 36.5316
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "130500",
+          "name": "邢台",
+          "center": {
+            "lng": 114.806,
+            "lat": 37.2825
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "130600",
+          "name": "保定",
+          "center": {
+            "lng": 115.1772,
+            "lat": 39.0223
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "130700",
+          "name": "张家口",
+          "center": {
+            "lng": 115.0383,
+            "lat": 40.8663
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "130800",
+          "name": "承德",
+          "center": {
+            "lng": 117.5534,
+            "lat": 41.349
+          },
+          "cityId": "chengde",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "130900",
+          "name": "沧州",
+          "center": {
+            "lng": 116.8316,
+            "lat": 38.2109
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "131000",
+          "name": "廊坊",
+          "center": {
+            "lng": 116.6343,
+            "lat": 39.2604
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "131100",
+          "name": "衡水",
+          "center": {
+            "lng": 115.829,
+            "lat": 37.7633
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "133100",
+          "name": "雄安",
+          "center": {
+            "lng": 115.9134,
+            "lat": 39.0486
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        }
+      ],
+      "poiCount": 114,
+      "cityCount": 2,
+      "childCount": 12,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "140000",
+      "name": "山西",
+      "fullname": "山西省",
+      "center": {
+        "lng": 112.2953,
+        "lat": 37.5722
+      },
+      "children": [
+        {
+          "adcode": "140100",
+          "name": "太原",
+          "center": {
+            "lng": 112.3363,
+            "lat": 37.9401
+          },
+          "cityId": "taiyuan",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "140200",
+          "name": "大同",
+          "center": {
+            "lng": 113.7262,
+            "lat": 39.9011
+          },
+          "cityId": "datong",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "140300",
+          "name": "阳泉",
+          "center": {
+            "lng": 113.5057,
+            "lat": 38.0638
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "140400",
+          "name": "长治",
+          "center": {
+            "lng": 112.9219,
+            "lat": 36.4761
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "140500",
+          "name": "晋城",
+          "center": {
+            "lng": 112.713,
+            "lat": 35.6102
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "140600",
+          "name": "朔州",
+          "center": {
+            "lng": 112.6485,
+            "lat": 39.6179
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "140700",
+          "name": "晋中",
+          "center": {
+            "lng": 112.9684,
+            "lat": 37.3271
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "140800",
+          "name": "运城",
+          "center": {
+            "lng": 111.0701,
+            "lat": 35.1866
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "140900",
+          "name": "忻州",
+          "center": {
+            "lng": 112.4149,
+            "lat": 38.8829
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "141000",
+          "name": "临汾",
+          "center": {
+            "lng": 111.3826,
+            "lat": 36.2269
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "141100",
+          "name": "吕梁",
+          "center": {
+            "lng": 111.2687,
+            "lat": 37.6792
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "140728",
+          "name": "平遥",
+          "cityId": "pingyao",
+          "poiCount": 57,
+          "level": "city",
+          "center": {
+            "lng": 112.175825,
+            "lat": 37.189614,
+            "coordSystem": "GCJ-02"
+          }
+        }
+      ],
+      "poiCount": 171,
+      "cityCount": 3,
+      "childCount": 11,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "150000",
+      "name": "内蒙古",
+      "fullname": "内蒙古自治区",
+      "center": {
+        "lng": 113.9136,
+        "lat": 44.0818
+      },
+      "children": [
+        {
+          "adcode": "150100",
+          "name": "呼和浩特",
+          "center": {
+            "lng": 111.5045,
+            "lat": 40.5927
+          },
+          "cityId": "huhehaote",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "150200",
+          "name": "包头",
+          "center": {
+            "lng": 110.2667,
+            "lat": 41.5508
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "150300",
+          "name": "乌海",
+          "center": {
+            "lng": 106.8745,
+            "lat": 39.426
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "150400",
+          "name": "赤峰",
+          "center": {
+            "lng": 118.877,
+            "lat": 43.2223
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "150500",
+          "name": "通辽",
+          "center": {
+            "lng": 121.576,
+            "lat": 43.8178
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "150600",
+          "name": "鄂尔多斯",
+          "center": {
+            "lng": 108.6339,
+            "lat": 39.4128
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "150700",
+          "name": "呼伦贝尔",
+          "center": {
+            "lng": 121.1876,
+            "lat": 49.6595
+          },
+          "cityId": "hulunbeier",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "150800",
+          "name": "巴彦淖尔",
+          "center": {
+            "lng": 107.5748,
+            "lat": 41.4472
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "150900",
+          "name": "乌兰察布",
+          "center": {
+            "lng": 112.4498,
+            "lat": 41.6842
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "152200",
+          "name": "兴安",
+          "center": {
+            "lng": 121.3428,
+            "lat": 46.2272
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "152500",
+          "name": "锡林郭勒",
+          "center": {
+            "lng": 115.5678,
+            "lat": 44.1732
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "152900",
+          "name": "阿拉善",
+          "center": {
+            "lng": 102.4518,
+            "lat": 40.4981
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        }
+      ],
+      "poiCount": 114,
+      "cityCount": 2,
+      "childCount": 12,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "210000",
+      "name": "辽宁",
+      "fullname": "辽宁省",
+      "center": {
+        "lng": 122.6007,
+        "lat": 41.2806
+      },
+      "children": [
+        {
+          "adcode": "210100",
+          "name": "沈阳",
+          "center": {
+            "lng": 123.1181,
+            "lat": 42.1212
+          },
+          "cityId": "shenyang",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "210200",
+          "name": "大连",
+          "center": {
+            "lng": 122.1893,
+            "lat": 39.5911
+          },
+          "cityId": "dalian",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "210300",
+          "name": "鞍山",
+          "center": {
+            "lng": 122.9809,
+            "lat": 40.7853
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "210400",
+          "name": "抚顺",
+          "center": {
+            "lng": 124.662,
+            "lat": 41.8361
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "210500",
+          "name": "本溪",
+          "center": {
+            "lng": 124.6869,
+            "lat": 41.1919
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "210600",
+          "name": "丹东",
+          "center": {
+            "lng": 124.4033,
+            "lat": 40.5419
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "210700",
+          "name": "锦州",
+          "center": {
+            "lng": 121.6166,
+            "lat": 41.4585
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "210800",
+          "name": "营口",
+          "center": {
+            "lng": 122.4676,
+            "lat": 40.4304
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "210900",
+          "name": "阜新",
+          "center": {
+            "lng": 122.0011,
+            "lat": 42.2682
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "211000",
+          "name": "辽阳",
+          "center": {
+            "lng": 123.2513,
+            "lat": 41.1838
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "211100",
+          "name": "盘锦",
+          "center": {
+            "lng": 122.0176,
+            "lat": 41.0541
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "211200",
+          "name": "铁岭",
+          "center": {
+            "lng": 124.1767,
+            "lat": 42.6462
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "211300",
+          "name": "朝阳",
+          "center": {
+            "lng": 120.0737,
+            "lat": 41.4926
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "211400",
+          "name": "葫芦岛",
+          "center": {
+            "lng": 120.1311,
+            "lat": 40.5953
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        }
+      ],
+      "poiCount": 114,
+      "cityCount": 2,
+      "childCount": 14,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "220000",
+      "name": "吉林",
+      "fullname": "吉林省",
+      "center": {
+        "lng": 126.195,
+        "lat": 43.6701
+      },
+      "children": [
+        {
+          "adcode": "220100",
+          "name": "长春",
+          "center": {
+            "lng": 125.5902,
+            "lat": 44.2854
+          },
+          "cityId": "changchun",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "220200",
+          "name": "吉林",
+          "center": {
+            "lng": 126.8493,
+            "lat": 43.5818
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "220300",
+          "name": "四平",
+          "center": {
+            "lng": 124.3904,
+            "lat": 43.4859
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "220400",
+          "name": "辽源",
+          "center": {
+            "lng": 125.3115,
+            "lat": 42.8133
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "220500",
+          "name": "通化",
+          "center": {
+            "lng": 125.9551,
+            "lat": 41.9583
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "220600",
+          "name": "白山",
+          "center": {
+            "lng": 127.2911,
+            "lat": 42.0719
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "220700",
+          "name": "松原",
+          "center": {
+            "lng": 124.483,
+            "lat": 44.803
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "220800",
+          "name": "白城",
+          "center": {
+            "lng": 123.009,
+            "lat": 45.2683
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "222400",
+          "name": "延边",
+          "center": {
+            "lng": 129.1303,
+            "lat": 43.1443
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        }
+      ],
+      "poiCount": 57,
+      "cityCount": 1,
+      "childCount": 9,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "230000",
+      "name": "黑龙江",
+      "fullname": "黑龙江省",
+      "center": {
+        "lng": 127.7741,
+        "lat": 47.8639
+      },
+      "children": [
+        {
+          "adcode": "230100",
+          "name": "哈尔滨",
+          "center": {
+            "lng": 127.9645,
+            "lat": 45.6394
+          },
+          "cityId": "harbin",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "230200",
+          "name": "齐齐哈尔",
+          "center": {
+            "lng": 124.5518,
+            "lat": 47.7016
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "230300",
+          "name": "鸡西",
+          "center": {
+            "lng": 132.2932,
+            "lat": 45.6311
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "230400",
+          "name": "鹤岗",
+          "center": {
+            "lng": 130.8083,
+            "lat": 47.6421
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "230500",
+          "name": "双鸭山",
+          "center": {
+            "lng": 132.5017,
+            "lat": 46.6827
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "230600",
+          "name": "大庆",
+          "center": {
+            "lng": 124.7065,
+            "lat": 46.3487
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "230700",
+          "name": "伊春",
+          "center": {
+            "lng": 129.2196,
+            "lat": 47.8149
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "230800",
+          "name": "佳木斯",
+          "center": {
+            "lng": 132.2984,
+            "lat": 47.2025
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "230900",
+          "name": "七台河",
+          "center": {
+            "lng": 130.9808,
+            "lat": 45.9135
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "231000",
+          "name": "牡丹江",
+          "center": {
+            "lng": 129.7709,
+            "lat": 44.7067
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "231100",
+          "name": "黑河",
+          "center": {
+            "lng": 126.9936,
+            "lat": 49.265
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "231200",
+          "name": "绥化",
+          "center": {
+            "lng": 126.6523,
+            "lat": 46.8958
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "232700",
+          "name": "大兴安岭",
+          "center": {
+            "lng": 124.2093,
+            "lat": 52.2897
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        }
+      ],
+      "poiCount": 57,
+      "cityCount": 1,
+      "childCount": 13,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "310000",
+      "name": "上海",
+      "fullname": "上海市",
+      "center": {
+        "lng": 121.4852,
+        "lat": 31.2097
+      },
+      "children": [
+        {
+          "adcode": "310101",
+          "name": "黄浦",
+          "center": {
+            "lng": 121.4844,
+            "lat": 31.2317
+          },
+          "cityId": null,
+          "poiCount": 17,
+          "level": "district"
+        },
+        {
+          "adcode": "310104",
+          "name": "徐汇",
+          "center": {
+            "lng": 121.4363,
+            "lat": 31.1883
+          },
+          "cityId": null,
+          "poiCount": 9,
+          "level": "district"
+        },
+        {
+          "adcode": "310105",
+          "name": "长宁",
+          "center": {
+            "lng": 121.4247,
+            "lat": 31.2206
+          },
+          "cityId": null,
+          "poiCount": 2,
+          "level": "district"
+        },
+        {
+          "adcode": "310106",
+          "name": "静安",
+          "center": {
+            "lng": 121.4473,
+            "lat": 31.2277
+          },
+          "cityId": null,
+          "poiCount": 6,
+          "level": "district"
+        },
+        {
+          "adcode": "310107",
+          "name": "普陀",
+          "center": {
+            "lng": 121.3955,
+            "lat": 31.2496
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "310109",
+          "name": "虹口",
+          "center": {
+            "lng": 121.505,
+            "lat": 31.2649
+          },
+          "cityId": null,
+          "poiCount": 4,
+          "level": "district"
+        },
+        {
+          "adcode": "310110",
+          "name": "杨浦",
+          "center": {
+            "lng": 121.5254,
+            "lat": 31.2596
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "310112",
+          "name": "闵行",
+          "center": {
+            "lng": 121.3809,
+            "lat": 31.1128
+          },
+          "cityId": null,
+          "poiCount": 2,
+          "level": "district"
+        },
+        {
+          "adcode": "310113",
+          "name": "宝山",
+          "center": {
+            "lng": 121.4894,
+            "lat": 31.4052
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "310114",
+          "name": "嘉定",
+          "center": {
+            "lng": 121.2653,
+            "lat": 31.3756
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "310115",
+          "name": "浦东",
+          "center": {
+            "lng": 121.5443,
+            "lat": 31.2215
+          },
+          "cityId": null,
+          "poiCount": 10,
+          "level": "district"
+        },
+        {
+          "adcode": "310116",
+          "name": "金山",
+          "center": {
+            "lng": 121.3418,
+            "lat": 30.7428
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "310117",
+          "name": "松江",
+          "center": {
+            "lng": 121.2277,
+            "lat": 31.0326
+          },
+          "cityId": null,
+          "poiCount": 2,
+          "level": "district"
+        },
+        {
+          "adcode": "310118",
+          "name": "青浦",
+          "center": {
+            "lng": 121.1242,
+            "lat": 31.151
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "310120",
+          "name": "奉贤",
+          "center": {
+            "lng": 121.4739,
+            "lat": 30.9184
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "310151",
+          "name": "崇明",
+          "center": {
+            "lng": 121.3977,
+            "lat": 31.6239
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "310000",
+          "name": "上海",
+          "cityId": "shanghai",
+          "poiCount": 0,
+          "level": "district",
+          "center": {
+            "lng": 121.4852,
+            "lat": 31.2097
+          }
+        }
+      ],
+      "poiCount": 114,
+      "cityCount": 2,
+      "childCount": 16,
+      "isCity": true,
+      "cityId": "shanghai",
+      "level": "province"
+    },
+    {
+      "adcode": "320000",
+      "name": "江苏",
+      "fullname": "江苏省",
+      "center": {
+        "lng": 119.4934,
+        "lat": 32.9653
+      },
+      "children": [
+        {
+          "adcode": "320100",
+          "name": "南京",
+          "center": {
+            "lng": 118.8025,
+            "lat": 31.9212
+          },
+          "cityId": "nanjing",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "320200",
+          "name": "无锡",
+          "center": {
+            "lng": 120.3576,
+            "lat": 31.6307
+          },
+          "cityId": "wuxi",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "320300",
+          "name": "徐州",
+          "center": {
+            "lng": 117.5187,
+            "lat": 34.3429
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "320400",
+          "name": "常州",
+          "center": {
+            "lng": 119.3693,
+            "lat": 31.4766
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "320500",
+          "name": "苏州",
+          "center": {
+            "lng": 120.6605,
+            "lat": 31.3815
+          },
+          "cityId": "suzhou",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "320600",
+          "name": "南通",
+          "center": {
+            "lng": 121.0887,
+            "lat": 32.1641
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "320700",
+          "name": "连云港",
+          "center": {
+            "lng": 119.1142,
+            "lat": 34.5526
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "320800",
+          "name": "淮安",
+          "center": {
+            "lng": 118.9701,
+            "lat": 33.3502
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "320900",
+          "name": "盐城",
+          "center": {
+            "lng": 120.2189,
+            "lat": 33.5266
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "321000",
+          "name": "扬州",
+          "center": {
+            "lng": 119.4796,
+            "lat": 32.7356
+          },
+          "cityId": "yangzhou",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "321100",
+          "name": "镇江",
+          "center": {
+            "lng": 119.4589,
+            "lat": 32.0143
+          },
+          "cityId": "zhenjiang",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "321200",
+          "name": "泰州",
+          "center": {
+            "lng": 120.0615,
+            "lat": 32.5692
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "321300",
+          "name": "宿迁",
+          "center": {
+            "lng": 118.5254,
+            "lat": 33.7827
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        }
+      ],
+      "poiCount": 285,
+      "cityCount": 5,
+      "childCount": 13,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "330000",
+      "name": "浙江",
+      "fullname": "浙江省",
+      "center": {
+        "lng": 120.1086,
+        "lat": 29.1696
+      },
+      "children": [
+        {
+          "adcode": "330100",
+          "name": "杭州",
+          "center": {
+            "lng": 119.475,
+            "lat": 29.8974
+          },
+          "cityId": "hangzhou",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "330200",
+          "name": "宁波",
+          "center": {
+            "lng": 121.4797,
+            "lat": 29.7311
+          },
+          "cityId": "ningbo",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "330300",
+          "name": "温州",
+          "center": {
+            "lng": 120.4632,
+            "lat": 27.893
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "330400",
+          "name": "嘉兴",
+          "center": {
+            "lng": 120.7833,
+            "lat": 30.6196
+          },
+          "cityId": "jiaxing",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "330500",
+          "name": "湖州",
+          "center": {
+            "lng": 119.8632,
+            "lat": 30.7761
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "330600",
+          "name": "绍兴",
+          "center": {
+            "lng": 120.6413,
+            "lat": 29.7321
+          },
+          "cityId": "shaoxing",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "330700",
+          "name": "金华",
+          "center": {
+            "lng": 119.9568,
+            "lat": 29.1148
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "330800",
+          "name": "衢州",
+          "center": {
+            "lng": 118.6869,
+            "lat": 28.8676
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "330900",
+          "name": "舟山",
+          "center": {
+            "lng": 122.07,
+            "lat": 30.0777
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "331000",
+          "name": "台州",
+          "center": {
+            "lng": 121.1367,
+            "lat": 28.756
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "331100",
+          "name": "丽水",
+          "center": {
+            "lng": 119.569,
+            "lat": 28.1836
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "330483",
+          "name": "桐乡",
+          "cityId": "tongxiang",
+          "poiCount": 57,
+          "level": "city",
+          "center": {
+            "lng": 120.565127,
+            "lat": 30.630375,
+            "coordSystem": "GCJ-02"
+          }
+        }
+      ],
+      "poiCount": 285,
+      "cityCount": 5,
+      "childCount": 11,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "340000",
+      "name": "安徽",
+      "fullname": "安徽省",
+      "center": {
+        "lng": 117.2311,
+        "lat": 31.8245
+      },
+      "children": [
+        {
+          "adcode": "340100",
+          "name": "合肥",
+          "center": {
+            "lng": 117.3612,
+            "lat": 31.7609
+          },
+          "cityId": "hefei",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "340200",
+          "name": "芜湖",
+          "center": {
+            "lng": 118.1401,
+            "lat": 31.1603
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "340300",
+          "name": "蚌埠",
+          "center": {
+            "lng": 117.3303,
+            "lat": 33.1074
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "340400",
+          "name": "淮南",
+          "center": {
+            "lng": 116.787,
+            "lat": 32.4541
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "340500",
+          "name": "马鞍山",
+          "center": {
+            "lng": 118.394,
+            "lat": 31.6752
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "340600",
+          "name": "淮北",
+          "center": {
+            "lng": 116.7224,
+            "lat": 33.7651
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "340700",
+          "name": "铜陵",
+          "center": {
+            "lng": 117.5644,
+            "lat": 30.8836
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "340800",
+          "name": "安庆",
+          "center": {
+            "lng": 116.4912,
+            "lat": 30.5734
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "341000",
+          "name": "黄山",
+          "center": {
+            "lng": 118.0757,
+            "lat": 29.904
+          },
+          "cityId": "huangshan",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "341100",
+          "name": "滁州",
+          "center": {
+            "lng": 118.1081,
+            "lat": 32.5422
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "341200",
+          "name": "阜阳",
+          "center": {
+            "lng": 115.7097,
+            "lat": 32.9153
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "341300",
+          "name": "宿州",
+          "center": {
+            "lng": 117.2156,
+            "lat": 33.8579
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "341500",
+          "name": "六安",
+          "center": {
+            "lng": 116.2345,
+            "lat": 31.6571
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "341600",
+          "name": "亳州",
+          "center": {
+            "lng": 116.1859,
+            "lat": 33.4339
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "341700",
+          "name": "池州",
+          "center": {
+            "lng": 117.393,
+            "lat": 30.2031
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "341800",
+          "name": "宣城",
+          "center": {
+            "lng": 118.8569,
+            "lat": 30.6834
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "341023",
+          "name": "黟县",
+          "cityId": "yixian",
+          "poiCount": 57,
+          "level": "city",
+          "center": {
+            "lng": 117.938058,
+            "lat": 29.925077,
+            "coordSystem": "GCJ-02"
+          }
+        },
+        {
+          "adcode": "341021",
+          "name": "歙县",
+          "cityId": "shexian",
+          "poiCount": 57,
+          "level": "city",
+          "center": {
+            "lng": 118.415333,
+            "lat": 29.860977,
+            "coordSystem": "GCJ-02"
+          }
+        }
+      ],
+      "poiCount": 228,
+      "cityCount": 4,
+      "childCount": 16,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "350000",
+      "name": "福建",
+      "fullname": "福建省",
+      "center": {
+        "lng": 118.0036,
+        "lat": 26.0557
+      },
+      "children": [
+        {
+          "adcode": "350100",
+          "name": "福州",
+          "center": {
+            "lng": 119.2006,
+            "lat": 26.0466
+          },
+          "cityId": "fuzhou",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "350200",
+          "name": "厦门",
+          "center": {
+            "lng": 118.1259,
+            "lat": 24.6592
+          },
+          "cityId": "xiamen",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "350300",
+          "name": "莆田",
+          "center": {
+            "lng": 118.904,
+            "lat": 25.4413
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "350400",
+          "name": "三明",
+          "center": {
+            "lng": 117.4005,
+            "lat": 26.2961
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "350500",
+          "name": "泉州",
+          "center": {
+            "lng": 118.2694,
+            "lat": 25.1912
+          },
+          "cityId": "quanzhou",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "350600",
+          "name": "漳州",
+          "center": {
+            "lng": 117.4584,
+            "lat": 24.3292
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "350700",
+          "name": "南平",
+          "center": {
+            "lng": 118.1395,
+            "lat": 27.2782
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "350800",
+          "name": "龙岩",
+          "center": {
+            "lng": 116.7436,
+            "lat": 25.2901
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "350900",
+          "name": "宁德",
+          "center": {
+            "lng": 119.4892,
+            "lat": 26.9704
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "350782",
+          "name": "武夷山",
+          "cityId": "wuyishan",
+          "poiCount": 57,
+          "level": "city",
+          "center": {
+            "lng": 118.035321,
+            "lat": 27.756422,
+            "coordSystem": "GCJ-02"
+          }
+        }
+      ],
+      "poiCount": 228,
+      "cityCount": 4,
+      "childCount": 9,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "360000",
+      "name": "江西",
+      "fullname": "江西省",
+      "center": {
+        "lng": 115.7275,
+        "lat": 27.6118
+      },
+      "children": [
+        {
+          "adcode": "360100",
+          "name": "南昌",
+          "center": {
+            "lng": 116.002,
+            "lat": 28.6401
+          },
+          "cityId": "nanchang",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "360200",
+          "name": "景德镇",
+          "center": {
+            "lng": 117.2753,
+            "lat": 29.3039
+          },
+          "cityId": "jingdezhen",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "360300",
+          "name": "萍乡",
+          "center": {
+            "lng": 113.9077,
+            "lat": 27.5094
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "360400",
+          "name": "九江",
+          "center": {
+            "lng": 115.4211,
+            "lat": 29.3811
+          },
+          "cityId": "jiujiang",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "360500",
+          "name": "新余",
+          "center": {
+            "lng": 114.8577,
+            "lat": 27.8419
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "360600",
+          "name": "鹰潭",
+          "center": {
+            "lng": 117.0811,
+            "lat": 28.236
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "360700",
+          "name": "赣州",
+          "center": {
+            "lng": 115.278,
+            "lat": 25.7057
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "360800",
+          "name": "吉安",
+          "center": {
+            "lng": 114.8298,
+            "lat": 26.9702
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "360900",
+          "name": "宜春",
+          "center": {
+            "lng": 115.0215,
+            "lat": 28.3221
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "361000",
+          "name": "抚州",
+          "center": {
+            "lng": 116.4391,
+            "lat": 27.5069
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "361100",
+          "name": "上饶",
+          "center": {
+            "lng": 117.9147,
+            "lat": 28.4999
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "361130",
+          "name": "婺源",
+          "cityId": "wuyuan",
+          "poiCount": 57,
+          "level": "city",
+          "center": {
+            "lng": 117.861532,
+            "lat": 29.248491,
+            "coordSystem": "GCJ-02"
+          }
+        },
+        {
+          "adcode": "360881",
+          "name": "井冈山",
+          "cityId": "jinggangshan",
+          "poiCount": 57,
+          "level": "city",
+          "center": {
+            "lng": 114.289563,
+            "lat": 26.748132,
+            "coordSystem": "GCJ-02"
+          }
+        },
+        {
+          "adcode": "360483",
+          "name": "庐山",
+          "cityId": "lushan",
+          "poiCount": 57,
+          "level": "city",
+          "center": {
+            "lng": 116.044696,
+            "lat": 29.448007,
+            "coordSystem": "GCJ-02"
+          }
+        }
+      ],
+      "poiCount": 342,
+      "cityCount": 6,
+      "childCount": 11,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "370000",
+      "name": "山东",
+      "fullname": "山东省",
+      "center": {
+        "lng": 118.1809,
+        "lat": 36.3609
+      },
+      "children": [
+        {
+          "adcode": "370100",
+          "name": "济南",
+          "center": {
+            "lng": 117.2216,
+            "lat": 36.6379
+          },
+          "cityId": "jinan",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "370200",
+          "name": "青岛",
+          "center": {
+            "lng": 120.2494,
+            "lat": 36.3622
+          },
+          "cityId": "qingdao",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "370300",
+          "name": "淄博",
+          "center": {
+            "lng": 118.0365,
+            "lat": 36.6035
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "370400",
+          "name": "枣庄",
+          "center": {
+            "lng": 117.3982,
+            "lat": 34.9155
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "370500",
+          "name": "东营",
+          "center": {
+            "lng": 118.6435,
+            "lat": 37.6381
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "370600",
+          "name": "烟台",
+          "center": {
+            "lng": 120.8047,
+            "lat": 37.2406
+          },
+          "cityId": "yantai",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "370700",
+          "name": "潍坊",
+          "center": {
+            "lng": 119.0782,
+            "lat": 36.552
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "370800",
+          "name": "济宁",
+          "center": {
+            "lng": 116.7401,
+            "lat": 35.3716
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "370900",
+          "name": "泰安",
+          "center": {
+            "lng": 117.0239,
+            "lat": 36.0533
+          },
+          "cityId": "taian",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "371000",
+          "name": "威海",
+          "center": {
+            "lng": 121.9467,
+            "lat": 37.1464
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "371100",
+          "name": "日照",
+          "center": {
+            "lng": 119.147,
+            "lat": 35.5776
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "371300",
+          "name": "临沂",
+          "center": {
+            "lng": 118.2863,
+            "lat": 35.3089
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "371400",
+          "name": "德州",
+          "center": {
+            "lng": 116.6527,
+            "lat": 37.2489
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "371500",
+          "name": "聊城",
+          "center": {
+            "lng": 115.8873,
+            "lat": 36.4587
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "371600",
+          "name": "滨州",
+          "center": {
+            "lng": 117.8471,
+            "lat": 37.5401
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "371700",
+          "name": "菏泽",
+          "center": {
+            "lng": 115.6989,
+            "lat": 35.1501
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "370881",
+          "name": "曲阜",
+          "cityId": "qufu",
+          "poiCount": 57,
+          "level": "city",
+          "center": {
+            "lng": 116.986212,
+            "lat": 35.581933,
+            "coordSystem": "GCJ-02"
+          }
+        }
+      ],
+      "poiCount": 285,
+      "cityCount": 5,
+      "childCount": 16,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "410000",
+      "name": "河南",
+      "fullname": "河南省",
+      "center": {
+        "lng": 113.5062,
+        "lat": 33.8745
+      },
+      "children": [
+        {
+          "adcode": "410100",
+          "name": "郑州",
+          "center": {
+            "lng": 113.4893,
+            "lat": 34.6195
+          },
+          "cityId": "zhengzhou",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "410200",
+          "name": "开封",
+          "center": {
+            "lng": 114.5598,
+            "lat": 34.6105
+          },
+          "cityId": "kaifeng",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "410300",
+          "name": "洛阳",
+          "center": {
+            "lng": 112.0371,
+            "lat": 34.2904
+          },
+          "cityId": "luoyang",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "410400",
+          "name": "平顶山",
+          "center": {
+            "lng": 113.0174,
+            "lat": 33.7942
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "410500",
+          "name": "安阳",
+          "center": {
+            "lng": 114.3585,
+            "lat": 35.8768
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "410600",
+          "name": "鹤壁",
+          "center": {
+            "lng": 114.3741,
+            "lat": 35.7478
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "410700",
+          "name": "新乡",
+          "center": {
+            "lng": 114.0944,
+            "lat": 35.2627
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "410800",
+          "name": "焦作",
+          "center": {
+            "lng": 113.1367,
+            "lat": 35.114
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "410900",
+          "name": "濮阳",
+          "center": {
+            "lng": 115.4847,
+            "lat": 35.7726
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "411000",
+          "name": "许昌",
+          "center": {
+            "lng": 113.7152,
+            "lat": 34.0713
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "411100",
+          "name": "漯河",
+          "center": {
+            "lng": 113.9048,
+            "lat": 33.6541
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "411200",
+          "name": "三门峡",
+          "center": {
+            "lng": 110.8524,
+            "lat": 34.3194
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "411300",
+          "name": "南阳",
+          "center": {
+            "lng": 112.2901,
+            "lat": 33.0417
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "411400",
+          "name": "商丘",
+          "center": {
+            "lng": 115.7026,
+            "lat": 34.2875
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "411500",
+          "name": "信阳",
+          "center": {
+            "lng": 114.8896,
+            "lat": 32.0792
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "411600",
+          "name": "周口",
+          "center": {
+            "lng": 114.8722,
+            "lat": 33.6927
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "411700",
+          "name": "驻马店",
+          "center": {
+            "lng": 114.1565,
+            "lat": 32.9214
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "419001",
+          "name": "济源",
+          "center": {
+            "lng": 112.4034,
+            "lat": 35.0868
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "410185",
+          "name": "登封",
+          "cityId": "dengfeng",
+          "poiCount": 57,
+          "level": "city",
+          "center": {
+            "lng": 113.05056,
+            "lat": 34.454877,
+            "coordSystem": "GCJ-02"
+          }
+        }
+      ],
+      "poiCount": 228,
+      "cityCount": 4,
+      "childCount": 18,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "420000",
+      "name": "湖北",
+      "fullname": "湖北省",
+      "center": {
+        "lng": 112.2511,
+        "lat": 31.1518
+      },
+      "children": [
+        {
+          "adcode": "420100",
+          "name": "武汉",
+          "center": {
+            "lng": 114.3932,
+            "lat": 30.6652
+          },
+          "cityId": "wuhan",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "420200",
+          "name": "黄石",
+          "center": {
+            "lng": 115.0301,
+            "lat": 29.9245
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "420300",
+          "name": "十堰",
+          "center": {
+            "lng": 110.5124,
+            "lat": 32.3909
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "420500",
+          "name": "宜昌",
+          "center": {
+            "lng": 111.1407,
+            "lat": 30.745
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "420600",
+          "name": "襄阳",
+          "center": {
+            "lng": 111.9416,
+            "lat": 31.9285
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "420700",
+          "name": "鄂州",
+          "center": {
+            "lng": 114.7596,
+            "lat": 30.3263
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "420800",
+          "name": "荆门",
+          "center": {
+            "lng": 112.6147,
+            "lat": 31.0683
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "420900",
+          "name": "孝感",
+          "center": {
+            "lng": 113.8849,
+            "lat": 31.1161
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "421000",
+          "name": "荆州",
+          "center": {
+            "lng": 112.5751,
+            "lat": 29.9943
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "421100",
+          "name": "黄冈",
+          "center": {
+            "lng": 115.3451,
+            "lat": 30.7137
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "421200",
+          "name": "咸宁",
+          "center": {
+            "lng": 114.2538,
+            "lat": 29.6631
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "421300",
+          "name": "随州",
+          "center": {
+            "lng": 113.4301,
+            "lat": 31.8269
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "422800",
+          "name": "恩施",
+          "center": {
+            "lng": 109.5542,
+            "lat": 30.1889
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "429004",
+          "name": "仙桃",
+          "center": {
+            "lng": 113.3837,
+            "lat": 30.2997
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "429005",
+          "name": "潜江",
+          "center": {
+            "lng": 112.7628,
+            "lat": 30.3357
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "429006",
+          "name": "天门",
+          "center": {
+            "lng": 113.1146,
+            "lat": 30.6423
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "429021",
+          "name": "神农架",
+          "center": {
+            "lng": 110.4616,
+            "lat": 31.5779
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "420381",
+          "name": "丹江口",
+          "cityId": "danjiangkou",
+          "poiCount": 57,
+          "level": "city",
+          "center": {
+            "lng": 111.513318,
+            "lat": 32.540287,
+            "coordSystem": "GCJ-02"
+          }
+        }
+      ],
+      "poiCount": 114,
+      "cityCount": 2,
+      "childCount": 17,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "430000",
+      "name": "湖南",
+      "fullname": "湖南省",
+      "center": {
+        "lng": 111.7142,
+        "lat": 27.6064
+      },
+      "children": [
+        {
+          "adcode": "430100",
+          "name": "长沙",
+          "center": {
+            "lng": 113.0788,
+            "lat": 28.2549
+          },
+          "cityId": "changsha",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "430200",
+          "name": "株洲",
+          "center": {
+            "lng": 113.5228,
+            "lat": 27.1155
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "430300",
+          "name": "湘潭",
+          "center": {
+            "lng": 112.5453,
+            "lat": 27.7057
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "430400",
+          "name": "衡阳",
+          "center": {
+            "lng": 112.5799,
+            "lat": 26.7909
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "430500",
+          "name": "邵阳",
+          "center": {
+            "lng": 110.8798,
+            "lat": 26.9102
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "430600",
+          "name": "岳阳",
+          "center": {
+            "lng": 113.2602,
+            "lat": 29.0631
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "430700",
+          "name": "常德",
+          "center": {
+            "lng": 111.5251,
+            "lat": 29.297
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "430800",
+          "name": "张家界",
+          "center": {
+            "lng": 110.5194,
+            "lat": 29.3319
+          },
+          "cityId": "zhangjiajie",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "430900",
+          "name": "益阳",
+          "center": {
+            "lng": 111.957,
+            "lat": 28.5721
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "431000",
+          "name": "郴州",
+          "center": {
+            "lng": 113.2337,
+            "lat": 25.864
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "431100",
+          "name": "永州",
+          "center": {
+            "lng": 111.7346,
+            "lat": 25.7703
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "431200",
+          "name": "怀化",
+          "center": {
+            "lng": 109.953,
+            "lat": 27.4508
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "431300",
+          "name": "娄底",
+          "center": {
+            "lng": 111.646,
+            "lat": 27.7191
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "433100",
+          "name": "湘西",
+          "center": {
+            "lng": 109.7318,
+            "lat": 28.6918
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "433123",
+          "name": "凤凰",
+          "cityId": "fenghuang",
+          "poiCount": 57,
+          "level": "city",
+          "center": {
+            "lng": 109.580815,
+            "lat": 27.957441,
+            "coordSystem": "GCJ-02"
+          }
+        }
+      ],
+      "poiCount": 171,
+      "cityCount": 3,
+      "childCount": 14,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "440000",
+      "name": "广东",
+      "fullname": "广东省",
+      "center": {
+        "lng": 113.4217,
+        "lat": 23.3212
+      },
+      "children": [
+        {
+          "adcode": "440100",
+          "name": "广州",
+          "center": {
+            "lng": 113.5435,
+            "lat": 23.3322
+          },
+          "cityId": "guangzhou",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "440200",
+          "name": "韶关",
+          "center": {
+            "lng": 113.7795,
+            "lat": 24.8176
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "440300",
+          "name": "深圳",
+          "center": {
+            "lng": 114.1432,
+            "lat": 22.6433
+          },
+          "cityId": "shenzhen",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "440400",
+          "name": "珠海",
+          "center": {
+            "lng": 113.3372,
+            "lat": 22.1599
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "440500",
+          "name": "汕头",
+          "center": {
+            "lng": 116.7002,
+            "lat": 23.3428
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "440600",
+          "name": "佛山",
+          "center": {
+            "lng": 112.9405,
+            "lat": 23.0008
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "440700",
+          "name": "江门",
+          "center": {
+            "lng": 112.6782,
+            "lat": 22.2732
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "440800",
+          "name": "湛江",
+          "center": {
+            "lng": 110.1657,
+            "lat": 21.0732
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "440900",
+          "name": "茂名",
+          "center": {
+            "lng": 110.9587,
+            "lat": 22.0078
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "441200",
+          "name": "肇庆",
+          "center": {
+            "lng": 112.2086,
+            "lat": 23.5388
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "441300",
+          "name": "惠州",
+          "center": {
+            "lng": 114.5075,
+            "lat": 23.2334
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "441400",
+          "name": "梅州",
+          "center": {
+            "lng": 116.0842,
+            "lat": 24.2004
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "441500",
+          "name": "汕尾",
+          "center": {
+            "lng": 115.5556,
+            "lat": 23.0505
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "441600",
+          "name": "河源",
+          "center": {
+            "lng": 114.9626,
+            "lat": 24.0418
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "441700",
+          "name": "阳江",
+          "center": {
+            "lng": 111.7795,
+            "lat": 22.0254
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "441800",
+          "name": "清远",
+          "center": {
+            "lng": 112.8801,
+            "lat": 24.3115
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "441900",
+          "name": "东莞",
+          "center": {
+            "lng": 113.8799,
+            "lat": 22.9318
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "442000",
+          "name": "中山",
+          "center": {
+            "lng": 113.4046,
+            "lat": 22.5177
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "445100",
+          "name": "潮州",
+          "center": {
+            "lng": 116.7807,
+            "lat": 23.8288
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "445200",
+          "name": "揭阳",
+          "center": {
+            "lng": 116.1202,
+            "lat": 23.3308
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "445300",
+          "name": "云浮",
+          "center": {
+            "lng": 111.7893,
+            "lat": 22.8465
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        }
+      ],
+      "poiCount": 114,
+      "cityCount": 2,
+      "childCount": 21,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "450000",
+      "name": "广西",
+      "fullname": "广西壮族自治区",
+      "center": {
+        "lng": 108.7923,
+        "lat": 23.8185
+      },
+      "children": [
+        {
+          "adcode": "450100",
+          "name": "南宁",
+          "center": {
+            "lng": 108.4679,
+            "lat": 23.0544
+          },
+          "cityId": "nanning",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "450200",
+          "name": "柳州",
+          "center": {
+            "lng": 109.3827,
+            "lat": 24.9772
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "450300",
+          "name": "桂林",
+          "center": {
+            "lng": 110.5183,
+            "lat": 25.3521
+          },
+          "cityId": "guilin",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "450400",
+          "name": "梧州",
+          "center": {
+            "lng": 110.9952,
+            "lat": 23.4779
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "450500",
+          "name": "北海",
+          "center": {
+            "lng": 109.3437,
+            "lat": 21.6651
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "450600",
+          "name": "防城港",
+          "center": {
+            "lng": 108.0162,
+            "lat": 21.8691
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "450700",
+          "name": "钦州",
+          "center": {
+            "lng": 109.0197,
+            "lat": 22.171
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "450800",
+          "name": "贵港",
+          "center": {
+            "lng": 110.0027,
+            "lat": 23.3064
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "450900",
+          "name": "玉林",
+          "center": {
+            "lng": 110.1868,
+            "lat": 22.4395
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "451000",
+          "name": "百色",
+          "center": {
+            "lng": 106.2912,
+            "lat": 23.9824
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "451100",
+          "name": "贺州",
+          "center": {
+            "lng": 111.3147,
+            "lat": 24.4015
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "451200",
+          "name": "河池",
+          "center": {
+            "lng": 107.8646,
+            "lat": 24.5812
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "451300",
+          "name": "来宾",
+          "center": {
+            "lng": 109.4165,
+            "lat": 23.8511
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "451400",
+          "name": "崇左",
+          "center": {
+            "lng": 107.2775,
+            "lat": 22.5005
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "450321",
+          "name": "阳朔",
+          "cityId": "yangshuo",
+          "poiCount": 57,
+          "level": "city",
+          "center": {
+            "lng": 110.496305,
+            "lat": 24.778785,
+            "coordSystem": "GCJ-02"
+          }
+        }
+      ],
+      "poiCount": 171,
+      "cityCount": 3,
+      "childCount": 14,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "460000",
+      "name": "海南",
+      "fullname": "海南省",
+      "center": {
+        "lng": 109.9134,
+        "lat": 18.7824
+      },
+      "children": [
+        {
+          "adcode": "460100",
+          "name": "海口",
+          "center": {
+            "lng": 110.4231,
+            "lat": 19.852
+          },
+          "cityId": "haikou",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "460200",
+          "name": "三亚",
+          "center": {
+            "lng": 109.3716,
+            "lat": 18.383
+          },
+          "cityId": "sanya",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "460300",
+          "name": "三沙",
+          "center": {
+            "lng": 114.3535,
+            "lat": 7.8034
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "460400",
+          "name": "儋州",
+          "center": {
+            "lng": 109.3898,
+            "lat": 19.5789
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "469001",
+          "name": "五指山",
+          "center": {
+            "lng": 109.5119,
+            "lat": 18.824
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "469002",
+          "name": "琼海",
+          "center": {
+            "lng": 110.4219,
+            "lat": 19.2102
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "469005",
+          "name": "文昌",
+          "center": {
+            "lng": 110.7884,
+            "lat": 19.7468
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "469006",
+          "name": "万宁",
+          "center": {
+            "lng": 110.3244,
+            "lat": 18.8303
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "469007",
+          "name": "东方",
+          "center": {
+            "lng": 108.8189,
+            "lat": 18.996
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "469021",
+          "name": "定安",
+          "center": {
+            "lng": 110.3376,
+            "lat": 19.4711
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "469022",
+          "name": "屯昌",
+          "center": {
+            "lng": 110.0557,
+            "lat": 19.3422
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "469023",
+          "name": "澄迈",
+          "center": {
+            "lng": 109.9937,
+            "lat": 19.7
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "469024",
+          "name": "临高",
+          "center": {
+            "lng": 109.7152,
+            "lat": 19.8097
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "469025",
+          "name": "白沙",
+          "center": {
+            "lng": 109.3518,
+            "lat": 19.2097
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "469026",
+          "name": "昌江",
+          "center": {
+            "lng": 108.9938,
+            "lat": 19.226
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "469027",
+          "name": "乐东",
+          "center": {
+            "lng": 109.0297,
+            "lat": 18.6397
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "469028",
+          "name": "陵水",
+          "center": {
+            "lng": 109.9514,
+            "lat": 18.5495
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "469029",
+          "name": "保亭",
+          "center": {
+            "lng": 109.6507,
+            "lat": 18.5896
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "469030",
+          "name": "琼中",
+          "center": {
+            "lng": 109.8546,
+            "lat": 19.0337
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        }
+      ],
+      "poiCount": 114,
+      "cityCount": 2,
+      "childCount": 19,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "500000",
+      "name": "重庆",
+      "fullname": "重庆市",
+      "center": {
+        "lng": 107.8786,
+        "lat": 30.0546
+      },
+      "children": [
+        {
+          "adcode": "500101",
+          "name": "万州",
+          "center": {
+            "lng": 108.4088,
+            "lat": 30.8077
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "500102",
+          "name": "涪陵",
+          "center": {
+            "lng": 107.2466,
+            "lat": 29.7523
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "500103",
+          "name": "渝中",
+          "center": {
+            "lng": 106.5689,
+            "lat": 29.5526
+          },
+          "cityId": null,
+          "poiCount": 7,
+          "level": "district"
+        },
+        {
+          "adcode": "500104",
+          "name": "大渡口",
+          "center": {
+            "lng": 106.4823,
+            "lat": 29.4845
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "500106",
+          "name": "沙坪坝",
+          "center": {
+            "lng": 106.4569,
+            "lat": 29.541
+          },
+          "cityId": null,
+          "poiCount": 3,
+          "level": "district"
+        },
+        {
+          "adcode": "500107",
+          "name": "九龙坡",
+          "center": {
+            "lng": 106.5105,
+            "lat": 29.5023
+          },
+          "cityId": null,
+          "poiCount": 6,
+          "level": "district"
+        },
+        {
+          "adcode": "500108",
+          "name": "南岸",
+          "center": {
+            "lng": 106.6443,
+            "lat": 29.5011
+          },
+          "cityId": null,
+          "poiCount": 22,
+          "level": "district"
+        },
+        {
+          "adcode": "500109",
+          "name": "北碚",
+          "center": {
+            "lng": 106.3956,
+            "lat": 29.8052
+          },
+          "cityId": null,
+          "poiCount": 2,
+          "level": "district"
+        },
+        {
+          "adcode": "500110",
+          "name": "綦江",
+          "center": {
+            "lng": 106.6512,
+            "lat": 29.0281
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "500111",
+          "name": "大足",
+          "center": {
+            "lng": 105.7218,
+            "lat": 29.7076
+          },
+          "cityId": null,
+          "poiCount": 2,
+          "level": "district"
+        },
+        {
+          "adcode": "500113",
+          "name": "巴南",
+          "center": {
+            "lng": 106.5405,
+            "lat": 29.4021
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "500114",
+          "name": "黔江",
+          "center": {
+            "lng": 108.7706,
+            "lat": 29.5338
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "500115",
+          "name": "长寿",
+          "center": {
+            "lng": 107.0809,
+            "lat": 29.8579
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "500116",
+          "name": "江津",
+          "center": {
+            "lng": 106.2644,
+            "lat": 29.32
+          },
+          "cityId": null,
+          "poiCount": 2,
+          "level": "district"
+        },
+        {
+          "adcode": "500117",
+          "name": "合川",
+          "center": {
+            "lng": 106.2762,
+            "lat": 29.972
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "500118",
+          "name": "永川",
+          "center": {
+            "lng": 105.927,
+            "lat": 29.3564
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "500119",
+          "name": "南川",
+          "center": {
+            "lng": 107.0991,
+            "lat": 29.1579
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "500120",
+          "name": "璧山",
+          "center": {
+            "lng": 106.2056,
+            "lat": 29.5777
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "500151",
+          "name": "铜梁",
+          "center": {
+            "lng": 106.0563,
+            "lat": 29.8452
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "500152",
+          "name": "潼南",
+          "center": {
+            "lng": 105.8405,
+            "lat": 30.1911
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "500153",
+          "name": "荣昌",
+          "center": {
+            "lng": 105.6118,
+            "lat": 29.4169
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "500154",
+          "name": "开州",
+          "center": {
+            "lng": 108.3934,
+            "lat": 31.1604
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "500155",
+          "name": "梁平",
+          "center": {
+            "lng": 107.7696,
+            "lat": 30.6542
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "500156",
+          "name": "武隆",
+          "center": {
+            "lng": 107.76,
+            "lat": 29.3257
+          },
+          "cityId": null,
+          "poiCount": 3,
+          "level": "district"
+        },
+        {
+          "adcode": "500157",
+          "name": "两江",
+          "center": {
+            "lng": 106.7889,
+            "lat": 29.682
+          },
+          "cityId": null,
+          "poiCount": 3,
+          "level": "district"
+        },
+        {
+          "adcode": "500229",
+          "name": "城口",
+          "center": {
+            "lng": 108.6641,
+            "lat": 31.9476
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "500230",
+          "name": "丰都",
+          "center": {
+            "lng": 107.7311,
+            "lat": 29.8638
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "500231",
+          "name": "垫江",
+          "center": {
+            "lng": 107.3325,
+            "lat": 30.3275
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "500233",
+          "name": "忠县",
+          "center": {
+            "lng": 108.0381,
+            "lat": 30.2998
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "500235",
+          "name": "云阳",
+          "center": {
+            "lng": 108.6975,
+            "lat": 30.9306
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "500236",
+          "name": "奉节",
+          "center": {
+            "lng": 109.4011,
+            "lat": 31.0185
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "500237",
+          "name": "巫山",
+          "center": {
+            "lng": 109.879,
+            "lat": 31.0748
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "500238",
+          "name": "巫溪",
+          "center": {
+            "lng": 109.57,
+            "lat": 31.3986
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "500240",
+          "name": "石柱",
+          "center": {
+            "lng": 108.1143,
+            "lat": 29.9991
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "500241",
+          "name": "秀山",
+          "center": {
+            "lng": 109.0071,
+            "lat": 28.4482
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "500242",
+          "name": "酉阳",
+          "center": {
+            "lng": 108.7673,
+            "lat": 28.8414
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "500243",
+          "name": "彭水",
+          "center": {
+            "lng": 108.1657,
+            "lat": 29.2943
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "500000",
+          "name": "重庆",
+          "cityId": "chongqing",
+          "poiCount": 0,
+          "level": "district",
+          "center": {
+            "lng": 107.8786,
+            "lat": 30.0546
+          }
+        }
+      ],
+      "poiCount": 114,
+      "cityCount": 2,
+      "childCount": 37,
+      "isCity": true,
+      "cityId": "chongqing",
+      "level": "province"
+    },
+    {
+      "adcode": "510000",
+      "name": "四川",
+      "fullname": "四川省",
+      "center": {
+        "lng": 102.6951,
+        "lat": 30.6266
+      },
+      "children": [
+        {
+          "adcode": "510100",
+          "name": "成都",
+          "center": {
+            "lng": 103.9452,
+            "lat": 30.7625
+          },
+          "cityId": "chengdu",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "510300",
+          "name": "自贡",
+          "center": {
+            "lng": 104.6858,
+            "lat": 29.2839
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "510400",
+          "name": "攀枝花",
+          "center": {
+            "lng": 101.692,
+            "lat": 26.7126
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "510500",
+          "name": "泸州",
+          "center": {
+            "lng": 105.5156,
+            "lat": 28.8057
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "510600",
+          "name": "德阳",
+          "center": {
+            "lng": 104.4376,
+            "lat": 31.1276
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "510700",
+          "name": "绵阳",
+          "center": {
+            "lng": 104.7375,
+            "lat": 31.8741
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "510800",
+          "name": "广元",
+          "center": {
+            "lng": 105.786,
+            "lat": 32.26
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "510900",
+          "name": "遂宁",
+          "center": {
+            "lng": 105.5303,
+            "lat": 30.6671
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "511000",
+          "name": "内江",
+          "center": {
+            "lng": 104.9142,
+            "lat": 29.6379
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "511100",
+          "name": "乐山",
+          "center": {
+            "lng": 103.5715,
+            "lat": 29.2128
+          },
+          "cityId": "leshan",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "511300",
+          "name": "南充",
+          "center": {
+            "lng": 106.2077,
+            "lat": 31.1937
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "511400",
+          "name": "眉山",
+          "center": {
+            "lng": 103.7546,
+            "lat": 29.9242
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "511500",
+          "name": "宜宾",
+          "center": {
+            "lng": 104.638,
+            "lat": 28.5705
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "511600",
+          "name": "广安",
+          "center": {
+            "lng": 106.6665,
+            "lat": 30.4241
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "511700",
+          "name": "达州",
+          "center": {
+            "lng": 107.6065,
+            "lat": 31.3302
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "511800",
+          "name": "雅安",
+          "center": {
+            "lng": 102.6645,
+            "lat": 29.9104
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "511900",
+          "name": "巴中",
+          "center": {
+            "lng": 107.0638,
+            "lat": 31.9934
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "512000",
+          "name": "资阳",
+          "center": {
+            "lng": 105.0946,
+            "lat": 30.1522
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "513200",
+          "name": "阿坝",
+          "center": {
+            "lng": 102.6113,
+            "lat": 32.3982
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "513300",
+          "name": "甘孜",
+          "center": {
+            "lng": 99.9984,
+            "lat": 30.9462
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "513400",
+          "name": "凉山",
+          "center": {
+            "lng": 102.0813,
+            "lat": 27.883
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "513337",
+          "name": "稻城",
+          "cityId": "daocheng",
+          "poiCount": 57,
+          "level": "city",
+          "center": {
+            "lng": 100.296873,
+            "lat": 29.037747,
+            "coordSystem": "GCJ-02"
+          }
+        },
+        {
+          "adcode": "513225",
+          "name": "九寨沟",
+          "cityId": "jiuzhaigou",
+          "poiCount": 57,
+          "level": "city",
+          "center": {
+            "lng": 104.2426,
+            "lat": 33.252008,
+            "coordSystem": "GCJ-02"
+          }
+        },
+        {
+          "adcode": "510181",
+          "name": "都江堰",
+          "cityId": "dujiangyan",
+          "poiCount": 57,
+          "level": "city",
+          "center": {
+            "lng": 103.647193,
+            "lat": 30.988763,
+            "coordSystem": "GCJ-02"
+          }
+        },
+        {
+          "adcode": "511181",
+          "name": "峨眉山",
+          "cityId": "emeishan",
+          "poiCount": 57,
+          "level": "city",
+          "center": {
+            "lng": 103.484727,
+            "lat": 29.601729,
+            "coordSystem": "GCJ-02"
+          }
+        },
+        {
+          "adcode": "511381",
+          "name": "阆中",
+          "cityId": "langzhong",
+          "poiCount": 57,
+          "level": "city",
+          "center": {
+            "lng": 106.005046,
+            "lat": 31.558356,
+            "coordSystem": "GCJ-02"
+          }
+        }
+      ],
+      "poiCount": 399,
+      "cityCount": 7,
+      "childCount": 21,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "520000",
+      "name": "贵州",
+      "fullname": "贵州省",
+      "center": {
+        "lng": 106.8774,
+        "lat": 26.8124
+      },
+      "children": [
+        {
+          "adcode": "520100",
+          "name": "贵阳",
+          "center": {
+            "lng": 106.7106,
+            "lat": 26.8386
+          },
+          "cityId": "guiyang",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "520200",
+          "name": "六盘水",
+          "center": {
+            "lng": 104.8963,
+            "lat": 26.1262
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "520300",
+          "name": "遵义",
+          "center": {
+            "lng": 107.0892,
+            "lat": 28.1656
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "520400",
+          "name": "安顺",
+          "center": {
+            "lng": 105.9525,
+            "lat": 25.992
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "520500",
+          "name": "毕节",
+          "center": {
+            "lng": 105.2176,
+            "lat": 27.064
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "520600",
+          "name": "铜仁",
+          "center": {
+            "lng": 108.5465,
+            "lat": 27.9681
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "522300",
+          "name": "黔西南",
+          "center": {
+            "lng": 105.4672,
+            "lat": 25.2625
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "522600",
+          "name": "黔东南",
+          "center": {
+            "lng": 108.5603,
+            "lat": 26.5014
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "522700",
+          "name": "黔南",
+          "center": {
+            "lng": 107.2544,
+            "lat": 26.0104
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        }
+      ],
+      "poiCount": 57,
+      "cityCount": 1,
+      "childCount": 9,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "530000",
+      "name": "云南",
+      "fullname": "云南省",
+      "center": {
+        "lng": 101.4882,
+        "lat": 24.9723
+      },
+      "children": [
+        {
+          "adcode": "530100",
+          "name": "昆明",
+          "center": {
+            "lng": 102.8745,
+            "lat": 25.3837
+          },
+          "cityId": "kunming",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "530300",
+          "name": "曲靖",
+          "center": {
+            "lng": 103.9399,
+            "lat": 25.7005
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "530400",
+          "name": "玉溪",
+          "center": {
+            "lng": 102.2036,
+            "lat": 24.1369
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "530500",
+          "name": "保山",
+          "center": {
+            "lng": 98.9724,
+            "lat": 24.9732
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "530600",
+          "name": "昭通",
+          "center": {
+            "lng": 104.0043,
+            "lat": 27.65
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "530700",
+          "name": "丽江",
+          "center": {
+            "lng": 100.5254,
+            "lat": 26.9372
+          },
+          "cityId": "lijiang",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "530800",
+          "name": "普洱",
+          "center": {
+            "lng": 100.7214,
+            "lat": 23.1835
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "530900",
+          "name": "临沧",
+          "center": {
+            "lng": 99.6738,
+            "lat": 23.9363
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "532300",
+          "name": "楚雄",
+          "center": {
+            "lng": 101.6015,
+            "lat": 25.3599
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "532500",
+          "name": "红河",
+          "center": {
+            "lng": 103.0366,
+            "lat": 23.4369
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "532600",
+          "name": "文山",
+          "center": {
+            "lng": 104.7163,
+            "lat": 23.6868
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "532800",
+          "name": "西双版纳",
+          "center": {
+            "lng": 100.9442,
+            "lat": 21.929
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "532900",
+          "name": "大理",
+          "center": {
+            "lng": 100.0403,
+            "lat": 25.7248
+          },
+          "cityId": "dali",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "533100",
+          "name": "德宏",
+          "center": {
+            "lng": 98.0852,
+            "lat": 24.5561
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "533300",
+          "name": "怒江",
+          "center": {
+            "lng": 98.8702,
+            "lat": 26.9555
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "533400",
+          "name": "迪庆",
+          "center": {
+            "lng": 99.4407,
+            "lat": 27.9533
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "533401",
+          "name": "香格里拉",
+          "cityId": "xianggelila",
+          "poiCount": 57,
+          "level": "city",
+          "center": {
+            "lng": 99.743582,
+            "lat": 27.842185,
+            "coordSystem": "GCJ-02"
+          }
+        },
+        {
+          "adcode": "530581",
+          "name": "腾冲",
+          "cityId": "tengchong",
+          "poiCount": 57,
+          "level": "city",
+          "center": {
+            "lng": 98.490276,
+            "lat": 25.020283,
+            "coordSystem": "GCJ-02"
+          }
+        }
+      ],
+      "poiCount": 285,
+      "cityCount": 5,
+      "childCount": 16,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "540000",
+      "name": "西藏",
+      "fullname": "西藏自治区",
+      "center": {
+        "lng": 88.4438,
+        "lat": 31.489
+      },
+      "children": [
+        {
+          "adcode": "540100",
+          "name": "拉萨",
+          "center": {
+            "lng": 91.19,
+            "lat": 30.147
+          },
+          "cityId": "lhasa",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "540200",
+          "name": "日喀则",
+          "center": {
+            "lng": 86.4881,
+            "lat": 29.4865
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "540300",
+          "name": "昌都",
+          "center": {
+            "lng": 97.0394,
+            "lat": 30.7721
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "540400",
+          "name": "林芝",
+          "center": {
+            "lng": 95.2431,
+            "lat": 29.1916
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "540500",
+          "name": "山南",
+          "center": {
+            "lng": 92.2695,
+            "lat": 28.2973
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "540600",
+          "name": "那曲",
+          "center": {
+            "lng": 89.2662,
+            "lat": 32.7383
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "542500",
+          "name": "阿里",
+          "center": {
+            "lng": 82.56,
+            "lat": 33.0283
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        }
+      ],
+      "poiCount": 57,
+      "cityCount": 1,
+      "childCount": 7,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "610000",
+      "name": "陕西",
+      "fullname": "陕西省",
+      "center": {
+        "lng": 108.8742,
+        "lat": 35.1914
+      },
+      "children": [
+        {
+          "adcode": "610100",
+          "name": "西安",
+          "center": {
+            "lng": 108.7967,
+            "lat": 34.1059
+          },
+          "cityId": "xian",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "610200",
+          "name": "铜川",
+          "center": {
+            "lng": 109.04,
+            "lat": 35.194
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "610300",
+          "name": "宝鸡",
+          "center": {
+            "lng": 107.205,
+            "lat": 34.3776
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "610400",
+          "name": "咸阳",
+          "center": {
+            "lng": 108.3951,
+            "lat": 34.7838
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "610500",
+          "name": "渭南",
+          "center": {
+            "lng": 109.8559,
+            "lat": 34.9486
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "610600",
+          "name": "延安",
+          "center": {
+            "lng": 109.3206,
+            "lat": 36.4368
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "610700",
+          "name": "汉中",
+          "center": {
+            "lng": 107.1074,
+            "lat": 33.0884
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "610800",
+          "name": "榆林",
+          "center": {
+            "lng": 109.5714,
+            "lat": 38.039
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "610900",
+          "name": "安康",
+          "center": {
+            "lng": 109.1136,
+            "lat": 32.7734
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "611000",
+          "name": "商洛",
+          "center": {
+            "lng": 109.9069,
+            "lat": 33.6455
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        }
+      ],
+      "poiCount": 57,
+      "cityCount": 1,
+      "childCount": 10,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "620000",
+      "name": "甘肃",
+      "fullname": "甘肃省",
+      "center": {
+        "lng": 95.5349,
+        "lat": 39.9712
+      },
+      "children": [
+        {
+          "adcode": "620100",
+          "name": "兰州",
+          "center": {
+            "lng": 103.6444,
+            "lat": 36.354
+          },
+          "cityId": "lanzhou",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "620200",
+          "name": "嘉峪关",
+          "center": {
+            "lng": 98.2112,
+            "lat": 39.8293
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "620300",
+          "name": "金昌",
+          "center": {
+            "lng": 102.0487,
+            "lat": 38.4337
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "620400",
+          "name": "白银",
+          "center": {
+            "lng": 104.6247,
+            "lat": 36.6135
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "620500",
+          "name": "天水",
+          "center": {
+            "lng": 105.7411,
+            "lat": 34.6466
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "620600",
+          "name": "武威",
+          "center": {
+            "lng": 103.0189,
+            "lat": 38.069
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "620700",
+          "name": "张掖",
+          "center": {
+            "lng": 99.83,
+            "lat": 38.9536
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "620800",
+          "name": "平凉",
+          "center": {
+            "lng": 106.6513,
+            "lat": 35.3049
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "620900",
+          "name": "酒泉",
+          "center": {
+            "lng": 96.2912,
+            "lat": 40.4703
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "621000",
+          "name": "庆阳",
+          "center": {
+            "lng": 107.5949,
+            "lat": 36.1621
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "621100",
+          "name": "定西",
+          "center": {
+            "lng": 104.4557,
+            "lat": 35.1191
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "621200",
+          "name": "陇南",
+          "center": {
+            "lng": 105.2252,
+            "lat": 33.5953
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "622900",
+          "name": "临夏",
+          "center": {
+            "lng": 103.273,
+            "lat": 35.5915
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "623000",
+          "name": "甘南",
+          "center": {
+            "lng": 102.7602,
+            "lat": 34.7956
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "620982",
+          "name": "敦煌",
+          "cityId": "dunhuang",
+          "poiCount": 57,
+          "level": "city",
+          "center": {
+            "lng": 94.662328,
+            "lat": 40.142066,
+            "coordSystem": "GCJ-02"
+          }
+        }
+      ],
+      "poiCount": 114,
+      "cityCount": 2,
+      "childCount": 14,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "630000",
+      "name": "青海",
+      "fullname": "青海省",
+      "center": {
+        "lng": 96.0412,
+        "lat": 35.6699
+      },
+      "children": [
+        {
+          "adcode": "630100",
+          "name": "西宁",
+          "center": {
+            "lng": 101.4386,
+            "lat": 36.826
+          },
+          "cityId": "xining",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "630200",
+          "name": "海东",
+          "center": {
+            "lng": 102.3689,
+            "lat": 36.2982
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "632200",
+          "name": "海北",
+          "center": {
+            "lng": 100.3049,
+            "lat": 37.7586
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "632300",
+          "name": "黄南",
+          "center": {
+            "lng": 101.6309,
+            "lat": 35.0213
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "632500",
+          "name": "海南",
+          "center": {
+            "lng": 100.2539,
+            "lat": 35.9022
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "632600",
+          "name": "果洛",
+          "center": {
+            "lng": 99.3569,
+            "lat": 34.0718
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "632700",
+          "name": "玉树",
+          "center": {
+            "lng": 94.3223,
+            "lat": 34.2098
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "632800",
+          "name": "海西",
+          "center": {
+            "lng": 94.5327,
+            "lat": 36.7123
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        }
+      ],
+      "poiCount": 57,
+      "cityCount": 1,
+      "childCount": 8,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "640000",
+      "name": "宁夏",
+      "fullname": "宁夏回族自治区",
+      "center": {
+        "lng": 105.9726,
+        "lat": 37.3102
+      },
+      "children": [
+        {
+          "adcode": "640100",
+          "name": "银川",
+          "center": {
+            "lng": 106.3529,
+            "lat": 38.2564
+          },
+          "cityId": "yinchuan",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "640200",
+          "name": "石嘴山",
+          "center": {
+            "lng": 106.5171,
+            "lat": 39.0069
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "640300",
+          "name": "吴忠",
+          "center": {
+            "lng": 106.6084,
+            "lat": 37.4219
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "640400",
+          "name": "固原",
+          "center": {
+            "lng": 106.1422,
+            "lat": 35.8788
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "640500",
+          "name": "中卫",
+          "center": {
+            "lng": 105.5082,
+            "lat": 37.0177
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        }
+      ],
+      "poiCount": 57,
+      "cityCount": 1,
+      "childCount": 5,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "650000",
+      "name": "新疆",
+      "fullname": "新疆维吾尔自治区",
+      "center": {
+        "lng": 85.1933,
+        "lat": 41.1173
+      },
+      "children": [
+        {
+          "adcode": "650100",
+          "name": "乌鲁木齐",
+          "center": {
+            "lng": 87.7894,
+            "lat": 43.7558
+          },
+          "cityId": "urumqi",
+          "poiCount": 57,
+          "level": "city"
+        },
+        {
+          "adcode": "650200",
+          "name": "克拉玛依",
+          "center": {
+            "lng": 85.1946,
+            "lat": 45.4791
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "650400",
+          "name": "吐鲁番",
+          "center": {
+            "lng": 89.818,
+            "lat": 42.393
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "650500",
+          "name": "哈密",
+          "center": {
+            "lng": 93.5151,
+            "lat": 43.0418
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "652300",
+          "name": "昌吉",
+          "center": {
+            "lng": 88.6367,
+            "lat": 44.3467
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "652700",
+          "name": "博州",
+          "center": {
+            "lng": 81.8431,
+            "lat": 44.695
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "652800",
+          "name": "巴州",
+          "center": {
+            "lng": 87.4907,
+            "lat": 39.4671
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "652900",
+          "name": "阿克苏",
+          "center": {
+            "lng": 82.6786,
+            "lat": 40.3866
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "653000",
+          "name": "克州",
+          "center": {
+            "lng": 74.5581,
+            "lat": 39.2954
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "653100",
+          "name": "喀什",
+          "center": {
+            "lng": 77.1632,
+            "lat": 37.8527
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "653200",
+          "name": "和田",
+          "center": {
+            "lng": 80.925,
+            "lat": 37.0709
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "654000",
+          "name": "伊犁",
+          "center": {
+            "lng": 82.1321,
+            "lat": 43.45
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "654200",
+          "name": "塔城",
+          "center": {
+            "lng": 83.7203,
+            "lat": 45.9534
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "654300",
+          "name": "阿勒泰",
+          "center": {
+            "lng": 88.4072,
+            "lat": 46.9082
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "659001",
+          "name": "石河子",
+          "center": {
+            "lng": 86.0381,
+            "lat": 44.3068
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "659002",
+          "name": "阿拉尔",
+          "center": {
+            "lng": 81.5471,
+            "lat": 40.6576
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "659003",
+          "name": "图木舒克",
+          "center": {
+            "lng": 79.1162,
+            "lat": 39.8398
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "659004",
+          "name": "五家渠",
+          "center": {
+            "lng": 87.5577,
+            "lat": 44.3618
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "659005",
+          "name": "北屯",
+          "center": {
+            "lng": 87.9607,
+            "lat": 47.2434
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "659006",
+          "name": "铁门关",
+          "center": {
+            "lng": 87.5193,
+            "lat": 40.6197
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "659007",
+          "name": "双河",
+          "center": {
+            "lng": 82.351,
+            "lat": 44.8563
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "659008",
+          "name": "可克达拉",
+          "center": {
+            "lng": 80.6844,
+            "lat": 43.9246
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "659009",
+          "name": "昆玉",
+          "center": {
+            "lng": 78.4418,
+            "lat": 37.6948
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "659010",
+          "name": "胡杨河",
+          "center": {
+            "lng": 84.8947,
+            "lat": 44.7265
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "659011",
+          "name": "新星",
+          "center": {
+            "lng": 93.7532,
+            "lat": 42.7606
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "659012",
+          "name": "白杨",
+          "center": {
+            "lng": 82.4269,
+            "lat": 45.8896
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        },
+        {
+          "adcode": "659013",
+          "name": "草湖",
+          "center": {
+            "lng": 76.0184,
+            "lat": 39.2917
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "city"
+        }
+      ],
+      "poiCount": 57,
+      "cityCount": 1,
+      "childCount": 27,
+      "isCity": false,
+      "level": "province"
+    },
+    {
+      "adcode": "710000",
+      "name": "台湾",
+      "fullname": "台湾省",
+      "center": {
+        "lng": 120.9697,
+        "lat": 23.7421
+      },
+      "children": [
+        {
+          "adcode": "711000",
+          "name": "台北",
+          "center": {
+            "lng": 121.5636,
+            "lat": 25.0374
+          },
+          "cityId": "taipei",
+          "poiCount": 57,
+          "level": "district"
+        },
+        {
+          "adcode": "711100",
+          "name": "台中",
+          "center": {
+            "lng": 120.6482,
+            "lat": 24.1632
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "711200",
+          "name": "基隆",
+          "center": {
+            "lng": 121.7448,
+            "lat": 25.1316
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "711300",
+          "name": "台南",
+          "center": {
+            "lng": 120.1848,
+            "lat": 22.9912
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "711400",
+          "name": "高雄",
+          "center": {
+            "lng": 120.3123,
+            "lat": 22.6201
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "711500",
+          "name": "新北",
+          "center": {
+            "lng": 121.4657,
+            "lat": 25.0119
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "711600",
+          "name": "宜兰",
+          "center": {
+            "lng": 121.7631,
+            "lat": 24.7314
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "711700",
+          "name": "桃园",
+          "center": {
+            "lng": 121.3011,
+            "lat": 24.9936
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "711800",
+          "name": "嘉义",
+          "center": {
+            "lng": 120.4536,
+            "lat": 23.4815
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "711900",
+          "name": "新竹",
+          "center": {
+            "lng": 121.0129,
+            "lat": 24.8269
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "712000",
+          "name": "苗栗",
+          "center": {
+            "lng": 120.8206,
+            "lat": 24.5644
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "712200",
+          "name": "南投",
+          "center": {
+            "lng": 120.6905,
+            "lat": 23.9027
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "712300",
+          "name": "彰化",
+          "center": {
+            "lng": 120.5446,
+            "lat": 24.0757
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "712400",
+          "name": "新竹",
+          "center": {
+            "lng": 120.9689,
+            "lat": 24.8062
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "712500",
+          "name": "云林",
+          "center": {
+            "lng": 120.5301,
+            "lat": 23.6964
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "712600",
+          "name": "嘉义",
+          "center": {
+            "lng": 120.2929,
+            "lat": 23.4586
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "712900",
+          "name": "屏东",
+          "center": {
+            "lng": 120.4877,
+            "lat": 22.6833
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "713000",
+          "name": "花莲",
+          "center": {
+            "lng": 121.6206,
+            "lat": 23.9913
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "713100",
+          "name": "台东",
+          "center": {
+            "lng": 121.1506,
+            "lat": 22.7553
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "713200",
+          "name": "澎湖",
+          "center": {
+            "lng": 119.5707,
+            "lat": 23.5673
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        }
+      ],
+      "poiCount": 57,
+      "cityCount": 1,
+      "childCount": 20,
+      "isCity": true,
+      "level": "province"
+    },
+    {
+      "adcode": "810000",
+      "name": "香港",
+      "fullname": "香港特别行政区",
+      "center": {
+        "lng": 114.1311,
+        "lat": 22.3745
+      },
+      "children": [
+        {
+          "adcode": "811100",
+          "name": "中西区",
+          "center": {
+            "lng": 114.1645,
+            "lat": 22.2762
+          },
+          "cityId": null,
+          "poiCount": 18,
+          "level": "district"
+        },
+        {
+          "adcode": "811200",
+          "name": "湾仔区",
+          "center": {
+            "lng": 114.1774,
+            "lat": 22.2774
+          },
+          "cityId": null,
+          "poiCount": 2,
+          "level": "district"
+        },
+        {
+          "adcode": "811300",
+          "name": "东区",
+          "center": {
+            "lng": 114.2291,
+            "lat": 22.2814
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "811400",
+          "name": "南区",
+          "center": {
+            "lng": 114.1609,
+            "lat": 22.2459
+          },
+          "cityId": null,
+          "poiCount": 5,
+          "level": "district"
+        },
+        {
+          "adcode": "812100",
+          "name": "油尖旺区",
+          "center": {
+            "lng": 114.176,
+            "lat": 22.3067
+          },
+          "cityId": null,
+          "poiCount": 11,
+          "level": "district"
+        },
+        {
+          "adcode": "812200",
+          "name": "深水埗区",
+          "center": {
+            "lng": 114.1686,
+            "lat": 22.3292
+          },
+          "cityId": null,
+          "poiCount": 3,
+          "level": "district"
+        },
+        {
+          "adcode": "812300",
+          "name": "九龙",
+          "center": {
+            "lng": 114.1948,
+            "lat": 22.309
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "812400",
+          "name": "黄大仙区",
+          "center": {
+            "lng": 114.1976,
+            "lat": 22.3392
+          },
+          "cityId": null,
+          "poiCount": 2,
+          "level": "district"
+        },
+        {
+          "adcode": "812500",
+          "name": "观塘区",
+          "center": {
+            "lng": 114.2347,
+            "lat": 22.3067
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "813100",
+          "name": "葵青区",
+          "center": {
+            "lng": 114.1366,
+            "lat": 22.3604
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "813200",
+          "name": "荃湾区",
+          "center": {
+            "lng": 114.1202,
+            "lat": 22.3715
+          },
+          "cityId": null,
+          "poiCount": 2,
+          "level": "district"
+        },
+        {
+          "adcode": "813300",
+          "name": "屯门区",
+          "center": {
+            "lng": 113.9813,
+            "lat": 22.3874
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "813400",
+          "name": "元朗区",
+          "center": {
+            "lng": 114.0322,
+            "lat": 22.4424
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "813500",
+          "name": "北区",
+          "center": {
+            "lng": 114.1433,
+            "lat": 22.4922
+          },
+          "cityId": null,
+          "poiCount": 0,
+          "level": "district"
+        },
+        {
+          "adcode": "813600",
+          "name": "大埔区",
+          "center": {
+            "lng": 114.1696,
+            "lat": 22.4483
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "813700",
+          "name": "沙田区",
+          "center": {
+            "lng": 114.1919,
+            "lat": 22.3827
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "813800",
+          "name": "西贡区",
+          "center": {
+            "lng": 114.2766,
+            "lat": 22.379
+          },
+          "cityId": null,
+          "poiCount": 2,
+          "level": "district"
+        },
+        {
+          "adcode": "813900",
+          "name": "离岛区",
+          "center": {
+            "lng": 113.944,
+            "lat": 22.2856
+          },
+          "cityId": null,
+          "poiCount": 6,
+          "level": "district"
+        },
+        {
+          "adcode": "810000",
+          "name": "香港",
+          "cityId": "hongkong",
+          "poiCount": 0,
+          "level": "district",
+          "center": {
+            "lng": 114.1311,
+            "lat": 22.3745
+          }
+        }
+      ],
+      "poiCount": 114,
+      "cityCount": 2,
+      "childCount": 18,
+      "isCity": true,
+      "cityId": "hongkong",
+      "level": "province"
+    },
+    {
+      "adcode": "820000",
+      "name": "澳门",
+      "fullname": "澳门特别行政区",
+      "center": {
+        "lng": 113.5686,
+        "lat": 22.1601
+      },
+      "children": [
+        {
+          "adcode": "820100",
+          "name": "澳门半岛",
+          "center": {
+            "lng": 113.5528,
+            "lat": 22.1953
+          },
+          "cityId": null,
+          "poiCount": 47,
+          "level": "district"
+        },
+        {
+          "adcode": "820200",
+          "name": "氹仔岛",
+          "center": {
+            "lng": 113.5616,
+            "lat": 22.154
+          },
+          "cityId": null,
+          "poiCount": 1,
+          "level": "district"
+        },
+        {
+          "adcode": "820300",
+          "name": "路环岛",
+          "center": {
+            "lng": 113.5727,
+            "lat": 22.1235
+          },
+          "cityId": null,
+          "poiCount": 9,
+          "level": "district"
+        },
+        {
+          "adcode": "820000",
+          "name": "澳门",
+          "cityId": "macao",
+          "poiCount": 0,
+          "level": "district",
+          "center": {
+            "lng": 113.5686,
+            "lat": 22.1601
+          }
+        }
+      ],
+      "poiCount": 114,
+      "cityCount": 2,
+      "childCount": 3,
+      "isCity": true,
+      "cityId": "macao",
+      "level": "province"
+    }
+  ]
+}

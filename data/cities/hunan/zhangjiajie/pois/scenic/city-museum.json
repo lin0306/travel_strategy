@@ -1,0 +1,113 @@
+{
+  "id": "city-museum",
+  "name": "张家界市博物馆",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "永定区一座综合博物馆，讲本地地质、民族与历史，免费。",
+  "description": "张家界市博物馆在永定区，是一座综合馆。它讲这座城的地质 —— 为什么有这些石峰，也讲土家、白族的民族和历史。来玩前打打底最合适。它免费，馆不大，一两个钟头能看完。",
+  "highlights": [
+    "综合博物馆，讲地质与民族",
+    "为什么有石峰在这里有答案",
+    "免费，游城前打底"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.454729,
+      "lat": 29.132301,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "湖南省张家界市永定区张家界市博物馆",
+    "district": "永定区",
+    "transportTip": "市区公交或步行到博物馆"
+  },
+  "practical": {
+    "openHours": "约09:00-17:00（周一可能闭馆），以公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Barbarians_of_Tianmen_%28Zhangjiajie%2C_%E5%A4%A9%E9%96%80%E8%A0%BB%29_526-539_CE.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Barbarians_of_Tianmen_%28Zhangjiajie%2C_%E5%A4%A9%E9%96%80%E8%A0%BB%29_526-539_CE.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1874,
+      "alt": "Barbarians of Tianmen (Zhangjiajie, 天門蠻) 526-539 CE.png",
+      "query": "Zhangjiajie Museum",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Drawing: 顧德謙,Gu Deqian (10th century CE) Photography: Nation",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barbarians_of_Tianmen_(Zhangjiajie,_%E5%A4%A9%E9%96%80%E8%A0%BB)_526-539_CE.png",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/25000765/pexels-photo-25000765.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/25000765/pexels-photo-25000765.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6240,
+      "height": 4160,
+      "alt": "Explore the stunning rock formations of Zhangjiajie, Hunan, China at sunset, adding drama to the landscape.",
+      "query": "Zhangjiajie Museum",
+      "credit": {
+        "source": "pexels",
+        "author": "JC Terry",
+        "sourceUrl": "https://www.pexels.com/photo/landscape-of-tall-rocks-in-the-sunset-25000765/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/26771351/pexels-photo-26771351.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/26771351/pexels-photo-26771351.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7305,
+      "height": 3599,
+      "alt": "Explore the stunning rock formations and lush forests of Zhangjiajie in Hunan, China.",
+      "query": "Zhangjiajie Museum",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/forest-on-rock-formations-in-valley-26771351/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "博物馆",
+    "地质",
+    "免费"
+  ],
+  "popularity": 50,
+  "sources": [
+    {
+      "title": "百度百科·张家界",
+      "url": "https://baike.baidu.com/item/%E5%BC%A0%E5%AE%B6%E7%95%8C",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Zhangjiajie Museum",
+    "zh": "张家界市博物馆"
+  },
+  "_geocodeTitle": "张家界市博物馆",
+  "_geocodeSuspect": false,
+  "district": "430802"
+}

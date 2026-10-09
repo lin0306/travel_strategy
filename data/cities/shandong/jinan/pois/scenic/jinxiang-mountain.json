@@ -1,0 +1,118 @@
+{
+  "id": "jinxiang-mountain",
+  "name": "金象山",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "历城南部的山地乐园，夏天玩水漂流，冬天有雪场开板。",
+  "description": "金象山在济南历城区南部的山里，是一处以山地项目为主的乐园。夏天主打峡谷漂流和水上项目，山谷里凉快；冬天雪场开板，是济南周边最近的滑雪去处之一。园里也有索道、滑草和亲子游乐区，带孩子的家庭可以在里面耗上一整天。山道弯多，自驾慢行。旺季排队久，尽量开门就进，先玩热门项目。",
+  "highlights": [
+    "夏天峡谷漂流玩水",
+    "冬天雪场开板",
+    "亲子游乐项目集中"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.117519,
+      "lat": 36.478068,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山东省济南市历城区仲宫街道金象山乐园",
+    "district": "历城区",
+    "transportTip": "市区自驾或乘旅游专线到仲宫金象山",
+    "entrance": {
+      "lng": 117.115742,
+      "lat": 36.483794,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约八点半到十七点，冬季雪场另行公告",
+    "openHoursRef": 0,
+    "ticket": "约一百元起，项目另计",
+    "ticketRef": 0,
+    "duration": "建议 180-300 分钟",
+    "durationMinutes": [
+      180,
+      300
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/20848705/pexels-photo-20848705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/20848705/pexels-photo-20848705.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4284,
+      "height": 2244,
+      "alt": "Elevated view of Jinan's skyline with traditional Chinese pavilion in the foreground.",
+      "query": "Jinxiang Mountain Jinan",
+      "credit": {
+        "source": "pexels",
+        "author": "meitetsu chin",
+        "sourceUrl": "https://www.pexels.com/photo/mountaintop-pavilion-overlooking-jinan-china-20848705/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/17799342/pexels-photo-17799342.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/17799342/pexels-photo-17799342.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5300,
+      "height": 3531,
+      "alt": "Breathtaking sunset view over Jinan city skyline from a rocky hilltop with a crowd enjoying the urban scenery.",
+      "query": "Jinxiang Mountain Jinan",
+      "credit": {
+        "source": "pexels",
+        "author": "勇 徐",
+        "sourceUrl": "https://www.pexels.com/photo/people-on-hill-over-city-at-sunset-17799342/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/11110539/pexels-photo-11110539.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/11110539/pexels-photo-11110539.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2255,
+      "height": 3383,
+      "alt": "Captivating view of the ancient Lingyan Temple Pagoda surrounded by lush trees and mountains in Jinan, China.",
+      "query": "Jinxiang Mountain Jinan",
+      "credit": {
+        "source": "pexels",
+        "author": "Lan Yao",
+        "sourceUrl": "https://www.pexels.com/photo/white-concrete-building-near-trees-11110539/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "乐园",
+    "漂流",
+    "滑雪"
+  ],
+  "popularity": 66,
+  "sources": [
+    {
+      "title": "金象山·百度百科",
+      "url": "https://baike.baidu.com/item/%E9%87%91%E8%B1%A1%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Jinxiang Mountain Jinan",
+    "zh": "金象山"
+  },
+  "_geocodeTitle": "金象山景区",
+  "_geocodeSuspect": false,
+  "district": "370112"
+}

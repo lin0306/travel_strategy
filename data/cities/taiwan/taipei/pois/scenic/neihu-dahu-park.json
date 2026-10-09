@@ -1,0 +1,114 @@
+{
+  "id": "neihu-dahu-park",
+  "name": "大湖公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "内湖区的湖畔公园，拱桥与水面映着背后的山。",
+  "description": "大湖公园在内湖区，是一座围着湖水修的公园。最有名的是湖面上的九曲拱桥，红桥跨过水面，背后是山与高楼，清晨有雾的时候最漂亮，是很多人专程来拍的景。环湖有步道，走一圈约半小时，湖边有草地与凉亭，可以坐着看水鸟。公园旁就是捷运大湖公园站，出站就到湖边，交通很方便。这里离市中心稍远，游客相对少，适合安排一个清静的上午。",
+  "highlights": [
+    "湖面九曲拱桥，红桥映水",
+    "环湖步道半小时可绕完",
+    "捷运大湖公园站出站即到"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.60483,
+      "lat": 25.0829,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "台北市内湖区成功路五段一带",
+    "district": "内湖区",
+    "transportTip": "捷运大湖公园站出站即到"
+  },
+  "practical": {
+    "openHours": "全天开放，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费入园，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "family",
+    "elders",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/20230126_Dahu_Park_Station_01.jpg/1280px-20230126_Dahu_Park_Station_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/20230126_Dahu_Park_Station_01.jpg/1280px-20230126_Dahu_Park_Station_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "20230126 Dahu Park Station 01.jpg",
+      "query": "大湖公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "鐵路1",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20230126_Dahu_Park_Station_01.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/20230126_Dahu_Park_Station_02.jpg/1280px-20230126_Dahu_Park_Station_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/20230126_Dahu_Park_Station_02.jpg/1280px-20230126_Dahu_Park_Station_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "20230126 Dahu Park Station 02.jpg",
+      "query": "大湖公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "鐵路1",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20230126_Dahu_Park_Station_02.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/20230126_Dahu_Park_Station_03.jpg/1280px-20230126_Dahu_Park_Station_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/20230126_Dahu_Park_Station_03.jpg/1280px-20230126_Dahu_Park_Station_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "20230126 Dahu Park Station 03.jpg",
+      "query": "大湖公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "鐵路1",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20230126_Dahu_Park_Station_03.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湖景",
+    "拱桥",
+    "晨雾"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "大湖公园·百度百科",
+      "url": "https://baike.baidu.com/item/%E5%A4%A7%E6%B9%96%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-03"
+    }
+  ],
+  "updatedAt": "2026-10-03",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Dahu Park Neihu Taipei",
+    "zh": "大湖公园"
+  },
+  "_geocodeTitle": "大湖公园",
+  "_geocodeSuspect": false,
+  "district": "711014"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "guangbing",
+  "name": "光饼",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "咸香酥脆的烤面饼。",
+  "description": "光饼是闽北一带的传统烤饼，据说和戚继光抗倭行军干粮有关，饼中间有个小孔，可以串起来背着走。它用麦面烤成，咸香、酥脆，空口吃就香，也能夹肉夹菜。武夷山的街头常有现烤的光饼摊，热乎的时候最好吃。它便宜、耐放、好带，赶路时揣两个顶饿。配碗粉或茶，就是本地人的一顿简餐。",
+  "highlights": [
+    "咸香酥脆",
+    "中间小孔",
+    "便携干粮"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.979293,
+      "lat": 27.646461,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "福建省南平市武夷山市街头饼摊",
+    "district": "武夷山",
+    "transportTip": "市区及三姑街边摊可购，步行可达"
+  },
+  "practical": {
+    "openHours": "约 07:00-19:00",
+    "openHoursRef": 0,
+    "ticket": "每个约 2-6 元，以实际为准",
+    "ticketRef": 0,
+    "duration": "建议 20-60 分钟",
+    "durationMinutes": [
+      20,
+      60
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Fuqing_Guangbing%27s_two_sides.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Fuqing_Guangbing%27s_two_sides.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 553,
+      "alt": "Fuqing Guangbing's two sides.png",
+      "query": "光饼",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Jesse8981",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fuqing_Guangbing%27s_two_sides.png",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Fuqing_Guangbing%27s_two_sides_in_vertical_perspective.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Fuqing_Guangbing%27s_two_sides_in_vertical_perspective.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 572,
+      "alt": "Fuqing Guangbing's two sides in vertical perspective.png",
+      "query": "光饼",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Jesse8981",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fuqing_Guangbing%27s_two_sides_in_vertical_perspective.png",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Jian%27ou_Kompyang.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Jian%27ou_Kompyang.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 810,
+      "alt": "Jian'ou Kompyang.JPG",
+      "query": "光饼",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Dingar",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jian%27ou_Kompyang.JPG",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "烤饼",
+    "小吃",
+    "便携"
+  ],
+  "popularity": 76,
+  "sources": [
+    {
+      "title": "百度百科·光饼",
+      "url": "https://baike.baidu.com/item/%E5%85%89%E9%A5%BC",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-06"
+    }
+  ],
+  "updatedAt": "2026-10-06",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "光饼"
+  },
+  "_geocodeTitle": "武夷旧街小光饼",
+  "_geocodeSuspect": false,
+  "district": "350782"
+}

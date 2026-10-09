@@ -1,0 +1,113 @@
+{
+  "id": "datong-huoguo",
+  "name": "大同铜火锅",
+  "category": "food",
+  "subtype": "local",
+  "summary": "大同的铜火锅，中间是炭火筒，涮羊肉和丸子，冬天围着一锅吃。",
+  "description": "大同的火锅用的是铜锅 —— 中间一个筒烧炭，周围是汤。它涮的是羊肉和丸子，汤清，蘸麻酱。铜锅传热快，汤一直滚着。它是冬天的东西 —— 一家人或几个朋友围着一锅，热乎。大同城里做这个的店不少。价格中等。",
+  "highlights": [
+    "铜锅中间炭筒，涮羊肉丸子汤清",
+    "铜传热快汤一直滚",
+    "冬天围锅吃，店里不少"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.171716,
+      "lat": 40.028223,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山西省大同市平城区铜火锅店",
+    "district": "云冈区",
+    "transportTip": "市区公交或打车到店"
+  },
+  "practical": {
+    "openHours": "约10:00-22:00",
+    "openHoursRef": 0,
+    "ticket": "人均约80元",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "friends",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/6724161/pexels-photo-6724161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6724161/pexels-photo-6724161.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3239,
+      "height": 4858,
+      "alt": "A man in gray sits peacefully in sunlight beside a traditional Chinese temple door in Datong.",
+      "query": "Chinese restaurant interior datong",
+      "credit": {
+        "source": "pexels",
+        "author": "Lan Yao",
+        "sourceUrl": "https://www.pexels.com/photo/a-man-in-gray-long-sleeves-sitting-near-the-wooden-door-6724161/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4096,
+      "alt": "Charming Asian dining room with bamboo chairs and traditional teaware.",
+      "query": "Chinese restaurant interior datong",
+      "credit": {
+        "source": "pexels",
+        "author": "TIANYUN XIA",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37047965/pexels-photo-37047965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37047965/pexels-photo-37047965.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4896,
+      "height": 3264,
+      "alt": "Cozy traditional Asian restaurant interior highlighting wooden furnishings and red decor. Ideal for cultural and design ",
+      "query": "Chinese restaurant interior datong",
+      "credit": {
+        "source": "pexels",
+        "author": "mingche lee",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "火锅",
+    "铜锅",
+    "羊肉"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·火锅",
+      "url": "https://baike.baidu.com/item/%E7%81%AB%E9%94%85",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "大同铜火锅"
+  },
+  "_geocodeTitle": "老大同铜火锅(平泉路店)",
+  "_geocodeSuspect": false,
+  "district": "140214"
+}

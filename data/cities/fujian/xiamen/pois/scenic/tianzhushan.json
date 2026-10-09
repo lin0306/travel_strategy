@@ -1,0 +1,89 @@
+{
+  "id": "tianzhushan",
+  "name": "天竺山森林公园",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "海沧北边的山地公园，主峰九百多米，厦门岛外最高的一片山。",
+  "description": "天竺山在海沧区东孚，主峰海拔九百多米，是厦门岛外最高的山之一，山体由几座峰连成，常年云雾多。园区里主要是两条线：一条是上山，石阶与车道并行，到山顶看西侧的山与远处的海；另一条是环湖，天竺湖与两二湖两个水库挨着，湖边有栈道和草坪。山里有几处旧庙——真寂寺、龙门寺，都在半山一带，香火不断。林子里以马尾松与阔叶林为主，夏天比市区凉几度。园区很大，走完要一整天，园内有观光车。它在海沧，从岛内开车半小时上下，地铁 2 号线到海沧后还要转车。",
+  "highlights": [
+    "主峰海拔九百多米，是岛外最高的山之一",
+    "天竺湖与两二湖两个水库挨着，湖边有栈道",
+    "半山有真寂寺、龙门寺几处旧庙"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.926185,
+      "lat": 24.590085,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "福建省厦门市海沧区东孚街道天竺山路1号",
+    "district": "海沧区",
+    "transportTip": "地铁2号线至海沧后转乘公交；自驾约半小时",
+    "entrance": {
+      "lng": 117.936131,
+      "lat": 24.580701,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:00-17:30，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "门票与观光车以官方公告为准，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 180-330 分钟",
+    "durationMinutes": [
+      180,
+      330
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "solo",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Simon_de_Vlieger_%281601-1653%29_-_A_Battle_between_Dutch_Ships_%28the_%27Texel%27%2C_%27Domburch%27_and_%27Arnemude%27%29_and_Chinese_Junks_-_1401166_-_National_Trust.jpg/1280px-Simon_de_Vlieger_%281601-1653%29_-_A_Battle_between_Dutch_Ships_%28the_%27Texel%27%2C_%27Domburch%27_and_%27Arnemude%27%29_and_Chinese_Junks_-_1401166_-_National_Trust.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Simon_de_Vlieger_%281601-1653%29_-_A_Battle_between_Dutch_Ships_%28the_%27Texel%27%2C_%27Domburch%27_and_%27Arnemude%27%29_and_Chinese_Junks_-_1401166_-_National_Trust.jpg/1280px-Simon_de_Vlieger_%281601-1653%29_-_A_Battle_between_Dutch_Ships_%28the_%27Texel%27%2C_%27Domburch%27_and_%27Arnemude%27%29_and_Chinese_Junks_-_1401166_-_National_Trust.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 811,
+      "alt": "Simon de Vlieger (1601-1653) - A Battle between Dutch Ships (the 'Texel', 'Domburch' and 'Arnemude')",
+      "query": "natural landscape China xiamen",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Simon de Vlieger",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Simon_de_Vlieger_(1601-1653)_-_A_Battle_between_Dutch_Ships_(the_%27Texel%27,_%27Domburch%27_and_%27Arnemude%27)_and_Chinese_Junks_-_1401166_-_National_Trust.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "登山",
+    "水库",
+    "海沧"
+  ],
+  "popularity": 77,
+  "sources": [
+    {
+      "title": "百度百科·天竺山",
+      "url": "https://baike.baidu.com/item/%E5%A4%A9%E7%AB%BA%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-28"
+    }
+  ],
+  "updatedAt": "2026-09-28",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "天竺山森林公园"
+  },
+  "_geocodeTitle": "天竺山森林公园",
+  "_geocodeSuspect": false,
+  "district": "350205"
+}

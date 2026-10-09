@@ -1,0 +1,114 @@
+{
+  "id": "taipei-fine-arts-museum",
+  "name": "台北市立美术馆",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "中山区圆山的现代美术馆，几何式建筑与大挑高展厅。",
+  "description": "台北市立美术馆在中山区圆山一带，是本地现代艺术的主要场馆。建筑是灰白色的几何式样，走廊与大厅有大量自然光，展场挑高，适合挂大幅作品。馆内以当代艺术为主，绘画、装置与影像都有，展览轮换快，也常有本地与海外艺术家的个展。馆外的雕塑中庭与草地是休息的好地方。它和旁边的花博公园连成一片，可以一次逛完。捷运圆山站出站即到，参观两三小时合适。",
+  "highlights": [
+    "灰白色几何式建筑，自然光充足",
+    "当代艺术为主，展览轮换快",
+    "馆外雕塑中庭与草地"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.52416,
+      "lat": 25.07263,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "台北市中山区中山北路三段181号",
+    "district": "中山区",
+    "transportTip": "捷运圆山站步行约五分钟"
+  },
+  "practical": {
+    "openHours": "约09:30-17:30，周一休馆，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "约新台币数十元，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "solo",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Taipei-fine-arts-museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Taipei-fine-arts-museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 810,
+      "alt": "Taipei-fine-arts-museum.jpg",
+      "query": "台北市立美术馆 台北",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Prattflora",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taipei-fine-arts-museum.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Taipei_Fine_Arts_Museum_070624_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Taipei_Fine_Arts_Museum_070624_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 810,
+      "alt": "Taipei Fine Arts Museum 070624 2.jpg",
+      "query": "台北市立美术馆 台北",
+      "credit": {
+        "source": "wikimedia",
+        "author": "User: (WT-shared) ResTpeTw at wts wikivoyage",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taipei_Fine_Arts_Museum_070624_2.jpg",
+        "license": "CC BY 2.5",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Taipei_Fine_Arts_Museum_20040501.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Taipei_Fine_Arts_Museum_20040501.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 810,
+      "alt": "Taipei Fine Arts Museum 20040501.jpg",
+      "query": "台北市立美术馆 台北",
+      "credit": {
+        "source": "wikimedia",
+        "author": "T.R Cheng / User: (WT-shared) Trcheng at wts wikivoyage",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taipei_Fine_Arts_Museum_20040501.jpg",
+        "license": "CC BY-SA 1.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "美术馆",
+    "当代艺术",
+    "展览"
+  ],
+  "popularity": 76,
+  "sources": [
+    {
+      "title": "台北市立美术馆·百度百科",
+      "url": "https://baike.baidu.com/item/%E5%8F%B0%E5%8C%97%E5%B8%82%E7%AB%8B%E7%BE%8E%E6%9C%AF%E9%A6%86",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-03"
+    }
+  ],
+  "updatedAt": "2026-10-03",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Taipei Fine Arts Museum",
+    "zh": "台北市立美术馆"
+  },
+  "_geocodeTitle": "台北市立美术馆",
+  "_geocodeSuspect": false,
+  "district": "711010"
+}

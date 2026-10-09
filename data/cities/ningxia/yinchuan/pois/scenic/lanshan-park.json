@@ -1,0 +1,118 @@
+{
+  "id": "lanshan-park",
+  "name": "览山公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "仿罗马剧场看台正对阅海，日落时分坐台阶上看湖，是银川新晋看夕阳地。",
+  "description": "览山公园在新城西边，最出圈的是一座仿罗马的看台，一级级台阶正对阅海湖。傍晚坐在台阶上，看太阳落进水里，湖面金红，是银川新晋的看夕阳地。公园大，草坪多，有人野餐、放风筝。它免费，停车方便，周末人多。想占好位就早来。风从湖上来，凉，带件外套。台阶硬，垫个坐垫更舒服。",
+  "highlights": [
+    "仿罗马看台正对阅海",
+    "日落坐台阶看湖金红",
+    "免费新晋夕阳地"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.215192,
+      "lat": 38.530076,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "宁夏回族自治区银川市金凤区览山公园",
+    "district": "金凤区",
+    "transportTip": "市区公交或自驾到览山公园",
+    "entrance": {
+      "lng": 106.21838,
+      "lat": 38.530042,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约07:00-21:00，以公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费（以官方为准）",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Lanzhou_Skyline_201906.jpg/1280px-Lanzhou_Skyline_201906.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Lanzhou_Skyline_201906.jpg/1280px-Lanzhou_Skyline_201906.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 356,
+      "alt": "Lanzhou Skyline 201906.jpg",
+      "query": "Lanshan Park",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Pieceofmetalwork",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lanzhou_Skyline_201906.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/16896042/pexels-photo-16896042.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/16896042/pexels-photo-16896042.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6720,
+      "height": 4480,
+      "alt": "Night scene in a well-lit parking lot featuring various parked cars and street lamps.",
+      "query": "Lanshan Park",
+      "credit": {
+        "source": "pexels",
+        "author": "Matheus Bertelli",
+        "sourceUrl": "https://www.pexels.com/photo/cars-standing-on-parking-lot-at-night-16896042/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38723205/pexels-photo-38723205.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38723205/pexels-photo-38723205.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5970,
+      "height": 3980,
+      "alt": "View of Chungshan Cultural Park in Taiwan with lush greenery and urban backdrop.",
+      "query": "Lanshan Park",
+      "credit": {
+        "source": "pexels",
+        "author": "BUY Camera",
+        "sourceUrl": "https://www.pexels.com/photo/urban-green-space-in-chungshan-cultural-park-taiwan-38723205/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "公园",
+    "看台",
+    "日落"
+  ],
+  "popularity": 60,
+  "sources": [
+    {
+      "title": "百度百科·览山公园",
+      "url": "https://baike.baidu.com/item/%E8%A7%88%E5%B1%B1%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Lanshan Park",
+    "zh": "览山公园"
+  },
+  "_geocodeTitle": "览山公园",
+  "_geocodeSuspect": false,
+  "district": "640106"
+}

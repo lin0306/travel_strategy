@@ -1,0 +1,114 @@
+{
+  "id": "ciqikou-ancient-town",
+  "name": "磁器口古镇",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "嘉陵江畔的千年码头古镇，青石板街、吊脚楼与小吃摊挤在一起。",
+  "description": "磁器口原名龙隐镇，因明清时期瓷器在此集散而得名，是嘉陵江边保存下来的老码头。一条主街顺着地势起伏，两侧是穿斗结构的老屋与吊脚楼，门前挂着腊肉、辣椒和一串串麻花。这里最热闹的是吃：陈麻花现炸现卖，毛血旺、鸡杂、糍粑一路排开，走两步就想停下来。镇上还留着宝轮寺、翰林院等旧迹，以及抗战时期众多文化机构迁驻留下的痕迹。工作日清晨人最少，午后到傍晚最挤，节假日几乎寸步难行。",
+  "highlights": [
+    "千年码头古镇，青石板街顺山势起伏",
+    "陈麻花、毛血旺等小吃集中",
+    "宝轮寺与翰林院等旧迹尚存"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.44967,
+      "lat": 29.581181,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "重庆市沙坪坝区磁器口",
+    "district": "沙坪坝",
+    "transportTip": "轨道交通 1 号线磁器口站出站即到"
+  },
+  "practical": {
+    "openHours": "全天开放（店铺多为 09:00-21:00，以现场为准）",
+    "openHoursRef": 0,
+    "ticket": "免费（部分院落单独收费，以现场为准）",
+    "ticketRef": 0,
+    "duration": "建议 120-180 分钟",
+    "durationMinutes": [
+      120,
+      180
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "couple",
+    "kids",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Ciqikou_Cross.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Ciqikou_Cross.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 994,
+      "alt": "Ciqikou Cross.jpg",
+      "query": "磁器口古镇 重庆",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Unknown authorUnknown author",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ciqikou_Cross.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Gateway_in_Ciqikou%2C_Chongqing.JPG/1280px-Gateway_in_Ciqikou%2C_Chongqing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Gateway_in_Ciqikou%2C_Chongqing.JPG/1280px-Gateway_in_Ciqikou%2C_Chongqing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Gateway in Ciqikou, Chongqing.JPG",
+      "query": "磁器口古镇 重庆",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Jpbowen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gateway_in_Ciqikou,_Chongqing.JPG",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Gateway_to_temple_in_Ciqikou%2C_Chongqing.JPG/1280px-Gateway_to_temple_in_Ciqikou%2C_Chongqing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Gateway_to_temple_in_Ciqikou%2C_Chongqing.JPG/1280px-Gateway_to_temple_in_Ciqikou%2C_Chongqing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Gateway to temple in Ciqikou, Chongqing.JPG",
+      "query": "磁器口古镇 重庆",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Jpbowen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gateway_to_temple_in_Ciqikou,_Chongqing.JPG",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "古镇",
+    "码头",
+    "小吃",
+    "吊脚楼"
+  ],
+  "popularity": 90,
+  "sources": [
+    {
+      "title": "百度百科·磁器口",
+      "url": "https://baike.baidu.com/item/%E7%A3%81%E5%99%A8%E5%8F%A3",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "磁器口古镇"
+  },
+  "_geocodeTitle": "磁器口古镇",
+  "_geocodeSuspect": false,
+  "district": "500106"
+}

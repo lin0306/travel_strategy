@@ -1,0 +1,98 @@
+{
+  "id": "yantai-apple",
+  "name": "烟台苹果",
+  "category": "food",
+  "subtype": "local",
+  "summary": "红富士之乡，脆甜多汁的北方名果。",
+  "description": "烟台是中国苹果之乡，尤以红富士闻名，栽培历史逾百年。得益于半岛气候与昼夜温差，果实脆甜、汁多、香气足，是当地最拿得出手的水果名片。秋天是采摘与上市旺季，市区与郊县路边随处可见果园与直销点。买几斤边走边吃，或带一箱作手信都很合适。",
+  "highlights": [
+    "红富士苹果之乡",
+    "脆甜多汁",
+    "秋采摘旺季"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.447755,
+      "lat": 37.464551,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "烟台市各县区果园",
+    "district": "莱山区",
+    "transportTip": "郊县果园直销；市区果店"
+  },
+  "practical": {
+    "openHours": "全天（应季秋冬季最佳）",
+    "openHoursRef": 0,
+    "ticket": "按斤计价",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
+      15,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/%E5%B1%B1%E4%B8%9C%E7%83%9F%E5%8F%B0%E5%AF%8C%E5%A3%AB%E8%8B%B9%E6%9E%9C.jpg/1280px-%E5%B1%B1%E4%B8%9C%E7%83%9F%E5%8F%B0%E5%AF%8C%E5%A3%AB%E8%8B%B9%E6%9E%9C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/%E5%B1%B1%E4%B8%9C%E7%83%9F%E5%8F%B0%E5%AF%8C%E5%A3%AB%E8%8B%B9%E6%9E%9C.jpg/1280px-%E5%B1%B1%E4%B8%9C%E7%83%9F%E5%8F%B0%E5%AF%8C%E5%A3%AB%E8%8B%B9%E6%9E%9C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1440,
+      "alt": "山东烟台富士苹果.jpg",
+      "query": "烟台苹果 烟台",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Walter Grassroot",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B1%B1%E4%B8%9C%E7%83%9F%E5%8F%B0%E5%AF%8C%E5%A3%AB%E8%8B%B9%E6%9E%9C.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/%E5%B1%B1%E4%B8%9C%E7%83%9F%E5%8F%B0%E5%AF%8C%E5%A3%AB%E8%8B%B9%E6%9E%9C_2020.jpg/1280px-%E5%B1%B1%E4%B8%9C%E7%83%9F%E5%8F%B0%E5%AF%8C%E5%A3%AB%E8%8B%B9%E6%9E%9C_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/%E5%B1%B1%E4%B8%9C%E7%83%9F%E5%8F%B0%E5%AF%8C%E5%A3%AB%E8%8B%B9%E6%9E%9C_2020.jpg/1280px-%E5%B1%B1%E4%B8%9C%E7%83%9F%E5%8F%B0%E5%AF%8C%E5%A3%AB%E8%8B%B9%E6%9E%9C_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1440,
+      "alt": "山东烟台富士苹果 2020.jpg",
+      "query": "烟台苹果 烟台",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Walter Grassroot",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B1%B1%E4%B8%9C%E7%83%9F%E5%8F%B0%E5%AF%8C%E5%A3%AB%E8%8B%B9%E6%9E%9C_2020.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "苹果",
+    "红富士",
+    "手信"
+  ],
+  "popularity": 90,
+  "sources": [
+    {
+      "title": "百度百科·烟台苹果",
+      "url": "https://baike.baidu.com/item/%E7%83%9F%E5%8F%B0%E8%8B%B9%E6%9E%9C",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-05"
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "烟台苹果"
+  },
+  "_geocodeTitle": "烟台市",
+  "_geocodeSuspect": false,
+  "district": "370613"
+}

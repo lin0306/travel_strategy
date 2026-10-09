@@ -1,0 +1,83 @@
+{
+  "id": "guiyang-theater",
+  "name": "贵阳大剧院",
+  "category": "culture",
+  "subtype": "performance",
+  "summary": "南明区市南路上的一座剧院，有演出时开，话剧音乐会都有。",
+  "description": "贵阳大剧院在南明区市南路，是这座城主要的一座剧院。有演出的时候开 —— 话剧、音乐会、舞剧、也有本地院团的戏。厅不大不小，座位一千上下。它是贵阳看演出的主要去处，外地的团来也在这儿。票价看场次，中等。它在市南路，周围吃的多，散场之后能就近吃。来之前先看排期 —— 不是每天都有演出。",
+  "highlights": [
+    "这座城主要的一座剧院，话剧音乐会舞剧都有",
+    "座位一千上下，外地的团来也在这儿",
+    "来之前先看排期，不是每天都有演出"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.719625,
+      "lat": 26.563516,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "贵州省贵阳市南明区市南路40号",
+    "district": "南明区",
+    "transportTip": "市区打车或公交到市南路"
+  },
+  "practical": {
+    "openHours": "按演出排期，以剧院公告为准",
+    "openHoursRef": 0,
+    "ticket": "中等（按场次）",
+    "ticketRef": 0,
+    "duration": "建议 120-180 分钟",
+    "durationMinutes": [
+      120,
+      180
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "elders",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/%E8%B4%B5%E9%98%B3%E5%A4%A7%E5%89%A7%E9%99%A2%E7%94%B5%E5%BD%B1%E5%9F%8E113427.jpg/1280px-%E8%B4%B5%E9%98%B3%E5%A4%A7%E5%89%A7%E9%99%A2%E7%94%B5%E5%BD%B1%E5%9F%8E113427.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/%E8%B4%B5%E9%98%B3%E5%A4%A7%E5%89%A7%E9%99%A2%E7%94%B5%E5%BD%B1%E5%9F%8E113427.jpg/1280px-%E8%B4%B5%E9%98%B3%E5%A4%A7%E5%89%A7%E9%99%A2%E7%94%B5%E5%BD%B1%E5%9F%8E113427.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "贵阳大剧院电影城113427.jpg",
+      "query": "贵阳大剧院 贵阳",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Augustohai",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%B4%B5%E9%98%B3%E5%A4%A7%E5%89%A7%E9%99%A2%E7%94%B5%E5%BD%B1%E5%9F%8E113427.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "剧院",
+    "演出",
+    "音乐会"
+  ],
+  "popularity": 44,
+  "sources": [
+    {
+      "title": "百度百科·贵阳大剧院",
+      "url": "https://baike.baidu.com/item/%E8%B4%B5%E9%98%B3%E5%A4%A7%E5%89%A7%E9%99%A2",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "贵阳大剧院"
+  },
+  "_geocodeTitle": "贵阳大剧院",
+  "_geocodeSuspect": false,
+  "district": "520102"
+}

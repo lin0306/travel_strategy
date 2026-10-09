@@ -1,0 +1,82 @@
+{
+  "id": "dade-school",
+  "name": "达德学校旧址",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "中华南路上的一所老学校旧址，清末办的，出过不少人。",
+  "description": "达德学校在中华南路，是清末办的一所学校，现在是旧址。它在这一带算新学里办得早的，出过不少人。房子是几进院子，青砖，木窗，中间是天井。现在里面是陈列，讲这所学校与那一段。免费。它在老城里，周围是闹市，进去之后很静。顺路看一眼就够，十几分钟到半小时。",
+  "highlights": [
+    "清末办的一所老学校，几进院子青砖木窗",
+    "现在里面是陈列，讲这所学校与那一段",
+    "免费，在闹市里但进去很静"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.712744,
+      "lat": 26.575913,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "贵州省贵阳市南明区中华南路14号",
+    "district": "云岩区",
+    "transportTip": "市区步行或公交到中华南路"
+  },
+  "practical": {
+    "openHours": "约9:00-17:00，以馆方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 45-90 分钟",
+    "durationMinutes": [
+      45,
+      90
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "elders",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/%E8%BE%BE%E5%BE%B7%E4%B9%A6%E9%99%A2%E7%9A%84%E9%9B%95%E5%A1%91_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/%E8%BE%BE%E5%BE%B7%E4%B9%A6%E9%99%A2%E7%9A%84%E9%9B%95%E5%A1%91_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 810,
+      "alt": "达德书院的雕塑 - panoramio.jpg",
+      "query": "达德学校旧址 贵阳",
+      "credit": {
+        "source": "wikimedia",
+        "author": "汗血",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%BE%BE%E5%BE%B7%E4%B9%A6%E9%99%A2%E7%9A%84%E9%9B%95%E5%A1%91_-_panoramio.jpg",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "旧址",
+    "学校",
+    "清末"
+  ],
+  "popularity": 34,
+  "sources": [
+    {
+      "title": "百度百科·达德学校",
+      "url": "https://baike.baidu.com/item/%E8%BE%BE%E5%BE%B7%E5%AD%A6%E6%A0%A1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "达德学校旧址"
+  },
+  "_geocodeTitle": "贵阳市达德学校旧址陈列馆",
+  "_geocodeSuspect": false,
+  "district": "520103"
+}

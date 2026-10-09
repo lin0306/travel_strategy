@@ -1,0 +1,114 @@
+{
+  "id": "taidong",
+  "name": "台东商业步行街",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "市北区最热闹的一条商业街，人流大、摊子密，晚上最旺。",
+  "description": "台东步行街在市北区台东三路一带，是青岛人流量最大的商业街之一，与中山路那一头的老城气质完全不同——这里是本地人逛街的地方。主街与支路连成一片，两侧是服装、小商品、手机配件与各色小吃摊，招牌一层压一层。街边常年摆着烤串、章鱼小丸子、臭豆腐、奶茶一类的摊子，价格便宜。晚上最热闹，灯全亮，人挤人；周末下午也一样。它离啤酒街与营口路市场都是步行范围，三处可以连成一趟市北的夜。地铁 2 号线台东站出来就是。",
+  "highlights": [
+    "市北区人流量最大的商业街，本地人逛街的地方",
+    "主街与支路连成一片，摊子密、价格便宜",
+    "离啤酒街与营口路市场都是步行范围"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.356836,
+      "lat": 36.082134,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山东省青岛市市北区台东三路（台东商业步行街）",
+    "district": "市北区",
+    "transportTip": "地铁2号线台东站，出站即到"
+  },
+  "practical": {
+    "openHours": "全天（店铺多为10:00-22:00），以现场为准",
+    "openHoursRef": 0,
+    "ticket": "免费（店铺与小吃另计），以实际消费为准",
+    "ticketRef": 0,
+    "duration": "建议 60-180 分钟",
+    "durationMinutes": [
+      60,
+      180
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "friends",
+    "couple",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Classroom_%2850015020411%29.jpg/1280px-Classroom_%2850015020411%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Classroom_%2850015020411%29.jpg/1280px-Classroom_%2850015020411%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Classroom (50015020411).jpg",
+      "query": "Chinese old town street qingdao",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Gauthier DELECROIX - 郭天 from Qingdao, China",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Classroom_(50015020411).jpg",
+        "license": "CC BY 2.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Down_from_the_pagoda_%2850008017587%29.jpg/1280px-Down_from_the_pagoda_%2850008017587%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Down_from_the_pagoda_%2850008017587%29.jpg/1280px-Down_from_the_pagoda_%2850008017587%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1620,
+      "alt": "Down from the pagoda (50008017587).jpg",
+      "query": "Chinese old town street qingdao",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Gauthier DELECROIX - 郭天 from Qingdao, China",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Down_from_the_pagoda_(50008017587).jpg",
+        "license": "CC BY 2.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Down_to_the_pavillon_%2850039441856%29.jpg/1280px-Down_to_the_pavillon_%2850039441856%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Down_to_the_pavillon_%2850039441856%29.jpg/1280px-Down_to_the_pavillon_%2850039441856%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Down to the pavillon (50039441856).jpg",
+      "query": "Chinese old town street qingdao",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Gauthier DELECROIX - 郭天 from Qingdao, China",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Down_to_the_pavillon_(50039441856).jpg",
+        "license": "CC BY 2.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "步行街",
+    "商圈",
+    "夜市"
+  ],
+  "popularity": 86,
+  "sources": [
+    {
+      "title": "百度百科·台东商业步行街",
+      "url": "https://baike.baidu.com/item/%E5%8F%B0%E4%B8%9C%E5%95%86%E4%B8%9A%E6%AD%A5%E8%A1%8C%E8%A1%97",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-28"
+    }
+  ],
+  "updatedAt": "2026-09-28",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "台东商业步行街"
+  },
+  "_geocodeTitle": "台东商业步行街",
+  "_geocodeSuspect": false,
+  "district": "370203"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "jimei-xuecun",
+  "name": "集美学村",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "陈嘉庚办起来的学校群，红砖白石的楼一排排对着龙舟池。",
+  "description": "集美学村在集美区，1913 年起由陈嘉庚陆续创办，从小学、中学到师范、水产、航海、商科，一所所办下来，最后长成一片连在一起的校区。建筑是他定的那个样子：红砖墙体配白色花岗岩梁柱，屋顶是中式的大屋顶，一排排立在海边，本地叫嘉庚风格。南薰楼是这一片最高的，道南楼、尚忠楼、允恭楼沿池排开。楼群前面是龙舟池，池边有亭台与看台的台阶，端午前后有龙舟赛。学村的校门、图书馆、体育馆都在步行范围内，沿池走一圈一小时。地铁 1 号线过集美，从岛内过来半个多小时。",
+  "highlights": [
+    "1913 年起陈嘉庚陆续创办，从小学办到航海商科",
+    "红砖配白花岗岩、中式大屋顶的嘉庚风格楼群",
+    "楼群前是龙舟池，端午前后有赛龙舟"
+  ],
+  "location": {
+    "point": {
+      "lng": 118.092826,
+      "lat": 24.566286,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "福建省厦门市集美区银江路183号（集美学村）",
+    "district": "湖里区",
+    "transportTip": "地铁1号线集美学村站，出站即到"
+  },
+  "practical": {
+    "openHours": "全天（校园开放时段以学校公告为准），以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费（校内部分场馆另计），以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 90-210 分钟",
+    "durationMinutes": [
+      90,
+      210
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Gulangyu_mansion_2011_12.jpg/1280px-Gulangyu_mansion_2011_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Gulangyu_mansion_2011_12.jpg/1280px-Gulangyu_mansion_2011_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Gulangyu mansion 2011 12.jpg",
+      "query": "Chinese historic architecture xiamen",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Rolfmueller",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gulangyu_mansion_2011_12.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "嘉庚建筑",
+    "龙舟池",
+    "学村"
+  ],
+  "popularity": 87,
+  "sources": [
+    {
+      "title": "百度百科·集美学村",
+      "url": "https://baike.baidu.com/item/%E9%9B%86%E7%BE%8E%E5%AD%A6%E6%9D%91",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-28"
+    }
+  ],
+  "updatedAt": "2026-09-28",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "集美学村"
+  },
+  "_geocodeTitle": "集美学村",
+  "_geocodeSuspect": false,
+  "district": "350206"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "stanley-market",
+  "name": "赤柱市集",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "港岛南端的一个海湾：市集、美利楼与海滩在这一段的两侧。",
+  "description": "赤柱在港岛南端，是港岛最早开发的地点之一——开埠初期英军曾在此驻扎。现在的赤柱由几部分组成：市集是沿街的一排摊档，卖的是衣服、纪念品与画作；美利楼原在中环，1982 年拆除时把构件编号保存，1999 年在赤柱重建；卜公码头与海滨长廊在另一侧；还有天后庙与旧警署。它同时是本地外国居民聚集的区域，海边的酒吧与餐厅很多。从中环或铜锣湾坐巴士过来约半小时，沿途的南岸海景是另一段。",
+  "highlights": [
+    "市集、美利楼、卜公码头与海滩几部分",
+    "美利楼是从中环整体迁建过来的",
+    "巴士沿途的南岸海景是行程的一部分"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.216966,
+      "lat": 22.216035,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "香港岛南区赤柱市场道（赤柱市集）",
+    "district": "南区",
+    "transportTip": "港铁铜锣湾站/中环站换乘6、6A或260路巴士"
+  },
+  "practical": {
+    "openHours": "市集约10:00-18:00，餐厅另有时间（以各店公告为准）",
+    "openHoursRef": 0,
+    "ticket": "免费，消费另计",
+    "ticketRef": 0,
+    "duration": "建议 120-300 分钟",
+    "durationMinutes": [
+      120,
+      300
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/35697887/pexels-photo-35697887.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35697887/pexels-photo-35697887.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3456,
+      "height": 4608,
+      "alt": "Photo of the historic Yick Fung Building surrounded by bamboo scaffolding in Hong Kong.",
+      "query": "Chinese old town street hongkong",
+      "credit": {
+        "source": "pexels",
+        "author": "terry narcissan tsui",
+        "sourceUrl": "https://www.pexels.com/photo/historic-yick-fung-building-in-hong-kong-35697887/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/35697864/pexels-photo-35697864.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35697864/pexels-photo-35697864.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3456,
+      "height": 4608,
+      "alt": "A detailed street view of bamboo scaffolding surrounding old buildings in Hong Kong, showcasing traditional architecture",
+      "query": "Chinese old town street hongkong",
+      "credit": {
+        "source": "pexels",
+        "author": "terry narcissan tsui",
+        "sourceUrl": "https://www.pexels.com/photo/urban-street-view-of-bamboo-scaffolding-in-hong-kong-35697864/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/35698116/pexels-photo-35698116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35698116/pexels-photo-35698116.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4608,
+      "height": 3456,
+      "alt": "Rusty metal door with graffiti in Hong Kong, showcasing urban decay and street art.",
+      "query": "Chinese old town street hongkong",
+      "credit": {
+        "source": "pexels",
+        "author": "terry narcissan tsui",
+        "sourceUrl": "https://www.pexels.com/photo/grungy-urban-door-with-graffiti-in-hong-kong-35698116/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "市集",
+    "海滩",
+    "免费"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "百度百科·赤柱",
+      "url": "https://baike.baidu.com/item/%E8%B5%A4%E6%9F%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-24"
+    }
+  ],
+  "updatedAt": "2026-09-24",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "赤柱市集"
+  },
+  "_geocodeTitle": "赤柱市集Stanley Market",
+  "_geocodeSuspect": false,
+  "district": "811400"
+}

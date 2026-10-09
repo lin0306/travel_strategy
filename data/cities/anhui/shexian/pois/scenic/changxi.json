@@ -1,0 +1,87 @@
+{
+  "id": "changxi",
+  "name": "昌溪",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "新安江边的古村，号称徽州最圆的村，水口林和老宅都好。",
+  "description": "昌溪在歙县南部的新安江边，是一座被水口林和老宅围起来的古村，当地有「徽州最圆的村」的说法，意思是村子的格局完整、藏风聚气。村里有保存很好的明清民居、祠堂和石板巷，村外是大片的油菜花田和江景。它不像宏村、西递那样被游客填满，更安静、更生活化，适合慢慢逛、坐下来看江。春天沿江一路菜花，秋天桂花开了满村都是香的。离深渡不远，常和新安江画廊串在一起走。",
+  "highlights": [
+    "徽州最圆的村",
+    "水口林",
+    "新安江边",
+    "免票"
+  ],
+  "location": {
+    "point": {
+      "lng": 118.649156,
+      "lat": 29.909268,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "黄山市歙县昌溪乡昌溪村（深渡镇西南约 10 公里）",
+    "district": "歙县",
+    "transportTip": "自驾或包车从深渡 / 县城前往；部分路段山路"
+  },
+  "practical": {
+    "openHours": "全天（村落）",
+    "openHoursRef": 0,
+    "ticket": "村落免费",
+    "ticketRef": 0,
+    "duration": "建议 90-200 分钟",
+    "durationMinutes": [
+      90,
+      200
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "family",
+    "solo",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Wooden_bridge_in_Changxi%2C_She_County%2C_Anhui_Province%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Wooden_bridge_in_Changxi%2C_She_County%2C_Anhui_Province%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 810,
+      "alt": "Wooden bridge in Changxi, She County, Anhui Province, China.jpg",
+      "query": "昌溪 歙县",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Alex Needham",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wooden_bridge_in_Changxi,_She_County,_Anhui_Province,_China.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "古村",
+    "新安江",
+    "油菜花",
+    "老宅"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "百度百科·昌溪村",
+      "url": "https://baike.baidu.com/item/%E6%98%8C%E6%BA%AA%E6%9D%91",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "昌溪"
+  },
+  "_geocodeTitle": "昌溪乡",
+  "_geocodeSuspect": false,
+  "district": "341021"
+}

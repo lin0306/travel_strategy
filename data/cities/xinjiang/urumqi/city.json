@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "urumqi",
+  "name": "乌鲁木齐",
+  "province": "新疆",
+  "adcode": "650100",
+  "provinceAdcode": "650000",
+  "tagline": "天山脚下的亚心之城，大巴扎的烟火与雪山同框",
+  "intro": "乌鲁木齐在新疆中北部，是一座离海最远的省会。它夹在天山北麓和准噶尔盆地之间，抬头是博格达雪峰，脚下是多民族混居的街巷。这里有亚洲地理中心的界碑，有红山上俯瞰全城的古塔，更有国际大巴扎里的烤肉香和手鼓声。往东是天山天池的碧水雪山，往南是南山的草甸牧场。它是进疆的门户，也是丝路上至今还活着的一站，值得专程留两天慢慢走。",
+  "center": {
+    "lng": 87.7894,
+    "lat": 43.7558,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    86.798,
+    42.9234,
+    88.9747,
+    45.0016
+  ],
+  "defaultZoom": 9,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/27987227/pexels-photo-27987227.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27987227/pexels-photo-27987227.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2767,
+      "height": 1848,
+      "alt": "Scenic view of the Grand Bazaar's traditional architecture in Xinjiang, China, during the day.",
+      "query": "乌鲁木齐 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Lywin",
+        "sourceUrl": "https://www.pexels.com/photo/a-city-street-with-buildings-and-a-clock-tower-27987227/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7018462/pexels-photo-7018462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7018462/pexels-photo-7018462.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 3000,
+      "alt": "A vibrant aerial view of Ashgabat showcasing modern architecture and residential areas.",
+      "query": "乌鲁木齐 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Nikolai Kolosov",
+        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-an-urban-area-7018462/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36212874/pexels-photo-36212874.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36212874/pexels-photo-36212874.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3346,
+      "height": 5019,
+      "alt": "Dusk cityscape of Harbin, China with skyscrapers and a pastel sky backdrop.",
+      "query": "乌鲁木齐 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "ainc T",
+        "sourceUrl": "https://www.pexels.com/photo/aerial-cityscape-view-of-harbin-at-dusk-36212874/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "六到九月最舒服，草原绿、瓜果熟；冬天冷且雪大，天池常封",
+    "suggestedDays": "三到四天。市区大巴扎红山一天，天山天池一天，南山牧场一天",
+    "transitTip": "地窝堡机场和兰新高铁都通，市区打车便宜，去天池南山有旅游专线",
+    "climateTip": "温带大陆性气候，昼夜温差极大，夏天也要备外套，冬天零下二十度常态"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-02"
+  },
+  "updatedAt": "2026-10-02"
+}

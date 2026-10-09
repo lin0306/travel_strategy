@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "luoyang",
+  "name": "洛阳",
+  "province": "河南",
+  "adcode": "410300",
+  "provinceAdcode": "410000",
+  "tagline": "千年帝都，牡丹花城",
+  "intro": "洛阳在河南西部，洛河边上。它做过十三朝的都城，从夏商一直到五代，很长一段时间是中国的中心。今天城里有龙门石窟、白马寺、关林这些老东西，也有应天门、洛邑古城这些复建的唐风。洛阳人喝汤：牛肉汤、羊肉汤、不翻汤，一天从一碗汤开始。四月牡丹开，满城是花，是洛阳最有名的时候。城外栾川的老君山，是这两年爆火的山。",
+  "center": {
+    "lng": 112.4539,
+    "lat": 34.6197,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    111.1366,
+    33.5624,
+    112.9804,
+    35.0455
+  ],
+  "defaultZoom": 9,
+  "heroImages": [
+    {
+      "url": "https://images.unsplash.com/photo-1528279455837-b87113226907?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8MXx8JUU2JUI0JTlCJUU5JTk4JUIzJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTA4MzM3OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "thumbUrl": "https://images.unsplash.com/photo-1528279455837-b87113226907?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8MXx8JUU2JUI0JTlCJUU5JTk4JUIzJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTA4MzM3OTB8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "width": 5760,
+      "height": 3840,
+      "alt": "aerial photography of city escape during golden hour",
+      "query": "洛阳 China city skyline",
+      "credit": {
+        "source": "unsplash",
+        "author": "zhang kaiyv",
+        "sourceUrl": "https://unsplash.com/photos/aerial-photography-of-city-escape-during-golden-hour-Ca898f7Rbn8",
+        "license": "Unsplash License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1681741841866-9a4d83b86821?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8Mnx8JUU2JUI0JTlCJUU5JTk4JUIzJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTA4MzM3OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "thumbUrl": "https://images.unsplash.com/photo-1681741841866-9a4d83b86821?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8Mnx8JUU2JUI0JTlCJUU5JTk4JUIzJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTA4MzM3OTB8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "width": 9504,
+      "height": 6336,
+      "alt": "a view of a city from across a lake",
+      "query": "洛阳 China city skyline",
+      "credit": {
+        "source": "unsplash",
+        "author": "zhang kaiyv",
+        "sourceUrl": "https://unsplash.com/photos/a-view-of-a-city-from-across-a-lake-LL2dNVqwVfo",
+        "license": "Unsplash License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1614052153442-4595f3d3d6e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8M3x8JUU2JUI0JTlCJUU5JTk4JUIzJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTA4MzM3OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "thumbUrl": "https://images.unsplash.com/photo-1614052153442-4595f3d3d6e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8M3x8JUU2JUI0JTlCJUU5JTk4JUIzJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTA4MzM3OTB8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "width": 7354,
+      "height": 3949,
+      "alt": "city skyline during night time",
+      "query": "洛阳 China city skyline",
+      "credit": {
+        "source": "unsplash",
+        "author": "Henry Chen",
+        "sourceUrl": "https://unsplash.com/photos/city-skyline-during-night-time-OF8MM3_Glrc",
+        "license": "Unsplash License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "四月中下旬看牡丹；其余季节老君山春秋最佳，冬季可看雪",
+    "suggestedDays": "三天。市区石窟寺院与古城两天，栾川老君山一天",
+    "transitTip": "洛阳龙门站通高铁，郑州过来约一小时；市区公交与地铁覆盖；去栾川需乘汽车约两小时",
+    "climateTip": "温带大陆性气候，昼夜温差大，春季多风，夏季热，秋冬干燥，备外套"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-01"
+  },
+  "updatedAt": "2026-10-01"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "hankou-bund",
+  "name": "汉口江滩",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "沿着长江铺开的一大片市民空间，这里是看得见日常武汉的地方。",
+  "description": "汉口江滩是沿着长江北岸整治出来的一长条公园，从沿江大道一直铺出去。它的分层很清楚：防汛堤内是一级平台，往外逐级下降到江面，每层的功能不一样。傍晚这座城市的社交都搬到这里：放风筝、跳舞、遛狗、坐着吹风的人占满堤坡。秋天芦苇长起来的时候，江边是一大片黄。这里不需要门票，也不需要计划，路过就进去走一段最合适。",
+  "highlights": [
+    "分层的防汛堤岸被做成了市民公园",
+    "傍晚是这里真正的时间",
+    "秋天芦苇长起来最好看"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.31618,
+      "lat": 30.606531,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "武汉市江岸区沿江大道",
+    "district": "江岸区",
+    "transportTip": "地铁1号线/2号线江汉路站步行",
+    "entrance": {
+      "lng": 114.315234,
+      "lat": 30.607929,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 90-240 分钟",
+    "durationMinutes": [
+      90,
+      240
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "couple",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/The_Bund_Hotel.jpg/1280px-The_Bund_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/The_Bund_Hotel.jpg/1280px-The_Bund_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 723,
+      "alt": "The Bund Hotel.jpg",
+      "query": "汉口江滩 武汉",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Howchou",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Bund_Hotel.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/The_Bund_Hotel_2.jpg/1280px-The_Bund_Hotel_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/The_Bund_Hotel_2.jpg/1280px-The_Bund_Hotel_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 723,
+      "alt": "The Bund Hotel 2.jpg",
+      "query": "汉口江滩 武汉",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Howchou",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Bund_Hotel_2.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/WuhanBund1927.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/WuhanBund1927.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 724,
+      "alt": "WuhanBund1927.jpg",
+      "query": "汉口江滩 武汉",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Military Post of Japanese Invading Army",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:WuhanBund1927.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "江滩",
+    "免费",
+    "日常"
+  ],
+  "popularity": 84,
+  "sources": [
+    {
+      "title": "百度百科·汉口江滩",
+      "url": "https://baike.baidu.com/item/%E6%B1%89%E5%8F%A3%E6%B1%9F%E6%BB%A9",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-23"
+    }
+  ],
+  "updatedAt": "2026-09-23",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "汉口江滩"
+  },
+  "_geocodeTitle": "汉口江滩",
+  "_geocodeSuspect": false,
+  "district": "420102"
+}

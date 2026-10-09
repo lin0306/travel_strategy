@@ -1,0 +1,114 @@
+{
+  "id": "guan-tang-bao",
+  "name": "开封灌汤包",
+  "category": "food",
+  "subtype": "local",
+  "summary": "开封头号小吃，皮薄汤多，提起像灯笼，先吸汤再吃。",
+  "description": "开封灌汤包是这座城的头号小吃。皮薄、汤多，蒸好提起像一盏灯笼。吃的讲究：先在皮上咬小口吸汤，再蘸醋吃馅。第一楼等老店名气大，但街边小店也地道。趁热，凉了皮硬汤凝。一笼几只，配八宝粥刚好。",
+  "highlights": [
+    "开封头号小吃皮薄汤多",
+    "提起像灯笼先吸汤",
+    "第一楼老店与街边皆地道"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.183927,
+      "lat": 34.409325,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河南省开封市各灌汤包老店（第一楼等）",
+    "district": "尉氏县",
+    "transportTip": "市区各老店均有"
+  },
+  "practical": {
+    "openHours": "约06:30-21:00",
+    "openHoursRef": 0,
+    "ticket": "约40元/笼起",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "couple",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Steamed_soup_buns_of_Kaifeng.jpg/1280px-Steamed_soup_buns_of_Kaifeng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Steamed_soup_buns_of_Kaifeng.jpg/1280px-Steamed_soup_buns_of_Kaifeng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Steamed soup buns of Kaifeng.jpg",
+      "query": "开封灌汤包 开封",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Windmemories",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Steamed_soup_buns_of_Kaifeng.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32034410/pexels-photo-32034410.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32034410/pexels-photo-32034410.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Delicious steamed dumplings served in a bamboo basket, perfect for a traditional Chinese meal.",
+      "query": "Kaifeng Soup Dumplings",
+      "credit": {
+        "source": "pexels",
+        "author": "Zheng Jiayi",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-steamed-chinese-dumplings-in-bamboo-basket-32034410/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38141840/pexels-photo-38141840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38141840/pexels-photo-38141840.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6240,
+      "height": 4160,
+      "alt": "Close-up of steamed dumplings in a traditional bamboo basket, ready to serve.",
+      "query": "Kaifeng Soup Dumplings",
+      "credit": {
+        "source": "pexels",
+        "author": "John Joshua Mejia Jose",
+        "sourceUrl": "https://www.pexels.com/photo/steamed-dumplings-in-bamboo-basket-38141840/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "灌汤包",
+    "小吃",
+    "招牌"
+  ],
+  "popularity": 96,
+  "sources": [
+    {
+      "title": "百度百科·灌汤包",
+      "url": "https://baike.baidu.com/item/%E7%81%8C%E6%B1%A4%E5%8C%85",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Kaifeng Soup Dumplings",
+    "zh": "开封灌汤包"
+  },
+  "_geocodeTitle": "开封灌汤包",
+  "_geocodeSuspect": false,
+  "district": "410223"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "fuliang-tea",
+  "name": "浮梁茶园",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "浮梁县一带的茶山，出红茶，春天采茶时满山绿，能买茶。",
+  "description": "浮梁一带是茶区 —— 山上一垄一垄的茶树，春天采茶的时候满山都是绿的。这里出红茶，也叫浮红。它和瓷一样，都是浮梁古时的大宗东西。茶园有的能进去走，也能买茶。春天来最好。",
+  "highlights": [
+    "浮梁茶区，春天满山绿采茶",
+    "出红茶又称浮红",
+    "有的可进园走也可买茶"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.35071,
+      "lat": 29.635496,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "江西省景德镇市浮梁县茶园",
+    "district": "浮梁县",
+    "transportTip": "浮梁县转车到茶山"
+  },
+  "practical": {
+    "openHours": "约08:00-17:00",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/16325662/pexels-photo-16325662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/16325662/pexels-photo-16325662.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6720,
+      "height": 4480,
+      "alt": "Aerial view of lush green tea plantations in Hangzhou, China, showcasing terraced fields under a vibrant tree.",
+      "query": "Fuliang tea plantation Jiangxi",
+      "credit": {
+        "source": "pexels",
+        "author": "Bluesea Tea",
+        "sourceUrl": "https://www.pexels.com/photo/tree-and-rural-fields-behind-16325662/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6872196/pexels-photo-6872196.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6872196/pexels-photo-6872196.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5907,
+      "height": 3938,
+      "alt": "Aerial view of vibrant green tea plantations with winding river and mountains in the background.",
+      "query": "Fuliang tea plantation Jiangxi",
+      "credit": {
+        "source": "pexels",
+        "author": "Quang Nguyen Vinh",
+        "sourceUrl": "https://www.pexels.com/photo/green-plantation-on-hills-6872196/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/18732606/pexels-photo-18732606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/18732606/pexels-photo-18732606.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4672,
+      "height": 7008,
+      "alt": "Green terraced tea plantations in Rize, Türkiye under a soft light.",
+      "query": "Fuliang tea plantation Jiangxi",
+      "credit": {
+        "source": "pexels",
+        "author": "M.Emin  BİLİR",
+        "sourceUrl": "https://www.pexels.com/photo/plantation-on-hillside-18732606/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "茶园",
+    "红茶",
+    "浮梁"
+  ],
+  "popularity": 54,
+  "sources": [
+    {
+      "title": "百度百科·浮梁县",
+      "url": "https://baike.baidu.com/item/%E6%B5%AE%E6%A2%81%E5%8E%BF",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Fuliang tea plantation Jiangxi",
+    "zh": "浮梁茶园"
+  },
+  "_geocodeTitle": "浮梁县绿谷茶园",
+  "district": "360222"
+}

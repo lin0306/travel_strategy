@@ -1,0 +1,112 @@
+{
+  "id": "zhenhai-tower",
+  "name": "镇海楼（广州博物馆）",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "越秀山上的五层楼，始建于明洪武年间，里面放着广州自己的编年史。",
+  "description": "镇海楼在越秀山上，明洪武十三年建。「镇海」两个字的意思，与那个时期沿海城市的心态有关。楼高五层，外墙是红砂岩配石构的长条窗，历代重修过多次，现在的样子定型于 1928 年那次：外形保留了旧样，内部换成了钢筋混凝土结构。它现在挂的另一块牌子是广州博物馆，陈列从上古讲到近代，器物背后的线索是这座城的沿革。顶层是可以走出去的一圈回廊，从上面看的是老城的树。它在越秀公园里面，要另买门票。",
+  "highlights": [
+    "明洪武年间始建，现存形制定型于 1928 年",
+    "楼身同时是广州博物馆",
+    "顶层回廊可以俯瞰老城"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.265617,
+      "lat": 23.137976,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "广州市越秀区越秀公园内镇海路",
+    "district": "越秀区",
+    "transportTip": "地铁2号线越秀公园站"
+  },
+  "practical": {
+    "openHours": "约09:00-17:30（以官方公告为准）",
+    "openHoursRef": 0,
+    "ticket": "约10元起（越秀公园门票另计），以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "elders",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Gao_Jianfu%2C_Twilight_at_Zhenhai_Tower_%281926%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Gao_Jianfu%2C_Twilight_at_Zhenhai_Tower_%281926%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1550,
+      "alt": "Gao Jianfu, Twilight at Zhenhai Tower (1926).jpg",
+      "query": "镇海楼 广州",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Gao Jianfu",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gao_Jianfu,_Twilight_at_Zhenhai_Tower_(1926).jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Zhenhai_Tower%2C_Yuexiu_Park%2C_Guangzhou_%2810075748113%29.jpg/1280px-Zhenhai_Tower%2C_Yuexiu_Park%2C_Guangzhou_%2810075748113%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Zhenhai_Tower%2C_Yuexiu_Park%2C_Guangzhou_%2810075748113%29.jpg/1280px-Zhenhai_Tower%2C_Yuexiu_Park%2C_Guangzhou_%2810075748113%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Zhenhai Tower, Yuexiu Park, Guangzhou (10075748113).jpg",
+      "query": "镇海楼 广州",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Gary Todd from Xinzheng, China",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhenhai_Tower,_Yuexiu_Park,_Guangzhou_(10075748113).jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Zhenhai_Tower_Exterior.jpg/1280px-Zhenhai_Tower_Exterior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Zhenhai_Tower_Exterior.jpg/1280px-Zhenhai_Tower_Exterior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Zhenhai Tower Exterior.jpg",
+      "query": "镇海楼 广州",
+      "credit": {
+        "source": "wikimedia",
+        "author": "中少",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhenhai_Tower_Exterior.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "古迹",
+    "博物馆",
+    "登高"
+  ],
+  "popularity": 78,
+  "sources": [
+    {
+      "title": "百度百科·镇海楼",
+      "url": "https://baike.baidu.com/item/%E9%95%87%E6%B5%B7%E6%A5%BC",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-24"
+    }
+  ],
+  "updatedAt": "2026-09-24",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "镇海楼（广州博物馆）"
+  },
+  "_geocodeTitle": "镇海楼",
+  "_geocodeSuspect": false,
+  "district": "440104"
+}

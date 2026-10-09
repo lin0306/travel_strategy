@@ -1,0 +1,82 @@
+{
+  "id": "tianzifang-street",
+  "name": "上海话剧艺术中心(安福路)",
+  "category": "hotspot",
+  "subtype": "photo",
+  "summary": "话剧演出、街区小店与外国居民混住的一片。",
+  "description": "安福路一带的特色是「混」：上海话剧艺术中心在这里，周边又聚集了大量独立小店、酒吧、与外国居民。它是那种白天安静、傍晚开始热闹的街区，转角就能遇到面包房与 πx为一体的 вино bar。这里的商业密度高但状体量小，「逛街」的定义在这里被改写了。",
+  "highlights": [
+    "话剧中心与小店在同一街区",
+    "白天安静、傍晚热闹",
+    "外国居民比例高"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.44114,
+      "lat": 31.213714,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "上海市徐汇区安福路288号",
+    "district": "徐汇",
+    "transportTip": "地铁1号线/7号线常熟路站步行"
+  },
+  "practical": {
+    "openHours": "全天开放(商铺多为10:00-22:00)",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 90-240 分钟",
+    "durationMinutes": [
+      90,
+      240
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Shanghai_Dramatic_Arts_Center.JPG/1280px-Shanghai_Dramatic_Arts_Center.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Shanghai_Dramatic_Arts_Center.JPG/1280px-Shanghai_Dramatic_Arts_Center.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 717,
+      "alt": "Shanghai Dramatic Arts Center.JPG",
+      "query": "上海话剧艺术中心 上海",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Fayhoo",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shanghai_Dramatic_Arts_Center.JPG",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "街区",
+    "话剧",
+    "小店"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "百度百科·安福路",
+      "url": "https://baike.baidu.com/item/%E5%AE%89%E7%A6%8F%E8%B7%AF",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "上海话剧艺术中心(安福路)"
+  },
+  "_geocodeTitle": "上海话剧艺术中心-艺术剧院(话剧大厦店)",
+  "_geocodeSuspect": false,
+  "district": "310104"
+}

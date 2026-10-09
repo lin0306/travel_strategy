@@ -1,0 +1,113 @@
+{
+  "id": "xita-lengmian",
+  "name": "西塔冷面",
+  "category": "food",
+  "subtype": "local",
+  "summary": "西塔朝鲜族的冷面，荞麦面冰汤配牛肉辣酱，夏天绝配。",
+  "description": "西塔冷面是朝鲜族的冷面，荞麦面泡在冰汤里。配牛肉片、鸡蛋、辣酱，酸辣凉。夏天吃一碗透心凉，是沈阳夏天的续命。西塔的馆子最正宗，加份狗肉或海鲜也行。街边老店往往比大馆子更正宗些。",
+  "highlights": [
+    "西塔朝鲜族荞麦冰汤面",
+    "配牛肉辣酱酸辣凉",
+    "夏天透心凉最正宗"
+  ],
+  "location": {
+    "point": {
+      "lng": 123.428372,
+      "lat": 41.761344,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省沈阳市和平区西塔街各冷面馆",
+    "district": "和平区",
+    "transportTip": "西塔街冷面馆均有"
+  },
+  "practical": {
+    "openHours": "约10:00-22:00",
+    "openHoursRef": 0,
+    "ticket": "约18元/碗起",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
+      15,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "solo",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38525988/pexels-photo-38525988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38525988/pexels-photo-38525988.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Refreshing bowl of chilled soba noodles with ice cubes and chopsticks.",
+      "query": "Xita Cold Noodles",
+      "credit": {
+        "source": "pexels",
+        "author": "Jasmine Jin-Yu Lin",
+        "sourceUrl": "https://www.pexels.com/photo/chilled-soba-noodles-with-ice-cubes-38525988/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37433370/pexels-photo-37433370.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37433370/pexels-photo-37433370.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4284,
+      "height": 5712,
+      "alt": "Cold Korean noodle dish naengmyeon served in chilled broth, topped with egg and vegetables.",
+      "query": "Xita Cold Noodles",
+      "credit": {
+        "source": "pexels",
+        "author": "Pexels User",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-korean-naengmyeon-dish-on-table-37433370/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31892092/pexels-photo-31892092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31892092/pexels-photo-31892092.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Delicious Korean cold noodles (Mul Naengmyeon) garnished with egg, cucumber, and sesame seeds.",
+      "query": "Xita Cold Noodles",
+      "credit": {
+        "source": "pexels",
+        "author": "Theodore Nguyen",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-korean-cold-noodle-dish-in-seoul-31892092/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "冷面",
+    "西塔",
+    "朝鲜族"
+  ],
+  "popularity": 82,
+  "sources": [
+    {
+      "title": "百度百科·冷面",
+      "url": "https://baike.baidu.com/item/%E5%86%B7%E9%9D%A2",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Xita Cold Noodles",
+    "zh": "西塔冷面"
+  },
+  "_geocodeTitle": "西塔大冷面烤肉店(三好soho店)",
+  "_geocodeSuspect": false,
+  "district": "210102"
+}

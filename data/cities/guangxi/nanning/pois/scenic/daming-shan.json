@@ -1,0 +1,117 @@
+{
+  "id": "daming-shan",
+  "name": "大明山",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "南宁北部的山脉，夏天避暑、冬天看雾凇。",
+  "description": "大明山在武鸣区与马山交界，是南宁周边最高的山之一，主峰海拔约1760米。它森林覆盖率高，夏季比山下低很多，是南宁人避暑的首选；冬天高海拔处偶有雾凇。山上有一条观景长廊，看云海和峡谷。离市区约两小时车程，基本要安排一整天，或在山脚住一晚。台阶多，鞋子要合适。",
+  "highlights": [
+    "南宁周边最高山之一，夏季避暑",
+    "冬季高海拔偶有雾凇",
+    "离城约两小时，安排一整天"
+  ],
+  "location": {
+    "point": {
+      "lng": 108.337457,
+      "lat": 23.52598,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "南宁市武鸣区两江镇明山路1号",
+    "district": "武鸣区",
+    "transportTip": "市区自驾或乘武鸣专线约2小时",
+    "entrance": {
+      "lng": 108.336779,
+      "lat": 23.521561,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:00-17:00，以景区公告为准",
+    "openHoursRef": 0,
+    "ticket": "约80元起，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 180-360 分钟",
+    "durationMinutes": [
+      180,
+      360
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/17880310/pexels-photo-17880310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/17880310/pexels-photo-17880310.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4928,
+      "height": 3264,
+      "alt": "Scenic view of a rural valley with a winding river and lush greenery under an overcast sky.",
+      "query": "natural landscape China nanning",
+      "credit": {
+        "source": "pexels",
+        "author": "AG ZN",
+        "sourceUrl": "https://www.pexels.com/photo/winding-river-in-the-valley-17880310/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/26957749/pexels-photo-26957749.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/26957749/pexels-photo-26957749.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4016,
+      "height": 6016,
+      "alt": "Stunning pagoda at Nan Lian Garden in Hong Kong, showcasing traditional architecture amidst lush greenery.",
+      "query": "natural landscape China nanning",
+      "credit": {
+        "source": "pexels",
+        "author": "King  Ho",
+        "sourceUrl": "https://www.pexels.com/photo/pagoda-in-nan-lian-garden-26957749/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/8311568/pexels-photo-8311568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/8311568/pexels-photo-8311568.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6285,
+      "height": 9427,
+      "alt": "A tranquil pond by cliffs mirrors the sky and foliage, creating a peaceful natural scene.",
+      "query": "natural landscape China nanning",
+      "credit": {
+        "source": "pexels",
+        "author": "Marstion",
+        "sourceUrl": "https://www.pexels.com/photo/rocks-and-cliff-reflecting-in-clear-pond-water-8311568/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "山脉",
+    "避暑",
+    "云海"
+  ],
+  "popularity": 78,
+  "sources": [
+    {
+      "title": "百度百科·大明山",
+      "url": "https://baike.baidu.com/item/%E5%A4%A7%E6%98%8E%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "大明山"
+  },
+  "_geocodeTitle": "大明山(检查站门)",
+  "_geocodeSuspect": false,
+  "district": "450110"
+}

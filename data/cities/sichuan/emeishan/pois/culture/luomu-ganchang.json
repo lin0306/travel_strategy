@@ -1,0 +1,87 @@
+{
+  "id": "luomu-ganchang",
+  "name": "罗目赶场",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "老场镇的集市日，附近的人来摆摊卖自家东西。",
+  "description": "赶场是川南乡镇的定期集市，罗目镇至今还保留着。到了场期，附近村子里的人挑着菜、竹器、鸡蛋和自家做的吃食来街边摆摊，主街两边挤得走不动。卖的东西很杂——新鲜蔬菜、活鸡、竹编背篼、铁器、草药，还有现做的叶儿粑和豆花。价格比市区便宜，而且能买到一些平常不好找的土货。这里几乎没有游客，是观察本地生活最直接的方式。赶场日上午最热闹，中午过后陆续收摊。",
+  "highlights": [
+    "定期集市",
+    "土货",
+    "本地生活"
+  ],
+  "location": {
+    "point": {
+      "lng": 103.459286,
+      "lat": 29.513022,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "峨眉山市罗目镇",
+    "district": "峨眉山",
+    "transportTip": "市区公交或打车约二十分钟"
+  },
+  "practical": {
+    "openHours": "赶场日上午（具体日期问当地人）",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-180 分钟",
+    "durationMinutes": [
+      60,
+      180
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "solo",
+    "couple",
+    "family",
+    "friends",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/%E7%BD%97%E7%9B%AE%E5%8F%A4%E9%95%87.jpg/1280px-%E7%BD%97%E7%9B%AE%E5%8F%A4%E9%95%87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/%E7%BD%97%E7%9B%AE%E5%8F%A4%E9%95%87.jpg/1280px-%E7%BD%97%E7%9B%AE%E5%8F%A4%E9%95%87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "罗目古镇.jpg",
+      "query": "Chinese old town street emeishan",
+      "credit": {
+        "source": "wikimedia",
+        "author": "不秋齋主人",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%BD%97%E7%9B%AE%E5%8F%A4%E9%95%87.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "赶场",
+    "集市",
+    "土货",
+    "生活气息",
+    "免票"
+  ],
+  "popularity": 56,
+  "sources": [
+    {
+      "title": "百度百科·赶场",
+      "url": "https://baike.baidu.com/item/%E8%B5%B6%E5%9C%BA",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "罗目赶场"
+  },
+  "_geocodeTitle": "罗目镇",
+  "_geocodeSuspect": false,
+  "district": "511181"
+}

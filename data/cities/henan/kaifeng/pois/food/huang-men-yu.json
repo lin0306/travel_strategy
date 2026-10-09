@@ -1,0 +1,113 @@
+{
+  "id": "huang-men-yu",
+  "name": "黄焖鱼",
+  "category": "food",
+  "subtype": "local",
+  "summary": "开封小鱼黄焖，酱香浓郁，连汤带鱼，下饭。",
+  "description": "黄焖鱼是开封的家常做法。小鱼肉嫩，用酱料黄焖，连汤带鱼一锅。咸鲜浓郁，特别下饭。街边小馆常见，价钱实在。挑刺少的鱼，吃着省心。配米饭或馒头都好。价格随季节浮动，结账以店内为准。",
+  "highlights": [
+    "开封家常黄焖小鱼",
+    "酱香浓郁下饭",
+    "街边小馆实在价"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.367968,
+      "lat": 34.792944,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河南省开封市各小馆",
+    "district": "顺河回族区",
+    "transportTip": "市区小馆均有"
+  },
+  "practical": {
+    "openHours": "约10:00-21:00",
+    "openHoursRef": 0,
+    "ticket": "约30元/份起",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37220339/pexels-photo-37220339.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37220339/pexels-photo-37220339.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "Delicious Vietnamese clay pot braised fish with ginger, peppers, and spices. Authentic culinary delight.",
+      "query": "Braised Fish Kaifeng",
+      "credit": {
+        "source": "pexels",
+        "author": "Phan Cuong",
+        "sourceUrl": "https://www.pexels.com/photo/vietnamese-clay-pot-braised-fish-with-spices-37220339/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/30613288/pexels-photo-30613288.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/30613288/pexels-photo-30613288.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "A mouthwatering Vietnamese braised fish dish with eggplant and rice.",
+      "query": "Braised Fish Kaifeng",
+      "credit": {
+        "source": "pexels",
+        "author": "FOX ^.ᆽ.^= ∫",
+        "sourceUrl": "https://www.pexels.com/photo/delicious-vietnamese-braised-fish-meal-30613288/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37220340/pexels-photo-37220340.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37220340/pexels-photo-37220340.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "Delicious Vietnamese braised fish with fresh vegetables in a traditional clay pot.",
+      "query": "Braised Fish Kaifeng",
+      "credit": {
+        "source": "pexels",
+        "author": "Phan Cuong",
+        "sourceUrl": "https://www.pexels.com/photo/vietnamese-clay-pot-braised-fish-with-vegetables-37220340/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "鱼",
+    "黄焖",
+    "家常"
+  ],
+  "popularity": 68,
+  "sources": [
+    {
+      "title": "百度百科·开封",
+      "url": "https://baike.baidu.com/item/%E5%BC%80%E5%B0%81",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Braised Fish Kaifeng",
+    "zh": "黄焖鱼"
+  },
+  "_geocodeTitle": "苏聚黄焖鱼",
+  "_geocodeSuspect": false,
+  "district": "410203"
+}

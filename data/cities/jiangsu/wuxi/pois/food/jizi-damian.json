@@ -1,0 +1,113 @@
+{
+  "id": "jizi-damian",
+  "name": "鸡子大面",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "爆鱼浇头的汤面，无锡人的面碗。",
+  "description": "鸡子大面是无锡传统汤面，以爆鱼（或焖肉）为浇头、配卤蛋，面汤清鲜、浇头入味，是无锡人日常的面碗。它与小笼、馄饨并称早点三件套，老面馆现吊的汤底最见功夫。价低、管饱。清晨一碗，一天有底。",
+  "highlights": [
+    "爆鱼浇头配卤蛋汤面",
+    "面汤清鲜浇头入味",
+    "早点三件套之一"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.307611,
+      "lat": 31.52195,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "无锡市梁溪区老面馆",
+    "district": "梁溪区",
+    "transportTip": "老城与街边面馆"
+  },
+  "practical": {
+    "openHours": "约06:00-14:00（以门店为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约15元，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
+      15,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "elders",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4240,
+      "height": 2832,
+      "alt": "A bustling street food stall offering traditional dishes to a customer in stylish winter attire.",
+      "query": "Chinese street food dish wuxi",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3032,
+      "height": 3923,
+      "alt": "Browse a bustling Shenzhen food stall with diverse Asian meals and colorful bowls, embodying Chinese culinary culture.",
+      "query": "Chinese street food dish wuxi",
+      "credit": {
+        "source": "pexels",
+        "author": "Jaime Hernandez Erives",
+        "sourceUrl": "https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33861060/pexels-photo-33861060.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33861060/pexels-photo-33861060.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 7444,
+      "height": 4965,
+      "alt": "Vibrant night market scene in Xiamen showcasing diverse street food offerings and local culture.",
+      "query": "Chinese street food dish wuxi",
+      "credit": {
+        "source": "pexels",
+        "author": "Vincent Tan",
+        "sourceUrl": "https://www.pexels.com/photo/night-market-street-food-in-xiamen-china-33861060/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "大面",
+    "爆鱼",
+    "早点"
+  ],
+  "popularity": 62,
+  "sources": [
+    {
+      "title": "百度百科·大面",
+      "url": "https://baike.baidu.com/item/%E5%A4%A7%E9%9D%A2",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "鸡子大面"
+  },
+  "_geocodeTitle": "老无锡老面馆食堂(瑞星家园店)",
+  "_geocodeSuspect": false,
+  "district": "320213"
+}

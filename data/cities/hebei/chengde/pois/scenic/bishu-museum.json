@@ -1,0 +1,82 @@
+{
+  "id": "bishu-museum",
+  "name": "避暑山庄博物馆",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "避暑山庄正宫区里的一座博物馆，看清代宫廷陈设和皇帝用过的东西。",
+  "description": "避暑山庄博物馆在避暑山庄的正宫区里，是看清代宫廷陈设的地方。皇帝在这儿住、办公，所以摆的是当年的样子 —— 家具、器物、字画。澹泊敬诚殿是主殿，楠木的，不上漆，木头本色。它在园子里，买山庄门票就能看。想看皇帝当年什么排场，来这一片。",
+  "highlights": [
+    "山庄正宫区里的宫廷陈设博物馆",
+    "澹泊敬诚殿楠木本色不上漆",
+    "含在山庄门票内，看皇帝排场"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.941522,
+      "lat": 40.983368,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河北省承德市双桥区丽正门大街承德避暑山庄内",
+    "district": "双桥区",
+    "transportTip": "进避暑山庄后步行到正宫区"
+  },
+  "practical": {
+    "openHours": "约08:00-17:00，随山庄开放",
+    "openHoursRef": 0,
+    "ticket": "含避暑山庄门票",
+    "ticketRef": 0,
+    "duration": "建议 60-100 分钟",
+    "durationMinutes": [
+      60,
+      100
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "elders",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/%E9%93%9C%E8%83%8E%E6%8E%90%E4%B8%9D%E7%8F%90%E7%90%85%E5%85%AB%E5%AE%9D_20260401_123607.jpg/1280px-%E9%93%9C%E8%83%8E%E6%8E%90%E4%B8%9D%E7%8F%90%E7%90%85%E5%85%AB%E5%AE%9D_20260401_123607.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/%E9%93%9C%E8%83%8E%E6%8E%90%E4%B8%9D%E7%8F%90%E7%90%85%E5%85%AB%E5%AE%9D_20260401_123607.jpg/1280px-%E9%93%9C%E8%83%8E%E6%8E%90%E4%B8%9D%E7%8F%90%E7%90%85%E5%85%AB%E5%AE%9D_20260401_123607.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "铜胎掐丝珐琅八宝 20260401 123607.jpg",
+      "query": "避暑山庄博物馆 承德",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Auongkinghe",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%93%9C%E8%83%8E%E6%8E%90%E4%B8%9D%E7%8F%90%E7%90%85%E5%85%AB%E5%AE%9D_20260401_123607.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "博物馆",
+    "宫廷",
+    "楠木"
+  ],
+  "popularity": 68,
+  "sources": [
+    {
+      "title": "百度百科·承德避暑山庄",
+      "url": "https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "避暑山庄博物馆"
+  },
+  "_geocodeTitle": "避暑山庄博物馆-正宫区",
+  "_geocodeSuspect": false,
+  "district": "130802"
+}

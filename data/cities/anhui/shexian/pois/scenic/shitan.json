@@ -1,0 +1,92 @@
+{
+  "id": "shitan",
+  "name": "石潭",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "春天油菜花、秋天文云海的摄影村，山脊上的观景台很绝。",
+  "description": "石潭在歙县霞坑镇的深山里，由几个散落在山脊上的小村组成，是徽州最出名的摄影点之一。每年三月，山下的油菜花铺满梯田，桃花、梨花点缀其间，晨雾从谷底升起来，是很多摄影人年年要来的场面。到了秋天，这里又是看云海和秋色的地方，雨后初晴的概率最高。村里有观景台可以俯瞰整个山谷，也有农家可以吃饭住宿。山路窄、弯多，自驾要小心，但风景对得起这一路折腾。",
+  "highlights": [
+    "油菜花",
+    "云海",
+    "摄影村",
+    "观景台",
+    "免票"
+  ],
+  "location": {
+    "point": {
+      "lng": 118.669709,
+      "lat": 29.934656,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "黄山市歙县霞坑镇石潭村",
+    "district": "歙县",
+    "transportTip": "自驾或包车从县城约 1 小时到石潭；山路较窄",
+    "entrance": {
+      "lng": 118.668737,
+      "lat": 29.935447,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天（村落与自然景观）",
+    "openHoursRef": 0,
+    "ticket": "村落免费；观景台可能有人维护收费（以当地为准）",
+    "ticketRef": 0,
+    "duration": "建议 120-300 分钟",
+    "durationMinutes": [
+      120,
+      300
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "solo",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/GZM%E7%9F%B3%E6%BD%AD_%E7%AB%99%E5%8F%B0%E5%B1%8F%E8%94%BD%E9%97%A8.jpg/1280px-GZM%E7%9F%B3%E6%BD%AD_%E7%AB%99%E5%8F%B0%E5%B1%8F%E8%94%BD%E9%97%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/GZM%E7%9F%B3%E6%BD%AD_%E7%AB%99%E5%8F%B0%E5%B1%8F%E8%94%BD%E9%97%A8.jpg/1280px-GZM%E7%9F%B3%E6%BD%AD_%E7%AB%99%E5%8F%B0%E5%B1%8F%E8%94%BD%E9%97%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "GZM石潭 站台屏蔽门.jpg",
+      "query": "石潭",
+      "credit": {
+        "source": "wikimedia",
+        "author": "重庆轨交18",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:GZM%E7%9F%B3%E6%BD%AD_%E7%AB%99%E5%8F%B0%E5%B1%8F%E8%94%BD%E9%97%A8.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "摄影",
+    "油菜花",
+    "云海",
+    "古村"
+  ],
+  "popularity": 85,
+  "sources": [
+    {
+      "title": "百度百科·石潭村",
+      "url": "https://baike.baidu.com/item/%E7%9F%B3%E6%BD%AD%E6%9D%91",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "石潭"
+  },
+  "_geocodeTitle": "石潭",
+  "_geocodeSuspect": false,
+  "district": "341021"
+}

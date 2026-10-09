@@ -1,0 +1,119 @@
+{
+  "id": "songlanshan",
+  "name": "松兰山旅游度假区",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "象山县东海岸的一片海滨度假区，沙滩、礁石与海岸线连在一起，是宁波看海的地方。",
+  "description": "松兰山在象山县东边，是宁波少数能正经看海的地方 —— 宁波的海岸多半是泥质滩涂，这里是沙与礁。度假区沿海岸线铺开，有几片沙滩，沙不算极细，但能下脚，夏天有游泳区与水上项目；礁石那一段是另一种样子，退潮能下去看。沿海有一条滨海绿道，骑车或散步都好，边上是酒店与度假设施。它不是那种热带海湾的水色，东海近岸偏黄，这一点要有预期；但人少、开阔，夏天傍晚很舒服。门票中等，项目另付。从宁波市区过跨海大桥一个多小时。台风季去之前看海况与开放公告。",
+  "highlights": [
+    "宁波少数能正经看海的地方，有沙滩也有礁石",
+    "沿海有一条滨海绿道，骑车散步都好",
+    "东海近岸水色偏黄，要有预期，但人少开阔"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.965801,
+      "lat": 29.445761,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "浙江省宁波市象山县松兰山枫涛路1号",
+    "district": "象山县",
+    "transportTip": "宁波汽车南站乘直达车至象山后转车；或自驾经跨海大桥",
+    "entrance": {
+      "lng": 121.95023,
+      "lat": 29.424939,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约8:00-17:00，游泳区按季节开放，以公告为准",
+    "openHoursRef": 0,
+    "ticket": "门票中等，项目另付，以官方公告为准",
+    "ticketRef": 0,
+    "duration": "建议 240-420 分钟",
+    "durationMinutes": [
+      240,
+      420
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "friends",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37630414/pexels-photo-37630414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37630414/pexels-photo-37630414.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5712,
+      "height": 4284,
+      "alt": "A tranquil lake view featuring swans and distant mountains under a clear sky.",
+      "query": "natural landscape China ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Jayson liu",
+        "sourceUrl": "https://www.pexels.com/photo/serene-lake-scene-with-swans-and-mountains-37630414/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34029304/pexels-photo-34029304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34029304/pexels-photo-34029304.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3264,
+      "height": 2448,
+      "alt": "A pagoda atop a hill with lush greenery overlooks a serene lake under a clear sky.",
+      "query": "natural landscape China ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "子华 叶",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-eastern-pagoda-over-lake-34029304/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39364005/pexels-photo-39364005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39364005/pexels-photo-39364005.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8256,
+      "height": 5504,
+      "alt": "Container ships docked at a busy port with cranes and buildings in the background, under a clear sky.",
+      "query": "natural landscape China ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Oleksiy Yeshtokyn,🌻🇺🇦🌻",
+        "sourceUrl": "https://www.pexels.com/photo/shipping-containers-at-bustling-port-during-daytime-39364005/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "海滨",
+    "沙滩",
+    "绿道"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·松兰山",
+      "url": "https://baike.baidu.com/item/%E6%9D%BE%E5%85%B0%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "松兰山旅游度假区"
+  },
+  "_geocodeTitle": "宁波松兰山滨海旅游度假区",
+  "_geocodeSuspect": false,
+  "district": "330225"
+}

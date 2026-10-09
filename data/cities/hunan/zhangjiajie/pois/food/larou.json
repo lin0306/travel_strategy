@@ -1,0 +1,113 @@
+{
+  "id": "larou",
+  "name": "湘西腊肉",
+  "category": "food",
+  "subtype": "local",
+  "summary": "湘西一带熏制的腊肉，烟香浓，炒菜或蒸着吃都香。",
+  "description": "湘西腊肉是这一带熏制的肉。它用松柏一类的柴熏，颜色深，烟香浓。炒蒜苗、蒸笋子都香。张家界的馆子多半有，是山里冬天存肉的老法子，带点烟味才算正。分量不小，少点几样尝个遍。",
+  "highlights": [
+    "湘西松柏熏制腊肉",
+    "烟香浓，炒蒸皆宜",
+    "山里存肉老法子"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.484192,
+      "lat": 29.110837,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "湖南省张家界市永定区各餐馆",
+    "district": "永定区",
+    "transportTip": "市区餐馆均有"
+  },
+  "practical": {
+    "openHours": "约10:00-21:00",
+    "openHoursRef": 0,
+    "ticket": "约40元/份起",
+    "ticketRef": 0,
+    "duration": "建议 60-90 分钟",
+    "durationMinutes": [
+      60,
+      90
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/19687409/pexels-photo-19687409.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/19687409/pexels-photo-19687409.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6240,
+      "height": 4160,
+      "alt": "Raw meat strips and sausages drying outdoors, showcasing traditional food preservation methods.",
+      "query": "Xiangxi Cured Pork",
+      "credit": {
+        "source": "pexels",
+        "author": "Tito Zzzz",
+        "sourceUrl": "https://www.pexels.com/photo/meat-hanging-off-a-bar-19687409/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/8250416/pexels-photo-8250416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/8250416/pexels-photo-8250416.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4860,
+      "height": 3240,
+      "alt": "A detailed close-up of traditional Italian salami sticks arranged in rows, showcasing their texture.",
+      "query": "Xiangxi Cured Pork",
+      "credit": {
+        "source": "pexels",
+        "author": "Julia Filirovska",
+        "sourceUrl": "https://www.pexels.com/photo/displayed-salami-sausages-8250416/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/12178797/pexels-photo-12178797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/12178797/pexels-photo-12178797.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "Close-up of traditional Romanian smoked meat, showcasing rich textures and spices.",
+      "query": "Xiangxi Cured Pork",
+      "credit": {
+        "source": "pexels",
+        "author": "Nica's Photo",
+        "sourceUrl": "https://www.pexels.com/photo/close-up-of-baked-goods-12178797/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "腊肉",
+    "湘西",
+    "熏制"
+  ],
+  "popularity": 88,
+  "sources": [
+    {
+      "title": "百度百科·湘西腊肉",
+      "url": "https://baike.baidu.com/item/%E8%85%8A%E8%82%89",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Xiangxi Cured Pork",
+    "zh": "湘西腊肉"
+  },
+  "_geocodeTitle": "湘西腊肉张家界莓茶",
+  "_geocodeSuspect": false,
+  "district": "430802"
+}

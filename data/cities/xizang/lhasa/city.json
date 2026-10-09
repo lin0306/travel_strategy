@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "lhasa",
+  "name": "拉萨",
+  "province": "西藏",
+  "adcode": "540100",
+  "provinceAdcode": "540000",
+  "tagline": "一年日照三千小时，城不大，转经的人从早走到晚",
+  "intro": "拉萨在拉萨河边，海拔三千六百多米，一年日照三千小时以上，所以叫日光城。城不大，老城区围着大昭寺摊开，八廓街就是转经道，从早到晚都有人顺着走。布达拉宫在城北的玛布日山上，从城里哪个角度都看得见。这一带寺庙多，哲蚌寺、色拉寺、甘丹寺是格鲁派三大寺，都在近郊的山根下。城里吃的是藏式一套：甜茶、藏面、牦牛肉、酸奶，甜茶馆从早上坐满到下午。来这儿两件事要提前想：高原反应与防晒，前两天别安排满。",
+  "center": {
+    "lng": 91.1719,
+    "lat": 29.6535,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    89.7551,
+    29.2384,
+    92.6168,
+    31.0481
+  ],
+  "defaultZoom": 9,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/20436779/pexels-photo-20436779.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/20436779/pexels-photo-20436779.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2745,
+      "height": 4117,
+      "alt": "A striking pagoda rises above the urban landscape of Shangri-La city, showcasing traditional Chinese architecture.",
+      "query": "拉萨 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "jacky xing",
+        "sourceUrl": "https://www.pexels.com/photo/distant-view-of-dukezong-ancient-city-in-shangri-la-city-in-china-20436779/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/4402750/pexels-photo-4402750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/4402750/pexels-photo-4402750.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8256,
+      "height": 6192,
+      "alt": "Picturesque view of wavy ridge with trees covered with mist under sky in twilight",
+      "query": "拉萨 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "光曦 刘",
+        "sourceUrl": "https://www.pexels.com/photo/spectacular-mountains-in-fog-under-sky-in-evening-4402750/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/9431177/pexels-photo-9431177.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/9431177/pexels-photo-9431177.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 9504,
+      "height": 6336,
+      "alt": "Panoramic view of Beijing with the iconic White Dagoba stupa under a cloudy sky.",
+      "query": "拉萨 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "zhang kaiyv",
+        "sourceUrl": "https://www.pexels.com/photo/a-city-under-a-cloudy-sky-9431177/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "五月到十月。七八月雨水集中但最暖，九十月天最稳、能见度最好",
+    "suggestedDays": "四到五天。头两天留给适应海拔，再往外走去当雄、达孜",
+    "transitTip": "贡嘎机场到市区约一小时；城里打车与公交都方便，老城区适合步行",
+    "climateTip": "昼夜温差十几度；紫外线极强，海拔高，前两天避免剧烈活动"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-01"
+  },
+  "updatedAt": "2026-10-01"
+}

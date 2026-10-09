@@ -1,0 +1,119 @@
+{
+  "id": "xiaoputuo",
+  "name": "小普陀景区",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "东钱湖里伸出去的一条堤与一座岛，岛上有寺与观音像，是湖上最好的观湖位置。",
+  "description": "小普陀在东钱湖北边，是一条从岸上伸进湖里的长堤与堤那头的一座小岛。名字是比起舟山那个普陀来的，岛上有一座寺与一尊观音，是湖上的一处香火地。来这里多半不是为上香，是为看湖 —— 走在堤上，两边都是水，回头能看到岸线与山，是东钱湖最开阔的视角之一。堤不长，走一个来回二十分钟；岛不大，绕一圈也有小路。整个一个半到三小时。单独收票，价格不高。它与韩岭在湖的两边，可以上午骑车、中午韩岭吃饭、下午来这里看水。天好的时候傍晚光最柔。",
+  "highlights": [
+    "一条伸进湖里的长堤，走上去两边都是水",
+    "岛上有寺与观音，是湖上的香火地",
+    "东钱湖最开阔的视角之一，傍晚光最柔"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.664357,
+      "lat": 29.766249,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "浙江省宁波市鄞州区东钱湖陶公新村41号",
+    "district": "鄞州区",
+    "transportTip": "地铁四号线至东钱湖站后转公交或骑行；或自驾",
+    "entrance": {
+      "lng": 121.653963,
+      "lat": 29.767899,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约8:00-17:00，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "低价票，以现场公告为准",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "elders",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37630414/pexels-photo-37630414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37630414/pexels-photo-37630414.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5712,
+      "height": 4284,
+      "alt": "A tranquil lake view featuring swans and distant mountains under a clear sky.",
+      "query": "natural landscape China ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Jayson liu",
+        "sourceUrl": "https://www.pexels.com/photo/serene-lake-scene-with-swans-and-mountains-37630414/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34029304/pexels-photo-34029304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34029304/pexels-photo-34029304.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3264,
+      "height": 2448,
+      "alt": "A pagoda atop a hill with lush greenery overlooks a serene lake under a clear sky.",
+      "query": "natural landscape China ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "子华 叶",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-eastern-pagoda-over-lake-34029304/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39364005/pexels-photo-39364005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39364005/pexels-photo-39364005.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8256,
+      "height": 5504,
+      "alt": "Container ships docked at a busy port with cranes and buildings in the background, under a clear sky.",
+      "query": "natural landscape China ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Oleksiy Yeshtokyn,🌻🇺🇦🌻",
+        "sourceUrl": "https://www.pexels.com/photo/shipping-containers-at-bustling-port-during-daytime-39364005/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湖上",
+    "长堤",
+    "观音"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "百度百科·小普陀",
+      "url": "https://baike.baidu.com/item/%E4%B8%9C%E9%92%B1%E6%B9%96%E5%B0%8F%E6%99%AE%E9%99%80",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "小普陀景区"
+  },
+  "_geocodeTitle": "小普陀景区",
+  "_geocodeSuspect": false,
+  "district": "330212"
+}

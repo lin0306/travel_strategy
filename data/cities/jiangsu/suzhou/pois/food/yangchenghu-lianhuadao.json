@@ -1,0 +1,82 @@
+{
+  "id": "yangchenghu-lianhuadao",
+  "name": "阳澄湖莲花岛农家乐",
+  "category": "food",
+  "subtype": "local",
+  "summary": "大闸蟹的产地，秋季上岛吃蟹是一趟专门的行程。",
+  "description": "阳澄湖的大闸蟹是苏州秋天最出名的一样东西，莲花岛在湖中间，岛上人家做蟹的吃法很直接：清蒸，配姜醋，不加别的。蟹要挑分量与活力，公蟹吃膏、母蟹吃黄，农历九月母、十月公是常见说法。上岛要在码头坐船，来回加上吃饭要留半天。夏天没有蟹，这个季节来只能吃湖鲜。",
+  "highlights": [
+    "大闸蟹产地",
+    "清蒸配姜醋，做法极简",
+    "秋季限定、需留半天"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.807464,
+      "lat": 31.444001,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "苏州市相城区阳澄湖莲花岛",
+    "district": "相城区",
+    "transportTip": "市区驾车约40分钟，到码头后换船上岛"
+  },
+  "practical": {
+    "openHours": "以各农家乐与码头船班为准",
+    "openHoursRef": 0,
+    "ticket": "按蟹的重量计价，以店家为准",
+    "ticketRef": 0,
+    "duration": "建议 150-240 分钟",
+    "durationMinutes": [
+      150,
+      240
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "kids",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/China-Suzhou_%282024%29_Suzhou_Railway_Station_%E8%8B%8F%E5%B7%9E%E7%AB%99_-_img_03.jpg/1280px-China-Suzhou_%282024%29_Suzhou_Railway_Station_%E8%8B%8F%E5%B7%9E%E7%AB%99_-_img_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/China-Suzhou_%282024%29_Suzhou_Railway_Station_%E8%8B%8F%E5%B7%9E%E7%AB%99_-_img_03.jpg/1280px-China-Suzhou_%282024%29_Suzhou_Railway_Station_%E8%8B%8F%E5%B7%9E%E7%AB%99_-_img_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "China-Suzhou (2024) Suzhou Railway Station 苏州站 - img 03.jpg",
+      "query": "Chinese restaurant interior suzhou",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Chainwit.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:China-Suzhou_(2024)_Suzhou_Railway_Station_%E8%8B%8F%E5%B7%9E%E7%AB%99_-_img_03.jpg",
+        "license": "CC BY 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "大闸蟹",
+    "秋季",
+    "阳澄湖"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·阳澄湖大闸蟹",
+      "url": "https://baike.baidu.com/item/%E9%98%B3%E6%BE%84%E6%B9%96%E5%A4%A7%E9%97%B8%E8%9F%B9",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "阳澄湖莲花岛农家乐"
+  },
+  "_geocodeTitle": "蟹岛渔家· 阳澄湖莲花岛农家乐",
+  "_geocodeSuspect": false,
+  "district": "320507"
+}

@@ -1,0 +1,115 @@
+{
+  "id": "guanyin-gorge",
+  "name": "观音峡景区",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "古城区七河镇的一处峡谷，木家别院、瀑布与玻璃栈道都在里面，离机场最近。",
+  "description": "观音峡在古城区七河镇，离丽江三义机场很近，是一处峡谷景区。里面有几样东西：一是木家别院 ——一组仿旧时样式的院落，讲的是木氏土司相关的内容；二是峡谷与瀑布，水从上面下来，沿栈道走；三是近年加的玻璃栈道与一些体验项目。它的定位是一处综合的景区，不是自然保护区 ——人工设施占一半，这一层要有预期。好处是交通方便：离机场十几分钟，离古城半小时，赶飞机前或刚落地有半天空档的时候，来这里最合适。整个两个半到五小时，门票中等，项目另付。带小孩的会觉得项目多；只想看自然的会觉得人工痕迹重。",
+  "highlights": [
+    "离三义机场十几分钟，赶飞机前半天空档最合适",
+    "木家别院、峡谷瀑布、玻璃栈道三样",
+    "人工设施占一半，定位是综合景区不是自然保护区"
+  ],
+  "location": {
+    "point": {
+      "lng": 100.268067,
+      "lat": 26.768774,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "云南省丽江市古城区七河镇观音峡",
+    "district": "古城区",
+    "transportTip": "古城口乘公交或网约车约三十分钟；机场方向顺路"
+  },
+  "practical": {
+    "openHours": "约8:00-18:00，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "门票中等，项目另付，以官方公告为准",
+    "ticketRef": 0,
+    "duration": "建议 150-300 分钟",
+    "durationMinutes": [
+      150,
+      300
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "friends",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/34486996/pexels-photo-34486996.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34486996/pexels-photo-34486996.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7837,
+      "height": 5227,
+      "alt": "Peaceful scene of a scenic park with mountains, lake, and traditional Chinese architecture under a cloudy sky.",
+      "query": "natural landscape China lijiang",
+      "credit": {
+        "source": "pexels",
+        "author": "David Tran",
+        "sourceUrl": "https://www.pexels.com/photo/tranquil-park-landscape-with-chinese-architecture-34486996/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34622072/pexels-photo-34622072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34622072/pexels-photo-34622072.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 3000,
+      "alt": "Serene view of a traditional pavilion at Black Dragon Pool with Jade Dragon Snow Mountain in the background.",
+      "query": "natural landscape China lijiang",
+      "credit": {
+        "source": "pexels",
+        "author": "Pua Tresia",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-pavilion-at-black-dragon-pool-34622072/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7170939/pexels-photo-7170939.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7170939/pexels-photo-7170939.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7360,
+      "height": 4912,
+      "alt": "A tranquil lakeside view with traditional architecture and mountains in the background.",
+      "query": "natural landscape China lijiang",
+      "credit": {
+        "source": "pexels",
+        "author": "David Yu",
+        "sourceUrl": "https://www.pexels.com/photo/waterfront-reflecting-in-a-lake-7170939/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "峡谷",
+    "瀑布",
+    "玻璃栈道"
+  ],
+  "popularity": 66,
+  "sources": [
+    {
+      "title": "百度百科·观音峡",
+      "url": "https://baike.baidu.com/item/%E4%B8%BD%E6%B1%9F%E8%A7%82%E9%9F%B3%E5%B3%A1",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "观音峡景区"
+  },
+  "_geocodeTitle": "观音峡",
+  "_geocodeSuspect": false,
+  "coordSystem": "GCJ-02",
+  "district": "530702"
+}

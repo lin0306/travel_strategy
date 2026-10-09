@@ -1,0 +1,118 @@
+{
+  "id": "xueye-lake",
+  "name": "雪野湖",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "莱芜北部的水库湖，环湖绿道适合骑行，湖边鱼馆吃鲜。",
+  "description": "雪野湖在济南莱芜区北部，是一片开阔的水面，湖岸线长，山影倒映在水里。环湖修了公路和绿道，骑车或者自驾绕一圈都很舒服，傍晚的日落是一天里最好的时候。湖边有沙滩、湿地和几处度假设施，也能坐船、玩水上项目。这一带鱼鲜有名，湖边的鱼馆值得一试。从市区自驾约一小时半，风大带外套。",
+  "highlights": [
+    "环湖绿道适合骑行",
+    "傍晚湖上日落最好",
+    "湖边鱼馆值得一试"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.588783,
+      "lat": 36.422017,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山东省济南市莱芜区雪野街道雪野湖",
+    "district": "莱芜区",
+    "transportTip": "市区自驾到雪野湖",
+    "entrance": {
+      "lng": 117.559915,
+      "lat": 36.449784,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放，水上项目约八点半到十七点半",
+    "openHoursRef": 0,
+    "ticket": "免费开放，项目另计",
+    "ticketRef": 0,
+    "duration": "建议 120-300 分钟",
+    "durationMinutes": [
+      120,
+      300
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/%E9%9B%AA%E9%87%8E%E6%B9%96.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/%E9%9B%AA%E9%87%8E%E6%B9%96.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 673,
+      "alt": "雪野湖.jpg",
+      "query": "雪野湖",
+      "credit": {
+        "source": "wikimedia",
+        "author": "MAYUXUAN",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%9B%AA%E9%87%8E%E6%B9%96.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/11110532/pexels-photo-11110532.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/11110532/pexels-photo-11110532.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2304,
+      "height": 3456,
+      "alt": "A traditional Chinese pavilion surrounded by snow and bare trees during winter.",
+      "query": "Xueye Lake Jinan",
+      "credit": {
+        "source": "pexels",
+        "author": "Lan Yao",
+        "sourceUrl": "https://www.pexels.com/photo/a-pavilion-during-winter-11110532/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/4577685/pexels-photo-4577685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/4577685/pexels-photo-4577685.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2592,
+      "height": 1728,
+      "alt": "Anonymous travelers on stones on river water near Asian arbor between lush trees in city garden",
+      "query": "Xueye Lake Jinan",
+      "credit": {
+        "source": "pexels",
+        "author": "Rachel Claire",
+        "sourceUrl": "https://www.pexels.com/photo/unrecognizable-tourists-on-embankment-near-river-and-pavilion-in-park-4577685/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湖泊",
+    "骑行",
+    "日落"
+  ],
+  "popularity": 76,
+  "sources": [
+    {
+      "title": "雪野湖·百度百科",
+      "url": "https://baike.baidu.com/item/%E9%9B%AA%E9%87%8E%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Xueye Lake Jinan",
+    "zh": "雪野湖"
+  },
+  "_geocodeTitle": "雪野湖",
+  "_geocodeSuspect": false,
+  "district": "370116"
+}

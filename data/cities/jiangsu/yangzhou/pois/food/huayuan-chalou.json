@@ -1,0 +1,113 @@
+{
+  "id": "huayuan-chalou",
+  "name": "花园茶楼",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "本地人去的早茶铺，干丝和点心实在。",
+  "description": "花园茶楼是扬州本地人更常去的早茶铺，分店多、价格比富春冶春亲民，干丝、包子、烧卖都是日常水准。它不追求游客朝圣的排场，胜在稳定和就近，适合在住的附近解决一顿早茶。人均低、出餐快，是本地生活的那一口。",
+  "highlights": [
+    "本地人常去的早茶铺，分店多",
+    "干丝包子烧卖日常水准",
+    "价亲民出餐快，就近吃"
+  ],
+  "location": {
+    "point": {
+      "lng": 119.449626,
+      "lat": 32.380844,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "扬州市广陵区多家门店",
+    "district": "广陵区",
+    "transportTip": "公交就近"
+  },
+  "practical": {
+    "openHours": "约06:30-13:00（以门店公告为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约30元，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "elders",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4240,
+      "height": 2832,
+      "alt": "A bustling street food stall offering traditional dishes to a customer in stylish winter attire.",
+      "query": "Chinese street food dish yangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3032,
+      "height": 3923,
+      "alt": "Browse a bustling Shenzhen food stall with diverse Asian meals and colorful bowls, embodying Chinese culinary culture.",
+      "query": "Chinese street food dish yangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Jaime Hernandez Erives",
+        "sourceUrl": "https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/11259688/pexels-photo-11259688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/11259688/pexels-photo-11259688.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Close-up of crispy youtiao served with dipping sauce and chopsticks on a metal table.",
+      "query": "Chinese street food dish yangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "FOX ^.ᆽ.^= ∫",
+        "sourceUrl": "https://www.pexels.com/photo/meal-on-a-plate-11259688/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "早茶",
+    "本地",
+    "实惠"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "百度百科·扬州早茶",
+      "url": "https://baike.baidu.com/item/%E6%89%AC%E5%B7%9E%E6%97%A9%E8%8C%B6",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "花园茶楼"
+  },
+  "_geocodeTitle": "花园茶楼(雅侃店)",
+  "_geocodeSuspect": false,
+  "district": "321002"
+}

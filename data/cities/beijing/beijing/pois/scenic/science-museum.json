@@ -1,0 +1,112 @@
+{
+  "id": "science-museum",
+  "name": "中国科学技术馆",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "带孩子的第一选择,互动设备在同类馆里属于顶级配置。",
+  "description": "科技馆在奥林匹克公园北侧,主体是「探索与发现」「科技与生活」等常展加大量可动手动)^{互动装置,球幕影院与特效影院另行付费。它的定位是科普与参与,而不是文物;带孩子的话,这里比多数博物馆更容易消耗掉一整天且不累。和鸟巢、水立方在同一区域内,安排在一天是最顺的方案。",
+  "highlights": [
+    "互动展项多,适合全天",
+    "球幕影院另行收费",
+    "与鸟巢水立方同一片区"
+  ],
+  "location": {
+    "point": {
+      "lng": 116.398428,
+      "lat": 40.005885,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "北京市朝阳区北辰东路5号",
+    "district": "朝阳",
+    "transportTip": "地铁8号线森林公园南门站/15号线安立路站"
+  },
+  "practical": {
+    "openHours": "约09:30-17:00,周一闭馆(法定节假日除外),以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "主展厅约30元起,影院另行收费,以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 180-360 分钟",
+    "durationMinutes": [
+      180,
+      360
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "kids",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/35870231/pexels-photo-35870231.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35870231/pexels-photo-35870231.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6990,
+      "height": 4660,
+      "alt": "Explore the elegant interior of an Istanbul museum showcasing art and artifacts.",
+      "query": "museum exhibition hall beijing",
+      "credit": {
+        "source": "pexels",
+        "author": "Gül Işık",
+        "sourceUrl": "https://www.pexels.com/photo/intricate-istanbul-museum-interior-display-35870231/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39444101/pexels-photo-39444101.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39444101/pexels-photo-39444101.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6687,
+      "height": 4179,
+      "alt": "Elegant traditional Chinese architecture fronting a renowned museum with a vibrant exhibition sign.",
+      "query": "museum exhibition hall beijing",
+      "credit": {
+        "source": "pexels",
+        "author": "BI ravencrow",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-architecture-at-famous-museum-39444101/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36136477/pexels-photo-36136477.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36136477/pexels-photo-36136477.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4096,
+      "height": 2726,
+      "alt": "Stunning Soviet-style architecture at the Beijing Exhibition Center, a landmark in China.",
+      "query": "museum exhibition hall beijing",
+      "credit": {
+        "source": "pexels",
+        "author": "Eric Prouzet",
+        "sourceUrl": "https://www.pexels.com/photo/soviet-style-architecture-at-beijing-exhibition-center-36136477/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "科普",
+    "互动",
+    "亲子首选"
+  ],
+  "popularity": 76,
+  "sources": [
+    {
+      "title": "百度百科·中国科学技术馆",
+      "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E9%A6%86",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "中国科学技术馆"
+  },
+  "_geocodeTitle": "中国科学技术馆",
+  "_geocodeSuspect": false,
+  "district": "110105"
+}

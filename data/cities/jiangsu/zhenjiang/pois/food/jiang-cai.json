@@ -1,0 +1,113 @@
+{
+  "id": "jiang-cai",
+  "name": "镇江酱菜",
+  "category": "food",
+  "subtype": "local",
+  "summary": "酱渍小菜，配粥配面的爽口伴侣。",
+  "description": "镇江酱菜是本地人餐桌上的常备小菜，以萝卜、黄瓜、生姜等蔬菜酱渍而成，咸甜适口、脆嫩开胃。它配粥、配锅盖面都合适，也是带得走的伴手礼。老字号酱园与超市都有，价低、耐放。想带点镇江味回家，酱菜和香醋是绝配。",
+  "highlights": [
+    "萝卜黄瓜姜酱渍",
+    "咸甜脆嫩开胃",
+    "配粥面与伴手礼"
+  ],
+  "location": {
+    "point": {
+      "lng": 119.410737,
+      "lat": 32.195926,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "镇江市润州区酱园与超市",
+    "district": "润州区",
+    "transportTip": "老字号与超市"
+  },
+  "practical": {
+    "openHours": "约08:00-20:00（以门店为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约10元，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
+      15,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "elders",
+    "solo",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4096,
+      "alt": "Charming Asian dining room with bamboo chairs and traditional teaware.",
+      "query": "Chinese restaurant interior zhenjiang",
+      "credit": {
+        "source": "pexels",
+        "author": "TIANYUN XIA",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37047965/pexels-photo-37047965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37047965/pexels-photo-37047965.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4896,
+      "height": 3264,
+      "alt": "Cozy traditional Asian restaurant interior highlighting wooden furnishings and red decor. Ideal for cultural and design ",
+      "query": "Chinese restaurant interior zhenjiang",
+      "credit": {
+        "source": "pexels",
+        "author": "mingche lee",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33137968/pexels-photo-33137968.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33137968/pexels-photo-33137968.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 6714,
+      "height": 4468,
+      "alt": "Atmospheric shot of people dining in a traditional Asian restaurant with warm lighting.",
+      "query": "Chinese restaurant interior zhenjiang",
+      "credit": {
+        "source": "pexels",
+        "author": "Vincent Tan",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-traditional-asian-restaurant-interior-33137968/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "酱菜",
+    "小菜",
+    "伴手"
+  ],
+  "popularity": 68,
+  "sources": [
+    {
+      "title": "百度百科·酱菜",
+      "url": "https://baike.baidu.com/item/%E9%85%B1%E8%8F%9C",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-05"
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "镇江酱菜"
+  },
+  "_geocodeTitle": "润州区",
+  "_geocodeSuspect": false,
+  "district": "321111"
+}

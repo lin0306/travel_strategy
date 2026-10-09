@@ -1,0 +1,113 @@
+{
+  "id": "sanzi",
+  "name": "馓子",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "回族油炸面食，金黄细条盘成环，酥脆香甜，过节待客离不了。",
+  "description": "馓子是回族的传统油炸面食。面粉和盐水、鸡蛋揉好，搓成细条盘成环，下油锅炸到金黄，捞起酥脆香甜。它是开斋节、古尔邦节待客的硬点心，也是平日茶桌上的零嘴。掰一节配八宝茶，越嚼越香。街边清真点心铺现炸的最脆，放久会皮。带回当手信也行。油大，适量。",
+  "highlights": [
+    "回族油炸面食金黄",
+    "细条盘环酥脆甜",
+    "过节待客硬点心"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.593425,
+      "lat": 38.644975,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "宁夏回族自治区银川市兴庆区各清真糕点铺",
+    "district": "兴庆区",
+    "transportTip": "市区清真糕点铺有售"
+  },
+  "practical": {
+    "openHours": "约08:00-20:00",
+    "openHoursRef": 0,
+    "ticket": "约15元/斤起",
+    "ticketRef": 0,
+    "duration": "建议 10-20 分钟",
+    "durationMinutes": [
+      10,
+      20
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "elders",
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Bagged_Sangza.jpg/1280px-Bagged_Sangza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Bagged_Sangza.jpg/1280px-Bagged_Sangza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1080,
+      "alt": "Bagged Sangza.jpg",
+      "query": "馓子",
+      "credit": {
+        "source": "wikimedia",
+        "author": "François Nguyen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bagged_Sangza.jpg",
+        "license": "CC BY 2.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Desiderio_%28Sanzi%29%2C_Beauty_Hazard_-_Performance.jpg/1280px-Desiderio_%28Sanzi%29%2C_Beauty_Hazard_-_Performance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Desiderio_%28Sanzi%29%2C_Beauty_Hazard_-_Performance.jpg/1280px-Desiderio_%28Sanzi%29%2C_Beauty_Hazard_-_Performance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 602,
+      "alt": "Desiderio (Sanzi), Beauty Hazard - Performance.jpg",
+      "query": "馓子",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Coocuyo",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Desiderio_(Sanzi),_Beauty_Hazard_-_Performance.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Desiderio_%28Sanzi%29%2C_Malebolge%2C_Amelia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Desiderio_%28Sanzi%29%2C_Malebolge%2C_Amelia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Desiderio (Sanzi), Malebolge, Amelia.jpg",
+      "query": "馓子",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Coocuyo",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Desiderio_(Sanzi),_Malebolge,_Amelia.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "油炸",
+    "回族",
+    "茶点"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·馓子",
+      "url": "https://baike.baidu.com/item/%E9%A6%93%E5%AD%90",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Sanzi Fried Dough",
+    "zh": "馓子"
+  },
+  "_geocodeTitle": "伊回香馓子店",
+  "_geocodeSuspect": false,
+  "district": "640104"
+}

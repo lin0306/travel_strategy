@@ -1,0 +1,113 @@
+{
+  "id": "yuju-opera",
+  "name": "豫剧",
+  "category": "culture",
+  "subtype": "performance",
+  "summary": "河南的地方大戏，唱腔高亢直白，梆子一响全场就热起来。",
+  "description": "豫剧是河南最有代表性的地方戏曲，郑州一直是最重要的演出市场之一。唱腔高亢，吐字清楚，行腔直来直去，听着痛快，唱词也多用口语，故事好懂。伴奏以板胡和梆子为主，梆子一敲节奏就立住。传统戏里花木兰、穆桂英挂帅这些段子最常演，很多观众能跟着哼。郑州的剧场常年有演出，票价不贵，看一场就能明白河南人为什么爱这口。",
+  "highlights": [
+    "高亢直白的唱腔",
+    "板胡梆子伴奏",
+    "花木兰穆桂英常演"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.685869,
+      "lat": 34.805773,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河南省郑州市各剧场与豫剧院团（金水区演出最多）",
+    "district": "金水区",
+    "transportTip": "市区剧场与院团均有演出，去前查当期演出单"
+  },
+  "practical": {
+    "openHours": "多为19:30开场，以剧场为准",
+    "openHoursRef": 0,
+    "ticket": "约60元起，以剧场为准",
+    "ticketRef": 0,
+    "duration": "建议 120-180 分钟",
+    "durationMinutes": [
+      120,
+      180
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "elders",
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/1952-11_%E8%B1%AB%E5%89%A7_%E6%96%AD%E6%A1%A5.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/1952-11_%E8%B1%AB%E5%89%A7_%E6%96%AD%E6%A1%A5.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 862,
+      "alt": "1952-11 豫剧 断桥.png",
+      "query": "豫剧",
+      "credit": {
+        "source": "wikimedia",
+        "author": "《人民画报》",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:1952-11_%E8%B1%AB%E5%89%A7_%E6%96%AD%E6%A1%A5.png",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/20230214_Yuju_performance_at_Temple_of_He_Tang.jpg/1280px-20230214_Yuju_performance_at_Temple_of_He_Tang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/20230214_Yuju_performance_at_Temple_of_He_Tang.jpg/1280px-20230214_Yuju_performance_at_Temple_of_He_Tang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 721,
+      "alt": "20230214 Yuju performance at Temple of He Tang.jpg",
+      "query": "豫剧",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Windmemories",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20230214_Yuju_performance_at_Temple_of_He_Tang.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Yuju_biaoyan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Yuju_biaoyan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1318,
+      "alt": "Yuju biaoyan.jpg",
+      "query": "豫剧",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Yuyuyun",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yuju_biaoyan.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "豫剧",
+    "戏曲",
+    "剧场"
+  ],
+  "popularity": 88,
+  "sources": [
+    {
+      "title": "豫剧·百度百科",
+      "url": "https://baike.baidu.com/item/%E8%B1%AB%E5%89%A7",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Yu Opera Henan",
+    "zh": "豫剧"
+  },
+  "_geocodeTitle": "河南省豫剧一团",
+  "_geocodeSuspect": false,
+  "district": "410105"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "hku-main-campus",
+  "name": "香港大学本部大楼",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "港岛西端的一座红砖建筑：1912 年落成，是香港大学最老的一栋楼。",
+  "description": "香港大学 1911 年创办，本部大楼 1912 年落成，是这所学校最早的建筑。它的外观是爱德华时期的做法：红砖外墙、拱廊、四座塔楼与中央的钟楼，立面材料是本地烧制的砖与花岗岩。内部的大礼堂是它最常被提起的空间，木构屋顶与彩色玻璃都在。第二次世界大战期间这里曾被占用，战后修复。大楼现列法定古迹。校园依山而建，从港铁香港大学站出来要往上走。它与西营盘一带的老街连在一片。",
+  "highlights": [
+    "1912 年落成，香港大学最早的建筑",
+    "红砖拱廊与四座塔楼，爱德华时期风格",
+    "大礼堂的木构屋顶与彩色玻璃保留"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.142906,
+      "lat": 22.281358,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "香港岛中西区薄扶林道香港大学本部校园",
+    "district": "中西区",
+    "transportTip": "港铁香港大学站A2出口步行约10分钟"
+  },
+  "practical": {
+    "openHours": "校园开放以校方公告为准，大礼堂非开放时段不进",
+    "openHoursRef": 0,
+    "ticket": "免费（以校方公告为准）",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/35697887/pexels-photo-35697887.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35697887/pexels-photo-35697887.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3456,
+      "height": 4608,
+      "alt": "Photo of the historic Yick Fung Building surrounded by bamboo scaffolding in Hong Kong.",
+      "query": "Chinese historic architecture hongkong",
+      "credit": {
+        "source": "pexels",
+        "author": "terry narcissan tsui",
+        "sourceUrl": "https://www.pexels.com/photo/historic-yick-fung-building-in-hong-kong-35697887/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/9575473/pexels-photo-9575473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/9575473/pexels-photo-9575473.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2048,
+      "height": 3089,
+      "alt": "Colorful incense coils and lanterns create a serene atmosphere inside Hong Kong's Man Mo Temple.",
+      "query": "Chinese historic architecture hongkong",
+      "credit": {
+        "source": "pexels",
+        "author": "B.N.W",
+        "sourceUrl": "https://www.pexels.com/photo/spiral-incense-inside-the-man-mo-temple-in-hongkong-9575473/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6938788/pexels-photo-6938788.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6938788/pexels-photo-6938788.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4182,
+      "height": 2788,
+      "alt": "A serene Chinese garden contrasts with tall apartment buildings in a Hong Kong cityscape.",
+      "query": "Chinese historic architecture hongkong",
+      "credit": {
+        "source": "pexels",
+        "author": "Harry Shum",
+        "sourceUrl": "https://www.pexels.com/photo/brown-and-white-concrete-building-near-green-trees-under-blue-sky-6938788/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "校园",
+    "免费",
+    "古迹"
+  ],
+  "popularity": 66,
+  "sources": [
+    {
+      "title": "百度百科·香港大学",
+      "url": "https://baike.baidu.com/item/%E9%A6%99%E6%B8%AF%E5%A4%A7%E5%AD%A6",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-24"
+    }
+  ],
+  "updatedAt": "2026-09-24",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "香港大学本部大楼"
+  },
+  "_geocodeTitle": "香港大学本部大楼",
+  "_geocodeSuspect": false,
+  "district": "811100"
+}

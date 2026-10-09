@@ -1,0 +1,83 @@
+{
+  "id": "guizhou-art-museum",
+  "name": "贵州美术馆",
+  "category": "hotspot",
+  "subtype": "art",
+  "summary": "云岩区北京路上的一座美术馆，展画与雕塑，馆不大但安静。",
+  "description": "贵州美术馆在云岩区北京路，地铁北京路站边上。它展画与雕塑 —— 省内画家的作品、版画、也有外面进来的展。馆不大，几个厅，一个小时能看完。免费。来的人不多，安静，是那种可以慢慢看的地方。它在老城北边，与黔灵山在同一个方向，可以连着。外面有院子，坐着歇一下也行。",
+  "highlights": [
+    "展画与雕塑，省内画家的作品与版画都有",
+    "馆不大多安静，一个小时能看完",
+    "免费，与黔灵山同一个方向"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.705458,
+      "lat": 26.591647,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "贵州省贵阳市云岩区北京路168号",
+    "district": "云岩区",
+    "transportTip": "市区地铁到北京路站，步行可达"
+  },
+  "practical": {
+    "openHours": "约9:00-17:00，周一闭馆，以馆方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "solo",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/%E8%B4%B5%E5%B7%9E%E7%BE%8E%E6%9C%AF%E9%A6%86.jpg/1280px-%E8%B4%B5%E5%B7%9E%E7%BE%8E%E6%9C%AF%E9%A6%86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/%E8%B4%B5%E5%B7%9E%E7%BE%8E%E6%9C%AF%E9%A6%86.jpg/1280px-%E8%B4%B5%E5%B7%9E%E7%BE%8E%E6%9C%AF%E9%A6%86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "贵州美术馆.jpg",
+      "query": "贵州美术馆",
+      "credit": {
+        "source": "wikimedia",
+        "author": "維基小霸王",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%B4%B5%E5%B7%9E%E7%BE%8E%E6%9C%AF%E9%A6%86.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "美术馆",
+    "展览",
+    "免费"
+  ],
+  "popularity": 40,
+  "sources": [
+    {
+      "title": "百度百科·贵州美术馆",
+      "url": "https://baike.baidu.com/item/%E8%B4%B5%E5%B7%9E%E7%BE%8E%E6%9C%AF%E9%A6%86",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "贵州美术馆"
+  },
+  "_geocodeTitle": "贵州美术馆",
+  "_geocodeSuspect": false,
+  "district": "520103"
+}

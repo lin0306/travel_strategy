@@ -1,0 +1,116 @@
+{
+  "id": "zhuyeqing-cha",
+  "name": "竹叶青茶馆",
+  "category": "food",
+  "subtype": "cafe",
+  "summary": "扁平形绿茶，泡在玻璃杯里一根根立起来。",
+  "description": "竹叶青同样出自峨眉山一带，名字来自它的外形——扁平挺直、两头尖，泡在玻璃杯里根根竖着，像竹叶。它比雪芽采得早，多在清明前，只取单芽，工艺上多了理条压扁那一步。汤色嫩绿清亮，香气偏豆香和栗香，入口鲜爽。本地茶馆里点一杯，配一碟瓜子能坐一下午。用来送人也很拿得出手，包装做得讲究。",
+  "highlights": [
+    "扁平挺直",
+    "玻璃杯冲泡",
+    "栗香"
+  ],
+  "location": {
+    "point": {
+      "lng": 103.49,
+      "lat": 29.595,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "峨眉山市区茶馆",
+    "district": "峨眉山",
+    "transportTip": "市区步行可达"
+  },
+  "practical": {
+    "openHours": "9:00-22:00",
+    "openHoursRef": 0,
+    "ticket": "一杯十几元起；茶叶按等级计价",
+    "ticketRef": 0,
+    "duration": "建议 45-120 分钟",
+    "durationMinutes": [
+      45,
+      120
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "elders",
+    "couple",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/14517408/pexels-photo-14517408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/14517408/pexels-photo-14517408.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4330,
+      "height": 5773,
+      "alt": "Creative wall decor using paper cups in a modern cafe interior.",
+      "query": "cafe interior emeishan",
+      "credit": {
+        "source": "pexels",
+        "author": "Afitab",
+        "sourceUrl": "https://www.pexels.com/photo/cups-hanging-on-the-wall-14517408/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27706147/pexels-photo-27706147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27706147/pexels-photo-27706147.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2075,
+      "height": 3130,
+      "alt": "Warm and inviting cafe interior showcasing ambient light, rustic decor, and a tranquil atmosphere.",
+      "query": "cafe interior emeishan",
+      "credit": {
+        "source": "pexels",
+        "author": "Din Aziz",
+        "sourceUrl": "https://www.pexels.com/photo/jar-on-the-table-27706147/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27594946/pexels-photo-27594946.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27594946/pexels-photo-27594946.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5680,
+      "height": 3786,
+      "alt": "Stunning golden Buddha statue and white elephant at Mount Emei temple, highlighting Asian spirituality and art.",
+      "query": "cafe interior emeishan",
+      "credit": {
+        "source": "pexels",
+        "author": "KJ Brix",
+        "sourceUrl": "https://www.pexels.com/photo/golden-sanmantabhadra-statue-on-mount-emei-27594946/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "竹叶青",
+    "绿茶",
+    "茶馆",
+    "伴手礼",
+    "鲜爽"
+  ],
+  "popularity": 62,
+  "sources": [
+    {
+      "title": "百度百科·竹叶青茶",
+      "url": "https://baike.baidu.com/item/%E7%AB%B9%E5%8F%B6%E9%9D%92%E8%8C%B6",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "竹叶青茶馆"
+  },
+  "_geocodeTitle": "峨眉山市区茶馆",
+  "_geocodeSuspect": false,
+  "district": "511181"
+}

@@ -1,0 +1,116 @@
+{
+  "id": "guzhen-chaguan",
+  "name": "古城茶馆",
+  "category": "food",
+  "subtype": "cafe",
+  "summary": "老街上的老茶馆，几块钱一碗盖碗茶，能坐一下午。",
+  "description": "阆中古城里的茶馆保留了四川老茶馆的样子：竹椅、小方桌、盖碗茶，炉子上永远坐着几把铜壶。点一碗茶几块钱，续水不要钱，坐多久都行。来的人大多是本地老人，打牌、摆龙门阵、听收音机，也有掏耳朵的师傅在院子里转。茶是普通的茉莉花茶或者沱茶，用盖碗喝，盖子刮一刮、拨开茶叶，是老派喝法。游客进来也不违和，没人多看你一眼，这正是它舒服的地方。逛古城累了，找个临江或者院子里有树的茶馆坐一下午，比赶景点有意义。有些茶馆在老宅的天井里，抬头就是老木梁，气氛尤其好。",
+  "highlights": [
+    "竹椅方桌盖碗茶",
+    "几块钱续水不要钱",
+    "本地老人打牌摆龙门阵",
+    "老宅天井里"
+  ],
+  "location": {
+    "point": {
+      "lng": 105.9705,
+      "lat": 31.577,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "南充市阆中市保宁街道，古城内各老茶馆",
+    "district": "阆中",
+    "transportTip": "古城内步行可达，武庙街与江边一带较多"
+  },
+  "practical": {
+    "openHours": "一般 7:00-18:00",
+    "openHoursRef": 0,
+    "ticket": "无（茶位几元）",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "elders",
+    "solo",
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/27706147/pexels-photo-27706147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27706147/pexels-photo-27706147.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2075,
+      "height": 3130,
+      "alt": "Warm and inviting cafe interior showcasing ambient light, rustic decor, and a tranquil atmosphere.",
+      "query": "cafe interior langzhong",
+      "credit": {
+        "source": "pexels",
+        "author": "Din Aziz",
+        "sourceUrl": "https://www.pexels.com/photo/jar-on-the-table-27706147/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/14517408/pexels-photo-14517408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/14517408/pexels-photo-14517408.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4330,
+      "height": 5773,
+      "alt": "Creative wall decor using paper cups in a modern cafe interior.",
+      "query": "cafe interior langzhong",
+      "credit": {
+        "source": "pexels",
+        "author": "Afitab",
+        "sourceUrl": "https://www.pexels.com/photo/cups-hanging-on-the-wall-14517408/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32354649/pexels-photo-32354649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32354649/pexels-photo-32354649.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4912,
+      "height": 7360,
+      "alt": "Intimate cafe setting with a chair, table, and ambient lighting from a floor lamp.",
+      "query": "cafe interior langzhong",
+      "credit": {
+        "source": "pexels",
+        "author": "Sóc Năng Động",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-cafe-corner-with-lamp-and-chair-32354649/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "茶馆",
+    "盖碗茶",
+    "慢生活",
+    "便宜"
+  ],
+  "popularity": 56,
+  "sources": [
+    {
+      "title": "百度百科·四川茶馆",
+      "url": "https://baike.baidu.com/item/%E5%9B%9B%E5%B7%9D%E8%8C%B6%E9%A6%86",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "古城茶馆"
+  },
+  "_geocodeTitle": "阆中古城内老茶馆",
+  "_geocodeSuspect": false,
+  "district": "511381"
+}

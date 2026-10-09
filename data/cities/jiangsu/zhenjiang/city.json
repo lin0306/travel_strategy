@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "zhenjiang",
+  "name": "镇江",
+  "province": "江苏",
+  "adcode": "321100",
+  "provinceAdcode": "320000",
+  "tagline": "大江横陈、三山抱城，一口锅盖面与一瓶香醋的江南渡口",
+  "intro": "镇江在江苏省南部、长江与京杭大运河的交汇处，是江南有名的渡口城市。城北临江而立，金山、焦山、北固山三座名山沿江排开，合称「镇江三山」。金山因白娘子水漫金山的传说家喻户晓，焦山是江中浮玉、碑林宝库，北固山有甘露寺与天下第一江山的题刻。西津渡是千年古渡，石板街巷里还留着清代与近代的屋檐。镇江也是醋都，恒顺香醋飘了百余年，锅盖面、肴肉、蟹黄汤包是早点的三绝。城外茅山是道教上清派祖庭，宝华山有律宗第一名山隆昌寺。镇江适合用一两天看山看江看古渡，再用半天去郊县的山水与石刻。",
+  "center": {
+    "lng": 119.4589,
+    "lat": 32.0143,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    118.9683,
+    31.626,
+    119.9797,
+    32.3157
+  ],
+  "defaultZoom": 10,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/33921375/pexels-photo-33921375.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33921375/pexels-photo-33921375.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 5414,
+      "alt": "Breathtaking view of Nanjing's skyline with lush greenery in the foreground.",
+      "query": "镇江 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-view-of-nanjing-city-china-33921375/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/35022547/pexels-photo-35022547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35022547/pexels-photo-35022547.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3836,
+      "height": 3836,
+      "alt": "Nanjing's city skyline silhouetted against a warm sunset with Xuanwu Lake and boats in the foreground.",
+      "query": "镇江 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/sunset-over-nanjing-skyline-and-xuanwu-lake-35022547/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/35003990/pexels-photo-35003990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35003990/pexels-photo-35003990.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7008,
+      "height": 3942,
+      "alt": "Majestic night view of Qiantang River Bridge in Hangzhou with city skyline reflections.",
+      "query": "镇江 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Acres of Film",
+        "sourceUrl": "https://www.pexels.com/photo/stunning-night-view-of-qiantang-river-bridge-in-hangzhou-35003990/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "3-5 月（春江与桃花汛）/ 9-11 月（秋高、江风舒爽）；夏季江边闷热，冬季湿冷",
+    "suggestedDays": "2 天（市区三山+西津渡 1 天，茅山/宝华山或郊县 1 天）",
+    "transitTip": "高铁镇江南站与镇江站都在市区，沪宁线多班直达。市内公交与打车方便，三山之间可沿江一线走。去茅山、宝华山、丹阳、扬中需乘县际班车或自驾，车程多在四十分钟到一小时。西津渡、北固山一带适合步行，不建议自驾（老城停车紧）。",
+    "climateTip": "北亚热带季风气候，临江湿度大。夏季闷热多雨，秋冬阴冷，江边风大。春秋最宜，备一件防风外套，夏季带伞。"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-05"
+  },
+  "updatedAt": "2026-10-05"
+}

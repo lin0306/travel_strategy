@@ -1,0 +1,119 @@
+{
+  "id": "yuehai-wetland",
+  "name": "阅海国家湿地公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "城市边的湖湿地公园，木栈道亲水、冬天有冰雪大世界，遛弯看鸟都行。",
+  "description": "阅海是银川新城边的一片大湖湿地，木栈道沿水铺开，走着能看水鸟和蒲草。它离市区近，是 本地人傍晚跑步的地方。冬天这里常办冰雪大世界，冰灯雪滑梯热闹。春夏则安静，适合骑车绕湖。湖边有亭子可歇脚，带点零食野餐也行。免费进，停车方便。风大时湖面凉，多穿点。",
+  "highlights": [
+    "城市边湖湿地公园木栈道",
+    "冬有冰雪大世界",
+    "免费近郊遛弯看鸟"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.195204,
+      "lat": 38.544207,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "宁夏回族自治区银川市金凤区阅海国家湿地公园",
+    "district": "金凤区",
+    "transportTip": "市区公交或自驾到阅海公园",
+    "entrance": {
+      "lng": 106.19711,
+      "lat": 38.529075,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:30-18:00，冬季冰雪季另计，以公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费（冰雪项目另收费）",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/18228794/pexels-photo-18228794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/18228794/pexels-photo-18228794.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "A serene view of a boat on a lush green riverbank under a bright blue sky.",
+      "query": "Yuehai Wetland Park",
+      "credit": {
+        "source": "pexels",
+        "author": "Shuaizhi Tian",
+        "sourceUrl": "https://www.pexels.com/photo/landscape-with-a-ship-on-the-river-18228794/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34725096/pexels-photo-34725096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34725096/pexels-photo-34725096.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6336,
+      "height": 9504,
+      "alt": "Explore the serene wooden walkway in a lush nature reserve, perfect for eco-tourism and scenic adventures.",
+      "query": "Yuehai Wetland Park",
+      "credit": {
+        "source": "pexels",
+        "author": "Tahamie Farooqui",
+        "sourceUrl": "https://www.pexels.com/photo/wooden-boardwalk-in-scenic-nature-reserve-34725096/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/14044290/pexels-photo-14044290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/14044290/pexels-photo-14044290.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4129,
+      "height": 5504,
+      "alt": "A serene wooden boardwalk in Sultan Marshes National Park, Kayseri, Türkiye, surrounded by tall bamboo.",
+      "query": "Yuehai Wetland Park",
+      "credit": {
+        "source": "pexels",
+        "author": "Betül Hökelek",
+        "sourceUrl": "https://www.pexels.com/photo/brown-wooden-bridge-over-bamboo-field-14044290/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湿地",
+    "公园",
+    "冰雪"
+  ],
+  "popularity": 68,
+  "sources": [
+    {
+      "title": "百度百科·阅海",
+      "url": "https://baike.baidu.com/item/%E9%98%85%E6%B5%B7",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Yuehai Wetland Park",
+    "zh": "阅海国家湿地公园"
+  },
+  "_geocodeTitle": "阅海国家湿地公园",
+  "_geocodeSuspect": false,
+  "district": "640106"
+}

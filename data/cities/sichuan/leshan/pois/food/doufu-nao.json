@@ -1,0 +1,111 @@
+{
+  "id": "doufu-nao",
+  "name": "乐山豆腐脑",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "乐山豆腐脑勾芡加酥肉和粉条，咸鲜浓郁，是本地人的早餐。",
+  "description": "乐山豆腐脑和别处不一样 —— 它勾了芡，里面加酥肉、粉条、花生，咸鲜浓郁。端上来像一碗稠羹。它是本地人的早餐，早上街边最热闹，几块钱一碗顶饱。配一碗米饭或米粉刚好，别点太杂。",
+  "highlights": [
+    "乐山豆腐脑勾芡加酥肉粉条",
+    "咸鲜浓郁像稠羹",
+    "本地人早餐"
+  ],
+  "location": {
+    "point": {
+      "lng": 103.728318,
+      "lat": 29.599382,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "四川省乐山市市中区各豆腐脑店",
+    "district": "市中区",
+    "transportTip": "市区早餐店均有"
+  },
+  "practical": {
+    "openHours": "约06:00-13:00",
+    "openHoursRef": 0,
+    "ticket": "约8元/碗起",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
+      15,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "family",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/5652186/pexels-photo-5652186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/5652186/pexels-photo-5652186.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Delicious traditional sweet soup with soft tofu, syrup, and grains in a decorative blue bowl on a wooden surface.",
+      "query": "Leshan Tofu Pudding",
+      "credit": {
+        "source": "pexels",
+        "author": "Kai-Chieh Chan",
+        "sourceUrl": "https://www.pexels.com/photo/bowl-of-traditional-food-5652186/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31842952/pexels-photo-31842952.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31842952/pexels-photo-31842952.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4738,
+      "height": 3792,
+      "alt": "Sumptuous Japanese tofu served with soy sauce in a traditional bowl.",
+      "query": "Leshan Tofu Pudding",
+      "credit": {
+        "source": "pexels",
+        "author": "Gu Ko",
+        "sourceUrl": "https://www.pexels.com/photo/delicious-japanese-tofu-with-soy-sauce-31842952/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/5652196/pexels-photo-5652196.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/5652196/pexels-photo-5652196.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Top view of assorted Asian desserts featuring tofu pudding, rice, and syrup in ceramic bowls with decorative elements.",
+      "query": "Leshan Tofu Pudding",
+      "credit": {
+        "source": "pexels",
+        "author": "Kai-Chieh Chan",
+        "sourceUrl": "https://www.pexels.com/photo/top-view-of-traditional-dishes-in-bowls-on-table-5652196/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "豆腐脑",
+    "早餐",
+    "小吃"
+  ],
+  "popularity": 82,
+  "sources": [
+    {
+      "title": "百度百科·豆腐脑",
+      "url": "https://baike.baidu.com/item/%E8%B1%86%E8%85%90%E8%84%91",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Leshan Tofu Pudding",
+    "zh": "乐山豆腐脑"
+  },
+  "district": "511102"
+}

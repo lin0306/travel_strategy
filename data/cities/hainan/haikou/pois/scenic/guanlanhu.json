@@ -1,0 +1,118 @@
+{
+  "id": "guanlanhu",
+  "name": "观澜湖旅游度假区",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "海口南郊的度假区，温泉与高尔夫。",
+  "description": "观澜湖旅游度假区在海口南郊，是一个集高尔夫、温泉、酒店和电影公社的大型度假区，椰林与球场铺得很开。它和冯小刚电影公社同属一片，可以一并走。适合安排半天的放松行程，或住一晚。离市区约半小时到一小时。工作日人少。",
+  "highlights": [
+    "海口南郊大型度假区，高尔夫温泉",
+    "与电影公社同片，可一并走",
+    "离城约一小时，适合放松"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.322955,
+      "lat": 19.909106,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "海口市龙华区观澜湖大道",
+    "district": "龙华区",
+    "transportTip": "市区乘公交或打车至观澜湖大道",
+    "entrance": {
+      "lng": 110.314957,
+      "lat": 19.915707,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放（设施以各自时段为准）",
+    "openHoursRef": 0,
+    "ticket": "以园区公告为准",
+    "ticketRef": 0,
+    "duration": "建议 120-180 分钟",
+    "durationMinutes": [
+      120,
+      180
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/28970319/pexels-photo-28970319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/28970319/pexels-photo-28970319.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5506,
+      "height": 4000,
+      "alt": "A distant skyline of Haikou, China viewed from a beach, with one person walking on the sand.",
+      "query": "natural landscape China haikou",
+      "credit": {
+        "source": "pexels",
+        "author": "zs Lin",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-haikou-city-skyline-from-beach-28970319/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32454735/pexels-photo-32454735.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32454735/pexels-photo-32454735.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 3024,
+      "alt": "Aerial view of Haikou City's skyline with lush greenery and water in the foreground.",
+      "query": "natural landscape China haikou",
+      "credit": {
+        "source": "pexels",
+        "author": "Amber Peng",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-of-haikou-city-from-above-32454735/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37534909/pexels-photo-37534909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37534909/pexels-photo-37534909.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8256,
+      "height": 5504,
+      "alt": "Stone arch bridge spanning a calm river with one person paddleboarding underneath during daytime.",
+      "query": "natural landscape China haikou",
+      "credit": {
+        "source": "pexels",
+        "author": "Miguel Cuenca",
+        "sourceUrl": "https://www.pexels.com/photo/historic-arch-bridge-over-serene-river-at-dusk-37534909/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "度假区",
+    "温泉",
+    "高尔夫"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "百度百科·海口观澜湖",
+      "url": "https://baike.baidu.com/item/%E6%B5%B7%E5%8F%A3%E8%A7%82%E6%BE%9C%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "观澜湖旅游度假区"
+  },
+  "_geocodeTitle": "海口观澜湖旅游度假区",
+  "_geocodeSuspect": false,
+  "district": "460106"
+}

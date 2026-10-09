@@ -1,0 +1,116 @@
+{
+  "id": "fenglong",
+  "name": "封龙山",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "鹿泉与元氏之间的文化名山，书院与奇石。",
+  "description": "封龙山在鹿泉与元氏之间，是一座文化名山，历史上书院云集、摩崖题刻多，山势雄奇、怪石嶙峋。它离市区约一小时，适合安排半天的登山和访古行程。门票便宜，周末徒步的人多。",
+  "highlights": [
+    "鹿泉元氏之间的文化名山",
+    "书院摩崖题刻多，怪石嶙峋",
+    "离城约一小时，门票便宜"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.315017,
+      "lat": 37.903036,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "石家庄市鹿泉区铜冶镇封龙山风景区",
+    "district": "元氏县",
+    "transportTip": "市区自驾约1小时",
+    "entrance": {
+      "lng": 114.343272,
+      "lat": 37.871318,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:00-17:30，以景区公告为准",
+    "openHoursRef": 0,
+    "ticket": "约30元起，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38865779/pexels-photo-38865779.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38865779/pexels-photo-38865779.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 3024,
+      "alt": "Beautiful sunset view over mountains and buildings in Shijiazhuang, China.",
+      "query": "natural landscape China shijiazhuang",
+      "credit": {
+        "source": "pexels",
+        "author": "冰 白",
+        "sourceUrl": "https://www.pexels.com/photo/sunset-over-shijiazhuang-s-scenic-mountains-38865779/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27292261/pexels-photo-27292261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27292261/pexels-photo-27292261.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "A serene mountain temple amidst lush greenery and towering rocks in Shijiazhuang, Hebei, China.",
+      "query": "natural landscape China shijiazhuang",
+      "credit": {
+        "source": "pexels",
+        "author": "ANI Chen",
+        "sourceUrl": "https://www.pexels.com/photo/cloudy-view-in-the-mountain-27292261/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/15042553/pexels-photo-15042553.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/15042553/pexels-photo-15042553.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Serene wetland landscape during autumn with bare trees and calm waters under a clear sky.",
+      "query": "natural landscape China shijiazhuang",
+      "credit": {
+        "source": "pexels",
+        "author": "Super cute",
+        "sourceUrl": "https://www.pexels.com/photo/trees-in-a-wetland-in-early-spring-15042553/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "名山",
+    "书院",
+    "徒步"
+  ],
+  "popularity": 58,
+  "sources": [
+    {
+      "title": "百度百科·封龙山",
+      "url": "https://baike.baidu.com/item/%E5%B0%81%E9%BE%99%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "封龙山"
+  },
+  "_geocodeTitle": "封龙山风景区",
+  "_geocodeSuspect": false,
+  "district": "130132"
+}

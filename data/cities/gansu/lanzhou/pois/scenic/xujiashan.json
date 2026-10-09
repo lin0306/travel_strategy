@@ -1,0 +1,117 @@
+{
+  "id": "xujiashan",
+  "name": "徐家山",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "黄河北岸的国家森林公园，城边最近的天然林，适合徒步。",
+  "description": "徐家山在黄河北岸，是离城关最近的国家森林公园。山上有成片天然林，还有早年的义务植树纪念林。步道顺着山脊走，能望见河北岸的新城。免费进山，适合半日徒步。设施简单，自备饮水。春天新绿、秋天黄叶都清爽。",
+  "highlights": [
+    "黄河北岸最近的天然林",
+    "山脊步道望河北新城",
+    "免费半日徒步地"
+  ],
+  "location": {
+    "point": {
+      "lng": 103.85601,
+      "lat": 36.095798,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "甘肃省兰州市城关区徐家山国家森林公园",
+    "district": "城关区",
+    "transportTip": "城关区乘公交到徐家山站步行上山",
+    "entrance": {
+      "lng": 103.860853,
+      "lat": 36.08332,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "以景区公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 90-160 分钟",
+    "durationMinutes": [
+      90,
+      160
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/15853530/pexels-photo-15853530.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/15853530/pexels-photo-15853530.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5472,
+      "height": 3648,
+      "alt": "Serene scene of a wooden walkway beside a forested lake under a clear sky.",
+      "query": "Xujiashan Forest Park",
+      "credit": {
+        "source": "pexels",
+        "author": "fei wang",
+        "sourceUrl": "https://www.pexels.com/photo/wooden-bridge-in-water-near-green-park-15853530/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/15837756/pexels-photo-15837756.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/15837756/pexels-photo-15837756.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5157,
+      "height": 3438,
+      "alt": "Lush green hills surrounded by mist, with a parking area below featuring numerous cars.",
+      "query": "Xujiashan Forest Park",
+      "credit": {
+        "source": "pexels",
+        "author": "fei wang",
+        "sourceUrl": "https://www.pexels.com/photo/cars-in-parking-lot-among-lush-vegetation-15837756/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38943321/pexels-photo-38943321.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38943321/pexels-photo-38943321.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4024,
+      "height": 6048,
+      "alt": "Peaceful scene of a wooden walkway by a calm river under lush green trees.",
+      "query": "Xujiashan Forest Park",
+      "credit": {
+        "source": "pexels",
+        "author": "木 灬",
+        "sourceUrl": "https://www.pexels.com/photo/serene-wooden-pathway-beside-tranquil-river-38943321/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "森林",
+    "徒步",
+    "近郊"
+  ],
+  "popularity": 42,
+  "sources": [
+    {
+      "title": "徐家山·百度百科",
+      "url": "https://baike.baidu.com/item/%E5%BE%90%E5%AE%B6%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Xujiashan Forest Park",
+    "zh": "徐家山"
+  },
+  "_geocodeTitle": "徐家山",
+  "_geocodeSuspect": false,
+  "district": "620102"
+}

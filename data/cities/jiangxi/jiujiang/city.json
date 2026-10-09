@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "jiujiang",
+  "name": "九江",
+  "province": "江西",
+  "adcode": "360400",
+  "provinceAdcode": "360000",
+  "tagline": "江湖交汇的浔阳城，庐山云海与鄱阳湖候鸟的故乡",
+  "intro": "九江在江西北部、长江与鄱阳湖的交汇处，是「三江之口、七省通衢」的江湖名城。城东南的庐山是世界文化景观，云雾、瀑布与老别墅构成了它独有的避暑气质，也是近现代名流与文人驻足的地方。城边的鄱阳湖是中国第一大淡水湖，枯水期草海连天、丰水期万顷波涛，每年越冬候鸟在此集结，白鹤与天鹅铺满湖滩。浔阳楼、烟水亭、琵琶亭沿江而立，诉说着白居易《琵琶行》与宋江题诗的水浒故事。东林寺是净土宗祖庭，白鹿洞书院是千年理学圣地。九江菜鲜辣兼济，石鸡、石鱼、石耳「庐山三石」与湖鲜不可不尝。九江适合用两三天，登山、看湖、读诗、访古，慢品江湖。",
+  "center": {
+    "lng": 115.4211,
+    "lat": 29.3811,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    113.9421,
+    28.6855,
+    116.9001,
+    30.0772
+  ],
+  "defaultZoom": 10,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/33921375/pexels-photo-33921375.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33921375/pexels-photo-33921375.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 5414,
+      "alt": "Breathtaking view of Nanjing's skyline with lush greenery in the foreground.",
+      "query": "九江 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-view-of-nanjing-city-china-33921375/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/35022547/pexels-photo-35022547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35022547/pexels-photo-35022547.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3836,
+      "height": 3836,
+      "alt": "Nanjing's city skyline silhouetted against a warm sunset with Xuanwu Lake and boats in the foreground.",
+      "query": "九江 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/sunset-over-nanjing-skyline-and-xuanwu-lake-35022547/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36213065/pexels-photo-36213065.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36213065/pexels-photo-36213065.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6048,
+      "height": 4032,
+      "alt": "Aerial view of Harbin at sunset, showcasing urban skyline and industrial smoke.",
+      "query": "九江 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "ainc T",
+        "sourceUrl": "https://www.pexels.com/photo/dusk-skyline-of-harbin-china-with-smoky-skies-36213065/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "4-10 月（庐山避暑、鄱阳湖候鸟 11-次年2 月）；丰枯水景不同，候鸟季湖风大",
+    "suggestedDays": "2-3 天（庐山 1-2 天，市区浔阳楼+鄱阳湖 1 天）",
+    "transitTip": "高铁九江站通达，庐山站近景区；南昌昌北机场亦可衔接。庐山需换观光车与索道，自驾盘山谨慎。去鄱阳湖吴城、庐山西海需县际车或自驾。市区沿江景点步行或公交即可。",
+    "climateTip": "亚热带湿润气候，庐山海拔高、比市区凉 5-8℃；鄱阳湖区域夏热冬寒，候鸟季湖风大注意保暖。"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-05"
+  },
+  "updatedAt": "2026-10-05"
+}

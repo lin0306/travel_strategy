@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "wuxi",
+  "name": "无锡",
+  "province": "江苏",
+  "adcode": "320200",
+  "provinceAdcode": "320000",
+  "tagline": "太湖边上的甜城，鼋头渚的樱、灵山的佛、酱排骨的甜",
+  "intro": "无锡在江苏南部、太湖北岸，是江南水网里一座又甜又灵的城市。太湖给了它鼋头渚的樱花、蠡湖的烟波和太湖三白的鲜；灵山大佛和拈花湾又把佛教的恢弘与禅意做成了地标。老城里的惠山古镇、清名桥古运河、寄畅园，讲的是江南园林与工商老城的底子。江阴的徐霞客、宜兴的紫砂与竹海，又让无锡的范围延伸到山与陶。吃的偏无锡甜口：酱排骨、小笼、油面筋是三张名片。无锡适合用两天逛湖与古刹，再用一天去惠山、宜兴或江阴。",
+  "center": {
+    "lng": 120.3576,
+    "lat": 31.6307,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    119.5202,
+    31.1103,
+    120.605,
+    31.9832
+  ],
+  "defaultZoom": 10,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/38353019/pexels-photo-38353019.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38353019/pexels-photo-38353019.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6864,
+      "height": 5152,
+      "alt": "A captivating view of Qingdao's urban skyline with a vibrant waterfront and iconic structures.",
+      "query": "无锡 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "BI ravencrow",
+        "sourceUrl": "https://www.pexels.com/photo/beautiful-coastal-skyline-of-qingdao-city-38353019/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/14230261/pexels-photo-14230261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/14230261/pexels-photo-14230261.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5861,
+      "height": 3908,
+      "alt": "Illuminated skyline and reflections along the river in Foshan, China at night.",
+      "query": "无锡 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Lywin",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-of-a-city-reflecting-in-a-river-14230261/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/35003991/pexels-photo-35003991.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35003991/pexels-photo-35003991.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7008,
+      "height": 3942,
+      "alt": "Stunning night view of Hangzhou's skyline reflecting on Qiantang River, showcasing modern architecture.",
+      "query": "无锡 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Acres of Film",
+        "sourceUrl": "https://www.pexels.com/photo/majestic-night-view-of-hangzhou-s-skyline-35003991/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "3-4 月（鼋头渚樱花）/ 9-11 月（秋高太湖最美，水蜜桃也熟）；夏季闷热多雨，冬季阴冷",
+    "suggestedDays": "2-3 天（鼋头渚+灵山+拈花湾 1 天，惠山古镇+清名桥+寄畅园 1 天，宜兴/江阴选一 1 天）",
+    "transitTip": "无锡站与无锡东站（京沪高铁）都有动车，市区景点多靠公交与地铁。鼋头渚、灵山、拈花湾在太湖一线，有旅游专线或自驾最顺。去宜兴、江阴有动车或自驾，约半小时到一小时。市内共享单车密，老城小街巷适合步行。",
+    "climateTip": "北亚热带季风，湿润多雨。梅雨季闷湿，春秋最舒服。夏季高温高湿，带伞防晒；冬季湿冷，穿保暖鞋袜。"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-04"
+  },
+  "updatedAt": "2026-10-04"
+}

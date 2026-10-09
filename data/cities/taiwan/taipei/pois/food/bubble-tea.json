@@ -1,0 +1,114 @@
+{
+  "id": "bubble-tea",
+  "name": "珍珠奶茶",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "奶茶加木薯粉圆，冷饮热饮都有的日常饮料。",
+  "description": "珍珠奶茶在台北街头随处可见，从连锁店到小摊都卖。做法是把红茶与奶混合，加上煮好的粉圆，粉圆用木薯粉做成，煮后透明有弹性，吸起来有嚼劲。点单时可以选糖量与冰量，也可以换鲜奶，或加布丁、椰果。茶叶好坏差别很大，用鲜奶和用奶精的味道也不同。夏天冰的最受欢迎，冬天也有热饮。街边店密集，走几步就有一家，价格平实，是边走边喝的饮料。",
+  "highlights": [
+    "木薯粉圆有嚼劲",
+    "可选糖量与冰量",
+    "街边店密集，价格平实"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.53555,
+      "lat": 25.0127,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "台北市各区连锁与小摊均有",
+    "district": "中正区",
+    "transportTip": "捷运站周边步行可达"
+  },
+  "practical": {
+    "openHours": "多为10:00-22:00，各店不一",
+    "openHoursRef": 0,
+    "ticket": "一杯约新台币50元至80元，以店家为准",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "kids",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/14267667/pexels-photo-14267667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/14267667/pexels-photo-14267667.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3456,
+      "height": 4608,
+      "alt": "Two people holding bubble tea cups together, showcasing different flavors in plastic cups.",
+      "query": "bubble tea Taipei",
+      "credit": {
+        "source": "pexels",
+        "author": "Viktorya  Sergeeva 🫂",
+        "sourceUrl": "https://www.pexels.com/photo/bubbles-teas-in-plastic-cups-14267667/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/19996404/pexels-photo-19996404.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/19996404/pexels-photo-19996404.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Two women smiling while toasting bubble tea in a vibrant indoor setting.",
+      "query": "bubble tea Taipei",
+      "credit": {
+        "source": "pexels",
+        "author": "George Frewat",
+        "sourceUrl": "https://www.pexels.com/photo/women-holding-cups-of-fruit-cocktails-19996404/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39640866/pexels-photo-39640866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39640866/pexels-photo-39640866.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "Close-up of Xing Fu Tang brown sugar milk tea cups with clear lids.",
+      "query": "bubble tea Taipei",
+      "credit": {
+        "source": "pexels",
+        "author": "Gin Ger",
+        "sourceUrl": "https://www.pexels.com/photo/xing-fu-tang-taiwanese-brown-sugar-milk-tea-39640866/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "奶茶",
+    "饮料",
+    "粉圆"
+  ],
+  "popularity": 93,
+  "sources": [
+    {
+      "title": "珍珠奶茶·百度百科",
+      "url": "https://baike.baidu.com/item/%E7%8F%8D%E7%8F%A0%E5%A5%B6%E8%8C%B6",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-03"
+    }
+  ],
+  "updatedAt": "2026-10-03",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "bubble tea Taipei",
+    "zh": "珍珠奶茶"
+  },
+  "_geocodeTitle": "猪血糕. 珍珠奶茶",
+  "_geocodeSuspect": false,
+  "district": "711003"
+}

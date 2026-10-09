@@ -1,0 +1,113 @@
+{
+  "id": "shipin-street",
+  "name": "食品街",
+  "category": "hotspot",
+  "subtype": "photo",
+  "summary": "太原最有名的小吃街，夜里摊灯连成一片，是烟火气最足的一处。",
+  "description": "食品街在柳巷一带，是太原最有名的小吃街。街道不长，两侧排满饭馆与小吃摊，从刀削面、灌肠到烤串、甜食都有，夜里摊灯连成一条暖黄的线，油烟与人声混在一起，是这座城市烟火气最足的地方。拍照适合用街景与食物特写，人多时把镜头举高一点反而更有气氛。吃饭高峰要等位，错开饭点更舒服。街口常年拥挤，留意随身物品；小吃摊价格便宜但分量不大，可以多家分着尝。",
+  "highlights": [
+    "小吃摊灯连成线",
+    "面食烤串甜食齐",
+    "夜市烟火气最足"
+  ],
+  "location": {
+    "point": {
+      "lng": 112.562367,
+      "lat": 37.87017,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山西省太原市迎泽区食品街",
+    "district": "杏花岭区",
+    "transportTip": "市区乘公交或地铁到柳巷、食品街"
+  },
+  "practical": {
+    "openHours": "约10:00-22:00，夜间最热闹",
+    "openHoursRef": 0,
+    "ticket": "免费逛，小吃按价",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "friends",
+    "kids",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/%E5%A4%AA%E5%8E%9F%E9%A3%9F%E5%93%81%E8%A1%97.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/%E5%A4%AA%E5%8E%9F%E9%A3%9F%E5%93%81%E8%A1%97.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 810,
+      "alt": "太原食品街.jpg",
+      "query": "食品街 太原",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Gomeying",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%AA%E5%8E%9F%E9%A3%9F%E5%93%81%E8%A1%97.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Tianjin_Food_Street..jpg/1280px-Tianjin_Food_Street..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Tianjin_Food_Street..jpg/1280px-Tianjin_Food_Street..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1630,
+      "alt": "Tianjin Food Street..jpg",
+      "query": "食品街",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Jakob Montrasio",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tianjin_Food_Street..jpg",
+        "license": "CC BY 2.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/%E5%8D%97%E5%B8%82%E9%A3%9F%E5%93%81%E8%A1%97.JPG/1280px-%E5%8D%97%E5%B8%82%E9%A3%9F%E5%93%81%E8%A1%97.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/%E5%8D%97%E5%B8%82%E9%A3%9F%E5%93%81%E8%A1%97.JPG/1280px-%E5%8D%97%E5%B8%82%E9%A3%9F%E5%93%81%E8%A1%97.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 608,
+      "alt": "南市食品街.JPG",
+      "query": "食品街",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Techyan",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%B8%82%E9%A3%9F%E5%93%81%E8%A1%97.JPG",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "食品街",
+    "夜市",
+    "烟火"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "太原食品街·百度百科",
+      "url": "https://baike.baidu.com/item/%E5%A4%AA%E5%8E%9F%E9%A3%9F%E5%93%81%E8%A1%97",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Shipin Street Taiyuan Food Street",
+    "zh": "食品街"
+  },
+  "_geocodeTitle": "食品街",
+  "_geocodeSuspect": false,
+  "district": "140107"
+}

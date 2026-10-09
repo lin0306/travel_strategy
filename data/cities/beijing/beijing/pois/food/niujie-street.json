@@ -1,0 +1,112 @@
+{
+  "id": "niujie-street",
+  "name": "牛街清真小吃街",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "北京清真小吃密度最高的一片街区，跟着本地人吃就对了。",
+  "description": "牛街是北京回族聚居历史最久的区域之一，从输入胡同到牛街这一段，聚宝源、洪记、白记的年糕与驴打滚、满恒记的涮肉都挤在几百米内，密度远高于游客区。它的好处是价格与新鲜度都站在本地这一侧，早上去尤其能看到排队的日常。这是生活区不是景区，按普通街区的心理预期去。",
+  "highlights": [
+    "本地清真小吃密度最高",
+    "聚宝源、白记、洪记集中在一两段",
+    "早上去最像日常"
+  ],
+  "location": {
+    "point": {
+      "lng": 116.36512,
+      "lat": 39.886641,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "北京市西城区牛街输入胡同一带",
+    "district": "西城",
+    "transportTip": "地铁7号线广安门内站/19号线牛街站"
+  },
+  "practical": {
+    "openHours": "以各门店公告为准(早晨最热闹)",
+    "openHoursRef": 0,
+    "ticket": "人均约40元起(以门店为准)",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/2016-08-13_Choi_Sum_%28Brassica_rapa_subsp._chinensis_var._parachinensis%29_dish_in_Beijing_anagoria.jpg/1280px-2016-08-13_Choi_Sum_%28Brassica_rapa_subsp._chinensis_var._parachinensis%29_dish_in_Beijing_anagoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/2016-08-13_Choi_Sum_%28Brassica_rapa_subsp._chinensis_var._parachinensis%29_dish_in_Beijing_anagoria.jpg/1280px-2016-08-13_Choi_Sum_%28Brassica_rapa_subsp._chinensis_var._parachinensis%29_dish_in_Beijing_anagoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 868,
+      "alt": "2016-08-13 Choi Sum (Brassica rapa subsp. chinensis var. parachinensis) dish in Beijing anagoria.jpg",
+      "query": "Chinese street food dish beijing",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Anagoria",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016-08-13_Choi_Sum_(Brassica_rapa_subsp._chinensis_var._parachinensis)_dish_in_Beijing_anagoria.jpg",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/2016-08-14_Kung_Pao_Chicken_dish_in_Beijing_anagoria.jpg/1280px-2016-08-14_Kung_Pao_Chicken_dish_in_Beijing_anagoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/2016-08-14_Kung_Pao_Chicken_dish_in_Beijing_anagoria.jpg/1280px-2016-08-14_Kung_Pao_Chicken_dish_in_Beijing_anagoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1033,
+      "alt": "2016-08-14 Kung Pao Chicken dish in Beijing anagoria.jpg",
+      "query": "Chinese street food dish beijing",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Anagoria",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016-08-14_Kung_Pao_Chicken_dish_in_Beijing_anagoria.jpg",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/2016-08-14_vegetable_dish_in_Beijing_anagoria.jpg/1280px-2016-08-14_vegetable_dish_in_Beijing_anagoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/2016-08-14_vegetable_dish_in_Beijing_anagoria.jpg/1280px-2016-08-14_vegetable_dish_in_Beijing_anagoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 972,
+      "alt": "2016-08-14 vegetable dish in Beijing anagoria.jpg",
+      "query": "Chinese street food dish beijing",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Anagoria",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016-08-14_vegetable_dish_in_Beijing_anagoria.jpg",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "清真",
+    "小吃街",
+    "市井"
+  ],
+  "popularity": 85,
+  "sources": [
+    {
+      "title": "百度百科·牛街",
+      "url": "https://baike.baidu.com/item/%E7%89%9B%E8%A1%97",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "牛街清真小吃街"
+  },
+  "_geocodeTitle": "牛街穆益斋清真小吃熟食店",
+  "_geocodeSuspect": false,
+  "district": "110102"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "guojia-senlin-gongyuan",
+  "name": "福州国家森林公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "城北的一大片森林，有千年榕树和一片竹海。",
+  "description": "福州国家森林公园在城北的新店镇，是城区边上少有的大面积林地。园里最出名的是一棵千年古榕，树冠极大，是很多人来合影的对象。此外有竹类观赏园、树木标本园和一片龙潭溪流，夏天比城里凉。它面积大，靠观光车和步行结合走，预留半天到一天。空气好、人比景区少，本地人周末来得多。从市区过去要坐一段公交或打车。",
+  "highlights": [
+    "园里有棵千年古榕，冠幅极大",
+    "大块林地，夏天比城里凉",
+    "面积大，靠观光车加步行"
+  ],
+  "location": {
+    "point": {
+      "lng": 119.287601,
+      "lat": 26.159183,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "福州市晋安区新店镇上赤桥",
+    "district": "晋安区",
+    "transportTip": "公交森林公园站；市区打车约25分钟",
+    "entrance": {
+      "lng": 119.300627,
+      "lat": 26.15062,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:00-17:30，以公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费（部分项目另计）",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Acrossocheilus_hemispinus%2C_%E7%A6%8F%E5%B7%9E%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD_imported_from_iNaturalist_photo_258394205.jpg/1280px-Acrossocheilus_hemispinus%2C_%E7%A6%8F%E5%B7%9E%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD_imported_from_iNaturalist_photo_258394205.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Acrossocheilus_hemispinus%2C_%E7%A6%8F%E5%B7%9E%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD_imported_from_iNaturalist_photo_258394205.jpg/1280px-Acrossocheilus_hemispinus%2C_%E7%A6%8F%E5%B7%9E%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD_imported_from_iNaturalist_photo_258394205.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Acrossocheilus hemispinus, 福州国家森林公园 imported from iNaturalist photo 258394205.jpg",
+      "query": "福州国家森林公园 福州",
+      "credit": {
+        "source": "wikimedia",
+        "author": "(c) Wang.QG, some rights reserved (CC BY)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acrossocheilus_hemispinus,_%E7%A6%8F%E5%B7%9E%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD_imported_from_iNaturalist_photo_258394205.jpg",
+        "license": "CC BY 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Caryota_mitis_taken_in_Fuzhou.JPG/1280px-Caryota_mitis_taken_in_Fuzhou.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Caryota_mitis_taken_in_Fuzhou.JPG/1280px-Caryota_mitis_taken_in_Fuzhou.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Caryota mitis taken in Fuzhou.JPG",
+      "query": "福州国家森林公园 福州",
+      "credit": {
+        "source": "wikimedia",
+        "author": "弧微分",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caryota_mitis_taken_in_Fuzhou.JPG",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "森林",
+    "古榕",
+    "免费"
+  ],
+  "popularity": 76,
+  "sources": [
+    {
+      "title": "百度百科·福州国家森林公园",
+      "url": "https://baike.baidu.com/item/%E7%A6%8F%E5%B7%9E%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "福州国家森林公园"
+  },
+  "_geocodeTitle": "福州国家森林公园",
+  "_geocodeSuspect": false,
+  "district": "350111"
+}

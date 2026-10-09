@@ -1,0 +1,116 @@
+{
+  "id": "douhua",
+  "name": "豆花饭",
+  "category": "food",
+  "subtype": "local",
+  "summary": "一碗豆花配一碟蘸水一碗饭，川东北最实在的一顿。",
+  "description": "豆花饭是川东北最常见的平民饭食，阆中城里城外都有。豆花比豆腐脑老、比豆腐嫩，用胆水（卤水）点出来，成形但一碰就碎，盛在碗里带着清亮的窖水。吃法简单：一碟蘸水是灵魂——红油辣子、保宁醋、花椒面、蒜泥、葱花、豆豉，各家配方不同，有的还放木姜油或者藿香。夹一块豆花在蘸水里滚一圈，又辣又麻又香，然后扒一口白饭。简单、便宜、饱腹，是本地人日常的中午饭。讲究的人会再加一份烧白或者蒸肉，就成了「豆花饭套餐」。小店环境一般，但味道往往最地道。",
+  "highlights": [
+    "胆水点的豆花",
+    "蘸水是灵魂",
+    "配白饭饱腹",
+    "本地日常午饭"
+  ],
+  "location": {
+    "point": {
+      "lng": 105.9695,
+      "lat": 31.578,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "南充市阆中市保宁街道，古城内外小店",
+    "district": "阆中",
+    "transportTip": "古城内步行可达"
+  },
+  "practical": {
+    "openHours": "一般 10:30-20:00",
+    "openHoursRef": 0,
+    "ticket": "无（十几元一套）",
+    "ticketRef": 0,
+    "duration": "建议 40-70 分钟",
+    "durationMinutes": [
+      40,
+      70
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "elders",
+    "family",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Nasi_Kerabu_Biru.jpg/1280px-Nasi_Kerabu_Biru.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Nasi_Kerabu_Biru.jpg/1280px-Nasi_Kerabu_Biru.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1080,
+      "alt": "Nasi Kerabu Biru.jpg",
+      "query": "豆花饭",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Encik Tekateki",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nasi_Kerabu_Biru.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Nasi_Kerabu_J%26K_Restaurant.jpg/1280px-Nasi_Kerabu_J%26K_Restaurant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Nasi_Kerabu_J%26K_Restaurant.jpg/1280px-Nasi_Kerabu_J%26K_Restaurant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1004,
+      "alt": "Nasi Kerabu J&K Restaurant.jpg",
+      "query": "豆花饭",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Encik Tekateki",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nasi_Kerabu_J%26K_Restaurant.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Nasi_Kerabu_Ulam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Nasi_Kerabu_Ulam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 810,
+      "alt": "Nasi Kerabu Ulam.jpg",
+      "query": "豆花饭",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Dr.Francostein1975",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nasi_Kerabu_Ulam.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "平民饭",
+    "豆花",
+    "蘸水",
+    "便宜"
+  ],
+  "popularity": 60,
+  "sources": [
+    {
+      "title": "百度百科·豆花",
+      "url": "https://baike.baidu.com/item/%E8%B1%86%E8%8A%B1%E9%A5%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "豆花饭"
+  },
+  "_geocodeTitle": "阆中古城内豆花饭店",
+  "_geocodeSuspect": false,
+  "district": "511381"
+}

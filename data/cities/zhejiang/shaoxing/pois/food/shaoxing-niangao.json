@@ -1,0 +1,83 @@
+{
+  "id": "shaoxing-niangao",
+  "name": "绍兴年糕·糕团",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "水磨年糕与艾糕，时令糯食。",
+  "description": "绍兴年糕用晚粳米水磨制成，洁白细腻、久煮不糊，炒、煮、汤皆可；清明前后还有艾草糕团（青饺）。它是绍兴人过年的主食与节令糯食，软糯清香。价低、易得，街头与老字号都有。雪菜肉丝炒年糕最经典。",
+  "highlights": [
+    "水磨晚粳米年糕，久煮不糊",
+    "清明艾糕青饺时令",
+    "雪菜肉丝炒最经典"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.582338,
+      "lat": 29.989092,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "绍兴市越城区年糕铺与老字号",
+    "district": "越城区",
+    "transportTip": "老城与早市"
+  },
+  "practical": {
+    "openHours": "约06:30-20:00（以门店为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约12元，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
+      15,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "elders",
+    "solo",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Xiao_Shaoxing_at_food_court_of_First_Foodmall_Wujiaochang.jpg/1280px-Xiao_Shaoxing_at_food_court_of_First_Foodmall_Wujiaochang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Xiao_Shaoxing_at_food_court_of_First_Foodmall_Wujiaochang.jpg/1280px-Xiao_Shaoxing_at_food_court_of_First_Foodmall_Wujiaochang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Xiao Shaoxing at food court of First Foodmall Wujiaochang.jpg",
+      "query": "Chinese street food dish shaoxing",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Shwangtianyuan",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xiao_Shaoxing_at_food_court_of_First_Foodmall_Wujiaochang.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "年糕",
+    "糕团",
+    "糯食"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "百度百科·年糕",
+      "url": "https://baike.baidu.com/item/%E5%B9%B4%E7%B3%95",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "绍兴年糕·糕团"
+  },
+  "_geocodeTitle": "越城区",
+  "_geocodeSuspect": false,
+  "district": "330602"
+}

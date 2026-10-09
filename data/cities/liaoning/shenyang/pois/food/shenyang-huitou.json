@@ -1,0 +1,113 @@
+{
+  "id": "shenyang-huitou",
+  "name": "沈阳回头",
+  "category": "food",
+  "subtype": "local",
+  "summary": "沈阳传统小吃，面团包馅折成方，油煎金黄，外脆里嫩。",
+  "description": "回头是沈阳的传统小吃。面团包上肉馅，折叠成方，下油锅煎成金黄。外脆里嫩，咬开有汁。它和馅饼像但形状不同。老店现做的最香。配豆浆或馄饨。找本地人多的店，味道更稳，别只信榜单。",
+  "highlights": [
+    "沈阳传统折叠方小吃",
+    "油煎金黄外脆里嫩",
+    "老店现做配豆浆"
+  ],
+  "location": {
+    "point": {
+      "lng": 123.489087,
+      "lat": 41.804467,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省沈阳市各回头老店",
+    "district": "大东区",
+    "transportTip": "市区老店均有"
+  },
+  "practical": {
+    "openHours": "约06:30-20:00",
+    "openHoursRef": 0,
+    "ticket": "约12元/个起",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
+      15,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37173327/pexels-photo-37173327.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37173327/pexels-photo-37173327.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4006,
+      "height": 6034,
+      "alt": "Captivating night cityscape of Shenyang with the illuminated TV Tower reflecting in a serene lake.",
+      "query": "Shenyang Huotou",
+      "credit": {
+        "source": "pexels",
+        "author": "YFS Visuals",
+        "sourceUrl": "https://www.pexels.com/photo/dazzling-night-view-of-shenyang-tv-tower-reflection-37173327/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37173337/pexels-photo-37173337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37173337/pexels-photo-37173337.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Stunning skyline of Shenyang reflected in a serene lake, capturing urban symmetry and autumn colors.",
+      "query": "Shenyang Huotou",
+      "credit": {
+        "source": "pexels",
+        "author": "YFS Visuals",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-reflection-in-shenyang-s-tranquil-lake-37173337/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/30356098/pexels-photo-30356098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/30356098/pexels-photo-30356098.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5568,
+      "height": 3712,
+      "alt": "Scenic view of Ferris wheel and urban skyline reflecting in a lake in Shenyang, China.",
+      "query": "Shenyang Huotou",
+      "credit": {
+        "source": "pexels",
+        "author": "Pin Wang",
+        "sourceUrl": "https://www.pexels.com/photo/ferris-wheel-and-reflection-in-shenyang-china-30356098/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "回头",
+    "小吃",
+    "油煎"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·回头",
+      "url": "https://baike.baidu.com/item/%E5%9B%9E%E5%A4%B4",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Shenyang Huotou",
+    "zh": "沈阳回头"
+  },
+  "_geocodeTitle": "回头客老菜馆沈阳滂江街店",
+  "_geocodeSuspect": false,
+  "district": "210104"
+}

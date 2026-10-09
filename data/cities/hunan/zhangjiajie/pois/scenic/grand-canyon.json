@@ -1,0 +1,118 @@
+{
+  "id": "grand-canyon",
+  "name": "张家界大峡谷",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "慈利县一条大峡谷，上面架着世界最长的玻璃桥，走上去脚下发空。",
+  "description": "张家界大峡谷在慈利县，是一条很深的峡谷。峡谷上头架着一座玻璃桥，据说是世界最长的人行玻璃桥之一。走上去脚下全透明，能看到谷底。桥之外还有滑道和溪降之类的项目，适合想找点刺激的人。",
+  "highlights": [
+    "深峡谷上架世界最长玻璃桥之一",
+    "桥面透明，可见谷底",
+    "另有滑道溪降等项目"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.714177,
+      "lat": 29.434632,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "湖南省张家界市慈利县三官寺乡张家界大峡谷",
+    "district": "慈利县",
+    "transportTip": "市区或武陵源乘车到慈利三官寺大峡谷",
+    "entrance": {
+      "lng": 110.697564,
+      "lat": 29.39522,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:00-17:30，以景区公告为准",
+    "openHoursRef": 0,
+    "ticket": "约118元（含玻璃桥，以官方为准）",
+    "ticketRef": 0,
+    "duration": "建议 180-300 分钟",
+    "durationMinutes": [
+      180,
+      300
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Zhangjiajie_Grand_Canyon_05.jpg/1280px-Zhangjiajie_Grand_Canyon_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Zhangjiajie_Grand_Canyon_05.jpg/1280px-Zhangjiajie_Grand_Canyon_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Zhangjiajie Grand Canyon 05.jpg",
+      "query": "张家界大峡谷 张家界",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Codas",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhangjiajie_Grand_Canyon_05.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Zhangjiajie_Grand_Canyon_09.jpg/1280px-Zhangjiajie_Grand_Canyon_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Zhangjiajie_Grand_Canyon_09.jpg/1280px-Zhangjiajie_Grand_Canyon_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Zhangjiajie Grand Canyon 09.jpg",
+      "query": "张家界大峡谷 张家界",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Codas",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhangjiajie_Grand_Canyon_09.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Zhangjiajie_Grand_Canyon_11.jpg/1280px-Zhangjiajie_Grand_Canyon_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Zhangjiajie_Grand_Canyon_11.jpg/1280px-Zhangjiajie_Grand_Canyon_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Zhangjiajie Grand Canyon 11.jpg",
+      "query": "张家界大峡谷 张家界",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Codas",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhangjiajie_Grand_Canyon_11.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "玻璃桥",
+    "峡谷",
+    "慈利"
+  ],
+  "popularity": 90,
+  "sources": [
+    {
+      "title": "百度百科·张家界大峡谷",
+      "url": "https://baike.baidu.com/item/%E5%BC%A0%E5%AE%B6%E7%95%8C%E5%A4%A7%E5%B3%A1%E8%B0%B7",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Zhangjiajie Grand Canyon",
+    "zh": "张家界大峡谷"
+  },
+  "_geocodeTitle": "张家界大峡谷农场",
+  "_geocodeSuspect": false,
+  "district": "430821"
+}

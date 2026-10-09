@@ -1,0 +1,111 @@
+{
+  "id": "ningbo-opera",
+  "name": "宁波戏曲演出",
+  "category": "culture",
+  "subtype": "performance",
+  "summary": "宁波本地的戏曲演出，甬剧是这一带自己的剧种，在老城的小剧场与文化场馆里演。",
+  "description": "甬剧是宁波这一带自己的剧种，从本地的田头山歌与说唱发展过来，唱的是宁波话，题材多是家常与市井，与越剧那种才子佳人不是一路。它流行范围很小 —— 基本就在宁波与周边，所以外地人多半没听过。演出在老城的小剧场、文化馆与一些文化场馆里，不是每天有，按排期，要提前在官方渠道查场次。票价中等，比看一场大演出便宜。听不懂宁波话的话，戏的大半味道会漏掉，好在多数场馆有字幕。一场一个半到两小时。它不是为游客排的节目，是本地人自己看的，能不能碰上要看排期。想看这座城自己的声音，这是最直接的一处。",
+  "highlights": [
+    "甬剧是宁波自己的剧种，唱宁波话，题材是家常市井",
+    "流行范围基本只在宁波与周边，外地人多半没听过",
+    "不是每天有，按排期，听不懂方言靠字幕"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.551969,
+      "lat": 29.870588,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "浙江省宁波市海曙区开明街",
+    "district": "海曙区",
+    "transportTip": "地铁一号线城隍庙站步行；小剧场位置以场次公告为准"
+  },
+  "practical": {
+    "openHours": "按排期，多在晚间",
+    "openHoursRef": 0,
+    "ticket": "票价中等，以场次为准",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "elders",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38318526/pexels-photo-38318526.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38318526/pexels-photo-38318526.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5712,
+      "height": 4284,
+      "alt": "A scenic view of a traditional Chinese pavilion adorned with red lanterns and a performer in traditional attire.",
+      "query": "Chinese opera performance ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "PREETYGUYFABIO678",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-pavilion-with-red-lanterns-38318526/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36422762/pexels-photo-36422762.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36422762/pexels-photo-36422762.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2666,
+      "height": 3999,
+      "alt": "Close-up of a Chinese opera performer wearing ornate traditional costume and makeup.",
+      "query": "Chinese opera performance ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Alexandra  Lavizzari",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-opera-performer-in-costume-36422762/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32526871/pexels-photo-32526871.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32526871/pexels-photo-32526871.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4096,
+      "height": 3072,
+      "alt": "Two actors in traditional Chinese opera costumes stand in a historic temple setting in Jiangxi, China.",
+      "query": "Chinese opera performance ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-theatre-performers-in-historical-setting-32526871/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "甬剧",
+    "地方戏",
+    "方言"
+  ],
+  "popularity": 60,
+  "sources": [
+    {
+      "title": "百度百科·甬剧",
+      "url": "https://baike.baidu.com/item/%E7%94%AC%E5%89%A7",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "宁波戏曲演出"
+  },
+  "_geocodeTitle": "开明街",
+  "district": "330203"
+}

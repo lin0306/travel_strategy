@@ -1,0 +1,83 @@
+{
+  "id": "qing-ping-fan-dian",
+  "name": "清平饭店（清平鸡）",
+  "category": "food",
+  "subtype": "local",
+  "summary": "清平鸡这个菜就是从这里出去的，1980 年代广州流行一时。",
+  "description": "清平鸡是这家店做出来的招牌：用白卤水浸熟，皮爽肉滑，配姜葱蘸料。它在 1980 年代的广州非常流行，也因此在本地的记忆里位置很稳。这是一家价格实在的饭店，除了鸡还有家常的粤菜。它不属于精致的那一路，更接近本地人日常吃饭的地方。门店经历过变动，营业情况建议出发前确认。",
+  "highlights": [
+    "清平鸡这道菜的发源店",
+    "白卤水浸法，配姜葱蘸料",
+    "家常粤菜，价格在大众区间"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.236062,
+      "lat": 23.122547,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "广州市荔湾区清平路171号",
+    "district": "荔湾区",
+    "transportTip": "地铁6号线/8号线文化公园站"
+  },
+  "practical": {
+    "openHours": "午晚市为主（以门店公告为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约60-110元，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "elders",
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Ching_Ping.jpg/1280px-Ching_Ping.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Ching_Ping.jpg/1280px-Ching_Ping.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Ching Ping.jpg",
+      "query": "清平饭店 广州",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Gzdavidwong",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ching_Ping.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "粤菜",
+    "招牌菜",
+    "老字号"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "百度百科·清平鸡",
+      "url": "https://baike.baidu.com/item/%E6%B8%85%E5%B9%B3%E9%B8%A1",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-24"
+    }
+  ],
+  "updatedAt": "2026-09-24",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "清平饭店（清平鸡）"
+  },
+  "_geocodeTitle": "清平饭店·广州第一鸡(荔湾湖店)",
+  "_geocodeSuspect": false,
+  "district": "440103"
+}

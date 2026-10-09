@@ -1,0 +1,119 @@
+{
+  "id": "shuidao-park",
+  "name": "水稻国家公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "海棠湾的一片稻田景区，田里立着恐龙造型，晚上有灯光秀。",
+  "description": "水稻国家公园在海棠区湾坡村，是在一片真实的水田上做的农旅景区。田是正经的稻田——这一带有南繁育种的历史，袁隆平团队曾在这里做过杂交水稻的加代繁育，园里也留了相关的展陈。景区在田里摆了一批仿真恐龙，个头很大，会动会叫，是带孩子来的主要理由。田埂修成了能走的步道，插秧与收割的季节能看到真正的农活。晚上有灯光项目，恐龙与稻田一起打亮，与白天是两种样子。园区大，建议坐电瓶车。",
+  "highlights": [
+    "建在真实稻田上的景区，这一带有南繁育种的历史",
+    "田里摆了一批会动会叫的大型仿真恐龙",
+    "晚上有灯光项目，恐龙与稻田一起打亮"
+  ],
+  "location": {
+    "point": {
+      "lng": 109.687757,
+      "lat": 18.319207,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "海南省三亚市海棠区湾坡村（神农路水稻国家公园）",
+    "district": "海棠区",
+    "transportTip": "市区乘公交至水稻国家公园站；或海棠湾各酒店车送",
+    "entrance": {
+      "lng": 109.690204,
+      "lat": 18.316363,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:30-22:00（灯光项目夜间开放），以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "门票与电瓶车以官方公告为准",
+    "ticketRef": 0,
+    "duration": "建议 150-300 分钟",
+    "durationMinutes": [
+      150,
+      300
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "friends",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/3878268/pexels-photo-3878268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/3878268/pexels-photo-3878268.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3148,
+      "height": 4457,
+      "alt": "Palm-lined tropical beach adorned with traditional red Chinese lanterns during sunset in Sanya, China.",
+      "query": "Chinese classical garden sanya",
+      "credit": {
+        "source": "pexels",
+        "author": "James Wheeler",
+        "sourceUrl": "https://www.pexels.com/photo/green-palm-trees-under-the-blue-sky-3878268/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39555092/pexels-photo-39555092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39555092/pexels-photo-39555092.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4592,
+      "height": 2584,
+      "alt": "Aerial view of a beautiful beach and walkway at Sanya, Hainan, China with clear blue waters.",
+      "query": "Chinese classical garden sanya",
+      "credit": {
+        "source": "pexels",
+        "author": "Alex Peet",
+        "sourceUrl": "https://www.pexels.com/photo/sunny-day-at-sanya-beach-with-scenic-view-39555092/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/4242876/pexels-photo-4242876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/4242876/pexels-photo-4242876.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8000,
+      "height": 6000,
+      "alt": "Aerial view of Sanya's beachfront with city skyline, palm trees, and clear water.",
+      "query": "Chinese classical garden sanya",
+      "credit": {
+        "source": "pexels",
+        "author": "光曦 刘",
+        "sourceUrl": "https://www.pexels.com/photo/sea-beach-trees-and-buildings-4242876/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "稻田",
+    "恐龙",
+    "灯光秀"
+  ],
+  "popularity": 66,
+  "sources": [
+    {
+      "title": "百度百科·水稻国家公园",
+      "url": "https://baike.baidu.com/item/%E6%B0%B4%E7%A8%BB%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-29"
+    }
+  ],
+  "updatedAt": "2026-09-29",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "水稻国家公园"
+  },
+  "_geocodeTitle": "水稻国家公园",
+  "_geocodeSuspect": false,
+  "district": "460202"
+}

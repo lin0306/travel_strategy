@@ -1,0 +1,113 @@
+{
+  "id": "nanping",
+  "name": "南屏",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "黟县一座村中有七十二条巷的明清古村，多部电影取过景。",
+  "description": "南屏在黟县，是一座明清古村。它最特别的是巷子多 —— 村里有七十二条纵横的巷子，走进去像迷宫。好几部电影在这儿取过景，所以也叫电影村。老祠堂几座还在，砖雕木雕都有。比宏村西递冷清，适合慢慢走、找巷子的趣味。",
+  "highlights": [
+    "村有七十二条纵横巷，似迷宫",
+    "多部电影取景，故称电影村",
+    "比宏村西递冷清，宜慢走"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.905269,
+      "lat": 29.899966,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "安徽省黄山市黟县碧阳镇南屏村",
+    "district": "黟县",
+    "transportTip": "黟县或宏村转车到南屏"
+  },
+  "practical": {
+    "openHours": "约07:30-17:30，以景区公告为准",
+    "openHoursRef": 0,
+    "ticket": "约43元",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "couple",
+    "family",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/33866942/pexels-photo-33866942.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33866942/pexels-photo-33866942.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Capture of traditional Huizhou architecture in Huangshan, Anhui, China, against a bright blue sky.",
+      "query": "Chinese historic architecture huangshan",
+      "credit": {
+        "source": "pexels",
+        "author": "Wang ZH",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-huizhou-architecture-under-blue-sky-33866942/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39725230/pexels-photo-39725230.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39725230/pexels-photo-39725230.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3957,
+      "height": 5935,
+      "alt": "Traditional Chinese architecture captured in Huangshan, China.",
+      "query": "Chinese historic architecture huangshan",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/ancient-architecture-in-huangshan-china-39725230/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/29911444/pexels-photo-29911444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29911444/pexels-photo-29911444.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Traditional Chinese rooftops with carved details against a lush mountain backdrop.",
+      "query": "Chinese historic architecture huangshan",
+      "credit": {
+        "source": "pexels",
+        "author": "家俊 胡",
+        "sourceUrl": "https://www.pexels.com/photo/ancient-rooftop-architecture-with-mountain-view-29911444/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "古村",
+    "巷弄",
+    "电影"
+  ],
+  "popularity": 48,
+  "sources": [
+    {
+      "title": "百度百科·南屏",
+      "url": "https://baike.baidu.com/item/%E5%8D%97%E5%B1%8F",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "南屏"
+  },
+  "_geocodeTitle": "南屏景区",
+  "_geocodeSuspect": false,
+  "district": "341023"
+}

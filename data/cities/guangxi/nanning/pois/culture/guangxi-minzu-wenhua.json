@@ -1,0 +1,83 @@
+{
+  "id": "guangxi-minzu-wenhua",
+  "name": "广西民族村",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "集中看广西民族的村寨与技艺。",
+  "description": "广西民族村在青秀区、毗邻青秀山，是一座集中展示广西世居民族村寨与技艺的主题园区，有壮、瑶、苗、侗等民族的干栏建筑和日常演示。它与青秀山离得近，可以同一天走。适合想用较短时间概览广西民族文化的游客。表演以园区公告为准，门票另计。",
+  "highlights": [
+    "青秀山旁集中展示广西民族的园区",
+    "壮瑶苗侗干栏建筑与技艺",
+    "与青秀山可同天走"
+  ],
+  "location": {
+    "point": {
+      "lng": 108.402256,
+      "lat": 22.775113,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "南宁市青秀区青环路（青秀山旁）",
+    "district": "青秀区",
+    "transportTip": "地铁3号线青秀山站换乘公交/打车约10分钟"
+  },
+  "practical": {
+    "openHours": "约09:00-17:00（以公告为准）",
+    "openHoursRef": 0,
+    "ticket": "以园区公告为准",
+    "ticketRef": 0,
+    "duration": "建议 120-180 分钟",
+    "durationMinutes": [
+      120,
+      180
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Old_street_yangmei.jpg/1280px-Old_street_yangmei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Old_street_yangmei.jpg/1280px-Old_street_yangmei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1620,
+      "alt": "Old street yangmei.jpg",
+      "query": "Chinese old town street nanning",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Rolfmueller",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_street_yangmei.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "民族村",
+    "干栏",
+    "技艺"
+  ],
+  "popularity": 62,
+  "sources": [
+    {
+      "title": "百度百科·广西民族村",
+      "url": "https://baike.baidu.com/item/%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E6%9D%91",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "广西民族村"
+  },
+  "_geocodeTitle": "广西民族村",
+  "_geocodeSuspect": false,
+  "district": "450103"
+}

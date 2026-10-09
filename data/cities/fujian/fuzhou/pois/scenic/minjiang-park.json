@@ -1,0 +1,118 @@
+{
+  "id": "minjiang-park",
+  "name": "闽江公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "沿闽江南岸铺开的一段江景公园，看江和看桥都方便。",
+  "description": "闽江公园沿闽江南岸展开，分成北园和南园两片，是福州看江的主要公共空间。园里是开阔的草坪、步道和一片湿地，对岸就是仓山和烟台山。傍晚是它最好的时间：江面反光、远处的桥和城市天际线一起入画。它免费、好走，本地人傍晚来跑步遛狗的多。和金山大桥、尤溪洲大桥这些跨江桥离得近，看桥也是顺带的事。",
+  "highlights": [
+    "沿闽江南岸，北园南园两片",
+    "傍晚看江面与城市天际线",
+    "免费，好走"
+  ],
+  "location": {
+    "point": {
+      "lng": 119.273929,
+      "lat": 26.057631,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "福州市台江区闽江大道167号",
+    "district": "仓山区",
+    "transportTip": "地铁2号线祥坂站/宁化站步行",
+    "entrance": {
+      "lng": 119.27095,
+      "lat": 26.054282,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/34742978/pexels-photo-34742978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34742978/pexels-photo-34742978.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4096,
+      "height": 3072,
+      "alt": "A tranquil scene of a traditional Chinese pavilion surrounded by lush greenery and a tranquil pond.",
+      "query": "Chinese classical garden fuzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "强 王",
+        "sourceUrl": "https://www.pexels.com/photo/serene-traditional-garden-pavilion-in-summer-34742978/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/30277908/pexels-photo-30277908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/30277908/pexels-photo-30277908.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3456,
+      "height": 4608,
+      "alt": "A serene view of traditional Chinese architecture framed by bamboo and leaves under a clear blue sky.",
+      "query": "Chinese classical garden fuzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Archer  Hsu",
+        "sourceUrl": "https://www.pexels.com/photo/elegant-traditional-chinese-architecture-with-bamboo-30277908/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34742959/pexels-photo-34742959.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34742959/pexels-photo-34742959.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4096,
+      "alt": "Serene view of a traditional Chinese garden courtyard with a pond reflecting lush greenery.",
+      "query": "Chinese classical garden fuzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "强 王",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-garden-courtyard-in-fuzhou-34742959/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "江景",
+    "公园",
+    "免费"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "百度百科·闽江公园",
+      "url": "https://baike.baidu.com/item/%E9%97%BD%E6%B1%9F%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "闽江公园"
+  },
+  "_geocodeTitle": "闽江公园",
+  "_geocodeSuspect": false,
+  "district": "350104"
+}

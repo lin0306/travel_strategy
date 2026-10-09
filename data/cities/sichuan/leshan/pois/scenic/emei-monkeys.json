@@ -1,0 +1,118 @@
+{
+  "id": "emei-monkeys",
+  "name": "峨眉山猴区",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "峨眉山半山一处野生藏酋猴聚集地，能近距离看，但要注意抢食。",
+  "description": "峨眉山猴区在半山一带，是野生藏酋猴聚集的地方。这些猴不怕人，常在路边讨食，有的会抢塑料袋。它是峨眉山最有看头的野生动物，但不要当面开包或逗弄，以免被挠。穿舒服的鞋，路多台阶。",
+  "highlights": [
+    "半山野生藏酋猴聚集地",
+    "不怕人常讨食会抢袋",
+    "别当面开包逗弄"
+  ],
+  "location": {
+    "point": {
+      "lng": 103.3918,
+      "lat": 29.56355,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "四川省乐山市峨眉山市峨眉山猴区",
+    "district": "峨眉山市",
+    "transportTip": "峨眉山景区内步行或缆车到猴区",
+    "entrance": {
+      "lng": 103.40756,
+      "lat": 29.576037,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约07:00-18:00，以景区公告为准",
+    "openHoursRef": 0,
+    "ticket": "含峨眉山门票",
+    "ticketRef": 0,
+    "duration": "建议 40-90 分钟",
+    "durationMinutes": [
+      40,
+      90
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/14452831/pexels-photo-14452831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/14452831/pexels-photo-14452831.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5472,
+      "height": 3648,
+      "alt": "A charming rhesus macaque perches on a railing in Shivpuri, India, surrounded by misty nature.",
+      "query": "Emei Mountain Macaques",
+      "credit": {
+        "source": "pexels",
+        "author": "Khaas Photographer",
+        "sourceUrl": "https://www.pexels.com/photo/close-up-of-small-monkey-sitting-on-a-metal-surface-14452831/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33510780/pexels-photo-33510780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33510780/pexels-photo-33510780.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5710,
+      "height": 3807,
+      "alt": "A macaque monkey calling out from a tall tree in Yogyakarta's lush forests.",
+      "query": "Emei Mountain Macaques",
+      "credit": {
+        "source": "pexels",
+        "author": "Mike Panton",
+        "sourceUrl": "https://www.pexels.com/photo/macaque-monkey-in-lush-indonesian-forest-33510780/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6657979/pexels-photo-6657979.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6657979/pexels-photo-6657979.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4928,
+      "height": 3280,
+      "alt": "Captured macaque monkey sitting peacefully in lush Taipei forest, Taiwan.",
+      "query": "Emei Mountain Macaques",
+      "credit": {
+        "source": "pexels",
+        "author": "Klub Boks",
+        "sourceUrl": "https://www.pexels.com/photo/macaque-monkey-in-a-natural-setting-6657979/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "猴子",
+    "野生动物",
+    "峨眉山"
+  ],
+  "popularity": 84,
+  "sources": [
+    {
+      "title": "百度百科·峨眉山",
+      "url": "https://baike.baidu.com/item/%E5%B3%A8%E7%9C%89%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Emei Mountain Macaques",
+    "zh": "峨眉山猴区"
+  },
+  "_geocodeTitle": "峨眉山生态猴区",
+  "_geocodeSuspect": false,
+  "district": "511181"
+}

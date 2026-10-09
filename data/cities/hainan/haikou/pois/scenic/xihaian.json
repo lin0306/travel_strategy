@@ -1,0 +1,118 @@
+{
+  "id": "xihaian",
+  "name": "西海岸带状公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "西海岸的滨海绿带，骑行与看落日。",
+  "description": "西海岸带状公园沿着秀英区的滨海大道铺开，是一条很长的滨海绿带，有骑行道、草坪和一片礁石滩，把假日海滩、西秀海滩串起来。傍晚落日、海风是这里的招牌，骑行和散步的人都多。免费、开阔，是看西海岸最好的位置。",
+  "highlights": [
+    "西海岸长条滨海绿带，骑行道草坪",
+    "与假日西秀海滩串联",
+    "傍晚落日海风招牌"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.244795,
+      "lat": 20.032265,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "海口市秀英区滨海大道与长彤路交叉口",
+    "district": "秀英区",
+    "transportTip": "市区乘公交或打车至滨海大道西海岸",
+    "entrance": {
+      "lng": 110.233283,
+      "lat": 20.038759,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "friends",
+    "couple",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/22679781/pexels-photo-22679781.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/22679781/pexels-photo-22679781.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5472,
+      "height": 3648,
+      "alt": "Stunning view of Prince Teng Pavilion with a vibrant cityscape backdrop in Jiujiang, Jiangxi, China.",
+      "query": "Chinese classical garden haikou",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/pavilion-of-prince-teng-in-nanchang-22679781/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7494074/pexels-photo-7494074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7494074/pexels-photo-7494074.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2832,
+      "height": 4256,
+      "alt": "View of historical Chinese architecture through a wooden door in Yichang, Hubei, China.",
+      "query": "Chinese classical garden haikou",
+      "credit": {
+        "source": "pexels",
+        "author": "Leon Huang",
+        "sourceUrl": "https://www.pexels.com/photo/building-seen-from-door-7494074/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "Tranquil view of a traditional Chinese garden featuring a vibrant red lantern.",
+      "query": "Chinese classical garden haikou",
+      "credit": {
+        "source": "pexels",
+        "author": "Lily  Lili",
+        "sourceUrl": "https://www.pexels.com/photo/serene-chinese-garden-with-red-lantern-31956319/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "公园",
+    "西海岸",
+    "骑行"
+  ],
+  "popularity": 58,
+  "sources": [
+    {
+      "title": "百度百科·西海岸",
+      "url": "https://baike.baidu.com/item/%E8%A5%BF%E6%B5%B7%E5%B2%B8",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "西海岸带状公园"
+  },
+  "_geocodeTitle": "西海岸带状公园",
+  "_geocodeSuspect": false,
+  "district": "460105"
+}

@@ -1,0 +1,93 @@
+{
+  "id": "taiji-lake",
+  "name": "太极湖",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "武当山脚的人工湖，因形似太极得名，环湖骑行、亲水、看山影入水。",
+  "description": "太极湖是武当山脚下的人工湖，因湖形蜿蜒近似太极图而得名，是武当山旅游集散区的重要亲水配套。湖面开阔、水质清，远处武当群峰倒映水中，山与水相互成全。环湖修了绿道与步道，可以租自行车骑行、散步，也能乘船游湖、看日落。湖区周边有度假酒店与小镇，适合作为游武当山的食宿 base。★ 太极湖与武当山景区相连，常作为「上山朝圣、下山亲水」动线的一环；傍晚环湖骑行尤其惬意。",
+  "highlights": [
+    "武当山脚湖泊",
+    "太极湖形",
+    "环湖骑行",
+    "山影倒映",
+    "亲水"
+  ],
+  "location": {
+    "point": {
+      "lng": 111.152869,
+      "lat": 32.511384,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "十堰市丹江口市武当山特区太极湖新区",
+    "district": "丹江口",
+    "transportTip": "武当山特区乘公交或打车至太极湖，距景区山门近",
+    "entrance": {
+      "lng": 111.154092,
+      "lat": 32.511118,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "环湖步道全天可走，游船约 9:00-17:30",
+    "openHoursRef": 0,
+    "ticket": "环湖免费，游船/骑行租赁另计（现场为准）",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "friends",
+    "kids",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Yuelu_Academy_129.jpg/1280px-Yuelu_Academy_129.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Yuelu_Academy_129.jpg/1280px-Yuelu_Academy_129.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Yuelu Academy 129.jpg",
+      "query": "太极湖",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Huangdan2060",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yuelu_Academy_129.jpg",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湖泊",
+    "骑行",
+    "武当山",
+    "亲水"
+  ],
+  "popularity": 76,
+  "sources": [
+    {
+      "title": "百度百科·太极湖",
+      "url": "https://baike.baidu.com/item/%E5%A4%AA%E6%9E%81%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "太极湖"
+  },
+  "_geocodeTitle": "武当太极湖观景台",
+  "_geocodeSuspect": false,
+  "district": "420381"
+}

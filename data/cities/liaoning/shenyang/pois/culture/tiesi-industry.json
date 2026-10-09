@@ -1,0 +1,111 @@
+{
+  "id": "tiesi-industry",
+  "name": "铁西工业遗产",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "铁西的工厂、机床和工人村，是共和国工业的底片。",
+  "description": "铁西是沈阳的工业心脏，过去的机床、重矿都从这里出。老厂房、工人村宿舍留着那一代人的记忆。工业博物馆、1905、红梅把这些遗存接住，变成今天的文创。是沈阳最硬核的一面。",
+  "highlights": [
+    "铁西工业心脏机床重矿",
+    "工人村宿舍留记忆",
+    "遗存变文创硬核面"
+  ],
+  "location": {
+    "point": {
+      "lng": 123.334781,
+      "lat": 41.821721,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省沈阳市铁西区工业片区",
+    "district": "铁西区",
+    "transportTip": "公交或打车到铁西工业片区"
+  },
+  "practical": {
+    "openHours": "以各场馆为准",
+    "openHoursRef": 0,
+    "ticket": "免费或低价",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "elders",
+    "solo",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/5355819/pexels-photo-5355819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/5355819/pexels-photo-5355819.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5184,
+      "height": 3456,
+      "alt": "Old industrial machinery in a deteriorating factory in Leipzig, Germany.",
+      "query": "Tiexi Industrial Heritage",
+      "credit": {
+        "source": "pexels",
+        "author": "Antonio Friedemann",
+        "sourceUrl": "https://www.pexels.com/photo/green-metal-pipe-near-gray-wall-5355819/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38404249/pexels-photo-38404249.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38404249/pexels-photo-38404249.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Detailed view of an industrial complex featuring rusted steel pipes and structures under a clear blue sky.",
+      "query": "Tiexi Industrial Heritage",
+      "credit": {
+        "source": "pexels",
+        "author": "Paul Oor",
+        "sourceUrl": "https://www.pexels.com/photo/industrial-complex-with-rusted-steel-structures-38404249/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31324130/pexels-photo-31324130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31324130/pexels-photo-31324130.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4033,
+      "alt": "Explore the iconic industrial structures in Chengdu, showcasing tall smokestacks and brickwork.",
+      "query": "Tiexi Industrial Heritage",
+      "credit": {
+        "source": "pexels",
+        "author": "Lin K",
+        "sourceUrl": "https://www.pexels.com/photo/historic-industrial-architecture-in-chengdu-31324130/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "铁西",
+    "工业",
+    "工人村"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·铁西区",
+      "url": "https://baike.baidu.com/item/%E9%93%81%E8%A5%BF%E5%8C%BA",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Tiexi Industrial Heritage",
+    "zh": "铁西工业遗产"
+  },
+  "district": "210106"
+}

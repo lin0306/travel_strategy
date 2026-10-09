@@ -1,0 +1,117 @@
+{
+  "id": "fan-li-hu",
+  "name": "范蠡湖",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "城西小湖，范蠡西施传说。",
+  "description": "范蠡湖在嘉兴城西，是一处与范蠡、西施传说相关的小湖，相传二人曾在此泛舟隐居。湖畔有西施妆台等遗迹与园林，小巧而富故事性。它免费开放、贴近老城，适合散步顺路看，与三塔、月河组成城西水线。",
+  "highlights": [
+    "范蠡西施传说小湖",
+    "西施妆台园林",
+    "免费城西散步"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.743298,
+      "lat": 30.754523,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "嘉兴市南湖区范蠡湖",
+    "district": "南湖区",
+    "transportTip": "公交或骑行至城西",
+    "entrance": {
+      "lng": 120.744455,
+      "lat": 30.755337,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 45-90 分钟",
+    "durationMinutes": [
+      45,
+      90
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "solo",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37015373/pexels-photo-37015373.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37015373/pexels-photo-37015373.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5712,
+      "height": 4284,
+      "alt": "Serene view of ancient Chinese buildings reflecting in the tranquil waters of a historical town.",
+      "query": "Chinese classical garden jiaxing",
+      "credit": {
+        "source": "pexels",
+        "author": "Relaxing Journeys",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-architecture-by-water-in-south-lake-37015373/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/16569546/pexels-photo-16569546.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/16569546/pexels-photo-16569546.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3370,
+      "height": 2698,
+      "alt": "Captivating scene featuring traditional Chinese architecture reflected on a tranquil waterway in Jiaxing.",
+      "query": "Chinese classical garden jiaxing",
+      "credit": {
+        "source": "pexels",
+        "author": "Vind 🌙",
+        "sourceUrl": "https://www.pexels.com/photo/arched-stone-bridge-in-xitang-water-town-china-16569546/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/35602785/pexels-photo-35602785.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35602785/pexels-photo-35602785.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4138,
+      "height": 2631,
+      "alt": "Serene canal view with traditional architecture in Jiaxing, Zhejiang, China at sunset.",
+      "query": "Chinese classical garden jiaxing",
+      "credit": {
+        "source": "pexels",
+        "author": "Luke Zheng",
+        "sourceUrl": "https://www.pexels.com/photo/tranquil-canal-scene-in-jiaxing-zhejiang-35602785/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "范蠡湖",
+    "西施",
+    "传说"
+  ],
+  "popularity": 54,
+  "sources": [
+    {
+      "title": "百度百科·范蠡湖",
+      "url": "https://baike.baidu.com/item/%E8%8C%83%E8%A0%A1%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-05"
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "范蠡湖"
+  },
+  "_geocodeTitle": "范蠡湖公园",
+  "_geocodeSuspect": false,
+  "district": "330402"
+}

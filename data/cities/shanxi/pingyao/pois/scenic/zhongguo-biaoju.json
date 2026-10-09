@@ -1,0 +1,83 @@
+{
+  "id": "zhongguo-biaoju",
+  "name": "中国镖局博物馆",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "把各地镖行业放在一起讲的专题馆。",
+  "description": "中国镖局博物馆在古城内，与华北第一镖局、同兴公这几处不同，它讲的是整个行业的面。进门是一排镖车与兵器，往里按地域分块：北方的镖、水路的镖，各有各的规矩。展墙上有不少照片与旧账，字迹清楚。把几处合起来看，一处讲的是行业，一处讲的是家族，这里是本图景式的总览。因为它不在最热闹的主街上，人相对少。看完往东走几百米就是城墙的登城口。喜欢走镖这个题材的话，三处都别省。",
+  "highlights": [
+    "按地域讲整个镖行",
+    "镖车与兵器实物多",
+    "不在主街人比较少"
+  ],
+  "location": {
+    "point": {
+      "lng": 112.185261,
+      "lat": 37.203663,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "晋中市平遥县照壁南街58号平遥古城内",
+    "district": "平遥",
+    "transportTip": "古城内步行可达"
+  },
+  "practical": {
+    "openHours": "约 08:00-18:00（季节调整）",
+    "openHoursRef": 0,
+    "ticket": "含在古城通票内，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 40-80 分钟",
+    "durationMinutes": [
+      40,
+      80
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "friends",
+    "solo",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Arm_escort_museum%2C_Pingyao.JPG/1280px-Arm_escort_museum%2C_Pingyao.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Arm_escort_museum%2C_Pingyao.JPG/1280px-Arm_escort_museum%2C_Pingyao.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Arm escort museum, Pingyao.JPG",
+      "query": "中国镖局博物馆 平遥",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Gisling",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arm_escort_museum,_Pingyao.JPG",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "镖局",
+    "博物馆",
+    "行业史"
+  ],
+  "popularity": 76,
+  "sources": [
+    {
+      "title": "百度百科·平遥古城",
+      "url": "https://baike.baidu.com/item/%E5%B9%B3%E9%81%A5%E5%8F%A4%E5%9F%8E",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-06"
+    }
+  ],
+  "updatedAt": "2026-10-06",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "中国镖局博物馆"
+  },
+  "_geocodeTitle": "中国镖局博物馆",
+  "_geocodeSuspect": false,
+  "district": "140728"
+}

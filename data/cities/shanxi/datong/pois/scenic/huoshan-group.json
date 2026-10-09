@@ -1,0 +1,117 @@
+{
+  "id": "huoshan-group",
+  "name": "大同火山群",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "云州区一片死火山群，锥体完整能爬上去，是华北少见的火山地貌。",
+  "description": "大同火山群在云州区，是一片死火山。它有几十座火山锥，形状还很完整 —— 像一个个倒扣的碗。最出名的是昊天寺那座，山顶上还有一座寺。能爬到锥顶，上面是一个坑。它是华北少见的火山地貌，现在是国家地质公园。免费。",
+  "highlights": [
+    "几十座火山锥形态完整如倒扣的碗",
+    "昊天寺那座山顶有寺，锥顶是坑",
+    "华北少见火山地貌，免费"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.654372,
+      "lat": 40.078606,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山西省大同市云州区大同火山群国家地质公园",
+    "district": "云州区",
+    "transportTip": "市区自驾或包车到火山群",
+    "entrance": {
+      "lng": 113.635208,
+      "lat": 40.106072,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38098072/pexels-photo-38098072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38098072/pexels-photo-38098072.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6192,
+      "height": 4128,
+      "alt": "Ancient stone Buddha statues carved into the cliffs at Yungang Grottoes in Datong, China.",
+      "query": "natural landscape China datong",
+      "credit": {
+        "source": "pexels",
+        "author": "临万然 LWR",
+        "sourceUrl": "https://www.pexels.com/photo/majestic-stone-buddha-at-yungang-grottoes-38098072/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6724172/pexels-photo-6724172.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6724172/pexels-photo-6724172.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3456,
+      "height": 5184,
+      "alt": "Ancient Chinese pagoda with intricate architecture under a warm sky in Datong, Shanxi, China.",
+      "query": "natural landscape China datong",
+      "credit": {
+        "source": "pexels",
+        "author": "Lan Yao",
+        "sourceUrl": "https://www.pexels.com/photo/facade-of-a-pagoda-6724172/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37340474/pexels-photo-37340474.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37340474/pexels-photo-37340474.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "Impressive stone Buddha carvings at Yungang Grottoes in China.",
+      "query": "natural landscape China datong",
+      "credit": {
+        "source": "pexels",
+        "author": "Crudop MichaeLP",
+        "sourceUrl": "https://www.pexels.com/photo/magnificent-ancient-buddhist-rock-sculptures-37340474/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "火山",
+    "地质",
+    "地貌"
+  ],
+  "popularity": 62,
+  "sources": [
+    {
+      "title": "百度百科·大同火山群",
+      "url": "https://baike.baidu.com/item/%E5%A4%A7%E5%90%8C%E7%81%AB%E5%B1%B1%E7%BE%A4",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "大同火山群"
+  },
+  "_geocodeTitle": "大同火山群",
+  "_geocodeSuspect": false,
+  "district": "140215"
+}

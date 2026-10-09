@@ -1,0 +1,86 @@
+{
+  "id": "beihai-shidi",
+  "name": "北海湿地",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "一片火山堰塞湖形成的沼泽，草排浮在水上，能划船踩上去。",
+  "description": "北海湿地在腾冲城东北十来公里，是一片由火山堰塞形成的湖泊沼泽。它的核心是「草排」——水面上长着厚厚的草根盘结层，浮在水上像一块块毯子，厚度从几十厘米到一两米不等，有些地方能站人，划着小船过去，踩上去整块会往下沉一点，有点像踩在垫子上，这是国内少见的可以踩上去的沼泽。草排上是各种水草和野花，春末夏初开花的时候一片紫红和黄色，冬天则枯黄一片。水鸟不少，有水雉、白鹭，运气好能看到紫水鸡。景区修了栈道和游船，可以坐船进草排区，也可以划着小船自己蹬。风大的时候水面开阔，早晚光线最好。",
+  "highlights": [
+    "火山堰塞湖沼泽",
+    "草排浮在水上能踩",
+    "可划船进草排区",
+    "水鸟多"
+  ],
+  "location": {
+    "point": {
+      "lng": 98.556078,
+      "lat": 25.123805,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "保山市腾冲市北海乡，北海湿地景区",
+    "district": "腾冲",
+    "transportTip": "腾冲城区打车约 25 分钟；景区内栈道与游船"
+  },
+  "practical": {
+    "openHours": "8:00-18:00",
+    "openHoursRef": 0,
+    "ticket": "约 55 元（含游船）",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/The_sunset_in_Beihai_Wetland%2C_Tengchong%2C_China.jpg/1280px-The_sunset_in_Beihai_Wetland%2C_Tengchong%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/The_sunset_in_Beihai_Wetland%2C_Tengchong%2C_China.jpg/1280px-The_sunset_in_Beihai_Wetland%2C_Tengchong%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "The sunset in Beihai Wetland, Tengchong, China.jpg",
+      "query": "北海湿地",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Windmemories",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_sunset_in_Beihai_Wetland,_Tengchong,_China.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湿地",
+    "草排",
+    "划船",
+    "观鸟"
+  ],
+  "popularity": 78,
+  "sources": [
+    {
+      "title": "百度百科·北海湿地",
+      "url": "https://baike.baidu.com/item/%E5%8C%97%E6%B5%B7%E6%B9%BF%E5%9C%B0",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "北海湿地"
+  },
+  "_geocodeTitle": "腾冲湿地-北海湿地",
+  "_geocodeSuspect": false,
+  "district": "530581"
+}

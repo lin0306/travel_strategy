@@ -1,0 +1,112 @@
+{
+  "id": "zhouzhuang",
+  "name": "周庄古镇",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "被称作中国第一水乡的昆山古镇，双桥和沈厅是核心，离苏州市区约一小时车程。",
+  "description": "周庄的名头传得早，「中国第一水乡」这个说法就是从这里开始的。它成名于陈逸飞画的双桥——世德桥与永安桥十字交叉，一座方洞一座圆洞。古镇里最有看头的是几处老宅：沈厅是沈万三后裔的宅子，前后七进；张厅的特别之处是后院有一条小河穿过自家屋子，所谓「轿从门前进，船自家中过」。水是这里的骨架，坐一趟摇橹船从水上看比在岸上挤要舒服。缺点是旺季人非常多，清晨或傍晚人会明显少下来。",
+  "highlights": [
+    "双桥因陈逸飞的画成名",
+    "张厅有河穿过自家屋子",
+    "旺季人多，早晚最好"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.847838,
+      "lat": 31.110703,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "苏州市昆山市周庄镇全福路43号",
+    "district": "吴江区",
+    "transportTip": "苏州汽车北站/北广场汽车站有直达班车，车程约1小时"
+  },
+  "practical": {
+    "openHours": "约08:00-21:00(以官方公告为准)",
+    "openHoursRef": 0,
+    "ticket": "挂牌约100元，线上常有折扣票；摇橹船另计",
+    "ticketRef": 0,
+    "duration": "建议 240-420 分钟",
+    "durationMinutes": [
+      240,
+      420
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37908006/pexels-photo-37908006.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37908006/pexels-photo-37908006.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 3024,
+      "alt": "Beautiful traditional Chinese architecture of a temple in Suzhou, captured under a clear blue sky.",
+      "query": "Chinese historic architecture suzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Girish  Mathad",
+        "sourceUrl": "https://www.pexels.com/photo/ancient-chinese-temple-in-suzhou-china-37908006/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32244712/pexels-photo-32244712.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32244712/pexels-photo-32244712.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8256,
+      "height": 5504,
+      "alt": "Captivating view of traditional Chinese garden architecture featuring intricate curved roofs amidst lush greenery.",
+      "query": "Chinese historic architecture suzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Guohua Song",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-garden-architecture-with-curved-roofs-32244712/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/35501449/pexels-photo-35501449.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35501449/pexels-photo-35501449.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 3024,
+      "alt": "Traditional Chinese building with wooden lattice windows and red star emblem against a clear blue sky.",
+      "query": "Chinese historic architecture suzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Anderson Wei",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-architecture-under-blue-sky-35501449/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "古镇",
+    "水乡",
+    "双桥"
+  ],
+  "popularity": 86,
+  "sources": [
+    {
+      "title": "百度百科·周庄",
+      "url": "https://baike.baidu.com/item/%E5%91%A8%E5%BA%84",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-23"
+    }
+  ],
+  "updatedAt": "2026-09-23",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "周庄古镇"
+  },
+  "_geocodeTitle": "周庄古镇",
+  "_geocodeSuspect": false,
+  "district": "320509"
+}

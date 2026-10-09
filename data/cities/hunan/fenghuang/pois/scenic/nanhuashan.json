@@ -1,0 +1,118 @@
+{
+  "id": "nanhuashan",
+  "name": "南华山",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "环着古城的一座森林公园，登顶看全城。",
+  "description": "南华山在古城南侧，是一座环抱县城的森林公园。林子密，石阶顺着山势往上，半山就有平台能俯看整片古城和沱江。山顶视野更开阔，远处的山一层层。它不收门票，是拍古城全景最省事的一处。清晨和傍晚人少、光线好。山上比城里凉，多带一件。",
+  "highlights": [
+    "环古城的森林公园",
+    "半山俯看全城",
+    "免费拍全景"
+  ],
+  "location": {
+    "point": {
+      "lng": 109.606157,
+      "lat": 27.947518,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "湘西土家族苗族自治州凤凰县沱江镇南华山",
+    "district": "凤凰",
+    "transportTip": "古城南侧步行或打车可达",
+    "entrance": {
+      "lng": 109.599222,
+      "lat": 27.930519,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "solo",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Qinji_multi-use_tractor_in_Liuzhou.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Qinji_multi-use_tractor_in_Liuzhou.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 632,
+      "alt": "Qinji multi-use tractor in Liuzhou.jpg",
+      "query": "南华山",
+      "credit": {
+        "source": "wikimedia",
+        "author": "drnan tu from Shenzhen, China;Cropped, rotated, and levels a",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qinji_multi-use_tractor_in_Liuzhou.jpg",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/%E5%8D%97%E5%8D%8E%E5%B1%B1_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/%E5%8D%97%E5%8D%8E%E5%B1%B1_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 810,
+      "alt": "南华山 - panoramio.jpg",
+      "query": "南华山",
+      "credit": {
+        "source": "wikimedia",
+        "author": "ritsing",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%8D%8E%E5%B1%B1_-_panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/%E5%8D%97%E5%A4%A9%E9%97%A8%E7%9A%84%E6%B8%85%E6%99%A8_-_panoramio.jpg/1280px-%E5%8D%97%E5%A4%A9%E9%97%A8%E7%9A%84%E6%B8%85%E6%99%A8_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/%E5%8D%97%E5%A4%A9%E9%97%A8%E7%9A%84%E6%B8%85%E6%99%A8_-_panoramio.jpg/1280px-%E5%8D%97%E5%A4%A9%E9%97%A8%E7%9A%84%E6%B8%85%E6%99%A8_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1613,
+      "alt": "南天门的清晨 - panoramio.jpg",
+      "query": "南华山",
+      "credit": {
+        "source": "wikimedia",
+        "author": "dayu490301",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%A4%A9%E9%97%A8%E7%9A%84%E6%B8%85%E6%99%A8_-_panoramio.jpg",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "森林公园",
+    "登山",
+    "俯景"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "百度百科·南华山",
+      "url": "https://baike.baidu.com/item/%E5%8D%97%E5%8D%8E%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-06"
+    }
+  ],
+  "updatedAt": "2026-10-06",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "南华山"
+  },
+  "_geocodeTitle": "南华山",
+  "_geocodeSuspect": false,
+  "district": "433123"
+}

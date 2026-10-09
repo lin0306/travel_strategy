@@ -1,0 +1,113 @@
+{
+  "id": "fenchong",
+  "name": "南宁粉虫",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "南宁的米制小吃，短粗似虫，拌料炒或煮汤。",
+  "description": "粉虫是南宁特有的米制小吃，用米浆搓成短粗、两头尖的小条，形似虫而得名，口感柔韧弹牙。做法分炒和煮汤两种，炒粉虫配豆芽、胡萝卜和肉末，干香入味；煮汤则清爽。它是南宁人从小吃到大的家常味道，街边和小店都能见到。人均低，是市井小吃里很有辨识度的一款。",
+  "highlights": [
+    "南宁特有米制小吃，形似虫",
+    "炒或煮汤两种做法",
+    "柔韧弹牙，家常味道"
+  ],
+  "location": {
+    "point": {
+      "lng": 108.366407,
+      "lat": 22.8177,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "南宁市各城区的粉店与夜市",
+    "district": "青秀区",
+    "transportTip": "市区乘公交或打车至就近粉店"
+  },
+  "practical": {
+    "openHours": "约10:00-21:00（以门店为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约15元，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 20-45 分钟",
+    "durationMinutes": [
+      20,
+      45
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "friends",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/12722180/pexels-photo-12722180.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/12722180/pexels-photo-12722180.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4896,
+      "height": 3264,
+      "alt": "A close-up of spicy tofu with sesame and spring onions in a paper cup, held by hand.",
+      "query": "Chinese street food dish nanning",
+      "credit": {
+        "source": "pexels",
+        "author": "suning lin",
+        "sourceUrl": "https://www.pexels.com/photo/close-up-of-a-tofu-dish-in-a-disposable-cup-12722180/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33672238/pexels-photo-33672238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33672238/pexels-photo-33672238.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5277,
+      "height": 3518,
+      "alt": "Authentic street food stall in Xiang Xi, China with vendor preparing snacks for customers.",
+      "query": "Chinese street food dish nanning",
+      "credit": {
+        "source": "pexels",
+        "author": "Trần Phan Phạm Lê",
+        "sourceUrl": "https://www.pexels.com/photo/street-food-stall-in-xiang-xi-china-33672238/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4240,
+      "height": 2832,
+      "alt": "A bustling street food stall offering traditional dishes to a customer in stylish winter attire.",
+      "query": "Chinese street food dish nanning",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "粉虫",
+    "米制",
+    "小吃"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·粉虫",
+      "url": "https://baike.baidu.com/item/%E7%B2%89%E8%99%AB",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "南宁粉虫"
+  },
+  "_geocodeTitle": "南宁市",
+  "_geocodeSuspect": false,
+  "district": "450103"
+}

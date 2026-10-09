@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "guiyang",
+  "name": "贵阳",
+  "province": "贵州",
+  "adcode": "520100",
+  "provinceAdcode": "520000",
+  "tagline": "山在城里，城在山上，夏天不用开空调",
+  "intro": "贵阳在贵州中部，海拔一千一百米上下，是云贵高原上的一座城。它建在山坳里，城里也有山 —— 黔灵山就在市区北边，山上有猴子。夏天平均二十三四度，晚上要盖薄被，所以叫爽爽的贵阳。冬天阴，雨细，太阳少。吃的是酸与辣那一套：丝娃娃、肠旺面、酸汤鱼、豆腐圆子，折耳根到处都放。城不大，老城区围着喷水池那一圈，往外是观山湖新区，再往外是花溪、青岩、开阳，一个比一个远。",
+  "center": {
+    "lng": 106.6282,
+    "lat": 26.6467,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    106.1251,
+    26.1892,
+    107.2624,
+    27.3558
+  ],
+  "defaultZoom": 9,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/12515134/pexels-photo-12515134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/12515134/pexels-photo-12515134.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3840,
+      "height": 5760,
+      "alt": "Aerial view of a cityscape with skyscrapers under a dramatic cloudy sky.",
+      "query": "贵阳 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Andy Lee",
+        "sourceUrl": "https://www.pexels.com/photo/city-buildings-under-cloudy-sky-12515134/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/35422090/pexels-photo-35422090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35422090/pexels-photo-35422090.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8064,
+      "height": 4536,
+      "alt": "Aerial view of Changsha, China, showcasing urban skyline and river during sunset.",
+      "query": "贵阳 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "CHINA YU",
+        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-changsha-at-sunset-35422090/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/12515129/pexels-photo-12515129.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/12515129/pexels-photo-12515129.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3840,
+      "height": 5760,
+      "alt": "Cityscape featuring skyscrapers and urban architecture under an overcast sky.",
+      "query": "贵阳 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Andy Lee",
+        "sourceUrl": "https://www.pexels.com/photo/city-buildings-under-the-white-clouds-12515129/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "五到九月。夏天最舒服，七八月均温二十三四度，是全国少见的避暑地",
+    "suggestedDays": "三到四天。城里两天，花溪青岩一天，再远一天去开阳或息烽",
+    "transitTip": "龙洞堡机场到市区约半小时；地铁两条线覆盖主城，去花溪与观山湖都通",
+    "climateTip": "冬春多阴雨，日照少；夏季凉爽但紫外线不弱，随身带件薄外套"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-01"
+  },
+  "updatedAt": "2026-10-01"
+}

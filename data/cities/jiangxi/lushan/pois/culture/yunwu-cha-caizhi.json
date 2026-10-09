@@ -1,0 +1,118 @@
+{
+  "id": "yunwu-cha-caizhi",
+  "name": "云雾茶采制",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "清明前后上山看采茶，杀青揉捻那几步就在灶上完成。",
+  "description": "云雾茶的好，一半在山上、一半在手上。采摘在清明前后，标准是一芽一叶初展，早上露水干后采，一个熟练的采茶工一天只能采几斤鲜叶。制茶是几道手工活：杀青（高温破坏酶的活性，锁住绿和香）、抖散散热、理条（把茶叶理直）、搓条（揉出形状）、最后烘干和拣剔。传统做法是在柴灶上的铁锅里用手完成，锅温全凭手感，所以真正的好云雾茶产量一直有限。★ 山上有些茶园和茶厂在春茶季会开放参观或体验，可以跟着看一遍、甚至自己上手炒一点带走；牯岭街上的茶铺也会现场演示冲泡。★ 买茶认明前、认产地，先试喝再买；价格随等级差别极大，从一两百到上千一斤都有，不要只看包装。春茶季（三月底到四月）上庐山，能看到最完整的这一套。",
+  "highlights": [
+    "清明前后一芽一叶",
+    "杀青揉捻全凭手感",
+    "柴灶铁锅手工",
+    "春茶季可体验",
+    "先试喝再买"
+  ],
+  "location": {
+    "point": {
+      "lng": 116.068554,
+      "lat": 29.568473,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "九江市庐山市庐山茶园与牯岭正街茶铺",
+    "district": "庐山",
+    "transportTip": "牯岭镇内步行可达；茶园需包车或随茶厂安排"
+  },
+  "practical": {
+    "openHours": "茶铺 8:30-21:00；茶园体验限春茶季白天",
+    "openHoursRef": 0,
+    "ticket": "体验与购茶另计（以现场为准）",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "elders",
+    "family",
+    "couple",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/32700828/pexels-photo-32700828.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32700828/pexels-photo-32700828.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5472,
+      "height": 3648,
+      "alt": "Quaint street in traditional Chinese architecture with red lanterns under a clear blue sky.",
+      "query": "Chinese old town street lushan",
+      "credit": {
+        "source": "pexels",
+        "author": "mingche lee",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-street-with-red-lanterns-32700828/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7170937/pexels-photo-7170937.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7170937/pexels-photo-7170937.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7360,
+      "height": 4912,
+      "alt": "Explore the traditional charm of a quaint Asian village with cobblestone streets and vine-covered houses.",
+      "query": "Chinese old town street lushan",
+      "credit": {
+        "source": "pexels",
+        "author": "David Yu",
+        "sourceUrl": "https://www.pexels.com/photo/street-in-ancient-asian-town-7170937/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36506164/pexels-photo-36506164.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36506164/pexels-photo-36506164.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3105,
+      "height": 2031,
+      "alt": "Picturesque traditional Chinese alley with lanterns and historic architecture.",
+      "query": "Chinese old town street lushan",
+      "credit": {
+        "source": "pexels",
+        "author": "gang liang",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-alley-with-lanterns-36506164/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "茶",
+    "采制",
+    "春茶",
+    "体验"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·庐山云雾茶",
+      "url": "https://baike.baidu.com/item/%E5%BA%90%E5%B1%B1%E4%BA%91%E9%9B%BE%E8%8C%B6",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "云雾茶采制"
+  },
+  "_geocodeTitle": "庐山海庐茶博园",
+  "_geocodeSuspect": false,
+  "district": "360483"
+}

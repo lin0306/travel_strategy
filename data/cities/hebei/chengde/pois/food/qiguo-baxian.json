@@ -1,0 +1,112 @@
+{
+  "id": "qiguo-baxian",
+  "name": "汽锅野味八仙",
+  "category": "food",
+  "subtype": "local",
+  "summary": "承德一道用汽锅蒸的菜，山珍与野味一起蒸出汤，鲜，价格高。",
+  "description": "汽锅野味八仙是承德一道讲究的菜 —— 用汽锅把几种山珍和野味一起蒸，蒸汽在锅里循环，蒸出来的汤是原汁，鲜。名字里八仙是说料多。它是承德宫廷菜里比较上档次的一道。价格高，一般请客才点。想试要提前问有没有。",
+  "highlights": [
+    "汽锅蒸山珍野味，汤是原汁",
+    "宫廷菜中较上档次的一道",
+    "价高多请客才点，需提前问"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.943121,
+      "lat": 40.974679,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河北省承德市双桥区汽锅野味八仙",
+    "district": "双桥区",
+    "transportTip": "市区打车到店"
+  },
+  "practical": {
+    "openHours": "约10:00-21:00",
+    "openHoursRef": 0,
+    "ticket": "每份约200元起",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "high"
+  },
+  "audience": [
+    "elders",
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4096,
+      "alt": "Charming Asian dining room with bamboo chairs and traditional teaware.",
+      "query": "Chinese restaurant interior chengde",
+      "credit": {
+        "source": "pexels",
+        "author": "TIANYUN XIA",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33965578/pexels-photo-33965578.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33965578/pexels-photo-33965578.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 6817,
+      "height": 4547,
+      "alt": "Cozy traditional Chinese tea house interior with warm lighting in Chengdu, Sichuan.",
+      "query": "Chinese restaurant interior chengde",
+      "credit": {
+        "source": "pexels",
+        "author": "Vincent Tan",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-tea-house-interior-lighting-33965578/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33137968/pexels-photo-33137968.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33137968/pexels-photo-33137968.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 6714,
+      "height": 4468,
+      "alt": "Atmospheric shot of people dining in a traditional Asian restaurant with warm lighting.",
+      "query": "Chinese restaurant interior chengde",
+      "credit": {
+        "source": "pexels",
+        "author": "Vincent Tan",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-traditional-asian-restaurant-interior-33137968/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "山珍",
+    "汽锅",
+    "宫廷菜"
+  ],
+  "popularity": 52,
+  "sources": [
+    {
+      "title": "百度百科·承德",
+      "url": "https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "汽锅野味八仙"
+  },
+  "_geocodeTitle": "双桥区",
+  "district": "130802"
+}

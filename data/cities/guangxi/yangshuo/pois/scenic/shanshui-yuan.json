@@ -1,0 +1,122 @@
+{
+  "id": "shanshui-yuan",
+  "name": "阳朔山水园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "县城江边的小园子，迎江阁上看漓江和县城。",
+  "description": "山水园在阳朔县城的漓江边上，是一处很小的园林，园子依着江边的石山修，里面有亭台、石阶和几处摩崖石刻。最有名的是迎江阁——一个建在江边石台上的小阁，八面开窗，每一面望出去都像一幅画的构图，所以也叫画窗。从阁上往下看是县城的老码头和江面，对岸是峰林。园子十分钟能走完，但它就在县城里、离西街很近，吃完饭散步过来特别合适。",
+  "highlights": [
+    "迎江阁画窗",
+    "江边小园",
+    "离西街近"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.4976,
+      "lat": 24.7795,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "广西壮族自治区桂林市阳朔县阳朔山水园",
+    "district": "阳朔",
+    "transportTip": "县城西街步行约十分钟",
+    "entrance": {
+      "lng": 110.496498,
+      "lat": 24.777246,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "7:30-18:00",
+    "openHoursRef": 0,
+    "ticket": "低价票",
+    "ticketRef": 0,
+    "duration": "建议 45-100 分钟",
+    "durationMinutes": [
+      45,
+      100
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "elders",
+    "couple",
+    "family",
+    "solo",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/33632718/pexels-photo-33632718.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33632718/pexels-photo-33632718.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 6825,
+      "height": 4541,
+      "alt": "Picturesque view of traditional Chinese architecture and mountains in Guilin, China.",
+      "query": "Chinese classical garden yangshuo",
+      "credit": {
+        "source": "pexels",
+        "author": "Vincent Tan",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-architecture-in-guilin-33632718/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31694561/pexels-photo-31694561.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31694561/pexels-photo-31694561.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4781,
+      "height": 3570,
+      "alt": "Scenic view of karst hills reflecting in a lake surrounded by buildings and greenery.",
+      "query": "Chinese classical garden yangshuo",
+      "credit": {
+        "source": "pexels",
+        "author": "Phil Mitchell",
+        "sourceUrl": "https://www.pexels.com/photo/tranquil-lake-view-with-karst-hills-reflection-31694561/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "Tranquil view of a traditional Chinese garden featuring a vibrant red lantern.",
+      "query": "Chinese classical garden yangshuo",
+      "credit": {
+        "source": "pexels",
+        "author": "Lily  Lili",
+        "sourceUrl": "https://www.pexels.com/photo/serene-chinese-garden-with-red-lantern-31956319/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "山水园",
+    "迎江阁",
+    "县城",
+    "江景",
+    "散步"
+  ],
+  "popularity": 46,
+  "sources": [
+    {
+      "title": "百度百科·阳朔山水园",
+      "url": "https://baike.baidu.com/item/%E9%98%B3%E6%9C%94%E5%B1%B1%E6%B0%B4%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "阳朔山水园"
+  },
+  "_geocodeTitle": "阳朔县城江边山水园",
+  "_geocodeSuspect": false,
+  "district": "450321"
+}

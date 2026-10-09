@@ -1,0 +1,112 @@
+{
+  "id": "donglaishun",
+  "name": "东来顺饭庄(王府井店)",
+  "category": "food",
+  "subtype": "local",
+  "summary": "涮羊肉的老字号,景泰蓝小铜锅是它的招牌画面。",
+  "description": "东来顺创于1903年,最初是摆摊卖羊肉,后来做成字号,招牌是涮羊肉——手切羊肉片薄而整齐,铜锅炭火的写法与其说是取暖,不如说是保持汤滚的方式。王府井店位置便利,价位不低,吃的主要是工艺(选羊、切片)与老字号的稳定感。清汤涮法配韭菜花酱豆腐这套蘸料,是另一种不同于麻辣的路径。",
+  "highlights": [
+    "手切羊肉是核心工艺",
+    "铜锅清汤是北方涮法",
+    "价格偏高"
+  ],
+  "location": {
+    "point": {
+      "lng": 116.400139,
+      "lat": 39.900944,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "北京市东城区王府井大街198号",
+    "district": "东城",
+    "transportTip": "地铁1号线王府井站"
+  },
+  "practical": {
+    "openHours": "约11:00-21:30(以门店公告为准)",
+    "openHoursRef": 0,
+    "ticket": "人均约180元起(以门店为准)",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "high"
+  },
+  "audience": [
+    "couple",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/3603453/pexels-photo-3603453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/3603453/pexels-photo-3603453.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7354,
+      "height": 4903,
+      "alt": "Chef working in a traditional Beijing restaurant kitchen, showcasing authentic Chinese cuisine.",
+      "query": "Chinese restaurant interior beijing",
+      "credit": {
+        "source": "pexels",
+        "author": "zhang kaiyv",
+        "sourceUrl": "https://www.pexels.com/photo/man-working-inside-the-kitchen-3603453/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/5088767/pexels-photo-5088767.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/5088767/pexels-photo-5088767.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3806,
+      "height": 5709,
+      "alt": "Authentic scene of a Chinese chef cooking inside a street food stall in Beijing, China.",
+      "query": "Chinese restaurant interior beijing",
+      "credit": {
+        "source": "pexels",
+        "author": "Markus Winkler",
+        "sourceUrl": "https://www.pexels.com/photo/a-man-standing-inside-the-restaurant-5088767/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6339176/pexels-photo-6339176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6339176/pexels-photo-6339176.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8788,
+      "height": 5859,
+      "alt": "A street vendor prepares a traditional Chinese hotpot in a vibrant indoor market setting.",
+      "query": "Chinese restaurant interior beijing",
+      "credit": {
+        "source": "pexels",
+        "author": "zhang kaiyv",
+        "sourceUrl": "https://www.pexels.com/photo/figures-beijing-vibrant-color-traditional-food-6339176/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "涮羊肉",
+    "老字号",
+    "铜锅"
+  ],
+  "popularity": 86,
+  "sources": [
+    {
+      "title": "百度百科·东来顺",
+      "url": "https://baike.baidu.com/item/%E4%B8%9C%E6%9D%A5%E9%A1%BA",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "东来顺饭庄(王府井店)"
+  },
+  "_geocodeTitle": "东来顺饭庄7栋",
+  "_geocodeSuspect": false,
+  "district": "110101"
+}

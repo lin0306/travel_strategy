@@ -1,0 +1,83 @@
+{
+  "id": "jiaxing-mingren",
+  "name": "嘉兴名人文化",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "茅盾·金庸·王国维·徐志摩的故里。",
+  "description": "嘉兴人文渊薮，走出茅盾、金庸、王国维、徐志摩、丰子恺、李叔同一串文化名人。他们的故居散布乌镇、海宁、桐乡、平湖与城区，构成一条可走的文化访古线。想看江南水乡如何长出近代文艺，嘉兴的名人故居是最生动的注脚。",
+  "highlights": [
+    "茅盾金庸王国维徐志摩",
+    "故居散布各县市",
+    "文艺访古线"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.755623,
+      "lat": 30.746814,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "嘉兴市各县市名人故居",
+    "district": "南湖区",
+    "transportTip": "按名人故居分布访古"
+  },
+  "practical": {
+    "openHours": "以各故居时段为准",
+    "openHoursRef": 0,
+    "ticket": "以各故居为准",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "solo",
+    "elders",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Gazetteer_of_Puzhen_WDL4737.jpg/1280px-Gazetteer_of_Puzhen_WDL4737.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Gazetteer_of_Puzhen_WDL4737.jpg/1280px-Gazetteer_of_Puzhen_WDL4737.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 484,
+      "alt": "Gazetteer of Puzhen WDL4737.jpg",
+      "query": "嘉兴名人文化 嘉兴",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Hu, Zhuo",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gazetteer_of_Puzhen_WDL4737.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "名人",
+    "故里",
+    "文艺"
+  ],
+  "popularity": 78,
+  "sources": [
+    {
+      "title": "百度百科·嘉兴",
+      "url": "https://baike.baidu.com/item/%E5%98%89%E5%85%B4",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-05"
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "嘉兴名人文化"
+  },
+  "_geocodeTitle": "嘉兴市",
+  "_geocodeSuspect": false,
+  "district": "330402"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "national-museum",
+  "name": "中国国家博物馆",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "国家级通史馆,古代中国基本陈列一条线走下来就是半部中国史。",
+  "description": "国博在天安门广场东侧,馆藏一百四十余万件。核心是「古代中国」基本陈列,从远古一路铺到明清,后母戊鼎、四羊方尊、三星堆面具、曾侯乙编钟(部分复制)都在这一线。此外有复兴之路、专题馆与大量临时特展,临展水准往往很高。它是免费的,但预约名额在旺季同样紧张。可以明确地说:如果只能在北京选一个博物馆,和故宫二选一,国博是打基础的地方,故宫是看建筑的地方,顺序建议先国博。",
+  "highlights": [
+    "「古代中国」通史陈列人手一条线",
+    "四羊方尊、后母戊鼎是重量级实物",
+    "免费但需预约"
+  ],
+  "location": {
+    "point": {
+      "lng": 116.401397,
+      "lat": 39.905408,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "北京市东城区东长安街16号",
+    "district": "东城",
+    "transportTip": "地铁1号线天安门东站D口出即到"
+  },
+  "practical": {
+    "openHours": "约09:00-17:00(16:00停止入馆),周一闭馆,以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费(需实名预约),部分临展另行收费",
+    "ticketRef": 0,
+    "duration": "建议 240-420 分钟",
+    "durationMinutes": [
+      240,
+      420
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "kids",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/BMNH_1269248_%2815176146908%29.jpg/1280px-BMNH_1269248_%2815176146908%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/BMNH_1269248_%2815176146908%29.jpg/1280px-BMNH_1269248_%2815176146908%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1424,
+      "alt": "BMNH 1269248 (15176146908).jpg",
+      "query": "中国国家博物馆 北京",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Natural History Museum: Coleoptera Section from South Kensin",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BMNH_1269248_(15176146908).jpg",
+        "license": "CC BY 2.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Beijing_Museum_of_Natural_History_2.jpg/1280px-Beijing_Museum_of_Natural_History_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Beijing_Museum_of_Natural_History_2.jpg/1280px-Beijing_Museum_of_Natural_History_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Beijing Museum of Natural History 2.jpg",
+      "query": "中国国家博物馆 北京",
+      "credit": {
+        "source": "wikimedia",
+        "author": "钉钉",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beijing_Museum_of_Natural_History_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Bmnh_1.jpg/1280px-Bmnh_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Bmnh_1.jpg/1280px-Bmnh_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Bmnh 1.jpg",
+      "query": "中国国家博物馆 北京",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Shizhao",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bmnh_1.jpg",
+        "license": "CC BY-SA 2.5",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "国家级馆",
+    "通史",
+    "必去",
+    "雨天备选"
+  ],
+  "popularity": 94,
+  "sources": [
+    {
+      "title": "百度百科·中国国家博物馆",
+      "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%8D%9A%E7%89%A9%E9%A6%86",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "中国国家博物馆"
+  },
+  "_geocodeTitle": "中国国家博物馆",
+  "_geocodeSuspect": false,
+  "district": "110101"
+}

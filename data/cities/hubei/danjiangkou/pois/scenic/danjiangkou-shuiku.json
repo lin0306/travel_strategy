@@ -1,0 +1,123 @@
+{
+  "id": "danjiangkou-shuiku",
+  "name": "丹江口水库",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "亚洲第一大人工淡水湖，南水北调中线水源地，水清岛多、浩渺如海。",
+  "description": "丹江口水库是亚洲面积最大的人工淡水湖，由汉江与丹江在丹江口大坝前汇流而成，是南水北调中线的核心水源地，一渠清水从这里北上。水库水域辽阔、水质长期保持优级，库中点缀着上百座岛屿，因此也被称为「中原千岛湖」。沿库岸有沧浪海、千岛画廊、龙山等多处观水点，可以乘船游库、看水鸟、访岛。★ 水库是饮用水源，环保管控极严，禁止游泳、乱丢垃圾；游船班次随水位与季节调整，出发前查公告。",
+  "highlights": [
+    "亚洲第一大人工湖",
+    "南水北调水源",
+    "千岛星罗",
+    "水质优",
+    "乘船游库"
+  ],
+  "location": {
+    "point": {
+      "lng": 111.490158,
+      "lat": 32.553325,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "十堰市丹江口市丹江口水库库区",
+    "district": "丹江口",
+    "transportTip": "市区乘车至沧浪海或千岛画廊码头，转游船进库区",
+    "entrance": {
+      "lng": 111.49017,
+      "lat": 32.553215,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "游船约 8:30-17:00（随水位季节调整）",
+    "openHoursRef": 0,
+    "ticket": "户外免费，游船另购（官方为准）",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "friends",
+    "solo",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/19870417_Danjiangkou%28chs_3%2C2%2C1%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/19870417_Danjiangkou%28chs_3%2C2%2C1%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 983,
+      "alt": "19870417 Danjiangkou(chs 3,2,1).png",
+      "query": "丹江口水库 丹江口",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Landsat 9",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:19870417_Danjiangkou(chs_3,2,1).png",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/20230514_Danjiangkou%28chs_3%2C2%2C1%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/20230514_Danjiangkou%28chs_3%2C2%2C1%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 983,
+      "alt": "20230514 Danjiangkou(chs 3,2,1).png",
+      "query": "丹江口水库 丹江口",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Landsat 9",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20230514_Danjiangkou(chs_3,2,1).png",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Danjiangkoushuiku.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Danjiangkoushuiku.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 789,
+      "alt": "Danjiangkoushuiku.png",
+      "query": "丹江口水库 丹江口",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Danjiangde",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Danjiangkoushuiku.png",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湖泊",
+    "南水北调",
+    "千岛湖",
+    "水库"
+  ],
+  "popularity": 85,
+  "sources": [
+    {
+      "title": "百度百科·丹江口水库",
+      "url": "https://baike.baidu.com/item/%E4%B8%B9%E6%B1%9F%E5%8F%A3%E6%B0%B4%E5%BA%93",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "丹江口水库"
+  },
+  "_geocodeTitle": "丹江口水库风景名胜区",
+  "_geocodeSuspect": false,
+  "district": "420381"
+}

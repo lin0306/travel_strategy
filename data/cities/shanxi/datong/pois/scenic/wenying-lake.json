@@ -1,0 +1,118 @@
+{
+  "id": "wenying-lake",
+  "name": "文瀛湖",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "平城区一片城市湖，水边有步道和草地，本地人散步钓鱼的地方。",
+  "description": "文瀛湖在平城区，是城里的一片湖。湖不小，水边修了步道和草地，种着树。它是本地人散步、跑步、钓鱼的地方，傍晚人多。夏天凉快，冬天结冰。它不是景点，就是一个城市公园。免费，顺路走走不错。",
+  "highlights": [
+    "城里的一片湖，有步道草地",
+    "本地人散步跑步钓鱼，傍晚人多",
+    "非景点是城市公园，免费"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.393073,
+      "lat": 40.100665,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山西省大同市平城区文瀛湖",
+    "district": "云州区",
+    "transportTip": "市区公交或步行到文瀛湖",
+    "entrance": {
+      "lng": 113.370821,
+      "lat": 40.0862,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/6724172/pexels-photo-6724172.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6724172/pexels-photo-6724172.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3456,
+      "height": 5184,
+      "alt": "Ancient Chinese pagoda with intricate architecture under a warm sky in Datong, Shanxi, China.",
+      "query": "Chinese classical garden datong",
+      "credit": {
+        "source": "pexels",
+        "author": "Lan Yao",
+        "sourceUrl": "https://www.pexels.com/photo/facade-of-a-pagoda-6724172/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33572690/pexels-photo-33572690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33572690/pexels-photo-33572690.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "Ornate temple details at a historic site in Datong, Shanxi, China, showcasing traditional Chinese architecture.",
+      "query": "Chinese classical garden datong",
+      "credit": {
+        "source": "pexels",
+        "author": "Wang Qihang",
+        "sourceUrl": "https://www.pexels.com/photo/ancient-chinese-temple-architecture-in-datong-33572690/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6724161/pexels-photo-6724161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6724161/pexels-photo-6724161.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3239,
+      "height": 4858,
+      "alt": "A man in gray sits peacefully in sunlight beside a traditional Chinese temple door in Datong.",
+      "query": "Chinese classical garden datong",
+      "credit": {
+        "source": "pexels",
+        "author": "Lan Yao",
+        "sourceUrl": "https://www.pexels.com/photo/a-man-in-gray-long-sleeves-sitting-near-the-wooden-door-6724161/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湖",
+    "公园",
+    "散步"
+  ],
+  "popularity": 58,
+  "sources": [
+    {
+      "title": "百度百科·大同",
+      "url": "https://baike.baidu.com/item/%E5%A4%A7%E5%90%8C",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "文瀛湖"
+  },
+  "_geocodeTitle": "文瀛湖街道",
+  "_geocodeSuspect": false,
+  "district": "140215"
+}

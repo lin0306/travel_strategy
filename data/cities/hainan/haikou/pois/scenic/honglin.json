@@ -1,0 +1,88 @@
+{
+  "id": "honglin",
+  "name": "东寨港红树林",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "我国最大的红树林保护区，退潮看招潮蟹。",
+  "description": "东寨港红树林在美兰区演丰镇，是我国最大、最集中的红树林保护区之一，沿着海岸铺开一片绿色的海上森林。退潮时滩涂露出，招潮蟹、弹涂鱼和候鸟都来了，可以坐船穿行林间水道。它离市区约一小时，适合半天的生态出城行程。带防蚊和望远镜最好。",
+  "highlights": [
+    "我国最大红树林保护区之一",
+    "退潮滩涂招潮蟹候鸟多",
+    "坐船穿林间水道，离城约一小时"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.582606,
+      "lat": 19.950519,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "海口市美兰区演丰镇红林路",
+    "district": "美兰区",
+    "transportTip": "市区自驾或乘演丰专线约1小时",
+    "entrance": {
+      "lng": 110.580324,
+      "lat": 19.950794,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:30-17:30，以景区公告为准",
+    "openHoursRef": 0,
+    "ticket": "约30元起，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Dongzhai_Harbour_Mangrove_Forest.jpg/1280px-Dongzhai_Harbour_Mangrove_Forest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Dongzhai_Harbour_Mangrove_Forest.jpg/1280px-Dongzhai_Harbour_Mangrove_Forest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 573,
+      "alt": "Dongzhai Harbour Mangrove Forest.jpg",
+      "query": "东寨港红树林 海口",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Philg88",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dongzhai_Harbour_Mangrove_Forest.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "红树林",
+    "湿地",
+    "生态"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·东寨港",
+      "url": "https://baike.baidu.com/item/%E4%B8%9C%E5%AF%A8%E6%B8%AF",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "东寨港红树林"
+  },
+  "_geocodeTitle": "东寨港红树林旅游区",
+  "_geocodeSuspect": false,
+  "district": "460108"
+}

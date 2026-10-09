@@ -1,0 +1,113 @@
+{
+  "id": "ningbo-library",
+  "name": "宁波图书馆新馆",
+  "category": "hotspot",
+  "subtype": "art",
+  "summary": "鄞州区的一座新图书馆，内部是中庭与阶梯式的阅览空间，是本地人自习与待着的地方。",
+  "description": "图书馆新馆在鄞州区，是近年建成的一座，体量大。内部做的是一个大中庭，四周是层层退台的阅览区，书架沿墙排，中间是通的，抬头能看到几层。它是在用的公共设施 —— 本地人来自习、看书、带孩子，不是为游客设的，进去要安静。免费，办证才能借，进去看不用。待一小时到两三个小时都可以。它在鄞州新区，与宁波博物馆离得不远，可以一天排两处。建筑本身是它被提起的原因 —— 这类公共空间做得好，是一座城很实在的一部分，外地人路过进去坐一会也值得。",
+  "highlights": [
+    "大中庭加层层退台的阅览区，抬头能看到几层",
+    "在用的公共设施，进去要安静",
+    "与宁波博物馆不远，可以一天排两处"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.625543,
+      "lat": 29.857624,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "浙江省宁波市鄞州区首南中路",
+    "district": "鄞州区",
+    "transportTip": "地铁三号线或五号线至鄞州区政府站步行"
+  },
+  "practical": {
+    "openHours": "约9:00-21:00，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "solo",
+    "family",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/39659646/pexels-photo-39659646.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39659646/pexels-photo-39659646.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2832,
+      "height": 3774,
+      "alt": "Colorful murals adorn buildings in Chennai, India, showcasing creative urban street art.",
+      "query": "art district gallery ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Sri  Bala",
+        "sourceUrl": "https://www.pexels.com/photo/vibrant-street-art-on-chennai-buildings-39659646/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27001558/pexels-photo-27001558.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27001558/pexels-photo-27001558.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Colorful street art mural on a modern building in He Xi Qu, Tianjin, China.",
+      "query": "art district gallery ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Shuaizhi Tian",
+        "sourceUrl": "https://www.pexels.com/photo/futuristic-mural-on-industrial-building-27001558/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/5925113/pexels-photo-5925113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/5925113/pexels-photo-5925113.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Architectural shot of a modern concrete building in Ningbo, China, under a gray sky.",
+      "query": "art district gallery ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Zoe Ho",
+        "sourceUrl": "https://www.pexels.com/photo/gray-concrete-building-under-gray-sky-5925113/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "图书馆",
+    "公共空间",
+    "免费"
+  ],
+  "popularity": 60,
+  "sources": [
+    {
+      "title": "百度百科·宁波图书馆",
+      "url": "https://baike.baidu.com/item/%E5%AE%81%E6%B3%A2%E5%9B%BE%E4%B9%A6%E9%A6%86",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "宁波图书馆新馆"
+  },
+  "_geocodeTitle": "宁波市图书馆新馆-西门",
+  "_geocodeSuspect": false,
+  "district": "330212"
+}

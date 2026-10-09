@@ -1,0 +1,97 @@
+{
+  "id": "oumei-cafe",
+  "name": "青芝坞街区",
+  "category": "food",
+  "subtype": "cafe",
+  "summary": "浙大玉泉校区旁的小街区，价格与学生客流都摆在那里。",
+  "description": "青芝坞在浙大玉泉校区北侧，是一条挤满了小馆、咖啡与民宿的街区。它的特点是平价与学生气——因为紧挨着大学，价格被压得很实在，晚上也热闹。这一带适合安排在灵隐或西溪行程之后，坐下来吃一顿不贵的晚饭。与湖滨的精致路线是完全不同的两个方向。",
+  "highlights": [
+    "紧邻浙大，价格被压得实在",
+    "小馆与咖啡混杂",
+    "夜间也热闹"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.124506,
+      "lat": 30.257906,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "杭州市西湖区青芝坞路",
+    "district": "西湖区",
+    "transportTip": "公交浙大站/玉泉站"
+  },
+  "practical": {
+    "openHours": "多为10:00-22:00(以各店公告为准)",
+    "openHoursRef": 0,
+    "ticket": "人均约50元起(以门店为准)",
+    "ticketRef": 0,
+    "duration": "建议 60-180 分钟",
+    "durationMinutes": [
+      60,
+      180
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Qingzhiwu.jpg/1280px-Qingzhiwu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Qingzhiwu.jpg/1280px-Qingzhiwu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Qingzhiwu.jpg",
+      "query": "青芝坞街区 杭州",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Nishino Asuka",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qingzhiwu.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Qingzhiwu_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Qingzhiwu_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Qingzhiwu (1).jpg",
+      "query": "青芝坞街区 杭州",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Nishino Asuka",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qingzhiwu_(1).jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "街区",
+    "咖啡",
+    "平价"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "百度百科·青芝坞",
+      "url": "https://baike.baidu.com/item/%E9%9D%92%E8%8A%9D%E5%9D%9E",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "青芝坞街区"
+  },
+  "_geocodeTitle": "青芝坞慢生活街区",
+  "_geocodeSuspect": false,
+  "district": "330106"
+}

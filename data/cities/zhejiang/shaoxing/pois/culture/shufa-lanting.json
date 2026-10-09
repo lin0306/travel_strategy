@@ -1,0 +1,112 @@
+{
+  "id": "shufa-lanting",
+  "name": "兰亭书法文化",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "曲水流觞的书法圣地向导。",
+  "description": "兰亭因《兰亭集序》而成为书法圣地，王羲之在此雅集、乘兴书写，奠定了中国行书的巅峰，也把「曲水流觞」变成文人雅集的范式。绍兴的书法气脉从兰亭延伸到书圣故里、青藤书屋，是这座城的文化底色之一。想看书法，兰亭是第一站，免费或低价看展。",
+  "highlights": [
+    "兰亭集序书法圣地",
+    "曲水流觞文人范式",
+    "书法气脉贯穿全城"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.523951,
+      "lat": 29.956548,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "绍兴市柯桥区兰亭",
+    "district": "柯桥区",
+    "transportTip": "公交或打车至兰亭约30分钟"
+  },
+  "practical": {
+    "openHours": "以景区公告为准",
+    "openHoursRef": 0,
+    "ticket": "以兰亭门票为准",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "solo",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37602660/pexels-photo-37602660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37602660/pexels-photo-37602660.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8256,
+      "height": 5504,
+      "alt": "Scenic view of a traditional street with hanging red lanterns and wooden architecture under a blue sky.",
+      "query": "Chinese old town street shaoxing",
+      "credit": {
+        "source": "pexels",
+        "author": "Qing Luo",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-asian-street-with-red-lanterns-37602660/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38249305/pexels-photo-38249305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38249305/pexels-photo-38249305.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6048,
+      "height": 4024,
+      "alt": "Explore the charm of Shaoxing's ancient architecture and traditional calligraphy.",
+      "query": "Chinese old town street shaoxing",
+      "credit": {
+        "source": "pexels",
+        "author": "Kenny Foo",
+        "sourceUrl": "https://www.pexels.com/photo/historic-stone-bridge-in-shaoxing-ancient-town-38249305/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37015398/pexels-photo-37015398.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37015398/pexels-photo-37015398.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4284,
+      "height": 5712,
+      "alt": "Peaceful canal view in a historic Chinese water town with traditional architecture.",
+      "query": "Chinese old town street shaoxing",
+      "credit": {
+        "source": "pexels",
+        "author": "Relaxing Journeys",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-canal-in-traditional-chinese-water-town-37015398/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "书法",
+    "兰亭序",
+    "雅集"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "百度百科·兰亭集序",
+      "url": "https://baike.baidu.com/item/%E5%85%B0%E4%BA%AD%E9%9B%86%E5%BA%8F",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "兰亭书法文化"
+  },
+  "_geocodeTitle": "兰亭街道",
+  "_geocodeSuspect": false,
+  "district": "330603"
+}

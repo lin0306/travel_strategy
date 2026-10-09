@@ -1,0 +1,114 @@
+{
+  "id": "gulou",
+  "name": "曲阜鼓楼",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "明故城中心的过街楼阁，老城的地标。",
+  "description": "鼓楼在明故城的正中心，是曲阜老城最显眼的地标。它建在十字街中央的过街券门之上，下面是通行门洞，上面是两层楼阁，灰瓦歇山顶，四面有窗。鼓楼始建于明代，清代重修，如今看到的形制保留着明清格局。它既是报时建筑，也是老城的空间中心——从这里往四个方向看，分别是老街、城墙与远处的孔庙。夜里灯亮起来，楼影打在街面上很好看。登楼通常不开放，在外面看就够了。",
+  "highlights": [
+    "老城中心的过街楼阁",
+    "明代始建，明清格局",
+    "夜里灯影好看"
+  ],
+  "location": {
+    "point": {
+      "lng": 116.993523,
+      "lat": 35.600437,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "济宁市曲阜市明故城中心十字街",
+    "district": "曲阜",
+    "transportTip": "孔庙步行约10分钟"
+  },
+  "practical": {
+    "openHours": "全天（外观）",
+    "openHoursRef": 0,
+    "ticket": "免费（外观）",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "solo",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/39194295/pexels-photo-39194295.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39194295/pexels-photo-39194295.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Front view of a traditional Chinese building with intricate roof in Qufu, Shandong.",
+      "query": "Chinese historic architecture qufu",
+      "credit": {
+        "source": "pexels",
+        "author": "Anderson Wei",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-architecture-in-qufu-39194295/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39194291/pexels-photo-39194291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39194291/pexels-photo-39194291.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Front view of a traditional red Chinese door with intricate latticework and colorful ceiling, capturing cultural eleganc",
+      "query": "Chinese historic architecture qufu",
+      "credit": {
+        "source": "pexels",
+        "author": "Anderson Wei",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-red-chinese-door-with-ornate-design-39194291/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39194323/pexels-photo-39194323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39194323/pexels-photo-39194323.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Detailed view of a traditional Chinese roof with decorative figurines against a clear blue sky.",
+      "query": "Chinese historic architecture qufu",
+      "credit": {
+        "source": "pexels",
+        "author": "Anderson Wei",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-roof-with-figurines-and-blue-sky-39194323/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "鼓楼",
+    "老城地标",
+    "夜景"
+  ],
+  "popularity": 78,
+  "sources": [
+    {
+      "title": "百度百科·曲阜鼓楼",
+      "url": "https://baike.baidu.com/item/%E6%9B%B2%E9%98%9C%E9%BC%93%E6%A5%BC",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-06"
+    }
+  ],
+  "updatedAt": "2026-10-06",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "曲阜鼓楼"
+  },
+  "_geocodeTitle": "曲阜市鼓楼社区卫生服务中心",
+  "_geocodeSuspect": false,
+  "district": "370881"
+}

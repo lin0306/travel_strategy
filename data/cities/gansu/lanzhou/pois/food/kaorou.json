@@ -1,0 +1,112 @@
+{
+  "id": "kaorou",
+  "name": "烤肉",
+  "category": "food",
+  "subtype": "local",
+  "summary": "孜然辣面烤羊肉串，配啤酒是兰州夏夜标配。",
+  "description": "兰州烤肉以羊肉串为主，肥瘦相间穿签，撒孜然和辣面炭烤。外焦里嫩，一口油香。除了肉串还有烤腰子、烤馍、烤筋。夏夜路边摊配啤酒是标配。七里河、城关夜市都热闹。价格按串算，以摊主为准。挑人多的摊更新鲜。",
+  "highlights": [
+    "孜然辣面炭烤羊肉串",
+    "配啤酒的夏夜标配",
+    "烤腰子烤筋烤馍皆全"
+  ],
+  "location": {
+    "point": {
+      "lng": 103.784647,
+      "lat": 36.068192,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "甘肃省兰州市七里河区烤肉夜市",
+    "district": "七里河区",
+    "transportTip": "七里河或城关夜市即买即吃"
+  },
+  "practical": {
+    "openHours": "夜市时段，以摊主为准",
+    "openHoursRef": 0,
+    "ticket": "按串计，以摊主为准",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/2016-08-03_Kebab_restaurant_in_Weikersheim.jpg/1280px-2016-08-03_Kebab_restaurant_in_Weikersheim.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/2016-08-03_Kebab_restaurant_in_Weikersheim.jpg/1280px-2016-08-03_Kebab_restaurant_in_Weikersheim.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1834,
+      "alt": "2016-08-03 Kebab restaurant in Weikersheim.jpg",
+      "query": "烤肉",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Triplec85",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016-08-03_Kebab_restaurant_in_Weikersheim.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Barbecue_kenya.jpg/1280px-Barbecue_kenya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Barbecue_kenya.jpg/1280px-Barbecue_kenya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Barbecue kenya.jpg",
+      "query": "烤肉",
+      "credit": {
+        "source": "wikimedia",
+        "author": "safaritravelplus",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barbecue_kenya.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Dogan_Bockenheim_1.jpg/1280px-Dogan_Bockenheim_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Dogan_Bockenheim_1.jpg/1280px-Dogan_Bockenheim_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Dogan Bockenheim 1.jpg",
+      "query": "烤肉",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Emilius123",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dogan_Bockenheim_1.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "烤肉",
+    "羊肉",
+    "夜市"
+  ],
+  "popularity": 82,
+  "sources": [
+    {
+      "title": "烤肉·百度百科",
+      "url": "https://baike.baidu.com/item/%E7%83%A4%E8%82%89",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Lanzhou Barbecue",
+    "zh": "烤肉"
+  },
+  "_geocodeTitle": "马志雄辣子烤肉",
+  "_geocodeSuspect": false,
+  "district": "620103"
+}

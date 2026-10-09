@@ -1,0 +1,119 @@
+{
+  "id": "qingshanhu-scenic",
+  "name": "青山湖风景区",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "城东北的一片湖，湖岸公园连成带，早晚锻炼的人最多。",
+  "description": "青山湖在城东北，湖面不小，沿岸修成了带状公园，步道、广场、小片林子连着排开。这里没有太多游客，来的人多是附近的居民，清晨和晚饭后最热闹，快走的、跳操的、遛娃的各有各的位置。树长得高，夏天沿湖走一圈也不算晒。湖对岸能看到楼群，晚上沿岸的路灯倒映在水里，安静的时候很舒服。它靠近高校区，周边吃饭的地方多，价格也实在。安排行程时可以和艾溪湖放在同一天。",
+  "highlights": [
+    "城东北湖岸带状公园",
+    "早晚锻炼的居民最多",
+    "夜里路灯倒映水面"
+  ],
+  "location": {
+    "point": {
+      "lng": 115.935943,
+      "lat": 28.701787,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "江西省南昌市青山湖区青山湖风景区",
+    "district": "青山湖区",
+    "transportTip": "市区乘公交或打车到青山湖，地铁3号线也可到附近",
+    "entrance": {
+      "lng": 115.939287,
+      "lat": 28.711315,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费开放",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/34932359/pexels-photo-34932359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34932359/pexels-photo-34932359.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3368,
+      "height": 6000,
+      "alt": "Golden hour view of two skyscrapers by a city waterfront reflecting in calm waters.",
+      "query": "Qingshanhu Lake Nanchang",
+      "credit": {
+        "source": "pexels",
+        "author": "Madzery Ma",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-with-skyscrapers-and-waterfront-view-34932359/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/28907675/pexels-photo-28907675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/28907675/pexels-photo-28907675.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5568,
+      "height": 3712,
+      "alt": "Panoramic view of Nanchang city skyline with Gan River in the foreground.",
+      "query": "Qingshanhu Lake Nanchang",
+      "credit": {
+        "source": "pexels",
+        "author": "Bryanken",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-of-nanchang-city-over-gan-river-28907675/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/17539441/pexels-photo-17539441.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/17539441/pexels-photo-17539441.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3648,
+      "height": 2736,
+      "alt": "Panoramic view of Nanchang's skyline across the harbor with modern skyscrapers and river.",
+      "query": "Qingshanhu Lake Nanchang",
+      "credit": {
+        "source": "pexels",
+        "author": "逸 林",
+        "sourceUrl": "https://www.pexels.com/photo/panorama-of-nanchang-skyline-and-river-china-17539441/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "青山湖",
+    "公园",
+    "湖岸"
+  ],
+  "popularity": 68,
+  "sources": [
+    {
+      "title": "青山湖·百度百科",
+      "url": "https://baike.baidu.com/item/%E9%9D%92%E5%B1%B1%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Qingshanhu Lake Nanchang",
+    "zh": "青山湖风景区"
+  },
+  "_geocodeTitle": "青山湖风景区",
+  "_geocodeSuspect": false,
+  "district": "360111"
+}

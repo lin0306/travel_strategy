@@ -1,0 +1,113 @@
+{
+  "id": "zhengzhou-museum",
+  "name": "郑州博物馆",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "讲郑州这座城自身通史的馆，新馆体量大，商都与青铜瓷器陈列完整。",
+  "description": "郑州博物馆新馆在中原区文翰街，展陈面积大，是按郑州这座城市自己的历史线索排的。常设陈列从旧石器一路铺到近现代，把郑州从商代王都、隋唐运河枢纽到近代铁路城的几次身份转换讲清楚。馆里的青铜礼器、隋唐瓷器、郑州出土的造像都成组成套，展签写得细。建筑外立面取商代青铜方鼎的意象，进馆前先看一眼外观也值得。",
+  "highlights": [
+    "郑州城市通史陈列",
+    "青铜礼器与隋唐瓷器",
+    "方鼎意象的建筑"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.546832,
+      "lat": 34.739621,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河南省郑州市中原区文翰街郑州博物馆",
+    "district": "中原区",
+    "transportTip": "市区乘地铁14号线到市委党校站，或乘公交到郑州博物馆站"
+  },
+  "practical": {
+    "openHours": "约09:00-17:00，周一闭馆，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费预约参观，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 120-180 分钟",
+    "durationMinutes": [
+      120,
+      180
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/6733647/pexels-photo-6733647.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6733647/pexels-photo-6733647.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3648,
+      "height": 2736,
+      "alt": "Front view of a traditional building with a wooden door, lush greenery, and a blue sky in Zhengzhou, China.",
+      "query": "Zhengzhou Museum",
+      "credit": {
+        "source": "pexels",
+        "author": "Jack Lee",
+        "sourceUrl": "https://www.pexels.com/photo/a-temple-under-the-white-sky-6733647/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6733646/pexels-photo-6733646.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6733646/pexels-photo-6733646.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3648,
+      "height": 2736,
+      "alt": "A spacious courtyard with traditional architecture in Zhengzhou Shi, Henan, China.",
+      "query": "Zhengzhou Museum",
+      "credit": {
+        "source": "pexels",
+        "author": "Jack Lee",
+        "sourceUrl": "https://www.pexels.com/photo/people-walking-near-the-temple-6733646/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39758195/pexels-photo-39758195.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39758195/pexels-photo-39758195.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3888,
+      "height": 5184,
+      "alt": "Discover the modern architectural design of the iconic Zhengzhou Art Palace in China.",
+      "query": "Zhengzhou Museum",
+      "credit": {
+        "source": "pexels",
+        "author": "Herbert Reinecke",
+        "sourceUrl": "https://www.pexels.com/photo/zhengzhou-art-palace-with-unique-architecture-39758195/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "博物馆",
+    "通史",
+    "瓷器"
+  ],
+  "popularity": 84,
+  "sources": [
+    {
+      "title": "郑州博物馆·百度百科",
+      "url": "https://baike.baidu.com/item/%E9%83%91%E5%B7%9E%E5%8D%9A%E7%89%A9%E9%A6%86",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Zhengzhou Museum",
+    "zh": "郑州博物馆"
+  },
+  "_geocodeTitle": "郑州博物馆",
+  "_geocodeSuspect": false,
+  "district": "410102"
+}

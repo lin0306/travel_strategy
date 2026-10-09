@@ -1,0 +1,88 @@
+{
+  "id": "siming-mountain",
+  "name": "四明山国家森林公园",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "余姚南部的一片山地森林，海拔高、夏天凉，秋天红叶与春天樱花都出名。",
+  "description": "四明山在宁波西南，跨余姚、奉化、鄞州几处，主体在余姚南部，是一片海拔六百到一千米的山地。森林公园在四明山镇那一带，林子厚，是宁波夏天避暑与秋天看叶的地方。它的几个季节各有看头：四月山里樱花开，十月到十一月枫叶与银杏转色，冬天高处会有雾凇。山上有公路盘上去，沿路有观景台，自驾或包车最方便，公交班次少。园里有步道，走一段一两个小时。整片玩下来大半天到一天。门票不高。山上比市区凉好几度，带件外套。它离市区七十公里上下，要专门安排一天。",
+  "highlights": [
+    "海拔六百到一千米的山地森林，夏天避暑秋天看叶",
+    "四月樱花、十月红叶、冬天雾凇，各有看头",
+    "盘山公路上去，自驾最方便，公交班次少"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.09565,
+      "lat": 29.749122,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "浙江省宁波市余姚市四明山镇",
+    "district": "余姚市",
+    "transportTip": "宁波汽车南站乘长途车至余姚后转车至四明山；或自驾约两小时",
+    "entrance": {
+      "lng": 121.087692,
+      "lat": 29.725034,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约8:00-17:00，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "低价票，以现场公告为准",
+    "ticketRef": 0,
+    "duration": "建议 240-480 分钟",
+    "durationMinutes": [
+      240,
+      480
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Map_Hunan_adm.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Map_Hunan_adm.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1220,
+      "alt": "Map Hunan adm.png",
+      "query": "四明山国家森林公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Not logging in",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_Hunan_adm.png",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "山地",
+    "森林",
+    "季节"
+  ],
+  "popularity": 66,
+  "sources": [
+    {
+      "title": "百度百科·四明山",
+      "url": "https://baike.baidu.com/item/%E5%9B%9B%E6%98%8E%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "四明山国家森林公园"
+  },
+  "_geocodeTitle": "四明山国家森林公园",
+  "_geocodeSuspect": false,
+  "district": "330281"
+}

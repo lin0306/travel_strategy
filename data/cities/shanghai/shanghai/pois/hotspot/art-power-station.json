@@ -1,0 +1,112 @@
+{
+  "id": "art-power-station",
+  "name": "西岸美术馆大道(龍美术馆一带)",
+  "category": "hotspot",
+  "subtype": "art",
+  "summary": "滨江旧工业区改成的美术馆群，尺度与造型都胜过展品本身。",
+  "description": "徐汇滨江过去是机场、油库与工厂的地盘，这些年陆续建成龙美术馆、西岸美术馆、油罐艺术中心等一整排。油罐艺术中心把废弃航油罐切开做展厅，龙美术馆的伞状结构用的是钢筋混凝土的粗野做法，两处本身就是国内少见的空间样本。沿江步道连贯，适合一次走完几个馆。",
+  "highlights": [
+    "油罐改成的展厅是国内少见",
+    "龙美术馆的伞状结构值得看",
+    "沿江步道连贯，可一次走完"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.463854,
+      "lat": 31.167591,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "上海市徐汇区龙腾大道",
+    "district": "徐汇",
+    "transportTip": "地铁11号线云锦路站"
+  },
+  "practical": {
+    "openHours": "以各馆公告为准(多为10:00-18:00，周一闭馆)",
+    "openHoursRef": 0,
+    "ticket": "以各馆公告为准(约50元起)",
+    "ticketRef": 0,
+    "duration": "建议 180-360 分钟",
+    "durationMinutes": [
+      180,
+      360
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/16647828/pexels-photo-16647828.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/16647828/pexels-photo-16647828.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2500,
+      "height": 3333,
+      "alt": "Concrete passageway at 1933 Old Millfun, Shanghai's iconic urban landmark.",
+      "query": "art district gallery shanghai",
+      "credit": {
+        "source": "pexels",
+        "author": "KJ Brix",
+        "sourceUrl": "https://www.pexels.com/photo/1933-old-millfun-in-shanghai-china-16647828/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36064168/pexels-photo-36064168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36064168/pexels-photo-36064168.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6048,
+      "height": 4032,
+      "alt": "A minimalist indoor art installation featuring a vibrant autumn tree set in a gallery in Shanghai.",
+      "query": "art district gallery shanghai",
+      "credit": {
+        "source": "pexels",
+        "author": "Bingqian Li",
+        "sourceUrl": "https://www.pexels.com/photo/modern-art-installation-with-autumn-tree-in-shanghai-36064168/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31466667/pexels-photo-31466667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31466667/pexels-photo-31466667.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3750,
+      "height": 5485,
+      "alt": "Sleek chrome sculptures displayed in a modern, elegant gallery with black and white checkered flooring.",
+      "query": "art district gallery shanghai",
+      "credit": {
+        "source": "pexels",
+        "author": "Ran Hua",
+        "sourceUrl": "https://www.pexels.com/photo/futuristic-chrome-sculptures-in-elegant-gallery-31466667/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "当代艺术",
+    "工业改造",
+    "滨江"
+  ],
+  "popularity": 84,
+  "sources": [
+    {
+      "title": "百度百科·西岸",
+      "url": "https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E8%A5%BF%E5%B2%B8",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "西岸美术馆大道(龍美术馆一带)"
+  },
+  "_geocodeTitle": "西岸美术馆",
+  "_geocodeSuspect": false,
+  "district": "310104"
+}

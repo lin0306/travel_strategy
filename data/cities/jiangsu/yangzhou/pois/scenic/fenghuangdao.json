@@ -1,0 +1,118 @@
+{
+  "id": "fenghuangdao",
+  "name": "凤凰岛生态旅游区",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "邵伯湖边的生态岛，芦苇和放养禽鸟为主。",
+  "description": "凤凰岛在扬州东北的邵伯湖畔，是邵伯湖中的一个生态岛，以芦苇湿地、放养的孔雀和禽鸟、田园步道为主。它比茱萸湾更自然、人更少，适合想避开人群、看水乡野趣的人。可骑行、可坐船，半天能走完。从市区过去约四十分钟，适合和邵伯古镇连看。",
+  "highlights": [
+    "邵伯湖中的生态岛，芦苇湿地",
+    "放养孔雀与禽鸟，人少自然",
+    "可骑行可坐船，连邵伯"
+  ],
+  "location": {
+    "point": {
+      "lng": 119.499349,
+      "lat": 32.494962,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "扬州市广陵区泰安镇凤凰岛",
+    "district": "广陵区",
+    "transportTip": "市区自驾或公交至泰安镇约40分钟",
+    "entrance": {
+      "lng": 119.4954,
+      "lat": 32.490048,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:00-17:00（以景区公告为准）",
+    "openHoursRef": 0,
+    "ticket": "约40元起，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 120-180 分钟",
+    "durationMinutes": [
+      120,
+      180
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/7494607/pexels-photo-7494607.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7494607/pexels-photo-7494607.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5184,
+      "height": 3456,
+      "alt": "Elegant view of Wuting Bridge through a circular opening at Slender West Lake, Yangzhou, China.",
+      "query": "natural landscape China yangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Dongjie Chen",
+        "sourceUrl": "https://www.pexels.com/photo/the-view-of-the-wuting-bridge-from-a-hole-in-a-wall-7494607/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37669570/pexels-photo-37669570.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37669570/pexels-photo-37669570.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "Serene view of traditional Chinese garden and pagoda reflected in water.",
+      "query": "natural landscape China yangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Peter Xie",
+        "sourceUrl": "https://www.pexels.com/photo/tranquil-chinese-garden-with-pagoda-view-37669570/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27868194/pexels-photo-27868194.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27868194/pexels-photo-27868194.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 3376,
+      "alt": "Traditional Chinese architecture on Zhongyuan Bridge, a serene autumn scene at Slender West Lake.",
+      "query": "natural landscape China yangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "JessenFalcon",
+        "sourceUrl": "https://www.pexels.com/photo/27868194/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "生态岛",
+    "湿地",
+    "邵伯湖"
+  ],
+  "popularity": 58,
+  "sources": [
+    {
+      "title": "百度百科·凤凰岛",
+      "url": "https://baike.baidu.com/item/%E5%87%A4%E5%87%B0%E5%B2%9B",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "凤凰岛生态旅游区"
+  },
+  "_geocodeTitle": "扬州凤凰岛生态旅游区",
+  "_geocodeSuspect": false,
+  "district": "321002"
+}

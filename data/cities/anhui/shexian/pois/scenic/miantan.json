@@ -1,0 +1,122 @@
+{
+  "id": "miantan",
+  "name": "绵潭",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "新安江上的古村，三潭枇杷之一，还有九姓捕鱼表演。",
+  "description": "绵潭在歙县深渡镇下游的新安江边，和漳潭、瀹潭并称「三潭」，是徽州有名的枇杷产地。村里保留着老码头和沿江的明清老宅，江面开阔、水色清绿，是画廊游船线上的安静一站。当地还保留着「九姓捕鱼」的民俗表演——渔民用传统的方式在江上捕鱼，鸬鹚、鱼鹰、撒网都有看头，是了解新安江渔家文化的活样本。枇杷季来能现摘现吃，其他季节就是纯粹看江、看村、看慢生活。",
+  "highlights": [
+    "三潭枇杷",
+    "九姓捕鱼",
+    "新安江",
+    "免票"
+  ],
+  "location": {
+    "point": {
+      "lng": 118.576075,
+      "lat": 29.824482,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "黄山市歙县深渡镇绵潭村（新安江畔，漳潭下游）",
+    "district": "歙县",
+    "transportTip": "乘新安江山水画廊游船在绵潭停靠，或自驾到深渡再前往",
+    "entrance": {
+      "lng": 118.440133,
+      "lat": 29.879821,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天（村落）；捕鱼表演以景区安排为准",
+    "openHoursRef": 0,
+    "ticket": "村落免费；游船 / 表演另购票",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "family",
+    "solo",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/39725323/pexels-photo-39725323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39725323/pexels-photo-39725323.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2541,
+      "height": 3714,
+      "alt": "Quaint village scene with waterway and traditional buildings in Huangshan, China.",
+      "query": "natural landscape China shexian",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-traditional-village-in-huangshan-39725323/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39725230/pexels-photo-39725230.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39725230/pexels-photo-39725230.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3957,
+      "height": 5935,
+      "alt": "Traditional Chinese architecture captured in Huangshan, China.",
+      "query": "natural landscape China shexian",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/ancient-architecture-in-huangshan-china-39725230/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39725316/pexels-photo-39725316.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39725316/pexels-photo-39725316.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2656,
+      "height": 3984,
+      "alt": "Traditional Chinese architectural roof against a cloudy sky in Huangshan, China.",
+      "query": "natural landscape China shexian",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/historic-chinese-architecture-in-huangshan-39725316/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "枇杷",
+    "捕鱼",
+    "新安江",
+    "古村"
+  ],
+  "popularity": 66,
+  "sources": [
+    {
+      "title": "百度百科·绵潭村",
+      "url": "https://baike.baidu.com/item/%E7%BB%B5%E6%BD%AD%E6%9D%91",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "绵潭"
+  },
+  "_geocodeTitle": "绵潭村委会",
+  "_geocodeSuspect": false,
+  "district": "341021"
+}

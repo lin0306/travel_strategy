@@ -1,0 +1,118 @@
+{
+  "id": "baimai-spring",
+  "name": "百脉泉",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "章丘的名泉，泉眼成串冒出如百脉，园中有李清照纪念馆。",
+  "description": "百脉泉在济南章丘区，是与趵突泉齐名的名泉，泉眼里一串串水泡往上冒，像人的脉络，因此得名。泉边建有百脉泉公园，园中还有墨泉、梅花泉等一串泉点，水色清透，能看到水底的水草。园里设有李清照纪念馆，展陈她的生平与词作。章丘是清照故里，看完泉再读几首词，正好对上，慢慢逛两小时够。",
+  "highlights": [
+    "泉眼成串冒出如百脉",
+    "墨泉梅花泉连成片",
+    "李清照纪念馆在园中"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.529878,
+      "lat": 36.71015,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山东省济南市章丘区汇泉路百脉泉公园",
+    "district": "章丘区",
+    "transportTip": "市区乘城际公交或自驾到章丘百脉泉",
+    "entrance": {
+      "lng": 117.52929,
+      "lat": 36.719067,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约七点半到十八点，以景区公告为准",
+    "openHoursRef": 0,
+    "ticket": "约三十元起，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "family",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Moquan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Moquan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 869,
+      "alt": "Moquan.jpg",
+      "query": "百脉泉 济南",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Qquchn at Chinese Wikipedia",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moquan.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Shuyuspring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Shuyuspring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Shuyuspring.jpg",
+      "query": "百脉泉 济南",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Qquchn at Chinese Wikipedia",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shuyuspring.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Baimai_spring_park_2008_05_30.jpg/1280px-Baimai_spring_park_2008_05_30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Baimai_spring_park_2008_05_30.jpg/1280px-Baimai_spring_park_2008_05_30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 737,
+      "alt": "Baimai spring park 2008 05 30.jpg",
+      "query": "百脉泉",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Zhang Zhiwei, Rolfmueller",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baimai_spring_park_2008_05_30.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "泉水",
+    "章丘",
+    "词人故里"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "百脉泉·百度百科",
+      "url": "https://baike.baidu.com/item/%E7%99%BE%E8%84%89%E6%B3%89",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Baimai Spring Jinan",
+    "zh": "百脉泉"
+  },
+  "_geocodeTitle": "百脉泉",
+  "_geocodeSuspect": false,
+  "district": "370114"
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "wuhan",
+  "name": "武汉",
+  "province": "湖北",
+  "adcode": "420100",
+  "provinceAdcode": "420000",
+  "tagline": "两江分三镇，桥是这个城市的主语",
+  "intro": "武汉由武昌、汉口、汉阳三镇组成，长江与汉江把城市切成三块，所以在武汉旅行的大部分时间其实花在过江上——这个「隔江相望」的空间感是它区别于别的城市的地方。武昌是文教与老城：黄鹤楼在蛇山，湖北省博物馆藏的是楚地的青铜与漆木。汉口是开埠之后长起来的城区，江汉关一带留下成片的近代建筑。汉阳是工业与后来补上的另一个中心。东湖在城的东边，面积很大，绿道可以骑一整天。吃的部分早饭最出名：「过早」这个词本身就说明了分量——热干面、豆皮、面窝、糊汤粉，一顿早饭能吃出四五种花样。安排上两到三天：武昌一天、汉口一天、东湖半天到一天。",
+  "center": {
+    "lng": 114.3046,
+    "lat": 30.5934,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    113.7046,
+    29.9689,
+    115.0721,
+    31.3463
+  ],
+  "defaultZoom": 10,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/35022547/pexels-photo-35022547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35022547/pexels-photo-35022547.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3836,
+      "height": 3836,
+      "alt": "Nanjing's city skyline silhouetted against a warm sunset with Xuanwu Lake and boats in the foreground.",
+      "query": "武汉 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/sunset-over-nanjing-skyline-and-xuanwu-lake-35022547/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/355034/pexels-photo-355034.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/355034/pexels-photo-355034.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3960,
+      "height": 2640,
+      "alt": "A mesmerizing cityscape at night featuring illuminated skyscrapers and busy street light trails.",
+      "query": "武汉 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "隔壁光头老王 WangMing'Photo",
+        "sourceUrl": "https://www.pexels.com/photo/gray-wall-paint-building-355034/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/25261490/pexels-photo-25261490.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/25261490/pexels-photo-25261490.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3949,
+      "height": 1822,
+      "alt": "A stunning aerial cityscape showcasing skyscrapers and a river at daylight.",
+      "query": "武汉 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "yukai yang",
+        "sourceUrl": "https://www.pexels.com/photo/skyscrapers-in-city-downtown-25261490/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "3-5 月 / 9-11 月（夏季闷热多雨，7-8 月体感难受；冬季湿冷）",
+    "suggestedDays": "3 天（武昌：黄鹤楼/省博/武大 1 天 + 汉口：江滩/近代建筑/江汉路 1 天 + 东湖 0.5-1 天）",
+    "transitTip": "地铁覆盖三镇主要城区，2 号线与 4 号线最常用，过江比打车稳。武昌站在市内，武汉站是高铁主站（偏东），汉口站在汉口。轮渡仍在日常营运，江上看这座城值得一次。高峰期过江桥隧拥堵，赶时间的行程别依赖打车。",
+    "climateTip": "亚热带季风气候，夏季长而闷热，是传统意义上的火炉之一。雨水集中在春夏之交的梅雨期与夏季暴雨。冬季湿冷，降雪不多但体感低。"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-09-23"
+  },
+  "updatedAt": "2026-09-23"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "haining-jing-fen",
+  "name": "海宁京粉",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "海宁红薯粉小吃，滑爽浇头足。",
+  "description": "京粉是海宁的传统小吃，用红薯粉制成粉条，浇上肉末、香菇、笋丁等浇头，滑爽入味、热乎管饱。它是海宁人日常的路边与早市小食，价低、出餐快。配油条或烧饼更地道，适合逛街垫肚子。",
+  "highlights": [
+    "海宁红薯粉小吃",
+    "浇头足滑爽入味",
+    "早市路边小食"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.777116,
+      "lat": 30.538793,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "嘉兴市海宁市京粉摊",
+    "district": "海盐县",
+    "transportTip": "街边与早市"
+  },
+  "practical": {
+    "openHours": "约06:00-20:00（以摊点为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约12元，以摊点为准",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
+      15,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "elders",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4240,
+      "height": 2832,
+      "alt": "A bustling street food stall offering traditional dishes to a customer in stylish winter attire.",
+      "query": "Chinese street food dish jiaxing",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6440090/pexels-photo-6440090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6440090/pexels-photo-6440090.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4856,
+      "height": 3237,
+      "alt": "Close-up of delicious Chinese street food in a paper bowl held by a hand, featuring seasoned fried potatoes.",
+      "query": "Chinese street food dish jiaxing",
+      "credit": {
+        "source": "pexels",
+        "author": "Mackenzie Ryder",
+        "sourceUrl": "https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3032,
+      "height": 3923,
+      "alt": "Browse a bustling Shenzhen food stall with diverse Asian meals and colorful bowls, embodying Chinese culinary culture.",
+      "query": "Chinese street food dish jiaxing",
+      "credit": {
+        "source": "pexels",
+        "author": "Jaime Hernandez Erives",
+        "sourceUrl": "https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "京粉",
+    "小吃",
+    "海宁"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "百度百科·海宁",
+      "url": "https://baike.baidu.com/item/%E6%B5%B7%E5%AE%81",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-05"
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "海宁京粉"
+  },
+  "_geocodeTitle": "海宁京粉",
+  "_geocodeSuspect": false,
+  "district": "330424"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "yungang-nongjia",
+  "name": "云冈农家饭",
+  "category": "food",
+  "subtype": "local",
+  "summary": "云冈石窟周边吃农家饭的地方，土鸡、山蘑、粗粮，逛完就近吃。",
+  "description": "云冈周边有几家吃农家饭的地方。做的是本地菜：土鸡炖蘑菇、山蘑、粗粮和自家种的菜。份量足，味道实在，价格不贵。逛完云冈出来就近吃一顿最方便 —— 景区那边吃的选择不多。旺季人多，上菜慢，要留点时间。",
+  "highlights": [
+    "云冈周边农家饭，土鸡炖蘑菇山蘑",
+    "份量足味实在价不贵",
+    "逛完就近吃，旺季上菜慢"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.226862,
+      "lat": 40.096598,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山西省大同市云冈区云冈镇农家饭",
+    "district": "平城区",
+    "transportTip": "云冈石窟周边步行或短途车"
+  },
+  "practical": {
+    "openHours": "约10:00-20:00",
+    "openHoursRef": 0,
+    "ticket": "人均约60元",
+    "ticketRef": 0,
+    "duration": "建议 60-110 分钟",
+    "durationMinutes": [
+      60,
+      110
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/6724161/pexels-photo-6724161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6724161/pexels-photo-6724161.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3239,
+      "height": 4858,
+      "alt": "A man in gray sits peacefully in sunlight beside a traditional Chinese temple door in Datong.",
+      "query": "Chinese restaurant interior datong",
+      "credit": {
+        "source": "pexels",
+        "author": "Lan Yao",
+        "sourceUrl": "https://www.pexels.com/photo/a-man-in-gray-long-sleeves-sitting-near-the-wooden-door-6724161/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4096,
+      "alt": "Charming Asian dining room with bamboo chairs and traditional teaware.",
+      "query": "Chinese restaurant interior datong",
+      "credit": {
+        "source": "pexels",
+        "author": "TIANYUN XIA",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37047965/pexels-photo-37047965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37047965/pexels-photo-37047965.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4896,
+      "height": 3264,
+      "alt": "Cozy traditional Asian restaurant interior highlighting wooden furnishings and red decor. Ideal for cultural and design ",
+      "query": "Chinese restaurant interior datong",
+      "credit": {
+        "source": "pexels",
+        "author": "mingche lee",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "农家菜",
+    "云冈",
+    "实惠"
+  ],
+  "popularity": 54,
+  "sources": [
+    {
+      "title": "百度百科·云冈区",
+      "url": "https://baike.baidu.com/item/%E4%BA%91%E5%86%88%E5%8C%BA",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "云冈农家饭"
+  },
+  "_geocodeTitle": "云冈镇",
+  "district": "140213"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "jingwu-duck-neck",
+  "name": "精武鸭脖(精武路)",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "鸭脖这条产品线是从这里开始被人知道的，是个地名也是个门派。",
+  "description": "武汉的鸭脖最早是从精武路一带起步的，所以它既是地名也是这个品类的一条脉络。做法是用多种香料加辣椒卤：先卤后放凉，麻辣是从后往前上来的那种。它的乐趣在于啃，而不在于吃肉。买的时候按斤称，可以要求剁段。微辣在中原以外的口味参考系里其实已经不算轻。它属于零食、夜宵、佐酒这一边，不算正餐。这条路上店很多，看哪家人多选哪家。",
+  "highlights": [
+    "麻辣卤制，放凉之后味道更清楚",
+    "按斤称，可以要求剁段",
+    "属于夜宵佐酒，不是正餐"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.299007,
+      "lat": 30.54793,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "武汉市江汉区精武路",
+    "district": "武昌区",
+    "transportTip": "地铁2号线/6号线循礼门站步行"
+  },
+  "practical": {
+    "openHours": "约09:00-21:00，以门店公告为准",
+    "openHoursRef": 0,
+    "ticket": "人均约40元，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 15-40 分钟",
+    "durationMinutes": [
+      15,
+      40
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "couple",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/27238146/pexels-photo-27238146.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27238146/pexels-photo-27238146.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3466,
+      "height": 2598,
+      "alt": "A bowl of traditional Wuhan noodles garnished with vegetables, served with wooden chopsticks.",
+      "query": "Chinese street food dish wuhan",
+      "credit": {
+        "source": "pexels",
+        "author": "颖 徐",
+        "sourceUrl": "https://www.pexels.com/photo/re-gan-mian-wuhan-27238146/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/29305560/pexels-photo-29305560.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29305560/pexels-photo-29305560.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 3024,
+      "alt": "Delicious spicy beef noodle soup topped with fresh cilantro in a white bowl.",
+      "query": "Chinese street food dish wuhan",
+      "credit": {
+        "source": "pexels",
+        "author": "颖 徐",
+        "sourceUrl": "https://www.pexels.com/photo/spicy-beef-noodle-soup-with-herbs-in-a-bowl-29305560/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/29305974/pexels-photo-29305974.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29305974/pexels-photo-29305974.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 3024,
+      "alt": "Traditional spicy fish dish served with colorful peppers in a white bowl.",
+      "query": "Chinese street food dish wuhan",
+      "credit": {
+        "source": "pexels",
+        "author": "颖 徐",
+        "sourceUrl": "https://www.pexels.com/photo/delicious-spicy-fish-dish-in-chinese-cuisine-29305974/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "鸭脖",
+    "卤味",
+    "夜宵"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "百度百科·精武鸭脖",
+      "url": "https://baike.baidu.com/item/%E7%B2%BE%E6%AD%A6%E9%B8%AD%E8%84%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-23"
+    }
+  ],
+  "updatedAt": "2026-09-23",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "精武鸭脖(精武路)"
+  },
+  "_geocodeTitle": "汉味精武鸭脖",
+  "_geocodeSuspect": false,
+  "district": "420106"
+}

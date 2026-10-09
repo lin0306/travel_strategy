@@ -1,0 +1,113 @@
+{
+  "id": "hongfa-temple",
+  "name": "弘法寺",
+  "category": "scenic",
+  "subtype": "temple",
+  "summary": "深圳规模最大的一处寺院：建在植物园内的一方坡地上，与植物园共用一个门口。",
+  "description": "弘法寺在仙湖植物园内，1985 年起兴建，经过多次扩建成为今天这样。它的平面沿山势往上叠，天王殿、大雄宝殿、藏经楼一层一层升上去。管理上是丛林丛林体制的那一套：由僧团丛林体制运行，寺内也办佛学院。来的人主要有两类：本地信众与进植物园顺路上来的游客。它与老城里那些几十年的小庙不同，体量是新的。因为坐落在园区内，进寺要购买植物园门票。",
+  "highlights": [
+    "依山势层叠布置的新建寺院群",
+    "深圳境内规模最大的一处",
+    "与仙湖植物园在同一门口内"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.18224,
+      "lat": 22.577501,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "深圳市罗湖区莲塘仙湖植物园内",
+    "district": "罗湖区",
+    "transportTip": "地铁2号线仙湖路站步行入园"
+  },
+  "practical": {
+    "openHours": "约08:00-17:00（以官方公告为准）",
+    "openHoursRef": 0,
+    "ticket": "需另购仙湖植物园门票，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "elders",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Chiwan_Tianhou_Temple_20140515.JPG/1280px-Chiwan_Tianhou_Temple_20140515.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Chiwan_Tianhou_Temple_20140515.JPG/1280px-Chiwan_Tianhou_Temple_20140515.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 675,
+      "alt": "Chiwan Tianhou Temple 20140515.JPG",
+      "query": "Chinese temple shenzhen",
+      "credit": {
+        "source": "wikimedia",
+        "author": "颐园新居",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chiwan_Tianhou_Temple_20140515.JPG",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Chiwan_Tianhou_Temple_2018-10-12_1.jpg/1280px-Chiwan_Tianhou_Temple_2018-10-12_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Chiwan_Tianhou_Temple_2018-10-12_1.jpg/1280px-Chiwan_Tianhou_Temple_2018-10-12_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Chiwan Tianhou Temple 2018-10-12 1.jpg",
+      "query": "Chinese temple shenzhen",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Mx. Granger",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chiwan_Tianhou_Temple_2018-10-12_1.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Chiwan_Tianhou_Temple_2018-10-12_2.jpg/1280px-Chiwan_Tianhou_Temple_2018-10-12_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Chiwan_Tianhou_Temple_2018-10-12_2.jpg/1280px-Chiwan_Tianhou_Temple_2018-10-12_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 642,
+      "alt": "Chiwan Tianhou Temple 2018-10-12 2.jpg",
+      "query": "Chinese temple shenzhen",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Mx. Granger",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chiwan_Tianhou_Temple_2018-10-12_2.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "寺院",
+    "丛林",
+    "山寺"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "百度百科·弘法寺",
+      "url": "https://baike.baidu.com/item/%E5%BC%98%E6%B3%95%E5%AF%BA%EF%BC%88%E6%B7%B1%E5%9C%B3%EF%BC%89",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-24"
+    }
+  ],
+  "updatedAt": "2026-09-24",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "弘法寺"
+  },
+  "_geocodeTitle": "弘法寺",
+  "_geocodeSuspect": false,
+  "district": "440303"
+}

@@ -1,0 +1,118 @@
+{
+  "id": "huangshan-mountain",
+  "name": "黄山风景区",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "以奇松怪石云海温泉出名的一座山，光明顶、迎客松、西海大峡谷都在里面。",
+  "description": "黄山在黄山区，是中国最有名的山之一。它最有名的四样是奇松、怪石、云海、温泉。迎客松立在玉屏楼旁边，是这座山用得最多的一个符号。光明顶是看日出和云海的地方，人很多。西海大峡谷在山的西边，栈道贴着绝壁走，险但也好看。山分前山后山，索道好几条，不一定全靠腿。门票贵，旺季要提前约。山上冷，过夜得带厚衣服。",
+  "highlights": [
+    "奇松怪石云海温泉四样齐，迎客松与光明顶最出名",
+    "西海大峡谷栈道贴绝壁，险而好看",
+    "索道多不必全爬，山上冷需厚衣"
+  ],
+  "location": {
+    "point": {
+      "lng": 118.142508,
+      "lat": 30.152703,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "安徽省黄山市黄山区汤口镇黄山风景区",
+    "district": "黄山区",
+    "transportTip": "高铁到黄山北站转景区大巴到汤口，再乘景交进山",
+    "entrance": {
+      "lng": 118.176437,
+      "lat": 30.064226,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "平日约06:30-17:00，冬季与天气有关以景区公告为准",
+    "openHoursRef": 0,
+    "ticket": "旺季约190元，淡季约150元，索道另计",
+    "ticketRef": 0,
+    "duration": "建议 360-600 分钟",
+    "durationMinutes": [
+      360,
+      600
+    ],
+    "priceLevel": "high"
+  },
+  "audience": [
+    "couple",
+    "family",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Huangshan_fengjing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Huangshan_fengjing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1338,
+      "alt": "Huangshan fengjing.jpg",
+      "query": "黄山风景区 黄山",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Wikimedia Commons 贡献者",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Huangshan_fengjing.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Huangshan_mist_20141109.jpg/1280px-Huangshan_mist_20141109.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Huangshan_mist_20141109.jpg/1280px-Huangshan_mist_20141109.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Huangshan mist 20141109.jpg",
+      "query": "黄山风景区 黄山",
+      "credit": {
+        "source": "wikimedia",
+        "author": "颐园居",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Huangshan_mist_20141109.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Huangshan_%E9%BB%84%E5%B1%B1%E4%B8%80%E7%BA%BF%E5%A4%A9_20220708.jpg/1280px-Huangshan_%E9%BB%84%E5%B1%B1%E4%B8%80%E7%BA%BF%E5%A4%A9_20220708.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Huangshan_%E9%BB%84%E5%B1%B1%E4%B8%80%E7%BA%BF%E5%A4%A9_20220708.jpg/1280px-Huangshan_%E9%BB%84%E5%B1%B1%E4%B8%80%E7%BA%BF%E5%A4%A9_20220708.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Huangshan 黄山一线天 20220708.jpg",
+      "query": "黄山风景区 黄山",
+      "credit": {
+        "source": "wikimedia",
+        "author": "颐园居",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Huangshan_%E9%BB%84%E5%B1%B1%E4%B8%80%E7%BA%BF%E5%A4%A9_20220708.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "山岳",
+    "云海",
+    "世界遗产"
+  ],
+  "popularity": 100,
+  "sources": [
+    {
+      "title": "百度百科·黄山",
+      "url": "https://baike.baidu.com/item/%E9%BB%84%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "黄山风景区"
+  },
+  "_geocodeTitle": "黄山风景区",
+  "_geocodeSuspect": false,
+  "district": "341003"
+}

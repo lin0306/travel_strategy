@@ -1,0 +1,112 @@
+{
+  "id": "chenghuang-snack-street",
+  "name": "城隍庙小吃街",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "城隍庙前面那片小吃街区，宁波的各种小吃在这里都能摊上找到，是最省事的一处。",
+  "description": "城隍庙前面这一片是宁波老城里吃最集中的一块：街两边是摊位与小铺，汤圆、油赞子、年糕、海鲜、烤菜、生煎一样样排开，价格便宜，边走边吃。它与南塘老街是两种风格 —— 南塘是整片新建的老街，环境整齐、店铺大；这里是老城里自然长出来的，挤、杂、更像本地日常吃的地方。晚上人最多，灯亮起来，摊子全开。不收门票，吃一轮一个到两个半小时。它与天一广场、鼓楼在步行范围里，是串起老城这一片的中间点。想用最短时间尝到最多宁波小吃，来这里。注意价格先问，海鲜按时价。",
+  "highlights": [
+    "城隍庙前老城里吃最集中的一块，边走边吃",
+    "与南塘老街两种风格：这里更挤更杂更像日常",
+    "与天一广场、鼓楼步行可达，是老城的中间点"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.551127,
+      "lat": 29.866012,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "浙江省宁波市海曙区开明街128号",
+    "district": "海曙区",
+    "transportTip": "地铁一号线城隍庙站"
+  },
+  "practical": {
+    "openHours": "街区全天；摊铺多为10:00-21:30",
+    "openHoursRef": 0,
+    "ticket": "免费进入，吃另计",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "friends",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/20256134/pexels-photo-20256134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/20256134/pexels-photo-20256134.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "Traditional alley adorned with vibrant red lanterns, capturing the essence of Asian street culture.",
+      "query": "Chinese old town street ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Tito Zzzz",
+        "sourceUrl": "https://www.pexels.com/photo/red-lantern-hanging-along-alley-20256134/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37111996/pexels-photo-37111996.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37111996/pexels-photo-37111996.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4896,
+      "height": 3264,
+      "alt": "Explore a picturesque Chinese alley with traditional architecture and modern shops.",
+      "query": "Chinese old town street ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "mingche lee",
+        "sourceUrl": "https://www.pexels.com/photo/charming-street-view-in-traditional-chinese-alley-37111996/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27927116/pexels-photo-27927116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27927116/pexels-photo-27927116.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6048,
+      "height": 4024,
+      "alt": "Quaint narrow street with rustic wooden houses under a clear blue sky.",
+      "query": "Chinese old town street ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Lu Zhao",
+        "sourceUrl": "https://www.pexels.com/photo/narrow-street-between-old-houses-27927116/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "小吃街",
+    "老城",
+    "夜市"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "百度百科·宁波城隍庙",
+      "url": "https://baike.baidu.com/item/%E5%AE%81%E6%B3%A2%E5%9F%8E%E9%9A%8D%E5%BA%99",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "城隍庙小吃街"
+  },
+  "_geocodeTitle": "开明街128号",
+  "district": "330203"
+}

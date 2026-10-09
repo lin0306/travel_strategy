@@ -1,0 +1,111 @@
+{
+  "id": "zhongdajie",
+  "name": "钟大姐土菜馆",
+  "category": "food",
+  "subtype": "local",
+  "summary": "汤口一家徽州土菜馆，笋干烧肉、土鸡汤、小河鱼，爬黄山前后吃实惠。",
+  "description": "钟大姐土菜馆在黄山区汤口，就在黄山脚下。做的是徽州土菜 —— 笋干烧肉、土鸡汤、小河鱼、炒蕨菜。味道家常，份量实在，价格不贵。爬黄山前吃顿饱的、爬完补一补，来这儿的多。店不大，旺季要等。老板本地人，实在。",
+  "highlights": [
+    "汤口黄山脚下徽州土菜，家常实在",
+    "笋干烧肉土鸡汤小河鱼",
+    "爬黄山前后吃实惠，旺季要等"
+  ],
+  "location": {
+    "point": {
+      "lng": 118.182559,
+      "lat": 30.070981,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "安徽省黄山市黄山区汤口镇钟大姐土菜馆",
+    "district": "黄山区",
+    "transportTip": "汤口镇内步行或景区小交通到"
+  },
+  "practical": {
+    "openHours": "约10:00-21:00",
+    "openHoursRef": 0,
+    "ticket": "人均约70元",
+    "ticketRef": 0,
+    "duration": "建议 60-100 分钟",
+    "durationMinutes": [
+      60,
+      100
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/5516765/pexels-photo-5516765.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/5516765/pexels-photo-5516765.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 3024,
+      "alt": "Lively evening scene with bright neon lights and reflections on Tunxi Old Street, Huangshan, China.",
+      "query": "Chinese restaurant interior huangshan",
+      "credit": {
+        "source": "pexels",
+        "author": "Andrew Seto",
+        "sourceUrl": "https://www.pexels.com/photo/a-car-parked-near-brown-building-during-night-5516765/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38404989/pexels-photo-38404989.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38404989/pexels-photo-38404989.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4096,
+      "height": 3072,
+      "alt": "Captivating landscape view through a classic Chinese window, showcasing serene water and mountains.",
+      "query": "Chinese restaurant interior huangshan",
+      "credit": {
+        "source": "pexels",
+        "author": "Kalan Gao",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-view-through-traditional-chinese-window-38404989/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4096,
+      "alt": "Charming Asian dining room with bamboo chairs and traditional teaware.",
+      "query": "Chinese restaurant interior huangshan",
+      "credit": {
+        "source": "pexels",
+        "author": "TIANYUN XIA",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "土菜",
+    "实惠",
+    "汤口"
+  ],
+  "popularity": 60,
+  "sources": [
+    {
+      "title": "百度百科·徽菜",
+      "url": "https://baike.baidu.com/item/%E5%BE%BD%E8%8F%9C",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "钟大姐土菜馆"
+  },
+  "_geocodeTitle": "汤口镇",
+  "district": "341003"
+}

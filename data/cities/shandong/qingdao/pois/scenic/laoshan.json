@@ -1,0 +1,119 @@
+{
+  "id": "laoshan",
+  "name": "崂山风景区",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "中国海岸线上最高的山，几条游览线各有各的景，需要一整天。",
+  "description": "崂山在青岛市东部，主峰巨峰一千一百多米，是中国大陆海岸线上的最高峰。山体是花岗岩，经长期风化形成一堆浑圆的巨石，加上临海的一面，是这座山的底子。景区分成几条线：太清线在南面的山坳里，有太清宫与海；巨峰线是主峰，上山要走环线与索道；仰口线靠北，有沙滩与觅天洞；北九水是山谷里的一条溪，雨后水大。各线之间有景区车，一天最多走两条。道教在这里传得早，太清宫、上清宫几处宫观沿山而建。门票与观光车按线计价，以官方公告为准。",
+  "highlights": [
+    "主峰巨峰一千一百多米，是中国海岸线最高峰",
+    "花岗岩巨石加临海一面，是这座山的底子",
+    "太清、巨峰、仰口、北九水几条线各有各的景"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.583641,
+      "lat": 36.211591,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山东省青岛市崂山区崂山风景区（太清游览区）",
+    "district": "崂山区",
+    "transportTip": "地铁11号线至浦里或北九水站，转景区车；市区自驾约一小时",
+    "entrance": {
+      "lng": 120.588184,
+      "lat": 36.131016,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约07:00-17:30（各线时间不同），以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "门票与观光车按游览线计价，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 240-480 分钟",
+    "durationMinutes": [
+      240,
+      480
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "friends",
+    "couple",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38925247/pexels-photo-38925247.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38925247/pexels-photo-38925247.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "A scenic coastal view with a cabin perched on rocky cliffs overlooking the blue ocean under clear skies.",
+      "query": "natural landscape China qingdao",
+      "credit": {
+        "source": "pexels",
+        "author": "Aurora",
+        "sourceUrl": "https://www.pexels.com/photo/coastal-cliffside-with-cabin-and-blue-ocean-38925247/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36963223/pexels-photo-36963223.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36963223/pexels-photo-36963223.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6048,
+      "height": 4032,
+      "alt": "View of Qingdao's coastline featuring tall modern buildings and clear blue sea.",
+      "query": "natural landscape China qingdao",
+      "credit": {
+        "source": "pexels",
+        "author": "Zhengyang TIAN",
+        "sourceUrl": "https://www.pexels.com/photo/coastal-skyline-of-qingdao-with-modern-architecture-36963223/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37106092/pexels-photo-37106092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37106092/pexels-photo-37106092.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "Scenic aerial view of Qingdao with historic architecture and coastal landscape.",
+      "query": "natural landscape China qingdao",
+      "credit": {
+        "source": "pexels",
+        "author": "Whale I",
+        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-qingdao-s-historical-architecture-37106092/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "崂山",
+    "花岗岩",
+    "道教"
+  ],
+  "popularity": 93,
+  "sources": [
+    {
+      "title": "百度百科·崂山",
+      "url": "https://baike.baidu.com/item/%E5%B4%82%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-28"
+    }
+  ],
+  "updatedAt": "2026-09-28",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "崂山风景区"
+  },
+  "_geocodeTitle": "青岛崂山风景名胜区",
+  "_geocodeSuspect": false,
+  "district": "370212"
+}

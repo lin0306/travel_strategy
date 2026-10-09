@@ -1,0 +1,119 @@
+{
+  "id": "chongqing-zoo",
+  "name": "重庆动物园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "主城老牌动物园，大熊猫与华南虎是招牌，票价亲民。",
+  "description": "重庆动物园在九龙坡区，是西南地区建园较早的动物园之一，园内坡地起伏、树木成荫，逛起来不算晒。大熊猫馆一直是人气最高的地方，此外还有华南虎、金丝猴、长颈鹿、河马等。园里保留着一些老式的水泥兽舍，设施谈不上新，但胜在票价便宜、离轨道交通近，本地家庭带孩子来的很多。周末上午动物活动比较活跃，午后大多在睡觉。",
+  "highlights": [
+    "大熊猫馆人气最高",
+    "票价亲民，适合带娃",
+    "轨道交通直达，交通方便"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.50627,
+      "lat": 29.5039,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "重庆市九龙坡区西郊一村 1 号",
+    "district": "九龙坡",
+    "transportTip": "轨道交通 2 号线动物园站出站即到",
+    "entrance": {
+      "lng": 106.509994,
+      "lat": 29.503236,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约 08:00-17:30（以官方公告为准）",
+    "openHoursRef": 0,
+    "ticket": "约 30 元起（以官方为准）",
+    "ticketRef": 0,
+    "duration": "建议 120-180 分钟",
+    "durationMinutes": [
+      120,
+      180
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "kids",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37817225/pexels-photo-37817225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37817225/pexels-photo-37817225.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6048,
+      "height": 4032,
+      "alt": "Aerial view of traditional Chinese temple nestled in the lush greenery of Chongqing, China.",
+      "query": "Chinese classical garden chongqing",
+      "credit": {
+        "source": "pexels",
+        "author": "Ruben VP",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-architecture-in-chongqing-37817225/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39042850/pexels-photo-39042850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39042850/pexels-photo-39042850.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "Beautiful view of traditional architecture in Chongqing, surrounded by lush greenery.",
+      "query": "Chinese classical garden chongqing",
+      "credit": {
+        "source": "pexels",
+        "author": "Z L",
+        "sourceUrl": "https://www.pexels.com/photo/idyllic-village-scene-in-chongqing-china-39042850/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38942563/pexels-photo-38942563.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38942563/pexels-photo-38942563.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6048,
+      "height": 8064,
+      "alt": "Historic Chinese building with intricate architecture in Chongqing, China, under a cloudy sky.",
+      "query": "Chinese classical garden chongqing",
+      "credit": {
+        "source": "pexels",
+        "author": "Guillaume Kremer",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-architecture-in-chongqing-38942563/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "动物园",
+    "大熊猫",
+    "亲子",
+    "低价"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "百度百科·重庆动物园",
+      "url": "https://baike.baidu.com/item/%E9%87%8D%E5%BA%86%E5%8A%A8%E7%89%A9%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "重庆动物园"
+  },
+  "_geocodeTitle": "重庆动物园",
+  "_geocodeSuspect": false,
+  "district": "500107"
+}

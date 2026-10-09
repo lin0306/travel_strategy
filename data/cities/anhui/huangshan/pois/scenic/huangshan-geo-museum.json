@@ -1,0 +1,112 @@
+{
+  "id": "huangshan-geo-museum",
+  "name": "黄山地质博物馆",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "黄山区汤口一座讲黄山怎么来的博物馆，石头标本和沙盘，爬山前看。",
+  "description": "黄山地质博物馆在黄山区汤口，离黄山大门近。它讲黄山是怎么形成的 —— 花岗岩怎么抬升、风化成现在这些怪石。馆里有石头标本和沙盘，还有黄山四季的照片。爬山之前来看一眼，上山看石头就更有数。免费，不大，半个钟头够。",
+  "highlights": [
+    "讲黄山花岗岩如何成怪石，有标本沙盘",
+    "爬山前看一眼更有数",
+    "免费不大，半小时够"
+  ],
+  "location": {
+    "point": {
+      "lng": 118.193336,
+      "lat": 30.119714,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "安徽省黄山市黄山区汤口镇黄山地质博物馆",
+    "district": "黄山区",
+    "transportTip": "汤口镇内步行或景区小交通到"
+  },
+  "practical": {
+    "openHours": "约08:30-17:00，以公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-100 分钟",
+    "durationMinutes": [
+      60,
+      100
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/35870231/pexels-photo-35870231.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35870231/pexels-photo-35870231.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6990,
+      "height": 4660,
+      "alt": "Explore the elegant interior of an Istanbul museum showcasing art and artifacts.",
+      "query": "museum exhibition hall huangshan",
+      "credit": {
+        "source": "pexels",
+        "author": "Gül Işık",
+        "sourceUrl": "https://www.pexels.com/photo/intricate-istanbul-museum-interior-display-35870231/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27945763/pexels-photo-27945763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27945763/pexels-photo-27945763.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Intricately crafted golden statue showcased in a Chinese history museum exhibit with detailed background art.",
+      "query": "museum exhibition hall huangshan",
+      "credit": {
+        "source": "pexels",
+        "author": "Teysa Tugadi",
+        "sourceUrl": "https://www.pexels.com/photo/a-statue-of-a-buddha-in-a-glass-case-27945763/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/35399266/pexels-photo-35399266.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35399266/pexels-photo-35399266.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6017,
+      "height": 4012,
+      "alt": "Spacious Japanese room featuring artistic decor and unique geometric ceiling lights.",
+      "query": "museum exhibition hall huangshan",
+      "credit": {
+        "source": "pexels",
+        "author": "Liuuu _61",
+        "sourceUrl": "https://www.pexels.com/photo/elegant-japanese-room-with-geometric-ceiling-lights-35399266/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "博物馆",
+    "地质",
+    "免费"
+  ],
+  "popularity": 45,
+  "sources": [
+    {
+      "title": "百度百科·黄山",
+      "url": "https://baike.baidu.com/item/%E9%BB%84%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "黄山地质博物馆"
+  },
+  "_geocodeTitle": "黄山地质公园博物馆",
+  "_geocodeSuspect": false,
+  "district": "341003"
+}

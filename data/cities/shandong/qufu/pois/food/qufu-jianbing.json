@@ -1,0 +1,85 @@
+{
+  "id": "qufu-jianbing",
+  "name": "曲阜煎饼",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "薄脆杂粮煎饼，摊开能透光。",
+  "description": "曲阜煎饼是鲁西南家常主食，用小米、玉米、高粱或小麦的杂粮糊在鏊子上摊成，薄的时候几乎能透光，边缘焦脆。刚出锅的煎饼带着谷物香，嚼起来先是脆，后是韧，放凉了会变硬，需要回锅或卷软的东西吃。它可以单吃，更常见的是卷大葱、抹酱、卷豆腐或卷菜。老城市场与街边都有现摊现卖的摊子，也有包装好的伴手礼。买现摊的最好吃，带回家那种口感差一截。便宜，几块钱一大摞。",
+  "highlights": [
+    "杂粮摊制，薄可透光",
+    "卷大葱抹酱是经典吃法",
+    "便宜，现摊最好"
+  ],
+  "location": {
+    "point": {
+      "lng": 116.99329,
+      "lat": 35.594216,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "济宁市曲阜市老城市场与街边摊",
+    "district": "曲阜",
+    "transportTip": "老城内步行可达"
+  },
+  "practical": {
+    "openHours": "白天，多为早市与集市",
+    "openHoursRef": 0,
+    "ticket": "约5-15元",
+    "ticketRef": 0,
+    "duration": "建议 20-40 分钟",
+    "durationMinutes": [
+      20,
+      40
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "solo",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/%E6%9B%B2%E9%98%9C%E7%85%8E%E9%A5%BC.jpg/1280px-%E6%9B%B2%E9%98%9C%E7%85%8E%E9%A5%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/%E6%9B%B2%E9%98%9C%E7%85%8E%E9%A5%BC.jpg/1280px-%E6%9B%B2%E9%98%9C%E7%85%8E%E9%A5%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "曲阜煎饼.jpg",
+      "query": "曲阜煎饼 曲阜",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Kungfumastor",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%9B%B2%E9%98%9C%E7%85%8E%E9%A5%BC.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "煎饼",
+    "杂粮",
+    "主食"
+  ],
+  "popularity": 85,
+  "sources": [
+    {
+      "title": "百度百科·山东煎饼",
+      "url": "https://baike.baidu.com/item/%E7%85%8E%E9%A5%BC",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-06"
+    }
+  ],
+  "updatedAt": "2026-10-06",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "曲阜煎饼"
+  },
+  "_geocodeTitle": "五马祠街",
+  "_geocodeSuspect": false,
+  "district": "370881",
+  "addr": "济宁市曲阜市五马祠街",
+  "dist": "明故城"
+}

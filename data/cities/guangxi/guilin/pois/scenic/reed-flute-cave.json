@@ -1,0 +1,119 @@
+{
+  "id": "reed-flute-cave",
+  "name": "芦笛岩",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "光明山西側的一个溶洞，里面的钟乳石挂满了整条通道，灯一打像宫殿，进去跟往外看是两个世界。",
+  "description": "芦笛岩是桂林市区最有名的一个溶洞，在城西北的光明山里。洞口很高，进去是一条五百米的通道，两边全是石笋、石柱、石幔 —— 溶洞里的东西差不多全在这儿了。它的特别之处在于数量够多、位置够近：别处的溶洞一个主厅也就几根大的，这里一路都是，加上灯打得很讲究，著名的那几处有名字（水晶宫、花果山之类）。洞里常年十几度，夏天进去要带件外套，冬天反而暖。洞口附近有燕子湖与人工瀑布，出来可以绕一圈。它与南溪山、西山在城的同一侧，三者之间都在二十分钟车程内。要注意洞里湿滑，路窄人多，节假日会排队。",
+  "highlights": [
+    "五百米通道两边全是石笋石柱，密度在国内溶洞里少见",
+    "洞里常年十几度，夏天进去要带外套",
+    "洞口有燕子湖与瀑布，出来绕一圈"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.272435,
+      "lat": 25.309947,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "广西壮族自治区桂林市秀峰区芦笛岩",
+    "district": "秀峰区",
+    "transportTip": "市区乘公交至芦笛岩站；或网约车约二十分钟",
+    "entrance": {
+      "lng": 110.273481,
+      "lat": 25.303735,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约8:00-17:30，节假日延长，以景区公告为准",
+    "openHoursRef": 0,
+    "ticket": "中等，以景区公告为准",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "couple",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/36535024/pexels-photo-36535024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36535024/pexels-photo-36535024.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Stunning aerial view of the Li River and karst mountains in Guilin, Guangxi, China at sunset.",
+      "query": "natural landscape China guilin",
+      "credit": {
+        "source": "pexels",
+        "author": "Willian Justen de Vasconcellos",
+        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-karst-mountains-in-guilin-china-36535024/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33632718/pexels-photo-33632718.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33632718/pexels-photo-33632718.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 6825,
+      "height": 4541,
+      "alt": "Picturesque view of traditional Chinese architecture and mountains in Guilin, China.",
+      "query": "natural landscape China guilin",
+      "credit": {
+        "source": "pexels",
+        "author": "Vincent Tan",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-architecture-in-guilin-33632718/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/24246260/pexels-photo-24246260.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/24246260/pexels-photo-24246260.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5472,
+      "height": 3648,
+      "alt": "A breathtaking scenic view of karst mountains reflecting on the Li River in Yangshuo, Guangxi, China.",
+      "query": "natural landscape China guilin",
+      "credit": {
+        "source": "pexels",
+        "author": "fei wang",
+        "sourceUrl": "https://www.pexels.com/photo/lijiang-river-and-mountains-china-24246260/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "溶洞",
+    "钟乳石",
+    "避暑"
+  ],
+  "popularity": 86,
+  "sources": [
+    {
+      "title": "百度百科·芦笛岩",
+      "url": "https://baike.baidu.com/item/%E8%8A%A6%E7%AC%9B%E5%B2%A9",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "芦笛岩"
+  },
+  "_geocodeTitle": "芦笛岩",
+  "_geocodeSuspect": false,
+  "district": "450302"
+}

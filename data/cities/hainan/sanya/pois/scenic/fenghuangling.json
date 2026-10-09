@@ -1,0 +1,119 @@
+{
+  "id": "fenghuangling",
+  "name": "凤凰岭海誓山盟景区",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "市区北面的一座山，缆车上去，山顶看的是城与三亚湾这一整条弧线。",
+  "description": "凤凰岭在市区东北，海拔近四百米，是离城最近的一座山。上山主要靠缆车，十几分钟到山顶，也有能走的登山道，一个多小时。山顶修了一圈观景平台与玻璃栈道，朝南那面能看到三亚湾从西到东一整条弧线，天气好时连西岛与东边几个湾都在视野里；朝北是山与城。这里的角度跟鹿回头不同——鹿回头是贴着海看湾，这里是在高处看整条海岸线，傍晚与夜景都合适。山下有一段以爱情为主题的步行区，名字里有海誓山盟四个字，是它的招牌。",
+  "highlights": [
+    "缆车十几分钟到顶，也有登山道",
+    "山顶朝南能看三亚湾一整条弧线",
+    "与鹿回头角度不同：这里在高处看整条海岸线"
+  ],
+  "location": {
+    "point": {
+      "lng": 109.546163,
+      "lat": 18.256357,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "海南省三亚市吉阳区狗岭路300号（凤凰岭海誓山盟景区）",
+    "district": "吉阳区",
+    "transportTip": "市区乘公交或网约车至凤凰岭景区西门；缆车上山",
+    "entrance": {
+      "lng": 109.534763,
+      "lat": 18.249835,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:00-22:00（淡旺季有调整），以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "缆车与门票以官方公告为准",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "family",
+    "elders",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/3878268/pexels-photo-3878268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/3878268/pexels-photo-3878268.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3148,
+      "height": 4457,
+      "alt": "Palm-lined tropical beach adorned with traditional red Chinese lanterns during sunset in Sanya, China.",
+      "query": "Chinese classical garden sanya",
+      "credit": {
+        "source": "pexels",
+        "author": "James Wheeler",
+        "sourceUrl": "https://www.pexels.com/photo/green-palm-trees-under-the-blue-sky-3878268/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39555092/pexels-photo-39555092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39555092/pexels-photo-39555092.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4592,
+      "height": 2584,
+      "alt": "Aerial view of a beautiful beach and walkway at Sanya, Hainan, China with clear blue waters.",
+      "query": "Chinese classical garden sanya",
+      "credit": {
+        "source": "pexels",
+        "author": "Alex Peet",
+        "sourceUrl": "https://www.pexels.com/photo/sunny-day-at-sanya-beach-with-scenic-view-39555092/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/4242876/pexels-photo-4242876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/4242876/pexels-photo-4242876.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8000,
+      "height": 6000,
+      "alt": "Aerial view of Sanya's beachfront with city skyline, palm trees, and clear water.",
+      "query": "Chinese classical garden sanya",
+      "credit": {
+        "source": "pexels",
+        "author": "光曦 刘",
+        "sourceUrl": "https://www.pexels.com/photo/sea-beach-trees-and-buildings-4242876/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "山",
+    "缆车",
+    "夜景"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "百度百科·凤凰岭",
+      "url": "https://baike.baidu.com/item/%E5%87%A4%E5%87%B0%E5%B2%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-29"
+    }
+  ],
+  "updatedAt": "2026-09-29",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "凤凰岭海誓山盟景区"
+  },
+  "_geocodeTitle": "凤凰岭海誓山盟景区",
+  "_geocodeSuspect": false,
+  "district": "460203"
+}

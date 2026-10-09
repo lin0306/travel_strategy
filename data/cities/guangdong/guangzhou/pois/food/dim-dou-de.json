@@ -1,0 +1,84 @@
+{
+  "id": "dim-dou-de",
+  "name": "点都德",
+  "category": "food",
+  "subtype": "local",
+  "summary": "分店最多的那一批早茶是它的强项：全天都可以点心，不必赶早。",
+  "description": "点都德是国内连锁化程度较高的粤式点心品牌，在广州商场与街铺里都能遇到。它的实际用处是「全天点心」——多数传统的茶楼只在早午时段供应点心，这里全天都有，不必赶早。出品稳定程度高于平均水平，价格处在大众区间。本地人把它当作日常的选择，把它作为「必吃的当地味道」并不准确。选离自己最近的一家即可，不必专程跑某店。",
+  "highlights": [
+    "连锁品牌，广州商场与街铺都有",
+    "全天供应点心，不必赶早茶时段",
+    "价格处在大众区间"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.339433,
+      "lat": 23.134069,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "广州市多区设有分店（如越秀区北京路一带）",
+    "district": "天河区",
+    "transportTip": "视具体分店而定，多数在地铁沿线商场内"
+  },
+  "practical": {
+    "openHours": "约07:00-22:00（各店有别），以门店公告为准",
+    "openHoursRef": 0,
+    "ticket": "人均约60-110元，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Words%E7%82%B9%E9%83%BD%E5%BE%B7.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Words%E7%82%B9%E9%83%BD%E5%BE%B7.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1080,
+      "alt": "Words点都德.png",
+      "query": "点都德",
+      "credit": {
+        "source": "wikimedia",
+        "author": "单独",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Words%E7%82%B9%E9%83%BD%E5%BE%B7.png",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "早茶",
+    "连锁",
+    "点心"
+  ],
+  "popularity": 86,
+  "sources": [
+    {
+      "title": "百度百科·点都德",
+      "url": "https://baike.baidu.com/item/%E7%82%B9%E9%83%BD%E5%BE%B7",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-24"
+    }
+  ],
+  "updatedAt": "2026-09-24",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "点都德"
+  },
+  "_geocodeTitle": "点都德(汇胜楼店)",
+  "_geocodeSuspect": false,
+  "district": "440106"
+}

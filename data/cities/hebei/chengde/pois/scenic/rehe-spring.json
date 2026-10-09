@@ -1,0 +1,97 @@
+{
+  "id": "rehe-spring",
+  "name": "热河泉",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "避暑山庄里一处温泉眼，冬天不冻，热河因此得名，是世界最短的河。",
+  "description": "热河泉在避暑山庄湖区东北，是一处温泉眼。水从地下冒出来，冬天也不冻，所以这条水叫热河 —— 它是世界上最短的河，几百米。泉边有石头刻着字。冬天来，周围结冰，只有这一片冒热气，好看。它在山庄里，含门票。",
+  "highlights": [
+    "山庄内温泉眼，冬不冻故名热河",
+    "热河是世界最短的河，几百米",
+    "冬日周围结冰唯此处冒热气"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.94729,
+      "lat": 40.99176,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河北省承德市双桥区避暑山庄内热河泉",
+    "district": "双桥区",
+    "transportTip": "进避暑山庄后步行到湖区东北"
+  },
+  "practical": {
+    "openHours": "约08:00-17:00，随山庄",
+    "openHoursRef": 0,
+    "ticket": "含避暑山庄门票",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Chengde_Mountain_Resort_8.jpg/1280px-Chengde_Mountain_Resort_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Chengde_Mountain_Resort_8.jpg/1280px-Chengde_Mountain_Resort_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Chengde Mountain Resort 8.jpg",
+      "query": "热河泉 承德",
+      "credit": {
+        "source": "wikimedia",
+        "author": "takwing.kwong",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort_8.jpg",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Chengde_Mountain_Resort02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Chengde_Mountain_Resort02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Chengde Mountain Resort02.jpg",
+      "query": "热河泉",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Taken by Vberger",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort02.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "温泉",
+    "热河",
+    "山庄"
+  ],
+  "popularity": 62,
+  "sources": [
+    {
+      "title": "百度百科·热河",
+      "url": "https://baike.baidu.com/item/%E7%83%AD%E6%B2%B3",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "热河泉"
+  },
+  "_geocodeTitle": "承德避暑山庄景区-热河泉",
+  "_geocodeSuspect": false,
+  "district": "130802"
+}

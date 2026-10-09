@@ -1,0 +1,111 @@
+{
+  "id": "congjun",
+  "name": "枞菌",
+  "category": "food",
+  "subtype": "local",
+  "summary": "本地山林出的一种菌，秋天最多，炒肉或做汤都鲜。",
+  "description": "枞菌是张家界山林里出的一种菌，松林边最多，秋天上市。它味道鲜，炒肉、做汤都好。过了季节就少，所以秋天来能吃上。是山里的时令货，鲜的比干的香。价格随季节浮动，以店内为准。",
+  "highlights": [
+    "松林边出的时令菌",
+    "秋天最多最鲜",
+    "炒肉做汤皆宜"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.463354,
+      "lat": 29.177995,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "湖南省张家界市永定区各餐馆",
+    "district": "永定区",
+    "transportTip": "市区餐馆秋季多有"
+  },
+  "practical": {
+    "openHours": "约10:00-21:00（秋季为佳）",
+    "openHoursRef": 0,
+    "ticket": "约50元/份起",
+    "ticketRef": 0,
+    "duration": "建议 60-90 分钟",
+    "durationMinutes": [
+      60,
+      90
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Gallet_fungus_%281%29.jpg/1280px-Gallet_fungus_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Gallet_fungus_%281%29.jpg/1280px-Gallet_fungus_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1080,
+      "alt": "Gallet fungus (1).jpg",
+      "query": "枞菌",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Fumikas Sagisavas",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gallet_fungus_(1).jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Gallet_fungus_%282%29.jpg/1280px-Gallet_fungus_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Gallet_fungus_%282%29.jpg/1280px-Gallet_fungus_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1080,
+      "alt": "Gallet fungus (2).jpg",
+      "query": "枞菌",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Fumikas Sagisavas",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gallet_fungus_(2).jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Termitomyces_microcarpus_137428.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Termitomyces_microcarpus_137428.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 810,
+      "alt": "Termitomyces microcarpus 137428.jpg",
+      "query": "枞菌",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Glen van Niekerk (primordius)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Termitomyces_microcarpus_137428.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "菌",
+    "时令",
+    "山货"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·枞菌",
+      "url": "https://baike.baidu.com/item/%E6%9E%9E%E8%8F%8C",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Zhangjiajie Mushroom",
+    "zh": "枞菌"
+  },
+  "district": "430802"
+}

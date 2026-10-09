@@ -1,0 +1,103 @@
+{
+  "id": "wudang-museum",
+  "name": "武当山博物馆",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "系统讲武当山历史、建筑与道教的博物馆，宫观之外的全景导览。",
+  "description": "武当山博物馆是系统了解这座神山的最佳入口，用文物、复原模型与图文，把武当山的历史脉络、明代皇家工程、古建筑工艺与道教文化串成一条线。馆里能看到建筑构件、道教造像、兵器与法器，也能通过模型看懂「九宫八观」的分布格局，是逛完金顶紫霄之后的知识回放。★ 博物馆多在山门配套区、常免费，建议上山前或下山后各看一次，理解会层层加深。",
+  "highlights": [
+    "武当全景",
+    "文物模型",
+    "建筑工艺",
+    "道教文化",
+    "免费"
+  ],
+  "location": {
+    "point": {
+      "lng": 111.082356,
+      "lat": 32.536896,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "十堰市丹江口市武当山特区博物馆",
+    "district": "丹江口",
+    "transportTip": "武当山特区乘公交或打车可达"
+  },
+  "practical": {
+    "openHours": "约 9:00-17:00（以现场为准）",
+    "openHoursRef": 0,
+    "ticket": "多免费（现场为准）",
+    "ticketRef": 0,
+    "duration": "建议 60-90 分钟",
+    "durationMinutes": [
+      60,
+      90
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "elders",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Wudanghshan-Xuanwu-in-Beijing-Capital-Museum-3796.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Wudanghshan-Xuanwu-in-Beijing-Capital-Museum-3796.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1251,
+      "alt": "Wudanghshan-Xuanwu-in-Beijing-Capital-Museum-3796.jpg",
+      "query": "武当山博物馆",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Vmenkov",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wudanghshan-Xuanwu-in-Beijing-Capital-Museum-3796.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/%E5%AE%8B%E6%97%AD_%E5%90%8D%E5%B1%B1%E5%9B%BE%E5%86%8C-%E6%AD%A6%E5%BD%93%E5%B1%B1.jpg/1280px-%E5%AE%8B%E6%97%AD_%E5%90%8D%E5%B1%B1%E5%9B%BE%E5%86%8C-%E6%AD%A6%E5%BD%93%E5%B1%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/%E5%AE%8B%E6%97%AD_%E5%90%8D%E5%B1%B1%E5%9B%BE%E5%86%8C-%E6%AD%A6%E5%BD%93%E5%B1%B1.jpg/1280px-%E5%AE%8B%E6%97%AD_%E5%90%8D%E5%B1%B1%E5%9B%BE%E5%86%8C-%E6%AD%A6%E5%BD%93%E5%B1%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 531,
+      "alt": "宋旭 名山图册-武当山.jpg",
+      "query": "武当山博物馆",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Song Xu",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AE%8B%E6%97%AD_%E5%90%8D%E5%B1%B1%E5%9B%BE%E5%86%8C-%E6%AD%A6%E5%BD%93%E5%B1%B1.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "博物馆",
+    "道教",
+    "建筑",
+    "武当山"
+  ],
+  "popularity": 67,
+  "sources": [
+    {
+      "title": "百度百科·武当山",
+      "url": "https://baike.baidu.com/item/%E6%AD%A6%E5%BD%93%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "武当山博物馆"
+  },
+  "_geocodeTitle": "武当山地质博物馆(武当太极湖国家级旅游度假区)",
+  "_geocodeSuspect": false,
+  "district": "420381"
+}

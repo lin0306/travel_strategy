@@ -1,0 +1,82 @@
+{
+  "id": "feichang-fen",
+  "name": "肥肠粉",
+  "category": "food",
+  "subtype": "local",
+  "summary": "红薯粉配肥肠，红油汤。",
+  "description": "肥肠粉是成都平原的招牌早点兼宵夜，红薯粉条在红油汤里烫熟，上面盖几块炖得软糯的肥肠，再撒芹菜和酥黄豆。都江堰的老店汤头熬得浓，肥肠处理得干净没异味，粉滑汤辣，一口接一口。标配是配个焦脆的锅盔掰着泡汤吃，是本地人戒不掉的咸香组合。怕腻的可以要清汤，但多半会后悔没点红油。",
+  "highlights": [
+    "红薯粉",
+    "软糯肥肠",
+    "红油汤头"
+  ],
+  "location": {
+    "point": {
+      "lng": 103.645426,
+      "lat": 30.846571,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "四川省成都市都江堰市城区及古城粉店",
+    "district": "都江堰",
+    "transportTip": "城区与古城内粉店"
+  },
+  "practical": {
+    "openHours": "约 06:30-20:00",
+    "openHoursRef": 0,
+    "ticket": "人均约 12-25 元",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
+      15,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Hot_and_sour_noodles_with_pork_intestines.jpg/1280px-Hot_and_sour_noodles_with_pork_intestines.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Hot_and_sour_noodles_with_pork_intestines.jpg/1280px-Hot_and_sour_noodles_with_pork_intestines.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Hot and sour noodles with pork intestines.jpg",
+      "query": "肥肠粉",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Jpatokal",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hot_and_sour_noodles_with_pork_intestines.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "小吃",
+    "粉",
+    "川味"
+  ],
+  "popularity": 79,
+  "sources": [
+    {
+      "title": "百度百科·肥肠粉",
+      "url": "https://baike.baidu.com/item/%E8%82%A5%E8%82%A0%E7%B2%89",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-06"
+    }
+  ],
+  "updatedAt": "2026-10-06",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "肥肠粉"
+  },
+  "_geocodeTitle": "肥肠粉",
+  "_geocodeSuspect": false,
+  "district": "510181"
+}

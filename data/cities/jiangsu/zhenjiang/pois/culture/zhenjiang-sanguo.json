@@ -1,0 +1,113 @@
+{
+  "id": "zhenjiang-sanguo",
+  "name": "镇江三国文化",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "孙吴京城与甘露寺招亲的故地。",
+  "description": "镇江在三国时是孙吴的京口与京城所在，铁瓮城是孙权修的建城之始，北固山甘露寺又因刘备招亲的演义而家喻户晓。辛弃疾在北固亭怀古的词，更把这里的江山与兴亡写进文学。想看三国如何从城址、山寺走进民间叙事，镇江是一处密集的现场。北固山、铁瓮城、多景楼可串成一条三国线。",
+  "highlights": [
+    "孙吴京口与铁瓮城",
+    "甘露寺刘备招亲",
+    "北固亭怀古词"
+  ],
+  "location": {
+    "point": {
+      "lng": 119.459156,
+      "lat": 32.213755,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "镇江市京口区北固山与铁瓮城",
+    "district": "京口区",
+    "transportTip": "北固山片区串联"
+  },
+  "practical": {
+    "openHours": "以景点时段为准",
+    "openHoursRef": 0,
+    "ticket": "以景点门票为准",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "elders",
+    "solo",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/29081704/pexels-photo-29081704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29081704/pexels-photo-29081704.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4608,
+      "alt": "Entrance to a traditional courtyard in Zhenjiang, showing local life and architecture.",
+      "query": "Chinese old town street zhenjiang",
+      "credit": {
+        "source": "pexels",
+        "author": "徐 春春",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-courtyard-entrance-in-zhenjiang-29081704/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34236794/pexels-photo-34236794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34236794/pexels-photo-34236794.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3270,
+      "height": 4362,
+      "alt": "Charming narrow alley in China adorned with red lanterns and cultural charm.",
+      "query": "Chinese old town street zhenjiang",
+      "credit": {
+        "source": "pexels",
+        "author": "Teresa Wang",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-alley-with-red-lanterns-34236794/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/35335469/pexels-photo-35335469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35335469/pexels-photo-35335469.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4637,
+      "height": 3603,
+      "alt": "Silhouetted figures walking through traditional Asian alley with red lanterns.",
+      "query": "Chinese old town street zhenjiang",
+      "credit": {
+        "source": "pexels",
+        "author": "女子 正真",
+        "sourceUrl": "https://www.pexels.com/photo/silhouette-of-people-in-historic-asian-alleyway-35335469/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "三国",
+    "孙吴",
+    "甘露寺"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "百度百科·北固山",
+      "url": "https://baike.baidu.com/item/%E5%8C%97%E5%9B%BA%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-05"
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "镇江三国文化"
+  },
+  "_geocodeTitle": "铁瓮城遗址",
+  "_geocodeSuspect": false,
+  "district": "321102"
+}

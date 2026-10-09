@@ -1,0 +1,118 @@
+{
+  "id": "changjiang-lu",
+  "name": "长江滨江风光带",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "北固山脚下的滨江绿带，落日与汽渡。",
+  "description": "长江滨江风光带在镇江北岸、从北固山到大港一带，是沿长江铺开的绿道与公园。这里可以看大江东去、对岸的扬州，傍晚的落日与晚霞格外好看。江边的汽渡依旧往返，是拍江景与城市轮廓的好地方。步道平整、适合散步和骑行，与北固山、西津渡连成一条看江线。",
+  "highlights": [
+    "北岸沿江绿道，看大江",
+    "落日与汽渡出片",
+    "散步骑行看城廓"
+  ],
+  "location": {
+    "point": {
+      "lng": 119.476136,
+      "lat": 32.23202,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "镇江市京口区长江路滨江",
+    "district": "京口区",
+    "transportTip": "公交滨江线；北固山步行可达",
+    "entrance": {
+      "lng": 119.476895,
+      "lat": 32.231977,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37080429/pexels-photo-37080429.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37080429/pexels-photo-37080429.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4080,
+      "height": 5440,
+      "alt": "A peaceful traditional Chinese house with a reflection on a calm lake.",
+      "query": "Chinese classical garden zhenjiang",
+      "credit": {
+        "source": "pexels",
+        "author": "Frank Lv",
+        "sourceUrl": "https://www.pexels.com/photo/serene-traditional-chinese-house-by-tranquil-lake-37080429/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7494074/pexels-photo-7494074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7494074/pexels-photo-7494074.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2832,
+      "height": 4256,
+      "alt": "View of historical Chinese architecture through a wooden door in Yichang, Hubei, China.",
+      "query": "Chinese classical garden zhenjiang",
+      "credit": {
+        "source": "pexels",
+        "author": "Leon Huang",
+        "sourceUrl": "https://www.pexels.com/photo/building-seen-from-door-7494074/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34538020/pexels-photo-34538020.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34538020/pexels-photo-34538020.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "Peaceful scene of a traditional Chinese garden with a weathered wall and lush greenery.",
+      "query": "Chinese classical garden zhenjiang",
+      "credit": {
+        "source": "pexels",
+        "author": "Madzery Ma",
+        "sourceUrl": "https://www.pexels.com/photo/tranquil-traditional-chinese-garden-wall-scene-34538020/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "滨江",
+    "落日",
+    "汽渡"
+  ],
+  "popularity": 68,
+  "sources": [
+    {
+      "title": "百度百科·镇江",
+      "url": "https://baike.baidu.com/item/%E9%95%87%E6%B1%9F",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-05"
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "长江滨江风光带"
+  },
+  "_geocodeTitle": "滨江风光带",
+  "_geocodeSuspect": false,
+  "district": "321102"
+}

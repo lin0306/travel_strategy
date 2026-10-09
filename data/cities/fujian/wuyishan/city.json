@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "wuyishan",
+  "name": "武夷山",
+  "province": "福建",
+  "adcode": "350782",
+  "provinceAdcode": "350000",
+  "tagline": "碧水丹山九曲溪，大红袍的故乡",
+  "intro": "武夷山在福建的北部，行政上归南平市，是个以旅游和茶闻名的县级市。这里最出名的，是那条绕着丹霞群峰转了九道弯的九曲溪，和溪边一座座拔地而起的红色山岩。它既是世界自然遗产，也是世界文化遗产，山里有岩茶、有古村、有朱熹讲过学的书院。下梅古村曾是万里茶路的起点，桐木关里出了正山小种红茶。它不大，却把山水、茶香和人文都收在了一起。",
+  "center": {
+    "lng": 118.035321,
+    "lat": 27.756422,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    117.6322,
+    27.4549,
+    118.3397,
+    28.0757
+  ],
+  "defaultZoom": 10,
+  "heroImages": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/20121029_Mount_Wuyi_01.jpg/1280px-20121029_Mount_Wuyi_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/20121029_Mount_Wuyi_01.jpg/1280px-20121029_Mount_Wuyi_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "20121029 Mount Wuyi 01.jpg",
+      "query": "武夷山",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Windmemories",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20121029_Mount_Wuyi_01.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/20121029_Mount_Wuyi_02.jpg/1280px-20121029_Mount_Wuyi_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/20121029_Mount_Wuyi_02.jpg/1280px-20121029_Mount_Wuyi_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "20121029 Mount Wuyi 02.jpg",
+      "query": "武夷山",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Windmemories",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20121029_Mount_Wuyi_02.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/20121030_Mount_Wuyi_01.jpg/1280px-20121030_Mount_Wuyi_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/20121030_Mount_Wuyi_01.jpg/1280px-20121030_Mount_Wuyi_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "20121030 Mount Wuyi 01.jpg",
+      "query": "武夷山",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Windmemories",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20121030_Mount_Wuyi_01.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "3-5 月（春茶采制、山色新绿、溪水丰沛）与 9-11 月（秋高气爽、丹霞色彩最浓）最佳；夏季 6-8 月多雨闷热但也是避暑旺季；冬季偏冷、部分山道湿滑",
+    "suggestedDays": "2-3 天（九曲溪竹筏 + 天游峰一天，岩茶古村与自然保护区一天，若进黄岗山或桐木关需再加）",
+    "transitTip": "武夷山有高铁站（武夷山北站 / 南平市站），从福州、厦门、上海、杭州都有动车直达，比飞机方便。景区集中在三姑度假区一带，打车或公交几分钟就到。九曲溪竹筏从星村码头出发，得提前预约时段。想走桐木关、黄岗山得包车，山路弯多。市区不大，住三姑最省心。",
+    "climateTip": "中亚热带湿润山地气候，温暖多雨。春夏多阵雨、湿度大；秋季最舒适；冬季偶有霜雪、高山区更冷。雨季溪水浑、山路滑，备好防滑鞋与雨具；夏季防晒防蚊。"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-06"
+  },
+  "updatedAt": "2026-10-06"
+}

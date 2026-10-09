@@ -1,0 +1,118 @@
+{
+  "id": "datong-forest",
+  "name": "大通国家森林公园",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "大通的林海与峡谷，松涛、溪流加高山草甸，是西宁最近的深绿。",
+  "description": "大通国家森林公园在大通回族土族自治县，是西宁周边最大的一片绿。云杉林海、峡谷溪流和高山草甸叠在一起，空气里都是松味。夏天是天然空调，秋天林子换色像打翻了调色盘。里头分几个景区，徒步和自驾都行，但要留足时间。海拔高，别刚到就猛走；带干粮和水，山里补给少。",
+  "highlights": [
+    "大通最大一片绿云杉林海峡谷",
+    "夏天天然空调秋天打翻调色盘",
+    "海拔高别猛走补给少带干粮"
+  ],
+  "location": {
+    "point": {
+      "lng": 101.843605,
+      "lat": 37.035584,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "青海省西宁市大通回族土族自治县大通国家森林公园",
+    "district": "大通回族土族自治县",
+    "transportTip": "西宁乘班车或自驾到大通进山",
+    "entrance": {
+      "lng": 101.822904,
+      "lat": 37.042307,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:00-18:00，以景区公告为准",
+    "openHoursRef": 0,
+    "ticket": "约30元（以官方为准）",
+    "ticketRef": 0,
+    "duration": "建议 180-300 分钟",
+    "durationMinutes": [
+      180,
+      300
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/34630868/pexels-photo-34630868.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34630868/pexels-photo-34630868.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 2268,
+      "alt": "A tranquil view of Qinghai Lake with a sailboat and snow-capped mountains in the distance under a clear blue sky.",
+      "query": "natural landscape China xining",
+      "credit": {
+        "source": "pexels",
+        "author": "Duoyu_ Wang",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-aerial-view-of-qinghai-lake-and-snow-capped-mountains-34630868/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/28700646/pexels-photo-28700646.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/28700646/pexels-photo-28700646.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5184,
+      "height": 3888,
+      "alt": "Beautiful landscape of lush grasslands and mountain ranges in Xinjiang, under cloudy skies.",
+      "query": "natural landscape China xining",
+      "credit": {
+        "source": "pexels",
+        "author": "Rain Lü",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-xinjiang-grasslands-with-mountains-28700646/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/28700662/pexels-photo-28700662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/28700662/pexels-photo-28700662.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3888,
+      "height": 5184,
+      "alt": "A winding road cutting through lush grasslands under a cloudy sky in Xinjiang, China.",
+      "query": "natural landscape China xining",
+      "credit": {
+        "source": "pexels",
+        "author": "Rain Lü",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-road-through-xinjiang-grasslands-28700662/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "森林公园",
+    "徒步",
+    "避暑"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "大通国家森林公园·百度百科",
+      "url": "https://baike.baidu.com/item/%E5%A4%A7%E9%80%9A%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "大通国家森林公园"
+  },
+  "_geocodeTitle": "青海大通鹞子沟国家森林公园",
+  "_geocodeSuspect": false,
+  "district": "630121"
+}

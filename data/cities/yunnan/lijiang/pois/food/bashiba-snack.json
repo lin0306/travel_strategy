@@ -1,0 +1,114 @@
+{
+  "id": "bashiba-snack",
+  "name": "88号小吃店",
+  "category": "food",
+  "subtype": "local",
+  "summary": "古城五一街上的一家小馆，做的是地道纳西家常菜，地址就是门牌号。",
+  "description": "这家在古城五一街兴仁上段八十八号，名字直接用的门牌号。做的是纳西家常菜 ——不是为游客调整的口味，是本地人自己吃的那一桌：鸡豆凉粉、纳西烤肉、松茸或当季的菌、炒水性杨花（一种长在水里的野菜，名字很怪、口感滑）、以及腊排骨之类。菜量不大，可以多点几样，两三个人吃四五个菜正好。人均便宜。店小，桌子挤，饭点要等，翻台快。它在五一街靠北那一段，比主街安静，逛到这边正好吃。想吃纳西家常而不是游客菜单，这里是常被提起的一家。",
+  "highlights": [
+    "做的是纳西家常菜，不是为游客调整过的口味",
+    "菜量不大可以多点点几样，两三人四五个菜",
+    "店小桌子挤，饭点要等但翻台快"
+  ],
+  "location": {
+    "point": {
+      "lng": 100.23704,
+      "lat": 26.87266,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "云南省丽江市古城区五一街兴仁上段88号",
+    "district": "古城区",
+    "transportTip": "古城内步行；从四方街往东北约十分钟"
+  },
+  "practical": {
+    "openHours": "约10:30-21:30，以门店公告为准",
+    "openHoursRef": 0,
+    "ticket": "人均便宜",
+    "ticketRef": 0,
+    "duration": "建议 50-90 分钟",
+    "durationMinutes": [
+      50,
+      90
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "friends",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/39389633/pexels-photo-39389633.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39389633/pexels-photo-39389633.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 6048,
+      "alt": "Interior of a cozy Chinese dining room with red tablecloths and natural light.",
+      "query": "Chinese restaurant interior lijiang",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-chinese-dining-room-interior-with-round-tables-39389633/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33965578/pexels-photo-33965578.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33965578/pexels-photo-33965578.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 6817,
+      "height": 4547,
+      "alt": "Cozy traditional Chinese tea house interior with warm lighting in Chengdu, Sichuan.",
+      "query": "Chinese restaurant interior lijiang",
+      "credit": {
+        "source": "pexels",
+        "author": "Vincent Tan",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-tea-house-interior-lighting-33965578/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37948081/pexels-photo-37948081.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37948081/pexels-photo-37948081.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 6048,
+      "alt": "A vibrant street scene with traditional Chinese architecture in a bustling town center.",
+      "query": "Chinese restaurant interior lijiang",
+      "credit": {
+        "source": "pexels",
+        "author": "Liuuu _61",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-architecture-in-bustling-street-37948081/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "纳西菜",
+    "家常",
+    "小馆"
+  ],
+  "popularity": 82,
+  "sources": [
+    {
+      "title": "百度百科·纳西族",
+      "url": "https://baike.baidu.com/item/%E7%BA%B3%E8%A5%BF%E6%97%8F",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "88号小吃店"
+  },
+  "_geocodeTitle": "五一街兴仁上段88号",
+  "_geocodeSuspect": false,
+  "coordSystem": "GCJ-02",
+  "district": "530702"
+}

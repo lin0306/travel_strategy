@@ -1,0 +1,114 @@
+{
+  "id": "yimin-park",
+  "name": "伊敏河湿地公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "穿海拉尔而过的河，城市绿带与冬泳。",
+  "description": "伊敏河从海拉尔城区穿过，是这座城市的母亲河，岸边建成了连续的湿地公园和步道。河边的绿带是本地人散步、跑步、骑行的地方，冬季还有冬泳和冰上活动。它与成吉思汗广场、两河圣山连成海拉尔的休闲轴。免费、好走，是到达海拉尔后放松的第一站。",
+  "highlights": [
+    "穿城而过的母亲河",
+    "连续湿地步道绿带",
+    "本地人散步骑行地"
+  ],
+  "location": {
+    "point": {
+      "lng": 119.75763,
+      "lat": 49.218016,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "呼伦贝尔市海拉尔区伊敏河湿地公园",
+    "district": "海拉尔区",
+    "transportTip": "海拉尔区公交或步行可达"
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "friends",
+    "solo",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/39154249/pexels-photo-39154249.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39154249/pexels-photo-39154249.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5472,
+      "height": 3648,
+      "alt": "Entrance of a traditional Chinese garden adorned with vibrant flowers and red lanterns.",
+      "query": "Chinese classical garden hulunbeier",
+      "credit": {
+        "source": "pexels",
+        "author": "mingche lee",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-garden-entrance-with-lanterns-39154249/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7582615/pexels-photo-7582615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7582615/pexels-photo-7582615.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 9504,
+      "height": 6336,
+      "alt": "Beautiful autumn reflection of traditional Chinese pavilions in a serene garden pond in Suzhou.",
+      "query": "Chinese classical garden hulunbeier",
+      "credit": {
+        "source": "pexels",
+        "author": "zhang kaiyv",
+        "sourceUrl": "https://www.pexels.com/photo/pond-and-pavilions-in-the-garden-of-cultivation-in-suzhou-china-7582615/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37320643/pexels-photo-37320643.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37320643/pexels-photo-37320643.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3000,
+      "height": 4000,
+      "alt": "Serene Chinese pavilion surrounded by vibrant spring foliage in Nanchino, China.",
+      "query": "Chinese classical garden hulunbeier",
+      "credit": {
+        "source": "pexels",
+        "author": "Jessica Sacco",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-pavilion-in-lush-spring-garden-37320643/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湿地公园",
+    "城市绿带",
+    "母亲河"
+  ],
+  "popularity": 66,
+  "sources": [
+    {
+      "title": "百度百科·伊敏河",
+      "url": "https://baike.baidu.com/item/%E4%BC%8A%E6%95%8F%E6%B2%B3",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-05"
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "伊敏河湿地公园"
+  },
+  "_geocodeTitle": "伊敏河公园",
+  "_geocodeSuspect": false,
+  "district": "150702"
+}

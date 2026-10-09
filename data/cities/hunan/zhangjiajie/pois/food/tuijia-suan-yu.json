@@ -1,0 +1,111 @@
+{
+  "id": "tuijia-suan-yu",
+  "name": "土家酸鱼",
+  "category": "food",
+  "subtype": "local",
+  "summary": "土家做法的酸鱼，鱼肉发酵出酸香，和别处的酸菜鱼不一样。",
+  "description": "土家酸鱼是本地的一种做法。鱼用盐和米粉腌过，微微发酵出酸香，再煮。它和别处的酸菜鱼不一样，酸得更厚。鱼鲜，汤能泡饭。口味偏重，不吃酸的人先问清楚。配碗米饭或米粉刚好。",
+  "highlights": [
+    "土家腌发酵酸鱼",
+    "酸香比酸菜鱼更厚",
+    "鱼鲜汤可泡饭"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.463354,
+      "lat": 29.177995,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "湖南省张家界市永定区各餐馆",
+    "district": "永定区",
+    "transportTip": "市区餐馆均有"
+  },
+  "practical": {
+    "openHours": "约10:00-21:00",
+    "openHoursRef": 0,
+    "ticket": "约50元/份起",
+    "ticketRef": 0,
+    "duration": "建议 60-90 分钟",
+    "durationMinutes": [
+      60,
+      90
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/36694551/pexels-photo-36694551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36694551/pexels-photo-36694551.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6720,
+      "height": 4263,
+      "alt": "Crispy fried fish served on a white plate with a vibrant sweet and sour sauce and green garnish.",
+      "query": "Tujia Sour Fish",
+      "credit": {
+        "source": "pexels",
+        "author": "Change C.C",
+        "sourceUrl": "https://www.pexels.com/photo/crispy-fish-in-sweet-and-sour-sauce-on-elegant-plate-36694551/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/20089276/pexels-photo-20089276.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/20089276/pexels-photo-20089276.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "Four fried fish served on a white plate with floral tablecloth. Perfect for food lovers.",
+      "query": "Tujia Sour Fish",
+      "credit": {
+        "source": "pexels",
+        "author": "Nothing Ahead",
+        "sourceUrl": "https://www.pexels.com/photo/fried-fish-with-sour-cream-20089276/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/19141519/pexels-photo-19141519.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/19141519/pexels-photo-19141519.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4480,
+      "height": 6720,
+      "alt": "Close-up of traditional Asian dishes with chopsticks highlighting the vibrant ingredients.",
+      "query": "Tujia Sour Fish",
+      "credit": {
+        "source": "pexels",
+        "author": "Thu Huynh",
+        "sourceUrl": "https://www.pexels.com/photo/hand-with-chopsticks-19141519/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "酸鱼",
+    "土家",
+    "发酵"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "百度百科·张家界",
+      "url": "https://baike.baidu.com/item/%E5%BC%A0%E5%AE%B6%E7%95%8C",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Tujia Sour Fish",
+    "zh": "土家酸鱼"
+  },
+  "district": "430802"
+}

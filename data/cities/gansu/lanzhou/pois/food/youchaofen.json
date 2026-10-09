@@ -1,0 +1,112 @@
+{
+  "id": "youchaofen",
+  "name": "油炒粉",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "豌豆粉条油炒勾芡，焦香软糯的街头小吃。",
+  "description": "油炒粉用豌豆粉条下锅油炒勾芡，炒到边缘起焦。盛碗淋辣油、醋、蒜，外焦里糯，咸辣开胃。是兰州老式街头小吃，夜市能见。小碗几元，以摊主为准。趁热吃口感最好，凉了发硬。和酿皮搭着点不重样。",
+  "highlights": [
+    "豌豆粉条油炒勾芡",
+    "外焦里糯咸辣开胃",
+    "趁热吃口感最佳"
+  ],
+  "location": {
+    "point": {
+      "lng": 103.863663,
+      "lat": 36.059366,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "甘肃省兰州市城关区油炒粉摊",
+    "district": "城关区",
+    "transportTip": "城关区夜市或小吃街即买即吃"
+  },
+  "practical": {
+    "openHours": "以摊主出摊为准",
+    "openHoursRef": 0,
+    "ticket": "约 6 元起，以摊主为准",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
+      15,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38878148/pexels-photo-38878148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38878148/pexels-photo-38878148.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4592,
+      "height": 3448,
+      "alt": "Delicious crispy potato wedges in a bowl. Perfect for snack lovers.",
+      "query": "Oil-fried Starch Jelly",
+      "credit": {
+        "source": "pexels",
+        "author": "Lena Netkach",
+        "sourceUrl": "https://www.pexels.com/photo/close-up-of-crispy-potato-wedges-38878148/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/17327827/pexels-photo-17327827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/17327827/pexels-photo-17327827.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Close-up of golden donuts frying in oil, creating bubbles and texture in a French bakery.",
+      "query": "Oil-fried Starch Jelly",
+      "credit": {
+        "source": "pexels",
+        "author": "Jullnars",
+        "sourceUrl": "https://www.pexels.com/photo/donuts-frying-in-oil-17327827/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37087029/pexels-photo-37087029.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37087029/pexels-photo-37087029.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "Hot and crispy empanadas being fried to perfection in a pan filled with oil.",
+      "query": "Oil-fried Starch Jelly",
+      "credit": {
+        "source": "pexels",
+        "author": "Eduard Perez",
+        "sourceUrl": "https://www.pexels.com/photo/close-up-of-fried-empanadas-in-oil-37087029/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "炒粉",
+    "小吃",
+    "街头"
+  ],
+  "popularity": 52,
+  "sources": [
+    {
+      "title": "油炒粉·百度百科",
+      "url": "https://baike.baidu.com/item/%E6%B2%B9%E7%82%92%E7%B2%89",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Oil-fried Starch Jelly",
+    "zh": "油炒粉"
+  },
+  "_geocodeTitle": "百味炒粉店",
+  "_geocodeSuspect": false,
+  "district": "620102"
+}

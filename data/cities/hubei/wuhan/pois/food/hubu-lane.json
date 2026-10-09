@@ -1,0 +1,113 @@
+{
+  "id": "hubu-lane",
+  "name": "户部巷小吃街",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "一条两百多米的小巷，武汉的小吃在这里密度最高。",
+  "description": "户部巷在武昌，靠近黄鹤楼与民主路一带，是一条很短的老巷子，现在成了小吃街。密度是它的全部：热干面、面窝、豆皮、糊汤粉、烤串在同一条路上都能买到。它的名声很大，商业化程度也很高——这里的东西不一定比别处好吃。合理的用法是：看完黄鹤楼顺路下来，每样尝一点，不要指望吃到最好的那一版。早上和中午人最多。",
+  "highlights": [
+    "两百多米的小巷塞满了各类小吃",
+    "紧邻黄鹤楼，顺路最合适",
+    "商业化重，别指望是最地道的一版"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.299428,
+      "lat": 30.547851,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "武汉市武昌区户部巷",
+    "district": "武昌区",
+    "transportTip": "地铁4号线首义路站/黄鹤楼站步行"
+  },
+  "practical": {
+    "openHours": "约06:30-21:00（店铺各有差异）",
+    "openHoursRef": 0,
+    "ticket": "人均约30元，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "solo",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/27238146/pexels-photo-27238146.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27238146/pexels-photo-27238146.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3466,
+      "height": 2598,
+      "alt": "A bowl of traditional Wuhan noodles garnished with vegetables, served with wooden chopsticks.",
+      "query": "Chinese street food dish wuhan",
+      "credit": {
+        "source": "pexels",
+        "author": "颖 徐",
+        "sourceUrl": "https://www.pexels.com/photo/re-gan-mian-wuhan-27238146/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/29305560/pexels-photo-29305560.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29305560/pexels-photo-29305560.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 3024,
+      "alt": "Delicious spicy beef noodle soup topped with fresh cilantro in a white bowl.",
+      "query": "Chinese street food dish wuhan",
+      "credit": {
+        "source": "pexels",
+        "author": "颖 徐",
+        "sourceUrl": "https://www.pexels.com/photo/spicy-beef-noodle-soup-with-herbs-in-a-bowl-29305560/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/29305974/pexels-photo-29305974.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29305974/pexels-photo-29305974.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 3024,
+      "alt": "Traditional spicy fish dish served with colorful peppers in a white bowl.",
+      "query": "Chinese street food dish wuhan",
+      "credit": {
+        "source": "pexels",
+        "author": "颖 徐",
+        "sourceUrl": "https://www.pexels.com/photo/delicious-spicy-fish-dish-in-chinese-cuisine-29305974/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "小吃街",
+    "过早",
+    "必去"
+  ],
+  "popularity": 86,
+  "sources": [
+    {
+      "title": "百度百科·户部巷",
+      "url": "https://baike.baidu.com/item/%E6%88%B7%E9%83%A8%E5%B7%B7",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-23"
+    }
+  ],
+  "updatedAt": "2026-09-23",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "户部巷小吃街"
+  },
+  "_geocodeTitle": "户部巷小吃一条街",
+  "_geocodeSuspect": false,
+  "district": "420106"
+}

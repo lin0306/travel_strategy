@@ -1,0 +1,89 @@
+{
+  "id": "shiyan-hu",
+  "name": "石燕湖",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "长沙县东南的水库景区，湖面开阔，园里有玻璃桥与游乐项目。",
+  "description": "石燕湖在长沙县跳马镇，是一片丘陵间的水库，水面沿山谷弯进去，岸线比看上去长。景区的玩法分成两半：一半是湖，可以坐游船、走环湖栈道；另一半是山，有跨谷的玻璃桥、丛林穿越与滑道，带小孩的一般是冲这些来的。园里还有动物表演与一片小型的动物区，具体开放项目以现场公告为准。湖边有一片沙滩和烧烤场，公司团建常年包这里。门票是套票制，不同项目组合价格不同，以官方为准。它离市区三十公里上下，自驾最方便，没有直达地铁。",
+  "highlights": [
+    "丘陵间的水库，岸线沿山谷延伸",
+    "有跨谷玻璃桥、丛林穿越与滑道",
+    "湖边有沙滩与烧烤场，团建常包场"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.087711,
+      "lat": 28.009201,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "湖南省长沙县跳马镇（石燕湖生态旅游景区）",
+    "district": "雨花区",
+    "transportTip": "长沙市区自驾约一小时；或在汽车南站乘往跳马方向的班车",
+    "entrance": {
+      "lng": 113.08512,
+      "lat": 28.0145,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:30-17:00，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "套票制，各项目价格以官方公告为准，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 150-300 分钟",
+    "durationMinutes": [
+      150,
+      300
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "friends",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Stele_in_Zhaoshan_Temple%2C_14_March_2021I.jpg/1280px-Stele_in_Zhaoshan_Temple%2C_14_March_2021I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Stele_in_Zhaoshan_Temple%2C_14_March_2021I.jpg/1280px-Stele_in_Zhaoshan_Temple%2C_14_March_2021I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Stele in Zhaoshan Temple, 14 March 2021I.jpg",
+      "query": "natural landscape China changsha",
+      "credit": {
+        "source": "wikimedia",
+        "author": "曹孟其",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stele_in_Zhaoshan_Temple,_14_March_2021I.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "水库",
+    "玻璃桥",
+    "游乐"
+  ],
+  "popularity": 73,
+  "sources": [
+    {
+      "title": "百度百科·石燕湖",
+      "url": "https://baike.baidu.com/item/%E7%9F%B3%E7%87%95%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-28"
+    }
+  ],
+  "updatedAt": "2026-09-28",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "石燕湖"
+  },
+  "_geocodeTitle": "长沙石燕湖生态旅游景区",
+  "_geocodeSuspect": false,
+  "district": "430111"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "laojie-chaguan",
+  "name": "昆明老街茶馆",
+  "category": "food",
+  "subtype": "cafe",
+  "summary": "老街片区里喝盖碗茶的地方，一壶茶坐一下午是本地的过法。",
+  "description": "昆明老街那一片有几处喝盖碗茶的院子，摆着竹椅、方桌与一把铁壶，本地人一坐就是一下午。喝的多是普洱与滇红，按壶或按杯点，续水随便，价格不高。茶是云南产的东西，这一带离产地近，日常喝的与带走的是同一批。院子里有树，天好的时候光斑落在桌上。来这儿的多是附近的老人与逛累了歇脚的人，节奏慢。它在文明街与南强街那一带，与老街的其他店连着走。",
+  "highlights": [
+    "老街院里的盖碗茶，竹椅方桌配一把铁壶",
+    "喝的多是普洱与滇红，续水随便",
+    "来这儿多是附近老人与歇脚的人"
+  ],
+  "location": {
+    "point": {
+      "lng": 102.708813,
+      "lat": 25.038486,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "云南省昆明市五华区文明街（昆明老街一带）",
+    "district": "五华区",
+    "transportTip": "地铁5号线至五一路站一带，步行约八分钟"
+  },
+  "practical": {
+    "openHours": "约09:00-21:00（各店不同），以现场为准",
+    "openHoursRef": 0,
+    "ticket": "人均约30元起，以实际消费为准",
+    "ticketRef": 0,
+    "duration": "建议 45-120 分钟",
+    "durationMinutes": [
+      45,
+      120
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "elders",
+    "solo",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/36911707/pexels-photo-36911707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36911707/pexels-photo-36911707.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3871,
+      "height": 5808,
+      "alt": "Outdoor cafe scene in Kunming, Yunnan with people enjoying a sunny day.",
+      "query": "cafe interior kunming",
+      "credit": {
+        "source": "pexels",
+        "author": "xiaoxian",
+        "sourceUrl": "https://www.pexels.com/photo/charming-street-scene-in-kunming-china-36911707/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39696918/pexels-photo-39696918.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39696918/pexels-photo-39696918.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3512,
+      "height": 6240,
+      "alt": "Cozy café with outdoor seating under trees on a sunny day, offering a relaxing urban retreat.",
+      "query": "cafe interior kunming",
+      "credit": {
+        "source": "pexels",
+        "author": "River He",
+        "sourceUrl": "https://www.pexels.com/photo/charming-outdoor-cafe-in-dappled-sunlight-39696918/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39696900/pexels-photo-39696900.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39696900/pexels-photo-39696900.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3432,
+      "height": 6098,
+      "alt": "Sunlit corridor with a circular geometric archway leading to a curtain backdrop.",
+      "query": "cafe interior kunming",
+      "credit": {
+        "source": "pexels",
+        "author": "River He",
+        "sourceUrl": "https://www.pexels.com/photo/beautiful-architectural-corridor-with-modern-design-39696900/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "茶馆",
+    "普洱",
+    "老街"
+  ],
+  "popularity": 71,
+  "sources": [
+    {
+      "title": "百度百科·盖碗茶",
+      "url": "https://baike.baidu.com/item/%E7%9B%96%E7%A2%97%E8%8C%B6",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-28"
+    }
+  ],
+  "updatedAt": "2026-09-28",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "昆明老街茶馆"
+  },
+  "_geocodeTitle": "文明街",
+  "district": "530102"
+}

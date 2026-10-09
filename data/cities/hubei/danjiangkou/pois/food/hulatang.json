@@ -1,0 +1,117 @@
+{
+  "id": "hulatang",
+  "name": "均州糊辣汤",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "均州传下的早餐汤，稠糊鲜辣、配料杂陈，一碗唤醒清晨的胃。",
+  "description": "糊辣汤是均州（丹江口旧称）一脉的早餐汤，和河南胡辣汤同源又带本地脾气：以骨汤打底、勾薄芡成糊，放进面筋、木耳、黄花、豆腐丝、花生等杂料，用胡椒与辣椒吊出鲜辣。稠稠一碗、热气腾腾，配油条或烧饼最地道，是本地人开启一天的标配。★ 偏辣偏稠，清淡口提前说少辣；早餐摊早起最新鲜，去晚了可能卖完。",
+  "highlights": [
+    "均州早餐",
+    "鲜辣稠糊",
+    "配料杂陈",
+    "配油条",
+    "清晨"
+  ],
+  "location": {
+    "point": {
+      "lng": 111.513318,
+      "lat": 32.540287,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "丹江口市区早餐店",
+    "district": "丹江口",
+    "transportTip": "市区步行或打车至老城早餐街"
+  },
+  "practical": {
+    "openHours": "清晨至上午",
+    "openHoursRef": 0,
+    "ticket": "按碗消费",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
+      15,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4240,
+      "height": 2832,
+      "alt": "A bustling street food stall offering traditional dishes to a customer in stylish winter attire.",
+      "query": "Chinese street food dish danjiangkou",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6440090/pexels-photo-6440090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6440090/pexels-photo-6440090.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4856,
+      "height": 3237,
+      "alt": "Close-up of delicious Chinese street food in a paper bowl held by a hand, featuring seasoned fried potatoes.",
+      "query": "Chinese street food dish danjiangkou",
+      "credit": {
+        "source": "pexels",
+        "author": "Mackenzie Ryder",
+        "sourceUrl": "https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3032,
+      "height": 3923,
+      "alt": "Browse a bustling Shenzhen food stall with diverse Asian meals and colorful bowls, embodying Chinese culinary culture.",
+      "query": "Chinese street food dish danjiangkou",
+      "credit": {
+        "source": "pexels",
+        "author": "Jaime Hernandez Erives",
+        "sourceUrl": "https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "糊辣汤",
+    "早餐",
+    "小吃",
+    "均州"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "百度百科·胡辣汤",
+      "url": "https://baike.baidu.com/item/%E8%83%A1%E8%BE%A3%E6%B1%A4",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "均州糊辣汤"
+  },
+  "_geocodeTitle": "丹江口市",
+  "_geocodeSuspect": false,
+  "district": "420381"
+}

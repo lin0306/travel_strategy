@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "huhehaote",
+  "name": "呼和浩特",
+  "province": "内蒙古",
+  "adcode": "150100",
+  "provinceAdcode": "150000",
+  "tagline": "青色的城，召庙的钟声与草原的风只隔半小时车程",
+  "intro": "呼和浩特在内蒙古中部，北面横着大青山，南面是开阔的土默川平原，黄河从市域西南的托克托、清水河一带流过，所以这座城既靠着山，也挨着河。它是自治区的首府，蒙语名字的意思是青色的城，老城就围着大召寺那一片摊开。城里召庙挨着召庙，红墙金顶之间夹着烧麦馆和焙子铺，清晨的咸奶茶味一直飘到巷口。往北半小时是敕勒川的草场，往南一小时是哈素海的芦苇与黄河的峡谷。它是草原与中原交汇的地方，值得留三到四天慢慢走。",
+  "center": {
+    "lng": 111.5045,
+    "lat": 40.5927,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    110.5192,
+    39.5889,
+    112.3103,
+    41.3872
+  ],
+  "defaultZoom": 9,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/38031563/pexels-photo-38031563.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38031563/pexels-photo-38031563.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4284,
+      "height": 5712,
+      "alt": "Aerial view of high-rise buildings in Tianjin, China with blue sky and clouds.",
+      "query": "呼和浩特 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Shuaizhi Tian",
+        "sourceUrl": "https://www.pexels.com/photo/modern-high-rise-buildings-in-tianjin-china-38031563/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/13395574/pexels-photo-13395574.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/13395574/pexels-photo-13395574.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "A modern city skyline featuring skyscrapers against a clear blue sky, showcasing urban architecture.",
+      "query": "呼和浩特 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Zhengdong Hu",
+        "sourceUrl": "https://www.pexels.com/photo/high-rise-buildings-in-a-city-under-blue-sky-13395574/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/15906464/pexels-photo-15906464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/15906464/pexels-photo-15906464.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Beautiful urban skyline at dusk, reflecting on calm water with vibrant city lights.",
+      "query": "呼和浩特 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "He Zhang",
+        "sourceUrl": "https://www.pexels.com/photo/buildings-in-the-light-of-the-sunset-15906464/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "六到九月最舒服，草原绿、湖面开；冬天干冷，大青山有雪景",
+    "suggestedDays": "三到四天。老城召庙与博物院一天，敕勒川草原一天，哈素海或黄河峡谷一天",
+    "transitTip": "白塔机场和高铁呼和浩特东站都通，市内两条地铁，去旗县建议自驾或包车",
+    "climateTip": "温带大陆性气候，昼夜温差大，夏天也要备外套，冬天干冷风大，防晒保湿都要做"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-03"
+  },
+  "updatedAt": "2026-10-03"
+}

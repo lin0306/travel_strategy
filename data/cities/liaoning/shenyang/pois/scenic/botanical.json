@@ -1,0 +1,119 @@
+{
+  "id": "botanical",
+  "name": "沈阳植物园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "市内大植物园，温室和专类园多，四季有景。",
+  "description": "沈阳植物园是市内一座大植物园。温室、专类园分区，春有郁金香、夏有荷花、秋有菊。它和世博园相邻，可以串着看。带小孩认植物挺好。园子大，留半天。穿舒服的鞋，路多台阶。",
+  "highlights": [
+    "市内大植物园",
+    "温室专类园四季景",
+    "与世博园相邻带娃认植"
+  ],
+  "location": {
+    "point": {
+      "lng": 123.6481,
+      "lat": 41.864101,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省沈阳市浑南区双园路301号沈阳植物园",
+    "district": "浑南区",
+    "transportTip": "市区乘车到植物园",
+    "entrance": {
+      "lng": 123.638162,
+      "lat": 41.856367,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:30-17:00，以公告为准",
+    "openHoursRef": 0,
+    "ticket": "约50元（以官方为准）",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "elders",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/24186299/pexels-photo-24186299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/24186299/pexels-photo-24186299.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5184,
+      "height": 3888,
+      "alt": "A traditional Chinese pavilion with a reflection in water at Shenyang, Liaoning, China.",
+      "query": "Shenyang Botanical Garden",
+      "credit": {
+        "source": "pexels",
+        "author": "Teysa Tugadi",
+        "sourceUrl": "https://www.pexels.com/photo/dome-of-temple-in-beijing-24186299/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32047883/pexels-photo-32047883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32047883/pexels-photo-32047883.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5504,
+      "height": 8256,
+      "alt": "A close-up of vibrant green leaves illuminated by sunlight in Shenyang, China.",
+      "query": "Shenyang Botanical Garden",
+      "credit": {
+        "source": "pexels",
+        "author": "Pin Wang",
+        "sourceUrl": "https://www.pexels.com/photo/vibrant-green-leaves-in-sunlight-32047883/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37039394/pexels-photo-37039394.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37039394/pexels-photo-37039394.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Beautiful spring garden scene with vivid foliage and a teal pavilion in Qingdao, Shandong, China.",
+      "query": "Shenyang Botanical Garden",
+      "credit": {
+        "source": "pexels",
+        "author": "Duncan Wang",
+        "sourceUrl": "https://www.pexels.com/photo/serene-garden-in-qingdao-during-springtime-37039394/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "植物园",
+    "温室",
+    "四季"
+  ],
+  "popularity": 62,
+  "sources": [
+    {
+      "title": "百度百科·沈阳植物园",
+      "url": "https://baike.baidu.com/item/%E6%B2%88%E9%98%B3%E6%A4%8D%E7%89%A9%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Shenyang Botanical Garden",
+    "zh": "沈阳植物园"
+  },
+  "_geocodeTitle": "沈阳植物园(沈阳世博园)",
+  "_geocodeSuspect": false,
+  "district": "210112"
+}

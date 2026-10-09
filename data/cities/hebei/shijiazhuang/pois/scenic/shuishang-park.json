@@ -1,0 +1,113 @@
+{
+  "id": "shuishang-park",
+  "name": "水上公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "新华区的水景公园，划船与湖心岛。",
+  "description": "水上公园在新华区，是石家庄西北一片以水景为主的大公园，有湖、湖心岛和一片游乐设施，是城北居民遛娃的主要空间。它比南边公园更靠北、更市井。免费、开阔，适合住在城北时顺路。",
+  "highlights": [
+    "新华区水景大公园，湖心岛",
+    "游乐设施，城北遛娃地",
+    "免费，更市井"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.457337,
+      "lat": 38.076658,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "石家庄市新华区水上公园",
+    "district": "新华区",
+    "transportTip": "市区乘公交或打车至水上公园"
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/9972372/pexels-photo-9972372.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/9972372/pexels-photo-9972372.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2249,
+      "height": 3373,
+      "alt": "Explore the historic Lingxiao Pagoda surrounded by vibrant greenery in Shijiazhuang, China.",
+      "query": "Chinese classical garden shijiazhuang",
+      "credit": {
+        "source": "pexels",
+        "author": "Lan Yao",
+        "sourceUrl": "https://www.pexels.com/photo/lingxiao-pagoda-in-china-9972372/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "Tranquil view of a traditional Chinese garden featuring a vibrant red lantern.",
+      "query": "Chinese classical garden shijiazhuang",
+      "credit": {
+        "source": "pexels",
+        "author": "Lily  Lili",
+        "sourceUrl": "https://www.pexels.com/photo/serene-chinese-garden-with-red-lantern-31956319/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/20516034/pexels-photo-20516034.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/20516034/pexels-photo-20516034.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "A picturesque pavilion reflects in a calm pond, capturing the essence of a traditional Chinese garden.",
+      "query": "Chinese classical garden shijiazhuang",
+      "credit": {
+        "source": "pexels",
+        "author": "极星 贝",
+        "sourceUrl": "https://www.pexels.com/photo/pavilion-at-the-centennial-famous-garden-in-wuxi-20516034/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "公园",
+    "水景",
+    "免费"
+  ],
+  "popularity": 54,
+  "sources": [
+    {
+      "title": "百度百科·石家庄水上公园",
+      "url": "https://baike.baidu.com/item/%E7%9F%B3%E5%AE%B6%E5%BA%84%E6%B0%B4%E4%B8%8A%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "水上公园"
+  },
+  "_geocodeTitle": "水上公园",
+  "_geocodeSuspect": false,
+  "district": "130105"
+}

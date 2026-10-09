@@ -1,0 +1,113 @@
+{
+  "id": "lushan-wenhua",
+  "name": "庐山世界文化景观",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "自然与人文双遗产的山水精神。",
+  "description": "庐山是世界文化景观，自然奇秀与人文积淀并重——自魏晋到近现代，陶渊明、李白、白居易、苏轼、朱熹直至近代政要文人都在此留下印记。它既是避暑山城，也是中国山水文化的重要现场。游庐山就是在读一部山水人文史。无需门票也能感受街区与诗文。",
+  "highlights": [
+    "世界文化景观",
+    "山水人文并重",
+    "千年题咏"
+  ],
+  "location": {
+    "point": {
+      "lng": 116.044696,
+      "lat": 29.448007,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "九江市庐山市",
+    "district": "庐山市",
+    "transportTip": "庐山景区"
+  },
+  "practical": {
+    "openHours": "全天",
+    "openHoursRef": 0,
+    "ticket": "多免费感受（景区票另计）",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/21621567/pexels-photo-21621567.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/21621567/pexels-photo-21621567.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Blue auto rickshaw parked by an old brick building with laundry and Chinese decorations in Jiangxi, China.",
+      "query": "Chinese old town street jiujiang",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/auto-rickshaw-near-abandoned-building-wall-21621567/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/22043359/pexels-photo-22043359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/22043359/pexels-photo-22043359.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5472,
+      "height": 3648,
+      "alt": "Aerial view of a historic village in Jiangxi, China surrounded by lush greenery and a tranquil river.",
+      "query": "Chinese old town street jiujiang",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/birds-eye-view-of-an-ancient-town-in-li-valley-in-china-22043359/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/23495642/pexels-photo-23495642.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/23495642/pexels-photo-23495642.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5464,
+      "height": 3640,
+      "alt": "Aerial view of a colorful funfair in Jiujiang, Jiangxi, showcasing urban life and architecture.",
+      "query": "Chinese old town street jiujiang",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/marker-and-funfair-in-city-23495642/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "庐山",
+    "文化景观",
+    "山水"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "百度百科·庐山",
+      "url": "https://baike.baidu.com/item/%E5%BA%90%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-05"
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "庐山世界文化景观"
+  },
+  "_geocodeTitle": "庐山市",
+  "_geocodeSuspect": false,
+  "district": "360483"
+}

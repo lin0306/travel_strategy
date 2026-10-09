@@ -1,0 +1,118 @@
+{
+  "id": "taiyuan-zoo",
+  "name": "太原动物园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "城东北的动物园，大熊猫、长颈鹿与海洋馆齐备，是孩子的半天乐园。",
+  "description": "太原动物园在杏花岭区，依坡地而建，园中分区饲养着大熊猫、长颈鹿、大象、河马等动物，猛兽区与草食区之间用壕沟与栈桥隔开，参观动线清楚。园内还有海洋馆与游乐设施，孩子能玩上一整天。坡道较多，推婴儿车略费劲，可乘园内游览车代步。节假日人多，开园即入最舒服。动物在夏季午后多躲阴凉，上午观看最活跃。园内餐饮简单，带好饮水。",
+  "highlights": [
+    "大熊猫长颈鹿齐备",
+    "海洋馆与游乐设施",
+    "坡地园区宜早去"
+  ],
+  "location": {
+    "point": {
+      "lng": 112.581777,
+      "lat": 37.910603,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山西省太原市杏花岭区涧河路太原动物园",
+    "district": "杏花岭区",
+    "transportTip": "市区乘公交或打车到太原动物园",
+    "entrance": {
+      "lng": 112.575242,
+      "lat": 37.911703,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:00-18:00，以园内公告为准",
+    "openHoursRef": 0,
+    "ticket": "约20元起，海洋馆另计，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 150-270 分钟",
+    "durationMinutes": [
+      150,
+      270
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/%E2%80%9CRed_Panda%22_by_Li_Qun_1981.jpg/1280px-%E2%80%9CRed_Panda%22_by_Li_Qun_1981.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/%E2%80%9CRed_Panda%22_by_Li_Qun_1981.jpg/1280px-%E2%80%9CRed_Panda%22_by_Li_Qun_1981.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1033,
+      "alt": "“Red Panda\" by Li Qun 1981.jpg",
+      "query": "Taiyuan Zoo",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Li Qun",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E2%80%9CRed_Panda%22_by_Li_Qun_1981.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7867039/pexels-photo-7867039.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7867039/pexels-photo-7867039.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5184,
+      "height": 3456,
+      "alt": "A serene lioness resting on a wooden platform in a zoo enclosure, showcasing nature's tranquility.",
+      "query": "Taiyuan Zoo",
+      "credit": {
+        "source": "pexels",
+        "author": "Abbat .",
+        "sourceUrl": "https://www.pexels.com/photo/a-brown-lioness-lying-down-on-logs-7867039/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37834228/pexels-photo-37834228.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37834228/pexels-photo-37834228.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Urban street in Tianjin, China with cloudy sky and modern buildings, showcasing city life.",
+      "query": "Taiyuan Zoo",
+      "credit": {
+        "source": "pexels",
+        "author": "Shuaizhi Tian",
+        "sourceUrl": "https://www.pexels.com/photo/cloudy-sky-over-urban-street-in-tianjin-china-37834228/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "动物园",
+    "亲子",
+    "海洋馆"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "太原动物园·百度百科",
+      "url": "https://baike.baidu.com/item/%E5%A4%AA%E5%8E%9F%E5%8A%A8%E7%89%A9%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Taiyuan Zoo",
+    "zh": "太原动物园"
+  },
+  "_geocodeTitle": "太原动物园",
+  "_geocodeSuspect": false,
+  "district": "140107"
+}

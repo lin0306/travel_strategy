@@ -1,0 +1,119 @@
+{
+  "id": "nanshan-botanical-garden",
+  "name": "南山植物园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "南山上的大型植物园，温室里收集热带植物，春天樱花与桃花成片。",
+  "description": "南山植物园在南山风景区里，由蔷薇园、梅园、兰园和展览温室组成，面积很大，是重庆人春季赏花的主要去处之一。温室里收集了大量热带与亚热带植物，外面阴冷的时候进去别有洞天。山上还有一棵树观景台、南山泉水鸡一条街等配套，很多人安排成“上午逛园子，中午吃泉水鸡，傍晚看夜景”的一日线路。从园里望出去能看到渝中半岛的楼群。",
+  "highlights": [
+    "温室收集大量热带植物",
+    "春季樱花桃花成片",
+    "与泉水鸡一条街、观景台串成一日线"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.629441,
+      "lat": 29.555351,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "重庆市南岸区南山公园路",
+    "district": "南岸",
+    "transportTip": "市区打车或自驾上山约 30 分钟；也可乘公交至南山站",
+    "entrance": {
+      "lng": 106.6282,
+      "lat": 29.555835,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约 09:00-17:30（以官方公告为准）",
+    "openHoursRef": 0,
+    "ticket": "约 30 元起（温室可能另计，以官方为准）",
+    "ticketRef": 0,
+    "duration": "建议 120-180 分钟",
+    "durationMinutes": [
+      120,
+      180
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "kids",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/BonsaiGardenNanshan.jpg/1280px-BonsaiGardenNanshan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/BonsaiGardenNanshan.jpg/1280px-BonsaiGardenNanshan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "BonsaiGardenNanshan.jpg",
+      "query": "南山植物园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Col Ford and Natasha de Vere",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BonsaiGardenNanshan.jpg",
+        "license": "CC BY 2.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%90%8A%E5%85%B0_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%90%8A%E5%85%B0_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%90%8A%E5%85%B0_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%90%8A%E5%85%B0_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "南山植物园-吊兰 - panoramio.jpg",
+      "query": "南山植物园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Nyx Ning",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%90%8A%E5%85%B0_-_panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%A4%A7%E9%97%A8_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%A4%A7%E9%97%A8_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%A4%A7%E9%97%A8_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%A4%A7%E9%97%A8_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "南山植物园-大门 - panoramio.jpg",
+      "query": "南山植物园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Nyx Ning",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%A4%A7%E9%97%A8_-_panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "植物园",
+    "赏花",
+    "温室",
+    "南山"
+  ],
+  "popularity": 68,
+  "sources": [
+    {
+      "title": "百度百科·重庆南山植物园",
+      "url": "https://baike.baidu.com/item/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "南山植物园"
+  },
+  "_geocodeTitle": "重庆南山植物园",
+  "_geocodeSuspect": false,
+  "district": "500108"
+}

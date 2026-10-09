@@ -1,0 +1,113 @@
+{
+  "id": "zizhu-kaorou",
+  "name": "尹三顺自助烤肉屋",
+  "category": "food",
+  "subtype": "local",
+  "summary": "观山湖绿地联盛的一家自助烤肉，自己烤，晚上人多。",
+  "description": "尹三顺在观山湖区诚信北路绿地联盛，是一家自助烤肉。自己拿肉，自己在桌上的炉子上烤，肉、菜、饮料都随便取。贵州这边烤的东西与别处差不多，但蘸的是本地那一套 —— 辣椒面里有折耳根与木姜子，味道不一样。价格中等，按人头。它在新区，离老城远。晚上人多，要等位。它不是本地特色店，是这一区吃饭的一个选择。",
+  "highlights": [
+    "自助烤肉，自己拿肉自己在桌上烤",
+    "蘸的辣椒面里有折耳根与木姜子，味道不一样",
+    "在新区离老城远，晚上人多要等位"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.625679,
+      "lat": 26.598456,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "贵州省贵阳市观山湖区诚信北路8号",
+    "district": "观山湖区",
+    "transportTip": "市区地铁或打车到观山湖区绿地联盛"
+  },
+  "practical": {
+    "openHours": "约11:00-22:00",
+    "openHoursRef": 0,
+    "ticket": "中等",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/32603022/pexels-photo-32603022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32603022/pexels-photo-32603022.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3655,
+      "height": 5482,
+      "alt": "A lively Chinese restaurant interior with hanging lanterns and dining patrons.",
+      "query": "Chinese restaurant interior guiyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Richard L",
+        "sourceUrl": "https://www.pexels.com/photo/bustling-chinese-restaurant-with-lanterns-32603022/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4096,
+      "alt": "Charming Asian dining room with bamboo chairs and traditional teaware.",
+      "query": "Chinese restaurant interior guiyang",
+      "credit": {
+        "source": "pexels",
+        "author": "TIANYUN XIA",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33137968/pexels-photo-33137968.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33137968/pexels-photo-33137968.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 6714,
+      "height": 4468,
+      "alt": "Atmospheric shot of people dining in a traditional Asian restaurant with warm lighting.",
+      "query": "Chinese restaurant interior guiyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Vincent Tan",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-traditional-asian-restaurant-interior-33137968/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "烤肉",
+    "自助",
+    "观山湖"
+  ],
+  "popularity": 38,
+  "sources": [
+    {
+      "title": "百度百科·贵阳美食",
+      "url": "https://baike.baidu.com/item/%E8%B4%B5%E9%98%B3%E7%BE%8E%E9%A3%9F",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "尹三顺自助烤肉屋"
+  },
+  "_geocodeTitle": "尹三顺自助烤肉屋(贵阳世纪金源店)",
+  "_geocodeSuspect": false,
+  "district": "520115"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "haihe-scenic",
+  "name": "海河风景线",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "穿城而过的一条河，两岸的桥与旧楼是天津的正面。",
+  "description": "海河从三岔河口起，往东南穿过整个市区到塘沽入海，城里这一段是天津的主轴。两岸排着不同年代的东西：三岔河口一带是引滦入津纪念碑与老码头，往南过狮子林桥、金汤桥、解放桥，桥的样式从老铁桥一路排到现代斜拉。西侧是古文化街与老城厢，东侧是意风区、津湾广场和一片银行旧楼。河堤修了连续的步行道，从天津之眼那一段一路能走到小白楼。晚上两岸的楼会打灯，游船从天津站前的码头出发。这一段不收门票，走多远自己定。",
+  "highlights": [
+    "穿城主轴，两岸排着不同年代的桥",
+    "河堤步行道连续，可从天津之眼走到小白楼",
+    "晚间两岸打灯，游船从天津站前出发"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.194788,
+      "lat": 39.133339,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "天津市海河两岸（三岔河口至光华桥段）",
+    "district": "和平",
+    "transportTip": "地铁2号线/3号线天津站站，或9号线大王庄站，下到河堤"
+  },
+  "practical": {
+    "openHours": "全天开放（游船班次另计），以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费（游船另计），以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 60-180 分钟",
+    "durationMinutes": [
+      60,
+      180
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "family",
+    "solo",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/23542414/pexels-photo-23542414.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/23542414/pexels-photo-23542414.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 3024,
+      "alt": "Stunning aerial view of Tianjin cityscape, featuring the Haihe River and modern architecture.",
+      "query": "natural landscape China tianjin",
+      "credit": {
+        "source": "pexels",
+        "author": "逐光 创梦",
+        "sourceUrl": "https://www.pexels.com/photo/river-in-tianjin-city-23542414/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37321346/pexels-photo-37321346.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37321346/pexels-photo-37321346.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Scenic view of a river with a bridge, urban skyline, and clear sky.",
+      "query": "natural landscape China tianjin",
+      "credit": {
+        "source": "pexels",
+        "author": "Shuaizhi Tian",
+        "sourceUrl": "https://www.pexels.com/photo/bridge-over-river-with-city-skyline-in-background-37321346/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38568615/pexels-photo-38568615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38568615/pexels-photo-38568615.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "View of Tianjin's skyline along the Hai River on a sunny day, featuring modern architecture.",
+      "query": "natural landscape China tianjin",
+      "credit": {
+        "source": "pexels",
+        "author": "Shuaizhi Tian",
+        "sourceUrl": "https://www.pexels.com/photo/modern-skyline-along-the-hai-river-in-tianjin-38568615/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "海河",
+    "桥",
+    "夜景"
+  ],
+  "popularity": 92,
+  "sources": [
+    {
+      "title": "百度百科·海河",
+      "url": "https://baike.baidu.com/item/%E6%B5%B7%E6%B2%B3",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-27"
+    }
+  ],
+  "updatedAt": "2026-09-27",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "海河风景线"
+  },
+  "_geocodeTitle": "海河风景线",
+  "_geocodeSuspect": false,
+  "district": "120101"
+}

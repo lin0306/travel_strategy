@@ -1,0 +1,118 @@
+{
+  "id": "erhai-corridor",
+  "name": "洱海生态廊道",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "环洱海一圈的骑行步道，把村子海岸和湿地连起来，最能感受洱海。",
+  "description": "洱海生态廊道是沿着洱海修的一圈骑行和步道，把沿湖的村子、湿地、海岸连起来。机动车进不去，只能骑车或步行，所以很安静。路面平，一侧是洱海，一侧是稻田和村子。海西一段最成熟，从才村到喜洲。",
+  "highlights": [
+    "环洱海一圈骑行步道，机动车禁入",
+    "一侧洱海一侧稻田与村子",
+    "海西一段最成熟，才村到喜洲"
+  ],
+  "location": {
+    "point": {
+      "lng": 100.210967,
+      "lat": 25.667065,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "云南省大理白族自治州大理市环海路生态廊道",
+    "district": "大理市",
+    "transportTip": "从才村或喜洲进入，租电动车骑行",
+    "entrance": {
+      "lng": 100.223534,
+      "lat": 25.622165,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 120-300 分钟",
+    "durationMinutes": [
+      120,
+      300
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/39175542/pexels-photo-39175542.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39175542/pexels-photo-39175542.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5462,
+      "height": 8192,
+      "alt": "Serene view of Three Pagodas in China with lush greenery and mountain backdrop reflected in lake.",
+      "query": "Chinese classical garden dali",
+      "credit": {
+        "source": "pexels",
+        "author": "William Xin",
+        "sourceUrl": "https://www.pexels.com/photo/three-pagodas-of-chongsheng-temple-reflecting-in-lake-39175542/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7623106/pexels-photo-7623106.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7623106/pexels-photo-7623106.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3879,
+      "height": 5819,
+      "alt": "Stunning symmetrical pathway in Dali, China, framed by lush greenery and distant mountains.",
+      "query": "Chinese classical garden dali",
+      "credit": {
+        "source": "pexels",
+        "author": "KITSUN YUEN",
+        "sourceUrl": "https://www.pexels.com/photo/symmetrical-view-of-monument-in-a-park-and-hills-in-background-7623106/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38505030/pexels-photo-38505030.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38505030/pexels-photo-38505030.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4290,
+      "height": 6479,
+      "alt": "A serene view of traditional Chinese architecture in Dali, Yunnan, adorned with lanterns, showcasing cultural heritage.",
+      "query": "Chinese classical garden dali",
+      "credit": {
+        "source": "pexels",
+        "author": "Curt Hey",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-architecture-in-dali-with-lanterns-38505030/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "廊道",
+    "骑行",
+    "免费"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "大理洱海生态廊道",
+      "url": "https://baike.baidu.com/item/%E6%B4%B1%E6%B5%B7",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "洱海生态廊道"
+  },
+  "_geocodeTitle": "洱海生态廊道(观光电瓶车三圣岛停靠点)",
+  "_geocodeSuspect": false,
+  "district": "532901"
+}

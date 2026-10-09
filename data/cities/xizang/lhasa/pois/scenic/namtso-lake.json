@@ -1,0 +1,112 @@
+{
+  "id": "namtso-lake",
+  "name": "纳木措风景区",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "当雄县北边的高原湖，海拔四千七百米，湖面比云低不了多少，来回要一整天。",
+  "description": "纳木措在当雄县北边，湖面海拔四千七百多米，是这一带最大的湖。从拉萨过去两百多公里，要翻那根拉山口，来回占一整天。湖很大，站在岸边看不到对面，天与水之间就一条线。天气好的时候是深蓝，阴天是灰的，差别很大。海拔比拉萨高一千多米，别跑、别蹲久了猛站。要过夜就在扎西岛那边，但夜里很冷。",
+  "highlights": [
+    "湖面海拔四千七百多米，比拉萨高一千多米",
+    "来回两百多公里，要翻那根拉山口，占一整天",
+    "天气决定颜色，阴天是灰的、晴天是深蓝"
+  ],
+  "location": {
+    "point": {
+      "lng": 90.665115,
+      "lat": 30.741583,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "西藏自治区拉萨市当雄县纳木措风景区",
+    "district": "当雄县",
+    "transportTip": "拉萨市区包车或班车往当雄方向，约四小时单程"
+  },
+  "practical": {
+    "openHours": "全天开放（旺季），冬季部分路段封闭",
+    "openHoursRef": 0,
+    "ticket": "120元上下，以景区公告为准",
+    "ticketRef": 0,
+    "duration": "建议 300-600 分钟",
+    "durationMinutes": [
+      300,
+      600
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/12956317/pexels-photo-12956317.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/12956317/pexels-photo-12956317.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5410,
+      "height": 3497,
+      "alt": "Tranquil lake reflecting mountains and blue sky in Lhasa, Tibet.",
+      "query": "natural landscape China lhasa",
+      "credit": {
+        "source": "pexels",
+        "author": "Greece-China  News",
+        "sourceUrl": "https://www.pexels.com/photo/lake-with-rocks-near-treen-trees-12956317/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/11827198/pexels-photo-11827198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/11827198/pexels-photo-11827198.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5472,
+      "height": 3648,
+      "alt": "Scenic view of a mist-covered valley and mountains in Tibet, China.",
+      "query": "natural landscape China lhasa",
+      "credit": {
+        "source": "pexels",
+        "author": "Zekai Zhu",
+        "sourceUrl": "https://www.pexels.com/photo/grayscale-photo-of-clouds-in-the-mountains-11827198/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6144757/pexels-photo-6144757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6144757/pexels-photo-6144757.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7360,
+      "height": 4912,
+      "alt": "Scenic summer view of a Tibetan landscape featuring mountains, a small town, and a hilltop monastery.",
+      "query": "natural landscape China lhasa",
+      "credit": {
+        "source": "pexels",
+        "author": "conghui hou",
+        "sourceUrl": "https://www.pexels.com/photo/city-in-mountain-landscape-6144757/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "高原湖",
+    "自然",
+    "远途"
+  ],
+  "popularity": 92,
+  "sources": [
+    {
+      "title": "百度百科·纳木错",
+      "url": "https://baike.baidu.com/item/%E7%BA%B3%E6%9C%A8%E9%94%99",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "纳木措风景区"
+  },
+  "_geocodeTitle": "纳木措风景区",
+  "_geocodeSuspect": false,
+  "district": "540122"
+}

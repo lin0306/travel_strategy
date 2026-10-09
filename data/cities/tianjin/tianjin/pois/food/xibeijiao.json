@@ -1,0 +1,113 @@
+{
+  "id": "xibeijiao",
+  "name": "西北角清真美食街区",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "红桥的一片回族聚居区，天津最好吃的清早在这里。",
+  "description": "西北角在红桥区，是天津回族居民最集中的一片，也是本地人心里的吃处。这一带的好东西集中在早上：水爆肚、羊汤、烧麦、切糕、卷圈、面茶，沿街一家挨一家，摊子多半中午前就收了。卷圈是这一带的特色——豆皮裹着豆芽菜馅下锅炸，夹在大饼里吃。来吃的人以周边居民为主，游客不多，价格便宜。它离鼓楼与古文化街都不远，走过来十来分钟。想看天津人的早饭，这里是最近的一处。",
+  "highlights": [
+    "回族聚居区，天津最好吃的清早在此",
+    "卷圈是本地特色，豆皮裹豆芽炸后夹饼",
+    "摊子多半中午前收，价格便宜"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.171552,
+      "lat": 39.143689,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "天津市红桥区西北角一带（芥园道至西马路段）",
+    "district": "南开",
+    "transportTip": "地铁1号线西北角站，出站即到"
+  },
+  "practical": {
+    "openHours": "约06:00-13:00（各摊不同），以现场为准",
+    "openHoursRef": 0,
+    "ticket": "人均约30元，以现场为准",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "friends",
+    "elders",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/19582023/pexels-photo-19582023.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/19582023/pexels-photo-19582023.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Bustling night street in Heping, Tianjin with people and scooters under neon lights.",
+      "query": "Tianjin Muslim street food market",
+      "credit": {
+        "source": "pexels",
+        "author": "Shuaizhi Tian",
+        "sourceUrl": "https://www.pexels.com/photo/public-scooters-in-an-asian-city-19582023/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/19011800/pexels-photo-19011800.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/19011800/pexels-photo-19011800.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Illuminated street food stall Jin Si Wei in Tianjin, China at night, offering vibrant urban atmosphere.",
+      "query": "Tianjin Muslim street food market",
+      "credit": {
+        "source": "pexels",
+        "author": "Shuaizhi Tian",
+        "sourceUrl": "https://www.pexels.com/photo/illuminated-window-of-street-asian-restaurant-19011800/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38144498/pexels-photo-38144498.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38144498/pexels-photo-38144498.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5152,
+      "height": 6864,
+      "alt": "Vibrant street market scene in Tianjin, China, showcasing food stalls and colorful signage.",
+      "query": "Tianjin Muslim street food market",
+      "credit": {
+        "source": "pexels",
+        "author": "BI ravencrow",
+        "sourceUrl": "https://www.pexels.com/photo/bustling-market-scene-in-tianjin-china-38144498/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "清真",
+    "早餐",
+    "街区"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·天津小吃",
+      "url": "https://baike.baidu.com/item/%E5%A4%A9%E6%B4%A5%E5%B0%8F%E5%90%83",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-27"
+    }
+  ],
+  "updatedAt": "2026-09-27",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Tianjin Muslim street food market",
+    "zh": "西北角清真美食街区"
+  },
+  "_geocodeTitle": "西北角",
+  "district": "120104"
+}

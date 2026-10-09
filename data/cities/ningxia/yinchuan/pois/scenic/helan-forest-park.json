@@ -1,0 +1,118 @@
+{
+  "id": "helan-forest-park",
+  "name": "贺兰山国家森林公园",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "贺兰山深处的森林康养地，步道穿林、远眺山脊，夏天比市区低十度。",
+  "description": "贺兰山国家森林公园在山体更深处，是一片保护着的森林康养地。木栈道和石阶穿在松林间，走着能听见水声和鸟。晴天从高处能望见山脊的轮廓，也能远眺银川平原。夏天这里比市区低近十度，是天然空调。有康养步道和科普牌，适合慢慢走。山里天气变得快，带雨衣。别离步道太远，防迷路。",
+  "highlights": [
+    "贺兰山深处森林康养地",
+    "步道穿林远眺山脊",
+    "夏比市区低十度"
+  ],
+  "location": {
+    "point": {
+      "lng": 105.937728,
+      "lat": 38.745649,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "宁夏回族自治区银川市贺兰县贺兰山国家森林公园",
+    "district": "贺兰县",
+    "transportTip": "银川市区自驾或乘专线到贺兰山森林公园",
+    "entrance": {
+      "lng": 105.995242,
+      "lat": 38.712225,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:00-17:30，以景区公告为准",
+    "openHoursRef": 0,
+    "ticket": "约40元（以官方为准）",
+    "ticketRef": 0,
+    "duration": "建议 150-240 分钟",
+    "durationMinutes": [
+      150,
+      240
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/33452166/pexels-photo-33452166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33452166/pexels-photo-33452166.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5713,
+      "height": 3809,
+      "alt": "Idyllic lakeside view of Kolsai Lake amidst lush mountains in Almaty Region, Kazakhstan.",
+      "query": "Helan Mountain Forest Park",
+      "credit": {
+        "source": "pexels",
+        "author": "Naimish Verma",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-kolsai-lake-in-kazakhstan-33452166/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/13327709/pexels-photo-13327709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/13327709/pexels-photo-13327709.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5120,
+      "height": 2880,
+      "alt": "Aerial view of a mountainous town surrounded by lush forests and rugged mountains.",
+      "query": "Helan Mountain Forest Park",
+      "credit": {
+        "source": "pexels",
+        "author": "SlimMars 13",
+        "sourceUrl": "https://www.pexels.com/photo/parked-vehicles-near-green-trees-and-buildings-on-the-mountains-13327709/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39711254/pexels-photo-39711254.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39711254/pexels-photo-39711254.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Stunning view of a waterfall flowing over rocky cliffs surrounded by vegetation in Isparta, Türkiye.",
+      "query": "Helan Mountain Forest Park",
+      "credit": {
+        "source": "pexels",
+        "author": "Ece Ebrar TOYCU",
+        "sourceUrl": "https://www.pexels.com/photo/beautiful-waterfall-cascading-over-rocks-in-turkiye-39711254/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "森林",
+    "贺兰山",
+    "康养"
+  ],
+  "popularity": 67,
+  "sources": [
+    {
+      "title": "百度百科·贺兰山",
+      "url": "https://baike.baidu.com/item/%E8%B4%BA%E5%85%B0%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Helan Mountain Forest Park",
+    "zh": "贺兰山国家森林公园"
+  },
+  "_geocodeTitle": "宁夏贺兰山国家森林公园",
+  "_geocodeSuspect": false,
+  "district": "640122"
+}

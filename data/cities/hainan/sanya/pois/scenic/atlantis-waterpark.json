@@ -1,0 +1,119 @@
+{
+  "id": "atlantis-waterpark",
+  "name": "亚特兰蒂斯水世界",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "海棠湾酒店群里的大型水上乐园，滑道与造浪池连成一片，旺季人很多。",
+  "description": "这个水世界在海棠湾海棠北路，是度假酒店群里配的一座大型水上乐园，占了很大一片地，滑道、漂流河、造浪池、儿童戏水区连在一起。招牌项目是几条从塔顶冲下来的高速滑道，其中最陡的一条近乎垂直，有身高与体重限制。造浪池定时造浪，边上躺椅多，但旺季一位难求。园内餐饮与储物柜另计，可以带密封的饮用水。票价按季节浮动，住店客人常有套票，以官方公告为准。海棠湾太阳晒得厉害，上午与四点以后体感最好。",
+  "highlights": [
+    "大型水上乐园，滑道、漂流河、造浪池连成一片",
+    "招牌是几条从塔顶冲下来的高速滑道",
+    "票价按季节浮动，住店客人常有套票"
+  ],
+  "location": {
+    "point": {
+      "lng": 109.745012,
+      "lat": 18.354266,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "海南省三亚市海棠区海棠北路36号（亚特兰蒂斯水世界）",
+    "district": "海棠区",
+    "transportTip": "海棠湾各酒店步行或摆渡车可达；市区乘公交或专线至海棠湾",
+    "entrance": {
+      "lng": 109.74128,
+      "lat": 18.355839,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约10:00-18:00（淡旺季有调整），以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "门票按季节浮动，以官方公告为准",
+    "ticketRef": 0,
+    "duration": "建议 240-480 分钟",
+    "durationMinutes": [
+      240,
+      480
+    ],
+    "priceLevel": "high"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "friends",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/3878268/pexels-photo-3878268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/3878268/pexels-photo-3878268.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3148,
+      "height": 4457,
+      "alt": "Palm-lined tropical beach adorned with traditional red Chinese lanterns during sunset in Sanya, China.",
+      "query": "Chinese classical garden sanya",
+      "credit": {
+        "source": "pexels",
+        "author": "James Wheeler",
+        "sourceUrl": "https://www.pexels.com/photo/green-palm-trees-under-the-blue-sky-3878268/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39555092/pexels-photo-39555092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39555092/pexels-photo-39555092.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4592,
+      "height": 2584,
+      "alt": "Aerial view of a beautiful beach and walkway at Sanya, Hainan, China with clear blue waters.",
+      "query": "Chinese classical garden sanya",
+      "credit": {
+        "source": "pexels",
+        "author": "Alex Peet",
+        "sourceUrl": "https://www.pexels.com/photo/sunny-day-at-sanya-beach-with-scenic-view-39555092/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/4242876/pexels-photo-4242876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/4242876/pexels-photo-4242876.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8000,
+      "height": 6000,
+      "alt": "Aerial view of Sanya's beachfront with city skyline, palm trees, and clear water.",
+      "query": "Chinese classical garden sanya",
+      "credit": {
+        "source": "pexels",
+        "author": "光曦 刘",
+        "sourceUrl": "https://www.pexels.com/photo/sea-beach-trees-and-buildings-4242876/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "水上乐园",
+    "亲子",
+    "海棠湾"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "百度百科·亚特兰蒂斯",
+      "url": "https://baike.baidu.com/item/%E4%BA%9A%E7%89%B9%E5%85%B0%E8%92%82%E6%96%AF",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-29"
+    }
+  ],
+  "updatedAt": "2026-09-29",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "亚特兰蒂斯水世界"
+  },
+  "_geocodeTitle": "亚特兰蒂斯水世界",
+  "_geocodeSuspect": false,
+  "district": "460202"
+}

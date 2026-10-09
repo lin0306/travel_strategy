@@ -1,0 +1,117 @@
+{
+  "id": "qiandao-lake",
+  "name": "千岛湖",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "新安江水库形成的人工湖，有一千多座岛，必须坐船进湖区，至少安排一整天。",
+  "description": "千岛湖是为建新安江水电站拦江而成的水库，水面上一千零七十八座岛屿，湖水是国家一级水体。玩法很单一也很清楚：买湖区门票加船票，从中心湖区或东南湖区的码头上船登岛，梅峰岛是俯瞰全景的那一座。两个湖区的码头相距很远、船票不通用，一天不要同时安排。离杭州城区约两小时车程，高铁到千岛湖站更省事，通常要做一整天甚至住一晚的打算。",
+  "highlights": [
+    "一千零七十八座岛屿",
+    "必须坐船登岛，梅峰看全景",
+    "两个湖区码头不互通"
+  ],
+  "location": {
+    "point": {
+      "lng": 119.078234,
+      "lat": 29.606922,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "杭州市淳安县千岛湖镇梦姑路",
+    "district": "淳安县",
+    "transportTip": "高铁千岛湖站，换乘旅游专线约40分钟到中心湖区码头",
+    "entrance": {
+      "lng": 119.016079,
+      "lat": 29.595588,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:00-17:00，中心湖区最晚14:00前后停止登船",
+    "openHoursRef": 0,
+    "ticket": "旺季门票130元(淡季100元)；中心湖区套票约195元，东南湖区约165元",
+    "ticketRef": 0,
+    "duration": "建议 420-720 分钟",
+    "durationMinutes": [
+      420,
+      720
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/34432366/pexels-photo-34432366.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34432366/pexels-photo-34432366.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6240,
+      "height": 3512,
+      "alt": "Tranquil scene of West Lake with peaceful waters and distant hills in Hangzhou, China.",
+      "query": "natural landscape China hangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "nana liu",
+        "sourceUrl": "https://www.pexels.com/photo/serene-view-of-west-lake-in-hangzhou-china-34432366/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7532194/pexels-photo-7532194.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7532194/pexels-photo-7532194.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4912,
+      "height": 3264,
+      "alt": "Peaceful scene featuring a boat on West Lake with Leifeng Pagoda in Hangzhou, China.",
+      "query": "natural landscape China hangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Leon Huang",
+        "sourceUrl": "https://www.pexels.com/photo/leifeng-pagoda-in-china-7532194/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38075805/pexels-photo-38075805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38075805/pexels-photo-38075805.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8893,
+      "height": 5919,
+      "alt": "Captivating view of West Lake in Hangzhou during dusk, reflecting serene surroundings.",
+      "query": "natural landscape China hangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "CK Seng",
+        "sourceUrl": "https://www.pexels.com/photo/serene-west-lake-at-dusk-in-hangzhou-38075805/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湖泊",
+    "需要整天",
+    "坐船"
+  ],
+  "popularity": 88,
+  "sources": [
+    {
+      "title": "百度百科·千岛湖",
+      "url": "https://baike.baidu.com/item/%E5%8D%83%E5%B2%9B%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-23"
+    }
+  ],
+  "updatedAt": "2026-09-23",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "千岛湖"
+  },
+  "_geocodeTitle": "千岛湖镇",
+  "_geocodeSuspect": false,
+  "district": "330127"
+}

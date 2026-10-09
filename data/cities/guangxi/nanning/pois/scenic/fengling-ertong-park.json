@@ -1,0 +1,118 @@
+{
+  "id": "fengling-ertong-park",
+  "name": "凤岭儿童公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "凤岭片区的亲子公园，有过山车和戏水。",
+  "description": "凤岭儿童公园在青秀区凤岭片区，是南宁少有的以儿童为主题的公园，有过山车、戏水区和一片大草坪，是城区亲子家庭周末的去处。它紧邻凤岭儿童乐园一类设施，配套成熟。免费进园，游乐项目另计。周末孩子多，建议工作日或早到。",
+  "highlights": [
+    "凤岭以儿童为主题的公园",
+    "过山车、戏水区与大草坪",
+    "免费进园，项目另计"
+  ],
+  "location": {
+    "point": {
+      "lng": 108.398904,
+      "lat": 22.821632,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "南宁市青秀区云景路",
+    "district": "青秀区",
+    "transportTip": "地铁1号线至凤岭站步行约10分钟",
+    "entrance": {
+      "lng": 108.400022,
+      "lat": 22.81949,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约09:00-18:00（以公告为准）",
+    "openHoursRef": 0,
+    "ticket": "免费（游乐项目另计）",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/18722836/pexels-photo-18722836.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/18722836/pexels-photo-18722836.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4016,
+      "height": 6016,
+      "alt": "Beautiful traditional architecture and serene pond in Nan Lian Garden, Hong Kong, surrounded by lush greenery.",
+      "query": "Chinese classical garden nanning",
+      "credit": {
+        "source": "pexels",
+        "author": "King  Ho",
+        "sourceUrl": "https://www.pexels.com/photo/nan-lian-garden-in-hong-kong-18722836/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/4281933/pexels-photo-4281933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/4281933/pexels-photo-4281933.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5760,
+      "height": 3840,
+      "alt": "Explore the tranquil beauty of Kowloon's golden pagoda amidst lush greenery and serene water gardens.",
+      "query": "Chinese classical garden nanning",
+      "credit": {
+        "source": "pexels",
+        "author": "Boris Ulzibat",
+        "sourceUrl": "https://www.pexels.com/photo/pagoda-structure-surrounded-by-a-garden-4281933/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27098601/pexels-photo-27098601.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27098601/pexels-photo-27098601.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6016,
+      "height": 4016,
+      "alt": "View of a tranquil pond with water lilies at Nan Lian Garden, Hong Kong's iconic landmark.",
+      "query": "Chinese classical garden nanning",
+      "credit": {
+        "source": "pexels",
+        "author": "King  Ho",
+        "sourceUrl": "https://www.pexels.com/photo/nan-lian-garden-in-hong-kong-27098601/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "亲子",
+    "儿童",
+    "免费"
+  ],
+  "popularity": 60,
+  "sources": [
+    {
+      "title": "百度百科·凤岭儿童公园",
+      "url": "https://baike.baidu.com/item/%E5%87%A4%E5%B2%AD%E5%84%BF%E7%AB%A5%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "凤岭儿童公园"
+  },
+  "_geocodeTitle": "南宁市凤岭儿童公园",
+  "_geocodeSuspect": false,
+  "district": "450103"
+}

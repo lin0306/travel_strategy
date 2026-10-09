@@ -121,7 +121,7 @@ export const ImageItemSchema = z.object({
     author: z.string(),
     sourceUrl: z.string().url(),
     license: z.string(),                      // 'Unsplash License' / 'Pexels License' / 'CC BY-SA 4.0' ...
-    /** 需要署名的（CC BY / CC BY-SA / 百度百科）UI 必须显示可见署名 */
+    /** 需要署名的（CC BY / CC BY-SA）UI 必须显示可见署名 */
     attributionRequired: z.boolean().default(false),
   }),
   // 注意：图片健康状态（status / checkedAt）**不写回这里**。
@@ -411,7 +411,7 @@ export default {
 } satisfies Config
 ```
 
-> `~data` / `~shared` 是 `vite.config.ts` 里的 alias，指向仓库根的 `data/` 与 `shared/`。
+> `~data` / `~shared` 是 `vite.config.ts` 里的 alias，指向仓库根的 `data/` 与 `schema/`。
 > 这样 `data/` 保持为唯一真源：**放一份 JSON 进去，页面和路由自动就有了**（满足 G5）。
 
 ### 4.2 统一走 Zod 校验

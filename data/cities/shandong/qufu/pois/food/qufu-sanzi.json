@@ -1,0 +1,113 @@
+{
+  "id": "qufu-sanzi",
+  "name": "馓子",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "油炸细面，酥脆咸香，常泡着吃。",
+  "description": "馓子是北方常见的油炸面食，在曲阜的集市与早点摊都能见到。做法是把面条盘成扇形或梳子形下锅炸，炸到金黄酥脆捞出，细条之间形成很多空隙，所以口感特别松脆。口味有咸有甜，咸的撒椒盐，甜的撒糖。它可以当零食干吃，也能泡进糁汤或羊汤里，吸了汤变软，又是另一种吃法。曲阜人常把它卷进煎饼里一起吃，脆上加脆。买的时候挑颜色均匀、没有哈喇味的。便宜，称斤卖。",
+  "highlights": [
+    "盘条油炸，酥脆松",
+    "可干吃、可泡汤、可卷煎饼",
+    "便宜，称斤卖"
+  ],
+  "location": {
+    "point": {
+      "lng": 116.981758,
+      "lat": 35.595192,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "济宁市曲阜市老城集市与摊点",
+    "district": "曲阜",
+    "transportTip": "老城内步行可达"
+  },
+  "practical": {
+    "openHours": "白天，早市居多",
+    "openHoursRef": 0,
+    "ticket": "约10-25元/斤",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
+      15,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "solo",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Bagged_Sangza.jpg/1280px-Bagged_Sangza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Bagged_Sangza.jpg/1280px-Bagged_Sangza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1080,
+      "alt": "Bagged Sangza.jpg",
+      "query": "馓子",
+      "credit": {
+        "source": "wikimedia",
+        "author": "François Nguyen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bagged_Sangza.jpg",
+        "license": "CC BY 2.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Desiderio_%28Sanzi%29%2C_Beauty_Hazard_-_Performance.jpg/1280px-Desiderio_%28Sanzi%29%2C_Beauty_Hazard_-_Performance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Desiderio_%28Sanzi%29%2C_Beauty_Hazard_-_Performance.jpg/1280px-Desiderio_%28Sanzi%29%2C_Beauty_Hazard_-_Performance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 602,
+      "alt": "Desiderio (Sanzi), Beauty Hazard - Performance.jpg",
+      "query": "馓子",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Coocuyo",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Desiderio_(Sanzi),_Beauty_Hazard_-_Performance.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Desiderio_%28Sanzi%29%2C_Malebolge%2C_Amelia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Desiderio_%28Sanzi%29%2C_Malebolge%2C_Amelia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Desiderio (Sanzi), Malebolge, Amelia.jpg",
+      "query": "馓子",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Coocuyo",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Desiderio_(Sanzi),_Malebolge,_Amelia.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "馓子",
+    "油炸",
+    "早点"
+  ],
+  "popularity": 78,
+  "sources": [
+    {
+      "title": "百度百科·馓子",
+      "url": "https://baike.baidu.com/item/%E9%A6%93%E5%AD%90",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-06"
+    }
+  ],
+  "updatedAt": "2026-10-06",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "馓子"
+  },
+  "_geocodeTitle": "老刘家馓子",
+  "_geocodeSuspect": false,
+  "district": "370881"
+}

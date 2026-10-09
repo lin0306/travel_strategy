@@ -1,0 +1,88 @@
+{
+  "id": "haizhiyun",
+  "name": "海之韵公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "中山区一处东海边的公园，怪坡与海岸步道。",
+  "description": "海之韵在大连中山东端，是一处东海边的公园，有一处叫怪坡的地方，视觉上看着上坡其实平。海岸步道沿着东边的海，人比星海少。免费。几个看点：中山东端东海边公园，有怪坡；海岸步道沿东海，人少；免费。",
+  "highlights": [
+    "中山东端东海边公园，有怪坡",
+    "海岸步道沿东海，人少",
+    "免费"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.701947,
+      "lat": 38.892604,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省大连市中山区海之韵公园",
+    "district": "中山区",
+    "transportTip": "中山区乘公交或打车往东可达",
+    "entrance": {
+      "lng": 121.701812,
+      "lat": 38.892576,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/%E6%B5%B7%E4%B9%8B%E9%9F%B5%E5%85%AC%E5%9B%AD_%E5%8D%81%E5%85%AB%E7%9B%98.jpg/1280px-%E6%B5%B7%E4%B9%8B%E9%9F%B5%E5%85%AC%E5%9B%AD_%E5%8D%81%E5%85%AB%E7%9B%98.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/%E6%B5%B7%E4%B9%8B%E9%9F%B5%E5%85%AC%E5%9B%AD_%E5%8D%81%E5%85%AB%E7%9B%98.jpg/1280px-%E6%B5%B7%E4%B9%8B%E9%9F%B5%E5%85%AC%E5%9B%AD_%E5%8D%81%E5%85%AB%E7%9B%98.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "海之韵公园 十八盘.jpg",
+      "query": "海之韵公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Ffggss",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E4%B9%8B%E9%9F%B5%E5%85%AC%E5%9B%AD_%E5%8D%81%E5%85%AB%E7%9B%98.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "公园",
+    "海岸",
+    "免费"
+  ],
+  "popularity": 48,
+  "sources": [
+    {
+      "title": "百度百科·海之韵公园",
+      "url": "https://baike.baidu.com/item/%E6%B5%B7%E4%B9%8B%E9%9F%B5%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "海之韵公园"
+  },
+  "_geocodeTitle": "海之韵公园",
+  "_geocodeSuspect": false,
+  "district": "210202"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "bolanzi",
+  "name": "拨烂子",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "山西通行的家常饭，菜丝裹面上笼蒸，出锅拌蒜醋或再炒，朴素清香。",
+  "description": "拨烂子是山西常见的家常饭，做法朴素：土豆丝、胡萝卜丝或豆角段拌上面粉，抖散后上笼蒸熟，颗粒分明不粘连。出锅可以直接拌蒜泥、醋与辣椒油吃，也可以再下锅用葱花与鸡蛋炒一遍，香气更足。口感松软中带一点嚼劲，菜香清清爽爽，不油腻，是很能吃饱又不会腻的一碗。太原的饭店与食堂多有供应，价格便宜。做为主食配一碗汤最合适，也能当素菜上桌。",
+  "highlights": [
+    "菜丝裹面蒸熟",
+    "拌蒜醋或再炒",
+    "朴素清香不油腻"
+  ],
+  "location": {
+    "point": {
+      "lng": 112.565605,
+      "lat": 37.880331,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山西省太原市各山西饭馆与食堂",
+    "district": "杏花岭区",
+    "transportTip": "市区各山西饭馆均有"
+  },
+  "practical": {
+    "openHours": "约11:00-21:00",
+    "openHoursRef": 0,
+    "ticket": "约16元/份起",
+    "ticketRef": 0,
+    "duration": "建议 20-40 分钟",
+    "durationMinutes": [
+      20,
+      40
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/33860724/pexels-photo-33860724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33860724/pexels-photo-33860724.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6144,
+      "height": 8160,
+      "alt": "Chef skillfully prepares dishes in an Asian restaurant kitchen.",
+      "query": "Bolanzi Steamed Vegetable Shanxi",
+      "credit": {
+        "source": "pexels",
+        "author": "Jaime Hernandez Erives",
+        "sourceUrl": "https://www.pexels.com/photo/chef-preparing-traditional-asian-cuisine-33860724/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36711008/pexels-photo-36711008.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36711008/pexels-photo-36711008.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5520,
+      "height": 3680,
+      "alt": "Close-up of steamed dumplings in aluminum cups, placed on zucchini slices for healthy cooking.",
+      "query": "Bolanzi Steamed Vegetable Shanxi",
+      "credit": {
+        "source": "pexels",
+        "author": "Sóc Năng Động",
+        "sourceUrl": "https://www.pexels.com/photo/steamed-dumplings-in-aluminum-cups-with-zucchini-36711008/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39999838/pexels-photo-39999838.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39999838/pexels-photo-39999838.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4096,
+      "height": 3072,
+      "alt": "Appetizing dim sum steamed in a bamboo basket, perfect for a savory meal.",
+      "query": "Bolanzi Steamed Vegetable Shanxi",
+      "credit": {
+        "source": "pexels",
+        "author": "Yuen Tou  Zan",
+        "sourceUrl": "https://www.pexels.com/photo/delicious-dim-sum-in-bamboo-steamer-basket-39999838/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "拨烂子",
+    "家常",
+    "主食"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "拨烂子·百度百科",
+      "url": "https://baike.baidu.com/item/%E6%8B%A8%E7%83%82%E5%AD%90",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Bolanzi Steamed Vegetable Shanxi",
+    "zh": "拨烂子"
+  },
+  "_geocodeTitle": "山西饭店.晋膳坊",
+  "district": "140107"
+}

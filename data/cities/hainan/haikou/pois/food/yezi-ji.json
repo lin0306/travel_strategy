@@ -1,0 +1,84 @@
+{
+  "id": "yezi-ji",
+  "name": "椰子鸡（北纬十八度）",
+  "category": "food",
+  "subtype": "local",
+  "summary": "海南待客菜，椰青水涮鸡肉。",
+  "description": "椰子鸡是海南的待客菜，用椰青水和椰肉做汤底，涮本地文昌鸡，汤清甜、肉嫩，蘸青桔酱油。北纬十八度是海口做椰子鸡的连锁，多家分店。它适合安排一顿正餐，先喝一碗汤再吃鸡。价格中等，老少都爱。",
+  "highlights": [
+    "海南待客菜，椰青水涮文昌鸡",
+    "北纬十八度是连锁椰子鸡",
+    "汤清甜肉嫩，先喝汤"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.326714,
+      "lat": 20.062339,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "海口市美兰区国兴大道美园路",
+    "district": "美兰区",
+    "transportTip": "市区乘公交或打车至就近门店"
+  },
+  "practical": {
+    "openHours": "约11:00-14:00 / 17:00-21:00，以门店公告为准",
+    "openHoursRef": 0,
+    "ticket": "人均约90元，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "friends",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Yeziji_Hainanese_coconut_chicken_soup.jpg/1280px-Yeziji_Hainanese_coconut_chicken_soup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Yeziji_Hainanese_coconut_chicken_soup.jpg/1280px-Yeziji_Hainanese_coconut_chicken_soup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Yeziji Hainanese coconut chicken soup.jpg",
+      "query": "椰子鸡",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Jpatokal",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yeziji_Hainanese_coconut_chicken_soup.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "椰子鸡",
+    "文昌鸡",
+    "火锅"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "百度百科·椰子鸡",
+      "url": "https://baike.baidu.com/item/%E6%A4%B0%E5%AD%90%E9%B8%A1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "椰子鸡（北纬十八度）"
+  },
+  "_geocodeTitle": "北纬十八度椰子鸡·糟粕醋(海甸店)",
+  "_geocodeSuspect": false,
+  "district": "460108"
+}

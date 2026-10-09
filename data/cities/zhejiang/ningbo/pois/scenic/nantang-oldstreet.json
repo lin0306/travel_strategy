@@ -1,0 +1,84 @@
+{
+  "id": "nantang-oldstreet",
+  "name": "南塘老街",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "海曙区南郊河边的一条仿古老街，把宁波的老街区样子重做了一遍，吃的最多。",
+  "description": "南塘老街在海曙区南郊路，沿南塘河铺开，是在老地段上重做出来的一片街区 —— 房子是照着宁波老式民居的样子建的，白墙黑瓦、马头墙、石板路，沿河一排。它不是原样保留的老街，这一点要说清楚，但做得很整齐，而且把宁波各地的小吃集中到一条街上：油赞子、汤圆、年糕、海鲜、老字号饭馆都在，是来宁波吃一轮最省事的地方。街分几期，往里走人渐少，河边那一段最安静。不收门票，逛一个半到三小时，吃一顿另加时间。晚上灯笼亮起来比白天好看。它在老城南边，与火车站离得近，进出宁波顺路。",
+  "highlights": [
+    "南塘河边重做的一片老街，白墙黑瓦马头墙",
+    "宁波各地小吃集中在这条街上，吃一轮最省事",
+    "不收门票，晚上灯笼亮起来比白天好看"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.541362,
+      "lat": 29.855779,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "浙江省宁波市海曙区南门街道南郊路",
+    "district": "海曙区",
+    "transportTip": "地铁二号线或四号线至宁波火车站站步行约十五分钟；或公交至南塘老街站"
+  },
+  "practical": {
+    "openHours": "街区全天；店铺约10:00-21:30",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 90-210 分钟",
+    "durationMinutes": [
+      90,
+      210
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "friends",
+    "couple",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/%E5%8D%97%E5%A1%98%E8%80%81%E8%A1%97_-_Nantang_Old_Street_-_2015.10_-_panoramio.jpg/1280px-%E5%8D%97%E5%A1%98%E8%80%81%E8%A1%97_-_Nantang_Old_Street_-_2015.10_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/%E5%8D%97%E5%A1%98%E8%80%81%E8%A1%97_-_Nantang_Old_Street_-_2015.10_-_panoramio.jpg/1280px-%E5%8D%97%E5%A1%98%E8%80%81%E8%A1%97_-_Nantang_Old_Street_-_2015.10_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "南塘老街 - Nantang Old Street - 2015.10 - panoramio.jpg",
+      "query": "南塘老街 宁波",
+      "credit": {
+        "source": "wikimedia",
+        "author": "rheins",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%A1%98%E8%80%81%E8%A1%97_-_Nantang_Old_Street_-_2015.10_-_panoramio.jpg",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "老街",
+    "小吃集中",
+    "免费"
+  ],
+  "popularity": 78,
+  "sources": [
+    {
+      "title": "百度百科·南塘老街",
+      "url": "https://baike.baidu.com/item/%E5%AE%81%E6%B3%A2%E5%8D%97%E5%A1%98%E8%80%81%E8%A1%97",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "南塘老街"
+  },
+  "_geocodeTitle": "南塘老街-南门袁氏居宅建筑群",
+  "_geocodeSuspect": false,
+  "district": "330203"
+}

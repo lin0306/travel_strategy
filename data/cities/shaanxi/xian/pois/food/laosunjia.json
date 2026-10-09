@@ -1,0 +1,82 @@
+{
+  "id": "laosunjia",
+  "name": "老孙家饭庄",
+  "category": "food",
+  "subtype": "local",
+  "summary": "百年清真老字号，牛羊肉泡馍的招牌之一。",
+  "description": "老孙家创立于 1898 年，是西安最有名的清真饭庄之一，以牛羊肉泡馍立店。吃法讲究自己掰馍：把托的馍掰成黄豆大小的粒，交给后厨用高汤煮透，配上粉丝、葱花与香菜，汤浓馍筋道。掰馍的过程本身就是仪式，两个人边掰边聊能坐上半小时。另有小炒泡馍，是把馍与肉、菜一起炒，酸辣味更重。店内人多嘈杂，饭点要等位。",
+  "highlights": [
+    "百年清真老字号",
+    "掰馍是自己动手的仪式",
+    "另有小炒泡馍，酸辣更重"
+  ],
+  "location": {
+    "point": {
+      "lng": 108.97467,
+      "lat": 34.258954,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "西安市碑林区东大街（以门店公告为准）",
+    "district": "新城区",
+    "transportTip": "地铁 2 号线钟楼站，步行约 8 分钟"
+  },
+  "practical": {
+    "openHours": "约 10:00-21:00（以门店公告为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约 70 元起（以门店为准）",
+    "ticketRef": 0,
+    "duration": "建议 90-120 分钟",
+    "durationMinutes": [
+      90,
+      120
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/ShaoxingXianheng.jpg/1280px-ShaoxingXianheng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/ShaoxingXianheng.jpg/1280px-ShaoxingXianheng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "ShaoxingXianheng.jpg",
+      "query": "Chinese restaurant interior xian",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Jiong Sheng",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:ShaoxingXianheng.jpg",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "泡馍",
+    "清真",
+    "老字号"
+  ],
+  "popularity": 84,
+  "sources": [
+    {
+      "title": "百度百科·牛羊肉泡馍",
+      "url": "https://baike.baidu.com/item/%E7%89%9B%E7%BE%8A%E8%82%89%E6%B3%A1%E9%A6%8D",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "老孙家饭庄"
+  },
+  "_geocodeTitle": "老孙家饭庄·非遗(东关店)",
+  "_geocodeSuspect": false,
+  "district": "610102"
+}

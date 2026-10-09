@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "nanning",
+  "name": "南宁",
+  "province": "广西",
+  "adcode": "450100",
+  "provinceAdcode": "450000",
+  "tagline": "绿城、邕江和一锅老友粉，广西的会客厅",
+  "intro": "南宁是广西的首府，也是北部湾城市群的圆心，很多人把它当成进广西的第一站。城市本身很绿，南湖、青秀山和人民公园串起一片常绿，所以得了「绿城」的名号。邕江从城中间流过，两岸是步道和夜景，入夜之后灯光亮起来最好看。吃的偏酸辣、重米粉：老友粉、生榨米粉、卷筒粉、酸嘢是这里的日常，柠檬鸭是本地菜的门面。周边一小时圈里还有大明山、扬美古镇、伊岭岩这些去处。安排上，老城两天、绿城生态一天、周边山水一天，四天不赶。",
+  "center": {
+    "lng": 108.4679,
+    "lat": 23.0544,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    107.3288,
+    22.2115,
+    109.6115,
+    24.0192
+  ],
+  "defaultZoom": 10,
+  "heroImages": [
+    {
+      "url": "https://images.unsplash.com/photo-1595698612005-09bb2f1197e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8MXx8JUU1JThEJTk3JUU1JUFFJTgxJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTExMTgzMTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "thumbUrl": "https://images.unsplash.com/photo-1595698612005-09bb2f1197e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8MXx8JUU1JThEJTk3JUU1JUFFJTgxJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTExMTgzMTV8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "width": 5472,
+      "height": 3082,
+      "alt": "cars on road during night time",
+      "query": "南宁 China city skyline",
+      "credit": {
+        "source": "unsplash",
+        "author": "Piiko",
+        "sourceUrl": "https://unsplash.com/photos/cars-on-road-during-night-time-sx7kn7GNf6E",
+        "license": "Unsplash License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33921375/pexels-photo-33921375.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33921375/pexels-photo-33921375.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 5414,
+      "alt": "Breathtaking view of Nanjing's skyline with lush greenery in the foreground.",
+      "query": "南宁 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-view-of-nanjing-city-china-33921375/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37599527/pexels-photo-37599527.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37599527/pexels-photo-37599527.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3840,
+      "height": 2560,
+      "alt": "A stunning twilight view of Ningbo's skyline featuring modern skyscrapers and a pastel sky.",
+      "query": "南宁 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Jin Zhang",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-of-ningbo-at-twilight-with-skyscrapers-37599527/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "3-5 月 / 10-11 月（夏季长且闷热多雨，7-9 月是台风与暴雨季；冬季温暖少雪）",
+    "suggestedDays": "3-4 天（老城青秀山+南湖+博物馆 1 天，三街两巷+中山路 1 天，大明山/扬美古镇出城 1-2 天）",
+    "transitTip": "地铁 1/2/3 号线覆盖主要城区，东站和站都通地铁。老城景点密集，共享单车加步行最方便。去大明山、扬美古镇要靠自驾或专线，预留出城时间。南宁吴圩机场离市区约半小时到一小时。",
+    "climateTip": "南亚热带季风气候。长夏无冬，雨量充沛，夏季闷热、台风季多暴雨。3-5 月与 10-11 月最舒服，是看绿和看江的好时候。"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-04"
+  },
+  "updatedAt": "2026-10-04"
+}

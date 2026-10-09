@@ -1,0 +1,117 @@
+{
+  "id": "lanting-senlin",
+  "name": "兰亭国家森林公园",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "兰亭周边的竹海山林，徒步洗肺。",
+  "description": "兰亭国家森林公园在兰亭景区周边，以毛竹林和丘陵山林为主，空气好、步道成熟，是市区边缘的天然氧吧。它比兰亭景区更野、更免费，适合徒步和骑行。春季笋出、夏季绿浓，与兰亭书法游可一静一动搭配。距老城约半小时。",
+  "highlights": [
+    "兰亭周边竹海丘陵",
+    "天然氧吧，步道成熟",
+    "比兰亭更野更免费"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.523517,
+      "lat": 29.923594,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "绍兴市柯桥区兰亭镇",
+    "district": "柯桥区",
+    "transportTip": "公交或打车至兰亭约30分钟",
+    "entrance": {
+      "lng": 120.512798,
+      "lat": 29.913735,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放（以公告为准）",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "solo",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38512878/pexels-photo-38512878.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38512878/pexels-photo-38512878.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6048,
+      "height": 4024,
+      "alt": "Explore the tranquil beauty of a traditional Chinese bridge and garden in Shaoxing, China.",
+      "query": "natural landscape China shaoxing",
+      "credit": {
+        "source": "pexels",
+        "author": "Kenny Foo",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-traditional-bridge-in-shaoxing-china-38512878/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38249370/pexels-photo-38249370.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38249370/pexels-photo-38249370.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6048,
+      "height": 4024,
+      "alt": "Tranquil view of a Chinese pavilion nestled in lush greenery by the water in Shaoxing, China.",
+      "query": "natural landscape China shaoxing",
+      "credit": {
+        "source": "pexels",
+        "author": "Kenny Foo",
+        "sourceUrl": "https://www.pexels.com/photo/serene-chinese-pavilion-in-shaoxing-landscape-38249370/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31122114/pexels-photo-31122114.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31122114/pexels-photo-31122114.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4096,
+      "alt": "Peaceful autumn scene of wetlands and trees in Shaoxing, China.",
+      "query": "natural landscape China shaoxing",
+      "credit": {
+        "source": "pexels",
+        "author": "TIANYUN XIA",
+        "sourceUrl": "https://www.pexels.com/photo/serene-autumn-landscape-in-shaoxing-china-31122114/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "森林公园",
+    "竹林",
+    "徒步"
+  ],
+  "popularity": 60,
+  "sources": [
+    {
+      "title": "百度百科·兰亭",
+      "url": "https://baike.baidu.com/item/%E5%85%B0%E4%BA%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "兰亭国家森林公园"
+  },
+  "_geocodeTitle": "兰亭国家森林公园",
+  "_geocodeSuspect": false,
+  "district": "330603"
+}

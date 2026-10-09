@@ -1,0 +1,112 @@
+{
+  "id": "longxi-hongkou",
+  "name": "龙溪—虹口",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "国家级自然保护区，漂流与原始林。",
+  "description": "龙溪—虹口是都江堰北部的一处国家级自然保护区，山大林密、溪水冰凉，是成都周边有名的避暑和漂流地。虹口那一段漂流夏天最火，皮划艇顺着山涧冲下来又凉又爽。保护区里还藏着大熊猫、金丝猴的栖息地，运气好能在红外相机之外偶遇。除了玩水，沿沟徒步也舒服，就是路野、要结伴。",
+  "highlights": [
+    "自然保护区",
+    "夏日漂流",
+    "原始森林"
+  ],
+  "location": {
+    "point": {
+      "lng": 103.711465,
+      "lat": 31.260643,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "四川省成都市都江堰市龙池镇虹口",
+    "district": "都江堰",
+    "transportTip": "都江堰市区乘车约 40 分钟至虹口"
+  },
+  "practical": {
+    "openHours": "全天开放（漂流约 09:00-17:00）",
+    "openHoursRef": 0,
+    "ticket": "免费开放（漂流项目另计）",
+    "ticketRef": 0,
+    "duration": "建议 180-360 分钟",
+    "durationMinutes": [
+      180,
+      360
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/31306040/pexels-photo-31306040.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31306040/pexels-photo-31306040.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "Scenic river flowing through a quaint village, framed by autumn foliage.",
+      "query": "natural landscape China dujiangyan",
+      "credit": {
+        "source": "pexels",
+        "author": "Johnny Song",
+        "sourceUrl": "https://www.pexels.com/photo/picturesque-river-view-with-autumn-leaves-31306040/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36186822/pexels-photo-36186822.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36186822/pexels-photo-36186822.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Calm pond with vibrant fish swimming beneath the reflection of overhanging leaves.",
+      "query": "natural landscape China dujiangyan",
+      "credit": {
+        "source": "pexels",
+        "author": "Shuaizhi Tian",
+        "sourceUrl": "https://www.pexels.com/photo/serene-pond-with-colorful-fish-and-leaves-36186822/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36186821/pexels-photo-36186821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36186821/pexels-photo-36186821.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Police and fire response vehicles parked roadside ready for emergency situations.",
+      "query": "natural landscape China dujiangyan",
+      "credit": {
+        "source": "pexels",
+        "author": "Shuaizhi Tian",
+        "sourceUrl": "https://www.pexels.com/photo/police-and-fire-vehicles-parked-on-city-street-36186821/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "自然",
+    "漂流",
+    "保护地"
+  ],
+  "popularity": 77,
+  "sources": [
+    {
+      "title": "百度百科·虹口自然保护区",
+      "url": "https://baike.baidu.com/item/%E8%99%B9%E5%8F%A3%E8%87%AA%E7%84%B6%E4%BF%9D%E6%8A%A4%E5%8C%BA",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-06"
+    }
+  ],
+  "updatedAt": "2026-10-06",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "龙溪—虹口"
+  },
+  "_geocodeTitle": "龙溪虹口国家级自然保护区",
+  "_geocodeSuspect": false,
+  "district": "510181"
+}

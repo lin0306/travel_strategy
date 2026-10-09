@@ -1,0 +1,87 @@
+{
+  "id": "sheshan-forest-park",
+  "name": "佘山国家森林公园",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "上海唯一的自然山林地带，东西佘山主园区免费免预约，半天可以走完。",
+  "description": "上海是冲积平原，全城几乎没有山，佘山一带因此成了市区唯一的自然山林风景区。东佘山以竹林栈道为主，坡度平缓，走得轻松；西佘山上有佘山天主教堂和中国近代天文学的发源地佘山天文台，天文台里的上海天文博物馆藏有一台百年历史的望远镜。主园区免费、不用预约，只有天文博物馆和天马山、小昆山几个园中园单独收费。强度不高，适合安排半天。",
+  "highlights": [
+    "上海唯一的自然山林",
+    "东佘山竹林栈道坡度平缓",
+    "西佘山有百年天文台"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.196041,
+      "lat": 31.094166,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "上海市松江区外青松公路9258号",
+    "district": "松江",
+    "transportTip": "地铁9号线佘山站，换乘松江92路/94路",
+    "entrance": {
+      "lng": 121.196953,
+      "lat": 31.093385,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "旺季(5月1日-10月7日)08:30-17:00；淡季(10月8日-次年4月30日)08:30-16:30",
+    "openHoursRef": 0,
+    "ticket": "东、西佘山主园区免费；上海天文博物馆12元，天马山/小昆山园另收费",
+    "ticketRef": 0,
+    "duration": "建议 180-300 分钟",
+    "durationMinutes": [
+      180,
+      300
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "kids",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Landscape_painting_of_XianXian_ShanZhuang_and_Qinshan_Hill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Landscape_painting_of_XianXian_ShanZhuang_and_Qinshan_Hill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 802,
+      "alt": "Landscape painting of XianXian ShanZhuang and Qinshan Hill.jpg",
+      "query": "natural landscape China shanghai",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Collecotordocumentts",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Landscape_painting_of_XianXian_ShanZhuang_and_Qinshan_Hill.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "山林",
+    "免费",
+    "徒步"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·佘山国家森林公园",
+      "url": "https://baike.baidu.com/item/%E4%BD%98%E5%B1%B1%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-23"
+    }
+  ],
+  "updatedAt": "2026-09-23",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "佘山国家森林公园"
+  },
+  "_geocodeTitle": "佘山国家森林公园",
+  "_geocodeSuspect": false,
+  "district": "310117"
+}

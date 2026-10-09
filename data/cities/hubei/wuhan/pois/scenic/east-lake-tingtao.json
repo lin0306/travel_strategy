@@ -1,0 +1,89 @@
+{
+  "id": "east-lake-tingtao",
+  "name": "东湖听涛景区",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "东湖最靠市区的一片，屈原像是这一带最认得出的标志。",
+  "description": "东湖是中国最大的城中湖，听涛景区在湖的西北岸，是三镇居民最常去的一段。它的名字来自湖浪拍岸的声音。这里的轴线从屈原纪念馆到行吟阁，湖面开阔，是本地人散步、游泳、拍婚纱照的地方。免费的这一下的规模感，要比付费景区段更真实。它旁边就是湖北省博，两个可以连着安排。傍晚光线最好。",
+  "highlights": [
+    "中国最大的城中湖",
+    "屈原像与行吟阁是这一段的标志",
+    "与省博相邻，可连着安排"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.383437,
+      "lat": 30.556453,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "武汉市武昌区沿湖大道（东湖生态旅游风景区）",
+    "district": "武昌区",
+    "transportTip": "地铁8号线梨园站步行",
+    "entrance": {
+      "lng": 114.371711,
+      "lat": 30.563075,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 120-300 分钟",
+    "durationMinutes": [
+      120,
+      300
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "elders",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Liu_Bei%2C_Guan_Yu_and_Zhang_Fei.jpg/1280px-Liu_Bei%2C_Guan_Yu_and_Zhang_Fei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Liu_Bei%2C_Guan_Yu_and_Zhang_Fei.jpg/1280px-Liu_Bei%2C_Guan_Yu_and_Zhang_Fei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Liu Bei, Guan Yu and Zhang Fei.jpg",
+      "query": "Chinese classical garden wuhan",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Dhugal Fletcher from Singapore, Singapore",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liu_Bei,_Guan_Yu_and_Zhang_Fei.jpg",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湖景",
+    "免费",
+    "公园"
+  ],
+  "popularity": 88,
+  "sources": [
+    {
+      "title": "百度百科·东湖",
+      "url": "https://baike.baidu.com/item/%E4%B8%9C%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-23"
+    }
+  ],
+  "updatedAt": "2026-09-23",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "东湖听涛景区"
+  },
+  "_geocodeTitle": "东湖听涛景区",
+  "_geocodeSuspect": false,
+  "district": "420106"
+}

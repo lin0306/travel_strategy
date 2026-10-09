@@ -1,0 +1,119 @@
+{
+  "id": "spruce-meadow",
+  "name": "云杉坪",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "玉龙雪山山腰的一片云杉林与草甸，索道上来，是看雪山近距离山体的地方。",
+  "description": "云杉坪在玉龙雪山山腰，海拔三千二百米上下，是一片夹在云杉林里的草甸。上这里要坐小索道，下来再沿栈道走一段进林子，出林子就是一片开阔的草甸，正对雪山的山体。它与大索道到的冰川公园是两种体验：冰川公园在四千五百米，看的是冰川与高处的荒；云杉坪低一千多米，看的是雪山从林线以上拔起的那一整面，而且有树、有草，体感舒服得多。体力一般或带长辈小孩的，这里比大索道合适。整个两到四小时，门票与索道另算，中等。它在同一个景区里，与蓝月谷、甘海子顺路，一天能排在一起，但三处都去会赶，选两处舒服。",
+  "highlights": [
+    "海拔三千二百米，云杉林夹着一片草甸正对雪山",
+    "比大索道低一千多米，看的是雪山拔起的那一整面",
+    "体力一般或带长辈小孩的，这里比大索道合适"
+  ],
+  "location": {
+    "point": {
+      "lng": 100.236099,
+      "lat": 27.12885,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "云南省丽江市玉龙纳西族自治县玉龙雪山",
+    "district": "玉龙纳西族自治县",
+    "transportTip": "进玉龙雪山景区后乘小索道至云杉坪",
+    "entrance": {
+      "lng": 100.255774,
+      "lat": 27.096343,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约8:00-17:00，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "索道票价中等，以官方公告为准",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "elders",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/34486996/pexels-photo-34486996.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34486996/pexels-photo-34486996.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7837,
+      "height": 5227,
+      "alt": "Peaceful scene of a scenic park with mountains, lake, and traditional Chinese architecture under a cloudy sky.",
+      "query": "natural landscape China lijiang",
+      "credit": {
+        "source": "pexels",
+        "author": "David Tran",
+        "sourceUrl": "https://www.pexels.com/photo/tranquil-park-landscape-with-chinese-architecture-34486996/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34622072/pexels-photo-34622072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34622072/pexels-photo-34622072.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 3000,
+      "alt": "Serene view of a traditional pavilion at Black Dragon Pool with Jade Dragon Snow Mountain in the background.",
+      "query": "natural landscape China lijiang",
+      "credit": {
+        "source": "pexels",
+        "author": "Pua Tresia",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-pavilion-at-black-dragon-pool-34622072/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7170939/pexels-photo-7170939.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7170939/pexels-photo-7170939.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7360,
+      "height": 4912,
+      "alt": "A tranquil lakeside view with traditional architecture and mountains in the background.",
+      "query": "natural landscape China lijiang",
+      "credit": {
+        "source": "pexels",
+        "author": "David Yu",
+        "sourceUrl": "https://www.pexels.com/photo/waterfront-reflecting-in-a-lake-7170939/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "索道",
+    "云杉林",
+    "草甸"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·玉龙雪山",
+      "url": "https://baike.baidu.com/item/%E7%8E%89%E9%BE%99%E9%9B%AA%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "云杉坪"
+  },
+  "_geocodeTitle": "云杉坪索道",
+  "_geocodeSuspect": false,
+  "district": "530721"
+}

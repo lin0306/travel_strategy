@@ -1,0 +1,81 @@
+{
+  "id": "tongshengxiang",
+  "name": "同盛祥",
+  "category": "food",
+  "subtype": "local",
+  "summary": "中华老字号泡馍馆，与老孙家并称，馍要自己掰。",
+  "description": "同盛祥创建于 1920 年，同样是西安泡馍的代表，与老孙家一直是本地人争论“哪家更好”的两个名字。它的汤底清亮、肉烂而不柴，掰好的馍煮出来不糊不散，夹一筷子能感觉到汤的厚。店里也做小炒、水盆羊肉与清真热菜。环境比街边馆子规整，带长辈来比较体面，价格略高于小店。",
+  "highlights": [
+    "与老孙家并称的泡馍老字号",
+    "汤清肉烂，馍不糊不散",
+    "环境规整，适合带长辈"
+  ],
+  "location": {
+    "point": {
+      "lng": 108.945218,
+      "lat": 34.260281,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "西安市碑林区钟楼盘道附近（以门店公告为准）",
+    "district": "莲湖区",
+    "transportTip": "地铁 2 号线钟楼站，步行约 5 分钟"
+  },
+  "practical": {
+    "openHours": "约 10:00-21:00（以门店公告为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约 80 元起（以门店为准）",
+    "ticketRef": 0,
+    "duration": "建议 90-120 分钟",
+    "durationMinutes": [
+      90,
+      120
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/ShaoxingXianheng.jpg/1280px-ShaoxingXianheng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/ShaoxingXianheng.jpg/1280px-ShaoxingXianheng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "ShaoxingXianheng.jpg",
+      "query": "Chinese restaurant interior xian",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Jiong Sheng",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:ShaoxingXianheng.jpg",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "泡馍",
+    "老字号",
+    "清真"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "百度百科·同盛祥",
+      "url": "https://baike.baidu.com/item/%E5%90%8C%E7%9B%9B%E7%A5%A5",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "同盛祥"
+  },
+  "_geocodeTitle": "同盛祥烧烤部",
+  "_geocodeSuspect": false,
+  "district": "610104"
+}

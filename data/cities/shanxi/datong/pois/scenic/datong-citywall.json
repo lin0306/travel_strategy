@@ -1,0 +1,83 @@
+{
+  "id": "datong-citywall",
+  "name": "大同古城墙",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "平城区一圈明代城墙，近年重修完整，能上墙走，晚上打灯。",
+  "description": "大同古城墙在平城区，是明代的城墙，近年重修过，现在一圈是完整的。墙高，外面包砖，上头能走。站在墙上能看见城里的老房子和远处的山。它是这座城的骨架 —— 城里的鼓楼、华严寺都在墙里头。晚上灯打起来，从外面看最好。上墙免费。",
+  "highlights": [
+    "明代城墙近年重修完整，可上墙走",
+    "站在墙上看老城与远山",
+    "夜间打灯，上墙免费"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.312419,
+      "lat": 40.093146,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山西省大同市平城区大同古城墙",
+    "district": "平城区",
+    "transportTip": "市区公交或步行到城墙上墙口"
+  },
+  "practical": {
+    "openHours": "约08:00-21:00，以公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/%E5%A4%A7%E5%90%8C%E6%B8%85%E7%9C%9F%E5%A4%A7%E5%AF%BA_%2854579120624%29.jpg/1280px-%E5%A4%A7%E5%90%8C%E6%B8%85%E7%9C%9F%E5%A4%A7%E5%AF%BA_%2854579120624%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/%E5%A4%A7%E5%90%8C%E6%B8%85%E7%9C%9F%E5%A4%A7%E5%AF%BA_%2854579120624%29.jpg/1280px-%E5%A4%A7%E5%90%8C%E6%B8%85%E7%9C%9F%E5%A4%A7%E5%AF%BA_%2854579120624%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "大同清真大寺 (54579120624).jpg",
+      "query": "Chinese historic architecture datong",
+      "credit": {
+        "source": "wikimedia",
+        "author": "xiquinhosilva",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E5%90%8C%E6%B8%85%E7%9C%9F%E5%A4%A7%E5%AF%BA_(54579120624).jpg",
+        "license": "CC BY 2.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "城墙",
+    "明代",
+    "夜景"
+  ],
+  "popularity": 86,
+  "sources": [
+    {
+      "title": "百度百科·大同古城墙",
+      "url": "https://baike.baidu.com/item/%E5%A4%A7%E5%90%8C%E5%8F%A4%E5%9F%8E%E5%A2%99",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "大同古城墙"
+  },
+  "_geocodeTitle": "大同古城墙景区",
+  "_geocodeSuspect": false,
+  "district": "140213"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "dapipi",
+  "name": "东北大拉皮",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "凉拌拉皮，筋道透亮，浇芝麻酱蒜汁，夏天开胃。",
+  "description": "东北大拉皮是凉拌的粉皮，筋道透亮。浇上芝麻酱、蒜汁、黄瓜丝，凉凉的。它是东北菜里的开胃凉菜，配锅包肉解腻。夏天最招人喜欢。芝麻酱香，蒜提味，好吃。街边老店往往比大馆子更正宗些。",
+  "highlights": [
+    "凉拌筋道透亮粉皮",
+    "浇芝麻酱蒜汁黄瓜",
+    "夏天开胃配锅包肉"
+  ],
+  "location": {
+    "point": {
+      "lng": 123.515563,
+      "lat": 41.841065,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省沈阳市各东北菜馆",
+    "district": "大东区",
+    "transportTip": "市区东北菜馆均有"
+  },
+  "practical": {
+    "openHours": "约10:00-21:00",
+    "openHoursRef": 0,
+    "ticket": "约16元/份起",
+    "ticketRef": 0,
+    "duration": "建议 10-20 分钟",
+    "durationMinutes": [
+      10,
+      20
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Cooked_Northeast-Chinese_ramen.jpg/1280px-Cooked_Northeast-Chinese_ramen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Cooked_Northeast-Chinese_ramen.jpg/1280px-Cooked_Northeast-Chinese_ramen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Cooked Northeast-Chinese ramen.jpg",
+      "query": "东北大拉皮",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Fumikas Sagisavas",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cooked_Northeast-Chinese_ramen.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Cooked_Northeast_Chinese_ramen.jpg/1280px-Cooked_Northeast_Chinese_ramen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Cooked_Northeast_Chinese_ramen.jpg/1280px-Cooked_Northeast_Chinese_ramen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Cooked Northeast Chinese ramen.jpg",
+      "query": "东北大拉皮",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Fumikas Sagisavas",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cooked_Northeast_Chinese_ramen.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Cuisine_%28_in_China%29_01.jpg/1280px-Cuisine_%28_in_China%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Cuisine_%28_in_China%29_01.jpg/1280px-Cuisine_%28_in_China%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1800,
+      "alt": "Cuisine ( in China) 01.jpg",
+      "query": "东北大拉皮",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Pauloleong2002",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cuisine_(_in_China)_01.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "拉皮",
+    "凉菜",
+    "东北"
+  ],
+  "popularity": 78,
+  "sources": [
+    {
+      "title": "百度百科·东北大拉皮",
+      "url": "https://baike.baidu.com/item/%E4%B8%9C%E5%8C%97%E5%A4%A7%E6%8B%89%E7%9A%AE",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Northeast Liangpi",
+    "zh": "东北大拉皮"
+  },
+  "district": "210104"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "tianpei",
+  "name": "甜醅",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "燕麦或青稞发酵的甜酒酿，清甜带酒香。",
+  "description": "甜醅用燕麦或青稞发酵做成，像甜酒酿。颗粒饱满，汤清微甜，带淡淡酒香，不醉人。夏天冰着喝解暑，冬天温着暖身。街边小摊和甜食店都有。一碗几元，以摊主为准。孩子也能吃，但含少量酒精别贪多。和牛奶鸡蛋醪糟是夜市搭档。",
+  "highlights": [
+    "燕麦青稞发酵甜酒酿",
+    "清甜带酒香不醉人",
+    "夏冰冬温皆宜"
+  ],
+  "location": {
+    "point": {
+      "lng": 103.825297,
+      "lat": 36.057351,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "甘肃省兰州市城关区甜醅老店",
+    "district": "城关区",
+    "transportTip": "城关区夜市或甜食店即买即吃"
+  },
+  "practical": {
+    "openHours": "以店家为准",
+    "openHoursRef": 0,
+    "ticket": "约 5 元起，以店家为准",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
+      15,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/5538163/pexels-photo-5538163.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/5538163/pexels-photo-5538163.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6240,
+      "height": 4160,
+      "alt": "Close-up view of tattooed hands handling barley grains, highlighting craft brewing process.",
+      "query": "Tianpei Fermented Grain",
+      "credit": {
+        "source": "pexels",
+        "author": "cottonbro studio",
+        "sourceUrl": "https://www.pexels.com/photo/a-person-holding-dried-grains-5538163/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/5538162/pexels-photo-5538162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/5538162/pexels-photo-5538162.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6240,
+      "height": 4160,
+      "alt": "Close-up of hands touching grains for brewing. Ideal for illustrating brewing processes.",
+      "query": "Tianpei Fermented Grain",
+      "credit": {
+        "source": "pexels",
+        "author": "cottonbro studio",
+        "sourceUrl": "https://www.pexels.com/photo/persons-foot-on-brown-textile-5538162/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/5538161/pexels-photo-5538161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/5538161/pexels-photo-5538161.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "Close-up of hands holding wheat grains, perfect for brewing and fermentation themes.",
+      "query": "Tianpei Fermented Grain",
+      "credit": {
+        "source": "pexels",
+        "author": "cottonbro studio",
+        "sourceUrl": "https://www.pexels.com/photo/person-holding-dried-grains-5538161/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "甜醅",
+    "发酵",
+    "小吃"
+  ],
+  "popularity": 58,
+  "sources": [
+    {
+      "title": "甜醅·百度百科",
+      "url": "https://baike.baidu.com/item/%E7%94%9C%E9%86%85",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Tianpei Fermented Grain",
+    "zh": "甜醅"
+  },
+  "_geocodeTitle": "城关区",
+  "_geocodeSuspect": false,
+  "district": "620102"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "tianbula",
+  "name": "甜不辣",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "鱼浆做的甜不辣，煮软后淋甜酱配热汤。",
+  "description": "甜不辣在台北的小吃摊与夜市很常见。它是用鱼浆加淀粉打成，做成条状、片状或圆形后油炸，口感弹而有鱼味。摊子上通常是炸好后再下热汤煮软，捞起淋一层甜甜的米酱，配一小碗清汤。老摊子多集中在万华一带的老街与夜市，蘸酱是各家自己调的，味道各有不同。它属于小吃不是正餐，一份当点心吃最好。冬天热汤暖手，夏天吃也不会太腻。",
+  "highlights": [
+    "鱼浆制成，弹而有鱼味",
+    "炸后下汤煮软再淋甜酱",
+    "多配一小碗清汤"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.516,
+      "lat": 25.06361,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "台北市万华区老街与夜市摊子",
+    "district": "大同区",
+    "transportTip": "捷运龙山寺站、西门站周边"
+  },
+  "practical": {
+    "openHours": "多为11:00-22:00，各摊不一",
+    "openHoursRef": 0,
+    "ticket": "一份约新台币60元至90元，以摊家为准",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/7298037/pexels-photo-7298037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7298037/pexels-photo-7298037.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 1672,
+      "height": 2508,
+      "alt": "Delicious slices of taro cake elegantly served on a decorative plate with dipping sauce.",
+      "query": "Taiwanese tianbula fish cake",
+      "credit": {
+        "source": "pexels",
+        "author": "麗娜 顏",
+        "sourceUrl": "https://www.pexels.com/photo/cooked-food-on-the-plate-7298037/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37464600/pexels-photo-37464600.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37464600/pexels-photo-37464600.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5168,
+      "height": 3448,
+      "alt": "Authentic Taiwanese Qingtuan rice cake made with wormwood, captured up close in Taipei.",
+      "query": "Taiwanese tianbula fish cake",
+      "credit": {
+        "source": "pexels",
+        "author": "Jimmy Liao",
+        "sourceUrl": "https://www.pexels.com/photo/close-up-of-traditional-taiwanese-qingtuan-rice-cake-37464600/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37464601/pexels-photo-37464601.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37464601/pexels-photo-37464601.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5168,
+      "height": 3448,
+      "alt": "Delicious traditional Taiwanese grass rice cakes freshly prepared and displayed on a wooden board.",
+      "query": "Taiwanese tianbula fish cake",
+      "credit": {
+        "source": "pexels",
+        "author": "Jimmy Liao",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-taiwanese-grass-rice-cakes-on-display-37464601/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "甜不辣",
+    "鱼浆",
+    "小吃"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "甜不辣·百度百科",
+      "url": "https://baike.baidu.com/item/%E7%94%9C%E4%B8%8D%E8%BE%A3",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-03"
+    }
+  ],
+  "updatedAt": "2026-10-03",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Taiwanese tianbula fish cake",
+    "zh": "甜不辣"
+  },
+  "_geocodeTitle": "甜不辣",
+  "_geocodeSuspect": false,
+  "district": "711009"
+}

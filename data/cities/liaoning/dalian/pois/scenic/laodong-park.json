@@ -1,0 +1,119 @@
+{
+  "id": "laodong-park",
+  "name": "劳动公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "大连市中心一处老公园，有巨型足球雕塑与观景索道。",
+  "description": "劳动公园在大连中山市中心，是一处老牌城市公园，绿地多、大树多。公园门口有一座巨大的足球雕塑，是大连的标志。园里有索道通向旁边的电视塔，上去能看全城。本地人遛弯、锻炼。免费。",
+  "highlights": [
+    "中山市中心老公园，绿地大树多",
+    "门口巨型足球雕塑是大连标志",
+    "索道通电视塔俯瞰全城，免费"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.634778,
+      "lat": 38.911792,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省大连市中山区劳动公园",
+    "district": "西岗区",
+    "transportTip": "中山区乘公交或地铁可达",
+    "entrance": {
+      "lng": 121.631466,
+      "lat": 38.913801,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/28490351/pexels-photo-28490351.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/28490351/pexels-photo-28490351.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Beautiful traditional Chinese temple architecture in Dalian, Liaoning Province, China during spring.",
+      "query": "Chinese classical garden dalian",
+      "credit": {
+        "source": "pexels",
+        "author": "YFS Visuals",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-temple-in-dalian-china-28490351/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37320643/pexels-photo-37320643.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37320643/pexels-photo-37320643.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3000,
+      "height": 4000,
+      "alt": "Serene Chinese pavilion surrounded by vibrant spring foliage in Nanchino, China.",
+      "query": "Chinese classical garden dalian",
+      "credit": {
+        "source": "pexels",
+        "author": "Jessica Sacco",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-pavilion-in-lush-spring-garden-37320643/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37044011/pexels-photo-37044011.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37044011/pexels-photo-37044011.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3424,
+      "height": 5134,
+      "alt": "A classic Asian pavilion nestled in a tranquil forest setting, captured in black and white.",
+      "query": "Chinese classical garden dalian",
+      "credit": {
+        "source": "pexels",
+        "author": "Phoebe Buffay",
+        "sourceUrl": "https://www.pexels.com/photo/elegant-traditional-asian-pavilion-in-serene-forest-37044011/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "公园",
+    "市中心",
+    "免费"
+  ],
+  "popularity": 50,
+  "sources": [
+    {
+      "title": "百度百科·劳动公园",
+      "url": "https://baike.baidu.com/item/%E5%8A%B3%E5%8A%A8%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "劳动公园"
+  },
+  "_geocodeTitle": "劳动公园",
+  "_geocodeSuspect": false,
+  "district": "210203"
+}

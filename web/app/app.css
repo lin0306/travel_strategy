@@ -1,0 +1,273 @@
+/**
+ * 全局样式与设计 token（唯一出处）。
+ *
+ * ## 两条不可动摇的约定
+ * 1. **移动优先**：默认样式写的就是移动端，媒体查询只做**向上增强**（`min-width`）。
+ *    禁止先写桌面再用 `max-md:` 反向覆盖 —— 那样每一处改动都要写两遍。
+ * 2. **浮层尺寸只在这里定义**。`--panel-*` 不只是样式：`fitView.ts` 实测浮层占位来
+ *    反推地图可用区，改了面板宽度地图视野会自动跟着变。散落硬编码会让两者失配。
+ */
+
+@import 'tailwindcss';
+
+/* ────────────────────────────────────────────────
+ * Tailwind 主题（生成 bg-* / text-* 这类工具类）
+ * ────────────────────────────────────────────── */
+
+@theme {
+  --color-primary: #1677ff;
+  /* ⚠️ 下面四色是**大类筛选 chip** 的颜色。
+     marker 的颜色由 subtype（12 细类）决定，定义在 shared/schema.ts 的 SUBTYPE_META —— 
+     两套色系语义不同，不可互相复用。 */
+  --color-scenic: #2f7be8;
+  --color-food: #e8672f;
+  --color-hotspot: #e8389b;
+  --color-culture: #12a67a;
+
+  --color-ink: #1a1d24;
+  --color-ink-2: #6b7280;
+  --color-line: #e8ebf0;
+  /* 次级底色：搜索框底色、下拉项 hover 底、todo 标签底。
+     比 --color-line 再浅一档 —— 它要能"沉下去"当背景，用 --color-line 会和边框同色糊在一起 */
+  --color-line-2: #f0f2f6;
+  --color-surface: #ffffff;
+  --color-bg: #f7f8fa;
+
+  /* 收录密度填充色（下钻页的省/市面）。刻意与 marker 色系拉开 ——
+     面是"背景信息"，点是"内容" */
+  --color-density-0: #edeff2; /* 未收录（配灰虚线） */
+  --color-density-1: #d6e4f7; /* 1–19 */
+  --color-density-2: #a9c7f0; /* 20–49 */
+  --color-density-3: #6e9fe0; /* 50+ */
+
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI',
+    sans-serif;
+}
+
+/* ────────────────────────────────────────────────
+ * 浮层尺寸 token（05 文档第四节 · 禁硬编码）
+ * ────────────────────────────────────────────── */
+
+:root {
+  --panel-left: 348px;
+  --panel-detail: 620px;
+  /* 右侧「路线规划」浮层（plans/13 §6.4）。★ 列表态与详情态**同宽** ——
+     两态共用一块浮层，宽度一变就是一次跳动，看起来像"面板被重建了" */
+  --panel-plan: 420px;
+
+  --flt-inset: 16px;
+  --flt-gap: 12px;
+  --flt-radius: 12px;
+  --flt-shadow: 0 6px 20px rgba(16, 24, 40, 0.13);
+
+  /* 顶栏本体高度（原型 --topbar-h，05 文档 P1 骨架） */
+  --topbar-h: 52px;
+
+  /* 顶部轨道**下方**的起点：TopBar 自身 top(inset) + 高度 + 一条间隙。
+     ⚠️ 这是给"顶栏底下的东西"用的（左面板 / 预览卡 / 状态卡），
+        顶栏自己贴的是 `--flt-inset`，**不能拿这个值当自己的 top**。
+        早期版本让 `Overlay` 的 top-left/top-right 也取它，于是顶栏整体下移了
+        一条高度（96px），顶部空出一片 —— 见 Overlay.tsx 的 'top' 锚点注释 */
+  --rail-top: calc(var(--topbar-h) + var(--flt-inset) + var(--flt-gap));
+
+  color-scheme: light;
+}
+
+/* ────────────────────────────────────────────────
+ * 基础
+ * ────────────────────────────────────────────── */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background: var(--color-bg);
+  /* ★ 用 100svh 而不是 100vh：移动端 100vh 会溢出 56–80px（地址栏参与计算）。
+     `dvh` 会随地址栏收放抖动，慎用 */
+  min-height: 100svh;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior: none;
+}
+
+body {
+  /* 地图即画布：页面本身不滚动，滚动都发生在浮层内部 */
+  overflow: hidden;
+}
+
+/* 中文正文行高（05 文档：正文 1.75） */
+p {
+  line-height: 1.75;
+}
+
+/* 滚动条统一（横向细一点，别把内容挤瘦） */
+.scroll {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(26, 29, 36, 0.22) transparent;
+}
+.scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.scroll::-webkit-scrollbar-thumb {
+  background: rgba(26, 29, 36, 0.22);
+  border-radius: 3px;
+}
+.scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* ────────────────────────────────────────────────
+ * 地图即画布（布局模型，四规则）
+ * ① 地图层 position:absolute inset:0 —— 它是页面本身，不是组件
+ * ② UI 一律 absolute + 白底 + 圆角 + 投影
+ * ③ 浮层定宽/定档位，不用 flex:1 挤占地图
+ * ④ 关掉浮层地图不变形（是"盖"不是"挤"）
+ * ────────────────────────────────────────────── */
+
+.map-layer {
+  position: absolute;
+  inset: 0;
+  /* 没有这一层时地图容器会被浮层撑开，zoom 计算全错 */
+  overflow: hidden;
+  /*
+   * ★★ 必须是「层叠上下文」——这是浮层能不能点的前提条件 ★★
+   *
+   * 腾讯 GL 会在容器内部建一个 **z-index: 1000** 的透明层（标注/自定义覆盖物
+   * 的宿主），它铺满整个视口且 `pointer-events: auto`。
+   *
+   * 如果 `.map-layer` 不是层叠上下文（`position:absolute` + `z-index:auto`
+   * 恰恰**不是**），那个 1000 就会**逃到页面级**参与排序，直接压过所有浮层
+   * （`--panel-*` 是 20~30，状态卡 40）—— 视觉上看不出异常（它是透明的），
+   * 但**命中测试全部落到它头上**：浮层里的点击、拖动、滚轮统统被交给地图，
+   * 于是"在浮层面板里拖动 → 地图在动"，浮层像是坏的。
+   *
+   * `z-index: 0` 是主手段（定位元素 + 非 auto 的 z-index ⇒ 层叠上下文）；
+   * `isolation: isolate` 是保险丝：将来有人把 position 改掉，它仍然兜得住。
+   */
+  z-index: 0;
+  isolation: isolate;
+}
+
+/* ────────────────────────────────────────────────
+ * 地图容器内：藏掉腾讯 SDK 自己画的**独立点**（2026-09-24 定稿）
+ *
+ * 那张图是 SDK 内置的 **68×100 红色水滴 PNG**（webpack 模块 `30933`），只为
+ * `count === 1` 的簇而画 —— 而 `MarkerCluster` 只有这一套样式，**分不了细类色**
+ * （实测见 `plans/12-poi-aggregation.md` §14）。所以分工是「聚类算它的、画面归我们」：
+ * 独立点由 `poiLayer` 的 `dots` 层按细类色重画。
+ *
+ * ## 为什么一条静态规则就够（别再回去用 class + 观察者）
+ * 第一版是"SDK 建完元素 → 我们补一个 class"，结果**缩放时整批一闪**：
+ * 逐帧采样（`_tmp/cdp_leak_probe.mjs`）484 帧里 17 帧看得到红水滴、单帧最多 13 枚。
+ * 静态规则是**元素一插入就命中**，没有任何时间窗。
+ *
+ * ## 为什么 `img[height]` 精确命中独立点、不误伤气泡
+ * SDK 把多成员的簇画成 **`<div>`**（40px 圆 + 数字），只有单点才用 `img` —— 元素类型不同。
+ *
+ * ## 历史（2026-09-23，留着提醒）
+ * 这张图曾被 Tailwind Preflight 的 `img{max-width:100%;height:auto}` 压成 **0×0**，
+ * 症状是"气泡正常、单点全不见"。当时的解法是在这里给 `img[height]` 补
+ * `height/width/object-fit/max-width` + 一条 `transform` 去抵消 SDK 的定位偏移。
+ * 现在它根本不显示，那些声明已全部删掉。
+ * ────────────────────────────────────────────── */
+
+/* 把 SDK 画的**独立点**用一条静态规则藏掉（2026-09-24 定稿）。
+ *
+ * ## 为什么能一刀切
+ * `MarkerCluster` 只有一套渲染样式（内置红水滴），**分不了细类色** ——
+ * 实测（`_tmp/cdp_cluster_style.mjs`）：它既不吃自定义样式表，关掉默认渲染又整个不画，
+ * 所以"藏"是唯一的路。而它只把 `count === 1` 的簇画成 **`<img>`**，
+ * 多成员的簇画成 **`<div>`**（40px 圆 + 数字）—— 两者**元素类型不同**，
+ * 于是 `img[height]` 精确命中"当前是独立点"的那些，气泡分毫不受。
+ *
+ * ## 为什么必须是静态 CSS，而不是"建完元素再补个 class"
+ * 第一版就是那样做的（`MutationObserver` + 补 class），结果**缩放时整批一闪**：
+ * 逐帧采样实测（`_tmp/cdp_leak_probe.mjs`）484 帧里有 **17 帧**能看到红水滴、
+ * 单帧最多 **13 枚** —— "补 class"永远晚一拍。
+ * 静态规则是**元素一插入就命中**，没有任何时间窗。
+ *
+ * ★ 必须 `!important`：SDK 用 `setVisible()` 直接改内联 `display`，普通优先级压不住。
+ * ★ 这里**不再需要** `height` / `width` / `object-fit` / `transform` 那一套
+ *   （它们的用途是"让那张被 Preflight 压成 0×0 的水滴图能显示出来"）—— 现在它根本不显示。
+ */
+.map-layer img[height] {
+  display: none !important;
+}
+
+.flt {
+  position: absolute;
+  background: var(--color-surface);
+  border-radius: var(--flt-radius);
+  box-shadow: var(--flt-shadow);
+}
+
+/* ★ `.logo-mark` 已于 2026-10-07 删除。
+   早先它给站标方块加了一层渐变 + 阴影，理由写的是「在浅色地图上才有实体感，
+   纯色会糊成蓝斑」—— 但站标落在**白色顶栏浮层内**（`.flt` 的底是
+   `--color-surface: #fff`），并不压着地图，那条理由本来就不成立。
+   现在站标图形由 `common/ui/SiteMark.tsx` 自己带圆角与配色，
+   不再依赖这条CSS 类。 */
+
+/* 浮层入场：只做极轻的位移 + 淡入。地图在底下动，浮层再动画会让人晕 */
+@keyframes flt-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.flt-in {
+  animation: flt-in 0.18s ease-out;
+}
+
+/* 无障碍：尊重"减少动态效果" */
+@media (prefers-reduced-motion: reduce) {
+  .flt-in {
+    animation: none;
+  }
+}
+
+/* ────────────────────────────────────────────────
+ * 微信 / Android 老内核的 backdrop-filter 兜底
+ * 只做 @supports 渐进增强，不支持就纯色 ——
+ * 不支持时给半透明会让浮层上的文字糊在底图上，那比没有毛玻璃糟得多
+ * ────────────────────────────────────────────── */
+
+.glass {
+  background: var(--color-surface);
+}
+@supports (backdrop-filter: blur(12px)) {
+  .glass {
+    background: rgba(255, 255, 255, 0.86);
+    backdrop-filter: blur(12px);
+  }
+}
+
+/* ────────────────────────────────────────────────
+ * 移动端安全区（★ viewport-fit=cover 必须在 root.tsx 里声明，
+ * 否则 env(safe-area-inset-*) 恒为 0）
+ * ────────────────────────────────────────────── */
+
+.safe-top {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* 断点只改浮层尺寸，不改布局模型 */
+@media (min-width: 640px) {
+  :root {
+    --flt-inset: 16px;
+  }
+}
+

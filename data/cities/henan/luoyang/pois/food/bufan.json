@@ -1,0 +1,113 @@
+{
+  "id": "bufan",
+  "name": "不翻汤",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "洛阳一种小铜锅烩的汤，配不翻饼，是街头早点。",
+  "description": "不翻汤是洛阳一种街头汤，小铜锅里烩着粉丝、丸子、海带、木耳，浇醋和胡椒。配一块叫不翻的薄饼。热乎、酸辣、便宜。老城夜市与早晨都有摊。几个看点：小铜锅烩粉丝丸子海带木耳；配不翻薄饼，热乎酸辣；街头早点，便宜。",
+  "highlights": [
+    "小铜锅烩粉丝丸子海带木耳",
+    "配不翻薄饼，热乎酸辣",
+    "街头早点，便宜"
+  ],
+  "location": {
+    "point": {
+      "lng": 112.473396,
+      "lat": 34.681364,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河南省洛阳市老城区不翻汤摊",
+    "district": "老城区",
+    "transportTip": "老城夜市与早点摊均有"
+  },
+  "practical": {
+    "openHours": "约6:00-22:00",
+    "openHoursRef": 0,
+    "ticket": "便宜（十几元）",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
+      15,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/35045266/pexels-photo-35045266.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35045266/pexels-photo-35045266.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6048,
+      "height": 4032,
+      "alt": "Street view capturing daily life and activities in Luoyang, China, showcasing local businesses and urban traffic.",
+      "query": "Chinese street food dish luoyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Bingqian Li",
+        "sourceUrl": "https://www.pexels.com/photo/bustling-street-scene-in-luoyang-china-35045266/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4240,
+      "height": 2832,
+      "alt": "A bustling street food stall offering traditional dishes to a customer in stylish winter attire.",
+      "query": "Chinese street food dish luoyang",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3032,
+      "height": 3923,
+      "alt": "Browse a bustling Shenzhen food stall with diverse Asian meals and colorful bowls, embodying Chinese culinary culture.",
+      "query": "Chinese street food dish luoyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Jaime Hernandez Erives",
+        "sourceUrl": "https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "汤",
+    "街头",
+    "小吃"
+  ],
+  "popularity": 66,
+  "sources": [
+    {
+      "title": "百度百科·不翻汤",
+      "url": "https://baike.baidu.com/item/%E4%B8%8D%E7%BF%BB%E6%B1%A4",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "不翻汤"
+  },
+  "_geocodeTitle": "洛阳不翻汤",
+  "_geocodeSuspect": false,
+  "district": "410302"
+}

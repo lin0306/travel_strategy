@@ -1,0 +1,119 @@
+{
+  "id": "jinshatan",
+  "name": "金沙滩",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "开发区绵延的细沙海岸，看海与日落。",
+  "description": "金沙滩在烟台开发区（黄渤海新区）北侧海滨，是一片绵延的细软沙滩与开阔海岸。沙质干净、坡度平缓，是市区最近的大海浴场之一，夏季戏水、春秋散步都合适。岸边的天马栈桥伸入海中，是拍海景与日落的经典机位。周边有海滨公园与咖啡馆，免费开放。傍晚来最舒服，看夕阳沉进渤海。",
+  "highlights": [
+    "绵延细软沙滩",
+    "天马栈桥入海",
+    "日落机位"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.259113,
+      "lat": 37.573782,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "烟台市开发区海滨",
+    "district": "福山区",
+    "transportTip": "开发区公交；市区自驾约40分钟",
+    "entrance": {
+      "lng": 121.257399,
+      "lat": 37.572781,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37320643/pexels-photo-37320643.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37320643/pexels-photo-37320643.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3000,
+      "height": 4000,
+      "alt": "Serene Chinese pavilion surrounded by vibrant spring foliage in Nanchino, China.",
+      "query": "Chinese classical garden yantai",
+      "credit": {
+        "source": "pexels",
+        "author": "Jessica Sacco",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-pavilion-in-lush-spring-garden-37320643/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "Tranquil view of a traditional Chinese garden featuring a vibrant red lantern.",
+      "query": "Chinese classical garden yantai",
+      "credit": {
+        "source": "pexels",
+        "author": "Lily  Lili",
+        "sourceUrl": "https://www.pexels.com/photo/serene-chinese-garden-with-red-lantern-31956319/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37044011/pexels-photo-37044011.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37044011/pexels-photo-37044011.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3424,
+      "height": 5134,
+      "alt": "A classic Asian pavilion nestled in a tranquil forest setting, captured in black and white.",
+      "query": "Chinese classical garden yantai",
+      "credit": {
+        "source": "pexels",
+        "author": "Phoebe Buffay",
+        "sourceUrl": "https://www.pexels.com/photo/elegant-traditional-asian-pavilion-in-serene-forest-37044011/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "金沙滩",
+    "天马栈桥",
+    "日落"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "百度百科·金沙滩",
+      "url": "https://baike.baidu.com/item/%E7%83%9F%E5%8F%B0%E9%87%91%E6%B2%99%E6%BB%A9",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-05"
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "金沙滩"
+  },
+  "_geocodeTitle": "烟台金沙滩海滨公园",
+  "_geocodeSuspect": false,
+  "district": "370611"
+}

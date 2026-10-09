@@ -1,0 +1,118 @@
+{
+  "id": "jinan-garden-expo",
+  "name": "济南国际园博园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "长清的大型园林景区，各地展园风格并置，湖山相依。",
+  "description": "济南国际园博园在长清区，是园博会留下的一片大型园林景区，依着湖面和山势铺开。园里按地域分成许多展园，北方、江南和国外的造园手法并排摆着，一天里能看好几种风格。湖上可以乘船，岸边有长堤和花田，春天花开得最盛。园区很大，进门先坐观光车绕一圈，再挑喜欢的园子细看，这样最省力。周末本地人也爱来。",
+  "highlights": [
+    "各地展园风格并置",
+    "湖山相依可乘船",
+    "春天花田开得最盛"
+  ],
+  "location": {
+    "point": {
+      "lng": 116.809901,
+      "lat": 36.538379,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山东省济南市长清区济南国际园博园",
+    "district": "长清区",
+    "transportTip": "乘公交或地铁到园博园站",
+    "entrance": {
+      "lng": 116.815972,
+      "lat": 36.550415,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约八点半到十七点，以景区公告为准",
+    "openHoursRef": 0,
+    "ticket": "约六十元起，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 180-300 分钟",
+    "durationMinutes": [
+      180,
+      300
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/11110532/pexels-photo-11110532.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/11110532/pexels-photo-11110532.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2304,
+      "height": 3456,
+      "alt": "A traditional Chinese pavilion surrounded by snow and bare trees during winter.",
+      "query": "Jinan International Garden Expo Park",
+      "credit": {
+        "source": "pexels",
+        "author": "Lan Yao",
+        "sourceUrl": "https://www.pexels.com/photo/a-pavilion-during-winter-11110532/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/8199422/pexels-photo-8199422.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/8199422/pexels-photo-8199422.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 5222,
+      "alt": "Scenic view of the observation tower at Antalya Expo Center with palm trees and blue sky.",
+      "query": "Jinan International Garden Expo Park",
+      "credit": {
+        "source": "pexels",
+        "author": "A. Aitar",
+        "sourceUrl": "https://www.pexels.com/photo/antalya-obeservation-tower-under-blue-sky-8199422/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/4577685/pexels-photo-4577685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/4577685/pexels-photo-4577685.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2592,
+      "height": 1728,
+      "alt": "Anonymous travelers on stones on river water near Asian arbor between lush trees in city garden",
+      "query": "Jinan International Garden Expo Park",
+      "credit": {
+        "source": "pexels",
+        "author": "Rachel Claire",
+        "sourceUrl": "https://www.pexels.com/photo/unrecognizable-tourists-on-embankment-near-river-and-pavilion-in-park-4577685/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "园林",
+    "展园",
+    "湖景"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "济南国际园博园·百度百科",
+      "url": "https://baike.baidu.com/item/%E6%B5%8E%E5%8D%97%E5%9B%BD%E9%99%85%E5%9B%AD%E5%8D%9A%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Jinan International Garden Expo Park",
+    "zh": "济南国际园博园"
+  },
+  "_geocodeTitle": "济南国际园博园",
+  "_geocodeSuspect": false,
+  "district": "370113"
+}

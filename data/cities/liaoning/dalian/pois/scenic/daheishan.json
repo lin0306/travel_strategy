@@ -1,0 +1,117 @@
+{
+  "id": "daheishan",
+  "name": "大黑山",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "金州一座城边的山，大连最高峰，俯瞰市区与海。",
+  "description": "大黑山在大连金州，是大连最高峰，城边一座山。登顶能俯瞰金州新区与远处的海。山上有古寺与石阶，春秋最合适。是市民周末爬的山。几个看点：金州大连最高峰，城边山；登顶俯瞰新区与海；山有古寺，春秋合适。",
+  "highlights": [
+    "金州大连最高峰，城边山",
+    "登顶俯瞰新区与海",
+    "山有古寺，春秋合适"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.791684,
+      "lat": 39.095749,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省大连市金州区大黑山景区",
+    "district": "金州区",
+    "transportTip": "金州区乘公交可达",
+    "entrance": {
+      "lng": 121.776785,
+      "lat": 39.09166,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约8:00-17:00",
+    "openHoursRef": 0,
+    "ticket": "门票约几十元",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/17583739/pexels-photo-17583739.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/17583739/pexels-photo-17583739.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6573,
+      "height": 4382,
+      "alt": "Explore the serene rocky coastline of Dalian, Liaoning Province, China.",
+      "query": "natural landscape China dalian",
+      "credit": {
+        "source": "pexels",
+        "author": "昆 阿",
+        "sourceUrl": "https://www.pexels.com/photo/sea-shore-with-rocks-17583739/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/13921061/pexels-photo-13921061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/13921061/pexels-photo-13921061.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4416,
+      "height": 2944,
+      "alt": "A breathtaking aerial view of Dalian's modern skyline across the calm blue sea.",
+      "query": "natural landscape China dalian",
+      "credit": {
+        "source": "pexels",
+        "author": "liu zhenao",
+        "sourceUrl": "https://www.pexels.com/photo/body-of-water-and-a-modern-city-skyline-in-distance-13921061/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/20016527/pexels-photo-20016527.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/20016527/pexels-photo-20016527.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2000,
+      "height": 2997,
+      "alt": "Scenic view of Dalian's urban skyline featuring distinctively styled towers by the sea.",
+      "query": "natural landscape China dalian",
+      "credit": {
+        "source": "pexels",
+        "author": "zhou shen",
+        "sourceUrl": "https://www.pexels.com/photo/tower-in-dalian-habor-20016527/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "山",
+    "最高峰",
+    "俯瞰"
+  ],
+  "popularity": 46,
+  "sources": [
+    {
+      "title": "百度百科·大黑山",
+      "url": "https://baike.baidu.com/item/%E5%A4%A7%E9%BB%91%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "大黑山"
+  },
+  "_geocodeTitle": "大黑山",
+  "_geocodeSuspect": false,
+  "district": "210213"
+}

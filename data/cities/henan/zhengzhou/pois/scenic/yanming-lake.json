@@ -1,0 +1,118 @@
+{
+  "id": "yanming-lake",
+  "name": "雁鸣湖",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "中牟北部的黄河湿地湖泊群，水面开阔，春秋看鸟、夏天看荷。",
+  "description": "雁鸣湖在中牟北部，是黄河故道湿地上形成的一片湖泊群，水面连片，芦苇围边。名字来自大雁在此停歇鸣叫的旧景，如今仍是候鸟通道上的停歇地，春秋两季鸟最多。夏天湖里荷花连片，沿堤走一圈很凉快。周边有不少垂钓与农家乐的去处，适合安排半天慢慢待。湖区范围大，自驾最方便，公交班次少。",
+  "highlights": [
+    "黄河故道湿地湖群",
+    "候鸟停歇地",
+    "夏日荷花连片"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.078617,
+      "lat": 34.863695,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河南省郑州市中牟县雁鸣湖景区",
+    "district": "中牟县",
+    "transportTip": "中牟县城乘班车到雁鸣湖，或自驾经郑开大道向雁鸣湖方向",
+    "entrance": {
+      "lng": 114.070887,
+      "lat": 34.850476,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:30-18:00，以景区公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费或低价，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/27578207/pexels-photo-27578207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27578207/pexels-photo-27578207.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "A picturesque cityscape featuring a stone bridge over a river with urban buildings in the background.",
+      "query": "Yanming Lake Zhongmu",
+      "credit": {
+        "source": "pexels",
+        "author": "Hao Liang",
+        "sourceUrl": "https://www.pexels.com/photo/a-bridge-over-a-river-with-buildings-in-the-background-27578207/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34967559/pexels-photo-34967559.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34967559/pexels-photo-34967559.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4128,
+      "height": 6192,
+      "alt": "Serene concrete path leading to a tree-covered island on a sunny day.",
+      "query": "Yanming Lake Zhongmu",
+      "credit": {
+        "source": "pexels",
+        "author": "Leila Chen",
+        "sourceUrl": "https://www.pexels.com/photo/tranquil-pathway-leading-to-scenic-island-34967559/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36873727/pexels-photo-36873727.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36873727/pexels-photo-36873727.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2252,
+      "height": 4000,
+      "alt": "A traditional boat sailing on the serene waters of West Lake, Hangzhou.",
+      "query": "Yanming Lake Zhongmu",
+      "credit": {
+        "source": "pexels",
+        "author": "Vanessa G.",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-boat-ride-on-west-lake-hangzhou-36873727/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湖泊",
+    "湿地",
+    "候鸟"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "雁鸣湖·百度百科",
+      "url": "https://baike.baidu.com/item/%E9%9B%81%E9%B8%A3%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Yanming Lake Zhongmu",
+    "zh": "雁鸣湖"
+  },
+  "_geocodeTitle": "雁鸣湖镇",
+  "_geocodeSuspect": false,
+  "district": "410122"
+}

@@ -1,0 +1,117 @@
+{
+  "id": "zhongshan-square",
+  "name": "中山广场",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "中山区一处放射状圆形广场，一圈近代老建筑。",
+  "description": "中山广场在大连中山，是一处放射状的圆形广场，十条路从中心散开。四周是一圈近代老建筑，银行、宾馆，多是日俄时期的。是大连近代城市的中心。免费。几个看点：中山放射状圆形广场，十条路散开；一圈近代老建筑，日俄时期；大连近代城市中心，免费。",
+  "highlights": [
+    "中山放射状圆形广场，十条路散开",
+    "一圈近代老建筑，日俄时期",
+    "大连近代城市中心，免费"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.643827,
+      "lat": 38.921549,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省大连市中山区中山广场",
+    "district": "西岗区",
+    "transportTip": "中山区乘公交或地铁可达",
+    "entrance": {
+      "lng": 121.644793,
+      "lat": 38.921934,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 45-90 分钟",
+    "durationMinutes": [
+      45,
+      90
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/28490351/pexels-photo-28490351.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/28490351/pexels-photo-28490351.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Beautiful traditional Chinese temple architecture in Dalian, Liaoning Province, China during spring.",
+      "query": "Chinese classical garden dalian",
+      "credit": {
+        "source": "pexels",
+        "author": "YFS Visuals",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-temple-in-dalian-china-28490351/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37320643/pexels-photo-37320643.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37320643/pexels-photo-37320643.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3000,
+      "height": 4000,
+      "alt": "Serene Chinese pavilion surrounded by vibrant spring foliage in Nanchino, China.",
+      "query": "Chinese classical garden dalian",
+      "credit": {
+        "source": "pexels",
+        "author": "Jessica Sacco",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-pavilion-in-lush-spring-garden-37320643/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37044011/pexels-photo-37044011.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37044011/pexels-photo-37044011.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3424,
+      "height": 5134,
+      "alt": "A classic Asian pavilion nestled in a tranquil forest setting, captured in black and white.",
+      "query": "Chinese classical garden dalian",
+      "credit": {
+        "source": "pexels",
+        "author": "Phoebe Buffay",
+        "sourceUrl": "https://www.pexels.com/photo/elegant-traditional-asian-pavilion-in-serene-forest-37044011/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "广场",
+    "老建筑",
+    "近代"
+  ],
+  "popularity": 58,
+  "sources": [
+    {
+      "title": "百度百科·中山广场",
+      "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%B1%B1%E5%B9%BF%E5%9C%BA",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "中山广场"
+  },
+  "_geocodeTitle": "中山广场",
+  "_geocodeSuspect": false,
+  "district": "210203"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "zhenhu-embroidery",
+  "name": "镇湖苏绣街区",
+  "category": "hotspot",
+  "subtype": "art",
+  "summary": "苏绣的原产地，绣庄沿街排开，能看到绣绷上的半成品。",
+  "description": "镇湖在苏州西边的高新区，是苏绣的原产地，沿街是几百家绣庄。这里与城里的博物馆不同：能看到绣娘坐在绣绷前做活，一副作品要绣几个月。苏绣的特点是双面绣与乱针绣，两面看都能成立，靠的是丝线劈到极细。买不买都行，主要是看手艺本身。离市区较远，要单独安排半天。",
+  "highlights": [
+    "苏绣原产地，绣庄沿街",
+    "能看到绣绷上的半成品",
+    "双面绣与乱针绣是看头"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.346885,
+      "lat": 31.332689,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "苏州市虎丘区镇湖街道绣品街",
+    "district": "虎丘区",
+    "transportTip": "市区驾车约50分钟"
+  },
+  "practical": {
+    "openHours": "以各绣庄营业时间为准",
+    "openHoursRef": 0,
+    "ticket": "参观免费，作品另计",
+    "ticketRef": 0,
+    "duration": "建议 120-210 分钟",
+    "durationMinutes": [
+      120,
+      210
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37248368/pexels-photo-37248368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37248368/pexels-photo-37248368.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "A picturesque view of a canal in Suzhou, showcasing traditional architecture and spring greenery.",
+      "query": "art district gallery suzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Relaxing Journeys",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-suzhou-canal-in-spring-37248368/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/9427769/pexels-photo-9427769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/9427769/pexels-photo-9427769.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4214,
+      "height": 3456,
+      "alt": "Charming architecture along a narrow canal in Suzhou, China, reflecting historical charm.",
+      "query": "art district gallery suzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Jumbo Jin",
+        "sourceUrl": "https://www.pexels.com/photo/narrow-canal-between-concrete-houses-9427769/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36466075/pexels-photo-36466075.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36466075/pexels-photo-36466075.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 2666,
+      "alt": "Charming traditional teahouse with Chinese architecture in Suzhou, China.",
+      "query": "art district gallery suzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Garrison Gao",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-teahouse-in-suzhou-china-36466075/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "苏绣",
+    "手工艺",
+    "非遗"
+  ],
+  "popularity": 60,
+  "sources": [
+    {
+      "title": "百度百科·苏绣",
+      "url": "https://baike.baidu.com/item/%E8%8B%8F%E7%BB%A3",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "镇湖苏绣街区"
+  },
+  "_geocodeTitle": "小石头绣庄(绣品街120号)",
+  "_geocodeSuspect": false,
+  "district": "320505"
+}

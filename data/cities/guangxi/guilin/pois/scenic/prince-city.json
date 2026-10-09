@@ -1,0 +1,113 @@
+{
+  "id": "prince-city",
+  "name": "独秀峰王城景区",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "明代靖江王府的城，中间那座孤峰叫独秀峰，抬头就看见崖壁上刻着桂林山水甲天下。",
+  "description": "王城是明代靖江王的府第，一整套城墙、城门、宫殿基址都在，外面现在围着广西师范大学与一些老院子。进门是端礼门，沿中轴走到底就是独秀峰 —— 一座平地拔起來的孤峰，不高但陡，从后面绕上去十分钟。峰的东北崖壁上刻着八百年前的诗句「桂林山水甲天下」，就是这一句把这座城的广告词定了八百年。除了这些，院子里还有贡院的考棚，是过去广西乡试的地方，可以体验一次模拟科举。夜里有时会做灯光与演出，跟着讲解听着走一遭味道更足，讲解在门口凑够一批就出发。它就在东西巷旁，与两江四湖、正阳街步行都通。",
+  "highlights": [
+    "独秀峰崖壁上刻着「桂林山水甲天下」，八百年了",
+    "一整套明代王府的城墙城门都在，现在是学校与老院子围着",
+    "里面有贡院考棚，可以体验一次模拟科举"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.299321,
+      "lat": 25.28219,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "广西壮族自治区桂林市秀峰区秀峰路8号独秀峰王城景区",
+    "district": "秀峰区",
+    "transportTip": "市区步行或公交至王城站；紧邻东西巷"
+  },
+  "practical": {
+    "openHours": "约7:30-18:00，夜场与演出以景区公告为准",
+    "openHoursRef": 0,
+    "ticket": "中等，含讲解，以景区公告为准",
+    "ticketRef": 0,
+    "duration": "建议 120-210 分钟",
+    "durationMinutes": [
+      120,
+      210
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "family",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/7394077/pexels-photo-7394077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7394077/pexels-photo-7394077.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Beautiful traditional pagoda in Guilin, Guangxi with tourists observing from the balcony.",
+      "query": "Chinese historic architecture guilin",
+      "credit": {
+        "source": "pexels",
+        "author": "Lian Rodriguez",
+        "sourceUrl": "https://www.pexels.com/photo/view-of-a-pagoda-7394077/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7394072/pexels-photo-7394072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7394072/pexels-photo-7394072.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "Traditional pagoda in Guilin, China showcasing ancient architectural style and vibrant city life.",
+      "query": "Chinese historic architecture guilin",
+      "credit": {
+        "source": "pexels",
+        "author": "Lian Rodriguez",
+        "sourceUrl": "https://www.pexels.com/photo/the-xiaoyao-tower-in-guilin-guangxi-china-7394072/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33632718/pexels-photo-33632718.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33632718/pexels-photo-33632718.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 6825,
+      "height": 4541,
+      "alt": "Picturesque view of traditional Chinese architecture and mountains in Guilin, China.",
+      "query": "Chinese historic architecture guilin",
+      "credit": {
+        "source": "pexels",
+        "author": "Vincent Tan",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-architecture-in-guilin-33632718/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "明代王府",
+    "独秀峰",
+    "摩崖"
+  ],
+  "popularity": 88,
+  "sources": [
+    {
+      "title": "百度百科·靖江王城",
+      "url": "https://baike.baidu.com/item/%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%9F%8E",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "独秀峰王城景区"
+  },
+  "_geocodeTitle": "桂林独秀峰王城景区",
+  "_geocodeSuspect": false,
+  "district": "450302"
+}

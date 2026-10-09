@@ -1,0 +1,119 @@
+{
+  "id": "xining-culture-park",
+  "name": "西宁文化公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "城西的园林式公园，亭廊水景加文化墙，遛弯看河湟风情两便。",
+  "description": "西宁文化公园在城西区，是一座带文化味的城市公园。园里有亭廊、水景和表现河湟风情的文化墙，把本地的一些符号摆进了景观。地方不大，但干净安静，适合早晚遛弯。和新宁广场一带离得近，可以顺路串。不收门票，带老人和孩子来走几圈很省心。花期和灯会时会更热闹一些。",
+  "highlights": [
+    "城西带文化味的城市公园",
+    "亭廊水景河湟风情文化墙",
+    "免费近新宁广场顺路串游"
+  ],
+  "location": {
+    "point": {
+      "lng": 101.770801,
+      "lat": 36.616085,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "青海省西宁市城西区海晏路西宁文化公园",
+    "district": "城中区",
+    "transportTip": "市区乘公交或步行到海晏路",
+    "entrance": {
+      "lng": 101.743744,
+      "lat": 36.642592,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约06:30-21:00，以园方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "friends",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "Tranquil view of a traditional Chinese garden featuring a vibrant red lantern.",
+      "query": "Chinese classical garden xining",
+      "credit": {
+        "source": "pexels",
+        "author": "Lily  Lili",
+        "sourceUrl": "https://www.pexels.com/photo/serene-chinese-garden-with-red-lantern-31956319/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/12044831/pexels-photo-12044831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/12044831/pexels-photo-12044831.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4683,
+      "height": 3428,
+      "alt": "Stunning view of a pagoda framed by trees in a serene Mexico City park.",
+      "query": "Chinese classical garden xining",
+      "credit": {
+        "source": "pexels",
+        "author": "Fernando Adame Carrillo",
+        "sourceUrl": "https://www.pexels.com/photo/garden-in-temple-12044831/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34439092/pexels-photo-34439092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34439092/pexels-photo-34439092.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4128,
+      "height": 5504,
+      "alt": "A vibrant red wall with traditional Chinese architecture surrounded by lush green plants and hanging branches.",
+      "query": "Chinese classical garden xining",
+      "credit": {
+        "source": "pexels",
+        "author": "Da Na",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-wall-with-greenery-and-red-paint-34439092/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "公园",
+    "文化墙",
+    "遛弯"
+  ],
+  "popularity": 50,
+  "sources": [
+    {
+      "title": "西宁文化公园·百度百科",
+      "url": "https://baike.baidu.com/item/%E8%A5%BF%E5%AE%81%E6%96%87%E5%8C%96%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "西宁文化公园"
+  },
+  "_geocodeTitle": "西宁市消防主题文化公园",
+  "_geocodeSuspect": false,
+  "district": "630103"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "gaoyuan-tudou",
+  "name": "高原土豆",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "昼夜温差养出的粉糯土豆。",
+  "description": "高原土豆因为昼夜温差大、日照足，淀粉积累得多，吃起来格外粉、糯、香。稻城一带家常做法是煮、烤或者做成土豆饼，撒点盐和辣椒面就很好吃。它便宜、顶饱，是本地人饭桌上的常客，也是徒步路上好带的干粮。别小看它朴素，高原的土豆确实比平原的甜。配牦牛肉一荤一素正合适。",
+  "highlights": [
+    "昼夜温差大",
+    "粉糯香甜",
+    "便宜顶饱"
+  ],
+  "location": {
+    "point": {
+      "lng": 100.294382,
+      "lat": 29.035351,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "四川省甘孜藏族自治州稻城县金珠镇",
+    "district": "稻城",
+    "transportTip": "县城餐馆及小摊可点，步行可达"
+  },
+  "practical": {
+    "openHours": "约 08:00-20:00",
+    "openHoursRef": 0,
+    "ticket": "每份约 10-25 元，以实际为准",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4240,
+      "height": 2832,
+      "alt": "A bustling street food stall offering traditional dishes to a customer in stylish winter attire.",
+      "query": "Chinese street food dish daocheng",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3032,
+      "height": 3923,
+      "alt": "Browse a bustling Shenzhen food stall with diverse Asian meals and colorful bowls, embodying Chinese culinary culture.",
+      "query": "Chinese street food dish daocheng",
+      "credit": {
+        "source": "pexels",
+        "author": "Jaime Hernandez Erives",
+        "sourceUrl": "https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6440090/pexels-photo-6440090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6440090/pexels-photo-6440090.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4856,
+      "height": 3237,
+      "alt": "Close-up of delicious Chinese street food in a paper bowl held by a hand, featuring seasoned fried potatoes.",
+      "query": "Chinese street food dish daocheng",
+      "credit": {
+        "source": "pexels",
+        "author": "Mackenzie Ryder",
+        "sourceUrl": "https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "土豆",
+    "主食",
+    "小吃"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "百度百科·马铃薯",
+      "url": "https://baike.baidu.com/item/%E9%A9%AC%E9%93%83%E8%96%AF",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-06"
+    }
+  ],
+  "updatedAt": "2026-10-06",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "高原土豆"
+  },
+  "_geocodeTitle": "金珠镇",
+  "_geocodeSuspect": false,
+  "district": "513337"
+}

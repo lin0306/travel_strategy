@@ -1,0 +1,89 @@
+{
+  "id": "laohutan",
+  "name": "老虎滩海洋公园",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "中山区一处大型海洋主题公园，极地馆与珊瑚馆。",
+  "description": "老虎滩在大连中山，是一处大型海洋主题公园，滨海而建。极地馆、珊瑚馆、鸟语林各有看点，海豚海狮有表演。背山面海，园区大，逛半天。带孩子来最合适。几个看点：中山大型海洋主题公园，滨海而建；极地馆珊瑚馆鸟语林，海豚表演；带孩子来最合适。",
+  "highlights": [
+    "中山大型海洋主题公园，滨海而建",
+    "极地馆珊瑚馆鸟语林，海豚表演",
+    "带孩子来最合适"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.674648,
+      "lat": 38.878386,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省大连市中山区老虎滩海洋公园",
+    "district": "中山区",
+    "transportTip": "中山区乘公交可达",
+    "entrance": {
+      "lng": 121.673951,
+      "lat": 38.878476,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约8:30-17:00",
+    "openHoursRef": 0,
+    "ticket": "门票约一百多元",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "friends",
+    "couple",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Mountain_Series.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Mountain_Series.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 608,
+      "alt": "Mountain Series.jpg",
+      "query": "natural landscape China dalian",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Jason M. C., Han",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mountain_Series.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "海洋公园",
+    "极地馆",
+    "亲子"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "百度百科·老虎滩海洋公园",
+      "url": "https://baike.baidu.com/item/%E8%80%81%E8%99%8E%E6%BB%A9%E6%B5%B7%E6%B4%8B%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "老虎滩海洋公园"
+  },
+  "_geocodeTitle": "大连老虎滩海洋公园",
+  "_geocodeSuspect": false,
+  "district": "210202"
+}

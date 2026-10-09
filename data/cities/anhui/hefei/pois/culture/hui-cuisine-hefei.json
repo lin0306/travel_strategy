@@ -1,0 +1,113 @@
+{
+  "id": "hui-cuisine-hefei",
+  "name": "徽菜",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "中国八大菜系之一，重油重色重火功，合肥的馆子里能吃到最方便的一批。",
+  "description": "徽菜是中国八大菜系之一，讲究重油、重色、重火功。它的底色是皖南山区的山货：火腿、笋干、石鸡、臭鳜鱼，靠慢炖和红烧把味道压进食材里，端上来油亮浓稠，香得直白。合肥虽不在皖南，却是吃徽菜最方便的城市：老城区的馆子从家常小炒到宴席大菜都做得出，臭鳜鱼的奇香、杂烩的丰厚、火腿炖笋的醇厚，一道道点下来就把徽菜的路数摸清了。口味偏咸，点菜时可让少放盐。",
+  "highlights": [
+    "八大菜系之一重油重色",
+    "火腿笋干臭鳜鱼是底色",
+    "合肥馆子从家常到宴席"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.281329,
+      "lat": 31.860968,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "安徽省合肥市各徽菜馆与老字号饭店",
+    "district": "庐阳区",
+    "transportTip": "市区各徽菜馆均有，公交或打车可达"
+  },
+  "practical": {
+    "openHours": "约11:00-14:00、17:00-21:00",
+    "openHoursRef": 0,
+    "ticket": "约80元/人起，以店为准",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "elders",
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/%E5%BE%BD%E8%8F%9C%E5%8D%9A%E7%89%A9%E9%A6%86.jpeg/1280px-%E5%BE%BD%E8%8F%9C%E5%8D%9A%E7%89%A9%E9%A6%86.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/%E5%BE%BD%E8%8F%9C%E5%8D%9A%E7%89%A9%E9%A6%86.jpeg/1280px-%E5%BE%BD%E8%8F%9C%E5%8D%9A%E7%89%A9%E9%A6%86.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1440,
+      "alt": "徽菜博物馆.jpeg",
+      "query": "徽菜",
+      "credit": {
+        "source": "wikimedia",
+        "author": "章彦博",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%BE%BD%E8%8F%9C%E5%8D%9A%E7%89%A9%E9%A6%86.jpeg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39796291/pexels-photo-39796291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39796291/pexels-photo-39796291.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "A woman in a white dress relaxes indoors with wine and rose petals, exuding elegance.",
+      "query": "Anhui Cuisine Hefei",
+      "credit": {
+        "source": "pexels",
+        "author": "董 小姐",
+        "sourceUrl": "https://www.pexels.com/photo/elegant-woman-enjoying-wine-with-rose-petals-39796291/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39771684/pexels-photo-39771684.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39771684/pexels-photo-39771684.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "A woman in a green and white qipao strolling on a stone pathway outdoors in Hefei, Anhui, China.",
+      "query": "Anhui Cuisine Hefei",
+      "credit": {
+        "source": "pexels",
+        "author": "董 小姐",
+        "sourceUrl": "https://www.pexels.com/photo/woman-in-traditional-chinese-dress-walking-outdoors-39771684/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "徽菜",
+    "菜系",
+    "老字号"
+  ],
+  "popularity": 82,
+  "sources": [
+    {
+      "title": "徽菜·百度百科",
+      "url": "https://baike.baidu.com/item/%E5%BE%BD%E8%8F%9C",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Anhui Cuisine Hefei",
+    "zh": "徽菜"
+  },
+  "_geocodeTitle": "半勺·新徽菜(图书城店)",
+  "_geocodeSuspect": false,
+  "district": "340103"
+}

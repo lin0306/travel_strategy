@@ -1,0 +1,17 @@
+{
+  "cityId": "chongqing",
+  "cityName": "重庆",
+  "note": "候选清单，尚未入库。需要人确认后搬进 pipeline/seeds/{city}.py 再跑 seed。",
+  "stat": {
+    "searched": 36,
+    "returned": 0,
+    "in_lib": 0,
+    "dup": 0,
+    "excluded": 0,
+    "subspot": 0,
+    "new": 0,
+    "quotaHit": 0
+  },
+  "skippedByQuota": false,
+  "candidates": []
+}

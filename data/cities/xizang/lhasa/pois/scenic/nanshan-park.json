@@ -1,0 +1,119 @@
+{
+  "id": "nanshan-park",
+  "name": "南山公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "城南川藏公路边上的一片山地公园，爬上去能俯瞰整座城与拉萨河。",
+  "description": "南山公园在城南川藏公路边上，是一片山地公园，不收门票。上山的路修得整齐，石阶一段一段往上，四十分钟到一小时到顶。顶上能俯瞰整座城：布达拉宫、城关区那一片房子、拉萨河都在下面。本地人早晚来锻炼，游客不多。海拔比城里高两三百米，爬慢一点。傍晚光最好。",
+  "highlights": [
+    "不收门票，石阶上山四十分钟到一小时",
+    "顶上能俯瞰布达拉宫、城区与拉萨河",
+    "傍晚光最好，本地人早晚来锻炼"
+  ],
+  "location": {
+    "point": {
+      "lng": 91.119989,
+      "lat": 29.632188,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "西藏自治区拉萨市城关区川藏公路南山公园",
+    "district": "城关区",
+    "transportTip": "市区打车或公交到川藏公路南山公园路口",
+    "entrance": {
+      "lng": 91.120385,
+      "lat": 29.63563,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放（建议白天）",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38989639/pexels-photo-38989639.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38989639/pexels-photo-38989639.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5184,
+      "height": 3456,
+      "alt": "Vibrant Tibetan architectural details with bright blue sky in Lhasa, Tibet.",
+      "query": "Chinese classical garden lhasa",
+      "credit": {
+        "source": "pexels",
+        "author": "Greece-China  News",
+        "sourceUrl": "https://www.pexels.com/photo/colorful-architecture-in-lhasa-tibet-38989639/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38374705/pexels-photo-38374705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38374705/pexels-photo-38374705.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "Detailed view of classic Tibetan architecture with colorful decorations in Lhasa, Tibet.",
+      "query": "Chinese classical garden lhasa",
+      "credit": {
+        "source": "pexels",
+        "author": "Martin Chan",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-tibetan-architecture-in-lhasa-38374705/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38996516/pexels-photo-38996516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38996516/pexels-photo-38996516.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4555,
+      "height": 6528,
+      "alt": "Close-up of a Tibetan monastery with golden roofs and intricate architecture set against a bright blue sky.",
+      "query": "Chinese classical garden lhasa",
+      "credit": {
+        "source": "pexels",
+        "author": "女子 正真",
+        "sourceUrl": "https://www.pexels.com/photo/golden-roofed-tibetan-monastery-against-blue-sky-38996516/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "公园",
+    "观景",
+    "免费"
+  ],
+  "popularity": 58,
+  "sources": [
+    {
+      "title": "百度百科·南山公园",
+      "url": "https://baike.baidu.com/item/%E6%8B%89%E8%90%A8%E5%8D%97%E5%B1%B1%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "南山公园"
+  },
+  "_geocodeTitle": "西藏南山公园",
+  "_geocodeSuspect": false,
+  "district": "540102"
+}

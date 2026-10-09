@@ -1,0 +1,113 @@
+{
+  "id": "liangban-shacong",
+  "name": "凉拌沙葱",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "宁夏野菜沙葱凉拌，脆嫩微辛，是羊肉宴上的清爽解腻小菜。",
+  "description": "凉拌沙葱是宁夏的野菜小菜。沙葱长在沙地，形似小葱却更细嫩，带着一点野辛。焯水后凉拌，加蒜泥、醋、几滴油，脆生爽口。它常出现在羊肉宴上，解腻又清口，是本地人的绿色记忆。春天沙葱最嫩，过季就老。清真馆多有，价格便宜。不嗜葱蒜的也能接受它的淡辛。当前菜刚好。",
+  "highlights": [
+    "宁夏沙地野菜凉拌",
+    "脆嫩微辛解腻",
+    "羊肉宴清爽小菜"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.288452,
+      "lat": 38.473972,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "宁夏回族自治区银川市兴庆区各清真餐馆",
+    "district": "兴庆区",
+    "transportTip": "市区清真餐馆有售"
+  },
+  "practical": {
+    "openHours": "约10:00-21:00",
+    "openHoursRef": 0,
+    "ticket": "约18元/份起",
+    "ticketRef": 0,
+    "duration": "建议 10-20 分钟",
+    "durationMinutes": [
+      10,
+      20
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "solo",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/36719725/pexels-photo-36719725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36719725/pexels-photo-36719725.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5472,
+      "height": 3648,
+      "alt": "A person sitting in a field, harvesting and bundling leeks under sunlight in an agriculture field.",
+      "query": "Cold Sand Leek",
+      "credit": {
+        "source": "pexels",
+        "author": "Emrehan  Çolak",
+        "sourceUrl": "https://www.pexels.com/photo/field-worker-harvesting-leeks-in-sunny-farm-36719725/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/4965038/pexels-photo-4965038.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/4965038/pexels-photo-4965038.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3249,
+      "height": 3249,
+      "alt": "Three stages of leek preparation on a white background - whole, trimmed, and sliced.",
+      "query": "Cold Sand Leek",
+      "credit": {
+        "source": "pexels",
+        "author": "Larisa P.",
+        "sourceUrl": "https://www.pexels.com/photo/fresh-organic-leeks-on-white-surface-4965038/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/19294522/pexels-photo-19294522.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/19294522/pexels-photo-19294522.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7728,
+      "height": 5152,
+      "alt": "Close-up of freshly harvested leeks with roots displayed at a farmers market in İzmir, Türkiye.",
+      "query": "Cold Sand Leek",
+      "credit": {
+        "source": "pexels",
+        "author": "Doğan Alpaslan  Demir",
+        "sourceUrl": "https://www.pexels.com/photo/mound-of-leeks-19294522/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "沙葱",
+    "凉拌",
+    "野菜"
+  ],
+  "popularity": 60,
+  "sources": [
+    {
+      "title": "百度百科·沙葱",
+      "url": "https://baike.baidu.com/item/%E6%B2%99%E8%91%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Cold Sand Leek",
+    "zh": "凉拌沙葱"
+  },
+  "_geocodeTitle": "兴庆区",
+  "_geocodeSuspect": false,
+  "district": "640104"
+}

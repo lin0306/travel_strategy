@@ -1,0 +1,27 @@
+# 本文件刻意留在**仓库根**：Netlify 只在仓库根（或已配置的 base 目录）寻找它。
+# 应用工程在 web/ 子目录里，所以这里用 base 指过去 —— 这是标准 monorepo 做法，
+# 比把 netlify.toml 放进 web/ 更可靠（放进去反而找不到）。
+#
+# base 一旦设定，command 的执行目录与 publish 的解析基准**都相对 base**，
+# 所以 publish = "dist" 指的是 web/dist，不是仓库根的 dist。
+[build]
+  base = "web"
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# 预渲染产物已是完整静态文件，无需 SPA fallback。
+# 仅为未预渲染的深层路径兜底：Netlify 只在文件不存在时才走这条规则，
+# 因此不会覆盖 /city/chengdu/index.html。
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    # 资源带内容哈希，可长期缓存
+    Cache-Control = "public, max-age=31536000, immutable"

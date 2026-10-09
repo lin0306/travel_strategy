@@ -1,0 +1,111 @@
+{
+  "id": "sifang-museum",
+  "name": "四方当代美术馆",
+  "category": "hotspot",
+  "subtype": "art",
+  "summary": "老山里的一片建筑群落，对中国当代建筑感兴趣的人才建议过来。",
+  "description": "四方当代艺术湖区在浦口老山与佛手湖之间，里面是二十余位国内外建筑师的作品：美术馆、住宅、会所。建筑本身是展品，每一栋的语言完全不同——一部分混凝土、一部分砖、一部分用当地的材料。美术馆的主体建筑是悬浮感很强的几何体，底层架空。它的位置很偏，要包车或开车，且部分建筑不对公众开放。如果不是冲着建筑来的，这一趟会让你觉得路远。",
+  "highlights": [
+    "二十余位建筑师的实体作品群落",
+    "美术馆主体是架空悬浮的几何体",
+    "位置偏，建议开车或包车"
+  ],
+  "location": {
+    "point": {
+      "lng": 118.644207,
+      "lat": 32.113361,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "南京市浦口区珍七路（老山—佛手湖一带）",
+    "district": "浦口区",
+    "transportTip": "地铁10号线龙华路站换乘公交/打车约20分钟"
+  },
+  "practical": {
+    "openHours": "约10:00-17:00（周一闭馆），以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "约80元起，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38879610/pexels-photo-38879610.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38879610/pexels-photo-38879610.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4640,
+      "height": 6960,
+      "alt": "A stylish woman in a black dress explores a modern art gallery in Nanjing, China.",
+      "query": "art district gallery nanjing",
+      "credit": {
+        "source": "pexels",
+        "author": "董 小姐",
+        "sourceUrl": "https://www.pexels.com/photo/elegant-woman-at-modern-art-gallery-in-nanjing-38879610/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38837206/pexels-photo-38837206.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38837206/pexels-photo-38837206.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4180,
+      "height": 6270,
+      "alt": "Woman standing before a vibrant yellow sculpture at an indoor art exhibit.",
+      "query": "art district gallery nanjing",
+      "credit": {
+        "source": "pexels",
+        "author": "董 小姐",
+        "sourceUrl": "https://www.pexels.com/photo/portrait-of-woman-in-front-of-yellow-art-sculpture-38837206/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38706707/pexels-photo-38706707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38706707/pexels-photo-38706707.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7952,
+      "height": 4472,
+      "alt": "A scenic view of a modern glass walkway amidst lush greenery in an urban setting.",
+      "query": "art district gallery nanjing",
+      "credit": {
+        "source": "pexels",
+        "author": "Oli Liao",
+        "sourceUrl": "https://www.pexels.com/photo/modern-architectural-walkway-in-urban-setting-38706707/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "当代建筑",
+    "艺术区",
+    "远郊"
+  ],
+  "popularity": 62,
+  "sources": [
+    {
+      "title": "百度百科·四方当代美术馆",
+      "url": "https://baike.baidu.com/item/%E5%9B%9B%E6%96%B9%E5%BD%93%E4%BB%A3%E7%BE%8E%E6%9C%AF%E9%A6%86",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-23"
+    }
+  ],
+  "updatedAt": "2026-09-23",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "四方当代美术馆"
+  },
+  "_geocodeTitle": "四方当代美术馆",
+  "_geocodeSuspect": false,
+  "district": "320111"
+}

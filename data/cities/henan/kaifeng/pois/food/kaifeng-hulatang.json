@@ -1,0 +1,111 @@
+{
+  "id": "kaifeng-hulatang",
+  "name": "开封胡辣汤",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "开封版胡辣汤，胡椒重、料足，配油条水煎包是早餐。",
+  "description": "开封胡辣汤是本地早餐的主角。胡椒味重，汤里有面筋、木耳、黄花菜，料足。配油条或水煎包，一碗下肚暖。和周口、郑州的口味略有差别，更顺口。早上趁热，晚了摊收。想带走的特产先问清楚保质期和真假。",
+  "highlights": [
+    "开封早餐主角胡椒重",
+    "面筋木耳黄花料足",
+    "配油条水煎包"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.385887,
+      "lat": 34.762385,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河南省开封市各胡辣汤早摊",
+    "district": "禹王台区",
+    "transportTip": "市区早摊均有"
+  },
+  "practical": {
+    "openHours": "约05:30-10:00",
+    "openHoursRef": 0,
+    "ticket": "约6元/碗起",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
+      15,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "family",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/39487379/pexels-photo-39487379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39487379/pexels-photo-39487379.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5875,
+      "height": 3391,
+      "alt": "Savor a flavorful bowl of traditional Vietnamese pho topped with beef and noodles.",
+      "query": "Kaifeng Spicy Soup",
+      "credit": {
+        "source": "pexels",
+        "author": "FOX ^.ᆽ.^= ∫",
+        "sourceUrl": "https://www.pexels.com/photo/delicious-bowl-of-vietnamese-pho-with-beef-39487379/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/10672908/pexels-photo-10672908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/10672908/pexels-photo-10672908.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3999,
+      "height": 2667,
+      "alt": "A delicious bowl of Sichuan hotpot featuring lotus roots and potatoes in spicy broth.",
+      "query": "Kaifeng Spicy Soup",
+      "credit": {
+        "source": "pexels",
+        "author": "Markus Winkler",
+        "sourceUrl": "https://www.pexels.com/photo/a-soup-dish-on-a-black-bowl-10672908/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33577084/pexels-photo-33577084.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33577084/pexels-photo-33577084.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3730,
+      "height": 5595,
+      "alt": "Delicious traditional soup served in a clay pot with rice and garnishes.",
+      "query": "Kaifeng Spicy Soup",
+      "credit": {
+        "source": "pexels",
+        "author": "Richard L",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-clay-pot-soup-with-garnishes-33577084/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "胡辣汤",
+    "早餐",
+    "胡椒"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·胡辣汤",
+      "url": "https://baike.baidu.com/item/%E8%83%A1%E8%BE%A3%E6%B1%A4",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Kaifeng Spicy Soup",
+    "zh": "开封胡辣汤"
+  },
+  "district": "410205"
+}

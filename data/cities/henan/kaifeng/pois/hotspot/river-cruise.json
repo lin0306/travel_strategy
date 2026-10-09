@@ -1,0 +1,112 @@
+{
+  "id": "river-cruise",
+  "name": "大宋御河游船夜游",
+  "category": "hotspot",
+  "subtype": "photo",
+  "summary": "夜里坐船看两岸桥阁灯光，水上映着倒影，静。",
+  "description": "大宋御河的夜游坐船看两岸。桥、亭、楼亮着灯，倒映在水里。船慢，比白天多份静。是逛累了换种节奏。旺季要排队，提前买票。机位有限，耐心等一阵。怕高就扶稳栏杆，别逞强。",
+  "highlights": [
+    "夜船看两岸桥阁灯",
+    "倒影静比白天",
+    "旺季节省排队"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.340564,
+      "lat": 34.801338,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河南省开封市城区大宋御河码头",
+    "district": "龙亭区",
+    "transportTip": "沿湖码头乘船"
+  },
+  "practical": {
+    "openHours": "夜场约18:30-21:00",
+    "openHoursRef": 0,
+    "ticket": "约60元（以官方为准）",
+    "ticketRef": 0,
+    "duration": "建议 40-90 分钟",
+    "durationMinutes": [
+      40,
+      90
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "elders",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/11798734/pexels-photo-11798734.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/11798734/pexels-photo-11798734.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4640,
+      "height": 6960,
+      "alt": "A beautifully lit boat cruising through West Lake in Hangzhou at night, reflecting serene city lights.",
+      "query": "Song Canal Night Cruise",
+      "credit": {
+        "source": "pexels",
+        "author": "卓浩 虞",
+        "sourceUrl": "https://www.pexels.com/photo/a-boat-cruising-the-ocean-at-night-11798734/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32445534/pexels-photo-32445534.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32445534/pexels-photo-32445534.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4176,
+      "height": 2349,
+      "alt": "Vibrant night scene of Saigon Waterbus cruising through Ho Chi Minh City. Illuminated buildings reflect in the water.",
+      "query": "Song Canal Night Cruise",
+      "credit": {
+        "source": "pexels",
+        "author": "Tường Chopper",
+        "sourceUrl": "https://www.pexels.com/photo/saigon-waterbus-at-night-in-ho-chi-minh-city-32445534/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37341990/pexels-photo-37341990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37341990/pexels-photo-37341990.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5152,
+      "height": 6864,
+      "alt": "Boat passes under a beautifully lit bridge during evening twilight, reflecting its lights on calm canal water.",
+      "query": "Song Canal Night Cruise",
+      "credit": {
+        "source": "pexels",
+        "author": "BI ravencrow",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-evening-canal-boat-under-illuminated-bridge-37341990/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "游船",
+    "夜游",
+    "倒影"
+  ],
+  "popularity": 76,
+  "sources": [
+    {
+      "title": "百度百科·开封",
+      "url": "https://baike.baidu.com/item/%E5%BC%80%E5%B0%81",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Song Canal Night Cruise",
+    "zh": "大宋御河游船夜游"
+  },
+  "district": "410202"
+}

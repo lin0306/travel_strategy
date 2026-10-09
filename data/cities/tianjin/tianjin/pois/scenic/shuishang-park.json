@@ -1,0 +1,114 @@
+{
+  "id": "shuishang-park",
+  "name": "水上公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "市区南边的大片水面，天津人日常遛弯的地方。",
+  "description": "水上公园在南开区西南，建于1951年，是天津市区里最大的一处综合性公园。它由三片湖和中间的岛组成，水面占了接近一半，沿湖是一圈步道，走完要一个小时上下。园里有几处仿古的亭台和一座小型动物园，还有一片专门种牡丹的园子，春天开的时候人最多。它不收门票，来的是周边居民：早上有人在这里打拳、遛鸟、写地书，下午湖上有游船。想看天津的日常，这里比景区直接。",
+  "highlights": [
+    "市区最大的公园，水面占近一半",
+    "不收门票，是居民日常遛弯的地方",
+    "春天牡丹园人最多"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.153502,
+      "lat": 39.095552,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "天津市南开区水上公园路（近宾水西道）",
+    "district": "南开",
+    "transportTip": "地铁3号线周邓纪念馆站或天塔站，步行约五分钟"
+  },
+  "practical": {
+    "openHours": "约06:00-21:00（各门不同），以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费（游船等另计），以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 90-240 分钟",
+    "durationMinutes": [
+      90,
+      240
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "elders",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38333778/pexels-photo-38333778.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38333778/pexels-photo-38333778.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Serene view of traditional Chinese rooftop amidst lush greenery and blue sky.",
+      "query": "Chinese classical garden tianjin",
+      "credit": {
+        "source": "pexels",
+        "author": "Shuaizhi Tian",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-architecture-under-tree-canopy-38333778/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/13128367/pexels-photo-13128367.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/13128367/pexels-photo-13128367.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2942,
+      "height": 3922,
+      "alt": "Beautiful traditional Chinese architectural structures surrounded by greenery in Tianjin, China.",
+      "query": "Chinese classical garden tianjin",
+      "credit": {
+        "source": "pexels",
+        "author": "Shuaizhi Tian",
+        "sourceUrl": "https://www.pexels.com/photo/garden-and-pavement-13128367/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33443389/pexels-photo-33443389.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33443389/pexels-photo-33443389.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Elegant garden path leading to Zhenhai Tower in Tianjin, perfect for travel and architecture enthusiasts.",
+      "query": "Chinese classical garden tianjin",
+      "credit": {
+        "source": "pexels",
+        "author": "Shuaizhi Tian",
+        "sourceUrl": "https://www.pexels.com/photo/tianjin-zhenhai-tower-and-garden-path-33443389/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "公园",
+    "湖面",
+    "日常"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "百度百科·天津水上公园",
+      "url": "https://baike.baidu.com/item/%E5%A4%A9%E6%B4%A5%E6%B0%B4%E4%B8%8A%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-27"
+    }
+  ],
+  "updatedAt": "2026-09-27",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "水上公园"
+  },
+  "_geocodeTitle": "水上公园街道",
+  "_geocodeSuspect": false,
+  "district": "120104"
+}

@@ -1,0 +1,87 @@
+{
+  "id": "zhongshuijiao",
+  "name": "钟水饺（人民公园店）",
+  "category": "food",
+  "subtype": "local",
+  "summary": "百年非遗，灵魂在那勺甜辣平衡的红油酱汁",
+  "description": "钟水饺创始于 1893 年，与龙抄手同为成都小吃的双壁。它最独特的地方是不用清汤、纯用复制酱油与红油调制的干拌酱汁——入口先是甜，接着才是辣，最后留在舌尖上的是芝麻香与花椒的余韵，这种“甜辣”结构与北方的蒜泥水饺完全不同。水饺本身个头小巧、纯肉馅，皮薄而不烂。人民公园店的位置极好，吃完可以进公园散步、去鹤鸣茶社喝碗茶，是本地慢生活与小吃的一条标准动线。",
+  "highlights": [
+    "复制酱油调出甜辣平衡，与北方蒜泥水饺截然不同",
+    "人民公园店出门就是公园，可与喝茶连成动线"
+  ],
+  "location": {
+    "point": {
+      "lng": 104.059004,
+      "lat": 30.656736,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "成都市青羊区少城路 12 号人民公园内紫薇阁",
+    "district": "青羊区",
+    "transportTip": "地铁 2 号线人民公园站 B 口出"
+  },
+  "practical": {
+    "openHours": "约 09:00-20:00（以门店公告为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约 49 元起",
+    "ticketRef": 0,
+    "duration": "建议 45-75 分钟",
+    "durationMinutes": [
+      45,
+      75
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "couple",
+    "kids",
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [
+    "建议配一份甜水面，口味更完整",
+    "想吃的总店在少城路，注意别走错到别的分店"
+  ],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Chengdu_Zhong_Dumpling%28Zhong_Jiaozi%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Chengdu_Zhong_Dumpling%28Zhong_Jiaozi%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1080,
+      "alt": "Chengdu Zhong Dumpling(Zhong Jiaozi).jpg",
+      "query": "钟水饺 成都",
+      "credit": {
+        "source": "wikimedia",
+        "author": "유신예",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengdu_Zhong_Dumpling(Zhong_Jiaozi).jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "非遗小吃",
+    "甜辣",
+    "市中心"
+  ],
+  "popularity": 86,
+  "sources": [
+    {
+      "title": "今日头条 · 成都必吃的十大美食清单",
+      "url": "https://m.toutiao.com/article/7632398778288456243/",
+      "kind": "media",
+      "fetchedAt": "2026-09-18"
+    }
+  ],
+  "updatedAt": "2026-09-18",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Chengdu dumplings chili oil",
+    "zh": "钟水饺 成都小吃"
+  },
+  "_geocodeTitle": "钟水饺(人民公园总店)",
+  "_geocodeSuspect": false,
+  "district": "510105"
+}

@@ -1,0 +1,118 @@
+{
+  "id": "lianhuashan-ski-resort",
+  "name": "莲花山滑雪场",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "长春近郊的山地雪场，初、中、高级雪道分开，是本地冬天最常去的一处雪。",
+  "description": "莲花山在长春东部二道区与城郊交界的一片起伏山地，近年成了品质较好的一处滑雪度假地。山体不高但落差足够，初级道宽缓，中间也有几条陡些的中高级雪道，雪道两侧林密，风小，雪质比开阔地形好。配套有缆车、魔毯、雪具大厅和热饮区，孩子可以在单独的区域玩雪圈。度假区内还做了一处温泉设施，滑完汤池泡一泡是冬天的标准顺序。市内自驾约四十分钟，雪季有班车。新手务必先请教练，雪镜手套不能省，周末人多建议早去。",
+  "highlights": [
+    "近郊山地雪场坡度多样",
+    "雪具大厅与缆车齐全",
+    "滑雪后泡温泉的搭配"
+  ],
+  "location": {
+    "point": {
+      "lng": 125.73994,
+      "lat": 43.864783,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "吉林省长春市二道区莲花山生态旅游度假区",
+    "district": "二道区",
+    "transportTip": "市内自驾约四十分钟，雪季有滑雪直通车",
+    "entrance": {
+      "lng": 125.737543,
+      "lat": 43.864725,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约09:00-16:30（雪季），以公告为准",
+    "openHoursRef": 0,
+    "ticket": "约200元起含雪具，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 180-360 分钟",
+    "durationMinutes": [
+      180,
+      360
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/12165429/pexels-photo-12165429.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/12165429/pexels-photo-12165429.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4928,
+      "height": 3280,
+      "alt": "Child enjoying skiing on a snow-covered slope, wearing winter gear.",
+      "query": "Lianhuashan Ski Resort Changchun",
+      "credit": {
+        "source": "pexels",
+        "author": "Zszen John",
+        "sourceUrl": "https://www.pexels.com/photo/a-person-in-black-and-green-jacket-wearing-helmet-and-goggles-12165429/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/30786149/pexels-photo-30786149.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/30786149/pexels-photo-30786149.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6016,
+      "height": 4016,
+      "alt": "Ski lift carrying skiers against a clear blue sky in Białka Tatrzańska, Poland.",
+      "query": "Lianhuashan Ski Resort Changchun",
+      "credit": {
+        "source": "pexels",
+        "author": "Dominik Gryzbon",
+        "sourceUrl": "https://www.pexels.com/photo/ski-lift-in-bialka-tatrzanska-poland-30786149/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/16095999/pexels-photo-16095999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/16095999/pexels-photo-16095999.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3456,
+      "height": 4608,
+      "alt": "A snowboarder in a red jacket walks uphill on a snowy slope, carrying a snowboard, during a winter day.",
+      "query": "Lianhuashan Ski Resort Changchun",
+      "credit": {
+        "source": "pexels",
+        "author": "Sarazh  Izmailov",
+        "sourceUrl": "https://www.pexels.com/photo/person-walking-up-hill-carrying-snowboard-16095999/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "滑雪",
+    "冬季",
+    "亲子"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "长春莲花山滑雪场·百度百科",
+      "url": "https://baike.baidu.com/item/%E9%95%BF%E6%98%A5%E8%8E%B2%E8%8A%B1%E5%B1%B1%E6%BB%91%E9%9B%AA%E5%9C%BA",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-03"
+    }
+  ],
+  "updatedAt": "2026-10-03",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Lianhuashan Ski Resort Changchun",
+    "zh": "莲花山滑雪场"
+  },
+  "_geocodeTitle": "莲花山滑雪场游客中心",
+  "_geocodeSuspect": false,
+  "district": "220105"
+}

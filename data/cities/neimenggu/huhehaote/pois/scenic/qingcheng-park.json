@@ -1,0 +1,103 @@
+{
+  "id": "qingcheng-park",
+  "name": "青城公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "回民区老城里的公园，假山湖水和儿童游乐区，是一代呼市人的童年记忆。",
+  "description": "青城公园在回民区中山西路南侧，是呼和浩特最早的一批公园之一。进门是一片湖，湖边有假山和亭子，往里走是成片的树林和小广场。儿童游乐区里转马、碰碰车还在，周末孩子最多。老人们常在树荫下拉二胡、唱小曲，声音混在蝉鸣里。园子不大，走一圈半小时，慢逛能待一个多小时。它紧挨着老城商业街，出来就能去宽巷子吃焙子和羊杂碎，是把行程串起来的好节点。",
+  "highlights": [
+    "老城里的湖与假山",
+    "儿童游乐区仍旧热闹",
+    "紧挨商业街好串联"
+  ],
+  "location": {
+    "point": {
+      "lng": 111.66674,
+      "lat": 40.807465,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "内蒙古自治区呼和浩特市回民区中山西路",
+    "district": "回民区",
+    "transportTip": "市区乘公交或打车到青城公园站",
+    "entrance": {
+      "lng": 111.66307,
+      "lat": 40.805898,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约06:00-22:00，以公园为准",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9%E9%9D%92%E5%9F%8E%E5%85%AC%E5%9B%AD%E6%91%A9%E5%A4%A9%E8%BD%AE_%28Roller_Coaster_in_Qingcheng_Park%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9%E9%9D%92%E5%9F%8E%E5%85%AC%E5%9B%AD%E6%91%A9%E5%A4%A9%E8%BD%AE_%28Roller_Coaster_in_Qingcheng_Park%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 810,
+      "alt": "呼和浩特青城公园摩天轮 (Roller Coaster in Qingcheng Park) - panoramio.jpg",
+      "query": "Qingcheng Park Hohhot 呼和浩特",
+      "credit": {
+        "source": "wikimedia",
+        "author": "风二中",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9%E9%9D%92%E5%9F%8E%E5%85%AC%E5%9B%AD%E6%91%A9%E5%A4%A9%E8%BD%AE_(Roller_Coaster_in_Qingcheng_Park)_-_panoramio.jpg",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Qingcheng_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Qingcheng_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 811,
+      "alt": "Qingcheng Park.jpg",
+      "query": "Qingcheng Park Hohhot",
+      "credit": {
+        "source": "wikimedia",
+        "author": "CurtNeiMeng",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qingcheng_Park.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "公园",
+    "老城",
+    "童年"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "青城公园·百度百科",
+      "url": "https://baike.baidu.com/item/%E9%9D%92%E5%9F%8E%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-03"
+    }
+  ],
+  "updatedAt": "2026-10-03",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Qingcheng Park Hohhot",
+    "zh": "青城公园"
+  },
+  "_geocodeTitle": "青城公园",
+  "_geocodeSuspect": false,
+  "district": "150103"
+}

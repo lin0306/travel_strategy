@@ -1,0 +1,113 @@
+{
+  "id": "shenyang-kaochuan",
+  "name": "东北烧烤（沈阳烤串）",
+  "category": "food",
+  "subtype": "local",
+  "summary": "沈阳夜宵主角，小串炭火现烤，肉筋掌中宝样样有。",
+  "description": "东北烧烤是沈阳夜宵的主角。小串在炭火上现烤，肉筋、掌中宝、腰子样样有。蘸孜然辣面，配啤酒。冬天屋里热乎，夏天马路边也摆。朋友围着炉子唠嗑，是沈阳的夜。辣度可以提前说，吃不了辣一定要讲。",
+  "highlights": [
+    "沈阳夜宵主角炭火小串",
+    "肉筋掌中宝孜然辣面",
+    "朋友围炉唠嗑沈阳夜"
+  ],
+  "location": {
+    "point": {
+      "lng": 123.403948,
+      "lat": 41.767156,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省沈阳市各烧烤店",
+    "district": "和平区",
+    "transportTip": "市区烧烤店均有"
+  },
+  "practical": {
+    "openHours": "约16:00-次日02:00",
+    "openHoursRef": 0,
+    "ticket": "约50元/人起",
+    "ticketRef": 0,
+    "duration": "建议 40-90 分钟",
+    "durationMinutes": [
+      40,
+      90
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "friends",
+    "couple",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/18936008/pexels-photo-18936008.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/18936008/pexels-photo-18936008.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4392,
+      "height": 2928,
+      "alt": "Traditional Korean BBQ grilling with assorted side dishes in Seoul, South Korea.",
+      "query": "Northeast BBQ Shenyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Pincalo",
+        "sourceUrl": "https://www.pexels.com/photo/preparing-roast-ribs-18936008/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/15711722/pexels-photo-15711722.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/15711722/pexels-photo-15711722.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6503,
+      "height": 3891,
+      "alt": "Delicious shashlik skewers being prepared in a professional kitchen setting.",
+      "query": "Northeast BBQ Shenyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Suki Lee",
+        "sourceUrl": "https://www.pexels.com/photo/roasted-shashlik-in-a-restaurant-kitchen-15711722/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39795863/pexels-photo-39795863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39795863/pexels-photo-39795863.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3668,
+      "height": 5502,
+      "alt": "Juicy steak cooking on a grill with tongs lifting a piece and smoky ambiance.",
+      "query": "Northeast BBQ Shenyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Alex Anheuer",
+        "sourceUrl": "https://www.pexels.com/photo/grilling-steak-with-tongs-and-smoke-39795863/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "烧烤",
+    "烤串",
+    "夜宵"
+  ],
+  "popularity": 88,
+  "sources": [
+    {
+      "title": "百度百科·东北烧烤",
+      "url": "https://baike.baidu.com/item/%E4%B8%9C%E5%8C%97%E7%83%A7%E7%83%A4",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Northeast BBQ Shenyang",
+    "zh": "东北烧烤（沈阳烤串）"
+  },
+  "_geocodeTitle": "路边东北烧烤",
+  "_geocodeSuspect": false,
+  "district": "210102"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "kaige-jiulou",
+  "name": "凯鸽酒楼",
+  "category": "food",
+  "subtype": "local",
+  "summary": "本地一家做大同菜的馆子，份量足价格实在，家庭聚餐常去。",
+  "description": "凯鸽酒楼是大同本地的一家馆子，市区有几家。做的是本地菜：过油肉、羊杂、莜面、黄糕。份量足，价格实在，味道稳，所以一家人聚餐常选这儿。它不是给游客开的，是本地人自己吃的地方。饭点人多，包间要订。",
+  "highlights": [
+    "本地馆子，做大同菜份量足",
+    "价格实在味道稳，家庭聚餐常选",
+    "本地人自己吃，包间要订"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.336666,
+      "lat": 40.089499,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山西省大同市平城区凯鸽酒楼",
+    "district": "平城区",
+    "transportTip": "市区公交或打车到店"
+  },
+  "practical": {
+    "openHours": "约10:00-21:30",
+    "openHoursRef": 0,
+    "ticket": "人均约60元",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "friends",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/6724161/pexels-photo-6724161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6724161/pexels-photo-6724161.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3239,
+      "height": 4858,
+      "alt": "A man in gray sits peacefully in sunlight beside a traditional Chinese temple door in Datong.",
+      "query": "Chinese restaurant interior datong",
+      "credit": {
+        "source": "pexels",
+        "author": "Lan Yao",
+        "sourceUrl": "https://www.pexels.com/photo/a-man-in-gray-long-sleeves-sitting-near-the-wooden-door-6724161/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4096,
+      "alt": "Charming Asian dining room with bamboo chairs and traditional teaware.",
+      "query": "Chinese restaurant interior datong",
+      "credit": {
+        "source": "pexels",
+        "author": "TIANYUN XIA",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37047965/pexels-photo-37047965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37047965/pexels-photo-37047965.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4896,
+      "height": 3264,
+      "alt": "Cozy traditional Asian restaurant interior highlighting wooden furnishings and red decor. Ideal for cultural and design ",
+      "query": "Chinese restaurant interior datong",
+      "credit": {
+        "source": "pexels",
+        "author": "mingche lee",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "本地菜",
+    "实惠",
+    "聚餐"
+  ],
+  "popularity": 66,
+  "sources": [
+    {
+      "title": "百度百科·大同",
+      "url": "https://baike.baidu.com/item/%E5%A4%A7%E5%90%8C",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "凯鸽酒楼"
+  },
+  "_geocodeTitle": "凯鸽酒楼·雁北民间菜(华北星店)",
+  "_geocodeSuspect": false,
+  "district": "140213"
+}

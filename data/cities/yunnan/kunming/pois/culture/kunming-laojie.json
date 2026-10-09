@@ -1,0 +1,113 @@
+{
+  "id": "kunming-laojie",
+  "name": "昆明老街",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "老城中心的一片历史街区，光华街、文明街、甬道街几条并列着走。",
+  "description": "昆明老街不是一个单独的景点，是老城南边的一整片——光华街、文明街、甬道街、景星街这几条互相连着的街区。它的样子定在上世纪前半段：两层三层的砖木房子，楼下开店，楼上住人，街面窄，屋檐压得低。这几年修过一轮，房子没拆，门面收拾干净了，做成了餐馆、茶室、书店、小吃铺。最有名的一处是抗战胜利纪念堂附近的酒杯楼，两片弧形的楼对着圈出一个口子，形状像酒杯——这也是昆明最有名的一张旧照片。街上有一段是坡，房子顺着坡往下掉，走起来有高低。白天看房子，晚上灯亮起来更适合走。它与正义路、南强街连着，一次能走一大圈。",
+  "highlights": [
+    "光华街、文明街、甬道街几条连成一片历史街区",
+    "酒杯楼两片弧形对着圈出一个口子",
+    "晚上灯亮起来更适合走"
+  ],
+  "location": {
+    "point": {
+      "lng": 102.708625,
+      "lat": 25.039701,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "云南省昆明市五华区文明街（昆明老街一带）",
+    "district": "五华区",
+    "transportTip": "地铁2号线至东风广场站一带，步行约十分钟"
+  },
+  "practical": {
+    "openHours": "街区全天；店铺多为10:00-22:00，以各自为准",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 90-240 分钟",
+    "durationMinutes": [
+      90,
+      240
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/1983K%E6%98%86%E6%98%8E%E8%80%81%E8%A1%97_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/1983K%E6%98%86%E6%98%8E%E8%80%81%E8%A1%97_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1593,
+      "alt": "1983K昆明老街 - panoramio.jpg",
+      "query": "昆明老街 昆明",
+      "credit": {
+        "source": "wikimedia",
+        "author": "BV3CM",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:1983K%E6%98%86%E6%98%8E%E8%80%81%E8%A1%97_-_panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Old_kunming_city01.jpg/1280px-Old_kunming_city01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Old_kunming_city01.jpg/1280px-Old_kunming_city01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Old kunming city01.jpg",
+      "query": "昆明老街 昆明",
+      "credit": {
+        "source": "wikimedia",
+        "author": "User:Vberger",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_kunming_city01.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/%E6%98%86%E6%98%8E%E8%80%81%E8%A1%97-%E4%BA%91%E7%91%9E%E4%B8%9C%E8%B7%AF.jpg/1280px-%E6%98%86%E6%98%8E%E8%80%81%E8%A1%97-%E4%BA%91%E7%91%9E%E4%B8%9C%E8%B7%AF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/%E6%98%86%E6%98%8E%E8%80%81%E8%A1%97-%E4%BA%91%E7%91%9E%E4%B8%9C%E8%B7%AF.jpg/1280px-%E6%98%86%E6%98%8E%E8%80%81%E8%A1%97-%E4%BA%91%E7%91%9E%E4%B8%9C%E8%B7%AF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1436,
+      "alt": "昆明老街-云瑞东路.jpg",
+      "query": "昆明老街 昆明",
+      "credit": {
+        "source": "wikimedia",
+        "author": "瑞丽江的河水",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%98%86%E6%98%8E%E8%80%81%E8%A1%97-%E4%BA%91%E7%91%9E%E4%B8%9C%E8%B7%AF.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "历史街区",
+    "免费",
+    "夜游"
+  ],
+  "popularity": 88,
+  "sources": [
+    {
+      "title": "百度百科·昆明老街",
+      "url": "https://baike.baidu.com/item/%E6%98%86%E6%98%8E%E8%80%81%E8%A1%97",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-28"
+    }
+  ],
+  "updatedAt": "2026-09-28",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Kunming Old Street",
+    "zh": "昆明老街"
+  },
+  "_geocodeTitle": "昆明老街",
+  "_geocodeSuspect": false,
+  "district": "530102"
+}

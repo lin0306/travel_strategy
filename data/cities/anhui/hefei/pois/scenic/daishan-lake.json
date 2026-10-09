@@ -1,0 +1,118 @@
+{
+  "id": "daishan-lake",
+  "name": "岱山湖",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "肥东北部的一座湖区，水面开阔、半岛多，适合钓鱼、划船和湖边露营。",
+  "description": "岱山湖在肥东县北部，原本是一座大型水库，如今改成度假湖区。水面开阔，半岛和港湾把岸线切得很碎，坐船在湖里绕一圈，处处是不同的角度。岸边有沙滩、草地和成排的树，适合露营、烧烤和放风筝。湖里有鱼，不少人专程来钓鱼，一坐就是半天。湖区项目以水上活动为主，夏天玩桨板和皮划艇最舒服。游客不算多，节奏慢，适合一家人在湖边待一天。",
+  "highlights": [
+    "水库改成的开阔湖区",
+    "半岛港湾岸线多姿",
+    "露营烧烤与水上项目"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.859387,
+      "lat": 32.150435,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "安徽省合肥市肥东县岱山湖景区",
+    "district": "肥东县",
+    "transportTip": "从合肥市区自驾到肥东岱山湖，约一小时",
+    "entrance": {
+      "lng": 117.85945,
+      "lat": 32.151256,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:30-17:30",
+    "openHoursRef": 0,
+    "ticket": "约40元起，项目另计",
+    "ticketRef": 0,
+    "duration": "建议 150-270 分钟",
+    "durationMinutes": [
+      150,
+      270
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37098794/pexels-photo-37098794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37098794/pexels-photo-37098794.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4073,
+      "height": 3054,
+      "alt": "Idyllic lake scene with urban skyline and traditional pavilion, reflecting tranquility.",
+      "query": "Daishan Lake Hefei",
+      "credit": {
+        "source": "pexels",
+        "author": "Alberto Brunello",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-lake-with-skyline-and-pavilion-37098794/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39795323/pexels-photo-39795323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39795323/pexels-photo-39795323.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "A woman walks through a forest path beside a serene lake in Hefei, China.",
+      "query": "Daishan Lake Hefei",
+      "credit": {
+        "source": "pexels",
+        "author": "董 小姐",
+        "sourceUrl": "https://www.pexels.com/photo/woman-walking-among-trees-by-lakeside-in-hefei-39795323/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/15737902/pexels-photo-15737902.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/15737902/pexels-photo-15737902.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5379,
+      "height": 3586,
+      "alt": "Cityscape of Hefei showcasing modern architecture and a tranquil pond reflection.",
+      "query": "Daishan Lake Hefei",
+      "credit": {
+        "source": "pexels",
+        "author": "fei wang",
+        "sourceUrl": "https://www.pexels.com/photo/pond-and-trees-in-baohe-in-hefei-15737902/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湖泊",
+    "露营",
+    "水上项目"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "岱山湖·百度百科",
+      "url": "https://baike.baidu.com/item/%E5%B2%B1%E5%B1%B1%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Daishan Lake Hefei",
+    "zh": "岱山湖"
+  },
+  "_geocodeTitle": "岱山湖旅游度假区",
+  "_geocodeSuspect": false,
+  "district": "340122"
+}

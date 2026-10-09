@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "harbin",
+  "name": "哈尔滨",
+  "province": "黑龙江",
+  "adcode": "230100",
+  "provinceAdcode": "230000",
+  "tagline": "一条中央大街走完半个世纪的欧陆建筑，冬天整座城是冰做的",
+  "intro": "哈尔滨在松花江边上，是中东铁路造出来的一座城，十九世纪末开始成形，二十世纪初一度挤满了侨民与各国领事馆，所以城里教堂、洋行、铁路职工宿舍成片地留下来，中央大街两侧就是一本建筑样式的目录。冬天是哈尔滨的主季：一月平均零下十几度，江面封冻，冰雪大世界在江北立起来，城里到处是冰灯与冰雕。夏天反而舒服，二十几度，太阳岛与江北的湿地是避暑的去处。吃的是东北底子加了俄式一层：红肠、大列巴、格瓦斯、锅包肉、杀猪菜、铁锅炖，西餐也正经有传承。安排上，城里两天、江北一天、冬天再加一天给冰雪，四天合适。",
+  "center": {
+    "lng": 126.535,
+    "lat": 45.803,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    125.6879,
+    44.0622,
+    130.2401,
+    46.6705
+  ],
+  "defaultZoom": 9,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/36213077/pexels-photo-36213077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36213077/pexels-photo-36213077.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3877,
+      "height": 5816,
+      "alt": "Illuminated building on Central Street in Harbin, China, showcasing classical architecture at night.",
+      "query": "哈尔滨 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "ainc T",
+        "sourceUrl": "https://www.pexels.com/photo/night-view-of-harbin-central-street-building-36213077/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38707930/pexels-photo-38707930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38707930/pexels-photo-38707930.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8256,
+      "height": 4951,
+      "alt": "View of Harbin's Central Avenue with classic and modern buildings.",
+      "query": "哈尔滨 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "sanynjez gao",
+        "sourceUrl": "https://www.pexels.com/photo/central-avenue-architecture-in-harbin-38707930/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/9212612/pexels-photo-9212612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/9212612/pexels-photo-9212612.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8000,
+      "height": 6000,
+      "alt": "Stunning aerial view of Harbin Ice and Snow Festival with intricate ice sculptures under a clear blue sky.",
+      "query": "哈尔滨 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Kent Zhong",
+        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-the-harbin-international-ice-and-snow-festival-in-china-9212612/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "12 月到次年 2 月是冰雪季（最冷也最好看，要按零下二十度备衣）；6-8 月凉爽，是避暑季；4 月与 10 月是换季的淡季，风大、景色一般",
+    "suggestedDays": "4 天（中央大街·索菲亚·老道外 1 天 + 江北太阳岛·极地·虎林园 1 天 + 冰雪大世界或伏尔加庄园 1 天 + 博物馆与老字号 1 天）",
+    "transitTip": "太平国际机场在道里区西边，离市区约三十公里，机场巴士与网约车都方便。地铁三条线，二号线过江到松北，中央大街、索菲亚教堂、冰雪大世界、太阳岛都在沿线或换乘一两站内，冬天比地面交通稳。★ 哈尔滨站在南岗区，是京哈与滨洲线上的主要站；哈尔滨西站在哈西，高铁多在这里，两站之间有地铁与公交。冬天路面结冰，网约车与公交在早晚高峰都慢，赶车要留余量。去亚布力坐高铁到亚布力南站，去伏尔加庄园在市区东南，公交加步行或网约车。",
+    "climateTip": "中温带大陆性季风气候，冬天长而冷，一月平均零下十八度上下，极端到零下三十度；夏天短而凉，七月平均二十三度，是著名的避暑地；春秋短，风大干燥，昼夜温差大。"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-09-30"
+  },
+  "updatedAt": "2026-09-30"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "forest-zoo",
+  "name": "大连森林动物园",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "西岗一处依山而建的动物园，散养区与场馆结合。",
+  "description": "森林动物园在大连西岗，是一处依山而建的动物园，散养区里动物能走动，大象、长颈鹿、猛兽各有场馆。园子大，绿化好，爬山要体力。带孩子来。几个看点：西岗依山而建的动物园；散养区动物能走动；园区大绿化好，带孩子来。",
+  "highlights": [
+    "西岗依山而建的动物园",
+    "散养区动物能走动",
+    "园区大绿化好，带孩子来"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.609982,
+      "lat": 38.883257,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省大连市西岗区大连森林动物园",
+    "district": "西岗区",
+    "transportTip": "西岗区乘公交可达",
+    "entrance": {
+      "lng": 121.610127,
+      "lat": 38.873418,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约8:30-17:00",
+    "openHoursRef": 0,
+    "ticket": "门票约几十元",
+    "ticketRef": 0,
+    "duration": "建议 120-180 分钟",
+    "durationMinutes": [
+      120,
+      180
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "friends",
+    "couple",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Mountain_Series.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Mountain_Series.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 608,
+      "alt": "Mountain Series.jpg",
+      "query": "natural landscape China dalian",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Jason M. C., Han",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mountain_Series.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "动物园",
+    "散养",
+    "亲子"
+  ],
+  "popularity": 56,
+  "sources": [
+    {
+      "title": "百度百科·大连森林动物园",
+      "url": "https://baike.baidu.com/item/%E5%A4%A7%E8%BF%9E%E6%A3%AE%E6%9E%97%E5%8A%A8%E7%89%A9%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "大连森林动物园"
+  },
+  "_geocodeTitle": "大连森林动物园",
+  "_geocodeSuspect": false,
+  "district": "210203"
+}

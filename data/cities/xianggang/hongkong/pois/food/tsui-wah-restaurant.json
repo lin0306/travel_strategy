@@ -1,0 +1,83 @@
+{
+  "id": "tsui-wah-restaurant",
+  "name": "翠华餐厅",
+  "category": "food",
+  "subtype": "local",
+  "summary": "茶餐厅做成连锁的那一派：鱼蛋粉、奶油猪与奶茶是它的三样固定内容。",
+  "description": "翠华从旺角的一家冰室做到连锁，是把茶餐厅这套标准化最成功的例子之一。它的菜单很宽：鱼蛋河、奶油猪仔包、咖喱牛腩饭、瑞士鸡翼与冻奶茶，一天里任何时段都能点。这类茶餐厅的作用是解释香港的日常：出餐快、价格清楚、菜单能同时应付粉面饭与饮品。门店分布广，营业时间长，有的店开到深夜。它在中环与旺角都有店，味道差别不大。",
+  "highlights": [
+    "鱼蛋河、奶油猪仔包、冻奶茶是固定三样",
+    "菜单横跨粉面饭与饮品，全天供应",
+    "门店多，部分营业到深夜"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.160524,
+      "lat": 22.281867,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "香港岛中西区中环威灵顿街17-19号（多家门店，以实际地址为准）",
+    "district": "中西区",
+    "transportTip": "港铁中环站/香港站步行约5分钟"
+  },
+  "practical": {
+    "openHours": "约07:00-次日凌晨（以门店公告为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约港币80元起，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 45-90 分钟",
+    "durationMinutes": [
+      45,
+      90
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "solo",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Tsuiwahhkg.jpg/1280px-Tsuiwahhkg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Tsuiwahhkg.jpg/1280px-Tsuiwahhkg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 608,
+      "alt": "Tsuiwahhkg.jpg",
+      "query": "翠华餐厅 香港",
+      "credit": {
+        "source": "wikimedia",
+        "author": "WhisperToMe",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tsuiwahhkg.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "茶餐厅",
+    "连锁",
+    "平价"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "百度百科·翠华餐厅",
+      "url": "https://baike.baidu.com/item/%E7%BF%A0%E5%8D%8E%E9%A4%90%E5%8E%85",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-24"
+    }
+  ],
+  "updatedAt": "2026-09-24",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "翠华餐厅"
+  },
+  "_geocodeTitle": "翠华餐厅(中环德辅道中店)",
+  "_geocodeSuspect": false,
+  "district": "811100"
+}

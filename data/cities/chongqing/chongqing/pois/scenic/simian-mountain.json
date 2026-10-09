@@ -1,0 +1,117 @@
+{
+  "id": "simian-mountain",
+  "name": "四面山",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "丹霞绝壁与千瀑之乡，望乡台瀑布 158 米落差被岩壁天然框成一颗心。",
+  "description": "四面山在江津区南部，因山体四面围合得名，是丹霞地貌与瀑布密集的国家 5A 级景区。招牌的望乡台瀑布落差 158 米，赤色岩壁天然凹出心形轮廓，被称为“天下第一心”，晴日上午水雾里容易见到彩虹。土地岩的丹霞绝壁长三百多米，大洪海是渝黔界湖，坐船能到“一脚踏两省”的界碑。景区面积大、景点分散，观光车几乎必买，门票 48 小时有效可多次进出，安排两天比一天舒服。主城自驾约 2 小时。",
+  "highlights": [
+    "望乡台瀑布落差 158 米，岩壁天然成心形",
+    "丹霞地貌与高山湖泊组合",
+    "门票 48 小时有效，适合住一晚慢慢玩"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.415231,
+      "lat": 28.658328,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "重庆市江津区四面山镇",
+    "district": "江津",
+    "transportTip": "主城自驾约 2 小时；江津城区有班车至景区",
+    "entrance": {
+      "lng": 106.412111,
+      "lat": 28.64844,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放（核心景点约 08:00-17:00，以官方为准）",
+    "openHoursRef": 0,
+    "ticket": "约 85-90 元，观光车约 40 元另计；2026 年有阶段性免大门票活动需公众号预约（以官方为准）",
+    "ticketRef": 0,
+    "duration": "建议 300-480 分钟",
+    "durationMinutes": [
+      300,
+      480
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38733381/pexels-photo-38733381.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38733381/pexels-photo-38733381.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4096,
+      "height": 3072,
+      "alt": "Idyllic landscape of a tranquil river, lush greenery, and mountains in Xiushan, China on a sunny day.",
+      "query": "natural landscape China chongqing",
+      "credit": {
+        "source": "pexels",
+        "author": "千纸鹤 吴",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-river-and-mountains-in-xiushan-china-38733381/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/8622312/pexels-photo-8622312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/8622312/pexels-photo-8622312.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Hikers explore the impressive rock formations and waterfall in Wulong Karst National Park, China.",
+      "query": "natural landscape China chongqing",
+      "credit": {
+        "source": "pexels",
+        "author": "Caleb Remy Ma",
+        "sourceUrl": "https://www.pexels.com/photo/hikers-walking-under-a-natural-arch-8622312/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38942587/pexels-photo-38942587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38942587/pexels-photo-38942587.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8064,
+      "height": 6048,
+      "alt": "View of Chongqing, China skyline featuring modern architecture under a cloudy sky.",
+      "query": "natural landscape China chongqing",
+      "credit": {
+        "source": "pexels",
+        "author": "Guillaume Kremer",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-view-of-chongqing-s-modern-architecture-38942587/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "瀑布",
+    "丹霞",
+    "5A",
+    "避暑"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "携程·四面山",
+      "url": "https://gs.ctrip.com/html5/you/sight/chongqing158/43808.html",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-23"
+    }
+  ],
+  "updatedAt": "2026-09-23",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "四面山"
+  },
+  "_geocodeTitle": "四面山镇",
+  "_geocodeSuspect": false,
+  "district": "500116"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "xiaosong-cheng",
+  "name": "小宋城",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "室内仿古美食城，一站式吃遍开封小吃，晚上有演出。",
+  "description": "小宋城是一座室内的仿古美食城，把开封小吃集中到一处。亭台、戏台、摊位布在大堂，像个室内市井。灌汤包、炒凉粉、烤鸭都能吃到，不用跑夜市。晚上有演出，带小孩也合适。环境比路边干净，价格略高。",
+  "highlights": [
+    "室内仿古一站式美食城",
+    "小吃集中不跑夜市",
+    "晚有演出带娃合适"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.310747,
+      "lat": 34.803233,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河南省开封市龙亭区小宋城",
+    "district": "龙亭区",
+    "transportTip": "市区公交或打车到小宋城"
+  },
+  "practical": {
+    "openHours": "约10:00-22:00",
+    "openHoursRef": 0,
+    "ticket": "免费进场，消费另计",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "friends",
+    "couple",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/13644256/pexels-photo-13644256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/13644256/pexels-photo-13644256.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7234,
+      "height": 4823,
+      "alt": "Brightly colored traditional Buddhist temple exterior with ornate details and vibrant architecture.",
+      "query": "Xiaosong City Kaifeng",
+      "credit": {
+        "source": "pexels",
+        "author": "Suki Lee",
+        "sourceUrl": "https://www.pexels.com/photo/daxiangguo-temple-under-cloudy-sky-13644256/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39293294/pexels-photo-39293294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39293294/pexels-photo-39293294.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2504,
+      "height": 3756,
+      "alt": "A beautifully lit traditional Chinese pagoda captured under the night sky, showcasing traditional architecture.",
+      "query": "Xiaosong City Kaifeng",
+      "credit": {
+        "source": "pexels",
+        "author": "Jerry Zhang",
+        "sourceUrl": "https://www.pexels.com/photo/illuminated-ancient-pagoda-at-night-in-china-39293294/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38492551/pexels-photo-38492551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38492551/pexels-photo-38492551.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8021,
+      "height": 5347,
+      "alt": "Vibrant night scene of fireworks over a pagoda in Kaifeng, China, reflecting on the river.",
+      "query": "Xiaosong City Kaifeng",
+      "credit": {
+        "source": "pexels",
+        "author": "Raymond Zhao",
+        "sourceUrl": "https://www.pexels.com/photo/spectacular-night-fireworks-over-kaifeng-pagoda-38492551/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "美食城",
+    "小吃",
+    "室内"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "百度百科·开封",
+      "url": "https://baike.baidu.com/item/%E5%BC%80%E5%B0%81",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Xiaosong City Kaifeng",
+    "zh": "小宋城"
+  },
+  "_geocodeTitle": "汴梁小宋城",
+  "_geocodeSuspect": false,
+  "district": "410202"
+}

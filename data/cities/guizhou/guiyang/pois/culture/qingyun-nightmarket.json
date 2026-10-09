@@ -1,0 +1,113 @@
+{
+  "id": "qingyun-nightmarket",
+  "name": "青云路夜市",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "南明区青云路上的一条夜市街，晚上开，吃的东西一整条。",
+  "description": "青云路夜市在南明区青云路，是贵阳最有名的一条夜市。晚上开，摊子从街头排到街尾，烤的、炸的、煮的、炒的，一样挨一样。烤脑花、烤茄子、恋爱豆腐果、洋芋粑、酸汤粉都有。价格便宜，一份十几到几十。人挤人，桌子摆到路边。它是贵阳晚上最热闹的一条街 —— 想知道这儿的夜是什么样，来这儿比去商场有用。八点之后最旺。",
+  "highlights": [
+    "摊子从街头排到街尾，烤的炸的煮的炒的一样挨一样",
+    "烤脑花烤茄子恋爱豆腐果洋芋粑都有",
+    "八点之后最旺，人挤人桌子摆到路边"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.713646,
+      "lat": 26.565422,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "贵州省贵阳市南明区青云路125号",
+    "district": "南明区",
+    "transportTip": "市区步行或公交到青云路"
+  },
+  "practical": {
+    "openHours": "约18:00-次日凌晨",
+    "openHoursRef": 0,
+    "ticket": "便宜",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "couple",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/13294256/pexels-photo-13294256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/13294256/pexels-photo-13294256.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3509,
+      "height": 4221,
+      "alt": "An elderly woman sits by an old stone building on an urban street, reflecting traditional architecture.",
+      "query": "Chinese old town street guiyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Zhengdong Hu",
+        "sourceUrl": "https://www.pexels.com/photo/an-old-lady-sitting-on-a-chair-near-the-concrete-house-13294256/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31417628/pexels-photo-31417628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31417628/pexels-photo-31417628.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6774,
+      "height": 4492,
+      "alt": "Busy street in Guiyang, showcasing urban life and architecture in Guizhou, China.",
+      "query": "Chinese old town street guiyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Johnny Song",
+        "sourceUrl": "https://www.pexels.com/photo/street-view-of-guiyang-city-guizhou-province-31417628/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/29431917/pexels-photo-29431917.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29431917/pexels-photo-29431917.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7952,
+      "height": 5203,
+      "alt": "Harmonious blend of traditional Chinese pavilion and modern skyscraper in cityscape.",
+      "query": "Chinese old town street guiyang",
+      "credit": {
+        "source": "pexels",
+        "author": "雨 幽",
+        "sourceUrl": "https://www.pexels.com/photo/ancient-pavilion-and-modern-skyscraper-contrast-29431917/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "夜市",
+    "小吃",
+    "夜生活"
+  ],
+  "popularity": 58,
+  "sources": [
+    {
+      "title": "百度百科·青云路夜市",
+      "url": "https://baike.baidu.com/item/%E9%9D%92%E4%BA%91%E8%B7%AF%E5%A4%9C%E5%B8%82",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "青云路夜市"
+  },
+  "_geocodeTitle": "青云路夜市",
+  "_geocodeSuspect": false,
+  "district": "520102"
+}

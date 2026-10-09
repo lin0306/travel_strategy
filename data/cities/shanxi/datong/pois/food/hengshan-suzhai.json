@@ -1,0 +1,111 @@
+{
+  "id": "hengshan-suzhai",
+  "name": "恒山素斋",
+  "category": "food",
+  "subtype": "local",
+  "summary": "恒山一带寺庙与山下吃素斋的地方，清淡，爬完山换口味。",
+  "description": "恒山是道教名山，山上和山下都有吃素斋的地方。素斋做的是豆腐、山菜、菌菇这一路，清淡，不放肉。它不是素食馆那种精细路子，是实在的山里菜。爬完恒山下来吃一顿清淡的，换换口味也好。价格不贵。",
+  "highlights": [
+    "恒山道教名山，山下有素斋",
+    "豆腐山菜菌菇一路，清淡",
+    "爬完换口味，价不贵"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.702949,
+      "lat": 39.703291,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山西省大同市浑源县恒山素斋",
+    "district": "浑源县",
+    "transportTip": "恒山景区或浑源县城"
+  },
+  "practical": {
+    "openHours": "约10:00-20:00",
+    "openHoursRef": 0,
+    "ticket": "人均约50元",
+    "ticketRef": 0,
+    "duration": "建议 40-80 分钟",
+    "durationMinutes": [
+      40,
+      80
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "elders",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/6724161/pexels-photo-6724161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6724161/pexels-photo-6724161.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3239,
+      "height": 4858,
+      "alt": "A man in gray sits peacefully in sunlight beside a traditional Chinese temple door in Datong.",
+      "query": "Chinese restaurant interior datong",
+      "credit": {
+        "source": "pexels",
+        "author": "Lan Yao",
+        "sourceUrl": "https://www.pexels.com/photo/a-man-in-gray-long-sleeves-sitting-near-the-wooden-door-6724161/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4096,
+      "alt": "Charming Asian dining room with bamboo chairs and traditional teaware.",
+      "query": "Chinese restaurant interior datong",
+      "credit": {
+        "source": "pexels",
+        "author": "TIANYUN XIA",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37047965/pexels-photo-37047965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37047965/pexels-photo-37047965.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4896,
+      "height": 3264,
+      "alt": "Cozy traditional Asian restaurant interior highlighting wooden furnishings and red decor. Ideal for cultural and design ",
+      "query": "Chinese restaurant interior datong",
+      "credit": {
+        "source": "pexels",
+        "author": "mingche lee",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "素斋",
+    "恒山",
+    "清淡"
+  ],
+  "popularity": 48,
+  "sources": [
+    {
+      "title": "百度百科·恒山",
+      "url": "https://baike.baidu.com/item/%E6%81%92%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "恒山素斋"
+  },
+  "_geocodeTitle": "源慈妙膳健康养生能量素斋",
+  "district": "140225"
+}

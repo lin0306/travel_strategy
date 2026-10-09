@@ -1,0 +1,112 @@
+{
+  "id": "binhai-library",
+  "name": "天津滨海图书馆",
+  "category": "hotspot",
+  "subtype": "photo",
+  "summary": "中庭是一片阶梯状的书墙，这栋楼是它最出名的原因。",
+  "description": "天津滨海图书馆2017年建成，在滨海新区的新城一带，由荷兰的建筑事务所与本地院合作设计。它出名的原因是中庭——从地面向上堆出一片阶梯状的书架，书一直排到天花板，中间嵌着一个球形的报告厅，从正面看像一只眼睛。书墙上的书大部分是印上去的，可借的书在两侧的阅览区里。它本身是一座区级图书馆，能正常办证借书，来拍照的人比看书的多。免费开放，周一闭馆。从市区过来坐九号线再换一段，单程一个多小时。",
+  "highlights": [
+    "中庭是阶梯状书墙，直排到天花板",
+    "中间嵌着球形报告厅，正面看像一只眼睛",
+    "仍是正常开放的区级图书馆"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.687252,
+      "lat": 39.016846,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "天津市滨海新区旭升路347号滨海文化中心内",
+    "district": "滨海",
+    "transportTip": "地铁9号线塘沽方向至市民广场站，换乘公交或打车"
+  },
+  "practical": {
+    "openHours": "约10:00-18:00（周一闭馆），以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 40-90 分钟",
+    "durationMinutes": [
+      40,
+      90
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "solo",
+    "kids",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Binhai_library_bookshelves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Binhai_library_bookshelves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Binhai library bookshelves.jpg",
+      "query": "天津滨海图书馆 天津",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Muzzleflash",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Binhai_library_bookshelves.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Binhai_library_sphere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Binhai_library_sphere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Binhai library sphere.jpg",
+      "query": "天津滨海图书馆 天津",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Muzzleflash",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Binhai_library_sphere.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Tianjin-BinhaiXinqu_Library.jpg/1280px-Tianjin-BinhaiXinqu_Library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Tianjin-BinhaiXinqu_Library.jpg/1280px-Tianjin-BinhaiXinqu_Library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 811,
+      "alt": "Tianjin-BinhaiXinqu Library.jpg",
+      "query": "天津滨海图书馆 天津",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Suginami",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tianjin-BinhaiXinqu_Library.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "图书馆",
+    "书墙",
+    "当代建筑"
+  ],
+  "popularity": 92,
+  "sources": [
+    {
+      "title": "百度百科·天津滨海图书馆",
+      "url": "https://baike.baidu.com/item/%E5%A4%A9%E6%B4%A5%E6%BB%A8%E6%B5%B7%E5%9B%BE%E4%B9%A6%E9%A6%86",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-27"
+    }
+  ],
+  "updatedAt": "2026-09-27",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Binhai Library Tianjin",
+    "zh": "天津滨海图书馆"
+  },
+  "_geocodeTitle": "滨海图书馆",
+  "district": "120116"
+}

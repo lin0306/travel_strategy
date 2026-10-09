@@ -1,0 +1,89 @@
+{
+  "id": "nanshan",
+  "name": "南山(南郊风景区)",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "城市山林，招隐寺与竹林寺的清幽去处。",
+  "description": "南山在镇江城南，是城区边一片连绵的丘陵绿地，被称为城市山林。招隐寺、竹林寺、鹤林寺等古刹散落林间，文苑里纪念昭明太子编文选的典故。这里离城近却不喧闹，步道穿行竹海与松林，适合周末散步、爬山、吸氧。免费开放，是本地人晨练与踏青的后花园，顺路能看几处古寺。",
+  "highlights": [
+    "城市山林，离城近而清幽",
+    "招隐寺竹林寺鹤林寺",
+    "免费踏青与步道"
+  ],
+  "location": {
+    "point": {
+      "lng": 119.44217,
+      "lat": 32.17303,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "镇江市润州区南山风景区",
+    "district": "润州区",
+    "transportTip": "公交南山风景区站；市区打车约15分钟",
+    "entrance": {
+      "lng": 119.446588,
+      "lat": 32.176301,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放（寺观以公告为准）",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "solo",
+    "friends",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/%E6%B1%9F%E8%8B%8F%E9%95%87%E6%B1%9F%E5%8D%97%E5%B1%B1%E6%96%87%E8%8B%91_-_panoramio.jpg/1280px-%E6%B1%9F%E8%8B%8F%E9%95%87%E6%B1%9F%E5%8D%97%E5%B1%B1%E6%96%87%E8%8B%91_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/%E6%B1%9F%E8%8B%8F%E9%95%87%E6%B1%9F%E5%8D%97%E5%B1%B1%E6%96%87%E8%8B%91_-_panoramio.jpg/1280px-%E6%B1%9F%E8%8B%8F%E9%95%87%E6%B1%9F%E5%8D%97%E5%B1%B1%E6%96%87%E8%8B%91_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1806,
+      "alt": "江苏镇江南山文苑 - panoramio.jpg",
+      "query": "南山 镇江",
+      "credit": {
+        "source": "wikimedia",
+        "author": "shawnmung",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B1%9F%E8%8B%8F%E9%95%87%E6%B1%9F%E5%8D%97%E5%B1%B1%E6%96%87%E8%8B%91_-_panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "南山",
+    "城市山林",
+    "古寺"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·镇江南山",
+      "url": "https://baike.baidu.com/item/%E9%95%87%E6%B1%9F%E5%8D%97%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-05"
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "南山(南郊风景区)"
+  },
+  "_geocodeTitle": "南山景区",
+  "_geocodeSuspect": false,
+  "district": "321111"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "square-street",
+  "name": "四方街",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "古城中心的一块方形小广场，四条街从这里分出去，是古城的路网原点。",
+  "description": "四方街在古城中心，是一块不大的方形广场，几百平方米，四条主街从四个角分出去，连着整个古城的路网。它是茶马古道上的集市留下来的 ——马帮进城，货在这里卸、在这里换，所以古城最核心的一块就是它。广场地面是石板，中间低、四周高，边上有一条水渠 ——早年是用来冲洗广场的：堵住上游，水漫上来把街面冲一遍，再放走。这个做法至今还在用。现在这里是古城最热闹的地方：白天游客最多，晚上有打跳 ——本地人围成圈跳舞，游客可以跟着。看半小时到一个半小时，不收门票。它是逛古城的坐标原点，走丢了回这里重新起。",
+  "highlights": [
+    "古城路网原点，四条主街从四个角分出去",
+    "早年靠堵水冲洗街面，这个做法至今还在用",
+    "晚上有本地人围圈打跳，游客可以跟着"
+  ],
+  "location": {
+    "point": {
+      "lng": 100.23395,
+      "lat": 26.87204,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "云南省丽江市古城区四方街",
+    "district": "古城区",
+    "transportTip": "古城内步行；从北门或南门进来约十分钟"
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 30-90 分钟",
+    "durationMinutes": [
+      30,
+      90
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "friends",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/10836079/pexels-photo-10836079.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/10836079/pexels-photo-10836079.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 3024,
+      "alt": "Stunning view of a traditional pagoda at Mufu Palace in Lijiang, China, under a bright blue sky.",
+      "query": "Chinese historic architecture lijiang",
+      "credit": {
+        "source": "pexels",
+        "author": "Jasmine Xie",
+        "sourceUrl": "https://www.pexels.com/photo/the-mufu-palace-in-lijiang-china-10836079/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34675267/pexels-photo-34675267.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34675267/pexels-photo-34675267.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 2668,
+      "alt": "Beautiful traditional Chinese temple by the water with lush greenery and mountainous backdrop.",
+      "query": "Chinese historic architecture lijiang",
+      "credit": {
+        "source": "pexels",
+        "author": "David Tran",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-temple-by-tranquil-water-34675267/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38267417/pexels-photo-38267417.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38267417/pexels-photo-38267417.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4080,
+      "height": 3060,
+      "alt": "Scenic view of a traditional Chinese pagoda surrounded by autumn foliage in Lijiang, Yunnan Province, China.",
+      "query": "Chinese historic architecture lijiang",
+      "credit": {
+        "source": "pexels",
+        "author": "希 凤",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-pavilion-in-lijiang-yunnan-province-38267417/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "古城中心",
+    "集市",
+    "打跳"
+  ],
+  "popularity": 86,
+  "sources": [
+    {
+      "title": "百度百科·丽江古城",
+      "url": "https://baike.baidu.com/item/%E4%B8%BD%E6%B1%9F%E5%8F%A4%E5%9F%8E",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "四方街"
+  },
+  "_geocodeTitle": "四方街",
+  "_geocodeSuspect": false,
+  "district": "530702"
+}

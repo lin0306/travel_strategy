@@ -1,0 +1,119 @@
+{
+  "id": "karst-park",
+  "name": "贵阳喀斯特公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "观山湖区石林路上的一片石林，石头一片一片立着，不收门票。",
+  "description": "喀斯特公园在观山湖区石林东路与金阳南路交叉口，是一片石林。石头一片一片立着，高的几米，中间是路，能走进去。这种地形在贵州到处都是，但在城里有一片不多见。它不收门票，是这一区的公共公园，晚上也开。里面有孩子玩的地方。它与观山湖公园在同一区，但隔着几站。看贵州的石头长什么样，这儿最省事。",
+  "highlights": [
+    "城里的一片石林，石头立着高的几米，中间是路",
+    "不收门票，是这一区的公共公园，晚上也开",
+    "看贵州的石头长什么样，这儿最省事"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.616343,
+      "lat": 26.616118,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "贵州省贵阳市观山湖区石林东路",
+    "district": "观山湖区",
+    "transportTip": "市区地铁或打车到观山湖区石林东路",
+    "entrance": {
+      "lng": 106.61501,
+      "lat": 26.618108,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/20499728/pexels-photo-20499728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/20499728/pexels-photo-20499728.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Night view of the illuminated Jiaxiu Tower in Guiyang, China, reflecting on the water.",
+      "query": "Chinese classical garden guiyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Tito Zzzz",
+        "sourceUrl": "https://www.pexels.com/photo/jiaxiu-tower-in-guiyang-at-night-20499728/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/29431917/pexels-photo-29431917.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29431917/pexels-photo-29431917.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7952,
+      "height": 5203,
+      "alt": "Harmonious blend of traditional Chinese pavilion and modern skyscraper in cityscape.",
+      "query": "Chinese classical garden guiyang",
+      "credit": {
+        "source": "pexels",
+        "author": "雨 幽",
+        "sourceUrl": "https://www.pexels.com/photo/ancient-pavilion-and-modern-skyscraper-contrast-29431917/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/16483319/pexels-photo-16483319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/16483319/pexels-photo-16483319.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3264,
+      "height": 2448,
+      "alt": "Scenic view of Jiaxiu Pavilion along the Nanming River in Guiyang, China, surrounded by urban parkland.",
+      "query": "Chinese classical garden guiyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Megan Judge",
+        "sourceUrl": "https://www.pexels.com/photo/view-of-the-jiaxiu-pavilion-in-guiyang-china-16483319/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "石林",
+    "喀斯特",
+    "免费"
+  ],
+  "popularity": 42,
+  "sources": [
+    {
+      "title": "百度百科·喀斯特公园",
+      "url": "https://baike.baidu.com/item/%E8%B4%B5%E9%98%B3%E5%96%80%E6%96%AF%E7%89%B9%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "贵阳喀斯特公园"
+  },
+  "_geocodeTitle": "贵阳喀斯特公园",
+  "_geocodeSuspect": false,
+  "district": "520115"
+}

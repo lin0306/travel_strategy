@@ -1,0 +1,88 @@
+{
+  "id": "taiping-forest-park",
+  "name": "太平国家森林公园",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "秦岭北麓瀑布最密集的景区，“八瀑十八潭”，四月万亩紫荆花海开满山谷。",
+  "description": "太平国家森林公园在鄠邑区太平峪内，距市区约 44 公里，以“八瀑十八潭”闻名，落差超百米的彩虹瀑布在晴天午后常能看见彩虹横跨瀑前。这里还是中国紫荆最早的发源地，2100 多公顷天然野生紫荆每年四月开成漫山粉紫花海，与飞瀑流泉同框。森林覆盖率 96% 以上，夏天进山避暑洗肺很舒服。主城自驾约 1.5 小时，园内观光车与索道另计。",
+  "highlights": [
+    "秦岭北麓瀑布最密集，“八瀑十八潭”",
+    "4 月万亩紫荆花海与飞瀑同框",
+    "晴天午后彩虹瀑布常现彩虹"
+  ],
+  "location": {
+    "point": {
+      "lng": 108.657871,
+      "lat": 33.91729,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "西安市鄠邑区太平峪煤场村",
+    "district": "鄠邑区",
+    "transportTip": "主城自驾约 1.5 小时；大雁塔北广场有景区直通车",
+    "entrance": {
+      "lng": 108.660268,
+      "lat": 33.92312,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约 08:30-17:00（16:30 停止入园，以官方为准）",
+    "openHoursRef": 0,
+    "ticket": "旺季（3-11 月底）60 元 / 淡季 40 元，观光车与索道另计（官网口径）",
+    "ticketRef": 0,
+    "duration": "建议 240-360 分钟",
+    "durationMinutes": [
+      240,
+      360
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "kids",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Landscape_painting_of_XianXian_ShanZhuang_and_Qinshan_Hill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Landscape_painting_of_XianXian_ShanZhuang_and_Qinshan_Hill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 802,
+      "alt": "Landscape painting of XianXian ShanZhuang and Qinshan Hill.jpg",
+      "query": "natural landscape China xian",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Collecotordocumentts",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Landscape_painting_of_XianXian_ShanZhuang_and_Qinshan_Hill.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "瀑布",
+    "紫荆花海",
+    "避暑",
+    "4A"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "太平国家森林公园官网",
+      "url": "http://www.tppark.com/?tys0-t4.html",
+      "kind": "official",
+      "fetchedAt": "2026-09-23"
+    }
+  ],
+  "updatedAt": "2026-09-23",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "太平国家森林公园"
+  },
+  "_geocodeTitle": "太平国家森林公园",
+  "_geocodeSuspect": false,
+  "district": "610118"
+}

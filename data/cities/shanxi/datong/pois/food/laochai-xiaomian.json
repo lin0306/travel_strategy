@@ -1,0 +1,113 @@
+{
+  "id": "laochai-xiaomian",
+  "name": "老柴削面",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "本地另一家削面老铺，臊子浓，羊杂也能配，早上人多。",
+  "description": "老柴削面在平城区，是本地人常去的一家削面铺。它的臊子熬得浓，肉多，浇上去味道重。除了面，也卖羊杂 —— 早上来一碗羊杂配面是本地的吃法。店不大，座位挤，饭点要等。价格便宜。想吃点不排场的本地味，来这儿。",
+  "highlights": [
+    "本地削面铺，臊子浓肉多",
+    "也卖羊杂，早上一碗配面是本地吃法",
+    "店面小饭点要等，便宜"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.370592,
+      "lat": 40.062676,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山西省大同市平城区老柴削面",
+    "district": "平城区",
+    "transportTip": "市区步行或公交到店"
+  },
+  "practical": {
+    "openHours": "约06:00-21:00",
+    "openHoursRef": 0,
+    "ticket": "人均约20元",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "elders",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4240,
+      "height": 2832,
+      "alt": "A bustling street food stall offering traditional dishes to a customer in stylish winter attire.",
+      "query": "Chinese street food dish datong",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3032,
+      "height": 3923,
+      "alt": "Browse a bustling Shenzhen food stall with diverse Asian meals and colorful bowls, embodying Chinese culinary culture.",
+      "query": "Chinese street food dish datong",
+      "credit": {
+        "source": "pexels",
+        "author": "Jaime Hernandez Erives",
+        "sourceUrl": "https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/35157092/pexels-photo-35157092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35157092/pexels-photo-35157092.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Close-up of flavorful dumpling soup in a disposable bowl held outdoors.",
+      "query": "Chinese street food dish datong",
+      "credit": {
+        "source": "pexels",
+        "author": "Peter Xie",
+        "sourceUrl": "https://www.pexels.com/photo/delicious-dumpling-soup-in-disposable-bowl-35157092/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "削面",
+    "羊杂",
+    "实惠"
+  ],
+  "popularity": 76,
+  "sources": [
+    {
+      "title": "百度百科·刀削面",
+      "url": "https://baike.baidu.com/item/%E5%88%80%E5%89%8A%E9%9D%A2",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "老柴削面"
+  },
+  "_geocodeTitle": "老柴削面",
+  "_geocodeSuspect": false,
+  "district": "140213"
+}

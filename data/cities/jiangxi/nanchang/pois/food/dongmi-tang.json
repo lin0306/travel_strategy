@@ -1,0 +1,113 @@
+{
+  "id": "dongmi-tang",
+  "name": "冻米糖",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "炒米加糖浆压成块切片的年货糖，江西冬天家家备一罐。",
+  "description": "冻米糖是江西冬天的老式糖，南昌的年货摊上常见。糯米先蒸熟再晒干，下锅炒到一粒粒鼓起，浇上熬好的糖浆拌匀，倒进木框里压平，趁热切成薄片。凉了以后又脆又硬，咬下去先是米香，后头是糖的甜。讲究的还会掺芝麻、花生或桂花，各家配方不同。它耐放，密封好能吃到开春。按盒或论斤卖，价格以摊铺标价为准。牙口不好的老人要小心别硬咬。",
+  "highlights": [
+    "炒米浇糖浆压平切片",
+    "江西冬天的老式年货",
+    "可掺芝麻花生桂花"
+  ],
+  "location": {
+    "point": {
+      "lng": 115.903576,
+      "lat": 28.698787,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "江西省南昌市各年货摊与糕饼铺（东湖区一带）",
+    "district": "东湖区",
+    "transportTip": "市场年货摊与糕饼铺有售"
+  },
+  "practical": {
+    "openHours": "冬季与年节为主，各摊不一",
+    "openHoursRef": 0,
+    "ticket": "论斤或按盒，以摊为准",
+    "ticketRef": 0,
+    "duration": "建议 10-25 分钟",
+    "durationMinutes": [
+      10,
+      25
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "elders",
+    "family",
+    "kids",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/24334865/pexels-photo-24334865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/24334865/pexels-photo-24334865.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3999,
+      "height": 3999,
+      "alt": "A plate of colorful homemade fried rice served on a decorated dish.",
+      "query": "Jiangxi Fried Rice Candy",
+      "credit": {
+        "source": "pexels",
+        "author": "Markus Winkler",
+        "sourceUrl": "https://www.pexels.com/photo/rice-on-plate-24334865/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33395010/pexels-photo-33395010.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33395010/pexels-photo-33395010.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6647,
+      "height": 4431,
+      "alt": "Colorful assortment of traditional Guatemalan candies beautifully stacked at a market stall.",
+      "query": "Jiangxi Fried Rice Candy",
+      "credit": {
+        "source": "pexels",
+        "author": "Diego Girón",
+        "sourceUrl": "https://www.pexels.com/photo/vibrant-guatemalan-candy-market-display-33395010/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/28871374/pexels-photo-28871374.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/28871374/pexels-photo-28871374.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3456,
+      "height": 4608,
+      "alt": "A vibrant spread of snacks and desserts including chocolate cake, fries, and a refreshing drink.",
+      "query": "Jiangxi Fried Rice Candy",
+      "credit": {
+        "source": "pexels",
+        "author": "卜 兰",
+        "sourceUrl": "https://www.pexels.com/photo/delicious-afternoon-snack-with-desserts-and-drinks-28871374/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "冻米糖",
+    "年货",
+    "糖点"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "冻米糖·百度百科",
+      "url": "https://baike.baidu.com/item/%E5%86%BB%E7%B1%B3%E7%B3%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Jiangxi Fried Rice Candy",
+    "zh": "冻米糖"
+  },
+  "_geocodeTitle": "东湖区",
+  "district": "360102"
+}

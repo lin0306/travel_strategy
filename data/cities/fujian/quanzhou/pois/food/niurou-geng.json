@@ -1,0 +1,98 @@
+{
+  "id":"niurou-geng",
+  "name":"牛肉羹",
+  "category":"food",
+  "subtype":"snack",
+  "summary":"泉州街头一碗滑嫩牛肉羹，勾芡的汤暖身。",
+  "description":"牛肉羹是泉州街头一碗牛肉做的小吃，牛肉切细勾芡成羹，滑嫩。汤是清的，撒葱、胡椒。配米饭或当汤。很多老店只卖这一样，从早到晚。几个看点：牛肉切细勾芡成羹，滑嫩；清汤撒葱胡椒；老店常年只卖这一样。",
+  "highlights":[
+    "牛肉切细勾芡成羹，滑嫩",
+    "清汤撒葱胡椒",
+    "老店常年只卖这一样"
+  ],
+  "location":{
+    "point":{
+      "lng":118.58652,
+      "lat":24.908133,
+      "coordSystem":"GCJ-02"
+    },
+    "address":"福建省泉州市鲤城区牛肉羹店",
+    "district":"鲤城区",
+    "transportTip":"老城街头均有"
+  },
+  "practical":{
+    "openHours":"约7:00-21:00",
+    "openHoursRef":0,
+    "ticket":"便宜（十几元）",
+    "ticketRef":0,
+    "duration":"建议 15-30 分钟",
+    "durationMinutes":[
+      15,
+      30
+    ],
+    "priceLevel":"budget"
+  },
+  "audience":[
+    "solo",
+    "friends",
+    "family"
+  ],
+  "accessible":false,
+  "tips":[],
+  "images":[
+    {
+      "url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Huzai_Rice.jpg/1280px-Huzai_Rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl":"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Huzai_Rice.jpg/1280px-Huzai_Rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width":1080,
+      "height":608,
+      "alt":"Huzai Rice.jpg",
+      "query":"牛肉羹 泉州",
+      "credit":{
+        "source":"wikimedia",
+        "author":"泉州柒巴士",
+        "sourceUrl":"https://commons.wikimedia.org/wiki/File:Huzai_Rice.jpg",
+        "license":"CC BY-SA 4.0",
+        "attributionRequired":true
+      }
+    },
+    {
+      "url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Beef_thick_soup.jpg/1280px-Beef_thick_soup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl":"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Beef_thick_soup.jpg/1280px-Beef_thick_soup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width":1080,
+      "height":810,
+      "alt":"Beef thick soup.jpg",
+      "query":"牛肉羹",
+      "credit":{
+        "source":"wikimedia",
+        "author":"SoHome Jacaranda Lilau",
+        "sourceUrl":"https://commons.wikimedia.org/wiki/File:Beef_thick_soup.jpg",
+        "license":"CC BY-SA 3.0",
+        "attributionRequired":true
+      }
+    }
+  ],
+  "coverIndex":0,
+  "tags":[
+    "牛肉",
+    "羹",
+    "小吃"
+  ],
+  "popularity":60,
+  "sources":[
+    {
+      "title":"百度百科·牛肉羹",
+      "url":"https://baike.baidu.com/item/%E7%89%9B%E8%82%89%E7%BE%B9",
+      "kind":"wiki",
+      "fetchedAt":"2026-10-01"
+    }
+  ],
+  "updatedAt":"2026-10-01",
+  "_geocoded":true,
+  "_imageQuery":{
+    "en":"",
+    "zh":"牛肉羹"
+  },
+  "_geocodeTitle":"鲤城区",
+  "_geocodeSuspect":false,
+  "district":"350502"
+}

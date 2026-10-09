@@ -1,0 +1,113 @@
+{
+  "id": "huaxi-beef-noodle",
+  "name": "花溪王记牛肉粉",
+  "category": "food",
+  "subtype": "local",
+  "summary": "花溪十字街的一家牛肉粉，清汤，牛肉是卤的，早上人多。",
+  "description": "花溪王记牛肉粉在花溪区十字街，是这一带最有名的一家。清汤牛肉粉 —— 汤是牛骨熬的，清；牛肉是卤好的，切片铺在上面。粉是粗的那种，滑。自己加辣椒、酸菜、葱。它与肠旺面是贵阳早饭的两条路：一个红，一个清。价格便宜。早上七点就开门，人多，要等座。",
+  "highlights": [
+    "清汤是牛骨熬的，牛肉是卤好的切片",
+    "粉是粗的那种，滑",
+    "与肠旺面是贵阳早饭的两条路，一红一清"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.677081,
+      "lat": 26.433172,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "贵州省贵阳市花溪区十字街",
+    "district": "花溪区",
+    "transportTip": "市区地铁或公交到花溪十字街"
+  },
+  "practical": {
+    "openHours": "约7:00-20:00",
+    "openHoursRef": 0,
+    "ticket": "便宜",
+    "ticketRef": 0,
+    "duration": "建议 45-90 分钟",
+    "durationMinutes": [
+      45,
+      90
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "elders",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/32603022/pexels-photo-32603022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32603022/pexels-photo-32603022.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3655,
+      "height": 5482,
+      "alt": "A lively Chinese restaurant interior with hanging lanterns and dining patrons.",
+      "query": "Chinese restaurant interior guiyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Richard L",
+        "sourceUrl": "https://www.pexels.com/photo/bustling-chinese-restaurant-with-lanterns-32603022/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4096,
+      "alt": "Charming Asian dining room with bamboo chairs and traditional teaware.",
+      "query": "Chinese restaurant interior guiyang",
+      "credit": {
+        "source": "pexels",
+        "author": "TIANYUN XIA",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33137968/pexels-photo-33137968.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33137968/pexels-photo-33137968.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 6714,
+      "height": 4468,
+      "alt": "Atmospheric shot of people dining in a traditional Asian restaurant with warm lighting.",
+      "query": "Chinese restaurant interior guiyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Vincent Tan",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-traditional-asian-restaurant-interior-33137968/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "牛肉粉",
+    "早餐",
+    "花溪"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "百度百科·花溪牛肉粉",
+      "url": "https://baike.baidu.com/item/%E8%8A%B1%E6%BA%AA%E7%89%9B%E8%82%89%E7%B2%89",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "花溪王记牛肉粉"
+  },
+  "_geocodeTitle": "花溪王记牛肉粉(总店)",
+  "_geocodeSuspect": false,
+  "district": "520111"
+}

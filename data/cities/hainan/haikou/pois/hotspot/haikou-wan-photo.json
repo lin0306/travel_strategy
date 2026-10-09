@@ -1,0 +1,113 @@
+{
+  "id": "haikou-wan-photo",
+  "name": "海口湾",
+  "category": "hotspot",
+  "subtype": "photo",
+  "summary": "入海口的休闲湾，夜景与游艇。",
+  "description": "海口湾在南渡江入海口一带，是一条连续的滨海休闲带，有海口湾公园、游艇码头和一片广场。入夜之后灯光亮起、水面反光，是海口夜景的一个中心。它与万绿园、世纪大桥离得近，适合傍晚沿湾走一圈。免费、开阔。",
+  "highlights": [
+    "入海口连续滨海休闲带，游艇码头",
+    "入夜灯光水面反光",
+    "与万绿园世纪大桥近"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.295359,
+      "lat": 20.031249,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "海口市龙华区滨海大道海口湾",
+    "district": "龙华区",
+    "transportTip": "市区乘公交或打车至滨海大道海口湾"
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "无门票",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "friends",
+    "couple",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/20120144/pexels-photo-20120144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/20120144/pexels-photo-20120144.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4672,
+      "height": 7008,
+      "alt": "City street with skyscrapers and red lanterns, vibrant urban scene.",
+      "query": "China city street view haikou",
+      "credit": {
+        "source": "pexels",
+        "author": "Lin.",
+        "sourceUrl": "https://www.pexels.com/photo/lanterns-over-street-in-city-20120144/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/23626370/pexels-photo-23626370.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/23626370/pexels-photo-23626370.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2433,
+      "height": 3637,
+      "alt": "Urban traffic scene at a busy intersection with taxis and cars in Guangzhou, China.",
+      "query": "China city street view haikou",
+      "credit": {
+        "source": "pexels",
+        "author": "Grace L.",
+        "sourceUrl": "https://www.pexels.com/photo/cars-on-the-red-light-at-the-intersection-23626370/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/28970319/pexels-photo-28970319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/28970319/pexels-photo-28970319.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5506,
+      "height": 4000,
+      "alt": "A distant skyline of Haikou, China viewed from a beach, with one person walking on the sand.",
+      "query": "China city street view haikou",
+      "credit": {
+        "source": "pexels",
+        "author": "zs Lin",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-haikou-city-skyline-from-beach-28970319/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "海湾",
+    "夜景",
+    "游艇"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "百度百科·海口湾",
+      "url": "https://baike.baidu.com/item/%E6%B5%B7%E5%8F%A3%E6%B9%BE",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "海口湾"
+  },
+  "_geocodeTitle": "海口湾",
+  "_geocodeSuspect": false,
+  "district": "460106"
+}

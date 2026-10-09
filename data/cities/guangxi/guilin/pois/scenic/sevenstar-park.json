@@ -1,0 +1,119 @@
+{
+  "id": "sevenstar-park",
+  "name": "七星景区",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "漓江东岸最大的一片，里面有山有洞有骆驼峰，还有动物园与园区里的索道，一天逛不完。",
+  "description": "七星景区在漓江东岸，是桂林市区最大的一处综合景区，名字来自景区的七座山，排得像北斗。它把桂林该有的东西都收在一起：七星岩是溶洞（比芦笛岩更早开发，洞里也有题刻），骆驼山是一块巨石真像卧着的骆驼，月牙山的月牙楼是吃的地方，山下的苗侗风情表演区，还有动物园与儿童游乐。里面上山下坡都有路，慢走一圈要大半天。它与城中心只隔一条解放桥，桥会一直连到解放大道那边。如果你在桂林只有一天又想把几样都摸一下，这里效率最高。相反的缺点是它什么都有一点但都不极致 —— 纯看山不如叠彩，纯看洞不如芦笛。",
+  "highlights": [
+    "七座山排得像北斗，市区里最大的一处综合景区",
+    "骆驼山那块巨石侧看真像卧着的骆驼",
+    "溶洞、山顶、动物园都在一处，一天能摸到好几样"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.3128,
+      "lat": 25.2722,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "广西壮族自治区桂林市七星区七星路1号",
+    "district": "七星区",
+    "transportTip": "市区乘公交至七星公园站；从解放桥步行过江约十分钟",
+    "entrance": {
+      "lng": 110.312439,
+      "lat": 25.276512,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约7:30-18:00，园内各景点时间不同，以景区公告为准",
+    "openHoursRef": 0,
+    "ticket": "中等，园内部分项目另收",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "couple",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Qixing_Park%2C_Guilin.jpg/1280px-Qixing_Park%2C_Guilin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Qixing_Park%2C_Guilin.jpg/1280px-Qixing_Park%2C_Guilin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Qixing Park, Guilin.jpg",
+      "query": "七星景区",
+      "credit": {
+        "source": "wikimedia",
+        "author": "螺钉",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qixing_Park,_Guilin.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Qixing_gate.JPG/1280px-Qixing_gate.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Qixing_gate.JPG/1280px-Qixing_gate.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Qixing gate.JPG",
+      "query": "七星景区",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Flsxx at Chinese Wikipedia",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qixing_gate.JPG",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/SevenStarParkNorthEnter.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/SevenStarParkNorthEnter.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 810,
+      "alt": "SevenStarParkNorthEnter.JPG",
+      "query": "七星景区",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Wikimedia Commons 贡献者",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:SevenStarParkNorthEnter.JPG",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "综合景区",
+    "溶洞",
+    "骆驼峰"
+  ],
+  "popularity": 82,
+  "sources": [
+    {
+      "title": "百度百科·七星公园",
+      "url": "https://baike.baidu.com/item/%E4%B8%83%E6%98%9F%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "七星景区"
+  },
+  "_geocodeTitle": "七星路1号",
+  "_geocodeSuspect": false,
+  "district": "450305"
+}

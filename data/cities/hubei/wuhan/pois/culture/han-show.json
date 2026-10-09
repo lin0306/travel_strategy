@@ -1,0 +1,114 @@
+{
+  "id": "han-show",
+  "name": "汉秀",
+  "category": "culture",
+  "subtype": "performance",
+  "summary": "在一个大水装置里做的综合演出，技术是它的主要卖点。",
+  "description": "它是在楚河汉街末端的一座专门剧场里的驻场演出。核心是一整套大型水面与升降的机械装置：水池可以在舞台与看台之间切换，演员有从高处入水的表演。这种把水作为主要技术手段的做法，决定了它偏向场面而不是剧情。对技术的兴趣大过对叙事的兴趣。票价不低。带孩子来看——视觉冲击这种东西是不需要翻译的。看之前看之前知道这一点，就不会抱错期待。",
+  "highlights": [
+    "核心是大型水面与升降的机械装置",
+    "偏场面而不偏叙事",
+    "带孩子看比较容易满足"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.347766,
+      "lat": 30.551787,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "武汉市武昌区东湖路·汉街红灯笼剧场",
+    "district": "武昌区",
+    "transportTip": "地铁4号线楚河汉街站步行"
+  },
+  "practical": {
+    "openHours": "演出场次以官方排期为准",
+    "openHoursRef": 0,
+    "ticket": "票价约300元起，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "high"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "friends",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Emperor_Wen_Of_Han.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Emperor_Wen_Of_Han.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1550,
+      "alt": "Emperor Wen Of Han.jpeg",
+      "query": "汉秀",
+      "credit": {
+        "source": "wikimedia",
+        "author": "ibiblio.com",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emperor_Wen_Of_Han.jpeg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Guangwu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Guangwu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1080,
+      "alt": "Guangwu.jpg",
+      "query": "汉秀",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Wikimedia Commons 贡献者",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guangwu.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Guangwudi-Ming-Image1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Guangwudi-Ming-Image1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1416,
+      "alt": "Guangwudi-Ming-Image1.jpg",
+      "query": "汉秀",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Unknown authorUnknown author",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guangwudi-Ming-Image1.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "演出",
+    "汉街",
+    "机械设备"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·汉秀",
+      "url": "https://baike.baidu.com/item/%E6%B1%89%E7%A7%80",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-23"
+    }
+  ],
+  "updatedAt": "2026-09-23",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "汉秀"
+  },
+  "_geocodeTitle": "武汉万达汉秀剧场",
+  "_geocodeSuspect": false,
+  "district": "420106"
+}

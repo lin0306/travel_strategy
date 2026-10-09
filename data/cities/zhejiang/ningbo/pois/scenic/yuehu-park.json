@@ -1,0 +1,119 @@
+{
+  "id": "yuehu-park",
+  "name": "月湖公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "天一阁边上的一片城中湖，唐宋就有的水域，沿湖是柳、桥与老宅，是本地人散步的地方。",
+  "description": "月湖在海曙区城西，是一片城里的湖，唐宋时就有，历代疏浚过，现在水面不大，沿湖一圈是柳、拱桥、亭子与几处老宅。湖把这一片隔成安静的一块，与外面马路的声音隔着一层树。早上这里是练拳、遛鸟、下棋的人，白天游客多半是从天一阁出来顺路走。湖边有几处与藏书、书院有关的旧迹，与天一阁是一条线上的故事 —— 这片水域边上历来就是读书人聚的地方。不收门票，走一圈一小时上下。春天柳绿、秋天桂花香，夏天湖边有荫。它与天一阁、鼓楼连着，半天能走完。",
+  "highlights": [
+    "唐宋就有的城中湖，沿湖是柳、桥与老宅",
+    "与天一阁是同一片读书人的地方，故事一条线",
+    "不收门票，走一圈一小时"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.54361,
+      "lat": 29.867148,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "浙江省宁波市海曙区月湖街道柳汀街",
+    "district": "海曙区",
+    "transportTip": "地铁一号线西门口站或城隍庙站步行约十分钟",
+    "entrance": {
+      "lng": 121.539073,
+      "lat": 29.871787,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "couple",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37566378/pexels-photo-37566378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37566378/pexels-photo-37566378.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4128,
+      "height": 5504,
+      "alt": "A serene scene of a historic pagoda beautifully reflected in a tranquil pond surrounded by lush greenery.",
+      "query": "Chinese classical garden ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Whale I",
+        "sourceUrl": "https://www.pexels.com/photo/historic-pagoda-reflected-in-tranquil-pond-37566378/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7494074/pexels-photo-7494074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7494074/pexels-photo-7494074.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2832,
+      "height": 4256,
+      "alt": "View of historical Chinese architecture through a wooden door in Yichang, Hubei, China.",
+      "query": "Chinese classical garden ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Leon Huang",
+        "sourceUrl": "https://www.pexels.com/photo/building-seen-from-door-7494074/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "Tranquil view of a traditional Chinese garden featuring a vibrant red lantern.",
+      "query": "Chinese classical garden ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Lily  Lili",
+        "sourceUrl": "https://www.pexels.com/photo/serene-chinese-garden-with-red-lantern-31956319/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "城中湖",
+    "免费",
+    "散步"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "百度百科·月湖",
+      "url": "https://baike.baidu.com/item/%E5%AE%81%E6%B3%A2%E6%9C%88%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "月湖公园"
+  },
+  "_geocodeTitle": "月湖公园",
+  "_geocodeSuspect": false,
+  "district": "330203"
+}

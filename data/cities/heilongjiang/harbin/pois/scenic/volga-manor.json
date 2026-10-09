@@ -1,0 +1,119 @@
+{
+  "id": "volga-manor",
+  "name": "哈尔滨伏尔加庄园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "市区东南一大片临水的俄式庄园，复制了一批哈尔滨已经消失的老建筑，夏天是草地与河，冬天是雪原。",
+  "description": "庄园在香坊区成高子镇，离市区三十公里左右，沿阿什河铺开，占地很大。里面按老照片复建了一批哈尔滨的俄式建筑 —— 有些原物早年在城里已经拆了，这里照原样再建，有教堂、城堡、木屋、水塔，沿湖排着。夏天是草地、白桦林与河面，可以骑车、坐船；冬天整片变雪原，有滑雪与雪圈。园区大，走路一圈要半天，里面有电瓶车，也可以住一晚看黄昏与清晨的光。市区过去公交加步行较绕，网约车或班车更省事。",
+  "highlights": [
+    "按老照片复建了一批哈尔滨已经拆掉的俄式建筑",
+    "临河的大庄园，夏天骑车坐船冬天滑雪",
+    "园区大，住一晚能看黄昏与清晨的光"
+  ],
+  "location": {
+    "point": {
+      "lng": 126.900152,
+      "lat": 45.671185,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "黑龙江省哈尔滨市香坊区成高子镇民强村",
+    "district": "阿城区",
+    "transportTip": "市区乘公交至成高子镇后步行或网约车；园区有班车，以官方公告为准",
+    "entrance": {
+      "lng": 126.898779,
+      "lat": 45.670221,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约9:00-17:00，冬季略短，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "门票中等，园内项目另付，以官方公告为准",
+    "ticketRef": 0,
+    "duration": "建议 240-480 分钟",
+    "durationMinutes": [
+      240,
+      480
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "family",
+    "friends",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/33929899/pexels-photo-33929899.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33929899/pexels-photo-33929899.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5686,
+      "height": 3791,
+      "alt": "Captivating view through a circular opening showcasing traditional Chinese architecture in Moscow.",
+      "query": "Chinese classical garden harbin",
+      "credit": {
+        "source": "pexels",
+        "author": "Hans Anders",
+        "sourceUrl": "https://www.pexels.com/photo/circular-view-of-chinese-architecture-in-moscow-33929899/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/19815758/pexels-photo-19815758.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/19815758/pexels-photo-19815758.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 1984,
+      "height": 2999,
+      "alt": "Snow-covered stairs leading through a scenic winter park in Harbin, China, framed by pine trees.",
+      "query": "Chinese classical garden harbin",
+      "credit": {
+        "source": "pexels",
+        "author": "pressthebutton",
+        "sourceUrl": "https://www.pexels.com/photo/park-in-snow-19815758/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "Tranquil view of a traditional Chinese garden featuring a vibrant red lantern.",
+      "query": "Chinese classical garden harbin",
+      "credit": {
+        "source": "pexels",
+        "author": "Lily  Lili",
+        "sourceUrl": "https://www.pexels.com/photo/serene-chinese-garden-with-red-lantern-31956319/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "俄式庄园",
+    "复建",
+    "临水"
+  ],
+  "popularity": 82,
+  "sources": [
+    {
+      "title": "百度百科·伏尔加庄园",
+      "url": "https://baike.baidu.com/item/%E4%BC%8F%E5%B0%94%E5%8A%A0%E5%BA%84%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "哈尔滨伏尔加庄园"
+  },
+  "_geocodeTitle": "哈尔滨伏尔加庄园",
+  "_geocodeSuspect": false,
+  "district": "230112"
+}

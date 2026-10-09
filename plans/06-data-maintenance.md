@@ -76,7 +76,8 @@ schema 破坏性变更时：**必须**同时提交 `scripts/migrations/v1_to_v2.
 `.github/workflows/validate.yml`，任何 PR 触碰 `data/` 就跑：
 
 ```bash
-python scripts/validate.py --strict   # Zod/Pydantic 全量校验
+cd web                                 # 应用工程在 web/（data/ 在仓库根，脚本自己按上一层找）
+python scripts/validate.py --strict    # Zod/Pydantic 全量校验
 python scripts/check_sources.py        # 溯源完整性：无 source 的字段直接 fail
 npm run data:build                     # 重建索引，若产物与提交的不一致 → fail（防忘生成）
 ```

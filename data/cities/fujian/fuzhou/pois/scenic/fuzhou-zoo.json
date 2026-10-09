@@ -1,0 +1,118 @@
+{
+  "id": "fuzhou-zoo",
+  "name": "福州动物园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "城北一处老牌动物园，适合带小孩半天。",
+  "description": "福州动物园在新店镇，和福州国家森林公园离得近，是城区主要的动物园。馆舍偏传统，动物种类不算特别多，但以本地人遛娃为主，节奏轻松。它与森林公园可以放在同一半天，两个都靠城北，交通相似。工作日人少，周末亲子家庭多。适合安排一个不累的上午或下午。",
+  "highlights": [
+    "城北老牌动物园，适合遛娃",
+    "与国家森林公园离得近，可同半天",
+    "工作日人少"
+  ],
+  "location": {
+    "point": {
+      "lng": 119.284771,
+      "lat": 26.139641,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "福州市晋安区新店镇",
+    "district": "晋安区",
+    "transportTip": "公交动物园站；市区打车约25分钟",
+    "entrance": {
+      "lng": 119.292264,
+      "lat": 26.141174,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约09:00-17:00，以园区公告为准",
+    "openHoursRef": 0,
+    "ticket": "约30元起，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 120-180 分钟",
+    "durationMinutes": [
+      120,
+      180
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/34742978/pexels-photo-34742978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34742978/pexels-photo-34742978.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4096,
+      "height": 3072,
+      "alt": "A tranquil scene of a traditional Chinese pavilion surrounded by lush greenery and a tranquil pond.",
+      "query": "Chinese classical garden fuzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "强 王",
+        "sourceUrl": "https://www.pexels.com/photo/serene-traditional-garden-pavilion-in-summer-34742978/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/30277908/pexels-photo-30277908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/30277908/pexels-photo-30277908.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3456,
+      "height": 4608,
+      "alt": "A serene view of traditional Chinese architecture framed by bamboo and leaves under a clear blue sky.",
+      "query": "Chinese classical garden fuzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Archer  Hsu",
+        "sourceUrl": "https://www.pexels.com/photo/elegant-traditional-chinese-architecture-with-bamboo-30277908/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34742959/pexels-photo-34742959.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34742959/pexels-photo-34742959.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4096,
+      "alt": "Serene view of a traditional Chinese garden courtyard with a pond reflecting lush greenery.",
+      "query": "Chinese classical garden fuzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "强 王",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-garden-courtyard-in-fuzhou-34742959/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "动物园",
+    "亲子",
+    "城北"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "百度百科·福州动物园",
+      "url": "https://baike.baidu.com/item/%E7%A6%8F%E5%B7%9E%E5%8A%A8%E7%89%A9%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "福州动物园"
+  },
+  "_geocodeTitle": "福州动物园",
+  "_geocodeSuspect": false,
+  "district": "350111"
+}

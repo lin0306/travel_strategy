@@ -1,0 +1,13 @@
+# 采集流水线的全部 Python 依赖（仅开发期 / Actions 使用，不进浏览器产物）
+#
+# 安装：
+#   cd web
+#   python -m venv .venv
+#   .venv\Scripts\pip install -r scripts/requirements.txt    # Windows
+#   source .venv/bin/pip install -r scripts/requirements.txt # macOS / Linux
+
+pydantic>=2.7          # shared/schema.py —— 采集产出写盘前的校验闸门（06 文档「闸门 1」）
+
+# 提示：本流水线刻意**只用标准库**（urllib）发请求，不引 requests / httpx。
+# 理由：① 依赖越少，Actions 冷启动越快；② 采集脚本要能在任意环境的 CI 里跑，
+#        少一层依赖就少一层"装不上"的风险。

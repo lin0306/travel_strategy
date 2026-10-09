@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "dujiangyan",
+  "name": "都江堰",
+  "province": "四川",
+  "adcode": "510181",
+  "provinceAdcode": "510000",
+  "tagline": "两千年水利还在淌，青城山的道观藏在林里",
+  "intro": "都江堰在成都平原的西北边，因一座修了两千多年的水利工程而得名。李冰父子当年凿山分水，让岷江不再泛滥，成都平原从此成了天府之国。城西的青城山是道教发源地之一，满山道观藏在绿树里，空气清得发甜。这里离成都市区不到一百公里，高铁半小时就到，是成都人周末最常溜达的后花园。夏天山里凉快，冬天雾起时古堰像一幅水墨。",
+  "center": {
+    "lng": 103.647193,
+    "lat": 30.988763,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    103.4313,
+    30.7488,
+    103.7852,
+    31.3666
+  ],
+  "defaultZoom": 10,
+  "heroImages": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Dujiang_Weir.jpg/1280px-Dujiang_Weir.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Dujiang_Weir.jpg/1280px-Dujiang_Weir.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 455,
+      "alt": "Dujiang Weir.jpg",
+      "query": "都江堰 都江堰",
+      "credit": {
+        "source": "wikimedia",
+        "author": "星星",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dujiang_Weir.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Dujiangyan-Irrigation-System-TOUR-Map104.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Dujiangyan-Irrigation-System-TOUR-Map104.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 738,
+      "alt": "Dujiangyan-Irrigation-System-TOUR-Map104.jpg",
+      "query": "都江堰 都江堰",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Ihtc2015",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dujiangyan-Irrigation-System-TOUR-Map104.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Dujiangyan_Irrigation_System_%2850619502518%29.jpg/1280px-Dujiangyan_Irrigation_System_%2850619502518%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Dujiangyan_Irrigation_System_%2850619502518%29.jpg/1280px-Dujiangyan_Irrigation_System_%2850619502518%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 719,
+      "alt": "Dujiangyan Irrigation System (50619502518).jpg",
+      "query": "都江堰 都江堰",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Hugh Llewelyn from Keynsham, UK",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dujiangyan_Irrigation_System_(50619502518).jpg",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "3-5 月与 9-11 月最佳（春赏山花、秋看彩林，气候舒适）；夏季 6-8 月凉爽宜避暑但多雨；冬季雾多、游客少，古堰与青城山另有清幽味道。青城后山夏季漂流最受欢迎",
+    "suggestedDays": "2-3 天（都江堰景区与灌县古城 1 天，青城前山 1 天，青城后山或虹口 1 天；若只想看水利工程的精华，大半天足够）",
+    "transitTip": "成都市区坐城际动车到都江堰站约半小时，再换公交或打车进景区，非常方便。自驾走成灌高速也快。青城前山有观光车和索道，后山步道多、更野，得穿好走的鞋。景区之间有点距离，留足换乘时间。节假日动车票紧，尽量早订。",
+    "climateTip": "亚热带湿润气候，年均温约 15℃，比成都市区凉。夏季多雨需带伞；秋冬雾日多、体感潮；山区气温低几度，登青城山备件外套。紫外线不算强，但徒步仍要补水。"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-06"
+  },
+  "updatedAt": "2026-10-06"
+}

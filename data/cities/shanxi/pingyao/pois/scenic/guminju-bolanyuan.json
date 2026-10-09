@@ -1,0 +1,83 @@
+{
+  "id": "guminju-bolanyuan",
+  "name": "古民居博览苑",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "把老城里的民居格局搬进一处院子的展示。",
+  "description": "古民居博览苑在古城西大街，利用一处旧院落把平遥传统民居的做法集中展示。正房、厢房、倒座的布局一目了然，还有那种窑洞式的厚重后墙。屋里摆的是本地老家具：炕桌、条案、大柜，按当年的位置还原。院子里有口井，石头井沿磨得光滑。看明白了这里，再走街时就懂那些同样是青砖的外墙。它填补的是票号与庙宇之外的那一块：普通人怎么住。位置离市楼不远，半小时就能逛完。",
+  "highlights": [
+    "传统民居格局集中展示",
+    "本地老家具按原样摆",
+    "离市楼很近"
+  ],
+  "location": {
+    "point": {
+      "lng": 112.184745,
+      "lat": 37.205323,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "晋中市平遥县古城街道古城西大街18号蔚丰厚内",
+    "district": "平遥",
+    "transportTip": "古城内步行可达，西大街"
+  },
+  "practical": {
+    "openHours": "约 08:00-18:00（季节调整）",
+    "openHoursRef": 0,
+    "ticket": "含在古城通票内，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 40-90 分钟",
+    "durationMinutes": [
+      40,
+      90
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Roof_architecture_in_Pingyao.JPG/1280px-Roof_architecture_in_Pingyao.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Roof_architecture_in_Pingyao.JPG/1280px-Roof_architecture_in_Pingyao.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Roof architecture in Pingyao.JPG",
+      "query": "Chinese historic architecture pingyao",
+      "credit": {
+        "source": "wikimedia",
+        "author": "IceUnshattered",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roof_architecture_in_Pingyao.JPG",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "民居",
+    "民俗",
+    "老宅"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "百度百科·平遥古城",
+      "url": "https://baike.baidu.com/item/%E5%B9%B3%E9%81%A5%E5%8F%A4%E5%9F%8E",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-06"
+    }
+  ],
+  "updatedAt": "2026-10-06",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "古民居博览苑"
+  },
+  "_geocodeTitle": "古民居博览苑外院",
+  "_geocodeSuspect": false,
+  "district": "140728"
+}

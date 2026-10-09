@@ -1,0 +1,113 @@
+{
+  "id": "longmen",
+  "name": "龙门石窟",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "洛阳最出名的世界遗产，伊河两岸的石刻佛像，卢舍那大佛最著名。",
+  "description": "龙门石窟在洛阳洛龙，伊河两岸的崖壁上，从北魏开凿到唐代，现存窟龛两千多。最出名的是卢舍那大佛，高十七米，据说是按武则天的样子雕的。西山密集，东山有香山寺。是中国三大石窟之一，世界遗产。",
+  "highlights": [
+    "伊河两岸石刻，北魏到唐代",
+    "卢舍那大佛高十七米最著名",
+    "中国三大石窟之一，世界遗产"
+  ],
+  "location": {
+    "point": {
+      "lng": 112.491087,
+      "lat": 34.569969,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河南省洛阳市洛龙区龙门石窟",
+    "district": "洛龙区",
+    "transportTip": "洛龙区乘公交或打车往南约半小时"
+  },
+  "practical": {
+    "openHours": "约8:00-18:00",
+    "openHoursRef": 0,
+    "ticket": "门票约几十到上百元",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/5305566/pexels-photo-5305566.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/5305566/pexels-photo-5305566.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5858,
+      "height": 3245,
+      "alt": "Stunning view of a traditional Chinese building illuminated at night, showcasing intricate architectural details.",
+      "query": "Chinese historic architecture luoyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Kowal Tyler",
+        "sourceUrl": "https://www.pexels.com/photo/tang-paradise-during-night-time-5305566/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/5305568/pexels-photo-5305568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/5305568/pexels-photo-5305568.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Stunning night view of traditional Chinese architecture beautifully lit.",
+      "query": "Chinese historic architecture luoyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Kowal Tyler",
+        "sourceUrl": "https://www.pexels.com/photo/lights-on-the-drum-tower-of-xi-an-during-night-time-5305568/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/5305562/pexels-photo-5305562.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/5305562/pexels-photo-5305562.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5950,
+      "height": 3618,
+      "alt": "Beautifully illuminated traditional Chinese architecture at night in Luoyang, Henan.",
+      "query": "Chinese historic architecture luoyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Kowal Tyler",
+        "sourceUrl": "https://www.pexels.com/photo/low-angle-shot-of-chinese-temple-under-night-sky-5305562/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "石窟",
+    "世界遗产",
+    "大佛"
+  ],
+  "popularity": 92,
+  "sources": [
+    {
+      "title": "百度百科·龙门石窟",
+      "url": "https://baike.baidu.com/item/%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "龙门石窟"
+  },
+  "_geocodeTitle": "龙门石窟街道",
+  "_geocodeSuspect": false,
+  "district": "410311"
+}

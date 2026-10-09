@@ -1,0 +1,119 @@
+{
+  "id": "zhaolin-park",
+  "name": "兆麟公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "中央大街北端的一座老公园，夏天有荷花，冬天是哈尔滨冰灯的发源地。",
+  "description": "兆麟公园在道里区森林街，紧挨中央大街北头，是哈尔滨最早的公园之一，名字取自抗日将领李兆麟。园子不大，有湖、有桥、有一片老树，夏天湖面是荷花，早上有人在这里打拳、下棋、跳舞。哈尔滨的冰灯就是从这里起源的 —— 上世纪六十年代第一次做冰灯就在这个园子里，后来才发展成冰雪大世界那种规模。冬天园里也会摆冰灯，规模比江北的小，但在城里、走两步就到，不想跑远的话看这个够。公园免费，散步一小时。它离索菲亚教堂、防洪纪念塔都不远，可以连着走。",
+  "highlights": [
+    "哈尔滨冰灯的发源地，六十年代第一次做冰灯就在这里",
+    "夏天湖面是荷花，早上有本地人打拳跳舞",
+    "紧挨中央大街北头，与索菲亚、防洪纪念塔连着走"
+  ],
+  "location": {
+    "point": {
+      "lng": 126.62295,
+      "lat": 45.7773,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "黑龙江省哈尔滨市道里区森林街377号",
+    "district": "道里区",
+    "transportTip": "地铁三号线或二号线兆麟公园站；多条公交至兆麟公园站",
+    "entrance": {
+      "lng": 126.623594,
+      "lat": 45.775657,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约6:00-21:00，冬季冰灯展期以公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费；冬季冰灯展区另收费，以公告为准",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "couple",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Zhaolin_Park_10.jpg/1280px-Zhaolin_Park_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Zhaolin_Park_10.jpg/1280px-Zhaolin_Park_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Zhaolin Park 10.jpg",
+      "query": "兆麟公园 哈尔滨",
+      "credit": {
+        "source": "wikimedia",
+        "author": "EditQ",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhaolin_Park_10.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Zhaolin_Park_3.jpg/1280px-Zhaolin_Park_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Zhaolin_Park_3.jpg/1280px-Zhaolin_Park_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Zhaolin Park 3.jpg",
+      "query": "兆麟公园 哈尔滨",
+      "credit": {
+        "source": "wikimedia",
+        "author": "EditQ",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhaolin_Park_3.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Zhaolin_Park_8.jpg/1280px-Zhaolin_Park_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Zhaolin_Park_8.jpg/1280px-Zhaolin_Park_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Zhaolin Park 8.jpg",
+      "query": "兆麟公园 哈尔滨",
+      "credit": {
+        "source": "wikimedia",
+        "author": "EditQ",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhaolin_Park_8.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "老公园",
+    "冰灯发源",
+    "免费"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "百度百科·兆麟公园",
+      "url": "https://baike.baidu.com/item/%E5%85%86%E9%BA%9F%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "兆麟公园"
+  },
+  "_geocodeTitle": "哈尔滨市兆麟公园",
+  "_geocodeSuspect": false,
+  "district": "230102"
+}

@@ -1,0 +1,118 @@
+{
+  "id": "deyu-eco",
+  "name": "得雨生态园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "昌江区一处生态园，有植物和鱼塘，是本地人周末带孩子的去处。",
+  "description": "得雨生态园在昌江区，是一处生态园。里面种着各种植物，有鱼塘和草地，也有简单的吃的。它是本地人周末带孩子来的地方，不是给游客准备的景点。空气好，地方大。离市区不远。",
+  "highlights": [
+    "昌江生态园，植物鱼塘草地",
+    "本地人周末带孩子，非游客景点",
+    "空气好地方大，离市区近"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.158846,
+      "lat": 29.247445,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "江西省景德镇市昌江区得雨生态园",
+    "district": "昌江区",
+    "transportTip": "市区公交或打车到生态园",
+    "entrance": {
+      "lng": 117.155981,
+      "lat": 29.246426,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:00-17:30",
+    "openHoursRef": 0,
+    "ticket": "免费或低价",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38750455/pexels-photo-38750455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38750455/pexels-photo-38750455.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5152,
+      "height": 6869,
+      "alt": "A peaceful wooden bridge leading through a vibrant, blooming garden on a sunny day.",
+      "query": "Deyu Ecological Garden Jingdezhen",
+      "credit": {
+        "source": "pexels",
+        "author": "BI ravencrow",
+        "sourceUrl": "https://www.pexels.com/photo/serene-wooden-bridge-in-blooming-garden-pathway-38750455/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/29461570/pexels-photo-29461570.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29461570/pexels-photo-29461570.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5272,
+      "height": 2962,
+      "alt": "Aerial view of a calm lake with islands and surrounding landscape at twilight, showcasing a serene natural setting.",
+      "query": "Deyu Ecological Garden Jingdezhen",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-aerial-view-of-lake-and-islands-at-twilight-29461570/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39186581/pexels-photo-39186581.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39186581/pexels-photo-39186581.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6144,
+      "height": 8192,
+      "alt": "Lush garden with a wooden sign in Chinese text offering a serene atmosphere.",
+      "query": "Deyu Ecological Garden Jingdezhen",
+      "credit": {
+        "source": "pexels",
+        "author": "William Xin",
+        "sourceUrl": "https://www.pexels.com/photo/tranquil-garden-scene-with-chinese-sign-39186581/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "生态园",
+    "亲子",
+    "免费"
+  ],
+  "popularity": 44,
+  "sources": [
+    {
+      "title": "百度百科·昌江区",
+      "url": "https://baike.baidu.com/item/%E6%98%8C%E6%B1%9F%E5%8C%BA",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Deyu Ecological Garden Jingdezhen",
+    "zh": "得雨生态园"
+  },
+  "_geocodeTitle": "得雨生态园",
+  "_geocodeSuspect": false,
+  "district": "360202"
+}

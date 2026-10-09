@@ -1,0 +1,83 @@
+{
+  "id": "cer-museum",
+  "name": "中东铁路印象馆",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "江桥胡同里的小型铁路主题馆，讲中东铁路这条线怎么造出哈尔滨，就在老桥头边。",
+  "description": "印象馆在道外区江桥胡同的火车主题广场里，紧挨着那座老的滨洲铁路桥，位置很具体 —— 出了馆抬头就是桥。展的是中东铁路这条线：十九世纪末怎么勘线、怎么铺，沿线的站舍、机车、职工住宅是什么样，以及哈尔滨作为这条线上的枢纽怎么被造出来。馆不大，一小时能看完，但它是理解这座城为什么长成这样的钥匙 —— 中央大街、教堂、老站都是这条铁路的副产品。看完顺路走上老桥看江，是一条顺的路线。",
+  "highlights": [
+    "紧挨老的滨洲铁路桥，出了馆抬头就是桥",
+    "讲的是中东铁路这条线怎么造出哈尔滨",
+    "馆不大一小时能看完，是理解这座城的钥匙"
+  ],
+  "location": {
+    "point": {
+      "lng": 126.626864,
+      "lat": 45.782575,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "黑龙江省哈尔滨市道外区江桥胡同火车主题广场内",
+    "district": "道外区",
+    "transportTip": "乘公交至道外江桥胡同附近站；或网约车前往"
+  },
+  "practical": {
+    "openHours": "约9:00-16:30，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "低价票，以现场公告为准",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/%E4%B8%AD%E4%B8%9C%E9%93%81%E8%B7%AF%E5%8D%B0%E8%B1%A1%E9%A6%86.jpg/1280px-%E4%B8%AD%E4%B8%9C%E9%93%81%E8%B7%AF%E5%8D%B0%E8%B1%A1%E9%A6%86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/%E4%B8%AD%E4%B8%9C%E9%93%81%E8%B7%AF%E5%8D%B0%E8%B1%A1%E9%A6%86.jpg/1280px-%E4%B8%AD%E4%B8%9C%E9%93%81%E8%B7%AF%E5%8D%B0%E8%B1%A1%E9%A6%86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "中东铁路印象馆.jpg",
+      "query": "中东铁路印象馆",
+      "credit": {
+        "source": "wikimedia",
+        "author": "EditQ",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E4%B8%9C%E9%93%81%E8%B7%AF%E5%8D%B0%E8%B1%A1%E9%A6%86.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "铁路",
+    "小型馆",
+    "近代史"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·中东铁路",
+      "url": "https://baike.baidu.com/item/%E4%B8%AD%E4%B8%9C%E9%93%81%E8%B7%AF",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "中东铁路印象馆"
+  },
+  "_geocodeTitle": "中东铁路印象馆",
+  "_geocodeSuspect": false,
+  "district": "230104"
+}

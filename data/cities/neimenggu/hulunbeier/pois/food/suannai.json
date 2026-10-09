@@ -1,0 +1,113 @@
+{
+  "id": "suannai",
+  "name": "呼伦贝尔酸奶",
+  "category": "food",
+  "subtype": "local",
+  "summary": "草原纯牛奶发酵，厚实不甜。",
+  "description": "呼伦贝尔酸奶用本地鲜奶发酵，没有添加糖和增稠剂，质地厚实、酸味清亮，表层常常结着一层奶皮。它比市售酸奶更纯、更酸，加一勺白糖或野蜂蜜最好吃。草原牧家和市区奶食店都能买到，是解腻、助消化的好东西。夏天冰镇、冬天常温都顺口。",
+  "highlights": [
+    "本地鲜奶发酵无添加",
+    "质地厚实表层奶皮",
+    "加糖或野蜂蜜最好"
+  ],
+  "location": {
+    "point": {
+      "lng": 119.82462,
+      "lat": 49.234929,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "呼伦贝尔市海拉尔区奶食店",
+    "district": "海拉尔区",
+    "transportTip": "市区奶食店"
+  },
+  "practical": {
+    "openHours": "约08:00-20:00（以门店为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约10元，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 20-45 分钟",
+    "durationMinutes": [
+      20,
+      45
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "elders",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/39389633/pexels-photo-39389633.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39389633/pexels-photo-39389633.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 6048,
+      "alt": "Interior of a cozy Chinese dining room with red tablecloths and natural light.",
+      "query": "Chinese restaurant interior hulunbeier",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-chinese-dining-room-interior-with-round-tables-39389633/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4096,
+      "alt": "Charming Asian dining room with bamboo chairs and traditional teaware.",
+      "query": "Chinese restaurant interior hulunbeier",
+      "credit": {
+        "source": "pexels",
+        "author": "TIANYUN XIA",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37047965/pexels-photo-37047965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37047965/pexels-photo-37047965.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4896,
+      "height": 3264,
+      "alt": "Cozy traditional Asian restaurant interior highlighting wooden furnishings and red decor. Ideal for cultural and design ",
+      "query": "Chinese restaurant interior hulunbeier",
+      "credit": {
+        "source": "pexels",
+        "author": "mingche lee",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "酸奶",
+    "奶制品",
+    "纯酵"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "百度百科·酸奶",
+      "url": "https://baike.baidu.com/item/%E9%85%B8%E5%A5%B6",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-05"
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "呼伦贝尔酸奶"
+  },
+  "_geocodeTitle": "海拉尔区",
+  "_geocodeSuspect": false,
+  "district": "150702"
+}

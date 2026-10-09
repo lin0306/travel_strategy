@@ -1,0 +1,116 @@
+{
+  "id": "tianmu-mountain",
+  "name": "天目山",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "以古柳杉群闻名的国家级自然保护区，夏天避暑的老去处。",
+  "description": "天目山在临安，是国家级自然保护区，最出名的是成片的古柳杉——几人合抱的老树成林，最大的那株被称作大树王。山里还有禅源寺和开山老殿。它也常被当作自然课堂：物种丰富，夏天比市区凉几度，是杭州人的避暑路线之一。从杭州市区出发要留半天到一天。",
+  "highlights": [
+    "古柳杉成林，最大的称大树王",
+    "国家级自然保护区",
+    "夏季避暑比市区凉"
+  ],
+  "location": {
+    "point": {
+      "lng": 119.490768,
+      "lat": 30.200314,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "杭州市临安区天目山镇天目山村",
+    "district": "临安区",
+    "transportTip": "杭州自驾约1.5小时，或乘至临安换乘当地交通",
+    "entrance": {
+      "lng": 119.447743,
+      "lat": 30.312676,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:30-17:00",
+    "openHoursRef": 0,
+    "ticket": "约110元，优待票约70元(以官方为准)",
+    "ticketRef": 0,
+    "duration": "建议 300-420 分钟",
+    "durationMinutes": [
+      300,
+      420
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/34432366/pexels-photo-34432366.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34432366/pexels-photo-34432366.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6240,
+      "height": 3512,
+      "alt": "Tranquil scene of West Lake with peaceful waters and distant hills in Hangzhou, China.",
+      "query": "natural landscape China hangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "nana liu",
+        "sourceUrl": "https://www.pexels.com/photo/serene-view-of-west-lake-in-hangzhou-china-34432366/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7532194/pexels-photo-7532194.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7532194/pexels-photo-7532194.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4912,
+      "height": 3264,
+      "alt": "Peaceful scene featuring a boat on West Lake with Leifeng Pagoda in Hangzhou, China.",
+      "query": "natural landscape China hangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Leon Huang",
+        "sourceUrl": "https://www.pexels.com/photo/leifeng-pagoda-in-china-7532194/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38075805/pexels-photo-38075805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38075805/pexels-photo-38075805.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8893,
+      "height": 5919,
+      "alt": "Captivating view of West Lake in Hangzhou during dusk, reflecting serene surroundings.",
+      "query": "natural landscape China hangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "CK Seng",
+        "sourceUrl": "https://www.pexels.com/photo/serene-west-lake-at-dusk-in-hangzhou-38075805/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "森林",
+    "古木",
+    "徒步"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "百度百科·天目山",
+      "url": "https://baike.baidu.com/item/%E5%A4%A9%E7%9B%AE%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-23"
+    }
+  ],
+  "updatedAt": "2026-09-23",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "天目山"
+  },
+  "_geocodeTitle": "天目山镇",
+  "_geocodeSuspect": false,
+  "district": "330112"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "haiyang-beach",
+  "name": "海阳万米海滩",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "海阳的漫长金色海滩与度假带。",
+  "description": "海阳万米海滩（凤城一带）在烟台海阳市，是一片绵延数公里的金色沙滩，沙细坡缓、海水洁净，是胶东知名的滨海度假地。2012 年亚洲沙滩运动会曾在此举办，配套步道、浴场与度假酒店。免费逛滩，适合戏水、赶海与看日出。距市区较远，建议自驾一日。",
+  "highlights": [
+    "绵延金色沙滩",
+    "亚沙会举办地",
+    "赶海看日出"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.198454,
+      "lat": 36.687834,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "烟台市海阳市凤城",
+    "district": "海阳市",
+    "transportTip": "海阳市区自驾约20分钟"
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 120-180 分钟",
+    "durationMinutes": [
+      120,
+      180
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37320643/pexels-photo-37320643.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37320643/pexels-photo-37320643.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3000,
+      "height": 4000,
+      "alt": "Serene Chinese pavilion surrounded by vibrant spring foliage in Nanchino, China.",
+      "query": "Chinese classical garden yantai",
+      "credit": {
+        "source": "pexels",
+        "author": "Jessica Sacco",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-pavilion-in-lush-spring-garden-37320643/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "Tranquil view of a traditional Chinese garden featuring a vibrant red lantern.",
+      "query": "Chinese classical garden yantai",
+      "credit": {
+        "source": "pexels",
+        "author": "Lily  Lili",
+        "sourceUrl": "https://www.pexels.com/photo/serene-chinese-garden-with-red-lantern-31956319/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37044011/pexels-photo-37044011.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37044011/pexels-photo-37044011.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3424,
+      "height": 5134,
+      "alt": "A classic Asian pavilion nestled in a tranquil forest setting, captured in black and white.",
+      "query": "Chinese classical garden yantai",
+      "credit": {
+        "source": "pexels",
+        "author": "Phoebe Buffay",
+        "sourceUrl": "https://www.pexels.com/photo/elegant-traditional-asian-pavilion-in-serene-forest-37044011/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "海阳",
+    "万米海滩",
+    "度假"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "百度百科·海阳",
+      "url": "https://baike.baidu.com/item/%E6%B5%B7%E9%98%B3",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-05"
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "海阳万米海滩"
+  },
+  "_geocodeTitle": "海阳万米海滩浴场",
+  "_geocodeSuspect": false,
+  "district": "370687"
+}

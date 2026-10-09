@@ -1,0 +1,112 @@
+{
+  "id": "zhuanshan",
+  "name": "转山转湖",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "绕神山圣湖祈福的朝圣路。",
+  "description": "转山转湖是藏地最古老的信仰实践，绕着神山（如亚丁三神山）或圣湖步行一圈，视作消业积德的修行。稻城的藏民至今还在转，磕长头的也有。对游客来说，跟着走一段、感受那份专注，比登顶更有意义。全程很长、海拔高，普通人走小段即可，别逞强。顺时针、不喧哗、不丢垃圾。这是人家的圣路，敬畏着走。",
+  "highlights": [
+    "绕山祈福",
+    "朝圣之路",
+    "顺时针走"
+  ],
+  "location": {
+    "point": {
+      "lng": 100.296873,
+      "lat": 29.037747,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "四川省甘孜藏族自治州稻城县亚丁三神山沿线",
+    "district": "稻城",
+    "transportTip": "亚丁景区及周边朝圣路线"
+  },
+  "practical": {
+    "openHours": "全天（量力而行）",
+    "openHoursRef": 0,
+    "ticket": "含在亚丁景区门票内",
+    "ticketRef": 0,
+    "duration": "建议 180-480 分钟",
+    "durationMinutes": [
+      180,
+      480
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/32700828/pexels-photo-32700828.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32700828/pexels-photo-32700828.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5472,
+      "height": 3648,
+      "alt": "Quaint street in traditional Chinese architecture with red lanterns under a clear blue sky.",
+      "query": "Chinese old town street daocheng",
+      "credit": {
+        "source": "pexels",
+        "author": "mingche lee",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-street-with-red-lanterns-32700828/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36473865/pexels-photo-36473865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36473865/pexels-photo-36473865.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3214,
+      "height": 2140,
+      "alt": "Explore the charm of an ancient Chinese street in a vibrant cityscape.",
+      "query": "Chinese old town street daocheng",
+      "credit": {
+        "source": "pexels",
+        "author": "gang liang",
+        "sourceUrl": "https://www.pexels.com/photo/historic-street-scene-in-ancient-chinese-city-36473865/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/14553029/pexels-photo-14553029.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/14553029/pexels-photo-14553029.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5472,
+      "height": 3648,
+      "alt": "A lively traditional village street in China with bicycles and local shops under fluffy clouds.",
+      "query": "Chinese old town street daocheng",
+      "credit": {
+        "source": "pexels",
+        "author": "fei wang",
+        "sourceUrl": "https://www.pexels.com/photo/clouds-over-street-in-village-14553029/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "转山",
+    "朝圣",
+    "信仰"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "百度百科·转山",
+      "url": "https://baike.baidu.com/item/%E8%BD%AC%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-06"
+    }
+  ],
+  "updatedAt": "2026-10-06",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "转山转湖"
+  },
+  "_geocodeTitle": "稻城县",
+  "_geocodeSuspect": false,
+  "district": "513337"
+}

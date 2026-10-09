@@ -1,0 +1,113 @@
+{
+  "id": "xiamen-kejiguan",
+  "name": "厦门科技馆",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "文化艺术中心里的互动科技馆，带小孩来能玩大半天。",
+  "description": "厦门科技馆在体育路文化艺术中心里，与市博物馆在同一片。馆内分几个主题厅：海洋科技那一厅讲的是潮汐、洋流与深海，因为这座城的产业与海有关；探索厅是力学、声光与电磁的动手装置；儿童科学乐园给小小孩玩；还有一个关于人与健康的展厅。多数装置能直接上手，按按钮、拉手柄、进到模拟舱里，是这座馆的做法。周末与假期人最多，上午刚开门那一段最松。馆里有定时讲解与科学表演，场次以现场公告为准。它与厦门市博物馆在一栋建筑群内，两个场馆可以排一天。",
+  "highlights": [
+    "海洋科技厅讲潮汐洋流与深海",
+    "装置以动手为主，另有儿童科学乐园",
+    "与市博物馆同在文化艺术中心"
+  ],
+  "location": {
+    "point": {
+      "lng": 118.108196,
+      "lat": 24.490716,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "福建省厦门市思明区体育路95号文化艺术中心",
+    "district": "湖里区",
+    "transportTip": "地铁2号线体育中心站或1号线莲花路口站，步行约十分钟"
+  },
+  "practical": {
+    "openHours": "约09:00-17:00（旺季有延长），以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "门票以官方公告为准（各展厅联票另计），以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 90-210 分钟",
+    "durationMinutes": [
+      90,
+      210
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/35870231/pexels-photo-35870231.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35870231/pexels-photo-35870231.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6990,
+      "height": 4660,
+      "alt": "Explore the elegant interior of an Istanbul museum showcasing art and artifacts.",
+      "query": "museum exhibition hall xiamen",
+      "credit": {
+        "source": "pexels",
+        "author": "Gül Işık",
+        "sourceUrl": "https://www.pexels.com/photo/intricate-istanbul-museum-interior-display-35870231/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/15074424/pexels-photo-15074424.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/15074424/pexels-photo-15074424.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4224,
+      "height": 6582,
+      "alt": "Beautifully carved ceiling and grand chandelier inside a museum in Sofia, Bulgaria.",
+      "query": "museum exhibition hall xiamen",
+      "credit": {
+        "source": "pexels",
+        "author": "Stijn Dijkstra",
+        "sourceUrl": "https://www.pexels.com/photo/ceiling-with-bas-reliefs-and-chandelier-15074424/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27850848/pexels-photo-27850848.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27850848/pexels-photo-27850848.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7864,
+      "height": 5200,
+      "alt": "Contemporary interior featuring stairs and unique rustic roofing design in a dimly lit space.",
+      "query": "museum exhibition hall xiamen",
+      "credit": {
+        "source": "pexels",
+        "author": "Lucas Tran",
+        "sourceUrl": "https://www.pexels.com/photo/a-room-with-stairs-and-a-roof-that-has-a-tiled-roof-27850848/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "科技馆",
+    "互动",
+    "亲子"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "百度百科·厦门科技馆",
+      "url": "https://baike.baidu.com/item/%E5%8E%A6%E9%97%A8%E7%A7%91%E6%8A%80%E9%A6%86",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-28"
+    }
+  ],
+  "updatedAt": "2026-09-28",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "厦门科技馆"
+  },
+  "_geocodeTitle": "厦门科技馆",
+  "_geocodeSuspect": false,
+  "district": "350206"
+}

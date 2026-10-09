@@ -1,0 +1,119 @@
+{
+  "id": "east-lake-moshan",
+  "name": "东湖磨山景区",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "伸进东湖里的一座半岛，楚文化与樱花园都在里面。",
+  "description": "磨山是伸进东湖南岸的一座半岛，现在是东湖风景区里内容最多的一块。山上的楚城、楚市、离骚碑是按照楚国都城的样子做的，属于1980年代以后的建设。山下有樱花园与荷园：樱花园的品种量很大，花期比武大樱花晚一点；夏天荷园的荷花比别处规模大。磨山的登高处能回头看整个东湖水面。它与绿道直接连通，骑车过去也很顺。",
+  "highlights": [
+    "伸进湖里的半岛，登高能回看整个东湖",
+    "樱花园花期比武大晚几天",
+    "夏天的荷园规模很大"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.41222,
+      "lat": 30.546451,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "武汉市武昌区磨山村（东湖风景区）",
+    "district": "洪山区",
+    "transportTip": "公交401路/413路磨山站",
+    "entrance": {
+      "lng": 114.40844,
+      "lat": 30.544096,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:00-17:30，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "约60元起，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 150-300 分钟",
+    "durationMinutes": [
+      150,
+      300
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "couple",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Moshan_Mountain.jpg/1280px-Moshan_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Moshan_Mountain.jpg/1280px-Moshan_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Moshan Mountain.jpg",
+      "query": "东湖磨山景区 武汉",
+      "credit": {
+        "source": "wikimedia",
+        "author": "ZhengZhou",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moshan_Mountain.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Mount_Mo_Casarte_Family_Run_IMG_20160827_085205.jpg/1280px-Mount_Mo_Casarte_Family_Run_IMG_20160827_085205.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Mount_Mo_Casarte_Family_Run_IMG_20160827_085205.jpg/1280px-Mount_Mo_Casarte_Family_Run_IMG_20160827_085205.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Mount Mo Casarte Family Run IMG 20160827 085205.jpg",
+      "query": "东湖磨山景区 武汉",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Geographyinitiative",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Mo_Casarte_Family_Run_IMG_20160827_085205.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Mount_Mo_Casarte_Family_Run_IMG_20160827_093020.jpg/1280px-Mount_Mo_Casarte_Family_Run_IMG_20160827_093020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Mount_Mo_Casarte_Family_Run_IMG_20160827_093020.jpg/1280px-Mount_Mo_Casarte_Family_Run_IMG_20160827_093020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Mount Mo Casarte Family Run IMG 20160827 093020.jpg",
+      "query": "东湖磨山景区 武汉",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Geographyinitiative",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Mo_Casarte_Family_Run_IMG_20160827_093020.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "东湖",
+    "樱花",
+    "荷花"
+  ],
+  "popularity": 76,
+  "sources": [
+    {
+      "title": "百度百科·磨山景区",
+      "url": "https://baike.baidu.com/item/%E7%A3%A8%E5%B1%B1%E6%99%AF%E5%8C%BA",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-23"
+    }
+  ],
+  "updatedAt": "2026-09-23",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "东湖磨山景区"
+  },
+  "_geocodeTitle": "东湖磨山景区",
+  "_geocodeSuspect": false,
+  "district": "420111"
+}

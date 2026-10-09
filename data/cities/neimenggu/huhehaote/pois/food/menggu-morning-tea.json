@@ -1,0 +1,112 @@
+{
+  "id": "menggu-morning-tea",
+  "name": "蒙古早茶",
+  "category": "food",
+  "subtype": "local",
+  "summary": "一锅熬出来的咸奶茶，配炒米、奶皮、手把肉，是草原上最正式的一顿早晨。",
+  "description": "蒙古早茶在呼和浩特是一顿正经的饭，不是简单喝杯茶。砖茶熬成浓汁，兑上鲜奶和盐，煮成咸香的奶茶，盛在壶里一直续。桌上摆着炒米、奶皮子、奶豆腐、黄油和果条，讲究的还有手把肉和血肠。吃法是把炒米和奶食泡进碗里，浇上奶茶，边泡边喝，越喝越稠。呼市城区里做蒙古早茶的馆子不少，早上和中午最旺。第一次喝咸奶茶可能不习惯，多喝两碗就上瘾，暖胃又顶饿。",
+  "highlights": [
+    "砖茶兑鲜奶熬成咸奶茶",
+    "炒米奶皮摆满一桌",
+    "泡着吃越喝越稠"
+  ],
+  "location": {
+    "point": {
+      "lng": 111.748814,
+      "lat": 40.842127,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "内蒙古自治区呼和浩特市各城区蒙古早茶馆",
+    "district": "赛罕区",
+    "transportTip": "市区乘公交或打车到蒙餐馆，早市时段最旺"
+  },
+  "practical": {
+    "openHours": "约07:00-14:00",
+    "openHoursRef": 0,
+    "ticket": "约40元/人起",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/26755323/pexels-photo-26755323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/26755323/pexels-photo-26755323.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3592,
+      "height": 5388,
+      "alt": "Close-up of milk being poured into a vintage coffee cup with floral decoration.",
+      "query": "Mongolia Salty Milk Tea Breakfast",
+      "credit": {
+        "source": "pexels",
+        "author": "Feyza Daştan",
+        "sourceUrl": "https://www.pexels.com/photo/pouring-milk-to-coffee-26755323/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6337102/pexels-photo-6337102.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6337102/pexels-photo-6337102.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5754,
+      "height": 3836,
+      "alt": "Children enjoying a breakfast with cereal and sliced bread at a cozy indoor dining table.",
+      "query": "Mongolia Salty Milk Tea Breakfast",
+      "credit": {
+        "source": "pexels",
+        "author": "Tima Miroshnichenko",
+        "sourceUrl": "https://www.pexels.com/photo/children-eating-breakfast-on-a-round-table-6337102/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/16203960/pexels-photo-16203960.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/16203960/pexels-photo-16203960.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3648,
+      "height": 5472,
+      "alt": "Close-up of elegant hand pouring milk into a coffee cup outdoors on a sunny day.",
+      "query": "Mongolia Salty Milk Tea Breakfast",
+      "credit": {
+        "source": "pexels",
+        "author": "Paloma Gil",
+        "sourceUrl": "https://www.pexels.com/photo/close-up-of-woman-pouring-milk-into-a-cup-16203960/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "奶茶",
+    "奶食",
+    "蒙餐"
+  ],
+  "popularity": 86,
+  "sources": [
+    {
+      "title": "蒙古奶茶·百度百科",
+      "url": "https://baike.baidu.com/item/%E8%92%99%E5%8F%A4%E5%A5%B6%E8%8C%B6",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-03"
+    }
+  ],
+  "updatedAt": "2026-10-03",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Mongolia Salty Milk Tea Breakfast",
+    "zh": "蒙古早茶"
+  },
+  "_geocodeTitle": "呼和浩特市",
+  "district": "150105"
+}

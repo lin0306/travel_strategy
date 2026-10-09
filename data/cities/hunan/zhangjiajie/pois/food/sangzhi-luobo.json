@@ -1,0 +1,111 @@
+{
+  "id": "sangzhi-luobo",
+  "name": "桑植萝卜",
+  "category": "food",
+  "subtype": "local",
+  "summary": "桑植产的萝卜，水多脆甜，常凉拌或炖汤，是山里的好菜。",
+  "description": "桑植萝卜是桑植产的萝卜，水多、脆、甜。凉拌、炖汤、炒都好，不辣嗓子。山里气候适合种，所以这边的萝卜出名。去桑植玩能吃到新鲜的，当一道清口菜正合适。价格随季节浮动，以店内为准。",
+  "highlights": [
+    "桑植水多脆甜萝卜",
+    "凉拌炖汤炒菜皆宜",
+    "山里气候宜种出名"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.204804,
+      "lat": 29.414112,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "湖南省张家界市桑植县各餐馆",
+    "district": "桑植县",
+    "transportTip": "桑植县餐馆及市场有"
+  },
+  "practical": {
+    "openHours": "约10:00-20:00",
+    "openHoursRef": 0,
+    "ticket": "约15元/份起",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
+      15,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "solo",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/33653559/pexels-photo-33653559.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33653559/pexels-photo-33653559.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 10000,
+      "height": 7500,
+      "alt": "A detailed close-up of vibrant red radishes showcasing their freshness and organic quality.",
+      "query": "Sangzhi Radish",
+      "credit": {
+        "source": "pexels",
+        "author": "Engin Akyurt",
+        "sourceUrl": "https://www.pexels.com/photo/fresh-organic-radishes-at-market-closeup-33653559/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/15670721/pexels-photo-15670721.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/15670721/pexels-photo-15670721.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5902,
+      "height": 4815,
+      "alt": "Vibrant radishes growing amidst green leaves, symbolizing farm freshness.",
+      "query": "Sangzhi Radish",
+      "credit": {
+        "source": "pexels",
+        "author": "Paul Campbell",
+        "sourceUrl": "https://www.pexels.com/photo/field-of-radish-15670721/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/8827285/pexels-photo-8827285.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/8827285/pexels-photo-8827285.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3376,
+      "height": 6000,
+      "alt": "A vibrant assortment of fresh radishes, artichokes, and greens at Zacapoaxtla, Mexico market.",
+      "query": "Sangzhi Radish",
+      "credit": {
+        "source": "pexels",
+        "author": "Marco  Carmona",
+        "sourceUrl": "https://www.pexels.com/photo/stack-of-radish-over-green-vegetables-8827285/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "萝卜",
+    "桑植",
+    "山货"
+  ],
+  "popularity": 50,
+  "sources": [
+    {
+      "title": "百度百科·桑植县",
+      "url": "https://baike.baidu.com/item/%E6%A1%91%E6%A4%8D%E5%8E%BF",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Sangzhi Radish",
+    "zh": "桑植萝卜"
+  },
+  "district": "430822"
+}

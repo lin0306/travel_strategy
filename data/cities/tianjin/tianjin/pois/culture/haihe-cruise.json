@@ -1,0 +1,114 @@
+{
+  "id": "haihe-cruise",
+  "name": "海河游船",
+  "category": "culture",
+  "subtype": "performance",
+  "summary": "从天津站前的码头出发，把两岸的桥与楼一次看过去。",
+  "description": "海河游船的码头在天津站前的海河岸边，紧挨津湾广场那一侧。航线从三岔河口往东南，一路过狮子林桥、金汤桥、解放桥、大沽桥，再折回来，全程四十分钟到一个小时。白天看的是两岸的桥与旧楼，晚上的一趟是这段最好看的——楼和桥都打了灯，水面上是连成一片的光。船是封闭式的，有玻璃窗和上层的露天甲板。它不换地方，但站的位置与走路完全不同：从水面上看，两岸的立面是一次排开的。旺季要提前买票。",
+  "highlights": [
+    "码头在天津站前，紧挨津湾广场",
+    "一路过狮子林桥、金汤桥、解放桥、大沽桥",
+    "夜航比白天好看，楼与桥都打灯"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.207727,
+      "lat": 39.13325,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "天津市和平区海河沿岸（天津站前码头）",
+    "district": "和平",
+    "transportTip": "地铁3号线津湾广场站，或从天津站南广场步行"
+  },
+  "practical": {
+    "openHours": "约10:00-21:30（按班次），以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "约80元起（夜航更高），以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 40-90 分钟",
+    "durationMinutes": [
+      40,
+      90
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "family",
+    "kids",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/%E5%A4%A9%E6%B4%A5%E6%B5%B7%E6%B2%B3%E6%B8%B8%E8%88%B9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/%E5%A4%A9%E6%B4%A5%E6%B5%B7%E6%B2%B3%E6%B8%B8%E8%88%B9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 705,
+      "alt": "天津海河游船.jpg",
+      "query": "海河游船 天津",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Comer Zhao",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E6%B5%B7%E6%B2%B3%E6%B8%B8%E8%88%B9.jpg",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/30143805/pexels-photo-30143805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/30143805/pexels-photo-30143805.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5792,
+      "height": 4344,
+      "alt": "Stunning view of the Tianjin skyline and illuminated buildings reflecting on Hai River at night.",
+      "query": "Haihe River Tianjin night cruise",
+      "credit": {
+        "source": "pexels",
+        "author": "强 王",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-night-view-of-tianjin-skyline-by-the-hai-river-30143805/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/23542414/pexels-photo-23542414.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/23542414/pexels-photo-23542414.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 3024,
+      "alt": "Stunning aerial view of Tianjin cityscape, featuring the Haihe River and modern architecture.",
+      "query": "Haihe River Tianjin night cruise",
+      "credit": {
+        "source": "pexels",
+        "author": "逐光 创梦",
+        "sourceUrl": "https://www.pexels.com/photo/river-in-tianjin-city-23542414/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "游船",
+    "夜景",
+    "海河"
+  ],
+  "popularity": 82,
+  "sources": [
+    {
+      "title": "百度百科·海河",
+      "url": "https://baike.baidu.com/item/%E6%B5%B7%E6%B2%B3",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-27"
+    }
+  ],
+  "updatedAt": "2026-09-27",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Haihe River Tianjin night cruise",
+    "zh": "海河游船"
+  },
+  "_geocodeTitle": "海河游船",
+  "_geocodeSuspect": false,
+  "district": "120101"
+}

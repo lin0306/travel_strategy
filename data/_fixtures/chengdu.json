@@ -1,0 +1,556 @@
+{
+  "schemaVersion": 1,
+  "id": "chengdu",
+  "name": "成都",
+  "province": "四川",
+  "adcode": "510100",
+  "provinceAdcode": "510000",
+  "tagline": "天府之国，慢生活之都",
+  "intro": "这是成都的开发占位数据，用来在真实采集数据就绪前跑通「地图撒点 → 下钻 → 详情 → 行程规划」全链路，不代表任何真实内容。真实数据会包含城市概览、气候与建议天数、交通提示，四大类内容（景点 / 美食 / 网红打卡 / 城市特色）的分组说明与筛选色，以及每城约 46 个点位的完整正文、亮点、避坑建议、开放时间、票价（均带字段级溯源）、适游群体标注与无障碍说明，图片一律外链并附完整版权署名。",
+  "center": {
+    "lng": 104.066541,
+    "lat": 30.572269,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    103.75,
+    30.3,
+    104.65,
+    30.93
+  ],
+  "defaultZoom": 11,
+  "heroImages": [
+    {
+      "url": "https://images.unsplash.com/photo-placeholder-904732778?w=1080&q=70",
+      "thumbUrl": "https://images.unsplash.com/photo-placeholder-904732778?w=400&q=60",
+      "width": 1080,
+      "height": 720,
+      "alt": "成都 —— 开发占位图（非真实内容）",
+      "query": "Chengdu 成都",
+      "credit": {
+        "source": "unsplash",
+        "author": "占位（fixture）",
+        "sourceUrl": "https://unsplash.com/",
+        "license": "Unsplash License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "3-6 月 / 9-11 月",
+    "suggestedDays": "2-3 天",
+    "transitTip": "地铁覆盖主要景点，占位文案",
+    "climateTip": "占位文案"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "pois": [
+    {
+      "id": "kuanzhai-alley",
+      "name": "宽窄巷子",
+      "category": "scenic",
+      "subtype": "historic",
+      "summary": "宽窄巷子 —— 开发占位数据，用于跑通链路",
+      "description": "这是 宽窄巷子 的开发占位描述，仅用于验证页面渲染与行程时间链推导，不是真实内容。真实数据由采集流水线产出，会带完整的正文、亮点、避坑建议、开放时间与票价（含字段级溯源），以及可用的外链图片与版权署名。",
+      "highlights": [
+        "占位亮点一",
+        "占位亮点二"
+      ],
+      "location": {
+        "point": {
+          "lng": 104.0577,
+          "lat": 30.669,
+          "coordSystem": "GCJ-02"
+        },
+        "address": "成都市（占位地址 · 古迹古建）",
+        "district": "占位区",
+        "transportTip": "占位交通提示"
+      },
+      "practical": {
+        "duration": "建议 75-120 分钟（占位）",
+        "durationMinutes": [
+          75,
+          120
+        ],
+        "priceLevel": "free"
+      },
+      "audience": [
+        "solo",
+        "couple",
+        "friends"
+      ],
+      "accessible": false,
+      "tips": [
+        "占位提示"
+      ],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-placeholder-741255666?w=1080&q=70",
+          "thumbUrl": "https://images.unsplash.com/photo-placeholder-741255666?w=400&q=60",
+          "width": 1080,
+          "height": 720,
+          "alt": "宽窄巷子 —— 开发占位图（非真实内容）",
+          "query": "Chengdu 宽窄巷子",
+          "credit": {
+            "source": "unsplash",
+            "author": "占位（fixture）",
+            "sourceUrl": "https://unsplash.com/",
+            "license": "Unsplash License",
+            "attributionRequired": false
+          }
+        }
+      ],
+      "coverIndex": 0,
+      "tags": [
+        "占位"
+      ],
+      "popularity": 81,
+      "sources": [
+        {
+          "title": "宽窄巷子 · 占位来源（非真实）",
+          "url": "https://example.com/placeholder",
+          "kind": "media",
+          "fetchedAt": "2026-09-18"
+        }
+      ],
+      "updatedAt": "2026-09-18"
+    },
+    {
+      "id": "peoples-park",
+      "name": "人民公园",
+      "category": "scenic",
+      "subtype": "park",
+      "summary": "人民公园 —— 开发占位数据，用于跑通链路",
+      "description": "这是 人民公园 的开发占位描述，仅用于验证页面渲染与行程时间链推导，不是真实内容。真实数据由采集流水线产出，会带完整的正文、亮点、避坑建议、开放时间与票价（含字段级溯源），以及可用的外链图片与版权署名。",
+      "highlights": [
+        "占位亮点一",
+        "占位亮点二"
+      ],
+      "location": {
+        "point": {
+          "lng": 104.056,
+          "lat": 30.6571,
+          "coordSystem": "GCJ-02"
+        },
+        "address": "成都市（占位地址 · 公园园林）",
+        "district": "占位区",
+        "transportTip": "占位交通提示"
+      },
+      "practical": {
+        "duration": "建议 45-90 分钟（占位）",
+        "durationMinutes": [
+          45,
+          90
+        ],
+        "priceLevel": "free"
+      },
+      "audience": [
+        "solo",
+        "couple",
+        "friends"
+      ],
+      "accessible": false,
+      "tips": [
+        "占位提示"
+      ],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-placeholder-35090317?w=1080&q=70",
+          "thumbUrl": "https://images.unsplash.com/photo-placeholder-35090317?w=400&q=60",
+          "width": 1080,
+          "height": 720,
+          "alt": "人民公园 —— 开发占位图（非真实内容）",
+          "query": "Chengdu 人民公园",
+          "credit": {
+            "source": "unsplash",
+            "author": "占位（fixture）",
+            "sourceUrl": "https://unsplash.com/",
+            "license": "Unsplash License",
+            "attributionRequired": false
+          }
+        }
+      ],
+      "coverIndex": 0,
+      "tags": [
+        "占位"
+      ],
+      "popularity": 84,
+      "sources": [
+        {
+          "title": "人民公园 · 占位来源（非真实）",
+          "url": "https://example.com/placeholder",
+          "kind": "media",
+          "fetchedAt": "2026-09-18"
+        }
+      ],
+      "updatedAt": "2026-09-18"
+    },
+    {
+      "id": "wuhou-shrine",
+      "name": "武侯祠",
+      "category": "scenic",
+      "subtype": "historic",
+      "summary": "武侯祠 —— 开发占位数据，用于跑通链路",
+      "description": "这是 武侯祠 的开发占位描述，仅用于验证页面渲染与行程时间链推导，不是真实内容。真实数据由采集流水线产出，会带完整的正文、亮点、避坑建议、开放时间与票价（含字段级溯源），以及可用的外链图片与版权署名。",
+      "highlights": [
+        "占位亮点一",
+        "占位亮点二"
+      ],
+      "location": {
+        "point": {
+          "lng": 104.0492,
+          "lat": 30.6448,
+          "coordSystem": "GCJ-02"
+        },
+        "address": "成都市（占位地址 · 古迹古建）",
+        "district": "占位区",
+        "transportTip": "占位交通提示"
+      },
+      "practical": {
+        "duration": "建议 105-150 分钟（占位）",
+        "durationMinutes": [
+          105,
+          150
+        ],
+        "priceLevel": "free"
+      },
+      "audience": [
+        "solo",
+        "couple",
+        "friends"
+      ],
+      "accessible": false,
+      "tips": [
+        "占位提示"
+      ],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-placeholder-678791976?w=1080&q=70",
+          "thumbUrl": "https://images.unsplash.com/photo-placeholder-678791976?w=400&q=60",
+          "width": 1080,
+          "height": 720,
+          "alt": "武侯祠 —— 开发占位图（非真实内容）",
+          "query": "Chengdu 武侯祠",
+          "credit": {
+            "source": "unsplash",
+            "author": "占位（fixture）",
+            "sourceUrl": "https://unsplash.com/",
+            "license": "Unsplash License",
+            "attributionRequired": false
+          }
+        }
+      ],
+      "coverIndex": 0,
+      "tags": [
+        "占位"
+      ],
+      "popularity": 78,
+      "sources": [
+        {
+          "title": "武侯祠 · 占位来源（非真实）",
+          "url": "https://example.com/placeholder",
+          "kind": "media",
+          "fetchedAt": "2026-09-18"
+        }
+      ],
+      "updatedAt": "2026-09-18"
+    },
+    {
+      "id": "jinli",
+      "name": "锦里",
+      "category": "culture",
+      "subtype": "street",
+      "summary": "锦里 —— 开发占位数据，用于跑通链路",
+      "description": "这是 锦里 的开发占位描述，仅用于验证页面渲染与行程时间链推导，不是真实内容。真实数据由采集流水线产出，会带完整的正文、亮点、避坑建议、开放时间与票价（含字段级溯源），以及可用的外链图片与版权署名。",
+      "highlights": [
+        "占位亮点一",
+        "占位亮点二"
+      ],
+      "location": {
+        "point": {
+          "lng": 104.048,
+          "lat": 30.6432,
+          "coordSystem": "GCJ-02"
+        },
+        "address": "成都市（占位地址 · 特色街区）",
+        "district": "占位区",
+        "transportTip": "占位交通提示"
+      },
+      "practical": {
+        "duration": "建议 60-105 分钟（占位）",
+        "durationMinutes": [
+          60,
+          105
+        ],
+        "priceLevel": "free"
+      },
+      "audience": [
+        "solo",
+        "couple",
+        "friends"
+      ],
+      "accessible": false,
+      "tips": [
+        "占位提示"
+      ],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-placeholder-172577746?w=1080&q=70",
+          "thumbUrl": "https://images.unsplash.com/photo-placeholder-172577746?w=400&q=60",
+          "width": 1080,
+          "height": 720,
+          "alt": "锦里 —— 开发占位图（非真实内容）",
+          "query": "Chengdu 锦里",
+          "credit": {
+            "source": "unsplash",
+            "author": "占位（fixture）",
+            "sourceUrl": "https://unsplash.com/",
+            "license": "Unsplash License",
+            "attributionRequired": false
+          }
+        }
+      ],
+      "coverIndex": 0,
+      "tags": [
+        "占位"
+      ],
+      "popularity": 83,
+      "sources": [
+        {
+          "title": "锦里 · 占位来源（非真实）",
+          "url": "https://example.com/placeholder",
+          "kind": "media",
+          "fetchedAt": "2026-09-18"
+        }
+      ],
+      "updatedAt": "2026-09-18"
+    },
+    {
+      "id": "panda-base",
+      "name": "大熊猫繁育研究基地",
+      "category": "scenic",
+      "subtype": "nature",
+      "summary": "大熊猫繁育研究基地 —— 开发占位数据，用于跑通链路",
+      "description": "这是 大熊猫繁育研究基地 的开发占位描述，仅用于验证页面渲染与行程时间链推导，不是真实内容。真实数据由采集流水线产出，会带完整的正文、亮点、避坑建议、开放时间与票价（含字段级溯源），以及可用的外链图片与版权署名。",
+      "highlights": [
+        "占位亮点一",
+        "占位亮点二"
+      ],
+      "location": {
+        "point": {
+          "lng": 104.147,
+          "lat": 30.7333,
+          "coordSystem": "GCJ-02"
+        },
+        "address": "成都市（占位地址 · 自然景观）",
+        "district": "占位区",
+        "transportTip": "占位交通提示"
+      },
+      "practical": {
+        "duration": "建议 165-210 分钟（占位）",
+        "durationMinutes": [
+          165,
+          210
+        ],
+        "priceLevel": "free"
+      },
+      "audience": [
+        "solo",
+        "couple",
+        "friends"
+      ],
+      "accessible": false,
+      "tips": [
+        "占位提示"
+      ],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-placeholder-313131205?w=1080&q=70",
+          "thumbUrl": "https://images.unsplash.com/photo-placeholder-313131205?w=400&q=60",
+          "width": 1080,
+          "height": 720,
+          "alt": "大熊猫繁育研究基地 —— 开发占位图（非真实内容）",
+          "query": "Chengdu 大熊猫繁育研究基地",
+          "credit": {
+            "source": "unsplash",
+            "author": "占位（fixture）",
+            "sourceUrl": "https://unsplash.com/",
+            "license": "Unsplash License",
+            "attributionRequired": false
+          }
+        }
+      ],
+      "coverIndex": 0,
+      "tags": [
+        "占位"
+      ],
+      "popularity": 72,
+      "sources": [
+        {
+          "title": "大熊猫繁育研究基地 · 占位来源（非真实）",
+          "url": "https://example.com/placeholder",
+          "kind": "media",
+          "fetchedAt": "2026-09-18"
+        }
+      ],
+      "updatedAt": "2026-09-18"
+    },
+    {
+      "id": "xiaolongkan",
+      "name": "小龙坎老火锅",
+      "category": "food",
+      "subtype": "local",
+      "summary": "小龙坎老火锅 —— 开发占位数据，用于跑通链路",
+      "description": "这是 小龙坎老火锅 的开发占位描述，仅用于验证页面渲染与行程时间链推导，不是真实内容。真实数据由采集流水线产出，会带完整的正文、亮点、避坑建议、开放时间与票价（含字段级溯源），以及可用的外链图片与版权署名。",
+      "highlights": [
+        "占位亮点一",
+        "占位亮点二"
+      ],
+      "location": {
+        "point": {
+          "lng": 104.082,
+          "lat": 30.66,
+          "coordSystem": "GCJ-02"
+        },
+        "address": "成都市（占位地址 · 本地菜）",
+        "district": "占位区",
+        "transportTip": "占位交通提示"
+      },
+      "practical": {
+        "duration": "建议 60-105 分钟（占位）",
+        "durationMinutes": [
+          60,
+          105
+        ],
+        "priceLevel": "mid"
+      },
+      "audience": [
+        "solo",
+        "couple",
+        "friends"
+      ],
+      "accessible": false,
+      "tips": [
+        "占位提示"
+      ],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-placeholder-557447969?w=1080&q=70",
+          "thumbUrl": "https://images.unsplash.com/photo-placeholder-557447969?w=400&q=60",
+          "width": 1080,
+          "height": 720,
+          "alt": "小龙坎老火锅 —— 开发占位图（非真实内容）",
+          "query": "Chengdu 小龙坎老火锅",
+          "credit": {
+            "source": "unsplash",
+            "author": "占位（fixture）",
+            "sourceUrl": "https://unsplash.com/",
+            "license": "Unsplash License",
+            "attributionRequired": false
+          }
+        }
+      ],
+      "coverIndex": 0,
+      "tags": [
+        "占位"
+      ],
+      "popularity": 83,
+      "sources": [
+        {
+          "title": "小龙坎老火锅 · 占位来源（非真实）",
+          "url": "https://example.com/placeholder",
+          "kind": "media",
+          "fetchedAt": "2026-09-18"
+        }
+      ],
+      "updatedAt": "2026-09-18"
+    }
+  ],
+  "transit": {
+    "generatedAt": "2026-09-18",
+    "sampledAtLabel": "工作日上午 · 含路况（占位推算，非真实矩阵）",
+    "poiIndex": [
+      "kuanzhai-alley",
+      "peoples-park",
+      "wuhou-shrine",
+      "jinli",
+      "panda-base",
+      "xiaolongkan"
+    ],
+    "modes": {
+      "driving": {
+        "distance": "01e002xf01kt035201so007y0blm0cng0e530ecw02mw02m203pn03wn0aod",
+        "duration": "006000cn006t00dk007r001o01e401io01p301q100be00ba00g100gw01a4",
+        "maxStraightMeters": 0
+      },
+      "walking": {
+        "distance": "01aa02pm01gl000001nw007d000000000000000002fv02f3000000000000",
+        "duration": "011102630162000001bx005w000000000000000001ya01xo000000000000",
+        "maxStraightMeters": 3000
+      },
+      "bicycling": {
+        "distance": "018g02lp01eh02si01li0072000000000000000002cd02bl03at03h10000",
+        "duration": "00al00mb00c100nx00dp001o000000000000000000k300jw00sa00ts0000",
+        "maxStraightMeters": 8000
+      }
+    }
+  },
+  "credits": {
+    "imageSources": [
+      "Unsplash（占位）"
+    ],
+    "textSources": [
+      "fixture 生成器（非真实来源）"
+    ],
+    "lastUpdated": "2026-09-18"
+  },
+  "updatedAt": "2026-09-18"
+}

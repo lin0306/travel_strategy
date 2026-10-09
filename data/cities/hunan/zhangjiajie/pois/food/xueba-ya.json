@@ -1,0 +1,111 @@
+{
+  "id": "xueba-ya",
+  "name": "血粑鸭",
+  "category": "food",
+  "subtype": "local",
+  "summary": "本地一道硬菜，鸭肉和糯米血粑同烧，咸鲜带糯。",
+  "description": "血粑鸭是湘西和张家界的一道硬菜。它把鸭肉和糯米血粑一起烧，血粑吸了鸭汤，又糯又鲜。鸭肉紧实，带着辣。它是逢年过节和待客的菜，来这一带值得尝一回。辣度可说，吃不了辣提前讲。",
+  "highlights": [
+    "鸭肉与糯米血粑同烧",
+    "血粑吸汤又糯又鲜",
+    "节庆待客硬菜"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.463354,
+      "lat": 29.177995,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "湖南省张家界市永定区各餐馆",
+    "district": "永定区",
+    "transportTip": "市区餐馆均有"
+  },
+  "practical": {
+    "openHours": "约10:00-21:00",
+    "openHoursRef": 0,
+    "ticket": "约60元/份起",
+    "ticketRef": 0,
+    "duration": "建议 60-90 分钟",
+    "durationMinutes": [
+      60,
+      90
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37388158/pexels-photo-37388158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37388158/pexels-photo-37388158.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2268,
+      "height": 4032,
+      "alt": "A traditional Chinese boat sails on a calm river amid lush greenery under a clear blue sky.",
+      "query": "Xueba Duck Zhangjiajie",
+      "credit": {
+        "source": "pexels",
+        "author": "Nino Okruashvili",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-boat-on-a-serene-river-37388158/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39025876/pexels-photo-39025876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39025876/pexels-photo-39025876.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 3024,
+      "alt": "Busy street in Zhangjiajie, China with people and shops, framed by mountains under a clear sky.",
+      "query": "Xueba Duck Zhangjiajie",
+      "credit": {
+        "source": "pexels",
+        "author": "Guillaume Kremer",
+        "sourceUrl": "https://www.pexels.com/photo/bustling-street-scene-in-zhangjiajie-china-39025876/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39014232/pexels-photo-39014232.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39014232/pexels-photo-39014232.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Stunning sandstone formations and lush vegetation in Zhangjiajie National Forest Park, China.",
+      "query": "Xueba Duck Zhangjiajie",
+      "credit": {
+        "source": "pexels",
+        "author": "Guillaume Kremer",
+        "sourceUrl": "https://www.pexels.com/photo/majestic-sandstone-peaks-of-zhangjiajie-39014232/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "鸭",
+    "血粑",
+    "湘西菜"
+  ],
+  "popularity": 82,
+  "sources": [
+    {
+      "title": "百度百科·血粑鸭",
+      "url": "https://baike.baidu.com/item/%E8%A1%80%E7%B2%91%E9%B8%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Xueba Duck Zhangjiajie",
+    "zh": "血粑鸭"
+  },
+  "district": "430802"
+}

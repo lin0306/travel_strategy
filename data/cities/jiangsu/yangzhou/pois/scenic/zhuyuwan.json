@@ -1,0 +1,119 @@
+{
+  "id": "zhuyuwan",
+  "name": "茱萸湾风景区",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "城北的河湖湿地，野生动物园和运河口都在。",
+  "description": "茱萸湾在扬州城北的湾头镇，古运河在此拐弯，是一处以河湖湿地和动物展示为主的景区。园里有扬州茱萸湾动物园的不少兽禽，也有大片水杉林和湿地步道。它离城近、适合带小孩半天，比纯园林更有野趣。春季茱萸花开、秋季芦苇泛黄时各有味道。从老城过去约半小时车程。",
+  "highlights": [
+    "城北湾头镇，古运河拐弯处",
+    "湿地水杉林加动物园，适合遛娃",
+    "春茱萸秋芦苇各有味"
+  ],
+  "location": {
+    "point": {
+      "lng": 119.488981,
+      "lat": 32.433114,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "扬州市广陵区湾头镇茱萸湾路",
+    "district": "邗江区",
+    "transportTip": "公交茱萸湾站；市区打车约25分钟",
+    "entrance": {
+      "lng": 119.490566,
+      "lat": 32.428303,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:00-17:00（以景区公告为准）",
+    "openHoursRef": 0,
+    "ticket": "约45元起，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/24551223/pexels-photo-24551223.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/24551223/pexels-photo-24551223.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3335,
+      "height": 5002,
+      "alt": "Scenic view of traditional building with red lanterns by Shouxi Hu in Yangzhou, China.",
+      "query": "Chinese classical garden yangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Mo",
+        "sourceUrl": "https://www.pexels.com/photo/building-at-shouxhi-hu-lake-in-yangzhou-in-china-24551223/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37784477/pexels-photo-37784477.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37784477/pexels-photo-37784477.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Elegant wooden door in traditional Chinese style surrounded by lush green plants and bamboo.",
+      "query": "Chinese classical garden yangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Frank Lv",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-door-surrounded-by-greenery-37784477/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7494607/pexels-photo-7494607.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7494607/pexels-photo-7494607.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5184,
+      "height": 3456,
+      "alt": "Elegant view of Wuting Bridge through a circular opening at Slender West Lake, Yangzhou, China.",
+      "query": "Chinese classical garden yangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Dongjie Chen",
+        "sourceUrl": "https://www.pexels.com/photo/the-view-of-the-wuting-bridge-from-a-hole-in-a-wall-7494607/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湿地",
+    "动物园",
+    "运河口"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·茱萸湾",
+      "url": "https://baike.baidu.com/item/%E8%8C%B1%E8%90%B8%E6%B9%BE",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "茱萸湾风景区"
+  },
+  "_geocodeTitle": "茱萸湾风景区",
+  "_geocodeSuspect": false,
+  "district": "321003"
+}

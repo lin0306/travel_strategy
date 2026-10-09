@@ -1,0 +1,114 @@
+{
+  "id": "taiwan-university-campus",
+  "name": "台湾大学",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "大安区公馆的大学校园，椰林大道与红砖老建筑。",
+  "description": "台湾大学在大安区公馆一带，校园很大，是市区里少见的大片绿地。最有名的是椰林大道，两排大王椰子笔直排列，尽头是红砖的老建筑，从校门口走进去很有气势。校园里还有醉月湖与旧图书馆，建筑风格混着不同年代。钟亭与校门口一带是学生拍照的地点，春天流苏与杜鹃开花时最好看。校园开放参观，请放低音量不要打扰上课。捷运公馆站即到，走一圈一两小时。",
+  "highlights": [
+    "椰林大道两排大王椰子",
+    "醉月湖与红砖老建筑",
+    "校园开放参观，需保持安静"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.5276,
+      "lat": 25.0266,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "台北市大安区罗斯福路四段1号",
+    "district": "中正区",
+    "transportTip": "捷运公馆站出站即到"
+  },
+  "practical": {
+    "openHours": "校园户外全天开放，馆舍以校方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费参观，以校方公告为准",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "family",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Night_cityscape_of_Beitou_from_the_campus_of_Taipei_National_University_of_the_Arts_2014-05-17.jpg/1280px-Night_cityscape_of_Beitou_from_the_campus_of_Taipei_National_University_of_the_Arts_2014-05-17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Night_cityscape_of_Beitou_from_the_campus_of_Taipei_National_University_of_the_Arts_2014-05-17.jpg/1280px-Night_cityscape_of_Beitou_from_the_campus_of_Taipei_National_University_of_the_Arts_2014-05-17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Night cityscape of Beitou from the campus of Taipei National University of the Arts 2014-05-17.jpg",
+      "query": "台湾大学 台北",
+      "credit": {
+        "source": "wikimedia",
+        "author": "othree",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Night_cityscape_of_Beitou_from_the_campus_of_Taipei_National_University_of_the_Arts_2014-05-17.jpg",
+        "license": "CC BY 2.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Photo_of_Taipei_National_University_of_Arts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Photo_of_Taipei_National_University_of_Arts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 810,
+      "alt": "Photo of Taipei National University of Arts.jpg",
+      "query": "台湾大学 台北",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Jessepylin",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Photo_of_Taipei_National_University_of_Arts.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/TNUA_Bell_tower.jpg/1280px-TNUA_Bell_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/TNUA_Bell_tower.jpg/1280px-TNUA_Bell_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1440,
+      "alt": "TNUA Bell tower.jpg",
+      "query": "台湾大学 台北",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Yu tptw",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:TNUA_Bell_tower.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "校园",
+    "椰林大道",
+    "老建筑"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "台湾大学·百度百科",
+      "url": "https://baike.baidu.com/item/%E5%8F%B0%E6%B9%BE%E5%A4%A7%E5%AD%A6",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-03"
+    }
+  ],
+  "updatedAt": "2026-10-03",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "National Taiwan University campus",
+    "zh": "台湾大学"
+  },
+  "_geocodeTitle": "台湾师范大学",
+  "_geocodeSuspect": false,
+  "district": "711003"
+}

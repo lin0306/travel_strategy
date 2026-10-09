@@ -1,0 +1,104 @@
+{
+  "id": "wulihe-park",
+  "name": "五里河公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "浑河边的滨水公园，步道长，看河景和城市天际线。",
+  "description": "五里河公园在浑河边，是一段长的滨水绿地。步道沿河，对岸是繁华的城市天际线。本地人跑步、骑车，傍晚看落日映河。它免费，是躲开室内闷热的好去处。穿舒服的鞋，路多台阶。",
+  "highlights": [
+    "浑河边滨水长步道",
+    "对岸城市天际线",
+    "免费傍晚落日映河"
+  ],
+  "location": {
+    "point": {
+      "lng": 123.440943,
+      "lat": 41.752083,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省沈阳市和平区五里河公园（浑河沿岸）",
+    "district": "和平区",
+    "transportTip": "地铁或公交到五里河公园",
+    "entrance": {
+      "lng": 123.464529,
+      "lat": 41.759371,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "elders",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Exit_D_of_Wu_Li_He_Station_SYMTR_202311.jpg/1280px-Exit_D_of_Wu_Li_He_Station_SYMTR_202311.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Exit_D_of_Wu_Li_He_Station_SYMTR_202311.jpg/1280px-Exit_D_of_Wu_Li_He_Station_SYMTR_202311.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 607,
+      "alt": "Exit D of Wu Li He Station SYMTR 202311.jpg",
+      "query": "五里河公园 沈阳",
+      "credit": {
+        "source": "wikimedia",
+        "author": "EddieZhang0128",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Exit_D_of_Wu_Li_He_Station_SYMTR_202311.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/%E4%BA%94%E9%87%8C%E6%B2%B3%E5%85%AC%E5%9B%AD_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/%E4%BA%94%E9%87%8C%E6%B2%B3%E5%85%AC%E5%9B%AD_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 810,
+      "alt": "五里河公园 - panoramio.jpg",
+      "query": "五里河公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Lau Phang",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%94%E9%87%8C%E6%B2%B3%E5%85%AC%E5%9B%AD_-_panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "滨水",
+    "公园",
+    "浑河"
+  ],
+  "popularity": 62,
+  "sources": [
+    {
+      "title": "百度百科·沈阳",
+      "url": "https://baike.baidu.com/item/%E6%B2%88%E9%98%B3",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Wulihe Park Shenyang",
+    "zh": "五里河公园"
+  },
+  "_geocodeTitle": "五里河公园西[公交站]",
+  "_geocodeSuspect": false,
+  "district": "210102"
+}

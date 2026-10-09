@@ -1,0 +1,118 @@
+{
+  "id": "heishan-valley",
+  "name": "黑山谷",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "渝黔交界处的“养生峡谷”，森林覆盖率 97%，夏天谷底均温约 23℃。",
+  "description": "黑山谷在万盛经开区，峡谷全长约 13 公里，核心段 6 公里的栈道与浮桥沿溪谷穿行，森林覆盖率高达 97%，夏季均温 23℃ 左右，负氧离子含量很高。经典的走法是南门进、北门出，一路以下坡为主，途中经过神龙瀑、渝黔分界桥、最窄处仅两米的鲤鱼峡和一段段浮桥。体力不足可在南门坐索道下到谷底，北门出口有观光车返回。主城自驾约 1.5 小时，一日往返刚好。",
+  "highlights": [
+    "森林覆盖率 97%，夏季均温约 23℃",
+    "南进北出全程以下坡为主",
+    "渝黔分界桥上一脚跨两省"
+  ],
+  "location": {
+    "point": {
+      "lng": 107.01171,
+      "lat": 28.927292,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "重庆市万盛经开区黑山镇",
+    "district": "綦江",
+    "transportTip": "主城自驾约 1.5 小时；四公里枢纽有直通车至万盛再转公交",
+    "entrance": {
+      "lng": 106.998091,
+      "lat": 28.919586,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "旺季约 08:30-16:00 入园（淡季提前半小时收，以官方为准）",
+    "openHoursRef": 0,
+    "ticket": "旺季（5-10 月）约 85 元 / 淡季 60 元，索道与观光车另计（以官方为准）",
+    "ticketRef": 0,
+    "duration": "建议 240-360 分钟",
+    "durationMinutes": [
+      240,
+      360
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "kids",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38733381/pexels-photo-38733381.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38733381/pexels-photo-38733381.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4096,
+      "height": 3072,
+      "alt": "Idyllic landscape of a tranquil river, lush greenery, and mountains in Xiushan, China on a sunny day.",
+      "query": "natural landscape China chongqing",
+      "credit": {
+        "source": "pexels",
+        "author": "千纸鹤 吴",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-river-and-mountains-in-xiushan-china-38733381/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/8622312/pexels-photo-8622312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/8622312/pexels-photo-8622312.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Hikers explore the impressive rock formations and waterfall in Wulong Karst National Park, China.",
+      "query": "natural landscape China chongqing",
+      "credit": {
+        "source": "pexels",
+        "author": "Caleb Remy Ma",
+        "sourceUrl": "https://www.pexels.com/photo/hikers-walking-under-a-natural-arch-8622312/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38942587/pexels-photo-38942587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38942587/pexels-photo-38942587.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8064,
+      "height": 6048,
+      "alt": "View of Chongqing, China skyline featuring modern architecture under a cloudy sky.",
+      "query": "natural landscape China chongqing",
+      "credit": {
+        "source": "pexels",
+        "author": "Guillaume Kremer",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-view-of-chongqing-s-modern-architecture-38942587/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "峡谷",
+    "避暑",
+    "栈道",
+    "5A"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "携程·黑山谷攻略",
+      "url": "https://gs.ctrip.com/html5/you/sight/226/5073139.html",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-23"
+    }
+  ],
+  "updatedAt": "2026-09-23",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "黑山谷"
+  },
+  "_geocodeTitle": "黑山谷度假酒店",
+  "_geocodeSuspect": false,
+  "district": "500110"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "lvshunkou",
+  "name": "旅顺口",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "旅顺口区一座军港与小城，日俄战争的遗迹集中地。",
+  "description": "旅顺口在大连最南端，是一处军港与小城，近代被俄日争夺，留下大量遗迹。军港、老炮台、太阳沟的老建筑都在。白玉山上能俯看军港。从市区过来约一小时。几个看点：大连最南端军港小城，近代争夺地；军港老炮台太阳沟老建筑；白玉山俯看军港。",
+  "highlights": [
+    "大连最南端军港小城，近代争夺地",
+    "军港老炮台太阳沟老建筑",
+    "白玉山俯看军港"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.26188,
+      "lat": 38.851718,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省大连市旅顺口区旅顺口",
+    "district": "旅顺口区",
+    "transportTip": "从市区乘轻轨或公交往南约一小时"
+  },
+  "practical": {
+    "openHours": "全天开放（景点约8:00-17:00）",
+    "openHoursRef": 0,
+    "ticket": "部分景点收费",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/28490351/pexels-photo-28490351.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/28490351/pexels-photo-28490351.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Beautiful traditional Chinese temple architecture in Dalian, Liaoning Province, China during spring.",
+      "query": "Chinese historic architecture dalian",
+      "credit": {
+        "source": "pexels",
+        "author": "YFS Visuals",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-temple-in-dalian-china-28490351/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/26173365/pexels-photo-26173365.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/26173365/pexels-photo-26173365.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2710,
+      "height": 3612,
+      "alt": "A striking view of Dalian's urban skyline showcasing towering skyscrapers against a clear sky.",
+      "query": "Chinese historic architecture dalian",
+      "credit": {
+        "source": "pexels",
+        "author": "Zhengyang",
+        "sourceUrl": "https://www.pexels.com/photo/tall-buildings-with-chinese-signs-26173365/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36659522/pexels-photo-36659522.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36659522/pexels-photo-36659522.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6336,
+      "height": 9504,
+      "alt": "A historic building with distinct architecture in Dalian, showcasing clear skies and urban skyline.",
+      "query": "Chinese historic architecture dalian",
+      "credit": {
+        "source": "pexels",
+        "author": "evan Sw",
+        "sourceUrl": "https://www.pexels.com/photo/historic-building-in-dalian-china-36659522/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "军港",
+    "近代史",
+    "旅顺"
+  ],
+  "popularity": 62,
+  "sources": [
+    {
+      "title": "百度百科·旅顺口",
+      "url": "https://baike.baidu.com/item/%E6%97%85%E9%A1%BA%E5%8F%A3",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "旅顺口"
+  },
+  "_geocodeTitle": "旅顺口区",
+  "_geocodeSuspect": false,
+  "district": "210212"
+}

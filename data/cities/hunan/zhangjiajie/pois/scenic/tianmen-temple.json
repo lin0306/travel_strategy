@@ -1,0 +1,112 @@
+{
+  "id": "tianmen-temple",
+  "name": "天门山寺",
+  "category": "scenic",
+  "subtype": "temple",
+  "summary": "天门山顶一座寺庙，供着佛舍利，站在山顶看云海。",
+  "description": "天门山寺在天门山顶，是一座寺庙。它供着佛舍利，在山顶显得清静。寺外能看到云海和群峰，天气好的时候很开阔。它是爬完天门山顺路的一站，不用单独安排。穿舒服的鞋，路多台阶。",
+  "highlights": [
+    "天门山顶寺庙，供佛舍利",
+    "寺外看云海群峰",
+    "爬完天门山顺路一站"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.482829,
+      "lat": 29.038077,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "湖南省张家界市永定区天门山山顶天门山寺",
+    "district": "永定区",
+    "transportTip": "天门山索道上山后步行到寺"
+  },
+  "practical": {
+    "openHours": "约08:00-17:30，以公告为准",
+    "openHoursRef": 0,
+    "ticket": "含天门山门票",
+    "ticketRef": 0,
+    "duration": "建议 40-80 分钟",
+    "durationMinutes": [
+      40,
+      80
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "elders",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Tian_Men_Shan_Temple_1.jpg/1280px-Tian_Men_Shan_Temple_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Tian_Men_Shan_Temple_1.jpg/1280px-Tian_Men_Shan_Temple_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Tian Men Shan Temple 1.jpg",
+      "query": "天门山寺 张家界",
+      "credit": {
+        "source": "wikimedia",
+        "author": "huangdan2060",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tian_Men_Shan_Temple_1.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Tian_Men_Shan_Temple_2.jpg/1280px-Tian_Men_Shan_Temple_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Tian_Men_Shan_Temple_2.jpg/1280px-Tian_Men_Shan_Temple_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Tian Men Shan Temple 2.jpg",
+      "query": "天门山寺 张家界",
+      "credit": {
+        "source": "wikimedia",
+        "author": "huangdan2060",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tian_Men_Shan_Temple_2.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Tian_Men_Shan_Temple_3.jpg/1280px-Tian_Men_Shan_Temple_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Tian_Men_Shan_Temple_3.jpg/1280px-Tian_Men_Shan_Temple_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Tian Men Shan Temple 3.jpg",
+      "query": "天门山寺 张家界",
+      "credit": {
+        "source": "wikimedia",
+        "author": "huangdan2060",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tian_Men_Shan_Temple_3.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "寺庙",
+    "山顶",
+    "云海"
+  ],
+  "popularity": 60,
+  "sources": [
+    {
+      "title": "百度百科·天门山寺",
+      "url": "https://baike.baidu.com/item/%E5%A4%A9%E9%97%A8%E5%B1%B1%E5%AF%BA",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Tianmen Temple Zhangjiajie",
+    "zh": "天门山寺"
+  },
+  "_geocodeTitle": "天门山寺",
+  "_geocodeSuspect": false,
+  "district": "430802"
+}

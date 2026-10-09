@@ -1,0 +1,82 @@
+{
+  "id": "zhuangyuan-museum",
+  "name": "苏州状元博物馆",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "钮家巷里的一座旧宅，讲的是苏州科举出状元这件事。",
+  "description": "这座馆开在钮家巷的一座老宅里，本身是一处清代住宅。苏州在清代出的状元数量是全国最多的，馆里讲的是这件事背后的教育体系与家族。展品不算多，主要是试卷、匾额与旧宅的格局。这处的好处是它就在平江路旁边，走过去几分钟，可以顺路。老宅的天井与厅堂保留得完整，看建筑本身也值得。",
+  "highlights": [
+    "清代状元数量全国之最",
+    "馆舍本身是清代老宅",
+    "就在平江路旁，可顺路"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.630623,
+      "lat": 31.310534,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "苏州市姑苏区钮家巷",
+    "district": "姑苏区",
+    "transportTip": "地铁临顿路站步行约8分钟"
+  },
+  "practical": {
+    "openHours": "约09:00-16:30，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 45-90 分钟",
+    "durationMinutes": [
+      45,
+      90
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "elders",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Calligraphy_of_Peng_Qifeng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Calligraphy_of_Peng_Qifeng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 606,
+      "alt": "Calligraphy of Peng Qifeng.jpg",
+      "query": "苏州状元博物馆 苏州",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Peng Qifeng",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Calligraphy_of_Peng_Qifeng.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "科举",
+    "老宅",
+    "博物馆"
+  ],
+  "popularity": 58,
+  "sources": [
+    {
+      "title": "百度百科·苏州状元博物馆",
+      "url": "https://baike.baidu.com/item/%E8%8B%8F%E5%B7%9E%E7%8A%B6%E5%85%83%E5%8D%9A%E7%89%A9%E9%A6%86",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "苏州状元博物馆"
+  },
+  "_geocodeTitle": "苏州状元博物馆",
+  "_geocodeSuspect": false,
+  "district": "320508"
+}

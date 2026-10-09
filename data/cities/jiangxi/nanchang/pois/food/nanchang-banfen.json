@@ -1,0 +1,114 @@
+{
+  "id": "nanchang-banfen",
+  "name": "南昌拌粉",
+  "category": "food",
+  "subtype": "local",
+  "summary": "南昌人的一天从拌粉开始，米粉过水后拌上酱料、萝卜干和花生米。",
+  "description": "拌粉是南昌早餐的主角。米粉提前煮好放凉，点单时下锅一烫就捞起，加酱油、辣椒油、香油，再撒萝卜干、酸豆角、花生米和葱花，端上桌自己拌匀。粉是圆的那一种，口感偏韧，带点嚼头。辣度各家不同，不能吃辣要提前说。街边早摊、老城巷口的铺子都有，排队的多是本地人。一份几块钱，配上煨汤就是南昌最标准的一顿早饭。早上过九点，有些摊子就卖完了。",
+  "highlights": [
+    "南昌早餐的头一号",
+    "萝卜干酸豆角花生米",
+    "配煨汤是标准吃法"
+  ],
+  "location": {
+    "point": {
+      "lng": 115.973982,
+      "lat": 28.647258,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "江西省南昌市各早餐店与早摊（东湖区、西湖区一带）",
+    "district": "青山湖区",
+    "transportTip": "老城各街巷早餐铺、市场周边均有"
+  },
+  "practical": {
+    "openHours": "约06:00-10:00，各店不一",
+    "openHoursRef": 0,
+    "ticket": "约5-10元一碗，以店为准",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
+      15,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "solo",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38131983/pexels-photo-38131983.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38131983/pexels-photo-38131983.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3000,
+      "height": 4000,
+      "alt": "Top view of a vibrant Korean bibimbap dish with assorted vegetables in a white bowl.",
+      "query": "Nanchang Mixed Rice Noodles",
+      "credit": {
+        "source": "pexels",
+        "author": "Atai Anarbek",
+        "sourceUrl": "https://www.pexels.com/photo/colorful-korean-bibimbap-dish-in-white-bowl-38131983/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/29962612/pexels-photo-29962612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29962612/pexels-photo-29962612.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Close-up of a tasty Asian noodle dish with savory toppings served in a red bowl.",
+      "query": "Nanchang Mixed Rice Noodles",
+      "credit": {
+        "source": "pexels",
+        "author": "FOX ^.ᆽ.^= ∫",
+        "sourceUrl": "https://www.pexels.com/photo/delicious-asian-noodle-dish-with-toppings-29962612/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/14162746/pexels-photo-14162746.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/14162746/pexels-photo-14162746.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8688,
+      "height": 5792,
+      "alt": "Close-up image of uncooked noodles with a wicker basket in the background.",
+      "query": "Nanchang Mixed Rice Noodles",
+      "credit": {
+        "source": "pexels",
+        "author": "zijie liu",
+        "sourceUrl": "https://www.pexels.com/photo/close-up-photo-of-uncooked-pasta-14162746/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "拌粉",
+    "早餐",
+    "米粉"
+  ],
+  "popularity": 95,
+  "sources": [
+    {
+      "title": "南昌拌粉·百度百科",
+      "url": "https://baike.baidu.com/item/%E5%8D%97%E6%98%8C%E6%8B%8C%E7%B2%89",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Nanchang Mixed Rice Noodles",
+    "zh": "南昌拌粉"
+  },
+  "_geocodeTitle": "南昌拌粉",
+  "_geocodeSuspect": false,
+  "district": "360111"
+}

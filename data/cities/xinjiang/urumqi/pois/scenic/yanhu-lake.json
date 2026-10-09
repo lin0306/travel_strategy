@@ -1,0 +1,118 @@
+{
+  "id": "yanhu-lake",
+  "name": "盐湖",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "达坂城的盐湖，湖面泛着白花花的结晶，可体验漂浮和采盐，像小死海。",
+  "description": "盐湖在达坂城附近，是一片高矿的咸水湖。枯水季节湖底析出白花花的盐晶，踩上去咯吱响。湖水浮力大，人能轻松漂起，被称为小死海。可以体验采盐、黑泥，也能看盐田。风大、晒，玩水后记得冲淡。顺路去达坂城很方便。",
+  "highlights": [
+    "达坂城高矿盐湖",
+    "浮力大可漂浮",
+    "采盐黑泥小死海"
+  ],
+  "location": {
+    "point": {
+      "lng": 88.151909,
+      "lat": 43.400816,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "新疆维吾尔自治区乌鲁木齐市达坂城区盐湖",
+    "district": "达坂城区",
+    "transportTip": "市区自驾或乘班车经吐乌大高速到盐湖",
+    "entrance": {
+      "lng": 88.146334,
+      "lat": 43.399269,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约09:00-19:00，以景区为准",
+    "openHoursRef": 0,
+    "ticket": "约50元起，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Txu-oclc-6654394-nk-45-3rd-ed.jpg/1280px-Txu-oclc-6654394-nk-45-3rd-ed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Txu-oclc-6654394-nk-45-3rd-ed.jpg/1280px-Txu-oclc-6654394-nk-45-3rd-ed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1182,
+      "alt": "Txu-oclc-6654394-nk-45-3rd-ed.jpg",
+      "query": "盐湖 乌鲁木齐",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Defense Mapping Agency",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Txu-oclc-6654394-nk-45-3rd-ed.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Great_Salt_Lake_UT1.jpg/1280px-Great_Salt_Lake_UT1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Great_Salt_Lake_UT1.jpg/1280px-Great_Salt_Lake_UT1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 589,
+      "alt": "Great Salt Lake UT1.jpg",
+      "query": "盐湖",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Acroterion",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Salt_Lake_UT1.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Great_Salt_Lake_by_Sentinel-2.jpg/1280px-Great_Salt_Lake_by_Sentinel-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Great_Salt_Lake_by_Sentinel-2.jpg/1280px-Great_Salt_Lake_by_Sentinel-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1029,
+      "alt": "Great Salt Lake by Sentinel-2.jpg",
+      "query": "盐湖",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Copernicus Sentinel-2, ESA",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Salt_Lake_by_Sentinel-2.jpg",
+        "license": "CC BY-SA 3.0 igo",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "盐湖",
+    "漂浮",
+    "达坂城"
+  ],
+  "popularity": 46,
+  "sources": [
+    {
+      "title": "柴窝堡盐湖·百度百科",
+      "url": "https://baike.baidu.com/item/%E6%9F%B4%E7%AA%9D%E5%A0%A1%E7%9B%90%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Yanhu Lake Urumqi",
+    "zh": "盐湖"
+  },
+  "_geocodeTitle": "盐湖街道",
+  "_geocodeSuspect": false,
+  "district": "650107"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "yuecheng-lake",
+  "name": "月城湖",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "前山半腰的静水，可乘船。",
+  "description": "月城湖是青城山前山半腰的一汪静水，碧绿得像块翡翠，四周被绿树环抱，安静得能听见鸟叫。从湖边可以乘缆车上到上清宫，省下最累的一段爬升。湖上有小木船，划一圈不过十几分钟，很适合带老人小孩慢慢晃。清晨湖面起雾时最有意境，像进了水墨画里。",
+  "highlights": [
+    "半山静湖",
+    "缆车起点",
+    "可划船"
+  ],
+  "location": {
+    "point": {
+      "lng": 103.568501,
+      "lat": 30.901132,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "四川省成都市都江堰市青城山景区内",
+    "district": "都江堰",
+    "transportTip": "青城山前山步道至月城湖，接索道"
+  },
+  "practical": {
+    "openHours": "随景区开放时间",
+    "openHoursRef": 0,
+    "ticket": "含在青城山前山门票内（船/索道另计）",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/31306040/pexels-photo-31306040.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31306040/pexels-photo-31306040.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "Scenic river flowing through a quaint village, framed by autumn foliage.",
+      "query": "natural landscape China dujiangyan",
+      "credit": {
+        "source": "pexels",
+        "author": "Johnny Song",
+        "sourceUrl": "https://www.pexels.com/photo/picturesque-river-view-with-autumn-leaves-31306040/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36186822/pexels-photo-36186822.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36186822/pexels-photo-36186822.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Calm pond with vibrant fish swimming beneath the reflection of overhanging leaves.",
+      "query": "natural landscape China dujiangyan",
+      "credit": {
+        "source": "pexels",
+        "author": "Shuaizhi Tian",
+        "sourceUrl": "https://www.pexels.com/photo/serene-pond-with-colorful-fish-and-leaves-36186822/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36186821/pexels-photo-36186821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36186821/pexels-photo-36186821.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Police and fire response vehicles parked roadside ready for emergency situations.",
+      "query": "natural landscape China dujiangyan",
+      "credit": {
+        "source": "pexels",
+        "author": "Shuaizhi Tian",
+        "sourceUrl": "https://www.pexels.com/photo/police-and-fire-vehicles-parked-on-city-street-36186821/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湖泊",
+    "青城山",
+    "休闲"
+  ],
+  "popularity": 78,
+  "sources": [
+    {
+      "title": "百度百科·月城湖",
+      "url": "https://baike.baidu.com/item/%E6%9C%88%E5%9F%8E%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-06"
+    }
+  ],
+  "updatedAt": "2026-10-06",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "月城湖"
+  },
+  "_geocodeTitle": "月城湖",
+  "_geocodeSuspect": false,
+  "district": "510181"
+}

@@ -1,0 +1,45 @@
+{
+  // ★ 契约目录在**仓库根**的 `schema/`（不在 web/ 里）——抓取与展示共用同一份。
+  //   于是 tsc 有两件事要显式交代（2026-09-21 搬到根时踩到，别删）：
+  //     1. `include` 必须显式列出 `../schema/**/*.ts`：`**` 不会跨越工程目录，
+  //        漏了它 tsc 会把这个文件当成"外来文件"，一口气报 100+ 条假错误
+  //        （`Cannot find module 'zod'` + 由它引发的 implicit any 连锁）。
+  //     2. bare import 是从**文件自身所在目录**往上找 node_modules 的，而
+  //        `<repo>/schema/` 之上没有 node_modules；所以要给 zod 一条映射，
+  //        指向本工程的 node_modules。schema.ts 的运行时依赖**只有 zod**，
+  //        加新依赖时同步这里（`check_app.py` 的 J 项守着契约文件的位置）。
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".react-router/types/**/*",
+    "../schema/**/*.ts"
+  ],
+  "exclude": ["node_modules", "dist"],
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+    "types": ["node", "vite/client"],
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "moduleDetection": "force",
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "resolveJsonModule": true,
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./app/*"],
+      "~data/*": ["../data/*"],
+      "~shared/*": ["../schema/*"],
+      "zod": ["./node_modules/zod"]
+    },
+    "rootDirs": [".", "./.react-router/types"]
+  }
+}

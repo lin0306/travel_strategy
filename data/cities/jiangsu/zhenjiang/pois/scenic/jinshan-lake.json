@@ -1,0 +1,114 @@
+{
+  "id": "jinshan-lake",
+  "name": "金山湖(白娘子文化园)",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "金山脚下的新湖，白娘子雕塑与音乐喷泉。",
+  "description": "金山湖在金山脚下、由古运河与长江连通形成的新景区，水面开阔、环湖有步道与绿地。园里立着白娘子与许仙的主题雕塑，呼应水漫金山的传说，夜晚有音乐喷泉与灯光。它把金山的传说从山里延伸到水面，适合傍晚散步、看湖映山影。免费开放，与金山可连成半日。",
+  "highlights": [
+    "金山脚下新湖，白娘子雕塑",
+    "音乐喷泉与灯光",
+    "湖映山影可散步"
+  ],
+  "location": {
+    "point": {
+      "lng": 119.447132,
+      "lat": 32.216114,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "镇江市润州区金山湖",
+    "district": "京口区",
+    "transportTip": "公交金山湖站；紧邻金山"
+  },
+  "practical": {
+    "openHours": "全天开放（喷泉以公告为准）",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "family",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37080429/pexels-photo-37080429.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37080429/pexels-photo-37080429.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4080,
+      "height": 5440,
+      "alt": "A peaceful traditional Chinese house with a reflection on a calm lake.",
+      "query": "Chinese classical garden zhenjiang",
+      "credit": {
+        "source": "pexels",
+        "author": "Frank Lv",
+        "sourceUrl": "https://www.pexels.com/photo/serene-traditional-chinese-house-by-tranquil-lake-37080429/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7494074/pexels-photo-7494074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7494074/pexels-photo-7494074.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2832,
+      "height": 4256,
+      "alt": "View of historical Chinese architecture through a wooden door in Yichang, Hubei, China.",
+      "query": "Chinese classical garden zhenjiang",
+      "credit": {
+        "source": "pexels",
+        "author": "Leon Huang",
+        "sourceUrl": "https://www.pexels.com/photo/building-seen-from-door-7494074/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34538020/pexels-photo-34538020.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34538020/pexels-photo-34538020.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "Peaceful scene of a traditional Chinese garden with a weathered wall and lush greenery.",
+      "query": "Chinese classical garden zhenjiang",
+      "credit": {
+        "source": "pexels",
+        "author": "Madzery Ma",
+        "sourceUrl": "https://www.pexels.com/photo/tranquil-traditional-chinese-garden-wall-scene-34538020/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "金山湖",
+    "白娘子",
+    "喷泉"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "百度百科·金山湖",
+      "url": "https://baike.baidu.com/item/%E9%87%91%E5%B1%B1%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-05"
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "金山湖(白娘子文化园)"
+  },
+  "_geocodeTitle": "金山湖",
+  "_geocodeSuspect": false,
+  "district": "321102"
+}

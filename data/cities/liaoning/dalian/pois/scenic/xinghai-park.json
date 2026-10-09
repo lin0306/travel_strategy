@@ -1,0 +1,119 @@
+{
+  "id": "xinghai-park",
+  "name": "星海公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "沙河口一处海滨公园，有海滨浴场与跨海大桥景观。",
+  "description": "星海公园在大连沙河口，是一处海滨公园，有一段海滨浴场。公园旁边就是星海广场和跨海大桥，桥的红色拉索入画。栈道沿着海边，傍晚散步的人多。免费。几个看点：沙河口海滨公园，有浴场；邻星海广场与跨海大桥；海边栈道傍晚散步，免费。",
+  "highlights": [
+    "沙河口海滨公园，有浴场",
+    "邻星海广场与跨海大桥",
+    "海边栈道傍晚散步，免费"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.568411,
+      "lat": 38.878052,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省大连市沙河口区星海公园",
+    "district": "沙河口区",
+    "transportTip": "沙河口区乘公交可达",
+    "entrance": {
+      "lng": 121.566498,
+      "lat": 38.878654,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/28490351/pexels-photo-28490351.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/28490351/pexels-photo-28490351.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Beautiful traditional Chinese temple architecture in Dalian, Liaoning Province, China during spring.",
+      "query": "Chinese classical garden dalian",
+      "credit": {
+        "source": "pexels",
+        "author": "YFS Visuals",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-temple-in-dalian-china-28490351/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37320643/pexels-photo-37320643.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37320643/pexels-photo-37320643.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3000,
+      "height": 4000,
+      "alt": "Serene Chinese pavilion surrounded by vibrant spring foliage in Nanchino, China.",
+      "query": "Chinese classical garden dalian",
+      "credit": {
+        "source": "pexels",
+        "author": "Jessica Sacco",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-pavilion-in-lush-spring-garden-37320643/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37044011/pexels-photo-37044011.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37044011/pexels-photo-37044011.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3424,
+      "height": 5134,
+      "alt": "A classic Asian pavilion nestled in a tranquil forest setting, captured in black and white.",
+      "query": "Chinese classical garden dalian",
+      "credit": {
+        "source": "pexels",
+        "author": "Phoebe Buffay",
+        "sourceUrl": "https://www.pexels.com/photo/elegant-traditional-asian-pavilion-in-serene-forest-37044011/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "公园",
+    "海滨",
+    "免费"
+  ],
+  "popularity": 58,
+  "sources": [
+    {
+      "title": "百度百科·星海公园",
+      "url": "https://baike.baidu.com/item/%E6%98%9F%E6%B5%B7%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "星海公园"
+  },
+  "_geocodeTitle": "星海公园",
+  "_geocodeSuspect": false,
+  "district": "210204"
+}

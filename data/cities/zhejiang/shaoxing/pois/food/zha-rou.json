@@ -1,0 +1,83 @@
+{
+  "id": "zha-rou",
+  "name": "绍式扎肉",
+  "category": "food",
+  "subtype": "local",
+  "summary": "粽叶扎捆的焖肉，酱色浓亮。",
+  "description": "绍式扎肉用五花肉切块、以粽叶或草绳扎紧，加酱油、糖焖煮到酥烂，酱色浓亮、肥而不腻。它是绍兴筵席与家常都见的硬菜，扎捆的造型也有仪式感。配饭或夹饼都香，价格中等。想在馆子里点一道有绍兴腔的肉菜，选它。",
+  "highlights": [
+    "粽叶扎捆焖煮的五花肉",
+    "酱色浓亮，肥而不腻",
+    "绍兴腔硬菜，配饭夹饼"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.86098,
+      "lat": 30.00413,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "绍兴市越城区土菜馆",
+    "district": "上虞区",
+    "transportTip": "市区及景区周边"
+  },
+  "practical": {
+    "openHours": "约11:00-14:00 / 17:00-21:00（以门店为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约35元，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/ShaoxingXianheng.jpg/1280px-ShaoxingXianheng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/ShaoxingXianheng.jpg/1280px-ShaoxingXianheng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "ShaoxingXianheng.jpg",
+      "query": "Chinese restaurant interior shaoxing",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Jiong Sheng",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:ShaoxingXianheng.jpg",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "扎肉",
+    "焖肉",
+    "酱色"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·扎肉",
+      "url": "https://baike.baidu.com/item/%E6%89%8E%E8%82%89",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "绍式扎肉"
+  },
+  "_geocodeTitle": "张岙土菜馆",
+  "_geocodeSuspect": false,
+  "district": "330604"
+}

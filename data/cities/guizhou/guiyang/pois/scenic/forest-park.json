@@ -1,0 +1,118 @@
+{
+  "id": "forest-park",
+  "name": "贵阳市森林公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "南明区园林路上的一片林地，本地人爬山的地方，山顶能看城。",
+  "description": "森林公园在南明区园林路，是市区南边一片林地。它不收门票，是本地人爬山的地方 —— 早上五六点就有人往上走，提着水桶去接山泉。路是石阶，两边树密，夏天凉。到顶能看见城南那一片。它没什么景点，就是一片林子与一条上山的路。想看贵阳人早上怎么过的，来这儿比去公园有用。",
+  "highlights": [
+    "不收门票，是本地人爬山的地方，早上五六点就有人",
+    "有人提着水桶去接山泉",
+    "没什么景点，就是一片林子与一条上山的路"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.75281,
+      "lat": 26.547991,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "贵州省贵阳市南明区园林路90号",
+    "district": "南明区",
+    "transportTip": "市区公交或打车到园林路",
+    "entrance": {
+      "lng": 106.745015,
+      "lat": 26.558008,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放（建议白天）",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "elders",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/2020-11-16_MRT_Wenxin_Forest_Park_Station_03.jpg/1280px-2020-11-16_MRT_Wenxin_Forest_Park_Station_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/2020-11-16_MRT_Wenxin_Forest_Park_Station_03.jpg/1280px-2020-11-16_MRT_Wenxin_Forest_Park_Station_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "2020-11-16 MRT Wenxin Forest Park Station 03.jpg",
+      "query": "贵阳市森林公园 贵阳",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Cheng-en Cheng",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2020-11-16_MRT_Wenxin_Forest_Park_Station_03.jpg",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Exit_1_of_Forest_Park_Station_in_Changzhou.jpg/1280px-Exit_1_of_Forest_Park_Station_in_Changzhou.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Exit_1_of_Forest_Park_Station_in_Changzhou.jpg/1280px-Exit_1_of_Forest_Park_Station_in_Changzhou.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Exit 1 of Forest Park Station in Changzhou.jpg",
+      "query": "贵阳市森林公园 贵阳",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Kmchang28",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Exit_1_of_Forest_Park_Station_in_Changzhou.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Exit_A_of_South_Gate_of_Forest_Park_Station%2C_BJS_Line_8_-_2.jpg/1280px-Exit_A_of_South_Gate_of_Forest_Park_Station%2C_BJS_Line_8_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Exit_A_of_South_Gate_of_Forest_Park_Station%2C_BJS_Line_8_-_2.jpg/1280px-Exit_A_of_South_Gate_of_Forest_Park_Station%2C_BJS_Line_8_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 723,
+      "alt": "Exit A of South Gate of Forest Park Station, BJS Line 8 - 2.jpg",
+      "query": "贵阳市森林公园 贵阳",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Siyuwj",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Exit_A_of_South_Gate_of_Forest_Park_Station,_BJS_Line_8_-_2.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "森林公园",
+    "爬山",
+    "免费"
+  ],
+  "popularity": 38,
+  "sources": [
+    {
+      "title": "百度百科·贵阳森林公园",
+      "url": "https://baike.baidu.com/item/%E8%B4%B5%E9%98%B3%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "贵阳市森林公园"
+  },
+  "_geocodeTitle": "贵阳市森林公园",
+  "_geocodeSuspect": false,
+  "district": "520102"
+}

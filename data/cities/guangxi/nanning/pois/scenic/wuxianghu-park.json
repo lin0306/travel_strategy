@@ -1,0 +1,88 @@
+{
+  "id": "wuxianghu-park",
+  "name": "五象湖公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "五象新区的大湖，是看新南宁的窗口。",
+  "description": "五象湖公园在良庆区五象新区，是南宁向南拓展后新建的大湖，环湖是步道、湿地和一批新建筑。它和广西规划馆、体育中心离得近，是看「新南宁」的窗口。湖面大、设施新、人比老城公园少。免费、开阔，适合住在五象或顺路。",
+  "highlights": [
+    "五象新区新建大湖，看新南宁",
+    "邻规划馆与体育中心",
+    "免费，设施新人少"
+  ],
+  "location": {
+    "point": {
+      "lng": 108.37473,
+      "lat": 22.739921,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "南宁市良庆区玉洞大道五象湖",
+    "district": "良庆区",
+    "transportTip": "地铁3号线至五象湖站步行",
+    "entrance": {
+      "lng": 108.373793,
+      "lat": 22.744431,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/%E5%8D%97%E5%AE%81%E4%BA%94%E8%B1%A1%E6%B9%96%E5%85%AC%E5%9B%AD.jpg/1280px-%E5%8D%97%E5%AE%81%E4%BA%94%E8%B1%A1%E6%B9%96%E5%85%AC%E5%9B%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/%E5%8D%97%E5%AE%81%E4%BA%94%E8%B1%A1%E6%B9%96%E5%85%AC%E5%9B%AD.jpg/1280px-%E5%8D%97%E5%AE%81%E4%BA%94%E8%B1%A1%E6%B9%96%E5%85%AC%E5%9B%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "南宁五象湖公园.jpg",
+      "query": "五象湖公园 南宁",
+      "credit": {
+        "source": "wikimedia",
+        "author": "EditQ",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%AE%81%E4%BA%94%E8%B1%A1%E6%B9%96%E5%85%AC%E5%9B%AD.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湖景",
+    "新城区",
+    "免费"
+  ],
+  "popularity": 58,
+  "sources": [
+    {
+      "title": "百度百科·五象湖",
+      "url": "https://baike.baidu.com/item/%E4%BA%94%E8%B1%A1%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "五象湖公园"
+  },
+  "_geocodeTitle": "五象湖公园",
+  "_geocodeSuspect": false,
+  "district": "450108"
+}

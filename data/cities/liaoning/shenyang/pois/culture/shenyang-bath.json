@@ -1,0 +1,112 @@
+{
+  "id": "shenyang-bath",
+  "name": "沈阳洗浴文化",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "东北洗浴是沈阳的生活仪式，搓澡汗蒸吃喝躺平一条龙。",
+  "description": "洗浴在沈阳是一种生活仪式。搓澡、汗蒸、吃喝、躺平一条龙，能泡大半天。东北人的社交和放松都在这。带上换洗，别带贵重东西。是体验沈阳性格最直接的方式。带点现金，小店有时刷不了。",
+  "highlights": [
+    "东北洗浴生活仪式",
+    "搓澡汗蒸吃喝躺平",
+    "体验沈阳性格最直接"
+  ],
+  "location": {
+    "point": {
+      "lng": 123.564695,
+      "lat": 41.826524,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省沈阳市各洗浴中心",
+    "district": "沈河区",
+    "transportTip": "市区洗浴中心随到"
+  },
+  "practical": {
+    "openHours": "约24小时或09:00-次日02:00",
+    "openHoursRef": 0,
+    "ticket": "约80元起",
+    "ticketRef": 0,
+    "duration": "建议 180-360 分钟",
+    "durationMinutes": [
+      180,
+      360
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "solo",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/24186299/pexels-photo-24186299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/24186299/pexels-photo-24186299.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5184,
+      "height": 3888,
+      "alt": "A traditional Chinese pavilion with a reflection in water at Shenyang, Liaoning, China.",
+      "query": "Shenyang Bath Culture",
+      "credit": {
+        "source": "pexels",
+        "author": "Teysa Tugadi",
+        "sourceUrl": "https://www.pexels.com/photo/dome-of-temple-in-beijing-24186299/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37173337/pexels-photo-37173337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37173337/pexels-photo-37173337.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Stunning skyline of Shenyang reflected in a serene lake, capturing urban symmetry and autumn colors.",
+      "query": "Shenyang Bath Culture",
+      "credit": {
+        "source": "pexels",
+        "author": "YFS Visuals",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-reflection-in-shenyang-s-tranquil-lake-37173337/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/9376391/pexels-photo-9376391.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/9376391/pexels-photo-9376391.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6154,
+      "height": 4103,
+      "alt": "Woman enjoying a relaxing bath while another person reads beside her. Tranquil and intimate moment indoors.",
+      "query": "Shenyang Bath Culture",
+      "credit": {
+        "source": "pexels",
+        "author": "cottonbro studio",
+        "sourceUrl": "https://www.pexels.com/photo/a-woman-in-white-ceramic-bathtub-9376391/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "洗浴",
+    "搓澡",
+    "生活"
+  ],
+  "popularity": 82,
+  "sources": [
+    {
+      "title": "百度百科·东北洗浴",
+      "url": "https://baike.baidu.com/item/%E4%B8%9C%E5%8C%97%E6%B4%97%E6%B5%B4",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Shenyang Bath Culture",
+    "zh": "沈阳洗浴文化"
+  },
+  "district": "210103"
+}

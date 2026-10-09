@@ -1,0 +1,113 @@
+{
+  "id": "maokong-tea-hills",
+  "name": "猫空茶乡",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "文山山上的茶园聚落，包种茶与铁观音的产地。",
+  "description": "猫空在文山区的山上，是本地最老的茶区之一。山坡上一层层的茶园，种的以包种茶与铁观音为主，铁观音是这里最有名的品种，茶汤金黄、喉韵回甘。山上有许多茶艺馆，大多自家种茶自家卖，坐下点一壶茶配茶点，可以从午后坐到夜里看山下的灯火。茶艺馆也供应茶餐，用的是茶叶入菜的做法。山上雾多雨多，气温比市区低。捷运动物园站换乘缆车上山最方便，自驾走山路要小心弯道。",
+  "highlights": [
+    "山坡茶园，主产包种茶与铁观音",
+    "茶艺馆自家种茶自家卖",
+    "可坐看山下灯火"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.591714,
+      "lat": 24.965632,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "台北市文山区猫空一带",
+    "district": "文山区",
+    "transportTip": "捷运动物园站换乘缆车或山路上行"
+  },
+  "practical": {
+    "openHours": "茶艺馆多为11:00-22:00，各店不一",
+    "openHoursRef": 0,
+    "ticket": "一壶茶约新台币200元起，以店家为准",
+    "ticketRef": 0,
+    "duration": "建议 180-300 分钟",
+    "durationMinutes": [
+      180,
+      300
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "elders",
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/2010-02-14_Maokong_Tea_Plantations.jpg/1280px-2010-02-14_Maokong_Tea_Plantations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/2010-02-14_Maokong_Tea_Plantations.jpg/1280px-2010-02-14_Maokong_Tea_Plantations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1440,
+      "alt": "2010-02-14 Maokong Tea Plantations.jpg",
+      "query": "Maokong tea plantations Taipei",
+      "credit": {
+        "source": "wikimedia",
+        "author": "eazytraveler",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2010-02-14_Maokong_Tea_Plantations.jpg",
+        "license": "CC BY 2.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/2010-02-14_stone_lantern_and_tea_plantations_in_Maokong.jpg/1280px-2010-02-14_stone_lantern_and_tea_plantations_in_Maokong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/2010-02-14_stone_lantern_and_tea_plantations_in_Maokong.jpg/1280px-2010-02-14_stone_lantern_and_tea_plantations_in_Maokong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 606,
+      "alt": "2010-02-14 stone lantern and tea plantations in Maokong.jpg",
+      "query": "Maokong tea plantations Taipei",
+      "credit": {
+        "source": "wikimedia",
+        "author": "eazytraveler",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2010-02-14_stone_lantern_and_tea_plantations_in_Maokong.jpg",
+        "license": "CC BY 2.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Maokong%2C_Taipei_-_Maokong5086.jpg/1280px-Maokong%2C_Taipei_-_Maokong5086.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Maokong%2C_Taipei_-_Maokong5086.jpg/1280px-Maokong%2C_Taipei_-_Maokong5086.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Maokong, Taipei - Maokong5086.jpg",
+      "query": "Maokong tea plantations Taipei",
+      "credit": {
+        "source": "wikimedia",
+        "author": "lumoplank",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maokong,_Taipei_-_Maokong5086.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "茶园",
+    "铁观音",
+    "茶艺馆"
+  ],
+  "popularity": 78,
+  "sources": [
+    {
+      "title": "猫空·百度百科",
+      "url": "https://baike.baidu.com/item/%E7%8C%AB%E7%A9%BA",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-03"
+    }
+  ],
+  "updatedAt": "2026-10-03",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Maokong tea plantations Taipei",
+    "zh": "猫空茶乡"
+  },
+  "_geocodeTitle": "猫空缆车站",
+  "district": "711011"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "sunac-land",
+  "name": "哈尔滨融创乐园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "江北的大型主题乐园，室外过山车加室内雪世界，冬天也能玩。",
+  "description": "融创乐园在松北区世茂大道，是一个配套很全的文旅城：外面是主题乐园，有过山车、大摆锤、旋转类这些；旁边是室内雪世界，一年到头都能滑；再边上是商业街与酒店。它的好处是冬天照样开门 —— 室外项目在极寒天会限，但室内那部分不受影响，所以带小孩来哈尔滨遇上极冷天，这里是能安排一整天的去处。夏天室外全线开，夜场也有。园区离冰雪大世界不远，一天两个连着走会赶，分两天舒服些。",
+  "highlights": [
+    "室外主题乐园加室内雪世界，冬天照样开门",
+    "极寒天室外的会限，室内不受影响",
+    "与冰雪大世界离得近，但一天连着走会赶"
+  ],
+  "location": {
+    "point": {
+      "lng": 126.508507,
+      "lat": 45.80377,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "黑龙江省哈尔滨市松北区世茂大道99-1号",
+    "district": "松北区",
+    "transportTip": "地铁二号线至世茂大道站后步行或接驳；市区有多路公交",
+    "entrance": {
+      "lng": 126.506836,
+      "lat": 45.806402,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约10:00-21:00，季节有调整，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "分项收费与套票并行，以官方公告为准",
+    "ticketRef": 0,
+    "duration": "建议 240-420 分钟",
+    "durationMinutes": [
+      240,
+      420
+    ],
+    "priceLevel": "high"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "friends",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/33929899/pexels-photo-33929899.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33929899/pexels-photo-33929899.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5686,
+      "height": 3791,
+      "alt": "Captivating view through a circular opening showcasing traditional Chinese architecture in Moscow.",
+      "query": "Chinese classical garden harbin",
+      "credit": {
+        "source": "pexels",
+        "author": "Hans Anders",
+        "sourceUrl": "https://www.pexels.com/photo/circular-view-of-chinese-architecture-in-moscow-33929899/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/19815758/pexels-photo-19815758.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/19815758/pexels-photo-19815758.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 1984,
+      "height": 2999,
+      "alt": "Snow-covered stairs leading through a scenic winter park in Harbin, China, framed by pine trees.",
+      "query": "Chinese classical garden harbin",
+      "credit": {
+        "source": "pexels",
+        "author": "pressthebutton",
+        "sourceUrl": "https://www.pexels.com/photo/park-in-snow-19815758/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "Tranquil view of a traditional Chinese garden featuring a vibrant red lantern.",
+      "query": "Chinese classical garden harbin",
+      "credit": {
+        "source": "pexels",
+        "author": "Lily  Lili",
+        "sourceUrl": "https://www.pexels.com/photo/serene-chinese-garden-with-red-lantern-31956319/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "主题乐园",
+    "室内雪场",
+    "夜场"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "百度百科·哈尔滨融创乐园",
+      "url": "https://baike.baidu.com/item/%E5%93%88%E5%B0%94%E6%BB%A8%E8%9E%8D%E5%88%9B%E4%B9%90%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "哈尔滨融创乐园"
+  },
+  "_geocodeTitle": "哈尔滨融创乐园",
+  "_geocodeSuspect": false,
+  "district": "230109"
+}

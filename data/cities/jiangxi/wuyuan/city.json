@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "wuyuan",
+  "name": "婺源",
+  "province": "江西",
+  "adcode": "361130",
+  "provinceAdcode": "360000",
+  "tagline": "徽派村落藏在山坳里，三月是油菜花，秋天是晒秋",
+  "intro": "婺源在赣东北的山坳里，行政上归江西上饶，文化与方言却连着安徽。村子的样子也是徽派：白墙、黑瓦、马头墙，祠堂立在村中间，水圳从每家门前过。它有两个季节门面。三月田里的油菜花一路铺到山腰，江岭的梯田一层层全是黄。秋天轮到篁岭：房顶上摊开竹匾，晒着辣椒与玉米，就是那张最有名的晒秋照片。其余的日子它也不空——石城的枫叶、长溪的水。在这儿最好的玩法是包一辆车，在山里一个村一个村地转，不必赶。",
+  "center": {
+    "lng": 117.861532,
+    "lat": 29.248491,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    117.3748,
+    29.0159,
+    118.2094,
+    29.5784
+  ],
+  "defaultZoom": 11,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/20445467/pexels-photo-20445467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/20445467/pexels-photo-20445467.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2579,
+      "height": 1719,
+      "alt": "Expansive landscape with wind turbines in Inner Mongolia, China, promoting renewable energy.",
+      "query": "婺源 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "yating yang",
+        "sourceUrl": "https://www.pexels.com/photo/wind-turbines-in-a-field-20445467/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37049260/pexels-photo-37049260.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37049260/pexels-photo-37049260.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "Peaceful landscape of tea plantations with distant hills and bridge under a cloudy sky.",
+      "query": "婺源 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "高 长华",
+        "sourceUrl": "https://www.pexels.com/photo/serene-morning-view-of-lush-tea-terraces-37049260/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/17943576/pexels-photo-17943576.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/17943576/pexels-photo-17943576.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5464,
+      "height": 3074,
+      "alt": "Stunning aerial view of Hanzhong cityscape with mountains in the background, capturing urban life and natural beauty.",
+      "query": "婺源 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Joy Xu",
+        "sourceUrl": "https://www.pexels.com/photo/aerial-photo-of-a-city-17943576/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "3-4 月（油菜花季，江岭与篁岭最好）与 11 月（石城红枫、篁岭晒秋）；夏季山区凉爽可避暑，冬季湿冷、游客少",
+    "suggestedDays": "3-4 天（东线李坑汪口江湾晓起江岭 1-2 天，北线思溪延村彩虹桥卧龙谷 1 天，篁岭 1 天；再加1天给石城长溪）",
+    "transitTip": "婺源站是高铁站，在县城附近，合肥、福州、杭州方向都有车次。各村分散在山里，最方便的玩法是包车。县城与各主要村子之间有班车，但班次不密。花期路上容易堵。村子之间多山路，晕车的话提前准备。",
+    "climateTip": "亚热带季风气候，湿润多雨。春季多雨，花期常常遇到降水，要带雨具与防水鞋；夏季山区比城市凉，但湿度大；秋季最舒服，昼夜温差明显；冬季湿冷，体感低于实际温度。"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-06"
+  },
+  "updatedAt": "2026-10-06"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "shikumen-open-house",
+  "name": "新天地石库门街区",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "石库门住宅改成的商业街区，保留青砖与门楣。",
+  "description": "新天地做的是里弄区域的改造：外立面青砖、石库门门楣与清水砖墙，内部被为、酒店与商铺。它对「保不保留」这件事的回答是：外壳留住、里面重做，这也是中文世界里最有名的一个样本。周围的街区可以一并走——那一带还留有生活气息。",
+  "highlights": [
+    "青砖门楣保留，内部重写",
+    "城市更新最有名的中文样本",
+    "周边街区生活气息犹存"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.474864,
+      "lat": 31.219036,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "上海市黄浦区马当路",
+    "district": "黄浦",
+    "transportTip": "地铁10号线/13号线新天地站"
+  },
+  "practical": {
+    "openHours": "全天开放(商铺多为10:00-22:00)",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 90-240 分钟",
+    "durationMinutes": [
+      90,
+      240
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/35183631/pexels-photo-35183631.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35183631/pexels-photo-35183631.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Front entrance of a historic building in Shanghai with Chinese signs.",
+      "query": "Chinese historic architecture shanghai",
+      "credit": {
+        "source": "pexels",
+        "author": "Anderson Wei",
+        "sourceUrl": "https://www.pexels.com/photo/historic-building-entrance-in-shanghai-china-35183631/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39041276/pexels-photo-39041276.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39041276/pexels-photo-39041276.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4284,
+      "height": 5712,
+      "alt": "Vintage red brick building facade with Chinese architectural details and signage.",
+      "query": "Chinese historic architecture shanghai",
+      "credit": {
+        "source": "pexels",
+        "author": "Guillaume Kremer",
+        "sourceUrl": "https://www.pexels.com/photo/historical-red-brick-building-in-china-39041276/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31846435/pexels-photo-31846435.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31846435/pexels-photo-31846435.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5045,
+      "height": 3403,
+      "alt": "A historic building in Shanghai with an arched brick facade, typical of traditional Chinese architecture.",
+      "query": "Chinese historic architecture shanghai",
+      "credit": {
+        "source": "pexels",
+        "author": "Ran Hua",
+        "sourceUrl": "https://www.pexels.com/photo/historic-shanghai-building-with-arched-facade-31846435/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "石库门",
+    "商业街",
+    "改造"
+  ],
+  "popularity": 82,
+  "sources": [
+    {
+      "title": "百度百科·上海新天地",
+      "url": "https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E6%96%B0%E5%A4%A9%E5%9C%B0",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "新天地石库门街区"
+  },
+  "_geocodeTitle": "上海新天地石库门街区·新里",
+  "_geocodeSuspect": false,
+  "district": "310101"
+}

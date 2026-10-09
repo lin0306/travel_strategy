@@ -1,0 +1,114 @@
+{
+  "id": "lijiang-baba",
+  "name": "丽江粑粑司令",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "古城五一街上的一家粑粑铺，丽江粑粑是本地的面饼，甜的咸的都有。",
+  "description": "丽江粑粑是本地的一种面饼 ——面和好之后擀成饼，抹油卷起来再擀，下平底锅或烤到两面金黄，出来是一层层的。有甜的（放糖、芝麻、玫瑰）与咸的（放葱、盐、火腿末）两种。它是马帮路上的干粮 ——耐放、顶饿，当年赶马的人带这个出门，所以丽江这一带做得好。这家在古城五一街兴仁中段，是专门做这个的铺子，现做现卖。一个几块，便宜。刚出来的最好，凉了会硬。它不是一顿饭，是走在路上垫一口的东西，或者配一碗酥油茶当早点。",
+  "highlights": [
+    "面饼抹油卷起再擀，下锅两面金黄，出来是一层层",
+    "甜的放糖芝麻玫瑰，咸的放葱盐火腿末",
+    "马帮路上的干粮，耐放顶饿"
+  ],
+  "location": {
+    "point": {
+      "lng": 100.23736,
+      "lat": 26.87262,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "云南省丽江市古城区大研街道五一街兴仁中段74号",
+    "district": "古城区",
+    "transportTip": "古城内步行；四方街往东北约八分钟"
+  },
+  "practical": {
+    "openHours": "约8:00-21:00，以门店公告为准",
+    "openHoursRef": 0,
+    "ticket": "人均便宜",
+    "ticketRef": 0,
+    "duration": "建议 20-40 分钟",
+    "durationMinutes": [
+      20,
+      40
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4240,
+      "height": 2832,
+      "alt": "A bustling street food stall offering traditional dishes to a customer in stylish winter attire.",
+      "query": "Chinese street food dish lijiang",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6440090/pexels-photo-6440090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6440090/pexels-photo-6440090.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4856,
+      "height": 3237,
+      "alt": "Close-up of delicious Chinese street food in a paper bowl held by a hand, featuring seasoned fried potatoes.",
+      "query": "Chinese street food dish lijiang",
+      "credit": {
+        "source": "pexels",
+        "author": "Mackenzie Ryder",
+        "sourceUrl": "https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3032,
+      "height": 3923,
+      "alt": "Browse a bustling Shenzhen food stall with diverse Asian meals and colorful bowls, embodying Chinese culinary culture.",
+      "query": "Chinese street food dish lijiang",
+      "credit": {
+        "source": "pexels",
+        "author": "Jaime Hernandez Erives",
+        "sourceUrl": "https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "粑粑",
+    "面饼",
+    "马帮干粮"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "百度百科·丽江粑粑",
+      "url": "https://baike.baidu.com/item/%E4%B8%BD%E6%B1%9F%E7%B2%91%E7%B2%91",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "丽江粑粑司令"
+  },
+  "_geocodeTitle": "五一街兴仁上段74号",
+  "_geocodeSuspect": false,
+  "coordSystem": "GCJ-02",
+  "district": "530702"
+}

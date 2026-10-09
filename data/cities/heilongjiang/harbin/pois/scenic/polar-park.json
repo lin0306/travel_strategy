@@ -1,0 +1,119 @@
+{
+  "id": "polar-park",
+  "name": "哈尔滨极地公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "江北的极地动物馆，白鲸表演是招牌，企鹅与北极熊也在，夏天冬天都能看。",
+  "description": "极地公园在太阳岛那一片，是一组馆：极地馆、海洋馆、还有一些配套的表演场。招牌是白鲸表演，白鲸与驯养员在水里配合，一场二十分钟上下，一天几场，场次要按当天公告看。企鹅、北极熊、北极狐这些极地动物是分开的展区，企鹅在室内低温馆里，隔着玻璃看。它全年开，所以夏天来哈尔滨也能安排，冬天外面冷、室内暖，反而是热门。带小孩的一天里留三小时比较宽裕；表演提前十五分钟进场能坐到好位置。",
+  "highlights": [
+    "白鲸表演是招牌，一天几场，提前十五分钟进场",
+    "企鹅、北极熊都在室内低温馆",
+    "全年开，冬天是旺季"
+  ],
+  "location": {
+    "point": {
+      "lng": 126.586479,
+      "lat": 45.785251,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "黑龙江省哈尔滨市松北区太阳大道277号",
+    "district": "松北区",
+    "transportTip": "地铁二号线太阳岛站步行约十分钟；或公交至极地公园站",
+    "entrance": {
+      "lng": 126.586383,
+      "lat": 45.785735,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约9:00-17:00，表演场次以当日公告为准",
+    "openHoursRef": 0,
+    "ticket": "通票较高，各馆联票与单项票不同，以官方公告为准",
+    "ticketRef": 0,
+    "duration": "建议 150-300 分钟",
+    "durationMinutes": [
+      150,
+      300
+    ],
+    "priceLevel": "high"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/33929899/pexels-photo-33929899.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33929899/pexels-photo-33929899.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5686,
+      "height": 3791,
+      "alt": "Captivating view through a circular opening showcasing traditional Chinese architecture in Moscow.",
+      "query": "Chinese classical garden harbin",
+      "credit": {
+        "source": "pexels",
+        "author": "Hans Anders",
+        "sourceUrl": "https://www.pexels.com/photo/circular-view-of-chinese-architecture-in-moscow-33929899/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/19815758/pexels-photo-19815758.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/19815758/pexels-photo-19815758.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 1984,
+      "height": 2999,
+      "alt": "Snow-covered stairs leading through a scenic winter park in Harbin, China, framed by pine trees.",
+      "query": "Chinese classical garden harbin",
+      "credit": {
+        "source": "pexels",
+        "author": "pressthebutton",
+        "sourceUrl": "https://www.pexels.com/photo/park-in-snow-19815758/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "Tranquil view of a traditional Chinese garden featuring a vibrant red lantern.",
+      "query": "Chinese classical garden harbin",
+      "credit": {
+        "source": "pexels",
+        "author": "Lily  Lili",
+        "sourceUrl": "https://www.pexels.com/photo/serene-chinese-garden-with-red-lantern-31956319/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "极地动物",
+    "表演",
+    "室内"
+  ],
+  "popularity": 90,
+  "sources": [
+    {
+      "title": "百度百科·哈尔滨极地馆",
+      "url": "https://baike.baidu.com/item/%E5%93%88%E5%B0%94%E6%BB%A8%E6%9E%81%E5%9C%B0%E9%A6%86",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "哈尔滨极地公园"
+  },
+  "_geocodeTitle": "哈尔滨极地公园",
+  "_geocodeSuspect": false,
+  "district": "230109"
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "haikou",
+  "name": "海口",
+  "province": "海南",
+  "adcode": "460100",
+  "provinceAdcode": "460000",
+  "tagline": "椰风、骑楼和一碗清补凉，海南的省会慢生活",
+  "intro": "海口是海南的省会，也是一座靠海而生、带着南洋味道的慢城。老城在骑楼老街，一列列连廊骑楼把近代商埠的样子留了下来，水巷口的小吃从早卖到晚。往西是西海岸和假日海滩，日落时分海面最出彩；往东是东寨港的红树林，退潮时滩涂上全是招潮蟹。吃的离不开海南粉、文昌鸡、清补凉和糟粕醋，椰子鸡是这里的待客菜。安排上，老城一天、西海岸一天、出城看火山口或红树林一天，三天不赶。",
+  "center": {
+    "lng": 110.4231,
+    "lat": 19.852,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    110.1281,
+    19.5236,
+    110.7173,
+    20.0893
+  ],
+  "defaultZoom": 10,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/30119261/pexels-photo-30119261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/30119261/pexels-photo-30119261.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7952,
+      "height": 5304,
+      "alt": "A contemporary bridge stretching over water with a city skyline in the distance.",
+      "query": "海口 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Orange Ocean",
+        "sourceUrl": "https://www.pexels.com/photo/modern-bridge-with-skyline-in-background-30119261/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7399382/pexels-photo-7399382.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7399382/pexels-photo-7399382.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4656,
+      "height": 2620,
+      "alt": "Scenic view of Kaohsiung City skyline with waterfront buildings under a clear sky.",
+      "query": "海口 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "鈴蘭春雪 (linglion)",
+        "sourceUrl": "https://www.pexels.com/photo/city-skyline-view-from-the-sea-7399382/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37547862/pexels-photo-37547862.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37547862/pexels-photo-37547862.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2263,
+      "height": 2766,
+      "alt": "Two people sitting on a bench by the Kowloon waterfront, overlooking moored yachts.",
+      "query": "海口 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Kamus Cheung",
+        "sourceUrl": "https://www.pexels.com/photo/waterfront-view-with-people-relaxing-in-kowloon-37547862/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "11 月-次年 4 月（避开 5-10 月台风与高温高湿的夏季；冬季温暖，是避寒好时候）",
+    "suggestedDays": "3 天（骑楼老街+五公祠+省博 1 天，西海岸+假日海滩+火山口 1 天，东寨港红树林或观澜湖出城 1 天）",
+    "transitTip": "美兰机场离市区约半小时，环岛高铁海口东站、海口站都在市区边缘。老城骑楼一带步行最方便，去西海岸、火山口和东寨港要靠打车或自驾，预留出城时间。市内有观光巴士串起主要滨海景点。",
+    "climateTip": "热带海洋性季风气候。长夏无冬，雨量充沛，5-10 月为台风与暴雨季，11-4 月干爽舒适，是看海和看绿的最佳窗口。"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-04"
+  },
+  "updatedAt": "2026-10-04"
+}

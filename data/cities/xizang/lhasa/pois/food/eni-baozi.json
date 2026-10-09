@@ -1,0 +1,113 @@
+{
+  "id": "eni-baozi",
+  "name": "娥妮牛肉包子店",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "滨河路上的牛肉包子店，皮薄馅大，早上人多，本地人常来。",
+  "description": "娥妮牛肉包子店在滨河路，仙足岛小区那边。做牛肉包子，皮薄，馅是牦牛肉与葱，汁多。一笼八个上下，配清汤或者甜茶。早上人最多，附近上班的与居民都来。店里位子不多，饭点挤。价格便宜。它在河边，离八廓街有一段，要打车过去。",
+  "highlights": [
+    "牛肉包子皮薄馅大，汁多，一笼八个上下",
+    "早上人最多，附近上班的与居民都来",
+    "在河边，离八廓街有一段，要打车"
+  ],
+  "location": {
+    "point": {
+      "lng": 91.124327,
+      "lat": 29.679534,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "西藏自治区拉萨市城关区滨河路",
+    "district": "城关区",
+    "transportTip": "市区打车到滨河路仙足岛"
+  },
+  "practical": {
+    "openHours": "约7:00-20:00",
+    "openHoursRef": 0,
+    "ticket": "便宜",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "elders",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4240,
+      "height": 2832,
+      "alt": "A bustling street food stall offering traditional dishes to a customer in stylish winter attire.",
+      "query": "Chinese street food dish lhasa",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38585908/pexels-photo-38585908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38585908/pexels-photo-38585908.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4672,
+      "height": 6229,
+      "alt": "Hands preparing traditional Chinese street food in a wok at a market in Guiyang, China.",
+      "query": "Chinese street food dish lhasa",
+      "credit": {
+        "source": "pexels",
+        "author": "Leongsan Tung",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-street-food-preparation-38585908/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3032,
+      "height": 3923,
+      "alt": "Browse a bustling Shenzhen food stall with diverse Asian meals and colorful bowls, embodying Chinese culinary culture.",
+      "query": "Chinese street food dish lhasa",
+      "credit": {
+        "source": "pexels",
+        "author": "Jaime Hernandez Erives",
+        "sourceUrl": "https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "包子",
+    "早餐",
+    "本地"
+  ],
+  "popularity": 46,
+  "sources": [
+    {
+      "title": "百度百科·牛肉包子",
+      "url": "https://baike.baidu.com/item/%E7%89%9B%E8%82%89%E5%8C%85%E5%AD%90",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "娥妮牛肉包子店"
+  },
+  "_geocodeTitle": "娥妮牛肉包子店(第二分店)",
+  "_geocodeSuspect": false,
+  "district": "540102"
+}

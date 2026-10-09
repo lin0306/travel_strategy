@@ -1,0 +1,116 @@
+{
+  "id": "xundou-cha",
+  "name": "熏豆茶",
+  "category": "food",
+  "subtype": "cafe",
+  "summary": "桐乡待客的咸茶，熏青豆配芝麻陈皮。",
+  "description": "熏豆茶是桐乡一带特有的待客茶，和平时喝的清茶完全不同——杯里放着熏过的青豆、炒芝麻、橘皮、桂花和少许腌萝卜干，冲上开水，咸香里带点清甜，是「吃」的茶而非「喝」的茶。旧时农忙、待客、办喜事都上这一碗，是水乡人家的人情味。在乌镇和桐乡乡下的茶馆、农家乐能尝到，第一次喝可能不习惯咸味，但配着瓜子点心慢慢啜，很有一番风味。",
+  "highlights": [
+    "待客咸茶",
+    "熏青豆",
+    "芝麻橘皮",
+    "水乡人情"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.487979,
+      "lat": 30.743104,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "嘉兴市桐乡市乌镇、濮院乡村茶馆与农家乐",
+    "district": "桐乡",
+    "transportTip": "乌镇 / 乡间茶馆步行或自驾可达"
+  },
+  "practical": {
+    "openHours": "茶馆日间营业",
+    "openHoursRef": 0,
+    "ticket": "按碗 / 按茶位计",
+    "ticketRef": 0,
+    "duration": "建议 15-35 分钟",
+    "durationMinutes": [
+      15,
+      35
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "family",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/14517408/pexels-photo-14517408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/14517408/pexels-photo-14517408.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4330,
+      "height": 5773,
+      "alt": "Creative wall decor using paper cups in a modern cafe interior.",
+      "query": "cafe interior tongxiang",
+      "credit": {
+        "source": "pexels",
+        "author": "Afitab",
+        "sourceUrl": "https://www.pexels.com/photo/cups-hanging-on-the-wall-14517408/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27706147/pexels-photo-27706147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27706147/pexels-photo-27706147.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2075,
+      "height": 3130,
+      "alt": "Warm and inviting cafe interior showcasing ambient light, rustic decor, and a tranquil atmosphere.",
+      "query": "cafe interior tongxiang",
+      "credit": {
+        "source": "pexels",
+        "author": "Din Aziz",
+        "sourceUrl": "https://www.pexels.com/photo/jar-on-the-table-27706147/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37031586/pexels-photo-37031586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37031586/pexels-photo-37031586.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5712,
+      "height": 4284,
+      "alt": "Traditional Chinese architecture along the canal in Wuzhen, a scenic water town in Zhejiang.",
+      "query": "cafe interior tongxiang",
+      "credit": {
+        "source": "pexels",
+        "author": "Relaxing Journeys",
+        "sourceUrl": "https://www.pexels.com/photo/charming-water-town-architecture-in-wuzhen-china-37031586/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "茶饮",
+    "咸茶",
+    "待客",
+    "民俗"
+  ],
+  "popularity": 75,
+  "sources": [
+    {
+      "title": "百度百科·熏豆茶",
+      "url": "https://baike.baidu.com/item/%E7%86%8F%E8%B1%86%E8%8C%B6",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "熏豆茶"
+  },
+  "_geocodeTitle": "乌镇",
+  "_geocodeSuspect": false,
+  "district": "330483"
+}

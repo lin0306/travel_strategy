@@ -1,0 +1,119 @@
+{
+  "id": "poseidon-sea",
+  "name": "波塞冬海底世界",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "呼兰区的大型海洋主题度假区，室内水世界与海洋馆连在一起，夏天玩水冬天看鱼。",
+  "description": "波塞冬在呼兰区，离市区约三十公里，是一片度假区：室内水世界、海洋馆、酒店连成一体。水世界是恒温的，有造浪池、滑道、漂流河，外面零下二十度里面照样玩水，这是它在冬天的卖点。海洋馆那一边是鱼、水母、海豚与表演，跟市区的极地公园是两种规模 —— 这里场地大、项目多，更像度假而不是看一次。带小孩的通常安排一整天，想住一晚也有配套。位置偏，公交要转，多数人是网约车或自驾过去。",
+  "highlights": [
+    "恒温室内水世界，冬天外面零下二十度里面玩水",
+    "水世界与海洋馆连成一体，项目多",
+    "位置偏，多数人网约车或自驾"
+  ],
+  "location": {
+    "point": {
+      "lng": 126.681823,
+      "lat": 45.883911,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "黑龙江省哈尔滨市呼兰区汇江路153号",
+    "district": "呼兰区",
+    "transportTip": "市区乘公交至呼兰后转车；或网约车、自驾前往",
+    "entrance": {
+      "lng": 126.687254,
+      "lat": 45.879233,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约9:30-17:00，季节有调整，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "分水世界与海洋馆，套票另计，以官方公告为准",
+    "ticketRef": 0,
+    "duration": "建议 150-300 分钟",
+    "durationMinutes": [
+      150,
+      300
+    ],
+    "priceLevel": "high"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "friends",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/33929899/pexels-photo-33929899.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33929899/pexels-photo-33929899.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5686,
+      "height": 3791,
+      "alt": "Captivating view through a circular opening showcasing traditional Chinese architecture in Moscow.",
+      "query": "Chinese classical garden harbin",
+      "credit": {
+        "source": "pexels",
+        "author": "Hans Anders",
+        "sourceUrl": "https://www.pexels.com/photo/circular-view-of-chinese-architecture-in-moscow-33929899/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/19815758/pexels-photo-19815758.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/19815758/pexels-photo-19815758.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 1984,
+      "height": 2999,
+      "alt": "Snow-covered stairs leading through a scenic winter park in Harbin, China, framed by pine trees.",
+      "query": "Chinese classical garden harbin",
+      "credit": {
+        "source": "pexels",
+        "author": "pressthebutton",
+        "sourceUrl": "https://www.pexels.com/photo/park-in-snow-19815758/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "Tranquil view of a traditional Chinese garden featuring a vibrant red lantern.",
+      "query": "Chinese classical garden harbin",
+      "credit": {
+        "source": "pexels",
+        "author": "Lily  Lili",
+        "sourceUrl": "https://www.pexels.com/photo/serene-chinese-garden-with-red-lantern-31956319/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "水世界",
+    "室内",
+    "度假区"
+  ],
+  "popularity": 76,
+  "sources": [
+    {
+      "title": "百度百科·波塞冬旅游度假区",
+      "url": "https://baike.baidu.com/item/%E5%93%88%E5%B0%94%E6%BB%A8%E6%B3%A2%E5%A1%9E%E5%86%AC%E6%B5%B7%E6%B4%8B%E7%8E%8B%E5%9B%BD",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "波塞冬海底世界"
+  },
+  "_geocodeTitle": "波塞冬海底世界",
+  "_geocodeSuspect": false,
+  "district": "230111"
+}

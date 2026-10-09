@@ -1,0 +1,113 @@
+{
+  "id": "taiping-nightmarket",
+  "name": "太平路夜市小吃街",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "云岩区大同街上的一条小吃街，白天也开，本地人吃的多。",
+  "description": "太平路夜市小吃街在云岩区大同街，地铁喷水池站边上。它与青云路那一条是两种：这条白天也开，来的本地人多，游客少。街不长，两边是小店与摊子，卖的是贵阳日常那一套 —— 肠旺面、糯米饭、豆米火锅、烤的东西。价格便宜。中午与晚上人最多。它在老城中间，逛老城顺便就能吃。想看贵阳人平时吃什么，这儿比夜市更准。",
+  "highlights": [
+    "白天也开，来的本地人多游客少",
+    "卖的是贵阳日常那一套，肠旺面糯米饭豆米火锅",
+    "在老城中间，逛老城顺便就能吃"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.711067,
+      "lat": 26.582842,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "贵州省贵阳市云岩区大同街11号",
+    "district": "云岩区",
+    "transportTip": "市区地铁到喷水池站，步行可达"
+  },
+  "practical": {
+    "openHours": "约10:00-22:00",
+    "openHoursRef": 0,
+    "ticket": "便宜",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "friends",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/13294256/pexels-photo-13294256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/13294256/pexels-photo-13294256.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3509,
+      "height": 4221,
+      "alt": "An elderly woman sits by an old stone building on an urban street, reflecting traditional architecture.",
+      "query": "Chinese old town street guiyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Zhengdong Hu",
+        "sourceUrl": "https://www.pexels.com/photo/an-old-lady-sitting-on-a-chair-near-the-concrete-house-13294256/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31417628/pexels-photo-31417628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31417628/pexels-photo-31417628.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6774,
+      "height": 4492,
+      "alt": "Busy street in Guiyang, showcasing urban life and architecture in Guizhou, China.",
+      "query": "Chinese old town street guiyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Johnny Song",
+        "sourceUrl": "https://www.pexels.com/photo/street-view-of-guiyang-city-guizhou-province-31417628/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/29431917/pexels-photo-29431917.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29431917/pexels-photo-29431917.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7952,
+      "height": 5203,
+      "alt": "Harmonious blend of traditional Chinese pavilion and modern skyscraper in cityscape.",
+      "query": "Chinese old town street guiyang",
+      "credit": {
+        "source": "pexels",
+        "author": "雨 幽",
+        "sourceUrl": "https://www.pexels.com/photo/ancient-pavilion-and-modern-skyscraper-contrast-29431917/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "小吃街",
+    "本地",
+    "老城"
+  ],
+  "popularity": 52,
+  "sources": [
+    {
+      "title": "百度百科·太平路",
+      "url": "https://baike.baidu.com/item/%E8%B4%B5%E9%98%B3%E5%A4%AA%E5%B9%B3%E8%B7%AF",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "太平路夜市小吃街"
+  },
+  "_geocodeTitle": "太平路夜市小吃街",
+  "_geocodeSuspect": false,
+  "district": "520103"
+}

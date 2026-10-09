@@ -1,0 +1,113 @@
+{
+  "id": "qinghai-yogurt",
+  "name": "青海老酸奶",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "碗里结着黄奶皮的厚酸奶，酸得纯粹，撒白糖吃是西宁的日常甜点。",
+  "description": "青海老酸奶和市面上稀溜溜的不一样，是碗装的厚酸奶，表面结着一层淡黄奶皮。它用传统发酵，酸得纯粹、浓得能立勺，本地人撒一勺白糖吃，解腻又降火。吃完手抓羊肉来一碗，是标配。街头小摊和餐馆都卖，有的还加青稞或果干。冷链好了之后也能带走，但现吃最香。几块钱一碗，谁都吃得起。",
+  "highlights": [
+    "碗装厚酸奶结淡黄奶皮",
+    "撒白糖吃解腻降火",
+    "配手抓羊肉是标配现吃最香"
+  ],
+  "location": {
+    "point": {
+      "lng": 101.762623,
+      "lat": 36.618932,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "青海省西宁市城东区东关大街老酸奶摊",
+    "district": "城中区",
+    "transportTip": "市区步行或乘公交到东关大街、莫家街"
+  },
+  "practical": {
+    "openHours": "约08:00-21:00",
+    "openHoursRef": 0,
+    "ticket": "约5-15元（以摊点为准）",
+    "ticketRef": 0,
+    "duration": "建议 20-40 分钟",
+    "durationMinutes": [
+      20,
+      40
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "couple",
+    "solo",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4240,
+      "height": 2832,
+      "alt": "A bustling street food stall offering traditional dishes to a customer in stylish winter attire.",
+      "query": "Chinese street food dish xining",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3032,
+      "height": 3923,
+      "alt": "Browse a bustling Shenzhen food stall with diverse Asian meals and colorful bowls, embodying Chinese culinary culture.",
+      "query": "Chinese street food dish xining",
+      "credit": {
+        "source": "pexels",
+        "author": "Jaime Hernandez Erives",
+        "sourceUrl": "https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6440090/pexels-photo-6440090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6440090/pexels-photo-6440090.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4856,
+      "height": 3237,
+      "alt": "Close-up of delicious Chinese street food in a paper bowl held by a hand, featuring seasoned fried potatoes.",
+      "query": "Chinese street food dish xining",
+      "credit": {
+        "source": "pexels",
+        "author": "Mackenzie Ryder",
+        "sourceUrl": "https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "酸奶",
+    "奶制品",
+    "甜点"
+  ],
+  "popularity": 90,
+  "sources": [
+    {
+      "title": "青海老酸奶·百度百科",
+      "url": "https://baike.baidu.com/item/%E9%9D%92%E6%B5%B7%E8%80%81%E9%85%B8%E5%A5%B6",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "青海老酸奶"
+  },
+  "_geocodeTitle": "青海老滋味酸奶(申宝商住楼店)",
+  "_geocodeSuspect": false,
+  "district": "630103"
+}

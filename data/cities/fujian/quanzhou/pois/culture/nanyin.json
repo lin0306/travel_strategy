@@ -1,0 +1,112 @@
+{
+  "id": "nanyin",
+  "name": "南音",
+  "category": "culture",
+  "subtype": "performance",
+  "summary": "泉州南音，用闽南古语唱的千年古乐，世界非遗。",
+  "description": "南音是泉州一种用闽南古语唱的古乐，乐器有琵琶、洞箫、二弦、拍板。唱腔慢，音古朴，被称为中国音乐的活化石。是世界非遗。一些馆子和茶馆晚上有表演。坐下来听一会儿。几个看点：闽南古语唱的千年古乐；琵琶洞箫二弦拍板，音古朴；世界非遗，晚上有表演。",
+  "highlights": [
+    "闽南古语唱的千年古乐",
+    "琵琶洞箫二弦拍板，音古朴",
+    "世界非遗，晚上有表演"
+  ],
+  "location": {
+    "point": {
+      "lng": 118.580383,
+      "lat": 24.909515,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "福建省泉州市鲤城区南音艺苑",
+    "district": "鲤城区",
+    "transportTip": "老城茶馆与艺苑，需留意排期"
+  },
+  "practical": {
+    "openHours": "晚间演出（非每日）",
+    "openHoursRef": 0,
+    "ticket": "免费或低价",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "solo",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/36422762/pexels-photo-36422762.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36422762/pexels-photo-36422762.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2666,
+      "height": 3999,
+      "alt": "Close-up of a Chinese opera performer wearing ornate traditional costume and makeup.",
+      "query": "Chinese opera performance quanzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Alexandra  Lavizzari",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-opera-performer-in-costume-36422762/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/14010690/pexels-photo-14010690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/14010690/pexels-photo-14010690.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7952,
+      "height": 5304,
+      "alt": "A performer preparing backstage in traditional Chinese opera costume and makeup.",
+      "query": "Chinese opera performance quanzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Quang Nguyen Vinh",
+        "sourceUrl": "https://www.pexels.com/photo/performers-preparing-backstage-14010690/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/11413712/pexels-photo-11413712.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/11413712/pexels-photo-11413712.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3840,
+      "height": 5760,
+      "alt": "A Beijing opera performer in traditional costume poses indoors.",
+      "query": "Chinese opera performance quanzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "李奇",
+        "sourceUrl": "https://www.pexels.com/photo/woman-in-blue-beijing-opera-costume-11413712/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "古乐",
+    "非遗",
+    "南音"
+  ],
+  "popularity": 50,
+  "sources": [
+    {
+      "title": "百度百科·南音",
+      "url": "https://baike.baidu.com/item/%E5%8D%97%E9%9F%B3",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "南音"
+  },
+  "_geocodeTitle": "泉州南音艺苑",
+  "_geocodeSuspect": false,
+  "district": "350502"
+}

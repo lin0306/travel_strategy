@@ -1,0 +1,84 @@
+{
+  "id": "qinghai-science",
+  "name": "青海省科技馆",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "城西的互动科普馆，动手展项和穹幕电影，带娃放电长知识两不误。",
+  "description": "青海省科技馆在城西区，是一座互动型的科普馆。展项偏动手，声光、力学、航天都能自己试，小孩很难喊无聊。穹幕影院是加分项，躺着看星空很过瘾。雨天或高原太阳太毒的时候，来这儿待半天最稳。免费，但热门展项和电影要预约或领票。周末家庭多，早到省排队。",
+  "highlights": [
+    "城西互动科普馆动手展项多",
+    "穹幕影院躺着看星空",
+    "免费雨天高原暴晒时最稳"
+  ],
+  "location": {
+    "point": {
+      "lng": 101.713739,
+      "lat": 36.646836,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "青海省西宁市城西区五四西路青海省科技馆",
+    "district": "城北区",
+    "transportTip": "市区乘公交或打车到五四西路"
+  },
+  "practical": {
+    "openHours": "约09:00-17:00，周一闭馆，以馆方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费（电影或需另约，以官方为准）",
+    "ticketRef": 0,
+    "duration": "建议 120-180 分钟",
+    "durationMinutes": [
+      120,
+      180
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "friends",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/%E9%9D%92%E6%B5%B7%E7%A7%91%E6%8A%80%E9%A6%86_qing_hai_ke_ji_guan_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/%E9%9D%92%E6%B5%B7%E7%A7%91%E6%8A%80%E9%A6%86_qing_hai_ke_ji_guan_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 810,
+      "alt": "青海科技馆 qing hai ke ji guan - panoramio.jpg",
+      "query": "青海省科技馆 西宁",
+      "credit": {
+        "source": "wikimedia",
+        "author": "wanghongliu",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%9D%92%E6%B5%B7%E7%A7%91%E6%8A%80%E9%A6%86_qing_hai_ke_ji_guan_-_panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "科技馆",
+    "亲子",
+    "免费"
+  ],
+  "popularity": 54,
+  "sources": [
+    {
+      "title": "青海省科技馆·百度百科",
+      "url": "https://baike.baidu.com/item/%E9%9D%92%E6%B5%B7%E7%9C%81%E7%A7%91%E6%8A%80%E9%A6%86",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "青海省科技馆"
+  },
+  "_geocodeTitle": "青海省科学技术馆",
+  "_geocodeSuspect": false,
+  "district": "630105"
+}

@@ -1,0 +1,88 @@
+{
+  "id": "cuihua-mountain",
+  "name": "翠华山（终南山）",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "终南山中的山崩地貌奇观，天池与冰洞风洞是招牌。",
+  "description": "翠华山在长安区南部的终南山中，以山崩地貌著称：远古地震使山体崩塌，巨石堆叠成洞，又堵塞河道形成堰塞湖，也就是现在的“天池”。景区里的冰洞与风洞是崩石缝隙形成的特殊小环境，盛夏进洞仍然寒气逼人。登到山顶可以俯瞰天池与群山，是西安人周末进山的主要去处之一。山路弯多，自驾要慢一些。",
+  "highlights": [
+    "山崩地貌，天池是堰塞湖",
+    "冰洞风洞盛夏仍寒",
+    "周末进山的经典线路"
+  ],
+  "location": {
+    "point": {
+      "lng": 109.006173,
+      "lat": 34.007192,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "西安市长安区太乙宫镇",
+    "district": "长安区",
+    "transportTip": "市区自驾约 1 小时；或乘公交至太乙宫再转",
+    "entrance": {
+      "lng": 109.009897,
+      "lat": 33.997244,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约 08:00-17:30（以官方公告为准）",
+    "openHoursRef": 0,
+    "ticket": "约 65 元起（以官方为准）",
+    "ticketRef": 0,
+    "duration": "建议 240-360 分钟",
+    "durationMinutes": [
+      240,
+      360
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "friends",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/%E7%BF%A0%E5%8D%8E%E5%B1%B1_%283487673551%29.jpg/1280px-%E7%BF%A0%E5%8D%8E%E5%B1%B1_%283487673551%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/%E7%BF%A0%E5%8D%8E%E5%B1%B1_%283487673551%29.jpg/1280px-%E7%BF%A0%E5%8D%8E%E5%B1%B1_%283487673551%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "翠华山 (3487673551).jpg",
+      "query": "翠华山 西安",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Caitriana Nicholson",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%BF%A0%E5%8D%8E%E5%B1%B1_(3487673551).jpg",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "终南山",
+    "山崩地貌",
+    "天池",
+    "登山"
+  ],
+  "popularity": 66,
+  "sources": [
+    {
+      "title": "百度百科·翠华山",
+      "url": "https://baike.baidu.com/item/%E7%BF%A0%E5%8D%8E%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "翠华山（终南山）"
+  },
+  "_geocodeTitle": "翠华山·战魂真人cs俱乐部",
+  "_geocodeSuspect": false,
+  "district": "610116"
+}

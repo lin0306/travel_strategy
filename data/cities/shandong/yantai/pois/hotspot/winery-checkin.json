@@ -1,0 +1,113 @@
+{
+  "id": "winery-checkin",
+  "name": "葡萄酒庄打卡",
+  "category": "hotspot",
+  "subtype": "photo",
+  "summary": "葡萄园与城堡式酒庄的田园照。",
+  "description": "烟台周边分布着多处城堡式酒庄与葡萄园，张裕等品牌的酒庄兼具参观与拍照功能，欧式建筑、藤架与酒桶组成田园画面。部分酒庄免费参观园区、品鉴另计。适合爱酒与爱拍的人，自驾半日。秋季葡萄成熟时最美。",
+  "highlights": [
+    "城堡式酒庄",
+    "葡萄园田园",
+    "秋季最美"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.447755,
+      "lat": 37.464551,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "烟台市周边酒庄",
+    "district": "莱山区",
+    "transportTip": "自驾酒庄游"
+  },
+  "practical": {
+    "openHours": "约09:00-17:00（酒庄）",
+    "openHoursRef": 0,
+    "ticket": "园区多免费（品鉴另计）",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "friends",
+    "solo",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/35635447/pexels-photo-35635447.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35635447/pexels-photo-35635447.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6048,
+      "height": 4024,
+      "alt": "Yantai street view showcasing European-style architecture on a cloudy day.",
+      "query": "China city street view yantai",
+      "credit": {
+        "source": "pexels",
+        "author": "Kenny Foo",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-yantai-s-european-architecture-35635447/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/17563636/pexels-photo-17563636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/17563636/pexels-photo-17563636.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3964,
+      "height": 5946,
+      "alt": "Busy city street leading to the sea, captured at sunset with vibrant skies and city lights.",
+      "query": "China city street view yantai",
+      "credit": {
+        "source": "pexels",
+        "author": "Henley Wang",
+        "sourceUrl": "https://www.pexels.com/photo/street-in-seaside-at-sunset-17563636/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34099292/pexels-photo-34099292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34099292/pexels-photo-34099292.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8192,
+      "height": 5464,
+      "alt": "View of heavy traffic on a major road in a modern Chinese city with high-rise buildings and cloudy skies.",
+      "query": "China city street view yantai",
+      "credit": {
+        "source": "pexels",
+        "author": "Andy Lee",
+        "sourceUrl": "https://www.pexels.com/photo/busy-urban-traffic-in-modern-chinese-city-34099292/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "酒庄",
+    "葡萄园",
+    "城堡"
+  ],
+  "popularity": 66,
+  "sources": [
+    {
+      "title": "百度百科·张裕葡萄酒",
+      "url": "https://baike.baidu.com/item/%E5%BC%A0%E8%A3%95%E8%91%A1%E8%90%84%E9%85%92",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-05"
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "葡萄酒庄打卡"
+  },
+  "_geocodeTitle": "烟台市",
+  "_geocodeSuspect": false,
+  "district": "370613"
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "lijiang",
+  "name": "丽江",
+  "province": "云南",
+  "adcode": "530700",
+  "provinceAdcode": "530000",
+  "tagline": "一座没有城墙的古城，水从家家门前过，抬头是玉龙雪山",
+  "intro": "丽江在云南西北，海拔两千四百米，北边是玉龙雪山，城就铺在雪山脚下的坝子上。老城是一座没有城墙的城 —— 当年木氏土司忌围城成困字，所以不筑墙，只引水：玉河分三股进城，再分成无数条小渠，从家家门前过，街道顺水铺，走丢沿着水就能走回来。住在这里的主要是纳西族，有自己的文字 —— 东巴文，是世界上仍在使用的象形文字之一。吃的是本地那几样：腊排骨火锅、鸡豆凉粉、纳西烤鱼、丽江粑粑。周边往北是玉龙雪山与虎跳峡，往东北翻山是泸沽湖，往西是老君山。安排上，古城一天、雪山一天、束河白沙一天、泸沽湖两天，五天是合适的节奏。",
+  "center": {
+    "lng": 100.2259,
+    "lat": 26.8552,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    99.3834,
+    25.9979,
+    101.5126,
+    27.9242
+  ],
+  "defaultZoom": 9,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/38267418/pexels-photo-38267418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38267418/pexels-photo-38267418.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4080,
+      "height": 2837,
+      "alt": "A breathtaking view of Jade Dragon Snow Mountain in autumn, capturing vibrant fall colors and serene waters in Lijiang, ",
+      "query": "丽江 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "希 凤",
+        "sourceUrl": "https://www.pexels.com/photo/jade-dragon-snow-mountain-scenic-autumn-view-38267418/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/21918297/pexels-photo-21918297.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/21918297/pexels-photo-21918297.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5332,
+      "height": 3476,
+      "alt": "Bird's eye view of a city square in Jiujiang with surrounding traffic and greenery.",
+      "query": "丽江 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/top-view-of-park-and-streets-in-city-21918297/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/8936979/pexels-photo-8936979.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/8936979/pexels-photo-8936979.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5342,
+      "height": 3299,
+      "alt": "Discover the mesmerizing twilight view of Lijiang Ancient Town with traditional rooftops and mountains.",
+      "query": "丽江 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Franklin David",
+        "sourceUrl": "https://www.pexels.com/photo/roofs-of-houses-under-blue-sky-8936979/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "3-5 月与 9-11 月最好，天高气爽、雪山能见度高；6-9 月是雨季，多午后雨、雪山常被云遮；冬天干冷但晴天多，早晚温差大",
+    "suggestedDays": "5 天（古城 1 天 + 玉龙雪山 1 天 + 束河·白沙 1 天 + 泸沽湖 2 天）",
+    "transitTip": "三义国际机场在古城区南边，离古城约三十公里，机场巴士与网约车都方便。★ 丽江站在玉龙县，是铁路上的主要站，从昆明过来动车三个多小时；古城与束河之间靠公交与网约车，古城内只能步行。去玉龙雪山在古城北门或红太阳广场附近有旅游专线，也可以包车；去泸沽湖要先坐车到宁蒗再转，全程四五个小时，山路弯多。古城里石板路湿滑、台阶多，行李箱拖着很费劲，订住宿时先问清楚离路口多远。雨季（6-9 月）山区道路可能塌方限行，去泸沽湖与老君山之前先看路况。",
+    "climateTip": "高原季风气候，海拔两千四百米，紫外线强；干湿分明，六到九月是雨季多午后阵雨，十月到次年五月干季晴多；早晚温差大，冬天白天十几度、夜里可到零下，夏天白天二十几度不热。"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-09-30"
+  },
+  "updatedAt": "2026-09-30"
+}

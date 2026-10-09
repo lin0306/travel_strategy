@@ -1,0 +1,118 @@
+{
+  "id": "bailu",
+  "name": "白鹿温泉",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "平山的温泉度假区，泡汤与戏水。",
+  "description": "白鹿温泉在平山县温塘镇，是石家庄周边知名的温泉度假区，有多种温泉池、戏水区和配套酒店，紧邻西柏坡一带。它和周边红色景区可以组合成两天行程，或单独泡一天。冬天最旺，工作日人少。离市区约两小时。",
+  "highlights": [
+    "平山温塘温泉度假区，多种池子",
+    "与西柏坡一带可组合",
+    "冬天最旺，离城约两小时"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.9814,
+      "lat": 38.250211,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "石家庄市平山县温塘镇白鹿大道",
+    "district": "平山县",
+    "transportTip": "市区自驾约2小时",
+    "entrance": {
+      "lng": 113.982288,
+      "lat": 38.251522,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约10:00-23:00，以园区公告为准",
+    "openHoursRef": 0,
+    "ticket": "约120元起，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 120-180 分钟",
+    "durationMinutes": [
+      120,
+      180
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38865779/pexels-photo-38865779.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38865779/pexels-photo-38865779.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 3024,
+      "alt": "Beautiful sunset view over mountains and buildings in Shijiazhuang, China.",
+      "query": "natural landscape China shijiazhuang",
+      "credit": {
+        "source": "pexels",
+        "author": "冰 白",
+        "sourceUrl": "https://www.pexels.com/photo/sunset-over-shijiazhuang-s-scenic-mountains-38865779/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27292261/pexels-photo-27292261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27292261/pexels-photo-27292261.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "A serene mountain temple amidst lush greenery and towering rocks in Shijiazhuang, Hebei, China.",
+      "query": "natural landscape China shijiazhuang",
+      "credit": {
+        "source": "pexels",
+        "author": "ANI Chen",
+        "sourceUrl": "https://www.pexels.com/photo/cloudy-view-in-the-mountain-27292261/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/15042553/pexels-photo-15042553.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/15042553/pexels-photo-15042553.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Serene wetland landscape during autumn with bare trees and calm waters under a clear sky.",
+      "query": "natural landscape China shijiazhuang",
+      "credit": {
+        "source": "pexels",
+        "author": "Super cute",
+        "sourceUrl": "https://www.pexels.com/photo/trees-in-a-wetland-in-early-spring-15042553/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "温泉",
+    "度假",
+    "放松"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "百度百科·白鹿温泉",
+      "url": "https://baike.baidu.com/item/%E7%99%BD%E9%B9%BF%E6%B8%A9%E6%B3%89",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "白鹿温泉"
+  },
+  "_geocodeTitle": "白鹿温泉-白鹿楼",
+  "_geocodeSuspect": false,
+  "district": "130131"
+}

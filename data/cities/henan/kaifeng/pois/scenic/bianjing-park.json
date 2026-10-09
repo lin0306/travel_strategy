@@ -1,0 +1,119 @@
+{
+  "id": "bianjing-park",
+  "name": "汴京公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "老城东边的综合公园，有动物园和游乐设施，本地亲子地。",
+  "description": "汴京公园在老城东边，是一座综合公园。园里有动物园、湖和游乐设施，是本地亲子常去的地方。门票低，遛娃实惠。相比古迹的厚重，这儿轻松。周末人多，工作日清静。旺季人多，早点出门更从容。",
+  "highlights": [
+    "老城东综合公园",
+    "动物园游乐设施全",
+    "本地亲子实惠地"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.371216,
+      "lat": 34.795197,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河南省开封市顺河回族区汴京大道汴京公园",
+    "district": "顺河回族区",
+    "transportTip": "市区公交或步行到汴京公园",
+    "entrance": {
+      "lng": 114.371326,
+      "lat": 34.793179,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费或低价",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "elders",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/20250615_Bianjing_Park_01.jpg/1280px-20250615_Bianjing_Park_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/20250615_Bianjing_Park_01.jpg/1280px-20250615_Bianjing_Park_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "20250615 Bianjing Park 01.jpg",
+      "query": "汴京公园 开封",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Windmemories",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20250615_Bianjing_Park_01.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/20250615_Bianjing_Park_02.jpg/1280px-20250615_Bianjing_Park_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/20250615_Bianjing_Park_02.jpg/1280px-20250615_Bianjing_Park_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 721,
+      "alt": "20250615 Bianjing Park 02.jpg",
+      "query": "汴京公园 开封",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Windmemories",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20250615_Bianjing_Park_02.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/20250615_Four-Sided_Clocks_in_Kaifeng_01.jpg/1280px-20250615_Four-Sided_Clocks_in_Kaifeng_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/20250615_Four-Sided_Clocks_in_Kaifeng_01.jpg/1280px-20250615_Four-Sided_Clocks_in_Kaifeng_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "20250615 Four-Sided Clocks in Kaifeng 01.jpg",
+      "query": "汴京公园 开封",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Windmemories",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20250615_Four-Sided_Clocks_in_Kaifeng_01.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "公园",
+    "动物园",
+    "亲子"
+  ],
+  "popularity": 50,
+  "sources": [
+    {
+      "title": "百度百科·开封",
+      "url": "https://baike.baidu.com/item/%E5%BC%80%E5%B0%81",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Bianjing Park Kaifeng",
+    "zh": "汴京公园"
+  },
+  "_geocodeTitle": "汴京公园",
+  "_geocodeSuspect": false,
+  "district": "410203"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "zhengyang-street",
+  "name": "正阳步行街",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "市中心的一条步行街，从榕湖这一头一路铺到解放桥，晚上人最多。",
+  "description": "正阳步行街在市中心，从榕湖这一头铺到解放桥。两边是连锁的店与本地铺子，楼上住人，楼下做生意。它谈不上老，但它是本地人晚上出来走的那一条街。中段的地方连着 文化宫那一带的小巷，里面有小吃摊。从这里步行十分钟能到日月双塔。白天没什么人，晚上七点之后才开始热闹。",
+  "highlights": [
+    "从榕湖一路铺到解放桥，晚上七点后才热闹",
+    "谈不上老，是本地人晚上出来走的那条街",
+    "中段连着文化宫那边的小吃巷"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.298007,
+      "lat": 25.275146,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "广西壮族自治区桂林市秀峰区正阳步行街",
+    "district": "秀峰区",
+    "transportTip": "市区步行可达；公交至十字街或解放桥站"
+  },
+  "practical": {
+    "openHours": "全天开放，店铺多为10:00-22:00",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "kids",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/33373237/pexels-photo-33373237.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33373237/pexels-photo-33373237.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 4468,
+      "height": 6714,
+      "alt": "A rainy day in the historic old town of Guilin, Guangxi, China, capturing daily life.",
+      "query": "Chinese old town street guilin",
+      "credit": {
+        "source": "pexels",
+        "author": "Vincent Tan",
+        "sourceUrl": "https://www.pexels.com/photo/street-scene-in-old-town-guilin-china-33373237/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36522479/pexels-photo-36522479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36522479/pexels-photo-36522479.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "A vibrant street market scene in Xingping, China, showcasing traditional architecture and local shops.",
+      "query": "Chinese old town street guilin",
+      "credit": {
+        "source": "pexels",
+        "author": "Willian Justen de Vasconcellos",
+        "sourceUrl": "https://www.pexels.com/photo/bustling-street-market-in-xingping-china-36522479/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7394073/pexels-photo-7394073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7394073/pexels-photo-7394073.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Vibrant urban street in Yangzhou, China, showcasing local architecture and traffic.",
+      "query": "Chinese old town street guilin",
+      "credit": {
+        "source": "pexels",
+        "author": "Lian Rodriguez",
+        "sourceUrl": "https://www.pexels.com/photo/vehicles-on-road-near-buildings-7394073/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "步行街",
+    "市中心",
+    "夜市"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "百度百科·桂林市",
+      "url": "https://baike.baidu.com/item/%E6%A1%82%E6%9E%97%E5%B8%82",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "正阳步行街"
+  },
+  "_geocodeTitle": "正阳步行街",
+  "_geocodeSuspect": false,
+  "district": "450302"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "jiuyuan-baozi",
+  "name": "九园包子",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "百年老字号包子铺，咸甜两味都有，是本地人的早点记忆。",
+  "description": "九园包子创立于上世纪二十年代，是重庆最老的餐饮品牌之一，几经沉浮后重新开张。它的包子分咸甜两路：咸的是酱肉包，甜的是豆沙包，皮子松软、馅料足。老重庆人对它有很强的记忆，很多是小时候跟着长辈来吃的。现在多开在商圈与好吃街附近，当早餐或路上垫肚子的点心都很合适。",
+  "highlights": [
+    "百年老字号，咸甜两味",
+    "皮软馅足",
+    "本地人的早点记忆"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.54708,
+      "lat": 29.562625,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "重庆市渝中区八一路一带（以门店公告为准）",
+    "district": "渝中",
+    "transportTip": "轨道交通 2 号线临江门站，步行约 6 分钟"
+  },
+  "practical": {
+    "openHours": "约 07:00-20:00（以门店公告为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约 15 元起（以门店为准）",
+    "ticketRef": 0,
+    "duration": "建议 20-40 分钟",
+    "durationMinutes": [
+      20,
+      40
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/27277231/pexels-photo-27277231.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27277231/pexels-photo-27277231.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7008,
+      "height": 4672,
+      "alt": "Authentic Chongqing hot pot preparation with seafood and spices in a steaming pot.",
+      "query": "Chinese street food dish chongqing",
+      "credit": {
+        "source": "pexels",
+        "author": "Zihang Feng",
+        "sourceUrl": "https://www.pexels.com/photo/feast-27277231/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/11826872/pexels-photo-11826872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/11826872/pexels-photo-11826872.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3648,
+      "height": 5472,
+      "alt": "Street vendor in Chongqing, China, preparing traditional dishes in a bustling market setting.",
+      "query": "Chinese street food dish chongqing",
+      "credit": {
+        "source": "pexels",
+        "author": "Zekai Zhu",
+        "sourceUrl": "https://www.pexels.com/photo/a-man-in-a-market-selling-food-11826872/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36034214/pexels-photo-36034214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36034214/pexels-photo-36034214.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3648,
+      "height": 2432,
+      "alt": "A bustling street food stall offering traditional Chinese pancakes in an urban setting.",
+      "query": "Chinese street food dish chongqing",
+      "credit": {
+        "source": "pexels",
+        "author": "mingche lee",
+        "sourceUrl": "https://www.pexels.com/photo/street-food-stall-with-traditional-chinese-pancakes-36034214/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "包子",
+    "老字号",
+    "早餐"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "百度百科·九园包子",
+      "url": "https://baike.baidu.com/item/%E4%B9%9D%E5%9B%AD%E5%8C%85%E5%AD%90",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "九园包子"
+  },
+  "_geocodeTitle": "九园包子(上清寺店)",
+  "_geocodeSuspect": false,
+  "district": "500103"
+}

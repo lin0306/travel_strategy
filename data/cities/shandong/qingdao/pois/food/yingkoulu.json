@@ -1,0 +1,83 @@
+{
+  "id": "yingkoulu",
+  "name": "营口路农贸市场",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "买海鲜交给旁边啤酒屋加工的地方，青岛人夏天的日常就在这条街上。",
+  "description": "营口路市场在市北区台东一带，是青岛最有名的一个海鲜市场，也是这座城一种吃法的中心：在市场里挑好海鲜，拿到周边那些啤酒屋去加工，加工费按份算，再在店里打上几斤散啤，坐下来慢慢吃。市场里卖的是蛤蜊、海蛎子、虾虎、八带、各类鱼，价格随行就市，摊主会按当天到货给你搭。市场周边那几条街排满了啤酒屋，门口摞着装散啤的塑料袋。夏天傍晚这里最热闹，一直闹到夜里。它离台东步行街步行十分钟。",
+  "highlights": [
+    "买好海鲜交给周边啤酒屋加工，加工费按份算",
+    "散装啤酒用塑料袋装，是这座城的样子",
+    "夏天傍晚最热闹，一直闹到夜里"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.355023,
+      "lat": 36.086619,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山东省青岛市市北区台东街道营口路（营口路农贸市场）",
+    "district": "市北区",
+    "transportTip": "地铁2号线台东站，步行约十分钟"
+  },
+  "practical": {
+    "openHours": "约06:00-20:00（啤酒屋营业更晚），以现场为准",
+    "openHoursRef": 0,
+    "ticket": "海鲜与加工费另计，以实际消费为准",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "solo",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Mealworm_dish_in_a_Yunan_Restaurant%2C_Qingdao_China.jpg/1280px-Mealworm_dish_in_a_Yunan_Restaurant%2C_Qingdao_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Mealworm_dish_in_a_Yunan_Restaurant%2C_Qingdao_China.jpg/1280px-Mealworm_dish_in_a_Yunan_Restaurant%2C_Qingdao_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Mealworm dish in a Yunan Restaurant, Qingdao China.jpg",
+      "query": "Chinese street food dish qingdao",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Candorwien",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mealworm_dish_in_a_Yunan_Restaurant,_Qingdao_China.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "海鲜市场",
+    "啤酒屋",
+    "本地"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "百度百科·青岛啤酒",
+      "url": "https://baike.baidu.com/item/%E9%9D%92%E5%B2%9B%E5%95%A4%E9%85%92",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-28"
+    }
+  ],
+  "updatedAt": "2026-09-28",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "营口路农贸市场"
+  },
+  "_geocodeTitle": "营口路农贸市场",
+  "_geocodeSuspect": false,
+  "district": "370203"
+}

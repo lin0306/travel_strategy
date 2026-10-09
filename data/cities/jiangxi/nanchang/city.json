@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "nanchang",
+  "name": "南昌",
+  "province": "江西",
+  "adcode": "360100",
+  "provinceAdcode": "360000",
+  "tagline": "一江两岸分出老城与新城，滕王阁下是英雄城的日常",
+  "intro": "南昌在江西北部、赣江下游，是江西的省会。赣江从城南往北穿城，把这座城分成两岸：东岸是老城，滕王阁、百花洲、八一起义纪念馆、万寿宫街区都挤在这一侧；西岸是红谷滩新城，省博物馆、秋水广场、南昌之星摩天轮沿江排开，夜里灯光一亮，两岸就是两种气象。往城西北去是梅岭，南昌人夏天避暑、周末爬山都往那里走；新建区还有海昏侯国遗址、西山万寿宫和人称江南第一沙漠的厚田沙丘。吃的部分从早上开始：一碗拌粉配一罐煨汤，是南昌人的日常开场，晚上街边的水煮摊才热闹起来，藜蒿炒腊肉是本地最家常的那道菜。市区主线两天能走完，加上梅岭与海昏侯，三到四天更从容。",
+  "center": {
+    "lng": 116.002,
+    "lat": 28.6401,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    115.4387,
+    28.1578,
+    116.5598,
+    29.1181
+  ],
+  "defaultZoom": 10,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/33921375/pexels-photo-33921375.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33921375/pexels-photo-33921375.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 5414,
+      "alt": "Breathtaking view of Nanjing's skyline with lush greenery in the foreground.",
+      "query": "南昌 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-view-of-nanjing-city-china-33921375/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33921377/pexels-photo-33921377.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33921377/pexels-photo-33921377.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3833,
+      "height": 5021,
+      "alt": "View of Nanjing's skyline featuring Zifeng Tower, framed by lush green trees.",
+      "query": "南昌 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/nanjing-skyline-with-zifeng-tower-in-the-distance-33921377/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/35022547/pexels-photo-35022547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35022547/pexels-photo-35022547.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3836,
+      "height": 3836,
+      "alt": "Nanjing's city skyline silhouetted against a warm sunset with Xuanwu Lake and boats in the foreground.",
+      "query": "南昌 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/sunset-over-nanjing-skyline-and-xuanwu-lake-35022547/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "3-5 月与 9-11 月最舒服，江边风大、天色清透；7-8 月闷热多雷阵雨，是出了名的火炉天气；冬天湿冷少雪，1-2 月体感偏低，厚外套要有",
+    "suggestedDays": "3 天。市区滕王阁、八一起义纪念馆、万寿宫街区与江西省博物馆两天，梅岭或汉代海昏侯国遗址一天",
+    "transitTip": "昌北机场在北郊，南昌西站是高铁主站、南昌站在老城东边，地铁 1/2/3/4 号线已成网，过江很方便，老城景点之间走路加地铁比打车快。去梅岭、海昏侯国遗址、厚田沙漠、安义古村公共交通耗时长，建议自驾或包车。",
+    "climateTip": "亚热带季风气候，四季分明。春天多雨潮湿，初夏有梅雨；夏天长且闷热，日照强，午后常有雷阵雨；秋天天高气爽，是一年里最舒服的一段；冬天湿冷，体感比气温更低。"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-04"
+  },
+  "updatedAt": "2026-10-04"
+}

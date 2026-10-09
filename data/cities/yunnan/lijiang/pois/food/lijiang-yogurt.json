@@ -1,0 +1,114 @@
+{
+  "id": "lijiang-yogurt",
+  "name": "本地酸奶与乳扇",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "本地做的酸奶与乳扇，酸奶是牦牛奶做的、偏酸，撒糖或配蜂蜜吃。",
+  "description": "丽江一带养牦牛与奶牛，奶的东西做得多。酸奶是自己发酵的，比市面上那种稀酸得多、也厚，盛在碗里或瓶里，撒白糖或浇蜂蜜才吃得下。乳扇是另一样 ——牛奶加酸水点出来的一片片薄片，晒干之后可以烤、可以炸，烤了抹果酱或玫瑰糖，是大理那一边传过来的。街上小摊与小店都有，几块到十几块，便宜。它是甜口，与咸的那几样（腊排骨、烤鱼）搭配着吃最合适。高原上日照强，奶制品是很实在的补充。想吃正经的就去忠义市场那一带，主街上卖的有些是外面进的。夏天喝冰的最舒服。",
+  "highlights": [
+    "牦牛奶自己发酵的酸奶，比市面上的酸得多也厚",
+    "乳扇是牛奶点出来的薄片，烤了抹果酱或玫瑰糖",
+    "忠义市场那带更正经，主街有些是外面进的"
+  ],
+  "location": {
+    "point": {
+      "lng": 100.224118,
+      "lat": 26.87344,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "云南省丽江市古城区酒年茶馆",
+    "district": "古城区",
+    "transportTip": "古城内步行；忠义市场一带"
+  },
+  "practical": {
+    "openHours": "约8:00-21:00，以摊位为准",
+    "openHoursRef": 0,
+    "ticket": "人均便宜",
+    "ticketRef": 0,
+    "duration": "建议 20-40 分钟",
+    "durationMinutes": [
+      20,
+      40
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4240,
+      "height": 2832,
+      "alt": "A bustling street food stall offering traditional dishes to a customer in stylish winter attire.",
+      "query": "Chinese street food dish lijiang",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6440090/pexels-photo-6440090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6440090/pexels-photo-6440090.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4856,
+      "height": 3237,
+      "alt": "Close-up of delicious Chinese street food in a paper bowl held by a hand, featuring seasoned fried potatoes.",
+      "query": "Chinese street food dish lijiang",
+      "credit": {
+        "source": "pexels",
+        "author": "Mackenzie Ryder",
+        "sourceUrl": "https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3032,
+      "height": 3923,
+      "alt": "Browse a bustling Shenzhen food stall with diverse Asian meals and colorful bowls, embodying Chinese culinary culture.",
+      "query": "Chinese street food dish lijiang",
+      "credit": {
+        "source": "pexels",
+        "author": "Jaime Hernandez Erives",
+        "sourceUrl": "https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "酸奶",
+    "乳扇",
+    "甜口"
+  ],
+  "popularity": 60,
+  "sources": [
+    {
+      "title": "百度百科·乳扇",
+      "url": "https://baike.baidu.com/item/%E4%B9%B3%E6%89%87",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "本地酸奶与乳扇"
+  },
+  "_geocodeTitle": "酒年茶馆",
+  "_geocodeSuspect": false,
+  "coordSystem": "GCJ-02",
+  "district": "530702"
+}

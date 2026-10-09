@@ -1,0 +1,113 @@
+{
+  "id": "diao-lu-bing",
+  "name": "吊炉饼",
+  "category": "food",
+  "subtype": "local",
+  "summary": "沈阳早点，吊炉烤的千层饼，外脆里软，配鸡蛋糕。",
+  "description": "吊炉饼是沈阳的早点。面团甩成薄饼，吊炉烤得外脆里软，一层层。配一碗鸡蛋糕或豆奶，是本地人的早餐。刚出炉最香，街边早摊现做。几块钱管饱。价格随季节浮动，结账以店内为准。",
+  "highlights": [
+    "沈阳吊炉烤千层饼",
+    "外脆里软配鸡蛋糕",
+    "早摊现做管饱"
+  ],
+  "location": {
+    "point": {
+      "lng": 123.467812,
+      "lat": 41.789195,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省沈阳市各吊炉饼早摊",
+    "district": "沈河区",
+    "transportTip": "市区早摊均有"
+  },
+  "practical": {
+    "openHours": "约05:30-10:00",
+    "openHoursRef": 0,
+    "ticket": "约3元/张起",
+    "ticketRef": 0,
+    "duration": "建议 10-20 分钟",
+    "durationMinutes": [
+      10,
+      20
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "elders",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/2752776/pexels-photo-2752776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/2752776/pexels-photo-2752776.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3456,
+      "height": 5184,
+      "alt": "Person enjoying popcorn while watching Stranger Things in a cozy room setup.",
+      "query": "Diaolu Bing",
+      "credit": {
+        "source": "pexels",
+        "author": "David Gomes",
+        "sourceUrl": "https://www.pexels.com/photo/man-eating-popcorn-2752776/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36034214/pexels-photo-36034214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36034214/pexels-photo-36034214.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3648,
+      "height": 2432,
+      "alt": "A bustling street food stall offering traditional Chinese pancakes in an urban setting.",
+      "query": "Diaolu Bing",
+      "credit": {
+        "source": "pexels",
+        "author": "mingche lee",
+        "sourceUrl": "https://www.pexels.com/photo/street-food-stall-with-traditional-chinese-pancakes-36034214/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36131751/pexels-photo-36131751.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36131751/pexels-photo-36131751.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4096,
+      "height": 3072,
+      "alt": "An artistic close-up of fried dumplings being cooked in a large pan outdoors.",
+      "query": "Diaolu Bing",
+      "credit": {
+        "source": "pexels",
+        "author": "VIVO Ken",
+        "sourceUrl": "https://www.pexels.com/photo/close-up-of-fried-dumplings-in-a-pan-36131751/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "吊炉饼",
+    "早点",
+    "千层"
+  ],
+  "popularity": 62,
+  "sources": [
+    {
+      "title": "百度百科·吊炉饼",
+      "url": "https://baike.baidu.com/item/%E5%90%8A%E7%82%89%E9%A5%BC",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Diaolu Bing",
+    "zh": "吊炉饼"
+  },
+  "_geocodeTitle": "吊炉饼",
+  "_geocodeSuspect": false,
+  "district": "210103"
+}

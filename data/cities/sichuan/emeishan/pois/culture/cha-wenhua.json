@@ -1,0 +1,87 @@
+{
+  "id": "cha-wenhua",
+  "name": "峨眉茶文化",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "上山看茶园、看制茶，下山到茶铺坐一整天。",
+  "description": "峨眉山种茶的历史很长，僧人种茶、制茶的传统一直延续到今天，雪芽和竹叶青都出自这套体系。山腰的坡地上有成片的茶园，春茶季能看到采茶人背着竹篓在垄间走。部分茶园开放参观，可以看杀青、揉捻、理条的全过程，也能自己动手炒一锅。山下的茶铺则是另一番：竹椅矮桌，一壶茶坐一下午，老板边泡边聊当年的雨水。买茶别急，先喝三四泡再决定，同一种茶价格能差好几倍。",
+  "highlights": [
+    "茶园参观",
+    "手工制茶",
+    "茶铺长坐"
+  ],
+  "location": {
+    "point": {
+      "lng": 103.46631,
+      "lat": 29.688142,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "峨眉山市茶园与市区茶铺",
+    "district": "峨眉山",
+    "transportTip": "茶园多在半山，需包车或打车；市区茶铺步行可达"
+  },
+  "practical": {
+    "openHours": "茶园春茶季 3-5 月；茶铺 9:00-21:00",
+    "openHoursRef": 0,
+    "ticket": "茶园参观多免费，体验制茶另收费",
+    "ticketRef": 0,
+    "duration": "建议 60-180 分钟",
+    "durationMinutes": [
+      60,
+      180
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "elders",
+    "couple",
+    "solo",
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/%E7%BD%97%E7%9B%AE%E5%8F%A4%E9%95%87.jpg/1280px-%E7%BD%97%E7%9B%AE%E5%8F%A4%E9%95%87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/%E7%BD%97%E7%9B%AE%E5%8F%A4%E9%95%87.jpg/1280px-%E7%BD%97%E7%9B%AE%E5%8F%A4%E9%95%87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "罗目古镇.jpg",
+      "query": "Chinese old town street emeishan",
+      "credit": {
+        "source": "wikimedia",
+        "author": "不秋齋主人",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%BD%97%E7%9B%AE%E5%8F%A4%E9%95%87.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "茶文化",
+    "茶园",
+    "制茶",
+    "体验",
+    "慢生活"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "百度百科·峨眉山茶",
+      "url": "https://baike.baidu.com/item/%E5%B3%A8%E7%9C%89%E5%B1%B1%E8%8C%B6",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "峨眉茶文化"
+  },
+  "_geocodeTitle": "茶园",
+  "_geocodeSuspect": false,
+  "district": "511181"
+}

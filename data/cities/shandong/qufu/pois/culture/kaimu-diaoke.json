@@ -1,0 +1,84 @@
+{
+  "id": "kaimu-diaoke",
+  "name": "楷木雕刻",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "曲阜特有的手工艺，楷木雕成如意与孔子像。",
+  "description": "楷木雕刻是曲阜特有的传统手工艺，用的是孔林里的楷木——传说子贡在孔子墓旁守丧时种下的楷树，木质细密、纹理清晰，适合细雕。传统题材是如意、孔子像、寿杖与文房小件，如意最为典型，雕工讲究线条流畅与纹样对称。老城里有专门的店铺与作坊，可以现场看师傅雕，也能买成品，价格按料与工差别很大，从几十元的小件到上千元的摆件都有。它是曲阜最像样的伴手礼之一，比 generic 的纪念品有地方辨识度。买的时候留意是不是真楷木。",
+  "highlights": [
+    "孔林楷木，传说子贡所植",
+    "如意与孔子像最典型",
+    "可看师傅现场雕"
+  ],
+  "location": {
+    "point": {
+      "lng": 116.990744,
+      "lat": 35.592849,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "济宁市曲阜市明故城内及阙里街店铺",
+    "district": "曲阜",
+    "transportTip": "老城内步行可达"
+  },
+  "practical": {
+    "openHours": "多为 9:00-18:00，各店不一",
+    "openHoursRef": 0,
+    "ticket": "小件约50元起，以店家为准",
+    "ticketRef": 0,
+    "duration": "建议 45-90 分钟",
+    "durationMinutes": [
+      45,
+      90
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "elders",
+    "family",
+    "couple",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/%E6%9B%B2%E9%98%9C%E8%80%81%E5%9F%8E_-_Qufu_Old_Town_-_2015.06_-_panoramio.jpg/1280px-%E6%9B%B2%E9%98%9C%E8%80%81%E5%9F%8E_-_Qufu_Old_Town_-_2015.06_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/%E6%9B%B2%E9%98%9C%E8%80%81%E5%9F%8E_-_Qufu_Old_Town_-_2015.06_-_panoramio.jpg/1280px-%E6%9B%B2%E9%98%9C%E8%80%81%E5%9F%8E_-_Qufu_Old_Town_-_2015.06_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "曲阜老城 - Qufu Old Town - 2015.06 - panoramio.jpg",
+      "query": "Chinese old town street qufu",
+      "credit": {
+        "source": "wikimedia",
+        "author": "rheins",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%9B%B2%E9%98%9C%E8%80%81%E5%9F%8E_-_Qufu_Old_Town_-_2015.06_-_panoramio.jpg",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "楷木雕",
+    "手工艺",
+    "伴手礼"
+  ],
+  "popularity": 82,
+  "sources": [
+    {
+      "title": "百度百科·楷木雕刻",
+      "url": "https://baike.baidu.com/item/%E6%A5%B7%E6%9C%A8%E9%9B%95%E5%88%BB",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-06"
+    }
+  ],
+  "updatedAt": "2026-10-06",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "楷木雕刻"
+  },
+  "_geocodeTitle": "阙里街",
+  "_geocodeSuspect": false,
+  "district": "370881"
+}

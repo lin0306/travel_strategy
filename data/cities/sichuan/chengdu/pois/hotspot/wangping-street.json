@@ -1,0 +1,116 @@
+{
+  "id": "wangping-street",
+  "name": "望平街",
+  "category": "hotspot",
+  "subtype": "photo",
+  "summary": "猛追湾旁的河堤老街，融合市井烟火与新派咖啡",
+  "description": "望平街位于猛追湾与府南河东岸之间，是近几年成都更新最成功的一条街道。它的特点是“新旧混生”：一边是几十年历史的老居民楼与街边小店，另一边是成排的独立咖啡馆、播客空间与买手店，两者共用同一条街的宽度。街尾的河堤市集夜里很热闹，顺着府南河散步可以到合江亭。这里的氛围比太古里温和，物价也更友好，适合半天慢慢逛，是本地年轻人排行程时的常选项。",
+  "highlights": [
+    "猛追湾旁的老街与新店共生的城市更新样本",
+    "街尾河堤市集入夜热闹，紧邻府南河"
+  ],
+  "location": {
+    "point": {
+      "lng": 104.090607,
+      "lat": 30.654879,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "成都市成华区望平街（猛追湾一带）",
+    "district": "锦江区",
+    "transportTip": "地铁 3 号线市二医院站步行约 600 米"
+  },
+  "practical": {
+    "openHours": "全天开放（店铺多为 10:00-22:00）",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "solo",
+    "couple",
+    "friends",
+    "family"
+  ],
+  "accessible": true,
+  "tips": [
+    "傍晚到夜里氛围最好",
+    "可沿府南河一路走到合江亭"
+  ],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/27403195/pexels-photo-27403195.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27403195/pexels-photo-27403195.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4473,
+      "height": 7952,
+      "alt": "A busy pedestrian street in Chengdu with diverse people and modern architecture.",
+      "query": "Wangping Street Chengdu",
+      "credit": {
+        "source": "pexels",
+        "author": "Oli Liao",
+        "sourceUrl": "https://www.pexels.com/photo/chengdu-27403195/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37556166/pexels-photo-37556166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37556166/pexels-photo-37556166.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4415,
+      "height": 6622,
+      "alt": "Busy urban street scene with cars navigating through a tree-lined road amidst tall city buildings.",
+      "query": "Wangping Street Chengdu",
+      "credit": {
+        "source": "pexels",
+        "author": "Leongsan Tung",
+        "sourceUrl": "https://www.pexels.com/photo/urban-street-with-traffic-and-tall-buildings-37556166/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33692911/pexels-photo-33692911.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33692911/pexels-photo-33692911.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 7952,
+      "height": 5304,
+      "alt": "Delicious street food stall with variety of skewers in Chengdu's night market, China.",
+      "query": "Wangping Street Chengdu",
+      "credit": {
+        "source": "pexels",
+        "author": "Vincent Tan",
+        "sourceUrl": "https://www.pexels.com/photo/street-food-stall-at-night-in-chengdu-china-33692911/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "街区更新",
+    "市井咖啡",
+    "府南河"
+  ],
+  "popularity": 84,
+  "sources": [
+    {
+      "title": "今日头条 · 天府之国成都",
+      "url": "https://m.toutiao.com/article/7626380125461905963",
+      "kind": "media",
+      "fetchedAt": "2026-09-18"
+    }
+  ],
+  "updatedAt": "2026-09-18",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Wangping Street Chengdu",
+    "zh": "成都望平街"
+  },
+  "_geocodeTitle": "望平街",
+  "_geocodeSuspect": false,
+  "district": "510104"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "xizhou-baba",
+  "name": "喜洲粑粑",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "喜洲古镇的招牌面食，炭火烤的饼，有甜咸两种。",
+  "description": "喜洲粑粑是喜洲古镇的招牌面食，用炭火吊炉烤的圆饼。分甜咸两种：甜的是红糖玫瑰，咸的是火腿葱花。皮脆、里面软，趁热吃最好。古镇门口一排都是卖的。常和破酥一起说，其实是一家。",
+  "highlights": [
+    "喜洲招牌面食，炭火吊炉烤圆饼",
+    "甜咸两种，红糖玫瑰与火腿葱花",
+    "皮脆里软，趁热吃最好"
+  ],
+  "location": {
+    "point": {
+      "lng": 100.232991,
+      "lat": 25.593742,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "云南省大理白族自治州大理市喜洲镇四方街",
+    "district": "大理市",
+    "transportTip": "喜洲古镇四方街一带"
+  },
+  "practical": {
+    "openHours": "约8:00-19:00",
+    "openHoursRef": 0,
+    "ticket": "便宜（几元一个）",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
+      15,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Xizhou_baba.jpg/1280px-Xizhou_baba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Xizhou_baba.jpg/1280px-Xizhou_baba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Xizhou baba.jpg",
+      "query": "喜洲粑粑",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Mx. Granger",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xizhou_baba.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "面食",
+    "小吃",
+    "喜洲"
+  ],
+  "popularity": 68,
+  "sources": [
+    {
+      "title": "百度百科·喜洲粑粑",
+      "url": "https://baike.baidu.com/item/%E5%96%9C%E6%B4%B2%E7%B2%91%E7%B2%91",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "喜洲粑粑"
+  },
+  "_geocodeTitle": "喜洲粑粑",
+  "_geocodeSuspect": false,
+  "district": "532901"
+}

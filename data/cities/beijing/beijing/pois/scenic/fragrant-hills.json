@@ -1,0 +1,117 @@
+{
+  "id": "fragrant-hills",
+  "name": "香山公园",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "西郊山林,秋天红叶是全年的高潮,香炉峰俯瞰京城。",
+  "description": "香山位于北京西北郊的西山余脉,最高处是海拔五百多的香炉峰(鬼见愁)。秋天黄栌红叶是它最出名的时段,届时人多到需要预约限流;其余季节人少得多,春天山桃与丁香也不错。古迹有碧云寺、双清别墅、见心斋等,分布在山道两侧。爬到山顶约一到两小时,台阶连续但不算陡,是一种「出了城又没走远」的便利感。",
+  "highlights": [
+    "秋季红叶需预约且人极多",
+    "香炉峰可俯瞰城区方向",
+    "春季山花是错峰选项"
+  ],
+  "location": {
+    "point": {
+      "lng": 116.200047,
+      "lat": 39.991438,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "北京市海淀区买卖街40号",
+    "district": "海淀",
+    "transportTip": "地铁西郊线香山站终点",
+    "entrance": {
+      "lng": 116.197629,
+      "lat": 39.991365,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约06:00-18:30(旺季),红叶季另行公告,以官方为准",
+    "openHoursRef": 0,
+    "ticket": "约10元起(旺季),以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 180-360 分钟",
+    "durationMinutes": [
+      180,
+      360
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Fragrant_Hill_Hotel_%2820170825140009%29.jpg/1280px-Fragrant_Hill_Hotel_%2820170825140009%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Fragrant_Hill_Hotel_%2820170825140009%29.jpg/1280px-Fragrant_Hill_Hotel_%2820170825140009%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Fragrant Hill Hotel (20170825140009).jpg",
+      "query": "香山公园 北京",
+      "credit": {
+        "source": "wikimedia",
+        "author": "N509FZ",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fragrant_Hill_Hotel_(20170825140009).jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Fragrant_Hills-pagoda1.JPG/1280px-Fragrant_Hills-pagoda1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Fragrant_Hills-pagoda1.JPG/1280px-Fragrant_Hills-pagoda1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Fragrant Hills-pagoda1.JPG",
+      "query": "香山公园 北京",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Wikimedia Commons 贡献者",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fragrant_Hills-pagoda1.JPG",
+        "license": "CC BY-SA 1.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Fragrant_Hills_2008.JPG/1280px-Fragrant_Hills_2008.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Fragrant_Hills_2008.JPG/1280px-Fragrant_Hills_2008.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1612,
+      "alt": "Fragrant Hills 2008.JPG",
+      "query": "香山公园 北京",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Shizhao",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fragrant_Hills_2008.JPG",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "红叶",
+    "登山",
+    "西郊"
+  ],
+  "popularity": 82,
+  "sources": [
+    {
+      "title": "百度百科·香山公园",
+      "url": "https://baike.baidu.com/item/%E9%A6%99%E5%B1%B1%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "香山公园"
+  },
+  "_geocodeTitle": "香山公园东门停车场",
+  "_geocodeSuspect": false,
+  "district": "110108"
+}

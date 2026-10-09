@@ -1,0 +1,111 @@
+{
+  "id": "waiopo-weidao",
+  "name": "外婆味道(小西门店)",
+  "category": "food",
+  "subtype": "local",
+  "summary": "云南本土的连锁滇菜馆，做的是本地人日常那一桌菜。",
+  "description": "外婆味道是云南本土开起来的连锁滇菜馆，在昆明市区开了不少门店，这家在小西门一带的大观商业城里。菜单是本地人日常吃的那一桌：老奶洋芋、油淋鸡、酸菜鱼、凉拌折耳根、炒时蔬，以及几样当季的菌子，菌子看季节，夏天最多。口味偏滇味，酸辣与咸鲜为主，不太做花活。分量足，价格不高，人均五六十块。店里是快餐式的上菜速度，翻台快，中午与晚上都热闹。它离大观河与篆新农贸市场都不远，逛完这一带过来吃一顿方便。",
+  "highlights": [
+    "云南本土连锁，做的是本地人日常那一桌",
+    "当季菌子看时间，夏天最多",
+    "人均五六十块，上菜快"
+  ],
+  "location": {
+    "point": {
+      "lng": 102.697478,
+      "lat": 25.04303,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "云南省昆明市五华区人民西路大观商业城佳华大厦3楼",
+    "district": "五华区",
+    "transportTip": "地铁3号线至潘家湾站一带，步行约七分钟"
+  },
+  "practical": {
+    "openHours": "约10:30-21:30，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "人均约60元起，以实际消费为准",
+    "ticketRef": 0,
+    "duration": "建议 45-120 分钟",
+    "durationMinutes": [
+      45,
+      120
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/39696900/pexels-photo-39696900.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39696900/pexels-photo-39696900.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3432,
+      "height": 6098,
+      "alt": "Sunlit corridor with a circular geometric archway leading to a curtain backdrop.",
+      "query": "Chinese restaurant interior kunming",
+      "credit": {
+        "source": "pexels",
+        "author": "River He",
+        "sourceUrl": "https://www.pexels.com/photo/beautiful-architectural-corridor-with-modern-design-39696900/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4096,
+      "alt": "Charming Asian dining room with bamboo chairs and traditional teaware.",
+      "query": "Chinese restaurant interior kunming",
+      "credit": {
+        "source": "pexels",
+        "author": "TIANYUN XIA",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33137968/pexels-photo-33137968.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33137968/pexels-photo-33137968.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 6714,
+      "height": 4468,
+      "alt": "Atmospheric shot of people dining in a traditional Asian restaurant with warm lighting.",
+      "query": "Chinese restaurant interior kunming",
+      "credit": {
+        "source": "pexels",
+        "author": "Vincent Tan",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-traditional-asian-restaurant-interior-33137968/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "滇菜",
+    "连锁",
+    "菌子"
+  ],
+  "popularity": 76,
+  "sources": [
+    {
+      "title": "百度百科·滇菜",
+      "url": "https://baike.baidu.com/item/%E6%BB%87%E8%8F%9C",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-28"
+    }
+  ],
+  "updatedAt": "2026-09-28",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "外婆味道(南强街店)"
+  },
+  "district": "530102"
+}

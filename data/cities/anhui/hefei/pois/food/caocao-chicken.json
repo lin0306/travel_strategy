@@ -1,0 +1,112 @@
+{
+  "id": "caocao-chicken",
+  "name": "曹操鸡",
+  "category": "food",
+  "subtype": "local",
+  "summary": "合肥传统名菜，整鸡先炸后加药材慢煨，肉烂脱骨、酱香里带药香。",
+  "description": "曹操鸡是合肥又一道传统名菜，也叫逍遥鸡，名字与三国时曹操在合肥的传说有关。做法是整鸡先炸定型，再放进加了多味中药材的卤汤里慢煨，火候到时鸡皮油亮、肉烂脱骨，用筷子一拨就散。入口先是酱香，后有淡淡药香，不苦不燥，吃完浑身暖。冬天吃最合适，本地老饭店常年有，点半只就够两三人分。老人和孩子都吃得了。",
+  "highlights": [
+    "整鸡先炸后药材慢煨",
+    "肉烂脱骨酱香带药香",
+    "合肥流传的三国名菜"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.337895,
+      "lat": 31.859158,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "安徽省合肥市各老字号饭店与徽菜馆",
+    "district": "瑶海区",
+    "transportTip": "市区各饭店均有，公交或打车可达"
+  },
+  "practical": {
+    "openHours": "约11:00-14:00、17:00-21:00",
+    "openHoursRef": 0,
+    "ticket": "约60元起，以店为准",
+    "ticketRef": 0,
+    "duration": "建议 50-90 分钟",
+    "durationMinutes": [
+      50,
+      90
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "elders",
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/30248442/pexels-photo-30248442.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/30248442/pexels-photo-30248442.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7360,
+      "height": 4912,
+      "alt": "A large flock of chickens pecking on a concrete surface outdoors in a farm setting.",
+      "query": "Caocao Chicken Hefei",
+      "credit": {
+        "source": "pexels",
+        "author": "Thanh Lâm",
+        "sourceUrl": "https://www.pexels.com/photo/flock-of-chickens-in-outdoor-farm-setting-30248442/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31119692/pexels-photo-31119692.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31119692/pexels-photo-31119692.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6720,
+      "height": 4480,
+      "alt": "Two tan free-range chickens on a city pavement with blurred urban background.",
+      "query": "Caocao Chicken Hefei",
+      "credit": {
+        "source": "pexels",
+        "author": "Lon Q",
+        "sourceUrl": "https://www.pexels.com/photo/close-up-of-free-range-chickens-on-pavement-31119692/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/35914099/pexels-photo-35914099.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35914099/pexels-photo-35914099.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2113,
+      "height": 3017,
+      "alt": "Group of white chickens walking on a rural farm path surrounded by greenery.",
+      "query": "Caocao Chicken Hefei",
+      "credit": {
+        "source": "pexels",
+        "author": "Javid Hashimov",
+        "sourceUrl": "https://www.pexels.com/photo/group-of-white-chickens-in-a-farm-setting-35914099/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "传统菜",
+    "鸡",
+    "药膳"
+  ],
+  "popularity": 76,
+  "sources": [
+    {
+      "title": "曹操鸡·百度百科",
+      "url": "https://baike.baidu.com/item/%E6%9B%B9%E6%93%8D%E9%B8%A1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Caocao Chicken Hefei",
+    "zh": "曹操鸡"
+  },
+  "_geocodeTitle": "徽园菜馆",
+  "district": "340102"
+}

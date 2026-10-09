@@ -1,0 +1,112 @@
+{
+  "id": "thangka-academy",
+  "name": "西藏唐卡画院",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "城南妙光大道上的一片画院，画师在里面画唐卡，可以进去看。",
+  "description": "西藏唐卡画院在城南妙光大道，是一片集中的画院。里面一格一格，画师在自己那间画唐卡。唐卡画得慢 —— 一幅要几个月甚至更久，勾线、上色、描金，一步一步。颜料是矿物磨的，所以颜色几十年不变。进去能看画师画，也能买。不收门票。在这儿看一会儿，比在店里看成品更明白。",
+  "highlights": [
+    "一格一格的画院，画师在里面画唐卡",
+    "一幅要几个月甚至更久，颜料是矿物磨的",
+    "进去能看画师画也能买，不收门票"
+  ],
+  "location": {
+    "point": {
+      "lng": 91.134257,
+      "lat": 29.617776,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "西藏自治区拉萨市城关区妙光大道",
+    "district": "城关区",
+    "transportTip": "市区打车往南到妙光大道唐卡艺术园"
+  },
+  "practical": {
+    "openHours": "约10:00-18:00",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "solo",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38374705/pexels-photo-38374705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38374705/pexels-photo-38374705.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "Detailed view of classic Tibetan architecture with colorful decorations in Lhasa, Tibet.",
+      "query": "Chinese old town street lhasa",
+      "credit": {
+        "source": "pexels",
+        "author": "Martin Chan",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-tibetan-architecture-in-lhasa-38374705/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/11827187/pexels-photo-11827187.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/11827187/pexels-photo-11827187.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5472,
+      "height": 3648,
+      "alt": "A Tibetan woman wearing traditional attire captured on the streets of Lhasa, showcasing rich cultural heritage.",
+      "query": "Chinese old town street lhasa",
+      "credit": {
+        "source": "pexels",
+        "author": "Zekai Zhu",
+        "sourceUrl": "https://www.pexels.com/photo/a-woman-in-brown-traditional-dress-11827187/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/13472607/pexels-photo-13472607.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/13472607/pexels-photo-13472607.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4330,
+      "height": 6225,
+      "alt": "Two Buddhist monks walk through a bustling urban street in Lhasa, Tibet, dressed in traditional robes and masks.",
+      "query": "Chinese old town street lhasa",
+      "credit": {
+        "source": "pexels",
+        "author": "ALINA",
+        "sourceUrl": "https://www.pexels.com/photo/buddhist-monks-walking-in-town-13472607/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "唐卡",
+    "画院",
+    "手艺"
+  ],
+  "popularity": 40,
+  "sources": [
+    {
+      "title": "百度百科·唐卡",
+      "url": "https://baike.baidu.com/item/%E5%94%90%E5%8D%A1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "西藏唐卡画院"
+  },
+  "_geocodeTitle": "西藏自治区拉萨市城关区西藏唐卡画院",
+  "_geocodeSuspect": false,
+  "district": "540102"
+}

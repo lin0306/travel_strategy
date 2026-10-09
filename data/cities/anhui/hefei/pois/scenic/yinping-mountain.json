@@ -1,0 +1,118 @@
+{
+  "id": "yinping-mountain",
+  "name": "银屏山",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "巢湖南岸的临湖山，山腰仙人洞嵌在崖壁上，崖顶石缝里的野生牡丹很有名。",
+  "description": "银屏山在巢湖市南岸，临湖而立，山不算高但崖壁陡。山腰的仙人洞嵌在石壁上，洞里凉气往外冒，传说有仙人在此修行。最出名的是崖顶那株野生牡丹，长在石缝里，每年谷雨前后开花，从湖上远远就能望见那一点白。登山道一路有亭子可歇，到山顶能俯瞰巢湖水面和沿岸的圩田。春天来最合适，山下一片新绿，路也不晒。",
+  "highlights": [
+    "山腰仙人洞嵌在崖壁",
+    "崖顶石缝里的野生牡丹",
+    "山顶俯瞰巢湖与圩田"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.796528,
+      "lat": 31.501341,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "安徽省合肥市巢湖市银屏山景区",
+    "district": "巢湖市",
+    "transportTip": "从巢湖市区自驾或打车到银屏山景区",
+    "entrance": {
+      "lng": 117.798295,
+      "lat": 31.503694,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:00-17:00",
+    "openHoursRef": 0,
+    "ticket": "约40元，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 120-210 分钟",
+    "durationMinutes": [
+      120,
+      210
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "elders",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/34290495/pexels-photo-34290495.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34290495/pexels-photo-34290495.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5976,
+      "height": 3867,
+      "alt": "Distinctive traditional East Asian building nestled in a lush, mountainous landscape under a cloudy sky.",
+      "query": "Yinping Mountain Chaohu",
+      "credit": {
+        "source": "pexels",
+        "author": "女子 正真",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-east-asian-architecture-in-mountainous-landscape-34290495/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37737131/pexels-photo-37737131.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37737131/pexels-photo-37737131.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5152,
+      "height": 6864,
+      "alt": "Picturesque mountain landscape with traditional rooftops and verdant forests.",
+      "query": "Yinping Mountain Chaohu",
+      "credit": {
+        "source": "pexels",
+        "author": "BI ravencrow",
+        "sourceUrl": "https://www.pexels.com/photo/serene-mountain-view-with-lush-greenery-37737131/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38880870/pexels-photo-38880870.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38880870/pexels-photo-38880870.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5184,
+      "height": 3456,
+      "alt": "Scenic view of a green mountain with lush vegetation under a bright blue sky with clouds.",
+      "query": "Yinping Mountain Chaohu",
+      "credit": {
+        "source": "pexels",
+        "author": "Yanho Mo",
+        "sourceUrl": "https://www.pexels.com/photo/lush-green-mountain-under-clear-blue-sky-38880870/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "登山",
+    "溶洞",
+    "牡丹"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "银屏山·百度百科",
+      "url": "https://baike.baidu.com/item/%E9%93%B6%E5%B1%8F%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Yinping Mountain Chaohu",
+    "zh": "银屏山"
+  },
+  "_geocodeTitle": "巢湖银屏山景区游客中心",
+  "_geocodeSuspect": false,
+  "district": "340181"
+}

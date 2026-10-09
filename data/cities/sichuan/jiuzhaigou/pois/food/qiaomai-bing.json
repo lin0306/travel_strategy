@@ -1,0 +1,83 @@
+{
+  "id": "qiaomai-bing",
+  "name": "荞麦饼",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "荞麦烤饼，外脆里软。",
+  "description": "荞麦饼是高原上随处可见的粗粮饼，用荞麦面烤出来，高原上荞麦种得多，是糌粑之外的另一种主食。刚出炉的外脆、里面松软，有股炒粮的香，空口吃或者夹肉都行。它顶饱、便宜、好带，赶路时揣两个很实用。县城的早餐摊和小馆子都有，一两块钱一个。配酥油茶是当地人的标配。当干粮比面包靠谱。荞面升糖慢，比白面健康些。",
+  "highlights": [
+    "荞麦烤制",
+    "外脆里软",
+    "便宜顶饱"
+  ],
+  "location": {
+    "point": {
+      "lng": 104.24019,
+      "lat": 33.260901,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "四川省阿坝藏族羌族自治州九寨沟县南坪镇",
+    "district": "九寨沟",
+    "transportTip": "县城早餐摊、小馆及宾馆均可"
+  },
+  "practical": {
+    "openHours": "约 07:00-20:00",
+    "openHoursRef": 0,
+    "ticket": "每个约 2-8 元，以实际为准",
+    "ticketRef": 0,
+    "duration": "建议 20-60 分钟",
+    "durationMinutes": [
+      20,
+      60
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Bo%C3%BBketes-rac.jpeg/1280px-Bo%C3%BBketes-rac.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Bo%C3%BBketes-rac.jpeg/1280px-Bo%C3%BBketes-rac.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 716,
+      "alt": "Boûketes-rac.jpeg",
+      "query": "荞麦饼",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Lucyin",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bo%C3%BBketes-rac.jpeg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "面食",
+    "荞麦",
+    "早餐"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·荞麦",
+      "url": "https://baike.baidu.com/item/%E8%8D%9E%E9%BA%A6",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-06"
+    }
+  ],
+  "updatedAt": "2026-10-06",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "荞麦饼"
+  },
+  "_geocodeTitle": "南坪镇",
+  "_geocodeSuspect": false,
+  "district": "513225"
+}

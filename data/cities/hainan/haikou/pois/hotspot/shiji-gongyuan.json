@@ -1,0 +1,112 @@
+{
+  "id": "shiji-gongyuan",
+  "name": "世纪公园",
+  "category": "hotspot",
+  "subtype": "photo",
+  "summary": "世纪大桥下的滨江公园，看桥与海。",
+  "description": "世纪公园在龙华区世纪大桥下、南渡江入海口旁，是一片滨江绿地，正对世纪大桥，是看桥、看江海交汇的好位置。它与海口湾、万绿园连成一片，适合傍晚散步。免费、开阔，是本地人看桥的偏好点。",
+  "highlights": [
+    "世纪大桥下滨江绿地，正对大桥",
+    "看桥与江海交汇",
+    "邻海口湾万绿园，免费"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.319334,
+      "lat": 20.043465,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "海口市龙华区世纪公园路",
+    "district": "秀英区",
+    "transportTip": "市区乘公交或打车至世纪公园"
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "无门票",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "solo",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/20120144/pexels-photo-20120144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/20120144/pexels-photo-20120144.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4672,
+      "height": 7008,
+      "alt": "City street with skyscrapers and red lanterns, vibrant urban scene.",
+      "query": "China city street view haikou",
+      "credit": {
+        "source": "pexels",
+        "author": "Lin.",
+        "sourceUrl": "https://www.pexels.com/photo/lanterns-over-street-in-city-20120144/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/23626370/pexels-photo-23626370.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/23626370/pexels-photo-23626370.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2433,
+      "height": 3637,
+      "alt": "Urban traffic scene at a busy intersection with taxis and cars in Guangzhou, China.",
+      "query": "China city street view haikou",
+      "credit": {
+        "source": "pexels",
+        "author": "Grace L.",
+        "sourceUrl": "https://www.pexels.com/photo/cars-on-the-red-light-at-the-intersection-23626370/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/28970319/pexels-photo-28970319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/28970319/pexels-photo-28970319.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5506,
+      "height": 4000,
+      "alt": "A distant skyline of Haikou, China viewed from a beach, with one person walking on the sand.",
+      "query": "China city street view haikou",
+      "credit": {
+        "source": "pexels",
+        "author": "zs Lin",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-haikou-city-skyline-from-beach-28970319/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "公园",
+    "大桥",
+    "江海"
+  ],
+  "popularity": 54,
+  "sources": [
+    {
+      "title": "百度百科·世纪大桥",
+      "url": "https://baike.baidu.com/item/%E4%B8%96%E7%BA%AA%E5%A4%A7%E6%A1%A5",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "世纪公园"
+  },
+  "_geocodeTitle": "世纪公园",
+  "_geocodeSuspect": false,
+  "district": "460105"
+}

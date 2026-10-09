@@ -1,0 +1,117 @@
+{
+  "id": "huizhou-guozi",
+  "name": "徽州石头粿",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "平底锅里压着石头烤出来的馅饼，外皮脆，馅是咸菜或豆沙。",
+  "description": "石头粿是徽州的一种老式馅饼，名字来自烤法——平底锅里放上饼，再压一块烧热的扁石头，石头把饼压得又薄又实，两面同时受热，出来是脆的、硬的、香的，不是酥。馅最常见的是咸菜（雪里蕻）加猪油渣，也有豆沙、芝麻糖的甜口，还有笋干馅。饼差不多手掌大，厚度不到一指，咬下去咔嚓一声，油从嘴角出来。它是过去山里人出门、上工带的干粮，耐放、顶饿。现在黟县县城的早点摊和老街的小店还在做，几块钱一个。和蟹壳黄的区别在于：蟹壳黄是发面炉烤的，石头粿是死面压出来的，更扎实。配一碗豆浆或者稀饭就是一顿本地早饭。",
+  "highlights": [
+    "石头压烤",
+    "咸菜猪油渣馅",
+    "外脆里实",
+    "传统干粮"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.942703,
+      "lat": 29.92539,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "黄山市黟县碧阳镇直街早点摊（黟县县城）",
+    "district": "黟县",
+    "transportTip": "黟县县城步行可达"
+  },
+  "practical": {
+    "openHours": "6:30-11:00（多为早市）",
+    "openHoursRef": 0,
+    "ticket": "约 3-8 元/个",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "solo",
+    "elders",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4240,
+      "height": 2832,
+      "alt": "A bustling street food stall offering traditional dishes to a customer in stylish winter attire.",
+      "query": "Chinese street food dish yixian",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3032,
+      "height": 3923,
+      "alt": "Browse a bustling Shenzhen food stall with diverse Asian meals and colorful bowls, embodying Chinese culinary culture.",
+      "query": "Chinese street food dish yixian",
+      "credit": {
+        "source": "pexels",
+        "author": "Jaime Hernandez Erives",
+        "sourceUrl": "https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6440090/pexels-photo-6440090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6440090/pexels-photo-6440090.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4856,
+      "height": 3237,
+      "alt": "Close-up of delicious Chinese street food in a paper bowl held by a hand, featuring seasoned fried potatoes.",
+      "query": "Chinese street food dish yixian",
+      "credit": {
+        "source": "pexels",
+        "author": "Mackenzie Ryder",
+        "sourceUrl": "https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "馅饼",
+    "早点",
+    "街头",
+    "徽州"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "百度百科·徽州粿",
+      "url": "https://baike.baidu.com/item/%E5%BE%BD%E5%B7%9E%E7%B2%BF",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "徽州石头粿"
+  },
+  "_geocodeTitle": "燕子早餐店",
+  "_geocodeSuspect": false,
+  "district": "341023"
+}

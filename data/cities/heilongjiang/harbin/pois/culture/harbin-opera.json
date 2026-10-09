@@ -1,0 +1,113 @@
+{
+  "id": "harbin-opera",
+  "name": "哈尔滨歌剧院",
+  "category": "culture",
+  "subtype": "performance",
+  "summary": "道里区买卖街上的老剧院，哈尔滨交响乐团与歌剧演出的一处场地，票价不高，本地人常来。",
+  "description": "哈尔滨歌剧院在道里区买卖街，是一座开了几十年的老剧院，与群力那座新的音乐厅不同，这里是老城里的老场子：门脸旧，厅也不大，但位置在城里，散场走几步就是中央大街那一带。演的是歌剧、交响乐与一些本土创作的剧目，票价比新的大场馆低一截，本地观众占多数。哈尔滨这座城听音乐会的习惯是真的 —— 不是只有一场两场的事，常年有排期。来这里看一场，是理解这座城音乐之城这个名号最直接的方式。演出多在晚上，两小时上下。场次与票在官方渠道查。老剧院座位舒适度一般，但声音够用。",
+  "highlights": [
+    "老城里的老场子，散场走几步就是中央大街",
+    "票价比新场馆低一截，本地观众占多数",
+    "常年有排期，是这座城听音乐习惯的日常"
+  ],
+  "location": {
+    "point": {
+      "lng": 126.631821,
+      "lat": 45.769583,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "黑龙江省哈尔滨市道里区兆麟街道买卖街67号",
+    "district": "道里区",
+    "transportTip": "地铁二号线尚志大街站步行约十分钟"
+  },
+  "practical": {
+    "openHours": "演出时段以场次为准，多在晚间",
+    "openHoursRef": 0,
+    "ticket": "演出票按场次，以官方渠道为准",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "elders",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/36422762/pexels-photo-36422762.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36422762/pexels-photo-36422762.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2666,
+      "height": 3999,
+      "alt": "Close-up of a Chinese opera performer wearing ornate traditional costume and makeup.",
+      "query": "Chinese opera performance harbin",
+      "credit": {
+        "source": "pexels",
+        "author": "Alexandra  Lavizzari",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-opera-performer-in-costume-36422762/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/11413712/pexels-photo-11413712.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/11413712/pexels-photo-11413712.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3840,
+      "height": 5760,
+      "alt": "A Beijing opera performer in traditional costume poses indoors.",
+      "query": "Chinese opera performance harbin",
+      "credit": {
+        "source": "pexels",
+        "author": "李奇",
+        "sourceUrl": "https://www.pexels.com/photo/woman-in-blue-beijing-opera-costume-11413712/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/1110203/pexels-photo-1110203.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/1110203/pexels-photo-1110203.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2821,
+      "height": 1881,
+      "alt": "A female performer in traditional Chinese opera attire with vibrant makeup during a cultural festival",
+      "query": "Chinese opera performance harbin",
+      "credit": {
+        "source": "pexels",
+        "author": "Jimmy Chan",
+        "sourceUrl": "https://www.pexels.com/photo/woman-in-orange-and-yellow-floral-long-sleeved-dress-1110203/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "歌剧院",
+    "老剧院",
+    "演出"
+  ],
+  "popularity": 66,
+  "sources": [
+    {
+      "title": "百度百科·哈尔滨歌剧院",
+      "url": "https://baike.baidu.com/item/%E5%93%88%E5%B0%94%E6%BB%A8%E6%AD%8C%E5%89%A7%E9%99%A2",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "哈尔滨歌剧院"
+  },
+  "_geocodeTitle": "哈尔滨歌剧院",
+  "_geocodeSuspect": false,
+  "district": "230102"
+}

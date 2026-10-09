@@ -1,0 +1,118 @@
+{
+  "id": "tangtou-hotspring",
+  "name": "汤头温泉",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "浑源县一处老温泉，水热，泡一泡解乏，爬恒山前后合适。",
+  "description": "汤头温泉在浑源县，是一处老温泉。水是热的，含矿物质，古时候就有人泡。现在这儿有几家疗养和住宿的地方，池子室内室外都有。爬完恒山下来泡一泡最解乏。冬天泡着看雪最舒服。它离恒山不远，可以一起安排。",
+  "highlights": [
+    "浑源老温泉，水热含矿物质",
+    "爬完恒山泡最解乏，冬泡看雪",
+    "近恒山，可同日安排"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.941995,
+      "lat": 39.408066,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山西省大同市浑源县汤头温泉",
+    "district": "浑源县",
+    "transportTip": "浑源或恒山方向转车到温泉",
+    "entrance": {
+      "lng": 113.941966,
+      "lat": 39.408038,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:00-22:00，以场所为准",
+    "openHoursRef": 0,
+    "ticket": "约100元，视池区",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38098072/pexels-photo-38098072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38098072/pexels-photo-38098072.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6192,
+      "height": 4128,
+      "alt": "Ancient stone Buddha statues carved into the cliffs at Yungang Grottoes in Datong, China.",
+      "query": "natural landscape China datong",
+      "credit": {
+        "source": "pexels",
+        "author": "临万然 LWR",
+        "sourceUrl": "https://www.pexels.com/photo/majestic-stone-buddha-at-yungang-grottoes-38098072/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6724172/pexels-photo-6724172.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6724172/pexels-photo-6724172.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3456,
+      "height": 5184,
+      "alt": "Ancient Chinese pagoda with intricate architecture under a warm sky in Datong, Shanxi, China.",
+      "query": "natural landscape China datong",
+      "credit": {
+        "source": "pexels",
+        "author": "Lan Yao",
+        "sourceUrl": "https://www.pexels.com/photo/facade-of-a-pagoda-6724172/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37340474/pexels-photo-37340474.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37340474/pexels-photo-37340474.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "Impressive stone Buddha carvings at Yungang Grottoes in China.",
+      "query": "natural landscape China datong",
+      "credit": {
+        "source": "pexels",
+        "author": "Crudop MichaeLP",
+        "sourceUrl": "https://www.pexels.com/photo/magnificent-ancient-buddhist-rock-sculptures-37340474/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "温泉",
+    "疗养",
+    "解乏"
+  ],
+  "popularity": 54,
+  "sources": [
+    {
+      "title": "百度百科·汤头温泉",
+      "url": "https://baike.baidu.com/item/%E6%B1%A4%E5%A4%B4%E6%B8%A9%E6%B3%89",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "汤头温泉"
+  },
+  "_geocodeTitle": "浑源汤头温泉洗浴",
+  "_geocodeSuspect": false,
+  "district": "140225"
+}

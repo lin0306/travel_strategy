@@ -1,0 +1,119 @@
+{
+  "id": "fangte",
+  "name": "沈阳方特欢乐世界",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "大型主题乐园，过山车和特效影院多，适合全家。",
+  "description": "沈阳方特是一座大型主题乐园。过山车、大摆锤和特效影院多，主打刺激和科技感。带小孩的有童话区，各取所需。它在沈北，离市区有段距离。工作日人少，周末排队久，早到。旺季人多，早点出门更从容。",
+  "highlights": [
+    "大型主题乐园刺激科技",
+    "过山车特效影院多",
+    "沈北周末排队久早到"
+  ],
+  "location": {
+    "point": {
+      "lng": 123.418943,
+      "lat": 41.963786,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省沈阳市沈北新区盛京大街55号方特欢乐世界",
+    "district": "沈北新区",
+    "transportTip": "市区乘车到方特",
+    "entrance": {
+      "lng": 123.413542,
+      "lat": 41.964372,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约09:30-17:30，以公告为准",
+    "openHoursRef": 0,
+    "ticket": "约220元（以官方为准）",
+    "ticketRef": 0,
+    "duration": "建议 240-480 分钟",
+    "durationMinutes": [
+      240,
+      480
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "friends",
+    "couple",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/30356098/pexels-photo-30356098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/30356098/pexels-photo-30356098.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5568,
+      "height": 3712,
+      "alt": "Scenic view of Ferris wheel and urban skyline reflecting in a lake in Shenyang, China.",
+      "query": "Fangte Happy World Shenyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Pin Wang",
+        "sourceUrl": "https://www.pexels.com/photo/ferris-wheel-and-reflection-in-shenyang-china-30356098/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36962835/pexels-photo-36962835.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36962835/pexels-photo-36962835.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "A diverse group of visitors in front of a historic Chinese temple, showcasing vibrant traditional architecture.",
+      "query": "Fangte Happy World Shenyang",
+      "credit": {
+        "source": "pexels",
+        "author": "xinyu YAO",
+        "sourceUrl": "https://www.pexels.com/photo/crowd-gathering-at-historic-chinese-temple-36962835/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38336763/pexels-photo-38336763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38336763/pexels-photo-38336763.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5152,
+      "height": 6864,
+      "alt": "Tall modern skyscrapers standing against a clear blue sky, showcasing urban architecture.",
+      "query": "Fangte Happy World Shenyang",
+      "credit": {
+        "source": "pexels",
+        "author": "BI ravencrow",
+        "sourceUrl": "https://www.pexels.com/photo/modern-skyscrapers-against-a-blue-sky-38336763/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "主题乐园",
+    "过山车",
+    "全家"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·沈阳方特",
+      "url": "https://baike.baidu.com/item/%E6%B2%88%E9%98%B3%E6%96%B9%E7%89%B9",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Fangte Happy World Shenyang",
+    "zh": "沈阳方特欢乐世界"
+  },
+  "_geocodeTitle": "沈阳方特欢乐世界",
+  "_geocodeSuspect": false,
+  "district": "210113"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "dong-hu",
+  "name": "平湖东湖",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "平湖城中的湖景公园，李叔同故里。",
+  "description": "东湖在平湖市区，是一处城市湖泊公园，环湖有绿地、步道和楼阁。平湖是李叔同（弘一法师）的故里，湖畔有相关纪念场所，文化气息浓。它免费开放、离城近，适合散步、看湖与城市轮廓，与莫氏庄园可连成半日。",
+  "highlights": [
+    "平湖城中湖景公园",
+    "李叔同故里",
+    "免费散步看湖"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.028297,
+      "lat": 30.668517,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "嘉兴市平湖市东湖",
+    "district": "平湖市",
+    "transportTip": "平湖市区步行或公交"
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "solo",
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37015373/pexels-photo-37015373.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37015373/pexels-photo-37015373.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5712,
+      "height": 4284,
+      "alt": "Serene view of ancient Chinese buildings reflecting in the tranquil waters of a historical town.",
+      "query": "Chinese classical garden jiaxing",
+      "credit": {
+        "source": "pexels",
+        "author": "Relaxing Journeys",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-architecture-by-water-in-south-lake-37015373/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/16569546/pexels-photo-16569546.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/16569546/pexels-photo-16569546.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3370,
+      "height": 2698,
+      "alt": "Captivating scene featuring traditional Chinese architecture reflected on a tranquil waterway in Jiaxing.",
+      "query": "Chinese classical garden jiaxing",
+      "credit": {
+        "source": "pexels",
+        "author": "Vind 🌙",
+        "sourceUrl": "https://www.pexels.com/photo/arched-stone-bridge-in-xitang-water-town-china-16569546/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/35602785/pexels-photo-35602785.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35602785/pexels-photo-35602785.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4138,
+      "height": 2631,
+      "alt": "Serene canal view with traditional architecture in Jiaxing, Zhejiang, China at sunset.",
+      "query": "Chinese classical garden jiaxing",
+      "credit": {
+        "source": "pexels",
+        "author": "Luke Zheng",
+        "sourceUrl": "https://www.pexels.com/photo/tranquil-canal-scene-in-jiaxing-zhejiang-35602785/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "东湖",
+    "公园",
+    "平湖"
+  ],
+  "popularity": 56,
+  "sources": [
+    {
+      "title": "百度百科·平湖",
+      "url": "https://baike.baidu.com/item/%E5%B9%B3%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-05"
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "平湖东湖"
+  },
+  "_geocodeTitle": "平湖市东湖中学(怀橘校区)",
+  "_geocodeSuspect": false,
+  "district": "330482"
+}

@@ -1,0 +1,118 @@
+{
+  "id": "yaolin-wonderland",
+  "name": "瑶琳仙境",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "桐庐的喀斯特溶洞，洞里常年十八度，夏天进洞要带件外套。",
+  "description": "瑶琳仙境是桐庐开发得最早的一处溶洞，四个洞厅连成一线，钟乳石规模大、灯光打得足，最有代表性的几处是银河飞瀑、擎天玉柱和三十三重天。洞里常年十八度左右，外面三十八度的时候进去反而要添衣服。地面湿滑，鞋子要防滑。整个逛下来一个半到两小时。和旁边的垂云通天河、严子陵钓台可以串成桐庐一天。",
+  "highlights": [
+    "洞内常年十八度",
+    "银河飞瀑与擎天玉柱",
+    "地面湿滑需穿防滑鞋"
+  ],
+  "location": {
+    "point": {
+      "lng": 119.538305,
+      "lat": 29.886496,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "杭州市桐庐县瑶琳镇瑶琳南路110号",
+    "district": "桐庐县",
+    "transportTip": "高铁桐庐站打车约30分钟；或自驾走杭新景高速",
+    "entrance": {
+      "lng": 119.536051,
+      "lat": 29.885868,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:30-16:00(15:30前后停止入园)",
+    "openHoursRef": 0,
+    "ticket": "约112元，儿童/学生/长者半价(以官方为准)",
+    "ticketRef": 0,
+    "duration": "建议 120-180 分钟",
+    "durationMinutes": [
+      120,
+      180
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "kids",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/34432366/pexels-photo-34432366.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34432366/pexels-photo-34432366.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6240,
+      "height": 3512,
+      "alt": "Tranquil scene of West Lake with peaceful waters and distant hills in Hangzhou, China.",
+      "query": "natural landscape China hangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "nana liu",
+        "sourceUrl": "https://www.pexels.com/photo/serene-view-of-west-lake-in-hangzhou-china-34432366/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7532194/pexels-photo-7532194.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7532194/pexels-photo-7532194.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4912,
+      "height": 3264,
+      "alt": "Peaceful scene featuring a boat on West Lake with Leifeng Pagoda in Hangzhou, China.",
+      "query": "natural landscape China hangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Leon Huang",
+        "sourceUrl": "https://www.pexels.com/photo/leifeng-pagoda-in-china-7532194/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38075805/pexels-photo-38075805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38075805/pexels-photo-38075805.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8893,
+      "height": 5919,
+      "alt": "Captivating view of West Lake in Hangzhou during dusk, reflecting serene surroundings.",
+      "query": "natural landscape China hangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "CK Seng",
+        "sourceUrl": "https://www.pexels.com/photo/serene-west-lake-at-dusk-in-hangzhou-38075805/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "溶洞",
+    "避暑",
+    "雨天备选"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·瑶琳仙境",
+      "url": "https://baike.baidu.com/item/%E7%91%B6%E7%90%B3%E4%BB%99%E5%A2%83",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-23"
+    }
+  ],
+  "updatedAt": "2026-09-23",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "瑶琳仙境"
+  },
+  "_geocodeTitle": "瑶琳仙境景区",
+  "_geocodeSuspect": false,
+  "district": "330122"
+}

@@ -1,0 +1,116 @@
+{
+  "id": "chuanbei-minju",
+  "name": "川北民俗",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "川东北的日常民俗：茶馆、灯戏、皮影、赶场。",
+  "description": "阆中的民俗是川东北这一片的，不张扬，但一直在日常生活里。茶馆是核心——老茶馆里竹椅盖碗茶，老人从早上坐到下午，摆龙门阵、打牌、听收音机，掏耳朵的师傅在院子里转，这套生活方式本身就是民俗。地方戏有川北灯戏，灯戏是民间小戏，唱的是家长里短，语言土、动作夸张，节庆和庙会时能碰上。皮影、木偶也还在一些场合演。赶场是另一件大事，乡镇按日子轮流赶集，周边的农民来卖菜、卖鸡、卖竹器，热闹得像过节。想看这些，古城的茶馆随时能去，戏和赶场则要碰日子——问客栈老板比查攻略准。",
+  "highlights": [
+    "茶馆是日常核心",
+    "川北灯戏可碰上",
+    "皮影木偶还在演",
+    "乡镇赶场按日子"
+  ],
+  "location": {
+    "point": {
+      "lng": 105.967454,
+      "lat": 31.580119,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "南充市阆中市保宁街道，古城内茶馆及周边乡镇",
+    "district": "阆中",
+    "transportTip": "古城茶馆步行可达；乡镇赶场需包车"
+  },
+  "practical": {
+    "openHours": "茶馆一般 7:00-18:00；演出与赶场视日子",
+    "openHoursRef": 0,
+    "ticket": "茶馆几元茶位；演出多免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "elders",
+    "solo",
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/32700828/pexels-photo-32700828.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32700828/pexels-photo-32700828.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5472,
+      "height": 3648,
+      "alt": "Quaint street in traditional Chinese architecture with red lanterns under a clear blue sky.",
+      "query": "Chinese old town street langzhong",
+      "credit": {
+        "source": "pexels",
+        "author": "mingche lee",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-street-with-red-lanterns-32700828/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/20256134/pexels-photo-20256134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/20256134/pexels-photo-20256134.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "Traditional alley adorned with vibrant red lanterns, capturing the essence of Asian street culture.",
+      "query": "Chinese old town street langzhong",
+      "credit": {
+        "source": "pexels",
+        "author": "Tito Zzzz",
+        "sourceUrl": "https://www.pexels.com/photo/red-lantern-hanging-along-alley-20256134/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/976701/pexels-photo-976701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/976701/pexels-photo-976701.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5184,
+      "height": 3456,
+      "alt": "Close-up of a brick wall with traditional Chinese signs in a city environment.",
+      "query": "Chinese old town street langzhong",
+      "credit": {
+        "source": "pexels",
+        "author": "Pegli Zhu",
+        "sourceUrl": "https://www.pexels.com/photo/brown-wooden-wall-decor-976701/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "民俗",
+    "茶馆",
+    "地方戏",
+    "赶场"
+  ],
+  "popularity": 58,
+  "sources": [
+    {
+      "title": "百度百科·川北民俗",
+      "url": "https://baike.baidu.com/item/%E5%B7%9D%E5%8C%97%E6%B0%91%E4%BF%97",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "川北民俗"
+  },
+  "_geocodeTitle": "老年乐茶馆",
+  "_geocodeSuspect": false,
+  "district": "511381"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "minchi-rice",
+  "name": "免治牛肉饭",
+  "category": "food",
+  "subtype": "local",
+  "summary": "澳门茶餐厅的日常菜：碎牛肉炒土豆粒与洋葱，配米饭盖一只煎蛋。",
+  "description": "免治是澳门茶餐厅里最常见的一件家常饭。名字来自把肉切碎这个动作，做法是把牛肉或猪肉剁碎，与土豆粒、洋葱一起下锅炒，加酱油与一点糖调味，有的会放些葡式香肠碎。装盘时铺在白饭上，顶上盖一只半熟的煎蛋，把蛋黄拌进饭里一起吃是标准吃法。它不贵，出餐快，是本地人平日吃的东西。街边茶餐厅都有，晚餐时段点的人最多。",
+  "highlights": [
+    "碎肉炒土豆粒与洋葱，是日常家常做法",
+    "盖一只半熟煎蛋，拌开一起吃",
+    "价格便宜、出餐快"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.552825,
+      "lat": 22.195328,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "澳门半岛与氹仔的茶餐厅（以实际门店为准）",
+    "district": "澳门半岛",
+    "transportTip": "半岛与氹仔的茶餐厅分布密集"
+  },
+  "practical": {
+    "openHours": "各店不同，午晚市为主",
+    "openHoursRef": 0,
+    "ticket": "一份约澳门元45元起，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/18826628/pexels-photo-18826628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/18826628/pexels-photo-18826628.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3868,
+      "height": 5802,
+      "alt": "A narrow city street in Macau, showcasing urban architecture and residential buildings.",
+      "query": "Macau minchi rice",
+      "credit": {
+        "source": "pexels",
+        "author": "Costa Karabelas",
+        "sourceUrl": "https://www.pexels.com/photo/narrow-street-in-macao-in-china-18826628/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7618315/pexels-photo-7618315.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7618315/pexels-photo-7618315.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5184,
+      "height": 3456,
+      "alt": "A vibrant urban street scene featuring vintage architecture and diverse billboards in grayscale.",
+      "query": "Macau minchi rice",
+      "credit": {
+        "source": "pexels",
+        "author": "sven chen",
+        "sourceUrl": "https://www.pexels.com/photo/grayscale-photo-of-city-buildings-7618315/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38783878/pexels-photo-38783878.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38783878/pexels-photo-38783878.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4284,
+      "height": 5712,
+      "alt": "A view of colonial-style buildings lining a quiet street in historic Macao city.",
+      "query": "Macau minchi rice",
+      "credit": {
+        "source": "pexels",
+        "author": "Guillaume Kremer",
+        "sourceUrl": "https://www.pexels.com/photo/colonial-architecture-in-historic-macao-street-38783878/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "茶餐厅",
+    "家常菜",
+    "平价"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "百度百科·免治",
+      "url": "https://baike.baidu.com/item/%E5%85%8D%E6%B2%BB",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-03"
+    }
+  ],
+  "updatedAt": "2026-10-03",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Macau minchi rice",
+    "zh": "免治牛肉饭"
+  },
+  "_geocodeTitle": "澳门半岛",
+  "district": "820100"
+}

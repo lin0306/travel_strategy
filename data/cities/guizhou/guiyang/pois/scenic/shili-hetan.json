@@ -1,0 +1,119 @@
+{
+  "id": "shili-hetan",
+  "name": "花溪十里河滩",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "花溪河下游的一片湿地，栈道贴着水走，骑车或走路都行。",
+  "description": "十里河滩是花溪河下游那一段，是一片国家城市湿地公园。栈道贴着水铺，一路十来公里，骑车或者走都行。两边是草、水洼、树，鸟多。它不收门票。从花溪公园往下游走就进去了。骑车最合适 —— 走路十公里有点长。本地人周末来骑。夏天与秋天最好，冬天草黄了。",
+  "highlights": [
+    "花溪河下游的湿地，栈道贴水铺十来公里",
+    "不收门票，骑车最合适，走路有点长",
+    "从花溪公园往下游走就进去了"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.677607,
+      "lat": 26.452877,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "贵州省贵阳市花溪区花溪大道南段",
+    "district": "花溪区",
+    "transportTip": "市区地铁或公交到花溪，步行往下游",
+    "entrance": {
+      "lng": 106.673545,
+      "lat": 26.484507,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "kids",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/20499728/pexels-photo-20499728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/20499728/pexels-photo-20499728.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Night view of the illuminated Jiaxiu Tower in Guiyang, China, reflecting on the water.",
+      "query": "Chinese classical garden guiyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Tito Zzzz",
+        "sourceUrl": "https://www.pexels.com/photo/jiaxiu-tower-in-guiyang-at-night-20499728/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/29431917/pexels-photo-29431917.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29431917/pexels-photo-29431917.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7952,
+      "height": 5203,
+      "alt": "Harmonious blend of traditional Chinese pavilion and modern skyscraper in cityscape.",
+      "query": "Chinese classical garden guiyang",
+      "credit": {
+        "source": "pexels",
+        "author": "雨 幽",
+        "sourceUrl": "https://www.pexels.com/photo/ancient-pavilion-and-modern-skyscraper-contrast-29431917/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/16483319/pexels-photo-16483319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/16483319/pexels-photo-16483319.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3264,
+      "height": 2448,
+      "alt": "Scenic view of Jiaxiu Pavilion along the Nanming River in Guiyang, China, surrounded by urban parkland.",
+      "query": "Chinese classical garden guiyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Megan Judge",
+        "sourceUrl": "https://www.pexels.com/photo/view-of-the-jiaxiu-pavilion-in-guiyang-china-16483319/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湿地",
+    "骑行",
+    "免费"
+  ],
+  "popularity": 56,
+  "sources": [
+    {
+      "title": "百度百科·花溪十里河滩",
+      "url": "https://baike.baidu.com/item/%E8%8A%B1%E6%BA%AA%E5%8D%81%E9%87%8C%E6%B2%B3%E6%BB%A9",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "花溪十里河滩"
+  },
+  "_geocodeTitle": "花溪十里河滩国家城市湿地公园",
+  "_geocodeSuspect": false,
+  "district": "520111"
+}

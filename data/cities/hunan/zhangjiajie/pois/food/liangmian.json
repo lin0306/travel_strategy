@@ -1,0 +1,111 @@
+{
+  "id": "liangmian",
+  "name": "张家界凉面",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "本地的凉拌面，麻酱辣油一拌，是夏天方便的饭。",
+  "description": "张家界凉面是凉拌的面。煮好过凉，拌麻酱、辣油、醋、黄瓜丝，咸香带辣。它是夏天方便的一顿，几块钱一碗。街边早餐和夜市都有，赶路的时候来一碗顶事。分量不小，少点几样尝个遍。",
+  "highlights": [
+    "凉拌面拌麻酱辣油",
+    "夏天方便一顿",
+    "街边早餐夜市均有"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.537379,
+      "lat": 29.119662,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "湖南省张家界市永定区各面馆",
+    "district": "永定区",
+    "transportTip": "市区面馆及夜市均有"
+  },
+  "practical": {
+    "openHours": "约06:00-20:00",
+    "openHoursRef": 0,
+    "ticket": "约8元/碗起",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
+      15,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38525988/pexels-photo-38525988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38525988/pexels-photo-38525988.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Refreshing bowl of chilled soba noodles with ice cubes and chopsticks.",
+      "query": "Zhangjiajie Cold Noodles",
+      "credit": {
+        "source": "pexels",
+        "author": "Jasmine Jin-Yu Lin",
+        "sourceUrl": "https://www.pexels.com/photo/chilled-soba-noodles-with-ice-cubes-38525988/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34618114/pexels-photo-34618114.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34618114/pexels-photo-34618114.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3935,
+      "height": 5416,
+      "alt": "Enjoy a savory dish of Asian noodles lifted with chopsticks, surrounded by autumn leaves.",
+      "query": "Zhangjiajie Cold Noodles",
+      "credit": {
+        "source": "pexels",
+        "author": "Change C.C",
+        "sourceUrl": "https://www.pexels.com/photo/delicious-asian-noodles-with-chopsticks-34618114/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31892092/pexels-photo-31892092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31892092/pexels-photo-31892092.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Delicious Korean cold noodles (Mul Naengmyeon) garnished with egg, cucumber, and sesame seeds.",
+      "query": "Zhangjiajie Cold Noodles",
+      "credit": {
+        "source": "pexels",
+        "author": "Theodore Nguyen",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-korean-cold-noodle-dish-in-seoul-31892092/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "凉面",
+    "小吃",
+    "夜市"
+  ],
+  "popularity": 62,
+  "sources": [
+    {
+      "title": "百度百科·凉面",
+      "url": "https://baike.baidu.com/item/%E5%87%89%E9%9D%A2",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Zhangjiajie Cold Noodles",
+    "zh": "张家界凉面"
+  },
+  "district": "430802"
+}

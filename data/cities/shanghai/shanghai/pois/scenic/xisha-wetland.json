@@ -1,0 +1,81 @@
+{
+  "id": "xisha-wetland",
+  "name": "崇明西沙湿地公园",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "长江口的潮汐湿地，看日落和候鸟的地方，目前免费开放。",
+  "description": "西沙湿地在崇明岛西南端，是长江口典型的潮汐滩涂湿地，受潮汐影响，一天里水位变化很明显。最有名的是建在湿地上的木栈道和看日落的平台，傍晚退潮时滩涂露出水面的层次最好看。这里也是候鸟迁徙通道上的一处落脚点，春秋两季观鸟的人比较多。旁边的明珠湖景区同样免费，可以一起走。",
+  "highlights": [
+    "长江口的潮汐滩涂湿地",
+    "木栈道看日落",
+    "春秋两季适合观鸟"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.241982,
+      "lat": 31.723348,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "上海市崇明区堡湖路588号",
+    "district": "嘉定",
+    "transportTip": "暂无地铁直达，建议自驾或包车；市区车程约1.5-2小时"
+  },
+  "practical": {
+    "openHours": "约08:30-16:30(受潮汐与安全管控影响，以现场公告为准)",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 120-210 分钟",
+    "durationMinutes": [
+      120,
+      210
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Landscape_painting_of_XianXian_ShanZhuang_and_Qinshan_Hill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Landscape_painting_of_XianXian_ShanZhuang_and_Qinshan_Hill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 802,
+      "alt": "Landscape painting of XianXian ShanZhuang and Qinshan Hill.jpg",
+      "query": "natural landscape China shanghai",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Collecotordocumentts",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Landscape_painting_of_XianXian_ShanZhuang_and_Qinshan_Hill.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湿地",
+    "日落",
+    "免费"
+  ],
+  "popularity": 58,
+  "sources": [
+    {
+      "title": "百度百科·西沙湿地",
+      "url": "https://baike.baidu.com/item/%E8%A5%BF%E6%B2%99%E6%B9%BF%E5%9C%B0",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-23"
+    }
+  ],
+  "updatedAt": "2026-09-23",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "崇明西沙湿地公园"
+  },
+  "_geocodeTitle": "上海崇明西沙国家湿地公园-观鸟塔",
+  "_geocodeSuspect": false,
+  "district": "310114"
+}

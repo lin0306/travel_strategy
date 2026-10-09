@@ -1,0 +1,118 @@
+{
+  "id": "yefu-mountain",
+  "name": "冶父山",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "庐江城郊的一座佛教名山，山中有依崖而建的古寺，登顶能望见县城与田野。",
+  "description": "冶父山在庐江县城郊，是当地有名的佛教名山。相传春秋时有匠人在此铸剑，山下留着铸剑池的遗迹，水至今清冽。山上古寺依崖而建，殿宇一层层往上，香客一直不少，钟声从林子里传出来。登山石阶修得规整，树荫厚，边走边歇一小时能到顶。山顶平台正对县城方向，能看到成片的田野和远处的水面。山下有镇子，爬山前后可以吃一顿当地土菜。平日人少，很清静。",
+  "highlights": [
+    "铸剑传说的遗迹地",
+    "依崖而建的古寺殿宇",
+    "山顶望见县城与田野"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.349493,
+      "lat": 31.286034,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "安徽省合肥市庐江县冶父山景区",
+    "district": "庐江县",
+    "transportTip": "从庐江县城打车或乘公交到冶父山景区",
+    "entrance": {
+      "lng": 117.355298,
+      "lat": 31.297307,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:00-17:00",
+    "openHoursRef": 0,
+    "ticket": "约30元起，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 120-210 分钟",
+    "durationMinutes": [
+      120,
+      210
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "elders",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/15949877/pexels-photo-15949877.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/15949877/pexels-photo-15949877.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 5616,
+      "height": 3061,
+      "alt": "Breathtaking view of a snow-capped mountain range amidst lush greenery.",
+      "query": "Yefu Mountain Lujiang",
+      "credit": {
+        "source": "pexels",
+        "author": "li bin",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-photo-of-a-rocky-peak-15949877/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34290495/pexels-photo-34290495.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34290495/pexels-photo-34290495.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5976,
+      "height": 3867,
+      "alt": "Distinctive traditional East Asian building nestled in a lush, mountainous landscape under a cloudy sky.",
+      "query": "Yefu Mountain Lujiang",
+      "credit": {
+        "source": "pexels",
+        "author": "女子 正真",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-east-asian-architecture-in-mountainous-landscape-34290495/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38325954/pexels-photo-38325954.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38325954/pexels-photo-38325954.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3000,
+      "height": 4000,
+      "alt": "Stunning view of towering mountain peaks in Almaty, capturing the rugged natural beauty.",
+      "query": "Yefu Mountain Lujiang",
+      "credit": {
+        "source": "pexels",
+        "author": "Dmitriy Menshikov",
+        "sourceUrl": "https://www.pexels.com/photo/majestic-mountain-peaks-in-almaty-kazakhstan-38325954/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "佛教名山",
+    "登山",
+    "古寺"
+  ],
+  "popularity": 68,
+  "sources": [
+    {
+      "title": "冶父山·百度百科",
+      "url": "https://baike.baidu.com/item/%E5%86%B6%E7%88%B6%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Yefu Mountain Lujiang",
+    "zh": "冶父山"
+  },
+  "_geocodeTitle": "冶父山社区居民委员会",
+  "_geocodeSuspect": false,
+  "district": "340124"
+}

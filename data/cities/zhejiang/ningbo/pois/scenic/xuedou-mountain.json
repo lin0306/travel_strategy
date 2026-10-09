@@ -1,0 +1,114 @@
+{
+  "id": "xuedou-mountain",
+  "name": "雪窦山风景区",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "奉化溪口西边的一片山，瀑布、古刹与弥勒道场都在山里，是溪口那一片的自然部分。",
+  "description": "雪窦山在奉化区溪口镇西边，是四明山支脉里的一片，与溪口古镇同属一个大景区。山里有三个要紧的东西：一是千丈岩瀑布，从崖上直落，落差大，水量好的时候很壮；二是雪窦寺，一座千年古刹，是弥勒的道场，寺前那尊大佛坐在山坡上，很远处就能看见；三是山上的索道与观景台，上去能看一片山的轮廓。另有徐凫岩、三隐潭这些水景，分散在山里，点与点之间要坐景交车。整片玩下来大半天到一天。它与溪口古镇通常连着安排，上午看镇、下午上山，或者分两天。门票与溪口联售，索道与景交另付。夏天山里凉快，雨天瀑布更好但路滑。",
+  "highlights": [
+    "千丈岩瀑布落差大，水量好的时候很壮",
+    "雪窦寺是弥勒道场，寺前大佛坐在山坡上",
+    "与溪口古镇同属一个大景区，通常连着安排"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.213531,
+      "lat": 29.672542,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "浙江省宁波市奉化区溪口镇",
+    "district": "奉化区",
+    "transportTip": "宁波站乘城际或长途车至奉化后转公交至溪口，再换乘景交车"
+  },
+  "practical": {
+    "openHours": "约8:00-17:00，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "与溪口联售，索道与景交另付，以官方公告为准",
+    "ticketRef": 0,
+    "duration": "建议 240-420 分钟",
+    "durationMinutes": [
+      240,
+      420
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "friends",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37630414/pexels-photo-37630414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37630414/pexels-photo-37630414.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5712,
+      "height": 4284,
+      "alt": "A tranquil lake view featuring swans and distant mountains under a clear sky.",
+      "query": "natural landscape China ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Jayson liu",
+        "sourceUrl": "https://www.pexels.com/photo/serene-lake-scene-with-swans-and-mountains-37630414/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34029304/pexels-photo-34029304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34029304/pexels-photo-34029304.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3264,
+      "height": 2448,
+      "alt": "A pagoda atop a hill with lush greenery overlooks a serene lake under a clear sky.",
+      "query": "natural landscape China ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "子华 叶",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-eastern-pagoda-over-lake-34029304/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39364005/pexels-photo-39364005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39364005/pexels-photo-39364005.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8256,
+      "height": 5504,
+      "alt": "Container ships docked at a busy port with cranes and buildings in the background, under a clear sky.",
+      "query": "natural landscape China ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Oleksiy Yeshtokyn,🌻🇺🇦🌻",
+        "sourceUrl": "https://www.pexels.com/photo/shipping-containers-at-bustling-port-during-daytime-39364005/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "山岳",
+    "瀑布",
+    "古刹"
+  ],
+  "popularity": 82,
+  "sources": [
+    {
+      "title": "百度百科·雪窦山",
+      "url": "https://baike.baidu.com/item/%E9%9B%AA%E7%AA%A6%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "雪窦山风景区"
+  },
+  "_geocodeTitle": "雪窦山风景区",
+  "_geocodeSuspect": false,
+  "district": "330213"
+}

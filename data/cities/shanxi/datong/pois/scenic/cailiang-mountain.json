@@ -1,0 +1,117 @@
+{
+  "id": "cailiang-mountain",
+  "name": "采凉山",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "新荣区一座山，夏天凉快有草甸，本地人夏天来避暑。",
+  "description": "采凉山在新荣区，是城北的一座山。山上有草甸和松林，夏天凉，是本地人避暑的去处。山顶能望到城和远处的平原。它有一条路能开车上去，也能爬。秋天草黄了也好看。它不收门票，设施少，自带水和吃的。",
+  "highlights": [
+    "城北的山，草甸松林夏天凉",
+    "有车行道也可爬，山顶望城",
+    "免费设施少，宜自带补给"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.340246,
+      "lat": 40.108632,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山西省大同市新荣区采凉山",
+    "district": "平城区",
+    "transportTip": "市区自驾或包车到采凉山",
+    "entrance": {
+      "lng": 113.374417,
+      "lat": 40.1183,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38098072/pexels-photo-38098072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38098072/pexels-photo-38098072.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6192,
+      "height": 4128,
+      "alt": "Ancient stone Buddha statues carved into the cliffs at Yungang Grottoes in Datong, China.",
+      "query": "natural landscape China datong",
+      "credit": {
+        "source": "pexels",
+        "author": "临万然 LWR",
+        "sourceUrl": "https://www.pexels.com/photo/majestic-stone-buddha-at-yungang-grottoes-38098072/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6724172/pexels-photo-6724172.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6724172/pexels-photo-6724172.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3456,
+      "height": 5184,
+      "alt": "Ancient Chinese pagoda with intricate architecture under a warm sky in Datong, Shanxi, China.",
+      "query": "natural landscape China datong",
+      "credit": {
+        "source": "pexels",
+        "author": "Lan Yao",
+        "sourceUrl": "https://www.pexels.com/photo/facade-of-a-pagoda-6724172/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37340474/pexels-photo-37340474.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37340474/pexels-photo-37340474.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "Impressive stone Buddha carvings at Yungang Grottoes in China.",
+      "query": "natural landscape China datong",
+      "credit": {
+        "source": "pexels",
+        "author": "Crudop MichaeLP",
+        "sourceUrl": "https://www.pexels.com/photo/magnificent-ancient-buddhist-rock-sculptures-37340474/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "山岳",
+    "草甸",
+    "避暑"
+  ],
+  "popularity": 46,
+  "sources": [
+    {
+      "title": "百度百科·采凉山",
+      "url": "https://baike.baidu.com/item/%E9%87%87%E5%87%89%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "采凉山"
+  },
+  "_geocodeTitle": "采凉山泉",
+  "_geocodeSuspect": false,
+  "district": "140213"
+}

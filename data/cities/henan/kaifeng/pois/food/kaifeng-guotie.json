@@ -1,0 +1,113 @@
+{
+  "id": "kaifeng-guotie",
+  "name": "开封锅贴",
+  "category": "food",
+  "subtype": "local",
+  "summary": "煎得底脆馅嫩的锅贴，一口一个，夜市和早市都卖。",
+  "description": "开封锅贴是煎得底脆馅嫩的饺子。一面焦黄，一面软，一口一个。馅多是韭黄肉，香。夜市、早市都卖，现煎的最好。配醋和辣油，几块钱一串。分量不小，少点几样，每样尝一口就够。",
+  "highlights": [
+    "煎得底脆馅嫩锅贴",
+    "韭黄肉馅香",
+    "夜市早市现煎"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.335104,
+      "lat": 34.800758,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河南省开封市夜市及早市各锅贴摊",
+    "district": "龙亭区",
+    "transportTip": "夜市早市摊位均有"
+  },
+  "practical": {
+    "openHours": "约06:00-22:00",
+    "openHoursRef": 0,
+    "ticket": "约10元/份起",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
+      15,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "friends",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/35157092/pexels-photo-35157092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35157092/pexels-photo-35157092.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Close-up of flavorful dumpling soup in a disposable bowl held outdoors.",
+      "query": "Kaifeng Guotie",
+      "credit": {
+        "source": "pexels",
+        "author": "Peter Xie",
+        "sourceUrl": "https://www.pexels.com/photo/delicious-dumpling-soup-in-disposable-bowl-35157092/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/13644256/pexels-photo-13644256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/13644256/pexels-photo-13644256.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7234,
+      "height": 4823,
+      "alt": "Brightly colored traditional Buddhist temple exterior with ornate details and vibrant architecture.",
+      "query": "Kaifeng Guotie",
+      "credit": {
+        "source": "pexels",
+        "author": "Suki Lee",
+        "sourceUrl": "https://www.pexels.com/photo/daxiangguo-temple-under-cloudy-sky-13644256/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38492553/pexels-photo-38492553.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38492553/pexels-photo-38492553.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8225,
+      "height": 5483,
+      "alt": "Vibrant fireworks illuminate a bridge at night in Kaifeng, showcasing a colorful celebration by the water.",
+      "query": "Kaifeng Guotie",
+      "credit": {
+        "source": "pexels",
+        "author": "Raymond Zhao",
+        "sourceUrl": "https://www.pexels.com/photo/spectacular-night-fireworks-over-bridge-in-kaifeng-38492553/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "锅贴",
+    "煎饺",
+    "小吃"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "百度百科·锅贴",
+      "url": "https://baike.baidu.com/item/%E9%94%85%E8%B4%B4",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Kaifeng Guotie",
+    "zh": "开封锅贴"
+  },
+  "_geocodeTitle": "邢家锅贴老店·非遗·开封菜(大梁门总店)",
+  "_geocodeSuspect": false,
+  "district": "410202"
+}

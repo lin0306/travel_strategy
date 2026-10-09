@@ -1,0 +1,119 @@
+{
+  "id": "donghu-park",
+  "name": "东湖公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "鲤城一处老公园，湖边散步，挨着侨乡体育馆。",
+  "description": "东湖公园在泉州鲤城，是城区一处老公园，有湖、有亭、有步道。本地人早晚来散步、跳舞。挨着侨乡体育馆，就在市区。免费，顺路歇脚。几个看点：鲤城老公园，湖边散步地；本地人早晚跳舞锻炼；市区免费歇脚。",
+  "highlights": [
+    "鲤城老公园，湖边散步地",
+    "本地人早晚跳舞锻炼",
+    "市区免费歇脚"
+  ],
+  "location": {
+    "point": {
+      "lng": 118.605509,
+      "lat": 24.910043,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "福建省泉州市鲤城区东湖公园",
+    "district": "丰泽区",
+    "transportTip": "鲤城城区步行或公交可达",
+    "entrance": {
+      "lng": 118.607282,
+      "lat": 24.911297,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 45-90 分钟",
+    "durationMinutes": [
+      45,
+      90
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "solo",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/26664455/pexels-photo-26664455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/26664455/pexels-photo-26664455.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6048,
+      "height": 4024,
+      "alt": "Beautiful view of the Kaiyuan Temple pagoda surrounded by lush greenery in Quanzhou, China.",
+      "query": "Chinese classical garden quanzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Bran HAO",
+        "sourceUrl": "https://www.pexels.com/photo/kaiyuan-temple-in-quanzhou-26664455/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6483373/pexels-photo-6483373.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6483373/pexels-photo-6483373.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5184,
+      "height": 3456,
+      "alt": "Asian vendors sitting under red lanterns, selling traditional items in a vibrant street setting.",
+      "query": "Chinese classical garden quanzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Lan Yao",
+        "sourceUrl": "https://www.pexels.com/photo/people-sitting-under-the-tree-6483373/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4160,
+      "height": 6240,
+      "alt": "Tranquil view of a traditional Chinese garden featuring a vibrant red lantern.",
+      "query": "Chinese classical garden quanzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Lily  Lili",
+        "sourceUrl": "https://www.pexels.com/photo/serene-chinese-garden-with-red-lantern-31956319/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "公园",
+    "湖",
+    "免费"
+  ],
+  "popularity": 44,
+  "sources": [
+    {
+      "title": "百度百科·东湖公园",
+      "url": "https://baike.baidu.com/item/%E4%B8%9C%E6%B9%96%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "东湖公园"
+  },
+  "_geocodeTitle": "东湖公园",
+  "_geocodeSuspect": false,
+  "district": "350503"
+}

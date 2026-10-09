@@ -1,0 +1,83 @@
+{
+  "id": "jiaxing-shuixiang",
+  "name": "江南水乡古镇文化",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "乌镇西塘，活着的江南水乡。",
+  "description": "嘉兴拥有乌镇与西塘两座江南六大古镇，廊棚、石桥、水阁与摇橹船构成典型的水乡图景。这里的水乡不只是风景，也是仍在运转的生活：临河起居、市集、节令与手艺。想理解江南如何从水网里长出市镇，嘉兴是最密集的现场，两座古镇各有新旧两副面孔。",
+  "highlights": [
+    "乌镇西塘两大古镇",
+    "廊棚水阁摇橹船",
+    "活着的水乡生活"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.902213,
+      "lat": 30.930636,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "嘉兴市乌镇与西塘",
+    "district": "嘉善县",
+    "transportTip": "乌镇西塘景区内"
+  },
+  "practical": {
+    "openHours": "以古镇时段为准",
+    "openHoursRef": 0,
+    "ticket": "以古镇门票为准",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "friends",
+    "solo",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Gazetteer_of_Puzhen_WDL4737.jpg/1280px-Gazetteer_of_Puzhen_WDL4737.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Gazetteer_of_Puzhen_WDL4737.jpg/1280px-Gazetteer_of_Puzhen_WDL4737.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 484,
+      "alt": "Gazetteer of Puzhen WDL4737.jpg",
+      "query": "Chinese old town street jiaxing",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Hu, Zhuo",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gazetteer_of_Puzhen_WDL4737.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "水乡",
+    "古镇",
+    "江南"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "百度百科·江南水乡",
+      "url": "https://baike.baidu.com/item/%E6%B1%9F%E5%8D%97%E6%B0%B4%E4%B9%A1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-05"
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "江南水乡古镇文化"
+  },
+  "_geocodeTitle": "保利·西塘越-179幢",
+  "_geocodeSuspect": false,
+  "district": "330421"
+}

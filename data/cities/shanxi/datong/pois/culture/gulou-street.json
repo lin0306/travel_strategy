@@ -1,0 +1,113 @@
+{
+  "id": "gulou-street",
+  "name": "鼓楼街",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "鼓楼周围一圈老街，铺子和吃食挨着，是大同日常最热闹的一片。",
+  "description": "鼓楼周围这一圈是大同老城的日常中心 —— 铺子、饭馆、小吃摊挨着开，从早到晚有人。它不是修出来给游客看的街，是本地人买东西吃饭的地方。晚上灯亮、摊子摆出来最热闹。逛完古城墙和华严寺顺路来这儿吃一顿。",
+  "highlights": [
+    "老城日常中心，铺子饭馆挨着",
+    "非游客街，是本地生活处",
+    "夜里摊子摆出最热闹"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.3016,
+      "lat": 40.091468,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山西省大同市平城区鼓楼街",
+    "district": "平城区",
+    "transportTip": "市区步行到鼓楼"
+  },
+  "practical": {
+    "openHours": "全天，夜间最热闹",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "friends",
+    "solo",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/28263427/pexels-photo-28263427.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/28263427/pexels-photo-28263427.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 2268,
+      "alt": "Close-up of a historic stone archway with intricate carvings in Datong, China.",
+      "query": "Chinese old town street datong",
+      "credit": {
+        "source": "pexels",
+        "author": "乾 黄",
+        "sourceUrl": "https://www.pexels.com/photo/28263427/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6724161/pexels-photo-6724161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6724161/pexels-photo-6724161.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3239,
+      "height": 4858,
+      "alt": "A man in gray sits peacefully in sunlight beside a traditional Chinese temple door in Datong.",
+      "query": "Chinese old town street datong",
+      "credit": {
+        "source": "pexels",
+        "author": "Lan Yao",
+        "sourceUrl": "https://www.pexels.com/photo/a-man-in-gray-long-sleeves-sitting-near-the-wooden-door-6724161/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/29619332/pexels-photo-29619332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29619332/pexels-photo-29619332.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2474,
+      "height": 3711,
+      "alt": "A classic view of cultural heritage streets in Xiamen with traditional Chinese signs.",
+      "query": "Chinese old town street datong",
+      "credit": {
+        "source": "pexels",
+        "author": "Matthew Jesús",
+        "sourceUrl": "https://www.pexels.com/photo/historic-street-in-xiamen-fujian-china-29619332/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "老街",
+    "市井",
+    "夜市"
+  ],
+  "popularity": 68,
+  "sources": [
+    {
+      "title": "百度百科·大同鼓楼",
+      "url": "https://baike.baidu.com/item/%E5%A4%A7%E5%90%8C%E9%BC%93%E6%A5%BC",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "鼓楼街"
+  },
+  "_geocodeTitle": "鼓楼西街",
+  "_geocodeSuspect": false,
+  "district": "140213"
+}

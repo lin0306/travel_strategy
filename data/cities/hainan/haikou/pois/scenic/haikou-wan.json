@@ -1,0 +1,118 @@
+{
+  "id": "haikou-wan",
+  "name": "海口湾",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "龙华沿岸的海湾，夜跑与看海的客厅。",
+  "description": "海口湾在龙华区南渡江入海口一带，是一条连续的滨海休闲带，有海口湾公园、广场和一片游艇码头。傍晚是它最好的时间，市民夜跑、散步，水面倒映着城市的灯。它与万绿园、世纪大桥连成一片。免费、开阔，是体会海口「城在海上」最直接的地方。",
+  "highlights": [
+    "龙华沿岸连续滨海休闲带",
+    "傍晚夜跑散步，水面映灯",
+    "与万绿园世纪大桥连片"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.295359,
+      "lat": 20.031249,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "海口市龙华区滨海大道海口湾公园",
+    "district": "龙华区",
+    "transportTip": "市区乘公交或打车至滨海大道海口湾",
+    "entrance": {
+      "lng": 110.294999,
+      "lat": 20.031235,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "无门票",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "solo",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/2010%E6%B5%B7%E5%8F%A3%E6%B9%BE_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/2010%E6%B5%B7%E5%8F%A3%E6%B9%BE_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 693,
+      "alt": "2010海口湾 - panoramio.jpg",
+      "query": "海口湾 海口",
+      "credit": {
+        "source": "wikimedia",
+        "author": "GPS8",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2010%E6%B5%B7%E5%8F%A3%E6%B9%BE_-_panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/202608_Hualien_River_mouth_panorama.jpg/1280px-202608_Hualien_River_mouth_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/202608_Hualien_River_mouth_panorama.jpg/1280px-202608_Hualien_River_mouth_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 608,
+      "alt": "202608 Hualien River mouth panorama.jpg",
+      "query": "海口湾 海口",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Junyu-K",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:202608_Hualien_River_mouth_panorama.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/202608_Nankan_River_mouth_panorama_01.jpg/1280px-202608_Nankan_River_mouth_panorama_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/202608_Nankan_River_mouth_panorama_01.jpg/1280px-202608_Nankan_River_mouth_panorama_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 540,
+      "alt": "202608 Nankan River mouth panorama 01.jpg",
+      "query": "海口湾 海口",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Junyu-K",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:202608_Nankan_River_mouth_panorama_01.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "海湾",
+    "夜景",
+    "滨海"
+  ],
+  "popularity": 68,
+  "sources": [
+    {
+      "title": "百度百科·海口湾",
+      "url": "https://baike.baidu.com/item/%E6%B5%B7%E5%8F%A3%E6%B9%BE",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "海口湾"
+  },
+  "_geocodeTitle": "海口湾",
+  "_geocodeSuspect": false,
+  "district": "460106"
+}

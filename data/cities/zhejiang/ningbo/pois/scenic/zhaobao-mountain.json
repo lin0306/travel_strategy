@@ -1,0 +1,119 @@
+{
+  "id": "zhaobao-mountain",
+  "name": "招宝山旅游风景区",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "镇海区甬江口的一座小山，扼着海口，山上留着历代的海防炮台与城墙。",
+  "description": "招宝山在镇海区甬江入海口边上，不高，几十米，但位置很要紧 —— 它卡在江口北岸，历来是守宁波这座港的门户，从明代起就在山上设炮台与城。山上留着那些海防遗迹：威远城的城墙、炮台的基座、以及后来加了的一些设施；还有一座观音阁与几处庙。上到山顶能看到整个出海口：江面、跨海大桥与远处的船，是理解宁波为什么是一个港的最直接的地方。山不大，爬上去二十分钟，整个看下来两到四小时。门票不高。它在镇海，离市区二十公里上下，地铁与公交都能到。晴天去，能见度好时看得远。",
+  "highlights": [
+    "卡在甬江入海口，历来是守这座港的门户",
+    "山上留着明代以来的城墙与炮台遗迹",
+    "山顶能看到江面、跨海大桥与远处的船"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.725383,
+      "lat": 29.959709,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "浙江省宁波市镇海区招宝山街道招宝山路10号",
+    "district": "镇海区",
+    "transportTip": "地铁二号线至清水浦站后转公交；或乘公交至招宝山站",
+    "entrance": {
+      "lng": 121.722507,
+      "lat": 29.957229,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约8:00-16:30，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "低价票，以现场公告为准",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "friends",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37630414/pexels-photo-37630414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37630414/pexels-photo-37630414.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5712,
+      "height": 4284,
+      "alt": "A tranquil lake view featuring swans and distant mountains under a clear sky.",
+      "query": "natural landscape China ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Jayson liu",
+        "sourceUrl": "https://www.pexels.com/photo/serene-lake-scene-with-swans-and-mountains-37630414/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34029304/pexels-photo-34029304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34029304/pexels-photo-34029304.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3264,
+      "height": 2448,
+      "alt": "A pagoda atop a hill with lush greenery overlooks a serene lake under a clear sky.",
+      "query": "natural landscape China ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "子华 叶",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-eastern-pagoda-over-lake-34029304/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39364005/pexels-photo-39364005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39364005/pexels-photo-39364005.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8256,
+      "height": 5504,
+      "alt": "Container ships docked at a busy port with cranes and buildings in the background, under a clear sky.",
+      "query": "natural landscape China ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Oleksiy Yeshtokyn,🌻🇺🇦🌻",
+        "sourceUrl": "https://www.pexels.com/photo/shipping-containers-at-bustling-port-during-daytime-39364005/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "海防",
+    "江口",
+    "低山"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·招宝山",
+      "url": "https://baike.baidu.com/item/%E6%8B%9B%E5%AE%9D%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "招宝山旅游风景区"
+  },
+  "_geocodeTitle": "招宝山旅游风景区",
+  "_geocodeSuspect": false,
+  "district": "330211"
+}

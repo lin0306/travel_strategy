@@ -1,0 +1,119 @@
+{
+  "id": "tiger-park",
+  "name": "东北虎林园",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "江北的成片林地，养着几百只东北虎，坐专用车进散放区隔着车窗看。",
+  "description": "虎林园在松北区松北街，是一片很大的林地，养着几百只东北虎，分成成虎园、幼虎园、散放区几块。看的方式是坐园里的专用观光车，车是带铁网的，开进散放区里，虎就在车边走动，隔着网很近。也可以买投喂的肉条，从车上的孔里递出去。步行区有幼虎与其他动物的笼舍，能慢慢看。园子在江北，离市区十几公里，夏天草木多、蚊虫也多，冬天动物反而活跃。整圈走下来两到三小时。这里与极地公园、太阳岛顺路，可以一天连着看。",
+  "highlights": [
+    "坐带网的车进散放区，虎就在车边走动",
+    "几百只东北虎，分幼虎园与成虎园",
+    "可以买肉条从车上投喂"
+  ],
+  "location": {
+    "point": {
+      "lng": 126.601711,
+      "lat": 45.81735,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "黑龙江省哈尔滨市松北区太阳岛街道松北街88号",
+    "district": "松北区",
+    "transportTip": "市区乘公交至东北虎林园站；或网约车前往，与太阳岛同日安排",
+    "entrance": {
+      "lng": 126.595444,
+      "lat": 45.818702,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约8:30-16:30（冬季略短），以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "门票含观光车，投喂另付，以现场公告为准",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "friends",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/4456224/pexels-photo-4456224.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/4456224/pexels-photo-4456224.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6016,
+      "height": 4016,
+      "alt": "A beautiful starry night sky over snowy rooftops and bare trees in Harbin, China.",
+      "query": "natural landscape China harbin",
+      "credit": {
+        "source": "pexels",
+        "author": "Dylan Chan",
+        "sourceUrl": "https://www.pexels.com/photo/houses-under-starry-night-4456224/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/19815758/pexels-photo-19815758.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/19815758/pexels-photo-19815758.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 1984,
+      "height": 2999,
+      "alt": "Snow-covered stairs leading through a scenic winter park in Harbin, China, framed by pine trees.",
+      "query": "natural landscape China harbin",
+      "credit": {
+        "source": "pexels",
+        "author": "pressthebutton",
+        "sourceUrl": "https://www.pexels.com/photo/park-in-snow-19815758/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36213063/pexels-photo-36213063.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36213063/pexels-photo-36213063.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5964,
+      "height": 3976,
+      "alt": "Aerial view of Harbin City, China at twilight showcasing urban skyline and architecture.",
+      "query": "natural landscape China harbin",
+      "credit": {
+        "source": "pexels",
+        "author": "ainc T",
+        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-harbin-city-at-twilight-36213063/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "东北虎",
+    "观光车",
+    "投喂"
+  ],
+  "popularity": 88,
+  "sources": [
+    {
+      "title": "百度百科·东北虎林园",
+      "url": "https://baike.baidu.com/item/%E4%B8%9C%E5%8C%97%E8%99%8E%E6%9E%97%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "东北虎林园"
+  },
+  "_geocodeTitle": "东北虎林园",
+  "_geocodeSuspect": false,
+  "district": "230109"
+}

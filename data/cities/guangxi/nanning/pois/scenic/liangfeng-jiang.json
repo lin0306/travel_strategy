@@ -1,0 +1,87 @@
+{
+  "id": "liangfeng-jiang",
+  "name": "良凤江",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "南郊的国家森林公园，离城近的森林步道。",
+  "description": "良凤江国家森林公园在南郊、靠近友谊路，是离市区很近的一片林地，以成片的松林和一条凤江得名。园里有步道、烧烤区和一片树木标本园，是周末近郊游的去处。它比大明山近得多，适合不想跑远的人。夏天林中比城里凉，人比景区少。",
+  "highlights": [
+    "南郊国家森林公园，离城近",
+    "松林与凤江，有步道",
+    "适合不想跑远的近郊游"
+  ],
+  "location": {
+    "point": {
+      "lng": 108.318499,
+      "lat": 22.771874,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "南宁市江南区友谊路78号",
+    "district": "江南区",
+    "transportTip": "市区打车或乘公交约30分钟",
+    "entrance": {
+      "lng": 108.290124,
+      "lat": 22.720651,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:00-17:30，以景区公告为准",
+    "openHoursRef": 0,
+    "ticket": "约15元起，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/%E5%94%90%E5%BC%80%E5%85%83%E9%80%9A%E5%AE%9D%E3%80%81%E4%B9%BE%E5%85%83%E9%80%9A%E5%AE%9D_4236.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/%E5%94%90%E5%BC%80%E5%85%83%E9%80%9A%E5%AE%9D%E3%80%81%E4%B9%BE%E5%85%83%E9%80%9A%E5%AE%9D_4236.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1079,
+      "alt": "唐开元通宝、乾元通宝 4236.jpg",
+      "query": "良凤江 南宁",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Cangminzho",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%94%90%E5%BC%80%E5%85%83%E9%80%9A%E5%AE%9D%E3%80%81%E4%B9%BE%E5%85%83%E9%80%9A%E5%AE%9D_4236.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "森林",
+    "近郊",
+    "步道"
+  ],
+  "popularity": 62,
+  "sources": [
+    {
+      "title": "百度百科·良凤江",
+      "url": "https://baike.baidu.com/item/%E8%89%AF%E5%87%A4%E6%B1%9F",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "良凤江"
+  },
+  "_geocodeTitle": "良凤江",
+  "_geocodeSuspect": false,
+  "district": "450105"
+}

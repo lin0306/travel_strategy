@@ -1,0 +1,119 @@
+{
+  "id": "forest-zoo",
+  "name": "沈阳森林动物园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "棋盘山脚的动物园，散养区和场馆都有，带娃看动物。",
+  "description": "沈阳森林动物园在棋盘山脚，是一座山林里的动物园。有散养区，能近距离看草食动物，也有猛兽场馆。带小孩看动物最合适。园子依山，走路多，穿舒服的鞋。和棋盘山串着玩。去之前看一眼天气，山里变得快。",
+  "highlights": [
+    "棋盘山脚山林动物园",
+    "散养区近看草食兽馆全",
+    "带娃看动物穿舒鞋"
+  ],
+  "location": {
+    "point": {
+      "lng": 123.68328,
+      "lat": 41.929258,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省沈阳市浑南区棋盘山森林动物园",
+    "district": "浑南区",
+    "transportTip": "市区乘车到森林动物园",
+    "entrance": {
+      "lng": 123.681778,
+      "lat": 41.934716,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:30-17:00，以公告为准",
+    "openHoursRef": 0,
+    "ticket": "约80元（以官方为准）",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/11326475/pexels-photo-11326475.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/11326475/pexels-photo-11326475.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6240,
+      "height": 4160,
+      "alt": "A serene landscape featuring a herd of elks resting and grazing near a river under a clear sky.",
+      "query": "Shenyang Forest Zoo",
+      "credit": {
+        "source": "pexels",
+        "author": "Jill Qin",
+        "sourceUrl": "https://www.pexels.com/photo/herd-of-elks-resting-near-river-11326475/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/30356099/pexels-photo-30356099.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/30356099/pexels-photo-30356099.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3712,
+      "height": 5568,
+      "alt": "A tranquil park scene in Shenyang, featuring a sun-drenched bench among lush greenery.",
+      "query": "Shenyang Forest Zoo",
+      "credit": {
+        "source": "pexels",
+        "author": "Pin Wang",
+        "sourceUrl": "https://www.pexels.com/photo/serene-park-bench-under-sunlit-canopy-in-shenyang-30356099/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/1435496/pexels-photo-1435496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/1435496/pexels-photo-1435496.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6037,
+      "height": 4029,
+      "alt": "Tall giraffe with a long neck basking in daylight at a wildlife park with lush greenery.",
+      "query": "Shenyang Forest Zoo",
+      "credit": {
+        "source": "pexels",
+        "author": "Haugenzhays Zhang",
+        "sourceUrl": "https://www.pexels.com/photo/giraffe-standing-under-trees-1435496/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "动物园",
+    "散养",
+    "带娃"
+  ],
+  "popularity": 60,
+  "sources": [
+    {
+      "title": "百度百科·沈阳森林动物园",
+      "url": "https://baike.baidu.com/item/%E6%B2%88%E9%98%B3%E6%A3%AE%E6%9E%97%E5%8A%A8%E7%89%A9%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Shenyang Forest Zoo",
+    "zh": "沈阳森林动物园"
+  },
+  "_geocodeTitle": "沈阳森林动物园",
+  "_geocodeSuspect": false,
+  "district": "210112"
+}

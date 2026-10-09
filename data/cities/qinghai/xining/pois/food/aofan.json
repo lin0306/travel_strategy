@@ -1,0 +1,113 @@
+{
+  "id": "aofan",
+  "name": "熬饭",
+  "category": "food",
+  "subtype": "local",
+  "summary": "青海的暖锅杂烩，肉丸粉条蔬菜一锅炖，是节庆待客的实在菜。",
+  "description": "熬饭是青海的一锅杂烩，把肉丸、粉条、豆腐、土豆、青菜等一锅慢熬，汤浓料足、热乎实在。逢年过节和待客，桌上常有它，寓意热热闹闹聚一锅。配手抓羊肉或单吃都行，粉条吸汤最入味。各家配菜略不同，但都讲究一个熬字 —— 火候到了才香。冬天来一碗浑身舒坦。价格亲民，管饱。",
+  "highlights": [
+    "肉丸粉条豆腐土豆一锅慢熬",
+    "节庆待客寓意聚一锅",
+    "粉条吸汤最入味冬天舒坦"
+  ],
+  "location": {
+    "point": {
+      "lng": 101.785956,
+      "lat": 36.618943,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "青海省西宁市城中区莫家街熬饭馆",
+    "district": "城中区",
+    "transportTip": "市区步行或乘公交到莫家街"
+  },
+  "practical": {
+    "openHours": "约10:00-21:00",
+    "openHoursRef": 0,
+    "ticket": "约15-25元（以店家为准）",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "friends",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Chinese_rice_dish_with_soup.jpg/1280px-Chinese_rice_dish_with_soup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Chinese_rice_dish_with_soup.jpg/1280px-Chinese_rice_dish_with_soup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Chinese rice dish with soup.jpg",
+      "query": "熬饭",
+      "credit": {
+        "source": "wikimedia",
+        "author": "এম আবু সাঈদ",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chinese_rice_dish_with_soup.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gaifan_a_Shaxi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gaifan_a_Shaxi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 636,
+      "alt": "Gaifan a Shaxi.png",
+      "query": "熬饭",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Pau Colominas",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gaifan_a_Shaxi.png",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Mapo_Tofu_Over_Rice_%28%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%E9%A3%AF%29.jpg/1280px-Mapo_Tofu_Over_Rice_%28%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%E9%A3%AF%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Mapo_Tofu_Over_Rice_%28%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%E9%A3%AF%29.jpg/1280px-Mapo_Tofu_Over_Rice_%28%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%E9%A3%AF%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 687,
+      "alt": "Mapo Tofu Over Rice (麻婆豆腐飯).jpg",
+      "query": "熬饭",
+      "credit": {
+        "source": "wikimedia",
+        "author": "NeoBatfreak",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mapo_Tofu_Over_Rice_(%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%E9%A3%AF).jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "炖菜",
+    "杂烩",
+    "节庆"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "熬饭·百度百科",
+      "url": "https://baike.baidu.com/item/%E7%86%AC%E9%A5%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "熬饭"
+  },
+  "_geocodeTitle": "莫家街",
+  "_geocodeSuspect": false,
+  "district": "630103"
+}

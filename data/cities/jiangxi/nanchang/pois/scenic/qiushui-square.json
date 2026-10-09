@@ -1,0 +1,119 @@
+{
+  "id": "qiushui-square",
+  "name": "秋水广场",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "江边的音乐喷泉广场，水柱随乐起伏，名字取自秋水共长天一色。",
+  "description": "秋水广场在红谷滩赣江边，名字出自《滕王阁序》里那句「秋水共长天一色」，广场正对老城方向。最出名的是音乐喷泉，主喷水柱能冲到上百米，随音乐变换造型，夜里配上灯光最好看。喷泉按场次放，具体时间以现场公告为准，热门时段提前半小时去能占到靠前的位置。广场本身很开阔，台阶可以坐，看完喷泉顺着江边走就是摩天轮和市民公园。风从江面过来，春秋两季夜里凉，带件外套。",
+  "highlights": [
+    "名字取自滕王阁序名句",
+    "主喷水柱上百米",
+    "夜场配灯光最好看"
+  ],
+  "location": {
+    "point": {
+      "lng": 115.86259,
+      "lat": 28.682801,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "江西省南昌市红谷滩区赣江中大道秋水广场",
+    "district": "红谷滩区",
+    "transportTip": "地铁1号线秋水广场站，出站即到",
+    "entrance": {
+      "lng": 115.861816,
+      "lat": 28.683142,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "喷泉按场次开放，约19:30-21:00，以现场公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费开放",
+    "ticketRef": 0,
+    "duration": "建议 45-90 分钟",
+    "durationMinutes": [
+      45,
+      90
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "family",
+    "kids",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/14988166/pexels-photo-14988166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/14988166/pexels-photo-14988166.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6595,
+      "height": 4401,
+      "alt": "A beautifully lit fountain and bridge scene captured at night in a park.",
+      "query": "Qiushui Square Musical Fountain Nanchang",
+      "credit": {
+        "source": "pexels",
+        "author": "Павел  Хлыстунов",
+        "sourceUrl": "https://www.pexels.com/photo/illuminated-square-in-a-park-at-dusk-14988166/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/5690251/pexels-photo-5690251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/5690251/pexels-photo-5690251.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4021,
+      "height": 2546,
+      "alt": "Stunning view of Nanchang's skyline with a lit Ferris wheel and bridge at night.",
+      "query": "Qiushui Square Musical Fountain Nanchang",
+      "credit": {
+        "source": "pexels",
+        "author": "lee starry",
+        "sourceUrl": "https://www.pexels.com/photo/lighted-ferris-wheel-at-night-5690251/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34932359/pexels-photo-34932359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34932359/pexels-photo-34932359.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3368,
+      "height": 6000,
+      "alt": "Golden hour view of two skyscrapers by a city waterfront reflecting in calm waters.",
+      "query": "Qiushui Square Musical Fountain Nanchang",
+      "credit": {
+        "source": "pexels",
+        "author": "Madzery Ma",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-with-skyscrapers-and-waterfront-view-34932359/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "音乐喷泉",
+    "广场",
+    "夜景"
+  ],
+  "popularity": 88,
+  "sources": [
+    {
+      "title": "秋水广场·百度百科",
+      "url": "https://baike.baidu.com/item/%E7%A7%8B%E6%B0%B4%E5%B9%BF%E5%9C%BA",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Qiushui Square Musical Fountain Nanchang",
+    "zh": "秋水广场"
+  },
+  "_geocodeTitle": "秋水广场",
+  "_geocodeSuspect": false,
+  "district": "360113"
+}

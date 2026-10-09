@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "huangshan",
+  "name": "黄山",
+  "province": "安徽",
+  "adcode": "341000",
+  "provinceAdcode": "340000",
+  "tagline": "一座山，和山脚下一整片白墙黑瓦的老村子",
+  "intro": "黄山在安徽南部，是天下最有名的几座山之一。它的奇松、怪石、云海、温泉四样，古时候就被人念叨。山在黄山区，脚下一圈是徽州 —— 白墙、黑瓦、马头墙的老村子，宏村、西递都在这儿。徽州人从前会做生意，赚了钱回村起房子，所以这些村子现在还留着成片的明清老宅。吃是徽菜：臭鳜鱼、毛豆腐、笋干，咸鲜那一路。春天看油菜花，秋天看塔川的红叶。山和村子离得近，通常山上一天、村里两天，连着玩。",
+  "center": {
+    "lng": 118.3376,
+    "lat": 29.7149,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    117.2062,
+    29.3953,
+    118.8974,
+    30.5123
+  ],
+  "defaultZoom": 9,
+  "heroImages": [
+    {
+      "url": "https://images.unsplash.com/photo-1583996829982-823143cc975a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8MXx8JUU5JUJCJTg0JUU1JUIxJUIxJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTA4NzAzNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "thumbUrl": "https://images.unsplash.com/photo-1583996829982-823143cc975a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8MXx8JUU5JUJCJTg0JUU1JUIxJUIxJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTA4NzAzNjV8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "width": 6000,
+      "height": 4000,
+      "alt": "city buildings under blue sky during daytime",
+      "query": "黄山 China city skyline",
+      "credit": {
+        "source": "unsplash",
+        "author": "Loeng Lig",
+        "sourceUrl": "https://unsplash.com/photos/city-buildings-under-blue-sky-during-daytime-v5TwMWDaHDI",
+        "license": "Unsplash License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1636821772564-befe22b1b6e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8Mnx8JUU5JUJCJTg0JUU1JUIxJUIxJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTA4NzAzNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "thumbUrl": "https://images.unsplash.com/photo-1636821772564-befe22b1b6e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8Mnx8JUU5JUJCJTg0JUU1JUIxJUIxJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTA4NzAzNjV8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "width": 7952,
+      "height": 5304,
+      "alt": "a view of a city from the top of a hill",
+      "query": "黄山 China city skyline",
+      "credit": {
+        "source": "unsplash",
+        "author": "ダモ リ",
+        "sourceUrl": "https://unsplash.com/photos/a-view-of-a-city-from-the-top-of-a-hill-W2X8IJyI_LU",
+        "license": "Unsplash License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1610390199618-6cc01a36ba37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8M3x8JUU5JUJCJTg0JUU1JUIxJUIxJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTA4NzAzNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "thumbUrl": "https://images.unsplash.com/photo-1610390199618-6cc01a36ba37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc2MTI4fDB8MXxzZWFyY2h8M3x8JUU5JUJCJTg0JUU1JUIxJUIxJTIwQ2hpbmElMjBjaXR5JTIwc2t5bGluZXxlbnwwfHx8fDE3OTA4NzAzNjV8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "width": 2880,
+      "height": 1920,
+      "alt": "city skyline during night time",
+      "query": "黄山 China city skyline",
+      "credit": {
+        "source": "unsplash",
+        "author": "Dave Xu",
+        "sourceUrl": "https://unsplash.com/photos/city-skyline-during-night-time-0vHPFLQqzSs",
+        "license": "Unsplash License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "三到五月看杜鹃与云海，九到十一月秋色与晴日最多；冬天雪景也漂亮但山路冷",
+    "suggestedDays": "三到四天。黄山风景区一天，宏村西递一天，屯溪老街与周边古村一天",
+    "transitTip": "黄山北站通高铁，到市区与汤口都有大巴；黄山机场在屯溪，航线不多",
+    "climateTip": "山区天气变得快，上山带雨衣与一件厚外套；夏天也凉，冬天有结冰路段"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-01"
+  },
+  "updatedAt": "2026-10-01"
+}

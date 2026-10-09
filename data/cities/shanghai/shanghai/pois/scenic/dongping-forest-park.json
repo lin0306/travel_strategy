@@ -1,0 +1,87 @@
+{
+  "id": "dongping-forest-park",
+  "name": "东平国家森林公园",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "崇明岛上规模最大的森林公园，华东地区已成林面积最大的人工林之一。",
+  "description": "东平国家森林公园在崇明岛中北部，是华东地区面积最大的人工平原森林之一。园子很大，主要玩法是骑行、烧烤、房车露营和亲子游乐，夏天树荫浓密，是全岛最凉快的地方之一。因为远离市区，通常要和崇明其他点位串成一天或周末两天。门票不贵，儿童另有优惠票。",
+  "highlights": [
+    "华东面积最大的人工平原林之一",
+    "适合骑行、露营与亲子",
+    "崇明行程的核心一站"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.481005,
+      "lat": 31.68392,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "上海市崇明区北沿公路2188号",
+    "district": "崇明",
+    "transportTip": "市区乘申崇线至崇明，再转当地公交或打车",
+    "entrance": {
+      "lng": 121.481287,
+      "lat": 31.675884,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:30-16:30(旺季有延长，以官方公告为准)",
+    "openHoursRef": 0,
+    "ticket": "约50元，儿童有优惠票",
+    "ticketRef": 0,
+    "duration": "建议 240-420 分钟",
+    "durationMinutes": [
+      240,
+      420
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "kids",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Dongping_Na_Fo_Park_01.jpg/1280px-Dongping_Na_Fo_Park_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Dongping_Na_Fo_Park_01.jpg/1280px-Dongping_Na_Fo_Park_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Dongping Na Fo Park 01.jpg",
+      "query": "东平国家森林公园 上海",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Milkomède",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dongping_Na_Fo_Park_01.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "森林",
+    "露营",
+    "骑行"
+  ],
+  "popularity": 62,
+  "sources": [
+    {
+      "title": "百度百科·东平国家森林公园",
+      "url": "https://baike.baidu.com/item/%E4%B8%9C%E5%B9%B3%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-23"
+    }
+  ],
+  "updatedAt": "2026-09-23",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "东平国家森林公园"
+  },
+  "_geocodeTitle": "崇明东平国家森林公园",
+  "_geocodeSuspect": false,
+  "district": "310151"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "tibet-science-museum",
+  "name": "西藏自然科学博物馆",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "藏大东路上的新馆，讲高原的自然：地质、动植物与生态，带孩子的合适。",
+  "description": "西藏自然科学博物馆在城东藏大东路，是较新的一座馆，免费。它讲高原的自然：地质、古生物、动植物、生态，一层一层铺开。对想知道这块高原是怎么起来的、上面长什么的人，这里讲得比别的地方全。带孩子的合适，互动的部分多。位置有点偏，要专门过去。",
+  "highlights": [
+    "较新的馆，免费，讲高原的地质与动植物",
+    "想知道这块高原怎么起来的，这里讲得最全",
+    "带孩子的合适，互动部分多"
+  ],
+  "location": {
+    "point": {
+      "lng": 91.182079,
+      "lat": 29.646873,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "西藏自治区拉萨市城关区藏大东路9号",
+    "district": "城关区",
+    "transportTip": "市区打车或公交到藏大东路，西藏大学东侧"
+  },
+  "practical": {
+    "openHours": "约10:00-17:00，周一闭馆，以馆方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费（需预约或领票）",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/The_American_Museum_journal_%28c1900-%281918%29%29_%2817974245349%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/The_American_Museum_journal_%28c1900-%281918%29%29_%2817974245349%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 2151,
+      "alt": "The American Museum journal (c1900-(1918)) (17974245349).jpg",
+      "query": "museum exhibition hall lhasa",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Internet Archive Book Images",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_American_Museum_journal_(c1900-(1918))_(17974245349).jpg",
+        "license": "No restrictions",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "博物馆",
+    "自然",
+    "免费"
+  ],
+  "popularity": 44,
+  "sources": [
+    {
+      "title": "百度百科·西藏自然科学博物馆",
+      "url": "https://baike.baidu.com/item/%E8%A5%BF%E8%97%8F%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E5%8D%9A%E7%89%A9%E9%A6%86",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "西藏自然科学博物馆"
+  },
+  "_geocodeTitle": "西藏自然科学博物馆",
+  "_geocodeSuspect": false,
+  "district": "540102"
+}

@@ -1,0 +1,118 @@
+{
+  "id": "zhushan-forest",
+  "name": "珠山国家森林公园",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "黄岛的小珠山，山上有齐长城的旧址与几处山谷。",
+  "description": "珠山国家森林公园在黄岛区，是小珠山这一片，主峰七百多米，是黄岛境内较高的山。园里主要是几样东西：一段齐长城的遗址——战国时齐国修的城墙，在山上还能看到石砌的墙体；几处山谷与小水库；以及一片杜鹃与槐花的花期林。山体是花岗岩，巨石多，有狐仙洞、仙人洞几个天然石洞。园区里有车道与步道，上到主峰两三个小时。它离大珠山与灵山湾不远，在黄岛这一侧是爬山的去处，游客比崂山少得多。",
+  "highlights": [
+    "小珠山主峰七百多米，是黄岛较高的山",
+    "山上有齐长城的石砌墙体遗址",
+    "花岗岩巨石多，有狐仙洞等天然石洞"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.080371,
+      "lat": 35.977686,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山东省青岛市黄岛区小珠山（珠山国家森林公园）",
+    "district": "黄岛区",
+    "transportTip": "青岛市区自驾约一小时；或乘公交至黄岛后转当地车",
+    "entrance": {
+      "lng": 120.06357,
+      "lat": 35.984955,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:00-17:00，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "门票以官方公告为准，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 150-300 分钟",
+    "durationMinutes": [
+      150,
+      300
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38925247/pexels-photo-38925247.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38925247/pexels-photo-38925247.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "A scenic coastal view with a cabin perched on rocky cliffs overlooking the blue ocean under clear skies.",
+      "query": "natural landscape China qingdao",
+      "credit": {
+        "source": "pexels",
+        "author": "Aurora",
+        "sourceUrl": "https://www.pexels.com/photo/coastal-cliffside-with-cabin-and-blue-ocean-38925247/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36963223/pexels-photo-36963223.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36963223/pexels-photo-36963223.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6048,
+      "height": 4032,
+      "alt": "View of Qingdao's coastline featuring tall modern buildings and clear blue sea.",
+      "query": "natural landscape China qingdao",
+      "credit": {
+        "source": "pexels",
+        "author": "Zhengyang TIAN",
+        "sourceUrl": "https://www.pexels.com/photo/coastal-skyline-of-qingdao-with-modern-architecture-36963223/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37106092/pexels-photo-37106092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37106092/pexels-photo-37106092.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "Scenic aerial view of Qingdao with historic architecture and coastal landscape.",
+      "query": "natural landscape China qingdao",
+      "credit": {
+        "source": "pexels",
+        "author": "Whale I",
+        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-qingdao-s-historical-architecture-37106092/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "齐长城",
+    "登山",
+    "黄岛"
+  ],
+  "popularity": 75,
+  "sources": [
+    {
+      "title": "百度百科·小珠山",
+      "url": "https://baike.baidu.com/item/%E5%B0%8F%E7%8F%A0%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-28"
+    }
+  ],
+  "updatedAt": "2026-09-28",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "珠山国家森林公园"
+  },
+  "_geocodeTitle": "珠山国家森林公园",
+  "_geocodeSuspect": false,
+  "district": "370211"
+}

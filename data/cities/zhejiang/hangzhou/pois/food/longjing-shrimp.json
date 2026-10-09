@@ -1,0 +1,82 @@
+{
+  "id": "longjing-shrimp",
+  "name": "龙井草堂",
+  "category": "food",
+  "subtype": "local",
+  "summary": "茶与虾仁同炒，是茶乡才会有的做法。",
+  "description": "龙井虾仁的做法是：河虾仁上浆滑炒，起锅前撒上泡开的龙井茶叶。它属于「就地取材」的一类菜——产茶的地方才这么炒，味道清淡，茶香很薄但是确实在。在龙井村或梅家坞的茶室里点这道菜，与在市区馆子里的感受不同，窗外就是茶山。价格随茶叶等级浮动很大。",
+  "highlights": [
+    "起锅前撒泡开的茶叶",
+    "产茶地才这么炒",
+    "在茶室里吃感受不同"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.116334,
+      "lat": 30.224982,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "杭州市西湖区龙井路",
+    "district": "西湖区",
+    "transportTip": "公交27路龙井茶室站"
+  },
+  "practical": {
+    "openHours": "约10:00-19:00(以门店公告为准)",
+    "openHoursRef": 0,
+    "ticket": "人均约100元起(以门店为准)",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/201607_Abandoned_arrival_hall_at_T1_of_HGH.jpg/1280px-201607_Abandoned_arrival_hall_at_T1_of_HGH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/201607_Abandoned_arrival_hall_at_T1_of_HGH.jpg/1280px-201607_Abandoned_arrival_hall_at_T1_of_HGH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 718,
+      "alt": "201607 Abandoned arrival hall at T1 of HGH.jpg",
+      "query": "Chinese restaurant interior hangzhou",
+      "credit": {
+        "source": "wikimedia",
+        "author": "MNXANL",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:201607_Abandoned_arrival_hall_at_T1_of_HGH.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "杭帮菜",
+    "茶",
+    "清淡"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "百度百科·龙井虾仁",
+      "url": "https://baike.baidu.com/item/%E9%BE%99%E4%BA%95%E8%99%BE%E4%BB%81",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "龙井草堂"
+  },
+  "_geocodeTitle": "龙井草堂",
+  "_geocodeSuspect": false,
+  "district": "330106"
+}

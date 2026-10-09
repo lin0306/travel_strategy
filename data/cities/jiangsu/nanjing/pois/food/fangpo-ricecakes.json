@@ -1,0 +1,113 @@
+{
+  "id": "fangpo-ricecakes",
+  "name": "芳婆糕团店",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "一家只做几样东西的小店，排队长度是它的名片。",
+  "description": "芳婆是那种只有几样出品的小店：乌饭团、糖芋苗、点心，一样一样做。乌饭团是南京特有的做法——用乌饭树叶的汁泡糯米，米染成紫黑色，包油条或豆沙，有草木味。糖芋苗是把小芋头煮软，加红糖与桂花。这两样都是早餐逻辑。它的队伍经常排到街上，但流动快。不要把它当成一顿正式饭，它是一个路过的动作。",
+  "highlights": [
+    "乌饭团用乌饭树叶汁染米",
+    "只做几样，出品少而集中",
+    "排队长但流动快"
+  ],
+  "location": {
+    "point": {
+      "lng": 118.779019,
+      "lat": 32.038152,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "南京市鼓楼区汉中路",
+    "district": "秦淮区",
+    "transportTip": "地铁2号线上海路站步行"
+  },
+  "practical": {
+    "openHours": "约06:30-13:00（售完为止），以门店公告为准",
+    "openHoursRef": 0,
+    "ticket": "人均约15元，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 15-40 分钟",
+    "durationMinutes": [
+      15,
+      40
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "friends",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/34981672/pexels-photo-34981672.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34981672/pexels-photo-34981672.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5616,
+      "height": 3744,
+      "alt": "Vibrant street food market scene in Nanjing, showcasing local cuisine and urban nightlife.",
+      "query": "Chinese street food dish nanjing",
+      "credit": {
+        "source": "pexels",
+        "author": "Abderrahmane Habibi",
+        "sourceUrl": "https://www.pexels.com/photo/bustling-night-street-food-market-in-nanjing-34981672/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38438940/pexels-photo-38438940.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38438940/pexels-photo-38438940.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3600,
+      "height": 2458,
+      "alt": "Delicious seafood vermicelli served on scallop shells in Nanjing, China.",
+      "query": "Chinese street food dish nanjing",
+      "credit": {
+        "source": "pexels",
+        "author": "Omar Photographer",
+        "sourceUrl": "https://www.pexels.com/photo/nanjing-styled-scallop-garnished-vermicelli-dish-38438940/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34981669/pexels-photo-34981669.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34981669/pexels-photo-34981669.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3474,
+      "height": 5211,
+      "alt": "Experience the vibrant night market food culture in Nanjing with this street vendor preparing local cuisine.",
+      "query": "Chinese street food dish nanjing",
+      "credit": {
+        "source": "pexels",
+        "author": "Abderrahmane Habibi",
+        "sourceUrl": "https://www.pexels.com/photo/nanjing-night-market-vendor-cooking-street-food-34981669/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "乌饭团",
+    "早餐",
+    "排队"
+  ],
+  "popularity": 68,
+  "sources": [
+    {
+      "title": "百度百科·乌饭",
+      "url": "https://baike.baidu.com/item/%E4%B9%8C%E9%A5%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-23"
+    }
+  ],
+  "updatedAt": "2026-09-23",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "芳婆糕团店"
+  },
+  "_geocodeTitle": "芳婆糕团店(王府大街店)",
+  "_geocodeSuspect": false,
+  "district": "320104"
+}

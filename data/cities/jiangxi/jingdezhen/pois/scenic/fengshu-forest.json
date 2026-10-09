@@ -1,0 +1,111 @@
+{
+  "id": "fengshu-forest",
+  "name": "枫树山森林公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "昌江区一片城边的林子，有步道，本地人爬山和透气的地方。",
+  "description": "枫树山在昌江区城边，是一片林子。山不高，修了台阶和步道，上去不累。它是本地人爬山、透气的地方，早上和傍晚人多。树多，空气好。它免费，离市区近，半个钟头能上山顶有一处平台可以看城区，清晨常有附近居民上山打水。下。",
+  "highlights": [
+    "城边林子，有台阶步道不累",
+    "本地人爬山透气，早晚人多",
+    "免费近市区，半小时上下"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.191181,
+      "lat": 29.275162,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "江西省景德镇市昌江区枫树山森林公园",
+    "district": "昌江区",
+    "transportTip": "市区步行或公交到山脚"
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/31635647/pexels-photo-31635647.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31635647/pexels-photo-31635647.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5464,
+      "height": 3640,
+      "alt": "A scenic aerial view of a cityscape showing lush green parks, residential buildings, and roads under an overcast sky.",
+      "query": "Fengshushan Forest Park Jingdezhen",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-cityscape-with-green-parks-and-buildings-31635647/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/18548336/pexels-photo-18548336.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/18548336/pexels-photo-18548336.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "A tranquil forest pathway lined with trees provides a serene autumn setting.",
+      "query": "Fengshushan Forest Park Jingdezhen",
+      "credit": {
+        "source": "pexels",
+        "author": "鸦 翎",
+        "sourceUrl": "https://www.pexels.com/photo/a-pavement-between-trees-in-a-park-18548336/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38420465/pexels-photo-38420465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38420465/pexels-photo-38420465.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4024,
+      "height": 6048,
+      "alt": "Wooden deck surrounded by lush green trees in a serene forest environment.",
+      "query": "Fengshushan Forest Park Jingdezhen",
+      "credit": {
+        "source": "pexels",
+        "author": "木 灬",
+        "sourceUrl": "https://www.pexels.com/photo/tranquil-forest-deck-in-a-lush-green-setting-38420465/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "森林公园",
+    "爬山",
+    "免费"
+  ],
+  "popularity": 40,
+  "sources": [
+    {
+      "title": "百度百科·昌江区",
+      "url": "https://baike.baidu.com/item/%E6%98%8C%E6%B1%9F%E5%8C%BA",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Fengshushan Forest Park Jingdezhen",
+    "zh": "枫树山森林公园"
+  },
+  "_geocodeTitle": "城市森林公园",
+  "district": "360202"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "sanbao-tea",
+  "name": "三宝茶室",
+  "category": "food",
+  "subtype": "cafe",
+  "summary": "三宝村里的茶与咖啡，山边坐着，做陶的人常聚的地方。",
+  "description": "三宝村在城东的山边，是做陶的人聚的一片。村里有几处喝茶和喝咖啡的地方，坐在山边或院子里。来的多是做陶的人和年轻人，气氛松。它不是闹市区的店，离市区有一段路。想找个安静地方坐坐，来这儿。",
+  "highlights": [
+    "三宝村山边，做陶的人聚的一片",
+    "茶与咖啡，气氛松",
+    "离市区有段路，宜静坐"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.262719,
+      "lat": 29.256015,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "江西省景德镇市珠山区三宝村茶室",
+    "district": "珠山区",
+    "transportTip": "市区打车到三宝村"
+  },
+  "practical": {
+    "openHours": "约10:00-20:00",
+    "openHoursRef": 0,
+    "ticket": "人均约50元",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "couple",
+    "solo",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38775312/pexels-photo-38775312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38775312/pexels-photo-38775312.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4096,
+      "alt": "Discover a rustic Chinese teahouse adorned with lanterns and calligraphy, set amidst lush trees.",
+      "query": "Sanbao teahouse Jingdezhen",
+      "credit": {
+        "source": "pexels",
+        "author": "Zyy",
+        "sourceUrl": "https://www.pexels.com/photo/charming-traditional-teahouse-in-chinese-countryside-38775312/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37765492/pexels-photo-37765492.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37765492/pexels-photo-37765492.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 6048,
+      "alt": "Cozy Chinese tea room in Nanjing with traditional decor and wooden furniture.",
+      "query": "Sanbao teahouse Jingdezhen",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-tea-room-interior-decor-37765492/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36466075/pexels-photo-36466075.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36466075/pexels-photo-36466075.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 2666,
+      "alt": "Charming traditional teahouse with Chinese architecture in Suzhou, China.",
+      "query": "Sanbao teahouse Jingdezhen",
+      "credit": {
+        "source": "pexels",
+        "author": "Garrison Gao",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-teahouse-in-suzhou-china-36466075/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "茶室",
+    "三宝",
+    "安静"
+  ],
+  "popularity": 58,
+  "sources": [
+    {
+      "title": "百度百科·景德镇",
+      "url": "https://baike.baidu.com/item/%E6%99%AF%E5%BE%B7%E9%95%87",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Sanbao teahouse Jingdezhen",
+    "zh": "三宝茶室"
+  },
+  "_geocodeTitle": "三宝村",
+  "district": "360203"
+}

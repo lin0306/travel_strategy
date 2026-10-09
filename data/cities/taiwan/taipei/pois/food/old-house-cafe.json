@@ -1,0 +1,113 @@
+{
+  "id": "old-house-cafe",
+  "name": "老屋咖啡馆",
+  "category": "food",
+  "subtype": "cafe",
+  "summary": "老房子改的咖啡馆，木窗旧砖配手冲咖啡。",
+  "description": "台北的老屋咖啡馆很多，集中在大稻埕老街、民生社区与公馆一带。房子多是几十年前的老公寓或街屋，保留了磨石子地板、木窗框与旧瓷砖，店里摆旧家具，坐下就不想走。咖啡以手冲为主，浅焙的豆子讲产地与风味，也有拿铁与甜点。这类店通常座位少，假日要等；有些店限制用餐时间与拍照。它适合安排在下午，逛完老街后找个角落坐一坐，慢慢喝一杯。",
+  "highlights": [
+    "老街屋改造，保留旧建材",
+    "手冲为主，浅焙讲产地",
+    "座位少，假日要等"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.556668,
+      "lat": 25.058947,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "台北市大同区迪化街与松山区民生社区一带",
+    "district": "松山区",
+    "transportTip": "捷运大桥头站、双连站步行可达"
+  },
+  "practical": {
+    "openHours": "多为11:00-19:00，各店不一",
+    "openHoursRef": 0,
+    "ticket": "一杯约新台币150元至250元，以店家为准",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "solo",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/%E5%A4%A9%E9%A6%AC%E8%8C%B6%E6%88%BF%E5%BB%A3%E5%91%8A.jpg/1280px-%E5%A4%A9%E9%A6%AC%E8%8C%B6%E6%88%BF%E5%BB%A3%E5%91%8A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/%E5%A4%A9%E9%A6%AC%E8%8C%B6%E6%88%BF%E5%BB%A3%E5%91%8A.jpg/1280px-%E5%A4%A9%E9%A6%AC%E8%8C%B6%E6%88%BF%E5%BB%A3%E5%91%8A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1587,
+      "alt": "天馬茶房廣告.jpg",
+      "query": "Taipei old house cafe",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Unknown authorUnknown author",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E9%A6%AC%E8%8C%B6%E6%88%BF%E5%BB%A3%E5%91%8A.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36759308/pexels-photo-36759308.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36759308/pexels-photo-36759308.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5472,
+      "height": 3648,
+      "alt": "Traditional houses against modern buildings in Taipei City, Taiwan.",
+      "query": "Taipei old house cafe",
+      "credit": {
+        "source": "pexels",
+        "author": "Hiroko Nakagawa",
+        "sourceUrl": "https://www.pexels.com/photo/contrast-of-old-and-new-architecture-in-taipei-36759308/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/30397034/pexels-photo-30397034.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/30397034/pexels-photo-30397034.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3326,
+      "height": 2494,
+      "alt": "Taipei City street scene blending traditional Taiwanese housing with modern buildings.",
+      "query": "Taipei old house cafe",
+      "credit": {
+        "source": "pexels",
+        "author": "Derek Tsai",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-taiwanese-architecture-with-modern-backdrop-30397034/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "咖啡馆",
+    "老屋",
+    "下午茶"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "咖啡馆·百度百科",
+      "url": "https://baike.baidu.com/item/%E5%92%96%E5%95%A1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-03"
+    }
+  ],
+  "updatedAt": "2026-10-03",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Taipei old house cafe",
+    "zh": "老屋咖啡馆"
+  },
+  "_geocodeTitle": "松山区",
+  "district": "711001"
+}

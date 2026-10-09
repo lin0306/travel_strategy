@@ -1,0 +1,91 @@
+{
+  "id": "hudie-quan",
+  "name": "蝴蝶泉",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "山腰的溶洞加民族歌舞，岩壁上有钟乳石像蝴蝶。",
+  "description": "蝴蝶泉在十里画廊边上，是一处山腰的溶洞景点。洞里有一根钟乳石形状像蝴蝶，泉水的名字就来自它。景区的核心其实分两块：一块是爬山看洞，台阶不算多，到顶有个平台能望见周围的峰林；另一块是山下的民族歌舞表演，有侗族大歌和苗族锦鸡舞，一天好几场。整体偏休闲，强度低，中老年团来得多。如果不看表演，一小时足够。",
+  "highlights": [
+    "蝴蝶状钟乳石",
+    "侗族大歌",
+    "山顶望峰林"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.495284,
+      "lat": 24.737986,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "广西壮族自治区桂林市阳朔县高田镇蝴蝶泉",
+    "district": "阳朔",
+    "transportTip": "阳朔县城骑车约二十分钟",
+    "entrance": {
+      "lng": 110.496657,
+      "lat": 24.740439,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "8:00-17:30（表演有固定场次）",
+    "openHoursRef": 0,
+    "ticket": "单独收费，含表演",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Don%27t_you_simply_love_this_scene%21_%2835910419292%29.jpg/1280px-Don%27t_you_simply_love_this_scene%21_%2835910419292%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Don%27t_you_simply_love_this_scene%21_%2835910419292%29.jpg/1280px-Don%27t_you_simply_love_this_scene%21_%2835910419292%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 715,
+      "alt": "Don't you simply love this scene! (35910419292).jpg",
+      "query": "natural landscape China yangshuo",
+      "credit": {
+        "source": "wikimedia",
+        "author": "shankar s. from Dubai, united arab emirates",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Don%27t_you_simply_love_this_scene!_(35910419292).jpg",
+        "license": "CC BY 2.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "蝴蝶泉",
+    "溶洞",
+    "民族歌舞",
+    "低强度",
+    "骑行顺路"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "百度百科·阳朔蝴蝶泉",
+      "url": "https://baike.baidu.com/item/%E9%98%B3%E6%9C%94%E8%9D%B4%E8%9D%B6%E6%B3%89",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "蝴蝶泉"
+  },
+  "_geocodeTitle": "阳朔天籁·蝴蝶泉",
+  "_geocodeSuspect": false,
+  "district": "450321"
+}

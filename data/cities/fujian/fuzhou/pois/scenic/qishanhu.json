@@ -1,0 +1,119 @@
+{
+  "id": "qishanhu",
+  "name": "旗山湖公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "闽侯大学城边的一大片湖，新开的，适合骑车和散步。",
+  "description": "旗山湖公园在闽侯上街镇，紧挨福州大学城，是近年新建的一大片湖景公园。水面大、环湖步道长，有专门的骑行道，是大学城学生和周边居民的活动空间。它与旗山相对，远处能看见山。设施新、人比老城公园少，适合不想挤的人。从市区过去约一小时，和旗山万佛寺可以放在同一天。",
+  "highlights": [
+    "闽侯大学城边新建大湖，环湖有骑行道",
+    "设施新、人比老城少",
+    "与旗山相对，远望见山"
+  ],
+  "location": {
+    "point": {
+      "lng": 119.197258,
+      "lat": 26.036943,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "福州市闽侯县上街镇广贤路",
+    "district": "闽侯县",
+    "transportTip": "市区乘地铁2号线至董屿站换乘公交/打车约20分钟",
+    "entrance": {
+      "lng": 119.197323,
+      "lat": 26.043942,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "solo",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/34742978/pexels-photo-34742978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34742978/pexels-photo-34742978.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4096,
+      "height": 3072,
+      "alt": "A tranquil scene of a traditional Chinese pavilion surrounded by lush greenery and a tranquil pond.",
+      "query": "Chinese classical garden fuzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "强 王",
+        "sourceUrl": "https://www.pexels.com/photo/serene-traditional-garden-pavilion-in-summer-34742978/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/30277908/pexels-photo-30277908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/30277908/pexels-photo-30277908.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3456,
+      "height": 4608,
+      "alt": "A serene view of traditional Chinese architecture framed by bamboo and leaves under a clear blue sky.",
+      "query": "Chinese classical garden fuzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Archer  Hsu",
+        "sourceUrl": "https://www.pexels.com/photo/elegant-traditional-chinese-architecture-with-bamboo-30277908/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34742959/pexels-photo-34742959.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34742959/pexels-photo-34742959.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4096,
+      "alt": "Serene view of a traditional Chinese garden courtyard with a pond reflecting lush greenery.",
+      "query": "Chinese classical garden fuzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "强 王",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-garden-courtyard-in-fuzhou-34742959/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湖景",
+    "新公园",
+    "骑行"
+  ],
+  "popularity": 68,
+  "sources": [
+    {
+      "title": "百度百科·旗山湖",
+      "url": "https://baike.baidu.com/item/%E6%97%97%E5%B1%B1%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "旗山湖公园"
+  },
+  "_geocodeTitle": "旗山湖公园",
+  "_geocodeSuspect": false,
+  "district": "350121"
+}

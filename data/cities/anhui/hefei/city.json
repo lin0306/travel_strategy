@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "hefei",
+  "name": "合肥",
+  "province": "安徽",
+  "adcode": "340100",
+  "provinceAdcode": "340000",
+  "tagline": "包公故里的三国旧地，巢湖之畔的烟火庐州",
+  "intro": "合肥在安徽中部，是省会，也是一座把江湖气和生活气揉在一起的城市。它北靠江淮分水岭，南接巢湖，淝河穿城而过。两千多年前这里就是兵家必争之地，三国时魏吴在此反复拉锯，逍遥津的名字至今还在。老城里有包公祠、李鸿章故居和明教寺，一条淮河路走下来就是半部近代史。往南是巢湖开阔的水面，往西是大蜀山的林子，往东是肥东的丘陵。这里的人爱过日子：早上喝一碗辣糊汤，夏夜剥一盆小龙虾，戏台上一句庐剧唱得又直又亮。它是包拯的故乡，也是一座越来越新的城，政务区的天际线倒进天鹅湖，老监狱改成的文创园里挤满年轻人。来合肥不用赶景点，慢一点，才吃得到这座城的味道。",
+  "center": {
+    "lng": 117.3612,
+    "lat": 31.7609,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    116.6875,
+    30.951,
+    117.9719,
+    32.5341
+  ],
+  "defaultZoom": 10,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/13395574/pexels-photo-13395574.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/13395574/pexels-photo-13395574.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "A modern city skyline featuring skyscrapers against a clear blue sky, showcasing urban architecture.",
+      "query": "合肥 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Zhengdong Hu",
+        "sourceUrl": "https://www.pexels.com/photo/high-rise-buildings-in-a-city-under-blue-sky-13395574/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33921375/pexels-photo-33921375.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33921375/pexels-photo-33921375.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 5414,
+      "alt": "Breathtaking view of Nanjing's skyline with lush greenery in the foreground.",
+      "query": "合肥 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-view-of-nanjing-city-china-33921375/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36565301/pexels-photo-36565301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36565301/pexels-photo-36565301.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6240,
+      "height": 4160,
+      "alt": "Stunning nighttime view of Hangzhou's illuminated skyline reflecting on the river.",
+      "query": "合肥 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "guo fengrui",
+        "sourceUrl": "https://www.pexels.com/photo/nighttime-cityscape-of-hangzhou-china-36565301/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "春秋两季最舒服，三四月看新绿，九十月天高气爽；夏天闷热但小龙虾正当季，冬天湿冷",
+    "suggestedDays": "三到四天。老城包公园逍遥津一天，巢湖环湖一天，三河古镇一天，蜀山与政务区半天到一天",
+    "transitTip": "新桥国际机场与合肥南站高铁通达，地铁覆盖主城区，去巢湖三河等郊县以自驾或旅游专线最方便",
+    "climateTip": "亚热带湿润季风气候，六七月梅雨连绵，夏天闷热多雨，冬天湿冷少雪，春秋早晚温差较大"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-04"
+  },
+  "updatedAt": "2026-10-04"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "xianghu-scenic",
+  "name": "象湖风景区",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "城南的大片水面与绿地，环湖步道连着桥与湿地。",
+  "description": "象湖在城南，水面开阔，沿岸修了一圈步道和绿地，是附近居民日常散步跑步的地方。湖上有几座桥，把岸线切成几段，每段景致不同，有的地方芦苇长得很高，有的地方是硬岸和广场。傍晚最舒服，太阳压到水面上，整片湖泛金色，散步和拍照的人都在这时候出来。湖边树多，夏天能遮阴，风从水面过来也凉。它与八大山人纪念馆在同一片，安排半天就能都走到。环湖一圈路长，走不完可以只挑一段。",
+  "highlights": [
+    "城南开阔水面与绿地",
+    "几座桥把岸线分段",
+    "傍晚湖面泛金"
+  ],
+  "location": {
+    "point": {
+      "lng": 115.892035,
+      "lat": 28.619918,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "江西省南昌市青云谱区象湖风景区",
+    "district": "西湖区",
+    "transportTip": "市区乘公交或打车到象湖风景区"
+  },
+  "practical": {
+    "openHours": "全天开放，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费开放",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "elders",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/34932359/pexels-photo-34932359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34932359/pexels-photo-34932359.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3368,
+      "height": 6000,
+      "alt": "Golden hour view of two skyscrapers by a city waterfront reflecting in calm waters.",
+      "query": "Xianghu Lake Nanchang",
+      "credit": {
+        "source": "pexels",
+        "author": "Madzery Ma",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-with-skyscrapers-and-waterfront-view-34932359/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/17539441/pexels-photo-17539441.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/17539441/pexels-photo-17539441.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3648,
+      "height": 2736,
+      "alt": "Panoramic view of Nanchang's skyline across the harbor with modern skyscrapers and river.",
+      "query": "Xianghu Lake Nanchang",
+      "credit": {
+        "source": "pexels",
+        "author": "逸 林",
+        "sourceUrl": "https://www.pexels.com/photo/panorama-of-nanchang-skyline-and-river-china-17539441/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/28907675/pexels-photo-28907675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/28907675/pexels-photo-28907675.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5568,
+      "height": 3712,
+      "alt": "Panoramic view of Nanchang city skyline with Gan River in the foreground.",
+      "query": "Xianghu Lake Nanchang",
+      "credit": {
+        "source": "pexels",
+        "author": "Bryanken",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-of-nanchang-city-over-gan-river-28907675/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "象湖",
+    "公园",
+    "环湖"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "象湖·百度百科",
+      "url": "https://baike.baidu.com/item/%E8%B1%A1%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Xianghu Lake Nanchang",
+    "zh": "象湖风景区"
+  },
+  "_geocodeTitle": "象湖风景区",
+  "_geocodeSuspect": false,
+  "district": "360103"
+}

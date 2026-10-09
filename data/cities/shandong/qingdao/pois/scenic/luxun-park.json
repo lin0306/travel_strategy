@@ -1,0 +1,119 @@
+{
+  "id": "luxun-park",
+  "name": "鲁迅公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "海边的一段红礁石公园，松林与礁石贴着水线铺开。",
+  "description": "鲁迅公园在市南区琴屿路一带，沿着汇泉湾的海岸铺开，是一段以礁石为主的海滨公园。上世纪三十年代这里开辟为公园，后来为纪念鲁迅改了名字，园里有鲁迅的雕像与一段石刻。公园的特色是红色的礁石——岩层一层层斜插进海里，退潮时露出一大片可以走的石面，涨潮时浪打上来声音很大。岸上是一片黑松林，林子里有石凳与观海的亭子。它一头接小青岛，一头接第一海水浴场，沿路走过去是老城最好走的一段。免费开放。",
+  "highlights": [
+    "沿汇泉湾铺开的海滨公园，以红色礁石为特色",
+    "岩层斜插进海，退潮可走到大片石面上",
+    "一头接小青岛，一头接第一海水浴场"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.33318,
+      "lat": 36.055011,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山东省青岛市市南区琴屿路1号",
+    "district": "市南区",
+    "transportTip": "地铁3号线汇泉广场站或人民会堂站，步行约十分钟",
+    "entrance": {
+      "lng": 120.3322,
+      "lat": 36.055083,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约06:30-21:00，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 45-120 分钟",
+    "durationMinutes": [
+      45,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "elders",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37039394/pexels-photo-37039394.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37039394/pexels-photo-37039394.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Beautiful spring garden scene with vivid foliage and a teal pavilion in Qingdao, Shandong, China.",
+      "query": "Chinese classical garden qingdao",
+      "credit": {
+        "source": "pexels",
+        "author": "Duncan Wang",
+        "sourceUrl": "https://www.pexels.com/photo/serene-garden-in-qingdao-during-springtime-37039394/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37106092/pexels-photo-37106092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37106092/pexels-photo-37106092.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "Scenic aerial view of Qingdao with historic architecture and coastal landscape.",
+      "query": "Chinese classical garden qingdao",
+      "credit": {
+        "source": "pexels",
+        "author": "Whale I",
+        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-qingdao-s-historical-architecture-37106092/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/29038201/pexels-photo-29038201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29038201/pexels-photo-29038201.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5184,
+      "height": 3888,
+      "alt": "Panoramic view over Qingdao cityscape featuring iconic landmarks and urban landscape.",
+      "query": "Chinese classical garden qingdao",
+      "credit": {
+        "source": "pexels",
+        "author": "meitetsu chin",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-view-of-qingdao-with-tv-tower-29038201/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "礁石",
+    "海滨",
+    "免费"
+  ],
+  "popularity": 82,
+  "sources": [
+    {
+      "title": "百度百科·鲁迅公园",
+      "url": "https://baike.baidu.com/item/%E9%B2%81%E8%BF%85%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-28"
+    }
+  ],
+  "updatedAt": "2026-09-28",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "鲁迅公园"
+  },
+  "_geocodeTitle": "鲁迅公园",
+  "_geocodeSuspect": false,
+  "district": "370202"
+}

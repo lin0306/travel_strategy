@@ -1,0 +1,83 @@
+{
+  "id": "xiehuang-tangbao",
+  "name": "蟹黄汤包",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "皮薄汤满，先开窗后喝汤。",
+  "description": "蟹黄汤包是镇江与周边沿江城市的名点，薄皮裹着蟹黄、蟹肉与皮冻，蒸熟后一包鲜汤。吃法是先咬小口「开窗」放气，再吸汤、吃馅，配姜醋更鲜。秋季蟹肥时最经典，老店与汤包专门店都有。人均几十元，是镇江早茶里最有仪式感的一笼。",
+  "highlights": [
+    "薄皮裹蟹黄蟹肉冻",
+    "先开窗后吸汤",
+    "秋蟹最肥的早茶"
+  ],
+  "location": {
+    "point": {
+      "lng": 119.430133,
+      "lat": 32.21518,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "镇江市润州区汤包老店",
+    "district": "润州区",
+    "transportTip": "市区与景区周边"
+  },
+  "practical": {
+    "openHours": "约06:30-20:00（以门店为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约40元，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 20-45 分钟",
+    "durationMinutes": [
+      20,
+      45
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "elders",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Tangbao.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Tangbao.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1614,
+      "alt": "Tangbao.jpg",
+      "query": "蟹黄汤包",
+      "credit": {
+        "source": "wikimedia",
+        "author": "ki yan so",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tangbao.jpg",
+        "license": "CC BY 2.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "汤包",
+    "蟹黄",
+    "早茶"
+  ],
+  "popularity": 86,
+  "sources": [
+    {
+      "title": "百度百科·蟹黄汤包",
+      "url": "https://baike.baidu.com/item/%E8%9F%B9%E9%BB%84%E6%B1%A4%E5%8C%85",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-05"
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "蟹黄汤包"
+  },
+  "_geocodeTitle": "镇江非遗·伙头烧蟹黄汤包(西津渡店)",
+  "_geocodeSuspect": false,
+  "district": "321111"
+}

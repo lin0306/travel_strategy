@@ -1,0 +1,113 @@
+{
+  "id": "bobo-ji",
+  "name": "乐山钵钵鸡",
+  "category": "food",
+  "subtype": "local",
+  "summary": "乐山一种冷串串，鸡块和蔬菜泡在红油或藤椒汤里，论签算钱。",
+  "description": "钵钵鸡是乐山一种冷着吃的串串。鸡块、内脏、蔬菜串在签上，泡在红油或藤椒的汤里。吃多少拿多少，最后数签算钱。它麻辣清爽，是乐山街边最普及的小吃。辣度可以提前说，吃不了辣一定要讲。",
+  "highlights": [
+    "乐山冷串串泡红油藤椒",
+    "鸡块蔬菜论签算",
+    "麻辣清爽街边普及"
+  ],
+  "location": {
+    "point": {
+      "lng": 103.769408,
+      "lat": 29.570676,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "四川省乐山市市中区各钵钵鸡店",
+    "district": "市中区",
+    "transportTip": "市区小吃店均有"
+  },
+  "practical": {
+    "openHours": "约10:00-22:00",
+    "openHoursRef": 0,
+    "ticket": "约30元/人起",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "couple",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/30248442/pexels-photo-30248442.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/30248442/pexels-photo-30248442.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7360,
+      "height": 4912,
+      "alt": "A large flock of chickens pecking on a concrete surface outdoors in a farm setting.",
+      "query": "Leshan Bobo Chicken",
+      "credit": {
+        "source": "pexels",
+        "author": "Thanh Lâm",
+        "sourceUrl": "https://www.pexels.com/photo/flock-of-chickens-in-outdoor-farm-setting-30248442/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/10428839/pexels-photo-10428839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/10428839/pexels-photo-10428839.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7755,
+      "height": 5173,
+      "alt": "A young child sits among free-range chickens under red lanterns in a rustic outdoor setting.",
+      "query": "Leshan Bobo Chicken",
+      "credit": {
+        "source": "pexels",
+        "author": "JackerKun",
+        "sourceUrl": "https://www.pexels.com/photo/child-sitting-beside-the-chickens-10428839/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31119692/pexels-photo-31119692.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31119692/pexels-photo-31119692.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6720,
+      "height": 4480,
+      "alt": "Two tan free-range chickens on a city pavement with blurred urban background.",
+      "query": "Leshan Bobo Chicken",
+      "credit": {
+        "source": "pexels",
+        "author": "Lon Q",
+        "sourceUrl": "https://www.pexels.com/photo/close-up-of-free-range-chickens-on-pavement-31119692/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "串串",
+    "冷吃",
+    "小吃"
+  ],
+  "popularity": 90,
+  "sources": [
+    {
+      "title": "百度百科·钵钵鸡",
+      "url": "https://baike.baidu.com/item/%E9%92%B5%E9%92%B5%E9%B8%A1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Leshan Bobo Chicken",
+    "zh": "乐山钵钵鸡"
+  },
+  "_geocodeTitle": "乐山第一家钵钵鸡",
+  "_geocodeSuspect": false,
+  "district": "511102"
+}

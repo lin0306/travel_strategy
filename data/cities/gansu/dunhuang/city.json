@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "dunhuang",
+  "name": "敦煌",
+  "province": "甘肃",
+  "adcode": "620982",
+  "provinceAdcode": "620000",
+  "tagline": "戈壁上的绿洲小城，把一千年的壁画留在莫高窟",
+  "intro": "敦煌在河西走廊最西端，一座被沙漠和戈壁围住的小城。它的名字几乎等于两样东西：莫高窟与鸣沙山。前者藏了七百多个洞窟的壁画与塑像，从北朝一直画到元朝；后者把沙漠、泉水与月牙形的湖放在一起。再往外是阳关、玉门关与雅丹。这些名字在唐诗里读了二十多年，站到现场才知道那是真的风。城不大，节奏也慢，夏天日头毒、冬天冷得干脆。来这里最舒服的安排是三四天：两天看窟和沙山，剩下的给西线的关城与星空。别赶，戈壁上的路很远。",
+  "center": {
+    "lng": 94.662328,
+    "lat": 40.142066,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    92.7035,
+    39.6415,
+    95.5048,
+    41.5729
+  ],
+  "defaultZoom": 12,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/33412587/pexels-photo-33412587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33412587/pexels-photo-33412587.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3264,
+      "height": 2448,
+      "alt": "A scenic view of a temple at Echoing-Sand Mountain, Dunhuang, surrounded by desert sand dunes.",
+      "query": "China city street view dunhuang",
+      "credit": {
+        "source": "pexels",
+        "author": "Lovesa Chang",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-temple-at-echoing-sand-mountain-33412587/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/30165123/pexels-photo-30165123.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/30165123/pexels-photo-30165123.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "A classic multi-tier Chinese pagoda stands against a desert backdrop, exemplifying cultural architecture.",
+      "query": "China city street view dunhuang",
+      "credit": {
+        "source": "pexels",
+        "author": "奇 徐",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-pagoda-in-desert-setting-30165123/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/25974825/pexels-photo-25974825.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/25974825/pexels-photo-25974825.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6240,
+      "height": 4160,
+      "alt": "View of the historic Mogao Caves, a UNESCO site in Dunhuang, China.",
+      "query": "China city street view dunhuang",
+      "credit": {
+        "source": "pexels",
+        "author": "Manta paopao",
+        "sourceUrl": "https://www.pexels.com/photo/view-of-the-mogao-caves-dunhuang-china-25974825/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "5-6 月与 9-10 月（气温适中、风沙较小）；7-8 月炎热但可看沙漠日落，冬季干冷、游客最少且莫高窟限流少",
+    "suggestedDays": "3-4 天（莫高窟与鸣沙山月牙泉 2 天，西线阳关玉门关雅丹 1 天，雅丹日落或星空再加半天）",
+    "transitTip": "敦煌莫高国际机场有国内主要城市的航线，市区打车十五分钟。敦煌站是普速站，柳园南站是高铁站，后者离市区约两小时车程。市内不大，打车或骑共享单车都方便。去莫高窟、西线主要靠包车或一日游。夏季注意防晒，随身带水。",
+    "climateTip": "典型的温带大陆性干旱气候，降水极少、蒸发量大。夏季白天可达四十度，日照强烈需防晒补水；冬季可到零下二十度，干冷但少风。昼夜温差常年偏大，春秋早晚要加厚外套。"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-06"
+  },
+  "updatedAt": "2026-10-06"
+}

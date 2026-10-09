@@ -1,0 +1,112 @@
+{
+  "id": "ningbo-tea-house",
+  "name": "宁波老茶馆",
+  "category": "food",
+  "subtype": "cafe",
+  "summary": "老城区里的老式茶馆，一壶茶配几样点心，本地长辈坐一上午的地方。",
+  "description": "宁波老城区里还留着一些老式茶馆：长条桌、热水瓶、一壶茶配几碟点心，坐下来能待一上午。来的多半是本地长辈，聊天、看报、听人讲新闻，与新式茶饮店是两回事。茶多是本地一带产的绿茶，也有红茶；点心是简单的几种 —— 瓜子、糕饼、或者自己带。价格便宜，一壶茶几块到十几块，续水不要钱。它不是为游客准备的地方，进去会有人看，但不排斥。想看这座城日常的那一面，茶馆比任何景点直接。鼓楼、城隍庙周边的老街里转一转能找到。早上人最多，下午渐散。",
+  "highlights": [
+    "长条桌加热水瓶，一壶茶配几碟点心，能待一上午",
+    "来的多是本地长辈，与新式茶饮店是两回事",
+    "一壶茶几块到十几块，续水不要钱"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.546613,
+      "lat": 29.873634,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "浙江省宁波市海曙区鼓楼街道公园路",
+    "district": "海曙区",
+    "transportTip": "地铁一号线鼓楼站步行"
+  },
+  "practical": {
+    "openHours": "约6:00-17:00，以现场为准",
+    "openHoursRef": 0,
+    "ticket": "人均便宜",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "elders",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/14517408/pexels-photo-14517408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/14517408/pexels-photo-14517408.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4330,
+      "height": 5773,
+      "alt": "Creative wall decor using paper cups in a modern cafe interior.",
+      "query": "cafe interior ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Afitab",
+        "sourceUrl": "https://www.pexels.com/photo/cups-hanging-on-the-wall-14517408/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27706147/pexels-photo-27706147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27706147/pexels-photo-27706147.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2075,
+      "height": 3130,
+      "alt": "Warm and inviting cafe interior showcasing ambient light, rustic decor, and a tranquil atmosphere.",
+      "query": "cafe interior ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Din Aziz",
+        "sourceUrl": "https://www.pexels.com/photo/jar-on-the-table-27706147/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32354649/pexels-photo-32354649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32354649/pexels-photo-32354649.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4912,
+      "height": 7360,
+      "alt": "Intimate cafe setting with a chair, table, and ambient lighting from a floor lamp.",
+      "query": "cafe interior ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Sóc Năng Động",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-cafe-corner-with-lamp-and-chair-32354649/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "茶馆",
+    "日常",
+    "便宜"
+  ],
+  "popularity": 60,
+  "sources": [
+    {
+      "title": "百度百科·茶馆",
+      "url": "https://baike.baidu.com/item/%E8%8C%B6%E9%A6%86",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "宁波老茶馆"
+  },
+  "_geocodeTitle": "宁波鼓楼",
+  "district": "330203"
+}

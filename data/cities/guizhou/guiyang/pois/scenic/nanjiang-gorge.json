@@ -1,0 +1,118 @@
+{
+  "id": "nanjiang-gorge",
+  "name": "南江大峡谷",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "开阳县的一条峡谷，水清，两边是崖，可以漂流也可以沿栈道走。",
+  "description": "南江大峡谷在开阳县，离市区七十公里上下。它是一条被水切出来的峡谷，两边是直上直下的崖，底下水清得发绿。玩法有两种：一种是漂流，夏天水大的时候开；一种是沿栈道走，一路贴着崖壁，来回两三个小时。栈道有几段很窄，要侧身。它在开阳，与十里画廊在同一片，可以连着一天，但一天走两处有点赶。",
+  "highlights": [
+    "被水切出来的峡谷，两边直上直下，水清得发绿",
+    "可以漂流也可以沿栈道走，栈道有几段很窄",
+    "与十里画廊在同一片，一天走两处有点赶"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.997909,
+      "lat": 26.949387,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "贵州省贵阳市开阳县南江大峡谷",
+    "district": "开阳县",
+    "transportTip": "市区班车或打车往开阳南江，约一小时半",
+    "entrance": {
+      "lng": 106.968845,
+      "lat": 26.940291,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约8:00-17:30（漂流季节开放），以景区公告为准",
+    "openHoursRef": 0,
+    "ticket": "中等（漂流另计）",
+    "ticketRef": 0,
+    "duration": "建议 240-420 分钟",
+    "durationMinutes": [
+      240,
+      420
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "friends",
+    "couple",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38632008/pexels-photo-38632008.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38632008/pexels-photo-38632008.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4672,
+      "height": 5840,
+      "alt": "Unique view of Guiyang cityscape through a cave, showcasing modern high-rise buildings and a winding river.",
+      "query": "natural landscape China guiyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Leongsan Tung",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-of-guiyang-city-viewed-from-a-cave-38632008/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/16483319/pexels-photo-16483319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/16483319/pexels-photo-16483319.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3264,
+      "height": 2448,
+      "alt": "Scenic view of Jiaxiu Pavilion along the Nanming River in Guiyang, China, surrounded by urban parkland.",
+      "query": "natural landscape China guiyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Megan Judge",
+        "sourceUrl": "https://www.pexels.com/photo/view-of-the-jiaxiu-pavilion-in-guiyang-china-16483319/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/19417435/pexels-photo-19417435.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/19417435/pexels-photo-19417435.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5712,
+      "height": 4284,
+      "alt": "A stunning sunset above the mountain range and cityscape of Guiyang, China, with vibrant skies and reflective lake.",
+      "query": "natural landscape China guiyang",
+      "credit": {
+        "source": "pexels",
+        "author": "KJ Brix",
+        "sourceUrl": "https://www.pexels.com/photo/city-in-a-valley-under-a-dramatic-sky-19417435/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "峡谷",
+    "漂流",
+    "栈道"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "百度百科·南江大峡谷",
+      "url": "https://baike.baidu.com/item/%E5%8D%97%E6%B1%9F%E5%A4%A7%E5%B3%A1%E8%B0%B7",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "南江大峡谷"
+  },
+  "_geocodeTitle": "南江大峡谷景区",
+  "_geocodeSuspect": false,
+  "district": "520121"
+}

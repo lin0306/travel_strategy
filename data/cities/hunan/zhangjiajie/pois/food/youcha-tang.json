@@ -1,0 +1,111 @@
+{
+  "id": "youcha-tang",
+  "name": "土家油茶汤",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "土家的一种咸口茶饮，茶叶炸过冲汤，配花生米，解乏。",
+  "description": "土家油茶汤是一种咸口的茶饮。茶叶用油炒过再冲汤，放花生、黄豆、葱花，咸香。它是土家待客和早上的喝头，提神解乏。头回喝可能不习惯，但本地人离不开，配些小吃正好。辣度可说，吃不了辣提前讲。",
+  "highlights": [
+    "土家咸口油炒茶饮",
+    "配花生黄豆葱花",
+    "待客提神解乏"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.463354,
+      "lat": 29.177995,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "湖南省张家界市永定区各茶馆小吃店",
+    "district": "永定区",
+    "transportTip": "市区茶馆及小吃店偶有"
+  },
+  "practical": {
+    "openHours": "约07:00-19:00",
+    "openHoursRef": 0,
+    "ticket": "约10元/碗起",
+    "ticketRef": 0,
+    "duration": "建议 20-40 分钟",
+    "durationMinutes": [
+      20,
+      40
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "elders",
+    "solo",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/39126995/pexels-photo-39126995.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39126995/pexels-photo-39126995.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 2667,
+      "alt": "Variety of organic products including herbs, teas, and oils on display at a market.",
+      "query": "Tujia Oil Tea",
+      "credit": {
+        "source": "pexels",
+        "author": "Surya Travel",
+        "sourceUrl": "https://www.pexels.com/photo/organic-market-stand-with-herbs-and-teas-39126995/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/9807612/pexels-photo-9807612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/9807612/pexels-photo-9807612.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4072,
+      "height": 6089,
+      "alt": "A refreshing herbal tea surrounded by purple Korean mint flowers and lemongrass on a slate background.",
+      "query": "Tujia Oil Tea",
+      "credit": {
+        "source": "pexels",
+        "author": "Mareefe",
+        "sourceUrl": "https://www.pexels.com/photo/yellow-oil-in-glass-by-lemon-grass-and-korean-mint-in-vase-9807612/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34727489/pexels-photo-34727489.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34727489/pexels-photo-34727489.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 3024,
+      "alt": "Green tea in a glass pitcher and cup on a reflective black table in a lush garden setting.",
+      "query": "Tujia Oil Tea",
+      "credit": {
+        "source": "pexels",
+        "author": "Chris Zhou",
+        "sourceUrl": "https://www.pexels.com/photo/refreshing-green-tea-on-reflective-garden-table-34727489/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "油茶",
+    "土家",
+    "咸饮"
+  ],
+  "popularity": 58,
+  "sources": [
+    {
+      "title": "百度百科·油茶汤",
+      "url": "https://baike.baidu.com/item/%E6%B2%B9%E8%8C%B6%E6%B1%A4",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Tujia Oil Tea",
+    "zh": "土家油茶汤"
+  },
+  "district": "430802"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "zhiwuyuan",
+  "name": "厦门园林植物园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "万石山上的老植物园，雨林世界与多肉区是两处最出片的地方。",
+  "description": "厦门园林植物园俗称万石植物园，1960 年代建在市区东边的万石山上，是全国最早的城市植物园之一。园子依着山势分成十几处专类园，最出名的是三块：雨林世界，早上定时喷水雾，光柱从树冠上落下来；多肉植物区，成片的仙人掌与龙舌兰种在坡上；还有一片棕榈与苏铁的园区。山上保存着万石岩、太平岩几处摩崖石刻，以及几座旧庙。园区不小，各区之间要走坡道，也有观光车。它就在厦门站东边，从南门进最方便，园内高处能俯瞰半个城区。",
+  "highlights": [
+    "1960 年代建于万石山，是国内最早的城市植物园之一",
+    "雨林世界定时喷雾，多肉区成片仙人掌",
+    "山上有万石岩、太平岩等摩崖石刻"
+  ],
+  "location": {
+    "point": {
+      "lng": 118.10914,
+      "lat": 24.448061,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "福建省厦门市思明区虎园路25号",
+    "district": "思明区",
+    "transportTip": "地铁1号线中山公园站或将军祠站，步行约十分钟",
+    "entrance": {
+      "lng": 118.117445,
+      "lat": 24.441318,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约06:30-18:00（喷雾时段以现场为准），以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "门票约30元起，观光车另计，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38322645/pexels-photo-38322645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38322645/pexels-photo-38322645.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3451,
+      "height": 5176,
+      "alt": "Captivating view of modern skyscrapers and urban landscape in Xiamen.",
+      "query": "Chinese classical garden xiamen",
+      "credit": {
+        "source": "pexels",
+        "author": "gang liang",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-with-modern-architecture-and-landmarks-38322645/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37305275/pexels-photo-37305275.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37305275/pexels-photo-37305275.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6176,
+      "height": 4525,
+      "alt": "A picturesque view of an ornate Chinese temple showcasing traditional architecture under a clear blue sky.",
+      "query": "Chinese classical garden xiamen",
+      "credit": {
+        "source": "pexels",
+        "author": "Ran Hua",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-temple-with-ornate-architecture-37305275/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/26100564/pexels-photo-26100564.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/26100564/pexels-photo-26100564.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3648,
+      "height": 2736,
+      "alt": "Stunning aerial view of Xiamen, showcasing lush greenery and coastal buildings under a clear sky.",
+      "query": "Chinese classical garden xiamen",
+      "credit": {
+        "source": "pexels",
+        "author": "ch qw",
+        "sourceUrl": "https://www.pexels.com/photo/town-on-sea-coast-and-city-behind-26100564/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "植物园",
+    "雨林",
+    "多肉"
+  ],
+  "popularity": 86,
+  "sources": [
+    {
+      "title": "百度百科·厦门园林植物园",
+      "url": "https://baike.baidu.com/item/%E5%8E%A6%E9%97%A8%E5%9B%AD%E6%9E%97%E6%A4%8D%E7%89%A9%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-28"
+    }
+  ],
+  "updatedAt": "2026-09-28",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "厦门园林植物园"
+  },
+  "_geocodeTitle": "厦门园林植物园",
+  "_geocodeSuspect": false,
+  "district": "350203"
+}

@@ -1,0 +1,117 @@
+{
+  "id": "shiniushan",
+  "name": "石牛山",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "德化一座以瀑布和崖壁出名的山，有天空之心玻璃台。",
+  "description": "石牛山在泉州德化，是一座以瀑布和崖壁出名的山。主峰像牛，所以得名。山里有大瀑布，雨后最壮观；还有一处悬空的玻璃观景台，叫天空之心。和德化的陶瓷可以一起。从泉州过来要两小时。",
+  "highlights": [
+    "德化以瀑布和崖壁出名的山",
+    "雨后大瀑布最壮观",
+    "悬空天空之心玻璃观景台"
+  ],
+  "location": {
+    "point": {
+      "lng": 118.437505,
+      "lat": 25.645844,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "福建省泉州市德化县石牛山景区",
+    "district": "德化县",
+    "transportTip": "从泉州往德化方向乘车约两小时",
+    "entrance": {
+      "lng": 118.432051,
+      "lat": 25.682156,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约8:00-17:00",
+    "openHoursRef": 0,
+    "ticket": "门票加索道约一百多元",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/17880310/pexels-photo-17880310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/17880310/pexels-photo-17880310.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4928,
+      "height": 3264,
+      "alt": "Scenic view of a rural valley with a winding river and lush greenery under an overcast sky.",
+      "query": "natural landscape China quanzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "AG ZN",
+        "sourceUrl": "https://www.pexels.com/photo/winding-river-in-the-valley-17880310/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/20818504/pexels-photo-20818504.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/20818504/pexels-photo-20818504.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7638,
+      "height": 5095,
+      "alt": "A scenic view of Quanzhou's traditional rooftops and iconic pagodas against a modern skyline.",
+      "query": "natural landscape China quanzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "ZhiCheng Zhang",
+        "sourceUrl": "https://www.pexels.com/photo/townnscape-with-tiled-roofs-and-pagodas-20818504/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/13760468/pexels-photo-13760468.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/13760468/pexels-photo-13760468.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7967,
+      "height": 4437,
+      "alt": "Stunning aerial view of farmland along a coastline with an ocean horizon under a blue sky.",
+      "query": "natural landscape China quanzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Quang Nguyen Vinh",
+        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-farm-fields-near-the-ocean-13760468/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "山",
+    "瀑布",
+    "玻璃台"
+  ],
+  "popularity": 50,
+  "sources": [
+    {
+      "title": "百度百科·石牛山",
+      "url": "https://baike.baidu.com/item/%E7%9F%B3%E7%89%9B%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "石牛山"
+  },
+  "_geocodeTitle": "德化石牛山景区",
+  "_geocodeSuspect": false,
+  "district": "350526"
+}

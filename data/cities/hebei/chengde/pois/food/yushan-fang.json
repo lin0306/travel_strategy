@@ -1,0 +1,111 @@
+{
+  "id": "yushan-fang",
+  "name": "御膳房",
+  "category": "food",
+  "subtype": "local",
+  "summary": "承德市区一家做宫廷菜的馆子，摆盘讲究，适合想试清宫口味的人。",
+  "description": "御膳房在承德市区，是做宫廷菜的一家。承德当年是皇帝来的地，所以这儿的菜讲究一点 —— 摆盘齐，做法细，名字也多带御字。常见的有御土荷叶鸡、汽锅野味八仙。味道偏浓，份量不大。价格中上。想吃个讲究，来这儿。",
+  "highlights": [
+    "承德市区宫廷菜馆，做法细摆盘齐",
+    "御土荷叶鸡、汽锅野味八仙",
+    "味浓份量不大，价中上"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.943121,
+      "lat": 40.974679,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河北省承德市双桥区御膳房",
+    "district": "双桥区",
+    "transportTip": "市区公交或步行到店"
+  },
+  "practical": {
+    "openHours": "约10:00-21:00",
+    "openHoursRef": 0,
+    "ticket": "人均约120元",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4096,
+      "alt": "Charming Asian dining room with bamboo chairs and traditional teaware.",
+      "query": "Chinese restaurant interior chengde",
+      "credit": {
+        "source": "pexels",
+        "author": "TIANYUN XIA",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33965578/pexels-photo-33965578.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33965578/pexels-photo-33965578.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 6817,
+      "height": 4547,
+      "alt": "Cozy traditional Chinese tea house interior with warm lighting in Chengdu, Sichuan.",
+      "query": "Chinese restaurant interior chengde",
+      "credit": {
+        "source": "pexels",
+        "author": "Vincent Tan",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-tea-house-interior-lighting-33965578/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33137968/pexels-photo-33137968.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33137968/pexels-photo-33137968.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 6714,
+      "height": 4468,
+      "alt": "Atmospheric shot of people dining in a traditional Asian restaurant with warm lighting.",
+      "query": "Chinese restaurant interior chengde",
+      "credit": {
+        "source": "pexels",
+        "author": "Vincent Tan",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-traditional-asian-restaurant-interior-33137968/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "宫廷菜",
+    "承德",
+    "正餐"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "百度百科·承德",
+      "url": "https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "御膳房"
+  },
+  "_geocodeTitle": "双桥区",
+  "district": "130802"
+}

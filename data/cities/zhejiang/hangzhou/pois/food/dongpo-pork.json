@@ -1,0 +1,83 @@
+{
+  "id": "dongpo-pork",
+  "name": "天香楼(延安路店)",
+  "category": "food",
+  "subtype": "local",
+  "summary": "慢火焖出来的方块肉，糖色与酱油是味道的来源。",
+  "description": "东坡肉的做法是：五花肉切成方块，垫葱姜，加酱油、黄酒与糖，小火焖到酥烂，成品红亮、入口即化。名字挂在苏轼名下，实际是江南一带的通行做法。它的难点在火候与糖色——过火则散，欠火则腻。一份肉配一碗白饭是最朴素的吃法。",
+  "highlights": [
+    "小火焖至酥烂是核心",
+    "糖色与黄酒是味道来源",
+    "配白饭最朴素"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.163281,
+      "lat": 30.263405,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "杭州市上城区延安路",
+    "district": "拱墅区",
+    "transportTip": "以具体门店为准"
+  },
+  "practical": {
+    "openHours": "约11:00-21:00(以门店公告为准)",
+    "openHoursRef": 0,
+    "ticket": "人均约70元起(以门店为准)",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "couple",
+    "kids",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/201607_Abandoned_arrival_hall_at_T1_of_HGH.jpg/1280px-201607_Abandoned_arrival_hall_at_T1_of_HGH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/201607_Abandoned_arrival_hall_at_T1_of_HGH.jpg/1280px-201607_Abandoned_arrival_hall_at_T1_of_HGH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 718,
+      "alt": "201607 Abandoned arrival hall at T1 of HGH.jpg",
+      "query": "Chinese restaurant interior hangzhou",
+      "credit": {
+        "source": "wikimedia",
+        "author": "MNXANL",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:201607_Abandoned_arrival_hall_at_T1_of_HGH.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "杭帮菜",
+    "红烧",
+    "必吃"
+  ],
+  "popularity": 84,
+  "sources": [
+    {
+      "title": "百度百科·东坡肉",
+      "url": "https://baike.baidu.com/item/%E4%B8%9C%E5%9D%A1%E8%82%89",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "天香楼(延安路店)"
+  },
+  "_geocodeTitle": "天香楼(延安路店)",
+  "_geocodeSuspect": false,
+  "district": "330105"
+}

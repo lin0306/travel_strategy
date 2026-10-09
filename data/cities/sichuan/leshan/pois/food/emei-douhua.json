@@ -1,0 +1,111 @@
+{
+  "id": "emei-douhua",
+  "name": "峨眉山泉水豆花",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "峨眉山一带的豆花，用山泉水点，嫩而带豆香，蘸辣椒水。",
+  "description": "峨眉山泉水豆花用山里的泉水点制，所以叫泉水豆花。它比一般豆腐脑更嫩、更有豆香，蘸辣椒水和葱花吃。它是山下和市区的便宜小吃，几块钱一碗顶饱。趁热吃，凉了风味差一截，别打包久放。",
+  "highlights": [
+    "峨眉山泉水点制豆花",
+    "嫩而有豆香蘸辣椒水",
+    "便宜小吃顶饱"
+  ],
+  "location": {
+    "point": {
+      "lng": 103.484727,
+      "lat": 29.601729,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "四川省乐山市峨眉山市各小吃店",
+    "district": "峨眉山市",
+    "transportTip": "峨眉山市小吃店均有"
+  },
+  "practical": {
+    "openHours": "约06:00-20:00",
+    "openHoursRef": 0,
+    "ticket": "约6元/碗起",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
+      15,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "family",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/12722180/pexels-photo-12722180.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/12722180/pexels-photo-12722180.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4896,
+      "height": 3264,
+      "alt": "A close-up of spicy tofu with sesame and spring onions in a paper cup, held by hand.",
+      "query": "Emei Spring Tofu",
+      "credit": {
+        "source": "pexels",
+        "author": "suning lin",
+        "sourceUrl": "https://www.pexels.com/photo/close-up-of-a-tofu-dish-in-a-disposable-cup-12722180/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7491894/pexels-photo-7491894.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7491894/pexels-photo-7491894.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3744,
+      "height": 5616,
+      "alt": "Close-up of Asian ingredients and tools for gourmet meal preparation in kitchen.",
+      "query": "Emei Spring Tofu",
+      "credit": {
+        "source": "pexels",
+        "author": "minchephoto photography",
+        "sourceUrl": "https://www.pexels.com/photo/close-up-of-a-mortar-and-pestle-7491894/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34618071/pexels-photo-34618071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34618071/pexels-photo-34618071.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4038,
+      "height": 5460,
+      "alt": "Exquisite tofu curry plated in elegant surroundings, showcasing a blend of colors and textures.",
+      "query": "Emei Spring Tofu",
+      "credit": {
+        "source": "pexels",
+        "author": "Change C.C",
+        "sourceUrl": "https://www.pexels.com/photo/gourmet-presentation-of-tofu-curry-dish-34618071/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "豆花",
+    "泉水",
+    "小吃"
+  ],
+  "popularity": 58,
+  "sources": [
+    {
+      "title": "百度百科·峨眉山",
+      "url": "https://baike.baidu.com/item/%E5%B3%A8%E7%9C%89%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Emei Spring Tofu",
+    "zh": "峨眉山泉水豆花"
+  },
+  "district": "511181"
+}

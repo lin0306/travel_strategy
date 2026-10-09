@@ -1,0 +1,113 @@
+{
+  "id": "tianmo",
+  "name": "甜沫",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "济南的咸味早点，小米面糊里煮着花生、豆腐丝和菠菜。",
+  "description": "甜沫是济南最有代表性的早点，名字里有甜字，味道却是咸的。用小米面调成糊，加入花生米、豆腐丝、菠菜和粉条一起煮，撒上胡椒面，喝起来微辣暖胃。本地人配着油旋或者馓子一起吃，一碗下去浑身热。老城的早点铺天没亮就开锅，早上七点最热闹。第一次喝可能觉得奇怪，越喝越上头。",
+  "highlights": [
+    "名字带甜味道是咸的",
+    "花生豆腐丝菠菜同煮",
+    "配油旋是本地吃法"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.045813,
+      "lat": 36.682637,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山东省济南市各早点铺，老城区与芙蓉街周边最多",
+    "district": "历下区",
+    "transportTip": "市区各早点铺均有，早市最集中"
+  },
+  "practical": {
+    "openHours": "约六点到十点",
+    "openHoursRef": 0,
+    "ticket": "约四元一碗起",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
+      15,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "elders",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/%E7%94%9C%E6%B2%AB_202509.jpg/1280px-%E7%94%9C%E6%B2%AB_202509.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/%E7%94%9C%E6%B2%AB_202509.jpg/1280px-%E7%94%9C%E6%B2%AB_202509.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "甜沫 202509.jpg",
+      "query": "甜沫 济南",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Steven Sun",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%94%9C%E6%B2%AB_202509.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39851704/pexels-photo-39851704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39851704/pexels-photo-39851704.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "A close-up shot of egg drop soup with a white spoon in a white bowl.",
+      "query": "Tianmo Jinan Breakfast Soup",
+      "credit": {
+        "source": "pexels",
+        "author": "Jahra Tasfia Reza",
+        "sourceUrl": "https://www.pexels.com/photo/close-up-of-egg-drop-soup-in-white-bowl-39851704/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/29467676/pexels-photo-29467676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29467676/pexels-photo-29467676.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5327,
+      "height": 3837,
+      "alt": "Tasty vermicelli noodles with omelette, vegetables, and salmon, perfect for a hearty meal.",
+      "query": "Tianmo Jinan Breakfast Soup",
+      "credit": {
+        "source": "pexels",
+        "author": "木 灬",
+        "sourceUrl": "https://www.pexels.com/photo/delicious-asian-vermicelli-noodle-bowl-with-omelette-29467676/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "早点",
+    "咸粥",
+    "老济南"
+  ],
+  "popularity": 88,
+  "sources": [
+    {
+      "title": "甜沫·百度百科",
+      "url": "https://baike.baidu.com/item/%E7%94%9C%E6%B2%AB",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Tianmo Jinan Breakfast Soup",
+    "zh": "甜沫"
+  },
+  "_geocodeTitle": "老味甜沫",
+  "_geocodeSuspect": false,
+  "district": "370102"
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "suzhou",
+  "name": "苏州",
+  "province": "江苏",
+  "adcode": "320500",
+  "provinceAdcode": "320000",
+  "tagline": "把山水缩到一亩地里的那门手艺",
+  "intro": "苏州真正值得看的是园林，而园林值得看的地方不是大，是把山、水、建筑、植物压缩到一个极小的地块里还能各得其所。拙政园用水面撑开空间，留园用建筑与廊道切分，网师园则是小中见大的教科书。除园林之外，平江路与山塘街是水巷格局还活着的两处，虎丘是一座斜塔加一座山，博物馆由贝聿铭设计、本身就是作品。吃的部分偏甜：苏式汤面讲究汤底与浇头分离，糕团、糖粥、生煎、酱肉都属于日常。安排上，园林一天最多两座，看多了会分不清——这是真的，不是修辞。",
+  "center": {
+    "lng": 120.5853,
+    "lat": 31.2998,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    119.92,
+    30.7641,
+    121.3367,
+    32.0458
+  ],
+  "defaultZoom": 10,
+  "heroImages": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Autumn_1980_in_Suzhou_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Autumn_1980_in_Suzhou_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 702,
+      "alt": "Autumn 1980 in Suzhou 01.jpg",
+      "query": "苏州",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Szilas",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Autumn_1980_in_Suzhou_01.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Soochow_University_-_Kenneth_Wang_School_of_Law_-_Main_building_background.jpg/1280px-Soochow_University_-_Kenneth_Wang_School_of_Law_-_Main_building_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Soochow_University_-_Kenneth_Wang_School_of_Law_-_Main_building_background.jpg/1280px-Soochow_University_-_Kenneth_Wang_School_of_Law_-_Main_building_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Soochow University - Kenneth Wang School of Law - Main building background.jpg",
+      "query": "苏州",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Sten van Houwelingen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Soochow_University_-_Kenneth_Wang_School_of_Law_-_Main_building_background.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Suzhou%2C_Jingsu%2C_China_%28ASTER%29.jpg/1280px-Suzhou%2C_Jingsu%2C_China_%28ASTER%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Suzhou%2C_Jingsu%2C_China_%28ASTER%29.jpg/1280px-Suzhou%2C_Jingsu%2C_China_%28ASTER%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1205,
+      "alt": "Suzhou, Jingsu, China (ASTER).jpg",
+      "query": "苏州",
+      "credit": {
+        "source": "wikimedia",
+        "author": "NASA/METI/AIST/Japan Space Systems, and U.S./Japan ASTER Sci",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suzhou,_Jingsu,_China_(ASTER).jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "3-5 月 / 9-11 月（梅雨湿热，盛夏闷热，冬季湿冷）",
+    "suggestedDays": "3 天（园林 1-2 天 + 平江路山塘街 1 天 + 古镇或太湖 1 天）",
+    "transitTip": "地铁覆盖古城区外围与园区，古城内以公交与步行为主。苏州站与苏州北站都在地铁线上，去同里、周庄需在汽车站乘车。园林之间距离近，步行或公交即可，不建议在古城内开车。",
+    "climateTip": "亚热带季风气候，雨量充沛。梅雨期长且闷湿，夏季炎热多雨，冬季湿冷。春秋两季最短也最舒服。"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-09-19"
+  },
+  "updatedAt": "2026-09-19"
+}

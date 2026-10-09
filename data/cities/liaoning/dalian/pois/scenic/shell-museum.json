@@ -1,0 +1,113 @@
+{
+  "id": "shell-museum",
+  "name": "贝壳博物馆",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "沙河口一处讲贝类与海洋的博物馆，展品精致。",
+  "description": "贝壳博物馆在大连沙河口星海边，是一处讲贝类与海洋的博物馆。世界各地的贝壳标本摆满，有的大如盆、有的小如沙。展品精致，孩子会盯着看。几个看点：沙河口星海边贝类海洋博物馆；世界各地贝壳标本摆满；大小各异，孩子爱看。",
+  "highlights": [
+    "沙河口星海边贝类海洋博物馆",
+    "世界各地贝壳标本摆满",
+    "大小各异，孩子爱看"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.589799,
+      "lat": 38.878499,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省大连市沙河口区贝壳博物馆",
+    "district": "沙河口区",
+    "transportTip": "沙河口区乘公交或地铁可达"
+  },
+  "practical": {
+    "openHours": "约9:00-17:00",
+    "openHoursRef": 0,
+    "ticket": "门票约几十元",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "solo",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/35870231/pexels-photo-35870231.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35870231/pexels-photo-35870231.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6990,
+      "height": 4660,
+      "alt": "Explore the elegant interior of an Istanbul museum showcasing art and artifacts.",
+      "query": "museum exhibition hall dalian",
+      "credit": {
+        "source": "pexels",
+        "author": "Gül Işık",
+        "sourceUrl": "https://www.pexels.com/photo/intricate-istanbul-museum-interior-display-35870231/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/15074424/pexels-photo-15074424.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/15074424/pexels-photo-15074424.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4224,
+      "height": 6582,
+      "alt": "Beautifully carved ceiling and grand chandelier inside a museum in Sofia, Bulgaria.",
+      "query": "museum exhibition hall dalian",
+      "credit": {
+        "source": "pexels",
+        "author": "Stijn Dijkstra",
+        "sourceUrl": "https://www.pexels.com/photo/ceiling-with-bas-reliefs-and-chandelier-15074424/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27945763/pexels-photo-27945763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27945763/pexels-photo-27945763.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Intricately crafted golden statue showcased in a Chinese history museum exhibit with detailed background art.",
+      "query": "museum exhibition hall dalian",
+      "credit": {
+        "source": "pexels",
+        "author": "Teysa Tugadi",
+        "sourceUrl": "https://www.pexels.com/photo/a-statue-of-a-buddha-in-a-glass-case-27945763/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "博物馆",
+    "贝壳",
+    "海洋"
+  ],
+  "popularity": 40,
+  "sources": [
+    {
+      "title": "百度百科·大连贝壳博物馆",
+      "url": "https://baike.baidu.com/item/%E5%A4%A7%E8%BF%9E%E8%B4%9D%E5%A3%B3%E5%8D%9A%E7%89%A9%E9%A6%86",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "贝壳博物馆"
+  },
+  "_geocodeTitle": "大连贝壳博物馆停车场",
+  "_geocodeSuspect": false,
+  "district": "210204"
+}

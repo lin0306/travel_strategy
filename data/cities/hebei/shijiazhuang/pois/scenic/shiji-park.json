@@ -1,0 +1,118 @@
+{
+  "id": "shiji-park",
+  "name": "世纪公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "裕华区的大湖公园，电视塔是标志。",
+  "description": "世纪公园在裕华区体育南大街，是石家庄主城东南一片大湖公园，石家庄电视塔立在园中，是城市天际线的标志。园里有音乐喷泉、草坪和一片健身步道。免费、开阔，傍晚家庭多。",
+  "highlights": [
+    "裕华大湖公园，电视塔在园中",
+    "音乐喷泉与草坪步道",
+    "免费，傍晚家庭多"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.537111,
+      "lat": 38.019912,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "石家庄市裕华区槐底街道体育南大街267号",
+    "district": "裕华区",
+    "transportTip": "市区乘公交或打车至体育南大街世纪公园",
+    "entrance": {
+      "lng": 114.533728,
+      "lat": 38.020647,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/2011_Century_Park_1.JPG/1280px-2011_Century_Park_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/2011_Century_Park_1.JPG/1280px-2011_Century_Park_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "2011 Century Park 1.JPG",
+      "query": "世纪公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "J. Patrick Fischer",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2011_Century_Park_1.JPG",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Century_Park_002.JPG/1280px-Century_Park_002.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Century_Park_002.JPG/1280px-Century_Park_002.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Century Park 002.JPG",
+      "query": "世纪公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Emcc83",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Century_Park_002.JPG",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Century_Park_Shanghai%2C_fishing.jpg/1280px-Century_Park_Shanghai%2C_fishing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Century_Park_Shanghai%2C_fishing.jpg/1280px-Century_Park_Shanghai%2C_fishing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Century Park Shanghai, fishing.jpg",
+      "query": "世纪公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Peripitus",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Century_Park_Shanghai,_fishing.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "公园",
+    "电视塔",
+    "免费"
+  ],
+  "popularity": 58,
+  "sources": [
+    {
+      "title": "百度百科·世纪公园",
+      "url": "https://baike.baidu.com/item/%E4%B8%96%E7%BA%AA%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "世纪公园"
+  },
+  "_geocodeTitle": "世纪公园",
+  "_geocodeSuspect": false,
+  "district": "130108"
+}

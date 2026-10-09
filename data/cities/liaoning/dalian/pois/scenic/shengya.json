@@ -1,0 +1,119 @@
+{
+  "id": "shengya",
+  "name": "圣亚海洋世界",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "沙河口一处海洋馆，有海底隧道与极地馆。",
+  "description": "圣亚海洋世界在大连沙河口星海边，是一处海洋馆，最有名的是一条海底隧道，鱼在头顶游。还有极地馆、珊瑚馆。和老虎滩是大连两个海洋去处。几个看点：沙河口星海边海洋馆；海底隧道鱼在头顶游；与老虎滩并立的海洋去处。",
+  "highlights": [
+    "沙河口星海边海洋馆",
+    "海底隧道鱼在头顶游",
+    "与老虎滩并立的海洋去处"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.570817,
+      "lat": 38.878447,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省大连市沙河口区圣亚海洋世界",
+    "district": "沙河口区",
+    "transportTip": "沙河口区乘公交或地铁可达",
+    "entrance": {
+      "lng": 121.571364,
+      "lat": 38.879672,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约8:30-17:00",
+    "openHoursRef": 0,
+    "ticket": "门票约一百多元",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "friends",
+    "couple",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/17583739/pexels-photo-17583739.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/17583739/pexels-photo-17583739.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6573,
+      "height": 4382,
+      "alt": "Explore the serene rocky coastline of Dalian, Liaoning Province, China.",
+      "query": "natural landscape China dalian",
+      "credit": {
+        "source": "pexels",
+        "author": "昆 阿",
+        "sourceUrl": "https://www.pexels.com/photo/sea-shore-with-rocks-17583739/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/13921061/pexels-photo-13921061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/13921061/pexels-photo-13921061.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4416,
+      "height": 2944,
+      "alt": "A breathtaking aerial view of Dalian's modern skyline across the calm blue sea.",
+      "query": "natural landscape China dalian",
+      "credit": {
+        "source": "pexels",
+        "author": "liu zhenao",
+        "sourceUrl": "https://www.pexels.com/photo/body-of-water-and-a-modern-city-skyline-in-distance-13921061/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/20016527/pexels-photo-20016527.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/20016527/pexels-photo-20016527.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2000,
+      "height": 2997,
+      "alt": "Scenic view of Dalian's urban skyline featuring distinctively styled towers by the sea.",
+      "query": "natural landscape China dalian",
+      "credit": {
+        "source": "pexels",
+        "author": "zhou shen",
+        "sourceUrl": "https://www.pexels.com/photo/tower-in-dalian-habor-20016527/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "海洋馆",
+    "海底隧道",
+    "亲子"
+  ],
+  "popularity": 60,
+  "sources": [
+    {
+      "title": "百度百科·圣亚海洋世界",
+      "url": "https://baike.baidu.com/item/%E5%9C%A3%E4%BA%9A%E6%B5%B7%E6%B4%8B%E4%B8%96%E7%95%8C",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "圣亚海洋世界"
+  },
+  "_geocodeTitle": "圣亚海洋世界",
+  "_geocodeSuspect": false,
+  "district": "210204"
+}

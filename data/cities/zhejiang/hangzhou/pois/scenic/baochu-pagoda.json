@@ -1,0 +1,112 @@
+{
+  "id": "baochu-pagoda",
+  "name": "保俶塔与宝石山",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "北岸的制高点，看西湖最开阔的地方之一。",
+  "description": "保俶塔在宝石山上，始建於五代吴越时期，与南岸的雷峰塔构成对峙。塔本身不大，但宝石山的岩体（流纹岩里的红色凝灰岩球）在阳光下泛红，这是「宝石」这个名字的来历。从黄龙洞一侧上山约半小时，山顶看湖的视野比雷峰塔更开阔。",
+  "highlights": [
+    "与雷峰塔南北对峙",
+    "山体岩石泛红是名称由来",
+    "山顶视野比雷峰塔更开阔"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.147117,
+      "lat": 30.260726,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "杭州市西湖区宝石山下",
+    "district": "西湖区",
+    "transportTip": "地铁3号线黄龙洞站步行上山"
+  },
+  "practical": {
+    "openHours": "全天开放(塔外部观看)",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/5350768/pexels-photo-5350768.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/5350768/pexels-photo-5350768.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3625,
+      "height": 5657,
+      "alt": "A beautifully lit traditional Chinese pagoda stands over water, reflecting in the tranquil night scene.",
+      "query": "Chinese historic architecture hangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Dawn Lio",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-temple-in-lights-on-water-at-night-5350768/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/25038570/pexels-photo-25038570.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/25038570/pexels-photo-25038570.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4024,
+      "height": 6048,
+      "alt": "Leifeng Pagoda in Hangzhou, China, amidst lush greenery under a cloudy sky.",
+      "query": "Chinese historic architecture hangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Lu Zhao",
+        "sourceUrl": "https://www.pexels.com/photo/leifeng-pagoda-in-hangzhou-in-china-25038570/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7532194/pexels-photo-7532194.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7532194/pexels-photo-7532194.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4912,
+      "height": 3264,
+      "alt": "Peaceful scene featuring a boat on West Lake with Leifeng Pagoda in Hangzhou, China.",
+      "query": "Chinese historic architecture hangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Leon Huang",
+        "sourceUrl": "https://www.pexels.com/photo/leifeng-pagoda-in-china-7532194/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "塔",
+    "登山",
+    "俯瞰"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "百度百科·保俶塔",
+      "url": "https://baike.baidu.com/item/%E4%BF%9D%E4%BF%B6%E5%A1%94",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "保俶塔与宝石山"
+  },
+  "_geocodeTitle": "宝石山",
+  "_geocodeSuspect": false,
+  "district": "330106"
+}

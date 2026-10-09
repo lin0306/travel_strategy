@@ -1,0 +1,104 @@
+{
+  "id": "lihu-gongyuan",
+  "name": "蠡湖公园",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "城区边的湖滨公园，免费看太湖。",
+  "description": "蠡湖公园在无锡城区西侧、蠡湖之滨，是市民散步、骑行和看湖的免费公园，有长堤、草坪和跨湖大桥。它比鼋头渚更日常、更开阔，适合傍晚来吹吹风、看落日。与蠡园、蠡湖大桥公园相连，轻松半日。免费开放。",
+  "highlights": [
+    "城区西侧蠡湖滨免费公园",
+    "长堤草坪跨湖桥，看落日",
+    "比鼋头渚更日常"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.269385,
+      "lat": 31.520489,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "无锡市滨湖区蠡湖公园",
+    "district": "滨湖区",
+    "transportTip": "公交至蠡湖公园站",
+    "entrance": {
+      "lng": 120.271411,
+      "lat": 31.521182,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "solo",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Lihu_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Lihu_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 810,
+      "alt": "Lihu Park.jpg",
+      "query": "蠡湖公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Jiang Zhe",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lihu_Park.jpg",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/%E8%A0%A1%E6%B9%96%E5%A4%A7%E6%A1%A5%E5%85%AC%E5%9B%AD.jpg/1280px-%E8%A0%A1%E6%B9%96%E5%A4%A7%E6%A1%A5%E5%85%AC%E5%9B%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/%E8%A0%A1%E6%B9%96%E5%A4%A7%E6%A1%A5%E5%85%AC%E5%9B%AD.jpg/1280px-%E8%A0%A1%E6%B9%96%E5%A4%A7%E6%A1%A5%E5%85%AC%E5%9B%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "蠡湖大桥公园.jpg",
+      "query": "蠡湖公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "EditQ",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%A0%A1%E6%B9%96%E5%A4%A7%E6%A1%A5%E5%85%AC%E5%9B%AD.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湖滨",
+    "公园",
+    "免费"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·蠡湖",
+      "url": "https://baike.baidu.com/item/%E8%A0%A1%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "蠡湖公园"
+  },
+  "_geocodeTitle": "蠡湖公园",
+  "_geocodeSuspect": false,
+  "district": "320211"
+}

@@ -1,0 +1,104 @@
+{
+  "id": "yangma-dao",
+  "name": "养马岛",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "近年走红的环岛海岸，清澈海水与骑行道。",
+  "description": "养马岛在烟台牟平区以北的黄海之中，通过跨海大桥与陆地相连。岛上环岛公路贴着海岸线，一侧是礁石与碧蓝海水，一侧是山林与村落，骑行或自驾一圈很舒畅。海水能见度好，多处海滩适合踏浪、看日落；岛上的獐岛、秦风崖是热门机位。免费上岛，周末与暑期人多，建议工作日或清晨来。配半天到一天。",
+  "highlights": [
+    "环岛碧蓝海水",
+    "骑行自驾舒畅",
+    "獐岛秦风崖机位"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.620872,
+      "lat": 37.469318,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "烟台市牟平区养马岛",
+    "district": "牟平区",
+    "transportTip": "跨海大桥自驾或公交进岛",
+    "entrance": {
+      "lng": 121.611353,
+      "lat": 37.453864,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Untitled_-_panoramio_-_China_Q-H.jpg/1280px-Untitled_-_panoramio_-_China_Q-H.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Untitled_-_panoramio_-_China_Q-H.jpg/1280px-Untitled_-_panoramio_-_China_Q-H.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Untitled - panoramio - China Q-H.jpg",
+      "query": "养马岛 烟台",
+      "credit": {
+        "source": "wikimedia",
+        "author": "China Q-H",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Untitled_-_panoramio_-_China_Q-H.jpg",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Homebred_goat.jpg/1280px-Homebred_goat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Homebred_goat.jpg/1280px-Homebred_goat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 699,
+      "alt": "Homebred goat.jpg",
+      "query": "养马岛",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Wilfredor",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Homebred_goat.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "养马岛",
+    "环岛",
+    "骑行"
+  ],
+  "popularity": 86,
+  "sources": [
+    {
+      "title": "百度百科·养马岛",
+      "url": "https://baike.baidu.com/item/%E5%85%BB%E9%A9%AC%E5%B2%9B",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-05"
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "养马岛"
+  },
+  "_geocodeTitle": "养马岛旅游度假区",
+  "_geocodeSuspect": false,
+  "district": "370612"
+}

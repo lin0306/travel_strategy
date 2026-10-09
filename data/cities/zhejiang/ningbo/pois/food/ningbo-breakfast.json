@@ -1,0 +1,112 @@
+{
+  "id": "ningbo-breakfast",
+  "name": "宁波早饭摊",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "老城巷子里的早点摊，豆浆、油条、粢饭糕与大饼，是这座城一天开始的样子。",
+  "description": "宁波的早点与江南这一片大同小异，但有几样是本地常出现的：粢饭糕 —— 米饭压成块下锅炸，外脆里软，是这里很常见的一样；大饼包油条，甜咸两味；还有豆浆、豆腐脑、小笼与馄饨。摊子多在老城的巷子口与菜场边上，早上六点到九点最旺，之后陆续收。价格便宜，一个人几块钱能吃饱。它没有招牌、没有名字，在地图上也未必找得到，但是这座城一天真正开始的地方。想找就往菜场方向走，人多的那家通常最稳。吃完顺路逛菜场，能看到当天上岸的水产。",
+  "highlights": [
+    "粢饭糕是这里很常见的一样，米饭压块下锅炸",
+    "摊子多在巷子口与菜场边，六点到九点最旺",
+    "几块钱能吃饱，人多的那家通常最稳"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.542185,
+      "lat": 29.876181,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "浙江省宁波市海曙区鼓楼街道",
+    "district": "海曙区",
+    "transportTip": "地铁一号线鼓楼站步行至老城巷口"
+  },
+  "practical": {
+    "openHours": "约5:30-9:30，以现场为准",
+    "openHoursRef": 0,
+    "ticket": "人均便宜",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4240,
+      "height": 2832,
+      "alt": "A bustling street food stall offering traditional dishes to a customer in stylish winter attire.",
+      "query": "Chinese street food dish ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3032,
+      "height": 3923,
+      "alt": "Browse a bustling Shenzhen food stall with diverse Asian meals and colorful bowls, embodying Chinese culinary culture.",
+      "query": "Chinese street food dish ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Jaime Hernandez Erives",
+        "sourceUrl": "https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6440090/pexels-photo-6440090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6440090/pexels-photo-6440090.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4856,
+      "height": 3237,
+      "alt": "Close-up of delicious Chinese street food in a paper bowl held by a hand, featuring seasoned fried potatoes.",
+      "query": "Chinese street food dish ningbo",
+      "credit": {
+        "source": "pexels",
+        "author": "Mackenzie Ryder",
+        "sourceUrl": "https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "早点",
+    "粢饭糕",
+    "市井"
+  ],
+  "popularity": 66,
+  "sources": [
+    {
+      "title": "百度百科·粢饭糕",
+      "url": "https://baike.baidu.com/item/%E7%B2%A2%E9%A5%AD%E7%B3%95",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "宁波早饭摊"
+  },
+  "_geocodeTitle": "鼓楼街道",
+  "district": "330203"
+}

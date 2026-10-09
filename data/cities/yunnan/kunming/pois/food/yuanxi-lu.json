@@ -1,0 +1,81 @@
+{
+  "id": "yuanxi-lu",
+  "name": "园西路美食街",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "云南大学旁边的一条小吃街，傍晚开始摊子一路排开。",
+  "description": "园西路在五华区，云南大学东门那一片，是学生吃饭的一条街。白天是普通的街道，下午四点多开始，摊子一辆辆推出来，到晚上七八点整条街挤满人。卖的多是便宜管饱的：烧饵块、烤猪蹄、炸洋芋、铁板豆腐、炒米线、烤肉串，以及奶茶与水果摊。价格低，十几二十块能吃饱，学生占了一大半。这一带也是昆明的老学区，云大、师大与文林街连成一片，吃完沿文林街走是翠湖方向。街上人多、路窄，保管好随身的东西。",
+  "highlights": [
+    "云南大学东门一带的学生吃饭街",
+    "傍晚摊子推出来，七八点最挤",
+    "烧饵块、烤猪蹄、炸洋芋、炒米线一路排开"
+  ],
+  "location": {
+    "point": {
+      "lng": 102.706214,
+      "lat": 25.055609,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "云南省昆明市五华区华山街道圆西路(圆西美食街区)",
+    "district": "五华区",
+    "transportTip": "多路公交至云南大学站，步行约五分钟"
+  },
+  "practical": {
+    "openHours": "约16:00-23:00（各摊不同），以现场为准",
+    "openHoursRef": 0,
+    "ticket": "人均约30元起，以实际消费为准",
+    "ticketRef": 0,
+    "duration": "建议 45-120 分钟",
+    "durationMinutes": [
+      45,
+      120
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "solo",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/%E7%83%A4%E5%88%80%E9%B8%AD_-_%E4%BC%8A%E6%83%A0%E5%9B%AD_%E6%B8%85%E7%9C%9F_%E9%A4%90%E5%8E%85_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/%E7%83%A4%E5%88%80%E9%B8%AD_-_%E4%BC%8A%E6%83%A0%E5%9B%AD_%E6%B8%85%E7%9C%9F_%E9%A4%90%E5%8E%85_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 810,
+      "alt": "烤刀鸭 - 伊惠园 清真 餐厅 2007.jpg",
+      "query": "Chinese street food dish kunming",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Alpha",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%83%A4%E5%88%80%E9%B8%AD_-_%E4%BC%8A%E6%83%A0%E5%9B%AD_%E6%B8%85%E7%9C%9F_%E9%A4%90%E5%8E%85_2007.jpg",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "小吃街",
+    "学生",
+    "夜市"
+  ],
+  "popularity": 77,
+  "sources": [
+    {
+      "title": "百度百科·云南大学",
+      "url": "https://baike.baidu.com/item/%E4%BA%91%E5%8D%97%E5%A4%A7%E5%AD%A6",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-28"
+    }
+  ],
+  "updatedAt": "2026-09-28",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "园西路美食街"
+  },
+  "district": "530102"
+}

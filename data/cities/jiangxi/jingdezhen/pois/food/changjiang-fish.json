@@ -1,0 +1,112 @@
+{
+  "id": "changjiang-fish",
+  "name": "昌江鱼",
+  "category": "food",
+  "subtype": "local",
+  "summary": "昌江里的河鱼，小馆子红烧或清蒸，本地人下饭的一道。",
+  "description": "昌江从城里过，江里的鱼是本地馆子常做的一道。常见的是红烧或清蒸的鲫鱼、鲶鱼。它不是什么名贵的鱼，胜在新鲜。小馆子做得好，味道重，下饭。价格不贵。配一碗米饭最合适。",
+  "highlights": [
+    "昌江河鱼，小馆红烧或清蒸",
+    "非名贵鱼，胜在新鲜",
+    "味道重下饭，价不贵"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.073001,
+      "lat": 29.212031,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "江西省景德镇市昌江区昌江鱼馆",
+    "district": "昌江区",
+    "transportTip": "市区步行或公交到店"
+  },
+  "practical": {
+    "openHours": "约10:00-21:00",
+    "openHoursRef": 0,
+    "ticket": "人均约55元",
+    "ticketRef": 0,
+    "duration": "建议 40-80 分钟",
+    "durationMinutes": [
+      40,
+      80
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/28571659/pexels-photo-28571659.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/28571659/pexels-photo-28571659.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5464,
+      "height": 3640,
+      "alt": "People fishing along a rocky riverbank, captured from above, showcasing outdoor recreation.",
+      "query": "Changjiang river fish Jiangxi",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-people-fishing-by-a-river-28571659/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/28571657/pexels-photo-28571657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/28571657/pexels-photo-28571657.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5464,
+      "height": 3219,
+      "alt": "Aerial shot of people fishing on a riverbank, showcasing community and nature.",
+      "query": "Changjiang river fish Jiangxi",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-people-by-a-riverbank-fishing-28571657/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/28571658/pexels-photo-28571658.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/28571658/pexels-photo-28571658.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5464,
+      "height": 3640,
+      "alt": "Aerial photograph showing people fishing on a riverbank with green waters.",
+      "query": "Changjiang river fish Jiangxi",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-people-fishing-on-riverbank-28571658/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "河鱼",
+    "本地菜",
+    "下饭"
+  ],
+  "popularity": 56,
+  "sources": [
+    {
+      "title": "百度百科·昌江",
+      "url": "https://baike.baidu.com/item/%E6%98%8C%E6%B1%9F",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Changjiang river fish Jiangxi",
+    "zh": "昌江鱼"
+  },
+  "_geocodeTitle": "昌江鱼丽工业园",
+  "_geocodeSuspect": false,
+  "district": "360202"
+}

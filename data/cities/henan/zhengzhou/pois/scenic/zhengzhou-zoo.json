@@ -1,0 +1,118 @@
+{
+  "id": "zhengzhou-zoo",
+  "name": "郑州动物园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "老牌城市动物园，动物种类齐全，带孩子看一天没问题。",
+  "description": "郑州动物园在金水区花园路北段，是郑州为数不多的大型动物园之一。园内按动物分区：猛兽区、草食区、鸟禽区、灵长区各自成片，大象、长颈鹿、河马这些大型动物都有。园中树木高大，夏天走起来不算晒。海洋馆与儿童游乐区单独收费，带小孩的可以备着。周末上午最挤，想安静点就下午来。园外就是花园路商圈，出来吃饭方便。",
+  "highlights": [
+    "大型动物种类齐全",
+    "树荫浓好走",
+    "海洋馆与儿童区"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.684878,
+      "lat": 34.78919,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河南省郑州市金水区花园路郑州动物园",
+    "district": "金水区",
+    "transportTip": "市区乘地铁2号线到关虎屯站，或乘多路公交到动物园站",
+    "entrance": {
+      "lng": 113.681774,
+      "lat": 34.789462,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:00-18:00，以园方公告为准",
+    "openHoursRef": 0,
+    "ticket": "约30元起，海洋馆另计，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 120-180 分钟",
+    "durationMinutes": [
+      120,
+      180
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Zhengzhou_Zoo_2.jpg/1280px-Zhengzhou_Zoo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Zhengzhou_Zoo_2.jpg/1280px-Zhengzhou_Zoo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Zhengzhou Zoo 2.jpg",
+      "query": "郑州动物园 郑州",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Gary Todd",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhengzhou_Zoo_2.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Zhengzhou_Zoo_Black_Swans.jpg/1280px-Zhengzhou_Zoo_Black_Swans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Zhengzhou_Zoo_Black_Swans.jpg/1280px-Zhengzhou_Zoo_Black_Swans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Zhengzhou Zoo Black Swans.jpg",
+      "query": "郑州动物园 郑州",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Gary Todd",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhengzhou_Zoo_Black_Swans.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Zhengzhou_Zoo_Elephant.jpg/1280px-Zhengzhou_Zoo_Elephant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Zhengzhou_Zoo_Elephant.jpg/1280px-Zhengzhou_Zoo_Elephant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Zhengzhou Zoo Elephant.jpg",
+      "query": "郑州动物园 郑州",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Gary Todd",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhengzhou_Zoo_Elephant.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "动物园",
+    "亲子",
+    "动物"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "郑州动物园·百度百科",
+      "url": "https://baike.baidu.com/item/%E9%83%91%E5%B7%9E%E5%8A%A8%E7%89%A9%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Zhengzhou Zoo",
+    "zh": "郑州动物园"
+  },
+  "_geocodeTitle": "郑州市动物园",
+  "_geocodeSuspect": false,
+  "district": "410105"
+}

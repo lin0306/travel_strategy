@@ -1,0 +1,111 @@
+{
+  "id": "taohuawu-block",
+  "name": "桃花坞街区",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "唐寅故居所在的这一片老街区，桃花坞木刻年画的产地就在这里。",
+  "description": "桃花坞在古城西北，因唐寅（唐伯虎）住在这里而出名，他的故居遗址在这一片。这里另一件更有分量的东西是桃花坞木刻年画——与天津杨柳青并称，是南方年画的代表，做法是一色一版、套印而成。街区本身还在改造中，老巷与新开的店混在一起。来这里主要是看年画与找唐寅的痕迹，不是逛街。离北寺塔与丝绸博物馆都不远。",
+  "highlights": [
+    "唐寅故居所在的街区",
+    "桃花坞木刻年画的产地",
+    "与天津杨柳青并称的年画"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.614325,
+      "lat": 31.319717,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "苏州市姑苏区桃花坞大街",
+    "district": "姑苏区",
+    "transportTip": "地铁北寺塔站步行约10分钟"
+  },
+  "practical": {
+    "openHours": "全天开放，店铺以各自营业时间为准",
+    "openHoursRef": 0,
+    "ticket": "无门票",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/A_picture_from_China_every_day_061.jpg/1280px-A_picture_from_China_every_day_061.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/A_picture_from_China_every_day_061.jpg/1280px-A_picture_from_China_every_day_061.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "A picture from China every day 061.jpg",
+      "query": "Chinese old town street suzhou",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Carsten Ullrich from Shanghai, China",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_picture_from_China_every_day_061.jpg",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Changmen.jpg/1280px-Changmen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Changmen.jpg/1280px-Changmen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Changmen.jpg",
+      "query": "Chinese old town street suzhou",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Chinatravelsavvy",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Changmen.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Guangqian_Jie.jpg/1280px-Guangqian_Jie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Guangqian_Jie.jpg/1280px-Guangqian_Jie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Guangqian Jie.jpg",
+      "query": "Chinese old town street suzhou",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Chinatravelsavvy",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guangqian_Jie.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "年画",
+    "唐寅",
+    "老街区"
+  ],
+  "popularity": 56,
+  "sources": [
+    {
+      "title": "百度百科·桃花坞木版年画",
+      "url": "https://baike.baidu.com/item/%E6%A1%83%E8%8A%B1%E5%9D%9E%E6%9C%A8%E7%89%88%E5%B9%B4%E7%94%BB",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "桃花坞街区"
+  },
+  "_geocodeTitle": "桃花坞大街",
+  "_geocodeSuspect": false,
+  "district": "320508"
+}

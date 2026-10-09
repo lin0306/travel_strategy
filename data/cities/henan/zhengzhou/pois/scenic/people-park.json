@@ -1,0 +1,118 @@
+{
+  "id": "people-park",
+  "name": "郑州人民公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "市中心的老公园，湖、假山、回廊齐全，春天樱花与秋日银杏都好看。",
+  "description": "郑州人民公园在金水区二七路北段，是郑州人逛了几十年的老园子。园里有湖、有假山、有回廊，布局是传统园林的路子，走几步就换一景。春天樱花和海棠开得热闹，秋天银杏一片金黄，是很多人每年来拍照的地方。园内还有小型游乐设施和露天舞场，傍晚热闹。南门正对二七商圈，逛街前后顺路进来走一圈正合适。",
+  "highlights": [
+    "老城中心的传统园林",
+    "春樱秋杏两季",
+    "湖畔回廊与假山"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.662795,
+      "lat": 34.761103,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河南省郑州市金水区二七路郑州人民公园",
+    "district": "金水区",
+    "transportTip": "市区乘地铁1号线到人民路站，或乘多路公交到人民公园站",
+    "entrance": {
+      "lng": 113.666853,
+      "lat": 34.761944,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约06:00-22:00，以园方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费开放",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "family",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/20211212_People%27s_Park_07.jpg/1280px-20211212_People%27s_Park_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/20211212_People%27s_Park_07.jpg/1280px-20211212_People%27s_Park_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "20211212 People's Park 07.jpg",
+      "query": "郑州人民公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Windmemories",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20211212_People%27s_Park_07.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Entrance_of_Guanlan_Renmin_Park%2C_picture2.jpg/1280px-Entrance_of_Guanlan_Renmin_Park%2C_picture2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Entrance_of_Guanlan_Renmin_Park%2C_picture2.jpg/1280px-Entrance_of_Guanlan_Renmin_Park%2C_picture2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Entrance of Guanlan Renmin Park, picture2.jpg",
+      "query": "郑州人民公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Huangdan2060",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entrance_of_Guanlan_Renmin_Park,_picture2.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Ferris_wheel_at_Renmin_Park%2C_Zhengzhou.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Ferris_wheel_at_Renmin_Park%2C_Zhengzhou.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 720,
+      "alt": "Ferris wheel at Renmin Park, Zhengzhou.jpg",
+      "query": "郑州人民公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "northcapital",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ferris_wheel_at_Renmin_Park,_Zhengzhou.jpg",
+        "license": "CC BY 2.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "公园",
+    "樱花",
+    "银杏"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "郑州人民公园·百度百科",
+      "url": "https://baike.baidu.com/item/%E9%83%91%E5%B7%9E%E4%BA%BA%E6%B0%91%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Zhengzhou People's Park",
+    "zh": "郑州人民公园"
+  },
+  "_geocodeTitle": "郑州市人民公园",
+  "_geocodeSuspect": false,
+  "district": "410105"
+}

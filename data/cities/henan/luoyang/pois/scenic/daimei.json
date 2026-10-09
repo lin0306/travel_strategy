@@ -1,0 +1,117 @@
+{
+  "id": "daimei",
+  "name": "黛眉山",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "新安一处黄河岸边的山，崖壁与云海，世界地质公园。",
+  "description": "黛眉山在洛阳新安，是一处黄河岸边的山，属于世界地质公园。崖壁陡、山顶平，云海与日出好看。和龙潭大峡谷同区。人比老君山少。从洛阳过来约两小时。几个看点：新安黄河岸边山，世界地质公园；崖陡顶平，云海日出好看；与龙潭峡同区，人少。",
+  "highlights": [
+    "新安黄河岸边山，世界地质公园",
+    "崖陡顶平，云海日出好看",
+    "与龙潭峡同区，人少"
+  ],
+  "location": {
+    "point": {
+      "lng": 111.96018,
+      "lat": 35.032667,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河南省洛阳市新安县黛眉山景区",
+    "district": "新安县",
+    "transportTip": "从洛阳往新安方向乘车约两小时",
+    "entrance": {
+      "lng": 111.976074,
+      "lat": 35.040506,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约7:30-17:30",
+    "openHoursRef": 0,
+    "ticket": "门票约几十到上百元",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/35045252/pexels-photo-35045252.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35045252/pexels-photo-35045252.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 6048,
+      "alt": "Scenic view of Luoyang cityscape with high-rise buildings and the Luo River.",
+      "query": "natural landscape China luoyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Bingqian Li",
+        "sourceUrl": "https://www.pexels.com/photo/high-rise-buildings-along-luo-river-in-luoyang-35045252/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/5342965/pexels-photo-5342965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/5342965/pexels-photo-5342965.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5472,
+      "height": 3648,
+      "alt": "Breathtaking aerial view of Mount Laojun Temple at sunset in the mountains of China.",
+      "query": "natural landscape China luoyang",
+      "credit": {
+        "source": "pexels",
+        "author": "will louis",
+        "sourceUrl": "https://www.pexels.com/photo/temples-on-top-of-the-mountain-5342965/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34932052/pexels-photo-34932052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34932052/pexels-photo-34932052.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5472,
+      "height": 3648,
+      "alt": "Explore the historic Longmen Grottoes adorned with ancient Buddhist statues under a vibrant blue sky.",
+      "query": "natural landscape China luoyang",
+      "credit": {
+        "source": "pexels",
+        "author": "fei wang",
+        "sourceUrl": "https://www.pexels.com/photo/majestic-longmen-grottoes-on-a-sunny-day-34932052/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "山",
+    "黄河",
+    "地质公园"
+  ],
+  "popularity": 46,
+  "sources": [
+    {
+      "title": "百度百科·黛眉山",
+      "url": "https://baike.baidu.com/item/%E9%BB%9B%E7%9C%89%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "黛眉山"
+  },
+  "_geocodeTitle": "黛眉山风景区",
+  "_geocodeSuspect": false,
+  "district": "410323"
+}

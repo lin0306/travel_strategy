@@ -1,0 +1,83 @@
+{
+  "id": "kao-yangpai",
+  "name": "烤羊排",
+  "category": "food",
+  "subtype": "local",
+  "summary": "炭火烤羊排，外焦里嫩。",
+  "description": "烤羊排是草原上比烤全羊更日常的吃法，把羊肋排用孜然、辣椒和盐腌过，炭火烤到表面焦香、里头还带汁。它比整羊便宜、上菜快，适合两三个人分食。在蒙餐馆和营地烧烤摊都常见，配啤酒和奶茶最对味。肥瘦相间的部位最香，下手抓着吃才痛快。",
+  "highlights": [
+    "炭火烤羊肋排",
+    "外焦里嫩上菜快",
+    "比全羊日常便宜"
+  ],
+  "location": {
+    "point": {
+      "lng": 119.778481,
+      "lat": 49.212481,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "呼伦贝尔市海拉尔区及营地蒙餐",
+    "district": "海拉尔区",
+    "transportTip": "市区与营地餐馆"
+  },
+  "practical": {
+    "openHours": "约11:00-14:00 / 17:00-22:00（以门店为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约70元，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "friends",
+    "elders",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Freshippo_grilled_lamb_chops.jpg/1280px-Freshippo_grilled_lamb_chops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Freshippo_grilled_lamb_chops.jpg/1280px-Freshippo_grilled_lamb_chops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 486,
+      "alt": "Freshippo grilled lamb chops.jpg",
+      "query": "烤羊排",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Fumikas Sagisavas",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Freshippo_grilled_lamb_chops.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "烤羊排",
+    "蒙餐",
+    "烧烤"
+  ],
+  "popularity": 82,
+  "sources": [
+    {
+      "title": "百度百科·烤羊排",
+      "url": "https://baike.baidu.com/item/%E7%83%A4%E7%BE%8A%E6%8E%92",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-05"
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "烤羊排"
+  },
+  "_geocodeTitle": "羊味道烤羊腿羊排",
+  "_geocodeSuspect": false,
+  "district": "150702"
+}

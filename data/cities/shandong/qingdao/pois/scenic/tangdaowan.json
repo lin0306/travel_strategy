@@ -1,0 +1,114 @@
+{
+  "id": "tangdaowan",
+  "name": "唐岛湾公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "黄岛内湾的一片湿地与骑行道，海面平静，对面是新区的高楼。",
+  "description": "唐岛湾在黄岛区，是一片被陆地环住的内湾，水面平静，沿着湾修了一条很长的滨海公园与骑行道。公园分南北两岸：南岸是湿地与木栈道，芦苇、滩涂与一片片水面，春秋有候鸟；北岸是广场、草坪与几处游乐设施，家庭多数在那边。沿湾骑车是这里最舒服的玩法，租车的点有几处。对岸是新区的一片高楼，晚上灯亮起来倒映在水里，是黄岛这边的夜景。公园免费，离金沙滩与海上嘉年华都不远，地铁 1 号线过海可到。",
+  "highlights": [
+    "内湾水面平静，沿湾修了很长的骑行道",
+    "南岸湿地木栈道，春秋有候鸟；北岸广场草坪",
+    "对岸新区高楼夜里倒映水面"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.212341,
+      "lat": 35.935173,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山东省青岛市黄岛区唐岛湾（滨海大道一带）",
+    "district": "黄岛区",
+    "transportTip": "地铁1号线过海至黄岛后转乘公交"
+  },
+  "practical": {
+    "openHours": "全天（部分设施时间以现场为准），以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费（租车与游乐项目另计），以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 60-180 分钟",
+    "durationMinutes": [
+      60,
+      180
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37039394/pexels-photo-37039394.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37039394/pexels-photo-37039394.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Beautiful spring garden scene with vivid foliage and a teal pavilion in Qingdao, Shandong, China.",
+      "query": "Chinese classical garden qingdao",
+      "credit": {
+        "source": "pexels",
+        "author": "Duncan Wang",
+        "sourceUrl": "https://www.pexels.com/photo/serene-garden-in-qingdao-during-springtime-37039394/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37106092/pexels-photo-37106092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37106092/pexels-photo-37106092.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "Scenic aerial view of Qingdao with historic architecture and coastal landscape.",
+      "query": "Chinese classical garden qingdao",
+      "credit": {
+        "source": "pexels",
+        "author": "Whale I",
+        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-qingdao-s-historical-architecture-37106092/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/29038201/pexels-photo-29038201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29038201/pexels-photo-29038201.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5184,
+      "height": 3888,
+      "alt": "Panoramic view over Qingdao cityscape featuring iconic landmarks and urban landscape.",
+      "query": "Chinese classical garden qingdao",
+      "credit": {
+        "source": "pexels",
+        "author": "meitetsu chin",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-view-of-qingdao-with-tv-tower-29038201/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湿地",
+    "骑行",
+    "黄岛"
+  ],
+  "popularity": 76,
+  "sources": [
+    {
+      "title": "百度百科·唐岛湾",
+      "url": "https://baike.baidu.com/item/%E5%94%90%E5%B2%9B%E6%B9%BE",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-28"
+    }
+  ],
+  "updatedAt": "2026-09-28",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "唐岛湾公园"
+  },
+  "_geocodeTitle": "唐岛湾滨海公园",
+  "_geocodeSuspect": false,
+  "district": "370211"
+}

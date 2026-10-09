@@ -1,0 +1,113 @@
+{
+  "id": "yantai-haishen",
+  "name": "烟台海参",
+  "category": "food",
+  "subtype": "local",
+  "summary": "黄海刺参，滋补的海八珍之一。",
+  "description": "烟台近海出产的刺参肉质厚实、口感弹糯，是传统的滋补海味。常见葱烧海参、海参小米粥等做法，鲜味醇厚。品质与年份差异大，价格偏高，多在高档餐馆或干货店。秋冬进补季最旺，建议到正规店购买与食用。",
+  "highlights": [
+    "黄海刺参",
+    "滋补海味",
+    "葱烧海参"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.232212,
+      "lat": 37.498206,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "烟台市沿海餐馆与干货店",
+    "district": "招远市",
+    "transportTip": "海鲜餐馆与干货店"
+  },
+  "practical": {
+    "openHours": "约11:00-21:00",
+    "openHoursRef": 0,
+    "ticket": "人均偏高，以店为准",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "high"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/35635436/pexels-photo-35635436.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35635436/pexels-photo-35635436.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6048,
+      "height": 4024,
+      "alt": "Cozy dining car interior with vintage decor and colorful bottles, Yantai, China.",
+      "query": "Chinese restaurant interior yantai",
+      "credit": {
+        "source": "pexels",
+        "author": "Kenny Foo",
+        "sourceUrl": "https://www.pexels.com/photo/interior-of-vintage-dining-car-with-decor-35635436/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4096,
+      "alt": "Charming Asian dining room with bamboo chairs and traditional teaware.",
+      "query": "Chinese restaurant interior yantai",
+      "credit": {
+        "source": "pexels",
+        "author": "TIANYUN XIA",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37047965/pexels-photo-37047965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37047965/pexels-photo-37047965.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4896,
+      "height": 3264,
+      "alt": "Cozy traditional Asian restaurant interior highlighting wooden furnishings and red decor. Ideal for cultural and design ",
+      "query": "Chinese restaurant interior yantai",
+      "credit": {
+        "source": "pexels",
+        "author": "mingche lee",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "海参",
+    "刺参",
+    "滋补"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·海参",
+      "url": "https://baike.baidu.com/item/%E6%B5%B7%E5%8F%82",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-05"
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "烟台海参"
+  },
+  "_geocodeTitle": "渤海餐厅",
+  "_geocodeSuspect": false,
+  "district": "370685"
+}

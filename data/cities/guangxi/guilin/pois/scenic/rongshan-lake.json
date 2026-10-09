@@ -1,0 +1,119 @@
+{
+  "id": "rongshan-lake",
+  "name": "榕杉湖景区",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "宋代城墙留下来的一段护城河，现在是两个连着的湖，沿岸全是树和老房子。",
+  "description": "榕湖与杉湖以前是桂林城墙外的护城河，城墙拆了以后剩下这一段水，成了现在两个相连的湖，是两江四湖里最老的一段。沿湖一圈八九百米，种着上百年的榕树，树冠罩到水面上。湖边散着的东西不少：古南门是宋代城墙唯一留下的一座城门；白崇禧故居、李宗仁文物陈列馆都在这一带；湖中的玻璃桥夜里会变颜色。它没有门票，本地人早晚上这里散步、下棋、唱戏，是活的而不是一个圈起来的景点。日月双塔就立在杉湖里，两个地方是一体的。要逛的话放在傍晚，天没黑到全黑那半小时最好。",
+  "highlights": [
+    "宋代城墙下的护城河剩下来的一段，现在是连着的两个湖",
+    "沿岸上百年的榕树，树冠罩到水面上",
+    "本地人在这散步下棋唱戏，是活的公园不是圈起来的景点"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.290251,
+      "lat": 25.275445,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "广西壮族自治区桂林市秀峰区榕杉湖景区",
+    "district": "秀峰区",
+    "transportTip": "市区步行可达；紧邻日月双塔与古南门",
+    "entrance": {
+      "lng": 110.288127,
+      "lat": 25.274185,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "family",
+    "elders",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/33632718/pexels-photo-33632718.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33632718/pexels-photo-33632718.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 6825,
+      "height": 4541,
+      "alt": "Picturesque view of traditional Chinese architecture and mountains in Guilin, China.",
+      "query": "Chinese classical garden guilin",
+      "credit": {
+        "source": "pexels",
+        "author": "Vincent Tan",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-architecture-in-guilin-33632718/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/2421118/pexels-photo-2421118.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/2421118/pexels-photo-2421118.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Scenic view of traditional Asian architecture and garden pond with mountain backdrop.",
+      "query": "Chinese classical garden guilin",
+      "credit": {
+        "source": "pexels",
+        "author": "Anuar Gresati",
+        "sourceUrl": "https://www.pexels.com/photo/black-temple-2421118/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/19966097/pexels-photo-19966097.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/19966097/pexels-photo-19966097.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Aerial view of Guilin showcasing Solitary Beauty Peak with stunning karst mountains in the background.",
+      "query": "Chinese classical garden guilin",
+      "credit": {
+        "source": "pexels",
+        "author": "YFS Visuals",
+        "sourceUrl": "https://www.pexels.com/photo/solitary-beauty-peak-in-guilin-in-china-19966097/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "古护城河",
+    "老榕树",
+    "免费"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "百度百科·榕湖",
+      "url": "https://baike.baidu.com/item/%E6%A6%95%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "榕杉湖景区"
+  },
+  "_geocodeTitle": "桂林市榕杉湖景区",
+  "_geocodeSuspect": false,
+  "district": "450302"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "nanxiang-steamed-bun",
+  "name": "南翔馒头店(豫园)",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "小笼包的招牌老店，豫园门口常年排队。",
+  "description": "南翔小笼是上海小笼包最有名的一支，源头在南翔镇，到豫园开城隍庙店之后名声传开。它的特点是皮薄、汤多、馅鲜且带一丝甜，吃法是轻轻提起来、先咬开一个小口吸汤。同一栋楼里分好几档：楼上的是蟹粉、鱼翅这类贵的，楼下外卖窗口是普通的鲜肉。队伍的是外卖窗口那一档，但楼上的环境与出品都更稳定。",
+  "highlights": [
+    "先咬小口吸汤是标准吃法",
+    "楼上与楼下的出品不同",
+    "门口排队时间长"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.491468,
+      "lat": 31.226588,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "上海市黄浦区文昌路与豫园路交叉口",
+    "district": "浦东",
+    "transportTip": "地铁10号线豫园站"
+  },
+  "practical": {
+    "openHours": "约07:00-20:00(以门店公告为准)",
+    "openHoursRef": 0,
+    "ticket": "人均约50元起(外卖)、160元起(楼上)，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "couple",
+    "kids",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/2014.11.16.121801_Pond_Yuyuan_Park_Shanghai.jpg/1280px-2014.11.16.121801_Pond_Yuyuan_Park_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/2014.11.16.121801_Pond_Yuyuan_Park_Shanghai.jpg/1280px-2014.11.16.121801_Pond_Yuyuan_Park_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "2014.11.16.121801 Pond Yuyuan Park Shanghai.jpg",
+      "query": "南翔馒头店",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Hermann Luyken",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2014.11.16.121801_Pond_Yuyuan_Park_Shanghai.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Crowded_Nanxiang_Mantou_dian_1_by_Eason_Lai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Crowded_Nanxiang_Mantou_dian_1_by_Eason_Lai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Crowded Nanxiang Mantou dian 1 by Eason Lai.jpg",
+      "query": "南翔馒头店",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Eason Lai from 南翔 (Nanxiang), 豫园 (Yuyuan Gardens), 上海 (Shang",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crowded_Nanxiang_Mantou_dian_1_by_Eason_Lai.jpg",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Flickr_-_archer10_%28Dennis%29_-_China-8359.jpg/1280px-Flickr_-_archer10_%28Dennis%29_-_China-8359.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Flickr_-_archer10_%28Dennis%29_-_China-8359.jpg/1280px-Flickr_-_archer10_%28Dennis%29_-_China-8359.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Flickr - archer10 (Dennis) - China-8359.jpg",
+      "query": "南翔馒头店",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Dennis G. Jarvis",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_archer10_(Dennis)_-_China-8359.jpg",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "小笼包",
+    "老字号",
+    "必吃"
+  ],
+  "popularity": 94,
+  "sources": [
+    {
+      "title": "百度百科·南翔小笼馒头",
+      "url": "https://baike.baidu.com/item/%E5%8D%97%E7%BF%94%E5%B0%8F%E7%AC%BC%E9%A6%92%E5%A4%B4",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "南翔馒头店(豫园)"
+  },
+  "_geocodeTitle": "南翔馒头店(豫园店)",
+  "_geocodeSuspect": false,
+  "district": "310115"
+}

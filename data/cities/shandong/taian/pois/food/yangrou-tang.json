@@ -1,0 +1,113 @@
+{
+  "id": "yangrou-tang",
+  "name": "泰安羊肉汤",
+  "category": "food",
+  "subtype": "local",
+  "summary": "清炖羊肉汤，配饼丝是本地早餐。",
+  "description": "泰安羊肉汤是本地人常喝的汤食，选用山羊肉清炖，汤色乳白、不膻不腻，撒香菜胡椒粉，配饼丝或烧饼。它多在清晨和冷天供应，一碗下肚暖身，是登山前后补力气的家常。街头汤馆多，价格亲民。喜辣的可加羊油辣子，更过瘾。",
+  "highlights": [
+    "清炖山羊肉，汤白不膻",
+    "配饼丝烧饼是早餐",
+    "暖身进补，价亲民"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.120096,
+      "lat": 36.185454,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "泰安市泰山区羊肉汤馆",
+    "district": "泰山区",
+    "transportTip": "街边汤馆"
+  },
+  "practical": {
+    "openHours": "约06:00-14:00（以门店为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约20元，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "elders",
+    "solo",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4096,
+      "alt": "Charming Asian dining room with bamboo chairs and traditional teaware.",
+      "query": "Chinese restaurant interior taian",
+      "credit": {
+        "source": "pexels",
+        "author": "TIANYUN XIA",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37047965/pexels-photo-37047965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37047965/pexels-photo-37047965.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4896,
+      "height": 3264,
+      "alt": "Cozy traditional Asian restaurant interior highlighting wooden furnishings and red decor. Ideal for cultural and design ",
+      "query": "Chinese restaurant interior taian",
+      "credit": {
+        "source": "pexels",
+        "author": "mingche lee",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36684497/pexels-photo-36684497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36684497/pexels-photo-36684497.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4672,
+      "height": 7008,
+      "alt": "Street food vendor cooking in a traditional Chinese kitchen with visible menu.",
+      "query": "Chinese restaurant interior taian",
+      "credit": {
+        "source": "pexels",
+        "author": "natalia duque",
+        "sourceUrl": "https://www.pexels.com/photo/street-food-vendor-preparing-dishes-in-china-36684497/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "羊肉汤",
+    "早餐",
+    "暖身"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "百度百科·羊肉汤",
+      "url": "https://baike.baidu.com/item/%E7%BE%8A%E8%82%89%E6%B1%A4",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "泰安羊肉汤"
+  },
+  "_geocodeTitle": "泰城王氏羊肉汤",
+  "_geocodeSuspect": false,
+  "district": "370902"
+}

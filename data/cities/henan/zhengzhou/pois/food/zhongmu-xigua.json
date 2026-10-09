@@ -1,0 +1,113 @@
+{
+  "id": "zhongmu-xigua",
+  "name": "中牟西瓜",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "中牟沙地的西瓜，皮薄瓤沙汁多，夏天郑州街头的主要货源。",
+  "description": "中牟紧挨郑州东边，沙壤地多，昼夜温差大，种出来的西瓜很甜。瓜皮薄，一刀下去开裂，瓤是沙的，咬一口汁水顺着嘴角流。夏天的郑州街头，很多瓜摊的货就来自中牟，论个或者论斤都好买。挑瓜看纹路清楚、拍起来声音闷的，多半熟得正好。七八月的瓜最好，之后口感渐次下降。带孩子的可以去中牟的瓜地现摘。",
+  "highlights": [
+    "沙地薄皮沙瓤",
+    "夏季郑州主要货源",
+    "可去瓜地现摘"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.035738,
+      "lat": 34.686683,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河南省郑州市中牟县各瓜地与瓜摊",
+    "district": "中牟县",
+    "transportTip": "中牟县各瓜地与路边瓜摊，郑州市区夏季瓜摊多来自中牟"
+  },
+  "practical": {
+    "openHours": "约07:00-20:00，夏季为主",
+    "openHoursRef": 0,
+    "ticket": "约2元/斤起，以摊为准",
+    "ticketRef": 0,
+    "duration": "建议 10-30 分钟",
+    "durationMinutes": [
+      10,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/12798469/pexels-photo-12798469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/12798469/pexels-photo-12798469.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2048,
+      "height": 2730,
+      "alt": "A display of fresh watermelons wrapped in nets at an outdoor market stall with Chinese signs.",
+      "query": "Zhongmu Watermelon",
+      "credit": {
+        "source": "pexels",
+        "author": "billow926",
+        "sourceUrl": "https://www.pexels.com/photo/watermelons-on-a-market-stall-12798469/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/3513238/pexels-photo-3513238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/3513238/pexels-photo-3513238.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Close-up of vibrant watermelon slices showcasing freshness and juiciness.",
+      "query": "Zhongmu Watermelon",
+      "credit": {
+        "source": "pexels",
+        "author": "Elle Hughes",
+        "sourceUrl": "https://www.pexels.com/photo/flat-lay-photography-of-slices-of-red-watermelon-3513238/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/15975999/pexels-photo-15975999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/15975999/pexels-photo-15975999.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 9248,
+      "height": 5929,
+      "alt": "A vibrant display of fresh watermelons at a market in Dhaka, Bangladesh.",
+      "query": "Zhongmu Watermelon",
+      "credit": {
+        "source": "pexels",
+        "author": "Ferdous  Hasan",
+        "sourceUrl": "https://www.pexels.com/photo/display-of-watermelons-15975999/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "西瓜",
+    "中牟",
+    "夏季"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "中牟西瓜·百度百科",
+      "url": "https://baike.baidu.com/item/%E4%B8%AD%E7%89%9F%E8%A5%BF%E7%93%9C",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Zhongmu Watermelon",
+    "zh": "中牟西瓜"
+  },
+  "_geocodeTitle": "中牟乔庄草莓西瓜园",
+  "_geocodeSuspect": false,
+  "district": "410122"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "qiaomian-guanchang",
+  "name": "荞面灌肠",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "太原街头小吃，荞面蒸成坨再切条，浇醋蒜汁与辣椒，凉吃爽利。",
+  "description": "荞面灌肠是太原街头最常见的小吃之一，虽叫灌肠，其实与肉无关。荞麦面调成糊蒸熟，凝成灰褐色的碗状坨，晾凉后切成条或块，浇上老陈醋、蒜水、辣椒油和盐调成的汁，拌匀即食。口感柔韧微弹，荞香明显，夏天凉吃最爽利，也有炒灌肠的热吃做法，加豆芽与肉丝同炒。街边小摊与小吃店都有，价格便宜，分量不大，适合当加餐。初次吃可让摊主少放蒜，醋香是这道小吃的底味。",
+  "highlights": [
+    "荞面蒸坨切条",
+    "醋蒜辣油拌食",
+    "凉吃爽利热炒也行"
+  ],
+  "location": {
+    "point": {
+      "lng": 112.594538,
+      "lat": 37.793137,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山西省太原市各小吃摊与食品街",
+    "district": "小店区",
+    "transportTip": "市区小摊、食品街均有"
+  },
+  "practical": {
+    "openHours": "约10:00-21:00",
+    "openHoursRef": 0,
+    "ticket": "约8元/份起",
+    "ticketRef": 0,
+    "duration": "建议 20-40 分钟",
+    "durationMinutes": [
+      20,
+      40
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "solo",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/7144405/pexels-photo-7144405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7144405/pexels-photo-7144405.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3648,
+      "height": 5472,
+      "alt": "Delicious brown fresh buckwheat pancakes on board placed on table on blurred background",
+      "query": "Buckwheat Guanchang Taiyuan Snack",
+      "credit": {
+        "source": "pexels",
+        "author": "Monstera Production",
+        "sourceUrl": "https://www.pexels.com/photo/buckwheat-pancakes-near-coffee-pot-7144405/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7144441/pexels-photo-7144441.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7144441/pexels-photo-7144441.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3648,
+      "height": 5472,
+      "alt": "Faceless person stacking freshly prepared healthy pancakes on plate placed on wooden table with scattered buckwheat grai",
+      "query": "Buckwheat Guanchang Taiyuan Snack",
+      "credit": {
+        "source": "pexels",
+        "author": "Monstera Production",
+        "sourceUrl": "https://www.pexels.com/photo/unrecognizable-cook-serving-buckwheat-pancakes-on-plate-7144441/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7144669/pexels-photo-7144669.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7144669/pexels-photo-7144669.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5472,
+      "height": 3648,
+      "alt": "Chocolate pancakes with cream served on wooden plate and decorated with apples and hazelnuts on table with ingredients a",
+      "query": "Buckwheat Guanchang Taiyuan Snack",
+      "credit": {
+        "source": "pexels",
+        "author": "Monstera Production",
+        "sourceUrl": "https://www.pexels.com/photo/buckwheat-grains-scattered-near-plate-with-yummy-pancakes-7144669/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "灌肠",
+    "荞面",
+    "小吃"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "灌肠·百度百科",
+      "url": "https://baike.baidu.com/item/%E7%81%8C%E8%82%A0",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Buckwheat Guanchang Taiyuan Snack",
+    "zh": "荞面灌肠"
+  },
+  "_geocodeTitle": "食品街",
+  "district": "140105"
+}

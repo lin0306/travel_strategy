@@ -1,0 +1,82 @@
+{
+  "id": "haohaowei-noodle",
+  "name": "好好味面家",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "蛇口片区留下的一家老铺：煲仔饭与云吞面是它的两个方向。",
+  "description": "蛇口是变化最快的一片地。好好味面家在这一带开了很多年，周围的老村与工业区都换了。它卖的是广东的日常：云吞面、煲仔饭、牛腩粉。煲仔饭要等：瓦煲现煮，十几分钟是常态，锅巴是它的关键。价格实在，附近上班与住的人占多数。它与海上世界、南海意库在同一片，可以顺路。早午餐时段人多。",
+  "highlights": [
+    "云吞面与瓦煲煲仔饭两个方向",
+    "煲仔饭现煮，锅巴是重点",
+    "位于蛇口，可与海上世界一带串起来"
+  ],
+  "location": {
+    "point": {
+      "lng": 113.920869,
+      "lat": 22.532912,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "深圳市南山区蛇口南水村一带（以门店实际地址为准）",
+    "district": "南山区",
+    "transportTip": "地铁2号线东角头站 / 水湾站步行"
+  },
+  "practical": {
+    "openHours": "约07:30-21:30（以门店公告为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约40元起，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/BAO_AN_SOUTH_ROAD%2C_SHENZHEN_%28682%29.jpg/1280px-BAO_AN_SOUTH_ROAD%2C_SHENZHEN_%28682%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/BAO_AN_SOUTH_ROAD%2C_SHENZHEN_%28682%29.jpg/1280px-BAO_AN_SOUTH_ROAD%2C_SHENZHEN_%28682%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 777,
+      "alt": "BAO AN SOUTH ROAD, SHENZHEN (682).jpg",
+      "query": "Chinese street food dish shenzhen",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Dinkun Chen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BAO_AN_SOUTH_ROAD,_SHENZHEN_(682).jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "小吃",
+    "煲仔饭",
+    "老铺"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "百度百科·煲仔饭",
+      "url": "https://baike.baidu.com/item/%E7%85%B2%E4%BB%94%E9%A5%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-24"
+    }
+  ],
+  "updatedAt": "2026-09-24",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "好好味面家"
+  },
+  "_geocodeTitle": "好好味面家(桃园店)",
+  "_geocodeSuspect": false,
+  "district": "440305"
+}

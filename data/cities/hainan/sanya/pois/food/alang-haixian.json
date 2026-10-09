@@ -1,0 +1,113 @@
+{
+  "id": "alang-haixian",
+  "name": "阿浪海鲜",
+  "category": "food",
+  "subtype": "local",
+  "summary": "新民街上的另一家海鲜加工店，与第一市场那些摊子挨着，做法偏本地口味。",
+  "description": "这家也在第一市场新民街上，与左右几家是同一个路子——海鲜自己在市场买，店里负责做。做法上偏本地：和乐蟹多做香辣或盐焗，基围虾白灼或椒盐，贝类蒜蓉粉丝蒸，海鱼清蒸或煮汤。店里也能代买海鲜，不熟门的可以省一步，但价格上自己去市场更透明。堂子是那种大排档格局，塑料凳、圆桌，晚上最热闹。旺季等位时间长，可以先去拿号再去买海鲜。价格以店内公示为准，海鲜看当天市价。",
+  "highlights": [
+    "第一市场新民街上的海鲜加工店，可代买也可自带",
+    "和乐蟹做香辣或盐焗，贝类蒜蓉粉丝蒸",
+    "大排档格局，晚上最热闹，旺季要等位"
+  ],
+  "location": {
+    "point": {
+      "lng": 109.508467,
+      "lat": 18.237777,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "海南省三亚市天涯区新民街115-117号",
+    "district": "吉阳区",
+    "transportTip": "市区乘公交或步行至第一市场，新民街上"
+  },
+  "practical": {
+    "openHours": "约10:00-22:00，以店铺公告为准",
+    "openHoursRef": 0,
+    "ticket": "按菜品与海鲜计价，以店铺公示为准",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/32603022/pexels-photo-32603022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32603022/pexels-photo-32603022.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3655,
+      "height": 5482,
+      "alt": "A lively Chinese restaurant interior with hanging lanterns and dining patrons.",
+      "query": "Chinese restaurant interior sanya",
+      "credit": {
+        "source": "pexels",
+        "author": "Richard L",
+        "sourceUrl": "https://www.pexels.com/photo/bustling-chinese-restaurant-with-lanterns-32603022/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4096,
+      "alt": "Charming Asian dining room with bamboo chairs and traditional teaware.",
+      "query": "Chinese restaurant interior sanya",
+      "credit": {
+        "source": "pexels",
+        "author": "TIANYUN XIA",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37047965/pexels-photo-37047965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37047965/pexels-photo-37047965.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4896,
+      "height": 3264,
+      "alt": "Cozy traditional Asian restaurant interior highlighting wooden furnishings and red decor. Ideal for cultural and design ",
+      "query": "Chinese restaurant interior sanya",
+      "credit": {
+        "source": "pexels",
+        "author": "mingche lee",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "海鲜加工",
+    "大排档",
+    "第一市场"
+  ],
+  "popularity": 78,
+  "sources": [
+    {
+      "title": "百度百科·第一市场",
+      "url": "https://baike.baidu.com/item/%E7%AC%AC%E4%B8%80%E5%B8%82%E5%9C%BA",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-29"
+    }
+  ],
+  "updatedAt": "2026-09-29",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "阿浪海鲜"
+  },
+  "_geocodeTitle": "阿浪海鲜(第一市场店)",
+  "_geocodeSuspect": false,
+  "district": "460203"
+}

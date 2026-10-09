@@ -923,3 +923,28 @@ const hash = `#itin=${LZString.compressToEncodedURIComponent(JSON.stringify(payl
 | W9 | **矩阵体积实测** | 估算 gzip 约 9KB（三通道），需确认不超预算 | 用成都真实数据生成一次并测体积 |
 | W10 | **`practical.durationMinutes` 的数据可得性** | 若多数 POI 拿不到结构化时长，就只能靠分类默认值 —— 会影响 I5 的准确性 | 抽样看来源页面是否普遍给出"建议游玩时长" |
 | W11 | **并发 5 次/秒的实际表现** | 决定构建脚本的串行间隔设多少 | 逐步加压，找到触发限流的阈值 |
+
+
+---
+
+## ★ 行程的存储换地方了（2026-09-26，plans/13 §3.4）
+
+| | 以前 | 现在 |
+|---|---|---|
+| 落到哪 | `localStorage[chexing:itin:<cityId>]`（一城一份） | **IndexedDB 的 `plans` store** 里"当前打开的那条规划" |
+| 粒度 | 一座城市一份 | 一份**全局列表**，每条带自己的 `cityId` |
+| 这一页渲染谁 | 路由参数 `:cityId` 指向的那座城 | **`planStore.activeId` 指向的那条规划** |
+
+**没变的**：`days` / `stays` / `DayItem` / `chosenOption` 的结构**一字未改**，
+时间链推导、过载提示、分享导出照旧吃这份数据。
+
+**几条要注意的**：
+
+- `useItineraryStore.init(cityId)` **已删**，改成 `attach(plan, rev)`。
+  两道跳过守卫缺一不可：同一条规划且 `rev` 没变 ⇒ 不做（否则每次重渲染都会把
+  `activeDay` / `activeLeg` 重置）；`rev === ownRev` ⇒ 不做（否则每敲一下输入框就重装一次，光标跳走）。
+- **没有"打开任何规划"是一个正常入口态**：直接从收藏夹进 `/city/x/plan` 时 `activeId` 是空的，
+  此时给的是一张"请先选一条"的引导屏（`PlanMissing`），**不是空行程** —— 后者会被读成"我的行程被清了"。
+- `?add=<poiId>` 那条通路整条删掉：四个加点入口统一走 `useAddToPlan` —— **不换页**，
+  而是弹一个「加到哪个组？」的窗（含新建组）。★ **每次点都弹**，没有「猜你要加到哪」的短路。
+- 城市页那两个「我的行程」/「去排行程」入口也撤了：顶栏有全站的「路线规划」，做的是同一件事。

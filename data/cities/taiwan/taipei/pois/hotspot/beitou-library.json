@@ -1,0 +1,114 @@
+{
+  "id": "beitou-library",
+  "name": "北投图书馆",
+  "category": "hotspot",
+  "subtype": "photo",
+  "summary": "北投公园里的木造图书馆，被树与水围着。",
+  "description": "北投图书馆在北投公园里，是一栋木构造的建筑，外观设计成大阶梯状，屋顶有太阳能板与大片的生态绿化。室内是木书架与木地板，落地窗对着公园的树，采光好，坐在里面看书很舒服。它是本地第一座绿建筑图书馆，吸引很多人来拍照，馆内要保持安静。馆外有涌泉与步道，可以连着温泉博物馆与地热谷一起走。捷运新北投站步行几分钟即到，安排一小时左右。",
+  "highlights": [
+    "木构造绿建筑，屋顶有绿化",
+    "落地窗对公园，采光好",
+    "馆内需安静，与温泉博物馆同线"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.50613,
+      "lat": 25.13598,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "台北市北投区光明路251号",
+    "district": "北投区",
+    "transportTip": "捷运新北投站步行约五分钟"
+  },
+  "practical": {
+    "openHours": "约08:30-21:00，以馆方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费入馆，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "solo",
+    "family",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/20871044/pexels-photo-20871044.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/20871044/pexels-photo-20871044.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6639,
+      "height": 4143,
+      "alt": "Explore the traditional architecture of Beitou Museum in Taipei, Taiwan, surrounded by lush greenery.",
+      "query": "Beitou Library Taipei",
+      "credit": {
+        "source": "pexels",
+        "author": "Alan Wang",
+        "sourceUrl": "https://www.pexels.com/photo/one-of-the-buildings-at-the-beitou-museum-taipei-taiwan-20871044/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/11755575/pexels-photo-11755575.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/11755575/pexels-photo-11755575.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4500,
+      "height": 3000,
+      "alt": "Capture of a vibrant bookstore interior with customers exploring aisles of books.",
+      "query": "Beitou Library Taipei",
+      "credit": {
+        "source": "pexels",
+        "author": "Alan Wang",
+        "sourceUrl": "https://www.pexels.com/photo/backview-of-people-sitting-on-a-bench-in-a-bookstore-11755575/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32049134/pexels-photo-32049134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32049134/pexels-photo-32049134.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5152,
+      "height": 6489,
+      "alt": "Black and white photo of a Taipei bookstore interior showcasing bookshelves and a person on stairs.",
+      "query": "Beitou Library Taipei",
+      "credit": {
+        "source": "pexels",
+        "author": "Ryan Lee",
+        "sourceUrl": "https://www.pexels.com/photo/taipei-bookstore-interior-with-staircase-and-shelves-32049134/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "图书馆",
+    "木建筑",
+    "绿建筑"
+  ],
+  "popularity": 82,
+  "sources": [
+    {
+      "title": "北投图书馆·百度百科",
+      "url": "https://baike.baidu.com/item/%E5%8F%B0%E5%8C%97%E5%B8%82%E7%AB%8B%E5%9B%BE%E4%B9%A6%E9%A6%86%E5%8C%97%E6%8A%95%E5%88%86%E9%A6%86",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-03"
+    }
+  ],
+  "updatedAt": "2026-10-03",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Beitou Library Taipei",
+    "zh": "北投图书馆"
+  },
+  "_geocodeTitle": "台北市立图书馆北投分馆",
+  "_geocodeSuspect": false,
+  "district": "711016"
+}

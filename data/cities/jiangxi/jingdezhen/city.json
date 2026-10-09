@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "jingdezhen",
+  "name": "景德镇",
+  "province": "江西",
+  "adcode": "360200",
+  "provinceAdcode": "360000",
+  "tagline": "一座靠泥和火烧出来的城，街上到处是窑和坯",
+  "intro": "景德镇在江西东北，是一座为瓷器建的城。它烧窑烧了一千多年，宋真宗把自己的年号景德给了这个地方，从此它就叫景德镇。城里到处是和瓷有关的东西 —— 御窑厂的遗址、古窑的作坊、卖坯和釉的店。往北是浮梁，出高岭土，也出红茶；往东是瑶里，山里的古村。吃的是冷粉、饺子粑、碱水粑，便宜，实在。它不大，节奏慢，两三天能把主线走明白。",
+  "center": {
+    "lng": 117.2753,
+    "lat": 29.3039,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    116.9679,
+    28.7196,
+    117.7077,
+    29.9275
+  ],
+  "defaultZoom": 9,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/35620192/pexels-photo-35620192.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35620192/pexels-photo-35620192.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2688,
+      "height": 4032,
+      "alt": "A scenic view of Guangzhou skyline from a balcony during sunset, featuring modern skyscrapers and a traditional overhang",
+      "query": "景德镇 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Glyne Yan",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-view-from-balcony-at-dusk-in-guangzhou-35620192/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27299079/pexels-photo-27299079.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27299079/pexels-photo-27299079.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 1701,
+      "height": 3024,
+      "alt": "Beautiful sunset over traditional Chinese architecture and mountains in Beijing, China.",
+      "query": "景德镇 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Zihao Fang",
+        "sourceUrl": "https://www.pexels.com/photo/changcheng-27299079/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37674720/pexels-photo-37674720.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37674720/pexels-photo-37674720.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4739,
+      "height": 3149,
+      "alt": "Picturesque Chinese village surrounded by verdant hills under a cloudy sky.",
+      "query": "景德镇 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "gang liang",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-chinese-village-amidst-lush-green-hills-37674720/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "三到五月与九到十一月。春秋最舒服，夏天闷热，冬天湿冷",
+    "suggestedDays": "三到四天。城里御窑与陶溪川一天，古窑一天，瑶里与浮梁一天",
+    "transitTip": "景德镇北站通高铁，罗家机场在市区；去瑶里、浮梁有班车或包车",
+    "climateTip": "亚热带湿润，春夏雨水多；冬天湿冷没有暖气，注意防潮保暖"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-01"
+  },
+  "updatedAt": "2026-10-01"
+}

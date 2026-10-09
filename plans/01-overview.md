@@ -55,12 +55,12 @@
 | 样式 | Tailwind CSS | 4.x | 原子类，配合少量自定义 token |
 | 路由 | **React Router** | **7.x（Framework 模式）** | 用其 `prerender` 能力做 SSG，同时保留 SPA 交互 |
 | 状态 | Zustand | 5.x | 轻量：筛选条件、选中 POI、地图联动 |
-| 地图 | **腾讯位置服务 JavaScript API GL**（`TMap`） | v1 | 合规白名单内；坐标 GCJ-02；**移动端默认矢量 / 桌面端默认影像 + 按缩放自动降级**；选型依据见 [07](./07-map-provider.md) |
+| 地图 | **腾讯位置服务 JavaScript API GL**（`TMap`） | v1 | 合规白名单内；坐标 GCJ-02；**底图由用户自选（类型 × 详细度开关），默认矢量图，不随缩放自动切换**；选型依据见 [07](./07-map-provider.md) |
 | **路线规划** | 腾讯 `TMap.service.*` / WebService `/ws/direction/v1/*` + **`/ws/distance/v1/matrix` 距离矩阵** | — | 通勤时间来源。**矩阵接口是关键** —— 25×25=625 对/次，**驾车/步行/骑行三种方式都有批量**，让矩阵能在构建期以「每城约 12 次请求」建好（见 [09](./09-itinerary-planner.md) 第三节） |
 | 坐标来源 | 腾讯「地理编码」WebService | — | 与底图同源同坐标系，落点不偏；⚠️ 一对一接口（无批量），但请求数 = POI 数，量很小 |
 | **行政区划** | 腾讯「区划」WebService `/ws/district/v1/*` | — | ★ 三级下钻的省/市边界与 adcode 来源。**边界绝不用第三方 GeoJSON**（合规红线，见 [10](./10-map-drilldown.md) 第九节） |
 | 数据校验 | Zod | 3.x | **脚本与前端共用**同一份 Schema |
-| 图片 | 外链直链（Unsplash / Pexels / 百科 CDN） | — | 不下载、不落盘，仓库零图片文件 |
+| **图片** | 外链直链：**Wikimedia Commons**（CC 许可，需署名）→ Pexels → Unsplash | — | 不下载、不落盘，仓库零图片文件。★ 图源顺序由**命中率实测**定，不是许可宽松度（11 点抽样：Wikimedia 8/11、Pexels 8/11、Unsplash **0/11**）。**百度百科已废弃** —— `bkimg.cdn.bcebos.com` 带 Referer 防盗链，非百度域名一律 403，自家站点必挂 |
 | 采集脚本 | Python 3.13 | — | 仅构建期跑，不进运行时产物 |
 | 部署 | **Netlify 单站**（已定） | 零运维；Deploy Preview + Build Hook 齐全。免费版节点在新加坡，国内可达性偏弱但已决策接受 —— 将来迁国内**不改一行代码**。详见 08 文档第十节 |
 
@@ -82,12 +82,13 @@
 
 **适配层保护**：业务代码只依赖 `MapProvider` / `RouteProvider` / `DistrictProvider` 三个接口，真要换回高德只改实现文件（见 [07](./07-map-provider.md) 第九节）。
 
-**再说底图**：默认**按端分设**（桌面影像 / 移动矢量），`zoom ≥ 15.5` **自动降级为矢量图**。
+**再说底图**：**由用户自选**（**底图类型**矢量/影像 × **详细度开关**：地点名称 / 道路名称 / 建筑 / 路网与地名；"简略·详细"是这套开关的快捷档），默认「矢量图 · 详细」，选择持久化；**不随缩放自动切换**。⚠️ 按 POI 类别（地铁站 / 超市 / 区划）单独控制**做不到** —— 腾讯的 `features` 是图层级开关，见 [03](./03-map-interaction.md) 2.2.1。
 
-- 城市级视野（zoom 10–13）影像是无可替代的 —— 海岸线、山城地形、城市肌理，一句话说清"这是座什么城市"
-- 街区级（zoom ≥ 15.5）影像失效 —— 只有屋顶、认不出入口门脸，必须切矢量
-- 自动切换配**迟滞区 + 一次性说明 + 锁定开关**三重保护（实现见 03 文档 2.3–2.4）
-- 移动端默认矢量：影像瓦片体积是矢量的 5–10 倍，4G 首帧代价太高
+- 首页要读的信息是**省界与省名** —— 矢量底图是审图版标准底图，国界/省界/地名齐全；影像图上这些几乎为零
+- 城市级视野（zoom 10–13）是影像最强的场景，但那是用户自己的选择（预设的说明里写清了差别）
+- 街区级（zoom ≥ 15.5）影像失效（只有屋顶、认不出入口门脸）—— 这件事写在预设说明里，**不由系统替用户改**
+- 影像瓦片体积是矢量的 5–10 倍（实测同一视野 2.0MB vs 0.74MB），两端统一默认矢量
+- 完整决策与被删掉的"自动降级 + 迟滞 + 锁定"三重保护，见 03 文档第二节
 
 放弃自绘 SVG 底图的理由（早期方案已否决）：
 1. 自绘只有区界轮廓，**没有街道、建筑、水系**，`zoom` 上限低，缩放到街区级就失去参考价值
@@ -163,7 +164,7 @@ dist/
 │                        step3_geocode.py      →  腾讯地理编码 WebService   │
 │                          （POI 名 → GCJ-02 经纬度 + 标准地址 + adcode）   │
 │                                                                    │
-│                        step4_images.py       →  Unsplash/Pexels 搜图 │
+│                        step4_images.py       →  Wikimedia/Pexels/Unsplash│
 │                          （只取外链 URL，不下载、不落盘）            │
 │                                                                    │
 │                        step6_transit.py      →  ★ 通勤矩阵           │
@@ -243,8 +244,9 @@ dist/
 ## 五、目录结构
 
 ```
-travel_strategy/
+travel_strategy/                # 仓库根 —— 只放「文档 / 原型 / 数据」
 ├─ plans/                       # 本文档集
+├─ prototype/                   # 原型（低保真 + 高保真，单文件零构建，双击即看）
 ├─ data/                        # ★ 内容数据，与代码解耦，可独立复用
 │  ├─ cities.index.json         #   城市列表（含 adcode，脚本生成，勿手改）
 │  ├─ cities/{cityId}.json      #   城市全量数据（唯一真源，人只改这里）
@@ -255,6 +257,10 @@ travel_strategy/
 │     ├─ search-index.json      #   跨城倒排索引
 │     ├─ api-usage.json         #   腾讯 WebService 用量记账
 │     └─ manifest.json          #   校验和 + 更新时间
+├─ netlify.toml                 # ★ 必须留在根：Netlify 只在此（或 base 目录）寻找配置
+└─ web/                         # ★ 应用工程（前端 + 采集脚本 + Schema），展开如下
+
+web/                            # ←── 上图的 web/ 展开
 ├─ scripts/                     # 构建期采集流水线（不进浏览器）
 │  ├─ config.py                 #   城市配置、第三方 key（.env）
 │  ├─ lib/
@@ -308,7 +314,7 @@ travel_strategy/
 │  │  │  ├─ loader.ts           #     SDK 单例加载（失败降级）
 │  │  │  ├─ config.ts           #     ★ 双 key 解析（用户自备 > 构建期注入 > 降级）
 │  │  │  ├─ useTMap.ts          #     实例生命周期 hook
-│  │  │  ├─ basemap.ts          #     底图状态机（分端默认 · 自动降级 · 图层句柄管理）
+│  │  │  ├─ basemap.ts          #     底图类型 + 详细度开关（用户自选 · 持久化）
 │  │  │  ├─ fitView.ts          #     ★ 浮层实测 → fitBounds padding（见 03 文档 4.1）
 │  │  │  ├─ poiLayer.ts         #     MultiMarker + MultiLabel + 自建避让（见 03 文档 3.2）
 │  │  │  ├─ cluster.ts          #     MarkerCluster（移动端）
@@ -330,12 +336,24 @@ travel_strategy/
 │  └─ styles/         index.css  tokens.css
 ├─ react-router.config.ts       # ★ ssr: false + prerender()
 ├─ vite.config.ts
-├─ netlify.toml
 ├─ .env.example
 └─ package.json
 ```
 
-> `data/` 保持在仓库根（不在 `app/` 里），是为了满足"数据目录可独立拿走复用"的诉求。前端通过 Vite alias `~data` 引入，`vite.config.ts` 里配一行即可。
+> **为什么代码在 `web/`、而 `data/` 留在仓库根**：`data/` 与 `plans/`、`prototype/` 同属"人写的内容"，整包拿走可以独立复用；代码是消费方，独立成一个子目录。
+>
+> 代价是**多了一层路径深度**。有两处必须跟着改，且改错**都不会报错**（只会静默读不到数据）：
+>
+> | 处 | 写法 |
+> |---|---|
+> | 别名 `~data` | `vite.config.ts` → `abs('../data')`；`tsconfig.json` → `"~data/*": ["../data/*"]` |
+> | `import.meta.glob` | 必须写**字面量相对路径**（别名在 glob 里不可用）→ `'../../../data/cities/*.json'` |
+>
+> `tools/check_app.py` 的 I 项专门守第二条；Netlify 靠 `netlify.toml` 的 `base = "web"` 指到子目录。
+>
+> 📌 **本文档集（及 04 / 05 / 06 / 09 / 10）里出现的代码路径，一律相对 `web/`** ——
+> 即正文里的 `app/…`、`scripts/…`、`shared/…`、`package.json` 都指 `web/` 下的对应位置；
+> **只有 `data/`、`plans/`、`prototype/` 在仓库根**。命令统一先 `cd web`。
 
 ---
 
@@ -344,6 +362,7 @@ travel_strategy/
 ### 本地开发
 
 ```bash
+cd web               # ★ 应用工程在 web/，所有 npm / python 命令都在这里执行
 npm install
 npm run dev          # http://localhost:5173
 ```
@@ -351,19 +370,21 @@ npm run dev          # http://localhost:5173
 ### 生产构建
 
 ```bash
-npm run build        # 预渲染全部路由 → dist/
+cd web
+npm run build        # 预渲染全部路由 → web/dist/
 npm run preview      # 本地预览预渲染结果（务必用它验证 SEO 产物）
 ```
 
-> **不要用 `npm run dev` 检查 SEO**：开发服务器是 CSR 的，`view-source` 里看不到内容。必须用 `build` + `preview`，或直接用 curl 抓 `dist/city/shenzhen/index.html` 确认有正文。
+> **不要用 `npm run dev` 检查 SEO**：开发服务器是 CSR 的，`view-source` 里看不到内容。必须用 `build` + `preview`，或直接用 curl 抓 `web/dist/city/shenzhen/index.html` 确认有正文。
 
 ### Netlify 配置
 
 ```toml
-# netlify.toml
+# netlify.toml —— 刻意放在**仓库根**：Netlify 只在此（或已配置的 base 目录）寻找它
 [build]
+  base = "web"                 # ★ base 一设，command 的执行目录与 publish 的基准都相对它
   command = "npm run build"
-  publish = "dist"
+  publish = "dist"             # → web/dist
 
 [build.environment]
   NODE_VERSION = "22"
@@ -430,7 +451,7 @@ PEXELS_API_KEY=...
 | # | 事项 | 验证方式 | 影响 |
 |---|------|---------|------|
 | R1 | 腾讯 **Referer 域名白名单** 对 Netlify 域名/子域的匹配规则；Deploy Preview 随机域名如何处理 | 申请 key 后配白名单，用 Netlify 域名实测调用 | 配错会导致生产环境地图整体不可用 |
-| R2 | 腾讯卫星影像在首发城市的**分辨率与时效性** | 用首发城市对照「近两年新开」的网红点位，目视确认影像上是否已建成 | 桌面端影像图是**默认底图**，时效性太差会直接毁掉第一印象。退路：桌面端也改回「默认矢量 + 影像作切换项」。移动端本就不受影响 |
+| R2 | 腾讯卫星影像在首发城市的**分辨率与时效性** | 用首发城市对照「近两年新开」的网红点位，目视确认影像上是否已建成 | 影响有限：**默认底图是矢量**，影像是用户自己选的档；时效性太差时的退路是把「影像图」这一档的说明写得更明确（**而不是替用户改**）。移动端同此 |
 | R3 | 预渲染时 loader 读取 `~data` 别名的路径解析 | 首次 `npm run build` 后检查 `dist/**/index.html` 是否含真实文案 | 失败则 SEO 目标落空 |
 | R4 | Netlify 在国内 4G 的**实际加载完成率** | itdog.cn 多点测速 + 真机实测 | 已决策接受（见 README「已确认的 2 项决策」）。若实测长时间加载不出，再评估迁国内托管 —— 纯静态产物，**迁移不改代码** |
 | **R5** | **地理编码同名异地误命中**（腾讯一对一无批量，且"人民公园"全国都有） | 抽样 20% POI 人工核对落点；脚本用 `region` 参数 + `ad_info.city_code` 校验 | 落点错会毁掉地图可信度。对冲：`region` 显式传城市 + adcode 强校验（见 04 第三节） |

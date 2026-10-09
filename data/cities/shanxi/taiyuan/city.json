@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "taiyuan",
+  "name": "太原",
+  "province": "山西",
+  "adcode": "140100",
+  "provinceAdcode": "140000",
+  "tagline": "汾河穿城，晋祠千年，一座被古建和面食养着的城",
+  "intro": "太原在山西中部，汾河穿城而过，是山西省的省会。它建城两千五百多年，晋阳古城的旧址还压在晋源的土地下，城里城外古建成串：晋祠的宋金木构与难老泉、天龙山与龙山的石窟、蒙山的摩崖大佛、永祚寺的双塔，都是实打实的老东西。汾河从北到南把城市分成两半，两岸的公园连成绿带，傍晚最热闹。山西博物院里的青铜重器、中国煤炭博物馆里的模拟矿井，一头连着三千年前的晋国，一头连着地下的煤。吃的是面食：刀削面、猫耳朵、拨烂子，清早一碗头脑或羊杂割，酸味来自清徐的老陈醋。老城的钟楼街与柳巷入夜最有人气。值得留三到四天，把晋祠、晋阳湖与老城慢慢走一遍。",
+  "center": {
+    "lng": 112.3363,
+    "lat": 37.9401,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    111.5468,
+    37.4589,
+    113.1503,
+    38.4117
+  ],
+  "defaultZoom": 9,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/12515134/pexels-photo-12515134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/12515134/pexels-photo-12515134.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3840,
+      "height": 5760,
+      "alt": "Aerial view of a cityscape with skyscrapers under a dramatic cloudy sky.",
+      "query": "太原 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Andy Lee",
+        "sourceUrl": "https://www.pexels.com/photo/city-buildings-under-cloudy-sky-12515134/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/9431177/pexels-photo-9431177.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/9431177/pexels-photo-9431177.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 9504,
+      "height": 6336,
+      "alt": "Panoramic view of Beijing with the iconic White Dagoba stupa under a cloudy sky.",
+      "query": "太原 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "zhang kaiyv",
+        "sourceUrl": "https://www.pexels.com/photo/a-city-under-a-cloudy-sky-9431177/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38031563/pexels-photo-38031563.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38031563/pexels-photo-38031563.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4284,
+      "height": 5712,
+      "alt": "Aerial view of high-rise buildings in Tianjin, China with blue sky and clouds.",
+      "query": "太原 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Shuaizhi Tian",
+        "sourceUrl": "https://www.pexels.com/photo/modern-high-rise-buildings-in-tianjin-china-38031563/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "四到六月与九到十月最舒服，秋天看崛围山红叶，冬天干冷但古建配雪别有味道",
+    "suggestedDays": "三到四天。晋祠与晋源一线一天，山西博物院与老城一天，天龙山蒙山一天",
+    "transitTip": "武宿机场与大西高铁都通，地铁与公交覆盖主要景区，去天龙山蒙山建议自驾或包车",
+    "climateTip": "温带大陆性季风气候，四季分明，昼夜温差大，冬天干冷，春天风沙多，秋冬要注意保湿"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-04"
+  },
+  "updatedAt": "2026-10-04"
+}

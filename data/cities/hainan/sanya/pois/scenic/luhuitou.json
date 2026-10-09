@@ -1,0 +1,119 @@
+{
+  "id": "luhuitou",
+  "name": "鹿回头风景区",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "伸进海里的一个小山头，山顶有座鹿的雕像，是看三亚湾与大东海全景的地方。",
+  "description": "鹿回头是大东海与小东海之间一道伸进海里的小山梁，最高处一百多米，山顶立着一座鹿回头雕像——取自黎族那个猎人追鹿、鹿回头变成姑娘的传说。上山的路有车道也有步道，步道半小时能到顶，一路上树多、有猴子，别拿食物在手里。山顶那个平台是卖点：往北看是市区那一整片楼，往南是小东海与更远的海面，傍晚上来看日落与灯光最好。山脚下就是半山半岛帆船港。门票与观光车以官方公告为准。",
+  "highlights": [
+    "山顶鹿回头雕像取自黎族猎人追鹿的传说",
+    "山顶平台北看市区、南看小东海与海面",
+    "步道半小时到顶，路上有猴子"
+  ],
+  "location": {
+    "point": {
+      "lng": 109.502065,
+      "lat": 18.22557,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "海南省三亚市吉阳区鹿岭路（鹿回头风景区）",
+    "district": "吉阳区",
+    "transportTip": "大东海沿鹿岭路南行；或公交至鹿回头一带",
+    "entrance": {
+      "lng": 109.507213,
+      "lat": 18.220783,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约07:30-22:00（淡旺季有调整），以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "门票与观光车以官方公告为准",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "family",
+    "elders",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/3878268/pexels-photo-3878268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/3878268/pexels-photo-3878268.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3148,
+      "height": 4457,
+      "alt": "Palm-lined tropical beach adorned with traditional red Chinese lanterns during sunset in Sanya, China.",
+      "query": "Chinese classical garden sanya",
+      "credit": {
+        "source": "pexels",
+        "author": "James Wheeler",
+        "sourceUrl": "https://www.pexels.com/photo/green-palm-trees-under-the-blue-sky-3878268/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39555092/pexels-photo-39555092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39555092/pexels-photo-39555092.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4592,
+      "height": 2584,
+      "alt": "Aerial view of a beautiful beach and walkway at Sanya, Hainan, China with clear blue waters.",
+      "query": "Chinese classical garden sanya",
+      "credit": {
+        "source": "pexels",
+        "author": "Alex Peet",
+        "sourceUrl": "https://www.pexels.com/photo/sunny-day-at-sanya-beach-with-scenic-view-39555092/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/4242876/pexels-photo-4242876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/4242876/pexels-photo-4242876.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8000,
+      "height": 6000,
+      "alt": "Aerial view of Sanya's beachfront with city skyline, palm trees, and clear water.",
+      "query": "Chinese classical garden sanya",
+      "credit": {
+        "source": "pexels",
+        "author": "光曦 刘",
+        "sourceUrl": "https://www.pexels.com/photo/sea-beach-trees-and-buildings-4242876/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "山头",
+    "雕像",
+    "全景"
+  ],
+  "popularity": 83,
+  "sources": [
+    {
+      "title": "百度百科·鹿回头",
+      "url": "https://baike.baidu.com/item/%E9%B9%BF%E5%9B%9E%E5%A4%B4",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-29"
+    }
+  ],
+  "updatedAt": "2026-09-29",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "鹿回头风景区"
+  },
+  "_geocodeTitle": "三亚鹿回头风景区",
+  "_geocodeSuspect": false,
+  "district": "460203"
+}

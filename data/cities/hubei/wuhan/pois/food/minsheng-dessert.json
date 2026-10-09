@@ -1,0 +1,112 @@
+{
+  "id": "minsheng-dessert",
+  "name": "民生甜食馆",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "汉口老甜食馆的名字，那一代人的早饭在这里。",
+  "description": "民生甜食馆在汉口开了很多年，卖的是糊汤粉、面窝、汤圆这一类。糊汤粉是本地的一种早点：用鱼骨头熬的汤加米粉，糊糊的，配油条。面窝是把谷物浆倒进中间有一块凸起的圆勺里炸，中间自然成一个洞，所以叫面窝。这些东西都是在别的城市吃不到的。它是坐着吃的那种老铺，环境简单。本地老人是这里的常客。",
+  "highlights": [
+    "糊汤粉是鱼骨汤加米粉的早点",
+    "面窝中间那个洞是勺子形状决定的",
+    "本地老人的日常早餐铺"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.244835,
+      "lat": 30.56393,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "武汉市江汉区民生路",
+    "district": "汉阳区",
+    "transportTip": "地铁2号线/6号线江汉路站步行"
+  },
+  "practical": {
+    "openHours": "约06:00-14:00，以门店公告为准",
+    "openHoursRef": 0,
+    "ticket": "人均约15元，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 20-45 分钟",
+    "durationMinutes": [
+      20,
+      45
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "elders",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/27238146/pexels-photo-27238146.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27238146/pexels-photo-27238146.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3466,
+      "height": 2598,
+      "alt": "A bowl of traditional Wuhan noodles garnished with vegetables, served with wooden chopsticks.",
+      "query": "Chinese street food dish wuhan",
+      "credit": {
+        "source": "pexels",
+        "author": "颖 徐",
+        "sourceUrl": "https://www.pexels.com/photo/re-gan-mian-wuhan-27238146/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/29305560/pexels-photo-29305560.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29305560/pexels-photo-29305560.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 3024,
+      "alt": "Delicious spicy beef noodle soup topped with fresh cilantro in a white bowl.",
+      "query": "Chinese street food dish wuhan",
+      "credit": {
+        "source": "pexels",
+        "author": "颖 徐",
+        "sourceUrl": "https://www.pexels.com/photo/spicy-beef-noodle-soup-with-herbs-in-a-bowl-29305560/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/29305974/pexels-photo-29305974.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29305974/pexels-photo-29305974.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 3024,
+      "alt": "Traditional spicy fish dish served with colorful peppers in a white bowl.",
+      "query": "Chinese street food dish wuhan",
+      "credit": {
+        "source": "pexels",
+        "author": "颖 徐",
+        "sourceUrl": "https://www.pexels.com/photo/delicious-spicy-fish-dish-in-chinese-cuisine-29305974/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "糊汤粉",
+    "面窝",
+    "过早"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·面窝",
+      "url": "https://baike.baidu.com/item/%E9%9D%A2%E7%AA%9D",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-23"
+    }
+  ],
+  "updatedAt": "2026-09-23",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "民生甜食馆"
+  },
+  "_geocodeTitle": "民生甜食馆",
+  "_geocodeSuspect": false,
+  "district": "420105"
+}

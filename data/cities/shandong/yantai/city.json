@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "yantai",
+  "name": "烟台",
+  "province": "山东",
+  "adcode": "370600",
+  "provinceAdcode": "370000",
+  "tagline": "海与仙境之间，葡萄酒城、苹果之乡与蓬莱阁的北方海岸",
+  "intro": "烟台在山东半岛东北部、渤海与黄海交汇的北岸，是著名的海滨城市与葡萄酒城。蓬莱阁临海而立，是「人间仙境」的代名词，八仙过海的传说由此传开；隔海相望的长岛是渤海中的群岛，鸥鸟与礁岸相映。市区的烟台山保留了近代开埠的领事馆建筑群，滨海路串起金沙滩、月亮湾与栈桥。养马岛是近年走红的环岛海岸，海水清澈、骑行舒畅。烟台还是张裕葡萄酒的故乡，酒庄与博物馆讲述百年酿酒史；福山是鲁菜发源地之一，焖子、拉面、海肠各有风味。秋天苹果与樱桃上市，海滨城市配上果香，是北方难得的慢旅行地。",
+  "center": {
+    "lng": 120.8047,
+    "lat": 37.2406,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    119.5584,
+    36.5795,
+    121.9258,
+    38.2008
+  ],
+  "defaultZoom": 10,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/12857244/pexels-photo-12857244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/12857244/pexels-photo-12857244.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7952,
+      "height": 5304,
+      "alt": "Breathtaking nighttime aerial view of Taipei's vibrant city lights and skyline.",
+      "query": "烟台 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Jimmy Liao",
+        "sourceUrl": "https://www.pexels.com/photo/aerial-photography-of-city-buildings-during-nighttime-12857244/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/30143919/pexels-photo-30143919.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/30143919/pexels-photo-30143919.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 3024,
+      "alt": "A scenic view of Qingdao's skyline with historical buildings and modern skyscrapers under a cloudy sky.",
+      "query": "烟台 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "强 王",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-view-of-qingdao-cityscape-under-cloudy-skies-30143919/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/29038201/pexels-photo-29038201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29038201/pexels-photo-29038201.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5184,
+      "height": 3888,
+      "alt": "Panoramic view over Qingdao cityscape featuring iconic landmarks and urban landscape.",
+      "query": "烟台 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "meitetsu chin",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-view-of-qingdao-with-tv-tower-29038201/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "5-10 月（海岸宜人，苹果樱桃应季）；7-8 月为避暑旺季，冬季风大偏冷",
+    "suggestedDays": "2-3 天（市区烟台山+滨海路 1 天，蓬莱+长岛 1-2 天）",
+    "transitTip": "高铁烟台南站、烟台站通达；蓬莱国际机场有航班。市区公交与滨海观光巴士方便，去长岛需在蓬莱港乘船，去养马岛、龙口南山自驾更顺。烟台山、朝阳街、所城里一带适合步行。",
+    "climateTip": "暖温带季风气候，三面环海、湿度适中。夏季凉爽少酷暑，是避暑地；春秋宜人；冬季风大、气温偏低，海边更冷。"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-05"
+  },
+  "updatedAt": "2026-10-05"
+}

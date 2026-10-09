@@ -1,0 +1,113 @@
+{
+  "id": "meicha",
+  "name": "张家界莓茶",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "本地一种藤茶，表面带白霜，回甘，是能带走的特产。",
+  "description": "张家界莓茶是一种藤茶，叶子表面有一层白霜，喝着微苦回甘。它是这边的特产，山里多。当茶喝，也能买回去送人。名字带莓，其实不是草莓，是本地人常泡的一种叶子。趁热吃，凉了风味差一截。",
+  "highlights": [
+    "本地藤茶带白霜回甘",
+    "山里特产可带走",
+    "名莓非草莓"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.552768,
+      "lat": 29.345707,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "湖南省张家界市永定区各特产店",
+    "district": "武陵源区",
+    "transportTip": "市区及景区特产店均有"
+  },
+  "practical": {
+    "openHours": "约08:00-20:00",
+    "openHoursRef": 0,
+    "ticket": "约30元/盒起",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
+      15,
+      30
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "elders",
+    "solo",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/13195716/pexels-photo-13195716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/13195716/pexels-photo-13195716.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4685,
+      "height": 4016,
+      "alt": "Experience the breathtaking Zhangjiajie mountainscape with lush greenery and cloudy skies.",
+      "query": "Zhangjiajie Mei Tea",
+      "credit": {
+        "source": "pexels",
+        "author": "Cz Jen",
+        "sourceUrl": "https://www.pexels.com/photo/green-mountains-under-white-clouds-13195716/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/26771351/pexels-photo-26771351.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/26771351/pexels-photo-26771351.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 7305,
+      "height": 3599,
+      "alt": "Explore the stunning rock formations and lush forests of Zhangjiajie in Hunan, China.",
+      "query": "Zhangjiajie Mei Tea",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/forest-on-rock-formations-in-valley-26771351/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34683516/pexels-photo-34683516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34683516/pexels-photo-34683516.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8192,
+      "height": 5464,
+      "alt": "Stunning view of mist-covered mountains and winding road in Zhangjiajie, China.",
+      "query": "Zhangjiajie Mei Tea",
+      "credit": {
+        "source": "pexels",
+        "author": "David Tran",
+        "sourceUrl": "https://www.pexels.com/photo/breathtaking-view-of-misty-mountains-in-china-34683516/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "莓茶",
+    "特产",
+    "藤茶"
+  ],
+  "popularity": 52,
+  "sources": [
+    {
+      "title": "百度百科·莓茶",
+      "url": "https://baike.baidu.com/item/%E8%8E%93%E8%8C%B6",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Zhangjiajie Mei Tea",
+    "zh": "张家界莓茶"
+  },
+  "_geocodeTitle": "张家界莓茶武陵源区旗舰店",
+  "_geocodeSuspect": false,
+  "district": "430811"
+}

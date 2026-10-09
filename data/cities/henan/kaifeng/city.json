@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "kaifeng",
+  "name": "开封",
+  "province": "河南",
+  "adcode": "410200",
+  "provinceAdcode": "410000",
+  "tagline": "一座把北宋市井活过来的城，白天看古迹，入夜去夜市",
+  "intro": "开封在河南东部，是八朝古都，最风光的时候是北宋。当年的汴京繁华，被张择端画进了《清明上河图》，如今在清明上河园里复刻出来。包公、铁塔、相国寺都在这，市井气一直没断。白天逛古迹，傍晚鼓楼、西司两处夜市亮起灯，小吃的香气漫一条街。来开封，看的是古都的样子，吃的是实在的烟火。来开封，逛的是市井，吃的是烟火，慢一点才看得清。",
+  "center": {
+    "lng": 114.5598,
+    "lat": 34.6105,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    113.8975,
+    34.1943,
+    115.2561,
+    35.0252
+  ],
+  "defaultZoom": 9,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/9431177/pexels-photo-9431177.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/9431177/pexels-photo-9431177.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 9504,
+      "height": 6336,
+      "alt": "Panoramic view of Beijing with the iconic White Dagoba stupa under a cloudy sky.",
+      "query": "开封 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "zhang kaiyv",
+        "sourceUrl": "https://www.pexels.com/photo/a-city-under-a-cloudy-sky-9431177/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/15906464/pexels-photo-15906464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/15906464/pexels-photo-15906464.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Beautiful urban skyline at dusk, reflecting on calm water with vibrant city lights.",
+      "query": "开封 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "He Zhang",
+        "sourceUrl": "https://www.pexels.com/photo/buildings-in-the-light-of-the-sunset-15906464/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/17152419/pexels-photo-17152419.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/17152419/pexels-photo-17152419.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Capture of Beijing's cityscape with a serene sunset and iconic architecture.",
+      "query": "开封 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Tab TS",
+        "sourceUrl": "https://www.pexels.com/photo/misty-panorama-of-a-river-and-city-skyline-at-dawn-beijing-china-17152419/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "三到五月和九到十一月最舒服，夏天热、冬天干冷，春秋最宜逛古迹吃夜市",
+    "suggestedDays": "两到三天。清明上河园加开封府一天，铁塔龙亭相国寺一天，夜市随时穿插",
+    "transitTip": "高铁到开封北站，市区景点多靠公交和打车，老城区不大，骑车也方便",
+    "climateTip": "温带大陆性气候，昼夜温差大；春秋带件薄外套，夏天防晒，冬天防风"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-02"
+  },
+  "updatedAt": "2026-10-02"
+}

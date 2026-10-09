@@ -1,0 +1,83 @@
+{
+  "id": "pijiu-jie",
+  "name": "青岛啤酒街(登州路)",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "以啤酒博物馆为中心的一条街，全是烧烤、海鲜与扎啤的馆子。",
+  "description": "啤酒街在市北区登州路，围着青岛啤酒一厂与啤酒博物馆那一片长出来，是这座城喝啤酒最集中的一段。街上两侧一家挨一家是烧烤、海鲜与小炒的馆子，门口摆着装扎啤的大桶，坐着的人一杯接一杯。喝的是本地出厂的啤酒，按扎或按斤卖，夏天还有原浆与生啤，当天出的最新鲜。吃的是烤鱿鱼、烤肉串、辣炒蛤蜊与几样下酒的小菜。晚上最热闹，灯牌与音乐一起开。人均六七十块起，看喝多少。它与啤酒博物馆在同一条路上，先看馆、再喝一杯最顺。",
+  "highlights": [
+    "围着啤酒一厂与啤酒博物馆长出来的街",
+    "门口摆着扎啤大桶，按扎或按斤卖",
+    "夏天有当天出厂的原浆与生啤"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.351157,
+      "lat": 36.080582,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山东省青岛市市北区登州路（青岛啤酒街）",
+    "district": "市北区",
+    "transportTip": "地铁2号线利津路站，步行约十分钟"
+  },
+  "practical": {
+    "openHours": "约11:00-次日02:00（各店不同），以现场为准",
+    "openHoursRef": 0,
+    "ticket": "人均约70元起，以实际消费为准",
+    "ticketRef": 0,
+    "duration": "建议 60-180 分钟",
+    "durationMinutes": [
+      60,
+      180
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "friends",
+    "couple",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Qingdao_Beer_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Qingdao_Beer_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 809,
+      "alt": "Qingdao Beer Street.jpg",
+      "query": "青岛啤酒街 青岛",
+      "credit": {
+        "source": "wikimedia",
+        "author": "User:Baomi",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qingdao_Beer_Street.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "啤酒街",
+    "烧烤",
+    "夜宵"
+  ],
+  "popularity": 83,
+  "sources": [
+    {
+      "title": "百度百科·青岛啤酒街",
+      "url": "https://baike.baidu.com/item/%E9%9D%92%E5%B2%9B%E5%95%A4%E9%85%92%E8%A1%97",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-28"
+    }
+  ],
+  "updatedAt": "2026-09-28",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "青岛啤酒街(登州路)"
+  },
+  "_geocodeTitle": "台东商业步行街-青岛啤酒街(登州路)",
+  "_geocodeSuspect": false,
+  "district": "370203"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "milk-tea",
+  "name": "奶茶（青海咸奶茶）",
+  "category": "food",
+  "subtype": "cafe",
+  "summary": "茯砖茶加奶加盐煮的咸奶茶，咸香暖胃，是高原上的一杯热乎。",
+  "description": "青海的奶茶和甜奶茶不一样，是咸的。用茯砖茶熬出浓味，加牛奶或羊奶和一点盐煮成，咸香里带奶甜。高原冷、风大，喝一碗从里暖到外。回族、藏族的茶馆都卖，配馍馍和甜醅正好。有的店也做甜的供不习惯的客人，但尝鲜还是咸的地道。一大壶不贵，坐着慢慢喝最舒服。",
+  "highlights": [
+    "茯砖茶加奶加盐的咸奶茶",
+    "高原冷风里一碗暖到外",
+    "回藏茶馆都卖配馍馍"
+  ],
+  "location": {
+    "point": {
+      "lng": 101.795637,
+      "lat": 36.616965,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "青海省西宁市城东区东关大街回茶馆",
+    "district": "城东区",
+    "transportTip": "市区步行或乘公交到东关大街茶馆"
+  },
+  "practical": {
+    "openHours": "约07:00-21:00",
+    "openHoursRef": 0,
+    "ticket": "约6-15元（以店家为准）",
+    "ticketRef": 0,
+    "duration": "建议 20-40 分钟",
+    "durationMinutes": [
+      20,
+      40
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "couple",
+    "solo",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/18505679/pexels-photo-18505679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/18505679/pexels-photo-18505679.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3645,
+      "height": 1905,
+      "alt": "Evening silhouettes of passengers at Chengdong Railway Station with city skyline views.",
+      "query": "cafe interior xining",
+      "credit": {
+        "source": "pexels",
+        "author": "zhen tang",
+        "sourceUrl": "https://www.pexels.com/photo/silhouettes-of-people-at-railway-station-18505679/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/14790383/pexels-photo-14790383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/14790383/pexels-photo-14790383.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2656,
+      "height": 3984,
+      "alt": "Sunlit cafe interior with wooden tables, chairs, and lush green plants by the windows.",
+      "query": "cafe interior xining",
+      "credit": {
+        "source": "pexels",
+        "author": "İlknur Çelik",
+        "sourceUrl": "https://www.pexels.com/photo/empty-tables-near-windows-14790383/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38637674/pexels-photo-38637674.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38637674/pexels-photo-38637674.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2688,
+      "height": 4032,
+      "alt": "A cozy, minimalist cafe interior with bar seating and modern design elements.",
+      "query": "cafe interior xining",
+      "credit": {
+        "source": "pexels",
+        "author": "Vadim Malitskii",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-modern-cafe-interior-with-bar-seating-38637674/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "奶茶",
+    "咸奶茶",
+    "茶馆"
+  ],
+  "popularity": 80,
+  "sources": [
+    {
+      "title": "奶茶·百度百科",
+      "url": "https://baike.baidu.com/item/%E5%A5%B6%E8%8C%B6",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "奶茶（青海咸奶茶）"
+  },
+  "_geocodeTitle": "东关大街",
+  "_geocodeSuspect": false,
+  "district": "630102"
+}

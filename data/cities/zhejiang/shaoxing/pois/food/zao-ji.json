@@ -1,0 +1,83 @@
+{
+  "id": "zao-ji",
+  "name": "糟鸡·糟货",
+  "category": "food",
+  "subtype": "local",
+  "summary": "酒糟腌的冷盘，糟香清雅。",
+  "description": "糟货是绍兴用黄酒酒糟腌渍的冷盘系列，糟鸡、糟鱼、糟毛豆都在此列，酒糟的清雅香气渗入食材，凉吃爽口、不腻。它是黄酒之乡夏秋的看家凉菜，与醉货一酒糟一黄酒，各有风韵。价低、易得，配粥下酒皆宜。老城熟食摊常见。",
+  "highlights": [
+    "酒糟腌渍的鸡鱼毛豆",
+    "糟香清雅，凉吃爽口",
+    "夏秋看家凉菜，配粥下酒"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.582338,
+      "lat": 29.989092,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "绍兴市越城区熟食摊与土菜馆",
+    "district": "越城区",
+    "transportTip": "老城熟食摊"
+  },
+  "practical": {
+    "openHours": "约09:00-20:00（以门店为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约25元，以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 20-45 分钟",
+    "durationMinutes": [
+      20,
+      45
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "elders",
+    "solo",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/ShaoxingXianheng.jpg/1280px-ShaoxingXianheng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/ShaoxingXianheng.jpg/1280px-ShaoxingXianheng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "ShaoxingXianheng.jpg",
+      "query": "Chinese restaurant interior shaoxing",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Jiong Sheng",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:ShaoxingXianheng.jpg",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "糟货",
+    "酒糟",
+    "凉菜"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·糟货",
+      "url": "https://baike.baidu.com/item/%E7%B3%9F%E8%B4%A7",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "糟鸡·糟货"
+  },
+  "_geocodeTitle": "越城区",
+  "_geocodeSuspect": false,
+  "district": "330602"
+}

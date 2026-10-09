@@ -1,0 +1,116 @@
+{
+  "id": "bishan-kafei",
+  "name": "碧山书局咖啡",
+  "category": "food",
+  "subtype": "cafe",
+  "summary": "老祠堂里开的书局，二楼能喝咖啡，窗外是祠堂的天井和稻田。",
+  "description": "碧山书局开在村里的老祠堂里，是南京先锋书店的分店，也是国内乡村书店里最有名的一家。房子是一栋两百多年的汪氏祠堂，修复时尽量保留了原结构——木柱、梁架、天井都在，书架贴着墙立，书以徽州地方文史、乡土、建筑为主，也有文学和儿童书。最有名的是二楼那排朝天井开的窗，坐在窗边看书，抬头是祠堂的瓦顶和一片天，光线从天井落下来照在书页上。这里可以点咖啡和简单的饮品，价格中等，不点东西也可以坐着看。它更像一个村里的公共空间，村民也会来翻书。进碧山村免费，书局一般十点开到下午六点，周一可能不营业，去之前最好确认一下。在黟县走累了，这里是最适合歇一整个下午的地方。",
+  "highlights": [
+    "两百年祠堂改书店",
+    "天井天窗",
+    "徽州文史专架",
+    "乡村公共空间"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.910676,
+      "lat": 29.950194,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "黄山市黟县碧阳镇碧山村，碧山书局（启泰堂内）",
+    "district": "黟县",
+    "transportTip": "黟县县城打车约 10 分钟到碧山村，村内步行"
+  },
+  "practical": {
+    "openHours": "10:00-18:00（周一可能闭店，以现场为准）",
+    "openHoursRef": 0,
+    "ticket": "免费入内；咖啡约 25-45 元",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "solo",
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/27706147/pexels-photo-27706147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27706147/pexels-photo-27706147.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2075,
+      "height": 3130,
+      "alt": "Warm and inviting cafe interior showcasing ambient light, rustic decor, and a tranquil atmosphere.",
+      "query": "cafe interior yixian",
+      "credit": {
+        "source": "pexels",
+        "author": "Din Aziz",
+        "sourceUrl": "https://www.pexels.com/photo/jar-on-the-table-27706147/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/14517408/pexels-photo-14517408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/14517408/pexels-photo-14517408.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4330,
+      "height": 5773,
+      "alt": "Creative wall decor using paper cups in a modern cafe interior.",
+      "query": "cafe interior yixian",
+      "credit": {
+        "source": "pexels",
+        "author": "Afitab",
+        "sourceUrl": "https://www.pexels.com/photo/cups-hanging-on-the-wall-14517408/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32354649/pexels-photo-32354649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32354649/pexels-photo-32354649.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4912,
+      "height": 7360,
+      "alt": "Intimate cafe setting with a chair, table, and ambient lighting from a floor lamp.",
+      "query": "cafe interior yixian",
+      "credit": {
+        "source": "pexels",
+        "author": "Sóc Năng Động",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-cafe-corner-with-lamp-and-chair-32354649/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "书店",
+    "咖啡",
+    "祠堂改造",
+    "乡建"
+  ],
+  "popularity": 62,
+  "sources": [
+    {
+      "title": "百度百科·碧山书局",
+      "url": "https://baike.baidu.com/item/%E7%A2%A7%E5%B1%B1%E4%B9%A6%E5%B1%80",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "碧山书局咖啡"
+  },
+  "_geocodeTitle": "映山·土书馆",
+  "_geocodeSuspect": false,
+  "district": "341023"
+}

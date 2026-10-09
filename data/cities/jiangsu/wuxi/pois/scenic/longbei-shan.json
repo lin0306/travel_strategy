@@ -1,0 +1,88 @@
+{
+  "id": "longbei-shan",
+  "name": "龙背山森林公园",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "宜兴城边的丘陵林园，登塔望城。",
+  "description": "龙背山森林公园在宜兴城区边缘，是一处集丘陵、林木与文峰塔于一体的城市森林公园，园中有历史名人馆群，讲宜兴的状元与才俊。它免费、坡道平缓，适合晨练与家庭散步，登文峰塔可望宜兴全景。与竹海、善卷洞方向一致，可酌情连看。",
+  "highlights": [
+    "宜兴城边丘陵林园",
+    "文峰塔与历史名人馆群",
+    "免费，登塔望城"
+  ],
+  "location": {
+    "point": {
+      "lng": 119.81529,
+      "lat": 31.32713,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "无锡市宜兴市龙背山",
+    "district": "宜兴市",
+    "transportTip": "宜兴公交至龙背山约1小时",
+    "entrance": {
+      "lng": 119.809121,
+      "lat": 31.336676,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放（馆以公告为准）",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 90-180 分钟",
+    "durationMinutes": [
+      90,
+      180
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "solo",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/%E9%BE%99%E8%83%8C%E5%B1%B1%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD%E6%B8%B8%E5%AE%A2.jpg/1280px-%E9%BE%99%E8%83%8C%E5%B1%B1%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD%E6%B8%B8%E5%AE%A2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/%E9%BE%99%E8%83%8C%E5%B1%B1%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD%E6%B8%B8%E5%AE%A2.jpg/1280px-%E9%BE%99%E8%83%8C%E5%B1%B1%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD%E6%B8%B8%E5%AE%A2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1620,
+      "alt": "龙背山森林公园游客.jpg",
+      "query": "龙背山森林公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Lt2818",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%BE%99%E8%83%8C%E5%B1%B1%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD%E6%B8%B8%E5%AE%A2.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "森林公园",
+    "文峰塔",
+    "宜兴"
+  ],
+  "popularity": 60,
+  "sources": [
+    {
+      "title": "百度百科·龙背山",
+      "url": "https://baike.baidu.com/item/%E9%BE%99%E8%83%8C%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "龙背山森林公园"
+  },
+  "_geocodeTitle": "宜兴龙背山森林公园",
+  "_geocodeSuspect": false,
+  "district": "320282"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "fenghuang-oldstreet",
+  "name": "凤凰古城街区",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "沱江两岸的石板主街，店铺客栈沿街。",
+  "description": "凤凰古城的石板主街从东门延伸到虹桥，再沿着沱江铺开。两边是老宅改的店铺、客栈、银铺和姜糖摊，卖苗银、蜡染和特产。白天逛吃，入夜看灯。它免费开放，是理解这座边城格局最好的样本。主街热闹，岔进小巷就安静。慢慢走才能看出旧时的肌理。",
+  "highlights": [
+    "古城石板主街",
+    "店铺客栈沿街",
+    "免费慢慢逛"
+  ],
+  "location": {
+    "point": {
+      "lng": 109.606267,
+      "lat": 27.948931,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "湘西土家族苗族自治州凤凰县沱江镇凤凰古城",
+    "district": "凤凰",
+    "transportTip": "古城内步行可达"
+  },
+  "practical": {
+    "openHours": "全天开放（店铺多为 09:00-22:00）",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Hunan.Fenghuang_xian.panoramic_street_rampart_and_river_view.jpg/1280px-Hunan.Fenghuang_xian.panoramic_street_rampart_and_river_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Hunan.Fenghuang_xian.panoramic_street_rampart_and_river_view.jpg/1280px-Hunan.Fenghuang_xian.panoramic_street_rampart_and_river_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 253,
+      "alt": "Hunan.Fenghuang xian.panoramic street rampart and river view.jpg",
+      "query": "Chinese old town street fenghuang",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Popolon",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hunan.Fenghuang_xian.panoramic_street_rampart_and_river_view.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "古城",
+    "主街",
+    "边城"
+  ],
+  "popularity": 84,
+  "sources": [
+    {
+      "title": "百度百科·凤凰古城",
+      "url": "https://baike.baidu.com/item/%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-06"
+    }
+  ],
+  "updatedAt": "2026-10-06",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "凤凰古城街区"
+  },
+  "_geocodeTitle": "凤凰古城",
+  "_geocodeSuspect": false,
+  "district": "433123"
+}

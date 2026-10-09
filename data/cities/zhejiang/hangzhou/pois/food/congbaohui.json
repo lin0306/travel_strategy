@@ -1,0 +1,83 @@
+{
+  "id": "congbaohui",
+  "name": "葱包桧(河坊街一带)",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "一张春饼卷油条压出来的小吃，名字来自秦桧的传说。",
+  "description": "葱包桧的做法很直白：春饼皮裹住油条与小葱，放在铁板上压烤到两面焦黄，刷上甜面酱或辣酱。名字里的「桧」指的是秦桧，民间把炸油条（油炸桧）的典故套了过来。它是杭州最平民的小吃之一，河坊街与中山南路一带的摊子都能见到。",
+  "highlights": [
+    "春饼裹油条压烤两面焦黄",
+    "名字取自油炸桧的民间典故",
+    "街头摊点，价格极低"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.170656,
+      "lat": 30.234654,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "杭州市上城区河坊街",
+    "district": "上城区",
+    "transportTip": "地铁7号线吴山广场站"
+  },
+  "practical": {
+    "openHours": "约09:00-21:00(以摊点公告为准)",
+    "openHoursRef": 0,
+    "ticket": "人均约10元起(以门店为准)",
+    "ticketRef": 0,
+    "duration": "建议 20-45 分钟",
+    "durationMinutes": [
+      20,
+      45
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "couple",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/%E8%91%B1%E5%8C%85%E6%A1%A7.jpg/1280px-%E8%91%B1%E5%8C%85%E6%A1%A7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/%E8%91%B1%E5%8C%85%E6%A1%A7.jpg/1280px-%E8%91%B1%E5%8C%85%E6%A1%A7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1080,
+      "alt": "葱包桧.jpg",
+      "query": "葱包桧 杭州",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Gu0427",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%91%B1%E5%8C%85%E6%A1%A7.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "小吃",
+    "街头",
+    "便宜"
+  ],
+  "popularity": 82,
+  "sources": [
+    {
+      "title": "百度百科·葱包桧",
+      "url": "https://baike.baidu.com/item/%E8%91%B1%E5%8C%85%E6%A1%A7",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "葱包桧(河坊街一带)"
+  },
+  "_geocodeTitle": "孙奶奶葱包桧",
+  "_geocodeSuspect": false,
+  "district": "330102"
+}

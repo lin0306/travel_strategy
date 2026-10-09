@@ -1,0 +1,118 @@
+{
+  "id": "panlong",
+  "name": "蟠龙湖",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "元氏的山水湖，划船与岸边度假。",
+  "description": "蟠龙湖在元氏县，是太行脚下的一座人工湖，水面开阔、岸边是丘陵和度假村，可以划船、垂钓和玩水。它离市区约一小时，适合安排半天的出城休闲行程。夏天是旺季，周末家庭多。",
+  "highlights": [
+    "元氏太行脚下人工湖，水面开阔",
+    "划船垂钓与岸边度假",
+    "离城约一小时，夏天旺季"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.385123,
+      "lat": 37.809344,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "石家庄市元氏县232省道蟠龙湖景区",
+    "district": "元氏县",
+    "transportTip": "市区自驾约1小时",
+    "entrance": {
+      "lng": 114.396703,
+      "lat": 37.817645,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:30-17:30，以景区公告为准",
+    "openHoursRef": 0,
+    "ticket": "约20元起，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38865779/pexels-photo-38865779.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38865779/pexels-photo-38865779.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 3024,
+      "alt": "Beautiful sunset view over mountains and buildings in Shijiazhuang, China.",
+      "query": "natural landscape China shijiazhuang",
+      "credit": {
+        "source": "pexels",
+        "author": "冰 白",
+        "sourceUrl": "https://www.pexels.com/photo/sunset-over-shijiazhuang-s-scenic-mountains-38865779/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27292261/pexels-photo-27292261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27292261/pexels-photo-27292261.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "A serene mountain temple amidst lush greenery and towering rocks in Shijiazhuang, Hebei, China.",
+      "query": "natural landscape China shijiazhuang",
+      "credit": {
+        "source": "pexels",
+        "author": "ANI Chen",
+        "sourceUrl": "https://www.pexels.com/photo/cloudy-view-in-the-mountain-27292261/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/15042553/pexels-photo-15042553.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/15042553/pexels-photo-15042553.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Serene wetland landscape during autumn with bare trees and calm waters under a clear sky.",
+      "query": "natural landscape China shijiazhuang",
+      "credit": {
+        "source": "pexels",
+        "author": "Super cute",
+        "sourceUrl": "https://www.pexels.com/photo/trees-in-a-wetland-in-early-spring-15042553/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湖",
+    "度假",
+    "划船"
+  ],
+  "popularity": 56,
+  "sources": [
+    {
+      "title": "百度百科·蟠龙湖",
+      "url": "https://baike.baidu.com/item/%E8%9F%A0%E9%BE%99%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "蟠龙湖"
+  },
+  "_geocodeTitle": "蟠龙湖景区",
+  "_geocodeSuspect": false,
+  "district": "130132"
+}

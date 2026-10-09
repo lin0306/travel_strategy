@@ -1,0 +1,115 @@
+{
+  "id": "xinhua-bar-street",
+  "name": "新华街酒吧街",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "古城夜里人最多的那条街，沿水一排酒吧，对岸是灯笼与倒影，白天却很安静。",
+  "description": "新华街在古城靠西的一边，沿着那条水渠铺过去，两边全是酒吧与清吧。它的名声有两面：一边是外面传的「艳遇之都」，一边是纳西院子改出来的老房子 —— 白天这条街很普通，铺子开门、有人洗菜、狗在门口睡，跟别的巷子没有区别；天一黑就换了一批人，灯从檐下一盏盏亮起来，驻唱的乐队从八点唱到半夜，声音顺着水传得很远。它与四方街那一片是连着的，从四方街往西走几分钟就到。河很窄，水很浅但一直在流，桥也窄，站在桥上看两边是最典型的画面。要留意的是这里消费偏高，一杯酒比古城外贵不少，进去前先问清有没有最低消费；街上会有拉客的人，不想进就摆手走开。住在古城里的话凌晨前会吵，怕吵别选这一带。",
+  "highlights": [
+    "古城夜里人最多的一条街，沿水一排酒吧与灯笼",
+    "白天很普通，天黑才换一批人，乐队唱到半夜",
+    "消费偏高，进门先问清最低消费，街上会有人拉客"
+  ],
+  "location": {
+    "point": {
+      "lng": 100.232966,
+      "lat": 26.874028,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "云南省丽江市古城区新华街",
+    "district": "古城区",
+    "transportTip": "古城内步行；从四方街往西约五分钟"
+  },
+  "practical": {
+    "openHours": "全天开放，酒吧多为14:00至次日凌晨",
+    "openHoursRef": 0,
+    "ticket": "免费进入，酒水另付",
+    "ticketRef": 0,
+    "duration": "建议 60-180 分钟",
+    "durationMinutes": [
+      60,
+      180
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "friends",
+    "couple",
+    "solo",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/36847750/pexels-photo-36847750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36847750/pexels-photo-36847750.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3930,
+      "height": 5895,
+      "alt": "Colorful street bustling with activity in Lijiang, China, showcasing cultural architecture.",
+      "query": "Chinese old town street lijiang",
+      "credit": {
+        "source": "pexels",
+        "author": "xiaoxian",
+        "sourceUrl": "https://www.pexels.com/photo/vibrant-street-scene-in-lijiang-old-town-36847750/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/14553045/pexels-photo-14553045.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/14553045/pexels-photo-14553045.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5472,
+      "height": 3648,
+      "alt": "Vibrant scene in Lijiang's Old Town showcasing traditional Chinese architecture and bustling pedestrian activity.",
+      "query": "Chinese old town street lijiang",
+      "credit": {
+        "source": "pexels",
+        "author": "fei wang",
+        "sourceUrl": "https://www.pexels.com/photo/gate-in-chinatown-14553045/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/14553046/pexels-photo-14553046.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/14553046/pexels-photo-14553046.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5472,
+      "height": 3648,
+      "alt": "Scenic view of Lijiang Old Town entrance with traditional architecture and people walking.",
+      "query": "Chinese old town street lijiang",
+      "credit": {
+        "source": "pexels",
+        "author": "fei wang",
+        "sourceUrl": "https://www.pexels.com/photo/people-on-the-street-of-chinese-old-town-14553046/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "夜生活",
+    "酒吧",
+    "沿河"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "百度百科·丽江古城",
+      "url": "https://baike.baidu.com/item/%E4%B8%BD%E6%B1%9F%E5%8F%A4%E5%9F%8E",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "新华街酒吧街"
+  },
+  "_geocodeTitle": "新华街",
+  "_geocodeSuspect": false,
+  "coordSystem": "GCJ-02",
+  "district": "530702"
+}

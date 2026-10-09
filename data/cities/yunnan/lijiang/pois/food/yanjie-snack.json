@@ -1,0 +1,114 @@
+{
+  "id": "yanjie-snack",
+  "name": "燕姐小吃店",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "束河古镇上的一家小吃店，做的是本地常见的小吃与米线，价格实在。",
+  "description": "这家在束河古镇松园路，是一间小店，做本地常见的那几样：米线、饵块、凉粉、炒饭与几样小炒。它不是为游客开的 ——菜单简单，价格实在，来吃的多半是束河本地与在这边做事的人。早餐与午餐最热闹。人均便宜，一个人十几块能吃饱。它在束河里，离四方听音广场不远，逛镇顺路。束河比大研安静，吃饭的选择少一些，这种小店反而是最对路的 ——不用等、不用排队，吃完接着逛。想吃一顿不讲究的本地饭，来这里。",
+  "highlights": [
+    "束河的小店，做的是本地常见的米线饵块凉粉",
+    "菜单简单价格实在，来的多是本地人",
+    "一个人十几块能吃饱，不用等不用排队"
+  ],
+  "location": {
+    "point": {
+      "lng": 100.199884,
+      "lat": 26.917833,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "云南省丽江市古城区束河街道松园路31号",
+    "district": "古城区",
+    "transportTip": "束河古镇内步行；从四方听音广场往西约五分钟"
+  },
+  "practical": {
+    "openHours": "约8:00-21:00，以门店公告为准",
+    "openHoursRef": 0,
+    "ticket": "人均便宜",
+    "ticketRef": 0,
+    "duration": "建议 40-70 分钟",
+    "durationMinutes": [
+      40,
+      70
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4240,
+      "height": 2832,
+      "alt": "A bustling street food stall offering traditional dishes to a customer in stylish winter attire.",
+      "query": "Chinese street food dish lijiang",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6440090/pexels-photo-6440090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6440090/pexels-photo-6440090.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4856,
+      "height": 3237,
+      "alt": "Close-up of delicious Chinese street food in a paper bowl held by a hand, featuring seasoned fried potatoes.",
+      "query": "Chinese street food dish lijiang",
+      "credit": {
+        "source": "pexels",
+        "author": "Mackenzie Ryder",
+        "sourceUrl": "https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3032,
+      "height": 3923,
+      "alt": "Browse a bustling Shenzhen food stall with diverse Asian meals and colorful bowls, embodying Chinese culinary culture.",
+      "query": "Chinese street food dish lijiang",
+      "credit": {
+        "source": "pexels",
+        "author": "Jaime Hernandez Erives",
+        "sourceUrl": "https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "小吃",
+    "束河",
+    "实惠"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "百度百科·束河古镇",
+      "url": "https://baike.baidu.com/item/%E6%9D%9F%E6%B2%B3%E5%8F%A4%E9%95%87",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "燕姐小吃店"
+  },
+  "_geocodeTitle": "燕姐野生菌汤锅",
+  "_geocodeSuspect": false,
+  "coordSystem": "GCJ-02",
+  "district": "530702"
+}

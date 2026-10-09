@@ -1,0 +1,87 @@
+{
+  "id": "binhai-road",
+  "name": "滨海路",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "沿黄海的一段海岸公路，一边山一边海，徒步骑行的经典。",
+  "description": "滨海路是大连沿黄海的一段海岸公路，一边是山、一边是海，弯多。很多人来徒步、骑行、自驾，停车看海。燕窝岭、北大桥这些点在路上。春天路边樱花开。几个看点：沿黄海海岸公路，一边山一边海；徒步骑行自驾的经典路；燕窝岭北大桥在沿线。",
+  "highlights": [
+    "沿黄海海岸公路，一边山一边海",
+    "徒步骑行自驾的经典路",
+    "燕窝岭北大桥在沿线"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.605,
+      "lat": 38.88,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省大连市中山区滨海路",
+    "district": "西岗区",
+    "transportTip": "沿滨海路自驾或骑行，公交部分可达",
+    "entrance": {
+      "lng": 121.597404,
+      "lat": 38.875716,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 120-300 分钟",
+    "durationMinutes": [
+      120,
+      300
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Mountain_Series.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Mountain_Series.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 608,
+      "alt": "Mountain Series.jpg",
+      "query": "natural landscape China dalian",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Jason M. C., Han",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mountain_Series.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "海岸公路",
+    "徒步",
+    "免费"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·滨海路",
+      "url": "https://baike.baidu.com/item/%E5%A4%A7%E8%BF%9E%E6%BB%A8%E6%B5%B7%E8%B7%AF",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "滨海路"
+  },
+  "_geocodeTitle": "中山区",
+  "_geocodeSuspect": false,
+  "district": "210203"
+}

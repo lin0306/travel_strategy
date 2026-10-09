@@ -1,0 +1,114 @@
+{
+  "id": "bianxi-lake",
+  "name": "汴西湖",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "开封西郊的人工湖，水面大，环湖绿道适合骑行散步。",
+  "description": "汴西湖在开封西郊，是一片大人工湖。水面开阔，有环湖绿道，本地人骑车、跑步。新城区围着它建，干净宽敞。想避开老城的拥挤，来这透透气。傍晚日落映在水上好看，免费。去之前看一眼天气，山里变得快。",
+  "highlights": [
+    "西郊大人工湖",
+    "环湖绿道骑行散步",
+    "新城区开窗宽免费"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.277666,
+      "lat": 34.811143,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河南省开封市城乡一体化示范区汴西湖",
+    "district": "龙亭区",
+    "transportTip": "市区公交或打车到汴西湖"
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "elders",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/38492548/pexels-photo-38492548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38492548/pexels-photo-38492548.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8156,
+      "height": 5437,
+      "alt": "A spectacular night scene of a bridge with colorful lights and lotus flowers on a water body in Kaifeng, China.",
+      "query": "Bianxi Lake Kaifeng",
+      "credit": {
+        "source": "pexels",
+        "author": "Raymond Zhao",
+        "sourceUrl": "https://www.pexels.com/photo/night-view-of-illuminated-bridge-in-kaifeng-china-38492548/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38492553/pexels-photo-38492553.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38492553/pexels-photo-38492553.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8225,
+      "height": 5483,
+      "alt": "Vibrant fireworks illuminate a bridge at night in Kaifeng, showcasing a colorful celebration by the water.",
+      "query": "Bianxi Lake Kaifeng",
+      "credit": {
+        "source": "pexels",
+        "author": "Raymond Zhao",
+        "sourceUrl": "https://www.pexels.com/photo/spectacular-night-fireworks-over-bridge-in-kaifeng-38492553/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38492547/pexels-photo-38492547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38492547/pexels-photo-38492547.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8093,
+      "height": 5395,
+      "alt": "Stunning night view of a colorful bridge and fireworks reflected on a water surface in Kaifeng, Henan, China.",
+      "query": "Bianxi Lake Kaifeng",
+      "credit": {
+        "source": "pexels",
+        "author": "Raymond Zhao",
+        "sourceUrl": "https://www.pexels.com/photo/vibrant-nightscape-of-kaifeng-bridge-with-fireworks-38492547/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "人工湖",
+    "绿道",
+    "新城"
+  ],
+  "popularity": 56,
+  "sources": [
+    {
+      "title": "百度百科·开封",
+      "url": "https://baike.baidu.com/item/%E5%BC%80%E5%B0%81",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Bianxi Lake Kaifeng",
+    "zh": "汴西湖"
+  },
+  "_geocodeTitle": "汴西湖银色沙滩",
+  "_geocodeSuspect": false,
+  "district": "410202"
+}

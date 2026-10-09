@@ -1,0 +1,118 @@
+{
+  "id": "qingyuan-mountain",
+  "name": "清源山",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "泉州城北的一座山，山顶老君岩是最大的道教石雕。",
+  "description": "清源山在泉州城北，是一座城边的山，爬上去能看全城。最出名的是老君岩，一尊巨大的老子坐像，凿在整块石头上，是最大的道教石雕。山里还有弥陀岩、千手岩这些石刻。林木多，早上很多本地人来锻炼。",
+  "highlights": [
+    "城北一座山，登顶看全城",
+    "老君岩是最大道教石雕",
+    "林木多，本地人晨练地"
+  ],
+  "location": {
+    "point": {
+      "lng": 118.607567,
+      "lat": 24.954022,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "福建省泉州市丰泽区清源山风景名胜区",
+    "district": "丰泽区",
+    "transportTip": "老城乘公交或打车往北约二十分钟",
+    "entrance": {
+      "lng": 118.59627,
+      "lat": 24.940971,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约5:30-18:00",
+    "openHoursRef": 0,
+    "ticket": "门票约几十元",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Laozi_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Laozi_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 810,
+      "alt": "Laozi 002.jpg",
+      "query": "清源山",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Thanato",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Laozi_002.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/%E6%B8%85%E6%BA%90%E5%B1%B1_-_panoramio.jpg/1280px-%E6%B8%85%E6%BA%90%E5%B1%B1_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/%E6%B8%85%E6%BA%90%E5%B1%B1_-_panoramio.jpg/1280px-%E6%B8%85%E6%BA%90%E5%B1%B1_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "清源山 - panoramio.jpg",
+      "query": "清源山",
+      "credit": {
+        "source": "wikimedia",
+        "author": "王启生",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B8%85%E6%BA%90%E5%B1%B1_-_panoramio.jpg",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/%E6%B8%85%E6%BA%90%E5%B1%B1_%E6%AD%A3%E5%BE%B3%E5%AF%BA.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/%E6%B8%85%E6%BA%90%E5%B1%B1_%E6%AD%A3%E5%BE%B3%E5%AF%BA.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 813,
+      "alt": "清源山 正徳寺.jpeg",
+      "query": "清源山",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Edomother",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B8%85%E6%BA%90%E5%B1%B1_%E6%AD%A3%E5%BE%B3%E5%AF%BA.jpeg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "山",
+    "老君岩",
+    "道教"
+  ],
+  "popularity": 76,
+  "sources": [
+    {
+      "title": "百度百科·清源山",
+      "url": "https://baike.baidu.com/item/%E6%B8%85%E6%BA%90%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "清源山"
+  },
+  "_geocodeTitle": "清源山",
+  "_geocodeSuspect": false,
+  "district": "350503"
+}

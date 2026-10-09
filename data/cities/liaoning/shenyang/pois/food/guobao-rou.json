@@ -1,0 +1,111 @@
+{
+  "id": "guobao-rou",
+  "name": "锅包肉",
+  "category": "food",
+  "subtype": "local",
+  "summary": "东北名菜，肉片裹浆炸脆再熘糖醋汁，外酥里嫩。",
+  "description": "锅包肉是东北的头号名菜。猪里脊裹浆炸脆，再熘上糖醋汁，外酥里嫩，酸甜。沈阳的做法是番茄酱派，颜色橙亮。它几乎是东北菜馆的必点。趁热，凉了回软就不脆。配一碗米饭或米粉刚好，别点太杂。",
+  "highlights": [
+    "东北头号名菜糖醋汁",
+    "外酥里嫩酸甜",
+    "番茄酱派橙亮趁热"
+  ],
+  "location": {
+    "point": {
+      "lng": 123.515563,
+      "lat": 41.841065,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省沈阳市各东北菜馆",
+    "district": "大东区",
+    "transportTip": "市区东北菜馆均有"
+  },
+  "practical": {
+    "openHours": "约10:00-21:00",
+    "openHoursRef": 0,
+    "ticket": "约38元/份起",
+    "ticketRef": 0,
+    "duration": "建议 20-40 分钟",
+    "durationMinutes": [
+      20,
+      40
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/36738568/pexels-photo-36738568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36738568/pexels-photo-36738568.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3504,
+      "height": 2336,
+      "alt": "Delicious Taiwanese braised pork rice topped with a soft boiled egg, served in Puli, Taiwan.",
+      "query": "Guobao Rou",
+      "credit": {
+        "source": "pexels",
+        "author": "hung chou",
+        "sourceUrl": "https://www.pexels.com/photo/taiwanese-braised-pork-rice-with-soft-boiled-egg-36738568/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/29090907/pexels-photo-29090907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29090907/pexels-photo-29090907.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Serene and atmospheric misty forest path during autumn, capturing tranquil nature.",
+      "query": "Guobao Rou",
+      "credit": {
+        "source": "pexels",
+        "author": "Kris Møklebust",
+        "sourceUrl": "https://www.pexels.com/photo/misty-autumn-forest-pathway-landscape-29090907/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/24246108/pexels-photo-24246108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/24246108/pexels-photo-24246108.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3780,
+      "height": 6720,
+      "alt": "Gourmet beef dish with sauce being elegantly poured, highlighting fine dining.",
+      "query": "Guobao Rou",
+      "credit": {
+        "source": "pexels",
+        "author": "Change C.C",
+        "sourceUrl": "https://www.pexels.com/photo/pouring-sauce-on-beef-on-plate-24246108/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "锅包肉",
+    "东北菜",
+    "名菜"
+  ],
+  "popularity": 90,
+  "sources": [
+    {
+      "title": "百度百科·锅包肉",
+      "url": "https://baike.baidu.com/item/%E9%94%85%E5%8C%85%E8%82%89",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Guobao Rou",
+    "zh": "锅包肉"
+  },
+  "district": "210104"
+}

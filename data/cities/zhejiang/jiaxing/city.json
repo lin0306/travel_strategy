@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "jiaxing",
+  "name": "嘉兴",
+  "province": "浙江",
+  "adcode": "330400",
+  "provinceAdcode": "330000",
+  "tagline": "运河抱城、古镇连水，一只粽子与一叶红船的江南",
+  "intro": "嘉兴在浙江省北部、沪杭之间，京杭大运河穿城而过，是典型的江南水乡。城中的南湖是革命红船的起航地，烟雨楼临湖而建，自古就是揽胜之处。嘉兴下辖的乌镇与西塘，是江南六大古镇里名气最大的两座，小桥流水、廊棚人家。海宁的盐官是钱塘江观潮第一胜地，每年农历八月十八潮水最大。嘉兴还走出茅盾、金庸、王国维、徐志摩一串文化名人，粽子则以五芳斋名扬全国。嘉兴适合用一两天逛古镇与南湖，再用一天去海宁看潮、访名人故里。",
+  "center": {
+    "lng": 120.7833,
+    "lat": 30.6196,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    120.2999,
+    30.2959,
+    121.2717,
+    31.0175
+  ],
+  "defaultZoom": 10,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/15906464/pexels-photo-15906464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/15906464/pexels-photo-15906464.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Beautiful urban skyline at dusk, reflecting on calm water with vibrant city lights.",
+      "query": "嘉兴 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "He Zhang",
+        "sourceUrl": "https://www.pexels.com/photo/buildings-in-the-light-of-the-sunset-15906464/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/14230261/pexels-photo-14230261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/14230261/pexels-photo-14230261.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5861,
+      "height": 3908,
+      "alt": "Illuminated skyline and reflections along the river in Foshan, China at night.",
+      "query": "嘉兴 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Lywin",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-of-a-city-reflecting-in-a-river-14230261/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31959622/pexels-photo-31959622.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31959622/pexels-photo-31959622.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5727,
+      "height": 8591,
+      "alt": "A vibrant urban skyline reflected in a river during sunset, showcasing towering skyscrapers.",
+      "query": "嘉兴 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Neil Ni",
+        "sourceUrl": "https://www.pexels.com/photo/modern-cityscape-with-river-at-sunset-31959622/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "3-5 月（水乡春色）/ 9-11 月（秋高、农历八月十八前后看大潮）；夏季闷热多雨",
+    "suggestedDays": "2 天（南湖+月河+市区古镇 1 天，乌镇或西塘 1 天；看潮加海宁半天）",
+    "transitTip": "高铁嘉兴南站与嘉兴站都在市区，沪杭线车次密集。去乌镇、西塘、海宁有县际班车与公交，也可自驾。乌镇在桐乡、西塘在嘉善、盐官在海宁，彼此不在同一方向，一天跑两镇要算好时间。古镇内全靠步行，不建议自驾进镇区。",
+    "climateTip": "北亚热带季风气候，水乡湿度大。春夏多雨，备伞；梅雨季闷湿；秋冬温和但有阴冷。看潮注意江边风大、潮水凶猛，务必待在安全区。"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-05"
+  },
+  "updatedAt": "2026-10-05"
+}

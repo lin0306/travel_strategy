@@ -1,0 +1,114 @@
+{
+  "id": "pepper-bun",
+  "name": "胡椒饼",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "炭火烤的胡椒饼，肉馅带葱，一口咬下会出汁。",
+  "description": "胡椒饼是街边现烤的小吃。面皮包着腌过的猪肉馅与大量葱花，捏口朝下贴在烤炉壁上，用炭火高温烤到外皮焦香。出炉时饼皮金黄带脆，咬开里面有肉汁，胡椒味冲而香。葱要放得多，和肉汁混一起是它的重点。摊子多在夜市与老市场，现烤现卖，排队时能看到师傅贴饼的动作，很有看头。刚出炉很烫，先咬个小口放气。一个份量不小，两个人分着吃也行。",
+  "highlights": [
+    "炭炉壁烤，外皮焦香",
+    "猪肉馅配大量葱花",
+    "现烤现卖，出炉很烫"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.56072,
+      "lat": 25.0539,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "台北市夜市与老市场摊子",
+    "district": "松山区",
+    "transportTip": "捷运剑潭站、公馆站周边夜市"
+  },
+  "practical": {
+    "openHours": "多为15:00-22:00，各摊不一",
+    "openHoursRef": 0,
+    "ticket": "一个约新台币60元至80元，以摊家为准",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Hamburger_and_fries_in_Paris_%2849639688221%29.jpg/1280px-Hamburger_and_fries_in_Paris_%2849639688221%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Hamburger_and_fries_in_Paris_%2849639688221%29.jpg/1280px-Hamburger_and_fries_in_Paris_%2849639688221%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Hamburger and fries in Paris (49639688221).jpg",
+      "query": "Taiwanese pepper bun",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Cheng-en Cheng from Taichung City, Taiwan",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburger_and_fries_in_Paris_(49639688221).jpg",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Hujiao_bing_Taipei.jpg/1280px-Hujiao_bing_Taipei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Hujiao_bing_Taipei.jpg/1280px-Hujiao_bing_Taipei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Hujiao bing Taipei.jpg",
+      "query": "Taiwanese pepper bun",
+      "credit": {
+        "source": "wikimedia",
+        "author": "KQuhen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hujiao_bing_Taipei.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Hujiao_bing_stall_Taipei.jpg/1280px-Hujiao_bing_stall_Taipei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Hujiao_bing_stall_Taipei.jpg/1280px-Hujiao_bing_stall_Taipei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Hujiao bing stall Taipei.jpg",
+      "query": "Taiwanese pepper bun",
+      "credit": {
+        "source": "wikimedia",
+        "author": "KQuhen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hujiao_bing_stall_Taipei.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "胡椒饼",
+    "炭烤",
+    "小吃"
+  ],
+  "popularity": 82,
+  "sources": [
+    {
+      "title": "胡椒饼·百度百科",
+      "url": "https://baike.baidu.com/item/%E8%83%A1%E6%A4%92%E9%A5%BC",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-03"
+    }
+  ],
+  "updatedAt": "2026-10-03",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Taiwanese pepper bun",
+    "zh": "胡椒饼"
+  },
+  "_geocodeTitle": "胡椒饼",
+  "_geocodeSuspect": false,
+  "district": "711001"
+}

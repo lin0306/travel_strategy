@@ -1,0 +1,117 @@
+{
+  "id": "wanghu-eco",
+  "name": "汪湖生态游览区",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "瑶里一带的一片原始林区，瀑布和古树多，是山里最绿的一段。",
+  "description": "汪湖在瑶里那一片，是一处原始林区。它离瑶里古镇不远，山里树密，溪水清，有几处瀑布。最出名的是南山瀑布，水从高处落下来。林里有古树，也有猴子。它是瑶里这一片最绿的一段，夏天凉。",
+  "highlights": [
+    "瑶里片区原始林区，瀑布古树多",
+    "南山瀑布从高处落下",
+    "山里最绿一段，夏天凉"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.663708,
+      "lat": 29.54549,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "江西省景德镇市浮梁县瑶里镇汪湖",
+    "district": "浮梁县",
+    "transportTip": "瑶里转车或步行到汪湖",
+    "entrance": {
+      "lng": 117.662906,
+      "lat": 29.54506,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约08:00-17:00，以景区公告为准",
+    "openHoursRef": 0,
+    "ticket": "约60元",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/16137666/pexels-photo-16137666.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/16137666/pexels-photo-16137666.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2250,
+      "height": 4000,
+      "alt": "Aerial shot showcasing a lush green forest path amidst dense foliage.",
+      "query": "Wanghu Ecological Scenic Area Yaoli",
+      "credit": {
+        "source": "pexels",
+        "author": "João Victor  Valeriote",
+        "sourceUrl": "https://www.pexels.com/photo/green-earth-surface-16137666/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/14532593/pexels-photo-14532593.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/14532593/pexels-photo-14532593.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5472,
+      "height": 3648,
+      "alt": "A picturesque footbridge spans a calm river surrounded by trees and mountains under a bright sky.",
+      "query": "Wanghu Ecological Scenic Area Yaoli",
+      "credit": {
+        "source": "pexels",
+        "author": "fei wang",
+        "sourceUrl": "https://www.pexels.com/photo/cloud-over-river-with-footbridge-14532593/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/11461810/pexels-photo-11461810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/11461810/pexels-photo-11461810.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 3000,
+      "alt": "Stunning aerial view of Shimen Reservoir and surrounding landscape in Taoyuan City, Taiwan.",
+      "query": "Wanghu Ecological Scenic Area Yaoli",
+      "credit": {
+        "source": "pexels",
+        "author": "吳宗翰",
+        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-the-shimen-reservoir-in-taiwan-11461810/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "森林",
+    "瀑布",
+    "瑶里"
+  ],
+  "popularity": 56,
+  "sources": [
+    {
+      "title": "百度百科·瑶里",
+      "url": "https://baike.baidu.com/item/%E7%91%B6%E9%87%8C",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Wanghu Ecological Scenic Area Yaoli",
+    "zh": "汪湖生态游览区"
+  },
+  "_geocodeTitle": "汪湖生态游览区-正门",
+  "_geocodeSuspect": false,
+  "district": "360222"
+}

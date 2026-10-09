@@ -1,0 +1,112 @@
+{
+  "id": "city-wall-museum",
+  "name": "苏州城墙博物馆(相门段)",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "相门重建城墙下的一座小馆，讲苏州城两千五百年的城址不变这件事。",
+  "description": "苏州城自春秋建城以来，城址基本没有挪过位置，这在国内大城市里很少见。这座馆就在相门的重建城墙下面，展的是城墙的构造、历代的城门位置与考古出土的砖。规模很小，四十分钟能看完。出来可以上城墙走一段，相门这一段是能上去的。护城河就在旁边，傍晚沿河走也不错。",
+  "highlights": [
+    "苏州城址两千五百年未挪",
+    "馆在相门城墙下，可上城墙",
+    "护城河就在旁边"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.640668,
+      "lat": 31.311373,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "苏州市姑苏区相门",
+    "district": "姑苏区",
+    "transportTip": "地铁相门站步行约5分钟"
+  },
+  "practical": {
+    "openHours": "约09:00-16:30，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 45-90 分钟",
+    "durationMinutes": [
+      45,
+      90
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "kids",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/35870231/pexels-photo-35870231.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35870231/pexels-photo-35870231.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6990,
+      "height": 4660,
+      "alt": "Explore the elegant interior of an Istanbul museum showcasing art and artifacts.",
+      "query": "museum exhibition hall suzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Gül Işık",
+        "sourceUrl": "https://www.pexels.com/photo/intricate-istanbul-museum-interior-display-35870231/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/20203891/pexels-photo-20203891.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/20203891/pexels-photo-20203891.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5630,
+      "height": 4160,
+      "alt": "Elegant high-tech architecture inside Kunshan Grand Theater in Suzhou, China.",
+      "query": "museum exhibition hall suzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "KJ Brix",
+        "sourceUrl": "https://www.pexels.com/photo/interior-of-the-kunshan-grand-theater-in-suzhou-shi-china-20203891/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27945763/pexels-photo-27945763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27945763/pexels-photo-27945763.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Intricately crafted golden statue showcased in a Chinese history museum exhibit with detailed background art.",
+      "query": "museum exhibition hall suzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Teysa Tugadi",
+        "sourceUrl": "https://www.pexels.com/photo/a-statue-of-a-buddha-in-a-glass-case-27945763/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "城墙",
+    "博物馆",
+    "城址"
+  ],
+  "popularity": 56,
+  "sources": [
+    {
+      "title": "百度百科·苏州城墙",
+      "url": "https://baike.baidu.com/item/%E8%8B%8F%E5%B7%9E%E5%9F%8E%E5%A2%99",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "苏州城墙博物馆(相门段)"
+  },
+  "_geocodeTitle": "苏州城墙博物馆",
+  "_geocodeSuspect": false,
+  "district": "320508"
+}

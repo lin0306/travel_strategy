@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "fuzhou",
+  "name": "福州",
+  "province": "福建",
+  "adcode": "350100",
+  "provinceAdcode": "350000",
+  "tagline": "三坊七巷的砖、闽江边的风，还有满街都有的那碗捞化",
+  "intro": "福州的城是叠在闽江口北岸的。中心这一片从唐代就开始是州治，三坊七巷的格局一直没怎么挪过，走在里面常常拐个弯就是几百年的墙。山在城里：鼓山、于山、乌山、屏山把老城四面围住，其中于山和乌山就在市中心，爬上去能看半个城。水也近：闽江从城边过，江滨公园、烟台山一带是看江和看老仓山洋楼的地方。吃的偏鲜甜、重小吃：鱼丸、肉燕、锅边糊、捞化、芋泥、花生汤，都是一碗一碗的早点逻辑。佛跳墙是这里发端的硬菜，但日常更常见的是街角那家捞化店。安排上，老城两天、鼓山或森林公园一天、闽侯或永泰的山水一天，四天是不赶的节奏。",
+  "center": {
+    "lng": 119.2006,
+    "lat": 26.0466,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    118.3821,
+    25.3376,
+    120.016,
+    26.6281
+  ],
+  "defaultZoom": 10,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/2349958/pexels-photo-2349958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/2349958/pexels-photo-2349958.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4870,
+      "height": 2928,
+      "alt": "A vibrant night view of Fuzhou cityscape, featuring illuminated buildings and bustling streets.",
+      "query": "福州 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Darry Lin",
+        "sourceUrl": "https://www.pexels.com/photo/bird-s-eye-view-of-city-during-evening-2349958/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/17975657/pexels-photo-17975657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/17975657/pexels-photo-17975657.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3712,
+      "height": 5568,
+      "alt": "Aerial view of busy traffic on urban streets surrounded by skyscrapers in Xiamen, China.",
+      "query": "福州 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Bryanken",
+        "sourceUrl": "https://www.pexels.com/photo/traffic-on-street-in-city-17975657/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/35620192/pexels-photo-35620192.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35620192/pexels-photo-35620192.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2688,
+      "height": 4032,
+      "alt": "A scenic view of Guangzhou skyline from a balcony during sunset, featuring modern skyscrapers and a traditional overhang",
+      "query": "福州 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Glyne Yan",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-view-from-balcony-at-dusk-in-guangzhou-35620192/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "3-5 月 / 10-11 月（夏季湿热多台风，7-9 月闷热；冬季湿冷，气温不低但体感凉）",
+    "suggestedDays": "3-4 天（老城三坊七巷+于山乌山 1 天，鼓山或森林公园 1 天，烟台山+上下杭+闽江 1 天，闽侯/永泰山水 1 天）",
+    "transitTip": "地铁 1/2 号线覆盖老城主要节点，东街口、南门兜、达道、三叉街都是换乘或直达站。福州站与福州南站都有地铁接入，南站是高铁主站。老城景点密集，步行加共享单车最方便。去鼓岭、旗山、青云山要预留出城时间，远郊景点之间靠自驾或专线更顺。",
+    "climateTip": "中亚热带海洋性季风气候。温暖湿润，四季较分明，春雨与梅雨集中，夏秋有台风。3-5 月与 10-11 月最舒服，是看山看江的好时候。"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-04"
+  },
+  "updatedAt": "2026-10-04"
+}

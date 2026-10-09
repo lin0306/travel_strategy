@@ -1,0 +1,113 @@
+{
+  "id": "wuhan-university",
+  "name": "武汉大学",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "珞珈山上的老校舍与三月的樱花，两个季节是两个人流量。",
+  "description": "武汉大学的校园是国内最好看的校园之一。早期建筑群是民国时期的作品：老斋舍、图书馆、樱顶这一组顺山势排上去，绿琉璃瓦配花岗岩。樱园顶部那片宿舍楼之间有连廊相通，雨季不用淋雨。三月樱花开了之后整条樱花大道要限流，预约制，人也多到影响观感。其余时间这里是一座安静的山头。校园可以步行穿到东湖南岸，路线是通的。",
+  "highlights": [
+    "民国早期建筑群顺山势层叠",
+    "三月樱花季限流预约",
+    "可从校园步行下到东湖南岸"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.36444,
+      "lat": 30.536286,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "武汉市武昌区八一路299号",
+    "district": "武昌区",
+    "transportTip": "地铁2号线/8号线街道口站步行"
+  },
+  "practical": {
+    "openHours": "全天开放（樱花季需预约）",
+    "openHoursRef": 0,
+    "ticket": "免费（樱花季可能收费，以官方为准）",
+    "ticketRef": 0,
+    "duration": "建议 120-300 分钟",
+    "durationMinutes": [
+      120,
+      300
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "solo",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/College_of_Chemistry_and_Molecular_Science%2CWuhan_University.jpg/1280px-College_of_Chemistry_and_Molecular_Science%2CWuhan_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/College_of_Chemistry_and_Molecular_Science%2CWuhan_University.jpg/1280px-College_of_Chemistry_and_Molecular_Science%2CWuhan_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "College of Chemistry and Molecular Science,Wuhan University.jpg",
+      "query": "武汉大学 武汉",
+      "credit": {
+        "source": "wikimedia",
+        "author": "谢宇杰",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:College_of_Chemistry_and_Molecular_Science,Wuhan_University.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Wuhan_University_College_of_History.JPG/1280px-Wuhan_University_College_of_History.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Wuhan_University_College_of_History.JPG/1280px-Wuhan_University_College_of_History.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 723,
+      "alt": "Wuhan University College of History.JPG",
+      "query": "武汉大学 武汉",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Howchou",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wuhan_University_College_of_History.JPG",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Wuhan_University_Dormitory_Gate.jpg/1280px-Wuhan_University_Dormitory_Gate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Wuhan_University_Dormitory_Gate.jpg/1280px-Wuhan_University_Dormitory_Gate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Wuhan University Dormitory Gate.jpg",
+      "query": "武汉大学 武汉",
+      "credit": {
+        "source": "wikimedia",
+        "author": "谢宇杰",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wuhan_University_Dormitory_Gate.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "校园",
+    "樱花",
+    "民国建筑"
+  ],
+  "popularity": 88,
+  "sources": [
+    {
+      "title": "百度百科·武汉大学",
+      "url": "https://baike.baidu.com/item/%E6%AD%A6%E6%B1%89%E5%A4%A7%E5%AD%A6",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-23"
+    }
+  ],
+  "updatedAt": "2026-09-23",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "武汉大学"
+  },
+  "_geocodeTitle": "武汉大学",
+  "_geocodeSuspect": false,
+  "district": "420106"
+}

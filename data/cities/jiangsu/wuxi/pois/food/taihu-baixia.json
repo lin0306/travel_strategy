@@ -1,0 +1,83 @@
+{
+  "id": "taihu-baixia",
+  "name": "太湖白虾",
+  "category": "food",
+  "subtype": "local",
+  "summary": "太湖三白之一，盐水弹嫩最鲜。",
+  "description": "太湖白虾是太湖三白之一，壳薄、肉嫩、微甜，最宜盐水白灼，原汁原味地吃它的鲜弹。它与白鱼、银鱼并称，但更家常、更便宜，是湖边小馆的常客。价格中、按斤计。配一碟姜醋，鲜得眉毛掉。",
+  "highlights": [
+    "太湖三白之一，壳薄肉嫩",
+    "盐水白灼原汁鲜弹",
+    "比白鱼家常便宜"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.263263,
+      "lat": 31.432833,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "无锡市滨湖区太湖边餐馆",
+    "district": "滨湖区",
+    "transportTip": "鼋头渚、蠡湖周边湖鲜馆"
+  },
+  "practical": {
+    "openHours": "约11:00-14:00 / 17:00-21:00（以门店为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约60元（按斤），以门店为准",
+    "ticketRef": 0,
+    "duration": "建议 20-45 分钟",
+    "durationMinutes": [
+      20,
+      45
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/%E6%97%A0%E9%94%A1%E5%A4%AA%E6%B9%96%E9%93%B6%E9%B1%BC.jpg/1280px-%E6%97%A0%E9%94%A1%E5%A4%AA%E6%B9%96%E9%93%B6%E9%B1%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/%E6%97%A0%E9%94%A1%E5%A4%AA%E6%B9%96%E9%93%B6%E9%B1%BC.jpg/1280px-%E6%97%A0%E9%94%A1%E5%A4%AA%E6%B9%96%E9%93%B6%E9%B1%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1440,
+      "alt": "无锡太湖银鱼.jpg",
+      "query": "太湖白虾",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Walter Grassroot",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%97%A0%E9%94%A1%E5%A4%AA%E6%B9%96%E9%93%B6%E9%B1%BC.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "白虾",
+    "太湖",
+    "河鲜"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·白虾",
+      "url": "https://baike.baidu.com/item/%E7%99%BD%E8%99%BE",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "太湖白虾"
+  },
+  "_geocodeTitle": "太湖餐厅",
+  "_geocodeSuspect": false,
+  "district": "320211"
+}

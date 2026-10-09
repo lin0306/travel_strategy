@@ -1,0 +1,83 @@
+{
+  "id": "shaxi-bookstore",
+  "name": "沙溪先锋书店",
+  "category": "hotspot",
+  "subtype": "art",
+  "summary": "沙溪古镇里一座由粮仓改的乡村书店，被称为最美书店之一。",
+  "description": "沙溪先锋书店在沙溪古镇，由一座老粮仓改的乡村书店。高高的书架、夯土墙、天光从顶上漏下来，被称为最美书店之一。门外是黑潓江和田野。很多人专程从大理过来只为它。免费进，书能买。",
+  "highlights": [
+    "沙溪由老粮仓改的乡村书店",
+    "夯土墙天光，最美书店之一",
+    "门外黑潓江与田野"
+  ],
+  "location": {
+    "point": {
+      "lng": 99.84643,
+      "lat": 26.313824,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "云南省大理白族自治州剑川县沙溪镇先锋书店",
+    "district": "剑川县",
+    "transportTip": "沙溪古镇内步行可达"
+  },
+  "practical": {
+    "openHours": "约9:00-18:00",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "solo",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Loss_One_%2814492956228%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Loss_One_%2814492956228%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Loss One (14492956228).jpg",
+      "query": "art district gallery dali",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Jocelyn Kinghorn from Christchurch, New Zealand",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loss_One_(14492956228).jpg",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "书店",
+    "粮仓",
+    "沙溪"
+  ],
+  "popularity": 64,
+  "sources": [
+    {
+      "title": "百度百科·沙溪镇",
+      "url": "https://baike.baidu.com/item/%E6%B2%99%E6%BA%AA%E9%95%87",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "沙溪先锋书店"
+  },
+  "_geocodeTitle": "沙溪镇",
+  "_geocodeSuspect": false,
+  "district": "532931"
+}

@@ -1,0 +1,116 @@
+{
+  "id": "yangshuo-shaokao",
+  "name": "阳朔烧烤",
+  "category": "food",
+  "subtype": "local",
+  "summary": "西街夜晚的炭火摊，烤鱼、烤排骨配冰啤酒。",
+  "description": "阳朔的烧烤摊傍晚才出来，西街周边和县城几条街边都有。烤法偏桂北，调料用辣椒面、孜然和一点糖，刷油刷得重。必点的是烤鱼、烤排骨、烤韭菜和烤茄子，茄子剖开刷蒜蓉酱烤，软烂入味。鱼多是整条烤，外皮焦脆、里面还嫩。摊子摆在路边，塑料凳一坐，冰啤酒一箱一箱地上。人均三四十，晚上十点以后最热闹。可以跟老板说辣度。",
+  "highlights": [
+    "炭火烤鱼",
+    "蒜蓉茄子",
+    "配冰啤酒"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.49532,
+      "lat": 24.763632,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "广西壮族自治区桂林市阳朔县西街周边烧烤摊",
+    "district": "阳朔",
+    "transportTip": "县城步行可达，傍晚出摊"
+  },
+  "practical": {
+    "openHours": "18:00-次日 1:00",
+    "openHoursRef": 0,
+    "ticket": "人均三四十元",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "couple",
+    "solo",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/39389633/pexels-photo-39389633.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39389633/pexels-photo-39389633.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 6048,
+      "alt": "Interior of a cozy Chinese dining room with red tablecloths and natural light.",
+      "query": "Chinese restaurant interior yangshuo",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-chinese-dining-room-interior-with-round-tables-39389633/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4096,
+      "alt": "Charming Asian dining room with bamboo chairs and traditional teaware.",
+      "query": "Chinese restaurant interior yangshuo",
+      "credit": {
+        "source": "pexels",
+        "author": "TIANYUN XIA",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33137968/pexels-photo-33137968.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33137968/pexels-photo-33137968.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 6714,
+      "height": 4468,
+      "alt": "Atmospheric shot of people dining in a traditional Asian restaurant with warm lighting.",
+      "query": "Chinese restaurant interior yangshuo",
+      "credit": {
+        "source": "pexels",
+        "author": "Vincent Tan",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-traditional-asian-restaurant-interior-33137968/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "烧烤",
+    "夜宵",
+    "啤酒",
+    "烤鱼",
+    "便宜"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "百度百科·烧烤",
+      "url": "https://baike.baidu.com/item/%E7%83%A7%E7%83%A4",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "阳朔烧烤"
+  },
+  "_geocodeTitle": "阳朔明记烧烤",
+  "_geocodeSuspect": false,
+  "district": "450321"
+}

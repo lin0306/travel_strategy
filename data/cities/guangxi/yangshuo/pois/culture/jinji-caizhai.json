@@ -1,0 +1,116 @@
+{
+  "id": "jinji-caizhai",
+  "name": "金桔采摘",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "冬天进果园自己摘金桔，按斤带走，孩子最爱。",
+  "description": "阳朔是金桔的主产区之一，冬天十一月至次年二月是采摘季。不少果园对游客开放，交一份入园费就能进园子里自己摘，摘下来的按斤买走，价格比市场略贵一点，但胜在新鲜和过程。金桔树不高，一两米左右，小孩也够得到，所以亲子家庭来得多。园主通常会教怎么挑——皮色橙红、捏着有弹性的最好，带枝叶的能放久一些。果园多在县城周边的乡镇，一般要包车或者骑车过去，去之前打个电话确认开不开放。",
+  "highlights": [
+    "十一月至二月",
+    "按斤带走",
+    "孩子够得到"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.417713,
+      "lat": 24.820826,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "广西壮族自治区桂林市阳朔县城郊金桔果园",
+    "district": "阳朔",
+    "transportTip": "县城包车或骑车前往，需提前联系果园"
+  },
+  "practical": {
+    "openHours": "9:00-17:00（采摘季）",
+    "openHoursRef": 0,
+    "ticket": "入园费加按斤计价",
+    "ticketRef": 0,
+    "duration": "建议 90-240 分钟",
+    "durationMinutes": [
+      90,
+      240
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/36522488/pexels-photo-36522488.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36522488/pexels-photo-36522488.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3964,
+      "height": 5946,
+      "alt": "Charming street in Xingping, China with traditional architecture and vibrant atmosphere.",
+      "query": "Chinese old town street yangshuo",
+      "credit": {
+        "source": "pexels",
+        "author": "Willian Justen de Vasconcellos",
+        "sourceUrl": "https://www.pexels.com/photo/street-scene-in-xingping-ancient-town-china-36522488/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36522479/pexels-photo-36522479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36522479/pexels-photo-36522479.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "A vibrant street market scene in Xingping, China, showcasing traditional architecture and local shops.",
+      "query": "Chinese old town street yangshuo",
+      "credit": {
+        "source": "pexels",
+        "author": "Willian Justen de Vasconcellos",
+        "sourceUrl": "https://www.pexels.com/photo/bustling-street-market-in-xingping-china-36522479/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36473865/pexels-photo-36473865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36473865/pexels-photo-36473865.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3214,
+      "height": 2140,
+      "alt": "Explore the charm of an ancient Chinese street in a vibrant cityscape.",
+      "query": "Chinese old town street yangshuo",
+      "credit": {
+        "source": "pexels",
+        "author": "gang liang",
+        "sourceUrl": "https://www.pexels.com/photo/historic-street-scene-in-ancient-chinese-city-36473865/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "采摘",
+    "金桔",
+    "亲子",
+    "冬季",
+    "果园"
+  ],
+  "popularity": 62,
+  "sources": [
+    {
+      "title": "百度百科·阳朔金桔",
+      "url": "https://baike.baidu.com/item/%E9%98%B3%E6%9C%94%E9%87%91%E6%A1%94",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "金桔采摘"
+  },
+  "_geocodeTitle": "中国金桔市场",
+  "_geocodeSuspect": false,
+  "district": "450321"
+}

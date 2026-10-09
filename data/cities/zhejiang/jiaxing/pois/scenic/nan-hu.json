@@ -1,0 +1,83 @@
+{
+  "id": "nan-hu",
+  "name": "南湖(红船·烟雨楼)",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "红船起航地，湖心岛上的烟雨楼。",
+  "description": "南湖在嘉兴城区，是革命红船的起航地，1921 年中共一大在此续会，红船由此成为象征。湖心岛上的烟雨楼始建于五代，临水而建、登楼望湖，是嘉兴最古老的揽胜处。岛上还有仓圣祠、揽秀园等。南湖与运河相连，环湖有绿地与纪念馆，是了解嘉兴历史与红色文化的第一站。",
+  "highlights": [
+    "革命红船起航地",
+    "湖心岛烟雨楼揽胜",
+    "红色文化与古园"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.75861,
+      "lat": 30.753551,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "嘉兴市南湖区南湖风景区",
+    "district": "南湖区",
+    "transportTip": "公交南湖站；市区步行或骑行可达"
+  },
+  "practical": {
+    "openHours": "约08:00-17:30（以景区公告为准）",
+    "openHoursRef": 0,
+    "ticket": "约60元起，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 120-240 分钟",
+    "durationMinutes": [
+      120,
+      240
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Zhejiang_Jiaxing_Nanhu_-_Daqiao_-_Zujiadou_IMG_8608.jpg/1280px-Zhejiang_Jiaxing_Nanhu_-_Daqiao_-_Zujiadou_IMG_8608.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Zhejiang_Jiaxing_Nanhu_-_Daqiao_-_Zujiadou_IMG_8608.jpg/1280px-Zhejiang_Jiaxing_Nanhu_-_Daqiao_-_Zujiadou_IMG_8608.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 752,
+      "alt": "Zhejiang Jiaxing Nanhu - Daqiao - Zujiadou IMG 8608.jpg",
+      "query": "南湖",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Bjoertvedt",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhejiang_Jiaxing_Nanhu_-_Daqiao_-_Zujiadou_IMG_8608.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "南湖",
+    "红船",
+    "烟雨楼"
+  ],
+  "popularity": 92,
+  "sources": [
+    {
+      "title": "百度百科·南湖",
+      "url": "https://baike.baidu.com/item/%E5%8D%97%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-05"
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "南湖(红船·烟雨楼)"
+  },
+  "_geocodeTitle": "南湖景区",
+  "_geocodeSuspect": false,
+  "district": "330402"
+}

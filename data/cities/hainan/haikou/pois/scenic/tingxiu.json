@@ -1,0 +1,88 @@
+{
+  "id": "tingxiu",
+  "name": "西海岸挺秀公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "西海岸的滨海公园，看海与草地。",
+  "description": "挺秀公园在西海岸的滨海一带，是海口新一片滨海公园，有大片草地、椰树和一段观海平台，比老牌公园更开阔。它与西海岸带状公园、假日海滩连成一条线，适合傍晚来看海。免费、人少，是本地人认可的清静点。",
+  "highlights": [
+    "西海岸新滨海公园，草地观海平台",
+    "与带状公园假日海滩连片",
+    "免费，人少清静"
+  ],
+  "location": {
+    "point": {
+      "lng": 110.194134,
+      "lat": 20.046283,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "海口市秀英区滨海大道西海岸",
+    "district": "秀英区",
+    "transportTip": "市区乘公交或打车至西海岸挺秀公园",
+    "entrance": {
+      "lng": 110.194792,
+      "lat": 20.047565,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "solo",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/%E8%A5%BF%E6%B5%B7%E5%B2%B8%E6%8C%BA%E7%A7%80%E5%85%AC%E5%9B%AD.jpg/1280px-%E8%A5%BF%E6%B5%B7%E5%B2%B8%E6%8C%BA%E7%A7%80%E5%85%AC%E5%9B%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/%E8%A5%BF%E6%B5%B7%E5%B2%B8%E6%8C%BA%E7%A7%80%E5%85%AC%E5%9B%AD.jpg/1280px-%E8%A5%BF%E6%B5%B7%E5%B2%B8%E6%8C%BA%E7%A7%80%E5%85%AC%E5%9B%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "西海岸挺秀公园.jpg",
+      "query": "西海岸挺秀公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "重庆轨交18",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E6%B5%B7%E5%B2%B8%E6%8C%BA%E7%A7%80%E5%85%AC%E5%9B%AD.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "公园",
+    "西海岸",
+    "免费"
+  ],
+  "popularity": 52,
+  "sources": [
+    {
+      "title": "百度百科·西海岸",
+      "url": "https://baike.baidu.com/item/%E8%A5%BF%E6%B5%B7%E5%B2%B8",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "西海岸挺秀公园"
+  },
+  "_geocodeTitle": "海口西海岸挺秀公园",
+  "_geocodeSuspect": false,
+  "district": "460105"
+}

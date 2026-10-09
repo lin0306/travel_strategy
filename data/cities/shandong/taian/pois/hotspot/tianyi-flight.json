@@ -1,0 +1,113 @@
+{
+  "id": "tianyi-flight",
+  "name": "天颐湖飞行体验馆",
+  "category": "hotspot",
+  "subtype": "photo",
+  "summary": "度假区里的飞行模拟，适合亲子体验。",
+  "description": "天颐湖飞行体验馆在天颐湖旅游度假区内，提供飞行模拟与航空科普体验，小朋友能坐进模拟舱「开飞机」。它和湖景、乐园构成一整天的亲子行程，室内为主，不受天气影响。票价含在度假区项目里或单买，适合带娃家庭。与登山互补，轻松不累。",
+  "highlights": [
+    "度假区内飞行模拟体验",
+    "亲子坐舱开飞机",
+    "室内为主，不受天气"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.105319,
+      "lat": 36.065797,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "泰安市岱岳区天颐湖旅游度假区",
+    "district": "岱岳区",
+    "transportTip": "市区自驾或公交约30分钟"
+  },
+  "practical": {
+    "openHours": "约09:00-17:30（以场馆公告为准）",
+    "openHoursRef": 0,
+    "ticket": "以度假区项目收费为准",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37682272/pexels-photo-37682272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37682272/pexels-photo-37682272.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3020,
+      "height": 4530,
+      "alt": "A contemporary city street view featuring streetlamps, modern architecture, and clear blue skies.",
+      "query": "China city street view taian",
+      "credit": {
+        "source": "pexels",
+        "author": "JUNLIN ZOU",
+        "sourceUrl": "https://www.pexels.com/photo/urban-street-with-modern-architecture-and-streetlamps-37682272/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/35132182/pexels-photo-35132182.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35132182/pexels-photo-35132182.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "View of modern buildings and streets in Shanghai, China, showcasing urban architecture.",
+      "query": "China city street view taian",
+      "credit": {
+        "source": "pexels",
+        "author": "Bruna Santos",
+        "sourceUrl": "https://www.pexels.com/photo/modern-architecture-of-shanghai-cityscape-35132182/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27269479/pexels-photo-27269479.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27269479/pexels-photo-27269479.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 6016,
+      "height": 4016,
+      "alt": "A vibrant city scene in Xuancheng, Anhui, featuring a prominent blue bridge amidst tall buildings.",
+      "query": "China city street view taian",
+      "credit": {
+        "source": "pexels",
+        "author": "Zihao Fang",
+        "sourceUrl": "https://www.pexels.com/photo/xuancheng-27269479/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "飞行",
+    "亲子",
+    "科普"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·天颐湖",
+      "url": "https://baike.baidu.com/item/%E5%A4%A9%E9%A2%90%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "天颐湖飞行体验馆"
+  },
+  "_geocodeTitle": "泰山天颐湖飞行体验馆(暂停营业)",
+  "_geocodeSuspect": false,
+  "district": "370911"
+}

@@ -1,0 +1,117 @@
+{
+  "id": "emei-douhua",
+  "name": "峨眉豆花",
+  "category": "food",
+  "subtype": "local",
+  "summary": "山泉水点的豆花，配红油碟和米饭就能吃一碗。",
+  "description": "峨眉豆花用的是当地的山泉水，点出来的豆花比城里更嫩一些，端上桌还在轻轻晃。吃法简单：豆花盛碗里，另配一碟红油蘸水——辣椒、花椒面、葱花、蒜水和一点木姜子油，自己舀着蘸。本地人常配一碗白米饭，再加份蒸肉或者烧白，一顿就齐了。市区的老店多半早上开门，中午前最热闹。上山前吃一碗顶饿又不腻，价格便宜，十几块能吃饱。",
+  "highlights": [
+    "山泉水豆花",
+    "红油蘸水",
+    "配米饭"
+  ],
+  "location": {
+    "point": {
+      "lng": 103.494049,
+      "lat": 29.605215,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "峨眉山市区豆花店（绥山路一带）",
+    "district": "峨眉山",
+    "transportTip": "市区步行可达"
+  },
+  "practical": {
+    "openHours": "6:30-14:00（多数老店中午后收摊）",
+    "openHoursRef": 0,
+    "ticket": "人均十几元",
+    "ticketRef": 0,
+    "duration": "建议 30-70 分钟",
+    "durationMinutes": [
+      30,
+      70
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "family",
+    "friends",
+    "solo",
+    "elders",
+    "couple"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3072,
+      "height": 4096,
+      "alt": "Charming Asian dining room with bamboo chairs and traditional teaware.",
+      "query": "Chinese restaurant interior emeishan",
+      "credit": {
+        "source": "pexels",
+        "author": "TIANYUN XIA",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39389633/pexels-photo-39389633.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39389633/pexels-photo-39389633.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 6048,
+      "alt": "Interior of a cozy Chinese dining room with red tablecloths and natural light.",
+      "query": "Chinese restaurant interior emeishan",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-chinese-dining-room-interior-with-round-tables-39389633/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37047965/pexels-photo-37047965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37047965/pexels-photo-37047965.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4896,
+      "height": 3264,
+      "alt": "Cozy traditional Asian restaurant interior highlighting wooden furnishings and red decor. Ideal for cultural and design ",
+      "query": "Chinese restaurant interior emeishan",
+      "credit": {
+        "source": "pexels",
+        "author": "mingche lee",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "豆花",
+    "早餐",
+    "本地",
+    "便宜",
+    "红油"
+  ],
+  "popularity": 86,
+  "sources": [
+    {
+      "title": "百度百科·峨眉豆花",
+      "url": "https://baike.baidu.com/item/%E5%B3%A8%E7%9C%89%E8%B1%86%E8%8A%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "峨眉豆花"
+  },
+  "_geocodeTitle": "峨眉顺风豆花饭店(滨河路二段店)",
+  "_geocodeSuspect": false,
+  "district": "511181"
+}

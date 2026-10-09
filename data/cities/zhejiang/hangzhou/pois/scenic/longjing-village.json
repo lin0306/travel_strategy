@@ -1,0 +1,118 @@
+{
+  "id": "longjing-village",
+  "name": "龙井村与梅家坞",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "西湖龙井的核心产区，茶山就在城区边上。",
+  "description": "龙井茶分几个产区，其中狮峰、龙井、云栖、虎跑、梅家坞被称为核心地带。村子在山坳里，层层茶园顺着坡面铺开，离西湖西侧只有十几分钟车程。来这里主要做两件事：一是看茶山的形态，二是坐下来喝一杯当季的茶。清明前后的明前茶最贵，但价格与真假都要留个心眼。",
+  "highlights": [
+    "狮峰龙井为核心产区",
+    "茶山距城区极近",
+    "明前茶价格与真假需留意"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.121714,
+      "lat": 30.229531,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "杭州市西湖区龙井路",
+    "district": "西湖区",
+    "transportTip": "公交27路龙井茶室站/梅家坞一带",
+    "entrance": {
+      "lng": 120.188961,
+      "lat": 30.282683,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "村庄全天开放(茶室以各店为准)",
+    "openHoursRef": 0,
+    "ticket": "免费(喝茶另计)",
+    "ticketRef": 0,
+    "duration": "建议 150-300 分钟",
+    "durationMinutes": [
+      150,
+      300
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "kids",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/34432366/pexels-photo-34432366.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34432366/pexels-photo-34432366.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6240,
+      "height": 3512,
+      "alt": "Tranquil scene of West Lake with peaceful waters and distant hills in Hangzhou, China.",
+      "query": "natural landscape China hangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "nana liu",
+        "sourceUrl": "https://www.pexels.com/photo/serene-view-of-west-lake-in-hangzhou-china-34432366/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/7532194/pexels-photo-7532194.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/7532194/pexels-photo-7532194.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4912,
+      "height": 3264,
+      "alt": "Peaceful scene featuring a boat on West Lake with Leifeng Pagoda in Hangzhou, China.",
+      "query": "natural landscape China hangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Leon Huang",
+        "sourceUrl": "https://www.pexels.com/photo/leifeng-pagoda-in-china-7532194/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/20587934/pexels-photo-20587934.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/20587934/pexels-photo-20587934.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4672,
+      "height": 7008,
+      "alt": "Serene landscape of leafless trees and a calm river in Hangzhou, perfect for relaxation and sightseeing.",
+      "query": "natural landscape China hangzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Acres of Film",
+        "sourceUrl": "https://www.pexels.com/photo/leafless-trees-on-islets-in-the-middle-of-the-river-20587934/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "茶山",
+    "村落",
+    "龙井"
+  ],
+  "popularity": 86,
+  "sources": [
+    {
+      "title": "百度百科·龙井村",
+      "url": "https://baike.baidu.com/item/%E9%BE%99%E4%BA%95%E6%9D%91",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "龙井村与梅家坞"
+  },
+  "_geocodeTitle": "龙井路",
+  "_geocodeSuspect": false,
+  "district": "330106"
+}

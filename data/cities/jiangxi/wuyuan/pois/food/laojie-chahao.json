@@ -1,0 +1,113 @@
+{
+  "id": "laojie-chahao",
+  "name": "老街茶号",
+  "category": "food",
+  "subtype": "cafe",
+  "summary": "县城老街上的茶铺，婺源绿茶就在这里喝。",
+  "description": "老街茶号在紫阳镇的老街上，门面不大，里面摆着几张桌子。婺源产绿茶，晓起毛尖、婺源茗眉都出自这一带。店里可以按杯喝，也可以买些带回去。茶是温水冲的，坐下来能歇一阵。逛老街走累了，进来坐坐正合适。老板多半会讲几句茶的事。",
+  "highlights": [
+    "婺源绿茶就在这里喝",
+    "按杯喝也能买",
+    "老街上的歇脚处"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.851331,
+      "lat": 29.263956,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "上饶市婺源县紫阳镇老街",
+    "district": "婺源",
+    "transportTip": "县城内步行可达"
+  },
+  "practical": {
+    "openHours": "约 09:00-21:00（以到店为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约 20-60 元，以实际为准",
+    "ticketRef": 0,
+    "duration": "建议 45-90 分钟",
+    "durationMinutes": [
+      45,
+      90
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "elders",
+    "solo",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/34338426/pexels-photo-34338426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34338426/pexels-photo-34338426.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8192,
+      "height": 5464,
+      "alt": "Warm and inviting rustic interior featuring floral decor and wooden furniture.",
+      "query": "cafe interior wuyuan",
+      "credit": {
+        "source": "pexels",
+        "author": "Andy Lee",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-rustic-interior-with-floral-arrangement-34338426/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32401791/pexels-photo-32401791.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32401791/pexels-photo-32401791.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8064,
+      "height": 6048,
+      "alt": "Aerial view of a modern cityscape in China with roads, buildings, and greenery.",
+      "query": "cafe interior wuyuan",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-modern-chinese-cityscape-32401791/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/34338427/pexels-photo-34338427.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34338427/pexels-photo-34338427.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8192,
+      "height": 5464,
+      "alt": "Warm and inviting rustic coffee shop interior with wooden furniture and soft lighting.",
+      "query": "cafe interior wuyuan",
+      "credit": {
+        "source": "pexels",
+        "author": "Andy Lee",
+        "sourceUrl": "https://www.pexels.com/photo/cozy-rustic-coffee-shop-interior-with-wooden-furniture-34338427/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "茶馆",
+    "绿茶",
+    "老街"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "百度百科·婺源绿茶",
+      "url": "https://baike.baidu.com/item/%E5%A9%BA%E6%BA%90%E7%BB%BF%E8%8C%B6",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-06"
+    }
+  ],
+  "updatedAt": "2026-10-06",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "老街茶号"
+  },
+  "_geocodeTitle": "紫阳镇",
+  "_geocodeSuspect": false,
+  "district": "361130"
+}

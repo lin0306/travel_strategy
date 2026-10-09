@@ -1,0 +1,113 @@
+{
+  "id": "hanshan-temple",
+  "name": "寒山寺",
+  "category": "scenic",
+  "subtype": "temple",
+  "summary": "因一首唐诗而出名，钟声是这里的主角。",
+  "description": "寒山寺始建於南朝，寺名来自唐代诗僧寒山。它出名的直接原因是张继那首《枫桥夜泊》——「姑苏城外寒山寺，夜半钟声到客船」，因此除夕听钟声成了这里最热闹的项目。寺内的大钟与碑廊是主要看点，俞樾所书的诗碑尤为出名。它不大，一小时足够，与枫桥在同一区域。",
+  "highlights": [
+    "因《枫桥夜泊》而闻名",
+    "除夕听钟声是最热闹的项目",
+    "与枫桥相邻，可一并走"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.568461,
+      "lat": 31.310432,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "苏州市姑苏区寒山寺弄24号",
+    "district": "姑苏区",
+    "transportTip": "公交寒山寺站/西园站"
+  },
+  "practical": {
+    "openHours": "约07:30-17:00，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "约20元起，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "couple",
+    "kids",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/37908006/pexels-photo-37908006.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37908006/pexels-photo-37908006.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4032,
+      "height": 3024,
+      "alt": "Beautiful traditional Chinese architecture of a temple in Suzhou, captured under a clear blue sky.",
+      "query": "Chinese temple suzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Girish  Mathad",
+        "sourceUrl": "https://www.pexels.com/photo/ancient-chinese-temple-in-suzhou-china-37908006/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39041263/pexels-photo-39041263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39041263/pexels-photo-39041263.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6048,
+      "height": 8064,
+      "alt": "Beautiful traditional Chinese pagoda with intricate architecture under a clear blue sky, capturing cultural heritage.",
+      "query": "Chinese temple suzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Guillaume Kremer",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-pagoda-under-blue-sky-39041263/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39041253/pexels-photo-39041253.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39041253/pexels-photo-39041253.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Serene view of traditional Chinese buildings alongside a tranquil waterway under a bright blue sky.",
+      "query": "Chinese temple suzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Guillaume Kremer",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-architecture-by-water-39041253/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "寺庙",
+    "诗词",
+    "除夕"
+  ],
+  "popularity": 88,
+  "sources": [
+    {
+      "title": "百度百科·寒山寺",
+      "url": "https://baike.baidu.com/item/%E5%AF%92%E5%B1%B1%E5%AF%BA",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "寒山寺"
+  },
+  "_geocodeTitle": "寒山寺",
+  "_geocodeSuspect": false,
+  "district": "320508"
+}

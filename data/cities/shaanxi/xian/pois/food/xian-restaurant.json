@@ -1,0 +1,81 @@
+{
+  "id": "xian-restaurant",
+  "name": "西安饭庄",
+  "category": "food",
+  "subtype": "local",
+  "summary": "“长安老字号”，葫芦鸡是镇店菜，陕菜的正统路子。",
+  "description": "西安饭庄建于 1929 年，以做陕菜出名，招牌是葫芦鸡：整鸡先煮后蒸再炸，外皮金黄酥脆、筷子一夹骨肉分离，因形似葫芦而得名。此外还有温拌腰丝、奶汤锅子鱼、三皮丝等传统陕菜，口味不像川渝那样重麻辣，讲究咸鲜与火工。这里适合想吃一顿“正经陕西菜”而不是泡馍小吃的场合，有包间，聚餐方便。",
+  "highlights": [
+    "葫芦鸡是镇店菜，先煮后蒸再炸",
+    "传统陕菜，讲究咸鲜与火工",
+    "有包间，适合聚餐"
+  ],
+  "location": {
+    "point": {
+      "lng": 108.94896,
+      "lat": 34.260576,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "西安市碑林区（以门店公告为准）",
+    "district": "新城区",
+    "transportTip": "以门店公告位置为准"
+  },
+  "practical": {
+    "openHours": "约 10:30-21:00（以门店公告为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约 100 元起（以门店为准）",
+    "ticketRef": 0,
+    "duration": "建议 90-120 分钟",
+    "durationMinutes": [
+      90,
+      120
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/ShaoxingXianheng.jpg/1280px-ShaoxingXianheng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/ShaoxingXianheng.jpg/1280px-ShaoxingXianheng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "ShaoxingXianheng.jpg",
+      "query": "Chinese restaurant interior xian",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Jiong Sheng",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:ShaoxingXianheng.jpg",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "陕菜",
+    "葫芦鸡",
+    "老字号"
+  ],
+  "popularity": 78,
+  "sources": [
+    {
+      "title": "百度百科·西安饭庄",
+      "url": "https://baike.baidu.com/item/%E8%A5%BF%E5%AE%89%E9%A5%AD%E5%BA%84",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-19"
+    }
+  ],
+  "updatedAt": "2026-09-19",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "西安饭庄"
+  },
+  "_geocodeTitle": "西安饭庄",
+  "_geocodeSuspect": false,
+  "district": "610102"
+}

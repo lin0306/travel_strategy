@@ -1,0 +1,114 @@
+{
+  "id": "majia-shaomai",
+  "name": "马家烧麦",
+  "category": "food",
+  "subtype": "local",
+  "summary": "沈阳老字号烧麦，皮如石榴，馅大汁多，早茶主角。",
+  "description": "马家烧麦是沈阳老字号，创于清。烧麦皮薄如石榴花，顶上开口，馅大汁多。牛肉、羊肉都行，蘸蒜醋。它是本地早茶的主角，配稀饭或茶。一笼上桌趁热，小心烫嘴。想带走的特产先问清楚保质期和真假。",
+  "highlights": [
+    "沈阳老字号石榴皮烧麦",
+    "馅大汁多蘸蒜醋",
+    "早茶主角趁热小心烫"
+  ],
+  "location": {
+    "point": {
+      "lng": 123.460651,
+      "lat": 41.79735,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "辽宁省沈阳市沈河区马家烧麦馆",
+    "district": "沈河区",
+    "transportTip": "市区烧麦馆均有"
+  },
+  "practical": {
+    "openHours": "约06:30-20:00",
+    "openHoursRef": 0,
+    "ticket": "约30元/笼起",
+    "ticketRef": 0,
+    "duration": "建议 20-40 分钟",
+    "durationMinutes": [
+      20,
+      40
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "elders",
+    "solo",
+    "family",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/32860302/pexels-photo-32860302.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32860302/pexels-photo-32860302.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6720,
+      "height": 4480,
+      "alt": "A vibrant spread of Chinese dim sum featuring steamed dumplings and sweet desserts.",
+      "query": "Ma Family Shaomai",
+      "credit": {
+        "source": "pexels",
+        "author": "Change C.C",
+        "sourceUrl": "https://www.pexels.com/photo/delicious-assorted-chinese-dim-sum-platter-32860302/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32938732/pexels-photo-32938732.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32938732/pexels-photo-32938732.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4016,
+      "height": 6016,
+      "alt": "A plate of savory dumplings beautifully lit by warm sunlight in a rustic setting.",
+      "query": "Ma Family Shaomai",
+      "credit": {
+        "source": "pexels",
+        "author": "Dicky Agustian",
+        "sourceUrl": "https://www.pexels.com/photo/savory-dumplings-in-warm-rustic-light-32938732/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/32938747/pexels-photo-32938747.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/32938747/pexels-photo-32938747.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4016,
+      "height": 6016,
+      "alt": "A stack of delicious steamed dumplings arranged artfully on a wooden table.",
+      "query": "Ma Family Shaomai",
+      "credit": {
+        "source": "pexels",
+        "author": "Dicky Agustian",
+        "sourceUrl": "https://www.pexels.com/photo/tower-of-steamed-dumplings-on-wooden-table-32938747/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "烧麦",
+    "老字号",
+    "早茶"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "百度百科·马家烧麦",
+      "url": "https://baike.baidu.com/item/%E9%A9%AC%E5%AE%B6%E7%83%A7%E9%BA%A6",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-02"
+    }
+  ],
+  "updatedAt": "2026-10-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Ma Family Shaomai",
+    "zh": "马家烧麦"
+  },
+  "_geocodeTitle": "马家烧麦",
+  "_geocodeSuspect": false,
+  "district": "210103"
+}

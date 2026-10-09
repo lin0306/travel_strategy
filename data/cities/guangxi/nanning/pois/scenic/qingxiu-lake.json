@@ -1,0 +1,118 @@
+{
+  "id": "qingxiu-lake",
+  "name": "青秀湖公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "青秀山脚的小湖，精致安静的城区绿点。",
+  "description": "青秀湖公园在青秀区、青秀山北麓，是一片精致的小湖绿地，栈道绕水、花木整齐，是青秀山片区的配套休闲地。它比南湖小、比新秀近，适合住在青秀山附近时的散步。免费、人少、干净，是本地人晨练的去处。",
+  "highlights": [
+    "青秀山北麓精致小湖",
+    "栈道绕水，花木整齐",
+    "免费，人少干净"
+  ],
+  "location": {
+    "point": {
+      "lng": 108.376695,
+      "lat": 22.795761,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "南宁市青秀区青秀山北麓",
+    "district": "青秀区",
+    "transportTip": "地铁3号线青秀山站步行约10分钟",
+    "entrance": {
+      "lng": 108.377781,
+      "lat": 22.796822,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/18722836/pexels-photo-18722836.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/18722836/pexels-photo-18722836.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4016,
+      "height": 6016,
+      "alt": "Beautiful traditional architecture and serene pond in Nan Lian Garden, Hong Kong, surrounded by lush greenery.",
+      "query": "Chinese classical garden nanning",
+      "credit": {
+        "source": "pexels",
+        "author": "King  Ho",
+        "sourceUrl": "https://www.pexels.com/photo/nan-lian-garden-in-hong-kong-18722836/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/4281933/pexels-photo-4281933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/4281933/pexels-photo-4281933.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5760,
+      "height": 3840,
+      "alt": "Explore the tranquil beauty of Kowloon's golden pagoda amidst lush greenery and serene water gardens.",
+      "query": "Chinese classical garden nanning",
+      "credit": {
+        "source": "pexels",
+        "author": "Boris Ulzibat",
+        "sourceUrl": "https://www.pexels.com/photo/pagoda-structure-surrounded-by-a-garden-4281933/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27098601/pexels-photo-27098601.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27098601/pexels-photo-27098601.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6016,
+      "height": 4016,
+      "alt": "View of a tranquil pond with water lilies at Nan Lian Garden, Hong Kong's iconic landmark.",
+      "query": "Chinese classical garden nanning",
+      "credit": {
+        "source": "pexels",
+        "author": "King  Ho",
+        "sourceUrl": "https://www.pexels.com/photo/nan-lian-garden-in-hong-kong-27098601/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "湖景",
+    "免费",
+    "青秀"
+  ],
+  "popularity": 54,
+  "sources": [
+    {
+      "title": "百度百科·青秀湖",
+      "url": "https://baike.baidu.com/item/%E9%9D%92%E7%A7%80%E6%B9%96",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "青秀湖公园"
+  },
+  "_geocodeTitle": "青秀湖公园",
+  "_geocodeSuspect": false,
+  "district": "450103"
+}

@@ -1,0 +1,117 @@
+{
+  "id": "jianshelu-snack-street",
+  "name": "建设路小吃街",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "本地人自己去的夜宵一条街，人均几十块吃到撑",
+  "description": "如果说锦里、宽窄巷子的小吃是给游客的，建设路小吃街就是成都人自己吃的。这条街位于电子科技大学一带，白天平淡，入夜后整条街灯火人头攒动，锅盔、蛋烘糕、烤脑花、铁板焼之类的摊位数不胜数。它的核心优势是性价比——人均几十块能吃得很饱，类别也比景区集中。缺点是环境嘈杂、位置不显眼，需要专门安排。建议晚上来，最好空着肚子，并预留足够时间慢慢沿着街挨个吃。",
+  "highlights": [
+    "成都人自己吃的夜宵街，不在景区逻辑里",
+    "人均几十块，类别比锦里宽窄巷子集合"
+  ],
+  "location": {
+    "point": {
+      "lng": 104.102789,
+      "lat": 30.671497,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "成都市成华区建设巷12号（建设路美食街）",
+    "district": "成华区",
+    "transportTip": "地铁 6 号线建设北路站，出站步行"
+  },
+  "practical": {
+    "openHours": "多为傍晚至深夜（以门店公告为准）",
+    "openHoursRef": 0,
+    "ticket": "人均约 40 元起",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "solo",
+    "couple",
+    "kids",
+    "friends",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [
+    "晚上才热闹，白天大多没开",
+    "建议留出两个小时慢慢吃"
+  ],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/33692911/pexels-photo-33692911.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33692911/pexels-photo-33692911.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 7952,
+      "height": 5304,
+      "alt": "Delicious street food stall with variety of skewers in Chengdu's night market, China.",
+      "query": "Chengdu night market street food",
+      "credit": {
+        "source": "pexels",
+        "author": "Vincent Tan",
+        "sourceUrl": "https://www.pexels.com/photo/street-food-stall-at-night-in-chengdu-china-33692911/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/33448002/pexels-photo-33448002.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/33448002/pexels-photo-33448002.png?auto=compress&cs=tinysrgb&h=350",
+      "width": 4002,
+      "height": 6000,
+      "alt": "Colorful fruit stall with steam display in a Chengdu market, highlighting fresh produce.",
+      "query": "Chengdu night market street food",
+      "credit": {
+        "source": "pexels",
+        "author": "Vincent Tan",
+        "sourceUrl": "https://www.pexels.com/photo/fruit-stall-with-vibrant-display-in-chengdu-33448002/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/29191590/pexels-photo-29191590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29191590/pexels-photo-29191590.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5410,
+      "height": 3043,
+      "alt": "Colorful facade of a street food shop in Chengdu, China, showcasing traditional design and local character.",
+      "query": "Chengdu night market street food",
+      "credit": {
+        "source": "pexels",
+        "author": "Blackcurrant Great",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-street-food-shop-in-chengdu-29191590/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "夜宵街",
+    "本地人",
+    "性价比"
+  ],
+  "popularity": 87,
+  "sources": [
+    {
+      "title": "今日头条 · 天府之国成都",
+      "url": "https://m.toutiao.com/article/7626380125461905963",
+      "kind": "media",
+      "fetchedAt": "2026-09-18"
+    }
+  ],
+  "updatedAt": "2026-09-18",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Chengdu night market street food",
+    "zh": "成都建设路小吃街"
+  },
+  "_geocodeTitle": "建设路美食街(万科钻石广场店)",
+  "_geocodeSuspect": false,
+  "district": "510108"
+}

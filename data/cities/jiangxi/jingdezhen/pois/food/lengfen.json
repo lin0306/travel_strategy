@@ -1,0 +1,112 @@
+{
+  "id": "lengfen",
+  "name": "冷粉",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "景德镇最有名的一样吃食，米做的粗粉拌酱油辣子，几块钱一碗。",
+  "description": "冷粉是景德镇最有名的一样吃食 —— 米做的粉，比米线粗，煮好过凉水，拌酱油、辣子、萝卜丁、葱花。它是凉的，滑，味道重。街上的店几块钱一碗，早上和中午人最多。本地人从小吃到大。",
+  "highlights": [
+    "景德镇最有名吃食，米做粗粉过凉水",
+    "拌酱油辣子萝卜丁，凉而滑",
+    "几元一碗，本地从小吃到大"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.211075,
+      "lat": 29.287326,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "江西省景德镇市珠山区冷粉店",
+    "district": "珠山区",
+    "transportTip": "市区步行到小吃店"
+  },
+  "practical": {
+    "openHours": "约06:30-20:00",
+    "openHoursRef": 0,
+    "ticket": "每碗约6-12元",
+    "ticketRef": 0,
+    "duration": "建议 20-40 分钟",
+    "durationMinutes": [
+      20,
+      40
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "solo",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/6711707/pexels-photo-6711707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6711707/pexels-photo-6711707.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 9486,
+      "height": 6324,
+      "alt": "Crop faceless person in casual clothes sitting and making noodle with metal machine near basins on manufacture in Vietna",
+      "query": "Jingdezhen cold rice noodles",
+      "credit": {
+        "source": "pexels",
+        "author": "Quang Nguyen Vinh",
+        "sourceUrl": "https://www.pexels.com/photo/unrecognizable-person-making-noodle-in-factory-6711707/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/14162746/pexels-photo-14162746.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/14162746/pexels-photo-14162746.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 8688,
+      "height": 5792,
+      "alt": "Close-up image of uncooked noodles with a wicker basket in the background.",
+      "query": "Jingdezhen cold rice noodles",
+      "credit": {
+        "source": "pexels",
+        "author": "zijie liu",
+        "sourceUrl": "https://www.pexels.com/photo/close-up-photo-of-uncooked-pasta-14162746/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/31756383/pexels-photo-31756383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/31756383/pexels-photo-31756383.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4724,
+      "height": 4055,
+      "alt": "Person preparing rice noodles in a traditional Yunnan kitchen setting.",
+      "query": "Jingdezhen cold rice noodles",
+      "credit": {
+        "source": "pexels",
+        "author": "Gu Ko",
+        "sourceUrl": "https://www.pexels.com/photo/preparing-rice-noodles-in-yunnan-kitchen-31756383/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "冷粉",
+    "小吃",
+    "本地"
+  ],
+  "popularity": 86,
+  "sources": [
+    {
+      "title": "百度百科·景德镇",
+      "url": "https://baike.baidu.com/item/%E6%99%AF%E5%BE%B7%E9%95%87",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Jingdezhen cold rice noodles",
+    "zh": "冷粉"
+  },
+  "_geocodeTitle": "陶姐冷粉(戴家弄总店)",
+  "_geocodeSuspect": false,
+  "district": "360203"
+}

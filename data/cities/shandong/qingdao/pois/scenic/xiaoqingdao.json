@@ -1,0 +1,119 @@
+{
+  "id": "xiaoqingdao",
+  "name": "小青岛",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "青岛湾里的小岛，岛上立着一座白色灯塔，与栈桥隔水相望。",
+  "description": "小青岛在青岛湾内，面积很小，与栈桥隔着几百米水面，因为形状像一把琴，旧时也叫琴岛，青岛这个名字有一说就与它有关。德占时期在岛上建了灯塔，现在的塔是后来重建的，白色的塔身，夜里发光，为进港的船指路。岛上修了环岛的步道，两边是黑松与礁石，走一圈二十分钟。南面正对胶州湾口，往北看是栈桥与老城的红瓦；傍晚在这里看对岸的灯亮起来是固定项目。门票不高，与栈桥、海军博物馆连成一线。",
+  "highlights": [
+    "青岛湾里的小岛，形似琴，旧称琴岛",
+    "岛上有白色灯塔，夜里为进港船只指路",
+    "南对胶州湾口，北看栈桥与老城红瓦"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.32392,
+      "lat": 36.053059,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山东省青岛市市南区琴屿路（小青岛）",
+    "district": "市南区",
+    "transportTip": "地铁3号线青岛站，步行约十五分钟",
+    "entrance": {
+      "lng": 120.324384,
+      "lat": 36.052748,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约07:30-18:30（淡旺季有调整），以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "门票约15元起，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 45-90 分钟",
+    "durationMinutes": [
+      45,
+      90
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "couple",
+    "family",
+    "elders",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/%E5%B0%8F%E9%9D%92%E5%B2%9B-%E5%BD%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/%E5%B0%8F%E9%9D%92%E5%B2%9B-%E5%BD%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 709,
+      "alt": "小青岛-彩.jpg",
+      "query": "小青岛 青岛",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Unknown authorUnknown author",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E9%9D%92%E5%B2%9B-%E5%BD%A9.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/%E5%B0%8F%E9%9D%92%E5%B2%9B_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/%E5%B0%8F%E9%9D%92%E5%B2%9B_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 810,
+      "alt": "小青岛 - panoramio.jpg",
+      "query": "小青岛 青岛",
+      "credit": {
+        "source": "wikimedia",
+        "author": "George Wenn",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E9%9D%92%E5%B2%9B_-_panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/%E5%B0%8F%E9%9D%92%E5%B2%9B_-_panoramio_-_Tiger%40%E8%A5%BF%E5%8C%97.jpg/1280px-%E5%B0%8F%E9%9D%92%E5%B2%9B_-_panoramio_-_Tiger%40%E8%A5%BF%E5%8C%97.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/%E5%B0%8F%E9%9D%92%E5%B2%9B_-_panoramio_-_Tiger%40%E8%A5%BF%E5%8C%97.jpg/1280px-%E5%B0%8F%E9%9D%92%E5%B2%9B_-_panoramio_-_Tiger%40%E8%A5%BF%E5%8C%97.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "小青岛 - panoramio - Tiger@西北.jpg",
+      "query": "小青岛 青岛",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Tiger@西北",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E9%9D%92%E5%B2%9B_-_panoramio_-_Tiger@%E8%A5%BF%E5%8C%97.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "灯塔",
+    "小岛",
+    "海景"
+  ],
+  "popularity": 84,
+  "sources": [
+    {
+      "title": "百度百科·小青岛",
+      "url": "https://baike.baidu.com/item/%E5%B0%8F%E9%9D%92%E5%B2%9B",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-28"
+    }
+  ],
+  "updatedAt": "2026-09-28",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "小青岛"
+  },
+  "_geocodeTitle": "小青岛公园",
+  "_geocodeSuspect": false,
+  "district": "370202"
+}

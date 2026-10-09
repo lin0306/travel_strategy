@@ -1,0 +1,83 @@
+{
+  "id": "zhaxi-temple",
+  "name": "扎基寺",
+  "category": "scenic",
+  "subtype": "temple",
+  "summary": "城北的一座小寺，供的是财神，周三来的人最多，门口排着买白酒的队。",
+  "description": "扎基寺在城北扎基东路，是拉萨唯一一座供财神的寺，十八世纪建的。寺不大，院子也不大，但来的人很密。规矩是带白酒进去 —— 门口就有卖的，本地人拎着瓶子排。周三人最多，那天院子里挤得转不开。它是那种本地日常的寺，不是整理出来给客人看的。",
+  "highlights": [
+    "拉萨唯一供财神的寺，规矩是带白酒进去",
+    "周三来的人最多，院子里挤得转不开",
+    "门口就有卖白酒的，本地人拎着瓶子排"
+  ],
+  "location": {
+    "point": {
+      "lng": 91.14218,
+      "lat": 29.674177,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "西藏自治区拉萨市城关区扎基东路",
+    "district": "城关区",
+    "transportTip": "市区打车或公交到扎基东路，步行可达"
+  },
+  "practical": {
+    "openHours": "约8:00-18:00，周三最热闹",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 45-90 分钟",
+    "durationMinutes": [
+      45,
+      90
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "elders",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Zashi_Lhamo_1934.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Zashi_Lhamo_1934.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1360,
+      "alt": "Zashi Lhamo 1934.jpg",
+      "query": "扎基寺 拉萨",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Unknown authorUnknown author",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zashi_Lhamo_1934.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "寺庙",
+    "财神",
+    "本地"
+  ],
+  "popularity": 68,
+  "sources": [
+    {
+      "title": "百度百科·扎基寺",
+      "url": "https://baike.baidu.com/item/%E6%89%8E%E5%9F%BA%E5%AF%BA",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "扎基寺"
+  },
+  "_geocodeTitle": "扎基寺",
+  "_geocodeSuspect": false,
+  "district": "540102"
+}

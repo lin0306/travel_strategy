@@ -1,0 +1,88 @@
+{
+  "id": "futian-mangrove-reserve",
+  "name": "福田红树林生态公园",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "一段不让人下滩的自然保护地：核心区隐在堤岸外侧，观鸟要去新洲河口的观鸟亭。",
+  "description": "福田红树林是整个深圳湾北侧滩涂上留下来的一块自然岸段，保护对象不只是红树，还有在这里越冬与中转的水鸟。为了不让干扰进去，它的本体—保护区—是封闭的，游客能看的部分被安排在堤岸之外的观鸟设施上。观鸟亭与科普展馆在东侧，面向的是新洲河口一带的滩面。最好的时间要看潮水：高潮位时鸟被推到近处的岸边，距离更近。常驻与过往的种类很多，黑脸琵鹭是这一站最被关注的一种。它与深圳湾公园在同一条海岸线上，可以串起来走。",
+  "highlights": [
+    "自然保护地本体封闭，观鸟在堤岸外的设施进行",
+    "看鸟效果与潮位相关，高潮时距离更近",
+    "在深圳湾公园同一岸线上，可一并走"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.04041,
+      "lat": 22.50955,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "深圳市福田区新洲路与福荣路交界附近",
+    "district": "福田区",
+    "transportTip": "地铁3号线益田站 / 地铁7号线沙尾站换乘公交",
+    "entrance": {
+      "lng": 114.043425,
+      "lat": 22.512818,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约09:00-17:30，周一可能闭馆（以官方公告为准）",
+    "openHoursRef": 0,
+    "ticket": "免费，参观需预约（以官方为准）",
+    "ticketRef": 0,
+    "duration": "建议 90-240 分钟",
+    "durationMinutes": [
+      90,
+      240
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "kids",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Warmth_%28163395149%29.jpeg/1280px-Warmth_%28163395149%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Warmth_%28163395149%29.jpeg/1280px-Warmth_%28163395149%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Warmth (163395149).jpeg",
+      "query": "natural landscape China shenzhen",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Jiang Henry",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Warmth_(163395149).jpeg",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "观鸟",
+    "免费",
+    "自然保护"
+  ],
+  "popularity": 78,
+  "sources": [
+    {
+      "title": "百度百科·福田红树林生态公园",
+      "url": "https://baike.baidu.com/item/%E7%A6%8F%E7%94%B0%E7%BA%A2%E6%A0%91%E6%9E%97%E7%94%9F%E6%80%81%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-24"
+    }
+  ],
+  "updatedAt": "2026-09-24",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "福田红树林生态公园"
+  },
+  "_geocodeTitle": "福田红树林生态公园",
+  "_geocodeSuspect": false,
+  "district": "440304"
+}

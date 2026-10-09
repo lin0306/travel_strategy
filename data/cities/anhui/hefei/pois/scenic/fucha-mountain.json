@@ -1,0 +1,118 @@
+{
+  "id": "fucha-mountain",
+  "name": "浮槎山",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "肥东东部的高山，山中有古寺与常年不竭的泉眼，登顶能望见江淮丘陵。",
+  "description": "浮槎山在肥东县东部，是合肥境内海拔较高的一座山，山体连绵，林子密。山道上落叶厚，走起来很安静，只有鸟叫和风声。山腰有古寺和泉眼，泉水常年不竭，本地人上山常带瓶子接水回去泡茶。山顶地势平缓，视野开阔，能望见江淮分水岭一带起伏的丘陵和远处的村庄。这里游客很少，商业设施不多，来之前备好水和干粮，穿一双好走的鞋。",
+  "highlights": [
+    "合肥境内的高山之一",
+    "山腰古寺与常年泉眼",
+    "山顶望见江淮丘陵"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.647591,
+      "lat": 31.858005,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "安徽省合肥市肥东县浮槎山",
+    "district": "肥东县",
+    "transportTip": "从肥东县城自驾或打车到浮槎山脚下",
+    "entrance": {
+      "lng": 117.649001,
+      "lat": 31.847284,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放，夜间不宜登山",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 120-210 分钟",
+    "durationMinutes": [
+      120,
+      210
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "friends",
+    "couple",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Chen_Xian-cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Chen_Xian-cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1513,
+      "alt": "Chen Xian-cha.jpg",
+      "query": "浮槎山",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Unknown authorUnknown author",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chen_Xian-cha.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Engagement_ceremony_of_Wang_Yu-lin_and_Chen_Xian-cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Engagement_ceremony_of_Wang_Yu-lin_and_Chen_Xian-cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 643,
+      "alt": "Engagement ceremony of Wang Yu-lin and Chen Xian-cha.jpg",
+      "query": "浮槎山",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Unknown authorUnknown author",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Engagement_ceremony_of_Wang_Yu-lin_and_Chen_Xian-cha.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Wang_Yu-lin_and_Chen_Xian-cha_with_son_in_Kyoto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Wang_Yu-lin_and_Chen_Xian-cha_with_son_in_Kyoto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1476,
+      "alt": "Wang Yu-lin and Chen Xian-cha with son in Kyoto.jpg",
+      "query": "浮槎山",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Unknown authorUnknown author",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wang_Yu-lin_and_Chen_Xian-cha_with_son_in_Kyoto.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "登山",
+    "山泉",
+    "古寺"
+  ],
+  "popularity": 68,
+  "sources": [
+    {
+      "title": "浮槎山·百度百科",
+      "url": "https://baike.baidu.com/item/%E6%B5%AE%E6%A7%8E%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Fucha Mountain Hefei",
+    "zh": "浮槎山"
+  },
+  "_geocodeTitle": "浮槎山",
+  "_geocodeSuspect": false,
+  "district": "340122"
+}

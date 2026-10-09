@@ -1,0 +1,118 @@
+{
+  "id": "jinyang-lake-park",
+  "name": "晋阳湖公园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "城西南的大湖公园，环湖步道与沙滩齐备，傍晚看日落最舒服。",
+  "description": "晋阳湖公园在晋源区，是太原城区内面积最大的湖，水面开阔，风从湖面吹过来，夏天凉爽。环湖修了长距离的步道与骑行道，沿途有沙滩、湿地、花田与观景平台，绕行一圈需要不少时间，也可骑车分段游玩。傍晚太阳落到湖面和对岸的楼群之间，天空一层层变色，很多人专程来等这一刻。园内遮荫处不多，白天要做好防晒；周末车位紧张，乘公交前往更省心。",
+  "highlights": [
+    "城区最大湖面",
+    "环湖步道与骑行",
+    "傍晚日落机位"
+  ],
+  "location": {
+    "point": {
+      "lng": 112.511009,
+      "lat": 37.77156,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "山西省太原市晋源区晋阳湖公园",
+    "district": "晋源区",
+    "transportTip": "市区乘公交或自驾到晋阳湖公园",
+    "entrance": {
+      "lng": 112.519838,
+      "lat": 37.770255,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放，以公园公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费开放",
+    "ticketRef": 0,
+    "duration": "建议 90-210 分钟",
+    "durationMinutes": [
+      90,
+      210
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "kids",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/2870116/pexels-photo-2870116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/2870116/pexels-photo-2870116.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5892,
+      "height": 3928,
+      "alt": "Stunning view of a traditional pagoda in Taiyuán, reflecting in a puddle on a cloudy day.",
+      "query": "Jinyang Lake Park Taiyuan",
+      "credit": {
+        "source": "pexels",
+        "author": "Lian Rodriguez",
+        "sourceUrl": "https://www.pexels.com/photo/gray-and-brown-pagoda-2870116/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39921672/pexels-photo-39921672.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39921672/pexels-photo-39921672.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3000,
+      "height": 4000,
+      "alt": "Explore the ancient architecture of twin pagodas at a traditional Chinese temple surrounded by lush greenery.",
+      "query": "Jinyang Lake Park Taiyuan",
+      "credit": {
+        "source": "pexels",
+        "author": "MochiBlink",
+        "sourceUrl": "https://www.pexels.com/photo/majestic-twin-pagodas-in-historic-chinese-temple-39921672/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/17110301/pexels-photo-17110301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/17110301/pexels-photo-17110301.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3476,
+      "height": 2340,
+      "alt": "A vibrant urban park featuring colorful boats, lush greenery, and modern skyline.",
+      "query": "Jinyang Lake Park Taiyuan",
+      "credit": {
+        "source": "pexels",
+        "author": "daneil ren ren",
+        "sourceUrl": "https://www.pexels.com/photo/trees-near-lake-in-park-17110301/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "晋阳湖",
+    "公园",
+    "日落"
+  ],
+  "popularity": 86,
+  "sources": [
+    {
+      "title": "晋阳湖公园·百度百科",
+      "url": "https://baike.baidu.com/item/%E6%99%8B%E9%98%B3%E6%B9%96%E5%85%AC%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-04"
+    }
+  ],
+  "updatedAt": "2026-10-04",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Jinyang Lake Park Taiyuan",
+    "zh": "晋阳湖公园"
+  },
+  "_geocodeTitle": "晋阳湖公园",
+  "_geocodeSuspect": false,
+  "district": "140110"
+}

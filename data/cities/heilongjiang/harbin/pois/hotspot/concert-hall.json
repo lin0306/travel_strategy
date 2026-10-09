@@ -1,0 +1,113 @@
+{
+  "id": "concert-hall",
+  "name": "哈尔滨音乐厅",
+  "category": "hotspot",
+  "subtype": "photo",
+  "summary": "群力新区的一座现代音乐厅，外形是一整块光滑的曲面，是这座音乐之城的正经演出场所。",
+  "description": "音乐厅在道里区群力那一片，是哈尔滨交响乐团的主场。建筑是一整块曲面的体量，外壳是浅色石材与玻璃，没有多余的装饰，在群力这片新区的街道上很显眼。里面是一千二百座上下的音乐厅，声学是按交响乐做的，常年有乐季演出，票价比看一场演唱会低不少。哈尔滨是国内少有的被授予音乐之城名号的城市，这里与江北的大剧院是这座城这一面的两个场地：一个在江南、一个在江北，一个偏交响、一个偏歌剧。不看演出也可以白天来看建筑，一小时够。演出票提前在官方渠道买。",
+  "highlights": [
+    "一整块曲面体量，浅色石材与玻璃，在新区街道上很显眼",
+    "一千二百座，是哈尔滨交响乐团的主场",
+    "与江北大剧院是这座音乐之城的两个场地"
+  ],
+  "location": {
+    "point": {
+      "lng": 126.560853,
+      "lat": 45.741546,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "黑龙江省哈尔滨市道里区工农街道群力大道1号",
+    "district": "道里区",
+    "transportTip": "乘公交至群力大道音乐厅站；或网约车前往"
+  },
+  "practical": {
+    "openHours": "演出时段以场次为准；外观全天",
+    "openHoursRef": 0,
+    "ticket": "演出票按场次，以官方渠道为准",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "family",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Harbin_Concert_Hall_1.jpg/1280px-Harbin_Concert_Hall_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Harbin_Concert_Hall_1.jpg/1280px-Harbin_Concert_Hall_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Harbin Concert Hall 1.jpg",
+      "query": "哈尔滨音乐厅 哈尔滨",
+      "credit": {
+        "source": "wikimedia",
+        "author": "EditQ",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harbin_Concert_Hall_1.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Harbin_Concert_Hall_2.jpg/1280px-Harbin_Concert_Hall_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Harbin_Concert_Hall_2.jpg/1280px-Harbin_Concert_Hall_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Harbin Concert Hall 2.jpg",
+      "query": "哈尔滨音乐厅 哈尔滨",
+      "credit": {
+        "source": "wikimedia",
+        "author": "EditQ",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harbin_Concert_Hall_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Harbin_Concert_Hall_3.jpg/1280px-Harbin_Concert_Hall_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Harbin_Concert_Hall_3.jpg/1280px-Harbin_Concert_Hall_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Harbin Concert Hall 3.jpg",
+      "query": "哈尔滨音乐厅 哈尔滨",
+      "credit": {
+        "source": "wikimedia",
+        "author": "EditQ",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harbin_Concert_Hall_3.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "音乐厅",
+    "现代建筑",
+    "演出"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "百度百科·哈尔滨音乐厅",
+      "url": "https://baike.baidu.com/item/%E5%93%88%E5%B0%94%E6%BB%A8%E9%9F%B3%E4%B9%90%E5%8E%85",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-30"
+    }
+  ],
+  "updatedAt": "2026-09-30",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "哈尔滨音乐厅"
+  },
+  "_geocodeTitle": "哈尔滨音乐厅",
+  "_geocodeSuspect": false,
+  "district": "230102"
+}

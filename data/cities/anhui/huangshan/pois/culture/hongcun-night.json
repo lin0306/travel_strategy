@@ -1,0 +1,111 @@
+{
+  "id": "hongcun-night",
+  "name": "宏村夜游",
+  "category": "culture",
+  "subtype": "street",
+  "summary": "宏村晚上灯亮后的村子，月沼倒影和巷子安静，比白天有味道。",
+  "description": "宏村夜游是晚上的村子。灯亮起来，月沼和老房子的倒影在水里，巷子安静，白天的人潮退了。它比白天有味道 —— 像回到了没游客的村子。村里有几家酒吧和茶座开着。住在村里的人晚上出来走走最方便。免费。",
+  "highlights": [
+    "晚上灯亮月沼倒影，巷子安静",
+    "比白天有味道，似无游客的村",
+    "村内住客晚走最便，免费"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.992295,
+      "lat": 30.004008,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "安徽省黄山市黟县宏村",
+    "district": "黟县",
+    "transportTip": "宏村内步行"
+  },
+  "practical": {
+    "openHours": "日落后至约21:00",
+    "openHoursRef": 0,
+    "ticket": "含宏村门票或村中住宿",
+    "ticketRef": 0,
+    "duration": "建议 60-100 分钟",
+    "durationMinutes": [
+      60,
+      100
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Old_Town_of_Lijiang_roofs_01.JPG/1280px-Old_Town_of_Lijiang_roofs_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Old_Town_of_Lijiang_roofs_01.JPG/1280px-Old_Town_of_Lijiang_roofs_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Old Town of Lijiang roofs 01.JPG",
+      "query": "Chinese old town street huangshan",
+      "credit": {
+        "source": "wikimedia",
+        "author": "BrokenSphere",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_Town_of_Lijiang_roofs_01.JPG",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Old_Town_of_Lijiang_roofs_02.JPG/1280px-Old_Town_of_Lijiang_roofs_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Old_Town_of_Lijiang_roofs_02.JPG/1280px-Old_Town_of_Lijiang_roofs_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Old Town of Lijiang roofs 02.JPG",
+      "query": "Chinese old town street huangshan",
+      "credit": {
+        "source": "wikimedia",
+        "author": "BrokenSphere",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_Town_of_Lijiang_roofs_02.JPG",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Xinhua_Street_Upper_Huangshan_carved_cobblestone.JPG/1280px-Xinhua_Street_Upper_Huangshan_carved_cobblestone.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Xinhua_Street_Upper_Huangshan_carved_cobblestone.JPG/1280px-Xinhua_Street_Upper_Huangshan_carved_cobblestone.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1440,
+      "alt": "Xinhua Street Upper Huangshan carved cobblestone.JPG",
+      "query": "Chinese old town street huangshan",
+      "credit": {
+        "source": "wikimedia",
+        "author": "BrokenSphere",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xinhua_Street_Upper_Huangshan_carved_cobblestone.JPG",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "夜游",
+    "宏村",
+    "月沼"
+  ],
+  "popularity": 60,
+  "sources": [
+    {
+      "title": "百度百科·宏村",
+      "url": "https://baike.baidu.com/item/%E5%AE%8F%E6%9D%91",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "宏村夜游"
+  },
+  "_geocodeTitle": "宏村村委会",
+  "district": "341023"
+}

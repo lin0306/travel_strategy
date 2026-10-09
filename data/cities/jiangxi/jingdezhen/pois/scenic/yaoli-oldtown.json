@@ -1,0 +1,112 @@
+{
+  "id": "yaoli-oldtown",
+  "name": "瑶里古镇",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "浮梁县山里的一座古村，出高岭土的地方，水街和老宅都在，安静。",
+  "description": "瑶里在浮梁县东北，是山里的一座古村。它是景德镇瓷器的源头 —— 烧瓷要用的高岭土就出在这儿，古时候窑和矿都在这一片。村里有一条水街，房子沿着溪盖，白墙黑瓦。它离市区约一小时车程，人比城里少很多。",
+  "highlights": [
+    "浮梁山里的古村，高岭土出产地",
+    "水街沿溪盖房，白墙黑瓦",
+    "离市区一小时，比城里安静"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.593577,
+      "lat": 29.542275,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "江西省景德镇市浮梁县瑶里镇瑶里古镇",
+    "district": "浮梁县",
+    "transportTip": "景德镇或浮梁转车到瑶里"
+  },
+  "practical": {
+    "openHours": "约08:00-17:30，以景区公告为准",
+    "openHoursRef": 0,
+    "ticket": "约150元（含景点）",
+    "ticketRef": 0,
+    "duration": "建议 180-360 分钟",
+    "durationMinutes": [
+      180,
+      360
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "couple",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/29611979/pexels-photo-29611979.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29611979/pexels-photo-29611979.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5464,
+      "height": 3640,
+      "alt": "An aerial photograph showcasing traditional Chinese village architecture with tile rooftops and round elements.",
+      "query": "Yaoli Ancient Town Jingdezhen",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-traditional-chinese-village-rooftops-29611979/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/27642248/pexels-photo-27642248.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/27642248/pexels-photo-27642248.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5464,
+      "height": 3640,
+      "alt": "Scenic view of traditional Chinese architecture in Jingdezhen with lush greenery and mountains.",
+      "query": "Yaoli Ancient Town Jingdezhen",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/27642248/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38249305/pexels-photo-38249305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38249305/pexels-photo-38249305.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6048,
+      "height": 4024,
+      "alt": "Explore the charm of Shaoxing's ancient architecture and traditional calligraphy.",
+      "query": "Yaoli Ancient Town Jingdezhen",
+      "credit": {
+        "source": "pexels",
+        "author": "Kenny Foo",
+        "sourceUrl": "https://www.pexels.com/photo/historic-stone-bridge-in-shaoxing-ancient-town-38249305/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "古村",
+    "高岭土",
+    "瑶里"
+  ],
+  "popularity": 88,
+  "sources": [
+    {
+      "title": "百度百科·瑶里",
+      "url": "https://baike.baidu.com/item/%E7%91%B6%E9%87%8C",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Yaoli Ancient Town Jingdezhen",
+    "zh": "瑶里古镇"
+  },
+  "_geocodeTitle": "瑶里古镇风景区",
+  "_geocodeSuspect": false,
+  "district": "360222"
+}

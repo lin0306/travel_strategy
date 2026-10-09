@@ -1,0 +1,113 @@
+{
+  "id":"haicai-baozi",
+  "name":"海菜包子",
+  "category":"food",
+  "subtype":"snack",
+  "summary":"大连海边包子，海菜做馅，鲜中带海味。",
+  "description":"海菜包子是大连海边一种包子，用海白菜、紫菜这类海菜做馅，鲜中带海的味道。素的多，清爽。和内陆的包子味道不同。渔村与市场有卖。几个看点：大连海边包子，海菜做馅；鲜中带海味，素的多；与内陆包子味道不同。",
+  "highlights":[
+    "大连海边包子，海菜做馅",
+    "鲜中带海味，素的多",
+    "与内陆包子味道不同"
+  ],
+  "location":{
+    "point":{
+      "lng":121.660112,
+      "lat":38.920534,
+      "coordSystem":"GCJ-02"
+    },
+    "address":"辽宁省大连市西岗区海菜包子铺",
+    "district":"中山区",
+    "transportTip":"市场与渔村包子铺有售"
+  },
+  "practical":{
+    "openHours":"约7:00-19:00",
+    "openHoursRef":0,
+    "ticket":"便宜（按个卖）",
+    "ticketRef":0,
+    "duration":"建议 15-30 分钟",
+    "durationMinutes":[
+      15,
+      30
+    ],
+    "priceLevel":"budget"
+  },
+  "audience":[
+    "solo",
+    "friends",
+    "family"
+  ],
+  "accessible":false,
+  "tips":[],
+  "images":[
+    {
+      "url":"https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl":"https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width":4240,
+      "height":2832,
+      "alt":"A bustling street food stall offering traditional dishes to a customer in stylish winter attire.",
+      "query":"Chinese street food dish dalian",
+      "credit":{
+        "source":"pexels",
+        "author":"jason hu",
+        "sourceUrl":"https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/",
+        "license":"Pexels License",
+        "attributionRequired":false
+      }
+    },
+    {
+      "url":"https://images.pexels.com/photos/35157092/pexels-photo-35157092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl":"https://images.pexels.com/photos/35157092/pexels-photo-35157092.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width":6000,
+      "height":4000,
+      "alt":"Close-up of flavorful dumpling soup in a disposable bowl held outdoors.",
+      "query":"Chinese street food dish dalian",
+      "credit":{
+        "source":"pexels",
+        "author":"Peter Xie",
+        "sourceUrl":"https://www.pexels.com/photo/delicious-dumpling-soup-in-disposable-bowl-35157092/",
+        "license":"Pexels License",
+        "attributionRequired":false
+      }
+    },
+    {
+      "url":"https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl":"https://images.pexels.com/photos/33845523/pexels-photo-33845523.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width":3032,
+      "height":3923,
+      "alt":"Browse a bustling Shenzhen food stall with diverse Asian meals and colorful bowls, embodying Chinese culinary culture.",
+      "query":"Chinese street food dish dalian",
+      "credit":{
+        "source":"pexels",
+        "author":"Jaime Hernandez Erives",
+        "sourceUrl":"https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/",
+        "license":"Pexels License",
+        "attributionRequired":false
+      }
+    }
+  ],
+  "coverIndex":0,
+  "tags":[
+    "包子",
+    "海菜",
+    "海鲜"
+  ],
+  "popularity":50,
+  "sources":[
+    {
+      "title":"百度百科·海菜",
+      "url":"https://baike.baidu.com/item/%E6%B5%B7%E8%8F%9C",
+      "kind":"wiki",
+      "fetchedAt":"2026-10-01"
+    }
+  ],
+  "updatedAt":"2026-10-01",
+  "_geocoded":true,
+  "_imageQuery":{
+    "en":"",
+    "zh":"海菜包子"
+  },
+  "_geocodeTitle":"大连人海肠捞饭海菜包子",
+  "_geocodeSuspect":false,
+  "district":"210202"
+}

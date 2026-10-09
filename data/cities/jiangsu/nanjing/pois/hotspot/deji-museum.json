@@ -1,0 +1,83 @@
+{
+  "id": "deji-museum",
+  "name": "德基美术馆",
+  "category": "hotspot",
+  "subtype": "art",
+  "summary": "开在商场里的当代艺术空间，顺手就能接上一段不想淋雨的时间。",
+  "description": "德基广场二期顶层的这个空间是民营美术馆，做的是当代艺术与国际合作的展览。它的特点是位置：在新街口最热闹的商场楼上，不需要预留专门的一天，逛到两点觉得热就可以上去。展陈按大型当代机构的规格做，灯光与流线都不敷衍。门票按展览定价，热门展要提前预约。楼下就是地铁。它不适合当成一座城市的目的地，但很适合当作行程的缓冲。",
+  "highlights": [
+    "在商场顶层，不需要专门留一天",
+    "展陈按大型当代机构规格做",
+    "热门展要提前预约"
+  ],
+  "location": {
+    "point": {
+      "lng": 118.784587,
+      "lat": 32.042593,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "南京市玄武区中山路18号德基广场二期",
+    "district": "玄武区",
+    "transportTip": "地铁1号线/2号线新街口站直达"
+  },
+  "practical": {
+    "openHours": "约10:00-22:00（以当期展览公告为准）",
+    "openHoursRef": 0,
+    "ticket": "门票以当期展览为准",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "couple",
+    "solo",
+    "kids"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Dan_Flavin%2C_Untitled_%28to_Don_Judd%2C_Colorist%29_1%E2%80%935_%281987%29%2C_Tate_Modern%2C_London%2C_UK.jpg/1280px-Dan_Flavin%2C_Untitled_%28to_Don_Judd%2C_Colorist%29_1%E2%80%935_%281987%29%2C_Tate_Modern%2C_London%2C_UK.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Dan_Flavin%2C_Untitled_%28to_Don_Judd%2C_Colorist%29_1%E2%80%935_%281987%29%2C_Tate_Modern%2C_London%2C_UK.jpg/1280px-Dan_Flavin%2C_Untitled_%28to_Don_Judd%2C_Colorist%29_1%E2%80%935_%281987%29%2C_Tate_Modern%2C_London%2C_UK.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Dan Flavin, Untitled (to Don Judd, Colorist) 1–5 (1987), Tate Modern, London, UK.jpg",
+      "query": "德基美术馆",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Grand Parc—Bordeaux, France from France",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dan_Flavin,_Untitled_(to_Don_Judd,_Colorist)_1%E2%80%935_(1987),_Tate_Modern,_London,_UK.jpg",
+        "license": "CC BY 2.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "美术馆",
+    "商场",
+    "当代艺术"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·德基广场",
+      "url": "https://baike.baidu.com/item/%E5%BE%B7%E5%9F%BA%E5%B9%BF%E5%9C%BA",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-23"
+    }
+  ],
+  "updatedAt": "2026-09-23",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "德基美术馆"
+  },
+  "_geocodeTitle": "德基美术馆",
+  "_geocodeSuspect": false,
+  "district": "320102"
+}

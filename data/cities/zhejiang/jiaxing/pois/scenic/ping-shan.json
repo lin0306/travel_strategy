@@ -1,0 +1,118 @@
+{
+  "id": "ping-shan",
+  "name": "瓶山",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "嘉兴城中的小山公园，酒文化遗迹。",
+  "description": "瓶山在嘉兴老城中心，是一座不大的小山，相传为宋代酒务堆瓶之地，留有瓶山阁、古井等遗迹。山虽小却处闹市，林木葱郁、登顶可看老城轮廓。它免费开放，是市民晨练与散步的口袋公园，与子城、月河近。",
+  "highlights": [
+    "老城中心小山公园",
+    "宋代酒务堆瓶遗迹",
+    "闹市口袋公园"
+  ],
+  "location": {
+    "point": {
+      "lng": 120.752967,
+      "lat": 30.763431,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "嘉兴市南湖区瓶山",
+    "district": "南湖区",
+    "transportTip": "市中心步行",
+    "entrance": {
+      "lng": 120.753908,
+      "lat": 30.763535,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天开放",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 30-60 分钟",
+    "durationMinutes": [
+      30,
+      60
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "solo",
+    "elders",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Nishi_tribal_lightened.jpg/1280px-Nishi_tribal_lightened.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Nishi_tribal_lightened.jpg/1280px-Nishi_tribal_lightened.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Nishi tribal lightened.jpg",
+      "query": "瓶山",
+      "credit": {
+        "source": "wikimedia",
+        "author": "en:User:Doniv79",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nishi_tribal_lightened.jpg",
+        "license": "CC BY-SA 2.5",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Tomb_of_Liangshi_Yipinfuren_03.jpg/1280px-Tomb_of_Liangshi_Yipinfuren_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Tomb_of_Liangshi_Yipinfuren_03.jpg/1280px-Tomb_of_Liangshi_Yipinfuren_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 718,
+      "alt": "Tomb of Liangshi Yipinfuren 03.jpg",
+      "query": "瓶山",
+      "credit": {
+        "source": "wikimedia",
+        "author": "大街小巷广州仔",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tomb_of_Liangshi_Yipinfuren_03.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Tomb_of_Liangshi_Yipinfuren_06.jpg/1280px-Tomb_of_Liangshi_Yipinfuren_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Tomb_of_Liangshi_Yipinfuren_06.jpg/1280px-Tomb_of_Liangshi_Yipinfuren_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 718,
+      "alt": "Tomb of Liangshi Yipinfuren 06.jpg",
+      "query": "瓶山",
+      "credit": {
+        "source": "wikimedia",
+        "author": "大街小巷广州仔",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tomb_of_Liangshi_Yipinfuren_06.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "瓶山",
+    "小山",
+    "酒文化"
+  ],
+  "popularity": 50,
+  "sources": [
+    {
+      "title": "百度百科·嘉兴",
+      "url": "https://baike.baidu.com/item/%E5%98%89%E5%85%B4",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-05"
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "瓶山"
+  },
+  "_geocodeTitle": "嘉兴瓶山公园",
+  "_geocodeSuspect": false,
+  "district": "330402"
+}

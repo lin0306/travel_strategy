@@ -1,0 +1,116 @@
+{
+  "id": "guokui-liangfen",
+  "name": "锅盔凉粉",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "烤得酥脆的锅盔剖开，塞进拌好的凉粉，一手能拿。",
+  "description": "锅盔凉粉是四川最有代表性的街头组合之一，在阆中尤其常见。锅盔是白面烤的饼，贴着炉壁烤到两面金黄起壳，外脆里软，趁热从边上剖开成一个口袋；然后把拌好的川北凉粉——豌豆凉粉加保宁醋、红油、蒜水、花椒面——满满地塞进去。一口咬下去，先是锅盔的脆和麦香，然后是凉粉的滑和酸辣，冷热、脆软、干湿三层口感叠在一起，很上瘾。它是边走边吃的东西，一手拿着不用碗，逛古城时最方便。几块钱一个，分量实在，当午饭也够。要趁刚做好的吃，凉粉把锅盔泡软了就差些。",
+  "highlights": [
+    "锅盔烤脆剖口袋",
+    "塞满川北凉粉",
+    "脆软冷热三层口感",
+    "边走边吃"
+  ],
+  "location": {
+    "point": {
+      "lng": 105.9688,
+      "lat": 31.5772,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "南充市阆中市保宁街道，古城内小摊",
+    "district": "阆中",
+    "transportTip": "古城内步行可达，街边现做"
+  },
+  "practical": {
+    "openHours": "一般 9:00-20:00",
+    "openHoursRef": 0,
+    "ticket": "无（几元一个）",
+    "ticketRef": 0,
+    "duration": "建议 20-40 分钟",
+    "durationMinutes": [
+      20,
+      40
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/29714906/pexels-photo-29714906.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4240,
+      "height": 2832,
+      "alt": "A bustling street food stall offering traditional dishes to a customer in stylish winter attire.",
+      "query": "Chinese street food dish langzhong",
+      "credit": {
+        "source": "pexels",
+        "author": "jason hu",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/11259688/pexels-photo-11259688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/11259688/pexels-photo-11259688.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Close-up of crispy youtiao served with dipping sauce and chopsticks on a metal table.",
+      "query": "Chinese street food dish langzhong",
+      "credit": {
+        "source": "pexels",
+        "author": "FOX ^.ᆽ.^= ∫",
+        "sourceUrl": "https://www.pexels.com/photo/meal-on-a-plate-11259688/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/6440090/pexels-photo-6440090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6440090/pexels-photo-6440090.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4856,
+      "height": 3237,
+      "alt": "Close-up of delicious Chinese street food in a paper bowl held by a hand, featuring seasoned fried potatoes.",
+      "query": "Chinese street food dish langzhong",
+      "credit": {
+        "source": "pexels",
+        "author": "Mackenzie Ryder",
+        "sourceUrl": "https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "街头小吃",
+    "锅盔",
+    "凉粉",
+    "边走边吃"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "百度百科·锅盔",
+      "url": "https://baike.baidu.com/item/%E9%94%85%E7%9B%94%E5%87%89%E7%B2%89",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "锅盔凉粉"
+  },
+  "_geocodeTitle": "阆中古城内锅盔摊",
+  "_geocodeSuspect": false,
+  "district": "511381"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "xifeng-camp",
+  "name": "息烽集中营",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "息烽县的一处旧址，抗战时期关押过很多人，现在是纪念馆。",
+  "description": "息烽集中营在息烽县，离市区七十公里上下。抗战时期这里关押过很多人 —— 共产党人、进步人士、也有别的人。它在山里，当年选这儿就是因为偏。现在是纪念馆，牢房、围墙、岗楼都留着，里面有展陈。免费。来这儿的心情与逛别的地方不一样，要留出时间。它与息烽温泉在同一片，但一天里两边都去不太合适。",
+  "highlights": [
+    "抗战时期关押过很多人的旧址，在山里因为偏才选这儿",
+    "牢房围墙岗楼都留着，里面是展陈",
+    "免费，来这儿的心情与逛别处不一样"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.742172,
+      "lat": 27.039024,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "贵州省贵阳市息烽县永阳街道",
+    "district": "息烽县",
+    "transportTip": "市区班车或打车往息烽县，约一小时半"
+  },
+  "practical": {
+    "openHours": "约9:00-17:00，以馆方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费",
+    "ticketRef": 0,
+    "duration": "建议 120-210 分钟",
+    "durationMinutes": [
+      120,
+      210
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "elders",
+    "family"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/%E8%BD%A6%E8%80%80%E5%85%88.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/%E8%BD%A6%E8%80%80%E5%85%88.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1265,
+      "alt": "车耀先.jpg",
+      "query": "息烽集中营",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Unknown, before 1946",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%BD%A6%E8%80%80%E5%85%88.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "纪念馆",
+    "抗战",
+    "旧址"
+  ],
+  "popularity": 52,
+  "sources": [
+    {
+      "title": "百度百科·息烽集中营",
+      "url": "https://baike.baidu.com/item/%E6%81%AF%E7%83%BD%E9%9B%86%E4%B8%AD%E8%90%A5",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "息烽集中营"
+  },
+  "_geocodeTitle": "息烽集中营革命历史纪念馆-中山室",
+  "_geocodeSuspect": false,
+  "district": "520122"
+}

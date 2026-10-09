@@ -1,0 +1,118 @@
+{
+  "id": "guohua-garden",
+  "name": "中国国花园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "洛龙一处沿洛河的牡丹园，面积大，品种全。",
+  "description": "中国国花园在洛阳洛龙，沿洛河而建，是一处面积很大的牡丹园。四月满园牡丹，品种全，颜色多。比王城公园新、大、人稍少。洛河边散步也好。几个看点：洛龙沿洛河的牡丹园，面积大；品种全颜色多；比王城公园新大，人稍少。",
+  "highlights": [
+    "洛龙沿洛河的牡丹园，面积大",
+    "品种全颜色多",
+    "比王城公园新大，人稍少"
+  ],
+  "location": {
+    "point": {
+      "lng": 112.4584,
+      "lat": 34.6561,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "河南省洛阳市洛龙区中国国花园",
+    "district": "洛龙区",
+    "transportTip": "洛龙区乘公交可达",
+    "entrance": {
+      "lng": 112.447968,
+      "lat": 34.649651,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "约6:00-22:00（牡丹季收费）",
+    "openHoursRef": 0,
+    "ticket": "平时免费，牡丹季约几十元",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "family",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/6374453/pexels-photo-6374453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/6374453/pexels-photo-6374453.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 6000,
+      "alt": "A woman in red explores the historical White Horse Temple in Luoyang, China, through a circular doorway.",
+      "query": "Chinese classical garden luoyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Kowal Tyler",
+        "sourceUrl": "https://www.pexels.com/photo/person-walking-through-a-circular-passage-fence-in-the-white-horse-temple-6374453/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/5305566/pexels-photo-5305566.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/5305566/pexels-photo-5305566.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5858,
+      "height": 3245,
+      "alt": "Stunning view of a traditional Chinese building illuminated at night, showcasing intricate architectural details.",
+      "query": "Chinese classical garden luoyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Kowal Tyler",
+        "sourceUrl": "https://www.pexels.com/photo/tang-paradise-during-night-time-5305566/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/11648438/pexels-photo-11648438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/11648438/pexels-photo-11648438.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5223,
+      "height": 2938,
+      "alt": "Photograph of the historic White Horse Temple entrance in Luoyang, China, reflecting architectural beauty.",
+      "query": "Chinese classical garden luoyang",
+      "credit": {
+        "source": "pexels",
+        "author": "will louis",
+        "sourceUrl": "https://www.pexels.com/photo/the-white-horse-temple-in-china-11648438/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "牡丹园",
+    "洛河",
+    "花卉"
+  ],
+  "popularity": 52,
+  "sources": [
+    {
+      "title": "百度百科·中国国花园",
+      "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E5%9B%BD%E8%8A%B1%E5%9B%AD",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
+    }
+  ],
+  "updatedAt": "2026-10-01",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "中国国花园"
+  },
+  "_geocodeTitle": "中国国花园",
+  "_geocodeSuspect": false,
+  "district": "410311"
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "yangzhou",
+  "name": "扬州",
+  "province": "江苏",
+  "adcode": "321000",
+  "provinceAdcode": "320000",
+  "tagline": "瘦西湖的柳、东关街的早茶，还有那碗扬州炒饭的锅气",
+  "intro": "扬州在长江北岸、运河边上，是两淮盐运和漕运养出来的老城。城里最出名的瘦西湖，是一道带着园林的河，五亭桥和二十四桥是它标志性的两座。老城在广陵一带，东关街、皮市街、仁丰里几条街巷把盐商老宅和市井小吃串在一起。个园和何园是清代盐商私家园林的两座高峰，叠石和回廊至今讲究。吃的走淮扬一路，早茶尤其出名：富春、冶春的蟹黄汤包和魁龙珠是清晨的仪式。扬州慢，适合用两天把老城走透、再用一天去高邮看盂城驿和汪曾祺。",
+  "center": {
+    "lng": 119.4796,
+    "lat": 32.7356,
+    "coordSystem": "GCJ-02"
+  },
+  "bbox": [
+    119.0084,
+    32.2149,
+    119.9111,
+    33.4107
+  ],
+  "defaultZoom": 10,
+  "heroImages": [
+    {
+      "url": "https://images.pexels.com/photos/35620192/pexels-photo-35620192.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35620192/pexels-photo-35620192.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2688,
+      "height": 4032,
+      "alt": "A scenic view of Guangzhou skyline from a balcony during sunset, featuring modern skyscrapers and a traditional overhang",
+      "query": "扬州 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Glyne Yan",
+        "sourceUrl": "https://www.pexels.com/photo/skyline-view-from-balcony-at-dusk-in-guangzhou-35620192/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/20602220/pexels-photo-20602220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/20602220/pexels-photo-20602220.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4211,
+      "height": 6316,
+      "alt": "View of Hangzhou Century Center skyscrapers in Hangzhou, Zhejiang, China against a clear sky.",
+      "query": "扬州 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "Acres of Film",
+        "sourceUrl": "https://www.pexels.com/photo/hangzhou-century-center-skyscrapers-20602220/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/37449699/pexels-photo-37449699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/37449699/pexels-photo-37449699.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6955,
+      "height": 4637,
+      "alt": "Captured through a window, this urban landscape reveals both old and modern architecture under daylight.",
+      "query": "扬州 China city skyline",
+      "credit": {
+        "source": "pexels",
+        "author": "JUNLIN ZOU",
+        "sourceUrl": "https://www.pexels.com/photo/urban-landscape-view-framed-by-window-37449699/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "facts": {
+    "bestSeason": "3-5 月（烟花三月下扬州，柳绿桃红）/ 9-11 月（秋高气爽，园林最好看）",
+    "suggestedDays": "2-3 天（老城瘦西湖+个园何园 1 天，东关街皮市街早茶 1 天，高邮或邵伯运河 1 天）",
+    "transitTip": "扬州泰州国际机场在泰州境内，距市区约四十分钟车程。扬州站和扬州东站（连镇高铁）都有动车接入，东站更靠近主城。市内公交与共享单车站点密，老城景点之间步行加骑车最舒服。去高邮坐动车约二十分钟，去邵伯、瓜洲靠公交或自驾。",
+    "climateTip": "北亚热带湿润季风气候。四季分明，春雨与梅雨集中，夏季闷热多雨，冬季湿冷。三到五月与九月到十一月最舒服，是看园林和逛老城的好时候。"
+  },
+  "categories": [
+    {
+      "key": "scenic",
+      "label": "旅游景点",
+      "desc": "自然景观、博物馆、古迹古建、公园园林、宗教场所",
+      "icon": "scenic",
+      "color": "#2F7BE8",
+      "subtypes": [
+        "nature",
+        "museum",
+        "historic",
+        "park",
+        "temple"
+      ]
+    },
+    {
+      "key": "food",
+      "label": "特色美食",
+      "desc": "本地菜老字号、小吃夜市、咖啡馆茶馆",
+      "icon": "food",
+      "color": "#E8672F",
+      "subtypes": [
+        "local",
+        "snack",
+        "cafe"
+      ]
+    },
+    {
+      "key": "hotspot",
+      "label": "网红打卡",
+      "desc": "拍照机位、艺术区创意园",
+      "icon": "hotspot",
+      "color": "#E8389B",
+      "subtypes": [
+        "photo",
+        "art"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "城市特色",
+      "desc": "特色街区、演出剧场",
+      "icon": "culture",
+      "color": "#12A67A",
+      "subtypes": [
+        "street",
+        "performance"
+      ]
+    }
+  ],
+  "credits": {
+    "imageSources": [],
+    "textSources": [],
+    "lastUpdated": "2026-10-04"
+  },
+  "updatedAt": "2026-10-04"
+}

@@ -1,0 +1,121 @@
+{
+  "id": "qingliangfeng",
+  "name": "清凉峰",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "皖浙边界的自然保护区，高山草甸和杜鹃，徒步进阶。",
+  "description": "清凉峰在歙县南部，是天目山脉的主峰之一，也是横跨皖浙两省的自然保护区。海拔一千七百多米，山顶有高山草甸、成片的杜鹃和云海，动植物资源很丰富，是徽州少数能体验真正高山徒步的地方。上山路长、海拔爬升大，对体力和装备都有要求，属于进阶线路，不建议新手贸然走。夏天比山下凉快很多，是避暑和看星空的好去处，但进区要遵守保护区的管理规定。",
+  "highlights": [
+    "高山徒步",
+    "草甸",
+    "杜鹃",
+    "皖浙边界",
+    "免票"
+  ],
+  "location": {
+    "point": {
+      "lng": 118.835075,
+      "lat": 30.037708,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "黄山市歙县南部清凉峰镇（皖浙边界，距县城约 60 公里）",
+    "district": "歙县",
+    "transportTip": "自驾或包车从县城约 1.5 小时到清凉峰脚；需徒步上山",
+    "entrance": {
+      "lng": 118.835221,
+      "lat": 30.037756,
+      "coordSystem": "GCJ-02"
+    }
+  },
+  "practical": {
+    "openHours": "全天（自然保护区，遵守入区规定）",
+    "openHoursRef": 0,
+    "ticket": "保护区可能收费 / 需预约（以官方为准）",
+    "ticketRef": 0,
+    "duration": "建议 180-420 分钟",
+    "durationMinutes": [
+      180,
+      420
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "friends",
+    "solo",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/39725323/pexels-photo-39725323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39725323/pexels-photo-39725323.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2541,
+      "height": 3714,
+      "alt": "Quaint village scene with waterway and traditional buildings in Huangshan, China.",
+      "query": "natural landscape China shexian",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-traditional-village-in-huangshan-39725323/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39725230/pexels-photo-39725230.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39725230/pexels-photo-39725230.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3957,
+      "height": 5935,
+      "alt": "Traditional Chinese architecture captured in Huangshan, China.",
+      "query": "natural landscape China shexian",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/ancient-architecture-in-huangshan-china-39725230/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/39725316/pexels-photo-39725316.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/39725316/pexels-photo-39725316.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 2656,
+      "height": 3984,
+      "alt": "Traditional Chinese architectural roof against a cloudy sky in Huangshan, China.",
+      "query": "natural landscape China shexian",
+      "credit": {
+        "source": "pexels",
+        "author": "Cheng Shi Song",
+        "sourceUrl": "https://www.pexels.com/photo/historic-chinese-architecture-in-huangshan-39725316/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "徒步",
+    "高山",
+    "草甸",
+    "自然保护区"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "百度百科·清凉峰",
+      "url": "https://baike.baidu.com/item/%E6%B8%85%E5%87%89%E5%B3%B0",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-07"
+    }
+  ],
+  "updatedAt": "2026-10-07",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "清凉峰"
+  },
+  "_geocodeTitle": "清凉峰自然保护区管理站",
+  "_geocodeSuspect": false,
+  "district": "341021"
+}

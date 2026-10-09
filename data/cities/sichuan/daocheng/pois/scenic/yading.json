@@ -1,0 +1,83 @@
+{
+  "id": "yading",
+  "name": "稻城亚丁景区",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "三神山与高山海子，川西高原的招牌。",
+  "description": "稻城亚丁是这片高原最核心的景区，三座神山——仙乃日、央迈勇、夏诺多吉——呈品字形立在云端，是藏民心中的圣地。山坳里藏着牛奶海、五色海、珍珠海这些高山湖泊，水色随光线变幻。景区很大，得坐观光车再徒步，一天走不完两条线。它海拔高、走路费劲，但站在湖边看雪山倒影，多半觉得值。",
+  "highlights": [
+    "三神山品字排开",
+    "牛奶海五色海",
+    "海拔高需慢走"
+  ],
+  "location": {
+    "point": {
+      "lng": 100.286781,
+      "lat": 28.458911,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "四川省甘孜藏族自治州稻城县香格里拉镇亚丁村",
+    "district": "稻城",
+    "transportTip": "飞抵稻城亚丁机场或到香格里拉镇后转景区观光车"
+  },
+  "practical": {
+    "openHours": "约 07:00-18:00（以景区公告为准，冬季可能缩短）",
+    "openHoursRef": 0,
+    "ticket": "门票+观光车约 266 元，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 360-720 分钟",
+    "durationMinutes": [
+      360,
+      720
+    ],
+    "priceLevel": "high"
+  },
+  "audience": [
+    "friends",
+    "couple",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Daocheng_Yading_scenic_area_gate.jpg/1280px-Daocheng_Yading_scenic_area_gate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Daocheng_Yading_scenic_area_gate.jpg/1280px-Daocheng_Yading_scenic_area_gate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Daocheng Yading scenic area gate.jpg",
+      "query": "稻城亚丁景区 稻城",
+      "credit": {
+        "source": "wikimedia",
+        "author": "David.C.LOK",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Daocheng_Yading_scenic_area_gate.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "神山",
+    "高原湖",
+    "5A"
+  ],
+  "popularity": 99,
+  "sources": [
+    {
+      "title": "百度百科·稻城亚丁",
+      "url": "https://baike.baidu.com/item/%E7%A8%BB%E5%9F%8E%E4%BA%9A%E4%B8%81",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-06"
+    }
+  ],
+  "updatedAt": "2026-10-06",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "稻城亚丁景区"
+  },
+  "_geocodeTitle": "稻城亚丁景区",
+  "_geocodeSuspect": false,
+  "district": "513337"
+}
