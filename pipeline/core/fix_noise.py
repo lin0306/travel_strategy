@@ -10,13 +10,24 @@
   ③ 全大写缩写（PSA、UCCA）默认视为合法保留
   ④ 报告每一处删除，便于人工复核
 
-用法： python fix_noise.py <seed文件名，不含.py>
+用法： python -m pipeline.core.fix_noise <seed文件名，不含.py>
+      （必须用 `-m` 从**仓库根**跑：相对 import 要求包上下文，直接
+        `python pipeline/core/fix_noise.py` 会报 "attempted relative import"）
 """
+from __future__ import annotations
+
 import re
 import sys
-from pathlib import Path
 
-SEEDS = Path(r"E:\code\travel_strategy\web\scripts\harvest\seeds")
+from .layout import PIPELINE
+
+#: 采编稿目录。与 `authoring/seed.py:list_seed_ids()` **同一口径**（都从 PIPELINE 根算）——
+#:   本文件在 `pipeline/core/`，`seeds/` 是它的兄弟目录的兄弟，直接 `parent / "seeds"`
+#:   会指向 `pipeline/core/seeds`（不存在）⇒ glob 返回空 ⇒ **静默零操作**。
+#: ★ 2026-10-15 修正：这里原是硬编码绝对路径 `E:\code\travel_strategy\web\scripts\harvest\seeds`，
+#:   ① 暴露本地目录结构，② seeds 早搬到 `pipeline/seeds/` 后该路径**已失效**，
+#:   别人 clone 必然报错。现在一律走 layout 的单一真源。
+SEEDS = PIPELINE / "seeds"
 
 #: 合法英文：这些在中文语境里是有意义的专有名词，不许删
 ALLOW = {
@@ -53,8 +64,18 @@ def clean(text: str) -> tuple[str, int, list[tuple[str, str]]]:
 
 
 def main() -> int:
+    if len(sys.argv) < 2:
+        print(__doc__)
+        return 2
     name = sys.argv[1]
     p = SEEDS / f"{name}.py"
+    if not p.is_file():
+        # ★ 别让 FileNotFoundError 裸崩 —— 列出真实存在的稿子，否则要翻目录树才知道叫什么
+        near = sorted(q.stem for q in SEEDS.glob("*.py"))[:20] if SEEDS.is_dir() else []
+        print(f"❌ 采编稿不存在：{p}")
+        if near:
+            print(f"   现有稿子（前 20 个）：{', '.join(near)}")
+        return 1
     src = p.read_text(encoding="utf-8")
     out, n, removed = clean(src)
     p.write_text(out, encoding="utf-8", newline="\n")
