@@ -8,7 +8,7 @@
 4. **可懒加载**：城市索引与城市详情分离，详情按需 `import()`。
 5. **纯文本化**：仓库里**只存文本**——数据全是 JSON，图片全是外链 URL 字符串，零二进制文件。
 6. **数据独立**：所有内容放在顶层 `data/` 目录，与 `src/` 解耦；新增城市只加文件不改代码。
-7. **把计算搬进构建期**：能预计算的绝不放到运行时。通勤矩阵与行政区划聚合都是这条原则的直接产物 —— 把「46×46 种通勤组合」和「全国区划计数」在构建期算完固化，运行时只做 O(1) 查表。**整个行程规划与三级下钻因此不需要任何后端**（见 09 文档第三节、10 文档第四节）。
+7. **把计算搬进构建期 —— ⚠️ 2026-10-06 起只对区划聚合成立**：行政区划聚合（全国三级区划计数 + 边界）仍在构建期算完固化、运行时 O(1) 查表；**通勤矩阵已移出**（62 城 × 约 1600 对 × 3 方式预存要几百 MB，且快照会失真）⇒ 通勤时长**运行时算**，不进 `data/`。**三级下钻因此仍不需要任何后端**（见 09 文档第三节、10 文档第四节）。
 8. **分清"仓库数据"与"用户产物"**：前者进 `data/` 受版本管理，后者只存 `localStorage`。详见 4·B 节。
 
 ---
@@ -182,6 +182,12 @@ export const PoiSchema = z.object({
   updatedAt: z.string(),
 });
 
+/** ⛔ 以下 Schema 已随 2026-10-06 决策废弃：通勤矩阵不再生成、不再入库。
+ *    通勤时长改由运行时请求图商计算（见 09 文档）。以下保留作历史参考。
+ *    ⚠️ **代码里它们还在**（`schema/schema.ts` 的 `MatrixChannelSchema` /
+ *    `CityTransitMatrixSchema` / `CitySchema.transit`，默认 `null`）——
+ *    那是**尚未拆净的残留**，不是"当前设计"。别照此加字段。 */
+
 /** 通勤矩阵的一个方式通道。定长 4 位 base36 扁平串，按行优先上三角展开：
       idx(i, j) = i × (i − 1) / 2 + j        (i > j)
       读取时对称取值：i > j ? idx(i,j) : idx(j,i)
@@ -249,9 +255,8 @@ export const CitySchema = z.object({
   })),
   pois: z.array(PoiSchema),
 
-  /** ★ 通勤矩阵（见 09 文档 3.2）：构建期预计算，运行时零调用读表。
-      只存「对称上三角」，定长 base36 扁平编码，`0000` = 该方式不适用。
-      公交刻意不在矩阵里 —— 时效性最强且无批量接口，改为运行时按需算。 */
+  /** ⛔ 已废弃（2026-10-06）：通勤矩阵不再生成，运行时改调图商算。
+      `transit` 字段保留在 schema 里只为兼容旧数据，实际恒为 `null`。 */
   transit: CityTransitMatrixSchema,
 
   credits: z.object({                          // 全局版权汇总
@@ -358,7 +363,9 @@ export const CityIndexSchema = z.array(CityIndexItemSchema);
 }
 ```
 
-> 上面 `transit` 的字符串是**截断示意**。真实值是按 `idx(i,j) = i×(i−1)/2 + j` 行优先展开的上三角，每格固定 4 位 base36，`0000` 表示该方式不适用。编解码与读取实现见 [09-itinerary-planner.md](./09-itinerary-planner.md) 3.2.4。**注意矩阵只有 3 条通道**：打车复用 `driving`、公交/地铁不预计算（运行时按需算），六种通行方式到三条通道的映射见 09 文档 3.2.1。
+> ⛔ 上面的 `transit` 结构是**已废弃的样例**（2026-10-06 起不再生成，新城市的该字段恒为 `null`）。
+> 编解码规则（`idx(i,j) = i×(i−1)/2 + j` 上三角、每格 4 位 base36、`0000` = 不适用）与通道映射保留在
+> [09-itinerary-planner.md](./09-itinerary-planner.md) 3.2，仅供理解旧数据。
 
 ---
 
@@ -368,7 +375,7 @@ export const CityIndexSchema = z.array(CityIndexItemSchema);
 |------|------|---------|---------|
 | 城市索引 | `data/cities.index.json` | 预渲染 loader 直读；客户端按需 | ≤ 20KB；每城只存封面 + 计数 |
 | 城市详情 | `data/cities/{id}.json` | 预渲染 loader 直读（构建期）；客户端 code-split 懒加载 | 单城 ≤ 300KB gzip |
-| **通勤矩阵** `transit` | 内嵌在城市详情 JSON 里（**不单独分文件**） | 与城市数据同一次加载 | 46 个 POI 上三角 × 3 方式 × 2 通道 ≈ **25KB 原始 / 约 9KB gzip**（见 09 文档 3.2.4） |
+| ~~**通勤矩阵** `transit`~~ | ⛔ **已废弃** —— 不再生成、不再入库（改运行时算） | —— | —— |
 | 图片 | **外链 URL**（JSON 里的字符串） | 列表 `loading=lazy`，详情才加载大图 | 用宽度参数取合适尺寸（列表 400w / 详情 1080w） |
 
 ### 4.1 自动注册：新增城市不改一行代码
@@ -433,7 +440,8 @@ export default {
 
 | 数据 | 存放位置 | 理由 |
 |------|---------|------|
-| `CitySchema` / `PoiSchema` / **`transit` 矩阵** | **进仓库**（`data/cities/{id}.json`） | 构建期生成，与用户无关，是全站公共资产 |
+| `CitySchema` / `PoiSchema` | **进仓库**（`data/cities/{id}.json`） | 构建期生成，与用户无关，是全站公共资产 |
+| ~~`transit` 矩阵~~ | ⛔ **已废弃** —— 不进仓库（运行时算） | —— |
 | `Stay`（住宿段） | `localStorage` | 用户的个人选择 —— 他住哪个酒店只对他自己有意义 |
 | `ItineraryDay` / `DayItem` | `localStorage` | 行程是用户产物，且纯静态站无后端 |
 | `legCache`（实时通勤结果） | `localStorage`（上限 300 条 + LRU） | 缓存，可丢。微信 WebView 配额更严（见 08 文档 6.3） |
@@ -459,7 +467,8 @@ export const DayItemSchema = z.object({
   poiId: z.string(),
   dwellMinutes: z.number().int().min(5),           // 停留时长，用户可改
   /** ★ 到下一站的通行方式 —— 六选一（与 09 文档 TravelMode 一致）。
-      打车与公交/地铁不查预计算矩阵，而是按需实时算（见 09 文档 3.2.1） */
+      ⚠️ 2026-10-06 起**六种方式都在运行时算**（矩阵已取消）；打车复用驾车通道，
+      公交/地铁走 transit 接口（见 09 文档 3.2.1） */
   modeToNext: z.enum([
     'driving', 'taxi', 'transit', 'subway', 'bicycling', 'walking',
   ]).optional(),
@@ -492,8 +501,8 @@ export const ItineraryDaySchema = z.object({
 | 来源 | ≥1 条、`url` 可访问（HEAD 200）、`fetchedAt` 存在 | 阻断 |
 | 时效性 | 含价格/营业时间的字段必须带"约/起/以官方为准"兜底 | 告警 |
 | 合规 | 描述中不含军事禁区、敏感坐标等 | 阻断 + 人工复核 |
-| **通勤矩阵** | `poiIndex` 与 `pois` 的 id 集合**完全一致且顺序一致**；`distance` / `duration` 长度 = `n(n−1)/2 × 4`；**驾车覆盖率 > 95%**；`duration` 不得为 0；`distance / 直线距离` 的比值落在 **1.0–3.0** 区间（越界说明坐标或接口有问题） | 阻断 |
-| **矩阵时间戳** | `generatedAt` 必须存在且为合法日期 | 阻断（缺了就无法如实告知"时长是快照"） |
+| ~~**通勤矩阵**~~ | ⛔ 已废弃（不生成，验收项作废） |
+| ~~**矩阵时间戳**~~ | ⛔ 已废弃（无矩阵即无 `generatedAt`） |
 
 ---
 

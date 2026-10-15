@@ -92,7 +92,7 @@ travel_strategy/
 │  ├─ README.md           ★ 新增：跑法与产出说明
 │  ├─ requirements.txt
 │  ├─ run.py              ← 入口：usage | pipeline | geocode | images | transit | district | build
-│  ├─ seedlib.py  seed*.py  step3_geocode.py  step4_images.py  step6_transit.py  step7_district.py
+│  ├─ seedlib.py  seed*.py  step3_geocode.py  step4_images.py  step7_district.py  ← step6_transit.py 已废弃（通勤改运行时算，不许跑）
 │  ├─ step8_search_index.py   ★ 新增：生成搜索索引（见第六节）
 │  ├─ layout.py  build.py  tmap.py  images.py  fetch.py  citymeta.py  env.py  fix_noise.py
 │  └─ .cache/             （git 忽略）
