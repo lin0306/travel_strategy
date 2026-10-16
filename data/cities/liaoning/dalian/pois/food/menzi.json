@@ -1,113 +1,113 @@
 {
-  "id":"menzi",
-  "name":"焖子",
-  "category":"food",
-  "subtype":"snack",
-  "summary":"大连独有小吃，凉粉块油煎，浇蒜汁芝麻酱。",
-  "description":"焖子是大连独有的小吃，用红薯淀粉做成块，再油煎，外焦里糯。浇蒜汁、芝麻酱、酱油，咸香。街边摊与夜市都有，几块钱一份。是大连味道的名片。几个看点：大连独有，红薯淀粉块油煎；外焦里糯，浇蒜汁芝麻酱；街边夜市几块钱一份。",
-  "highlights":[
+  "id": "menzi",
+  "name": "焖子",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "大连独有小吃，凉粉块油煎，浇蒜汁芝麻酱。",
+  "description": "焖子是大连独有的小吃，用红薯淀粉做成块，再油煎，外焦里糯。浇蒜汁、芝麻酱、酱油，咸香。街边摊与夜市都有，几块钱一份。是大连味道的名片。几个看点：大连独有，红薯淀粉块油煎；外焦里糯，浇蒜汁芝麻酱；街边夜市几块钱一份。",
+  "highlights": [
     "大连独有，红薯淀粉块油煎",
     "外焦里糯，浇蒜汁芝麻酱",
     "街边夜市几块钱一份"
   ],
-  "location":{
-    "point":{
-      "lng":121.588882,
-      "lat":38.988478,
-      "coordSystem":"GCJ-02"
+  "location": {
+    "point": {
+      "lng": 121.588882,
+      "lat": 38.988478,
+      "coordSystem": "GCJ-02"
     },
-    "address":"辽宁省大连市西岗区焖子摊",
-    "district":"甘井子区",
-    "transportTip":"街头与夜市均有"
+    "address": "辽宁省大连市西岗区焖子摊",
+    "district": "甘井子区",
+    "transportTip": "街头与夜市均有"
   },
-  "practical":{
-    "openHours":"约10:00-22:00",
-    "openHoursRef":0,
-    "ticket":"便宜（几元到十几元）",
-    "ticketRef":0,
-    "duration":"建议 15-30 分钟",
-    "durationMinutes":[
+  "practical": {
+    "openHours": "约10:00-22:00",
+    "openHoursRef": 0,
+    "ticket": "便宜（几元到十几元）",
+    "ticketRef": 0,
+    "duration": "建议 15-30 分钟",
+    "durationMinutes": [
       15,
       30
     ],
-    "priceLevel":"budget"
+    "priceLevel": "budget"
   },
-  "audience":[
+  "audience": [
     "solo",
     "friends",
     "family"
   ],
-  "accessible":false,
-  "tips":[],
-  "images":[
+  "accessible": false,
+  "tips": [],
+  "images": [
     {
-      "url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Sanxian_Menzi_at_a_Restaurant_in_Dalian_20251122.jpg/1280px-Sanxian_Menzi_at_a_Restaurant_in_Dalian_20251122.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl":"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Sanxian_Menzi_at_a_Restaurant_in_Dalian_20251122.jpg/1280px-Sanxian_Menzi_at_a_Restaurant_in_Dalian_20251122.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width":1080,
-      "height":809,
-      "alt":"Sanxian Menzi at a Restaurant in Dalian 20251122.jpg",
-      "query":"焖子 大连",
-      "credit":{
-        "source":"wikimedia",
-        "author":"JacobLyu",
-        "sourceUrl":"https://commons.wikimedia.org/wiki/File:Sanxian_Menzi_at_a_Restaurant_in_Dalian_20251122.jpg",
-        "license":"CC BY-SA 4.0",
-        "attributionRequired":true
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Sanxian_Menzi_at_a_Restaurant_in_Dalian_20251122.jpg/1280px-Sanxian_Menzi_at_a_Restaurant_in_Dalian_20251122.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Sanxian_Menzi_at_a_Restaurant_in_Dalian_20251122.jpg/1280px-Sanxian_Menzi_at_a_Restaurant_in_Dalian_20251122.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 809,
+      "alt": "Sanxian Menzi at a Restaurant in Dalian 20251122.jpg",
+      "query": "焖子 大连",
+      "credit": {
+        "source": "wikimedia",
+        "author": "JacobLyu",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sanxian_Menzi_at_a_Restaurant_in_Dalian_20251122.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
       }
     },
     {
-      "url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/%E5%A4%A7%E8%BF%9E%E7%84%96%E5%AD%90_2014-01-19.JPG/1280px-%E5%A4%A7%E8%BF%9E%E7%84%96%E5%AD%90_2014-01-19.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl":"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/%E5%A4%A7%E8%BF%9E%E7%84%96%E5%AD%90_2014-01-19.JPG/1280px-%E5%A4%A7%E8%BF%9E%E7%84%96%E5%AD%90_2014-01-19.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width":1080,
-      "height":1080,
-      "alt":"大连焖子 2014-01-19.JPG",
-      "query":"焖子 大连",
-      "credit":{
-        "source":"wikimedia",
-        "author":"User:阴阳权政",
-        "sourceUrl":"https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E7%84%96%E5%AD%90_2014-01-19.JPG",
-        "license":"CC0",
-        "attributionRequired":false
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/%E5%A4%A7%E8%BF%9E%E7%84%96%E5%AD%90_2014-01-19.JPG/1280px-%E5%A4%A7%E8%BF%9E%E7%84%96%E5%AD%90_2014-01-19.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/%E5%A4%A7%E8%BF%9E%E7%84%96%E5%AD%90_2014-01-19.JPG/1280px-%E5%A4%A7%E8%BF%9E%E7%84%96%E5%AD%90_2014-01-19.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1080,
+      "alt": "大连焖子 2014-01-19.JPG",
+      "query": "焖子 大连",
+      "credit": {
+        "source": "wikimedia",
+        "author": "User:阴阳权政",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E7%84%96%E5%AD%90_2014-01-19.JPG",
+        "license": "CC0",
+        "attributionRequired": false
       }
     },
     {
-      "url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Dalian_Menzi.JPG/1280px-Dalian_Menzi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl":"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Dalian_Menzi.JPG/1280px-Dalian_Menzi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width":1080,
-      "height":764,
-      "alt":"Dalian Menzi.JPG",
-      "query":"焖子",
-      "credit":{
-        "source":"wikimedia",
-        "author":"JesseW900",
-        "sourceUrl":"https://commons.wikimedia.org/wiki/File:Dalian_Menzi.JPG",
-        "license":"CC BY-SA 4.0",
-        "attributionRequired":true
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Dalian_Menzi.JPG/1280px-Dalian_Menzi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Dalian_Menzi.JPG/1280px-Dalian_Menzi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 764,
+      "alt": "Dalian Menzi.JPG",
+      "query": "焖子",
+      "credit": {
+        "source": "wikimedia",
+        "author": "JesseW900",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dalian_Menzi.JPG",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
       }
     }
   ],
-  "coverIndex":0,
-  "tags":[
+  "coverIndex": 0,
+  "tags": [
     "小吃",
     "焖子",
     "大连"
   ],
-  "popularity":66,
-  "sources":[
+  "popularity": 66,
+  "sources": [
     {
-      "title":"百度百科·焖子",
-      "url":"https://baike.baidu.com/item/%E7%84%96%E5%AD%90",
-      "kind":"wiki",
-      "fetchedAt":"2026-10-01"
+      "title": "百度百科·焖子",
+      "url": "https://baike.baidu.com/item/%E7%84%96%E5%AD%90",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt":"2026-10-01",
-  "_geocoded":true,
-  "_imageQuery":{
-    "en":"",
-    "zh":"焖子"
+  "updatedAt": "2026-10-16",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "焖子"
   },
-  "_geocodeTitle":"宝哥焖子华南广场店",
-  "_geocodeSuspect":false,
-  "district":"210211"
+  "_geocodeTitle": "宝哥焖子华南广场店",
+  "_geocodeSuspect": false,
+  "district": "210211"
 }

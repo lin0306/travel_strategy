@@ -208,6 +208,31 @@ def check_city(slug: str, city_id: str, city: dict) -> list[Issue]:
 
 # ── ③ 生成派生产物 ────────────────────────────────────────────────
 
+def _latest_updated(city: dict) -> str | None:
+    """这座城**真实**的最后更新日期 = `city.json` 与全部 POI 里最新的那个。
+
+    ★ 为什么不能只读 `city.updatedAt`（2026-10-16 修）：
+      那个字段只在**重写采编稿**（`seed.py` 跑一遍）时更新；而采集侧的其它步骤
+      ——`geocode` 补坐标、`step3b_entrance` 补入口、`step4_images` 换图 ——
+      改的都是 `pois/**/*.json`，**一个都不碰 `city.updatedAt`**。
+      ⇒ 实测 4731 个 POI 在 10-10 之后全部被刷新（入口坐标那批），
+      而索引对外仍报「更新至 2026-10-07」—— 比不说日期更糟，会让人以为没人维护。
+
+    ⇒ 取全城 `updatedAt` 的最大值。日期串是 `YYYY-MM-DD`，**字典序即时间序**，
+      所以直接比较即可，不必解析成 date（少一个抛异常的地方）。
+
+    ★★ **刻意不用文件 mtime 兜底**（想过、否决了）：
+      mtime 在 `git clone` / 重新 checkout 之后一律变成**检出时间** ——
+      那样所有人 clone 出来的站都会显示"今天刚更新"，比报旧日期更假。
+    ★ 所以责任在**采集侧**：谁改业务字段谁同步 `poi.updatedAt`
+      （`step3b_entrance` 已在 2026-10-16 补上）。本函数只负责**汇总**，不负责推断。
+    """
+    dates = [city.get("updatedAt")]
+    dates += [p.get("updatedAt") for p in (city.get("pois") or [])]
+    valid = [d for d in dates if d]
+    return max(valid) if valid else None
+
+
 def build_index(cities: list[dict]) -> list[dict]:
     """cities.index.json —— 首页列表 + 下钻计数。★ 只含**已收录**城市。
 
@@ -233,7 +258,12 @@ def build_index(cities: list[dict]) -> list[dict]:
             "poiCount": len(c.get("pois", [])),
             "adcode": c.get("adcode"),                 # ★ 下钻靠它把"市的计数"接到详情数据
             "provinceAdcode": c.get("provinceAdcode"),
-            "updatedAt": c.get("updatedAt"),
+            # ★★ 取「city.json + 全部 POI」里**最新的那个日期**（2026-10-16 修）。
+            #   原来只取 `city.updatedAt` —— 那个字段**只有重写采编稿（seed.py）时才动**，
+            #   而 geocode / entrance / images 这些步骤改的是 POI 文件、不碰它。
+            #   ⇒ 4731 个 POI 的入口坐标在 10-10 之后全部刷新过，索引却仍报「更新至 10-07」。
+            #   对外说一个偏旧的日期，比不说更糟：它会让人以为数据没在维护。
+            "updatedAt": _latest_updated(c),
         })
     # 按名称排序 —— 与前端 `deriveIndexItem` 兜底路径的排序保持一致，
     # 免得"有索引文件"和"没索引文件"两种情况下首页顺序不一样。
@@ -359,11 +389,9 @@ def build_search_index(cities: list[dict]) -> dict:
             c = prov.get("center") or {}
             prov_name = prov.get("name")
             child_rows: list[dict] = []
-            child_hits: list[tuple[str | None, int | None]] = []
             for child in prov.get("children", []):
                 cc = child.get("center") or {}
                 city_id, n = lookup(child.get("adcode"), prov_name, child.get("name"))
-                child_hits.append((city_id, n))
                 child_rows.append({
                     "adcode": child.get("adcode"),
                     "name": child.get("name"),
@@ -379,6 +407,22 @@ def build_search_index(cities: list[dict]) -> dict:
             #   它的景点不在"下辖区"里 —— 只加下辖会得到 null，
             #   于是"北京已收录 57 个"变成"未收录"
             own_id, own_n = lookup(prov.get("adcode"), None, prov_name)
+            # ★★ **同一个 adcode 只能算一次**（2026-10-16 修，实测每个直辖市多算一倍）。
+            #   直辖市在 `district-tree.json` 里**既作省节点、又有一个与它同名的子节点**
+            #   （北京 110000 的 children 里就有一个叫"北京"的）—— `by_adcode` 把两者
+            #   都解析成同一个 `(cityId, 57)`，直接相加 ⇒「北京 114 个」，而索引里是 57。
+            #   ⇒ 省级这一层只保留"自己 + **adcode 不同**的下辖"，重名的那个下辖正是本体。
+            child_hits_dedup: list[tuple[str | None, int | None]] = []
+            seen_adcodes: set[str] = set()
+            if prov.get("adcode"):
+                seen_adcodes.add(str(prov["adcode"]))
+            for child in prov.get("children", []):
+                # 同 adcode ⇒ 就是省级自己（直辖市/特别行政区的镜像节点），不重复计
+                if child.get("adcode") and str(child["adcode"]) in seen_adcodes:
+                    continue
+                child_hits_dedup.append(
+                    lookup(child.get("adcode"), prov_name, child.get("name"))
+                )
             regions.append({
                 "adcode": prov.get("adcode"),
                 "name": prov_name,
@@ -386,7 +430,7 @@ def build_search_index(cities: list[dict]) -> dict:
                 "lng": c.get("lng"),
                 "lat": c.get("lat"),
                 "cityId": own_id,
-                "poiCount": collect_count([(own_id, own_n)] + child_hits),
+                "poiCount": collect_count([(own_id, own_n)] + child_hits_dedup),
             })
             regions.extend(child_rows)
 
@@ -580,12 +624,19 @@ def sync_district_tree() -> int:
             n_flat += 1
         # ★ 直辖市 / 特别行政区：省节点自身就是市（北京 110000、香港 810000），
         #   它的景点不在"下辖区"里 —— 只扫 children 会得到"未收录"
+        # ★★ 直辖市 / 特别行政区要**按 adcode 去重**（2026-10-16 修，与 `_regions()` 同源）：
+        #    它们的树结构里有一个与省**同 adcode**的同名子节点（北京 110000 的 children 里
+        #    就有"北京"）⇒ own 与该子节点解析出同一笔，`sum(counts)` 会**翻倍**（57 → 114）。
+        #    而 `cityId`/`cityCount` 不受影响（那两项本来就该去重，`if cid` 已天然只算一次）。
+        own_adcode = str(prov.get("adcode") or "")
+        counted_adcodes: set[str] = set()
         own_id, own_n = lookup(prov.get("adcode"), None, prov.get("name"))
         if own_id:
             prov["cityId"] = own_id
             n_city += 1
             matched += 1
             counts.append(own_n)
+            counted_adcodes.add(own_adcode)
         prov["level"] = "province"
 
         for child in prov.get("children") or []:
@@ -601,7 +652,10 @@ def sync_district_tree() -> int:
                 n_city += 1
                 matched += 1
                 matched_adcodes.add(str(child.get("adcode")))
-                counts.append(n)
+                # ★ 与省自身同 adcode ⇒ 就是本体镜像，不重复计入合计
+                if str(child.get("adcode") or "") not in counted_adcodes:
+                    counts.append(n)
+                    counted_adcodes.add(str(child.get("adcode")))
 
         prov["cityCount"] = n_city
         prov["poiCount"] = sum(counts)

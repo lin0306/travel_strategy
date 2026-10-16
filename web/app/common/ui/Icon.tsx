@@ -52,6 +52,8 @@ export type IconName =
   | 'bicycling'
   | 'walking'
   | 'image'
+  | 'github'
+  | 'star'
 
 const PATHS: Record<IconName, string> = {
   // ⚠️ 圆点用两段弧凑整圆（`a…Z`），不要写 `a1.5 1.5 0 1 0 0 .01` ——
@@ -95,7 +97,33 @@ const PATHS: Record<IconName, string> = {
   bicycling: 'M6 20a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z|M18 20a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z|M6 16l4-7h5l3 7|M9.5 9H14',
   walking: 'M13 6.1a1.6 1.6 0 1 0 0-3.2 1.6 1.6 0 0 0 0 3.2Z|M12 8l-2.5 4.5L11 17l1 4|M12 8l3 2.5.5 4|M9.5 12.5L6 14',
   image: 'M4 5.5h16v13H4z|M4 15l5-4 4 3.5 3-2.5 4 3.5|M9.5 9.5h.01',
+  /**
+   * GitHub 的**标准 mark（Octocat 猫头）**。
+   *
+   * ★ 为什么必须是原版、不能自己简化（2026-10-16 用户报「你没用标准的图标」）：
+   *   GitHub 的 fill 是**商标**，简化版（尤其把尾巴画成圆弧、耳朵画成三角）一眼就是"山寨图标"，
+   *   在开源项目自己的界面上放山寨 GitHub 标记，是最不该出现的那类不一致。
+   *   ⇒ 路径取官方 mark-github（MIT / GitHub Logo 许可），只做一件事：
+   *     **去掉 viewBox 外的留白并缩到 0~24 的方形**，好让整套图标共用 24×24 网格。
+   *
+   * ⚠️ 官方原版是**实心**路径，而本 sprite 统一 `fill="none" stroke="currentColor"`
+   *    （见下方 `IconSprite` 的注释）—— 只描边会把猫头画成一个空心轮廓，辨识度掉一半。
+   *    ⇒ 这个图标必须**例外**：`Icon` 对 `github` 单独走 `fill`（见下方 `FILL_ICONS`）。
+   *    写在这里是为了让下一个人知道"这个不一致是刻意的"，别顺手改回去。
+   */
+  github:
+    'M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.77-.24.77-.54v-2.1c-3.12.68-3.78-1.3-3.78-1.3-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.68.08-.68 1.13.08 1.72 1.16 1.72 1.16 1 1.72 2.64 1.22 3.29.94.1-.73.39-1.22.71-1.5-2.49-.28-5.11-1.25-5.11-5.56 0-1.23.44-2.23 1.16-3.02-.12-.28-.5-1.43.11-2.98 0 0 .95-.3 3.1 1.15a10.8 10.8 0 0 1 5.65 0c2.15-1.45 3.1-1.15 3.1-1.15.61 1.55.23 2.7.11 2.98.72.79 1.16 1.79 1.16 3.02 0 4.32-2.63 5.27-5.13 5.55.4.35.76 1.03.76 2.08v3.09c0 .3.2.65.78.54A11.2 11.2 0 0 0 12 .8Z',
+  star: 'M12 3.6l2.5 5.3 5.7.8-4.1 4.1 1 5.8-5.1-2.8-5.1 2.8 1-5.8-4.1-4.1 5.7-.8Z',
 }
+
+/**
+ * ★ 唯一几个必须**实心**的图标（`FILL_ICONS`）。
+ *
+ * sprite 统一 `fill="none" stroke="currentColor"` —— 线条图标这样最省事，
+ * 但**品牌 mark 是实心的**：描边版 GitHub 猫头会变成空心轮廓，一眼山寨。
+ * ⇒ 这几个走 `fill="currentColor" stroke="none"`，颜色仍由 CSS 决定。
+ */
+const FILL_ICONS = new Set(['github'])
 
 /**
  * sprite —— 每个图标 body 只写一次。
@@ -128,15 +156,17 @@ const SIZE: Record<NonNullable<IconProps['size']>, number> = { sm: 14, md: 16, l
 
 export function Icon({ name, size = 'md', className }: IconProps) {
   const px = SIZE[size]
+  // ★ 品牌 mark 走实心（见 FILL_ICONS）：统一描边会把 GitHub 猫头画成空心轮廓，一眼山寨。
+  const solid = FILL_ICONS.has(name)
   return (
     <svg
       className={className}
       width={px}
       height={px}
       viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth={1.8}
+      fill={solid ? 'currentColor' : 'none'}
+      stroke={solid ? 'none' : 'currentColor'}
+      strokeWidth={solid ? undefined : 1.8}
       strokeLinecap="round"
       strokeLinejoin="round"
       aria-hidden="true"

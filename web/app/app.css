@@ -56,7 +56,7 @@
      两态共用一块浮层，宽度一变就是一次跳动，看起来像"面板被重建了" */
   --panel-plan: 420px;
 
-  --flt-inset: 16px;
+  --flt-inset: 12px;
   --flt-gap: 12px;
   --flt-radius: 12px;
   --flt-shadow: 0 6px 20px rgba(16, 24, 40, 0.13);
@@ -120,6 +120,62 @@ p {
 }
 .scroll::-webkit-scrollbar-track {
   background: transparent;
+}
+
+/* 图片加载骨架（2026-10-16 二版）—— 外链图慢，占位必须**一眼可见**。
+ *
+ * ## 模型：骨架是**容器的底**，不是"会卸载的一层"
+ * 第一版骨架是独立 div、靠 React 状态卸载 —— 两个真 bug 都出在这个模型上：
+ *   ① `img.complete === true` **包括加载失败**（失败时 naturalWidth === 0）——
+ *      把 complete 当"成功"⇒ 失败时骨架卸载、opacity-0 的图被放开
+ *      （里面是浏览器的破图图标）⇒ 用户看到的是「白板 + 破图」；
+ *   ② `::after` 扫光绘制在 `<img>` **之上**（伪元素是最后一个子盒）——
+ *      缩略图加载完了扫光还在图面上扫 ⇒「加载完了都不消失」。
+ * ⇒ 修法（本版）：底色/扫光**常驻容器**，图靠 z-index 浮在上面 ——
+ *   加载完成 = 图**盖住**底，不依赖任何 JS 卸载；失败 = 停扫光、底色与图标留下。
+ *
+ * ## 用法
+ *   容器挂 `.img-skeleton`；**直接子级 `<img>` 自动被垫到扫光之上**（见下）。
+ *   加载失败给容器追加 `.img-failed`（停扫光；底色与"暂无图"图标保留）。
+ */
+.img-skeleton {
+  position: relative;
+  overflow: hidden;
+  background: var(--color-line);
+}
+.img-skeleton::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.65) 50%,
+    transparent 100%
+  );
+  animation: img-shimmer 1.5s ease-in-out infinite;
+}
+/* ★ 图必须盖住扫光与底色：伪元素是容器**最后一个**子盒、默认画在 img 之上 ——
+ *   不垫高的话扫光永远在图面上跑（第一版缩略图的「不消失」就是它）。 */
+.img-skeleton > img {
+  position: relative;
+  z-index: 1;
+}
+/* 失败态：停扫光（底色 + 图标保留 —— 底色就是"背景占位"，不许露白板） */
+.img-skeleton.img-failed::after {
+  display: none;
+}
+@keyframes img-shimmer {
+  to {
+    transform: translateX(100%);
+  }
+}
+/* 无障碍：用户开了"减少动态效果"就退成静底色（动画本身无信息量） */
+@media (prefers-reduced-motion: reduce) {
+  .img-skeleton::after {
+    animation: none;
+  }
 }
 
 /* ────────────────────────────────────────────────
@@ -267,7 +323,7 @@ p {
 /* 断点只改浮层尺寸，不改布局模型 */
 @media (min-width: 640px) {
   :root {
-    --flt-inset: 16px;
+    --flt-inset: 12px;
   }
 }
 

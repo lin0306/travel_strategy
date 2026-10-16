@@ -33,9 +33,10 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { Icon } from '~/common/ui/Icon'
 import { useSearch } from '~/common/logic/useSearch'
 
-/** 面板最矮也要能显示 3 行，最高不超过视口六成（顶栏下面还要看得见地图） */
+/** 面板最矮也要能显示 3 行，最高不超过视口六成（顶栏下面还要看得见地图）。
+ *  ★ `.scroll`：结果多时出滚动条，统一 6px 细条（不挂就是浏览器默认粗滚动条） */
 const PANEL_CLASS =
-  'absolute top-[calc(100%+6px)] left-0 z-40 max-h-[60vh] w-full overflow-y-auto rounded-xl border border-line bg-surface py-1 shadow-[0_12px_36px_rgba(16,24,40,.16)]'
+  'scroll absolute top-[calc(100%+6px)] left-0 z-40 max-h-[60vh] w-full overflow-y-auto rounded-xl border border-line bg-surface py-1 shadow-[0_12px_36px_rgba(16,24,40,.16)]'
 
 export function SearchBox() {
   const { query, setQuery, results, flat, active, setActive, status, pick, reset } = useSearch()

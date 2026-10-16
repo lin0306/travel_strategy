@@ -7,13 +7,15 @@
  * 挤在 360px 的面板宽度里**折成三行**，而它想说的"点地图上任意位置"指的是**整张地图**。
  * ⇒ 挂在 `routes/map-shell.tsx`（和 `PlanToast` 同一档），定位基准才是屏幕。
  *
- * ## 为什么不带 `data-overlay`
- * 它是一次交互的瞬时提示，不是面板。带上的话 `fitView` 的浮层实测会把它算进
- * "地图可用区"，地图会为一条几秒后就消失的提示白让一块位置。
+ * ## ★ 版式已统一到 `ToastBar`（2026-10-16）
+ * 它与「加进行程」的提示现在共用同一个组件与同一个位置（顶端居中）——
+ * 用户报「提示到处挂，没统一」并选了全部上顶部。
+ * ⇒ 这里只剩**内容**这一个自由度：这是一条**引导**（告诉用户下一步怎么做），
+ *   所以没有「打开」那类动作，只有一个「退出」。
  */
 
 import { usePlanUi } from '~/common/logic/itinerary/planUi'
-import { Icon } from '~/common/ui/Icon'
+import { ToastBar } from '~/common/ui/ToastBar'
 
 export function PickingHint() {
   const picking = usePlanUi((s) => s.picking)
@@ -22,20 +24,13 @@ export function PickingHint() {
   if (!picking) return null
 
   return (
-    <div
-      role="status"
-      className="flt flt-in absolute left-1/2 z-[25] flex -translate-x-1/2 items-center gap-2 px-3 py-1.5 whitespace-nowrap"
-      style={{ top: 'var(--rail-top)' }}
+    <ToastBar
+      kind="info"
+      onClose={stopPicking}
+      closeLabel="退出取点模式"
+      action={{ label: '退出（Esc）', onClick: stopPicking }}
     >
-      <Icon name="locate" size="sm" className="text-primary" />
-      <span className="text-[12.5px]">点地图上任意位置，把它加进这个组</span>
-      <button
-        type="button"
-        onClick={stopPicking}
-        className="ml-1 rounded-md px-1.5 py-0.5 text-[11.5px] text-ink-2 hover:bg-line-2 hover:text-ink"
-      >
-        退出（Esc）
-      </button>
-    </div>
+      点地图上任意位置，把它加进这个组
+    </ToastBar>
   )
 }

@@ -35,6 +35,7 @@ import { usePlanUi } from '~/common/logic/itinerary/planUi'
 import { useCityNames } from '~/common/logic/useCityNames'
 import { addStopToPlan } from '~/common/logic/useAddToPlan'
 import { Icon } from '~/common/ui/Icon'
+import { ModalScrim } from '~/common/ui/ModalScrim'
 import { DraftRow } from '~/common/ui/plan/PlanRow'
 import { useDismiss } from '~/common/ui/useDismiss'
 
@@ -136,8 +137,11 @@ function PickerBody({ stop }: { stop: NewStop }) {
   }
 
   return (
-    /* 点外面关闭由 `useDismiss` 挂在下面这块面板上；外层只负责居中，不拦事件 */
-    <div className="pointer-events-none absolute inset-0 z-[28] flex items-center justify-center">
+    /* 点外面关闭由 `useDismiss` 挂在下面这块面板上；外层只负责居中，不拦事件。
+       ★ 2026-10-16：底板换成 `ModalScrim`，**有遮罩**了。之前是
+         `pointer-events-none` 的透明层 —— 但它问的是"加到哪个组"，
+         是个必须先回答的问题，屏幕上却没有任何"注意力被收拢"的暗示。 */
+    <ModalScrim>
       <div
         ref={wrapRef}
         role="dialog"
@@ -165,7 +169,7 @@ function PickerBody({ stop }: { stop: NewStop }) {
             之后你可以把别的景点、地图取点也加进来。
           </p>
         ) : (
-          <ul className="m-0 max-h-[46vh] list-none overflow-auto p-0">
+          <ul className="scroll m-0 max-h-[46vh] list-none overflow-auto p-0">
             {candidates.map((p) => {
               const open = expandedId === p.id
               return (
@@ -265,6 +269,6 @@ function PickerBody({ stop }: { stop: NewStop }) {
           </p>
         </div>
       </div>
-    </div>
+    </ModalScrim>
   )
 }

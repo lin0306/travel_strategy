@@ -118,6 +118,42 @@ def prel(name: str) -> str:
     """pipeline 模块名 → 相对仓库根的路径字符串（给报错文案用，避免两处写法漂移）。"""
     return 'pipeline/' + PIPELINE_MODULES[name]
 
+
+def _balanced_paren_block(src: str, name: str) -> str | None:
+    """从 `name = (` 起手，**数括号直到配平**，返回整个赋值块的内容。
+
+    ★★ 为什么不能用 `re.search(rf'{name}\\s*=\\s*\\((.*?)\\)', src, re.S)`：
+    非贪婪匹配会在**第一个** `)` 处截断，而 `fetch.py` 的 UA 字面量里自带右括号 ——
+    `"(KHTML, like Gecko) Chrome/126.0.0.0"`。用它只会截到
+    `"Mozilla/5.0 (Windows NT 10.0; Win64; x64"`，
+    真正要查的采集标识全在截断点之后 ⇒ **判据永远抓不到**（形同虚设）。
+    （真实案例：AS 项反证时把 `TravelStrategy-Harvest/1.0` 加回 fetch.py，
+    护栏依然 ALL_CLEAN。）
+    ⇒ 这里手写括号配平，遇到字符串字面量里的括号要跳过。
+    """
+    m = re.search(rf'^{re.escape(name)}\s*=\s*\(', src, re.M)
+    if not m:
+        return None
+    depth = 1
+    i = m.end()
+    quote: str | None = None
+    while i < len(src):
+        ch = src[i]
+        if quote:
+            # 字符串字面量内部：只认同种引号的闭合（不处理转义 —— UA 里没有转义）
+            if ch == quote:
+                quote = None
+        elif ch in ('"', "'"):
+            quote = ch
+        elif ch == '(':
+            depth += 1
+        elif ch == ')':
+            depth -= 1
+            if depth == 0:
+                return src[m.end():i]
+        i += 1
+    return None
+
 #: 🚨 边界数据**唯一**允许的来源主机 —— 持牌图商 / 官方平台（数据过审图）。
 #: 加入新图商前先确认它在 plans/10 §9 的允许清单里（腾讯 / 高德 / 百度 / 天地图）。
 #: **第三方数据集（Natural Earth / GADM / geoBoundaries / 各种开源 GeoJSON）一律不在列**
@@ -1123,6 +1159,13 @@ def check_env_files() -> None:
 # 这类"看不见的层"没法靠肉眼发现，所以固化成检查：
 #   ① `.map-layer` 必须建立层叠上下文（z-index 数值 或 isolation:isolate）
 #   ② 每个浮层根必须自带正 z-index，否则地图层一旦拿到 0 就会被盖住
+#
+# ★ `min_count` 从 5 降到 4（2026-10-16）
+#   `StayPicker` 的遮罩原先**误挂** `data-overlay`，凑够了这个下限。
+#   2026-10-16 统一遮罩时把它摘掉了 —— 遮罩是**临时遮挡**（开着时用户在那块弹窗里，
+#   不在看地图），参与 `fitView` 的"地图可用区"实测只会让下一次 `fit` 把点位挤到一侧。
+#   ⇒ 样本从 5 个文件降到 4 个，这是**修正**而非退化，故同步下调下限。
+#   真正的护栏在下面：一旦再有浮层漏掉正 z-index，照样会被逐个报出来。
 
 MAP_LAYER_RE = re.compile(r'\.map-layer\s*\{([^}]*)\}', re.S)
 CSS_COMMENT_RE = re.compile(r'/\*.*?\*/', re.S)
@@ -1174,7 +1217,7 @@ def check_overlay_stacking() -> None:
             if v < 1:
                 problems.append(f'{rel} 的 z-index={v} 不是正数，会被地图层盖住')
 
-    check('N. 浮层可命中（地图层是层叠上下文 + 浮层自带正 z-index）', problems, min_count=5, count=hits)
+    check('N. 浮层可命中（地图层是层叠上下文 + 浮层自带正 z-index）', problems, min_count=4, count=hits)
 
 
 # ────────────────────────────────────────────────
@@ -4182,10 +4225,14 @@ def check_four_levels() -> None:
     web_env_f = WEB / '.env.example'
     if web_env_f.exists():
         wt = web_env_f.read_text(encoding='utf-8')
-        for leaked in ('TMAP_WEB_KEY=', 'AMAP_WEB_KEY=', 'UNSPLASH_ACCESS_KEY=', 'PEXELS_API_KEY='):
-            if leaked in wt:
+        # ★ 必须**行首锚定**（2026-10-16 修）：原先用子串 `'TMAP_WEB_KEY=' in wt`，
+        #   而前端那个键叫 `VITE_TMAP_WEB_KEY=` —— **子串正好命中**，整条判据变成永远报错。
+        #   更糟的是它会把人往错的方向引：为了让检查变绿，去删掉一个正确的配置项。
+        #   要禁的是「**裸**采集侧键名」—— `VITE_` 前缀的那把是前端自己的、就该在这儿。
+        for leaked in ('TMAP_WEB_KEY', 'AMAP_WEB_KEY', 'UNSPLASH_ACCESS_KEY', 'PEXELS_API_KEY'):
+            if re.search(rf'^\s*{leaked}\s*=', wt, re.M):
                 problems.append(
-                    f'`web/.env.example` 里出现了采集侧的 `{leaked}` —— 这个文件是 **Vite 的加载面**，'
+                    f'`web/.env.example` 里出现了采集侧的 `{leaked}=` —— 这个文件是 **Vite 的加载面**，'
                     '私密 key 和前端配置住在一起，迟早有人手滑加个 `VITE_` 前缀就把它发到浏览器上。'
                     '采集侧模板归 `pipeline/.env.example`'
                 )
@@ -5792,6 +5839,109 @@ def check_geo_provider() -> None:
     check(label, problems, 5, hits)
 
 
+def check_vendor_risk() -> None:
+    """AS. 图商风控（UA 不许自曝采集身份 · 拦截页必须被识别成"被封"）"""
+    label = ('AS. 图商风控（UA 不许自曝采集身份 · 被封接口要被认出来 · 记账在请求前）')
+    problems: list[str] = []
+    hits = 0
+
+    # ★★ 这条护栏来自一次真实事故：2026-10-16 高德以「流量异常、涉嫌违反服务协议
+    #   4.12.3——禁止爬虫/网络蜘蛛/抓取工具」为由，**封禁了 `v3/place/text` 接口**
+    #   （返回 HTTP 200 + 阿里 `punish` HTML 页，不是 JSON）。诱因之一就是 UA 里
+    #   自曝了 `TravelStrategy-Harvest/1.0` —— 协议禁的正是"抓取工具"，
+    #   而 UA 明写采集器标识等于**把判据递给风控**。
+    #   两个坏后果各有各的隐蔽：① UA 那行看着无害，加回去没人发现；
+    #   ② 拦截页是 HTML，`get_json` 抛 `JSONDecodeError`，**绕过了按 infocode 的
+    #   判死逻辑** ⇒ 接口永远不被标记不可用 ⇒ 每次重跑继续打，越打越像爬虫。
+
+    # ── ① UA 里不许出现自曝采集身份的字样 ──
+    fetch_f = pmod('fetch')
+    if not fetch_f.exists():
+        problems.append('pipeline/core/fetch.py 不存在 —— UA 与拦截页判据都查不了')
+    else:
+        hits += 1
+        src = fetch_f.read_text(encoding='utf-8')
+        #★★ 必须用**括号配对**截取，不能用 `UA\s*=\s*\((.*?)\)`：
+        #   UA 字面量里自带右括号（`... Chrome/126.0.0.0)`），非贪婪匹配会在
+        #   **第一个** `)` 处截断，只抓到 `"Mozilla/5.0 (Windows NT 10.0; Win64; x64"` ——
+        #   采集标识全在截断点之后，判据于是永远抓不到（反证实测：把
+        #   `TravelStrategy-Harvest/1.0` 加回去，护栏仍然 ALL_CLEAN）。
+        # ⇒ 从 `UA = (` 起手，一路**数括号**直到配平，才算整个赋值块。
+        ua_blob = _balanced_paren_block(src, 'UA')
+        if not ua_blob:
+            problems.append(
+                'fetch.py 里读不出 `UA = (...)` 的赋值 —— UA 是本条判据的锚点，出处没了'
+            )
+        else:
+            # 采集器/自动化身份标识。判定用「词边界 + 忽略大小写」，
+            # 避免 `robot` 之类误伤正常 UA（浏览器 UA 里没有这些词）。
+            banned = re.findall(
+                r'\b(?:harvest|harvester|crawler|crawling|spider|scraper|scraping'
+                r'|bot|spiderbot|python-requests|scrapy)\b',
+                ua_blob, re.I)
+            if banned:
+                problems.append(
+                    f'UA 里出现了自曝采集身份的字样：{", ".join(sorted(set(banned)))} —— '
+                    '**协议 4.12.3 禁的正是"爬虫/抓取工具"，UA 明写采集器标识等于把判据'
+                    '递给风控**。真实事故：2026-10-16 高德据此封禁了 `v3/place/text`。'
+                    '⇒ UA 就是一个普通浏览器，靠"低频 + 串行 + 带 Referer"合规，不靠伪装'
+                )
+
+        # ── ② 风控拦截页必须被识别成一种独立结局 ──
+        # ★ 判据方向：异常类定义在 `get_json()` **之后**（异常一般后置），
+        #   所以要看的是「定义之后还有没有 `raise BlockedByVendor`」，
+        #   不是定义之前 —— 之前那段是 `get_bytes`，压根不该引用它。
+        if 'class BlockedByVendor' not in src:
+            problems.append(
+                'fetch.py 里没有 `BlockedByVendor` —— 被封接口返回的是 **HTTP 200 + HTML**，'
+                '没有它就会被当成 `JSONDecodeError`（"格式坏了"），'
+                '**完全绕过按 infocode 的判死逻辑** ⇒ 接口永不被标记不可用，'
+                '每次重跑继续打被封接口，越打越像爬虫'
+            )
+        elif 'raise BlockedByVendor' not in src.split('class BlockedByVendor', 1)[1]:
+            problems.append(
+                '`BlockedByVendor` 定义了但**没有任何地方 `raise` 它** —— '
+                '拦截页识别没接上（定义等于没写）'
+            )
+        elif not re.search(r'x5secdata', src):
+            problems.append(
+                '`get_json()` 的拦截页判据里没有 `x5secdata` —— '
+                '阿里风控页的稳定特征是 `x5secdata` cookie 清零，'
+                '换判据要连响应特征一起换（实测被封时返回 HTTP 200，不看状态码）'
+            )
+        else:
+            hits += 1
+
+    # ── ③ 记账必须在发请求**之前**（失败/被拒同样计费）──
+    #★ 记在后面 ⇒ 失败请求不记账，`usage` 显示 94 次而实际打了 3547 次，
+    #   看用量做决策的人会被误导（真实失真案例：2026-10-16 封禁复盘）。
+    amap_f = pmod('amap')
+    if amap_f.exists():
+        hits += 1
+        asrc = amap_f.read_text(encoding='utf-8')
+        fn = re.search(r'def poi_entrance\(.*?(?=\ndef |\Z)', asrc, re.S)
+        if fn and 'BlockedByVendor' not in fn.group(0):
+            problems.append(
+                '`amap.poi_entrance()` 没有捕获 `BlockedByVendor` —— '
+                '接口被封时异常会一路冒到脚本顶层，**在第一个 POI 就崩**，'
+                '连"已落盘多少"的小结都打不出来'
+            )
+        elif fn:
+            body = fn.group(0)
+            cu = body.find('count_usage(')
+            gj = body.find('get_json(')
+            if cu == -1 or gj == -1:
+                problems.append('`poi_entrance()` 里读不到 `count_usage` / `get_json` 的调用位置')
+            elif cu > gj:
+                problems.append(
+                    '`poi_entrance()` 把 `count_usage()` 写在 `get_json()` **之后** —— '
+                    '被封/失败的请求同样计费，记在后面等于**失败请求不记账** ⇒ '
+                    '`usage` 显示的数字是失真的（2026-10-16 实测：账本 94 次 vs 实际 3547 次）'
+                )
+
+    check(label, problems, 3, hits)
+
+
 def check_reveal_deep() -> None:
     label = 'AK. 「放大到深处」不许把上层徽标留在屏上（点位不回流 · pending 只挡点位 · 点位分批读）'
     problems: list[str] = []
@@ -6505,6 +6655,7 @@ def main() -> int:
     check_province_tier()
     check_no_face_hover()
     check_seed_imports()
+    check_vendor_risk()
 
     print('')
     for n in notes:

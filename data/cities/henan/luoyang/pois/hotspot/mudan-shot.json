@@ -1,113 +1,113 @@
 {
-  "id":"mudan-shot",
-  "name":"牡丹赏花",
-  "category":"hotspot",
-  "subtype":"photo",
-  "summary":"四月洛阳满城牡丹，王城公园与国花园花海出片。",
-  "description":"每年四月中下旬，洛阳牡丹开，是全城的事。王城公园、国花园里花海一片，红的白的紫的。穿汉服或素色来拍很搭。花季人挤人，早去。几个看点：四月满城牡丹，花海一片；王城公园国花园最集中；穿汉服素色出片，早去避人。",
-  "highlights":[
+  "id": "mudan-shot",
+  "name": "牡丹赏花",
+  "category": "hotspot",
+  "subtype": "photo",
+  "summary": "四月洛阳满城牡丹，王城公园与国花园花海出片。",
+  "description": "每年四月中下旬，洛阳牡丹开，是全城的事。王城公园、国花园里花海一片，红的白的紫的。穿汉服或素色来拍很搭。花季人挤人，早去。几个看点：四月满城牡丹，花海一片；王城公园国花园最集中；穿汉服素色出片，早去避人。",
+  "highlights": [
     "四月满城牡丹，花海一片",
     "王城公园国花园最集中",
     "穿汉服素色出片，早去避人"
   ],
-  "location":{
-    "point":{
-      "lng":112.421421,
-      "lat":34.666605,
-      "coordSystem":"GCJ-02"
+  "location": {
+    "point": {
+      "lng": 112.421421,
+      "lat": 34.666605,
+      "coordSystem": "GCJ-02"
     },
-    "address":"河南省洛阳市西工区王城公园",
-    "district":"西工区",
-    "transportTip":"西工区乘公交或地铁可达"
+    "address": "河南省洛阳市西工区王城公园",
+    "district": "西工区",
+    "transportTip": "西工区乘公交或地铁可达"
   },
-  "practical":{
-    "openHours":"四月花季（约7:00-18:00）",
-    "openHoursRef":0,
-    "ticket":"花季约几十元",
-    "ticketRef":0,
-    "duration":"建议 60-180 分钟",
-    "durationMinutes":[
+  "practical": {
+    "openHours": "四月花季（约7:00-18:00）",
+    "openHoursRef": 0,
+    "ticket": "花季约几十元",
+    "ticketRef": 0,
+    "duration": "建议 60-180 分钟",
+    "durationMinutes": [
       60,
       180
     ],
-    "priceLevel":"mid"
+    "priceLevel": "mid"
   },
-  "audience":[
+  "audience": [
     "couple",
     "friends",
     "family"
   ],
-  "accessible":false,
-  "tips":[],
-  "images":[
+  "accessible": false,
+  "tips": [],
+  "images": [
     {
-      "url":"https://images.pexels.com/photos/35045272/pexels-photo-35045272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl":"https://images.pexels.com/photos/35045272/pexels-photo-35045272.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width":5040,
-      "height":4032,
-      "alt":"High-rise buildings and traffic at a busy intersection in Luoyang, China.",
-      "query":"China city street view luoyang",
-      "credit":{
-        "source":"pexels",
-        "author":"Bingqian Li",
-        "sourceUrl":"https://www.pexels.com/photo/modern-urban-landscape-in-luoyang-china-35045272/",
-        "license":"Pexels License",
-        "attributionRequired":false
+      "url": "https://images.pexels.com/photos/35045272/pexels-photo-35045272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35045272/pexels-photo-35045272.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5040,
+      "height": 4032,
+      "alt": "High-rise buildings and traffic at a busy intersection in Luoyang, China.",
+      "query": "China city street view luoyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Bingqian Li",
+        "sourceUrl": "https://www.pexels.com/photo/modern-urban-landscape-in-luoyang-china-35045272/",
+        "license": "Pexels License",
+        "attributionRequired": false
       }
     },
     {
-      "url":"https://images.pexels.com/photos/35045256/pexels-photo-35045256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl":"https://images.pexels.com/photos/35045256/pexels-photo-35045256.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width":5040,
-      "height":4032,
-      "alt":"Modern high-rise residential buildings in Luoyang, China, under clear blue skies.",
-      "query":"China city street view luoyang",
-      "credit":{
-        "source":"pexels",
-        "author":"Bingqian Li",
-        "sourceUrl":"https://www.pexels.com/photo/high-rise-buildings-in-luoyang-china-35045256/",
-        "license":"Pexels License",
-        "attributionRequired":false
+      "url": "https://images.pexels.com/photos/35045256/pexels-photo-35045256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35045256/pexels-photo-35045256.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5040,
+      "height": 4032,
+      "alt": "Modern high-rise residential buildings in Luoyang, China, under clear blue skies.",
+      "query": "China city street view luoyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Bingqian Li",
+        "sourceUrl": "https://www.pexels.com/photo/high-rise-buildings-in-luoyang-china-35045256/",
+        "license": "Pexels License",
+        "attributionRequired": false
       }
     },
     {
-      "url":"https://images.pexels.com/photos/35045263/pexels-photo-35045263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl":"https://images.pexels.com/photos/35045263/pexels-photo-35045263.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width":6048,
-      "height":4032,
-      "alt":"Colorful bicycles parked under willow trees on a sunny street in Luoyang, China.",
-      "query":"China city street view luoyang",
-      "credit":{
-        "source":"pexels",
-        "author":"Bingqian Li",
-        "sourceUrl":"https://www.pexels.com/photo/bicycles-parked-under-willow-trees-in-luoyang-35045263/",
-        "license":"Pexels License",
-        "attributionRequired":false
+      "url": "https://images.pexels.com/photos/35045263/pexels-photo-35045263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35045263/pexels-photo-35045263.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6048,
+      "height": 4032,
+      "alt": "Colorful bicycles parked under willow trees on a sunny street in Luoyang, China.",
+      "query": "China city street view luoyang",
+      "credit": {
+        "source": "pexels",
+        "author": "Bingqian Li",
+        "sourceUrl": "https://www.pexels.com/photo/bicycles-parked-under-willow-trees-in-luoyang-35045263/",
+        "license": "Pexels License",
+        "attributionRequired": false
       }
     }
   ],
-  "coverIndex":0,
-  "tags":[
+  "coverIndex": 0,
+  "tags": [
     "牡丹",
     "花海",
     "四月"
   ],
-  "popularity":70,
-  "sources":[
+  "popularity": 70,
+  "sources": [
     {
-      "title":"百度百科·洛阳牡丹",
-      "url":"https://baike.baidu.com/item/%E6%B4%9B%E9%98%B3%E7%89%A1%E4%B8%B9",
-      "kind":"wiki",
-      "fetchedAt":"2026-10-01"
+      "title": "百度百科·洛阳牡丹",
+      "url": "https://baike.baidu.com/item/%E6%B4%9B%E9%98%B3%E7%89%A1%E4%B8%B9",
+      "kind": "wiki",
+      "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt":"2026-10-01",
-  "_geocoded":true,
-  "_imageQuery":{
-    "en":"",
-    "zh":"牡丹赏花"
+  "updatedAt": "2026-10-16",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "牡丹赏花"
   },
-  "_geocodeTitle":"王城公园",
-  "_geocodeSuspect":false,
-  "district":"410303"
+  "_geocodeTitle": "王城公园",
+  "_geocodeSuspect": false,
+  "district": "410303"
 }

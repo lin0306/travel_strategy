@@ -14,16 +14,24 @@
  * ① **挂在 `routes/map-shell.tsx` 的浮层区，不在 `TopBar` 内部** —— 顶栏是
  *    `anchor='top'` 的浮层，`flt-in` 入场动画用 transform，而**祖先带 transform 会让
  *    `fixed` 子元素相对该祖先定位**：模态会被关进 52px 高的顶栏里（这类 bug 不报错，
- *    只是"东西不见了"）。
+ *    只是"东西不见了"）。★ 顺带的好处：`ModalScrim` 用 `absolute` 就够了，
+ *    不必再赌 `fixed` 会不会被祖先的 transform 吃掉。
  * ② **不带 `data-overlay`** —— 那条属性是给 `fitView` 算"地图可用区"用的。
  *    模态是**临时遮挡**（打开时用户在看文档、不在地图上），参与避让只会让下一次
  *    `fit` 把点位挤到一侧。★ 与"景点详情面板该不该避让"是两件事：那个是常驻面板。
  * ③ **门与内容分家**：`map-shell` 条件渲染本组件 ⇒ 关闭即卸载，折叠清单的展开态
  *    自然回到初始，不需要手写重置（AF 项那条纪律）。
+ *
+ * ## ★ 遮罩改为共用 `ModalScrim`（2026-10-16）
+ * 原本这里是 `fixed` + 另写的一份 `bg-[rgba(16,24,40,0.3)]`，而 `AddToPlanPicker`
+ * 压根没有遮罩 —— 用户报「部分弹窗没有遮罩」。现在三个决策型模态共用一块底板，
+ * 色值（`rgba(16,24,40,0.34)`）与层级一致。`DuplicateConfirm` 是有意不加的那一个，
+ * 理由见 `ModalScrim` 文件头的表。
  */
 
 import { AboutContent } from '~/common/ui/doc/AboutContent'
 import { Icon } from '~/common/ui/Icon'
+import { ModalScrim } from '~/common/ui/ModalScrim'
 import { useDismiss } from '~/common/ui/useDismiss'
 import { useDocUi } from '~/common/logic/docUi'
 
@@ -37,10 +45,7 @@ export function AboutModal() {
   const ref = useDismiss<HTMLDivElement>(true, closeAbout)
 
   return (
-    <div
-      data-doc-modal=""
-      className="fixed inset-0 z-[40] flex items-center justify-center bg-[rgba(16,24,40,0.3)] p-4 sm:p-6"
-    >
+    <ModalScrim className="z-[40]">
       <div
         ref={ref}
         role="dialog"
@@ -70,6 +75,6 @@ export function AboutModal() {
           <AboutContent />
         </div>
       </div>
-    </div>
+    </ModalScrim>
   )
 }

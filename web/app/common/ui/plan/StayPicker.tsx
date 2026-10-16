@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 
 import { Icon } from '~/common/ui/Icon'
 import { EmptyState } from '~/common/ui/Overlay'
+import { ModalScrim } from '~/common/ui/ModalScrim'
 import type { ItineraryState } from '~/common/logic/itinerary/store'
 import type { City } from '~shared/schema'
 
@@ -71,12 +72,14 @@ export function StayPicker({
     /*
      * ⚠️ 遮罩这一层**用不了 `Overlay`** —— `.flt` 的 `background: var(--color-surface)`
      *    是未分层的 CSS，会盖过 Tailwind 的 `bg-black/30`（工具类在 layer 里，优先级更低）。
-     *    结果是遮罩变成一块纯白浮层，什么都看不见。所以遮罩自己写定位。
+     *    结果是遮罩变成一块纯白浮层，什么都看不见。理由与踩坑记录见 `ModalScrim` 文件头。
+     * ★ 2026-10-16 两处修正：
+     *   ① 底板统一换成 `ModalScrim`，色值/定位/层级与另两个模态一致（原来是 `absolute` + `bg-black/30`）；
+     *   ② **去掉了 `data-overlay`** —— 那条属性是给 `fitView` 算"地图可用区"用的，
+     *      而遮罩是**临时遮挡**（开着的时候用户在这个弹窗里，不在看地图）。
+     *      之前留着会让下一次 `fit` 误以为遮罩是常驻面板、把点位挤到一侧。
      */
-    <div
-      data-overlay=""
-      className="absolute inset-0 z-50 flex items-center justify-center bg-black/30 p-4"
-    >
+    <ModalScrim>
       <div
         className="flt flt-in flex h-full max-h-[640px] w-full max-w-[520px] flex-col overflow-hidden"
         role="dialog"
@@ -187,6 +190,6 @@ export function StayPicker({
           </button>
         </div>
       </div>
-    </div>
+    </ModalScrim>
   )
 }

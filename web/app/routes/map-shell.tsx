@@ -33,9 +33,9 @@ import { usePlanStore } from '~/common/logic/itinerary/planStore'
 import { claimedPoiIds, isPlanFocused, planFocusKey } from '~/common/logic/planFocus'
 import { AddToPlanPicker } from '~/common/ui/plan/AddToPlanPicker'
 import { DuplicateConfirm } from '~/common/ui/plan/DuplicateConfirm'
-import { PickingHint } from '~/common/ui/plan/PickingHint'
-import { PlanToast } from '~/common/ui/plan/PlanToast'
 import { SpotPicker } from '~/common/ui/plan/SpotPicker'
+// ★ 提示的挂点收在这里了，不再逐条import（见下方 ③‴ 的注释）
+import { ToastStack } from '~/common/ui/ToastStack'
 import { AboutModal } from '~/common/ui/doc/AboutModal'
 import { useDocUi } from '~/common/logic/docUi'
 import { DesktopRoutePlanPanel } from '~/desktop/ui/RoutePlanPanel'
@@ -313,11 +313,13 @@ export default function MapShellRoute() {
         {/* ③″′ 重复添加确认。★ 与弹窗**互斥**（弹窗先关、它再接管）——
             两张卡同时开着，用户不知道该点哪一张 */}
         <DuplicateConfirm />
-        {/* ③‴ 两个**屏幕级**的瞬时元素。★ 都必须在面板**外面**：
+        {/* ③‴ 瞬时提示的**堆叠出口**（2026-10-16）。★ 必须在面板**外面**：
                · toast —— 添加行程不会打开面板，提示得照样出现；
                · 取点提示 —— 它说的是"点地图上任意位置"，定位基准是**屏幕**；
-                 挂在面板里会被 360px 的宽度挤成三行（真踩过）。 */}
-        <PickingHint />
+                 挂在面板里会被 360px 的宽度挤成三行（真踩过）。
+               ★ 为什么收进一个 `ToastStack`：两条可能同时出现，而统一位置后
+                 同一个 `top` 会让它们**重叠**。堆叠出口统一排，且"不存在就不占位"。 */}
+        <ToastStack />
         {/* ③⁗「挑景点」清单 —— 规划面板详情态的「添加景点」用它**取代**了跳转城市页
                （2026-09-27 用户定：「改成不跳链接，左侧打开对应城市的景点列表」）。
                ★ 它必须长在外壳上：触发点在规划面板里，而面板挂在**这里**。
@@ -325,7 +327,6 @@ export default function MapShellRoute() {
                  清单只长在城市页 —— 所以判据走页面注册（`PageSpotOps.spotListCity`），
                  本页有清单时不浮它（否则同一屏两份清单）。 */}
         <SpotPicker />
-        <PlanToast />
       </MapShellCtx.Provider>
 
       {/* ④ 「关于」弹窗。★ 放在 Provider **外** —— 它只读数据（`loadCityIndex`），

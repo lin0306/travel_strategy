@@ -24,7 +24,7 @@
  *    没数据就不显示那一行，而不是显示一个猜测值。
  */
 
-import type { ReactNode } from 'react'
+import { useEffect, useRef, useState, type ReactNode } from 'react'
 
 import { Icon } from '~/common/ui/Icon'
 import { PoiLocation } from '~/common/ui/city/PoiLocation'
@@ -48,6 +48,79 @@ const SOURCE_KIND_LABEL: Record<SourceRef['kind'], string> = {
 /* ────────────────────────────────────────────────
  * 内容组件（预览卡与详情页共用同一份数据形状）
  * ────────────────────────────────────────────── */
+
+/**
+ * 详情主图（带加载态）。
+ *
+ * ## 为什么必须做加载态（2026-10-16 用户报「图片加载需要时间」）
+ * 图片全是**外链直链**（Wikimedia 镜像 / Pexels / Unsplash，见 04 文档 4.2），
+ * 首屏到出图隔着一条公网往返 —— 慢的时候 260px 高的区域就是一片空白。
+ *
+ * ## ★ 三态状态机（用户两轮复报后重构，别再回到"loaded 一把梭"）
+ * | 态 | 容器 | 图 |
+ * |----|------|----|
+ * | 加载中 | `.img-skeleton`（底色 + 扫光 + 图标） | `opacity-0`（藏着，防浏览器破图图标） |
+ * | 成功 | 被图**盖住**（CSS 层叠，无 JS 卸载） | 淡入 |
+ * | 失败 | 追加 `.img-failed`：停扫光，底色 + 图标**常驻** | 保持 `opacity-0` |
+ *
+ * 两个踩过的坑，都在"loaded 一把梭"的旧版里：
+ *   ① **`img.complete === true` ≠ 加载成功** —— 失败的图也是 complete（但
+ *      `naturalWidth === 0`）。旧版挂载时见到 complete 就放图 ⇒ 失败时
+ *      放开的是**浏览器破图图标**、骨架却被卸了 ⇒「没有背景占位」。
+ *   ② **`onError` 里 `setLoaded(true)` 是错的** —— 那等于"失败也算成功"：
+ *      骨架卸了、图放不出来 ⇒ 白板。失败必须有**自己的终态**（底色 + 图标常驻）。
+ * 「加载完了不消失」则是纯 CSS 问题：`::after` 扫光画在 img 之上，已由
+ * app.css 的 `.img-skeleton > img { z-index: 1 }` 修掉 —— 图盖住底，无需 JS。
+ *
+ * ## 为什么状态放在图上而不是父组件
+ * `gallery` 切换时 `src` 变化 ⇒ 加载态要**随 src 重置** —— 放在子组件里用
+ * `key={img.url}`（见调用处）最省心：换图即重挂载，状态天然归零。
+ */
+function DetailHeroImage({ src, alt }: { src: string; alt: string }) {
+  const [loaded, setLoaded] = useState(false)
+  const [failed, setFailed] = useState(false)
+  const imgRef = useRef<HTMLImageElement | null>(null)
+
+  // 缓存命中时 onLoad 不会再触发（切回看过的图）——挂载后查一次 complete。
+  // ★ 必须再看 naturalWidth：失败的图也是 complete，但宽度为 0（见上表）。
+  useEffect(() => {
+    const el = imgRef.current
+    if (!el?.complete) return
+    if (el.naturalWidth > 0) setLoaded(true)
+    else setFailed(true)
+  }, [])
+
+  return (
+    <div
+      // 容器**就是**骨架：底色 + 扫光常驻，成功时被图盖住（app.css 的层叠规则）。
+      // 失败追加 .img-failed 停扫光 —— 底色与图标留下，永远不露白板。
+      className={`img-skeleton relative h-[260px] w-full overflow-hidden ${failed ? 'img-failed' : ''}`}
+    >
+      {!loaded && !failed ? (
+        // 图标层：语义是"图片正在加载"，不是"没有图"。失败时它同样保留（底色 + 图标 = 暂无图占位）。
+        <div
+          className="absolute inset-0 flex items-center justify-center text-ink-2/60"
+          aria-hidden="true"
+        >
+          <Icon name="image" size="xl" />
+        </div>
+      ) : null}
+      {/* eslint-disable-next-line jsx-a11y/alt-text */}
+      <img
+        ref={imgRef}
+        src={src}
+        alt={alt}
+        onLoad={() => setLoaded(true)}
+        // ★ 失败是**自己的终态**：底色 + 图标常驻，绝不放开 opacity（那是旧版白板的根源）
+        onError={() => setFailed(true)}
+        className={`block size-full object-cover transition-opacity duration-300 ${
+          loaded ? 'opacity-100' : 'opacity-0'
+        }`}
+        loading="lazy"
+      />
+    </div>
+  )
+}
 
 export function PoiDetail({
   poi,
@@ -73,13 +146,8 @@ export function PoiDetail({
       {/* 图片区。多图用底部缩略条切，不做轮播 —— 轮播会让用户错过后面的图 */}
       <div className="relative">
         {img ? (
-          // eslint-disable-next-line jsx-a11y/alt-text
-          <img
-            src={img.url}
-            alt={poi.name}
-            className="block h-[260px] w-full object-cover"
-            loading="lazy"
-          />
+          // ★ key=img.url：换图即重挂载，加载态天然归零（见 DetailHeroImage 文件头）
+          <DetailHeroImage key={img.url} src={img.url} alt={poi.name} />
         ) : (
           // ★ 取不到图时的占位卡（04 文档 4.2 第 ④ 条）：不能让 `src={undefined}` 出破图
           <div className="flex h-[260px] items-center justify-center bg-bg text-ink-2">
@@ -97,7 +165,11 @@ export function PoiDetail({
       </div>
 
       {poi.images.length > 1 ? (
-        <div className="flex gap-1.5 overflow-x-auto px-3.5 py-2.5">
+        <div
+          // ★ 挂 `.scroll`：不挂的话这条横向滚动条是浏览器默认样式（粗、带轨道槽），
+          //   在 260px 大图正下方非常显眼 —— 全站滚动条统一走 app.css 的 `.scroll`（6px 细条）
+          className="scroll flex gap-1.5 overflow-x-auto px-3.5 py-2.5"
+        >
           {poi.images.map((im, i) => (
             <button
               key={im.url}
@@ -105,7 +177,7 @@ export function PoiDetail({
               onClick={() => onGallery(i)}
               aria-label={`第 ${i + 1} 张图片`}
               aria-pressed={i === gallery}
-              className={`size-12 flex-none overflow-hidden rounded-md ${
+              className={`img-skeleton size-12 flex-none overflow-hidden rounded-md ${
                 i === gallery ? 'ring-2 ring-primary' : 'opacity-70'
               }`}
             >

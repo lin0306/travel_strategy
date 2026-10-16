@@ -33,9 +33,18 @@ from typing import Any
 
 from .layout import CACHE, GENERATED, write_json
 
+# ★★ UA 里**绝不能**出现自曝采集身份的字样（Harvest / spider / crawler / bot / scraper …）。
+#   2026-10-16 实战教训：本文件原来写着
+#       `... Chrome/126.0 Safari/537.36 TravelStrategy-Harvest/1.0`
+#   高德以「流量异常、涉嫌违反协议 4.12.3（禁止爬虫/抓取工具）」为由，
+#   **把 `v3/place/text` 接口权限封禁**（返回 `x5secdata` 风控页）。
+#   那个 `TravelStrategy-Harvest/1.0` 后缀等于自报家门：协议 4.12.3 禁的
+#   正是"爬虫、网络蜘蛛、抓取工具"，而 UA 里明写一个采集器标识，
+#   等于主动把判据递给风控。⇒ UA 就是一个**普通浏览器**，
+#   靠"请求纪律（低频、串行、带 Referer）"而不是靠伪装来合规。
 UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/126.0 Safari/537.36 TravelStrategy-Harvest/1.0"
+    "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 )
 
 LEDGER_PATH = GENERATED / "api-usage.json"
@@ -256,6 +265,21 @@ def get_bytes(
     raise RuntimeError(f"GET {url} 重试 {retries} 次仍失败：{last_err}")
 
 
+class BlockedByVendor(RuntimeError):
+    """图商**风控拦截页**（阿里 `punish` 模板），不是 JSON。
+
+    ★★ 2026-10-16 实战踩到：key 因流量异常被高德封禁后，被封接口返回的是
+    **HTTP 200 + 一段 HTML**（`<a id="a-link" href=".../punish/...">` + `x5secdata`
+    cookie 清零），**不是** JSON，也**不是** 4xx/5xx。
+    ⇒ `get_bytes` 的重试逻辑判定它"成功"，`get_json` 抛的是 `JSONDecodeError` ——
+    **看起来像"返回格式坏了"，实际是接口被封**。
+    更糟的是它会把调用方的配额判死逻辑整个绕过（那是读 infocode 的，
+    而 HTML 里压根没有 infocode）⇒ 接口永远不会被标记为不可用，
+    下一次还会继续打这个被封的接口。
+    ⇒ 必须单独识别成一种结局，让调用方能"标记该接口不可用 + 整批停止"。
+    """
+
+
 def get_json(
     url: str,
     *,
@@ -264,9 +288,25 @@ def get_json(
     retries: int = 3,
     throttle: bool = True,
 ) -> Any:
-    """GET + JSON 解析。"""
+    """GET + JSON 解析。
+
+    ★★ 风控拦截页单独识别成 `BlockedByVendor`，**不重试**（重试只会继续打
+       已被封的接口，加速风控判定），也**不当成解析失败**抛 `JSONDecodeError`。
+    """
     raw = get_bytes(url, headers=headers, timeout=timeout, retries=retries, throttle=throttle)
-    return json.loads(raw.decode("utf-8"))
+    head = raw[:2048]
+    # 判据：阿里系风控页的稳定特征。选这几个是因为它们出现在**响应体**里，
+    # 不依赖 HTTP 状态码（被封时确实返回 200）。
+    if b"x5secdata" in head or b"punish" in head or b"punish_page" in head:
+        raise BlockedByVendor(
+            f"图商风控拦截（返回了 HTML 而非 JSON，多半是该接口被限流/封禁）：{url.split('?')[0]}"
+        )
+    try:
+        return json.loads(raw.decode("utf-8"))
+    except (json.JSONDecodeError, UnicodeDecodeError) as exc:
+        raise RuntimeError(
+            f"响应既不是 JSON 也不是已识别的风控页（{url.split('?')[0]}）：{raw[:120]!r}"
+        ) from exc
 
 
 def build_url(base: str, params: dict[str, Any]) -> str:

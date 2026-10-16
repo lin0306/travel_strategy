@@ -72,7 +72,8 @@ export function DayTabs({
 
   return (
     <div className="flex-none border-b border-line">
-      <div className="flex items-center gap-1.5 overflow-x-auto px-3 py-2">
+      {/* ★ `.scroll`：天数多时横向滚动，不挂的话这条是浏览器默认粗滚动条（全站统一 6px 细条） */}
+      <div className="scroll flex items-center gap-1.5 overflow-x-auto px-3 py-2">
         {days.map((d, i) => {
           const day = i + 1
           const on = day === activeDay

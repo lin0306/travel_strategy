@@ -58,7 +58,14 @@ from __future__ import annotations
 from typing import Any
 
 from pipeline.core.env import MissingKeyError, get_key, load_env
-from pipeline.core.fetch import build_url, count_usage, get_json, load_cache, save_cache
+from pipeline.core.fetch import (
+    BlockedByVendor,
+    build_url,
+    count_usage,
+    get_json,
+    load_cache,
+    save_cache,
+)
 from pipeline.core.layout import PIPELINE
 
 #: 行政区划查询。`extensions=all` 才是"带边界"，默认 `base` 没有坐标。
@@ -245,6 +252,27 @@ def _reset_quota_flag() -> None:
 OK, QUOTA, EMPTY = "ok", "quota", "empty"
 
 
+def _mark_blocked(api: str, what: str) -> None:
+    """把这个接口标记为**被风控封禁**，并打一次说明。
+
+    ★★ 2026-10-16 新增。**为什么必须单独处理**（这是被封后最难查的一处）：
+    被封接口返回的是 **HTTP 200 + HTML 风控页**（`x5secdata`），不是 JSON。
+    老代码把它当"解析失败"抛 `JSONDecodeError` ⇒ 根本走不到下面按
+    `infocode` 判死的那套逻辑 ⇒ `amap_entrance` 桶**永远不会被判死**，
+    每次重跑都继续打这个被封接口，越打越像爬虫。
+
+    ⇒ 判据不看响应体，只看 `BlockedByVendor` 这个异常类型（`fetch.get_json`
+    负责识别），语义更准：拿不到 `infocode` 不是"没查到"，是"压根没进到 API"。
+    """
+    _amap_dead_apis.add(api)
+    print(
+        f"  ⛔ 高德{what}接口被风控封禁（返回 HTML 拦截页，非 API 响应）—— "
+        f"该接口本进程内停用；已落盘的数据保留，**不要重跑本命令**"
+        f"（继续打会被判定为爬虫，申诉也会更难）",
+        flush=True,
+    )
+
+
 def _check_response(data: dict, what: str, api: str = "") -> str:
     """判高德的响应。**返回 `OK` / `QUOTA` / `EMPTY`**。
 
@@ -411,9 +439,13 @@ def poi_entrance(
 
     ★ `citylimit=true` 必传：不传会召回外省同名点（与 `place_search` 同样理由）。
 
-    @return `{'lng','lat'}` 或 None（没命中 / 该 POI 没有入口字段）。
-            配额受限时返回 None 并在模块级把 `"amap_entrance"` 标死，
+    @return `{'lng','lat'}` 或 None（没命中 / 该 POI 没有入口字段 / 接口被风控封禁）。
+            配额或封禁时返回 None 并在模块级把 `"amap_entrance"` 标死，
             调用方（step3b）用 `quota_exhausted("amap_entrance")` 判断是否整批中止。
+            ★★ 2026-10-16：该 key 的 `v3/place/text` 已被高德风控封禁
+            （返回 HTML 拦截页，见 `_mark_blocked`），申诉解封前这条路走不通；
+            已落盘的 2799 条入口坐标照常可用，缺的那些落回 POI 中心（消费端
+            `arrivalOf` 的 >300m 阈值本来就允许这个回落）。
             ★★ 故意**不**在这里用 near 点做距离校验：阈值（>300m 才用入口）属于
             消费口径，写在 Web 的 `arrivalOf` 与 Python 的 `arrival_of`，保持单一真相源。
     """
@@ -423,7 +455,7 @@ def poi_entrance(
         cached = cache[ck]
         return cached if isinstance(cached, dict) else None
 
-    data = get_json(build_url(PLACE_URL_V3, {
+    url = build_url(PLACE_URL_V3, {
         "key": web_key(),
         "keywords": name,
         "city": region,
@@ -431,8 +463,20 @@ def poi_entrance(
         "extensions": "all",                    # ★★ 关键：v3 带这个才有 entr_location
         "offset": 10,
         "page": 1,
-    }))
+    })
+    # ★★ 记账放在**发请求之前**：高德对被拒/失败的请求同样计费，
+    #   放在后面就等于"失败请求不记账" ⇒ `usage` 显示 94 次、实际打了 3547 次，
+    #   看用量做决策的人会被误导（2026-10-16 封禁事件复盘发现的失真）。
     count_usage("amap_entrance")
+    try:
+        data = get_json(url)
+    except BlockedByVendor:
+        # ★ 被风控封禁：判死本接口并**安静返回 None**。
+        #   不抛异常 —— 调用方（step3b）按"这一个点没入口"处理即可，
+        #   下一轮循环开头 `quota_exhausted("amap_entrance")` 就会整批停，
+        #   所以**最多只多打一个请求**，不会空转。
+        _mark_blocked("amap_entrance", "入口坐标")
+        return None
 
     result = None
     if _check_response(data, "入口坐标", "amap_entrance") == OK:

@@ -28,6 +28,13 @@ pipeline/step3b_entrance.py —— 给 POI 补「到达点 / 入口坐标」
 幂等：已有 `location.entrance` 且非 `--force` 时跳过（不重复计费）。
 配额：高德按月重置，`amap_entrance` 桶判死即整批停（不浪费剩余额度去打注定失败的请求）。
 
+★⚠️ 2026-10-16：**`v3/place/text` 已被高德风控封禁**（该 key 因「流量异常、
+  涉嫌违反服务协议 4.12.3——禁止爬虫/抓取工具」被限权，返回 HTML 拦截页而非 API 响应）。
+  本脚本依赖的 `entr_location` 只有 v3 会返回 ⇒ **申诉解封前本命令跑不出新数据**。
+  现状不是故障：已落盘的 2799 条入口坐标照常可用，缺的落回 POI 中心
+  （消费端 `arrivalOf` 的 >300m 阈值本就允许这个回落）。
+  **不要反复重跑** —— 继续打会被判得更像爬虫，反而拖累申诉。
+
 ★ 范围（用户 2026-10-05 收窄）：**只给大范围景区补入口** —— `TARGET_SUBTYPES = {"nature","park"}`
   （自然景观 / 公园园林）。其余细类（博物馆/古迹/宗教 + 全部美食/街区/演出）落到中心即可，
   没必要烧高德额度。腾讯无 `entr_location` 等价字段 ⇒ 入口只能走高德，故更该省着用。
@@ -38,6 +45,7 @@ from __future__ import annotations
 
 import math
 import sys
+from datetime import date
 from pathlib import Path
 
 if __package__ in (None, ""):                       # 允许 `python step3b_entrance.py` 直接跑
@@ -135,7 +143,19 @@ def entrance_city(slug: str, city_id: str, city_dir: Path, *, force: bool = Fals
             return stats
 
         name = poi.get("name", "")
-        hit = amap.poi_entrance(name, region=city_name)
+        # ★ 加兜底：这个调用只走高德，key 一旦被风控封禁，异常会一路冒到 main
+        #   把整个脚本炸掉（2026-10-16 封禁后实测：`JSONDecodeError` 直接中断，
+        #   连"已落盘多少"的小结都打不出来）。这里按"没入口"处理，
+        #   并让下一轮循环开头的 `quota_exhausted` 整批停。
+        try:
+            hit = amap.poi_entrance(name, region=city_name)
+        except Exception as exc:                          # noqa: BLE001
+            print(f"  ⚠️ {name}：入口查询失败（{type(exc).__name__}: {exc}）—— 跳过")
+            stats["no_entrance"] += 1
+            if amap.quota_exhausted("amap_entrance"):
+                stats["quota_stop"] = True
+                return stats
+            continue
 
         entrance: dict | None = None
         if hit is None:
@@ -163,10 +183,16 @@ def entrance_city(slug: str, city_id: str, city_dir: Path, *, force: bool = Fals
         if entrance:
             loc["entrance"] = entrance
             poi["location"] = loc
+            # ★ 数据变了，"最后更新"也得跟着变（2026-10-16 加）。
+            #   原来采集只改业务字段、不碰 `updatedAt`，于是「关于」弹窗对外报
+            #   的是**采编稿最后重写的那天**，而入口坐标这批刷新它完全不知道 ——
+            #   实测 4731 条全被刷新过，日期却停在 10-07。
+            poi["updatedAt"] = date.today().isoformat()
             write_json(path, poi)
         elif existing:                          # 原来有入口，但这次被判拒/无命中 → 清掉
             loc.pop("entrance", None)
             poi["location"] = loc
+            poi["updatedAt"] = date.today().isoformat()
             write_json(path, poi)
 
     return stats
@@ -238,8 +264,15 @@ def main(argv: list[str] | None = None) -> int:
             for x in st["offset_list"]:
                 print(f"    · {x}")
         if st["quota_stop"]:
-            print("  ⛔ 高德入口接口判死（额度/权限受限），整批停止。已落盘的不重复抓，"
-                  "待额度恢复后重跑本脚本续跑。")
+            if amap.quota_exhausted("amap_entrance") and amap.dead_apis():
+                print("  ⛔ 高德入口接口**已被风控封禁**（返回 HTML 拦截页）—— 整批停止。\n"
+                      "     · 这不是配额问题，重跑无用，**请勿反复重试**（会加重风控判定）。\n"
+                      "     · 已落盘的数据完好；缺口暂时落回 POI 中心，页面照常可用。\n"
+                      "     · 恢复途径：向高德开放平台提工单申诉解封（协议 4.12.3）。\n"
+                      "     · 解封前 `location.entrance` 维持现状即可，无需任何操作。")
+            else:
+                print("  ⛔ 高德入口接口判死（额度/权限受限），整批停止。已落盘的不重复抓，"
+                      "待额度恢复后重跑本脚本续跑。")
             break
 
     print("\n══ 汇总 ═════════════════════════════════════════")

@@ -86,6 +86,7 @@ import { Overlay } from '~/common/ui/Overlay'
 import { SearchBox } from '~/common/ui/SearchBox'
 import { PlanMenuButton } from '~/common/ui/plan/PlanMenuButton'
 import { useDocUi } from '~/common/logic/docUi'
+import { GITHUB_REPO_URL } from '~/common/data/site'
 import { useFullscreen } from '~/common/logic/useFullscreen'
 import type { MapShellContext } from '~/common/logic/mapShell'
 import type { ReactNode } from 'react'
@@ -121,6 +122,49 @@ function VDiv() {
  *   **同一件事只留一处实现**，不会出现"改了弹窗、页面还是旧的"。
  */
 const DOC_LABEL = '关于'
+
+/**
+ * GitHub 仓库入口（2026-10-16 加）。
+ *
+ * ## 为什么放在顶栏而不是只放「关于」里
+ * 用户原话：「我现在配好 github 了，这个项目是开源的，要有地方可以打开 github」。
+ * 只放「关于」弹窗里的问题很实际：**没人会为了找仓库去读免责条款那一屏** ——
+ * 而「star / 提 issue」正是希望被顺手发现的动作。所以顶栏给一枚常驻图标，
+ * 「关于」里另有一节详细的介绍与链接（两处指向**同一个常量**）。
+ *
+ * ## 为什么是图标而不是"GitHub"三个字
+ * 顶栏右侧那一列已经有：页面动作 → 路线规划 → 底图菜单 → 关于 → 全屏。
+ * 再加一段文字会在 `lg` 断点把中段的搜索框挤窄（`TopBar.tsx` 里 ⑤ 那段注释
+ * 记过一次实测：整组约 110px 就已经压到搜索框了）。而 GitHub 猫头是**全站通用语**，
+ * 与「全屏」那枚四括号同一档 —— 不需要文字也能认出来。
+ *
+ * ## ★ 与「关于」同组（2026-10-16 用户定：「可以放一块去，而不是再做分隔」）
+ * 原本它单独挂在组外、自带一条分隔线 —— 用户看着是"两块东西"。现在并进站点导航组，
+ * 组内只有一条竖线。⇒ 它跟着整组进 `lg` 断点：窄屏上看不到，但「关于」弹窗的
+ * 「开源」一节里有同样的链接（`AboutContent.tsx`），窄屏从那里走。
+ *
+ * ## 为什么外链而不是站内路由
+ * 仓库是站外资源，且这个项目**没有任何服务端**（纯静态）⇒ 没有"项目页"可跳。
+ *
+ * ## 无障碍
+ * `aria-label` 必须把"去哪、能干什么"说全（GitHub 图标本身对读屏是空的）。
+ * `rel="noreferrer noopener"` 全站外链统一写法。
+ */
+function RepoButton() {
+  return (
+    <a
+      href={GITHUB_REPO_URL}
+      target="_blank"
+      rel="noreferrer noopener"
+      aria-label="在 GitHub 上查看本站的源代码（lin0306/travel_strategy）"
+      className="inline-flex size-[34px] flex-none items-center justify-center rounded-lg text-ink-2 hover:bg-line-2 hover:text-primary"
+    >
+      {/* ★ 用 `lg`(18px) 而不是默认 `md`(16px)：官方 mark 是 24×24 满格的实心图形，
+          在 16px 下猫头显得比旁边的线性图标明显小一截，看着像没对齐。 */}
+      <Icon name="github" size="lg" />
+    </a>
+  )
+}
 
 /** 站点导航项：打开「关于」弹窗（**不是链接** —— 它不跳页，只管开一块浮层） */
 function DocButton() {
@@ -216,10 +260,10 @@ export function TopBar({ actions, shell, variant = 'browse' }: TopBarProps) {
           onToggle={toggleBasemapDetail}
         />
 
-        {/* ⑤ 站点导航（浏览态限定）。一枚「关于」按钮 —— 打开弹窗，**不跳页**。
-               ★ 整组（分隔线 + 导航）一起进 `lg` 断点：它们一共吃掉 ~110px，
-                 挤到 768px 宽时会把中间那个 `flex-1` 的搜索框压成 0 宽（实测过），
-                 比整组不显示难看得多。
+        {/* ⑤ 站点导航（浏览态限定）：「关于」+ GitHub **同组**（2026-10-16 用户定：
+               「可以放一块去，而不是再做分隔」—— 中间那条独立竖线已去掉）。
+               ★ 整组一起进 `lg` 断点：它们一共吃掉 ~146px，挤到 768px 宽时会把
+                 中间那个 `flex-1` 的搜索框压成 0 宽（实测过），比整组不显示难看得多。
                ★ 这一组里**不再挂「待开发」标记** —— 占位时代已经结束
                  （`TodoTag` 组件随之删除；最后一枚占位就是紧随其后的全屏，
                  它现在是**按不动就不出现**的真按钮，见 `FullscreenButton`） */}
@@ -228,6 +272,7 @@ export function TopBar({ actions, shell, variant = 'browse' }: TopBarProps) {
             <span className="h-5 w-px flex-none bg-line" aria-hidden="true" />
             <nav className="flex items-center gap-0.5" aria-label="站点导航">
               <DocButton />
+              <RepoButton />
             </nav>
           </div>
         ) : null}
