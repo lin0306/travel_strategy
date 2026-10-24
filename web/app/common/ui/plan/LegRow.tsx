@@ -26,6 +26,8 @@
  *    显示出来会写成"0 m 太远"这种自相矛盾的话），改说"走不过去 / 到不了"
  * ③ 打车费只在该模式且有值时才出现，且文案带「预估」（不含动态调价）
  */
+import { useEffect } from 'react'
+
 import { Icon, type IconName } from '~/common/ui/Icon'
 import { ModeSwitcher } from '~/common/ui/plan/ModeSwitcher'
 import { RouteOptionList } from '~/common/ui/plan/RouteOptionList'
@@ -77,6 +79,28 @@ export function LegRow({
 }) {
   const notApplicable = leg?.source === 'not-applicable'
   const modeLabel = leg ? MODE_META[leg.mode].label : ''
+
+  /**
+   * ★★ **展开时自动取一次**（2026-10-19 用户 bug）：
+   * 「我已经选中了其中一个了，然后再点开列表不会默认展示，必须要我先点其中一个，才会显示」。
+   *
+   * 原因：`optionSets` 原先只存在内存里，刷新 / 重开段详情就空了 —— 而展开时**没人**发起
+   * 拉取（只有点方式按钮才拉），于是"方式已高亮、方案卡却是空的"。
+   *
+   * 现在：展开 + 有已选方式 + 该方式还没有结果 ⇒ 自动取一次。
+   * - 命中 `routeSetCache`（24h 落盘）时是**零请求**的，直接出方案 / 地图线；
+   * - 没缓存才会真的发一次请求（这是用户期望的行为：选了方式就该看到方案）。
+   * - 守卫 `optionSet !== undefined`：无论成功/失败/配额拒绝，结果都会写进集合，
+   *   所以**不会循环重拉**；`optionLoading` 防重入。
+   * - `onRequestOptions` 故意不进依赖（父组件每次渲染都新建函数，放进去会无限循环）；
+   *   上面两条守卫已经保证幂等。
+   */
+  useEffect(() => {
+    if (!open || uid === undefined || !leg) return
+    if (optionSet !== undefined || optionLoading) return
+    onRequestOptions(leg.mode)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [open, uid, leg?.mode, optionSet, optionLoading])
 
   return (
     <div className="min-w-0 flex-1 pb-2.5">

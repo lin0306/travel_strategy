@@ -61,6 +61,9 @@
 
 import { useEffect, useMemo, useRef } from 'react'
 
+import { PosterExportButton, PosterProgressRow } from '~/common/ui/plan/poster/PosterExportButton'
+import { usePosterExport } from '~/common/ui/plan/poster/usePosterExport'
+
 import { closePagePoi, pageSpotListCity, useMapShell } from '~/common/logic/mapShell'
 import { usePlanStore } from '~/common/logic/itinerary/planStore'
 import { closePlanDetail, usePlanUi } from '~/common/logic/itinerary/planUi'
@@ -236,6 +239,9 @@ export function PlanDetailView() {
     usePlanUi.getState().setDetailDay(view.store.activeDay)
   }, [view.store.activeDay])
 
+  // 海报导出（poster/usePosterExport.ts）：只导当前天；无点位/方式没选全则禁用（ⓘ 悬浮看原因）
+  const { busy: posterBusy, progress: posterProgress, disabledReason: posterBlock, run: onExportPoster } =
+    usePosterExport(plan, view.city, view.store, view.store.activeDay)
 
   /**
    * 「添加景点」：**不换 URL**（2026-09-27 用户定）。
@@ -363,13 +369,10 @@ export function PlanDetailView() {
         />
       </div>
 
-      {/*
-       * ── 动作条：加明细的两条路 ──
-       * ★ 2026-09-28 用户要求挪到**最底部**（原来压在内容区顶部）：
-       *   这两个按钮是"往里加东西"的入口，而正文是**这一天已经排好的内容** ——
-       *   入口压在正文上面，等于每次看行程都先跨过两个按钮。
-       *   放到底部还顺带解决一件事：它不再跟着内容滚动，翻到第 20 条时也够得着。
-       */}
+      {/* 海报导出进度行（仅导出中渲染）—— 详细进度不进按钮（长文案会撑爆按钮，用户实测） */}
+      {posterProgress ? <PosterProgressRow text={posterProgress} /> : null}
+
+      {/* 动作条：加明细的入口在底部（2026-09-28 用户定 —— 不压正文、不跟内容滚动） */}
       <div className="flex flex-none gap-2 border-t border-line px-3.5 py-2.5">
         <button
           type="button"
@@ -389,6 +392,8 @@ export function PlanDetailView() {
           <Icon name="locate" size="sm" />
           {pickingHere ? '取消取点' : '地图上取点'}
         </button>
+        {/* 导出海报（按钮+悬浮提示一体，见 poster/PosterExportButton.tsx） */}
+        <PosterExportButton busy={posterBusy} disabledReason={posterBlock} onRun={onExportPoster} />
       </div>
 
       {/*

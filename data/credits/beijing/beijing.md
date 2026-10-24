@@ -1,12 +1,12 @@
 # 北京 · 数据来源与图片版权
 
-> 生成于 2026-10-17 · 城市数据最后更新 2026-09-19
+> 生成于 2026-10-24 · 城市数据最后更新 2026-09-19
 
 ## 概览
 
 - 省份：北京
 - adcode：110000
-- POI 数量：57
+- POI 数量：58
 
 ## 文本内容来源
 
@@ -23,6 +23,7 @@
 | 慕田峪长城 | [百度百科·慕田峪长城](https://baike.baidu.com/item/%E6%85%95%E7%94%B0%E5%B3%AA%E9%95%BF%E5%9F%8E) | wiki | 2026-09-23 |
 | 中国美术馆 | [百度百科·中国美术馆](https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E7%BE%8E%E6%9C%AF%E9%A6%86) | wiki | 2026-09-23 |
 | 中国国家博物馆 | [百度百科·中国国家博物馆](https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%8D%9A%E7%89%A9%E9%A6%86) | wiki | 2026-09-19 |
+| 国家自然博物馆 | [国家自然博物馆官网 · 开放时间与预约规则](https://nnhm.org.cn/) | official | 2026-10-23 |
 | 圆明园 | [百度百科·圆明园](https://baike.baidu.com/item/%E5%9C%86%E6%98%8E%E5%9B%AD) | wiki | 2026-09-19 |
 | 故宫博物院 | [百度百科·北京故宫博物院](https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E6%95%85%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%99%A2) | wiki | 2026-09-19 |
 | 恭王府 | [百度百科·恭王府](https://baike.baidu.com/item/%E6%81%AD%E7%8E%8B%E5%BA%9C) | wiki | 2026-09-19 |
@@ -110,6 +111,9 @@
 | 中国国家博物馆 | Natural History Museum: Coleoptera Section from South Kensin | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:BMNH_1269248_(15176146908).jpg) |
 | 中国国家博物馆 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Beijing_Museum_of_Natural_History_2.jpg) |
 | 中国国家博物馆 | Shizhao | CC BY-SA 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bmnh_1.jpg) |
+| 国家自然博物馆 | Natural History Museum: Coleoptera Section from South Kensin | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:BMNH_1269248_(15176146908).jpg) |
+| 国家自然博物馆 | The Biblical Museum of Natural History | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:BMNH_Barn.jpg) |
+| 国家自然博物馆 | The Biblical Museum of Natural History | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:BMNH_Classification.jpg) |
 | 圆明园 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20090731_Remains_of_the_Old_Summer_Palace_02.jpg) |
 | 圆明园 | FlyingBatt | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A_male_mandarin_duck_in_the_Yuanmingyuan_Wetland_in_Beijing_in_March_2024.jpg) |
 | 圆明园 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Concourse_of_Yuanmingyuan_Park_Station_(20210305142639).jpg) |

@@ -102,6 +102,16 @@ export const STORAGE_KEYS = {
   quota: 'chexing:quota',
   legCache: 'chexing:legcache',
   /**
+   * 已拉到的**多方案路线**（`routeOptionKey(uid|mode|prefer)` → `RouteOptionSet`，
+   * 含解码好的轨迹点串）—— 2026-10-19 用户定：「路线规划是实时的数据，能不能直接
+   * 把这个数据存下来，这样就不用每次重新算了，存选好的轨迹数据」。
+   *
+   * ★ 与 `legCache`（只有距离/时长，没有几何）是两个层级：这里才有**能画线的 path**。
+   * ★ 逐条 24 小时 TTL（实时路况会过期）+ 40 条 LRU（path 体积大）——
+   *   读写与裁剪的唯一出处是 `common/logic/itinerary/routeSetCache.ts`。
+   */
+  routeOptionSets: 'chexing:route-options',
+  /**
    * 逆地理编码结果（坐标 → 省市区），地图取点那一行的地址用。
    * 见 `common/logic/itinerary/geocode.ts`：同名坐标只查一次，LRU 300 条。
    */

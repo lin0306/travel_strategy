@@ -40,7 +40,7 @@ import json
 import os
 import re
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
@@ -168,6 +168,8 @@ def _norm(name: str) -> str:
 def discover_city(city_id: str, city_name: str, pages: int = 1) -> dict:
     """拓一座城的候选点位。返回统计字典。"""
     existing = _load_existing(city_id)
+    # ★ 本城开工前的账本快照。「有没有真发请求」只能靠它判，见 `_ps_requests()`。
+    before_period, before_req = _ps_requests()
     # ★ 归一化索引：图商「青城山风景区」与库内「青城山」是同一处，
     #   精确名去重挡不住（实测成都 5 个国家级景点里3 个被误列为候选）。
     existing_norm = {_norm(n) for n in existing}
@@ -265,6 +267,19 @@ def discover_city(city_id: str, city_name: str, pages: int = 1) -> dict:
                     })
 
     out_path = DISCOVER_DIR / f"{city_id}.json"
+    # ★★ 本城**零请求**（全是缓存命中）时**不重写**已存在的 JSON。
+    #   理由有两条，第二条更狠：
+    #     ① 白写一遍没有任何新信息；
+    #     ② 却会刷新 mtime ⇒ 破坏「真新增看文件清单差集」这个唯一可靠判据
+    #        （清单看不出差别，但 `ls -lt` 会显示"刚刚才跑过"，等于假报进度）。
+    after_period, after_req = _ps_requests()
+    same_period = after_period == before_period
+    net_requests = max(0, after_req - before_req) if same_period else 0
+    stat["netRequests"] = net_requests
+    touched = (not same_period) or net_requests > 0
+    if not touched and out_path.is_file():
+        print(f"   （本城全命中缓存，0 次请求 ⇒ 不重写 {out_path.name}）")
+        return stat
     # ★ `skippedByQuota` 必须落盘：**0 个候选**有两种完全不同的情况——
     #   「配额耗尽、一个请求都没发」 vs 「真去搜了、这城就是没有」。
     #   不区分的话，隔天看清单会误判成"这城没景点"，而真相是没跑成。
@@ -281,10 +296,51 @@ def discover_city(city_id: str, city_name: str, pages: int = 1) -> dict:
     return stat
 
 
-def _should_stop(until: str | None, done: int, quota_dead: bool) -> tuple[bool, str]:
+def _ps_requests() -> tuple[str, int]:
+    """读账本里 `place_search` 的（周期, 累计请求数）快照。
+
+    ★★ 用途：判「这一轮到底有没有真发请求」。`discover_city` 走
+      `use_cache=True`，缓存命中时**不打网络、不烧配额**，而 `stat["searched"]`
+      是**关键字循环次数**（缓存命中照样 +1）⇒ 它不能用来判断有没有真干活。
+      实测 2026-10-22：83 城全缓存后 `--loop` 会一直跑到 07:00，
+      每轮把 83 个 JSON 重写一遍、零请求 —— 定时任务挂 7 小时必被判失败。
+
+    ★ 返回 `("", -1)` 表示读不到账本。调用方据「周期相同 且 请求数相同」判空转，
+      周期变了（跨零点）就不敢判 —— 宁可多跑一轮，也不能误停。
+    """
+    try:
+        from pipeline.core import fetch
+        daily = fetch.load_ledger().get("daily") or {}
+        api = (daily.get("apis") or {}).get("place_search") or {}
+        return str(daily.get("period") or ""), int(api.get("requests") or 0)
+    except Exception:                                  # noqa: BLE001 —— 判据不该崩
+        return "", -1
+
+
+def _deadline(until: str) -> datetime:
+    """把 `--until HH:MM` 折算成**下一个**该时刻的绝对时间。
+
+    ★★ 2026-10-22 踩过：原来直接字符串比 `now >= until`
+      ⇒ 22:51 跑 `--until=07:00` 时 `"22:51" >= "07:00"` 为真，
+      **开局第一城都没跑就判"到点"退出**（日志：已跑 0 城）。
+      跨零点场景（夜里跑到次日凌晨）在这套写法下**必然**踩中。
+    """
+    hh, mm = (int(x) for x in until.split(":")[:2])
+    now = datetime.now()
+    target = now.replace(hour=hh, minute=mm, second=0, microsecond=0)
+    if target <= now:            # 今天这个点已经过了 ⇒ 指的是明天早上那个点
+        target += timedelta(days=1)
+    return target
+
+
+def _should_stop(deadline: datetime | None, done: int, quota_dead: bool) -> tuple[bool, str]:
     """守时循环的停止判据。返回 (是否停, 原因)。
 
-    ★ 三条停止条件，**优先级从高到低**：
+    ★ `deadline` 必须是**启动时算好的绝对时刻**（`_deadline()` 的结果），
+      不许在每次检查时重算 —— 那样到了 07:00 那一刻又会滚到次日同点，
+      循环永远等不到"到点"。
+
+    三条停止条件，**优先级从高到低**：
       1. **配额见底** —— 最重要的那条。硬跑只会得到一堆失败请求，
          还会把 `place_search` 的额度白烧在注定失败的调用上。
          ★ 只看**腾讯这一家**（高德额度已满，见 `_quota_dead`）。
@@ -293,10 +349,8 @@ def _should_stop(until: str | None, done: int, quota_dead: bool) -> tuple[bool, 
     """
     if quota_dead:
         return True, "配额见底（腾讯 place_search 日配额用尽）"
-    if until:
-        now = datetime.now().strftime("%H:%M")
-        if now >= until:
-            return True, f"到点 {until}"
+    if deadline and datetime.now() >= deadline:
+        return True, f"到点 {deadline:%H:%M}"
     if done and not _LOOP:
         return True, "城市清单已跑完（未开 --loop）"
     return False, ""
@@ -415,12 +469,17 @@ def main(argv: list[str] | None = None) -> int:
         print(f"★ 优先补跑上次被配额掐断的城市（{len(skipped_first)} 个）："
               + "、".join(c for c, _ in skipped_first[:8]))
 
+    # ★ 截止时刻**只算一次**（绝对时间），循环里不再重算
+    deadline = _deadline(until) if until else None
+
     # ★ 守时循环的三个开关，打印清楚，别让人以为它只跑一轮
     if _LOOP or until:
         print(f"▶ 点位发现：守时循环模式")
         print(f"   · 城市池 {len(targets)} 城（反复跑，直到时间/配额到顶）")
         print(f"   · 每类目 {pages} 页")
-        print(f"   · 停止条件：到点 {until or '不限'} · 或配额见底 · 或手动 Ctrl+C")
+        print(f"   · 停止条件：到点 {until or '不限'}"
+              + (f"（绝对 {deadline:%m-%d %H:%M}）" if deadline else "")
+              + " · 或配额见底 · 或手动 Ctrl+C")
         print(f"★ **配额是硬约束**：腾讯 place_search 200/日 ÷ 36 次/城 ≈ **5 城/日**；")
         print(f"  用尽即整批停止（高德额度已满，本任务固定 `GEO_PROVIDER=tencent` 不用它）。")
     elif only:
@@ -437,10 +496,12 @@ def main(argv: list[str] | None = None) -> int:
     try:
         while True:
             round_no += 1
+            # ★ 本轮真实网络请求数累计（缓存命中不计数）。轮末据此判空转。
+            round_net = 0
             print(f"\n════ 第 {round_no} 轮 "
                   f"（{datetime.now().strftime('%H:%M:%S')}）════")
             for cid, cname in targets:
-                stop, why = _should_stop(until, cities_done, _quota_dead())
+                stop, why = _should_stop(deadline, cities_done, _quota_dead())
                 if stop:
                     print(f"\n⏹ 停止：{why}")
                     print(f"   已跑 {cities_done} 城（{cities_done * 36} 次搜索）")
@@ -457,6 +518,7 @@ def main(argv: list[str] | None = None) -> int:
                     print(f"   ⚠️ 该城失败：{type(e).__name__}: {str(e)[:80]}")
                     continue
                 cities_done += 1
+                round_net += st.get("netRequests", 0)
                 for k in grand:
                     grand[k] += st[k]
                 print(f"  搜 {st['searched']} 次 · 回 {st['returned']} 条 · "
@@ -469,6 +531,17 @@ def main(argv: list[str] | None = None) -> int:
                     print(f"   已跑 {cities_done} 城（{cities_done * 36} 次搜索）")
                     print(f"   ★ 这一城搜到的 {st['new']} 个候选**已落盘**，没丢")
                     return 0
+
+            # ★★ 一整轮跑完，却一次请求都没发 ⇒ 全城命中缓存 ⇒ 再循环也是空转。
+            #   实测 2026-10-22：83 城全缓存后 `--loop` 会一路空转到 07:00，
+            #   每轮只是把 83 个 JSON 重写一遍（连 mtime 都变成"刚跑过"，
+            #   等于假报进度）。定时任务挂在这样的进程上必然被判超时/失败。
+            #   ⇒ 这里主动收工，把"该由人决定的事"（加缓存 TTL / 清缓存）留在日报里。
+            if round_net == 0:
+                print(f"\n⏹ 停止：本轮 {len(targets)} 城**零请求**（全部命中 place_search 缓存）")
+                print("   ★ 没有未缓存的城市可拓 ⇒ 继续 --loop 只会空转、不会产出新候选。")
+                print("   ★ 想重扫老城：清掉 place_search 缓存，或给缓存加 TTL。")
+                return 0
     except KeyboardInterrupt:
         print(f"\n⏹ 被手动中断（Ctrl+C）—— 已完成的城**候选都已落盘**，不会丢")
 

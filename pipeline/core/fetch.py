@@ -335,15 +335,44 @@ def cache_path(name: str) -> Path:
     return p
 
 
+#: 缓存文件的**进程内快照**：`{name: (mtime_ns, dict)}`。
+#:
+#: ★★ 为什么必须有它（2026-10-22 实测）：`pipeline/.cache/place.json` 有 **11MB**，
+#:   而 `place_search` **每调一次**就 `load_cache()` 全量 `json.loads` 一遍。
+#:   discover 回放 83 城 × 36 个关键字 ≈ 3000 次 ⇒ **30GB+ 的重复解析**，
+#:   实测一轮纯缓存回放要跑 **10 分钟以上**（定时任务因此被判超时）。
+#:   而缓存命中时**不打网络、不烧配额**，本来就是毫秒级的事。
+#:
+#: 正确性：判据是 `mtime_ns` —— 文件被别人改了（或本轮自己 `save_cache` 过）
+#:   就重读，不会读到陈旧快照。所有调用点都是「读 → mutate → save_cache(同一对象)」，
+#:   写后 memo 与文件同步，因此**共享同一 dict 对象是安全的**。
+_CACHE_MEMO: dict[str, tuple[int, dict]] = {}
+
+
 def load_cache(name: str) -> dict:
     p = cache_path(name)
-    if p.exists():
-        try:
-            return json.loads(p.read_text(encoding="utf-8"))
-        except json.JSONDecodeError:
-            return {}
-    return {}
+    if not p.exists():
+        return {}
+    try:
+        mtime = p.stat().st_mtime_ns
+    except OSError:
+        mtime = -1
+    hit = _CACHE_MEMO.get(name)
+    if hit is not None and hit[0] == mtime:
+        return hit[1]
+    try:
+        obj = json.loads(p.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+    _CACHE_MEMO[name] = (mtime, obj)
+    return obj
 
 
 def save_cache(name: str, obj: dict) -> None:
     write_json(cache_path(name), obj)
+    # ★ 写后同步 memo —— 顺序不能反：先落盘、再取 mtime，否则记下的是旧 mtime，
+    #   下一次 `load_cache` 会判定"文件变了"而多读一遍（无害但白费）。
+    try:
+        _CACHE_MEMO[name] = (cache_path(name).stat().st_mtime_ns, obj)
+    except OSError:
+        _CACHE_MEMO.pop(name, None)

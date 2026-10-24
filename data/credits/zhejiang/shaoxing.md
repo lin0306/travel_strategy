@@ -1,12 +1,12 @@
 # 绍兴 · 数据来源与图片版权
 
-> 生成于 2026-10-17 · 城市数据最后更新 2026-10-04
+> 生成于 2026-10-24 · 城市数据最后更新 2026-10-04
 
 ## 概览
 
 - 省份：浙江
 - adcode：330600
-- POI 数量：57
+- POI 数量：68
 
 ## 文本内容来源
 
@@ -16,6 +16,8 @@
 | 八字桥 | [百度百科·八字桥](https://baike.baidu.com/item/%E5%85%AB%E5%AD%97%E6%A1%A5) | wiki | 2026-10-04 |
 | 蔡元培故居 | [百度百科·蔡元培故居](https://baike.baidu.com/item/%E8%94%A1%E5%85%83%E5%9F%B9%E6%95%85%E5%B1%85) | wiki | 2026-10-04 |
 | 仓桥直街 | [百度百科·仓桥直街](https://baike.baidu.com/item/%E4%BB%93%E6%A1%A5%E7%9B%B4%E8%A1%97) | wiki | 2026-10-04 |
+| 曹娥庙 | [曹娥庙被誉为江南第一庙 · 古鉴随笔](http://mp.weixin.qq.com/s?__biz=MzY4OTMzMjUxNQ==&mid=2247484284&idx=1&sn=3ff9906a8bf9b7c16010d49aca047aaa) | media | 2026-10-24 |
+| 崇仁古镇 | [崇仁古镇 · Trip.com 2026 旅客实拍](https://tw.trip.com/moments/theme/poi-chongren-ancient-town-80717-attraction-993137) | travel-platform | 2026-10-24 |
 | 穿岩十九峰 | [百度百科·穿岩十九峰](https://baike.baidu.com/item/%E7%A9%BF%E5%B2%A9%E5%8D%81%E4%B9%9D%E5%B3%B0) | wiki | 2026-10-04 |
 | 大香林·兜率天 | [百度百科·大香林](https://baike.baidu.com/item/%E5%A4%A7%E9%A6%99%E6%9E%97) | wiki | 2026-10-04 |
 | 大禹陵 | [百度百科·大禹陵](https://baike.baidu.com/item/%E5%A4%A7%E7%A6%B9%E9%99%B5) | wiki | 2026-10-04 |
@@ -31,13 +33,20 @@
 | 鲁迅故里 | [百度百科·鲁迅故里](https://baike.baidu.com/item/%E9%B2%81%E8%BF%85%E6%95%85%E9%87%8C) | wiki | 2026-10-04 |
 | 青藤书屋 | [百度百科·青藤书屋](https://baike.baidu.com/item/%E9%9D%92%E8%97%A4%E4%B9%A6%E5%B1%8B) | wiki | 2026-10-04 |
 | 秋瑾故居 | [百度百科·秋瑾故居](https://baike.baidu.com/item/%E7%A7%8B%E7%91%BE%E6%95%85%E5%B1%85) | wiki | 2026-10-04 |
+| 上虞博物馆 | [上虞博物馆新馆 · 百度百科](https://baike.baidu.com/item/%E4%B8%8A%E8%99%9E%E5%8D%9A%E7%89%A9%E9%A6%86%E6%96%B0%E9%A6%86/64147135) | wiki | 2026-10-24 |
 | 绍兴博物馆 | [百度百科·绍兴博物馆](https://baike.baidu.com/item/%E7%BB%8D%E5%85%B4%E5%8D%9A%E7%89%A9%E9%A6%86) | wiki | 2026-10-04 |
 | 沈园 | [百度百科·沈园](https://baike.baidu.com/item/%E6%B2%88%E5%9B%AD) | wiki | 2026-10-04 |
 | 书圣故里 | [百度百科·书圣故里](https://baike.baidu.com/item/%E4%B9%A6%E5%9C%A3%E6%95%85%E9%87%8C) | wiki | 2026-10-04 |
+| 天烛仙境风景区 | [天燭湖仙境景區 · Trip.com 旅客实拍](https://hk.trip.com/moments/poi-tianzhu-lake-wonderland-scenic-area-86225/) | travel-platform | 2026-10-24 |
+| 世界淡水珍珠博物馆 | [世界淡水珍珠博物馆 · 百度百科](https://baike.baidu.com/item/%E4%B8%96%E7%95%8C%E6%B7%A1%E6%B0%B4%E7%8F%8D%E7%8F%A0%E5%8D%9A%E7%89%A9%E9%A6%86/58008224) | wiki | 2026-10-24 |
 | 五泄风景区 | [百度百科·五泄风景区](https://baike.baidu.com/item/%E4%BA%94%E6%B3%84) | wiki | 2026-10-04 |
+| 新昌大佛寺 | [新昌大佛寺 · 携程景点攻略](https://gs.ctrip.com/html5/you/sight/933/5706115.html) | travel-platform | 2026-10-24 |
+| 新昌博物馆 | [新昌县公共文化场馆免费开放信息 · 新昌县人民政府](https://www.zjxc.gov.cn/col/col1229796776/art/2026/art_da07939943d24390a920e82f1986fed5.html) | gov | 2026-10-24 |
 | 西施故里 | [百度百科·西施故里](https://baike.baidu.com/item/%E8%A5%BF%E6%96%BD%E6%95%85%E9%87%8C) | wiki | 2026-10-04 |
 | 印山越国王陵 | [百度百科·印山越国王陵](https://baike.baidu.com/item/%E5%8D%B0%E5%B1%B1%E8%B6%8A%E5%9B%BD%E7%8E%8B%E9%99%B5) | wiki | 2026-10-04 |
+| 浙东运河博物馆 | [浙东运河文化园 · 百度百科](https://baike.baidu.com/item/%E6%B5%99%E4%B8%9C%E8%BF%90%E6%B2%B3%E6%96%87%E5%8C%96%E5%9B%AD/68561481) | wiki | 2026-10-24 |
 | 周恩来祖居 | [百度百科·周恩来祖居](https://baike.baidu.com/item/%E5%91%A8%E6%81%A9%E6%9D%A5%E7%A5%96%E5%B1%85) | wiki | 2026-10-04 |
+| 诸暨博物馆 | [诸暨市博物馆 · 百度百科](https://baike.baidu.com/item/%E8%AF%B8%E6%9A%A8%E5%8D%9A%E7%89%A9%E9%A6%86/1581024) | wiki | 2026-10-24 |
 | 次坞打面(诸暨) | [百度百科·次坞打面](https://baike.baidu.com/item/%E6%AC%A1%E5%9D%9E%E6%89%93%E9%9D%A2) | wiki | 2026-10-04 |
 | 枫桥香榧 | [百度百科·香榧](https://baike.baidu.com/item/%E9%A6%99%E6%A6%A7) | wiki | 2026-10-04 |
 | 茴香豆 | [百度百科·茴香豆](https://baike.baidu.com/item/%E8%8C%B4%E9%A6%99%E8%B1%86) | wiki | 2026-10-04 |
@@ -64,6 +73,8 @@
 | 书圣故里文创街 | [百度百科·书圣故里](https://baike.baidu.com/item/%E4%B9%A6%E5%9C%A3%E6%95%85%E9%87%8C) | wiki | 2026-10-04 |
 | 迎恩门水街 | [百度百科·迎恩门](https://baike.baidu.com/item/%E8%BF%8E%E6%81%A9%E9%97%A8) | wiki | 2026-10-04 |
 | 绍兴黄酒酿造技艺 | [百度百科·绍兴黄酒](https://baike.baidu.com/item/%E7%BB%8D%E5%85%B4%E9%BB%84%E9%85%92) | wiki | 2026-10-04 |
+| 柯桥历史文化街区 | [万物皆「古」，绍兴古镇「古」在哪 · 绍兴市文化广电旅游局](https://sxwg.sx.gov.cn/col/col1229534423/art/2025/art_f52685fa756a426a979db72af0755154.html) | gov | 2026-10-24 |
+| 里江北历史文化街区 | [裏江北歷史文化街區 · Trip.com 旅客实拍](https://tw.trip.com/moments/poi-lijiang-north-historical-and-cultural-district-136246313/) | travel-platform | 2026-10-24 |
 | 鲁迅与绍兴文学 | [百度百科·鲁迅](https://baike.baidu.com/item/%E9%B2%81%E8%BF%85) | wiki | 2026-10-04 |
 | 绍兴平湖调·莲花落 | [百度百科·绍兴平湖调](https://baike.baidu.com/item/%E7%BB%8D%E5%85%B4%E5%B9%B3%E6%B9%96%E8%B0%83) | wiki | 2026-10-04 |
 | 兰亭书法文化 | [百度百科·兰亭集序](https://baike.baidu.com/item/%E5%85%B0%E4%BA%AD%E9%9B%86%E5%BA%8F) | wiki | 2026-10-04 |
@@ -87,6 +98,12 @@
 | 仓桥直街 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baozhu_Bridge_in_Shaoxing_01_2012-07.jpg) |
 | 仓桥直街 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baozhu_Bridge_in_Shaoxing_02_2012-07.jpg) |
 | 仓桥直街 | 猫猫的日记本 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Cangqiao_Straight_Street_01_2012-07.jpg) |
+| 曹娥庙 | 猫猫的日记本 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Cao_E_Stele_in_Caoe_Temple_01_2014-08.JPG) |
+| 曹娥庙 | Arthur Duhurst | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Cao_E_Temple.JPG) |
+| 曹娥庙 | 猫猫的日记本 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Caoe_Temple_07_2014-08.JPG) |
+| 崇仁古镇 | 三猎 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B4%87%E4%BB%81_%E4%BC%9F%E9%95%87%E5%BA%991.jpg) |
+| 崇仁古镇 | 三猎 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B4%87%E4%BB%81_%E4%BC%9F%E9%95%87%E5%BA%992.jpg) |
+| 崇仁古镇 | 三猎 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B4%87%E4%BB%81_%E4%BC%9F%E9%95%87%E5%BA%993.jpg) |
 | 穿岩十九峰 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-traditional-bridge-in-shaoxing-china-38512878/) |
 | 穿岩十九峰 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/serene-chinese-pavilion-in-shaoxing-landscape-38249370/) |
 | 穿岩十九峰 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/serene-autumn-landscape-in-shaoxing-china-31122114/) |
@@ -131,6 +148,9 @@
 | 秋瑾故居 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2000%E5%B9%B4%E7%A7%8B%E7%91%BE%E6%95%85%E5%B1%85%E9%99%84%E8%BF%91_-_panoramio.jpg) |
 | 秋瑾故居 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Residence_of_Qiu_Jin_in_Shaoxing_01_2012-07.JPG) |
 | 秋瑾故居 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Residence_of_Qiu_Jin_in_Shaoxing_13_2012-07.JPG) |
+| 上虞博物馆 | 猫猫的日记本 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shangyu_Museum_02_2014-08.JPG) |
+| 上虞博物馆 | 猫猫的日记本 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shangyu_Museum_03_2014-08.JPG) |
+| 上虞博物馆 | 猫猫的日记本 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shangyu_Museum_04_2014-08.JPG) |
 | 绍兴博物馆 | 猫猫的日记本 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lun_Heng_in_Shaoxing_Museum_2018-04.JPG) |
 | 绍兴博物馆 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shaoxing_Museum_01_2012-07.JPG) |
 | 绍兴博物馆 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shaoxing_Museum_02_2012-07.JPG) |
@@ -138,18 +158,36 @@
 | 沈园 | kingwill | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shaoxing_Shen%27s_Garden_%E7%BB%8D%E5%85%B4%E6%B2%88%E5%9B%AD_-_panoramio.jpg) |
 | 沈园 | 猫猫的日记本 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shen_Garden_in_Shaoxing_14_2024-03.jpg) |
 | 书圣故里 | liubozhi | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B9%A6%E5%9C%A3%E6%95%85%E9%87%8C_-_panoramio.jpg) |
+| 天烛仙境风景区 | jiawei cui | Pexels License | [pexels](https://www.pexels.com/photo/field-covered-with-snow-under-white-and-gray-skies-2310907/) |
+| 天烛仙境风景区 | Geoffrey Zhao | Pexels License | [pexels](https://www.pexels.com/photo/scenic-winter-landscape-with-frozen-lake-37435664/) |
+| 天烛仙境风景区 | carol wd | Pexels License | [pexels](https://www.pexels.com/photo/grayscale-photo-of-a-woman-in-black-jacket-and-pants-standing-on-rock-formation-5597731/) |
+| 世界淡水珍珠博物馆 | Maria Mileta | Pexels License | [pexels](https://www.pexels.com/photo/white-pearl-necklace-on-white-surface-5357486/) |
+| 世界淡水珍珠博物馆 | Alexander Mass | Pexels License | [pexels](https://www.pexels.com/photo/elegant-woman-on-staircase-in-vintage-setting-31052878/) |
+| 世界淡水珍珠博物馆 | Jesús Martín | Pexels License | [pexels](https://www.pexels.com/photo/military-vessel-moored-on-shore-15391189/) |
 | 五泄风景区 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-traditional-bridge-in-shaoxing-china-38512878/) |
 | 五泄风景区 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/serene-chinese-pavilion-in-shaoxing-landscape-38249370/) |
 | 五泄风景区 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/serene-autumn-landscape-in-shaoxing-china-31122114/) |
+| 新昌大佛寺 | 黑揍红 | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%96%B0%E6%98%8C%E5%A4%A7%E4%BD%9B%E5%AF%BA,_2019-12-07_1.jpg) |
+| 新昌大佛寺 | 黑揍红 | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%96%B0%E6%98%8C%E5%A4%A7%E4%BD%9B%E5%AF%BA,_2019-12-07_2.jpg) |
+| 新昌大佛寺 | 黑揍红 | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%96%B0%E6%98%8C%E5%A4%A7%E4%BD%9B%E5%AF%BA,_2019-12-07_3.jpg) |
+| 新昌博物馆 | chuanyu2060 🐴 | Pexels License | [pexels](https://www.pexels.com/photo/blue-jar-near-table-2231506/) |
+| 新昌博物馆 | Jeffry Surianto | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-architecture-with-stone-sculpture-35166083/) |
+| 新昌博物馆 | Levent Simsek | Pexels License | [pexels](https://www.pexels.com/photo/wall-of-bode-museum-in-berlin-18873631/) |
 | 西施故里 | zjctming | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Traditional_house_with_courtyards_in_Zhuji,_China.jpg) |
 | 西施故里 | No machine-readable author provided. Zjctming assumed (based | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xsgl1.jpg) |
 | 西施故里 | 陈铁铭 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xsgl10.JPG) |
 | 印山越国王陵 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yinshan_Mausoleum,_2021-04-17_01.jpg) |
 | 印山越国王陵 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yinshan_Mausoleum,_2021-04-17_02.jpg) |
 | 印山越国王陵 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yinshan_Mausoleum,_2021-04-17_03.jpg) |
+| 浙东运河博物馆 | Relaxing Journeys | Pexels License | [pexels](https://www.pexels.com/photo/scenic-canal-and-historic-architecture-in-summer-37015378/) |
+| 浙东运河博物馆 | Relaxing Journeys | Pexels License | [pexels](https://www.pexels.com/photo/scenic-canal-in-traditional-chinese-water-town-37015398/) |
+| 浙东运河博物馆 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-traditional-bridge-in-shaoxing-china-38512878/) |
 | 周恩来祖居 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Residence_of_Zhou_Enlai%27s_Ancestors_01_2012-07.JPG) |
 | 周恩来祖居 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Residence_of_Zhou_Enlai%27s_Ancestors_03_2012-07.JPG) |
 | 周恩来祖居 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Residence_of_Zhou_Enlai%27s_Ancestors_04_2012-07.JPG) |
+| 诸暨博物馆 | 猫猫的日记本 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Archway_of_Zhuji_Museum_03_2023-06.jpg) |
+| 诸暨博物馆 | 猫猫的日记本 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yao_Shunming%27s_Epitaph_01_2023-06.jpg) |
+| 诸暨博物馆 | 猫猫的日记本 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yao_Shunming%27s_Epitaph_02_2023-06.jpg) |
 | 次坞打面(诸暨) | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Ciwu_Damian_with_pork_kidney_and_2_eggs_at_ZJ-S43_Ciwu_Service_Area_(20250201100411).jpg) |
 | 次坞打面(诸暨) | 源義信 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A_bowl_of_Ci_wu_da_mian_(%E6%AC%A1%E5%A1%A2%E6%89%93%E9%9D%A2)_sold_in_Ningbo.jpg) |
 | 枫桥香榧 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
@@ -209,6 +247,12 @@
 | 绍兴黄酒酿造技艺 | Qing Luo | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-street-with-red-lanterns-37602660/) |
 | 绍兴黄酒酿造技艺 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/historic-stone-bridge-in-shaoxing-ancient-town-38249305/) |
 | 绍兴黄酒酿造技艺 | Relaxing Journeys | Pexels License | [pexels](https://www.pexels.com/photo/scenic-canal-in-traditional-chinese-water-town-37015398/) |
+| 柯桥历史文化街区 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/historic-stone-bridge-in-shaoxing-ancient-town-38249305/) |
+| 柯桥历史文化街区 | Relaxing Journeys | Pexels License | [pexels](https://www.pexels.com/photo/scenic-canal-in-traditional-chinese-water-town-37015398/) |
+| 柯桥历史文化街区 | Qing Luo | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-street-with-red-lanterns-37602660/) |
+| 里江北历史文化街区 | KITSUN YUEN | Pexels License | [pexels](https://www.pexels.com/photo/narrow-street-in-small-village-7615029/) |
+| 里江北历史文化街区 | Efrem  Efre | Pexels License | [pexels](https://www.pexels.com/photo/apartment-building-20133712/) |
+| 里江北历史文化街区 | fei wang | Pexels License | [pexels](https://www.pexels.com/photo/gate-in-chinatown-14553045/) |
 | 鲁迅与绍兴文学 | Donated and funded by Liyujiang Power Plant; Uploaded by Hua | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lu_Xun%27s_statue,_Changsha_University_of_Science_and_Technology18.jpg) |
 | 绍兴平湖调·莲花落 | 陈文 https://www.flickr.com/people/univers-finder/ | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Complete_Tales_of_Yue_Shaoxing_opera_1.jpg) |
 | 绍兴平湖调·莲花落 | 陈文 https://www.flickr.com/people/univers-finder/ | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Complete_Tales_of_Yue_Shaoxing_opera_3.jpg) |

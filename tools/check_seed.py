@@ -28,7 +28,7 @@ GROUPS = (("scenic", "SCENIC"), ("food", "FOOD"), ("hotspot", "HOTSPOT"), ("cult
 WANT = {"scenic": 26, "food": 15, "hotspot": 10, "culture": 6}
 
 
-def check(city_id: str) -> int:
+def check(city_id: str, *, count: bool = True) -> int:
     try:
         mod = importlib.import_module(f"pipeline.seeds.{city_id}")
     except Exception as e:
@@ -40,9 +40,12 @@ def check(city_id: str) -> int:
     for cat, attr in GROUPS:
         items = getattr(mod, attr, [])
         want = WANT[cat]
-        flag = "  " if len(items) == want else "❌"
+        # ★ `--no-count` 时数量只提示、不计错。判据：`WANT` 是**扩城目标配额**，
+        #   而已入库城市本来就有偏差（实测北京加条目前是 22/16/12/7 共 57 条，
+        #   四条全 ❌ 但数据是好的）⇒ 拿它卡"增量入库"会天天误报。
+        flag = "  " if len(items) == want else ("❌" if count else "·")
         print(f"{flag} {cat:<8} {len(items)}/{want}")
-        if len(items) != want:
+        if count and len(items) != want:
             bad += 1
         ids: set[str] = set()
         for d in items:
@@ -83,9 +86,15 @@ def check(city_id: str) -> int:
 
 
 def main() -> int:
-    args = sys.argv[1:]
+    argv = sys.argv[1:]
+    if not argv:
+        print("用法：python tools/check_seed.py <城市id>|--all [--no-count]")
+        print("      --no-count  只查字段级错误，不拿 WANT 目标配额卡数量")
+        return 2
+    count = "--no-count" not in argv
+    args = [a for a in argv if not a.startswith("--")]
     if not args:
-        print("用法：python tools/check_seed.py <城市id>|--all")
+        print("用法：python tools/check_seed.py <城市id>|--all [--no-count]")
         return 2
     if args[0] == "--all":
         d = REPO / "pipeline" / "seeds"
@@ -95,7 +104,7 @@ def main() -> int:
     rc = 0
     for cid in ids:
         print(f"── {cid} ──")
-        rc |= check(cid)
+        rc |= check(cid, count=count)
     return rc
 
 

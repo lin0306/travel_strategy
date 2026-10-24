@@ -1,0 +1,116 @@
+{
+  "id": "national-natural-history-museum",
+  "name": "国家自然博物馆",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "恐龙骨架与人类起源同框的自然史课堂，免费但要抢预约",
+  "description": "前身是 1959 年开馆的北京自然博物馆，2023 年更名为国家自然博物馆，是国内自然史收藏最完整的场馆之一。基本陈列按古生物、动物、植物、人类几个方向铺开：一层古生物大厅的合川马门溪龙骨架是最容易被记住的一件展品，人类起源展区陈列着“北京人”头盖骨化石模型——原件在抗战年间失踪，馆藏的牙齿化石模型由瑞典乌普萨拉大学古生物演化博物馆于 2026 年赠予。展陈方式偏传统，标本柜加图文说明，互动装置不多，但对学龄儿童足够友好，恐龙公园与 4D 影厅是小孩最容易坐得住的两处。全馆认真看需要半天；只带孩子看恐龙，两个小时够用。基本陈列免费，代价是要抢预约：全员实名分时段，只能提前 1 到 3 天在官网或微信公众号订，周末与寒暑假的名额放出后很快见底。",
+  "highlights": [
+    "古生物大厅的合川马门溪龙骨架是馆内最标志的一件展品",
+    "基本陈列免费，特展与 4D 影厅单独收费"
+  ],
+  "location": {
+    "point": {
+      "lng": 116.399739,
+      "lat": 39.883095,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "北京市东城区天桥南大街 126 号",
+    "district": "东城",
+    "transportTip": "地铁 8 号线天桥站步行约 5 分钟"
+  },
+  "practical": {
+    "openHours": "周二至周日 09:00-17:00（16:30 停止入馆），周一闭馆（法定节假日除外）",
+    "openHoursRef": 0,
+    "ticket": "基本陈列免费，特展与 4D 影厅另行购票",
+    "ticketRef": 0,
+    "duration": "建议 120-180 分钟",
+    "durationMinutes": [
+      120,
+      180
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "kids",
+    "family"
+  ],
+  "accessible": true,
+  "tips": [
+    "提前 1-3 天在官网或微信公众号实名分时段预约，无预约当日不能入馆",
+    "周一闭馆；暑期（7-8 月）闭馆日临时调整为周二"
+  ],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/BMNH_1269248_%2815176146908%29.jpg/1280px-BMNH_1269248_%2815176146908%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/BMNH_1269248_%2815176146908%29.jpg/1280px-BMNH_1269248_%2815176146908%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1424,
+      "alt": "BMNH 1269248 (15176146908).jpg",
+      "query": "国家自然博物馆 北京",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Natural History Museum: Coleoptera Section from South Kensin",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BMNH_1269248_(15176146908).jpg",
+        "license": "CC BY 2.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/BMNH_Barn.jpg/1280px-BMNH_Barn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/BMNH_Barn.jpg/1280px-BMNH_Barn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 730,
+      "alt": "BMNH Barn.jpg",
+      "query": "国家自然博物馆 北京",
+      "credit": {
+        "source": "wikimedia",
+        "author": "The Biblical Museum of Natural History",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BMNH_Barn.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/BMNH_Classification.jpg/1280px-BMNH_Classification.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/BMNH_Classification.jpg/1280px-BMNH_Classification.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "BMNH Classification.jpg",
+      "query": "国家自然博物馆 北京",
+      "credit": {
+        "source": "wikimedia",
+        "author": "The Biblical Museum of Natural History",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BMNH_Classification.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "自然史",
+    "亲子",
+    "免费",
+    "需预约"
+  ],
+  "popularity": 78,
+  "sources": [
+    {
+      "title": "国家自然博物馆官网 · 开放时间与预约规则",
+      "url": "https://nnhm.org.cn/",
+      "kind": "official",
+      "fetchedAt": "2026-10-23"
+    }
+  ],
+  "updatedAt": "2026-10-23",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "National Natural History Museum of China",
+    "zh": "国家自然博物馆"
+  },
+  "_geocodeTitle": "国家自然博物馆",
+  "_geocodeSuspect": false,
+  "district": "110101"
+}

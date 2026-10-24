@@ -31,13 +31,19 @@
  *    互不通用 —— JS key 拿去调 WebService 接口会被拒。没配时如实说明，
  *    而不是让它以"查询失败"的面目出现（那会让人以为是网络问题）。
  *
- * ★ 结果**不落盘**：它含实时路况（2 小时 TTL），持久化只会让用户第二天
- *   看到昨天的路况快照。
+ * ## ★★ 结果**落盘**了（2026-10-19 用户改定，推翻此前"不落盘"的决策）
+ * 此前理由："它含实时路况（2 小时 TTL），持久化只会让用户第二天看到昨天的路况快照"。
+ * 但用户实测后的诉求更硬：「路线规划是实时的数据，能不能直接把这个数据存下来，
+ * 这样就不用每次重新算了，存选好的轨迹数据」—— 而且不落盘的后果是**两个 bug**：
+ * ① 刷新后方案卡空、地图没线，必须手动再点一次方式才拉；
+ * ② 每次重复拉取吃配额（每日 100 次），耗尽后被拒的段在海报里变成直线。
+ * ⇒ 现在落盘 24 小时（`routeSetCache.ts`），过期即视为无缓存、展开会重拉。
  */
 
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 import { canCallRouteOptions } from '~/common/logic/itinerary/quotaLedger'
+import { loadRouteSets, saveRouteSets } from '~/common/logic/itinerary/routeSetCache'
 import {
   fetchRouteOptions,
   routeOptionKey,
@@ -67,14 +73,27 @@ export function useRouteOptions({
   legOfUid: (uid: string) => LegResult | null
   resetKey: string
 }): RouteOptionsState {
-  const [optionSets, setOptionSets] = useState<Record<string, RouteOptionSet>>({})
+  // ★ 懒初始化：**先吃持久化缓存**（24h TTL）—— 刷新/重开段详情时方案与轨迹直接可用，
+  //   不需要再发一次请求（用户 2026-10-19：「已经选中了，再点开列表不会默认展示」）
+  const [optionSets, setOptionSets] = useState<Record<string, RouteOptionSet>>(() => loadRouteSets())
   const [optionLoading, setOptionLoading] = useState<string | null>(null)
 
-  // 换城市 → 上一座城的路线不能带过来
+  // 换城市 → 上一座城的路线不能带过来（内存 + 落盘一起清）。
+  // ★ 必须**跳过首次挂载**：这个 effect 在挂载时也会跑一次，直接清会把上面刚读到的
+  //   持久化缓存抹掉（表现为"缓存失效、仍要重新拉"—— 正是本次要修的症状）。
+  const lastResetKey = useRef(resetKey)
   useEffect(() => {
+    if (lastResetKey.current === resetKey) return
+    lastResetKey.current = resetKey
     setOptionSets({})
     setOptionLoading(null)
+    saveRouteSets({})
   }, [resetKey])
+
+  // 每次集合变化落盘（LRU 40 + 逐条 TTL 判定都在 saveRouteSets / loadRouteSets 里）
+  useEffect(() => {
+    saveRouteSets(optionSets)
+  }, [optionSets])
 
   const requestOptions = (uid: string, mode: TravelMode, prefer?: TransitPrefer) => {
     const leg = legOfUid(uid)

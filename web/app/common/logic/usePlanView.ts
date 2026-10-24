@@ -45,7 +45,7 @@ import {
   type LegOverride,
   type LegResult,
 } from '~/common/logic/itinerary/resolveLeg'
-import type { RouteOptionSet } from '~/common/logic/itinerary/routeOptions'
+import { routeOptionKey, type RouteOptionSet } from '~/common/logic/itinerary/routeOptions'
 import {
   buildShareUrl,
   downloadJson,
@@ -276,7 +276,9 @@ export function useItineraryView(
       if (!uid || !leg) return
       const key = store.chosenOption[uid]
       if (!key) return
-      const set = optionSets[uid]
+      // ★ 键必须是 `routeOptionKey(uid, mode, prefer)` —— 集合里存的就是这个键。
+      //   原先写成 `optionSets[uid]`（永远查不到）⇒ **手选方案的时长从未生效过**（2026-10-19 修）
+      const set = optionSets[routeOptionKey(uid, leg.mode, st.item?.transitPrefer)]
       if (!set) return
       const opt = set.options.find((o) => o.key === key)
       if (!opt) return
