@@ -1,0 +1,119 @@
+{
+  "id": "pingshan-art-museum",
+  "name": "坪山美术馆",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "深圳东部的当代艺术馆，免费免预约，白色旋转楼梯是它最出片的地方",
+  "description": "坪山文化聚落里的公立美术馆，主打实验性当代艺术与新媒体艺术，建筑本身是它的第一个展品：纯白色旋转楼梯和带悬浮感的体量，专程来拍照的人不少。馆内常设内容包括开馆以来的馆藏特展和三楼的虚拟美术馆，特展换得比较勤。免费、无需预约，人多时会分段限流。它在深圳东部，从市中心过来一趟要一小时以上，建议和同在汇德路的坪山大剧院、坪山展览馆排在一起，别为它单独跑一趟。",
+  "highlights": [
+    "纯白旋转楼梯与悬浮体量，建筑本身就是打卡点",
+    "馆藏特展与三楼虚拟美术馆常设，特展更换频繁",
+    "与坪山大剧院、坪山展览馆同在汇德路，可一次逛完"
+  ],
+  "location": {
+    "point": {
+      "lng": 114.346558,
+      "lat": 22.706761,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "深圳市坪山区坪山街道汇德路4号",
+    "district": "坪山区",
+    "transportTip": "地铁14号线坪山中心站A口步行约500米，或16号线新和站；公交至坪山实验学校站"
+  },
+  "practical": {
+    "openHours": "周二至周日 约 09:00-17:00（16:30 停止入场），周一闭馆；节假日安排看官方公众号",
+    "openHoursRef": 0,
+    "ticket": "免费，无需预约",
+    "ticketRef": 0,
+    "duration": "建议 60-120 分钟",
+    "durationMinutes": [
+      60,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "solo",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [
+    "周一闭馆，节假日与恶劣天气的开闭馆看官方公众号",
+    "展厅内禁用闪光灯、三脚架与自拍杆",
+    "离市中心远，建议和坪山大剧院一起排"
+  ],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Wang_Zhao%2C_%E2%80%98The_Three_Stars_of_Happiness%2C_Wealth%2C_and_Longevity%E2%80%99.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Wang_Zhao%2C_%E2%80%98The_Three_Stars_of_Happiness%2C_Wealth%2C_and_Longevity%E2%80%99.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1820,
+      "alt": "Wang Zhao, ‘The Three Stars of Happiness, Wealth, and Longevity’.jpg",
+      "query": "Pingshan Art Museum",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Wang Zhao",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wang_Zhao,_%E2%80%98The_Three_Stars_of_Happiness,_Wealth,_and_Longevity%E2%80%99.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/35755260/pexels-photo-35755260.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35755260/pexels-photo-35755260.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6000,
+      "height": 4000,
+      "alt": "Explore the striking design of a modern building in Taiwan capturing intricate architectural details.",
+      "query": "Pingshan Art Museum",
+      "credit": {
+        "source": "pexels",
+        "author": "Sunny Li",
+        "sourceUrl": "https://www.pexels.com/photo/modern-architecture-detail-in-taiwan-city-35755260/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/14230196/pexels-photo-14230196.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/14230196/pexels-photo-14230196.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5949,
+      "height": 3966,
+      "alt": "Vibrant Shenzhen skyline with tallest buildings at sunset, showcasing urban development.",
+      "query": "Pingshan Art Museum",
+      "credit": {
+        "source": "pexels",
+        "author": "Lywin",
+        "sourceUrl": "https://www.pexels.com/photo/city-skyline-at-sunset-14230196/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "美术馆",
+    "免费",
+    "坪山",
+    "当代艺术",
+    "拍照"
+  ],
+  "popularity": 66,
+  "sources": [
+    {
+      "title": "坪山区美术馆参观须知（坪山区人民政府）",
+      "url": "https://www.szpsq.gov.cn/zwgk/zdlyxxgk/ggqsydw/msggwgk/msggzzd/content/post_12764398.html",
+      "kind": "gov",
+      "fetchedAt": "2026-10-25"
+    }
+  ],
+  "updatedAt": "2026-10-25",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Pingshan Art Museum",
+    "zh": "坪山美术馆"
+  },
+  "_geocodeTitle": "坪山美术馆",
+  "_geocodeSuspect": false,
+  "district": "440310"
+}

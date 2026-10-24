@@ -1,12 +1,12 @@
 # 深圳 · 数据来源与图片版权
 
-> 生成于 2026-10-24 · 城市数据最后更新 2026-09-24
+> 生成于 2026-10-25 · 城市数据最后更新 2026-09-24
 
 ## 概览
 
 - 省份：广东
 - adcode：440300
-- POI 数量：57
+- POI 数量：67
 
 ## 文本内容来源
 
@@ -16,10 +16,14 @@
 | 大梅沙海滨公园 | [百度百科·大梅沙海滨公园](https://baike.baidu.com/item/%E5%A4%A7%E6%A2%85%E6%B2%99%E6%B5%B7%E6%BB%A8%E5%85%AC%E5%9B%AD) | wiki | 2026-09-24 |
 | 大鹏所城 | [百度百科·大鹏所城](https://baike.baidu.com/item/%E5%A4%A7%E9%B9%8F%E6%89%80%E5%9F%8E) | wiki | 2026-09-24 |
 | 大鹏半岛国家地质公园 | [百度百科·大鹏半岛国家地质公园](https://baike.baidu.com/item/%E6%B7%B1%E5%9C%B3%E5%A4%A7%E9%B9%8F%E5%8D%8A%E5%B2%9B%E5%9B%BD%E5%AE%B6%E5%9C%B0%E8%B4%A8%E5%85%AC%E5%9B%AD) | wiki | 2026-09-24 |
+| 东江纵队司令部旧址 | [社区书记带你游⑩ 土洋社区（读特）](https://www.dutenews.com/cmdetail/425759) | media | 2026-10-25 |
+| 东江游击队指挥部旧址 | [深圳的这些红色“宝藏”景点（深圳新闻网）](https://www.sztv.com.cn/ysz/zx/tj/80504513.shtml) | media | 2026-10-25 |
 | 仙湖植物园 | [百度百科·仙湖植物园](https://baike.baidu.com/item/%E6%B7%B1%E5%9C%B3%E5%B8%82%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9B%AD) | wiki | 2026-09-24 |
+| 凤凰古村 | [一个可以“边玩边学”的天然避暑课堂（宝安日报）](https://barb.sznews.com/MB/content/202607/31/content_3467600.html) | media | 2026-10-25 |
 | 福田红树林生态公园 | [百度百科·福田红树林生态公园](https://baike.baidu.com/item/%E7%A6%8F%E7%94%B0%E7%BA%A2%E6%A0%91%E6%9E%97%E7%94%9F%E6%80%81%E5%85%AC%E5%9B%AD) | wiki | 2026-09-24 |
 | 关山月美术馆 | [百度百科·关山月美术馆](https://baike.baidu.com/item/%E5%85%B3%E5%B1%B1%E6%9C%88%E7%BE%8E%E6%9C%AF%E9%A6%86) | wiki | 2026-09-24 |
 | 深圳欢乐谷 | [百度百科·深圳欢乐谷](https://baike.baidu.com/item/%E6%B7%B1%E5%9C%B3%E6%AC%A2%E4%B9%90%E8%B0%B7) | wiki | 2026-09-24 |
+| 何香凝美术馆 | [何香凝美术馆官网](http://www.hxnart.com/) | official | 2026-10-25 |
 | 鹤湖新居 | [百度百科·鹤湖新居](https://baike.baidu.com/item/%E9%B9%A4%E6%B9%96%E6%96%B0%E5%B1%85) | wiki | 2026-09-24 |
 | 弘法寺 | [百度百科·弘法寺](https://baike.baidu.com/item/%E5%BC%98%E6%B3%95%E5%AF%BA%EF%BC%88%E6%B7%B1%E5%9C%B3%EF%BC%89) | wiki | 2026-09-24 |
 | 洪湖公园 | [百度百科·洪湖公园](https://baike.baidu.com/item/%E6%B4%AA%E6%B9%96%E5%85%AC%E5%9B%AD) | wiki | 2026-09-24 |
@@ -27,9 +31,15 @@
 | 莲花山公园 | [百度百科·莲花山公园](https://baike.baidu.com/item/%E8%8E%B2%E8%8A%B1%E5%B1%B1%E5%85%AC%E5%9B%AD%EF%BC%88%E6%B7%B1%E5%9C%B3%EF%BC%89) | wiki | 2026-09-24 |
 | 南山博物馆 | [百度百科·南山博物馆](https://baike.baidu.com/item/%E5%8D%97%E5%B1%B1%E5%8D%9A%E7%89%A9%E9%A6%86) | wiki | 2026-09-24 |
 | 东部华侨城 | [百度百科·东部华侨城](https://baike.baidu.com/item/%E4%B8%9C%E9%83%A8%E5%8D%8E%E4%BE%A8%E5%9F%8E) | wiki | 2026-09-24 |
+| 坪山美术馆 | [坪山区美术馆参观须知（坪山区人民政府）](https://www.szpsq.gov.cn/zwgk/zdlyxxgk/ggqsydw/msggwgk/msggzzd/content/post_12764398.html) | gov | 2026-10-25 |
+| 青青世界 | [青青世界（百度百科）](https://wapbaike.baidu.com/view/1097225.htm) | wiki | 2026-10-25 |
+| 深圳美术馆（新馆） | [深圳美术馆（深圳政府在线·文化场馆）](https://www.sz.gov.cn/szzt2010/szwtt/wtcg/whcg/content/mpost_11127097.html) | gov | 2026-10-25 |
 | 深圳湾公园 | [百度百科·深圳湾公园](https://baike.baidu.com/item/%E6%B7%B1%E5%9C%B3%E6%B9%BE%E5%85%AC%E5%9B%AD) | wiki | 2026-09-24 |
 | 深圳国际园林花卉博览园 | [百度百科·深圳国际园林花卉博览园](https://baike.baidu.com/item/%E6%B7%B1%E5%9C%B3%E5%9B%BD%E9%99%85%E5%9B%AD%E6%9E%97%E8%8A%B1%E5%8D%89%E5%8D%9A%E8%A7%88%E5%9B%AD) | wiki | 2026-09-24 |
+| 深圳珠宝博物馆 | [深圳珠宝博物馆官网](https://www.jewelrymuseumsz.com/) | official | 2026-10-25 |
+| 深圳博物馆古代艺术馆 | [深圳博物馆官网·开放时间公告](https://www.shenzhenmuseum.com/newsDetail?clazzName=CmsInformation&from=1&resId=8070ff15620a423ba14961a28684acdc&type=2) | official | 2026-10-25 |
 | 深圳博物馆（历史民俗馆） | [百度百科·深圳博物馆](https://baike.baidu.com/item/%E6%B7%B1%E5%9C%B3%E5%8D%9A%E7%89%A9%E9%A6%86) | wiki | 2026-09-24 |
+| 深圳野生动物园 | [深圳野生动物园（携程景点页）](https://gs.ctrip.com/html5/you/sight/capetown327/6037.html) | travel-platform | 2026-10-25 |
 | 锦绣中华民俗村 | [百度百科·锦绣中华民俗村](https://baike.baidu.com/item/%E9%94%A6%E7%BB%A3%E4%B8%AD%E5%8D%8E%E6%B0%91%E4%BF%97%E6%9D%91) | wiki | 2026-09-24 |
 | 深圳人才公园 | [百度百科·深圳人才公园](https://baike.baidu.com/item/%E6%B7%B1%E5%9C%B3%E4%BA%BA%E6%89%8D%E5%85%AC%E5%9B%AD) | wiki | 2026-09-24 |
 | 世界之窗 | [百度百科·世界之窗](https://baike.baidu.com/item/%E4%B8%96%E7%95%8C%E4%B9%8B%E7%AA%97%EF%BC%88%E6%B7%B1%E5%9C%B3%EF%BC%89) | wiki | 2026-09-24 |
@@ -89,9 +99,18 @@
 | 大鹏半岛国家地质公园 | 科技小辛 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B7%B1%E5%9C%B3_%E5%8D%97%E6%BE%B3_%E5%A4%A7%E9%B9%8F%E9%95%87_%E6%96%B0%E5%A4%A7%E6%9D%91_%E5%9C%B0%E8%B4%A8%E5%85%AC%E5%9B%AD%E8%B7%AF_%E8%87%AA%E8%A1%8C%E8%BD%A6%E6%AF%94%E8%B5%9B_-_By_%E7%A7%91%E6%8A%80%E5%B0%8F%E8%BE%9B_-_panoramio.jpg) |
 | 大鹏半岛国家地质公园 | 科技小辛 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B7%B1%E5%9C%B3_%E5%8D%97%E6%BE%B3_%E5%A4%A7%E9%B9%8F%E9%95%87_%E6%96%B0%E5%A4%A7%E6%9D%91_%E5%A4%A7%E9%B9%8F%E5%8D%8A%E5%B2%9B_%E5%9B%BD%E5%AE%B6%E5%9C%B0%E8%B4%A8%E5%85%AC%E5%9B%AD_%E7%9F%B3%E7%A2%91_-_By_%E7%A7%91%E6%8A%80%E5%B0%8F%E8%BE%9B_-_panoramio.jpg) |
 | 大鹏半岛国家地质公园 | 科技小辛 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B7%B1%E5%9C%B3_%E5%8D%97%E6%BE%B3_%E5%A4%A7%E9%B9%8F%E9%95%87_%E6%96%B0%E5%A4%A7%E6%9D%91_%E9%81%93%E5%8D%A1%E6%96%AF%E6%9D%AF%E8%87%AA%E8%A1%8C%E8%BD%A6%E6%AF%94%E8%B5%9B_-_By_%E7%A7%91%E6%8A%80%E5%B0%8F%E8%BE%9B_-_panoramio.jpg) |
+| 东江纵队司令部旧址 | 金哲 刘 | Pexels License | [pexels](https://www.pexels.com/photo/a-picturesque-city-skyline-5329964/) |
+| 东江纵队司令部旧址 | Anderson Wei | Pexels License | [pexels](https://www.pexels.com/photo/modern-office-building-in-shanghai-skyline-37156567/) |
+| 东江纵队司令部旧址 | Anderson Wei | Pexels License | [pexels](https://www.pexels.com/photo/modern-office-building-in-shanghai-s-pudong-district-37156584/) |
+| 东江游击队指挥部旧址 | BMSBridge | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260724-%E4%B8%9C%E6%B1%9F%E6%B8%B8%E5%87%BB%E9%98%9F%E6%8C%87%E6%8C%A5%E9%83%A8%E6%97%A7%E5%9D%80.jpg) |
+| 东江游击队指挥部旧址 | shuo li | Pexels License | [pexels](https://www.pexels.com/photo/elegant-asian-stone-monument-in-tranquil-setting-34788344/) |
+| 东江游击队指挥部旧址 | fei wang | Pexels License | [pexels](https://www.pexels.com/photo/view-of-the-dongjiang-lake-and-surrounding-hills-in-summer-16822665/) |
 | 仙湖植物园 | Dinkun Chen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:FAIRYLAKE_BOTANICAL_GARDEN.jpg) |
 | 仙湖植物园 | Dinkun Chen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:FAIRYLAKE_BOTANICAL_GARDEN_(2).jpg) |
 | 仙湖植物园 | Dinkun Chen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:FAIRYLAKE_BOTANICAL_GARDEN_(3).jpg) |
+| 凤凰古村 | 源義信 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2023-07-04_Fenghuang_Village_Cultural_Hall_%E5%87%A4%E5%87%B0%E6%9D%91%E6%96%87%E5%8C%96%E7%A4%BC%E5%A0%82_01.jpg) |
+| 凤凰古村 | 源義信 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2023-07-04_Fenghuang_Village_Cultural_Hall_%E5%87%A4%E5%87%B0%E6%9D%91%E6%96%87%E5%8C%96%E7%A4%BC%E5%A0%82_02.jpg) |
+| 凤凰古村 | 源義信 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2023-07-04_Fenghuang_Village_Cultural_Hall_%E5%87%A4%E5%87%B0%E6%9D%91%E6%96%87%E5%8C%96%E7%A4%BC%E5%A0%82_03.jpg) |
 | 福田红树林生态公园 | Jiang Henry | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Warmth_(163395149).jpeg) |
 | 关山月美术馆 | GAFLWING 218 lNANGM | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0_Futian_%E7%B4%85%E8%8D%94%E8%B7%AF_Hongli_Road_%E9%97%9C%E5%B1%B1%E6%9C%88%E7%BE%8E%E8%A1%93%E9%A4%A8_Guan_Shanyue_Art_Museum_exhibition_January_2026_N13P_01.jpg) |
 | 关山月美术馆 | GAFLWING 218 lNANGM | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0_Futian_%E7%B4%85%E8%8D%94%E8%B7%AF_Hongli_Road_%E9%97%9C%E5%B1%B1%E6%9C%88%E7%BE%8E%E8%A1%93%E9%A4%A8_Guan_Shanyue_Art_Museum_exhibition_January_2026_N13P_13.jpg) |
@@ -99,6 +118,9 @@
 | 深圳欢乐谷 | 张元柏 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2005_%E6%B7%B1%E5%9C%B3_%E6%AC%A2%E4%B9%90%E8%B0%B7_-_panoramio.jpg) |
 | 深圳欢乐谷 | 张元柏 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2005_%E6%B7%B1%E5%9C%B3_%E6%AC%A2%E4%B9%90%E8%B0%B7_-_panoramio_(1).jpg) |
 | 深圳欢乐谷 | 张元柏 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2005_%E6%B7%B1%E5%9C%B3_%E6%AC%A2%E4%B9%90%E8%B0%B7_-_panoramio_(2).jpg) |
+| 何香凝美术馆 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:He_Xiangning_Art_Museum1.jpg) |
+| 何香凝美术馆 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:He_Xiangning_Art_Museum2.jpg) |
+| 何香凝美术馆 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:He_Xiangning_Art_Museum3.jpg) |
 | 鹤湖新居 | PREETYGUYFABIO678 | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-architectural-gateway-38318481/) |
 | 鹤湖新居 | Polina Kts | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-moon-gate-in-shenzhen-36259932/) |
 | 鹤湖新居 | Polina Kts | Pexels License | [pexels](https://www.pexels.com/photo/futuristic-architecture-with-modern-sculpture-in-shenzhen-36259832/) |
@@ -120,15 +142,33 @@
 | 东部华侨城 | 张元柏 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2009_%E6%B7%B1%E5%9C%B3_%E4%B8%9C%E9%83%A8%E5%8D%8E%E4%BE%A8%E5%9F%8E_-_panoramio.jpg) |
 | 东部华侨城 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B7%B1%E5%9C%B3_%E4%B8%9C%E9%83%A8%E5%8D%8E%E4%BE%A8%E5%9F%8E_-_panoramio.jpg) |
 | 东部华侨城 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B7%B1%E5%9C%B3_%E4%B8%9C%E9%83%A8%E5%8D%8E%E4%BE%A8%E5%9F%8E_-_panoramio_(1).jpg) |
+| 坪山美术馆 | Wang Zhao | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Wang_Zhao,_%E2%80%98The_Three_Stars_of_Happiness,_Wealth,_and_Longevity%E2%80%99.jpg) |
+| 坪山美术馆 | Sunny Li | Pexels License | [pexels](https://www.pexels.com/photo/modern-architecture-detail-in-taiwan-city-35755260/) |
+| 坪山美术馆 | Lywin | Pexels License | [pexels](https://www.pexels.com/photo/city-skyline-at-sunset-14230196/) |
+| 青青世界 | 张元柏 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2007_%E6%B7%B1%E5%9C%B3_%E5%8D%97%E5%B1%B1_%E9%9D%92%E9%9D%92%E4%B8%96%E7%95%8C%E7%9C%8B%E5%89%8D%E6%B5%B7_-_panoramio.jpg) |
+| 青青世界 | Wishds | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Entrance_to_Qingqing_Shijie_(Evergreen_Resort).jpg) |
+| 青青世界 | Wishva de Silva | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Evergreen_Resort_Bus_Station.jpg) |
+| 深圳美术馆（新馆） | BMSBridge | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260724-%E6%B7%B1%E5%9C%B3%E7%BE%8E%E6%9C%AF%E9%A6%86%EF%BC%88%E4%B8%9C%E6%B9%96%E9%A6%86%EF%BC%89.jpg) |
+| 深圳美术馆（新馆） | Wolfmann | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:BLAAFARVEV%C3%86RKET_(Cobalt_Works_Blue_pigment_factory_koboltmalm_1773-1893)_Open-air_museum_Modum_NORWAY_2025-08-13_Haugfossen_waterfall_Simoa_river_Pukkverket_industrimuseum_IMG_1486.jpg) |
+| 深圳美术馆（新馆） | Frits Thaulow | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Frits_Thaulow_-_Winter_at_the_River_Simoa_-_Google_Art_Project.jpg) |
 | 深圳湾公园 | Sparktour | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:SZMC_Line5_Qianwan_Park_Station_Platform.jpg) |
 | 深圳湾公园 | Sparktour | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:SZMC_Line5_Qianwan_Park_Station_Platform_1.jpg) |
 | 深圳湾公园 | Sparktour | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:SZMC_Line5_Qianwan_Park_Station_Platform_1_PANO.jpg) |
 | 深圳国际园林花卉博览园 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Blessing_Pagoda_of_Shenzhen_International_Garden_and_Flower_Expo_Park3.jpg) |
 | 深圳国际园林花卉博览园 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Huicui_Lake_of_Shenzhen_International_Garden_and_Flower_Expo_Park2.jpg) |
 | 深圳国际园林花卉博览园 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Ningbo_Garden_of_Shenzhen_International_Garden_and_Flower_Expo_Park2.jpg) |
+| 深圳珠宝博物馆 | roti zhao | Pexels License | [pexels](https://www.pexels.com/photo/facade-of-the-museum-of-contemporary-art-and-planning-exhibition-in-shenzhen-china-10813378/) |
+| 深圳珠宝博物馆 | Daniel Neves Cotta | Pexels License | [pexels](https://www.pexels.com/photo/ancient-golden-hat-and-necklace-20610626/) |
+| 深圳珠宝博物馆 | Daniel Neves Cotta | Pexels License | [pexels](https://www.pexels.com/photo/golden-figurine-in-a-museum-20610616/) |
+| 深圳博物馆古代艺术馆 | YiamTitam Bonda Vimzoa | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0_Futian_%E5%90%8C%E5%BF%83%E8%B7%AF_6_TongXin_Road_%E6%B7%B1%E5%9C%B3%E5%8D%9A%E7%89%A9%E9%A4%A8_Shenzhen_Museum_%E5%8F%A4%E4%BB%A3%E9%A4%A8_antique_hall_July_2024_R12S_221.jpg) |
+| 深圳博物馆古代艺术馆 | YiamTitam Bonda Vimzoa | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0_Futian_%E5%90%8C%E5%BF%83%E8%B7%AF_6_TongXin_Road_%E6%B7%B1%E5%9C%B3%E5%8D%9A%E7%89%A9%E9%A4%A8_Shenzhen_Museum_%E5%8F%A4%E4%BB%A3%E9%A4%A8_antique_hall_July_2024_R12S_222.jpg) |
+| 深圳博物馆古代艺术馆 | ZBMAUE oopAAM | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0_Futian_%E5%90%8C%E5%BF%83%E8%B7%AF_6_TongXin_Road_%E6%B7%B1%E5%9C%B3%E5%8D%9A%E7%89%A9%E9%A4%A8_Shenzhen_Museum_%E5%8F%A4%E4%BB%A3%E9%A4%A8_antique_hall_May_2026_N13P_01.jpg) |
 | 深圳博物馆（历史民俗馆） | LMSHO kadmsid CAERM | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0_Futian_%E5%90%8C%E5%BF%83%E8%B7%AF_TongXin_Road_%E6%B7%B1%E5%9C%B3%E5%8F%A4%E4%BB%A3%E5%8D%9A%E7%89%A9%E9%A6%86_Shenzhen_Museum_Ancient_Art_Museum_October_2025_N13P_01.jpg) |
 | 深圳博物馆（历史民俗馆） | LMSHO kadmsid CAERM | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0_Futian_%E5%90%8C%E5%BF%83%E8%B7%AF_TongXin_Road_%E6%B7%B1%E5%9C%B3%E5%8F%A4%E4%BB%A3%E5%8D%9A%E7%89%A9%E9%A6%86_Shenzhen_Museum_Ancient_Art_Museum_October_2025_N13P_10.jpg) |
 | 深圳博物馆（历史民俗馆） | LMSHO kadmsid CAERM | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0_Futian_%E5%90%8C%E5%BF%83%E8%B7%AF_TongXin_Road_%E6%B7%B1%E5%9C%B3%E5%8F%A4%E4%BB%A3%E5%8D%9A%E7%89%A9%E9%A6%86_Shenzhen_Museum_Ancient_Art_Museum_opening_hours_sign_October_2025_N13P.jpg) |
+| 深圳野生动物园 | Dinkun Chen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A_BOWL_OF_BEEF_NOODLE_%26_PEPSI_7UP_CHINA_VERSION_IN_SHENZHEN_SAFARI_PARK_RESTAURANT.jpg) |
+| 深圳野生动物园 | Dinkun Chen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A_TICKET_BY_SHENZHEN_SAFARI_PARK.jpg) |
+| 深圳野生动物园 | Dinkun Chen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A_TICKET_BY_SHENZHEN_SAFARI_PARK_(2).jpg) |
 | 锦绣中华民俗村 | そらみみ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gate_of_Splendid_China_%26_China_Folk_Culture_Village.jpg) |
 | 锦绣中华民俗村 | そらみみ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lama_Temple_in_China_Folk_Culture_Village.jpg) |
 | 锦绣中华民俗村 | そらみみ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lisu_and_Lahu_Houses_in_China_Folk_Culture_Village.jpg) |
