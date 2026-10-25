@@ -49,7 +49,7 @@ import {
   routeOptionKey,
   type RouteOptionSet,
 } from '~/common/logic/itinerary/routeOptions'
-import type { LegResult } from '~/common/logic/itinerary/resolveLeg'
+import type { Place } from '~/common/logic/itinerary/resolveLeg'
 import { resolveWebServiceKey, usingOwnKey } from '~/common/map/tencent'
 import type { TransitPrefer, TravelMode } from '~shared/schema'
 
@@ -63,14 +63,18 @@ export interface RouteOptionsState {
 }
 
 /**
- * @param legOfUid 按 uid 取段（**不依赖时间链**）。返回 `null` = 这段还没有坐标
+ * @param legOfUid 按 uid 取这一段的**两端**（只用到 from/to，不依赖时间链、不依赖 `legByUid`）。
+ *   ★ 2026-10-25 收窄：原来要整个 `LegResult`，导致 `usePlanView` 必须先算 `legByUid`，
+ *     而 `legByUid` 要用 `optionSets` —— 又由本钩子产出，绕成一个圈。
+ *     只要两端之后，调用方可以直接从 `day.items` + `placeOfItem` 算，圈就断了。
+ *   返回 `null` = 这段还没有坐标。
  * @param resetKey 换城市时清空 —— uid 不通用，留着只会串数据
  */
 export function useRouteOptions({
   legOfUid,
   resetKey,
 }: {
-  legOfUid: (uid: string) => LegResult | null
+  legOfUid: (uid: string) => { from: Place; to: Place } | null
   resetKey: string
 }): RouteOptionsState {
   // ★ 懒初始化：**先吃持久化缓存**（24h TTL）—— 刷新/重开段详情时方案与轨迹直接可用，

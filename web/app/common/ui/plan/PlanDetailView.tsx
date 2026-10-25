@@ -155,6 +155,8 @@ export function PlanDetailView() {
               })),
             }
           : {}),
+        // 拥堵切片：点开这段真拉过才有；不落盘（路况十分钟过期，见 itinerary/jams.ts）
+        ...(o.jams && o.jams.length > 0 ? { jams: o.jams } : {}),
       })),
       focusedKey: view.store.chosenOption[uid] ?? null,
       from: { lng: leg.from.lng, lat: leg.from.lat },

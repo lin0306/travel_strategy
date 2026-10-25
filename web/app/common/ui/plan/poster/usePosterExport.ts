@@ -23,7 +23,6 @@
 
 import { useMemo, useState } from 'react'
 
-import { buildPoiIndex } from '~/common/logic/itinerary/matrix'
 import { usePlanUi } from '~/common/logic/itinerary/planUi'
 import { resolveWebServiceKey } from '~/common/map/tencent'
 import type { City, RoutePlan } from '~shared/schema'
@@ -55,14 +54,13 @@ export function usePosterExport(
     if (!plan || !city || busy || disabledReason) return
     setBusy(true)
     try {
-      const matrix = city.transit ?? null
       const { filename, note } = await exportDayPoster({
         plan,
         city,
         dayNo: activeDay - 1,
+        // ★ 矩阵那一档 2026-10-25 删了（它从来没有数据）：海报的真实时长与几何
+        //   全部来自 `posterRoutes.ts` 直接读 `routeSetCache`，这里只留缓存兜底。
         legCtx: {
-          matrix,
-          poiIndex: matrix ? buildPoiIndex(matrix) : new Map<string, number>(),
           getCached: (k) => store.legCache[k],
           defaultMode: store.defaultMode,
         },

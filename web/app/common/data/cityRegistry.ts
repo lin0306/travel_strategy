@@ -7,8 +7,10 @@
  * ★ 目录布局（唯一真源是 `pipeline/layout.py`，两侧必须一致）：
  *     data/cities/{省slug}/{cityId}/
  *       ├─ city.json        城市主数据（人写）
- *       ├─ pois/{大类}/{poiId}.json   一个点位一个文件
- *       └─ transit.json     通勤矩阵（脚本生成，派生数据）
+ *       └─ pois/{大类}/{poiId}.json   一个点位一个文件
+ *
+ *   ★ 2026-10-25：`transit.json`（构建期通勤矩阵）**不再存在**，这里也不再 glob 它。
+ *     通勤时长改为运行时算（2026-10-06 决策），真实值来自 `routeSetCache`。
  *
  *   为什么分片而不是一个大 JSON：单城 46 个点位会超过 400 行，
  *   AI 每次读文件都要整篇进上下文；分片后改一个点位只产生一个文件的 diff。
@@ -34,16 +36,13 @@ const cityModules = import.meta.glob<JsonModule>('../../../../data/cities/*/*/ci
 /** ★ POI 分片：`data/cities/{省}/{市}/pois/{大类}/{poiId}.json` */
 const poiModules = import.meta.glob<JsonModule>('../../../../data/cities/*/*/pois/*/*.json')
 
-/** 通勤矩阵（脚本生成，可能与城市主数据不同步） */
-const transitModules = import.meta.glob<JsonModule>('../../../../data/cities/*/*/transit.json')
-
 /** 开发占位数据：`data/_fixtures/*.json`（仅 DEV 且真实数据缺失时兜底） */
 const fixtureModules = import.meta.glob<JsonModule>('../../../../data/_fixtures/*.json')
 
 const DEV = Boolean(import.meta.env?.DEV)
 
 /** ★ 大类的展示顺序 —— 必须与 `layout.CATEGORY_DIRS` 一致。
- *  这个顺序决定了 `city.pois` 的数组顺序，而 **transit 矩阵按下标寻址**，乱序会取错时长。 */
+ *  这个顺序决定了 `city.pois` 的数组顺序（列表、搜索、地图图例都按它排）。 */
 const CATEGORY_ORDER = ['scenic', 'food', 'hotspot', 'culture'] as const
 
 /**
@@ -96,12 +95,6 @@ const poiLoaders = new Map<string, Array<{ category: string; poiId: string; load
   }
 }
 
-const transitLoaders = new Map<string, Loader>()
-for (const [path, load] of Object.entries(transitModules)) {
-  const p = parseCityPath(path)
-  if (p) transitLoaders.set(p.cityId, load)
-}
-
 const fixtureLoaders: Record<string, Loader> = Object.fromEntries(
   Object.entries(fixtureModules).map(([path, load]) => [idOf(path), load]),
 )
@@ -143,10 +136,6 @@ async function loadFromParts(cityId: string): Promise<unknown> {
   )
   city.pois = pois
 
-  const tLoader = transitLoaders.get(cityId)
-  // ★ 缺省显式写 null，而不是留空字段 —— 让"矩阵没跑"成为一个可读的状态
-  //   （schema 里 transit 可空，行程页据此降级为估算 + 显示提示）
-  city.transit = tLoader ? (await tLoader()).default : null
   return city
 }
 

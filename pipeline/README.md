@@ -50,7 +50,9 @@ python tools/check_seed.py --all           # 或python tools/check_seed.py <城�
 
 ★ **⑥ 通勤矩阵已移出流水线**（2026-10-06 决策）：通勤时长改为用户实际规划时
 **运行时**请求图商，采集期绝不预存（62 城 × 约 1600 对 × 3 方式要几百 MB，
-且半改会造成跨城口径不一致）。`steps/step6_transit.py` 是遗留死链路，**不要跑**。
+且半改会造成跨城口径不一致）。
+★ **2026-10-25：`steps/step6_transit.py` 已删除**（连同 `schema` 里的 `CityTransitMatrix`、
+`build.py` 那条「缺 transit」假告警）。真实时长现在只在前端产生，落在 `routeSetCache`。
 
 ③④ 需要腾讯 WebService key（`TMAP_WEB_KEY`），④ 另需图片站 key。
 `outline` / `cities` / `district-outline` 需要高德 key（`AMAP_WEB_KEY`）。
@@ -101,7 +103,6 @@ python tools/check_seed.py --all           # 或python tools/check_seed.py <城�
 | `steps/step3_geocode.py` | ③ 地理编码 |
 | `steps/step3b_entrance.py` | ③b 到达点 / 入口坐标 |
 | `steps/step4_images.py` | ④ 取图 |
-| `steps/step6_transit.py` | ⑥ 通勤矩阵 ★ **死链路，不要跑** |
 | `steps/step7_district.py` | ⑦ 区划树 + 聚合计数 |
 | `steps/step8_subdistricts.py` | ⑧ 市辖区（区级）数据与边界 |
 | `steps/step9_province_outline.py` | ⑨ 省级自身轮廓（高德） |

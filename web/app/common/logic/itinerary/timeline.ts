@@ -59,8 +59,6 @@ export interface Timeline {
   hasEstimate: boolean
   /** 是否有段「不适用」（UI 引导换方式） */
   hasNotApplicable: boolean
-  /** 天气/时长数据是否完整 —— 供 DaySummary 决定要不要加"部分为估算"的注脚 */
-  allFromMatrix: boolean
 }
 
 /** 把 POI 与住宿点统一成 Place —— 连线、时间链、估算都只有一套代码 */
@@ -135,7 +133,6 @@ export function buildTimeline(
   let dwellMin = 0
   let hasEstimate = false
   let hasNotApplicable = false
-  let allFromMatrix = true
 
   for (let k = 0; k < pois.length; k++) {
     const cur = pois[k]
@@ -147,12 +144,8 @@ export function buildTimeline(
     const leg = resolveLegSync(prevPlace, cur.place, mode, ctx)
     legs.push(leg)
     transitSec += leg.duration
-    if (leg.source === 'estimate') {
-      hasEstimate = true
-      allFromMatrix = false
-    }
+    if (leg.source === 'estimate') hasEstimate = true
     if (leg.source === 'not-applicable') hasNotApplicable = true
-    if (leg.source !== 'matrix') allFromMatrix = false
 
     t += leg.duration / 60 // leg.duration 是**秒**
     const arrive = t
@@ -178,12 +171,8 @@ export function buildTimeline(
       const leg = resolveLegSync(last.place, home, mode, ctx)
       legs.push(leg)
       transitSec += leg.duration
-      if (leg.source === 'estimate') {
-        hasEstimate = true
-        allFromMatrix = false
-      }
+      if (leg.source === 'estimate') hasEstimate = true
       if (leg.source === 'not-applicable') hasNotApplicable = true
-      if (leg.source !== 'matrix') allFromMatrix = false
       t += leg.duration / 60
 
       stops.push({
@@ -213,7 +202,6 @@ export function buildTimeline(
     dwellMin,
     hasEstimate,
     hasNotApplicable,
-    allFromMatrix,
   }
 }
 

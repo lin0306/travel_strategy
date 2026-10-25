@@ -1,30 +1,26 @@
 /**
- * 通勤时长解析 —— 三级来源，`resolveLegSync` 是**同步纯函数**。
+ * 通勤时长解析 —— `resolveLegSync` 是**同步纯函数**，来源按优先级三级。
  *
  * ```
- * ① 静态矩阵（POI ↔ POI，驾车/打车/骑行/步行）  零调用，同步返回
- * ② localStorage 缓存（住宿点相关 / 公交地铁）    零调用
- * ③ 实时接口（仅住宿点相关与公交/地铁）          按需
+ * ⓪ 用户手选的方案（方案卡里点的那条）          零调用
+ * ① 已拉过的方案（routeSetCache 24h TTL）      零调用，★ 与海报同源
+ * ② localStorage 缓存（住宿点相关 / 公交地铁）  零调用
+ * ③ 直线估算                                   兜底，UI 必须标「估算」
  * ```
  *
  * ★ **同步路径必须保持纯**：拖拽排序时要每帧重算时间链，一次网络往返就能让交互崩掉。
  *   所以这里所有"可能慢"的事（实时接口）都放在另一条异步路径上，
  *   同步路径只做「查表 → 查缓存 → 直线估算」三件纯计算。
  *
- * ⚠️ 本文件**不得 import 任何地图 SDK**。矩阵是纯数据，时间计算与地图是解耦的 ——
- *    这是「地图挂了行程照常可用」能成立的唯一原因（09 文档第九节底线）。
+ * ★★ **2026-10-25 删掉了「构建期矩阵」这一级**：它从来没有数据（`data/` 里 0 个
+ *   `transit.json`），却让链路看起来有三级来源，掩盖了"行程页段时长一直是直线估算"。
+ *   真实时长真正的来源是 `routeSetCache`（点开某段时拉过的方案，24h TTL）——
+ *   海报一直用它，现在行程页也并轨（`plannedLegs.ts`）。
+ * ⚠️ 本文件**不得 import 任何地图 SDK**（09 文档第九节底线：地图挂了行程照常可用）。
  */
 
-import {
-  MATRIX_CHANNEL,
-  MODE_META,
-  type CityTransitMatrix,
-  type GeoPoint,
-  type Poi,
-  type TravelMode,
-} from '~shared/schema'
+import { MATRIX_CHANNEL, MODE_META, type GeoPoint, type Poi, type TravelMode } from '~shared/schema'
 
-import { readLegByPoi } from './matrix'
 import type { LatLngPoint } from './polyline'
 
 /* ────────────────────────────────────────────────
@@ -49,15 +45,19 @@ export interface Place extends LatLngPoint {
 }
 
 export type LegSource =
-  /** 命中构建期预计算矩阵（零调用） */
-  | 'matrix'
+  /**
+   * 命中**已拉过的方案**（`routeSetCache`，24h TTL）—— 真实路线，零请求。
+   * ★ 与 `cache` 的区别只是存储不同：这个存的是"整段多种方案 + 折线"，
+   *   `cache` 存的是"单段一个时长"（住宿点相关 / 公交地铁的即时补算结果）。
+   */
+  | 'planned'
   /** 命中本地缓存（零调用） */
   | 'cache'
   /** 实时接口返回 */
   | 'live'
   /** 直线距离 × 方式系数估算 —— UI **必须**标注「估算」 */
   | 'estimate'
-  /** 该方式不适用（超距），UI 引导换方式 */
+  /** 该方式不适用，UI 引导换方式。★ 删掉矩阵后暂时没有生产者，见 `resolveLegSync` 注释 */
   | 'not-applicable'
 
 export interface LegResult {
@@ -215,25 +215,24 @@ export interface LegOverride {
 }
 
 export interface LegContext {
-  /**
-   * 构建期矩阵。**可为 null** —— 矩阵要调距离矩阵接口（单城约 4,800 计算次数），
-   * 配额打满或尚未跑 step6 时它就是缺失的。此时跳过优先级 ①，直接落到缓存/估算，
-   * 时间链照样算得出来（只是每段都标「估算」），而不是整页空白。
-   */
-  matrix: CityTransitMatrix | null
-  /** `buildPoiIndex(matrix)` 的结果，构建一次复用 */
-  poiIndex: Map<string, number>
-  /** 本地缓存查询。不传就是不查缓存 */
+  /** 本地缓存查询（`store.legCache`：住宿点相关 / 公交地铁的即时补算结果）。不传就是不查 */
   getCached?: (key: string) => CachedLeg | undefined
   /** 默认出行方式（某段没单独指定时用它） */
   defaultMode: TravelMode
   /**
    * 用户在方案卡里选定的那一条（key 由 `legKey()` 生成）。
    *
-   * ★ 优先级**高于矩阵** —— 矩阵给的是"这条路通常要多久"，
+   * ★ 优先级**最高** —— 矩阵给的是"这条路通常要多久"，
    *   而用户点的那条是"我就要走这条"，后者是更明确的意图。
    */
   getOverride?: (key: string) => LegOverride | undefined
+  /**
+   * **已拉过、还在有效期内的方案**（`routeSetCache`，24h TTL）。
+   * ★ 与 `getOverride` 的分工：后者是"用户手点的那条"（意图 → `live`），
+   *   这里是"以前拉过的真实路线"（→ `planned`）。都给真实时长，区别只在来源标记。
+   * ★ 没有它也能跑：落到缓存 / 估算，不阻塞渲染。
+   */
+  getPlanned?: (key: string) => LegOverride | undefined
 }
 
 /**
@@ -243,15 +242,17 @@ export interface LegContext {
  * | 级 | 来源 | 说明 |
  * |----|------|------|
  * | ⓪ | 用户手选方案 | `ctx.getOverride` —— 意图最明确，压过一切 |
- * | ① | 构建期矩阵 | 仅两端都是 POI 且该方式有通道；未命中即判「不适用」 |
- * | ② | 本地缓存 | 住宿点相关 / 公交地铁 |
+ * | ① | 已拉过的方案 | `ctx.getPlanned`（`routeSetCache` 24h TTL）—— 真实路线，与海报同源 |
+ * | ② | 本地缓存 | 住宿点相关 / 公交地铁的即时补算结果 |
  * | ③ | 直线估算 | 兜底，让时间链先有数，异步补齐后再重算 |
  *
- * 这是拖拽排序可以每帧重算的原因：矩阵命中是 O(1) 切片，
- * 46 个点、一天 8 段，整条时间链重算远在 16ms（一帧）预算之内。
+ * ★ 这是拖拽排序可以每帧重算的原因：全是 O(1) 查表，
+ *   46 个点、一天 8 段，整条时间链重算远在 16ms（一帧）预算之内。
+ * ★ 需要实时数据的场景（住宿点相关、公交/地铁）在同步路径上返回**估算值**，
+ *   由调用方在异步补齐后重算一次 —— 先给结果，再纠偏。
  *
- * 需要实时数据的场景（住宿点相关、公交/地铁）在同步路径上返回**估算值**，
- * 由调用方在异步补齐后重算一次 —— 先给结果，再纠偏。
+ * ⚠️ `not-applicable` 目前**没有生产者**（原本只由"矩阵超距哨兵"产生）。值与判据留着，
+ *    但别把"没有不适用段"读成"判据失效"。
  */
 export function resolveLegSync(
   from: Place,
@@ -259,38 +260,18 @@ export function resolveLegSync(
   mode: TravelMode,
   ctx: LegContext,
 ): LegResult {
-  const channel = MATRIX_CHANNEL[mode]
+  const key = legKey(from, to, mode)
 
-  // ⓪ 用户手选的方案 —— 优先级最高，压过矩阵与缓存
-  const override = ctx.getOverride?.(legKey(from, to, mode))
-  if (override) {
-    return {
-      from,
-      to,
-      mode,
-      distance: override.distance,
-      duration: override.duration,
-      source: 'live',
-      // 路径仍为 null：这条 override 只带了「时长 + 距离」（方案卡上的数字），
-      // 折线由「整条一次规划」统一提供并落盘（见 plans/13 §5.1/§5.3）
-      path: null,
-      ...(override.taxiFare !== undefined ? { taxiFare: override.taxiFare } : {}),
-    }
-  }
+  // ⓪ 用户手选的方案 —— 意图最明确，压过一切
+  const override = ctx.getOverride?.(key)
+  if (override) return numbered(from, to, mode, override, 'live')
 
-  // ① 静态矩阵：仅当两端都在 POI 表里，且该方式有对应通道
-  if (channel && ctx.matrix && from.kind === 'poi' && to.kind === 'poi') {
-    const hit = readLegByPoi(ctx.matrix, ctx.poiIndex, from.id, to.id, mode)
-    if (hit) {
-      return { from, to, mode, distance: hit.distance, duration: hit.duration, source: 'matrix', path: null }
-    }
-    // 命中失败 = 该方式不适用（超距哨兵）。刻意**不回退到估算** ——
-    // "步行 12.4 km" 这种估算对用户没有帮助，明确说"不适用"并引导换方式更有用。
-    return { from, to, mode, distance: 0, duration: 0, source: 'not-applicable', path: null }
-  }
+  // ① 已拉过的方案（routeSetCache 24h TTL）—— 真实路况，且**一次请求都不用发**
+  const planned = ctx.getPlanned?.(key)
+  if (planned) return numbered(from, to, mode, planned, 'planned')
 
   // ② 本地缓存（住宿点相关 / 公交地铁）
-  const cached = ctx.getCached?.(legKey(from, to, mode))
+  const cached = ctx.getCached?.(key)
   if (cached && isCacheFresh(cached, mode)) {
     return {
       from,
@@ -306,6 +287,28 @@ export function resolveLegSync(
 
   // ③ 直线估算兜底 —— 先让时间链有数，异步补齐后再重算
   return estimateLeg(from, to, mode)
+}
+
+/** 把「只有时长 + 距离」的结果包成 `LegResult`（手选与已拉方案共用，免得抄两遍） */
+function numbered(
+  from: Place,
+  to: Place,
+  mode: TravelMode,
+  v: LegOverride,
+  source: LegSource,
+): LegResult {
+  return {
+    from,
+    to,
+    mode,
+    distance: v.distance,
+    duration: v.duration,
+    source,
+    // 路径仍为 null：这两种来源只带「时长 + 距离」（方案卡上的数字），
+    // 折线由「整条一次规划」或方案集合里的 `path` 提供（见 plans/13 §5.1/§5.3）
+    path: null,
+    ...(v.taxiFare !== undefined ? { taxiFare: v.taxiFare } : {}),
+  }
 }
 
 /* ────────────────────────────────────────────────

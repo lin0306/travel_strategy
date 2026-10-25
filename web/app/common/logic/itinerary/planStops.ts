@@ -89,6 +89,15 @@ export interface PlanStopView {
   /** 在**摊平序列**里的下标。换序按钮按它定位 */
   index: number
   /**
+   * 在**这一站停留多少分钟**（`DayItem.dwellMinutes` 原样带上来）。
+   *
+   * ★ 带上来的理由：详情页要**就地改**它（`DwellStepper` 的 −/+ 15 分钟）。
+   *   只留在 store 里的话，UI 得自己去 `days[天].items[序]` 里翻，而
+   *   "这一站在哪一天第几个"正是这一层已经在算的东西 —— 让 UI 再算一遍就会两处口径。
+   * ★ 下限 5 由 `store.setDwell` 与 schema 各自把着，这里不做钳位。
+   */
+  dwellMinutes: number
+  /**
    * 坐标/名字是从城市数据补出来的（老数据只有 `poiId`）。
    * `false` = 这一项**查不到**（poiId 失效 / 城市数据没加载）—— UI 要如实标出来，
    * 不能假装它在图上（那就变成"数据有了但看不见"那一类静默失效）。
@@ -160,6 +169,8 @@ export function flattenStops(
         lat: has ? (lat as number) : 0,
         day: di + 1,
         index: out.length,
+        // ★ 停留时长原样带上来 —— 详情页的步进器直接读写它（见 PlanStopView 那条注释）
+        dwellMinutes: it.dwellMinutes,
         resolved: has,
         // ★ 缩略图必须走镜像出口（红线 7）—— 160 与搜索索引的 cover 同档
         thumbUrl: img ? mirrorUrl(img.thumbUrl ?? img.url, WIDTH_THUMB_SM) : null,

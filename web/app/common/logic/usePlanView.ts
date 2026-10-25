@@ -36,16 +36,11 @@ import { usePlanMapLayers } from '~/common/logic/usePlanMapLayers'
 import { useRouteOptions } from '~/common/logic/useRouteOptions'
 import { useMapShell, type MapShellContext } from '~/common/logic/mapShell'
 import { loadCity } from '~/common/data/cityRegistry'
-import { buildPoiIndex } from '~/common/logic/itinerary/matrix'
 import { buildAdjacentLegs } from '~/common/logic/itinerary/adjacentLegs'
+import { buildPlannedLegs } from '~/common/logic/itinerary/plannedLegs'
 import { makePlaceOfItem, makePoiLookup } from '~/common/logic/itinerary/places'
-import {
-  legKey,
-  type LegContext,
-  type LegOverride,
-  type LegResult,
-} from '~/common/logic/itinerary/resolveLeg'
-import { routeOptionKey, type RouteOptionSet } from '~/common/logic/itinerary/routeOptions'
+import type { LegContext, LegResult } from '~/common/logic/itinerary/resolveLeg'
+import type { RouteOptionSet } from '~/common/logic/itinerary/routeOptions'
 import {
   buildShareUrl,
   downloadJson,
@@ -61,7 +56,7 @@ import {
 } from '~/common/logic/itinerary/store'
 import { usePlanStore, type PlanStoreStatus } from '~/common/logic/itinerary/planStore'
 import { buildTimeline, overloadWarnings, type Timeline } from '~/common/logic/itinerary/timeline'
-import type { City, CityTransitMatrix, RoutePlan, Stay, TransitPrefer, TravelMode } from '~shared/schema'
+import type { City, RoutePlan, Stay, TransitPrefer, TravelMode } from '~shared/schema'
 
 export interface PlanView {
   shell: MapShellContext
@@ -78,7 +73,6 @@ export interface PlanView {
   legByUid: Map<string, LegResult>
   warnings: string[]
   hasSoftData: boolean
-  matrix: CityTransitMatrix | null
   optionSets: Record<string, RouteOptionSet>
   optionLoading: string | null
   /** 拉某段某个方式（+偏好）的路线（缓存键见 `routeOptionKey`） */
@@ -198,103 +192,79 @@ export function useItineraryView(
   const placeOfItem = useMemo(() => makePlaceOfItem(placesOf), [placesOf])
 
   /**
-   * 矩阵上下文。
-   * ⚠️ `buildPoiIndex` 的结果要缓存 —— 它按 poiIndex 建 Map，每次渲染重建是白费功夫。
+   * `uid` → 这一段的**两端**（`useRouteOptions` 只要两端，见那个钩子的参数说明）。
    *
-   * ★ `matrix` 可以为 null（矩阵没跑 / 接口配额打满）。此时**不返回 null ctx** ——
-   *   否则时间链整条算不出来、行程页直接空白。缺矩阵只是让每段降级为「直线估算」，
-   *   页面照常可用，估算身份由 `hasSoftData` 如实标出（红线 10：null ≠ 0，不能填 0 充数）。
+   * ★ 直接从 `day.items` 算，**不经过 `legByUid`** —— 那条链要 `ctx`，
+   *   而 `ctx` 要用 `optionSets`（已拉方案），`optionSets` 又由这个钩子产出。
+   *   绕开这圈依赖的唯一办法就是"两端只按 items 算"，与时间链无关。
    */
-  const matrix: CityTransitMatrix | null = city?.transit ?? null
-  const poiIndex = useMemo(() => (matrix ? buildPoiIndex(matrix) : new Map<string, number>()), [matrix])
-
-  const baseCtx: LegContext | null = useMemo(
-    () =>
-      city
-        ? {
-            matrix,
-            poiIndex,
-            getCached: (k) => store.legCache[k],
-            defaultMode: store.defaultMode,
-          }
-        : null,
-    [city, matrix, poiIndex, store.legCache, store.defaultMode],
-  )
-
-  /**
-   * ★ 时间链为什么要算**两遍**
-   *
-   * 存在一个环：`timeline` 需要 `ctx`；`ctx.getOverride` 需要"用户选的那条方案的时长"；
-   * 而那条时长要靠 `timeline` 的段结构（from/to/mode）才能对上是哪一段。
-   *
-   * 破环办法是分两遍，都是纯函数、都没有网络请求：
-   *   第一遍 `timelineBase` —— 不含 override，只用来确定"有哪些段、每段什么方式"；
-   *   第二遍 `timeline`     —— 带上 override 重算，得到真正展示的时间链。
-   *
-   * 两遍的段结构必然一致（override 只改时长、不改两端点与方式），所以收敛、
-   * 不需要迭代到不动点。代价是每帧多一次 O(段数) 推导，相比 16ms 预算可忽略。
-   */
-  const timelineBase: Timeline | null = useMemo(() => {
-    if (!day || !stay || !baseCtx) return null
-    return buildTimeline(day, stay, placesOf, baseCtx)
-  }, [day, stay, placesOf, baseCtx])
-
-  /**
-   * `uid` → 从这一站到下一站的段。**别改用 `timeline.legs`** —— 那个要求住宿点存在，
-   * 而住宿点入口这一版被去掉了（⇒ `timeline` 恒为 null）。推导见 `buildAdjacentLegs`。
-   */
-  const legByUid = useMemo(
-    () =>
-      day && baseCtx ? buildAdjacentLegs(day, placeOfItem, baseCtx) : new Map<string, LegResult>(),
-    [day, placeOfItem, baseCtx],
-  )
+  const legEndsOfUid = (uid: string) => {
+    const items = day?.items ?? []
+    const i = items.findIndex((it) => it.uid === uid)
+    const cur = items[i]
+    const next = items[i + 1]
+    if (!cur || !next) return null
+    const from = placeOfItem(cur)
+    const to = placeOfItem(next)
+    return from && to ? { from, to } : null
+  }
 
   /* ── 多方案：点开某一段才拉 ─────────────────── */
 
-  /**
-   * 拉取状态机（未拉 / 拉取中 / 有结果 / 降级）自成一体，见 `useRouteOptions`。
-   *
-   * ★★ 传 `legByUid` 而不是 `timelineBase`（这一版的关键修正）：钩子原来在里面用
-   *   `timeline.stops.findIndex(...)` 找段，而 **`timeline` 恒为 `null`**
-   *   （`buildTimeline()` 要求首末都是住宿点，住宿点入口 2026-09-27 被去掉了）
-   *   ⇒ 每次点击都被 `if (!timeline) return` 吞掉，**面板点开永远是空的**。
-   *   现在换成"按 uid 取段"，与时间链无关。
-   * ★ resetKey 传 cityId：换城市时上一座城的路线不能带过来（uid 不通用）。
-   */
   const { optionSets, optionLoading, requestOptions } = useRouteOptions({
-    legOfUid: (uid) => legByUid.get(uid) ?? null,
+    legOfUid: legEndsOfUid,
     resetKey: cityId,
   })
 
-  /** uid → 用户手选的方案时长。键用 `legKey`（含方式），因为同一段换个方式就是另一条路 */
-  const overrides = useMemo(() => {
-    const m = new Map<string, LegOverride>()
-    if (!timelineBase) return m
-    timelineBase.stops.forEach((st, i) => {
-      const uid = st.item?.uid
-      const leg = timelineBase.legs[i]
-      if (!uid || !leg) return
-      const key = store.chosenOption[uid]
-      if (!key) return
-      // ★ 键必须是 `routeOptionKey(uid, mode, prefer)` —— 集合里存的就是这个键。
-      //   原先写成 `optionSets[uid]`（永远查不到）⇒ **手选方案的时长从未生效过**（2026-10-19 修）
-      const set = optionSets[routeOptionKey(uid, leg.mode, st.item?.transitPrefer)]
-      if (!set) return
-      const opt = set.options.find((o) => o.key === key)
-      if (!opt) return
-      m.set(legKey(leg.from, leg.to, leg.mode), {
-        // ⚠️ 路线规划接口给的是**分钟**，矩阵与时间链用**秒** —— 混了差 60 倍
-        duration: Math.round(opt.durationMinutes * 60),
-        distance: opt.distance,
-        ...(set.taxiFare !== undefined ? { taxiFare: set.taxiFare } : {}),
-      })
-    })
-    return m
-  }, [timelineBase, store.chosenOption, optionSets])
+  /**
+   * **已拉过的方案 → 真实时长**（`routeSetCache` 24h TTL，与海报同源）。
+   *
+   * ★★ 2026-10-25 替掉了原来的 `overrides` + `timelineBase` 两段。原来那版：
+   *   ① 依赖 `timelineBase`，而它要求**存在住宿点** ⇒ 不设住宿点时手选方案从未生效；
+   *   ② 为了破"ctx 需要 override、override 需要 timeline"的环，时间链要**算两遍**。
+   *   现在 `getOverride` 只依赖 `optionSets`（纯查表），**环消失了**，一遍就够。
+   *   细节与取舍见 `plannedLegs.ts` 文件头。
+   */
+  const plannedLegs = useMemo(
+    () =>
+      buildPlannedLegs({
+        day,
+        placeOfItem,
+        optionSets,
+        chosenOption: store.chosenOption,
+        defaultMode: store.defaultMode,
+      }),
+    [day, placeOfItem, optionSets, store.chosenOption, store.defaultMode],
+  )
 
+  /**
+   * 段解析上下文。
+   * ★ **不再有 `matrix`**（2026-10-25 删）：构建期矩阵从来没有数据
+   *   （`data/` 里 0 个 `transit.json`，`city.transit` 恒为 null），留着只会让人
+   *   以为"时长有三级来源"，而真实情况是行程页一直在用直线估算。
+   *   现在真实时长来自 `getPlanned`（已拉过的方案）+ `getCached`（即时补算）。
+   * ★ `city` 未加载时返回 null，时间链与段表都为空 —— 调用方各自判空。
+   */
   const ctx: LegContext | null = useMemo(
-    () => (baseCtx ? { ...baseCtx, getOverride: (k) => overrides.get(k) } : null),
-    [baseCtx, overrides],
+    () =>
+      city
+        ? {
+            getCached: (k) => store.legCache[k],
+            defaultMode: store.defaultMode,
+            getOverride: (k) => plannedLegs.picked.get(k),
+            getPlanned: (k) => plannedLegs.planned.get(k),
+          }
+        : null,
+    [city, plannedLegs, store.legCache, store.defaultMode],
+  )
+
+  /**
+   * `uid` → 从这一站到下一站的段。**别改用 `timeline.legs`** —— 那个要求住宿点存在
+   * （`buildTimeline` 的首末都是住宿点）。推导见 `buildAdjacentLegs`。
+   */
+  const legByUid = useMemo(
+    () => (day && ctx ? buildAdjacentLegs(day, placeOfItem, ctx) : new Map<string, LegResult>()),
+    [day, placeOfItem, ctx],
   )
 
   const timeline: Timeline | null = useMemo(() => {
@@ -304,11 +274,14 @@ export function useItineraryView(
 
   const warnings = useMemo(() => {
     const base = timeline && ctx ? overloadWarnings(timeline, ctx) : []
-    // 缺矩阵时明确说清"时长是估算的"，别让人以为这是实测路况
-    return matrix ? base : ['通勤矩阵尚未生成，段间时长为直线估算值', ...base]
-  }, [timeline, ctx, matrix])
+    // ★ 判据从"矩阵缺不缺"改成"有没有估算段"（2026-10-25）：矩阵删了，
+    //   而"永远提示估算"等于噪音 —— 只有真的存在估算段时才说。
+    return timeline?.hasEstimate
+      ? ['部分段间时长为直线估算 · 点开该段可查看真实路线', ...base]
+      : base
+  }, [timeline, ctx])
 
-  /** 只在存在预估/不适用段时才提示"非实测" —— 全是矩阵命中时不必啰嗦 */
+  /** 只在存在预估/不适用段时才提示"非实测" —— 全是真实时长时不必啰嗦 */
   const hasSoftData = useMemo(
     () => Boolean(timeline && (timeline.hasEstimate || timeline.hasNotApplicable)),
     [timeline],
@@ -381,7 +354,6 @@ export function useItineraryView(
     legByUid,
     warnings,
     hasSoftData,
-    matrix,
     optionSets,
     optionLoading,
     onRequestOptions: requestOptions,

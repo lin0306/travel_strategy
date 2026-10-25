@@ -586,7 +586,7 @@ map.fitBounds(provinceBounds, { padding: freeRectToPadding(), duration: 600 })
 
 | 组件 | 位置 | 职责 |
 |------|------|------|
-| `RegionPicker` | **`TopBar` 左侧**（站标之后） | 一次展开的三级下拉（全国 / 省 / 市），按钮文字 = **当前所在地区**。★ 不是面包屑：见下方说明 |
+| ~~`RegionPicker`~~ **（已删，2026-09-21）** | — | 三级下拉曾在 `TopBar` 左侧。删后改为**只读的地区文字**，换城市走搜索（见 11 号 §四）。下钻本身一直走点击地图，不受影响 |
 | `DistrictPanel` | 左侧 348px | 区划列表：名称 + 计数 + 状态（待收录/已收录） |
 | `CountBadge` | 地图上各区划中心 | 计数徽标，可点击 |
 | `EmptyDistrictCard` | 地图中央偏上 | 待收录省份的导流卡片（见 6.4） |
@@ -790,14 +790,14 @@ map.fitBounds(provinceBounds, { padding: freeRectToPadding(), duration: 600 })
 | D2 | ★ **实测边界数据体积与参数**（`get_polygon` 取值、`max_offset` 容差，见 T3/T4） | 结论写入本文档 | M1 |
 | D3 | 聚合索引生成：POI 计数 → 省 / 市两级 | `data/_generated/district-tree.json` | D1 |
 | D4 | 省 / 市两级路由 + 预渲染 | `app/routes/province.tsx`、`city.tsx` | — |
-| D5 | `RegionPicker` 三级地区选择器（顶栏左侧；★ 原计划的 `DrilldownBreadcrumb` 已撤） | `components/overlays/RegionPicker.tsx` | D4 |
+| ~~D5~~ | ~~`RegionPicker` 三级地区选择器~~ **（2026-09-21 删）** —— 顶栏改成只读地区文字，跨级跳转交给搜索 | — | D4 |
 | D6 | `DistrictPanel` 区划列表（桌面 348px + 移动 Sheet） | 同上 | D4 |
 | D7 | **区划边界图层**（`MultiPolygon` + 四档填色 + hover/active + 点击热区） | `map/tencent/districtLayer.ts` | M15 |
 | D8 | `CountBadge` 计数徽标（可点击 + 小省份的最小点击面积兜底） | `components/drilldown/` | D7 |
 | D9 | ★ **空态设计**：待收录省份的灰虚线样式 + `EmptyDistrictCard` 导流 | 同上 | D7 |
 | D10 | 层级切换过渡动画（下钻/返回的方向感 + 避免两层半透明混沌） | — | D7 |
 | D11 | **返回态恢复**：视野存 `history.state`，`popstate` 时读回（★ 最容易漏） | `hooks/useDrillHistory.ts` | D4 |
-| D12 | 移动端：Sheet 承载区划列表 + 顶栏地区选择器 + 边缘右滑返回 | 见 08 文档 | D6 |
+| D12 | 移动端：Sheet 承载区划列表 + 顶栏地区文字 + 边缘右滑返回 | 见 08 文档 | D6 |
 | D13 | 计数口径切换（全部 / 按四大类） | — | D3 |
 | D14 | 合规验收：34 个省级区划齐全 + 边界来自官方 + 署名完整 | 验收报告 | D7 |
 | D15 | 性能验收：首屏预算 + 边界体积 + 切换帧率 | 验收报告 | D7 |

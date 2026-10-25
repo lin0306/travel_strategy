@@ -39,7 +39,7 @@ pipeline/run.py —— 采集流水线入口（plans/04 第五节的落地）
 ★ 步骤顺序不能乱（04 文档 6.3）：③ 地理编码 → ④ 取图 → ⑦ 区划树（读所有已入库 POI）。
   ★ **⑥ 通勤矩阵已移出流水线**（2026-10-06 决策）：通勤时长改为用户实际规划时
   **运行时**请求图商，采集期绝不预存（62 城 × 约 1600 对 × 3 方式要几百 MB）。
-  `pipeline/steps/step6_transit.py` 是遗留死链路，**不要跑**。
+  通勤时长**运行时算**（2026-10-06 决策）；矩阵步骤已于 2026-10-25 彻底删除。
 
 ⚠️ ③④ 需要腾讯 WebService key；④ 额外需要 Unsplash / Pexels key（缺则降级到百度百科）；
    **`outline` / `cities` / `district-outline` 三条轮廓命令需要高德 Web 服务 key
@@ -71,7 +71,7 @@ def cmd_pipeline(args: list[str]) -> int:
 
     ★ ⑥ 通勤矩阵**不在这里**（2026-10-06 决策）：通勤时长改为用户实际规划时**运行时**请求图商，
       采集期预计算62 城 × 约1600 对 × 3 方式要几百 MB，且半改会造成跨城口径不一致。
-      `pipeline/steps/step6_transit.py` 是遗留死链路，**不要跑它**。
+      通勤时长运行时算，构建期不再生成任何矩阵。
     """
     from pipeline.assemble import build
     from pipeline.steps import step3_geocode, step4_images, step7_district
@@ -148,7 +148,7 @@ def main() -> int:
         "entrance": passthrough("pipeline.steps.step3b_entrance"),
         "images": passthrough("pipeline.steps.step4_images"),
         # ★ ⑥transit 已从 handlers 摘掉（2026-10-06 决策）：通勤时长改运行时算，不再预存。
-        #   `pipeline/steps/step6_transit.py` 仍在仓库里作为遗留实现，但**不许跑**
+        #   矩阵步骤已于 2026-10-25 删除（连 `transit.json` 的消费点一起）
         #   ——62 城 × 约1600 对 × 3 方式的矩阵要几百 MB，且当前 key 速率限制下根本跑不完。
         "district": passthrough("pipeline.steps.step7_district"),
         # ★ 省级「自身」轮廓（高德）。**不进 `pipeline` 全量流程** —— 那会让整条流水线

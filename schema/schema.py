@@ -232,33 +232,9 @@ class MatrixChannel(BaseModel):
     maxStraightMeters: int = Field(ge=0)
 
 
-class CityTransitMatrix(BaseModel):
-    generatedAt: str = Field(description="★ 必填：驾车时长含路况，是生成时刻的快照，不是恒定量")
-    sampledAtLabel: str
-    poiIndex: list[str] = Field(description="与 city.pois 下标一一对应，顺序也要一致")
-    modes: dict[MatrixChannelKey, MatrixChannel]
-
-    @model_validator(mode="after")
-    def _check_shape(self) -> "CityTransitMatrix":
-        n = len(self.poiIndex)
-        expect = (n * (n - 1)) // 2 * 4
-        if len(set(self.poiIndex)) != n:
-            dupes = {x for x in self.poiIndex if self.poiIndex.count(x) > 1}
-            raise ValueError(f"transit.poiIndex 存在重复 id：{sorted(dupes)}")
-        for key in ("driving", "walking", "bicycling"):
-            ch = self.modes.get(key)
-            if ch is None:
-                raise ValueError(f"transit.modes 缺少通道 {key}")
-            for field in ("distance", "duration"):
-                s = getattr(ch, field)
-                if len(s) != expect:
-                    raise ValueError(
-                        f"transit.modes.{key}.{field} 长度应为 {expect}"
-                        f"（{n} 个 POI 的上三角 × 4），实为 {len(s)}"
-                    )
-                if not all(c.isdigit() or ("a" <= c <= "z") for c in s):
-                    raise ValueError(f"transit.modes.{key}.{field} 含非 base36 字符")
-        return self
+# ★ 2026-10-25：`CityTransitMatrix` 整块删除 —— 它从来没有数据（`data/` 里 0 个
+#   `transit.json`）。通勤时长改为运行时算，真实值来自前端的 `routeSetCache`。
+#   `MatrixChannel` / `MatrixChannelKey` 仍保留：住宿点的一对多查询还在用通道映射。
 
 
 # ══════════════════════════════════════════════════════════════════
@@ -304,9 +280,6 @@ class City(BaseModel):
     facts: CityFacts = Field(default_factory=CityFacts)
     categories: list[CityCategory]
     pois: list[Poi] = Field(min_length=1)
-    # ★ 可空：矩阵要调距离矩阵接口（单城约 4,800 计算次数），配额打满或未跑 step6 时缺失。
-    #   缺失不该让整城不可用 —— 前端据此降级为「直线估算」并如实标注。
-    transit: Optional[CityTransitMatrix] = None
     credits: CityCredits
     updatedAt: str
 
@@ -315,15 +288,6 @@ class City(BaseModel):
         ids = [p.id for p in self.pois]
         if len(set(ids)) != len(ids):
             raise ValueError(f"城市「{self.id}」POI id 有重复：{[x for x in ids if ids.count(x) > 1]}")
-
-        # ★ 矩阵的 poiIndex 必须与 pois 的 id 集合**完全一致且顺序一致**（矩阵缺失时跳过）
-        if self.transit is not None and self.transit.poiIndex != ids:
-            missing = set(ids) - set(self.transit.poiIndex)
-            extra = set(self.transit.poiIndex) - set(ids)
-            raise ValueError(
-                f"城市「{self.id}」transit.poiIndex 与 pois 不一致 —— "
-                f"缺失 {sorted(missing)}，多余 {sorted(extra)}；顺序也必须一致"
-            )
 
         # POI 必须落在城市 bbox 内
         min_lng, min_lat, max_lng, max_lat = self.bbox

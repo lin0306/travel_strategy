@@ -5,7 +5,7 @@ pipeline/steps/step3_geocode.py —— 给 POI 草稿补坐标（04 文档第三
 输入：`data/cities/{省}/{市}/pois/{category}/{poiId}.json` 里的 POI 草稿
 输出：原地写回 `location.point` / `location.address` / `location.district`
 
-★ 必须在 step6（通勤矩阵）之前跑 —— 矩阵依赖最终坐标。
+★ 坐标必须在任何几何派生之前落地（区划归区、边界、徽标落点都依赖它）。
 
 三级退化 + 异地同名防护（04 文档 3 步细节）：
     ① 精确名 + region=城市名           → 命中且 adcode 匹配 → 入库

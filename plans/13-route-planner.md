@@ -1311,13 +1311,32 @@ IndexedDB 里已存的数据、以及三个调用方，换来的只是"名字更
 
 ### 还没做（明确记下来，别以为做完了）
 
-- **规划导出 / 导入**（`share.ts` 那条）：`RoutePlan` 还没有对应的导出载荷。
-- **拥堵描色**：`routeLayer` 支持 `jams`，`speed[].polyline_idx` 也自带区间，
-  但**没有落盘**（实时路况十分钟就过期，落盘就是骗人）⇒ 只做了"整条 + 序号"，
-  描色要等"点开时现拉"那条路接上。
-- **`DayItem.dwellMinutes` 在面板里不可改**：面板改的是顺序与增删，
-  停留时长仍在完整行程页的时间轴上调。
-- **`.env.local` 里的 `TMAP_WEB_KEY` 仍是死键**：`resolveWebServiceKey()` 已回落到
-  `VITE_TMAP_KEY`，所以功能可用；但那个键没有 `VITE_` 前缀 ⇒ 前端永远读不到，
-  容易被下一个人误以为在生效。要么加前缀，要么从"前端配置"里摘出去。
+- ~~**规划导出 / 导入**（`share.ts` 那条）：`RoutePlan` 还没有对应的导出载荷。~~
+  ✅ **已实现**（`common/logic/itinerary/share.ts`）：导出 JSON（`serializeExport` + `downloadJson`）、
+  导入（`parseImport` → Zod 校验 → 合并）、分享链接（LZ-string → `#itin=…`，**住宿点默认脱敏**）。
+  `usePlanView` 也一直提供 `onExport` / `onImportFile` / `onShare`。
+  ⚠️ **但 UI 入口被撤了**（2026-09-27 用户：「底部 导出/导入/分享 都先去掉，这个按钮的逻辑后面得调整」）
+  ⇒ 功能在、按钮无。**这是产品决定，不是缺口** —— 要恢复只需把三个按钮接回 `PlanDetailView` 底部。
+- ~~**拥堵描色**：`routeLayer` 支持 `jams`，`speed[].polyline_idx` 也自带区间，
+  但**没有落盘** ⇒ 只做了"整条 + 序号"。~~
+  ✅ **2026-10-25 已接上**（"点开时现拉"那条路）：`itinerary/jams.ts` 的 `jamsOf()`
+  把 `get_speed=1` 的 `speed[]` 转成 `{fromIdx,toIdx,level}`，经
+  `legFocus.routes[].jams` → `usePlanRouteLayer` → `routeLayer` 画成红线（拥堵）/ 橙线（缓行）。
+  **只在展开某一段、真拉过方案时才有**，不落盘（十分钟就过期，存下来就是骗人）。
+  ★★ 两个当时没人发现的坑（一起修了）：
+  ① `speed[]` 是**对象数组** `{speed, polyline_idx, distance, level}`，不是 `number[]` ——
+     旧代码 `speed.filter(v => v < 40)` 拿对象比数字，恒为 false ⇒ `congestionOf` **永远返回
+     undefined**，方案卡上的「N 段缓行」从来没出现过；
+  ② `polyline_idx` 数的是**原始差分数组**的下标（每 2 个数一个点），不是解码后的点下标 ——
+     实测 `polyline` 数值长 160、解码 81 点、`polyline_idx` 最大 159 ⇒ 不 ÷2 的话
+     `path.slice()` 会被裁到末尾，**拥堵色只糊在路线终点那一小截**。
+- ~~**`DayItem.dwellMinutes` 在面板里不可改**：面板改的是顺序与增删，
+  停留时长仍在完整行程页的时间轴上调。~~
+  ✅ **2026-10-25 已修**：详情页每个站点行的副标题右侧有了 `DwellStepper`（−/+ 15 分钟）。
+  ★ 原先这句是**错的** —— 它说的"完整行程页的时间轴"（`PlanPanel` → `ItineraryPanel` →
+  `TimelineRail`）**至今没有任何渲染点**，所以当时界面上根本改不了停留时长。
+  这类"文档说还有别的入口"最容易把缺口藏住：`setDwell` 有实现、有钳位、有持久化，
+  静态检查全绿，只是没人调它。
+- ~~**`.env.local` 里的 `TMAP_WEB_KEY` 仍是死键**~~ ✅ **已摘除**：`web/.env.local` 现在只有
+  `VITE_TMAP_KEY` 与 `VITE_AMAP_WEB_KEY` 两个键，没有 `VITE_` 前缀的旧键已删。
 

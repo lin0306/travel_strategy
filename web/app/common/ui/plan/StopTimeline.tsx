@@ -51,6 +51,7 @@
 import { Fragment } from 'react'
 
 import { Icon } from '~/common/ui/Icon'
+import { DwellStepper } from '~/common/ui/plan/DwellStepper'
 import { dotColor, subtitleOf, Thumb } from '~/common/ui/plan/StopBits'
 import { LegRow } from '~/common/ui/plan/LegRow'
 import { PointNameField } from '~/common/ui/plan/PointNameField'
@@ -330,9 +331,16 @@ function DaySection({
                         {s.name}
                       </button>
                     )}
-                    <p className="mt-0.5 mb-0 truncate text-[11px] text-ink-2">
-                      {subtitleOf(s, province, cityName)}
-                    </p>
+                    {/*
+                     * 副标题（省 · 市 · 区）+ **停留时长**。★ 停留放这一行右侧而不是单开一行：
+                     * 每行再长 20px 会破坏用户定过的卡片间距；口径见 `DwellStepper` 文件头。
+                     */}
+                    <div className="mt-0.5 flex items-center gap-1">
+                      <p className="m-0 min-w-0 flex-1 truncate text-[11px] text-ink-2">
+                        {subtitleOf(s, province, cityName)}
+                      </p>
+                      <DwellStepper minutes={s.dwellMinutes} onChange={(m) => store.setDwell(s.uid, m)} />
+                    </div>
                   </div>
 
                   <button

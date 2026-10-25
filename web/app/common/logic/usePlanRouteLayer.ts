@@ -40,6 +40,7 @@ import {
 } from '~/common/map/tencent'
 
 import { useFitOnce } from './useFitOnce'
+import type { JamSpan } from './itinerary/jams'
 import type { PlanStopView } from './itinerary/planStops'
 import type { MapShellContext } from './mapShell'
 import type { RoutePlan, TravelMode } from '~shared/schema'
@@ -76,6 +77,12 @@ export interface PlanRouteLayerOptions {
        * 选中的那条按它逐段画；其余方式（没有这个字段）画一根线。
        */
       segments?: Array<{ kind: 'walk' | 'ride'; path: RouteLeg['path']; color?: string }>
+      /**
+       * 拥堵切片（该方案 `path` 的下标区间）。
+       * ★ 只有"点开这一段、真拉过方案"才有 —— 路况不落盘，刷新即失。
+       *   结构与 `routeLayer.JamSpan` 同构，直接透传。
+       */
+      jams?: JamSpan[]
     }>
     focusedKey: string | null
     from: RoutePoint
@@ -260,6 +267,13 @@ export function usePlanRouteLayer({
         path: r.path,
         candidate: true,
         ...(focused ? { onTop: true } : {}),
+        /**
+         * ★ **拥堵描色**（2026-10-25）：区间由 `jamsOf()` 从 `get_speed=1` 的
+         *   `polyline_idx` 直接算出（不用回头找对应段）。只有**这一段被点开、
+         *   真拉过方案**时才有值 —— 路况不落盘，所以刷新后会消失，这是对的。
+         *   图层那边只在 `path` 是真实折线时才画（两点直连没有"哪一段堵"可言）。
+         */
+        ...(r.jams && r.jams.length > 0 ? { jams: r.jams } : {}),
       })
     }
     route.setLegs(legs)

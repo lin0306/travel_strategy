@@ -361,78 +361,14 @@ export const TRAVEL_MODE_KEYS: TravelMode[] = [
   'walking',
 ]
 
-/**
- * 各方式的直线距离适用上限（米）。超出即写 '0000'。
- * 步行 40 公里、骑行 30 公里这种数据算出来也没用 —— 用户看到「步行 7 小时 52 分钟」
- * 不会获得任何帮助，反而是噪音。
+/*
+ * ★ 2026-10-25：构建期通勤矩阵（`CityTransitMatrixSchema` / `MatrixChannelSchema` /
+ *   `MODE_MAX_STRAIGHT_METERS`）**整块删除**。它从来没有数据 —— `data/` 里 0 个
+ *   `transit.json`、`city.transit` 恒为 null，却让"时长有几级来源"看起来成立。
+ *   现在真实时长来自运行时：`routeSetCache`（已拉过的方案）+ `legCache`（即时补算）。
+ *   `MATRIX_CHANNEL`（方式 → 矩阵接口通道）仍然保留 —— 住宿点那一对多查询还在用它。
  */
-export const MODE_MAX_STRAIGHT_METERS: Record<MatrixChannelKey, number> = {
-  driving: 0, // 0 = 不限
-  walking: 3000,
-  bicycling: 8000,
-}
 
-/**
- * 一条矩阵通道：定长 4 位 base36 扁平串，按行优先上三角展开。
- *   idx(i, j) = i × (i − 1) / 2 + j   (i > j)
- *   '0000' = 不适用（超出该方式直线距离上限，或接口无数据）
- * 容量：36⁴ = 1,679,616 —— 距离够用到 1,680 km，时长够用到 466 小时。
- */
-export const MatrixChannelSchema = z.object({
-  distance: z.string().regex(/^[0-9a-z]*$/, 'base36 只含小写字母与数字'),
-  duration: z.string().regex(/^[0-9a-z]*$/, 'base36 只含小写字母与数字'),
-  maxStraightMeters: z.number().int().nonnegative(),
-})
-export type MatrixChannelData = z.infer<typeof MatrixChannelSchema>
-
-export const CityTransitMatrixSchema = z
-  .object({
-    /**
-     * ★ 必填时间戳。驾车时长含实时路况，是"生成时刻的快照"而非恒定量 ——
-     * 必须在 UI 上如实标注 `generatedAt` 与采样时段。
-     * 一个 9 月生成的矩阵在 12 月被当成"实时路况"展示，就是在误导用户。
-     */
-    generatedAt: z.string(),
-    sampledAtLabel: z.string(), // '工作日上午 · 含路况'
-    /** 矩阵的 POI 顺序：与 city.pois 的下标一一对应（顺序也要一致） */
-    poiIndex: z.array(z.string()),
-    modes: z.object({
-      driving: MatrixChannelSchema,
-      walking: MatrixChannelSchema,
-      bicycling: MatrixChannelSchema,
-    }),
-  })
-  .superRefine((m, ctx) => {
-    const n = m.poiIndex.length
-    // 上三角格数 × 4 字符 = 字符串应有长度
-    const expect = (n * (n - 1)) / 2 * 4
-
-    // poiIndex 不得有重复 id（重复会让下标与 POI 对不上）
-    const seen = new Set<string>()
-    m.poiIndex.forEach((id, i) => {
-      if (seen.has(id)) {
-        ctx.addIssue({ code: 'custom', message: `transit.poiIndex 存在重复 id「${id}」(下标 ${i})` })
-      }
-      seen.add(id)
-    })
-
-    for (const key of MatrixChannelEnum.options) {
-      const ch = m.modes[key]
-      if (ch.distance.length !== expect) {
-        ctx.addIssue({
-          code: 'custom',
-          message: `transit.modes.${key}.distance 长度应为 ${expect}（${n} 个 POI 的上三角 × 4），实为 ${ch.distance.length}`,
-        })
-      }
-      if (ch.duration.length !== expect) {
-        ctx.addIssue({
-          code: 'custom',
-          message: `transit.modes.${key}.duration 长度应为 ${expect}，实为 ${ch.duration.length}`,
-        })
-      }
-    }
-  })
-export type CityTransitMatrix = z.infer<typeof CityTransitMatrixSchema>
 
 /* ══════════════════════════════════════════════════════════════════
  * 六、城市
@@ -487,7 +423,6 @@ export const CitySchema = z.object({
    * 配额打满或未跑 step6 时它就是缺失的。一座城市不该因为矩阵没跑完就整城不可用：
    * 缺失时行程页退化为「直线估算 + 实时公交查询」，UI 按「待收录」呈现（红线 10：null ≠ 0）。
    */
-  transit: CityTransitMatrixSchema.nullable().default(null),
   credits: z.object({
     imageSources: z.array(z.string()),
     textSources: z.array(z.string()),

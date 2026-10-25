@@ -172,36 +172,10 @@ def check_city(slug: str, city_id: str, city: dict) -> list[Issue]:
         if p.get("_geocoded") is False:
             add("WARN", "该点位已被 step3 标记为地理编码失败（needs_geocode）", scope)
 
-    # 通勤矩阵 —— 最容易写错的一块
-    tr = city.get("transit")
-    if not tr:
-        # ★ 降级为 WARN 而非 ERROR：矩阵要调付费接口，配额打满时缺它是**预期内的状态**，
-        #   前端会走「直线估算 + 如实标注」。只有"矩阵存在但写坏了"才值得判 ERROR。
-        add("WARN", "缺 transit（通勤矩阵）—— 行程页时长降级为直线估算，配额恢复后跑 step6_transit 补上")
-    else:
-        if not tr.get("generatedAt"):
-            add("ERROR", "transit 缺 generatedAt（缺了就无法如实告知「时长是快照」）")
-        idx = tr.get("poiIndex", [])
-        if idx != ids:
-            add("ERROR", f"transit.poiIndex 与 pois 的 id 顺序不一致（共 {len(ids)} 个 POI）")
-        n = len(idx)
-        expect = (n * (n - 1)) // 2 * 4 if n > 1 else 0
-        for mode in tmap.TMAP_MATRIX_MODES:
-            ch = (tr.get("modes") or {}).get(mode)
-            if not ch:
-                add("ERROR", f"transit.modes 缺通道 {mode}")
-                continue
-            for f in ("distance", "duration"):
-                got = len(ch.get(f, ""))
-                if got != expect:
-                    add("ERROR", f"transit.modes.{mode}.{f} 长度应为 {expect}，实为 {got}")
-        drv = (tr.get("modes") or {}).get("driving", {})
-        if drv.get("duration"):
-            cells = len(drv["duration"]) // 4
-            na = drv["duration"].count("0000")
-            cover = (cells - na) / cells if cells else 0
-            if cover <= 0.95:
-                add("WARN", f"驾车覆盖率 {cover:.1%} 未超过 95% 门槛（{na}/{cells} 格不适用）")
+    # ★ 2026-10-25：这里原本有一条「缺 transit（通勤矩阵）」的 WARN —— 那是**假告警**。
+    #   通勤时长 2026-10-06 就改成运行时算了，`data/` 里根本没有 `transit.json`，
+    #   所以它每座城都报一次，报了两个月没人能"修"（因为不需要修）。
+    #   真实时长来源见前端 `common/logic/itinerary/routeSetCache.ts`。
 
     return issues
 

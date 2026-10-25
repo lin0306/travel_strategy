@@ -21,6 +21,7 @@
 
 import type { TransitPrefer, TravelMode } from '~shared/schema'
 
+import { congestionOf, jamsOf, type CongestionInfo, type JamSpan, type RawSpeed } from './jams'
 import { jsonp } from './jsonp'
 import { decodePolyline } from './polyline'
 import {
@@ -48,13 +49,6 @@ export { transitSegmentsOf, type RouteSegment, type TransitStepBrief }
 /** 方案卡按 A/B/C 命名，与原型和文案一致 */
 const OPTION_KEYS = ['A', 'B', 'C'] as const
 
-export interface CongestionInfo {
-  /** 缓行/拥堵路段数 */
-  slowCount: number
-  /** 最慢路段速度（km/h） */
-  slowestKmh: number
-}
-
 export interface RouteOption {
   /** 'A' | 'B' | 'C' */
   key: string
@@ -67,6 +61,15 @@ export interface RouteOption {
   /** 方案特色标签，如 ['少红绿灯'] */
   tags: string[]
   congestion?: CongestionInfo
+  /**
+   * 拥堵切片（折线下标区间）。
+   *
+   * ★ **点开某一段时才拉得到** —— 它跟着 `get_speed=1` 的实时路况走，所以
+   *   不落盘（`routeSetCache` 存的是方案本身；十分钟前的路况存下来就是骗人）。
+   * ★ 公交/地铁**没有**：它们的 `path` 是多段拼接的，接口给的 `polyline_idx`
+   *   是它自己那根 polyline 的下标，对不上拼出来的数组。
+   */
+  jams?: JamSpan[]
   /**
    * 折线原始值 —— ★ **腾讯返回的是数值数组** `[lat1, lng1, dlat2, dlng2, …]`（前向差分），
    * **不是压缩字符串**（2026-09-25 实测确认，见 `./polyline` 文件头那张表）。
@@ -173,7 +176,7 @@ interface RawRoute {
   toll?: number
   tags?: string[]
   polyline?: unknown
-  speed?: number[]
+  speed?: RawSpeed[]
   /**
    * ★ **公交/地铁专用**：几何在这里，**不在** `polyline` 上。
    * 各段的坐标串是**独立压缩**的，所以要逐段解码（见 `transitPathOf`）。
@@ -294,29 +297,36 @@ export async function fetchRouteOptions(
       return { at: Date.now(), options: [], degrade: 'failed', note: '接口未返回可用路线' }
     }
 
-    const options: RouteOption[] = routes.slice(0, 3).map((r, i) => ({
-      key: OPTION_KEYS[i] ?? String(i + 1),
-      distance: r.distance ?? 0,
-      durationMinutes: r.duration ?? 0,
-      ...(r.toll ? { toll: r.toll } : {}),
-      tags: (r.tags ?? []).map(tagLabel),
-      congestion: congestionOf(r.speed),
-      // ★ 实测是**数值数组**（不是压缩字符串）—— 用 Array.isArray 判，别用 typeof 'string'。
-      //   腾讯坐标是 (lat, lng)，解压与转序都在 decodePolyline 里做（见 ./polyline）
-      //   ⚠️ 公交/地铁这条**恒为 null**（那个接口不给这个字段），几何一律看 `path`
-      polyline: !isTransit && Array.isArray(r.polyline) ? (r.polyline as number[]) : null,
-      /**
-       * ★ **画线请一律用这个**。公交/地铁的几何散在 `steps[]` 里，要逐段解码后拼接；
-       *   其余方式就是一根折线。两者的差别收在 `transitPathOf` / `decodePolyline` 里。
-       */
-      path: isTransit
+    const options: RouteOption[] = routes.slice(0, 3).map((r, i) => {
+      // ★ 路径只解码一次：`jams` 的下标要按它裁，重复解码既是白费也可能两次结果不一致
+      const path = isTransit
         ? transitPathOf(r.steps)
-        : decodePolyline(Array.isArray(r.polyline) ? (r.polyline as number[]) : []),
-      // ★ 公交/地铁才有：坐哪几趟、在哪换乘（其余方式没有这个概念）
-      ...(isTransit ? { transitLegs: transitLegsOf(r.steps) } : {}),
-      // ★ 公交/地铁才有：**分段几何**（每段一条，各带自己的线路色）
-      ...(isTransit ? { segments: transitSegmentsOf(r.steps) } : {}),
-    }))
+        : decodePolyline(Array.isArray(r.polyline) ? (r.polyline as number[]) : [])
+      // ★ 公交/地铁不描色（见 `RouteOption.jams` 的注释）
+      const jams = isTransit ? [] : jamsOf(r.speed, path.length)
+      return {
+        key: OPTION_KEYS[i] ?? String(i + 1),
+        distance: r.distance ?? 0,
+        durationMinutes: r.duration ?? 0,
+        ...(r.toll ? { toll: r.toll } : {}),
+        tags: (r.tags ?? []).map(tagLabel),
+        congestion: congestionOf(r.speed),
+        // ★ 实测是**数值数组**（不是压缩字符串）—— 用 Array.isArray 判，别用 typeof 'string'。
+        //   腾讯坐标是 (lat, lng)，解压与转序都在 decodePolyline 里做（见 ./polyline）
+        //   ⚠️ 公交/地铁这条**恒为 null**（那个接口不给这个字段），几何一律看 `path`
+        polyline: !isTransit && Array.isArray(r.polyline) ? (r.polyline as number[]) : null,
+        /**
+         * ★ **画线请一律用这个**。公交/地铁的几何散在 `steps[]` 里，要逐段解码后拼接；
+         *   其余方式就是一根折线。两者的差别收在 `transitPathOf` / `decodePolyline` 里。
+         */
+        path,
+        ...(jams.length > 0 ? { jams } : {}),
+        // ★ 公交/地铁才有：坐哪几趟、在哪换乘（其余方式没有这个概念）
+        ...(isTransit ? { transitLegs: transitLegsOf(r.steps) } : {}),
+        // ★ 公交/地铁才有：**分段几何**（每段一条，各带自己的线路色）
+        ...(isTransit ? { segments: transitSegmentsOf(r.steps) } : {}),
+      }
+    })
 
     // ★ 只有 1 条是**正常情况**，不是错误 —— 有些点对就只这一条可行路线
     const degrade: RouteDegrade =
@@ -357,28 +367,6 @@ function tagLabel(tag: string): string {
   return map[tag] ?? tag
 }
 
-/**
- * 从 `get_speed=1` 的速度数组里提炼拥堵信息。
- *
- * 速度区间 → 视觉表达（09 文档 6.3.1）：
- *   ≥ 40 km/h 畅通（基准色） / 20–40 缓行（橙） / < 20 拥堵（红）
- *
- * ⚠️ 刻意**不做"蚂蚁线"动态流光** —— 那是导航 App 的语言，会让人误以为这是实时导航。
- *    我们给的是"查询时刻的快照"，静态描色更诚实。
- */
-function congestionOf(speed?: number[]): CongestionInfo | undefined {
-  if (!speed || speed.length === 0) return undefined
-  const slow = speed.filter((v) => v < 40)
-  if (slow.length === 0) return undefined
-  return { slowCount: slow.length, slowestKmh: Math.min(...slow) }
-}
-
-/** 拥堵的视觉分档。UI 与地图描色共用，避免两处各判一次 */
-export function congestionLevel(kmh: number): 'clear' | 'slow' | 'jam' {
-  if (kmh >= 40) return 'clear'
-  if (kmh >= 20) return 'slow'
-  return 'jam'
-}
 
 /**
  * 发一次请求。

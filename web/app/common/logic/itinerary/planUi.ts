@@ -15,6 +15,7 @@
 import { create } from 'zustand'
 
 import { patchPlanUi, readUiState } from '~/common/data/uiState'
+import type { JamSpan } from './jams'
 import { usePlanStore } from './planStore'
 import type { NewStop } from './planStops'
 import type { TravelMode } from '~shared/schema'
@@ -74,6 +75,12 @@ export interface LegFocusPayload {
       path: Array<{ lng: number; lat: number }>
       color?: string
     }>
+    /**
+     * 拥堵切片（**该方案自己的 `path`** 的下标区间）。
+     * ★ 只有"点开这一段、真拉过"才有 —— 它跟着实时路况走，十分钟就过期，所以不落盘。
+     * ★ 公交/地铁为空：它们的 path 是多段拼接的，接口下标对不上。
+     */
+    jams?: JamSpan[]
   }>
   /** 用户选中的那条（`null` = 还没选，此时所有候选一样淡） */
   focusedKey: string | null

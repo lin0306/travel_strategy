@@ -87,7 +87,6 @@ PIPELINE_MODULES = {
     'step3_geocode': 'steps/step3_geocode.py',
     'step3b_entrance': 'steps/step3b_entrance.py',
     'step4_images': 'steps/step4_images.py',
-    'step6_transit': 'steps/step6_transit.py',
     'step7_district': 'steps/step7_district.py',
     'step8_subdistricts': 'steps/step8_subdistricts.py',
     'step9_province_outline': 'steps/step9_province_outline.py',

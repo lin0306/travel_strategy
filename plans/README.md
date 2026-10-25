@@ -20,10 +20,13 @@
 
 **连带变更**：
 - `pipeline/steps/step6_transit.py`（原构建期矩阵生成脚本）是**遗留死链路，不许跑**。`run.py` 已把 `transit` 子命令摘掉。
-- `transit.json` / `transit` 字段**不再生成**。残留消费点（待拆）：`web/app/common/data/cityRegistry.ts:38`（glob）、`:149`（赋值）、`web/app/common/logic/usePlanView.ts:208`（读 `city?.transit` 当矩阵）。
+- `transit.json` / `transit` 字段**不再生成**。★ **2026-10-25 已彻底拆干净**：`cityRegistry` 的 glob 与赋值、
+  `usePlanView` 的 `city?.transit`、`usePosterExport` 的同款读取、`schema`（`.ts` / `.py`）的
+  `CityTransitMatrix`、`itinerary/matrix.ts`、`pipeline/steps/step6_transit.py`、`build.py` 里那条
+  「缺 transit」假 WARN —— 全部删除。行程页段时长并轨到 `routeSetCache`（与海报同源）。
 - 行程页的通勤时长走 `common/logic/itinerary/routeOptions.ts` 的**实时链路**（与住宿点、公交/地铁同一条路）。
 - ★ **判"有没有跑通"别看 `run.py usage` 的 matrix 用量** —— 失败请求也记账，会虚增。
-- ⚠️ **`build.py` 里那条「缺 transit」WARN 是假告警**，不代表有数据缺口。
+- ⚠️ ~~`build.py` 里那条「缺 transit」WARN 是假告警~~ —— 2026-10-25 连告警本身一起删了。
 
 > 📌 01 / 02 / 04 / 05 / 07 / 09 六份文档中与矩阵相关的段落**已逐处标注**（顶部告示 / ⛔ 废弃标记 / 删除线）。
 > 仍然残留的旧表述**全部位于已标废弃的章节内**，仅作决策来由保留。涉及矩阵设计时以本节为准。
@@ -44,7 +47,7 @@
 | [08-mobile-adaptation.md](./08-mobile-adaptation.md) | **双端适配（移动优先）**：地图即画布 + 顶部胶囊 + Sheet 三档吸附、手势冲突矩阵、`svh`/安全区、微信内置浏览器、分端性能预算、**托管平台国内可达性风险** | 做界面前必看 |
 | [**09-itinerary-planner.md**](./09-itinerary-planner.md) | **行程规划器**：住宿段模型、**六种通行方式 + 多路线备选**、**运行时通勤**（⚠️ 原"三级来源含静态矩阵"的设计已变）、时间链推导、地图连线、配额账本、降级策略 | **做行程功能时必看** |
 | [**10-map-drilldown.md**](./10-map-drilldown.md) | **三级地图下钻**：全国 → 省 → 市路由、腾讯 District 数据源、**区划树与聚合索引**、空态设计、**边界合规红线** | **做下钻时必看** |
-| [**11-restructure-and-search.md**](./11-restructure-and-search.md) | **工程重构与搜索导航**：抓取 / 展示分家、展示工程拆 `common` `desktop` `mobile` 三块、**端别路由（同 URL 分派）**、**删地区选择器改用搜索**、三级取景定格、护栏改动。**进度：步骤 1–5 已落地**；⏳ 步骤 6（视野记忆）、§8.4（移动端搜索）、步骤 7（文档同步）未做 | 看重构遗留项时必看 |
+| [**11-restructure-and-search.md**](./11-restructure-and-search.md) | **工程重构与搜索导航**：抓取 / 展示分家、展示工程拆 `common` `desktop` `mobile` 三块、**端别路由（同 URL 分派）**、**删地区选择器改用搜索**、三级取景定格、护栏改动。**进度：步骤 1–6 已落地**（步骤 6 的视野记忆 2026-09-29 完成，实现方式与 §5.5 不同 —— 走 `uiState` 的 `restoredViewFor`，没加 `shell.applyView()`）；⏳ §8.4（移动端搜索）、步骤 7 的文档同步剩余部分未做 | 看重构遗留项时必看 |
 | [**12-poi-aggregation.md**](./12-poi-aggregation.md) | **POI 密集区聚合**（✅ 2026-09-22 已落地）：「x 个景点 → 点击放大 → 还密就再点」，护栏 Z / T 在守 | 看点位聚合时看 |
 | [**13-route-planner.md**](./13-route-planner.md) | **路线规划（✅ 已落地）**：多条规划记录 + 历史（IndexedDB）、**真实沿路折线**、左右双浮层、自由取点、整条一次规划（waypoints ≤15 分段拼）。§十一 是落地记录（含 3 个只有真跑才暴露的 bug）+ **§十一末尾列了 4 条"还没做"** | 做路线功能前必看 |
 
