@@ -13,6 +13,10 @@
  * ## 断点
  * 它占约 90px，而顶栏在 768px 已经挤（搜索框 `md`、站点导航 `lg`）。
  * 所以它在 `sm` 以下**只留图标**，`sm` 起才带文字 —— 与底图菜单的收法一致。
+ *
+ * ## 图标用 `md`（16px）而不是 `sm`（14px）
+ * `route` 是两个圆 + S 形连线，14px 时 1 个单位只有 0.58px，S 的弯会糊成一团。
+ * 16px 时与旁边 12.5px 的文字也更协调（按钮高 32px，放得下）。
  */
 
 import { usePlanStore } from '~/common/logic/itinerary/planStore'
@@ -36,7 +40,7 @@ export function PlanMenuButton() {
           : 'border-line bg-surface text-ink hover:border-primary hover:text-primary'
       }`}
     >
-      <Icon name="route" size="sm" />
+      <Icon name="route" size="md" />
       <span className="hidden sm:inline">路线规划</span>
       {count > 0 ? (
         <span className="rounded-full bg-line-2 px-1.5 text-[11px] text-ink-2">{count}</span>
