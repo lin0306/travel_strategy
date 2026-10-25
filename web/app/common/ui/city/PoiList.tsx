@@ -146,7 +146,7 @@ export function PoiList({
               onKeyDown={(e: KeyboardEvent<HTMLDivElement>) => {
                 if (e.key === 'Enter') rowAction?.(p.id)
               }}
-              className={`flex cursor-pointer items-start gap-2.5 px-3.5 py-2 hover:bg-bg ${
+              className={`flex cursor-pointer items-start gap-2.5 px-3.5 py-2 hover:bg-bg active:bg-bg ${
                 !pick && selectedId === p.id ? 'bg-bg' : ''
               }`}
             >
@@ -157,12 +157,12 @@ export function PoiList({
               />
               <div className="min-w-0 flex-1">
                 <div className="flex items-center gap-1.5">
-                  <b className="truncate text-[13.5px] font-medium">{p.name}</b>
+                  <b className="truncate text-[15.5px] font-medium md:text-[13.5px]">{p.name}</b>
                   <span className="flex-none text-[10.5px] text-ink-2">
                     {SUBTYPE_META[p.subtype].label}
                   </span>
                 </div>
-                <p className="mt-0.5 mb-0 line-clamp-1 text-[11.5px] text-ink-2">{p.summary}</p>
+                <p className="mt-0.5 mb-0 line-clamp-1 text-[13.5px] text-ink-2 md:text-[11.5px]">{p.summary}</p>
               </div>
               <div className="flex flex-none flex-col items-end gap-1">
                 {/* ★ `pick` 档没有「详情」—— 那一档行点击就是详情（见文件头 ★★） */}
@@ -173,7 +173,9 @@ export function PoiList({
                       e.stopPropagation()
                       onOpen(p.id)
                     }}
-                    className="text-[11px] text-primary"
+                    /* ★ 移动端隐藏：整行点击就是打开详情（08 文档 3.3「整卡可点」），
+                       再多一枚小字按钮只是小靶子。桌面留着 —— 那里行宽、鼠标精确 */
+                    className="hidden py-1 text-[13.5px] text-primary md:inline md:py-0 md:text-[11px]"
                   >
                     详情
                   </button>
@@ -186,7 +188,9 @@ export function PoiList({
                   }}
                   // `pick` 档用**原详情按钮的样式**（文字链接）
                   className={
-                    pick ? 'text-[11px] text-primary' : 'text-[11px] text-ink-2 hover:text-primary'
+                    pick
+                      ? 'inline-flex min-h-[36px] items-center py-2 text-[13.5px] text-primary md:py-0 md:min-h-0 md:text-[11px]'
+                      : 'inline-flex min-h-[36px] items-center py-2 text-[13.5px] text-ink-2 hover:text-primary md:min-h-0 md:py-0 md:text-[11px]'
                   }
                 >
                   {pick ? '加入行程' : '添加行程'}

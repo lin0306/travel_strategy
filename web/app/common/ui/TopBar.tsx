@@ -167,8 +167,29 @@ function RepoButton() {
 }
 
 /** 站点导航项：打开「关于」弹窗（**不是链接** —— 它不跳页，只管开一块浮层） */
-function DocButton() {
+/**
+ * 「关于」入口。
+ *
+ * ★ `compact` = **只给一枚图标**，给移动端用（2026-10-25 补）。
+ *   补它的原因：这块弹窗里有**图片署名规则、内容来源、数据规模** —— 属于合规面，
+ *   而原来它只在 `lg`（≥1024px）那组里渲染，手机上**完全没有入口**，等于永远打不开。
+ *   移动端顶栏放不下「关于」两个字，所以只留图标，`aria-label` 仍是完整描述。
+ */
+function DocButton({ compact = false }: { compact?: boolean }) {
   const openAbout = useDocUi((s) => s.openAbout)
+  if (compact) {
+    return (
+      <button
+        type="button"
+        onClick={openAbout}
+        aria-haspopup="dialog"
+        aria-label="关于行迹（数据规模 · 使用说明 · 内容与素材来源）"
+        className="grid size-8 place-items-center rounded-md text-ink-2 hover:bg-line-2 hover:text-primary"
+      >
+        <Icon name="info" size="md" />
+      </button>
+    )
+  }
   return (
     <button
       type="button"
@@ -268,13 +289,20 @@ export function TopBar({ actions, shell, variant = 'browse' }: TopBarProps) {
                  （`TodoTag` 组件随之删除；最后一枚占位就是紧随其后的全屏，
                  它现在是**按不动就不出现**的真按钮，见 `FullscreenButton`） */}
         {browse ? (
-          <div className="hidden flex-none items-center gap-2 lg:flex">
-            <span className="h-5 w-px flex-none bg-line" aria-hidden="true" />
-            <nav className="flex items-center gap-0.5" aria-label="站点导航">
-              <DocButton />
-              <RepoButton />
-            </nav>
-          </div>
+          <>
+            {/* ★ lg 以下：只留「关于」一枚图标（数据来源是合规面，手机上不能没有入口）。
+                GitHub 那枚不给 —— 它是开发者导向，移动端顶栏不值得为它挤位置 */}
+            <div className="flex flex-none items-center lg:hidden">
+              <DocButton compact />
+            </div>
+            <div className="hidden flex-none items-center gap-2 lg:flex">
+              <span className="h-5 w-px flex-none bg-line" aria-hidden="true" />
+              <nav className="flex items-center gap-0.5" aria-label="站点导航">
+                <DocButton />
+                <RepoButton />
+              </nav>
+            </div>
+          </>
         ) : null}
 
         {/* ⑥ 全屏。★ 两态同一枚按钮，且**不会**因为环境不支持而留一个按不动的坑

@@ -79,7 +79,15 @@ export function MapLogPanel() {
   return (
     // 容器本身不吃事件（`pointer-events-none`），只有面板与按钮吃 ——
     // 否则这块右下角会变成"拖不动地图"的死区
-    <div className="pointer-events-none absolute right-[var(--flt-inset)] bottom-[var(--flt-inset)] z-[60] flex flex-col items-end gap-2">
+    /*
+      ★★ `z-[27]`（2026-10-25 修）：原来写的是 `z-[60]`，而移动端 Sheet 是 `z-28`
+         ⇒ 这枚诊断胶囊**压在 Sheet 之上**，实测挡住详情页的「添加行程」和城市页的
+         「热门优先」。它是诊断工具，不该盖住产品操作 —— 降到 Sheet 之下，
+         Sheet 收起（peek）时才露出来，打开时被盖住正好。
+      ⚠️ 别为了"看得见"再往上调：它自己不带 `data-overlay`（见文件头约束 1），
+         也就是说它**不参与取景避让**，压住内容时没有任何补偿机制。
+    */
+    <div className="pointer-events-none absolute right-[var(--flt-inset)] bottom-[var(--flt-inset)] z-[27] flex flex-col items-end gap-2">
       {open ? (
         <div
           role="dialog"

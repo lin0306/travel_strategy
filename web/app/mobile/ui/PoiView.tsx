@@ -76,7 +76,7 @@ export function MobilePoiView({ view }: { view: PoiView }) {
           <button
             type="button"
             onClick={view.addToPlan}
-            className="inline-flex h-9 flex-1 items-center justify-center gap-1.5 rounded-lg bg-primary text-[13px] font-medium text-white"
+            className="inline-flex h-11 flex-1 items-center justify-center gap-1.5 rounded-lg bg-primary text-[14.5px] font-medium text-white md:h-9 md:text-[13px]"
           >
             <Icon name="plus" size="sm" />
             {addLabel}

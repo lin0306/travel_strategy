@@ -61,7 +61,7 @@ export function PoiDetailSheet({
           <button
             type="button"
             onClick={onClose}
-            className="inline-flex h-9 flex-1 items-center justify-center gap-1.5 rounded-lg border border-line text-[13px]"
+            className="inline-flex h-11 flex-1 items-center justify-center gap-1.5 rounded-lg border border-line text-[14.5px] md:h-9 md:text-[13px]"
           >
             <Icon name="close" size="sm" />
             关闭
@@ -69,7 +69,7 @@ export function PoiDetailSheet({
           <button
             type="button"
             onClick={() => onAddToPlan(poi.id)}
-            className="inline-flex h-9 flex-1 items-center justify-center gap-1.5 rounded-lg bg-primary text-[13px] font-medium text-white"
+            className="inline-flex h-11 flex-1 items-center justify-center gap-1.5 rounded-lg bg-primary text-[14.5px] font-medium text-white md:h-9 md:text-[13px]"
           >
             <Icon name="plus" size="sm" />
             {addLabel}

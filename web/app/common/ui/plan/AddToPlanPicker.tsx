@@ -164,9 +164,8 @@ function PickerBody({ stop }: { stop: NewStop }) {
         </div>
 
         {candidates.length === 0 ? (
-          <p className="m-0 px-3.5 py-4 text-center text-[12.5px] leading-relaxed text-ink-2">
-            这座城还没有组。建一个 —— 组是装规划明细的容器，
-            之后你可以把别的景点、地图取点也加进来。
+          <p className="m-0 px-3.5 py-4 text-center text-[14px] leading-relaxed text-ink-2 md:text-[12.5px]">
+            这座城还没有组，先建一个。
           </p>
         ) : (
           <ul className="scroll m-0 max-h-[46vh] list-none overflow-auto p-0">
@@ -255,16 +254,14 @@ function PickerBody({ stop }: { stop: NewStop }) {
             <button
               type="button"
               onClick={() => setDraft('')}
-              className="flex w-full items-center justify-center gap-1.5 rounded-lg border border-dashed border-line py-2 text-[12.5px] text-ink-2 hover:border-primary hover:text-primary"
+              className="flex w-full items-center justify-center gap-1.5 rounded-lg border border-dashed border-line py-2.5 text-[14px] text-ink-2 hover:border-primary hover:text-primary md:py-2 md:text-[12.5px]"
             >
               <Icon name="plus" size="sm" />
               新建规划
             </button>
           )}
-          <p className="mt-1.5 mb-0 text-[10.5px] leading-relaxed text-ink-2">
-            一级是组，展开是「天」 —— 点哪一天就把这个地点加进哪一天；
-            组右边的 ＋ 是往后加一天（加完点新出现的「第 N 天」把地点放进去）。
-            「城市未定」的组加第一站时会归到这座城。
+          <p className="mt-1.5 mb-0 text-[12.5px] leading-relaxed text-ink-2 md:text-[10.5px]">
+            点某一天，就把地点加进那一天；组右边的 ＋ 是往后加一天。
             {others > 0 ? `另有 ${others} 个其它城市的组没列出来。` : ''}
           </p>
         </div>

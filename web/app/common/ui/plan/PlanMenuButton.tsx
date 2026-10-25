@@ -41,7 +41,13 @@ export function PlanMenuButton() {
       }`}
     >
       <Icon name="route" size="md" />
-      <span className="hidden sm:inline">路线规划</span>
+      {/*
+        ★ 文字从 390px 起就显示（2026-10-25 修）：原来要 `sm`（640px）才出文字，
+          于是**所有手机上都只剩一枚图标**，而 `route` 是"两个圆点 + S 线"的抽象形状，
+          用户猜不出它是什么。390 是主流 iPhone 的宽度，够放。
+          360px 及以下（老 Android / SE）仍只给图标 —— 那里顶栏真的挤不下。
+      */}
+      <span className="hidden min-[390px]:inline">路线规划</span>
       {count > 0 ? (
         <span className="rounded-full bg-line-2 px-1.5 text-[11px] text-ink-2">{count}</span>
       ) : null}

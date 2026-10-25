@@ -88,7 +88,7 @@ export function MobileCityView({ view }: { view: CityView }) {
             <button
               type="button"
               onClick={view.toggleSort}
-              className="inline-flex h-9 flex-1 items-center justify-center gap-1.5 rounded-lg border border-line text-[13px]"
+              className="inline-flex h-11 flex-1 items-center justify-center gap-1.5 rounded-lg border border-line text-[14.5px] md:h-9 md:text-[13px]"
             >
               {sort === 'hot' ? '热门优先' : '名称排序'}
               <Icon name="chev-down" size="sm" />

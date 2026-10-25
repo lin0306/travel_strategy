@@ -73,7 +73,7 @@ export function FilterBar({
               onCategory(null)
               onSubtype(null)
             }}
-            className={`h-7 rounded-full border px-2.5 text-[12px] ${
+            className={`h-9 rounded-full border px-2.5 text-[14px] md:h-7 md:text-[12px] ${
               category === null ? 'border-ink bg-ink text-white' : 'border-line text-ink-2'
             }`}
           >
@@ -90,7 +90,7 @@ export function FilterBar({
                   onCategory(on ? null : c)
                   onSubtype(null)
                 }}
-                className="h-7 rounded-full border px-2.5 text-[12px]"
+                className="h-9 rounded-full border px-2.5 text-[14px] md:h-7 md:text-[12px]"
                 style={{
                   borderColor: on ? CATEGORY_META[c].color : undefined,
                   background: on ? CATEGORY_META[c].color : undefined,
@@ -125,7 +125,7 @@ export function FilterBar({
                 key={s}
                 type="button"
                 onClick={() => onSubtype(on ? null : s)}
-                className={`flex h-6.5 items-center gap-1.5 rounded-full border px-2 text-[11.5px] ${
+                className={`flex h-8 items-center gap-1.5 rounded-full border px-2 text-[13px] md:h-6.5 md:text-[11.5px] ${
                   on ? 'border-ink text-ink' : 'border-line text-ink-2'
                 }`}
               >

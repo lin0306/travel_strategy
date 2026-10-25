@@ -30,6 +30,9 @@ export type SheetTier = 'peek' | 'half' | 'full'
 /** 三档高度（svh）。数值与 08 文档一致 */
 export const SHEET_TIER_SVH: Record<SheetTier, number> = { peek: 28, half: 56, full: 88 }
 
+/** 拖到最矮也留这么高（把手 + 一行摘要），否则 Sheet 会缩成一条缝 */
+const MIN_DRAG_PX = 72
+
 export interface SheetProps {
   tier: SheetTier
   onTier: (tier: SheetTier) => void
@@ -62,7 +65,9 @@ export function Sheet({ tier, onTier, children, footer, header, longPressHandle 
       dragRef.current = null
       setDragOffset(null)
       if (d?.timer) window.clearTimeout(d.timer)
-      if (dragOffset === null && Math.abs(movedPx) < 4) {
+      // ★ 判「短按」只看**位移**：原来还要求 `dragOffset === null`，而它是异步 state，
+      //   快速拖动时可能还没更新 ⇒ 误判成点击、直接跳档（2026-10-25 修）。
+      if (Math.abs(movedPx) < 4) {
         // 短按：把手 = 在 peek 与 half 之间来回切（最常见的意图）
         onTier(tier === 'peek' ? 'half' : tier === 'half' ? 'full' : 'half')
         return
@@ -76,7 +81,7 @@ export function Sheet({ tier, onTier, children, footer, header, longPressHandle 
         movedPx < -40 ? Math.min(idx + 1, ORDER.length - 1) : movedPx > 40 ? Math.max(idx - 1, 0) : idx
       onTier(ORDER[next] ?? tier)
     },
-    [tier, onTier, dragOffset],
+    [tier, onTier],
   )
 
   useEffect(() => {
@@ -114,6 +119,19 @@ export function Sheet({ tier, onTier, children, footer, header, longPressHandle 
 
   const height = `calc(${SHEET_TIER_SVH[tier]}svh + env(safe-area-inset-bottom, 0px))`
 
+  /**
+   * 拖动中的实时高度 = 基准高度 **减去** 位移。
+   *
+   * ★★ `dragOffset = clientY − startY`：**往上拖是负数**，所以必须 `height − dragOffset`
+   *   （负负得正 ⇒ 长高）。2026-10-25 之前写的是 `height − (−dragOffset)` = `height + dragOffset`
+   *   ⇒ **往上拖反而变矮**、松手才跳到更高的档，就是用户报的「上下拉是反的」。
+   * ★ 外面套 `clamp`：往下拖到底不至于把 Sheet 拖成负高度，往上拖不至于盖过视口。
+   */
+  const dragHeight =
+    dragOffset === null
+      ? null
+      : `clamp(${MIN_DRAG_PX}px, calc(${height} - ${Math.round(dragOffset)}px), 100svh)`
+
   return (
     <div
       data-overlay=""
@@ -135,9 +153,8 @@ export function Sheet({ tier, onTier, children, footer, header, longPressHandle 
        */
       className="flt sm:hidden absolute inset-x-0 bottom-0 z-28 flex flex-col rounded-t-[16px] rounded-b-none"
       style={{
-        height,
-        // 拖动中跟着手指走；松手回落到档位值（用 transition 收尾）
-        ...(dragOffset !== null ? { height: `calc(${height} - ${Math.round(-dragOffset)}px)` } : {}),
+        // 拖动中跟着手指走（方向见 `dragHeight`）；松手回落到档位值（用 transition 收尾）
+        height: dragHeight ?? height,
         transition: dragOffset !== null ? 'none' : 'height .22s cubic-bezier(.32,.72,0,1)',
         paddingBottom: 'env(safe-area-inset-bottom, 0px)',
       }}
@@ -148,7 +165,12 @@ export function Sheet({ tier, onTier, children, footer, header, longPressHandle 
         role="button"
         tabIndex={0}
         aria-label={longPressHandle ? '长按拖动或点击切换高度' : '拖动或点击切换高度'}
-        className="flex flex-none cursor-grab touch-none justify-center pt-2.5 pb-1.5 active:cursor-grabbing"
+        /*
+         * ★ 触控区从 20px 加到 26px（2026-10-25）：它是"点一下切档 + 拖动"的双用把手，
+           `pt-2.5 pb-1.5` 只有 10+4+6=20px，实测在手机上很难点准。
+           视觉条仍是 4px（`h-1`），只是外面那圈留白加大 —— 不靠加粗来放大。
+        */
+        className="flex flex-none cursor-grab touch-none justify-center pt-3 pb-2.5 active:cursor-grabbing"
       >
         <span className="h-1 w-9 rounded-full bg-ink-2/25" aria-hidden="true" />
       </div>
@@ -167,9 +189,9 @@ export function SheetHead({ title, sub }: { title: ReactNode; sub?: ReactNode })
   return (
     <div className="min-w-0">
       <div className="flex items-baseline gap-2">
-        <b className="truncate text-[14.5px] font-semibold">{title}</b>
+        <b className="truncate text-[16px] font-semibold md:text-[14.5px]">{title}</b>
       </div>
-      {sub ? <div className="mt-0.5 truncate text-xs text-ink-2">{sub}</div> : null}
+      {sub ? <div className="mt-0.5 truncate text-[13.5px] text-ink-2 md:text-xs">{sub}</div> : null}
     </div>
   )
 }

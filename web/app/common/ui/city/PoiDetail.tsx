@@ -94,7 +94,7 @@ function DetailHeroImage({ src, alt }: { src: string; alt: string }) {
     <div
       // 容器**就是**骨架：底色 + 扫光常驻，成功时被图盖住（app.css 的层叠规则）。
       // 失败追加 .img-failed 停扫光 —— 底色与图标留下，永远不露白板。
-      className={`img-skeleton relative h-[260px] w-full overflow-hidden ${failed ? 'img-failed' : ''}`}
+      className={`img-skeleton relative h-[180px] w-full overflow-hidden md:h-[260px] ${failed ? 'img-failed' : ''}`}
     >
       {!loaded && !failed ? (
         // 图标层：语义是"图片正在加载"，不是"没有图"。失败时它同样保留（底色 + 图标 = 暂无图占位）。
@@ -224,7 +224,7 @@ export function PoiDetail({
           </div>
         ) : null}
 
-        <p className="mt-3.5 mb-0 text-[14px] leading-[1.75] text-ink">{poi.description}</p>
+        <p className="mt-3.5 mb-0 text-[15.5px] leading-[1.75] text-ink md:text-[14px]">{poi.description}</p>
 
         <H2>亮点</H2>
         <ul className="m-0 list-none space-y-1.5 p-0">
