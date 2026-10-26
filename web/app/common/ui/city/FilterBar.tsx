@@ -1,5 +1,6 @@
 import { useState } from 'react'
 
+import { useIsMobile } from '~/common/logic/useViewport'
 import { Icon } from '~/common/ui/Icon'
 import {
   CATEGORY_META,
@@ -42,7 +43,7 @@ export function FilterBar({
   counts,
   onCategory,
   onSubtype,
-  collapsible = false,
+  collapsible,
 }: {
   city: City | null
   category: Category | null
@@ -51,10 +52,19 @@ export function FilterBar({
   onCategory: (c: Category | null) => void
   onSubtype: (s: SubType | null) => void
   /** 细类那一行默认折起、右侧给一个展开/收起按钮 */
+  /** 细类是否默认收起。**不传就按端别**：移动端收起（省 Sheet 高度）、桌面展开 */
   collapsible?: boolean
 }) {
-  /** 细类那一行是否展开。★ 不折叠的页面初值就是 `true`（=常开，行为与从前一致） */
-  const [openSub, setOpenSub] = useState(!collapsible)
+  /*
+   * ★★ 折叠状态必须是**派生**，不能用 `useState(!collapsible)` 当初值：
+   *   `useIsMobile()` 的 `getServerSnapshot` 返回 **true**（移动优先），
+   *   而 `useState` 的初值只在首次渲染取一次 ⇒ 桌面端水合后**永远停在收起态**。
+   *   `userOpen ?? !fold`：没手动点过就跟着端别走，点过就以用户的为准。
+   */
+  const isMobile = useIsMobile()
+  const fold = collapsible ?? isMobile
+  const [userOpen, setUserOpen] = useState<boolean | null>(null)
+  const openSub = userOpen ?? !fold
 
   if (!city) return null
 
@@ -103,13 +113,15 @@ export function FilterBar({
           })}
         </div>
 
-        {collapsible ? (
+        {/* ★ 判据是 `fold` 不是 `collapsible`：不传 `collapsible` 时 fold 由端别决定，
+            这时也必须给出展开按钮 —— 否则细类被收起、却没有任何入口能打开（死锁） */}
+        {fold ? (
           <button
             type="button"
-            onClick={() => setOpenSub((v) => !v)}
+            onClick={() => setUserOpen(!openSub)}
             aria-expanded={openSub}
             aria-label={openSub ? '收起细类筛选' : '展开细类筛选'}
-            className="inline-flex size-7 flex-none items-center justify-center rounded-full border border-line text-ink-2 hover:border-primary hover:text-primary"
+            className="inline-flex size-9 flex-none items-center justify-center rounded-full border border-line text-ink-2 hover:border-primary hover:text-primary md:size-7"
           >
             <Icon name={openSub ? 'chev-up' : 'chev-down'} size="sm" />
           </button>
@@ -117,7 +129,13 @@ export function FilterBar({
       </div>
 
       {openSub ? (
-        <div className="flex flex-wrap gap-1.5">
+        /*
+         * ★ 移动端**横向滚动**而不是换行（2026-10-25）：字号放大后 8 枚细类会换 4 行，
+         *   在 56svh 的 Sheet 里吃掉一半高度、把列表挤到只剩 ~120px。
+         *   细类兼作**图例**（色点 + 名称 + 计数），所以不隐藏任何一枚 —— 让它滚。
+         *   `.scroll` 是 app.css 里唯一的滚动容器样式出处（不自己写 overflow 修饰）。
+         */
+        <div className="scroll flex gap-1.5 overflow-x-auto pb-1.5 md:flex-wrap md:overflow-visible md:pb-0">
           {subList.map((s) => {
             const on = subtype === s
             return (

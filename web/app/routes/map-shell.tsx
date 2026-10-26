@@ -28,6 +28,7 @@ import { Outlet, useLocation } from 'react-router'
 import { MapFallback } from '~/common/ui/MapFallback'
 import { MapStatusCard } from '~/common/ui/MapStatusCard'
 import { MapLogPanel } from '~/common/ui/MapLogPanel'
+import { MobileSearchPage } from '~/mobile/ui/SearchPanel'
 import { usePlanUi } from '~/common/logic/itinerary/planUi'
 import { usePlanStore } from '~/common/logic/itinerary/planStore'
 import { claimedPoiIds, isPlanFocused, planFocusKey } from '~/common/logic/planFocus'
@@ -327,6 +328,10 @@ export default function MapShellRoute() {
                  清单只长在城市页 —— 所以判据走页面注册（`PageSpotOps.spotListCity`），
                  本页有清单时不浮它（否则同一屏两份清单）。 */}
         <SpotPicker />
+        {/* ⑥ 移动端搜索页。★ 必须在 Provider **内**：它走 `useSearch().pick`，
+               那条链路要 `useMapShell()` 去飞镜头、并把命中交给页面（`searchPick`）。
+               放在 Provider 外就调不到 shell 了。 */}
+        <MobileSearchPage />
       </MapShellCtx.Provider>
 
       {/* ④ 「关于」弹窗。★ 放在 Provider **外** —— 它只读数据（`loadCityIndex`），

@@ -86,6 +86,7 @@ import { Overlay } from '~/common/ui/Overlay'
 import { SearchBox } from '~/common/ui/SearchBox'
 import { PlanMenuButton } from '~/common/ui/plan/PlanMenuButton'
 import { useDocUi } from '~/common/logic/docUi'
+import { useSearchUi } from '~/common/logic/searchUi'
 import { GITHUB_REPO_URL } from '~/common/data/site'
 import { useFullscreen } from '~/common/logic/useFullscreen'
 import type { MapShellContext } from '~/common/logic/mapShell'
@@ -175,6 +176,21 @@ function RepoButton() {
  *   而原来它只在 `lg`（≥1024px）那组里渲染，手机上**完全没有入口**，等于永远打不开。
  *   移动端顶栏放不下「关于」两个字，所以只留图标，`aria-label` 仍是完整描述。
  */
+/** 移动端顶栏的搜索入口（一枚图标；桌面走 `SearchBox` 的输入框） */
+function MobileSearchButton() {
+  const openSearch = useSearchUi((s) => s.openSearch)
+  return (
+    <button
+      type="button"
+      onClick={openSearch}
+      aria-label="搜索省市、景点"
+      className="grid size-8 flex-none place-items-center rounded-md text-ink-2 hover:bg-line-2 hover:text-primary md:hidden"
+    >
+      <Icon name="search" size="md" />
+    </button>
+  )
+}
+
 function DocButton({ compact = false }: { compact?: boolean }) {
   const openAbout = useDocUi((s) => s.openAbout)
   if (compact) {
@@ -262,6 +278,10 @@ export function TopBar({ actions, shell, variant = 'browse' }: TopBarProps) {
       {/* ② 搜索框：原型里占满中段。窄屏不渲染（顶栏一行放不下）。
              ★ 它也是**唯一的换级入口** —— 地区显示撤掉之后，见文件头 */}
       {browse ? <SearchBox /> : null}
+      {/* ②b 移动端搜索：桌面那枚输入框在 <768px 不渲染，这里给一枚图标，
+             点开**全屏搜索页**（`mobile/ui/SearchPanel`，plans/11 §8.4）。
+             ★ 手机上没有它，「换城市」就只能回首页一省一市地点下去 */}
+      {browse ? <MobileSearchButton /> : null}
 
       <div className="ml-auto flex flex-none items-center gap-2">
         {actions}
