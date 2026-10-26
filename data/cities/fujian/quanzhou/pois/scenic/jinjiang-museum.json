@@ -1,0 +1,120 @@
+{
+  "id": "jinjiang-museum",
+  "name": "晋江博物馆",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "国家二级馆，免费免预约，把晋江的华侨史讲透了。",
+  "description": "晋江博物馆在晋江市区世纪大道东侧，一九八六年创建、二零零二年新馆开放，是国家二级博物馆，也是晋江最值得一进的公共文化空间。四个基本陈列里，《晋江故事》讲这座城从沿江而居到向海而兴的历程，《海天万里故园情》讲晋江华侨下南洋打拼与反哺故乡，《晋台缘港澳情》讲晋江与港澳台的血脉关系，还有一个馆藏文物精品展摆陶瓷、书画、金石。藏品一万余件，其中一级品十件。免费、个人不用预约、刷身份证就能进，周一闭馆，馆里有无障碍通道和免费轮椅借用。",
+  "highlights": [
+    "国家二级博物馆，四个基本陈列，藏品一万余件",
+    "《海天万里故园情》讲晋江华侨下南洋的真实历程",
+    "周六上午十点二楼咨询台有公益讲解"
+  ],
+  "location": {
+    "point": {
+      "lng": 118.562324,
+      "lat": 24.794876,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "福建省泉州市晋江市青阳街道世纪大道382号",
+    "district": "晋江市",
+    "transportTip": "乘 3 路、9 路、16 路、29 路、31 路、33 路、35 路公交至「晋江市博物馆」站下车"
+  },
+  "practical": {
+    "openHours": "周二至周日约 09:00-17:30（冬令时 17:00 停止入场，夏令时延至 18:00）；周一闭馆（法定节假日除外），以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费；个人凭有效身份证件核验入馆，无需预约；五人及以上团体需提前一个工作日电话预约",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "solo",
+    "couple",
+    "friends",
+    "family",
+    "kids"
+  ],
+  "accessible": true,
+  "tips": [
+    "周一闭馆，法定节假日除外",
+    "周六上午10:00有公益讲解，集合在二楼咨询台",
+    "离晋江五店市很近，打车十来分钟，可以排一个半天"
+  ],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/20187646/pexels-photo-20187646.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/20187646/pexels-photo-20187646.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 5472,
+      "height": 3648,
+      "alt": "View of the historic Kaiyuan Temple towers amidst Quan Zhou Shi's urban landscape.",
+      "query": "Jinjiang Museum Quanzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "tslui",
+        "sourceUrl": "https://www.pexels.com/photo/view-of-the-kaiyuan-temple-20187646/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/36840714/pexels-photo-36840714.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/36840714/pexels-photo-36840714.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4284,
+      "height": 5712,
+      "alt": "Historic architecture and clay jars in Quanzhou, Fujian, under a sunny sky.",
+      "query": "Jinjiang Museum Quanzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Christiana Dj",
+        "sourceUrl": "https://www.pexels.com/photo/traditional-architecture-in-quanzhou-fujian-36840714/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/26664455/pexels-photo-26664455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/26664455/pexels-photo-26664455.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 6048,
+      "height": 4024,
+      "alt": "Beautiful view of the Kaiyuan Temple pagoda surrounded by lush greenery in Quanzhou, China.",
+      "query": "Jinjiang Museum Quanzhou",
+      "credit": {
+        "source": "pexels",
+        "author": "Bran HAO",
+        "sourceUrl": "https://www.pexels.com/photo/kaiyuan-temple-in-quanzhou-26664455/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "博物馆",
+    "免费",
+    "晋江",
+    "华侨"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "晋江市博物馆官网·场馆介绍",
+      "url": "https://www.jjbwg.com/guide/introduction",
+      "kind": "official",
+      "fetchedAt": "2026-10-27"
+    }
+  ],
+  "updatedAt": "2026-10-27",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Jinjiang Museum Quanzhou",
+    "zh": "晋江博物馆"
+  },
+  "_geocodeTitle": "晋江博物馆",
+  "_geocodeSuspect": false,
+  "district": "350582"
+}

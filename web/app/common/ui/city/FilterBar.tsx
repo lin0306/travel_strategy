@@ -76,14 +76,20 @@ export function FilterBar({
     <div className="flex flex-col gap-2">
       <div className="flex items-start gap-1.5">
         {/* 第一行 = **常用的那几个**（全部 + 四个大类）。窄了它会自己换行，不再往下切 */}
-        <div className="flex min-w-0 flex-1 flex-wrap gap-1.5">
+        {/*
+          * ★ 移动端**横向滚动**（2026-10-25 二修）：字号放大后 5 枚大类在这里换 2 行，
+            加上标题就吃掉 half 档 Sheet 的一大半 —— 剩给列表的可滚区域只有 237px，
+            用户从上半部往下滑就"滚不动"（那里根本不是滚动容器）。
+            压成一行之后可滚区多出约 45px，且不影响桌面（`md:flex-wrap`）。
+          */}
+        <div className="scroll-x flex min-w-0 flex-1 gap-1.5 pb-1 md:flex-wrap md:overflow-visible md:pb-0">
           <button
             type="button"
             onClick={() => {
               onCategory(null)
               onSubtype(null)
             }}
-            className={`h-9 rounded-full border px-2.5 text-[14px] md:h-7 md:text-[12px] ${
+            className={`h-9 flex-none rounded-full border px-2.5 whitespace-nowrap text-[14px] md:h-7 md:text-[12px] ${
               category === null ? 'border-ink bg-ink text-white' : 'border-line text-ink-2'
             }`}
           >
@@ -100,7 +106,7 @@ export function FilterBar({
                   onCategory(on ? null : c)
                   onSubtype(null)
                 }}
-                className="h-9 rounded-full border px-2.5 text-[14px] md:h-7 md:text-[12px]"
+                className="h-9 flex-none rounded-full border px-2.5 whitespace-nowrap text-[14px] md:h-7 md:text-[12px]"
                 style={{
                   borderColor: on ? CATEGORY_META[c].color : undefined,
                   background: on ? CATEGORY_META[c].color : undefined,
@@ -135,7 +141,7 @@ export function FilterBar({
          *   细类兼作**图例**（色点 + 名称 + 计数），所以不隐藏任何一枚 —— 让它滚。
          *   `.scroll` 是 app.css 里唯一的滚动容器样式出处（不自己写 overflow 修饰）。
          */
-        <div className="scroll flex gap-1.5 overflow-x-auto pb-1.5 md:flex-wrap md:overflow-visible md:pb-0">
+        <div className="scroll-x flex gap-1.5 pb-1.5 md:flex-wrap md:overflow-visible md:pb-0">
           {subList.map((s) => {
             const on = subtype === s
             return (
@@ -143,7 +149,7 @@ export function FilterBar({
                 key={s}
                 type="button"
                 onClick={() => onSubtype(on ? null : s)}
-                className={`flex h-8 items-center gap-1.5 rounded-full border px-2 text-[13px] md:h-6.5 md:text-[11.5px] ${
+                className={`flex h-8 flex-none items-center gap-1.5 rounded-full border px-2 whitespace-nowrap text-[13px] md:h-6.5 md:text-[11.5px] ${
                   on ? 'border-ink text-ink' : 'border-line text-ink-2'
                 }`}
               >

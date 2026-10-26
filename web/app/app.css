@@ -106,7 +106,12 @@ p {
 .scroll {
   overflow-y: auto;
   overscroll-behavior: contain;
-  -webkit-overflow-scrolling: touch;
+  /*
+   * ★ 2026-10-25：删掉了 `-webkit-overflow-scrolling: touch`。
+   *   它在 iOS 13 起**已被废弃**（系统默认就是惯性滚动），而它会让元素自建
+   *   一个滚动上下文 —— 与 `overscroll-behavior` 同用时是有名的"滚不动"来源。
+   *   现代 iOS/Android 都不需要它。
+   */
   scrollbar-width: thin;
   scrollbar-color: rgba(26, 29, 36, 0.22) transparent;
 }
@@ -120,6 +125,26 @@ p {
 }
 .scroll::-webkit-scrollbar-track {
   background: transparent;
+}
+
+/*
+ * **横向**滚动容器（chip 条这类"一行排开、多了就滚"的地方）。
+ *
+ * ★★ 2026-10-26 为什么会新增它：chip 条原来挂的是 `.scroll`，而 `.scroll` 有
+ *   `overflow-y: auto` ⇒ 那个横条**同时**成了纵向滚动容器（内容其实不溢出，但它
+ *   照样是"滚动目标"）⇒ 手指在 chip 条上纵向滑动时**被它吃掉**，外层 Sheet 一动不动。
+ *   用户报的「移动端滚动没办法用」有一半是它 —— 而 `.scroll` 的其它用法都正常。
+ * ⇒ 横向容器必须显式 `overflow-y: hidden`，纵向手势才会冒泡给外层。
+ * ★ 顺便：这里**不写** `overscroll-behavior: contain`，纵向滚动要留给祖先。
+ */
+.scroll-x {
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none; /* 横条上一根滚动条很丑，且 iOS 本来就不显示 */
+}
+.scroll-x::-webkit-scrollbar {
+  display: none;
 }
 
 /* 图片加载骨架（2026-10-16 二版）—— 外链图慢，占位必须**一眼可见**。

@@ -67,21 +67,16 @@ export function MobileCityView({ view }: { view: CityView }) {
         tier={tier}
         onTier={setTier}
         header={
-          <>
-            <SheetHead
-              title={city?.name ?? '加载中…'}
-              sub={
-                city
-                  ? `${city.tagline} · 共 ${city.pois.length} 个点位${
-                      visible.length !== city.pois.length ? ` · 已筛出 ${visible.length}` : ''
-                    }`
-                  : undefined
-              }
-            />
-            <div className="mt-2.5">
-              <CityFilters view={view} />
-            </div>
-          </>
+          <SheetHead
+            title={city?.name ?? '加载中…'}
+            sub={
+              city
+                ? `${city.tagline} · 共 ${city.pois.length} 个点位${
+                    visible.length !== city.pois.length ? ` · 已筛出 ${visible.length}` : ''
+                  }`
+                : undefined
+            }
+          />
         }
         footer={
           <>
@@ -96,6 +91,21 @@ export function MobileCityView({ view }: { view: CityView }) {
           </>
         }
       >
+        {/*
+          * ★★ 筛选条**放进滚动容器**并且吸顶（2026-10-25 修「滚动没办法用」）。
+          *
+          * 原来它在 `header` 里，而 `header` 是 `flex-none`（不滚的）——
+          * 于是 Sheet 上半部（把手 + 标题 + 两行 chip ≈ 230px）**根本不是滚动区**，
+          * 用户很自然地从那里往下滑，得到的却是"面板纹丝不动"（再往下才是列表）。
+          * 实测 half 档里可滚区只剩 237px，比 header 还矮。
+          *
+          * 现在：标题仍固定（回答"这是哪座城"），筛选条与列表一起滚，
+          * 且 `sticky top-0` 吸在滚动区顶部 —— 滚列表时筛选条不跑，
+          * 滚过头也不会挡列表。背景要显式给（否则内容会从它下面透出来）。
+          */}
+        <div className="sticky top-0 z-[1] bg-surface px-3.5 pt-1 pb-1.5">
+          <CityFilters view={view} />
+        </div>
         <CityList view={view} />
       </Sheet>
     </>

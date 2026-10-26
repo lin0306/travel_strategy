@@ -1,12 +1,12 @@
 # 泉州 · 数据来源与图片版权
 
-> 生成于 2026-10-26 · 城市数据最后更新 2026-10-01
+> 生成于 2026-10-27 · 城市数据最后更新 2026-10-01
 
 ## 概览
 
 - 省份：福建
 - adcode：350500
-- POI 数量：57
+- POI 数量：68
 
 ## 文本内容来源
 
@@ -17,14 +17,21 @@
 | 崇武古城 | [百度百科·崇武古城](https://baike.baidu.com/item/%E5%B4%87%E6%AD%A6%E5%8F%A4%E5%9F%8E) | wiki | 2026-10-01 |
 | 大岞村 | [百度百科·惠安女](https://baike.baidu.com/item/%E6%83%A0%E5%AE%89%E5%A5%B3) | wiki | 2026-10-01 |
 | 德化陶瓷街 | [百度百科·德化窑](https://baike.baidu.com/item/%E5%BE%B7%E5%8C%96%E7%AA%91) | wiki | 2026-10-01 |
+| 德化陶瓷博物馆 | [德化县陶瓷博物馆公众号·参观指南](http://mp.weixin.qq.com/s?__biz=MzI2NDAyMTAyNQ==&mid=2247489622&idx=1&sn=fee13d8d7aabeacfa8834f6f4fbe76bf) | official | 2026-10-27 |
 | 东湖公园 | [百度百科·东湖公园](https://baike.baidu.com/item/%E4%B8%9C%E6%B9%96%E5%85%AC%E5%9B%AD) | wiki | 2026-10-01 |
 | 府文庙 | [百度百科·泉州府文庙](https://baike.baidu.com/item/%E6%B3%89%E5%B7%9E%E5%BA%9C%E6%96%87%E5%BA%99) | wiki | 2026-10-01 |
+| 姑嫂塔 | [百度百科·姑嫂塔风景区](https://baike.baidu.com/item/姑嫂塔风景区) | wiki | 2026-10-27 |
 | 黄金海岸 | [百度百科·石狮黄金海岸](https://baike.baidu.com/item/%E9%BB%84%E9%87%91%E6%B5%B7%E5%B2%B8) | wiki | 2026-10-01 |
+| 晋江博物馆 | [晋江市博物馆官网·场馆介绍](https://www.jjbwg.com/guide/introduction) | official | 2026-10-27 |
 | 九日山 | [百度百科·九日山](https://baike.baidu.com/item/%E4%B9%9D%E6%97%A5%E5%B1%B1) | wiki | 2026-10-01 |
+| 九仙山风景区 | [Trip.com 旅记·九仙山风景区](https://tw.trip.com/moments/detail/dehua-2659-145472559) | travel-platform | 2026-10-27 |
 | 开元寺 | [百度百科·开元寺](https://baike.baidu.com/item/%E6%B3%89%E5%B7%9E%E5%BC%80%E5%85%83%E5%AF%BA) | wiki | 2026-10-01 |
+| 魁星岩风景区 | [Trip.com 旅记·魁星岩风景区](https://tw.trip.com/moments/poi-kuixingyan-69239442/) | travel-platform | 2026-10-27 |
 | 灵山圣墓 | [百度百科·灵山圣墓](https://baike.baidu.com/item/%E7%81%B5%E5%B1%B1%E5%9C%A3%E5%A2%93) | wiki | 2026-10-01 |
+| 灵应风景旅游区 | [携程攻略·灵应寺](https://you.ctrip.com/sight/nanan1521/1479424.html) | travel-platform | 2026-10-27 |
 | 洛阳桥 | [百度百科·洛阳桥](https://baike.baidu.com/item/%E6%B4%9B%E9%98%B3%E6%A1%A5) | wiki | 2026-10-01 |
 | 海外交通史博物馆 | [百度百科·泉州海外交通史博物馆](https://baike.baidu.com/item/%E6%B3%89%E5%B7%9E%E6%B5%B7%E5%A4%96%E4%BA%A4%E9%80%9A%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A6%86) | wiki | 2026-10-01 |
+| 中国闽台缘博物馆 | [中国闽台缘博物馆官网·参观须知](https://www.mtybwg.org.cn/about/detail/737.aspx) | official | 2026-10-27 |
 | 南少林寺 | [百度百科·泉州少林寺](https://baike.baidu.com/item/%E6%B3%89%E5%B7%9E%E5%B0%91%E6%9E%97%E5%AF%BA) | wiki | 2026-10-01 |
 | 清净寺 | [百度百科·清净寺](https://baike.baidu.com/item/%E6%B8%85%E5%87%80%E5%AF%BA) | wiki | 2026-10-01 |
 | 清水岩 | [百度百科·清水岩](https://baike.baidu.com/item/%E6%B8%85%E6%B0%B4%E5%B2%A9) | wiki | 2026-10-01 |
@@ -32,12 +39,16 @@
 | 泉州博物馆 | [百度百科·泉州博物馆](https://baike.baidu.com/item/%E6%B3%89%E5%B7%9E%E5%8D%9A%E7%89%A9%E9%A6%86) | wiki | 2026-10-01 |
 | 石牛山 | [百度百科·石牛山](https://baike.baidu.com/item/%E7%9F%B3%E7%89%9B%E5%B1%B1) | wiki | 2026-10-01 |
 | 天后宫 | [百度百科·泉州天后宫](https://baike.baidu.com/item/%E6%B3%89%E5%B7%9E%E5%A4%A9%E5%90%8E%E5%AE%AB) | wiki | 2026-10-01 |
+| 天心洞景区 | [今日头条·泉州南安天心洞自驾一日游攻略](https://m.toutiao.com/article/7686299623757185575) | media | 2026-10-27 |
 | 五店市 | [百度百科·五店市](https://baike.baidu.com/item/%E4%BA%94%E5%BA%97%E5%B8%82) | wiki | 2026-10-01 |
 | 梧林传统村落 | [百度百科·梧林村](https://baike.baidu.com/item/%E6%A2%A7%E6%9E%97%E6%9D%91) | wiki | 2026-10-01 |
+| 仙公山风景区 | [去哪儿攻略·仙公山](https://touch.travel.qunar.com/dist/poi/715781) | travel-platform | 2026-10-27 |
 | 西湖公园 | [百度百科·泉州西湖公园](https://baike.baidu.com/item/%E8%A5%BF%E6%B9%96%E5%85%AC%E5%9B%AD) | wiki | 2026-10-01 |
 | 蟳埔村 | [百度百科·蟳埔村](https://baike.baidu.com/item/%E8%9F%B3%E5%9F%94%E6%9D%91) | wiki | 2026-10-01 |
+| 衙口滨海休闲旅游区 | [百度百科·晋江衙口滨海休闲度假旅游区](https://baike.baidu.com/item/晋江衙口滨海休闲度假旅游区/1308720) | wiki | 2026-10-27 |
 | 永宁古城 | [百度百科·永宁卫](https://baike.baidu.com/item/%E6%B0%B8%E5%AE%81%E5%8D%AB) | wiki | 2026-10-01 |
 | 郑成功纪念馆 | [百度百科·郑成功](https://baike.baidu.com/item/%E9%83%91%E6%88%90%E5%8A%9F) | wiki | 2026-10-01 |
+| 紫帽山旅游度假区 | [去哪儿·泉州紫帽山](https://travelnews.qunar.com/ugc/quanzhou-zimao-mountain-108) | travel-platform | 2026-10-27 |
 | 花生汤 | [百度百科·花生汤](https://baike.baidu.com/item/%E8%8A%B1%E7%94%9F%E6%B1%A4) | wiki | 2026-10-01 |
 | 姜母鸭 | [百度百科·姜母鸭](https://baike.baidu.com/item/%E5%A7%9C%E6%AF%8D%E9%B8%AD) | wiki | 2026-10-01 |
 | 蚵仔煎 | [百度百科·蚵仔煎](https://baike.baidu.com/item/%E8%9A%B5%E4%BB%94%E7%85%8E) | wiki | 2026-10-01 |
@@ -92,30 +103,51 @@
 | 德化陶瓷街 | Gül Işık | Pexels License | [pexels](https://www.pexels.com/photo/intricate-istanbul-museum-interior-display-35870231/) |
 | 德化陶瓷街 | Stijn Dijkstra | Pexels License | [pexels](https://www.pexels.com/photo/ceiling-with-bas-reliefs-and-chandelier-15074424/) |
 | 德化陶瓷街 | Lucas Tran | Pexels License | [pexels](https://www.pexels.com/photo/a-room-with-stairs-and-a-roof-that-has-a-tiled-roof-27850848/) |
+| 德化陶瓷博物馆 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangdong_Sheng_Bowuguan_2012.11.18_09-59-51.jpg) |
+| 德化陶瓷博物馆 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangdong_Sheng_Bowuguan_2013.12.15_10-39-07.jpg) |
+| 德化陶瓷博物馆 | 古海岸遗址 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangzhou_Tianhe_Guangdong_Sheng_Bowuguan_2024-01-31_16.50.50.jpg) |
 | 东湖公园 | Bran HAO | Pexels License | [pexels](https://www.pexels.com/photo/kaiyuan-temple-in-quanzhou-26664455/) |
 | 东湖公园 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/people-sitting-under-the-tree-6483373/) |
 | 东湖公园 | Lily  Lili | Pexels License | [pexels](https://www.pexels.com/photo/serene-chinese-garden-with-red-lantern-31956319/) |
 | 府文庙 | 猫猫的日记本 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Quanzhou_Confucian_Temple_001_2019-10.jpg) |
 | 府文庙 | 猫猫的日记本 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Quanzhou_Confucian_Temple_006_2019-10.jpg) |
 | 府文庙 | 猫猫的日记本 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Quanzhou_Confucian_Temple_011_2019-10.jpg) |
+| 姑嫂塔 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260517_Wanshou_Pagoda_of_Dajue_Temple_01.jpg) |
+| 姑嫂塔 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260517_Wanshou_Pagoda_of_Dajue_Temple_02.jpg) |
+| 姑嫂塔 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260517_Wanshou_Pagoda_of_Dajue_Temple_03.jpg) |
 | 黄金海岸 | AG ZN | Pexels License | [pexels](https://www.pexels.com/photo/winding-river-in-the-valley-17880310/) |
 | 黄金海岸 | ZhiCheng Zhang | Pexels License | [pexels](https://www.pexels.com/photo/townnscape-with-tiled-roofs-and-pagodas-20818504/) |
 | 黄金海岸 | Quang Nguyen Vinh | Pexels License | [pexels](https://www.pexels.com/photo/aerial-view-of-farm-fields-near-the-ocean-13760468/) |
+| 晋江博物馆 | tslui | Pexels License | [pexels](https://www.pexels.com/photo/view-of-the-kaiyuan-temple-20187646/) |
+| 晋江博物馆 | Christiana Dj | Pexels License | [pexels](https://www.pexels.com/photo/traditional-architecture-in-quanzhou-fujian-36840714/) |
+| 晋江博物馆 | Bran HAO | Pexels License | [pexels](https://www.pexels.com/photo/kaiyuan-temple-in-quanzhou-26664455/) |
 | 九日山 | Bran HAO | Pexels License | [pexels](https://www.pexels.com/photo/low-angle-shot-of-the-kaiyuan-temple-20902609/) |
 | 九日山 | ZhiCheng Zhang | Pexels License | [pexels](https://www.pexels.com/photo/townnscape-with-tiled-roofs-and-pagodas-20818504/) |
 | 九日山 | tslui | Pexels License | [pexels](https://www.pexels.com/photo/view-of-the-kaiyuan-temple-20187646/) |
+| 九仙山风景区 | lee howl | Pexels License | [pexels](https://www.pexels.com/photo/aerial-photo-of-road-near-trees-2900014/) |
+| 九仙山风景区 | 安惠 青 | Pexels License | [pexels](https://www.pexels.com/photo/view-of-a-rocky-mountain-with-green-trees-19334613/) |
+| 九仙山风景区 | 女子 正真 | Pexels License | [pexels](https://www.pexels.com/photo/majestic-waterfall-with-chinese-stone-inscription-31726532/) |
 | 开元寺 | 《人民画报》 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:1963-01_1963%E5%B9%B4_%E6%B3%89%E5%B7%9E%E5%BC%80%E5%85%83%E5%AF%BA.jpg) |
 | 开元寺 | Tyg728 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Interior_of_Quanzhou_Kaiyuan_Temple_20170727.jpg) |
 | 开元寺 | H2v5o68z | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Kaiyuan_Temple,_Quanzhou_14.jpg) |
+| 魁星岩风景区 | Jimmy Liao | Pexels License | [pexels](https://www.pexels.com/photo/ligths-on-buildings-in-town-at-night-16101869/) |
+| 魁星岩风景区 | CHINA YU | Pexels License | [pexels](https://www.pexels.com/photo/aerial-view-of-scenic-mountainous-park-landscape-39128015/) |
+| 魁星岩风景区 | CHINA YU | Pexels License | [pexels](https://www.pexels.com/photo/panoramic-view-of-lush-mountainous-landscape-39128023/) |
 | 灵山圣墓 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lingshan_Islamic_Cemetery_-_DSCF8498.JPG) |
 | 灵山圣墓 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lingshan_Islamic_Cemetery_-_Ding_clan_-_DSCF8451.JPG) |
 | 灵山圣墓 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lingshan_Islamic_Cemetery_-_Ding_clan_-_DSCF8453.JPG) |
+| 灵应风景旅游区 | 柳树 无 | Pexels License | [pexels](https://www.pexels.com/photo/intricate-roof-carving-at-chinese-temple-in-quanzhou-38109110/) |
+| 灵应风景旅游区 | Bran HAO | Pexels License | [pexels](https://www.pexels.com/photo/kaiyuan-temple-in-quanzhou-26664455/) |
+| 灵应风景旅游区 | 柳树 无 | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-temple-in-quanzhou-fujian-38109113/) |
 | 洛阳桥 | Bran HAO | Pexels License | [pexels](https://www.pexels.com/photo/low-angle-shot-of-the-kaiyuan-temple-20902609/) |
 | 洛阳桥 | ZhiCheng Zhang | Pexels License | [pexels](https://www.pexels.com/photo/townnscape-with-tiled-roofs-and-pagodas-20818504/) |
 | 洛阳桥 | tslui | Pexels License | [pexels](https://www.pexels.com/photo/view-of-the-kaiyuan-temple-20187646/) |
 | 海外交通史博物馆 | jonjanego | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Admiral_Zhenghe.jpg) |
 | 海外交通史博物馆 | jonjanego | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Ancient_Boat_in_Quanzhou.jpg) |
 | 海外交通史博物馆 | BabelStone | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:AndreasPerusinus.jpg) |
+| 中国闽台缘博物馆 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Quanzhou_-_Fujian-Taiwan_Kinship_Museum_-_DSCF8194.JPG) |
+| 中国闽台缘博物馆 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Quanzhou_-_Fujian-Taiwan_Kinship_Museum_-_DSCF8195.JPG) |
+| 中国闽台缘博物馆 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Quanzhou_-_Fujian-Taiwan_Kinship_Museum_-_DSCF8197.JPG) |
 | 南少林寺 | gdczjkk | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B3%89%E5%B7%9E%E5%B0%91%E6%9E%97%E5%AF%BA%EF%BC%88%E5%8D%97%E5%B0%91%E6%9E%97%EF%BC%89_-_panoramio.jpg) |
 | 南少林寺 | SCJiang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:202501_Southern_Shaolin_Monastery_in_Quanzhou.jpg) |
 | 南少林寺 | 陸天冷 | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mahavira_Hall,_South_Shaolin_Monastery.jpg) |
@@ -137,22 +169,34 @@
 | 天后宫 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Quanzhou_-_Tian_Hou_Gong_-_DSCF8518.JPG) |
 | 天后宫 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Quanzhou_-_Tian_Hou_Gong_-_bixi_-_DSCF8514.JPG) |
 | 天后宫 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Quanzhou_-_Tian_Hou_Gong_-_bixi_-_DSCF8516.JPG) |
+| 天心洞景区 | Emilio Sánchez  Hernández | Pexels License | [pexels](https://www.pexels.com/photo/stunning-natural-stalactite-cave-formation-28656579/) |
+| 天心洞景区 | Emilio Sánchez  Hernández | Pexels License | [pexels](https://www.pexels.com/photo/geological-formation-in-grotto-16455428/) |
+| 天心洞景区 | Magda Ehlers | Pexels License | [pexels](https://www.pexels.com/photo/mineral-deposits-at-cango-caves-in-south-africa-14165097/) |
 | 五店市 | Bran HAO | Pexels License | [pexels](https://www.pexels.com/photo/low-angle-shot-of-the-kaiyuan-temple-20902609/) |
 | 五店市 | ZhiCheng Zhang | Pexels License | [pexels](https://www.pexels.com/photo/townnscape-with-tiled-roofs-and-pagodas-20818504/) |
 | 五店市 | tslui | Pexels License | [pexels](https://www.pexels.com/photo/view-of-the-kaiyuan-temple-20187646/) |
 | 梧林传统村落 | Bran HAO | Pexels License | [pexels](https://www.pexels.com/photo/low-angle-shot-of-the-kaiyuan-temple-20902609/) |
 | 梧林传统村落 | ZhiCheng Zhang | Pexels License | [pexels](https://www.pexels.com/photo/townnscape-with-tiled-roofs-and-pagodas-20818504/) |
 | 梧林传统村落 | tslui | Pexels License | [pexels](https://www.pexels.com/photo/view-of-the-kaiyuan-temple-20187646/) |
+| 仙公山风景区 | luchangjiang~鲁昌江 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%90%AB%E5%B1%B1%E5%8E%BF%E4%BB%99%E8%B8%AA%E9%95%87%E9%95%BF%E5%B1%B1%E6%B0%B4%E5%BA%93%E5%85%AC%E4%BA%A4%E7%AB%99_-_panoramio.jpg) |
+| 仙公山风景区 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/temple-in-forest-in-countryside-in-china-21753225/) |
+| 仙公山风景区 | Bran HAO | Pexels License | [pexels](https://www.pexels.com/photo/low-angle-shot-of-the-kaiyuan-temple-20902609/) |
 | 西湖公园 | 梦夕琳 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Concource_of_Xihu_Park_Station_20260616.jpg) |
 | 西湖公园 | 梦夕琳 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Exit_No._3_inner_of_Langao_Rd._Station_of_Xihu_Park_Station_20260616.jpg) |
 | 西湖公园 | 梦夕琳 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Exit_No._3_outer_of_Langao_Rd._Station_of_Xihu_Park_Station_20260616.jpg) |
 | 蟳埔村 | Bran HAO | Pexels License | [pexels](https://www.pexels.com/photo/low-angle-shot-of-the-kaiyuan-temple-20902609/) |
 | 蟳埔村 | ZhiCheng Zhang | Pexels License | [pexels](https://www.pexels.com/photo/townnscape-with-tiled-roofs-and-pagodas-20818504/) |
 | 蟳埔村 | tslui | Pexels License | [pexels](https://www.pexels.com/photo/view-of-the-kaiyuan-temple-20187646/) |
+| 衙口滨海休闲旅游区 | CK Seng | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-coastal-resort-complex-by-lake-31168964/) |
+| 衙口滨海休闲旅游区 | Toan Nguyen | Pexels License | [pexels](https://www.pexels.com/photo/scenic-coastal-view-of-mediterranean-villas-30604875/) |
+| 衙口滨海休闲旅游区 | thanhhoa tran | Pexels License | [pexels](https://www.pexels.com/photo/city-near-body-of-water-artwork-1498790/) |
 | 永宁古城 | Bran HAO | Pexels License | [pexels](https://www.pexels.com/photo/low-angle-shot-of-the-kaiyuan-temple-20902609/) |
 | 永宁古城 | ZhiCheng Zhang | Pexels License | [pexels](https://www.pexels.com/photo/townnscape-with-tiled-roofs-and-pagodas-20818504/) |
 | 永宁古城 | tslui | Pexels License | [pexels](https://www.pexels.com/photo/view-of-the-kaiyuan-temple-20187646/) |
 | 郑成功纪念馆 | gdczjkk | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%83%91%E6%88%90%E5%8A%9F%E7%BA%AA%E5%BF%B5%E9%A6%86_-_panoramio.jpg) |
+| 紫帽山旅游度假区 | Davidzdh | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%99%8B%E6%B1%9F%E7%B4%AB%E5%B8%BD%E5%B1%B1%E5%87%BA%E5%9C%9F%E5%AE%8B%E9%93%B6%E9%94%AD.jpg) |
+| 紫帽山旅游度假区 | tslui | Pexels License | [pexels](https://www.pexels.com/photo/view-of-the-kaiyuan-temple-20187646/) |
+| 紫帽山旅游度假区 | oner st | Pexels License | [pexels](https://www.pexels.com/photo/scenic-coastal-view-with-cliffside-gazebo-35604839/) |
 | 花生汤 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:1980%E7%83%A7%E8%82%89%E7%B2%BD%E5%89%8D%E5%9F%94%E5%BA%97%E7%9A%84%E8%8F%9C%E5%93%81.jpg) |
 | 花生汤 | Alpha from Melbourne, Australia | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Vegetables_and_Rice_Pot_-_Kings_No.1_Cafe_(2781227494).jpg) |
 | 姜母鸭 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
