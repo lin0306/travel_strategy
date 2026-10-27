@@ -1,0 +1,120 @@
+{
+  "id": "national-maritime-museum",
+  "name": "国家海洋博物馆",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "免费但要抢预约，天津最值得专程跑一趟的馆",
+  "description": "国家海洋博物馆在滨海新区中新生态城，是国内体量最大的海洋类博物馆，六层展区从远古海洋、今日海洋一直排到海洋与天文。常规展免费，但必须提前在公众号实名预约，周一闭馆（法定节假日除外）；蓝色家园活体展厅、4D 影院和部分特展要另外买票。馆里有餐厅和咖啡，认真看三小时打不住，走马观花也要一个半小时。最大的坑是位置远——从市区过来单程一个多小时，建议和滨海图书馆、东疆港串成一天，别只为了它来回跑。带孩子的可以直接排一层活体展厅和海洋灾害体验厅，展厅提供轮椅租赁和母婴室。",
+  "highlights": [
+    "一层蓝色家园活体展厅有水母和活体珊瑚，是孩子最集中的一层",
+    "三层「海洋与天文」把星空和海洋放在同一条动线上，也是最好拍的一层",
+    "暑期周末与法定节假日曾开夜场到 20:00，是避开人流的时段"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.79524,
+      "lat": 39.106599,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "天津市滨海新区中新生态城海轩道377号",
+    "district": "滨海",
+    "transportTip": "地铁9号线到东海路站换乘游2路直达；或乘生态城公交3、4号线、滨海公交972路海博馆专线到海洋博物馆站"
+  },
+  "practical": {
+    "openHours": "周二至周五约 9:00-17:00（闭馆前 30 分钟停止入馆）；周末与法定节假日约 9:00-20:00；周一闭馆（法定节假日除外），以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "常设展免费，需提前实名预约；蓝色家园活体展厅、4D 影院等付费展项约 40-60 元，以官方为准",
+    "ticketRef": 0,
+    "duration": "建议 150-300 分钟",
+    "durationMinutes": [
+      150,
+      300
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "kids",
+    "friends",
+    "family"
+  ],
+  "accessible": true,
+  "tips": [
+    "全员实名预约，每天 7:00-23:00 放号，热门周末建议提前一天约",
+    "入馆凭本人身份证原件核验，2024 年 8 月起不再扫二维码检票",
+    "离市区远，9 号线东海路站换游 2 路，比全程打车省时间"
+  ],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/12838201/pexels-photo-12838201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/12838201/pexels-photo-12838201.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Contemporary maritime museum in Tianjin, China, showcasing modern architecture by the waterfront.",
+      "query": "National Maritime Museum of China Tianjin",
+      "credit": {
+        "source": "pexels",
+        "author": "Shuaizhi Tian",
+        "sourceUrl": "https://www.pexels.com/photo/modern-maritime-museum-building-by-the-seaside-12838201/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/13128513/pexels-photo-13128513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/13128513/pexels-photo-13128513.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Large naval ship docked at Tianjin, China with military equipment displayed on deck.",
+      "query": "National Maritime Museum of China Tianjin",
+      "credit": {
+        "source": "pexels",
+        "author": "Shuaizhi Tian",
+        "sourceUrl": "https://www.pexels.com/photo/tianjin-binhai-aircraft-carrier-theme-park-13128513/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/13128614/pexels-photo-13128614.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/13128614/pexels-photo-13128614.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3024,
+      "height": 4032,
+      "alt": "Naval warship featuring rocket launchers and flags on a clear day in Tianjin, China.",
+      "query": "National Maritime Museum of China Tianjin",
+      "credit": {
+        "source": "pexels",
+        "author": "Shuaizhi Tian",
+        "sourceUrl": "https://www.pexels.com/photo/launcher-on-a-boat-13128614/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "博物馆",
+    "免费预约",
+    "亲子",
+    "滨海新区",
+    "海洋"
+  ],
+  "popularity": 92,
+  "sources": [
+    {
+      "title": "国家海洋博物馆官方网站",
+      "url": "http://www.nmmc.cc/",
+      "kind": "official",
+      "fetchedAt": "2026-10-28"
+    }
+  ],
+  "updatedAt": "2026-10-28",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "National Maritime Museum of China Tianjin",
+    "zh": "国家海洋博物馆"
+  },
+  "_geocodeTitle": "国家海洋博物馆",
+  "_geocodeSuspect": false,
+  "district": "120116"
+}
