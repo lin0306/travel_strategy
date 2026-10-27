@@ -6608,6 +6608,86 @@ def check_no_face_hover() -> None:
     check(label, problems, 3, hits)
 
 
+def check_scroll_chain() -> None:
+    """AT. 浮层能滚（`.scroll` 不许截断滚动链 · 嵌套容器必须能冒泡）"""
+    label = ('AT. 浮层能滚（`.scroll` 不许截断滚动链 · 页面兜底在 · Sheet 内容区接过拉）')
+    problems: list[str] = []
+    hits = 0
+
+    # ★★★ 这条护栏来自一次**修了两轮才修对**的事故（2026-10-27）。
+    #   用户报「浮层的滚动没办法用，鼠标直接拖、按住拖都不行」。第一次查的是
+    #   Sheet 把手拖拽 + 城市页滚动，两个都绿，于是以为修好了 —— 但用户还在报。
+    #   真正的原因在 CSS：`.scroll` 带着 `overscroll-behavior: contain`，
+    #   而 `PoiDetail` / `PlanDetailView` / `PlanListView` 的根节点**自己也是 `.scroll`**，
+    #   移动端又把它塞进 `Sheet` 的 `.scroll` 里 ⇒ 两层滚动容器。
+    #   内层那层 `scrollHeight === clientHeight`（自己不滚），可它**仍然是滚动容器**，
+    #   `contain` 的意思是"滚动到此为止、不许传给祖先" ⇒ 滚轮落在内层 → 内层滚不动
+    #   → 外层也不许接 → **整块浮层纹丝不动**。
+    #   单变量对照实测（`_tmp/cdp-nested-fix-test.mjs`）：contain 时位移 0px，改 auto 后 240px。
+    #   ⇒ 这个失效**不报错、不告警**，只在"详情页/行程页"这种嵌套结构上发作。
+
+    css_f = WEB / 'app' / 'app.css'
+    if not css_f.exists():
+        problems.append('web/app/app.css 不存在 —— 滚动样式查不了')
+        check(label, problems, 1, hits)
+        return
+
+    hits += 1
+    src = css_f.read_text(encoding='utf-8')
+
+    # ── ① `.scroll` 的**纵向** overscroll-behavior 不许是 contain / none ──
+    #   注意只抓纵向：`.scroll-x` 上的 `overscroll-behavior-x: contain` 是**对的**
+    #   （横向滚动不该带动纵向），不要连它一起判。
+    block = re.search(r'(?<![\w-])\.scroll\s*\{([^}]*)\}', src)
+    if not block:
+        problems.append(
+            'app.css 里找不到 `.scroll { ... }` —— 滚动容器类没了，本条判据失去锚点'
+        )
+    else:
+        om = re.search(r'overscroll-behavior(?:-y)?\s*:\s*([^;]+);', block.group(1))
+        if om and om.group(1).strip() in ('contain', 'none'):
+            problems.append(
+                f'`.scroll` 的纵向 `overscroll-behavior` 又是 `{om.group(1).strip()}` 了 —— '
+                '它会在**嵌套**时把滚动链截断在一个滚不动的容器上（内层 scrollHeight==clientHeight '
+                '但仍算滚动容器），于是详情页/行程页整块浮层**滚不动且不报错**。'
+                '2026-10-27 的真实根因，删掉它交给 `html, body` 兜底'
+            )
+
+    # ── ② 兜底必须在：去掉 contain 之后靠"页面本身没有可滚祖先"来防链式滚动 ──
+    if not re.search(r'html,\s*body\s*\{[^}]*overscroll-behavior\s*:\s*none', src):
+        problems.append(
+            '`html, body` 的 `overscroll-behavior: none` 没了 —— 它是 `.scroll` 去掉 `contain` '
+            '之后的唯一兜底（不然滚到底会带动整页回弹）'
+        )
+    if not re.search(r'(?<![\w-])body\s*\{[^}]*overflow\s*:\s*hidden', src):
+        problems.append(
+            '`body { overflow: hidden }` 没了 —— 「地图即画布」要求页面本身不滚动；'
+            '页面一旦可滚，`.scroll` 去 contain 之后就会把滚动漏给整个文档'
+        )
+
+    # ── ③ Sheet 的内容区必须既是滚动容器、又接过拉拖动 ──
+    sheet_f = WEB / 'app' / 'mobile' / 'ui' / 'Sheet.tsx'
+    if not sheet_f.exists():
+        problems.append('web/app/mobile/ui/Sheet.tsx 不存在')
+    else:
+        hits += 1
+        s = sheet_f.read_text(encoding='utf-8')
+        if 'scroll min-h-0 flex-1' not in s:
+            problems.append(
+                'Sheet 的内容区没挂 `.scroll min-h-0 flex-1` —— 移动端浮层就没有滚动容器了'
+            )
+        # ★ 判据刻意宽松（只看有没有把处理函数挂上去），不锁变量名/常量名：
+        #   这里要防的是"整块能力被删掉"，不是防止别人重命名。
+        if 'onPointerDown={onContentDown}' not in s:
+            problems.append(
+                'Sheet 丢了「内容区过拉拖动」(`onPointerDown={onContentDown}`) —— '
+                '那样整块浮层又只剩顶部那 26px 的把手能拖，而用户不会去挑那一条 ⇒ '
+                '看起来就是"怎么拖都没反应"'
+            )
+
+    check(label, problems, 2, hits)
+
+
 def main() -> int:
     print('=== 应用结构静态校验 ===\n')
     check_barrels()
@@ -6655,6 +6735,7 @@ def main() -> int:
     check_no_face_hover()
     check_seed_imports()
     check_vendor_risk()
+    check_scroll_chain()
 
     print('')
     for n in notes:

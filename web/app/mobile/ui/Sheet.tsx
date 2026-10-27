@@ -8,7 +8,7 @@
  * | `half` | 56svh | 默认档。列表 / 时间轴主体 + 汇总 |
  * | `full` | 88svh | 完整内容 + 操作条 |
  *
- * ## 两条实现细节
+ * ## 三条实现细节
  *
  * ### 高度用 svh，不用 vh
  * 移动端 `100vh` 把地址栏算在内，实际比可视区高 56–80px —— 用 vh 的话
@@ -19,6 +19,20 @@
  * 行程页的时间轴本身支持长按拖拽换序，而 Sheet 把手也是拖拽。两个拖拽手势叠在一起
  * 会互相抢事件。解法是：把手**长按 300ms** 才接管为 Sheet 拖拽，短按只是"吸附切换"。
  * 城市页没有内部拖拽，所以直接拖就行。
+ *
+ * ### ★★ 内容区「过拉」也能拖浮层（2026-10-27）
+ * 用户报「浮层的滚动没办法用，鼠标直接拖、按住拖都不行」—— 实测把手拖拽
+ * 5/5 通过、内容区滚轮与触摸也都能滚，**唯一没反应的是"拖内容区"**：
+ * 整块浮层只有顶部那 26px 的把手能拖，而人不会去挑那一条 —— 他按在列表上往下拉，
+ * 期待浮层跟着走（原生 App 的 Sheet 全都这样）。
+ *
+ * 判据是**边界过拉**：滚到顶还继续往下拉、滚到底还继续往上拉，才把这段位移
+ * 转为浮层高度；中间位置的拖动照旧交给原生滚动。
+ *
+ * ★ 触摸必须 `preventDefault` 掉 `touchmove`，否则原生滚动会和拖动同时进行
+ *   （浮层在变高、内容也在滚）。而 React 的 `onTouchMove` 是 **passive** 的，
+ *   在里面 `preventDefault()` 静默无效 —— 只能用 `addEventListener(..., { passive: false })`
+ *   手动挂，这是本文件唯一一个非 React 事件。
  */
 
 import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react'
@@ -55,9 +69,20 @@ export interface SheetProps {
 
 const ORDER: SheetTier[] = ['peek', 'half', 'full']
 
+/** 内容区过拉判定阈值（px）。小于它当作抖动 / 点击，不算"要拖动浮层" */
+const OVERPULL_PX = 10
+
 export function Sheet({ tier, onTier, children, footer, header, longPressHandle = false, label }: SheetProps) {
   const [dragOffset, setDragOffset] = useState<number | null>(null)
   const dragRef = useRef<{ startY: number; armed: boolean; timer: number | null } | null>(null)
+  const contentRef = useRef<HTMLDivElement | null>(null)
+  /**
+   * 内容区按下的状态。`mode`：0 = 还没判定（可能只是一次普通点击/滚动），
+   * 1 = 已判定为"下拉收起"，2 = 已判定为"上拉展开"。
+   */
+  const overRef = useRef<{ startX: number; startY: number; startTop: number; max: number; mode: 0 | 1 | 2 } | null>(null)
+  /** 拖完浮层后吞掉随之而来的那次 click —— 否则松手会"点开"手指下面的那条景点 */
+  const swallowClickRef = useRef(false)
 
   const endDrag = useCallback(
     (movedPx: number) => {
@@ -86,24 +111,84 @@ export function Sheet({ tier, onTier, children, footer, header, longPressHandle 
 
   useEffect(() => {
     const onMove = (e: PointerEvent) => {
+      /* ① 内容区过拉 → 拖动整块浮层（判据见文件头「内容区过拉」） */
+      const o = overRef.current
+      if (o) {
+        const dy = e.clientY - o.startY
+        if (o.mode === 0) {
+          const dx = Math.abs(e.clientX - o.startX)
+          // 先横向为主就不抢 —— 那是 chip 条的横向滚动
+          if (Math.abs(dy) > dx + 2) {
+            if (dy > OVERPULL_PX && o.startTop <= 0) o.mode = 1
+            else if (dy < -OVERPULL_PX && o.startTop >= o.max - 1) o.mode = 2
+            else overRef.current = null // 中间位置 = 普通滚动，交给浏览器
+            if (o.mode !== 0) {
+              dragRef.current = { startY: o.startY, armed: true, timer: null }
+              // 鼠标拖到这里已经在正文里拉出一片选区了 —— 判定成立的瞬间清掉，
+              // 否则松手时浮层收起了、文字还是反白的
+              document.getSelection()?.removeAllRanges()
+            }
+          }
+        }
+        if (o.mode !== 0) {
+          setDragOffset(dy)
+          return
+        }
+      }
+      /* ② 把手拖动 */
       const d = dragRef.current
       if (!d || !d.armed) return
       setDragOffset(e.clientY - d.startY)
     }
     const onUp = (e: PointerEvent) => {
+      /* ① 内容区过拉 */
+      const o = overRef.current
+      overRef.current = null
+      if (o && o.mode !== 0) {
+        // 350ms 后自动复位：正常点击在 pointerup 之后立刻到达，不会漏吞
+        swallowClickRef.current = true
+        window.setTimeout(() => {
+          swallowClickRef.current = false
+        }, 350)
+        endDrag(e.clientY - o.startY)
+        return
+      }
+      /* ② 把手 */
       const d = dragRef.current
       if (!d) return
-      const moved = e.clientY - d.startY
+      dragRef.current = null
       if (!d.armed) return // 长按还没到位就被抬起 → 不算拖拽
-      endDrag(moved)
+      endDrag(e.clientY - d.startY)
+    }
+    /** 手势被系统打断（来电、通知栏下拉）→ 两个状态都得清，否则浮层卡在半路 */
+    const onCancel = () => {
+      dragRef.current = null
+      overRef.current = null
+      setDragOffset(null)
     }
     window.addEventListener('pointermove', onMove)
     window.addEventListener('pointerup', onUp)
+    window.addEventListener('pointercancel', onCancel)
     return () => {
       window.removeEventListener('pointermove', onMove)
       window.removeEventListener('pointerup', onUp)
+      window.removeEventListener('pointercancel', onCancel)
     }
   }, [endDrag])
+
+  /**
+   * 触摸：判定为"拖浮层"之后必须 `preventDefault()`，否则原生滚动会和拖动同时发生。
+   * ★ React 的 `onTouchMove` 是 passive 的，在里面 preventDefault 无效 ⇒ 只能手动挂。
+   */
+  useEffect(() => {
+    const el = contentRef.current
+    if (!el) return
+    const onTouchMove = (e: TouchEvent) => {
+      if (overRef.current && overRef.current.mode !== 0) e.preventDefault()
+    }
+    el.addEventListener('touchmove', onTouchMove, { passive: false })
+    return () => el.removeEventListener('touchmove', onTouchMove)
+  }, [])
 
   const onHandleDown = (e: React.PointerEvent) => {
     const startY = e.clientY
@@ -115,6 +200,43 @@ export function Sheet({ tier, onTier, children, footer, header, longPressHandle 
       }, 300)
     }
     e.currentTarget.setPointerCapture?.(e.pointerId)
+  }
+
+  /** 内容区按下：只记录起手信息，**不拦截**任何东西 —— 判定在 `pointermove` 里做 */
+  const onContentDown = (e: React.PointerEvent<HTMLDivElement>) => {
+    // ★ 行程页的时间轴自己吃手势，内容区不参与拖浮层
+    if (longPressHandle) return
+    const root = e.currentTarget
+    /*
+     * ★ 记的是**离手指最近的那个**可滚容器的位置，不是 `root` 的。
+     *   Sheet 里的滚动容器常常是嵌套的（正文自己再套一层 `.scroll`），
+     *   读错那一层的 `scrollTop` 会让"滚到顶/底"判反 —— 于是往下拖永远触发不了、
+     *   或者反过来把普通滚动抢走。这类错**不会报错**，只会"有时候拖不动"。
+     */
+    let el: HTMLElement | null = e.target as HTMLElement
+    let box: HTMLElement = root
+    while (el && el !== root) {
+      /*
+       * ★ 必须**同时**要求 `overflow-y: auto|scroll`。
+       *   只看 `scrollHeight > clientHeight` 会把 `line-clamp-N` 的摘要当成滚动容器
+       *   （它是 `overflow: hidden`，但内容确实溢出）⇒ 记下 `startTop: 0`
+       *   ⇒ 手指落在任何一段被截断的摘要上往下拖，都会被判成"滚到顶了，可以拉浮层"。
+       *   表现是"有时候莫名其妙整个面板跟着往下掉"，而且只在某些位置上复现。
+       */
+      const oy = getComputedStyle(el).overflowY
+      if (el.scrollHeight > el.clientHeight + 2 && (oy === 'auto' || oy === 'scroll')) {
+        box = el
+        break
+      }
+      el = el.parentElement
+    }
+    overRef.current = {
+      startX: e.clientX,
+      startY: e.clientY,
+      startTop: box.scrollTop,
+      max: box.scrollHeight - box.clientHeight,
+      mode: 0,
+    }
   }
 
   const height = `calc(${SHEET_TIER_SVH[tier]}svh + env(safe-area-inset-bottom, 0px))`
@@ -177,7 +299,35 @@ export function Sheet({ tier, onTier, children, footer, header, longPressHandle 
 
       {header ? <div className="flex-none px-4 pb-2.5">{header}</div> : null}
 
-      <div className="scroll min-h-0 flex-1">{children}</div>
+      <div
+        ref={contentRef}
+        className="scroll min-h-0 flex-1"
+        onPointerDown={onContentDown}
+        onPointerCancel={() => {
+          overRef.current = null
+        }}
+        /*
+         * ★ 拖完浮层的那次 click 要吞掉：松手的位置往往正好压在某个列表项上，
+         *   不拦就会"拖一下浮层 → 顺手打开了第三个景点"。只在拖动刚结束时生效（350ms）。
+         */
+        onClickCapture={(e) => {
+          if (!swallowClickRef.current) return
+          swallowClickRef.current = false
+          e.preventDefault()
+          e.stopPropagation()
+        }}
+        /*
+         * ★ 图片默认 `draggable`：鼠标按在图上拖会启动**原生拖拽**，浏览器随即
+         *   `pointercancel` 掉这条指针链 ⇒「按在图上拖=收起浮层」直接失效。
+         *   详情页首屏就是一整块大图，起手位置十有八九落在图上，所以这不是边角情况。
+         *   ★ 只拦 `IMG`，不碰别的 `draggable` 元素 —— 行程页的时间轴排序靠原生 DnD。
+         */
+        onDragStart={(e) => {
+          if ((e.target as HTMLElement).tagName === 'IMG') e.preventDefault()
+        }}
+      >
+        {children}
+      </div>
 
       {footer ? <div className="flex flex-none gap-2 border-t border-line px-4 py-2.5">{footer}</div> : null}
     </div>

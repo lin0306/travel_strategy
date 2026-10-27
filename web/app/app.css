@@ -105,12 +105,25 @@ p {
 /* 滚动条统一（横向细一点，别把内容挤瘦） */
 .scroll {
   overflow-y: auto;
-  overscroll-behavior: contain;
   /*
-   * ★ 2026-10-25：删掉了 `-webkit-overflow-scrolling: touch`。
-   *   它在 iOS 13 起**已被废弃**（系统默认就是惯性滚动），而它会让元素自建
-   *   一个滚动上下文 —— 与 `overscroll-behavior` 同用时是有名的"滚不动"来源。
-   *   现代 iOS/Android 都不需要它。
+   * ★★★ 这里**绝不能**写 `overscroll-behavior: contain`（2026-10-27 移除）。
+   *
+   * 它是"浮层滚不动"的真正根因，而且**只在嵌套时发作、不报任何错**：
+   * `PoiDetail` / `PlanDetailView` / `PlanListView` 的根节点自带 `.scroll`，
+   * 而移动端把它们塞进 `Sheet` 的 `.scroll` 里 ⇒ 两层 `overflow-y: auto`。
+   *
+   * 内层那一层往往 `scrollHeight === clientHeight`（内容被撑开、自己不滚），
+   * 可它**仍然是一个滚动容器**。`contain` 的意思是"滚动到此为止、不许传给祖先"，
+   * 于是滚轮/手指的滚动请求落在内层 → 内层滚不动 → **也不许外层接管** → 整块浮层纹丝不动。
+   *
+   * 实测（`_tmp/cdp-nested-fix-test.mjs` 单变量对照）：同一位置滚轮，
+   * `contain` 时位移 **0px**，改成 `auto` 后一次滚 240px。用户在详情页/行程页
+   * 报的「浮层滚动没办法用」就是它。
+   *
+   * 去掉之后靠谁来防"滚到底带动整页"？`html, body` 已经是
+   * `overflow: hidden` + `overscroll-behavior: none`（见文件上方），
+   * 页面本身压根没有可滚动的祖先，链式滚动无处可去。
+   * 横向的隔离仍然由 `.scroll-x` 的 `overscroll-behavior-x: contain` 负责。
    */
   scrollbar-width: thin;
   scrollbar-color: rgba(26, 29, 36, 0.22) transparent;
