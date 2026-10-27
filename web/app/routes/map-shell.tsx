@@ -29,6 +29,7 @@ import { MapFallback } from '~/common/ui/MapFallback'
 import { MapStatusCard } from '~/common/ui/MapStatusCard'
 import { MapLogPanel } from '~/common/ui/MapLogPanel'
 import { MobileSearchPage } from '~/mobile/ui/SearchPanel'
+import { MobileMapTools } from '~/mobile/ui/MapTools'
 import { usePlanUi } from '~/common/logic/itinerary/planUi'
 import { usePlanStore } from '~/common/logic/itinerary/planStore'
 import { claimedPoiIds, isPlanFocused, planFocusKey } from '~/common/logic/planFocus'
@@ -332,6 +333,12 @@ export default function MapShellRoute() {
                那条链路要 `useMapShell()` 去飞镜头、并把命中交给页面（`searchPick`）。
                放在 Provider 外就调不到 shell 了。 */}
         <MobileSearchPage />
+        {/* ⑦ 移动端右下角的工具条（路线规划 / 图层 / 关于 / GitHub）。
+               ★ 长在外壳上（不是在某个页面的顶栏里）：它要 `useMapShell()` 的底图能力，
+                 而且四个页面都该有同一套、同一个位置 —— 每个页面各挂一次就是四份实例，
+                 其中三份会因为 `useState`（图层开关）各自为政。
+               ★ 桌面端不渲染：那四样在顶栏各就各位，多一条工具条是重复入口。 */}
+        {isDesktopViewport ? null : <MobileMapTools />}
       </MapShellCtx.Provider>
 
       {/* ④ 「关于」弹窗。★ 放在 Provider **外** —— 它只读数据（`loadCityIndex`），
@@ -341,7 +348,7 @@ export default function MapShellRoute() {
              开关走 `docUi` 这条极简信道（触发点在顶栏，见那个文件头的理由）。 */}
       {aboutOpen ? <AboutModal /> : null}
 
-      {/* ⑤ 诊断浮层：地图显示日志（开发环境常开 / 线上带 `?dbg`）。
+      {/* ⑤ 诊断浮层：地图显示日志（**只在开发构建里存在**，生产里连代码都没有）。
           ★ 放在 Provider **外** 且**不带 `data-overlay`** —— 它记的是地图状态，
             与外壳 context 无关，也不该参与 `fitView` 的可用区计算（否则观测会污染对象）。 */}
       <MapLogPanel />

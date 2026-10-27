@@ -21,7 +21,6 @@ import { useState } from 'react'
 import { usePlanUi } from '~/common/logic/itinerary/planUi'
 import { RoutePlanPanelBody } from '~/common/ui/plan/RoutePlanPanelBody'
 import { Sheet, type SheetTier } from '~/mobile/ui/Sheet'
-
 /** 门：只负责"开不开"，**不持有任何状态**（见文件头） */
 export function MobileRoutePlanPanel() {
   const open = usePlanUi((s) => s.panelOpen)
@@ -36,12 +35,16 @@ function PlanSheet() {
    * `peek` 只能看到一行，他必然要再拖一次。默认档要落在"马上能用"的那一档。
    */
   const [tier, setTier] = useState<SheetTier>('half')
+  const closePanel = usePlanUi((s) => s.closePanel)
 
   return (
     /* ★ 不给 `header`：面板正文自己有一行标题（标题 + 条数 + 新建组 + 关闭），
        Sheet 头再写一遍"路线规划"就是在同一屏说两遍同一句话。
-       把手本身已经表达了"这是一块可拖的浮层" */
-    <Sheet tier={tier} onTier={setTier} label="路线规划">
+       把手本身已经表达了"这是一块可拖的浮层"
+       ★★ `onClose`：与详情浮层同一条规矩 —— 点外部 / 往下拉过阈值 / Esc 都收起
+          （用户 2026-10-27：「规划浮窗，也是同理」）。收起走 `closePanel`，
+          它会连带清掉取点态与折线，不是单纯把 DOM 藏起来 */
+    <Sheet tier={tier} onTier={setTier} label="路线规划" onClose={closePanel}>
       <RoutePlanPanelBody />
     </Sheet>
   )

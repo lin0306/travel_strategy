@@ -19,6 +19,7 @@
  */
 
 import { useEffect, useRef } from 'react'
+import { useNavigate } from 'react-router'
 
 import { Icon } from '~/common/ui/Icon'
 import { useSearchUi } from '~/common/logic/searchUi'
@@ -33,6 +34,7 @@ export function MobileSearchPage() {
 function SearchPanel() {
   const s = useSearch()
   const close = useSearchUi((s2) => s2.closeSearch)
+  const navigate = useNavigate()
   const inputRef = useRef<HTMLInputElement>(null)
 
   // 进页即聚焦 —— 用户点这枚图标的意图就是"我要打字"
@@ -45,6 +47,12 @@ function SearchPanel() {
     inputRef.current?.blur()
     s.pick(hit)
     close()
+  }
+
+  /** 回首页（全国视图）。★ 先关自己再跳：留着它会在新页面上盖住地图 */
+  const goHome = () => {
+    close()
+    navigate('/')
   }
 
   const typed = s.query.trim().length > 0
@@ -104,9 +112,29 @@ function SearchPanel() {
 
       <div className="scroll min-h-0 flex-1">
         {!typed ? (
-          <p className="m-0 px-4 py-6 text-[14px] leading-relaxed text-ink-2">
-            输入城市名或景点名。省份、城市、景点都能搜到。
-          </p>
+          <>
+            <p className="m-0 px-4 py-6 text-[14px] leading-relaxed text-ink-2">
+              输入城市名或景点名。省份、城市、景点都能搜到。
+            </p>
+            {/*
+              ★ 「回到全国视图」（2026-10-27 加）。移动端顶栏的站标撤掉之后，
+                **全站就没有第二个常驻的"回全国"出口了** —— `plans/10` 里
+                「省级页 / 城市页没有回全国的出口」这条老问题会重新长回来。
+                放在这里的原因是：搜索本来就是**全站唯一的换级入口**（plans/11 §5），
+                跨级回家这件事理应在同一个地方解决。
+            */}
+            <button
+              type="button"
+              onClick={goHome}
+              className="flex w-full items-center gap-3 px-4 py-2.5 text-left active:bg-line-2"
+            >
+              <span className="grid size-10 flex-none place-items-center rounded-md bg-line-2">
+                <Icon name="nav" size="sm" className="text-ink-2/70" />
+              </span>
+              <span className="min-w-0 flex-1 text-[15.5px] text-ink">回到全国视图</span>
+              <span className="flex-none text-[13px] text-ink-2/70">首页</span>
+            </button>
+          </>
         ) : s.status === 'loading' ? (
           <p className="m-0 px-4 py-6 text-[14px] text-ink-2">正在加载搜索数据…</p>
         ) : s.status === 'unavailable' ? (

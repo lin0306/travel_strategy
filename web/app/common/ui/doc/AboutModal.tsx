@@ -51,7 +51,18 @@ export function AboutModal() {
         role="dialog"
         aria-modal="true"
         aria-label="关于行迹"
-        className="flt flt-in flex max-h-[86svh] w-full max-w-[640px] flex-col overflow-hidden"
+        /*
+         * ★★ 这里**不能挂 `.flt`**（2026-10-27 修「弹窗贴着左右边」）。
+         *
+         * `.flt` 带着 `position: absolute`，而卡片宽 `w-full` = `width: 100%`。
+         * 绝对定位元素的百分比宽度是按**最近定位祖先的 padding box** 解析的 ——
+         * 遮罩的 `p-4` 属于 padding，于是那 16px 外边距**算进了卡片宽度**：
+         * 手机上实测卡片 390px 宽、`left: 0 / right: 390`，正好贴住屏幕两边
+         * （用户原话：「完全贴着左右的边了，很丑」）。桌面端因为 `max-w-[640px]`
+         * 提前封顶才看不出来。
+         * ⇒ 白底 / 圆角 / 投影改成工具类，卡片回到普通流内元素，`w-full` 才是"减掉内边距"。
+         */
+        className="flt-in flex max-h-[86svh] w-full max-w-[640px] flex-col overflow-hidden rounded-[var(--flt-radius)] border border-line bg-surface shadow-[var(--flt-shadow)]"
       >
         {/* 头部固定不滚：长文滚到一半时，关闭按钮与"这是哪一页"都还在 */}
         <header className="flex flex-none items-start gap-2 border-b border-line px-4 py-3">

@@ -6688,6 +6688,240 @@ def check_scroll_chain() -> None:
     check(label, problems, 2, hits)
 
 
+def check_mobile_shell() -> None:
+    """AU. 移动端外壳（顶栏只剩搜索 · 右下角四枚工具 · 关于不贴边 · 日志只在开发）"""
+    label = 'AU. 移动端外壳（顶栏只剩搜索 · 右下角四枚工具 · 关于不贴边 · 日志只在开发）'
+    problems: list[str] = []
+    hits = 0
+
+    # ── ① 地图显示日志：**只认构建期 DEV**，`?dbg` 后门不许回来 ──
+    #
+    # 用户 2026-10-27：「底部那个日志，在开发模式显示，生产模式不显示」。
+    # 之前线上留了 `?dbg` —— 它意味着产物里永远躺着一块盖在真地图上的浮层，
+    # 谁拿到链接都能打开、随时可能被截图当成产品的一部分。
+    hits += 1
+    log_f = WEB / 'app' / 'common' / 'ui' / 'MapLogPanel.tsx'
+    if not log_f.exists():
+        problems.append('app/common/ui/MapLogPanel.tsx 不存在 —— 诊断面板被删了？')
+    else:
+        t = strip_comments_keep_lines(log_f.read_text(encoding='utf-8'))
+        if 'import.meta.env.DEV' not in t:
+            problems.append(
+                'MapLogPanel 不再用 `import.meta.env.DEV` 判断 —— 生产构建里也会渲染这块'
+                '诊断浮层（用户明确要"只在开发模式显示"）'
+            )
+        if re.search(r'URLSearchParams|has\(\s*[\'"]dbg[\'"]', t):
+            problems.append(
+                'MapLogPanel 里又出现了 URL 参数后门（`?dbg`）—— 线上不该有任何开关能打开它'
+            )
+
+    # ── ② 「关于」弹窗不许再挂 `.flt` ──
+    #
+    # `.flt` 是未分层 CSS 且带 `position: absolute`：卡片一旦绝对定位，
+    # `w-full` 的百分比就按"最近定位祖先的 **padding box**"解析 —— 遮罩的 `p-4`
+    # 是 padding，于是卡片撑满视口、左右贴死（2026-10-27 用户：「完全贴着左右的边了，很丑」）。
+    # 这个坑**只在窄屏显形**（桌面被 `max-w-[640px]` 提前封顶），肉眼很难从代码上看出来。
+    hits += 1
+    about_f = WEB / 'app' / 'common' / 'ui' / 'doc' / 'AboutModal.tsx'
+    if not about_f.exists():
+        problems.append('app/common/ui/doc/AboutModal.tsx 不存在')
+    else:
+        t = strip_comments_keep_lines(about_f.read_text(encoding='utf-8'))
+        if re.search(r'className="[^"]*(?<![\w-])flt(?![\w-])', t):
+            problems.append(
+                'AboutModal 的卡片又挂上了 `.flt` —— 它带 `position: absolute`，'
+                '`w-full` 会按遮罩的 padding box 解析 ⇒ 手机上左右贴死（不报错，只在窄屏显形）。'
+                '白底/圆角/投影用工具类写'
+            )
+        if 'max-w-[640px]' not in t:
+            problems.append('AboutModal 丢了 `max-w-[640px]` —— 桌面上会拉成一整条')
+        if '<AboutContent' not in t:
+            problems.append('AboutModal 不再渲染 `<AboutContent` —— 内容没有唯一出处')
+
+    # ── ③ 关于弹窗里必须有**品牌块**（移动端顶栏撤掉 logo 之后，它是唯一展示处）──
+    hits += 1
+    content_f = WEB / 'app' / 'common' / 'ui' / 'doc' / 'AboutContent.tsx'
+    if not content_f.exists():
+        problems.append('app/common/ui/doc/AboutContent.tsx 不存在')
+    else:
+        t = strip_comments_keep_lines(content_f.read_text(encoding='utf-8'))
+        if '<SiteMark' not in t:
+            problems.append(
+                'AboutContent 里没有 `<SiteMark` —— 用户要求「logo 等信息放到关于弹窗里面」，'
+                '移动端顶栏已经不显示站标了，这里再没有就彻底没有品牌呈现'
+            )
+        if '城市旅游攻略' not in t:
+            problems.append('AboutContent 里没有副标题「城市旅游攻略」—— 站名单独出现读不出是干什么的')
+
+    # ── ④ 移动端顶栏：站标必须撤走，只剩搜索 ──
+    #
+    # ★ 判据落在 `MobileBar` 的实现上（按函数切块）：
+    #   "顶栏不许有站标"这件事只有在这块里查才有意义 —— 桌面 `TopBar` 的 `<Brand` 是必须保留的。
+    hits += 1
+    topbar_f = WEB / 'app' / 'common' / 'ui' / 'TopBar.tsx'
+    if not topbar_f.exists():
+        problems.append('app/common/ui/TopBar.tsx 不存在')
+    else:
+        t = strip_comments_keep_lines(topbar_f.read_text(encoding='utf-8'))
+        i = t.find('function MobileBar(')
+        j = t.find('\nfunction ', i + 1) if i >= 0 else -1
+        block = t[i:j] if i >= 0 and j > i else ''
+        if not block:
+            problems.append(
+                'TopBar 里找不到 `function MobileBar(` —— 移动端顶栏又回到"桌面那行 + 一堆断点"'
+                '的老路（那行在 390px 宽时会把右侧按钮挤出屏外）'
+            )
+        else:
+            if re.search(r'<Brand\b', block):
+                problems.append(
+                    '移动端顶栏又渲染 `<Brand` 了 —— 用户要求「最左侧的 logo 也隐藏掉」'
+                    '（品牌信息改在关于弹窗里）'
+                )
+            if 'openSearch' not in block:
+                problems.append('移动端顶栏没有接手搜索（`openSearch`）—— 那顶栏就什么都不剩了')
+
+    # ── ⑤ 右下角工具条：**竖排一列** · 四个入口都在 · 跟着浮层上移 ──
+    #
+    # 用户三次定稿：「四个按钮放到右下角，只展示圆角图标」→「不是聚合在一块的，
+    # 是右侧一列，四个图标」+「这个层级也不对」→「这四个图标，放右下角」。
+    # ⇒ ① 不再 2×2 聚合；② `z-[27]`（**低于**浮层 `z-28`，内容压住工具）；
+    #   ③ 位置在右下角，但 `bottom` 必须**跟着 `--sheet-h` 走**。
+    #
+    # 第 ③ 条是这一轮的关键：浮层最矮的 `peek` 档也有 28svh，「浮层之下的右下角」
+    # 根本不存在 —— 只把 `top` 换成 `bottom` 的话，城市页（浮层常驻）永远看不见工具条，
+    # 而且不报任何错。所以这里同时钉住两端：`Sheet` 必须广播高度、`MapTools` 必须读它。
+    hits += 1
+    tools_f = WEB / 'app' / 'mobile' / 'ui' / 'MapTools.tsx'
+    if not tools_f.exists():
+        problems.append(
+            'web/app/mobile/ui/MapTools.tsx 不存在 —— 移动端右下角那四枚（路线规划/图层/'
+            '关于/GitHub）没有实现'
+        )
+    else:
+        t = strip_comments_keep_lines(tools_f.read_text(encoding='utf-8'))
+        for need, why in (
+            ('usePlanUi', '路线规划入口'),
+            ('BasemapSheet', '图层浮层（必须走通用的浮层基座）'),
+            ('useDocUi', '关于入口'),
+            ('GITHUB_REPO_URL', 'GitHub 入口（地址只能走 `common/data/site` 的唯一常量）'),
+            ('flex-col', '竖排一列（用户：「是右侧一列，四个图标」）'),
+            ('data-sheet-keep', '点工具条不算"点浮层外面"（否则详情会被顺带关掉）'),
+            ('var(--sheet-h', '右下角定位必须扣掉浮层高度（否则浮层一升起就整块盖住工具条）'),
+            ('addEventListener(SHEET_RESIZE_EVENT', '浮层升高后放不下时得整条不渲染（不能露半截）'),
+        ):
+            if need not in t:
+                problems.append(f'MapTools 缺少 `{need}` —— {why}没接上')
+        if 'grid-cols-2' in t:
+            problems.append(
+                'MapTools 又变回 2×2 聚合方块了 —— 用户明确要「右侧一列，四个图标」'
+                '（2×2 只在屏幕上占一块四方的白斑，还盖住列表右端）'
+            )
+        if 'z-[29]' in t:
+            problems.append(
+                'MapTools 又回到 `z-[29]`（高于浮层）—— 那正是用户说的「层级也不对」：'
+                '浮层一打开就被它压住页脚与列表右端。工具属于地图层，必须低于 `z-28`'
+            )
+        if 'z-[27]' not in t:
+            problems.append('MapTools 的层级不是 `z-[27]` —— 必须**低于**浮层(`z-28`)')
+        # 排到右上角是上一版的临时位置（为了躲开浮层），用户已经明确要回右下角。
+        # ★ `(?<![\w-])`：条数徽标写的是 `-top-1`，只用 `\b` 会把那个也算成"顶部定位"，
+        #   这条判据就永远为真（写反证时验证过）。
+        if re.search(r'className="[^"]*(?<![\w-])(?:top|inset-y)-', t):
+            problems.append(
+                'MapTools 又用 `top-` 定位了 —— 用户要的是「这四个图标，放右下角」；'
+                '躲浮层靠 `bottom: calc(var(--sheet-h) + …)`，不是靠往上挪'
+            )
+
+    # Sheet 侧：高度必须真的广播出去，否则上面那条 bottom 永远是 0px（静默失效）
+    #
+    # ★ 判据必须是**调用处**而不是"文件里出现过 `SHEET_H_VAR`"——
+    #   `import` 那一行就带着这个词，只查 token 永远为真（反证当场验证过：
+    #   把 `setProperty` 换成 `void h`，旧判据依然全绿，只有"未使用导入"顺手报了）。
+    hits += 1
+    sheet_f = WEB / 'app' / 'mobile' / 'ui' / 'Sheet.tsx'
+    if not sheet_f.exists():
+        problems.append('app/mobile/ui/Sheet.tsx 不存在')
+    else:
+        t = strip_comments_keep_lines(sheet_f.read_text(encoding='utf-8'))
+        for pat, why in (
+            (r'setProperty\(\s*SHEET_H_VAR', '浮层高度没写到 `:root` —— 右下角工具条不知道要避让多少'),
+            (r'dispatchEvent\(\s*new\s+CustomEvent<number>\(\s*SHEET_RESIZE_EVENT',
+             '高度变化没派发事件 —— 工具条不会重新判"放不放得下"'),
+            (r'new\s+ResizeObserver', '没有观测自身高度 —— 切档 / 拖拽时工具条不会跟着动'),
+        ):
+            if not re.search(pat, t):
+                problems.append(f'Sheet 里 {why}')
+
+
+
+    # ── ⑥ 浮层基座：三档 + 下拉收起（距离 **或** 速度）+ 点外部收起 ──
+    #
+    # 用户：「这个浮窗上下拉现在是有三种展现形式的，这个保留……点浮窗之外的界面自动
+    # 隐藏，或者往下拉到一定程度也自动隐藏（你看是下拉的速度快一点的时候触发，
+    # 还是拉到底部某一个位置触发隐藏）」——两套判据都实现了，缺一条就有一半手势失灵。
+    hits += 1
+    tier_f = WEB / 'app' / 'mobile' / 'ui' / 'sheetTier.ts'
+    if not tier_f.exists():
+        problems.append('web/app/mobile/ui/sheetTier.ts 不存在 —— 三档高度没有唯一出处')
+    else:
+        t = strip_comments_keep_lines(tier_f.read_text(encoding='utf-8'))
+        for need in ("'peek'", "'half'", "'full'", 'SHEET_TIER_SVH'):
+            if need not in t:
+                problems.append(f'sheetTier 缺少 {need} —— 三档被改了，移动端浮层会少一档')
+
+    hits += 1
+    drag_f = WEB / 'app' / 'mobile' / 'ui' / 'useSheetDrag.ts'
+    if not drag_f.exists():
+        problems.append('web/app/mobile/ui/useSheetDrag.ts 不存在 —— 下拉收起的手势没了')
+    else:
+        t = strip_comments_keep_lines(drag_f.read_text(encoding='utf-8'))
+        for need, why in (
+            ('DISMISS_PX', '「拉到某个位置就收起」那条判据'),
+            ('FLICK_V', '「甩得快就收起」那条判据'),
+            ('data-sheet-keep', '点浮层之上的东西（选择器/工具条）不该顺带关掉浮层'),
+            ('passive: false', '触摸拖动必须 preventDefault，否则原生滚动会一起动'),
+        ):
+            if need not in t:
+                problems.append(f'useSheetDrag 缺少 `{need}` —— {why}没了')
+
+    # ── ⑦ 详情 / 规划 / 图层三块浮层：统一基座 + 主操作在标题右侧 + 没有底部按钮栏 ──
+    hits += 1
+    # ★ 判据是 `onClose={`（**真的传给了 `<Sheet>`**），不是"文件里出现过 onClose" ——
+    #   后者在 props 类型与解构里必然出现，等于永远为真（写反证时当场验证过：
+    #   把传参删掉，旧判据依然全绿）。
+    for rel in (
+        'app/mobile/ui/PoiDetailSheet.tsx',
+        'app/mobile/ui/PoiView.tsx',
+        'app/mobile/ui/RoutePlanPanel.tsx',
+        'app/mobile/ui/BasemapSheet.tsx',
+    ):
+        f = WEB / rel
+        if not f.exists():
+            problems.append(f'{rel} 不存在')
+            continue
+        t = strip_comments_keep_lines(f.read_text(encoding='utf-8'))
+        if "from '~/mobile/ui/Sheet'" not in t:
+            problems.append(f'{rel} 没有用统一的浮层基座 `Sheet` —— 形态会各写一套')
+        # 必须出现在 `<Sheet ...>` 的**开标签里**：只看"文件里有 onClose{" 不够 ——
+        # `BasemapSheet` 的门组件自己也传了一个 `onClose={onClose}` 给内容组件，
+        # 光凭 token 存在就永远为真（反证 ⑤ 当场验证过）。
+        # ★ 必须用 `<Sheet(?=[\s>])`：`t.find('<Sheet')` 会先命中 `<SheetHead`，
+        #   而"找不到这个点位"那种分支的 `<Sheet>` 本来就不需要 onClose ⇒ 误报。
+        tags = [t[m.start() : m.start() + 900] for m in re.finditer(r'<Sheet(?=[\s>])', t)]
+        if not any('onClose={' in tag for tag in tags):
+            problems.append(f'{rel} 没有把 `onClose` 传给 `<Sheet>` —— 点外面 / 下拉都收不起来')
+    # 「添加行程」不许再做成底部整条按钮（用户：「不做单独的底部按钮，放到最顶上的标题右侧」）
+    hits += 1
+    for rel in ('app/mobile/ui/PoiDetailSheet.tsx', 'app/mobile/ui/PoiView.tsx'):
+        t = strip_comments_keep_lines((WEB / rel).read_text(encoding='utf-8'))
+        if 'footer=' in t:
+            problems.append(f'{rel} 又给浮层塞了 `footer=` —— 添加行程必须挂在标题右侧')
+        if 'action=' not in t:
+            problems.append(f'{rel} 的 `SheetHead` 没有 `action` —— 添加行程按钮丢了')
+
+    check(label, problems, 7, hits)
+
+
 def main() -> int:
     print('=== 应用结构静态校验 ===\n')
     check_barrels()
@@ -6736,6 +6970,7 @@ def main() -> int:
     check_seed_imports()
     check_vendor_risk()
     check_scroll_chain()
+    check_mobile_shell()
 
     print('')
     for n in notes:

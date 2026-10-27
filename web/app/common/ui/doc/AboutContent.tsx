@@ -23,6 +23,7 @@
 import { useEffect, useState } from 'react'
 
 import { Icon } from '~/common/ui/Icon'
+import { SiteMark } from '~/common/ui/SiteMark'
 import { loadCityIndex } from '~/common/data/data'
 import { GITHUB_ISSUES_URL, GITHUB_REPO_URL, LICENSE_NAME } from '~/common/data/site'
 import type { CityIndexItem } from '~shared/schema'
@@ -85,6 +86,23 @@ export function AboutContent() {
 
   return (
     <>
+      {/* ★ 品牌块（2026-10-27 加）：移动端顶栏的 logo 撤掉了，用户要求
+          「logo 等信息放到关于弹窗里面」，并且明确这条**两端通用**。
+          放在最上面的理由与下面的「这是什么」一致 —— 先回答"我在看什么东西"。
+          ★ 图形走 `SiteMark`（与 favicon / 桌面站标同一份），不再画第二套。 */}
+      <div className="mt-4 flex items-center gap-3">
+        <SiteMark size={44} className="flex-none" />
+        <div className="min-w-0">
+          <p className="m-0 flex flex-wrap items-baseline gap-x-2">
+            <b className="text-[16px] leading-tight tracking-tight">行迹</b>
+            <span className="text-[11.5px] text-ink-2">城市旅游攻略</span>
+          </p>
+          <p className="mt-1 mb-0 text-[12px] leading-relaxed text-ink-2">
+            一张地图，安排一次旅行。开源、无广告、不用注册。
+          </p>
+        </div>
+      </div>
+
       {/* ★ 开篇先讲"这是什么、对我有什么用"。上一版把「数据规模」放在第二节，
           而一个还没决定要不要信它的人，此刻最想知道的不是有多少个景点。 */}
       <Section title="这是什么">

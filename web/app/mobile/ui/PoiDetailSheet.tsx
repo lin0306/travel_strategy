@@ -1,16 +1,24 @@
 /**
- * 点位详情 —— **就地查看**（移动端形态）：底部 Sheet。
+ * 点位详情 —— **就地查看**（移动端形态）：底部浮层。
  *
  * ## 它和 `routes/poi.tsx`（详情页）、`desktop/ui/PoiDetailOverlay` 的关系
  * 三者装的是**同一份内容**（`common/ui/city/PoiDetail` + `PoiLocation`），差别只有外壳。
- * 本组件是"点地图上的景点"这一条路在移动端的落点 —— **不换 URL**（见文件头下方的用户原话）。
+ * 本组件是"点地图上的景点"这一条路在移动端的落点 —— **不换 URL**。
  *
- * ## 与城市页那张 Sheet 怎么共存
- * 移动端屏幕放不下两块抽屉，所以**选中点位时这一张顶替列表那张**（`mobile/ui/CityView`
- * 里做的是"选中 → 详情 / 未选中 → 列表"的切换）。出口是页脚的「关闭」，关掉就回到列表。
+ * ## 与城市页那张浮层怎么共存
+ * 移动端屏幕放不下两块浮层，所以**选中点位时这一张顶替列表那张**（`mobile/ui/CityView`
+ * 里做的是"选中 → 详情 / 未选中 → 列表"的切换）。出口有两个：**点浮层外面**、
+ * **往下拉过阈值**（2026-10-27 用户定：「点浮窗之外的界面自动隐藏，或者往下拉到
+ * 一定程度也自动隐藏」），关掉就回到列表。
  *
- * ★ 位置与交通砌在 `PoiDetail` 的正文末尾（**两端同一份实现**，桌面原来那套
- *   独立的 300px 位置卡已删）—— 这里不再单独拼一段。
+ * ## ★ 「添加行程」为什么在标题右侧，而不是底部一整条
+ * 用户 2026-10-27 原话：「添加行程按钮不做单独的底部按钮，放到最顶上的标题右侧」。
+ * 底部那条按钮要占掉 56px 高度、还要和浮层的安全区抢位置，而它的位置本来就在
+ * 一屏之内 —— 提到标题行之后，正文整块多出 56px，读完不用滚。
+ * ★ 同时**不再给关闭按钮**：收起的出口是"下拉 / 点外面"，与原生 App 一致
+ *   （用户：「关闭按钮可以不需要」）。键盘用户走 Esc，见 `useSheetDrag`。
+ *
+ * ★ 位置与交通砌在 `PoiDetail` 的正文末尾（**两端同一份实现**）。
  * ★ 换点位要复位 `gallery` / 溯源展开（理由见 `desktop/ui/PoiDetailOverlay` 文件头第 3 条）。
  */
 
@@ -55,26 +63,24 @@ export function PoiDetailSheet({
     <Sheet
       tier={tier}
       onTier={setTier}
-      header={<SheetHead title={poi.name} sub={poi.location.address} />}
-      footer={
-        <>
-          <button
-            type="button"
-            onClick={onClose}
-            className="inline-flex h-11 flex-1 items-center justify-center gap-1.5 rounded-lg border border-line text-[14.5px] md:h-9 md:text-[13px]"
-          >
-            <Icon name="close" size="sm" />
-            关闭
-          </button>
-          <button
-            type="button"
-            onClick={() => onAddToPlan(poi.id)}
-            className="inline-flex h-11 flex-1 items-center justify-center gap-1.5 rounded-lg bg-primary text-[14.5px] font-medium text-white md:h-9 md:text-[13px]"
-          >
-            <Icon name="plus" size="sm" />
-            {addLabel}
-          </button>
-        </>
+      label="景点详情"
+      onClose={onClose}
+      header={
+        <SheetHead
+          title={poi.name}
+          sub={poi.location.address}
+          action={
+            <button
+              type="button"
+              onClick={() => onAddToPlan(poi.id)}
+              aria-label={addLabel}
+              className="inline-flex h-8 items-center gap-1 rounded-full bg-primary px-2.5 text-[12.5px] font-medium whitespace-nowrap text-white active:opacity-90"
+            >
+              <Icon name="plus" size="sm" />
+              {addLabel}
+            </button>
+          }
+        />
       }
     >
       <PoiDetail
@@ -84,6 +90,7 @@ export function PoiDetailSheet({
         onGallery={setGallery}
         showSources={showSources}
         onToggleSources={() => setShowSources((v) => !v)}
+        hideName
       />
     </Sheet>
   )

@@ -129,6 +129,7 @@ export function PoiDetail({
   onGallery,
   showSources,
   onToggleSources,
+  hideName = false,
 }: {
   poi: Poi
   cityName: string
@@ -136,6 +137,13 @@ export function PoiDetail({
   onGallery: (i: number) => void
   showSources: boolean
   onToggleSources: () => void
+  /**
+   * 隐藏正文里的 `<h1>`。
+   * ★ 只给**移动端浮层**用：那边名字已经常驻在浮层头部（不随内容滚走），
+   *   正文再写一遍就是同一屏两个标题，而且「添加行程」就在头部的名字右侧 ——
+   *   下面紧接着又来一个同样大的名字，读起来像页面渲染了两次。
+   */
+  hideName?: boolean
 }) {
   const img = poi.images[gallery] ?? poi.images[0]
   const credit = img?.credit
@@ -189,8 +197,8 @@ export function PoiDetail({
       ) : null}
 
       <div className="px-3.5 pb-6">
-        <h1 className="m-0 text-[20px] font-semibold">{poi.name}</h1>
-        <div className="mt-1.5 flex flex-wrap items-center gap-2 text-[12px] text-ink-2">
+        {hideName ? null : <h1 className="m-0 text-[20px] font-semibold">{poi.name}</h1>}
+        <div className={`flex flex-wrap items-center gap-2 text-[12px] text-ink-2 ${hideName ? '' : 'mt-1.5'}`}>
           <span className="inline-flex items-center gap-1">
             <i
               aria-hidden="true"

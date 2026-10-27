@@ -66,21 +66,25 @@ export function MobilePoiView({ view }: { view: PoiView }) {
       <Sheet
         tier={tier}
         onTier={setTier}
+        label="景点详情"
+        /* 收起 = 回城市页（本页没有"列表"可以回去，出口只能是上一层路由） */
+        onClose={view.backToCity}
         header={
           <SheetHead
             title={poi?.name ?? '加载中…'}
             sub={poi ? poi.location.address : undefined}
+            action={
+              <button
+                type="button"
+                onClick={view.addToPlan}
+                aria-label={addLabel}
+                className="inline-flex h-8 items-center gap-1 rounded-full bg-primary px-2.5 text-[12.5px] font-medium whitespace-nowrap text-white active:opacity-90"
+              >
+                <Icon name="plus" size="sm" />
+                {addLabel}
+              </button>
+            }
           />
-        }
-        footer={
-          <button
-            type="button"
-            onClick={view.addToPlan}
-            className="inline-flex h-11 flex-1 items-center justify-center gap-1.5 rounded-lg bg-primary text-[14.5px] font-medium text-white md:h-9 md:text-[13px]"
-          >
-            <Icon name="plus" size="sm" />
-            {addLabel}
-          </button>
         }
       >
         {poi && city ? (
@@ -91,6 +95,7 @@ export function MobilePoiView({ view }: { view: PoiView }) {
             onGallery={view.setGallery}
             showSources={view.showSources}
             onToggleSources={view.toggleSources}
+            hideName
           />
         ) : (
           <div className="flex items-center gap-2 p-6 text-[13px] text-ink-2">

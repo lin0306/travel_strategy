@@ -32,16 +32,29 @@
 export function ModalScrim({
   children,
   className = '',
+  align = 'center',
 }: {
   children: React.ReactNode
   className?: string
+  /** `center` = 居中（决策型）；`end` = 贴底（移动端「图层」这类"从下往上"的开关面板） */
+  align?: 'center' | 'end'
 }) {
   return (
     <div
+      /*
+       * ★ `data-sheet-keep`：告诉移动端底部浮层（`mobile/ui/useSheetDrag` 的
+       *   "点外部收起"判定）**别把这一下算成点浮层外面**。
+       *   典型场景：详情浮层里点「添加行程」→ 弹出「加到哪个规划」→ 用户点选一条，
+       *   那一下落在遮罩上 ⇒ 没有这个标记的话详情浮层会**同时**被关掉，
+       *   用户根本没机会看到加成功了没有。遮罩之上的东西都属于"浮层内部流程"。
+       */
+      data-sheet-keep=""
       // ★ `absolute` 而非 `fixed`：弹窗都挂在 `routes/map-shell.tsx` 的浮层区里，
       //   那里已是视口大小的定位祖先，`fixed` 反而会被祖先的 transform 关进某一层
       //   （`AboutModal` 文件头记过这个坑：顶栏带 transform，`fixed` 子元素会被关进 52px 里）。
-      className={`absolute inset-0 z-[50] flex items-center justify-center p-4 sm:p-6 ${className}`}
+      className={`absolute inset-0 z-[50] flex p-4 pb-[calc(1rem+env(safe-area-inset-bottom,0px))] sm:p-6 ${
+        align === 'end' ? 'items-end justify-center' : 'items-center justify-center'
+      } ${className}`}
       style={{ background: 'rgba(16,24,40,0.34)' }}
     >
       {children}

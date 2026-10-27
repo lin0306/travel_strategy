@@ -15,11 +15,20 @@
  * 52px 的一条浮层压在 900px 视口顶端，是"贴在画布上的一张纸条"，
  * 不是把画布横切一刀。
  *
- * ## 内容：左中右三段
+ * ## 内容：左中右三段（**仅桌面**）
  * | 位置 | 内容 |
  * |------|------|
  * | 左 | 站标（Logo + 行迹 + 城市旅游攻略）→ 搜索框 |
  * | 右 | 页面动作 → **底图下拉** → 站点导航 → 全屏 |
+ *
+ * ## ★ 移动端（`< 640px`）**整条换形态**（2026-10-27 用户定）
+ * 「顶部就只保留一个搜索功能，最左侧的 logo 也隐藏掉；路线规划 / 图层 / 关于 / GitHub
+ *  四个按钮放到右下角，只展示圆角图标；logo 等信息放到关于弹窗里面」。
+ * ⇒ 见下方 `MobileBar`（只有一条搜索框）+ `mobile/ui/MapTools`（右下角四枚图标）
+ *  + `common/ui/doc/AboutContent` 顶部那块品牌信息。
+ * 为什么不是给桌面这行加 `hidden`：那一行早被 `sm:` / `md:` / `lg:` 三层断点互锁，
+ * 390px 宽实测「矢量图」被切掉、「关于」被顶出屏外、GitHub 根本不渲染 ——
+ * 继续往上叠补丁只会让下一个人更难改。
  *
  * ## ★ 顶栏不再显示"我在哪"（2026-09-22，第二次撤）
  * 演进全程记在这里，免得又被"顺手加回来"：
@@ -87,6 +96,7 @@ import { SearchBox } from '~/common/ui/SearchBox'
 import { PlanMenuButton } from '~/common/ui/plan/PlanMenuButton'
 import { useDocUi } from '~/common/logic/docUi'
 import { useSearchUi } from '~/common/logic/searchUi'
+import { useIsMobile } from '~/common/logic/useViewport'
 import { GITHUB_REPO_URL } from '~/common/data/site'
 import { useFullscreen } from '~/common/logic/useFullscreen'
 import type { MapShellContext } from '~/common/logic/mapShell'
@@ -176,6 +186,57 @@ function RepoButton() {
  *   而原来它只在 `lg`（≥1024px）那组里渲染，手机上**完全没有入口**，等于永远打不开。
  *   移动端顶栏放不下「关于」两个字，所以只留图标，`aria-label` 仍是完整描述。
  */
+/**
+ * 移动端顶栏（`< 640px`）—— **只剩一枚搜索入口**（2026-10-27 用户定）。
+ *
+ * ## 为什么整条重做，而不是给桌面那行加 `hidden`
+ * 用户原话：「顶部就只保留一个搜索功能吧，最左侧的 logo 也隐藏掉；路线规划、图层、
+ * 关于、GitHub 四个按钮放到右下角」「logo 等信息放到关于弹窗里面」。
+ * 也就是说移动端顶栏**不再是一个"工具栏"**，而是一条搜索框 ——
+ * 继续在桌面那行上打补丁，会留下 `hidden md:` / `lg:hidden` 十几处断点互锁，
+ * 下次谁想再动一下都得先把它们全读一遍（这一行本来就快被这些断点挤爆了：
+ * 改之前 390px 宽实测「矢量图」被切掉、「关于」被顶出屏外）。
+ *
+ * ## 两态
+ * | 态 | 内容 |
+ * |----|------|
+ * | `browse` | 整条搜索框（点一下 → 全屏搜索层 `mobile/ui/SearchPanel`） |
+ * | `task` | 页面自己的动作（如「看点位」）—— 它自带胶囊底，所以顶栏 `plain`，不套第二层白框 |
+ *
+ * ★ 品牌（Logo + 行迹）已从移动端顶栏撤走，信息改由「关于」弹窗承载
+ *   （`common/ui/doc/AboutContent` 的品牌块）。
+ *   ⚠️ 那也意味着**移动端失去了"回全国"的常驻出口**，所以 `SearchPanel`
+ *   （全站唯一的换级入口，见 plans/11 §5）的空态里补了一行「回到全国视图」。
+ */
+function MobileBar({ browse, actions }: { browse: boolean; actions?: ReactNode }) {
+  const openSearch = useSearchUi((s) => s.openSearch)
+
+  if (!browse) {
+    return (
+      <Overlay anchor="top-left" z={30} plain className="flex-row items-center">
+        {actions}
+      </Overlay>
+    )
+  }
+
+  return (
+    <Overlay anchor="top" z={30} className="h-10 flex-row items-center px-3">
+      <button
+        type="button"
+        onClick={openSearch}
+        aria-haspopup="dialog"
+        // ★ 这个 `aria-label` 是移动端搜索验收脚本的锚点（`_tmp/cdp-mobile-search.mjs`），
+        //   改文案要同步那条探针
+        aria-label="搜索省市、景点"
+        className="flex h-full w-full items-center gap-2 text-left"
+      >
+        <Icon name="search" size="md" className="flex-none text-ink-2" />
+        <span className="truncate text-[13px] text-ink-2">搜索省市、景点…</span>
+      </button>
+    </Overlay>
+  )
+}
+
 /** 移动端顶栏的搜索入口（一枚图标；桌面走 `SearchBox` 的输入框） */
 function MobileSearchButton() {
   const openSearch = useSearchUi((s) => s.openSearch)
@@ -263,8 +324,13 @@ function FullscreenButton() {
 export function TopBar({ actions, shell, variant = 'browse' }: TopBarProps) {
   const { basemap, setBasemapKind, setBasemapLevel, toggleBasemapDetail } = shell
   const navigate = useNavigate()
+  const mobile = useIsMobile()
 
   const browse = variant === 'browse'
+
+  // ★ 移动端整条换形态（见 `MobileBar` 文件头）。放在所有 hook 之后，
+  //   两端的 hook 调用顺序因此完全一致 —— 跨断点 resize 不会踩到 hook 顺序。
+  if (mobile) return <MobileBar browse={browse} actions={actions} />
 
   return (
     <Overlay

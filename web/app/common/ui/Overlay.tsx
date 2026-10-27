@@ -37,6 +37,14 @@ export interface OverlayProps {
   /** 关掉入场动画（如换档时的尺寸变化不适合再动画一次） */
   noAnim?: boolean
   /**
+   * `plain` = **只要定位与 `data-overlay`，不要白底/圆角/投影/入场动画**。
+   *
+   * ★ 为移动端顶栏加的（2026-10-27）：那里的内容（搜索条 / 「看点位」胶囊）
+   *   自己带底色与圆角，套一层 `.flt` 会变成"白框里再放一个白胶囊"，两层边。
+   *   而 `.flt` 是**未分层** CSS，`bg-transparent` 这类工具类压不过它 —— 只能不挂。
+   */
+  plain?: boolean
+  /**
    * 无障碍名（同时给 `role="region"`）。
    *
    * ★ 为什么值得单独一个 prop：地图上有**好几块** `data-overlay` ——
@@ -93,12 +101,13 @@ export function Overlay({
   z = 20,
   noAnim = false,
   label,
+  plain = false,
 }: OverlayProps) {
   return (
     <div
       data-overlay=""
       {...(label ? { role: 'region' as const, 'aria-label': label } : {})}
-      className={`flt ${noAnim ? '' : 'flt-in'} flex flex-col ${tall ? 'min-h-0' : ''} ${className ?? ''}`}
+      className={`${plain ? '' : `flt ${noAnim ? '' : 'flt-in'}`} flex flex-col ${tall ? 'min-h-0' : ''} ${className ?? ''}`}
       style={{
         ...anchorStyle(anchor),
         width: widthToken ? `var(${widthToken})` : width,

@@ -10,10 +10,9 @@
  * 1. **不参与取景** —— 刻意**不用** `Overlay` 组件：那个组件会带 `data-overlay=""`，
  *    而 `fitView.ts` 靠这个属性实测"哪里被浮层盖住了"。调试面板去吃地图的可用区，
  *    会把取景结果改掉 —— 拿有副作用的东西去观测，观测本身就污染了对象。
- * 2. **默认不占地方** —— 折叠成一个右下角小胶囊。它不是产品功能，是诊断工具，
- *    不该在用户看地图时抢注意力。
- * 3. **只在开发环境常开** —— 生产构建里要带 `?dbg` 才出现（见 `shouldShow`）。
- *    但保留这条路径：线上出问题时，让用户加个参数就能拿到现场数据。
+ * 2. **默认不占地方** —— 折叠成一枚小胶囊（桌面在右下角、移动端在右上角，
+ *    见下方容器那段注释）。它不是产品功能，是诊断工具，不该在用户看地图时抢注意力。
+ * 3. **只存在于开发环境** —— 生产构建里**没有任何开关能打开它**（见 `shouldShow`）。
  *
  * ## 读的是 store 而不是 props
  * 日志由图层在重绘后写入（`lib/mapLog.ts`），与 React 渲染不同步，也不该同步
@@ -37,15 +36,20 @@ import type { MapLevel } from '~/common/map/tencent'
 const LEVEL_CN: Record<MapLevel, string> = { province: '省', city: '市', district: '区', poi: '点' }
 
 /**
- * 要不要显示这个面板。
+ * 要不要显示这个面板 —— **只认构建期常量**。
  *
- * 开发环境常开；线上默认不显示，但**保留 `?dbg` 后门** ——
- * 真机上出的问题只有真机上能看到现场，而这个面板的复制按钮就是"把现场寄回来"的通道。
+ * ## ★ `?dbg` 后门已删（2026-10-27 用户定）
+ * 用户原话：「底部那个日志，在开发模式显示，生产模式不显示」。
+ * 之前线上留了一条 `?dbg` 路径（理由是"真机出问题时让用户加个参数就能取现场"），
+ * 但那条路径的代价是**线上永远存在一块不属于产品的浮层**：任何拿到链接的人
+ * 都能打开它，而它盖在真地图上、随时可能被截图当成产品的一部分。
+ * 真机取现场改走开发构建（`run.py` 起的 dev server 就是 DEV）。
+ *
+ * ★ `import.meta.env.DEV` 在构建期被静态替换成 `false`，整个面板连同这段判断
+ *   一起从产物里消失 —— 不是"运行时隐藏"，是**根本没有这段代码**。
  */
 function shouldShow(): boolean {
-  if (import.meta.env.DEV) return true
-  if (typeof window === 'undefined') return false
-  return new URLSearchParams(window.location.search).has('dbg')
+  return import.meta.env.DEV
 }
 
 export function MapLogPanel() {
@@ -84,10 +88,15 @@ export function MapLogPanel() {
          ⇒ 这枚诊断胶囊**压在 Sheet 之上**，实测挡住详情页的「添加行程」和城市页的
          「热门优先」。它是诊断工具，不该盖住产品操作 —— 降到 Sheet 之下，
          Sheet 收起（peek）时才露出来，打开时被盖住正好。
-      ⚠️ 别为了"看得见"再往上调：它自己不带 `data-overlay`（见文件头约束 1），
+      ★★ 位置按端别分家（2026-10-27，三轮）：移动端**右下角**是四枚工具图标
+         （`mobile/ui/MapTools`，它会跟着浮层上移，占满整条右下的地图区）——
+         胶囊只能去**左上**。展开方向跟着翻（`flex-col-reverse`：按钮在上、面板向下展开）。
+         （第一版放在右上，实测正好压住工具条最上面那枚「路线规划」，截图才看出来。
+           工具条后来按用户要求挪回右下角，左上这条判据不变。）
+      ⚠️ 别为了"看得见"再往上调 z：它自己不带 `data-overlay`（见文件头约束 1），
          也就是说它**不参与取景避让**，压住内容时没有任何补偿机制。
     */
-    <div className="pointer-events-none absolute right-[var(--flt-inset)] bottom-[var(--flt-inset)] z-[27] flex flex-col items-end gap-2">
+    <div className="pointer-events-none absolute top-[calc(var(--flt-inset)+var(--topbar-h))] left-[var(--flt-inset)] z-[27] flex flex-col-reverse items-start gap-2 md:top-auto md:right-[var(--flt-inset)] md:bottom-[var(--flt-inset)] md:left-auto md:flex-col md:items-end">
       {open ? (
         <div
           role="dialog"
