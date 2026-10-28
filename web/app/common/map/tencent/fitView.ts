@@ -14,13 +14,29 @@
  * > 直接对应这个语义；**腾讯没有 `avoid`，只能走 padding**。所以这套逻辑在腾讯这边
  * > 是**必需的正式实现**，不是过渡方案。
  *
- * ## 另一半：`minZoom`（落点至少到某一级）
- * 光有 padding 只回答"框不框得下"，不回答"落点是不是该到的那一档"。
- * 那一半的几何（缩放 ↔ 跨度换算 + 框收缩）在 `./zoomSpan.ts` —— 那边是纯几何，
- * 本文件只管 DOM 侧的实测与动画。
+ * ## 它只管"进某一页时的取景"
+ * **点徽标下钻不走这里** —— 那是 `panTo.focusPointTo`（`shell.focusPoint`），
+ * 缩放是定值（"点哪一级落到哪一档"，见 `zoomTiers.ts` 的「下钻落点」）。
+ * 两者的分工：
+ * | | `fitPoints`（本文件） | `focusPointTo`（panTo.ts） |
+ * |---|---|---|
+ * | 缩放 | 由框反算 —— 整座城市铺满空闲区 | **定值**，与屏幕无关 |
+ * | 用在 | 进城市页 / 进省级页 / 行程取景 / 搜索命中一个景点 | 点徽标下钻 |
+ *
+ * ★ 2026-10-28 之前这里还有一条 `minZoom`（"落点至少到某一档"，靠把框按比例收缩再 fit）。
+ *   它被删掉了：那是"用 fit 去凑一个固定刻度"的折中，而用户要的是**真的固定刻度**
+ *   （「市级标签点击固定缩放到某个比例……而不是根据屏幕的尺寸计算」）。
+ *   留着它 = 两套落点模型并存，改一个地方另一个不动，且没有任何报错。
  */
 
-import { DEGENERATE_SPAN_DEG, shrinkForMinZoom } from './zoomSpan'
+/**
+ * 零面积范围的兜底跨度（度）。≈2km —— 只用来把"只有一个点"这种退化范围撑开，
+ * 否则 `fitBounds` 会把缩放拉到引擎上限（糊在最大级别上）。
+ *
+ * ★ 它原来住在 `zoomSpan.ts`（那个文件已随 `minZoom` 一起删除）。
+ *   现在只有本文件用，就别再单独建一个纯几何模块了。
+ */
+const DEGENERATE_SPAN_DEG = 0.02
 
 export interface Rect {
   x0: number
@@ -340,25 +356,6 @@ export interface FitOptions {
   padding?: TMap.PaddingOptions
   /** 这次取景的语义（决定动画时长）。默认按"下钻"处理 */
   reason?: FlyReason
-  /**
-   * 这次取景**至少要落到**这一级（引擎缩放值）。
-   *
-   * ## 为什么需要它
-   * `fitBounds` 只回答"这片范围框得下吗"，不回答"落点是不是该到的那一档"。
-   * 而第四级（区）的外接框经常**比景点级还大**：广州从化区跨 0.8°×0.56°，
-   * 框住它 ≈ z10.4，而景点要 z≥12 才揭出来 —— 于是"点这个区"看上去什么都没发生，
-   * 甚至比上一屏还小（省级页原先退化成 0.5° 的近似方块，就是"点区反而缩小"）。
-   *
-   * ## 为什么是"收缩框"而不是 fit 完再 `setZoom`
-   * `fitBounds` 是**动画**：紧接着 `setZoom` 会打断它（镜头瞬移），
-   * 而且 `setZoom` 不认 padding —— 浮层避让白算。把框按比例收缩到目标级别
-   * 对应的跨度再 fit，中心、动画、避让全都还是原来那套。
-   *
-   * ★ 只在"框出来的级别比它小"时生效（框本来就更深时不动），所以传它永远安全。
-   */
-  minZoom?: number
-  /** 收缩 `minZoom` 时的**锚点**：视野钉在这一枚点上，而不是框的几何中心（见 `shrinkForMinZoom`） */
-  anchor?: LatLngLike
 }
 
 /**
@@ -369,6 +366,9 @@ export interface FitOptions {
  * ★ 这是一个**动画**开始的动作，不是"镜头已经到位"。想知道什么时候到位，
  *   用 `useTMap` 暴露的那次广播（它在稳定检测之后才发）—— 不要在返回值后面
  *   紧接着读 `getZoom()`，那读到的是第 0 帧。
+ *
+ * ★ 落点由**框的大小 ÷ 空闲像素**决定，所以同一个框在不同屏幕上落得深浅不同 ——
+ *   这是 `fit` 的本义。**要"每次点都落到同一档"就别用它**，去 `shell.focusPoint`。
  */
 export function fitPoints(map: TMap.Map, points: LatLngLike[], opts: FitOptions = {}): boolean {
   const box = boundsOf(points)
@@ -379,40 +379,9 @@ export function fitPoints(map: TMap.Map, points: LatLngLike[], opts: FitOptions 
     padding = freeRectToPadding(opts.container, opts.overlays ?? [])
   }
 
-  // `minZoom`：先把框收缩到"至少那么深"再 fit（理由见 `FitOptions.minZoom`）。
-  // ★ 容器量不出来时**放弃**它（返回 null → 原样 fit）：宁可让落点浅一点，
-  //   也不要拿 0 像素去算一个荒唐的收缩系数。
-  const avail = containerPixels(opts.container ?? map.getContainer?.() ?? null, padding)
-  const target = shrinkForMinZoom(points, opts.minZoom, avail, opts.anchor)
-
-  map.fitBounds(boundsOf(target) ?? box, {
+  map.fitBounds(box, {
     padding,
     duration: FLY_DURATION_MS[opts.reason ?? 'drill'],
   })
   return true
-}
-
-/**
- * 容器**扣掉浮层之后**还剩多少像素。
- *
- * 浮层避让算的是 padding，而"这片跨度能框到几级"必须按**剩下的**像素算 ——
- * 用整屏算会把落点估深（左面板吃掉 348px，等于可用宽度少了四分之一）。
- *
- * @return `null` = 量不出来（容器还没挂载 / 尺寸为 0），调用方应放弃 `minZoom`
- */
-function containerPixels(
-  el: HTMLElement | null | undefined,
-  padding: TMap.PaddingOptions | undefined,
-): { w: number; h: number } | null {
-  if (!el) return null
-  const w = el.offsetWidth || el.getBoundingClientRect().width
-  const h = el.offsetHeight || el.getBoundingClientRect().height
-  if (!w || !h) return null
-
-  const l = padding?.left ?? 0
-  const r = padding?.right ?? 0
-  const t = padding?.top ?? 0
-  const b = padding?.bottom ?? 0
-  // ★ 兜个 1px 下限：padding 把容器吃光时（极端浮层布局）不要除出 0
-  return { w: Math.max(w - l - r, 1), h: Math.max(h - t - b, 1) }
 }

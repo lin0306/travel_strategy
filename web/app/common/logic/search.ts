@@ -149,17 +149,18 @@ export function indexFocusSources(index: SearchIndex): FocusSources {
 }
 
 /**
- * 命中一条**地区** → 框哪几个点。
+ * 命中一条**地区** → 停在哪一点、落到哪一档。
  *
  * ★ 复用 `districtFocus.focusPointsFor` 的**同一套口径**（省 → 下辖各市中心；
- *   市 → 该市的点位；都没有 → 近似市域方块）。于是"搜索飞到成都"和"点成都徽标"
+ *   市 → 该市的点位；都没有 → 徽标中心）。于是"搜索飞到成都"和"点成都徽标"
  *   看到的是**同一个画面** —— 同一件事只允许有一种解释。
+ * ★ 坐标缺席（只有名字的行）时返回 `null`：调用方据此"只看清单不推镜头"。
  */
 export async function regionFocusPoints(
   index: SearchIndex,
   region: SearchRegion,
-): Promise<FocusTarget> {
-  if (region.lng === null || region.lat === null) return { points: [] }
+): Promise<FocusTarget | null> {
+  if (region.lng === null || region.lat === null) return null
   return focusPointsFor(
     { adcode: region.adcode, lng: region.lng, lat: region.lat },
     indexFocusSources(index),

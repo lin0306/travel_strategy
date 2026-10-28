@@ -13,7 +13,13 @@
  *
  * 为什么不用 `Overlay`：浮层尺寸 token（`--panel-*`）是给"常驻面板"用的，
  * 而这条提示是瞬时的、宽度随内容变。
+ *
+ * ## 2026-10-28：它现在也说"这一下为什么没成"
+ * 非规划的一句话提示（点到一个 0 景点的区 →「温江区暂无收录景点」）也走这里，
+ * 靠 `toast.autoHideMs` 自动消失。理由与"哪些不该自动消失"见 `planUi.hint`。
  */
+
+import { useEffect } from 'react'
 
 import { openPlanDetail, usePlanUi } from '~/common/logic/itinerary/planUi'
 import { ToastBar } from '~/common/ui/ToastBar'
@@ -21,6 +27,19 @@ import { ToastBar } from '~/common/ui/ToastBar'
 export function PlanToast() {
   const toast = usePlanUi((s) => s.toast)
   const clearToast = usePlanUi((s) => s.clearToast)
+
+  /**
+   * ★ 只有显式带 `autoHideMs` 的才自动消失（`hint()` 造的）。
+   *   "已复制为…"/"存库失败"那类**必须**留到用户看见 —— 它们没有这个字段。
+   * ★ 依赖里只放 `toast`：换成 `toast?.text` 的话，同一句话连着说两次
+   *   （连点两个空区）定时器不会重置，第二次会提前消失。
+   */
+  const autoHideMs = toast?.autoHideMs ?? 0
+  useEffect(() => {
+    if (!autoHideMs) return
+    const t = setTimeout(clearToast, autoHideMs)
+    return () => clearTimeout(t)
+  }, [toast, autoHideMs, clearToast])
 
   if (!toast) return null
 

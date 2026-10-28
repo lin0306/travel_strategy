@@ -4712,257 +4712,265 @@ def check_plan_storage() -> None:
 
 
 def check_district_focus() -> None:
-    """AE. 区取景（点区 = **往里走**，且至少落到景点级）
+    """AE. 徽标取景（**定值落点**：点哪一级落到哪一档 · 锚点=最密的那枚 · 区名宽容）
 
     ## 这条护栏守什么（2026-09-26 用户报的「区的放大等级不对，怎么还缩小地图了」）
-    「点徽标 = 放大」这件事在第四级（区）上是**默认不成立**的，而且反过来：
+    「点徽标 = 放大」这件事在第四级（区）上是**默认不成立**的：
 
     | 断掉的那截 | 屏幕上发生什么 |
     |------------|----------------|
-    | `focusPointsFor` 没有 `boxOf`（省级页 / 首页） | 三级数据源全空 → 掉到 0.5° 的近似**市域**方块 → 比区级那一屏还浅，**镜头往外退** |
-    | 只 fit 区的行政外接框 | 大区（从化跨 0.8°）≈ z10.4，点位要 z≥12 才揭 → "点了这个区"看着什么都没发生 |
-    | `fitPoints` 不认 `minZoom` | 上面两件事一起回来，而且**没有任何报错** |
+    | `focusPointsFor` 没有 `boxOf`（省级页 / 首页） | 认不出"点的是区" ⇒ 落到别的档，镜头可能往外退 |
+    | 区名裸 `===` | 直辖市的"东城区"对不上"东城" ⇒ 拿到空景点 ⇒ 锚点退回行政中心 |
 
-    实测（真浏览器，广州荔湾 / 从化，三页各一次）：修好后 z 10.6→13.04、9.43→13.04。
+    ## 2026-10-28：落点从 `fit` 改成**定值**
+    用户原话：「你这缩放逻辑应该不对吧，市级标签点击固定缩放到某个比例，
+    其他的也是同理，而不是根据屏幕的尺寸计算」。
 
-    ## 2026-09-29 追加：**落点钉得越高，丢的景点越多**
-    用户原话：「有些区可能就一个景点，放大后我都不知道景点在哪，
-    **景点在当前展示的地图之外**」。
+    之前是 `fitBounds` 反推 —— 同一个标签、同一片范围，屏幕小就落得浅。实测
+    （`_tmp/cdp-focus-zoom.mjs` 真鼠标点徽标，成都）：桌面 **10.36** / 移动 **8.73**。
+    8.73 掉在区级揭示线（9.5）以下 ⇒ 手机点完市徽标屏幕上**还是市徽标**（"点了没进去"），
+    桌面 10.36 在线上 ⇒ 区名正常浮现。**同一动作两种结果**，这是用户报的那一幕。
 
-    上一轮为了"点区后看得清个体"，把落点钉到了 `DISTRICT_FOCUS_ZOOM`(14)。
-    但 `minZoom` 的语义是"**装不下才收缩**"，而收缩**以框中心为锚** ——
-    于是它只在"会丢景点"的区上生效。实测（`_tmp/cdp_districtfocus_verify.mjs`，
-    真鼠标点徽标 + 墨卡托投影逐点判可见）：
+    ⇒ 现在 `focusPointsFor` 只回答两件事：**停在哪一点**（`center`，medoid）
+    与 **落到多深**（`zoom`，定值，由"点的是哪一级"决定，与屏幕无关）。
+    三档取值与代价表在 `zoomTiers.ts` 的「下钻落点」。
 
-    | 区 | 景点 | 落点 | 屏内 |
-    |----|------|------|------|
-    | 成都·都江堰市 | 4 | z=14 | **1** |
-    | 成都·锦江区 | 11 | z=14 | 4 |
-    | 成都·成华区 | 6 | z=14 | 4 |
-    | 成都·青羊区 | 19 | z=14 | 2 |
-
-    ⇒ 落点只钉 `POI_ADMIT_MIN_ZOOM`（**地板**：低于它点位层不铺）。"看得清"靠
-    **框得准**（框景点自己）+ **锚得准**（`densestPoint`），不靠钉高落点。
-
-    还有一处同时修的：**收缩的锚点**。默认以框的**几何中心**为锚，而景点散在四周时
-    那是**一片空地** —— 收缩之后一个景点都看不见。改成"最密的那一枚"（medoid）后，
-    重庆渝中从"看得见 0 个"变成"看得见 24 个"。
-
-    同一轮还修了另一处静默失效：**区名宽容匹配**（直辖市的徽标名不带"区"，
-    `东城` vs 点位的 `东城区`）—— 4 个直辖市 228 个点位全踩在这一格上。
+    ★★ 守这条护栏的关键是**只允许一套落点模型**：
+      · 下钻 = `shell.focusPoint(center, zoom)`（定值）
+      · 进页 / 行程 = `shell.fit(points)`（框多大落多深）
+    两者混着用，改一处另一处不动，而且**没有任何报错** —— 所以这里同时断言
+    `fitView` 里不许再有 `minZoom`、`zoomSpan.ts` 不许回来。
     """
-    label = 'AE. 区取景（区有自己的框 · 落点只钉揭示地板 · 锚点=最密的那枚 · 区名宽容 · 四处都传）'
+    label = 'AE. 徽标取景（定值落点 · 锚点=最密的那枚 · 区名宽容 · 一套落点模型）'
     problems: list[str] = []
     hits = 0
 
-    # ── ① `fitPoints` 真的实现了 minZoom ──
-    hits += 1
     fit_rel = 'app/common/map/tencent/fitView.ts'
     span_rel = 'app/common/map/tencent/zoomSpan.ts'
+    tiers_rel = 'app/common/map/tencent/zoomTiers.ts'
+    focus_rel = 'app/common/logic/districtFocus.ts'
+    city_layer_rel = 'app/common/logic/useCityDistrictLayer.ts'
+    province_rel = 'app/common/logic/useProvinceView.ts'
+    home_rel = 'app/common/logic/useHomeView.ts'
+    search_rel = 'app/common/logic/useSearch.ts'
+
+    def code(rel: str) -> str:
+        return strip_comments_keep_lines((WEB / rel).read_text(encoding='utf-8'))
+
+    # ── ① 只允许一套落点模型：`fit` 回到"纯框"，`zoomSpan` 不许回来 ──
+    hits += 1
     fit = WEB / fit_rel
-    span = WEB / span_rel
     if not fit.exists():
         problems.append(f'{fit_rel} 不存在')
+        fit_text = ''
     else:
-        fit_text = strip_comments_keep_lines(fit.read_text(encoding='utf-8'))
-        if 'minZoom?: number' not in fit_text:
-            problems.append(
-                f'{fit_rel} 的 `FitOptions` 没有 `minZoom?: number` —— '
-                '取景只能回答"框不框得下"，答不了"落点该到哪一档"'
-            )
-        if 'shrinkForMinZoom(' not in fit_text:
-            problems.append(
-                f'{fit_rel} 的 `fitPoints` 没有调 `shrinkForMinZoom(` —— '
-                '字段在、实现没接上等于没做（而且不报错，只是落点浅一档）'
-            )
-        # ★ 兜底跨度必须**只有一份**：`boundsOf` 若自己再写一个 0.02，
-        #   刚收缩完的框会被它重新撑回 2km，`minZoom` 白给
-        if 'DEGENERATE_SPAN_DEG' not in fit_text or re.search(r'=\s*0\.02\b', fit_text):
-            problems.append(
-                f'{fit_rel} 里出现了写死的兜底跨度（或没用 `DEGENERATE_SPAN_DEG`）—— '
-                '它必须与 `shrinkForMinZoom` 是同一个常量，否则收缩完又被 `boundsOf` 撑开'
-            )
-    if not span.exists():
-        problems.append(f'{span_rel} 不存在（缩放 ↔ 跨度换算被搬走了？）')
-    else:
-        span_text = span.read_text(encoding='utf-8')
-        for sym in ('export const DEGENERATE_SPAN_DEG', 'export function shrinkForMinZoom'):
-            if sym not in span_text:
-                problems.append(f'{span_rel} 里没有 `{sym}` —— `fitView` 会从这里取它')
+        fit_text = code(fit_rel)
+        for bad in ('minZoom', 'shrinkForMinZoom', 'anchor?: LatLngLike'):
+            if bad in fit_text:
+                problems.append(
+                    f'{fit_rel} 里还有 `{bad}` —— 那是"用 fit 去凑固定刻度"的旧模型。'
+                    '定值落点走 `shell.focusPoint`，两套并存会改一处另一处不动（且不报错）'
+                )
+    if (WEB / span_rel).exists():
+        problems.append(
+            f'{span_rel} 又出现了 —— 它是 `minZoom` 的几何半身，随它一起删掉了；'
+            '定值落点不需要"缩放 ↔ 跨度换算"'
+        )
 
-    # ── ② `POI_ADMIT_MIN_ZOOM`：地板与"点位层准入下界"必须是同一个数 ──
+    # ── ② 三档下钻常量：都在，且都由**揭示线**推出来（不写死数字）──
     hits += 1
-    tiers_rel = 'app/common/map/tencent/zoomTiers.ts'
     tiers = WEB / tiers_rel
     if not tiers.exists():
         problems.append(f'{tiers_rel} 不存在')
+        t_text = ''
     else:
-        t_text = strip_comments_keep_lines(tiers.read_text(encoding='utf-8'))
-        if 'export const POI_ADMIT_MIN_ZOOM' not in t_text:
-            problems.append(
-                f'{tiers_rel} 没有导出 `POI_ADMIT_MIN_ZOOM` —— 它必须同时是'
-                '"点位层准入的下界"与"点区取景的落点地板"；两处各写一个 11.5 会静默分叉'
-            )
-        n_half = t_text.count('POI_REVEAL_ZOOM - 0.5')
-        if n_half != 1:
-            problems.append(
-                f'{tiers_rel} 里 `POI_REVEAL_ZOOM - 0.5` 出现了 {n_half} 次 —— '
-                '只该在 `POI_ADMIT_MIN_ZOOM` 的定义里出现一次，别处一律引用常量名'
-            )
+        t_text = code(tiers_rel)
+        for name, expr in (
+            ('PROVINCE_DRILL_ZOOM', r'PROVINCE_DRILL_ZOOM\s*=\s*CITY_REVEAL_ZOOM\s*\+'),
+            ('CITY_DRILL_ZOOM', r'CITY_DRILL_ZOOM\s*=\s*DISTRICT_REVEAL_ZOOM\s*\+'),
+            ('DISTRICT_DRILL_ZOOM', r'DISTRICT_DRILL_ZOOM\s*=\s*POI_REVEAL_ZOOM\b'),
+        ):
+            if f'export const {name}' not in t_text:
+                problems.append(
+                    f'{tiers_rel} 没有导出 `{name}` —— "点这一级落到哪一档"没有唯一出处'
+                )
+            elif not re.search(expr, t_text):
+                problems.append(
+                    f'{tiers_rel} 的 `{name}` 不是由揭示线推出来的 —— '
+                    '写死数字之后，调揭示线不会带着落点一起动（点完落在揭示线下方=点了没反应）'
+                )
+        # `POI_ADMIT_MIN_ZOOM` 仍必须同时是"点位层准入下界"，且只算一次
         if 'zoom < POI_ADMIT_MIN_ZOOM' not in t_text:
             problems.append(
                 f'{tiers_rel} 的 `poiTierForZoom` 没有用 `POI_ADMIT_MIN_ZOOM` 判准入 —— '
-                '那样"揭示阈值"与"点区落点地板"会各走各的'
+                '点区落到 12 就着一屏空点位'
+            )
+        if t_text.count('POI_REVEAL_ZOOM - 0.5') != 1:
+            problems.append(
+                f'{tiers_rel} 里 `POI_REVEAL_ZOOM - 0.5` 出现了'
+                f' {t_text.count("POI_REVEAL_ZOOM - 0.5")} 次 —— 只该在 `POI_ADMIT_MIN_ZOOM`'
+                ' 的定义里出现一次，别处一律引用常量名'
             )
 
-    # ── ③ `focusPointsFor`：区有自己的框，且落点钉在地板上、锚点钉在最密的那枚 ──
+    # ── ③ `focusPointsFor` 只产 `center` + `zoom`，且区这一档是定值 ──
     hits += 1
-    focus_rel = 'app/common/logic/districtFocus.ts'
     focus = WEB / focus_rel
     if not focus.exists():
         problems.append(f'{focus_rel} 不存在')
+        f_text = ''
     else:
-        focus_text = strip_comments_keep_lines(focus.read_text(encoding='utf-8'))
-        if 'boxOf?:' not in focus_text:
+        f_text = code(focus_rel)
+        if 'center: LatLngLike' not in f_text or 'zoom: number' not in f_text:
             problems.append(
-                f'{focus_rel} 的 `FocusSources` 没有 `boxOf?:` —— '
-                '省级页 / 首页点区时三级数据源全空，会掉到 0.5° 的近似市域方块（那就是"缩小"）'
+                f'{focus_rel} 的 `FocusTarget` 不是 `{{ center, zoom }}` —— '
+                '定值落点需要"一个点 + 一档"，回一组点就又走回 fit 反推'
             )
-        if 'minZoom: POI_ADMIT_MIN_ZOOM' not in focus_text:
+        if 'zoom: DISTRICT_DRILL_ZOOM' not in f_text:
             problems.append(
-                f'{focus_rel} 点区的落点没有钉在 `POI_ADMIT_MIN_ZOOM`（点位层真的会铺的那一档）—— '
-                '低于它 `poiTierForZoom` 判 `admitsPoints: false`，屏幕上只剩区徽标，点区等于什么都没发生'
+                f'{focus_rel} 点区没有落到 `DISTRICT_DRILL_ZOOM` —— '
+                '低于它点位层不铺（`poiTierForZoom` 判 false），点区等于什么都没发生'
             )
-        # ★★ 锚点必须给 `densestPoint`：收缩框默认以**几何中心**为锚，而景点散在
-        #   四周时几何中心是**空地** —— 收缩之后一个景点都看不见。
-        #   实测（`_tmp/sim_district_focus.py` 全量）：重庆渝中 25 个点，
-        #   几何中心锚点 → 看得见 0 个；medoid 锚点 → 看得见 24 个。
-        if 'anchor: densestPoint(' not in focus_text:
+        # ★★ 锚点必须走 medoid：几何中心在"点散在四周"时是**一片空地**
+        #   （重庆渝中 24 个挤半岛 + 1 个在 93km 外 ⇒ 几何中心锚定看得见 0 个，medoid 24 个）
+        #
+        # ★ 判据必须是**次数**，不能是"出现过" —— 三个分支（区 / 下级中心 / 自己的点位）
+        #   各有一处 `center: densestPoint(`，只把**区那一支**换成徽标中心时
+        #   "出现过"仍然为真（第一次反证就是这样漏掉的：改后残留 2 处，AE 全绿）。
+        n_anchor = f_text.count('center: densestPoint(')
+        if n_anchor < 3:
             problems.append(
-                f'{focus_rel} 点区时没有给 `anchor: densestPoint(...)` —— '
-                '收缩框会以框的几何中心为锚，而景点散在四周时那是空地（收缩后一个都看不见）'
+                f'{focus_rel} 里 `center: densestPoint(` 只有 {n_anchor} 处（要 3 处：'
+                '区 / 下级中心 / 自己的点位）—— 少了那一支的落点会停在几何中心，'
+                '而点散在四周时那是空地（一屏什么都没有）'
             )
-        # ★★ 徽标写 0 个的区**不许去筛景点**：`poiCount` 是用户看得见的那句话，
-        #   而 `poisOf` 筛的是采编稿手写的 `dist` —— 两套口径会打架。
-        #   实例（2026-09-30 用户：「我点西安未央区，这个区都没有景点，
-        #   点了之后直接跳到咸阳的汉景帝陵去了」）：西安「汉景帝阳陵」的稿子写
-        #   `dist="未央区"`、几何归区却在**高陵区** ⇒ 未央区徽标 **0**，
-        #   按名字筛却筛得出 1 条 ⇒ 框住它 + 锚点是它自己 ⇒ 镜头飞走 20km。
-        if 'node.poiCount === 0 ? []' not in focus_text:
+        if re.search(r'^\\s*minZoom', f_text, re.M):
             problems.append(
-                f'{focus_rel} 点区时没有按 `poiCount` 短路 —— '
-                '徽标写 0 个的区会被"按名字筛出来的一条"拉走（用户看到的是"跳到别的地方去了"）'
-            )
-        # ★★ 反过来：**不许**再引入一个"点区专属"的更高档。
-        #   2026-09-29 之前这里钉的是 `DISTRICT_FOCUS_ZOOM = 14`（"气泡散开的拐点"），
-        #   被用户报掉：「有些区可能就一个景点，放大后我都不知道景点在哪，
-        #   **景点在当前展示的地图之外**」。根因是 `shrinkForMinZoom` **以框中心为锚**
-        #   收缩，而 `minZoom` **只在"框装不下"时才生效** ⇒ 调高它调不出"更清楚"，
-        #   只调出"更看不全"。实测（`_tmp/cdp_districtfocus_verify.mjs`：真鼠标点徽标
-        #   + 墨卡托投影逐点判可见，成都 4 个区）：
-        #     都江堰 4 个点 → 屏内只剩 1；青羊区 19 个 → 只剩 2；锦江区 11 个 → 4。
-        if re.search(r'minZoom:\s*(?:DISTRICT_FOCUS_ZOOM|1[3-9]\b)', focus_text):
-            problems.append(
-                f'{focus_rel} 给点区单独钉了一个比揭示阈值更高的档 —— '
-                '`minZoom` 只在"框装不下"时生效，钉得越高丢的景点越多'
-                '（实测：钉 14 时都江堰 4 个点只剩 1 个在屏内、青羊区 19 个只剩 2 个）。'
-                '"看得清"该靠**框得准**（框景点自己），不是靠把落点钉更高'
-            )
-        # ★★ 区名匹配必须宽容：直辖市的徽标名不带"区"（`东城` vs 点位的 `东城区`），
-        #   裸 `===` 恒 false ⇒ `poisOf` 恒空 ⇒ 点区静默掉进"行政框"那一支
-        #   （锚点是行政中心，不是景点）。4 个直辖市共 228 个点位全在这一格上。
-        if 'export function sameDistrict' not in focus_text:
-            problems.append(
-                f'{focus_rel} 没有 `sameDistrict()` —— 区名比较必须剥掉行政后缀再比，'
-                '否则直辖市的"东城区"对不上"东城"，点区会静默走到行政框那一支'
+                f'{focus_rel} 里又出现了 `minZoom` —— 定值落点的产出是 `center` + `zoom`，'
+                '别把旧模型接回来'
             )
 
-    # ── ④ 三个页面的接线 ──
+    # ── ④ `zoom` 按**点的级别**分派：市 → `CITY_DRILL_ZOOM`，其余 → `PROVINCE_DRILL_ZOOM` ──
     hits += 1
-    # 城市页：区图层自己处理点击，两处 fit（有边界 / 退化到区中心）都要带
-    city_layer_rel = 'app/common/logic/useCityDistrictLayer.ts'
-    city_layer = WEB / city_layer_rel
-    if not city_layer.exists():
-        problems.append(f'{city_layer_rel} 不存在')
-    else:
-        cl_text = strip_comments_keep_lines(city_layer.read_text(encoding='utf-8'))
-        # ★★ 2026-09-29 起，城市页的 `onSelect` 也走 `focusPointsFor` ——
-        #   它原来是**自己一份**（只框区的行政外框），与省级页/首页分叉：
-        #   大区（都江堰跨 0.5°）被 `DISTRICT_FOCUS_ZOOM` 以**框中心**为锚收缩到 ~5km，
-        #   而景点不在框中心 ⇒ 落点 z=14 却**一个点位都没有**（实测"点 0"）。
-        #   现在三页同一条：**区里有景点就框那些景点**，没有才退回行政框。
-        if 'focusPointsFor(' not in cl_text:
+    if f_text:
+        # ★ 判据落在**行为**上（三元分派），不落在函数名上：把 `isCityAdcode` 改名
+        #   或把实现改成 `return true`（省也按市落）都必须能红。
+        if not re.search(r'\?\s*CITY_DRILL_ZOOM\s*:\s*PROVINCE_DRILL_ZOOM', f_text):
             problems.append(
-                f'{city_layer_rel} 的 `onSelect` 没有走 `focusPointsFor` —— '
-                '点区框哪一片会与省级页/首页分叉（只框行政框时，大区会把镜头落到一片空地上）'
+                f'{focus_rel} 的 `zoom` 没有按"点的是不是市"分派 —— '
+                '省与市落到同一档会把全省裁成一块 / 省徽标点了看不出层级'
             )
-        if 'minZoom: t.minZoom' not in cl_text:
+        if not re.search(r"adcode\.endsWith\('00'\)\s*&&\s*!adcode\.endsWith\('0000'\)", f_text):
             problems.append(
-                f'{city_layer_rel} 的 `onSelect` 没把 `t.minZoom` 交给 `shell.fit` —— '
-                '算出来了不传等于没算（落点会退回 fit 自己的结果）'
+                f'{focus_rel} 的 `isCityAdcode()` 不是"后两位 00 且不是 0000"—— '
+                '直辖市（110000）会被当成市，落点跳一档'
             )
-        # ★ 省级页 / 首页直接传 `node`（`DistrictGeoNode` 自带 `poiCount`），
-        #   城市页这里是**手写对象** —— 漏了这个字段就不享受"徽标说几个就是几个"。
-        if 'poiCount: node.poiCount' not in cl_text:
+        # ★★ 徽标写 0 个的区**不许去筛景点**（2026-09-30「点西安未央区跳到咸阳」）
+        if 'node.poiCount === 0 ? []' not in f_text:
             problems.append(
-                f'{city_layer_rel} 调 `focusPointsFor` 时没带 `poiCount` —— '
-                '省级页/首页的 node 自带它，城市页是手写对象，漏了就不享受"徽标说几个就是几个"'
+                f'{focus_rel} 点区没有按 `poiCount` 短路 —— '
+                '徽标写 0 个的区会被"按名字筛出来的一条"拉到 20km 外'
+            )
+        if 'export function sameDistrict' not in f_text:
+            problems.append(
+                f'{focus_rel} 没有 `sameDistrict()` —— 区名比较必须剥掉行政后缀，'
+                '否则直辖市的"东城区"对不上"东城"，点区拿不到景点'
             )
 
-    for rel in ('app/common/logic/useProvinceView.ts', 'app/common/logic/useHomeView.ts'):
+    # ── ⑤ 落点**只有一个出口**：`districtFocus.drillTo`（2026-10-28 收口）──
+    #
+    # 原来这里是"四个页面文件里都要出现 `focusPoint(t.center, t.zoom)`"。
+    # 2026-10-28 加了 `FocusTarget.empty`（**0 景点的区不许把人扔进空地图**）之后，
+    # "判空 + 挪镜头"是一件事，收进了 `drillTo` —— 页面再自己写一遍 `focusPoint`
+    # 就等于绕过空区判断。判据跟着改成"页面只能调 `drillTo`，落点本体只许在
+    # `districtFocus`"。★ 只查"出现过"会漏：所以还断言页面里**不许**出现 `shell.focusPoint(`。
+    hits += 1
+    for rel in (city_layer_rel, province_rel, home_rel):
         f = WEB / rel
         if not f.exists():
             problems.append(f'{rel} 不存在')
             continue
-        text = strip_comments_keep_lines(f.read_text(encoding='utf-8'))
-        if 'boxOf: async' not in text:
+        text = code(rel)
+        if 'drillTo(' not in text:
             problems.append(
-                f'{rel} 的 `focusSources` 没有 `boxOf` —— 点区会掉到近似市域方块，镜头往外退'
+                f'{rel} 没有走 `drillTo(` —— 点徽标必须落到定值那一档，且 0 景点的区'
+                '不能把人扔进空地图（`FocusTarget.empty`）'
             )
-        if 'minZoom: t.minZoom' not in text:
+        if re.search(r'shell\.focusPoint\(', text):
             problems.append(
-                f'{rel} 的 `onSelectDistrict` 没有把 `t.minZoom` 交给 `shell.fit` —— '
-                '算出来了不传等于没算'
+                f'{rel} 自己调了 `shell.focusPoint(` —— 落点唯一出口是 `drillTo`，'
+                '绕过它就不判 `empty`（0 景区点进去一片空白）'
+            )
+        if re.search(r'fit\(t\.points', text):
+            problems.append(
+                f'{rel} 还在 `fit(t.points, …)` —— 定值落点不能再走 fit'
             )
 
-    # ── ⑤ 三个页面筛"区里的景点"都走宽容比较（不许裸 `===`）──
+    # 落点本体：定值那一档 + 空区短路，两者都在 `drillTo` 里
+    hits += 1
+    if (WEB / focus_rel).exists():
+        fd = code(focus_rel)
+        if 'focusPoint(t.center, t.zoom)' not in fd:
+            problems.append(
+                f'{focus_rel} 的 `drillTo` 没有 `focusPoint(t.center, t.zoom)` —— '
+                '落点必须是定值那一档'
+            )
+        if 'if (t.empty)' not in fd:
+            problems.append(
+                f'{focus_rel} 的 `drillTo` 没有 `if (t.empty)` 短路 —— '
+                '0 景点的区会把镜头飞进一片空白（2026-10-28 用户报的"不撒点了"）'
+            )
+
+    # 搜索命中地区：同一口径（不挪镜头 + 说一句），不许静默飞过去
+    hits += 1
+    if (WEB / search_rel).exists():
+        sf = code(search_rel)
+        if 't.empty' not in sf:
+            problems.append(
+                f'{search_rel} 命中地区时没判 `t.empty` —— 搜到一个没有收录景点的地方'
+                '会飞过去、然后屏幕空白'
+            )
+        if 'focusPoint(t.center, t.zoom)' not in sf:
+            problems.append(
+                f'{search_rel} 没有 `focusPoint(t.center, t.zoom)` —— 定值落点不能再走 fit'
+            )
+
+    # ── ⑥ 三页筛"区里的景点"都走宽容比较（不许裸 `===`）──
     # ★ 这条守的是**静默失效**：`===` 在普通地级市上完全有效（"锦江区" === "锦江区"），
-    #   只有直辖市会恒 false，而那时表现是"点了区，景点在屏幕外"——看不出是名字的问题。
+    #   只有直辖市会恒 false，而那时表现是"点了区，镜头停在没景点的空地上"。
     hits += 1
-    for rel in (city_layer_rel, 'app/common/logic/useProvinceView.ts', 'app/common/logic/useHomeView.ts'):
+    for rel in (city_layer_rel, province_rel, home_rel):
         f = WEB / rel
         if not f.exists():
             problems.append(f'{rel} 不存在')
             continue
-        text = strip_comments_keep_lines(f.read_text(encoding='utf-8'))
+        text = code(rel)
         if 'sameDistrict(' not in text:
             problems.append(
                 f'{rel} 筛"这个区里面的景点"没走 `sameDistrict(` —— '
-                '直辖市的"东城区"（点位）对不上"东城"（徽标），恒空 ⇒ 点区看不到景点'
+                '直辖市的"东城区"（点位）对不上"东城"（徽标），恒空 ⇒ 锚点退回行政中心'
             )
         if re.search(r'location\.district\s*===', text):
             problems.append(
                 f'{rel} 里还有裸比较 `location.district ===` —— 必须换成 `sameDistrict(...)`'
             )
 
-    # ── ⑥ 四个 `shell.fit(...)` 调用点都要把**锚点**传下去 ──
-    # ★ 算出来了不传 = 没算：收缩仍以框的几何中心为锚（见 `FocusTarget.anchor`）。
-    #   四个点：城市页区图层 / 省级页 / 首页 / 搜索命中地区。
+    # ── ⑦ 城市页点区必须带上 `poiCount`（它是手写对象，不像另外两页直接传 node）──
     hits += 1
-    for rel in (city_layer_rel, 'app/common/logic/useProvinceView.ts',
-                'app/common/logic/useHomeView.ts', 'app/common/logic/useSearch.ts'):
-        f = WEB / rel
-        if not f.exists():
-            problems.append(f'{rel} 不存在')
-            continue
-        text = strip_comments_keep_lines(f.read_text(encoding='utf-8'))
-        if 'anchor: t.anchor' not in text:
+    if (WEB / city_layer_rel).exists():
+        cl = code(city_layer_rel)
+        if 'drillTo(' not in cl:
             problems.append(
-                f'{rel} 的 `shell.fit` 没把 `t.anchor` 传下去 —— '
-                '`focusPointsFor` 算出来了不用，等于没算（收缩仍以框几何中心为锚）'
+                f'{city_layer_rel} 的 `onSelect` 没有走 `drillTo` —— '
+                '点区停在哪一点会与省级页/首页分叉（本页原来只框行政框），'
+                '而且不判空区'
+            )
+        if 'poiCount: node.poiCount' not in cl:
+            problems.append(
+                f'{city_layer_rel} 调 `focusPointsFor` 时没带 `poiCount` —— '
+                '漏了就不享受"徽标说几个就是几个"（会被按名字筛出来的一条拉走）'
             )
 
-    check(label, problems, 6, hits)
+    check(label, problems, 7, hits)
 
 
 

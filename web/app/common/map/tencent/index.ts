@@ -167,15 +167,18 @@ export {
 } from './labelAvoidance'
 
 export {
+  CITY_DRILL_ZOOM,
   CITY_REVEAL_ZOOM,
   deepestLevel,
   describeTierRules,
+  DISTRICT_DRILL_ZOOM,
   labelCapForZoom,
   LEVEL_ORDER,
   POI_ADMIT_MIN_ZOOM,
   POI_CLUSTER_MAX_ZOOM,
   POI_REVEAL_ZOOM,
   poiTierForZoom,
+  PROVINCE_DRILL_ZOOM,
   STOP_FOCUS_ZOOM,
   type MapLevel,
   type PoiTier,

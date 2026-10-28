@@ -58,7 +58,7 @@
 
 import { useCallback, useEffect, useMemo, useState } from 'react'
 
-import { focusPointsFor, parentCityOf, sameDistrict, type FocusSources } from '~/common/logic/districtFocus'
+import { drillTo, parentCityOf, sameDistrict, type FocusSources } from '~/common/logic/districtFocus'
 import { useFitOnce } from '~/common/logic/useFitOnce'
 import { useIsMobile } from '~/common/logic/useViewport'
 import { useMapReveal } from '~/common/logic/useMapReveal'
@@ -67,6 +67,7 @@ import { useSearchPick } from '~/common/logic/useSearchPick'
 import { useSessionPick } from '~/common/logic/useSessionState'
 import { useAddToPlan } from '~/common/logic/useAddToPlan'
 import { useDistrictIndex } from '~/common/logic/useDistrictIndex'
+import { usePlanUi } from '~/common/logic/itinerary/planUi'
 import { registerPageSpotOps, useMapShell, type MapShellContext } from '~/common/logic/mapShell'
 import { loadCity } from '~/common/data/cityRegistry'
 import {
@@ -102,6 +103,9 @@ export function useHomeView(): HomeView {
   const shell = useMapShell()
   const addPoi = useAddToPlan()
   const isMobile = useIsMobile()
+  // ★ 点徽标落到"一个景点都没有的区"时用它说一句话（`FocusTarget.empty`）。
+  //   用 `hint` 不用 `showToast`：这条是"这一下为什么没成"，**到点自己消失**
+  const showHint = usePlanUi((s) => s.hint)
 
   const [rows, setRows] = useState<ProvinceRow[] | null>(null)
   const [cityRows, setCityRows] = useState<CityRowWithParent[]>([])
@@ -238,12 +242,10 @@ export function useHomeView(): HomeView {
     // ★ 还要把**坐标**一起给图层：搜索命中的可能是**别的城**的景点，
     //   而本页候选只有已收录城市 —— 少了它，镜头飞过去了、详情开了、图上却是空的
     pickedPoint: sel.pickedPoint,
-    // ★ 地图点击的三条分工（徽标放大 / 景点开详情 / 空白收起）写在文件头那张表里
-    onSelectDistrict: (node) => {
-      void focusPointsFor(node, focusSources).then((t) =>
-        shell.fit(t.points, { reason: 'drill', minZoom: t.minZoom, anchor: t.anchor }),
-      )
-    },
+    // ★★ 定值落点（`t.zoom`），不是 `fit(t.points)` —— 用户 2026-10-28：「市级标签点击固定
+    //   缩放到某个比例，其他的也是同理，而不是根据屏幕的尺寸计算」。理由见 `zoomTiers.ts`
+    // ★ 收进 `drillTo`：0 景点的区**不挪镜头**、只说一句话（见 `FocusTarget.empty`）
+    onSelectDistrict: (node) => drillTo(node, focusSources, shell, showHint),
     onSelectPoi: (poiId) => {
       // ★ 点景点 = **就地看详情**（面板浮在地图上），不推镜头、不换页、两端一致。
       //   再点同一个即收起 —— 用 `isCurrent` 把"搜索命中过的那一枚"也算作已选中，

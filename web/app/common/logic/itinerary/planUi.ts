@@ -107,8 +107,14 @@ export interface PlanUiState {
    * 操作反馈。★ 刻意做成"一句话 + 可选的打开动作"而不是通用 toast 系统 ——
    *   规划这边的反馈只有一种需求：**告诉用户刚才那一下加到哪去了**，
    *   而"加到哪去了"必须给一条能点开的路径，否则他得自己去列表里找。
+   *
+   * ★ 2026-10-28：加了 `autoHideMs`，因为**非规划**的一句话提示也走这儿了
+   *   （点到一个没有收录景点的区 → 「温江区暂无收录景点」）。那种提示**必须自己消失**：
+   *   它说的是"这一下没成"，用户接着点别处时它还挂着就是噪音。
+   *   而"加到哪去了"/"存库失败"这类**不能**自动消失 —— 用户可能正低头看列表。
+   *   所以判据不是"有没有 planId"，而是调用方显式传不传 `autoHideMs`（见 `hint()`）。
    */
-  toast: { text: string; planId?: string } | null
+  toast: { text: string; planId?: string; autoHideMs?: number } | null
   /**
    * 「这一站已经在里面了，还要再加吗？」（非空 = 显示确认卡）。
    *
@@ -175,6 +181,12 @@ export interface PlanUiState {
   closePanel: () => void
   togglePanel: () => void
   showToast: (text: string, planId?: string) => void
+  /**
+   * 一句话提示，**到点自己消失**（`autoHideMs`）。
+   * 用于"这一下为什么没成"（点了 0 景点的区 / 搜到没有收录景点的地方）；
+   * 有结果、需要用户去处理的那类走 `showToast`（不自动消失）。
+   */
+  hint: (text: string) => void
   clearToast: () => void
   openAddPicker: (stop: NewStop) => void
   closeAddPicker: () => void
@@ -226,6 +238,13 @@ export const usePlanUi = create<PlanUiState>((set) => {
       })
     },
     showToast: (text, planId) => set({ toast: planId ? { text, planId } : { text } }),
+    /**
+     * 一句话提示，**到点自己消失**。
+     *
+     * ★ 与 `showToast` 的分工：这里是"告诉你刚才那一下为什么没成"（点空区、搜到空地），
+     *   读完就走；`showToast` 是"结果 + 去哪看"，必须留到用户处理完。
+     */
+    hint: (text) => set({ toast: { text, autoHideMs: 4200 } }),
     clearToast: () => set({ toast: null }),
     openAddPicker: (stop) => set({ addPicker: stop }),
     closeAddPicker: () => set({ addPicker: null }),

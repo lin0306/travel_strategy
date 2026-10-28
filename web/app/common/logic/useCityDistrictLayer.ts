@@ -30,7 +30,8 @@ import { useCallback, useEffect, useRef } from 'react'
 import { loadDistrictFaces, type DistrictBoundsFile } from '~/common/data/data'
 import type { Poi } from '~shared/schema'
 import { loadDistrictBox, type SubdistrictRow } from '~/common/data/subdistricts'
-import { focusPointsFor, sameDistrict } from '~/common/logic/districtFocus'
+import { drillTo, sameDistrict, type FocusSources } from '~/common/logic/districtFocus'
+import { usePlanUi } from '~/common/logic/itinerary/planUi'
 import { useMapShell, type ViewportEnv } from '~/common/logic/mapShell'
 import {
   createDistrictLayer,
@@ -73,6 +74,10 @@ export interface UseCityDistrictLayerResult {
 export function useCityDistrictLayer(o: UseCityDistrictLayerOptions): UseCityDistrictLayerResult {
   const shell = useMapShell()
   const { cityAdcode, rows, enabled } = o
+  // ★ 点到一个"没有收录景点"的区时用它说一句话（`FocusTarget.empty`）——
+  //   这类区在本项目里是多数（成都 20 个区里 11 个），不提示就是"点了什么都没有"。
+  //   用 `hint`：到点自己消失，不占着顶部
+  const showHint = usePlanUi((s) => s.hint)
 
   /** 回调用 ref 现取：页面每次渲染都会产生新的闭包，进依赖会让图层反复重建 */
   const paintedRef = useRef(o.onPainted)
@@ -204,29 +209,34 @@ export function useCityDistrictLayer(o: UseCityDistrictLayerOptions): UseCityDis
        * "先看区、再看景点"就是这么发生的，不需要额外的状态机。
        */
       onSelect: (node) => {
-        layer.setActive(node.adcode)
         const parent = adcodeRef.current
         /**
-         * ★ 与省级页 / 首页**同一条逻辑**（`focusPointsFor`）——各写一遍的话，
+         * ★ 与省级页 / 首页**同一条逻辑**（`drillTo` → `focusPointsFor`）——各写一遍的话，
          *   "点区框哪一片"会分叉（本页原来只框行政框，于是大区落到一片空地上）。
          */
-        void focusPointsFor(
-          // ★ `poiCount` 必须带上：徽标写 0 个的区不该被"按名字筛出来的一条"拉走
-          //   （见 `focusPointsFor` 里那段"徽标说几个就是几个"）
+        const src: FocusSources = {
+          // 区的下级（街道）没有数据 —— 只走 `boxOf`（行政框）与 `poisOf`（区里的景点）两条
+          childrenOf: () => [],
+          poisOf: async (_adcode, name) =>
+            (poisRef.current ?? [])
+              // ★ 必须用 `sameDistrict` 而不是 `===`：直辖市的徽标名不带"区"
+              //   （东城 vs 东城区），裸比较恒 false ⇒ 点区掉进"行政框"那一支，
+              //   景点就跑到屏幕外了（见 `sameDistrict` 自己的注释）。
+              .filter((p) => sameDistrict(p.location.district, name))
+              .map((p) => ({ lng: p.location.point.lng, lat: p.location.point.lat })),
+          boxOf: (adcode) => loadDistrictBox(parent, adcode),
+        }
+        // ★ `poiCount` 必须带上：徽标写 0 个的区不该被"按名字筛出来的一条"拉走
+        //   （见 `focusPointsFor` 里那段"徽标说几个就是几个"）。
+        // ★ `setActive` 放进 `before`：空区不挪镜头、也就不该被高亮 —— 否则用户看到
+        //   一个"选中了但屏幕没动"的区，更像坏了。
+        drillTo(
           { adcode: node.adcode, name: node.name, lng: node.lng, lat: node.lat, poiCount: node.poiCount },
-          {
-            // 区的下级（街道）没有数据 —— 只走 `boxOf`（行政框）与 `poisOf`（区里的景点）两条
-            childrenOf: () => [],
-            poisOf: async (_adcode, name) =>
-              (poisRef.current ?? [])
-                // ★ 必须用 `sameDistrict` 而不是 `===`：直辖市的徽标名不带"区"
-                //   （东城 vs 东城区），裸比较恒 false ⇒ 点区掉进"行政框"那一支，
-                //   景点就跑到屏幕外了（见 `sameDistrict` 自己的注释）。
-                .filter((p) => sameDistrict(p.location.district, name))
-                .map((p) => ({ lng: p.location.point.lng, lat: p.location.point.lat })),
-            boxOf: (adcode) => loadDistrictBox(parent, adcode),
-          },
-        ).then((t) => shell.fit(t.points, { reason: 'drill', minZoom: t.minZoom, anchor: t.anchor }))
+          src,
+          shell,
+          showHint,
+          () => layer.setActive(node.adcode),
+        )
       },
     })
     layerRef.current = layer

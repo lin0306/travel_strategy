@@ -15,6 +15,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 
 import { loadCity } from '~/common/data/cityRegistry'
 import { loadSearchIndex } from '~/common/data/searchIndex'
+import { usePlanUi } from '~/common/logic/itinerary/planUi'
 import { useMapShell } from '~/common/logic/mapShell'
 import {
   poiFocusPoints,
@@ -58,6 +59,8 @@ const EMPTY: SearchResults = { regions: [], pois: [] }
 
 export function useSearch(): SearchController {
   const shell = useMapShell()
+  // ★ 搜到"没有收录景点"的地区时说一句话（`FocusTarget.empty`），到点自己消失
+  const showHint = usePlanUi((s) => s.hint)
   const [query, setQuery] = useState('')
   const [debounced, setDebounced] = useState('')
   const [index, setIndex] = useState<SearchIndex | null>(null)
@@ -119,7 +122,15 @@ export function useSearch(): SearchController {
         if (!index) return
         // 省 / 市的取景点来自**索引本身**（不触发任何加载），口径与点徽标完全一致
         void regionFocusPoints(index, hit.region).then((t) => {
-          if (t.points.length > 0) shell.fit(t.points, { reason: 'drill', minZoom: t.minZoom, anchor: t.anchor })
+          if (!t) return
+          // ★ 搜到一个**没有收录景点**的地区：不挪镜头、只说一句话。
+          //   与点徽标同一条口径（`FocusTarget.empty`）—— 否则搜过去是一张空地图
+          if (t.empty) {
+            showHint(`${hit.region.name || '这一片'}暂无收录景点`)
+            return
+          }
+          // ★ 定值落点（`t.zoom`），与点徽标同一条路 —— 见 `zoomTiers.ts`「下钻落点」
+          shell.focusPoint(t.center, t.zoom)
         })
       } else {
         // ★ 先飞（"偏移放大"要立刻有反馈），再取数据开详情：

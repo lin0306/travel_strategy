@@ -37,7 +37,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useNavigate, useParams } from 'react-router'
 
-import { focusPointsFor, parentCityOf, sameDistrict, type FocusSources } from '~/common/logic/districtFocus'
+import { drillTo, parentCityOf, sameDistrict, type FocusSources } from '~/common/logic/districtFocus'
 import { useFitOnce } from '~/common/logic/useFitOnce'
 import { useIsMobile } from '~/common/logic/useViewport'
 import { useMapReveal } from '~/common/logic/useMapReveal'
@@ -45,6 +45,7 @@ import { useSearchPick } from '~/common/logic/useSearchPick'
 import { useSessionPick } from '~/common/logic/useSessionState'
 import { useAddToPlan } from '~/common/logic/useAddToPlan'
 import { useDistrictIndex } from '~/common/logic/useDistrictIndex'
+import { usePlanUi } from '~/common/logic/itinerary/planUi'
 import { registerPageSpotOps, useMapShell, type MapShellContext } from '~/common/logic/mapShell'
 import { loadCity } from '~/common/data/cityRegistry'
 import {
@@ -85,6 +86,9 @@ export function useProvinceView(): ProvinceView {
   const addPoi = useAddToPlan()
   const navigate = useNavigate()
   const isMobile = useIsMobile()
+  // ★ 点徽标落到"一个景点都没有的区"时用它说一句话（`FocusTarget.empty`）。
+  //   用 `hint` 不用 `showToast`：这条是"这一下为什么没成"，**到点自己消失**
+  const showHint = usePlanUi((s) => s.hint)
 
   const [detail, setDetail] = useState<ProvinceDetail | null>(null)
   /**
@@ -241,11 +245,9 @@ export function useProvinceView(): ProvinceView {
     //   `districtFile`：那样只会把面固定成"各市的面"，放大到区级时区徽标一个面都没有
     //   （2026-09-30 用户：「显示区的时候显示区的轮廓」）。
     // ★ 地图点击的三条分工 → 本文件头那张表；对照表在 `districtFocus.ts`
-    onSelectDistrict: (node) => {
-      void focusPointsFor(node, focusSources).then((t) =>
-        shell.fit(t.points, { reason: 'drill', minZoom: t.minZoom, anchor: t.anchor }),
-      )
-    },
+    // ★★ 定值落点（`drillTo` → `shell.focusPoint`），不是 `fit(t.points)` —— 理由见
+    //   `zoomTiers.ts`「下钻落点」。0 景点的区只说一句话、不挪镜头（`FocusTarget.empty`）
+    onSelectDistrict: (node) => drillTo(node, focusSources, shell, showHint),
     onSelectPoi: (poiId) => {
       // ★ 点景点 = **就地看详情**（桌面 620px 面板 / 移动底部 Sheet），不推镜头、不换页、两端一致。
       //   用 `isCurrent` 把"搜索命中过的那一枚"也算作已选中 —— 否则搜出来之后再点它一下关不掉。
