@@ -1,0 +1,88 @@
+{
+  "id": "soskin-jewish-residence",
+  "name": "犹太商人索斯金故居",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "1910年犹太富商私邸，国内唯一复原犹太人旧居陈列，免费但门头藏在小巷里。",
+  "description": "国内唯一以复原犹太人旧居陈列为专题的展馆，房子本身就是主角：1910年建成，原为著名俄籍犹太商人S·H·索斯金的私邸，仿古典主义风格，砖木结构，正立面由八根科林斯柱托起屋面挑檐，柱廊间与台阶扶手的花瓶式栏杆互相呼应，青灰色外墙配院内老榆树，是哈尔滨保存原格局最完整的百年老建筑之一。2013年它与秋林洋行、犹太老会堂等十三座建筑以「哈尔滨犹太人活动旧址群」入列第七批全国重点文物保护单位。展览分「百年公馆 生香犹在」「商业巨子 远东乐土」「庭院深深 老树长春」三部分，按历史照片复原了索斯金家族的生活场景。免费、个人不用预约，凭身份证或社保卡入馆，周一闭馆。最大的坑是门头隐在居民区里、没有明显标识，要从沿街一个普通大门洞往里走，找不到就问安保。",
+  "highlights": [
+    "建于1910年的俄籍犹太商人索斯金私邸，仿古典主义，正立面八根科林斯柱",
+    "2013年以「哈尔滨犹太人活动旧址群」入列第七批全国重点文物保护单位",
+    "国内唯一以复原犹太人旧居陈列为专题的展览，按历史照片复原家族生活场景"
+  ],
+  "location": {
+    "point": {
+      "lng": 126.617568,
+      "lat": 45.766338,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "黑龙江省哈尔滨市道里区经纬四道街30号",
+    "district": "道里区",
+    "transportTip": "地铁2号线中央大街站下车步行约10分钟；或乘2路、21路、75路、105路公交车到老会堂音乐厅站、经纬三道街站"
+  },
+  "practical": {
+    "openHours": "约9:00-16:00，周二至周日开放，周一闭馆；节假日期间以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "免费，个人参观无需预约，凭本人身份证或社保卡入馆；团体参观需电话预约",
+    "ticketRef": 0,
+    "duration": "建议 45-90 分钟",
+    "durationMinutes": [
+      45,
+      90
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "solo",
+    "couple",
+    "friends"
+  ],
+  "accessible": false,
+  "tips": [
+    "门头藏在居民区里没有明显标识，从沿街大门洞往里走，找不到就问安保",
+    "地铁2号线中央大街站步行约10分钟，可与老会堂音乐厅、中央大街串成半日",
+    "周一闭馆，且馆内安静，参观时勿喧哗、勿用闪光灯"
+  ],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Harbin_China_Hagia_Sophia_%28218592153%29.jpeg/1280px-Harbin_China_Hagia_Sophia_%28218592153%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Harbin_China_Hagia_Sophia_%28218592153%29.jpeg/1280px-Harbin_China_Hagia_Sophia_%28218592153%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1618,
+      "alt": "Harbin China Hagia Sophia (218592153).jpeg",
+      "query": "Chinese historic architecture harbin",
+      "credit": {
+        "source": "wikimedia",
+        "author": "M Kwow",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harbin_China_Hagia_Sophia_(218592153).jpeg",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "老建筑",
+    "犹太历史",
+    "免费馆",
+    "小众"
+  ],
+  "popularity": 66,
+  "sources": [
+    {
+      "title": "索斯金旧居犹太人生活陈列馆（哈尔滨市博物馆官网）",
+      "url": "https://www.hrbmuseum.cn/museum/1045.html",
+      "kind": "official",
+      "fetchedAt": "2026-10-29"
+    }
+  ],
+  "updatedAt": "2026-10-29",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Soskin Former Residence Harbin Jewish Life Museum",
+    "zh": "索斯金旧居犹太人生活陈列馆"
+  },
+  "_geocodeTitle": "犹太商人索斯金故居",
+  "_geocodeSuspect": false,
+  "district": "230102"
+}

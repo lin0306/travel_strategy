@@ -1,15 +1,15 @@
 {
   "daily": {
-    "period": "2026-10-28",
+    "period": "2026-10-29",
     "apis": {
       "geocoder": {
-        "requests": 21,
-        "units": 21,
+        "requests": 19,
+        "units": 19,
         "quota": 10000
       },
       "place_search": {
-        "requests": 2,
-        "units": 2,
+        "requests": 1,
+        "units": 1,
         "quota": 200
       }
     }
@@ -39,5 +39,5 @@
       }
     }
   },
-  "updatedAt": "2026-10-28T00:08:32"
+  "updatedAt": "2026-10-29T00:07:48"
 }

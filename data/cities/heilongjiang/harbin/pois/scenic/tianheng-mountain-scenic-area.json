@@ -1,0 +1,119 @@
+{
+  "id": "tianheng-mountain-scenic-area",
+  "name": "天恒山风景旅游区",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "离市区最近的免费山林，海拔才两百米出头，半天爬完，公交只到山脚。",
+  "description": "哈尔滨市区范围内最近的免费山地公园，在道外区团结镇，市中心开车四十分钟左右，海拔只有120-215米，是缓坡丘陵不是真爬山，水泥步道加石阶，老人小孩都能走，年轻人下班来放风也刚好。山上种着落叶松、云杉、水曲柳等20多个树种、40余万株树，夏天是天然空调，秋天看五花山。动线可以这样排：山脚先接知青公园（约71万平方米，有打麦场、砖厂场景和知青雕塑群，知青纪念馆9:00-16:00、周一闭馆），再往半山走卧龙寺、观景台，登上去能远眺松花江和城市楼群。冬天这里还有天恒山冰雪运动大世界。要提醒的是公共交通只有公交、没有地铁，359路相对直接，其余线路下车还要步行一两公里；山上售卖点少，水和零食自己带。",
+  "highlights": [
+    "海拔120-215米的缓坡丘陵，水泥步道加石阶，老人小孩也能走",
+    "山脚接约71万平方米的知青公园，含打麦场、砖厂场景与知青雕塑群",
+    "半山卧龙寺与观景台可远眺松花江和城市楼群；冬季设天恒山冰雪运动大世界"
+  ],
+  "location": {
+    "point": {
+      "lng": 126.790908,
+      "lat": 45.794931,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "黑龙江省哈尔滨市道外区团结镇东巨路（天恒大街与东巨路交叉口附近）",
+    "district": "道外区",
+    "transportTip": "乘359路公交车可直达天恒山；或在太平桥、韩家洼子一带换乘332路、355路、360路到站后步行进山（无地铁直达）"
+  },
+  "practical": {
+    "openHours": "约全天开放，建议白天游览；知青纪念馆约9:00-16:00、周一闭馆；冬季滑雪场另行开放，以官方公告为准",
+    "openHoursRef": 0,
+    "ticket": "进山免费；冬季天恒山冰雪运动大世界滑雪另行收费（日场3小时票约68元起，以官方为准）",
+    "ticketRef": 0,
+    "duration": "建议 120-180 分钟",
+    "durationMinutes": [
+      120,
+      180
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "solo",
+    "friends",
+    "family",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [
+    "没有地铁直达，359路最省事，332/355/360路下车后还要步行一两公里",
+    "山上售卖点少，水和零食提前备好，夏天记得带驱蚊水",
+    "穿运动鞋即可，别穿高跟鞋或洞洞鞋；部分寺庙可能不开放，不必硬走近"
+  ],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/19799494/pexels-photo-19799494.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/19799494/pexels-photo-19799494.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 3000,
+      "height": 2100,
+      "alt": "A vibrant red SUV is parked on a snowy landscape in Harbin, China, during the winter.",
+      "query": "Tianheng Mountain Scenic Area Harbin",
+      "credit": {
+        "source": "pexels",
+        "author": "pressthebutton",
+        "sourceUrl": "https://www.pexels.com/photo/red-4x4-car-in-snow-19799494/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/38716017/pexels-photo-38716017.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/38716017/pexels-photo-38716017.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 4000,
+      "height": 2384,
+      "alt": "A majestic monument stands tall in a serene park setting against a clear sky.",
+      "query": "Tianheng Mountain Scenic Area Harbin",
+      "credit": {
+        "source": "pexels",
+        "author": "sanynjez gao",
+        "sourceUrl": "https://www.pexels.com/photo/serene-view-of-monument-in-park-plaza-38716017/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/19815758/pexels-photo-19815758.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/19815758/pexels-photo-19815758.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 1984,
+      "height": 2999,
+      "alt": "Snow-covered stairs leading through a scenic winter park in Harbin, China, framed by pine trees.",
+      "query": "Tianheng Mountain Scenic Area Harbin",
+      "credit": {
+        "source": "pexels",
+        "author": "pressthebutton",
+        "sourceUrl": "https://www.pexels.com/photo/park-in-snow-19815758/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "近郊山",
+    "免费公园",
+    "徒步",
+    "亲子"
+  ],
+  "popularity": 62,
+  "sources": [
+    {
+      "title": "哈尔滨天恒山公园游玩攻略（哈尔滨本地生活号）",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3ODg3OTgxOA==&mid=2247484147&idx=1&sn=2d18fc3f88af12b39899a7731652c2a6",
+      "kind": "media",
+      "fetchedAt": "2026-10-29"
+    }
+  ],
+  "updatedAt": "2026-10-29",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Tianheng Mountain Scenic Area Harbin",
+    "zh": "天恒山风景旅游区"
+  },
+  "_geocodeTitle": "天恒山风景旅游区",
+  "_geocodeSuspect": false,
+  "district": "230104"
+}
