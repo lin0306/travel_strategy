@@ -28,6 +28,7 @@ import { Icon } from '~/common/ui/Icon'
 import { addToPlanLabel, useCurrentPlanForCity } from '~/common/logic/useAddToPlan'
 import { PoiDetail } from '~/common/ui/city/PoiDetail'
 import { Sheet, SheetHead, type SheetTier } from '~/mobile/ui/Sheet'
+import { useSheetClaim } from '~/mobile/ui/sheetHub'
 import type { Poi } from '~shared/schema'
 
 export function PoiDetailSheet({
@@ -56,6 +57,10 @@ export function PoiDetailSheet({
     setGallery(0)
     setShowSources(false)
   }, [poiId])
+
+  // 占据浮层位：把还开着的规划 / 图层关掉（用户：「不要隐藏一个下方还有一个」）
+  // ★ 必须在 early return **之前**调 —— hooks 不能被条件跳过
+  useSheetClaim('detail', onClose, Boolean(poiId))
 
   if (!poi) return null
 

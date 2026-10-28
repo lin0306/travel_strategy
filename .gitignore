@@ -61,3 +61,8 @@ Thumbs.db
 
 /thesis/
 dist.*
+
+# 生产构建的残留目录（`react-router build` 会先 rm 整个 buildDirectory，
+# 撞 safe-delete 阈值；改名也常被 WinError 5 拦着 ⇒ 只能留在原地，不入库）
+/web/dist*/
+/web/old_dist_client/

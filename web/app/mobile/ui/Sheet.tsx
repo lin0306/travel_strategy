@@ -1,110 +1,64 @@
 /**
- * 底部浮层 —— **移动端所有面板的基座**（三档吸附 + 下拉/点外部收起）。
+ * 底部浮层 —— **移动端所有面板的基座**（可拖 + 下拉/点外部收起）。
  *
  * ## 谁在用它
- * | 浮层 | 收起方式 |
- * |------|---------|
- * | 城市清单（`mobile/ui/CityView`） | 不收 —— 它就是这一页的主体 |
- * | 景点详情（`PoiDetailSheet` / `PoiView`） | 下拉 / 点外部 |
- * | 路线规划（`RoutePlanPanel`） | 下拉 / 点外部 |
- * | 图层（`BasemapSheet`） | 下拉 / 点外部 |
+ * | 浮层 | 尺寸模式 | 收起方式 | 互斥 |
+ * |------|---------|---------|------|
+ * | 城市清单（`mobile/ui/CityView`） | 三档 | 不收 —— 它就是这一页的主体 | 只赶人、不被赶 |
+ * | 景点详情（`PoiDetailSheet` / `PoiView`） | 三档 | 下拉 / 点外部 | 参与 |
+ * | 路线规划（`RoutePlanPanel`） | 三档 | 下拉 / 点外部 | 参与 |
+ * | 图层（`BasemapSheet`） | **自由拉伸** | 下拉 / 点外部 | 参与 |
  *
  * 传 `onClose` 才有收起能力（判据与手势在 `useSheetDrag`，那边文件头写了
- * "距离 **或** 速度"为什么不二选一）。
+ * "位置 **或** 速度"为什么要两条）。
  *
- * ## 三档的语义（08 文档）
- * | 档 | 高度 | 露出什么 |
- * |----|------|---------|
- * | `peek` | 28svh | 把手 + 一行摘要（城市页 = 城市名；详情页 = 景点名） |
- * | `half` | 56svh | 默认档。列表 / 时间轴主体 + 汇总 |
- * | `full` | 88svh | 完整内容 |
+ * ## ★★★ 同一时刻只有一块「可选浮层」
+ * 有出口的三块（详情 / 规划 / 图层）走 `mobile/ui/sheetHub` 的仲裁：谁新开谁把
+ * 别的关掉；页面主体（清单）挂载时清场、自己不会被关。用户 2026-10-28：
+ * 「这个浮层，同时只显示一个吧，不要隐藏一个下方还有一个」。
+ *
+ * ## 两种尺寸模式（2026-10-28）
+ * - **三档**（`tier` + `onTier`）：`peek 28 / half 56 / full 88` svh，松手吸附到相邻档。
+ * - **自由**（`size`）：用户拖到哪停哪，只夹在 `min..max` 之间。图层用它 ——
+ *   用户原话：「这个浮层，不做固定三个大小，改成用户默认拉，限制最大高度和最小高度」。
+ *
+ * 两者共用同一套手势与同一条收起判据：**拖到比最小高度还低**（或快速下甩）就关。
  *
  * ## 高度用 svh，不用 vh
  * 移动端 `100vh` 把地址栏算在内，实际比可视区高 56–80px —— 用 vh 的话
  * `full` 档底部会被推到屏幕外。`svh` 取**最小可视高度**（按最坏情况布局），
  * `dvh` 会随地址栏收放抖动，不用。
  *
- * ## ★★★ 层级 + **高度广播**：工具条跟着浮层上移
- *
- * 右下角工具条（`mobile/ui/MapTools`）是 `z-[27]`，**低于**本浮层 —— 内容压住工具。
- * 但只做这一条还不够：浮层最矮的 `peek` 档也有 28svh，「浮层之下的右下角」根本不存在，
- * 一旦浮层升起，工具条就被整块吞掉（城市页的浮层还永不收起）。
- *
- * ⇒ 本组件把**自身高度**写到 `:root` 的 `--sheet-h` 并派发 `sheet-resize`，
- *   工具条据此 `bottom: calc(var(--sheet-h) + var(--flt-inset))` ——
- *   视觉上永远是"右下角"，浮层升起时它就贴在浮层上沿。`full` 档时高度加上工具条
- *   会超出屏幕，工具条按同一份数据判定后**整条不渲染**。
+ * ## ★★ 层级：`z-28` 压在右下角工具条（`z-[27]`）之上
+ * 用户 2026-10-28 第三次定稿：「浮层永远在最上」。
+ * ⇒ 浮层升起时那四枚被盖住（城市页的清单浮层常驻，所以四枚在城市页看不见 ——
+ *   这是这条选择的已知代价，已向用户确认过；首页/点位详情页没有常驻浮层，四枚照常可点）。
+ * ★ 别再让它跟着浮层高度跑（`--sheet-h` 那套已删）：用户要的是"固定在底部，
+ *   不会被其他东西往上挤"。
  */
 
-import { useEffect, type ReactNode, type RefObject } from 'react'
+import { useState, type ReactNode } from 'react'
 
 import { Icon } from '~/common/ui/Icon'
-import {
-  MIN_DRAG_PX,
-  SHEET_H_VAR,
-  SHEET_ORDER,
-  SHEET_RESIZE_EVENT,
-  SHEET_TIER_SVH,
-  type SheetTier,
-} from '~/mobile/ui/sheetTier'
+import { MIN_DRAG_PX, SHEET_ORDER, SHEET_TIER_SVH, type SheetTier } from '~/mobile/ui/sheetTier'
 import { useSheetDrag } from '~/mobile/ui/useSheetDrag'
 
-/* 档位模型（类型 + 顺序 + 高度）的唯一出处是 `sheetTier`；调用方只认 `Sheet` */
+/* 尺寸模型（类型 + 顺序 + 高度）的唯一出处是 `sheetTier`；调用方只认 `Sheet` */
 export * from '~/mobile/ui/sheetTier'
 
-/**
- * 当前挂着的浮层元素（用 `Set` 而不是单个变量：城市页与规划浮层**可以同时存在**）。
- * ★ 取**最大**高度对外广播 —— 工具条要让开的是最高的那块。
- */
-const liveSheets = new Set<HTMLElement>()
-
-/**
- * 把浮层高度写到 `:root` 的 `--sheet-h`，并派发 `sheet-resize` 事件。
- *
- * 两个消费方，缺一不可：
- *   · CSS：右下角工具条用 `bottom: calc(var(--sheet-h) + …)` 跟着浮层上移；
- *   · JS：工具条还要判「升高之后是否还放得下」，放不下就整条不渲染。
- *
- * ★ 用 `useEffect` 而不是 `useLayoutEffect`：本站是 SSG（`react-router` 预渲染），
- *   `useLayoutEffect` 在服务端会打警告。这里也不需要"布局前"这个时序 ——
- *   `ResizeObserver` 挂上就会立刻回调一次。
- * ★ 用 `rAF` 合帧：拖动浮层时高度每帧都变，不合并的话一个手势能派发上百次。
- */
-function usePublishHeight(ref: RefObject<HTMLDivElement | null>) {
-  useEffect(() => {
-    const el = ref.current
-    if (!el) return
-    const root = document.documentElement
-    let raf = 0
-
-    const publish = () => {
-      raf = 0
-      let h = 0
-      for (const node of liveSheets) h = Math.max(h, Math.round(node.getBoundingClientRect().height))
-      root.style.setProperty(SHEET_H_VAR, `${h}px`)
-      window.dispatchEvent(new CustomEvent<number>(SHEET_RESIZE_EVENT, { detail: h }))
-    }
-    const schedule = () => {
-      if (raf === 0) raf = requestAnimationFrame(publish)
-    }
-
-    liveSheets.add(el)
-    const ro = new ResizeObserver(schedule)
-    ro.observe(el)
-    publish()
-
-    return () => {
-      ro.disconnect()
-      if (raf !== 0) cancelAnimationFrame(raf)
-      liveSheets.delete(el)
-      publish()
-    }
-  }, [ref])
+/** 自由拉伸模式的尺寸（单位都是 svh） */
+export interface SheetSize {
+  min: number
+  max: number
+  initial: number
 }
 
 export interface SheetProps {
-  tier: SheetTier
-  onTier: (tier: SheetTier) => void
+  /** 三档模式用。与 `size` 二选一 */
+  tier?: SheetTier
+  onTier?: (tier: SheetTier) => void
+  /** 自由拉伸模式用。给了它就不看 `tier` */
+  size?: SheetSize
   children: ReactNode
   /**
    * 无障碍名（`aria-label`）。
@@ -124,32 +78,66 @@ export interface SheetProps {
 }
 
 export function Sheet(props: SheetProps) {
-  const { tier, children, footer, header, label, onClose } = props
+  const { children, footer, header, label, onClose, size } = props
+  const free = Boolean(size)
+
+  /**
+   * 自由模式下**用户拉到的位置**（svh）。三档模式不用它。
+   * ★ 存 svh 而不是 px：这样 `height`、`clamp()` 的下限、拖动中的 `calc()`
+   *   三处都是同一套单位，不必在渲染期去问 `window.innerHeight`（SSG 首帧没有）。
+   */
+  const [freeSvh, setFreeSvh] = useState(size?.initial ?? SHEET_TIER_SVH.half)
+
   const { rootRef, contentRef, dragOffset, onHandleDown, onContentDown, onClickCapture, onDragStart } =
     useSheetDrag({
-      tier: props.tier,
+      tier: props.tier ?? 'half',
       onTier: props.onTier,
       onClose,
       longPressHandle: props.longPressHandle ?? false,
+      /** 收起判据的分界线：三档 = `peek` 档；自由 = `size.min` */
+      minSvh: size?.min ?? SHEET_TIER_SVH.peek,
+      maxSvh: size?.max,
+      onResize: free ? setFreeSvh : undefined,
     })
 
-  usePublishHeight(rootRef)
+  const baseSvh = free ? freeSvh : SHEET_TIER_SVH[props.tier ?? 'half']
+  const base = `calc(${baseSvh}svh + env(safe-area-inset-bottom, 0px))`
 
-  const base = `calc(${SHEET_TIER_SVH[tier]}svh + env(safe-area-inset-bottom, 0px))`  /**
+  /**
    * 拖动中的实时高度 = 基准高度 **减去** 位移。
    *
    * ★★ `dragOffset = clientY − startY`：**往上拖是负数**，所以必须 `base − dragOffset`
    *   （负负得正 ⇒ 长高）。2026-10-25 之前写的是 `base − (−dragOffset)` ⇒ **往上拖反而变矮**，
    *   那就是用户报的「上下拉是反的」。
    * ★ 可以收起时下限放 0（拉过阈值整块滑走），否则留 `MIN_DRAG_PX` 防缩成一条缝。
+   * ★ 自由模式的上限是 `size.max`，三档的上限是 `100svh` —— 用户往上拉得比 full 还高也不该
+   *   出屏（`full` 档本身只到 88）。
    */
-  const minPx = onClose ? 0 : MIN_DRAG_PX
+  const floorPx = onClose ? 0 : MIN_DRAG_PX
+  const ceil = free && size ? `${size.max}svh` : '100svh'
   const dragHeight =
-    dragOffset === null ? null : `clamp(${minPx}px, calc(${base} - ${Math.round(dragOffset)}px), 100svh)`
+    dragOffset === null
+      ? null
+      : `clamp(${floorPx}px, calc(${base} - ${Math.round(dragOffset)}px), ${ceil})`
 
-  /** 收起过程中的淡出：只在最矮档往下拉时给，让"再拉就没了"看得见 */
+  /**
+   * 收起过程中的淡出：让"再拉就没了"看得见（否则浮层在到达阈值前一直是实心的，
+   * 松手瞬间突然消失像出错）。两种模式的"开始淡出点"不同：
+   *   · 三档：只有 `peek` 档往下拉才可能收起 ⇒ 拉过 40px 开始；
+   *   · 自由：拉到低于 `min` 才开始（在那之前他只是在把浮层拉矮一点，不该淡）。
+   */
   const dy = dragOffset ?? 0
-  const fade = onClose && tier === 'peek' && dy > 40 ? Math.max(0.45, 1 - (dy - 40) / 220) : 1
+  let fade = 1
+  if (onClose && dragOffset !== null && dy > 0) {
+    if (free) {
+      /** 100svh 大约等于 `innerHeight` —— 这里只求量级对，不用精确 */
+      const pxPerSvh = window.innerHeight / 100
+      const over = (dy / pxPerSvh - (baseSvh - (size?.min ?? 0))) * pxPerSvh
+      if (over > 0) fade = Math.max(0.45, 1 - over / 120)
+    } else if (props.tier === 'peek' && dy > 40) {
+      fade = Math.max(0.45, 1 - (dy - 40) / 220)
+    }
+  }
 
   return (
     <div
@@ -205,6 +193,9 @@ export function Sheet(props: SheetProps) {
  * ★ `action` 固定在**右端**而不是紧跟标题后面：景点名的长度差得很远
  *   （「西湖」两字 vs 「重庆中国三峡博物馆」九字），紧跟的话按钮每换一个点位就横移一次，
  *   肌肉记忆归零、连点两下会点空。标题让位（`truncate`），按钮位置恒定。
+ * ★ `sub` 是可选的，**不是每个浮层都该有**：图层浮层原来写的是当前底图名，
+ *   而下面第一条选项就是"矢量图/影像图"（还打着勾）—— 同一屏说两遍
+ *   （用户 2026-10-28：「这个标题的副标题不需要」）。
  */
 export function SheetHead({
   title,

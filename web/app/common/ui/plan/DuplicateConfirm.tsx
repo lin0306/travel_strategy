@@ -59,7 +59,9 @@ function ConfirmBody({ dup }: { dup: DupConfirmPayload }) {
   }
 
   return (
-    <div className="pointer-events-none absolute inset-0 z-[29] flex items-center justify-center">
+    /* ★ `z-[31]`：必须压住右下角工具条（`z-[29]`）—— 它是一块**等用户选**的模态，
+       被四枚图标盖住一角就等于少一个选项（两者原来同为 29，靠 DOM 顺序侥幸没撞上）。 */
+    <div className="pointer-events-none absolute inset-0 z-[31] flex items-center justify-center">
       <div
         ref={wrapRef}
         role="dialog"

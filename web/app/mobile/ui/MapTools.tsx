@@ -1,32 +1,35 @@
 /**
  * 移动端**右下角**的工具条 —— 四枚圆角图标，竖排一列。
  *
- * ## 位置：右下角，但**跟着浮层走**
- * 用户三次定稿的原话：
- * 1. 「路线规划、图层、关于、GitHub 四个按钮放到右下角，只展示圆角图标」
- * 2. 「这个不是聚合在一块的，是右侧一列，四个图标」（否掉 2×2，不是否掉位置）
- * 3. 「这四个图标，放右下角」（看到当时排在右上之后，再纠一次位置）
+ * ## 位置：钉死在屏幕右下角
+ * 用户 2026-10-28 的原话：「右下角那四个悬浮按钮，是固定在底部的，不会被其他东西往上挤」。
  *
- * 难点只有一条：**移动端每一页底下都有浮层**（城市清单 / 详情 / 规划，`z-28`），
- * 而且最矮的 `peek` 档也有 28svh —— "浮层之下的右下角"在屏幕上并不存在。
- * 所以不是二选一，而是让工具条**贴在浮层上沿**：
- *   · `Sheet` 把自身高度写到 `:root` 的 `--sheet-h`，并派发 `sheet-resize`；
- *   · 这里 `bottom: calc(var(--sheet-h) + var(--flt-inset))` ⇒ 永远悬在地图区右下角。
- * `full` 档（88svh）时高度 + 工具条会顶出屏幕 ⇒ 按同一份数据判定后**整条不渲染**，
- * 而不是让它被切掉半截。
+ * 上一版为了"浮层升起时仍然可见"，让它跟着 `--sheet-h` 一起上移 —— 结果它在
+ * 半屏处飘着，看起来像被什么东西顶上去了。现在回到**屏幕右下角固定**：
+ * `bottom: var(--flt-inset)`，不读任何浮层高度。
+ *
+ * ★★ 层级：`z-[27]`，**低于**底部浮层（`z-28`）
+ *   用户 2026-10-28 第三次定稿：「浮层永远在最上」。
+ *   起因是观感不统一：图层 / 详情两块浮层在工具条之下，而路线规划那块因为
+ *   `planOpen` 时本组件直接 `return null`（按钮整条消失）看起来像"压住了按钮"。
+ *   现在三块浮层一个规矩：浮层在上、工具在下；`return null` 那条例外也删了 ——
+ *   不再有"某种浮层开着时工具条会消失"这样的第二套行为。
+ *   ⚠️ 已知代价：城市页的清单浮层常驻且没有出口，那四枚在城市页会被整块盖住
+ *   （首页 / 点位详情页没有常驻浮层，照常可点）。要恢复"城市页也能点"，就把
+ *   层级抬回 `z-[29]` 并把 `CityView` 列表 / 页脚的让位一起加回来。
+ *   ★ 仍低于模态（`z-[40]`/`z-[50]`）：开「关于」时它不该浮在最上层。
  *
  * ## 三条实现约束
- * 1. **`z-[27]`（低于浮层 `z-28`）**。工具属于地图层，内容永远压住工具。
- *    ★ 也不能高过模态（`z-[40]`/`z-[50]`），否则开「关于」时它浮在最上层。
- * 2. **不参与取景避让**（不带 `data-overlay`）：`fitView` 靠那个属性算地图可用区，
+ * 1. **不参与取景避让**（不带 `data-overlay`）：`fitView` 靠那个属性算地图可用区，
  *    而这四枚是**工具**不是内容 —— 让它参与，地图会为了给工具条让位而缩小视野。
- * 3. **带 `data-sheet-keep`**：点它不算"点浮层外面"。否则详情浮层开着时点一下「图层」，
+ * 2. **带 `data-sheet-keep`**：点它不算"点浮层外面"。否则详情浮层开着时点一下「图层」，
  *    详情会先被关掉（`useSheetDrag` 的外部点击判定），用户看到的是"面板闪了一下"。
+ * 3. **容器 `pointer-events-none`**：只有四枚按钮吃事件，它盖住的那块地图仍然可以拖动。
  *
  * ## 为什么图层要开浮层而不是弹出气泡
  * 顶栏那版是「右下角弹出 320px 气泡」（`BasemapMenu`），在手机上它会贴着屏幕边缘、
  * 而且按钮挪到右边缘后气泡就没有展开空间了。现在换成与详情/规划**同一个基座**
- * （`mobile/ui/BasemapSheet`）—— 三档可拖、下拉即收，用户只需学一种浮层。
+ * （`mobile/ui/BasemapSheet`）—— 可拖、下拉即收，用户只需学一种浮层。
  *
  * ★ 四枚图标全部**没有文字**，所以 `aria-label` 是唯一的名字，必须写全。
  */
@@ -39,7 +42,6 @@ import { useDocUi } from '~/common/logic/docUi'
 import { useMapShell } from '~/common/logic/mapShell'
 import { usePlanUi } from '~/common/logic/itinerary/planUi'
 import { usePlanStore } from '~/common/logic/itinerary/planStore'
-import { SHEET_H_VAR, SHEET_RESIZE_EVENT, TOOLS_COL_PX } from '~/mobile/ui/sheetTier'
 import { GITHUB_REPO_URL } from '~/common/data/site'
 
 /**
@@ -49,45 +51,6 @@ import { GITHUB_REPO_URL } from '~/common/data/site'
 const ITEM =
   'pointer-events-auto relative grid size-10 place-items-center rounded-[12px] border border-line bg-surface text-ink-2 shadow-[var(--flt-shadow)] transition-colors active:bg-line-2'
 
-/** 读一个 `:root` 上的长度变量（拿不到就用兜底，避免 `NaN` 把判据算死） */
-function rootPx(name: string, fallback: number) {
-  const raw = getComputedStyle(document.documentElement).getPropertyValue(name)
-  const v = Number.parseFloat(raw)
-  return Number.isFinite(v) ? v : fallback
-}
-
-/**
- * 浮层升起之后，右下角还摆不摆得下这一列。
- *
- * ★ 判据必须包含**顶栏**：工具条越高、浮层越矮，二者的间隙就越小，
- *   撞上搜索条时按钮会被顶栏盖住（顶栏 `z-30`，比工具条高）。
- * ★ 初始值给 `true`（SSG 首帧没有 `window`）：宁可首帧闪一下位置，也不能首帧不渲染。
- */
-function useToolsFits() {
-  const [fits, setFits] = useState(true)
-
-  useEffect(() => {
-    const measure = (sheetH: number) => {
-      const room = window.innerHeight - rootPx('--topbar-h', 52) - rootPx('--flt-inset', 12) * 2
-      setFits(sheetH + TOOLS_COL_PX <= room)
-    }
-
-    const onSheet = (e: Event) => measure((e as CustomEvent<number>).detail)
-    /** 旋转屏幕 / 地址栏收放都会改可视高度，浮层高度没变也得重算 */
-    const onResize = () => measure(rootPx(SHEET_H_VAR, 0))
-
-    onResize()
-    window.addEventListener(SHEET_RESIZE_EVENT, onSheet)
-    window.addEventListener('resize', onResize)
-    return () => {
-      window.removeEventListener(SHEET_RESIZE_EVENT, onSheet)
-      window.removeEventListener('resize', onResize)
-    }
-  }, [])
-
-  return fits
-}
-
 export function MobileMapTools() {
   const shell = useMapShell()
   const [layersOpen, setLayersOpen] = useState(false)
@@ -95,21 +58,30 @@ export function MobileMapTools() {
   const planOpen = usePlanUi((s) => s.panelOpen)
   const togglePlan = usePlanUi((s) => s.togglePanel)
   const count = usePlanStore((s) => s.plans.length)
-  const fits = useToolsFits()
+  const load = usePlanStore((s) => s.load)
 
-  // 规划浮层自带关闭接口，开着时不必再留一条并行的入口；也避免两块浮层叠着
-  if (planOpen || !fits) return null
+  /*
+   * ★★ 角标必须**开局就有数**（用户 2026-10-28：「路线规划的数量，在初始状态下，
+   *   这个图标的角标不显示，必须要我点开过一次，才显示」）。
+   *   以前只有 `RoutePlanPanelBody` 挂载时才 `load()`，而它要等用户点开面板 ——
+   *   于是"已经有 3 条规划"的人，一进站看到的是没有角标的图标。
+   *   `load()` 是幂等的（`status === 'ready'` 直接返回），这里再调一次没有额外代价。
+   */
+  useEffect(() => {
+    void load()
+  }, [load])
 
+  /*
+   * ★ 不再写 `if (planOpen) return null`。那条特例是"规划浮层开着时工具条整条消失"
+   *   的来源，也是用户看到"三种浮层层级不统一"的一半原因。
+   *   现在浮层（`z-28`）本来就压在工具条（`z-[27]`）上面，不需要再靠卸载来避让；
+   *   而且互斥仲裁（`mobile/ui/sheetHub`）保证不会出现"规划开着又点出图层"。
+   */
   return (
     <>
       <div
         data-sheet-keep
-        /*
-         * `bottom` 走行内 style 而不是 Tailwind 任意值：`calc()` 里 `+` 两侧**必须有空格**，
-         * 而任意值里的空格要写成 `_`，读起来比原文还难对 —— 这类地方宁可交回 CSS。
-         */
-        style={{ bottom: 'calc(var(--flt-inset) + var(--sheet-h, 0px))' }}
-        className="pointer-events-none absolute right-[var(--flt-inset)] z-[27] flex flex-col items-end gap-2"
+        className="pointer-events-none absolute right-[var(--flt-inset)] bottom-[var(--flt-inset)] z-[27] flex flex-col items-end gap-2"
       >
         {/* ① 路线规划。★ 条数徽标只在 >0 时出现（写「0」是噪音，还会被读成出错） */}
         <button

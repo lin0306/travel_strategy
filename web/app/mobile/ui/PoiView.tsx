@@ -26,6 +26,7 @@ import { Icon } from '~/common/ui/Icon'
 import { PoiDetail } from '~/common/ui/city/PoiDetail'
 import { PoiMissing } from '~/common/ui/Missing'
 import { Sheet, SheetHead, type SheetTier } from '~/mobile/ui/Sheet'
+import { useSheetClaim } from '~/mobile/ui/sheetHub'
 import { TopBar } from '~/common/ui/TopBar'
 import type { PoiView } from '~/common/logic/usePoiView'
 
@@ -34,6 +35,8 @@ export function MobilePoiView({ view }: { view: PoiView }) {
   const [tier, setTier] = useState<SheetTier>('half')
   /** 同 `DesktopPoiView`：在 early return 之前调（hooks 不能被条件跳过） */
   const addLabel = addToPlanLabel(useCurrentPlanForCity(view.cityId))
+  // 这一页本身就是"景点详情"，同样占浮层位（有出口 ⇒ 参与互斥）
+  useSheetClaim('detail', view.backToCity, Boolean(poi))
 
   if (view.loaded && (!city || !poi)) {
     return (

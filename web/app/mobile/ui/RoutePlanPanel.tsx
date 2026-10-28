@@ -21,6 +21,7 @@ import { useState } from 'react'
 import { usePlanUi } from '~/common/logic/itinerary/planUi'
 import { RoutePlanPanelBody } from '~/common/ui/plan/RoutePlanPanelBody'
 import { Sheet, type SheetTier } from '~/mobile/ui/Sheet'
+import { useSheetClaim } from '~/mobile/ui/sheetHub'
 /** 门：只负责"开不开"，**不持有任何状态**（见文件头） */
 export function MobileRoutePlanPanel() {
   const open = usePlanUi((s) => s.panelOpen)
@@ -36,6 +37,9 @@ function PlanSheet() {
    */
   const [tier, setTier] = useState<SheetTier>('half')
   const closePanel = usePlanUi((s) => s.closePanel)
+
+  // 占据浮层位：把还开着的图层 / 详情关掉（用户：「同时只显示一个」）
+  useSheetClaim('plan', closePanel)
 
   return (
     /* ★ 不给 `header`：面板正文自己有一行标题（标题 + 条数 + 新建组 + 关闭），

@@ -14,6 +14,7 @@ import { useState } from 'react'
 import { ProvinceList } from '~/common/ui/city/ProvinceList'
 import { PoiDetailSheet } from '~/mobile/ui/PoiDetailSheet'
 import { Sheet, SheetHead, type SheetTier } from '~/mobile/ui/Sheet'
+import { usePageSheet } from '~/mobile/ui/sheetHub'
 import { TopBar } from '~/common/ui/TopBar'
 import type { ProvinceView } from '~/common/logic/useProvinceView'
 
@@ -21,6 +22,8 @@ export function MobileProvinceView({ view }: { view: ProvinceView }) {
   const { shell, detail, collected, title } = view
   // 抽屉档位是纯形态状态（桌面版没有这个概念），留在视图层
   const [tier, setTier] = useState<SheetTier>('half')
+  // 清单浮层是这一页的主体：进来先清掉残留的规划 / 图层（规则见 `mobile/ui/sheetHub`）
+  usePageSheet()
 
   // 选中景点 → 详情顶替列表；「关闭」或点地图空白回到列表
   if (view.selected) {

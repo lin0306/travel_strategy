@@ -23,6 +23,7 @@ import { CityFilters, CityList } from '~/common/ui/city/CityParts'
 import { CityMissing } from '~/common/ui/Missing'
 import { PoiDetailSheet } from '~/mobile/ui/PoiDetailSheet'
 import { Sheet, SheetHead, type SheetTier } from '~/mobile/ui/Sheet'
+import { usePageSheet } from '~/mobile/ui/sheetHub'
 import { TopBar } from '~/common/ui/TopBar'
 import type { CityView } from '~/common/logic/useCityView'
 
@@ -30,6 +31,12 @@ export function MobileCityView({ view }: { view: CityView }) {
   const { shell, city, visible, loaded, sort } = view
   // 抽屉档位是**纯形态状态**（桌面版根本没有），所以留在视图层，不进共用钩子
   const [tier, setTier] = useState<SheetTier>('half')
+  /*
+   * 这一页的清单浮层是**页面主体**：进来就把残留的规划 / 图层清掉
+   * （用户：「不要隐藏一个下方还有一个」），但它自己不会被别的浮层关掉
+   * —— 城市页没有"关掉清单"这回事。规则与 key 见 `mobile/ui/sheetHub`。
+   */
+  usePageSheet()
 
   if (loaded && !city) {
     return (
@@ -79,16 +86,19 @@ export function MobileCityView({ view }: { view: CityView }) {
           />
         }
         footer={
-          <>
-            <button
-              type="button"
-              onClick={view.toggleSort}
-              className="inline-flex h-11 flex-1 items-center justify-center gap-1.5 rounded-lg border border-line text-[14.5px] md:h-9 md:text-[13px]"
-            >
-              {sort === 'hot' ? '热门优先' : '名称排序'}
-              <Icon name="chev-down" size="sm" />
-            </button>
-          </>
+          /*
+           * ★ 不再给右下角工具条让位（原来的 `mr-[44px]` 已删）：层级改成
+           *   「浮层 `z-28` 压住工具条 `z-[27]`」之后，四枚整块在本浮层底下，
+           *   页脚右端不再有东西压着 —— 留着那 44px 反而变成一条没来由的空白。
+           */
+          <button
+            type="button"
+            onClick={view.toggleSort}
+            className="inline-flex h-11 flex-1 items-center justify-center gap-1.5 rounded-lg border border-line text-[14.5px] md:h-9 md:text-[13px]"
+          >
+            {sort === 'hot' ? '热门优先' : '名称排序'}
+            <Icon name="chev-down" size="sm" />
+          </button>
         }
       >
         {/*
@@ -106,7 +116,13 @@ export function MobileCityView({ view }: { view: CityView }) {
         <div className="sticky top-0 z-[1] bg-surface px-3.5 pt-1 pb-1.5">
           <CityFilters view={view} />
         </div>
-        <CityList view={view} />
+        {/*
+          * ★ 原来这里有个 `pr-[40px]` 给右下角工具条让位 —— 随层级改成
+          *   「浮层压住工具条」一起删了（工具条已在本浮层底下，不再是覆盖物）。
+          */}
+        <div>
+          <CityList view={view} />
+        </div>
       </Sheet>
     </>
   )

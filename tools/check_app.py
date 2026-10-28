@@ -6780,16 +6780,19 @@ def check_mobile_shell() -> None:
             if 'openSearch' not in block:
                 problems.append('移动端顶栏没有接手搜索（`openSearch`）—— 那顶栏就什么都不剩了')
 
-    # ── ⑤ 右下角工具条：**竖排一列** · 四个入口都在 · 跟着浮层上移 ──
+    # ── ⑤ 右下角工具条：**钉在屏幕底** · 竖排一列 · 四个入口都在 · **低于浮层** ──
     #
-    # 用户三次定稿：「四个按钮放到右下角，只展示圆角图标」→「不是聚合在一块的，
-    # 是右侧一列，四个图标」+「这个层级也不对」→「这四个图标，放右下角」。
-    # ⇒ ① 不再 2×2 聚合；② `z-[27]`（**低于**浮层 `z-28`，内容压住工具）；
-    #   ③ 位置在右下角，但 `bottom` 必须**跟着 `--sheet-h` 走**。
-    #
-    # 第 ③ 条是这一轮的关键：浮层最矮的 `peek` 档也有 28svh，「浮层之下的右下角」
-    # 根本不存在 —— 只把 `top` 换成 `bottom` 的话，城市页（浮层常驻）永远看不见工具条，
-    # 而且不报任何错。所以这里同时钉住两端：`Sheet` 必须广播高度、`MapTools` 必须读它。
+    # 用户五次定稿：「四个按钮放到右下角」→「不是聚合在一块的，是右侧一列」+
+    # 「这个层级也不对」→「这四个图标，放右下角」→「右下角那四个悬浮按钮，是固定在底部的，
+    # 不会被其他东西往上挤」→「浮层永远在最上」（2026-10-28 第三次，层级方向定稿）。
+    #   · 竖排一列，`z-[27]`（**低于**浮层 `z-28`，内容压住工具）；
+    #   · 位置 `bottom: var(--flt-inset)` **固定**，不读任何浮层高度。
+    # ★★ 上一版让它跟着 `--sheet-h` 上移（为了浮层升起时仍然可见），被用户否掉了 ——
+    #   "在半屏处飘着"看起来像被顶上去。所以这里**反向**断言：不许出现 `var(--sheet-h`。
+    # ★★ 中间有一版抬到 `z-[29]`（怕城市页的常驻浮层把四枚埋掉）。用户 2026-10-28
+    #   第三次选了「浮层永远在最上」，于是回到 `z-[27]`，代价（城市页四枚被盖住）
+    #   已在 `MapTools` 文件头写明 —— 别再凭"城市页会埋掉"这一条把它抬回去，
+    #   那会同时破坏"三块浮层一个规矩"。
     hits += 1
     tools_f = WEB / 'app' / 'mobile' / 'ui' / 'MapTools.tsx'
     if not tools_f.exists():
@@ -6806,11 +6809,17 @@ def check_mobile_shell() -> None:
             ('GITHUB_REPO_URL', 'GitHub 入口（地址只能走 `common/data/site` 的唯一常量）'),
             ('flex-col', '竖排一列（用户：「是右侧一列，四个图标」）'),
             ('data-sheet-keep', '点工具条不算"点浮层外面"（否则详情会被顺带关掉）'),
-            ('var(--sheet-h', '右下角定位必须扣掉浮层高度（否则浮层一升起就整块盖住工具条）'),
-            ('addEventListener(SHEET_RESIZE_EVENT', '浮层升高后放不下时得整条不渲染（不能露半截）'),
+            ('bottom-[var(--flt-inset)]', '工具条必须钉在屏幕右下角'),
         ):
             if need not in t:
                 problems.append(f'MapTools 缺少 `{need}` —— {why}没接上')
+        # ★ 角标的判据必须是**调用处**：`const load = usePlanStore((s) => s.load)` 里也带着
+        #   `s.load`，只查 token 永远为真（反证当场验证过：把 `void load()` 改成 `void 0`，
+        #   旧判据依然全绿）。
+        if not re.search(r'void\s+load\(\)', t):
+            problems.append(
+                'MapTools 没有在挂载时 `void load()` —— 条数角标要等用户点开过一次面板才出现'
+            )
         if 'grid-cols-2' in t:
             problems.append(
                 'MapTools 又变回 2×2 聚合方块了 —— 用户明确要「右侧一列，四个图标」'
@@ -6818,25 +6827,37 @@ def check_mobile_shell() -> None:
             )
         if 'z-[29]' in t:
             problems.append(
-                'MapTools 又回到 `z-[29]`（高于浮层）—— 那正是用户说的「层级也不对」：'
-                '浮层一打开就被它压住页脚与列表右端。工具属于地图层，必须低于 `z-28`'
+                'MapTools 又抬回 `z-[29]`（高于浮层）—— 用户 2026-10-28 定稿「浮层永远在最上」，'
+                '三块浮层必须一个规矩（`z-28` > 工具条 `z-[27]`）。'
+                '抬上去会让图层/详情两块又变成"按钮压着浮层"，正是这次要修的不统一'
             )
         if 'z-[27]' not in t:
-            problems.append('MapTools 的层级不是 `z-[27]` —— 必须**低于**浮层(`z-28`)')
-        # 排到右上角是上一版的临时位置（为了躲开浮层），用户已经明确要回右下角。
-        # ★ `(?<![\w-])`：条数徽标写的是 `-top-1`，只用 `\b` 会把那个也算成"顶部定位"，
-        #   这条判据就永远为真（写反证时验证过）。
+            problems.append(
+                '工具条的层级不是 `z-[27]` —— 它必须**低于**浮层(`z-28`)、高于提示条(`z-[26]`)'
+            )
+        # ★ 这条也是"判据落在行为上"：`planOpen` 参与 `aria-expanded` 是正常的，
+        #   不许的是它**决定要不要渲染**（那会让工具条在规划浮层开着时整条消失 = 第二套行为）
+        if re.search(r'if\s*\(\s*planOpen\s*\)\s*return\s+null', t):
+            problems.append(
+                'MapTools 又在 `planOpen` 时 `return null` —— 工具条会整条消失，'
+                '看起来像"规划浮层压住了按钮"，正是用户说的"三种浮层层级没统一"'
+            )
+        if 'var(--sheet-h' in t:
+            problems.append(
+                '工具条又跟着浮层高度走了（`var(--sheet-h)`）—— 用户 2026-10-28：'
+                '「是固定在底部的，不会被其他东西往上挤」。浮层升起时被盖住是可以接受的'
+            )
+        # ★ `(?<![\w-])`：条数徽标写的是 `-top-1`，只用 `\b` 会把那个也算成"顶部定位"
         if re.search(r'className="[^"]*(?<![\w-])(?:top|inset-y)-', t):
             problems.append(
-                'MapTools 又用 `top-` 定位了 —— 用户要的是「这四个图标，放右下角」；'
-                '躲浮层靠 `bottom: calc(var(--sheet-h) + …)`，不是靠往上挪'
+                'MapTools 又用 `top-` 定位了 —— 用户要的是「固定在底部」（右下角）'
             )
 
-    # Sheet 侧：高度必须真的广播出去，否则上面那条 bottom 永远是 0px（静默失效）
+    # ── ⑤′ 浮层基座：三档 + **自由拉伸**两种尺寸模式 ──
     #
-    # ★ 判据必须是**调用处**而不是"文件里出现过 `SHEET_H_VAR`"——
-    #   `import` 那一行就带着这个词，只查 token 永远为真（反证当场验证过：
-    #   把 `setProperty` 换成 `void h`，旧判据依然全绿，只有"未使用导入"顺手报了）。
+    # 用户 2026-10-28：「这个浮层（图层），不做固定三个大小，改成用户默认拉，
+    # 限制最大高度和最小高度」。所以 `Sheet` 必须同时支持两种模式，而**只有图层**走自由模式。
+    # ★ 判据落在"调用处"：只看文件里出现 `size` 这种词永远为真。
     hits += 1
     sheet_f = WEB / 'app' / 'mobile' / 'ui' / 'Sheet.tsx'
     if not sheet_f.exists():
@@ -6844,13 +6865,27 @@ def check_mobile_shell() -> None:
     else:
         t = strip_comments_keep_lines(sheet_f.read_text(encoding='utf-8'))
         for pat, why in (
-            (r'setProperty\(\s*SHEET_H_VAR', '浮层高度没写到 `:root` —— 右下角工具条不知道要避让多少'),
-            (r'dispatchEvent\(\s*new\s+CustomEvent<number>\(\s*SHEET_RESIZE_EVENT',
-             '高度变化没派发事件 —— 工具条不会重新判"放不放得下"'),
-            (r'new\s+ResizeObserver', '没有观测自身高度 —— 切档 / 拖拽时工具条不会跟着动'),
+            (r'size\?:\s*SheetSize', '`Sheet` 丢了自由拉伸模式（`size`）—— 图层只能回到三档'),
+            (r'onResize', '自由模式下松手高度没有回传通道 —— 拉一次就弹回原位'),
+            (r'minSvh', '手势层拿不到最小高度 —— 收起判据退化成"在 peek 档再拉一次"'),
         ):
             if not re.search(pat, t):
                 problems.append(f'Sheet 里 {why}')
+
+    hits += 1
+    drag_f2 = WEB / 'app' / 'mobile' / 'ui' / 'useSheetDrag.ts'
+    if not drag_f2.exists():
+        problems.append('app/mobile/ui/useSheetDrag.ts 不存在')
+    else:
+        t = strip_comments_keep_lines(drag_f2.read_text(encoding='utf-8'))
+        for pat, why in (
+            (r'target\s*<\s*minPx', '收起判据不是"拖到最小高度以下" —— 从 full 一把拉到底只会降到 peek'),
+            (r'startH', '松手时没记起手高度 ⇒ 判不出"拉到底了没有"'),
+            (r'FLICK_V', '「甩得快也直接隐藏」的速度判据没了'),
+        ):
+            if not re.search(pat, t):
+                problems.append(f'useSheetDrag 里 {why}')
+
 
 
 
@@ -6919,7 +6954,100 @@ def check_mobile_shell() -> None:
         if 'action=' not in t:
             problems.append(f'{rel} 的 `SheetHead` 没有 `action` —— 添加行程按钮丢了')
 
-    check(label, problems, 7, hits)
+    # ── ⑦′ 图层浮层：自由拉伸 · 标题不带副标题（2026-10-28 用户定）──
+    hits += 1
+    bm_f = WEB / 'app/mobile/ui/BasemapSheet.tsx'
+    if not bm_f.exists():
+        problems.append('app/mobile/ui/BasemapSheet.tsx 不存在')
+    else:
+        t = strip_comments_keep_lines(bm_f.read_text(encoding='utf-8'))
+        if 'size={SHEET_FREE_SVH}' not in t:
+            problems.append(
+                'BasemapSheet 没走自由拉伸（`size={SHEET_FREE_SVH}`）—— 用户：'
+                '「这个浮层，不做固定三个大小，改成用户默认拉，限制最大高度和最小高度」'
+            )
+        if re.search(r'\btier=', t):
+            problems.append('BasemapSheet 又传 `tier=` 了 —— 图层不做三档吸附')
+        if re.search(r'<SheetHead[^>]*\bsub=', t):
+            problems.append(
+                '图层浮层的 `SheetHead` 又带 `sub=` —— 用户：「这个标题的副标题不需要」'
+                '（下面第一条选项就是当前底图名，同一屏说两遍）'
+            )
+
+    # ── ⑦″ 规划面板头部：移动端「新建规划」= 主色胶囊 · 没有关闭键（2026-10-28 用户定）──
+    hits += 1
+    ph_f = WEB / 'app/common/ui/plan/PanelHeader.tsx'
+    if not ph_f.exists():
+        problems.append('app/common/ui/plan/PanelHeader.tsx 不存在')
+    else:
+        t = strip_comments_keep_lines(ph_f.read_text(encoding='utf-8'))
+        if 'useIsMobile' not in t:
+            problems.append('PanelHeader 没按端分家（缺 `useIsMobile`）—— 移动端会沿用桌面的头部')
+        if 'rounded-full bg-primary' not in t:
+            problems.append(
+                '移动端「新建规划」不是主色胶囊 —— 用户要求与景点详情的「添加行程」保持统一'
+            )
+        if not re.search(r'mobile\s*\?\s*null\s*:', t):
+            problems.append(
+                '移动端又渲染了「关闭」按钮 —— 用户：「关闭按钮也去掉」'
+                '（浮层能下拉收起、也能点外面收起，不需要第三个出口）'
+            )
+
+
+    # ── ⑦‴ 浮层互斥：同一时刻只有一块「可选浮层」（2026-10-28 用户定）──
+    #
+    # 用户原话：「还有这个浮层，同时只显示一个吧，不要隐藏一个下方还有一个」。
+    # 做法是 `mobile/ui/sheetHub` 的仲裁表：有出口的三块（详情/规划/图层）谁新开谁关别人，
+    # 页面主体（城市/省级清单、点位详情页）挂载时清场、自己不被关。
+    # ★ 判据落在**调用点**上：只查 `sheetHub.ts` 里有没有 `claimSheet` 永远为真
+    #   （没人调它，浮层照样能叠三层）。
+    hits += 1
+    hub_f = WEB / 'app/mobile/ui/sheetHub.ts'
+    if not hub_f.exists():
+        problems.append('web/app/mobile/ui/sheetHub.ts 不存在 —— 浮层互斥没有唯一出处')
+    else:
+        t = strip_comments_keep_lines(hub_f.read_text(encoding='utf-8'))
+        for need, why in (
+            ('export function claimSheet', '占位（关掉别的浮层）'),
+            ('export function releaseSheet', '让位（浮层收起时）'),
+            ('export function useSheetClaim', '挂载即占位 / 卸载即让位的钩子'),
+            ('PAGE_SHEET', '页面主体不参与互斥这条规矩'),
+        ):
+            if need not in t:
+                problems.append(f'sheetHub 缺少 `{need}` —— {why}没接上')
+
+    hits += 1
+    for rel, key in (
+        ('app/mobile/ui/PoiDetailSheet.tsx', 'detail'),
+        ('app/mobile/ui/PoiView.tsx', 'detail'),
+        ('app/mobile/ui/RoutePlanPanel.tsx', 'plan'),
+        ('app/mobile/ui/BasemapSheet.tsx', 'layers'),
+    ):
+        f = WEB / rel
+        if not f.exists():
+            problems.append(f'{rel} 不存在')
+            continue
+        t = strip_comments_keep_lines(f.read_text(encoding='utf-8'))
+        if f"useSheetClaim('{key}'" not in t:
+            problems.append(
+                f"{rel} 没有 `useSheetClaim('{key}', …)` —— 这块浮层开着时还能再开另一块，"
+                '关掉上面那块会露出下面那一块（用户：「不要隐藏一个下方还有一个」）'
+            )
+
+    hits += 1
+    for rel in ('app/mobile/ui/CityView.tsx', 'app/mobile/ui/ProvinceView.tsx'):
+        f = WEB / rel
+        if not f.exists():
+            problems.append(f'{rel} 不存在')
+            continue
+        t = strip_comments_keep_lines(f.read_text(encoding='utf-8'))
+        if 'usePageSheet()' not in t:
+            problems.append(
+                f'{rel} 没有 `usePageSheet()` —— 从别处带着规划/图层浮层进来时，'
+                '清单底下会压着一块收不起来的浮层'
+            )
+
+    check(label, problems, 8, hits)
 
 
 def main() -> int:
