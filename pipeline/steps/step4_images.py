@@ -32,7 +32,9 @@ from pipeline.core.layout import (                                  # noqa: E402
     iter_city_dirs, iter_poi_files, read_json, write_json,
 )
 
-DEFAULT_PER_POI = 3
+#: ★ 上限不是目标（2026-10-29）：有几张合格收几张，1 张也行、0 张走占位卡。
+#:   原来固定 3，全库 89% 的点位"恰好 3 张"—— 那不是巧合，是裁出来的。
+MAX_PER_POI = 6
 
 
 def fill_city_images(slug: str, city_id: str, city_dir: Path, *, force: bool = False) -> dict:
@@ -45,6 +47,11 @@ def fill_city_images(slug: str, city_id: str, city_dir: Path, *, force: bool = F
     city_doc = read_json(city_path) or {}
     city_name = city_doc.get("name") or city_id
 
+    # ★★ 同城撞图禁令（2026-10-29 审查抓到的）：同一张「aerial yangshuo panorama」
+    #   同时挂在白鹿仓 / 大雁塔喷泉 / 周至水街三个点位名下，同一张「ShaoxingXianheng」
+    #   挂了五家饭馆 —— 对单点位看"有图"，对整城看就是五处一图。补图遍历时把
+    #   已被本城其他点位用掉的 URL 传下去，后面的点位自动跳过。
+    used_urls: set[str] = set()
     for category, path in iter_poi_files(slug, city_id):
         poi = read_json(path)
         if not poi:
@@ -52,22 +59,33 @@ def fill_city_images(slug: str, city_id: str, city_dir: Path, *, force: bool = F
         stats["total"] += 1
 
         have = poi.get("images") or []
-        if have and not force:
+        # ★ `_noImage` 的点位**不算"已有图"**：那是上一版管线垫的氛围图残留
+        #   （或上回网络抖动误标）。带这个标记就重新挑一遍 —— 否则西安城墙这种
+        #   明明有六张真图的点位，会因为"看起来有图"永远得不到重试。
+        if have and not force and not poi.get("_noImage"):
             stats["skipped"] += 1
             continue
 
-        picked = pick_images(poi, max_keep=DEFAULT_PER_POI,
-                             city=city_name, city_slug=city_id)
+        picked = pick_images(poi, max_keep=MAX_PER_POI, city=city_name,
+                             exclude_urls=frozenset(used_urls))
         if not picked:
             # ★ 必须落一个显式标记：**「跑了但图源没有」≠「没跑」**。
             # build 靠它把这类降级成 WARN（前端渲染占位卡），否则图源覆盖不全时
             # 流水线永远卡在 ERROR —— 与项目里「未收录 ≠ 0」「没内容 ≠ 没做」同一条原则。
+            # ★★ 旧图必须一起清：--force 是"重新挑"，新管线挑不出来时，
+            #   上一版管线垫的氛围图若还留在 `images` 里，就会出现
+            #   「_noImage=True 却带着三张旧图」的自相矛盾状态（西安首轮重抓实测）。
+            #   ★ 另一头：Wikimedia 偶发断连时 search 静默返回空 —— 一次网络抖动
+            #     会把有真图的点位标成"没图"（西安城墙就是）。所以 _noImage 的点位
+            #     下次跑 step4（不带 --force）会自动重试，别把它当终态。
+            poi["images"] = []
             poi["_noImage"] = True
             write_json(path, poi)
             stats["empty"] += 1
             stats["empty_list"].append(f"{category}/{path.stem}（{poi.get('name','')}）")
             continue
         poi.pop("_noImage", None)          # 这次取到了 → 清掉上一次的标记
+        used_urls.update(im["url"] for im in picked)
 
         # ★ 中文 alt 描述（SEO + a11y 必需）：没有就拿 ipsum」禁用 —— 必须写真实描述
         for i, img in enumerate(picked):
@@ -87,7 +105,7 @@ def fill_city_images(slug: str, city_id: str, city_dir: Path, *, force: bool = F
             "subtype": "photo",
             "_imageQuery": {"en": f"{city.get('name','')} China city skyline",
                             "zh": f"{city.get('name','')} 城市风光"},
-        }, max_keep=3, city=city_name, city_slug=city_id)
+        }, max_keep=3, city=city_name)
         if picked:
             city["heroImages"] = picked
             write_json(city_path, city)

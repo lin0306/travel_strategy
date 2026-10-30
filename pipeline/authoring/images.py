@@ -35,6 +35,7 @@ import os
 import re
 from typing import Any
 
+from pipeline.authoring.image_filter import verdict_for
 from pipeline.core.env import is_placeholder, load_env
 from pipeline.core.fetch import build_url, get_bytes, get_json
 
@@ -213,7 +214,7 @@ def _needs_attribution(name: str) -> bool:
     return True                                  # 拿不准就署上，多署名不会错
 
 
-def search_wikimedia(keyword: str, per_page: int = 4) -> list[dict]:
+def search_wikimedia(keyword: str, per_page: int = 8) -> list[dict]:
     """Wikimedia Commons —— 无需 key、无配额上限的开放式兜底图源。
 
     ★ 一次请求拿齐：用 `generator=search` 在 File 命名空间（ns=6）里搜 `imageinfo`，
@@ -233,8 +234,11 @@ def search_wikimedia(keyword: str, per_page: int = 4) -> list[dict]:
             "generator": "search",
             "gsrsearch": kw,
             "gsrnamespace": 6,                   # File:
-            "gsrlimit": max(per_page * 3, 8),    # 多取几个：过滤后所剩不多
-            "prop": "imageinfo",
+            "gsrlimit": max(per_page * 3, 20),   # 多取几个：过滤后所剩不多
+            # ★ `categories` 是**人工维护**的，比标题可靠：地铁站照片标题可能只写
+            #   「青龙寺」，但分类一定是 "Xi'an Metro stations" —— 过滤靠它抓。
+            "prop": "imageinfo|categories",
+            "cllimit": 200,
             "iiprop": "url|extmetadata|mime|size",
             "iiurlwidth": 1080,                  # 缩到 1080px，别把原图流量打满
         }), timeout=20.0)
@@ -283,6 +287,15 @@ def search_wikimedia(keyword: str, per_page: int = 4) -> list[dict]:
             sourceUrl=page_url,
             license=license_name or "见来源页",
             attribution_required=_needs_attribution(license_name),   # CC BY / BY-SA 必须署
+            # ★★ 只给过滤用的**私有字段**：GPS 与分类不进最终数据（schema 里没有），
+            #   `pick_images` 判完会 `pop` 掉。带上它，复核那一层才有"第三方证据"可看。
+            filter_meta={
+                "gps": meta,                     # 原始 extmetadata，GPS 在 verdict_for 里取
+                "categories": " ".join(
+                    _plain(c.get("title", "")).removeprefix("Category:")
+                    for c in (page.get("categories") or [])
+                ),
+            },
         ))
         if len(out) >= per_page:
             break
@@ -292,8 +305,9 @@ def search_wikimedia(keyword: str, per_page: int = 4) -> list[dict]:
 def _image_item(
     *, url: str, thumb: str | None, width: int, height: int, alt: str, query: str,
     source: str, author: str, sourceUrl: str, license: str, attribution_required: bool,
+    filter_meta: dict | None = None,
 ) -> dict:
-    return {
+    item = {
         "url": url,
         "thumbUrl": thumb,
         "width": int(width),
@@ -308,28 +322,13 @@ def _image_item(
             "attributionRequired": attribution_required,
         },
     }
-
-
-#: ★ 细类 → 兜底关键词。**本地小店 / 小众点位在任何国际图库里都不会有实景照**
-#:   （实测：朱鸿兴面馆、潘玉麟糖粥、桃花坞街区这类，Unsplash / Pexels 一律无果），
-#:   这时退到"同类氛围图"：用品类词取图，图仍然真实、仍带完整 credit，
-#:   **但 alt 如实写成品类而不是店名** —— 绝不假装这是那家店的照片。
-#:   Wikimedia 对中文**精确点位名**命中很好（拙政园/洪崖洞实测精确），但
-#:   **中文品类词容易跑到不相干的中文文件上**（实测「街头小吃」返回肯尼亚烧烤、
-#:   「老街」返回越南沙巴），而英文品类词稳定得多 —— 所以这里用英文。
-CATEGORY_FALLBACK: dict[str, str] = {
-    "local": "Chinese restaurant interior", "snack": "Chinese street food dish",
-    "cafe": "cafe interior", "nature": "natural landscape China",
-    "museum": "museum exhibition hall", "historic": "Chinese historic architecture",
-    "park": "Chinese classical garden", "temple": "Chinese temple",
-    "photo": "China city street view", "art": "art district gallery",
-    "street": "Chinese old town street", "performance": "Chinese opera performance",
-}
+    if filter_meta:
+        item["_filterMeta"] = filter_meta
+    return item
 
 
 def pick_images(
-    poi: dict, *, min_keep: int = 1, max_keep: int = 3,
-    city: str = "", city_slug: str = "",
+    poi: dict, *, max_keep: int = 6, city: str = "", exclude_urls: frozenset[str] = frozenset(),
 ) -> list[dict]:
     """为单个 POI 取图，三级降级。
 
@@ -337,6 +336,16 @@ def pick_images(
       · 精确图用中文城市名后缀，避免同名异地（苏州「得月楼」会撞丽江黑龙潭「得月楼」）
       · 氛围图用英文 slug 后缀 —— 实测「Chinese noodles Suzhou」直接命中苏州中心面馆，
         而不加限定会返回新奥尔良的中餐厅。
+
+    ★ 数量**不固定三张**（2026-10-29 改）：`max_keep` 是上限不是目标，
+      有几张合格就收几张（1 张也行、0 张就走占位卡）。原来固定 3 张，
+      全库 4297/4808 个点位**恰好 3 张**——那是把"能搜到多少"裁成了"页面要几张"。
+
+    ★★ 2026-10-29 起，入库前先过 `image_filter.verdict_for()`：
+      地铁站 / 地图 / 路牌 / 坐标 10km 外 一律 reject（西安青龙寺那三张里，
+      地铁站的标题同时含「青龙寺」「西安」，文字检索排第一 —— 只有这层能拦住它）。
+      过滤只挡得住"说得明白的错"，挡不住"标题对、画面错"—— 那一类靠**复核**
+      （`run.py review-images`，二次审查的必经关卡）。
 
     ★★ Pexels / Unsplash **只接受拉丁文关键词**。这一条是血泪换来的：
       数据里 328 个 POI 只有 46 个写了英文 qEn，其余 `en` 是空串；早期版本
@@ -354,8 +363,10 @@ def pick_images(
     降级顺序（04 文档 4.2）：
         ① 精确图  Wikimedia Commons（核心名+城市 → 中文描述 → 全称）
         ② 实景图  Pexels → Unsplash（**仅当**有真英文关键词）
-        ③ 氛围图  英文品类词+城市（本地小店没有实景照时，alt 如实写成品类）
-        ④ 还是没有 → 返回空，前端渲染**风格化 SVG 占位卡**（零外部请求）
+        ③ 还是没有 → 返回空，前端渲染**风格化 SVG 占位卡**（零外部请求）
+
+    ★ ③ 原来是"品类氛围图兜底"（本地小店垫一张同类图），2026-10-29 **按用户要求删除**：
+      垫图的结果就是"看着有图、实际是别的地方"，比没有图更糟 —— 没实景就走占位卡。
     """
     q = poi.get("_imageQuery") or {}
     name = poi.get("name", "")
@@ -390,19 +401,23 @@ def pick_images(
                 break
             candidates += search(en_query)
 
-    # ③ 品类氛围图（英文词 + 城市 slug，质量最可控）
-    if len(candidates) < min_keep:
-        fallback = CATEGORY_FALLBACK.get(poi.get("subtype", ""), "")
-        if fallback:
-            fb = f"{fallback} {city_slug}" if city_slug else fallback
-            candidates += search_wikimedia(fb)
-            if len(candidates) < min_keep:
-                candidates += search_pexels(fb)
+    # ③ 相关性过滤 + 排序（★ 入库前这道关卡）
+    scored: list[tuple[int, int, dict]] = []          # (score, 原始顺序, 图)
+    suspects: list[tuple[int, int, dict]] = []        # 元数据无正面信号 → 排后面，不当封面
+    for order, img in enumerate(candidates):
+        verdict, _reason, score = verdict_for(img, poi, city=city)
+        if verdict == "reject":
+            continue                                   # 明确错的，不许入库
+        img.pop("_filterMeta", None)                   # ★ 私有字段不进数据
+        (scored if verdict == "ok" else suspects).append((score, order, img))
 
-    # 去重（同一 URL 只留一次）
+    # 先按分数高低，再按图源给的原始顺序（同分稳住）
+    ordered = sorted(scored, key=lambda t: (-t[0], t[1])) + sorted(suspects, key=lambda t: (-t[0], t[1]))
+
+    # 去重（同一 URL 只留一次 + ★ 不许与本城其他点位撞图）
     picked: list[dict] = []
-    seen: set[str] = set()
-    for img in candidates:
+    seen: set[str] = set(exclude_urls)
+    for _s, _o, img in ordered:
         if img["url"] in seen:
             continue
         seen.add(img["url"])

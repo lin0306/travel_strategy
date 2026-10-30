@@ -1,12 +1,12 @@
 # 广州 · 数据来源与图片版权
 
-> 生成于 2026-10-29 · 城市数据最后更新 2026-09-24
+> 生成于 2026-10-30 · 城市数据最后更新 2026-09-24
 
 ## 概览
 
 - 省份：广东
 - adcode：440100
-- POI 数量：57
+- POI 数量：69
 
 ## 文本内容来源
 
@@ -15,28 +15,40 @@
 | 白水寨 | [百度百科·白水寨](https://baike.baidu.com/item/%E7%99%BD%E6%B0%B4%E5%AF%A8%E9%A3%8E%E6%99%AF%E5%90%8D%E8%83%9C%E5%8C%BA) | wiki | 2026-09-24 |
 | 白云山 | [百度百科·白云山](https://baike.baidu.com/item/%E7%99%BD%E4%BA%91%E5%B1%B1%EF%BC%88%E5%B9%BF%E5%B7%9E%EF%BC%89) | wiki | 2026-09-24 |
 | 宝墨园 | [百度百科·宝墨园](https://baike.baidu.com/item/%E5%AE%9D%E5%A2%A8%E5%9B%AD) | wiki | 2026-09-24 |
+| 粤剧艺术博物馆 | [百度百科·粤剧艺术博物馆](https://baike.baidu.com/item/粤剧艺术博物馆) | wiki | 2026-10-30 |
 | 广州塔 | [百度百科·广州塔](https://baike.baidu.com/item/%E5%B9%BF%E5%B7%9E%E5%A1%94) | wiki | 2026-09-24 |
 | 陈家祠 | [百度百科·陈家祠](https://baike.baidu.com/item/%E9%99%88%E5%AE%B6%E7%A5%A0) | wiki | 2026-09-24 |
 | 大夫山森林公园 | [百度百科·大夫山森林公园](https://baike.baidu.com/item/%E5%A4%A7%E5%A4%AB%E5%B1%B1%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD) | wiki | 2026-09-24 |
 | 广东省博物馆 | [百度百科·广东省博物馆](https://baike.baidu.com/item/%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86) | wiki | 2026-09-24 |
 | 光孝寺 | [百度百科·光孝寺](https://baike.baidu.com/item/%E5%85%89%E5%AD%9D%E5%AF%BA%EF%BC%88%E5%B9%BF%E5%B7%9E%EF%BC%89) | wiki | 2026-09-24 |
+| 广州铁路博物馆 | [广州铁路博物馆参观贴士（中国铁路广州局融媒体）](https://m.toutiao.com/article/7601879113162392079/) | media | 2026-10-30 |
+| 广州起义纪念馆 | [百度百科·广州起义纪念馆](https://baike.baidu.com/item/广州起义纪念馆) | wiki | 2026-10-30 |
+| 黄埔古村 | [黄埔古港古村历史文化风景区（广州市海珠区人民政府）](https://www.wdili.com/html/.zjhzlyck.201710t20171007_450187.html) | gov | 2026-10-30 |
 | 黄埔军校旧址 | [百度百科·黄埔军校旧址](https://baike.baidu.com/item/%E9%BB%84%E5%9F%94%E5%86%9B%E6%A0%A1%E6%97%A7%E5%9D%80) | wiki | 2026-09-24 |
+| 塱头古村 | [春阳台艺文中心参观指南（官方）](http://www.chunyangtai.com/visitorGuide/visitor?columnId=6) | official | 2026-10-30 |
 | 莲花山 | [百度百科·莲花山](https://baike.baidu.com/item/%E8%8E%B2%E8%8A%B1%E5%B1%B1%EF%BC%88%E5%B9%BF%E5%B7%9E%EF%BC%89) | wiki | 2026-09-24 |
 | 六榕寺 | [百度百科·六榕寺](https://baike.baidu.com/item/%E5%85%AD%E6%A6%95%E5%AF%BA) | wiki | 2026-09-24 |
 | 荔湾湖公园 | [百度百科·荔湾湖公园](https://baike.baidu.com/item/%E8%8D%94%E6%B9%BE%E6%B9%96%E5%85%AC%E5%9B%AD) | wiki | 2026-09-24 |
+| 帽峰山景区 | [帽峰山红枫观赏期报道（广州日报·大洋网）](https://news.dayoo.com/guangzhou/202604/09/139995_54945869.htm) | media | 2026-10-30 |
 | 孙中山大元帅府纪念馆 | [百度百科·孙中山大元帅府纪念馆](https://baike.baidu.com/item/%E5%AD%99%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%85%83%E5%B8%85%E5%BA%9C%E7%BA%AA%E5%BF%B5%E9%A6%86) | wiki | 2026-09-24 |
 | 南海神庙 | [百度百科·南海神庙](https://baike.baidu.com/item/%E5%8D%97%E6%B5%B7%E7%A5%9E%E5%BA%99) | wiki | 2026-09-24 |
+| 南汉二陵博物馆 | [百度百科·南汉二陵博物馆](https://baike.baidu.com/item/南汉二陵博物馆) | wiki | 2026-10-30 |
 | 西汉南越王博物馆 | [百度百科·西汉南越王博物馆](https://baike.baidu.com/item/%E8%A5%BF%E6%B1%89%E5%8D%97%E8%B6%8A%E7%8E%8B%E5%8D%9A%E7%89%A9%E9%A6%86) | wiki | 2026-09-24 |
 | 南越王宫博物馆 | [百度百科·南越王宫博物馆](https://baike.baidu.com/item/%E5%8D%97%E8%B6%8A%E7%8E%8B%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%A6%86) | wiki | 2026-09-24 |
+| 毛泽东同志主办农民运动讲习所旧址纪念馆 | [广州多个博物馆、场馆调整开放时间（腾讯新闻）](https://news.qq.com/rain/a/20260903A05WH200) | media | 2026-10-30 |
 | 石室圣心大教堂 | [百度百科·石室圣心大教堂](https://baike.baidu.com/item/%E5%B9%BF%E5%B7%9E%E5%9C%A3%E5%BF%83%E5%A4%A7%E6%95%99%E5%A0%82) | wiki | 2026-09-24 |
 | 沙面岛 | [百度百科·沙面岛](https://baike.baidu.com/item/%E6%B2%99%E9%9D%A2%E5%B2%9B) | wiki | 2026-09-24 |
 | 沙湾古镇 | [百度百科·沙湾古镇](https://baike.baidu.com/item/%E6%B2%99%E6%B9%BE%E5%8F%A4%E9%95%87) | wiki | 2026-09-24 |
+| 中共三大会址纪念馆 | [百度百科·中共三大会址纪念馆](https://baike.baidu.com/view/2345981.htm) | wiki | 2026-10-30 |
 | 华南国家植物园 | [百度百科·华南植物园](https://baike.baidu.com/item/%E5%8D%8E%E5%8D%97%E6%A4%8D%E7%89%A9%E5%9B%AD) | wiki | 2026-09-24 |
 | 中山纪念堂 | [百度百科·中山纪念堂](https://baike.baidu.com/item/%E5%B9%BF%E5%B7%9E%E4%B8%AD%E5%B1%B1%E7%BA%AA%E5%BF%B5%E5%A0%82) | wiki | 2026-09-24 |
 | 中山大学广州校区南校园 | [百度百科·中山大学](https://baike.baidu.com/item/%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A6%E5%B9%BF%E5%B7%9E%E6%A0%A1%E5%8C%BA%E5%8D%97%E6%A0%A1%E5%9B%AD) | wiki | 2026-09-24 |
+| 辛亥革命纪念馆 | [辛亥革命纪念馆参观攻略（腾讯新闻）](https://news.qq.com/rain/a/20260107A037QK00) | media | 2026-10-30 |
+| 圆玄道观 | [广州圆玄道观游玩攻略（去哪儿旅行）](https://travelnews.qunar.com/ugc/guangzhou-yuanxuan-temple-huadu-20yuan) | travel-platform | 2026-10-30 |
 | 粤海关博物馆 | [百度百科·粤海关博物馆](https://baike.baidu.com/item/%E7%B2%A4%E6%B5%B7%E5%85%B3%E5%8D%9A%E7%89%A9%E9%A6%86) | wiki | 2026-09-24 |
 | 越秀公园 | [百度百科·越秀公园](https://baike.baidu.com/item/%E8%B6%8A%E7%A7%80%E5%85%AC%E5%9B%AD) | wiki | 2026-09-24 |
 | 余荫山房 | [百度百科·余荫山房](https://baike.baidu.com/item/%E4%BD%99%E8%8D%AB%E5%B1%B1%E6%88%BF) | wiki | 2026-09-24 |
+| 詹天佑故居纪念馆 | [百度百科·詹天佑故居纪念馆](https://baike.baidu.com/view/326146.htm) | wiki | 2026-10-30 |
 | 镇海楼（广州博物馆） | [百度百科·镇海楼](https://baike.baidu.com/item/%E9%95%87%E6%B5%B7%E6%A5%BC) | wiki | 2026-09-24 |
 | 宝华面店 | [百度百科·宝华面店](https://baike.baidu.com/item/%E5%AE%9D%E5%8D%8E%E9%9D%A2%E5%BA%97) | wiki | 2026-09-24 |
 | 北园酒家 | [百度百科·北园酒家](https://baike.baidu.com/item/%E5%8C%97%E5%9B%AD%E9%85%92%E5%AE%B6) | wiki | 2026-09-24 |
@@ -86,6 +98,8 @@
 | 宝墨园 | WKDx417 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A_Bridge_in_BouMakJyun_2.jpg) |
 | 宝墨园 | Nethuzara | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baomo_Garden.jpg) |
 | 宝墨园 | Wikimedia Commons 贡献者 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baomo_Garden_-_The_Screen_Wall.jpg) |
+| 粤剧艺术博物馆 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E7%B2%A4%E5%89%A7%E8%89%BA%E6%9C%AF%E5%8D%9A%E7%89%A9%E9%A6%86.jpg) |
+| 粤剧艺术博物馆 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%8D%94%E6%B9%BE_%E6%B0%B8%E5%BA%86%E5%9D%8A%E4%B9%8B%E7%B2%A4%E5%89%A7%E8%89%BA%E6%9C%AF%E5%8D%9A%E7%89%A9%E9%A6%86%E9%99%84%E8%BF%91%E7%9A%84%E6%A0%91%E6%8C%82%E7%81%AF%E7%AC%BC.jpg) |
 | 广州塔 | Colin Zhu from Guangzhou, China | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Canton_tower_in_asian_games_opening_ceremony.jpg) |
 | 广州塔 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E5%8F%8C%E5%AD%90%E5%A1%94%E8%A5%BF%E5%A1%94%E5%B9%BF%E5%B7%9E%E5%9B%BD%E9%99%85%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83.jpg) |
 | 广州塔 | jiang-wen-jie | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E5%A1%94Scenery_in_Guangzhou,_China_-_panoramio.jpg) |
@@ -101,9 +115,23 @@
 | 光孝寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250222_Guangxiao_Temple_01.jpg) |
 | 光孝寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250222_Guangxiao_Temple_02.jpg) |
 | 光孝寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250222_Guangxiao_Temple_03.jpg) |
+| 广州起义纪念馆 | Skywalk1722 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E5%85%AC%E7%A4%BE%E6%97%A7%E5%9D%80.jpg) |
+| 广州起义纪念馆 | Chintunglee | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gzqiyi.jpg) |
+| 广州起义纪念馆 | Chintunglee | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gzqiyigate.jpg) |
+| 黄埔古村 | TONY LU | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangzhou_Bus_No.762_at_Ancient_Whampoa_Village.jpg) |
+| 黄埔古村 | Lau Hau Yatyue Tiger | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E6%B5%B7%E7%8F%A0%E5%8D%80_Haizhu_District_%E7%90%B6%E6%B4%B2%E8%A1%97%E9%81%93_Pazhou_%E7%A6%81%E6%AF%92%E4%B8%BB%E9%A1%8C%E5%85%AC%E5%9C%92_Park_January_2024_R12S_08.jpg) |
+| 黄埔古村 | Peter Lopez | Pexels License | [pexels](https://www.pexels.com/photo/a-couple-on-a-bridge-7009622/) |
+| 黄埔古村 | Peter Lopez | Pexels License | [pexels](https://www.pexels.com/photo/canal-with-footbridge-in-guangzhour-7009626/) |
+| 黄埔古村 | Max Sun | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-architecture-with-lanterns-30844803/) |
+| 黄埔古村 | Maria | Pexels License | [pexels](https://www.pexels.com/photo/river-by-traditional-garden-in-shanghai-8776494/) |
 | 黄埔军校旧址 | 古海岸遗址 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Whampoa_Military_Academy_Yantang_Campus.jpg) |
 | 黄埔军校旧址 | 古海岸遗址 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%BB%84%E5%9F%94%E5%86%9B%E6%A0%A1%E5%90%8C%E5%AD%A6%E4%BC%9A%E6%97%A7%E5%9D%80.jpg) |
 | 黄埔军校旧址 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%BB%84%E5%9F%94%E5%86%9B%E6%A0%A1%E7%AE%A1%E7%90%86%E9%83%A8%E6%97%A7%E5%9D%80%E5%86%85%E9%83%A8%E5%B1%95%E8%A7%88_-_panoramio.jpg) |
+| 塱头古村 | Kacewong | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A1%B1%E5%A4%B4%E6%9D%91%E7%95%99%E8%80%95%E5%85%AC%E7%A5%A0.jpg) |
+| 塱头古村 | Bingqian Li | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-arch-in-guangzhou-park-36063988/) |
+| 塱头古村 | Bingqian Li | Pexels License | [pexels](https://www.pexels.com/photo/traditional-architecture-in-guangzhou-china-35272150/) |
+| 塱头古村 | Frank Lv | Pexels License | [pexels](https://www.pexels.com/photo/historic-brick-building-with-vibrant-street-art-34862393/) |
+| 塱头古村 | Peter Lopez | Pexels License | [pexels](https://www.pexels.com/photo/chinese-characters-on-pillars-5798228/) |
 | 莲花山 | BMSBridge | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260722-%E8%8E%B2%E8%8A%B1%E5%B1%B1%E9%82%93%E5%B0%8F%E5%B9%B3%E9%93%9C%E5%83%8F.jpg) |
 | 莲花山 | zengsx | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%EF%BC%8C%E8%8E%B2%E8%8A%B1%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA_-_panoramio.jpg) |
 | 莲花山 | 蒋鹏飞 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%8E%B2%E8%8A%B1%E5%B1%B1_-_panoramio.jpg) |
@@ -113,18 +141,36 @@
 | 荔湾湖公园 | 中少 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Liang%27s_Temple_20220813-01.jpg) |
 | 荔湾湖公园 | 中少 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Liang%27s_Temple_20220813-02.jpg) |
 | 荔湾湖公园 | 方人也 | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Liwanhu_Park_20230729.jpg) |
+| 帽峰山景区 | fei wang | Pexels License | [pexels](https://www.pexels.com/photo/forest-and-hong-kong-buildings-behind-15866394/) |
+| 帽峰山景区 | fei wang | Pexels License | [pexels](https://www.pexels.com/photo/a-pier-with-tower-on-lake-near-green-trees-14291094/) |
+| 帽峰山景区 | Bingqian Li | Pexels License | [pexels](https://www.pexels.com/photo/serene-overlook-in-guangzhou-city-park-36063986/) |
+| 帽峰山景区 | Bingqian Li | Pexels License | [pexels](https://www.pexels.com/photo/serene-riverside-view-in-guangzhou-park-36064128/) |
+| 帽峰山景区 | Bingqian Li | Pexels License | [pexels](https://www.pexels.com/photo/scenic-riverbank-view-in-guangzhou-park-36064129/) |
+| 帽峰山景区 | Bingqian Li | Pexels License | [pexels](https://www.pexels.com/photo/entrance-to-baiyun-mountain-in-guangzhou-china-36064131/) |
 | 孙中山大元帅府纪念馆 | Unknown photographer | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:1921%E5%B9%B4%E5%AD%99%E4%B8%AD%E5%B1%B1%E3%80%81%E5%AD%99%E7%A7%91%E4%B8%8E%E7%BF%A0%E4%BA%A8%E5%90%8C%E4%B9%A1%E5%90%88%E5%BD%B1.jpg) |
 | 孙中山大元帅府纪念馆 | Pedist | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dabenying_(Generalissimo_Sun_Yat-sen%27s_Mansion).jpg) |
 | 孙中山大元帅府纪念馆 | The Ka Wah Savings Bank Co., Ltd. | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Ka_Wah_Savings_Bank.JPG) |
 | 南海神庙 | IenjoyMatch | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Concourse,_Nanhai_God_Temple_Station,_Guangzhou_Metro_20260116.jpg) |
 | 南海神庙 | PQ77wd | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Decoration_on_PILLAR_at_Nanhai_God_Temple_Station.jpg) |
 | 南海神庙 | Nissangeniss | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Exit_C2,_Nanhai_God_Temple_Station,_Guangzhou_Metro.jpg) |
+| 南汉二陵博物馆 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250913_Celadon_covered_jars_with_four_ears_in_the_Southern_Han_Mausoleums_Museum.jpg) |
+| 南汉二陵博物馆 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250913_Celadon_jar_with_six_ears_in_the_Southern_Han_Mausoleums_Museum.jpg) |
+| 南汉二陵博物馆 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250913_Celadon_jars_and_celadon_covered_jars_in_the_Southern_Han_Mausoleums_Museum.jpg) |
+| 南汉二陵博物馆 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250913_Dragon-shaped_hanging_animal_figurine_in_the_Southern_Han_Mausoleums_Museum.jpg) |
+| 南汉二陵博物馆 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250913_Glass_bottle_in_the_Southern_Han_Mausoleums_Museum.jpg) |
+| 南汉二陵博物馆 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250913_Green-glazed_jars_in_the_Southern_Han_Mausoleums_Museum.jpg) |
 | 西汉南越王博物馆 | Huangdan2060 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Museum_of_the_Mausoleum_of_the_Nanyue_King_003.JPG) |
 | 西汉南越王博物馆 | Huangdan2060 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Museum_of_the_Mausoleum_of_the_Nanyue_King_142.JPG) |
 | 西汉南越王博物馆 | Huangdan2060 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Museum_of_the_Mausoleum_of_the_Nanyue_King_144.JPG) |
 | 南越王宫博物馆 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangzhou_Chenghuang_Miao_2014.01.23_17-06-53.jpg) |
 | 南越王宫博物馆 | 古海岸遗址 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangzhou_Nanyueguo_Gongshu_Yizhi_20171021.150424.jpg) |
 | 南越王宫博物馆 | 古海岸遗址 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangzhou_Nanyueguo_Gongshu_Yizhi_20171021.153856.jpg) |
+| 毛泽东同志主办农民运动讲习所旧址纪念馆 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250222_Panyu_Confucian_Temple_(Site_of_Guangzhou_Peasant_Movement_Institute)_01.jpg) |
+| 毛泽东同志主办农民运动讲习所旧址纪念馆 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250222_Panyu_Confucian_Temple_(Site_of_Guangzhou_Peasant_Movement_Institute)_02.jpg) |
+| 毛泽东同志主办农民运动讲习所旧址纪念馆 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250222_Panyu_Confucian_Temple_(Site_of_Guangzhou_Peasant_Movement_Institute)_03.jpg) |
+| 毛泽东同志主办农民运动讲习所旧址纪念馆 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250222_Panyu_Confucian_Temple_(Site_of_Guangzhou_Peasant_Movement_Institute)_04.jpg) |
+| 毛泽东同志主办农民运动讲习所旧址纪念馆 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250222_Panyu_Confucian_Temple_(Site_of_Guangzhou_Peasant_Movement_Institute)_05.jpg) |
+| 毛泽东同志主办农民运动讲习所旧址纪念馆 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250222_Panyu_Confucian_Temple_(Site_of_Guangzhou_Peasant_Movement_Institute)_06.jpg) |
 | 石室圣心大教堂 | Timothy A. Gonsalves | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Front_Sacred_Heart_Cathedral_Ooty_Mar25_A7CR_05528.jpg) |
 | 石室圣心大教堂 | Timothy A. Gonsalves | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:West_Distant_Sacred_Heart_Cathedral_Ooty_Apr25_A7CR_05539.jpg) |
 | 石室圣心大教堂 | Zhou Guanhuai | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E7%9F%B3%E5%AE%A4%E5%9C%A3%E5%BF%83%E5%A4%A7%E6%95%99%E5%A0%82.jpg) |
@@ -134,6 +180,12 @@
 | 沙湾古镇 | happyJa | Pexels License | [pexels](https://www.pexels.com/photo/dafo-temple-in-guangzhou-19794964/) |
 | 沙湾古镇 | fei wang | Pexels License | [pexels](https://www.pexels.com/photo/cantonese-opera-art-museum-in-guangzhou-20994303/) |
 | 沙湾古镇 | 清风 明月 | Pexels License | [pexels](https://www.pexels.com/photo/clouds-over-temple-15587267/) |
+| 中共三大会址纪念馆 | JULIANISME | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:La_Jeunesse_(Quarterly)_vol.3.jpg) |
+| 中共三大会址纪念馆 | YFS Visuals | Pexels License | [pexels](https://www.pexels.com/photo/monument-to-the-people-s-heroes-in-tiananmen-square-30346296/) |
+| 中共三大会址纪念馆 | Markus Winkler | Pexels License | [pexels](https://www.pexels.com/photo/chairman-mao-memorial-hall-in-beijing-5075261/) |
+| 中共三大会址纪念馆 | Markus Winkler | Pexels License | [pexels](https://www.pexels.com/photo/guard-by-chairman-mao-memorial-hall-in-beijing-5075258/) |
+| 中共三大会址纪念馆 | Guillaume Kremer | Pexels License | [pexels](https://www.pexels.com/photo/statue-of-chiang-kai-shek-in-memorial-hall-37975563/) |
+| 中共三大会址纪念馆 | BUY Camera | Pexels License | [pexels](https://www.pexels.com/photo/national-theater-taiwan-under-cloudy-sky-38723188/) |
 | 华南国家植物园 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Araucaria_columnaris_-_South_China_Botanical_Garden_2013.11.02_10-22-22.jpg) |
 | 华南国家植物园 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Araucaria_columnaris_-_South_China_Botanical_Garden_2013.11.02_10-23-14.jpg) |
 | 华南国家植物园 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gerbera_-_South_China_Botanical_Garden_2013.11.02_14-18-03.jpg) |
@@ -143,6 +195,18 @@
 | 中山大学广州校区南校园 | 古海岸遗址 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangzhou_Haizhu_Zhongshan_Daxue_2023-12-25_13.55.19.jpg) |
 | 中山大学广州校区南校园 | 古海岸遗址 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangzhou_Haizhu_Zhongshan_Daxue_2023-12-25_13.57.05.jpg) |
 | 中山大学广州校区南校园 | 古海岸遗址 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangzhou_Haizhu_Zhongshan_Daxue_2023-12-25_13.57.44.jpg) |
+| 辛亥革命纪念馆 | WKDx417 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangzhou_1911_Revolution_Memorial_Museum.jpg) |
+| 辛亥革命纪念馆 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A_military_uniform_(replica)_and_guns_are_on_the_exhibition_in_the_Museum_of_Xinhai_Revolution_Figures.jpg) |
+| 辛亥革命纪念馆 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A_special_military_uniform_(replica)_for_Cai_E_is_on_the_exhibition_in_the_Museum_of_Xinhai_Revolution_Figures.jpg) |
+| 辛亥革命纪念馆 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A_special_military_uniform_(replica)_for_Huang_Xing_when_he_was_the_Chief_of_Staff_of_the_Army.jpg) |
+| 辛亥革命纪念馆 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A_train_model_is_on_the_exhibition_in_the_Museum_of_Xinhai_Revolution_Figures.jpg) |
+| 辛亥革命纪念馆 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Entrance_of_the_Museum_of_Xinhai_Revolution_Figures.jpg) |
+| 圆玄道观 | 蒋鹏飞 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9C%86%E7%8E%84%E9%81%93%E8%A7%82-%E4%B8%AD%E5%8D%8E%E6%9F%B1_-_panoramio.jpg) |
+| 圆玄道观 | 蒋鹏飞 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9C%86%E7%8E%84%E9%81%93%E8%A7%82-%E4%BA%8C%E6%9C%9F%E5%B9%BF%E5%9C%BA_-_panoramio.jpg) |
+| 圆玄道观 | 蒋鹏飞 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9C%86%E7%8E%84%E9%81%93%E8%A7%82-%E5%8B%BE%E5%BF%83%E6%96%97%E8%A7%92_-_panoramio.jpg) |
+| 圆玄道观 | 蒋鹏飞 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9C%86%E7%8E%84%E9%81%93%E8%A7%82-%E6%B0%B4%E5%96%84%E5%88%A9%E4%B8%87%E7%89%A9%E8%80%8C%E4%B8%8D%E4%BA%89_-_panoramio.jpg) |
+| 圆玄道观 | 蒋鹏飞 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9C%86%E7%8E%84%E9%81%93%E8%A7%82-%E6%B5%AE%E9%9B%95%E7%9F%B3%E5%88%BB_-_panoramio.jpg) |
+| 圆玄道观 | 蒋鹏飞 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9C%86%E7%8E%84%E9%81%93%E8%A7%82-%E7%9B%86%E6%99%AF_-_panoramio.jpg) |
 | 粤海关博物馆 | Ansgar Koreng | CC BY-SA 3.0 de | [wikimedia](https://commons.wikimedia.org/wiki/File:Deutsches_Historisches_Museum,_Berlin-Mitte,_170128,_ako.jpg) |
 | 粤海关博物馆 | Cangminzho | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%BD%97%E6%B9%96%E7%81%AB%E8%BD%A6%E7%AB%99_3445.jpg) |
 | 越秀公园 | Own work | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Exit_B1,_Yuexiu_Park_Station,_Guangzhou_Metro.jpg) |
@@ -151,6 +215,12 @@
 | 余荫山房 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangzhou_Panyu_Yuyin_Shanfang_2012.11.19_15-39-41.jpg) |
 | 余荫山房 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangzhou_Panyu_Yuyin_Shanfang_2012.11.19_15-47-51.jpg) |
 | 余荫山房 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangzhou_Panyu_Yuyin_Shanfang_2012.11.19_15-50-52.jpg) |
+| 詹天佑故居纪念馆 | 高 长华 | Pexels License | [pexels](https://www.pexels.com/photo/historic-monument-in-guangzhou-park-37106733/) |
+| 詹天佑故居纪念馆 | Bingqian Li | Pexels License | [pexels](https://www.pexels.com/photo/guangzhou-s-impressive-monument-under-blue-skies-36063974/) |
+| 詹天佑故居纪念馆 | Libertykon Lee | Pexels License | [pexels](https://www.pexels.com/photo/elegant-chinese-architecture-with-blossoms-38303267/) |
+| 詹天佑故居纪念馆 | Alan Wang | Pexels License | [pexels](https://www.pexels.com/photo/front-of-guo-ziyi-memorial-hall-in-taipei-21619505/) |
+| 詹天佑故居纪念馆 | Tito Zzzz | Pexels License | [pexels](https://www.pexels.com/photo/asian-green-roof-20256380/) |
+| 詹天佑故居纪念馆 | Bingqian Li | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-architecture-in-guangzhou-35272148/) |
 | 镇海楼（广州博物馆） | Gao Jianfu | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Gao_Jianfu,_Twilight_at_Zhenhai_Tower_(1926).jpg) |
 | 镇海楼（广州博物馆） | Gary Todd from Xinzheng, China | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Zhenhai_Tower,_Yuexiu_Park,_Guangzhou_(10075748113).jpg) |
 | 镇海楼（广州博物馆） | 中少 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Zhenhai_Tower_Exterior.jpg) |

@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/16656945/pexels-photo-16656945.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/16656945/pexels-photo-16656945.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 6000,
-      "alt": "Sunlit traditional Chinese architecture in Xi'An, showcasing intricate designs.",
-      "query": "Chinese old town street xian",
-      "credit": {
-        "source": "pexels",
-        "author": "Ethan",
-        "sourceUrl": "https://www.pexels.com/photo/exterior-of-a-building-in-traditional-style-16656945/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/18764179/pexels-photo-18764179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/18764179/pexels-photo-18764179.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4672,
-      "height": 7008,
-      "alt": "Stunning view of Xi'an City Wall adorned with traditional red lanterns, capturing local heritage.",
-      "query": "Chinese old town street xian",
-      "credit": {
-        "source": "pexels",
-        "author": "Stijn Dijkstra",
-        "sourceUrl": "https://www.pexels.com/photo/lanterns-on-pole-in-fortifications-of-xian-in-china-18764179/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/30703908/pexels-photo-30703908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/30703908/pexels-photo-30703908.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5568,
-      "height": 3712,
-      "alt": "Captivating evening scene of illuminated street with crowds and classic architecture in Xi'an, China.",
-      "query": "Chinese old town street xian",
-      "credit": {
-        "source": "pexels",
-        "author": "photographer zq",
-        "sourceUrl": "https://www.pexels.com/photo/nighttime-view-of-illuminated-street-in-xi-an-china-30703908/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "文化街",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "书院门文化街",
   "_geocodeSuspect": false,
-  "district": "610103"
+  "district": "610103",
+  "_noImage": true
 }

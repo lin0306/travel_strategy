@@ -101,6 +101,7 @@ PIPELINE_MODULES = {
     'seedlib': 'authoring/seedlib.py',
     'seed': 'authoring/seed.py',
     'images': 'authoring/images.py',
+    'image_filter': 'authoring/image_filter.py',
     # ── assemble：组装与派生产物（唯一往 data/_generated 写的）──
     'build': 'assemble/build.py',
     # ── 顶层：只有入口 ──
@@ -7058,6 +7059,136 @@ def check_mobile_shell() -> None:
     check(label, problems, 8, hits)
 
 
+def check_images() -> None:
+    """AV. 图片采集：**不固定三张** + 入库前过相关性过滤 + 有二次审查的入口
+
+    ## 这条护栏守什么（2026-10-28 用户报的「和青龙寺没有任何关系」）
+
+    西安青龙寺的详情页三张图：一张对街拍的路景、一张**地铁站**的照片、一张才是那座寺。
+    两个原因，各守一条：
+
+    · **固定三张** —— `step4` 硬写 `max_keep=3`，全库 4297/4808 个点位"恰好 3 张"。
+      那不是巧合，是把"能搜到多少"裁成了"页面要几张"（多出来的丢掉、不够的拿氛围图垫）。
+    · **零内容校验** —— Wikimedia 按**文字**相关度返回，地铁站文件的标题里同时有
+      「青龙寺」和「西安」，于是排第一；采集侧原样收下，中间没有"看一眼"的环节。
+
+    用户 2026-10-29 又补了一句总要求：**「数据采集完，你得做二次的审查，抓完直接入库，
+    数据上可能会有问题的」** —— 所以这里同时断言 `tools/review_images.py` 这道关卡还在。
+
+    ★ 判据一律落在**行为**上（常量名 / 调用点 / 不许出现的串），不落在"文件存在"。
+    """
+    label = 'AV. 图片采集（不固定张数 · 入库前过相关性过滤 · 有二次审查入口）'
+    problems: list[str] = []
+    hits = 0
+
+    #: `step4_images` 没登记进模块表（它只在 `run.py` 里被引用）—— 这里直接写路径
+    step4 = PIPELINE_DIR / 'steps' / 'step4_images.py'
+    step4_rel = 'pipeline/steps/step4_images.py'
+    images = pmod('images')
+    filt = pmod('image_filter')
+
+    def code(p: Path) -> str:
+        return strip_comments_keep_lines(p.read_text(encoding='utf-8')) if p.exists() else ''
+
+    # ── ① 张数是上限不是目标：不许再有"固定 3 张" ──
+    hits += 1
+    s4 = code(step4)
+    if not s4:
+        problems.append(f'{step4_rel} 不存在')
+    else:
+        # ★ 反向断言：旧的常量名 / 旧的显式 3 / 氛围图垫底（min_keep）都不许回来
+        for bad, why in (
+            ('DEFAULT_PER_POI', '那是"固定三张"时代的常量名'),
+            ('min_keep', '那是"不够三张就垫一张品类图"的开关 —— 用户 2026-10-29 明确要求去掉'),
+        ):
+            if bad in s4:
+                problems.append(f'{step4.name} 里还有 `{bad}` —— {why}')
+        m = re.search(r'MAX_PER_POI\s*=\s*(\d+)', s4)
+        if not m:
+            problems.append(
+                f'{step4.name} 没有 `MAX_PER_POI` —— "最多收几张"没有唯一出处'
+            )
+        elif int(m.group(1)) < 4:
+            problems.append(
+                f'{step4.name} 的 `MAX_PER_POI` = {m.group(1)} —— 那是"固定张数"回来的信号'
+                '（有几张合格收几张，上限只是护栏）'
+            )
+
+    # ── ② 氛围图兜底不许回来（垫图 = 挂一张别的地方的图，比没图更糟）──
+    hits += 1
+    img_text = code(images)
+    if not img_text:
+        problems.append(f'{prel("images")} 不存在')
+    else:
+        if 'CATEGORY_FALLBACK' in img_text:
+            problems.append(
+                f'{images.name} 里还有 `CATEGORY_FALLBACK` —— 品类氛围图垫底回来了。'
+                '本地小店没实景就该走占位卡，垫一张"同类"图就是误导'
+            )
+
+    # ── ③ 入库前必须过 `verdict_for`（★ 判调用点，不判 import）──
+    hits += 1
+    if img_text:
+        # ★ 判**调用点**而不是"出现过"：docstring 里写着 `verdict_for()` 也算"出现过" ——
+        #   第一版判据就是这样被绕过去的（反证 3/6 假绿），必须带上实参。
+        if not re.search(r'verdict_for\(\s*(img|cand)', img_text):
+            problems.append(
+                f'{images.name} 没有对候选图调 `verdict_for(` —— 候选图没过相关性过滤就入库'
+                '（地铁站的标题里同时有「青龙寺」「西安」，只有这层能拦住）'
+            )
+        # ★ 过滤用的私有字段必须在入库前 pop 掉
+        if 'pop("_filterMeta"' not in img_text and "pop('_filterMeta'" not in img_text:
+            problems.append(
+                f'{images.name} 没有 `pop("_filterMeta")` —— 过滤用的 GPS/分类会跟着进数据，'
+                'schema 里没有这两个字段'
+            )
+        # ★ Commons 分类是人工维护的，比标题可靠：地铁站的标题可能只写「青龙寺」
+        if "'categories'" not in img_text and '"categories"' not in img_text:
+            problems.append(
+                f'{images.name} 没向 Commons 要 `categories` —— 过滤少了一条最硬的证据'
+            )
+
+    # ── ④ 过滤器本体：黑名单 + 坐标门限都在 ──
+    hits += 1
+    ft = code(filt)
+    if not ft:
+        problems.append(f'{prel("image_filter")} 不存在 —— 相关性过滤没有唯一出处')
+    else:
+        for need, why in (
+            ('def verdict_for', '没有判定入口'),
+            ('FAR_M', '坐标门限不在 —— 同名异地（十几公里外）没法拦'),
+        ):
+            if need not in ft:
+                problems.append(f'image_filter 缺少 `{need}` —— {why}')
+        # ★★ 「地铁」必须出现在 **BAD_CJK 元组里**，不是"文件里提过"：
+        #   模块 docstring 就在讲地铁站这个案例，只判 `'地铁' in ft` 永远为真
+        #   （反证第 5 条就是这样绿的）。要挖到常量块里看。
+        m = re.search(r'BAD_CJK\s*=\s*\((.*?)\)', ft, re.S)
+        if not m:
+            problems.append('image_filter 找不到 `BAD_CJK` 元组 —— 一票否决词没有唯一出处')
+        elif '地铁' not in m.group(1):
+            problems.append(
+                'image_filter 的 `BAD_CJK` 里没有「地铁」—— 交通设施黑名单漏了它，'
+                '青龙寺那张「西安地铁青龙寺站」就是这么进库的'
+            )
+        if 'def gps_of' not in ft:
+            problems.append('image_filter 没有 `gps_of()` —— Commons 的 GPS 取不出来')
+
+    # ── ⑤ 二次审查入口还在（用户：「采集完你得做二次的审查」）──
+    hits += 1
+    tool = REPO / 'tools' / 'review_images.py'
+    if not tool.exists():
+        problems.append('tools/review_images.py 不存在 —— 采集完没有二次审查这道关卡')
+    else:
+        t = strip_comments_keep_lines(tool.read_text(encoding='utf-8'))
+        if '"sheet"' not in t and "'sheet'" not in t:
+            problems.append('review_images.py 没有 `sheet` 模式 —— 出不了对照表图')
+        if '"apply"' not in t and "'apply'" not in t:
+            problems.append('review_images.py 没有 `apply` 模式 —— 判定回写不了数据')
+
+    check(label, problems, 5, hits)
+
+
 def main() -> int:
     print('=== 应用结构静态校验 ===\n')
     check_barrels()
@@ -7107,6 +7238,7 @@ def main() -> int:
     check_vendor_risk()
     check_scroll_chain()
     check_mobile_shell()
+    check_images()
 
     print('')
     for n in notes:
