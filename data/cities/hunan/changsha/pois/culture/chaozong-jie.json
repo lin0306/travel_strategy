@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/19364399/pexels-photo-19364399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/19364399/pexels-photo-19364399.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4160,
-      "height": 6240,
-      "alt": "A lively street in Changsha, China, showcasing local architecture and daily life.",
-      "query": "Chinese old town street changsha",
-      "credit": {
-        "source": "pexels",
-        "author": "Yifan Lai",
-        "sourceUrl": "https://www.pexels.com/photo/houses-along-narrow-street-19364399/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/19364400/pexels-photo-19364400.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/19364400/pexels-photo-19364400.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4160,
-      "height": 6240,
-      "alt": "A serene street scene in a historic district of Changsha, Hunan, China, featuring traditional buildings.",
-      "query": "Chinese old town street changsha",
-      "credit": {
-        "source": "pexels",
-        "author": "Yifan Lai",
-        "sourceUrl": "https://www.pexels.com/photo/street-between-residential-buildings-19364400/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/30381287/pexels-photo-30381287.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/30381287/pexels-photo-30381287.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3000,
-      "height": 4000,
-      "alt": "Scenic street view of a traditional pagoda in Changsha, China amid lush greenery.",
-      "query": "Chinese old town street changsha",
-      "credit": {
-        "source": "pexels",
-        "author": "Diego Spano",
-        "sourceUrl": "https://www.pexels.com/photo/historic-pagoda-in-downtown-changsha-30381287/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "老街",
@@ -108,5 +62,6 @@
   },
   "_geocodeTitle": "潮宗街历史文化街区",
   "_geocodeSuspect": false,
-  "district": "430105"
+  "district": "430105",
+  "_noImage": true
 }

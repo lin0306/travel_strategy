@@ -394,8 +394,8 @@ def pick_images(
             break
         candidates += search_wikimedia(kw)
 
-    # ② Pexels / Unsplash：**拉丁文关键词限定**
-    if _is_latin(en_query):
+    # ② Pexels / Unsplash：**停用**（理由见 `USE_STOCK_SOURCES`）
+    if USE_STOCK_SOURCES and _is_latin(en_query):
         for search in (search_pexels, search_unsplash):
             if len(candidates) >= max_keep:
                 break
@@ -427,9 +427,27 @@ def pick_images(
     return picked
 
 
+#: ★★ 配图库（Pexels / Unsplash）**停用**（2026-10-30，西安 + 长春两轮审查实测后）。
+#:
+#:   它们是**主题配图库，不是地点图库**：搜「Changchun Ice and Snow World」只会得到
+#:   一张泛用的冰城堡，搜「Nong'an Liao Pagoda」得到的是**上海**的古塔 ——
+#:   画面和点位毫无关系，正是用户 2026-10-28 指出的那类错图（青龙寺挂着地铁站照片）。
+#:
+#:   更难办的是它们**没有任何地点元数据**（无 GPS、无 Commons 分类），
+#:   `verdict_for` 对这类图基本只能靠标题黑名单碰运气 —— 过滤器拦不住。
+#:   长春首审 57 张封面里 33 张是错的，两个配图库贡献的几乎全错。
+#:
+#: ★ 用户定的原则：**没实景就走占位卡，绝不垫一张别的地方的图**。
+#:   这条与 2026-10-29 删掉「品类氛围图兜底」是同一条 —— 那次删的是"用同类图垫"，
+#:   这次停的是"用配图库的泛用图垫"。
+USE_STOCK_SOURCES = False
+
+
 def configured_sources() -> list[str]:
-    """当前环境实际可用的图源，**按优先级排列**（不是字母序）。"""
+    """当前环境实际**启用**的图源，**按优先级排列**（不是字母序）。"""
     avail = ["wikimedia"]                        # 无需 key，永远可用；精确命中率最高
+    if not USE_STOCK_SOURCES:
+        return avail                             # ★ 配了 key 也不启用，理由见常量注释
     if _pexels_headers():
         avail.append("pexels")
     if _unsplash_headers():

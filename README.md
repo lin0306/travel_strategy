@@ -18,7 +18,11 @@
 | `tools/` | 工程护栏与体检工具 | 跨两端，不属于任何一端 |
 | `web/` | 展示工程（Vite7 + React19 + TS + RR7，纯静态 SSG） | 只做**展示**。`web/` 下不许有 Python |
 | `plans/` | 设计文档 —— **改代码前先看这里** | 人读 |
+| `docs/` | 操作手册（定时任务 / 图片审查 SOP） | 与 `plans/` 分开：`plans` 讲**为什么这么设计**，`docs` 讲**今天怎么操作** |
 | `_tmp/` | 一次性探针与临时产物（git 忽略） | 随时可删 |
+
+> **给 AI 执行者**：先读 [`AGENTS.md`](AGENTS.md)（开工顺序 / 命令 / 红线 / 高频坑）。
+> 定时任务的完整手册在 [`docs/automation-image-review.md`](docs/automation-image-review.md)。
 
 > `data/` 刻意留在仓库根（在 `web/` 之外），以便"数据目录可整体拿走复用"。
 
@@ -48,7 +52,7 @@ pipeline/
 
 | 文件 | 作用 |
 |------|------|
-| `check_app.py` | 工程护栏 A–AQ，改代码后必跑，目标 `ALL_CLEAN` |
+| `check_app.py` | 工程护栏 A–AV（36 组），改代码后必跑，目标 `ALL_CLEAN` |
 | `check_seed.py` | 采编稿体检（入库前跑，支持 `--all` 扫全部城市） |
 | `audit_suspects.py` | 列出全站 `_geocodeSuspect` 点位（只读） |
 | `rmdir_dist.py` | 清 `web/dist`，绕开 safe-delete 钩子导致的构建死锁 |
@@ -65,7 +69,7 @@ cd web
 pnpm install
 pnpm dev        # http://localhost:5173
 pnpm build      # 产出 web/dist —— Netlify 的发布目录
-pnpm check      # 工程守则 A–AQ，目标 ALL_CLEAN
+pnpm check      # 工程守则 A–AV，目标 ALL_CLEAN
 ```
 
 `pnpm check` 会在**改代码之后**跑一遍结构校验（含 `tsc --noEmit`、单文件 420 行上限、

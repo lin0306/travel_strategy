@@ -1,6 +1,6 @@
 # 承德 · 数据来源与图片版权
 
-> 生成于 2026-10-30 · 城市数据最后更新 2026-10-01
+> 生成于 2026-10-31 · 城市数据最后更新 2026-10-01
 
 ## 概览
 
@@ -80,125 +80,97 @@
 | 安远庙 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Anyuan_Temple_20160905_(1).jpg) |
 | 安远庙 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Anyuan_Temple_20160905_(2).jpg) |
 | 安远庙 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Anyuan_Temple_20160905_(3).jpg) |
+| 安远庙 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Anyuan_Temple_20160905_(4).jpg) |
+| 安远庙 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Anyuan_Temple_20160905_(5).jpg) |
+| 安远庙 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Anyuan_Temple_20160905_(6).jpg) |
 | 避暑山庄博物馆 | Auongkinghe | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%93%9C%E8%83%8E%E6%8E%90%E4%B8%9D%E7%8F%90%E7%90%85%E5%85%AB%E5%AE%9D_20260401_123607.jpg) |
 | 避暑山庄 | Алексей Бондаренко | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort,_Pagoda.jpg) |
 | 避暑山庄 | takwing.kwong | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort_1.jpg) |
-| 避暑山庄 | takwing.kwong | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort_15.jpg) |
-| 承德博物馆 | Gül Işık | Pexels License | [pexels](https://www.pexels.com/photo/intricate-istanbul-museum-interior-display-35870231/) |
-| 承德博物馆 | Teysa Tugadi | Pexels License | [pexels](https://www.pexels.com/photo/a-statue-of-a-buddha-in-a-glass-case-27945763/) |
-| 承德博物馆 | Stijn Dijkstra | Pexels License | [pexels](https://www.pexels.com/photo/ceiling-with-bas-reliefs-and-chandelier-15074424/) |
-| 京北第一草原 | Whereisthetruthicantfindyou | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Fengning_Jing_Bei_meadow.jpg) |
+| 避暑山庄 | takwing.kwong | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort_10.jpg) |
+| 避暑山庄 | takwing.kwong | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort_11.jpg) |
+| 避暑山庄 | takwing.kwong | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort_13.jpg) |
+| 避暑山庄 | takwing.kwong | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort_14.jpg) |
+| 承德博物馆 | H2v5o68z | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bronze_Mask,_Liao_Dynasty.jpg) |
+| 承德博物馆 | H2v5o68z | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_Museum_1.jpg) |
+| 承德博物馆 | H2v5o68z | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_Museum_2.jpg) |
+| 承德博物馆 | H2v5o68z | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_Museum_3.jpg) |
+| 承德博物馆 | H2v5o68z | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_Museum_4.jpg) |
+| 承德博物馆 | H2v5o68z | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_Museum_5.jpg) |
 | 蛤蟆石 | 颐园新居 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%9B%A4%E8%9F%86%E7%9F%B320120804.JPG) |
-| 金山岭长城 | ainc T | Pexels License | [pexels](https://www.pexels.com/photo/elegant-corridor-at-beijing-summer-palace-36163424/) |
-| 金山岭长城 | fei wang | Pexels License | [pexels](https://www.pexels.com/photo/clear-sky-over-temple-15383971/) |
-| 金山岭长城 | Eline SUN | Pexels License | [pexels](https://www.pexels.com/photo/aerial-view-of-buildings-in-the-mountains-11729924/) |
-| 辽河源 | Eline SUN | Pexels License | [pexels](https://www.pexels.com/photo/aerial-view-of-buildings-in-the-mountains-11729924/) |
-| 辽河源 | fei wang | Pexels License | [pexels](https://www.pexels.com/photo/clear-sky-over-temple-15383971/) |
-| 辽河源 | 柳树 无 | Pexels License | [pexels](https://www.pexels.com/photo/scenic-autumn-lake-view-in-wuxi-china-35342644/) |
+| 金山岭长城 | Jakub Hałun | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20090529_Great_Wall_8185.jpg) |
+| 金山岭长城 | 西風 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%BF%9C%E7%9C%BA%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_-_panoramio.jpg) |
+| 金山岭长城 | Shajia1110 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E.JPG) |
+| 金山岭长城 | Nikolaj Potanin from Russia | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_(20263859341).jpg) |
+| 金山岭长城 | Nikolaj Potanin from Russia | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_(8094089598).jpg) |
+| 金山岭长城 | Nikolaj Potanin from Russia | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_-_Jinshanling_Great_Wall_(7837703954).jpg) |
 | 罗汉山 | SCJiang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20161004_%E7%BD%97%E6%B1%89%E5%B1%B1%E7%AB%99%E5%87%BA%E5%85%A5%E5%8F%A3_1.jpg) |
 | 罗汉山 | SCJiang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20161004_%E7%BD%97%E6%B1%89%E5%B1%B1%E7%AB%99%E5%87%BA%E5%85%A5%E5%8F%A3_2.jpg) |
 | 罗汉山 | SCJiang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20161004_%E7%BD%97%E6%B1%89%E5%B1%B1%E7%AB%99%E5%87%BA%E5%85%A5%E5%8F%A3_3.jpg) |
-| 茅荆坝 | Eline SUN | Pexels License | [pexels](https://www.pexels.com/photo/aerial-view-of-buildings-in-the-mountains-11729924/) |
-| 茅荆坝 | fei wang | Pexels License | [pexels](https://www.pexels.com/photo/clear-sky-over-temple-15383971/) |
-| 茅荆坝 | 柳树 无 | Pexels License | [pexels](https://www.pexels.com/photo/scenic-autumn-lake-view-in-wuxi-china-35342644/) |
-| 木兰围场 | wuqiang_beijing | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9D%9D%E4%B8%8A_%E6%9C%A8%E5%85%B0%E5%9B%B4%E5%9C%BA_-_panoramio.jpg) |
-| 木兰围场 | wuqiang_beijing | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9D%9D%E4%B8%8A_%E6%9C%A8%E5%85%B0%E5%9B%B4%E5%9C%BA_-_panoramio_-_wuqiang_beijing.jpg) |
-| 木兰围场 | wuqiang_beijing | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9D%9D%E4%B8%8A_%E6%9C%A8%E5%85%B0%E5%9B%B4%E5%9C%BA_-_panoramio_-_wuqiang_beijing_(1).jpg) |
+| 罗汉山 | SCJiang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20161004_%E7%BD%97%E6%B1%89%E5%B1%B1%E7%AB%99%E5%9C%B0%E9%9D%A2%E8%A1%97%E6%99%AF.jpg) |
+| 罗汉山 | SCJiang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20161004_%E7%BD%97%E6%B1%89%E5%B1%B1%E7%AB%99%E5%9C%B0%E9%9D%A2%E8%A1%97%E6%99%AF_2.jpg) |
+| 罗汉山 | SCJiang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20161225_Nameboard_of_Luohanshan_Station.jpg) |
 | 蟠龙湖 | LukeLOU | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Base_of_a_pillar_excavated_at_Hushu_Road.jpg) |
 | 蟠龙湖 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hangzhou_Nansong_Taimiao_Yizhi_20120518-01.jpg) |
 | 蟠龙湖 | LukeLOU | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Ornaments_on_the_base_of_a_pillar_excavated_at_Hushu_Road.jpg) |
 | 普乐寺 | Dirrival | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Pule_Temple.jpg) |
 | 普乐寺 | 颐园新居 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Pule_Temple_201208.JPG) |
 | 普乐寺 | Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Pule_Temple_%E6%99%AE%E4%B9%90%E5%AF%BA_(28610082220).jpg) |
+| 普乐寺 | Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Pule_Temple_%E6%99%AE%E4%B9%90%E5%AF%BA_(28863864446).jpg) |
+| 普乐寺 | 梓地 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%99%AE%E4%B9%90%E5%AF%BA%E6%97%AD%E5%85%89%E9%98%81_%E8%A1%8C%E6%91%84%E6%A2%93%E5%9C%B0_20130921_081108.jpg) |
+| 普乐寺 | 梓地 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%99%AE%E4%B9%90%E5%AF%BA%E7%9F%B3%E5%8F%B0%E5%86%85%E9%83%A8%E7%9A%84%E6%A5%BC%E6%A2%AF_%E8%A1%8C%E6%91%84%E6%A2%93%E5%9C%B0_20130920_112123M.jpg) |
 | 普宁寺 | AleBo | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Puning_Temple,_Hall_of_Mahayana.jpg) |
 | 普宁寺 | Алексей Бондаренко | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Puning_Temple,_Place_in_front_of_hall_of_Mahayana.jpg) |
+| 普宁寺 | H2v5o68z | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Puning_Temple_11.jpg) |
+| 普宁寺 | H2v5o68z | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Puning_Temple_12.jpg) |
 | 普宁寺 | H2v5o68z | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Puning_Temple_13.jpg) |
-| 普陀宗乘之庙 | 征宇 郑 | Pexels License | [pexels](https://www.pexels.com/photo/wanshou-mountain-and-summer-palace-in-beijing-20694799/) |
-| 普陀宗乘之庙 | Eline SUN | Pexels License | [pexels](https://www.pexels.com/photo/aerial-view-of-buildings-in-the-mountains-11729924/) |
-| 普陀宗乘之庙 | fei wang | Pexels License | [pexels](https://www.pexels.com/photo/clear-sky-over-temple-15383971/) |
+| 普宁寺 | H2v5o68z | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Puning_Temple_14.jpg) |
+| 普陀宗乘之庙 | Maros M r a z (Maros) | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde,_China_-_026.jpg) |
+| 普陀宗乘之庙 | Yiwa | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_lama_temple.jpg) |
+| 普陀宗乘之庙 | Kzrulzuall | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_view_from_mountain_top.jpg) |
+| 普陀宗乘之庙 | Gisling | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Putuo_Zongcheng_Temple.jpg) |
+| 普陀宗乘之庙 | 颐园新居 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_Putuo_Zongcheng_Temple_201208.JPG) |
+| 普陀宗乘之庙 | Алексей Бондаренко | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Putuo_Zongcheng_Temple,_Hall_of_Buddhist_Doctrine_Unifying.jpg) |
 | 磬锤峰 | Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Sledgehammer_Peak_%E7%A3%AC%E9%94%A4%E5%B3%B0_(28610082990).jpg) |
 | 磬锤峰 | Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Sledgehammer_Peak_%E7%A3%AC%E9%94%A4%E5%B3%B0_(28610083850).jpg) |
 | 磬锤峰 | Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Sledgehammer_Peak_%E7%A3%AC%E9%94%A4%E5%B3%B0_(28610084980).jpg) |
-| 七星湖 | 阿道 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Menghuan_Lake-01.2023-08-19.jpg) |
-| 七星湖 | 阿道 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Menghuan_Lake-02.2023-08-19.jpg) |
-| 七星湖 | 阿道 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Menghuan_Lake-03.2023-08-19.jpg) |
-| 热河泉 | takwing.kwong | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort_8.jpg) |
-| 热河泉 | Taken by Vberger | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort02.jpg) |
+| 磬锤峰 | Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Sledgehammer_Peak_%E7%A3%AC%E9%94%A4%E5%B3%B0_(28610085630).jpg) |
+| 磬锤峰 | Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Sledgehammer_Peak_%E7%A3%AC%E9%94%A4%E5%B3%B0_(28610086660).jpg) |
+| 磬锤峰 | Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:The_Toad_%E8%9B%A4%E8%9F%86_(28279590863).jpg) |
 | 塞罕坝国家森林公园 | Mingyang Liu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Early_Morning_Of_Wetland_(242408651).jpeg) |
 | 塞罕坝国家森林公园 | Charlie fong | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Saihan_Tower_Hebei.jpg) |
 | 塞罕坝国家森林公园 | 陈文 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Saihanba_National_Forest_Park(Autumn_2011)_-_panoramio.jpg) |
-| 僧冠峰 | Eline SUN | Pexels License | [pexels](https://www.pexels.com/photo/aerial-view-of-buildings-in-the-mountains-11729924/) |
-| 僧冠峰 | fei wang | Pexels License | [pexels](https://www.pexels.com/photo/clear-sky-over-temple-15383971/) |
-| 僧冠峰 | 柳树 无 | Pexels License | [pexels](https://www.pexels.com/photo/scenic-autumn-lake-view-in-wuxi-china-35342644/) |
-| 双塔山 | Eline SUN | Pexels License | [pexels](https://www.pexels.com/photo/aerial-view-of-buildings-in-the-mountains-11729924/) |
-| 双塔山 | fei wang | Pexels License | [pexels](https://www.pexels.com/photo/clear-sky-over-temple-15383971/) |
-| 双塔山 | 柳树 无 | Pexels License | [pexels](https://www.pexels.com/photo/scenic-autumn-lake-view-in-wuxi-china-35342644/) |
+| 塞罕坝国家森林公园 | Original uploader was 用心阁 at zh.wikipedia | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Saihanba_park.jpg) |
+| 塞罕坝国家森林公园 | wuqiang_beijing | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9D%9D%E4%B8%8A_%E6%9C%A8%E5%85%B0%E5%9B%B4%E5%9C%BA_-_panoramio.jpg) |
+| 塞罕坝国家森林公园 | wuqiang_beijing | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9D%9D%E4%B8%8A_%E6%9C%A8%E5%85%B0%E5%9B%B4%E5%9C%BA_-_panoramio_-_wuqiang_beijing.jpg) |
+| 僧冠峰 | Huaisu | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Huaisu_-_Autobiography.jpg) |
+| 双塔山 | Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%22Axe_of_the_gods%22_(28279594953).jpg) |
+| 双塔山 | Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%22Axe_of_the_gods%22_(28279596973).jpg) |
+| 双塔山 | Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%22Turtle_rock%22_shrine_(28277247784).jpg) |
+| 双塔山 | Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Concrete_mushrooms_(28819466891).jpg) |
+| 双塔山 | Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Concrete_mushrooms_(28894599185).jpg) |
+| 双塔山 | Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Concrete_mushrooms_(28894601145).jpg) |
 | 殊像寺 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250603_Shuxiang_Si.jpg) |
 | 殊像寺 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Entrance_Paifang_of_Shuxiang_Temple,_Wutaishan_(20240608081824).jpg) |
 | 殊像寺 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Flags_of_China_and_Buddhism_at_Shuxiang_Temple,_Wutaishan_(20240608082828).jpg) |
+| 殊像寺 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Four_Heavenly_Kings_Hall_of_Shuxiang_Temple,_Wutaishan_(20240608082703).jpg) |
+| 殊像寺 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Grand_Manjusri_Hall_of_Shuxiang_Temple,_Wutaishan_(20240608083205).jpg) |
+| 殊像寺 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shuxiang_Temple,_seen_from_the_Mountain_Resort,_2016-09-05.jpg) |
+| 雾灵山 | 西風 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%BF%9C%E7%9C%BA%E9%9B%BE%E7%81%B5%E5%B1%B1_-_panoramio.jpg) |
+| 雾灵山 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9B%BE%E7%81%B5%E5%B1%B1_-_panoramio.jpg) |
 | 雾灵山 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9B%BE%E7%81%B5%E5%B1%B1_-_panoramio_-_Tiger@%E8%A5%BF%E5%8C%97.jpg) |
 | 雾灵山 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9B%BE%E7%81%B5%E5%B1%B1_-_panoramio_-_Tiger@%E8%A5%BF%E5%8C%97_(1).jpg) |
 | 雾灵山 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9B%BE%E7%81%B5%E5%B1%B1_-_panoramio_-_Tiger@%E8%A5%BF%E5%8C%97_(2).jpg) |
-| 兴隆溶洞 | Eline SUN | Pexels License | [pexels](https://www.pexels.com/photo/aerial-view-of-buildings-in-the-mountains-11729924/) |
-| 兴隆溶洞 | fei wang | Pexels License | [pexels](https://www.pexels.com/photo/clear-sky-over-temple-15383971/) |
-| 兴隆溶洞 | 柳树 无 | Pexels License | [pexels](https://www.pexels.com/photo/scenic-autumn-lake-view-in-wuxi-china-35342644/) |
-| 须弥福寿之庙 | wangleon | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xumi_Fushou_Temple.jpg) |
-| 须弥福寿之庙 | H2v5o68z | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xumi_Fushou_Temple_10.jpg) |
-| 须弥福寿之庙 | H2v5o68z | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xumi_Fushou_Temple_11.jpg) |
-| 御道口草原森林风景区 | Eline SUN | Pexels License | [pexels](https://www.pexels.com/photo/aerial-view-of-buildings-in-the-mountains-11729924/) |
-| 御道口草原森林风景区 | fei wang | Pexels License | [pexels](https://www.pexels.com/photo/clear-sky-over-temple-15383971/) |
-| 御道口草原森林风景区 | 柳树 无 | Pexels License | [pexels](https://www.pexels.com/photo/scenic-autumn-lake-view-in-wuxi-china-35342644/) |
-| 坝上烤全羊 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 坝上烤全羊 | Vincent Tan | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-tea-house-interior-lighting-33965578/) |
-| 坝上烤全羊 | Vincent Tan | Pexels License | [pexels](https://www.pexels.com/photo/cozy-traditional-asian-restaurant-interior-33137968/) |
-| 承德凉粉 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 承德凉粉 | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/) |
-| 承德凉粉 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 二仙居美食街 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 二仙居美食街 | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/) |
-| 二仙居美食街 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 二仙居碗坨 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 二仙居碗坨 | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/) |
-| 二仙居碗坨 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 驴打滚 | Herbarium of the University of Coimbra (COI) | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:COI00041385_-_Youngia_flexuosa_-_Regel,_Albert_von_-_s.n..jpg) |
-| 驴打滚 | Fumikas Sagisavas | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Donkey_roll.jpg) |
-| 驴打滚 | ZhengZhou | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lyu_Da_Gun.jpg) |
-| 满族八大碗 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 满族八大碗 | Vincent Tan | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-tea-house-interior-lighting-33965578/) |
-| 满族八大碗 | Vincent Tan | Pexels License | [pexels](https://www.pexels.com/photo/cozy-traditional-asian-restaurant-interior-33137968/) |
-| 鲜花玫瑰饼 | Steve F | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Begonia_flower_cake_-_geograph.org.uk_-_854608.jpg) |
-| 鲜花玫瑰饼 | mags | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bunch_of_roses_cake.jpg) |
+| 雾灵山 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9B%BE%E7%81%B5%E5%B1%B1_%E7%BC%86%E8%BD%A6_-_panoramio.jpg) |
 | 鲜花玫瑰饼 | Stevenliuyi | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chinese_Flower_Cake.jpg) |
-| 平泉羊汤 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 平泉羊汤 | Vincent Tan | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-tea-house-interior-lighting-33965578/) |
-| 平泉羊汤 | Vincent Tan | Pexels License | [pexels](https://www.pexels.com/photo/cozy-traditional-asian-restaurant-interior-33137968/) |
-| 荞面河漏 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 荞面河漏 | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/) |
-| 荞面河漏 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 汽锅野味八仙 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 汽锅野味八仙 | Vincent Tan | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-tea-house-interior-lighting-33965578/) |
-| 汽锅野味八仙 | Vincent Tan | Pexels License | [pexels](https://www.pexels.com/photo/cozy-traditional-asian-restaurant-interior-33137968/) |
-| 山庄茶馆 | Andy Lee | Pexels License | [pexels](https://www.pexels.com/photo/cozy-rustic-coffee-shop-interior-with-wooden-furniture-34338427/) |
-| 山庄茶馆 | Yanho Mo | Pexels License | [pexels](https://www.pexels.com/photo/ancient-chinese-pagoda-surrounded-by-bamboo-37684338/) |
-| 山庄茶馆 | Sóc Năng Động | Pexels License | [pexels](https://www.pexels.com/photo/cozy-cafe-corner-with-lamp-and-chair-32354649/) |
-| 围场山野菜 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 围场山野菜 | Vincent Tan | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-tea-house-interior-lighting-33965578/) |
-| 围场山野菜 | Vincent Tan | Pexels License | [pexels](https://www.pexels.com/photo/cozy-traditional-asian-restaurant-interior-33137968/) |
-| 兴隆农家院 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 兴隆农家院 | Vincent Tan | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-tea-house-interior-lighting-33965578/) |
-| 兴隆农家院 | Vincent Tan | Pexels License | [pexels](https://www.pexels.com/photo/cozy-traditional-asian-restaurant-interior-33137968/) |
-| 御膳房 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 御膳房 | Vincent Tan | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-tea-house-interior-lighting-33965578/) |
-| 御膳房 | Vincent Tan | Pexels License | [pexels](https://www.pexels.com/photo/cozy-traditional-asian-restaurant-interior-33137968/) |
-| 御土荷叶鸡 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 御土荷叶鸡 | Vincent Tan | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-tea-house-interior-lighting-33965578/) |
-| 御土荷叶鸡 | Vincent Tan | Pexels License | [pexels](https://www.pexels.com/photo/cozy-traditional-asian-restaurant-interior-33137968/) |
-| 棒槌山日落 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort_22606-Chengde_(44764515731).jpg) |
-| 棒槌山日落 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort_22608-Chengde_(44045920444).jpg) |
-| 棒槌山日落 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort_22610-Chengde_(44715395592).jpg) |
-| 坝上草原星空 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort_22606-Chengde_(44764515731).jpg) |
-| 坝上草原星空 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort_22608-Chengde_(44045920444).jpg) |
-| 坝上草原星空 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort_22614-Chengde_(30893917748).jpg) |
+| 鲜花玫瑰饼 | Hyuki | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E7%8E%AB%E7%91%B0%E9%B2%9C%E8%8A%B1%E9%A5%BC-2164122.jpg) |
+| 鲜花玫瑰饼 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E7%8E%AB%E7%91%B0%E9%B2%9C%E8%8A%B1%E9%A5%BC.jpg) |
+| 鲜花玫瑰饼 | Wwbread | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%B3%95%E7%82%B9-Chinese_Pastries.jpg) |
+| 御膳房 | Wikimedia Commons 贡献者 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:510_Haute_Cuisine_Menu_-_DPLA_-_1dc4b7e84cac13622741f855fe11761b_(page_1).jpg) |
+| 御膳房 | Wikimedia Commons 贡献者 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:510_Haute_Cuisine_Menu_-_DPLA_-_1dc4b7e84cac13622741f855fe11761b_(page_2).jpg) |
+| 御膳房 | Wikimedia Commons 贡献者 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:510_Haute_Cuisine_Menu_-_DPLA_-_1dc4b7e84cac13622741f855fe11761b_(page_3).jpg) |
+| 御膳房 | Wikimedia Commons 贡献者 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:510_Haute_Cuisine_Menu_-_DPLA_-_1dc4b7e84cac13622741f855fe11761b_(page_4).jpg) |
+| 御膳房 | Wikimedia Commons 贡献者 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:510_Haute_Cuisine_Menu_-_DPLA_-_1dc4b7e84cac13622741f855fe11761b_(page_5).jpg) |
+| 御膳房 | Wikimedia Commons 贡献者 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:510_Haute_Cuisine_Menu_-_DPLA_-_1dc4b7e84cac13622741f855fe11761b_(page_6).jpg) |
 | 金山岭长城日出 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort_22606-Chengde_(44764515731).jpg) |
 | 金山岭长城日出 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort_22608-Chengde_(44045920444).jpg) |
 | 金山岭长城日出 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort_22610-Chengde_(44715395592).jpg) |

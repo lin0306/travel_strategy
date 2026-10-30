@@ -668,9 +668,57 @@ def strip_comments_keep_lines(src: str) -> str:
 
     ⚠️ 只删**独占一行**的 `//` 注释，不动行内 `//` —— 行内可能有 `https://…`
     这样的 URL，按 `//[^\\n]*` 删会把字符串截断，导致引号/括号配对全乱。
+
+    ★★ 这是 **TS/JS 版**。拿它处理 `.py` 会出事：Python 里 glob 写法
+    `sheets/*.png` 就含 `/*`，块注释正则会从那里一路吃到下一个 `*/`，
+    把整段代码抹掉 —— 判据读到的文本是空的，**静默失效**（不报错，只是什么都
+    找不到，看起来"全绿"）。Python 文件请用 `strip_py_comments()`。
     """
+    # ⚠️ 别在这里加"剥太多了就退回原文"的自保：本项目注释极多、也真有超长块注释，
+    #    任何基于"剥完剩多少"的阈值都会把正常文件退回原文 —— 反向判据（"不许出现
+    #    `minZoom`"）会立刻被注释里的旧名词误伤，一次报红 13 项。
+    #    Python 文件走 `strip_py_comments()`，两边各管各的。
     out = re.sub(r'/\*.*?\*/', lambda m: '\n' * m.group(0).count('\n'), src, flags=re.S)
     return re.sub(r'^\s*//.*$', '', out, flags=re.M)
+
+
+def strip_py_comments(src: str) -> str:
+    """Python 版去注释：剥 `#` 注释与模块/类/函数 docstring，**保留代码里的字符串**。
+
+    ★ 保留字符串是必须的：`verdict_for(img` 这类判据要落在**调用点**上，
+      而 f-string 里的 `manifest-{scope}.json` 也是判据 —— 字符串不能剥。
+    ★ 用 `tokenize` 而不是正则：正则分不清字符串里的 `#` 和真的注释，
+      也分不清 docstring 和代码里的字符串。
+    """
+    import ast as _ast
+    import io as _io
+    import tokenize as _tok
+
+    # ★ docstring 的位置用 `ast` 精确定位。**不能**用"换行后的第一个字符串"来猜：
+    #   那样会把多行元组每行开头的元素吃掉（BAD_CJK 的「地铁」就在行首，实测被吃）。
+    doc_starts: set[tuple[int, int]] = set()
+    try:
+        tree = _ast.parse(src)
+        for node in _ast.walk(tree):
+            if isinstance(node, (_ast.Module, _ast.ClassDef, _ast.FunctionDef,
+                                 _ast.AsyncFunctionDef)):
+                b0 = node.body[0] if node.body else None
+                if (isinstance(b0, _ast.Expr) and isinstance(b0.value, _ast.Constant)
+                        and isinstance(b0.value.value, str)):
+                    doc_starts.add((b0.lineno, b0.col_offset))
+    except SyntaxError:
+        pass                                # 语法坏了就只剥注释，交给别的检查去报
+
+    try:
+        toks = list(_tok.generate_tokens(_io.StringIO(src).readline))
+    except Exception:
+        return src
+    keep = [t for t in toks
+            if t.type != _tok.COMMENT and t.start[:2] not in doc_starts]
+    try:
+        return _tok.untokenize(keep)
+    except Exception:
+        return src
 
 
 def check_plan() -> None:
@@ -7088,7 +7136,8 @@ def check_images() -> None:
     filt = pmod('image_filter')
 
     def code(p: Path) -> str:
-        return strip_comments_keep_lines(p.read_text(encoding='utf-8')) if p.exists() else ''
+        # ★ Python 文件必须用 Python 版去注释（TS 版会把 `x/*.png` 当块注释起点）
+        return strip_py_comments(p.read_text(encoding='utf-8')) if p.exists() else ''
 
     # ── ① 张数是上限不是目标：不许再有"固定 3 张" ──
     hits += 1
@@ -7120,6 +7169,23 @@ def check_images() -> None:
     if not img_text:
         problems.append(f'{prel("images")} 不存在')
     else:
+        # ── ②½ 配图库（Pexels / Unsplash）必须停用 ──
+        # ★ 它们是**主题配图库不是地点图库**：长春首审 57 张封面里 33 张是错的，
+        #   配图库贡献的几乎全错（搜「农安辽塔」给上海的古塔）。且它们没有
+        #   GPS / Commons 分类，`verdict_for` 拦不住 —— 只能靠看图发现。
+        m = re.search(r'USE_STOCK_SOURCES\s*=\s*(True|False)', img_text)
+        if not m:
+            problems.append(
+                f'{images.name} 没有 `USE_STOCK_SOURCES` —— 配图库开关没有唯一出处')
+        elif m.group(1) != 'False':
+            problems.append(
+                f'{images.name} 的 `USE_STOCK_SOURCES` = True —— Pexels/Unsplash 又启用了。'
+                '实测：这两个源只返回泛用配图（且无地点元数据，过滤器拦不住），'
+                '是"图片和点位毫无关系"的主要来源')
+        if not re.search(r'if\s+USE_STOCK_SOURCES\s+and', img_text):
+            problems.append(
+                f'{images.name} 的配图库调用不受 `USE_STOCK_SOURCES` 控制 —— '
+                '开关写了也会被绕过')
         if 'CATEGORY_FALLBACK' in img_text:
             problems.append(
                 f'{images.name} 里还有 `CATEGORY_FALLBACK` —— 品类氛围图垫底回来了。'
@@ -7174,17 +7240,51 @@ def check_images() -> None:
         if 'def gps_of' not in ft:
             problems.append('image_filter 没有 `gps_of()` —— Commons 的 GPS 取不出来')
 
+    # ── ④½ 护栏自己别拿错工具：Python 文件必须用 Python 版去注释 ──
+    # ★ 这不是洁癖。`strip_comments_keep_lines` 按 `/* … */` 剥块注释，而
+    #   `review_images.py` 的文档里写着 `sheets/*.png` —— 那个 `/*` 会从那里一路
+    #   吃到下一个 `*/`，把整段代码清空。**判据读不到代码 = 静默失效**：
+    #   既不会报"没找到"，也不会对"改坏了"报红，反证也抓不出来。
+    hits += 1
+    own = (REPO / 'tools' / 'check_app.py').read_text(encoding='utf-8')
+    av_src = own[own.index('def check_images('):] if 'def check_images(' in own else own
+    # ★ 拆开拼：判据串本身写在下面，不拆的话它会自己匹配自己，永远为真
+    bad_use = 'strip_comments_keep_lines' + '(p.read_text'
+    if bad_use in av_src:
+        problems.append(
+            'check_images() 里对 Python 文件用了 TS 版 `strip_comments_keep_lines` ——'
+            ' `/*` 误伤会把代码整段抹掉，判据静默失效。Python 一律用 `strip_py_comments`')
+
     # ── ⑤ 二次审查入口还在（用户：「采集完你得做二次的审查」）──
     hits += 1
     tool = REPO / 'tools' / 'review_images.py'
     if not tool.exists():
         problems.append('tools/review_images.py 不存在 —— 采集完没有二次审查这道关卡')
     else:
-        t = strip_comments_keep_lines(tool.read_text(encoding='utf-8'))
-        if '"sheet"' not in t and "'sheet'" not in t:
-            problems.append('review_images.py 没有 `sheet` 模式 —— 出不了对照表图')
-        if '"apply"' not in t and "'apply'" not in t:
-            problems.append('review_images.py 没有 `apply` 模式 —— 判定回写不了数据')
+        t = strip_py_comments(tool.read_text(encoding='utf-8'))
+        # ★★ 判据落"CLI 真的接得到"：光源码里有这个字符串不算（help 文本里也会有），
+        #    必须挂在 argparse 的 choices 上 —— 否则 `review_images.py apply …` 直接报
+        #    invalid choice，而静态判据却全绿。
+        m = re.search(r'choices=\([^)]*\)', t)
+        choices = m.group(0) if m else ''
+        for mode, why in (('sheet', '出不了对照表图'), ('apply', '判定回写不了数据'),
+                          ('next', '定时任务没有选城入口')):
+            if f'"{mode}"' not in choices:
+                problems.append(f'review_images.py 的 choices 里没挂 `{mode}` —— {why}')
+        if 'def cmd_next(' not in t:
+            problems.append('review_images.py 没有 `cmd_next(` —— 选城逻辑不在')
+        # ★★ manifest 必须按 scope 分文件：封面清单与全量清单的 idx 编号不同，
+        #    共用一个 manifest.json 会让 apply 按错序号删图（删掉对的、留下错的）。
+        # ★ 要 **≥2 处**：sheet 写 + apply 读，缺一处就会退回共用的 manifest.json
+        if t.count('manifest-{scope}.json') < 2:
+            problems.append(
+                'review_images.py 的 manifest 没有按 scope 分文件'
+                '（sheet 写 + apply 读都要用 `manifest-{scope}.json`）——'
+                ' 封面/全量两个清单 idx 会串，apply 删错图')
+        if 'verdicts-{scope}.jsonl' not in t:
+            problems.append(
+                'review_images.py 的 verdicts 没有按 scope 分文件'
+                '（`verdicts-{scope}.jsonl`）—— 两轮判定会互相覆盖')
 
     check(label, problems, 5, hits)
 
