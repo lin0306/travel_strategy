@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/33866942/pexels-photo-33866942.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/33866942/pexels-photo-33866942.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Capture of traditional Huizhou architecture in Huangshan, Anhui, China, against a bright blue sky.",
-      "query": "Chinese historic architecture huangshan",
-      "credit": {
-        "source": "pexels",
-        "author": "Wang ZH",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-huizhou-architecture-under-blue-sky-33866942/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39725230/pexels-photo-39725230.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39725230/pexels-photo-39725230.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3957,
-      "height": 5935,
-      "alt": "Traditional Chinese architecture captured in Huangshan, China.",
-      "query": "Chinese historic architecture huangshan",
-      "credit": {
-        "source": "pexels",
-        "author": "Cheng Shi Song",
-        "sourceUrl": "https://www.pexels.com/photo/ancient-architecture-in-huangshan-china-39725230/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/29911444/pexels-photo-29911444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/29911444/pexels-photo-29911444.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Traditional Chinese rooftops with carved details against a lush mountain backdrop.",
-      "query": "Chinese historic architecture huangshan",
-      "credit": {
-        "source": "pexels",
-        "author": "家俊 胡",
-        "sourceUrl": "https://www.pexels.com/photo/ancient-rooftop-architecture-with-mountain-view-29911444/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "古村",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "南屏景区",
   "_geocodeSuspect": false,
-  "district": "341023"
+  "district": "341023",
+  "_noImage": true
 }

@@ -45,53 +45,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/20499728/pexels-photo-20499728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/20499728/pexels-photo-20499728.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Night view of the illuminated Jiaxiu Tower in Guiyang, China, reflecting on the water.",
-      "query": "Chinese classical garden guiyang",
-      "credit": {
-        "source": "pexels",
-        "author": "Tito Zzzz",
-        "sourceUrl": "https://www.pexels.com/photo/jiaxiu-tower-in-guiyang-at-night-20499728/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/29431917/pexels-photo-29431917.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/29431917/pexels-photo-29431917.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 7952,
-      "height": 5203,
-      "alt": "Harmonious blend of traditional Chinese pavilion and modern skyscraper in cityscape.",
-      "query": "Chinese classical garden guiyang",
-      "credit": {
-        "source": "pexels",
-        "author": "雨 幽",
-        "sourceUrl": "https://www.pexels.com/photo/ancient-pavilion-and-modern-skyscraper-contrast-29431917/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/16483319/pexels-photo-16483319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/16483319/pexels-photo-16483319.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3264,
-      "height": 2448,
-      "alt": "Scenic view of Jiaxiu Pavilion along the Nanming River in Guiyang, China, surrounded by urban parkland.",
-      "query": "Chinese classical garden guiyang",
-      "credit": {
-        "source": "pexels",
-        "author": "Megan Judge",
-        "sourceUrl": "https://www.pexels.com/photo/view-of-the-jiaxiu-pavilion-in-guiyang-china-16483319/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "石林",
@@ -107,7 +61,7 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -115,5 +69,6 @@
   },
   "_geocodeTitle": "贵阳喀斯特公园",
   "_geocodeSuspect": false,
-  "district": "520115"
+  "district": "520115",
+  "_noImage": true
 }

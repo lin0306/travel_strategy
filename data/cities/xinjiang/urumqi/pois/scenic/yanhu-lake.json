@@ -44,53 +44,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Txu-oclc-6654394-nk-45-3rd-ed.jpg/1280px-Txu-oclc-6654394-nk-45-3rd-ed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Txu-oclc-6654394-nk-45-3rd-ed.jpg/1280px-Txu-oclc-6654394-nk-45-3rd-ed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1182,
-      "alt": "Txu-oclc-6654394-nk-45-3rd-ed.jpg",
-      "query": "盐湖 乌鲁木齐",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Defense Mapping Agency",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Txu-oclc-6654394-nk-45-3rd-ed.jpg",
-        "license": "Public domain",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Great_Salt_Lake_UT1.jpg/1280px-Great_Salt_Lake_UT1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Great_Salt_Lake_UT1.jpg/1280px-Great_Salt_Lake_UT1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 589,
-      "alt": "Great Salt Lake UT1.jpg",
-      "query": "盐湖",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Acroterion",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Salt_Lake_UT1.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Great_Salt_Lake_by_Sentinel-2.jpg/1280px-Great_Salt_Lake_by_Sentinel-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Great_Salt_Lake_by_Sentinel-2.jpg/1280px-Great_Salt_Lake_by_Sentinel-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1029,
-      "alt": "Great Salt Lake by Sentinel-2.jpg",
-      "query": "盐湖",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Copernicus Sentinel-2, ESA",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Salt_Lake_by_Sentinel-2.jpg",
-        "license": "CC BY-SA 3.0 igo",
-        "attributionRequired": true
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "盐湖",
@@ -106,7 +60,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Yanhu Lake Urumqi",
@@ -114,5 +68,6 @@
   },
   "_geocodeTitle": "盐湖街道",
   "_geocodeSuspect": false,
-  "district": "650107"
+  "district": "650107",
+  "_noImage": true
 }

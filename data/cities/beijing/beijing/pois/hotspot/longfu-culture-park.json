@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/789_art_museum_%28Unsplash%29.jpg/1280px-789_art_museum_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/789_art_museum_%28Unsplash%29.jpg/1280px-789_art_museum_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 738,
-      "alt": "789 art museum (Unsplash).jpg",
-      "query": "art district gallery beijing",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Kuan Fang fangkuan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:789_art_museum_(Unsplash).jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/798_Art_District_beijing_inside_of_a_gallery.jpg/1280px-798_Art_District_beijing_inside_of_a_gallery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/798_Art_District_beijing_inside_of_a_gallery.jpg/1280px-798_Art_District_beijing_inside_of_a_gallery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 710,
-      "alt": "798 Art District beijing inside of a gallery.jpg",
-      "query": "art district gallery beijing",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Khalid Albaih",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:798_Art_District_beijing_inside_of_a_gallery.jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Exhibition_at_798_Space.jpg/1280px-Exhibition_at_798_Space.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Exhibition_at_798_Space.jpg/1280px-Exhibition_at_798_Space.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 819,
-      "alt": "Exhibition at 798 Space.jpg",
-      "query": "art district gallery beijing",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Llavigne at English Wikipedia",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Exhibition_at_798_Space.jpg",
-        "license": "Public domain",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "文创园",
@@ -108,5 +62,6 @@
   },
   "_geocodeTitle": "隆福文创园",
   "_geocodeSuspect": false,
-  "district": "110101"
+  "district": "110101",
+  "_noImage": true
 }

@@ -44,53 +44,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/2870116/pexels-photo-2870116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/2870116/pexels-photo-2870116.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5892,
-      "height": 3928,
-      "alt": "Stunning view of a traditional pagoda in Taiyuán, reflecting in a puddle on a cloudy day.",
-      "query": "Jinyang Lake Park Taiyuan",
-      "credit": {
-        "source": "pexels",
-        "author": "Lian Rodriguez",
-        "sourceUrl": "https://www.pexels.com/photo/gray-and-brown-pagoda-2870116/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39921672/pexels-photo-39921672.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39921672/pexels-photo-39921672.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3000,
-      "height": 4000,
-      "alt": "Explore the ancient architecture of twin pagodas at a traditional Chinese temple surrounded by lush greenery.",
-      "query": "Jinyang Lake Park Taiyuan",
-      "credit": {
-        "source": "pexels",
-        "author": "MochiBlink",
-        "sourceUrl": "https://www.pexels.com/photo/majestic-twin-pagodas-in-historic-chinese-temple-39921672/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/17110301/pexels-photo-17110301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/17110301/pexels-photo-17110301.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3476,
-      "height": 2340,
-      "alt": "A vibrant urban park featuring colorful boats, lush greenery, and modern skyline.",
-      "query": "Jinyang Lake Park Taiyuan",
-      "credit": {
-        "source": "pexels",
-        "author": "daneil ren ren",
-        "sourceUrl": "https://www.pexels.com/photo/trees-near-lake-in-park-17110301/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "晋阳湖",
@@ -106,7 +60,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Jinyang Lake Park Taiyuan",
@@ -114,5 +68,6 @@
   },
   "_geocodeTitle": "晋阳湖公园",
   "_geocodeSuspect": false,
-  "district": "140110"
+  "district": "140110",
+  "_noImage": true
 }

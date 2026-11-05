@@ -40,53 +40,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/6502832/pexels-photo-6502832.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/6502832/pexels-photo-6502832.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 7952,
-      "height": 5304,
-      "alt": "Breathtaking landscape of Yangmingshan's lush volcanic crater in Taiwan.",
-      "query": "Yangmingshuwu Yangmingshan",
-      "credit": {
-        "source": "pexels",
-        "author": "Timo Volz",
-        "sourceUrl": "https://www.pexels.com/photo/photo-of-a-green-mountain-6502832/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36392748/pexels-photo-36392748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36392748/pexels-photo-36392748.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3360,
-      "height": 2240,
-      "alt": "Peaceful grassy hill under a clear blue sky with white clouds in Taipei, Taiwan.",
-      "query": "Yangmingshuwu Yangmingshan",
-      "credit": {
-        "source": "pexels",
-        "author": "chunhsien shih",
-        "sourceUrl": "https://www.pexels.com/photo/serene-hill-and-clouds-in-taipei-taiwan-36392748/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/28616641/pexels-photo-28616641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/28616641/pexels-photo-28616641.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3600,
-      "height": 2700,
-      "alt": "Panoramic aerial view of Taipei with surrounding mountains, highlighting the urban landscape.",
-      "query": "Yangmingshuwu Yangmingshan",
-      "credit": {
-        "source": "pexels",
-        "author": "Alix  Lee",
-        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-taipei-cityscape-28616641/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "老建筑",
@@ -102,7 +56,7 @@
       "fetchedAt": "2026-10-03"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Yangmingshuwu Yangmingshan",
@@ -110,5 +64,6 @@
   },
   "_geocodeTitle": "阳明书屋",
   "_geocodeSuspect": false,
-  "district": "711016"
+  "district": "711016",
+  "_noImage": true
 }

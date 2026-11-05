@@ -46,48 +46,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/7494211/pexels-photo-7494211.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/7494211/pexels-photo-7494211.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3264,
-      "height": 4912,
-      "alt": "Tranquil riverside scenery with lush greenery and clear blue sky in Wuhan, China.",
-      "query": "natural landscape China wuhan",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/%E6%9C%A8%E5%85%B0%E8%8D%89%E5%8E%9F%E9%A3%8E%E6%99%AF%E5%8C%BA%E5%A4%A7%E9%97%A8_-_panoramio.jpg/1280px-%E6%9C%A8%E5%85%B0%E8%8D%89%E5%8E%9F%E9%A3%8E%E6%99%AF%E5%8C%BA%E5%A4%A7%E9%97%A8_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/%E6%9C%A8%E5%85%B0%E8%8D%89%E5%8E%9F%E9%A3%8E%E6%99%AF%E5%8C%BA%E5%A4%A7%E9%97%A8_-_panoramio.jpg/1280px-%E6%9C%A8%E5%85%B0%E8%8D%89%E5%8E%9F%E9%A3%8E%E6%99%AF%E5%8C%BA%E5%A4%A7%E9%97%A8_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "木兰草原风景区大门 - panoramio.jpg",
+      "query": "木兰草原",
       "credit": {
-        "source": "pexels",
-        "author": "Leon Huang",
-        "sourceUrl": "https://www.pexels.com/photo/a-shore-under-a-blue-sky-7494211/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/7494208/pexels-photo-7494208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/7494208/pexels-photo-7494208.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4912,
-      "height": 3264,
-      "alt": "Beautiful scenic view of Wuhan's East Lake with lush green trees and aquatic plants under a clear blue sky.",
-      "query": "natural landscape China wuhan",
-      "credit": {
-        "source": "pexels",
-        "author": "Leon Huang",
-        "sourceUrl": "https://www.pexels.com/photo/a-shore-under-a-blue-sky-7494208/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/2310907/pexels-photo-2310907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/2310907/pexels-photo-2310907.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 7467,
-      "height": 4980,
-      "alt": "A tranquil winter scene at a frozen lake in Wuhan, China, showcasing snowy reeds and distant trees.",
-      "query": "natural landscape China wuhan",
-      "credit": {
-        "source": "pexels",
-        "author": "jiawei cui",
-        "sourceUrl": "https://www.pexels.com/photo/field-covered-with-snow-under-white-and-gray-skies-2310907/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "fllee",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-04",
+        "tier": "front"
       }
     }
   ],
@@ -106,7 +82,7 @@
       "fetchedAt": "2026-09-23"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-04",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

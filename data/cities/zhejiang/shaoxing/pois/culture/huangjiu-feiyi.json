@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/37602660/pexels-photo-37602660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37602660/pexels-photo-37602660.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8256,
-      "height": 5504,
-      "alt": "Scenic view of a traditional street with hanging red lanterns and wooden architecture under a blue sky.",
-      "query": "Chinese old town street shaoxing",
-      "credit": {
-        "source": "pexels",
-        "author": "Qing Luo",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-asian-street-with-red-lanterns-37602660/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38249305/pexels-photo-38249305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38249305/pexels-photo-38249305.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6048,
-      "height": 4024,
-      "alt": "Explore the charm of Shaoxing's ancient architecture and traditional calligraphy.",
-      "query": "Chinese old town street shaoxing",
-      "credit": {
-        "source": "pexels",
-        "author": "Kenny Foo",
-        "sourceUrl": "https://www.pexels.com/photo/historic-stone-bridge-in-shaoxing-ancient-town-38249305/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37015398/pexels-photo-37015398.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37015398/pexels-photo-37015398.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4284,
-      "height": 5712,
-      "alt": "Peaceful canal view in a historic Chinese water town with traditional architecture.",
-      "query": "Chinese old town street shaoxing",
-      "credit": {
-        "source": "pexels",
-        "author": "Relaxing Journeys",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-canal-in-traditional-chinese-water-town-37015398/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "黄酒",
@@ -100,7 +54,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -108,5 +62,6 @@
   },
   "_geocodeTitle": "中国黄酒博物馆",
   "_geocodeSuspect": false,
-  "district": "330602"
+  "district": "330602",
+  "_noImage": true
 }

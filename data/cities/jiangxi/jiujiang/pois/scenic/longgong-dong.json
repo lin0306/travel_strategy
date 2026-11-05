@@ -47,25 +47,10 @@
   "tips": [],
   "images": [
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/%E7%A8%8B%E5%85%AC%E8%A8%B1%E7%AD%89%E5%98%89%E7%86%99%E4%BA%8C%E5%B9%B4%EF%BC%881238%EF%BC%89%E9%87%91%E4%BA%95%E6%B4%9E%E9%A1%8C%E5%90%8D.jpg/1280px-%E7%A8%8B%E5%85%AC%E8%A8%B1%E7%AD%89%E5%98%89%E7%86%99%E4%BA%8C%E5%B9%B4%EF%BC%881238%EF%BC%89%E9%87%91%E4%BA%95%E6%B4%9E%E9%A1%8C%E5%90%8D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/%E7%A8%8B%E5%85%AC%E8%A8%B1%E7%AD%89%E5%98%89%E7%86%99%E4%BA%8C%E5%B9%B4%EF%BC%881238%EF%BC%89%E9%87%91%E4%BA%95%E6%B4%9E%E9%A1%8C%E5%90%8D.jpg/1280px-%E7%A8%8B%E5%85%AC%E8%A8%B1%E7%AD%89%E5%98%89%E7%86%99%E4%BA%8C%E5%B9%B4%EF%BC%881238%EF%BC%89%E9%87%91%E4%BA%95%E6%B4%9E%E9%A1%8C%E5%90%8D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "程公許等嘉熙二年（1238）金井洞題名.jpg",
-      "query": "龙宫洞",
-      "credit": {
-        "source": "wikimedia",
-        "author": "松照庵",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%A8%8B%E5%85%AC%E8%A8%B1%E7%AD%89%E5%98%89%E7%86%99%E4%BA%8C%E5%B9%B4%EF%BC%881238%EF%BC%89%E9%87%91%E4%BA%95%E6%B4%9E%E9%A1%8C%E5%90%8D.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/%E9%9B%B7%E9%97%AA%E6%B4%9E%E5%BC%80_20240315.jpg/1280px-%E9%9B%B7%E9%97%AA%E6%B4%9E%E5%BC%80_20240315.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/%E9%9B%B7%E9%97%AA%E6%B4%9E%E5%BC%80_20240315.jpg/1280px-%E9%9B%B7%E9%97%AA%E6%B4%9E%E5%BC%80_20240315.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
-      "height": 810,
+      "height": 720,
       "alt": "雷闪洞开 20240315.jpg",
       "query": "龙宫洞",
       "credit": {
@@ -74,6 +59,12 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%9B%B7%E9%97%AA%E6%B4%9E%E5%BC%80_20240315.jpg",
         "license": "CC BY-SA 4.0",
         "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-03",
+        "tier": "exact"
       }
     }
   ],
@@ -92,7 +83,7 @@
       "fetchedAt": "2026-10-05"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-03",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

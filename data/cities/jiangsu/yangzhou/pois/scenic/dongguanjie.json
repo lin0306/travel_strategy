@@ -42,18 +42,45 @@
   "tips": [],
   "images": [
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/20211114_%E9%9D%92%E5%B7%9E%E5%B8%82_%E4%B8%9C%E5%85%B3%E8%A1%97%E8%A1%97%E6%99%AF_02.jpg/1280px-20211114_%E9%9D%92%E5%B7%9E%E5%B8%82_%E4%B8%9C%E5%85%B3%E8%A1%97%E8%A1%97%E6%99%AF_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/20211114_%E9%9D%92%E5%B7%9E%E5%B8%82_%E4%B8%9C%E5%85%B3%E8%A1%97%E8%A1%97%E6%99%AF_02.jpg/1280px-20211114_%E9%9D%92%E5%B7%9E%E5%B8%82_%E4%B8%9C%E5%85%B3%E8%A1%97%E8%A1%97%E6%99%AF_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/%E6%89%AC%E5%B7%9E%E4%B8%9C%E5%85%B3%E8%A1%97_-_Dongguan_Street_of_Yangzhou_-_2015.04_-_panoramio.jpg/1280px-%E6%89%AC%E5%B7%9E%E4%B8%9C%E5%85%B3%E8%A1%97_-_Dongguan_Street_of_Yangzhou_-_2015.04_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/%E6%89%AC%E5%B7%9E%E4%B8%9C%E5%85%B3%E8%A1%97_-_Dongguan_Street_of_Yangzhou_-_2015.04_-_panoramio.jpg/1280px-%E6%89%AC%E5%B7%9E%E4%B8%9C%E5%85%B3%E8%A1%97_-_Dongguan_Street_of_Yangzhou_-_2015.04_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
-      "height": 810,
-      "alt": "20211114 青州市 东关街街景 02.jpg",
+      "height": 720,
+      "alt": "扬州东关街 - Dongguan Street of Yangzhou - 2015.04 - panoramio.jpg",
       "query": "东关街历史文化街区",
       "credit": {
         "source": "wikimedia",
-        "author": "Ngguls",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20211114_%E9%9D%92%E5%B7%9E%E5%B8%82_%E4%B8%9C%E5%85%B3%E8%A1%97%E8%A1%97%E6%99%AF_02.jpg",
-        "license": "CC BY-SA 4.0",
+        "author": "rheins",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 3.0",
         "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "street"
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/%E4%B8%9C%E5%85%B3%E8%A1%97_-_Dongguan_Street_-_2015.04_-_panoramio.jpg/1280px-%E4%B8%9C%E5%85%B3%E8%A1%97_-_Dongguan_Street_-_2015.04_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/%E4%B8%9C%E5%85%B3%E8%A1%97_-_Dongguan_Street_-_2015.04_-_panoramio.jpg/1280px-%E4%B8%9C%E5%85%B3%E8%A1%97_-_Dongguan_Street_-_2015.04_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "东关街 - Dongguan Street - 2015.04 - panoramio.jpg",
+      "query": "东关街历史文化街区",
+      "credit": {
+        "source": "wikimedia",
+        "author": "rheins",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "street"
       }
     }
   ],
@@ -72,7 +99,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-02",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

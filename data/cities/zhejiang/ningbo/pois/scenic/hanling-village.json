@@ -40,53 +40,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/37566378/pexels-photo-37566378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37566378/pexels-photo-37566378.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4128,
-      "height": 5504,
-      "alt": "A serene scene of a historic pagoda beautifully reflected in a tranquil pond surrounded by lush greenery.",
-      "query": "Chinese historic architecture ningbo",
-      "credit": {
-        "source": "pexels",
-        "author": "Whale I",
-        "sourceUrl": "https://www.pexels.com/photo/historic-pagoda-reflected-in-tranquil-pond-37566378/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37800837/pexels-photo-37800837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37800837/pexels-photo-37800837.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2560,
-      "height": 3840,
-      "alt": "View of modern high-rise buildings showcasing urban architecture in Ningbo, China.",
-      "query": "Chinese historic architecture ningbo",
-      "credit": {
-        "source": "pexels",
-        "author": "Jin Zhang",
-        "sourceUrl": "https://www.pexels.com/photo/modern-architectural-facade-in-ningbo-37800837/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/34027142/pexels-photo-34027142.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34027142/pexels-photo-34027142.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8256,
-      "height": 5504,
-      "alt": "Stone archway featuring intricate carvings and Chinese calligraphy.",
-      "query": "Chinese historic architecture ningbo",
-      "credit": {
-        "source": "pexels",
-        "author": "Qing Luo",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-stone-archway-with-calligraphy-34027142/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "老村",
@@ -102,7 +56,7 @@
       "fetchedAt": "2026-09-30"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -110,5 +64,6 @@
   },
   "_geocodeTitle": "东钱湖韩岭",
   "_geocodeSuspect": false,
-  "district": "330212"
+  "district": "330212",
+  "_noImage": true
 }

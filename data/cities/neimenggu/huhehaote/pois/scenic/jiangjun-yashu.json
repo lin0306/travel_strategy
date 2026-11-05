@@ -41,48 +41,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/18895746/pexels-photo-18895746.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/18895746/pexels-photo-18895746.png?auto=compress&cs=tinysrgb&h=350",
-      "width": 12088,
-      "height": 15696,
-      "alt": "Close-up of a traditional warrior statue in Hohhot, Inner Mongolia, showcasing Chinese cultural heritage.",
-      "query": "General Yashu Hohhot",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Hohhot.Suiyuan.bixi.jpg/1280px-Hohhot.Suiyuan.bixi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Hohhot.Suiyuan.bixi.jpg/1280px-Hohhot.Suiyuan.bixi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Hohhot.Suiyuan.bixi.jpg",
+      "query": "将军衙署",
       "credit": {
-        "source": "pexels",
-        "author": "Jerry Wang",
-        "sourceUrl": "https://www.pexels.com/photo/chinese-warrior-sculpture-18895746/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/35891345/pexels-photo-35891345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35891345/pexels-photo-35891345.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2772,
-      "height": 4159,
-      "alt": "Explore the detailed carvings of this stone monument in Hohhot, Inner Mongolia.",
-      "query": "General Yashu Hohhot",
-      "credit": {
-        "source": "pexels",
-        "author": "Eric Prouzet",
-        "sourceUrl": "https://www.pexels.com/photo/intricate-stone-monument-in-hohhot-china-35891345/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/35905576/pexels-photo-35905576.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35905576/pexels-photo-35905576.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6240,
-      "height": 4160,
-      "alt": "Vibrant traditional Chinese temple facade in Hohhot, capturing intricate details and blue sky backdrop.",
-      "query": "General Yashu Hohhot",
-      "credit": {
-        "source": "pexels",
-        "author": "Eric Prouzet",
-        "sourceUrl": "https://www.pexels.com/photo/ornate-chinese-temple-in-hohhot-inner-mongolia-35905576/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "Popolon",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hohhot.Suiyuan.bixi.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "exact"
       }
     }
   ],
@@ -101,7 +77,7 @@
       "fetchedAt": "2026-10-03"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-02",
   "_geocoded": true,
   "_imageQuery": {
     "en": "General Yashu Hohhot",

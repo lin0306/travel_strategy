@@ -40,53 +40,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/39351511/pexels-photo-39351511.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39351511/pexels-photo-39351511.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 7008,
-      "height": 4672,
-      "alt": "Steamed dim sum dish featuring pork and rice noodles in a bamboo steamer, garnished with chives.",
-      "query": "Jiangxi Steamed Pork with Rice Flour",
-      "credit": {
-        "source": "pexels",
-        "author": "Yuen Tou  Zan",
-        "sourceUrl": "https://www.pexels.com/photo/dim-sum-dish-with-pork-and-rice-noodles-39351511/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39351512/pexels-photo-39351512.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39351512/pexels-photo-39351512.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 7008,
-      "height": 4672,
-      "alt": "Steamed dim sum with rice noodle rolls garnished with fresh scallions.",
-      "query": "Jiangxi Steamed Pork with Rice Flour",
-      "credit": {
-        "source": "pexels",
-        "author": "Yuen Tou  Zan",
-        "sourceUrl": "https://www.pexels.com/photo/delicious-dim-sum-with-rice-noodle-roll-dish-39351512/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/15313294/pexels-photo-15313294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/15313294/pexels-photo-15313294.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8256,
-      "height": 5504,
-      "alt": "Close-up of delicious steamed buns with unique red markings, showcasing traditional Asian cuisine.",
-      "query": "Jiangxi Steamed Pork with Rice Flour",
-      "credit": {
-        "source": "pexels",
-        "author": "Suki Lee",
-        "sourceUrl": "https://www.pexels.com/photo/close-up-photo-of-steamed-buns-15313294/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "米粉蒸肉",
@@ -102,12 +56,13 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Jiangxi Steamed Pork with Rice Flour",
     "zh": "米粉蒸肉"
   },
   "_geocodeTitle": "赣粤烧菜馆",
-  "district": "360121"
+  "district": "360121",
+  "_noImage": true
 }

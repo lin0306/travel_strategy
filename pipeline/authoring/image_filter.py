@@ -73,6 +73,16 @@ FAR_M = 10000
 _CJK = re.compile(r"[\u3400-\u9fff\uf900-\ufaff]")
 _CORE = re.compile(r"[（(\[【]")
 
+#: ★★ 曾试过"拉丁双名法 ⇒ 视为物种学名 ⇒ 否决"，**2026-10-31 当天就撤了**。
+#:   试的是 `^[A-Z][a-z]{3,}\s+[a-z]{5,}\b` + 只对人文类 subtype 生效。
+#:   全库一跑命中 131 张，误伤一大片 —— 英文图注本来就是「首字母大写 + 小写形容词」：
+#:     `Memorial archway of Xidi`（西递牌坊，对）
+#:     `Maclura tricuspidata tree at Tanzhe Temple`（潭柘寺那棵柘树，对）
+#:     `Nelumbo nucifera in Wuyishan Wufu`（五夫镇荷花，对）
+#:   即 `Aeonium percarneum`（蓬莱阁配的多肉）与正确图注**在形态上不可分**。
+#:   ⇒ 别再加回来。物种名误配的根治办法是**看图判定 + verdicts-cache 反向拦截**
+#:     （判过的 reject URL 下次重抓不会回来，见 `images.rejected_urls`）。
+
 
 def core_name(name: str) -> str:
     """「松鹤楼(观前街店)」→「松鹤楼」。与 `images._core_name` 同口径，这里独立一份

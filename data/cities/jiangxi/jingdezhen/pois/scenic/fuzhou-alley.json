@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/2246648/pexels-photo-2246648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/2246648/pexels-photo-2246648.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Black and white photo of a senior woman with an umbrella in a cobblestone alley in Fuzhou, Jiangxi Province, China.",
-      "query": "Fuzhou Lane old street Jingdezhen",
-      "credit": {
-        "source": "pexels",
-        "author": "Darry Lin",
-        "sourceUrl": "https://www.pexels.com/photo/grayscale-photography-of-man-walking-while-holding-umbrella-2246648/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36709506/pexels-photo-36709506.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36709506/pexels-photo-36709506.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5464,
-      "height": 8192,
-      "alt": "Historic architecture with narrow alley and tree in an Asian town, perfect for travel themes.",
-      "query": "Fuzhou Lane old street Jingdezhen",
-      "credit": {
-        "source": "pexels",
-        "author": "Andy Lee",
-        "sourceUrl": "https://www.pexels.com/photo/narrow-alley-in-historic-asian-town-scene-36709506/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/20870719/pexels-photo-20870719.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/20870719/pexels-photo-20870719.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3543,
-      "height": 2362,
-      "alt": "Charming street view in Fuzhou with historic architecture and people enjoying a sunny day.",
-      "query": "Fuzhou Lane old street Jingdezhen",
-      "credit": {
-        "source": "pexels",
-        "author": "daydream",
-        "sourceUrl": "https://www.pexels.com/photo/film-photo-of-the-shangxiahang-building-in-fuzhou-china-20870719/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "老弄",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Fuzhou Lane old street Jingdezhen",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "抚州弄牌坊",
   "_geocodeSuspect": false,
-  "district": "360203"
+  "district": "360203",
+  "_noImage": true
 }

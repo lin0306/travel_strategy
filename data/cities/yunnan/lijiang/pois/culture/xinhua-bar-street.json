@@ -42,48 +42,45 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/36847750/pexels-photo-36847750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36847750/pexels-photo-36847750.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3930,
-      "height": 5895,
-      "alt": "Colorful street bustling with activity in Lijiang, China, showcasing cultural architecture.",
-      "query": "Chinese old town street lijiang",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Old_Town_of_Lijiang_%2821183527932%29.jpg/1280px-Old_Town_of_Lijiang_%2821183527932%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Old_Town_of_Lijiang_%2821183527932%29.jpg/1280px-Old_Town_of_Lijiang_%2821183527932%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Old Town of Lijiang (21183527932).jpg",
+      "query": "新华街酒吧街",
       "credit": {
-        "source": "pexels",
-        "author": "xiaoxian",
-        "sourceUrl": "https://www.pexels.com/photo/vibrant-street-scene-in-lijiang-old-town-36847750/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "Luca Casartelli",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-03",
+        "tier": "street"
       }
     },
     {
-      "url": "https://images.pexels.com/photos/14553045/pexels-photo-14553045.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/14553045/pexels-photo-14553045.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5472,
-      "height": 3648,
-      "alt": "Vibrant scene in Lijiang's Old Town showcasing traditional Chinese architecture and bustling pedestrian activity.",
-      "query": "Chinese old town street lijiang",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Old_Town_of_Lijiang_%2821201716141%29.jpg/1280px-Old_Town_of_Lijiang_%2821201716141%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Old_Town_of_Lijiang_%2821201716141%29.jpg/1280px-Old_Town_of_Lijiang_%2821201716141%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Old Town of Lijiang (21201716141).jpg",
+      "query": "新华街酒吧街",
       "credit": {
-        "source": "pexels",
-        "author": "fei wang",
-        "sourceUrl": "https://www.pexels.com/photo/gate-in-chinatown-14553045/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/14553046/pexels-photo-14553046.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/14553046/pexels-photo-14553046.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5472,
-      "height": 3648,
-      "alt": "Scenic view of Lijiang Old Town entrance with traditional architecture and people walking.",
-      "query": "Chinese old town street lijiang",
-      "credit": {
-        "source": "pexels",
-        "author": "fei wang",
-        "sourceUrl": "https://www.pexels.com/photo/people-on-the-street-of-chinese-old-town-14553046/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "Luca Casartelli",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-03",
+        "tier": "street"
       }
     }
   ],
@@ -102,7 +99,7 @@
       "fetchedAt": "2026-09-30"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-03",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

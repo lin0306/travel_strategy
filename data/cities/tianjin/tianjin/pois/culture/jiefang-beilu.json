@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/13128377/pexels-photo-13128377.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/13128377/pexels-photo-13128377.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 3024,
-      "alt": "Explore the intricate traditional Chinese architecture along a pedestrian street in Caijiabaoxiang, Tianjin, China.",
-      "query": "Chinese old town street tianjin",
-      "credit": {
-        "source": "pexels",
-        "author": "Shuaizhi Tian",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-buildings-in-a-chinese-town-13128377/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38765269/pexels-photo-38765269.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38765269/pexels-photo-38765269.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "A classic red brick building with unique arches in Tianjin, China.",
-      "query": "Chinese old town street tianjin",
-      "credit": {
-        "source": "pexels",
-        "author": "Shuaizhi Tian",
-        "sourceUrl": "https://www.pexels.com/photo/historic-red-brick-building-in-tianjin-china-38765269/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/20022398/pexels-photo-20022398.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/20022398/pexels-photo-20022398.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "A quiet urban alleyway in Heping, Tianjin, China with parked cars and historic buildings.",
-      "query": "Chinese old town street tianjin",
-      "credit": {
-        "source": "pexels",
-        "author": "Shuaizhi Tian",
-        "sourceUrl": "https://www.pexels.com/photo/cars-in-a-narrow-alley-in-broadway-20022398/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "租界",
@@ -101,12 +55,13 @@
       "fetchedAt": "2026-09-27"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
     "zh": "解放北路金融街"
   },
   "_geocodeTitle": "解放北路",
-  "district": "120101"
+  "district": "120101",
+  "_noImage": true
 }

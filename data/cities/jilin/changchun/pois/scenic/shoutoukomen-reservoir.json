@@ -44,23 +44,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/25306367/pexels-photo-25306367.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/25306367/pexels-photo-25306367.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4896,
-      "height": 3264,
-      "alt": "Aerial view of a large hydroelectric dam surrounded by lush forests and a clear blue lake.",
-      "query": "Shoutoukomen Reservoir Changchun",
-      "credit": {
-        "source": "pexels",
-        "author": "changyou zhang",
-        "sourceUrl": "https://www.pexels.com/photo/dam-on-lake-25306367/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "水库",
@@ -84,5 +68,6 @@
   },
   "_geocodeTitle": "石头口门水库鱼鱻活鱼馆",
   "_geocodeSuspect": false,
-  "district": "220113"
+  "district": "220113",
+  "_noImage": true
 }

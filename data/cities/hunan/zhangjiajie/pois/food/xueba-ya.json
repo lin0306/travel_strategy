@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/37388158/pexels-photo-37388158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37388158/pexels-photo-37388158.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2268,
-      "height": 4032,
-      "alt": "A traditional Chinese boat sails on a calm river amid lush greenery under a clear blue sky.",
-      "query": "Xueba Duck Zhangjiajie",
-      "credit": {
-        "source": "pexels",
-        "author": "Nino Okruashvili",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-boat-on-a-serene-river-37388158/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39025876/pexels-photo-39025876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39025876/pexels-photo-39025876.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 3024,
-      "alt": "Busy street in Zhangjiajie, China with people and shops, framed by mountains under a clear sky.",
-      "query": "Xueba Duck Zhangjiajie",
-      "credit": {
-        "source": "pexels",
-        "author": "Guillaume Kremer",
-        "sourceUrl": "https://www.pexels.com/photo/bustling-street-scene-in-zhangjiajie-china-39025876/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39014232/pexels-photo-39014232.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39014232/pexels-photo-39014232.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Stunning sandstone formations and lush vegetation in Zhangjiajie National Forest Park, China.",
-      "query": "Xueba Duck Zhangjiajie",
-      "credit": {
-        "source": "pexels",
-        "author": "Guillaume Kremer",
-        "sourceUrl": "https://www.pexels.com/photo/majestic-sandstone-peaks-of-zhangjiajie-39014232/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "鸭",
@@ -101,11 +55,12 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Xueba Duck Zhangjiajie",
     "zh": "血粑鸭"
   },
-  "district": "430802"
+  "district": "430802",
+  "_noImage": true
 }

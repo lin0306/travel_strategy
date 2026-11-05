@@ -41,48 +41,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/31404919/pexels-photo-31404919.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/31404919/pexels-photo-31404919.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 7008,
-      "height": 4672,
-      "alt": "Peaceful lake with reflections surrounded by lush trees in Sichuan, China.",
-      "query": "China city street view jiuzhaigou",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/%E7%8F%8D%E7%8F%A0%E7%81%98%E7%80%91%E5%B8%83%E7%BE%A4_Pearl_Shallow_Falls_-_panoramio.jpg/1280px-%E7%8F%8D%E7%8F%A0%E7%81%98%E7%80%91%E5%B8%83%E7%BE%A4_Pearl_Shallow_Falls_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/%E7%8F%8D%E7%8F%A0%E7%81%98%E7%80%91%E5%B8%83%E7%BE%A4_Pearl_Shallow_Falls_-_panoramio.jpg/1280px-%E7%8F%8D%E7%8F%A0%E7%81%98%E7%80%91%E5%B8%83%E7%BE%A4_Pearl_Shallow_Falls_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "珍珠灘瀑布群 Pearl Shallow Falls - panoramio.jpg",
+      "query": "珍珠滩机位",
       "credit": {
-        "source": "pexels",
-        "author": "Chris Duan",
-        "sourceUrl": "https://www.pexels.com/photo/tranquil-lake-scene-in-sichuan-china-31404919/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/8370819/pexels-photo-8370819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/8370819/pexels-photo-8370819.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 2324,
-      "alt": "Breathtaking aerial view of a lake surrounded by lush mountains in Jiuzhaigou Valley, Sichuan, China.",
-      "query": "China city street view jiuzhaigou",
-      "credit": {
-        "source": "pexels",
-        "author": "Celeste Li",
-        "sourceUrl": "https://www.pexels.com/photo/lake-among-mountains-8370819/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38185962/pexels-photo-38185962.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38185962/pexels-photo-38185962.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Stunning turquoise lake with lush mountains in Jiuzhaigou National Park, perfect for nature enthusiasts.",
-      "query": "China city street view jiuzhaigou",
-      "credit": {
-        "source": "pexels",
-        "author": "Eve Wang",
-        "sourceUrl": "https://www.pexels.com/photo/breathtaking-view-of-jiuzhaigou-s-turquoise-waters-38185962/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "lienyuan lee",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-04",
+        "tier": "exact"
       }
     }
   ],
@@ -101,7 +77,7 @@
       "fetchedAt": "2026-10-06"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-04",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

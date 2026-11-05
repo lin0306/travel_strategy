@@ -46,48 +46,45 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/28970319/pexels-photo-28970319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/28970319/pexels-photo-28970319.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5506,
-      "height": 4000,
-      "alt": "A distant skyline of Haikou, China viewed from a beach, with one person walking on the sand.",
-      "query": "natural landscape China haikou",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/%E9%AB%98%E5%B0%94%E5%A4%AB%E4%BC%9A%E6%89%80Club2010_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/%E9%AB%98%E5%B0%94%E5%A4%AB%E4%BC%9A%E6%89%80Club2010_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 720,
+      "alt": "高尔夫会所Club2010 - panoramio.jpg",
+      "query": "观澜湖旅游度假区",
       "credit": {
-        "source": "pexels",
-        "author": "zs Lin",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-haikou-city-skyline-from-beach-28970319/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "GPS8",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
       }
     },
     {
-      "url": "https://images.pexels.com/photos/32454735/pexels-photo-32454735.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/32454735/pexels-photo-32454735.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 3024,
-      "alt": "Aerial view of Haikou City's skyline with lush greenery and water in the foreground.",
-      "query": "natural landscape China haikou",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/%E9%85%92%E5%BA%972010_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/%E9%85%92%E5%BA%972010_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 720,
+      "alt": "酒店2010 - panoramio.jpg",
+      "query": "观澜湖旅游度假区",
       "credit": {
-        "source": "pexels",
-        "author": "Amber Peng",
-        "sourceUrl": "https://www.pexels.com/photo/skyline-of-haikou-city-from-above-32454735/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37534909/pexels-photo-37534909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37534909/pexels-photo-37534909.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8256,
-      "height": 5504,
-      "alt": "Stone arch bridge spanning a calm river with one person paddleboarding underneath during daytime.",
-      "query": "natural landscape China haikou",
-      "credit": {
-        "source": "pexels",
-        "author": "Miguel Cuenca",
-        "sourceUrl": "https://www.pexels.com/photo/historic-arch-bridge-over-serene-river-at-dusk-37534909/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "GPS8",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
       }
     }
   ],
@@ -106,7 +103,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-05",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

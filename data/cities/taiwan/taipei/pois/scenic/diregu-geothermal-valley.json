@@ -45,53 +45,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/11235363/pexels-photo-11235363.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/11235363/pexels-photo-11235363.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2268,
-      "height": 4032,
-      "alt": "Geothermal steam rises impressively from a hot spring in lush Taiwan landscape.",
-      "query": "Thermal Valley Beitou Taipei",
-      "credit": {
-        "source": "pexels",
-        "author": "chyimo huang",
-        "sourceUrl": "https://www.pexels.com/photo/sulphur-valley-recreational-area-11235363/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/15289946/pexels-photo-15289946.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/15289946/pexels-photo-15289946.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 7952,
-      "height": 5304,
-      "alt": "A serene hot spring landscape with steam rising amidst lush greenery, attracting tourists.",
-      "query": "Thermal Valley Beitou Taipei",
-      "credit": {
-        "source": "pexels",
-        "author": "Jimmy Liao",
-        "sourceUrl": "https://www.pexels.com/photo/view-of-a-hot-spring-15289946/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/11235369/pexels-photo-11235369.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/11235369/pexels-photo-11235369.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2268,
-      "height": 4032,
-      "alt": "Scenic view of a steaming geothermal hot spring in Taiwan's lush landscape.",
-      "query": "Thermal Valley Beitou Taipei",
-      "credit": {
-        "source": "pexels",
-        "author": "chyimo huang",
-        "sourceUrl": "https://www.pexels.com/photo/valley-of-sulphur-11235369/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "地热",
@@ -107,7 +61,7 @@
       "fetchedAt": "2026-10-03"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Thermal Valley Beitou Taipei",
@@ -115,5 +69,6 @@
   },
   "_geocodeTitle": "地热谷",
   "_geocodeSuspect": false,
-  "district": "711016"
+  "district": "711016",
+  "_noImage": true
 }

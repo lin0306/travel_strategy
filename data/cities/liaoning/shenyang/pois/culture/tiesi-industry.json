@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/5355819/pexels-photo-5355819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/5355819/pexels-photo-5355819.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5184,
-      "height": 3456,
-      "alt": "Old industrial machinery in a deteriorating factory in Leipzig, Germany.",
-      "query": "Tiexi Industrial Heritage",
-      "credit": {
-        "source": "pexels",
-        "author": "Antonio Friedemann",
-        "sourceUrl": "https://www.pexels.com/photo/green-metal-pipe-near-gray-wall-5355819/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38404249/pexels-photo-38404249.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38404249/pexels-photo-38404249.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Detailed view of an industrial complex featuring rusted steel pipes and structures under a clear blue sky.",
-      "query": "Tiexi Industrial Heritage",
-      "credit": {
-        "source": "pexels",
-        "author": "Paul Oor",
-        "sourceUrl": "https://www.pexels.com/photo/industrial-complex-with-rusted-steel-structures-38404249/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/31324130/pexels-photo-31324130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/31324130/pexels-photo-31324130.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4033,
-      "alt": "Explore the iconic industrial structures in Chengdu, showcasing tall smokestacks and brickwork.",
-      "query": "Tiexi Industrial Heritage",
-      "credit": {
-        "source": "pexels",
-        "author": "Lin K",
-        "sourceUrl": "https://www.pexels.com/photo/historic-industrial-architecture-in-chengdu-31324130/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "铁西",
@@ -101,11 +55,12 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Tiexi Industrial Heritage",
     "zh": "铁西工业遗产"
   },
-  "district": "210106"
+  "district": "210106",
+  "_noImage": true
 }

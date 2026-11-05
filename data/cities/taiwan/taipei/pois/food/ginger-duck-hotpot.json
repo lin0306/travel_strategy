@@ -42,36 +42,6 @@
   "tips": [],
   "images": [
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/A_Ginger_duck_cuisine_Restaurant_in_downtown_Taichung.jpg/1280px-A_Ginger_duck_cuisine_Restaurant_in_downtown_Taichung.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/A_Ginger_duck_cuisine_Restaurant_in_downtown_Taichung.jpg/1280px-A_Ginger_duck_cuisine_Restaurant_in_downtown_Taichung.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 719,
-      "alt": "A Ginger duck cuisine Restaurant in downtown Taichung.jpg",
-      "query": "姜母鸭",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Tbatb",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Ginger_duck_cuisine_Restaurant_in_downtown_Taichung.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Ginger_Duck-Horatio%27s%2C_Bull_Street%2C_Holt_-_geograph.org.uk_-_5388836.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Ginger_Duck-Horatio%27s%2C_Bull_Street%2C_Holt_-_geograph.org.uk_-_5388836.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 810,
-      "alt": "Ginger Duck-Horatio's, Bull Street, Holt - geograph.org.uk - 5388836.jpg",
-      "query": "姜母鸭",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Basher Eyre",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ginger_Duck-Horatio%27s,_Bull_Street,_Holt_-_geograph.org.uk_-_5388836.jpg",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Ginger_duck_hot_pot.jpg/1280px-Ginger_duck_hot_pot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Ginger_duck_hot_pot.jpg/1280px-Ginger_duck_hot_pot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
@@ -84,6 +54,11 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ginger_duck_hot_pot.jpg",
         "license": "CC BY-SA 4.0",
         "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-10-31"
       }
     }
   ],
@@ -102,7 +77,7 @@
       "fetchedAt": "2026-10-03"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Taiwanese ginger duck hotpot",

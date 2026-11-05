@@ -1,6 +1,6 @@
 # 青岛 · 数据来源与图片版权
 
-> 生成于 2026-10-31 · 城市数据最后更新 2026-09-28
+> 生成于 2026-11-05 · 城市数据最后更新 2026-09-28
 
 ## 概览
 
@@ -80,59 +80,45 @@
 | 八大关 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20240729_Qingdao_No._2_Beach_01.jpg) |
 | 八大关 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20240729_Qingdao_No._2_Beach_02.jpg) |
 | 八大关 | Antigng | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B8%82%E5%8D%97%E5%8C%BA%E5%98%89%E5%B3%AA%E5%85%B3%E8%B7%AF5%E5%8F%B7.jpg) |
-| 大珠山 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dazhu_Mountain_Station.jpg) |
-| 大珠山 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dazhu_Mountain_Station_20250821.jpg) |
-| 大珠山 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dazhushan_Station_2017_11_4.jpg) |
+| 大珠山 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://zh.wikipedia.org/wiki/大珠山) |
 | 第一海水浴场 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BB%8E%E5%B0%8F%E9%B1%BC%E5%B1%B1%E5%85%AC%E5%9B%AD%E7%9C%8B%E7%AC%AC%E4%B8%80%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%9C%BA.jpg) |
 | 第一海水浴场 | 青岛年鉴编辑委员会 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E4%B8%80%E6%B5%B4%E5%85%AB%E5%8D%81%E5%B9%B4%E4%BB%A3.jpg) |
-| 第一海水浴场 | Oswald Lübeck | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%9C%BA%E5%BE%B7%E7%A7%9F%E6%97%B6%E6%9C%9F.jpg) |
 | 青岛海底世界 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BB%8E%E9%9D%92%E5%B2%9B%E6%B5%B7%E5%BA%95%E4%B8%96%E7%95%8C%E7%9C%8B%E6%B1%87%E6%B3%89%E6%B9%BE.jpg) |
 | 青岛海底世界 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E6%B0%B4%E6%97%8F%E9%A6%86%E2%80%94%E2%80%94%E6%B5%B7%E5%BA%95%E4%B8%96%E7%95%8C%E2%80%94%E2%80%94%E6%B5%B7%E5%BA%95%E8%A1%A8%E6%BC%94%E5%A4%A7%E5%8E%8501.jpg) |
 | 青岛海底世界 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E6%B0%B4%E6%97%8F%E9%A6%86%E2%80%94%E2%80%94%E6%B5%B7%E5%BA%95%E4%B8%96%E7%95%8C%E2%80%94%E2%80%94%E6%B5%B7%E5%BA%95%E8%A1%A8%E6%BC%94%E5%A4%A7%E5%8E%8502.jpg) |
 | 中国人民解放军海军博物馆 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20240729_PLA_Naval_Museum.jpg) |
-| 中国人民解放军海军博物馆 | Benlisquare | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Exhibition_guide_at_the_PLA_Naval_Museum.jpg) |
 | 中国人民解放军海军博物馆 | Benlisquare | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Juxtaposition_at_the_PLA_Naval_Museum.jpg) |
-| 鹤山 | Edouardlicn | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Heshanhongqiqu.jpg) |
-| 鹤山 | ivanfordr | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%B9%A4%E5%B1%B1%E4%B8%80%E4%B8%AD_-_panoramio.jpg) |
-| 鹤山 | ivanfordr | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%B9%A4%E5%B1%B1%E4%B8%80%E4%B8%AD_-_panoramio_-_ivanfordr.jpg) |
 | 花石楼 | M. Weitzel | CC BY-SA 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Badaguan,_Qingdao.jpg) |
 | 花石楼 | Regina800809 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hu%C4%81_Sh%C3%AD_L%C3%B3u.JPG) |
 | 花石楼 | Gisling | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E5%85%AB%E5%A4%A7%E5%85%B3%E8%8A%B1%E7%9F%B3%E6%A5%BC.jpg) |
 | 青岛基督教堂 | 赵乐鑫1989 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E5%9C%A3%E4%BF%9D%E7%BD%97%E5%9F%BA%E7%9D%A3%E6%95%99%E5%A0%821Saint_Paul%E2%80%99s_Church%EF%BC%8CQingdao.jpg) |
-| 青岛基督教堂 | Nekitarc | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E5%9F%BA%E7%9D%A3%E6%95%99%E5%A0%82.JPG) |
 | 青岛基督教堂 | 赵乐鑫1989 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E5%9F%BA%E7%9D%A3%E6%95%99%E5%A0%82%E4%B8%9C%E5%8C%97%E9%9D%A2.jpg) |
 | 琅琊台 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%90%85%E7%90%8A%E5%8F%B0%E6%99%AF%E5%8C%BA%E2%80%94%E2%80%94%E4%BA%91%E6%A1%A5.jpg) |
 | 琅琊台 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%90%85%E7%90%8A%E5%8F%B0%E6%99%AF%E5%8C%BA%E2%80%94%E2%80%94%E4%BA%91%E6%A2%AF.jpg) |
 | 琅琊台 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%90%85%E7%90%8A%E5%8F%B0%E6%99%AF%E5%8C%BA%E2%80%94%E2%80%94%E5%BE%90%E7%A6%8F%E6%AE%BF.jpg) |
-| 崂山风景区 | Aurora | Pexels License | [pexels](https://www.pexels.com/photo/coastal-cliffside-with-cabin-and-blue-ocean-38925247/) |
-| 崂山风景区 | Zhengyang TIAN | Pexels License | [pexels](https://www.pexels.com/photo/coastal-skyline-of-qingdao-with-modern-architecture-36963223/) |
-| 崂山风景区 | Whale I | Pexels License | [pexels](https://www.pexels.com/photo/aerial-view-of-qingdao-s-historical-architecture-37106092/) |
-| 鲁迅公园 | Duncan Wang | Pexels License | [pexels](https://www.pexels.com/photo/serene-garden-in-qingdao-during-springtime-37039394/) |
-| 鲁迅公园 | Whale I | Pexels License | [pexels](https://www.pexels.com/photo/aerial-view-of-qingdao-s-historical-architecture-37106092/) |
-| 鲁迅公园 | meitetsu chin | Pexels License | [pexels](https://www.pexels.com/photo/skyline-view-of-qingdao-with-tv-tower-29038201/) |
 | 青岛啤酒博物馆 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Affiliated_shops_of_Tsingtao_Brewery_Museum_(20250919133830).jpg) |
 | 青岛啤酒博物馆 | See-ming Lee from Hong Kong SAR, China | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Forms_in_Green_Historic_Brewery_Tank,_Tsingtao_Beer_Museum_SML2Qingdao_SML.20121009.7D.08785_(8194248705).jpg) |
 | 青岛啤酒博物馆 | See-ming Lee from Hong Kong SAR, China | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Human_Logistics_Forms_in_Green_Tsingtao_Beer_Museum_SML2Qingdao_SML.20121009.7D.08788_(8194320027).jpg) |
-| 青岛市博物馆 | See-ming Lee from Hong Kong SAR, China | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Forms_in_Green_Historic_Brewery_Tank,_Tsingtao_Beer_Museum_SML2Qingdao_SML.20121009.7D.08785_(8194248705).jpg) |
-| 青岛市博物馆 | M. Weitzel | CC BY-SA 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Tsingdao_Brewery.jpg) |
-| 青岛市博物馆 | Matthew Summerton | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Tsingtao_Brewery_Museum_20091001.jpg) |
+| 青岛市博物馆 | Tyen-Shyang Chyu | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chyingdao_Shih_Bwowugwan.jpg) |
+| 青岛市博物馆 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E8%A7%A3%E6%94%BE%E5%86%9B%E6%B5%B7%E5%86%9B%E5%8D%9A%E7%89%A9%E9%A6%86.jpg) |
+| 青岛市博物馆 | 无知的路人 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BE%A7%E6%8B%8D%E9%9D%92%E5%B2%9B%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86.jpg) |
+| 青岛市博物馆 | StefanTsingtauer | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%B3%E5%A2%A8%E4%B9%8B%E6%B3%95%E5%8C%96%E5%88%80%E5%B8%81_2019-12-26.jpg) |
+| 青岛市博物馆 | StefanTsingtauer | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BE%B7%E5%B1%9E%E8%83%B6%E6%BE%B3%E7%A7%9F%E5%80%9F%E5%9C%B0%E7%95%8C%E7%9F%B3_01_2019-12-26.jpg) |
+| 青岛市博物馆 | StefanTsingtauer | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%88%E9%AD%84%E5%8C%96%E7%A2%A7%E7%A2%91_2019-12-26.jpg) |
 | 青岛山炮台遗址 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E5%B1%B1%E4%B8%80%E6%88%98%E9%81%97%E5%9D%80%E5%85%AC%E5%9B%AD%E2%80%94%E2%80%94%E9%9D%92%E5%B2%9B%E5%B1%B1%E5%8C%97%E7%82%AE%E5%8F%B0.jpg) |
 | 青岛山炮台遗址 | StefanTsingtauer | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E5%B1%B1%E7%82%AE%E5%8F%B0%E5%B1%B1%E9%A1%B6%E6%8C%87%E6%8C%A5%E5%8F%B0%E9%81%97%E5%9D%80_2020-01-01.jpg) |
 | 太清宫 | ---=XEON=--- | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Entrance_-_panoramio_(14).jpg) |
 | 太清宫 | Rolfmueller | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Laoshan_taiqing_gong_hall.jpg) |
 | 太清宫 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E5%B4%82%E5%B1%B1_-_%E5%A4%AA%E6%B8%85%E5%AE%AB_-_panoramio.jpg) |
-| 唐岛湾公园 | Duncan Wang | Pexels License | [pexels](https://www.pexels.com/photo/serene-garden-in-qingdao-during-springtime-37039394/) |
-| 唐岛湾公园 | Whale I | Pexels License | [pexels](https://www.pexels.com/photo/aerial-view-of-qingdao-s-historical-architecture-37106092/) |
-| 唐岛湾公园 | meitetsu chin | Pexels License | [pexels](https://www.pexels.com/photo/skyline-view-of-qingdao-with-tv-tower-29038201/) |
-| 田横岛 | Aurora | Pexels License | [pexels](https://www.pexels.com/photo/coastal-cliffside-with-cabin-and-blue-ocean-38925247/) |
-| 田横岛 | Zhengyang TIAN | Pexels License | [pexels](https://www.pexels.com/photo/coastal-skyline-of-qingdao-with-modern-architecture-36963223/) |
-| 田横岛 | Whale I | Pexels License | [pexels](https://www.pexels.com/photo/aerial-view-of-qingdao-s-historical-architecture-37106092/) |
-| 青岛天主教堂 | Unknown authorUnknown author | CC BY-SA 3.0 de | [wikimedia](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_116-125-01,_Tsingtau,_Haupttor_des_Artillerielagers.jpg) |
-| 青岛天主教堂 | Unknown authorUnknown author | CC BY-SA 3.0 de | [wikimedia](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_116-125-02,_Tsingtau,_Gesch%C3%BCtze_der_Feldbatterie.jpg) |
-| 青岛天主教堂 | Unknown authorUnknown author | CC BY-SA 3.0 de | [wikimedia](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_116-125-04,_Tsingtau,_Feldbatterie_II..jpg) |
-| 五四广场 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Concourse_of_L2-L3_May_4th_Square_Station_(20230427202415).jpg) |
-| 五四广场 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Concourse_of_L2-L3_May_4th_Square_Station_(20230427202419).jpg) |
-| 五四广场 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Eastbound_platform_of_L2-L3_May_4th_Square_Station_(20230427202314).jpg) |
+| 青岛天主教堂 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20240730_St._Michael%27s_Cathedral,_Qingdao_01.jpg) |
+| 青岛天主教堂 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20240730_St._Michael%27s_Cathedral,_Qingdao_02.jpg) |
+| 青岛天主教堂 | 赵乐鑫1989 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E5%9C%A3%E5%BC%A5%E5%8E%84%E5%B0%94%E5%A4%A9%E4%B8%BB%E6%95%99%E5%A0%82%E4%B8%9C%E9%9D%A2.jpg) |
+| 青岛天主教堂 | 赵乐鑫1989 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E5%9C%A3%E5%BC%A5%E5%8E%84%E5%B0%94%E5%A4%A9%E4%B8%BB%E6%95%99%E5%A0%82%E5%8C%97%E9%9D%A2.jpg) |
+| 青岛天主教堂 | 赵乐鑫1989 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E5%9C%A3%E5%BC%A5%E5%8E%84%E5%B0%94%E5%A4%A9%E4%B8%BB%E6%95%99%E5%A0%82%E5%8C%97%E9%9D%A2%E4%BF%AF%E8%A7%88.jpg) |
+| 青岛天主教堂 | 赵乐鑫1989 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E5%9C%A3%E5%BC%A5%E5%8E%84%E5%B0%94%E5%A4%A9%E4%B8%BB%E6%95%99%E5%A0%82%E8%A5%BF%E9%9D%A2.jpg) |
+| 五四广场 | 長安城根喚朱雀 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E4%BA%94%E5%9B%9B%E5%B9%BF%E5%9C%BA_%E5%A4%9C%E6%99%AF.jpg) |
+| 五四广场 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://www.wikidata.org/wiki/Q3269023) |
+| 五四广场 | Dennis Shimer | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 小青岛 | Unknown authorUnknown author | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E9%9D%92%E5%B2%9B-%E5%BD%A9.jpg) |
 | 小青岛 | George Wenn | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E9%9D%92%E5%B2%9B_-_panoramio.jpg) |
 | 小青岛 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E9%9D%92%E5%B2%9B_-_panoramio_-_Tiger@%E8%A5%BF%E5%8C%97.jpg) |
@@ -143,83 +129,46 @@
 | 信号山公园 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E4%BF%A1%E5%8F%B7%E5%B1%B1%E5%85%AC%E5%9B%AD%E2%80%94%E2%80%94%E4%BA%94%E9%BE%99%E6%BD%AD.jpg) |
 | 信号山公园 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E4%BF%A1%E5%8F%B7%E5%B1%B1%E5%85%AC%E5%9B%AD%E2%80%94%E2%80%94%E4%BA%94%E9%BE%99%E6%BD%AD%E7%80%91%E5%B8%83.jpg) |
 | 栈桥 | Antigng | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E6%A0%88%E6%A1%A5-20160719.jpg) |
-| 栈桥 | 三船写真馆 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E6%A0%88%E6%A1%A51914%E5%B9%B4.jpg) |
-| 栈桥 | Unknown authorUnknown author | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E6%A0%88%E6%A1%A51920%E5%B9%B4%E4%BB%A3.jpg) |
 | 湛山寺 | Pratyeka | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Zhanshan-pagoda.jpg) |
 | 湛山寺 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E6%B9%9B%E5%B1%B1%E5%AF%BA20250215.jpg) |
 | 湛山寺 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E6%B9%9B%E5%B1%B1%E5%AF%BA%E2%80%94%E2%80%94%E4%B8%89%E5%AD%A6%E5%A0%82.jpg) |
-| 珠山国家森林公园 | Aurora | Pexels License | [pexels](https://www.pexels.com/photo/coastal-cliffside-with-cabin-and-blue-ocean-38925247/) |
-| 珠山国家森林公园 | Zhengyang TIAN | Pexels License | [pexels](https://www.pexels.com/photo/coastal-skyline-of-qingdao-with-modern-architecture-36963223/) |
-| 珠山国家森林公园 | Whale I | Pexels License | [pexels](https://www.pexels.com/photo/aerial-view-of-qingdao-s-historical-architecture-37106092/) |
-| 青岛德国总督楼旧址博物馆 | Whale I | Pexels License | [pexels](https://www.pexels.com/photo/aerial-view-of-qingdao-s-historical-architecture-37106092/) |
-| 青岛德国总督楼旧址博物馆 | Jayden Han | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-qingdao-s-coastal-architecture-39801419/) |
-| 青岛德国总督楼旧址博物馆 | zy s | Pexels License | [pexels](https://www.pexels.com/photo/zhanqiao-pier-in-china-26873061/) |
-| 船歌·鱼水饺(闽江二路店) | Takahiro Yamagiwa | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A5%E6%9C%AC%E6%9D%BE%E5%B1%8B%E4%B8%AD%E5%9B%BD%E4%B8%80%E5%8F%B7%E5%BA%97_(193129581).jpg) |
+| 青岛德国总督楼旧址博物馆 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E5%BE%B7%E5%9B%BD%E6%80%BB%E7%9D%A3%E6%A5%BC%E6%97%A7%E5%9D%80%E5%8D%9A%E7%89%A9%E9%A6%86%E9%97%A8%E5%8F%A3.jpg) |
 | 春和楼(劈柴院店) | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20240730_Chun_He_Lou_Restaurant_on_Zhongshan_Road.jpg) |
 | 春和楼(劈柴院店) | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20240730_Steamed_beef_dumplings_of_Chun_He_Lou.jpg) |
 | 春和楼(劈柴院店) | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E4%B8%AD%E5%B1%B1%E8%B7%AF%E2%80%94%E2%80%94%E6%98%A5%E5%92%8C%E6%A5%BC.jpg) |
-| 开海·红岛海鲜虾水饺(八大关店) | Takahiro Yamagiwa | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A5%E6%9C%AC%E6%9D%BE%E5%B1%8B%E4%B8%AD%E5%9B%BD%E4%B8%80%E5%8F%B7%E5%BA%97_(193129581).jpg) |
-| 良友书坊(中山路) | BI ravencrow | Pexels License | [pexels](https://www.pexels.com/photo/charming-side-street-with-tsingtao-sign-38399476/) |
-| 良友书坊(中山路) | Alex Seb | Pexels License | [pexels](https://www.pexels.com/photo/sunlit-table-with-flower-vase-in-qingdao-cafe-34686220/) |
-| 良友书坊(中山路) | İlknur Çelik | Pexels License | [pexels](https://www.pexels.com/photo/empty-tables-near-windows-14790383/) |
-| 刘老财世峰青岛老锅贴(中山路店) | Takahiro Yamagiwa | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A5%E6%9C%AC%E6%9D%BE%E5%B1%8B%E4%B8%AD%E5%9B%BD%E4%B8%80%E5%8F%B7%E5%BA%97_(193129581).jpg) |
-| 吕氏焗小鲜·海鲜青岛菜(八大关店) | 古 古 | Pexels License | [pexels](https://www.pexels.com/photo/porcelain-teapot-behind-hanging-pennant-20232614/) |
-| 吕氏焗小鲜·海鲜青岛菜(八大关店) | Alex M | Pexels License | [pexels](https://www.pexels.com/photo/narrow-alley-in-zhuhai-featuring-shops-38415169/) |
-| 吕氏焗小鲜·海鲜青岛菜(八大关店) | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 劈柴院 | billow926 | Pexels License | [pexels](https://www.pexels.com/photo/a-yellow-food-truck-near-a-tree-trunk-6341817/) |
-| 劈柴院 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 劈柴院 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
+| 劈柴院 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8A%88%E6%9F%B4%E9%99%A2%E2%80%94%E2%80%94%E6%B1%9F%E5%AE%81%E4%BC%9A%E9%A6%86.jpg) |
+| 劈柴院 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8A%88%E6%9F%B4%E9%99%A2%E4%B8%AD%E5%B1%B1%E8%B7%AF%E5%85%A5%E5%8F%A320240310.jpg) |
+| 劈柴院 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8A%88%E6%9F%B4%E9%99%A2%E4%B8%AD%E5%B1%B1%E8%B7%AF%E5%85%A5%E5%8F%A320260228.jpg) |
+| 劈柴院 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8A%88%E6%9F%B4%E9%99%A2%E5%86%85%E9%83%A82024031001.jpg) |
+| 劈柴院 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8A%88%E6%9F%B4%E9%99%A2%E5%86%85%E9%83%A82024031002.jpg) |
+| 劈柴院 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8A%88%E6%9F%B4%E9%99%A2%E5%86%85%E9%83%A82024031003.jpg) |
 | 青岛啤酒街(登州路) | User:Baomi | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Qingdao_Beer_Street.jpg) |
-| 如是书店(石老人店) | BI ravencrow | Pexels License | [pexels](https://www.pexels.com/photo/charming-side-street-with-tsingtao-sign-38399476/) |
-| 如是书店(石老人店) | Afitab | Pexels License | [pexels](https://www.pexels.com/photo/cups-hanging-on-the-wall-14517408/) |
-| 如是书店(石老人店) | İlknur Çelik | Pexels License | [pexels](https://www.pexels.com/photo/empty-tables-near-windows-14790383/) |
-| 王姐烧烤(中山路店) | Takahiro Yamagiwa | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A5%E6%9C%AC%E6%9D%BE%E5%B1%8B%E4%B8%AD%E5%9B%BD%E4%B8%80%E5%8F%B7%E5%BA%97_(193129581).jpg) |
-| 万和春排骨砂锅米饭(台东八路店) | Takahiro Yamagiwa | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A5%E6%9C%AC%E6%9D%BE%E5%B1%8B%E4%B8%AD%E5%9B%BD%E4%B8%80%E5%8F%B7%E5%BA%97_(193129581).jpg) |
-| 营口路农贸市场 | Candorwien | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mealworm_dish_in_a_Yunan_Restaurant,_Qingdao_China.jpg) |
-| 渔佳小厨·小船海鲜(登州路店) | 古 古 | Pexels License | [pexels](https://www.pexels.com/photo/porcelain-teapot-behind-hanging-pennant-20232614/) |
-| 渔佳小厨·小船海鲜(登州路店) | Alex M | Pexels License | [pexels](https://www.pexels.com/photo/narrow-alley-in-zhuhai-featuring-shops-38415169/) |
-| 渔佳小厨·小船海鲜(登州路店) | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 老谢野馄饨(延安路店) | Takahiro Yamagiwa | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A5%E6%9C%AC%E6%9D%BE%E5%B1%8B%E4%B8%AD%E5%9B%BD%E4%B8%80%E5%8F%B7%E5%BA%97_(193129581).jpg) |
-| 青岛脂渣(辽宁路店) | Candorwien | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mealworm_dish_in_a_Yunan_Restaurant,_Qingdao_China.jpg) |
 | 青岛奥帆中心 | K.Y.K.Z.K. | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lighthouse_at_QISC.jpg) |
 | 青岛奥帆中心 | Gmbsfd | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Qingdao_International_Sailing_Centre_20180508-3.jpg) |
 | 青岛奥帆中心 | Gmbsfd | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Qingdao_International_Sailing_Centre_20180515-1.jpg) |
-| 大学路与鱼山路 | 4084470 0.smil | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:CR400AF-J-2808_near_Jiaodong_Metro_Station_in_Jiaozhou,_Qingdao,_Shandong,_China_20260607.jpg) |
-| 大学路与鱼山路 | ---=XEON=--- | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:City_Of_Qingdao_-_panoramio.jpg) |
-| 大学路与鱼山路 | ---=XEON=--- | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:City_Of_Qingdao_2015_-_panoramio.jpg) |
-| 纺织谷 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Platform_of_L1_Shengli_Bridge_Station_(20230428105758).jpg) |
-| 1907光影俱乐部 | Leia-Yalu Feng | Pexels License | [pexels](https://www.pexels.com/photo/aerial-view-of-lush-urban-landscape-in-qingdao-38304174/) |
-| 1907光影俱乐部 | Anderson Wei | Pexels License | [pexels](https://www.pexels.com/photo/may-fourth-square-in-qingdao-at-dusk-39225382/) |
-| 1907光影俱乐部 | Leia-Yalu Feng | Pexels License | [pexels](https://www.pexels.com/photo/colorful-urban-street-art-in-qingdao-38304172/) |
 | 情人坝 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E5%B8%86%E8%88%B9%E4%B8%AD%E5%BF%83%E2%80%94%E2%80%94%E6%83%85%E4%BA%BA%E5%9D%9D.jpg) |
 | 情人坝 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E5%B8%86%E8%88%B9%E4%B8%AD%E5%BF%83%E2%80%94%E2%80%94%E6%83%85%E4%BA%BA%E5%9D%9D02.jpg) |
 | 琴屿路 | 杨志强Zhiqiang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E8%BE%B9%E7%90%B4%E5%B1%BF%E8%B7%AF%E4%BA%8C%E5%8F%B7_-_panoramio.jpg) |
 | 琴屿路 | tak.wing | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E7%90%B4%E5%B1%BF%E8%B7%AF%E6%B5%B7%E5%B2%B8_2005-11-10.jpg) |
 | 石老人海水浴场 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E7%9F%B3%E8%80%81%E4%BA%BA%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%9C%BA20260526.jpg) |
-| 小麦岛公园 | 4084470 0.smil | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:CR400AF-J-2808_near_Jiaodong_Metro_Station_in_Jiaozhou,_Qingdao,_Shandong,_China_20260607.jpg) |
-| 小麦岛公园 | ---=XEON=--- | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:City_Of_Qingdao_-_panoramio.jpg) |
-| 小麦岛公园 | ---=XEON=--- | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:City_Of_Qingdao_2015_-_panoramio.jpg) |
-| 燕儿岛山公园 | 强 王 | Pexels License | [pexels](https://www.pexels.com/photo/skyline-view-of-qingdao-cityscape-under-cloudy-skies-30143919/) |
-| 燕儿岛山公园 | billow926 | Pexels License | [pexels](https://www.pexels.com/photo/cars-parked-beside-brown-building-6341830/) |
-| 燕儿岛山公园 | Jayden Han | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-qingdao-s-coastal-architecture-39801419/) |
+| 小麦岛公园 | Roddy Pfeiffer | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 小麦岛公园 | Roddy Pfeiffer | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 小麦岛公园 | Roddy Pfeiffer | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 小麦岛公园 | Roddy Pfeiffer | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 小麦岛公园 | Roddy Pfeiffer | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 小麦岛公园 | Roddy Pfeiffer | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 青岛邮电博物馆 | K.Y.K.Z.K. | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Qingdao_Posts_%26_Telecommunication_Museum.jpg) |
 | 青岛邮电博物馆 | Antigng | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E9%82%AE%E7%94%B5%E5%8D%9A%E7%89%A9%E9%A6%86-20160719.jpg) |
 | 青岛邮电博物馆 | StefanTsingtauer | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E9%82%AE%E7%94%B5%E5%8D%9A%E7%89%A9%E9%A6%86%E5%86%85%E9%83%A8%E6%A5%BC%E6%A2%AF.jpg) |
-| 大鲍岛文化休闲街区 | Gauthier DELECROIX - 郭天 from Qingdao, China | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Classroom_(50015020411).jpg) |
-| 大鲍岛文化休闲街区 | Gauthier DELECROIX - 郭天 from Qingdao, China | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Down_from_the_pagoda_(50008017587).jpg) |
-| 大鲍岛文化休闲街区 | Gauthier DELECROIX - 郭天 from Qingdao, China | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Down_to_the_pavillon_(50039441856).jpg) |
+| 大鲍岛文化休闲街区 | Kobe Bryn | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大鲍岛文化休闲街区 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大鲍岛文化休闲街区 | Kobe Bryn | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大鲍岛文化休闲街区 | Kobe Bryn | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大鲍岛文化休闲街区 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大鲍岛文化休闲街区 | Kobe Bryn | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 广兴里 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E5%A4%A7%E9%B2%8D%E5%B2%9B%E2%80%94%E2%80%94%E5%B9%BF%E5%85%B4%E9%87%8C.jpg) |
 | 广兴里 | StefanTsingtauer | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E5%B9%BF%E5%85%B4%E9%87%8C%E4%B8%80%E6%9C%9F%E5%BB%BA%E7%AD%91.jpg) |
 | 广兴里 | StefanTsingtauer | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E5%B9%BF%E5%85%B4%E9%87%8C%E4%B8%9C%E4%BE%A7%E5%86%85%E5%BB%8A.jpg) |
 | 青岛音乐厅 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20240729_Qingdao_Concert_Hall_01.jpg) |
 | 青岛音乐厅 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20240729_Qingdao_Concert_Hall_02.jpg) |
-| 青岛音乐厅 | F. H. Schmidt | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E6%B5%B7%E5%9B%A0%E9%87%8C%E5%B8%8C%E4%BA%B2%E7%8E%8B%E9%A5%AD%E5%BA%97%E9%9F%B3%E4%B9%90%E5%8E%85.jpg) |
 | 青岛大剧院 | Narjuko | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Qingdao_Grand_Theatre.JPG) |
-| 青岛大剧院 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%87%A4%E5%87%B0%E4%B9%8B%E5%A3%B0%E5%A4%A7%E5%89%A7%E9%99%A2.jpg) |
-| 青岛大剧院 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%87%A4%E5%87%B0%E4%B9%8B%E5%A3%B0%E5%A4%A7%E5%89%A7%E9%99%A2%E5%A4%9C%E6%99%AF.jpg) |
-| 台东商业步行街 | Gauthier DELECROIX - 郭天 from Qingdao, China | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Classroom_(50015020411).jpg) |
-| 台东商业步行街 | Gauthier DELECROIX - 郭天 from Qingdao, China | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Down_from_the_pagoda_(50008017587).jpg) |
-| 台东商业步行街 | Gauthier DELECROIX - 郭天 from Qingdao, China | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Down_to_the_pavillon_(50039441856).jpg) |
-| 银鱼巷 | Alex M | Pexels License | [pexels](https://www.pexels.com/photo/narrow-alley-in-zhuhai-featuring-shops-38415169/) |
-| 银鱼巷 | Leia-Yalu Feng | Pexels License | [pexels](https://www.pexels.com/photo/aerial-view-of-lush-urban-landscape-in-qingdao-38304174/) |
-| 银鱼巷 | Jayden Han | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-qingdao-s-coastal-architecture-39801419/) |

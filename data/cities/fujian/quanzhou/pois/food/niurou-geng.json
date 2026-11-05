@@ -41,21 +41,6 @@
   "tips": [],
   "images": [
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Huzai_Rice.jpg/1280px-Huzai_Rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Huzai_Rice.jpg/1280px-Huzai_Rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 608,
-      "alt": "Huzai Rice.jpg",
-      "query": "牛肉羹 泉州",
-      "credit": {
-        "source": "wikimedia",
-        "author": "泉州柒巴士",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Huzai_Rice.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Beef_thick_soup.jpg/1280px-Beef_thick_soup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Beef_thick_soup.jpg/1280px-Beef_thick_soup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
@@ -68,6 +53,11 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beef_thick_soup.jpg",
         "license": "CC BY-SA 3.0",
         "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-10-31"
       }
     }
   ],
@@ -86,7 +76,7 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-27",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

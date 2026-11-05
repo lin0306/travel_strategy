@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/35635447/pexels-photo-35635447.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35635447/pexels-photo-35635447.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6048,
-      "height": 4024,
-      "alt": "Yantai street view showcasing European-style architecture on a cloudy day.",
-      "query": "China city street view yantai",
-      "credit": {
-        "source": "pexels",
-        "author": "Kenny Foo",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-yantai-s-european-architecture-35635447/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/17563636/pexels-photo-17563636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/17563636/pexels-photo-17563636.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3964,
-      "height": 5946,
-      "alt": "Busy city street leading to the sea, captured at sunset with vibrant skies and city lights.",
-      "query": "China city street view yantai",
-      "credit": {
-        "source": "pexels",
-        "author": "Henley Wang",
-        "sourceUrl": "https://www.pexels.com/photo/street-in-seaside-at-sunset-17563636/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/34099292/pexels-photo-34099292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34099292/pexels-photo-34099292.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8192,
-      "height": 5464,
-      "alt": "View of heavy traffic on a major road in a modern Chinese city with high-rise buildings and cloudy skies.",
-      "query": "China city street view yantai",
-      "credit": {
-        "source": "pexels",
-        "author": "Andy Lee",
-        "sourceUrl": "https://www.pexels.com/photo/busy-urban-traffic-in-modern-chinese-city-34099292/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "酒庄",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-05"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "烟台市",
   "_geocodeSuspect": false,
-  "district": "370613"
+  "district": "370613",
+  "_noImage": true
 }

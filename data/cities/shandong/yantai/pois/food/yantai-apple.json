@@ -41,33 +41,23 @@
   "tips": [],
   "images": [
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/%E5%B1%B1%E4%B8%9C%E7%83%9F%E5%8F%B0%E5%AF%8C%E5%A3%AB%E8%8B%B9%E6%9E%9C.jpg/1280px-%E5%B1%B1%E4%B8%9C%E7%83%9F%E5%8F%B0%E5%AF%8C%E5%A3%AB%E8%8B%B9%E6%9E%9C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/%E5%B1%B1%E4%B8%9C%E7%83%9F%E5%8F%B0%E5%AF%8C%E5%A3%AB%E8%8B%B9%E6%9E%9C.jpg/1280px-%E5%B1%B1%E4%B8%9C%E7%83%9F%E5%8F%B0%E5%AF%8C%E5%A3%AB%E8%8B%B9%E6%9E%9C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "山东烟台富士苹果.jpg",
-      "query": "烟台苹果 烟台",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Walter Grassroot",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B1%B1%E4%B8%9C%E7%83%9F%E5%8F%B0%E5%AF%8C%E5%A3%AB%E8%8B%B9%E6%9E%9C.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/%E5%B1%B1%E4%B8%9C%E7%83%9F%E5%8F%B0%E5%AF%8C%E5%A3%AB%E8%8B%B9%E6%9E%9C_2020.jpg/1280px-%E5%B1%B1%E4%B8%9C%E7%83%9F%E5%8F%B0%E5%AF%8C%E5%A3%AB%E8%8B%B9%E6%9E%9C_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/%E5%B1%B1%E4%B8%9C%E7%83%9F%E5%8F%B0%E5%AF%8C%E5%A3%AB%E8%8B%B9%E6%9E%9C_2020.jpg/1280px-%E5%B1%B1%E4%B8%9C%E7%83%9F%E5%8F%B0%E5%AF%8C%E5%A3%AB%E8%8B%B9%E6%9E%9C_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
-      "height": 1440,
+      "height": 720,
       "alt": "山东烟台富士苹果 2020.jpg",
-      "query": "烟台苹果 烟台",
+      "query": "烟台苹果",
       "credit": {
         "source": "wikimedia",
         "author": "Walter Grassroot",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B1%B1%E4%B8%9C%E7%83%9F%E5%8F%B0%E5%AF%8C%E5%A3%AB%E8%8B%B9%E6%9E%9C_2020.jpg",
         "license": "CC0",
         "attributionRequired": false
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-10-31"
       }
     }
   ],
@@ -86,7 +76,7 @@
       "fetchedAt": "2026-10-05"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

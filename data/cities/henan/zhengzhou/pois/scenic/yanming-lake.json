@@ -44,53 +44,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/27578207/pexels-photo-27578207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/27578207/pexels-photo-27578207.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "A picturesque cityscape featuring a stone bridge over a river with urban buildings in the background.",
-      "query": "Yanming Lake Zhongmu",
-      "credit": {
-        "source": "pexels",
-        "author": "Hao Liang",
-        "sourceUrl": "https://www.pexels.com/photo/a-bridge-over-a-river-with-buildings-in-the-background-27578207/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/34967559/pexels-photo-34967559.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34967559/pexels-photo-34967559.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4128,
-      "height": 6192,
-      "alt": "Serene concrete path leading to a tree-covered island on a sunny day.",
-      "query": "Yanming Lake Zhongmu",
-      "credit": {
-        "source": "pexels",
-        "author": "Leila Chen",
-        "sourceUrl": "https://www.pexels.com/photo/tranquil-pathway-leading-to-scenic-island-34967559/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36873727/pexels-photo-36873727.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36873727/pexels-photo-36873727.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2252,
-      "height": 4000,
-      "alt": "A traditional boat sailing on the serene waters of West Lake, Hangzhou.",
-      "query": "Yanming Lake Zhongmu",
-      "credit": {
-        "source": "pexels",
-        "author": "Vanessa G.",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-boat-ride-on-west-lake-hangzhou-36873727/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "湖泊",
@@ -106,7 +60,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Yanming Lake Zhongmu",
@@ -114,5 +68,6 @@
   },
   "_geocodeTitle": "雁鸣湖镇",
   "_geocodeSuspect": false,
-  "district": "410122"
+  "district": "410122",
+  "_noImage": true
 }

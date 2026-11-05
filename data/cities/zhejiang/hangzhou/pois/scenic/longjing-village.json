@@ -46,48 +46,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/34432366/pexels-photo-34432366.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34432366/pexels-photo-34432366.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6240,
-      "height": 3512,
-      "alt": "Tranquil scene of West Lake with peaceful waters and distant hills in Hangzhou, China.",
-      "query": "natural landscape China hangzhou",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/%E6%9D%AD%E5%B7%9E._%E4%BA%94%E8%80%81%E5%B3%B0-%E5%8D%83%E5%B9%B4%E5%8F%A4%E5%94%90%E6%A8%9F_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/%E6%9D%AD%E5%B7%9E._%E4%BA%94%E8%80%81%E5%B3%B0-%E5%8D%83%E5%B9%B4%E5%8F%A4%E5%94%90%E6%A8%9F_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 720,
+      "alt": "杭州. 五老峰-千年古唐樟 - panoramio.jpg",
+      "query": "龙井村与梅家坞",
       "credit": {
-        "source": "pexels",
-        "author": "nana liu",
-        "sourceUrl": "https://www.pexels.com/photo/serene-view-of-west-lake-in-hangzhou-china-34432366/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/7532194/pexels-photo-7532194.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/7532194/pexels-photo-7532194.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4912,
-      "height": 3264,
-      "alt": "Peaceful scene featuring a boat on West Lake with Leifeng Pagoda in Hangzhou, China.",
-      "query": "natural landscape China hangzhou",
-      "credit": {
-        "source": "pexels",
-        "author": "Leon Huang",
-        "sourceUrl": "https://www.pexels.com/photo/leifeng-pagoda-in-china-7532194/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/20587934/pexels-photo-20587934.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/20587934/pexels-photo-20587934.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4672,
-      "height": 7008,
-      "alt": "Serene landscape of leafless trees and a calm river in Hangzhou, perfect for relaxation and sightseeing.",
-      "query": "natural landscape China hangzhou",
-      "credit": {
-        "source": "pexels",
-        "author": "Acres of Film",
-        "sourceUrl": "https://www.pexels.com/photo/leafless-trees-on-islets-in-the-middle-of-the-river-20587934/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "zhiyin586@163.com",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-04",
+        "tier": "street"
       }
     }
   ],
@@ -106,7 +82,7 @@
       "fetchedAt": "2026-09-19"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-04",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

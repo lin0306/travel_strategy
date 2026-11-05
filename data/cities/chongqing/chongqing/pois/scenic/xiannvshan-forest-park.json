@@ -43,53 +43,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/38733381/pexels-photo-38733381.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38733381/pexels-photo-38733381.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4096,
-      "height": 3072,
-      "alt": "Idyllic landscape of a tranquil river, lush greenery, and mountains in Xiushan, China on a sunny day.",
-      "query": "natural landscape China chongqing",
-      "credit": {
-        "source": "pexels",
-        "author": "千纸鹤 吴",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-river-and-mountains-in-xiushan-china-38733381/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/8622312/pexels-photo-8622312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/8622312/pexels-photo-8622312.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Hikers explore the impressive rock formations and waterfall in Wulong Karst National Park, China.",
-      "query": "natural landscape China chongqing",
-      "credit": {
-        "source": "pexels",
-        "author": "Caleb Remy Ma",
-        "sourceUrl": "https://www.pexels.com/photo/hikers-walking-under-a-natural-arch-8622312/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38942587/pexels-photo-38942587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38942587/pexels-photo-38942587.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8064,
-      "height": 6048,
-      "alt": "View of Chongqing, China skyline featuring modern architecture under a cloudy sky.",
-      "query": "natural landscape China chongqing",
-      "credit": {
-        "source": "pexels",
-        "author": "Guillaume Kremer",
-        "sourceUrl": "https://www.pexels.com/photo/skyline-view-of-chongqing-s-modern-architecture-38942587/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "草原",
@@ -106,7 +60,7 @@
       "fetchedAt": "2026-09-23"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -114,5 +68,6 @@
   },
   "_geocodeTitle": "仙女山国家森林公园",
   "_geocodeSuspect": false,
-  "district": "500156"
+  "district": "500156",
+  "_noImage": true
 }

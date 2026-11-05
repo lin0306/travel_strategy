@@ -1,6 +1,6 @@
 # 福州 · 数据来源与图片版权
 
-> 生成于 2026-10-31 · 城市数据最后更新 2026-10-04
+> 生成于 2026-11-05 · 城市数据最后更新 2026-10-04
 
 ## 概览
 
@@ -85,196 +85,171 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Darry Lin | Pexels License | [pexels](https://www.pexels.com/photo/bird-s-eye-view-of-city-during-evening-2349958/) |
-| 城市封面 | Bryanken | Pexels License | [pexels](https://www.pexels.com/photo/traffic-on-street-in-city-17975657/) |
-| 城市封面 | Glyne Yan | Pexels License | [pexels](https://www.pexels.com/photo/skyline-view-from-balcony-at-dusk-in-guangzhou-35620192/) |
-| 苍霞特色历史文化街区 | daydream | Pexels License | [pexels](https://www.pexels.com/photo/film-photo-of-the-shangxiahang-building-in-fuzhou-china-20870719/) |
-| 苍霞特色历史文化街区 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/drone-shot-of-pond-22764588/) |
-| 苍霞特色历史文化街区 | Bryanken | Pexels License | [pexels](https://www.pexels.com/photo/residential-building-with-with-balconies-converted-into-additional-rooms-17945058/) |
+| 城市封面 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2019%E4%B8%96%E7%95%8C%E7%A6%8F%E5%B7%9E%E5%8D%81%E9%82%91%E6%98%A5%E6%99%9A_%E6%AD%8C%E6%9B%B2%E3%80%8A%E5%97%A8%E8%B5%B7%E6%9D%A5%E3%80%8B.jpg) |
+| 城市封面 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2019%E4%B8%96%E7%95%8C%E7%A6%8F%E5%B7%9E%E5%8D%81%E9%82%91%E6%98%A5%E6%99%9A_%E7%A6%8F%E5%B7%9E%E8%AF%AD%E6%AD%8C%E6%9B%B2%E3%80%8A%E4%B9%A1%E4%BA%B2%E6%9D%A5%E6%8B%9C%E5%B9%B4%E3%80%8B01.jpg) |
+| 城市封面 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2019%E4%B8%96%E7%95%8C%E7%A6%8F%E5%B7%9E%E5%8D%81%E9%82%91%E6%98%A5%E6%99%9A_%E7%A6%8F%E5%B7%9E%E8%AF%AD%E6%AD%8C%E6%9B%B2%E3%80%8A%E4%B9%A1%E4%BA%B2%E6%9D%A5%E6%8B%9C%E5%B9%B4%E3%80%8B02.jpg) |
+| 苍霞特色历史文化街区 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 苍霞特色历史文化街区 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 苍霞特色历史文化街区 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 苍霞特色历史文化街区 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 苍霞特色历史文化街区 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 陈绍宽故居 | SCJiang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20161001_%E8%A5%BF%E5%B9%BF%E5%9C%BA%E9%99%88%E7%BB%8D%E5%AE%BD%E6%95%85%E5%B1%85.jpg) |
-| 陈绍宽故居 | Roseson | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%99%88%E7%BB%8D%E5%AE%BD%E6%95%85%E5%B1%85_-_panoramio.jpg) |
-| 中国船政文化景区 | daydream | Pexels License | [pexels](https://www.pexels.com/photo/film-photo-of-the-shangxiahang-building-in-fuzhou-china-20870719/) |
-| 中国船政文化景区 | Bryanken | Pexels License | [pexels](https://www.pexels.com/photo/entrance-to-the-dingguang-pagoda-fuzhou-china-17975596/) |
-| 中国船政文化景区 | Peter Xie | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-pagoda-with-red-lanterns-35268819/) |
 | 福建博物院 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Liuhua_Mu_-_Fujian_Bowuyuan_20120304-1.jpg) |
 | 福建博物院 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Liuhua_Mu_-_Fujian_Bowuyuan_20120304-2.jpg) |
 | 福建博物院 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Liuhua_Mu_-_Fujian_Bowuyuan_20120304-3.jpg) |
-| 中国闽菜文化博物馆 | Maxim Klimashin | Unsplash License | [unsplash](https://unsplash.com/photos/national-palace-museum-with-lush-green-hill-background-Kp-8068au88) |
-| 中国闽菜文化博物馆 | Celine Ly | Unsplash License | [unsplash](https://unsplash.com/photos/collection-of-ceramic-teapots-and-cups-displayed-earthenware-displayed-pottery-biDDl9Gl4bM) |
-| 中国闽菜文化博物馆 | Willian Justen de Vasconcellos | Unsplash License | [unsplash](https://unsplash.com/photos/man-operating-a-traditional-stone-mill-in-a-rustic-setting-pahk2zYGZ9w) |
-| 福建省革命历史纪念馆 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%AD%A6%E5%A4%B7%E5%B1%B1%E5%B8%82%E5%88%97%E5%AE%81%E5%85%AC%E5%9B%AD%E5%86%85%E9%97%BD%E5%8C%97%E9%9D%A9%E5%91%BD%E5%8E%86%E5%8F%B2%E7%BA%AA%E5%BF%B5%E9%A6%86_-_panoramio.jpg) |
-| 福建省革命历史纪念馆 | Rano Chen | Pexels License | [pexels](https://www.pexels.com/photo/revolutionary-statue-commemorating-historical-leaders-37966167/) |
-| 福建省革命历史纪念馆 | Enrico Bellodi | Pexels License | [pexels](https://www.pexels.com/photo/sun-yat-sen-memorial-hall-with-reflection-38020162/) |
-| 福州市博物馆 | Perinbaba | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%A6%8F%E5%B7%9E%E4%BA%94%E6%AC%A1%E5%BB%BA%E9%83%BD%E8%A1%A8.jpg) |
+| 福建博物院 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Liuhua_Mu_-_Fujian_Bowuyuan_20120304-4.jpg) |
+| 福建博物院 | BreakdownDiode | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:The_model_of_Hualin_Temple.JPG) |
+| 福建博物院 | 松照庵 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%85%83%E5%92%8C%E5%85%AB%E5%B9%B4%EF%BC%88813%EF%BC%89%E8%A3%B4%E6%AC%A1%E5%85%83%E3%80%8A%E6%AF%AC%E5%A0%B4%E5%B1%B1%E4%BA%AD%E8%A8%98%E3%80%8B%E6%AE%98%E7%A2%91.jpg) |
+| 福建省革命历史纪念馆 | FradonStar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%A6%8F%E5%BB%BA%E7%9C%81%E9%9D%A9%E5%91%BD%E5%8E%86%E5%8F%B2%E7%BA%AA%E5%BF%B5%E9%A6%86.jpg) |
+| 福建省革命历史纪念馆 | Unknown authorUnknown author | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B7%A6%E4%B8%B0%E7%BE%8E.jpg) |
+| 福建省革命历史纪念馆 | Unknown authorUnknown author | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%8C%83%E5%BC%8F%E4%BA%BA.jpg) |
+| 福建省革命历史纪念馆 | Perinbaba | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Cover_of_Minxing.jpg) |
 | 福州市博物馆 | FradonStar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%97%BD%E9%83%BD%E5%8D%8E%E7%AB%A0%EF%BC%9A%E7%A6%8F%E5%B7%9E%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E9%99%88%E5%88%97_20251019_02.jpg) |
 | 福州市博物馆 | FradonStar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%97%BD%E9%83%BD%E5%8D%8E%E7%AB%A0%EF%BC%9A%E7%A6%8F%E5%B7%9E%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E9%99%88%E5%88%97_20251019_03.jpg) |
+| 福州市博物馆 | FradonStar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%97%BD%E9%83%BD%E5%8D%8E%E7%AB%A0%EF%BC%9A%E7%A6%8F%E5%B7%9E%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E9%99%88%E5%88%97_20251019_04.jpg) |
+| 福州市博物馆 | FradonStar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%97%BD%E9%83%BD%E5%8D%8E%E7%AB%A0%EF%BC%9A%E7%A6%8F%E5%B7%9E%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E9%99%88%E5%88%97_20251019_05.jpg) |
+| 福州市博物馆 | FradonStar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%97%BD%E9%83%BD%E5%8D%8E%E7%AB%A0%EF%BC%9A%E7%A6%8F%E5%B7%9E%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E9%99%88%E5%88%97_20251019_06.jpg) |
+| 福州市博物馆 | FradonStar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%97%BD%E9%83%BD%E5%8D%8E%E7%AB%A0%EF%BC%9A%E7%A6%8F%E5%B7%9E%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E9%99%88%E5%88%97_20251019_07.jpg) |
+| 福州文庙 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Fuzhou_Wenmiao_2019.03.13_10-29-25.jpg) |
 | 福州文庙 | ScareCriterion12 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Foochow_Confucian_Temple_2019_(1).jpg) |
 | 福州文庙 | ScareCriterion12 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Foochow_Confucian_Temple_2019_(2).jpg) |
-| 福州文庙 | LuHungnguong | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hok-ciu_Ung-mieu.jpg) |
-| 福州西湖公园 | atlas lin | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:West_Lake_Park.jpg) |
+| 福州文庙 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Fuzhou_Wenmiao_20120304-01.jpg) |
+| 福州文庙 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Fuzhou_Wenmiao_20120304-04.jpg) |
+| 福州文庙 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Fuzhou_Wenmiao_20120304-09.jpg) |
 | 福州西湖公园 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%A6%8F%E5%B7%9E%E8%A5%BF%E6%B9%96%E5%85%AC%E5%9B%AD,_2006-07-07.jpg) |
 | 福州西湖公园 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%A6%8F%E5%B7%9E%E8%A5%BF%E6%B9%96%E5%85%AC%E5%9B%AD_-_panoramio.jpg) |
-| 福州动物园 | 强 王 | Pexels License | [pexels](https://www.pexels.com/photo/serene-traditional-garden-pavilion-in-summer-34742978/) |
-| 福州动物园 | Archer  Hsu | Pexels License | [pexels](https://www.pexels.com/photo/elegant-traditional-chinese-architecture-with-bamboo-30277908/) |
-| 福州动物园 | 强 王 | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-garden-courtyard-in-fuzhou-34742959/) |
-| 鼓岭 | Darry Lin | Pexels License | [pexels](https://www.pexels.com/photo/two-person-walking-on-bridge-2246647/) |
-| 鼓岭 | 强 王 | Pexels License | [pexels](https://www.pexels.com/photo/serene-traditional-garden-pavilion-in-summer-34742978/) |
-| 鼓岭 | YI REN | Pexels License | [pexels](https://www.pexels.com/photo/serene-lakeside-view-with-distant-mountains-39379965/) |
-| 福州国家森林公园 | (c) Wang.QG, some rights reserved (CC BY) | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Acrossocheilus_hemispinus,_%E7%A6%8F%E5%B7%9E%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD_imported_from_iNaturalist_photo_258394205.jpg) |
+| 福州西湖公园 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%A6%8F%E5%B7%9E%E8%A5%BF%E6%B9%96%E5%85%AC%E5%9B%AD%E5%8D%97%E5%A4%A7%E9%97%A8,_2006-03-09.jpg) |
+| 福州西湖公园 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%A6%8F%E5%B7%9E%E8%A5%BF%E6%B9%96%E5%85%AC%E5%9B%AD%E5%A4%A7%E9%97%A8,_2006-07-07.jpg) |
+| 福州西湖公园 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%A6%8F%E5%B7%9E%E8%A5%BF%E6%B9%96%E5%85%AC%E5%9B%AD%E5%BC%80%E5%8C%96%E5%AF%BA.jpg) |
+| 福州西湖公园 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%A6%8F%E5%B7%9E%E8%A5%BF%E6%B9%96%E5%85%AC%E5%9B%AD%E5%BC%80%E5%8C%96%E5%AF%BA%E5%A4%A7%E9%9B%84%E5%AE%9D%E6%AE%BF.jpg) |
+| 鼓岭 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%BC%93%E5%B2%AD2%E5%8F%B7%E6%B8%B8%E6%AD%A5%E9%81%93_-_No.2_Walkway_of_Guling_Mountain_-_2010.08_-_panoramio.jpg) |
+| 鼓岭 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%BC%93%E5%B2%AD3%E5%8F%B7%E6%B8%B8%E6%AD%A5%E9%81%93_-_No.3_Walkway_of_Guling_Mountain_-_2015.06_-_panoramio_(1).jpg) |
+| 鼓岭 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%BC%93%E5%B2%AD4%E5%8F%B7%E6%B8%B8%E6%AD%A5%E9%81%93_-_No.4_Walkway_of_Guling_Mountain_-_2015.01_-_panoramio.jpg) |
+| 鼓岭 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%BC%93%E5%B2%AD%E4%BD%8F%E5%AE%85_-_Residences_in_Guling_Mountain_-_2011.10_-_panoramio.jpg) |
+| 鼓岭 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%BC%93%E5%B2%AD%E5%88%86%E8%B7%AF_-_A_Junction_in_the_Guling_Mountain_Path_-_2010.08_-_panoramio.jpg) |
 | 福州国家森林公园 | 弧微分 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Caryota_mitis_taken_in_Fuzhou.JPG) |
-| 鼓山 | SCJiang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:201904_Concourse_of_Gushan_Station.jpg) |
-| 鼓山 | SCJiang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:201904_Gushan_Station.jpg) |
-| 鼓山 | SCJiang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:201904_Platform_of_Gushan_Station.jpg) |
-| 华林寺 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Back_of_the_Hall_of_Guru,_Hualin_Temple,_picture2.jpg) |
+| 鼓山 | 亜東印画協会 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%9C%E6%9D%B1%E5%8D%B0%E7%94%BB%E8%BC%AF_12_010_%22%E9%BC%93%E5%B1%B1%E3%81%AE%E5%B1%B1%E9%96%80%EF%BC%88%E7%A6%8F%E5%B7%9E%E9%83%8A%E5%A4%96%EF%BC%89%22.jpg) |
+| 鼓山 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BB%8E%E9%BC%93%E5%B1%B1%E7%9C%8B%E7%A6%8F%E5%B7%9E_-_Fuzhou_City_Viewed_from_Gushan_Mountain_-_2010.08_-_panoramio.jpg) |
 | 华林寺 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Fuzhou_Hualin_Si_20120304-01.jpg) |
+| 华林寺 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Back_of_the_Bodhidharma_Hall,_Hualin_Temple,_picture1.jpg) |
+| 华林寺 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Back_of_the_Hall_of_Guru,_Hualin_Temple,_picture2.jpg) |
+| 华林寺 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Five_Hundred_Arhats,_Hualin_Temple,_picture5.jpg) |
 | 华林寺 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hall_of_Guru,_Hualin_Temple,_picture12.jpg) |
-| 黄檗山万福寺 | Hyppolyte de Saint-Rambert | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mampuku-ji_(Sakai_Sakai-ku)_Temple_hdsr_S5_02.jpg) |
-| 黄檗山万福寺 | Hyppolyte de Saint-Rambert | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mampuku-ji_(Sakai_Sakai-ku)_Temple_hdsr_S5_03.jpg) |
-| 黄檗山万福寺 | Hyppolyte de Saint-Rambert | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mampuku-ji_(Sakai_Sakai-ku)_Temple_hdsr_S5_04.jpg) |
-| 江滨公园 | Daredemodaisuki 114514 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%90%88%E5%B7%9D%E6%BB%A8%E6%B1%9F%E5%85%AC%E5%9B%AD%E5%98%89%E6%BB%A8%E5%85%AC%E5%9B%AD%E6%AE%B5%E6%B1%9F%E9%AD%82%E7%9F%B3%E5%A1%91.jpg) |
-| 江滨公园 | Daredemodaisuki 114514 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%90%88%E5%B7%9D%E6%BB%A8%E6%B1%9F%E5%85%AC%E5%9B%AD%E6%B6%AA%E6%BB%A8%E5%85%AC%E5%9B%AD%E6%AE%B5%E6%BB%A8%E6%B1%9F%E6%AD%A5%E9%81%93%E4%B8%B4%E6%B1%9F%E6%B5%AE%E9%9B%95%E6%96%87%E5%8C%96%E9%95%BF%E5%BB%8A%E4%B9%99.jpg) |
-| 江滨公园 | Daredemodaisuki 114514 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%90%88%E5%B7%9D%E6%BB%A8%E6%B1%9F%E5%85%AC%E5%9B%AD%E6%B6%AA%E6%BB%A8%E5%85%AC%E5%9B%AD%E6%AE%B5%E6%BB%A8%E6%B1%9F%E6%AD%A5%E9%81%93%E4%B9%99.jpg) |
-| 金山寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250712_Shecun_Jinshan_Temple_01.jpg) |
-| 金山寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250712_Shecun_Jinshan_Temple_03.jpg) |
-| 金山寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250712_Shecun_Jinshan_Temple_07.jpg) |
-| 梁厝特色历史文化街区 | daydream | Pexels License | [pexels](https://www.pexels.com/photo/film-photo-of-the-shangxiahang-building-in-fuzhou-china-20870719/) |
-| 梁厝特色历史文化街区 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/drone-shot-of-pond-22764588/) |
-| 梁厝特色历史文化街区 | Bryanken | Pexels License | [pexels](https://www.pexels.com/photo/residential-building-with-with-balconies-converted-into-additional-rooms-17945058/) |
-| 林浦古村 | daydream | Pexels License | [pexels](https://www.pexels.com/photo/film-photo-of-the-shangxiahang-building-in-fuzhou-china-20870719/) |
-| 林浦古村 | Bryanken | Pexels License | [pexels](https://www.pexels.com/photo/entrance-to-the-dingguang-pagoda-fuzhou-china-17975596/) |
-| 林浦古村 | Yik Chen | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-architectural-facade-40267624/) |
-| 林则徐纪念馆 | Swing | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Fuzhou_Linzexu.jpg) |
+| 江滨公园 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 林浦古村 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 林浦古村 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 林浦古村 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 林则徐纪念馆 | stone wu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%9E%97%E5%88%99%E5%BE%90%E7%BA%AA%E5%BF%B5%E9%A6%86_-_panoramio.jpg) |
-| 林则徐纪念馆 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BC%8A%E7%8A%81%E6%9E%97%E5%88%99%E5%BE%90%E7%BA%AA%E5%BF%B5%E9%A6%86_Linzexu_Memorial_Museum_in_Ili.jpg) |
+| 林则徐纪念馆 | Swing | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Fuzhou_Linzexu.jpg) |
 | 罗星塔 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2001%E5%B9%B4_%E7%A6%8F%E5%B7%9E%E9%A9%AC%E5%B0%BE%E7%BD%97%E6%98%9F%E5%A1%94%E4%B8%8A%E7%9C%8B%E9%97%BD%E6%B1%9F_Min_River_-_panoramio.jpg) |
 | 罗星塔 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2001%E5%B9%B4%E7%A6%8F%E5%B7%9E%E9%A9%AC%E5%B0%BE%E7%BD%97%E6%98%9F%E5%A1%94%E4%B8%8A%E7%9C%8B%E9%97%BD%E6%B1%9F_Min_River_-_panoramio.jpg) |
+| 罗星塔 | stone wu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%BD%97%E6%98%9F%E5%A1%94_-_panoramio.jpg) |
+| 罗星塔 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%BD%97%E6%98%9F%E5%A1%94_-_Luoxing_Pagoda_-_2014.02_-_panoramio.jpg) |
 | 罗星塔 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Couplets_of_Luoxing_Pagoda_(20170125135820).jpg) |
-| 梅花古城 | Lee Milo | Unsplash License | [unsplash](https://unsplash.com/photos/a-chinese-building-with-red-pillars-and-a-red-roof-4AU-dlZBGro) |
+| 罗星塔 | Sunatnight | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BB%B0%E8%A7%86%E7%BD%97%E6%98%9F%E5%A1%94.jpg) |
 | 闽侯县博物馆 | FradonStar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%97%BD%E4%BE%AF%E5%8E%BF%E5%8D%9A%E7%89%A9%E9%A6%86_20250313_01.jpg) |
+| 闽侯县博物馆 | FradonStar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%97%BD%E4%BE%AF%E5%8E%BF%E5%8D%9A%E7%89%A9%E9%A6%86_20250313_03.jpg) |
 | 闽侯县博物馆 | FradonStar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%97%BD%E4%BE%AF%E5%8E%BF%E5%8D%9A%E7%89%A9%E9%A6%86_20250313_06.jpg) |
 | 闽侯县博物馆 | FradonStar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%97%BD%E4%BE%AF%E5%8E%BF%E5%8D%9A%E7%89%A9%E9%A6%86_20250313_07.jpg) |
-| 闽江公园 | 强 王 | Pexels License | [pexels](https://www.pexels.com/photo/serene-traditional-garden-pavilion-in-summer-34742978/) |
-| 闽江公园 | Archer  Hsu | Pexels License | [pexels](https://www.pexels.com/photo/elegant-traditional-chinese-architecture-with-bamboo-30277908/) |
-| 闽江公园 | 强 王 | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-garden-courtyard-in-fuzhou-34742959/) |
-| 青云山景区 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E4%BA%91%E5%B1%B1%E9%A3%8E%E5%85%89-%E9%9D%92%E9%BE%99%E7%80%91%E5%B8%83%E6%99%AF%E5%8C%BA%E5%81%9C%E8%BD%A6%E5%9C%BA_-_panoramio.jpg) |
+| 闽侯县博物馆 | FradonStar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%97%BD%E4%BE%AF%E5%8E%BF%E5%8D%9A%E7%89%A9%E9%A6%86_20250313_15.jpg) |
+| 闽侯县博物馆 | FradonStar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%97%BD%E4%BE%AF%E5%8E%BF%E5%8D%9A%E7%89%A9%E9%A6%86_20250313_18.jpg) |
+| 闽江公园 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2018%E7%A6%8F%E5%B7%9E%E8%8A%B1%E7%81%AF%E5%B1%95_%E4%BB%93%E5%B1%B1%E5%B1%95%E5%8C%BA_01.jpg) |
+| 闽江公园 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2018%E7%A6%8F%E5%B7%9E%E8%8A%B1%E7%81%AF%E5%B1%95_%E4%BB%93%E5%B1%B1%E5%B1%95%E5%8C%BA_02.jpg) |
+| 闽江公园 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2018%E7%A6%8F%E5%B7%9E%E8%8A%B1%E7%81%AF%E5%B1%95_%E4%BB%93%E5%B1%B1%E5%B1%95%E5%8C%BA_03.jpg) |
+| 闽江公园 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2018%E7%A6%8F%E5%B7%9E%E8%8A%B1%E7%81%AF%E5%B1%95_%E4%BB%93%E5%B1%B1%E5%B1%95%E5%8C%BA_04.jpg) |
+| 闽江公园 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2018%E7%A6%8F%E5%B7%9E%E8%8A%B1%E7%81%AF%E5%B1%95_%E4%BB%93%E5%B1%B1%E5%B1%95%E5%8C%BA_05.jpg) |
+| 闽江公园 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2018%E7%A6%8F%E5%B7%9E%E8%8A%B1%E7%81%AF%E5%B1%95_%E4%BB%93%E5%B1%B1%E5%B1%95%E5%8C%BA_06.jpg) |
 | 旗山万佛寺 | Christopher, Tania and Isabelle Luna | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Stone_chinese_dragons.jpg) |
 | 旗山万佛寺 | Daderot | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Back_screen_images,_China,_unearthed_from_Wanfo_Temple,_Chengdu,_4th_year_of_the_Putong_reign_of_the_Liang,_Southern_Dynasties,_523_AD,_sandstone_-_Sichuan_Provincial_Museum_-_Chengdu,_China_-_DSC04546.jpg) |
 | 旗山万佛寺 | Daderot | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Back_screen_images,_China,_unearthed_from_Wanfo_Temple,_Chengdu,_5th_year_of_the_Zhongdatong_reign_of_the_Liang,_Southern_Dynasties,_533_AD,_sandstone_-_Sichuan_Provincial_Museum_-_Chengdu,_China_-_DSC04543.jpg) |
-| 旗山湖公园 | 强 王 | Pexels License | [pexels](https://www.pexels.com/photo/serene-traditional-garden-pavilion-in-summer-34742978/) |
-| 旗山湖公园 | Archer  Hsu | Pexels License | [pexels](https://www.pexels.com/photo/elegant-traditional-chinese-architecture-with-bamboo-30277908/) |
-| 旗山湖公园 | 强 王 | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-garden-courtyard-in-fuzhou-34742959/) |
+| 旗山万佛寺 | Daderot | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Back_screen_sitting_statue_of_Buddha,_China,_unearthed_from_Wanfo_Temple,_Chengdu,_Southern_Dynasties,_420-589_AD,_sandstone_-_Sichuan_Provincial_Museum_-_Chengdu,_China_-_DSC04539.jpg) |
+| 旗山万佛寺 | Daderot | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Bodhisattva_head,_China,_unearthed_from_Wanfo_Temple,_Chengdu,_Tang_dynasty,_618-907_AD,_sandstone_-_Sichuan_Provincial_Museum_-_Chengdu,_China_-_DSC04536.jpg) |
+| 旗山万佛寺 | Daderot | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Guanyin_Bodhisattva_head,_China,_unearthed_from_Wanfo_Temple,_Chengdu,_Tang_dynasty,_618-907_AD,_sandstone_-_Sichuan_Provincial_Museum_-_Chengdu,_China_-_DSC04528.jpg) |
 | 三坊七巷 | FradonStar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20251101_%E4%B8%89%E5%9D%8A%E4%B8%83%E5%B7%B7_%E6%96%B0%E5%9B%9B%E5%86%9B%E9%A9%BB%E7%A6%8F%E5%B7%9E%E5%8A%9E%E4%BA%8B%E5%A4%84%E6%97%A7%E5%9D%80_01.jpg) |
 | 三坊七巷 | FradonStar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20251101_%E4%B8%89%E5%9D%8A%E4%B8%83%E5%B7%B7_%E6%96%B0%E5%9B%9B%E5%86%9B%E9%A9%BB%E7%A6%8F%E5%B7%9E%E5%8A%9E%E4%BA%8B%E5%A4%84%E6%97%A7%E5%9D%80_02.jpg) |
 | 三坊七巷 | FradonStar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260111_%E4%B8%89%E5%9D%8A%E4%B8%83%E5%B7%B7_%E7%A6%8F%E5%B7%9E%E5%BB%BA%E5%AE%81%E4%BC%9A%E9%A6%86_01.jpg) |
-| 上下杭历史文化街区 | 福州市城乡规划局 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E4%B8%8B%E6%9D%AD%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA%E4%BF%9D%E6%8A%A4%E8%A7%84%E5%88%92%E4%BF%9D%E6%8A%A4%E5%8C%BA%E5%88%92%E5%9B%BE.jpg) |
-| 上下杭历史文化街区 | 福州市城乡规划局 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E4%B8%8B%E6%9D%AD%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA%E4%BF%9D%E6%8A%A4%E8%A7%84%E5%88%92%E5%B1%95%E7%A4%BA%E5%88%A9%E7%94%A8%E8%A7%84%E5%88%92%E7%BB%93%E6%9E%84%E5%9B%BE.jpg) |
-| 上下杭历史文化街区 | 福州市城乡规划局 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E4%B8%8B%E6%9D%AD%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA%E4%BF%9D%E6%8A%A4%E8%A7%84%E5%88%92%E7%94%A8%E5%9C%B0%E5%8A%9F%E8%83%BD%E7%8E%B0%E7%8A%B6%E5%9B%BE.jpg) |
-| 石竹山 | Darry Lin | Pexels License | [pexels](https://www.pexels.com/photo/two-person-walking-on-bridge-2246647/) |
-| 石竹山 | 强 王 | Pexels License | [pexels](https://www.pexels.com/photo/serene-traditional-garden-pavilion-in-summer-34742978/) |
-| 石竹山 | YI REN | Pexels License | [pexels](https://www.pexels.com/photo/serene-lakeside-view-with-distant-mountains-39379965/) |
-| 嵩口古镇 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/historic-stone-bridge-in-shaoxing-ancient-town-38249305/) |
-| 嵩口古镇 | Qing Luo | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-alley-with-archway-29336202/) |
-| 嵩口古镇 | Alberto Brunello | Pexels License | [pexels](https://www.pexels.com/photo/traditional-water-village-with-red-lanterns-31237234/) |
-| 乌山 | daydream | Pexels License | [pexels](https://www.pexels.com/photo/film-photo-of-the-shangxiahang-building-in-fuzhou-china-20870719/) |
-| 乌山 | Bryanken | Pexels License | [pexels](https://www.pexels.com/photo/entrance-to-the-dingguang-pagoda-fuzhou-china-17975596/) |
-| 乌山 | Peter Xie | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-pagoda-with-red-lanterns-35268819/) |
-| 西禅古寺 | ScareCriterion12 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Foochow_Confucian_Temple_2019_(1).jpg) |
-| 西禅古寺 | ScareCriterion12 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Foochow_Confucian_Temple_2019_(2).jpg) |
-| 西禅古寺 | Yejianfei | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Fuzhou_Chenjinggu_Temple.jpg) |
+| 三坊七巷 | FradonStar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260111_%E4%B8%89%E5%9D%8A%E4%B8%83%E5%B7%B7_%E7%A6%8F%E5%B7%9E%E5%BB%BA%E5%AE%81%E4%BC%9A%E9%A6%86_02.jpg) |
+| 三坊七巷 | FradonStar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260111_%E4%B8%89%E5%9D%8A%E4%B8%83%E5%B7%B7_%E7%A6%8F%E5%B7%9E%E5%BB%BA%E5%AE%81%E4%BC%9A%E9%A6%86_03.jpg) |
+| 三坊七巷 | FradonStar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260111_%E4%B8%89%E5%9D%8A%E4%B8%83%E5%B7%B7_%E7%A6%8F%E5%B7%9E%E5%BB%BA%E5%AE%81%E4%BC%9A%E9%A6%86_04.jpg) |
+| 上下杭历史文化街区 | 唐吉訶德的侍從 | CC0 | [wikimedia](https://commons.wikimedia.org/) |
+| 上下杭历史文化街区 | 唐吉訶德的侍從 | CC0 | [wikimedia](https://commons.wikimedia.org/) |
+| 上下杭历史文化街区 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 上下杭历史文化街区 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 乌山 | FradonStar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20231111_%E7%A6%8F%E5%B7%9E%E4%B9%8C%E5%B1%B1%E6%85%88%E5%96%84%E5%A0%82_01.jpg) |
+| 乌山 | FradonStar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20231111_%E7%A6%8F%E5%B7%9E%E4%B9%8C%E5%B1%B1%E6%85%88%E5%96%84%E5%A0%82_02.jpg) |
+| 乌山 | stone wu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B9%8C%E5%B1%B1_-_panoramio.jpg) |
+| 乌山 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B9%8C%E5%B1%B1%E6%98%8E%E5%9F%8E%E5%A2%99%E9%81%97%E5%9D%80%E4%B8%9C%E4%BE%A7.jpg) |
+| 乌山 | Peter Tritthart | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wushan-Panorama.jpg) |
+| 西禅古寺 | JULIANISME | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 西禅古寺 | JULIANISME | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 西禅古寺 | JULIANISME | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 西禅古寺 | JULIANISME | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 西禅古寺 | JULIANISME | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 西禅古寺 | JULIANISME | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 烟台山公园 | Yejianfei | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%A6%8F%E5%B7%9E%E5%B8%82%E7%83%9F%E5%8F%B0%E5%B1%B1%E5%85%AC%E5%9B%AD%E6%9C%88%E5%AE%AB%E9%97%A8.jpg) |
+| 烟台山公园 | Yejianfei | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%A6%8F%E5%B7%9E%E5%B8%82%E7%83%9F%E5%8F%B0%E5%B1%B1%E5%85%AC%E5%9B%AD%E6%9C%88%E5%AE%AB%E9%97%A8_2016.jpg) |
 | 烟台山公园 | Orangee | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%85%99%E8%87%BA%E5%B1%B1-202406.jpg) |
-| 烟台山公园 | 上海同济城市规划设计研究院 福州市规划设计研究院 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%A6%8F%E5%B7%9E%E5%85%AC%E5%9B%AD%E8%B7%AF%E3%80%81%E9%A9%AC%E5%8E%82%E8%A1%97%E5%8E%86%E5%8F%B2%E5%BB%BA%E7%AD%91%E7%BE%A4%E5%9C%9F%E5%9C%B0%E5%88%A9%E7%94%A8%E7%8E%B0%E7%8A%B6%E5%9B%BE.jpg) |
-| 烟台山公园 | 上海同济城市规划设计研究院 福州市规划设计研究院 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%A6%8F%E5%B7%9E%E5%85%AC%E5%9B%AD%E8%B7%AF%E3%80%81%E9%A9%AC%E5%8E%82%E8%A1%97%E5%8E%86%E5%8F%B2%E5%BB%BA%E7%AD%91%E7%BE%A4%E5%9C%9F%E5%9C%B0%E5%88%A9%E7%94%A8%E8%A7%84%E5%88%92%E5%9B%BE.jpg) |
-| 于山 | FradonStar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260302_%E4%BA%8E%E5%B1%B1%E8%A1%A5%E5%B1%B1%E7%B2%BE%E8%88%8D_01.jpg) |
-| 于山 | FradonStar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260302_%E4%BA%8E%E5%B1%B1%E8%A1%A5%E5%B1%B1%E7%B2%BE%E8%88%8D_02.jpg) |
-| 于山 | FradonStar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260302_%E4%BA%8E%E5%B1%B1%E8%A1%A5%E5%B1%B1%E7%B2%BE%E8%88%8D_03.jpg) |
+| 烟台山公园 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 烟台山公园 | Yejianfei | CC0 | [wikimedia](https://commons.wikimedia.org/) |
+| 烟台山公园 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 于山 | FradonStar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260302_%E4%BA%8E%E5%B1%B1%E4%B8%87%E8%B1%A1%E4%BA%AD.jpg) |
+| 于山 | FradonStar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260302_%E4%BA%8E%E5%B1%B1%E5%8F%A4%E5%9F%8E%E5%A2%99_01.jpg) |
+| 于山 | FradonStar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260302_%E4%BA%8E%E5%B1%B1%E5%8F%A4%E5%9F%8E%E5%A2%99_02.jpg) |
+| 于山 | FradonStar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260302_%E4%BA%8E%E5%B1%B1%E5%8F%A4%E5%9F%8E%E5%A2%99_03.jpg) |
+| 于山 | FradonStar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260302_%E4%BA%8E%E5%B1%B1%E5%AE%9A%E5%85%89%E5%AF%BA%E5%8F%8A%E7%99%BD%E5%A1%94.jpg) |
+| 于山 | FradonStar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260302_%E4%BA%8E%E5%B1%B1%E6%88%9A%E5%85%AC%E7%A5%A0_01.jpg) |
+| 福州镇海楼 | TakeuchiYui | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Fuzhou_Zhenhai_Tower_2022-10-03.jpg) |
 | 福州镇海楼 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20190206%E9%95%87%E6%B5%B7%E6%A5%BC%E8%90%BD%E6%97%A5.jpg) |
 | 福州镇海楼 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20190206%E9%95%87%E6%B5%B7%E6%A5%BC%E8%90%BD%E6%97%A5_01.jpg) |
 | 福州镇海楼 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20190206%E9%95%87%E6%B5%B7%E6%A5%BC%E8%90%BD%E6%97%A5_02.jpg) |
-| 左海公园 | SmileYuki | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Zuohai_Park_North_Gate.jpg) |
+| 福州镇海楼 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20190206%E9%95%87%E6%B5%B7%E6%A5%BC%E8%90%BD%E6%97%A5_03.jpg) |
+| 福州镇海楼 | GnuDoyng | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Zhenhai_seven-star_jars.JPG) |
 | 左海公园 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B7%A6%E6%B5%B7%E5%85%AC%E5%9B%AD%E6%9C%A8%E6%A0%88%E9%81%93_-_Wood_Walkway_in_Zuohai_Park_-_2012.01_-_panoramio.jpg) |
+| 左海公园 | Jiaqian AirplaneFan | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Roller_coaster_loop_-_panoramio.jpg) |
+| 左海公园 | SmileYuki | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Zuohai_Park_North_Gate.jpg) |
 | 左海公园 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20181005%E7%A6%8F%E5%B7%9E%E5%B7%A6%E6%B5%B7.jpg) |
-| 安泰楼 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 安泰楼 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 安泰楼 | Richard L | Pexels License | [pexels](https://www.pexels.com/photo/bustling-chinese-restaurant-with-lanterns-32603022/) |
-| 达道美食城(上下杭店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/) |
-| 达道美食城(上下杭店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/steamed-buns-at-market-6440094/) |
-| 达道美食城(上下杭店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/plate-with-dumplings-6440086/) |
-| 和谐苑非遗佛跳墙(三牧坊店) | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 和谐苑非遗佛跳墙(三牧坊店) | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 和谐苑非遗佛跳墙(三牧坊店) | Richard L | Pexels License | [pexels](https://www.pexels.com/photo/bustling-chinese-restaurant-with-lanterns-32603022/) |
-| 旧巷南(道山路店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/) |
-| 旧巷南(道山路店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/steamed-buns-at-market-6440094/) |
-| 旧巷南(道山路店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/plate-with-dumplings-6440086/) |
-| 聚春园(南后街店) | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 聚春园(南后街店) | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 聚春园(南后街店) | Richard L | Pexels License | [pexels](https://www.pexels.com/photo/bustling-chinese-restaurant-with-lanterns-32603022/) |
-| 老福州(上下杭店) | J.C. Oswald | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Foochow_Club_1890s.jpg) |
-| 老福州(上下杭店) | Yejianfei | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Foochow_Rotary_Club.jpg) |
-| 老福州(上下杭店) | GnuDoyng | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Foochow_club.JPG) |
-| 老榕城福州小炒 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 老榕城福州小炒 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 老榕城福州小炒 | Richard L | Pexels License | [pexels](https://www.pexels.com/photo/bustling-chinese-restaurant-with-lanterns-32603022/) |
-| 连江锅边(东街店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/) |
-| 连江锅边(东街店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/steamed-buns-at-market-6440094/) |
-| 连江锅边(东街店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/plate-with-dumplings-6440086/) |
-| 没牙伯花生汤(老药洲店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/) |
-| 没牙伯花生汤(老药洲店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/steamed-buns-at-market-6440094/) |
-| 没牙伯花生汤(老药洲店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/plate-with-dumplings-6440086/) |
-| 南门食仙(南门兜店) | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 南门食仙(南门兜店) | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 南门食仙(南门兜店) | Richard L | Pexels License | [pexels](https://www.pexels.com/photo/bustling-chinese-restaurant-with-lanterns-32603022/) |
-| 庆城林华光饼(庆城店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/) |
-| 庆城林华光饼(庆城店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/steamed-buns-at-market-6440094/) |
-| 庆城林华光饼(庆城店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/plate-with-dumplings-6440086/) |
-| 同利肉燕老铺(三坊七巷店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/) |
-| 同利肉燕老铺(三坊七巷店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/steamed-buns-at-market-6440094/) |
-| 同利肉燕老铺(三坊七巷店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/plate-with-dumplings-6440086/) |
-| 叶家花生汤(安福新村店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/) |
-| 叶家花生汤(安福新村店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/steamed-buns-at-market-6440094/) |
-| 叶家花生汤(安福新村店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/plate-with-dumplings-6440086/) |
-| 依土捞化(庆城路店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/) |
-| 依土捞化(庆城路店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/steamed-buns-at-market-6440094/) |
-| 依土捞化(庆城路店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/plate-with-dumplings-6440086/) |
-| 永和鱼丸(南后街店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/) |
-| 永和鱼丸(南后街店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/steamed-buns-at-market-6440094/) |
-| 永和鱼丸(南后街店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/plate-with-dumplings-6440086/) |
-| 宝龙城市广场 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2019%E5%B9%B4%E8%A3%85%E4%BF%AE%E4%B8%AD%E7%9A%84%E5%AE%9D%E9%BE%99%E5%9F%8E%E5%B8%82%E5%B9%BF%E5%9C%BA%E5%8C%97%E4%BE%A7.jpg) |
+| 左海公园 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20181005%E7%A6%8F%E5%B7%9E%E5%B7%A6%E6%B5%B7_02.jpg) |
+| 左海公园 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20181005%E7%A6%8F%E5%B7%9E%E5%B7%A6%E6%B5%B7_03.jpg) |
+| 聚春园(南后街店) | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Fotiaoqiang_at_Juchunyuan,_Fuzhou_(20250127114656).jpg) |
+| 聚春园(南后街店) | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Juchunyuan_Grand_Hotel,_Dongjiekou_(20250127112109).jpg) |
+| 聚春园(南后街店) | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Taiji_Yuni_at_Juchunyuan,_Fuzhou_(20250127120154).jpg) |
 | 宝龙城市广场 | Jiaqian AirplaneFan | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%A6%8F%E5%B7%9E%E5%AE%9D%E9%BE%99%E5%9F%8E%E5%B8%82%E5%B9%BF%E5%9C%BA_-_panoramio.jpg) |
 | 仓山万达 | Roseson | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BB%93%E5%B1%B1%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA_-_panoramio.jpg) |
-| 达明美食街 | Bryanken | Pexels License | [pexels](https://www.pexels.com/photo/residential-building-with-with-balconies-converted-into-additional-rooms-17945058/) |
-| 达明美食街 | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/an-aerial-photography-of-moving-cars-on-the-road-6440087/) |
-| 达明美食街 | Darry Lin | Pexels License | [pexels](https://www.pexels.com/photo/bird-s-eye-view-of-city-during-evening-2349958/) |
+| 达明美食街 | SmileYuki | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%BE%BE%E6%98%8E%E7%BE%8E%E9%A3%9F%E8%A1%97%EF%BC%8C%E9%BC%93%E8%A5%BF%E8%B7%AF%E8%BE%BE%E6%98%8E%E8%B7%AF%E4%BA%A4%E5%8F%89%E5%8F%A3_The_intersection_of_Guxi_Rd._and_Daming_Rd._20210506.jpg) |
+| 达明美食街 | Davidzdh | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%BE%BE%E6%98%8E%E7%BE%8E%E9%A3%9F%E8%A1%97%E5%BC%80%E8%A1%97%E6%97%A5.jpg) |
+| 东百中心 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%9C%E7%99%BE%E4%B8%AD%E5%BF%83A%E9%A6%8610%E6%A5%BC%E7%9E%AD%E6%9C%9B%E5%8F%B0%E8%A5%BF%E4%B8%89%E5%9D%8A%E4%B8%83%E5%B7%B7.jpg) |
+| 东百中心 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%9C%E7%99%BE%E4%B8%AD%E5%BF%83A%E9%A6%8610%E6%A5%BC%E7%9E%AD%E6%9C%9B%E5%8F%B0%E8%A5%BF%E5%8D%97%E4%B8%89%E5%9D%8A%E4%B8%83%E5%B7%B7.jpg) |
 | 东百中心 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20181003_%E4%B8%9C%E7%99%BE%E4%B8%AD%E5%BF%83%E6%96%87%E5%88%9B%E9%9B%86%E5%B8%82.jpg) |
 | 东百中心 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20181004_%E4%B8%9C%E7%99%BE%E4%B8%AD%E5%BF%83%E5%A4%A7%E6%A5%BC.jpg) |
 | 东百中心 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20181004_%E5%85%AB%E4%B8%80%E4%B8%83%E8%B7%AF%E4%B8%9C%E7%99%BE%E4%B8%AD%E5%BF%83C%E9%A6%86_01.jpg) |
-| 东街口 | SCJiang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20170107_Nameplate_of_Dongjiekou_Station.jpg) |
+| 东百中心 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20181004_%E5%85%AB%E4%B8%80%E4%B8%83%E8%B7%AF%E4%B8%9C%E7%99%BE%E4%B8%AD%E5%BF%83C%E9%A6%86_08.jpg) |
+| 东街口 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://zh.wikipedia.org/wiki/东街口) |
 | 东街口 | SCJiang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20171118_No.B_Entrance_of_Dongjiekou_Station.jpg) |
-| 东街口 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Entrance_C_security_check_queue_at_Dongjiekou_Station_(20201004195051).jpg) |
+| 东街口 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20181003_%E4%B8%9C%E8%A1%97%E5%8F%A3.jpg) |
+| 东街口 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20181004_%E5%85%AB%E4%B8%80%E4%B8%83%E8%B7%AF%E4%B8%9C%E8%A1%97%E5%8F%A3_14.jpg) |
+| 东街口 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20181004_%E5%85%AB%E4%B8%80%E4%B8%83%E8%B7%AF%E4%B8%9C%E8%A1%97%E5%8F%A3_16.jpg) |
+| 东街口 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20181004_%E5%85%AB%E4%B8%80%E4%B8%83%E8%B7%AF%E4%B8%9C%E8%A1%97%E5%8F%A3_17.jpg) |
 | 福道 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20181221%E7%A6%8F%E5%B7%9E%E7%A6%8F%E9%81%93%EF%BC%88%E6%A2%85%E5%B3%B0%E5%B1%B1%E5%9C%B0%E5%85%AC%E5%9B%AD%EF%BC%89_01.jpg) |
 | 福道 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20181221%E7%A6%8F%E5%B7%9E%E7%A6%8F%E9%81%93%EF%BC%88%E6%A2%85%E5%B3%B0%E5%B1%B1%E5%9C%B0%E5%85%AC%E5%9B%AD%EF%BC%89_02.jpg) |
 | 福道 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20181221%E7%A6%8F%E5%B7%9E%E7%A6%8F%E9%81%93%EF%BC%88%E6%A2%85%E5%B3%B0%E5%B1%B1%E5%9C%B0%E5%85%AC%E5%9B%AD%EF%BC%89_03.jpg) |
-| 福州万象城 | Yejianfei | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:American_Consulate_in_Fuzhou,_abandoned.jpg) |
-| 福州万象城 | Bjoertvedt | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_unknown_artist_1850s_-_Fuzhou_oil_on_canvas_IMG_9408_Museum_of_Asian_Civilisation.jpg) |
-| 福州万象城 | Yejianfei | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_HSBC,_Fuzhou_Branch,_abandoned.jpg) |
+| 福道 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20181221%E7%A6%8F%E5%B7%9E%E7%A6%8F%E9%81%93%EF%BC%88%E6%A2%85%E5%B3%B0%E5%B1%B1%E5%9C%B0%E5%85%AC%E5%9B%AD%EF%BC%89_04.jpg) |
+| 福道 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20181221%E7%A6%8F%E5%B7%9E%E7%A6%8F%E9%81%93%EF%BC%88%E6%A2%85%E5%B3%B0%E5%B1%B1%E5%9C%B0%E5%85%AC%E5%9B%AD%EF%BC%89_05.jpg) |
+| 福道 | SmileYuki | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Beveled_walkway_of_Fu_Forest_Trail_in_Meifeng_202102151710.jpg) |
 | 五四路 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%94%E5%9B%9B%E8%B7%AF%E5%A4%9C%E6%99%AF_-_Night_View_of_Wusi_Road_-_2012.01_-_panoramio.jpg) |
-| 五四路 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E4%BA%94%E5%9B%9B%E8%B7%AF%E5%A4%A7%E5%90%8C%E8%A1%97%E8%A5%BF%E5%8C%97%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E5%B9%BF%E5%9C%BA%E8%B6%B3%E7%90%83%E5%9C%BA.jpg) |
-| 五四路 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E4%B8%9C%E5%8D%97%E5%9D%97%E4%BA%94%E5%9B%9B%E8%B7%AF%E8%A5%BF%E5%8C%97%E5%90%91%E5%A4%A7%E8%BF%9E%E5%B8%82%E6%94%BF%E5%BA%9C.jpg) |
-| 烟台山商业漫步街区 | ProtSilver Chen | Pexels License | [pexels](https://www.pexels.com/photo/a-gallery-with-framed-art-on-the-wall-27584011/) |
-| 烟台山商业漫步街区 | Bryanken | Pexels License | [pexels](https://www.pexels.com/photo/modern-building-facade-19470575/) |
-| 烟台山商业漫步街区 | Sri  Bala | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-street-art-on-chennai-buildings-39659646/) |
-| 中亭街 | Bryanken | Pexels License | [pexels](https://www.pexels.com/photo/residential-building-with-with-balconies-converted-into-additional-rooms-17945058/) |
-| 中亭街 | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/an-aerial-photography-of-moving-cars-on-the-road-6440087/) |
-| 中亭街 | Darry Lin | Pexels License | [pexels](https://www.pexels.com/photo/bird-s-eye-view-of-city-during-evening-2349958/) |
-| 春伦茉莉花茶 | Japanese Government Railways | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:1924_Imperial_Japanese_Railway_Map_of_Foochow_or_Fuzhou,_Fujian_Province,_China.png) |
+| 烟台山商业漫步街区 | Yejianfei | CC0 | [wikimedia](https://commons.wikimedia.org/) |
+| 烟台山商业漫步街区 | Yejianfei | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 烟台山商业漫步街区 | Yejianfei | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 烟台山商业漫步街区 | Yejianfei | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 烟台山商业漫步街区 | Yejianfei | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 烟台山商业漫步街区 | Yejianfei | CC0 | [wikimedia](https://commons.wikimedia.org/) |
 | 闽剧 | Davidzdh | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20181031_%E9%97%BD%E5%89%A7%E9%93%B6%E7%AD%9D%E6%96%AD@%E7%A6%8F%E5%BB%BA%E5%B8%88%E5%A4%A7_%E4%B8%BB%E6%8C%81%E4%BA%BA%E4%BB%8B%E7%BB%8D.jpg) |
+| 闽剧 | Davidzdh | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20181031_%E9%97%BD%E5%89%A7%E9%93%B6%E7%AD%9D%E6%96%AD@%E7%A6%8F%E5%BB%BA%E5%B8%88%E5%A4%A7_%E5%BD%A9%E6%8E%92_01.jpg) |
 | 闽剧 | Davidzdh | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20181031_%E9%97%BD%E5%89%A7%E9%93%B6%E7%AD%9D%E6%96%AD@%E7%A6%8F%E5%BB%BA%E5%B8%88%E5%A4%A7_%E5%BD%A9%E6%8E%92_02.jpg) |
-| 闽剧 | Davidzdh | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20181031_%E9%97%BD%E5%89%A7%E9%93%B6%E7%AD%9D%E6%96%AD@%E7%A6%8F%E5%BB%BA%E5%B8%88%E5%A4%A7_%E8%A1%A8%E6%BC%94_04.jpg) |
-| 福州评话伬艺传习所 | Alexandra  Lavizzari | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-opera-performer-in-costume-36422762/) |
-| 福州评话伬艺传习所 | Siyuan Zhao | Pexels License | [pexels](https://www.pexels.com/photo/colorful-festival-performance-in-fuzhou-china-35137897/) |
-| 福州评话伬艺传习所 | David Lund | Pexels License | [pexels](https://www.pexels.com/photo/colorful-traditional-asian-opera-performer-portrait-36545226/) |
-| 软木画馆 | Japanese Government Railways | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:1924_Imperial_Japanese_Railway_Map_of_Foochow_or_Fuzhou,_Fujian_Province,_China.png) |
-| 寿山石 | Bryanken | Pexels License | [pexels](https://www.pexels.com/photo/residential-building-with-with-balconies-converted-into-additional-rooms-17945058/) |
-| 寿山石 | daydream | Pexels License | [pexels](https://www.pexels.com/photo/film-photo-of-the-shangxiahang-building-in-fuzhou-china-20870719/) |
-| 寿山石 | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/an-aerial-photography-of-moving-cars-on-the-road-6440087/) |
-| 脱胎漆器 | David Schroeter | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Han_Dynasty_Lacquer_Tripod_with_Cloud_Design.jpg) |
+| 闽剧 | Davidzdh | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20181031_%E9%97%BD%E5%89%A7%E9%93%B6%E7%AD%9D%E6%96%AD@%E7%A6%8F%E5%BB%BA%E5%B8%88%E5%A4%A7_%E6%BC%94%E5%A5%8F%E4%BA%BA%E5%91%98%E8%B0%83%E9%9F%B3.jpg) |
+| 闽剧 | Davidzdh | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20181031_%E9%97%BD%E5%89%A7%E9%93%B6%E7%AD%9D%E6%96%AD@%E7%A6%8F%E5%BB%BA%E5%B8%88%E5%A4%A7_%E8%A1%A8%E6%BC%94_01.jpg) |
+| 闽剧 | Davidzdh | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20181031_%E9%97%BD%E5%89%A7%E9%93%B6%E7%AD%9D%E6%96%AD@%E7%A6%8F%E5%BB%BA%E5%B8%88%E5%A4%A7_%E8%A1%A8%E6%BC%94_02.jpg) |
+| 福州评话伬艺传习所 | Davidzdh | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 福州评话伬艺传习所 | Davidzdh | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 寿山石 | 用心阁 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chunhuidadi.JPG) |
 | 脱胎漆器 | No machine-readable author provided. Yongxinge assumed (base | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:P1080774.JPG) |
+| 脱胎漆器 | David Schroeter | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Han_Dynasty_Lacquer_Tripod_with_Cloud_Design.jpg) |

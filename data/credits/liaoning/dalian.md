@@ -1,6 +1,6 @@
 # 大连 · 数据来源与图片版权
 
-> 生成于 2026-10-31 · 城市数据最后更新 2026-10-01
+> 生成于 2026-11-05 · 城市数据最后更新 2026-10-01
 
 ## 概览
 
@@ -74,163 +74,141 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | sanynjez gao | Pexels License | [pexels](https://www.pexels.com/photo/central-avenue-architecture-in-harbin-38707930/) |
-| 城市封面 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/nanjing-skyline-with-zifeng-tower-in-the-distance-33921377/) |
-| 城市封面 | Chaos Tyrone | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-a-city-21337901/) |
-| 棒棰岛 | Tyg728 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:BANG_CHUI_DAO_(ship,_1995)_at_Dalian_Port_20190617.jpg) |
+| 城市封面 | 阴阳权政 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2013%E5%A4%A7%E8%BF%9E%E5%AF%92%E5%81%87%E8%81%9A%E4%BC%9A%E5%90%88%E5%BD%B1.jpg) |
+| 城市封面 | 燃玉 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%85%B1%E9%9D%92%E5%9B%A2%E5%A4%A7%E8%BF%9E%E5%B8%82%E5%A7%94%E5%9B%A2%E6%A0%A1-%E6%BB%A8%E6%B5%B7%E4%B8%AD%E8%B7%AF.jpg) |
+| 城市封面 | DukeAnt | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%85%B1%E9%9D%92%E5%9B%A2%E5%A4%A7%E8%BF%9E%E5%B8%82%E5%A7%94%E5%9B%A2%E6%A0%A1.jpg) |
 | 棒棰岛 | 逝水流觞 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bangchui_Island.jpg) |
-| 棒棰岛 | Ffggss | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Passenger_and_Vehicles_Carrier_%E4%B8%AD%E5%9B%BD%E6%B5%B7%E9%81%8B%E9%9B%86%E5%9B%A3_BANG_CHUI_DAO_%E6%A3%92%E6%A3%B0%E5%B2%9B.jpg) |
 | 冰峪沟 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bingyu-Valley_Liaoning_China_Gate-at-the-barrier-lake-01.jpg) |
 | 冰峪沟 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bingyu-Valley_Liaoning_China_Reclining-Buddha-01.jpg) |
 | 冰峪沟 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bingyu-Valley_Liaoning_China_Rock-formation-01.jpg) |
-| 滨海路 | Jason M. C., Han | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mountain_Series.jpg) |
-| 大黑山 | 昆 阿 | Pexels License | [pexels](https://www.pexels.com/photo/sea-shore-with-rocks-17583739/) |
-| 大黑山 | liu zhenao | Pexels License | [pexels](https://www.pexels.com/photo/body-of-water-and-a-modern-city-skyline-in-distance-13921061/) |
-| 大黑山 | zhou shen | Pexels License | [pexels](https://www.pexels.com/photo/tower-in-dalian-habor-20016527/) |
-| 大连森林动物园 | Jason M. C., Han | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mountain_Series.jpg) |
+| 冰峪沟 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bingyu-Valley_Liaoning_China_Rock-formation-02.jpg) |
+| 冰峪沟 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bingyu-Valley_Liaoning_China_Rock-formation-03.jpg) |
+| 滨海路 | 陈宏宇 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E5%B9%B3%E5%B2%9B%E6%BB%A8%E6%B5%B7%E8%B7%AF_-_panoramio.jpg) |
+| 滨海路 | 陈宏宇 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E5%B9%B3%E5%B2%9B%E6%BB%A8%E6%B5%B7%E8%B7%AF_-_panoramio_(1).jpg) |
+| 滨海路 | 陈宏宇 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E5%B9%B3%E5%B2%9B%E6%BB%A8%E6%B5%B7%E8%B7%AF_-_panoramio_(2).jpg) |
+| 滨海路 | 陈宏宇 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E5%B9%B3%E5%B2%9B%E6%BB%A8%E6%B5%B7%E8%B7%AF_-_panoramio_(3).jpg) |
+| 滨海路 | 陈宏宇 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E5%B9%B3%E5%B2%9B%E6%BB%A8%E6%B5%B7%E8%B7%AF_-_panoramio_(4).jpg) |
+| 滨海路 | Signjing | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8C%97%E5%A4%A7%E6%A1%A5.JPG) |
+| 大黑山 | Ffggss | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:(%E5%A4%A7%E8%BF%9E)_%E5%A4%A7%E9%BB%91%E5%B1%B1.jpg) |
+| 大黑山 | Ffggss | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%9B%BD%E8%BE%BD%E5%AE%81%E7%9C%81%E5%A4%A7%E8%BF%9E%E5%B8%82%E9%87%91%E5%B7%9E%E5%8C%BA_%E5%A4%A7%E9%BB%91%E5%B1%B1.jpg) |
+| 大黑山 | Ffggss | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E_%E5%A4%A7%E9%BB%91%E5%B1%B1.jpg) |
+| 大黑山 | Ffggss | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E5%A4%A7%E9%BB%91%E5%B1%B1.jpg) |
+| 大黑山 | Yoshi Canopus | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dahei_Mountain_1,_Dalian,_China.jpg) |
+| 大连森林动物园 | Marco Dias | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Crocodile_(111956783).jpeg) |
+| 大连森林动物园 | DukeAnt | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_Forest_Zoo.jpg) |
+| 大连森林动物园 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_Liaoning_China_Cablecar-01.jpg) |
+| 大连森林动物园 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_Liaoning_China_Cablecar-02.jpg) |
+| 大连森林动物园 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_Liaoning_China_Forest-Zoo-01.jpg) |
 | 付家庄公园 | DukeAnt | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BB%98%E5%AE%B6%E5%BA%84%E5%85%AC%E5%9B%AD.jpg) |
+| 付家庄公园 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E4%BB%98%E5%AE%B6%E5%BA%84%E5%85%AC%E5%9B%AD%E6%B2%99%E6%BB%A9%E4%B8%9C%E7%AB%AF%E6%B5%B7%E6%BB%A8%E5%9C%B0%E8%B2%8C.jpg) |
+| 付家庄公园 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E4%BB%98%E5%AE%B6%E5%BA%84%E5%85%AC%E5%9B%AD%E6%B2%99%E6%BB%A9%E4%B8%9C%E7%AB%AF%E6%B5%B7%E6%BB%A8%E5%B2%A9%E7%9F%B3.jpg) |
+| 付家庄公园 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E4%BB%98%E5%AE%B6%E5%BA%84%E5%85%AC%E5%9B%AD%E6%B2%99%E6%BB%A9%E6%B5%B7%E6%B0%B4.jpg) |
 | 付家庄公园 | Signjing | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BB%98%E5%AE%B6%E5%BA%84%E5%85%AC%E5%9B%AD_1.JPG) |
-| 付家庄公园 | Signjing | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BB%98%E5%AE%B6%E5%BA%84%E5%85%AC%E5%9B%AD_%E6%B5%B7%E6%BB%A9_1.JPG) |
 | 海之韵公园 | Ffggss | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E4%B9%8B%E9%9F%B5%E5%85%AC%E5%9B%AD_%E5%8D%81%E5%85%AB%E7%9B%98.jpg) |
 | 金石滩 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2002%E5%B9%B4%E5%A4%A7%E8%BF%9E%E9%87%91%E7%9F%B3%E6%BB%A9_jin_shi_tan_-_panoramio.jpg) |
-| 金石滩 | Azylber | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_Metro,_Jinshitan_Station,_Sign.JPG) |
-| 金石滩 | 红烧腰果 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E9%87%91%E7%9F%B3%E6%BB%A94.jpg) |
-| 劳动公园 | YFS Visuals | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-temple-in-dalian-china-28490351/) |
-| 劳动公园 | Jessica Sacco | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-pavilion-in-lush-spring-garden-37320643/) |
-| 劳动公园 | Phoebe Buffay | Pexels License | [pexels](https://www.pexels.com/photo/elegant-traditional-asian-pavilion-in-serene-forest-37044011/) |
-| 老虎滩海洋公园 | Jason M. C., Han | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mountain_Series.jpg) |
+| 金石滩 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2002%E5%B9%B4%E9%87%91%E7%9F%B3%E6%BB%A9%E4%B8%AD%E5%BF%83%E5%A4%A7%E8%A1%97_zhong_xin_da_jie_-_panoramio.jpg) |
+| 金石滩 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2002%E5%B9%B4%E9%87%91%E7%9F%B3%E6%BB%A9%E6%B5%B7%E6%BB%A8%E6%B5%B4%E5%9C%BA_jin_shi_tan_hai_bin_yu_chang_-_panoramio.jpg) |
+| 金石滩 | 信之洋 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_Jinshitan_Coastal_Geopark.jpg) |
+| 劳动公园 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_China_Labor-Park-01.jpg) |
+| 劳动公园 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_China_Labor-Park-02.jpg) |
+| 劳动公园 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_China_Labor-Park-02a.jpg) |
+| 劳动公园 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_China_Labor-Park-03.jpg) |
+| 劳动公园 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_China_Labor-Park-04.jpg) |
+| 劳动公园 | FeZn | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian-s02.jpg) |
+| 老虎滩海洋公园 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E8%80%81%E8%99%8E%E6%BB%A9%E6%B5%B7%E6%B4%8B%E5%85%AC%E5%9B%AD,_2009-07-14.jpg) |
+| 老虎滩海洋公园 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E8%80%81%E8%99%8E%E6%BB%A9%E6%B5%B7%E6%B4%8B%E5%85%AC%E5%9B%AD,_2009-07-14_01.jpg) |
+| 老虎滩海洋公园 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E8%80%81%E8%99%8E%E6%BB%A9%E6%B5%B7%E6%B4%8B%E5%85%AC%E5%9B%AD,_2009-07-14_02.jpg) |
+| 老虎滩海洋公园 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E8%80%81%E8%99%8E%E6%BB%A9%E6%B5%B7%E6%B4%8B%E5%85%AC%E5%9B%AD,_2009-07-14_03.jpg) |
+| 老虎滩海洋公园 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E8%80%81%E8%99%8E%E6%BB%A9%E6%B5%B7%E6%B4%8B%E5%85%AC%E5%9B%AD,_2009-07-14_04.jpg) |
+| 老虎滩海洋公园 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E8%80%81%E8%99%8E%E6%BB%A9%E6%B5%B7%E6%B4%8B%E5%85%AC%E5%9B%AD,_2009-07-14_05.jpg) |
 | 莲花山观景台 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E6%BB%A8%E6%B5%B7%E8%A5%BF%E8%B7%AF%E9%87%91%E6%B2%99%E6%BB%A9%E6%AE%B5%E4%B8%9C%E5%8C%97%E5%90%91%E6%B5%B7%E8%BE%BE%E7%B4%A2%E9%81%93%E4%B8%8E%E8%8E%B2%E8%8A%B1%E5%B1%B1%E8%A7%82%E6%99%AF%E5%8F%B0.jpg) |
-| 莲花山观景台 | Grace Hwu from Taiwan | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2021.07.01-07.02_500pcs_%E7%92%80%E7%92%A8%E6%95%A6%E7%85%8C%E7%B3%BB%E5%88%97%EF%BC%9A%E7%AC%AC217%E7%AA%9F-%E6%B7%A8%E5%A3%AB%E6%A8%93%E9%96%A3_Mogao_Grottoes_Cave_217_(1)_(51283243227).jpg) |
-| 旅顺博物馆 | Gül Işık | Pexels License | [pexels](https://www.pexels.com/photo/intricate-istanbul-museum-interior-display-35870231/) |
-| 旅顺博物馆 | Stijn Dijkstra | Pexels License | [pexels](https://www.pexels.com/photo/ceiling-with-bas-reliefs-and-chandelier-15074424/) |
-| 旅顺博物馆 | Teysa Tugadi | Pexels License | [pexels](https://www.pexels.com/photo/a-statue-of-a-buddha-in-a-glass-case-27945763/) |
-| 旅顺口 | YFS Visuals | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-temple-in-dalian-china-28490351/) |
-| 旅顺口 | Zhengyang | Pexels License | [pexels](https://www.pexels.com/photo/tall-buildings-with-chinese-signs-26173365/) |
-| 旅顺口 | evan Sw | Pexels License | [pexels](https://www.pexels.com/photo/historic-building-in-dalian-china-36659522/) |
+| 旅顺博物馆 | Sun Wen (1818-1904) | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%22At_the_Green_Bower_Hermitage_Miaoyu_asks_the_planchette_(fuji)_about_a_Jade%22_(%E6%A0%8A%E7%BF%A0%E5%BA%B5%E5%A6%99%E7%8E%89%E6%89%B6%E4%B9%A9%E7%8E%89)_-_scene_from_Dream_of_the_Red_Chamber._19th_century_painting_by_Sun_Wen.png) |
+| 旅顺博物馆 | Dai Jin | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Dai_Jin-Traveling_in_Snowy_Mountains.jpg) |
+| 旅顺博物馆 | 潘振镛 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Flower_Goddesses_by_Pan_Zhenyong,_1905.jpg) |
+| 旅顺博物馆 | Yoshi Canopus | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lushun_Museum_Entrance.jpg) |
+| 旅顺博物馆 | Yibuki130726 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lvshun_Museum.jpg) |
+| 旅顺口 | NASA | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:L%C3%BCshunkou_District,2010,08.jpg) |
+| 大连现代博物馆 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E7%8E%B0%E4%BB%A3%E5%8D%9A%E7%89%A9%E9%A6%86%E4%B8%9C%E5%8C%97%E4%BE%A7%E8%A5%BF%E5%8D%97%E5%90%91.jpg) |
+| 大连现代博物馆 | Ffggss | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E7%8E%B0%E4%BB%A3%E5%8D%9A%E7%89%A9%E9%A6%86.jpg) |
+| 大连现代博物馆 | Vitsuha | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E9%80%A3%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A4%A8%E5%A4%A7%E5%A0%82.jpg) |
 | 大连现代博物馆 | JesseW900 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_Modern_History_Museum.JPG) |
 | 大连现代博物馆 | Yibuki130726 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_Museum.jpg) |
-| 大连现代博物馆 | Ffggss | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E7%8E%B0%E4%BB%A3%E5%8D%9A%E7%89%A9%E9%A6%86.jpg) |
-| 南山风情街 | YFS Visuals | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-temple-in-dalian-china-28490351/) |
-| 南山风情街 | Zhengyang | Pexels License | [pexels](https://www.pexels.com/photo/tall-buildings-with-chinese-signs-26173365/) |
-| 南山风情街 | evan Sw | Pexels License | [pexels](https://www.pexels.com/photo/historic-building-in-dalian-china-36659522/) |
-| 大连自然博物馆 | Kiselev d | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dairen_uprava.jpg) |
-| 大连自然博物馆 | Straitgate at English Wikipedia | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:DalianRusCityHall.JPG) |
+| 大连自然博物馆 | TIY | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E8%87%AA%E7%84%B6%E5%8D%9A%E7%89%A9%E9%A6%86.jpg) |
 | 大连自然博物馆 | Yhz1221 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_Nature_History_Museum.JPG) |
 | 旅顺日俄监狱旧址 | Vitsuha | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%89%E9%87%8D%E6%A0%B9%E5%B0%B1%E4%B9%89%E5%A4%84.jpg) |
 | 旅顺日俄监狱旧址 | Vitsuha | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%89%E9%87%8D%E6%A0%B9%E6%89%8B%E4%B9%A6%E2%80%9C%E7%8B%AC%E7%AB%8B%E2%80%9D.jpg) |
-| 旅顺日俄监狱旧址 | 阴阳权政 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%85%E9%A0%86%E7%9B%A3%E7%8D%84%E8%88%8A%E5%9D%80%EF%BC%88%E6%8B%9B%E7%89%8C%EF%BC%89.JPG) |
-| 人民广场 | Fghjhj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Exit_D2_of_Renmin_Square_Station%EF%BC%8820251212110253%EF%BC%89.jpg) |
-| 人民广场 | Saa350 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:RENMINGUANGCHANG_Station.jpg) |
-| 人民广场 | Ffggss | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA_(%E5%A4%A7%E8%BF%9E).jpg) |
-| 俄罗斯风情街 | YFS Visuals | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-temple-in-dalian-china-28490351/) |
-| 俄罗斯风情街 | Zhengyang | Pexels License | [pexels](https://www.pexels.com/photo/tall-buildings-with-chinese-signs-26173365/) |
-| 俄罗斯风情街 | evan Sw | Pexels License | [pexels](https://www.pexels.com/photo/historic-building-in-dalian-china-36659522/) |
-| 贝壳博物馆 | Gül Işık | Pexels License | [pexels](https://www.pexels.com/photo/intricate-istanbul-museum-interior-display-35870231/) |
-| 贝壳博物馆 | Stijn Dijkstra | Pexels License | [pexels](https://www.pexels.com/photo/ceiling-with-bas-reliefs-and-chandelier-15074424/) |
-| 贝壳博物馆 | Teysa Tugadi | Pexels License | [pexels](https://www.pexels.com/photo/a-statue-of-a-buddha-in-a-glass-case-27945763/) |
-| 圣亚海洋世界 | 昆 阿 | Pexels License | [pexels](https://www.pexels.com/photo/sea-shore-with-rocks-17583739/) |
-| 圣亚海洋世界 | liu zhenao | Pexels License | [pexels](https://www.pexels.com/photo/body-of-water-and-a-modern-city-skyline-in-distance-13921061/) |
-| 圣亚海洋世界 | zhou shen | Pexels License | [pexels](https://www.pexels.com/photo/tower-in-dalian-habor-20016527/) |
-| 星海公园 | YFS Visuals | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-temple-in-dalian-china-28490351/) |
-| 星海公园 | Jessica Sacco | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-pavilion-in-lush-spring-garden-37320643/) |
-| 星海公园 | Phoebe Buffay | Pexels License | [pexels](https://www.pexels.com/photo/elegant-traditional-asian-pavilion-in-serene-forest-37044011/) |
-| 星海广场 | Tyg728 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xinghai_Square_Station_Platform_20190621.jpg) |
-| 星海广场 | chp13579753 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E6%98%9F%E6%B5%B7%E5%B9%BF%E5%9C%BA_-_panoramio.jpg) |
-| 星海广场 | chp13579753 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E6%98%9F%E6%B5%B7%E5%B9%BF%E5%9C%BA%E5%A4%96_-_panoramio.jpg) |
-| 燕窝岭 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E6%BB%A8%E6%B5%B7%E4%B8%AD%E8%B7%AF%E7%87%95%E7%AA%9D%E5%B2%AD%E5%A9%9A%E5%BA%86%E5%85%AC%E5%9B%AD%E5%8D%97%E5%90%91%E7%9C%8B%E6%B5%B7.jpg) |
-| 燕窝岭 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E6%BB%A8%E6%B5%B7%E4%B8%AD%E8%B7%AF%E7%87%95%E7%AA%9D%E5%B2%AD%E5%A9%9A%E5%BA%86%E5%85%AC%E5%9B%AD%E6%82%AC%E5%B4%96%E4%B8%8B%E4%BB%B0%E6%9C%9B.jpg) |
-| 燕窝岭 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E6%BB%A8%E6%B5%B7%E4%B8%AD%E8%B7%AF%E7%87%95%E7%AA%9D%E5%B2%AD%E5%A9%9A%E5%BA%86%E5%85%AC%E5%9B%AD%E7%9C%8B%E6%82%AC%E5%B4%96.jpg) |
-| 渔人码头 | 昆 阿 | Pexels License | [pexels](https://www.pexels.com/photo/sea-shore-with-rocks-17583739/) |
-| 渔人码头 | liu zhenao | Pexels License | [pexels](https://www.pexels.com/photo/body-of-water-and-a-modern-city-skyline-in-distance-13921061/) |
-| 渔人码头 | zhou shen | Pexels License | [pexels](https://www.pexels.com/photo/tower-in-dalian-habor-20016527/) |
-| 中山广场 | YFS Visuals | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-temple-in-dalian-china-28490351/) |
-| 中山广场 | Jessica Sacco | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-pavilion-in-lush-spring-garden-37320643/) |
-| 中山广场 | Phoebe Buffay | Pexels License | [pexels](https://www.pexels.com/photo/elegant-traditional-asian-pavilion-in-serene-forest-37044011/) |
-| 海菜包子 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 海菜包子 | Peter Xie | Pexels License | [pexels](https://www.pexels.com/photo/delicious-dumpling-soup-in-disposable-bowl-35157092/) |
-| 海菜包子 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 海肠 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 海肠 | natalia duque | Pexels License | [pexels](https://www.pexels.com/photo/street-food-vendor-preparing-dishes-in-china-36684497/) |
-| 海肠 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 海胆饺子 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 海胆饺子 | natalia duque | Pexels License | [pexels](https://www.pexels.com/photo/street-food-vendor-preparing-dishes-in-china-36684497/) |
-| 海胆饺子 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 海胆 | Leiem | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Anthocidaris_crassispina,_Dalian.jpg) |
-| 海凉粉 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 海凉粉 | Peter Xie | Pexels License | [pexels](https://www.pexels.com/photo/delicious-dumpling-soup-in-disposable-bowl-35157092/) |
-| 海凉粉 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 大连海参 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 大连海参 | natalia duque | Pexels License | [pexels](https://www.pexels.com/photo/street-food-vendor-preparing-dishes-in-china-36684497/) |
-| 大连海参 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 海鲜烧烤 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 海鲜烧烤 | natalia duque | Pexels License | [pexels](https://www.pexels.com/photo/street-food-vendor-preparing-dishes-in-china-36684497/) |
-| 海鲜烧烤 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 鲅鱼饺子 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 鲅鱼饺子 | natalia duque | Pexels License | [pexels](https://www.pexels.com/photo/street-food-vendor-preparing-dishes-in-china-36684497/) |
-| 鲅鱼饺子 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 烤鱿鱼 | Anagoria | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20240503_Grilled_Squid_Restaurant_MeGusto_anagoria.jpg) |
-| 烤鱿鱼 | Jirka Matousek | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Close-up_view_of_grilled_neritic_squid_in_Taipei_after_New_Year%27s_Eve_2015.jpg) |
-| 烤鱿鱼 | Eximiousincorp | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Flavorful_Grilled_Squid.jpg) |
-| 焖子 | JacobLyu | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Sanxian_Menzi_at_a_Restaurant_in_Dalian_20251122.jpg) |
-| 焖子 | User:阴阳权政 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E7%84%96%E5%AD%90_2014-01-19.JPG) |
-| 焖子 | JesseW900 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_Menzi.JPG) |
-| 酸菜炖 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 酸菜炖 | natalia duque | Pexels License | [pexels](https://www.pexels.com/photo/street-food-vendor-preparing-dishes-in-china-36684497/) |
-| 酸菜炖 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 虾夷扇贝 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 虾夷扇贝 | natalia duque | Pexels License | [pexels](https://www.pexels.com/photo/street-food-vendor-preparing-dishes-in-china-36684497/) |
-| 虾夷扇贝 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 咸鱼饼子 | JesseW900 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Salted_fish_Dalian.JPG) |
-| 大连樱桃 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 大连樱桃 | Peter Xie | Pexels License | [pexels](https://www.pexels.com/photo/delicious-dumpling-soup-in-disposable-bowl-35157092/) |
-| 大连樱桃 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 大连炸串 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 大连炸串 | Peter Xie | Pexels License | [pexels](https://www.pexels.com/photo/delicious-dumpling-soup-in-disposable-bowl-35157092/) |
-| 大连炸串 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 棒棰岛海滩 | Zhengyang | Pexels License | [pexels](https://www.pexels.com/photo/tall-buildings-with-chinese-signs-26173365/) |
-| 棒棰岛海滩 | Henley Wang | Pexels License | [pexels](https://www.pexels.com/photo/street-in-seaside-at-sunset-17563636/) |
-| 棒棰岛海滩 | Shuaizhi Tian | Pexels License | [pexels](https://www.pexels.com/photo/modern-downtown-architecture-23098342/) |
-| 滨海路 | Zhengyang | Pexels License | [pexels](https://www.pexels.com/photo/tall-buildings-with-chinese-signs-26173365/) |
-| 滨海路 | Henley Wang | Pexels License | [pexels](https://www.pexels.com/photo/street-in-seaside-at-sunset-17563636/) |
-| 滨海路 | Shuaizhi Tian | Pexels License | [pexels](https://www.pexels.com/photo/modern-downtown-architecture-23098342/) |
-| 东港威尼斯水城 | Capella Space | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian,_Xigang_District,_Ganjingzi,_Dalian_City,_Liaoning,_116011,_China_(CAPELLA_C14_SP_GEO_HH_20240627054934_20240627055011).png) |
-| 东港威尼斯水城 | Capella Space | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian,_Xigang_District,_Ganjingzi,_Dalian_City,_Liaoning,_116011,_China_(CAPELLA_C14_SP_GEO_HH_20240705020414_20240705020453).png) |
-| 东港威尼斯水城 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_China_View-from-Dalian-Railway-Station-01.jpg) |
-| 付家庄海滩 | Signjing | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BB%98%E5%AE%B6%E5%BA%84%E5%85%AC%E5%9B%AD_%E6%B5%B7%E6%BB%A9_1.JPG) |
-| 付家庄海滩 | Signjing | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BB%98%E5%AE%B6%E5%BA%84%E5%85%AC%E5%9B%AD_%E6%B5%B7%E6%BB%A9_2.JPG) |
-| 金石滩 | Zhengyang | Pexels License | [pexels](https://www.pexels.com/photo/tall-buildings-with-chinese-signs-26173365/) |
-| 金石滩 | Henley Wang | Pexels License | [pexels](https://www.pexels.com/photo/street-in-seaside-at-sunset-17563636/) |
-| 金石滩 | Shuaizhi Tian | Pexels License | [pexels](https://www.pexels.com/photo/modern-downtown-architecture-23098342/) |
-| 莲花山俯瞰 | Capella Space | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian,_Xigang_District,_Ganjingzi,_Dalian_City,_Liaoning,_116011,_China_(CAPELLA_C14_SP_GEO_HH_20240627054934_20240627055011).png) |
-| 莲花山俯瞰 | Capella Space | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian,_Xigang_District,_Ganjingzi,_Dalian_City,_Liaoning,_116011,_China_(CAPELLA_C14_SP_GEO_HH_20240705020414_20240705020453).png) |
-| 莲花山俯瞰 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_China_View-from-Dalian-Railway-Station-01.jpg) |
+| 人民广场 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_Liaoning_China_Police-woman-in-front-of-town-hall-01.jpg) |
 | 俄罗斯风情街 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E5%9B%A2%E7%BB%93%E8%A1%97%E5%85%89%E8%BE%89%E5%B7%B7%E8%A5%BF%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97%E5%A4%A7%E8%BF%9E%E8%88%B9%E8%88%B6%E6%8A%80%E6%9C%AF%E5%AD%A6%E6%A0%A1.jpg) |
 | 俄罗斯风情街 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E5%9B%A2%E7%BB%93%E8%A1%97%E6%B5%B7%E6%B4%8B%E8%A1%97%E8%A5%BF%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97.jpg) |
 | 俄罗斯风情街 | 宋迎利 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E5%B8%82%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97_-_panoramio.jpg) |
-| 星海广场夜景 | Zhengyang | Pexels License | [pexels](https://www.pexels.com/photo/tall-buildings-with-chinese-signs-26173365/) |
-| 星海广场夜景 | Henley Wang | Pexels License | [pexels](https://www.pexels.com/photo/street-in-seaside-at-sunset-17563636/) |
-| 星海广场夜景 | Shuaizhi Tian | Pexels License | [pexels](https://www.pexels.com/photo/modern-downtown-architecture-23098342/) |
-| 渔人码头 | CreamBug | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20191013%E6%B8%94%E4%BA%BA%E7%A0%81%E5%A4%B4%E7%AB%99%E5%B7%A5%E5%9C%B0.jpg) |
-| 渔人码头 | Creambug | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20200101%E6%B8%94%E4%BA%BA%E7%A0%81%E5%A4%B4%E7%AB%99%E5%B7%A5%E5%9C%B0.jpg) |
-| 渔人码头 | 徐建勇 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B8%94%E4%BA%BA%E7%A0%81%E5%A4%B4_-_panoramio.jpg) |
-| 中山广场老建筑 | Zhengyang | Pexels License | [pexels](https://www.pexels.com/photo/tall-buildings-with-chinese-signs-26173365/) |
-| 中山广场老建筑 | Henley Wang | Pexels License | [pexels](https://www.pexels.com/photo/street-in-seaside-at-sunset-17563636/) |
-| 中山广场老建筑 | Shuaizhi Tian | Pexels License | [pexels](https://www.pexels.com/photo/modern-downtown-architecture-23098342/) |
-| 东港威尼斯水城 | Zhengyang | Pexels License | [pexels](https://www.pexels.com/photo/tall-buildings-with-chinese-signs-26173365/) |
-| 东港威尼斯水城 | Pegli Zhu | Pexels License | [pexels](https://www.pexels.com/photo/brown-wooden-wall-decor-976701/) |
-| 东港威尼斯水城 | yating yang | Pexels License | [pexels](https://www.pexels.com/photo/view-of-a-narrow-alley-between-buildings-in-city-20317466/) |
-| 大连国际服装节 | Alexandra  Lavizzari | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-opera-performer-in-costume-36422762/) |
-| 大连国际服装节 | 李奇 | Pexels License | [pexels](https://www.pexels.com/photo/woman-in-blue-beijing-opera-costume-11413712/) |
-| 大连国际服装节 | Jimmy Chan | Pexels License | [pexels](https://www.pexels.com/photo/woman-in-orange-and-yellow-floral-long-sleeved-dress-1110203/) |
-| 南山风情街 | Paul Louis | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Electronics_street,_Dalian.JPG) |
-| 南山风情街 | Scan by NYPL | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Headquarters_of_South_Manchuria_Railway,_Dalian_(NYPL_Hades-2359312-4043668).jpg) |
-| 南山风情街 | Scan by NYPL | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Kitaoyama_Street,_Dairen_(NYPL_Hades-2359332-4043688).jpg) |
-| 俄罗斯风情街 | Zhengyang | Pexels License | [pexels](https://www.pexels.com/photo/tall-buildings-with-chinese-signs-26173365/) |
-| 俄罗斯风情街 | Pegli Zhu | Pexels License | [pexels](https://www.pexels.com/photo/brown-wooden-wall-decor-976701/) |
-| 俄罗斯风情街 | yating yang | Pexels License | [pexels](https://www.pexels.com/photo/view-of-a-narrow-alley-between-buildings-in-city-20317466/) |
-| 旅顺太阳沟 | Paul Louis | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Electronics_street,_Dalian.JPG) |
-| 旅顺太阳沟 | Scan by NYPL | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Headquarters_of_South_Manchuria_Railway,_Dalian_(NYPL_Hades-2359312-4043668).jpg) |
-| 旅顺太阳沟 | Scan by NYPL | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Kitaoyama_Street,_Dairen_(NYPL_Hades-2359332-4043688).jpg) |
+| 俄罗斯风情街 | 宋迎利 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E5%B8%82%E5%8C%BA%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97_-_panoramio.jpg) |
+| 俄罗斯风情街 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97%E7%9A%84%E4%BB%8A%E6%97%A5%E4%B8%96%E7%95%8C%E9%A5%AD%E5%BA%97_-_panoramio.jpg) |
+| 俄罗斯风情街 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97%E7%9A%84%E5%A4%A9%E5%A4%A9%E6%B8%94%E6%B8%AF_-_panoramio.jpg) |
+| 贝壳博物馆 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E6%98%9F%E6%B5%B7%E5%B9%BF%E5%9C%BA%E4%B8%9C%E5%8D%97%E6%8C%91%E6%9C%88%E6%A1%A5%E4%B8%8A%E8%A5%BF%E5%8C%97%E6%9C%9B%E9%A9%AC%E6%A0%8F%E6%B2%B3%E5%A4%A7%E8%BF%9E%E8%B4%9D%E5%A3%B3%E5%8D%9A%E7%89%A9%E9%A6%86.jpg) |
+| 贝壳博物馆 | 燃玉 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%B4%9D%E5%A3%B3%E5%8D%9A%E7%89%A9%E9%A6%86-1.jpg) |
+| 贝壳博物馆 | 燃玉 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%B4%9D%E5%A3%B3%E5%8D%9A%E7%89%A9%E9%A6%86-2.jpg) |
+| 贝壳博物馆 | Hexingxing | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%B4%9D%E5%A3%B3%E5%8D%9A%E7%89%A9%E9%A6%86.jpg) |
+| 贝壳博物馆 | 燃玉 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%B4%9D%E5%A3%B3%E5%8D%9A%E7%89%A9%E9%A6%86%E6%97%A7%E5%9D%80-1.jpg) |
+| 贝壳博物馆 | Hexingxing | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%B4%9D%E5%A3%B3%E5%8D%9A%E7%89%A9%E9%A6%86%E6%97%A7%E5%9D%80.jpg) |
+| 星海公园 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:1983%E5%B9%B4%E5%A4%A7%E8%BF%9E%E6%98%9F%E6%B5%B7%E5%85%AC%E5%9B%AD_Xing_Hai_Gong_Yuan_1983_-_panoramio.jpg) |
+| 星海公园 | 范 仲淹帮主 | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Ferris_Wheel_Of_Xinghai_Park_(11773375116).jpg) |
+| 星海公园 | 范 仲淹帮主 | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Sunrise_Of_Xinghai_Park_(11773039564).jpg) |
+| 星海公园 | 范 仲淹帮主 | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Sunrise_Of_Xinghai_Park_(11773584725).jpg) |
+| 星海公园 | 范 仲淹帮主 | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Sunrise_Of_Xinghai_Park_(11774340146).jpg) |
+| 星海公园 | Yoshi Canopus | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xinghai_Park,_Beach,_China.jpg) |
+| 星海广场 | 张元柏 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2007_%E8%BE%BD%E5%AE%81_%E5%A4%A7%E8%BF%9E_%E6%98%9F%E6%B5%B7%E5%B9%BF%E5%9C%BA_-_panoramio.jpg) |
+| 星海广场 | 张元柏 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2007_%E8%BE%BD%E5%AE%81_%E5%A4%A7%E8%BF%9E_%E6%98%9F%E6%B5%B7%E5%B9%BF%E5%9C%BA_-_panoramio_(1).jpg) |
+| 星海广场 | 张元柏 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2007_%E8%BE%BD%E5%AE%81_%E5%A4%A7%E8%BF%9E_%E6%98%9F%E6%B5%B7%E5%B9%BF%E5%9C%BA%E9%99%84%E8%BF%91_-_panoramio.jpg) |
+| 星海广场 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_China_Xinghai-Square-01.jpg) |
+| 星海广场 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_China_Xinghai-Square-02.jpg) |
+| 星海广场 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_Liaoning_China_Two-Chinese-at-Xinghai-Bay-01.jpg) |
+| 燕窝岭 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E6%BB%A8%E6%B5%B7%E4%B8%AD%E8%B7%AF%E5%8C%97%E5%A4%A7%E6%A1%A5%E4%B8%8A%E8%A5%BF%E5%8D%97%E5%90%91%E7%87%95%E7%AA%9D%E5%B2%AD%E5%A4%A7%E6%B5%B7%E5%A4%9C%E6%99%AF.jpg) |
+| 燕窝岭 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E6%BB%A8%E6%B5%B7%E4%B8%AD%E8%B7%AF%E7%87%95%E7%AA%9D%E5%B2%AD%E5%A9%9A%E5%BA%86%E5%85%AC%E5%9B%AD%E5%8D%97%E5%90%91%E7%9C%8B%E6%B5%B7.jpg) |
+| 燕窝岭 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E6%BB%A8%E6%B5%B7%E4%B8%AD%E8%B7%AF%E7%87%95%E7%AA%9D%E5%B2%AD%E5%A9%9A%E5%BA%86%E5%85%AC%E5%9B%AD%E6%82%AC%E5%B4%96%E4%B8%8B%E4%B8%9C%E5%90%91.jpg) |
+| 燕窝岭 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E6%BB%A8%E6%B5%B7%E4%B8%AD%E8%B7%AF%E7%87%95%E7%AA%9D%E5%B2%AD%E5%A9%9A%E5%BA%86%E5%85%AC%E5%9B%AD%E6%82%AC%E5%B4%96%E4%B8%8B%E4%BB%B0%E6%9C%9B.jpg) |
+| 燕窝岭 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E6%BB%A8%E6%B5%B7%E4%B8%AD%E8%B7%AF%E7%87%95%E7%AA%9D%E5%B2%AD%E5%A9%9A%E5%BA%86%E5%85%AC%E5%9B%AD%E6%82%AC%E5%B4%96%E4%B8%8B%E8%A5%BF%E5%90%91.jpg) |
+| 燕窝岭 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E6%BB%A8%E6%B5%B7%E4%B8%AD%E8%B7%AF%E7%87%95%E7%AA%9D%E5%B2%AD%E5%A9%9A%E5%BA%86%E5%85%AC%E5%9B%AD%E6%82%AC%E5%B4%96%E4%B8%8B%E8%A5%BF%E5%90%91%E5%B4%96%E6%B4%9E.jpg) |
+| 中山广场 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Zhongshan_Square,_Aug2018.jpg) |
+| 中山广场 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Zhongshan_Square_27140-Dalian_(49051703808).jpg) |
+| 中山广场 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Zhongshan_Square_27142-Dalian_(49051703963).jpg) |
+| 中山广场 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Zhongshan_Square_27143-Dalian_(49051704233).jpg) |
+| 中山广场 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Zhongshan_Square_27144-Dalian_(49051704568).jpg) |
+| 中山广场 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Zhongshan_Square_27164-Dalian_(49052430227).jpg) |
+| 海肠 | Suginami | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%9C%E5%B8%82%E4%B8%8A%E7%9A%84%E6%B5%B7%E8%82%A0%E6%8D%9E%E9%A5%AD.jpg) |
+| 海肠 | J. Patrick Fischer | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Echiura_in_Korea1.jpg) |
+| 海肠 | ProjectManhattan | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gaebul.jpg) |
+| 海胆 | Leiem | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Anthocidaris_crassispina,_Dalian.jpg) |
+| 海胆 | Rob Swystun from Winnipeg, Canada | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A_sea_urchin_under_the_nighttime_light._(15581823600).jpg) |
+| 海胆 | FroyAgta | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Black_sea_urchin.jpg) |
+| 大连海参 | Fumikas Sagisavas | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_sea_cucumber.jpg) |
+| 烤鱿鱼 | Eximiousincorp | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Flavorful_Grilled_Squid.jpg) |
+| 烤鱿鱼 | Fumikas Sagisavas | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Freshippo_grilled_squid.jpg) |
+| 焖子 | Auongkinghe | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%85%A5%E8%82%89%E7%82%96%E7%84%96%E5%AD%90_20251203.jpg) |
+| 焖子 | JesseW900 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_Menzi.JPG) |
+| 焖子 | JUNNR | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:FoodMenzi1.jpg) |
+| 焖子 | JUNNR | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:FoodMenzi2.jpg) |
+| 虾夷扇贝 | A. C. Tatarinov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mizuhopecten_yessoensis.jpg) |
+| 咸鱼饼子 | JesseW900 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Salted_fish_Dalian.JPG) |
+| 滨海路 | Signjing | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8C%97%E5%A4%A7%E6%A1%A5_%E9%A3%8E%E8%BD%A6%E5%B0%8F%E5%B1%8B.JPG) |
+| 滨海路 | DukeAnt | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:The_longest_wooden_walkway_in_the_world.jpg) |
+| 付家庄海滩 | Signjing | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BB%98%E5%AE%B6%E5%BA%84%E5%85%AC%E5%9B%AD_%E6%B5%B7%E6%BB%A9_1.JPG) |
+| 付家庄海滩 | Signjing | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BB%98%E5%AE%B6%E5%BA%84%E5%85%AC%E5%9B%AD_%E6%B5%B7%E6%BB%A9_2.JPG) |
+| 金石滩 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2002%E5%B9%B4%E5%A4%A7%E8%BF%9E%E9%87%91%E7%9F%B3%E6%BB%A9_jin_shi_tan_-_panoramio.jpg) |
+| 金石滩 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2002%E5%B9%B4%E9%87%91%E7%9F%B3%E6%BB%A9%E4%B8%AD%E5%BF%83%E5%A4%A7%E8%A1%97_zhong_xin_da_jie_-_panoramio.jpg) |
+| 金石滩 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2002%E5%B9%B4%E9%87%91%E7%9F%B3%E6%BB%A9%E6%B5%B7%E6%BB%A8%E6%B5%B4%E5%9C%BA_jin_shi_tan_hai_bin_yu_chang_-_panoramio.jpg) |
+| 金石滩 | 信之洋 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_Jinshitan_Coastal_Geopark.jpg) |
+| 俄罗斯风情街 | Ffggss | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2001%E5%B9%B45%E6%9C%88%EF%BC%8C%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97%E6%AD%A3%E5%BC%8F%E5%BC%80%E8%A1%97.jpg) |
+| 俄罗斯风情街 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E4%B8%80%E6%9D%A1%E8%A1%97%E7%9A%84%E4%BF%84%E5%BC%8F%E5%BB%BA%E7%AD%91%E7%89%A9_-_panoramio.jpg) |
+| 俄罗斯风情街 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E4%B8%80%E6%9D%A1%E8%A1%97%E7%9A%84%E4%BF%84%E5%BC%8F%E5%BB%BA%E7%AD%91%E7%89%A9_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961.jpg) |
+| 俄罗斯风情街 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E4%B8%80%E6%9D%A1%E8%A1%97%E7%9A%84%E4%BF%84%E5%BC%8F%E5%BB%BA%E7%AD%91%E7%89%A9_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961_(1).jpg) |
+| 星海广场夜景 | Air7538 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Dalian_Xinghai_Square_or_Xinghai_Plaza_Night_01.jpg) |
+| 星海广场夜景 | Air7538 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Dalian_Xinghai_Square_or_Xinghai_Plaza_Night_02.jpg) |
+| 星海广场夜景 | User:Sinopitt | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xinghai_Square,_Dalian.JPG) |
+| 俄罗斯风情街 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E5%9B%A2%E7%BB%93%E8%A1%97%E5%85%89%E8%BE%89%E5%B7%B7%E8%A5%BF%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97%E5%A4%A7%E8%BF%9E%E8%88%B9%E8%88%B6%E6%8A%80%E6%9C%AF%E5%AD%A6%E6%A0%A1.jpg) |
+| 俄罗斯风情街 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E5%9B%A2%E7%BB%93%E8%A1%97%E6%B5%B7%E6%B4%8B%E8%A1%97%E8%A5%BF%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97.jpg) |
+| 俄罗斯风情街 | 宋迎利 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E5%B8%82%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97_-_panoramio.jpg) |
+| 俄罗斯风情街 | 宋迎利 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E5%B8%82%E5%8C%BA%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97_-_panoramio.jpg) |
+| 俄罗斯风情街 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97%E7%9A%84%E4%BB%8A%E6%97%A5%E4%B8%96%E7%95%8C%E9%A5%AD%E5%BA%97_-_panoramio.jpg) |
+| 俄罗斯风情街 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97%E7%9A%84%E5%A4%A9%E5%A4%A9%E6%B8%94%E6%B8%AF_-_panoramio.jpg) |
 | 中山广场 | Paul Louis | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bank_of_China,_Zhangshan_Square,_Dalian.JPG) |
 | 中山广场 | MR+G from Wakayama, Japan | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Zhongshan_Square,_Dalian.jpg) |
-| 中山广场 | Saa350 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Zhongshan_Square_Station_Exit_D.jpg) |

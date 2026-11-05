@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/35367869/pexels-photo-35367869.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35367869/pexels-photo-35367869.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4913,
-      "height": 3672,
-      "alt": "A serene street in Hefei, China with lush green trees arching over the road, creating a peaceful atmosphere.",
-      "query": "Ningguo Road Crayfish Street Hefei",
-      "credit": {
-        "source": "pexels",
-        "author": "zheng liang",
-        "sourceUrl": "https://www.pexels.com/photo/tranquil-tree-lined-street-in-hefei-china-35367869/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/32149294/pexels-photo-32149294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/32149294/pexels-photo-32149294.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4480,
-      "height": 6343,
-      "alt": "Appetizing dish of freshly boiled crawfish served in a white bowl with garnish.",
-      "query": "Ningguo Road Crayfish Street Hefei",
-      "credit": {
-        "source": "pexels",
-        "author": "Change C.C",
-        "sourceUrl": "https://www.pexels.com/photo/delicious-boiled-crawfish-seafood-platter-32149294/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/30521620/pexels-photo-30521620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/30521620/pexels-photo-30521620.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5472,
-      "height": 3648,
-      "alt": "A stunning aerial view of a brightly lit highway interchange in China at nighttime, showcasing intricate patterns.",
-      "query": "Ningguo Road Crayfish Street Hefei",
-      "credit": {
-        "source": "pexels",
-        "author": "Pexels User",
-        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-illuminated-highway-interchange-at-night-30521620/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "龙虾",
@@ -101,12 +55,13 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Ningguo Road Crayfish Street Hefei",
     "zh": "宁国路龙虾一条街"
   },
   "_geocodeTitle": "宁国路",
-  "district": "340111"
+  "district": "340111",
+  "_noImage": true
 }

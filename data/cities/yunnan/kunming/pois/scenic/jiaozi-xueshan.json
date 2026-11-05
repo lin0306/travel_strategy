@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/36907620/pexels-photo-36907620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36907620/pexels-photo-36907620.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Dramatic karst formations in the Stone Forest, capturing natural beauty.",
-      "query": "natural landscape China kunming",
-      "credit": {
-        "source": "pexels",
-        "author": "pierre matile",
-        "sourceUrl": "https://www.pexels.com/photo/stunning-karst-landscapes-of-stone-forest-36907620/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/34628212/pexels-photo-34628212.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34628212/pexels-photo-34628212.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 3024,
-      "alt": "Serene picture of Dianchi Lake, distant pagoda, bare trees, and mountain backdrop in Kunming.",
-      "query": "natural landscape China kunming",
-      "credit": {
-        "source": "pexels",
-        "author": "大 董",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-dianchi-lake-with-pagoda-and-mountains-34628212/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39540153/pexels-photo-39540153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39540153/pexels-photo-39540153.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8192,
-      "height": 5464,
-      "alt": "A serene view of a traditional Asian pavilion on a pier over calm waters with mountains.",
-      "query": "natural landscape China kunming",
-      "credit": {
-        "source": "pexels",
-        "author": "ma hxin",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-pavilion-on-scenic-pier-in-asia-39540153/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "雪山",
@@ -101,11 +55,12 @@
       "fetchedAt": "2026-09-28"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
     "zh": "轿子雪山"
   },
-  "district": "530128"
+  "district": "530128",
+  "_noImage": true
 }

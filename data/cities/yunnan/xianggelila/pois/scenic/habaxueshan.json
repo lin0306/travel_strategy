@@ -52,21 +52,51 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8E%BB%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%9A%84%E8%B7%AF%E4%B8%8A%E8%BF%9C%E7%9C%BA%E5%93%88%E5%B7%B4%E9%9B%AA%E5%B1%B1_-_panoramio.jpg",
         "license": "CC BY 3.0",
         "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-10-31"
       }
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Haba_Snow_Mountain_in_Tomba.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Haba_Snow_Mountain_in_Tomba.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/HabaMountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/HabaMountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "width": 1080,
-      "height": 430,
-      "alt": "Haba Snow Mountain in Tomba.png",
+      "height": 1451,
+      "alt": "HabaMountain.jpg",
+      "query": "哈巴雪山",
+      "credit": {
+        "source": "wikimedia",
+        "author": "User:Doron",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:HabaMountain.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-10-31"
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Haba_Mountain.JPG/1280px-Haba_Mountain.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Haba_Mountain.JPG/1280px-Haba_Mountain.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Haba Mountain.JPG",
       "query": "哈巴雪山",
       "credit": {
         "source": "wikimedia",
         "author": "Zhangmoon618",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haba_Snow_Mountain_in_Tomba.png",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haba_Mountain.JPG",
+        "license": "Public domain",
+        "attributionRequired": false
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-10-31"
       }
     },
     {
@@ -82,6 +112,11 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Snow_Slope_of_Haba_Mountain.JPG",
         "license": "Public domain",
         "attributionRequired": false
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-10-31"
       }
     }
   ],
@@ -100,7 +135,7 @@
       "fetchedAt": "2026-10-06"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

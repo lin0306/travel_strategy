@@ -43,38 +43,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Daniel_Zhang_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Daniel_Zhang_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Daniel Zhang 2023.jpg",
-      "query": "南山公园·火炬广场",
-      "credit": {
-        "source": "wikimedia",
-        "author": "中国新闻社",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Daniel_Zhang_2023.jpg",
-        "license": "CC BY 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Luo_Xuejuan_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Luo_Xuejuan_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Luo Xuejuan 2023.jpg",
-      "query": "南山公园·火炬广场",
-      "credit": {
-        "source": "wikimedia",
-        "author": "中国新闻社",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Luo_Xuejuan_2023.jpg",
-        "license": "CC BY 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "公园",
@@ -91,7 +60,7 @@
       "fetchedAt": "2026-10-07"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -99,5 +68,6 @@
   },
   "_geocodeTitle": "南山火炬广场",
   "_geocodeSuspect": false,
-  "district": "360881"
+  "district": "360881",
+  "_noImage": true
 }

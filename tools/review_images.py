@@ -32,6 +32,7 @@ from __future__ import annotations
 import argparse
 import io
 import json
+import os
 import sys
 import urllib.parse
 import urllib.request
@@ -51,7 +52,11 @@ LEDGER = ROOT / ".workbuddy" / "memory" / "image-rebuild.json"
 #: 与前端同款镜像（`web/app/common/data/imageMirror.ts`）—— Wikimedia 原图国内直连超时
 MIRROR = "https://wsrv.nl/"
 MIRROR_HOSTS = ("upload.wikimedia.org", "thumb.wikimedia.org")
-UA = {"User-Agent": "travel-strategy-image-review/1.0 (local; low-frequency)"}
+#: ★★ UA 必须带**可联系的 URL**：2026-10-31 实测同一张图，
+#:    `…(local; low-frequency)` → **HTTP 429**、不带 UA → **403**、带 URL → **200**。
+#:    旧 UA 让敦煌 7 格（书法手稿、玉门关信息牌）稳定失败，人却以为"这些格子本来就没图"。
+UA = {"User-Agent": "travel-strategy-image-review/1.0 "
+                    "(https://www.mediawiki.org/wiki/API:Etiquette; local review tool)"}
 
 TILE = 300
 COLS = 4
@@ -75,14 +80,43 @@ def poi_paths(city: str) -> list[Path]:
     return hits
 
 
+def direct_thumb(url: str, width: int = TILE) -> str:
+    """兜底 URL：直连 Wikimedia 官方缩略图（不走镜像）。
+
+    ★★ 2026-10-31 新增，起因是香格里拉：13 格在 wsrv.nl 上稳定失败
+    （`Bundesarchiv` 1938 年德国探险队档案照、`in Tomba` 版画等），
+    对照表里只显示「[下载失败]」，而**城市照样算审过** —— 那 13 张从来没被人眼看过，
+    等于"审了 76 张"里有 13 张是假的。实测试直连官方缩略图 13/13 全部取回。
+
+    ★ 只对 commons 原图有效；其他图床（或已带 `/thumb/` 的）返回空串。
+    """
+    raw = url.split("?", 1)[0]
+    host = raw.split("/")[2].lower() if raw.startswith("http") else ""
+    if host not in MIRROR_HOSTS or "/wikipedia/commons/" not in raw or "/thumb/" in raw:
+        return ""
+    prefix, rest = raw.split("/wikipedia/commons/", 1)
+    return f"{prefix}/wikipedia/commons/thumb/{rest}/{width}px-{rest.rsplit('/', 1)[-1]}"
+
+
 def fetch(url: str, dest: Path) -> bool:
-    """★ 重试 2 次：镜像偶发超时会留空格子（西安首轮 57 张里空了 7 张）。"""
+    """★ 重试 2 次：镜像偶发超时会留空格子（西安首轮 57 张里空了 7 张）。
+
+    ★ 镜像全部失败后**必须再试直连**（`direct_thumb`）：镜像对部分历史档案照是
+    稳定失败而不是抖动，只重试镜像等于永远看不到那几张。
+    """
     if dest.exists() and dest.stat().st_size > 1024:
         return True
     last = ""
-    for _attempt in range(3):
+    dt = direct_thumb(url)
+    #: ★ 直连缩略图也有 400 的（腾冲实测：`Gaoligongshan IMGP5778.jpeg` 三种宽度全 400，
+    #:   但原图 200）。所以最后一档是**原图**——审图只要看得清，体积大点无所谓。
+    raw = url.split("?", 1)[0]
+    #: 调度表而不是"循环里 if"：镜像抖动要多试几次，直连缩略图与**原图**各兜一档。
+    #: （原图必须留：`Gaoligongshan IMGP5778.jpeg` 直连缩略图三种宽度全 400，原图 200。）
+    plan = [mirror(url, TILE)] * 3 + ([dt] if dt else []) + [raw, raw]
+    for cand in plan:
         try:
-            req = urllib.request.Request(mirror(url, TILE), headers=UA)
+            req = urllib.request.Request(cand, headers=UA)
             data = urllib.request.urlopen(req, timeout=25).read()
             if len(data) >= 1024:
                 dest.write_bytes(data)
@@ -126,8 +160,20 @@ def build_sheets(city: str, *, refresh: bool = False, covers_only: bool = False)
         return 0
 
     print(f"共 {len(entries)} 张待审（scope={scope}），下载缩略图…")
-    with ThreadPoolExecutor(max_workers=4) as pool:      # 4 并发：公共镜像，别打太狠
+    # 并发数可用 REVIEW_WORKERS 覆盖：剩 27 城 2200+ 张时 4 并发要跑 9 小时，8 并发约减半。
+    # 别超过 12——公共镜像会 429，表现为「取图失败」涨、速度反而降。
+    with ThreadPoolExecutor(max_workers=int(os.environ.get("REVIEW_WORKERS", "8"))) as pool:
         list(pool.map(lambda e: fetch(e["url"], cache_dir / f"{scope}-{e['idx']}.jpg"), entries))
+
+    # ★★ 仍失败的格子必须**喊出来**：空格子 = 这张没被人眼看过，
+    #    静默带过的话「审完 X 张」就是假的（香格里拉 76 格里 13 格是假的）。
+    lost = [e for e in entries if not (cache_dir / f"{scope}-{e['idx']}.jpg").exists()]
+    if lost:
+        print(f"★★ 仍有 {len(lost)} 格取不到图（**这些格子没看过，不能算审过**）：")
+        for e in lost[:20]:
+            print(f"     #{e['idx']:<3} {e['poi'][:12]:14s} {(e['alt'] or '')[:48]}")
+        print("   处置：`sheet <city> --refresh` 再跑一次；仍不行就单独下载原图看，"
+              "**不要**把该城记进 reviewed。")
 
     sheets: list[Path] = []
     per = COLS * ROWS
@@ -271,19 +317,42 @@ def apply_verdicts(city: str, *, dry: bool = False, scope: str = "covers") -> in
 
     cache = load_cache()
     by_file: dict[str, list[tuple[int, int, str]]] = {}
+    # ★ 每个文件在出表那一刻有几张图：必须按**全部** manifest 行算，不能按"带判定的行"算。
+    #   2026-10-31 乐山实测：只判了某点位最后一张（如 #6 微缩模型），expect 就被算成 5，
+    #   实际 6 张 ⇒ 误报"表格已过期"，5 个点位整批跳过回写、一句报错都没有（只印了跳过）。
+    full_of: dict[str, dict[int, str]] = {}
     for e in manifest:
+        full_of.setdefault(e["file"], {})[e["imageIndex"]] = e["url"]
         v = verdicts.get(e["idx"]) or cache.get(e["url"])
         if not v:
             continue
         by_file.setdefault(e["file"], []).append((e["imageIndex"], e["idx"], v))
 
     changed = 0
+    stale = 0
     for rel, rows in by_file.items():
         path = ROOT / rel
         poi = json.loads(path.read_text(encoding="utf-8"))
         keep_i = {i for i, _x, v in rows if v == "reject"}
         imgs = poi.get("images") or []
         if not keep_i:
+            continue
+        # ★★ 过期检测：manifest 的 imageIndex 是**出表那一刻**的序号。apply 之后图变少了，
+        #    再跑一次 apply 就会按旧序号删到**别的图**上（零报错、删完还挺像那么回事）。
+        #    两条判据：① 出表时的总张数超过现在（图已经变少）；② 序号上的 URL 对不上
+        #    （图还在但顺序被洗过 —— 重抓/换图都会导致）。任一条命中就拒绝动这个文件。
+        snapshot = full_of.get(rel) or {}
+        expect = max(snapshot) + 1 if snapshot else 0
+        misaligned = [
+            i for i in (i for i, _x, _v in rows)
+            if i < len(imgs) and snapshot.get(i) and (imgs[i].get("url") or "") != snapshot[i]
+        ]
+        if len(imgs) != expect or misaligned:
+            why = (f"manifest 记 {expect} 张，实际 {len(imgs)} 张" if len(imgs) != expect
+                   else f"序号 {sorted(misaligned)[:4]} 上的 URL 已对不上")
+            print(f"     ! 跳过 {Path(rel).stem}：{why}"
+                  f"（表格已过期，先 `sheet {city} --refresh` 再看）")
+            stale += 1
             continue
         kept = []
         for i, im in enumerate(imgs):
@@ -304,6 +373,17 @@ def apply_verdicts(city: str, *, dry: bool = False, scope: str = "covers") -> in
             path.write_text(json.dumps(poi, ensure_ascii=False, indent=2) + "\n",
                             encoding="utf-8")
         changed += 1
+        # ★★ 逐条印出被删的图：序号错位时这是**唯一能当场看出来的地方**。
+        #    2026-10-31 福州实测：判据里手写 #{92,93} 想删万福寺，实际那两格是
+        #    华林寺的真图（万福寺是 #94-#99），apply 只报"改动 16 个 POI"，
+        #    一句都没提华林寺，等回头核对才发现删错。删掉的必须自报家门。
+        rm = [im.get("alt") or im.get("url", "") for i, im in enumerate(imgs) if i in keep_i]
+        if rm:
+            head = poi.get("name") or Path(rel).stem
+            for a in rm[:6]:
+                print(f"     - {head}: {a[:64]}")
+            if len(rm) > 6:
+                print(f"     - {head}: …另 {len(rm) - 6} 张")
 
     # 判定写进全局缓存（按 URL），下次不必重看
     lines = [json.dumps({"url": e["url"], "verdict": v}, ensure_ascii=False)

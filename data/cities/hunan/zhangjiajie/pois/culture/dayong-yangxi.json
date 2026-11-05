@@ -37,53 +37,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/7032138/pexels-photo-7032138.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/7032138/pexels-photo-7032138.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 10621,
-      "height": 13279,
-      "alt": "Colorful Beijing opera performer showcasing traditional mask and costume during a festival.",
-      "query": "Dayong Yangxi Opera",
-      "credit": {
-        "source": "pexels",
-        "author": "Michael Griffin",
-        "sourceUrl": "https://www.pexels.com/photo/man-in-a-traditional-chinese-costume-celebrating-new-year-7032138/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36422762/pexels-photo-36422762.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36422762/pexels-photo-36422762.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2666,
-      "height": 3999,
-      "alt": "Close-up of a Chinese opera performer wearing ornate traditional costume and makeup.",
-      "query": "Dayong Yangxi Opera",
-      "credit": {
-        "source": "pexels",
-        "author": "Alexandra  Lavizzari",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-opera-performer-in-costume-36422762/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/15313373/pexels-photo-15313373.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/15313373/pexels-photo-15313373.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4813,
-      "height": 7219,
-      "alt": "Portrait of a woman in traditional Chinese opera attire, wearing pink with intricate headpiece.",
-      "query": "Dayong Yangxi Opera",
-      "credit": {
-        "source": "pexels",
-        "author": "Suki Lee",
-        "sourceUrl": "https://www.pexels.com/photo/woman-in-traditional-clothing-with-wreath-15313373/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "阳戏",
@@ -99,11 +53,12 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Dayong Yangxi Opera",
     "zh": "大庸阳戏"
   },
-  "district": "430802"
+  "district": "430802",
+  "_noImage": true
 }

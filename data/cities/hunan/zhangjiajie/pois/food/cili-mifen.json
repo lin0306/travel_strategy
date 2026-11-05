@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/38467983/pexels-photo-38467983.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38467983/pexels-photo-38467983.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3072,
-      "height": 4096,
-      "alt": "Tantalizing plates of Malaysian fried rice and spicy noodles served on a wooden table.",
-      "query": "Cili Rice Noodles",
-      "credit": {
-        "source": "pexels",
-        "author": "Ahmad Shakir Shamsulbadri",
-        "sourceUrl": "https://www.pexels.com/photo/delicious-malaysian-fried-rice-and-noodles-38467983/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37254216/pexels-photo-37254216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37254216/pexels-photo-37254216.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "A vibrant bowl of Vietnamese bánh canh with pork, shrimp, and herbs.",
-      "query": "Cili Rice Noodles",
-      "credit": {
-        "source": "pexels",
-        "author": "Y Thuyên",
-        "sourceUrl": "https://www.pexels.com/photo/delicious-vietnamese-banh-canh-soup-with-meat-37254216/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38467981/pexels-photo-38467981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38467981/pexels-photo-38467981.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3072,
-      "height": 4096,
-      "alt": "Close-up of spicy Malaysian char kway teow with soy sauce and chili garnish on a white plate.",
-      "query": "Cili Rice Noodles",
-      "credit": {
-        "source": "pexels",
-        "author": "Ahmad Shakir Shamsulbadri",
-        "sourceUrl": "https://www.pexels.com/photo/delicious-malaysian-char-kway-teow-on-plate-38467981/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "米粉",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Cili Rice Noodles",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "慈利米粉",
   "_geocodeSuspect": false,
-  "district": "430802"
+  "district": "430802",
+  "_noImage": true
 }

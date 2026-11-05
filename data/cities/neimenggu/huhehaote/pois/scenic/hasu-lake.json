@@ -44,53 +44,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/18895746/pexels-photo-18895746.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/18895746/pexels-photo-18895746.png?auto=compress&cs=tinysrgb&h=350",
-      "width": 12088,
-      "height": 15696,
-      "alt": "Close-up of a traditional warrior statue in Hohhot, Inner Mongolia, showcasing Chinese cultural heritage.",
-      "query": "Hasu Lake Hohhot",
-      "credit": {
-        "source": "pexels",
-        "author": "Jerry Wang",
-        "sourceUrl": "https://www.pexels.com/photo/chinese-warrior-sculpture-18895746/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/34939605/pexels-photo-34939605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34939605/pexels-photo-34939605.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5922,
-      "height": 3948,
-      "alt": "A tranquil scene of boats on a lake in Beihai Park, Beijing, showcasing serene nature and traditional architecture.",
-      "query": "Hasu Lake Hohhot",
-      "credit": {
-        "source": "pexels",
-        "author": "Bruna Santos",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-boats-at-beihai-park-in-beijing-34939605/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/16409444/pexels-photo-16409444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/16409444/pexels-photo-16409444.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Peaceful lake scene with a boat sailing under a clear sky, surrounded by lush greenery.",
-      "query": "Hasu Lake Hohhot",
-      "credit": {
-        "source": "pexels",
-        "author": "Shuaizhi Tian",
-        "sourceUrl": "https://www.pexels.com/photo/clear-sky-over-lake-and-forest-16409444/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "湖泊",
@@ -106,7 +60,7 @@
       "fetchedAt": "2026-10-03"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Hasu Lake Hohhot",
@@ -114,5 +68,6 @@
   },
   "_geocodeTitle": "哈素海旅游景区",
   "_geocodeSuspect": false,
-  "district": "150121"
+  "district": "150121",
+  "_noImage": true
 }

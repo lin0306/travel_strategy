@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/4732434/pexels-photo-4732434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/4732434/pexels-photo-4732434.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3456,
-      "height": 5184,
-      "alt": "Stunning long exposure of a cascading waterfall in a verdant forest near Hà Nội, Vietnam.",
-      "query": "Jiurushan Waterfall Jinan",
-      "credit": {
-        "source": "pexels",
-        "author": "Đỗ Xuân Hạnh",
-        "sourceUrl": "https://www.pexels.com/photo/water-falls-streaming-down-the-boulders-4732434/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/7469470/pexels-photo-7469470.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/7469470/pexels-photo-7469470.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Beautiful waterfall cascading in Shangrao Shi, China surrounded by lush greenery and mountains.",
-      "query": "Jiurushan Waterfall Jinan",
-      "credit": {
-        "source": "pexels",
-        "author": "Jun Ouyang",
-        "sourceUrl": "https://www.pexels.com/photo/waterfalls-near-a-mountain-7469470/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38431123/pexels-photo-38431123.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38431123/pexels-photo-38431123.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4672,
-      "height": 7008,
-      "alt": "A stunning waterfall flows over rocks in a lush green forest, creating a tranquil natural scene.",
-      "query": "Jiurushan Waterfall Jinan",
-      "credit": {
-        "source": "pexels",
-        "author": "Ec lipse",
-        "sourceUrl": "https://www.pexels.com/photo/serene-waterfall-cascading-through-lush-forest-38431123/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "瀑布",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Jiurushan Waterfall Jinan",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "九如山瀑布群风景区白虎潭",
   "_geocodeSuspect": false,
-  "district": "370112"
+  "district": "370112",
+  "_noImage": true
 }

@@ -44,53 +44,7 @@
     "吃海鲜先问价再点，节假日加价明显",
     "离市区远，9 号线东海路站换车，安排半天才不赶"
   ],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/13128377/pexels-photo-13128377.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/13128377/pexels-photo-13128377.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 3024,
-      "alt": "Explore the intricate traditional Chinese architecture along a pedestrian street in Caijiabaoxiang, Tianjin, China.",
-      "query": "Beitang Ancient Town Tianjin",
-      "credit": {
-        "source": "pexels",
-        "author": "Shuaizhi Tian",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-buildings-in-a-chinese-town-13128377/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/13128367/pexels-photo-13128367.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/13128367/pexels-photo-13128367.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2942,
-      "height": 3922,
-      "alt": "Beautiful traditional Chinese architectural structures surrounded by greenery in Tianjin, China.",
-      "query": "Beitang Ancient Town Tianjin",
-      "credit": {
-        "source": "pexels",
-        "author": "Shuaizhi Tian",
-        "sourceUrl": "https://www.pexels.com/photo/garden-and-pavement-13128367/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/30516575/pexels-photo-30516575.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/30516575/pexels-photo-30516575.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5712,
-      "height": 4284,
-      "alt": "Elegant view of a traditional courtyard through ornate wooden windows, showcasing historical architecture and cultural c",
-      "query": "Beitang Ancient Town Tianjin",
-      "credit": {
-        "source": "pexels",
-        "author": "Shuaizhi Tian",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-courtyard-with-ornate-wooden-window-view-30516575/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "古镇",
@@ -108,7 +62,7 @@
       "fetchedAt": "2026-10-28"
     }
   ],
-  "updatedAt": "2026-10-28",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Beitang Ancient Town Tianjin",
@@ -116,5 +70,6 @@
   },
   "_geocodeTitle": "北塘古镇",
   "_geocodeSuspect": false,
-  "district": "120116"
+  "district": "120116",
+  "_noImage": true
 }

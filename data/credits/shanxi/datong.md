@@ -1,6 +1,6 @@
 # 大同 · 数据来源与图片版权
 
-> 生成于 2026-10-31 · 城市数据最后更新 2026-10-01
+> 生成于 2026-11-05 · 城市数据最后更新 2026-10-01
 
 ## 概览
 
@@ -77,38 +77,25 @@
 | 城市封面 | Ralf Leineweber | Unsplash License | [unsplash](https://unsplash.com/photos/oriental-pearl-tower-shanghai-china-sRMzAdjWK_E) |
 | 城市封面 | Peng Originals | Unsplash License | [unsplash](https://unsplash.com/photos/a-city-skyline-with-a-bridge-over-the-water-thTiND-4NsQ) |
 | 城市封面 | Road Trip with Raj | Unsplash License | [unsplash](https://unsplash.com/photos/aerial-photography-of-city-buildings-py8eyAh9J3A) |
-| 白登山 | The painting was originally attributed to Ma Hezhi (馬和之; fl. | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Portrait_of_the_Immortal_Magu.png) |
-| 白登山 | The painting was originally attributed to Ma Hezhi (馬和之; fl. | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Portrait_of_the_Immortal_Magu_-_Ma_Hezhi_-_Song_Dynasty.jpg) |
-| 白登山 | Alvesgaspar | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Ghent_April_2012-2.jpg) |
-| 北魏明堂遗址 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E5%90%8C%E6%B8%85%E7%9C%9F%E5%A4%A7%E5%AF%BA_(54579120624).jpg) |
-| 采凉山 | 临万然 LWR | Pexels License | [pexels](https://www.pexels.com/photo/majestic-stone-buddha-at-yungang-grottoes-38098072/) |
-| 采凉山 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/facade-of-a-pagoda-6724172/) |
-| 采凉山 | Crudop MichaeLP | Pexels License | [pexels](https://www.pexels.com/photo/magnificent-ancient-buddhist-rock-sculptures-37340474/) |
 | 慈云寺 | Vikarna | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Ciyun_Temple_of_Tianzhen.jpg) |
 | 慈云寺 | Vikarna | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%85%88%E4%BA%91%E5%AF%BA%E4%BC%BD%E8%93%9D%E6%AE%BF.jpg) |
 | 慈云寺 | Vikarna | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%85%88%E4%BA%91%E5%AF%BA%E5%A4%A7%E9%9B%84%E5%AE%9D%E6%AE%BF.jpg) |
-| 代王府 | 乾 黄 | Pexels License | [pexels](https://www.pexels.com/photo/28263427/) |
-| 代王府 | Wang Qihang | Pexels License | [pexels](https://www.pexels.com/photo/ancient-chinese-temple-architecture-in-datong-33572690/) |
-| 代王府 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/facade-of-a-pagoda-6724172/) |
-| 大同古城墙 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E5%90%8C%E6%B8%85%E7%9C%9F%E5%A4%A7%E5%AF%BA_(54579120624).jpg) |
+| 大同古城墙 | Shizhao | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大同古城墙 | Bzsgod | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大同古城墙 | xiquinhosilva | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 大同鼓楼 | Ganwumao | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20220121_%E9%9B%AA%E4%B8%AD%E7%9A%84%E5%A4%A7%E5%90%8C%E9%BC%93%E6%A5%BC.jpg) |
 | 大同鼓楼 | Ganwumao | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20220121_%E9%9B%AA%E4%B8%AD%E7%9A%84%E5%A4%A7%E5%90%8C%E9%BC%93%E6%A5%BC_02.jpg) |
 | 大同鼓楼 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Drum_Tower,_2020-09-08_01.jpg) |
+| 大同鼓楼 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大同鼓楼 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 大同市博物馆 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%B3%E5%9F%8E_%E5%A4%A7%E5%90%8C%E5%8D%9A%E7%89%A9%E9%A6%86_01.jpg) |
 | 大同市博物馆 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%B3%E5%9F%8E_%E5%A4%A7%E5%90%8C%E5%8D%9A%E7%89%A9%E9%A6%86_02.jpg) |
-| 大同市博物馆 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%B3%E5%9F%8E_%E5%A4%A7%E5%90%8C%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86%E4%B9%8B%E5%A4%A7%E5%90%8C%E5%96%84%E5%8C%96%E5%AF%BA%E6%99%AE%E8%B4%A4%E9%98%81%E6%A8%A1%E5%9E%8B.jpg) |
-| 大同土林 | 临万然 LWR | Pexels License | [pexels](https://www.pexels.com/photo/majestic-stone-buddha-at-yungang-grottoes-38098072/) |
-| 大同土林 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/facade-of-a-pagoda-6724172/) |
-| 大同土林 | Crudop MichaeLP | Pexels License | [pexels](https://www.pexels.com/photo/magnificent-ancient-buddhist-rock-sculptures-37340474/) |
 | 大同文庙 | Edouard Chavannes，1865—1918 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Confucian_Temple.jpg) |
 | 大同文庙 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Wenmiao_2013.08.29_11-30-48.jpg) |
 | 大同文庙 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Wenmiao_2013.08.29_11-34-13.jpg) |
-| 方山永固陵 | 乾 黄 | Pexels License | [pexels](https://www.pexels.com/photo/28263427/) |
-| 方山永固陵 | Wang Qihang | Pexels License | [pexels](https://www.pexels.com/photo/ancient-chinese-temple-architecture-in-datong-33572690/) |
-| 方山永固陵 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/facade-of-a-pagoda-6724172/) |
-| 大同关帝庙 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Chunyang_Gong_2013.08.29_10-18-52.jpg) |
-| 大同关帝庙 | BabelStone | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_derelict_temple_(1)_January_1985.jpg) |
-| 大同关帝庙 | BabelStone | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_derelict_temple_(10)_January_1985.jpg) |
+| 方山永固陵 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20251026_Arched_Stone_Gate_at_Yonggu_Mausoleum.jpg) |
+| 大同关帝庙 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大同关帝庙 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 观音堂 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Guanyin_Tang_2013.08.29_16-57-47.jpg) |
 | 观音堂 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Guanyin_Tang_2013.08.29_17-07-17.jpg) |
 | 观音堂 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Guanyin_Tang_2013.08.29_17-13-01.jpg) |
@@ -118,121 +105,41 @@
 | 华严寺 | Ganwumao | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20220121_%E5%A4%A7%E5%90%8C_%E5%8D%8E%E4%B8%A5%E5%AF%BA.jpg) |
 | 华严寺 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Huayan_Si_2013.08.29_08-24-19.jpg) |
 | 华严寺 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Huayan_Si_2013.08.29_08-25-29.jpg) |
-| 壶流河湿地 | 临万然 LWR | Pexels License | [pexels](https://www.pexels.com/photo/majestic-stone-buddha-at-yungang-grottoes-38098072/) |
-| 壶流河湿地 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/facade-of-a-pagoda-6724172/) |
-| 壶流河湿地 | Crudop MichaeLP | Pexels License | [pexels](https://www.pexels.com/photo/magnificent-ancient-buddhist-rock-sculptures-37340474/) |
-| 大同火山群 | 临万然 LWR | Pexels License | [pexels](https://www.pexels.com/photo/majestic-stone-buddha-at-yungang-grottoes-38098072/) |
-| 大同火山群 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/facade-of-a-pagoda-6724172/) |
-| 大同火山群 | Crudop MichaeLP | Pexels License | [pexels](https://www.pexels.com/photo/magnificent-ancient-buddhist-rock-sculptures-37340474/) |
-| 晋华宫国家矿山公园 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/facade-of-a-pagoda-6724172/) |
-| 晋华宫国家矿山公园 | Wang Qihang | Pexels License | [pexels](https://www.pexels.com/photo/ancient-chinese-temple-architecture-in-datong-33572690/) |
-| 晋华宫国家矿山公园 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/a-man-in-gray-long-sleeves-sitting-near-the-wooden-door-6724161/) |
 | 九龙壁 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Jiulongbi_2013.08.29_13-42-01.jpg) |
 | 九龙壁 | BabelStone | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Nine_dragon_wall_(1)_January_1985.jpg) |
 | 九龙壁 | BabelStone | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Nine_dragon_wall_(2)_January_1985.jpg) |
+| 九龙壁 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 九龙壁 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 九龙壁 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 觉山寺 | Fymking | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%A7%89%E5%B1%B1%E5%AF%BA%E5%A1%94-1.jpg) |
 | 觉山寺 | Fymking | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%A7%89%E5%B1%B1%E5%AF%BA%E5%A1%94-2.jpg) |
 | 觉山寺 | Fymking | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%A7%89%E5%B1%B1%E5%AF%BA%E5%A1%94-3.jpg) |
-| 善化寺 | Black Dragon Society | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%9C%E7%B4%B0%E4%BA%9C%E5%A4%A7%E8%A6%B3_15_066_%22%E5%A4%A7%E5%90%8C%E5%96%84%E5%8C%96%E5%AF%BA_%EF%BC%88%E8%92%99%E7%96%86%EF%BC%89%22.jpg) |
-| 善化寺 | Black Dragon Society | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%9C%E7%B4%B0%E4%BA%9C%E5%A4%A7%E8%A6%B3_15_067_%22%E5%A4%A7%E5%90%8C%E5%96%84%E5%8C%96%E5%AF%BA%E7%AC%AC%E4%B8%80%E6%AE%BF_%EF%BC%88%E8%92%99%E7%96%86%EF%BC%89%22.jpg) |
-| 善化寺 | Black Dragon Society | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%9C%E7%B4%B0%E4%BA%9C%E5%A4%A7%E8%A6%B3_15_068_%22%E5%A4%A7%E5%90%8C%E5%96%84%E5%8C%96%E5%AF%BA%E7%AC%AC%E4%BA%8C%E6%AE%BF_%EF%BC%88%E8%92%99%E7%96%86%EF%BC%89%22.jpg) |
-| 守口堡 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E5%90%8C%E6%B8%85%E7%9C%9F%E5%A4%A7%E5%AF%BA_(54579120624).jpg) |
-| 汤头温泉 | 临万然 LWR | Pexels License | [pexels](https://www.pexels.com/photo/majestic-stone-buddha-at-yungang-grottoes-38098072/) |
-| 汤头温泉 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/facade-of-a-pagoda-6724172/) |
-| 汤头温泉 | Crudop MichaeLP | Pexels License | [pexels](https://www.pexels.com/photo/magnificent-ancient-buddhist-rock-sculptures-37340474/) |
-| 文瀛湖 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/facade-of-a-pagoda-6724172/) |
-| 文瀛湖 | Wang Qihang | Pexels License | [pexels](https://www.pexels.com/photo/ancient-chinese-temple-architecture-in-datong-33572690/) |
-| 文瀛湖 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/a-man-in-gray-long-sleeves-sitting-near-the-wooden-door-6724161/) |
+| 善化寺 | Zeus1234 | CC BY-SA 3.0 | [wikimedia](https://www.wikidata.org/wiki/Q548433) |
 | 悬空寺 | Charlie fong | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hangingtemple20190929.jpg) |
 | 悬空寺 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hunyuan_Xuankong_Si_2013.08.30_09-02-11.jpg) |
-| 悬空寺 | Romain Pontida | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:View_from_Xu%C3%A1nkong_temple,_near_Datong,_Shanxi,_China_-_%E6%82%AC%E7%A9%BA%E5%AF%BA%EF%BC%8C%E5%A4%A7%E5%90%8C%EF%BC%8C%E5%B1%B1%E8%A5%BF%EF%BC%8C%E4%B8%AD%E5%9B%BD_(10225734644).jpg) |
+| 悬空寺 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 悬空寺 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 悬空寺 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 悬空寺 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 云冈石窟 | Marcin Białek | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yungag_entrance_2010.JPG) |
 | 云冈石窟 | Marcin Białek | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yungang11_2010.JPG) |
-| 云冈石窟 | Anonymous. The postcard set was published in Keijo(Today Seo | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Yungang_Grottoes,_Cave_6.jpg) |
 | 黄糕 | Fumikas Sagisavas | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Pumpkin_yellow_heart_cake.jpg) |
-| 黄糕 | Alpha | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Thousand_Layer_Cake_at_Red_Pocket.jpg) |
-| 大同铜火锅 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/a-man-in-gray-long-sleeves-sitting-near-the-wooden-door-6724161/) |
-| 大同铜火锅 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 大同铜火锅 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
 | 羊杂割 | AddisWang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%BE%8A%E6%9D%82%E5%89%B2.JPG) |
 | 羊杂割 | AddisWang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%83%9D%E5%88%9A%E5%88%9A%E7%BE%8A%E6%9D%82%E5%89%B2.JPG) |
-| 东方削面 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/a-man-in-gray-long-sleeves-sitting-near-the-wooden-door-6724161/) |
-| 东方削面 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 东方削面 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
 | 凤临阁 | Mongol | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Fenglinge_datong.JPG) |
-| 广灵豆腐干 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 广灵豆腐干 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 广灵豆腐干 | Peter Xie | Pexels License | [pexels](https://www.pexels.com/photo/delicious-dumpling-soup-in-disposable-bowl-35157092/) |
-| 鼓楼夜市 | SmileYuki | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Street_merchants_in_Damemgshan,_Fuzhou_-1_20220109.jpg) |
 | 鼓楼夜市 | caoyuan | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%BC%93%E6%A5%BC%E5%A4%9C%E5%B8%82_-_panoramio.jpg) |
-| 鼓楼夜市 | caoyuan | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%BC%93%E6%A5%BC%E5%A4%9C%E5%B8%82_-_panoramio_(1).jpg) |
-| 恒山素斋 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/a-man-in-gray-long-sleeves-sitting-near-the-wooden-door-6724161/) |
-| 恒山素斋 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 恒山素斋 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 浑源凉粉 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 浑源凉粉 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 浑源凉粉 | Peter Xie | Pexels License | [pexels](https://www.pexels.com/photo/delicious-dumpling-soup-in-disposable-bowl-35157092/) |
-| 凯鸽酒楼 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/a-man-in-gray-long-sleeves-sitting-near-the-wooden-door-6724161/) |
-| 凯鸽酒楼 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 凯鸽酒楼 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 老柴削面 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 老柴削面 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 老柴削面 | Peter Xie | Pexels License | [pexels](https://www.pexels.com/photo/delicious-dumpling-soup-in-disposable-bowl-35157092/) |
-| 老爷庙风味 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/a-man-in-gray-long-sleeves-sitting-near-the-wooden-door-6724161/) |
-| 老爷庙风味 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 老爷庙风味 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 阳高杏脯 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 阳高杏脯 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 阳高杏脯 | Peter Xie | Pexels License | [pexels](https://www.pexels.com/photo/delicious-dumpling-soup-in-disposable-bowl-35157092/) |
-| 莜面栲栳栳 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/a-man-in-gray-long-sleeves-sitting-near-the-wooden-door-6724161/) |
-| 莜面栲栳栳 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 莜面栲栳栳 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 云冈农家饭 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/a-man-in-gray-long-sleeves-sitting-near-the-wooden-door-6724161/) |
-| 云冈农家饭 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 云冈农家饭 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
 | 古城墙夜景 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8F%A4%E5%9F%8E%E5%A2%99%E5%A4%9C%E6%99%AF_-_Night_Scene_of_the_Ancient_City_Wall_-_2015.12_-_panoramio.jpg) |
-| 代王府夜景 | Thijs Gardner | Pexels License | [pexels](https://www.pexels.com/photo/an-empty-concrete-bridge-5959217/) |
-| 代王府夜景 | BI ravencrow | Pexels License | [pexels](https://www.pexels.com/photo/urban-street-view-with-modern-skyscraper-38399475/) |
-| 代王府夜景 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/facade-of-a-pagoda-6724172/) |
-| 大同鼓楼 | xiquinhosilva | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Ancient_City_Wall_01.jpg) |
-| 大同鼓楼 | xiquinhosilva | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Ancient_City_Wall_03.jpg) |
-| 大同鼓楼 | xiquinhosilva | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Ancient_City_Wall_04.jpg) |
-| 恒山日出 | xiquinhosilva | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Ancient_City_Wall_01.jpg) |
-| 恒山日出 | xiquinhosilva | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Ancient_City_Wall_03.jpg) |
-| 恒山日出 | xiquinhosilva | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Ancient_City_Wall_04.jpg) |
-| 华严寺辽塑 | Thijs Gardner | Pexels License | [pexels](https://www.pexels.com/photo/an-empty-concrete-bridge-5959217/) |
-| 华严寺辽塑 | BI ravencrow | Pexels License | [pexels](https://www.pexels.com/photo/urban-street-view-with-modern-skyscraper-38399475/) |
-| 华严寺辽塑 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/facade-of-a-pagoda-6724172/) |
-| 火山群地貌 | Thijs Gardner | Pexels License | [pexels](https://www.pexels.com/photo/an-empty-concrete-bridge-5959217/) |
-| 火山群地貌 | BI ravencrow | Pexels License | [pexels](https://www.pexels.com/photo/urban-street-view-with-modern-skyscraper-38399475/) |
-| 火山群地貌 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/facade-of-a-pagoda-6724172/) |
-| 土林日落 | xiquinhosilva | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Ancient_City_Wall_01.jpg) |
-| 土林日落 | xiquinhosilva | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Ancient_City_Wall_03.jpg) |
-| 土林日落 | xiquinhosilva | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Ancient_City_Wall_04.jpg) |
-| 文瀛湖 | xiquinhosilva | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Ancient_City_Wall_01.jpg) |
-| 文瀛湖 | xiquinhosilva | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Ancient_City_Wall_03.jpg) |
-| 文瀛湖 | xiquinhosilva | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Ancient_City_Wall_04.jpg) |
-| 悬空寺全景 | Thijs Gardner | Pexels License | [pexels](https://www.pexels.com/photo/an-empty-concrete-bridge-5959217/) |
-| 悬空寺全景 | BI ravencrow | Pexels License | [pexels](https://www.pexels.com/photo/urban-street-view-with-modern-skyscraper-38399475/) |
-| 悬空寺全景 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/facade-of-a-pagoda-6724172/) |
-| 云冈大佛 | xiquinhosilva | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Ancient_City_Wall_01.jpg) |
-| 云冈大佛 | xiquinhosilva | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Ancient_City_Wall_03.jpg) |
-| 云冈大佛 | xiquinhosilva | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Datong_Ancient_City_Wall_04.jpg) |
-| 北路梆子 | Alexandra  Lavizzari | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-opera-performer-in-costume-36422762/) |
-| 北路梆子 | Long Bà Mùi | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-opera-performer-backstage-37397775/) |
-| 北路梆子 | Jimmy Chan | Pexels License | [pexels](https://www.pexels.com/photo/woman-in-orange-and-yellow-floral-long-sleeved-dress-1110203/) |
-| 鼓楼街 | 乾 黄 | Pexels License | [pexels](https://www.pexels.com/photo/28263427/) |
-| 鼓楼街 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/a-man-in-gray-long-sleeves-sitting-near-the-wooden-door-6724161/) |
-| 鼓楼街 | Matthew Jesús | Pexels License | [pexels](https://www.pexels.com/photo/historic-street-in-xiamen-fujian-china-29619332/) |
-| 恒山庙会 | Alexandra  Lavizzari | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-opera-performer-in-costume-36422762/) |
-| 恒山庙会 | Long Bà Mùi | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-opera-performer-backstage-37397775/) |
-| 恒山庙会 | Jimmy Chan | Pexels License | [pexels](https://www.pexels.com/photo/woman-in-orange-and-yellow-floral-long-sleeved-dress-1110203/) |
-| 华严寺街 | 乾 黄 | Pexels License | [pexels](https://www.pexels.com/photo/28263427/) |
-| 华严寺街 | Lan Yao | Pexels License | [pexels](https://www.pexels.com/photo/a-man-in-gray-long-sleeves-sitting-near-the-wooden-door-6724161/) |
-| 华严寺街 | Matthew Jesús | Pexels License | [pexels](https://www.pexels.com/photo/historic-street-in-xiamen-fujian-china-29619332/) |
-| 耍孩儿 | Alexandra  Lavizzari | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-opera-performer-in-costume-36422762/) |
-| 耍孩儿 | Long Bà Mùi | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-opera-performer-backstage-37397775/) |
-| 耍孩儿 | Jimmy Chan | Pexels License | [pexels](https://www.pexels.com/photo/woman-in-orange-and-yellow-floral-long-sleeved-dress-1110203/) |
-| 云冈民俗展演 | Alexandra  Lavizzari | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-opera-performer-in-costume-36422762/) |
-| 云冈民俗展演 | Long Bà Mùi | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-opera-performer-backstage-37397775/) |
-| 云冈民俗展演 | Jimmy Chan | Pexels License | [pexels](https://www.pexels.com/photo/woman-in-orange-and-yellow-floral-long-sleeved-dress-1110203/) |
+| 悬空寺全景 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 悬空寺全景 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 悬空寺全景 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 悬空寺全景 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 悬空寺全景 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 云冈大佛 | lienyuan lee | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 云冈大佛 | lienyuan lee | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 云冈大佛 | 牛糞 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 云冈大佛 | lienyuan lee | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 云冈大佛 | lienyuan lee | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 云冈大佛 | lienyuan lee | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 鼓楼街 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 鼓楼街 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 鼓楼街 | Bzsgod | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |

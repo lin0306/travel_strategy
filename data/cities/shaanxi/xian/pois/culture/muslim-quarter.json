@@ -40,21 +40,6 @@
   "tips": [],
   "images": [
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Grandfather_with_Grandson%2C_Chillin%27_out_%2811621985705%29.jpg/1280px-Grandfather_with_Grandson%2C_Chillin%27_out_%2811621985705%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Grandfather_with_Grandson%2C_Chillin%27_out_%2811621985705%29.jpg/1280px-Grandfather_with_Grandson%2C_Chillin%27_out_%2811621985705%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Grandfather with Grandson, Chillin' out (11621985705).jpg",
-      "query": "回民街",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Matt Ming from Beijing, China",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grandfather_with_Grandson,_Chillin%27_out_(11621985705).jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Kabob.jpg/1280px-Kabob.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Kabob.jpg/1280px-Kabob.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
@@ -113,9 +98,51 @@
         "license": "CC BY-SA 4.0",
         "attributionRequired": true
       }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Paifang_at_Beiyuanmen_20200429.jpg/1280px-Paifang_at_Beiyuanmen_20200429.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Paifang_at_Beiyuanmen_20200429.jpg/1280px-Paifang_at_Beiyuanmen_20200429.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Paifang at Beiyuanmen 20200429.jpg",
+      "query": "回民街（北院门）",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Windmemories",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Beiyuanmen_Snacks_Street%2C_Xi%27an%2C_Shaanxi%2C_China_-_panoramio_%287%29.jpg/1280px-Beiyuanmen_Snacks_Street%2C_Xi%27an%2C_Shaanxi%2C_China_-_panoramio_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Beiyuanmen_Snacks_Street%2C_Xi%27an%2C_Shaanxi%2C_China_-_panoramio_%287%29.jpg/1280px-Beiyuanmen_Snacks_Street%2C_Xi%27an%2C_Shaanxi%2C_China_-_panoramio_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Beiyuanmen Snacks Street, Xi'an, Shaanxi, China - panoramio (7).jpg",
+      "query": "回民街（北院门）",
+      "credit": {
+        "source": "wikimedia",
+        "author": "fading",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "street"
+      }
     }
   ],
-  "coverIndex": 0,
+  "coverIndex": 4,
   "tags": [
     "美食街",
     "清真",
@@ -131,7 +158,7 @@
       "fetchedAt": "2026-09-19"
     }
   ],
-  "updatedAt": "2026-10-29",
+  "updatedAt": "2026-11-05",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

@@ -41,48 +41,45 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/34338426/pexels-photo-34338426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34338426/pexels-photo-34338426.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8192,
-      "height": 5464,
-      "alt": "Warm and inviting rustic interior featuring floral decor and wooden furniture.",
-      "query": "cafe interior wuyuan",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/%E5%A9%BA%E6%BA%90%E6%98%A0%E5%83%8F%28Wuyuan%29-24_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/%E5%A9%BA%E6%BA%90%E6%98%A0%E5%83%8F%28Wuyuan%29-24_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 720,
+      "alt": "老街茶号所在的街区实景（非本店门面）",
+      "query": "老街茶号",
       "credit": {
-        "source": "pexels",
-        "author": "Andy Lee",
-        "sourceUrl": "https://www.pexels.com/photo/cozy-rustic-interior-with-floral-arrangement-34338426/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "fisher0528",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-01",
+        "tier": "street"
       }
     },
     {
-      "url": "https://images.pexels.com/photos/32401791/pexels-photo-32401791.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/32401791/pexels-photo-32401791.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8064,
-      "height": 6048,
-      "alt": "Aerial view of a modern cityscape in China with roads, buildings, and greenery.",
-      "query": "cafe interior wuyuan",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/%E5%A9%BA%E6%BA%90%E6%98%A0%E5%83%8F%28Wuyuan%29-22_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/%E5%A9%BA%E6%BA%90%E6%98%A0%E5%83%8F%28Wuyuan%29-22_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 720,
+      "alt": "老街茶号所在的街区实景（非本店门面）",
+      "query": "老街茶号",
       "credit": {
-        "source": "pexels",
-        "author": "jason hu",
-        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-modern-chinese-cityscape-32401791/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/34338427/pexels-photo-34338427.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34338427/pexels-photo-34338427.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8192,
-      "height": 5464,
-      "alt": "Warm and inviting rustic coffee shop interior with wooden furniture and soft lighting.",
-      "query": "cafe interior wuyuan",
-      "credit": {
-        "source": "pexels",
-        "author": "Andy Lee",
-        "sourceUrl": "https://www.pexels.com/photo/cozy-rustic-coffee-shop-interior-with-wooden-furniture-34338427/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "fisher0528",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-01",
+        "tier": "street"
       }
     }
   ],
@@ -101,7 +98,7 @@
       "fetchedAt": "2026-10-06"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-01",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

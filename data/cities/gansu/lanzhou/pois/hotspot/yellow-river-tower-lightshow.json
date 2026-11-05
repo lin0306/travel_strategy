@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/20438292/pexels-photo-20438292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/20438292/pexels-photo-20438292.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6720,
-      "height": 4480,
-      "alt": "Illuminated skyline of Hangzhou featuring modern architecture and vivid lights along the water.",
-      "query": "Yellow River Tower Light Show",
-      "credit": {
-        "source": "pexels",
-        "author": "molin liu",
-        "sourceUrl": "https://www.pexels.com/photo/illuminated-skyline-of-hangzhou-zhejiang-china-20438292/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38492551/pexels-photo-38492551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38492551/pexels-photo-38492551.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8021,
-      "height": 5347,
-      "alt": "Vibrant night scene of fireworks over a pagoda in Kaifeng, China, reflecting on the river.",
-      "query": "Yellow River Tower Light Show",
-      "credit": {
-        "source": "pexels",
-        "author": "Raymond Zhao",
-        "sourceUrl": "https://www.pexels.com/photo/spectacular-night-fireworks-over-kaifeng-pagoda-38492551/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36074973/pexels-photo-36074973.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36074973/pexels-photo-36074973.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3072,
-      "height": 4096,
-      "alt": "Vibrant night view of Canton Tower in Guangzhou, China with rainbow lights illuminating the structure.",
-      "query": "Yellow River Tower Light Show",
-      "credit": {
-        "source": "pexels",
-        "author": "CHINA YU",
-        "sourceUrl": "https://www.pexels.com/photo/colorful-night-view-of-canton-tower-36074973/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "灯光秀",
@@ -100,7 +54,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Yellow River Tower Light Show",
@@ -108,5 +62,6 @@
   },
   "_geocodeTitle": "黄河楼",
   "_geocodeSuspect": false,
-  "district": "620103"
+  "district": "620103",
+  "_noImage": true
 }

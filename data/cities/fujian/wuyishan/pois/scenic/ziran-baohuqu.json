@@ -43,23 +43,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/China_Jiangxi_location_map.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/China_Jiangxi_location_map.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1333,
-      "alt": "China Jiangxi location map.png",
-      "query": "武夷山国家级自然保护区 武夷山",
-      "credit": {
-        "source": "wikimedia",
-        "author": "千里走单骑",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:China_Jiangxi_location_map.png",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "保护区",
@@ -75,7 +59,7 @@
       "fetchedAt": "2026-10-06"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -83,5 +67,6 @@
   },
   "_geocodeTitle": "武夷山国家级自然保护区",
   "_geocodeSuspect": false,
-  "district": "350782"
+  "district": "350782",
+  "_noImage": true
 }

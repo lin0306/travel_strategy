@@ -1,6 +1,6 @@
 # 烟台 · 数据来源与图片版权
 
-> 生成于 2026-10-31 · 城市数据最后更新 2026-10-05
+> 生成于 2026-11-05 · 城市数据最后更新 2026-10-05
 
 ## 概览
 
@@ -74,157 +74,60 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Jimmy Liao | Pexels License | [pexels](https://www.pexels.com/photo/aerial-photography-of-city-buildings-during-nighttime-12857244/) |
-| 城市封面 | 强 王 | Pexels License | [pexels](https://www.pexels.com/photo/skyline-view-of-qingdao-cityscape-under-cloudy-skies-30143919/) |
-| 城市封面 | meitetsu chin | Pexels License | [pexels](https://www.pexels.com/photo/skyline-view-of-qingdao-with-tv-tower-29038201/) |
-| 八仙过海景区 | fan mo | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-changdao-national-nature-reserve-35218485/) |
-| 八仙过海景区 | YFS Visuals | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-temple-in-dalian-china-28490351/) |
-| 八仙过海景区 | VisuWan | Pexels License | [pexels](https://www.pexels.com/photo/houses-under-fluffy-white-clouds-14561858/) |
-| 北极星钟表文化博物馆 | Gül Işık | Pexels License | [pexels](https://www.pexels.com/photo/intricate-istanbul-museum-interior-display-35870231/) |
-| 北极星钟表文化博物馆 | Stijn Dijkstra | Pexels License | [pexels](https://www.pexels.com/photo/ceiling-with-bas-reliefs-and-chandelier-15074424/) |
-| 北极星钟表文化博物馆 | Liuuu _61 | Pexels License | [pexels](https://www.pexels.com/photo/elegant-japanese-room-with-geometric-ceiling-lights-35399266/) |
-| 长岛(庙岛群岛) | Ngguls | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20220902_Changdao_No.1_Experimental_School_01.jpg) |
-| 长岛(庙岛群岛) | Ngguls | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20220923_Changdao_No.1_Experimental_School_02.jpg) |
-| 长岛(庙岛群岛) | Ngguls | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20220923_Changdao_No.1_Experimental_School_03.jpg) |
-| 磁山 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:DF4B-9321%E5%9C%A8%E7%A3%81%E5%B1%B1%E7%AB%99_01.jpg) |
-| 磁山 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:DF4B-9321%E5%9C%A8%E7%A3%81%E5%B1%B1%E7%AB%99_02.jpg) |
-| 磁山 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:HXD3C-0896%E7%89%B5%E5%BC%956424%E8%BF%9B%E5%85%A5%E7%A3%81%E5%B1%B1%E7%AB%99_01.jpg) |
-| 莱州大基山 | fan mo | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-changdao-national-nature-reserve-35218485/) |
-| 莱州大基山 | Acres of Film | Pexels License | [pexels](https://www.pexels.com/photo/scenic-mountain-tunnel-road-in-zhejiang-china-39777355/) |
-| 莱州大基山 | oner st | Pexels License | [pexels](https://www.pexels.com/photo/scenic-coastal-view-with-cliffside-gazebo-35604839/) |
-| 东炮台海滨 | fan mo | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-changdao-national-nature-reserve-35218485/) |
-| 东炮台海滨 | YFS Visuals | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-temple-in-dalian-china-28490351/) |
-| 东炮台海滨 | VisuWan | Pexels License | [pexels](https://www.pexels.com/photo/houses-under-fluffy-white-clouds-14561858/) |
-| 烟台福建会馆(天后行宫) | fan mo | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-changdao-national-nature-reserve-35218485/) |
-| 烟台福建会馆(天后行宫) | YFS Visuals | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-temple-in-dalian-china-28490351/) |
-| 烟台福建会馆(天后行宫) | VisuWan | Pexels License | [pexels](https://www.pexels.com/photo/houses-under-fluffy-white-clouds-14561858/) |
-| 海阳万米海滩 | Jessica Sacco | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-pavilion-in-lush-spring-garden-37320643/) |
-| 海阳万米海滩 | Lily  Lili | Pexels License | [pexels](https://www.pexels.com/photo/serene-chinese-garden-with-red-lantern-31956319/) |
-| 海阳万米海滩 | Phoebe Buffay | Pexels License | [pexels](https://www.pexels.com/photo/elegant-traditional-asian-pavilion-in-serene-forest-37044011/) |
-| 黄海明珠 | Jessica Sacco | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-pavilion-in-lush-spring-garden-37320643/) |
-| 黄海明珠 | Lily  Lili | Pexels License | [pexels](https://www.pexels.com/photo/serene-chinese-garden-with-red-lantern-31956319/) |
-| 黄海明珠 | Phoebe Buffay | Pexels License | [pexels](https://www.pexels.com/photo/elegant-traditional-asian-pavilion-in-serene-forest-37044011/) |
-| 烟台海昌鲸鲨馆 | Gül Işık | Pexels License | [pexels](https://www.pexels.com/photo/intricate-istanbul-museum-interior-display-35870231/) |
-| 烟台海昌鲸鲨馆 | Stijn Dijkstra | Pexels License | [pexels](https://www.pexels.com/photo/ceiling-with-bas-reliefs-and-chandelier-15074424/) |
-| 烟台海昌鲸鲨馆 | Liuuu _61 | Pexels License | [pexels](https://www.pexels.com/photo/elegant-japanese-room-with-geometric-ceiling-lights-35399266/) |
-| 金沙滩 | Jessica Sacco | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-pavilion-in-lush-spring-garden-37320643/) |
-| 金沙滩 | Lily  Lili | Pexels License | [pexels](https://www.pexels.com/photo/serene-chinese-garden-with-red-lantern-31956319/) |
-| 金沙滩 | Phoebe Buffay | Pexels License | [pexels](https://www.pexels.com/photo/elegant-traditional-asian-pavilion-in-serene-forest-37044011/) |
-| 昆嵛山 | fan mo | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-changdao-national-nature-reserve-35218485/) |
-| 昆嵛山 | Acres of Film | Pexels License | [pexels](https://www.pexels.com/photo/scenic-mountain-tunnel-road-in-zhejiang-china-39777355/) |
-| 昆嵛山 | oner st | Pexels License | [pexels](https://www.pexels.com/photo/scenic-coastal-view-with-cliffside-gazebo-35604839/) |
+| 城市封面 | Andy Wang 1215 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:1860%E5%B9%B46%E6%9C%8812%E6%97%A5%E4%BB%8E%E7%83%9F%E5%8F%B0%E5%B1%B1%E4%BF%AF%E7%9E%B0%E7%83%9F%E5%8F%B0%E6%B5%B7%E6%B9%BE%E5%9B%BE%E7%94%BB.png) |
+| 城市封面 | 山东巡抚李元华转奏张荫桓有关烟台租界的奏文 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:1877%E5%B9%B4%E7%83%9F%E5%8F%B0%E7%A7%9F%E7%95%8C%E5%88%92%E7%95%8C%E5%A5%8F%E6%96%87.png) |
+| 城市封面 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%9F%E5%8F%B0%E5%B1%B1%E4%B8%8A%E8%A5%BF%E6%9C%9B%E7%83%9F%E5%8F%B0%E6%B8%AF.jpg) |
+| 八仙过海景区 | David290 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%93%AC%E8%8E%B1%E5%85%AB%E4%BB%99%E8%BF%87%E6%B5%B7%E6%99%AF%E5%8C%BAPANO0001.jpg) |
+| 八仙过海景区 | David290 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%93%AC%E8%8E%B1%E5%85%AB%E4%BB%99%E8%BF%87%E6%B5%B7%E6%99%AF%E5%8C%BA_PANO00011.jpg) |
+| 八仙过海景区 | David290 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%93%AC%E8%8E%B1%E5%85%AB%E4%BB%99%E8%BF%87%E6%B5%B7%E6%99%AF%E5%8C%BA_PANO0003.jpg) |
+| 八仙过海景区 | David290 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%93%AC%E8%8E%B1%E5%85%AB%E4%BB%99%E8%BF%87%E6%B5%B7%E6%99%AF%E5%8C%BA_PANO00031.jpg) |
+| 八仙过海景区 | Pauloleong2002 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Classic_tower_in_Penglai,_Yantai.jpg) |
+| 长岛(庙岛群岛) | Wikimedia Commons 贡献者 | CC BY-SA 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chagnshan_island.JPG) |
+| 长岛(庙岛群岛) | Wikimedia Commons 贡献者 | CC BY-SA 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Changdao_Harbor6806.JPG) |
+| 长岛(庙岛群岛) | 来斤小仓鼠吧 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Changshan_Islands_in_Shandong_Province,_China.jpeg) |
+| 长岛(庙岛群岛) | 来斤小仓鼠吧 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Changshan_Islands_in_Shandong_Province,_China_12_06_30_622000.jpeg) |
+| 烟台福建会馆(天后行宫) | K.Y.K.Z.K. | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Fujian_Guild_Hall,_Yantai.jpg) |
+| 金沙滩 | Ngguls | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%9F%E5%8F%B0%E9%87%91%E6%B2%99%E6%BB%A9%E5%A4%9C%E6%99%AF.jpg) |
+| 金沙滩 | Ngguls | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E9%A9%AC%E6%A0%88%E6%A1%A5%E2%80%94%E2%80%94%E9%87%91%E6%B2%99%E6%BB%A9%E9%99%84%E8%BF%91%E9%A3%8E%E5%85%89_01.jpg) |
+| 金沙滩 | Ngguls | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E9%A9%AC%E6%A0%88%E6%A1%A5%E2%80%94%E2%80%94%E9%87%91%E6%B2%99%E6%BB%A9%E9%99%84%E8%BF%91%E9%A3%8E%E5%85%89_02.jpg) |
+| 金沙滩 | Ngguls | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E9%A9%AC%E6%A0%88%E6%A1%A5%E5%92%8C%E9%99%84%E8%BF%91%E7%9A%84%E9%87%91%E6%B2%99%E6%BB%A9_(1).jpg) |
+| 金沙滩 | Ngguls | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E9%A9%AC%E6%A0%88%E6%A1%A5%E5%92%8C%E9%99%84%E8%BF%91%E7%9A%84%E9%87%91%E6%B2%99%E6%BB%A9_(12).jpg) |
+| 金沙滩 | Jinsin chen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yantai_Golden_Beach_Seaside_Park.jpg) |
+| 昆嵛山 | Xyli2005 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:KunYu_mountain.JPG) |
+| 昆嵛山 | [[User:Mguy379] | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Kunyu_Mountains,_China.jpg) |
 | 牟氏庄园 | Vitsuha | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%89%9F%E6%B0%8F%E8%8E%8A%E5%9C%92%E4%B9%8B%E4%B8%80.jpg) |
 | 龙口南山(南山大佛) | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%BE%99%E5%8F%A3_%E5%8D%97%E5%B1%B1%E5%A4%A7%E4%BD%9B.jpg) |
-| 欧乐堡梦幻世界 | Jessica Sacco | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-pavilion-in-lush-spring-garden-37320643/) |
-| 欧乐堡梦幻世界 | Lily  Lili | Pexels License | [pexels](https://www.pexels.com/photo/serene-chinese-garden-with-red-lantern-31956319/) |
-| 欧乐堡梦幻世界 | Phoebe Buffay | Pexels License | [pexels](https://www.pexels.com/photo/elegant-traditional-asian-pavilion-in-serene-forest-37044011/) |
-| 蓬莱阁 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%93%AC%E8%8E%B1_%E8%93%AC%E8%8E%B1%E9%98%81%E6%99%AF%E5%8C%BA.jpg) |
-| 蓬莱海洋极地世界 | Gül Işık | Pexels License | [pexels](https://www.pexels.com/photo/intricate-istanbul-museum-interior-display-35870231/) |
-| 蓬莱海洋极地世界 | Stijn Dijkstra | Pexels License | [pexels](https://www.pexels.com/photo/ceiling-with-bas-reliefs-and-chandelier-15074424/) |
-| 蓬莱海洋极地世界 | Liuuu _61 | Pexels License | [pexels](https://www.pexels.com/photo/elegant-japanese-room-with-geometric-ceiling-lights-35399266/) |
+| 龙口南山(南山大佛) | 邢美东 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%BE%99%E5%8F%A3%E5%B8%82%E5%8D%97%E5%B1%B1%E4%B8%BB%E9%A2%98%E5%85%AC%E5%9B%AD_-_panoramio.jpg) |
+| 龙口南山(南山大佛) | 邢美东 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%B1%B1%E5%9B%BD%E9%99%85%E9%AB%98%E5%B0%94%E5%A4%AB%E4%BF%B1%E4%B9%90%E9%83%A8-%E5%88%AB%E5%A2%85%E5%8C%BA_-_panoramio.jpg) |
+| 蓬莱阁 | Fanghong | CC BY-SA 3.0 | [wikimedia](https://www.wikidata.org/wiki/Q1937908) |
 | 三仙山 | Shuishouyue | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Statues_of_Doumu,_Penglai,_Sanxian_Mountain.jpg) |
 | 三仙山 | Shuishouyue | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Statues_of_Doumu,_Sanxian_Mountain.jpg) |
-| 三仙山 | Evan Yo | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%89%E4%BB%99%E5%B1%B1_(199098139).jpeg) |
-| 西炮台国防公园 | fan mo | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-changdao-national-nature-reserve-35218485/) |
-| 西炮台国防公园 | YFS Visuals | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-temple-in-dalian-china-28490351/) |
-| 西炮台国防公园 | VisuWan | Pexels License | [pexels](https://www.pexels.com/photo/houses-under-fluffy-white-clouds-14561858/) |
 | 养马岛 | China Q-H | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Untitled_-_panoramio_-_China_Q-H.jpg) |
-| 养马岛 | Wilfredor | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Homebred_goat.jpg) |
 | 烟台市博物馆 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%9F%E5%8F%B0%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86%E5%A4%A7%E6%A5%BC20240225_01.jpg) |
+| 烟台市博物馆 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%9F%E5%8F%B0%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86%E9%A6%86%E8%97%8F%E6%96%87%E7%89%A920240225_02.jpg) |
 | 烟台市博物馆 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%9F%E5%8F%B0%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86%E9%A6%86%E8%97%8F%E6%96%87%E7%89%A920240225_04.jpg) |
-| 烟台市博物馆 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%9F%E5%8F%B0%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86%E9%A6%86%E8%97%8F%E6%96%87%E7%89%A920240225_12.jpg) |
+| 烟台市博物馆 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%9F%E5%8F%B0%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86%E9%A6%86%E8%97%8F%E6%96%87%E7%89%A920240225_06.jpg) |
+| 烟台市博物馆 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%9F%E5%8F%B0%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86%E9%A6%86%E8%97%8F%E6%96%87%E7%89%A920240225_08.jpg) |
+| 烟台市博物馆 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%9F%E5%8F%B0%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86%E9%A6%86%E8%97%8F%E6%96%87%E7%89%A920240225_11.jpg) |
+| 烟台山 | mayanming | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%9F%E5%8F%B0%E5%B1%B1_%E5%86%B0%E5%BF%83%E7%BA%AA%E5%BF%B5%E9%A6%86_-_panoramio.jpg) |
 | 烟台山 | Ngguls | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%9F%E5%8F%B0%E5%B1%B1%E4%B9%90%E5%9B%A2.jpg) |
 | 烟台山 | Ngguls | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%9F%E5%8F%B0%E5%B1%B1%E5%85%AC%E5%9B%AD.jpg) |
+| 烟台山 | Ngguls | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%9F%E5%8F%B0%E5%B1%B1%E5%85%AC%E5%9B%AD4A%E7%BA%A7%E6%97%85%E6%B8%B8%E6%99%AF%E5%8C%BA.jpg) |
 | 烟台山 | Ngguls | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%9F%E5%8F%B0%E5%B1%B1%E5%85%AC%E5%9B%AD_02.jpg) |
-| 月亮湾 | fan mo | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-changdao-national-nature-reserve-35218485/) |
-| 月亮湾 | Acres of Film | Pexels License | [pexels](https://www.pexels.com/photo/scenic-mountain-tunnel-road-in-zhejiang-china-39777355/) |
-| 月亮湾 | oner st | Pexels License | [pexels](https://www.pexels.com/photo/scenic-coastal-view-with-cliffside-gazebo-35604839/) |
-| 云峰山(莱州) | Uuongkinghe | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%AD%A5%E4%BA%91%E5%BE%84_20240211_114547_edit_169723384622545.jpg) |
-| 云峰山(莱州) | Uuongkinghe | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%A1%BA%E5%B3%B0%E5%B1%B1%E5%85%AC%E5%9B%AD_20240211.jpg) |
-| 云峰山(莱州) | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%A1%BA%E5%B3%B0%E5%B1%B1%E5%85%AC%E5%9B%AD%E9%9D%92%E4%BA%91%E5%A1%94.jpg) |
-| 张裕酒文化博物馆 | Gül Işık | Pexels License | [pexels](https://www.pexels.com/photo/intricate-istanbul-museum-interior-display-35870231/) |
-| 张裕酒文化博物馆 | Stijn Dijkstra | Pexels License | [pexels](https://www.pexels.com/photo/ceiling-with-bas-reliefs-and-chandelier-15074424/) |
-| 张裕酒文化博物馆 | Liuuu _61 | Pexels License | [pexels](https://www.pexels.com/photo/elegant-japanese-room-with-geometric-ceiling-lights-35399266/) |
-| 招远黄金博物馆 | Gül Işık | Pexels License | [pexels](https://www.pexels.com/photo/intricate-istanbul-museum-interior-display-35870231/) |
-| 招远黄金博物馆 | Stijn Dijkstra | Pexels License | [pexels](https://www.pexels.com/photo/ceiling-with-bas-reliefs-and-chandelier-15074424/) |
-| 招远黄金博物馆 | Liuuu _61 | Pexels License | [pexels](https://www.pexels.com/photo/elegant-japanese-room-with-geometric-ceiling-lights-35399266/) |
-| 鲅鱼水饺 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/interior-of-vintage-dining-car-with-decor-35635436/) |
-| 鲅鱼水饺 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 鲅鱼水饺 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 长岛海珍 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/interior-of-vintage-dining-car-with-decor-35635436/) |
-| 长岛海珍 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 长岛海珍 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 福山拉面 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/interior-of-vintage-dining-car-with-decor-35635436/) |
-| 福山拉面 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 福山拉面 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
+| 烟台山 | Ngguls | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%9F%E5%8F%B0%E5%B1%B1%E5%85%AC%E5%9B%AD_03.jpg) |
 | 海肠(海肠捞饭) | Suginami | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%9C%E5%B8%82%E4%B8%8A%E7%9A%84%E6%B5%B7%E8%82%A0%E6%8D%9E%E9%A5%AD.jpg) |
 | 海肠(海肠捞饭) | Suginami | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E8%82%A0%E6%8D%9E%E9%A5%AD_Haichang_Laofan.jpg) |
-| 海肠(海肠捞饭) | Sato et al. (2023) | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Arctonoella_sinagawaensis_(10.12782-specdiv.28.147)_Figure_2.png) |
-| 海阳摔面 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/interior-of-vintage-dining-car-with-decor-35635436/) |
-| 海阳摔面 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 海阳摔面 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 黄县肉盒 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 黄县肉盒 | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/) |
-| 黄县肉盒 | Leongsan Tung | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-street-food-preparation-38585908/) |
-| 莱阳梨 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/interior-of-vintage-dining-car-with-decor-35635436/) |
-| 莱阳梨 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 莱阳梨 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 蓬莱卤驴肉 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/interior-of-vintage-dining-car-with-decor-35635436/) |
-| 蓬莱卤驴肉 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 蓬莱卤驴肉 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 蓬莱小面 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/interior-of-vintage-dining-car-with-decor-35635436/) |
-| 蓬莱小面 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 蓬莱小面 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 烟台苹果 | Walter Grassroot | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B1%B1%E4%B8%9C%E7%83%9F%E5%8F%B0%E5%AF%8C%E5%A3%AB%E8%8B%B9%E6%9E%9C.jpg) |
+| 海肠(海肠捞饭) | J. Patrick Fischer | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Echiura_in_Korea1.jpg) |
+| 海肠(海肠捞饭) | ProjectManhattan | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gaebul.jpg) |
+| 海肠(海肠捞饭) | J. Patrick Fischer | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Seegurken_in_Korea2.JPG) |
 | 烟台苹果 | Walter Grassroot | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B1%B1%E4%B8%9C%E7%83%9F%E5%8F%B0%E5%AF%8C%E5%A3%AB%E8%8B%B9%E6%9E%9C_2020.jpg) |
-| 烟台大樱桃 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/interior-of-vintage-dining-car-with-decor-35635436/) |
-| 烟台大樱桃 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 烟台大樱桃 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 烟台海参 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/interior-of-vintage-dining-car-with-decor-35635436/) |
-| 烟台海参 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 烟台海参 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 烟台海鲜大排档 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/interior-of-vintage-dining-car-with-decor-35635436/) |
-| 烟台海鲜大排档 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 烟台海鲜大排档 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 烟台焖子 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 烟台焖子 | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/) |
-| 烟台焖子 | Leongsan Tung | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-street-food-preparation-38585908/) |
+| 烟台大樱桃 | Jinsin chen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Cherries_in_Yantai,_China.jpg) |
 | 张裕葡萄酒 | K.Y.K.Z.K. | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Changyu_company.jpg) |
 | 张裕葡萄酒 | Canuckpilot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chateau-Changyu.jpg) |
-| 张裕葡萄酒 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Liquan_Palace,_AFIP_Town_(20150726114609).jpg) |
-| 滨海路骑行 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-yantai-s-european-architecture-35635447/) |
-| 滨海路骑行 | Henley Wang | Pexels License | [pexels](https://www.pexels.com/photo/street-in-seaside-at-sunset-17563636/) |
-| 滨海路骑行 | Andy Lee | Pexels License | [pexels](https://www.pexels.com/photo/busy-urban-traffic-in-modern-chinese-city-34099292/) |
-| 朝阳街 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-yantai-s-european-architecture-35635447/) |
-| 朝阳街 | Sri  Bala | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-street-art-on-chennai-buildings-39659646/) |
-| 朝阳街 | Shuaizhi Tian | Pexels License | [pexels](https://www.pexels.com/photo/futuristic-mural-on-industrial-building-27001558/) |
-| 金沙滩日落(天马栈桥) | Aaron Zhu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%9F%E5%8F%B0%E5%B8%82%E5%8C%BA%E8%BF%9C%E7%9C%BA,_Yantai_City_Bird_View,_Yantai,_China_-_panoramio.jpg) |
-| 蓬莱阁夜景 | Aaron Zhu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%9F%E5%8F%B0%E5%B8%82%E5%8C%BA%E8%BF%9C%E7%9C%BA,_Yantai_City_Bird_View,_Yantai,_China_-_panoramio.jpg) |
-| 所城里 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-yantai-s-european-architecture-35635447/) |
-| 所城里 | Sri  Bala | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-street-art-on-chennai-buildings-39659646/) |
-| 所城里 | Shuaizhi Tian | Pexels License | [pexels](https://www.pexels.com/photo/futuristic-mural-on-industrial-building-27001558/) |
-| 葡萄酒庄打卡 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-yantai-s-european-architecture-35635447/) |
-| 葡萄酒庄打卡 | Henley Wang | Pexels License | [pexels](https://www.pexels.com/photo/street-in-seaside-at-sunset-17563636/) |
-| 葡萄酒庄打卡 | Andy Lee | Pexels License | [pexels](https://www.pexels.com/photo/busy-urban-traffic-in-modern-chinese-city-34099292/) |
-| 养马岛环岛路 | Aaron Zhu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%9F%E5%8F%B0%E5%B8%82%E5%8C%BA%E8%BF%9C%E7%9C%BA,_Yantai_City_Bird_View,_Yantai,_China_-_panoramio.jpg) |
-| 烟台山灯塔夜景 | Aaron Zhu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%9F%E5%8F%B0%E5%B8%82%E5%8C%BA%E8%BF%9C%E7%9C%BA,_Yantai_City_Bird_View,_Yantai,_China_-_panoramio.jpg) |
-| 月亮湾日出 | Aaron Zhu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%9F%E5%8F%B0%E5%B8%82%E5%8C%BA%E8%BF%9C%E7%9C%BA,_Yantai_City_Bird_View,_Yantai,_China_-_panoramio.jpg) |
 | 渔人码头(莱山) | 宋迎利 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%9F%E5%8F%B0%E6%B8%94%E4%BA%BA%E7%A0%81%E5%A4%B4_-_panoramio.jpg) |
-| 福山鲁菜文化 | Leia-Yalu Feng | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-street-in-yantai-with-colorful-banners-38279762/) |
-| 福山鲁菜文化 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-yantai-s-european-architecture-35635447/) |
-| 福山鲁菜文化 | Tito Zzzz | Pexels License | [pexels](https://www.pexels.com/photo/red-lantern-hanging-along-alley-20256134/) |
-| 长岛渔家文化 | Leia-Yalu Feng | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-street-in-yantai-with-colorful-banners-38279762/) |
-| 长岛渔家文化 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-yantai-s-european-architecture-35635447/) |
-| 长岛渔家文化 | Tito Zzzz | Pexels License | [pexels](https://www.pexels.com/photo/red-lantern-hanging-along-alley-20256134/) |
-| 蓬莱仙境与海市蜃楼 | Alexandra  Lavizzari | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-opera-performer-in-costume-36422762/) |
-| 蓬莱仙境与海市蜃楼 | 李奇 | Pexels License | [pexels](https://www.pexels.com/photo/woman-in-blue-beijing-opera-costume-11413712/) |
-| 蓬莱仙境与海市蜃楼 | 开 心 | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-sichuan-opera-fire-act-performance-32276866/) |
-| 烟台开埠文化 | Leia-Yalu Feng | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-street-in-yantai-with-colorful-banners-38279762/) |
-| 烟台开埠文化 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-yantai-s-european-architecture-35635447/) |
-| 烟台开埠文化 | Tito Zzzz | Pexels License | [pexels](https://www.pexels.com/photo/red-lantern-hanging-along-alley-20256134/) |
-| 烟台苹果文化 | Leia-Yalu Feng | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-street-in-yantai-with-colorful-banners-38279762/) |
-| 烟台苹果文化 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-yantai-s-european-architecture-35635447/) |
-| 烟台苹果文化 | Tito Zzzz | Pexels License | [pexels](https://www.pexels.com/photo/red-lantern-hanging-along-alley-20256134/) |
-| 烟台葡萄酒文化 | Leia-Yalu Feng | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-street-in-yantai-with-colorful-banners-38279762/) |
-| 烟台葡萄酒文化 | Kenny Foo | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-yantai-s-european-architecture-35635447/) |
-| 烟台葡萄酒文化 | Tito Zzzz | Pexels License | [pexels](https://www.pexels.com/photo/red-lantern-hanging-along-alley-20256134/) |
+| 烟台开埠文化 | Ngguls | CC0 | [wikimedia](https://commons.wikimedia.org/) |
+| 烟台开埠文化 | Ngguls | CC0 | [wikimedia](https://commons.wikimedia.org/) |
+| 烟台开埠文化 | 宋迎利 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 烟台开埠文化 | 宋迎利 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 烟台开埠文化 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 烟台开埠文化 | Ngguls | CC0 | [wikimedia](https://commons.wikimedia.org/) |

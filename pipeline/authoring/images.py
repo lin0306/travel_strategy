@@ -38,6 +38,7 @@ from typing import Any
 from pipeline.authoring.image_filter import verdict_for
 from pipeline.core.env import is_placeholder, load_env
 from pipeline.core.fetch import build_url, get_bytes, get_json
+from pipeline.core.layout import REPO
 
 UNSPLASH_SEARCH = "https://api.unsplash.com/search/photos"
 PEXELS_SEARCH = "https://api.pexels.com/v1/search"
@@ -327,6 +328,39 @@ def _image_item(
     return item
 
 
+#: ★★ 看图审查判过 `reject` 的 URL（`tools/review_images.py` 写的 `verdicts-cache.jsonl`）。
+#:
+#:    **采集侧必须读它**。不读的话，看图判死的图下一轮 `--force` 重抓会**原样回来** ——
+#:    白审一轮，而且审查结果在两个模块之间断了线（缓存写了没人消费）。
+#:    `verdict_for` 只能拦"说得明白的错"（地铁站/飞机/招牌），拦不住"标题对、画面是别处"，
+#:    那一类只有看图能判，判完必须记住。
+#:
+#:    懒加载：import 本模块时不读盘，第一次取图才读（`images` 会被 `check_app` 静态导入）。
+_REJECTED: set[str] | None = None
+
+
+def rejected_urls() -> set[str]:
+    """看图判过 reject 的 URL（去 query 后的裸地址，便于与候选比对）。"""
+    global _REJECTED
+    if _REJECTED is not None:
+        return _REJECTED
+    _REJECTED = set()
+    cache = REPO / "_tmp" / "review" / "verdicts-cache.jsonl"
+    if not cache.exists():
+        return _REJECTED
+    for line in cache.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            row = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if row.get("verdict") == "reject" and row.get("url"):
+            _REJECTED.add(str(row["url"]).split("?", 1)[0])
+    return _REJECTED
+
+
 def pick_images(
     poi: dict, *, max_keep: int = 6, city: str = "", exclude_urls: frozenset[str] = frozenset(),
 ) -> list[dict]:
@@ -402,9 +436,12 @@ def pick_images(
             candidates += search(en_query)
 
     # ③ 相关性过滤 + 排序（★ 入库前这道关卡）
+    bad_urls = rejected_urls()                        # 看图判过 reject 的，别再收
     scored: list[tuple[int, int, dict]] = []          # (score, 原始顺序, 图)
     suspects: list[tuple[int, int, dict]] = []        # 元数据无正面信号 → 排后面，不当封面
     for order, img in enumerate(candidates):
+        if str(img.get("url") or "").split("?", 1)[0] in bad_urls:
+            continue                                   # 看图判死的，重抓也不许回来
         verdict, _reason, score = verdict_for(img, poi, city=city)
         if verdict == "reject":
             continue                                   # 明确错的，不许入库
@@ -424,6 +461,31 @@ def pick_images(
         picked.append(img)
         if len(picked) >= max_keep:
             break
+
+    # ④ 实体对齐兜底（2026-10-31，见 `entity_images.py`）
+    #    关键词检索在本土小类点位上已经挖干：全库 2859 个无图点位**全部**是"跑过、
+    #    图源确实没有"（都带 `_noImage`），不是漏跑。剩余空间只有「名称搜不到」与
+    #    「搜到的都是别的东西」两类 —— 有 Wikidata 条目的点位能用 P18 / 条目主图 /
+    #    Commons 分类拿到**该对象自己**的照片。
+    #    ★ 只在 ≤1 张时触发：有图的点位不为此多打 2-3 个外部请求。
+    #    ★ 仍走同一道 `verdict_for`（地铁站/路牌/坐标外一律拒），且是**精确图**不是垫图。
+    if len(picked) <= 1:
+        from pipeline.authoring.entity_images import entity_images   # 延迟导入防循环
+
+        for img in entity_images(name, limit=max_keep):
+            url = img.get("url")
+            if not url or url in seen:
+                continue
+            if str(url).split("?", 1)[0] in bad_urls:
+                continue                               # 看图判死的，实体通道也不许捡回来
+            verdict, _r, _s = verdict_for(img, poi, city=city)
+            if verdict == "reject":
+                continue
+            img.pop("_filterMeta", None)
+            seen.add(url)
+            picked.append(img)
+            if len(picked) >= max_keep:
+                break
     return picked
 
 

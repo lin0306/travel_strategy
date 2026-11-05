@@ -40,53 +40,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/39025876/pexels-photo-39025876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39025876/pexels-photo-39025876.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 3024,
-      "alt": "Busy street in Zhangjiajie, China with people and shops, framed by mountains under a clear sky.",
-      "query": "Xibu Street Zhangjiajie",
-      "credit": {
-        "source": "pexels",
-        "author": "Guillaume Kremer",
-        "sourceUrl": "https://www.pexels.com/photo/bustling-street-scene-in-zhangjiajie-china-39025876/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/4621012/pexels-photo-4621012.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/4621012/pexels-photo-4621012.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2592,
-      "height": 3888,
-      "alt": "A vibrant street view in Zhangjiajie, China, showcasing local life and architecture.",
-      "query": "Xibu Street Zhangjiajie",
-      "credit": {
-        "source": "pexels",
-        "author": "Van Trang Ho",
-        "sourceUrl": "https://www.pexels.com/photo/people-walking-on-street-4621012/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39014236/pexels-photo-39014236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39014236/pexels-photo-39014236.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8064,
-      "height": 6048,
-      "alt": "A stunning view of the Zhangjiajie National Forest Park's iconic karst mountains in Hunan, China.",
-      "query": "Xibu Street Zhangjiajie",
-      "credit": {
-        "source": "pexels",
-        "author": "Guillaume Kremer",
-        "sourceUrl": "https://www.pexels.com/photo/majestic-peaks-of-zhangjiajie-s-karst-mountains-39014236/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "文化街",
@@ -102,7 +56,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Xibu Street Zhangjiajie",
@@ -110,5 +64,6 @@
   },
   "_geocodeTitle": "溪布街",
   "_geocodeSuspect": false,
-  "district": "430811"
+  "district": "430811",
+  "_noImage": true
 }

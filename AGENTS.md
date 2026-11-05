@@ -62,6 +62,11 @@ E:/BASIC/python/python.exe tools/review_images.py next --count 2      # 下一�
 E:/BASIC/python/python.exe tools/review_images.py sheet <city> --covers --refresh
 E:/BASIC/python/python.exe tools/review_images.py apply <city> --dry  # 先演练
 
+# ── 存量图清洗（详见 docs/automation-image-review.md 第 12 节）──
+E:/BASIC/python/python.exe tools/clean_images.py scan                 # 全库只读报告
+E:/BASIC/python/python.exe tools/clean_images.py apply --rules stock,reject --dry
+E:/BASIC/python/python.exe tools/clean_images.py apply --rules stock,reject
+
 # ── 前端 ──
 cd web && pnpm dev        # 5173
 cd web && pnpm build      # 产出 web/dist

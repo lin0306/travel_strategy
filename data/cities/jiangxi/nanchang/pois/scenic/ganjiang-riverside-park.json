@@ -45,53 +45,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/28571683/pexels-photo-28571683.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/28571683/pexels-photo-28571683.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5464,
-      "height": 3640,
-      "alt": "Aerial cityscape of high-rise buildings, river, and lush greenery under a cloudy sky.",
-      "query": "Ganjiang Riverside Park Nanchang",
-      "credit": {
-        "source": "pexels",
-        "author": "jason hu",
-        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-urban-landscape-with-river-and-skyscrapers-28571683/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/28571685/pexels-photo-28571685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/28571685/pexels-photo-28571685.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5464,
-      "height": 3640,
-      "alt": "Panoramic aerial view of a cityscape next to a river in China.",
-      "query": "Ganjiang Riverside Park Nanchang",
-      "credit": {
-        "source": "pexels",
-        "author": "jason hu",
-        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-urban-skyline-and-river-in-china-28571685/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/17539441/pexels-photo-17539441.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/17539441/pexels-photo-17539441.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3648,
-      "height": 2736,
-      "alt": "Panoramic view of Nanchang's skyline across the harbor with modern skyscrapers and river.",
-      "query": "Ganjiang Riverside Park Nanchang",
-      "credit": {
-        "source": "pexels",
-        "author": "逸 林",
-        "sourceUrl": "https://www.pexels.com/photo/panorama-of-nanchang-skyline-and-river-china-17539441/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "赣江",
@@ -107,7 +61,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Ganjiang Riverside Park Nanchang",
@@ -115,5 +69,6 @@
   },
   "_geocodeTitle": "赣江市民公园",
   "_geocodeSuspect": false,
-  "district": "360113"
+  "district": "360113",
+  "_noImage": true
 }

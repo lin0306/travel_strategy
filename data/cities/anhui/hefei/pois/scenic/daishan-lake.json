@@ -44,53 +44,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/37098794/pexels-photo-37098794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37098794/pexels-photo-37098794.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4073,
-      "height": 3054,
-      "alt": "Idyllic lake scene with urban skyline and traditional pavilion, reflecting tranquility.",
-      "query": "Daishan Lake Hefei",
-      "credit": {
-        "source": "pexels",
-        "author": "Alberto Brunello",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-lake-with-skyline-and-pavilion-37098794/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39795323/pexels-photo-39795323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39795323/pexels-photo-39795323.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 6000,
-      "alt": "A woman walks through a forest path beside a serene lake in Hefei, China.",
-      "query": "Daishan Lake Hefei",
-      "credit": {
-        "source": "pexels",
-        "author": "董 小姐",
-        "sourceUrl": "https://www.pexels.com/photo/woman-walking-among-trees-by-lakeside-in-hefei-39795323/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/15737902/pexels-photo-15737902.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/15737902/pexels-photo-15737902.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5379,
-      "height": 3586,
-      "alt": "Cityscape of Hefei showcasing modern architecture and a tranquil pond reflection.",
-      "query": "Daishan Lake Hefei",
-      "credit": {
-        "source": "pexels",
-        "author": "fei wang",
-        "sourceUrl": "https://www.pexels.com/photo/pond-and-trees-in-baohe-in-hefei-15737902/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "湖泊",
@@ -106,7 +60,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Daishan Lake Hefei",
@@ -114,5 +68,6 @@
   },
   "_geocodeTitle": "岱山湖旅游度假区",
   "_geocodeSuspect": false,
-  "district": "340122"
+  "district": "340122",
+  "_noImage": true
 }

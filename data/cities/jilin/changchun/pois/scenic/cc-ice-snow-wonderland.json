@@ -44,83 +44,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/6383199/pexels-photo-6383199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/6383199/pexels-photo-6383199.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Serene winter landscape with snow-covered trees and a bridge, capturing the beauty of nature.",
-      "query": "Changchun Ice and Snow Wonderland",
-      "credit": {
-        "source": "pexels",
-        "author": "Anastasia Lashkevich",
-        "sourceUrl": "https://www.pexels.com/photo/snow-covered-trees-during-winter-6383199/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/749166/pexels-photo-749166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/749166/pexels-photo-749166.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5760,
-      "height": 3840,
-      "alt": "A tranquil winter scene of a snow-covered bridge and lampposts in a park, ideal for seasonal or travel themes.",
-      "query": "Changchun Ice and Snow Wonderland",
-      "credit": {
-        "source": "pexels",
-        "author": "Adriaan Greyling",
-        "sourceUrl": "https://www.pexels.com/photo/photo-of-bridge-with-white-snow-749166/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/14907255/pexels-photo-14907255.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/14907255/pexels-photo-14907255.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2448,
-      "height": 3696,
-      "alt": "A serene winter scene with frosty birch trees against a clear blue sky.",
-      "query": "Changchun Ice and Snow Wonderland",
-      "credit": {
-        "source": "pexels",
-        "author": "Sergei Fomichev",
-        "sourceUrl": "https://www.pexels.com/photo/photo-of-birch-trees-on-a-sunny-winter-day-14907255/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/16665469/pexels-photo-16665469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/16665469/pexels-photo-16665469.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4459,
-      "height": 6726,
-      "alt": "Close-up of a snow-covered pine branch in a serene winter forest.",
-      "query": "Changchun Ice and Snow Wonderland",
-      "credit": {
-        "source": "pexels",
-        "author": "1ndex",
-        "sourceUrl": "https://www.pexels.com/photo/close-up-of-tree-branches-covered-by-snow-in-a-winter-garden-16665469/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/35836681/pexels-photo-35836681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35836681/pexels-photo-35836681.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4284,
-      "height": 5712,
-      "alt": "A tranquil winter scene of a snowy landscape under a clear blue sky.",
-      "query": "Changchun Ice and Snow Wonderland",
-      "credit": {
-        "source": "pexels",
-        "author": "Анна Пигулевская",
-        "sourceUrl": "https://www.pexels.com/photo/snowy-landscape-with-blue-sky-in-winter-35836681/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "冰雪",
@@ -136,7 +60,7 @@
       "fetchedAt": "2026-10-03"
     }
   ],
-  "updatedAt": "2026-10-30",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Changchun Ice and Snow Wonderland",
@@ -144,5 +68,6 @@
   },
   "_geocodeTitle": "长春冰雪新天地",
   "_geocodeSuspect": false,
-  "district": "220105"
+  "district": "220105",
+  "_noImage": true
 }

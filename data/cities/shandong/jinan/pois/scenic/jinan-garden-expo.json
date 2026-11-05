@@ -44,53 +44,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/11110532/pexels-photo-11110532.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/11110532/pexels-photo-11110532.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2304,
-      "height": 3456,
-      "alt": "A traditional Chinese pavilion surrounded by snow and bare trees during winter.",
-      "query": "Jinan International Garden Expo Park",
-      "credit": {
-        "source": "pexels",
-        "author": "Lan Yao",
-        "sourceUrl": "https://www.pexels.com/photo/a-pavilion-during-winter-11110532/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/8199422/pexels-photo-8199422.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/8199422/pexels-photo-8199422.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 5222,
-      "alt": "Scenic view of the observation tower at Antalya Expo Center with palm trees and blue sky.",
-      "query": "Jinan International Garden Expo Park",
-      "credit": {
-        "source": "pexels",
-        "author": "A. Aitar",
-        "sourceUrl": "https://www.pexels.com/photo/antalya-obeservation-tower-under-blue-sky-8199422/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/4577685/pexels-photo-4577685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/4577685/pexels-photo-4577685.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2592,
-      "height": 1728,
-      "alt": "Anonymous travelers on stones on river water near Asian arbor between lush trees in city garden",
-      "query": "Jinan International Garden Expo Park",
-      "credit": {
-        "source": "pexels",
-        "author": "Rachel Claire",
-        "sourceUrl": "https://www.pexels.com/photo/unrecognizable-tourists-on-embankment-near-river-and-pavilion-in-park-4577685/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "园林",
@@ -106,7 +60,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Jinan International Garden Expo Park",
@@ -114,5 +68,6 @@
   },
   "_geocodeTitle": "济南国际园博园",
   "_geocodeSuspect": false,
-  "district": "370113"
+  "district": "370113",
+  "_noImage": true
 }

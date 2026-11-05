@@ -47,48 +47,45 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/14988166/pexels-photo-14988166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/14988166/pexels-photo-14988166.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6595,
-      "height": 4401,
-      "alt": "A beautifully lit fountain and bridge scene captured at night in a park.",
-      "query": "Qiushui Square Musical Fountain Nanchang",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Qiushui_Square.jpg/1280px-Qiushui_Square.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Qiushui_Square.jpg/1280px-Qiushui_Square.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Qiushui Square.jpg",
+      "query": "秋水广场",
       "credit": {
-        "source": "pexels",
-        "author": "Павел  Хлыстунов",
-        "sourceUrl": "https://www.pexels.com/photo/illuminated-square-in-a-park-at-dusk-14988166/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "钉钉",
+        "sourceUrl": "https://zh.wikipedia.org/wiki/秋水广场",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "exact"
       }
     },
     {
-      "url": "https://images.pexels.com/photos/5690251/pexels-photo-5690251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/5690251/pexels-photo-5690251.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4021,
-      "height": 2546,
-      "alt": "Stunning view of Nanchang's skyline with a lit Ferris wheel and bridge at night.",
-      "query": "Qiushui Square Musical Fountain Nanchang",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Qiushui_Square_20141001_184551.jpg/1280px-Qiushui_Square_20141001_184551.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Qiushui_Square_20141001_184551.jpg/1280px-Qiushui_Square_20141001_184551.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Qiushui Square 20141001 184551.jpg",
+      "query": "秋水广场",
       "credit": {
-        "source": "pexels",
-        "author": "lee starry",
-        "sourceUrl": "https://www.pexels.com/photo/lighted-ferris-wheel-at-night-5690251/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/34932359/pexels-photo-34932359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34932359/pexels-photo-34932359.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3368,
-      "height": 6000,
-      "alt": "Golden hour view of two skyscrapers by a city waterfront reflecting in calm waters.",
-      "query": "Qiushui Square Musical Fountain Nanchang",
-      "credit": {
-        "source": "pexels",
-        "author": "Madzery Ma",
-        "sourceUrl": "https://www.pexels.com/photo/skyline-with-skyscrapers-and-waterfront-view-34932359/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "Qa003qa003",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "street"
       }
     }
   ],
@@ -107,7 +104,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-02",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Qiushui Square Musical Fountain Nanchang",

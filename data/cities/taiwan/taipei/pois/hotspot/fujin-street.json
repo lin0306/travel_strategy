@@ -40,53 +40,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/20008780/pexels-photo-20008780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/20008780/pexels-photo-20008780.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2999,
-      "height": 3999,
-      "alt": "Explore the serene atmosphere of a vibrant alleyway in Taipei, Taiwan's urban landscape.",
-      "query": "Fujin Street Taipei cafe",
-      "credit": {
-        "source": "pexels",
-        "author": "Markus Winkler",
-        "sourceUrl": "https://www.pexels.com/photo/a-street-with-a-painted-white-line-and-a-crosswalk-20008780/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/28847816/pexels-photo-28847816.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/28847816/pexels-photo-28847816.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6774,
-      "height": 4492,
-      "alt": "Vibrant Taipei street scene featuring motorcycles, shops, and bustling city life.",
-      "query": "Fujin Street Taipei cafe",
-      "credit": {
-        "source": "pexels",
-        "author": "Inna YN",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-taipei-street-with-motorcycles-and-shops-28847816/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/17286486/pexels-photo-17286486.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/17286486/pexels-photo-17286486.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 7952,
-      "height": 5304,
-      "alt": "Explore the vibrant urban life of Taipei with bustling streets, shops, and modern architecture.",
-      "query": "Fujin Street Taipei cafe",
-      "credit": {
-        "source": "pexels",
-        "author": "Jimmy Liao",
-        "sourceUrl": "https://www.pexels.com/photo/view-of-the-street-and-buildings-in-downtown-taipei-taiwan-17286486/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "街区",
@@ -102,7 +56,7 @@
       "fetchedAt": "2026-10-03"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Fujin Street Taipei cafe",
@@ -110,5 +64,6 @@
   },
   "_geocodeTitle": "富锦街",
   "_geocodeSuspect": false,
-  "district": "711001"
+  "district": "711001",
+  "_noImage": true
 }

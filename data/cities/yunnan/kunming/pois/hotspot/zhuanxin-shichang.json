@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/39696929/pexels-photo-39696929.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39696929/pexels-photo-39696929.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3512,
-      "height": 6240,
-      "alt": "Urban street scene in Kunming features a parked scooter and high-rise building in the distance.",
-      "query": "Zhuanxin Market Kunming",
-      "credit": {
-        "source": "pexels",
-        "author": "River He",
-        "sourceUrl": "https://www.pexels.com/photo/street-view-with-scooter-and-high-rise-in-kunming-39696929/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/14095351/pexels-photo-14095351.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/14095351/pexels-photo-14095351.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Traditional Chinese archway against Kunming city backdrop, attracting tourists.",
-      "query": "Zhuanxin Market Kunming",
-      "credit": {
-        "source": "pexels",
-        "author": "周赛 王",
-        "sourceUrl": "https://www.pexels.com/photo/arches-in-kunming-china-14095351/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39540153/pexels-photo-39540153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39540153/pexels-photo-39540153.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8192,
-      "height": 5464,
-      "alt": "A serene view of a traditional Asian pavilion on a pier over calm waters with mountains.",
-      "query": "Zhuanxin Market Kunming",
-      "credit": {
-        "source": "pexels",
-        "author": "ma hxin",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-pavilion-on-scenic-pier-in-asia-39540153/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "菜市场",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-09-28"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Zhuanxin Market Kunming",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "大观篆新农贸市场",
   "_geocodeSuspect": false,
-  "district": "530112"
+  "district": "530112",
+  "_noImage": true
 }

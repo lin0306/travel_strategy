@@ -41,48 +41,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/A_panoramic_view_of_Weishan_Miyin_Temple_in_February_2018%2C_picture4.jpg/1280px-A_panoramic_view_of_Weishan_Miyin_Temple_in_February_2018%2C_picture4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/A_panoramic_view_of_Weishan_Miyin_Temple_in_February_2018%2C_picture4.jpg/1280px-A_panoramic_view_of_Weishan_Miyin_Temple_in_February_2018%2C_picture4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Ri_Sheng_Road_in_Weishan%2C_Yunnan%2C_China.jpg/1280px-Ri_Sheng_Road_in_Weishan%2C_Yunnan%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Ri_Sheng_Road_in_Weishan%2C_Yunnan%2C_China.jpg/1280px-Ri_Sheng_Road_in_Weishan%2C_Yunnan%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
-      "height": 810,
-      "alt": "A panoramic view of Weishan Miyin Temple in February 2018, picture4.jpg",
-      "query": "巍山古城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Huangdan2060",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_panoramic_view_of_Weishan_Miyin_Temple_in_February_2018,_picture4.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/North_Road_and_Xing_Gong_Lou_in_Weishan%2C_Yunnan%2C_China.jpg/1280px-North_Road_and_Xing_Gong_Lou_in_Weishan%2C_Yunnan%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/North_Road_and_Xing_Gong_Lou_in_Weishan%2C_Yunnan%2C_China.jpg/1280px-North_Road_and_Xing_Gong_Lou_in_Weishan%2C_Yunnan%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 695,
-      "alt": "North Road and Xing Gong Lou in Weishan, Yunnan, China.jpg",
+      "height": 720,
+      "alt": "Ri Sheng Road in Weishan, Yunnan, China.jpg",
       "query": "巍山古城",
       "credit": {
         "source": "wikimedia",
         "author": "Zhangmoon618",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_Road_and_Xing_Gong_Lou_in_Weishan,_Yunnan,_China.jpg",
+        "sourceUrl": "https://www.wikidata.org/wiki/Q15912864",
         "license": "CC BY-SA 3.0",
         "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Qunli_gate_in_Weishan.jpg/1280px-Qunli_gate_in_Weishan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Qunli_gate_in_Weishan.jpg/1280px-Qunli_gate_in_Weishan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 753,
-      "alt": "Qunli gate in Weishan.jpg",
-      "query": "巍山古城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangmoon618",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qunli_gate_in_Weishan.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
       }
     }
   ],
@@ -101,7 +77,7 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-05",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

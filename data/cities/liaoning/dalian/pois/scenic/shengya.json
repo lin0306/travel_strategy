@@ -45,53 +45,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/17583739/pexels-photo-17583739.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/17583739/pexels-photo-17583739.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6573,
-      "height": 4382,
-      "alt": "Explore the serene rocky coastline of Dalian, Liaoning Province, China.",
-      "query": "natural landscape China dalian",
-      "credit": {
-        "source": "pexels",
-        "author": "昆 阿",
-        "sourceUrl": "https://www.pexels.com/photo/sea-shore-with-rocks-17583739/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/13921061/pexels-photo-13921061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/13921061/pexels-photo-13921061.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4416,
-      "height": 2944,
-      "alt": "A breathtaking aerial view of Dalian's modern skyline across the calm blue sea.",
-      "query": "natural landscape China dalian",
-      "credit": {
-        "source": "pexels",
-        "author": "liu zhenao",
-        "sourceUrl": "https://www.pexels.com/photo/body-of-water-and-a-modern-city-skyline-in-distance-13921061/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/20016527/pexels-photo-20016527.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/20016527/pexels-photo-20016527.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2000,
-      "height": 2997,
-      "alt": "Scenic view of Dalian's urban skyline featuring distinctively styled towers by the sea.",
-      "query": "natural landscape China dalian",
-      "credit": {
-        "source": "pexels",
-        "author": "zhou shen",
-        "sourceUrl": "https://www.pexels.com/photo/tower-in-dalian-habor-20016527/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "海洋馆",
@@ -107,7 +61,7 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -115,5 +69,6 @@
   },
   "_geocodeTitle": "圣亚海洋世界",
   "_geocodeSuspect": false,
-  "district": "210204"
+  "district": "210204",
+  "_noImage": true
 }

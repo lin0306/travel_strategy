@@ -45,53 +45,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/33929899/pexels-photo-33929899.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/33929899/pexels-photo-33929899.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5686,
-      "height": 3791,
-      "alt": "Captivating view through a circular opening showcasing traditional Chinese architecture in Moscow.",
-      "query": "Chinese classical garden harbin",
-      "credit": {
-        "source": "pexels",
-        "author": "Hans Anders",
-        "sourceUrl": "https://www.pexels.com/photo/circular-view-of-chinese-architecture-in-moscow-33929899/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/19815758/pexels-photo-19815758.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/19815758/pexels-photo-19815758.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 1984,
-      "height": 2999,
-      "alt": "Snow-covered stairs leading through a scenic winter park in Harbin, China, framed by pine trees.",
-      "query": "Chinese classical garden harbin",
-      "credit": {
-        "source": "pexels",
-        "author": "pressthebutton",
-        "sourceUrl": "https://www.pexels.com/photo/park-in-snow-19815758/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/31956319/pexels-photo-31956319.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4160,
-      "height": 6240,
-      "alt": "Tranquil view of a traditional Chinese garden featuring a vibrant red lantern.",
-      "query": "Chinese classical garden harbin",
-      "credit": {
-        "source": "pexels",
-        "author": "Lily  Lili",
-        "sourceUrl": "https://www.pexels.com/photo/serene-chinese-garden-with-red-lantern-31956319/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "主题乐园",
@@ -107,7 +61,7 @@
       "fetchedAt": "2026-09-30"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -115,5 +69,6 @@
   },
   "_geocodeTitle": "哈尔滨融创乐园",
   "_geocodeSuspect": false,
-  "district": "230109"
+  "district": "230109",
+  "_noImage": true
 }

@@ -40,53 +40,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/31722230/pexels-photo-31722230.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/31722230/pexels-photo-31722230.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5464,
-      "height": 3640,
-      "alt": "Aerial photograph capturing a bustling city in China partially covered with clouds.",
-      "query": "Nanchang Shoutou Street Mahua",
-      "credit": {
-        "source": "pexels",
-        "author": "jason hu",
-        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-cloud-covered-chinese-cityscape-31722230/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36347980/pexels-photo-36347980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36347980/pexels-photo-36347980.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8064,
-      "height": 4536,
-      "alt": "A vibrant red star adorns a building's facade, symbolizing historical significance in Nanchang, China.",
-      "query": "Nanchang Shoutou Street Mahua",
-      "credit": {
-        "source": "pexels",
-        "author": "CHINA YU",
-        "sourceUrl": "https://www.pexels.com/photo/red-star-architectural-decoration-in-nanchang-36347980/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/34338279/pexels-photo-34338279.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34338279/pexels-photo-34338279.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6048,
-      "height": 4024,
-      "alt": "Image of a traditional Chinese pastry shop on a city street, showcasing cultural food displays.",
-      "query": "Nanchang Shoutou Street Mahua",
-      "credit": {
-        "source": "pexels",
-        "author": "J.D. Books",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-pastry-shop-on-urban-street-34338279/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "麻花",
@@ -102,12 +56,13 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Nanchang Shoutou Street Mahua",
     "zh": "石头街麻花"
   },
   "_geocodeTitle": "石头街",
-  "district": "360103"
+  "district": "360103",
+  "_noImage": true
 }

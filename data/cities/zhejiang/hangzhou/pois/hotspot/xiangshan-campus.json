@@ -40,48 +40,45 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/11798749/pexels-photo-11798749.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/11798749/pexels-photo-11798749.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4222,
-      "height": 6204,
-      "alt": "Visitors interact with art exhibit in Hangzhou gallery, China.",
-      "query": "art district gallery hangzhou",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/20250722_Zhongguo_Guoji_Sheji_Bowuguan.jpg/1280px-20250722_Zhongguo_Guoji_Sheji_Bowuguan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/20250722_Zhongguo_Guoji_Sheji_Bowuguan.jpg/1280px-20250722_Zhongguo_Guoji_Sheji_Bowuguan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "20250722 Zhongguo Guoji Sheji Bowuguan.jpg",
+      "query": "中国美术学院象山校区",
       "credit": {
-        "source": "pexels",
-        "author": "卓浩 虞",
-        "sourceUrl": "https://www.pexels.com/photo/a-person-posing-in-front-of-a-photograph-11798749/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "Yumeto",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-04",
+        "tier": "street"
       }
     },
     {
-      "url": "https://images.pexels.com/photos/37436584/pexels-photo-37436584.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37436584/pexels-photo-37436584.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5472,
-      "height": 3648,
-      "alt": "Charming street view of traditional Chinese architecture in Hangzhou, Zhejiang Province, China.",
-      "query": "art district gallery hangzhou",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/20250722_Xiangshan_Xiaoqu%2C_Zhongguo_Meishu_Xueyuan.jpg/1280px-20250722_Xiangshan_Xiaoqu%2C_Zhongguo_Meishu_Xueyuan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/20250722_Xiangshan_Xiaoqu%2C_Zhongguo_Meishu_Xueyuan.jpg/1280px-20250722_Xiangshan_Xiaoqu%2C_Zhongguo_Meishu_Xueyuan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "20250722 Xiangshan Xiaoqu, Zhongguo Meishu Xueyuan.jpg",
+      "query": "中国美术学院象山校区",
       "credit": {
-        "source": "pexels",
-        "author": "P. Ho",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-street-scene-in-hangzhou-china-37436584/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/32250482/pexels-photo-32250482.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/32250482/pexels-photo-32250482.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4284,
-      "height": 5712,
-      "alt": "Contemporary architecture amidst greenery in Hangzhou, China, showcasing modern urban lifestyle.",
-      "query": "art district gallery hangzhou",
-      "credit": {
-        "source": "pexels",
-        "author": "Haoxiang Liu",
-        "sourceUrl": "https://www.pexels.com/photo/modern-buildings-with-lush-greenery-in-hangzhou-32250482/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "Yumeto",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-04",
+        "tier": "street"
       }
     }
   ],
@@ -100,7 +97,7 @@
       "fetchedAt": "2026-09-19"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-04",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

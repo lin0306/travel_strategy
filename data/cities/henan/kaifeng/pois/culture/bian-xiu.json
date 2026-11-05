@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/%E7%8E%8B%E5%AE%89%E7%9F%B3_%E8%A1%8C%E4%B9%A6%E6%A5%9E%E4%B8%A5%E7%BB%8F%E6%97%A8%E8%A6%81%E5%8D%B7.jpg/1280px-%E7%8E%8B%E5%AE%89%E7%9F%B3_%E8%A1%8C%E4%B9%A6%E6%A5%9E%E4%B8%A5%E7%BB%8F%E6%97%A8%E8%A6%81%E5%8D%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/%E7%8E%8B%E5%AE%89%E7%9F%B3_%E8%A1%8C%E4%B9%A6%E6%A5%9E%E4%B8%A5%E7%BB%8F%E6%97%A8%E8%A6%81%E5%8D%B7.jpg/1280px-%E7%8E%8B%E5%AE%89%E7%9F%B3_%E8%A1%8C%E4%B9%A6%E6%A5%9E%E4%B8%A5%E7%BB%8F%E6%97%A8%E8%A6%81%E5%8D%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 224,
-      "alt": "王安石 行书楞严经旨要卷.jpg",
-      "query": "汴绣",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Wang Anshi",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%8E%8B%E5%AE%89%E7%9F%B3_%E8%A1%8C%E4%B9%A6%E6%A5%9E%E4%B8%A5%E7%BB%8F%E6%97%A8%E8%A6%81%E5%8D%B7.jpg",
-        "license": "Public domain",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39122835/pexels-photo-39122835.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39122835/pexels-photo-39122835.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2268,
-      "height": 4032,
-      "alt": "Female artisan focused on silk embroidery in a traditional workshop in Da Nang, Vietnam.",
-      "query": "Bian Embroidery",
-      "credit": {
-        "source": "pexels",
-        "author": "Hussain Badshah",
-        "sourceUrl": "https://www.pexels.com/photo/skilled-vietnamese-artisan-in-da-nang-workshop-39122835/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/3376965/pexels-photo-3376965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/3376965/pexels-photo-3376965.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2760,
-      "height": 4912,
-      "alt": "A woman in colorful traditional clothing focuses intently on her knitting work indoors.",
-      "query": "Bian Embroidery",
-      "credit": {
-        "source": "pexels",
-        "author": "Vietnam  Hidden Light",
-        "sourceUrl": "https://www.pexels.com/photo/portrait-of-woman-wearing-green-and-black-sari-dress-3376965/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "汴绣",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Bian Embroidery",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "汴京绣庄",
   "_geocodeSuspect": false,
-  "district": "410204"
+  "district": "410204",
+  "_noImage": true
 }

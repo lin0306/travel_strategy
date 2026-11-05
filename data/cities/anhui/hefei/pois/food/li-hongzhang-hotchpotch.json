@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/37497701/pexels-photo-37497701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37497701/pexels-photo-37497701.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 6048,
-      "alt": "Detailed close-up of traditional brick structure in Nanjing, China, showcasing aged textures.",
-      "query": "Li Hongzhang Hotchpotch Hefei",
-      "credit": {
-        "source": "pexels",
-        "author": "Cheng Shi Song",
-        "sourceUrl": "https://www.pexels.com/photo/ancient-brickwork-in-nanjing-s-historic-architecture-37497701/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37497706/pexels-photo-37497706.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37497706/pexels-photo-37497706.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 6048,
-      "alt": "Close-up of ornate wooden eaves in a traditional building in Nanjing, China.",
-      "query": "Li Hongzhang Hotchpotch Hefei",
-      "credit": {
-        "source": "pexels",
-        "author": "Cheng Shi Song",
-        "sourceUrl": "https://www.pexels.com/photo/intricate-wooden-eaves-of-traditional-chinese-architecture-37497706/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/2365940/pexels-photo-2365940.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/2365940/pexels-photo-2365940.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Delicious beef and vegetable stir-fry in a wok with vibrant colors and rich flavors.",
-      "query": "Li Hongzhang Hotchpotch Hefei",
-      "credit": {
-        "source": "pexels",
-        "author": "奥尼尔 孙",
-        "sourceUrl": "https://www.pexels.com/photo/vegetable-soup-in-bowl-2365940/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "传统菜",
@@ -101,12 +55,13 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Li Hongzhang Hotchpotch Hefei",
     "zh": "李鸿章杂烩"
   },
   "_geocodeTitle": "老字号小钟饭店(凤凰名城店)",
-  "district": "340181"
+  "district": "340181",
+  "_noImage": true
 }

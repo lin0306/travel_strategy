@@ -40,53 +40,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/%E5%A4%A9%E9%A6%AC%E8%8C%B6%E6%88%BF%E5%BB%A3%E5%91%8A.jpg/1280px-%E5%A4%A9%E9%A6%AC%E8%8C%B6%E6%88%BF%E5%BB%A3%E5%91%8A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/%E5%A4%A9%E9%A6%AC%E8%8C%B6%E6%88%BF%E5%BB%A3%E5%91%8A.jpg/1280px-%E5%A4%A9%E9%A6%AC%E8%8C%B6%E6%88%BF%E5%BB%A3%E5%91%8A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1587,
-      "alt": "天馬茶房廣告.jpg",
-      "query": "Taipei old house cafe",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Unknown authorUnknown author",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E9%A6%AC%E8%8C%B6%E6%88%BF%E5%BB%A3%E5%91%8A.jpg",
-        "license": "Public domain",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36759308/pexels-photo-36759308.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36759308/pexels-photo-36759308.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5472,
-      "height": 3648,
-      "alt": "Traditional houses against modern buildings in Taipei City, Taiwan.",
-      "query": "Taipei old house cafe",
-      "credit": {
-        "source": "pexels",
-        "author": "Hiroko Nakagawa",
-        "sourceUrl": "https://www.pexels.com/photo/contrast-of-old-and-new-architecture-in-taipei-36759308/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/30397034/pexels-photo-30397034.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/30397034/pexels-photo-30397034.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3326,
-      "height": 2494,
-      "alt": "Taipei City street scene blending traditional Taiwanese housing with modern buildings.",
-      "query": "Taipei old house cafe",
-      "credit": {
-        "source": "pexels",
-        "author": "Derek Tsai",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-taiwanese-architecture-with-modern-backdrop-30397034/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "咖啡馆",
@@ -102,12 +56,13 @@
       "fetchedAt": "2026-10-03"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Taipei old house cafe",
     "zh": "老屋咖啡馆"
   },
   "_geocodeTitle": "松山区",
-  "district": "711001"
+  "district": "711001",
+  "_noImage": true
 }

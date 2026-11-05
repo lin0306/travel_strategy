@@ -46,53 +46,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/33632718/pexels-photo-33632718.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/33632718/pexels-photo-33632718.png?auto=compress&cs=tinysrgb&h=350",
-      "width": 6825,
-      "height": 4541,
-      "alt": "Picturesque view of traditional Chinese architecture and mountains in Guilin, China.",
-      "query": "natural landscape China yangshuo",
-      "credit": {
-        "source": "pexels",
-        "author": "Vincent Tan",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-architecture-in-guilin-33632718/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36535023/pexels-photo-36535023.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36535023/pexels-photo-36535023.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Discover the breathtaking aerial view of karst mountains and lush countryside in Guilin, Guangxi, China.",
-      "query": "natural landscape China yangshuo",
-      "credit": {
-        "source": "pexels",
-        "author": "Willian Justen de Vasconcellos",
-        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-karst-mountains-in-guilin-china-36535023/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/24246259/pexels-photo-24246259.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/24246259/pexels-photo-24246259.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3648,
-      "height": 5472,
-      "alt": "Breathtaking aerial view of Li River meandering through lush karst mountains under a partly cloudy sky in Guilin, China.",
-      "query": "natural landscape China yangshuo",
-      "credit": {
-        "source": "pexels",
-        "author": "fei wang",
-        "sourceUrl": "https://www.pexels.com/photo/high-angle-view-of-a-river-in-a-green-hilly-landscape-24246259/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "世外桃源",
@@ -110,7 +64,7 @@
       "fetchedAt": "2026-10-07"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -118,5 +72,6 @@
   },
   "_geocodeTitle": "世外桃源",
   "_geocodeSuspect": false,
-  "district": "450321"
+  "district": "450321",
+  "_noImage": true
 }

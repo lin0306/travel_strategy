@@ -1,0 +1,73 @@
+{
+  "id": "shitan",
+  "name": "石潭",
+  "category": "hotspot",
+  "subtype": "photo",
+  "summary": "歙县山里的摄影点，三到四月油菜花配云海，一年两百多天有雾。",
+  "description": "石潭在歙县霞坑镇，昌源河与华源河在这里汇合，村子挂在山坡上。它出名是因为春天：三月底到四月初，油菜花不是一整片平地，而是顺着山坡一块块铺开，中间夹着桃花梨花，早上从下汰观景台往下看，云在花田和村子之间流动。这里一年大约两百天能看到云海，是黄山市百佳摄影点之一。村里本身也有东西看——叙伦堂是明嘉靖年间的吴氏宗祠，房梁一百根，号称「百梁厅」，还有古水口、古桥、古埠头。上山是一条环线：石潭、下汰、湖山、北山，走完四到五小时，建议乘车上去、徒步下来。",
+  "highlights": [
+    "下汰观景台的油菜花配云海",
+    "叙伦堂「百梁厅」",
+    "石潭至下汰、湖山的环线徒步"
+  ],
+  "location": {
+    "point": {
+      "lng": 118.673654,
+      "lat": 29.925932,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "安徽省黄山市歙县霞坑镇石潭村",
+    "district": "歙县",
+    "transportTip": "高铁到歙县北站，转霞坑镇中巴，再从霞坑乘车或徒步进村；自驾导航「石潭村」，村委停车场十元一次。"
+  },
+  "practical": {
+    "openHours": "全天开放；油菜花季上山道路管制，换乘车 05:00-19:00",
+    "openHoursRef": 0,
+    "ticket": "免费；花季换乘车上山十五元一次",
+    "ticketRef": 0,
+    "duration": "建议 180-300 分钟",
+    "durationMinutes": [
+      180,
+      300
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [
+    "花季三月至五月上旬交通管制，私家车不能上山",
+    "想看云海要在山上住一晚，第二天清早上观景台",
+    "换乘车单日走下汰方向、双日走水电站方向，别走错"
+  ],
+  "images": [],
+  "coverIndex": 0,
+  "tags": [
+    "油菜花",
+    "云海",
+    "摄影",
+    "徒步"
+  ],
+  "popularity": 72,
+  "sources": [
+    {
+      "title": "澎湃新闻·石潭油菜花季交通管制公告",
+      "url": "https://www.thepaper.cn/newsDetail_forward_30310118",
+      "kind": "media",
+      "fetchedAt": "2026-11-03"
+    }
+  ],
+  "updatedAt": "2026-11-03",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Shitan Village",
+    "zh": "石潭"
+  },
+  "_geocodeTitle": "石潭景区",
+  "_geocodeSuspect": false,
+  "_noImage": true,
+  "district": "341021"
+}

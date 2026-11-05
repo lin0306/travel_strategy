@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/32223212/pexels-photo-32223212.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/32223212/pexels-photo-32223212.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6874,
-      "height": 4583,
-      "alt": "Crowded night market with food stalls offering a variety of dishes and a lively atmosphere.",
-      "query": "Xisi Night Market",
-      "credit": {
-        "source": "pexels",
-        "author": "Kenneth Surillo",
-        "sourceUrl": "https://www.pexels.com/photo/vibrant-night-market-scene-with-food-stalls-32223212/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/18660106/pexels-photo-18660106.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/18660106/pexels-photo-18660106.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Neon-lit street food stalls create a vibrant atmosphere at a bustling night market.",
-      "query": "Xisi Night Market",
-      "credit": {
-        "source": "pexels",
-        "author": "Nguyễn Hoàng Văn",
-        "sourceUrl": "https://www.pexels.com/photo/people-at-bar-with-neon-lights-at-night-18660106/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/704379/pexels-photo-704379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/704379/pexels-photo-704379.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 1728,
-      "height": 2592,
-      "alt": "Vibrant crowd and neon signs at the lively Raohe Street Night Market, Taipei.",
-      "query": "Xisi Night Market",
-      "credit": {
-        "source": "pexels",
-        "author": "Gabriel Peter",
-        "sourceUrl": "https://www.pexels.com/photo/view-of-raohe-st-night-market-arch-with-kanji-texts-and-group-of-people-704379/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "夜市",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Xisi Night Market",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "西司夜市",
   "_geocodeSuspect": false,
-  "district": "410204"
+  "district": "410204",
+  "_noImage": true
 }

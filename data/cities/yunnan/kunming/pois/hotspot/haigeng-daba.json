@@ -40,53 +40,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/36352361/pexels-photo-36352361.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36352361/pexels-photo-36352361.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8192,
-      "height": 5464,
-      "alt": "Seagulls perched on a pier at Dianchi Lake, China, with a mountain backdrop under a clear sky.",
-      "query": "Haigeng Dam Kunming Dianchi",
-      "credit": {
-        "source": "pexels",
-        "author": "Andy Lee",
-        "sourceUrl": "https://www.pexels.com/photo/seagulls-at-dianchi-lake-pier-in-china-36352361/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36744082/pexels-photo-36744082.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36744082/pexels-photo-36744082.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4284,
-      "height": 5712,
-      "alt": "Beautiful view of Dianchi Lake in Kunming, China, with a flock of seagulls flying over the water and mountains in the ba",
-      "query": "Haigeng Dam Kunming Dianchi",
-      "credit": {
-        "source": "pexels",
-        "author": "Rick Lu",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-dianchi-lake-with-flock-of-seagulls-36744082/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36352362/pexels-photo-36352362.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36352362/pexels-photo-36352362.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8192,
-      "height": 5464,
-      "alt": "Scenic view of seagulls on a pier at Dianchi Lake, Kunming with distant city and mountains.",
-      "query": "Haigeng Dam Kunming Dianchi",
-      "credit": {
-        "source": "pexels",
-        "author": "Andy Lee",
-        "sourceUrl": "https://www.pexels.com/photo/seagulls-on-dianchi-lake-pier-in-kunming-36352362/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "滇池",
@@ -102,7 +56,7 @@
       "fetchedAt": "2026-09-28"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Haigeng Dam Kunming Dianchi",
@@ -110,5 +64,6 @@
   },
   "_geocodeTitle": "海埂大坝",
   "_geocodeSuspect": false,
-  "district": "530112"
+  "district": "530112",
+  "_noImage": true
 }

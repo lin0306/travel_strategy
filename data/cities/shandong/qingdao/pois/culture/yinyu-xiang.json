@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/38415169/pexels-photo-38415169.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38415169/pexels-photo-38415169.png?auto=compress&cs=tinysrgb&h=350",
-      "width": 3268,
-      "height": 4967,
-      "alt": "Charming narrow alley in Zhuhai, China with shops and signs along tiled pavement.",
-      "query": "Chinese old town street qingdao",
-      "credit": {
-        "source": "pexels",
-        "author": "Alex M",
-        "sourceUrl": "https://www.pexels.com/photo/narrow-alley-in-zhuhai-featuring-shops-38415169/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38304174/pexels-photo-38304174.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38304174/pexels-photo-38304174.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3072,
-      "height": 4096,
-      "alt": "Scenic aerial view of Qingdao's rooftops and greenery under a vibrant sky.",
-      "query": "Chinese old town street qingdao",
-      "credit": {
-        "source": "pexels",
-        "author": "Leia-Yalu Feng",
-        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-lush-urban-landscape-in-qingdao-38304174/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39801419/pexels-photo-39801419.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39801419/pexels-photo-39801419.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5472,
-      "height": 3648,
-      "alt": "Explore the captivating coastal architecture of Qingdao, China, featuring historic brick houses and a vibrant seaside vi",
-      "query": "Chinese old town street qingdao",
-      "credit": {
-        "source": "pexels",
-        "author": "Jayden Han",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-qingdao-s-coastal-architecture-39801419/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "老巷",
@@ -100,7 +54,7 @@
       "fetchedAt": "2026-09-28"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -108,5 +62,6 @@
   },
   "_geocodeTitle": "银鱼巷",
   "_geocodeSuspect": false,
-  "district": "370202"
+  "district": "370202",
+  "_noImage": true
 }

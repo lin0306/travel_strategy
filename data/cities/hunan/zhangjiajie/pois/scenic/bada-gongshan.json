@@ -37,53 +37,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/35792768/pexels-photo-35792768.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35792768/pexels-photo-35792768.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5878,
-      "height": 3919,
-      "alt": "A lively Copenhagen street with cafes, shops, and nightlife signs.",
-      "query": "Bada Gongshan Nature Reserve",
-      "credit": {
-        "source": "pexels",
-        "author": "Abhishek  Navlakha",
-        "sourceUrl": "https://www.pexels.com/photo/vibrant-street-scene-in-copenhagen-featuring-shops-35792768/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/35155552/pexels-photo-35155552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35155552/pexels-photo-35155552.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 12746,
-      "height": 7169,
-      "alt": "Panoramic view of lush green mountains and a structure in Gannan Tibetan Autonomous Prefecture, China.",
-      "query": "Bada Gongshan Nature Reserve",
-      "credit": {
-        "source": "pexels",
-        "author": "Siyuan Zhao",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-gannan-tibetan-prefecture-mountains-35155552/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/261393/pexels-photo-261393.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/261393/pexels-photo-261393.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3000,
-      "height": 2000,
-      "alt": "Breathtaking mountain landscape with a wooden view deck and lush autumn foliage under a bright sun.",
-      "query": "Bada Gongshan Nature Reserve",
-      "credit": {
-        "source": "pexels",
-        "author": "Pixabay",
-        "sourceUrl": "https://www.pexels.com/photo/wooden-ladder-near-flowers-under-clear-sky-261393/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "保护区",
@@ -99,7 +53,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Bada Gongshan Nature Reserve",
@@ -107,5 +61,6 @@
   },
   "_geocodeTitle": "八大公山镇",
   "_geocodeSuspect": false,
-  "district": "430822"
+  "district": "430822",
+  "_noImage": true
 }

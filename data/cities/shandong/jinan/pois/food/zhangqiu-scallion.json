@@ -41,48 +41,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/32130186/pexels-photo-32130186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/32130186/pexels-photo-32130186.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 3643,
-      "alt": "A vibrant bunch of organic scallions stacked and displayed at an outdoor market, showcasing their fresh green hue.",
-      "query": "Zhangqiu Giant Scallion",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Shandong_Zhangqiu_scallion_solded_in_Laoling%27s_market.jpg/1280px-Shandong_Zhangqiu_scallion_solded_in_Laoling%27s_market.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Shandong_Zhangqiu_scallion_solded_in_Laoling%27s_market.jpg/1280px-Shandong_Zhangqiu_scallion_solded_in_Laoling%27s_market.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Shandong Zhangqiu scallion solded in Laoling's market.jpg",
+      "query": "章丘大葱",
       "credit": {
-        "source": "pexels",
-        "author": "Loren  Biser",
-        "sourceUrl": "https://www.pexels.com/photo/fresh-organic-scallions-in-market-display-32130186/",
-        "license": "Pexels License",
+        "source": "wikimedia",
+        "author": "Cartonfox",
+        "sourceUrl": "https://zh.wikipedia.org/wiki/章丘大葱",
+        "license": "CC0",
         "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/6102654/pexels-photo-6102654.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/6102654/pexels-photo-6102654.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5616,
-      "height": 3744,
-      "alt": "Close-up view of bundles of fresh scallions and herbs ready for sale at a farmers market.",
-      "query": "Zhangqiu Giant Scallion",
-      "credit": {
-        "source": "pexels",
-        "author": "ROMAN ODINTSOV",
-        "sourceUrl": "https://www.pexels.com/photo/a-close-up-shot-of-bundles-of-scallions-6102654/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/28699586/pexels-photo-28699586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/28699586/pexels-photo-28699586.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3379,
-      "height": 2253,
-      "alt": "Colorful street market scene with fresh onions, parked van, and folding chair.",
-      "query": "Zhangqiu Giant Scallion",
-      "credit": {
-        "source": "pexels",
-        "author": "金枫 郭",
-        "sourceUrl": "https://www.pexels.com/photo/street-vegetable-market-scene-with-onions-28699586/",
-        "license": "Pexels License",
-        "attributionRequired": false
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-04",
+        "tier": "exact"
       }
     }
   ],
@@ -101,7 +77,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-04",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Zhangqiu Giant Scallion",

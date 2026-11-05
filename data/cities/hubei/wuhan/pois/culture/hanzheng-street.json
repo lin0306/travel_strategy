@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/7494180/pexels-photo-7494180.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/7494180/pexels-photo-7494180.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4739,
-      "height": 3149,
-      "alt": "Typical narrow alley in Wuhan, China, showcasing daily local life with laundry and delivery activities.",
-      "query": "Chinese old town street wuhan",
-      "credit": {
-        "source": "pexels",
-        "author": "Leon Huang",
-        "sourceUrl": "https://www.pexels.com/photo/an-alley-between-buildings-in-asia-7494180/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/5656357/pexels-photo-5656357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/5656357/pexels-photo-5656357.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3376,
-      "height": 6000,
-      "alt": "Colorful alley in Wuhan, China with traditional red decorations and lanterns.",
-      "query": "Chinese old town street wuhan",
-      "credit": {
-        "source": "pexels",
-        "author": "Zengyi Gu",
-        "sourceUrl": "https://www.pexels.com/photo/narrow-walkway-between-buildings-5656357/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/31881450/pexels-photo-31881450.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/31881450/pexels-photo-31881450.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4912,
-      "height": 7360,
-      "alt": "Scenic view of a traditional Asian pagoda surrounded by lush green trees and bustling city life.",
-      "query": "Chinese old town street wuhan",
-      "credit": {
-        "source": "pexels",
-        "author": "余鑫磊",
-        "sourceUrl": "https://www.pexels.com/photo/majestic-pagoda-tower-view-through-green-trees-31881450/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "老汉口",
@@ -100,7 +54,7 @@
       "fetchedAt": "2026-09-23"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -108,5 +62,6 @@
   },
   "_geocodeTitle": "汉正街",
   "_geocodeSuspect": false,
-  "district": "420105"
+  "district": "420105",
+  "_noImage": true
 }

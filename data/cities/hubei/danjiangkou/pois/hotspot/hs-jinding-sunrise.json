@@ -43,18 +43,66 @@
   "tips": [],
   "images": [
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/ISS039-E-18971_-_View_of_China.jpg/1280px-ISS039-E-18971_-_View_of_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/ISS039-E-18971_-_View_of_China.jpg/1280px-ISS039-E-18971_-_View_of_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Danjiangkou%2C_Shiyan%2C_Hubei%2C_China_-_panoramio_%281%29.jpg/1280px-Danjiangkou%2C_Shiyan%2C_Hubei%2C_China_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Danjiangkou%2C_Shiyan%2C_Hubei%2C_China_-_panoramio_%281%29.jpg/1280px-Danjiangkou%2C_Shiyan%2C_Hubei%2C_China_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
-      "height": 719,
-      "alt": "ISS039-E-18971 - View of China.jpg",
-      "query": "China city street view danjiangkou",
+      "height": 720,
+      "alt": "Danjiangkou, Shiyan, Hubei, China - panoramio (1).jpg",
+      "query": "金顶云海日出",
       "credit": {
         "source": "wikimedia",
-        "author": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Spa",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:ISS039-E-18971_-_View_of_China.jpg",
-        "license": "Public domain",
-        "attributionRequired": false
+        "author": "macredants",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-01",
+        "tier": "street"
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/20250526_Wudangshan_Jindian_%28155359%29.jpg/1280px-20250526_Wudangshan_Jindian_%28155359%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/20250526_Wudangshan_Jindian_%28155359%29.jpg/1280px-20250526_Wudangshan_Jindian_%28155359%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "20250526 Wudangshan Jindian (155359).jpg",
+      "query": "金顶云海日出",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Yumeto",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-01",
+        "tier": "street"
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/20250526_Wudangshan_Jindian_%28155228%29.jpg/1280px-20250526_Wudangshan_Jindian_%28155228%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/20250526_Wudangshan_Jindian_%28155228%29.jpg/1280px-20250526_Wudangshan_Jindian_%28155228%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "20250526 Wudangshan Jindian (155228).jpg",
+      "query": "金顶云海日出",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Yumeto",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-01",
+        "tier": "street"
       }
     }
   ],
@@ -75,7 +123,7 @@
       "fetchedAt": "2026-10-07"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-01",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

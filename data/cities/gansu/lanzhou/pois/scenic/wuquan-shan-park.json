@@ -46,48 +46,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/16276590/pexels-photo-16276590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/16276590/pexels-photo-16276590.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6048,
-      "height": 8064,
-      "alt": "Aerial view of a wooden walkway winding through a lush hillside under a clear blue sky.",
-      "query": "Wuquan Mountain Park",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Lanzhou_Wuquan_Shan_2013.12.29_17-05-38.jpg/1280px-Lanzhou_Wuquan_Shan_2013.12.29_17-05-38.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Lanzhou_Wuquan_Shan_2013.12.29_17-05-38.jpg/1280px-Lanzhou_Wuquan_Shan_2013.12.29_17-05-38.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Lanzhou Wuquan Shan 2013.12.29 17-05-38.jpg",
+      "query": "五泉山公园",
       "credit": {
-        "source": "pexels",
-        "author": "IAN",
-        "sourceUrl": "https://www.pexels.com/photo/view-of-a-hill-16276590/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/707343/pexels-photo-707343.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/707343/pexels-photo-707343.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3264,
-      "height": 2448,
-      "alt": "Misty Nainital landscape featuring fog, parked cars, and a serene atmosphere.",
-      "query": "Wuquan Mountain Park",
-      "credit": {
-        "source": "pexels",
-        "author": "ayush mehrotra",
-        "sourceUrl": "https://www.pexels.com/photo/photo-of-cars-707343/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/33297487/pexels-photo-33297487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/33297487/pexels-photo-33297487.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8192,
-      "height": 5464,
-      "alt": "A white Jeep parked in a forest setting in Banff, Alberta, Canada, ready for adventure.",
-      "query": "Wuquan Mountain Park",
-      "credit": {
-        "source": "pexels",
-        "author": "Ali Kazal",
-        "sourceUrl": "https://www.pexels.com/photo/white-jeep-in-forested-area-of-banff-canada-33297487/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "Zhangzhugang",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-01",
+        "tier": "exact"
       }
     }
   ],
@@ -106,7 +82,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-01",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Wuquan Mountain Park",

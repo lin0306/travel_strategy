@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/31859515/pexels-photo-31859515.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/31859515/pexels-photo-31859515.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3755,
-      "height": 2816,
-      "alt": "A lively scene with people boarding a ferry on the Saigon River under a clear sky.",
-      "query": "Huangsha Ferry Photo",
-      "credit": {
-        "source": "pexels",
-        "author": "Nguyen Duc Toan",
-        "sourceUrl": "https://www.pexels.com/photo/saigon-river-ferry-at-bustling-dock-31859515/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/27872856/pexels-photo-27872856.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/27872856/pexels-photo-27872856.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5308,
-      "height": 3598,
-      "alt": "Classic black and white photo of ferries navigating a harbor, emphasizing transportation and travel.",
-      "query": "Huangsha Ferry Photo",
-      "credit": {
-        "source": "pexels",
-        "author": "berobscura",
-        "sourceUrl": "https://www.pexels.com/photo/black-and-white-photo-of-two-ferries-in-the-water-27872856/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/31355869/pexels-photo-31355869.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/31355869/pexels-photo-31355869.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2752,
-      "height": 4394,
-      "alt": "Woman enjoys sunny ferry ride with shimmering water view, capturing travel relaxation and exploration.",
-      "query": "Huangsha Ferry Photo",
-      "credit": {
-        "source": "pexels",
-        "author": "Alan Wang",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-ferry-ride-with-view-of-sparkling-water-31355869/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "黄河",
@@ -100,7 +54,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Huangsha Ferry Photo",
@@ -108,5 +62,6 @@
   },
   "_geocodeTitle": "黄沙古渡(公交站)",
   "_geocodeSuspect": false,
-  "district": "640104"
+  "district": "640104",
+  "_noImage": true
 }

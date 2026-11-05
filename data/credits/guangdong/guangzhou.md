@@ -1,6 +1,6 @@
 # 广州 · 数据来源与图片版权
 
-> 生成于 2026-10-31 · 城市数据最后更新 2026-09-24
+> 生成于 2026-11-05 · 城市数据最后更新 2026-09-24
 
 ## 概览
 
@@ -101,38 +101,20 @@
 | 粤剧艺术博物馆 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E7%B2%A4%E5%89%A7%E8%89%BA%E6%9C%AF%E5%8D%9A%E7%89%A9%E9%A6%86.jpg) |
 | 粤剧艺术博物馆 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%8D%94%E6%B9%BE_%E6%B0%B8%E5%BA%86%E5%9D%8A%E4%B9%8B%E7%B2%A4%E5%89%A7%E8%89%BA%E6%9C%AF%E5%8D%9A%E7%89%A9%E9%A6%86%E9%99%84%E8%BF%91%E7%9A%84%E6%A0%91%E6%8C%82%E7%81%AF%E7%AC%BC.jpg) |
 | 广州塔 | Colin Zhu from Guangzhou, China | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Canton_tower_in_asian_games_opening_ceremony.jpg) |
-| 广州塔 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E5%8F%8C%E5%AD%90%E5%A1%94%E8%A5%BF%E5%A1%94%E5%B9%BF%E5%B7%9E%E5%9B%BD%E9%99%85%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83.jpg) |
 | 广州塔 | jiang-wen-jie | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E5%A1%94Scenery_in_Guangzhou,_China_-_panoramio.jpg) |
-| 陈家祠 | GZMTR | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chen_Clan_Academy_Station_CON.jpg) |
-| 陈家祠 | CRCHF | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chen_Clan_Academy_Station_Concourse.jpg) |
-| 陈家祠 | GZMTR | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chen_Clan_Academy_Station_Exit_C.jpg) |
-| 大夫山森林公园 | TONY LU | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bus_Pan_16_%26_Pan_26_at_Dafushan_Forest_Park.jpg) |
 | 大夫山森林公园 | CRCHF | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:DaiFuSan_Forest_Park.jpg) |
 | 大夫山森林公园 | Kary Foo | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:GZ_Da_Fu_Shan_Garden_%E5%A4%A7%E5%A4%AB%E5%B1%B1%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9C%92_Bike_Leasing.jpg) |
-| 广东省博物馆 | Jasonjiang.1998 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Namestone,_Southern_Han_Mausoleums_Museum_20251025.jpg) |
-| 广东省博物馆 | Jasonjiang.1998 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:South_Entrance,_Southern_Han_Mausoleums_Museum_20251025-A.jpg) |
-| 广东省博物馆 | Jasonjiang.1998 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:South_Entrance,_Southern_Han_Mausoleums_Museum_20251025-B.jpg) |
 | 光孝寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250222_Guangxiao_Temple_01.jpg) |
 | 光孝寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250222_Guangxiao_Temple_02.jpg) |
 | 光孝寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250222_Guangxiao_Temple_03.jpg) |
 | 广州起义纪念馆 | Skywalk1722 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E5%85%AC%E7%A4%BE%E6%97%A7%E5%9D%80.jpg) |
 | 广州起义纪念馆 | Chintunglee | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gzqiyi.jpg) |
 | 广州起义纪念馆 | Chintunglee | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gzqiyigate.jpg) |
-| 黄埔古村 | TONY LU | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangzhou_Bus_No.762_at_Ancient_Whampoa_Village.jpg) |
 | 黄埔古村 | Lau Hau Yatyue Tiger | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E6%B5%B7%E7%8F%A0%E5%8D%80_Haizhu_District_%E7%90%B6%E6%B4%B2%E8%A1%97%E9%81%93_Pazhou_%E7%A6%81%E6%AF%92%E4%B8%BB%E9%A1%8C%E5%85%AC%E5%9C%92_Park_January_2024_R12S_08.jpg) |
-| 黄埔古村 | Peter Lopez | Pexels License | [pexels](https://www.pexels.com/photo/a-couple-on-a-bridge-7009622/) |
-| 黄埔古村 | Peter Lopez | Pexels License | [pexels](https://www.pexels.com/photo/canal-with-footbridge-in-guangzhour-7009626/) |
-| 黄埔古村 | Max Sun | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-architecture-with-lanterns-30844803/) |
-| 黄埔古村 | Maria | Pexels License | [pexels](https://www.pexels.com/photo/river-by-traditional-garden-in-shanghai-8776494/) |
 | 黄埔军校旧址 | 古海岸遗址 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Whampoa_Military_Academy_Yantang_Campus.jpg) |
 | 黄埔军校旧址 | 古海岸遗址 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%BB%84%E5%9F%94%E5%86%9B%E6%A0%A1%E5%90%8C%E5%AD%A6%E4%BC%9A%E6%97%A7%E5%9D%80.jpg) |
 | 黄埔军校旧址 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%BB%84%E5%9F%94%E5%86%9B%E6%A0%A1%E7%AE%A1%E7%90%86%E9%83%A8%E6%97%A7%E5%9D%80%E5%86%85%E9%83%A8%E5%B1%95%E8%A7%88_-_panoramio.jpg) |
 | 塱头古村 | Kacewong | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A1%B1%E5%A4%B4%E6%9D%91%E7%95%99%E8%80%95%E5%85%AC%E7%A5%A0.jpg) |
-| 塱头古村 | Bingqian Li | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-arch-in-guangzhou-park-36063988/) |
-| 塱头古村 | Bingqian Li | Pexels License | [pexels](https://www.pexels.com/photo/traditional-architecture-in-guangzhou-china-35272150/) |
-| 塱头古村 | Frank Lv | Pexels License | [pexels](https://www.pexels.com/photo/historic-brick-building-with-vibrant-street-art-34862393/) |
-| 塱头古村 | Peter Lopez | Pexels License | [pexels](https://www.pexels.com/photo/chinese-characters-on-pillars-5798228/) |
-| 莲花山 | BMSBridge | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260722-%E8%8E%B2%E8%8A%B1%E5%B1%B1%E9%82%93%E5%B0%8F%E5%B9%B3%E9%93%9C%E5%83%8F.jpg) |
 | 莲花山 | zengsx | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%EF%BC%8C%E8%8E%B2%E8%8A%B1%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA_-_panoramio.jpg) |
 | 莲花山 | 蒋鹏飞 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%8E%B2%E8%8A%B1%E5%B1%B1_-_panoramio.jpg) |
 | 六榕寺 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Building_in_the_Temple_of_the_Six_Banyan_Trees_in_2017.jpg) |
@@ -141,18 +123,7 @@
 | 荔湾湖公园 | 中少 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Liang%27s_Temple_20220813-01.jpg) |
 | 荔湾湖公园 | 中少 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Liang%27s_Temple_20220813-02.jpg) |
 | 荔湾湖公园 | 方人也 | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Liwanhu_Park_20230729.jpg) |
-| 帽峰山景区 | fei wang | Pexels License | [pexels](https://www.pexels.com/photo/forest-and-hong-kong-buildings-behind-15866394/) |
-| 帽峰山景区 | fei wang | Pexels License | [pexels](https://www.pexels.com/photo/a-pier-with-tower-on-lake-near-green-trees-14291094/) |
-| 帽峰山景区 | Bingqian Li | Pexels License | [pexels](https://www.pexels.com/photo/serene-overlook-in-guangzhou-city-park-36063986/) |
-| 帽峰山景区 | Bingqian Li | Pexels License | [pexels](https://www.pexels.com/photo/serene-riverside-view-in-guangzhou-park-36064128/) |
-| 帽峰山景区 | Bingqian Li | Pexels License | [pexels](https://www.pexels.com/photo/scenic-riverbank-view-in-guangzhou-park-36064129/) |
-| 帽峰山景区 | Bingqian Li | Pexels License | [pexels](https://www.pexels.com/photo/entrance-to-baiyun-mountain-in-guangzhou-china-36064131/) |
-| 孙中山大元帅府纪念馆 | Unknown photographer | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:1921%E5%B9%B4%E5%AD%99%E4%B8%AD%E5%B1%B1%E3%80%81%E5%AD%99%E7%A7%91%E4%B8%8E%E7%BF%A0%E4%BA%A8%E5%90%8C%E4%B9%A1%E5%90%88%E5%BD%B1.jpg) |
 | 孙中山大元帅府纪念馆 | Pedist | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dabenying_(Generalissimo_Sun_Yat-sen%27s_Mansion).jpg) |
-| 孙中山大元帅府纪念馆 | The Ka Wah Savings Bank Co., Ltd. | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Ka_Wah_Savings_Bank.JPG) |
-| 南海神庙 | IenjoyMatch | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Concourse,_Nanhai_God_Temple_Station,_Guangzhou_Metro_20260116.jpg) |
-| 南海神庙 | PQ77wd | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Decoration_on_PILLAR_at_Nanhai_God_Temple_Station.jpg) |
-| 南海神庙 | Nissangeniss | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Exit_C2,_Nanhai_God_Temple_Station,_Guangzhou_Metro.jpg) |
 | 南汉二陵博物馆 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250913_Celadon_covered_jars_with_four_ears_in_the_Southern_Han_Mausoleums_Museum.jpg) |
 | 南汉二陵博物馆 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250913_Celadon_jar_with_six_ears_in_the_Southern_Han_Mausoleums_Museum.jpg) |
 | 南汉二陵博物馆 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250913_Celadon_jars_and_celadon_covered_jars_in_the_Southern_Han_Mausoleums_Museum.jpg) |
@@ -177,15 +148,7 @@
 | 沙面岛 | Wikimedia Commons 贡献者 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:ABridgeInShamian.JPG) |
 | 沙面岛 | 方人也 | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Guangzhou_Sub-branch,_Bank_of_Taiwan_20211114.jpg) |
 | 沙面岛 | 方人也 | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Guangzhou_Sub-branch,_Bank_of_Taiwan_20211226.jpg) |
-| 沙湾古镇 | happyJa | Pexels License | [pexels](https://www.pexels.com/photo/dafo-temple-in-guangzhou-19794964/) |
-| 沙湾古镇 | fei wang | Pexels License | [pexels](https://www.pexels.com/photo/cantonese-opera-art-museum-in-guangzhou-20994303/) |
-| 沙湾古镇 | 清风 明月 | Pexels License | [pexels](https://www.pexels.com/photo/clouds-over-temple-15587267/) |
 | 中共三大会址纪念馆 | JULIANISME | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:La_Jeunesse_(Quarterly)_vol.3.jpg) |
-| 中共三大会址纪念馆 | YFS Visuals | Pexels License | [pexels](https://www.pexels.com/photo/monument-to-the-people-s-heroes-in-tiananmen-square-30346296/) |
-| 中共三大会址纪念馆 | Markus Winkler | Pexels License | [pexels](https://www.pexels.com/photo/chairman-mao-memorial-hall-in-beijing-5075261/) |
-| 中共三大会址纪念馆 | Markus Winkler | Pexels License | [pexels](https://www.pexels.com/photo/guard-by-chairman-mao-memorial-hall-in-beijing-5075258/) |
-| 中共三大会址纪念馆 | Guillaume Kremer | Pexels License | [pexels](https://www.pexels.com/photo/statue-of-chiang-kai-shek-in-memorial-hall-37975563/) |
-| 中共三大会址纪念馆 | BUY Camera | Pexels License | [pexels](https://www.pexels.com/photo/national-theater-taiwan-under-cloudy-sky-38723188/) |
 | 华南国家植物园 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Araucaria_columnaris_-_South_China_Botanical_Garden_2013.11.02_10-22-22.jpg) |
 | 华南国家植物园 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Araucaria_columnaris_-_South_China_Botanical_Garden_2013.11.02_10-23-14.jpg) |
 | 华南国家植物园 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gerbera_-_South_China_Botanical_Garden_2013.11.02_14-18-03.jpg) |
@@ -207,107 +170,42 @@
 | 圆玄道观 | 蒋鹏飞 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9C%86%E7%8E%84%E9%81%93%E8%A7%82-%E6%B0%B4%E5%96%84%E5%88%A9%E4%B8%87%E7%89%A9%E8%80%8C%E4%B8%8D%E4%BA%89_-_panoramio.jpg) |
 | 圆玄道观 | 蒋鹏飞 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9C%86%E7%8E%84%E9%81%93%E8%A7%82-%E6%B5%AE%E9%9B%95%E7%9F%B3%E5%88%BB_-_panoramio.jpg) |
 | 圆玄道观 | 蒋鹏飞 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9C%86%E7%8E%84%E9%81%93%E8%A7%82-%E7%9B%86%E6%99%AF_-_panoramio.jpg) |
-| 粤海关博物馆 | Ansgar Koreng | CC BY-SA 3.0 de | [wikimedia](https://commons.wikimedia.org/wiki/File:Deutsches_Historisches_Museum,_Berlin-Mitte,_170128,_ako.jpg) |
-| 粤海关博物馆 | Cangminzho | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%BD%97%E6%B9%96%E7%81%AB%E8%BD%A6%E7%AB%99_3445.jpg) |
-| 越秀公园 | Own work | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Exit_B1,_Yuexiu_Park_Station,_Guangzhou_Metro.jpg) |
-| 越秀公园 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E5%9C%B0%E9%93%812%E5%8F%B7%E7%BA%BF%E8%B6%8A%E7%A7%80%E5%85%AC%E5%9B%AD%E7%AB%99.jpg) |
 | 越秀公园 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E8%B6%8A%E7%A7%80%E5%85%AC%E5%9B%AD_-_panoramio.jpg) |
 | 余荫山房 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangzhou_Panyu_Yuyin_Shanfang_2012.11.19_15-39-41.jpg) |
 | 余荫山房 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangzhou_Panyu_Yuyin_Shanfang_2012.11.19_15-47-51.jpg) |
 | 余荫山房 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangzhou_Panyu_Yuyin_Shanfang_2012.11.19_15-50-52.jpg) |
-| 詹天佑故居纪念馆 | 高 长华 | Pexels License | [pexels](https://www.pexels.com/photo/historic-monument-in-guangzhou-park-37106733/) |
-| 詹天佑故居纪念馆 | Bingqian Li | Pexels License | [pexels](https://www.pexels.com/photo/guangzhou-s-impressive-monument-under-blue-skies-36063974/) |
-| 詹天佑故居纪念馆 | Libertykon Lee | Pexels License | [pexels](https://www.pexels.com/photo/elegant-chinese-architecture-with-blossoms-38303267/) |
-| 詹天佑故居纪念馆 | Alan Wang | Pexels License | [pexels](https://www.pexels.com/photo/front-of-guo-ziyi-memorial-hall-in-taipei-21619505/) |
-| 詹天佑故居纪念馆 | Tito Zzzz | Pexels License | [pexels](https://www.pexels.com/photo/asian-green-roof-20256380/) |
-| 詹天佑故居纪念馆 | Bingqian Li | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-architecture-in-guangzhou-35272148/) |
-| 镇海楼（广州博物馆） | Gao Jianfu | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Gao_Jianfu,_Twilight_at_Zhenhai_Tower_(1926).jpg) |
 | 镇海楼（广州博物馆） | Gary Todd from Xinzheng, China | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Zhenhai_Tower,_Yuexiu_Park,_Guangzhou_(10075748113).jpg) |
 | 镇海楼（广州博物馆） | 中少 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Zhenhai_Tower_Exterior.jpg) |
-| 宝华面店 | Жанна  Алимкулова | Pexels License | [pexels](https://www.pexels.com/photo/night-market-fruit-stall-in-guangzhou-china-37458768/) |
-| 宝华面店 | KITSUN YUEN | Pexels License | [pexels](https://www.pexels.com/photo/people-sitting-on-the-chairs-near-the-store-7614897/) |
-| 宝华面店 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
 | 北园酒家 | CRCHF | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:BakJyunZauGaa.jpg) |
 | 北园酒家 | 中少 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Beiyuan_Restaurant.jpg) |
 | 北园酒家 | 古海岸遗址 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Beiyuan_Restaurant_Garden-1.jpg) |
-| 陈添记鱼皮 | Жанна  Алимкулова | Pexels License | [pexels](https://www.pexels.com/photo/night-market-fruit-stall-in-guangzhou-china-37458768/) |
-| 陈添记鱼皮 | KITSUN YUEN | Pexels License | [pexels](https://www.pexels.com/photo/people-sitting-on-the-chairs-near-the-store-7614897/) |
-| 陈添记鱼皮 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 点都德 | 单独 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Words%E7%82%B9%E9%83%BD%E5%BE%B7.png) |
-| 芬芳甜品 | Жанна  Алимкулова | Pexels License | [pexels](https://www.pexels.com/photo/night-market-fruit-stall-in-guangzhou-china-37458768/) |
-| 芬芳甜品 | KITSUN YUEN | Pexels License | [pexels](https://www.pexels.com/photo/people-sitting-on-the-chairs-near-the-store-7614897/) |
-| 芬芳甜品 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
 | 广州酒家（文昌路店） | Kuruman from Tokyo, Japan | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_WP_20160811_002_(28645574423).jpg) |
-| 广州酒家（文昌路店） | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Components_of_self-heating_rice_(20211111172710).jpg) |
-| 广州酒家（文昌路店） | Ghaud Lnegauk | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E_Zhujiang_New_Town_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E8%8F%AF%E7%A9%97%E8%B7%AF_HuaSui_Road_shop_KFC_Restaurant_September_2024_R12S_05.jpg) |
-| 莲香楼 | KITSUN YUEN | Pexels License | [pexels](https://www.pexels.com/photo/people-sitting-on-the-chairs-near-the-store-7614897/) |
-| 莲香楼 | tslui | Pexels License | [pexels](https://www.pexels.com/photo/street-market-in-asia-at-night-19468243/) |
-| 莲香楼 | KITSUN YUEN | Pexels License | [pexels](https://www.pexels.com/photo/concrete-buildings-in-an-urban-area-at-night-7614896/) |
 | 南信牛奶甜品 | PQ77wd | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Naamseon_Milk_Dessert.jpg) |
 | 泮溪酒家 | MeiOLA 2290 WMENSZ | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8D%94%E7%81%A3%E5%8D%80_Liwan_%E9%BE%8D%E6%B4%A5%E8%A5%BF%E8%B7%AF_Longjin_West_Road_shop_%E6%B3%AE%E6%BA%AA%E9%85%92%E5%AE%B6_Pan_Xi_Restaurant_lake_June_2025_R12S_01.jpg) |
-| 泮溪酒家 | MeiOLA 2290 WMENSZ | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8D%94%E7%81%A3%E5%8D%80_Liwan_%E9%BE%8D%E6%B4%A5%E8%A5%BF%E8%B7%AF_Longjin_West_Road_shop_%E6%B3%AE%E6%BA%AA%E9%85%92%E5%AE%B6_Pan_Xi_Restaurant_name_sign_June_2025_R12S_01.jpg) |
 | 泮溪酒家 | MeiOLA 2290 WMENSZ | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8D%94%E7%81%A3%E5%8D%80_Liwan_%E9%BE%8D%E6%B4%A5%E8%A5%BF%E8%B7%AF_Longjin_West_Road_shop_%E6%B3%AE%E6%BA%AA%E9%85%92%E5%AE%B6_Pan_Xi_Restaurant_room_June_2025_R12S_01.jpg) |
 | 清平饭店（清平鸡） | Gzdavidwong | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Ching_Ping.jpg) |
-| 顺记冰室 | Жанна  Алимкулова | Pexels License | [pexels](https://www.pexels.com/photo/night-market-fruit-stall-in-guangzhou-china-37458768/) |
-| 顺记冰室 | KITSUN YUEN | Pexels License | [pexels](https://www.pexels.com/photo/people-sitting-on-the-chairs-near-the-store-7614897/) |
-| 顺记冰室 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 陶陶居（第十甫路总店） | Unknown authorUnknown author | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:1930%E9%99%B6%E9%99%B6%E5%B1%85%E5%91%8A%E7%99%BD.jpg) |
-| 陶陶居（第十甫路总店） | Rushenb | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Amolops_panhai,_Panha%27s_torrent_frog_-_Kui_Buri_Natioal_Park_(40612198013).jpg) |
 | 陶陶居（第十甫路总店） | MeiOLA 2290 WMENSZ | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E6%82%85%E5%8C%AF%E5%9F%8E_Yue_City_Shopping_Mall_shop_%E5%BB%A3%E5%B7%9E%E9%99%B6%E9%99%B6%E5%B1%85_To_To_Kui_Restaurant_June_2025_R12S_02.jpg) |
 | 白天鹅宾馆·玉堂春暖 | GAUAI Shfj 992833 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_GZ_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3_Tianhe_%E8%BB%8A%E9%99%82%E8%B7%AF_CheBei_Road_shop_%E7%AD%B7%E7%AF%80%E5%A5%8F_%E8%87%AA%E7%82%92%E8%87%AA%E9%81%B8%E7%B0%A1%E9%A4%90%E5%BB%B3_Kuai_Jie_Zou_Fast_Food_Restaurant_interior_visitors_staff_in_%E9%96%93%E6%A2%9D%E5%88%B6%E6%9C%8D_uniform_October_2024_R12S_01.jpg) |
 | 白天鹅宾馆·玉堂春暖 | GAUAI Shfj 992833 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_GZ_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3_Tianhe_%E8%BB%8A%E9%99%82%E8%B7%AF_CheBei_Road_shop_%E7%AD%B7%E7%AF%80%E5%A5%8F_%E8%87%AA%E7%82%92%E8%87%AA%E9%81%B8%E7%B0%A1%E9%A4%90%E5%BB%B3_Kuai_Jie_Zou_Fast_Food_Restaurant_interior_visitors_staff_in_%E9%96%93%E6%A2%9D%E5%88%B6%E6%9C%8D_uniform_October_2024_R12S_02.jpg) |
 | 白天鹅宾馆·玉堂春暖 | MROMP kam olAIE | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_GZ_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3%E8%B7%AF_383_Tianhe_Road_%E5%BB%A3%E5%B7%9E%E5%A4%AA%E5%8F%A4%E6%BB%99%E5%95%86%E5%A0%B4_Taikoo_Hui_mall_October_2024_R12S_19.jpg) |
-| 吴财记面家 | Жанна  Алимкулова | Pexels License | [pexels](https://www.pexels.com/photo/night-market-fruit-stall-in-guangzhou-china-37458768/) |
-| 吴财记面家 | KITSUN YUEN | Pexels License | [pexels](https://www.pexels.com/photo/people-sitting-on-the-chairs-near-the-store-7614897/) |
-| 吴财记面家 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 银记肠粉（上下九店） | Жанна  Алимкулова | Pexels License | [pexels](https://www.pexels.com/photo/night-market-fruit-stall-in-guangzhou-china-37458768/) |
-| 银记肠粉（上下九店） | KITSUN YUEN | Pexels License | [pexels](https://www.pexels.com/photo/people-sitting-on-the-chairs-near-the-store-7614897/) |
-| 银记肠粉（上下九店） | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 1850 创意园 | tslui | Pexels License | [pexels](https://www.pexels.com/photo/street-market-in-asia-at-night-19468243/) |
-| 1850 创意园 | Bingqian Li | Pexels License | [pexels](https://www.pexels.com/photo/bustling-commercial-square-in-guangzhou-china-35272160/) |
-| 1850 创意园 | 豫 武 | Pexels License | [pexels](https://www.pexels.com/photo/black-and-white-photo-of-tiered-passageways-among-buildings-13459640/) |
-| 东山口与新河浦 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250222_Guangzhou_City_God_Temple_01.jpg) |
-| 东山口与新河浦 | JULIANISME | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangzhou_CITIC_Plaza_at_Night.jpg) |
-| 东山口与新河浦 | 沈澄心 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangzhou_City_God_Temple_20250121_01.jpg) |
 | 二沙岛 | 蒋鹏飞 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2007%E4%BF%AF%E7%9E%B0%E5%B9%BF%E5%B7%9E%E5%A4%A7%E6%A1%A5%E4%BA%8C%E6%B2%99%E5%B2%9B%E5%85%AC%E5%9B%AD_-_panoramio.jpg) |
-| 二沙岛 | Tim Wu | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Construction_Site,_Ersha_Island_Station,_Guangzhou_Metro_20220206.jpg) |
-| 二沙岛 | 中少 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Construction_Site,_Ersha_Island_Station,_Guangzhou_Metro_20220918-01.jpg) |
 | 广州艺术博物院（白鹅潭馆区） | Tim Wu | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Aerial_View,_Guangzhou_Museum_of_Art_20241027-A.jpg) |
 | 广州艺术博物院（白鹅潭馆区） | Tim Wu | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Aerial_View,_Guangzhou_Museum_of_Art_20241027-B.jpg) |
-| 广州艺术博物院（白鹅潭馆区） | 中少 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Exterior,_Guangzhou_Museum_of_Art_20231215-01.jpg) |
-| 广州大剧院 | Jasonjiang.1998 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Concourse,_Guangzhou_Opera_House_Station,_Guangzhou_Metro_20251016.jpg) |
-| 广州大剧院 | Jasonjiang.1998 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Exit_A,_Guangzhou_Opera_House_Station,_Guangzhou_Metro_20251016-C.jpg) |
-| 广州大剧院 | Jasonjiang.1998 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Exit_A,_Guangzhou_Opera_House_Station,_Guangzhou_Metro_20251016-D.jpg) |
 | 海心桥 | Shujianyang | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hai_Xin_Bridge_of_Guangzhou_01.jpg) |
 | 海心桥 | Shujianyang | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hai_Xin_Bridge_of_Guangzhou_02.jpg) |
 | 海心桥 | Shujianyang | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hai_Xin_Bridge_of_Guangzhou_03.jpg) |
 | 花城广场 | zengsx | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BB%8E%E9%98%85%E6%B1%9F%E8%A5%BF%E8%B7%AF%E7%9C%8B%E8%8A%B1%E5%9F%8E%E5%B9%BF%E5%9C%BA_-_panoramio.jpg) |
 | 花城广场 | zengsx | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E4%BA%9A%E8%BF%90%E4%BC%9A%E7%9C%8B%E5%8F%B0_-_panoramio.jpg) |
 | 花城广场 | zengsx | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E5%86%9C%E6%9D%91%E5%95%86%E4%B8%9A%E9%93%B6%E8%A1%8C_-_panoramio.jpg) |
-| 珠江夜游 | Grace L. | Pexels License | [pexels](https://www.pexels.com/photo/cars-on-the-red-light-at-the-intersection-23626370/) |
-| 珠江夜游 | tslui | Pexels License | [pexels](https://www.pexels.com/photo/motor-scooters-and-cars-on-street-21628895/) |
-| 珠江夜游 | Muhamad Guruh Budi Hartono | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-night-street-scene-in-guangzhou-city-30304264/) |
-| 石围塘火车站 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250222_Guangzhou_City_God_Temple_01.jpg) |
-| 石围塘火车站 | JULIANISME | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangzhou_CITIC_Plaza_at_Night.jpg) |
-| 石围塘火车站 | 沈澄心 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangzhou_City_God_Temple_20250121_01.jpg) |
 | 羊城创意园 | 中少 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yangcheng_Creative_Industrial_Park_20201003-01.jpg) |
 | 羊城创意园 | 中少 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yangcheng_Creative_Industrial_Park_20201003-02.jpg) |
 | 羊城创意园 | 中少 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yangcheng_Creative_Industrial_Park_20201003-03.jpg) |
 | 北京路步行街 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250222_Site_of_the_Ancient_Street_at_Beijing_Road_01.jpg) |
 | 北京路步行街 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250222_Site_of_the_Ancient_Street_at_Beijing_Road_02.jpg) |
 | 北京路步行街 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250222_Street_scene_of_Beijing_Road_01.jpg) |
-| 荔枝湾涌 | Johan Friedrich Dalman | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Canton_Thirteen_Factories_map_1748-49_enhanced_with_translations.jpg) |
-| 荔枝湾涌 | Johan Friedrich Dalman | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Canton_town_map_1748-49_enhanced_with_translations.jpg) |
-| 荔枝湾涌 | Ghaud Lnegauk | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3%E5%8D%80_TianHe_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E%E7%AB%99_ZhuJiang_New_Town_Station_A2_exit_and_entrance_escalators_logistics_worker_paper_carton_boxes_September_2024_R12S_01.jpg) |
 | 上下九步行街 | FHKE | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20080809_Canton_31.jpg) |
 | 上下九步行街 | FHKE | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20080810_Canton_30.jpg) |
 | 上下九步行街 | Ricky Chow | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Liwanplaza.jpg) |
 | 星海音乐厅 | Yuxuan1122 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E4%BA%A4%E5%93%8D%E4%B9%90%E5%9B%A2.jpg) |
 | 星海音乐厅 | jiang-wen-jie | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%98%9F%E6%B5%B7%E9%9F%B3%E4%B9%90%E5%8E%85Scenery_in_Guangzhou,_China_-_panoramio.jpg) |
 | 星海音乐厅 | User Wikipedia on zh.wikipedia | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20031122103838.jpg) |
-| 永庆坊 | Bingqian Li | Pexels License | [pexels](https://www.pexels.com/photo/traditional-architecture-in-guangzhou-street-scene-35272124/) |
-| 永庆坊 | Frank Lv | Pexels License | [pexels](https://www.pexels.com/photo/historic-brick-building-with-vibrant-street-art-34862393/) |
-| 永庆坊 | Evon Feng | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-street-with-iconic-architecture-39593114/) |
-| 广州粤剧院·红线女艺术中心 | yeemeng Chay | Pexels License | [pexels](https://www.pexels.com/photo/puppet-28163897/) |
-| 广州粤剧院·红线女艺术中心 | Alexandra  Lavizzari | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-opera-performer-in-costume-36422762/) |
-| 广州粤剧院·红线女艺术中心 | David Lund | Pexels License | [pexels](https://www.pexels.com/photo/colorful-traditional-asian-opera-performer-portrait-36545226/) |

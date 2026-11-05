@@ -42,48 +42,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Berdaq_baba_mosque_in_Kungirat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Berdaq_baba_mosque_in_Kungirat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 709,
-      "alt": "Berdaq baba mosque in Kungirat.jpg",
-      "query": "巴巴寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Janabaevazizbek",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berdaq_baba_mosque_in_Kungirat.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Interior_of_Sai_Baba_Temple..JPG/1280px-Interior_of_Sai_Baba_Temple..JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Interior_of_Sai_Baba_Temple..JPG/1280px-Interior_of_Sai_Baba_Temple..JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Interior of Sai Baba Temple..JPG",
-      "query": "巴巴寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Makks2010",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Interior_of_Sai_Baba_Temple..JPG",
-        "license": "Public domain",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Istanbul_%C3%9Csk%C3%BCdar_Mustafa_Kavsar_Baba_mosque_3449.jpg/1280px-Istanbul_%C3%9Csk%C3%BCdar_Mustafa_Kavsar_Baba_mosque_3449.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Istanbul_%C3%9Csk%C3%BCdar_Mustafa_Kavsar_Baba_mosque_3449.jpg/1280px-Istanbul_%C3%9Csk%C3%BCdar_Mustafa_Kavsar_Baba_mosque_3449.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/%E5%B7%B4%E5%B7%B4%E5%AF%BA.JPG/1280px-%E5%B7%B4%E5%B7%B4%E5%AF%BA.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/%E5%B7%B4%E5%B7%B4%E5%AF%BA.JPG/1280px-%E5%B7%B4%E5%B7%B4%E5%AF%BA.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
       "height": 720,
-      "alt": "Istanbul Üsküdar Mustafa Kavsar Baba mosque 3449.jpg",
+      "alt": "巴巴寺.JPG",
       "query": "巴巴寺",
       "credit": {
         "source": "wikimedia",
-        "author": "Dosseman",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Istanbul_%C3%9Csk%C3%BCdar_Mustafa_Kavsar_Baba_mosque_3449.jpg",
+        "author": "Nekitarc",
+        "sourceUrl": "https://www.wikidata.org/wiki/Q21017544",
         "license": "CC BY-SA 4.0",
         "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-01",
+        "tier": "exact"
       }
     }
   ],
@@ -103,7 +79,7 @@
       "fetchedAt": "2026-10-07"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-01",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

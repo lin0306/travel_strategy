@@ -1,0 +1,74 @@
+{
+  "id": "pingshancun",
+  "name": "屏山村",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "黟县屏风山下的船形古村，吉阳溪上八座石桥串起两百幢明清民居。",
+  "description": "屏山村在黟县县城东北四公里，村北一座形似屏风的山给了它名字，整个村子是「船形」布局——吉阳溪从村中穿过，八座石拱桥横在溪上，两岸两百多幢明清民居和八座祠堂排开，就是徽州人说的「小桥流水人家」。核心是舒氏祠堂群：舒光裕堂门头有徽州少见的彩色石画，舒庆余堂规模最大，另有御前侍卫贴墙牌坊、小绣楼、长宁湖、葫芦井这些零散的点。这里同时是全国知名的写生基地，巷子里常有人支画架，比宏村安静得多，也是《幸福到万家》的取景地。走完村子两小时够，慢一点可以待半天，和宏村、西递相距约十公里。",
+  "highlights": [
+    "吉阳溪上八座古石桥",
+    "舒光裕堂的彩色石画门头",
+    "写生基地，游客远少于宏村"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.980478,
+      "lat": 29.939185,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "安徽省黄山市黟县宏村镇屏山村",
+    "district": "黟县",
+    "transportTip": "黟县县城乘 5 路公交到屏山景区站；黟县东站转 8 路、10 路到县城再换乘。"
+  },
+  "practical": {
+    "openHours": "08:00-17:00（另有 07:30-17:30 的说法，出发前确认）",
+    "openHoursRef": 0,
+    "ticket": "45 元（网络特价约 25 元，优待票 25 元）",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "family",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [
+    "祠堂平时闭门，到售票处记下电话请人开门",
+    "巷子容易迷路，沿溪走不会丢方向",
+    "早上八点前、下午五点后可免票进村"
+  ],
+  "images": [],
+  "coverIndex": 0,
+  "tags": [
+    "古村",
+    "祠堂",
+    "写生",
+    "小桥流水"
+  ],
+  "popularity": 68,
+  "sources": [
+    {
+      "title": "黟县 A 级旅游景区基本情况",
+      "url": "https://www.yixian.gov.cn/zwgk/grassroots/6615899/11662178.html",
+      "kind": "gov",
+      "fetchedAt": "2026-11-03"
+    }
+  ],
+  "updatedAt": "2026-11-03",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Pingshan Village",
+    "zh": "屏山村"
+  },
+  "_geocodeTitle": "屏山村",
+  "_geocodeSuspect": false,
+  "_noImage": true,
+  "district": "341023"
+}

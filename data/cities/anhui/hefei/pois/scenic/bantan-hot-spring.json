@@ -44,53 +44,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/15289946/pexels-photo-15289946.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/15289946/pexels-photo-15289946.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 7952,
-      "height": 5304,
-      "alt": "A serene hot spring landscape with steam rising amidst lush greenery, attracting tourists.",
-      "query": "Bantan Hot Spring Chaohu",
-      "credit": {
-        "source": "pexels",
-        "author": "Jimmy Liao",
-        "sourceUrl": "https://www.pexels.com/photo/view-of-a-hot-spring-15289946/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/35300820/pexels-photo-35300820.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35300820/pexels-photo-35300820.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4672,
-      "height": 7008,
-      "alt": "Woman in a hat enjoying a calming soak in an outdoor hot spring bath surrounded by nature.",
-      "query": "Bantan Hot Spring Chaohu",
-      "credit": {
-        "source": "pexels",
-        "author": "光术 山影",
-        "sourceUrl": "https://www.pexels.com/photo/woman-relaxing-in-outdoor-japanese-onsen-tub-35300820/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/11741633/pexels-photo-11741633.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/11741633/pexels-photo-11741633.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 3024,
-      "alt": "A picturesque view of lush mountains, vibrant greenery, and a bright blue sky with fluffy clouds.",
-      "query": "Bantan Hot Spring Chaohu",
-      "credit": {
-        "source": "pexels",
-        "author": "Starzzz Studios",
-        "sourceUrl": "https://www.pexels.com/photo/hot-spring-in-the-mountain-valley-11741633/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "温泉",
@@ -106,7 +60,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Bantan Hot Spring Chaohu",
@@ -114,5 +68,6 @@
   },
   "_geocodeTitle": "半汤温泉苑",
   "_geocodeSuspect": false,
-  "district": "340181"
+  "district": "340181",
+  "_noImage": true
 }

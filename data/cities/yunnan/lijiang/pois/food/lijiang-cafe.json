@@ -40,53 +40,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/34622070/pexels-photo-34622070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34622070/pexels-photo-34622070.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3000,
-      "height": 4000,
-      "alt": "Scenic view of Lijiang's floral-lined canal with traditional architecture.",
-      "query": "cafe interior lijiang",
-      "credit": {
-        "source": "pexels",
-        "author": "Pua Tresia",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-architecture-by-riverside-34622070/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/16827186/pexels-photo-16827186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/16827186/pexels-photo-16827186.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3376,
-      "height": 6000,
-      "alt": "A charming arched passageway with open doors leading to a cozy urban space.",
-      "query": "cafe interior lijiang",
-      "credit": {
-        "source": "pexels",
-        "author": "Harun",
-        "sourceUrl": "https://www.pexels.com/photo/narrow-passage-in-a-city-building-and-open-door-16827186/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/14313093/pexels-photo-14313093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/14313093/pexels-photo-14313093.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5472,
-      "height": 3648,
-      "alt": "Breathtaking waterfall amidst lush green forests and rocky terrain in Lijiang, perfect for nature photography.",
-      "query": "cafe interior lijiang",
-      "credit": {
-        "source": "pexels",
-        "author": "fei wang",
-        "sourceUrl": "https://www.pexels.com/photo/waterfalls-beside-the-green-mountain-14313093/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "咖啡",
@@ -102,7 +56,7 @@
       "fetchedAt": "2026-09-30"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -111,5 +65,6 @@
   "_geocodeTitle": "小吧黎酒吧(束河店)",
   "_geocodeSuspect": false,
   "coordSystem": "GCJ-02",
-  "district": "530702"
+  "district": "530702",
+  "_noImage": true
 }

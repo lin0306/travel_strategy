@@ -45,53 +45,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/29755942/pexels-photo-29755942.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/29755942/pexels-photo-29755942.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 3375,
-      "alt": "A scenic view of a historic building surrounded by lush gardens in Macau.",
-      "query": "Lou Lim Ieoc Garden Macau",
-      "credit": {
-        "source": "pexels",
-        "author": "Blackcurrant Great",
-        "sourceUrl": "https://www.pexels.com/photo/historic-building-and-garden-in-macau-29755942/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36339995/pexels-photo-36339995.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36339995/pexels-photo-36339995.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3770,
-      "height": 5655,
-      "alt": "Peaceful outdoor view of a Chinese temple surrounded by green trees.",
-      "query": "Lou Lim Ieoc Garden Macau",
-      "credit": {
-        "source": "pexels",
-        "author": "Minlin Zhong",
-        "sourceUrl": "https://www.pexels.com/photo/serene-chinese-temple-with-lush-trees-36339995/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38347637/pexels-photo-38347637.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38347637/pexels-photo-38347637.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3072,
-      "height": 2048,
-      "alt": "Explore the vibrant streets and local shops of Macau's picturesque historical district.",
-      "query": "Lou Lim Ieoc Garden Macau",
-      "credit": {
-        "source": "pexels",
-        "author": "Kamus Cheung",
-        "sourceUrl": "https://www.pexels.com/photo/charming-street-view-of-historical-macau-38347637/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "园林",
@@ -107,7 +61,7 @@
       "fetchedAt": "2026-10-03"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Lou Lim Ieoc Garden Macau",
@@ -115,5 +69,6 @@
   },
   "_geocodeTitle": "卢廉若公园",
   "_geocodeSuspect": false,
-  "district": "820100"
+  "district": "820100",
+  "_noImage": true
 }

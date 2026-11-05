@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/22043359/pexels-photo-22043359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/22043359/pexels-photo-22043359.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5472,
-      "height": 3648,
-      "alt": "Aerial view of a historic village in Jiangxi, China surrounded by lush greenery and a tranquil river.",
-      "query": "Yaoli water street Jiangxi",
-      "credit": {
-        "source": "pexels",
-        "author": "jason hu",
-        "sourceUrl": "https://www.pexels.com/photo/birds-eye-view-of-an-ancient-town-in-li-valley-in-china-22043359/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/22043349/pexels-photo-22043349.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/22043349/pexels-photo-22043349.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5472,
-      "height": 3648,
-      "alt": "A scenic aerial shot capturing a traditional village and river in Jiangxi, China. Ideal for travel and culture themes.",
-      "query": "Yaoli water street Jiangxi",
-      "credit": {
-        "source": "pexels",
-        "author": "jason hu",
-        "sourceUrl": "https://www.pexels.com/photo/drone-shot-of-village-and-river-22043349/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/2246637/pexels-photo-2246637.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/2246637/pexels-photo-2246637.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3926,
-      "height": 5660,
-      "alt": "Black and white photo of a person carrying buckets through an ancient archway.",
-      "query": "Yaoli water street Jiangxi",
-      "credit": {
-        "source": "pexels",
-        "author": "Darry Lin",
-        "sourceUrl": "https://www.pexels.com/photo/man-carrying-barrel-in-black-and-white-photography-2246637/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "水街",
@@ -100,12 +54,13 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Yaoli water street Jiangxi",
     "zh": "瑶里水街"
   },
   "_geocodeTitle": "瑶里镇",
-  "district": "360222"
+  "district": "360222",
+  "_noImage": true
 }

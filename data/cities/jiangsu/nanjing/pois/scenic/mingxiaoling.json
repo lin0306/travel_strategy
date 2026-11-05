@@ -40,48 +40,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Zhu_Biao.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Zhu_Biao.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Nanjing_Ming_Xiaoling_2017.11.11_08-10-27.jpg/1280px-Nanjing_Ming_Xiaoling_2017.11.11_08-10-27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Nanjing_Ming_Xiaoling_2017.11.11_08-10-27.jpg/1280px-Nanjing_Ming_Xiaoling_2017.11.11_08-10-27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
-      "height": 1061,
-      "alt": "Zhu Biao.jpg",
-      "query": "明孝陵 南京",
+      "height": 720,
+      "alt": "Nanjing Ming Xiaoling 2017.11.11 08-10-27.jpg",
+      "query": "明孝陵",
       "credit": {
         "source": "wikimedia",
-        "author": "Edg007mbk",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhu_Biao.jpg",
+        "author": "Zhangzhugang",
+        "sourceUrl": "https://www.wikidata.org/wiki/Q28769",
         "license": "CC BY-SA 4.0",
         "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Zhu_Biao_and_Empress_Ma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Zhu_Biao_and_Empress_Ma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1426,
-      "alt": "Zhu Biao and Empress Ma.jpg",
-      "query": "明孝陵 南京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Unknown authorUnknown author",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhu_Biao_and_Empress_Ma.jpg",
-        "license": "Public domain",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/%E5%8D%97%E4%BA%AC-%E7%B4%AB%E9%87%91%E5%B1%B1%E6%98%8E%E5%AD%9D%E9%99%B5_-_panoramio.jpg/1280px-%E5%8D%97%E4%BA%AC-%E7%B4%AB%E9%87%91%E5%B1%B1%E6%98%8E%E5%AD%9D%E9%99%B5_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/%E5%8D%97%E4%BA%AC-%E7%B4%AB%E9%87%91%E5%B1%B1%E6%98%8E%E5%AD%9D%E9%99%B5_-_panoramio.jpg/1280px-%E5%8D%97%E4%BA%AC-%E7%B4%AB%E9%87%91%E5%B1%B1%E6%98%8E%E5%AD%9D%E9%99%B5_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 213,
-      "alt": "南京-紫金山明孝陵 - panoramio.jpg",
-      "query": "明孝陵 南京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "PeterCheng",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC-%E7%B4%AB%E9%87%91%E5%B1%B1%E6%98%8E%E5%AD%9D%E9%99%B5_-_panoramio.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
       }
     }
   ],
@@ -100,7 +76,7 @@
       "fetchedAt": "2026-09-23"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-05",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

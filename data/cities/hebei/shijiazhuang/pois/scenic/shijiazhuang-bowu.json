@@ -52,21 +52,11 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jrwrsh.jpg",
         "license": "CC BY 1.0",
         "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/ChangXingongdeng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/ChangXingongdeng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1373,
-      "alt": "ChangXingongdeng.jpg",
-      "query": "石家庄市博物馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "User Refrain on zh.wikipedia",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:ChangXingongdeng.jpg",
-        "license": "CC BY 1.0",
-        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-10-31"
       }
     },
     {
@@ -82,6 +72,11 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shijiazhuang_Museum_Square.jpg",
         "license": "CC BY-SA 3.0",
         "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-10-31"
       }
     }
   ],
@@ -100,7 +95,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

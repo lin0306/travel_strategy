@@ -40,53 +40,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/3998378/pexels-photo-3998378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/3998378/pexels-photo-3998378.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2543,
-      "height": 1700,
-      "alt": "Monochrome photo capturing seniors sitting outdoors in Lhasa, Tibet.",
-      "query": "art district gallery lhasa",
-      "credit": {
-        "source": "pexels",
-        "author": "ZHANQUN CAI",
-        "sourceUrl": "https://www.pexels.com/photo/grayscale-photo-of-elderly-people-sitted-3998378/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38374705/pexels-photo-38374705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38374705/pexels-photo-38374705.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4160,
-      "height": 6240,
-      "alt": "Detailed view of classic Tibetan architecture with colorful decorations in Lhasa, Tibet.",
-      "query": "art district gallery lhasa",
-      "credit": {
-        "source": "pexels",
-        "author": "Martin Chan",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-tibetan-architecture-in-lhasa-38374705/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/27134677/pexels-photo-27134677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/27134677/pexels-photo-27134677.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4160,
-      "height": 6240,
-      "alt": "Close-up of ancient white wall architecture featuring rows of windows and unique stepped design.",
-      "query": "art district gallery lhasa",
-      "credit": {
-        "source": "pexels",
-        "author": "虎 曼",
-        "sourceUrl": "https://www.pexels.com/photo/low-angle-shot-of-the-potala-palace-exterior-lhasa-tibet-27134677/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "博物馆",
@@ -102,7 +56,7 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -110,5 +64,6 @@
   },
   "_geocodeTitle": "西藏非物质文化遗产博物馆",
   "_geocodeSuspect": false,
-  "district": "540102"
+  "district": "540102",
+  "_noImage": true
 }

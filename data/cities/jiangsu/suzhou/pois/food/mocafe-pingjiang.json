@@ -40,48 +40,45 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/38139971/pexels-photo-38139971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38139971/pexels-photo-38139971.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4022,
-      "height": 6034,
-      "alt": "Warm interior of a bustling cafe in Suzhou, China with a barista at the counter.",
-      "query": "cafe interior suzhou",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Pingjiang_Road%2C_Gusu%2C_Suzhou%2C_Jiangsu%2C_China%2C_215000_-_panoramio.jpg/1280px-Pingjiang_Road%2C_Gusu%2C_Suzhou%2C_Jiangsu%2C_China%2C_215000_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Pingjiang_Road%2C_Gusu%2C_Suzhou%2C_Jiangsu%2C_China%2C_215000_-_panoramio.jpg/1280px-Pingjiang_Road%2C_Gusu%2C_Suzhou%2C_Jiangsu%2C_China%2C_215000_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "猫的天空之城概念书店(平江路店)所在的街区实景（非本店门面）",
+      "query": "猫的天空之城概念书店(平江路店)",
       "credit": {
-        "source": "pexels",
-        "author": "Garrison Gao",
-        "sourceUrl": "https://www.pexels.com/photo/cozy-cafe-interior-in-suzhou-china-38139971/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "stone wu",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "street"
       }
     },
     {
-      "url": "https://images.pexels.com/photos/36466083/pexels-photo-36466083.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36466083/pexels-photo-36466083.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 2666,
-      "alt": "Two open wooden windows on a textured white wall in Suzhou, China.",
-      "query": "cafe interior suzhou",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Suzhou_canals_November_2017_004.jpg/1280px-Suzhou_canals_November_2017_004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Suzhou_canals_November_2017_004.jpg/1280px-Suzhou_canals_November_2017_004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "猫的天空之城概念书店(平江路店)所在的街区实景（非本店门面）",
+      "query": "猫的天空之城概念书店(平江路店)",
       "credit": {
-        "source": "pexels",
-        "author": "Garrison Gao",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-architecture-with-open-windows-36466083/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/35831304/pexels-photo-35831304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35831304/pexels-photo-35831304.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4337,
-      "height": 6587,
-      "alt": "Detailed view of an ornate wooden chair inside a traditional Suzhou setting, showcasing Asian craftsmanship.",
-      "query": "cafe interior suzhou",
-      "credit": {
-        "source": "pexels",
-        "author": "女子 正真",
-        "sourceUrl": "https://www.pexels.com/photo/intricate-wooden-chair-in-suzhou-interior-35831304/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "King of Hearts",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "street"
       }
     }
   ],
@@ -100,7 +97,7 @@
       "fetchedAt": "2026-09-19"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-05",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

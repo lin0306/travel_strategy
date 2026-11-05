@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/34967559/pexels-photo-34967559.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34967559/pexels-photo-34967559.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4128,
-      "height": 6192,
-      "alt": "Serene concrete path leading to a tree-covered island on a sunny day.",
-      "query": "Mingcui Lake Photo",
-      "credit": {
-        "source": "pexels",
-        "author": "Leila Chen",
-        "sourceUrl": "https://www.pexels.com/photo/tranquil-pathway-leading-to-scenic-island-34967559/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/35151722/pexels-photo-35151722.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35151722/pexels-photo-35151722.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2983,
-      "height": 3978,
-      "alt": "Tranquil autumn scene with a reflective lake and overhanging tree branches.",
-      "query": "Mingcui Lake Photo",
-      "credit": {
-        "source": "pexels",
-        "author": "Yanho Mo",
-        "sourceUrl": "https://www.pexels.com/photo/serene-autumn-lake-with-reflective-water-35151722/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/27908271/pexels-photo-27908271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/27908271/pexels-photo-27908271.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 6000,
-      "alt": "Tranquil view of a misty lakeside with lush trees and distant cityscape, perfect for travel inspiration.",
-      "query": "Mingcui Lake Photo",
-      "credit": {
-        "source": "pexels",
-        "author": "Andy Lee",
-        "sourceUrl": "https://www.pexels.com/photo/a-water-tower-with-a-windmill-on-top-27908271/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "湿地",
@@ -100,7 +54,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Mingcui Lake Photo",
@@ -108,5 +62,6 @@
   },
   "_geocodeTitle": "鸣翠湖国家湿地公园",
   "_geocodeSuspect": false,
-  "district": "640104"
+  "district": "640104",
+  "_noImage": true
 }

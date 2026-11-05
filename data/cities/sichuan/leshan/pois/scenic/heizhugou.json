@@ -42,53 +42,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/39556872/pexels-photo-39556872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39556872/pexels-photo-39556872.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "A breathtaking landscape of Panjshir Valley with lush greenery and towering mountains.",
-      "query": "Heizhugou Valley",
-      "credit": {
-        "source": "pexels",
-        "author": "Mirwais Mohammadi",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-panjshir-valley-mountains-39556872/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/9674393/pexels-photo-9674393.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/9674393/pexels-photo-9674393.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 2250,
-      "alt": "A breathtaking aerial view of the lush green valleys and majestic mountains in Dagestan, Russia.",
-      "query": "Heizhugou Valley",
-      "credit": {
-        "source": "pexels",
-        "author": "Nadezhda Moryak",
-        "sourceUrl": "https://www.pexels.com/photo/green-trees-on-the-mountain-9674393/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/1834396/pexels-photo-1834396.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/1834396/pexels-photo-1834396.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3992,
-      "height": 2992,
-      "alt": "Vibrant autumn colors in a mountain valley with clear lakes and snow-capped peaks.",
-      "query": "Heizhugou Valley",
-      "credit": {
-        "source": "pexels",
-        "author": "Yaroslav Shuraev",
-        "sourceUrl": "https://www.pexels.com/photo/photo-of-mountains-during-daytime-1834396/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "峡谷",
@@ -104,7 +58,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Heizhugou Valley",
@@ -112,5 +66,6 @@
   },
   "_geocodeTitle": "黑竹沟镇",
   "_geocodeSuspect": false,
-  "district": "511132"
+  "district": "511132",
+  "_noImage": true
 }

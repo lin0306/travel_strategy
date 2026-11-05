@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/31635647/pexels-photo-31635647.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/31635647/pexels-photo-31635647.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5464,
-      "height": 3640,
-      "alt": "A scenic aerial view of a cityscape showing lush green parks, residential buildings, and roads under an overcast sky.",
-      "query": "Fengshushan Forest Park Jingdezhen",
-      "credit": {
-        "source": "pexels",
-        "author": "jason hu",
-        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-cityscape-with-green-parks-and-buildings-31635647/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/18548336/pexels-photo-18548336.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/18548336/pexels-photo-18548336.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 6000,
-      "alt": "A tranquil forest pathway lined with trees provides a serene autumn setting.",
-      "query": "Fengshushan Forest Park Jingdezhen",
-      "credit": {
-        "source": "pexels",
-        "author": "鸦 翎",
-        "sourceUrl": "https://www.pexels.com/photo/a-pavement-between-trees-in-a-park-18548336/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38420465/pexels-photo-38420465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38420465/pexels-photo-38420465.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4024,
-      "height": 6048,
-      "alt": "Wooden deck surrounded by lush green trees in a serene forest environment.",
-      "query": "Fengshushan Forest Park Jingdezhen",
-      "credit": {
-        "source": "pexels",
-        "author": "木 灬",
-        "sourceUrl": "https://www.pexels.com/photo/tranquil-forest-deck-in-a-lush-green-setting-38420465/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "森林公园",
@@ -100,12 +54,13 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Fengshushan Forest Park Jingdezhen",
     "zh": "枫树山森林公园"
   },
   "_geocodeTitle": "城市森林公园",
-  "district": "360202"
+  "district": "360202",
+  "_noImage": true
 }

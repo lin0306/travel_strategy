@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/36738568/pexels-photo-36738568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36738568/pexels-photo-36738568.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3504,
-      "height": 2336,
-      "alt": "Delicious Taiwanese braised pork rice topped with a soft boiled egg, served in Puli, Taiwan.",
-      "query": "Guobao Rou",
-      "credit": {
-        "source": "pexels",
-        "author": "hung chou",
-        "sourceUrl": "https://www.pexels.com/photo/taiwanese-braised-pork-rice-with-soft-boiled-egg-36738568/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/29090907/pexels-photo-29090907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/29090907/pexels-photo-29090907.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Serene and atmospheric misty forest path during autumn, capturing tranquil nature.",
-      "query": "Guobao Rou",
-      "credit": {
-        "source": "pexels",
-        "author": "Kris Møklebust",
-        "sourceUrl": "https://www.pexels.com/photo/misty-autumn-forest-pathway-landscape-29090907/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/24246108/pexels-photo-24246108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/24246108/pexels-photo-24246108.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3780,
-      "height": 6720,
-      "alt": "Gourmet beef dish with sauce being elegantly poured, highlighting fine dining.",
-      "query": "Guobao Rou",
-      "credit": {
-        "source": "pexels",
-        "author": "Change C.C",
-        "sourceUrl": "https://www.pexels.com/photo/pouring-sauce-on-beef-on-plate-24246108/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "锅包肉",
@@ -101,11 +55,12 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Guobao Rou",
     "zh": "锅包肉"
   },
-  "district": "210104"
+  "district": "210104",
+  "_noImage": true
 }

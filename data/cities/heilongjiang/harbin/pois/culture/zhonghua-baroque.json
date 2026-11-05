@@ -39,23 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Harbin_China_Hagia_Sophia_%28218592153%29.jpeg/1280px-Harbin_China_Hagia_Sophia_%28218592153%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Harbin_China_Hagia_Sophia_%28218592153%29.jpeg/1280px-Harbin_China_Hagia_Sophia_%28218592153%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1618,
-      "alt": "Harbin China Hagia Sophia (218592153).jpeg",
-      "query": "Chinese old town street harbin",
-      "credit": {
-        "source": "wikimedia",
-        "author": "M Kwow",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harbin_China_Hagia_Sophia_(218592153).jpeg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "老街区",
@@ -71,7 +55,7 @@
       "fetchedAt": "2026-09-30"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -79,5 +63,6 @@
   },
   "_geocodeTitle": "中华巴洛克历史文化街区",
   "_geocodeSuspect": false,
-  "district": "230104"
+  "district": "230104",
+  "_noImage": true
 }

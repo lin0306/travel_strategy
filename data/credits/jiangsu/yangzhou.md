@@ -1,6 +1,6 @@
 # 扬州 · 数据来源与图片版权
 
-> 生成于 2026-10-31 · 城市数据最后更新 2026-10-04
+> 生成于 2026-11-05 · 城市数据最后更新 2026-10-04
 
 ## 概览
 
@@ -78,160 +78,70 @@
 | 城市封面 | Acres of Film | Pexels License | [pexels](https://www.pexels.com/photo/hangzhou-century-center-skyscrapers-20602220/) |
 | 城市封面 | JUNLIN ZOU | Pexels License | [pexels](https://www.pexels.com/photo/urban-landscape-view-framed-by-window-37449699/) |
 | 扬州八怪纪念馆 | huangdan2060 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Eight_Eccentrics_of_Yangzhou_1.jpg) |
-| 扬州八怪纪念馆 | huangdan2060 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Eight_Eccentrics_of_Yangzhou_2.jpg) |
 | 扬州八怪纪念馆 | huangdan2060 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Eight_Eccentrics_of_Yangzhou_3.jpg) |
 | 大明寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250716_Daming_Temple_01.jpg) |
 | 大明寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250716_Daming_Temple_04.jpg) |
 | 大明寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250716_Daming_Temple_05.jpg) |
-| 东关街历史文化街区 | Ngguls | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20211114_%E9%9D%92%E5%B7%9E%E5%B8%82_%E4%B8%9C%E5%85%B3%E8%A1%97%E8%A1%97%E6%99%AF_02.jpg) |
-| 凤凰岛生态旅游区 | Dongjie Chen | Pexels License | [pexels](https://www.pexels.com/photo/the-view-of-the-wuting-bridge-from-a-hole-in-a-wall-7494607/) |
-| 凤凰岛生态旅游区 | Peter Xie | Pexels License | [pexels](https://www.pexels.com/photo/tranquil-chinese-garden-with-pagoda-view-37669570/) |
-| 凤凰岛生态旅游区 | JessenFalcon | Pexels License | [pexels](https://www.pexels.com/photo/27868194/) |
+| 东关街历史文化街区 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 东关街历史文化街区 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 高旻寺 | Nnu-12-22100537 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%AB%98%E6%97%BB%E5%AF%BA%E5%A4%A7%E6%AE%BF.jpg) |
-| 高邮镇国寺 | Jack Lee | Pexels License | [pexels](https://www.pexels.com/photo/facade-of-a-temple-6734508/) |
-| 高邮镇国寺 | Dongjie Chen | Pexels License | [pexels](https://www.pexels.com/photo/the-view-of-the-wuting-bridge-from-a-hole-in-a-wall-7494607/) |
-| 高邮镇国寺 | Cheng Mo | Pexels License | [pexels](https://www.pexels.com/photo/building-at-shouxhi-hu-lake-in-yangzhou-in-china-24551223/) |
+| 高邮镇国寺 | Yuchih | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 个园 | Gisling | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bamb_Garden_in_Yangzhou.JPG) |
 | 个园 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%AA%E5%9B%AD-%E5%81%87%E5%B1%B1,_2009-01-29.jpg) |
 | 个园 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%AA%E5%9B%AD-%E6%98%A5%E8%87%AA%E5%A4%A9%E5%A3%B6,_2009-01-29.jpg) |
-| 观音山禅寺 | Taiwankengo | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2018_Lingyun_Zen_Temple.jpg) |
-| 观音山禅寺 | 阿道 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Interior_of_Kaishan_Lingyun_Temple_05_20251029.jpg) |
-| 观音山禅寺 | Fumikas Sagisavas | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Leshan_Lingyun_Temple.jpg) |
-| 瓜洲古渡公园 | Jack Lee | Pexels License | [pexels](https://www.pexels.com/photo/facade-of-a-temple-6734508/) |
-| 瓜洲古渡公园 | Frank Lv | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-moon-gate-in-serene-garden-setting-31049053/) |
-| 瓜洲古渡公园 | Cheng Mo | Pexels License | [pexels](https://www.pexels.com/photo/building-at-shouxhi-hu-lake-in-yangzhou-in-china-24551223/) |
 | 汉广陵王墓博物馆 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Han_Guangling_Tomb_Museum_-_entrance_-_P1120910.JPG) |
-| 汉广陵王墓博物馆 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Han_Guangling_Tomb_Museum_-_entrance_-_P1120911.JPG) |
 | 汉广陵王墓博物馆 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Han_Guangling_Tomb_Museum_-_entrance_-_P1120912.JPG) |
 | 何园 | Gisling | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:He_Garden.jpg) |
 | 何园 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BD%95%E5%9B%AD_-_Heyuan_Garden_-_2015.04_-_panoramio.jpg) |
 | 何园 | gdczjkk | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BD%95%E5%9B%AD%E5%86%85%E6%99%AF_-_panoramio.jpg) |
-| 卢氏盐商住宅 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Residence_of_Lu_Shaoxu_01_2011-04.jpg) |
-| 卢氏盐商住宅 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Residence_of_Lu_Shaoxu_02_2011-04.jpg) |
 | 卢氏盐商住宅 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Residence_of_Lu_Shaoxu_03_2011-04.jpg) |
-| 普哈丁墓园 | Jack Lee | Pexels License | [pexels](https://www.pexels.com/photo/facade-of-a-temple-6734508/) |
-| 普哈丁墓园 | Frank Lv | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-moon-gate-in-serene-garden-setting-31049053/) |
-| 普哈丁墓园 | Cheng Mo | Pexels License | [pexels](https://www.pexels.com/photo/building-at-shouxhi-hu-lake-in-yangzhou-in-china-24551223/) |
-| 邵伯古镇 | Jack Lee | Pexels License | [pexels](https://www.pexels.com/photo/facade-of-a-temple-6734508/) |
-| 邵伯古镇 | Frank Lv | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-moon-gate-in-serene-garden-setting-31049053/) |
-| 邵伯古镇 | Cheng Mo | Pexels License | [pexels](https://www.pexels.com/photo/building-at-shouxhi-hu-lake-in-yangzhou-in-china-24551223/) |
+| 普哈丁墓园 | Cangminzho | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%99%AE%E5%93%88%E4%B8%81%E5%A2%93%E5%9B%AD0930.jpg) |
 | 史可法纪念馆 | 崇朝其雨 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shi_Kefa_Memorial_Hall.jpg) |
 | 史可法纪念馆 | Cangminzho | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8F%B2%E5%8F%AF%E6%B3%95_%E5%93%8D%E5%A0%820982.jpg) |
 | 史可法纪念馆 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8F%B2%E5%8F%AF%E6%B3%95%E7%BA%AA%E5%BF%B5%E9%A6%8620230805_01.jpg) |
 | 瘦西湖 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%89%AC%E5%B7%9E%E7%98%A6%E8%A5%BF%E6%B9%96,_2009-01-28_03.jpg) |
 | 瘦西湖 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%89%AC%E5%B7%9E%E7%98%A6%E8%A5%BF%E6%B9%96,_2009-01-28_04.jpg) |
 | 瘦西湖 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%89%AC%E5%B7%9E%E7%98%A6%E8%A5%BF%E6%B9%96,_2009-01-28_05.jpg) |
+| 瘦西湖 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 瘦西湖 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 瘦西湖 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 扬州双博馆 | 三猎 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%89%AC%E5%B7%9E%E5%8F%8C%E5%8D%9A%E9%A6%86.jpg) |
-| 隋炀帝墓遗址公园 | Jack Lee | Pexels License | [pexels](https://www.pexels.com/photo/facade-of-a-temple-6734508/) |
-| 隋炀帝墓遗址公园 | Frank Lv | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-moon-gate-in-serene-garden-setting-31049053/) |
-| 隋炀帝墓遗址公园 | Cheng Mo | Pexels License | [pexels](https://www.pexels.com/photo/building-at-shouxhi-hu-lake-in-yangzhou-in-china-24551223/) |
-| 汪曾祺纪念馆 | Bin Zhu | Pexels License | [pexels](https://www.pexels.com/photo/yangzhou-china-grand-canal-museum-16158489/) |
-| 汪曾祺纪念馆 | Gül Işık | Pexels License | [pexels](https://www.pexels.com/photo/intricate-istanbul-museum-interior-display-35870231/) |
-| 汪曾祺纪念馆 | Stijn Dijkstra | Pexels License | [pexels](https://www.pexels.com/photo/ceiling-with-bas-reliefs-and-chandelier-15074424/) |
+| 隋炀帝墓遗址公园 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 隋炀帝墓遗址公园 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 隋炀帝墓遗址公园 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 隋炀帝墓遗址公园 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 汪氏小苑 | Acot一杯茶 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%89%AC%E5%B7%9E%E6%B1%AA%E6%B0%8F%E5%B0%8F%E8%8B%91.jpg) |
 | 汪氏小苑 | Cangminzho | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%98%A5%E6%99%96%E5%AE%A40933.jpg) |
-| 汪氏小苑 | Cangminzho | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B1%AA%E6%B0%8F%E5%B0%8F%E8%8B%910842.jpg) |
-| 文昌阁 | H2v5o68z | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wenchang_Pavilion,_Baoqing_County.jpg) |
-| 文昌阁 | 阿道 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wenchang_Pavilion,_Chihkan_Tower_20241008.jpg) |
 | 文昌阁 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yangzhou_-_Wenchang_Pavilion_-_seen_from_E_-_P1130194.JPG) |
-| 文峰塔 | Gary Todd from Xinzheng, China | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:View_of_Anyang_from_Wenfeng_Pagoda_(10196588574).jpg) |
+| 文昌阁 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 文昌阁 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 文昌阁 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 文峰塔 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wenfeng_Pagoda_-_P1130230.JPG) |
 | 文峰塔 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wenfeng_Pagoda_-_P1130231.JPG) |
-| 吴道台宅第 | Jack Lee | Pexels License | [pexels](https://www.pexels.com/photo/facade-of-a-temple-6734508/) |
-| 吴道台宅第 | Frank Lv | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-moon-gate-in-serene-garden-setting-31049053/) |
-| 吴道台宅第 | Cheng Mo | Pexels License | [pexels](https://www.pexels.com/photo/building-at-shouxhi-hu-lake-in-yangzhou-in-china-24551223/) |
+| 吴道台宅第 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 高邮盂城驿 | Howhowforever | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%9B%82%E5%9F%8E%E9%A9%BF.jpg) |
-| 高邮盂城驿 | openstreetmap | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%9B%82%E5%9F%8E%E9%A9%BF%E5%9C%A8%E9%AB%98%E9%82%AE%E7%9A%84%E4%BD%8D%E7%BD%AE.jpg) |
 | 高邮盂城驿 | Acot一杯茶 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%AB%98%E9%82%AE%E7%9B%82%E5%9F%8E%E9%A9%BF.jpg) |
-| 朱自清故居 | Jack Lee | Pexels License | [pexels](https://www.pexels.com/photo/facade-of-a-temple-6734508/) |
-| 朱自清故居 | Frank Lv | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-moon-gate-in-serene-garden-setting-31049053/) |
-| 朱自清故居 | Cheng Mo | Pexels License | [pexels](https://www.pexels.com/photo/building-at-shouxhi-hu-lake-in-yangzhou-in-china-24551223/) |
-| 茱萸湾风景区 | Cheng Mo | Pexels License | [pexels](https://www.pexels.com/photo/building-at-shouxhi-hu-lake-in-yangzhou-in-china-24551223/) |
-| 茱萸湾风景区 | Frank Lv | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-door-surrounded-by-greenery-37784477/) |
-| 茱萸湾风景区 | Dongjie Chen | Pexels License | [pexels](https://www.pexels.com/photo/the-view-of-the-wuting-bridge-from-a-hole-in-a-wall-7494607/) |
-| 粗茶淡饭(藕粉圆子) | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 粗茶淡饭(藕粉圆子) | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 粗茶淡饭(藕粉圆子) | FOX ^.ᆽ.^= ∫ | Pexels License | [pexels](https://www.pexels.com/photo/meal-on-a-plate-11259688/) |
-| 大麒麟阁 | Frank Vincentz | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:E_heptagona2_ies.jpg) |
-| 大麒麟阁 | SAplants | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Euphorbia_heptagona_1DS-II_3-5980.jpg) |
-| 大麒麟阁 | SAplants | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Euphorbia_heptagona_1DS-II_3-6247.jpg) |
+| 朱自清故居 | 葉又嘉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%9C%B1%E8%87%AA%E6%B8%85%E6%95%85%E5%B1%85.jpg) |
+| 朱自清故居 | Cangminzho | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%9C%B1%E8%87%AA%E6%B8%85%E6%95%85%E5%B1%851037.jpg) |
+| 朱自清故居 | Cangminzho | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%9C%B1%E8%87%AA%E6%B8%85%E6%95%85%E5%B1%851036.jpg) |
 | 富春茶社(得胜桥总店) | Gisling | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Fu_Chun_Tea_House_buns.JPG) |
 | 富春茶社(得胜桥总店) | Gisling | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Fu_chun_Tea_House.JPG) |
 | 富春茶社(得胜桥总店) | Gisling | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%89%AC%E5%B7%9E%E5%AF%8C%E6%98%A5%E8%8C%B6%E7%A4%BE%E6%B1%A4%E5%8C%85.JPG) |
-| 共和春酒家(甘泉路店) | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 共和春酒家(甘泉路店) | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 共和春酒家(甘泉路店) | FOX ^.ᆽ.^= ∫ | Pexels License | [pexels](https://www.pexels.com/photo/meal-on-a-plate-11259688/) |
-| 黄珏老鹅 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 黄珏老鹅 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 黄珏老鹅 | FOX ^.ᆽ.^= ∫ | Pexels License | [pexels](https://www.pexels.com/photo/meal-on-a-plate-11259688/) |
-| 花园茶楼 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 花园茶楼 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 花园茶楼 | FOX ^.ᆽ.^= ∫ | Pexels License | [pexels](https://www.pexels.com/photo/meal-on-a-plate-11259688/) |
-| 蒋家桥饺面馆 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 蒋家桥饺面馆 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 蒋家桥饺面馆 | FOX ^.ᆽ.^= ∫ | Pexels License | [pexels](https://www.pexels.com/photo/meal-on-a-plate-11259688/) |
-| 皮市街小吃 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 皮市街小吃 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 皮市街小吃 | FOX ^.ᆽ.^= ∫ | Pexels License | [pexels](https://www.pexels.com/photo/meal-on-a-plate-11259688/) |
-| 趣园茶社(迎宾馆店) | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 趣园茶社(迎宾馆店) | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/cozy-chinese-dining-room-interior-with-round-tables-39389633/) |
-| 趣园茶社(迎宾馆店) | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 三和四美酱菜 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 三和四美酱菜 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 三和四美酱菜 | FOX ^.ᆽ.^= ∫ | Pexels License | [pexels](https://www.pexels.com/photo/meal-on-a-plate-11259688/) |
 | 狮子楼(狮子头) | 三猎 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%8B%AE%E5%AD%90%E6%A5%BC%E7%8B%AE%E5%AD%90%E5%A4%B4.jpg) |
-| 小觉林素菜馆 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 小觉林素菜馆 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/cozy-chinese-dining-room-interior-with-round-tables-39389633/) |
-| 小觉林素菜馆 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 扬州炒饭(老字号门店) | Guilhem Vellut from Paris, France | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Cantonese_Rice_@_Porte_du_Bonheur_@_Montparnasse_@_Paris_(33894665242).jpg) |
-| 扬州炒饭(老字号门店) | Guilhem Vellut from Paris, France | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Cantonese_rice_@_Restaurant_Ph%C3%A9nix_@_Paris_(34406404351).jpg) |
-| 扬州炒饭(老字号门店) | stu_spivack from C & Y Chinese Restaurant in Cleveland's Chi | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chinese_fried_rice_by_stu_spivack_in_Cleveland,_OH.jpg) |
-| 扬州宴 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 扬州宴 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/cozy-chinese-dining-room-interior-with-round-tables-39389633/) |
-| 扬州宴 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 冶春茶社(丰乐上街店) | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 冶春茶社(丰乐上街店) | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/cozy-chinese-dining-room-interior-with-round-tables-39389633/) |
-| 冶春茶社(丰乐上街店) | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 虹桥坊(瘦西湖东门商业区) | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%8D%94%E6%B9%BE_%E6%B0%B8%E5%BA%86%E5%9D%8A%E4%B9%8B%E8%99%B9%E6%9C%88%E6%A1%A5%E4%B8%8A%E5%8C%97%E6%9C%9B_01.jpg) |
-| 虹桥坊(瘦西湖东门商业区) | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%8D%94%E6%B9%BE_%E6%B0%B8%E5%BA%86%E5%9D%8A%E4%B9%8B%E8%99%B9%E6%9C%88%E6%A1%A5%E4%B8%8A%E5%8C%97%E6%9C%9B_02.jpg) |
-| 京华城生活广场 | FoolPiasar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:North_Gate_of_Songjiacheng_Archaeological_Site_Park_in_Yangzhou.jpg) |
-| 京华城生活广场 | 4084470 0.smil | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yangzhou-Zhenjiang_Tourist_Bus_Line_Near_ZJI_in_Zhenjiang,_Jiangsu,_China_20250712.jpg) |
-| 京华城生活广场 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yangzhou_-_Public_Security_Office_-_P1070113.JPG) |
+| 京华城生活广场 | Cz2018764171 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 京华城生活广场 | Andy Zang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 京华城生活广场 | Andy Zang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 京华城生活广场 | Andy Zang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 皮市街 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Site_of_Yangzhou_riot_2011-04.JPG) |
-| 皮市街 | Francesco Bandarin | CC BY-SA 3.0 igo | [wikimedia](https://commons.wikimedia.org/wiki/File:Historic_Centre_of_the_City_of_Pienza-111586.jpg) |
-| 皮市街 | Francesco Bandarin | CC BY-SA 3.0 igo | [wikimedia](https://commons.wikimedia.org/wiki/File:Historic_Centre_of_the_City_of_Pienza-111588.jpg) |
-| 仁丰里 | Bin Zhu | Pexels License | [pexels](https://www.pexels.com/photo/yangzhou-china-grand-canal-museum-16158489/) |
-| 仁丰里 | Relaxing Journeys | Pexels License | [pexels](https://www.pexels.com/photo/charming-historic-street-in-yangzhou-with-blossoms-37268207/) |
-| 仁丰里 | Frank Lv | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-architecture-with-lantern-31049052/) |
-| 三湾公园(大运河博物馆外景) | FoolPiasar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:North_Gate_of_Songjiacheng_Archaeological_Site_Park_in_Yangzhou.jpg) |
-| 三湾公园(大运河博物馆外景) | 4084470 0.smil | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yangzhou-Zhenjiang_Tourist_Bus_Line_Near_ZJI_in_Zhenjiang,_Jiangsu,_China_20250712.jpg) |
-| 三湾公园(大运河博物馆外景) | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yangzhou_-_Public_Security_Office_-_P1070113.JPG) |
-| 湾头古镇·茱萸湾运河口 | FoolPiasar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:North_Gate_of_Songjiacheng_Archaeological_Site_Park_in_Yangzhou.jpg) |
-| 湾头古镇·茱萸湾运河口 | 4084470 0.smil | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yangzhou-Zhenjiang_Tourist_Bus_Line_Near_ZJI_in_Zhenjiang,_Jiangsu,_China_20250712.jpg) |
-| 湾头古镇·茱萸湾运河口 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yangzhou_-_Public_Security_Office_-_P1070113.JPG) |
-| 万象汇 | 源義信 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2023-05-08_%E5%AE%81%E6%B3%A2%E5%B8%82%E9%84%9E%E5%B7%9E%E5%8C%BA%E4%B8%87%E8%B1%A1%E6%B1%87.jpg) |
-| 万象汇 | 4084470 0.smil | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Suzhou_Wujiang_MIXC_One_in_Jiangsu,_China_20260329.jpg) |
-| 万象汇 | Huandy618 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xiaoshan_MIXC_01.jpg) |
-| 迎宾馆·趣园片区 | FoolPiasar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:North_Gate_of_Songjiacheng_Archaeological_Site_Park_in_Yangzhou.jpg) |
-| 迎宾馆·趣园片区 | 4084470 0.smil | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yangzhou-Zhenjiang_Tourist_Bus_Line_Near_ZJI_in_Zhenjiang,_Jiangsu,_China_20250712.jpg) |
-| 迎宾馆·趣园片区 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yangzhou_-_Public_Security_Office_-_P1070113.JPG) |
-| 珍园·花局里 | Bin Zhu | Pexels License | [pexels](https://www.pexels.com/photo/yangzhou-china-grand-canal-museum-16158489/) |
-| 珍园·花局里 | Relaxing Journeys | Pexels License | [pexels](https://www.pexels.com/photo/charming-historic-street-in-yangzhou-with-blossoms-37268207/) |
-| 珍园·花局里 | Frank Lv | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-architecture-with-lantern-31049052/) |
-| 钟书阁(扬州店) | Cuicuizan | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Haidai_Tower_Zhongshuge_Bookstore_(%E6%B5%B7%E5%B2%B1%E6%A5%BC%E9%92%9F%E4%B9%A6%E9%98%81).jpg) |
-| 钟书阁(扬州店) | 松照庵 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%98%89%E9%9D%96%E4%BA%8C%E5%8D%81%E5%85%AD%E5%B9%B4%EF%BC%881547%EF%BC%89%E6%9E%97%E6%87%89%E7%A6%A7%E3%80%8A%E9%87%8D%E4%BF%AE%E4%B8%89%E8%8C%85%E5%AF%A7%E5%A3%BD%E8%A7%80%E4%BA%8B%E8%B7%A1%E8%A8%98%E3%80%8B.jpg) |
-| 钟书阁(扬州店) | KangTyngrwey | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%84%8F%E9%A3%8E%E5%8C%BA%E9%92%9F%E4%B9%A6%E9%98%81.jpg) |
+| 三湾公园(大运河博物馆外景) | Cz2018764171 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 迎宾馆·趣园片区 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 珍园·花局里 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 珍园·花局里 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 珍园·花局里 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 珍园·花局里 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 大运河扬州段(世界遗产) | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%89%AC%E5%B7%9E%E6%97%A7%E5%9F%8E%E5%8C%BA_-_Old_Town_of_Yangzhou_-_2015.04_-_panoramio.jpg) |
-| 大运河扬州段(世界遗产) | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A7%E5%9F%8E%E4%BA%94%E5%B7%B7_-_5th_Lane_of_Yangzhou_Old_Town_-_2015.04_-_panoramio.jpg) |
-| 谢馥春香粉 | Relaxing Journeys | Pexels License | [pexels](https://www.pexels.com/photo/ancient-chinese-street-with-red-lanterns-37268197/) |
-| 谢馥春香粉 | 女子 正真 | Pexels License | [pexels](https://www.pexels.com/photo/silhouette-of-people-in-historic-asian-alleyway-35335469/) |
-| 谢馥春香粉 | Jack Lee | Pexels License | [pexels](https://www.pexels.com/photo/facade-of-a-temple-6734508/) |
-| 扬州评话·弹词 | Alexandra  Lavizzari | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-opera-performer-in-costume-36422762/) |
-| 扬州评话·弹词 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-theatre-performers-in-historical-setting-32526871/) |
-| 扬州评话·弹词 | 李奇 | Pexels License | [pexels](https://www.pexels.com/photo/woman-in-blue-beijing-opera-costume-11413712/) |
-| 扬州清曲 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%89%AC%E5%B7%9E%E7%98%A6%E8%A5%BF%E6%B9%96,_2009-01-28_03.jpg) |
-| 扬州清曲 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%89%AC%E5%B7%9E%E7%98%A6%E8%A5%BF%E6%B9%96,_2009-01-28_11.jpg) |
-| 扬州清曲 | 清叶衍兰辑摹，黄小泉绘。 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%87%91%E8%BE%B2.jpg) |
-| 扬州漆器髹饰技艺 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%89%AC%E5%B7%9E%E6%97%A7%E5%9F%8E%E5%8C%BA_-_Old_Town_of_Yangzhou_-_2015.04_-_panoramio.jpg) |
-| 扬州漆器髹饰技艺 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A7%E5%9F%8E%E4%BA%94%E5%B7%B7_-_5th_Lane_of_Yangzhou_Old_Town_-_2015.04_-_panoramio.jpg) |
+| 大运河扬州段(世界遗产) | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大运河扬州段(世界遗产) | jaysonh | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大运河扬州段(世界遗产) | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大运河扬州段(世界遗产) | gdczjkk | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 扬州三把刀 | 徐建勇 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%89%AC%E5%B7%9E%E4%B8%89%E6%8A%8A%E5%88%80%E4%B9%8B%E4%BF%AE%E8%84%9A%E5%88%80_-_panoramio.jpg) |

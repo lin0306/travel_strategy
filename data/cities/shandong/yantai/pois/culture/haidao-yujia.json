@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/38279762/pexels-photo-38279762.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38279762/pexels-photo-38279762.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3072,
-      "height": 4096,
-      "alt": "A lively street scene in Yantai, China, adorned with colorful banners and traditional buildings.",
-      "query": "Chinese old town street yantai",
-      "credit": {
-        "source": "pexels",
-        "author": "Leia-Yalu Feng",
-        "sourceUrl": "https://www.pexels.com/photo/vibrant-street-in-yantai-with-colorful-banners-38279762/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/35635447/pexels-photo-35635447.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35635447/pexels-photo-35635447.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6048,
-      "height": 4024,
-      "alt": "Yantai street view showcasing European-style architecture on a cloudy day.",
-      "query": "Chinese old town street yantai",
-      "credit": {
-        "source": "pexels",
-        "author": "Kenny Foo",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-yantai-s-european-architecture-35635447/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/20256134/pexels-photo-20256134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/20256134/pexels-photo-20256134.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4160,
-      "height": 6240,
-      "alt": "Traditional alley adorned with vibrant red lanterns, capturing the essence of Asian street culture.",
-      "query": "Chinese old town street yantai",
-      "credit": {
-        "source": "pexels",
-        "author": "Tito Zzzz",
-        "sourceUrl": "https://www.pexels.com/photo/red-lantern-hanging-along-alley-20256134/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "长岛",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-05"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "长岛海关",
   "_geocodeSuspect": false,
-  "district": "370614"
+  "district": "370614",
+  "_noImage": true
 }

@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/36847750/pexels-photo-36847750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36847750/pexels-photo-36847750.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3930,
-      "height": 5895,
-      "alt": "Colorful street bustling with activity in Lijiang, China, showcasing cultural architecture.",
-      "query": "China city street view lijiang",
-      "credit": {
-        "source": "pexels",
-        "author": "xiaoxian",
-        "sourceUrl": "https://www.pexels.com/photo/vibrant-street-scene-in-lijiang-old-town-36847750/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/14553042/pexels-photo-14553042.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/14553042/pexels-photo-14553042.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3648,
-      "height": 5472,
-      "alt": "A lively traditional street scene with tourists exploring shops and red flags waving.",
-      "query": "China city street view lijiang",
-      "credit": {
-        "source": "pexels",
-        "author": "fei wang",
-        "sourceUrl": "https://www.pexels.com/photo/busy-alley-in-city-14553042/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/12732735/pexels-photo-12732735.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/12732735/pexels-photo-12732735.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3723,
-      "height": 5839,
-      "alt": "Explore the narrow alleyways of Lijiang, offering a glimpse of traditional Chinese architecture amidst the mountains.",
-      "query": "China city street view lijiang",
-      "credit": {
-        "source": "pexels",
-        "author": "Kokyo K",
-        "sourceUrl": "https://www.pexels.com/photo/narrow-passage-between-buildings-12732735/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "构图",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-09-30"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -110,5 +64,6 @@
   "_geocodeTitle": "白沙段",
   "_geocodeSuspect": false,
   "coordSystem": "GCJ-02",
-  "district": "530721"
+  "district": "530721",
+  "_noImage": true
 }

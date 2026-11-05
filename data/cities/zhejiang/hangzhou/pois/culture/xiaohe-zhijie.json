@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/37436584/pexels-photo-37436584.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37436584/pexels-photo-37436584.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5472,
-      "height": 3648,
-      "alt": "Charming street view of traditional Chinese architecture in Hangzhou, Zhejiang Province, China.",
-      "query": "Chinese old town street hangzhou",
-      "credit": {
-        "source": "pexels",
-        "author": "P. Ho",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-street-scene-in-hangzhou-china-37436584/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37436587/pexels-photo-37436587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37436587/pexels-photo-37436587.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3648,
-      "height": 5472,
-      "alt": "Arched entrance with lanterns in Hangzhou, showcasing traditional Chinese architectural style.",
-      "query": "Chinese old town street hangzhou",
-      "credit": {
-        "source": "pexels",
-        "author": "P. Ho",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-architecture-in-hangzhou-37436587/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/8641668/pexels-photo-8641668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/8641668/pexels-photo-8641668.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5184,
-      "height": 3888,
-      "alt": "Typical day on a busy street in Hangzhou, China with cars and pedestrians.",
-      "query": "Chinese old town street hangzhou",
-      "credit": {
-        "source": "pexels",
-        "author": "Xiaoyu Chen",
-        "sourceUrl": "https://www.pexels.com/photo/cars-parked-on-the-side-of-the-road-in-between-buildings-8641668/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "运河",
@@ -100,7 +54,7 @@
       "fetchedAt": "2026-09-23"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -108,5 +62,6 @@
   },
   "_geocodeTitle": "小河直街历史文化街区",
   "_geocodeSuspect": false,
-  "district": "330105"
+  "district": "330105",
+  "_noImage": true
 }

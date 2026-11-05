@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/11512425/pexels-photo-11512425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/11512425/pexels-photo-11512425.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3648,
-      "height": 2736,
-      "alt": "Large machinery operating inside an old factory in Gaziantep, Turkey.",
-      "query": "old porcelain factory lane Jingdezhen",
-      "credit": {
-        "source": "pexels",
-        "author": "Mehmet Turgut  Kirkgoz",
-        "sourceUrl": "https://www.pexels.com/photo/barrels-in-old-industry-building-11512425/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36889702/pexels-photo-36889702.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36889702/pexels-photo-36889702.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3072,
-      "height": 4096,
-      "alt": "A collection of vintage crockery and pottery on rustic shelves in an aged setting, showcasing charming nostalgia.",
-      "query": "old porcelain factory lane Jingdezhen",
-      "credit": {
-        "source": "pexels",
-        "author": "Heru Dharma",
-        "sourceUrl": "https://www.pexels.com/photo/vintage-crockery-set-displayed-on-rustic-shelves-36889702/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/30335248/pexels-photo-30335248.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/30335248/pexels-photo-30335248.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 7728,
-      "height": 5152,
-      "alt": "Quiet street lined with historic industrial buildings and leafless trees under clear blue sky.",
-      "query": "old porcelain factory lane Jingdezhen",
-      "credit": {
-        "source": "pexels",
-        "author": "Sami TÜRK",
-        "sourceUrl": "https://www.pexels.com/photo/deserted-street-with-historic-architecture-30335248/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "里弄",
@@ -101,12 +55,13 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "old porcelain factory lane Jingdezhen",
     "zh": "老厂里弄"
   },
   "_geocodeTitle": "老厂",
-  "district": "360203"
+  "district": "360203",
+  "_noImage": true
 }

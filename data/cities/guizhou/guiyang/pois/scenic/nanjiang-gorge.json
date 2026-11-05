@@ -44,53 +44,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/38632008/pexels-photo-38632008.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38632008/pexels-photo-38632008.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4672,
-      "height": 5840,
-      "alt": "Unique view of Guiyang cityscape through a cave, showcasing modern high-rise buildings and a winding river.",
-      "query": "natural landscape China guiyang",
-      "credit": {
-        "source": "pexels",
-        "author": "Leongsan Tung",
-        "sourceUrl": "https://www.pexels.com/photo/skyline-of-guiyang-city-viewed-from-a-cave-38632008/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/16483319/pexels-photo-16483319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/16483319/pexels-photo-16483319.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3264,
-      "height": 2448,
-      "alt": "Scenic view of Jiaxiu Pavilion along the Nanming River in Guiyang, China, surrounded by urban parkland.",
-      "query": "natural landscape China guiyang",
-      "credit": {
-        "source": "pexels",
-        "author": "Megan Judge",
-        "sourceUrl": "https://www.pexels.com/photo/view-of-the-jiaxiu-pavilion-in-guiyang-china-16483319/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/19417435/pexels-photo-19417435.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/19417435/pexels-photo-19417435.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5712,
-      "height": 4284,
-      "alt": "A stunning sunset above the mountain range and cityscape of Guiyang, China, with vibrant skies and reflective lake.",
-      "query": "natural landscape China guiyang",
-      "credit": {
-        "source": "pexels",
-        "author": "KJ Brix",
-        "sourceUrl": "https://www.pexels.com/photo/city-in-a-valley-under-a-dramatic-sky-19417435/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "峡谷",
@@ -106,7 +60,7 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -114,5 +68,6 @@
   },
   "_geocodeTitle": "南江大峡谷景区",
   "_geocodeSuspect": false,
-  "district": "520121"
+  "district": "520121",
+  "_noImage": true
 }

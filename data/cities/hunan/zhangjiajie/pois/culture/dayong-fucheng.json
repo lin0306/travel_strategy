@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/36661390/pexels-photo-36661390.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36661390/pexels-photo-36661390.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5312,
-      "height": 2988,
-      "alt": "Beautiful traditional Chinese buildings with intricate green roofs set against a cloudy sky.",
-      "query": "Dayong Ancient City Zhangjiajie",
-      "credit": {
-        "source": "pexels",
-        "author": "Lewis Satini",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-architecture-in-scenic-landscape-36661390/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39025873/pexels-photo-39025873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39025873/pexels-photo-39025873.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Beautiful multi-story pagoda set against a backdrop of lush green mountains under a clear blue sky.",
-      "query": "Dayong Ancient City Zhangjiajie",
-      "credit": {
-        "source": "pexels",
-        "author": "Guillaume Kremer",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-pagoda-in-scenic-mountain-setting-39025873/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/33231959/pexels-photo-33231959.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/33231959/pexels-photo-33231959.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3940,
-      "height": 5910,
-      "alt": "Explore a traditional Chinese village nestled in a lush, green mountain valley.",
-      "query": "Dayong Ancient City Zhangjiajie",
-      "credit": {
-        "source": "pexels",
-        "author": "Deimantas Viburys",
-        "sourceUrl": "https://www.pexels.com/photo/ancient-chinese-village-in-green-valley-33231959/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "古城",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Dayong Ancient City Zhangjiajie",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "大庸府城",
   "_geocodeSuspect": false,
-  "district": "430802"
+  "district": "430802",
+  "_noImage": true
 }

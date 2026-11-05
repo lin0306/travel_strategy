@@ -41,48 +41,45 @@
   "tips": [],
   "images": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/1-28_Civilian_Residence_of_the_Qing_Dynasty.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/1-28_Civilian_Residence_of_the_Qing_Dynasty.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Lujiazui%2C_Pudong%2C_Shanghai%2C_China_-_panoramio_-_ykeiko_%281%29.jpg/1280px-Lujiazui%2C_Pudong%2C_Shanghai%2C_China_-_panoramio_-_ykeiko_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Lujiazui%2C_Pudong%2C_Shanghai%2C_China_-_panoramio_-_ykeiko_%281%29.jpg/1280px-Lujiazui%2C_Pudong%2C_Shanghai%2C_China_-_panoramio_-_ykeiko_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
-      "height": 1463,
-      "alt": "1-28 Civilian Residence of the Qing Dynasty.jpg",
-      "query": "Chinese historic architecture shanghai",
+      "height": 720,
+      "alt": "Lujiazui, Pudong, Shanghai, China - panoramio - ykeiko (1).jpg",
+      "query": "上海中心大厦观光厅",
       "credit": {
         "source": "wikimedia",
-        "author": "Laohangzhou",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:1-28_Civilian_Residence_of_the_Qing_Dynasty.jpg",
+        "author": "ykeiko",
+        "sourceUrl": "https://commons.wikimedia.org/",
         "license": "CC BY-SA 3.0",
         "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-04",
+        "tier": "exact"
       }
     },
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Golden_Tulip_Bund_New_Asia_20251127.jpg/1280px-Golden_Tulip_Bund_New_Asia_20251127.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Golden_Tulip_Bund_New_Asia_20251127.jpg/1280px-Golden_Tulip_Bund_New_Asia_20251127.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Shanghai_Tower%2C_August_2023.jpg/1280px-Shanghai_Tower%2C_August_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Shanghai_Tower%2C_August_2023.jpg/1280px-Shanghai_Tower%2C_August_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
-      "height": 864,
-      "alt": "Golden Tulip Bund New Asia 20251127.jpg",
-      "query": "Chinese historic architecture shanghai",
+      "height": 720,
+      "alt": "Shanghai Tower, August 2023.jpg",
+      "query": "上海中心大厦观光厅",
       "credit": {
         "source": "wikimedia",
-        "author": "This Photo was taken by Supanut Arunoprayote. Feel free to u",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golden_Tulip_Bund_New_Asia_20251127.jpg",
-        "license": "CC BY 4.0",
+        "author": "Francisco Javier PB",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 4.0",
         "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Historic_%28109496327%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Historic_%28109496327%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1920,
-      "alt": "Historic (109496327).jpeg",
-      "query": "Chinese historic architecture shanghai",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Bear Hsiung",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Historic_(109496327).jpeg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-04",
+        "tier": "exact"
       }
     }
   ],
@@ -101,7 +98,7 @@
       "fetchedAt": "2026-09-19"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-04",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

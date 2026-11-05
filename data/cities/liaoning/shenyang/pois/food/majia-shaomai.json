@@ -40,53 +40,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/32860302/pexels-photo-32860302.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/32860302/pexels-photo-32860302.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6720,
-      "height": 4480,
-      "alt": "A vibrant spread of Chinese dim sum featuring steamed dumplings and sweet desserts.",
-      "query": "Ma Family Shaomai",
-      "credit": {
-        "source": "pexels",
-        "author": "Change C.C",
-        "sourceUrl": "https://www.pexels.com/photo/delicious-assorted-chinese-dim-sum-platter-32860302/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/32938732/pexels-photo-32938732.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/32938732/pexels-photo-32938732.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4016,
-      "height": 6016,
-      "alt": "A plate of savory dumplings beautifully lit by warm sunlight in a rustic setting.",
-      "query": "Ma Family Shaomai",
-      "credit": {
-        "source": "pexels",
-        "author": "Dicky Agustian",
-        "sourceUrl": "https://www.pexels.com/photo/savory-dumplings-in-warm-rustic-light-32938732/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/32938747/pexels-photo-32938747.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/32938747/pexels-photo-32938747.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4016,
-      "height": 6016,
-      "alt": "A stack of delicious steamed dumplings arranged artfully on a wooden table.",
-      "query": "Ma Family Shaomai",
-      "credit": {
-        "source": "pexels",
-        "author": "Dicky Agustian",
-        "sourceUrl": "https://www.pexels.com/photo/tower-of-steamed-dumplings-on-wooden-table-32938747/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "烧麦",
@@ -102,7 +56,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Ma Family Shaomai",
@@ -110,5 +64,6 @@
   },
   "_geocodeTitle": "马家烧麦",
   "_geocodeSuspect": false,
-  "district": "210103"
+  "district": "210103",
+  "_noImage": true
 }

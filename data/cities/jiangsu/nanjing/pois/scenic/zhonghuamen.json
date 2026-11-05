@@ -40,48 +40,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Beijing_Chongwenmen_1902.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Beijing_Chongwenmen_1902.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/%E4%B8%AD%E5%8D%8E%E9%97%A8%E5%9F%8E%E5%A2%99%E4%B8%8A%E7%9C%8B%E7%93%AE%E5%9F%8E.jpg/1280px-%E4%B8%AD%E5%8D%8E%E9%97%A8%E5%9F%8E%E5%A2%99%E4%B8%8A%E7%9C%8B%E7%93%AE%E5%9F%8E.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/%E4%B8%AD%E5%8D%8E%E9%97%A8%E5%9F%8E%E5%A2%99%E4%B8%8A%E7%9C%8B%E7%93%AE%E5%9F%8E.jpg/1280px-%E4%B8%AD%E5%8D%8E%E9%97%A8%E5%9F%8E%E5%A2%99%E4%B8%8A%E7%9C%8B%E7%93%AE%E5%9F%8E.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
-      "height": 725,
-      "alt": "Beijing Chongwenmen 1902.jpg",
+      "height": 720,
+      "alt": "中华门城墙上看瓮城.jpg",
       "query": "中华门瓮城",
       "credit": {
         "source": "wikimedia",
-        "author": "英国驻华公使馆",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beijing_Chongwenmen_1902.jpg",
-        "license": "Public domain",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Beijing_Xizhimen_1954.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Beijing_Xizhimen_1954.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 589,
-      "alt": "Beijing Xizhimen 1954.jpg",
-      "query": "中华门瓮城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "The original uploader was Kallgan at Chinese Wikipedia.",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beijing_Xizhimen_1954.jpg",
-        "license": "Public domain",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Beijing_Zhengyangmen_wengcheng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Beijing_Zhengyangmen_wengcheng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 612,
-      "alt": "Beijing Zhengyangmen wengcheng.jpg",
-      "query": "中华门瓮城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Original uploader was Kallgan at zh.wikipedia",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beijing_Zhengyangmen_wengcheng.jpg",
-        "license": "Public domain",
-        "attributionRequired": false
+        "author": "董辰兴",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%8D%8E%E9%97%A8%E5%9F%8E%E5%A2%99%E4%B8%8A%E7%9C%8B%E7%93%AE%E5%9F%8E.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
       }
     }
   ],
@@ -100,7 +76,7 @@
       "fetchedAt": "2026-09-23"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-05",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

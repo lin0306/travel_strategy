@@ -45,53 +45,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/11326475/pexels-photo-11326475.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/11326475/pexels-photo-11326475.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6240,
-      "height": 4160,
-      "alt": "A serene landscape featuring a herd of elks resting and grazing near a river under a clear sky.",
-      "query": "Shenyang Forest Zoo",
-      "credit": {
-        "source": "pexels",
-        "author": "Jill Qin",
-        "sourceUrl": "https://www.pexels.com/photo/herd-of-elks-resting-near-river-11326475/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/30356099/pexels-photo-30356099.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/30356099/pexels-photo-30356099.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3712,
-      "height": 5568,
-      "alt": "A tranquil park scene in Shenyang, featuring a sun-drenched bench among lush greenery.",
-      "query": "Shenyang Forest Zoo",
-      "credit": {
-        "source": "pexels",
-        "author": "Pin Wang",
-        "sourceUrl": "https://www.pexels.com/photo/serene-park-bench-under-sunlit-canopy-in-shenyang-30356099/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/1435496/pexels-photo-1435496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/1435496/pexels-photo-1435496.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6037,
-      "height": 4029,
-      "alt": "Tall giraffe with a long neck basking in daylight at a wildlife park with lush greenery.",
-      "query": "Shenyang Forest Zoo",
-      "credit": {
-        "source": "pexels",
-        "author": "Haugenzhays Zhang",
-        "sourceUrl": "https://www.pexels.com/photo/giraffe-standing-under-trees-1435496/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "动物园",
@@ -107,7 +61,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Shenyang Forest Zoo",
@@ -115,5 +69,6 @@
   },
   "_geocodeTitle": "沈阳森林动物园",
   "_geocodeSuspect": false,
-  "district": "210112"
+  "district": "210112",
+  "_noImage": true
 }

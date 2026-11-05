@@ -42,48 +42,45 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/38131983/pexels-photo-38131983.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38131983/pexels-photo-38131983.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3000,
-      "height": 4000,
-      "alt": "Top view of a vibrant Korean bibimbap dish with assorted vegetables in a white bowl.",
-      "query": "Nanchang Mixed Rice Noodles",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Nanchang_Banfen_%2820251205_085026%29.jpg/1280px-Nanchang_Banfen_%2820251205_085026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Nanchang_Banfen_%2820251205_085026%29.jpg/1280px-Nanchang_Banfen_%2820251205_085026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Nanchang Banfen (20251205 085026).jpg",
+      "query": "南昌拌粉",
       "credit": {
-        "source": "pexels",
-        "author": "Atai Anarbek",
-        "sourceUrl": "https://www.pexels.com/photo/colorful-korean-bibimbap-dish-in-white-bowl-38131983/",
-        "license": "Pexels License",
+        "source": "wikimedia",
+        "author": "Nagae Iku",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nanchang_Banfen_(20251205_085026).jpg",
+        "license": "CC0",
         "attributionRequired": false
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "inside"
       }
     },
     {
-      "url": "https://images.pexels.com/photos/29962612/pexels-photo-29962612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/29962612/pexels-photo-29962612.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Close-up of a tasty Asian noodle dish with savory toppings served in a red bowl.",
-      "query": "Nanchang Mixed Rice Noodles",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/%E7%93%A6%E7%BD%90%E6%B1%A4_20150119_085552.jpg/1280px-%E7%93%A6%E7%BD%90%E6%B1%A4_20150119_085552.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/%E7%93%A6%E7%BD%90%E6%B1%A4_20150119_085552.jpg/1280px-%E7%93%A6%E7%BD%90%E6%B1%A4_20150119_085552.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "瓦罐汤 20150119 085552.jpg",
+      "query": "南昌拌粉",
       "credit": {
-        "source": "pexels",
-        "author": "FOX ^.ᆽ.^= ∫",
-        "sourceUrl": "https://www.pexels.com/photo/delicious-asian-noodle-dish-with-toppings-29962612/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/14162746/pexels-photo-14162746.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/14162746/pexels-photo-14162746.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8688,
-      "height": 5792,
-      "alt": "Close-up image of uncooked noodles with a wicker basket in the background.",
-      "query": "Nanchang Mixed Rice Noodles",
-      "credit": {
-        "source": "pexels",
-        "author": "zijie liu",
-        "sourceUrl": "https://www.pexels.com/photo/close-up-photo-of-uncooked-pasta-14162746/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "Qa003qa003",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%93%A6%E7%BD%90%E6%B1%A4_20150119_085552.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "inside"
       }
     }
   ],
@@ -102,7 +99,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-02",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Nanchang Mixed Rice Noodles",

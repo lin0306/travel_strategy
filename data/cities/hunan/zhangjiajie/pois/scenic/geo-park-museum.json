@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/39014239/pexels-photo-39014239.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39014239/pexels-photo-39014239.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6048,
-      "height": 8064,
-      "alt": "Breathtaking view of unique rock formations covered in lush greenery in Zhangjiajie, Hunan, China.",
-      "query": "Zhangjiajie Global Geopark Museum",
-      "credit": {
-        "source": "pexels",
-        "author": "Guillaume Kremer",
-        "sourceUrl": "https://www.pexels.com/photo/majestic-zhangjiajie-national-forest-park-landscape-39014239/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/26771351/pexels-photo-26771351.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/26771351/pexels-photo-26771351.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 7305,
-      "height": 3599,
-      "alt": "Explore the stunning rock formations and lush forests of Zhangjiajie in Hunan, China.",
-      "query": "Zhangjiajie Global Geopark Museum",
-      "credit": {
-        "source": "pexels",
-        "author": "jason hu",
-        "sourceUrl": "https://www.pexels.com/photo/forest-on-rock-formations-in-valley-26771351/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/34683484/pexels-photo-34683484.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34683484/pexels-photo-34683484.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8192,
-      "height": 5464,
-      "alt": "Bailong Elevator amid dramatic cliffs in Zhangjiajie Forest Park, China.",
-      "query": "Zhangjiajie Global Geopark Museum",
-      "credit": {
-        "source": "pexels",
-        "author": "David Tran",
-        "sourceUrl": "https://www.pexels.com/photo/bailong-elevator-in-zhangjiajie-national-forest-park-34683484/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "地质",
@@ -100,7 +54,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Zhangjiajie Global Geopark Museum",
@@ -108,5 +62,6 @@
   },
   "_geocodeTitle": "张家界世界地质公园博物馆",
   "_geocodeSuspect": false,
-  "district": "430811"
+  "district": "430811",
+  "_noImage": true
 }

@@ -44,48 +44,43 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/39389633/pexels-photo-39389633.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39389633/pexels-photo-39389633.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 6048,
-      "alt": "Interior of a cozy Chinese dining room with red tablecloths and natural light.",
-      "query": "Chinese restaurant interior jinggangshan",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Daetong-bap.jpg/1280px-Daetong-bap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Daetong-bap.jpg/1280px-Daetong-bap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Daetong-bap.jpg",
+      "query": "竹筒饭",
       "credit": {
-        "source": "pexels",
-        "author": "Cheng Shi Song",
-        "sourceUrl": "https://www.pexels.com/photo/cozy-chinese-dining-room-interior-with-round-tables-39389633/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "Hyeon-Jeong Suk",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Daetong-bap.jpg",
+        "license": "CC BY 2.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-10-31"
       }
     },
     {
-      "url": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3072,
-      "height": 4096,
-      "alt": "Charming Asian dining room with bamboo chairs and traditional teaware.",
-      "query": "Chinese restaurant interior jinggangshan",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Guangxi.Ping%27an.Zhuang.zhutongfan.jpg/1280px-Guangxi.Ping%27an.Zhuang.zhutongfan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Guangxi.Ping%27an.Zhuang.zhutongfan.jpg/1280px-Guangxi.Ping%27an.Zhuang.zhutongfan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 715,
+      "alt": "Guangxi.Ping'an.Zhuang.zhutongfan.jpg",
+      "query": "竹筒饭",
       "credit": {
-        "source": "pexels",
-        "author": "TIANYUN XIA",
-        "sourceUrl": "https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37047965/pexels-photo-37047965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37047965/pexels-photo-37047965.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4896,
-      "height": 3264,
-      "alt": "Cozy traditional Asian restaurant interior highlighting wooden furnishings and red decor. Ideal for cultural and design ",
-      "query": "Chinese restaurant interior jinggangshan",
-      "credit": {
-        "source": "pexels",
-        "author": "mingche lee",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "Popolon",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guangxi.Ping%27an.Zhuang.zhutongfan.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-10-31"
       }
     }
   ],
@@ -105,7 +100,7 @@
       "fetchedAt": "2026-10-07"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

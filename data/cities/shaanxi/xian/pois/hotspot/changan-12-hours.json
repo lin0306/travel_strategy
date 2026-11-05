@@ -38,38 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/28844756/pexels-photo-28844756.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/28844756/pexels-photo-28844756.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2000,
-      "height": 3006,
-      "alt": "Nighttime view of Xi'an Bell Tower with bustling city street, showcasing vibrant illumination.",
-      "query": "China city street view xian",
-      "credit": {
-        "source": "pexels",
-        "author": "征宇 郑",
-        "sourceUrl": "https://www.pexels.com/photo/vibrant-night-view-of-xi-an-bell-tower-28844756/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/16951201/pexels-photo-16951201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/16951201/pexels-photo-16951201.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4640,
-      "height": 6960,
-      "alt": "Aerial photo of Xi'an Bell Tower and busy street, capturing urban traffic and architecture.",
-      "query": "China city street view xian",
-      "credit": {
-        "source": "pexels",
-        "author": "AngIan Tenone",
-        "sourceUrl": "https://www.pexels.com/photo/traffic-on-street-with-bell-tower-of-xian-behind-16951201/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "沉浸式",
@@ -86,7 +55,7 @@
       "fetchedAt": "2026-09-19"
     }
   ],
-  "updatedAt": "2026-10-29",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -94,5 +63,6 @@
   },
   "_geocodeTitle": "长安十二时辰主题街区",
   "_geocodeSuspect": false,
-  "district": "610113"
+  "district": "610113",
+  "_noImage": true
 }

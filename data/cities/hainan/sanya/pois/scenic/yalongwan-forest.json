@@ -47,48 +47,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/39555096/pexels-photo-39555096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39555096/pexels-photo-39555096.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4592,
-      "height": 2584,
-      "alt": "A breathtaking aerial view showcasing the beautiful coastline of Sanya, Hainan, China.",
-      "query": "natural landscape China sanya",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Glass_Trestle_with_Full_Sea_View_%28Yalong_Bay_Forest_Park_Glass_Bridge%29_in_July_2025.jpg/1280px-Glass_Trestle_with_Full_Sea_View_%28Yalong_Bay_Forest_Park_Glass_Bridge%29_in_July_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Glass_Trestle_with_Full_Sea_View_%28Yalong_Bay_Forest_Park_Glass_Bridge%29_in_July_2025.jpg/1280px-Glass_Trestle_with_Full_Sea_View_%28Yalong_Bay_Forest_Park_Glass_Bridge%29_in_July_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Glass Trestle with Full Sea View (Yalong Bay Forest Park Glass Bridge) in July 2025.jpg",
+      "query": "亚龙湾热带天堂森林公园",
       "credit": {
-        "source": "pexels",
-        "author": "Alex Peet",
-        "sourceUrl": "https://www.pexels.com/photo/stunning-coastal-view-of-sanya-hainan-39555096/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/5992980/pexels-photo-5992980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/5992980/pexels-photo-5992980.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 3377,
-      "alt": "A breathtaking aerial view of a coastal city with mountains in the background under a clear blue sky.",
-      "query": "natural landscape China sanya",
-      "credit": {
-        "source": "pexels",
-        "author": "臻 宋",
-        "sourceUrl": "https://www.pexels.com/photo/drone-shot-of-a-coastal-city-5992980/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/33818491/pexels-photo-33818491.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/33818491/pexels-photo-33818491.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5551,
-      "height": 3122,
-      "alt": "Beautiful beachfront resort with mountain backdrop, capturing coastal luxury and nature.",
-      "query": "natural landscape China sanya",
-      "credit": {
-        "source": "pexels",
-        "author": "Blackcurrant Great",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-beachfront-resort-with-mountain-view-33818491/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "Hjoim",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "exact"
       }
     }
   ],
@@ -107,7 +83,7 @@
       "fetchedAt": "2026-09-29"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-02",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

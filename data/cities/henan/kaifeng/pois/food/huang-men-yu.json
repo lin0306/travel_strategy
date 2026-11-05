@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/37220339/pexels-photo-37220339.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37220339/pexels-photo-37220339.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 6000,
-      "alt": "Delicious Vietnamese clay pot braised fish with ginger, peppers, and spices. Authentic culinary delight.",
-      "query": "Braised Fish Kaifeng",
-      "credit": {
-        "source": "pexels",
-        "author": "Phan Cuong",
-        "sourceUrl": "https://www.pexels.com/photo/vietnamese-clay-pot-braised-fish-with-spices-37220339/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/30613288/pexels-photo-30613288.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/30613288/pexels-photo-30613288.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "A mouthwatering Vietnamese braised fish dish with eggplant and rice.",
-      "query": "Braised Fish Kaifeng",
-      "credit": {
-        "source": "pexels",
-        "author": "FOX ^.ᆽ.^= ∫",
-        "sourceUrl": "https://www.pexels.com/photo/delicious-vietnamese-braised-fish-meal-30613288/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37220340/pexels-photo-37220340.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37220340/pexels-photo-37220340.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 6000,
-      "alt": "Delicious Vietnamese braised fish with fresh vegetables in a traditional clay pot.",
-      "query": "Braised Fish Kaifeng",
-      "credit": {
-        "source": "pexels",
-        "author": "Phan Cuong",
-        "sourceUrl": "https://www.pexels.com/photo/vietnamese-clay-pot-braised-fish-with-vegetables-37220340/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "鱼",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Braised Fish Kaifeng",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "苏聚黄焖鱼",
   "_geocodeSuspect": false,
-  "district": "410203"
+  "district": "410203",
+  "_noImage": true
 }

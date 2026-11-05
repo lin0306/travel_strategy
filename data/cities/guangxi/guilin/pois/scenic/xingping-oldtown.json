@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/7394077/pexels-photo-7394077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/7394077/pexels-photo-7394077.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Beautiful traditional pagoda in Guilin, Guangxi with tourists observing from the balcony.",
-      "query": "Chinese historic architecture guilin",
-      "credit": {
-        "source": "pexels",
-        "author": "Lian Rodriguez",
-        "sourceUrl": "https://www.pexels.com/photo/view-of-a-pagoda-7394077/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/7394072/pexels-photo-7394072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/7394072/pexels-photo-7394072.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 6000,
-      "alt": "Traditional pagoda in Guilin, China showcasing ancient architectural style and vibrant city life.",
-      "query": "Chinese historic architecture guilin",
-      "credit": {
-        "source": "pexels",
-        "author": "Lian Rodriguez",
-        "sourceUrl": "https://www.pexels.com/photo/the-xiaoyao-tower-in-guilin-guangxi-china-7394072/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/33632718/pexels-photo-33632718.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/33632718/pexels-photo-33632718.png?auto=compress&cs=tinysrgb&h=350",
-      "width": 6825,
-      "height": 4541,
-      "alt": "Picturesque view of traditional Chinese architecture and mountains in Guilin, China.",
-      "query": "Chinese historic architecture guilin",
-      "credit": {
-        "source": "pexels",
-        "author": "Vincent Tan",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-architecture-in-guilin-33632718/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "古镇",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-09-30"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "兴坪镇",
   "_geocodeSuspect": false,
-  "district": "450321"
+  "district": "450321",
+  "_noImage": true
 }

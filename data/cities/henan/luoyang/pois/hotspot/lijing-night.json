@@ -40,48 +40,45 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/35045272/pexels-photo-35045272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35045272/pexels-photo-35045272.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5040,
-      "height": 4032,
-      "alt": "High-rise buildings and traffic at a busy intersection in Luoyang, China.",
-      "query": "China city street view luoyang",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Lijingmen_Gate_in_2026_-_2.jpg/1280px-Lijingmen_Gate_in_2026_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Lijingmen_Gate_in_2026_-_2.jpg/1280px-Lijingmen_Gate_in_2026_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Lijingmen Gate in 2026 - 2.jpg",
+      "query": "丽景门夜景",
       "credit": {
-        "source": "pexels",
-        "author": "Bingqian Li",
-        "sourceUrl": "https://www.pexels.com/photo/modern-urban-landscape-in-luoyang-china-35045272/",
-        "license": "Pexels License",
+        "source": "wikimedia",
+        "author": "Renek78",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC0",
         "attributionRequired": false
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-03",
+        "tier": "exact"
       }
     },
     {
-      "url": "https://images.pexels.com/photos/35045256/pexels-photo-35045256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35045256/pexels-photo-35045256.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5040,
-      "height": 4032,
-      "alt": "Modern high-rise residential buildings in Luoyang, China, under clear blue skies.",
-      "query": "China city street view luoyang",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/View_from_Lijingmen_Gate_towards_West_Street_in_2026.jpg/1280px-View_from_Lijingmen_Gate_towards_West_Street_in_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/View_from_Lijingmen_Gate_towards_West_Street_in_2026.jpg/1280px-View_from_Lijingmen_Gate_towards_West_Street_in_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "View from Lijingmen Gate towards West Street in 2026.jpg",
+      "query": "丽景门夜景",
       "credit": {
-        "source": "pexels",
-        "author": "Bingqian Li",
-        "sourceUrl": "https://www.pexels.com/photo/high-rise-buildings-in-luoyang-china-35045256/",
-        "license": "Pexels License",
+        "source": "wikimedia",
+        "author": "Renek78",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC0",
         "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/35045263/pexels-photo-35045263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35045263/pexels-photo-35045263.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6048,
-      "height": 4032,
-      "alt": "Colorful bicycles parked under willow trees on a sunny street in Luoyang, China.",
-      "query": "China city street view luoyang",
-      "credit": {
-        "source": "pexels",
-        "author": "Bingqian Li",
-        "sourceUrl": "https://www.pexels.com/photo/bicycles-parked-under-willow-trees-in-luoyang-35045263/",
-        "license": "Pexels License",
-        "attributionRequired": false
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-03",
+        "tier": "street"
       }
     }
   ],
@@ -100,7 +97,7 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-03",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

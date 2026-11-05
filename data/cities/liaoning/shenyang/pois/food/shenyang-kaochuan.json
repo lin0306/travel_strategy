@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/18936008/pexels-photo-18936008.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/18936008/pexels-photo-18936008.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4392,
-      "height": 2928,
-      "alt": "Traditional Korean BBQ grilling with assorted side dishes in Seoul, South Korea.",
-      "query": "Northeast BBQ Shenyang",
-      "credit": {
-        "source": "pexels",
-        "author": "Pincalo",
-        "sourceUrl": "https://www.pexels.com/photo/preparing-roast-ribs-18936008/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/15711722/pexels-photo-15711722.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/15711722/pexels-photo-15711722.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6503,
-      "height": 3891,
-      "alt": "Delicious shashlik skewers being prepared in a professional kitchen setting.",
-      "query": "Northeast BBQ Shenyang",
-      "credit": {
-        "source": "pexels",
-        "author": "Suki Lee",
-        "sourceUrl": "https://www.pexels.com/photo/roasted-shashlik-in-a-restaurant-kitchen-15711722/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39795863/pexels-photo-39795863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39795863/pexels-photo-39795863.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3668,
-      "height": 5502,
-      "alt": "Juicy steak cooking on a grill with tongs lifting a piece and smoky ambiance.",
-      "query": "Northeast BBQ Shenyang",
-      "credit": {
-        "source": "pexels",
-        "author": "Alex Anheuer",
-        "sourceUrl": "https://www.pexels.com/photo/grilling-steak-with-tongs-and-smoke-39795863/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "烧烤",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Northeast BBQ Shenyang",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "路边东北烧烤",
   "_geocodeSuspect": false,
-  "district": "210102"
+  "district": "210102",
+  "_noImage": true
 }

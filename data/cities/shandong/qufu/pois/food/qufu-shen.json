@@ -41,48 +41,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/1897_20_Satang_O.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/1897_20_Satang_O.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/%E7%B3%81%E6%B1%A4_sa%E6%B1%A4.jpg/1280px-%E7%B3%81%E6%B1%A4_sa%E6%B1%A4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/%E7%B3%81%E6%B1%A4_sa%E6%B1%A4.jpg/1280px-%E7%B3%81%E6%B1%A4_sa%E6%B1%A4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
-      "height": 1080,
-      "alt": "1897 20 Satang O.png",
+      "height": 720,
+      "alt": "糁汤 sa汤.jpg",
       "query": "糁汤",
       "credit": {
         "source": "wikimedia",
-        "author": "Nicolaus Alden Ashvashchandr",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:1897_20_Satang_O.png",
-        "license": "Public domain",
+        "author": "Suginami",
+        "sourceUrl": "https://www.wikidata.org/wiki/Q65051302",
+        "license": "CC0",
         "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/1901_25_Satang_R.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/1901_25_Satang_R.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1080,
-      "alt": "1901 25 Satang R.png",
-      "query": "糁汤",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nicolaus Alden Ashvashchandr",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:1901_25_Satang_R.png",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/1908_10_Satang_O.png/1280px-1908_10_Satang_O.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/1908_10_Satang_O.png/1280px-1908_10_Satang_O.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1080,
-      "alt": "1908 10 Satang O.png",
-      "query": "糁汤",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nicolaus Alden Ashvashchandr",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:1908_10_Satang_O.png",
-        "license": "Public domain",
-        "attributionRequired": false
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-01",
+        "tier": "exact"
       }
     }
   ],
@@ -101,7 +77,7 @@
       "fetchedAt": "2026-10-06"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-01",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

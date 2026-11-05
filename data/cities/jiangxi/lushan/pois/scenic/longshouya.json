@@ -44,48 +44,45 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/34376752/pexels-photo-34376752.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34376752/pexels-photo-34376752.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4096,
-      "height": 2304,
-      "alt": "Aerial view of Lushan Mountain in mist, showcasing lush greenery and rocks surrounded by clouds.",
-      "query": "natural landscape China lushan",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Lu_Shan-Jiangxi2_by_KongFu_Wang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Lu_Shan-Jiangxi2_by_KongFu_Wang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 720,
+      "alt": "Lu Shan-Jiangxi2 by KongFu Wang.jpg",
+      "query": "龙首崖",
       "credit": {
-        "source": "pexels",
-        "author": "日新 李",
-        "sourceUrl": "https://www.pexels.com/photo/misty-aerial-view-of-lushan-mountain-china-34376752/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "KongFu Wang from Beijing, China",
+        "sourceUrl": "https://zh.wikipedia.org/wiki/龙首崖",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "exact"
       }
     },
     {
-      "url": "https://images.pexels.com/photos/39812154/pexels-photo-39812154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39812154/pexels-photo-39812154.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Vibrant Chinese temple nestled in lush green mountains, symbolizing serenity and tradition.",
-      "query": "natural landscape China lushan",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/%E9%BE%99%E9%A6%96%E5%B4%96_-_Dragon_Head_Cliff_-_2016.05_-_panoramio.jpg/1280px-%E9%BE%99%E9%A6%96%E5%B4%96_-_Dragon_Head_Cliff_-_2016.05_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/%E9%BE%99%E9%A6%96%E5%B4%96_-_Dragon_Head_Cliff_-_2016.05_-_panoramio.jpg/1280px-%E9%BE%99%E9%A6%96%E5%B4%96_-_Dragon_Head_Cliff_-_2016.05_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "龙首崖 - Dragon Head Cliff - 2016.05 - panoramio.jpg",
+      "query": "龙首崖",
       "credit": {
-        "source": "pexels",
-        "author": "Roger Madura",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-temple-in-mountainous-landscape-39812154/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/26969382/pexels-photo-26969382.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/26969382/pexels-photo-26969382.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 6000,
-      "alt": "A beautiful mountain landscape featuring a traditional pagoda surrounded by lush greenery.",
-      "query": "natural landscape China lushan",
-      "credit": {
-        "source": "pexels",
-        "author": "Echoe Z",
-        "sourceUrl": "https://www.pexels.com/photo/temple-on-a-mountain-26969382/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "rheins",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%BE%99%E9%A6%96%E5%B4%96_-_Dragon_Head_Cliff_-_2016.05_-_panoramio.jpg",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "exact"
       }
     }
   ],
@@ -105,7 +102,7 @@
       "fetchedAt": "2026-10-07"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-02",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

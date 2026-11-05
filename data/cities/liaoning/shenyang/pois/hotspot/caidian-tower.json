@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/18569409/pexels-photo-18569409.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/18569409/pexels-photo-18569409.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3839,
-      "height": 5770,
-      "alt": "Urban setting with a Christmas market kiosk and skyscrapers, evening lights creating a festive atmosphere.",
-      "query": "Caidian Tower Night Market",
-      "credit": {
-        "source": "pexels",
-        "author": "Luke Miller",
-        "sourceUrl": "https://www.pexels.com/photo/a-christmas-market-in-the-city-with-tall-buildings-18569409/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/14569246/pexels-photo-14569246.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/14569246/pexels-photo-14569246.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3946,
-      "height": 4933,
-      "alt": "Crowded Christmas market with sparkling lights and a towering festive display, capturing the holiday spirit in a citysca",
-      "query": "Caidian Tower Night Market",
-      "credit": {
-        "source": "pexels",
-        "author": "Luke Miller",
-        "sourceUrl": "https://www.pexels.com/photo/crowd-on-christmas-market-at-night-14569246/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/14569251/pexels-photo-14569251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/14569251/pexels-photo-14569251.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3977,
-      "height": 4971,
-      "alt": "Nighttime urban market scene with festive lights and a vibrant atmosphere.",
-      "query": "Caidian Tower Night Market",
-      "credit": {
-        "source": "pexels",
-        "author": "Luke Miller",
-        "sourceUrl": "https://www.pexels.com/photo/people-in-a-restaurant-14569251/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "夜市",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Caidian Tower Night Market",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "彩电塔夜市",
   "_geocodeSuspect": false,
-  "district": "210102"
+  "district": "210102",
+  "_noImage": true
 }

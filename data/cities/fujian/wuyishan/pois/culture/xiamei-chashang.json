@@ -40,48 +40,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/32700828/pexels-photo-32700828.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/32700828/pexels-photo-32700828.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5472,
-      "height": 3648,
-      "alt": "Quaint street in traditional Chinese architecture with red lanterns under a clear blue sky.",
-      "query": "Chinese old town street wuyishan",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/%E9%82%B9%E6%B0%8F%E5%AE%B6%E7%A5%A0_-_Zou%27s_Family_Ancestral_Temple_-_2015.07_-_panoramio.jpg/1280px-%E9%82%B9%E6%B0%8F%E5%AE%B6%E7%A5%A0_-_Zou%27s_Family_Ancestral_Temple_-_2015.07_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/%E9%82%B9%E6%B0%8F%E5%AE%B6%E7%A5%A0_-_Zou%27s_Family_Ancestral_Temple_-_2015.07_-_panoramio.jpg/1280px-%E9%82%B9%E6%B0%8F%E5%AE%B6%E7%A5%A0_-_Zou%27s_Family_Ancestral_Temple_-_2015.07_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "邹氏家祠 - Zou's Family Ancestral Temple - 2015.07 - panoramio.jpg",
+      "query": "下梅邹氏茶商文化",
       "credit": {
-        "source": "pexels",
-        "author": "mingche lee",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-street-with-red-lanterns-32700828/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/7170937/pexels-photo-7170937.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/7170937/pexels-photo-7170937.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 7360,
-      "height": 4912,
-      "alt": "Explore the traditional charm of a quaint Asian village with cobblestone streets and vine-covered houses.",
-      "query": "Chinese old town street wuyishan",
-      "credit": {
-        "source": "pexels",
-        "author": "David Yu",
-        "sourceUrl": "https://www.pexels.com/photo/street-in-ancient-asian-town-7170937/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37113773/pexels-photo-37113773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37113773/pexels-photo-37113773.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Traditional street scene with historic buildings and signage in Hubei, China.",
-      "query": "Chinese old town street wuyishan",
-      "credit": {
-        "source": "pexels",
-        "author": "高 长华",
-        "sourceUrl": "https://www.pexels.com/photo/charming-street-scene-in-hubei-china-37113773/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "rheins",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "front"
       }
     }
   ],
@@ -100,7 +76,7 @@
       "fetchedAt": "2026-10-06"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-02",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

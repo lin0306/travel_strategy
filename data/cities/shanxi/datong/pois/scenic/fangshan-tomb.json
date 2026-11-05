@@ -40,48 +40,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/28263427/pexels-photo-28263427.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/28263427/pexels-photo-28263427.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 2268,
-      "alt": "Close-up of a historic stone archway with intricate carvings in Datong, China.",
-      "query": "Chinese historic architecture datong",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/20251026_Arched_Stone_Gate_at_Yonggu_Mausoleum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/20251026_Arched_Stone_Gate_at_Yonggu_Mausoleum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 720,
+      "alt": "20251026 Arched Stone Gate at Yonggu Mausoleum.jpg",
+      "query": "方山永固陵",
       "credit": {
-        "source": "pexels",
-        "author": "乾 黄",
-        "sourceUrl": "https://www.pexels.com/photo/28263427/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/33572690/pexels-photo-33572690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/33572690/pexels-photo-33572690.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 6000,
-      "alt": "Ornate temple details at a historic site in Datong, Shanxi, China, showcasing traditional Chinese architecture.",
-      "query": "Chinese historic architecture datong",
-      "credit": {
-        "source": "pexels",
-        "author": "Wang Qihang",
-        "sourceUrl": "https://www.pexels.com/photo/ancient-chinese-temple-architecture-in-datong-33572690/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/6724172/pexels-photo-6724172.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/6724172/pexels-photo-6724172.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3456,
-      "height": 5184,
-      "alt": "Ancient Chinese pagoda with intricate architecture under a warm sky in Datong, Shanxi, China.",
-      "query": "Chinese historic architecture datong",
-      "credit": {
-        "source": "pexels",
-        "author": "Lan Yao",
-        "sourceUrl": "https://www.pexels.com/photo/facade-of-a-pagoda-6724172/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "Windmemories",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20251026_Arched_Stone_Gate_at_Yonggu_Mausoleum.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-01",
+        "tier": "exact"
       }
     }
   ],
@@ -100,7 +76,7 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-01",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

@@ -43,53 +43,7 @@
     "城堡临湖，下午三四点的斜光最好拍，穿浅色衣服更出片",
     "地铁 6 号线渌水道站步行可达，比自驾省心，周末停车不算宽裕"
   ],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/31509677/pexels-photo-31509677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/31509677/pexels-photo-31509677.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 3024,
-      "alt": "A serene view of a traditional Japanese garden entrance with visitors enjoying the ambiance.",
-      "query": "Zhonghua Stone Garden Tianjin",
-      "credit": {
-        "source": "pexels",
-        "author": "Shuaizhi Tian",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-japanese-garden-with-visitors-31509677/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/31509689/pexels-photo-31509689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/31509689/pexels-photo-31509689.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "People enjoying cherry blossoms at Tianjin garden in spring.",
-      "query": "Zhonghua Stone Garden Tianjin",
-      "credit": {
-        "source": "pexels",
-        "author": "Shuaizhi Tian",
-        "sourceUrl": "https://www.pexels.com/photo/cherry-blossom-viewing-in-tianjin-garden-31509689/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/13390153/pexels-photo-13390153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/13390153/pexels-photo-13390153.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Peaceful garden scene with a winding walkway and traditional bridge under clear blue skies.",
-      "query": "Zhonghua Stone Garden Tianjin",
-      "credit": {
-        "source": "pexels",
-        "author": "Shuaizhi Tian",
-        "sourceUrl": "https://www.pexels.com/photo/a-paved-walkway-in-a-garden-13390153/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "奇石",
@@ -107,7 +61,7 @@
       "fetchedAt": "2026-10-28"
     }
   ],
-  "updatedAt": "2026-10-28",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Zhonghua Stone Garden Tianjin",
@@ -115,5 +69,6 @@
   },
   "_geocodeTitle": "中华石园",
   "_geocodeSuspect": false,
-  "district": "120112"
+  "district": "120112",
+  "_noImage": true
 }

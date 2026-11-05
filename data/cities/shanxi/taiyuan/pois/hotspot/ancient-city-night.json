@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/37342000/pexels-photo-37342000.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37342000/pexels-photo-37342000.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5152,
-      "height": 6864,
-      "alt": "Night view of a beautifully lit Chinese city wall with traditional architecture under a dark sky.",
-      "query": "Taiyuan Ancient City Night View",
-      "credit": {
-        "source": "pexels",
-        "author": "BI ravencrow",
-        "sourceUrl": "https://www.pexels.com/photo/illuminated-ancient-chinese-city-wall-at-night-37342000/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36930703/pexels-photo-36930703.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36930703/pexels-photo-36930703.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3088,
-      "height": 4632,
-      "alt": "A beautifully lit bridge and building reflecting on water at night, creating a serene urban scene.",
-      "query": "Taiyuan Ancient City Night View",
-      "credit": {
-        "source": "pexels",
-        "author": "木 灬",
-        "sourceUrl": "https://www.pexels.com/photo/illuminated-ancient-bridge-at-night-36930703/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/2870116/pexels-photo-2870116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/2870116/pexels-photo-2870116.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5892,
-      "height": 3928,
-      "alt": "Stunning view of a traditional pagoda in Taiyuán, reflecting in a puddle on a cloudy day.",
-      "query": "Taiyuan Ancient City Night View",
-      "credit": {
-        "source": "pexels",
-        "author": "Lian Rodriguez",
-        "sourceUrl": "https://www.pexels.com/photo/gray-and-brown-pagoda-2870116/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "夜景",
@@ -101,12 +55,13 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Taiyuan Ancient City Night View",
     "zh": "古县城夜景"
   },
   "_geocodeTitle": "晋源区",
-  "district": "140110"
+  "district": "140110",
+  "_noImage": true
 }

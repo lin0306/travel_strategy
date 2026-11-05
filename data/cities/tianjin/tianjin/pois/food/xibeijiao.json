@@ -40,53 +40,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/19582023/pexels-photo-19582023.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/19582023/pexels-photo-19582023.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Bustling night street in Heping, Tianjin with people and scooters under neon lights.",
-      "query": "Tianjin Muslim street food market",
-      "credit": {
-        "source": "pexels",
-        "author": "Shuaizhi Tian",
-        "sourceUrl": "https://www.pexels.com/photo/public-scooters-in-an-asian-city-19582023/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/19011800/pexels-photo-19011800.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/19011800/pexels-photo-19011800.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Illuminated street food stall Jin Si Wei in Tianjin, China at night, offering vibrant urban atmosphere.",
-      "query": "Tianjin Muslim street food market",
-      "credit": {
-        "source": "pexels",
-        "author": "Shuaizhi Tian",
-        "sourceUrl": "https://www.pexels.com/photo/illuminated-window-of-street-asian-restaurant-19011800/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38144498/pexels-photo-38144498.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38144498/pexels-photo-38144498.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5152,
-      "height": 6864,
-      "alt": "Vibrant street market scene in Tianjin, China, showcasing food stalls and colorful signage.",
-      "query": "Tianjin Muslim street food market",
-      "credit": {
-        "source": "pexels",
-        "author": "BI ravencrow",
-        "sourceUrl": "https://www.pexels.com/photo/bustling-market-scene-in-tianjin-china-38144498/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "清真",
@@ -102,12 +56,13 @@
       "fetchedAt": "2026-09-27"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Tianjin Muslim street food market",
     "zh": "西北角清真美食街区"
   },
   "_geocodeTitle": "西北角",
-  "district": "120104"
+  "district": "120104",
+  "_noImage": true
 }

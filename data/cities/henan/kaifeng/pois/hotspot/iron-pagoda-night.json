@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/36037140/pexels-photo-36037140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36037140/pexels-photo-36037140.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5104,
-      "height": 6380,
-      "alt": "Glowing traditional Asian temple towers reflecting in a calm river under night lights.",
-      "query": "Iron Pagoda Night",
-      "credit": {
-        "source": "pexels",
-        "author": "Zak Mogel",
-        "sourceUrl": "https://www.pexels.com/photo/golden-temple-towers-illuminated-at-night-36037140/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37282810/pexels-photo-37282810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37282810/pexels-photo-37282810.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5000,
-      "height": 3333,
-      "alt": "Stunning nighttime view of the Sun and Moon Pagodas in Guilin, reflecting on the water.",
-      "query": "Iron Pagoda Night",
-      "credit": {
-        "source": "pexels",
-        "author": "Jeffry Surianto",
-        "sourceUrl": "https://www.pexels.com/photo/nighttime-view-of-twin-pagodas-in-guilin-china-37282810/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/20073724/pexels-photo-20073724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/20073724/pexels-photo-20073724.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "A stunning night view of the illuminated Sun and Moon Pagodas reflecting in a serene river in Guilin, China.",
-      "query": "Iron Pagoda Night",
-      "credit": {
-        "source": "pexels",
-        "author": "YFS Visuals",
-        "sourceUrl": "https://www.pexels.com/photo/sun-and-moon-pagodas-in-guilin-20073724/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "夜景",
@@ -100,11 +54,12 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Iron Pagoda Night",
     "zh": "铁塔夜灯"
   },
-  "district": "410202"
+  "district": "410202",
+  "_noImage": true
 }

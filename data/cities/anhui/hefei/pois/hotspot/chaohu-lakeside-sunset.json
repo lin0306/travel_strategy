@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/24373414/pexels-photo-24373414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/24373414/pexels-photo-24373414.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Silhouette of a woman viewing a city skyline across a lake at sunset.",
-      "query": "Chaohu Lakeside Road Sunset",
-      "credit": {
-        "source": "pexels",
-        "author": "Jansen Liu",
-        "sourceUrl": "https://www.pexels.com/photo/lake-and-city-skyscrapers-behind-woman-at-sunset-24373414/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/7494213/pexels-photo-7494213.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/7494213/pexels-photo-7494213.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4912,
-      "height": 3264,
-      "alt": "Breathtaking sunset view of Wuhan skyline with a cyclist on the dock, capturing the serene outdoor ambiance.",
-      "query": "Chaohu Lakeside Road Sunset",
-      "credit": {
-        "source": "pexels",
-        "author": "Leon Huang",
-        "sourceUrl": "https://www.pexels.com/photo/a-man-riding-a-bicycle-on-the-wooden-dock-during-golden-hour-7494213/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/29649582/pexels-photo-29649582.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/29649582/pexels-photo-29649582.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2592,
-      "height": 3872,
-      "alt": "Silhouette of a person by the water with sunset in Shenzhen, China.",
-      "query": "Chaohu Lakeside Road Sunset",
-      "credit": {
-        "source": "pexels",
-        "author": "Da Na",
-        "sourceUrl": "https://www.pexels.com/photo/silhouette-by-the-water-at-sunset-in-shenzhen-29649582/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "骑行",
@@ -101,12 +55,13 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Chaohu Lakeside Road Sunset",
     "zh": "环巢湖大道日落"
   },
   "_geocodeTitle": "巢湖市",
-  "district": "340181"
+  "district": "340181",
+  "_noImage": true
 }

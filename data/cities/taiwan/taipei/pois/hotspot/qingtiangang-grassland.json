@@ -40,53 +40,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/36392748/pexels-photo-36392748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36392748/pexels-photo-36392748.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3360,
-      "height": 2240,
-      "alt": "Peaceful grassy hill under a clear blue sky with white clouds in Taipei, Taiwan.",
-      "query": "Qingtiangang grassland Yangmingshan",
-      "credit": {
-        "source": "pexels",
-        "author": "chunhsien shih",
-        "sourceUrl": "https://www.pexels.com/photo/serene-hill-and-clouds-in-taipei-taiwan-36392748/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36299013/pexels-photo-36299013.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36299013/pexels-photo-36299013.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 6000,
-      "alt": "Scenic view of green rolling hills with fencing and distant mountains under a cloudy sky.",
-      "query": "Qingtiangang grassland Yangmingshan",
-      "credit": {
-        "source": "pexels",
-        "author": "CX LEE",
-        "sourceUrl": "https://www.pexels.com/photo/lush-green-landscape-with-rolling-hills-and-onlookers-36299013/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/15667478/pexels-photo-15667478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/15667478/pexels-photo-15667478.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Enjoying a peaceful picnic with scenic mountain views in Yangmingshan National Park, Taipei.",
-      "query": "Qingtiangang grassland Yangmingshan",
-      "credit": {
-        "source": "pexels",
-        "author": "Yu-jun",
-        "sourceUrl": "https://www.pexels.com/photo/people-sitting-on-the-grass-in-a-park-with-view-of-mountains-15667478/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "草原",
@@ -102,12 +56,13 @@
       "fetchedAt": "2026-10-03"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Qingtiangang grassland Yangmingshan",
     "zh": "擎天岗草原"
   },
   "_geocodeTitle": "擎天岗游客服务站",
-  "district": "711015"
+  "district": "711015",
+  "_noImage": true
 }

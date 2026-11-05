@@ -44,68 +44,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/16095999/pexels-photo-16095999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/16095999/pexels-photo-16095999.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3456,
-      "height": 4608,
-      "alt": "A snowboarder in a red jacket walks uphill on a snowy slope, carrying a snowboard, during a winter day.",
-      "query": "Lianhuashan Ski Resort Changchun",
-      "credit": {
-        "source": "pexels",
-        "author": "Sarazh  Izmailov",
-        "sourceUrl": "https://www.pexels.com/photo/person-walking-up-hill-carrying-snowboard-16095999/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/1705857/pexels-photo-1705857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/1705857/pexels-photo-1705857.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3776,
-      "height": 2243,
-      "alt": "A man in a red jacket doing a handstand on a snowy mountain with scenic views.",
-      "query": "Lianhuashan Ski Resort Changchun",
-      "credit": {
-        "source": "pexels",
-        "author": "Xue Guangjian",
-        "sourceUrl": "https://www.pexels.com/photo/man-doing-handstand-1705857/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/1705855/pexels-photo-1705855.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/1705855/pexels-photo-1705855.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3776,
-      "height": 2409,
-      "alt": "Person in vibrant winter clothing relaxing on a snowy mountain at a ski resort with a clear blue sky.",
-      "query": "Lianhuashan Ski Resort Changchun",
-      "credit": {
-        "source": "pexels",
-        "author": "Xue Guangjian",
-        "sourceUrl": "https://www.pexels.com/photo/person-lying-on-snow-ground-1705855/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/5655904/pexels-photo-5655904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/5655904/pexels-photo-5655904.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5616,
-      "height": 3744,
-      "alt": "Two skiers expertly navigating a snowy slope, showcasing their skills in a thrilling downhill race.",
-      "query": "Lianhuashan Ski Resort Changchun",
-      "credit": {
-        "source": "pexels",
-        "author": "光曦 刘",
-        "sourceUrl": "https://www.pexels.com/photo/people-skiing-downhill-5655904/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "滑雪",
@@ -129,5 +68,6 @@
   },
   "_geocodeTitle": "莲花山滑雪场游客中心",
   "_geocodeSuspect": false,
-  "district": "220105"
+  "district": "220105",
+  "_noImage": true
 }

@@ -1,6 +1,6 @@
 # 厦门 · 数据来源与图片版权
 
-> 生成于 2026-10-31 · 城市数据最后更新 2026-09-28
+> 生成于 2026-11-05 · 城市数据最后更新 2026-09-28
 
 ## 概览
 
@@ -84,13 +84,11 @@
 | 八卦楼(鼓浪屿风琴博物馆) | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bagua_Mansion,_Kulangsu,_2019-09-26_03.jpg) |
 | 八卦楼(鼓浪屿风琴博物馆) | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bagua_Mansion,_Kulangsu,_2019-09-26_08.jpg) |
 | 白鹭洲公园 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%99%BD%E9%B9%AD%E6%B4%B2%E5%85%AC%E5%9B%AD_-_White_Egret_Island_Park_-_2013.01_-_panoramio.jpg) |
-| 白鹭洲公园 | 东京村子 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E7%99%BD%E9%B9%AD%E6%B4%B2%E5%85%AC%E5%9B%AD_-_panoramio.jpg) |
-| 白鹭洲公园 | 东京村子 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E7%99%BD%E9%B9%AD%E6%B4%B2%E5%85%AC%E5%9B%AD_-_panoramio_(16).jpg) |
-| 北辰山风景名胜区 | Simon de Vlieger | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Simon_de_Vlieger_(1601-1653)_-_A_Battle_between_Dutch_Ships_(the_%27Texel%27,_%27Domburch%27_and_%27Arnemude%27)_and_Chinese_Junks_-_1401166_-_National_Trust.jpg) |
-| 大嶝战地观光园 | Rolfmueller | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gulangyu_mansion_2011_12.jpg) |
-| 梵天禅寺 | User: (WT-shared) Shoestring at wts wikivoyage | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Nanputuo_Temple,_Xiamen,_China.JPG) |
-| 梵天禅寺 | Slyronit | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Nanputuo_Temple,_Xiamen.jpg) |
-| 梵天禅寺 | Slyronit | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Nanputuo_Temple,_Xiamen_2.jpg) |
+| 大嶝战地观光园 | 葉又嘉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大嶝战地观光园 | 葉又嘉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 梵天禅寺 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 梵天禅寺 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 梵天禅寺 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 鼓浪屿 | Qingwu Zhou (周庆武) | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8_%E9%BC%93%E6%B5%AA%E5%B1%BF_-_panoramio.jpg) |
 | 鼓浪屿 | Qingwu Zhou (周庆武) | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8_%E9%BC%93%E6%B5%AA%E5%B1%BF_-_panoramio_(2).jpg) |
 | 鼓浪屿 | Qingwu Zhou (周庆武) | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8_%E9%BC%93%E6%B5%AA%E5%B1%BF_%E6%B2%99%E6%BB%A9_-_panoramio.jpg) |
@@ -99,17 +97,17 @@
 | 皓月园 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%BC%93%E6%B5%AA%E5%B1%BF%E7%9A%93%E6%9C%88%E5%9B%AD.jpg) |
 | 环岛路 | Xmhaoyu | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Huandao_Rd.JPG) |
 | 环岛路 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%82%8D%E6%99%9A%E4%B8%8B%E7%9A%84%E5%8E%A6%E9%97%A8%E7%8E%AF%E5%B2%9B%E8%B7%AF%E6%A4%B0%E9%A3%8E%E5%AF%A8%E6%B5%B7%E6%BB%A9_-_panoramio.jpg) |
-| 环岛路 | Han Zheng | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E5%85%AC%E4%BA%A4855%E8%B7%AFXMQ6121G@%E6%96%87%E5%85%B4%E4%B8%9C%E8%B7%AF%E7%8E%AF%E5%B2%9B%E5%B9%B2%E9%81%93%E5%8F%A3_(24060297531).jpg) |
-| 华侨博物院 | FradonStar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%8E%E4%BE%A8%E5%8D%9A%E7%89%A9%E9%99%A2%E6%97%85%E5%8F%A4%E5%8D%8E%E4%BE%A8%E5%8D%8F%E5%8A%A9%E5%8F%A4%E5%B7%B4%E7%8B%AC%E7%AB%8B%E8%AE%B0%E5%8A%9F%E7%A2%91%E6%A8%A1%E5%9E%8B.jpg) |
 | 华侨博物院 | Mx. Granger | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%8E%E4%BE%A8%E5%8D%9A%E7%89%A9%E9%A6%86.jpg) |
 | 华侨博物院 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E5%8D%8E%E4%BE%A8%E5%8D%9A%E7%89%A9%E9%99%A2.jpg) |
 | 胡里山炮台 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E8%83%A1%E9%87%8C%E5%B1%B1%E7%82%AE%E5%8F%B0_-_panoramio.jpg) |
 | 胡里山炮台 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E8%83%A1%E9%87%8C%E5%B1%B1%E7%82%AE%E5%8F%B0_-_panoramio_(1).jpg) |
 | 胡里山炮台 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E8%83%A1%E9%87%8C%E5%B1%B1%E7%82%AE%E5%8F%B0_-_panoramio_(2).jpg) |
-| 陈嘉庚先生故居 | 晓鸟  蓝 | Pexels License | [pexels](https://www.pexels.com/photo/building-of-xiamen-university-in-xiamen-in-china-20265634/) |
-| 陈嘉庚先生故居 | Matthew Jesús | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-architecture-in-xiamen-29349103/) |
-| 陈嘉庚先生故居 | Christiana Dj | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-temple-in-xiamen-36675648/) |
-| 集美学村 | Rolfmueller | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gulangyu_mansion_2011_12.jpg) |
+| 集美学村 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 集美学村 | https://pxhere.com/zh/photo/1061711 | CC0 | [wikimedia](https://commons.wikimedia.org/) |
+| 集美学村 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 集美学村 | luchangjiang~鲁昌江 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 集美学村 | Nicolas Halftermeyer | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 集美学村 | 泠风寒声 | CC BY-SA 4.0 | [wikimedia](https://www.wikidata.org/wiki/Q130362710) |
 | 南普陀寺 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E6%99%AE%E9%99%80%E5%AF%BA_-_South_Putuo_Temple_-_2014.01_-_panoramio.jpg) |
 | 南普陀寺 | Qingwu Zhou (周庆武) | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8_%E5%8D%97%E6%99%AE%E9%99%80%E5%AF%BA_-_panoramio.jpg) |
 | 南普陀寺 | Qingwu Zhou (周庆武) | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8_%E5%8D%97%E6%99%AE%E9%99%80%E5%AF%BA_%E6%9C%A8%E6%A3%89%E6%A0%91_-_panoramio.jpg) |
@@ -118,111 +116,49 @@
 | 日光岩 | 颐园新居 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xiamen_20140828.JPG) |
 | 日光岩 | luchangjiang~鲁昌江 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E5%B8%82%E9%BC%93%E6%B5%AA%E5%B1%BF%E6%97%A5%E5%85%89%E5%B2%A9%E6%99%AF%E8%89%B2_-_panoramio.jpg) |
 | 日光岩 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E9%BC%93%E6%B5%AA%E5%B1%BF%E8%BD%AE%E6%B8%A1%E6%9C%9B%E9%BC%93%E6%B5%AA%E5%B1%BF%E5%9C%B0%E6%A0%87_-_%E6%97%A5%E5%85%89%E5%B2%A9_-_panoramio.jpg) |
-| 菽庄花园 | 大禾花 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Modern_Building_Complex_of_Kulangsu_montage.png) |
 | 菽庄花园 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xiamen_Gulangyu_20120226-22.jpg) |
 | 菽庄花园 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E9%BC%93%E6%B5%AA%E5%B1%BF%E8%8F%BD%E5%BA%84%E8%8A%B1%E5%9B%AD_-_panoramio.jpg) |
-| 天竺山森林公园 | Simon de Vlieger | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Simon_de_Vlieger_(1601-1653)_-_A_Battle_between_Dutch_Ships_(the_%27Texel%27,_%27Domburch%27_and_%27Arnemude%27)_and_Chinese_Junks_-_1401166_-_National_Trust.jpg) |
-| 五缘湾湿地公园 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:AMTR%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD%E7%AB%99%E9%85%8D%E5%A5%97%E9%A1%B9%E7%9B%AE%EF%BC%88%E5%8E%A6%E9%97%A8%E4%BA%94%E7%BC%98%E6%B9%BE%E7%89%87%E5%8C%BA%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%ADTOD%E9%A1%B9%E7%9B%AE%EF%BC%89.jpg) |
 | 五缘湾湿地公园 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E7%9A%84%E5%87%A4%E5%87%B0%E8%8A%B1%E5%BC%801.jpg) |
-| 厦门大学(思明校区) | Cagayan Provincial Information Office (CPIO) | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:2024-02-07_Mandarin_Cagayan_001.jpg) |
-| 厦门大学(思明校区) | Cagayan Provincial Information Office (CPIO) | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:2024-02-07_Mandarin_Cagayan_002.jpg) |
 | 厦门大学(思明校区) | Ratvirgin | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Panoramatic_view_of_xiamen_university_at_sunset.jpg) |
-| 厦门科技馆 | Gül Işık | Pexels License | [pexels](https://www.pexels.com/photo/intricate-istanbul-museum-interior-display-35870231/) |
-| 厦门科技馆 | Stijn Dijkstra | Pexels License | [pexels](https://www.pexels.com/photo/ceiling-with-bas-reliefs-and-chandelier-15074424/) |
-| 厦门科技馆 | Lucas Tran | Pexels License | [pexels](https://www.pexels.com/photo/a-room-with-stairs-and-a-roof-that-has-a-tiled-roof-27850848/) |
 | 厦门市博物馆 | FradonStar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86_20250102_02.jpg) |
 | 厦门市博物馆 | FradonStar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86_20250102_05.jpg) |
 | 厦门市博物馆 | FradonStar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86_20250102_08.jpg) |
-| 香山岩 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%92%8E%E7%8F%9E%E5%B2%A9_-_Yingluo_Rockery_-_2010.11_-_panoramio.jpg) |
 | 香山岩 | Augustokremo | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%A6%99%E5%B1%B1%E5%B2%A93041.jpg) |
 | 香山岩 | Augustokremo | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%A6%99%E5%B1%B1%E5%B2%A9%E5%AF%BA1238.jpg) |
 | 厦门园林博览苑 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E5%9B%AD%E6%9E%97%E5%8D%9A%E8%A7%88%E8%8B%91_-_Xiamen_Garden_Expo_Garden_-_2015.01_-_panoramio.jpg) |
 | 厦门园林博览苑 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E5%9B%AD%E6%9E%97%E5%8D%9A%E8%A7%88%E8%8B%91_-_%E6%9D%8F%E6%9E%97%E9%98%81_-_panoramio.jpg) |
 | 厦门园林博览苑 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E5%9B%AD%E6%9E%97%E5%8D%9A%E8%A7%88%E8%8B%91%EF%BC%8C%E5%8C%97%E6%96%B9%E5%9B%AD_-_panoramio.jpg) |
 | 郑成功纪念馆 | gdczjkk | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%83%91%E6%88%90%E5%8A%9F%E7%BA%AA%E5%BF%B5%E9%A6%86_-_panoramio.jpg) |
-| 厦门园林植物园 | gang liang | Pexels License | [pexels](https://www.pexels.com/photo/skyline-with-modern-architecture-and-landmarks-38322645/) |
-| 厦门园林植物园 | Ran Hua | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-temple-with-ornate-architecture-37305275/) |
-| 厦门园林植物园 | ch qw | Pexels License | [pexels](https://www.pexels.com/photo/town-on-sea-coast-and-city-behind-26100564/) |
-| 厦门第八市场 | Vincent Tan | Pexels License | [pexels](https://www.pexels.com/photo/night-market-street-food-in-xiamen-china-33861060/) |
-| 厦门第八市场 | ming chow | Pexels License | [pexels](https://www.pexels.com/photo/nighttime-street-food-market-in-xiamen-china-36818773/) |
-| 厦门第八市场 | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/) |
-| 浮屿大同鸭肉粥 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 浮屿大同鸭肉粥 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 浮屿大同鸭肉粥 | Richard L | Pexels License | [pexels](https://www.pexels.com/photo/bustling-chinese-restaurant-with-lanterns-32603022/) |
-| 黄则和(大同店) | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 黄则和(大同店) | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 黄则和(大同店) | Richard L | Pexels License | [pexels](https://www.pexels.com/photo/bustling-chinese-restaurant-with-lanterns-32603022/) |
-| 佳味再添小吃店 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 佳味再添小吃店 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 佳味再添小吃店 | Richard L | Pexels License | [pexels](https://www.pexels.com/photo/bustling-chinese-restaurant-with-lanterns-32603022/) |
-| 局口拌面(中山路店) | Vincent Tan | Pexels License | [pexels](https://www.pexels.com/photo/night-market-street-food-in-xiamen-china-33861060/) |
-| 局口拌面(中山路店) | ming chow | Pexels License | [pexels](https://www.pexels.com/photo/nighttime-street-food-market-in-xiamen-china-36818773/) |
-| 局口拌面(中山路店) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/) |
-| 老剧场咖啡 | Ymblanter | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xiamen_Gaoqi_International_Airport_Terminal_3_Interior_01.jpg) |
-| 莲欢海蛎煎(局口横巷) | Vincent Tan | Pexels License | [pexels](https://www.pexels.com/photo/night-market-street-food-in-xiamen-china-33861060/) |
-| 莲欢海蛎煎(局口横巷) | ming chow | Pexels License | [pexels](https://www.pexels.com/photo/nighttime-street-food-market-in-xiamen-china-36818773/) |
-| 莲欢海蛎煎(局口横巷) | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/) |
-| 1980烧肉粽(中山路店) | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:1980%E7%83%A7%E8%82%89%E7%B2%BD%E5%89%8D%E5%9F%94%E5%BA%97%E7%9A%84%E8%8F%9C%E5%93%81.jpg) |
-| 四里沙茶面(后江埭店) | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 四里沙茶面(后江埭店) | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 四里沙茶面(后江埭店) | Richard L | Pexels License | [pexels](https://www.pexels.com/photo/bustling-chinese-restaurant-with-lanterns-32603022/) |
-| 乌糖沙茶面 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 乌糖沙茶面 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 乌糖沙茶面 | Richard L | Pexels License | [pexels](https://www.pexels.com/photo/bustling-chinese-restaurant-with-lanterns-32603022/) |
-| 吴再添小吃店(美湖路店) | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 吴再添小吃店(美湖路店) | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 吴再添小吃店(美湖路店) | Richard L | Pexels License | [pexels](https://www.pexels.com/photo/bustling-chinese-restaurant-with-lanterns-32603022/) |
-| 向日葵之家咖啡(公园店) | Ymblanter | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xiamen_Gaoqi_International_Airport_Terminal_3_Interior_01.jpg) |
-| 天河西门土笋冻 | Vincent Tan | Pexels License | [pexels](https://www.pexels.com/photo/night-market-street-food-in-xiamen-china-33861060/) |
-| 天河西门土笋冻 | ming chow | Pexels License | [pexels](https://www.pexels.com/photo/nighttime-street-food-market-in-xiamen-china-36818773/) |
-| 天河西门土笋冻 | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/) |
-| 鹦哥楼怀旧闽南菜(老厦门地标店) | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 鹦哥楼怀旧闽南菜(老厦门地标店) | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 鹦哥楼怀旧闽南菜(老厦门地标店) | Richard L | Pexels License | [pexels](https://www.pexels.com/photo/bustling-chinese-restaurant-with-lanterns-32603022/) |
-| 赵小姐的店(沙坡尾店) | Ymblanter | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xiamen_Gaoqi_International_Airport_Terminal_3_Interior_01.jpg) |
-| 厦门海上世界 | HualinXMN | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:CHUNITHM_NEW!!_CN.jpg) |
+| 厦门园林植物园 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2018%E5%B9%B4%E7%9A%84%E4%B8%87%E7%9F%B3%E6%B9%96.jpg) |
+| 厦门园林植物园 | Metacladistics | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:The_view_from_the_%22Banshan_viewing_platform%22_inside_Xiamen_Botanical_Garden,_looking_out_over_Wanshilian_Temple.jpg) |
+| 厦门园林植物园 | 大禾花 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xiamen_Botanical_Garden3.jpg) |
+| 厦门园林植物园 | 大禾花 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xiamen_Botanical_Garden4.jpg) |
+| 厦门园林植物园 | 大禾花 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xiamen_Botanical_Garden2.jpg) |
+| 佳味再添小吃店 | HualinXMN | CC BY-SA 4.0 | [wikimedia](https://www.wikidata.org/wiki/Q123511615) |
 | 厦门海上世界 | 花折磊2010 | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E6%B2%A7%E5%A4%A7%E6%A1%A5%E4%B8%8E%E7%81%AB%E7%83%A7%E5%B1%BF.jpg) |
-| 厦门山海健康步道 | 衔禾之鹭 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E6%9D%8E%E6%B0%B4%E5%BA%93%E5%85%AC%E5%9B%AD.jpg) |
 | 厦门山海健康步道 | 衔禾之鹭 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E5%B1%B1%E6%B5%B7%E5%81%A5%E5%BA%B7%E6%AD%A5%E9%81%93001.jpg) |
 | 厦门山海健康步道 | 衔禾之鹭 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E5%B1%B1%E6%B5%B7%E5%81%A5%E5%BA%B7%E6%AD%A5%E9%81%93002.jpg) |
-| 沙坡尾艺术西区 | Tom Fisk | Pexels License | [pexels](https://www.pexels.com/photo/aerial-photography-of-buildings-on-island-1578336/) |
-| 沙坡尾艺术西区 | Sri  Bala | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-street-art-on-chennai-buildings-39659646/) |
-| 沙坡尾艺术西区 | ProtSilver Chen | Pexels License | [pexels](https://www.pexels.com/photo/a-gallery-with-framed-art-on-the-wall-27584011/) |
-| 世茂海峡大厦 | Bryanken | Pexels License | [pexels](https://www.pexels.com/photo/view-of-a-street-in-the-city-18076626/) |
-| 世茂海峡大厦 | toter yau | Pexels License | [pexels](https://www.pexels.com/photo/urban-traffic-at-dusk-17985037/) |
-| 世茂海峡大厦 | toter yau | Pexels License | [pexels](https://www.pexels.com/photo/aerial-view-of-xiamen-waterfront-promenade-in-daylight-37714928/) |
-| 五缘湾游艇港 | HualinXMN | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Animate_Xiamen_Pop-up_Store.jpg) |
-| 五缘湾游艇港 | HualinXMN | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Animate_Xiamen_Store.jpg) |
-| 五缘湾游艇港 | HualinXMN | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Apple_Xiamen_Lifestyle_Center.jpg) |
-| 厦门大学人类博物馆 | Tom Fisk | Pexels License | [pexels](https://www.pexels.com/photo/aerial-photography-of-buildings-on-island-1578336/) |
-| 厦门大学人类博物馆 | Sri  Bala | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-street-art-on-chennai-buildings-39659646/) |
-| 厦门大学人类博物馆 | ProtSilver Chen | Pexels License | [pexels](https://www.pexels.com/photo/a-gallery-with-framed-art-on-the-wall-27584011/) |
+| 世茂海峡大厦 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 世茂海峡大厦 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BB%8E%E9%BC%93%E6%B5%AA%E5%B1%BF%E4%B8%8A%E7%9C%8B%E4%B8%96%E8%8C%82%E6%B5%B7%E5%B3%A1%E5%A4%A7%E5%8E%A6.jpg) |
+| 世茂海峡大厦 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BB%B0%E8%A7%86%E4%B8%96%E8%8C%82%E6%B5%B7%E5%B3%A1%E5%A4%A7%E5%8E%A6.jpg) |
 | 厦门市美术馆 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E5%B8%82%E7%BE%8E%E6%9C%AF%E9%A6%86.jpg) |
 | 厦门市美术馆 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E5%B8%82%E7%BE%8E%E6%9C%AF%E9%A6%86%E5%86%85%E9%83%A8.jpg) |
 | 演武大桥观景平台 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%BC%94%E6%AD%A6%E5%A4%A7%E6%A1%A5%E8%A7%82%E6%99%AF%E5%B9%B3%E5%8F%B0%E4%B8%8A%E8%A7%82%E6%99%AF.jpg) |
 | 演武大桥观景平台 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%BC%94%E6%AD%A6%E5%A4%A7%E6%A1%A5%E8%A7%82%E6%99%AF%E5%B9%B3%E5%8F%B0%E4%B8%8A%E8%A7%82%E6%99%AF_2.jpg) |
 | 演武大桥观景平台 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%BC%94%E6%AD%A6%E5%A4%A7%E6%A1%A5%E8%A7%82%E6%99%AF%E5%B9%B3%E5%8F%B0%E4%B8%8A%E8%A7%82%E6%99%AF_3.jpg) |
-| 椰风寨 | Bryanken | Pexels License | [pexels](https://www.pexels.com/photo/view-of-a-street-in-the-city-18076626/) |
-| 椰风寨 | toter yau | Pexels License | [pexels](https://www.pexels.com/photo/urban-traffic-at-dusk-17985037/) |
-| 椰风寨 | toter yau | Pexels License | [pexels](https://www.pexels.com/photo/aerial-view-of-xiamen-waterfront-promenade-in-daylight-37714928/) |
-| 厦门中华儿女美术馆 | Tom Fisk | Pexels License | [pexels](https://www.pexels.com/photo/aerial-photography-of-buildings-on-island-1578336/) |
-| 厦门中华儿女美术馆 | Sri  Bala | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-street-art-on-chennai-buildings-39659646/) |
-| 厦门中华儿女美术馆 | ProtSilver Chen | Pexels License | [pexels](https://www.pexels.com/photo/a-gallery-with-framed-art-on-the-wall-27584011/) |
-| 华新路老别墅 | Bryanken | Pexels License | [pexels](https://www.pexels.com/photo/view-of-a-street-in-the-city-18076626/) |
-| 华新路老别墅 | ZhiCheng Zhang | Pexels License | [pexels](https://www.pexels.com/photo/orange-payphone-on-a-wall-by-a-glass-door-19945097/) |
-| 华新路老别墅 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/bustling-street-with-shops-in-urban-china-28986026/) |
-| 嘉庚剧院 | Alexandra  Lavizzari | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-opera-performer-in-costume-36422762/) |
-| 嘉庚剧院 | David Lund | Pexels License | [pexels](https://www.pexels.com/photo/colorful-traditional-asian-opera-performer-portrait-36545226/) |
-| 嘉庚剧院 | Quang Nguyen Vinh | Pexels License | [pexels](https://www.pexels.com/photo/performers-preparing-backstage-14010690/) |
-| 闽南大戏院 | Alexandra  Lavizzari | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-opera-performer-in-costume-36422762/) |
-| 闽南大戏院 | David Lund | Pexels License | [pexels](https://www.pexels.com/photo/colorful-traditional-asian-opera-performer-portrait-36545226/) |
-| 闽南大戏院 | Quang Nguyen Vinh | Pexels License | [pexels](https://www.pexels.com/photo/performers-preparing-backstage-14010690/) |
-| 沙坡尾 | Bryanken | Pexels License | [pexels](https://www.pexels.com/photo/view-of-a-street-in-the-city-18076626/) |
-| 沙坡尾 | ZhiCheng Zhang | Pexels License | [pexels](https://www.pexels.com/photo/orange-payphone-on-a-wall-by-a-glass-door-19945097/) |
-| 沙坡尾 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/bustling-street-with-shops-in-urban-china-28986026/) |
-| 曾厝垵文创街区 | Bryanken | Pexels License | [pexels](https://www.pexels.com/photo/view-of-a-street-in-the-city-18076626/) |
-| 曾厝垵文创街区 | ZhiCheng Zhang | Pexels License | [pexels](https://www.pexels.com/photo/orange-payphone-on-a-wall-by-a-glass-door-19945097/) |
-| 曾厝垵文创街区 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/bustling-street-with-shops-in-urban-china-28986026/) |
-| 中山路步行街 | Shwangtianyuan | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:85C_at_Zhongshan_Road,_Xiamen-20191216.jpg) |
-| 中山路步行街 | Shwangtianyuan | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:KFC_at_Zhongshan_Road,_Xiamen-20191216.jpg) |
+| 椰风寨 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 椰风寨 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 椰风寨 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 椰风寨 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E7%8E%AF%E5%B2%9B%E8%B7%AF%E6%A4%B0%E9%A3%8E%E5%AF%A8%E6%B5%B7%E6%BB%A9_-_panoramio_(3).jpg) |
+| 椰风寨 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 椰风寨 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 华新路老别墅 | Augustohai | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 华新路老别墅 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 华新路老别墅 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 沙坡尾 | https://pxhere.com/zh/photo/875404 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2015%E5%B9%B4%E7%9A%84%E6%B2%99%E5%9D%A1%E5%B0%BE%E9%81%BF%E9%A3%8E%E5%9D%9E.jpg) |
+| 沙坡尾 | mojojo.cn | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Fishing_boats_in_Shapowei,_Xiamen.jpg) |
+| 沙坡尾 | LTJcake | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:LTJcake_-_46321163261.jpg) |
+| 沙坡尾 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE1.jpg) |
+| 沙坡尾 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE2.jpg) |
+| 沙坡尾 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE3.jpg) |
 | 中山路步行街 | HualinXMN | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xiamen_Zhongshan_Road_Pedestrian_Street.jpg) |

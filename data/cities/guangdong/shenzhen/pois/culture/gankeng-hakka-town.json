@@ -42,48 +42,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/38318481/pexels-photo-38318481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38318481/pexels-photo-38318481.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Ancient Chinese architectural entrance with ornate details leading to a narrow alleyway.",
-      "query": "Chinese old town street shenzhen",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Gankeng_at_night%2C_December_2024_-9.jpg/1280px-Gankeng_at_night%2C_December_2024_-9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Gankeng_at_night%2C_December_2024_-9.jpg/1280px-Gankeng_at_night%2C_December_2024_-9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Gankeng at night, December 2024 -9.jpg",
+      "query": "甘坑古镇",
       "credit": {
-        "source": "pexels",
-        "author": "PREETYGUYFABIO678",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-architectural-gateway-38318481/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/25381191/pexels-photo-25381191.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/25381191/pexels-photo-25381191.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3728,
-      "height": 5600,
-      "alt": "Vibrant city street in Shenzhen with scooters, pedestrians, and high-rise buildings.",
-      "query": "Chinese old town street shenzhen",
-      "credit": {
-        "source": "pexels",
-        "author": ". what",
-        "sourceUrl": "https://www.pexels.com/photo/view-of-a-busy-street-between-high-rise-buildings-in-a-city-25381191/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/33020831/pexels-photo-33020831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/33020831/pexels-photo-33020831.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5950,
-      "height": 3347,
-      "alt": "Bustling city street with diverse building signs and traffic below.",
-      "query": "Chinese old town street shenzhen",
-      "credit": {
-        "source": "pexels",
-        "author": "Blackcurrant Great",
-        "sourceUrl": "https://www.pexels.com/photo/vibrant-urban-scene-with-multilingual-signage-33020831/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "Underbar dk",
+        "sourceUrl": "https://zh.wikipedia.org/wiki/甘坑古鎮",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-03",
+        "tier": "front"
       }
     }
   ],
@@ -102,7 +78,7 @@
       "fetchedAt": "2026-09-24"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-03",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

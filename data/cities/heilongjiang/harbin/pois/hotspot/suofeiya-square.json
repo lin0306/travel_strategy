@@ -40,53 +40,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/36213073/pexels-photo-36213073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36213073/pexels-photo-36213073.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 6048,
-      "alt": "Stunning night view of a beautifully lit government building in Harbin, China, with moving cars.",
-      "query": "China city street view harbin",
-      "credit": {
-        "source": "pexels",
-        "author": "ainc T",
-        "sourceUrl": "https://www.pexels.com/photo/illuminated-building-at-night-in-harbin-china-36213073/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38707930/pexels-photo-38707930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38707930/pexels-photo-38707930.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8256,
-      "height": 4951,
-      "alt": "View of Harbin's Central Avenue with classic and modern buildings.",
-      "query": "China city street view harbin",
-      "credit": {
-        "source": "pexels",
-        "author": "sanynjez gao",
-        "sourceUrl": "https://www.pexels.com/photo/central-avenue-architecture-in-harbin-38707930/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36286044/pexels-photo-36286044.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36286044/pexels-photo-36286044.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 6048,
-      "alt": "Charming red-brick building with vintage signs in Harbin, showcasing traditional architecture.",
-      "query": "China city street view harbin",
-      "credit": {
-        "source": "pexels",
-        "author": "ainc T",
-        "sourceUrl": "https://www.pexels.com/photo/historic-red-brick-architecture-in-harbin-36286044/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "广场",
@@ -102,7 +56,7 @@
       "fetchedAt": "2026-09-30"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -110,5 +64,6 @@
   },
   "_geocodeTitle": "索菲亚广场",
   "_geocodeSuspect": false,
-  "district": "230102"
+  "district": "230102",
+  "_noImage": true
 }

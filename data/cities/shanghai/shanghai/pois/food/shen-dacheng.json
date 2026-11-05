@@ -41,48 +41,45 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/7000842/pexels-photo-7000842.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/7000842/pexels-photo-7000842.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5760,
-      "height": 3840,
-      "alt": "Close-up of exotic fried scorpions on skewers, a popular street food in Shanghai, China.",
-      "query": "Chinese street food dish shanghai",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/%E4%B8%8A%E6%B5%B7_%E9%BB%84%E6%B5%A6%E5%8C%BA_%E5%8D%97%E4%BA%AC%E8%B7%AF_-_panoramio.jpg/1280px-%E4%B8%8A%E6%B5%B7_%E9%BB%84%E6%B5%A6%E5%8C%BA_%E5%8D%97%E4%BA%AC%E8%B7%AF_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/%E4%B8%8A%E6%B5%B7_%E9%BB%84%E6%B5%A6%E5%8C%BA_%E5%8D%97%E4%BA%AC%E8%B7%AF_-_panoramio.jpg/1280px-%E4%B8%8A%E6%B5%B7_%E9%BB%84%E6%B5%A6%E5%8C%BA_%E5%8D%97%E4%BA%AC%E8%B7%AF_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "沈大成(南京东路总店)所在的街区实景（非本店门面）",
+      "query": "沈大成(南京东路总店)",
       "credit": {
-        "source": "pexels",
-        "author": "laura parenti",
-        "sourceUrl": "https://www.pexels.com/photo/selective-focus-photo-of-skewered-scorpions-7000842/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "Yoshio Kohara",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-04",
+        "tier": "street"
       }
     },
     {
-      "url": "https://images.pexels.com/photos/36680510/pexels-photo-36680510.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36680510/pexels-photo-36680510.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3072,
-      "height": 4096,
-      "alt": "Close-up of delicious hot and sour soup garnished with fresh herbs, served in a white bowl with spoon.",
-      "query": "Chinese street food dish shanghai",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/%E5%8D%97%E4%BA%AC%E8%B7%AF%E6%AD%A5%E8%A1%8C%E8%A1%97_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/%E5%8D%97%E4%BA%AC%E8%B7%AF%E6%AD%A5%E8%A1%8C%E8%A1%97_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 720,
+      "alt": "沈大成(南京东路总店)所在的街区实景（非本店门面）",
+      "query": "沈大成(南京东路总店)",
       "credit": {
-        "source": "pexels",
-        "author": "Jaysee Pingkian",
-        "sourceUrl": "https://www.pexels.com/photo/delicious-hot-and-sour-soup-in-white-bowl-36680510/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37044707/pexels-photo-37044707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37044707/pexels-photo-37044707.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3072,
-      "height": 4608,
-      "alt": "Colorful bowls of spices and ingredients at a bustling street food market in Shanghai.",
-      "query": "Chinese street food dish shanghai",
-      "credit": {
-        "source": "pexels",
-        "author": "Paul Bill",
-        "sourceUrl": "https://www.pexels.com/photo/vibrant-street-food-market-in-shanghai-china-37044707/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "蒋鹏飞",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-04",
+        "tier": "street"
       }
     }
   ],
@@ -101,7 +98,7 @@
       "fetchedAt": "2026-09-19"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-04",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

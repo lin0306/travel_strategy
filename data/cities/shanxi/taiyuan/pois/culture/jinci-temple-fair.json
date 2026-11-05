@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/2870587/pexels-photo-2870587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/2870587/pexels-photo-2870587.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Majestic golden Buddha statue outside a traditional Chinese temple in Taiyuan, Shanxi.",
-      "query": "Jinci Temple Fair Taiyuan",
-      "credit": {
-        "source": "pexels",
-        "author": "Lian Rodriguez",
-        "sourceUrl": "https://www.pexels.com/photo/buddha-statue-2870587/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39921672/pexels-photo-39921672.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39921672/pexels-photo-39921672.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3000,
-      "height": 4000,
-      "alt": "Explore the ancient architecture of twin pagodas at a traditional Chinese temple surrounded by lush greenery.",
-      "query": "Jinci Temple Fair Taiyuan",
-      "credit": {
-        "source": "pexels",
-        "author": "MochiBlink",
-        "sourceUrl": "https://www.pexels.com/photo/majestic-twin-pagodas-in-historic-chinese-temple-39921672/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/888703/pexels-photo-888703.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/888703/pexels-photo-888703.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 3024,
-      "alt": "Crowd enjoying a colorful lantern festival at a traditional temple, showcasing vibrant decorations and cultural elements",
-      "query": "Jinci Temple Fair Taiyuan",
-      "credit": {
-        "source": "pexels",
-        "author": "PaiYu Cheng",
-        "sourceUrl": "https://www.pexels.com/photo/yellow-and-red-lanterns-888703/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "庙会",
@@ -101,12 +55,13 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Jinci Temple Fair Taiyuan",
     "zh": "晋祠庙会"
   },
   "_geocodeTitle": "晋祠镇",
-  "district": "140110"
+  "district": "140110",
+  "_noImage": true
 }

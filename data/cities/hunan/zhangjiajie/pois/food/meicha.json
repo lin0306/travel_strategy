@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/13195716/pexels-photo-13195716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/13195716/pexels-photo-13195716.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4685,
-      "height": 4016,
-      "alt": "Experience the breathtaking Zhangjiajie mountainscape with lush greenery and cloudy skies.",
-      "query": "Zhangjiajie Mei Tea",
-      "credit": {
-        "source": "pexels",
-        "author": "Cz Jen",
-        "sourceUrl": "https://www.pexels.com/photo/green-mountains-under-white-clouds-13195716/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/26771351/pexels-photo-26771351.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/26771351/pexels-photo-26771351.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 7305,
-      "height": 3599,
-      "alt": "Explore the stunning rock formations and lush forests of Zhangjiajie in Hunan, China.",
-      "query": "Zhangjiajie Mei Tea",
-      "credit": {
-        "source": "pexels",
-        "author": "jason hu",
-        "sourceUrl": "https://www.pexels.com/photo/forest-on-rock-formations-in-valley-26771351/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/34683516/pexels-photo-34683516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34683516/pexels-photo-34683516.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8192,
-      "height": 5464,
-      "alt": "Stunning view of mist-covered mountains and winding road in Zhangjiajie, China.",
-      "query": "Zhangjiajie Mei Tea",
-      "credit": {
-        "source": "pexels",
-        "author": "David Tran",
-        "sourceUrl": "https://www.pexels.com/photo/breathtaking-view-of-misty-mountains-in-china-34683516/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "莓茶",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Zhangjiajie Mei Tea",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "张家界莓茶武陵源区旗舰店",
   "_geocodeSuspect": false,
-  "district": "430811"
+  "district": "430811",
+  "_noImage": true
 }

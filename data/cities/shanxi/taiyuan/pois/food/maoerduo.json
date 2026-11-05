@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/5602421/pexels-photo-5602421.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/5602421/pexels-photo-5602421.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4882,
-      "height": 3255,
-      "alt": "Vibrant mural of a child slurping noodles with a cat, showcasing street art.",
-      "query": "Maoerduo Cat Ear Noodles Taiyuan",
-      "credit": {
-        "source": "pexels",
-        "author": "cottonbro studio",
-        "sourceUrl": "https://www.pexels.com/photo/mural-on-an-abandoned-building-picturing-a-girl-eating-noodles-and-a-cat-5602421/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37674222/pexels-photo-37674222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37674222/pexels-photo-37674222.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 6048,
-      "alt": "Charming exterior view of a traditional Chinese noodle shop adorned with red flags and bold signage.",
-      "query": "Maoerduo Cat Ear Noodles Taiyuan",
-      "credit": {
-        "source": "pexels",
-        "author": "Ruben VP",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-noodle-shop-exterior-with-flags-37674222/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/35107571/pexels-photo-35107571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35107571/pexels-photo-35107571.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "A ginger tabby cat sits on a manhole cover soaking up the sun. Perfect for animal lovers.",
-      "query": "Maoerduo Cat Ear Noodles Taiyuan",
-      "credit": {
-        "source": "pexels",
-        "author": "Erica Opoku",
-        "sourceUrl": "https://www.pexels.com/photo/ginger-tabby-cat-relaxing-outdoors-in-sunlight-35107571/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "面食",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Maoerduo Cat Ear Noodles Taiyuan",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "汾胖功夫猫耳朵面馆",
   "_geocodeSuspect": false,
-  "district": "140105"
+  "district": "140105",
+  "_noImage": true
 }

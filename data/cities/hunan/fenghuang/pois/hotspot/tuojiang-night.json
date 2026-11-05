@@ -41,18 +41,87 @@
   "tips": [],
   "images": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/%E6%B2%B1%E6%B1%9F%E5%A4%9C%E6%99%AF_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/%E6%B2%B1%E6%B1%9F%E5%A4%9C%E6%99%AF_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Fenghuang_II_%2830297427525%29.jpg/1280px-Fenghuang_II_%2830297427525%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Fenghuang_II_%2830297427525%29.jpg/1280px-Fenghuang_II_%2830297427525%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
-      "height": 810,
-      "alt": "沱江夜景 - panoramio.jpg",
+      "height": 720,
+      "alt": "Fenghuang II (30297427525).jpg",
       "query": "沱江夜景",
       "credit": {
         "source": "wikimedia",
-        "author": "ritsing",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B2%B1%E6%B1%9F%E5%A4%9C%E6%99%AF_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
+        "author": "Ludger Heide",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 2.0",
         "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-01",
+        "tier": "exact"
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Fenghuang_IV_%2830211755471%29.jpg/1280px-Fenghuang_IV_%2830211755471%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Fenghuang_IV_%2830211755471%29.jpg/1280px-Fenghuang_IV_%2830211755471%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Fenghuang IV (30211755471).jpg",
+      "query": "沱江夜景",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Ludger Heide",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-01",
+        "tier": "exact"
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Fenghuang_I_%2830211763171%29.jpg/1280px-Fenghuang_I_%2830211763171%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Fenghuang_I_%2830211763171%29.jpg/1280px-Fenghuang_I_%2830211763171%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Fenghuang I (30211763171).jpg",
+      "query": "沱江夜景",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Ludger Heide",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-01",
+        "tier": "exact"
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Red_Bridge_at_night_Fenghuang_Hunan.jpg/1280px-Red_Bridge_at_night_Fenghuang_Hunan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Red_Bridge_at_night_Fenghuang_Hunan.jpg/1280px-Red_Bridge_at_night_Fenghuang_Hunan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Red Bridge at night Fenghuang Hunan.jpg",
+      "query": "沱江夜景",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Lianguanlun",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-01",
+        "tier": "exact"
       }
     }
   ],
@@ -71,7 +140,7 @@
       "fetchedAt": "2026-10-06"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-01",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

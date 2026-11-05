@@ -40,48 +40,45 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/35132182/pexels-photo-35132182.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35132182/pexels-photo-35132182.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "View of modern buildings and streets in Shanghai, China, showcasing urban architecture.",
-      "query": "China city street view shanghai",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/%E5%A4%8D%E5%85%B4%E4%B8%AD%E8%B7%AF492%E5%8F%B7.jpg/1280px-%E5%A4%8D%E5%85%B4%E4%B8%AD%E8%B7%AF492%E5%8F%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/%E5%A4%8D%E5%85%B4%E4%B8%AD%E8%B7%AF492%E5%8F%B7.jpg/1280px-%E5%A4%8D%E5%85%B4%E4%B8%AD%E8%B7%AF492%E5%8F%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "复兴中路492号.jpg",
+      "query": "思南公馆与周公馆片区",
       "credit": {
-        "source": "pexels",
-        "author": "Bruna Santos",
-        "sourceUrl": "https://www.pexels.com/photo/modern-architecture-of-shanghai-cityscape-35132182/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "Antigng",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-04",
+        "tier": "exact"
       }
     },
     {
-      "url": "https://images.pexels.com/photos/34915563/pexels-photo-34915563.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34915563/pexels-photo-34915563.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4473,
-      "height": 6302,
-      "alt": "City street in the late afternoon with modern skyscrapers and pedestrians walking by.",
-      "query": "China city street view shanghai",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/A_picture_from_China_every_day_042.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/A_picture_from_China_every_day_042.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 720,
+      "alt": "A picture from China every day 042.jpg",
+      "query": "思南公馆与周公馆片区",
       "credit": {
-        "source": "pexels",
-        "author": "女子 正真",
-        "sourceUrl": "https://www.pexels.com/photo/urban-street-view-with-skyscrapers-and-people-walking-34915563/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/35124646/pexels-photo-35124646.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35124646/pexels-photo-35124646.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4128,
-      "height": 6192,
-      "alt": "Urban street view featuring modern skyscrapers on a clear day.",
-      "query": "China city street view shanghai",
-      "credit": {
-        "source": "pexels",
-        "author": "Chuck Ni",
-        "sourceUrl": "https://www.pexels.com/photo/urban-street-view-with-city-skyline-35124646/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "Carsten Ullrich from Shanghai, China",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-04",
+        "tier": "street"
       }
     }
   ],
@@ -100,7 +97,7 @@
       "fetchedAt": "2026-09-19"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-04",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

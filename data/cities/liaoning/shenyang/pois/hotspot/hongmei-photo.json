@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/37729813/pexels-photo-37729813.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37729813/pexels-photo-37729813.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4033,
-      "alt": "Artistic canopies in a vibrant park with palm trees and clear blue sky.",
-      "query": "Hongmei Creative Park",
-      "credit": {
-        "source": "pexels",
-        "author": "lhthoai",
-        "sourceUrl": "https://www.pexels.com/photo/modern-park-with-artistic-canopies-and-palm-trees-37729813/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37414652/pexels-photo-37414652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37414652/pexels-photo-37414652.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4284,
-      "height": 5712,
-      "alt": "Unique building design surrounded by vibrant greenery and colorful path on a sunny day.",
-      "query": "Hongmei Creative Park",
-      "credit": {
-        "source": "pexels",
-        "author": "Anderson Wei",
-        "sourceUrl": "https://www.pexels.com/photo/modern-architecture-in-green-park-on-sunny-day-37414652/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38185904/pexels-photo-38185904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38185904/pexels-photo-38185904.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4516,
-      "height": 6323,
-      "alt": "Vibrant geometric dinosaur sculpture stands amidst lush green forest trees.",
-      "query": "Hongmei Creative Park",
-      "credit": {
-        "source": "pexels",
-        "author": "sanynjez gao",
-        "sourceUrl": "https://www.pexels.com/photo/colorful-dinosaur-sculpture-in-forest-setting-38185904/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "文创园",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Hongmei Creative Park",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "红梅文创园",
   "_geocodeSuspect": false,
-  "district": "210106"
+  "district": "210106",
+  "_noImage": true
 }

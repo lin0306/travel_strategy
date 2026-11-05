@@ -39,7 +39,50 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Dabei_Hall_and_Fuxie_Pavilion%2C_Kaifu_Temple%2C_picture2.jpg/1280px-Dabei_Hall_and_Fuxie_Pavilion%2C_Kaifu_Temple%2C_picture2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Dabei_Hall_and_Fuxie_Pavilion%2C_Kaifu_Temple%2C_picture2.jpg/1280px-Dabei_Hall_and_Fuxie_Pavilion%2C_Kaifu_Temple%2C_picture2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Dabei Hall and Fuxie Pavilion, Kaifu Temple, picture2.jpg",
+      "query": "开福寺",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Huangdan2060",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dabei_Hall_and_Fuxie_Pavilion,_Kaifu_Temple,_picture2.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Mahabodhi_Pavilion%2C_Kaifu_Temple%2C_picture2.jpg/1280px-Mahabodhi_Pavilion%2C_Kaifu_Temple%2C_picture2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Mahabodhi_Pavilion%2C_Kaifu_Temple%2C_picture2.jpg/1280px-Mahabodhi_Pavilion%2C_Kaifu_Temple%2C_picture2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Mahabodhi Pavilion, Kaifu Temple, picture2.jpg",
+      "query": "开福寺",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Huangdan2060",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mahabodhi_Pavilion,_Kaifu_Temple,_picture2.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
+      }
+    }
+  ],
   "coverIndex": 0,
   "tags": [
     "佛寺",
@@ -55,7 +98,7 @@
       "fetchedAt": "2026-09-28"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-05",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,6 +106,5 @@
   },
   "_geocodeTitle": "古开福寺",
   "_geocodeSuspect": false,
-  "district": "430105",
-  "_noImage": true
+  "district": "430105"
 }

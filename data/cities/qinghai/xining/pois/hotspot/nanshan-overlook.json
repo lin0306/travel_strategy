@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/38399475/pexels-photo-38399475.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38399475/pexels-photo-38399475.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5152,
-      "height": 6864,
-      "alt": "Cityscape featuring a modern skyscraper with urban street scene and pedestrians.",
-      "query": "China city street view xining",
-      "credit": {
-        "source": "pexels",
-        "author": "BI ravencrow",
-        "sourceUrl": "https://www.pexels.com/photo/urban-street-view-with-modern-skyscraper-38399475/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/8138792/pexels-photo-8138792.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/8138792/pexels-photo-8138792.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3744,
-      "height": 5616,
-      "alt": "Busy city street with traffic and skyscrapers viewed from above.",
-      "query": "China city street view xining",
-      "credit": {
-        "source": "pexels",
-        "author": "zhengkui li",
-        "sourceUrl": "https://www.pexels.com/photo/traffic-in-city-8138792/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36213073/pexels-photo-36213073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36213073/pexels-photo-36213073.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 6048,
-      "alt": "Stunning night view of a beautifully lit government building in Harbin, China, with moving cars.",
-      "query": "China city street view xining",
-      "credit": {
-        "source": "pexels",
-        "author": "ainc T",
-        "sourceUrl": "https://www.pexels.com/photo/illuminated-building-at-night-in-harbin-china-36213073/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "俯瞰",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "南山公园",
   "_geocodeSuspect": false,
-  "district": "630103"
+  "district": "630103",
+  "_noImage": true
 }

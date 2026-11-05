@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/36466085/pexels-photo-36466085.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36466085/pexels-photo-36466085.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 2666,
-      "alt": "Picturesque alley in Suzhou with traditional architecture and warm sunset lighting.",
-      "query": "Chinese old town street suzhou",
-      "credit": {
-        "source": "pexels",
-        "author": "Garrison Gao",
-        "sourceUrl": "https://www.pexels.com/photo/charming-alleyway-at-sunset-in-suzhou-china-36466085/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38218852/pexels-photo-38218852.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38218852/pexels-photo-38218852.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2334,
-      "height": 3500,
-      "alt": "Charming canal view with traditional Chinese architecture and red lanterns.",
-      "query": "Chinese old town street suzhou",
-      "credit": {
-        "source": "pexels",
-        "author": "Yudi Ding",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-canal-with-traditional-chinese-architecture-38218852/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36466090/pexels-photo-36466090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36466090/pexels-photo-36466090.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 2666,
-      "alt": "Charming Suzhou courtyard with vintage bicycle and red decorations symbolizing luck and prosperity.",
-      "query": "Chinese old town street suzhou",
-      "credit": {
-        "source": "pexels",
-        "author": "Garrison Gao",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-courtyard-entrance-in-suzhou-36466090/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "夜景",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-09-19"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "斜塘老街游船码头",
   "_geocodeSuspect": false,
-  "district": "320506"
+  "district": "320506",
+  "_noImage": true
 }

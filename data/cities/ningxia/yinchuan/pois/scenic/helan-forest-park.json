@@ -44,53 +44,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/33452166/pexels-photo-33452166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/33452166/pexels-photo-33452166.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5713,
-      "height": 3809,
-      "alt": "Idyllic lakeside view of Kolsai Lake amidst lush mountains in Almaty Region, Kazakhstan.",
-      "query": "Helan Mountain Forest Park",
-      "credit": {
-        "source": "pexels",
-        "author": "Naimish Verma",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-kolsai-lake-in-kazakhstan-33452166/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/13327709/pexels-photo-13327709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/13327709/pexels-photo-13327709.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5120,
-      "height": 2880,
-      "alt": "Aerial view of a mountainous town surrounded by lush forests and rugged mountains.",
-      "query": "Helan Mountain Forest Park",
-      "credit": {
-        "source": "pexels",
-        "author": "SlimMars 13",
-        "sourceUrl": "https://www.pexels.com/photo/parked-vehicles-near-green-trees-and-buildings-on-the-mountains-13327709/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39711254/pexels-photo-39711254.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39711254/pexels-photo-39711254.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Stunning view of a waterfall flowing over rocky cliffs surrounded by vegetation in Isparta, Türkiye.",
-      "query": "Helan Mountain Forest Park",
-      "credit": {
-        "source": "pexels",
-        "author": "Ece Ebrar TOYCU",
-        "sourceUrl": "https://www.pexels.com/photo/beautiful-waterfall-cascading-over-rocks-in-turkiye-39711254/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "森林",
@@ -106,7 +60,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Helan Mountain Forest Park",
@@ -114,5 +68,6 @@
   },
   "_geocodeTitle": "宁夏贺兰山国家森林公园",
   "_geocodeSuspect": false,
-  "district": "640122"
+  "district": "640122",
+  "_noImage": true
 }

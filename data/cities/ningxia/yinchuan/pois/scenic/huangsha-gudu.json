@@ -44,53 +44,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/32076287/pexels-photo-32076287.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/32076287/pexels-photo-32076287.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3420,
-      "height": 5130,
-      "alt": "A majestic Chinese pagoda stands by the river against a modern city skyline backdrop.",
-      "query": "Huangsha Ancient Ferry",
-      "credit": {
-        "source": "pexels",
-        "author": "viviya tian",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-pagoda-with-urban-skyline-32076287/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/20084391/pexels-photo-20084391.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/20084391/pexels-photo-20084391.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6336,
-      "height": 9504,
-      "alt": "A rusty barge on the calm waters of Taraba River, Nigeria.",
-      "query": "Huangsha Ancient Ferry",
-      "credit": {
-        "source": "pexels",
-        "author": "David Kwewum",
-        "sourceUrl": "https://www.pexels.com/photo/old-rusty-ferry-on-the-river-20084391/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36494126/pexels-photo-36494126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36494126/pexels-photo-36494126.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5152,
-      "height": 6864,
-      "alt": "Boat docked at riverside with a distant view of a Ferris wheel on a clear day.",
-      "query": "Huangsha Ancient Ferry",
-      "credit": {
-        "source": "pexels",
-        "author": "BI ravencrow",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-riverfront-view-with-ferris-wheel-36494126/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "黄河",
@@ -106,7 +60,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Huangsha Ancient Ferry",
@@ -114,5 +68,6 @@
   },
   "_geocodeTitle": "黄沙古渡(公交站)",
   "_geocodeSuspect": false,
-  "district": "640104"
+  "district": "640104",
+  "_noImage": true
 }

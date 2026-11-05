@@ -40,53 +40,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/38492548/pexels-photo-38492548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38492548/pexels-photo-38492548.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8156,
-      "height": 5437,
-      "alt": "A spectacular night scene of a bridge with colorful lights and lotus flowers on a water body in Kaifeng, China.",
-      "query": "Bianxi Lake Kaifeng",
-      "credit": {
-        "source": "pexels",
-        "author": "Raymond Zhao",
-        "sourceUrl": "https://www.pexels.com/photo/night-view-of-illuminated-bridge-in-kaifeng-china-38492548/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38492553/pexels-photo-38492553.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38492553/pexels-photo-38492553.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8225,
-      "height": 5483,
-      "alt": "Vibrant fireworks illuminate a bridge at night in Kaifeng, showcasing a colorful celebration by the water.",
-      "query": "Bianxi Lake Kaifeng",
-      "credit": {
-        "source": "pexels",
-        "author": "Raymond Zhao",
-        "sourceUrl": "https://www.pexels.com/photo/spectacular-night-fireworks-over-bridge-in-kaifeng-38492553/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38492547/pexels-photo-38492547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38492547/pexels-photo-38492547.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8093,
-      "height": 5395,
-      "alt": "Stunning night view of a colorful bridge and fireworks reflected on a water surface in Kaifeng, Henan, China.",
-      "query": "Bianxi Lake Kaifeng",
-      "credit": {
-        "source": "pexels",
-        "author": "Raymond Zhao",
-        "sourceUrl": "https://www.pexels.com/photo/vibrant-nightscape-of-kaifeng-bridge-with-fireworks-38492547/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "人工湖",
@@ -102,7 +56,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Bianxi Lake Kaifeng",
@@ -110,5 +64,6 @@
   },
   "_geocodeTitle": "汴西湖银色沙滩",
   "_geocodeSuspect": false,
-  "district": "410202"
+  "district": "410202",
+  "_noImage": true
 }

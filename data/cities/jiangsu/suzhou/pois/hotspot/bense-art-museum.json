@@ -37,53 +37,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/37248368/pexels-photo-37248368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37248368/pexels-photo-37248368.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "A picturesque view of a canal in Suzhou, showcasing traditional architecture and spring greenery.",
-      "query": "art district gallery suzhou",
-      "credit": {
-        "source": "pexels",
-        "author": "Relaxing Journeys",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-suzhou-canal-in-spring-37248368/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/9427769/pexels-photo-9427769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/9427769/pexels-photo-9427769.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4214,
-      "height": 3456,
-      "alt": "Charming architecture along a narrow canal in Suzhou, China, reflecting historical charm.",
-      "query": "art district gallery suzhou",
-      "credit": {
-        "source": "pexels",
-        "author": "Jumbo Jin",
-        "sourceUrl": "https://www.pexels.com/photo/narrow-canal-between-concrete-houses-9427769/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/20734988/pexels-photo-20734988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/20734988/pexels-photo-20734988.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 7710,
-      "height": 5782,
-      "alt": "Stunning urban skyline featuring skyscrapers along Suzhou Creek in Shanghai during the day.",
-      "query": "art district gallery suzhou",
-      "credit": {
-        "source": "pexels",
-        "author": "tslui",
-        "sourceUrl": "https://www.pexels.com/photo/residential-buildings-by-river-in-city-20734988/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "美术馆",
@@ -99,7 +53,7 @@
       "fetchedAt": "2026-09-23"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -107,5 +61,6 @@
   },
   "_geocodeTitle": "本色美术馆·粉咖西子",
   "_geocodeSuspect": false,
-  "district": "320506"
+  "district": "320506",
+  "_noImage": true
 }

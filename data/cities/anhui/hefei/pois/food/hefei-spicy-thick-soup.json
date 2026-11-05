@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/39487379/pexels-photo-39487379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39487379/pexels-photo-39487379.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5875,
-      "height": 3391,
-      "alt": "Savor a flavorful bowl of traditional Vietnamese pho topped with beef and noodles.",
-      "query": "Hefei Spicy Thick Soup",
-      "credit": {
-        "source": "pexels",
-        "author": "FOX ^.ᆽ.^= ∫",
-        "sourceUrl": "https://www.pexels.com/photo/delicious-bowl-of-vietnamese-pho-with-beef-39487379/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/32149259/pexels-photo-32149259.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/32149259/pexels-photo-32149259.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6720,
-      "height": 4480,
-      "alt": "Mouthwatering Asian noodle soup with chicken and vegetables served in a white bowl on a wooden table.",
-      "query": "Hefei Spicy Thick Soup",
-      "credit": {
-        "source": "pexels",
-        "author": "Change C.C",
-        "sourceUrl": "https://www.pexels.com/photo/delicious-asian-noodle-soup-in-white-bowl-32149259/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36680510/pexels-photo-36680510.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36680510/pexels-photo-36680510.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3072,
-      "height": 4096,
-      "alt": "Close-up of delicious hot and sour soup garnished with fresh herbs, served in a white bowl with spoon.",
-      "query": "Hefei Spicy Thick Soup",
-      "credit": {
-        "source": "pexels",
-        "author": "Jaysee Pingkian",
-        "sourceUrl": "https://www.pexels.com/photo/delicious-hot-and-sour-soup-in-white-bowl-36680510/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "早饭",
@@ -101,12 +55,13 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Hefei Spicy Thick Soup",
     "zh": "合肥辣糊汤"
   },
   "_geocodeTitle": "老字号早餐",
-  "district": "340123"
+  "district": "340123",
+  "_noImage": true
 }

@@ -40,53 +40,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/36348004/pexels-photo-36348004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36348004/pexels-photo-36348004.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 2268,
-      "alt": "Illuminated Pavilion of Prince Teng with cityscape backdrop at night.",
-      "query": "Ganjiang River Light Show Nanchang",
-      "credit": {
-        "source": "pexels",
-        "author": "CHINA YU",
-        "sourceUrl": "https://www.pexels.com/photo/stunning-night-view-of-pavilion-of-prince-teng-36348004/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/34168008/pexels-photo-34168008.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34168008/pexels-photo-34168008.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6048,
-      "height": 4032,
-      "alt": "Dazzling fireworks illuminate a majestic pagoda and city skyline at night, creating a breathtaking spectacle.",
-      "query": "Ganjiang River Light Show Nanchang",
-      "credit": {
-        "source": "pexels",
-        "author": "Yifan Lai",
-        "sourceUrl": "https://www.pexels.com/photo/spectacular-fireworks-over-pavilion-and-city-skyline-34168008/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/17539441/pexels-photo-17539441.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/17539441/pexels-photo-17539441.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3648,
-      "height": 2736,
-      "alt": "Panoramic view of Nanchang's skyline across the harbor with modern skyscrapers and river.",
-      "query": "Ganjiang River Light Show Nanchang",
-      "credit": {
-        "source": "pexels",
-        "author": "逸 林",
-        "sourceUrl": "https://www.pexels.com/photo/panorama-of-nanchang-skyline-and-river-china-17539441/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "灯光秀",
@@ -102,12 +56,13 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Ganjiang River Light Show Nanchang",
     "zh": "赣江两岸灯光秀"
   },
   "_geocodeTitle": "红谷滩区",
-  "district": "360113"
+  "district": "360113",
+  "_noImage": true
 }

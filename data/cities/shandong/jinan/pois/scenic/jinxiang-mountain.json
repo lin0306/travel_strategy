@@ -44,53 +44,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/20848705/pexels-photo-20848705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/20848705/pexels-photo-20848705.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4284,
-      "height": 2244,
-      "alt": "Elevated view of Jinan's skyline with traditional Chinese pavilion in the foreground.",
-      "query": "Jinxiang Mountain Jinan",
-      "credit": {
-        "source": "pexels",
-        "author": "meitetsu chin",
-        "sourceUrl": "https://www.pexels.com/photo/mountaintop-pavilion-overlooking-jinan-china-20848705/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/17799342/pexels-photo-17799342.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/17799342/pexels-photo-17799342.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5300,
-      "height": 3531,
-      "alt": "Breathtaking sunset view over Jinan city skyline from a rocky hilltop with a crowd enjoying the urban scenery.",
-      "query": "Jinxiang Mountain Jinan",
-      "credit": {
-        "source": "pexels",
-        "author": "勇 徐",
-        "sourceUrl": "https://www.pexels.com/photo/people-on-hill-over-city-at-sunset-17799342/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/11110539/pexels-photo-11110539.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/11110539/pexels-photo-11110539.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2255,
-      "height": 3383,
-      "alt": "Captivating view of the ancient Lingyan Temple Pagoda surrounded by lush trees and mountains in Jinan, China.",
-      "query": "Jinxiang Mountain Jinan",
-      "credit": {
-        "source": "pexels",
-        "author": "Lan Yao",
-        "sourceUrl": "https://www.pexels.com/photo/white-concrete-building-near-trees-11110539/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "乐园",
@@ -106,7 +60,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Jinxiang Mountain Jinan",
@@ -114,5 +68,6 @@
   },
   "_geocodeTitle": "金象山景区",
   "_geocodeSuspect": false,
-  "district": "370112"
+  "district": "370112",
+  "_noImage": true
 }

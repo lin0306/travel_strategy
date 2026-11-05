@@ -39,38 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/36710788/pexels-photo-36710788.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36710788/pexels-photo-36710788.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "View of scenic ski resort in snowy mountains of Kabardino-Balkaria, Russia.",
-      "query": "Miaoxiangshan Ski Resort Jiutai",
-      "credit": {
-        "source": "pexels",
-        "author": "Artem Korolev",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-winter-ski-resort-in-russia-36710788/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/20900182/pexels-photo-20900182.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/20900182/pexels-photo-20900182.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 3376,
-      "alt": "Winter scene at Yuzawa ski resort in Japan with snow-covered slopes and skiers enjoying the day.",
-      "query": "Miaoxiangshan Ski Resort Jiutai",
-      "credit": {
-        "source": "pexels",
-        "author": "pipop kunachon",
-        "sourceUrl": "https://www.pexels.com/photo/photo-of-people-skiing-on-a-slope-20900182/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "滑雪",
@@ -94,5 +63,6 @@
   },
   "_geocodeTitle": "长春庙香山滑雪场",
   "_geocodeSuspect": false,
-  "district": "220113"
+  "district": "220113",
+  "_noImage": true
 }

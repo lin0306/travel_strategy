@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/15006451/pexels-photo-15006451.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/15006451/pexels-photo-15006451.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3955,
-      "height": 5933,
-      "alt": "Dynamic city night scene with illuminated buildings and blurred street lights.",
-      "query": "Songdu Street Night",
-      "credit": {
-        "source": "pexels",
-        "author": "Lywin",
-        "sourceUrl": "https://www.pexels.com/photo/city-at-night-15006451/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/17554805/pexels-photo-17554805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/17554805/pexels-photo-17554805.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2690,
-      "height": 4031,
-      "alt": "Explore the lively streets of Cheongju at night, illuminated by vibrant neon signs and bustling city life.",
-      "query": "Songdu Street Night",
-      "credit": {
-        "source": "pexels",
-        "author": "Aibek Skakov",
-        "sourceUrl": "https://www.pexels.com/photo/street-in-city-in-south-korea-at-night-17554805/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/32223212/pexels-photo-32223212.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/32223212/pexels-photo-32223212.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6874,
-      "height": 4583,
-      "alt": "Crowded night market with food stalls offering a variety of dishes and a lively atmosphere.",
-      "query": "Songdu Street Night",
-      "credit": {
-        "source": "pexels",
-        "author": "Kenneth Surillo",
-        "sourceUrl": "https://www.pexels.com/photo/vibrant-night-market-scene-with-food-stalls-32223212/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "夜景",
@@ -100,11 +54,12 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Songdu Street Night",
     "zh": "宋都御街夜景"
   },
-  "district": "410202"
+  "district": "410202",
+  "_noImage": true
 }

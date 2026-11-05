@@ -47,48 +47,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/38989639/pexels-photo-38989639.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38989639/pexels-photo-38989639.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5184,
-      "height": 3456,
-      "alt": "Vibrant Tibetan architectural details with bright blue sky in Lhasa, Tibet.",
-      "query": "Chinese classical garden lhasa",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/South_Mountains_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/South_Mountains_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 720,
+      "alt": "South Mountains 4.jpg",
+      "query": "南山公园",
       "credit": {
-        "source": "pexels",
-        "author": "Greece-China  News",
-        "sourceUrl": "https://www.pexels.com/photo/colorful-architecture-in-lhasa-tibet-38989639/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38374705/pexels-photo-38374705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38374705/pexels-photo-38374705.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4160,
-      "height": 6240,
-      "alt": "Detailed view of classic Tibetan architecture with colorful decorations in Lhasa, Tibet.",
-      "query": "Chinese classical garden lhasa",
-      "credit": {
-        "source": "pexels",
-        "author": "Martin Chan",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-tibetan-architecture-in-lhasa-38374705/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38996516/pexels-photo-38996516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38996516/pexels-photo-38996516.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4555,
-      "height": 6528,
-      "alt": "Close-up of a Tibetan monastery with golden roofs and intricate architecture set against a bright blue sky.",
-      "query": "Chinese classical garden lhasa",
-      "credit": {
-        "source": "pexels",
-        "author": "女子 正真",
-        "sourceUrl": "https://www.pexels.com/photo/golden-roofed-tibetan-monastery-against-blue-sky-38996516/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "Iterat at English Wikipedia",
+        "sourceUrl": "https://www.wikidata.org/wiki/Q7567997",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "exact"
       }
     }
   ],
@@ -107,7 +83,7 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-02",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

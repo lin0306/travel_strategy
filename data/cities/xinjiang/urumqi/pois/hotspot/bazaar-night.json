@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/26622972/pexels-photo-26622972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/26622972/pexels-photo-26622972.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 3024,
-      "alt": "Illuminated entrance of Xiaoxigou Metro Station in Urumqi, Xinjiang, China at night.",
-      "query": "Bazaar Night View Urumqi",
-      "credit": {
-        "source": "pexels",
-        "author": "cake cat",
-        "sourceUrl": "https://www.pexels.com/photo/xiaoxigou-station-at-the-urumqi-metro-26622972/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38353041/pexels-photo-38353041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38353041/pexels-photo-38353041.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5152,
-      "height": 6864,
-      "alt": "Bustling nighttime street market with stalls and people, showcasing vibrant city life.",
-      "query": "Bazaar Night View Urumqi",
-      "credit": {
-        "source": "pexels",
-        "author": "BI ravencrow",
-        "sourceUrl": "https://www.pexels.com/photo/vibrant-night-market-scene-in-urban-setting-38353041/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39068578/pexels-photo-39068578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39068578/pexels-photo-39068578.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3451,
-      "height": 5176,
-      "alt": "A street vendor sells fresh fruits and vegetables at a night market under warm lighting.",
-      "query": "Bazaar Night View Urumqi",
-      "credit": {
-        "source": "pexels",
-        "author": "Jerry Zhang",
-        "sourceUrl": "https://www.pexels.com/photo/night-market-street-vendor-selling-fresh-produce-39068578/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "夜景",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Bazaar Night View Urumqi",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "新疆国际大巴扎",
   "_geocodeSuspect": false,
-  "district": "650102"
+  "district": "650102",
+  "_noImage": true
 }

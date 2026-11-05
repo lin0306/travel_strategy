@@ -44,53 +44,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/15539176/pexels-photo-15539176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/15539176/pexels-photo-15539176.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3072,
-      "height": 4080,
-      "alt": "A lioness drinks water in a serene zoo exhibit, showcasing natural behavior.",
-      "query": "Jinan Wild World Safari Park",
-      "credit": {
-        "source": "pexels",
-        "author": "Charlene Nicholas",
-        "sourceUrl": "https://www.pexels.com/photo/a-lioness-drinking-water-in-a-zoo-15539176/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/23843905/pexels-photo-23843905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/23843905/pexels-photo-23843905.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 6000,
-      "alt": "A group of goitered gazelles relaxing on the ground inside a zoo enclosure.",
-      "query": "Jinan Wild World Safari Park",
-      "credit": {
-        "source": "pexels",
-        "author": "Begüm Ergeneli",
-        "sourceUrl": "https://www.pexels.com/photo/goitered-gazelles-on-the-ground-23843905/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/6947816/pexels-photo-6947816.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/6947816/pexels-photo-6947816.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5184,
-      "height": 3456,
-      "alt": "A solitary rhinoceros grazing in its natural habitat, showcasing its majestic presence in the wild.",
-      "query": "Jinan Wild World Safari Park",
-      "credit": {
-        "source": "pexels",
-        "author": "Rutpratheep Nilpechr",
-        "sourceUrl": "https://www.pexels.com/photo/close-up-shot-of-a-rhinoceros-6947816/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "动物园",
@@ -106,7 +60,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Jinan Wild World Safari Park",
@@ -114,5 +68,6 @@
   },
   "_geocodeTitle": "济南野生动物世界",
   "_geocodeSuspect": false,
-  "district": "370114"
+  "district": "370114",
+  "_noImage": true
 }

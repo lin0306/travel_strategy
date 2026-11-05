@@ -42,53 +42,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/32700828/pexels-photo-32700828.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/32700828/pexels-photo-32700828.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5472,
-      "height": 3648,
-      "alt": "Quaint street in traditional Chinese architecture with red lanterns under a clear blue sky.",
-      "query": "Chinese old town street danjiangkou",
-      "credit": {
-        "source": "pexels",
-        "author": "mingche lee",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-street-with-red-lanterns-32700828/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/976701/pexels-photo-976701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/976701/pexels-photo-976701.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5184,
-      "height": 3456,
-      "alt": "Close-up of a brick wall with traditional Chinese signs in a city environment.",
-      "query": "Chinese old town street danjiangkou",
-      "credit": {
-        "source": "pexels",
-        "author": "Pegli Zhu",
-        "sourceUrl": "https://www.pexels.com/photo/brown-wooden-wall-decor-976701/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/20256134/pexels-photo-20256134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/20256134/pexels-photo-20256134.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4160,
-      "height": 6240,
-      "alt": "Traditional alley adorned with vibrant red lanterns, capturing the essence of Asian street culture.",
-      "query": "Chinese old town street danjiangkou",
-      "credit": {
-        "source": "pexels",
-        "author": "Tito Zzzz",
-        "sourceUrl": "https://www.pexels.com/photo/red-lantern-hanging-along-alley-20256134/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "南水北调",
@@ -105,7 +59,7 @@
       "fetchedAt": "2026-10-07"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -113,5 +67,6 @@
   },
   "_geocodeTitle": "丹江口市",
   "_geocodeSuspect": false,
-  "district": "420381"
+  "district": "420381",
+  "_noImage": true
 }

@@ -42,21 +42,6 @@
   "tips": [],
   "images": [
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Lady_Selling_Qingtuan_in_China%2C_20190331.jpg/1280px-Lady_Selling_Qingtuan_in_China%2C_20190331.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Lady_Selling_Qingtuan_in_China%2C_20190331.jpg/1280px-Lady_Selling_Qingtuan_in_China%2C_20190331.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 715,
-      "alt": "Lady Selling Qingtuan in China, 20190331.jpg",
-      "query": "艾叶粑",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Yuyou80",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lady_Selling_Qingtuan_in_China,_20190331.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Making_Qingtuan_in_China%2C_20190405.jpg/1280px-Making_Qingtuan_in_China%2C_20190405.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Making_Qingtuan_in_China%2C_20190405.jpg/1280px-Making_Qingtuan_in_China%2C_20190405.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
@@ -69,6 +54,11 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Making_Qingtuan_in_China,_20190405.jpg",
         "license": "CC BY-SA 4.0",
         "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-10-31"
       }
     },
     {
@@ -84,6 +74,11 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qingtuan.jpg",
         "license": "CC BY-SA 3.0",
         "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-10-31"
       }
     }
   ],
@@ -104,7 +99,7 @@
       "fetchedAt": "2026-10-07"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

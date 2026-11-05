@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/34683501/pexels-photo-34683501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34683501/pexels-photo-34683501.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8192,
-      "height": 5464,
-      "alt": "Stunning view of Zhangjiajie's towering stone pillars under a bright blue sky, surrounded by lush greenery.",
-      "query": "Xihai Stone Forest Zhangjiajie",
-      "credit": {
-        "source": "pexels",
-        "author": "David Tran",
-        "sourceUrl": "https://www.pexels.com/photo/majestic-zhangjiajie-stone-pillars-in-daylight-34683501/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36907620/pexels-photo-36907620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36907620/pexels-photo-36907620.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Dramatic karst formations in the Stone Forest, capturing natural beauty.",
-      "query": "Xihai Stone Forest Zhangjiajie",
-      "credit": {
-        "source": "pexels",
-        "author": "pierre matile",
-        "sourceUrl": "https://www.pexels.com/photo/stunning-karst-landscapes-of-stone-forest-36907620/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37300268/pexels-photo-37300268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37300268/pexels-photo-37300268.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4284,
-      "height": 5712,
-      "alt": "Ethereal view of Zhangjiajie forest with misty stone pillars and lush greenery.",
-      "query": "Xihai Stone Forest Zhangjiajie",
-      "credit": {
-        "source": "pexels",
-        "author": "eevnull",
-        "sourceUrl": "https://www.pexels.com/photo/misty-zhangjiajie-national-forest-park-pillars-37300268/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "石林",
@@ -100,11 +54,12 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Xihai Stone Forest Zhangjiajie",
     "zh": "西海石林"
   },
-  "district": "430811"
+  "district": "430811",
+  "_noImage": true
 }

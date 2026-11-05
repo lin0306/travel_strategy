@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/35705265/pexels-photo-35705265.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35705265/pexels-photo-35705265.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "A lone cyclist rides under an expansive concrete bridge in Shanghai, China.",
-      "query": "Jingyuetan Ring Road Cycling",
-      "credit": {
-        "source": "pexels",
-        "author": "Anderson Wei",
-        "sourceUrl": "https://www.pexels.com/photo/cyclist-under-urban-bridge-in-shanghai-35705265/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39494349/pexels-photo-39494349.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39494349/pexels-photo-39494349.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 6000,
-      "alt": "Cyclists ride through a picturesque, tree-lined street in an urban environment.",
-      "query": "Jingyuetan Ring Road Cycling",
-      "credit": {
-        "source": "pexels",
-        "author": "mg shawn",
-        "sourceUrl": "https://www.pexels.com/photo/cyclists-on-tree-lined-urban-street-during-daytime-39494349/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/19681044/pexels-photo-19681044.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/19681044/pexels-photo-19681044.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 6000,
-      "alt": "A person in a green jacket rides a bicycle down a snowy street in Leeuwarden, Netherlands.",
-      "query": "Jingyuetan Ring Road Cycling",
-      "credit": {
-        "source": "pexels",
-        "author": "Bryan Dijkhuizen",
-        "sourceUrl": "https://www.pexels.com/photo/person-riding-bicycle-on-city-street-19681044/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "环潭路",
@@ -108,5 +62,6 @@
     "zh": "净月潭环潭公路"
   },
   "_geocodeTitle": "净月潭国家森林公园",
-  "district": "220102"
+  "district": "220102",
+  "_noImage": true
 }

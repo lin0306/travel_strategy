@@ -41,33 +41,45 @@
   "tips": [],
   "images": [
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Pingyao-oldtown.jpg/1280px-Pingyao-oldtown.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Pingyao-oldtown.jpg/1280px-Pingyao-oldtown.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/%E5%B8%82%E6%A8%93_City_Tower_-_panoramio.jpg/1280px-%E5%B8%82%E6%A8%93_City_Tower_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/%E5%B8%82%E6%A8%93_City_Tower_-_panoramio.jpg/1280px-%E5%B8%82%E6%A8%93_City_Tower_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
-      "height": 810,
-      "alt": "Pingyao-oldtown.jpg",
-      "query": "Chinese old town street pingyao",
+      "height": 720,
+      "alt": "市樓 City Tower - panoramio.jpg",
+      "query": "杰艺苑剪纸",
       "credit": {
         "source": "wikimedia",
-        "author": "Benzh",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pingyao-oldtown.jpg",
-        "license": "Public domain",
-        "attributionRequired": false
+        "author": "lienyuan lee",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-01",
+        "tier": "street"
       }
     },
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Pingyao_%284058839157%29.jpg/1280px-Pingyao_%284058839157%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Pingyao_%284058839157%29.jpg/1280px-Pingyao_%284058839157%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/76615-Pingyao_%2849217575711%29.jpg/1280px-76615-Pingyao_%2849217575711%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/76615-Pingyao_%2849217575711%29.jpg/1280px-76615-Pingyao_%2849217575711%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
-      "height": 717,
-      "alt": "Pingyao (4058839157).jpg",
-      "query": "Chinese old town street pingyao",
+      "height": 720,
+      "alt": "76615-Pingyao (49217575711).jpg",
+      "query": "杰艺苑剪纸",
       "credit": {
         "source": "wikimedia",
-        "author": "M M from Switzerland",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pingyao_(4058839157).jpg",
-        "license": "CC BY-SA 2.0",
+        "author": "xiquinhosilva",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 2.0",
         "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-01",
+        "tier": "street"
       }
     }
   ],
@@ -86,7 +98,7 @@
       "fetchedAt": "2026-10-06"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-01",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

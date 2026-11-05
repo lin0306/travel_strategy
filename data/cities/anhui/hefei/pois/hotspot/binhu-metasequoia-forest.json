@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/37706159/pexels-photo-37706159.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37706159/pexels-photo-37706159.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 6000,
-      "alt": "Peaceful park scenery with tall trees and their reflection in water, offering a calming nature experience.",
-      "query": "Binhu Wetland Metasequoia Forest",
-      "credit": {
-        "source": "pexels",
-        "author": "高 长华",
-        "sourceUrl": "https://www.pexels.com/photo/serene-park-scene-with-trees-and-reflection-37706159/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37128235/pexels-photo-37128235.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37128235/pexels-photo-37128235.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5464,
-      "height": 8192,
-      "alt": "A serene summer scene of tall metasequoia trees and a distant human silhouette.",
-      "query": "Binhu Wetland Metasequoia Forest",
-      "credit": {
-        "source": "pexels",
-        "author": "Andy Lee",
-        "sourceUrl": "https://www.pexels.com/photo/tall-metasequoia-trees-in-summer-with-distant-human-37128235/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38163314/pexels-photo-38163314.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38163314/pexels-photo-38163314.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 6000,
-      "alt": "Serene landscape of lush green metasequoia trees in summer light. Perfect for nature-themed designs.",
-      "query": "Binhu Wetland Metasequoia Forest",
-      "credit": {
-        "source": "pexels",
-        "author": "高 长华",
-        "sourceUrl": "https://www.pexels.com/photo/tranquil-summer-morning-in-metasequoia-forest-38163314/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "水杉",
@@ -101,12 +55,13 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Binhu Wetland Metasequoia Forest",
     "zh": "滨湖湿地森林公园水杉林"
   },
   "_geocodeTitle": "滨湖湿地森林公园",
-  "district": "340111"
+  "district": "340111",
+  "_noImage": true
 }

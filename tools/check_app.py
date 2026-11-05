@@ -7289,6 +7289,138 @@ def check_images() -> None:
     check(label, problems, 5, hits)
 
 
+def check_image_clean() -> None:
+    """AW. 存量图清洗：**主题图库必删** + 删图后字段不烂 + 可疑图不许自动删
+
+    ## 为什么有这一组（2026-10-31 全库扫描）
+
+    `USE_STOCK_SOURCES=False` 是 10-29 才关的，**存量从来没人清**。扫一遍全库
+    13674 张图，真相比预想的糟：
+
+        · 6602 张（48%）来自 images.pexels.com —— 一张美食氛围图挂在 **298 个餐饮
+          点位**上、横跨 **48 座城**；2127 个点位（45%）的图**全部**是这种。
+        · 335 张命中 BAD_CJK/BAD_LATIN（飞机、地铁站壁画、澳门招牌）。
+        · 只有 5250 张（38%）元数据对得上点位。
+
+    所以本组守三件事：
+
+    ① **图库域名清单在**（`STOCK_HOSTS` 覆盖 pexels + unsplash），且与采集侧
+       `USE_STOCK_SOURCES=False` 是同一条原则 —— 别一边关采集一边让存量烂着。
+    ② **`AUTO_RULES` 只能是 `("stock", "reject")`**：`dup` / `suspect` 只能标记、
+       不许自动删。Wikimedia 里"景区大图挂景区内几个子点位"是合理的，
+       自动删它们会把有真图的点位一起清空。
+    ③ **删干净后字段不能烂**：`_noImage` 要按是否还有图重算、`coverIndex` 要归零
+       （不归零就指向没审过的图 —— 长春二审又判出 30 张错就是这么来的）。
+    """
+    label = 'AW. 存量图清洗（主题图库必删 · 可疑图只标记 · 删后字段不烂）'
+    problems: list[str] = []
+    hits = 0
+    tool = REPO / 'tools' / 'clean_images.py'
+
+    # ── ① 工具在，且 CLI 真的接得到两个模式 ──
+    hits += 1
+    if not tool.exists():
+        problems.append(
+            'tools/clean_images.py 不存在 —— 存量图（Pexels 主题图库那 6602 张）没人清')
+        check(label, problems, 6, hits)
+        return
+    t = strip_py_comments(tool.read_text(encoding='utf-8'))
+
+    m = re.search(r'choices=\(([^)]*)\)', t)
+    choices = m.group(1) if m else ''
+    for mode, why in (('"scan"', '出不了全库报告'), ('"apply"', '删不掉图')):
+        if mode not in choices:
+            problems.append(f'clean_images.py 的 choices 里没挂 {mode}')
+
+    # ── ② 图库域名清单（与采集侧 USE_STOCK_SOURCES=False 同一条原则）──
+    hits += 1
+    m = re.search(r'STOCK_HOSTS\s*=\s*\((.*?)\)', t, re.S)
+    if not m:
+        problems.append('clean_images.py 没有 `STOCK_HOSTS` —— 图库域名清单没有唯一出处')
+    else:
+        block = m.group(1)
+        # ★ 必须判**完整 host**：只判 `'pexels' in block` 会被 `pexels.com` 这个
+        #   短条目蒙过去（反证实测：删掉 `images.pexels.com` 判据仍然是绿的）。
+        for host, why in (('images.pexels.com', 'Pexels 主题配图库，一张图挂 298 个餐饮点位'),
+                          ('images.unsplash.com', 'Unsplash 同理，且无 GPS/分类，过滤器拦不住')):
+            if host not in block:
+                problems.append(f'`STOCK_HOSTS` 里没有 {host} —— {why} 会留在库里')
+
+    # ── ③ ★★ 自动删的白名单只能是 stock + reject ──
+    #    `dup`/`suspect` 一旦进了 AUTO_RULES，`apply --rules all` 就能把
+    #    725 张"景区大图挂子点位"的合理图一起清掉，且零报错。
+    hits += 1
+    m = re.search(r'AUTO_RULES\s*=\s*\(([^)]*)\)', t)
+    if not m:
+        problems.append('clean_images.py 没有 `AUTO_RULES` —— 哪些规则能自动删没有唯一出处')
+    else:
+        got = {x.strip().strip('"\'') for x in m.group(1).split(',') if x.strip()}
+        if got != {'stock', 'reject'}:
+            problems.append(
+                f'`AUTO_RULES` = {sorted(got)} —— 只允许 stock + reject 自动删。'
+                'dup（同一 URL 挂多点位）和 suspect（元数据对不上）在 Wikimedia 里'
+                '可能是合理的（景区大图挂子点位），必须留给看图判定')
+    if not re.search(r"REUSE_LIMIT\s*=\s*\d", t):
+        problems.append('clean_images.py 没有 `REUSE_LIMIT = <数字>` —— 复用几次算可疑没有唯一出处')
+
+    # ── ④ 删干净后字段不烂（三项分开计，脚本正则坏掉时才看得出是哪一项失效）──
+    for need, why in (
+        ('"coverIndex"] = 0', '删图后不归零，封面就指向没审过的图（长春二审又判出 30 张错）'),
+        # ★ 要判**赋值**：文件里还有 `poi.pop("_noImage", None)`，只判 `_noImage`
+        #   这个词会被 pop 那一行骗过去（反证实测：删掉赋值判据仍然绿）。
+        ('"_noImage"] = True', '删空了的点位不打标记，build 和前端都不知道该走占位卡'),
+        ('"updatedAt"', '改了业务字段不写时间戳，build 的增量缓存会漏更新'),
+    ):
+        hits += 1
+        if need not in t:
+            problems.append(f'clean_images.py 的 apply 里没有 `{need}` —— {why}')
+
+    # ── ⑤ 采集侧必须**消费**看图审查的 reject 缓存 ──
+    # ★ 这是两套系统之间最容易断的一根线：`review_images.py` 写 `verdicts-cache.jsonl`，
+    #   采集侧不读它的话，看图判死的图下一轮 `--force` 重抓会**原样回来**（白审一轮，
+    #   而且零报错）。`verdict_for` 只拦"说得明白的错"，看图判的那部分只能靠这根线记住。
+    hits += 1
+    img_py = PIPELINE_DIR / 'authoring' / 'images.py'
+    if not img_py.exists():
+        problems.append('pipeline/authoring/images.py 不存在')
+    else:
+        it = strip_py_comments(img_py.read_text(encoding='utf-8'))
+        if 'def rejected_urls(' not in it:
+            problems.append(
+                'images.py 没有 `rejected_urls()` —— 看图判死的 URL 采集侧读不到，'
+                '下轮重抓会把错图原样抓回来')
+        # ★ 判调用点：定义了但没人调，等于缓存写了不消费
+        elif not re.search(r'bad_urls\s*=\s*rejected_urls\(\)', it):
+            problems.append(
+                'images.py 定义了 `rejected_urls()` 但 `pick_images` 里没人调用 —— '
+                '缓存写了不消费，等于没接上')
+
+    # ── ⑧ 取图失败必须兜底 + 必须喊出来 ──
+    #    起因（2026-10-31 香格里拉）：`review_images.py` 只走 wsrv.nl 镜像，
+    #    13 格稳定失败（`Bundesarchiv` 1938 年档案照、`in Tomba` 版画等），
+    #    对照表里只印「[下载失败]」，而**那 13 张从来没被人眼看过**，
+    #    城市却照样记进 `reviewed` —— "审了 76 张"里 13 张是假的。
+    #    ★ 静默跳过比判断错更危险：判错会被下一次复查抓出来，没看过的不会。
+    hits += 2
+    rv_py = REPO / 'tools' / 'review_images.py'
+    if not rv_py.exists():
+        problems.append('tools/review_images.py 不存在 —— 图片二次审查没有工具')
+    else:
+        rt = strip_py_comments(rv_py.read_text(encoding='utf-8'))
+        if 'def direct_thumb(' not in rt:
+            problems.append(
+                'review_images.py 没有 `direct_thumb()` 兜底 —— 镜像对部分历史档案照是'
+                '**稳定失败**，只重试镜像等于永远看不到那几张，且不报错')
+        # ★ 判"喊出来"而不是判 print：要让**失败格数与清单**出现在输出里，
+        #   否则审图的人以为整城都看过了。
+        if '取不到图' not in rt:
+            problems.append(
+                'review_images.py 取图失败时没有明确告警（找不到「取不到图」）—— '
+                '空格子会被当成本来就没图，该城会被误记成"已审"')
+
+    check(label, problems, 9, hits)
+
+
 def main() -> int:
     print('=== 应用结构静态校验 ===\n')
     check_barrels()
@@ -7339,6 +7471,7 @@ def main() -> int:
     check_scroll_chain()
     check_mobile_shell()
     check_images()
+    check_image_clean()
 
     print('')
     for n in notes:

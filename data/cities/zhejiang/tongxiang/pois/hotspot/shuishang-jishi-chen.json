@@ -43,48 +43,45 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/37682272/pexels-photo-37682272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37682272/pexels-photo-37682272.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3020,
-      "height": 4530,
-      "alt": "A contemporary city street view featuring streetlamps, modern architecture, and clear blue skies.",
-      "query": "China city street view tongxiang",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/%E4%B9%8C%E9%95%87%E8%A5%BF%E6%A0%85_-_panoramio_%284%29.jpg/1280px-%E4%B9%8C%E9%95%87%E8%A5%BF%E6%A0%85_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/%E4%B9%8C%E9%95%87%E8%A5%BF%E6%A0%85_-_panoramio_%284%29.jpg/1280px-%E4%B9%8C%E9%95%87%E8%A5%BF%E6%A0%85_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "乌镇西栅 - panoramio (4).jpg",
+      "query": "水上集市晨景",
       "credit": {
-        "source": "pexels",
-        "author": "JUNLIN ZOU",
-        "sourceUrl": "https://www.pexels.com/photo/urban-street-with-modern-architecture-and-streetlamps-37682272/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "gdczjkk",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-01",
+        "tier": "street"
       }
     },
     {
-      "url": "https://images.pexels.com/photos/18826628/pexels-photo-18826628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/18826628/pexels-photo-18826628.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3868,
-      "height": 5802,
-      "alt": "A narrow city street in Macau, showcasing urban architecture and residential buildings.",
-      "query": "China city street view tongxiang",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/%E6%B1%9F%E5%8D%97%E6%B0%B4%E4%B9%A1-%E4%B9%8C%E9%95%87_-_panoramio.jpg/1280px-%E6%B1%9F%E5%8D%97%E6%B0%B4%E4%B9%A1-%E4%B9%8C%E9%95%87_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/%E6%B1%9F%E5%8D%97%E6%B0%B4%E4%B9%A1-%E4%B9%8C%E9%95%87_-_panoramio.jpg/1280px-%E6%B1%9F%E5%8D%97%E6%B0%B4%E4%B9%A1-%E4%B9%8C%E9%95%87_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "江南水乡-乌镇 - panoramio.jpg",
+      "query": "水上集市晨景",
       "credit": {
-        "source": "pexels",
-        "author": "Costa Karabelas",
-        "sourceUrl": "https://www.pexels.com/photo/narrow-street-in-macao-in-china-18826628/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/34099283/pexels-photo-34099283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34099283/pexels-photo-34099283.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5464,
-      "height": 8192,
-      "alt": "Historic street in China adorned with national flags and traditional Chinese architecture.",
-      "query": "China city street view tongxiang",
-      "credit": {
-        "source": "pexels",
-        "author": "Andy Lee",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-street-with-red-flags-displayed-34099283/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "涔水影人",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-01",
+        "tier": "street"
       }
     }
   ],
@@ -104,7 +101,7 @@
       "fetchedAt": "2026-10-07"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-01",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

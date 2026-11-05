@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/12798469/pexels-photo-12798469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/12798469/pexels-photo-12798469.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2048,
-      "height": 2730,
-      "alt": "A display of fresh watermelons wrapped in nets at an outdoor market stall with Chinese signs.",
-      "query": "Zhongmu Watermelon",
-      "credit": {
-        "source": "pexels",
-        "author": "billow926",
-        "sourceUrl": "https://www.pexels.com/photo/watermelons-on-a-market-stall-12798469/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/3513238/pexels-photo-3513238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/3513238/pexels-photo-3513238.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Close-up of vibrant watermelon slices showcasing freshness and juiciness.",
-      "query": "Zhongmu Watermelon",
-      "credit": {
-        "source": "pexels",
-        "author": "Elle Hughes",
-        "sourceUrl": "https://www.pexels.com/photo/flat-lay-photography-of-slices-of-red-watermelon-3513238/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/15975999/pexels-photo-15975999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/15975999/pexels-photo-15975999.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 9248,
-      "height": 5929,
-      "alt": "A vibrant display of fresh watermelons at a market in Dhaka, Bangladesh.",
-      "query": "Zhongmu Watermelon",
-      "credit": {
-        "source": "pexels",
-        "author": "Ferdous  Hasan",
-        "sourceUrl": "https://www.pexels.com/photo/display-of-watermelons-15975999/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "西瓜",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Zhongmu Watermelon",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "中牟乔庄草莓西瓜园",
   "_geocodeSuspect": false,
-  "district": "410122"
+  "district": "410122",
+  "_noImage": true
 }

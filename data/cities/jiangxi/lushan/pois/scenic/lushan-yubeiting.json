@@ -44,48 +44,45 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/39812154/pexels-photo-39812154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39812154/pexels-photo-39812154.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Vibrant Chinese temple nestled in lush green mountains, symbolizing serenity and tradition.",
-      "query": "Chinese historic architecture lushan",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Yubeiting_6657.jpg/1280px-Yubeiting_6657.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Yubeiting_6657.jpg/1280px-Yubeiting_6657.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Yubeiting 6657.jpg",
+      "query": "御碑亭",
       "credit": {
-        "source": "pexels",
-        "author": "Roger Madura",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-temple-in-mountainous-landscape-39812154/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "Doctoroftcm",
+        "sourceUrl": "https://www.wikidata.org/wiki/Q11071208",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "exact"
       }
     },
     {
-      "url": "https://images.pexels.com/photos/36580343/pexels-photo-36580343.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36580343/pexels-photo-36580343.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4122,
-      "height": 4122,
-      "alt": "Photograph of a classic Chinese pagoda surrounded by vibrant forest highlighting traditional architecture.",
-      "query": "Chinese historic architecture lushan",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/%E5%BE%A1%E7%A2%91%E4%BA%AD.jpg/1280px-%E5%BE%A1%E7%A2%91%E4%BA%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/%E5%BE%A1%E7%A2%91%E4%BA%AD.jpg/1280px-%E5%BE%A1%E7%A2%91%E4%BA%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "御碑亭.jpg",
+      "query": "御碑亭",
       "credit": {
-        "source": "pexels",
-        "author": "guo fengrui",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-pagoda-in-lush-forest-36580343/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37911444/pexels-photo-37911444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37911444/pexels-photo-37911444.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6864,
-      "height": 5152,
-      "alt": "A serene view of a traditional Chinese temple adorned with red lanterns under the blue sky.",
-      "query": "Chinese historic architecture lushan",
-      "credit": {
-        "source": "pexels",
-        "author": "BI ravencrow",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-temple-with-red-lanterns-37911444/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "钉钉",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%BE%A1%E7%A2%91%E4%BA%AD.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "exact"
       }
     }
   ],
@@ -105,7 +102,7 @@
       "fetchedAt": "2026-10-07"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-02",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

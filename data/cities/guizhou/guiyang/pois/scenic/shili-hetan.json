@@ -47,48 +47,45 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/20499728/pexels-photo-20499728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/20499728/pexels-photo-20499728.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Night view of the illuminated Jiaxiu Tower in Guiyang, China, reflecting on the water.",
-      "query": "Chinese classical garden guiyang",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/%E7%B9%81%E8%8A%B1%E7%9B%9B%E5%BC%80_-_Flowers_Blooming_in_Huaxi_Wetland_Park_-_2015.07_-_panoramio.jpg/1280px-%E7%B9%81%E8%8A%B1%E7%9B%9B%E5%BC%80_-_Flowers_Blooming_in_Huaxi_Wetland_Park_-_2015.07_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/%E7%B9%81%E8%8A%B1%E7%9B%9B%E5%BC%80_-_Flowers_Blooming_in_Huaxi_Wetland_Park_-_2015.07_-_panoramio.jpg/1280px-%E7%B9%81%E8%8A%B1%E7%9B%9B%E5%BC%80_-_Flowers_Blooming_in_Huaxi_Wetland_Park_-_2015.07_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "繁花盛开 - Flowers Blooming in Huaxi Wetland Park - 2015.07 - panoramio.jpg",
+      "query": "花溪十里河滩",
       "credit": {
-        "source": "pexels",
-        "author": "Tito Zzzz",
-        "sourceUrl": "https://www.pexels.com/photo/jiaxiu-tower-in-guiyang-at-night-20499728/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "rheins",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "exact"
       }
     },
     {
-      "url": "https://images.pexels.com/photos/29431917/pexels-photo-29431917.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/29431917/pexels-photo-29431917.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 7952,
-      "height": 5203,
-      "alt": "Harmonious blend of traditional Chinese pavilion and modern skyscraper in cityscape.",
-      "query": "Chinese classical garden guiyang",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/%E8%80%81%E9%93%81%E8%B7%AF%E6%A1%A5_-_Old_Railway_Bridge_-_2015.07_-_panoramio.jpg/1280px-%E8%80%81%E9%93%81%E8%B7%AF%E6%A1%A5_-_Old_Railway_Bridge_-_2015.07_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/%E8%80%81%E9%93%81%E8%B7%AF%E6%A1%A5_-_Old_Railway_Bridge_-_2015.07_-_panoramio.jpg/1280px-%E8%80%81%E9%93%81%E8%B7%AF%E6%A1%A5_-_Old_Railway_Bridge_-_2015.07_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "老铁路桥 - Old Railway Bridge - 2015.07 - panoramio.jpg",
+      "query": "花溪十里河滩",
       "credit": {
-        "source": "pexels",
-        "author": "雨 幽",
-        "sourceUrl": "https://www.pexels.com/photo/ancient-pavilion-and-modern-skyscraper-contrast-29431917/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/16483319/pexels-photo-16483319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/16483319/pexels-photo-16483319.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3264,
-      "height": 2448,
-      "alt": "Scenic view of Jiaxiu Pavilion along the Nanming River in Guiyang, China, surrounded by urban parkland.",
-      "query": "Chinese classical garden guiyang",
-      "credit": {
-        "source": "pexels",
-        "author": "Megan Judge",
-        "sourceUrl": "https://www.pexels.com/photo/view-of-the-jiaxiu-pavilion-in-guiyang-china-16483319/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "rheins",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "exact"
       }
     }
   ],
@@ -107,7 +104,7 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-02",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

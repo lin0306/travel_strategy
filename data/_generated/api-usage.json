@@ -1,43 +1,28 @@
 {
   "daily": {
-    "period": "2026-10-30",
+    "period": "2026-11-05",
     "apis": {
-      "geocoder": {
-        "requests": 21,
-        "units": 21,
-        "quota": 10000
-      },
       "place_search": {
-        "requests": 4,
-        "units": 4,
+        "requests": 76,
+        "units": 76,
         "quota": 200
+      },
+      "geocoder": {
+        "requests": 23,
+        "units": 23,
+        "quota": 10000
       }
     }
   },
   "monthly": {
-    "period": "2026-10",
+    "period": "2026-11",
     "apis": {
-      "amap_geocode": {
-        "requests": 131,
-        "units": 131,
-        "quota": null
-      },
       "amap_place": {
-        "requests": 1446,
-        "units": 1446,
-        "quota": null
-      },
-      "amap_district": {
-        "requests": 3048,
-        "units": 3048,
-        "quota": null
-      },
-      "amap_entrance": {
-        "requests": 97,
-        "units": 97,
+        "requests": 1,
+        "units": 1,
         "quota": null
       }
     }
   },
-  "updatedAt": "2026-10-30T00:18:29"
+  "updatedAt": "2026-11-05T00:10:32"
 }

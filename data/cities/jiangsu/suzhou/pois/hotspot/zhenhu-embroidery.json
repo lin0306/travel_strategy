@@ -37,53 +37,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/37248368/pexels-photo-37248368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37248368/pexels-photo-37248368.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "A picturesque view of a canal in Suzhou, showcasing traditional architecture and spring greenery.",
-      "query": "art district gallery suzhou",
-      "credit": {
-        "source": "pexels",
-        "author": "Relaxing Journeys",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-suzhou-canal-in-spring-37248368/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/9427769/pexels-photo-9427769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/9427769/pexels-photo-9427769.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4214,
-      "height": 3456,
-      "alt": "Charming architecture along a narrow canal in Suzhou, China, reflecting historical charm.",
-      "query": "art district gallery suzhou",
-      "credit": {
-        "source": "pexels",
-        "author": "Jumbo Jin",
-        "sourceUrl": "https://www.pexels.com/photo/narrow-canal-between-concrete-houses-9427769/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36466075/pexels-photo-36466075.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36466075/pexels-photo-36466075.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 2666,
-      "alt": "Charming traditional teahouse with Chinese architecture in Suzhou, China.",
-      "query": "art district gallery suzhou",
-      "credit": {
-        "source": "pexels",
-        "author": "Garrison Gao",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-teahouse-in-suzhou-china-36466075/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "苏绣",
@@ -99,7 +53,7 @@
       "fetchedAt": "2026-09-19"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -107,5 +61,6 @@
   },
   "_geocodeTitle": "小石头绣庄(绣品街120号)",
   "_geocodeSuspect": false,
-  "district": "320505"
+  "district": "320505",
+  "_noImage": true
 }

@@ -185,7 +185,7 @@ def discover_city(city_id: str, city_name: str, pages: int = 1) -> dict:
     #   否则配额已满时，会从第 1 个关键字打起、36 次全废才停（实测每城白打 36 次）。
     #   这里一次就拦下，整座城0 次请求。
     if _quota_dead():
-        print(f"    ⛔ 腾讯 place_search 配额已用尽，本城跳过（0 次请求）")
+        print(f"    ⛔ 两家地点搜索都不可用（腾讯日配额尽 + 高德也不可用），本城跳过（0 次请求）")
         stat["quotaHit"] = 1
         stat["skippedByQuota"] = 1     # ★ 见落盘处的说明：区别于"搜了但没结果"
         return stat
@@ -274,7 +274,16 @@ def discover_city(city_id: str, city_name: str, pages: int = 1) -> dict:
     #        （清单看不出差别，但 `ls -lt` 会显示"刚刚才跑过"，等于假报进度）。
     after_period, after_req = _ps_requests()
     same_period = after_period == before_period
-    net_requests = max(0, after_req - before_req) if same_period else 0
+    # ★★ 跨周期要按 `after_req` 算，不能按 `after_req - before_req`：
+    #   账本在**当日第一次请求时惰性归零**，所以 before 是上一天的值（如 4），
+    #   after 是本轮从 0 起算的值（如 72）。减出来是 68（少算），
+    #   而更糟的是老代码直接把它判成 0 ⇒ 外层 `round_net == 0` 误报
+    #   「本轮零请求」并停止循环。实测 2026-11-01 21:26 重扫合肥：
+    #   真发 72 次请求、候选 212→432，日志却写「零请求」。
+    if same_period:
+        net_requests = max(0, after_req - before_req)
+    else:
+        net_requests = max(0, after_req)
     stat["netRequests"] = net_requests
     touched = (not same_period) or net_requests > 0
     if not touched and out_path.is_file():
@@ -333,6 +342,11 @@ def _deadline(until: str) -> datetime:
     return target
 
 
+#: 「腾讯不行了、本城改用高德」这条提示只打一次 —— 否则 36 个关键字打 36 行，
+#: 把真正的失败信息淹掉（与 `geoprovider._note_switch` 同一个理由）。
+_amap_handover_noted = False
+
+
 def _should_stop(deadline: datetime | None, done: int, quota_dead: bool) -> tuple[bool, str]:
     """守时循环的停止判据。返回 (是否停, 原因)。
 
@@ -342,13 +356,14 @@ def _should_stop(deadline: datetime | None, done: int, quota_dead: bool) -> tupl
 
     三条停止条件，**优先级从高到低**：
       1. **配额见底** —— 最重要的那条。硬跑只会得到一堆失败请求，
-         还会把 `place_search` 的额度白烧在注定失败的调用上。
-         ★ 只看**腾讯这一家**（高德额度已满，见 `_quota_dead`）。
+         还会把额度白烧在注定失败的调用上。
+         ★ 判据是**两家都不能用**（见 `_quota_dead`）：腾讯日配额尽但高德能接时，
+           会强制切高德继续跑，不算"见底"。
       2. **到点**（`--until HH:MM`）—— 用户说的"跑到 7 点"。
       3. **城市跑完** —— 没指定 `--loop` 时跑一轮就退（默认行为）。
     """
     if quota_dead:
-        return True, "配额见底（腾讯 place_search 日配额用尽）"
+        return True, "配额见底（腾讯 place_search 与高德地点搜索均不可用）"
     if deadline and datetime.now() >= deadline:
         return True, f"到点 {deadline:%H:%M}"
     if done and not _LOOP:
@@ -357,44 +372,67 @@ def _should_stop(deadline: datetime | None, done: int, quota_dead: bool) -> tupl
 
 
 def _quota_dead() -> bool:
-    """腾讯「地点搜索」配额是否已用尽（**两条判据，取或**）。
+    """**两家**「地点搜索」都已不可用时才返回 True。
 
-    ★★ 2026-10-08 用户确认：**高德额度已满，不可用**。
-      所以判据只看腾讯 —— `place_search` 用尽即整批停止。
+    ★★ 2026-11-01 改：原来只看腾讯，腾讯 `place_search` 一满就整城跳过（0 请求），
+      注释里那句「高德额度已满，不可用」是 2026-10-08 的判断 —— 高德是**月配额**，
+      11-01 已刷新（实测 `amap.place_search('合肥 博物馆')` 正常返回 10 条）。
+      旧判据的后果：明明高德能用，却整城不发一个请求，白等一天。
 
-    ## 为什么要两条判据（第一条是实测踩出来的）
-    `tmap.quota_exhausted()` 只看**本次进程**的内存集合（`_tmap_dead_apis`），
-    它靠响应里的 `status=121` 才置位。⇒ **新进程启动时它必定是"没死"**，
-    于是配额明明已满，脚本仍会从第 1 个关键字打起、**36 次全废才停**
-    （实测：配额已满的情况下又白打了 252 次请求）。
+    现在的判定顺序：
+      1. 腾讯还能用（账本有余 / 本进程没收到 121） ⇒ 继续用腾讯
+      2. 腾讯不行了，但高德可用 ⇒ `GEO_PROVIDER=amap` **强制切高德**，继续跑本城
+      3. 两家都不行 ⇒ True，整城停下
 
-    判据一（账本预判，不花请求）：`used >= quota` ⇒ 必然发不出去了，直接判死。
+    ## 为什么要设环境变量，而不是等 geoprovider 自己切
+    `geoprovider.place_search` 的切换条件是 `tmap.quota_exhausted("place_search")`，
+    而那是**进程内**内存集合 —— 新进程启动时必定是"没死"。所以腾讯配额早就满了
+    的情况下，新进程仍会先打腾讯，白烧到收到第一个 121 才切（失败请求同样计费）。
+    账本预判是零成本的前置判断，判死就直接指名走高德。
+
+    ## 两条腾讯判据（第一条是实测踩出来的）
+    判据一（账本预判，不花请求）：`used >= quota` ⇒ 必然发不出去了。
       ★ 只在 `quota` 有明确上限时生效；`None`（未知）一律不拦，避免误杀。
+      ★ 必须走 `fetch.remaining()`，不能裸读账本 —— 裸读会漏掉"跨零点归零"
+        （账本 period 还是昨天、units 已超限，而腾讯配额其实 0 点就回满了）。
     判据二（响应判死，本进程内累积）：与 `tmap` 共享同一个内存集合。
-
-    ★ 注意这只影响**本脚本的停止判据**，不动 `geoprovider` 本身的路由 ——
-      那个是全站共用的（geocode 还要用腾讯的 `geocoder`，那个桶还有余量），
-      改成"任何地方都不许切高德"会误伤其它链路。
     """
-    # 判据一：账本预判（零请求）
-    #   ★★ 必须走 `fetch.remaining()`，**不能裸读账本的 daily.apis**。
-    #   裸读会漏掉「跨零点归零」：账本 period 还是昨天、units 已超限，
-    #   而腾讯配额其实在 0 点就回满了 ⇒ 判死误判 ⇒ 守时循环 0 请求秒退，
-    #   整夜（0:00→7:00）一城不跑。`remaining()` 内部会比对 period，
-    #   旧周期直接返回满额，正是这里要的语义。
+    # ① 腾讯还能用吗
+    tencent_dead = False
     try:
         from pipeline.core import fetch
         left = fetch.remaining("place_search")
         if left is not None and left <= 0:      # None = 配额未知，不拦（避免误杀）
-            return True
+            tencent_dead = True
     except Exception:                                  # noqa: BLE001
         pass
-    # 判据二：本进程已收到过 121
-    try:
-        from pipeline.providers import tmap
-        return tmap.quota_exhausted("place_search")
-    except Exception:                                  # noqa: BLE001 —— 判据不该崩
+    if not tencent_dead:
+        try:
+            from pipeline.providers import tmap
+            tencent_dead = tmap.quota_exhausted("place_search")
+        except Exception:                              # noqa: BLE001 —— 判据不该崩
+            tencent_dead = False
+    if not tencent_dead:
         return False
+
+    # ② 腾讯不行了 —— 高德能不能接？（只读内存状态，不发探测请求）
+    global _amap_handover_noted
+    try:
+        from pipeline.providers import geoprovider
+        ok, why = geoprovider._amap_usable("amap_place")   # noqa: SLF001
+    except Exception as e:                             # noqa: BLE001
+        ok, why = False, f"{type(e).__name__}: {e}"
+    if not ok:
+        if not _amap_handover_noted:
+            _amap_handover_noted = True
+            print(f"    ⛔ 腾讯 place_search 用尽，高德也不可用（{why}）⇒ 本城跳过", flush=True)
+        return True
+    os.environ["GEO_PROVIDER"] = "amap"
+    if not _amap_handover_noted:
+        _amap_handover_noted = True
+        print("    ⚠️ 腾讯 place_search 日配额已用尽 ⇒ **本城改用高德**继续"
+              "（高德是月配额，用一点少一点）", flush=True)
+    return False
 
 
 #: ★ 配额耗尽而被跳过的城市，**下一轮优先补**（它们连一次请求都没发，

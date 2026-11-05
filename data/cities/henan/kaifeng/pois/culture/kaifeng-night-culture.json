@@ -42,48 +42,45 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/39293294/pexels-photo-39293294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39293294/pexels-photo-39293294.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2504,
-      "height": 3756,
-      "alt": "A beautifully lit traditional Chinese pagoda captured under the night sky, showcasing traditional architecture.",
-      "query": "Kaifeng Night Market Culture",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/%E5%AD%A6%E9%99%A2%E9%97%A8%E5%A4%9C%E6%99%AF_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/%E5%AD%A6%E9%99%A2%E9%97%A8%E5%A4%9C%E6%99%AF_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 720,
+      "alt": "学院门夜景 - panoramio.jpg",
+      "query": "开封夜市文化",
       "credit": {
-        "source": "pexels",
-        "author": "Jerry Zhang",
-        "sourceUrl": "https://www.pexels.com/photo/illuminated-ancient-pagoda-at-night-in-china-39293294/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "caoyuan",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-03",
+        "tier": "street"
       }
     },
     {
-      "url": "https://images.pexels.com/photos/38492553/pexels-photo-38492553.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38492553/pexels-photo-38492553.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8225,
-      "height": 5483,
-      "alt": "Vibrant fireworks illuminate a bridge at night in Kaifeng, showcasing a colorful celebration by the water.",
-      "query": "Kaifeng Night Market Culture",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/%E5%8F%A4%E5%9F%8E%E5%A4%9C%E8%89%B2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/%E5%8F%A4%E5%9F%8E%E5%A4%9C%E8%89%B2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 720,
+      "alt": "古城夜色 - panoramio.jpg",
+      "query": "开封夜市文化",
       "credit": {
-        "source": "pexels",
-        "author": "Raymond Zhao",
-        "sourceUrl": "https://www.pexels.com/photo/spectacular-night-fireworks-over-bridge-in-kaifeng-38492553/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38492547/pexels-photo-38492547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38492547/pexels-photo-38492547.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8093,
-      "height": 5395,
-      "alt": "Stunning night view of a colorful bridge and fireworks reflected on a water surface in Kaifeng, Henan, China.",
-      "query": "Kaifeng Night Market Culture",
-      "credit": {
-        "source": "pexels",
-        "author": "Raymond Zhao",
-        "sourceUrl": "https://www.pexels.com/photo/vibrant-nightscape-of-kaifeng-bridge-with-fireworks-38492547/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "caoyuan",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-03",
+        "tier": "street"
       }
     }
   ],
@@ -102,7 +99,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-03",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Kaifeng Night Market Culture",

@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/35726838/pexels-photo-35726838.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35726838/pexels-photo-35726838.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3712,
-      "height": 5568,
-      "alt": "A single bicycle parked on a road beneath a large concrete bridge on a cloudy day.",
-      "query": "Yellow River Line Cycling",
-      "credit": {
-        "source": "pexels",
-        "author": "木 灬",
-        "sourceUrl": "https://www.pexels.com/photo/solitary-bicycle-under-urban-concrete-bridge-35726838/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39388692/pexels-photo-39388692.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39388692/pexels-photo-39388692.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5464,
-      "height": 8192,
-      "alt": "A person rides a tricycle down a peaceful, tree-lined path in autumn's warm glow.",
-      "query": "Yellow River Line Cycling",
-      "credit": {
-        "source": "pexels",
-        "author": "Andy Lee",
-        "sourceUrl": "https://www.pexels.com/photo/person-riding-tricycle-in-tree-lined-pathway-39388692/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/33317757/pexels-photo-33317757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/33317757/pexels-photo-33317757.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Row of shared bikes on a sunny day in Shanghai, China, showcasing urban mobility.",
-      "query": "Yellow River Line Cycling",
-      "credit": {
-        "source": "pexels",
-        "author": "Anderson Wei",
-        "sourceUrl": "https://www.pexels.com/photo/shared-bikes-lined-up-on-shanghai-street-33317757/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "骑行",
@@ -100,7 +54,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Yellow River Line Cycling",
@@ -108,5 +62,6 @@
   },
   "_geocodeTitle": "北滨河东路",
   "_geocodeSuspect": false,
-  "district": "620102"
+  "district": "620102",
+  "_noImage": true
 }

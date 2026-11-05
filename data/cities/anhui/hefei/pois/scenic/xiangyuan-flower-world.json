@@ -1,0 +1,73 @@
+{
+  "id": "xiangyuan-flower-world",
+  "name": "祥源花世界",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "肥西的花海主题园区，520 花海、欧式园、白色玻璃教堂与合肥之眼摩天轮挤在一处。",
+  "description": "祥源花世界在肥西县上派镇金寨南路 8 号，紧邻中国中部花木城，是合肥近郊体量最大的花卉主题园区。园区分成几块风格完全不同的片区：520 花海四季轮换花种，花海深处立着一座白色玻璃教堂，是本地拍婚纱和写真的固定机位；欧式园是一片草坪、雕塑与花海迷宫；中式园借了徽派的墙与窗；童乐谷是无动力乐园，滑梯、攀爬网、沙地都免费，旁边精灵花园有霍比特小木屋和喂小鹿。园区里还有安徽最高的摩天轮“合肥之眼”、60 米湖景蹦极和卡丁车赛道，周末常有市集与赛事。门票 20 元，1.2 米以下儿童免费，9:30 开园、17:30 停止检票。",
+  "highlights": [
+    "520 花海与白色玻璃教堂",
+    "欧式园、中式园、精灵花园分区漫游",
+    "合肥之眼摩天轮与湖景蹦极"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.134206,
+      "lat": 31.694055,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "安徽省合肥市肥西县上派镇金寨南路8号",
+    "district": "肥西县",
+    "transportTip": "公交 30 路、31 路至花木城站，站对面玻璃馆即检票口；地铁 3 号线李湾站 C 口打车约 10 分钟；自驾导航北停车场"
+  },
+  "practical": {
+    "openHours": "9:30-18:00（17:30 停止检票）",
+    "openHoursRef": 0,
+    "ticket": "20 元（1.2 米以下免票，1.2-1.5 米半价；合肥文旅年卡可用）",
+    "ticketRef": 0,
+    "duration": "建议 180-240 分钟",
+    "durationMinutes": [
+      180,
+      240
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "kids",
+    "couple",
+    "family"
+  ],
+  "accessible": true,
+  "tips": [
+    "一定导航“北停车场”，南停车场要多走一大段",
+    "下午三点后光线柔和，拍花海最好看"
+  ],
+  "images": [],
+  "coverIndex": 0,
+  "tags": [
+    "花海",
+    "亲子",
+    "摩天轮",
+    "拍照",
+    "肥西"
+  ],
+  "popularity": 74,
+  "sources": [
+    {
+      "title": "祥源花世界赏秋游园与交通指引（景区官方）",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzI0MzQ0ODI0MA==&mid=2247607503&idx=1&sn=1f383750b86b13db1fb42ce177bf29b0",
+      "kind": "official",
+      "fetchedAt": "2026-11-02"
+    }
+  ],
+  "updatedAt": "2026-11-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Xiangyuan Flower World",
+    "zh": "祥源花世界"
+  },
+  "_geocodeTitle": "祥源花世界",
+  "_geocodeSuspect": false,
+  "_noImage": true,
+  "district": "340123"
+}

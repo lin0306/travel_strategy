@@ -38,7 +38,29 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Chaozong_Street.jpg/1280px-Chaozong_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Chaozong_Street.jpg/1280px-Chaozong_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Chaozong Street.jpg",
+      "query": "潮宗街历史文化街区",
+      "credit": {
+        "source": "wikimedia",
+        "author": "EditQ",
+        "sourceUrl": "https://zh.wikipedia.org/wiki/潮宗街历史文化街区",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
+      }
+    }
+  ],
   "coverIndex": 0,
   "tags": [
     "老街",
@@ -54,7 +76,7 @@
       "fetchedAt": "2026-09-28"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-05",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -62,6 +84,5 @@
   },
   "_geocodeTitle": "潮宗街历史文化街区",
   "_geocodeSuspect": false,
-  "district": "430105",
-  "_noImage": true
+  "district": "430105"
 }

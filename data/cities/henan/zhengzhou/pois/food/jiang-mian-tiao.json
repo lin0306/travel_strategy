@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/27928436/pexels-photo-27928436.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/27928436/pexels-photo-27928436.png?auto=compress&cs=tinysrgb&h=350",
-      "width": 3000,
-      "height": 5333,
-      "alt": "A bowl of Asian rice noodle soup with fresh vegetables and crispy breadsticks on a wooden table.",
-      "query": "Jiang Mian Tiao Henan",
-      "credit": {
-        "source": "pexels",
-        "author": "Anh Nguyen",
-        "sourceUrl": "https://www.pexels.com/photo/a-bowl-of-pho-with-rice-and-meat-sticks-27928436/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39324966/pexels-photo-39324966.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39324966/pexels-photo-39324966.png?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 6000,
-      "alt": "A close-up of Taiwanese street food in a cup with a plastic spoon against a blurred background.",
-      "query": "Jiang Mian Tiao Henan",
-      "credit": {
-        "source": "pexels",
-        "author": "Peerapat Kansawat",
-        "sourceUrl": "https://www.pexels.com/photo/taiwanese-street-food-hand-holding-noodle-soup-39324966/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/21862236/pexels-photo-21862236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/21862236/pexels-photo-21862236.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4621,
-      "height": 3081,
-      "alt": "Aerial view of Jiu Jiang Shi, China, showcasing roads, residential buildings, and urban planning.",
-      "query": "Jiang Mian Tiao Henan",
-      "credit": {
-        "source": "pexels",
-        "author": "jason hu",
-        "sourceUrl": "https://www.pexels.com/photo/birds-eye-view-of-jiu-jiang-shi-in-china-21862236/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "浆面条",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Jiang Mian Tiao Henan",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "浆面条",
   "_geocodeSuspect": false,
-  "district": "410103"
+  "district": "410103",
+  "_noImage": true
 }

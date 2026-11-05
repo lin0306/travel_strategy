@@ -41,63 +41,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/19958120/pexels-photo-19958120.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/19958120/pexels-photo-19958120.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2160,
-      "height": 3240,
-      "alt": "The intricate facade of the Hall of Supreme Harmony in Beijing's Forbidden City showcases Chinese architecture.",
-      "query": "Tongde Hall Square Manchukuo Palace",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Tongde_Hall_from_the_east_imperial_garden_%2820230722134045%29.jpg/1280px-Tongde_Hall_from_the_east_imperial_garden_%2820230722134045%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Tongde_Hall_from_the_east_imperial_garden_%2820230722134045%29.jpg/1280px-Tongde_Hall_from_the_east_imperial_garden_%2820230722134045%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Tongde Hall from the east imperial garden (20230722134045).jpg",
+      "query": "同德殿前广场",
       "credit": {
-        "source": "pexels",
-        "author": "Rylee Yi",
-        "sourceUrl": "https://www.pexels.com/photo/close-up-of-the-facade-of-the-hall-of-supreme-harmony-at-the-forbidden-city-in-beijing-china-19958120/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/31639356/pexels-photo-31639356.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/31639356/pexels-photo-31639356.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5184,
-      "height": 3456,
-      "alt": "Explore the stunning architecture of the Forbidden City with its vibrant roofs and intricate designs.",
-      "query": "Tongde Hall Square Manchukuo Palace",
-      "credit": {
-        "source": "pexels",
-        "author": "Ramaz Bluashvili",
-        "sourceUrl": "https://www.pexels.com/photo/intricate-roofs-of-beijing-s-forbidden-city-31639356/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/14953856/pexels-photo-14953856.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/14953856/pexels-photo-14953856.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2322,
-      "height": 4128,
-      "alt": "Tourists exploring a colorful hall in the historic Forbidden City, Beijing.",
-      "query": "Tongde Hall Square Manchukuo Palace",
-      "credit": {
-        "source": "pexels",
-        "author": "Alireza Akhlaghi",
-        "sourceUrl": "https://www.pexels.com/photo/forbidden-city-in-beijing-14953856/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39468934/pexels-photo-39468934.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39468934/pexels-photo-39468934.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6864,
-      "height": 5152,
-      "alt": "A stunning view of the iconic Forbidden City in Beijing with clear blue skies.",
-      "query": "Tongde Hall Square Manchukuo Palace",
-      "credit": {
-        "source": "pexels",
-        "author": "ravencrow BI",
-        "sourceUrl": "https://www.pexels.com/photo/majestic-view-of-the-forbidden-city-in-beijing-39468934/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "N509FZ",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "exact"
       }
     }
   ],
@@ -116,7 +77,7 @@
       "fetchedAt": "2026-10-03"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-02",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Tongde Hall Square Manchukuo Palace",

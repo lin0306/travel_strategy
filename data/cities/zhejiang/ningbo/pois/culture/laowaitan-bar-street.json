@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/20256134/pexels-photo-20256134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/20256134/pexels-photo-20256134.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4160,
-      "height": 6240,
-      "alt": "Traditional alley adorned with vibrant red lanterns, capturing the essence of Asian street culture.",
-      "query": "Chinese old town street ningbo",
-      "credit": {
-        "source": "pexels",
-        "author": "Tito Zzzz",
-        "sourceUrl": "https://www.pexels.com/photo/red-lantern-hanging-along-alley-20256134/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37111996/pexels-photo-37111996.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37111996/pexels-photo-37111996.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4896,
-      "height": 3264,
-      "alt": "Explore a picturesque Chinese alley with traditional architecture and modern shops.",
-      "query": "Chinese old town street ningbo",
-      "credit": {
-        "source": "pexels",
-        "author": "mingche lee",
-        "sourceUrl": "https://www.pexels.com/photo/charming-street-view-in-traditional-chinese-alley-37111996/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/27927116/pexels-photo-27927116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/27927116/pexels-photo-27927116.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6048,
-      "height": 4024,
-      "alt": "Quaint narrow street with rustic wooden houses under a clear blue sky.",
-      "query": "Chinese old town street ningbo",
-      "credit": {
-        "source": "pexels",
-        "author": "Lu Zhao",
-        "sourceUrl": "https://www.pexels.com/photo/narrow-street-between-old-houses-27927116/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "酒吧街",
@@ -101,12 +55,13 @@
       "fetchedAt": "2026-09-30"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
     "zh": "老外滩酒吧街"
   },
   "_geocodeTitle": "中马路",
-  "district": "330205"
+  "district": "330205",
+  "_noImage": true
 }

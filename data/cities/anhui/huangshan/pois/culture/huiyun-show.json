@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/36422762/pexels-photo-36422762.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36422762/pexels-photo-36422762.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2666,
-      "height": 3999,
-      "alt": "Close-up of a Chinese opera performer wearing ornate traditional costume and makeup.",
-      "query": "Chinese opera performance huangshan",
-      "credit": {
-        "source": "pexels",
-        "author": "Alexandra  Lavizzari",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-opera-performer-in-costume-36422762/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/10588382/pexels-photo-10588382.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/10588382/pexels-photo-10588382.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "A woman dressed in elaborate traditional Chinese opera costume and headdress, showcasing intense makeup and ornate detai",
-      "query": "Chinese opera performance huangshan",
-      "credit": {
-        "source": "pexels",
-        "author": "Klub Boks",
-        "sourceUrl": "https://www.pexels.com/photo/woman-in-a-traditional-chinese-opera-costume-10588382/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/32526871/pexels-photo-32526871.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/32526871/pexels-photo-32526871.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4096,
-      "height": 3072,
-      "alt": "Two actors in traditional Chinese opera costumes stand in a historic temple setting in Jiangxi, China.",
-      "query": "Chinese opera performance huangshan",
-      "credit": {
-        "source": "pexels",
-        "author": "jason hu",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-theatre-performers-in-historical-setting-32526871/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "歌舞",
@@ -101,12 +55,13 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
     "zh": "大型歌舞《徽韵》"
   },
   "_geocodeTitle": "徽韵·香茗大剧院",
-  "district": "341002"
+  "district": "341002",
+  "_noImage": true
 }

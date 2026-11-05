@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/35602785/pexels-photo-35602785.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35602785/pexels-photo-35602785.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4138,
-      "height": 2631,
-      "alt": "Serene canal view with traditional architecture in Jiaxing, Zhejiang, China at sunset.",
-      "query": "China city street view jiaxing",
-      "credit": {
-        "source": "pexels",
-        "author": "Luke Zheng",
-        "sourceUrl": "https://www.pexels.com/photo/tranquil-canal-scene-in-jiaxing-zhejiang-35602785/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/7470251/pexels-photo-7470251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/7470251/pexels-photo-7470251.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2705,
-      "height": 4072,
-      "alt": "A serene night view of a narrow alley in Jiaxing, China, featuring traditional architecture.",
-      "query": "China city street view jiaxing",
-      "credit": {
-        "source": "pexels",
-        "author": "Leon Huang",
-        "sourceUrl": "https://www.pexels.com/photo/photograph-of-an-alley-during-the-night-7470251/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/28916318/pexels-photo-28916318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/28916318/pexels-photo-28916318.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 3000,
-      "alt": "Aerial view showcasing traditional architecture and waterways in Jiaxing, China.",
-      "query": "China city street view jiaxing",
-      "credit": {
-        "source": "pexels",
-        "author": "Ninh Tien Dat",
-        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-watertown-in-jiaxing-china-28916318/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "西塘",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-05"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "嘉善县",
   "_geocodeSuspect": false,
-  "district": "330421"
+  "district": "330421",
+  "_noImage": true
 }

@@ -42,33 +42,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Mount_Afadja%28Mt_Afadjato_or_%E2%80%9CAvedzeto.%E2%80%9D%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Mount_Afadja%28Mt_Afadjato_or_%E2%80%9CAvedzeto.%E2%80%9D%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/%E5%A8%81%E9%A3%8E%E7%9A%84%E7%8C%B4%E7%8E%8B-%E6%B5%81%E6%B5%AA%E7%9A%84%E7%8B%97%E7%8B%97_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/%E5%A8%81%E9%A3%8E%E7%9A%84%E7%8C%B4%E7%8E%8B-%E6%B5%81%E6%B5%AA%E7%9A%84%E7%8B%97%E7%8B%97_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "width": 1080,
-      "height": 736,
-      "alt": "Mount Afadja(Mt Afadjato or “Avedzeto.”).jpg",
+      "height": 720,
+      "alt": "威风的猴王-流浪的狗狗 - panoramio.jpg",
       "query": "生态猴区",
       "credit": {
         "source": "wikimedia",
-        "author": "Ace Shogun",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Afadja(Mt_Afadjato_or_%E2%80%9CAvedzeto.%E2%80%9D).jpg",
-        "license": "CC BY-SA 4.0",
+        "author": "aisccd",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 3.0",
         "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Sunrise_above_the_Daidai_peninsula_Lingshui.jpg/1280px-Sunrise_above_the_Daidai_peninsula_Lingshui.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Sunrise_above_the_Daidai_peninsula_Lingshui.jpg/1280px-Sunrise_above_the_Daidai_peninsula_Lingshui.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 607,
-      "alt": "Sunrise above the Daidai peninsula Lingshui.jpg",
-      "query": "生态猴区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Charlie fong",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunrise_above_the_Daidai_peninsula_Lingshui.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "exact"
       }
     }
   ],
@@ -89,7 +80,7 @@
       "fetchedAt": "2026-10-07"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-02",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

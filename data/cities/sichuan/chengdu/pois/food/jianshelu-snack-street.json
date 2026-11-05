@@ -43,53 +43,7 @@
     "晚上才热闹，白天大多没开",
     "建议留出两个小时慢慢吃"
   ],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/33692911/pexels-photo-33692911.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/33692911/pexels-photo-33692911.png?auto=compress&cs=tinysrgb&h=350",
-      "width": 7952,
-      "height": 5304,
-      "alt": "Delicious street food stall with variety of skewers in Chengdu's night market, China.",
-      "query": "Chengdu night market street food",
-      "credit": {
-        "source": "pexels",
-        "author": "Vincent Tan",
-        "sourceUrl": "https://www.pexels.com/photo/street-food-stall-at-night-in-chengdu-china-33692911/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/33448002/pexels-photo-33448002.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/33448002/pexels-photo-33448002.png?auto=compress&cs=tinysrgb&h=350",
-      "width": 4002,
-      "height": 6000,
-      "alt": "Colorful fruit stall with steam display in a Chengdu market, highlighting fresh produce.",
-      "query": "Chengdu night market street food",
-      "credit": {
-        "source": "pexels",
-        "author": "Vincent Tan",
-        "sourceUrl": "https://www.pexels.com/photo/fruit-stall-with-vibrant-display-in-chengdu-33448002/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/29191590/pexels-photo-29191590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/29191590/pexels-photo-29191590.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5410,
-      "height": 3043,
-      "alt": "Colorful facade of a street food shop in Chengdu, China, showcasing traditional design and local character.",
-      "query": "Chengdu night market street food",
-      "credit": {
-        "source": "pexels",
-        "author": "Blackcurrant Great",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-street-food-shop-in-chengdu-29191590/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "夜宵街",
@@ -105,7 +59,7 @@
       "fetchedAt": "2026-09-18"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Chengdu night market street food",
@@ -113,5 +67,6 @@
   },
   "_geocodeTitle": "建设路美食街(万科钻石广场店)",
   "_geocodeSuspect": false,
-  "district": "510108"
+  "district": "510108",
+  "_noImage": true
 }

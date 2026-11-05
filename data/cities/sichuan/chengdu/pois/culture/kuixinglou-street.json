@@ -41,53 +41,7 @@
     "建议晚市时间去，部分店铺白天不营业",
     "饭点排队普遍，留意取号"
   ],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/38690163/pexels-photo-38690163.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38690163/pexels-photo-38690163.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3834,
-      "height": 2658,
-      "alt": "Colorful skewers of meats and vegetables at a Chengdu street market, perfect for food enthusiasts.",
-      "query": "Kuixinglou Street Chengdu food",
-      "credit": {
-        "source": "pexels",
-        "author": "Harry Xie",
-        "sourceUrl": "https://www.pexels.com/photo/chengdu-street-market-skewers-display-38690163/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/33692911/pexels-photo-33692911.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/33692911/pexels-photo-33692911.png?auto=compress&cs=tinysrgb&h=350",
-      "width": 7952,
-      "height": 5304,
-      "alt": "Delicious street food stall with variety of skewers in Chengdu's night market, China.",
-      "query": "Kuixinglou Street Chengdu food",
-      "credit": {
-        "source": "pexels",
-        "author": "Vincent Tan",
-        "sourceUrl": "https://www.pexels.com/photo/street-food-stall-at-night-in-chengdu-china-33692911/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39563772/pexels-photo-39563772.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39563772/pexels-photo-39563772.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8256,
-      "height": 5504,
-      "alt": "A bustling Sichuan restaurant scene at night with lively street atmosphere and vibrant signage.",
-      "query": "Kuixinglou Street Chengdu food",
-      "credit": {
-        "source": "pexels",
-        "author": "开 心",
-        "sourceUrl": "https://www.pexels.com/photo/vibrant-nightlife-at-sichuan-street-restaurant-39563772/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "本地美食",
@@ -103,7 +57,7 @@
       "fetchedAt": "2026-09-18"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Kuixinglou Street Chengdu food",
@@ -111,5 +65,6 @@
   },
   "_geocodeTitle": "奎星楼街",
   "_geocodeSuspect": false,
-  "district": "510105"
+  "district": "510105",
+  "_noImage": true
 }

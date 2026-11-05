@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/16325662/pexels-photo-16325662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/16325662/pexels-photo-16325662.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6720,
-      "height": 4480,
-      "alt": "Aerial view of lush green tea plantations in Hangzhou, China, showcasing terraced fields under a vibrant tree.",
-      "query": "Fuliang tea plantation Jiangxi",
-      "credit": {
-        "source": "pexels",
-        "author": "Bluesea Tea",
-        "sourceUrl": "https://www.pexels.com/photo/tree-and-rural-fields-behind-16325662/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/6872196/pexels-photo-6872196.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/6872196/pexels-photo-6872196.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5907,
-      "height": 3938,
-      "alt": "Aerial view of vibrant green tea plantations with winding river and mountains in the background.",
-      "query": "Fuliang tea plantation Jiangxi",
-      "credit": {
-        "source": "pexels",
-        "author": "Quang Nguyen Vinh",
-        "sourceUrl": "https://www.pexels.com/photo/green-plantation-on-hills-6872196/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/18732606/pexels-photo-18732606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/18732606/pexels-photo-18732606.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4672,
-      "height": 7008,
-      "alt": "Green terraced tea plantations in Rize, Türkiye under a soft light.",
-      "query": "Fuliang tea plantation Jiangxi",
-      "credit": {
-        "source": "pexels",
-        "author": "M.Emin  BİLİR",
-        "sourceUrl": "https://www.pexels.com/photo/plantation-on-hillside-18732606/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "茶园",
@@ -100,12 +54,13 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Fuliang tea plantation Jiangxi",
     "zh": "浮梁茶园"
   },
   "_geocodeTitle": "浮梁县绿谷茶园",
-  "district": "360222"
+  "district": "360222",
+  "_noImage": true
 }

@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/38775312/pexels-photo-38775312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38775312/pexels-photo-38775312.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3072,
-      "height": 4096,
-      "alt": "Discover a rustic Chinese teahouse adorned with lanterns and calligraphy, set amidst lush trees.",
-      "query": "Sanbao teahouse Jingdezhen",
-      "credit": {
-        "source": "pexels",
-        "author": "Zyy",
-        "sourceUrl": "https://www.pexels.com/photo/charming-traditional-teahouse-in-chinese-countryside-38775312/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37765492/pexels-photo-37765492.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37765492/pexels-photo-37765492.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 6048,
-      "alt": "Cozy Chinese tea room in Nanjing with traditional decor and wooden furniture.",
-      "query": "Sanbao teahouse Jingdezhen",
-      "credit": {
-        "source": "pexels",
-        "author": "Cheng Shi Song",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-tea-room-interior-decor-37765492/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36466075/pexels-photo-36466075.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36466075/pexels-photo-36466075.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 2666,
-      "alt": "Charming traditional teahouse with Chinese architecture in Suzhou, China.",
-      "query": "Sanbao teahouse Jingdezhen",
-      "credit": {
-        "source": "pexels",
-        "author": "Garrison Gao",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-teahouse-in-suzhou-china-36466075/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "茶室",
@@ -101,12 +55,13 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Sanbao teahouse Jingdezhen",
     "zh": "三宝茶室"
   },
   "_geocodeTitle": "三宝村",
-  "district": "360203"
+  "district": "360203",
+  "_noImage": true
 }

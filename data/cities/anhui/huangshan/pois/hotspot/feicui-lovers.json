@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/31722232/pexels-photo-31722232.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/31722232/pexels-photo-31722232.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5464,
-      "height": 3640,
-      "alt": "High-angle view of a suburban cityscape with residential buildings, sports fields, and distant mountains in China.",
-      "query": "China city street view huangshan",
-      "credit": {
-        "source": "pexels",
-        "author": "jason hu",
-        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-modern-suburban-cityscape-in-china-31722232/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/29611975/pexels-photo-29611975.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/29611975/pexels-photo-29611975.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5464,
-      "height": 3640,
-      "alt": "Picturesque Chinese village surrounded by vibrant greenery in the mountains. Captured during the day with clear skies.",
-      "query": "China city street view huangshan",
-      "credit": {
-        "source": "pexels",
-        "author": "jason hu",
-        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-scenic-chinese-village-among-lush-hills-29611975/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/29611986/pexels-photo-29611986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/29611986/pexels-photo-29611986.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5464,
-      "height": 3640,
-      "alt": "A scenic aerial view of a traditional village in Huangshan nestled in a lush, forested hillside.",
-      "query": "China city street view huangshan",
-      "credit": {
-        "source": "pexels",
-        "author": "jason hu",
-        "sourceUrl": "https://www.pexels.com/photo/charming-huangshan-village-in-lush-hillside-29611986/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "彩池",
@@ -101,12 +55,13 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
     "zh": "翡翠谷情人谷"
   },
   "_geocodeTitle": "翡翠谷景区",
-  "district": "341003"
+  "district": "341003",
+  "_noImage": true
 }

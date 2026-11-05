@@ -1,0 +1,73 @@
+{
+  "id": "hefei-garden-expo-park",
+  "name": "合肥园博园",
+  "category": "scenic",
+  "subtype": "park",
+  "summary": "骆岗机场旧址改出的城市公园，3000 米跑道变成大草坪，38 座城市展园散在林子里，免费无围墙。",
+  "description": "合肥园博园在包河区包河大道，是骆岗机场搬迁后留下的 12.7 平方公里城市公园，第十四届中国国际园林博览会主会场，也是目前世界上面积最大的城市公园之一。老航站楼没拆，外墙“合肥”两个大字还在，现在改成城市建设馆；3000 米跑道变成了 481 亩的梦想大草坪，风筝、露营、音乐节都在这片；60 米高的全向信标台被本地人叫“大蘑菇”，夜里亮灯像一朵蘑菇云。园博园核心区有 38 座城市展园，安徽园的白墙马头墙、北京园的红墙长廊、苏州园的叠山理水各有看头，园博小镇由 16 万平方米老机场建筑群改造，餐饮文创集中。全园免费、无围墙，园区 9:00 起开放，周五至周日延到 21:00。",
+  "highlights": [
+    "3000 米跑道改成的梦想大草坪",
+    "38 座城市展园与园博小镇",
+    "老航站楼、“大蘑菇”信标台的工业风地标"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.306194,
+      "lat": 31.780272,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "安徽省合肥市包河区包河大道（骆岗公园）",
+    "district": "包河区",
+    "transportTip": "地铁 1 号线骆岗站 B 口，或 5 号线盛大站 C 口出站步行入园；自驾导航骆岗公园，P1/P2/P5/P9 等停车场"
+  },
+  "practical": {
+    "openHours": "周一至周四 9:00-18:00；周五至周日 9:00-21:00（园区大范围全天可进，室内馆 10:00-17:00）",
+    "openHoursRef": 0,
+    "ticket": "免费，无需预约（园内游乐、展馆单独收费）",
+    "ticketRef": 0,
+    "duration": "建议 240-360 分钟",
+    "durationMinutes": [
+      240,
+      360
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "friends"
+  ],
+  "accessible": true,
+  "tips": [
+    "园区极大，走完约 3 万步，建议租观光车或共享单车",
+    "傍晚在梦想大草坪看日落，夜里看信标台亮灯"
+  ],
+  "images": [],
+  "coverIndex": 0,
+  "tags": [
+    "公园",
+    "园博园",
+    "免费",
+    "露营",
+    "亲子"
+  ],
+  "popularity": 88,
+  "sources": [
+    {
+      "title": "2026 合肥园博园景点指南（Trip.com 旅拍）",
+      "url": "https://tw.trip.com/moments/poi-city-136462531",
+      "kind": "travel-platform",
+      "fetchedAt": "2026-11-02"
+    }
+  ],
+  "updatedAt": "2026-11-02",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Hefei Garden Expo Park",
+    "zh": "合肥园博园"
+  },
+  "_geocodeTitle": "合肥园博园",
+  "_geocodeSuspect": false,
+  "_noImage": true,
+  "district": "340111"
+}

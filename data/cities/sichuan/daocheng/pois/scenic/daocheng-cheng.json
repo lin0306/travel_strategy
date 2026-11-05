@@ -41,48 +41,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/39556914/pexels-photo-39556914.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39556914/pexels-photo-39556914.png?auto=compress&cs=tinysrgb&h=350",
-      "width": 2624,
-      "height": 3936,
-      "alt": "A majestic traditional Chinese temple with ornate rooftops under a clear blue sky with fluffy clouds.",
-      "query": "Chinese historic architecture daocheng",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/%E7%A8%BB%E5%9F%8E%E9%9B%AA%E5%B1%B1%E5%B9%BF%E5%9C%BA_-_Snow_Mountains_Square_-_2012.10_-_panoramio.jpg/1280px-%E7%A8%BB%E5%9F%8E%E9%9B%AA%E5%B1%B1%E5%B9%BF%E5%9C%BA_-_Snow_Mountains_Square_-_2012.10_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/%E7%A8%BB%E5%9F%8E%E9%9B%AA%E5%B1%B1%E5%B9%BF%E5%9C%BA_-_Snow_Mountains_Square_-_2012.10_-_panoramio.jpg/1280px-%E7%A8%BB%E5%9F%8E%E9%9B%AA%E5%B1%B1%E5%B9%BF%E5%9C%BA_-_Snow_Mountains_Square_-_2012.10_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "稻城雪山广场 - Snow Mountains Square - 2012.10 - panoramio.jpg",
+      "query": "稻城县城",
       "credit": {
-        "source": "pexels",
-        "author": "zi xin",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-temple-with-ornate-rooftop-39556914/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39253116/pexels-photo-39253116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39253116/pexels-photo-39253116.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "A striking building with a distinct red conical roof set against a foggy mountainous backdrop.",
-      "query": "Chinese historic architecture daocheng",
-      "credit": {
-        "source": "pexels",
-        "author": "Anderson Wei",
-        "sourceUrl": "https://www.pexels.com/photo/modern-building-with-red-conical-roof-against-mountain-39253116/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/6144758/pexels-photo-6144758.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/6144758/pexels-photo-6144758.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 7360,
-      "height": 4912,
-      "alt": "Low angle view of an ornate traditional Chinese pagoda showcasing intricate architectural details and vibrant colors.",
-      "query": "Chinese historic architecture daocheng",
-      "credit": {
-        "source": "pexels",
-        "author": "conghui hou",
-        "sourceUrl": "https://www.pexels.com/photo/low-angle-view-of-a-pagoda-6144758/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "rheins",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "street"
       }
     }
   ],
@@ -101,7 +77,7 @@
       "fetchedAt": "2026-10-06"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-05",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

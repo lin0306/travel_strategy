@@ -40,53 +40,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/27785421/pexels-photo-27785421.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/27785421/pexels-photo-27785421.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5152,
-      "height": 7728,
-      "alt": "A stunning view of a traditional Chinese temple illuminated at night in Nanchang, China.",
-      "query": "Xishan Wanshou Palace Nanchang",
-      "credit": {
-        "source": "pexels",
-        "author": "Yifan Lai",
-        "sourceUrl": "https://www.pexels.com/photo/tengwang-pavilion-27785421/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/10624401/pexels-photo-10624401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/10624401/pexels-photo-10624401.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2633,
-      "height": 3511,
-      "alt": "Pavilion of Prince Teng, a historic tower and famous landmark in Nanchang, China, captured on a clear day.",
-      "query": "Xishan Wanshou Palace Nanchang",
-      "credit": {
-        "source": "pexels",
-        "author": "子刚 chen",
-        "sourceUrl": "https://www.pexels.com/photo/the-pavilion-of-prince-teng-in-china-10624401/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/26769504/pexels-photo-26769504.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/26769504/pexels-photo-26769504.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Historic Pavilion of Prince Teng in Nanchang, showcasing classic Chinese architecture.",
-      "query": "Xishan Wanshou Palace Nanchang",
-      "credit": {
-        "source": "pexels",
-        "author": "miss King",
-        "sourceUrl": "https://www.pexels.com/photo/pavilion-of-prince-teng-in-nanchang-in-china-26769504/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "万寿宫",
@@ -102,7 +56,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Xishan Wanshou Palace Nanchang",
@@ -110,5 +64,6 @@
   },
   "_geocodeTitle": "西山万寿宫[公交站]",
   "_geocodeSuspect": false,
-  "district": "360112"
+  "district": "360112",
+  "_noImage": true
 }

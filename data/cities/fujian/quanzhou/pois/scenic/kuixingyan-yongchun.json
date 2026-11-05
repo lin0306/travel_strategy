@@ -45,53 +45,7 @@
     "山路多石阶但平缓，穿运动鞋，夏季带驱蚊液",
     "殿内佛像不拍照，寺内着装别太暴露"
   ],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/16101869/pexels-photo-16101869.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/16101869/pexels-photo-16101869.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 7952,
-      "height": 5304,
-      "alt": "Colorful night view of Yongchun Station entrance with vibrant urban surroundings.",
-      "query": "Kuixingyan Scenic Area Yongchun",
-      "credit": {
-        "source": "pexels",
-        "author": "Jimmy Liao",
-        "sourceUrl": "https://www.pexels.com/photo/ligths-on-buildings-in-town-at-night-16101869/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39128015/pexels-photo-39128015.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39128015/pexels-photo-39128015.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5472,
-      "height": 3648,
-      "alt": "A breathtaking aerial photograph capturing a lush, vibrant landscape with rivers and hills.",
-      "query": "Kuixingyan Scenic Area Yongchun",
-      "credit": {
-        "source": "pexels",
-        "author": "CHINA YU",
-        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-scenic-mountainous-park-landscape-39128015/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39128023/pexels-photo-39128023.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39128023/pexels-photo-39128023.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5472,
-      "height": 3648,
-      "alt": "Aerial view of a scenic green and rocky landscape with winding rivers and distant hills.",
-      "query": "Kuixingyan Scenic Area Yongchun",
-      "credit": {
-        "source": "pexels",
-        "author": "CHINA YU",
-        "sourceUrl": "https://www.pexels.com/photo/panoramic-view-of-lush-mountainous-landscape-39128023/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "三A",
@@ -108,7 +62,7 @@
       "fetchedAt": "2026-10-27"
     }
   ],
-  "updatedAt": "2026-10-27",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Kuixingyan Scenic Area Yongchun",
@@ -116,5 +70,6 @@
   },
   "_geocodeTitle": "魁星岩风景区",
   "_geocodeSuspect": false,
-  "district": "350525"
+  "district": "350525",
+  "_noImage": true
 }

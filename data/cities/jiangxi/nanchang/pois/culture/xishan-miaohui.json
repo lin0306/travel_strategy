@@ -40,53 +40,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/7009619/pexels-photo-7009619.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/7009619/pexels-photo-7009619.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Explore the traditional architecture of a historic Chinese palace located in Tangshan.",
-      "query": "Xishan Wanshou Palace Temple Fair",
-      "credit": {
-        "source": "pexels",
-        "author": "Peter Lopez",
-        "sourceUrl": "https://www.pexels.com/photo/square-in-qing-dong-ling-in-china-7009619/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/2845969/pexels-photo-2845969.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/2845969/pexels-photo-2845969.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6204,
-      "height": 3492,
-      "alt": "Vibrant summer scene of a bustling temple courtyard in Beijing with tourists.",
-      "query": "Xishan Wanshou Palace Temple Fair",
-      "credit": {
-        "source": "pexels",
-        "author": "Magda Ehlers",
-        "sourceUrl": "https://www.pexels.com/photo/gray-concrete-building-2845969/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/2846030/pexels-photo-2846030.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/2846030/pexels-photo-2846030.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6240,
-      "height": 3380,
-      "alt": "Vibrant view of the Summer Palace in Beijing showcasing traditional Chinese architecture with tourists.",
-      "query": "Xishan Wanshou Palace Temple Fair",
-      "credit": {
-        "source": "pexels",
-        "author": "Magda Ehlers",
-        "sourceUrl": "https://www.pexels.com/photo/people-walking-to-a-palace-2846030/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "庙会",
@@ -102,12 +56,13 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Xishan Wanshou Palace Temple Fair",
     "zh": "西山万寿宫庙会"
   },
   "_geocodeTitle": "万寿宫",
-  "district": "360112"
+  "district": "360112",
+  "_noImage": true
 }

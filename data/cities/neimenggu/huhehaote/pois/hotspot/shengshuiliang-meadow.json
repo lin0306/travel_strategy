@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/4995725/pexels-photo-4995725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/4995725/pexels-photo-4995725.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3574,
-      "height": 5361,
-      "alt": "Breathtaking view of farmland in Hohhot, China, under a clear sky.",
-      "query": "Shengshuiliang Meadow Hohhot",
-      "credit": {
-        "source": "pexels",
-        "author": "zhang kaiyv",
-        "sourceUrl": "https://www.pexels.com/photo/green-trees-on-brown-field-under-cloudy-sky-4995725/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/4995723/pexels-photo-4995723.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/4995723/pexels-photo-4995723.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6336,
-      "height": 9504,
-      "alt": "Aerial view of a countryside road in Hohhot, Inner Mongolia, China under a clear blue sky.",
-      "query": "Shengshuiliang Meadow Hohhot",
-      "credit": {
-        "source": "pexels",
-        "author": "zhang kaiyv",
-        "sourceUrl": "https://www.pexels.com/photo/aerial-photography-of-road-near-brown-mountains-and-green-trees-4995723/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/4995724/pexels-photo-4995724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/4995724/pexels-photo-4995724.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 7924,
-      "height": 5282,
-      "alt": "A picturesque view of rolling hills and blue sky in Hohhot, Inner Mongolia, China.",
-      "query": "Shengshuiliang Meadow Hohhot",
-      "credit": {
-        "source": "pexels",
-        "author": "zhang kaiyv",
-        "sourceUrl": "https://www.pexels.com/photo/brown-mountains-under-blue-sky-4995724/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "草甸",
@@ -101,12 +55,13 @@
       "fetchedAt": "2026-10-03"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Shengshuiliang Meadow Hohhot",
     "zh": "圣水梁草甸云影"
   },
   "_geocodeTitle": "圣水梁九龙湾景区",
-  "district": "150102"
+  "district": "150102",
+  "_noImage": true
 }

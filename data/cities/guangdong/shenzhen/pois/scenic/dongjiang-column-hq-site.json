@@ -43,53 +43,7 @@
     "周一闭馆，节假日正常开放；可拨 0755-84309970 先确认",
     "没有地铁直达，回市区的末班公交要提前查"
   ],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/5329964/pexels-photo-5329964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/5329964/pexels-photo-5329964.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Beautiful skyline of Huizhou city with modern skyscrapers reflecting in the river.",
-      "query": "Dongjiang Column Headquarters Site",
-      "credit": {
-        "source": "pexels",
-        "author": "金哲 刘",
-        "sourceUrl": "https://www.pexels.com/photo/a-picturesque-city-skyline-5329964/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37156567/pexels-photo-37156567.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37156567/pexels-photo-37156567.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Glass facade office buildings under a clear blue sky in Shanghai, China.",
-      "query": "Dongjiang Column Headquarters Site",
-      "credit": {
-        "source": "pexels",
-        "author": "Anderson Wei",
-        "sourceUrl": "https://www.pexels.com/photo/modern-office-building-in-shanghai-skyline-37156567/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37156584/pexels-photo-37156584.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37156584/pexels-photo-37156584.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Glass facade skyscraper in Shanghai, showcasing modern architecture under a clear blue sky.",
-      "query": "Dongjiang Column Headquarters Site",
-      "credit": {
-        "source": "pexels",
-        "author": "Anderson Wei",
-        "sourceUrl": "https://www.pexels.com/photo/modern-office-building-in-shanghai-s-pudong-district-37156584/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "红色历史",
@@ -107,7 +61,7 @@
       "fetchedAt": "2026-10-25"
     }
   ],
-  "updatedAt": "2026-10-25",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Dongjiang Column Headquarters Site",
@@ -115,5 +69,6 @@
   },
   "_geocodeTitle": "东江纵队司令部旧址",
   "_geocodeSuspect": false,
-  "district": "440307"
+  "district": "440307",
+  "_noImage": true
 }

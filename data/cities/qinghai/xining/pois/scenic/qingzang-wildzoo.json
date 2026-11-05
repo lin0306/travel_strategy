@@ -40,53 +40,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/34630868/pexels-photo-34630868.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34630868/pexels-photo-34630868.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 2268,
-      "alt": "A tranquil view of Qinghai Lake with a sailboat and snow-capped mountains in the distance under a clear blue sky.",
-      "query": "natural landscape China xining",
-      "credit": {
-        "source": "pexels",
-        "author": "Duoyu_ Wang",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-aerial-view-of-qinghai-lake-and-snow-capped-mountains-34630868/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/28700646/pexels-photo-28700646.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/28700646/pexels-photo-28700646.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5184,
-      "height": 3888,
-      "alt": "Beautiful landscape of lush grasslands and mountain ranges in Xinjiang, under cloudy skies.",
-      "query": "natural landscape China xining",
-      "credit": {
-        "source": "pexels",
-        "author": "Rain Lü",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-xinjiang-grasslands-with-mountains-28700646/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/28700662/pexels-photo-28700662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/28700662/pexels-photo-28700662.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3888,
-      "height": 5184,
-      "alt": "A winding road cutting through lush grasslands under a cloudy sky in Xinjiang, China.",
-      "query": "natural landscape China xining",
-      "credit": {
-        "source": "pexels",
-        "author": "Rain Lü",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-road-through-xinjiang-grasslands-28700662/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "动物园",
@@ -102,7 +56,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -110,5 +64,6 @@
   },
   "_geocodeTitle": "青藏高原野生动物园",
   "_geocodeSuspect": false,
-  "district": "630104"
+  "district": "630104",
+  "_noImage": true
 }

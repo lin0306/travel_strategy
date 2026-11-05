@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/29611979/pexels-photo-29611979.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/29611979/pexels-photo-29611979.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5464,
-      "height": 3640,
-      "alt": "An aerial photograph showcasing traditional Chinese village architecture with tile rooftops and round elements.",
-      "query": "Sanbao International Ceramic Art Village Jingdezhen",
-      "credit": {
-        "source": "pexels",
-        "author": "jason hu",
-        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-traditional-chinese-village-rooftops-29611979/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38932322/pexels-photo-38932322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38932322/pexels-photo-38932322.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5154,
-      "height": 3436,
-      "alt": "Colorful ceramic mugs and teapots on display in a pottery market in New Taipei City, Taiwan.",
-      "query": "Sanbao International Ceramic Art Village Jingdezhen",
-      "credit": {
-        "source": "pexels",
-        "author": "Will Chen",
-        "sourceUrl": "https://www.pexels.com/photo/rustic-ceramic-mugs-display-in-taiwanese-market-38932322/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/26794607/pexels-photo-26794607.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/26794607/pexels-photo-26794607.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4600,
-      "height": 3286,
-      "alt": "Contemporary architecture with water reflection at the Imperial Kiln Museum, Jingdezhen.",
-      "query": "Sanbao International Ceramic Art Village Jingdezhen",
-      "credit": {
-        "source": "pexels",
-        "author": "Chasing Lyu",
-        "sourceUrl": "https://www.pexels.com/photo/jingdezhen-imperial-kiln-museum-in-jingdezhen-china-26794607/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "陶艺村",
@@ -100,7 +54,7 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Sanbao International Ceramic Art Village Jingdezhen",
@@ -108,5 +62,6 @@
   },
   "_geocodeTitle": "三宝国际陶艺村博物馆",
   "_geocodeSuspect": false,
-  "district": "360203"
+  "district": "360203",
+  "_noImage": true
 }

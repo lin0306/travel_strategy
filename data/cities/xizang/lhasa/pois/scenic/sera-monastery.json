@@ -41,21 +41,6 @@
   "tips": [],
   "images": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Sakya-yes-shis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Sakya-yes-shis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1240,
-      "alt": "Sakya-yes-shis.jpg",
-      "query": "色拉寺 拉萨",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Unknown authorUnknown author",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sakya-yes-shis.jpg",
-        "license": "Public domain",
-        "attributionRequired": false
-      }
-    },
-    {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Sera_Monastery_Lhasa_Tibet_China_%E8%A5%BF%E8%97%8F_%E6%8B%89%E8%90%A8_%E8%89%B2%E6%8B%89%E5%AF%BA_-_panoramio.jpg/1280px-Sera_Monastery_Lhasa_Tibet_China_%E8%A5%BF%E8%97%8F_%E6%8B%89%E8%90%A8_%E8%89%B2%E6%8B%89%E5%AF%BA_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Sera_Monastery_Lhasa_Tibet_China_%E8%A5%BF%E8%97%8F_%E6%8B%89%E8%90%A8_%E8%89%B2%E6%8B%89%E5%AF%BA_-_panoramio.jpg/1280px-Sera_Monastery_Lhasa_Tibet_China_%E8%A5%BF%E8%97%8F_%E6%8B%89%E8%90%A8_%E8%89%B2%E6%8B%89%E5%AF%BA_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
@@ -84,6 +69,69 @@
         "license": "CC BY 3.0",
         "attributionRequired": true
       }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Lhasa_-_mni%C5%A1i_v_Sera_Monastery_-_panoramio.jpg/1280px-Lhasa_-_mni%C5%A1i_v_Sera_Monastery_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Lhasa_-_mni%C5%A1i_v_Sera_Monastery_-_panoramio.jpg/1280px-Lhasa_-_mni%C5%A1i_v_Sera_Monastery_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Lhasa - mniši v Sera Monastery - panoramio.jpg",
+      "query": "色拉寺",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Pavel Špindler",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "exact"
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Tibet_%285123737438%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Tibet_%285123737438%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 720,
+      "alt": "Tibet (5123737438).jpg",
+      "query": "色拉寺",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Christopher Michel",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 2.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "exact"
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Tibet_%285123741906%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Tibet_%285123741906%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 720,
+      "alt": "Tibet (5123741906).jpg",
+      "query": "色拉寺",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Christopher Michel",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 2.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "exact"
+      }
     }
   ],
   "coverIndex": 0,
@@ -101,7 +149,7 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-02",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

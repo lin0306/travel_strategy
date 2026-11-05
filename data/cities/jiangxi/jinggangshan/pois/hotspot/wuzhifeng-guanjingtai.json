@@ -45,48 +45,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/37682272/pexels-photo-37682272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37682272/pexels-photo-37682272.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3020,
-      "height": 4530,
-      "alt": "A contemporary city street view featuring streetlamps, modern architecture, and clear blue skies.",
-      "query": "China city street view jinggangshan",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Wuzhi_Peak%2C_Jinggangshan_%2820250124122509%29.jpg/1280px-Wuzhi_Peak%2C_Jinggangshan_%2820250124122509%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Wuzhi_Peak%2C_Jinggangshan_%2820250124122509%29.jpg/1280px-Wuzhi_Peak%2C_Jinggangshan_%2820250124122509%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Wuzhi Peak, Jinggangshan (20250124122509).jpg",
+      "query": "五指峰观景台",
       "credit": {
-        "source": "pexels",
-        "author": "JUNLIN ZOU",
-        "sourceUrl": "https://www.pexels.com/photo/urban-street-with-modern-architecture-and-streetlamps-37682272/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/17648393/pexels-photo-17648393.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/17648393/pexels-photo-17648393.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4640,
-      "height": 6960,
-      "alt": "View of a modern skyscraper with an archway in Wenzhou, China surrounded by urban architecture.",
-      "query": "China city street view jinggangshan",
-      "credit": {
-        "source": "pexels",
-        "author": "卓浩 虞",
-        "sourceUrl": "https://www.pexels.com/photo/pedestrian-zone-in-wenzhou-city-in-china-17648393/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/34099283/pexels-photo-34099283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34099283/pexels-photo-34099283.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5464,
-      "height": 8192,
-      "alt": "Historic street in China adorned with national flags and traditional Chinese architecture.",
-      "query": "China city street view jinggangshan",
-      "credit": {
-        "source": "pexels",
-        "author": "Andy Lee",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-street-with-red-flags-displayed-34099283/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "N509FZ",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-01",
+        "tier": "street"
       }
     }
   ],
@@ -106,7 +82,7 @@
       "fetchedAt": "2026-10-07"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-01",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

@@ -40,48 +40,45 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/3998378/pexels-photo-3998378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/3998378/pexels-photo-3998378.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2543,
-      "height": 1700,
-      "alt": "Monochrome photo capturing seniors sitting outdoors in Lhasa, Tibet.",
-      "query": "art district gallery lhasa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Lhasa_khrom_gzigs_khang_2014.09.23_11-19-07.jpg/1280px-Lhasa_khrom_gzigs_khang_2014.09.23_11-19-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Lhasa_khrom_gzigs_khang_2014.09.23_11-19-07.jpg/1280px-Lhasa_khrom_gzigs_khang_2014.09.23_11-19-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Lhasa khrom gzigs khang 2014.09.23 11-19-07.jpg",
+      "query": "吉本岗艺术中心",
       "credit": {
-        "source": "pexels",
-        "author": "ZHANQUN CAI",
-        "sourceUrl": "https://www.pexels.com/photo/grayscale-photo-of-elderly-people-sitted-3998378/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "Zhangzhugang",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "exact"
       }
     },
     {
-      "url": "https://images.pexels.com/photos/38374705/pexels-photo-38374705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38374705/pexels-photo-38374705.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4160,
-      "height": 6240,
-      "alt": "Detailed view of classic Tibetan architecture with colorful decorations in Lhasa, Tibet.",
-      "query": "art district gallery lhasa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Lhasa_khrom_gzigs_khang_2014.09.23_11-19-28.jpg/1280px-Lhasa_khrom_gzigs_khang_2014.09.23_11-19-28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Lhasa_khrom_gzigs_khang_2014.09.23_11-19-28.jpg/1280px-Lhasa_khrom_gzigs_khang_2014.09.23_11-19-28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Lhasa khrom gzigs khang 2014.09.23 11-19-28.jpg",
+      "query": "吉本岗艺术中心",
       "credit": {
-        "source": "pexels",
-        "author": "Martin Chan",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-tibetan-architecture-in-lhasa-38374705/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/27134677/pexels-photo-27134677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/27134677/pexels-photo-27134677.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4160,
-      "height": 6240,
-      "alt": "Close-up of ancient white wall architecture featuring rows of windows and unique stepped design.",
-      "query": "art district gallery lhasa",
-      "credit": {
-        "source": "pexels",
-        "author": "虎 曼",
-        "sourceUrl": "https://www.pexels.com/photo/low-angle-shot-of-the-potala-palace-exterior-lhasa-tibet-27134677/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "Zhangzhugang",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "inside"
       }
     }
   ],
@@ -100,7 +97,7 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-02",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

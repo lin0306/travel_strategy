@@ -40,48 +40,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Chinese_restaurant_Shanghai_in_Tampere.jpg/1280px-Chinese_restaurant_Shanghai_in_Tampere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Chinese_restaurant_Shanghai_in_Tampere.jpg/1280px-Chinese_restaurant_Shanghai_in_Tampere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Shanghai_-_panoramio_-_HALUK_COMERTEL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Shanghai_-_panoramio_-_HALUK_COMERTEL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "width": 1080,
-      "height": 717,
-      "alt": "Chinese restaurant Shanghai in Tampere.jpg",
-      "query": "Chinese restaurant interior shanghai",
+      "height": 720,
+      "alt": "兰心餐厅所在的街区实景（非本店门面）",
+      "query": "兰心餐厅",
       "credit": {
         "source": "wikimedia",
-        "author": "Veeti Davidsson",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chinese_restaurant_Shanghai_in_Tampere.jpg",
-        "license": "CC BY-SA 4.0",
+        "author": "HALUK COMERTEL",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 3.0",
         "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/HK_Admiralty_%E6%80%A1%E5%92%8C%E5%A4%A7%E5%BB%88_Hutchison_House_interior_%E7%B4%AB%E7%8E%89%E8%98%AD_Shanghai_Garden_Aug-2010.JPG/1280px-HK_Admiralty_%E6%80%A1%E5%92%8C%E5%A4%A7%E5%BB%88_Hutchison_House_interior_%E7%B4%AB%E7%8E%89%E8%98%AD_Shanghai_Garden_Aug-2010.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/HK_Admiralty_%E6%80%A1%E5%92%8C%E5%A4%A7%E5%BB%88_Hutchison_House_interior_%E7%B4%AB%E7%8E%89%E8%98%AD_Shanghai_Garden_Aug-2010.JPG/1280px-HK_Admiralty_%E6%80%A1%E5%92%8C%E5%A4%A7%E5%BB%88_Hutchison_House_interior_%E7%B4%AB%E7%8E%89%E8%98%AD_Shanghai_Garden_Aug-2010.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "HK Admiralty 怡和大廈 Hutchison House interior 紫玉蘭 Shanghai Garden Aug-2010.JPG",
-      "query": "Chinese restaurant interior shanghai",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Traba3rzime",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:HK_Admiralty_%E6%80%A1%E5%92%8C%E5%A4%A7%E5%BB%88_Hutchison_House_interior_%E7%B4%AB%E7%8E%89%E8%98%AD_Shanghai_Garden_Aug-2010.JPG",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Interior_of_Taco_Bell_Theme_Restaurant_at_Honkai_Impact_3rd_Summer_Carnival_2023_%2820230715161310%29.jpg/1280px-Interior_of_Taco_Bell_Theme_Restaurant_at_Honkai_Impact_3rd_Summer_Carnival_2023_%2820230715161310%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Interior_of_Taco_Bell_Theme_Restaurant_at_Honkai_Impact_3rd_Summer_Carnival_2023_%2820230715161310%29.jpg/1280px-Interior_of_Taco_Bell_Theme_Restaurant_at_Honkai_Impact_3rd_Summer_Carnival_2023_%2820230715161310%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Interior of Taco Bell Theme Restaurant at Honkai Impact 3rd Summer Carnival 2023 (20230715161310).jp",
-      "query": "Chinese restaurant interior shanghai",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Qdjuncheng",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Interior_of_Taco_Bell_Theme_Restaurant_at_Honkai_Impact_3rd_Summer_Carnival_2023_(20230715161310).jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-04",
+        "tier": "street"
       }
     }
   ],
@@ -100,7 +76,7 @@
       "fetchedAt": "2026-09-23"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-04",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

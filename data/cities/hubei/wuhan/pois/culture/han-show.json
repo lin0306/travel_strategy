@@ -42,48 +42,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Emperor_Wen_Of_Han.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Emperor_Wen_Of_Han.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Wuhan_%2845868%29.jpg/1280px-Wuhan_%2845868%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Wuhan_%2845868%29.jpg/1280px-Wuhan_%2845868%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
-      "height": 1550,
-      "alt": "Emperor Wen Of Han.jpeg",
+      "height": 720,
+      "alt": "Wuhan (45868).jpg",
       "query": "汉秀",
       "credit": {
         "source": "wikimedia",
-        "author": "ibiblio.com",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emperor_Wen_Of_Han.jpeg",
-        "license": "Public domain",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Guangwu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Guangwu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1080,
-      "alt": "Guangwu.jpg",
-      "query": "汉秀",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Wikimedia Commons 贡献者",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guangwu.jpg",
-        "license": "Public domain",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Guangwudi-Ming-Image1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Guangwudi-Ming-Image1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1416,
-      "alt": "Guangwudi-Ming-Image1.jpg",
-      "query": "汉秀",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Unknown authorUnknown author",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guangwudi-Ming-Image1.jpg",
-        "license": "Public domain",
-        "attributionRequired": false
+        "author": "Rc1959",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-04",
+        "tier": "exact"
       }
     }
   ],
@@ -102,7 +78,7 @@
       "fetchedAt": "2026-09-23"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-04",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

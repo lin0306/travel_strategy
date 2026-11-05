@@ -42,48 +42,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/37800837/pexels-photo-37800837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37800837/pexels-photo-37800837.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2560,
-      "height": 3840,
-      "alt": "View of modern high-rise buildings showcasing urban architecture in Ningbo, China.",
-      "query": "China city street view ningbo",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Tiangyi_Square%2C_Ningbo_20120531_1.jpg/1280px-Tiangyi_Square%2C_Ningbo_20120531_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Tiangyi_Square%2C_Ningbo_20120531_1.jpg/1280px-Tiangyi_Square%2C_Ningbo_20120531_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Tiangyi Square, Ningbo 20120531 1.jpg",
+      "query": "天一广场音乐喷泉",
       "credit": {
-        "source": "pexels",
-        "author": "Jin Zhang",
-        "sourceUrl": "https://www.pexels.com/photo/modern-architectural-facade-in-ningbo-37800837/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37800878/pexels-photo-37800878.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37800878/pexels-photo-37800878.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2560,
-      "height": 3840,
-      "alt": "A modern walkway under a bridge in Ningbo, China at twilight. Urban architecture and cityscape.",
-      "query": "China city street view ningbo",
-      "credit": {
-        "source": "pexels",
-        "author": "Jin Zhang",
-        "sourceUrl": "https://www.pexels.com/photo/modern-bridge-walkway-in-ningbo-china-37800878/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37682272/pexels-photo-37682272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37682272/pexels-photo-37682272.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3020,
-      "height": 4530,
-      "alt": "A contemporary city street view featuring streetlamps, modern architecture, and clear blue skies.",
-      "query": "China city street view ningbo",
-      "credit": {
-        "source": "pexels",
-        "author": "JUNLIN ZOU",
-        "sourceUrl": "https://www.pexels.com/photo/urban-street-with-modern-architecture-and-streetlamps-37682272/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "DXR",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-01",
+        "tier": "street"
       }
     }
   ],
@@ -102,7 +78,7 @@
       "fetchedAt": "2026-09-30"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-01",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

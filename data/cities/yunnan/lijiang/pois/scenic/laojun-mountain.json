@@ -43,53 +43,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/34486996/pexels-photo-34486996.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34486996/pexels-photo-34486996.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 7837,
-      "height": 5227,
-      "alt": "Peaceful scene of a scenic park with mountains, lake, and traditional Chinese architecture under a cloudy sky.",
-      "query": "natural landscape China lijiang",
-      "credit": {
-        "source": "pexels",
-        "author": "David Tran",
-        "sourceUrl": "https://www.pexels.com/photo/tranquil-park-landscape-with-chinese-architecture-34486996/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/34622072/pexels-photo-34622072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34622072/pexels-photo-34622072.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 3000,
-      "alt": "Serene view of a traditional pavilion at Black Dragon Pool with Jade Dragon Snow Mountain in the background.",
-      "query": "natural landscape China lijiang",
-      "credit": {
-        "source": "pexels",
-        "author": "Pua Tresia",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-pavilion-at-black-dragon-pool-34622072/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/7170939/pexels-photo-7170939.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/7170939/pexels-photo-7170939.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 7360,
-      "height": 4912,
-      "alt": "A tranquil lakeside view with traditional architecture and mountains in the background.",
-      "query": "natural landscape China lijiang",
-      "credit": {
-        "source": "pexels",
-        "author": "David Yu",
-        "sourceUrl": "https://www.pexels.com/photo/waterfront-reflecting-in-a-lake-7170939/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "丹霞",
@@ -105,7 +59,7 @@
       "fetchedAt": "2026-09-30"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -113,5 +67,6 @@
   },
   "_geocodeTitle": "玉龙黎明-老君山国家地质公园",
   "_geocodeSuspect": false,
-  "district": "530721"
+  "district": "530721",
+  "_noImage": true
 }

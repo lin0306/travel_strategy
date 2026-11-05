@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/36235807/pexels-photo-36235807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36235807/pexels-photo-36235807.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Vibrant portrayal of the Xitas Festival in Mexico showcasing traditional straw costumes and lively cultural expressions.",
-      "query": "Xita Night",
-      "credit": {
-        "source": "pexels",
-        "author": "Diana Reyes",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-xitas-festival-in-pachuca-de-soto-36235807/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/33715665/pexels-photo-33715665.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/33715665/pexels-photo-33715665.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3840,
-      "height": 5760,
-      "alt": "Stylish young woman poses against colorful carnival rides at dusk.",
-      "query": "Xita Night",
-      "credit": {
-        "source": "pexels",
-        "author": "Marlon Alves",
-        "sourceUrl": "https://www.pexels.com/photo/portrait-of-a-young-woman-at-a-vibrant-carnival-33715665/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36309552/pexels-photo-36309552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36309552/pexels-photo-36309552.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3642,
-      "height": 5463,
-      "alt": "A traditional festival participant in a straw costume in Pachuca, Mexico.",
-      "query": "Xita Night",
-      "credit": {
-        "source": "pexels",
-        "author": "Diana Reyes",
-        "sourceUrl": "https://www.pexels.com/photo/cultural-festival-costume-in-pachuca-mexico-36309552/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "夜景",
@@ -100,11 +54,12 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Xita Night",
     "zh": "西塔夜景"
   },
-  "district": "210102"
+  "district": "210102",
+  "_noImage": true
 }

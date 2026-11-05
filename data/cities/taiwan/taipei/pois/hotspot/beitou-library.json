@@ -40,53 +40,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/20871044/pexels-photo-20871044.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/20871044/pexels-photo-20871044.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6639,
-      "height": 4143,
-      "alt": "Explore the traditional architecture of Beitou Museum in Taipei, Taiwan, surrounded by lush greenery.",
-      "query": "Beitou Library Taipei",
-      "credit": {
-        "source": "pexels",
-        "author": "Alan Wang",
-        "sourceUrl": "https://www.pexels.com/photo/one-of-the-buildings-at-the-beitou-museum-taipei-taiwan-20871044/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/11755575/pexels-photo-11755575.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/11755575/pexels-photo-11755575.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4500,
-      "height": 3000,
-      "alt": "Capture of a vibrant bookstore interior with customers exploring aisles of books.",
-      "query": "Beitou Library Taipei",
-      "credit": {
-        "source": "pexels",
-        "author": "Alan Wang",
-        "sourceUrl": "https://www.pexels.com/photo/backview-of-people-sitting-on-a-bench-in-a-bookstore-11755575/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/32049134/pexels-photo-32049134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/32049134/pexels-photo-32049134.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5152,
-      "height": 6489,
-      "alt": "Black and white photo of a Taipei bookstore interior showcasing bookshelves and a person on stairs.",
-      "query": "Beitou Library Taipei",
-      "credit": {
-        "source": "pexels",
-        "author": "Ryan Lee",
-        "sourceUrl": "https://www.pexels.com/photo/taipei-bookstore-interior-with-staircase-and-shelves-32049134/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "图书馆",
@@ -102,7 +56,7 @@
       "fetchedAt": "2026-10-03"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Beitou Library Taipei",
@@ -110,5 +64,6 @@
   },
   "_geocodeTitle": "台北市立图书馆北投分馆",
   "_geocodeSuspect": false,
-  "district": "711016"
+  "district": "711016",
+  "_noImage": true
 }

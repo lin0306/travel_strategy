@@ -1,6 +1,6 @@
 # 海口 · 数据来源与图片版权
 
-> 生成于 2026-10-31 · 城市数据最后更新 2026-10-04
+> 生成于 2026-11-05 · 城市数据最后更新 2026-10-04
 
 ## 概览
 
@@ -74,164 +74,130 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Orange Ocean | Pexels License | [pexels](https://www.pexels.com/photo/modern-bridge-with-skyline-in-background-30119261/) |
-| 城市封面 | 鈴蘭春雪 (linglion) | Pexels License | [pexels](https://www.pexels.com/photo/city-skyline-view-from-the-sea-7399382/) |
-| 城市封面 | Kamus Cheung | Pexels License | [pexels](https://www.pexels.com/photo/waterfront-view-with-people-relaxing-in-kowloon-37547862/) |
+| 城市封面 | Josinka | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8F%A320221016150925.jpg) |
+| 城市封面 | Josinka | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8F%A320221016150945.jpg) |
+| 城市封面 | Taiwankengo | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2019_Wikivoyage_BANNER_for_Taixi_Township,_Yunlin_County.jpg) |
 | 白沙门公园 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%99%BD%E6%B2%99%E9%97%A8%E5%85%AC%E5%9B%AD%E7%9A%84%E8%BF%87%E5%B1%B1%E8%BD%A6(%E5%AE%BD%E5%B9%85)(%E8%A5%BF%E5%8C%97%E5%90%91)_-_panoramio.jpg) |
 | 白沙门公园 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%99%BD%E6%B2%99%E9%97%A8%E5%85%AC%E5%9B%AD%E8%BF%87%E5%B1%B1%E8%BD%A6(%E5%AE%BD%E5%B9%85)(%E8%A5%BF%E5%8C%97%E5%90%91)_-_panoramio.jpg) |
-| 白沙门公园 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baishamen_Park_-_amusement_park_-_swing_ride_-_01.jpg) |
-| 长影环球100奇幻乐园 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/pavilion-of-prince-teng-in-nanchang-22679781/) |
-| 长影环球100奇幻乐园 | Leon Huang | Pexels License | [pexels](https://www.pexels.com/photo/building-seen-from-door-7494074/) |
-| 长影环球100奇幻乐园 | Lily  Lili | Pexels License | [pexels](https://www.pexels.com/photo/serene-chinese-garden-with-red-lantern-31956319/) |
-| 冯小刚电影公社 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/pavilion-of-prince-teng-in-nanchang-22679781/) |
-| 冯小刚电影公社 | Wang ZH | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-architecture-with-lanterns-33866943/) |
-| 冯小刚电影公社 | Rookey Pain | Pexels License | [pexels](https://www.pexels.com/photo/facade-of-a-traditional-chinese-building-14053337/) |
-| 观澜湖旅游度假区 | zs Lin | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-haikou-city-skyline-from-beach-28970319/) |
-| 观澜湖旅游度假区 | Amber Peng | Pexels License | [pexels](https://www.pexels.com/photo/skyline-of-haikou-city-from-above-32454735/) |
-| 观澜湖旅游度假区 | Miguel Cuenca | Pexels License | [pexels](https://www.pexels.com/photo/historic-arch-bridge-over-serene-river-at-dusk-37534909/) |
-| 桂林洋国家热带农业公园 | zs Lin | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-haikou-city-skyline-from-beach-28970319/) |
-| 桂林洋国家热带农业公园 | Amber Peng | Pexels License | [pexels](https://www.pexels.com/photo/skyline-of-haikou-city-from-above-32454735/) |
-| 桂林洋国家热带农业公园 | Miguel Cuenca | Pexels License | [pexels](https://www.pexels.com/photo/historic-arch-bridge-over-serene-river-at-dusk-37534909/) |
-| 海口市博物馆 | Misha Yurasov | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_IMG_2242_(3109643117).jpg) |
-| 海口市博物馆 | STW932 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hainan_Chronicles_Museum_01.jpg) |
-| 海口市博物馆 | STW932 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hainan_Chronicles_Museum_02.jpg) |
+| 白沙门公园 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baishamen_Park_-_amusement_park_-_ferris_wheel_-_01.jpg) |
+| 白沙门公园 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baishamen_Park_-_amusement_park_-_frisbee_ride_-_01.jpg) |
+| 白沙门公园 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baishamen_Park_-_amusement_park_-_haunted_house_-_01.jpg) |
+| 白沙门公园 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baishamen_Park_-_amusement_park_-_ride_-_01.jpg) |
+| 冯小刚电影公社 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Feng_Xiao_Gang_Movie_Town_-_01.JPG) |
+| 冯小刚电影公社 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Movie_Town_Haikou_-_02.JPG) |
+| 冯小刚电影公社 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Movie_Town_Haikou_-_04.JPG) |
+| 冯小刚电影公社 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Movie_Town_Haikou_-_06.JPG) |
+| 冯小刚电影公社 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Movie_Town_Haikou_-_07.jpg) |
 | 海口湾 | GPS8 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2010%E6%B5%B7%E5%8F%A3%E6%B9%BE_-_panoramio.jpg) |
-| 海口湾 | Junyu-K | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:202608_Hualien_River_mouth_panorama.jpg) |
-| 海口湾 | Junyu-K | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:202608_Nankan_River_mouth_panorama_01.jpg) |
-| 海口钟楼 | Zhangmoon618 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Clock_tower_in_Haikou,_China.jpg) |
+| 海口钟楼 | JULIANISME | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Haikou_Clock_Tower_%E6%B5%B7%E5%8F%A3%E9%92%9F%E6%A5%BC_01.jpg) |
+| 海口钟楼 | JULIANISME | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Haikou_Clock_Tower_%E6%B5%B7%E5%8F%A3%E9%92%9F%E6%A5%BC_02.jpg) |
+| 海口钟楼 | JULIANISME | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Haikou_Clock_Tower_%E6%B5%B7%E5%8F%A3%E9%92%9F%E6%A5%BC_03.jpg) |
+| 海口钟楼 | JULIANISME | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Haikou_Clock_Tower_%E6%B5%B7%E5%8F%A3%E9%92%9F%E6%A5%BC_04.jpg) |
 | 海口钟楼 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Clock_tower_in_Haikou_01.jpg) |
-| 海口钟楼 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Haidian_River_02.jpg) |
-| 海南省博物馆 | Gül Işık | Pexels License | [pexels](https://www.pexels.com/photo/intricate-istanbul-museum-interior-display-35870231/) |
-| 海南省博物馆 | Stijn Dijkstra | Pexels License | [pexels](https://www.pexels.com/photo/ceiling-with-bas-reliefs-and-chandelier-15074424/) |
-| 海南省博物馆 | Lucas Tran | Pexels License | [pexels](https://www.pexels.com/photo/a-room-with-stairs-and-a-roof-that-has-a-tiled-roof-27850848/) |
-| 海瑞故居 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%9D%8E%E6%A0%B9%E6%BA%90%E6%95%85%E5%B1%85_-_%E6%A2%B5%E5%A4%A9%E9%A6%99%E6%B5%B7%E5%8C%BE_-_2024-05-29.jpg) |
+| 海口钟楼 | Zhangmoon618 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Haidian_River_and_Clock_tower_in_Haikou.jpg) |
+| 海南省博物馆 | STW932 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hainan_Chronicles_Museum_01.jpg) |
+| 海南省博物馆 | STW932 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hainan_Chronicles_Museum_02.jpg) |
+| 海南省博物馆 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hainan_Museum_01.jpg) |
+| 海南省博物馆 | David Schroeter from Melbourne, Australia | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Revolutionary_Soldiers_Exhibition_at_Hainan_Museum_(4617276767).jpg) |
+| 海南省博物馆 | User:Philg88 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Zhou_Dynasty_Bronze_Mirror_Holder.jpg) |
+| 海南省博物馆 | Misha Yurasov | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_IMG_2242_(3109643117).jpg) |
 | 海瑞文化公园 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hai_Rui_tomb_-_02.JPG) |
 | 海瑞文化公园 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hai_Rui_tomb_-_04.JPG) |
 | 海瑞文化公园 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hai_Rui_tomb_-_05a.jpg) |
+| 海瑞文化公园 | Pavel Kromer's Whole Lotta Trouble | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hai_Rui_tomb_01.jpg) |
+| 海瑞文化公园 | Pavel Kromer's Whole Lotta Trouble | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Tomb_of_Hai_Rui_1.jpg) |
+| 海瑞文化公园 | bsdjs2 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B8%85%E9%A3%8E%E9%98%81_-_panoramio.jpg) |
 | 东寨港红树林 | Philg88 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dongzhai_Harbour_Mangrove_Forest.jpg) |
-| 雷琼海口火山口地质公园 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Leiqiong_Global_Geopark_-_01.jpg) |
 | 雷琼海口火山口地质公园 | fading | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shishan_Volcanic_Park_-_panoramio.jpg) |
+| 雷琼海口火山口地质公园 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3.%E4%B8%96%E7%95%8C%E7%81%AB%E5%B1%B1%E5%9C%B0%E8%B4%A8%E5%85%AC%E5%9B%AD_%E2%80%9C%E7%81%AB%E5%B1%B1%E9%A4%90%E5%90%A7%E2%80%9D_%E6%99%AF%E8%A7%82%EF%BC%88%E5%AE%BD%E5%B9%85%EF%BC%89%EF%BC%88%E8%A5%BF%E5%8C%97%E5%90%91%EF%BC%89_-_panoramio.jpg) |
+| 雷琼海口火山口地质公园 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3.%E4%B8%96%E7%95%8C%E7%81%AB%E5%B1%B1%E5%9C%B0%E8%B4%A8%E5%85%AC%E5%9B%AD%E6%99%AF%E8%A7%82%EF%BC%88%E4%B8%9C%E5%90%91%EF%BC%89_-_panoramio.jpg) |
 | 雷琼海口火山口地质公园 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3.%E4%B8%96%E7%95%8C%E7%81%AB%E5%B1%B1%E5%9C%B0%E8%B4%A8%E5%85%AC%E5%9B%AD%E6%99%AF%E8%A7%82%EF%BC%88%E5%AE%BD%E5%B9%85%EF%BC%89%EF%BC%88%E4%B8%9C%E5%8C%97%E5%90%91%EF%BC%89_-_panoramio.jpg) |
+| 雷琼海口火山口地质公园 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3.%E4%B8%96%E7%95%8C%E7%81%AB%E5%B1%B1%E5%9C%B0%E8%B4%A8%E5%85%AC%E5%9B%AD%E6%99%AF%E8%A7%82%EF%BC%88%E5%AE%BD%E5%B9%85%EF%BC%89%EF%BC%88%E4%B8%9C%E5%8C%97%E5%90%91%EF%BC%89_-_panoramio_(1).jpg) |
+| 雷琼海口火山口地质公园 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3.%E4%B8%96%E7%95%8C%E7%81%AB%E5%B1%B1%E5%9C%B0%E8%B4%A8%E5%85%AC%E5%9B%AD%E6%99%AF%E8%A7%82%EF%BC%88%E5%AE%BD%E5%B9%85%EF%BC%89%EF%BC%88%E4%B8%9C%E5%8C%97%E5%90%91%EF%BC%89_-_panoramio_(2).jpg) |
 | 假日海滩 | fish4fish | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20131011%E6%B5%B7%E5%8F%A3%E5%81%87%E6%97%A5%E6%B5%B7%E6%BB%A9%E5%85%AC%E5%9B%AD%E6%B2%99%E6%BB%A9_-_panoramio.jpg) |
+| 假日海滩 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%81%87%E6%97%A5%E6%B5%B7%E6%BB%A9_-_Holiday_Beach_-_2016.01_-_panoramio.jpg) |
+| 假日海滩 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E8%A5%BF%E6%B5%B7%E5%B2%B8%E5%81%87%E6%97%A5%E6%B5%B7%E6%BB%A9%E6%97%85%E6%B8%B8%E5%8C%BA%E6%99%AF%E8%A7%82%EF%BC%88%E4%B8%9C%E5%8D%97%E5%90%91%EF%BC%89_-_panoramio.jpg) |
 | 假日海滩 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Holiday_Beach,_Haikou_looking_west_-_01.jpg) |
+| 假日海滩 | GPS8 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%82%A0%E9%97%B2%E7%9A%84%E5%91%A8%E6%9C%AB%EF%BC%88%E8%A5%BF%E6%B5%B7%E5%B2%B8%EF%BC%89_-_panoramio.jpg) |
 | 假日海滩 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Holiday_Beach_in_2017_06_-_02.jpg) |
 | 金牛岭公园 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E9%87%91%E7%89%9B%E5%B2%AD%E5%85%AC%E5%9B%AD%E5%85%A5%E5%8F%A3%E6%99%AF%E8%A7%82%EF%BC%88_%E5%8D%97%E5%81%8F%E8%A5%BF%E5%90%91%EF%BC%89_-_panoramio.jpg) |
 | 金牛岭公园 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E9%87%91%E7%89%9B%E5%B2%AD%E5%85%AC%E5%9B%AD%E5%A4%A7%E9%81%93%E6%99%AF%E8%A7%82%EF%BC%88_%E5%8D%97%E5%81%8F%E8%A5%BF%E5%90%91%EF%BC%89_-_panoramio.jpg) |
 | 金牛岭公园 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E9%87%91%E7%89%9B%E5%B2%AD%E5%85%AC%E5%9B%AD%E5%A4%A7%E9%81%93%E6%99%AF%E8%A7%82%EF%BC%88%E5%AE%BD%E5%B9%85%EF%BC%89%EF%BC%88_%E5%8D%97%E5%81%8F%E8%A5%BF%E5%90%91%EF%BC%89_-_panoramio.jpg) |
+| 金牛岭公园 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E9%87%91%E7%89%9B%E5%B2%AD%E5%85%AC%E5%9B%AD%E7%9A%84%E9%87%91%E7%89%9B%E6%B9%96%E5%A0%A4%E5%9D%9D%E5%8F%8A%E9%87%91%E7%89%9B%E6%B9%96%EF%BC%88%E5%AE%BD%E5%B9%85%EF%BC%89%EF%BC%88%E4%B8%9C%E5%8D%97%E5%90%91%EF%BC%89_-_panoramio.jpg) |
+| 金牛岭公园 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E9%87%91%E7%89%9B%E5%B2%AD%E5%85%AC%E5%9B%AD%E7%9A%84%E9%87%91%E7%89%9B%E6%B9%96%E5%A0%A4%E5%9D%9D%EF%BC%88%E4%B8%9C%E5%81%8F%E5%8D%97%E5%90%91%EF%BC%89_-_panoramio.jpg) |
+| 金牛岭公园 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E9%87%91%E7%89%9B%E5%B2%AD%E5%85%AC%E5%9B%AD%E7%9A%84%E9%87%91%E7%89%9B%E6%B9%96%EF%BC%88%E4%B8%9C%E5%8D%97%E5%90%91%EF%BC%89_-_panoramio.jpg) |
 | 美舍河凤翔湿地公园 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Meishe_River_National_Wetland_Park_-_01.jpg) |
 | 美舍河凤翔湿地公园 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Meishe_River_National_Wetland_Park_-_02.jpg) |
 | 美舍河凤翔湿地公园 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Meishe_River_National_Wetland_Park_-_03.jpg) |
+| 美舍河凤翔湿地公园 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Meishe_River_entering_Meishe_River_National_Wetland_Park_2019_01_-_01.jpg) |
+| 骑楼老街 | Anna Frodesiak | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Bo%27ai_Road_area_-_04.jpg) |
+| 骑楼老街 | Anna Frodesiak | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Bo%27ai_Road_area_-_05.jpg) |
 | 骑楼老街 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bo%27ai_North_Road_historical_marker_-_01.JPG) |
 | 骑楼老街 | Anna Frodesiak | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Bo%27ai_Road_area_-_01.jpg) |
-| 骑楼老街 | Anna Frodesiak | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Bo%27ai_Road_area_-_04.jpg) |
-| 海口热带野生动植物园 | zs Lin | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-haikou-city-skyline-from-beach-28970319/) |
-| 海口热带野生动植物园 | Amber Peng | Pexels License | [pexels](https://www.pexels.com/photo/skyline-of-haikou-city-from-above-32454735/) |
-| 海口热带野生动植物园 | Miguel Cuenca | Pexels License | [pexels](https://www.pexels.com/photo/historic-arch-bridge-over-serene-river-at-dusk-37534909/) |
-| 海口人民公园 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/pavilion-of-prince-teng-in-nanchang-22679781/) |
-| 海口人民公园 | Leon Huang | Pexels License | [pexels](https://www.pexels.com/photo/building-seen-from-door-7494074/) |
-| 海口人民公园 | Lily  Lili | Pexels License | [pexels](https://www.pexels.com/photo/serene-chinese-garden-with-red-lantern-31956319/) |
-| 世纪大桥 | bigball | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Haikou_Century_Bridge-1.jpg) |
-| 世纪大桥 | GPS8 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Haikou_Century_Bridge-2.jpg) |
-| 世纪大桥 | Anna Frodesiak | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Haikou_Century_Bridge_3_-_2009_09_07.jpg) |
+| 骑楼老街 | Anna Frodesiak | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Bo%27ai_Road_area_-_02.jpg) |
+| 骑楼老街 | Anna Frodesiak | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Bo%27ai_Road_area_-_03.jpg) |
+| 海口人民公园 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E4%BA%BA%E6%B0%91%E5%85%AC%E5%9B%AD%E5%86%AF%E7%99%BD%E9%A9%B9%E7%BA%AA%E5%BF%B5%E4%BA%AD%E7%9A%84%E5%86%AF%E7%99%BD%E9%A9%B9%E7%94%9F%E5%B9%B3%E7%A2%91%E6%96%87%EF%BC%88%E5%AE%A4%E5%86%85%EF%BC%89%EF%BC%88%E4%B8%9C%E5%8D%97%E5%90%91%EF%BC%89_-_panoramio.jpg) |
+| 海口人民公园 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E4%BA%BA%E6%B0%91%E5%85%AC%E5%9B%AD%E5%86%AF%E7%99%BD%E9%A9%B9%E9%9B%95%E5%83%8F%EF%BC%88%E5%8D%97%E5%90%91%EF%BC%89_-_panoramio.jpg) |
+| 海口人民公园 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E4%BA%BA%E6%B0%91%E5%85%AC%E5%9B%AD%E5%86%AF%E7%99%BD%E9%A9%B9%E9%9B%95%E5%83%8F%EF%BC%88%E5%8D%97%E5%90%91%EF%BC%89_-_panoramio_(1).jpg) |
+| 海口人民公园 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E4%BA%BA%E6%B0%91%E5%85%AC%E5%9B%AD%E5%86%AF%E7%99%BD%E9%A9%B9%E9%9B%95%E5%83%8F%EF%BC%88%E8%A5%BF%E5%8D%97%E5%90%91%EF%BC%89_-_panoramio.jpg) |
+| 海口人民公园 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E4%BA%BA%E6%B0%91%E5%85%AC%E5%9B%AD%E6%A4%B0%E5%9F%8E%E5%9C%B0%E6%A0%87%EF%BC%88%E5%8C%97%E5%90%91%EF%BC%89_-_panoramio.jpg) |
+| 世纪大桥 | bigball | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%96%E7%BA%AA%E5%A4%A7%E6%A1%A5-By_Bigball_-_panoramio_(1).jpg) |
+| 世纪大桥 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8D%97%E7%9C%81%E6%B5%B7%E5%8F%A3%E4%B8%96%E7%BA%AA%E5%A4%A7%E6%A1%A5%EF%BC%88%E4%B8%80%E6%A1%A5%E9%A3%9E%E6%9E%B6%EF%BC%8C%E5%8D%97%E5%8C%97%E5%8F%98%E9%80%9A%E9%80%94%EF%BC%89%E6%99%AF%E8%A7%82%EF%BC%88%E5%8D%97%E5%81%8F%E8%A5%BF%E5%90%91%EF%BC%89_-_panoramio.jpg) |
+| 世纪大桥 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8D%97%E7%9C%81%E6%B5%B7%E5%8F%A3%E4%B8%96%E7%BA%AA%E5%A4%A7%E6%A1%A5%EF%BC%88%E4%B8%80%E6%A1%A5%E9%A3%9E%E6%9E%B6%EF%BC%8C%E5%8D%97%E5%8C%97%E5%8F%98%E9%80%9A%E9%80%94%EF%BC%89%E6%99%AF%E8%A7%82%EF%BC%88%E8%A5%BF%E5%81%8F%E5%8C%97%E5%90%91%EF%BC%89_-_panoramio.jpg) |
+| 世纪大桥 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8D%97%E7%9C%81%E6%B5%B7%E5%8F%A3%E4%B8%96%E7%BA%AA%E5%A4%A7%E6%A1%A5%EF%BC%88%E4%B8%80%E6%A1%A5%E9%A3%9E%E6%9E%B6%EF%BC%8C%E5%8D%97%E5%8C%97%E5%8F%98%E9%80%9A%E9%80%94%EF%BC%89%E6%99%AF%E8%A7%82%EF%BC%88%E8%A5%BF%E5%8D%97%E5%90%91%EF%BC%89_-_panoramio.jpg) |
+| 世纪大桥 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8D%97%E7%9C%81%E6%B5%B7%E5%8F%A3%E4%B8%96%E7%BA%AA%E5%A4%A7%E6%A1%A5%EF%BC%88%E4%B8%80%E6%A1%A5%E9%A3%9E%E6%9E%B6%EF%BC%8C%E5%8D%97%E5%8C%97%E5%8F%98%E9%80%9A%E9%80%94%EF%BC%89%E6%99%AF%E8%A7%82%EF%BC%88%E8%A5%BF%E5%90%91%EF%BC%89_-_panoramio.jpg) |
+| 世纪大桥 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8D%97%E7%9C%81%E6%B5%B7%E5%8F%A3%E4%B8%96%E7%BA%AA%E5%A4%A7%E6%A1%A5%EF%BC%88%E4%B8%80%E6%A1%A5%E9%A3%9E%E6%9E%B6%EF%BC%8C%E5%8D%97%E5%8C%97%E5%8F%98%E9%80%9A%E9%80%94%EF%BC%89%E6%A1%A5%E4%B8%8B%E6%99%AF%E8%A7%82%EF%BC%88%E5%8D%97%E5%90%91%EF%BC%89_-_panoramio.jpg) |
 | 西海岸挺秀公园 | 重庆轨交18 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E6%B5%B7%E5%B2%B8%E6%8C%BA%E7%A7%80%E5%85%AC%E5%9B%AD.jpg) |
+| 万绿园 | Benjamin W. | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%87%E7%BB%BF%E5%9B%AD_-_panoramio.jpg) |
+| 万绿园 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E4%B8%87%E7%BB%BF%E5%9B%AD%E4%BA%BA%E5%B7%A5%E6%B9%96%E6%B8%B8%E8%89%87%E6%99%AF%E8%A7%82%EF%BC%88%E8%A5%BF%E5%8D%97%E5%90%91%EF%BC%89_-_panoramio.jpg) |
+| 万绿园 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E4%B8%87%E7%BB%BF%E5%9B%AD%E5%85%A8%E6%B0%91%E5%81%A5%E8%BA%AB%E5%A4%A7%E9%81%93%E6%99%AF%E8%A7%82%EF%BC%88%E4%B8%9C%E5%90%91%EF%BC%89_-_panoramio.jpg) |
 | 万绿园 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E4%B8%87%E7%BB%BF%E5%9B%AD%E5%9B%AD%E7%BB%BF%E6%A1%A5%E6%99%AF%E8%A7%82%EF%BC%88%E4%B8%9C%E5%8C%97%E5%90%91%EF%BC%89_-_panoramio.jpg) |
 | 万绿园 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E4%B8%87%E7%BB%BF%E5%9B%AD%E5%A4%96%E6%99%AF%E8%A7%82%EF%BC%88%E5%8C%97%E5%90%91%EF%BC%89_-_panoramio.jpg) |
 | 万绿园 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E4%B8%87%E7%BB%BF%E5%9B%AD%E5%A4%96%E6%99%AF%E8%A7%82%EF%BC%88%E5%AE%BD%E5%B9%85%EF%BC%89%EF%BC%88%E5%8C%97%E5%90%91%EF%BC%89_-_panoramio.jpg) |
+| 五公祠 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%94%E5%85%AC%E7%A5%A0_-_Five_Officials_Temple_-_2016.01_-_panoramio.jpg) |
 | 五公祠 | Neal dong2012 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%9B%BD-%E6%B5%B7%E5%8F%A3-%E4%BA%94%E5%85%AC%E7%A5%A0.jpg) |
 | 五公祠 | Rolfmueller | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Five_officials_haikou_2010_01.jpg) |
-| 五公祠 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%94%E5%85%AC%E7%A5%A0_-_Five_Officials_Temple_-_2016.01_-_panoramio.jpg) |
-| 五源河湿地公园 | zs Lin | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-haikou-city-skyline-from-beach-28970319/) |
-| 五源河湿地公园 | Amber Peng | Pexels License | [pexels](https://www.pexels.com/photo/skyline-of-haikou-city-from-above-32454735/) |
-| 五源河湿地公园 | Miguel Cuenca | Pexels License | [pexels](https://www.pexels.com/photo/historic-arch-bridge-over-serene-river-at-dusk-37534909/) |
-| 西海岸带状公园 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/pavilion-of-prince-teng-in-nanchang-22679781/) |
-| 西海岸带状公园 | Leon Huang | Pexels License | [pexels](https://www.pexels.com/photo/building-seen-from-door-7494074/) |
-| 西海岸带状公园 | Lily  Lili | Pexels License | [pexels](https://www.pexels.com/photo/serene-chinese-garden-with-red-lantern-31956319/) |
 | 西秀海滩 | bigball | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%BE%8E%E4%B8%BD%E7%9A%84%E8%A5%BF%E7%A7%80%E6%B5%B7%E6%BB%A9-By_Bigball_-_panoramio.jpg) |
 | 西秀海滩 | bigball | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E7%A7%80%E6%B5%B7%E6%BB%A9-By_Bigball_-_panoramio.jpg) |
 | 西秀海滩 | bigball | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E7%A7%80%E6%B5%B7%E6%BB%A9-By_Bigball_-_panoramio_-_bigball.jpg) |
-| 抱罗粉（通利） | 南方无业游民 | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E6%B5%B7%E4%BA%AC%E5%89%A7%E9%99%A2%E3%80%8A%E4%B8%8A%E5%A4%A9%E5%8F%B0%E2%80%A2%E6%89%93%E9%87%91%E7%A0%96%E3%80%8B%E5%91%A8%E4%BF%A1%E8%8A%B3%E6%88%8F%E5%89%A7%E7%A9%BA%E9%97%B4.jpg) |
-| 抱罗粉（通利） | 南方无业游民 | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E6%B5%B7%E4%BA%AC%E5%89%A7%E9%99%A2%E3%80%8A%E5%A4%B1%E7%A9%BA%E6%96%A9%E3%80%8B%E4%BA%BA%E6%B0%91%E5%A4%A7%E8%88%9E%E5%8F%B0.jpg) |
-| 抱罗粉（通利） | 南方无业游民 | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E6%B5%B7%E4%BA%AC%E5%89%A7%E9%99%A2%E3%80%8A%E5%A4%B1%E7%A9%BA%E6%96%A9%E3%80%8B%E4%BA%BA%E6%B0%91%E5%A4%A7%E8%88%9E%E5%8F%B0_(cropped).jpg) |
-| 东山羊（东山白斩羊） | Altaipanther | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Capra_cylindricornis.JPG) |
-| 东山羊（东山白斩羊） | Лариса Артемьева | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Capra_cylindricornis_157082205.jpg) |
-| 东山羊（东山白斩羊） | Altaipanther | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Capra_cylindricornis_2.JPG) |
-| 海南粉（亚妹正宗） | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 海南粉（亚妹正宗） | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 海南粉（亚妹正宗） | FOX ^.ᆽ.^= ∫ | Pexels License | [pexels](https://www.pexels.com/photo/meal-on-a-plate-11259688/) |
-| 海南鸡饭（龙泉人小康胜） | T.Tseng | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hainanese_Chicken_Rice,_with_asparagus.jpg) |
+| 西秀海滩 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E7%A7%80%E6%B5%B7%E6%BB%A9_-_Xixiu_Beach_-_2016.01_-_panoramio.jpg) |
+| 西秀海滩 | bigball | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E7%A7%80%E6%B5%B7%E6%BB%A9%E7%9A%84%E5%B8%86%E6%9D%BF-By_Bigball_-_panoramio.jpg) |
+| 海南鸡饭（龙泉人小康胜） | Peachyeung316 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A_Half_of_Hainanese_Chicken_from_KC_Fishermen_Restaurtant.jpg) |
 | 海南鸡饭（龙泉人小康胜） | No machine-readable author provided. Terence assumed (based  | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hainanese_Chicken_Rice.jpg) |
-| 海南鸡饭（龙泉人小康胜） | Peachyeung316 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hainanese_Chicken_rice_from_Cafe_100.jpg) |
-| 和乐蟹（新海府和乐蟹粥） | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 和乐蟹（新海府和乐蟹粥） | Richard L | Pexels License | [pexels](https://www.pexels.com/photo/bustling-chinese-restaurant-with-lanterns-32603022/) |
-| 和乐蟹（新海府和乐蟹粥） | Vincent Tan | Pexels License | [pexels](https://www.pexels.com/photo/cozy-traditional-asian-restaurant-interior-33137968/) |
-| 后安粉（吴记） | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 后安粉（吴记） | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 后安粉（吴记） | FOX ^.ᆽ.^= ∫ | Pexels License | [pexels](https://www.pexels.com/photo/meal-on-a-plate-11259688/) |
-| 加积鸭（琼海加积鸭鹅饭店） | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 加积鸭（琼海加积鸭鹅饭店） | Richard L | Pexels License | [pexels](https://www.pexels.com/photo/bustling-chinese-restaurant-with-lanterns-32603022/) |
-| 加积鸭（琼海加积鸭鹅饭店） | Vincent Tan | Pexels License | [pexels](https://www.pexels.com/photo/cozy-traditional-asian-restaurant-interior-33137968/) |
-| 海口老爸茶（椰城喜鹿） | Din Aziz | Pexels License | [pexels](https://www.pexels.com/photo/jar-on-the-table-27706147/) |
-| 海口老爸茶（椰城喜鹿） | Sóc Năng Động | Pexels License | [pexels](https://www.pexels.com/photo/cozy-cafe-corner-with-lamp-and-chair-32354649/) |
-| 海口老爸茶（椰城喜鹿） | Afitab | Pexels License | [pexels](https://www.pexels.com/photo/cups-hanging-on-the-wall-14517408/) |
-| 海口辣汤饭（姚记） | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 海口辣汤饭（姚记） | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 海口辣汤饭（姚记） | FOX ^.ᆽ.^= ∫ | Pexels License | [pexels](https://www.pexels.com/photo/meal-on-a-plate-11259688/) |
-| 陵水酸粉（郭记） | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lingshui_Suanfen_at_Chiling,_Lingshui_(20230328123712).jpg) |
-| 陵水酸粉（郭记） | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lingshui_Suanfen_at_Chiling,_Lingshui_(20230328123841).jpg) |
-| 海口骑楼老街小吃 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 海口骑楼老街小吃 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 海口骑楼老街小吃 | FOX ^.ᆽ.^= ∫ | Pexels License | [pexels](https://www.pexels.com/photo/meal-on-a-plate-11259688/) |
-| 清补凉（老彭记） | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Coconut_milk_Ching_Bo_Leung_(20220421141453).jpg) |
-| 清补凉（老彭记） | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Qingbuliang_at_a_restaurant_in_Sanya_(20230324201224).jpg) |
-| 清补凉（老彭记） | stu_spivack | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:S%C3%A2m_b%E1%BB%95_l%C6%B0%E1%BB%A3ng.jpg) |
-| 文昌鸡（琼菜记忆） | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 文昌鸡（琼菜记忆） | Richard L | Pexels License | [pexels](https://www.pexels.com/photo/bustling-chinese-restaurant-with-lanterns-32603022/) |
-| 文昌鸡（琼菜记忆） | Vincent Tan | Pexels License | [pexels](https://www.pexels.com/photo/cozy-traditional-asian-restaurant-interior-33137968/) |
+| 海南鸡饭（龙泉人小康胜） | Alpha from Melbourne, Australia | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hainanese_Chicken_Rice_-_Kotaraya_AUD8.90_(4449024879).jpg) |
 | 椰子鸡（北纬十八度） | Jpatokal | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yeziji_Hainanese_coconut_chicken_soup.jpg) |
-| 糟粕醋（太琼） | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 糟粕醋（太琼） | Richard L | Pexels License | [pexels](https://www.pexels.com/photo/bustling-chinese-restaurant-with-lanterns-32603022/) |
-| 糟粕醋（太琼） | Vincent Tan | Pexels License | [pexels](https://www.pexels.com/photo/cozy-traditional-asian-restaurant-interior-33137968/) |
-| 滨海大道 | Dinkun Chen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:BINHAI_BOULEVARD,_SHENZHEN.jpg) |
-| 滨海大道 | Dinkun Chen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:BINHAI_BOULEVARD,_SHENZHEN_(2).jpg) |
-| 滨海大道 | Dinkun Chen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:BINHAI_BOULEVARD,_SHENZHEN_(3).jpg) |
+| 滨海大道 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E6%BB%A8%E6%B5%B7%E5%A4%A7%E9%81%93%E6%99%AF%E8%A7%82%EF%BC%88%E4%B8%9C%E5%8C%97%E5%90%91%EF%BC%89_-_panoramio.jpg) |
+| 滨海大道 | 重庆轨交18 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E4%BC%9A%E8%AE%AE%E5%B1%95%E8%A7%88%E4%B8%AD%E5%BF%83%E4%BB%A5%E5%8F%8A%E6%BB%A8%E6%B5%B7%E5%A4%A7%E9%81%93.jpg) |
+| 滨海大道 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E8%A5%BF%E6%B5%B7%E5%B2%B8%E6%BB%A8%E6%B5%B7%E5%A4%A7%E9%81%93%E6%99%AF%E8%A7%82%EF%BC%88%E8%A5%BF%E5%8C%97%E5%90%91%EF%BC%89_-_panoramio.jpg) |
+| 滨海大道 | Josinka | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8F%A320221016150940.jpg) |
+| 滨海大道 | Thisisivor | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Bin_Hai_Blvd.jpg) |
 | 海口观海台 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E8%A5%BF%E6%B5%B7%E5%B2%B8%E8%A7%82%E6%B5%B7%E5%8F%B0%E6%99%AF%E8%A7%82%EF%BC%88%E4%B8%9C%E5%8C%97%E5%90%91%EF%BC%89_-_panoramio.jpg) |
 | 海口观海台 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E8%A5%BF%E6%B5%B7%E5%B2%B8%E8%A7%82%E6%B5%B7%E5%8F%B0%E6%99%AF%E8%A7%82%EF%BC%88%E4%B8%9C%E5%8C%97%E5%90%91%EF%BC%89_-_panoramio_(1).jpg) |
-| 海口观海台 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E8%A5%BF%E6%B5%B7%E5%B2%B8%E8%A7%82%E6%B5%B7%E5%8F%B0%E6%99%AF%E8%A7%82%EF%BC%88%E8%A5%BF%E5%8C%97%E5%90%91%EF%BC%89_-_panoramio.jpg) |
-| 海甸岛 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E4%BB%81%E5%BF%83%E5%AF%BA%EF%BC%88%E5%8C%97%E5%81%8F%E8%A5%BF%E5%90%91%EF%BC%89_-_panoramio.jpg) |
-| 海甸岛 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E6%B5%B7%E7%94%B8%E6%BA%AA%E7%95%94%E5%B0%8F%E9%81%93%E6%99%AF%E8%A7%82%EF%BC%88%E8%A5%BF%E5%90%91%EF%BC%89_-_panoramio.jpg) |
-| 海甸岛 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E6%B5%B7%E7%94%B8%E6%BA%AA%E7%95%94%E6%99%AF%E8%A7%82%EF%BC%88%E5%8D%97%E5%90%91%EF%BC%89_-_panoramio.jpg) |
-| 海口国贸 | Lin. | Pexels License | [pexels](https://www.pexels.com/photo/lanterns-over-street-in-city-20120144/) |
-| 海口国贸 | Grace L. | Pexels License | [pexels](https://www.pexels.com/photo/cars-on-the-red-light-at-the-intersection-23626370/) |
-| 海口国贸 | zs Lin | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-haikou-city-skyline-from-beach-28970319/) |
-| 海口湾 | Lin. | Pexels License | [pexels](https://www.pexels.com/photo/lanterns-over-street-in-city-20120144/) |
-| 海口湾 | Grace L. | Pexels License | [pexels](https://www.pexels.com/photo/cars-on-the-red-light-at-the-intersection-23626370/) |
-| 海口湾 | zs Lin | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-haikou-city-skyline-from-beach-28970319/) |
+| 海甸岛 | Benjamin W. | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:View_from_Hotel._-_panoramio.jpg) |
+| 海甸岛 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8D%97%E7%9C%81%E6%B5%B7%E5%8F%A3%E4%B8%96%E7%BA%AA%E5%A4%A7%E6%A1%A5%EF%BC%88%E4%B8%80%E6%A1%A5%E9%A3%9E%E6%9E%B6%EF%BC%8C%E5%8D%97%E5%8C%97%E5%8F%98%E9%80%9A%E9%80%94%EF%BC%89%EF%BC%88%E6%B5%B7%E5%8F%A3%E6%97%85%E6%B8%B8%E5%9C%B0%E6%A0%87%E6%99%AF%E8%A7%82%EF%BC%89%E6%99%AF%E8%A7%82%EF%BC%88%E5%AE%BD%E5%B9%85%EF%BC%89%EF%BC%88%E8%A5%BF%E5%8D%97%E5%90%91%EF%BC%89_-_panoramio.jpg) |
+| 海甸岛 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E6%B5%B7%E5%8D%97%E5%A4%A7%E5%AD%A6%E5%A4%A7%E6%A5%BC%EF%BC%88%E6%A0%87%E5%BF%97%E5%BB%BA%E7%AD%91%EF%BC%89%EF%BC%88%E4%B8%9C%E5%90%91%EF%BC%89_-_panoramio.jpg) |
+| 海甸岛 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E6%B5%B7%E5%8D%97%E5%A4%A7%E5%AD%A6%E6%A0%A1%E5%8C%BA%E6%99%AF%E8%A7%82%EF%BC%88%E5%AE%BD%E5%B9%85%EF%BC%89%EF%BC%88%E4%B8%9C%E5%90%91%EF%BC%89_-_panoramio.jpg) |
+| 海甸岛 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E4%BB%81%E5%BF%83%E5%AF%BA%E5%A4%96%E6%99%AF%EF%BC%88%E5%8C%97%E5%90%91%EF%BC%89_-_panoramio_(1).jpg) |
+| 海口国贸 | bigball | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9B%BD%E8%B4%B8%E9%87%91%E9%BE%99%E8%B7%AF%EF%BC%88%E5%AE%9C%E6%AC%A3%E5%B9%BF%E5%9C%BA%EF%BC%89-By_Bigball_-_panoramio.jpg) |
+| 海口国贸 | bigball | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BE%98%E5%BE%8A%E5%9C%A8%E5%9B%BD%E8%B4%B8%E7%9A%84%E5%8D%81%E5%AD%97%E8%B7%AF%E5%8F%A3-By_Bigball_-_panoramio.jpg) |
+| 海口湾 | GPS8 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2010%E6%B5%B7%E5%8F%A3%E6%B9%BE_-_panoramio.jpg) |
 | 海口万象城 | Lhzss8 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Haikou_MIXC_world.jpg) |
-| 明珠广场 | Lin. | Pexels License | [pexels](https://www.pexels.com/photo/lanterns-over-street-in-city-20120144/) |
-| 明珠广场 | Grace L. | Pexels License | [pexels](https://www.pexels.com/photo/cars-on-the-red-light-at-the-intersection-23626370/) |
-| 明珠广场 | zs Lin | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-haikou-city-skyline-from-beach-28970319/) |
-| 世纪公园 | Lin. | Pexels License | [pexels](https://www.pexels.com/photo/lanterns-over-street-in-city-20120144/) |
-| 世纪公园 | Grace L. | Pexels License | [pexels](https://www.pexels.com/photo/cars-on-the-red-light-at-the-intersection-23626370/) |
-| 世纪公园 | zs Lin | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-haikou-city-skyline-from-beach-28970319/) |
-| 西海岸 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Haikou_Xiuying_Port_02.jpg) |
+| 明珠广场 | Daredemodaisuki 114514 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%89%E6%B1%9F%E6%98%8E%E7%8F%A0%E5%B9%BF%E5%9C%BA.jpg) |
 | 西海岸 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E8%A5%BF%E6%B5%B7%E5%B2%B8%E6%99%AF%E8%A7%82%EF%BC%88%E4%B8%9C%E5%8D%97%E5%90%91%EF%BC%89_-_panoramio.jpg) |
+| 西海岸 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E8%A5%BF%E6%B5%B7%E5%B2%B8%E6%99%AF%E8%A7%82%EF%BC%88%E4%B8%9C%E5%8D%97%E5%90%91%EF%BC%89_-_panoramio_(1).jpg) |
+| 西海岸 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E8%A5%BF%E6%B5%B7%E5%B2%B8%E6%99%AF%E8%A7%82%EF%BC%88%E4%B8%9C%E5%8D%97%E5%90%91%EF%BC%89_-_panoramio_(2).jpg) |
+| 西海岸 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E8%A5%BF%E6%B5%B7%E5%B2%B8%E6%99%AF%E8%A7%82%EF%BC%88%E4%B8%9C%E5%8D%97%E5%90%91%EF%BC%89_-_panoramio_(3).jpg) |
+| 西海岸 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E8%A5%BF%E6%B5%B7%E5%B2%B8%E6%99%AF%E8%A7%82%EF%BC%88%E4%B8%9C%E5%8D%97%E5%90%91%EF%BC%89_-_panoramio_(4).jpg) |
 | 西海岸 | 川号子 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%8D%97%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%B2%9B%E2%80%94%E2%80%94%E6%B5%B7%E5%8F%A3%E8%A5%BF%E6%B5%B7%E5%B2%B8%E6%99%AF%E8%A7%82%EF%BC%88%E4%B8%9C%E5%8D%97%E5%90%91%EF%BC%89_-_panoramio_(6).jpg) |
-| 海口云洞图书馆 | STW932 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:WormholeLibrary02.jpg) |
+| 海口云洞图书馆 | STW932 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:WormholeLibrary01.jpg) |
 | 海口云洞图书馆 | STW932 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:WormholeLibrary03.jpg) |
+| 海口云洞图书馆 | STW932 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:WormholeLibrary07.jpg) |
+| 海口云洞图书馆 | STW932 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:WormholeLibrary02.jpg) |
 | 海口云洞图书馆 | STW932 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:WormholeLibrary04.jpg) |
-| 海南八音 | Alexandra  Lavizzari | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-opera-performer-in-costume-36422762/) |
-| 海南八音 | Quang Nguyen Vinh | Pexels License | [pexels](https://www.pexels.com/photo/performers-preparing-backstage-14010690/) |
-| 海南八音 | David Lund | Pexels License | [pexels](https://www.pexels.com/photo/colorful-traditional-asian-opera-performer-portrait-36545226/) |
-| 黎族织锦 | Tito Zzzz | Pexels License | [pexels](https://www.pexels.com/photo/red-lantern-hanging-along-alley-20256134/) |
-| 黎族织锦 | 余鑫磊 | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-storefront-with-red-awning-37078576/) |
-| 黎族织锦 | gang liang | Pexels License | [pexels](https://www.pexels.com/photo/historic-street-scene-in-ancient-chinese-city-36473865/) |
-| 海口南洋建筑文化 | Yolanda Yao | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Altstadt_von_Haikou_(Hainan).jpg) |
-| 海口南洋建筑文化 | John Thomson | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:HOI-HOW,_THE_PROPOSED_NEW_TREATY_PORT,_ISLAND_OF_HAINAN.jpg) |
-| 琼剧 | Alexandra  Lavizzari | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-opera-performer-in-costume-36422762/) |
-| 琼剧 | Quang Nguyen Vinh | Pexels License | [pexels](https://www.pexels.com/photo/performers-preparing-backstage-14010690/) |
-| 琼剧 | David Lund | Pexels License | [pexels](https://www.pexels.com/photo/colorful-traditional-asian-opera-performer-portrait-36545226/) |
-| 冼夫人文化 | Tito Zzzz | Pexels License | [pexels](https://www.pexels.com/photo/red-lantern-hanging-along-alley-20256134/) |
-| 冼夫人文化 | 余鑫磊 | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-storefront-with-red-awning-37078576/) |
-| 冼夫人文化 | gang liang | Pexels License | [pexels](https://www.pexels.com/photo/historic-street-scene-in-ancient-chinese-city-36473865/) |
+| 海口云洞图书馆 | STW932 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:WormholeLibrary05.jpg) |
+| 琼剧 | 西西里_lemon | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E3%80%90%E7%90%BC%E5%89%A7%E7%9A%84%E5%8F%B0%E5%89%8D%E5%B9%95%E5%90%8E%E3%80%911.jpg) |
+| 琼剧 | 西西里_lemon | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E3%80%90%E7%90%BC%E5%89%A7%E7%9A%84%E5%8F%B0%E5%89%8D%E5%B9%95%E5%90%8E%E3%80%912.jpg) |
+| 琼剧 | 西西里_lemon | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E3%80%90%E7%90%BC%E5%89%A7%E7%9A%84%E5%8F%B0%E5%89%8D%E5%B9%95%E5%90%8E%E3%80%913.jpg) |
+| 琼剧 | 西西里_lemon | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E3%80%90%E7%90%BC%E5%89%A7%E7%9A%84%E5%8F%B0%E5%89%8D%E5%B9%95%E5%90%8E%E3%80%914.jpg) |
 | 椰雕 | 《人民画报》 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:1962-03_1962%E5%B9%B4_%E6%B5%B7%E5%8D%97%E6%A4%B0%E9%9B%95.jpg) |
 | 椰雕 | 《人民画报》 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:1962-03_1962%E5%B9%B4_%E6%B5%B7%E5%8D%97%E6%A4%B0%E9%9B%952.jpg) |

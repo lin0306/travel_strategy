@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/5516765/pexels-photo-5516765.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/5516765/pexels-photo-5516765.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 3024,
-      "alt": "Lively evening scene with bright neon lights and reflections on Tunxi Old Street, Huangshan, China.",
-      "query": "Chinese restaurant interior huangshan",
-      "credit": {
-        "source": "pexels",
-        "author": "Andrew Seto",
-        "sourceUrl": "https://www.pexels.com/photo/a-car-parked-near-brown-building-during-night-5516765/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38404989/pexels-photo-38404989.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38404989/pexels-photo-38404989.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4096,
-      "height": 3072,
-      "alt": "Captivating landscape view through a classic Chinese window, showcasing serene water and mountains.",
-      "query": "Chinese restaurant interior huangshan",
-      "credit": {
-        "source": "pexels",
-        "author": "Kalan Gao",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-view-through-traditional-chinese-window-38404989/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/32686464/pexels-photo-32686464.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3072,
-      "height": 4096,
-      "alt": "Charming Asian dining room with bamboo chairs and traditional teaware.",
-      "query": "Chinese restaurant interior huangshan",
-      "credit": {
-        "source": "pexels",
-        "author": "TIANYUN XIA",
-        "sourceUrl": "https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "徽菜",
@@ -100,12 +54,13 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
     "zh": "老街第一楼"
   },
   "_geocodeTitle": "老街",
-  "district": "341002"
+  "district": "341002",
+  "_noImage": true
 }

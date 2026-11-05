@@ -45,53 +45,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/11741633/pexels-photo-11741633.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/11741633/pexels-photo-11741633.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 3024,
-      "alt": "A picturesque view of lush mountains, vibrant greenery, and a bright blue sky with fluffy clouds.",
-      "query": "Hongzhu Mountain Hot Spring",
-      "credit": {
-        "source": "pexels",
-        "author": "Starzzz Studios",
-        "sourceUrl": "https://www.pexels.com/photo/hot-spring-in-the-mountain-valley-11741633/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/733248/pexels-photo-733248.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/733248/pexels-photo-733248.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3500,
-      "height": 2333,
-      "alt": "Vibrant landscape featuring natural hot springs with rocks and green patches under a clear sky.",
-      "query": "Hongzhu Mountain Hot Spring",
-      "credit": {
-        "source": "pexels",
-        "author": "icon0 com",
-        "sourceUrl": "https://www.pexels.com/photo/green-and-brown-mountain-733248/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/11235195/pexels-photo-11235195.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/11235195/pexels-photo-11235195.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2592,
-      "height": 4608,
-      "alt": "Explore a tranquil geothermal landscape featuring hot springs, rocky terrain, and lush greenery under an overcast sky.",
-      "query": "Hongzhu Mountain Hot Spring",
-      "credit": {
-        "source": "pexels",
-        "author": "chyimo huang",
-        "sourceUrl": "https://www.pexels.com/photo/grass-and-sand-around-a-lake-11235195/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "温泉",
@@ -107,7 +61,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Hongzhu Mountain Hot Spring",
@@ -115,5 +69,6 @@
   },
   "_geocodeTitle": "红珠山温泉会馆2栋",
   "_geocodeSuspect": false,
-  "district": "511181"
+  "district": "511181",
+  "_noImage": true
 }

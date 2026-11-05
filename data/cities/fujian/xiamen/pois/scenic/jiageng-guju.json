@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/20265634/pexels-photo-20265634.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/20265634/pexels-photo-20265634.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4833,
-      "height": 3212,
-      "alt": "Scenic view of Xiamen University's main building with traditional Chinese architecture.",
-      "query": "Chinese historic architecture xiamen",
-      "credit": {
-        "source": "pexels",
-        "author": "晓鸟  蓝",
-        "sourceUrl": "https://www.pexels.com/photo/building-of-xiamen-university-in-xiamen-in-china-20265634/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/29349103/pexels-photo-29349103.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/29349103/pexels-photo-29349103.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 5000,
-      "alt": "Elegant traditional Chinese architectural roof detail in Xiamen, China.",
-      "query": "Chinese historic architecture xiamen",
-      "credit": {
-        "source": "pexels",
-        "author": "Matthew Jesús",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-architecture-in-xiamen-29349103/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36675648/pexels-photo-36675648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36675648/pexels-photo-36675648.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4284,
-      "height": 5712,
-      "alt": "Beautiful traditional Chinese temple architecture surrounded by lush trees in Xiamen, Fujian.",
-      "query": "Chinese historic architecture xiamen",
-      "credit": {
-        "source": "pexels",
-        "author": "Christiana Dj",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-temple-in-xiamen-36675648/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "陈嘉庚",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-09-28"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "陈嘉庚先生故居",
   "_geocodeSuspect": false,
-  "district": "350206"
+  "district": "350206",
+  "_noImage": true
 }

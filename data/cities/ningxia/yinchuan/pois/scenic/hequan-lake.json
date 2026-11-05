@@ -45,53 +45,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/27578207/pexels-photo-27578207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/27578207/pexels-photo-27578207.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "A picturesque cityscape featuring a stone bridge over a river with urban buildings in the background.",
-      "query": "Hequan Lake",
-      "credit": {
-        "source": "pexels",
-        "author": "Hao Liang",
-        "sourceUrl": "https://www.pexels.com/photo/a-bridge-over-a-river-with-buildings-in-the-background-27578207/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/12069839/pexels-photo-12069839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/12069839/pexels-photo-12069839.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3265,
-      "height": 4031,
-      "alt": "A couple walks along a peaceful park path beside a reflective lake and lush trees.",
-      "query": "Hequan Lake",
-      "credit": {
-        "source": "pexels",
-        "author": "Jimmy Liao",
-        "sourceUrl": "https://www.pexels.com/photo/couple-walking-along-a-lake-12069839/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/34967559/pexels-photo-34967559.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34967559/pexels-photo-34967559.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4128,
-      "height": 6192,
-      "alt": "Serene concrete path leading to a tree-covered island on a sunny day.",
-      "query": "Hequan Lake",
-      "credit": {
-        "source": "pexels",
-        "author": "Leila Chen",
-        "sourceUrl": "https://www.pexels.com/photo/tranquil-pathway-leading-to-scenic-island-34967559/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "湖",
@@ -107,7 +61,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Hequan Lake",
@@ -115,5 +69,6 @@
   },
   "_geocodeTitle": "鹤泉湖国家湿地公园",
   "_geocodeSuspect": false,
-  "district": "640121"
+  "district": "640121",
+  "_noImage": true
 }

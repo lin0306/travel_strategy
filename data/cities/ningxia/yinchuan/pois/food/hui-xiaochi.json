@@ -40,53 +40,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/32700828/pexels-photo-32700828.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/32700828/pexels-photo-32700828.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5472,
-      "height": 3648,
-      "alt": "Quaint street in traditional Chinese architecture with red lanterns under a clear blue sky.",
-      "query": "Hui Xiaochi",
-      "credit": {
-        "source": "pexels",
-        "author": "mingche lee",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-street-with-red-lanterns-32700828/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/19551232/pexels-photo-19551232.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/19551232/pexels-photo-19551232.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3456,
-      "height": 5184,
-      "alt": "Fashion portrait of a woman with dark hair and bright lighting, showcasing modern style.",
-      "query": "Hui Xiaochi",
-      "credit": {
-        "source": "pexels",
-        "author": "Sơn Ngọc",
-        "sourceUrl": "https://www.pexels.com/photo/portrait-of-woman-in-shirt-19551232/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/19551242/pexels-photo-19551242.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/19551242/pexels-photo-19551242.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3456,
-      "height": 5184,
-      "alt": "A young East Asian woman with brown hair, wearing a shirt, poses indoors in warm lighting.",
-      "query": "Hui Xiaochi",
-      "credit": {
-        "source": "pexels",
-        "author": "Sơn Ngọc",
-        "sourceUrl": "https://www.pexels.com/photo/portrait-of-a-young-woman-in-a-shirt-looking-away-19551242/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "烩菜",
@@ -102,7 +56,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Hui Xiaochi",
@@ -110,5 +64,6 @@
   },
   "_geocodeTitle": "兴庆区",
   "_geocodeSuspect": false,
-  "district": "640104"
+  "district": "640104",
+  "_noImage": true
 }

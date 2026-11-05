@@ -40,53 +40,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/35697887/pexels-photo-35697887.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35697887/pexels-photo-35697887.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3456,
-      "height": 4608,
-      "alt": "Photo of the historic Yick Fung Building surrounded by bamboo scaffolding in Hong Kong.",
-      "query": "Chinese old town street hongkong",
-      "credit": {
-        "source": "pexels",
-        "author": "terry narcissan tsui",
-        "sourceUrl": "https://www.pexels.com/photo/historic-yick-fung-building-in-hong-kong-35697887/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/35697864/pexels-photo-35697864.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35697864/pexels-photo-35697864.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3456,
-      "height": 4608,
-      "alt": "A detailed street view of bamboo scaffolding surrounding old buildings in Hong Kong, showcasing traditional architecture",
-      "query": "Chinese old town street hongkong",
-      "credit": {
-        "source": "pexels",
-        "author": "terry narcissan tsui",
-        "sourceUrl": "https://www.pexels.com/photo/urban-street-view-of-bamboo-scaffolding-in-hong-kong-35697864/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/35698116/pexels-photo-35698116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35698116/pexels-photo-35698116.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4608,
-      "height": 3456,
-      "alt": "Rusty metal door with graffiti in Hong Kong, showcasing urban decay and street art.",
-      "query": "Chinese old town street hongkong",
-      "credit": {
-        "source": "pexels",
-        "author": "terry narcissan tsui",
-        "sourceUrl": "https://www.pexels.com/photo/grungy-urban-door-with-graffiti-in-hong-kong-35698116/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "市集",
@@ -102,7 +56,7 @@
       "fetchedAt": "2026-09-24"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -110,5 +64,6 @@
   },
   "_geocodeTitle": "赤柱市集Stanley Market",
   "_geocodeSuspect": false,
-  "district": "811400"
+  "district": "811400",
+  "_noImage": true
 }

@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/19468243/pexels-photo-19468243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/19468243/pexels-photo-19468243.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4160,
-      "height": 6240,
-      "alt": "Illuminated alley in Guang Zhou, China, showcasing vibrant night market scenes.",
-      "query": "art district gallery guangzhou",
-      "credit": {
-        "source": "pexels",
-        "author": "tslui",
-        "sourceUrl": "https://www.pexels.com/photo/street-market-in-asia-at-night-19468243/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/35272160/pexels-photo-35272160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35272160/pexels-photo-35272160.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6048,
-      "height": 4032,
-      "alt": "A vibrant commercial square in Guangzhou showcasing modern architecture and lively urban scene.",
-      "query": "art district gallery guangzhou",
-      "credit": {
-        "source": "pexels",
-        "author": "Bingqian Li",
-        "sourceUrl": "https://www.pexels.com/photo/bustling-commercial-square-in-guangzhou-china-35272160/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/13459640/pexels-photo-13459640.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/13459640/pexels-photo-13459640.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Black and white view of modern architectural structures in Guangzhou, China.",
-      "query": "art district gallery guangzhou",
-      "credit": {
-        "source": "pexels",
-        "author": "豫 武",
-        "sourceUrl": "https://www.pexels.com/photo/black-and-white-photo-of-tiered-passageways-among-buildings-13459640/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "创意园",
@@ -100,7 +54,7 @@
       "fetchedAt": "2026-09-24"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -108,5 +62,6 @@
   },
   "_geocodeTitle": "1850创意园",
   "_geocodeSuspect": false,
-  "district": "440103"
+  "district": "440103",
+  "_noImage": true
 }

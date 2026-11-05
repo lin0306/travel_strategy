@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/33733015/pexels-photo-33733015.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/33733015/pexels-photo-33733015.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5184,
-      "height": 3456,
-      "alt": "Beautiful sunset over Baku's skyline with a vibrant orange sky and silhouetted buildings.",
-      "query": "Wulabo Sunset Urumqi",
-      "credit": {
-        "source": "pexels",
-        "author": "Narmin Aliyeva",
-        "sourceUrl": "https://www.pexels.com/photo/stunning-sunset-over-baku-city-skyline-33733015/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38567939/pexels-photo-38567939.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38567939/pexels-photo-38567939.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3072,
-      "height": 4096,
-      "alt": "Serene scene of swans gliding on a lake with majestic mountains in the background.",
-      "query": "Wulabo Sunset Urumqi",
-      "credit": {
-        "source": "pexels",
-        "author": "Leia-Yalu Feng",
-        "sourceUrl": "https://www.pexels.com/photo/majestic-swans-on-a-tranquil-lake-with-mountain-view-38567939/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/26622972/pexels-photo-26622972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/26622972/pexels-photo-26622972.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 3024,
-      "alt": "Illuminated entrance of Xiaoxigou Metro Station in Urumqi, Xinjiang, China at night.",
-      "query": "Wulabo Sunset Urumqi",
-      "credit": {
-        "source": "pexels",
-        "author": "cake cat",
-        "sourceUrl": "https://www.pexels.com/photo/xiaoxigou-station-at-the-urumqi-metro-26622972/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "晚霞",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Wulabo Sunset Urumqi",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "乌拉泊新村",
   "_geocodeSuspect": false,
-  "district": "650102"
+  "district": "650102",
+  "_noImage": true
 }

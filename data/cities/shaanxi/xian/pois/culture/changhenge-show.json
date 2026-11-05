@@ -40,33 +40,45 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/1110203/pexels-photo-1110203.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/1110203/pexels-photo-1110203.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2821,
-      "height": 1881,
-      "alt": "A female performer in traditional Chinese opera attire with vibrant makeup during a cultural festival",
-      "query": "Chinese opera performance xian",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/2023-10-08_Dance_drama_%22the_Song_of_Everlasting_Sorrow%22_%28%E9%95%B7%E6%81%A8%E6%AD%8C%29_in_Hsi-an_%28%E8%A5%BF%E5%AE%89%29_01.jpg/1280px-2023-10-08_Dance_drama_%22the_Song_of_Everlasting_Sorrow%22_%28%E9%95%B7%E6%81%A8%E6%AD%8C%29_in_Hsi-an_%28%E8%A5%BF%E5%AE%89%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/2023-10-08_Dance_drama_%22the_Song_of_Everlasting_Sorrow%22_%28%E9%95%B7%E6%81%A8%E6%AD%8C%29_in_Hsi-an_%28%E8%A5%BF%E5%AE%89%29_01.jpg/1280px-2023-10-08_Dance_drama_%22the_Song_of_Everlasting_Sorrow%22_%28%E9%95%B7%E6%81%A8%E6%AD%8C%29_in_Hsi-an_%28%E8%A5%BF%E5%AE%89%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "2023-10-08 Dance drama \"the Song of Everlasting Sorrow\" (長恨歌) in Hsi-an (西安) 01.jpg",
+      "query": "《长恨歌》实景演出",
       "credit": {
-        "source": "pexels",
-        "author": "Jimmy Chan",
-        "sourceUrl": "https://www.pexels.com/photo/woman-in-orange-and-yellow-floral-long-sleeved-dress-1110203/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "源義信",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
       }
     },
     {
-      "url": "https://images.pexels.com/photos/11413712/pexels-photo-11413712.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/11413712/pexels-photo-11413712.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3840,
-      "height": 5760,
-      "alt": "A Beijing opera performer in traditional costume poses indoors.",
-      "query": "Chinese opera performance xian",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/2023-10-08_Dance_drama_%22the_Song_of_Everlasting_Sorrow%22_%28%E9%95%B7%E6%81%A8%E6%AD%8C%29_in_Hsi-an_%28%E8%A5%BF%E5%AE%89%29_07.jpg/1280px-2023-10-08_Dance_drama_%22the_Song_of_Everlasting_Sorrow%22_%28%E9%95%B7%E6%81%A8%E6%AD%8C%29_in_Hsi-an_%28%E8%A5%BF%E5%AE%89%29_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/2023-10-08_Dance_drama_%22the_Song_of_Everlasting_Sorrow%22_%28%E9%95%B7%E6%81%A8%E6%AD%8C%29_in_Hsi-an_%28%E8%A5%BF%E5%AE%89%29_07.jpg/1280px-2023-10-08_Dance_drama_%22the_Song_of_Everlasting_Sorrow%22_%28%E9%95%B7%E6%81%A8%E6%AD%8C%29_in_Hsi-an_%28%E8%A5%BF%E5%AE%89%29_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "2023-10-08 Dance drama \"the Song of Everlasting Sorrow\" (長恨歌) in Hsi-an (西安) 07.jpg",
+      "query": "《长恨歌》实景演出",
       "credit": {
-        "source": "pexels",
-        "author": "李奇",
-        "sourceUrl": "https://www.pexels.com/photo/woman-in-blue-beijing-opera-costume-11413712/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "源義信",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
       }
     }
   ],
@@ -86,7 +98,7 @@
       "fetchedAt": "2026-09-19"
     }
   ],
-  "updatedAt": "2026-10-29",
+  "updatedAt": "2026-11-05",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

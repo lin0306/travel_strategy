@@ -45,53 +45,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/18228794/pexels-photo-18228794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/18228794/pexels-photo-18228794.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "A serene view of a boat on a lush green riverbank under a bright blue sky.",
-      "query": "Yuehai Wetland Park",
-      "credit": {
-        "source": "pexels",
-        "author": "Shuaizhi Tian",
-        "sourceUrl": "https://www.pexels.com/photo/landscape-with-a-ship-on-the-river-18228794/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/34725096/pexels-photo-34725096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34725096/pexels-photo-34725096.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6336,
-      "height": 9504,
-      "alt": "Explore the serene wooden walkway in a lush nature reserve, perfect for eco-tourism and scenic adventures.",
-      "query": "Yuehai Wetland Park",
-      "credit": {
-        "source": "pexels",
-        "author": "Tahamie Farooqui",
-        "sourceUrl": "https://www.pexels.com/photo/wooden-boardwalk-in-scenic-nature-reserve-34725096/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/14044290/pexels-photo-14044290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/14044290/pexels-photo-14044290.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4129,
-      "height": 5504,
-      "alt": "A serene wooden boardwalk in Sultan Marshes National Park, Kayseri, Türkiye, surrounded by tall bamboo.",
-      "query": "Yuehai Wetland Park",
-      "credit": {
-        "source": "pexels",
-        "author": "Betül Hökelek",
-        "sourceUrl": "https://www.pexels.com/photo/brown-wooden-bridge-over-bamboo-field-14044290/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "湿地",
@@ -107,7 +61,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Yuehai Wetland Park",
@@ -115,5 +69,6 @@
   },
   "_geocodeTitle": "阅海国家湿地公园",
   "_geocodeSuspect": false,
-  "district": "640106"
+  "district": "640106",
+  "_noImage": true
 }

@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/5754938/pexels-photo-5754938.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/5754938/pexels-photo-5754938.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 6000,
-      "alt": "Vibrant green foliage under a tree canopy in Lanzhou, Gansu, China.",
-      "query": "Lanzhou Beilin Stele Forest",
-      "credit": {
-        "source": "pexels",
-        "author": "Maeve Guo",
-        "sourceUrl": "https://www.pexels.com/photo/foliage-of-green-leaves-on-tree-branches-5754938/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/21327988/pexels-photo-21327988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/21327988/pexels-photo-21327988.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2667,
-      "height": 4000,
-      "alt": "A beagle dog rests next to a chalkboard sign on a sunny street in Sitges, Spain.",
-      "query": "Lanzhou Beilin Stele Forest",
-      "credit": {
-        "source": "pexels",
-        "author": "Ana Lourenco",
-        "sourceUrl": "https://www.pexels.com/photo/summer-dog-21327988/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/28185750/pexels-photo-28185750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/28185750/pexels-photo-28185750.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 6000,
-      "alt": "Peaceful bamboo forest scene featuring an ancient stone marker with inscriptions.",
-      "query": "Lanzhou Beilin Stele Forest",
-      "credit": {
-        "source": "pexels",
-        "author": "Leticia  Curvelo",
-        "sourceUrl": "https://www.pexels.com/photo/a-white-stone-with-chinese-writing-on-it-28185750/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "碑林",
@@ -100,7 +54,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Lanzhou Beilin Stele Forest",
@@ -108,5 +62,6 @@
   },
   "_geocodeTitle": "兰州青城古镇碑林",
   "_geocodeSuspect": false,
-  "district": "620123"
+  "district": "620123",
+  "_noImage": true
 }

@@ -39,98 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/8956770/pexels-photo-8956770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/8956770/pexels-photo-8956770.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4928,
-      "height": 3264,
-      "alt": "Close-up of traditional Korean kimchi in a dark ceramic bowl with tongs.",
-      "query": "Korean Kimchi Cabbage Changchun",
-      "credit": {
-        "source": "pexels",
-        "author": "makafood",
-        "sourceUrl": "https://www.pexels.com/photo/food-in-a-bowl-8956770/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/8956780/pexels-photo-8956780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/8956780/pexels-photo-8956780.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4928,
-      "height": 3264,
-      "alt": "A plate of traditional fermented Korean kimchi presented elegantly on a white dish.",
-      "query": "Korean Kimchi Cabbage Changchun",
-      "credit": {
-        "source": "pexels",
-        "author": "makafood",
-        "sourceUrl": "https://www.pexels.com/photo/kimchi-on-a-plate-8956780/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/8953857/pexels-photo-8953857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/8953857/pexels-photo-8953857.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4928,
-      "height": 3264,
-      "alt": "Close-up of spicy Korean kimchi served in a traditional ceramic bowl on a dining table.",
-      "query": "Korean Kimchi Cabbage Changchun",
-      "credit": {
-        "source": "pexels",
-        "author": "makafood",
-        "sourceUrl": "https://www.pexels.com/photo/kimchi-on-a-plate-8953857/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/8827913/pexels-photo-8827913.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/8827913/pexels-photo-8827913.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4928,
-      "height": 3264,
-      "alt": "Close-up of traditional Korean kimchi served in a white ceramic dish on a wooden table.",
-      "query": "Korean Kimchi Cabbage Changchun",
-      "credit": {
-        "source": "pexels",
-        "author": "makafood",
-        "sourceUrl": "https://www.pexels.com/photo/close-up-shot-of-delicious-kimchi-on-white-ceramic-plate-8827913/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/8956826/pexels-photo-8956826.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/8956826/pexels-photo-8956826.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4928,
-      "height": 3264,
-      "alt": "A close-up of traditional Korean kimchi served on a white ceramic plate on a wooden table.",
-      "query": "Korean Kimchi Cabbage Changchun",
-      "credit": {
-        "source": "pexels",
-        "author": "makafood",
-        "sourceUrl": "https://www.pexels.com/photo/a-kimchi-on-a-ceramic-plate-8956826/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/12755998/pexels-photo-12755998.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/12755998/pexels-photo-12755998.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3447,
-      "height": 3447,
-      "alt": "Close-up of vibrant kimchi garnished with greens, served with chopsticks in a ceramic bowl for an authentic Korean flavo",
-      "query": "Korean Kimchi Cabbage Changchun",
-      "credit": {
-        "source": "pexels",
-        "author": "Mario K",
-        "sourceUrl": "https://www.pexels.com/photo/wooden-chopsticks-on-top-of-a-bowl-with-kimchi-12755998/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "辣白菜",
@@ -146,12 +55,13 @@
       "fetchedAt": "2026-10-03"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Korean Kimchi Cabbage Changchun",
     "zh": "朝鲜族辣白菜"
   },
   "_geocodeTitle": "青林路便民市场蔬菜摊位",
-  "district": "220106"
+  "district": "220106",
+  "_noImage": true
 }

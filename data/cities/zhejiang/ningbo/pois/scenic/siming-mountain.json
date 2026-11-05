@@ -44,23 +44,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Map_Hunan_adm.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Map_Hunan_adm.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1220,
-      "alt": "Map Hunan adm.png",
-      "query": "四明山国家森林公园",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Not logging in",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_Hunan_adm.png",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "山地",
@@ -76,7 +60,7 @@
       "fetchedAt": "2026-09-30"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -84,5 +68,6 @@
   },
   "_geocodeTitle": "四明山国家森林公园",
   "_geocodeSuspect": false,
-  "district": "330281"
+  "district": "330281",
+  "_noImage": true
 }

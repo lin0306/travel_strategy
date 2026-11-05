@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/5305427/pexels-photo-5305427.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/5305427/pexels-photo-5305427.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Close-up of a plated dish featuring sliced roasted pork with pickled vegetables on a wooden table.",
-      "query": "Huangjia Roast Pork Zhangqiu",
-      "credit": {
-        "source": "pexels",
-        "author": "Kai-Chieh Chan",
-        "sourceUrl": "https://www.pexels.com/photo/slices-of-cooked-meat-on-a-bowl-5305427/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38980161/pexels-photo-38980161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38980161/pexels-photo-38980161.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4640,
-      "height": 6960,
-      "alt": "Close-up of succulent roast pork with crispy skin in savory juices",
-      "query": "Huangjia Roast Pork Zhangqiu",
-      "credit": {
-        "source": "pexels",
-        "author": "Boys in Bristol Photography",
-        "sourceUrl": "https://www.pexels.com/photo/juicy-roast-pork-with-crispy-skin-close-up-38980161/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/26733061/pexels-photo-26733061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/26733061/pexels-photo-26733061.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5464,
-      "height": 8192,
-      "alt": "Deliciously roasted pork with a crispy crust, resting on a kitchen rack, perfect for culinary presentations.",
-      "query": "Huangjia Roast Pork Zhangqiu",
-      "credit": {
-        "source": "pexels",
-        "author": "Jonathan Borba",
-        "sourceUrl": "https://www.pexels.com/photo/meat-on-barbecue-in-kitchen-26733061/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "烤肉",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Huangjia Roast Pork Zhangqiu",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "黄家烤肉",
   "_geocodeSuspect": false,
-  "district": "370114"
+  "district": "370114",
+  "_noImage": true
 }

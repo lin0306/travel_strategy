@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/33264092/pexels-photo-33264092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/33264092/pexels-photo-33264092.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4096,
-      "height": 2304,
-      "alt": "Expansive green landscapes with rolling hills under a bright blue sky in summer.",
-      "query": "Nanshan Grassland Urumqi",
-      "credit": {
-        "source": "pexels",
-        "author": "雪冬 王",
-        "sourceUrl": "https://www.pexels.com/photo/vast-green-landscape-under-bright-summer-sky-33264092/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38567939/pexels-photo-38567939.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38567939/pexels-photo-38567939.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3072,
-      "height": 4096,
-      "alt": "Serene scene of swans gliding on a lake with majestic mountains in the background.",
-      "query": "Nanshan Grassland Urumqi",
-      "credit": {
-        "source": "pexels",
-        "author": "Leia-Yalu Feng",
-        "sourceUrl": "https://www.pexels.com/photo/majestic-swans-on-a-tranquil-lake-with-mountain-view-38567939/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/26622972/pexels-photo-26622972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/26622972/pexels-photo-26622972.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4032,
-      "height": 3024,
-      "alt": "Illuminated entrance of Xiaoxigou Metro Station in Urumqi, Xinjiang, China at night.",
-      "query": "Nanshan Grassland Urumqi",
-      "credit": {
-        "source": "pexels",
-        "author": "cake cat",
-        "sourceUrl": "https://www.pexels.com/photo/xiaoxigou-station-at-the-urumqi-metro-26622972/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "南山",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Nanshan Grassland Urumqi",
@@ -109,5 +63,6 @@
   },
   "_geocodeTitle": "乌鲁木齐南山风景名胜区",
   "_geocodeSuspect": false,
-  "district": "650121"
+  "district": "650121",
+  "_noImage": true
 }

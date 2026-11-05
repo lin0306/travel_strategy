@@ -77,18 +77,24 @@
       }
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/WuhanBund1927.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/WuhanBund1927.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/%E6%B1%9F%E7%81%98%E5%85%AC%E5%9C%92%E6%AD%A3%E9%96%80oeotwc_-_panoramio.jpg/1280px-%E6%B1%9F%E7%81%98%E5%85%AC%E5%9C%92%E6%AD%A3%E9%96%80oeotwc_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/%E6%B1%9F%E7%81%98%E5%85%AC%E5%9C%92%E6%AD%A3%E9%96%80oeotwc_-_panoramio.jpg/1280px-%E6%B1%9F%E7%81%98%E5%85%AC%E5%9C%92%E6%AD%A3%E9%96%80oeotwc_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
-      "height": 724,
-      "alt": "WuhanBund1927.jpg",
-      "query": "汉口江滩 武汉",
+      "height": 720,
+      "alt": "江灘公園正門oeotwc - panoramio.jpg",
+      "query": "汉口江滩",
       "credit": {
         "source": "wikimedia",
-        "author": "Military Post of Japanese Invading Army",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:WuhanBund1927.jpg",
-        "license": "Public domain",
-        "attributionRequired": false
+        "author": "ting wei chun",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-04",
+        "tier": "front"
       }
     }
   ],
@@ -107,7 +113,7 @@
       "fetchedAt": "2026-09-23"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-04",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/33534697/pexels-photo-33534697.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/33534697/pexels-photo-33534697.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Busy street scene in Taipa, Macao featuring colonial architecture and pedestrians.",
-      "query": "Macau Portuguese chicken",
-      "credit": {
-        "source": "pexels",
-        "author": "Dincah Ignes",
-        "sourceUrl": "https://www.pexels.com/photo/scenic-street-view-in-taipa-macao-33534697/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/18826615/pexels-photo-18826615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/18826615/pexels-photo-18826615.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5929,
-      "height": 3840,
-      "alt": "Busy tourist attraction at the historic Ruins of St. Paul in Macau, showcasing baroque architecture.",
-      "query": "Macau Portuguese chicken",
-      "credit": {
-        "source": "pexels",
-        "author": "Costa Karabelas",
-        "sourceUrl": "https://www.pexels.com/photo/tourists-in-front-of-the-ruins-of-saint-paul-catholic-complex-santo-antonio-china-18826615/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39594299/pexels-photo-39594299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39594299/pexels-photo-39594299.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4208,
-      "height": 2368,
-      "alt": "Front view of the yellow facade of St. Dominic's Church, a historic landmark in Macau.",
-      "query": "Macau Portuguese chicken",
-      "credit": {
-        "source": "pexels",
-        "author": "なかむーちょ Nakamuhcho",
-        "sourceUrl": "https://www.pexels.com/photo/yellow-facade-of-st-dominic-s-church-in-macau-39594299/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "土生葡菜",
@@ -101,12 +55,13 @@
       "fetchedAt": "2026-10-03"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Macau Portuguese chicken",
     "zh": "葡国鸡"
   },
   "_geocodeTitle": "澳门半岛",
-  "district": "820100"
+  "district": "820100",
+  "_noImage": true
 }

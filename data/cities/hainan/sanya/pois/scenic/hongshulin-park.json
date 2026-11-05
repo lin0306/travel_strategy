@@ -45,53 +45,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/3878268/pexels-photo-3878268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/3878268/pexels-photo-3878268.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3148,
-      "height": 4457,
-      "alt": "Palm-lined tropical beach adorned with traditional red Chinese lanterns during sunset in Sanya, China.",
-      "query": "Chinese classical garden sanya",
-      "credit": {
-        "source": "pexels",
-        "author": "James Wheeler",
-        "sourceUrl": "https://www.pexels.com/photo/green-palm-trees-under-the-blue-sky-3878268/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39555092/pexels-photo-39555092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39555092/pexels-photo-39555092.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4592,
-      "height": 2584,
-      "alt": "Aerial view of a beautiful beach and walkway at Sanya, Hainan, China with clear blue waters.",
-      "query": "Chinese classical garden sanya",
-      "credit": {
-        "source": "pexels",
-        "author": "Alex Peet",
-        "sourceUrl": "https://www.pexels.com/photo/sunny-day-at-sanya-beach-with-scenic-view-39555092/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/4242876/pexels-photo-4242876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/4242876/pexels-photo-4242876.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8000,
-      "height": 6000,
-      "alt": "Aerial view of Sanya's beachfront with city skyline, palm trees, and clear water.",
-      "query": "Chinese classical garden sanya",
-      "credit": {
-        "source": "pexels",
-        "author": "光曦 刘",
-        "sourceUrl": "https://www.pexels.com/photo/sea-beach-trees-and-buildings-4242876/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "红树林",
@@ -107,7 +61,7 @@
       "fetchedAt": "2026-09-29"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -115,5 +69,6 @@
   },
   "_geocodeTitle": "春光路红树林生态公园",
   "_geocodeSuspect": false,
-  "district": "460203"
+  "district": "460203",
+  "_noImage": true
 }

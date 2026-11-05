@@ -41,48 +41,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/36780596/pexels-photo-36780596.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36780596/pexels-photo-36780596.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Evening view of traditional Chinese architecture with detailed bricks and twilight sky.",
-      "query": "Chinese historic architecture shaoxing",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Yu_the_Great_mausoleum_stele_in_Shaoxing%2C_Zhejiang%2C_China.jpg/1280px-Yu_the_Great_mausoleum_stele_in_Shaoxing%2C_Zhejiang%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Yu_the_Great_mausoleum_stele_in_Shaoxing%2C_Zhejiang%2C_China.jpg/1280px-Yu_the_Great_mausoleum_stele_in_Shaoxing%2C_Zhejiang%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Yu the Great mausoleum stele in Shaoxing, Zhejiang, China.jpg",
+      "query": "大禹陵",
       "credit": {
-        "source": "pexels",
-        "author": "xuebo jiang",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-brick-architecture-at-dusk-36780596/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37602660/pexels-photo-37602660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37602660/pexels-photo-37602660.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 8256,
-      "height": 5504,
-      "alt": "Scenic view of a traditional street with hanging red lanterns and wooden architecture under a blue sky.",
-      "query": "Chinese historic architecture shaoxing",
-      "credit": {
-        "source": "pexels",
-        "author": "Qing Luo",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-asian-street-with-red-lanterns-37602660/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38249305/pexels-photo-38249305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38249305/pexels-photo-38249305.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6048,
-      "height": 4024,
-      "alt": "Explore the charm of Shaoxing's ancient architecture and traditional calligraphy.",
-      "query": "Chinese historic architecture shaoxing",
-      "credit": {
-        "source": "pexels",
-        "author": "Kenny Foo",
-        "sourceUrl": "https://www.pexels.com/photo/historic-stone-bridge-in-shaoxing-ancient-town-38249305/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "Gisling",
+        "sourceUrl": "https://www.wikidata.org/wiki/Q10937154",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-01",
+        "tier": "exact"
       }
     }
   ],
@@ -101,7 +77,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-01",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

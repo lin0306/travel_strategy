@@ -46,48 +46,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/23626370/pexels-photo-23626370.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/23626370/pexels-photo-23626370.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2433,
-      "height": 3637,
-      "alt": "Urban traffic scene at a busy intersection with taxis and cars in Guangzhou, China.",
-      "query": "China city street view lushan",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/%E5%BA%90%E5%B1%B1%E6%99%AF%E5%8C%BA_%E5%A4%A7%E5%8F%A3%E7%80%91%E5%B8%83%E9%99%84%E8%BF%91_02.jpg/1280px-%E5%BA%90%E5%B1%B1%E6%99%AF%E5%8C%BA_%E5%A4%A7%E5%8F%A3%E7%80%91%E5%B8%83%E9%99%84%E8%BF%91_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/%E5%BA%90%E5%B1%B1%E6%99%AF%E5%8C%BA_%E5%A4%A7%E5%8F%A3%E7%80%91%E5%B8%83%E9%99%84%E8%BF%91_02.jpg/1280px-%E5%BA%90%E5%B1%B1%E6%99%AF%E5%8C%BA_%E5%A4%A7%E5%8F%A3%E7%80%91%E5%B8%83%E9%99%84%E8%BF%91_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "庐山景区 大口瀑布附近 02.jpg",
+      "query": "庐山索道",
       "credit": {
-        "source": "pexels",
-        "author": "Grace L.",
-        "sourceUrl": "https://www.pexels.com/photo/cars-on-the-red-light-at-the-intersection-23626370/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/28101603/pexels-photo-28101603.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/28101603/pexels-photo-28101603.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5464,
-      "height": 3640,
-      "alt": "Aerial view of Lushan Island in Jiujiang, featuring lush greenery and a pagoda.",
-      "query": "China city street view lushan",
-      "credit": {
-        "source": "pexels",
-        "author": "jason hu",
-        "sourceUrl": "https://www.pexels.com/photo/28101603/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37500869/pexels-photo-37500869.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37500869/pexels-photo-37500869.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 6000,
-      "alt": "A peaceful city street in morning sunlight showcasing urban architecture and clear blue skies.",
-      "query": "China city street view lushan",
-      "credit": {
-        "source": "pexels",
-        "author": "高 长华",
-        "sourceUrl": "https://www.pexels.com/photo/sunlit-city-street-with-urban-architecture-37500869/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "Liuxingy",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "exact"
       }
     }
   ],
@@ -107,7 +83,7 @@
       "fetchedAt": "2026-10-07"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-02",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

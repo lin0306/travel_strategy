@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/31306040/pexels-photo-31306040.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/31306040/pexels-photo-31306040.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4000,
-      "height": 6000,
-      "alt": "Scenic river flowing through a quaint village, framed by autumn foliage.",
-      "query": "natural landscape China dujiangyan",
-      "credit": {
-        "source": "pexels",
-        "author": "Johnny Song",
-        "sourceUrl": "https://www.pexels.com/photo/picturesque-river-view-with-autumn-leaves-31306040/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36186822/pexels-photo-36186822.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36186822/pexels-photo-36186822.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Calm pond with vibrant fish swimming beneath the reflection of overhanging leaves.",
-      "query": "natural landscape China dujiangyan",
-      "credit": {
-        "source": "pexels",
-        "author": "Shuaizhi Tian",
-        "sourceUrl": "https://www.pexels.com/photo/serene-pond-with-colorful-fish-and-leaves-36186822/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/36186821/pexels-photo-36186821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/36186821/pexels-photo-36186821.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Police and fire response vehicles parked roadside ready for emergency situations.",
-      "query": "natural landscape China dujiangyan",
-      "credit": {
-        "source": "pexels",
-        "author": "Shuaizhi Tian",
-        "sourceUrl": "https://www.pexels.com/photo/police-and-fire-vehicles-parked-on-city-street-36186821/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "自然",
@@ -100,7 +54,7 @@
       "fetchedAt": "2026-10-06"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -108,5 +62,6 @@
   },
   "_geocodeTitle": "青城后山",
   "_geocodeSuspect": false,
-  "district": "510181"
+  "district": "510181",
+  "_noImage": true
 }

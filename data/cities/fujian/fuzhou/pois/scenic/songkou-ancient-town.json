@@ -44,53 +44,7 @@
     "古街是鹅卵石路，务必穿平底鞋",
     "周一公共展馆闭馆，别挑这天来"
   ],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/38249305/pexels-photo-38249305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38249305/pexels-photo-38249305.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6048,
-      "height": 4024,
-      "alt": "Explore the charm of Shaoxing's ancient architecture and traditional calligraphy.",
-      "query": "Songkou Ancient Town Yongtai",
-      "credit": {
-        "source": "pexels",
-        "author": "Kenny Foo",
-        "sourceUrl": "https://www.pexels.com/photo/historic-stone-bridge-in-shaoxing-ancient-town-38249305/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/29336202/pexels-photo-29336202.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/29336202/pexels-photo-29336202.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5504,
-      "height": 8256,
-      "alt": "Explore a narrow alleyway with historical architecture in China, featuring a distinctive archway.",
-      "query": "Songkou Ancient Town Yongtai",
-      "credit": {
-        "source": "pexels",
-        "author": "Qing Luo",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-alley-with-archway-29336202/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/31237234/pexels-photo-31237234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/31237234/pexels-photo-31237234.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3017,
-      "height": 4026,
-      "alt": "A man in a red cloak walks in the water of a traditional Chinese village, with white buildings and red lanterns lining t",
-      "query": "Songkou Ancient Town Yongtai",
-      "credit": {
-        "source": "pexels",
-        "author": "Alberto Brunello",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-water-village-with-red-lanterns-31237234/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "古镇",
@@ -107,7 +61,7 @@
       "fetchedAt": "2026-10-26"
     }
   ],
-  "updatedAt": "2026-10-26",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Songkou Ancient Town Yongtai",
@@ -115,5 +69,6 @@
   },
   "_geocodeTitle": "嵩口古镇",
   "_geocodeSuspect": false,
-  "district": "350125"
+  "district": "350125",
+  "_noImage": true
 }

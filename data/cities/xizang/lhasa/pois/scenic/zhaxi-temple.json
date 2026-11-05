@@ -41,18 +41,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Zashi_Lhamo_1934.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Zashi_Lhamo_1934.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Chengguan%2C_Lhasa%2C_Tibet%2C_China_-_panoramio_%2811%29.jpg/1280px-Chengguan%2C_Lhasa%2C_Tibet%2C_China_-_panoramio_%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Chengguan%2C_Lhasa%2C_Tibet%2C_China_-_panoramio_%2811%29.jpg/1280px-Chengguan%2C_Lhasa%2C_Tibet%2C_China_-_panoramio_%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
-      "height": 1360,
-      "alt": "Zashi Lhamo 1934.jpg",
-      "query": "扎基寺 拉萨",
+      "height": 720,
+      "alt": "Chengguan, Lhasa, Tibet, China - panoramio (11).jpg",
+      "query": "扎基寺",
       "credit": {
         "source": "wikimedia",
-        "author": "Unknown authorUnknown author",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zashi_Lhamo_1934.jpg",
-        "license": "Public domain",
-        "attributionRequired": false
+        "author": "Chen Zhi",
+        "sourceUrl": "https://zh.wikipedia.org/wiki/扎基寺",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-02",
+        "tier": "exact"
       }
     }
   ],
@@ -71,7 +77,7 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-02",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

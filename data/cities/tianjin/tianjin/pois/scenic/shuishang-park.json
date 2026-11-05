@@ -40,53 +40,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/38333778/pexels-photo-38333778.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38333778/pexels-photo-38333778.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Serene view of traditional Chinese rooftop amidst lush greenery and blue sky.",
-      "query": "Chinese classical garden tianjin",
-      "credit": {
-        "source": "pexels",
-        "author": "Shuaizhi Tian",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-architecture-under-tree-canopy-38333778/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/13128367/pexels-photo-13128367.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/13128367/pexels-photo-13128367.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 2942,
-      "height": 3922,
-      "alt": "Beautiful traditional Chinese architectural structures surrounded by greenery in Tianjin, China.",
-      "query": "Chinese classical garden tianjin",
-      "credit": {
-        "source": "pexels",
-        "author": "Shuaizhi Tian",
-        "sourceUrl": "https://www.pexels.com/photo/garden-and-pavement-13128367/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/33443389/pexels-photo-33443389.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/33443389/pexels-photo-33443389.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Elegant garden path leading to Zhenhai Tower in Tianjin, perfect for travel and architecture enthusiasts.",
-      "query": "Chinese classical garden tianjin",
-      "credit": {
-        "source": "pexels",
-        "author": "Shuaizhi Tian",
-        "sourceUrl": "https://www.pexels.com/photo/tianjin-zhenhai-tower-and-garden-path-33443389/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "公园",
@@ -102,7 +56,7 @@
       "fetchedAt": "2026-09-27"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -110,5 +64,6 @@
   },
   "_geocodeTitle": "水上公园街道",
   "_geocodeSuspect": false,
-  "district": "120104"
+  "district": "120104",
+  "_noImage": true
 }

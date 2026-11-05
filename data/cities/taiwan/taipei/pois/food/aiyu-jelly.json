@@ -40,53 +40,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/12033560/pexels-photo-12033560.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/12033560/pexels-photo-12033560.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6873,
-      "height": 4582,
-      "alt": "A glass of iced black tea with lemon slices and orange jelly cubes on a wooden table.",
-      "query": "Taiwanese aiyu jelly dessert",
-      "credit": {
-        "source": "pexels",
-        "author": "deno wang",
-        "sourceUrl": "https://www.pexels.com/photo/a-drink-in-glass-with-slices-of-lemon-12033560/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/38210856/pexels-photo-38210856.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/38210856/pexels-photo-38210856.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Close-up of a hand holding a cup containing a creamy coconut dessert with sliced toppings.",
-      "query": "Taiwanese aiyu jelly dessert",
-      "credit": {
-        "source": "pexels",
-        "author": "FOX ^.ᆽ.^= ∫",
-        "sourceUrl": "https://www.pexels.com/photo/hand-holding-a-cup-of-coconut-dessert-38210856/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/37146770/pexels-photo-37146770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/37146770/pexels-photo-37146770.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 3637,
-      "alt": "A vibrant Asian dessert in a black bowl showcasing colorful jellies and beans, set on a yellow table.",
-      "query": "Taiwanese aiyu jelly dessert",
-      "credit": {
-        "source": "pexels",
-        "author": "FOX ^.ᆽ.^= ∫",
-        "sourceUrl": "https://www.pexels.com/photo/colorful-asian-dessert-in-black-bowl-on-yellow-table-37146770/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "爱玉",
@@ -102,7 +56,7 @@
       "fetchedAt": "2026-10-03"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Taiwanese aiyu jelly dessert",
@@ -110,5 +64,6 @@
   },
   "_geocodeTitle": "阿胜爱玉冰",
   "_geocodeSuspect": false,
-  "district": "711009"
+  "district": "711009",
+  "_noImage": true
 }

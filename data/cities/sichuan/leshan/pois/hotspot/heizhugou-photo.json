@@ -37,53 +37,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/12077121/pexels-photo-12077121.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/12077121/pexels-photo-12077121.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Foggy mountain landscape with a winding river and dense forest, exuding tranquility and adventure.",
-      "query": "Heizhugou Mystic Valley",
-      "credit": {
-        "source": "pexels",
-        "author": "Evgeny Kochurov",
-        "sourceUrl": "https://www.pexels.com/photo/green-trees-on-mountain-covered-with-fog-12077121/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/8038320/pexels-photo-8038320.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/8038320/pexels-photo-8038320.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6000,
-      "height": 4000,
-      "alt": "Stunning aerial view of a foggy mountain forest, showcasing lush greenery and misty valleys.",
-      "query": "Heizhugou Mystic Valley",
-      "credit": {
-        "source": "pexels",
-        "author": "Meltem Cavusoglu",
-        "sourceUrl": "https://www.pexels.com/photo/green-trees-on-mountain-8038320/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/10176283/pexels-photo-10176283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/10176283/pexels-photo-10176283.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 1869,
-      "height": 2804,
-      "alt": "A stunning aerial view of a mist-covered mountainous landscape, capturing the serene blend of nature and mystery.",
-      "query": "Heizhugou Mystic Valley",
-      "credit": {
-        "source": "pexels",
-        "author": "akın  akdağ",
-        "sourceUrl": "https://www.pexels.com/photo/aerial-photography-of-cloudy-mountains-10176283/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "秘境",
@@ -99,11 +53,12 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Heizhugou Mystic Valley",
     "zh": "黑竹沟秘境"
   },
-  "district": "511132"
+  "district": "511132",
+  "_noImage": true
 }

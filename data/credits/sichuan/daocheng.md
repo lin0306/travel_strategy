@@ -1,6 +1,6 @@
 # 稻城 · 数据来源与图片版权
 
-> 生成于 2026-10-31 · 城市数据最后更新 2026-10-06
+> 生成于 2026-11-05 · 城市数据最后更新 2026-10-06
 
 ## 概览
 
@@ -74,160 +74,97 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Loeng Lig | Unsplash License | [unsplash](https://unsplash.com/photos/city-buildings-under-blue-sky-during-daytime-v5TwMWDaHDI) |
-| 城市封面 | ダモ リ | Unsplash License | [unsplash](https://unsplash.com/photos/a-view-of-a-city-from-the-top-of-a-hill-W2X8IJyI_LU) |
-| 城市封面 | Dave Xu | Unsplash License | [unsplash](https://unsplash.com/photos/city-skyline-during-night-time-0vHPFLQqzSs) |
-| 傍河 | Arcgel Baylon Hinggo | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Intrabenus_Gatong_(Black).jpg) |
-| 傍河 | Arcgel Baylon Hinggo | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Intrabenus_Gatong_(White).jpg) |
+| 城市封面 | liuzusai刘祖赛 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BB%99%E4%B9%83%E6%97%A5%E5%B3%B0_2016_%E7%A8%BB%E5%9F%8E%E4%BA%9A%E4%B8%81_%E5%88%98%E7%A5%96%E8%B5%9B_-_panoramio.jpg) |
+| 城市封面 | liuzusai刘祖赛 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%A1%E5%AD%90%E6%8B%89%E5%B1%B1_2016_%E5%88%98%E7%A5%96%E8%B5%9B_%E7%A8%BB%E5%9F%8E%E4%BA%9A%E4%B8%81_-_panoramio.jpg) |
+| 城市封面 | liuzusai刘祖赛 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%A1%E5%AD%90%E6%8B%89%E5%B1%B1_2016_%E5%88%98%E7%A5%96%E8%B5%9B_%E7%A8%BB%E5%9F%8E%E4%BA%9A%E4%B8%81_-_panoramio_(1).jpg) |
 | 傍河 | liuzusai刘祖赛 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%82%8D%E6%B2%B3_2016_%E5%88%98%E7%A5%96%E8%B5%9B_-_panoramio.jpg) |
+| 傍河 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%82%8D%E6%B2%B3%E4%B9%8B%E7%A7%8B_-_Banghe_River_-_2012.10_-_panoramio.jpg) |
 | 蚌普寺 | https://picasaweb.google.com/gong.wei1980 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Pangphuk.jpg) |
-| 蚌普寺 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%9A%8C%E6%99%AE%E5%AF%BA_-_Benbo_Temple_-_2012.10_-_panoramio.jpg) |
-| 蚌普寺 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%9A%8C%E6%99%AE%E5%AF%BA_-_Benbo_Temple_-_2012.10_-_panoramio_(1).jpg) |
-| 冲古草甸 | liuzusai刘祖赛 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%86%B2%E5%8F%A4%E8%8D%89%E7%94%B8_2016_%E5%88%98%E7%A5%96%E8%B5%9B_-_panoramio.jpg) |
-| 稻城县城 | zi xin | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-temple-with-ornate-rooftop-39556914/) |
-| 稻城县城 | Anderson Wei | Pexels License | [pexels](https://www.pexels.com/photo/modern-building-with-red-conical-roof-against-mountain-39253116/) |
-| 稻城县城 | conghui hou | Pexels License | [pexels](https://www.pexels.com/photo/low-angle-view-of-a-pagoda-6144758/) |
-| 俄初山 | Gamma C3 | Pexels License | [pexels](https://www.pexels.com/photo/stunning-mountain-lake-with-clear-blue-water-33806608/) |
-| 俄初山 | 倩 向 | Pexels License | [pexels](https://www.pexels.com/photo/green-and-gray-mountain-under-blue-sky-14117013/) |
-| 俄初山 | chang | Pexels License | [pexels](https://www.pexels.com/photo/majestic-snow-capped-mountains-at-sunrise-34723853/) |
 | 贡嘎郎吉岭寺 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%B4%A1%E5%98%8E%E9%83%8E%E5%90%89%E5%B2%AD%E5%AF%BA_-_Langjiling_Temple_of_Gongga_-_2012.10_-_panoramio.jpg) |
-| 海子山 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Batang_Haizishan_2014.09.16_17-17-04.jpg) |
 | 海子山 | Jiang Jianhua | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%AD%90%E5%B1%B1_-_Q30023563.jpg) |
-| 海子山 | guan | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%AD%90%E5%B1%B1_-_panoramio.jpg) |
-| 红草滩 | Gamma C3 | Pexels License | [pexels](https://www.pexels.com/photo/stunning-mountain-lake-with-clear-blue-water-33806608/) |
-| 红草滩 | 倩 向 | Pexels License | [pexels](https://www.pexels.com/photo/green-and-gray-mountain-under-blue-sky-14117013/) |
-| 红草滩 | chang | Pexels License | [pexels](https://www.pexels.com/photo/majestic-snow-capped-mountains-at-sunrise-34723853/) |
-| 巨龙乡 | Unknown authorUnknown author | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Railways_%22Julong%22_locomotive_1959.jpg) |
-| 巨龙乡 | Unknown authorUnknown author | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Railways_Julong_locomotive.jpg) |
-| 巨龙乡 | Nissangeniss | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Exit_A,_Julong_Station,_Guangzhou_Metro.jpg) |
+| 海子山 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%AD%90%E5%B1%B1%E4%BF%9D%E6%8A%A4%E5%8C%BA_-_Haizi_Mountain_Protection_Area_-_2012.10_-_panoramio.jpg) |
+| 海子山 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%AD%90%E5%B1%B1%E5%86%B0%E5%B7%9D%E9%81%97%E8%BF%B9_-_Geological_Remains_from_the_Glacial_-_2012.10_-_panoramio.jpg) |
 | 卡斯地狱谷 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%A1%E6%96%AF%E5%9C%B0%E7%8B%B1%E8%B0%B7_-_Kasi_Hell_Valley_-_2012.10_-_panoramio.jpg) |
 | 卡斯地狱谷 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%A1%E6%96%AF%E5%9C%B0%E7%8B%B1%E8%B0%B7_-_Kasi_Hell_Valley_-_2012.10_-_panoramio_(1).jpg) |
 | 卡斯地狱谷 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%A1%E6%96%AF%E5%9C%B0%E7%8B%B1%E8%B0%B7_-_Kasi_Hell_Valley_-_2012.10_-_panoramio_(2).jpg) |
+| 卡斯地狱谷 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%BF%9B%E5%85%A5%E5%8D%A1%E6%96%AF%E5%9C%B0%E7%8B%B1%E8%B0%B7_-_Entrance_of_Kasi_Hell_Valley_-_2012.10_-_panoramio.jpg) |
 | 洛绒牛场 | liuzusai刘祖赛 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B4%9B%E7%BB%92%E7%89%9B%E5%9C%BA_2016_%E5%88%98%E7%A5%96%E8%B5%9B_-_panoramio.jpg) |
-| 牛奶海 | Gamma C3 | Pexels License | [pexels](https://www.pexels.com/photo/stunning-mountain-lake-with-clear-blue-water-33806608/) |
-| 牛奶海 | 倩 向 | Pexels License | [pexels](https://www.pexels.com/photo/green-and-gray-mountain-under-blue-sky-14117013/) |
-| 牛奶海 | chang | Pexels License | [pexels](https://www.pexels.com/photo/majestic-snow-capped-mountains-at-sunrise-34723853/) |
+| 洛绒牛场 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B4%9B%E7%BB%92%E7%89%9B%E5%9C%BA_-_Luorong_Pasture_-_2012.10_-_panoramio.jpg) |
+| 洛绒牛场 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B4%9B%E7%BB%92%E7%89%9B%E5%9C%BA_-_Luorong_Pasture_-_2012.10_-_panoramio_(1).jpg) |
+| 洛绒牛场 | fsyzh | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B4%9B%E7%BB%92%E7%89%9B%E5%9C%BA_-_panoramio.jpg) |
+| 洛绒牛场 | Guyin Lee | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B4%9B%E7%BB%92%E7%89%9B%E5%9C%BAQ30023595.jpg) |
+| 牛奶海 | liuzusai刘祖赛 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%89%9B%E5%A5%B6%E6%B5%B7_2016_%E5%88%98%E7%A5%96%E8%B5%9B_%E7%A8%BB%E5%9F%8E%E4%BA%9A%E4%B8%81_-_panoramio.jpg) |
+| 牛奶海 | liuzusai刘祖赛 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%89%9B%E5%A5%B6%E6%B5%B7_2016_%E5%88%98%E7%A5%96%E8%B5%9B_%E7%A8%BB%E5%9F%8E%E4%BA%9A%E4%B8%81_-_panoramio_(1).jpg) |
+| 牛奶海 | CHENG SHIYI | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%A8%BB%E5%9F%8E%E4%BA%9A%E4%B8%81%E7%89%9B%E5%A5%B6%E6%B5%B7.jpg) |
+| 牛奶海 | Peellden | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gueishan_Island_the_Fumarole.jpg) |
+| 桑堆镇 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%A1%91%E5%A0%86%E4%B9%A1_-_Sandui_Township_-_2012.10_-_panoramio.jpg) |
 | 桑堆镇 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E7%84%B6%E5%B2%A9%E7%94%BB_-_Nature_Cliff_Painting_-_2012.10_-_panoramio.jpg) |
-| 桑堆镇 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A0%E9%87%8F%E6%B2%B3_-_Wuliang_River_-_2012.10_-_panoramio.jpg) |
+| 桑堆镇 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A0%E9%87%8F%E6%B2%B3_-_Wuliang_River_-_2012.10_-_panoramio_(1).jpg) |
 | 桑堆镇 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A0%E9%87%8F%E6%B2%B3%E8%B0%B7_-_Wuliang_River_Valley_-_2012.10_-_panoramio.jpg) |
 | 色拉草原 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%89%B2%E6%8B%89%E8%8D%89%E5%8E%9F_-_Sela_Grassland_-_2012.10_-_panoramio.jpg) |
-| 香格里拉镇 | WiNG | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:HK_Island_Shangri-La_Hotel_Lobby.jpg) |
-| 香格里拉镇 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lijiang%E2%80%94Shangri-la_Railway_at_Jiantang_Town,_Shangri-la_(20230929175646).jpg) |
+| 香格里拉镇 | Island Shangri-La, Hong Kong | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Island_Shangri-La,_Hong_Kong_-_Lobby.jpg) |
+| 香格里拉镇 | No machine-readable author provided. QWB656 assumed (based o | CC BY-SA 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Island_Shangri-La_HK_design.jpg) |
+| 香格里拉镇 | Island Shangri-La, Hong Kong | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Island_Shangri-La_Hong_Kong_Petrus.jpg) |
+| 香格里拉镇 | Ksl.communications | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Kowloon_Shangri-La_Hotel_lobby.jpg) |
 | 香格里拉镇 | Rod Waddington | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Road_to_Shangri-la.jpg) |
-| 五色海 | Dokudami | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gosikidai31.jpg) |
-| 五色海 | Dokudami | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gosikidai32.jpg) |
-| 五色海 | やしまのお城 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Japan_Goshikidai_%E7%80%AC%E6%88%B8%E5%86%85%E6%B5%B7%E6%AD%B4%E5%8F%B2%E6%B0%91%E4%BF%97%E8%B3%87%E6%96%99%E9%A4%A8%EF%BC%88%EF%BC%91%EF%BC%89.jpg) |
+| 五色海 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%94%E8%89%B2%E6%B5%B7(%E7%99%BB%E5%B4%87%E9%94%99)_-_Five_Colors_Lake_-_2012.10_-_panoramio.jpg) |
+| 五色海 | fsyzh | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%94%E8%89%B2%E6%B5%B7_-_panoramio.jpg) |
 | 仙乃日 | liuzusai刘祖赛 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BB%99%E4%B9%83%E6%97%A5%E5%B3%B0_2016_%E7%A8%BB%E5%9F%8E%E4%BA%9A%E4%B8%81_%E5%88%98%E7%A5%96%E8%B5%9B_-_panoramio.jpg) |
-| 仙乃日 | The original uploader was Colonel Warden at English Wikipedi | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chenrezig_Sand_Mandala.jpg) |
-| 仙乃日 | Amitabha Gupta | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chenrezig_alias_Avalokite%C5%9Bvara_statue_at_Sky_Walk_at_Pelling,_West_Sikkim_02.jpg) |
+| 仙乃日 | Wonderlane | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chenrezig_empowerment_seattle_sakya.jpg) |
+| 夏诺多吉 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%8F%E8%AF%BA%E5%A4%9A%E5%90%89%E7%A5%9E%E5%B1%B1_-_Xianuoduoji_Peak_-_2012.10_-_panoramio.jpg) |
 | 夏诺多吉 | Jungne | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Xianuoduoji.jpg) |
-| 夏诺多吉 | Wikimedia Commons 贡献者 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:The_Bodhisattva_Vajrapani_(Tibetan-_Chana_Dorje)_and_His_Consort_LACMA_M.82.42.6.jpg) |
 | 夏诺多吉 | Dcpeets | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yading_Chanadorje-Xianuoduoji_Chonggu_Grassland.jpg) |
-| 兴伊错 | Gamma C3 | Pexels License | [pexels](https://www.pexels.com/photo/stunning-mountain-lake-with-clear-blue-water-33806608/) |
-| 兴伊错 | 倩 向 | Pexels License | [pexels](https://www.pexels.com/photo/green-and-gray-mountain-under-blue-sky-14117013/) |
-| 兴伊错 | chang | Pexels License | [pexels](https://www.pexels.com/photo/majestic-snow-capped-mountains-at-sunrise-34723853/) |
-| 雄登寺 | Abhishek Kumar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Abhishek_Kumar,_Mural_at_Druk_Sang-Ngag_Choling_Monastery,_Darjeeling.jpg) |
-| 雄登寺 | Anjan Kumar Kundu | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Ben_Karma_Choling_Monastery,_Ben_Village_in_South_Sikkim_01.jpg) |
-| 雄登寺 | Anjan Kumar Kundu | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Ben_Karma_Choling_Monastery,_Ben_Village_in_South_Sikkim_02.jpg) |
-| 亚丁村 | 西風 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Daocheng,_Garze,_Sichuan,_China_-_panoramio_(3).jpg) |
-| 亚丁村 | 西風 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Daocheng,_Garze,_Sichuan,_China_-_panoramio_(4).jpg) |
-| 亚丁村 | Izeberg007 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yading_National_Park_Leshitso_Snake_Lake_Risheng_Lake.jpg) |
+| 亚丁村 | Zhanghanphoto | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Autumn_Of_Yading_(179995543).jpeg) |
+| 亚丁村 | Nicolas Richoffer | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Rama_Yade_sports_2009.jpg) |
+| 亚丁村 | Dontworry | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yade-kara-ffm001.jpg) |
+| 亚丁村 | Amrei-Marie | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yade_Yasemin_%C3%96nder_05.jpg) |
+| 亚丁村 | Michael Woodhead | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yading,_Chanadorje.jpg) |
+| 亚丁村 | Michael Woodhead | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yading.jpg) |
 | 稻城亚丁景区 | David.C.LOK | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Daocheng_Yading_scenic_area_gate.jpg) |
+| 央迈勇 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%88%9D%E8%A7%81%E5%A4%AE%E8%BF%88%E5%8B%87_-_First_Sight_of_the_Snow_Mountain_-_2012.10_-_panoramio.jpg) |
 | 央迈勇 | Jungne | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yangmaiyong.jpg) |
-| 央迈勇 | Michael Woodhead | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yading_Jambeyang.jpg) |
 | 央迈勇 | Dcpeets | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yading_Jampelyang-Yangmaiyong.jpg) |
-| 珍珠海 | Gamma C3 | Pexels License | [pexels](https://www.pexels.com/photo/stunning-mountain-lake-with-clear-blue-water-33806608/) |
-| 珍珠海 | 倩 向 | Pexels License | [pexels](https://www.pexels.com/photo/green-and-gray-mountain-under-blue-sky-14117013/) |
-| 珍珠海 | chang | Pexels License | [pexels](https://www.pexels.com/photo/majestic-snow-capped-mountains-at-sunrise-34723853/) |
-| 著杰寺 | Abhishek Kumar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Abhishek_Kumar,_Mural_at_Druk_Sang-Ngag_Choling_Monastery,_Darjeeling.jpg) |
-| 著杰寺 | Anjan Kumar Kundu | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Ben_Karma_Choling_Monastery,_Ben_Village_in_South_Sikkim_01.jpg) |
-| 著杰寺 | Anjan Kumar Kundu | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Ben_Karma_Choling_Monastery,_Ben_Village_in_South_Sikkim_02.jpg) |
-| 尊胜塔林 | Abhishek Kumar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Abhishek_Kumar,_Mural_at_Druk_Sang-Ngag_Choling_Monastery,_Darjeeling.jpg) |
-| 尊胜塔林 | Anjan Kumar Kundu | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Ben_Karma_Choling_Monastery,_Ben_Village_in_South_Sikkim_01.jpg) |
-| 尊胜塔林 | Anjan Kumar Kundu | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Ben_Karma_Choling_Monastery,_Ben_Village_in_South_Sikkim_02.jpg) |
-| 虫草炖鸡 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/cozy-chinese-dining-room-interior-with-round-tables-39389633/) |
-| 虫草炖鸡 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 虫草炖鸡 | Yudi Ding | Pexels License | [pexels](https://www.pexels.com/photo/elegant-asian-lanterns-adorning-traditional-shopfront-36051947/) |
-| 风干牛肉 | No machine-readable author provided. J.P.Lon~commonswiki ass | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Bresaola-Valt-IGP.jpg) |
-| 风干牛肉 | Luca Nebuloni from Milan, Italy | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bresaola_%26_Mozzarella_(5824152348).jpg) |
-| 风干牛肉 | 久保田真音 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bresaola_.jpg) |
-| 高原土豆 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 高原土豆 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 高原土豆 | Mackenzie Ryder | Pexels License | [pexels](https://www.pexels.com/photo/chinese-street-food-in-paper-bowl-6440090/) |
+| 央迈勇 | Michael Woodhead | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yading_outer_kora_trek_-_27930030200.jpg) |
+| 央迈勇 | Michael Woodhead | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yading_outer_kora_trek_-_28133257311.jpg) |
+| 央迈勇 | 归零者 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yangmaiyong,_Daocheng_Banner.jpg) |
+| 珍珠海 | Joachim Huber from Switzerland | CC BY-SA 2.0 | [wikimedia](https://www.wikidata.org/wiki/Q629274) |
+| 著杰寺 | Farm | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Crossoptilon_crossoptilon_at_Daocheng_Sichuan.jpg) |
+| 著杰寺 | Su Shi | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AF%92%E9%A3%9F%E5%B8%96.jpg) |
+| 高原土豆 | Popolon | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jiuzhaigou.Tibetan_meal.jpg) |
 | 牦牛肉 | Popolon | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jiuzhaigou.Tibetan_meal.jpg) |
-| 甜茶 | Epibase | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hydrangea_aspera_Macrophylla1UME.JPG) |
-| 甜茶 | Randy Greve | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Sweet_Tea!.jpg) |
-| 甜茶 | Basheer Tome | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Sweet_Tea_-_3430198511.jpg) |
+| 甜茶 | Dolapo Falola | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Drinking_sweet_tea_(susan).jpg) |
+| 甜茶 | Go-Go | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Festival_Foods_Sweet_Tea.jpg) |
+| 甜茶 | Huhu at de.wikipedia | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Samt-Hortensie_%27Macrophylla%27.JPG) |
+| 甜茶 | Personal Creations | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Southern_Sweet_Tea_(14888897979).jpg) |
+| 甜茶 | Personal Creations | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Southern_Sweet_Tea_(14888994368).jpg) |
+| 甜茶 | Personal Creations | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Southern_Sweet_Tea_(15075234612).jpg) |
 | 青稞饼 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E7%A8%9E%E9%A5%BC.jpg) |
-| 青稞酒 | Jpatokal | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chang_Tibetan_barley_wine.jpg) |
+| 青稞酒 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E7%A8%9E%E9%85%92%E5%92%8C%E9%85%A5%E6%B2%B9%E8%8C%B6.jpg) |
 | 青稞酒 | James Heilman | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:ChangeDrink.JPG) |
-| 青稞酒 | Gaurav_Dhwaj_Khadka | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chhaang.jpg) |
-| 石锅鸡 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/cozy-chinese-dining-room-interior-with-round-tables-39389633/) |
-| 石锅鸡 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 石锅鸡 | Yudi Ding | Pexels License | [pexels](https://www.pexels.com/photo/elegant-asian-lanterns-adorning-traditional-shopfront-36051947/) |
-| 松茸 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/cozy-chinese-dining-room-interior-with-round-tables-39389633/) |
-| 松茸 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 松茸 | Yudi Ding | Pexels License | [pexels](https://www.pexels.com/photo/elegant-asian-lanterns-adorning-traditional-shopfront-36051947/) |
-| 酸奶 | Abdulsalam Al Dabbagh | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Iraqi_Sheep_Yogurt-Mosul.jpg) |
+| 青稞酒 | Sharada Prasad CS from Berkeley, India | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chhyang_or_Chhaang_-_Fermented_rice_drink!_(8902831091).jpg) |
+| 青稞酒 | Jweatherley | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Tongba.jpg) |
+| 松茸 | This image was created by user Ryane Snow (snowman) at Mushr | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2010-08-06_Tricholoma_matsutake_(S._Ito_%26_S._Imai)_Singer_97082.jpg) |
+| 松茸 | This image was created by user Ryane Snow (snowman) at Mushr | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2010-08-06_Tricholoma_matsutake_(S._Ito_%26_S._Imai)_Singer_97083.jpg) |
+| 松茸 | This image was created by user Ryane Snow (snowman) at Mushr | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2010-08-06_Tricholoma_matsutake_(S._Ito_%26_S._Imai)_Singer_97084.jpg) |
+| 松茸 | Yu Morita | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:American_Matsutake_mushroom_with_Tokushiman_Sudachi_in_2009.jpg) |
+| 松茸 | Vmenkov | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:E8975-Namdaemun-ginseng-and-matsutake-shop.jpg) |
+| 酸奶 | Missvain | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Granola_and_yogurt_-_Bubbles_%2B_Brunch_2018_-_Sarah_Stierch_02_cropped.jpg) |
 | 酸奶 | No machine-readable author provided. Rainer Zenz assumed (ba | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Joghurt.jpg) |
-| 酸奶 | Zenyrgarden | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Whisking_soy_yogurt.jpg) |
-| 酥油茶 | 《人民画报》 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:1962-04_1962%E5%B9%B4_%E8%97%8F%E6%97%8F%E4%BA%BA%E5%96%9D%E9%85%A5%E6%B2%B9%E8%8C%B6.jpg) |
-| 酥油茶 | Gaurav Dhwaj Khadka | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Butter_Milk_Tea.jpg) |
-| 酥油茶 | User: (WT-shared) Shoestring at wts wikivoyage | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Butter_tea,_Bhutan.JPG) |
-| 血肠 | Roy Zuo | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:(20260106)_Delikatess_Fleischrotwurst_01.jpg) |
-| 血肠 | Roy Zuo | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:(20260106)_Delikatess_Fleischrotwurst_02.jpg) |
-| 血肠 | Sergey A. Demidov | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260915_Blood_sausage_in_Minsk.jpg) |
-| 糌粑 | Jan Reurink | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Pelkhor_Chode_Gyantse.jpg) |
+| 酸奶 | Mr.ちゅらさん | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Meiji_Milk_LG21_Yogurt.jpg) |
+| 酥油茶 | Ernst Schäfer | CC BY-SA 3.0 de | [wikimedia](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_135-S-17-18-39,_Tibetexpedition,_M%C3%B6nche_beim_Teetrinken.jpg) |
+| 酥油茶 | John Hill (talk) | CC BY-SA 3.0 | [wikimedia](https://www.wikidata.org/wiki/Q989930) |
+| 酥油茶 | Yosomono | CC BY 2.0 | [wikimedia](https://www.wikidata.org/wiki/Q989930) |
+| 血肠 | Sergey A. Demidov | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260915_Blood_sausage_in_Minsk_(17909).jpg) |
+| 血肠 | MTG-Gewürze | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Aus_Blutpulver_hergestellte_Blutwurst.jpg) |
+| 血肠 | Slastic | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Bisbe.jpg) |
+| 血肠 | Pingnova | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Blood_Hmong_sausage.jpg) |
+| 血肠 | Gvjekoslav | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Blood_sausage_hrvatska.jpg) |
+| 糌粑 | Eric Traub | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Quiet_Nourishment_(61036644).jpeg) |
 | 糌粑 | Leeinm | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:The_Zang_nationality%E2%80%99s_breakfast.jpg) |
-| 糌粑 | Dennis G. Jarvis | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Tibet_-_6017_-_Grinding_wheel_powered_by_water_for_grinding_Tibetan_native_barley_into_tsampa.jpg) |
-| 藏式火锅 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/cozy-chinese-dining-room-interior-with-round-tables-39389633/) |
-| 藏式火锅 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 藏式火锅 | Yudi Ding | Pexels License | [pexels](https://www.pexels.com/photo/elegant-asian-lanterns-adorning-traditional-shopfront-36051947/) |
-| 藏香猪 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/cozy-chinese-dining-room-interior-with-round-tables-39389633/) |
-| 藏香猪 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 藏香猪 | Yudi Ding | Pexels License | [pexels](https://www.pexels.com/photo/elegant-asian-lanterns-adorning-traditional-shopfront-36051947/) |
-| 白塔机位 | Greece-China  News | Pexels License | [pexels](https://www.pexels.com/photo/wet-street-through-the-town-on-a-rainy-autumn-day-16182259/) |
-| 白塔机位 | Yudi Ding | Pexels License | [pexels](https://www.pexels.com/photo/idyllic-tibetan-town-at-golden-hour-38352123/) |
-| 白塔机位 | Anderson Wei | Pexels License | [pexels](https://www.pexels.com/photo/modern-building-with-red-conical-roof-against-mountain-39253116/) |
-| 傍河杨林机位 | Greece-China  News | Pexels License | [pexels](https://www.pexels.com/photo/wet-street-through-the-town-on-a-rainy-autumn-day-16182259/) |
-| 傍河杨林机位 | Yudi Ding | Pexels License | [pexels](https://www.pexels.com/photo/idyllic-tibetan-town-at-golden-hour-38352123/) |
-| 傍河杨林机位 | Anderson Wei | Pexels License | [pexels](https://www.pexels.com/photo/modern-building-with-red-conical-roof-against-mountain-39253116/) |
-| 冲古草甸机位 | Greece-China  News | Pexels License | [pexels](https://www.pexels.com/photo/wet-street-through-the-town-on-a-rainy-autumn-day-16182259/) |
-| 冲古草甸机位 | Yudi Ding | Pexels License | [pexels](https://www.pexels.com/photo/idyllic-tibetan-town-at-golden-hour-38352123/) |
-| 冲古草甸机位 | Anderson Wei | Pexels License | [pexels](https://www.pexels.com/photo/modern-building-with-red-conical-roof-against-mountain-39253116/) |
-| 稻城星空 | Greece-China  News | Pexels License | [pexels](https://www.pexels.com/photo/wet-street-through-the-town-on-a-rainy-autumn-day-16182259/) |
-| 稻城星空 | Yudi Ding | Pexels License | [pexels](https://www.pexels.com/photo/idyllic-tibetan-town-at-golden-hour-38352123/) |
-| 稻城星空 | Anderson Wei | Pexels License | [pexels](https://www.pexels.com/photo/modern-building-with-red-conical-roof-against-mountain-39253116/) |
-| 海子山机位 | Greece-China  News | Pexels License | [pexels](https://www.pexels.com/photo/wet-street-through-the-town-on-a-rainy-autumn-day-16182259/) |
-| 海子山机位 | Yudi Ding | Pexels License | [pexels](https://www.pexels.com/photo/idyllic-tibetan-town-at-golden-hour-38352123/) |
-| 海子山机位 | Anderson Wei | Pexels License | [pexels](https://www.pexels.com/photo/modern-building-with-red-conical-roof-against-mountain-39253116/) |
-| 红草滩机位 | Greece-China  News | Pexels License | [pexels](https://www.pexels.com/photo/wet-street-through-the-town-on-a-rainy-autumn-day-16182259/) |
-| 红草滩机位 | Yudi Ding | Pexels License | [pexels](https://www.pexels.com/photo/idyllic-tibetan-town-at-golden-hour-38352123/) |
-| 红草滩机位 | Anderson Wei | Pexels License | [pexels](https://www.pexels.com/photo/modern-building-with-red-conical-roof-against-mountain-39253116/) |
-| 洛绒牛场机位 | Greece-China  News | Pexels License | [pexels](https://www.pexels.com/photo/wet-street-through-the-town-on-a-rainy-autumn-day-16182259/) |
-| 洛绒牛场机位 | Yudi Ding | Pexels License | [pexels](https://www.pexels.com/photo/idyllic-tibetan-town-at-golden-hour-38352123/) |
-| 洛绒牛场机位 | Anderson Wei | Pexels License | [pexels](https://www.pexels.com/photo/modern-building-with-red-conical-roof-against-mountain-39253116/) |
-| 牛奶海机位 | Greece-China  News | Pexels License | [pexels](https://www.pexels.com/photo/wet-street-through-the-town-on-a-rainy-autumn-day-16182259/) |
-| 牛奶海机位 | Yudi Ding | Pexels License | [pexels](https://www.pexels.com/photo/idyllic-tibetan-town-at-golden-hour-38352123/) |
-| 牛奶海机位 | Anderson Wei | Pexels License | [pexels](https://www.pexels.com/photo/modern-building-with-red-conical-roof-against-mountain-39253116/) |
-| 三神山机位 | Greece-China  News | Pexels License | [pexels](https://www.pexels.com/photo/wet-street-through-the-town-on-a-rainy-autumn-day-16182259/) |
-| 三神山机位 | Yudi Ding | Pexels License | [pexels](https://www.pexels.com/photo/idyllic-tibetan-town-at-golden-hour-38352123/) |
-| 三神山机位 | Anderson Wei | Pexels License | [pexels](https://www.pexels.com/photo/modern-building-with-red-conical-roof-against-mountain-39253116/) |
-| 亚丁村机位 | Greece-China  News | Pexels License | [pexels](https://www.pexels.com/photo/wet-street-through-the-town-on-a-rainy-autumn-day-16182259/) |
-| 亚丁村机位 | Yudi Ding | Pexels License | [pexels](https://www.pexels.com/photo/idyllic-tibetan-town-at-golden-hour-38352123/) |
-| 亚丁村机位 | Anderson Wei | Pexels License | [pexels](https://www.pexels.com/photo/modern-building-with-red-conical-roof-against-mountain-39253116/) |
-| 稻城老街 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-street-with-red-lanterns-32700828/) |
-| 稻城老街 | gang liang | Pexels License | [pexels](https://www.pexels.com/photo/historic-street-scene-in-ancient-chinese-city-36473865/) |
-| 稻城老街 | fei wang | Pexels License | [pexels](https://www.pexels.com/photo/clouds-over-street-in-village-14553029/) |
-| 经幡玛尼堆 | Shizhao | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%8E%9B%E5%B0%BC%E5%A0%86%E7%BB%8F%E5%B9%A1.jpg) |
-| 唐卡绘制 | fish4fish | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20120730%E7%94%98%E8%82%83%E5%85%B0%E5%B7%9E%E9%BB%84%E6%B2%B3%E5%8C%97%E5%B2%B8%E7%99%BD%E5%A1%94%E5%B1%B1%E4%B8%8B%E5%8D%9A%E7%89%A9%E9%A6%86%E5%B1%95%E5%AE%A4%E5%9C%BA%E6%99%AF%E7%BB%98%E5%88%B6%E5%94%90%E5%8D%A1_-_panoramio.jpg) |
-| 唐卡绘制 | Lavanha, João Baptista, 1555-1624 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Map_of_the_Kingdom_of_Aragon_by_Juan_Bautista_Laba%C3%B1a_WDL7325.png) |
-| 藏传佛教寺院 | Stanzin1945 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A_young_monk_at_the_Hemis_monastery_in_Ladakh..jpg) |
-| 藏传佛教寺院 | Aleksandr Zykov | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Aleksandr_Zykov,_Prayer_Wheels_in_Tibetan_Buddhist_Monastery,_Sarnath.jpg) |
+| 糌粑 | Dennis G. Jarvis | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Tibet_-_6013_-_Tibetan_native_barley_awaiting_grinding_into_tsampa_at_a_Tibet_Autonomous_Region_Grinding_Mill.jpg) |
+| 糌粑 | Matt Ming from Beijing, China | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Tibetan_Tsampa_Preparation_(11622364794).jpg) |
 | 藏传佛教寺院 | Aleksandr Zykov | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Aleksandr_Zykov,_Temple_Doors,_Tibetan_Buddhist_Monastery,_Sarnath.jpg) |
-| 藏式节庆 | Alexandra  Lavizzari | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-opera-performer-in-costume-36422762/) |
-| 藏式节庆 | Long Bà Mùi | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-opera-performer-backstage-37397775/) |
-| 藏式节庆 | Quang Nguyen Vinh | Pexels License | [pexels](https://www.pexels.com/photo/chinese-opera-performer-wearing-face-paint-14010688/) |
-| 转山转湖 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-street-with-red-lanterns-32700828/) |
-| 转山转湖 | gang liang | Pexels License | [pexels](https://www.pexels.com/photo/historic-street-scene-in-ancient-chinese-city-36473865/) |
-| 转山转湖 | fei wang | Pexels License | [pexels](https://www.pexels.com/photo/clouds-over-street-in-village-14553029/) |
+| 藏传佛教寺院 | Tenace10 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Buddhist_Ceremonial_site_near_Lake_Ximencuo_on_the_Tibetan_Plateau.jpg) |
+| 藏传佛教寺院 | Dialog Center Images | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dialog_Center_Images,_Entrance_to_Tibetan_Buddhist_Monastery,_Sarnath_1605.jpg) |
+| 藏传佛教寺院 | Shrikant Bansod | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Himalayan_Nyinmapa_Tibetan_Buddhist_Monastery_(2).jpg) |
+| 藏传佛教寺院 | InOutPeaceProject | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:InOutPeaceProject,_Buddha_Statue_in_Tibetan_Buddhist_Monastery,_Sarnath.jpg) |

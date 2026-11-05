@@ -1,6 +1,6 @@
 # 登封 · 数据来源与图片版权
 
-> 生成于 2026-10-31 · 城市数据最后更新 2026-10-07
+> 生成于 2026-11-05 · 城市数据最后更新 2026-10-07
 
 ## 概览
 
@@ -77,35 +77,30 @@
 | 城市封面 | Emile Guillemot | Unsplash License | [unsplash](https://unsplash.com/photos/birds-eye-view-photography-of-boats-near-houses-ARosbKOjd68) |
 | 城市封面 | zhang kaiyv | Unsplash License | [unsplash](https://unsplash.com/photos/aerial-photography-of-city-escape-during-golden-hour-Ca898f7Rbn8) |
 | 城市封面 | zhang kaiyv | Unsplash License | [unsplash](https://unsplash.com/photos/a-view-of-a-city-from-across-a-lake-LL2dNVqwVfo) |
-| 白沙湖（白沙水库） | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B8%83%E4%BC%A6%E5%8F%A3%E6%B0%B4%E5%BA%93(%E7%99%BD%E6%B2%99%E6%B9%96)_-_Bulungkol_Reservoir_(White_Sand_Lake)_-_2015.04_-_panoramio.jpg) |
-| 白沙湖（白沙水库） | Hiroki Ogawa | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lake_Bulungkol_Karakoram_Highway_Kyrgyz_Xinjiang_China_%E6%96%B0%E7%96%86_%E5%90%89%E7%88%BE%E5%90%89%E6%96%AF_%E5%96%80%E5%96%87%E6%98%86%E4%BB%91%E5%85%AC%E8%B7%AF_%E7%99%BD%E6%B2%99%E6%B9%96_-_panoramio.jpg) |
-| 白沙湖（白沙水库） | Hiroki Ogawa | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lake_Bulungkol_Karakoram_Highway_Kyrgyz_Xinjiang_China_%E6%96%B0%E7%96%86_%E5%90%89%E7%88%BE%E5%90%89%E6%96%AF_%E5%96%80%E5%96%87%E6%98%86%E4%BB%91%E5%85%AC%E8%B7%AF_%E7%99%BD%E6%B2%99%E6%B9%96_-_panoramio_(1).jpg) |
 | 八龙潭 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%85%AB%E9%BE%99%E5%9D%9D.jpg) |
-| 朝阳沟 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250806_Chaoqi_Railway_-_Chaoyanggou_Station_01.jpg) |
-| 朝阳沟 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250806_Chaoqi_Railway_-_Chaoyanggou_Station_02.jpg) |
-| 朝阳沟 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250806_Chaoqi_Railway_-_Chaoyanggou_Station_03.jpg) |
 | 崇福宫 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20231119_Chongfu_Palace_Taoist_Temple_05.jpg) |
+| 崇福宫 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 崇福宫 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 崇福宫 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 崇福宫 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 崇福宫 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 初祖庵 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20241103_Chuzu_Temple_02.jpg) |
 | 初祖庵 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20241103_Chuzu_Temple_07.jpg) |
 | 初祖庵 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20241103_Chuzu_Temple_09.jpg) |
-| 达摩洞 | Zhangmoon618 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%BB%B4%E8%A5%BF%E8%BE%BE%E6%91%A9%E7%A5%96%E5%B8%88%E6%B4%9E01.jpg) |
-| 达摩洞 | Zhangmoon618 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%BB%B4%E8%A5%BF%E8%BE%BE%E6%91%A9%E7%A5%96%E5%B8%88%E6%B4%9E02.jpg) |
-| 达摩洞 | Zhangmoon618 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%BB%B4%E8%A5%BF%E8%BE%BE%E6%91%A9%E7%A5%96%E5%B8%88%E6%B4%9E03.jpg) |
-| 大熊山仙人谷 | Ala J Graczyk | Pexels License | [pexels](https://www.pexels.com/photo/green-mountains-beside-lake-6735549/) |
-| 大熊山仙人谷 | SONIC | Pexels License | [pexels](https://www.pexels.com/photo/hand-holding-notebook-with-building-symbol-12156042/) |
-| 大熊山仙人谷 | 何 夏 | Pexels License | [pexels](https://www.pexels.com/photo/forest-on-hill-at-sunset-18619067/) |
-| 范家门 | 陳寅恪 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B2%88%E5%B0%B9%E9%BB%98%E3%80%8A%E5%8C%8F%E7%93%9C%E5%BA%B5%E8%B0%88%E8%89%BA%E5%BD%95%E3%80%8B%E6%89%8B%E7%A8%BF%E9%87%8A%E6%96%871.jpg) |
-| 范家门 | 陳寅恪 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B2%88%E5%B0%B9%E9%BB%98%E3%80%8A%E5%8C%8F%E7%93%9C%E5%BA%B5%E8%B0%88%E8%89%BA%E5%BD%95%E3%80%8B%E6%89%8B%E7%A8%BF%E9%87%8A%E6%96%8710.jpg) |
-| 范家门 | 陳寅恪 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B2%88%E5%B0%B9%E9%BB%98%E3%80%8A%E5%8C%8F%E7%93%9C%E5%BA%B5%E8%B0%88%E8%89%BA%E5%BD%95%E3%80%8B%E6%89%8B%E7%A8%BF%E9%87%8A%E6%96%872.jpg) |
+| 达摩洞 | 折金扇 | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Damo_Cave,_Mount_Song,_Henan,_China.jpg) |
+| 达摩洞 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%BE%BE%E6%91%A9%E6%B4%9E_-_Dharma_Cave_-_2011.09_-_panoramio.jpg) |
 | 法王寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250629_Fawang_Temple_01.jpg) |
 | 法王寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250629_Fawang_Temple_02.jpg) |
 | 法王寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250629_Fawang_Temple_03.jpg) |
 | 观星台 | Gary Todd from Xinzheng, China | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:1276_AD_Yuan_Dynasty_Gaocheng_Astronomical_Observatory,_Dengfeng,_China_(10202362455).jpg) |
 | 观星台 | Gary Todd | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:1276_AD_Yuan_Dynasty_Gaocheng_Astronomical_Observatory,_Dengfeng,_China_01.jpg) |
 | 观星台 | Gary Todd | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:1276_AD_Yuan_Dynasty_Gaocheng_Astronomical_Observatory,_Dengfeng,_China_02.jpg) |
-| 汉三阙（太室阙·少室阙·启母阙） | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:15279-Dengfeng_(48549691437).jpg) |
-| 汉三阙（太室阙·少室阙·启母阙） | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:15298-Dengfeng_(48549692527).jpg) |
-| 汉三阙（太室阙·少室阙·启母阙） | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:15338-Dengfeng_(48549547536).jpg) |
+| 汉三阙（太室阙·少室阙·启母阙） | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 汉三阙（太室阙·少室阙·启母阙） | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 汉三阙（太室阙·少室阙·启母阙） | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 汉三阙（太室阙·少室阙·启母阙） | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 汉三阙（太室阙·少室阙·启母阙） | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 汉三阙（太室阙·少室阙·启母阙） | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 会善寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20231119_Huishan_Temple_05.jpg) |
 | 会善寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250727_Huishan_Temple_01.jpg) |
 | 会善寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250727_Huishan_Temple_06.jpg) |
@@ -115,126 +110,75 @@
 | 老君洞 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20240525_Laojun_Cave_01.jpg) |
 | 老君洞 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20240525_Laojun_Cave_02.jpg) |
 | 老君洞 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20240525_Laojun_Cave_03.jpg) |
-| 卢崖瀑布 | guan | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%A2%E5%B4%96%E7%80%91%E5%B8%83_-_panoramio.jpg) |
 | 卢崖瀑布 | guan | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%A2%E5%B4%96%E7%80%91%E5%B8%83_-_panoramio_-_guan.jpg) |
-| 三皇寨 | Ala J Graczyk | Pexels License | [pexels](https://www.pexels.com/photo/green-mountains-beside-lake-6735549/) |
-| 三皇寨 | SONIC | Pexels License | [pexels](https://www.pexels.com/photo/hand-holding-notebook-with-building-symbol-12156042/) |
-| 三皇寨 | 何 夏 | Pexels License | [pexels](https://www.pexels.com/photo/forest-on-hill-at-sunset-18619067/) |
-| 少林寺 | Miguel Discart & Kiri Karma | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shaolin_Monastery_2009-07-08_15-14-44_DSC-H2_DSC08516_(46307759875).jpg) |
-| 少林寺 | Miguel Discart & Kiri Karma | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shaolin_Monastery_2009-07-08_15-15-36_DSC-H2_DSC08517_(40257117933).jpg) |
-| 少林寺 | Miguel Discart & Kiri Karma | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shaolin_Monastery_2009-07-08_15-44-22_DSC-H2_DSC08574_(46307789505).jpg) |
-| 少室山 | Ala J Graczyk | Pexels License | [pexels](https://www.pexels.com/photo/green-mountains-beside-lake-6735549/) |
-| 少室山 | SONIC | Pexels License | [pexels](https://www.pexels.com/photo/hand-holding-notebook-with-building-symbol-12156042/) |
-| 少室山 | 何 夏 | Pexels License | [pexels](https://www.pexels.com/photo/forest-on-hill-at-sunset-18619067/) |
+| 三皇寨 | 山海风 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 三皇寨 | 山海风 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 三皇寨 | 山海风 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 少林寺 | User:Yaoleilei | CC BY-SA 3.0 | [wikimedia](https://www.wikidata.org/wiki/Q232771) |
+| 少林寺 | Aaron Zhu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 少林寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 少林寺 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 少林寺 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 少林寺 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 少室山 | Aaron Zhu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 少室山 | 山海风 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 少室山 | Aaron Zhu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 少室山 | 山海风 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 少室山 | Aaron Zhu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 少室山 | 山海风 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 嵩山世界地质公园 | Woudloper | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hikers_in_Taishi_Shan_Jingqu_on_Song_Shan.jpg) |
 | 嵩山世界地质公园 | Huangdan2060 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mount_Song,_June_2018,_Picture6.jpg) |
 | 嵩山世界地质公园 | Gary Todd | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Song_Shan_01_(Song_Mountain).jpg) |
-| 嵩阳书院 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250629_Songyang_Academy_01.jpg) |
 | 嵩阳书院 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250629_Songyang_Academy_02.jpg) |
 | 嵩阳书院 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250629_Songyang_Academy_03.jpg) |
 | 嵩岳寺塔 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250629_Pagoda_of_Songyue_Temple_01.jpg) |
 | 嵩岳寺塔 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250629_Pagoda_of_Songyue_Temple_03.jpg) |
 | 嵩岳寺塔 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250629_Pagoda_of_Songyue_Temple_04.jpg) |
-| 太室山（峻极峰） | Acot一杯茶 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%99%BB%E5%B0%81%E4%B8%9C%E6%B1%89%E5%A4%AA%E5%AE%A4%E9%98%99.jpg) |
-| 少林寺塔林 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:15279-Dengfeng_(48549691437).jpg) |
-| 少林寺塔林 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:15298-Dengfeng_(48549692527).jpg) |
-| 少林寺塔林 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:15338-Dengfeng_(48549547536).jpg) |
+| 少林寺塔林 | 山海风 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 少林寺塔林 | 山海风 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 少林寺塔林 | 张骐 | Public domain | [wikimedia](https://www.wikidata.org/wiki/Q1081096) |
+| 少林寺塔林 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20241103_Pagoda_Forest_of_Shaolin_Temple_01.jpg) |
+| 少林寺塔林 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20241103_Pagoda_Forest_of_Shaolin_Temple_02.jpg) |
+| 少林寺塔林 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20241103_Pagoda_Forest_of_Shaolin_Temple_03.jpg) |
 | 永泰寺 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B0%B8%E6%B3%B0%E5%AF%BA_-_panoramio.jpg) |
 | 永泰寺 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B0%B8%E6%B3%B0%E5%AF%BA_-_panoramio_(1).jpg) |
-| 永泰寺 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B0%B8%E6%B3%B0%E5%AF%BA%E5%81%9C%E8%BD%A6%E5%8C%BA_-_panoramio.jpg) |
-| 摘星楼 | Dave Pape | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Mammillaria_polythele_-_Desert_Botanical_Garden.jpg) |
-| 摘星楼 | Dragonglow | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Mammillaria_polythele_1.jpg) |
-| 摘星楼 | Dragonglow | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Mammillaria_polythele_2.jpg) |
 | 中岳庙 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260120_Zhongyue_Temple_04.jpg) |
 | 中岳庙 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260120_Zhongyue_Temple_05.jpg) |
 | 中岳庙 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260120_Zhongyue_Temple_07.jpg) |
-| 炒焖子 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 炒焖子 | FOX ^.ᆽ.^= ∫ | Pexels License | [pexels](https://www.pexels.com/photo/meal-on-a-plate-11259688/) |
-| 炒焖子 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 登封芥丝 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 登封芥丝 | FOX ^.ᆽ.^= ∫ | Pexels License | [pexels](https://www.pexels.com/photo/meal-on-a-plate-11259688/) |
-| 登封芥丝 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 登封夜市（守敬路美食街） | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 登封夜市（守敬路美食街） | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 登封夜市（守敬路美食街） | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/cozy-chinese-dining-room-interior-with-round-tables-39389633/) |
+| 中岳庙 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 中岳庙 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 中岳庙 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 饸饹面 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mutton_Hele_noodles_at_Jiushi_Mutton_Soup_Restaurant,_Gongyi_Xiqiao_(20210721125316).jpg) |
 | 胡辣汤 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20210708_Henan-style_Hulatang.jpg) |
 | 胡辣汤 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20220408_Yao_Youliang_Hulatang_Restaurant.jpg) |
 | 胡辣汤 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20240826_Hulatang_in_Xiaoyao_Town.jpg) |
-| 浆面条 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 浆面条 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 浆面条 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/cozy-chinese-dining-room-interior-with-round-tables-39389633/) |
-| 焦盖烧饼 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 焦盖烧饼 | FOX ^.ᆽ.^= ∫ | Pexels License | [pexels](https://www.pexels.com/photo/meal-on-a-plate-11259688/) |
-| 焦盖烧饼 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 卤肉夹馍 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 卤肉夹馍 | FOX ^.ᆽ.^= ∫ | Pexels License | [pexels](https://www.pexels.com/photo/meal-on-a-plate-11259688/) |
-| 卤肉夹馍 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 少林禅茶 | Afitab | Pexels License | [pexels](https://www.pexels.com/photo/cups-hanging-on-the-wall-14517408/) |
-| 少林禅茶 | Sóc Năng Động | Pexels License | [pexels](https://www.pexels.com/photo/cozy-cafe-corner-with-lamp-and-chair-32354649/) |
-| 少林禅茶 | eran design | Pexels License | [pexels](https://www.pexels.com/photo/modern-cafe-interior-with-greenery-and-natural-light-35215424/) |
-| 少林素斋 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 少林素斋 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 少林素斋 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/cozy-chinese-dining-room-interior-with-round-tables-39389633/) |
-| 石花凉粉 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/traditional-street-food-stall-with-customer-29714906/) |
-| 石花凉粉 | FOX ^.ᆽ.^= ∫ | Pexels License | [pexels](https://www.pexels.com/photo/meal-on-a-plate-11259688/) |
-| 石花凉粉 | Jaime Hernandez Erives | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-chinese-street-food-stall-in-shenzhen-33845523/) |
-| 嵩山柴鸡炖蘑菇 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 嵩山柴鸡炖蘑菇 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 嵩山柴鸡炖蘑菇 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/cozy-chinese-dining-room-interior-with-round-tables-39389633/) |
-| 嵩山野菜 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 嵩山野菜 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 嵩山野菜 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/cozy-chinese-dining-room-interior-with-round-tables-39389633/) |
-| 羊肉烩面 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20210628_A_bowl_of_Huimian_with_curry_soup.jpg) |
-| 羊肉烩面 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20211219_Fangcheng-style_Qiangguo_Huimian.jpg) |
 | 羊肉烩面 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20230217_Laoqinji_Smelly_Huimian_in_Xinxiang.jpg) |
-| 羊肉汤 | TIANYUN XIA | Pexels License | [pexels](https://www.pexels.com/photo/cozy-asian-dining-room-with-bamboo-furniture-32686464/) |
-| 羊肉汤 | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-asian-restaurant-interior-with-red-decor-37047965/) |
-| 羊肉汤 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/cozy-chinese-dining-room-interior-with-round-tables-39389633/) |
-| 观星台周公测景台 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:15308-Dengfeng_(49068292221).jpg) |
-| 观星台周公测景台 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:15321-Dengfeng_(49068292746).jpg) |
-| 观星台周公测景台 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:15404-Dengfeng_(49067776258).jpg) |
-| 达摩洞石刻与牌坊 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:15308-Dengfeng_(49068292221).jpg) |
-| 达摩洞石刻与牌坊 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:15321-Dengfeng_(49068292746).jpg) |
-| 达摩洞石刻与牌坊 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:15404-Dengfeng_(49067776258).jpg) |
-| 卢崖瀑布秋色 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:15308-Dengfeng_(49068292221).jpg) |
-| 卢崖瀑布秋色 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:15321-Dengfeng_(49068292746).jpg) |
-| 卢崖瀑布秋色 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:15404-Dengfeng_(49067776258).jpg) |
-| 三皇寨悬空栈道 | ainc T | Pexels License | [pexels](https://www.pexels.com/photo/busy-urban-street-in-jingzhou-hubei-china-36487247/) |
-| 三皇寨悬空栈道 | Andy Lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-street-with-red-flags-displayed-34099283/) |
-| 三皇寨悬空栈道 | JUNLIN ZOU | Pexels License | [pexels](https://www.pexels.com/photo/urban-street-with-modern-architecture-and-streetlamps-37682272/) |
+| 达摩洞石刻与牌坊 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%BE%BE%E6%91%A9%E6%B4%9E%E5%8D%81%E5%85%AB%E6%99%AF_-_Dharma_Cave_and_Eighteen_Attractions_-_2010.08_-_panoramio.jpg) |
+| 三皇寨悬空栈道 | 山海风 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 三皇寨悬空栈道 | 山海风 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 三皇寨悬空栈道 | 山海风 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 三皇寨悬空栈道 | 山海风 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 三皇寨悬空栈道 | 山海风 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 三皇寨悬空栈道 | 山海风 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 少林寺山门 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20241103_Gate_of_Shaolin_Temple.jpg) |
 | 少林寺山门 | Aaron Zhu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shaolin_Temple_%E5%B0%91%E6%9E%97%E5%AF%BA%E5%B1%B1%E9%97%A8_-_panoramio.jpg) |
-| 少室山日落 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:15308-Dengfeng_(49068292221).jpg) |
-| 少室山日落 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:15321-Dengfeng_(49068292746).jpg) |
-| 少室山日落 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:15404-Dengfeng_(49067776258).jpg) |
+| 少林寺山门 | Gusmilazzo | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 嵩阳书院将军柏 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250629_Songyang_Academy_06.jpg) |
 | 嵩阳书院将军柏 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250629_Songyang_Academy_07.jpg) |
 | 嵩阳书院将军柏 | Nyx Ning | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B2%B3%E5%8D%97_%E7%99%BB%E5%B0%81_%E5%B5%A9%E9%98%B3%E4%B9%A6%E9%99%A2_%E5%B0%86%E5%86%9B%E6%9F%8F_-_panoramio.jpg) |
 | 嵩岳寺塔 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250629_Pagoda_of_Songyue_Temple_01.jpg) |
 | 嵩岳寺塔 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250629_Pagoda_of_Songyue_Temple_03.jpg) |
 | 嵩岳寺塔 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250629_Pagoda_of_Songyue_Temple_04.jpg) |
-| 塔林夕照 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:15308-Dengfeng_(49068292221).jpg) |
-| 塔林夕照 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:15321-Dengfeng_(49068292746).jpg) |
-| 塔林夕照 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:15404-Dengfeng_(49067776258).jpg) |
-| 中岳庙铁人与古柏 | ainc T | Pexels License | [pexels](https://www.pexels.com/photo/busy-urban-street-in-jingzhou-hubei-china-36487247/) |
-| 中岳庙铁人与古柏 | Andy Lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-street-with-red-flags-displayed-34099283/) |
-| 中岳庙铁人与古柏 | JUNLIN ZOU | Pexels License | [pexels](https://www.pexels.com/photo/urban-street-with-modern-architecture-and-streetlamps-37682272/) |
-| 《禅宗少林·音乐大典》 | Alexandra  Lavizzari | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-opera-performer-in-costume-36422762/) |
-| 《禅宗少林·音乐大典》 | David Lund | Pexels License | [pexels](https://www.pexels.com/photo/colorful-traditional-asian-opera-performer-portrait-36545226/) |
-| 《禅宗少林·音乐大典》 | 李奇 | Pexels License | [pexels](https://www.pexels.com/photo/woman-in-blue-beijing-opera-costume-11413712/) |
-| 登封老街（守敬路老城） | mingche lee | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-street-with-red-lanterns-32700828/) |
-| 登封老街（守敬路老城） | Tito Zzzz | Pexels License | [pexels](https://www.pexels.com/photo/red-lantern-hanging-along-alley-20256134/) |
-| 登封老街（守敬路老城） | gang liang | Pexels License | [pexels](https://www.pexels.com/photo/historic-street-scene-in-ancient-chinese-city-36473865/) |
-| 少林功夫（武僧表演） | Mostafameraji | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shaolin_quan_In_Iran_Qom_city_Mostafa_Meraji_01.jpg) |
-| 少林功夫（武僧表演） | Mostafameraji | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C_%D9%81%D8%B1%D9%85_%D9%87%D8%A7%DB%8C_%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AF%D8%A7%D8%B1%D8%AF_%D8%AA%D8%A7%D9%84%D9%88_%D8%B1%D8%B4%D8%AA%D9%87_%D9%88%D8%B1%D8%B2%D8%B4%DB%8C_%D8%B1%D8%B2%D9%85%DB%8C_(%D8%B4%D8%A7%D8%A6%D9%88%D9%84%DB%8C%D9%86_%DA%A9%D9%88%D9%86%DA%AF%E2%80%8C%D9%81%D9%88_%DB%B2%DB%B0%DB%B0%DB%B7_%D8%B9%DA%A9%D8%A7%D8%B3_%D9%85%D8%B5%D8%B7%D9%81%DB%8C_%D9%85%D8%B9%D8%B1%D8%A7%D8%AC%DB%8C_01.jpg) |
-| 少林功夫（武僧表演） | Mostafameraji | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C_%D9%81%D8%B1%D9%85_%D9%87%D8%A7%DB%8C_%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AF%D8%A7%D8%B1%D8%AF_%D8%AA%D8%A7%D9%84%D9%88_%D8%B1%D8%B4%D8%AA%D9%87_%D9%88%D8%B1%D8%B2%D8%B4%DB%8C_%D8%B1%D8%B2%D9%85%DB%8C_(%D8%B4%D8%A7%D8%A6%D9%88%D9%84%DB%8C%D9%86_%DA%A9%D9%88%D9%86%DA%AF%E2%80%8C%D9%81%D9%88_%DB%B2%DB%B0%DB%B0%DB%B7_%D8%B9%DA%A9%D8%A7%D8%B3_%D9%85%D8%B5%D8%B7%D9%81%DB%8C_%D9%85%D8%B9%D8%B1%D8%A7%D8%AC%DB%8C_02.jpg) |
+| 中岳庙铁人与古柏 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 中岳庙铁人与古柏 | guan | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 中岳庙铁人与古柏 | guan | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 中岳庙铁人与古柏 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 少林功夫（武僧表演） | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 少林功夫（武僧表演） | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 少林功夫（武僧表演） | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 少林功夫（武僧表演） | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 少林功夫（武僧表演） | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 少林功夫（武僧表演） | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 登封武术学校 | thierrytutin | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2010_CHINE_(4590850483).jpg) |
 | 登封武术学校 | thierrytutin | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2010_CHINE_(4590868777).jpg) |
 | 登封武术学校 | thierrytutin | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2010_CHINE_(4591108525).jpg) |
-| 豫剧与曲剧 | Alexandra  Lavizzari | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-opera-performer-in-costume-36422762/) |
-| 豫剧与曲剧 | David Lund | Pexels License | [pexels](https://www.pexels.com/photo/colorful-traditional-asian-opera-performer-portrait-36545226/) |
-| 豫剧与曲剧 | 李奇 | Pexels License | [pexels](https://www.pexels.com/photo/woman-in-blue-beijing-opera-costume-11413712/) |
-| 中岳庙会 | Alexandra  Lavizzari | Pexels License | [pexels](https://www.pexels.com/photo/traditional-chinese-opera-performer-in-costume-36422762/) |
-| 中岳庙会 | David Lund | Pexels License | [pexels](https://www.pexels.com/photo/colorful-traditional-asian-opera-performer-portrait-36545226/) |
-| 中岳庙会 | 李奇 | Pexels License | [pexels](https://www.pexels.com/photo/woman-in-blue-beijing-opera-costume-11413712/) |

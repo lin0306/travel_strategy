@@ -1,6 +1,6 @@
 # 长沙 · 数据来源与图片版权
 
-> 生成于 2026-10-31 · 城市数据最后更新 2026-09-28
+> 生成于 2026-11-05 · 城市数据最后更新 2026-09-28
 
 ## 概览
 
@@ -78,23 +78,14 @@
 | 城市封面 | Augoustoshai | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%88%98%E9%95%BF%E6%B2%99144313.jpg) |
 | 城市封面 | 蒋鹏飞 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%95%BF%E6%B2%99_-_panoramio.jpg) |
 | 白沙古井 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A_building_of_the_Changsha_Mosque.jpg) |
-| 白沙古井 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Changsha_Mosque,_photographed_from_the_side.jpg) |
-| 白沙古井 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Changsha_Mosque.jpg) |
-| 白沙古井 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Entrance_of_the_Changsha_Mosque.jpg) |
-| 白沙古井 | Unknown authorUnknown author | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Tianxin_Pavilion_in_1912.jpg) |
-| 白沙古井 | Unknown authorUnknown author | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Tianxin_Pavilion_in_1928.jpg) |
 | 长沙博物馆 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Changsha_Museum,_picture1.jpg) |
 | 长沙博物馆 | Huangdan2060 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Changsha_Museum_and_Changsha_Planning_Exhibition_Hall_2023040208.jpg) |
 | 长沙博物馆 | Huangdan2060 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Changsha_Museum_and_Changsha_Planning_Exhibition_Hall_2023040212.jpg) |
 | 长沙博物馆 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Covered_Butter_Dish,_the_late_Qing_Dynasty,_Changsha_Museum.jpg) |
 | 长沙博物馆 | Li Zhaodao | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Emperor_Xuanzong_Descending_to_Sichuan_by_Li_Zhaodao,_Changsha_Museum.jpg) |
 | 长沙博物馆 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Far_view_of_Changsha_Museum,_picture2.jpg) |
-| 湖南省森林植物园 | Huangdan2060 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Huawen_Forest_Hotel_20211206.jpg) |
 | 湖南省森林植物园 | Huangdan2060 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Entrance_of_Hunan_Forest_Botanical_Garden,_28_March_2021A.jpg) |
 | 湖南省森林植物园 | Huangdan2060 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Entrance_of_Hunan_Forest_Botanical_Garden,_28_March_2021D.jpg) |
-| 湖南省森林植物园 | Huangdan2060 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Huawen_Forest_Hotel_20241106.jpg) |
-| 湖南省森林植物园 | Huangdan2060 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Tall_buildings_near_Hunan_Forest_Botanical_Garden,_28_March_2021A.jpg) |
-| 湖南省森林植物园 | Huangdan2060 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Tall_buildings_near_Hunan_Forest_Botanical_Garden,_28_March_2021C.jpg) |
 | 湖南博物院 | Huangdan2060 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bronze_Ding,_Shang_dynasty,_Hunan_Museum.jpg) |
 | 湖南博物院 | Huangdan2060 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bronze_Jue,_Shang_dynasty,_Hunan_Museum.jpg) |
 | 湖南博物院 | Huangdan2060 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bronze_Zhi,_Western_Zhou,_Hunan_Museum.jpg) |
@@ -182,12 +173,6 @@
 | 炊烟小炒黄牛肉(富兴时代店) | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B9%98%E8%8F%9C%E9%A6%86%E4%B9%8B%E7%94%9F%E5%A7%9C%E7%82%92%E9%B8%A1%E8%82%89.jpg) |
 | 炊烟小炒黄牛肉(富兴时代店) | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B9%98%E8%8F%9C%E9%A6%86%E4%B9%8B%E7%9F%B3%E9%94%85%E8%84%86%E7%9A%AE%E8%B1%86%E8%85%90.jpg) |
 | 炊烟小炒黄牛肉(富兴时代店) | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B9%98%E8%8F%9C%E9%A6%86%E4%B9%8B%E7%BA%A2%E7%83%A7%E8%82%89.jpg) |
-| 冬瓜山 | Taiwankengo | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2022_Dongshan_Township_%26_Suao_Township,_Yilan_County.jpg) |
-| 冬瓜山 | Mori / Office of the President (中華民國總統府) | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dongshan,_Yilan_2019-06-26.jpg) |
-| 冬瓜山 | wctaiwan | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dongshan_Fields.jpg) |
-| 冬瓜山 | wctaiwan | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dongshan_Fields_2.jpg) |
-| 冬瓜山 | Unknown authorUnknown author | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Dongshan_Liangjie.jpg) |
-| 冬瓜山 | wctaiwan | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dongshan_Paddy_Fields.jpg) |
 | 费大厨辣椒炒肉 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250702_Chef_Fei_at_Zhengdong_MIXC.jpg) |
 | 火宫殿(坡子街店) | gdczjkk | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9D%A1%E5%AD%90%E8%A1%97%E7%81%AB%E5%AE%AB%E6%AE%BF_-_panoramio.jpg) |
 | 火宫殿(坡子街店) | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Building_of_Chili_Garden_(Huogong_Palace),_Changsha,_Hunan.jpg) |
@@ -201,10 +186,6 @@
 | 坡子街 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9D%A1%E5%AD%90%E8%A1%97.jpg) |
 | 坡子街 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gate_of_Huogongdian_(20180222180148).jpg) |
 | 坛宗剁椒鱼头(河西王府井店) | Huangdan2060 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Steamed_fish_head_with_diced_hot_red_peppers_20211206.jpg) |
-| 新长福(国贸金融中心店) | Thank You (22 Millions+) views/prayitnophotography | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2013-11-20_Zushi_Temple_01.jpg) |
-| 新长福(国贸金融中心店) | Taiwankengo | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2023_Sanping_Zushi_Temple.jpg) |
-| 新长福(国贸金融中心店) | Taiwankengo | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2023_Sanping_Zushi_Temple_i.jpg) |
-| 新长福(国贸金融中心店) | Taiwankengo | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2023_Sanping_Zushi_Temple_ii.jpg) |
 | 长沙文和友(海信广场店) | Huangdan2060 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Interior_of_Changsha_Wenheyou_2021052106.jpg) |
 | 长沙文和友(海信广场店) | Huangdan2060 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Interior_of_Changsha_Wenheyou_2021052115.jpg) |
 | 长沙文和友(海信广场店) | Huangdan2060 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Interior_of_Changsha_Wenheyou_2021052133.jpg) |
@@ -217,12 +198,10 @@
 | 杜甫江阁 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Du_Fu_Jiang_Ge_(Riverside_Pavilion_of_Du_Fu),_2010092702.jpg) |
 | 杜甫江阁 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Du_Fu_Jiang_Ge_(Riverside_Pavilion_of_Du_Fu),_2010092703.jpg) |
 | 杜甫江阁 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Du_Fu_Jiang_Ge_(Riverside_Pavilion_of_Du_Fu),_2010092704.jpg) |
-| 华谊兄弟(长沙)电影小镇 | 白诗棋 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BB%BA%E4%B8%9A%C2%B7%E5%8D%8E%E8%B0%8A%E5%85%84%E5%BC%9F%E7%94%B5%E5%BD%B1%E5%B0%8F%E9%95%87.jpg) |
 | 华谊兄弟(长沙)电影小镇 | 凌晨疯子 | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:HB_Town_Music_Festival,_Changsha,_Hunan,_China1.jpg) |
 | 华谊兄弟(长沙)电影小镇 | 凌晨疯子 | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:HB_Town_Music_Festival,_Changsha,_Hunan,_China2.jpg) |
 | 华谊兄弟(长沙)电影小镇 | 凌晨疯子 | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:HB_Town_Music_Festival,_Changsha,_Hunan,_China3.jpg) |
 | 华谊兄弟(长沙)电影小镇 | 凌晨疯子 | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:HB_Town_Music_Festival,_Changsha,_Hunan,_China4.jpg) |
-| 华谊兄弟(长沙)电影小镇 | Zzchun | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hezhuoyan.jpg) |
 | 长沙国际金融中心 | Lcsm | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B9%9D%E9%BE%99%E4%BB%93%E9%95%BF%E6%B2%99%E5%9B%BD%E9%99%85%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83.jpg) |
 | 长沙国际金融中心 | Huangdan2060 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Changsha_IFS_20250401B.jpg) |
 | 长沙国际金融中心 | Huangdan2060 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Changsha_IFS_20250401E.jpg) |
@@ -245,11 +224,9 @@
 | 梅溪湖国际文化艺术中心 | Huangdan2060 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Changsha_Meixihu_International_Culture_Art_Centre_202110102.jpg) |
 | 梅溪湖国际文化艺术中心 | Huangdan2060 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Changsha_Meixihu_International_Culture_Art_Centre_202110103.jpg) |
 | 梅溪湖国际文化艺术中心 | Huangdan2060 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Changsha_Meixihu_International_Culture_Art_Centre_202110109.jpg) |
-| 梅溪湖国际文化艺术中心 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Grand_Theatre,_Culture_and_Arts_Center,_picture1.jpg) |
 | 梅溪湖国际文化艺术中心 | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Grand_Theatre,_Culture_and_Arts_Center,_picture2.jpg) |
 | 谢子龙影像艺术馆 | Huangdan2060 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Li_Zijian_Art_Museum_2023040120.jpg) |
 | 谢子龙影像艺术馆 | Huangdan2060 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Li_Zijian_Art_Museum_2023040122.jpg) |
-| 黄兴南路步行商业街 | Yinsanhen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Changshajianying.jpg) |
 | 黄兴南路步行商业街 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:South_Huangxing_Road_1.jpg) |
 | 黄兴南路步行商业街 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:South_Huangxing_Road_10.jpg) |
 | 黄兴南路步行商业街 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:South_Huangxing_Road_11.jpg) |
@@ -257,10 +234,6 @@
 | 黄兴南路步行商业街 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:South_Huangxing_Road_13.jpg) |
 | 解放西路 | Huangdan2060 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:West_Liberation_Road_in_Changsha_2025040101.jpg) |
 | 解放西路 | Huangdan2060 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:West_Liberation_Road_in_Changsha_2025040102.jpg) |
-| 解放西路 | Huangdan2060 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:The_former_residence_of_Jia_Yi_3.jpg) |
-| 解放西路 | Huangdan2060 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:The_former_residence_of_Jia_Yi_4.jpg) |
-| 解放西路 | Huangdan2060 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:The_former_residence_of_Jia_Yi_5.jpg) |
-| 解放西路 | Huangdan2060 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:The_former_residence_of_Jia_Yi_7.jpg) |
 | 太平街 | 維基小霸王 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%AA%E5%B9%B3%E8%A1%97.jpg) |
 | 太平街 | 維基小霸王 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%AA%E5%B9%B3%E8%A1%97_%E6%A8%AA%E5%90%91.jpg) |
 | 太平街 | Huangdan2060 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:The_former_residence_of_Jia_Yi_8.jpg) |

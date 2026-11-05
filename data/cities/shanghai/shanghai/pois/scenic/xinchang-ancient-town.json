@@ -39,48 +39,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/35183631/pexels-photo-35183631.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/35183631/pexels-photo-35183631.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3024,
-      "height": 4032,
-      "alt": "Front entrance of a historic building in Shanghai with Chinese signs.",
-      "query": "Chinese historic architecture shanghai",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/%E5%8F%A4%E9%95%87%E5%B0%8F%E5%90%83%E8%A1%97_-_panoramio.jpg/1280px-%E5%8F%A4%E9%95%87%E5%B0%8F%E5%90%83%E8%A1%97_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/%E5%8F%A4%E9%95%87%E5%B0%8F%E5%90%83%E8%A1%97_-_panoramio.jpg/1280px-%E5%8F%A4%E9%95%87%E5%B0%8F%E5%90%83%E8%A1%97_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "古镇小吃街 - panoramio.jpg",
+      "query": "新场古镇",
       "credit": {
-        "source": "pexels",
-        "author": "Anderson Wei",
-        "sourceUrl": "https://www.pexels.com/photo/historic-building-entrance-in-shanghai-china-35183631/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/39041276/pexels-photo-39041276.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/39041276/pexels-photo-39041276.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4284,
-      "height": 5712,
-      "alt": "Vintage red brick building facade with Chinese architectural details and signage.",
-      "query": "Chinese historic architecture shanghai",
-      "credit": {
-        "source": "pexels",
-        "author": "Guillaume Kremer",
-        "sourceUrl": "https://www.pexels.com/photo/historical-red-brick-building-in-china-39041276/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/31846435/pexels-photo-31846435.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/31846435/pexels-photo-31846435.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 5045,
-      "height": 3403,
-      "alt": "A historic building in Shanghai with an arched brick facade, typical of traditional Chinese architecture.",
-      "query": "Chinese historic architecture shanghai",
-      "credit": {
-        "source": "pexels",
-        "author": "Ran Hua",
-        "sourceUrl": "https://www.pexels.com/photo/historic-shanghai-building-with-arched-facade-31846435/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "壹念之間",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8F%A4%E9%95%87%E5%B0%8F%E5%90%83%E8%A1%97_-_panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-04",
+        "tier": "exact"
       }
     }
   ],
@@ -99,7 +75,7 @@
       "fetchedAt": "2026-09-23"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-04",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

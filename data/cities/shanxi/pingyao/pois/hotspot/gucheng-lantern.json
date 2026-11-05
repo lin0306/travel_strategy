@@ -41,48 +41,24 @@
   "tips": [],
   "images": [
     {
-      "url": "https://images.pexels.com/photos/18506159/pexels-photo-18506159.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/18506159/pexels-photo-18506159.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3000,
-      "height": 2002,
-      "alt": "Scenic view of ancient architecture and street in historic Pingyao, China.",
-      "query": "art district gallery pingyao",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/%E5%B1%B1%E8%A5%BF%E5%B9%B3%E9%81%A5%E5%8F%A4%E5%9F%8E_-_panoramio_%281%29.jpg/1280px-%E5%B1%B1%E8%A5%BF%E5%B9%B3%E9%81%A5%E5%8F%A4%E5%9F%8E_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/%E5%B1%B1%E8%A5%BF%E5%B9%B3%E9%81%A5%E5%8F%A4%E5%9F%8E_-_panoramio_%281%29.jpg/1280px-%E5%B1%B1%E8%A5%BF%E5%B9%B3%E9%81%A5%E5%8F%A4%E5%9F%8E_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "山西平遥古城 - panoramio (1).jpg",
+      "query": "明清街灯笼夜色",
       "credit": {
-        "source": "pexels",
-        "author": "zhou shen",
-        "sourceUrl": "https://www.pexels.com/photo/ornamented-buildings-in-pingyao-in-china-18506159/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/28620222/pexels-photo-28620222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/28620222/pexels-photo-28620222.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3558,
-      "height": 5338,
-      "alt": "Large ceramic jars with red seals in a traditional Chinese courtyard, under lanterns.",
-      "query": "art district gallery pingyao",
-      "credit": {
-        "source": "pexels",
-        "author": "Xi shui",
-        "sourceUrl": "https://www.pexels.com/photo/traditional-chinese-fermentation-jars-with-red-seals-28620222/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/27579499/pexels-photo-27579499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/27579499/pexels-photo-27579499.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3311,
-      "height": 5297,
-      "alt": "Bamboo chairs in front of a brick wall adorned with Chinese calligraphy cards in a serene outdoor setting.",
-      "query": "art district gallery pingyao",
-      "credit": {
-        "source": "pexels",
-        "author": "SHEEP Y",
-        "sourceUrl": "https://www.pexels.com/photo/24-27579499/",
-        "license": "Pexels License",
-        "attributionRequired": false
+        "source": "wikimedia",
+        "author": "牛糞",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-01",
+        "tier": "street"
       }
     }
   ],
@@ -101,7 +77,7 @@
       "fetchedAt": "2026-10-06"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-01",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",

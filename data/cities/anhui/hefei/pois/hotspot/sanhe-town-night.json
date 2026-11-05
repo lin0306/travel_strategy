@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/25000461/pexels-photo-25000461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/25000461/pexels-photo-25000461.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6240,
-      "height": 4160,
-      "alt": "Explore the vibrant night scene of Fenghuang Ancient Town, a historic and cultural gem in Hunan, China.",
-      "query": "Sanhe Ancient Town Night View",
-      "credit": {
-        "source": "pexels",
-        "author": "JC Terry",
-        "sourceUrl": "https://www.pexels.com/photo/illuminated-hong-kong-at-night-25000461/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/25000462/pexels-photo-25000462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/25000462/pexels-photo-25000462.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6240,
-      "height": 4160,
-      "alt": "Stunning night view of Fenghuang Bridge in Xiangxi, China, with vibrant reflections.",
-      "query": "Sanhe Ancient Town Night View",
-      "credit": {
-        "source": "pexels",
-        "author": "JC Terry",
-        "sourceUrl": "https://www.pexels.com/photo/illuminated-hong-kong-at-night-25000462/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/33665245/pexels-photo-33665245.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/33665245/pexels-photo-33665245.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 6150,
-      "height": 4100,
-      "alt": "Captivating nighttime view of Phoenix Ancient Town illuminated along the Tuojiang River in Hunan, China.",
-      "query": "Sanhe Ancient Town Night View",
-      "credit": {
-        "source": "pexels",
-        "author": "Trần Phan Phạm Lê",
-        "sourceUrl": "https://www.pexels.com/photo/night-view-of-phoenix-ancient-town-china-33665245/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "夜景",
@@ -101,12 +55,13 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Sanhe Ancient Town Night View",
     "zh": "三河古镇夜景"
   },
   "_geocodeTitle": "三河古镇",
-  "district": "340123"
+  "district": "340123",
+  "_noImage": true
 }

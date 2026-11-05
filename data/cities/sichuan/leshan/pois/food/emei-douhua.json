@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://images.pexels.com/photos/12722180/pexels-photo-12722180.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/12722180/pexels-photo-12722180.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4896,
-      "height": 3264,
-      "alt": "A close-up of spicy tofu with sesame and spring onions in a paper cup, held by hand.",
-      "query": "Emei Spring Tofu",
-      "credit": {
-        "source": "pexels",
-        "author": "suning lin",
-        "sourceUrl": "https://www.pexels.com/photo/close-up-of-a-tofu-dish-in-a-disposable-cup-12722180/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/7491894/pexels-photo-7491894.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/7491894/pexels-photo-7491894.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 3744,
-      "height": 5616,
-      "alt": "Close-up of Asian ingredients and tools for gourmet meal preparation in kitchen.",
-      "query": "Emei Spring Tofu",
-      "credit": {
-        "source": "pexels",
-        "author": "minchephoto photography",
-        "sourceUrl": "https://www.pexels.com/photo/close-up-of-a-mortar-and-pestle-7491894/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://images.pexels.com/photos/34618071/pexels-photo-34618071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "thumbUrl": "https://images.pexels.com/photos/34618071/pexels-photo-34618071.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "width": 4038,
-      "height": 5460,
-      "alt": "Exquisite tofu curry plated in elegant surroundings, showcasing a blend of colors and textures.",
-      "query": "Emei Spring Tofu",
-      "credit": {
-        "source": "pexels",
-        "author": "Change C.C",
-        "sourceUrl": "https://www.pexels.com/photo/gourmet-presentation-of-tofu-curry-dish-34618071/",
-        "license": "Pexels License",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "豆花",
@@ -101,11 +55,12 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-31",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Emei Spring Tofu",
     "zh": "峨眉山泉水豆花"
   },
-  "district": "511181"
+  "district": "511181",
+  "_noImage": true
 }
