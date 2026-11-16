@@ -365,20 +365,21 @@ web/                            # ←── 上图的 web/ 展开
 ### 本地开发
 
 ```bash
-cd web               # ★ 应用工程在 web/，所有 npm / python 命令都在这里执行
-npm install
-npm run dev          # http://localhost:5173
+cd web               # ★ 应用工程在 web/，所有前端命令都在这里执行
+pnpm install
+pnpm dev             # http://localhost:5173
 ```
 
 ### 生产构建
 
 ```bash
 cd web
-npm run build        # 预渲染全部路由 → web/dist/
-npm run preview      # 本地预览预渲染结果（务必用它验证 SEO 产物）
+pnpm build           # 预渲染全部路由 → web/dist/client/
+pnpm preview         # 本地预览预渲染结果（务必用它验证 SEO 产物）
 ```
 
-> **不要用 `npm run dev` 检查 SEO**：开发服务器是 CSR 的，`view-source` 里看不到内容。必须用 `build` + `preview`，或直接用 curl 抓 `web/dist/city/shenzhen/index.html` 确认有正文。
+> **不要用 `pnpm dev` 检查 SEO**：开发服务器是 CSR 的，`view-source` 里看不到内容。必须用 `build` + `preview`，或直接用 curl 抓 `web/dist/client/city/shenzhen/index.html` 确认有正文。
+> ★ 仓库用 **pnpm**（`web/pnpm-lock.yaml` + `packageManager` 钉版本），别用 npm 装依赖 —— 会生成第二份 lock。
 
 ### Netlify 配置
 
@@ -386,11 +387,12 @@ npm run preview      # 本地预览预渲染结果（务必用它验证 SEO 产�
 # netlify.toml —— 刻意放在**仓库根**：Netlify 只在此（或已配置的 base 目录）寻找它
 [build]
   base = "web"                 # ★ base 一设，command 的执行目录与 publish 的基准都相对它
-  command = "npm run build"
-  publish = "dist"             # → web/dist
+  command = "pnpm build"
+  publish = "dist/client"      # ★ 不是 dist —— 见下方修正
 
 [build.environment]
   NODE_VERSION = "22"
+  PNPM_VERSION = "12.16.1"     # 必须与 web/package.json 的 packageManager 同值
 
 # 地图 key 从 Netlify 环境变量注入（见下方「关于 key 泄露」）
 # 预渲染产物已是完整静态文件，无需 SPA fallback；
@@ -403,10 +405,16 @@ npm run preview      # 本地预览预渲染结果（务必用它验证 SEO 产�
   # 因此不会覆盖 /city/chengdu/index.html
 ```
 
+> ★★ **`publish` 必须写 `dist/client`**（2026-11-16 实测修正）：`ssr:false` 下 RR7 会删掉 server 构建，
+> `web/dist/` 下只剩 `client/` 一个子目录，写 `dist` 等于发布根错一层 ⇒ 首页、`/assets/*`、
+> 连 SPA 兜底的 `/index.html` 全部落空（线上全站 404）。
+> **本地永远看不出这个错**：`pnpm preview` 走 vite 自己的 server，根本不读 `netlify.toml`。
+> 上线前跑 `E:/BASIC/python/python.exe _tmp/_netlify_check.py`。当前口径以 `AGENTS.md` 第 3 节为准。
+
 **部署流程**
 
 1. Netlify 连 Git 仓库 → 自动识别 `netlify.toml` → 每次 push 到主分支自动构建部署
-2. 环境变量在 **Site settings → Environment variables** 配置，`VITE_TMAP_KEY` 等
+2. 环境变量在 **Site settings → Environment variables** 配置：`VITE_TMAP_KEY` + `VITE_AMAP_WEB_KEY`
 3. 配 **Deploy Preview**：每个 PR 自动生成预览链接，数据类 PR 可以直接点开看效果
 4. 配 **Build Hook**：拿到一个 webhook URL，GitHub Actions 改完数据后可 POST 触发重建 —— 这一条把「Actions 自动改数据 → 站点自动更新」的闭环打通（见 04 第九节）
 5. 若绑了自定义域名，记得把域名加进腾讯位置服务控制台的 **Referer 域名白名单**
@@ -455,7 +463,7 @@ PEXELS_API_KEY=...
 |---|------|---------|------|
 | R1 | 腾讯 **Referer 域名白名单** 对 Netlify 域名/子域的匹配规则；Deploy Preview 随机域名如何处理 | 申请 key 后配白名单，用 Netlify 域名实测调用 | 配错会导致生产环境地图整体不可用 |
 | R2 | 腾讯卫星影像在首发城市的**分辨率与时效性** | 用首发城市对照「近两年新开」的网红点位，目视确认影像上是否已建成 | 影响有限：**默认底图是矢量**，影像是用户自己选的档；时效性太差时的退路是把「影像图」这一档的说明写得更明确（**而不是替用户改**）。移动端同此 |
-| R3 | 预渲染时 loader 读取 `~data` 别名的路径解析 | 首次 `npm run build` 后检查 `dist/**/index.html` 是否含真实文案 | 失败则 SEO 目标落空 |
+| R3 | 预渲染时 loader 读取 `~data` 别名的路径解析 | 首次 `pnpm build` 后检查 `dist/client/**/index.html` 是否含真实文案 | 失败则 SEO 目标落空 |
 | R4 | Netlify 在国内 4G 的**实际加载完成率** | itdog.cn 多点测速 + 真机实测 | 已决策接受（见 README「已确认的 2 项决策」）。若实测长时间加载不出，再评估迁国内托管 —— 纯静态产物，**迁移不改代码** |
 | **R5** | **地理编码同名异地误命中**（腾讯一对一无批量，且"人民公园"全国都有） | 抽样 20% POI 人工核对落点；脚本用 `region` 参数 + `ad_info.city_code` 校验 | 落点错会毁掉地图可信度。对冲：`region` 显式传城市 + adcode 强校验（见 04 第三节） |
 | **R6** | **区划树体积与边界缓存** | 生成 `district-tree.json` 后测 gzip 体积；测省级边界首次拉取的耗时 | 树过大拖慢下钻首屏；边界不缓存会反复请求。对冲：结构与几何分离 + 缓存命中（见 04 第七节） |

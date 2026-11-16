@@ -1,8 +1,9 @@
 # 行迹 · 城市旅游攻略
 
-地图即画布的纯静态旅游攻略站。**83 城**（成都 · 北京 · 重庆 · 西安 · 上海 · 杭州 · 苏州 · …）、
+地图即画布的纯静态旅游攻略站。**83 城**（覆盖 34 个省级单位）、**4972 个点位**，
 四级下钻（全国 → 省 → 市 → **区** → 景点）、行程规划、路线规划。
-**运行时零后端** —— 数据在构建前就已固化。
+
+**运行时零后端** —— 数据在构建前就已固化，全站预渲染成静态 HTML。
 
 ---
 
@@ -12,81 +13,87 @@
 
 | 目录 | 是什么 | 边界 |
 |------|--------|------|
-| `data/` | **唯一的交接面**：抓取的出口、展示的入口 | 抓取只往里写，展示只从里读 |
+| `data/` | **唯一的交接面**：抓取的出口、展示的入口 | 抓取只往里写，展示只从里读；不许有第二份数据源 |
 | `pipeline/` | 采集流水线（Python） | 只做**抓取**。不 import `web/` |
-| `schema/` | 字段契约：`schema.ts` ↔ `schema.py` | 两端**共用同一份**，各自投影 |
-| `tools/` | 工程护栏与体检工具 | 跨两端，不属于任何一端 |
-| `web/` | 展示工程（Vite7 + React19 + TS + RR7，纯静态 SSG） | 只做**展示**。`web/` 下不许有 Python |
-| `plans/` | 设计文档 —— **改代码前先看这里** | 人读 |
-| `docs/` | 操作手册（定时任务 / 图片审查 SOP） | 与 `plans/` 分开：`plans` 讲**为什么这么设计**，`docs` 讲**今天怎么操作** |
-| `_tmp/` | 一次性探针与临时产物（git 忽略） | 随时可删 |
+| `schema/` | 字段契约：`schema.ts` ↔ `schema.py` | 两端**共用同一份**，各自投影；改一边必须改另一边 |
+| `tools/` | 工程护栏、体检、入库闸门、巡检 | 跨两端，不属于任何一端 |
+| `web/` | 展示工程（Vite7 + React19 + TS + RR7，纯静态 SSG） | 只做**展示**。`web/` 下不许有任何 `.py` |
+| `plans/` | 设计文档（13 篇 + 索引）—— **改代码前先看这里** | 人读，不是代码注释的垃圾桶 |
+| `docs/` | 操作手册（图片审查 / 巡检，定时任务的步骤清单） | 与 `plans/` 分开：`plans` 讲**为什么这么设计**，`docs` 讲**今天怎么操作** |
+| `_tmp/` | 一次性探针与临时产物（git 忽略） | 随时可删；不许被 `pipeline/` / `web/` import |
 
-> **给 AI 执行者**：先读 [`AGENTS.md`](AGENTS.md)（开工顺序 / 命令 / 红线 / 高频坑）。
-> 定时任务的完整手册在 [`docs/automation-image-review.md`](docs/automation-image-review.md)。
+> **给 AI 执行者**：开工顺序、命令、红线、高频坑全在 [`AGENTS.md`](AGENTS.md)，先读它。
+> 这份 README 只负责「这个仓库是什么、目录怎么分、怎么跑起来」。
 
-> `data/` 刻意留在仓库根（在 `web/` 之外），以便"数据目录可整体拿走复用"。
-
-> ★ `prototype/` 已于 2026-10-07 删除（早期低保真线框 + 高保真原型）。
-> 布局与交互早已全部落地进 `web/app/`，留着那份 HTML 只会**过期得比代码快**。
-> 设计意图由 `plans/` 承载；要回看原型从 git 历史取。
+> `data/` 刻意留在仓库根（在 `web/` 之外），以便"数据目录可整体拿走复用"；
+> 前端通过 Vite alias `~data` 引入，新增一座城市**不需要改一行前端代码**。
 
 ### `pipeline/` 顶层只有 `run.py`，其余按职责分六层
 
 ```
 pipeline/
   run.py                    ← 唯一入口
-  core/       env · layout · fetch · fix_noise    基础设施，被全体依赖（不 import 任何上层）
-  providers/  tmap · amap · geoprovider           图商适配（取点只走 geoprovider）
-  geo/        citymeta · districts · districtless · labelgeo     区划与几何
-  authoring/  seedlib · seed · images             采编稿与图源（人写数据 → 展开成产物）
-  steps/      step3 · 3b · 4 · 6 · 7 · 8 · 9 · 10 · 11    采集步骤
-  assemble/   build                               组装与派生产物（唯一往 data/_generated 写）
-  seeds/      83 城采编稿                          纯数据
+  core/       env · layout · fetch · fix_noise        基础设施，被全体依赖（不 import 任何上层）
+  providers/  tmap · amap · geoprovider               图商适配（取点只走 geoprovider）
+  geo/        citymeta · districts · districtless · labelgeo      区划与几何
+  authoring/  seedlib · seed · images · image_filter · entity_images   采编稿与图源
+  steps/      step3 · 3b · 4 · 7 · 8 · 9 · 10 · 11 · 12            采集步骤
+  assemble/   build                                   组装与派生产物（唯一往 data/_generated 写）
+  seeds/      83 城采编稿                              纯数据
 ```
 
 依赖方向单向向下：`core` ← `providers` / `geo` / `authoring` ← `steps` ← `assemble`。
-★ `steps/step6_transit.py` 是**死链路**（通勤时长已改为运行时算，不再预存），不要跑。
-★ 搬目录的坑见 `pipeline/*/__init__.py` 的文件头注释（`parents[N]` 必须按文件深度算）。
+★ `step6_transit.py`（通勤矩阵）已于 2026-10-25 **删除** —— 通勤时长改为运行时算，不再预存；`run.py` 也没有 `transit` 子命令。
+★ 搬目录的坑见 `pipeline/*/__init__.py` 文件头（`parents[N]` 必须按文件深度算）。
 
-### `tools/` 都是通用工具（不带下划线）
+### `tools/` 按用途分四组
 
-| 文件 | 作用 |
-|------|------|
-| `check_app.py` | 工程护栏 A–AV（36 组），改代码后必跑，目标 `ALL_CLEAN` |
-| `check_seed.py` | 采编稿体检（入库前跑，支持 `--all` 扫全部城市） |
-| `audit_suspects.py` | 列出全站 `_geocodeSuspect` 点位（只读） |
-| `rmdir_dist.py` | 清 `web/dist`，绕开 safe-delete 钩子导致的构建死锁 |
-| `lint_seed.py` · `scan_bad_rings.py` · `make_fixture.py` · `fix_districtless.py` | 各项专项工具 |
+| 组 | 工具 |
+|----|------|
+| 护栏 · 体检 | `check_app`（61 组断言，改代码后必跑）· `check_seed` · `lint_seed` · `audit_suspects` · `audit_history` · `scan_bad_rings` · `fix_districtless` · `make_fixture` · `rmdir_dist` |
+| 配图 · 封面 | `review_images` · `clean_images` · `city_cover` · `province_cover` · `cover_review` · `cover_sheet` · `fetch_candidates` · `remap_candidates` |
+| 入库 · 拓取 | `intake_queue` · `intake_candidates` · `rate_poi` · `discover_queue` · `refill_queue` · `refill_one_poi` · `ai_review` |
+| 巡检 | `patrol_queue` · `patrol_findings` · `patrol_report` · `patrol_sheet` · `arrival_progress` |
+
+每个工具的用法写在它自己的文件头；`docs/` 里的手册负责链路级流程。
 
 ---
 
 ## 怎么跑
+
+命令一律在**仓库根**执行；python 一律写全路径 `E:/BASIC/python/python.exe`（依赖只装在那个解释器上）。
 
 ### 展示（`web/`）
 
 ```bash
 cd web
 pnpm install
-pnpm dev        # http://localhost:5173
-pnpm build      # 产出 web/dist —— Netlify 的发布目录
-pnpm check      # 工程守则 A–AV，目标 ALL_CLEAN
+pnpm dev          # http://localhost:5173
+pnpm build        # 预渲染全部路由 → web/dist/client  ← Netlify 的发布根
+pnpm preview      # 本地看预渲染产物（SEO 只能这样验，dev 是 CSR）
+pnpm typecheck    # tsc --noEmit
+pnpm check        # 工程护栏（= tools/check_app.py），目标 RESULT: ALL_CLEAN
 ```
 
-`pnpm check` 会在**改代码之后**跑一遍结构校验（含 `tsc --noEmit`、单文件 420 行上限、
-仓库布局归属等）。它全绿不等于能构建、更不等于能运行 —— 还要 `pnpm build` + 抽查产物。
+★ 产物是 `web/dist/client/`，不是 `web/dist/` —— `ssr:false` 时 RR7 会删掉 server 构建，`dist/` 只是容器。
+★ `web/dist` 1 万+ 文件，直接 `pnpm build` 会被 safe-delete 钩子卡死（`SAFE_DELETE_BULK_CONFIRM_REQUIRED`）。
+解法二选一：`NODE_OPTIONS= CODEBUDDY_SAFE_DELETE_ENABLED=0 pnpm build`，或先 `python tools/rmdir_dist.py`。
+（Windows 下偶发 `EPERM rmdir` 锁在某个 `dist/client/city/<城>/poi/<点>` 上 —— 删掉 `web/dist` 重跑即可，与代码无关。）
+
+**护栏全绿 ≠ 能构建 ≠ 能运行**，三件事互不代表。视觉改动必须截图。
 
 ### 抓取（`pipeline/`）
 
 ```bash
-python pipeline/run.py usage               # 先看今日 API 额度 + 取点现在走哪家图商
-python pipeline/run.py geo-check 北京 故宫   # 新key 配完先跑它，真发请求确认能用
-python pipeline/run.py pipeline chengdu    # ③ 地理编码 → ④ 取图 → ⑦ 区划树 → 组装
-python pipeline/run.py build --strict      # 只做组装 + 校验 + 生成索引（CI 模式）
-
-python tools/check_seed.py --all           # 扩城前先体检采编稿（入库前必跑）
+E:/BASIC/python/python.exe pipeline/run.py usage               # 今日额度 + 取点走哪家图商
+E:/BASIC/python/python.exe pipeline/run.py geo-check 北京 故宫  # 新 key 配完先跑它，真发请求
+E:/BASIC/python/python.exe pipeline/run.py pipeline chengdu    # ③ 地理编码 → ④ 取图 → ⑦ 区划树 → 组装
+E:/BASIC/python/python.exe pipeline/run.py build --strict      # 只组装 + 校验 + 生成索引（CI 模式）
+E:/BASIC/python/python.exe tools/check_seed.py --all           # 扩城前先体检采编稿
 ```
 
-★ 命令一律在**仓库根**执行。细节见 `pipeline/README.md`。
+★ `build <city>` 会把 `cities.index.json` 覆盖成只剩那一城 —— 除非你就是要单城，否则跑全量 `build`。
+细节见 [`pipeline/README.md`](pipeline/README.md)。
 
 ### 契约（`schema/`）
 
@@ -95,24 +102,40 @@ python tools/check_seed.py --all           # 扩城前先体检采编稿（入�
 
 ---
 
+## 部署（Netlify）
+
+`netlify.toml` 在仓库根，三处硬约束，改错就是全站 404：
+
+```toml
+[build]
+  base = "web"
+  command = "pnpm build"
+  publish = "dist/client"     # ★ 写 dist 会 404：dist/ 下只有 client/ 一个目录
+```
+
+- **本地永远看不出发布根错误** —— `pnpm preview` 走 vite 自己的 server，不读 `netlify.toml`。
+  上线前跑 `E:/BASIC/python/python.exe _tmp/_netlify_check.py`（首页 · redirect 目标 · 全部 `/assets/` 引用 ·
+  三类页面 · localhost 残留 · 两个 key · pnpm 版本两边一致）。
+- 站点环境变量（**不进 git**）：`VITE_TMAP_KEY` + `VITE_AMAP_WEB_KEY`，缺了地图不解锁。
+- 图商控制台给这两个 key 加 **Referer 域名白名单**（如 `*.netlify.app`），否则构建成功但地图空白。
+- `packageManager`（`web/package.json`）与 `PNPM_VERSION`（`netlify.toml`）必须同值 —— 版本不一致是部署失败头号原因。
+
+---
+
 ## 几条不会变的红线
 
 1. **地图即画布**：铺满视口，UI 全是浮层，只盖不挤。
 2. **引擎限腾讯 / 高德 / 百度 / 天地图**；当前腾讯 GL。业务层只从 `~/map/tencent` 取。
-3. **key 走环境变量**，禁硬编码；采集侧 key 在 `pipeline/.env.local`
-   （`TMAP_WEB_KEY` / `AMAP_WEB_KEY` / `UNSPLASH_ACCESS_KEY` / `PEXELS_API_KEY`），
-   前端那把在 `web/.env.local`（`VITE_TMAP_KEY`）—— **两边分家，且都不进 git**。
-   ★ 取坐标**只走 `pipeline/providers/geoprovider.py`**：腾讯优先，
-   **日配额耗尽（status 121）自动换高德**（同为 GCJ-02）——121 是静默的，
-   不换源的话一次配额耗尽 = 一座城当天报废。
-4. **通勤时长运行时算，绝不预存**（2026-10-06 决策）：62 城 × 约 1600 对 × 3 方式的
-   矩阵要几百 MB，且半改会造成跨城口径不一致。`steps/step6_transit.py` 是遗留死链路。
-5. **顺序由用户定**，禁 TSP；只给事实与陈述式建议。
+3. **key 走环境变量**，禁硬编码；采集侧在 `pipeline/.env.local`，前端在 `web/.env.local`
+   （`VITE_TMAP_KEY`）—— **两边分家，且都不进 git**。
+   ★ 取坐标只走 `pipeline/providers/geoprovider.py`：腾讯优先，**日配额耗尽（status 121）自动换高德**（同为 GCJ-02）。
+4. **通勤时长运行时算，绝不预存**（2026-10-06 决策）：全量矩阵要几百 MB，且半改会造成跨城口径不一致。
+5. **顺序由用户定，禁 TSP**；只给事实与陈述式建议。
 6. **住宿点 = 隐私**：只存 localStorage，不上传、分享默认脱敏。
-7. **图片只用开放许可**，必带 credit。
-8. **不采集、不上传位置**。
+7. **图片只用开放许可，必带 credit。**
+8. **不采集、不上传位置。**
 9. **未收录 = 「待收录」灰虚线，绝不显示 0**（`null ≠ 0`）。
-10. **行政边界只能来自持牌图商 / 官方平台**（腾讯 / 高德 / 百度 / 天地图），
-    绝不用第三方 GeoJSON —— 版图完整性属《地图管理条例》范畴。
+10. **行政边界只能来自持牌图商 / 官方平台**，绝不用第三方 GeoJSON —— 版图完整性属《地图管理条例》范畴。
+11. **不自动 `git add` / `git commit`** —— 提交只在用户明确要求时做（自动提交等于让未经审查的数据出门）。
 
-更细的约定与踩过的坑见 `plans/`；工程惯例见 `.workbuddy/memory/`。
+更细的约定与踩过的坑见 `plans/`；工程惯例与历史坑见 `.workbuddy/memory/`。

@@ -75,7 +75,7 @@ E:/BASIC/python/python.exe tools/patrol_findings.py list --state open # 全部�
 
 # ── 前端 ──
 cd web && pnpm dev        # 5173
-cd web && pnpm build      # 产出 web/dist
+cd web && pnpm build      # 产出 web/dist/client（HTML 在 client/ 下，dist/ 只是容器）
 cd web && pnpm typecheck  # tsc --noEmit
 ```
 
@@ -83,6 +83,15 @@ cd web && pnpm typecheck  # tsc --noEmit
 ★★ **`build <city>` 会覆盖 `cities.index.json`**（只剩一城）—— 除非你就是要单城，否则跑全量 `build`。
 ★ `web/dist` 1 万+ 文件，`pnpm build` 会撞 `SAFE_DELETE_BULK_CONFIRM_REQUIRED`，解法：
 `NODE_OPTIONS= CODEBUDDY_SAFE_DELETE_ENABLED=0 npx react-router build`。
+（Windows 下还会偶发 `EPERM rmdir` 锁在某个 `dist/client/city/<城>/poi/<点>` 上 —— 删掉 `web/dist` 重跑即可，与代码无关。）
+
+★★ **Netlify 的 `publish` 必须是 `dist/client`，写 `dist` 会全站 404**（2026-11-16 实测修正）：
+`web/dist/` 下**只有** `client/` 一个目录（`ssr:false` 时 server 构建被删除），`web/dist/index.html` 不存在
+⇒ 发布根错一层，首页、`/assets/*`、连 SPA 兜底的 `/index.html` 全部落空。
+**本地永远看不出来**：`pnpm preview` 走 vite 自己的 server，根本不读 `netlify.toml`。
+校验脚本 `python _tmp/_netlify_check.py`（首页 · redirect 目标 · 全部 `/assets/` 引用 · 三类页面 · localhost 残留 · 两个 key · pnpm 版本两边一致）。
+上线还差两件事，**都不进 git**：① Netlify 站点环境变量 `VITE_TMAP_KEY` + `VITE_AMAP_WEB_KEY`（缺 key 地图不解锁）；
+② 腾讯 / 高德控制台给 key 加 **Referer 域名白名单** `*.netlify.app`（注释里写死了：护城河只有白名单 + 配额告警；不配则构建成功但地图不显示）。
 ★★ **不要自动 `git add` / `git commit`** —— 提交只在用户明确要求时做。
 （2026-10-31 定时任务自作主张提交了 changsha/chengde 的 113 个**未审**文件，等于绕过图片审查。）
 
@@ -111,7 +120,7 @@ cd web && pnpm typecheck  # tsc --noEmit
 2. **引擎只限腾讯 / 高德 / 百度 / 天地图**；业务层只从 `~/map/tencent` 取。
 3. **key 走环境变量**：采集侧 `pipeline/.env.local`，前端只 `VITE_TMAP_KEY`，两边分家、都不进 git。
 4. **取坐标只走 `pipeline/providers/geoprovider.py`**（腾讯优先，配额 121 自动换高德）。
-5. **通勤时长运行时算，绝不预存**（`step6_transit` 是死链路，别跑）。
+5. **通勤时长运行时算，绝不预存**（`step6_transit.py` 已于 2026-10-25 删除，`run.py` 也无 `transit` 子命令）。
 6. **顺序由用户定，禁 TSP**；只给事实与陈述式建议。
 7. **住宿点只存 localStorage**，不上传、分享默认脱敏。
 8. **图片只用开放许可，必带 credit**（`data/**/*.json` 的 `author` 是 CC 署名，不许删）。

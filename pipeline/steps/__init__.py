@@ -6,7 +6,7 @@ pipeline/steps/ —— **采集步骤层**：一个文件 = 一步，编号即�
 | `step3_geocode.py` | ③ 地理编码 | 走 `providers.geoprovider`，产出 `location.point` |
 | `step3b_entrance.py` | ③b 到达点/入口 | 高德 `entr_location`（v3），不跑会让路线穿园 |
 | `step4_images.py` | ④ 取图 | 外链、零文件；降级链 Unsplash → Pexels → 百度百科 |
-| `step6_transit.py` | ⑥ 通勤矩阵 | ★ **死链路** —— 已改为运行时算，绝不预存。见 README |
+| ~~`step6_transit.py`~~ | ⑥ 通勤矩阵 | ⛔ **2026-10-25 已删除**（改运行时算，不预存） |
 | `step7_district.py` | ⑦ 区划树 + 聚合计数 | `district-tree.json` 的唯一产出 |
 | `step8_subdistricts.py` | ⑧ 市辖区（区级） | 第四级（区）数据与边界 |
 | `step9_province_outline.py` | ⑨ 省级自身轮廓 | ★ 换源到高德 |

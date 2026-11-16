@@ -1,12 +1,12 @@
 # 洛阳 · 数据来源与图片版权
 
-> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
+> 生成于 2026-11-17 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
 - 省份：河南
 - adcode：410300
-- POI 数量：57
+- POI 数量：68
 
 ## 文本内容来源
 
@@ -16,25 +16,36 @@
 | 白马寺 | [百度百科·白马寺](https://baike.baidu.com/item/%E7%99%BD%E9%A9%AC%E5%AF%BA) | wiki | 2026-10-01 |
 | 白云山 | [百度百科·白云山](https://baike.baidu.com/item/%E7%99%BD%E4%BA%91%E5%B1%B1) | wiki | 2026-10-01 |
 | 隋唐城遗址植物园 | [百度百科·隋唐城遗址植物园](https://baike.baidu.com/item/%E9%9A%8B%E5%94%90%E5%9F%8E%E9%81%97%E5%9D%80%E6%A4%8D%E7%89%A9%E5%9B%AD) | wiki | 2026-10-01 |
+| 隋唐大运河文化博物馆 | [洛阳新地标 这个博物馆超出片_顶端新闻](http://www.dingxinwen.com/news/145DD4E348B84879) | media | 2026-11-17 |
 | 重渡沟 | [百度百科·重渡沟](https://baike.baidu.com/item/%E9%87%8D%E6%B8%A1%E6%B2%9F) | wiki | 2026-10-01 |
 | 黛眉山 | [百度百科·黛眉山](https://baike.baidu.com/item/%E9%BB%9B%E7%9C%89%E5%B1%B1) | wiki | 2026-10-01 |
+| 定鼎门遗址博物馆 | [洛阳免费宝藏古迹 定鼎门遗址超全游玩攻略_今日头条](https://m.toutiao.com/article/7656500476007055914) | media | 2026-11-17 |
 | 二里头夏都遗址博物馆 | [百度百科·二里头遗址](https://baike.baidu.com/item/%E4%BA%8C%E9%87%8C%E5%A4%B4%E9%81%97%E5%9D%80) | wiki | 2026-10-01 |
 | 关林 | [百度百科·关林](https://baike.baidu.com/item/%E5%85%B3%E6%9E%97) | wiki | 2026-10-01 |
 | 中国国花园 | [百度百科·中国国花园](https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E5%9B%BD%E8%8A%B1%E5%9B%AD) | wiki | 2026-10-01 |
 | 汉光武帝陵 | [百度百科·汉光武帝陵](https://baike.baidu.com/item/%E6%B1%89%E5%85%89%E6%AD%A6%E5%B8%9D%E9%99%B5) | wiki | 2026-10-01 |
+| 汉函谷关遗址 | [新安函谷关遗址_携程](https://m.ctrip.com/webapp/you/gspoi/sight/2315/0.html?poiId=10542563) | media | 2026-11-17 |
+| 汉魏洛阳故城遗址博物馆 | [汉魏洛阳故城遗址博物馆_官网导览](http://hanweimuseum.cn/guide) | official | 2026-11-17 |
 | 鸡冠洞 | [百度百科·鸡冠洞](https://baike.baidu.com/item/%E9%B8%A1%E5%86%A0%E6%B4%9E) | wiki | 2026-10-01 |
+| 洛阳考古博物馆 | [洛阳考古博物馆_百度百科](https://baike.baidu.com/item/洛阳考古博物馆/53965177) | gov | 2026-11-17 |
 | 老君山 | [百度百科·老君山](https://baike.baidu.com/item/%E8%80%81%E5%90%9B%E5%B1%B1) | wiki | 2026-10-01 |
+| 两程故里 | [两程故里_百度百科](https://baike.baidu.com/item/两程故里) | gov | 2026-11-17 |
 | 丽景门 | [百度百科·丽景门](https://baike.baidu.com/item/%E4%B8%BD%E6%99%AF%E9%97%A8) | wiki | 2026-10-01 |
 | 龙门石窟 | [百度百科·龙门石窟](https://baike.baidu.com/item/%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F) | wiki | 2026-10-01 |
 | 龙潭大峡谷 | [百度百科·龙潭大峡谷](https://baike.baidu.com/item/%E9%BE%99%E6%BD%AD%E5%A4%A7%E5%B3%A1%E8%B0%B7) | wiki | 2026-10-01 |
 | 洛阳博物馆 | [百度百科·洛阳博物馆](https://baike.baidu.com/item/%E6%B4%9B%E9%98%B3%E5%8D%9A%E7%89%A9%E9%A6%86) | wiki | 2026-10-01 |
 | 洛邑古城 | [百度百科·洛邑古城](https://baike.baidu.com/item/%E6%B4%9B%E9%82%91%E5%8F%A4%E5%9F%8E) | wiki | 2026-10-01 |
+| 明堂天堂景区 | [明堂天堂景区_携程](https://m.ctrip.com/webapp/tnt/list?keyword=明堂天堂景区) | media | 2026-11-17 |
+| 洛阳民俗博物馆 | [洛阳民俗博物馆_携程攻略](https://you.ctrip.com/sight/luoyang198/9354.html) | media | 2026-11-17 |
+| 牡丹博物馆 | [牡丹阁加入洛阳旅游年票_官方公众号](http://mp.weixin.qq.com/s?__biz=Mzk0OTIxODU1NQ==&mid=2247498537) | official | 2026-11-17 |
 | 千唐志斋 | [百度百科·千唐志斋](https://baike.baidu.com/item/%E5%8D%83%E5%94%90%E5%BF%97%E6%96%8B) | wiki | 2026-10-01 |
 | 青要山 | [百度百科·青要山](https://baike.baidu.com/item/%E9%9D%92%E8%A6%81%E5%B1%B1) | wiki | 2026-10-01 |
+| 洛阳三彩艺术博物馆 | [洛阳三彩艺术博物馆_携程攻略](https://you.ctrip.com/sight/luoyang198/1417378-tuan.html) | media | 2026-11-17 |
 | 山陕会馆 | [百度百科·洛阳山陕会馆](https://baike.baidu.com/item/%E5%B1%B1%E9%99%95%E4%BC%9A%E9%A6%86) | wiki | 2026-10-01 |
 | 神灵寨 | [百度百科·神灵寨](https://baike.baidu.com/item/%E7%A5%9E%E7%81%B5%E5%AF%A8) | wiki | 2026-10-01 |
 | 天子驾六博物馆 | [百度百科·天子驾六博物馆](https://baike.baidu.com/item/%E5%A4%A9%E5%AD%90%E9%A9%BE%E5%85%AD%E5%8D%9A%E7%89%A9%E9%A6%86) | wiki | 2026-10-01 |
 | 王城公园 | [百度百科·王城公园](https://baike.baidu.com/item/%E7%8E%8B%E5%9F%8E%E5%85%AC%E5%9B%AD) | wiki | 2026-10-01 |
+| 王铎故居 | [王铎故居_携程](https://m.ctrip.com/webapp/you/gspoi/sight/198/0.html?poiId=10530450) | media | 2026-11-17 |
 | 文峰塔 | [百度百科·洛阳文峰塔](https://baike.baidu.com/item/%E6%96%87%E5%B3%B0%E5%A1%94) | wiki | 2026-10-01 |
 | 玄奘故里 | [百度百科·玄奘故里](https://baike.baidu.com/item/%E7%8E%84%E5%A5%98%E6%95%85%E9%87%8C) | wiki | 2026-10-01 |
 | 应天门 | [百度百科·应天门](https://baike.baidu.com/item/%E5%BA%94%E5%A4%A9%E9%97%A8) | wiki | 2026-10-01 |
@@ -89,9 +100,23 @@
 | 白马寺 | Aaron Zhu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B4%9B%E9%98%B3%E7%99%BD%E9%A9%AC%E5%AF%BA_-_panoramio_(2).jpg) |
 | 白马寺 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:27471-Luoyang,_White_Horse_Temple.jpg) |
 | 白马寺 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:27495-Luoyang,_White_Horse_Temple.jpg) |
+| 白云山 | Shujianyang | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baiyun_aerial_lift_03.jpg) |
+| 白云山 | Lypeter | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baiyun_montain,luoyang1.jpg) |
+| 隋唐大运河文化博物馆 | Baomi | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Entrance_to_the_Sui_and_Tang_Grand_Canal_Museum.jpg) |
+| 隋唐大运河文化博物馆 | Baomi | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Iron_Anchor.jpg) |
+| 隋唐大运河文化博物馆 | Baomi | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Painted_Pottery_Camel.jpg) |
+| 隋唐大运河文化博物馆 | Baomi | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Potery_Figurine_of_Horse_and_Rider.jpg) |
+| 隋唐大运河文化博物馆 | Baomi | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Pottery_Camel.jpg) |
+| 隋唐大运河文化博物馆 | Baomi | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Pottery_Horse.jpg) |
 | 重渡沟 | Nyx Ning | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B2%B3%E5%8D%97_%E9%87%8D%E6%B8%A1%E6%B2%9F_%E7%82%8A%E7%83%9F_-_panoramio.jpg) |
 | 重渡沟 | Nyx Ning | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B2%B3%E5%8D%97_%E9%87%8D%E6%B8%A1%E6%B2%9F_%E8%BF%9B%E5%8F%A3%E5%A4%84_%E5%8D%83%E5%B9%B4%E8%8F%A9%E6%8F%90%E6%A0%91_-_panoramio.jpg) |
 | 重渡沟 | Nyx Ning | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B2%B3%E5%8D%97_%E9%87%8D%E6%B8%A1%E6%B2%9F%E7%A7%8B%E8%89%B2_-_panoramio.jpg) |
+| 定鼎门遗址博物馆 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20251018_Dingding_Gate_Site_Museum.jpg) |
+| 定鼎门遗址博物馆 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20251018_Site_of_Dingding_Gate_-_East_Gateway.jpg) |
+| 定鼎门遗址博物馆 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20251018_Site_of_Dingding_Gate_-_East_Watchtower.jpg) |
+| 定鼎门遗址博物馆 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20251018_Site_of_Dingding_Gate_-_West_Watchtower.jpg) |
+| 定鼎门遗址博物馆 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20251018_Site_of_Dingding_Gate_01.jpg) |
+| 定鼎门遗址博物馆 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20251018_Site_of_Dingding_Gate_02.jpg) |
 | 二里头夏都遗址博物馆 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20240815_Erlitou_Xia_Capital_Site_Museum_01.jpg) |
 | 二里头夏都遗址博物馆 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20240815_Erlitou_Xia_Capital_Site_Museum_02.jpg) |
 | 二里头夏都遗址博物馆 | Tim Wu | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Main_Entrance,_Erlitou_Site_Museum_of_the_Xia_Capital_20241001.jpg) |
@@ -104,7 +129,20 @@
 | 中国国花园 | 爱尔 | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BD%9C%E5%93%81234.jpg) |
 | 汉光武帝陵 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250716_Yuanling_Tomb_of_Eastern_Han_01.jpg) |
 | 汉光武帝陵 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250716_Yuanling_Tomb_of_Eastern_Han_02.jpg) |
+| 汉函谷关遗址 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260503_Site_of_Hangu_Pass_in_Xin%27an_02.jpg) |
+| 汉函谷关遗址 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20251018_Eaves_Tile_Inscribed_%22Guan%22.jpg) |
+| 汉函谷关遗址 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260503_Site_of_Hangu_Pass_in_Xin%27an_01.jpg) |
+| 汉函谷关遗址 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260503_Site_of_Hangu_Pass_in_Xin%27an_03.jpg) |
+| 汉函谷关遗址 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260503_Site_of_Hangu_Pass_in_Xin%27an_04.jpg) |
+| 汉函谷关遗址 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260503_Site_of_Hangu_Pass_in_Xin%27an_05.jpg) |
+| 汉魏洛阳故城遗址博物馆 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://zh.wikipedia.org/wiki/汉魏洛阳故城遗址博物馆) |
 | 鸡冠洞 | Nyx Ning | CC BY-SA 3.0 | [wikimedia](https://www.wikidata.org/wiki/Q27963615) |
+| 洛阳考古博物馆 | Baomi | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Luoyang_Archaeological_Museum.jpg) |
+| 洛阳考古博物馆 | Furius | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bronze_bell,_Eastern_Zhou,_Wangcheng_site,_Luoyang,_Henan.jpg) |
+| 洛阳考古博物馆 | Furius | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bronze_bells,_Eastern_Zhou,_Wangcheng_site,_Luoyang,_Henan.jpg) |
+| 洛阳考古博物馆 | Furius | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bronze_bo_bell,_Eastern_Zhou_Dynasty,_Wangcheng_site,_Luoyang.jpg) |
+| 洛阳考古博物馆 | Furius | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bronze_bo_bells,_Eastern_Zhou_Dynasty,_Wangcheng_site,_Luoyang.jpg) |
+| 洛阳考古博物馆 | Caroline Léna Becker | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Crachoir_Tang.jpg) |
 | 老君山 | 祝鱼贵 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260819_Laojun_Mountain_Fenglin_Cable_Car_07.jpg) |
 | 老君山 | 祝鱼贵 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260819_Laojun_Mountain_Golden_Summit_Taoist_Temples_06.jpg) |
 | 老君山 | 祝鱼贵 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260819_Laojun_Mountain_Golden_Summit_Taoist_Temples_08.jpg) |
@@ -129,6 +167,18 @@
 | 洛阳博物馆 | A1AA1A | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B4%9B%E9%98%B3%E5%8D%9A%E7%89%A9%E9%A6%86_Bronze_tripod_jue.jpg) |
 | 洛阳博物馆 | A1AA1A | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B4%9B%E9%98%B3%E5%8D%9A%E7%89%A9%E9%A6%86_Chairs_inlaid_with_shell.jpg) |
 | 洛邑古城 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20241215_Luoyi_Ancient_City.jpg) |
+| 洛阳民俗博物馆 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20241215_Dough_Figurine_in_Luoyang_Folk_Culture_Museum_02.jpg) |
+| 洛阳民俗博物馆 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20241215_Dough_Figurine_in_Luoyang_Folk_Museum_01.jpg) |
+| 洛阳民俗博物馆 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20241215_Luze_Guild_Hall,_Luoyang_01.jpg) |
+| 洛阳民俗博物馆 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20241215_Luze_Guild_Hall,_Luoyang_02.jpg) |
+| 洛阳民俗博物馆 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20241215_Luze_Guild_Hall,_Luoyang_03.jpg) |
+| 洛阳民俗博物馆 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20241215_Luze_Guild_Hall,_Luoyang_07.jpg) |
+| 牡丹博物馆 | Baomi | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Entrance_Screen_Wall_and_Ancillary_Hall_of_the_Peony_Palace.jpg) |
+| 牡丹博物馆 | Baomi | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Luoyang_Peony_Museum.jpg) |
+| 牡丹博物馆 | Baomi | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Main_Gate_of_the_Peony_Palace.jpg) |
+| 牡丹博物馆 | Baomi | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Main_Hall_of_the_Peony_Palace.jpg) |
+| 牡丹博物馆 | Baomi | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Five_white_porcelain_vases.jpg) |
+| 牡丹博物馆 | Baomi | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gallery_of_the_Luoyang_Peony_Porcelain_Museum.jpg) |
 | 千唐志斋 | 漢氏 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%85%89%E9%99%BD%E7%8E%8B%E5%A6%83%E5%AD%AB%E6%B0%8F%E5%A3%99%E8%AA%8C%EF%BC%88%E5%8D%83%E5%94%90%E8%AA%8C%E9%BD%8B%E8%97%8F%EF%BC%89.jpg) |
 | 千唐志斋 | 漢氏 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%83%E5%94%90%E8%AA%8C%E9%BD%8B.jpg) |
 | 千唐志斋 | 漢氏 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%97%A3%E6%9B%B9%E7%8E%8B%E5%A6%83%E6%B8%85%E6%B2%B3%E5%B4%94%E6%B0%8F%E5%A2%93%E8%AA%8C%EF%BC%88%E5%8D%83%E5%94%90%E8%AA%8C%E9%BD%8B%E8%97%8F%EF%BC%89.jpg) |
@@ -160,11 +210,15 @@
 | 应天门 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20230124_Yingtian_Gate_at_Night_03.jpg) |
 | 应天门 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20230124_Yingtian_Gate_at_Night_06.jpg) |
 | 应天门 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20230124_Yingtian_Gate_at_Night_08.jpg) |
+| 豆腐汤 | by titanium22 | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Korean_stew-Sundubu_jjigae-05.jpg) |
 | 锅贴 | Leiem | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Beef_Guotie.jpg) |
 | 锅贴 | Haam819 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:C-QVoAgXoAAcVbC.jpg) |
 | 锅贴 | User: (WT-shared) ResTpeTw at wts wikivoyage | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guotie_in_Ningxia_Night_Market_20070923.jpg) |
 | 驴肉汤 | guan | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E7%9F%B3%E6%A1%A5%E9%99%88%E8%AE%B0%E9%A9%B4%E8%82%89%E6%B1%A4%E9%A6%86_-_panoramio.jpg) |
 | 牡丹燕菜 | Roci xu | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mu_dan_yan_cai(%E7%89%A1%E4%B8%B9%E7%87%95%E8%8F%9C).jpg) |
+| 牛肉汤 | Silar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:02024_0051_Wymysorys_gulasz.jpg) |
+| 牛肉汤 | Jiří Sedláček | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Caultron_with_goulash_at_Tripod_near_Kouty,_T%C5%99eb%C3%AD%C4%8D_District.jpg) |
+| 牛肉汤 | John Cambrick | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Goulash_i_br%C3%B8d_i_Prag.jpg) |
 | 洛阳水席 | Aaron Zhu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 丸子汤 | Kun Bao | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%99%BD%E8%8F%9C%E7%B2%89%E6%9D%A1%E4%B8%B8%E5%AD%90%E6%B1%A4_Cabbage_vermicelli_meatball_soup-Col_sopa_de_alb%C3%B3ndigas_vermicelli_(14703418288).jpg) |
 | 羊肉汤 | 我乃野云鹤 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Longyao_mutton_soup.jpg) |

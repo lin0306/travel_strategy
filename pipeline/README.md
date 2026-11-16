@@ -49,7 +49,7 @@ python tools/check_seed.py --all           # 或python tools/check_seed.py <城�
 ```
 
 ★ **⑥ 通勤矩阵已移出流水线**（2026-10-06 决策）：通勤时长改为用户实际规划时
-**运行时**请求图商，采集期绝不预存（62 城 × 约 1600 对 × 3 方式要几百 MB，
+**运行时**请求图商，采集期绝不预存（83 城 × 约 1600 对 × 3 方式要几百 MB，
 且半改会造成跨城口径不一致）。
 ★ **2026-10-25：`steps/step6_transit.py` 已删除**（连同 `schema` 里的 `CityTransitMatrix`、
 `build.py` 那条「缺 transit」假告警）。真实时长现在只在前端产生，落在 `routeSetCache`。

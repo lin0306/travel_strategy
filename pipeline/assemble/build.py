@@ -3,8 +3,8 @@
 pipeline/assemble/build.py —— 组装 · 校验 · 生成派生产物
 
 三件事：
-  ① **组装**：把 `city.json` + `pois/{category}/*.json` + `transit.json` 合成一份完整 City
-  ② **校验**：跑 Pydantic（`shared/schema.py`）+ 04 文档第八节的溯源/不变式红线
+  ① **组装**：把 `city.json` + `pois/{category}/*.json` 合成一份完整 City
+  ② **校验**：跑 Pydantic（`schema/schema.py`）+ `plans/04-content-pipeline.md` 第八节的溯源/不变式红线
   ③ **生成**：`cities.index.json`（首页索引）+ `credits/{省}/{市}.md`（人工 review 用）
 
 ★ 为什么要一个 build 步骤，而不是让前端自己拼：
@@ -57,9 +57,8 @@ def assemble_city(slug: str, city_id: str) -> dict:
         pois.append(poi)
 
     city["pois"] = pois
-    transit = read_json(DATA / "cities" / slug / city_id / "transit.json")
-    if transit:
-        city["transit"] = transit
+    # ★ 2026-10-25：不再拼 `transit.json` —— 通勤矩阵已彻底删除（改运行时按需算）。
+    #   schema 里 `transit` 恒为 null（`null ≠ 0` 的占位），别在这里留"有文件就带上"的口子。
     return city
 
 

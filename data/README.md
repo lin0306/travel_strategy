@@ -3,7 +3,7 @@
 > 这个目录是**内容数据**，与 `web/` 下的应用代码完全解耦 —— 整包拿走可以独立复用。
 > 前端通过 Vite alias `~data`（解析到仓库根的 `data/`）引入；新增一座城市**不需要改一行前端代码**（放一份 JSON，页面与路由自动出现）。
 >
-> **仓库布局**：应用工程在 `web/`，本目录与 `plans/`、`pipeline/`、`schema/`、`tools/` 在**仓库根**。
+> **仓库布局**：应用工程在 `web/`，本目录与 `plans/`、`docs/`、`pipeline/`、`schema/`、`tools/` 在**仓库根**。
 > 所以 `web/` 里的代码引用数据要**往上多走一层**（`../../../data/...`）——
 > `import.meta.glob` 必须写字面量相对路径、用不了别名，这是本仓库最容易静默出错的一处
 > （写错不报错，只会匹配到 0 个文件、页面进空态）。`tools/check_app.py` 的 I 项专门守这个。
@@ -21,25 +21,35 @@ data/
 │     └─ {cityId}/              # 市（英文 id，如 chengdu）
 │        ├─ city.json           # ★ 城市主数据（人写，唯一真源）
 │        ├─ pois/               # ★ 一个大类一个文件夹
-│        │  ├─ scenic/{poiId}.json     景点（15）
-│        │  ├─ food/{poiId}.json       美食（15）
-│        │  ├─ hotspot/{poiId}.json    网红打卡（10）
-│        │  └─ culture/{poiId}.json    城市特色（6）
-│        └─ transit.json        # ★ 通勤矩阵（脚本生成，派生数据）
+│        │  ├─ scenic/{poiId}.json     景点
+│        │  ├─ food/{poiId}.json       美食
+│        │  ├─ hotspot/{poiId}.json    网红打卡
+│        │  └─ culture/{poiId}.json    城市特色
+├─ provinces/
+│  └─ index.json                # 省级内容（34 段 intro + heroImages），键 = 6 位 adcode
 ├─ credits/
 │  └─ {省slug}/{cityId}.md      # 来源清单（脚本生成，便于 PR review）
 ├─ _generated/                  # ★ 全部脚本生成，禁止手改
 │  ├─ district-tree.json        # ★ 全国三级区划树 + 每级 POI 计数（下钻地基）
-│  ├─ districts/                # ★ 省 / 市边界缓存
-│  │  ├─ provinces.geo.json     #   全国 34 个省级边界
-│  │  └─ {adcode}.geo.json      #   各省的市级边界（只生成已收录城市所在的省）
+│  ├─ district-index.json       # ★ 区 → 省/市 反查，按 adcode 索引
+│  ├─ districts/{adcode}.geo.json       # 省 / 市边界缓存（一个 adcode 一个文件）
+│  ├─ districts-own/{adcode}.geo.json   # 各级「自身轮廓」（挖空下级，高德源）
+│  ├─ provinces/{adcode}.geo.json       # 省级自身轮廓
+│  ├─ cities/{adcode}.geo.json          # 市级自身轮廓
+│  ├─ subdistricts/{adcode}.json        # 市辖区（区级）数据与边界
+│  ├─ city-bbox.json            # 城市 bbox 汇总
 │  ├─ search-index.json         # 跨城倒排索引
-│  ├─ image-health.json         # 月度图片巡检结果（不污染主数据）
-│  ├─ api-usage.json            # 腾讯 WebService 用量记账
-│  └─ manifest.json             # 校验和 + 更新时间
+│  ├─ build-summary.json        # 本次构建汇总（cities 字典）
+│  ├─ city-covers.json · province-covers.json   # 封面抓取账本（进度真源）
+│  ├─ reviews/{cityId}.json     # AI 点评草稿（按城分文件）
+│  ├─ discover/{cityId}.json    # 拓取候选（按城分文件）
+│  └─ api-usage.json            # 图商用量记账
 └─ _fixtures/                   # ★ 开发占位数据，**不是真实内容**，见第四节
    └─ chengdu.json
 ```
+
+> ★ `transit.json`（通勤矩阵）已于 **2026-10-25** 彻底删除 —— 时长改为运行时按需算，
+> 不再有构建期矩阵产物。第三节保留的是决策来由，**不是现行契约**。
 
 **铁律**：`cities/` 是唯一需要人碰的地方；凡是能算出来的（索引、清单、来源汇总、巡检结果）一律脚本生成。
 
@@ -53,15 +63,13 @@ data/
 |------|------|------|
 | `city.json` | **人写** | 城市主数据：id / 名称 / adcode / 简介 / 中心点与 bbox / 分类定義 / hero 图 |
 | `pois/{大类}/{poiId}.json` | **人写** | 一个点位一个小文件。所在目录即 `category`，文件内不必重复写 |
-| `transit.json` | **脚本生成** | 通勤矩阵（派生数据），见第三节 |
 
 **为什么分片**：单城 46 个点位写成一个 JSON 会轻松超过 400 行，AI 每次读文件整篇进上下文；
 分片后改一个点位只产生**一个文件**的 diff，PR review 能一眼看清改了什么。
-`transit.json` 独立同理 —— 它是算出来的，不该让人手改，也不该让"改文案"的 PR 带上几千字符的矩阵噪声。
 
-> ⚠️ **POI 顺序是契约的一部分**：`city.pois` 按「大类目录顺序 `scenic → food → hotspot → culture` + 文件名字典序」拼装，
-> transit 矩阵按下标寻址，**顺序不一致会静默取到别人的通勤时长**。脚本侧见 `layout.iter_poi_files`，
-> 前端侧见 `app/lib/cityRegistry.ts` 的 `CATEGORY_ORDER`，两处必须保持一致。
+> ⚠️ **POI 顺序是契约的一部分**：`city.pois` 按「大类目录顺序 `scenic → food → hotspot → culture` + 文件名字典序」拼装。
+> 列表、路线、海报都依赖它稳定 —— 顺序一变，同一个 id 在页面上就换了位置。
+> 脚本侧见 `core/layout.py` 的 `iter_poi_files`，前端侧见 `cityRegistry` 的 `CATEGORY_ORDER`，两处必须一致。
 
 - `schema/schema.ts` —— Zod，前端运行时校验
 - `schema/schema.py` —— Pydantic，脚本产出校验
@@ -85,7 +93,6 @@ data/
   "facts": { "suggestedDays": "2-3 天", "bestSeason": "3-6 月 / 9-11 月" },
   "categories": [ /* 四大类；把大类标签、筛选色与它下面的细类清单交给数据决定 */ ],
   "pois": [ /* 每城 ≈ 46：景点 15 / 美食 15 / 网红 10 / 特色 6 */ ],
-  "transit": { /* ★ 通勤矩阵，见第三节 */ },
   "credits": { "imageSources": [], "textSources": [], "lastUpdated": "2026-09-18" },
   "updatedAt": "2026-09-18"
 }
@@ -95,7 +102,7 @@ data/
 
 | # | 不变式 | 为什么 |
 |---|-------|--------|
-| 1 | `pois[].id` 全局唯一、只含 `[a-z0-9-]` | 路由键与矩阵下标都靠它 |
+| 1 | `pois[].id` 全局唯一、只含 `[a-z0-9-]` | 路由键与详情页地址都靠它 |
 | 2 | `pois[].location.point` 必须落在 `bbox` 内 | 落点跑出城市说明地理编码错了 |
 | 3 | `SUBTYPE_CATEGORY[subtype] === category` | 细类必须归属且只归属一个大类 |
 | 4 | `audience` ≥ 1 项且不重复 | 一个都填不出，说明对这个点位理解还不够 |
@@ -104,40 +111,25 @@ data/
 | 7 | `description` ≥ 80 字 | 质量门槛，防"页面能跑但内容残缺" |
 | 8 | `popularity` 必填（0–100） | ★ 自研标注避让靠它排序；缺了该点低 zoom 下**永远不出标注** |
 | 9 | `accessible` 默认 `false` | 未核实就不声称 |
-| 10 | `transit.poiIndex` 与 `pois[].id` **集合一致且顺序一致** | 矩阵按下标寻址，错位会静默取到别人的时长 |
-| 11 | `transit` **可为 null** | 矩阵是付费接口的产物，配额打满时缺它是预期状态。缺了不许填 0 充数 —— 行程页走「直线估算」并标「估算」（红线 10：null ≠ 0） |
 
 ---
 
-## 三、通勤矩阵（`transit`）—— 最容易被写错的一块
+## 三、通勤时长：运行时算，不预存（原 `transit` 已删除）
 
-**只存对称上三角**，定长 4 位 base36 扁平串，按行优先展开：
+> ⛔ **2026-10-25 起彻底移除**：`transit.json`、`city.transit` 字段、`schema` 里的 `CityTransitMatrix`、
+> 前端 `itinerary/matrix.ts`、`pipeline/steps/step6_transit.py` 全部删除，`run.py` 也没有 `transit` 子命令。
+> 旧编码方式（对称上三角 / 4 位 base36 / 按下标寻址）与决策来由见 `plans/README.md` 的变更记录 ——
+> **不要在数据里再加回矩阵**。
 
-```
-idx(i, j) = i × (i − 1) / 2 + j      (i > j)
-读取对称取值：i > j ? idx(i,j) : idx(j,i)
-'0000' = 不适用（超出该方式直线距离上限，或接口无数据）
-```
+现行做法：
 
-- 字符串长度 = `n × (n−1) / 2 × 4`。**n=46 时每通道 4,140 字符**
-- 三条通道：`driving` / `walking` / `bicycling`
-  - **打车复用 `driving`** —— 打车与轿车走同一条路、时长完全一样，差别只在费用
-  - **公交 / 地铁刻意不在矩阵里** —— 时效性最强且无批量接口，运行时按需算
-- `maxStraightMeters`：驾车 `0`（不限）/ 步行 `3000` / 骑行 `8000`。超出即写 `'0000'`
+- 行程页拉开两点之间的段时，**当场**按需请求图商（驾车 / 打车 / 骑行 / 步行 / 公交 / 地铁），
+  结果进 `routeSetCache`（与海报导出同源），同一次会话内复用；
+- 拿到的是**当次请求的真实路况**，不再有"9 月生成的快照在 12 月被当成实时展示"的问题；
+- 用量仍记在 `_generated/api-usage.json`（`MATRIX_CHANNEL` 六条通道）。
 
-### 3.1 三个必踩的坑
-
-1. **坐标是 `lat,lng`（纬度在前）** —— 腾讯所有接口都是。与 GeoJSON 的 `[lng,lat]` 相反，写反了返回结果全错且不好查
-2. **`duration` 单位不一致**：距离矩阵是**秒**，路线规划是**分钟**。混用差 60 倍
-3. **单个元素可能失败**：起终点附近 5km 内无道路时该元素 `status: 4`，`distance` 退化为直线距离且**不返回 `duration`**。必须逐元素判 `status`（直接读会得到 `undefined` 而不是报错）
-
-### 3.2 为什么必须有 `generatedAt`
-
-驾车时长含实时路况，是**生成时刻的快照**，不是恒定量。所以 `generatedAt` 与 `sampledAtLabel` 必须存，且要在 UI 上如实显示。
-
-> ⚠️ **绝不能把快照说成实时。** 一个 9 月生成的矩阵在 12 月被当成"实时路况"展示，就是在误导用户。这也是产品诚实度的底线。
-
-矩阵的读取端实现在 `web/app/itinerary/matrix.ts`（O(1) 定长切片，亚毫秒级，不建索引结构）。
+> ⚠️ 两个老坑仍成立：腾讯接口坐标一律 **`lat,lng`（纬度在前）**，与 GeoJSON 的 `[lng,lat]` 相反；
+> 距离矩阵单位是**秒**、路线规划是**分钟**，混用差 60 倍。
 
 ---
 
@@ -150,12 +142,12 @@ idx(i, j) = i × (i − 1) / 2 + j      (i > j)
 - **一旦 `data/cities/` 里有任意一份真实城市数据，fixtures 立即失效**，不需要手动关
 - 生产构建**永不**使用 fixtures
 
-它同时兼一个作用：**当"什么算一份合法的城市数据"的参照物**。写采集脚本时可以对着它看矩阵串该多长、字段该怎么填。
+它同时兼一个作用：**当"什么算一份合法的城市数据"的参照物**。写采集脚本时对着它看字段该怎么填。
 
 生成方式：
 
 ```bash
-cd web && python scripts/make_fixture.py     # 重算 fixtures（改了 schema 后跑它对齐）
+E:/BASIC/python/python.exe tools/make_fixture.py     # 重算 fixtures（改了 schema 后跑它对齐）
 ```
 
 ---
@@ -221,21 +213,22 @@ cd web && python scripts/make_fixture.py     # 重算 fixtures（改了 schema �
 流水线在 `pipeline/`，入口 `run.py`。依赖：`pip install -r pipeline/requirements.txt`。
 
 ```bash
-cd web
-python pipeline/run.py usage              # 先看今日 API 用量余额（矩阵很贵，跑之前必看）
-python pipeline/run.py pipeline chengdu   # ③地理编码 → ④取图 → ⑥矩阵 → ⑦区划树 → 组装校验
-python pipeline/run.py geocode  chengdu   # 只补坐标（--force 强制重算）
-python pipeline/run.py images   chengdu   # 只取图
-python pipeline/run.py transit  chengdu   # 只算通勤矩阵（支持断点续跑）
-python pipeline/run.py district           # 生成区划树
-python pipeline/run.py build --city=chengdu   # 组装 + 校验 + 生成索引与 credits
+E:/BASIC/python/python.exe pipeline/run.py usage             # 今日额度 + 取点走哪家图商
+E:/BASIC/python/python.exe pipeline/run.py pipeline chengdu  # ③地理编码 → ④取图 → ⑦区划树 → 组装校验
+E:/BASIC/python/python.exe pipeline/run.py geocode  chengdu  # 只补坐标（--force 强制重算）
+E:/BASIC/python/python.exe pipeline/run.py images   chengdu  # 只取图
+E:/BASIC/python/python.exe pipeline/run.py district          # 生成区划树
+E:/BASIC/python/python.exe pipeline/run.py build             # 全量组装 + 校验 + 生成索引与 credits
+E:/BASIC/python/python.exe pipeline/run.py build --city chengdu   # 只组装一城（★ 会重写 cities.index.json）
 ```
+
+★ 命令一律在**仓库根**执行，python 写全路径（依赖只装在 `E:/BASIC/python/python.exe`）。
 
 任何触碰 `data/` 的 PR 都应跑通 `build`。**校验不通过不允许合并** —— 这是"格式统一"唯一可靠的保障，靠人自觉没用。
 
 ### 6.1 key 从哪来
 
-脚本**拿不到** Vite 注入的 `import.meta.env`，统一走 `pipeline/env.py`（2026-09-30 起**配置按工程分家**）：
+脚本**拿不到** Vite 注入的 `import.meta.env`，统一走 `pipeline/core/env.py`（2026-09-30 起**配置按工程分家**）：
 先读真实环境变量，再读 `pipeline/.env.local` → `pipeline/.env`，最后才兜底读 `web/.env.local` → `web/.env`
 （前者不覆盖后者；从 `web/` 捡到采集侧 key 时会打印一次迁移提示）。
 **采集侧的 key 一律放 `pipeline/.env.local`**，前端那把 `VITE_TMAP_KEY` 放 `web/.env.local`。
@@ -272,15 +265,15 @@ python pipeline/run.py build --city=chengdu   # 组装 + 校验 + 生成索引�
 跑完还会扫一遍**坐标重合**（不同 POI 落在同一个点 = 至少有一个错）。
 实测拦下的真实事故：成都自然博物馆被解析成成都博物馆（相距 10 公里，adcode 校验完全看不出来）。
 
-### 6.4 通勤矩阵：最贵的一步，务必先看余额
+### 6.4 图商配额：120 与 121 要分清
 
-- 单城 46 点 ≈ **4,800 计算次数**（对称上三角后 9 次请求，不是 12 次）
-- 腾讯按**计算次数**计费，失败的那次**同样计费** —— 所以宁可主动等，也别被限流后重试
-- 逐块落盘到 `_generated/transit.progress.json`，**中断可续跑**，不重复计费
-- 已生成且 ≤180 天会自动跳过（要重算加 `--force`）
+> ⛔ 「通勤矩阵」这一步已随 `transit.json` 一起删除（见第三节），但**额度的坑没变** ——
+> 取点、区划、路线规划走的是同一套配额账本。
 
-今日额度打满的表现是 `status=120`（"每秒请求量已达上限"，措辞有误导性，实际是额度/窗口问题），
-`121` 才是明确的日配额耗尽。遇到 120 就等明天。
+- 腾讯按**计算次数**计费，**失败的那次同样计费** —— 宁可主动等，也别被限流后重试
+- `status=120` 是"每秒请求量已达上限"（措辞有误导性，实际多为额度 / 窗口问题）；`121` 才是明确的日配额耗尽。
+  取点侧遇到 121 会自动切高德（`providers/geoprovider.py`），取图与区划侧只能等明天
+- 账本在 `_generated/api-usage.json`，`pipeline/run.py usage` 直接看（同时报「现在走哪家、备胎在不在」）
 
 ---
 

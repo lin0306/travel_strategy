@@ -43,7 +43,38 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Baiyun_aerial_lift_03.jpg/1280px-Baiyun_aerial_lift_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Baiyun_aerial_lift_03.jpg/1280px-Baiyun_aerial_lift_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Baiyun aerial lift 03.jpg",
+      "query": "白云山 洛阳",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Shujianyang",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baiyun_aerial_lift_03.jpg",
+        "license": "CC BY 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Baiyun_montain%2Cluoyang1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Baiyun_montain%2Cluoyang1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 711,
+      "alt": "Baiyun montain,luoyang1.jpg",
+      "query": "白云山 洛阳",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Lypeter",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baiyun_montain,luoyang1.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
   "coverIndex": 0,
   "tags": [
     "森林",
@@ -67,6 +98,5 @@
   },
   "_geocodeTitle": "白云山",
   "_geocodeSuspect": false,
-  "district": "410325",
-  "_noImage": true
+  "district": "410325"
 }

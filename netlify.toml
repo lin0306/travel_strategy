@@ -3,14 +3,30 @@
 # 比把 netlify.toml 放进 web/ 更可靠（放进去反而找不到）。
 #
 # base 一旦设定，command 的执行目录与 publish 的解析基准**都相对 base**，
-# 所以 publish = "dist" 指的是 web/dist，不是仓库根的 dist。
+# 所以 publish 里的路径是相对 `web/` 解析的，不是仓库根。
+#
+# ★★ publish 必须是 **dist/client**，不能写 dist（2026-11-16 修正）
+#   `react-router.config.ts` 设了 `buildDirectory: 'dist'`，但 React Router 会把
+#   产物再分一层：HTML 与 assets 全在 `dist/client/`，`dist/` 只做容器。
+#   实测 `web/dist/` 下**只有** `client/` 一个目录，`web/dist/index.html` 不存在。
+#   ⇒ 写 `dist` 时 Netlify 发布的根是 `web/dist`：`/` 找不到 index.html、
+#     `/assets/*` 全部落到空目录 ⇒ 连下面的 redirect 也指向不存在的文件 ⇒ **全站 404**。
+#   ★ 这个坑本地永远看不出来（本地 `pnpm preview` 走的是 vite 的 dev server，
+#     不读 netlify.toml），只有真部署才会炸。
 [build]
   base = "web"
-  command = "npm run build"
-  publish = "dist"
+  # 工程只有 pnpm-lock.yaml（无 package-lock.json / yarn.lock），
+  # 且 package.json 写了 `packageManager: pnpm@12.16.1` ⇒ 用 pnpm，别用 npm。
+  command = "pnpm build"
+  publish = "dist/client"
 
 [build.environment]
   NODE_VERSION = "22"
+  # ★ 与 package.json 的 `packageManager` **必须同值**（2026-11-16）：
+  #   Netlify 靠 corepack 拉起这个版本，两边不一致时以哪个为准并不透明。
+  #   取 12.16.1 而不是原来的 11.1.2 —— 因为本地 `pnpm build` 实测通过的就是 12.16.1，
+  #   CI 与本地同版本才能保证 lockfile 解析行为一致（11.1.2 是 11.x 最早期的补丁版）。
+  PNPM_VERSION = "12.16.1"
 
 # 预渲染产物已是完整静态文件，无需 SPA fallback。
 # 仅为未预渲染的深层路径兜底：Netlify 只在文件不存在时才走这条规则，

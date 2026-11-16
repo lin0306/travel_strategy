@@ -1,0 +1,204 @@
+{
+  "id": "kaogu-museum",
+  "name": "洛阳考古博物馆",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "全国第一座遗址型考古博物馆，建在隋唐洛阳城西城墙的夯土上。",
+  "description": "洛阳考古博物馆在隋唐洛阳城遗址南城墙西段，是我国首座遗址型考古博物馆，由洛阳市文物考古研究院建设管理，2020 年开馆、2024 年提升改造后重新开放。展陈面积约 3000 平方米，269 件（组）精品全部出自洛阳本地出土，史前到明清每朝都不缺，一半以上是首次公开展出。馆里另有下沉式遗址展示区，直接罩着多朝代的城墙夯土；另设考古体验区与研学课堂，可动手做拓印。馆不大，通看一圈约九十分钟，适合作为进入洛阳十三朝序列的第一站。缺点是展厅只有一层体量，专题感弱于综合性大馆，节假日研学团多时会显得挤。",
+  "highlights": [
+    "全国首座遗址型考古博物馆",
+    "269 件文物半数为首展",
+    "下沉式城墙遗址展示区",
+    "有考古体验与研学课堂"
+  ],
+  "location": {
+    "point": {
+      "lng": 112.443599,
+      "lat": 34.629948,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "洛阳市洛龙区古城快速路辅道 隋唐洛阳城遗址南城墙西段",
+    "district": "洛龙区",
+    "transportTip": "地铁 2 号线隋唐园站转公交；自驾导航“洛阳考古博物馆”，馆外可停车"
+  },
+  "practical": {
+    "openHours": "周二至周日 9:00-17:00（16:30 停止入馆），周一闭馆",
+    "openHoursRef": 0,
+    "ticket": "免费，个人无需预约，团队需提前 24-48 小时电话预约",
+    "ticketRef": 0,
+    "duration": "建议 90-120 分钟",
+    "durationMinutes": [
+      90,
+      120
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "solo",
+    "kids"
+  ],
+  "accessible": true,
+  "tips": [
+    "先看下沉遗址区再看展柜，动线更顺",
+    "周一闭馆，法定节假日除外",
+    "带小孩可问服务台要考古体验场次"
+  ],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Luoyang_Archaeological_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Luoyang_Archaeological_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 1080,
+      "alt": "Luoyang Archaeological Museum.jpg",
+      "query": "洛阳考古博物馆 洛阳",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Baomi",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Luoyang_Archaeological_Museum.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Bronze_bell%2C_Eastern_Zhou%2C_Wangcheng_site%2C_Luoyang%2C_Henan.jpg/1280px-Bronze_bell%2C_Eastern_Zhou%2C_Wangcheng_site%2C_Luoyang%2C_Henan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Bronze_bell%2C_Eastern_Zhou%2C_Wangcheng_site%2C_Luoyang%2C_Henan.jpg/1280px-Bronze_bell%2C_Eastern_Zhou%2C_Wangcheng_site%2C_Luoyang%2C_Henan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1677,
+      "alt": "Bronze bell, Eastern Zhou, Wangcheng site, Luoyang, Henan.jpg",
+      "query": "Luoyang Archaeological Museum",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Furius",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bronze_bell,_Eastern_Zhou,_Wangcheng_site,_Luoyang,_Henan.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Bronze_bells%2C_Eastern_Zhou%2C_Wangcheng_site%2C_Luoyang%2C_Henan.jpg/1280px-Bronze_bells%2C_Eastern_Zhou%2C_Wangcheng_site%2C_Luoyang%2C_Henan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Bronze_bells%2C_Eastern_Zhou%2C_Wangcheng_site%2C_Luoyang%2C_Henan.jpg/1280px-Bronze_bells%2C_Eastern_Zhou%2C_Wangcheng_site%2C_Luoyang%2C_Henan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 465,
+      "alt": "Bronze bells, Eastern Zhou, Wangcheng site, Luoyang, Henan.jpg",
+      "query": "Luoyang Archaeological Museum",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Furius",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bronze_bells,_Eastern_Zhou,_Wangcheng_site,_Luoyang,_Henan.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Bronze_bo_bell%2C_Eastern_Zhou_Dynasty%2C_Wangcheng_site%2C_Luoyang.jpg/1280px-Bronze_bo_bell%2C_Eastern_Zhou_Dynasty%2C_Wangcheng_site%2C_Luoyang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Bronze_bo_bell%2C_Eastern_Zhou_Dynasty%2C_Wangcheng_site%2C_Luoyang.jpg/1280px-Bronze_bo_bell%2C_Eastern_Zhou_Dynasty%2C_Wangcheng_site%2C_Luoyang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1596,
+      "alt": "Bronze bo bell, Eastern Zhou Dynasty, Wangcheng site, Luoyang.jpg",
+      "query": "Luoyang Archaeological Museum",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Furius",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bronze_bo_bell,_Eastern_Zhou_Dynasty,_Wangcheng_site,_Luoyang.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Bronze_bo_bells%2C_Eastern_Zhou_Dynasty%2C_Wangcheng_site%2C_Luoyang.jpg/1280px-Bronze_bo_bells%2C_Eastern_Zhou_Dynasty%2C_Wangcheng_site%2C_Luoyang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Bronze_bo_bells%2C_Eastern_Zhou_Dynasty%2C_Wangcheng_site%2C_Luoyang.jpg/1280px-Bronze_bo_bells%2C_Eastern_Zhou_Dynasty%2C_Wangcheng_site%2C_Luoyang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 461,
+      "alt": "Bronze bo bells, Eastern Zhou Dynasty, Wangcheng site, Luoyang.jpg",
+      "query": "Luoyang Archaeological Museum",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Furius",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bronze_bo_bells,_Eastern_Zhou_Dynasty,_Wangcheng_site,_Luoyang.jpg",
+        "license": "CC0",
+        "attributionRequired": false
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Crachoir_Tang.jpg/1280px-Crachoir_Tang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Crachoir_Tang.jpg/1280px-Crachoir_Tang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 1350,
+      "alt": "Crachoir Tang.jpg",
+      "query": "Luoyang Archaeological Museum",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Caroline Léna Becker",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crachoir_Tang.jpg",
+        "license": "Public domain",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "考古",
+    "遗址",
+    "免费",
+    "亲子"
+  ],
+  "popularity": 75,
+  "sources": [
+    {
+      "title": "洛阳考古博物馆_百度百科",
+      "url": "https://baike.baidu.com/item/洛阳考古博物馆/53965177",
+      "kind": "gov",
+      "fetchedAt": "2026-11-17"
+    }
+  ],
+  "updatedAt": "2026-11-17",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Luoyang Archaeological Museum",
+    "zh": "洛阳考古博物馆"
+  },
+  "review": {
+    "score": 4.38,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "展陈",
+        "score": 4.5,
+        "note": "269 件全出自洛阳本地，半数首展，按朝代串得清楚"
+      },
+      {
+        "label": "独特",
+        "score": 4.8,
+        "note": "全国第一座遗址型考古博物馆，直接压在城墙夯土上"
+      },
+      {
+        "label": "人流",
+        "score": 4.0,
+        "note": "比洛博清静太多，研学团到场时会挤"
+      },
+      {
+        "label": "时长",
+        "score": 3.5,
+        "note": "展厅一层，九十分钟看完，不必留半天"
+      }
+    ],
+    "body": "想弄明白洛阳为什么是十三朝古都，先来这儿比先冲洛博更聪明——它把“考古是怎么挖出来的”讲透了，269 件东西全是本地出土，一半是头一回露面，一层还有直接罩着多朝代城墙夯土的下沉遗址区，能带小孩做拓印。缺点是体量小，只有一层展厅，专题深度比不上综合性大馆，节假日研学团一来就显挤，得错峰。",
+    "basis": "web",
+    "at": "2026-11-17",
+    "fits": [
+      "历史入门",
+      "带娃",
+      "避人流"
+    ],
+    "avoid": [
+      "想看镇馆国宝级重器"
+    ],
+    "sources": [
+      "https://baike.baidu.com/item/洛阳考古博物馆/53965177"
+    ]
+  },
+  "_geocodeTitle": "洛阳考古博物馆",
+  "_geocodeSuspect": false,
+  "district": "410311"
+}

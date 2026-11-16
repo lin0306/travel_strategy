@@ -17,12 +17,12 @@ pipeline 包 —— 采集流水线（plans/04 的七步）
     fix_noise      长中文里的英文噪声清理
     step3_geocode  给 POI 草稿补 GCJ-02 坐标
     step4_images   补图片
-    step6_transit  通勤矩阵（构建期预计算，运行时零调用）
+    step6_transit  ⛔ 已于 2026-10-25 删除（通勤时长改运行时算，绝不预存）
     step7_district 区划树 + 聚合计数（三级下钻地基）
     build          组装 / 校验 / 生成索引与来源清单
 
 用法（在**仓库根**执行）：
-    python pipeline/run.py pipeline chengdu    # 完整流水线 ③④⑥⑦ + 组装
+    python pipeline/run.py pipeline chengdu    # 完整流水线 ③④⑦ + 组装
     python pipeline/run.py build               # 组装 + 校验 + 生成索引
     python pipeline/run.py build --strict      # CI 模式：任一告警也算失败
 """
