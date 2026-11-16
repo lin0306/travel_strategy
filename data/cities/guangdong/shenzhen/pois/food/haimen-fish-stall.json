@@ -21,7 +21,7 @@
     "transportTip": "各门店就近地铁站可达"
   },
   "practical": {
-    "openHours": "约17:00-次日凌晨（以门店公告为准）",
+    "openHours": "11:00-14:00、17:00-21:00（周一至周日，以门店公告为准）",
     "openHoursRef": 0,
     "ticket": "人均约90元起，以门店为准",
     "ticketRef": 0,
@@ -51,9 +51,15 @@
       "url": "https://baike.baidu.com/item/%E6%BD%AE%E6%B1%95%E6%89%93%E5%86%B7",
       "kind": "wiki",
       "fetchedAt": "2026-09-24"
+    },
+    {
+      "title": "深圳节日大道美食图鉴（读特）",
+      "url": "https://www.dutenews.com/cmdetail/496663",
+      "kind": "media",
+      "fetchedAt": "2026-11-13"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-13",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -61,5 +67,59 @@
   },
   "_geocodeTitle": "海门鱼仔店(星河COCO Park)",
   "district": "440304",
-  "_noImage": true
+  "_noImage": true,
+  "review": {
+    "score": 4.0,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "口味",
+        "score": 4.3,
+        "note": "鱼饭吃本味，明档海鲜现挑"
+      },
+      {
+        "label": "独特",
+        "score": 4.2,
+        "note": "潮汕打冷这一套在深圳不好找"
+      },
+      {
+        "label": "价格",
+        "score": 3.2,
+        "note": "海鲜按斤点，客单容易上去"
+      },
+      {
+        "label": "时段",
+        "score": 3.0,
+        "note": "各店营业时段不一，去前先确认"
+      }
+    ],
+    "body": "潮汕打冷在深圳的一处落脚点，鱼饭、卤味、生腌和小海鲜提前做好摆出来由客人指，核心是鱼饭的凉吃本味与生腌虾蟹血蛤，配白粥是固定搭配，近年也连续拿到餐饮榜单推荐。缺点是生腌初次吃容易不适应，海鲜明档按斤点、客单偏上；这家是商场里的正餐店而非纯夜宵摊，各店时段不统一，专程去前先确认当天开门与收档时间，别按老印象扑空。",
+    "basis": "web",
+    "at": "2026-11-13",
+    "fits": [
+      "尝潮汕打冷",
+      "多人点海鲜"
+    ],
+    "avoid": [
+      "不吃生腌",
+      "预算紧"
+    ],
+    "sources": [
+      "https://news.qq.com/rain/a/20261012A06SVG00",
+      "https://www.sztv.com.cn/ysz/zx/zw/83841726.shtml",
+      "https://ufood.com.hk/restaurant/news/detail/20078275/"
+    ]
+  },
+  "_patrol": {
+    "at": "2026-11-13",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "约17:00-次日凌晨（以门店公告为准）",
+        "new": "11:00-14:00、17:00-21:00（周一至周日，以门店公告为准）"
+      }
+    ],
+    "source": "https://www.dutenews.com/cmdetail/496663",
+    "reason": "读特·深圳节日大道美食图鉴：海门鱼仔 COCO Park 店 11:00-14:00、17:00-21:00"
+  }
 }

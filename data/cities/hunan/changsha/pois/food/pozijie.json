@@ -38,7 +38,10 @@
     "family"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "夜间城管与市监对五一商圈常态巡查，流动摊贩被引导进规范夜市点位，路边随意摆卖的摊子少了",
+    "街区本身免费，火宫殿院内参观也免费，只有小吃和湘菜馆另计"
+  ],
   "images": [
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/%E5%9D%A1%E5%AD%90%E8%A1%97%E7%81%AB%E5%AE%AB%E6%AE%BF_-_panoramio_%281%29.jpg/1280px-%E5%9D%A1%E5%AD%90%E8%A1%97%E7%81%AB%E5%AE%AB%E6%AE%BF_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -129,9 +132,21 @@
       "url": "https://baike.baidu.com/item/%E5%9D%A1%E5%AD%90%E8%A1%97",
       "kind": "wiki",
       "fetchedAt": "2026-09-28"
+    },
+    {
+      "title": "市城管局2026-08：五一商圈夜间整治，摊贩引导至规范夜市点位",
+      "url": "http://cgj.changsha.gov.cn/zfxxgk/cgdt/zddt/202608/t20260805_12518048.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
+    },
+    {
+      "title": "市城管局2026-08：五一商圈夜间整治，摊贩引导至规范夜市点位",
+      "url": "http://cgj.changsha.gov.cn/zfxxgk/cgdt/zddt/202608/t20260805_12518048.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -139,5 +154,61 @@
   },
   "_geocodeTitle": "坡子街",
   "_geocodeSuspect": false,
-  "district": "430103"
+  "district": "430103",
+  "review": {
+    "score": 3.9,
+    "verdict": "顺路看看",
+    "facets": [
+      {
+        "label": "小吃",
+        "score": 4.5,
+        "note": "品类最密，一路走一路吃"
+      },
+      {
+        "label": "商业化",
+        "score": 2.2,
+        "note": "同质摊位多，价格偏游客向"
+      },
+      {
+        "label": "人流",
+        "score": 2.0,
+        "note": "夜里难停下脚步"
+      },
+      {
+        "label": "时长",
+        "score": 3.8,
+        "note": "走完一小时上下"
+      }
+    ],
+    "body": "长沙小吃最密的一段，臭豆腐、糖油粑粑、姊妹团子、口味虾一路排过去，边走边吃最合适，火宫殿在街中段，庙和摊长在一起是这条街的底子。缺点是游客化明显，价格比居民区贵，同质摊位多，走几步就是重复的品类；晚上人多到几乎无法停下脚步。它和太平街、黄兴南路连着，当一条动线走比单独来更好。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "小吃",
+      "夜逛"
+    ],
+    "avoid": [
+      "安静吃饭",
+      "只来十分钟"
+    ],
+    "sources": []
+  },
+  "_patrol": {
+    "at": "2026-11-14",
+    "changes": [
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [
+          "夜间 22 点后城管常态巡查，流动摊贩须进规范夜市点位，路边随意摆卖的摊子明显减少",
+          "街区本身免费，火宫殿院内参观也免费，只有小吃和湘菜馆另计"
+        ],
+        "new": [
+          "夜间城管与市监对五一商圈常态巡查，流动摊贩被引导进规范夜市点位，路边随意摆卖的摊子少了",
+          "街区本身免费，火宫殿院内参观也免费，只有小吃和湘菜馆另计"
+        ]
+      }
+    ],
+    "source": "http://cgj.changsha.gov.cn/zfxxgk/cgdt/zddt/202608/t20260805_12518048.html",
+    "reason": "市城管局2026-08：五一商圈夜间整治，摊贩引导至规范夜市点位"
+  }
 }

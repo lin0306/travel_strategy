@@ -1,159 +1,196 @@
 {
-  "id": "mogao-ku",
-  "name": "莫高窟",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "七百多个洞窟的壁画与彩塑，世界文化遗产的核心。",
-  "description": "莫高窟在敦煌市区东南约二十五公里，开在鸣沙山东麓的断崖上。从四世纪开始有人在这里凿窟，一直延续到元代，留下七百多个洞窟、四万多平方米壁画与两千多身彩塑。游客走的是预约制的线路：先在数字展示中心看两场球幕电影，再乘摆渡车进窟区，由讲解员带着看若干个窟。每次能看的窟不同，全靠讲解员当场决定。洞窟里不能用手机照明，跟着讲解员的手电看。飞天、九色鹿、经变画，都是画了一千年的东西。它是这份名单上最不该错过的一处。",
-  "highlights": [
-    "世界文化遗产",
-    "壁画从北朝一直延续到元代",
-    "需先预约并按线路参观"
-  ],
-  "location": {
-    "point": {
-      "lng": 94.807921,
-      "lat": 40.038872,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "酒泉市敦煌市莫高镇",
-    "district": "敦煌",
-    "transportTip": "市区打车约二十分钟；数字展示中心有摆渡车进窟区"
+ "id": "mogao-ku",
+ "name": "莫高窟",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "七百多个洞窟的壁画与彩塑，世界文化遗产的核心。",
+ "description": "莫高窟在敦煌市区东南约二十五公里，开在鸣沙山东麓的断崖上。从四世纪开始有人在这里凿窟，一直延续到元代，留下七百多个洞窟、四万多平方米壁画与两千多身彩塑。游客走的是预约制的线路：先在数字展示中心看两场球幕电影，再乘摆渡车进窟区，由讲解员带着看若干个窟。每次能看的窟不同，全靠讲解员当场决定。洞窟里不能用手机照明，跟着讲解员的手电看。飞天、九色鹿、经变画，都是画了一千年的东西。它是这份名单上最不该错过的一处。",
+ "highlights": [
+  "世界文化遗产",
+  "壁画从北朝一直延续到元代",
+  "需先预约并按线路参观"
+ ],
+ "location": {
+  "point": {
+   "lng": 94.807921,
+   "lat": 40.038872,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 08:00-18:00（按预约时段，以官方为准）",
-    "openHoursRef": 0,
-    "ticket": "旺季约 238 元、淡季约 140 元，需提前预约，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 180-360 分钟",
-    "durationMinutes": [
-      180,
-      360
-    ],
-    "priceLevel": "high"
+  "address": "酒泉市敦煌市莫高镇",
+  "district": "敦煌",
+  "transportTip": "市区打车约二十分钟；数字展示中心有摆渡车进窟区"
+ },
+ "practical": {
+  "openHours": "约 08:00-18:00（按预约时段，以官方为准）",
+  "openHoursRef": 0,
+  "ticket": "旺季约 238 元、淡季约 140 元，需提前预约，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 180-360 分钟",
+  "durationMinutes": [
+   180,
+   360
+  ],
+  "priceLevel": "high"
+ },
+ "audience": [
+  "solo",
+  "friends",
+  "elders",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio.jpg/1280px-Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio.jpg/1280px-Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 675,
+   "alt": "Mogao Caves Dunhuang Gansu China 敦煌 莫高窟 - panoramio.jpg",
+   "query": "莫高窟 敦煌",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Hiroki Ogawa",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "solo",
-    "friends",
-    "elders",
-    "family"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio.jpg/1280px-Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio.jpg/1280px-Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 675,
-      "alt": "Mogao Caves Dunhuang Gansu China 敦煌 莫高窟 - panoramio.jpg",
-      "query": "莫高窟 敦煌",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Hiroki Ogawa",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2810%29.jpg/1280px-Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2810%29.jpg/1280px-Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Mogao Caves Dunhuang Gansu China 敦煌 莫高窟 - panoramio (10).jpg",
-      "query": "莫高窟 敦煌",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Hiroki Ogawa",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_(10).jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2812%29.jpg/1280px-Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2812%29.jpg/1280px-Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Mogao Caves Dunhuang Gansu China 敦煌 莫高窟 - panoramio (12).jpg",
-      "query": "莫高窟 敦煌",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Hiroki Ogawa",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_(12).jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2815%29.jpg/1280px-Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2815%29.jpg/1280px-Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 216,
-      "alt": "Mogao Caves Dunhuang Gansu China 敦煌 莫高窟 - panoramio (15).jpg",
-      "query": "莫高窟 敦煌",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Hiroki Ogawa",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_(15).jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2816%29.jpg/1280px-Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2816%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2816%29.jpg/1280px-Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2816%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Mogao Caves Dunhuang Gansu China 敦煌 莫高窟 - panoramio (16).jpg",
-      "query": "莫高窟 敦煌",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Hiroki Ogawa",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_(16).jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%285%29.jpg/1280px-Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%285%29.jpg/1280px-Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Mogao Caves Dunhuang Gansu China 敦煌 莫高窟 - panoramio (5).jpg",
-      "query": "莫高窟 敦煌",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Hiroki Ogawa",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_(5).jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "莫高窟",
-    "世界遗产",
-    "壁画"
-  ],
-  "popularity": 99,
-  "sources": [
-    {
-      "title": "百度百科·莫高窟",
-      "url": "https://baike.baidu.com/item/%E8%8E%AB%E9%AB%98%E7%AA%9F",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-06"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "莫高窟"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2810%29.jpg/1280px-Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2810%29.jpg/1280px-Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Mogao Caves Dunhuang Gansu China 敦煌 莫高窟 - panoramio (10).jpg",
+   "query": "莫高窟 敦煌",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Hiroki Ogawa",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_(10).jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "莫高窟",
-  "_geocodeSuspect": false,
-  "district": "620982"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2812%29.jpg/1280px-Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2812%29.jpg/1280px-Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Mogao Caves Dunhuang Gansu China 敦煌 莫高窟 - panoramio (12).jpg",
+   "query": "莫高窟 敦煌",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Hiroki Ogawa",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_(12).jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2815%29.jpg/1280px-Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2815%29.jpg/1280px-Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 216,
+   "alt": "Mogao Caves Dunhuang Gansu China 敦煌 莫高窟 - panoramio (15).jpg",
+   "query": "莫高窟 敦煌",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Hiroki Ogawa",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_(15).jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2816%29.jpg/1280px-Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2816%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2816%29.jpg/1280px-Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%2816%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Mogao Caves Dunhuang Gansu China 敦煌 莫高窟 - panoramio (16).jpg",
+   "query": "莫高窟 敦煌",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Hiroki Ogawa",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_(16).jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%285%29.jpg/1280px-Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%285%29.jpg/1280px-Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Mogao Caves Dunhuang Gansu China 敦煌 莫高窟 - panoramio (5).jpg",
+   "query": "莫高窟 敦煌",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Hiroki Ogawa",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_(5).jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "莫高窟",
+  "世界遗产",
+  "壁画"
+ ],
+ "popularity": 99,
+ "sources": [
+  {
+   "title": "百度百科·莫高窟",
+   "url": "https://baike.baidu.com/item/%E8%8E%AB%E9%AB%98%E7%AA%9F",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-06"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "莫高窟"
+ },
+ "_geocodeTitle": "莫高窟",
+ "_geocodeSuspect": false,
+ "district": "620982",
+ "review": {
+  "score": 4.8,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "展陈",
+    "score": 4.9,
+    "note": "壁画与彩塑从北朝延续到元代，密度极高"
+   },
+   {
+    "label": "讲解",
+    "score": 4.5,
+    "note": "讲解员带看，每次开放的窟不一样"
+   },
+   {
+    "label": "预约",
+    "score": 3.0,
+    "note": "旺季名额紧，得提前很久订"
+   },
+   {
+    "label": "观展限制",
+    "score": 2.5,
+    "note": "窟内不能拍照也不能用手机照明"
+   }
+  ],
+  "body": "莫高窟值得专程去一趟。先在数字展示中心看两场球幕电影建立背景，再进窟由讲解员带看，飞天、九色鹿、经变画一层层铺开，一千年的东西挤在几十个窟里。缺点是窟内不能拍照也不能用手机照明，跟着手电看得很赶；旺季预约名额紧，能看几个窟全凭当场安排。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "亲子",
+   "独自"
+  ],
+  "avoid": [
+   "临时起意"
+  ],
+  "sources": []
+ }
 }

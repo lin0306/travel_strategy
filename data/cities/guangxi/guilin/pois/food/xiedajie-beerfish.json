@@ -16,7 +16,7 @@
       "lat": 24.777373,
       "coordSystem": "GCJ-02"
     },
-    "address": "广西壮族自治区桂林市阳朔县谢大姐啤酒鱼",
+    "address": "广西壮族自治区桂林市阳朔县阳朔镇叠翠路18号",
     "district": "阳朔县",
     "transportTip": "阳朔县城步行可达；在西街一带"
   },
@@ -53,9 +53,15 @@
       "url": "https://baike.baidu.com/item/%E9%98%B3%E6%9C%94%E5%95%A4%E9%85%92%E9%B1%BC",
       "kind": "wiki",
       "fetchedAt": "2026-09-30"
+    },
+    {
+      "title": "Trip.com·桂林到阳朔旅行指南（阳朔餐厅地址表）",
+      "url": "https://hk.trip.com/blog/guilin-to-yangshuo-train/",
+      "kind": "media",
+      "fetchedAt": "2026-11-12"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-12",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -64,5 +70,55 @@
   "_geocodeTitle": "谢大姐啤酒鱼(总店)",
   "_geocodeSuspect": false,
   "district": "450321",
-  "_noImage": true
+  "_noImage": true,
+  "review": {
+    "score": 3.8,
+    "verdict": "顺路看看",
+    "facets": [
+      {
+        "label": "口味",
+        "score": 4.2,
+        "note": "啤酒代水烧到收汁，麦香压得住土腥"
+      },
+      {
+        "label": "价格",
+        "score": 2.5,
+        "note": "名店溢价，按鱼斤两算，两个人一条就不便宜"
+      },
+      {
+        "label": "排队",
+        "score": 2.5,
+        "note": "总店晚上排号，饭点最难等"
+      },
+      {
+        "label": "环境",
+        "score": 3.5,
+        "note": "旅游区餐馆的标准样子，桌子密"
+      }
+    ],
+    "body": "啤酒鱼是阳朔的招牌做法：整条剑骨鱼两面煎过，加啤酒代替水，配番茄、青椒、芹菜烧到收汁，上桌还继续加热，麦香把土腥压住了。谢大姐做得早，名气在这一带数得上。缺点也很实在：它已经是名义上的名店，价格不再便宜，按鱼的斤两算，两个人一条就上去了；总店晚上排队排号，饭点最难等，赶早或过饭点能省不少时间。点鱼前先问清斤两与品种。",
+    "basis": "corpus",
+    "at": "2026-11-12",
+    "fits": [
+      "第一次来阳朔",
+      "想吃招牌菜"
+    ],
+    "avoid": [
+      "预算紧",
+      "不想排队"
+    ],
+    "sources": []
+  },
+  "_patrol": {
+    "at": "2026-11-12",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "广西壮族自治区桂林市阳朔县谢大姐啤酒鱼",
+        "new": "广西壮族自治区桂林市阳朔县阳朔镇叠翠路18号"
+      }
+    ],
+    "source": "https://hk.trip.com/blog/guilin-to-yangshuo-train/",
+    "reason": "图商谢大姐非遗啤酒鱼创始总店POI与库内坐标六位小数完全重合 叠翠路18号"
+  }
 }

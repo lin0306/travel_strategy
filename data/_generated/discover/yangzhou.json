@@ -1,7 +1,7 @@
 {
   "cityId": "yangzhou",
   "cityName": "扬州",
-  "note": "候选清单，尚未入库。需要人确认后搬进 pipeline/seeds/{city}.py 再跑 seed。",
+  "note": "候选清单，尚未入库。核实后用 tools/intake_candidates.py 增量入库；绝不跑 run.py seed（会清空全城 point 与 images）。",
   "stat": {
     "searched": 36,
     "returned": 193,

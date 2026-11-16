@@ -1,98 +1,141 @@
 {
-  "id": "canton-tower",
-  "name": "广州塔",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "城市天际线的锚点，上去看的是珠江把新城与老城分开的那条线。",
-  "description": "广州塔是本地人说的「小蛮腰」，塔身是扭转出来的钢结构双曲面，腰部收进去的那一段是它全部辨识度所在。总高600米，观景层集中在几百米的高度：室内观景大厅、户外的云霄步道、塔顶的摩天轮。它站在一个很显要的位置上，北岸是珠江新城的高楼，南岸是赤岗。白天看的是城市的密度，天黑之后这一圈才是它的用途。登塔排队常常比游览本身长，时间要算进去。",
-  "highlights": [
-    "扭转的双曲面塔身是从外部辨认它的唯一依据",
-    "多个高度层：室内观景、户外步道、塔顶摩天轮",
-    "夜景模式的分量重于白天"
-  ],
-  "location": {
-    "point": {
-      "lng": 113.32446,
-      "lat": 23.10647,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "广州市海珠区阅江西路222号",
-    "district": "海珠区",
-    "transportTip": "地铁3号线广州塔站（另有旅客自动输送线同名站）"
+ "id": "canton-tower",
+ "name": "广州塔",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "城市天际线的锚点，上去看的是珠江把新城与老城分开的那条线。",
+ "description": "广州塔是本地人说的「小蛮腰」，塔身是扭转出来的钢结构双曲面，腰部收进去的那一段是它全部辨识度所在。总高600米，观景层集中在几百米的高度：室内观景大厅、户外的云霄步道、塔顶的摩天轮。它站在一个很显要的位置上，北岸是珠江新城的高楼，南岸是赤岗。白天看的是城市的密度，天黑之后这一圈才是它的用途。登塔排队常常比游览本身长，时间要算进去。",
+ "highlights": [
+  "扭转的双曲面塔身是从外部辨认它的唯一依据",
+  "多个高度层：室内观景、户外步道、塔顶摩天轮",
+  "夜景模式的分量重于白天"
+ ],
+ "location": {
+  "point": {
+   "lng": 113.32446,
+   "lat": 23.10647,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约09:30-22:30（以官方公告为准）",
-    "openHoursRef": 0,
-    "ticket": "分档，约150元起，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 90-240 分钟",
-    "durationMinutes": [
-      90,
-      240
-    ],
-    "priceLevel": "high"
+  "address": "广州市海珠区阅江西路222号",
+  "district": "海珠区",
+  "transportTip": "地铁3号线广州塔站（另有旅客自动输送线同名站）"
+ },
+ "practical": {
+  "openHours": "约09:30-22:30（以官方公告为准）",
+  "openHoursRef": 0,
+  "ticket": "分档，约150元起，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 90-240 分钟",
+  "durationMinutes": [
+   90,
+   240
+  ],
+  "priceLevel": "high"
+ },
+ "audience": [
+  "couple",
+  "family",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Canton_tower_in_asian_games_opening_ceremony.jpg/1280px-Canton_tower_in_asian_games_opening_ceremony.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Canton_tower_in_asian_games_opening_ceremony.jpg/1280px-Canton_tower_in_asian_games_opening_ceremony.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1638,
+   "alt": "Canton tower in asian games opening ceremony.jpg",
+   "query": "广州塔 广州",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Colin Zhu from Guangzhou, China",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canton_tower_in_asian_games_opening_ceremony.jpg",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "family",
-    "friends"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%B9%BF%E5%B7%9E%E5%A1%94Scenery_in_Guangzhou%2C_China_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%B9%BF%E5%B7%9E%E5%A1%94Scenery_in_Guangzhou%2C_China_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 724,
+   "alt": "广州塔Scenery in Guangzhou, China - panoramio.jpg",
+   "query": "广州塔 广州",
+   "credit": {
+    "source": "wikimedia",
+    "author": "jiang-wen-jie",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E5%A1%94Scenery_in_Guangzhou,_China_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "地标",
+  "夜景",
+  "必去"
+ ],
+ "popularity": 95,
+ "sources": [
+  {
+   "title": "百度百科·广州塔",
+   "url": "https://baike.baidu.com/item/%E5%B9%BF%E5%B7%9E%E5%A1%94",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-24"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "广州塔"
+ },
+ "_geocodeTitle": "广州塔",
+ "_geocodeSuspect": false,
+ "district": "440105",
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "辨识度",
+    "score": 5.0,
+    "note": "扭转双曲面塔身，全城最不会认错的地标"
+   },
+   {
+    "label": "视野",
+    "score": 4.6,
+    "note": "登塔后珠江把新城与老城分开那条线最清楚"
+   },
+   {
+    "label": "排队",
+    "score": 2.0,
+    "note": "登塔排队常比游览本身长，节假日尤甚"
+   },
+   {
+    "label": "花费",
+    "score": 2.3,
+    "note": "分档售票，多个高度层要分别买"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Canton_tower_in_asian_games_opening_ceremony.jpg/1280px-Canton_tower_in_asian_games_opening_ceremony.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Canton_tower_in_asian_games_opening_ceremony.jpg/1280px-Canton_tower_in_asian_games_opening_ceremony.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1638,
-      "alt": "Canton tower in asian games opening ceremony.jpg",
-      "query": "广州塔 广州",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Colin Zhu from Guangzhou, China",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canton_tower_in_asian_games_opening_ceremony.jpg",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%B9%BF%E5%B7%9E%E5%A1%94Scenery_in_Guangzhou%2C_China_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%B9%BF%E5%B7%9E%E5%A1%94Scenery_in_Guangzhou%2C_China_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 724,
-      "alt": "广州塔Scenery in Guangzhou, China - panoramio.jpg",
-      "query": "广州塔 广州",
-      "credit": {
-        "source": "wikimedia",
-        "author": "jiang-wen-jie",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E5%A1%94Scenery_in_Guangzhou,_China_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    }
+  "body": "广州塔是这座城市最不会认错的地标，扭转的双曲面塔身让它从任何角度看都有辨识度；登塔之后，珠江把新城与老城分开的那条线看得最清楚，夜景的分量重于白天。缺点是分档票价不便宜，想上不同的高度层往往要分别购票，登塔排队常常比游览本身还长；天气不好时塔顶能见度差，等于白跑一趟。建议把时间算宽些，日落前上去能一次收到白天和夜景。",
+  "basis": "web",
+  "at": "2026-11-13",
+  "fits": [
+   "看城市天际线",
+   "夜景摄影"
   ],
-  "coverIndex": 0,
-  "tags": [
-    "地标",
-    "夜景",
-    "必去"
+  "avoid": [
+   "预算紧",
+   "讨厌排队",
+   "赶上阴雨天"
   ],
-  "popularity": 95,
   "sources": [
-    {
-      "title": "百度百科·广州塔",
-      "url": "https://baike.baidu.com/item/%E5%B9%BF%E5%B7%9E%E5%A1%94",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-24"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "广州塔"
-  },
-  "_geocodeTitle": "广州塔",
-  "_geocodeSuspect": false,
-  "district": "440105"
+   "https://www.cantontower.com/exploring/build/1060.html",
+   "https://wglj.gz.gov.cn/zlxz/content/post_11062516.html",
+   "https://ysxw.cctv.cn/article.html?toc_style_id=feeds_default&item_id=3551939291669261854&channelId=1215"
+  ]
+ }
 }

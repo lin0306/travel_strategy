@@ -1,162 +1,200 @@
 {
-  "id": "simian-mountain",
-  "name": "四面山",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "丹霞绝壁与千瀑之乡，望乡台瀑布 158 米落差被岩壁天然框成一颗心。",
-  "description": "四面山在江津区南部，因山体四面围合得名，是丹霞地貌与瀑布密集的国家 5A 级景区。招牌的望乡台瀑布落差 158 米，赤色岩壁天然凹出心形轮廓，被称为“天下第一心”，晴日上午水雾里容易见到彩虹。土地岩的丹霞绝壁长三百多米，大洪海是渝黔界湖，坐船能到“一脚踏两省”的界碑。景区面积大、景点分散，观光车几乎必买，门票 48 小时有效可多次进出，安排两天比一天舒服。主城自驾约 2 小时。",
-  "highlights": [
-    "望乡台瀑布落差 158 米，岩壁天然成心形",
-    "丹霞地貌与高山湖泊组合",
-    "门票 48 小时有效，适合住一晚慢慢玩"
-  ],
-  "location": {
-    "point": {
-      "lng": 106.415231,
-      "lat": 28.658328,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "重庆市江津区四面山镇",
-    "district": "江津",
-    "transportTip": "主城自驾约 2 小时；江津城区有班车至景区",
-    "entrance": {
-      "lng": 106.412111,
-      "lat": 28.64844,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "simian-mountain",
+ "name": "四面山",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "丹霞绝壁与千瀑之乡，望乡台瀑布 158 米落差被岩壁天然框成一颗心。",
+ "description": "四面山在江津区南部，因山体四面围合得名，是丹霞地貌与瀑布密集的国家 5A 级景区。招牌的望乡台瀑布落差 158 米，赤色岩壁天然凹出心形轮廓，被称为“天下第一心”，晴日上午水雾里容易见到彩虹。土地岩的丹霞绝壁长三百多米，大洪海是渝黔界湖，坐船能到“一脚踏两省”的界碑。景区面积大、景点分散，观光车几乎必买，门票 48 小时有效可多次进出，安排两天比一天舒服。主城自驾约 2 小时。",
+ "highlights": [
+  "望乡台瀑布落差 158 米，岩壁天然成心形",
+  "丹霞地貌与高山湖泊组合",
+  "门票 48 小时有效，适合住一晚慢慢玩"
+ ],
+ "location": {
+  "point": {
+   "lng": 106.415231,
+   "lat": 28.658328,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放（核心景点约 08:00-17:00，以官方为准）",
-    "openHoursRef": 0,
-    "ticket": "约 85-90 元，观光车约 40 元另计；2026 年有阶段性免大门票活动需公众号预约（以官方为准）",
-    "ticketRef": 0,
-    "duration": "建议 300-480 分钟",
-    "durationMinutes": [
-      300,
-      480
-    ],
-    "priceLevel": "mid"
+  "address": "重庆市江津区四面山镇",
+  "district": "江津",
+  "transportTip": "主城自驾约 2 小时；江津城区有班车至景区",
+  "entrance": {
+   "lng": 106.412111,
+   "lat": 28.64844,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "全天开放（核心景点约 08:00-17:00，以官方为准）",
+  "openHoursRef": 0,
+  "ticket": "约 85-90 元，观光车约 40 元另计；2026 年有阶段性免大门票活动需公众号预约（以官方为准）",
+  "ticketRef": 0,
+  "duration": "建议 300-480 分钟",
+  "durationMinutes": [
+   300,
+   480
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "kids"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Simian_Mountain_--_Boats_in_the_lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Simian_Mountain_--_Boats_in_the_lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 810,
+   "alt": "Simian Mountain -- Boats in the lake.jpg",
+   "query": "四面山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Fay in China",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Simian_Mountain_--_Boats_in_the_lake.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "kids"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Simian_Mountain_--_Boats_in_the_lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Simian_Mountain_--_Boats_in_the_lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 810,
-      "alt": "Simian Mountain -- Boats in the lake.jpg",
-      "query": "四面山",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Fay in China",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Simian_Mountain_--_Boats_in_the_lake.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Simian_Mountain_--_lake_secenry_on_a_boat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Simian_Mountain_--_lake_secenry_on_a_boat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 810,
-      "alt": "Simian Mountain -- lake secenry on a boat.jpg",
-      "query": "四面山",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Fay in China",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Simian_Mountain_--_lake_secenry_on_a_boat.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Simian_Mountain_--_the_dam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Simian_Mountain_--_the_dam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 810,
-      "alt": "Simian Mountain -- the dam.jpg",
-      "query": "四面山",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Fay in China",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Simian_Mountain_--_the_dam.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Simian_Mountain_--_the_fall_after_rain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Simian_Mountain_--_the_fall_after_rain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 810,
-      "alt": "Simian Mountain -- the fall after rain.jpg",
-      "query": "四面山",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Fay in China",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Simian_Mountain_--_the_fall_after_rain.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/The_Great_Red_Sea_in_Simian_Mountain%2CJiangjin%2CChongqing.JPG/1280px-The_Great_Red_Sea_in_Simian_Mountain%2CJiangjin%2CChongqing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/The_Great_Red_Sea_in_Simian_Mountain%2CJiangjin%2CChongqing.JPG/1280px-The_Great_Red_Sea_in_Simian_Mountain%2CJiangjin%2CChongqing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 723,
-      "alt": "The Great Red Sea in Simian Mountain,Jiangjin,Chongqing.JPG",
-      "query": "四面山",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Chen Hualin",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Great_Red_Sea_in_Simian_Mountain,Jiangjin,Chongqing.JPG",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/The_waterfall_in_Simian_Mountain%2CJiangjin%2CChongqing.jpg/1280px-The_waterfall_in_Simian_Mountain%2CJiangjin%2CChongqing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/The_waterfall_in_Simian_Mountain%2CJiangjin%2CChongqing.jpg/1280px-The_waterfall_in_Simian_Mountain%2CJiangjin%2CChongqing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "The waterfall in Simian Mountain,Jiangjin,Chongqing.jpg",
-      "query": "四面山",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Chen Hualin",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_waterfall_in_Simian_Mountain,Jiangjin,Chongqing.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "瀑布",
-    "丹霞",
-    "5A",
-    "避暑"
-  ],
-  "popularity": 80,
-  "sources": [
-    {
-      "title": "携程·四面山",
-      "url": "https://gs.ctrip.com/html5/you/sight/chongqing158/43808.html",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-23"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "四面山"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Simian_Mountain_--_lake_secenry_on_a_boat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Simian_Mountain_--_lake_secenry_on_a_boat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 810,
+   "alt": "Simian Mountain -- lake secenry on a boat.jpg",
+   "query": "四面山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Fay in China",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Simian_Mountain_--_lake_secenry_on_a_boat.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "四面山镇",
-  "_geocodeSuspect": false,
-  "district": "500116"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Simian_Mountain_--_the_dam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Simian_Mountain_--_the_dam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 810,
+   "alt": "Simian Mountain -- the dam.jpg",
+   "query": "四面山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Fay in China",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Simian_Mountain_--_the_dam.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Simian_Mountain_--_the_fall_after_rain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Simian_Mountain_--_the_fall_after_rain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 810,
+   "alt": "Simian Mountain -- the fall after rain.jpg",
+   "query": "四面山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Fay in China",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Simian_Mountain_--_the_fall_after_rain.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/The_Great_Red_Sea_in_Simian_Mountain%2CJiangjin%2CChongqing.JPG/1280px-The_Great_Red_Sea_in_Simian_Mountain%2CJiangjin%2CChongqing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/The_Great_Red_Sea_in_Simian_Mountain%2CJiangjin%2CChongqing.JPG/1280px-The_Great_Red_Sea_in_Simian_Mountain%2CJiangjin%2CChongqing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 723,
+   "alt": "The Great Red Sea in Simian Mountain,Jiangjin,Chongqing.JPG",
+   "query": "四面山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Chen Hualin",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Great_Red_Sea_in_Simian_Mountain,Jiangjin,Chongqing.JPG",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/The_waterfall_in_Simian_Mountain%2CJiangjin%2CChongqing.jpg/1280px-The_waterfall_in_Simian_Mountain%2CJiangjin%2CChongqing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/The_waterfall_in_Simian_Mountain%2CJiangjin%2CChongqing.jpg/1280px-The_waterfall_in_Simian_Mountain%2CJiangjin%2CChongqing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "The waterfall in Simian Mountain,Jiangjin,Chongqing.jpg",
+   "query": "四面山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Chen Hualin",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_waterfall_in_Simian_Mountain,Jiangjin,Chongqing.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "瀑布",
+  "丹霞",
+  "5A",
+  "避暑"
+ ],
+ "popularity": 80,
+ "sources": [
+  {
+   "title": "携程·四面山",
+   "url": "https://gs.ctrip.com/html5/you/sight/chongqing158/43808.html",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-23"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "四面山"
+ },
+ "_geocodeTitle": "四面山镇",
+ "_geocodeSuspect": false,
+ "district": "500116",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "瀑布",
+    "score": 4.6,
+    "note": "望乡台落差大，岩壁框出心形"
+   },
+   {
+    "label": "体力",
+    "score": 3.2,
+    "note": "景点分散，走下来不轻松"
+   },
+   {
+    "label": "配套",
+    "score": 3.5,
+    "note": "观光车几乎必买"
+   },
+   {
+    "label": "性价比",
+    "score": 4.0,
+    "note": "门票 48 小时有效"
+   }
+  ],
+  "body": "丹霞绝壁配密集瀑布是四面山的底气，望乡台的落差加上岩壁天然凹出的心形轮廓，晴日上午水雾里容易撞见彩虹，土地岩与大洪海也各有看点。缺点是景区面积大、点位之间离得远，观光车几乎必买，一天赶完会很累；从主城自驾约两小时，来回就把一天吃掉了。想把核心景点走全，住一晚分两天更从容。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "避暑",
+   "看瀑布"
+  ],
+  "avoid": [
+   "只有一天时间",
+   "不爱坐观光车"
+  ],
+  "sources": []
+ }
 }

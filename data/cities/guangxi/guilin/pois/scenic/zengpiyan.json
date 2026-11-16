@@ -1,68 +1,131 @@
 {
-  "id": "zengpiyan",
-  "name": "甑皮岩国家考古遗址公园",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "一万年前就有人住的一个洞穴遗址，在南溪山边上，是国内这类遗址里做得最早的一批。",
-  "description": "甑皮岩在桂林城南的独山脚下，是一个洞穴遗址。1965 年发现，1973 年正式发掘，出土了人骨、石器、骨器与陶片，年代从距今约一万二千年到八千年。陶片里有一片很早的原始陶器，是这个遗址最有分量的一件。它属于洞穴遗址里发掘与保护做得早的一处，现在在原地建了展示大棚，能直接看到发掘面。它与旁边的南溪山是连着的，看完遗址再上山，半天刚好。免费开放，讲的是考古本身。",
-  "highlights": [
-    "距今一万二千年到八千年，出土过很早的一片原始陶器",
-    "洞穴遗址里发掘与保护做得最早的一处，能直接看发掘面",
-    "免费，讲的是考古本身，来之前心里要有个数"
-  ],
-  "location": {
-    "point": {
-      "lng": 110.283385,
-      "lat": 25.212893,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "广西壮族自治区桂林市象山区甑皮岩路26号甑皮岩国家考古遗址公园",
-    "district": "象山区",
-    "transportTip": "市区乘公交至甑皮岩站；紧邻南溪山公园"
+ "id": "zengpiyan",
+ "name": "甑皮岩国家考古遗址公园",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "一万年前就有人住的一个洞穴遗址，在南溪山边上，是国内这类遗址里做得最早的一批。",
+ "description": "甑皮岩在桂林城南的独山脚下，是一个洞穴遗址。1965 年发现，1973 年正式发掘，出土了人骨、石器、骨器与陶片，年代从距今约一万二千年到八千年。陶片里有一片很早的原始陶器，是这个遗址最有分量的一件。它属于洞穴遗址里发掘与保护做得早的一处，现在在原地建了展示大棚，能直接看到发掘面。它与旁边的南溪山是连着的，看完遗址再上山，半天刚好。免费开放，讲的是考古本身。",
+ "highlights": [
+  "距今一万二千年到八千年，出土过很早的一片原始陶器",
+  "洞穴遗址里发掘与保护做得最早的一处，能直接看发掘面",
+  "免费，讲的是考古本身，来之前心里要有个数"
+ ],
+ "location": {
+  "point": {
+   "lng": 110.283385,
+   "lat": 25.212893,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约9:00-17:00，周一闭馆，以馆方公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费（需登记）",
-    "ticketRef": 0,
-    "duration": "建议 70-130 分钟",
-    "durationMinutes": [
-      70,
-      130
-    ],
-    "priceLevel": "free"
+  "address": "广西壮族自治区桂林市象山区甑皮岩路26号甑皮岩国家考古遗址公园",
+  "district": "象山区",
+  "transportTip": "市区乘公交至甑皮岩站；紧邻南溪山公园"
+ },
+ "practical": {
+  "openHours": "周二至周日 09:00-17:00（16:30 停止售票），周一闭馆（法定节假日除外）",
+  "openHoursRef": 0,
+  "ticket": "全票 13 元；桂林市民、18 岁以下、70 岁以上、军人及退役军人、残障人士凭证免票",
+  "ticketRef": 0,
+  "duration": "建议 70-130 分钟",
+  "durationMinutes": [
+   70,
+   130
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "kids",
+  "solo",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "洞穴遗址",
+  "万年前",
+  "免费"
+ ],
+ "popularity": 46,
+ "sources": [
+  {
+   "title": "百度百科·甑皮岩遗址",
+   "url": "https://baike.baidu.com/item/%E7%94%91%E7%9A%AE%E5%B2%A9%E9%81%97%E5%9D%80",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
   },
-  "audience": [
-    "kids",
-    "solo",
-    "elders"
+  {
+   "title": "广西爱国主义教育基地网上展馆·桂林甑皮岩遗址博物馆",
+   "url": "https://gxajjd.gxnews.com.cn/zgjdDetail.html?id=40",
+   "kind": "media",
+   "fetchedAt": "2026-11-12"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "甑皮岩国家考古遗址公园"
+ },
+ "_geocodeTitle": "甑皮岩国家考古遗址公园",
+ "_geocodeSuspect": false,
+ "district": "450304",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-12",
+  "changes": [
+   {
+    "field": "开放时间",
+    "old": "约9:00-17:00，周一闭馆，以馆方公告为准",
+    "new": "周二至周日 09:00-17:00（16:30 停止售票），周一闭馆（法定节假日除外）"
+   },
+   {
+    "field": "门票",
+    "old": "免费（需登记）",
+    "new": "全票 13 元；桂林市民、18 岁以下、70 岁以上、军人及退役军人、残障人士凭证免票"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "洞穴遗址",
-    "万年前",
-    "免费"
+  "source": "https://gxajjd.gxnews.com.cn/zgjdDetail.html?id=40",
+  "reason": "广西爱国主义教育基地网上展馆公布票价与时段"
+ },
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "独特性",
+    "score": 4.5,
+    "note": "万年前洞穴遗址，能直接看发掘面"
+   },
+   {
+    "label": "展陈",
+    "score": 3.0,
+    "note": "以遗址本体和展板为主，互动少"
+   },
+   {
+    "label": "性价比",
+    "score": 3.2,
+    "note": "全票 13 元，桂林市民凭证免票"
+   },
+   {
+    "label": "亲子",
+    "score": 3.8,
+    "note": "模拟考古区孩子玩得住"
+   }
   ],
-  "popularity": 46,
+  "body": "一万多年前就有人住的洞穴遗址，展示大棚直接罩在发掘面上，能看到地层原样，这一点比很多把文物搬进柜子的博物馆更直接。不足是内容偏硬：展板多、互动少，小孩容易走完就想出去；全票 13 元对这么小的展区算不上便宜（桂林市民凭证免票），周一还闭馆，安排行程要避开。",
+  "basis": "web",
+  "at": "2026-11-12",
+  "fits": [
+   "看考古",
+   "带娃研学"
+  ],
+  "avoid": [
+   "周一",
+   "想找互动展项"
+  ],
   "sources": [
-    {
-      "title": "百度百科·甑皮岩遗址",
-      "url": "https://baike.baidu.com/item/%E7%94%91%E7%9A%AE%E5%B2%A9%E9%81%97%E5%9D%80",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "甑皮岩国家考古遗址公园"
-  },
-  "_geocodeTitle": "甑皮岩国家考古遗址公园",
-  "_geocodeSuspect": false,
-  "district": "450304",
-  "_noImage": true
+   "https://gxajjd.gxnews.com.cn/zgjdDetail.html?id=40"
+  ]
+ }
 }

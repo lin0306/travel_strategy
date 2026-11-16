@@ -38,7 +38,11 @@
     "solo"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "2026 年 5 月起商圈全域环境整治，占道流动摊点已取缔，沿街门店与固定档口照常营业",
+    "按老攻略找路边摊会扑空，认准门店与固定档口",
+    "周末人流最密，看好随身物品；两侧小支路相对安静好拍街景"
+  ],
   "images": [
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Guilin_Road_Food_Street_in_Changchun.jpg/1280px-Guilin_Road_Food_Street_in_Changchun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -75,14 +79,72 @@
       "url": "https://baike.baidu.com/item/%E6%A1%82%E6%9E%97%E8%B7%AF",
       "kind": "wiki",
       "fetchedAt": "2026-10-03"
+    },
+    {
+      "title": "长春文明网·桂林路商圈常态化管护报道",
+      "url": "http://chc.wenming.cn/gbkjwm/wmcs1/202608/t20260820_9333421.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-12"
     }
   ],
-  "updatedAt": "2026-11-02",
+  "updatedAt": "2026-11-12",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Guilin Road Night Market Changchun",
     "zh": "桂林路夜市"
   },
   "_geocodeTitle": "朝阳区",
-  "district": "220104"
+  "district": "220104",
+  "review": {
+    "score": 4.1,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "烟火气",
+        "score": 4.4,
+        "note": "牌匾霓虹与小吃摊连成片，人流最密"
+      },
+      {
+        "label": "小吃",
+        "score": 4.2,
+        "note": "豆腐串、烤串、冷面都能遇见"
+      },
+      {
+        "label": "秩序",
+        "score": 3.2,
+        "note": "整治后摊点少了，周末仍挤"
+      }
+    ],
+    "body": "入夜后两侧牌匾霓虹次第亮起，成排小吃摊与小店混着油烟和排队的人，是长春人气最密的夜生活街区，支路相对安静，想拍街景可以往里绕。2026 年 5 月起这一带做了全域环境整治，占道流动摊点已取缔、只剩沿街门店和固定档口，所以缺点也很明确：老攻略里那种铺满路边的烟火气弱了不少，按旧印象来找摊会落差；周末人挤，随身物品要看好。",
+    "basis": "web",
+    "at": "2026-11-12",
+    "fits": [
+      "夜游",
+      "逛吃",
+      "拍街景"
+    ],
+    "avoid": [
+      "怕挤",
+      "找流动摊"
+    ],
+    "sources": [
+      "http://chc.wenming.cn/gbkjwm/wmcs1/202608/t20260820_9333421.html"
+    ]
+  },
+  "_patrol": {
+    "at": "2026-11-12",
+    "changes": [
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [],
+        "new": [
+          "2026 年 5 月起商圈全域环境整治，占道流动摊点已取缔，沿街门店与固定档口照常营业",
+          "按老攻略找路边摊会扑空，认准门店与固定档口",
+          "周末人流最密，看好随身物品；两侧小支路相对安静好拍街景"
+        ]
+      }
+    ],
+    "source": "http://chc.wenming.cn/gbkjwm/wmcs1/202608/t20260820_9333421.html",
+    "reason": "长春文明网 2026-08：桂林路商圈整治占道经营，商户正常营业"
+  }
 }

@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "北京市西城区什刹海前海东沿14号",
-    "district": "东城",
+    "district": "西城",
     "transportTip": "地铁8号线什刹海站A口步行约5分钟"
   },
   "practical": {
@@ -71,7 +71,7 @@
       "fetchedAt": "2026-09-19"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -79,5 +79,37 @@
   },
   "_geocodeTitle": "烤肉季(银锭桥胡同店)",
   "_geocodeSuspect": false,
-  "district": "110101"
+  "district": "110102",
+  "review": {
+    "score": 4.1,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "位置",
+        "score": 4.7,
+        "note": "银锭桥边，二楼临窗能看到后海"
+      },
+      {
+        "label": "口味",
+        "score": 4.2,
+        "note": "烤羊肉拌腌后当面炙烤，自己翻"
+      },
+      {
+        "label": "价格",
+        "score": 3.0,
+        "note": "人均偏高"
+      },
+      {
+        "label": "环境",
+        "score": 2.6,
+        "note": "团队多、油烟大"
+      }
+    ],
+    "body": "「南苑北季」里专做烤羊肉的那家，肉与葱当面炙烤、自己翻是形式的一部分，银锭桥边二楼临窗能看到后海。缺点是旅游团多、饭点排队，人均偏高；炭火油烟大，夏天靠窗位反而闷。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [],
+    "avoid": [],
+    "sources": []
+  }
 }

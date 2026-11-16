@@ -1,130 +1,164 @@
 {
-  "id": "lanshan-overlook",
-  "name": "兰山俯瞰全城",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "三台阁上看黄河把城劈两半，兰州最全的俯拍视角。",
-  "description": "兰山三台阁是俯瞰兰州最全的点。黄河从城中穿过，把楼群分成南北，这格局只有高处看得清。白天看轮廓，晚上看灯海。上山缆车或自驾，具体以景区为准。拍全景用广角，风大扶稳。想人少避开周末傍晚。",
-  "highlights": [
-    "三台阁俯瞰全城格局",
-    "黄河分城南北尽收",
-    "夜拍灯海用广角"
-  ],
-  "location": {
-    "point": {
-      "lng": 103.839271,
-      "lat": 36.019087,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "甘肃省兰州市城关区兰山公园三台阁",
-    "district": "城关区",
-    "transportTip": "城关区乘缆车或自驾上兰山"
+ "id": "lanshan-overlook",
+ "name": "兰山俯瞰全城",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "三台阁上看黄河把城劈两半，兰州最全的俯拍视角。",
+ "description": "兰山三台阁是俯瞰兰州最全的点。黄河从城中穿过，把楼群分成南北，这格局只有高处看得清。白天看轮廓，晚上看灯海。上山缆车或自驾，具体以景区为准。拍全景用广角，风大扶稳。想人少避开周末傍晚。",
+ "highlights": [
+  "三台阁俯瞰全城格局",
+  "黄河分城南北尽收",
+  "夜拍灯海用广角"
+ ],
+ "location": {
+  "point": {
+   "lng": 103.839271,
+   "lat": 36.019087,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 08:00-19:00，以景区为准",
-    "openHoursRef": 0,
-    "ticket": "免费（缆车另计）",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
+  "address": "甘肃省兰州市城关区兰山公园三台阁",
+  "district": "城关区",
+  "transportTip": "城关区乘缆车或自驾上兰山"
+ },
+ "practical": {
+  "openHours": "约 08:00-19:00，以景区为准",
+  "openHoursRef": 0,
+  "ticket": "免费（缆车另计）",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/%E5%85%B0%E5%B7%9E%E7%9A%8B%E5%85%B0%E5%B1%B1201905.jpg/1280px-%E5%85%B0%E5%B7%9E%E7%9A%8B%E5%85%B0%E5%B1%B1201905.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/%E5%85%B0%E5%B7%9E%E7%9A%8B%E5%85%B0%E5%B1%B1201905.jpg/1280px-%E5%85%B0%E5%B7%9E%E7%9A%8B%E5%85%B0%E5%B1%B1201905.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "兰州皋兰山201905.jpg",
+   "query": "兰山俯瞰全城",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Pieceofmetalwork",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "couple",
-    "friends"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/%E5%85%B0%E5%B7%9E%E7%9A%8B%E5%85%B0%E5%B1%B1201905.jpg/1280px-%E5%85%B0%E5%B7%9E%E7%9A%8B%E5%85%B0%E5%B1%B1201905.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/%E5%85%B0%E5%B7%9E%E7%9A%8B%E5%85%B0%E5%B1%B1201905.jpg/1280px-%E5%85%B0%E5%B7%9E%E7%9A%8B%E5%85%B0%E5%B1%B1201905.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "兰州皋兰山201905.jpg",
-      "query": "兰山俯瞰全城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Pieceofmetalwork",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/%E5%85%B0%E5%B7%9E%E7%BB%84%E5%9B%BE07_-_panoramio.jpg/1280px-%E5%85%B0%E5%B7%9E%E7%BB%84%E5%9B%BE07_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/%E5%85%B0%E5%B7%9E%E7%BB%84%E5%9B%BE07_-_panoramio.jpg/1280px-%E5%85%B0%E5%B7%9E%E7%BB%84%E5%9B%BE07_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "兰州组图07 - panoramio.jpg",
-      "query": "兰山俯瞰全城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "天王星",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/%E5%85%B0%E5%B7%9E%E7%BB%84%E5%9B%BE04_-_panoramio.jpg/1280px-%E5%85%B0%E5%B7%9E%E7%BB%84%E5%9B%BE04_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/%E5%85%B0%E5%B7%9E%E7%BB%84%E5%9B%BE04_-_panoramio.jpg/1280px-%E5%85%B0%E5%B7%9E%E7%BB%84%E5%9B%BE04_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "兰州组图04 - panoramio.jpg",
-      "query": "兰山俯瞰全城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "天王星",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "俯瞰",
-    "全景",
-    "兰山"
-  ],
-  "popularity": 80,
-  "sources": [
-    {
-      "title": "兰山公园·百度百科",
-      "url": "https://baike.baidu.com/item/%E5%85%B0%E5%B1%B1%E5%85%AC%E5%9B%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-02"
-    }
-  ],
-  "updatedAt": "2026-11-01",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Lanshan Overlook",
-    "zh": "兰山俯瞰全城"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/%E5%85%B0%E5%B7%9E%E7%BB%84%E5%9B%BE07_-_panoramio.jpg/1280px-%E5%85%B0%E5%B7%9E%E7%BB%84%E5%9B%BE07_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/%E5%85%B0%E5%B7%9E%E7%BB%84%E5%9B%BE07_-_panoramio.jpg/1280px-%E5%85%B0%E5%B7%9E%E7%BB%84%E5%9B%BE07_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "兰州组图07 - panoramio.jpg",
+   "query": "兰山俯瞰全城",
+   "credit": {
+    "source": "wikimedia",
+    "author": "天王星",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "三台阁",
-  "_geocodeSuspect": false,
-  "district": "620102"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/%E5%85%B0%E5%B7%9E%E7%BB%84%E5%9B%BE04_-_panoramio.jpg/1280px-%E5%85%B0%E5%B7%9E%E7%BB%84%E5%9B%BE04_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/%E5%85%B0%E5%B7%9E%E7%BB%84%E5%9B%BE04_-_panoramio.jpg/1280px-%E5%85%B0%E5%B7%9E%E7%BB%84%E5%9B%BE04_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "兰州组图04 - panoramio.jpg",
+   "query": "兰山俯瞰全城",
+   "credit": {
+    "source": "wikimedia",
+    "author": "天王星",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "俯瞰",
+  "全景",
+  "兰山"
+ ],
+ "popularity": 80,
+ "sources": [
+  {
+   "title": "兰山公园·百度百科",
+   "url": "https://baike.baidu.com/item/%E5%85%B0%E5%B1%B1%E5%85%AC%E5%9B%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-02"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Lanshan Overlook",
+  "zh": "兰山俯瞰全城"
+ },
+ "_geocodeTitle": "三台阁",
+ "_geocodeSuspect": false,
+ "district": "620102",
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.8,
+    "note": "全城最全的俯视角度"
+   },
+   {
+    "label": "交通",
+    "score": 3.0,
+    "note": "上山靠缆车或自驾，班次有限"
+   },
+   {
+    "label": "夜景",
+    "score": 4.4,
+    "note": "灯海铺开，广角才装得下"
+   }
+  ],
+  "body": "想看明白「黄河把兰州劈成两半」这件事，只有上兰山：三台阁上一眼望过去，河道、桥梁和南北两岸的楼群都在脚下，晚上灯海铺开更震撼。缺点是上山不方便，缆车班次有限、自驾盘山路窄，赶上下班高峰堵在山上很常见；山顶风大且冷，拍夜景记得带外套，长曝要扶稳脚架。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "看全景",
+   "夜景摄影",
+   "自驾"
+  ],
+  "avoid": [
+   "无车又赶时间",
+   "大风天"
+  ],
+  "sources": []
+ }
 }

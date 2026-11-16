@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "辽宁省大连市中山区海鲜大排档",
-    "district": "西岗区",
+    "district": "中山区",
     "transportTip": "海滨大排档与夜市均有"
   },
   "practical": {
@@ -37,7 +37,12 @@
     "couple"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "夏夜大排档集中在东港、星海广场、老虎滩一带，露天位要早去",
+    "点单前先确认单价与计量单位（按斤还是按份），称重时看秤",
+    "参加海上项目先问清总价包含哪些，别听「先上船再说」",
+    "遇纠纷拨 12345 / 12315，主要景区设有消费维权站"
+  ],
   "images": [],
   "coverIndex": 0,
   "tags": [
@@ -52,9 +57,15 @@
       "url": "https://baike.baidu.com/item/%E6%B5%B7%E9%B2%9C",
       "kind": "wiki",
       "fetchedAt": "2026-10-01"
+    },
+    {
+      "title": "大连消协秋季旅游消费提示：海鲜排档计价模糊与海上项目强制消费是本城高发项",
+      "url": "https://www.dbfzw.cn/2026/wanxiang_1026/5407.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-15"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-15",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -62,6 +73,23 @@
   },
   "_geocodeTitle": "正黄旗海鲜烧烤大排档(延安路总店)",
   "_geocodeSuspect": false,
-  "district": "210203",
-  "_noImage": true
+  "district": "210202",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-15",
+    "changes": [
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [],
+        "new": [
+          "夏夜大排档集中在东港、星海广场、老虎滩一带，露天位要早去",
+          "点单前先确认单价与计量单位（按斤还是按份），称重时看秤",
+          "参加海上项目先问清总价包含哪些，别听「先上船再说」",
+          "遇纠纷拨 12345 / 12315，主要景区设有消费维权站"
+        ]
+      }
+    ],
+    "source": "https://www.dbfzw.cn/2026/wanxiang_1026/5407.html",
+    "reason": "大连消协秋季旅游消费提示：海鲜排档计价模糊与海上项目强制消费是本城高发项"
+  }
 }

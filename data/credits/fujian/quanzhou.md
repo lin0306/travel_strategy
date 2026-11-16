@@ -1,6 +1,6 @@
 # 泉州 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-01
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -76,6 +76,7 @@
 | 中山路骑楼 | [百度百科·泉州中山路](https://baike.baidu.com/item/%E6%B3%89%E5%B7%9E%E4%B8%AD%E5%B1%B1%E8%B7%AF) | wiki | 2026-10-01 |
 | 梨园戏 | [百度百科·梨园戏](https://baike.baidu.com/item/%E6%A2%A8%E5%9B%AD%E6%88%8F) | wiki | 2026-10-01 |
 | 南音 | [百度百科·南音](https://baike.baidu.com/item/%E5%8D%97%E9%9F%B3) | wiki | 2026-10-01 |
+| 南音 | [泉州市文旅局剧场名录（南音艺苑·新门街483号）](https://hsqz.qzrcgw.gov.cn/details?id=95016ae1fbfe47c58d51493e4cd06457) | media | 2026-11-10 |
 | 提线木偶戏 | [百度百科·泉州提线木偶戏](https://baike.baidu.com/item/%E6%B3%89%E5%B7%9E%E6%8F%90%E7%BA%BF%E6%9C%A8%E5%81%B6%E6%88%8F) | wiki | 2026-10-01 |
 | 西街 | [百度百科·西街](https://baike.baidu.com/item/%E6%B3%89%E5%B7%9E%E8%A5%BF%E8%A1%97) | wiki | 2026-10-01 |
 | 蟳埔民俗 | [百度百科·蟳埔女](https://baike.baidu.com/item/%E8%9F%B3%E5%9F%94%E5%A5%B3) | wiki | 2026-10-01 |
@@ -85,9 +86,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Henry Chen | Unsplash License | [unsplash](https://unsplash.com/photos/city-skyline-during-night-time-OF8MM3_Glrc) |
-| 城市封面 | Albert Canite | Unsplash License | [unsplash](https://unsplash.com/photos/a-view-of-a-city-with-tall-buildings-GAq5Nsk3MeM) |
-| 城市封面 | zhang kaiyv | Unsplash License | [unsplash](https://unsplash.com/photos/black-high-rise-builcing-9v_Nork6P1w) |
+| 城市封面 | H2v5o68z | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Kaiyuan_Temple,_Quanzhou_1.jpg) |
+| 城市封面 | H2v5o68z | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Kaiyuan_Temple,_Quanzhou_11.jpg) |
+| 城市封面 | Thanato | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Laozi_002.jpg) |
 | 安平桥 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Anping_Bridge_-_east_end_-_DSCF9016.JPG) |
 | 安平桥 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Anping_Bridge_-_looking_toward_the_east_end_-_DSCF9010.JPG) |
 | 安平桥 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Anping_Bridge_-_pillars_-_DSCF9111.JPG) |
@@ -178,7 +179,6 @@
 | 清水岩 | Allervous | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%89%E6%BA%AA%E7%B8%A3%E7%9A%84%E6%B8%85%E6%B0%B4%E7%A5%96%E5%B8%AB%E5%BB%9F.jpg) |
 | 清源山 | 王启生 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B8%85%E6%BA%90%E5%B1%B1_-_panoramio.jpg) |
 | 清源山 | Thanato | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Laozi_002.jpg) |
-| 泉州博物馆 | BabelStone | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:AndreasPerusinus.jpg) |
 | 天后宫 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Quanzhou_-_Tian_Hou_Gong_-_DSCF8518.JPG) |
 | 天后宫 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Quanzhou_-_Tian_Hou_Gong_-_bixi_-_DSCF8514.JPG) |
 | 天后宫 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Quanzhou_-_Tian_Hou_Gong_-_bixi_-_DSCF8516.JPG) |
@@ -228,8 +228,6 @@
 | 钟楼 | gdczjkk | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B3%89%E5%B7%9E%E9%92%9F%E6%A5%BC_-_panoramio.jpg) |
 | 钟楼 | gdczjkk | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%AD%E9%97%B9%E7%9A%84%E9%92%9F%E6%A5%BC%E8%A1%97%E5%8C%BA_-_panoramio.jpg) |
 | 钟楼 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B3%89%E5%B7%9E%E9%92%9F%E6%A5%BC.jpg) |
-| 中山路骑楼 | DragonSamYU | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Ducheng_Town_-_20190209-1.jpg) |
-| 中山路骑楼 | DragonSamYU | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Ducheng_Town_-_20190209-2.jpg) |
 | 梨园戏 | JRL：） | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E3%80%8A%E9%99%88%E4%BB%B2%E5%AD%90%E3%80%8B%E6%B3%89%E5%B7%9E%E6%A2%A8%E5%9B%AD%E6%88%8F1.jpg) |
 | 梨园戏 | JRL：） | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E3%80%8A%E9%99%88%E4%BB%B2%E5%AD%90%E3%80%8B%E6%B3%89%E5%B7%9E%E6%A2%A8%E5%9B%AD%E6%88%8F2.jpg) |
 | 西街 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B3%89%E5%B7%9E_%E8%A5%BF%E8%A1%97_%E8%A3%B4%E5%B7%B7_pei_xiang_-_panoramio.jpg) |

@@ -55,7 +55,7 @@ import {
   loadSubdistricts,
   type SubdistrictRow,
 } from '~/common/data/subdistricts'
-import { loadProvinceDetail, type ProvinceDetail } from '~/common/data/regions'
+import { loadProvinceDetail, type CityRow, type ProvinceDetail } from '~/common/data/regions'
 import { toPoiPoints, type LatLngLike } from '~/common/map/tencent'
 import type { City, Poi } from '~shared/schema'
 
@@ -67,7 +67,8 @@ export interface ProvinceView {
   collected: number
   /** 标题：省级单位全名，未就绪时给一句中性占位 */
   title: string
-  pickCity: (cityId: string) => void
+  /** 点清单里的一行 → 进那座城市页（传整行：未收录的市 `cityId` 是 `null`，见 `ProvinceList`） */
+  pickCity: (row: CityRow) => void
   /** 选中的景点（就地详情面板用）。`null` = 没选中 */
   selected: Poi | null
   /** 选中景点所属城市名（详情里的面包屑那一段） */
@@ -396,7 +397,10 @@ export function useProvinceView(): ProvinceView {
     detail,
     collected,
     title: detail?.province?.fullname ?? '省级视图',
-    pickCity: (cityId) => navigate(`/city/${cityId}`),
+    pickCity: (row) => {
+      // ★ 未收录的市在清单里是 disabled 的，这里再判一次只是兜底 —— 不给 `cityId!`
+      if (row.cityId) navigate(`/city/${row.cityId}`)
+    },
     selected: sel.selected,
     selectedCityName: sel.cityName,
     // ★ 搜索命中优先（它的城市这次才加载）；否则查本页点位索引

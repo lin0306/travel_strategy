@@ -1,149 +1,187 @@
 {
-  "id": "jinfo-mountain",
-  "name": "金佛山",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "喀斯特桌山，世界自然遗产，春看杜鹃、夏避暑、冬滑雪。",
-  "description": "金佛山位于南川区，是一座四周被陡崖围合的“桌山”，山顶相对平缓，与山下的高差近千米，这种地貌在国内非常少见。山上是大片原始森林与竹海，每年四五月杜鹃花开成海，被称作“杜鹃王国”；冬季山顶有滑雪场，是重庆人最近的玩雪去处。最有看点的是绝壁栈道——沿着崖壁横向凿出去的一条窄道，走上去脚下就是深谷。景区很大，索道与观光车串联主要景点，想走完西坡与北坡两天比较从容。",
-  "highlights": [
-    "世界自然遗产，典型的喀斯特桌山",
-    "绝壁栈道贴着崖壁横穿",
-    "四季玩法不同：杜鹃、避暑、滑雪"
-  ],
-  "location": {
-    "point": {
-      "lng": 107.193518,
-      "lat": 29.030459,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "重庆市南川区金佛山景区",
-    "district": "南川",
-    "transportTip": "主城自驾约 1.5 小时；南川城区有班车至景区",
-    "entrance": {
-      "lng": 107.205909,
-      "lat": 29.101112,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "jinfo-mountain",
+ "name": "金佛山",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "喀斯特桌山，世界自然遗产，春看杜鹃、夏避暑、冬滑雪。",
+ "description": "金佛山位于南川区，是一座四周被陡崖围合的“桌山”，山顶相对平缓，与山下的高差近千米，这种地貌在国内非常少见。山上是大片原始森林与竹海，每年四五月杜鹃花开成海，被称作“杜鹃王国”；冬季山顶有滑雪场，是重庆人最近的玩雪去处。最有看点的是绝壁栈道——沿着崖壁横向凿出去的一条窄道，走上去脚下就是深谷。景区很大，索道与观光车串联主要景点，想走完西坡与北坡两天比较从容。",
+ "highlights": [
+  "世界自然遗产，典型的喀斯特桌山",
+  "绝壁栈道贴着崖壁横穿",
+  "四季玩法不同：杜鹃、避暑、滑雪"
+ ],
+ "location": {
+  "point": {
+   "lng": 107.193518,
+   "lat": 29.030459,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 08:00-17:00（冬季索道可能提前收班，以官方为准）",
-    "openHoursRef": 0,
-    "ticket": "约 90 元起（含索道另计，淡旺季浮动，以官方为准）",
-    "ticketRef": 0,
-    "duration": "建议 240-360 分钟",
-    "durationMinutes": [
-      240,
-      360
-    ],
-    "priceLevel": "mid"
+  "address": "重庆市南川区金佛山景区",
+  "district": "南川",
+  "transportTip": "主城自驾约 1.5 小时；南川城区有班车至景区",
+  "entrance": {
+   "lng": 107.205909,
+   "lat": 29.101112,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约 08:00-17:00（冬季索道可能提前收班，以官方为准）",
+  "openHoursRef": 0,
+  "ticket": "约 90 元起（含索道另计，淡旺季浮动，以官方为准）",
+  "ticketRef": 0,
+  "duration": "建议 240-360 分钟",
+  "durationMinutes": [
+   240,
+   360
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "kids",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1_%E8%8A%A6%E8%8A%B1_-_panoramio.jpg/1280px-%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1_%E8%8A%A6%E8%8A%B1_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1_%E8%8A%A6%E8%8A%B1_-_panoramio.jpg/1280px-%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1_%E8%8A%A6%E8%8A%B1_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 608,
+   "alt": "重庆 金佛山 芦花 - panoramio.jpg",
+   "query": "金佛山 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nyx Ning",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1_%E8%8A%A6%E8%8A%B1_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "kids",
-    "friends"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1_%E8%8A%A6%E8%8A%B1_-_panoramio.jpg/1280px-%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1_%E8%8A%A6%E8%8A%B1_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1_%E8%8A%A6%E8%8A%B1_-_panoramio.jpg/1280px-%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1_%E8%8A%A6%E8%8A%B1_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 608,
-      "alt": "重庆 金佛山 芦花 - panoramio.jpg",
-      "query": "金佛山 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nyx Ning",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1_%E8%8A%A6%E8%8A%B1_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1_%E4%BA%91%E6%B5%B7_-_panoramio.jpg/1280px-%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1_%E4%BA%91%E6%B5%B7_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1_%E4%BA%91%E6%B5%B7_-_panoramio.jpg/1280px-%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1_%E4%BA%91%E6%B5%B7_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 608,
-      "alt": "重庆 金佛山 云海 - panoramio.jpg",
-      "query": "金佛山 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nyx Ning",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1_%E4%BA%91%E6%B5%B7_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1%E4%B8%8B_%28%E4%BB%BF%E5%8F%A4%29%E5%A4%A9%E6%98%9F%E5%B0%8F%E9%95%87_-_panoramio.jpg/1280px-%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1%E4%B8%8B_%28%E4%BB%BF%E5%8F%A4%29%E5%A4%A9%E6%98%9F%E5%B0%8F%E9%95%87_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1%E4%B8%8B_%28%E4%BB%BF%E5%8F%A4%29%E5%A4%A9%E6%98%9F%E5%B0%8F%E9%95%87_-_panoramio.jpg/1280px-%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1%E4%B8%8B_%28%E4%BB%BF%E5%8F%A4%29%E5%A4%A9%E6%98%9F%E5%B0%8F%E9%95%87_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 608,
-      "alt": "重庆 金佛山下 (仿古)天星小镇 - panoramio.jpg",
-      "query": "金佛山 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nyx Ning",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1%E4%B8%8B_(%E4%BB%BF%E5%8F%A4)%E5%A4%A9%E6%98%9F%E5%B0%8F%E9%95%87_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/%E9%87%91%E4%BD%9B%E5%B1%B1%E4%B9%8B%E6%A3%A7%E9%81%93.jpg/1280px-%E9%87%91%E4%BD%9B%E5%B1%B1%E4%B9%8B%E6%A3%A7%E9%81%93.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/%E9%87%91%E4%BD%9B%E5%B1%B1%E4%B9%8B%E6%A3%A7%E9%81%93.jpg/1280px-%E9%87%91%E4%BD%9B%E5%B1%B1%E4%B9%8B%E6%A3%A7%E9%81%93.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 554,
-      "alt": "金佛山之棧道.jpg",
-      "query": "金佛山",
-      "credit": {
-        "source": "wikimedia",
-        "author": "美麗的四川 戴克明 《美術生活》 1935年[ 第11期 ，29-30頁]",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%87%91%E4%BD%9B%E5%B1%B1%E4%B9%8B%E6%A3%A7%E9%81%93.jpg",
-        "license": "Public domain",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Mount._Jinfo_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Mount._Jinfo_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 810,
-      "alt": "Mount. Jinfo 1.JPG",
-      "query": "金佛山",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Wenchi Jin",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount._Jinfo_1.JPG",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "世界遗产",
-    "桌山",
-    "杜鹃",
-    "滑雪"
-  ],
-  "popularity": 82,
-  "sources": [
-    {
-      "title": "百度百科·金佛山",
-      "url": "https://baike.baidu.com/item/%E9%87%91%E4%BD%9B%E5%B1%B1",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "金佛山"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1_%E4%BA%91%E6%B5%B7_-_panoramio.jpg/1280px-%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1_%E4%BA%91%E6%B5%B7_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1_%E4%BA%91%E6%B5%B7_-_panoramio.jpg/1280px-%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1_%E4%BA%91%E6%B5%B7_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 608,
+   "alt": "重庆 金佛山 云海 - panoramio.jpg",
+   "query": "金佛山 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nyx Ning",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1_%E4%BA%91%E6%B5%B7_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "金佛山景区-古佛洞",
-  "_geocodeSuspect": false,
-  "district": "500119"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1%E4%B8%8B_%28%E4%BB%BF%E5%8F%A4%29%E5%A4%A9%E6%98%9F%E5%B0%8F%E9%95%87_-_panoramio.jpg/1280px-%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1%E4%B8%8B_%28%E4%BB%BF%E5%8F%A4%29%E5%A4%A9%E6%98%9F%E5%B0%8F%E9%95%87_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1%E4%B8%8B_%28%E4%BB%BF%E5%8F%A4%29%E5%A4%A9%E6%98%9F%E5%B0%8F%E9%95%87_-_panoramio.jpg/1280px-%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1%E4%B8%8B_%28%E4%BB%BF%E5%8F%A4%29%E5%A4%A9%E6%98%9F%E5%B0%8F%E9%95%87_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 608,
+   "alt": "重庆 金佛山下 (仿古)天星小镇 - panoramio.jpg",
+   "query": "金佛山 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nyx Ning",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%87%8D%E5%BA%86_%E9%87%91%E4%BD%9B%E5%B1%B1%E4%B8%8B_(%E4%BB%BF%E5%8F%A4)%E5%A4%A9%E6%98%9F%E5%B0%8F%E9%95%87_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/%E9%87%91%E4%BD%9B%E5%B1%B1%E4%B9%8B%E6%A3%A7%E9%81%93.jpg/1280px-%E9%87%91%E4%BD%9B%E5%B1%B1%E4%B9%8B%E6%A3%A7%E9%81%93.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/%E9%87%91%E4%BD%9B%E5%B1%B1%E4%B9%8B%E6%A3%A7%E9%81%93.jpg/1280px-%E9%87%91%E4%BD%9B%E5%B1%B1%E4%B9%8B%E6%A3%A7%E9%81%93.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 554,
+   "alt": "金佛山之棧道.jpg",
+   "query": "金佛山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "美麗的四川 戴克明 《美術生活》 1935年[ 第11期 ，29-30頁]",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%87%91%E4%BD%9B%E5%B1%B1%E4%B9%8B%E6%A3%A7%E9%81%93.jpg",
+    "license": "Public domain",
+    "attributionRequired": false
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Mount._Jinfo_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Mount._Jinfo_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 810,
+   "alt": "Mount. Jinfo 1.JPG",
+   "query": "金佛山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Wenchi Jin",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount._Jinfo_1.JPG",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "世界遗产",
+  "桌山",
+  "杜鹃",
+  "滑雪"
+ ],
+ "popularity": 82,
+ "sources": [
+  {
+   "title": "百度百科·金佛山",
+   "url": "https://baike.baidu.com/item/%E9%87%91%E4%BD%9B%E5%B1%B1",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "金佛山"
+ },
+ "_geocodeTitle": "金佛山景区-古佛洞",
+ "_geocodeSuspect": false,
+ "district": "500119",
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.6,
+    "note": "桌山绝壁栈道贴着崖壁横穿"
+   },
+   {
+    "label": "体力",
+    "score": 3.0,
+    "note": "景区大，走完西坡北坡要两天"
+   },
+   {
+    "label": "交通",
+    "score": 3.0,
+    "note": "索道加观光车来回换乘折腾"
+   },
+   {
+    "label": "时长",
+    "score": 4.0,
+    "note": "春秋各有一季看点"
+   }
+  ],
+  "body": "四周被陡崖围合的桌山，山顶却平缓，这种地貌国内少见；贴着崖壁横穿的绝壁栈道是最有记忆点的一段，脚下就是深谷。四五月的杜鹃确实成海，冬天山顶能滑雪。缺点是景区太大，索道加观光车来回换乘折腾，起雾天崖壁全白什么都看不见，出发前要看天气。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "避暑",
+   "看花"
+  ],
+  "avoid": [
+   "雾天",
+   "只有半天"
+  ],
+  "sources": []
+ }
 }

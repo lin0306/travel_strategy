@@ -21,7 +21,7 @@
     "transportTip": "地铁1号线五一广场站或2号线湘江中路站，步行约十分钟"
   },
   "practical": {
-    "openHours": "约09:00-17:00，以官方公告为准",
+    "openHours": "闭馆改造中（二期修复工程在建），重新开放时间未定",
     "openHoursRef": 0,
     "ticket": "免费（以现场公告为准）",
     "ticketRef": 0,
@@ -38,7 +38,10 @@
     "family"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "闭馆改造中：2026 年二期修复工程在建，官方未公布重新开放日期，出行前请查景区公众号",
+    "改造期间可改去长沙简牍博物馆看「文脉在兹 谊居千年」特展，展品含贾谊故居遗址出土文物"
+  ],
   "images": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Jiayiguju.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -144,9 +147,15 @@
       "url": "https://baike.baidu.com/item/%E8%B4%BE%E8%B0%8A%E6%95%85%E5%B1%85",
       "kind": "wiki",
       "fetchedAt": "2026-09-28"
+    },
+    {
+      "title": "市文旅广电局2026-07：故居闭馆改造、二期修复推进，无重开日期",
+      "url": "http://wlgd.changsha.gov.cn/zwgk/gzdt/wlgdzc/rdxw/202607/t20260709_12471907.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -154,5 +163,56 @@
   },
   "_geocodeTitle": "太平老街贾谊故居-贾太傅祠",
   "_geocodeSuspect": false,
-  "district": "430103"
+  "district": "430103",
+  "review": {
+    "score": 3.8,
+    "verdict": "顺路看看",
+    "facets": [
+      {
+        "label": "历史",
+        "score": 4.2,
+        "note": "贾谊住过三年，两赋写在这里"
+      },
+      {
+        "label": "建筑",
+        "score": 3.3,
+        "note": "文夕大火后复建，古意打了折扣"
+      },
+      {
+        "label": "时长",
+        "score": 2.7,
+        "note": "一进院子，半小时看完"
+      }
+    ],
+    "body": "太平街里侧太傅里的一进院落，西汉贾谊任长沙王太傅时住在这里，写下《吊屈原赋》和《鵩鸟赋》，院里的太傅井一直留着，展厅讲他的生平与政论。缺点是现有建筑是 1938 年文夕大火后复建的，想看原构会失望；院子小，半小时看完，适合逛太平街时拐进来，不值得单独安排。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "逛太平街顺路"
+    ],
+    "avoid": [
+      "期待原版古建"
+    ],
+    "sources": []
+  },
+  "_patrol": {
+    "at": "2026-11-14",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "约09:00-17:00，以官方公告为准",
+        "new": "闭馆改造中（二期修复工程在建），重新开放时间未定"
+      },
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [],
+        "new": [
+          "闭馆改造中：2026 年二期修复工程在建，官方未公布重新开放日期，出行前请查景区公众号",
+          "改造期间可改去长沙简牍博物馆看「文脉在兹 谊居千年」特展，展品含贾谊故居遗址出土文物"
+        ]
+      }
+    ],
+    "source": "http://wlgd.changsha.gov.cn/zwgk/gzdt/wlgdzc/rdxw/202607/t20260709_12471907.html",
+    "reason": "市文旅广电局2026-07：故居闭馆改造、二期修复推进，无重开日期"
+  }
 }

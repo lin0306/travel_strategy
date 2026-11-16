@@ -15,12 +15,12 @@
       "lat": 30.660066,
       "coordSystem": "GCJ-02"
     },
-    "address": "成都市青羊区琴台路 23 号文化公园内",
+    "address": "成都市青羊区琴台路 73 号（文化公园东门）",
     "district": "青羊区",
-    "transportTip": "地铁 4 号线文化宫站步行约 600 米"
+    "transportTip": "地铁 2 号线通惠门站 E 口步行约 400 米（文化公园东门）"
   },
   "practical": {
-    "openHours": "多为每晚一场（以剧场排期为准）",
+    "openHours": "每天 20:00 开演（旺季加开 16:00 / 18:00 场，以剧场排期为准）",
     "openHoursRef": 0,
     "ticket": "约 150 元起，旺季建议提前预订",
     "ticketRef": 0,
@@ -88,9 +88,27 @@
       "url": "https://baike.baidu.com/item/%E8%9C%80%E9%A3%8E%E9%9B%85%E9%9F%B5",
       "kind": "wiki",
       "fetchedAt": "2026-09-18"
+    },
+    {
+      "title": "四川新闻网 2026-10-27：成都市文化公园蜀风雅韵每天 20:00 开演；",
+      "url": "https://scnews.newssc.org/system/20261027/001650652.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
+    },
+    {
+      "title": "携程 + 腾讯地图 POI",
+      "url": "https://m.ctrip.com/webapp/you/gspoi/sight/104/0.html?poiId=10759015",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
+    },
+    {
+      "title": "腾讯地图 POI",
+      "url": "https://apis.map.qq.com/",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Chengdu Sichuan opera face changing show",
@@ -98,5 +116,17 @@
   },
   "_geocodeTitle": "蜀风雅韵川剧院-西门",
   "_geocodeSuspect": false,
-  "district": "510105"
+  "district": "510105",
+  "_patrol": {
+    "at": "2026-11-08",
+    "changes": [
+      {
+        "field": "交通提示",
+        "old": "地铁 4 号线文化宫站步行约 600 米",
+        "new": "地铁 2 号线通惠门站 E 口步行约 400 米（文化公园东门）"
+      }
+    ],
+    "source": "https://apis.map.qq.com/",
+    "reason": "图商POI标注通惠门站E口步行400米；原「4号线文化宫站600米」方向相反且更远\r"
+  }
 }

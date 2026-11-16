@@ -16,12 +16,12 @@
       "lat": 23.115028,
       "coordSystem": "GCJ-02"
     },
-    "address": "广州市天河区珠江东路1号",
+    "address": "广州市天河区珠江新城珠江西路1号",
     "district": "天河区",
     "transportTip": "旅客自动输送线大剧院站；地铁3号线、5号线珠江新城站"
   },
   "practical": {
-    "openHours": "演出日以外视公告开放，以官方为准",
+    "openHours": "参观：周六、周日及法定节假日 09:30-16:30（16:00 最后入场）；非周六日及法定假日仅接受 10 人以上团体预约；演出场次以官方排期为准",
     "openHoursRef": 0,
     "ticket": "外观免费；演出票另行购买",
     "ticketRef": 0,
@@ -52,9 +52,15 @@
       "url": "https://baike.baidu.com/item/%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%89%A7%E9%99%A2",
       "kind": "wiki",
       "fetchedAt": "2026-09-24"
+    },
+    {
+      "title": "广州大剧院官网参观须知（2026）",
+      "url": "https://www.gzdjy.org/intro.html?name=参观须知&rid=14418",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,5 +69,22 @@
   "_geocodeTitle": "广州大剧院",
   "_geocodeSuspect": false,
   "district": "440106",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "广州市天河区珠江东路1号",
+        "new": "广州市天河区珠江新城珠江西路1号"
+      },
+      {
+        "field": "开放时间",
+        "old": "演出日以外视公告开放，以官方为准",
+        "new": "参观：周六、周日及法定节假日 09:30-16:30（16:00 最后入场）；非周六日及法定假日仅接受 10 人以上团体预约；演出场次以官方排期为准"
+      }
+    ],
+    "source": "https://www.gzdjy.org/intro.html?name=参观须知&rid=14418",
+    "reason": "广州大剧院官网参观须知（2026）"
+  }
 }

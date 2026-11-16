@@ -1,6 +1,6 @@
 # 庐山 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-07
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-14
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Loeng Lig | Unsplash License | [unsplash](https://unsplash.com/photos/city-buildings-under-blue-sky-during-daytime-v5TwMWDaHDI) |
-| 城市封面 | Dave Xu | Unsplash License | [unsplash](https://unsplash.com/photos/city-skyline-during-night-time-0vHPFLQqzSs) |
-| 城市封面 | Xuedi Liu | Unsplash License | [unsplash](https://unsplash.com/photos/expansive-cityscape-with-a-winding-river-under-a-cloudy-sky-X65EGKmcn6Q) |
+| 城市封面 | Sinopitt | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hanpokou.jpg) |
+| 城市封面 | Jinyuxing | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2019%E5%B9%B48%E6%9C%88%E7%9A%84%E5%BA%90%E5%B1%B1%E4%B8%89%E5%8F%A0%E6%B3%89.jpg) |
+| 城市封面 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jinxiugu.jpg) |
 | 白鹿洞书院 | Gisling | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lushan_White_Lotus_Grotto_Academy.JPG) |
 | 白鹿洞书院 | Gisling | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BA%90%E5%B1%B1%E7%99%BD%E9%B9%BF%E6%B4%9E%E4%B9%A6%E9%99%A2%E5%91%A8%E6%95%A6%E9%A2%90%E9%93%9C%E5%83%8F.JPG) |
 | 白鹿洞书院 | Gisling | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%96%87%E4%BC%9A%E5%A0%82.JPG) |

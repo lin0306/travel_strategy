@@ -1,131 +1,169 @@
 {
-  "id": "qiao-jiao-beef",
-  "name": "乐山跷脚牛肉",
-  "category": "food",
-  "subtype": "local",
-  "summary": "乐山招牌汤锅，牛杂和牛肉一锅熬，汤鲜辣香，苏稽是发源地。",
-  "description": "跷脚牛肉是乐山的招牌汤锅。它把牛肉、牛杂和草药一锅熬，汤鲜，带点药香和辣。发源地在苏稽，镇上馆子最多。来乐山基本都要喝一碗，配干碟蘸着吃更香。找本地人多的店，味道更稳，别只信榜单。",
-  "highlights": [
-    "乐山招牌汤锅",
-    "牛肉牛杂草药熬鲜",
-    "苏稽发源配干碟"
-  ],
-  "location": {
-    "point": {
-      "lng": 104.067835,
-      "lat": 29.648662,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "四川省乐山市市中区及苏稽镇各馆子",
-    "district": "井研县",
-    "transportTip": "市区及苏稽镇餐馆均有"
+ "id": "qiao-jiao-beef",
+ "name": "乐山跷脚牛肉",
+ "category": "food",
+ "subtype": "local",
+ "summary": "乐山招牌汤锅，牛杂和牛肉一锅熬，汤鲜辣香，苏稽是发源地。",
+ "description": "跷脚牛肉是乐山的招牌汤锅。它把牛肉、牛杂和草药一锅熬，汤鲜，带点药香和辣。发源地在苏稽，镇上馆子最多。来乐山基本都要喝一碗，配干碟蘸着吃更香。找本地人多的店，味道更稳，别只信榜单。",
+ "highlights": [
+  "乐山招牌汤锅",
+  "牛肉牛杂草药熬鲜",
+  "苏稽发源配干碟"
+ ],
+ "location": {
+  "point": {
+   "lng": 104.067835,
+   "lat": 29.648662,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:00-21:00",
-    "openHoursRef": 0,
-    "ticket": "约50元/锅起",
-    "ticketRef": 0,
-    "duration": "建议 60-90 分钟",
-    "durationMinutes": [
-      60,
-      90
-    ],
-    "priceLevel": "mid"
+  "address": "四川省乐山市市中区及苏稽镇各馆子",
+  "district": "井研县",
+  "transportTip": "市区及苏稽镇餐馆均有"
+ },
+ "practical": {
+  "openHours": "约10:00-21:00",
+  "openHoursRef": 0,
+  "ticket": "约50元/锅起",
+  "ticketRef": 0,
+  "duration": "建议 60-90 分钟",
+  "durationMinutes": [
+   60,
+   90
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "friends",
+  "family",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Qiao_Jiao_Beef.jpg/1280px-Qiao_Jiao_Beef.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Qiao_Jiao_Beef.jpg/1280px-Qiao_Jiao_Beef.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Qiao Jiao Beef.jpg",
+   "query": "乐山跷脚牛肉",
+   "credit": {
+    "source": "wikimedia",
+    "author": "ZhengZhou",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "inside"
+   }
   },
-  "audience": [
-    "friends",
-    "family",
-    "couple"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Qiao_Jiao_Beef.jpg/1280px-Qiao_Jiao_Beef.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Qiao_Jiao_Beef.jpg/1280px-Qiao_Jiao_Beef.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Qiao Jiao Beef.jpg",
-      "query": "乐山跷脚牛肉",
-      "credit": {
-        "source": "wikimedia",
-        "author": "ZhengZhou",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "inside"
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/%E4%B9%90%E5%B1%B1%E6%B3%8A%E6%B0%B4%E8%A1%97%E5%B8%82%E5%9C%BA%E7%9A%84%E8%8B%8F%E7%A8%BD%E5%B0%8F%E5%90%83_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/%E4%B9%90%E5%B1%B1%E6%B3%8A%E6%B0%B4%E8%A1%97%E5%B8%82%E5%9C%BA%E7%9A%84%E8%8B%8F%E7%A8%BD%E5%B0%8F%E5%90%83_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "乐山泊水街市场的苏稽小吃 - panoramio.jpg",
-      "query": "乐山跷脚牛肉",
-      "credit": {
-        "source": "wikimedia",
-        "author": "中国郑开亮",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "front"
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/%E8%8B%8F%E7%A8%BD%E7%BF%98%E8%84%9A%E7%89%9B%E8%82%89-%E6%B5%81%E6%B5%AA%E7%9A%84%E7%8B%97%E7%8B%97_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/%E8%8B%8F%E7%A8%BD%E7%BF%98%E8%84%9A%E7%89%9B%E8%82%89-%E6%B5%81%E6%B5%AA%E7%9A%84%E7%8B%97%E7%8B%97_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "苏稽翘脚牛肉-流浪的狗狗 - panoramio.jpg",
-      "query": "乐山跷脚牛肉",
-      "credit": {
-        "source": "wikimedia",
-        "author": "aisccd",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "front"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "汤锅",
-    "牛肉",
-    "招牌"
-  ],
-  "popularity": 94,
-  "sources": [
-    {
-      "title": "百度百科·跷脚牛肉",
-      "url": "https://baike.baidu.com/item/%E8%B7%B7%E8%84%9A%E7%89%9B%E8%82%89",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-02"
-    }
-  ],
-  "updatedAt": "2026-11-03",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Leshan Qiaojiao Beef",
-    "zh": "乐山跷脚牛肉"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/%E4%B9%90%E5%B1%B1%E6%B3%8A%E6%B0%B4%E8%A1%97%E5%B8%82%E5%9C%BA%E7%9A%84%E8%8B%8F%E7%A8%BD%E5%B0%8F%E5%90%83_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/%E4%B9%90%E5%B1%B1%E6%B3%8A%E6%B0%B4%E8%A1%97%E5%B8%82%E5%9C%BA%E7%9A%84%E8%8B%8F%E7%A8%BD%E5%B0%8F%E5%90%83_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "乐山泊水街市场的苏稽小吃 - panoramio.jpg",
+   "query": "乐山跷脚牛肉",
+   "credit": {
+    "source": "wikimedia",
+    "author": "中国郑开亮",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "front"
+   }
   },
-  "_geocodeTitle": "范跷脚正宗乐山苏稽久万跷脚牛肉店(建设路店)",
-  "_geocodeSuspect": false,
-  "district": "511124"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/%E8%8B%8F%E7%A8%BD%E7%BF%98%E8%84%9A%E7%89%9B%E8%82%89-%E6%B5%81%E6%B5%AA%E7%9A%84%E7%8B%97%E7%8B%97_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/%E8%8B%8F%E7%A8%BD%E7%BF%98%E8%84%9A%E7%89%9B%E8%82%89-%E6%B5%81%E6%B5%AA%E7%9A%84%E7%8B%97%E7%8B%97_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "苏稽翘脚牛肉-流浪的狗狗 - panoramio.jpg",
+   "query": "乐山跷脚牛肉",
+   "credit": {
+    "source": "wikimedia",
+    "author": "aisccd",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "front"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "汤锅",
+  "牛肉",
+  "招牌"
+ ],
+ "popularity": 94,
+ "sources": [
+  {
+   "title": "百度百科·跷脚牛肉",
+   "url": "https://baike.baidu.com/item/%E8%B7%B7%E8%84%9A%E7%89%9B%E8%82%89",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-02"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Leshan Qiaojiao Beef",
+  "zh": "乐山跷脚牛肉"
+ },
+ "_geocodeTitle": "范跷脚正宗乐山苏稽久万跷脚牛肉店(建设路店)",
+ "_geocodeSuspect": false,
+ "district": "511124",
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.4,
+    "note": "牛肉牛杂配草药一锅熬，汤鲜带药香"
+   },
+   {
+    "label": "价格",
+    "score": 4.2,
+    "note": "一锅起步价不高，人多摊下来很划算"
+   },
+   {
+    "label": "环境",
+    "score": 3.0,
+    "note": "多是街边老店，夏天闷热，座位挤"
+   },
+   {
+    "label": "排队",
+    "score": 3.4,
+    "note": "饭点苏稽镇上几家名店要等"
+   }
+  ],
+  "body": "乐山的招牌汤锅，牛肉、牛杂和草药一锅熬，汤是鲜的，带一点药香和辣，配干碟蘸着吃更香。发源地在苏稽，镇上馆子最密集，随便找一家本地人多的都不容易踩雷，别只盯榜单上的网红店。短板是环境：这类店多是街边老铺，夏天没有空调或者空调不足，坐得也挤，吃一顿出一身汗；饭点几家名店要排队，赶时间的话避开 12 点和 18 点。当作一顿踏实的本地饭很合适，别指望用餐体验。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "本地口味",
+   "朋友聚餐"
+  ],
+  "avoid": [
+   "要安静环境",
+   "饭点不排队"
+  ],
+  "sources": []
+ }
 }

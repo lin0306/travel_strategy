@@ -1,67 +1,85 @@
 {
-  "id": "huidouzi",
-  "name": "灰豆子",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "蓬灰煮的豌豆甜汤，兰州特有的暖胃甜品。",
-  "description": "灰豆子是兰州特有的甜汤，用蓬灰和豌豆慢煮而成。豆子煮到沙软，汤色枣红，甜而不腻，冬天喝暖胃。杜记甜食的灰豆子在本地有名。小碗几元，价格以店家为准。配个热饼就是一顿夜宵。喜甜的别错过，偏凉的夏天也有冰镇。",
-  "highlights": [
-    "蓬灰慢煮豌豆甜汤",
-    "杜记甜食本地有名",
-    "冬暖胃夏可冰镇"
-  ],
-  "location": {
-    "point": {
-      "lng": 103.822277,
-      "lat": 36.060156,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "甘肃省兰州市城关区杜记甜食灰豆子",
-    "district": "城关区",
-    "transportTip": "城关区乘公交或步行到杜记甜食等老店"
+ "id": "huidouzi",
+ "name": "灰豆子",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "蓬灰煮的豌豆甜汤，兰州特有的暖胃甜品。",
+ "description": "灰豆子是兰州特有的甜汤，用蓬灰和豌豆慢煮而成。豆子煮到沙软，汤色枣红，甜而不腻，冬天喝暖胃。杜记甜食的灰豆子在本地有名。小碗几元，价格以店家为准。配个热饼就是一顿夜宵。喜甜的别错过，偏凉的夏天也有冰镇。",
+ "highlights": [
+  "蓬灰慢煮豌豆甜汤",
+  "杜记甜食本地有名",
+  "冬暖胃夏可冰镇"
+ ],
+ "location": {
+  "point": {
+   "lng": 103.822277,
+   "lat": 36.060156,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "以店家为准",
-    "openHoursRef": 0,
-    "ticket": "约 6 元起，以店家为准",
-    "ticketRef": 0,
-    "duration": "建议 15-30 分钟",
-    "durationMinutes": [
-      15,
-      30
-    ],
-    "priceLevel": "budget"
+  "address": "甘肃省兰州市城关区大众巷72号（杜记甜食）",
+  "district": "城关区",
+  "transportTip": "城关区乘公交或步行到杜记甜食等老店"
+ },
+ "practical": {
+  "openHours": "以店家为准",
+  "openHoursRef": 0,
+  "ticket": "约 6 元起，以店家为准",
+  "ticketRef": 0,
+  "duration": "建议 15-30 分钟",
+  "durationMinutes": [
+   15,
+   30
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "elders",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "甜品",
+  "豌豆",
+  "夜宵"
+ ],
+ "popularity": 62,
+ "sources": [
+  {
+   "title": "灰豆子·百度百科",
+   "url": "https://baike.baidu.com/item/%E7%81%B0%E8%B1%86%E5%AD%90",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-02"
   },
-  "audience": [
-    "elders",
-    "friends"
+  {
+   "title": "百度百科·杜记甜食（大众巷72号）",
+   "url": "https://baike.baidu.com/item/杜记甜食/14249463",
+   "kind": "media",
+   "fetchedAt": "2026-11-12"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Huidouzi Sweet Bean",
+  "zh": "灰豆子"
+ },
+ "_geocodeTitle": "兰州特色灰豆子",
+ "_geocodeSuspect": false,
+ "district": "620102",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-12",
+  "changes": [
+   {
+    "field": "地址",
+    "old": "甘肃省兰州市城关区杜记甜食灰豆子",
+    "new": "甘肃省兰州市城关区大众巷72号（杜记甜食）"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "甜品",
-    "豌豆",
-    "夜宵"
-  ],
-  "popularity": 62,
-  "sources": [
-    {
-      "title": "灰豆子·百度百科",
-      "url": "https://baike.baidu.com/item/%E7%81%B0%E8%B1%86%E5%AD%90",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-02"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Huidouzi Sweet Bean",
-    "zh": "灰豆子"
-  },
-  "_geocodeTitle": "兰州特色灰豆子",
-  "_geocodeSuspect": false,
-  "district": "620102",
-  "_noImage": true
+  "source": "https://baike.baidu.com/item/杜记甜食/14249463",
+  "reason": "补门牌大众巷72号，图商同址坐标相距30米"
+ }
 }

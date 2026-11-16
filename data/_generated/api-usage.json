@@ -1,16 +1,16 @@
 {
   "daily": {
-    "period": "2026-11-05",
+    "period": "2026-11-16",
     "apis": {
-      "place_search": {
-        "requests": 76,
-        "units": 76,
-        "quota": 200
-      },
       "geocoder": {
-        "requests": 23,
-        "units": 23,
+        "requests": 36,
+        "units": 36,
         "quota": 10000
+      },
+      "place_search": {
+        "requests": 201,
+        "units": 201,
+        "quota": 200
       }
     }
   },
@@ -18,11 +18,11 @@
     "period": "2026-11",
     "apis": {
       "amap_place": {
-        "requests": 1,
-        "units": 1,
+        "requests": 74,
+        "units": 74,
         "quota": null
       }
     }
   },
-  "updatedAt": "2026-11-05T00:10:32"
+  "updatedAt": "2026-11-16T13:29:07"
 }

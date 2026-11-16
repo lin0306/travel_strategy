@@ -1,67 +1,109 @@
 {
-  "id": "yangyuxing",
-  "name": "杨裕兴(蔡锷北路店)",
-  "category": "food",
-  "subtype": "local",
-  "summary": "清末开的面馆，长沙人吃面的一处老招牌。",
-  "description": "杨裕兴是清末开起来的面馆，一百多年下来，成了长沙面食的一块招牌。本地那句顺口溜里的「杨裕兴的面」说的就是它。面是碱水细面，下锅断生即捞，汤头分几种，码子现炒——三鲜、肉丝、酸辣、牛肉、排骨，点单时先说面、再说码。桌上摆着剁辣椒、酱油、醋，自己调味。早上和中午人最多，上班族进来一碗面、再加个煎蛋，十分钟解决。价格不高，十几二十块能吃饱。这家在开福区蔡锷北路，离北正街与潮宗街都近。",
-  "highlights": [
-    "清末开业的百年面馆",
-    "碱水细面配现炒码子，汤头分几种",
-    "早餐与中午最热闹，价格实惠"
-  ],
-  "location": {
-    "point": {
-      "lng": 112.981989,
-      "lat": 28.206332,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "湖南省长沙市开福区蔡锷北路246号",
-    "district": "开福区",
-    "transportTip": "地铁1号线文昌阁站，步行约八分钟"
+ "id": "yangyuxing",
+ "name": "杨裕兴(蔡锷北路店)",
+ "category": "food",
+ "subtype": "local",
+ "summary": "清末开的面馆，长沙人吃面的一处老招牌。",
+ "description": "杨裕兴是清末开起来的面馆，一百多年下来，成了长沙面食的一块招牌。本地那句顺口溜里的「杨裕兴的面」说的就是它。面是碱水细面，下锅断生即捞，汤头分几种，码子现炒——三鲜、肉丝、酸辣、牛肉、排骨，点单时先说面、再说码。桌上摆着剁辣椒、酱油、醋，自己调味。早上和中午人最多，上班族进来一碗面、再加个煎蛋，十分钟解决。价格不高，十几二十块能吃饱。这家在开福区蔡锷北路，离北正街与潮宗街都近。",
+ "highlights": [
+  "清末开业的百年面馆",
+  "碱水细面配现炒码子，汤头分几种",
+  "早餐与中午最热闹，价格实惠"
+ ],
+ "location": {
+  "point": {
+   "lng": 112.981989,
+   "lat": 28.206332,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约06:30-14:30（晚餐时段以门店为准），以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "人均约20元起，以实际消费为准",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "elders",
-    "solo",
-    "friends"
+  "address": "湖南省长沙市开福区蔡锷北路246号",
+  "district": "开福区",
+  "transportTip": "地铁1号线文昌阁站，步行约八分钟"
+ },
+ "practical": {
+  "openHours": "约06:30-14:30（晚餐时段以门店为准），以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "人均约20元起，以实际消费为准",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "面馆",
-    "百年",
-    "早餐"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "elders",
+  "solo",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "面馆",
+  "百年",
+  "早餐"
+ ],
+ "popularity": 82,
+ "sources": [
+  {
+   "title": "百度百科·杨裕兴",
+   "url": "https://baike.baidu.com/item/%E6%9D%A8%E8%A3%95%E5%85%B4",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "杨裕兴(蔡锷北路店)"
+ },
+ "_geocodeTitle": "杨裕兴(蔡锷北路店)",
+ "district": "430105",
+ "_noImage": true,
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.2,
+    "note": "碱水细面断生即捞，码子现炒"
+   },
+   {
+    "label": "价格",
+    "score": 4.5,
+    "note": "十几二十块一碗，本地过早价"
+   },
+   {
+    "label": "环境",
+    "score": 3.2,
+    "note": "老店面，桌距小"
+   },
+   {
+    "label": "排队",
+    "score": 3.5,
+    "note": "早饭点最挤，翻台快"
+   }
   ],
-  "popularity": 82,
+  "body": "碱水细面下锅断生即捞，码子现炒，肉丝、酸辣、牛肉各一路，十几二十块一碗，是长沙人过早的常规选择。缺点是各家分店的收档时间口径不一，下午去容易扑空；老店环境偏旧，饭点挤，拼桌是常态。",
+  "basis": "web",
+  "at": "2026-11-14",
+  "fits": [
+   "早餐",
+   "单人",
+   "带长辈"
+  ],
+  "avoid": [
+   "下午去",
+   "要环境"
+  ],
   "sources": [
-    {
-      "title": "百度百科·杨裕兴",
-      "url": "https://baike.baidu.com/item/%E6%9D%A8%E8%A3%95%E5%85%B4",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "杨裕兴(蔡锷北路店)"
-  },
-  "_geocodeTitle": "杨裕兴(蔡锷北路店)",
-  "district": "430105",
-  "_noImage": true
+   "https://baike.baidu.com/item/%E6%9D%A8%E8%A3%95%E5%85%B4/7439981",
+   "https://post.smzdm.com/p/avgqwxzp"
+  ]
+ }
 }

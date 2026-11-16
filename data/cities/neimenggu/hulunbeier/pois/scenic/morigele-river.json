@@ -1,98 +1,135 @@
 {
-  "id": "morigele-river",
-  "name": "莫日格勒河",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "被称天下第一曲水的草原河，蜿蜒如银带。",
-  "description": "莫日格勒河在陈巴尔虎旗的草原上，河道极度弯曲，被老舍称作「天下第一曲水」。它从远处看像一条银色的带子在绿毯上随意铺展，是呼伦贝尔草原最上镜的河流之一。河边是金帐汗等蒙古部落营地，可以骑马、住蒙古包、看牧群。观景台在山坡上，能俯瞰整片河曲。夏季水草丰美，是最典型的草原画面。",
-  "highlights": [
-    "天下第一曲水，河曲极弯",
-    "金帐汗蒙古营地名片",
-    "山坡观景台俯瞰河曲"
-  ],
-  "location": {
-    "point": {
-      "lng": 119.779064,
-      "lat": 49.511675,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "呼伦贝尔市陈巴尔虎旗莫日格勒河",
-    "district": "陈巴尔虎旗",
-    "transportTip": "海拉尔自驾约1.5小时；草原道路"
+ "id": "morigele-river",
+ "name": "莫日格勒河",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "被称天下第一曲水的草原河，蜿蜒如银带。",
+ "description": "莫日格勒河在陈巴尔虎旗的草原上，河道极度弯曲，被老舍称作「天下第一曲水」。它从远处看像一条银色的带子在绿毯上随意铺展，是呼伦贝尔草原最上镜的河流之一。河边是金帐汗等蒙古部落营地，可以骑马、住蒙古包、看牧群。观景台在山坡上，能俯瞰整片河曲。夏季水草丰美，是最典型的草原画面。",
+ "highlights": [
+  "天下第一曲水，河曲极弯",
+  "金帐汗蒙古营地名片",
+  "山坡观景台俯瞰河曲"
+ ],
+ "location": {
+  "point": {
+   "lng": 119.779064,
+   "lat": 49.511675,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天（营地以公告为准）",
-    "openHoursRef": 0,
-    "ticket": "免费（营地项目另计）",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "free"
+  "address": "呼伦贝尔市陈巴尔虎旗莫日格勒河",
+  "district": "陈巴尔虎旗",
+  "transportTip": "海拉尔自驾约1.5小时；草原道路"
+ },
+ "practical": {
+  "openHours": "全天（营地以公告为准）",
+  "openHoursRef": 0,
+  "ticket": "免费（营地项目另计）",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_01.jpg/1280px-%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_01.jpg/1280px-%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "陈巴尔虎旗 莫尔格勒河浩林温都日观景区 01.jpg",
+   "query": "莫日格勒河 呼伦贝尔",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Liuxingy",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_01.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "friends",
-    "solo"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_03.jpg/1280px-%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_03.jpg/1280px-%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "陈巴尔虎旗 莫尔格勒河浩林温都日观景区 03.jpg",
+   "query": "莫日格勒河 呼伦贝尔",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Liuxingy",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_03.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "河流",
+  "草原",
+  "河曲"
+ ],
+ "popularity": 94,
+ "sources": [
+  {
+   "title": "百度百科·莫日格勒河",
+   "url": "https://baike.baidu.com/item/%E8%8E%AB%E6%97%A5%E6%A0%BC%E5%8B%92%E6%B2%B3",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-05"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "莫日格勒河"
+ },
+ "_geocodeTitle": "莫日格勒河",
+ "_geocodeSuspect": false,
+ "district": "150725",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.8,
+    "note": "观景台在山坡上，整段河曲的弯道能一次看完"
+   },
+   {
+    "label": "体力",
+    "score": 4.2,
+    "note": "从停车点到观景台台阶不多，慢慢走也能上"
+   },
+   {
+    "label": "配套",
+    "score": 2.8,
+    "note": "除金帐汗营地外几乎没有补给，饮水和厕所要自己备"
+   },
+   {
+    "label": "时长",
+    "score": 3.8,
+    "note": "90 分钟够走完，想等侧光可以留到日落"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_01.jpg/1280px-%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_01.jpg/1280px-%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "陈巴尔虎旗 莫尔格勒河浩林温都日观景区 01.jpg",
-      "query": "莫日格勒河 呼伦贝尔",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Liuxingy",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_01.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_03.jpg/1280px-%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_03.jpg/1280px-%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "陈巴尔虎旗 莫尔格勒河浩林温都日观景区 03.jpg",
-      "query": "莫日格勒河 呼伦贝尔",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Liuxingy",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_03.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
+  "body": "河曲的弯道确实密，从山坡观景台往下看像一条被随手铺开的银带，配合草原和远处的蒙古包营地，是呼伦贝尔最典型的一张画面。免费，随时可进，营地的骑马住包另算。缺点也很直接：这一带几乎没有遮阴，正午日晒强到站不住，风也大，帽子和防晒得自己备；除营地外没有补给点，水和厕所都要提前解决。把它当成路上的一站最合适，专程跑一趟会觉得内容偏单薄。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "自驾顺路",
+   "拍草原"
   ],
-  "coverIndex": 0,
-  "tags": [
-    "河流",
-    "草原",
-    "河曲"
+  "avoid": [
+   "正午暴晒时段"
   ],
-  "popularity": 94,
-  "sources": [
-    {
-      "title": "百度百科·莫日格勒河",
-      "url": "https://baike.baidu.com/item/%E8%8E%AB%E6%97%A5%E6%A0%BC%E5%8B%92%E6%B2%B3",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-05"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "莫日格勒河"
-  },
-  "_geocodeTitle": "莫日格勒河",
-  "_geocodeSuspect": false,
-  "district": "150725"
+  "sources": []
+ }
 }

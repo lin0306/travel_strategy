@@ -21,7 +21,7 @@
     "transportTip": "地铁1号线或3号线营口道站，步行约八分钟"
   },
   "practical": {
-    "openHours": "约09:00-17:00（周末更热闹），以现场为准",
+    "openHours": "店铺约 09:00-17:00；每周四为传统大集，凌晨开市、人最多",
     "openHoursRef": 0,
     "ticket": "免费（购物另计），以现场为准",
     "ticketRef": 0,
@@ -69,9 +69,15 @@
       "url": "https://baike.baidu.com/item/%E6%B2%88%E9%98%B3%E9%81%93%E5%8F%A4%E7%89%A9%E5%B8%82%E5%9C%BA",
       "kind": "wiki",
       "fetchedAt": "2026-09-27"
+    },
+    {
+      "title": "津云：每周四为大集（原写周末更热闹有误）",
+      "url": "https://www.tjyun.com/system/2018/04/19/035379402.shtml",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -79,5 +85,17 @@
   },
   "_geocodeTitle": "沈阳道古物市场",
   "_geocodeSuspect": false,
-  "district": "120101"
+  "district": "120101",
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "约09:00-17:00（周末更热闹），以现场为准",
+        "new": "店铺约 09:00-17:00；每周四为传统大集，凌晨开市、人最多"
+      }
+    ],
+    "source": "https://www.tjyun.com/system/2018/04/19/035379402.shtml",
+    "reason": "津云：每周四为大集（原写周末更热闹有误）"
+  }
 }

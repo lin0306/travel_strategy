@@ -1,6 +1,6 @@
 # 峨眉山 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-07
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-14
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | 书剑飘零 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9C%A8%E5%B3%A8%E7%A7%80%E6%B9%96%E8%BF%9C%E6%9C%9B%E5%B3%A8%E7%9C%89%E5%B1%B1_Mount_Emei_1.jpg) |
-| 城市封面 | 书剑飘零 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9C%A8%E5%B3%A8%E7%A7%80%E6%B9%96%E8%BF%9C%E6%9C%9B%E5%B3%A8%E7%9C%89%E5%B1%B1_Mount_Emei_2.jpg) |
-| 城市封面 | George N | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B3%A8%E7%9C%89%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA_Mount_Emei_Scenic_Area_02.jpg) |
+| 城市封面 | jetsun | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Emeishan,_Leshan,_Sichuan,_China_-_panoramio_(15).jpg) |
+| 城市封面 | Staceynyx | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mount_Emei_-_Sunrise_above_the_clouds.jpg) |
+| 城市封面 | 张元柏 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2006_%E5%B3%A8%E7%9C%89%E5%B1%B1_%E4%B8%87%E5%B9%B4%E5%AF%BA_-_panoramio.jpg) |
 | 白龙洞 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B3%A8%E7%9C%89%E5%B1%B1%E6%99%AF%E5%8C%BA%E4%B9%8B%E7%99%BD%E9%BE%99%E6%B4%9E%E6%96%87%E4%BF%9D%E7%A2%91.jpg) |
 | 报国寺 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baoguo_Temple,_Emei,_2017-09-19_01.jpg) |
 | 报国寺 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baoguo_Temple,_Emei,_2017-09-19_02.jpg) |
@@ -105,7 +105,6 @@
 | 金顶 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B3%A8%E7%9C%89%E5%B1%B1%E9%87%91%E9%A1%B6%E4%B9%8B%E5%8D%8E%E8%97%8F%E5%AF%BA.jpg) |
 | 金顶 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B3%A8%E7%9C%89%E5%B1%B1%E9%87%91%E9%A1%B6%E4%B9%8B%E5%8D%8E%E8%97%8F%E5%AF%BA%E4%B8%8E%E9%87%91%E9%A1%B6%E5%A4%A7%E6%AE%BF.jpg) |
 | 雷洞坪 | aisccd | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9B%B7%E6%B4%9E%E5%9D%AA%E7%9A%84%E7%8C%B4%E5%AD%90-%E6%B5%81%E6%B5%AA%E7%9A%84%E7%8B%97%E7%8B%97_-_panoramio.jpg) |
-| 罗目古镇 | 不秋齋主人 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%BD%97%E7%9B%AE%E5%8F%A4%E9%95%87.jpg) |
 | 清音阁 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Qingyin_Ge,_2017-09-20_01.jpg) |
 | 清音阁 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Qingyin_Ge,_2017-09-20_02.jpg) |
 | 清音阁 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Qingyin_Ge,_2017-09-20_03.jpg) |

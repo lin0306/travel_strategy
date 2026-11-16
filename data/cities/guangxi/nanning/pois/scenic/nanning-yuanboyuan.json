@@ -1,72 +1,111 @@
 {
-  "id": "nanning-yuanboyuan",
-  "name": "南宁园博园",
-  "category": "scenic",
-  "subtype": "park",
-  "summary": "邕宁的园区，集了各地园林的样板。",
-  "description": "南宁园博园在邕宁区，是第十二届中国国际园林博览会的会址，园里集了国内多地的园林展园，还有顶蛳山遗址博物馆，是史前贝丘遗址。园区面积大，靠观光车加步行，预留半天。它离市区约一小时，适合半天的出城行程。建筑新、绿量大。",
-  "highlights": [
-    "第十二届园博会会址，集各地园林",
-    "含顶蛳山史前贝丘遗址博物馆",
-    "离城约一小时，面积大"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.479237,
-      "lat": 22.723453,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市邕宁区蒲庙镇园博园",
-    "district": "邕宁区",
-    "transportTip": "市区乘地铁2号线至玉洞站换乘公交/专线",
-    "entrance": {
-      "lng": 108.484977,
-      "lat": 22.726724,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "nanning-yuanboyuan",
+ "name": "南宁园博园",
+ "category": "scenic",
+ "subtype": "park",
+ "summary": "邕宁的园区，集了各地园林的样板。",
+ "description": "南宁园博园在邕宁区，是第十二届中国国际园林博览会的会址，园里集了国内多地的园林展园，还有顶蛳山遗址博物馆，是史前贝丘遗址。园区面积大，靠观光车加步行，预留半天。它离市区约一小时，适合半天的出城行程。建筑新、绿量大。",
+ "highlights": [
+  "第十二届园博会会址，集各地园林",
+  "含顶蛳山史前贝丘遗址博物馆",
+  "离城约一小时，面积大"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.479237,
+   "lat": 22.723453,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约09:00-18:0（以公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约45元起，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 120-180 分钟",
-    "durationMinutes": [
-      120,
-      180
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "family",
-    "solo"
+  "address": "南宁市邕宁区蒲庙镇园博园",
+  "district": "邕宁区",
+  "transportTip": "市区乘地铁2号线至玉洞站换乘公交/专线",
+  "entrance": {
+   "lng": 108.484977,
+   "lat": 22.726724,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约09:00-18:0（以公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约45元起，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 120-180 分钟",
+  "durationMinutes": [
+   120,
+   180
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "园博园",
-    "园林",
-    "遗址"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "园博园",
+  "园林",
+  "遗址"
+ ],
+ "popularity": 64,
+ "sources": [
+  {
+   "title": "百度百科·南宁园博园",
+   "url": "https://baike.baidu.com/item/%E5%8D%97%E5%AE%81%E5%9B%AD%E5%8D%9A%E5%9B%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "南宁园博园"
+ },
+ "_geocodeTitle": "南宁园博园",
+ "_geocodeSuspect": false,
+ "district": "450109",
+ "_noImage": true,
+ "review": {
+  "score": 3.8,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "园林",
+    "score": 3.9,
+    "note": "集了多地展园，还有贝丘遗址博物馆"
+   },
+   {
+    "label": "体力",
+    "score": 2.8,
+    "note": "园区面积大，靠观光车加步行"
+   },
+   {
+    "label": "维护",
+    "score": 3.0,
+    "note": "部分展园植被与建筑保养一般"
+   },
+   {
+    "label": "时长",
+    "score": 3.4,
+    "note": "认真逛要半天以上"
+   }
   ],
-  "popularity": 64,
-  "sources": [
-    {
-      "title": "百度百科·南宁园博园",
-      "url": "https://baike.baidu.com/item/%E5%8D%97%E5%AE%81%E5%9B%AD%E5%8D%9A%E5%9B%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "园博园是第十二届中国国际园林博览会的会址，国内多地的展园集中在一处，还带顶蛳山遗址博物馆，看史前贝丘文化是意外收获。带娃放电、看各地园林样式都合适。坑在于园区太大，全靠观光车加步行，夏天走下来很累；开园多年后部分展园维护一般，草木和建筑都有点旧。离城约一小时，只安排半天的话只能挑重点片区看。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "带娃",
+   "看园林",
+   "半天出城"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "南宁园博园"
-  },
-  "_geocodeTitle": "南宁园博园",
-  "_geocodeSuspect": false,
-  "district": "450109",
-  "_noImage": true
+  "avoid": [
+   "时间紧",
+   "怕走路"
+  ],
+  "sources": []
+ }
 }

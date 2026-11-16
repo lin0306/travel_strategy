@@ -38,7 +38,9 @@
     "solo"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "祈年殿一带常有「黑拍」揽客，以现拍现出、带滤镜美颜为话术反复搭讪追逐；2026 年 7 月北京警方已就此行政拘留 9 人。建议自己拍或用官方服务，遇纠缠可拨 110"
+  ],
   "images": [
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/20200110_Temple_of_Heaven-11.jpg/1280px-20200110_Temple_of_Heaven-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -130,9 +132,15 @@
       "url": "https://baike.baidu.com/item/%E5%A4%A9%E5%9D%9B",
       "kind": "wiki",
       "fetchedAt": "2026-09-19"
+    },
+    {
+      "title": "北京警方暑期旅游安保通报：天坛「黑拍」揽客 9 人被行拘（北京时间）",
+      "url": "https://item.btime.com/433dp17bhgj96l8dsqr9p58q4rl",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -140,5 +148,58 @@
   },
   "_geocodeTitle": "天坛公园(东门)停车场",
   "_geocodeSuspect": false,
-  "district": "110101"
+  "district": "110101",
+  "review": {
+    "score": 4.6,
+    "verdict": "专程去",
+    "facets": [
+      {
+        "label": "建筑",
+        "score": 5.0,
+        "note": "祈年殿三重蓝瓦全靠柱撑，没有一根大梁"
+      },
+      {
+        "label": "氛围",
+        "score": 4.7,
+        "note": "清晨古柏林里唱歌打拳遛鸟，是活的北京日常"
+      },
+      {
+        "label": "门票",
+        "score": 2.8,
+        "note": "只买大门票进不了祈年殿与回音壁，等于逛公园"
+      },
+      {
+        "label": "人流",
+        "score": 3.2,
+        "note": "南门到祈年殿一线团队集中，东西两侧柏树林人少"
+      }
+    ],
+    "body": "天坛的价值一半在建筑、一半在公园日常：祈年殿的形制确实压得住场，而清晨古柏林里唱歌、打拳、遛鸟的人，比任何展板都更能说明这座城怎么过日子。缺点也很具体——很多人图便宜只买了大门票，结果祈年殿和回音壁都进不去，白跑一趟；南门那条主路旅行团一队接一队，想安静就得往东西两侧的柏树林里拐。建议买联票、早上七点前进园。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "看古建",
+      "感受本地生活",
+      "晨间散步"
+    ],
+    "avoid": [
+      "只买大门票",
+      "怕走长路"
+    ],
+    "sources": []
+  },
+  "_patrol": {
+    "at": "2026-11-14",
+    "changes": [
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [],
+        "new": [
+          "祈年殿一带常有「黑拍」揽客，以现拍现出、带滤镜美颜为话术反复搭讪追逐；2026 年 7 月北京警方已就此行政拘留 9 人。建议自己拍或用官方服务，遇纠缠可拨 110"
+        ]
+      }
+    ],
+    "source": "https://item.btime.com/433dp17bhgj96l8dsqr9p58q4rl",
+    "reason": "北京警方 2026 暑期旅游安保通报：天坛公园祈年殿等打卡点「黑拍」揽客 9 人被行拘"
+  }
 }

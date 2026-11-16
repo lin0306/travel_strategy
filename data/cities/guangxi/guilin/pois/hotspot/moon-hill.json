@@ -1,97 +1,135 @@
 {
-  "id": "moon-hill",
-  "name": "月亮山",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "山顶有个透空的圆洞，样子像一轮挂在天上的月，绕着它一圈过来轮廓一直在变。",
-  "description": "月亮山在十里画廊的南段。它的样子是一座山的顶部穿了个洞，洞很大，从远处看像一轮月亮挂在天上。名字就是从这来的。有意思的是它的形状会变 —— 沿着公路绕过去，那个洞从圆月变成半月再变成月牙，这一段路本身就是月亮的一个周期。可以爬到洞下面看，上山的石阶八百多级，来回一个多小时。",
-  "highlights": [
-    "山顶穿了个透空的洞，远看像月亮挂在天上",
-    "绕着山走过去，洞从圆变半再变月牙",
-    "可以爬到洞下面，八百多级石阶来回一个多小时"
-  ],
-  "location": {
-    "point": {
-      "lng": 110.474027,
-      "lat": 24.724347,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "广西壮族自治区桂林市阳朔县月亮山景区",
-    "district": "阳朔县",
-    "transportTip": "阳朔县城骑车或租车往南，沿十里画廊到景区"
+ "id": "moon-hill",
+ "name": "月亮山",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "山顶有个透空的圆洞，样子像一轮挂在天上的月，绕着它一圈过来轮廓一直在变。",
+ "description": "月亮山在十里画廊的南段。它的样子是一座山的顶部穿了个洞，洞很大，从远处看像一轮月亮挂在天上。名字就是从这来的。有意思的是它的形状会变 —— 沿着公路绕过去，那个洞从圆月变成半月再变成月牙，这一段路本身就是月亮的一个周期。可以爬到洞下面看，上山的石阶八百多级，来回一个多小时。",
+ "highlights": [
+  "山顶穿了个透空的洞，远看像月亮挂在天上",
+  "绕着山走过去，洞从圆变半再变月牙",
+  "可以爬到洞下面，八百多级石阶来回一个多小时"
+ ],
+ "location": {
+  "point": {
+   "lng": 110.474027,
+   "lat": 24.724347,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约8:00-17:30，以景区公告为准",
-    "openHoursRef": 0,
-    "ticket": "中等，以景区公告为准",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "mid"
+  "address": "广西壮族自治区桂林市阳朔县月亮山景区",
+  "district": "阳朔县",
+  "transportTip": "阳朔县城骑车或租车往南，沿十里画廊到景区"
+ },
+ "practical": {
+  "openHours": "约8:00-17:30，以景区公告为准",
+  "openHoursRef": 0,
+  "ticket": "中等，以景区公告为准",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Moon_Hill_-_Yangshuo%2C_China.jpg/1280px-Moon_Hill_-_Yangshuo%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Moon_Hill_-_Yangshuo%2C_China.jpg/1280px-Moon_Hill_-_Yangshuo%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Moon Hill - Yangshuo, China.jpg",
+   "query": "月亮山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Maria Ly",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moon_Hill_-_Yangshuo,_China.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "friends"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/%E6%9C%88%E4%BA%AE%E5%B1%B1%2C_%E9%98%B3%E6%9C%94%2C_%E4%B8%AD%E5%9B%BD_%285238095116%29.jpg/1280px-%E6%9C%88%E4%BA%AE%E5%B1%B1%2C_%E9%98%B3%E6%9C%94%2C_%E4%B8%AD%E5%9B%BD_%285238095116%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/%E6%9C%88%E4%BA%AE%E5%B1%B1%2C_%E9%98%B3%E6%9C%94%2C_%E4%B8%AD%E5%9B%BD_%285238095116%29.jpg/1280px-%E6%9C%88%E4%BA%AE%E5%B1%B1%2C_%E9%98%B3%E6%9C%94%2C_%E4%B8%AD%E5%9B%BD_%285238095116%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1618,
+   "alt": "月亮山, 阳朔, 中国 (5238095116).jpg",
+   "query": "月亮山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "yeowatzup",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%9C%88%E4%BA%AE%E5%B1%B1,_%E9%98%B3%E6%9C%94,_%E4%B8%AD%E5%9B%BD_(5238095116).jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "透空月洞",
+  "十里画廊",
+  "爬"
+ ],
+ "popularity": 72,
+ "sources": [
+  {
+   "title": "百度百科·月亮山",
+   "url": "https://baike.baidu.com/item/%E9%98%B3%E6%9C%94%E6%9C%88%E4%BA%AE%E5%B1%B1",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "月亮山"
+ },
+ "_geocodeTitle": "月亮山景区",
+ "_geocodeSuspect": false,
+ "district": "450321",
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "视角",
+    "score": 4.5,
+    "note": "沿公路绕过去，那个洞从圆月变半月再变月牙"
+   },
+   {
+    "label": "体力",
+    "score": 2.5,
+    "note": "上山石阶八百多级，来回一个多小时"
+   },
+   {
+    "label": "内容",
+    "score": 2.5,
+    "note": "就一个透空月洞，没有别的可看"
+   },
+   {
+    "label": "性价比",
+    "score": 3.0,
+    "note": "单点收票，内容偏单薄"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Moon_Hill_-_Yangshuo%2C_China.jpg/1280px-Moon_Hill_-_Yangshuo%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Moon_Hill_-_Yangshuo%2C_China.jpg/1280px-Moon_Hill_-_Yangshuo%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Moon Hill - Yangshuo, China.jpg",
-      "query": "月亮山",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Maria Ly",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moon_Hill_-_Yangshuo,_China.jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/%E6%9C%88%E4%BA%AE%E5%B1%B1%2C_%E9%98%B3%E6%9C%94%2C_%E4%B8%AD%E5%9B%BD_%285238095116%29.jpg/1280px-%E6%9C%88%E4%BA%AE%E5%B1%B1%2C_%E9%98%B3%E6%9C%94%2C_%E4%B8%AD%E5%9B%BD_%285238095116%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/%E6%9C%88%E4%BA%AE%E5%B1%B1%2C_%E9%98%B3%E6%9C%94%2C_%E4%B8%AD%E5%9B%BD_%285238095116%29.jpg/1280px-%E6%9C%88%E4%BA%AE%E5%B1%B1%2C_%E9%98%B3%E6%9C%94%2C_%E4%B8%AD%E5%9B%BD_%285238095116%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1618,
-      "alt": "月亮山, 阳朔, 中国 (5238095116).jpg",
-      "query": "月亮山",
-      "credit": {
-        "source": "wikimedia",
-        "author": "yeowatzup",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%9C%88%E4%BA%AE%E5%B1%B1,_%E9%98%B3%E6%9C%94,_%E4%B8%AD%E5%9B%BD_(5238095116).jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    }
+  "body": "月亮山在十里画廊南段，山顶穿了个透空的洞，远看像一轮月亮挂在山上。最有意思的是它的形状会变——沿公路绕过去，洞从圆月变半月再变月牙，那一段路本身就是一个月亮周期，所以骑车路过比爬到跟前更值。缺点是内容单薄：山上就是那一个洞，石阶八百多级、来回一个多小时，体力一般的人爬上去会觉得不太划算；单点还要收票，建议把它当骑行途中的一站而不是专门的目的地。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "骑行顺路",
+   "拍照"
   ],
-  "coverIndex": 0,
-  "tags": [
-    "透空月洞",
-    "十里画廊",
-    "爬"
+  "avoid": [
+   "体力有限",
+   "专程前往"
   ],
-  "popularity": 72,
-  "sources": [
-    {
-      "title": "百度百科·月亮山",
-      "url": "https://baike.baidu.com/item/%E9%98%B3%E6%9C%94%E6%9C%88%E4%BA%AE%E5%B1%B1",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "月亮山"
-  },
-  "_geocodeTitle": "月亮山景区",
-  "_geocodeSuspect": false,
-  "district": "450321"
+  "sources": []
+ }
 }

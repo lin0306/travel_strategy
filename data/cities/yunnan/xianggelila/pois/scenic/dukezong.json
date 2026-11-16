@@ -1,158 +1,195 @@
 {
-  "id": "dukezong",
-  "name": "独克宗古城",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "月光古城，石板路和大龟山上的大转经筒。",
-  "description": "独克宗在香格里拉市区里，是一座有千年历史的藏式古城。月光广场边的大龟山上，立着一座世界最大的转经筒，要几个人一起才能推动。石板路顺着地势铺，两边是藏式老屋改的店铺和客栈。夜里灯亮起来，古城有一种安静的热闹。它曾经在火灾后重修，格局还是旧的。随便走走就能消磨半天。",
-  "highlights": [
-    "千年藏式古城",
-    "大龟山上的巨型转经筒",
-    "夜里灯光很耐看"
-  ],
-  "location": {
-    "point": {
-      "lng": 99.704421,
-      "lat": 27.804053,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "迪庆藏族自治州香格里拉市建塘镇独克宗古城",
-    "district": "香格里拉",
-    "transportTip": "市区步行或打车可达"
+ "id": "dukezong",
+ "name": "独克宗古城",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "月光古城，石板路和大龟山上的大转经筒。",
+ "description": "独克宗在香格里拉市区里，是一座有千年历史的藏式古城。月光广场边的大龟山上，立着一座世界最大的转经筒，要几个人一起才能推动。石板路顺着地势铺，两边是藏式老屋改的店铺和客栈。夜里灯亮起来，古城有一种安静的热闹。它曾经在火灾后重修，格局还是旧的。随便走走就能消磨半天。",
+ "highlights": [
+  "千年藏式古城",
+  "大龟山上的巨型转经筒",
+  "夜里灯光很耐看"
+ ],
+ "location": {
+  "point": {
+   "lng": 99.704421,
+   "lat": 27.804053,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放（店铺多为 09:00-22:00）",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 120-240 分钟",
-    "durationMinutes": [
-      120,
-      240
-    ],
-    "priceLevel": "free"
+  "address": "迪庆藏族自治州香格里拉市建塘镇独克宗古城",
+  "district": "香格里拉",
+  "transportTip": "市区步行或打车可达"
+ },
+ "practical": {
+  "openHours": "全天开放（店铺多为 09:00-22:00）",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 120-240 分钟",
+  "durationMinutes": [
+   120,
+   240
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/%E4%B8%AD%E7%94%B8_%E7%BB%8F%E5%B9%A1%E4%B8%8B%E7%9A%84%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E_-_panoramio.jpg/1280px-%E4%B8%AD%E7%94%B8_%E7%BB%8F%E5%B9%A1%E4%B8%8B%E7%9A%84%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/%E4%B8%AD%E7%94%B8_%E7%BB%8F%E5%B9%A1%E4%B8%8B%E7%9A%84%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E_-_panoramio.jpg/1280px-%E4%B8%AD%E7%94%B8_%E7%BB%8F%E5%B9%A1%E4%B8%8B%E7%9A%84%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "中甸 经幡下的独克宗古城 - panoramio.jpg",
+   "query": "独克宗古城",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Aaron Zhu",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E7%94%B8_%E7%BB%8F%E5%B9%A1%E4%B8%8B%E7%9A%84%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "friends",
-    "family"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/%E4%B8%AD%E7%94%B8_%E7%BB%8F%E5%B9%A1%E4%B8%8B%E7%9A%84%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E_-_panoramio.jpg/1280px-%E4%B8%AD%E7%94%B8_%E7%BB%8F%E5%B9%A1%E4%B8%8B%E7%9A%84%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/%E4%B8%AD%E7%94%B8_%E7%BB%8F%E5%B9%A1%E4%B8%8B%E7%9A%84%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E_-_panoramio.jpg/1280px-%E4%B8%AD%E7%94%B8_%E7%BB%8F%E5%B9%A1%E4%B8%8B%E7%9A%84%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "中甸 经幡下的独克宗古城 - panoramio.jpg",
-      "query": "独克宗古城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Aaron Zhu",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E7%94%B8_%E7%BB%8F%E5%B9%A1%E4%B8%8B%E7%9A%84%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/%E4%B8%AD%E7%94%B8_%E8%80%81%E5%9F%8E_-_%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E_%E8%A1%97%E9%81%93_-_panoramio.jpg/1280px-%E4%B8%AD%E7%94%B8_%E8%80%81%E5%9F%8E_-_%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E_%E8%A1%97%E9%81%93_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/%E4%B8%AD%E7%94%B8_%E8%80%81%E5%9F%8E_-_%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E_%E8%A1%97%E9%81%93_-_panoramio.jpg/1280px-%E4%B8%AD%E7%94%B8_%E8%80%81%E5%9F%8E_-_%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E_%E8%A1%97%E9%81%93_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "中甸 老城 - 独克宗古城 街道 - panoramio.jpg",
-      "query": "独克宗古城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Aaron Zhu",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E7%94%B8_%E8%80%81%E5%9F%8E_-_%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E_%E8%A1%97%E9%81%93_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/%E4%B8%AD%E7%94%B8%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E%E4%BD%9B%E5%A1%94_-_panoramio.jpg/1280px-%E4%B8%AD%E7%94%B8%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E%E4%BD%9B%E5%A1%94_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/%E4%B8%AD%E7%94%B8%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E%E4%BD%9B%E5%A1%94_-_panoramio.jpg/1280px-%E4%B8%AD%E7%94%B8%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E%E4%BD%9B%E5%A1%94_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 783,
-      "alt": "中甸独克宗古城佛塔 - panoramio.jpg",
-      "query": "独克宗古城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Aaron Zhu",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E7%94%B8%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E%E4%BD%9B%E5%A1%94_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E1.JPG/1280px-%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E1.JPG/1280px-%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "云南香格里拉独克宗古城1.JPG",
-      "query": "独克宗古城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "蒋亦炯",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E1.JPG",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E2.JPG/1280px-%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E2.JPG/1280px-%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "云南香格里拉独克宗古城2.JPG",
-      "query": "独克宗古城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "蒋亦炯",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E2.JPG",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E3.JPG/1280px-%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E3.JPG/1280px-%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1515,
-      "alt": "云南香格里拉独克宗古城3.JPG",
-      "query": "独克宗古城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "蒋亦炯",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E3.JPG",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "古城",
-    "藏式",
-    "转经筒"
-  ],
-  "popularity": 95,
-  "sources": [
-    {
-      "title": "百度百科·独克宗古城",
-      "url": "https://baike.baidu.com/item/%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-06"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "独克宗古城"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/%E4%B8%AD%E7%94%B8_%E8%80%81%E5%9F%8E_-_%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E_%E8%A1%97%E9%81%93_-_panoramio.jpg/1280px-%E4%B8%AD%E7%94%B8_%E8%80%81%E5%9F%8E_-_%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E_%E8%A1%97%E9%81%93_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/%E4%B8%AD%E7%94%B8_%E8%80%81%E5%9F%8E_-_%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E_%E8%A1%97%E9%81%93_-_panoramio.jpg/1280px-%E4%B8%AD%E7%94%B8_%E8%80%81%E5%9F%8E_-_%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E_%E8%A1%97%E9%81%93_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "中甸 老城 - 独克宗古城 街道 - panoramio.jpg",
+   "query": "独克宗古城",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Aaron Zhu",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E7%94%B8_%E8%80%81%E5%9F%8E_-_%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E_%E8%A1%97%E9%81%93_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "香格里拉市独克宗古城",
-  "_geocodeSuspect": false,
-  "district": "533401"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/%E4%B8%AD%E7%94%B8%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E%E4%BD%9B%E5%A1%94_-_panoramio.jpg/1280px-%E4%B8%AD%E7%94%B8%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E%E4%BD%9B%E5%A1%94_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/%E4%B8%AD%E7%94%B8%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E%E4%BD%9B%E5%A1%94_-_panoramio.jpg/1280px-%E4%B8%AD%E7%94%B8%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E%E4%BD%9B%E5%A1%94_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 783,
+   "alt": "中甸独克宗古城佛塔 - panoramio.jpg",
+   "query": "独克宗古城",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Aaron Zhu",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E7%94%B8%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E%E4%BD%9B%E5%A1%94_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E1.JPG/1280px-%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E1.JPG/1280px-%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "云南香格里拉独克宗古城1.JPG",
+   "query": "独克宗古城",
+   "credit": {
+    "source": "wikimedia",
+    "author": "蒋亦炯",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E1.JPG",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E2.JPG/1280px-%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E2.JPG/1280px-%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "云南香格里拉独克宗古城2.JPG",
+   "query": "独克宗古城",
+   "credit": {
+    "source": "wikimedia",
+    "author": "蒋亦炯",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E2.JPG",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E3.JPG/1280px-%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E3.JPG/1280px-%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1515,
+   "alt": "云南香格里拉独克宗古城3.JPG",
+   "query": "独克宗古城",
+   "credit": {
+    "source": "wikimedia",
+    "author": "蒋亦炯",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E3.JPG",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "古城",
+  "藏式",
+  "转经筒"
+ ],
+ "popularity": 95,
+ "sources": [
+  {
+   "title": "百度百科·独克宗古城",
+   "url": "https://baike.baidu.com/item/%E7%8B%AC%E5%85%8B%E5%AE%97%E5%8F%A4%E5%9F%8E",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-06"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "独克宗古城"
+ },
+ "_geocodeTitle": "香格里拉市独克宗古城",
+ "_geocodeSuspect": false,
+ "district": "533401",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "氛围",
+    "score": 4.3,
+    "note": "夜里灯亮起来，安静里带热闹"
+   },
+   {
+    "label": "商业化",
+    "score": 2.8,
+    "note": "石板街两侧多是客栈与纪念品店"
+   },
+   {
+    "label": "地标",
+    "score": 4.2,
+    "note": "大龟山上的巨型转经筒要几人合力"
+   },
+   {
+    "label": "海拔",
+    "score": 3.0,
+    "note": "上坡走快了会喘"
+   }
+  ],
+  "body": "到香格里拉当晚就该来走一圈。石板路顺着地势铺，大龟山上那座巨型转经筒要几个人一起才推得动，夜里灯一亮，安静和热闹同时在。缺点是它经历过火灾后重修，老屋的成色打了折扣，主街两侧的业态基本是客栈与纪念品店，商业化痕迹明显；海拔不低，上坡别走太快。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "落地散步",
+   "看夜景"
+  ],
+  "avoid": [
+   "想找原生态古村"
+  ],
+  "sources": []
+ }
 }

@@ -1,159 +1,197 @@
 {
-  "id": "dazu-rock-carvings",
-  "name": "大足石刻",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "宋代石窟艺术的巅峰之作，世界文化遗产，宝顶山与北山两处最为集中。",
-  "description": "大足石刻开凿于晚唐至南宋，是大足区境内所有石窟造像的总称，其中宝顶山与北山最负盛名。宝顶山由宋代僧人赵智凤历时七十余年主持营建，上千尊造像沿着马蹄形崖壁展开，把佛教教义编排成连环画式的叙事群雕；北山则以晚唐五代的精美观音像著称，造像面容温润、衣纹细腻，被称为“中国石窟艺术史上的最后一座丰碑”。与云冈、龙门偏重皇家气度不同，大足石刻带着鲜明的世俗气息，父母恩重经变、牧牛图等题材讲的都是人间事，看得出宋代佛教走向民间的过程。",
-  "highlights": [
-    "世界文化遗产，宋代石窟艺术的收官之作",
-    "宝顶山千手观音历经八年修复，金箔贴装",
-    "造像世俗化，题材贴近人间烟火"
-  ],
-  "location": {
-    "point": {
-      "lng": 105.712443,
-      "lat": 29.703436,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "重庆市大足区宝顶镇",
-    "district": "大足",
-    "transportTip": "主城自驾约 1.5 小时；也可在重庆北站乘高铁至大足南站再转车"
+ "id": "dazu-rock-carvings",
+ "name": "大足石刻",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "宋代石窟艺术的巅峰之作，世界文化遗产，宝顶山与北山两处最为集中。",
+ "description": "大足石刻开凿于晚唐至南宋，是大足区境内所有石窟造像的总称，其中宝顶山与北山最负盛名。宝顶山由宋代僧人赵智凤历时七十余年主持营建，上千尊造像沿着马蹄形崖壁展开，把佛教教义编排成连环画式的叙事群雕；北山则以晚唐五代的精美观音像著称，造像面容温润、衣纹细腻，被称为“中国石窟艺术史上的最后一座丰碑”。与云冈、龙门偏重皇家气度不同，大足石刻带着鲜明的世俗气息，父母恩重经变、牧牛图等题材讲的都是人间事，看得出宋代佛教走向民间的过程。",
+ "highlights": [
+  "世界文化遗产，宋代石窟艺术的收官之作",
+  "宝顶山千手观音历经八年修复，金箔贴装",
+  "造像世俗化，题材贴近人间烟火"
+ ],
+ "location": {
+  "point": {
+   "lng": 105.712443,
+   "lat": 29.703436,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 08:30-17:30（旺季略有延长，以官方公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约 115 元起（宝顶山+北山联票，淡旺季有浮动，以官方为准）",
-    "ticketRef": 0,
-    "duration": "建议 150-210 分钟",
-    "durationMinutes": [
-      150,
-      210
-    ],
-    "priceLevel": "mid"
+  "address": "重庆市大足区宝顶镇",
+  "district": "大足",
+  "transportTip": "主城自驾约 1.5 小时；也可在重庆北站乘高铁至大足南站再转车"
+ },
+ "practical": {
+  "openHours": "约 08:30-17:30（旺季略有延长，以官方公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约 115 元起（宝顶山+北山联票，淡旺季有浮动，以官方为准）",
+  "ticketRef": 0,
+  "duration": "建议 150-210 分钟",
+  "durationMinutes": [
+   150,
+   210
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "kids",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Dazu%2C_Chongqing%2C_China_-_panoramio_%2811%29.jpg/1280px-Dazu%2C_Chongqing%2C_China_-_panoramio_%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Dazu%2C_Chongqing%2C_China_-_panoramio_%2811%29.jpg/1280px-Dazu%2C_Chongqing%2C_China_-_panoramio_%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Dazu, Chongqing, China - panoramio (11).jpg",
+   "query": "大足石刻 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "jt Guan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dazu,_Chongqing,_China_-_panoramio_(11).jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "kids",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Dazu%2C_Chongqing%2C_China_-_panoramio_%2811%29.jpg/1280px-Dazu%2C_Chongqing%2C_China_-_panoramio_%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Dazu%2C_Chongqing%2C_China_-_panoramio_%2811%29.jpg/1280px-Dazu%2C_Chongqing%2C_China_-_panoramio_%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Dazu, Chongqing, China - panoramio (11).jpg",
-      "query": "大足石刻 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "jt Guan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dazu,_Chongqing,_China_-_panoramio_(11).jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Bao_Ding_Mountain_grotto_Buddha.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Bao_Ding_Mountain_grotto_Buddha.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1633,
-      "alt": "Bao Ding Mountain grotto Buddha.JPG",
-      "query": "大足石刻 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Gisling",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bao_Ding_Mountain_grotto_Buddha.JPG",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Dazu%2C_Chongqing%2C_China_-_panoramio.jpg/1280px-Dazu%2C_Chongqing%2C_China_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Dazu%2C_Chongqing%2C_China_-_panoramio.jpg/1280px-Dazu%2C_Chongqing%2C_China_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Dazu, Chongqing, China - panoramio.jpg",
-      "query": "大足石刻 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "jt Guan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dazu,_Chongqing,_China_-_panoramio.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Dazu%2C_Chongqing%2C_China_-_panoramio_%281%29.jpg/1280px-Dazu%2C_Chongqing%2C_China_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Dazu%2C_Chongqing%2C_China_-_panoramio_%281%29.jpg/1280px-Dazu%2C_Chongqing%2C_China_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Dazu, Chongqing, China - panoramio (1).jpg",
-      "query": "大足石刻 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "jt Guan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dazu,_Chongqing,_China_-_panoramio_(1).jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Dazu%2C_Chongqing%2C_China_-_panoramio_%2810%29.jpg/1280px-Dazu%2C_Chongqing%2C_China_-_panoramio_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Dazu%2C_Chongqing%2C_China_-_panoramio_%2810%29.jpg/1280px-Dazu%2C_Chongqing%2C_China_-_panoramio_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Dazu, Chongqing, China - panoramio (10).jpg",
-      "query": "大足石刻 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "jt Guan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dazu,_Chongqing,_China_-_panoramio_(10).jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Dazu%2C_Chongqing%2C_China_-_panoramio_%282%29.jpg/1280px-Dazu%2C_Chongqing%2C_China_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Dazu%2C_Chongqing%2C_China_-_panoramio_%282%29.jpg/1280px-Dazu%2C_Chongqing%2C_China_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Dazu, Chongqing, China - panoramio (2).jpg",
-      "query": "大足石刻 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "jt Guan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dazu,_Chongqing,_China_-_panoramio_(2).jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "世界遗产",
-    "石窟",
-    "宋代",
-    "佛教艺术"
-  ],
-  "popularity": 95,
-  "sources": [
-    {
-      "title": "百度百科·大足石刻",
-      "url": "https://baike.baidu.com/item/%E5%A4%A7%E8%B6%B3%E7%9F%B3%E5%88%BB",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "大足石刻"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Bao_Ding_Mountain_grotto_Buddha.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Bao_Ding_Mountain_grotto_Buddha.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 1633,
+   "alt": "Bao Ding Mountain grotto Buddha.JPG",
+   "query": "大足石刻 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Gisling",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bao_Ding_Mountain_grotto_Buddha.JPG",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "大足石刻研究院",
-  "_geocodeSuspect": false,
-  "district": "500111"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Dazu%2C_Chongqing%2C_China_-_panoramio.jpg/1280px-Dazu%2C_Chongqing%2C_China_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Dazu%2C_Chongqing%2C_China_-_panoramio.jpg/1280px-Dazu%2C_Chongqing%2C_China_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Dazu, Chongqing, China - panoramio.jpg",
+   "query": "大足石刻 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "jt Guan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dazu,_Chongqing,_China_-_panoramio.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Dazu%2C_Chongqing%2C_China_-_panoramio_%281%29.jpg/1280px-Dazu%2C_Chongqing%2C_China_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Dazu%2C_Chongqing%2C_China_-_panoramio_%281%29.jpg/1280px-Dazu%2C_Chongqing%2C_China_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Dazu, Chongqing, China - panoramio (1).jpg",
+   "query": "大足石刻 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "jt Guan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dazu,_Chongqing,_China_-_panoramio_(1).jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Dazu%2C_Chongqing%2C_China_-_panoramio_%2810%29.jpg/1280px-Dazu%2C_Chongqing%2C_China_-_panoramio_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Dazu%2C_Chongqing%2C_China_-_panoramio_%2810%29.jpg/1280px-Dazu%2C_Chongqing%2C_China_-_panoramio_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Dazu, Chongqing, China - panoramio (10).jpg",
+   "query": "大足石刻 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "jt Guan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dazu,_Chongqing,_China_-_panoramio_(10).jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Dazu%2C_Chongqing%2C_China_-_panoramio_%282%29.jpg/1280px-Dazu%2C_Chongqing%2C_China_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Dazu%2C_Chongqing%2C_China_-_panoramio_%282%29.jpg/1280px-Dazu%2C_Chongqing%2C_China_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Dazu, Chongqing, China - panoramio (2).jpg",
+   "query": "大足石刻 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "jt Guan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dazu,_Chongqing,_China_-_panoramio_(2).jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "世界遗产",
+  "石窟",
+  "宋代",
+  "佛教艺术"
+ ],
+ "popularity": 95,
+ "sources": [
+  {
+   "title": "百度百科·大足石刻",
+   "url": "https://baike.baidu.com/item/%E5%A4%A7%E8%B6%B3%E7%9F%B3%E5%88%BB",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "大足石刻"
+ },
+ "_geocodeTitle": "大足石刻研究院",
+ "_geocodeSuspect": false,
+ "district": "500111",
+ "review": {
+  "score": 4.6,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "艺术",
+    "score": 4.8,
+    "note": "宋代石窟的收官之作，世俗题材多"
+   },
+   {
+    "label": "讲解",
+    "score": 4.0,
+    "note": "造像多是经变故事，不听讲解只看热闹"
+   },
+   {
+    "label": "交通",
+    "score": 3.4,
+    "note": "宝顶山与北山两处隔得远，要算车程"
+   },
+   {
+    "label": "门票",
+    "score": 3.3,
+    "note": "联票价格不低，淡旺季还有浮动"
+   }
+  ],
+  "body": "宋代石窟的收官之作，宝顶山上千尊造像沿马蹄形崖壁铺开，把佛经编成连环画式的群雕；北山的晚唐五代观音面容温润，衣纹细得能看出刀法。它比云冈龙门更世俗，牧牛图、父母恩重经变讲的都是人间事。缺点是宝顶山与北山隔得远，一天跑两处要算好车程；不听讲解容易只看个热闹，联票也不算便宜。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "石窟爱好者",
+   "留一整天"
+  ],
+  "avoid": [
+   "只留两小时",
+   "不看讲解"
+  ],
+  "sources": []
+ }
 }

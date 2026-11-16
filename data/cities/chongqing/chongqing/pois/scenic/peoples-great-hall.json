@@ -1,158 +1,195 @@
 {
-  "id": "peoples-great-hall",
-  "name": "重庆人民大礼堂",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "仿天坛形制的穹顶礼堂，1950 年代的地标建筑，与三峡博物馆隔广场相对。",
-  "description": "人民大礼堂建于 1951 年，由张家德主持设计，主体是一座三重檐的圆形穹顶建筑，形制上参照了北京天坛祈年殿，又融入了明清宫殿的手法，是新中国早期大型公共建筑里辨识度很高的一座。礼堂正面是宽阔的台阶与广场，晚上有灯光，很多市民在此散步、跳广场舞。它与对面的中国三峡博物馆构成一组对景，两处通常安排在一起看。内部可购票参观。",
-  "highlights": [
-    "仿天坛形制的三重檐穹顶",
-    "1950 年代大型公共建筑的代表",
-    "与三峡博物馆隔广场对望"
-  ],
-  "location": {
-    "point": {
-      "lng": 106.553842,
-      "lat": 29.561557,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "重庆市渝中区人民路",
-    "district": "渝中",
-    "transportTip": "轨道交通 2 号线曾家岩站，步行约 8 分钟"
+ "id": "peoples-great-hall",
+ "name": "重庆人民大礼堂",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "仿天坛形制的穹顶礼堂，1950 年代的地标建筑，与三峡博物馆隔广场相对。",
+ "description": "人民大礼堂建于 1951 年，由张家德主持设计，主体是一座三重檐的圆形穹顶建筑，形制上参照了北京天坛祈年殿，又融入了明清宫殿的手法，是新中国早期大型公共建筑里辨识度很高的一座。礼堂正面是宽阔的台阶与广场，晚上有灯光，很多市民在此散步、跳广场舞。它与对面的中国三峡博物馆构成一组对景，两处通常安排在一起看。内部可购票参观。",
+ "highlights": [
+  "仿天坛形制的三重檐穹顶",
+  "1950 年代大型公共建筑的代表",
+  "与三峡博物馆隔广场对望"
+ ],
+ "location": {
+  "point": {
+   "lng": 106.553842,
+   "lat": 29.561557,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 08:00-18:00（内部参观以官方公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约 10 元起（内部参观，以官方为准）",
-    "ticketRef": 0,
-    "duration": "建议 45-90 分钟",
-    "durationMinutes": [
-      45,
-      90
-    ],
-    "priceLevel": "budget"
+  "address": "重庆市渝中区人民路",
+  "district": "渝中",
+  "transportTip": "轨道交通 2 号线曾家岩站，步行约 8 分钟"
+ },
+ "practical": {
+  "openHours": "约 08:00-18:00（内部参观以官方公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约 10 元起（内部参观，以官方为准）",
+  "ticketRef": 0,
+  "duration": "建议 45-90 分钟",
+  "durationMinutes": [
+   45,
+   90
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "kids",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Chongqing_Great_Hall_of_the_People_20240721.jpg/1280px-Chongqing_Great_Hall_of_the_People_20240721.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Chongqing_Great_Hall_of_the_People_20240721.jpg/1280px-Chongqing_Great_Hall_of_the_People_20240721.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Chongqing Great Hall of the People 20240721.jpg",
+   "query": "重庆人民大礼堂 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "HoweyYuan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chongqing_Great_Hall_of_the_People_20240721.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "kids",
-    "couple"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Chongqing_Great_Hall_of_the_People_20240721.jpg/1280px-Chongqing_Great_Hall_of_the_People_20240721.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Chongqing_Great_Hall_of_the_People_20240721.jpg/1280px-Chongqing_Great_Hall_of_the_People_20240721.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Chongqing Great Hall of the People 20240721.jpg",
-      "query": "重庆人民大礼堂 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "HoweyYuan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chongqing_Great_Hall_of_the_People_20240721.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Chongqing_Great_Hall_of_the_People_20240721_135702.jpg/1280px-Chongqing_Great_Hall_of_the_People_20240721_135702.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Chongqing_Great_Hall_of_the_People_20240721_135702.jpg/1280px-Chongqing_Great_Hall_of_the_People_20240721_135702.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 542,
-      "alt": "Chongqing Great Hall of the People 20240721 135702.jpg",
-      "query": "重庆人民大礼堂 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "HoweyYuan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chongqing_Great_Hall_of_the_People_20240721_135702.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Chongqing_Great_Hall_of_the_People_20240721_135702_%282%29.jpg/1280px-Chongqing_Great_Hall_of_the_People_20240721_135702_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Chongqing_Great_Hall_of_the_People_20240721_135702_%282%29.jpg/1280px-Chongqing_Great_Hall_of_the_People_20240721_135702_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 628,
-      "alt": "Chongqing Great Hall of the People 20240721 135702 (2).jpg",
-      "query": "重庆人民大礼堂 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "HoweyYuan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chongqing_Great_Hall_of_the_People_20240721_135702_(2).jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Chongqing_Renmin_Dalitang_2014.04.21_11-13-06.jpg/1280px-Chongqing_Renmin_Dalitang_2014.04.21_11-13-06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Chongqing_Renmin_Dalitang_2014.04.21_11-13-06.jpg/1280px-Chongqing_Renmin_Dalitang_2014.04.21_11-13-06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Chongqing Renmin Dalitang 2014.04.21 11-13-06.jpg",
-      "query": "重庆人民大礼堂 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangzhugang",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chongqing_Renmin_Dalitang_2014.04.21_11-13-06.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Great_Hall_of_the_People%2C_Chongqing.JPG/1280px-Great_Hall_of_the_People%2C_Chongqing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Great_Hall_of_the_People%2C_Chongqing.JPG/1280px-Great_Hall_of_the_People%2C_Chongqing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Great Hall of the People, Chongqing.JPG",
-      "query": "重庆人民大礼堂 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Jpbowen",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Hall_of_the_People,_Chongqing.JPG",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Chongqing_Great_Hall_of_the_People_2017.jpg/1280px-Chongqing_Great_Hall_of_the_People_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Chongqing_Great_Hall_of_the_People_2017.jpg/1280px-Chongqing_Great_Hall_of_the_People_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Chongqing Great Hall of the People 2017.jpg",
-      "query": "重庆人民大礼堂 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "flyerletian",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chongqing_Great_Hall_of_the_People_2017.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "地标",
-    "近代建筑",
-    "广场",
-    "对景"
-  ],
-  "popularity": 74,
-  "sources": [
-    {
-      "title": "百度百科·重庆人民大礼堂",
-      "url": "https://baike.baidu.com/item/%E9%87%8D%E5%BA%86%E4%BA%BA%E6%B0%91%E5%A4%A7%E7%A4%BC%E5%A0%82",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "重庆人民大礼堂"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Chongqing_Great_Hall_of_the_People_20240721_135702.jpg/1280px-Chongqing_Great_Hall_of_the_People_20240721_135702.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Chongqing_Great_Hall_of_the_People_20240721_135702.jpg/1280px-Chongqing_Great_Hall_of_the_People_20240721_135702.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 542,
+   "alt": "Chongqing Great Hall of the People 20240721 135702.jpg",
+   "query": "重庆人民大礼堂 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "HoweyYuan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chongqing_Great_Hall_of_the_People_20240721_135702.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "重庆市人民大礼堂",
-  "_geocodeSuspect": false,
-  "district": "500103"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Chongqing_Great_Hall_of_the_People_20240721_135702_%282%29.jpg/1280px-Chongqing_Great_Hall_of_the_People_20240721_135702_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Chongqing_Great_Hall_of_the_People_20240721_135702_%282%29.jpg/1280px-Chongqing_Great_Hall_of_the_People_20240721_135702_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 628,
+   "alt": "Chongqing Great Hall of the People 20240721 135702 (2).jpg",
+   "query": "重庆人民大礼堂 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "HoweyYuan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chongqing_Great_Hall_of_the_People_20240721_135702_(2).jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Chongqing_Renmin_Dalitang_2014.04.21_11-13-06.jpg/1280px-Chongqing_Renmin_Dalitang_2014.04.21_11-13-06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Chongqing_Renmin_Dalitang_2014.04.21_11-13-06.jpg/1280px-Chongqing_Renmin_Dalitang_2014.04.21_11-13-06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Chongqing Renmin Dalitang 2014.04.21 11-13-06.jpg",
+   "query": "重庆人民大礼堂 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chongqing_Renmin_Dalitang_2014.04.21_11-13-06.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Great_Hall_of_the_People%2C_Chongqing.JPG/1280px-Great_Hall_of_the_People%2C_Chongqing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Great_Hall_of_the_People%2C_Chongqing.JPG/1280px-Great_Hall_of_the_People%2C_Chongqing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Great Hall of the People, Chongqing.JPG",
+   "query": "重庆人民大礼堂 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Jpbowen",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Hall_of_the_People,_Chongqing.JPG",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Chongqing_Great_Hall_of_the_People_2017.jpg/1280px-Chongqing_Great_Hall_of_the_People_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Chongqing_Great_Hall_of_the_People_2017.jpg/1280px-Chongqing_Great_Hall_of_the_People_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Chongqing Great Hall of the People 2017.jpg",
+   "query": "重庆人民大礼堂 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "flyerletian",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chongqing_Great_Hall_of_the_People_2017.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "地标",
+  "近代建筑",
+  "广场",
+  "对景"
+ ],
+ "popularity": 74,
+ "sources": [
+  {
+   "title": "百度百科·重庆人民大礼堂",
+   "url": "https://baike.baidu.com/item/%E9%87%8D%E5%BA%86%E4%BA%BA%E6%B0%91%E5%A4%A7%E7%A4%BC%E5%A0%82",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "重庆人民大礼堂"
+ },
+ "_geocodeTitle": "重庆市人民大礼堂",
+ "_geocodeSuspect": false,
+ "district": "500103",
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "建筑",
+    "score": 4.6,
+    "note": "三重檐圆穹顶，仿天坛形制"
+   },
+   {
+    "label": "夜景",
+    "score": 4.2,
+    "note": "亮灯后与广场一起好看"
+   },
+   {
+    "label": "内部",
+    "score": 3.4,
+    "note": "可看厅室不多，要另买票"
+   },
+   {
+    "label": "性价比",
+    "score": 4.0,
+    "note": "外观免费看"
+   }
+  ],
+  "body": "人民大礼堂是新中国早期大型公共建筑里辨识度很高的一座，三重檐圆穹顶参照天坛祈年殿又掺了明清宫殿手法，站在广场上看气势很足；晚上亮灯后市民散步跳舞，跟对面的三峡博物馆构成一组对景，两处连着看最顺。不足是内部参观要单独买票，能进的厅室其实不多，多数人拍完外观就够了；广场人多，想拍空镜得赶早。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "看建筑",
+   "拍夜景"
+  ],
+  "avoid": [
+   "只想看展陈"
+  ],
+  "sources": []
+ }
 }

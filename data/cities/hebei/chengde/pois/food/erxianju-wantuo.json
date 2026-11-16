@@ -16,7 +16,7 @@
       "lat": 40.977735,
       "coordSystem": "GCJ-02"
     },
-    "address": "河北省承德市双桥区二仙居碗坨店",
+    "address": "河北省承德市双桥区二仙居大街（东、西街与二仙居夜市摊位集中）",
     "district": "双桥区",
     "transportTip": "市区步行到二仙居"
   },
@@ -52,9 +52,15 @@
       "url": "https://baike.baidu.com/item/%E7%A2%97%E5%9D%A8",
       "kind": "wiki",
       "fetchedAt": "2026-10-01"
+    },
+    {
+      "title": "和合承德网：多元业态点亮承德夜经济（2026-08-03）",
+      "url": "https://m.hehechengde.cn/content/2026-08-03/281569.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -62,5 +68,59 @@
   },
   "_geocodeTitle": "二仙居(约饭街)",
   "district": "130802",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-14",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "河北省承德市双桥区二仙居碗坨店",
+        "new": "河北省承德市双桥区二仙居大街（东、西街与二仙居夜市摊位集中）"
+      }
+    ],
+    "source": "https://m.hehechengde.cn/content/2026-08-03/281569.html",
+    "reason": "和合承德网 2026-08-03：二仙居大街夜市煎碗坨摊位；原地址「二仙居碗坨店」是占位串"
+  },
+  "review": {
+    "score": 4.0,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "口味",
+        "score": 4.3,
+        "note": "荞面蒸坨再煎，浇麻酱蒜汁，酸辣筋道"
+      },
+      {
+        "label": "价格",
+        "score": 4.4,
+        "note": "几块钱一份，当零食垫肚子正好"
+      },
+      {
+        "label": "找店",
+        "score": 3.2,
+        "note": "二仙居一带摊子分散，门口不挂招牌的多"
+      },
+      {
+        "label": "环境",
+        "score": 3.3,
+        "note": "夜市摊位为主，坐下吃的地方少"
+      }
+    ],
+    "body": "碗坨是承德最该先尝的一口：荞面蒸成坨、切片下锅煎到边缘焦脆，再浇麻酱蒜汁，外酥内软，酸辣开胃，几块钱一份，边走边吃刚好。它不像正餐要占一顿，逛二仙居夜市顺手买一份最合适。缺点是摊位散在二仙居大街一带，门脸都不大、招牌也简陋，第一次去容易走过；不少摊子只在傍晚出摊，白天想找一份得碰运气，环境也就是街边小桌的水平。",
+    "basis": "web",
+    "at": "2026-11-14",
+    "fits": [
+      "尝本地小吃",
+      "夜逛",
+      "预算紧"
+    ],
+    "avoid": [
+      "想吃正餐",
+      "介意路边摊"
+    ],
+    "sources": [
+      "https://m.hehechengde.cn/content/2026-08-03/281569.html",
+      "https://www.he.news.cn/zfwq/chengde/2022-07/29/c_1120906625.htm"
+    ]
+  }
 }

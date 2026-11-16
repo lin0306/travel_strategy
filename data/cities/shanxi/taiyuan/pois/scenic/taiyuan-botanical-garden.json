@@ -1,73 +1,110 @@
 {
-  "id": "taiyuan-botanical-garden",
-  "name": "太原植物园",
-  "category": "scenic",
-  "subtype": "park",
-  "summary": "晋源的大型植物园，热带温室与沙生馆造型现代，是太原的新地标。",
-  "description": "太原植物园在晋源区太山脚下，占地广阔，园区按植物区系分区，有月季园、牡丹园、药用植物园等专类园。最惹眼的是几座造型现代的展览温室：热带雨林馆里棕榈高耸、瀑布飞落，沙生植物馆里仙人掌成列，木结构穹顶与玻璃幕墙在阳光下很上镜。园中步道平缓，骑行与步行都方便，温室里温暖湿润，冬天进门要先脱外套。傍晚穹顶亮灯，是很多人专程来拍的时刻。",
-  "highlights": [
-    "热带雨林温室与瀑布",
-    "沙生馆仙人掌成列",
-    "夜间穹顶亮灯"
-  ],
-  "location": {
-    "point": {
-      "lng": 112.467885,
-      "lat": 37.745826,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "山西省太原市晋源区晋源街道太原植物园",
-    "district": "晋源区",
-    "transportTip": "市区乘公交或自驾到太原植物园",
-    "entrance": {
-      "lng": 112.474512,
-      "lat": 37.747779,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "taiyuan-botanical-garden",
+ "name": "太原植物园",
+ "category": "scenic",
+ "subtype": "park",
+ "summary": "晋源的大型植物园，热带温室与沙生馆造型现代，是太原的新地标。",
+ "description": "太原植物园在晋源区太山脚下，占地广阔，园区按植物区系分区，有月季园、牡丹园、药用植物园等专类园。最惹眼的是几座造型现代的展览温室：热带雨林馆里棕榈高耸、瀑布飞落，沙生植物馆里仙人掌成列，木结构穹顶与玻璃幕墙在阳光下很上镜。园中步道平缓，骑行与步行都方便，温室里温暖湿润，冬天进门要先脱外套。傍晚穹顶亮灯，是很多人专程来拍的时刻。",
+ "highlights": [
+  "热带雨林温室与瀑布",
+  "沙生馆仙人掌成列",
+  "夜间穹顶亮灯"
+ ],
+ "location": {
+  "point": {
+   "lng": 112.467885,
+   "lat": 37.745826,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约09:00-18:00，旺季延长，以公告为准",
-    "openHoursRef": 0,
-    "ticket": "约50元起，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 150-270 分钟",
-    "durationMinutes": [
-      150,
-      270
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "kids",
-    "couple",
-    "family"
+  "address": "山西省太原市晋源区晋源街道太原植物园",
+  "district": "晋源区",
+  "transportTip": "市区乘公交或自驾到太原植物园",
+  "entrance": {
+   "lng": 112.474512,
+   "lat": 37.747779,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约09:00-18:00，旺季延长，以公告为准",
+  "openHoursRef": 0,
+  "ticket": "约50元起，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 150-270 分钟",
+  "durationMinutes": [
+   150,
+   270
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "植物园",
-    "温室",
-    "网红"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "kids",
+  "couple",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "植物园",
+  "温室",
+  "网红"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "太原植物园·百度百科",
+   "url": "https://baike.baidu.com/item/%E5%A4%AA%E5%8E%9F%E6%A4%8D%E7%89%A9%E5%9B%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Taiyuan Botanical Garden",
+  "zh": "太原植物园"
+ },
+ "_geocodeTitle": "太原植物园",
+ "_geocodeSuspect": false,
+ "district": "140110",
+ "_noImage": true,
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "展陈",
+    "score": 4.6,
+    "note": "几座木结构穹顶温室是重点"
+   },
+   {
+    "label": "拍照",
+    "score": 4.5,
+    "note": "傍晚穹顶亮灯最上镜"
+   },
+   {
+    "label": "人流",
+    "score": 3.0,
+    "note": "周末亲子客流集中"
+   },
+   {
+    "label": "步行量",
+    "score": 2.7,
+    "note": "专类园之间距离长"
+   }
   ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "太原植物园·百度百科",
-      "url": "https://baike.baidu.com/item/%E5%A4%AA%E5%8E%9F%E6%A4%8D%E7%89%A9%E5%9B%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "晋源太山脚下的植物园，最惹眼的是几座造型现代的温室：热带雨林馆里棕榈高耸、瀑布飞落，沙生馆仙人掌成列，傍晚穹顶亮灯是很多人专程来拍的时刻。缺点是园区太大，专类园之间步行距离长，夏天走一趟晒得厉害；温室里温暖湿润，冬天穿厚了会闷。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "带娃",
+   "拍照"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Taiyuan Botanical Garden",
-    "zh": "太原植物园"
-  },
-  "_geocodeTitle": "太原植物园",
-  "_geocodeSuspect": false,
-  "district": "140110",
-  "_noImage": true
+  "avoid": [
+   "怕晒怕走"
+  ],
+  "sources": []
+ }
 }

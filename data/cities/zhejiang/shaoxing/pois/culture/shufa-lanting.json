@@ -1,67 +1,131 @@
 {
-  "id": "shufa-lanting",
-  "name": "兰亭书法文化",
-  "category": "culture",
-  "subtype": "street",
-  "summary": "曲水流觞的书法圣地向导。",
-  "description": "兰亭因《兰亭集序》而成为书法圣地，王羲之在此雅集、乘兴书写，奠定了中国行书的巅峰，也把「曲水流觞」变成文人雅集的范式。绍兴的书法气脉从兰亭延伸到书圣故里、青藤书屋，是这座城的文化底色之一。想看书法，兰亭是第一站，免费或低价看展。",
-  "highlights": [
-    "兰亭集序书法圣地",
-    "曲水流觞文人范式",
-    "书法气脉贯穿全城"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.523951,
-      "lat": 29.956548,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "绍兴市柯桥区兰亭",
-    "district": "柯桥区",
-    "transportTip": "公交或打车至兰亭约30分钟"
+ "id": "shufa-lanting",
+ "name": "兰亭书法文化",
+ "category": "culture",
+ "subtype": "street",
+ "summary": "曲水流觞的书法圣地向导。",
+ "description": "兰亭因《兰亭集序》而成为书法圣地，王羲之在此雅集、乘兴书写，奠定了中国行书的巅峰，也把「曲水流觞」变成文人雅集的范式。绍兴的书法气脉从兰亭延伸到书圣故里、青藤书屋，是这座城的文化底色之一。想看书法，兰亭是第一站，免费或低价看展。",
+ "highlights": [
+  "兰亭集序书法圣地",
+  "曲水流觞文人范式",
+  "书法气脉贯穿全城"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.523951,
+   "lat": 29.956548,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "以景区公告为准",
-    "openHoursRef": 0,
-    "ticket": "以兰亭门票为准",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
+  "address": "绍兴市柯桥区兰亭",
+  "district": "柯桥区",
+  "transportTip": "公交或打车至兰亭约30分钟"
+ },
+ "practical": {
+  "openHours": "08:00-17:20（16:50 停止入园）；园内兰亭书法博物馆每月首个周一闭馆",
+  "openHoursRef": 0,
+  "ticket": "全价票 70 元、半价票 35 元；6 周岁以下或 1.2 米以下儿童、绍兴本地市民（黄金周除外）、70 周岁以上老人等凭证免票",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "solo",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "书法",
+  "兰亭序",
+  "雅集"
+ ],
+ "popularity": 74,
+ "sources": [
+  {
+   "title": "百度百科·兰亭集序",
+   "url": "https://baike.baidu.com/item/%E5%85%B0%E4%BA%AD%E9%9B%86%E5%BA%8F",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
   },
-  "audience": [
-    "solo",
-    "elders"
+  {
+   "title": "浙江省侨联 · 侨见越韵文旅十景（2026-08-27）",
+   "url": "http://www.zjsql.com.cn/class/ZhenDiFengCai/190146_20260827084234.html",
+   "kind": "media",
+   "fetchedAt": "2026-11-12"
+  },
+  {
+   "title": "绍兴市文化广电旅游局 · 兰亭/书圣故里打卡指南（2026）",
+   "url": "https://sxwg.sx.gov.cn/col/col1647997/art/2026/art_1e85bf9ad6a84b729c448302b0cedf3c.html",
+   "kind": "media",
+   "fetchedAt": "2026-11-12"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "兰亭书法文化"
+ },
+ "_geocodeTitle": "兰亭街道",
+ "_geocodeSuspect": false,
+ "district": "330603",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-12",
+  "changes": [
+   {
+    "field": "开放时间",
+    "old": "以景区公告为准",
+    "new": "08:00-17:20（16:50 停止入园）；园内兰亭书法博物馆每月首个周一闭馆"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "书法",
-    "兰亭序",
-    "雅集"
+  "source": "https://sxwg.sx.gov.cn/col/col1647997/art/2026/art_1e85bf9ad6a84b729c448302b0cedf3c.html",
+  "reason": "绍兴市文旅局2026推荐页与另一篇同口径：开放8:00-17:20、16:50停止入园"
+ },
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "氛围",
+    "score": 4.7,
+    "note": "茂林修竹、曲水清流，书法圣地的气韵在"
+   },
+   {
+    "label": "票价",
+    "score": 3.1,
+    "note": "全价 70 元，核心区其实不大"
+   },
+   {
+    "label": "人流",
+    "score": 3.9,
+    "note": "平日清静，节假日团队集中"
+   },
+   {
+    "label": "时长",
+    "score": 3.7,
+    "note": "两小时足够，含书法博物馆再久些"
+   }
   ],
-  "popularity": 74,
+  "body": "鹅池、兰亭碑、曲水流觞、御碑亭一路走下来，「景幽事雅」四个字是实感，御碑上康熙与乾隆祖孙两帝同碑尤其值得停一停。缺点是 70 元的票价对这么小的园子偏贵，半小时就能走完核心区；节假日团队一波接一波，想安静看碑得挑早上刚开园。",
+  "basis": "web",
+  "at": "2026-11-12",
+  "fits": [
+   "书法爱好者",
+   "园林"
+  ],
+  "avoid": [
+   "预算紧"
+  ],
   "sources": [
-    {
-      "title": "百度百科·兰亭集序",
-      "url": "https://baike.baidu.com/item/%E5%85%B0%E4%BA%AD%E9%9B%86%E5%BA%8F",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "兰亭书法文化"
-  },
-  "_geocodeTitle": "兰亭街道",
-  "_geocodeSuspect": false,
-  "district": "330603",
-  "_noImage": true
+   "https://sxwg.sx.gov.cn/col/col1647997/art/2026/art_1e85bf9ad6a84b729c448302b0cedf3c.html",
+   "https://m.sx.bendibao.com/tour/35571.shtm"
+  ]
+ }
 }

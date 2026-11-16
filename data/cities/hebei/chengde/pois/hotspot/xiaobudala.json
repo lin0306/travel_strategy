@@ -1,66 +1,103 @@
 {
-  "id": "xiaobudala",
-  "name": "小布达拉宫红台",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "普陀宗乘之庙的红台墙面，白台衬着，是最上镜的合影点。",
-  "description": "小布达拉宫的红台是承德最上镜的一处墙 —— 大片红墙，配着白台和金顶，颜色重。很多人来这儿拍照，站在台下仰拍最有气势。它是仿布达拉宫修的，所以气派不输那边。傍晚太阳斜着打在红墙上，颜色最浓。含在庙门票里。",
-  "highlights": [
-    "大红墙配白台金顶，颜色重",
-    "台下仰拍最有气势",
-    "傍晚斜阳光线颜色最浓"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.933659,
-      "lat": 41.010814,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市双桥区普陀宗乘之庙",
-    "district": "双桥区",
-    "transportTip": "市区公交到普陀宗乘之庙"
+ "id": "xiaobudala",
+ "name": "小布达拉宫红台",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "普陀宗乘之庙的红台墙面，白台衬着，是最上镜的合影点。",
+ "description": "小布达拉宫的红台是承德最上镜的一处墙 —— 大片红墙，配着白台和金顶，颜色重。很多人来这儿拍照，站在台下仰拍最有气势。它是仿布达拉宫修的，所以气派不输那边。傍晚太阳斜着打在红墙上，颜色最浓。含在庙门票里。",
+ "highlights": [
+  "大红墙配白台金顶，颜色重",
+  "台下仰拍最有气势",
+  "傍晚斜阳光线颜色最浓"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.933659,
+   "lat": 41.010814,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-17:00",
-    "openHoursRef": 0,
-    "ticket": "含庙门票",
-    "ticketRef": 0,
-    "duration": "建议 40-90 分钟",
-    "durationMinutes": [
-      40,
-      90
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "friends"
+  "address": "河北省承德市双桥区普陀宗乘之庙",
+  "district": "双桥区",
+  "transportTip": "市区公交到普陀宗乘之庙"
+ },
+ "practical": {
+  "openHours": "约08:00-17:00",
+  "openHoursRef": 0,
+  "ticket": "含庙门票",
+  "ticketRef": 0,
+  "duration": "建议 40-90 分钟",
+  "durationMinutes": [
+   40,
+   90
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "红台",
-    "藏式",
-    "合影"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "红台",
+  "藏式",
+  "合影"
+ ],
+ "popularity": 88,
+ "sources": [
+  {
+   "title": "百度百科·普陀宗乘之庙",
+   "url": "https://baike.baidu.com/item/%E6%99%AE%E9%99%80%E5%AE%97%E4%B9%98%E4%B9%8B%E5%BA%99",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "小布达拉宫红台"
+ },
+ "_geocodeTitle": "普陀宗乘之庙文保所",
+ "district": "130802",
+ "_noImage": true,
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "拍照",
+    "score": 4.8,
+    "note": "红墙压白台金顶，颜色最重的一段"
+   },
+   {
+    "label": "人流",
+    "score": 2.8,
+    "note": "旺季中午红台前几乎站满"
+   },
+   {
+    "label": "体力",
+    "score": 3.2,
+    "note": "台前石阶多，老人小孩要多留时间"
+   },
+   {
+    "label": "性价比",
+    "score": 4.0,
+    "note": "含在庙门票里，不必另买"
+   }
   ],
-  "popularity": 88,
-  "sources": [
-    {
-      "title": "百度百科·普陀宗乘之庙",
-      "url": "https://baike.baidu.com/item/%E6%99%AE%E9%99%80%E5%AE%97%E4%B9%98%E4%B9%8B%E5%BA%99",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "body": "普陀宗乘之庙最出片的一段：大片红墙压着白台与金顶，颜色很重，站在台下仰拍最有气势。傍晚斜光打在墙上颜色最浓，比正午好得多。缺点是台前石阶多，带老人或推车的家庭要多留体力；旺季中午人挤，想拍一面干净的红墙基本要等，硬等常常等不到。含在庙门票里，不用另外花钱。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "拍照",
+   "朋友"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "小布达拉宫红台"
-  },
-  "_geocodeTitle": "普陀宗乘之庙文保所",
-  "district": "130802",
-  "_noImage": true
+  "avoid": [
+   "正午来拍人像"
+  ],
+  "sources": []
+ }
 }

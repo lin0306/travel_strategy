@@ -1,66 +1,108 @@
 {
-  "id": "chengde-liangfen",
-  "name": "承德凉粉",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "承徳夏天的小吃，凉粉切条拌调料，酸辣凉快，摊子上几块钱。",
-  "description": "承德凉粉是夏天的小吃 —— 凉粉切成条，浇醋、蒜水、辣椒油、黄瓜丝，拌了吃。它凉，滑，酸辣，天热时吃最舒服。承德街头的摊子和小店都有，几块钱一份。和碗坨一样是本地人从小吃的东西。不贵，垫一口正好。",
-  "highlights": [
-    "夏天小吃，凉粉条拌醋蒜辣椒",
-    "凉滑酸辣，天热吃最舒服",
-    "街头摊子多，几元一份"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.93804,
-      "lat": 40.978414,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市双桥区承德凉粉摊",
-    "district": "双桥区",
-    "transportTip": "市区步行到摊点"
+ "id": "chengde-liangfen",
+ "name": "承德凉粉",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "承徳夏天的小吃，凉粉切条拌调料，酸辣凉快，摊子上几块钱。",
+ "description": "承德凉粉是夏天的小吃 —— 凉粉切成条，浇醋、蒜水、辣椒油、黄瓜丝，拌了吃。它凉，滑，酸辣，天热时吃最舒服。承德街头的摊子和小店都有，几块钱一份。和碗坨一样是本地人从小吃的东西。不贵，垫一口正好。",
+ "highlights": [
+  "夏天小吃，凉粉条拌醋蒜辣椒",
+  "凉滑酸辣，天热吃最舒服",
+  "街头摊子多，几元一份"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.93804,
+   "lat": 40.978414,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:00-21:00（夏季多）",
-    "openHoursRef": 0,
-    "ticket": "每份约6-10元",
-    "ticketRef": 0,
-    "duration": "建议 20-40 分钟",
-    "durationMinutes": [
-      20,
-      40
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "solo",
-    "friends"
+  "address": "河北省承德市双桥区承德凉粉摊",
+  "district": "双桥区",
+  "transportTip": "市区步行到摊点"
+ },
+ "practical": {
+  "openHours": "约10:00-21:00（夏季多）",
+  "openHoursRef": 0,
+  "ticket": "每份约6-10元",
+  "ticketRef": 0,
+  "duration": "建议 20-40 分钟",
+  "durationMinutes": [
+   20,
+   40
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "凉粉",
-    "小吃",
-    "夏天"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "solo",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "凉粉",
+  "小吃",
+  "夏天"
+ ],
+ "popularity": 56,
+ "sources": [
+  {
+   "title": "百度百科·凉粉",
+   "url": "https://baike.baidu.com/item/%E5%87%89%E7%B2%89",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "承德凉粉"
+ },
+ "_geocodeTitle": "老承德炸烧饼鸡蛋灌饼(流水沟街店)",
+ "district": "130802",
+ "_noImage": true,
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 3.9,
+    "note": "绿豆粉切条，醋蒜辣椒一拌，滑而解暑"
+   },
+   {
+    "label": "价格",
+    "score": 4.4,
+    "note": "几块钱一份，最便宜的垫肚子选项"
+   },
+   {
+    "label": "季节",
+    "score": 3.0,
+    "note": "天热吃才对味，冷天吃着寡"
+   },
+   {
+    "label": "卫生",
+    "score": 2.8,
+    "note": "多为街头摊，卫生参差"
+   }
   ],
-  "popularity": 56,
+  "body": "承德凉粉是绿豆粉做的，切成条浇醋、蒜水、辣椒油，再抓一把黄瓜丝，滑、凉、酸辣，夏天走了一身汗的时候来一碗最舒服，价钱也就几块钱。它和碗坨一样是本地人从小吃到大的东西。缺点是它很依赖天气，天冷的时候吃只觉得寡淡；摊子多是街头小摊，卫生状况参差，挑人多、有健康证的摊更稳；分量不大，当正餐不够，只能垫一口。",
+  "basis": "web",
+  "at": "2026-11-14",
+  "fits": [
+   "夏天解暑",
+   "预算紧",
+   "尝本地小吃"
+  ],
+  "avoid": [
+   "冬天来",
+   "肠胃敏感"
+  ],
   "sources": [
-    {
-      "title": "百度百科·凉粉",
-      "url": "https://baike.baidu.com/item/%E5%87%89%E7%B2%89",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "承德凉粉"
-  },
-  "_geocodeTitle": "老承德炸烧饼鸡蛋灌饼(流水沟街店)",
-  "district": "130802",
-  "_noImage": true
+   "https://m.toutiao.com/article/7661629476865835570",
+   "https://hebei.sina.com.cn/cd/eat/2013-12-04/15052029.html"
+  ]
+ }
 }

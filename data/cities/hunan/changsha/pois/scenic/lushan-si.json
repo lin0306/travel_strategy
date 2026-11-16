@@ -1,158 +1,196 @@
 {
-  "id": "lushan-si",
-  "name": "麓山寺",
-  "category": "scenic",
-  "subtype": "temple",
-  "summary": "岳麓山半山腰的古寺，西晋始建，是湖南最老的佛寺之一。",
-  "description": "麓山寺在岳麓山半山腰，西晋泰始四年创建，是湖南现存最早的佛寺，本地有「汉魏最初名胜，湖湘第一道场」的说法。寺在两千年里几毁几建，现在的大殿是后来重修的，明清的格局还在。进山门后是弥勒殿、大雄宝殿，后面是观音阁。殿前两株罗汉松树龄在几百年以上，是寺里最老的东西。寺后有一眼白鹤泉，泉水从山体里出来，旧时僧人拿它煮茶。从岳麓书院上山或走爱晚亭那条路都能到，台阶路不太好走，穿平底鞋合适。",
-  "highlights": [
-    "西晋泰始四年创建，湖南现存最早的佛寺",
-    "殿前两株罗汉松树龄数百年",
-    "寺后白鹤泉，旧时用来煮茶"
-  ],
-  "location": {
-    "point": {
-      "lng": 112.93431,
-      "lat": 28.180229,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "湖南省长沙市岳麓区岳麓山半山腰",
-    "district": "岳麓区",
-    "transportTip": "地铁4号线湖南大学站，从山门步行上山约四十分钟"
+ "id": "lushan-si",
+ "name": "麓山寺",
+ "category": "scenic",
+ "subtype": "temple",
+ "summary": "岳麓山半山腰的古寺，西晋始建，是湖南最老的佛寺之一。",
+ "description": "麓山寺在岳麓山半山腰，西晋泰始四年创建，是湖南现存最早的佛寺，本地有「汉魏最初名胜，湖湘第一道场」的说法。寺在两千年里几毁几建，现在的大殿是后来重修的，明清的格局还在。进山门后是弥勒殿、大雄宝殿，后面是观音阁。殿前两株罗汉松树龄在几百年以上，是寺里最老的东西。寺后有一眼白鹤泉，泉水从山体里出来，旧时僧人拿它煮茶。从岳麓书院上山或走爱晚亭那条路都能到，台阶路不太好走，穿平底鞋合适。",
+ "highlights": [
+  "西晋泰始四年创建，湖南现存最早的佛寺",
+  "殿前两株罗汉松树龄数百年",
+  "寺后白鹤泉，旧时用来煮茶"
+ ],
+ "location": {
+  "point": {
+   "lng": 112.93431,
+   "lat": 28.180229,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-17:00（随景区时间），以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "含在岳麓山景区内（景区免费），以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 30-70 分钟",
-    "durationMinutes": [
-      30,
-      70
-    ],
-    "priceLevel": "free"
+  "address": "湖南省长沙市岳麓区岳麓山半山腰",
+  "district": "岳麓区",
+  "transportTip": "地铁4号线湖南大学站，从山门步行上山约四十分钟"
+ },
+ "practical": {
+  "openHours": "约08:00-17:00（随景区时间），以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "含在岳麓山景区内（景区免费），以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 30-70 分钟",
+  "durationMinutes": [
+   30,
+   70
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "elders",
+  "solo",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-09-11.jpg/1280px-Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-09-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-09-11.jpg/1280px-Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-09-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Changsha Yuelu Shan Lushan Si 2014.03.04 11-09-11.jpg",
+   "query": "麓山寺 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-09-11.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "elders",
-    "solo",
-    "family"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-09-11.jpg/1280px-Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-09-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-09-11.jpg/1280px-Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-09-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Changsha Yuelu Shan Lushan Si 2014.03.04 11-09-11.jpg",
-      "query": "麓山寺 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangzhugang",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-09-11.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-09-44.jpg/1280px-Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-09-44.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-09-44.jpg/1280px-Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-09-44.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Changsha Yuelu Shan Lushan Si 2014.03.04 11-09-44.jpg",
-      "query": "麓山寺 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangzhugang",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-09-44.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-10-35.jpg/1280px-Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-10-35.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-10-35.jpg/1280px-Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-10-35.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Changsha Yuelu Shan Lushan Si 2014.03.04 11-10-35.jpg",
-      "query": "麓山寺 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangzhugang",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-10-35.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-12-09.jpg/1280px-Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-12-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-12-09.jpg/1280px-Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-12-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Changsha Yuelu Shan Lushan Si 2014.03.04 11-12-09.jpg",
-      "query": "麓山寺 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangzhugang",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-12-09.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-12-47.jpg/1280px-Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-12-47.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-12-47.jpg/1280px-Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-12-47.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Changsha Yuelu Shan Lushan Si 2014.03.04 11-12-47.jpg",
-      "query": "麓山寺 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangzhugang",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-12-47.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-13-24.jpg/1280px-Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-13-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-13-24.jpg/1280px-Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-13-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1620,
-      "alt": "Changsha Yuelu Shan Lushan Si 2014.03.04 11-13-24.jpg",
-      "query": "麓山寺 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangzhugang",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-13-24.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "古寺",
-    "西晋",
-    "岳麓山"
-  ],
-  "popularity": 78,
-  "sources": [
-    {
-      "title": "百度百科·麓山寺",
-      "url": "https://baike.baidu.com/item/%E9%BA%93%E5%B1%B1%E5%AF%BA",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "麓山寺"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-09-44.jpg/1280px-Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-09-44.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-09-44.jpg/1280px-Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-09-44.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Changsha Yuelu Shan Lushan Si 2014.03.04 11-09-44.jpg",
+   "query": "麓山寺 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-09-44.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "古麓山寺",
-  "_geocodeSuspect": false,
-  "district": "430104"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-10-35.jpg/1280px-Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-10-35.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-10-35.jpg/1280px-Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-10-35.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Changsha Yuelu Shan Lushan Si 2014.03.04 11-10-35.jpg",
+   "query": "麓山寺 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-10-35.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-12-09.jpg/1280px-Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-12-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-12-09.jpg/1280px-Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-12-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Changsha Yuelu Shan Lushan Si 2014.03.04 11-12-09.jpg",
+   "query": "麓山寺 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-12-09.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-12-47.jpg/1280px-Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-12-47.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-12-47.jpg/1280px-Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-12-47.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Changsha Yuelu Shan Lushan Si 2014.03.04 11-12-47.jpg",
+   "query": "麓山寺 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-12-47.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-13-24.jpg/1280px-Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-13-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-13-24.jpg/1280px-Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-13-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1620,
+   "alt": "Changsha Yuelu Shan Lushan Si 2014.03.04 11-13-24.jpg",
+   "query": "麓山寺 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Changsha_Yuelu_Shan_Lushan_Si_2014.03.04_11-13-24.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "古寺",
+  "西晋",
+  "岳麓山"
+ ],
+ "popularity": 78,
+ "sources": [
+  {
+   "title": "百度百科·麓山寺",
+   "url": "https://baike.baidu.com/item/%E9%BA%93%E5%B1%B1%E5%AF%BA",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "麓山寺"
+ },
+ "_geocodeTitle": "古麓山寺",
+ "_geocodeSuspect": false,
+ "district": "430104",
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "历史",
+    "score": 4.5,
+    "note": "西晋泰始四年创建，湖南现存最早佛寺"
+   },
+   {
+    "label": "环境",
+    "score": 4.2,
+    "note": "半山腰、殿前罗汉松数百年"
+   },
+   {
+    "label": "体力",
+    "score": 3.0,
+    "note": "台阶多，雨天湿滑"
+   },
+   {
+    "label": "时长",
+    "score": 3.5,
+    "note": "半小时到一小时"
+   }
+  ],
+  "body": "西晋始建，是湖南现存最早的佛寺，殿前两株罗汉松是寺里最老的东西，寺后白鹤泉旧时用来煮茶。缺点是殿宇两千年里几毁几建，现在的多是重修，古物感不强；在半山腰，台阶多、雨天湿滑，腿脚不便的人吃力。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "登山顺路",
+   "古建爱好者"
+  ],
+  "avoid": [
+   "腿脚不便",
+   "雨天"
+  ],
+  "sources": []
+ }
 }

@@ -1,192 +1,224 @@
 {
-  "id": "shanzhuang-lake",
-  "name": "避暑山庄湖区倒影",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "避暑山庄湖面倒映亭台楼阁的机位，无风时水面如镜，早上最好。",
-  "description": "避暑山庄的湖区是拍倒影的好地方 —— 水静的时候像一面镜子，亭子、楼、树都倒过来。早上风小，水面最平，是拍照的黄金时间。沿湖有好几处能拍，水心榭那一带最好。它含在山庄门票里，不用另花钱。夏天荷花开时更好看。",
-  "highlights": [
-    "湖面静时如镜，亭台楼阁倒过来",
-    "早上风小水面平，是黄金时段",
-    "水心榭一带最好，夏有荷花"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.944689,
-      "lat": 40.996397,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市双桥区避暑山庄湖区",
-    "district": "双桥区",
-    "transportTip": "进避暑山庄后步行到湖边"
+ "id": "shanzhuang-lake",
+ "name": "避暑山庄湖区倒影",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "避暑山庄湖面倒映亭台楼阁的机位，无风时水面如镜，早上最好。",
+ "description": "避暑山庄的湖区是拍倒影的好地方 —— 水静的时候像一面镜子，亭子、楼、树都倒过来。早上风小，水面最平，是拍照的黄金时间。沿湖有好几处能拍，水心榭那一带最好。它含在山庄门票里，不用另花钱。夏天荷花开时更好看。",
+ "highlights": [
+  "湖面静时如镜，亭台楼阁倒过来",
+  "早上风小水面平，是黄金时段",
+  "水心榭一带最好，夏有荷花"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.944689,
+   "lat": 40.996397,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-17:00，清晨最佳",
-    "openHoursRef": 0,
-    "ticket": "含避暑山庄门票",
-    "ticketRef": 0,
-    "duration": "建议 40-90 分钟",
-    "durationMinutes": [
-      40,
-      90
-    ],
-    "priceLevel": "free"
+  "address": "河北省承德市双桥区避暑山庄湖区",
+  "district": "双桥区",
+  "transportTip": "进避暑山庄后步行到湖边"
+ },
+ "practical": {
+  "openHours": "约08:00-17:00，清晨最佳",
+  "openHoursRef": 0,
+  "ticket": "含避暑山庄门票",
+  "ticketRef": 0,
+  "duration": "建议 40-90 分钟",
+  "durationMinutes": [
+   40,
+   90
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Chengde_Mountain_Resort_22814-Chengde_%2849049292621%29.jpg/1280px-Chengde_Mountain_Resort_22814-Chengde_%2849049292621%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Chengde_Mountain_Resort_22814-Chengde_%2849049292621%29.jpg/1280px-Chengde_Mountain_Resort_22814-Chengde_%2849049292621%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Chengde Mountain Resort 22814-Chengde (49049292621).jpg",
+   "query": "避暑山庄湖区倒影",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "couple",
-    "friends"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Chengde_Mountain_Resort_22814-Chengde_%2849049292621%29.jpg/1280px-Chengde_Mountain_Resort_22814-Chengde_%2849049292621%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Chengde_Mountain_Resort_22814-Chengde_%2849049292621%29.jpg/1280px-Chengde_Mountain_Resort_22814-Chengde_%2849049292621%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Chengde Mountain Resort 22814-Chengde (49049292621).jpg",
-      "query": "避暑山庄湖区倒影",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Chengde_Mountain_Resort_22829-Chengde_%2849049512782%29.jpg/1280px-Chengde_Mountain_Resort_22829-Chengde_%2849049512782%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Chengde_Mountain_Resort_22829-Chengde_%2849049512782%29.jpg/1280px-Chengde_Mountain_Resort_22829-Chengde_%2849049512782%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Chengde Mountain Resort 22829-Chengde (49049512782).jpg",
-      "query": "避暑山庄湖区倒影",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Chengde_Mountain_Resort_22916-Chengde_%2844830019871%29.jpg/1280px-Chengde_Mountain_Resort_22916-Chengde_%2844830019871%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Chengde_Mountain_Resort_22916-Chengde_%2844830019871%29.jpg/1280px-Chengde_Mountain_Resort_22916-Chengde_%2844830019871%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Chengde Mountain Resort 22916-Chengde (44830019871).jpg",
-      "query": "避暑山庄湖区倒影",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Chengde_Mountain_Resort_22801-Chengde_%2849048797943%29.jpg/1280px-Chengde_Mountain_Resort_22801-Chengde_%2849048797943%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Chengde_Mountain_Resort_22801-Chengde_%2849048797943%29.jpg/1280px-Chengde_Mountain_Resort_22801-Chengde_%2849048797943%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Chengde Mountain Resort 22801-Chengde (49048797943).jpg",
-      "query": "避暑山庄湖区倒影",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Chengde_Mountain_Resort_22882-Chengde_%2844829999241%29.jpg/1280px-Chengde_Mountain_Resort_22882-Chengde_%2844829999241%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Chengde_Mountain_Resort_22882-Chengde_%2844829999241%29.jpg/1280px-Chengde_Mountain_Resort_22882-Chengde_%2844829999241%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Chengde Mountain Resort 22882-Chengde (44829999241).jpg",
-      "query": "避暑山庄湖区倒影",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/%E8%A1%8C%E6%91%84%E6%A2%93%E5%9C%B0_www.hiroko.cn_20130919_133421.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/%E8%A1%8C%E6%91%84%E6%A2%93%E5%9C%B0_www.hiroko.cn_20130919_133421.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "行摄梓地 www.hiroko.cn 20130919 133421.jpg",
-      "query": "避暑山庄湖区倒影",
-      "credit": {
-        "source": "wikimedia",
-        "author": "梓地",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 1,
-  "tags": [
-    "倒影",
-    "湖区",
-    "清晨"
-  ],
-  "popularity": 78,
-  "sources": [
-    {
-      "title": "百度百科·承德避暑山庄",
-      "url": "https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-11-03",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "避暑山庄湖区倒影"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Chengde_Mountain_Resort_22829-Chengde_%2849049512782%29.jpg/1280px-Chengde_Mountain_Resort_22829-Chengde_%2849049512782%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Chengde_Mountain_Resort_22829-Chengde_%2849049512782%29.jpg/1280px-Chengde_Mountain_Resort_22829-Chengde_%2849049512782%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Chengde Mountain Resort 22829-Chengde (49049512782).jpg",
+   "query": "避暑山庄湖区倒影",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "避暑山庄文创园",
-  "district": "130802"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Chengde_Mountain_Resort_22916-Chengde_%2844830019871%29.jpg/1280px-Chengde_Mountain_Resort_22916-Chengde_%2844830019871%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Chengde_Mountain_Resort_22916-Chengde_%2844830019871%29.jpg/1280px-Chengde_Mountain_Resort_22916-Chengde_%2844830019871%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Chengde Mountain Resort 22916-Chengde (44830019871).jpg",
+   "query": "避暑山庄湖区倒影",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Chengde_Mountain_Resort_22801-Chengde_%2849048797943%29.jpg/1280px-Chengde_Mountain_Resort_22801-Chengde_%2849048797943%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Chengde_Mountain_Resort_22801-Chengde_%2849048797943%29.jpg/1280px-Chengde_Mountain_Resort_22801-Chengde_%2849048797943%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Chengde Mountain Resort 22801-Chengde (49048797943).jpg",
+   "query": "避暑山庄湖区倒影",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Chengde_Mountain_Resort_22882-Chengde_%2844829999241%29.jpg/1280px-Chengde_Mountain_Resort_22882-Chengde_%2844829999241%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Chengde_Mountain_Resort_22882-Chengde_%2844829999241%29.jpg/1280px-Chengde_Mountain_Resort_22882-Chengde_%2844829999241%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Chengde Mountain Resort 22882-Chengde (44829999241).jpg",
+   "query": "避暑山庄湖区倒影",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/%E8%A1%8C%E6%91%84%E6%A2%93%E5%9C%B0_www.hiroko.cn_20130919_133421.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/%E8%A1%8C%E6%91%84%E6%A2%93%E5%9C%B0_www.hiroko.cn_20130919_133421.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "行摄梓地 www.hiroko.cn 20130919 133421.jpg",
+   "query": "避暑山庄湖区倒影",
+   "credit": {
+    "source": "wikimedia",
+    "author": "梓地",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 1,
+ "tags": [
+  "倒影",
+  "湖区",
+  "清晨"
+ ],
+ "popularity": 78,
+ "sources": [
+  {
+   "title": "百度百科·承德避暑山庄",
+   "url": "https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "避暑山庄湖区倒影"
+ },
+ "_geocodeTitle": "避暑山庄文创园",
+ "district": "130802",
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "拍照",
+    "score": 4.6,
+    "note": "水静时亭台楼阁整个倒过来"
+   },
+   {
+    "label": "时机",
+    "score": 3.2,
+    "note": "九点后游船一开水就碎了"
+   },
+   {
+    "label": "人流",
+    "score": 3.0,
+    "note": "旺季湖边几乎找不到空档"
+   }
+  ],
+  "body": "山庄湖区拍倒影最稳的一段，水静的时候像一面镜子，亭子、楼、树全倒过来。早上风小、水面最平，是黄金时段，水心榭一带机位最好，夏天荷花开的时候更耐看。缺点是必须赶早，游船一开水面就碎成一片；旺季湖边全是人，想等一个无人的空档要站很久，而且它含在山庄门票里，没有单独入口。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "拍照",
+   "清晨散步"
+  ],
+  "avoid": [
+   "睡到中午再来"
+  ],
+  "sources": []
+ }
 }

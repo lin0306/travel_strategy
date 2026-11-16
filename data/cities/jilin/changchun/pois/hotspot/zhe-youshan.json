@@ -1,83 +1,116 @@
 {
-  "id": "zhe-youshan",
-  "name": "这有山",
-  "category": "hotspot",
-  "subtype": "art",
-  "summary": "把一整座山塞进商场的室内小镇，层层往上走的街巷与灯笼，是长春近年最火的打卡地。",
-  "description": "这有山在朝阳区红旗街一带，是一处在室内做出来的度假小镇。整个空间顺着几层楼的坡道上上下下，两边是连续的店铺与前伸的檐口，抬头能看见一层层的屋顶和挂着的灯笼。最里面是一处留出来的露天中庭，站在底往上拍能把整座假山似的建筑收进来。夜里灯全亮起来时最好看，也最像一座小镇。这里混着餐饮、文创与小型演出，可以边逛边吃。逛完可以顺着走去红旗街的其他地方，免费入场，周末人多。",
-  "highlights": [
-    "室内做出的一座山中小镇",
-    "层层坡道与檐口灯笼",
-    "夜灯全亮时最好看"
-  ],
-  "location": {
-    "point": {
-      "lng": 125.293285,
-      "lat": 43.866839,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "吉林省长春市朝阳区红旗街一带这有山",
-    "district": "朝阳区",
-    "transportTip": "市内乘公交或地铁到红旗街一带，步行可达"
+ "id": "zhe-youshan",
+ "name": "这有山",
+ "category": "hotspot",
+ "subtype": "art",
+ "summary": "把一整座山塞进商场的室内小镇，层层往上走的街巷与灯笼，是长春近年最火的打卡地。",
+ "description": "这有山在朝阳区红旗街一带，是一处在室内做出来的度假小镇。整个空间顺着几层楼的坡道上上下下，两边是连续的店铺与前伸的檐口，抬头能看见一层层的屋顶和挂着的灯笼。最里面是一处留出来的露天中庭，站在底往上拍能把整座假山似的建筑收进来。夜里灯全亮起来时最好看，也最像一座小镇。这里混着餐饮、文创与小型演出，可以边逛边吃。逛完可以顺着走去红旗街的其他地方，免费入场，周末人多。",
+ "highlights": [
+  "室内做出的一座山中小镇",
+  "层层坡道与檐口灯笼",
+  "夜灯全亮时最好看"
+ ],
+ "location": {
+  "point": {
+   "lng": 125.293285,
+   "lat": 43.866839,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:00-22:00，以商场为准",
-    "openHoursRef": 0,
-    "ticket": "免费入场，消费另计",
-    "ticketRef": 0,
-    "duration": "建议 60-150 分钟",
-    "durationMinutes": [
-      60,
-      150
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "kids"
+  "address": "吉林省长春市朝阳区红旗街一带这有山",
+  "district": "朝阳区",
+  "transportTip": "市内乘公交或地铁到红旗街一带，步行可达"
+ },
+ "practical": {
+  "openHours": "约10:00-22:00，以商场为准",
+  "openHoursRef": 0,
+  "ticket": "免费入场，消费另计",
+  "ticketRef": 0,
+  "duration": "建议 60-150 分钟",
+  "durationMinutes": [
+   60,
+   150
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/The_Hill%2C_Changchun_%2820230725131741%29.jpg/1280px-The_Hill%2C_Changchun_%2820230725131741%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/The_Hill%2C_Changchun_%2820230725131741%29.jpg/1280px-The_Hill%2C_Changchun_%2820230725131741%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "The Hill, Changchun (20230725131741).jpg",
-      "query": "这有山 长春",
-      "credit": {
-        "source": "wikimedia",
-        "author": "N509FZ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Hill,_Changchun_(20230725131741).jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "kids"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/The_Hill%2C_Changchun_%2820230725131741%29.jpg/1280px-The_Hill%2C_Changchun_%2820230725131741%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/The_Hill%2C_Changchun_%2820230725131741%29.jpg/1280px-The_Hill%2C_Changchun_%2820230725131741%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "The Hill, Changchun (20230725131741).jpg",
+   "query": "这有山 长春",
+   "credit": {
+    "source": "wikimedia",
+    "author": "N509FZ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Hill,_Changchun_(20230725131741).jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "这有山",
+  "室内小镇",
+  "夜景"
+ ],
+ "popularity": 90,
+ "sources": [
+  {
+   "title": "这有山·百度百科",
+   "url": "https://baike.baidu.com/item/%E8%BF%99%E6%9C%89%E5%B1%B1",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-03"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Zheyou Shan Indoor Town Changchun",
+  "zh": "这有山"
+ },
+ "_geocodeTitle": "这有山thehill",
+ "_geocodeSuspect": false,
+ "district": "220104",
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "空间",
+    "score": 4.5,
+    "note": "室内坡道层层叠起，抬头是屋顶与灯笼"
+   },
+   {
+    "label": "拍照",
+    "score": 4.3,
+    "note": "中庭从下往上能收进整座假山"
+   },
+   {
+    "label": "人流",
+    "score": 3.1,
+    "note": "周末与夜里挤，店铺排队"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "这有山",
-    "室内小镇",
-    "夜景"
+  "body": "把一整座山塞进商场里，顺着几层坡道上上下下，两边连续店铺与前伸檐口，抬头是层层屋顶和挂着的灯笼，最里面的露天中庭从底下往上拍最出片。免费入场，餐饮文创混在一起，边逛边吃很顺。缺点是周末和夜里灯全亮的时候人也最挤，热门店要排队；业态偏商业，想找安静看展的会失望，逛久了新鲜感也掉得快。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "雨天备选",
+   "拍照",
+   "带娃"
   ],
-  "popularity": 90,
-  "sources": [
-    {
-      "title": "这有山·百度百科",
-      "url": "https://baike.baidu.com/item/%E8%BF%99%E6%9C%89%E5%B1%B1",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-03"
-    }
+  "avoid": [
+   "讨厌人多"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Zheyou Shan Indoor Town Changchun",
-    "zh": "这有山"
-  },
-  "_geocodeTitle": "这有山thehill",
-  "_geocodeSuspect": false,
-  "district": "220104"
+  "sources": []
+ }
 }

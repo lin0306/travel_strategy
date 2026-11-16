@@ -1,6 +1,6 @@
 # 天津 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-09-27
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -15,7 +15,9 @@
 | 北疆博物院 | [天津自然博物馆（北疆博物院）（全国博物馆年度报告信息系统）](http://nb.ncha.gov.cn/museumdetail.html?msg=5b41de28dbc044a6b520c51b7f1f6ba3&nianfen=2025) | gov | 2026-10-28 |
 | 北宁公园 | [百度百科·北宁公园](https://baike.baidu.com/item/%E5%8C%97%E5%AE%81%E5%85%AC%E5%9B%AD) | wiki | 2026-09-27 |
 | 北塘古镇 | [北塘古镇（搜狗百科）](https://baike.sogou.com/v51260692.htm) | wiki | 2026-10-28 |
+| 北塘古镇 | [天津市文旅局 2026-08-19 提案答复（北塘古镇盘活一期）](https://whly.tj.gov.cn/ZWGKYXXGK1640/JYTA9096/202608/t20260819_7354859.html) | media | 2026-11-09 |
 | 曹禺故居纪念馆 | [曹禺故居纪念馆（百度百科）](https://baike.baidu.com/view/3572466.html) | wiki | 2026-10-28 |
+| 曹禺故居纪念馆 | [天津市文旅局博物馆名录 09:00-16:30](https://whly.tj.gov.cn/WSBSYZXBS4230/CXFW5394/CGCX9598/202008/t20200827_3571476.html) | media | 2026-11-09 |
 | 瓷房子 | [百度百科·瓷房子](https://baike.baidu.com/item/%E7%93%B7%E6%88%BF%E5%AD%90) | wiki | 2026-09-27 |
 | 大悲禅院 | [百度百科·大悲禅院](https://baike.baidu.com/item/%E5%A4%A7%E6%82%B2%E7%A6%85%E9%99%A2) | wiki | 2026-09-27 |
 | 独乐寺 | [百度百科·独乐寺](https://baike.baidu.com/item/%E7%8B%AC%E4%B9%90%E5%AF%BA) | wiki | 2026-09-27 |
@@ -35,6 +37,7 @@
 | 少帅府 | [百度百科·张学良故居](https://baike.baidu.com/item/%E5%BC%A0%E5%AD%A6%E8%89%AF%E6%95%85%E5%B1%85) | wiki | 2026-09-27 |
 | 石家大院 | [百度百科·石家大院](https://baike.baidu.com/item/%E7%9F%B3%E5%AE%B6%E5%A4%A7%E9%99%A2) | wiki | 2026-09-27 |
 | 水上公园 | [百度百科·天津水上公园](https://baike.baidu.com/item/%E5%A4%A9%E6%B4%A5%E6%B0%B4%E4%B8%8A%E5%85%AC%E5%9B%AD) | wiki | 2026-09-27 |
+| 水上公园 | [水上公园管理处2026-08-28公告 6:00-22:00](http://mp.weixin.qq.com/s?__biz=MzkzOTE4MzE0MQ==&mid=2247821887&idx=2&sn=ad401fcfb2215f200327a7e7060dbf66) | media | 2026-11-09 |
 | 天后宫 | [百度百科·天津天后宫](https://baike.baidu.com/item/%E5%A4%A9%E6%B4%A5%E5%A4%A9%E5%90%8E%E5%AE%AB) | wiki | 2026-09-27 |
 | 天津鼓楼 | [百度百科·天津鼓楼](https://baike.baidu.com/item/%E5%A4%A9%E6%B4%A5%E9%BC%93%E6%A5%BC) | wiki | 2026-09-27 |
 | 天津博物馆 | [百度百科·天津博物馆](https://baike.baidu.com/item/%E5%A4%A9%E6%B4%A5%E5%8D%9A%E7%89%A9%E9%A6%86) | wiki | 2026-09-27 |
@@ -58,7 +61,8 @@
 | 狗不理包子(和平路店) | [百度百科·狗不理包子](https://baike.baidu.com/item/%E7%8B%97%E4%B8%8D%E7%90%86%E5%8C%85%E5%AD%90) | wiki | 2026-09-27 |
 | 桂发祥十八街麻花(总店) | [百度百科·桂发祥十八街麻花](https://baike.baidu.com/item/%E6%A1%82%E5%8F%91%E7%A5%A5%E5%8D%81%E5%85%AB%E8%A1%97%E9%BA%BB%E8%8A%B1) | wiki | 2026-09-27 |
 | 桂顺斋(和平路总店) | [百度百科·桂顺斋](https://baike.baidu.com/item/%E6%A1%82%E9%A1%BA%E6%96%8B) | wiki | 2026-09-27 |
-| 红旗饭庄(红旗路店) | [百度百科·津菜](https://baike.baidu.com/item/%E6%B4%A5%E8%8F%9C) | wiki | 2026-09-27 |
+| 红旗饭庄(南开店) | [百度百科·津菜](https://baike.baidu.com/item/%E6%B4%A5%E8%8F%9C) | wiki | 2026-09-27 |
+| 红旗饭庄(南开店) | [红旗饭庄（南开店）· 百度百科](https://baike.baidu.com/item/%E7%BA%A2%E6%97%97%E9%A5%AD%E5%BA%84%EF%BC%88%E5%8D%97%E5%BC%80%E5%BA%97%EF%BC%89/14257824) | media | 2026-11-09 |
 | 利顺德大饭店(台儿庄路店) | [百度百科·利顺德大饭店](https://baike.baidu.com/item/%E5%88%A9%E9%A1%BA%E5%BE%B7%E5%A4%A7%E9%A5%AD%E5%BA%97) | wiki | 2026-09-27 |
 | 南楼煎饼(围堤道店) | [百度百科·煎饼馃子](https://baike.baidu.com/item/%E7%85%8E%E9%A5%BC%E9%A6%83%E5%AD%90) | wiki | 2026-09-27 |
 | 南市食品街 | [百度百科·南市食品街](https://baike.baidu.com/item/%E5%8D%97%E5%B8%82%E9%A3%9F%E5%93%81%E8%A1%97) | wiki | 2026-09-27 |
@@ -78,17 +82,21 @@
 | 海河游船 | [百度百科·海河](https://baike.baidu.com/item/%E6%B5%B7%E6%B2%B3) | wiki | 2026-09-27 |
 | 解放北路金融街 | [百度百科·解放北路](https://baike.baidu.com/item/%E8%A7%A3%E6%94%BE%E5%8C%97%E8%B7%AF) | wiki | 2026-09-27 |
 | 名流相声茶馆(新华路店) | [百度百科·天津相声](https://baike.baidu.com/item/%E5%A4%A9%E6%B4%A5%E7%9B%B8%E5%A3%B0) | wiki | 2026-09-27 |
+| 名流相声茶馆(新华路店) | [名流茶馆官网场次与票价表](http://mingliuchaguan.com/10/2.html) | media | 2026-11-09 |
 | 谦祥益相声茶馆(陆家嘴中心店) | [百度百科·谦祥益](https://baike.baidu.com/item/%E8%B0%A6%E7%A5%A5%E7%9B%8A) | wiki | 2026-09-27 |
+| 谦祥益相声茶馆(陆家嘴中心店) | [谦祥益文苑·官方公众号（场次公告）](https://mp.weixin.qq.com/s?__biz=MjM5ODcwMDY4NA==&mid=2658196105&idx=1&sn=643dc73018888ad43b974d2f6b0ef3f9) | media | 2026-11-09 |
 | 沈阳道古物市场 | [百度百科·沈阳道古物市场](https://baike.baidu.com/item/%E6%B2%88%E9%98%B3%E9%81%93%E5%8F%A4%E7%89%A9%E5%B8%82%E5%9C%BA) | wiki | 2026-09-27 |
+| 沈阳道古物市场 | [津云：每周四为大集（原写周末更热闹有误）](https://www.tjyun.com/system/2018/04/19/035379402.shtml) | media | 2026-11-09 |
 | 天津大剧院 | [百度百科·天津大剧院](https://baike.baidu.com/item/%E5%A4%A9%E6%B4%A5%E5%A4%A7%E5%89%A7%E9%99%A2) | wiki | 2026-09-27 |
+| 天津大剧院 | [天津大剧院·官方公众号售票推文](https://mp.weixin.qq.com/s?__biz=MzU1MTQ5Mzk2MA==&mid=2247710327&idx=3&sn=524ba41e4f572e033db4445571d8249a) | media | 2026-11-09 |
 
 ## 图片版权
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/skyline-view-of-nanjing-city-china-33921375/) |
-| 城市封面 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/nanjing-skyline-with-zifeng-tower-in-the-distance-33921377/) |
-| 城市封面 | Glyne Yan | Pexels License | [pexels](https://www.pexels.com/photo/skyline-view-from-balcony-at-dusk-in-guangzhou-35620192/) |
+| 城市封面 | KangTyngrwey | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Tianjin_Eye_and_Tianjin.jpg) |
+| 城市封面 | Bohao Zhao | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E7%AB%99%E5%89%8D_Tianjin_Skyline_from_Jinwan_Square_%EC%B2%9C%EC%A7%84_%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9D%BC%EC%9D%B8_-_panoramio.jpg) |
+| 城市封面 | Alex Keene | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E4%BA%94%E5%A4%A7%E9%81%93IMG_8576.jpg) |
 | 北疆博物院 | TJArchi-Studio | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8C%97%E7%96%86%E5%8D%9A%E7%89%A9%E9%99%A2.jpg) |
 | 北疆博物院 | AnonymousUnknown author | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8C%97%E7%96%86%E5%8D%9A%E7%89%A9%E9%99%A2%E5%8F%8A%E5%A4%A9%E6%B4%A5%E5%B7%A5%E5%95%86%E5%AD%A6%E9%99%A2.jpg) |
 | 北宁公园 | 刘晨 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Beiningparc_tientsin_chent_2008_04.JPG) |
@@ -105,11 +113,21 @@
 | 广东会馆 | ScareCriterion12 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E5%B9%BF%E4%B8%9C%E4%BC%9A%E9%A6%862023.3_(2).jpg) |
 | 广东会馆 | ScareCriterion12 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E5%B9%BF%E4%B8%9C%E4%BC%9A%E9%A6%862023.3_(3).jpg) |
 | 古文化街 | H2v5o68z | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E5%8F%A4%E6%96%87%E5%8C%96%E8%A1%97.jpg) |
+| 海河风景线 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 海河风景线 | Xrdtj | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 海河风景线 | Xrdtj | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 海河风景线 | そらみみ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 黄崖关长城 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%BB%84%E5%B4%96%E5%85%B3%E9%95%BF%E5%9F%8E_-_Great_Wall_at_Huangyaguan_-_2015.10_-_panoramio.jpg) |
 | 黄崖关长城 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%BB%84%E5%B4%96%E5%85%B3%E9%95%BF%E5%9F%8E_-_Great_Wall_at_Huangyaguan_-_2015.10_-_panoramio_(1).jpg) |
 | 黄崖关长城 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%BB%84%E5%B4%96%E5%85%B3%E9%95%BF%E5%9F%8E_-_Great_Wall_at_Huangyaguan_-_2015.10_-_panoramio_(2).jpg) |
 | 静园 | ScareCriterion12 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E9%9D%99%E5%9B%AD2022.5_(1).jpg) |
 | 静园 | ScareCriterion12 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E9%9D%99%E5%9B%AD2022.5_(2).jpg) |
+| 梁启超纪念馆 | gdczjkk | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 梁启超纪念馆 | gdczjkk | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 国家海洋博物馆 | KangTyngrwey | CC BY-SA 4.0 | [wikimedia](https://www.wikidata.org/wiki/Q10926046) |
+| 天津自然博物馆 | 肖红军 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 天津自然博物馆 | KangTyngrwey | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 天津自然博物馆 | KangTyngrwey | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 盘山 | Shizhao | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mount_Pan_by_Qianlong.jpg) |
 | 盘山 | Fanghong | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Pan_shan.jpg) |
 | 盘山 | li yong | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%91%E7%BD%A9%E5%AF%BA@%E5%A4%A9%E6%B4%A5%E7%9B%98%E5%B1%B1.jpg) |
@@ -125,6 +143,20 @@
 | 石家大院 | Jiangshang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E7%9F%B3%E5%AE%B6%E5%A4%A7%E9%99%A2-%E5%86%85%E9%83%A8.jpg) |
 | 石家大院 | Sylvain Kalache from San Francisco, USA | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shi_Family_Grand_Courtyard_2009_05_07_8167.jpg) |
 | 石家大院 | Rolfmueller | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shiyuan_tianjin_doorways.jpg) |
+| 水上公园 | Amazingloong | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E6%B0%B4%E4%B8%8A%E5%85%AC%E5%9B%AD%E4%B8%9C%E6%B9%96.jpg) |
+| 水上公园 | KangTyngrwey | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E6%B0%B4%E4%B8%8A%E5%85%AC%E5%9B%AD%E5%8C%97.jpg) |
+| 水上公园 | KangTyngrwey | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E6%B0%B4%E4%B8%8A%E5%85%AC%E5%9B%AD%E6%AD%A5%E5%8B%9D%E5%BB%8A.jpg) |
+| 水上公园 | Amazingloong | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E6%B0%B4%E4%B8%8A%E5%85%AC%E5%9B%AD%E7%9C%BA%E8%BF%9C%E4%BA%AD%E5%A4%9C%E6%99%AF.jpg) |
+| 水上公园 | Amazingloong | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E6%B0%B4%E4%B8%8A%E5%85%AC%E5%9B%AD%E8%A5%BF%E6%B9%96.jpg) |
+| 水上公园 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B0%B4%E4%B8%8A%E5%85%AC%E5%9B%AD%E7%9A%84%E4%B9%9D%E6%9B%B2%E6%A1%A5_-_panoramio.jpg) |
+| 水上公园 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B0%B4%E4%B8%8A%E5%85%AC%E5%9B%AD%E9%87%8C%E7%9A%84%E6%AC%A7%E5%BC%8F%E5%87%89%E4%BA%AD_-_panoramio.jpg) |
+| 水上公园 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B0%B4%E4%B8%8A%E5%85%AC%E5%9B%AD%E9%87%8C%E7%9A%84%E8%8D%B7%E8%8A%B1%E6%B1%A0_-_panoramio.jpg) |
+| 天后宫 | ermell | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 天后宫 | そらみみ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 天后宫 | ermell | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 天后宫 | そらみみ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 天后宫 | そらみみ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 天后宫 | そらみみ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 天津鼓楼 | ermell | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Tianjin_5227506_7_8N.jpg) |
 | 天津鼓楼 | 空之境界 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E9%BC%93%E6%A5%BC_-_panoramio.jpg) |
 | 天津博物馆 | Tyngrwey | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E5%8D%9A%E7%89%A9%E9%A6%861.jpg) |
@@ -136,8 +168,13 @@
 | 天津邮政博物馆 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E9%82%AE%E6%94%BF%E5%8D%9A%E7%89%A9%E9%A6%86%E4%B8%80%E8%A7%92.jpg) |
 | 天津文庙 | ermell | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Tianjin_5227532_(04).jpg) |
 | 天津文庙 | ermell | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Tianjin_5227532_(08).jpg) |
-| 天津文庙 | ermell | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Tianjin_5227585.jpg) |
 | 望海楼教堂 | Photo taken by Fanghong | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wanghailou1.jpg) |
+| 五大道 | Vikarna | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 五大道 | Xrdtj | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 五大道 | Tyngrwey | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%94%E5%A4%A7%E9%81%93%E5%85%AC%E5%9B%AD1.jpg) |
+| 五大道 | Tyngrwey | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%94%E5%A4%A7%E9%81%93%E5%85%AC%E5%9B%AD2.jpg) |
+| 五大道 | Alex Keene | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E4%BA%94%E5%A4%A7%E9%81%93IMG_8576.jpg) |
+| 五大道 | KangTyngrwey | CC BY-SA 4.0 | [wikimedia](https://zh.wikipedia.org/wiki/五大道) |
 | 武清博物馆 | Tyngrwey | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E6%AD%A6%E6%B8%85%E5%8D%9A%E7%89%A9%E9%A6%861.jpg) |
 | 武清博物馆 | Cangminzho | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%AD%A6%E6%B8%85%E5%8D%9A%E7%89%A9%E9%A6%86_6990.jpg) |
 | 小站练兵园 | Tyngrwey | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E5%B0%8F%E7%AB%99%E7%BB%83%E5%85%B5%E5%9B%AD1.jpg) |
@@ -147,20 +184,37 @@
 | 杨柳青古镇 | KangTyngrwey | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%9D%A8%E6%9F%B3%E9%9D%92%E5%8F%A4%E9%95%872.jpg) |
 | 杨柳青古镇 | KangTyngrwey | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%9D%A8%E6%9F%B3%E9%9D%92%E5%8F%A4%E9%95%87%E5%BE%A1%E6%B2%B3%E6%95%85%E9%87%8C.jpg) |
 | 杨柳青古镇 | Trz1118 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%9D%A8%E6%9F%B3%E9%9D%92%E5%8F%A4%E9%95%87%E7%89%8C%E5%9D%8A.jpg) |
+| 张园 | Xrdtj | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 周恩来邓颖超纪念馆 | E2568 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Memorial_to_Zhou_Enlai_and_Deng_Yingchao_1.jpg) |
 | 周恩来邓颖超纪念馆 | E2568 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Memorial_to_Zhou_Enlai_and_Deng_Yingchao_2.jpg) |
 | 大福来锅巴菜(古文化街店) | Amazingloong | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E7%A6%8F%E6%9D%A5%E9%94%85%E5%B7%B4%E8%8F%9C%E7%89%8C%E5%8C%BE.jpg) |
 | 登瀛楼饭庄(山西路总店) | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Deng_Ying_Lou_restaurant_at_Zhongshanmen_(20260420121359).jpg) |
 | 登瀛楼饭庄(山西路总店) | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Deng_Ying_Lou_restaurant_at_Zhongshanmen_(20260420121431).jpg) |
 | 登瀛楼饭庄(山西路总店) | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Deng_Ying_Lou_restaurant_at_Zhongshanmen_(20260420121435).jpg) |
+| 恩发德蒸饺(和平路店) | Xrdtj | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 恩发德蒸饺(和平路店) | Steffan Chen | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 恩发德蒸饺(和平路店) | Xrdtj | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 耳朵眼炸糕(古文化街店) | そらみみ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 耳朵眼炸糕(古文化街店) | gdczjkk | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 耳朵眼炸糕(古文化街店) | Xrdtj | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 耳朵眼炸糕(古文化街店) | そらみみ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 狗不理包子(和平路店) | Shubert Ciencia | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dimsum_Chef_(Tianjin,_China).jpg) |
 | 狗不理包子(和平路店) | Toby Oxborrow from Kowloon, Hong Kong | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Goubuli.jpg) |
 | 桂发祥十八街麻花(总店) | Trz1118 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%81%E5%85%AB%E8%A1%97%E5%A4%A7%E9%BA%BB%E8%8A%B1%E5%B1%95%E5%93%81.jpg) |
 | 桂发祥十八街麻花(总店) | Trz1118 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%A1%82%E5%8F%91%E7%A5%A5%E9%BA%BB%E8%8A%B1%E7%A4%BC%E7%9B%92.jpg) |
+| 桂顺斋(和平路总店) | 张彬 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 利顺德大饭店(台儿庄路店) | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Astor_Hotel_Museum_(20200515102234).jpg) |
 | 南楼煎饼(围堤道店) | Xrdtj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E6%A5%BC%E7%85%8E%E9%A5%BC_20180803.jpg) |
 | 南楼煎饼(围堤道店) | Amazingloong | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E5%8D%97%E6%A5%BC%E7%85%8E%E9%A5%BC%E9%A6%83%E5%AD%90.jpg) |
+| 南市食品街 | 张彬 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%B8%82%E9%A3%9F%E5%93%81%E8%A1%97%E9%87%8C%E4%B8%9C%E8%BE%B9%E4%BA%8C%E6%A5%BC_200612_-_panoramio.jpg) |
+| 南市食品街 | 张彬 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%B8%82%E9%A3%9F%E5%93%81%E8%A1%97%E9%87%8C%E4%B8%AD%E5%BF%83%E5%A4%84%E4%B8%9C%E5%8C%97%E6%96%B9%E5%90%91_200612_-_panoramio.jpg) |
+| 南市食品街 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E5%92%8C%E5%B9%B3%E5%8C%BA%E5%8D%97%E5%B8%82%E9%A3%9F%E5%93%81%E8%A1%97_-_panoramio.jpg) |
+| 南市食品街 | 张彬 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%B8%82%E9%A3%9F%E5%93%81%E8%A1%97%E4%B8%9C%E9%97%A8_200612_-_panoramio.jpg) |
+| 南市食品街 | Techyan | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%B8%82%E9%A3%9F%E5%93%81%E8%A1%97%E6%AD%A3%E9%97%A8.JPG) |
+| 南市食品街 | Benny | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E5%8D%97%E5%B8%82%E9%A3%9F%E5%93%81%E8%A1%97.jpg) |
+| 起士林西餐厅(小白楼店) | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 熟梨糕(古文化街摊位) | Rock com cn | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E8%A1%9B%E5%B0%8F%E5%90%83%E7%86%9F%E6%A2%A8%E8%86%8F.jpg) |
+| 西北角清真美食街区 | Reinhold Möller Ermell | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 天津滨海图书馆 | Muzzleflash | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Binhai_library_bookshelves.jpg) |
 | 天津滨海图书馆 | Muzzleflash | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Binhai_library_sphere.jpg) |
 | 天津滨海图书馆 | Suginami | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Tianjin-BinhaiXinqu_Library.jpg) |
@@ -186,6 +240,12 @@
 | 意式风情区 | 墨色鲜艳 | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E5%A0%82%E7%94%B5%E5%BD%B1%E9%99%A2%E9%A4%90%E5%8E%85.jpg) |
 | 意式风情区 | Loong | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E6%84%8F%E5%BC%8F%E9%A3%8E%E6%83%85%E5%8C%BA01.JPG) |
 | 海河游船 | Comer Zhao | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E6%B5%B7%E6%B2%B3%E6%B8%B8%E8%88%B9.jpg) |
+| 解放北路金融街 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 解放北路金融街 | Xiaotong Gao | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 解放北路金融街 | Bjoertvedt | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 解放北路金融街 | Xrdtj | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 解放北路金融街 | Bjoertvedt | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 解放北路金融街 | Bjoertvedt | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 名流相声茶馆(新华路店) | Amazingloong | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E5%90%8D%E6%B5%81%E8%8C%B6%E9%A6%86%E7%9A%84%E7%9B%B8%E5%A3%B0%E8%A1%A8%E6%BC%94.jpg) |
 | 沈阳道古物市场 | Xrdtj | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B2%88%E9%98%B3%E9%81%93%E5%8F%A4%E7%89%A9%E5%B8%82%E5%9C%BA.jpg) |
 | 天津大剧院 | ermell | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Tianjin_5227691.jpg) |

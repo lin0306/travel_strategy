@@ -16,7 +16,7 @@
       "lat": 28.18822,
       "coordSystem": "GCJ-02"
     },
-    "address": "湖南省长沙市芙蓉区黄兴南路（五一广场至南门口段）",
+    "address": "湖南省长沙市天心区黄兴南路（五一大道至南门口段）",
     "district": "天心区",
     "transportTip": "地铁1号线黄兴广场站或南门口站，出站即到"
   },
@@ -38,7 +38,10 @@
     "family"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "消费纠纷走商圈「先行赔付」：扫码或打热线，30 分钟内初核、200 元以下直接赔付",
+    "蜜雪冰城号称全球最大的旗舰店（1600㎡「雪王城堡」）2026 年 2 月开在这条街上，节假日排队较长"
+  ],
   "images": [
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/South_Huangxing_Road_1.jpg/1280px-South_Huangxing_Road_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -154,9 +157,15 @@
       "url": "https://baike.baidu.com/item/%E9%BB%84%E5%85%B4%E5%8D%97%E8%B7%AF%E6%AD%A5%E8%A1%8C%E5%95%86%E4%B8%9A%E8%A1%97",
       "kind": "wiki",
       "fetchedAt": "2026-09-28"
+    },
+    {
+      "title": "天心区委办公室回复：黄兴南路步行街 B 区统一招商与商圈管理（红网问政湖南）",
+      "url": "https://wz.rednet.cn/#/msgDetails?id=1074645",
+      "kind": "gov",
+      "fetchedAt": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -164,5 +173,59 @@
   },
   "_geocodeTitle": "黄兴南路步行商业街",
   "_geocodeSuspect": false,
-  "district": "430103"
+  "district": "430103",
+  "review": {
+    "score": 3.7,
+    "verdict": "顺路看看",
+    "facets": [
+      {
+        "label": "逛街",
+        "score": 3.5,
+        "note": "商场与连锁店为主，特色偏弱"
+      },
+      {
+        "label": "人流",
+        "score": 2.0,
+        "note": "节假日走不快"
+      },
+      {
+        "label": "夜生活",
+        "score": 4.2,
+        "note": "夜里灯牌与人流是这座城市的一面"
+      }
+    ],
+    "body": "一公里上下的步行街，从五一广场通到南门口，商业密度是长沙最高的一段，地下还有一条街，下雨天照样能逛，夜里灯牌全亮的时候确实好看。缺点是逛的内容偏常规，商场与连锁店为主，想找本地特色得拐进旁边的坡子街和太平街；节假日人流大到走不快，随身东西要看紧。把它当穿行动线而不是目的地更合适。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "逛街",
+      "雨天",
+      "夜逛"
+    ],
+    "avoid": [
+      "找本地特色",
+      "节假日"
+    ],
+    "sources": []
+  },
+  "_patrol": {
+    "at": "2026-11-14",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "湖南省长沙市芙蓉区黄兴南路（五一广场至南门口段）",
+        "new": "湖南省长沙市天心区黄兴南路（五一大道至南门口段）"
+      },
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [],
+        "new": [
+          "消费纠纷走商圈「先行赔付」：扫码或打热线，30 分钟内初核、200 元以下直接赔付",
+          "蜜雪冰城号称全球最大的旗舰店（1600㎡「雪王城堡」）2026 年 2 月开在这条街上，节假日排队较长"
+        ]
+      }
+    ],
+    "source": "https://wz.rednet.cn/#/msgDetails?id=1074645",
+    "reason": "中共长沙市天心区委办公室 2026-09-18 回复：黄兴南路步行街 B 区由天心区五一商圈管委会管辖"
+  }
 }

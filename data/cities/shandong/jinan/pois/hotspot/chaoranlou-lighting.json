@@ -1,88 +1,126 @@
 {
-  "id": "chaoranlou-lighting",
-  "name": "超然楼亮灯",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "日暮时分整座楼在几十秒内一层层亮起，岸边的人跟着一起数秒。",
-  "description": "超然楼在大明湖东岸，楼很高，白天看着是普通的仿古楼阁，真正的名场面在傍晚。天色将暗未暗时，楼上的灯会在几十秒内从下到上一层层全亮起来，岸边挤满举着手机的人，跟着一起数秒。灯全亮的那一瞬，整座楼金碧辉煌，倒影落在湖面上。想占好位置要提前半小时到，节假日人山人海。",
-  "highlights": [
-    "日暮时分数十秒亮灯",
-    "全楼金碧辉煌",
-    "湖面倒影跟着亮起"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.031869,
-      "lat": 36.675208,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "山东省济南市历下区大明湖景区超然楼",
-    "district": "历下区",
-    "transportTip": "乘公交到大明湖站，进园后沿湖东岸走"
+ "id": "chaoranlou-lighting",
+ "name": "超然楼亮灯",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "日暮时分整座楼在几十秒内一层层亮起，岸边的人跟着一起数秒。",
+ "description": "超然楼在大明湖东岸，楼很高，白天看着是普通的仿古楼阁，真正的名场面在傍晚。天色将暗未暗时，楼上的灯会在几十秒内从下到上一层层全亮起来，岸边挤满举着手机的人，跟着一起数秒。灯全亮的那一瞬，整座楼金碧辉煌，倒影落在湖面上。想占好位置要提前半小时到，节假日人山人海。",
+ "highlights": [
+  "日暮时分数十秒亮灯",
+  "全楼金碧辉煌",
+  "湖面倒影跟着亮起"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.031869,
+   "lat": 36.675208,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约十八点半到十九点半亮灯，季节有调整",
-    "openHoursRef": 0,
-    "ticket": "大明湖免费开放",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "family"
+  "address": "山东省济南市历下区大明湖景区超然楼",
+  "district": "历下区",
+  "transportTip": "乘公交到大明湖站，进园后沿湖东岸走"
+ },
+ "practical": {
+  "openHours": "约十八点半到十九点半亮灯，季节有调整",
+  "openHoursRef": 0,
+  "ticket": "大明湖免费开放",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/%E6%B5%8E%E5%8D%97%E8%B6%85%E7%84%B6%E6%A5%BC%E5%A4%9C%E6%99%AF.jpg/1280px-%E6%B5%8E%E5%8D%97%E8%B6%85%E7%84%B6%E6%A5%BC%E5%A4%9C%E6%99%AF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/%E6%B5%8E%E5%8D%97%E8%B6%85%E7%84%B6%E6%A5%BC%E5%A4%9C%E6%99%AF.jpg/1280px-%E6%B5%8E%E5%8D%97%E8%B6%85%E7%84%B6%E6%A5%BC%E5%A4%9C%E6%99%AF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "济南超然楼夜景.jpg",
-      "query": "超然楼亮灯",
-      "credit": {
-        "source": "wikimedia",
-        "author": "KangTyngrwey",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    }
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/%E6%B5%8E%E5%8D%97%E8%B6%85%E7%84%B6%E6%A5%BC%E5%A4%9C%E6%99%AF.jpg/1280px-%E6%B5%8E%E5%8D%97%E8%B6%85%E7%84%B6%E6%A5%BC%E5%A4%9C%E6%99%AF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/%E6%B5%8E%E5%8D%97%E8%B6%85%E7%84%B6%E6%A5%BC%E5%A4%9C%E6%99%AF.jpg/1280px-%E6%B5%8E%E5%8D%97%E8%B6%85%E7%84%B6%E6%A5%BC%E5%A4%9C%E6%99%AF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "济南超然楼夜景.jpg",
+   "query": "超然楼亮灯",
+   "credit": {
+    "source": "wikimedia",
+    "author": "KangTyngrwey",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "夜景",
+  "亮灯",
+  "爆火"
+ ],
+ "popularity": 95,
+ "sources": [
+  {
+   "title": "超然楼·百度百科",
+   "url": "https://baike.baidu.com/item/%E8%B6%85%E7%84%B6%E6%A5%BC",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Chaoran Tower Lighting Jinan",
+  "zh": "超然楼亮灯"
+ },
+ "_geocodeTitle": "大明湖景区-超然楼",
+ "district": "370102",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "观感",
+    "score": 4.7,
+    "note": "几十秒内一层层全亮，倒影落在湖面"
+   },
+   {
+    "label": "机位",
+    "score": 3.2,
+    "note": "岸边好位置要提前半小时占"
+   },
+   {
+    "label": "时长",
+    "score": 2.8,
+    "note": "亮完人群就散，可看的很短"
+   },
+   {
+    "label": "成本",
+    "score": 4.6,
+    "note": "大明湖免费开放"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "夜景",
-    "亮灯",
-    "爆火"
+  "body": "大明湖东岸的超然楼，白天看着是座普通的仿古楼阁，真正的名场面在傍晚：天色将暗未暗时，整座楼在几十秒里从下往上一层一层全亮起来，岸边的人跟着一起数秒，倒影落在湖面上。缺点是可看的就那么一小会儿，亮完人群就散，专程跑一趟会觉得短；好位置要提前半小时占，节假日岸边挤得转不开身。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "傍晚顺路",
+   "拍夜景"
   ],
-  "popularity": 95,
-  "sources": [
-    {
-      "title": "超然楼·百度百科",
-      "url": "https://baike.baidu.com/item/%E8%B6%85%E7%84%B6%E6%A5%BC",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "avoid": [
+   "专程跑一趟",
+   "节假日挤人群"
   ],
-  "updatedAt": "2026-11-04",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Chaoran Tower Lighting Jinan",
-    "zh": "超然楼亮灯"
-  },
-  "_geocodeTitle": "大明湖景区-超然楼",
-  "district": "370102"
+  "sources": []
+ }
 }

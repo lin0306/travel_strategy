@@ -1,89 +1,121 @@
 {
-  "id": "wanjiali",
-  "name": "万家丽广场",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "东城的大型综合体，楼顶停机坪是俯瞰长沙的一处机位。",
-  "description": "万家丽在芙蓉区万家丽中路，是一栋体量很大的综合楼，商场、酒店、写字楼叠在一起，主楼高一百多米，单层面积大，本地常把它当成一个地标来用。顶上是屋面花园与停机坪，有电梯可以直达，上去以后四周没有遮挡，往西能看五一广场那一带，往北是浏阳河方向，天气好的时候连岳麓山的轮廓都看得见，是城里少见的免费高点。晚上的夜景比白天好，灯全亮起来的时候能看清整片城区的形状。楼里是商场与餐饮，地铁 2 号线与 5 号线在万家丽广场站换乘，交通方便。",
-  "highlights": [
-    "主楼高一百多米，楼顶是屋面花园与停机坪",
-    "顶上四周无遮挡，可俯瞰五一广场与浏阳河",
-    "地铁2号线与5号线在此换乘"
-  ],
-  "location": {
-    "point": {
-      "lng": 113.031831,
-      "lat": 28.190515,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "湖南省长沙市芙蓉区万家丽中路一段99号",
-    "district": "芙蓉区",
-    "transportTip": "地铁2号线或5号线万家丽广场站，站内可达"
+ "id": "wanjiali",
+ "name": "万家丽广场",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "东城的大型综合体，楼顶停机坪是俯瞰长沙的一处机位。",
+ "description": "万家丽在芙蓉区万家丽中路，是一栋体量很大的综合楼，商场、酒店、写字楼叠在一起，主楼高一百多米，单层面积大，本地常把它当成一个地标来用。顶上是屋面花园与停机坪，有电梯可以直达，上去以后四周没有遮挡，往西能看五一广场那一带，往北是浏阳河方向，天气好的时候连岳麓山的轮廓都看得见，是城里少见的免费高点。晚上的夜景比白天好，灯全亮起来的时候能看清整片城区的形状。楼里是商场与餐饮，地铁 2 号线与 5 号线在万家丽广场站换乘，交通方便。",
+ "highlights": [
+  "主楼高一百多米，楼顶是屋面花园与停机坪",
+  "顶上四周无遮挡，可俯瞰五一广场与浏阳河",
+  "地铁2号线与5号线在此换乘"
+ ],
+ "location": {
+  "point": {
+   "lng": 113.031831,
+   "lat": 28.190515,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:00-22:00（楼顶时间以现场为准），以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费（楼顶观光以现场公告为准），以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 45-120 分钟",
-    "durationMinutes": [
-      45,
-      120
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "family",
-    "friends"
+  "address": "湖南省长沙市芙蓉区万家丽中路一段99号",
+  "district": "芙蓉区",
+  "transportTip": "地铁2号线或5号线万家丽广场站，站内可达"
+ },
+ "practical": {
+  "openHours": "约10:00-22:00（楼顶时间以现场为准），以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "免费（楼顶观光以现场公告为准），以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 45-120 分钟",
+  "durationMinutes": [
+   45,
+   120
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Wanjiali_International_Shopping_Mall_20210610.jpg/1280px-Wanjiali_International_Shopping_Mall_20210610.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Wanjiali_International_Shopping_Mall_20210610.jpg/1280px-Wanjiali_International_Shopping_Mall_20210610.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Wanjiali International Shopping Mall 20210610.jpg",
-      "query": "万家丽广场",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Huangdan2060",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "front"
-      }
-    }
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "family",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Wanjiali_International_Shopping_Mall_20210610.jpg/1280px-Wanjiali_International_Shopping_Mall_20210610.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Wanjiali_International_Shopping_Mall_20210610.jpg/1280px-Wanjiali_International_Shopping_Mall_20210610.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Wanjiali International Shopping Mall 20210610.jpg",
+   "query": "万家丽广场",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Huangdan2060",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "front"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "夜景",
+  "楼顶",
+  "商圈"
+ ],
+ "popularity": 75,
+ "sources": [
+  {
+   "title": "百度百科·万家丽",
+   "url": "https://baike.baidu.com/item/%E4%B8%87%E5%AE%B6%E4%B8%BD",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "万家丽广场"
+ },
+ "_geocodeTitle": "万家丽国际购物广场",
+ "_geocodeSuspect": false,
+ "district": "430102",
+ "review": {
+  "score": 3.6,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.0,
+    "note": "楼顶四周无遮挡，能看半城轮廓"
+   },
+   {
+    "label": "环境",
+    "score": 3.0,
+    "note": "商场人流杂，楼内动线绕"
+   },
+   {
+    "label": "开放",
+    "score": 3.2,
+    "note": "楼顶停机坪开放时间不固定，以现场为准"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "夜景",
-    "楼顶",
-    "商圈"
+  "body": "主楼一百多米，顶上屋面花园加停机坪，电梯能直达，四周没有遮挡，往西看五一广场、往北看浏阳河方向，天气好能看见岳麓山的轮廓，是城里少见的免费高点。缺点是楼内动线绕，要换几趟电梯才上得去；商场本身人流杂，楼顶开放时间不固定，晚上玻璃反光拍不清，去之前最好先在楼下问一句。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "夜景",
+   "免费高点"
   ],
-  "popularity": 75,
-  "sources": [
-    {
-      "title": "百度百科·万家丽",
-      "url": "https://baike.baidu.com/item/%E4%B8%87%E5%AE%B6%E4%B8%BD",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
+  "avoid": [
+   "把楼顶当正式观景台"
   ],
-  "updatedAt": "2026-11-05",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "万家丽广场"
-  },
-  "_geocodeTitle": "万家丽国际购物广场",
-  "_geocodeSuspect": false,
-  "district": "430102"
+  "sources": []
+ }
 }

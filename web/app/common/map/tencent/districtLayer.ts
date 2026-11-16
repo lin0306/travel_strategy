@@ -31,14 +31,18 @@ import { createTapGuard } from './tapGuard'
 
 import { visibleBadges } from './districtBadges'
 import { createGeometryStore } from './districtGeometry'
+import { createScopeOutline, SCOPE_GEOM_ID } from './districtScope'
 import { readViewport } from './viewport'
+import type { MapLevel } from './zoomTiers'
 import {
   badgeStyleIdOf,
   badgeText,
   buildBadgeStyles,
   buildDistrictStyles,
+  faceStyleId,
   type BadgeStyleId,
   type DistrictGeoNode,
+  type DistrictLayerMode,
 } from './districtStyles'
 
 /* 样式表与文案已拆到 `districtStyles.ts` —— 那里管"面与牌子长什么样"，本文件管"铺哪一级、几点可点" */
@@ -47,36 +51,30 @@ import {
  * 图层句柄
  * ────────────────────────────────────────────── */
 
-/**
- * 图层模式。
- *
- * | 模式 | 面 | 徽标 | 可点 / 可悬停 | 什么时候用 |
- * |------|----|------|--------------|-----------|
- * | `full` | ✓ | ✓ | ✓ | 省 / 市 / 区**徽标档** —— 徽标是这一档的主角（点它进去） |
- * | `reference` | ✓ | ✗ | ✗ | **点位档**（`zoom ≥ POI_REVEAL_ZOOM`）—— 面只作"我在哪个区"的参考底 |
- *
- * ★★ 为什么点位档要留面（2026-10-02 用户：「区的轮廓能不能一直都显示，现在区在放大到
- *   显示景点的时候就不会显示了，就不知道这个到底在哪个区」）：面消失之后，屏幕上只剩
- *   一堆圆点，**看不出这些景点属于哪个区** —— 而"这一片是什么区"正是选景点时的关键上下文。
- *
- * ★★ 为什么 `reference` 必须**同时**关掉徽标与点击（不能只关一半）：
- *   · 徽标：点位档的徽标会**挡住景点名字**，而且它没有可点进去的下一级；
- *   · 点击：面是**大块填充**，几乎覆盖整屏。留着 `click` ⇒ 用户点景点附近时命中面，
- *     触发"飞到该区" —— 他想点景点，镜头却飞走。这条是 `reference` 模式存在的**主要理由**。
- *   · 悬停：同理，划过一片就整块高亮，在点位档只是干扰。
- *
- *   ⚠️ 关掉面的事件**不影响**"点空白收起详情"：那个判定在点位层（`poiClicks`），
- *      它只看有没有命中点位 —— 见 `poiClicks.ts` 的抑制窗。
- */
-export type DistrictLayerMode = 'full' | 'reference'
+/** 模式与"面用哪一档样式"住在 `districtStyles.ts`（那里管"长什么样"），此处只转出去 */
+export type { DistrictLayerMode } from './districtStyles'
 
 export interface DistrictLayerHandle {
   /**
    * 铺上某一级的区划：多边形 + 计数徽标。
    * `file` 缺席时**只撒徽标** —— 边界是可选增强，不是前置条件。
    * `mode` 默认 `'full'`（见 `DistrictLayerMode`）。
+   * `faceLevel` = 这批面属于哪一级，决定描边深浅（见 `faceStyleId`）。
    */
-  setNodes(nodes: DistrictGeoNode[], file?: DistrictBoundsFile, mode?: DistrictLayerMode): void
+  setNodes(
+    nodes: DistrictGeoNode[],
+    file?: DistrictBoundsFile,
+    mode?: DistrictLayerMode,
+    faceLevel?: MapLevel,
+  ): void
+  /**
+   * 画「当前选中单位**自身**的轮廓」这一圈（粗一档，见 `buildDistrictStyles.scope`）。
+   *
+   * `adcode = null` 取消；`rings = null` 表示没取到（外框缺席不影响下级各面，别为此清屏）。
+   * ★ 与 `setNodes` 是两条**独立通道**：外框不进 `nodeByAdcode`，也不参与徽标 / 点击 ——
+   *   混在一起会造出一个"没有徽标却能点"的怪面。实现见 `districtScope.ts`。
+   */
+  setScopeOutline(adcode: string | null, rings: number[][] | null): void
   /**
    * 缩放 / 平移结束后重算**徽标可见集合**。
    *
@@ -98,17 +96,15 @@ export interface DistrictLayerHandle {
   destroy(): void
 }
 
-/** `stats()` 的返回值。全部是**读数**，不是意图 */
+/**
+ * `stats()` 的返回值。全部是**读数**，不是意图。
+ * 顺序：缩放 · 候选节点数 · 上屏徽标数（过完避让）· 徽标文字（≤12）· 面数（含作用域外框）
+ */
 export interface DistrictLayerStats {
-  /** 最近一次重刷时的缩放 */
   zoom: number
-  /** 这一级一共挂在图层里的区划节点数（候选） */
   total: number
-  /** 实际挂上地图的徽标数（过完避让与视口裁剪） */
   badges: number
-  /** 实际挂上地图的徽标文字（最多 12 条） */
   badgeTexts: string[]
-  /** 实际挂上地图的行政面数 */
   polygons: number
 }
 
@@ -146,6 +142,8 @@ export function createDistrictLayer(map: TMap.Map, opts: DistrictLayerOptions): 
   let active: string | null = null
   /** 当前模式（见 `DistrictLayerMode`）。`reference` = 只画参考面，不画徽标也不接事件 */
   let mode: DistrictLayerMode = 'full'
+  /** 这一屏的面属于哪一级 —— 描边深浅按它走（不是按缩放，见 P2） */
+  let faceLevel: MapLevel = 'province'
   /**
    * 上一次真正交给 `badges.setGeometries()` 的**内容签名**（adcode + 样式）。
    * 拖拽只改投影、不改地理坐标 ⇒ 内容不变时重设纯属白做（见 `repaintBadges`）。
@@ -170,42 +168,14 @@ export function createDistrictLayer(map: TMap.Map, opts: DistrictLayerOptions): 
   const geo = createGeometryStore()
 
   /**
-   * 面用的样式 id。
-   *
-   * 现在只会返回两个值（`face` / `reference`）—— 面的**颜色区分已经全部取消**：
-   * 不按收录数量分档、不填充、不因悬浮/选中变色。
-   * ★ **不许**拿它去设徽标 —— 见 `badgeStyleOf`。
+   * 作用域外框（选中单位**自身**的轮廓）。
+   * ★ 与 `polygonPaths` 分开存：那份 Map 在 `setNodes` 里会被 `clear()`，
+   *   而外框与"这一屏铺哪一级"无关 —— 换级时它得留着。实现见 `districtScope.ts`。
    */
-  function styleIdOf(node: DistrictGeoNode): string {
-    // ★ 点位档的面与普通面唯一的分歧：**边框深一点**。
-    //   那不是"颜色区分"，是底图不同 —— 点位档落在 z≥12 的街道底图上，
-    //   0.65 的淡线会被浅色路网吃掉。见 `buildDistrictStyles.reference`。
-    if (mode === 'reference') return 'reference'
-    // ★★ 2026-10-03 用户：「这个轮廓的悬浮高亮去掉，会卡」。
-    //   这里原来还有一条 `if (node.adcode === hovered) return 'hover'`。**问题不在这一行**，
-    //   而在它背后的路径：`onHover` 每次变化都调 `repaint()`，而 `repaint()` 是
-    //   **全量** `polygons.setGeometries(geo)`（面**没有**内容签名短路，只有徽标有，
-    //   见 `repaint` 与 `repaintBadges` 的对比）。区这一级一屏几百个面、每个面几百到
-    //   上千个顶点 ⇒ 鼠标每划过一条边界就重建整批多边形。这就是"卡"的来源。
-    //
-    //   ⚠️ **不要**想着"给面加个签名短路再把 hover 加回来"：面的签名要覆盖
-    //      全部 adcode + 样式 + 几何，而 hover 恰好只改**其中一个** adcode 的样式 ——
-    //      签名必然变化 ⇒ 还是全量重建。要真做就得按 id 做**增量**更新，SDK 没这 API。
-    //   ⇒ 面的 hover 档就此取消。`hovered` 变量仍保留，它现在**只**服务徽标联动。
-    //
-    // ★★ 2026-10-03 另一条：**面不再按收录数量分档**（用户「轮廓的不同数量显示不同的
-    //   颜色区分也去掉，标签已经有做区分了」）⇒ 普通面一律返回 `'face'`，
-    //   详见 `buildDistrictStyles` 里 `face` 那段。
-    //
-    // ★★ 2026-10-03 第三条：**`active` 档也删了**（用户「所有颜色区分都去掉，
-    //   背景色不需要，只需要边框」「不需要整个轮廓都高亮」）。
-    //   "我选中了哪个区"由徽标（`badgeActive`）说明。连带好处：`setActive()` 不再
-    //   需要全量 `repaint()` —— 见那边。
-    return 'face'
-  }
+  const outline = createScopeOutline(geo)
 
   /**
-   * 徽标用的样式 id。★ 与 `styleIdOf` **必须分开** ——
+   * 徽标用的样式 id。★ 与面的 `faceStyleId` **必须分开** ——
    * 2026-10-02 用户报「标签的背景色没了」就是这两个混用造成的：
    * 面用的 `sparse/medium/…` 在徽标样式表里一个都没有，SDK 不报错，
    * 只让每个牌子退回默认样式（白底圆角全丢）。详见 `BadgeStyleId`。
@@ -273,21 +243,35 @@ export function createDistrictLayer(map: TMap.Map, opts: DistrictLayerOptions): 
   }
 
   function repaint() {
+    // ★ 只量一次 —— 样式档由 `faceLevel`（揭示级）决定，不再读缩放；
+    //   在 `.map()` 里逐节点重复算是 140 次无谓开销
+    const faceId = faceStyleId(mode, faceLevel)
     // ★ 没有边界几何的节点**不能**塞给 MultiPolygon —— 传 `paths: []` 时 SDK 会对
     //   每个节点刷一条「第 N 元素的 paths 属性无效」的 console.error（34 个省就是 34 条），
     //   把真正的错误淹没掉。边界是可选增强，缺席时只撒徽标即可。
-    const geo = [...nodeByAdcode.values()]
+    const shapes = [...nodeByAdcode.values()]
       .map((n) => ({
         id: n.adcode,
-        styleId: styleIdOf(n),
+        // ★ 街道底图上区界要更硬，档位由这一屏的 faceLevel 决定
+        styleId: faceId,
         // 环在 setNodes 时已解码好，这里靠 geometry id 复用；腾讯按 id 更新样式
         paths: polygonPaths.get(n.adcode) ?? [],
       }))
       .filter((g) => g.paths.length > 0)
 
-    polygons.setGeometries(geo)
+    /**
+     * ★ 作用域外框**追加在最后**（绘制顺序即数组顺序）。
+     *
+     * 它画的是"选中那一整个省/市/区"，几何上**包住**了下级各面 ——
+     * 放在前面会被后画的市界/区界压过一条边，看起来那一圈时粗时细。
+     */
+    const ring = outline.paths()
+    if (ring) shapes.push({ id: SCOPE_GEOM_ID, styleId: 'scope', paths: ring })
+
+    polygons.setGeometries(shapes)
     // 面数与徽标分两步记：`repaintBadges` 里用 `...stats` 合并，不会把这里覆盖掉
-    stats = { ...stats, polygons: geo.length }
+    // ★ 含作用域外框那一条 —— 探针读到的 `polys` 因此会比"下级节点数"多 1，属正常
+    stats = { ...stats, polygons: shapes.length }
     // ★ 徽标必须跟着一起重刷 —— 只刷多边形会出现「面高亮了、牌子还是灰的」
     repaintBadges()
   }
@@ -337,7 +321,7 @@ export function createDistrictLayer(map: TMap.Map, opts: DistrictLayerOptions): 
     // ★★ 2026-10-03：这里原来是 `repaint()` —— 一次 hover 变化就把**所有**面的几何
     //   重新交给 SDK（`polygons.setGeometries`，区级几百个多边形），
     //   用户的原话是「这个轮廓的悬浮高亮去掉，会卡」。
-    //   面的 hover 档已经取消（见 `styleIdOf`），所以**面不需要重设**；
+    //   面的 hover 档已经取消（见 `districtStyles.faceStyleId`），所以**面不需要重设**；
     //   只留徽标的联动 —— 徽标几何少（避让后几十个点）、且 `repaintBadges` 自带内容
     //   签名短路，重设很便宜。这两者的差价就是"卡"与"不卡"的区别。
     repaintBadges()
@@ -347,8 +331,9 @@ export function createDistrictLayer(map: TMap.Map, opts: DistrictLayerOptions): 
   badges.on('hover', onHover)
 
   return {
-    setNodes(nodes, file, nextMode) {
+    setNodes(nodes, file, nextMode, nextFaceLevel) {
       mode = nextMode ?? 'full'
+      faceLevel = nextFaceLevel ?? 'province'
       nodeByAdcode = new Map(nodes.map((n) => [n.adcode, n]))
       polygonPaths.clear()
 
@@ -363,7 +348,7 @@ export function createDistrictLayer(map: TMap.Map, opts: DistrictLayerOptions): 
       }
 
       // 换级时清掉悬浮态：上一级的 adcode 不会出现在新一级里，
-      // 留着只会让 styleIdOf 白比较一次（无害但会让"悬浮中"的语义变脏）
+      // 留着只会让 `faceStyleId` 白算一次（无害但会让"悬浮中"的语义变脏）
       hovered = null
       repaint()
     },
@@ -380,8 +365,16 @@ export function createDistrictLayer(map: TMap.Map, opts: DistrictLayerOptions): 
       polygonPaths.clear()
       hovered = null
       active = null
+      // ★ 外框一起清：清屏的语义是"这一屏什么都不画"，留着一条孤零零的省界
+      //   会让"没内容"看起来像"有内容但没徽标"。
+      outline.clear()
       // zoom 保留 —— 地图还停在那个缩放上，清掉的只是内容
       stats = { ...stats, total: 0, badges: 0, badgeTexts: [], polygons: 0 }
+    },
+
+    setScopeOutline(adcode, rings) {
+      // 只有真的变了才重铺（`repaint` 是**全量** `setGeometries`，白刷一次不便宜）
+      if (outline.set(adcode, rings)) repaint()
     },
 
     setActive(adcode) {

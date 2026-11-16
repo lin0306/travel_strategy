@@ -148,6 +148,51 @@ class PoiPractical(BaseModel):
         return v
 
 
+class ReviewFacet(BaseModel):
+    """AI 点评里的**一条分项判断**（这一方面好不好）。
+
+    ★ 与入库打分的四维（`tools/rate_poi.py` 的口碑/独特/密度/可信）是**两回事**，
+      别把两者对齐或互相换算：
+        · 四维是**闸门** —— 固定口径、可复现，回答"这个点位该不该收录"；
+        · facet 是**解释** —— 按点位自己的性质取，回答"它好在哪、差在哪"。
+      博物馆关注展陈与人流，爬山关注体力与视野，美食街关注口味与排队 ——
+      固定四维翻译不出这些，硬套会让所有卡片长得一样。
+    """
+
+    label: str = Field(min_length=2, max_length=6, description="2~6 字，如「展陈」「人流」「排队」")
+    score: float = Field(ge=0, le=5)
+    note: Optional[str] = Field(default=None, max_length=40, description="一句话依据，一行内说得完")
+
+
+class PoiReview(BaseModel):
+    """**AI 点评** —— 详情页那张卡片的全部内容，也是列表分数徽标的来源。
+
+    ## 为什么要单独一段而不是复用 description
+    `description` 是**中立的事实介绍**（哪年建的、有什么、怎么看），它不能带立场。
+    用户要的恰恰是立场：值不值得去、谁适合去、有什么坑。两件事写在同一段里，
+    就变成"介绍里夹私货"，两边都做不好。
+
+    ## 免责是硬要求（用户 2026-11-10 明确要求）
+    分数来自网络公开信息的 AI 归纳，**不保证准确**。所以：
+      · `basis` 必须标清这份点评是「联网复核过」还是「只根据站内资料」；
+      · 前端卡片与「关于」弹窗都必须出现免责说明（`check_app` 的 AZ 组有判据）；
+      · 绝不把它包装成"用户评分"或"官方评定" —— 那是伪造权威。
+    """
+
+    score: float = Field(ge=0, le=5, description="综合分，与入库打分同源（四维加权），列表按它排序")
+    verdict: Literal["专程去", "值得一去", "顺路看看", "时间富余再说"]
+    facets: list[ReviewFacet] = Field(min_length=2, max_length=5,
+                                      description="2~5 条，按这点位自己的性质取，不必凑满")
+    body: str = Field(min_length=40, max_length=400,
+                      description="点评正文。必须含**至少一句负面** —— 只夸不贬等于没写")
+    fits: list[str] = Field(default_factory=list, description="适合谁，2~6 字短标签")
+    avoid: list[str] = Field(default_factory=list, description="不适合谁 / 什么情况别来")
+    basis: Literal["web", "corpus"] = Field(
+        description="web = 联网查过风评与官方口径；corpus = 只用站内已核实资料合成")
+    sources: list[str] = Field(default_factory=list, description="basis=web 时的真实链接")
+    at: str = Field(description="生成日期 YYYY-MM-DD —— 点评会过期，必须能看出多旧")
+
+
 class PoiLocation(BaseModel):
     point: GeoPoint
     # ★ 到达点：高德 entr_location（入口坐标）。
@@ -182,7 +227,10 @@ class Poi(BaseModel):
     # ★ 允许 0 张：图源（Unsplash / Pexels / 百科）覆盖不全时必然有 POI 取不到图，
     #   04 文档 4.2 第 ④ 条就是「留空 + 前端渲染占位卡」。把它定成 min_length=1
     #   等于宣布"图源不全就不许发版"。「step4 没跑」由 build 用 `_noImage` 标记区分。
-    images: list[ImageItem] = Field(default_factory=list, max_length=8)
+    # ★ 2026-11-08 去掉 `max_length=8`：候选补图链路已取消张数上限，
+    #   AI 逐张看图判 ok 的图全部写回。这里再留 8 会让 build 把合法数据判成
+    #   ValidationError。张数由「看图判定」把关，不再由契约数字把关。
+    images: list[ImageItem] = Field(default_factory=list)
     coverIndex: int = Field(default=0, ge=0)
     tags: list[str] = Field(default_factory=list)
     popularity: int = Field(
@@ -190,6 +238,9 @@ class Poi(BaseModel):
         description="★ 必填：自研标注避让依赖它排序，缺了该点在低 zoom 下永远不显示标注",
     )
     sources: list[SourceRef] = Field(min_length=1)
+    # ★ 可选：没生成点评的点位**不写这个字段**（不是写空对象）。
+    #   前端判据是 `poi.review` 有无，有才渲染卡片；没有就整块不出现。
+    review: Optional[PoiReview] = None
     updatedAt: str
     # ★ 派生字段（由 `build` 用坐标点在区多边形内判定后写回，**人手不填**）。
     #   它回答"这个点位属于哪个区"，是四级下钻里「区 → 景点」这一跳的唯一依据。
@@ -300,6 +351,34 @@ class City(BaseModel):
                     f"POI「{p.id}」坐标 ({pt.lng}, {pt.lat}) 落在城市 bbox {self.bbox} 之外"
                 )
         return self
+
+
+# ══════════════════════════════════════════════════════════════════
+# 五之二、省级展示层（data/provinces/index.json，2026-11-14）
+# ══════════════════════════════════════════════════════════════════
+
+
+class ProvinceContent(BaseModel):
+    """一个省级单位的**可读内容**。
+
+    ★ 省级在 `data/` 里原本只有区划与边界（`_generated/provinces/*.geo.json`），
+      没有任何可以给人读的东西 —— 首页省卡只能拿"下辖几个市/收了哪几座"凑一段话。
+      这里补的是「这个省是什么样」，与市级的 `City.intro` / `heroImages` 对齐。
+
+    ★ `heroImages` 允许为空：省封面要逐张看图后才写回（`tools/province_cover.py`），
+      没审完之前整块不渲染 —— 不像 `City.heroImages` 那样 `min_length=1`，
+      因为城市封面是"点进这座城市唯一的视觉锚点"，省卡没有它也成立。
+    """
+
+    intro: str = Field(min_length=60, description="采编正文，真实人文地理，不编数据")
+    heroImages: list[ImageItem] = Field(default_factory=list, max_length=3)
+
+
+class ProvinceIndex(BaseModel):
+    """`data/provinces/index.json` 的整体形状。键 = 6 位省级 adcode。"""
+
+    updatedAt: str
+    provinces: dict[str, ProvinceContent] = Field(default_factory=dict)
 
 
 # ══════════════════════════════════════════════════════════════════

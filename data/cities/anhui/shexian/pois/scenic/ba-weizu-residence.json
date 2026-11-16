@@ -88,21 +88,6 @@
       }
     },
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Shexian_Yuliang_2016.11.13_07-48-41.jpg/1280px-Shexian_Yuliang_2016.11.13_07-48-41.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Shexian_Yuliang_2016.11.13_07-48-41.jpg/1280px-Shexian_Yuliang_2016.11.13_07-48-41.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1620,
-      "alt": "Shexian Yuliang 2016.11.13 07-48-41.jpg",
-      "query": "Ba Weizu Former Residence",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangzhugang",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shexian_Yuliang_2016.11.13_07-48-41.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Shexian_Yuliang_2016.11.13_07-48-56.jpg/1280px-Shexian_Yuliang_2016.11.13_07-48-56.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Shexian_Yuliang_2016.11.13_07-48-56.jpg/1280px-Shexian_Yuliang_2016.11.13_07-48-56.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
@@ -150,7 +135,7 @@
       "fetchedAt": "2026-11-04"
     }
   ],
-  "updatedAt": "2026-11-04",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Ba Weizu Former Residence",
@@ -158,5 +143,12 @@
   },
   "_geocodeTitle": "巴慰祖故居",
   "_geocodeSuspect": false,
-  "district": "341021"
+  "district": "341021",
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 1 张（待重抓）",
+    "droppedImages": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Shexian_Yuliang_2016.11.13_07-48-41.jpg/1280px-Shexian_Yuliang_2016.11.13_07-48-41.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  }
 }

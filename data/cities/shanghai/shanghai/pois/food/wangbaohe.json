@@ -21,7 +21,7 @@
     "transportTip": "地铁1号线/2号线/8号线人民广场站步行"
   },
   "practical": {
-    "openHours": "约11:00-21:00(以门店公告为准)",
+    "openHours": "午市 11:00-13:30、晚市 17:00-21:00（蟹季以门店公告为准）",
     "openHoursRef": 0,
     "ticket": "人均约180元起(蟹季更高)，以门店为准",
     "ticketRef": 0,
@@ -97,9 +97,15 @@
       "url": "https://baike.baidu.com/item/%E7%8E%8B%E5%AE%9D%E5%92%8C",
       "kind": "wiki",
       "fetchedAt": "2026-09-19"
+    },
+    {
+      "title": "王宝和酒家官方公众号 · 蟹宴活动页",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4NjY0NjgwNg==&mid=2656320837&idx=4&sn=ed298f4cd65baa2325197a3e31bb969d",
+      "kind": "media",
+      "fetchedAt": "2026-11-12"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-12",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -107,5 +113,17 @@
   },
   "_geocodeTitle": "王宝和酒家(黄浦店)",
   "_geocodeSuspect": false,
-  "district": "310101"
+  "district": "310101",
+  "_patrol": {
+    "at": "2026-11-12",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "约11:00-21:00(以门店公告为准)",
+        "new": "午市 11:00-13:30、晚市 17:00-21:00（蟹季以门店公告为准）"
+      }
+    ],
+    "source": "https://mp.weixin.qq.com/s?__biz=MzA4NjY0NjgwNg==&mid=2656320837&idx=4&sn=ed298f4cd65baa2325197a3e31bb969d",
+    "reason": "王宝和官方公众号活动页午市11:00-13:30晚市17:00-21:00"
+  }
 }

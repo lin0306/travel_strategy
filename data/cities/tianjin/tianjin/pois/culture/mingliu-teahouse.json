@@ -21,9 +21,9 @@
     "transportTip": "地铁1号线或3号线营口道站，步行约十分钟"
   },
   "practical": {
-    "openHours": "约13:00-22:00（按场次），以门店公告为准",
+    "openHours": "按场次：平日 15:00-17:00 / 19:30-21:30；周末 13:00 起，末场 19:30-21:30",
     "openHoursRef": 0,
-    "ticket": "人均约80元起（按场次），以门店为准",
+    "ticket": "单人票 55 元起（惠民区，原价 60）；纯享区 85 元、互动区 108 元，另有双人 105-230 元套票",
     "ticketRef": 0,
     "duration": "建议 90-150 分钟",
     "durationMinutes": [
@@ -70,14 +70,37 @@
       "url": "https://baike.baidu.com/item/%E5%A4%A9%E6%B4%A5%E7%9B%B8%E5%A3%B0",
       "kind": "wiki",
       "fetchedAt": "2026-09-27"
+    },
+    {
+      "title": "名流茶馆官网场次与票价表",
+      "url": "http://mingliuchaguan.com/10/2.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
     "zh": "名流茶馆(新华路店)"
   },
   "_geocodeTitle": "名流相声茶馆(和平路店)",
-  "district": "120101"
+  "district": "120101",
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "约13:00-22:00（按场次），以门店公告为准",
+        "new": "按场次：平日 15:00-17:00 / 19:30-21:30；周末 13:00 起，末场 19:30-21:30"
+      },
+      {
+        "field": "门票",
+        "old": "人均约80元起（按场次），以门店为准",
+        "new": "单人票 55 元起（惠民区，原价 60）；纯享区 85 元、互动区 108 元，另有双人 105-230 元套票"
+      }
+    ],
+    "source": "http://mingliuchaguan.com/10/2.html",
+    "reason": "名流茶馆官网场次与票价表"
+  }
 }

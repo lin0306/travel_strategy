@@ -20,9 +20,9 @@
     "transportTip": "地铁 2 号线人民公园站 B 口出"
   },
   "practical": {
-    "openHours": "约 09:00-20:00（以门店公告为准）",
+    "openHours": "08:30-20:00（以门店公告为准）",
     "openHoursRef": 0,
-    "ticket": "人均约 49 元起",
+    "ticket": "人均约 32 元起",
     "ticketRef": 0,
     "duration": "建议 45-75 分钟",
     "durationMinutes": [
@@ -88,9 +88,21 @@
       "url": "https://m.toutiao.com/article/7632398778288456243/",
       "kind": "media",
       "fetchedAt": "2026-09-18"
+    },
+    {
+      "title": "四川省商务厅中华老字号复核公示（经四川发布/青羊商务发布）：钟水饺总店营业时间周",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzI5NDI3MzkyNw==&mid=2247614026&idx=1&sn=8be1728e6d795758fafecc057fbd0c79",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
+    },
+    {
+      "title": "携程餐厅页 + 腾讯地图 POI",
+      "url": "https://you.ctrip.com/food/chengdu104/5234159-dianping.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Chengdu dumplings chili oil",
@@ -98,5 +110,17 @@
   },
   "_geocodeTitle": "钟水饺(人民公园总店)",
   "_geocodeSuspect": false,
-  "district": "510105"
+  "district": "510105",
+  "_patrol": {
+    "at": "2026-11-08",
+    "changes": [
+      {
+        "field": "门票",
+        "old": "人均约 49 元起",
+        "new": "人均约 32 元起"
+      }
+    ],
+    "source": "https://you.ctrip.com/food/chengdu104/5234159-dianping.html",
+    "reason": "原「人均49元」无来源支持；携程用户反馈与图商POI均为32元，多家攻略写12-35元\r"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "红美术馆",
   "category": "hotspot",
   "subtype": "art",
-  "summary": "藏在天府广场地下的一座红色当代艺术空间",
+  "summary": "东湖公园里的旧工业风艺术空间，红砖墙与白色螺旋梯是招牌机位",
   "description": "红美术馆位于天府广场负一层，是成都较早进入公共视野的民营当代美术馆之一，长期专注当代绘画、装置与青年艺术家个案。馆内的红色主调与外部的下沉庭院构成强烈反差，加上位于地下、天然隔绝噪声，观感相当安静。它规模不大，一两个小时可以完整看完，适合与旁边的成都博物馆、四川科技馆安排在同一个下午——步行几步就是天府广场。免费但对部分特展可能另收门票，去前可留意当期展览。",
   "highlights": [
     "天府广场地下的民营当代美术馆，红调空间辨识度高",
@@ -15,7 +15,7 @@
       "lat": 30.614192,
       "coordSystem": "GCJ-02"
     },
-    "address": "成都市青羊区人民中路一段 20 号天府广场负一层",
+    "address": "成都市锦江区二环路东五段 299 号附 6 号（东湖公园西大门内）",
     "district": "锦江区",
     "transportTip": "地铁 1/2 号线天府广场站步行约 200 米"
   },
@@ -41,7 +41,23 @@
     "出发前先看当期展览信息",
     "与成都博物馆、科技馆步行可达，可连成一条线"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/%E6%9D%AD%E5%B7%9E%E5%B7%A5%E8%89%BA%E7%BE%8E%E6%9C%AF%E5%8D%9A%E7%89%A9%E9%A6%86%2C_2021-11-13_04.jpg/1280px-%E6%9D%AD%E5%B7%9E%E5%B7%A5%E8%89%BA%E7%BE%8E%E6%9C%AF%E5%8D%9A%E7%89%A9%E9%A6%86%2C_2021-11-13_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/%E6%9D%AD%E5%B7%9E%E5%B7%A5%E8%89%BA%E7%BE%8E%E6%9C%AF%E5%8D%9A%E7%89%A9%E9%A6%86%2C_2021-11-13_04.jpg/1280px-%E6%9D%AD%E5%B7%9E%E5%B7%A5%E8%89%BA%E7%BE%8E%E6%9C%AF%E5%8D%9A%E7%89%A9%E9%A6%86%2C_2021-11-13_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 721,
+      "alt": "杭州工艺美术博物馆, 2021-11-13 04.jpg",
+      "query": "红美术馆",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Siyuwj",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%9D%AD%E5%B7%9E%E5%B7%A5%E8%89%BA%E7%BE%8E%E6%9C%AF%E5%8D%9A%E7%89%A9%E9%A6%86,_2021-11-13_04.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
   "coverIndex": 0,
   "tags": [
     "当代艺术",
@@ -55,9 +71,21 @@
       "url": "https://baike.baidu.com/item/%E5%A4%A9%E5%BA%9C%E5%B9%BF%E5%9C%BA",
       "kind": "wiki",
       "fetchedAt": "2026-09-18"
+    },
+    {
+      "title": "新浪(成都美术馆地图) + 腾讯地图 POI",
+      "url": "https://k.sina.cn/article_2810373291_a782e4ab034009pfx.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
+    },
+    {
+      "title": "锦界(锦江公园官号)",
+      "url": "https://jinjie.chuanbaoguancha.cn/news/91818",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Chengdu contemporary art museum",
@@ -67,5 +95,16 @@
   "_geocodeTitle": "红美术馆",
   "_geocodeSuspect": false,
   "district": "510104",
-  "_noImage": true
+  "_patrol": {
+    "at": "2026-11-08",
+    "changes": [
+      {
+        "field": "一句话简介",
+        "old": "藏在天府广场地下的一座红色当代艺术空间",
+        "new": "东湖公园里的旧工业风艺术空间，红砖墙与白色螺旋梯是招牌机位"
+      }
+    ],
+    "source": "https://jinjie.chuanbaoguancha.cn/news/91818",
+    "reason": "原简介「藏在天府广场地下」与真实地址矛盾，按锦界/新浪口径改写\r"
+  }
 }

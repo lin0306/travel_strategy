@@ -1,89 +1,127 @@
 {
-  "id": "shaolin-kungfu",
-  "name": "少林功夫",
-  "category": "culture",
-  "subtype": "performance",
-  "summary": "少林寺传下来的武术体系，套路硬朗，武僧表演是登封最值得看的演出。",
-  "description": "少林功夫是发源于少林寺的一套武术体系，从寺里武僧护寺与修行之需长出来，历经数百年形成了拳法、器械、功法俱全的规模。特点是刚猛直接，发力干脆，套路短小但节奏紧，拳脚带风。今天在少林寺景区每天都有武僧表演，一套拳、一趟棍、一段硬气功挨着来，十几分钟一场，看得人屏息。想学的人可以报周边的武术学校，短期的体验班也有。",
-  "highlights": [
-    "禅武合一的武术体系",
-    "武僧每日表演",
-    "拳法器械功法俱全"
-  ],
-  "location": {
-    "point": {
-      "lng": 112.97446,
-      "lat": 34.519188,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河南省郑州市登封市少林寺景区武术表演馆",
-    "district": "登封市",
-    "transportTip": "郑州乘班车到登封再转景区车，进少林寺后按表演时间前往"
+ "id": "shaolin-kungfu",
+ "name": "少林功夫",
+ "category": "culture",
+ "subtype": "performance",
+ "summary": "少林寺传下来的武术体系，套路硬朗，武僧表演是登封最值得看的演出。",
+ "description": "少林功夫是发源于少林寺的一套武术体系，从寺里武僧护寺与修行之需长出来，历经数百年形成了拳法、器械、功法俱全的规模。特点是刚猛直接，发力干脆，套路短小但节奏紧，拳脚带风。今天在少林寺景区每天都有武僧表演，一套拳、一趟棍、一段硬气功挨着来，十几分钟一场，看得人屏息。想学的人可以报周边的武术学校，短期的体验班也有。",
+ "highlights": [
+  "禅武合一的武术体系",
+  "武僧每日表演",
+  "拳法器械功法俱全"
+ ],
+ "location": {
+  "point": {
+   "lng": 112.97446,
+   "lat": 34.519188,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "每日多场，以景区当日公告为准",
-    "openHoursRef": 0,
-    "ticket": "含在少林寺门票内，约80元起，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "kids",
-    "family",
-    "friends"
+  "address": "河南省郑州市登封市少林寺景区武术表演馆",
+  "district": "登封市",
+  "transportTip": "郑州乘班车到登封再转景区车，进少林寺后按表演时间前往"
+ },
+ "practical": {
+  "openHours": "每日多场，以景区当日公告为准",
+  "openHoursRef": 0,
+  "ticket": "含在少林寺门票内，约80元起，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Shaolin_monks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Shaolin_monks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "Shaolin monks.jpg",
-      "query": "少林功夫",
-      "credit": {
-        "source": "wikimedia",
-        "author": "podoboq",
-        "sourceUrl": "https://www.wikidata.org/wiki/Q855119",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "inside"
-      }
-    }
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "kids",
+  "family",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Shaolin_monks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Shaolin_monks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "Shaolin monks.jpg",
+   "query": "少林功夫",
+   "credit": {
+    "source": "wikimedia",
+    "author": "podoboq",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q855119",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "inside"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "少林功夫",
+  "武术",
+  "表演"
+ ],
+ "popularity": 95,
+ "sources": [
+  {
+   "title": "少林功夫·百度百科",
+   "url": "https://baike.baidu.com/item/%E5%B0%91%E6%9E%97%E5%8A%9F%E5%A4%AB",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Shaolin Kungfu Dengfeng",
+  "zh": "少林功夫"
+ },
+ "_geocodeTitle": "少林功夫传习基地",
+ "_geocodeSuspect": false,
+ "district": "410185",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "观感",
+    "score": 4.5,
+    "note": "十几分钟一场，硬气功最抓人"
+   },
+   {
+    "label": "时长",
+    "score": 3.0,
+    "note": "每场短，赶场次要在门口等"
+   },
+   {
+    "label": "人流",
+    "score": 2.9,
+    "note": "节假日表演厅站都站不下"
+   },
+   {
+    "label": "性价比",
+    "score": 4.0,
+    "note": "含在少林寺门票内，不另收费"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "少林功夫",
-    "武术",
-    "表演"
+  "body": "少林功夫刚猛直接，套路短、节奏紧，武僧每天在景区里演，一套拳、一趟棍、一段硬气功挨着来，十几分钟一场，看得人屏息。它含在少林寺门票里，不额外花钱。缺点是每场时间短，为了赶场次得在表演厅门口干等；节假日厅里站都站不下，想看清楚得提前占前排。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "亲子",
+   "武术爱好者"
   ],
-  "popularity": 95,
-  "sources": [
-    {
-      "title": "少林功夫·百度百科",
-      "url": "https://baike.baidu.com/item/%E5%B0%91%E6%9E%97%E5%8A%9F%E5%A4%AB",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "avoid": [
+   "只想看长演出",
+   "节假日中场"
   ],
-  "updatedAt": "2026-11-04",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Shaolin Kungfu Dengfeng",
-    "zh": "少林功夫"
-  },
-  "_geocodeTitle": "少林功夫传习基地",
-  "_geocodeSuspect": false,
-  "district": "410185"
+  "sources": []
+ }
 }

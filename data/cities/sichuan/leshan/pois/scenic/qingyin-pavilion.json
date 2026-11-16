@@ -41,21 +41,6 @@
   "tips": [],
   "images": [
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/%E5%B3%A8%E7%9C%89%E5%B1%B1%E6%99%AF%E5%8C%BA%E6%B8%85%E9%9F%B3%E9%98%81%E4%B9%8B%E3%80%8A%E5%8F%8C%E6%A1%A5%E6%B8%85%E9%9F%B3%E3%80%8B.jpg/1280px-%E5%B3%A8%E7%9C%89%E5%B1%B1%E6%99%AF%E5%8C%BA%E6%B8%85%E9%9F%B3%E9%98%81%E4%B9%8B%E3%80%8A%E5%8F%8C%E6%A1%A5%E6%B8%85%E9%9F%B3%E3%80%8B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/%E5%B3%A8%E7%9C%89%E5%B1%B1%E6%99%AF%E5%8C%BA%E6%B8%85%E9%9F%B3%E9%98%81%E4%B9%8B%E3%80%8A%E5%8F%8C%E6%A1%A5%E6%B8%85%E9%9F%B3%E3%80%8B.jpg/1280px-%E5%B3%A8%E7%9C%89%E5%B1%B1%E6%99%AF%E5%8C%BA%E6%B8%85%E9%9F%B3%E9%98%81%E4%B9%8B%E3%80%8A%E5%8F%8C%E6%A1%A5%E6%B8%85%E9%9F%B3%E3%80%8B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "峨眉山景区清音阁之《双桥清音》.jpg",
-      "query": "清音阁",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Liuxingy",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B3%A8%E7%9C%89%E5%B1%B1%E6%99%AF%E5%8C%BA%E6%B8%85%E9%9F%B3%E9%98%81%E4%B9%8B%E3%80%8A%E5%8F%8C%E6%A1%A5%E6%B8%85%E9%9F%B3%E3%80%8B.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/%E5%B3%A8%E7%9C%89%E5%B1%B1%E6%B8%85%E9%9F%B3%E9%98%81%2C_2005-07-16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/%E5%B3%A8%E7%9C%89%E5%B1%B1%E6%B8%85%E9%9F%B3%E9%98%81%2C_2005-07-16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "width": 1080,
@@ -131,7 +116,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Qingyin Pavilion Emei",
@@ -139,5 +124,12 @@
   },
   "_geocodeTitle": "清音阁",
   "_geocodeSuspect": false,
-  "district": "511181"
+  "district": "511181",
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 1 张（待重抓）",
+    "droppedImages": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/%E5%B3%A8%E7%9C%89%E5%B1%B1%E6%99%AF%E5%8C%BA%E6%B8%85%E9%9F%B3%E9%98%81%E4%B9%8B%E3%80%8A%E5%8F%8C%E6%A1%A5%E6%B8%85%E9%9F%B3%E3%80%8B.jpg/1280px-%E5%B3%A8%E7%9C%89%E5%B1%B1%E6%99%AF%E5%8C%BA%E6%B8%85%E9%9F%B3%E9%98%81%E4%B9%8B%E3%80%8A%E5%8F%8C%E6%A1%A5%E6%B8%85%E9%9F%B3%E3%80%8B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  }
 }

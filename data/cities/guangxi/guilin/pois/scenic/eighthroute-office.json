@@ -17,11 +17,11 @@
       "coordSystem": "GCJ-02"
     },
     "address": "广西壮族自治区桂林市叠彩区中山北路14号八路军桂林办事处纪念馆",
-    "district": "秀峰区",
+    "district": "叠彩区",
     "transportTip": "市区乘公交至凤北路站；从叠彩山步行约十五分钟"
   },
   "practical": {
-    "openHours": "约9:00-17:00，周一闭馆，以馆方公告为准",
+    "openHours": "09:00-17:00（16:40 停止入馆），周一闭馆，法定节假日正常开放",
     "openHoursRef": 0,
     "ticket": "免费（需登记）",
     "ticketRef": 0,
@@ -53,9 +53,15 @@
       "url": "https://baike.baidu.com/item/%E5%85%AB%E8%B7%AF%E5%86%9B%E6%A1%82%E6%9E%97%E5%8A%9E%E4%BA%8B%E5%A4%84%E7%BA%AA%E5%BF%B5%E9%A6%86",
       "kind": "wiki",
       "fetchedAt": "2026-09-30"
+    },
+    {
+      "title": "八路军桂林办事处纪念馆官网·参观指南",
+      "url": "https://www.glbb.org.cn/",
+      "kind": "media",
+      "fetchedAt": "2026-11-12"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-12",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,6 +69,58 @@
   },
   "_geocodeTitle": "八路军桂林办事处纪念馆",
   "_geocodeSuspect": false,
-  "district": "450302",
-  "_noImage": true
+  "district": "450303",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-12",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "约9:00-17:00，周一闭馆，以馆方公告为准",
+        "new": "09:00-17:00（16:40 停止入馆），周一闭馆，法定节假日正常开放"
+      }
+    ],
+    "source": "https://www.glbb.org.cn/",
+    "reason": "馆方官网参观指南明写 16:40 停止入馆与周一闭馆"
+  },
+  "review": {
+    "score": 4.0,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "内容",
+        "score": 4.3,
+        "note": "复原办公室与机要室，文件电台是原件"
+      },
+      {
+        "label": "人流",
+        "score": 4.5,
+        "note": "免费且安静，一小时能看完"
+      },
+      {
+        "label": "展陈",
+        "score": 3.2,
+        "note": "说明牌偏旧，多媒体不多"
+      },
+      {
+        "label": "开放",
+        "score": 3.0,
+        "note": "周一闭馆，16:40 就停止入馆"
+      }
+    ],
+    "body": "1938 到 1941 年八路军在桂林的公开机构，院子是桂北民居的样子，复原的办公室与机要室做得实在，配的文件、电台都是当年的东西。短板是展陈手段偏老，说明牌字密、多媒体少，年轻人可能觉得闷；开放时间也卡得紧，周一闭馆、下午四点多就停止入馆，赶晚场容易吃闭门羹。",
+    "basis": "web",
+    "at": "2026-11-12",
+    "fits": [
+      "看近代史",
+      "雨天备选"
+    ],
+    "avoid": [
+      "周一",
+      "下午四点后"
+    ],
+    "sources": [
+      "https://www.glbb.org.cn/"
+    ]
+  }
 }

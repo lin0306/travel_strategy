@@ -1,111 +1,149 @@
 {
-  "id": "nanchang-banfen",
-  "name": "南昌拌粉",
-  "category": "food",
-  "subtype": "local",
-  "summary": "南昌人的一天从拌粉开始，米粉过水后拌上酱料、萝卜干和花生米。",
-  "description": "拌粉是南昌早餐的主角。米粉提前煮好放凉，点单时下锅一烫就捞起，加酱油、辣椒油、香油，再撒萝卜干、酸豆角、花生米和葱花，端上桌自己拌匀。粉是圆的那一种，口感偏韧，带点嚼头。辣度各家不同，不能吃辣要提前说。街边早摊、老城巷口的铺子都有，排队的多是本地人。一份几块钱，配上煨汤就是南昌最标准的一顿早饭。早上过九点，有些摊子就卖完了。",
-  "highlights": [
-    "南昌早餐的头一号",
-    "萝卜干酸豆角花生米",
-    "配煨汤是标准吃法"
-  ],
-  "location": {
-    "point": {
-      "lng": 115.973982,
-      "lat": 28.647258,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "江西省南昌市各早餐店与早摊（东湖区、西湖区一带）",
-    "district": "青山湖区",
-    "transportTip": "老城各街巷早餐铺、市场周边均有"
+ "id": "nanchang-banfen",
+ "name": "南昌拌粉",
+ "category": "food",
+ "subtype": "local",
+ "summary": "南昌人的一天从拌粉开始，米粉过水后拌上酱料、萝卜干和花生米。",
+ "description": "拌粉是南昌早餐的主角。米粉提前煮好放凉，点单时下锅一烫就捞起，加酱油、辣椒油、香油，再撒萝卜干、酸豆角、花生米和葱花，端上桌自己拌匀。粉是圆的那一种，口感偏韧，带点嚼头。辣度各家不同，不能吃辣要提前说。街边早摊、老城巷口的铺子都有，排队的多是本地人。一份几块钱，配上煨汤就是南昌最标准的一顿早饭。早上过九点，有些摊子就卖完了。",
+ "highlights": [
+  "南昌早餐的头一号",
+  "萝卜干酸豆角花生米",
+  "配煨汤是标准吃法"
+ ],
+ "location": {
+  "point": {
+   "lng": 115.973982,
+   "lat": 28.647258,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约06:00-10:00，各店不一",
-    "openHoursRef": 0,
-    "ticket": "约5-10元一碗，以店为准",
-    "ticketRef": 0,
-    "duration": "建议 15-30 分钟",
-    "durationMinutes": [
-      15,
-      30
-    ],
-    "priceLevel": "budget"
+  "address": "江西省南昌市各早餐店与早摊（东湖区、西湖区一带）",
+  "district": "青山湖区",
+  "transportTip": "老城各街巷早餐铺、市场周边均有"
+ },
+ "practical": {
+  "openHours": "约06:00-10:00，各店不一",
+  "openHoursRef": 0,
+  "ticket": "约5-10元一碗，以店为准",
+  "ticketRef": 0,
+  "duration": "建议 15-30 分钟",
+  "durationMinutes": [
+   15,
+   30
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "friends",
+  "family",
+  "solo",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Nanchang_Banfen_%2820251205_085026%29.jpg/1280px-Nanchang_Banfen_%2820251205_085026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Nanchang_Banfen_%2820251205_085026%29.jpg/1280px-Nanchang_Banfen_%2820251205_085026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Nanchang Banfen (20251205 085026).jpg",
+   "query": "南昌拌粉",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nagae Iku",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nanchang_Banfen_(20251205_085026).jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "inside"
+   }
   },
-  "audience": [
-    "friends",
-    "family",
-    "solo",
-    "elders"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/%E7%93%A6%E7%BD%90%E6%B1%A4_20150119_085552.jpg/1280px-%E7%93%A6%E7%BD%90%E6%B1%A4_20150119_085552.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/%E7%93%A6%E7%BD%90%E6%B1%A4_20150119_085552.jpg/1280px-%E7%93%A6%E7%BD%90%E6%B1%A4_20150119_085552.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "瓦罐汤 20150119 085552.jpg",
+   "query": "南昌拌粉",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Qa003qa003",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%93%A6%E7%BD%90%E6%B1%A4_20150119_085552.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "inside"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "拌粉",
+  "早餐",
+  "米粉"
+ ],
+ "popularity": 95,
+ "sources": [
+  {
+   "title": "南昌拌粉·百度百科",
+   "url": "https://baike.baidu.com/item/%E5%8D%97%E6%98%8C%E6%8B%8C%E7%B2%89",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Nanchang Mixed Rice Noodles",
+  "zh": "南昌拌粉"
+ },
+ "_geocodeTitle": "南昌拌粉",
+ "_geocodeSuspect": false,
+ "district": "360111",
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.4,
+    "note": "圆粉偏韧有嚼头，酱料自己拌"
+   },
+   {
+    "label": "价格",
+    "score": 4.7,
+    "note": "几块钱一碗，配煨汤就是一顿早饭"
+   },
+   {
+    "label": "时段",
+    "score": 2.9,
+    "note": "过九点有些摊子就卖完收摊"
+   },
+   {
+    "label": "环境",
+    "score": 3.0,
+    "note": "街边摊座位少，站着吃是常态"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Nanchang_Banfen_%2820251205_085026%29.jpg/1280px-Nanchang_Banfen_%2820251205_085026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Nanchang_Banfen_%2820251205_085026%29.jpg/1280px-Nanchang_Banfen_%2820251205_085026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Nanchang Banfen (20251205 085026).jpg",
-      "query": "南昌拌粉",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nagae Iku",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nanchang_Banfen_(20251205_085026).jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "inside"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/%E7%93%A6%E7%BD%90%E6%B1%A4_20150119_085552.jpg/1280px-%E7%93%A6%E7%BD%90%E6%B1%A4_20150119_085552.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/%E7%93%A6%E7%BD%90%E6%B1%A4_20150119_085552.jpg/1280px-%E7%93%A6%E7%BD%90%E6%B1%A4_20150119_085552.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "瓦罐汤 20150119 085552.jpg",
-      "query": "南昌拌粉",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Qa003qa003",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%93%A6%E7%BD%90%E6%B1%A4_20150119_085552.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "inside"
-      }
-    }
+  "body": "南昌人的一天从拌粉开始：米粉下锅一烫就捞，拌酱油、辣椒油、香油，撒萝卜干、酸豆角、花生米和葱花，圆粉偏韧带点嚼头。几块钱一碗，配一盅煨汤就是最标准的一顿早饭。缺点是时段卡得死，早上过九点有些摊子就卖完；街边摊座位少、站着吃是常态，不能吃辣一定提前说。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "赶早吃",
+   "一个人"
   ],
-  "coverIndex": 0,
-  "tags": [
-    "拌粉",
-    "早餐",
-    "米粉"
+  "avoid": [
+   "睡到十点",
+   "要环境"
   ],
-  "popularity": 95,
-  "sources": [
-    {
-      "title": "南昌拌粉·百度百科",
-      "url": "https://baike.baidu.com/item/%E5%8D%97%E6%98%8C%E6%8B%8C%E7%B2%89",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-11-02",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Nanchang Mixed Rice Noodles",
-    "zh": "南昌拌粉"
-  },
-  "_geocodeTitle": "南昌拌粉",
-  "_geocodeSuspect": false,
-  "district": "360111"
+  "sources": []
+ }
 }

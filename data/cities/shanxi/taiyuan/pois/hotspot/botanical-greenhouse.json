@@ -1,67 +1,105 @@
 {
-  "id": "botanical-greenhouse",
-  "name": "植物园温室",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "太原植物园里的现代展览温室，雨林穹顶与瀑布是最出片的一处。",
-  "description": "太原植物园的展览温室是最多人专程来拍的地方。几座穹顶由木梁与玻璃拼成，曲线柔和，阳光透进来在地上投出网格状的影子。雨林馆里棕榈高耸，瀑布从岩壁落下，水雾在光柱里浮动；沙生馆里仙人掌成列，配白砂与暖光，画面干净。最上镜的时段是午后侧光与傍晚灯亮之后，穹顶从外面看像几枚半透明的大蛋。温室里湿热，冬天进门要脱外套；镜头容易起雾，进门前先把机器捂热。",
-  "highlights": [
-    "木梁玻璃穹顶",
-    "雨林瀑布水雾光柱",
-    "傍晚穹顶亮灯"
-  ],
-  "location": {
-    "point": {
-      "lng": 112.467885,
-      "lat": 37.745826,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "山西省太原市晋源区太原植物园温室区",
-    "district": "晋源区",
-    "transportTip": "市区乘公交或自驾到太原植物园"
+ "id": "botanical-greenhouse",
+ "name": "植物园温室",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "太原植物园里的现代展览温室，雨林穹顶与瀑布是最出片的一处。",
+ "description": "太原植物园的展览温室是最多人专程来拍的地方。几座穹顶由木梁与玻璃拼成，曲线柔和，阳光透进来在地上投出网格状的影子。雨林馆里棕榈高耸，瀑布从岩壁落下，水雾在光柱里浮动；沙生馆里仙人掌成列，配白砂与暖光，画面干净。最上镜的时段是午后侧光与傍晚灯亮之后，穹顶从外面看像几枚半透明的大蛋。温室里湿热，冬天进门要脱外套；镜头容易起雾，进门前先把机器捂热。",
+ "highlights": [
+  "木梁玻璃穹顶",
+  "雨林瀑布水雾光柱",
+  "傍晚穹顶亮灯"
+ ],
+ "location": {
+  "point": {
+   "lng": 112.467885,
+   "lat": 37.745826,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约09:00-18:00，以园区为准",
-    "openHoursRef": 0,
-    "ticket": "含植物园门票，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "couple",
-    "kids",
-    "friends"
+  "address": "山西省太原市晋源区太原植物园温室区",
+  "district": "晋源区",
+  "transportTip": "市区乘公交或自驾到太原植物园"
+ },
+ "practical": {
+  "openHours": "约09:00-18:00，以园区为准",
+  "openHoursRef": 0,
+  "ticket": "含植物园门票，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "温室",
-    "拍照",
-    "网红"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "couple",
+  "kids",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "温室",
+  "拍照",
+  "网红"
+ ],
+ "popularity": 94,
+ "sources": [
+  {
+   "title": "太原植物园·百度百科",
+   "url": "https://baike.baidu.com/item/%E5%A4%AA%E5%8E%9F%E6%A4%8D%E7%89%A9%E5%9B%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Taiyuan Botanical Garden Greenhouse",
+  "zh": "植物园温室"
+ },
+ "_geocodeTitle": "太原植物园",
+ "district": "140110",
+ "_noImage": true,
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "出片",
+    "score": 4.7,
+    "note": "木梁玻璃穹顶，午后侧光在地上投网格影子"
+   },
+   {
+    "label": "舒适度",
+    "score": 3.0,
+    "note": "温室里湿热，冬天进门要脱外套，镜头容易起雾"
+   },
+   {
+    "label": "人流",
+    "score": 3.4,
+    "note": "周末下午拍照的人集中，穹顶正面机位要等"
+   },
+   {
+    "label": "时长",
+    "score": 3.6,
+    "note": "两馆一小时，加上园内步行要留两小时"
+   }
   ],
-  "popularity": 94,
-  "sources": [
-    {
-      "title": "太原植物园·百度百科",
-      "url": "https://baike.baidu.com/item/%E5%A4%AA%E5%8E%9F%E6%A4%8D%E7%89%A9%E5%9B%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "太原植物园里最值得专门来的一处：几座穹顶由木梁和玻璃拼成，曲线柔和，阳光透进来会在地上投出网格状的影子；雨林馆棕榈高耸、瀑布从岩壁落下，水雾在光柱里浮动，沙生馆则是仙人掌配白砂暖光，画面干净。傍晚穹顶亮灯后从外面看像几枚半透明的大蛋，很多人就是冲这个来的。缺点是温室里湿热，冬天进门必须脱外套，相机镜头一进去就起雾，得先捂热；周末下午穹顶正面机位要排队等，出片效率不如清早。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "拍照",
+   "带孩子"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Taiyuan Botanical Garden Greenhouse",
-    "zh": "植物园温室"
-  },
-  "_geocodeTitle": "太原植物园",
-  "district": "140110",
-  "_noImage": true
+  "avoid": [
+   "周末下午",
+   "不带擦镜布"
+  ],
+  "sources": []
+ }
 }

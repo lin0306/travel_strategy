@@ -1,173 +1,212 @@
 {
-  "id": "old-synagogue-hall",
-  "name": "老会堂音乐厅",
-  "category": "culture",
-  "subtype": "performance",
-  "summary": "通江街老会堂里的一处音乐厅，做的是室内乐与小场演出，建筑本身就是上世纪的会堂旧址。",
-  "description": "老会堂音乐厅在道里区通江街八十二号，建筑就是那座上世纪初的犹太会堂，经过修缮之后兼作音乐厅使用。厅不大，是一处小场：弦乐四重奏、室内乐、独奏与小型合唱，座位离舞台很近，声学上这种体量适合听细节。哈尔滨有音乐之城的名号，这类小场演出是这座城日常音乐生活的那一层 —— 不是为游客排的，本地人也买票来听。演出多在晚上，一周几场，淡旺季排期不同，要提前在官方渠道看场次。票价中等，比大剧院便宜。白天没有演出时可以看建筑。它与中央大街北段很近，听完走回街上几分钟。",
-  "highlights": [
-    "厅不大，座位离舞台很近，适合听室内乐的细节",
-    "建筑本身是上世纪犹太会堂旧址",
-    "演出多在晚上，一周几场，要提前看场次"
-  ],
-  "location": {
-    "point": {
-      "lng": 126.615053,
-      "lat": 45.771636,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黑龙江省哈尔滨市道里区通江街82号",
-    "district": "道里区",
-    "transportTip": "地铁二号线中央大街站步行约十分钟"
+ "id": "old-synagogue-hall",
+ "name": "老会堂音乐厅",
+ "category": "culture",
+ "subtype": "performance",
+ "summary": "通江街老会堂里的一处音乐厅，做的是室内乐与小场演出，建筑本身就是上世纪的会堂旧址。",
+ "description": "老会堂音乐厅在道里区通江街八十二号，建筑就是那座上世纪初的犹太会堂，经过修缮之后兼作音乐厅使用。厅不大，是一处小场：弦乐四重奏、室内乐、独奏与小型合唱，座位离舞台很近，声学上这种体量适合听细节。哈尔滨有音乐之城的名号，这类小场演出是这座城日常音乐生活的那一层 —— 不是为游客排的，本地人也买票来听。演出多在晚上，一周几场，淡旺季排期不同，要提前在官方渠道看场次。票价中等，比大剧院便宜。白天没有演出时可以看建筑。它与中央大街北段很近，听完走回街上几分钟。",
+ "highlights": [
+  "厅不大，座位离舞台很近，适合听室内乐的细节",
+  "建筑本身是上世纪犹太会堂旧址",
+  "演出多在晚上，一周几场，要提前看场次"
+ ],
+ "location": {
+  "point": {
+   "lng": 126.615053,
+   "lat": 45.771636,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "演出时段以场次为准，多在晚间",
-    "openHoursRef": 0,
-    "ticket": "演出票按场次，以官方渠道为准",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "mid"
+  "address": "黑龙江省哈尔滨市道里区通江街82号",
+  "district": "道里区",
+  "transportTip": "地铁二号线中央大街站步行约十分钟"
+ },
+ "practical": {
+  "openHours": "演出时段以场次为准，多在晚间",
+  "openHoursRef": 0,
+  "ticket": "演出票按场次，以官方渠道为准",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "elders",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/27123-Harbin_%2845478797662%29.jpg/1280px-27123-Harbin_%2845478797662%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/27123-Harbin_%2845478797662%29.jpg/1280px-27123-Harbin_%2845478797662%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "27123-Harbin (45478797662).jpg",
+   "query": "老会堂音乐厅",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva from Cacau",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "couple",
-    "elders",
-    "family"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/27123-Harbin_%2845478797662%29.jpg/1280px-27123-Harbin_%2845478797662%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/27123-Harbin_%2845478797662%29.jpg/1280px-27123-Harbin_%2845478797662%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "27123-Harbin (45478797662).jpg",
-      "query": "老会堂音乐厅",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva from Cacau",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/27024-Harbin_%2844803960584%29.jpg/1280px-27024-Harbin_%2844803960584%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/27024-Harbin_%2844803960584%29.jpg/1280px-27024-Harbin_%2844803960584%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "27024-Harbin (44803960584).jpg",
-      "query": "老会堂音乐厅",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva from Cacau",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/27127-Harbin_%2846235499874%29.jpg/1280px-27127-Harbin_%2846235499874%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/27127-Harbin_%2846235499874%29.jpg/1280px-27127-Harbin_%2846235499874%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "27127-Harbin (46235499874).jpg",
-      "query": "老会堂音乐厅",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva from Cacau",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/27116-Harbin_%2832019027607%29.jpg/1280px-27116-Harbin_%2832019027607%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/27116-Harbin_%2832019027607%29.jpg/1280px-27116-Harbin_%2832019027607%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "27116-Harbin (32019027607).jpg",
-      "query": "老会堂音乐厅",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva from Cacau",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/27118-Harbin_%2849026992153%29.jpg/1280px-27118-Harbin_%2849026992153%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/27118-Harbin_%2849026992153%29.jpg/1280px-27118-Harbin_%2849026992153%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "27118-Harbin (49026992153).jpg",
-      "query": "老会堂音乐厅",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "室内乐",
-    "小场",
-    "历史建筑"
-  ],
-  "popularity": 72,
-  "sources": [
-    {
-      "title": "百度百科·哈尔滨犹太老会堂",
-      "url": "https://baike.baidu.com/item/%E5%93%88%E5%B0%94%E6%BB%A8%E7%8A%B9%E5%A4%AA%E8%80%81%E4%BC%9A%E5%A0%82",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
-  ],
-  "updatedAt": "2026-11-01",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "老会堂音乐厅"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/27024-Harbin_%2844803960584%29.jpg/1280px-27024-Harbin_%2844803960584%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/27024-Harbin_%2844803960584%29.jpg/1280px-27024-Harbin_%2844803960584%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "27024-Harbin (44803960584).jpg",
+   "query": "老会堂音乐厅",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva from Cacau",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "老会堂音乐厅",
-  "_geocodeSuspect": false,
-  "district": "230102"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/27127-Harbin_%2846235499874%29.jpg/1280px-27127-Harbin_%2846235499874%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/27127-Harbin_%2846235499874%29.jpg/1280px-27127-Harbin_%2846235499874%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "27127-Harbin (46235499874).jpg",
+   "query": "老会堂音乐厅",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva from Cacau",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/27116-Harbin_%2832019027607%29.jpg/1280px-27116-Harbin_%2832019027607%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/27116-Harbin_%2832019027607%29.jpg/1280px-27116-Harbin_%2832019027607%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "27116-Harbin (32019027607).jpg",
+   "query": "老会堂音乐厅",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva from Cacau",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/27118-Harbin_%2849026992153%29.jpg/1280px-27118-Harbin_%2849026992153%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/27118-Harbin_%2849026992153%29.jpg/1280px-27118-Harbin_%2849026992153%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "27118-Harbin (49026992153).jpg",
+   "query": "老会堂音乐厅",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "室内乐",
+  "小场",
+  "历史建筑"
+ ],
+ "popularity": 72,
+ "sources": [
+  {
+   "title": "百度百科·哈尔滨犹太老会堂",
+   "url": "https://baike.baidu.com/item/%E5%93%88%E5%B0%94%E6%BB%A8%E7%8A%B9%E5%A4%AA%E8%80%81%E4%BC%9A%E5%A0%82",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "老会堂音乐厅"
+ },
+ "_geocodeTitle": "老会堂音乐厅",
+ "_geocodeSuspect": false,
+ "district": "230102",
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "建筑",
+    "score": 4.4,
+    "note": "上世纪初犹太会堂旧址修缮兼用"
+   },
+   {
+    "label": "声学",
+    "score": 4.1,
+    "note": "小场座位离舞台近，适合听细节"
+   },
+   {
+    "label": "排期",
+    "score": 2.7,
+    "note": "多在晚间，一周几场，淡旺季不同"
+   },
+   {
+    "label": "座位",
+    "score": 3.9,
+    "note": "厅不大，热门场次票量有限"
+   }
+  ],
+  "body": "通江街上世纪初的犹太会堂旧址，修缮后兼作音乐厅，专做弦乐四重奏、室内乐、独奏与小型合唱。厅不大、座位离舞台很近，这种体量听细节最舒服，是这座音乐之城日常演出的那一层——不是为游客排的，本地人也买票来听。白天没演出时可以来看建筑，与中央大街北段很近。缺点是演出多在晚上、一周几场，淡旺季排期不同，不提前查场次基本碰不上；小场票量有限，热门场次要早订；只看建筑的话很快就走完。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "听室内乐",
+   "看历史建筑",
+   "中央大街顺路"
+  ],
+  "avoid": [
+   "不查排期上门",
+   "只想逛大厅"
+  ],
+  "sources": []
+ }
 }

@@ -17,12 +17,12 @@
       "lat": 29.86,
       "coordSystem": "GCJ-02"
     },
-    "address": "黄山市歙县相关古村与节庆活动场所（以公告为准）",
+    "address": "黄山市歙县徽城镇渔梁社区（端午巡游主场）；郑村镇堨田村亦有端午场次",
     "district": "歙县",
     "transportTip": "按活动公告前往村落 / 广场"
   },
   "practical": {
-    "openHours": "端午等节令或专项活动期间",
+    "openHours": "端午前后（农历五月初）在徽城镇渔梁社区、郑村镇堨田村巡游，具体场次以歙县文旅公告为准",
     "openHoursRef": 0,
     "ticket": "多免费（以活动为准）",
     "ticketRef": 0,
@@ -56,9 +56,15 @@
       "url": "https://baike.baidu.com/item/%E8%B7%B3%E9%92%9F%E9%A6%97",
       "kind": "wiki",
       "fetchedAt": "2026-10-07"
+    },
+    {
+      "title": "歙县2026端午旅游综述载堨田村跳钟馗巡游",
+      "url": "https://www.ahshx.gov.cn/zwgk/public/6616282/12100602.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-13"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-13",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -67,5 +73,22 @@
   "_geocodeTitle": "歙县徽州古城广场",
   "_geocodeSuspect": false,
   "district": "341021",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-13",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "端午等节令或专项活动期间",
+        "new": "端午前后（农历五月初）在徽城镇渔梁社区、郑村镇堨田村巡游，具体场次以歙县文旅公告为准"
+      },
+      {
+        "field": "地址",
+        "old": "黄山市歙县相关古村与节庆活动场所（以公告为准）",
+        "new": "黄山市歙县徽城镇渔梁社区（端午巡游主场）；郑村镇堨田村亦有端午场次"
+      }
+    ],
+    "source": "https://www.ahshx.gov.cn/zwgk/public/6616282/12100602.html",
+    "reason": "歙县2026端午旅游综述载堨田村跳钟馗巡游"
+  }
 }

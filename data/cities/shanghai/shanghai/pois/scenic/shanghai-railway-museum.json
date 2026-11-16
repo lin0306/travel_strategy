@@ -1,0 +1,72 @@
+{
+  "id": "shanghai-railway-museum",
+  "name": "上海铁路博物馆",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "老北站旧址上的铁路专题馆，室外广场停着真蒸汽机车。",
+  "description": "上海铁路博物馆建在1909年沪宁铁路上海站（老北站）旧址，主体建筑按原站房八成尺寸复刻成英式古典样式。最出片的是室外广场：KD7型蒸汽机车、SN型窄轨小机车、「美龄号」公务车，连同水鹤、臂板信号机和雨棚一道摆成早期站台场景。室内用老车票、信号器具与档案讲吴淞铁路——中国第一条营运铁路——以及华东铁路百余年的变化，还有高铁模拟驾驶可玩。票价十元上下，中午有午休、周一闭馆，是那种一小时能逛完但很容易被火车迷耽搁半天的小馆。",
+  "highlights": [
+    "1909年老北站旧址，按原尺寸八成复刻站房",
+    "室外广场停放KD7蒸汽机车与美龄号公务车",
+    "吴淞铁路史料与高铁模拟驾驶体验"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.476225,
+      "lat": 31.25003,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "上海市静安区天目东路200号",
+    "district": "静安",
+    "transportTip": "地铁3/4号线宝山路站步行约5分钟；公交13、63、502路至天目东路山西北路站"
+  },
+  "practical": {
+    "openHours": "周二至周日9:00-11:30(11:00停止入场)、13:30-16:30(16:00停止入场)，周一闭馆，以馆方公告为准",
+    "openHoursRef": 0,
+    "ticket": "成人约10元，学生与铁路退休人员约5元，以现场公告为准",
+    "ticketRef": 0,
+    "duration": "建议 60-90 分钟",
+    "durationMinutes": [
+      60,
+      90
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "kids",
+    "friends",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [
+    "中午11:30-13:30休息，别卡着饭点去",
+    "散客可现场购票；15人以上团队与研学需提前电话预约"
+  ],
+  "images": [],
+  "coverIndex": 0,
+  "tags": [
+    "铁路",
+    "蒸汽机车",
+    "工业遗产",
+    "亲子"
+  ],
+  "popularity": 62,
+  "sources": [
+    {
+      "title": "上海本地宝·上海铁路博物馆开放时间与交通(腾讯新闻转载)",
+      "url": "https://news.qq.com/rain/a/20250911A03UGZ00",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
+    }
+  ],
+  "updatedAt": "2026-11-08",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Shanghai Railway Museum",
+    "zh": "上海铁路博物馆"
+  },
+  "_geocodeTitle": "上海铁路博物馆",
+  "_geocodeSuspect": false,
+  "_noImage": true,
+  "district": "310106"
+}

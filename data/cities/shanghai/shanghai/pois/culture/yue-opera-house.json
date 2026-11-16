@@ -1,9 +1,9 @@
 {
   "id": "yue-opera-house",
-  "name": "上海越剧院/兰心大戏院",
+  "name": "兰心大戏院",
   "category": "culture",
   "subtype": "performance",
-  "summary": "看越剧的地方，江南戏曲里最柔的一支。",
+  "summary": "1931 年迁建茂名南路的百年剧场，2022 年修缮重开，观众厅 702 座；越剧、滑稽戏、音乐会常态化上演。",
   "description": "越剧发源于浙江嵊州，在上海成熟起来，因此上海一直是越剧的重镇。它的风格偏柔、唱腔委婉、题材多为才子佳人，《梁山伯与祝英台》《红楼梦》是常演的两出。兰心大戏院是上海现存最早的西式剧场之一，建筑本身就值得看。看之前建议先看一眼剧情介绍，入戏会快很多。",
   "highlights": [
     "越剧在上海成熟，江南戏曲的一支",
@@ -51,9 +51,15 @@
       "url": "https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E8%B6%8A%E5%89%A7%E9%99%A2",
       "kind": "wiki",
       "fetchedAt": "2026-09-19"
+    },
+    {
+      "title": "上海市政府｜兰心大戏院保护性修缮与常态化演出（2026-08-31）",
+      "url": "https://www.shanghai.gov.cn/sjbmkf/20260831/2583adebc2e7424f9c4f8e02adac1f82.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -62,5 +68,22 @@
   "_geocodeTitle": "兰心大戏院",
   "_geocodeSuspect": false,
   "district": "310101",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "名称",
+        "old": "上海越剧院/兰心大戏院",
+        "new": "兰心大戏院"
+      },
+      {
+        "field": "一句话简介",
+        "old": "看越剧的地方，江南戏曲里最柔的一支。",
+        "new": "1931 年迁建至茂名南路、2022 年保护性修缮后重开的百年剧场，意大利文艺复兴府邸式外观，观众厅 702 座；越剧、滑稽戏、话剧与音乐会常态化上演，上海国际喜剧节驻演剧场之一。"
+      }
+    ],
+    "source": "https://www.shanghai.gov.cn/sjbmkf/20260831/2583adebc2e7424f9c4f8e02adac1f82.html",
+    "reason": "茂名南路57号实为兰心大戏院（上海越剧院办公地在复兴西路，非此处），订正名称与简介"
+  }
 }

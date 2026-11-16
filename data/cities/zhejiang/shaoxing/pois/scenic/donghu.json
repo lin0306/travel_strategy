@@ -1,118 +1,156 @@
 {
-  "id": "donghu",
-  "name": "东湖",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "悬崖抱水的人工湖，乌篷船穿桥洞。",
-  "description": "东湖在绍兴城东，是采石遗留下的崖壁环抱的一汪深水，被誉为「天下第一水石盆景」。乘乌篷船穿行在峭壁与桥洞之间，是东湖最经典的玩法，崖影倒映、格外清幽。它距老城很近，可与鲁迅故里同半天。春季水涨、秋季天高时最好看。",
-  "highlights": [
-    "采石崖壁环抱的人工湖",
-    "乌篷船穿桥洞最经典",
-    "天下第一水石盆景"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.622561,
-      "lat": 30.038828,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "绍兴市越城区东湖街道",
-    "district": "越城区",
-    "transportTip": "公交东湖站；市区打车约15分钟",
-    "entrance": {
-      "lng": 120.63018,
-      "lat": 30.002102,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "donghu",
+ "name": "东湖",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "悬崖抱水的人工湖，乌篷船穿桥洞。",
+ "description": "东湖在绍兴城东，是采石遗留下的崖壁环抱的一汪深水，被誉为「天下第一水石盆景」。乘乌篷船穿行在峭壁与桥洞之间，是东湖最经典的玩法，崖影倒映、格外清幽。它距老城很近，可与鲁迅故里同半天。春季水涨、秋季天高时最好看。",
+ "highlights": [
+  "采石崖壁环抱的人工湖",
+  "乌篷船穿桥洞最经典",
+  "天下第一水石盆景"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.622561,
+   "lat": 30.038828,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约07:30-17:30（以景区公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约50元起（船票另计），以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 90-150 分钟",
-    "durationMinutes": [
-      90,
-      150
-    ],
-    "priceLevel": "budget"
+  "address": "绍兴市越城区东湖街道",
+  "district": "越城区",
+  "transportTip": "公交东湖站；市区打车约15分钟",
+  "entrance": {
+   "lng": 120.63018,
+   "lat": 30.002102,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约07:30-17:30（以景区公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约50元起（船票另计），以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 90-150 分钟",
+  "durationMinutes": [
+   90,
+   150
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "friends",
+  "couple",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/A_huge_banyan_tree_in_the_East_Lake_Park3.jpg/1280px-A_huge_banyan_tree_in_the_East_Lake_Park3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/A_huge_banyan_tree_in_the_East_Lake_Park3.jpg/1280px-A_huge_banyan_tree_in_the_East_Lake_Park3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "A huge banyan tree in the East Lake Park3.jpg",
+   "query": "东湖 绍兴",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Huangdan2060",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_huge_banyan_tree_in_the_East_Lake_Park3.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
   },
-  "audience": [
-    "friends",
-    "couple",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/A_huge_banyan_tree_in_the_East_Lake_Park3.jpg/1280px-A_huge_banyan_tree_in_the_East_Lake_Park3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/A_huge_banyan_tree_in_the_East_Lake_Park3.jpg/1280px-A_huge_banyan_tree_in_the_East_Lake_Park3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "A huge banyan tree in the East Lake Park3.jpg",
-      "query": "东湖 绍兴",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Huangdan2060",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_huge_banyan_tree_in_the_East_Lake_Park3.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Donghu_Quarry_02.jpg/1280px-Donghu_Quarry_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Donghu_Quarry_02.jpg/1280px-Donghu_Quarry_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Donghu Quarry 02.jpg",
-      "query": "东湖 绍兴",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Logan Wenger",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Donghu_Quarry_02.jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/East_Lake%2C_Shaoxing.jpg/1280px-East_Lake%2C_Shaoxing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/East_Lake%2C_Shaoxing.jpg/1280px-East_Lake%2C_Shaoxing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 797,
-      "alt": "East Lake, Shaoxing.jpg",
-      "query": "东湖 绍兴",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Sekino Tadashi",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:East_Lake,_Shaoxing.jpg",
-        "license": "Public domain",
-        "attributionRequired": false
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "悬崖",
-    "乌篷船",
-    "水石"
-  ],
-  "popularity": 82,
-  "sources": [
-    {
-      "title": "百度百科·东湖",
-      "url": "https://baike.baidu.com/item/%E4%B8%9C%E6%B9%96",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "东湖"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Donghu_Quarry_02.jpg/1280px-Donghu_Quarry_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Donghu_Quarry_02.jpg/1280px-Donghu_Quarry_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Donghu Quarry 02.jpg",
+   "query": "东湖 绍兴",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Logan Wenger",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Donghu_Quarry_02.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "东湖街道",
-  "_geocodeSuspect": false,
-  "district": "330602"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/East_Lake%2C_Shaoxing.jpg/1280px-East_Lake%2C_Shaoxing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/East_Lake%2C_Shaoxing.jpg/1280px-East_Lake%2C_Shaoxing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 797,
+   "alt": "East Lake, Shaoxing.jpg",
+   "query": "东湖 绍兴",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Sekino Tadashi",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:East_Lake,_Shaoxing.jpg",
+    "license": "Public domain",
+    "attributionRequired": false
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "悬崖",
+  "乌篷船",
+  "水石"
+ ],
+ "popularity": 82,
+ "sources": [
+  {
+   "title": "百度百科·东湖",
+   "url": "https://baike.baidu.com/item/%E4%B8%9C%E6%B9%96",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "东湖"
+ },
+ "_geocodeTitle": "东湖街道",
+ "_geocodeSuspect": false,
+ "district": "330602",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "景观",
+    "score": 4.6,
+    "note": "崖壁直立水面深绿，水石盆景"
+   },
+   {
+    "label": "船票",
+    "score": 3.2,
+    "note": "门票与船票分开算"
+   },
+   {
+    "label": "排队",
+    "score": 3.0,
+    "note": "旺季码头等船耗时"
+   },
+   {
+    "label": "交通",
+    "score": 4.4,
+    "note": "离老城近，可串鲁迅故里"
+   }
+  ],
+  "body": "东湖是采石留下的作品：崖壁直立、水面深绿，被叫作天下第一水石盆景不算夸张。乌篷船从峭壁与桥洞之间穿过去，抬头是几十米高的石壁，这是东湖最该体验的一段。离老城近，可以和鲁迅故里串成半天。缺点是门票要买、船票要另买，两笔加起来不便宜；旺季码头排队上船耗时，船程本身却不算长，赶时间的人容易觉得不划算。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "朋友",
+   "情侣",
+   "家庭"
+  ],
+  "avoid": [
+   "预算紧且只想走路"
+  ],
+  "sources": []
+ }
 }

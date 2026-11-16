@@ -1,194 +1,232 @@
 {
-  "id": "tuojiang",
-  "name": "沱江风光",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "穿城而过的江，泛舟和沿河走都好。",
-  "description": "沱江是凤凰的母亲河，从县城中间弯弯地穿过。江水不深，绿得发清。江上有跳岩和几座桥，岸边是吊脚楼的倒影。清晨江面有薄雾，傍晚灯影落在水里。可以坐船从一头漂到另一头，也能沿着江边的步道慢慢走。它是凤凰最容易被记住的画面。雨季水会涨，注意安全。",
-  "highlights": [
-    "穿城而过的绿江",
-    "跳岩与几座桥",
-    "清晨薄雾傍晚灯影"
-  ],
-  "location": {
-    "point": {
-      "lng": 109.601038,
-      "lat": 27.951553,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "湘西土家族苗族自治州凤凰县沱江镇沱江",
-    "district": "凤凰",
-    "transportTip": "县城内沿河步行可达"
+ "id": "tuojiang",
+ "name": "沱江风光",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "穿城而过的江，泛舟和沿河走都好。",
+ "description": "沱江是凤凰的母亲河，从县城中间弯弯地穿过。江水不深，绿得发清。江上有跳岩和几座桥，岸边是吊脚楼的倒影。清晨江面有薄雾，傍晚灯影落在水里。可以坐船从一头漂到另一头，也能沿着江边的步道慢慢走。它是凤凰最容易被记住的画面。雨季水会涨，注意安全。",
+ "highlights": [
+  "穿城而过的绿江",
+  "跳岩与几座桥",
+  "清晨薄雾傍晚灯影"
+ ],
+ "location": {
+  "point": {
+   "lng": 109.601038,
+   "lat": 27.951553,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放",
-    "openHoursRef": 0,
-    "ticket": "免费（泛舟另计）",
-    "ticketRef": 0,
-    "duration": "建议 90-210 分钟",
-    "durationMinutes": [
-      90,
-      210
-    ],
-    "priceLevel": "free"
+  "address": "湘西土家族苗族自治州凤凰县沱江镇沱江",
+  "district": "凤凰",
+  "transportTip": "县城内沿河步行可达"
+ },
+ "practical": {
+  "openHours": "全天开放",
+  "openHoursRef": 0,
+  "ticket": "免费（泛舟另计）",
+  "ticketRef": 0,
+  "duration": "建议 90-210 分钟",
+  "durationMinutes": [
+   90,
+   210
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/The_river_of_Fenghuang_-_panoramio.jpg/1280px-The_river_of_Fenghuang_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/The_river_of_Fenghuang_-_panoramio.jpg/1280px-The_river_of_Fenghuang_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "The river of Fenghuang - panoramio.jpg",
+   "query": "沱江风光",
+   "credit": {
+    "source": "wikimedia",
+    "author": "peerawitk",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "couple",
-    "friends",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/The_river_of_Fenghuang_-_panoramio.jpg/1280px-The_river_of_Fenghuang_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/The_river_of_Fenghuang_-_panoramio.jpg/1280px-The_river_of_Fenghuang_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "The river of Fenghuang - panoramio.jpg",
-      "query": "沱江风光",
-      "credit": {
-        "source": "wikimedia",
-        "author": "peerawitk",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/%E5%87%A4%E5%87%B0%E6%B2%B1%E6%B1%9F_-_panoramio_%2815%29.jpg/1280px-%E5%87%A4%E5%87%B0%E6%B2%B1%E6%B1%9F_-_panoramio_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/%E5%87%A4%E5%87%B0%E6%B2%B1%E6%B1%9F_-_panoramio_%2815%29.jpg/1280px-%E5%87%A4%E5%87%B0%E6%B2%B1%E6%B1%9F_-_panoramio_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "凤凰沱江 - panoramio (15).jpg",
-      "query": "沱江风光",
-      "credit": {
-        "source": "wikimedia",
-        "author": "gdczjkk",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/%E5%87%A4%E5%87%B0%E6%B2%B1%E6%B1%9F_-_panoramio_%2816%29.jpg/1280px-%E5%87%A4%E5%87%B0%E6%B2%B1%E6%B1%9F_-_panoramio_%2816%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/%E5%87%A4%E5%87%B0%E6%B2%B1%E6%B1%9F_-_panoramio_%2816%29.jpg/1280px-%E5%87%A4%E5%87%B0%E6%B2%B1%E6%B1%9F_-_panoramio_%2816%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "凤凰沱江 - panoramio (16).jpg",
-      "query": "沱江风光",
-      "credit": {
-        "source": "wikimedia",
-        "author": "gdczjkk",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/%E6%B9%96%E5%8D%97%C2%B7%E5%87%A4%E5%87%B0%C2%B7%E4%B8%87%E5%90%8D%E5%A1%94_-_panoramio.jpg/1280px-%E6%B9%96%E5%8D%97%C2%B7%E5%87%A4%E5%87%B0%C2%B7%E4%B8%87%E5%90%8D%E5%A1%94_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/%E6%B9%96%E5%8D%97%C2%B7%E5%87%A4%E5%87%B0%C2%B7%E4%B8%87%E5%90%8D%E5%A1%94_-_panoramio.jpg/1280px-%E6%B9%96%E5%8D%97%C2%B7%E5%87%A4%E5%87%B0%C2%B7%E4%B8%87%E5%90%8D%E5%A1%94_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "湖南·凤凰·万名塔 - panoramio.jpg",
-      "query": "沱江风光",
-      "credit": {
-        "source": "wikimedia",
-        "author": "crongbin",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/%E9%B3%B3%E5%87%B0%E5%8D%B0%E8%B1%A1_-_panoramio_-_fisher0528_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/%E9%B3%B3%E5%87%B0%E5%8D%B0%E8%B1%A1_-_panoramio_-_fisher0528_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "鳳凰印象 - panoramio - fisher0528 (2).jpg",
-      "query": "沱江风光",
-      "credit": {
-        "source": "wikimedia",
-        "author": "fisher0528",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/%E6%B9%98%E8%A5%BF%E5%9C%9F%E5%AE%B6%E6%97%8F%E8%8B%97%E6%97%8F%E8%87%AA%E6%B2%BB%E5%B7%9E_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/%E6%B9%98%E8%A5%BF%E5%9C%9F%E5%AE%B6%E6%97%8F%E8%8B%97%E6%97%8F%E8%87%AA%E6%B2%BB%E5%B7%9E_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "湘西土家族苗族自治州 - panoramio.jpg",
-      "query": "沱江风光",
-      "credit": {
-        "source": "wikimedia",
-        "author": "George Wenn",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "河流",
-    "泛舟",
-    "倒影"
-  ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·沱江",
-      "url": "https://baike.baidu.com/item/%E6%B2%B1%E6%B1%9F",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-06"
-    }
-  ],
-  "updatedAt": "2026-11-01",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "沱江风光"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/%E5%87%A4%E5%87%B0%E6%B2%B1%E6%B1%9F_-_panoramio_%2815%29.jpg/1280px-%E5%87%A4%E5%87%B0%E6%B2%B1%E6%B1%9F_-_panoramio_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/%E5%87%A4%E5%87%B0%E6%B2%B1%E6%B1%9F_-_panoramio_%2815%29.jpg/1280px-%E5%87%A4%E5%87%B0%E6%B2%B1%E6%B1%9F_-_panoramio_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "凤凰沱江 - panoramio (15).jpg",
+   "query": "沱江风光",
+   "credit": {
+    "source": "wikimedia",
+    "author": "gdczjkk",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "沱江风光带",
-  "_geocodeSuspect": false,
-  "district": "433123"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/%E5%87%A4%E5%87%B0%E6%B2%B1%E6%B1%9F_-_panoramio_%2816%29.jpg/1280px-%E5%87%A4%E5%87%B0%E6%B2%B1%E6%B1%9F_-_panoramio_%2816%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/%E5%87%A4%E5%87%B0%E6%B2%B1%E6%B1%9F_-_panoramio_%2816%29.jpg/1280px-%E5%87%A4%E5%87%B0%E6%B2%B1%E6%B1%9F_-_panoramio_%2816%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "凤凰沱江 - panoramio (16).jpg",
+   "query": "沱江风光",
+   "credit": {
+    "source": "wikimedia",
+    "author": "gdczjkk",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/%E6%B9%96%E5%8D%97%C2%B7%E5%87%A4%E5%87%B0%C2%B7%E4%B8%87%E5%90%8D%E5%A1%94_-_panoramio.jpg/1280px-%E6%B9%96%E5%8D%97%C2%B7%E5%87%A4%E5%87%B0%C2%B7%E4%B8%87%E5%90%8D%E5%A1%94_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/%E6%B9%96%E5%8D%97%C2%B7%E5%87%A4%E5%87%B0%C2%B7%E4%B8%87%E5%90%8D%E5%A1%94_-_panoramio.jpg/1280px-%E6%B9%96%E5%8D%97%C2%B7%E5%87%A4%E5%87%B0%C2%B7%E4%B8%87%E5%90%8D%E5%A1%94_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "湖南·凤凰·万名塔 - panoramio.jpg",
+   "query": "沱江风光",
+   "credit": {
+    "source": "wikimedia",
+    "author": "crongbin",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/%E9%B3%B3%E5%87%B0%E5%8D%B0%E8%B1%A1_-_panoramio_-_fisher0528_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/%E9%B3%B3%E5%87%B0%E5%8D%B0%E8%B1%A1_-_panoramio_-_fisher0528_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "鳳凰印象 - panoramio - fisher0528 (2).jpg",
+   "query": "沱江风光",
+   "credit": {
+    "source": "wikimedia",
+    "author": "fisher0528",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/%E6%B9%98%E8%A5%BF%E5%9C%9F%E5%AE%B6%E6%97%8F%E8%8B%97%E6%97%8F%E8%87%AA%E6%B2%BB%E5%B7%9E_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/%E6%B9%98%E8%A5%BF%E5%9C%9F%E5%AE%B6%E6%97%8F%E8%8B%97%E6%97%8F%E8%87%AA%E6%B2%BB%E5%B7%9E_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "湘西土家族苗族自治州 - panoramio.jpg",
+   "query": "沱江风光",
+   "credit": {
+    "source": "wikimedia",
+    "author": "George Wenn",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "河流",
+  "泛舟",
+  "倒影"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·沱江",
+   "url": "https://baike.baidu.com/item/%E6%B2%B1%E6%B1%9F",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-06"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "沱江风光"
+ },
+ "_geocodeTitle": "沱江风光带",
+ "_geocodeSuspect": false,
+ "district": "433123",
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "水色",
+    "score": 4.4,
+    "note": "江不深，绿得发清，清晨有薄雾"
+   },
+   {
+    "label": "泛舟",
+    "score": 3.8,
+    "note": "坐船能看两岸吊脚楼，但另收费"
+   },
+   {
+    "label": "人流",
+    "score": 2.8,
+    "note": "跳岩一段始终有人"
+   },
+   {
+    "label": "安全",
+    "score": 3.6,
+    "note": "雨季水涨，靠水的地方要留意"
+   }
+  ],
+  "body": "穿城而过的这条江就是凤凰的骨架，沿江步道走一遍，吊脚楼、跳岩、几座桥都串起来了，清晨的雾和傍晚的灯是两种味道。可惜泛舟的价格各家不一，容易花冤枉钱；雨季水一涨就停航，江边湿滑也得小心。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "清晨散步",
+   "沿江慢走"
+  ],
+  "avoid": [
+   "暴雨季",
+   "怕湿滑"
+  ],
+  "sources": []
+ }
 }

@@ -1,67 +1,136 @@
 {
-  "id": "huangge-ancient-road",
-  "name": "黄葛古道",
-  "category": "culture",
-  "subtype": "street",
-  "summary": "南山上的千年古道，黄桷树蔽日，曾是通往川黔的商道。",
-  "description": "黄葛古道在南山上，是古时从重庆通往贵州方向的商道之一，青石板被挑夫的草鞋磨得发亮，两侧是两人合抱的老黄葛树，夏天走进去像钻进一条绿色的隧道。沿途还能看到老君洞、黄桷垭老街等旧迹，走到高处视野会忽然打开，能看到渝中半岛。这条道不收门票、没有太多商业，是本地人周末徒步的经典线路，路面湿滑要注意脚下。",
-  "highlights": [
-    "千年青石板商道，老黄葛树蔽日",
-    "沿途有老君洞等旧迹",
-    "本地人周末徒步线路"
-  ],
-  "location": {
-    "point": {
-      "lng": 106.598508,
-      "lat": 29.540668,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "重庆市南岸区南山黄葛古道",
-    "district": "南岸",
-    "transportTip": "轨道交通 6 号线上新街站，换乘公交至黄桷垭"
+ "id": "huangge-ancient-road",
+ "name": "黄葛古道",
+ "category": "culture",
+ "subtype": "street",
+ "summary": "南山上的千年古道，黄桷树蔽日，曾是通往川黔的商道。",
+ "description": "黄葛古道在南山上，是古时从重庆通往贵州方向的商道之一，青石板被挑夫的草鞋磨得发亮，两侧是两人合抱的老黄葛树，夏天走进去像钻进一条绿色的隧道。沿途还能看到老君洞、黄桷垭老街等旧迹，走到高处视野会忽然打开，能看到渝中半岛。这条道不收门票、没有太多商业，是本地人周末徒步的经典线路，路面湿滑要注意脚下。",
+ "highlights": [
+  "千年青石板商道，老黄葛树蔽日",
+  "沿途有老君洞等旧迹",
+  "本地人周末徒步线路"
+ ],
+ "location": {
+  "point": {
+   "lng": 106.598508,
+   "lat": 29.540668,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放（建议白天前往）",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 90-150 分钟",
-    "durationMinutes": [
-      90,
-      150
-    ],
-    "priceLevel": "free"
+  "address": "重庆市南岸区上新街前驱路277号",
+  "district": "南岸",
+  "transportTip": "地铁 6 号线／环线至上新街站或上浩站，步行到前驱路入口上山"
+ },
+ "practical": {
+  "openHours": "全天开放（建议白天前往）",
+  "openHoursRef": 0,
+  "ticket": "免费，无门票",
+  "ticketRef": 0,
+  "duration": "建议 90-150 分钟",
+  "durationMinutes": [
+   90,
+   150
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [
+  "南岸文旅的秋季徒步线是上新街入口→前驱路→黄葛古道→黄桷垭老街→大金鹰园，核心段约 4-6 公里、全程 2-3 小时",
+  "全程青石板台阶，雨天湿滑，穿防滑平底鞋；沿途有山民摆的水和小吃摊，不必背太重",
+  "走到黄桷垭老街就接得上老君洞和大金鹰观景台，半天行程可以连起来"
+ ],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "古道",
+  "徒步",
+  "黄桷树",
+  "免费"
+ ],
+ "popularity": 66,
+ "sources": [
+  {
+   "title": "百度百科·黄葛古道",
+   "url": "https://baike.baidu.com/item/%E9%BB%84%E8%91%9B%E5%8F%A4%E9%81%93",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
   },
-  "audience": [
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "古道",
-    "徒步",
-    "黄桷树",
-    "免费"
-  ],
-  "popularity": 66,
-  "sources": [
-    {
-      "title": "百度百科·黄葛古道",
-      "url": "https://baike.baidu.com/item/%E9%BB%84%E8%91%9B%E5%8F%A4%E9%81%93",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "黄葛古道"
+  {
+   "title": "本地宝 2026 攻略：免费、地址南岸区上新街前驱路277号；携程 POI 同址",
+   "url": "https://m.cq.bendibao.com/traffic/94553.shtm",
+   "kind": "media",
+   "fetchedAt": "2026-11-14"
   },
-  "_geocodeTitle": "黄葛古道",
-  "_geocodeSuspect": false,
-  "district": "500108",
-  "_noImage": true
+  {
+   "title": "南岸文旅 2026 秋季徒步路线稿：黄葛古道线上新街入口—前驱路—黄葛古道—黄桷",
+   "url": "http://mp.weixin.qq.com/s?__biz=MjM5NjM1OTY3Mg==&mid=2651096166&idx=1&sn=8c4e1a02c5c5efe61a4da23295c78fa2&chksm=bce9c6e87d8a41acc749be83c3021059c5883f001cf4579339053d38b46b5b82cf9628297470#rd",
+   "kind": "media",
+   "fetchedAt": "2026-11-14"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "黄葛古道"
+ },
+ "_geocodeTitle": "黄葛古道",
+ "_geocodeSuspect": false,
+ "district": "500108",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-14",
+  "changes": [
+   {
+    "field": "交通提示",
+    "old": "轨道交通 6 号线上新街站，换乘公交至黄桷垭",
+    "new": "地铁 6 号线／环线至上新街站或上浩站，步行到前驱路入口上山"
+   },
+   {
+    "field": "贴士（用 | 分隔多条，整体替换）",
+    "old": [],
+    "new": [
+     "南岸文旅的秋季徒步线是上新街入口→前驱路→黄葛古道→黄桷垭老街→大金鹰园，核心段约 4-6 公里、全程 2-3 小时",
+     "全程青石板台阶，雨天湿滑，穿防滑平底鞋；沿途有山民摆的水和小吃摊，不必背太重",
+     "走到黄桷垭老街就接得上老君洞和大金鹰观景台，半天行程可以连起来"
+    ]
+   }
+  ],
+  "source": "http://mp.weixin.qq.com/s?__biz=MjM5NjM1OTY3Mg==&mid=2651096166&idx=1&sn=8c4e1a02c5c5efe61a4da23295c78fa2&chksm=bce9c6e87d8a41acc749be83c3021059c5883f001cf4579339053d38b46b5b82cf9628297470#rd",
+  "reason": "南岸文旅 2026 秋季徒步路线稿：黄葛古道线上新街入口—前驱路—黄葛古道—黄桷垭老街—大金鹰园—月亮湖，核心段 4-6 公里、2-3 小时，交通为上/上新街站"
+ },
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "体力",
+    "score": 3.3,
+    "note": "核心段四五公里，全是青石台阶"
+   },
+   {
+    "label": "遮阴",
+    "score": 4.6,
+    "note": "老黄葛树蔽日，夏天像钻进绿色隧道"
+   },
+   {
+    "label": "花费",
+    "score": 4.8,
+    "note": "不收门票，也几乎没有商业开发"
+   },
+   {
+    "label": "补给",
+    "score": 3.5,
+    "note": "只有山民摆的水和小吃摊"
+   }
+  ],
+  "body": "南山上的千年商道，青石板被挑夫的草鞋磨得发亮，两侧老黄葛树把天遮住，夏天走进去像钻进绿色隧道；全程不收门票、也没怎么商业化，是本地人周末徒步的老线路，走到黄桷垭老街还能接上老君洞与大金鹰。要走完得掂量体力：核心段四五公里全是台阶，雨天石板湿滑，穿平底鞋也容易打滑；沿途只有山民摆的水和小吃摊，别指望正经补给点。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [],
+  "avoid": [],
+  "sources": []
+ }
 }

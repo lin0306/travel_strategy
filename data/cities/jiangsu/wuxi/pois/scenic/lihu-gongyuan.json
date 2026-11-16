@@ -60,21 +60,6 @@
         "license": "CC BY-SA 2.0",
         "attributionRequired": true
       }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/%E8%A0%A1%E6%B9%96%E5%A4%A7%E6%A1%A5%E5%85%AC%E5%9B%AD.jpg/1280px-%E8%A0%A1%E6%B9%96%E5%A4%A7%E6%A1%A5%E5%85%AC%E5%9B%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/%E8%A0%A1%E6%B9%96%E5%A4%A7%E6%A1%A5%E5%85%AC%E5%9B%AD.jpg/1280px-%E8%A0%A1%E6%B9%96%E5%A4%A7%E6%A1%A5%E5%85%AC%E5%9B%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "蠡湖大桥公园.jpg",
-      "query": "蠡湖公园",
-      "credit": {
-        "source": "wikimedia",
-        "author": "EditQ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%A0%A1%E6%B9%96%E5%A4%A7%E6%A1%A5%E5%85%AC%E5%9B%AD.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
     }
   ],
   "coverIndex": 0,
@@ -92,7 +77,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -100,5 +85,12 @@
   },
   "_geocodeTitle": "蠡湖公园",
   "_geocodeSuspect": false,
-  "district": "320211"
+  "district": "320211",
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 1 张（待重抓）",
+    "droppedImages": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/%E8%A0%A1%E6%B9%96%E5%A4%A7%E6%A1%A5%E5%85%AC%E5%9B%AD.jpg/1280px-%E8%A0%A1%E6%B9%96%E5%A4%A7%E6%A1%A5%E5%85%AC%E5%9B%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  }
 }

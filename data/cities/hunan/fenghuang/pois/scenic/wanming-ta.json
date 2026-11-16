@@ -69,21 +69,6 @@
         "license": "Public domain",
         "attributionRequired": false
       }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E%E4%B8%87%E5%90%8D%E5%A1%94.jpg/1280px-%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E%E4%B8%87%E5%90%8D%E5%A1%94.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E%E4%B8%87%E5%90%8D%E5%A1%94.jpg/1280px-%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E%E4%B8%87%E5%90%8D%E5%A1%94.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 811,
-      "alt": "凤凰古城万名塔.jpg",
-      "query": "万名塔 凤凰",
-      "credit": {
-        "source": "wikimedia",
-        "author": "HCCB3947",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E%E4%B8%87%E5%90%8D%E5%A1%94.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
     }
   ],
   "coverIndex": 0,
@@ -101,7 +86,7 @@
       "fetchedAt": "2026-10-06"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -109,5 +94,12 @@
   },
   "_geocodeTitle": "万名塔",
   "_geocodeSuspect": false,
-  "district": "433123"
+  "district": "433123",
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 1 张（待重抓）",
+    "droppedImages": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E%E4%B8%87%E5%90%8D%E5%A1%94.jpg/1280px-%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E%E4%B8%87%E5%90%8D%E5%A1%94.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  }
 }

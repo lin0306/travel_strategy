@@ -17,11 +17,12 @@
 import { usePlanUi } from '~/common/logic/itinerary/planUi'
 import { ToastBar } from '~/common/ui/ToastBar'
 
-export function PickingHint() {
+export function PickingHint({ exiting = false }: { exiting?: boolean }) {
   const picking = usePlanUi((s) => s.picking)
   const stopPicking = usePlanUi((s) => s.stopPicking)
 
-  if (!picking) return null
+  /* 退场期间（presence 那几十毫秒）picking 已清空，内容是固定文案所以无需缓存 */
+  if (!picking && !exiting) return null
 
   return (
     <ToastBar
@@ -29,6 +30,7 @@ export function PickingHint() {
       onClose={stopPicking}
       closeLabel="退出取点模式"
       action={{ label: '退出（Esc）', onClick: stopPicking }}
+      exiting={exiting}
     >
       点地图上任意位置，把它加进这个组
     </ToastBar>

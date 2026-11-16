@@ -1,67 +1,123 @@
 {
-  "id": "wudaoying-hutong",
-  "name": "五道营胡同",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "比南锣鼓巷安静一档的胡同，小店与居民仍混住。",
-  "description": "五道营在雍和宫西侧，位置避开了大客流。这些年是独立咖啡、古着与设计小店陆续进驻，特点是体量小、装修克制，两侧仍有居民。它是那种「还没被彻底改完」的胡同样本——走着能看见晾衣、自行车与开门声。近年商业也在增加，相比邻近几条主街仍偏静。",
-  "highlights": [
-    "毗邻雍和宫与国子监",
-    "小店体量小、装修克制",
-    "居民尚存，能看到生活面"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.412716,
-      "lat": 39.94842,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "北京市东城区五道营胡同",
-    "district": "东城",
-    "transportTip": "地铁2号线/5号线雍和宫站步行"
+ "id": "wudaoying-hutong",
+ "name": "五道营胡同",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "比南锣鼓巷安静一档的胡同，小店与居民仍混住。",
+ "description": "五道营在雍和宫西侧，位置避开了大客流。这些年是独立咖啡、古着与设计小店陆续进驻，特点是体量小、装修克制，两侧仍有居民。它是那种「还没被彻底改完」的胡同样本——走着能看见晾衣、自行车与开门声。近年商业也在增加，相比邻近几条主街仍偏静。",
+ "highlights": [
+  "毗邻雍和宫与国子监",
+  "小店体量小、装修克制",
+  "居民尚存，能看到生活面"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.412716,
+   "lat": 39.94842,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放(商铺多为10:00-21:00)",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 60-180 分钟",
-    "durationMinutes": [
-      60,
-      180
-    ],
-    "priceLevel": "free"
+  "address": "北京市东城区五道营胡同",
+  "district": "东城",
+  "transportTip": "地铁2号线/5号线雍和宫站步行"
+ },
+ "practical": {
+  "openHours": "全天开放(商铺多为10:00-21:00)",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 60-180 分钟",
+  "durationMinutes": [
+   60,
+   180
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [
+  "胡同里还有住户，别堵门也别大声；节假日东口有游商兜售手串、隔壁国子监街有『商拍』，属地会加强疏导，但改造成纯步行街暂时不现实",
+  "2025 年入选北京市级旅游休闲街区，2026 年新开握佛咖啡(东口)、雍和关帝府(60 号)，隔壁箭厂胡同同期热闹起来"
+ ],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "胡同",
+  "小店",
+  "安静"
+ ],
+ "popularity": 80,
+ "sources": [
+  {
+   "title": "百度百科·五道营胡同",
+   "url": "https://baike.baidu.com/item/%E4%BA%94%E9%81%93%E8%90%A5%E8%83%A1%E5%90%8C",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
   },
-  "audience": [
-    "couple",
-    "solo"
+  {
+   "title": "北京晚报：五道营胡同商居混住的秩序难题",
+   "url": "https://bjwb-app.bjd.com.cn/content/s69f2ea42e4b0687a2894d655.html",
+   "kind": "media",
+   "fetchedAt": "2026-11-14"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "五道营胡同"
+ },
+ "_geocodeTitle": "五道营胡同",
+ "_geocodeSuspect": false,
+ "district": "110101",
+ "_noImage": true,
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "安静",
+    "score": 4.5,
+    "note": "比南锣鼓巷安静一档，居民仍混住"
+   },
+   {
+    "label": "小店",
+    "score": 4.2,
+    "note": "独立咖啡、古着、设计小店，体量小装修克制"
+   },
+   {
+    "label": "逛街时长",
+    "score": 2.8,
+    "note": "只有几百米，走完不到半小时"
+   },
+   {
+    "label": "商业化",
+    "score": 3.2,
+    "note": "逐年变多，已不如早年"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "胡同",
-    "小店",
-    "安静"
+  "body": "比南锣鼓巷安静一档的胡同，独立咖啡、古着与设计小店体量小、装修克制，两侧还能看到晾衣与自行车。缺点是胡同只有几百米，走完不到半小时，商业也在逐年变多；专门跑一趟略亏，与雍和宫、国子监串着走刚好。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [],
+  "avoid": [],
+  "sources": []
+ },
+ "_patrol": {
+  "at": "2026-11-14",
+  "changes": [
+   {
+    "field": "贴士（用 | 分隔多条，整体替换）",
+    "old": [],
+    "new": [
+     "胡同里还有住户，别堵门也别大声；节假日东口有游商兜售手串、隔壁国子监街有『商拍』，属地会加强疏导，但改造成纯步行街暂时不现实",
+     "2025 年入选北京市级旅游休闲街区，2026 年新开握佛咖啡(东口)、雍和关帝府(60 号)，隔壁箭厂胡同同期热闹起来"
+    ]
+   }
   ],
-  "popularity": 80,
-  "sources": [
-    {
-      "title": "百度百科·五道营胡同",
-      "url": "https://baike.baidu.com/item/%E4%BA%94%E9%81%93%E8%90%A5%E8%83%A1%E5%90%8C",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "五道营胡同"
-  },
-  "_geocodeTitle": "五道营胡同",
-  "_geocodeSuspect": false,
-  "district": "110101",
-  "_noImage": true
+  "source": "https://bjwb-app.bjd.com.cn/content/s69f2ea42e4b0687a2894d655.html",
+  "reason": "北京晚报 2026 走访：五道营商户与居民混住、节假日游商与商拍多、改纯步行街暂不现实"
+ }
 }

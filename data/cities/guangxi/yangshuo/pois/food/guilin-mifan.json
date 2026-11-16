@@ -1,87 +1,124 @@
 {
-  "id": "guilin-mifan",
-  "name": "桂林米粉",
-  "category": "food",
-  "subtype": "local",
-  "summary": "卤水拌的圆粉，加锅烧和酸豆角，早上最热闹。",
-  "description": "桂林米粉在阳朔也是早餐的主角。粉是圆的，比云南米线粗一些，口感偏弹。关键在卤水——每家店都用八角、桂皮、草果和骨头熬自己的一锅，味道各家不同。点法是先干拌，上面铺锅烧（炸过的五花肉）、卤牛肉、酸豆角、花生和葱花，吃完粉再盛一勺骨头汤喝。本地人会说「冒热」，就是让老板把粉在热水里过一下。价格便宜，十来块一碗。早上七点到十点店里最挤。",
-  "highlights": [
-    "秘制卤水",
-    "锅烧酥脆",
-    "先拌后汤"
-  ],
-  "location": {
-    "point": {
-      "lng": 110.506587,
-      "lat": 24.763736,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "广西壮族自治区桂林市阳朔县县城米粉店",
-    "district": "阳朔",
-    "transportTip": "县城步行可达"
+ "id": "guilin-mifan",
+ "name": "桂林米粉",
+ "category": "food",
+ "subtype": "local",
+ "summary": "卤水拌的圆粉，加锅烧和酸豆角，早上最热闹。",
+ "description": "桂林米粉在阳朔也是早餐的主角。粉是圆的，比云南米线粗一些，口感偏弹。关键在卤水——每家店都用八角、桂皮、草果和骨头熬自己的一锅，味道各家不同。点法是先干拌，上面铺锅烧（炸过的五花肉）、卤牛肉、酸豆角、花生和葱花，吃完粉再盛一勺骨头汤喝。本地人会说「冒热」，就是让老板把粉在热水里过一下。价格便宜，十来块一碗。早上七点到十点店里最挤。",
+ "highlights": [
+  "秘制卤水",
+  "锅烧酥脆",
+  "先拌后汤"
+ ],
+ "location": {
+  "point": {
+   "lng": 110.506587,
+   "lat": 24.763736,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "6:30-14:00（部分店全天）",
-    "openHoursRef": 0,
-    "ticket": "人均十来元",
-    "ticketRef": 0,
-    "duration": "建议 20-45 分钟",
-    "durationMinutes": [
-      20,
-      45
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "family",
-    "solo",
-    "friends",
-    "couple",
-    "elders"
+  "address": "广西壮族自治区桂林市阳朔县县城米粉店",
+  "district": "阳朔",
+  "transportTip": "县城步行可达"
+ },
+ "practical": {
+  "openHours": "6:30-14:00（部分店全天）",
+  "openHoursRef": 0,
+  "ticket": "人均十来元",
+  "ticketRef": 0,
+  "duration": "建议 20-45 分钟",
+  "durationMinutes": [
+   20,
+   45
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/DG_%E6%9D%B1%E8%8E%9E_DongGuan_%E5%8D%97%E5%9F%8E%E5%8D%80_Nancheng_%E9%B4%BB%E7%A6%8F%E8%B7%AF_HongFu_Road_%E9%B4%BB%E7%A6%8F%E9%87%8C_%E5%8C%97%E5%8D%80_HungFuLi_North_mall_shop_noodle_%E6%A1%82%E6%9E%97%E7%B1%B3%E7%B2%89_December_2024_R12S.jpg/1280px-DG_%E6%9D%B1%E8%8E%9E_DongGuan_%E5%8D%97%E5%9F%8E%E5%8D%80_Nancheng_%E9%B4%BB%E7%A6%8F%E8%B7%AF_HongFu_Road_%E9%B4%BB%E7%A6%8F%E9%87%8C_%E5%8C%97%E5%8D%80_HungFuLi_North_mall_shop_noodle_%E6%A1%82%E6%9E%97%E7%B1%B3%E7%B2%89_December_2024_R12S.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/DG_%E6%9D%B1%E8%8E%9E_DongGuan_%E5%8D%97%E5%9F%8E%E5%8D%80_Nancheng_%E9%B4%BB%E7%A6%8F%E8%B7%AF_HongFu_Road_%E9%B4%BB%E7%A6%8F%E9%87%8C_%E5%8C%97%E5%8D%80_HungFuLi_North_mall_shop_noodle_%E6%A1%82%E6%9E%97%E7%B1%B3%E7%B2%89_December_2024_R12S.jpg/1280px-DG_%E6%9D%B1%E8%8E%9E_DongGuan_%E5%8D%97%E5%9F%8E%E5%8D%80_Nancheng_%E9%B4%BB%E7%A6%8F%E8%B7%AF_HongFu_Road_%E9%B4%BB%E7%A6%8F%E9%87%8C_%E5%8C%97%E5%8D%80_HungFuLi_North_mall_shop_noodle_%E6%A1%82%E6%9E%97%E7%B1%B3%E7%B2%89_December_2024_R12S.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "DG 東莞 DongGuan 南城區 Nancheng 鴻福路 HongFu Road 鴻福里 北區 HungFuLi North mall shop noodle 桂林米粉 December 202",
-      "query": "桂林米粉",
-      "credit": {
-        "source": "wikimedia",
-        "author": "NAS 238 WMMNO",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:DG_%E6%9D%B1%E8%8E%9E_DongGuan_%E5%8D%97%E5%9F%8E%E5%8D%80_Nancheng_%E9%B4%BB%E7%A6%8F%E8%B7%AF_HongFu_Road_%E9%B4%BB%E7%A6%8F%E9%87%8C_%E5%8C%97%E5%8D%80_HungFuLi_North_mall_shop_noodle_%E6%A1%82%E6%9E%97%E7%B1%B3%E7%B2%89_December_2024_R12S.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    }
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "family",
+  "solo",
+  "friends",
+  "couple",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/DG_%E6%9D%B1%E8%8E%9E_DongGuan_%E5%8D%97%E5%9F%8E%E5%8D%80_Nancheng_%E9%B4%BB%E7%A6%8F%E8%B7%AF_HongFu_Road_%E9%B4%BB%E7%A6%8F%E9%87%8C_%E5%8C%97%E5%8D%80_HungFuLi_North_mall_shop_noodle_%E6%A1%82%E6%9E%97%E7%B1%B3%E7%B2%89_December_2024_R12S.jpg/1280px-DG_%E6%9D%B1%E8%8E%9E_DongGuan_%E5%8D%97%E5%9F%8E%E5%8D%80_Nancheng_%E9%B4%BB%E7%A6%8F%E8%B7%AF_HongFu_Road_%E9%B4%BB%E7%A6%8F%E9%87%8C_%E5%8C%97%E5%8D%80_HungFuLi_North_mall_shop_noodle_%E6%A1%82%E6%9E%97%E7%B1%B3%E7%B2%89_December_2024_R12S.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/DG_%E6%9D%B1%E8%8E%9E_DongGuan_%E5%8D%97%E5%9F%8E%E5%8D%80_Nancheng_%E9%B4%BB%E7%A6%8F%E8%B7%AF_HongFu_Road_%E9%B4%BB%E7%A6%8F%E9%87%8C_%E5%8C%97%E5%8D%80_HungFuLi_North_mall_shop_noodle_%E6%A1%82%E6%9E%97%E7%B1%B3%E7%B2%89_December_2024_R12S.jpg/1280px-DG_%E6%9D%B1%E8%8E%9E_DongGuan_%E5%8D%97%E5%9F%8E%E5%8D%80_Nancheng_%E9%B4%BB%E7%A6%8F%E8%B7%AF_HongFu_Road_%E9%B4%BB%E7%A6%8F%E9%87%8C_%E5%8C%97%E5%8D%80_HungFuLi_North_mall_shop_noodle_%E6%A1%82%E6%9E%97%E7%B1%B3%E7%B2%89_December_2024_R12S.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "DG 東莞 DongGuan 南城區 Nancheng 鴻福路 HongFu Road 鴻福里 北區 HungFuLi North mall shop noodle 桂林米粉 December 202",
+   "query": "桂林米粉",
+   "credit": {
+    "source": "wikimedia",
+    "author": "NAS 238 WMMNO",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:DG_%E6%9D%B1%E8%8E%9E_DongGuan_%E5%8D%97%E5%9F%8E%E5%8D%80_Nancheng_%E9%B4%BB%E7%A6%8F%E8%B7%AF_HongFu_Road_%E9%B4%BB%E7%A6%8F%E9%87%8C_%E5%8C%97%E5%8D%80_HungFuLi_North_mall_shop_noodle_%E6%A1%82%E6%9E%97%E7%B1%B3%E7%B2%89_December_2024_R12S.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "米粉",
+  "早餐",
+  "卤水",
+  "便宜",
+  "本地"
+ ],
+ "popularity": 94,
+ "sources": [
+  {
+   "title": "百度百科·桂林米粉",
+   "url": "https://baike.baidu.com/item/%E6%A1%82%E6%9E%97%E7%B1%B3%E7%B2%89",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-07"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "桂林米粉"
+ },
+ "_geocodeTitle": "桂林米粉",
+ "_geocodeSuspect": false,
+ "district": "450321",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.5,
+    "note": "卤水各家不同，锅烧是灵魂"
+   },
+   {
+    "label": "价格",
+    "score": 4.8,
+    "note": "十来块一碗，早餐首选"
+   },
+   {
+    "label": "环境",
+    "score": 3.0,
+    "note": "多数店就是路边小铺，坐着将就"
+   },
+   {
+    "label": "时段",
+    "score": 3.6,
+    "note": "早上七点到十点最挤，午后部分店收档"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "米粉",
-    "早餐",
-    "卤水",
-    "便宜",
-    "本地"
+  "body": "阳朔最稳的一顿早餐。圆粉比米线弹，关键在那锅卤水，先干拌、铺锅烧和酸豆角，吃完再添一勺骨头汤，本地人还会让老板「冒热」过一道热水。缺点是店面普遍将就，油烟气重、位置小；游客区的店比巷子里贵一截，味道还不如街坊店，认准早上人多、菜单只有几种粉的那种。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "早餐",
+   "省钱"
   ],
-  "popularity": 94,
-  "sources": [
-    {
-      "title": "百度百科·桂林米粉",
-      "url": "https://baike.baidu.com/item/%E6%A1%82%E6%9E%97%E7%B1%B3%E7%B2%89",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-07"
-    }
+  "avoid": [
+   "想要环境"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "桂林米粉"
-  },
-  "_geocodeTitle": "桂林米粉",
-  "_geocodeSuspect": false,
-  "district": "450321"
+  "sources": []
+ }
 }

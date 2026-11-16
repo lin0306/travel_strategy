@@ -39,7 +39,71 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/HK_Central_%E4%B8%AD%E7%92%B0_night_%E7%A0%B5%E7%94%B8%E4%B9%8D%E8%A1%97_Pottinger_Street_May-2013.JPG/1280px-HK_Central_%E4%B8%AD%E7%92%B0_night_%E7%A0%B5%E7%94%B8%E4%B9%8D%E8%A1%97_Pottinger_Street_May-2013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/HK_Central_%E4%B8%AD%E7%92%B0_night_%E7%A0%B5%E7%94%B8%E4%B9%8D%E8%A1%97_Pottinger_Street_May-2013.JPG/1280px-HK_Central_%E4%B8%AD%E7%92%B0_night_%E7%A0%B5%E7%94%B8%E4%B9%8D%E8%A1%97_Pottinger_Street_May-2013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "HK Central 中環 night 砵甸乍街 Pottinger Street May-2013.JPG",
+      "query": "砵甸乍街",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Eelasoami",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:HK_Central_%E4%B8%AD%E7%92%B0_night_%E7%A0%B5%E7%94%B8%E4%B9%8D%E8%A1%97_Pottinger_Street_May-2013.JPG",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/HK_Pottinger_Street_stone_step.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/HK_Pottinger_Street_stone_step.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 720,
+      "alt": "HK Pottinger Street stone step.JPG",
+      "query": "砵甸乍街",
+      "credit": {
+        "source": "wikimedia",
+        "author": "No machine-readable author provided. SHOLYWOD~commonswiki as",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:HK_Pottinger_Street_stone_step.JPG",
+        "license": "CC BY 2.5",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "front"
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/HK_%E4%B8%AD%E7%92%B0_Central_%E7%A0%B5%E7%94%B8%E4%B9%8D%E8%A1%97_Pottinger_Street_February_2023_Px3_01.jpg/1280px-HK_%E4%B8%AD%E7%92%B0_Central_%E7%A0%B5%E7%94%B8%E4%B9%8D%E8%A1%97_Pottinger_Street_February_2023_Px3_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/HK_%E4%B8%AD%E7%92%B0_Central_%E7%A0%B5%E7%94%B8%E4%B9%8D%E8%A1%97_Pottinger_Street_February_2023_Px3_01.jpg/1280px-HK_%E4%B8%AD%E7%92%B0_Central_%E7%A0%B5%E7%94%B8%E4%B9%8D%E8%A1%97_Pottinger_Street_February_2023_Px3_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "HK 中環 Central 砵甸乍街 Pottinger Street February 2023 Px3 01.jpg",
+      "query": "砵甸乍街",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Dorefuom 993",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:HK_%E4%B8%AD%E7%92%B0_Central_%E7%A0%B5%E7%94%B8%E4%B9%8D%E8%A1%97_Pottinger_Street_February_2023_Px3_01.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "street"
+      }
+    }
+  ],
   "coverIndex": 0,
   "tags": [
     "老街",
@@ -55,7 +119,7 @@
       "fetchedAt": "2026-09-24"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-05",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,6 +127,5 @@
   },
   "_geocodeTitle": "砵典乍街",
   "_geocodeSuspect": false,
-  "district": "811100",
-  "_noImage": true
+  "district": "811100"
 }

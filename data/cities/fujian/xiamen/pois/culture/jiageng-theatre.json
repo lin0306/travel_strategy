@@ -1,68 +1,124 @@
 {
-  "id": "jiageng-theatre",
-  "name": "嘉庚剧院",
-  "category": "culture",
-  "subtype": "performance",
-  "summary": "集美新城的剧场，嘉庚艺术中心里的那个大舞台。",
-  "description": "嘉庚剧院在集美区杏林湾路的嘉庚艺术中心里，是集美新城这一片最主要的演出场所。中心的外形是一组嘉庚风格的建筑——红砖配白色石梁，大屋顶压在现代体量上，与集美学村那一套是一个路子。剧院里是一个标准舞台的剧场，演的是话剧、舞剧、音乐会与儿童剧，本地院团与巡演团体都来。座位一千上下，票价按场次与座位分区。它离园博苑与集美学村都不远，白天逛集美、晚上看一场是顺的安排。地铁 1 号线能到集美一带，下来走几分钟。",
-  "highlights": [
-    "集美新城最主要的演出场所，在嘉庚艺术中心内",
-    "建筑是嘉庚风格：红砖配白石梁、大屋顶",
-    "演话剧舞剧音乐会与儿童剧"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.060373,
-      "lat": 24.592574,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "福建省厦门市集美区杏林湾路368号",
-    "district": "集美区",
-    "transportTip": "地铁1号线至集美一带，步行约十分钟"
+ "id": "jiageng-theatre",
+ "name": "嘉庚剧院",
+ "category": "culture",
+ "subtype": "performance",
+ "summary": "集美新城的剧场，嘉庚艺术中心里的那个大舞台。",
+ "description": "嘉庚剧院在集美区杏林湾路的嘉庚艺术中心里，是集美新城这一片最主要的演出场所。中心的外形是一组嘉庚风格的建筑——红砖配白色石梁，大屋顶压在现代体量上，与集美学村那一套是一个路子。剧院里是一个标准舞台的剧场，演的是话剧、舞剧、音乐会与儿童剧，本地院团与巡演团体都来。座位一千上下，票价按场次与座位分区。它离园博苑与集美学村都不远，白天逛集美、晚上看一场是顺的安排。地铁 1 号线能到集美一带，下来走几分钟。",
+ "highlights": [
+  "集美新城最主要的演出场所，在嘉庚艺术中心内",
+  "建筑是嘉庚风格：红砖配白石梁、大屋顶",
+  "演话剧舞剧音乐会与儿童剧"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.060373,
+   "lat": 24.592574,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "随演出排期（票务以公告为准），以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "票价按场次与座位分区，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 120-210 分钟",
-    "durationMinutes": [
-      120,
-      210
-    ],
-    "priceLevel": "mid"
+  "address": "福建省厦门市集美区杏林湾路368号",
+  "district": "集美区",
+  "transportTip": "地铁1号线官任站2号口，步行约十分钟；公交集美市民广场站、杏林湾营运中心站"
+ },
+ "practical": {
+  "openHours": "随演出排期（票务以公告为准），以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "票价按场次与座位分区，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 120-210 分钟",
+  "durationMinutes": [
+   120,
+   210
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "family",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "剧院",
+  "嘉庚风格",
+  "集美"
+ ],
+ "popularity": 73,
+ "sources": [
+  {
+   "title": "百度百科·嘉庚剧院",
+   "url": "https://baike.baidu.com/item/%E5%98%89%E5%BA%9A%E5%89%A7%E9%99%A2",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
   },
-  "audience": [
-    "couple",
-    "family",
-    "elders"
+  {
+   "title": "剧院官方公众号交通栏：地铁1号线官任站2号口",
+   "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODAwNzQ5Ng==&mid=2652847516&idx=2&sn=a7cfd5546acbd67108e362a1f7e49c88",
+   "kind": "media",
+   "fetchedAt": "2026-11-12"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "嘉庚剧院"
+ },
+ "_geocodeTitle": "厦门嘉庚剧院",
+ "_geocodeSuspect": false,
+ "district": "350211",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-12",
+  "changes": [
+   {
+    "field": "交通提示",
+    "old": "地铁1号线至集美一带，步行约十分钟",
+    "new": "地铁1号线官任站2号口，步行约十分钟；公交集美市民广场站、杏林湾营运中心站"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "剧院",
-    "嘉庚风格",
-    "集美"
+  "source": "http://mp.weixin.qq.com/s?__biz=MzA5ODAwNzQ5Ng==&mid=2652847516&idx=2&sn=a7cfd5546acbd67108e362a1f7e49c88",
+  "reason": "剧院官方公众号交通栏：地铁1号线官任站2号口"
+ },
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "建筑",
+    "score": 4.3,
+    "note": "嘉庚风格红砖白石梁、大屋顶"
+   },
+   {
+    "label": "观演",
+    "score": 3.8,
+    "note": "话剧舞剧音乐会与儿童剧"
+   },
+   {
+    "label": "排期",
+    "score": 3.1,
+    "note": "随排期，没演出时没什么可看"
+   },
+   {
+    "label": "位置",
+    "score": 3.2,
+    "note": "在集美新城，与学村、园博苑近"
+   }
   ],
-  "popularity": 73,
-  "sources": [
-    {
-      "title": "百度百科·嘉庚剧院",
-      "url": "https://baike.baidu.com/item/%E5%98%89%E5%BA%9A%E5%89%A7%E9%99%A2",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
+  "body": "集美新城最主要的演出场所，在嘉庚艺术中心里，外形是红砖配白色石梁、大屋顶压在现代体量上的嘉庚风格，与集美学村那一套是一个路子，光看建筑也值一眼。剧院是标准舞台，演话剧、舞剧、音乐会与儿童剧，本地院团与巡演团体都来，白天逛集美、晚上看一场是顺的安排。缺点是同样跟着排期走，没有演出的日子只能看外观；票价按场次与座位分区，位置离岛内老城远，为看一场戏专程往返有点耗时。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "集美学村一日",
+   "有想看的演出",
+   "看嘉庚建筑"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "嘉庚剧院"
-  },
-  "_geocodeTitle": "厦门嘉庚剧院",
-  "_geocodeSuspect": false,
-  "district": "350211",
-  "_noImage": true
+  "avoid": [
+   "无演出日专程"
+  ],
+  "sources": []
+ }
 }

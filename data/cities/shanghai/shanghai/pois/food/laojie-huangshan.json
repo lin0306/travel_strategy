@@ -1,66 +1,104 @@
 {
-  "id": "laojie-huangshan",
-  "name": "老吉士酒家(天平路店)",
-  "category": "food",
-  "subtype": "local",
-  "summary": "本帮菜口碑很稳的一家，蟹粉豆腐与红烧肉是常点的两道。",
-  "description": "本帮菜的特点是浓油赤酱——酱油与糖为主调，收汁到发亮，味道偏甜、偏重。老吉士是本地口碑很高的一家，店面不大、装修普通，蟹粉豆腐、红烧肉、油爆虾是常被提到的几道。它比多数游客向的本帮馆子贵一档，但回头客比例也高得多。建议提前订位。",
-  "highlights": [
-    "蟹粉豆腐与红烧肉是招牌",
-    "本地回头客比例高",
-    "建议提前订位"
-  ],
-  "location": {
-    "point": {
-      "lng": 121.437914,
-      "lat": 31.203152,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "上海市徐汇区天平路41号",
-    "district": "徐汇",
-    "transportTip": "地铁10号线/11号线交通大学站步行"
+ "id": "laojie-huangshan",
+ "name": "老吉士酒家(天平路店)",
+ "category": "food",
+ "subtype": "local",
+ "summary": "本帮菜口碑很稳的一家，蟹粉豆腐与红烧肉是常点的两道。",
+ "description": "本帮菜的特点是浓油赤酱——酱油与糖为主调，收汁到发亮，味道偏甜、偏重。老吉士是本地口碑很高的一家，店面不大、装修普通，蟹粉豆腐、红烧肉、油爆虾是常被提到的几道。它比多数游客向的本帮馆子贵一档，但回头客比例也高得多。建议提前订位。",
+ "highlights": [
+  "蟹粉豆腐与红烧肉是招牌",
+  "本地回头客比例高",
+  "建议提前订位"
+ ],
+ "location": {
+  "point": {
+   "lng": 121.437914,
+   "lat": 31.203152,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约11:00-21:30(以门店公告为准)",
-    "openHoursRef": 0,
-    "ticket": "人均约150元起(以门店为准)",
-    "ticketRef": 0,
-    "duration": "建议 90-150 分钟",
-    "durationMinutes": [
-      90,
-      150
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "couple"
+  "address": "上海市徐汇区天平路41号",
+  "district": "徐汇",
+  "transportTip": "地铁10号线/11号线交通大学站步行"
+ },
+ "practical": {
+  "openHours": "约11:00-21:30(以门店公告为准)",
+  "openHoursRef": 0,
+  "ticket": "人均约150元起(以门店为准)",
+  "ticketRef": 0,
+  "duration": "建议 90-150 分钟",
+  "durationMinutes": [
+   90,
+   150
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "本帮菜",
-    "浓油赤酱",
-    "口碑好"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "本帮菜",
+  "浓油赤酱",
+  "口碑好"
+ ],
+ "popularity": 88,
+ "sources": [
+  {
+   "title": "百度百科·上海本帮菜",
+   "url": "https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E6%9C%AC%E5%B8%AE%E8%8F%9C",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "老吉士酒家(天平路店)"
+ },
+ "_geocodeTitle": "老吉士酒家(天平路店)",
+ "_geocodeSuspect": false,
+ "district": "310104",
+ "_noImage": true,
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.5,
+    "note": "浓油赤酱收汁到位，蟹粉豆腐稳"
+   },
+   {
+    "label": "价格",
+    "score": 2.8,
+    "note": "比游客向本帮馆子贵一档"
+   },
+   {
+    "label": "环境",
+    "score": 3.0,
+    "note": "店面不大、装修普通"
+   },
+   {
+    "label": "订位",
+    "score": 2.4,
+    "note": "桌位少，饭点临时去基本没位置"
+   }
   ],
-  "popularity": 88,
-  "sources": [
-    {
-      "title": "百度百科·上海本帮菜",
-      "url": "https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E6%9C%AC%E5%B8%AE%E8%8F%9C",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
+  "body": "本帮菜的底子是浓油赤酱，酱油与糖收汁到发亮，味道偏甜偏重。老吉士是本地口碑很稳的一家，蟹粉豆腐、红烧肉、油爆虾是最常被点的几道，店面不大、装修普通，但回头客比例明显高于游客向的馆子。负面：价格比同类贵一档，桌位少必须提前订，饭点临时过去大概率吃不上。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "吃本帮菜",
+   "朋友小聚"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "老吉士酒家(天平路店)"
-  },
-  "_geocodeTitle": "老吉士酒家(天平路店)",
-  "_geocodeSuspect": false,
-  "district": "310104",
-  "_noImage": true
+  "avoid": [
+   "临时起意",
+   "预算紧"
+  ],
+  "sources": []
+ }
 }

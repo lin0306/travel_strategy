@@ -1,0 +1,911 @@
+{
+ "updatedAt": "2026-11-15",
+ "_note": "省级展示层（2026-11-14）。intro 为采编正文（真实人文地理，不编数据）；heroImages 由 tools/province_cover.py 逐张看图后写回，未审时为 []。键 = 6 位省级 adcode，与 data/_generated/district-tree.json 的省节点一致。",
+ "provinces": {
+  "110000": {
+   "intro": "首都，元明清三代的都城。城圈以中轴线为骨：故宫、景山、天坛、钟鼓楼沿一条南北直线排开，两侧是成片的胡同。西郊有颐和园与香山，北郊是奥林匹克公园，往北出城就是长城——八达岭修得最完整，慕田峪与司马台更野。市区景点密集且多数需要预约，按片区安排比按名单跑省力。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/%E5%8C%97%E4%BA%AC%E6%95%85%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%99%A2_07.jpg/1280px-%E5%8C%97%E4%BA%AC%E6%95%85%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%99%A2_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/%E5%8C%97%E4%BA%AC%E6%95%85%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%99%A2_07.jpg/1280px-%E5%8C%97%E4%BA%AC%E6%95%85%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%99%A2_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "故宫东北角楼与筒子河，红墙黄瓦倒映在水面",
+     "query": "故宫博物院",
+     "credit": {
+      "source": "wikimedia",
+      "author": "DragonSamYU",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8C%97%E4%BA%AC%E6%95%85%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%99%A2_07.jpg",
+      "license": "CC BY-SA 4.0",
+      "attributionRequired": true
+     }
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E1.JPG/1280px-%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E1.JPG/1280px-%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "八达岭长城沿山脊蜿蜒，城墙与敌楼连成一线",
+     "query": "八达岭长城",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Mummyyx",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E1.JPG",
+      "license": "CC BY-SA 3.0",
+      "attributionRequired": true
+     }
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/20200110_Temple_of_Heaven-11.jpg/1280px-20200110_Temple_of_Heaven-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/20200110_Temple_of_Heaven-11.jpg/1280px-20200110_Temple_of_Heaven-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "天坛祈年殿三层蓝色琉璃圆顶立于汉白玉台基上",
+     "query": "天坛公园",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Balon Greyjoy",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20200110_Temple_of_Heaven-11.jpg",
+      "license": "CC0",
+      "attributionRequired": false
+     }
+    }
+   ]
+  },
+  "120000": {
+   "intro": "海河从城中穿过，两岸是近代租界留下的建筑群：五大道的小洋楼、解放北路的银行街、意式风情区。天津之眼、瓷房子、古文化街散在河湾附近，一天半足够走完。吃的是市井路子——煎饼馃子、锅巴菜、大麻花，晚上还有相声茶馆。从北京乘高铁半小时可达，适合作为京津冀行程的一站。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Tianjin_Eye_1.jpg/1280px-Tianjin_Eye_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Tianjin_Eye_1.jpg/1280px-Tianjin_Eye_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "夜间的天津之眼摩天轮与永乐桥，轮圈灯光映在海河水面",
+     "query": "天津之眼摩天轮",
+     "credit": {
+      "source": "wikimedia",
+      "author": "H2v5o68z",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tianjin_Eye_1.jpg",
+      "license": "CC0",
+      "attributionRequired": false
+     }
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/%E4%BA%94%E5%A4%A7%E9%81%93%E5%85%AC%E5%9B%AD1.jpg/1280px-%E4%BA%94%E5%A4%A7%E9%81%93%E5%85%AC%E5%9B%AD1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/%E4%BA%94%E5%A4%A7%E9%81%93%E5%85%AC%E5%9B%AD1.jpg/1280px-%E4%BA%94%E5%A4%A7%E9%81%93%E5%85%AC%E5%9B%AD1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "五大道历史街区内的红砖钟楼与草坪，游人在楼前拍照",
+     "query": "五大道",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Tyngrwey",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%94%E5%A4%A7%E9%81%93%E5%85%AC%E5%9B%AD1.jpg",
+      "license": "CC BY-SA 4.0",
+      "attributionRequired": true
+     }
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Binhai_library_sphere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Binhai_library_sphere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1080,
+     "height": 720,
+     "alt": "天津滨海图书馆中庭巨大的球形「滨海之眼」与白色阶梯",
+     "query": "天津滨海图书馆",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Muzzleflash",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Binhai_library_sphere.jpg",
+      "license": "CC0",
+      "attributionRequired": false
+     }
+    }
+   ]
+  },
+  "130000": {
+   "intro": "环抱京津，地形自西北向东南分三带。北端承德有避暑山庄与外八庙，再往北是坝上草原；东端秦皇岛有山海关老龙头与北戴河海滨；西南的石家庄周边是正定古城、赵州桥；保定、邯郸各有一批古建与陵寝。省会石家庄是交通枢纽，各片区之间距离不近，宜按方向分次来。",
+   "heroImages": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Chengde_Mountain_Resort%2C_Pagoda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Chengde_Mountain_Resort%2C_Pagoda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1080,
+     "height": 720,
+     "alt": "承德避暑山庄与外八庙，古塔与山林",
+     "query": "避暑山庄",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Алексей Бондаренко",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort,_Pagoda.jpg",
+      "license": "CC BY-SA 3.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "140000": {
+   "intro": "表里山河，古建存量全国最密。北线大同有云冈石窟、悬空寺、应县木塔；中线五台山与太原晋祠、天龙山；南线平遥古城、双林寺、王家大院，再往南是壶口瀑布。面食自成一系，刀削面、栲栳栳、头脑都值得试。景点分散在南北两千里，一般按「大同—太原—平遥」一线走。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/61148-Yungang-Grottoes_%2828470279842%29.jpg/1280px-61148-Yungang-Grottoes_%2828470279842%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/61148-Yungang-Grottoes_%2828470279842%29.jpg/1280px-61148-Yungang-Grottoes_%2828470279842%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "大同云冈石窟，崖壁上开凿的北魏造像",
+     "query": "云冈石窟",
+     "credit": {
+      "source": "wikimedia",
+      "author": "xiquinhosilva",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:61148-Yungang-Grottoes_(28470279842).jpg",
+      "license": "CC BY 2.0",
+      "attributionRequired": true
+     }
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/%E5%B1%B1%E8%A5%BF%E5%B9%B3%E9%81%A5%E5%8F%A4%E5%9F%8E%E5%A2%99_-_panoramio.jpg/1280px-%E5%B1%B1%E8%A5%BF%E5%B9%B3%E9%81%A5%E5%8F%A4%E5%9F%8E%E5%A2%99_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/%E5%B1%B1%E8%A5%BF%E5%B9%B3%E9%81%A5%E5%8F%A4%E5%9F%8E%E5%A2%99_-_panoramio.jpg/1280px-%E5%B1%B1%E8%A5%BF%E5%B9%B3%E9%81%A5%E5%8F%A4%E5%9F%8E%E5%A2%99_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "平遥古城墙与城楼，墙外是大片绿地",
+     "query": "平遥古城墙",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Tiger@西北",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B1%B1%E8%A5%BF%E5%B9%B3%E9%81%A5%E5%8F%A4%E5%9F%8E%E5%A2%99_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "attributionRequired": true
+     }
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/%E5%B1%B1%E8%A5%BF%E5%B9%B3%E9%81%A5%E5%8F%A4%E5%9F%8E%E6%97%A5%E5%8D%87%E6%98%8C%E7%A5%A8%E5%8F%B7%E5%90%8E%E9%99%A2_-_panoramio.jpg/1280px-%E5%B1%B1%E8%A5%BF%E5%B9%B3%E9%81%A5%E5%8F%A4%E5%9F%8E%E6%97%A5%E5%8D%87%E6%98%8C%E7%A5%A8%E5%8F%B7%E5%90%8E%E9%99%A2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/%E5%B1%B1%E8%A5%BF%E5%B9%B3%E9%81%A5%E5%8F%A4%E5%9F%8E%E6%97%A5%E5%8D%87%E6%98%8C%E7%A5%A8%E5%8F%B7%E5%90%8E%E9%99%A2_-_panoramio.jpg/1280px-%E5%B1%B1%E8%A5%BF%E5%B9%B3%E9%81%A5%E5%8F%A4%E5%9F%8E%E6%97%A5%E5%8D%87%E6%98%8C%E7%A5%A8%E5%8F%B7%E5%90%8E%E9%99%A2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "平遥日升昌票号临街门面与黑漆匾额",
+     "query": "日升昌票号",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Tiger@西北",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B1%B1%E8%A5%BF%E5%B9%B3%E9%81%A5%E5%8F%A4%E5%9F%8E%E6%97%A5%E5%8D%87%E6%98%8C%E7%A5%A8%E5%8F%B7%E5%90%8E%E9%99%A2_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "150000": {
+   "intro": "东西横跨近三千公里，一条线走不完。东部呼伦贝尔是草原与湿地，额尔古纳、室韦沿边境；中部锡林郭勒草原与呼和浩特的召庙群；西部阿拉善有额济纳胡杨林与巴丹吉林沙漠，鄂尔多斯有响沙湾。草原七八月最绿，胡杨十月初黄透，季节卡得很准。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_01.jpg/1280px-%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_01.jpg/1280px-%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "陈巴尔虎旗莫日格勒河观景区，草坡上的观景步道与游人",
+     "query": "莫日格勒河",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Liuxingy",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%99%88%E5%B7%B4%E5%B0%94%E8%99%8E%E6%97%97_%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%E6%B5%A9%E6%9E%97%E6%B8%A9%E9%83%BD%E6%97%A5%E8%A7%82%E6%99%AF%E5%8C%BA_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "attributionRequired": true
+     }
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/20230608_Inner_Mongolia_Museum_and_Wulanqiate.jpg/1280px-20230608_Inner_Mongolia_Museum_and_Wulanqiate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/20230608_Inner_Mongolia_Museum_and_Wulanqiate.jpg/1280px-20230608_Inner_Mongolia_Museum_and_Wulanqiate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "内蒙古博物院与相邻的乌兰恰特剧院外景，广场开阔",
+     "query": "内蒙古博物院",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Yumeto",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20230608_Inner_Mongolia_Museum_and_Wulanqiate.jpg",
+      "license": "CC BY-SA 4.0",
+      "attributionRequired": true
+     }
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/HulunLake2.jpg/1280px-HulunLake2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/HulunLake2.jpg/1280px-HulunLake2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "呼伦湖开阔的湖面与低垂的云层，远处可见岸线",
+     "query": "呼伦湖",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Fanghong",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:HulunLake2.jpg",
+      "license": "CC BY-SA 3.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "210000": {
+   "intro": "大连是海滨城市：星海广场、滨海路、旅顺口的近代遗迹，往东有金石滩；沈阳以沈阳故宫、张氏帅府、北陵串起清初历史；丹东沿鸭绿江，能看到断桥与对岸；盘锦红海滩在九十月最红。冬季偏冷，海滨与海岛活动集中在夏半年。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Mukden_Palace_drone_view_5_%28cropped_%26_rotated%29.jpg/1280px-Mukden_Palace_drone_view_5_%28cropped_%26_rotated%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Mukden_Palace_drone_view_5_%28cropped_%26_rotated%29.jpg/1280px-Mukden_Palace_drone_view_5_%28cropped_%26_rotated%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "沈阳故宫俯瞰，成片黄琉璃瓦屋顶与宫墙",
+     "query": "沈阳故宫",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Techyan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mukden_Palace_drone_view_5_(cropped_%26_rotated).jpg",
+      "license": "CC BY-SA 4.0",
+      "attributionRequired": true
+     }
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/%E5%BC%A0%E6%B0%8F%E5%B8%85%E5%BA%9C%E5%A4%A7%E9%9D%92%E6%A5%BC2019.jpg/1280px-%E5%BC%A0%E6%B0%8F%E5%B8%85%E5%BA%9C%E5%A4%A7%E9%9D%92%E6%A5%BC2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/%E5%BC%A0%E6%B0%8F%E5%B8%85%E5%BA%9C%E5%A4%A7%E9%9D%92%E6%A5%BC2019.jpg/1280px-%E5%BC%A0%E6%B0%8F%E5%B8%85%E5%BA%9C%E5%A4%A7%E9%9D%92%E6%A5%BC2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "张氏帅府大青楼，青砖西式楼体与院内松柏",
+     "query": "张氏帅府",
+     "credit": {
+      "source": "wikimedia",
+      "author": "ScareCriterion12",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%BC%A0%E6%B0%8F%E5%B8%85%E5%BA%9C%E5%A4%A7%E9%9D%92%E6%A5%BC2019.jpg",
+      "license": "CC BY-SA 4.0",
+      "attributionRequired": true
+     }
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Zhongjie_5.jpg/1280px-Zhongjie_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Zhongjie_5.jpg/1280px-Zhongjie_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "沈阳中街步行街，老字号商铺立面与逛街人群",
+     "query": "中街步行街",
+     "credit": {
+      "source": "wikimedia",
+      "author": "E2568",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhongjie_5.jpg",
+      "license": "CC0",
+      "attributionRequired": false
+     }
+    }
+   ]
+  },
+  "220000": {
+   "intro": "长白山是主体，天池、瀑布、锦江大峡谷在东南部，山下二道白河镇是落脚点；长春留着伪满时期的建筑群；吉林市的雾凇在冬季松花江畔最出名；西部向海湿地是观鸟地。冬季长、雪期足，滑雪与温泉是这一省的季节性主题。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/25238-Changchun%2C_Museum_of_the_Imperial_Palace_of_Manchukuo.jpg/1280px-25238-Changchun%2C_Museum_of_the_Imperial_Palace_of_Manchukuo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/25238-Changchun%2C_Museum_of_the_Imperial_Palace_of_Manchukuo.jpg/1280px-25238-Changchun%2C_Museum_of_the_Imperial_Palace_of_Manchukuo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "长春伪满皇宫博物院，同德殿外观",
+     "query": "伪满皇宫博物院",
+     "credit": {
+      "source": "wikimedia",
+      "author": "xiquinhosilva",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:25238-Changchun,_Museum_of_the_Imperial_Palace_of_Manchukuo.jpg",
+      "license": "CC BY 2.0",
+      "attributionRequired": true
+     }
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/25279-Changchun%2C_Museum_of_the_Imperial_Palace_of_Manchukuo.jpg/1280px-25279-Changchun%2C_Museum_of_the_Imperial_Palace_of_Manchukuo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/25279-Changchun%2C_Museum_of_the_Imperial_Palace_of_Manchukuo.jpg/1280px-25279-Changchun%2C_Museum_of_the_Imperial_Palace_of_Manchukuo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "长春伪满皇宫博物院庭院，同德殿侧影与老柳树",
+     "query": "伪满皇宫博物院",
+     "credit": {
+      "source": "wikimedia",
+      "author": "xiquinhosilva",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:25279-Changchun,_Museum_of_the_Imperial_Palace_of_Manchukuo.jpg",
+      "license": "CC BY 2.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "230000": {
+   "intro": "哈尔滨是核心：中央大街的面包石路、圣索菲亚教堂、松花江上的冰雪大世界；往北漠河是中国最北，北极村与龙江第一湾；五大连池是火山地貌；东部镜泊湖与牡丹江。夏季凉爽宜避暑，冬季极冷但冰雪景观独特，两季的装备完全不同。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/%E5%93%88%E5%B0%94%E6%BB%A8%E5%9C%A3%E7%B4%A2%E8%8F%B2%E4%BA%9A%E6%95%99%E5%A0%82%E4%BE%A7%E9%9D%A2%E4%BB%B0%E8%A7%86%E5%9B%BE.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%9C%A3%E7%B4%A2%E8%8F%B2%E4%BA%9A%E6%95%99%E5%A0%82%E4%BE%A7%E9%9D%A2%E4%BB%B0%E8%A7%86%E5%9B%BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/%E5%93%88%E5%B0%94%E6%BB%A8%E5%9C%A3%E7%B4%A2%E8%8F%B2%E4%BA%9A%E6%95%99%E5%A0%82%E4%BE%A7%E9%9D%A2%E4%BB%B0%E8%A7%86%E5%9B%BE.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%9C%A3%E7%B4%A2%E8%8F%B2%E4%BA%9A%E6%95%99%E5%A0%82%E4%BE%A7%E9%9D%A2%E4%BB%B0%E8%A7%86%E5%9B%BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "哈尔滨圣·索菲亚教堂，红砖洋葱顶与蓝天",
+     "query": "圣·索菲亚教堂",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Steve Zhang",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%93%88%E5%B0%94%E6%BB%A8%E5%9C%A3%E7%B4%A2%E8%8F%B2%E4%BA%9A%E6%95%99%E5%A0%82%E4%BE%A7%E9%9D%A2%E4%BB%B0%E8%A7%86%E5%9B%BE.jpg",
+      "license": "CC0",
+      "attributionRequired": false
+     }
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/%E5%93%88%E5%B0%94%E6%BB%A8%E4%B8%AD%E5%A4%AE%E5%A4%A7%E8%A1%97%E8%A5%BF%E5%8D%81%E4%B8%80%E9%81%93%E8%A1%97%E5%8C%97.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E4%B8%AD%E5%A4%AE%E5%A4%A7%E8%A1%97%E8%A5%BF%E5%8D%81%E4%B8%80%E9%81%93%E8%A1%97%E5%8C%97.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/%E5%93%88%E5%B0%94%E6%BB%A8%E4%B8%AD%E5%A4%AE%E5%A4%A7%E8%A1%97%E8%A5%BF%E5%8D%81%E4%B8%80%E9%81%93%E8%A1%97%E5%8C%97.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E4%B8%AD%E5%A4%AE%E5%A4%A7%E8%A1%97%E8%A5%BF%E5%8D%81%E4%B8%80%E9%81%93%E8%A1%97%E5%8C%97.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "哈尔滨中央大街，欧式建筑立面与彩色街景",
+     "query": "中央大街",
+     "credit": {
+      "source": "wikimedia",
+      "author": "董辰兴",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%93%88%E5%B0%94%E6%BB%A8%E4%B8%AD%E5%A4%AE%E5%A4%A7%E8%A1%97%E8%A5%BF%E5%8D%81%E4%B8%80%E9%81%93%E8%A1%97%E5%8C%97.jpg",
+      "license": "CC BY-SA 4.0",
+      "attributionRequired": true
+     }
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/%E5%93%88%E5%B0%94%E6%BB%A8%E5%86%B0%E9%9B%AA%E5%A4%A7%E4%B8%96%E7%95%8C.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%86%B0%E9%9B%AA%E5%A4%A7%E4%B8%96%E7%95%8C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/%E5%93%88%E5%B0%94%E6%BB%A8%E5%86%B0%E9%9B%AA%E5%A4%A7%E4%B8%96%E7%95%8C.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%86%B0%E9%9B%AA%E5%A4%A7%E4%B8%96%E7%95%8C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "哈尔滨冰雪大世界，白天冰砌门楼与雪雕广场",
+     "query": "哈尔滨冰雪大世界",
+     "credit": {
+      "source": "wikimedia",
+      "author": "EditQ",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%93%88%E5%B0%94%E6%BB%A8%E5%86%B0%E9%9B%AA%E5%A4%A7%E4%B8%96%E7%95%8C.jpg",
+      "license": "CC BY-SA 4.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "310000": {
+   "intro": "长江入海口的经济中心，城市景观分两副面孔：外滩的万国建筑与对岸陆家嘴的天际线隔江相对；衡复、武康路一带是梧桐树下的老洋房街区。豫园、城隍庙在旧城厢，迪士尼在东南郊，朱家角、枫泾是近郊水乡。地铁网极密，市区靠步行与地铁即可。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/DSC00244%E5%A4%96%E6%BB%A9%E5%A4%9C%E6%99%AF.jpg/1280px-DSC00244%E5%A4%96%E6%BB%A9%E5%A4%9C%E6%99%AF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/DSC00244%E5%A4%96%E6%BB%A9%E5%A4%9C%E6%99%AF.jpg/1280px-DSC00244%E5%A4%96%E6%BB%A9%E5%A4%9C%E6%99%AF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "上海外滩夜景，万国建筑群与江畔灯光",
+     "query": "外滩",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Ding Kezhong",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:DSC00244%E5%A4%96%E6%BB%A9%E5%A4%9C%E6%99%AF.jpg",
+      "license": "CC BY-SA 4.0",
+      "attributionRequired": true
+     }
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Tarde_en_Shanghai_%E2%80%94_at_The_Bund_%E5%A4%96%E6%BB%A9._%2815730639211%29.jpg/1280px-Tarde_en_Shanghai_%E2%80%94_at_The_Bund_%E5%A4%96%E6%BB%A9._%2815730639211%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Tarde_en_Shanghai_%E2%80%94_at_The_Bund_%E5%A4%96%E6%BB%A9._%2815730639211%29.jpg/1280px-Tarde_en_Shanghai_%E2%80%94_at_The_Bund_%E5%A4%96%E6%BB%A9._%2815730639211%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "外滩江畔远望陆家嘴天际线，上海中心与东方明珠",
+     "query": "外滩",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Carlos Adampol Galindo from DF, México",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tarde_en_Shanghai_%E2%80%94_at_The_Bund_%E5%A4%96%E6%BB%A9._(15730639211).jpg",
+      "license": "CC BY-SA 2.0",
+      "attributionRequired": true
+     }
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/2024-Apr_Shanghai_Yu_Yuan_Garden_%E8%B1%AB%E5%9B%AD_-_img_20.jpg/1280px-2024-Apr_Shanghai_Yu_Yuan_Garden_%E8%B1%AB%E5%9B%AD_-_img_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/2024-Apr_Shanghai_Yu_Yuan_Garden_%E8%B1%AB%E5%9B%AD_-_img_20.jpg/1280px-2024-Apr_Shanghai_Yu_Yuan_Garden_%E8%B1%AB%E5%9B%AD_-_img_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "豫园九曲桥与湖心亭，池水倒影和假山",
+     "query": "豫园",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Chainwit.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024-Apr_Shanghai_Yu_Yuan_Garden_%E8%B1%AB%E5%9B%AD_-_img_20.jpg",
+      "license": "CC BY 4.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "320000": {
+   "intro": "南北风格差别很大。南京是六朝与明代故都，明城墙、中山陵、夫子庙、博物院各有分量；苏州以园林与周庄、同里水乡为代表；扬州瘦西湖与早茶、镇江三山、无锡太湖与鼋头渚；再往北徐州是汉文化。城市间高铁密集，适合一线串联。",
+   "heroImages": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Wuxi_Taihu_lake_Changchun_bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Wuxi_Taihu_lake_Changchun_bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1080,
+     "height": 720,
+     "alt": "无锡鼋头渚，樱花与太湖长桥",
+     "query": "鼋头渚",
+     "credit": {
+      "source": "wikimedia",
+      "author": "2009/Synyan；2014/藍風攝影",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wuxi_Taihu_lake_Changchun_bridge.jpg",
+      "license": "CC BY-SA 3.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "330000": {
+   "intro": "以杭州为中心：西湖三面云山、灵隐与龙井茶山，往西是千岛湖；北部乌镇、西塘是水乡；绍兴是鲁迅故里与黄酒；宁波有天一阁与奉化溪口，海边普陀山是观音道场；温州方向有雁荡山、楠溪江。山水与古镇密集，高铁加短途车即可覆盖。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Lake_Sai_and_Aokigahara_from_Koyodai.jpg/1280px-Lake_Sai_and_Aokigahara_from_Koyodai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Lake_Sai_and_Aokigahara_from_Koyodai.jpg/1280px-Lake_Sai_and_Aokigahara_from_Koyodai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "杭州西湖，湖面与远山",
+     "query": "西湖",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Alpsdake",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Sai_and_Aokigahara_from_Koyodai.jpg",
+      "license": "CC BY-SA 3.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "340000": {
+   "intro": "长江以南是徽州：黄山四绝、宏村与西递的粉墙黛瓦、歙县牌坊群，还有齐云山；中部巢湖与合肥；西部天柱山、九华山；北部亳州、寿县是古城。徽菜重油重色，臭鳜鱼、毛豆腐是招牌。黄山一线建议留足两到三天。",
+   "heroImages": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Huangshan_%28347503084%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Huangshan_%28347503084%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1080,
+     "height": 720,
+     "alt": "黄山风景区，峰林与云海",
+     "query": "黄山风景区",
+     "credit": {
+      "source": "wikimedia",
+      "author": "B_cool from SIN, Singapore",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Huangshan_(347503084).jpg",
+      "license": "CC BY 2.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "350000": {
+   "intro": "沿海与山区两条线。厦门有鼓浪屿的近代建筑与环岛路；泉州是宋元时期的海上丝绸之路港口，开元寺、清净寺、洛阳桥、蟳埔村都在城里；福州是三坊七巷与温泉；山区有武夷山九曲溪与茶，西南是南靖、永定的土楼群。沿海高铁便利，山区靠支线。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Gulangyu%2C_Xiamen_banner.png/1280px-Gulangyu%2C_Xiamen_banner.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Gulangyu%2C_Xiamen_banner.png/1280px-Gulangyu%2C_Xiamen_banner.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "厦门鼓浪屿，海岛与红瓦屋顶",
+     "query": "鼓浪屿",
+     "credit": {
+      "source": "wikimedia",
+      "author": "归零者",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gulangyu,_Xiamen_banner.png",
+      "license": "CC BY-SA 4.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "360000": {
+   "intro": "北有庐山与鄱阳湖；东北婺源是徽派村落与油菜花；景德镇是瓷都与陶溪川；东有三清山、龙虎山；南昌滕王阁与万寿宫街区；西南井冈山是红色景区。整体游客密度低于邻省，适合慢走。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Pavilion_of_Prince_Teng%2C_Nanchang%2C_China1.jpg/1280px-Pavilion_of_Prince_Teng%2C_Nanchang%2C_China1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Pavilion_of_Prince_Teng%2C_Nanchang%2C_China1.jpg/1280px-Pavilion_of_Prince_Teng%2C_Nanchang%2C_China1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "南昌滕王阁，多重檐楼阁与赣江",
+     "query": "滕王阁",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Sherbet",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pavilion_of_Prince_Teng,_Nanchang,_China1.jpg",
+      "license": "CC BY 2.5",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "370000": {
+   "intro": "泰山在泰安，从中天门到南天门是一条完整的登山线；曲阜有孔庙、孔府、孔林；青岛是红瓦绿树的滨海城市，八大关与崂山各占一半；济南以趵突泉、大明湖为核心；往东烟台、威海有蓬莱阁与成山头，海岸线很长。胶东半岛夏秋最舒服。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Kong_Family_Mansion_49265-Qufu_%2849055653481%29.jpg/1280px-Kong_Family_Mansion_49265-Qufu_%2849055653481%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Kong_Family_Mansion_49265-Qufu_%2849055653481%29.jpg/1280px-Kong_Family_Mansion_49265-Qufu_%2849055653481%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "曲阜孔府，重檐门厅与石阶",
+     "query": "孔府",
+     "credit": {
+      "source": "wikimedia",
+      "author": "xiquinhosilva",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kong_Family_Mansion_49265-Qufu_(49055653481).jpg",
+      "license": "CC BY 2.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "410000": {
+   "intro": "中原腹地，历史层层叠压。洛阳有龙门石窟、白马寺、应天门与老城十字街；登封嵩山与少林寺在同一片山；开封是北宋东京城，清明上河园与铁塔；郑州是交通枢纽，河南博物院值得半天；北端安阳有殷墟。城际高铁把这几座串成一小时圈。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/%E5%B0%91%E6%9E%97%E5%AF%BA%E4%BE%A7%E6%AE%BF_-_panoramio_%281%29.jpg/1280px-%E5%B0%91%E6%9E%97%E5%AF%BA%E4%BE%A7%E6%AE%BF_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/%E5%B0%91%E6%9E%97%E5%AF%BA%E4%BE%A7%E6%AE%BF_-_panoramio_%281%29.jpg/1280px-%E5%B0%91%E6%9E%97%E5%AF%BA%E4%BE%A7%E6%AE%BF_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "登封少林寺，常住院殿堂与古树",
+     "query": "少林寺",
+     "credit": {
+      "source": "wikimedia",
+      "author": "江上清风1961",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B0%91%E6%9E%97%E5%AF%BA%E4%BE%A7%E6%AE%BF_-_panoramio_(1).jpg",
+      "license": "CC BY 3.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "420000": {
+   "intro": "武汉是长江与汉江交汇处，黄鹤楼、东湖、江汉路与昙华林各占一角，过早吃热干面；往西宜昌是三峡与三峡大坝，再往西恩施大峡谷与土司城；西北十堰有武当山；神农架是原始林区。长江沿线与山区是两条完全不同的行程。",
+   "heroImages": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/%E6%AD%A6%E5%BD%93%E5%B1%B1%E9%87%91%E9%A1%B6_%2814739984719%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/%E6%AD%A6%E5%BD%93%E5%B1%B1%E9%87%91%E9%A1%B6_%2814739984719%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1080,
+     "height": 720,
+     "alt": "武当山金顶，铜殿与香炉",
+     "query": "武当山金顶",
+     "credit": {
+      "source": "wikimedia",
+      "author": "liuzr99",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%AD%A6%E5%BD%93%E5%B1%B1%E9%87%91%E9%A1%B6_(14739984719).jpg",
+      "license": "CC BY-SA 2.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "430000": {
+   "intro": "西北张家界是石英砂岩峰林，天门山与武陵源各需一天；西南凤凰古城沿沱江，再往南是芙蓉镇；长沙以岳麓山、橘子洲、太平街和夜宵著称；韶山是毛泽东故里；南岳衡山、岳阳楼与洞庭湖在东侧。辣是底色，湘菜重油重辣。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Zhangjiajie_National_Forest_Park_%E5%BC%A0%E5%AE%B6%E7%95%8C%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD%2C_Hunan%2C_2023_%2852669865292%29.jpg/1280px-Zhangjiajie_National_Forest_Park_%E5%BC%A0%E5%AE%B6%E7%95%8C%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD%2C_Hunan%2C_2023_%2852669865292%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Zhangjiajie_National_Forest_Park_%E5%BC%A0%E5%AE%B6%E7%95%8C%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD%2C_Hunan%2C_2023_%2852669865292%29.jpg/1280px-Zhangjiajie_National_Forest_Park_%E5%BC%A0%E5%AE%B6%E7%95%8C%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD%2C_Hunan%2C_2023_%2852669865292%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "张家界武陵源，石英砂岩峰林与云雾",
+     "query": "张家界国家森林公园",
+     "credit": {
+      "source": "wikimedia",
+      "author": "JL Cogburn",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhangjiajie_National_Forest_Park_%E5%BC%A0%E5%AE%B6%E7%95%8C%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD,_Hunan,_2023_(52669865292).jpg",
+      "license": "CC BY-SA 2.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "440000": {
+   "intro": "三条线差异很大。广州是老城与早茶：陈家祠、沙面、永庆坊、越秀山；深圳是四十年的新城，城市建筑与海滨绿道；潮汕保留着完整的骑楼与宗祠，牛肉火锅与粿品出名；西南开平有碉楼群，北端韶关丹霞山。冬季温暖，适合避寒。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Canton_Tower_20220626_%28cropped%29.jpg/1280px-Canton_Tower_20220626_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Canton_Tower_20220626_%28cropped%29.jpg/1280px-Canton_Tower_20220626_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "广州塔与珠江新城天际线，白天的城市轮廓",
+     "query": "广州塔",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Tim Wu",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canton_Tower_20220626_(cropped).jpg",
+      "license": "CC BY-SA 4.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "450000": {
+   "intro": "桂林与阳朔是漓江山水的主体，竹筏从杨堤到兴坪，遇龙河与十里画廊适合骑行；龙胜有龙脊梯田；南宁是省会，青秀山与中山路夜市；西南崇左有德天瀑布与明仕田园；北海涠洲岛是火山岛。山水线路集中在东北部。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Guilin_Elephant_Hill_at_night_%2820240217201207%29.jpg/1280px-Guilin_Elephant_Hill_at_night_%2820240217201207%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Guilin_Elephant_Hill_at_night_%2820240217201207%29.jpg/1280px-Guilin_Elephant_Hill_at_night_%2820240217201207%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "桂林象山景区，象鼻山与漓江夜景",
+     "query": "象山景区",
+     "credit": {
+      "source": "wikimedia",
+      "author": "N509FZ",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guilin_Elephant_Hill_at_night_(20240217201207).jpg",
+      "license": "CC BY-SA 4.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "460000": {
+   "intro": "热带海岛省份。三亚有亚龙湾、海棠湾、蜈支洲岛与南山，冬季是旺季；海口保留骑楼老街与火山口地质公园；东线有文昌、博鳌、万宁的冲浪点，西线偏静；中部五指山、尖峰岭是热带雨林。环岛高铁把东西两线串成三小时圈。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio_-_zhanyoun.jpg/1280px-%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio_-_zhanyoun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio_-_zhanyoun.jpg/1280px-%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio_-_zhanyoun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "三亚蜈支洲岛，热带海水与海岸线",
+     "query": "蜈支洲岛",
+     "credit": {
+      "source": "wikimedia",
+      "author": "zhanyoun",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio_-_zhanyoun.jpg",
+      "license": "CC BY-SA 3.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "500000": {
+   "intro": "山城的地形本身就是景观：轻轨穿楼、长江索道、层层叠叠的立交与台阶。渝中半岛的洪崖洞、解放碑、山城巷夜景最集中；磁器口与鹅岭二厂是另一头；周边有大足石刻、武隆喀斯特、酉阳桃花源。夏天极热，春秋与初冬更舒服。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/202308_Hongya_Cave_at_night_from_Qiansimen_Bridge.jpg/1280px-202308_Hongya_Cave_at_night_from_Qiansimen_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/202308_Hongya_Cave_at_night_from_Qiansimen_Bridge.jpg/1280px-202308_Hongya_Cave_at_night_from_Qiansimen_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "重庆洪崖洞夜景，吊脚楼与灯火",
+     "query": "洪崖洞",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Jonashtand",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:202308_Hongya_Cave_at_night_from_Qiansimen_Bridge.jpg",
+      "license": "CC BY-SA 4.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "510000": {
+   "intro": "成都平原是慢生活：宽窄巷子、人民公园的茶馆、大熊猫繁育基地，川菜与小吃的密度极高。往西北是都江堰、青城山；南线乐山大佛与峨眉山；川西高原是九寨沟、黄龙、四姑娘山、稻城亚丁，海拔与路况都要留余量。盆地与高原是两种气候。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/1_jiuzhaigou_valley_wu_hua_hai_2011b.jpg/1280px-1_jiuzhaigou_valley_wu_hua_hai_2011b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/1_jiuzhaigou_valley_wu_hua_hai_2011b.jpg/1280px-1_jiuzhaigou_valley_wu_hua_hai_2011b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "九寨沟五花海，彩林与蓝绿色湖水",
+     "query": "九寨沟景区",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Chensiyuan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1_jiuzhaigou_valley_wu_hua_hai_2011b.jpg",
+      "license": "CC BY-SA 4.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "520000": {
+   "intro": "喀斯特地貌大省。西南黄果树瀑布与天星桥、龙宫；南端荔波小七孔是水上森林；东南西江千户苗寨与肇兴侗寨；镇远是舞阳河穿城的古城；贵阳周边有青岩古镇与黔灵山。夏季凉爽，是避暑目的地，山路多、车程长。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/%E9%9D%92%E5%B2%A9%E5%8F%A4%E9%95%87%2C_%E8%B4%B5%E5%B7%9E_202403.jpg/1280px-%E9%9D%92%E5%B2%A9%E5%8F%A4%E9%95%87%2C_%E8%B4%B5%E5%B7%9E_202403.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/%E9%9D%92%E5%B2%A9%E5%8F%A4%E9%95%87%2C_%E8%B4%B5%E5%B7%9E_202403.jpg/1280px-%E9%9D%92%E5%B2%A9%E5%8F%A4%E9%95%87%2C_%E8%B4%B5%E5%B7%9E_202403.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "贵阳青岩古镇，石板街与灰瓦屋顶",
+     "query": "青岩古镇",
+     "credit": {
+      "source": "wikimedia",
+      "author": "FN-082",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%A9%E5%8F%A4%E9%95%87,_%E8%B4%B5%E5%B7%9E_202403.jpg",
+      "license": "CC BY-SA 4.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "530000": {
+   "intro": "多样性极强，一条线走不完。昆明有石林、滇池与西山；西线大理的洱海与古城、丽江的古城与玉龙雪山、香格里拉的松赞林寺与普达措；南线西双版纳是热带雨林与傣族村寨；西南腾冲有火山热海与和顺古镇。海拔跨度大，行程要分层安排。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/1_songzanlin_2018a.jpg/1280px-1_songzanlin_2018a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/1_songzanlin_2018a.jpg/1280px-1_songzanlin_2018a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "香格里拉噶丹松赞林寺，藏式寺院群",
+     "query": "噶丹·松赞林寺",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Chensiyuan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1_songzanlin_2018a.jpg",
+      "license": "CC BY-SA 4.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "540000": {
+   "intro": "高原目的地，先适应再走动。拉萨有布达拉宫、大昭寺、八廓街，海拔约三千七；往东林芝海拔更低，森林与南迦巴瓦峰；往西日喀则扎什伦布寺，再远是珠峰方向；北面纳木错。多数人从拉萨进出，边防证与包车是常规安排。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/20140509_Jokhang_02.jpg/1280px-20140509_Jokhang_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/20140509_Jokhang_02.jpg/1280px-20140509_Jokhang_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "拉萨大昭寺金顶，双鹿与法轮",
+     "query": "大昭寺",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Windmemories",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20140509_Jokhang_02.jpg",
+      "license": "CC BY-SA 4.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "610000": {
+   "intro": "陕北、关中、陕南三块。关中是主体：西安的明城墙、兵马俑、陕西历史博物馆、大小雁塔，往东华山以险著称；陕北是黄土高原，延安与壶口瀑布；陕南沿汉江，汉中油菜花与青木川古镇。以西安为枢纽，东线临潼、西线法门寺与乾陵各一天。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Dayanta_Gisela-Brantl_01.JPG/1280px-Dayanta_Gisela-Brantl_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Dayanta_Gisela-Brantl_01.JPG/1280px-Dayanta_Gisela-Brantl_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "西安大雁塔与慈恩寺，方形楼阁式砖塔",
+     "query": "大雁塔·大慈恩寺",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Immanuel Giel",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dayanta_Gisela-Brantl_01.JPG",
+      "license": "CC BY-SA 3.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "620000": {
+   "intro": "狭长一条，河西走廊串起丝绸之路。兰州是黄河穿城的枢纽，牛肉面与中山桥；往西武威、张掖的七彩丹霞、酒泉、嘉峪关关城，再到敦煌的莫高窟与鸣沙山月牙泉；南线临夏、夏河拉卜楞寺是藏区。东西跨度大，火车与自驾是主要方式。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Caves_16-17_of_Mogao_Grottoes_%2820230918142815%29.jpg/1280px-Caves_16-17_of_Mogao_Grottoes_%2820230918142815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Caves_16-17_of_Mogao_Grottoes_%2820230918142815%29.jpg/1280px-Caves_16-17_of_Mogao_Grottoes_%2820230918142815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "敦煌莫高窟，九层楼与崖壁石窟",
+     "query": "莫高窟",
+     "credit": {
+      "source": "wikimedia",
+      "author": "N509FZ",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caves_16-17_of_Mogao_Grottoes_(20230918142815).jpg",
+      "license": "CC BY-SA 4.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "630000": {
+   "intro": "高原省份，夏季是唯一舒适季。西宁东关清真大寺与塔尔寺在近郊；往西青海湖环湖一圈约三百六十公里，茶卡盐湖与黑马河看日出；北线祁连草原与门源油菜花；西南是可可西里边缘与玉树。海拔普遍三千米以上，防晒与高反要预备。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Kumbum_Monastery.jpg/1280px-Kumbum_Monastery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Kumbum_Monastery.jpg/1280px-Kumbum_Monastery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "湟中塔尔寺，白塔与寺门",
+     "query": "塔尔寺",
+     "credit": {
+      "source": "wikimedia",
+      "author": "xiquinhosilva",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kumbum_Monastery.jpg",
+      "license": "CC BY 2.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "640000": {
+   "intro": "小而集中的省份。银川有西夏王陵、镇北堡西部影城、贺兰山岩画与葡萄酒产区；中卫沙坡头是黄河与沙漠相接的地方，沙湖是湿地与沙丘；南端固原有须弥山石窟与火石寨。整体三四天可走完，适合与甘肃、内蒙古连线。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Western_Xia_mausoleums_11.jpg/1280px-Western_Xia_mausoleums_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Western_Xia_mausoleums_11.jpg/1280px-Western_Xia_mausoleums_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "银川西夏王陵，夯土陵塔与贺兰山下荒原",
+     "query": "西夏王陵",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Thebrainchamber1",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Western_Xia_mausoleums_11.jpg",
+      "license": "CC BY-SA 4.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "650000": {
+   "intro": "占国土六分之一，行程要按环线规划。北疆有喀纳斯与禾木、伊犁的那拉提草原与赛里木湖、夏季通行的独库公路；东疆吐鲁番有火焰山、葡萄沟、交河故城；南疆喀什老城与帕米尔高原；乌鲁木齐是天山天池的门户。昼夜温差大，路网很长。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/20231218_Xinjiang_International_Grand_Bazaar_01.jpg/1280px-20231218_Xinjiang_International_Grand_Bazaar_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/20231218_Xinjiang_International_Grand_Bazaar_01.jpg/1280px-20231218_Xinjiang_International_Grand_Bazaar_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "乌鲁木齐新疆国际大巴扎，观光塔与市集",
+     "query": "新疆国际大巴扎",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Windmemories",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20231218_Xinjiang_International_Grand_Bazaar_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "710000": {
+   "intro": "中国台湾省，位于东南海域，中央山脉纵贯南北。台北有故宫博物院、中正纪念堂与北投温泉；往东是花莲太鲁阁峡谷与清水断崖；中部日月潭、阿里山；南部垦丁是热带海岸；西岸台南保留赤崁楼与安平古堡。环岛铁路把主要城市串成一圈。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Skyline_of_Taipei_20220628.jpg/1280px-Skyline_of_Taipei_20220628.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Skyline_of_Taipei_20220628.jpg/1280px-Skyline_of_Taipei_20220628.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "台北象山步道远眺，101 大楼与城市天际线",
+     "query": "象山步道",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Tzuhsun Hsu",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skyline_of_Taipei_20220628.jpg",
+      "license": "CC BY-SA 2.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "810000": {
+   "intro": "中国香港特别行政区，位于珠江口东侧。维多利亚港两岸是城市主体，太平山顶看夜景，天星小轮过海是最便宜的观光；中环、上环的街市与半山扶梯，九龙的老街区与庙街夜市；离岛有大屿山天坛大佛、南丫岛与西贡的徒步海岸。地铁与巴士覆盖极密。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/13-08-09-peak-by-RalfR-01.jpg/1280px-13-08-09-peak-by-RalfR-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/13-08-09-peak-by-RalfR-01.jpg/1280px-13-08-09-peak-by-RalfR-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "香港太平山顶俯瞰维多利亚港夜景",
+     "query": "太平山顶",
+     "credit": {
+      "source": "wikimedia",
+      "author": "Ralf Roletschek",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:13-08-09-peak-by-RalfR-01.jpg",
+      "license": "CC BY-SA 3.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  },
+  "820000": {
+   "intro": "中国澳门特别行政区，由半岛与氹仔、路环组成。半岛的历史城区是世界遗产：大三巴牌坊、议事亭前地、妈阁庙、东望洋炮台；氹仔有官也街与旧城区，路环是安静的渔村与黑沙海滩。葡式蛋挞、猪扒包、水蟹粥是必试。步行加公交即可走完。",
+   "heroImages": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Ruins_of_St._Paul%E2%80%99s%2C_Ru%C3%ADnas_da_Antiga_Catedral_de_S%C3%A3o_Paulo%2C_Macau%2C_%E5%A4%A7%E4%B8%89%E5%B7%B4%2C_%E5%A4%A7%E4%B8%89%E5%B7%B4%E7%89%8C%E5%9D%8A%2C_%E8%81%96%E4%BF%9D%E7%A5%BF%E5%A4%A7%E6%95%99%E5%A0%82%E9%81%BA%E5%9D%80%2C_%E6%BE%B3%E9%96%80_%2817310246251%29.jpg/1280px-Ruins_of_St._Paul%E2%80%99s%2C_Ru%C3%ADnas_da_Antiga_Catedral_de_S%C3%A3o_Paulo%2C_Macau%2C_%E5%A4%A7%E4%B8%89%E5%B7%B4%2C_%E5%A4%A7%E4%B8%89%E5%B7%B4%E7%89%8C%E5%9D%8A%2C_%E8%81%96%E4%BF%9D%E7%A5%BF%E5%A4%A7%E6%95%99%E5%A0%82%E9%81%BA%E5%9D%80%2C_%E6%BE%B3%E9%96%80_%2817310246251%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Ruins_of_St._Paul%E2%80%99s%2C_Ru%C3%ADnas_da_Antiga_Catedral_de_S%C3%A3o_Paulo%2C_Macau%2C_%E5%A4%A7%E4%B8%89%E5%B7%B4%2C_%E5%A4%A7%E4%B8%89%E5%B7%B4%E7%89%8C%E5%9D%8A%2C_%E8%81%96%E4%BF%9D%E7%A5%BF%E5%A4%A7%E6%95%99%E5%A0%82%E9%81%BA%E5%9D%80%2C_%E6%BE%B3%E9%96%80_%2817310246251%29.jpg/1280px-Ruins_of_St._Paul%E2%80%99s%2C_Ru%C3%ADnas_da_Antiga_Catedral_de_S%C3%A3o_Paulo%2C_Macau%2C_%E5%A4%A7%E4%B8%89%E5%B7%B4%2C_%E5%A4%A7%E4%B8%89%E5%B7%B4%E7%89%8C%E5%9D%8A%2C_%E8%81%96%E4%BF%9D%E7%A5%BF%E5%A4%A7%E6%95%99%E5%A0%82%E9%81%BA%E5%9D%80%2C_%E6%BE%B3%E9%96%80_%2817310246251%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1080,
+     "height": 720,
+     "alt": "澳门大三巴牌坊，巴洛克式教堂遗址立面",
+     "query": "大三巴牌坊",
+     "credit": {
+      "source": "wikimedia",
+      "author": "bryan...",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ruins_of_St._Paul%E2%80%99s,_Ru%C3%ADnas_da_Antiga_Catedral_de_S%C3%A3o_Paulo,_Macau,_%E5%A4%A7%E4%B8%89%E5%B7%B4,_%E5%A4%A7%E4%B8%89%E5%B7%B4%E7%89%8C%E5%9D%8A,_%E8%81%96%E4%BF%9D%E7%A5%BF%E5%A4%A7%E6%95%99%E5%A0%82%E9%81%BA%E5%9D%80,_%E6%BE%B3%E9%96%80_(17310246251).jpg",
+      "license": "CC BY-SA 2.0",
+      "attributionRequired": true
+     }
+    }
+   ]
+  }
+ }
+}

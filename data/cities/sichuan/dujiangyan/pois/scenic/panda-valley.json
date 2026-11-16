@@ -1,83 +1,121 @@
 {
-  "id": "panda-valley",
-  "name": "熊猫谷",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "大熊猫野化训练基地，看真熊猫。",
-  "description": "熊猫谷是中国大熊猫保护研究中心的都江堰基地，专门做大熊猫的野化训练和公众展示，离市区不远。这里山清水秀、竹林茂密，环境本就适合熊猫，比城市动物园里的馆舍自然得多。沿木栈道一路能看到不同年龄的熊猫啃竹子、打滚、爬树，小朋友尤其挪不动脚。早上喂食时段最活跃，建议赶早。",
-  "highlights": [
-    "大熊猫基地",
-    "野化训练",
-    "亲子必去"
-  ],
-  "location": {
-    "point": {
-      "lng": 103.590236,
-      "lat": 30.962129,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "四川省成都市都江堰市玉堂镇熊猫谷",
-    "district": "都江堰",
-    "transportTip": "都江堰市区乘公交或打车约 20 分钟"
+ "id": "panda-valley",
+ "name": "熊猫谷",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "大熊猫野化训练基地，看真熊猫。",
+ "description": "熊猫谷是中国大熊猫保护研究中心的都江堰基地，专门做大熊猫的野化训练和公众展示，离市区不远。这里山清水秀、竹林茂密，环境本就适合熊猫，比城市动物园里的馆舍自然得多。沿木栈道一路能看到不同年龄的熊猫啃竹子、打滚、爬树，小朋友尤其挪不动脚。早上喂食时段最活跃，建议赶早。",
+ "highlights": [
+  "大熊猫基地",
+  "野化训练",
+  "亲子必去"
+ ],
+ "location": {
+  "point": {
+   "lng": 103.590236,
+   "lat": 30.962129,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 08:30-17:00（以官方为准）",
-    "openHoursRef": 0,
-    "ticket": "门票约 55 元，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 120-240 分钟",
-    "durationMinutes": [
-      120,
-      240
-    ],
-    "priceLevel": "high"
-  },
-  "audience": [
-    "family",
-    "couple",
-    "friends"
+  "address": "四川省成都市都江堰市玉堂镇熊猫谷",
+  "district": "都江堰",
+  "transportTip": "都江堰市区乘公交或打车约 20 分钟"
+ },
+ "practical": {
+  "openHours": "约 08:30-17:00（以官方为准）",
+  "openHoursRef": 0,
+  "ticket": "门票约 55 元，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 120-240 分钟",
+  "durationMinutes": [
+   120,
+   240
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Pandas_Chengdu_March_2024.jpg/1280px-Pandas_Chengdu_March_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Pandas_Chengdu_March_2024.jpg/1280px-Pandas_Chengdu_March_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1920,
-      "alt": "Pandas Chengdu March 2024.jpg",
-      "query": "熊猫谷",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Funmoring46",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pandas_Chengdu_March_2024.jpg",
-        "license": "CC BY 4.0",
-        "attributionRequired": true
-      }
-    }
+  "priceLevel": "high"
+ },
+ "audience": [
+  "family",
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Pandas_Chengdu_March_2024.jpg/1280px-Pandas_Chengdu_March_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Pandas_Chengdu_March_2024.jpg/1280px-Pandas_Chengdu_March_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1920,
+   "alt": "Pandas Chengdu March 2024.jpg",
+   "query": "熊猫谷",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Funmoring46",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pandas_Chengdu_March_2024.jpg",
+    "license": "CC BY 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "大熊猫",
+  "亲子",
+  "自然"
+ ],
+ "popularity": 94,
+ "sources": [
+  {
+   "title": "百度百科·熊猫谷",
+   "url": "https://baike.baidu.com/item/%E7%86%8A%E7%8C%AB%E8%B0%B7",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-06"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "熊猫谷"
+ },
+ "_geocodeTitle": "熊猫谷",
+ "_geocodeSuspect": false,
+ "district": "510181",
+ "review": {
+  "score": 4.5,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "亲子",
+    "score": 4.8,
+    "note": "沿栈道能看不同年龄的熊猫啃竹子、打滚、爬树"
+   },
+   {
+    "label": "环境",
+    "score": 4.6,
+    "note": "山青竹密，比城市动物园的馆舍自然"
+   },
+   {
+    "label": "人流",
+    "score": 3.6,
+    "note": "比市区熊猫基地松一些，但上午仍集中"
+   },
+   {
+    "label": "配套",
+    "score": 3.0,
+    "note": "园内餐饮选择少，逛完要走一段才有吃的"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "大熊猫",
-    "亲子",
-    "自然"
+  "body": "大熊猫保护研究中心的都江堰基地，做野化训练也对外开放。好处是环境本身就适合熊猫——山清水秀，竹林密，比城市动物园那种玻璃馆舍自然得多；沿木栈道走，不同年龄的熊猫啃竹子、打滚、爬树都能看到，小朋友基本挪不动脚。缺点得提醒：熊猫上午喂食时才活跃，过了午后就大面积趴着睡，来晚了等于看一地黄白团子；园内餐饮选择很少，逛完要走一段才有正经吃的，带娃的记得自带水和零食。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "带孩子",
+   "看大熊猫"
   ],
-  "popularity": 94,
-  "sources": [
-    {
-      "title": "百度百科·熊猫谷",
-      "url": "https://baike.baidu.com/item/%E7%86%8A%E7%8C%AB%E8%B0%B7",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-06"
-    }
+  "avoid": [
+   "下午才到",
+   "不带补给"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "熊猫谷"
-  },
-  "_geocodeTitle": "熊猫谷",
-  "_geocodeSuspect": false,
-  "district": "510181"
+  "sources": []
+ }
 }

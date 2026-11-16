@@ -1,132 +1,171 @@
 {
-  "id": "the-bund",
-  "name": "外滩",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "一公里长的万国建筑群，上海最直白的一张脸。",
-  "description": "外滩指的是黄浦江西岸从外白渡桥到延安东路那一段，集中了二十余栋二十世纪初到三十年代建成的银行、洋行与总会建筑，风格涵盖古典主义、哥特复兴、装饰艺术等各种当时流行的样式。它的特殊性在于：这些房子不是被保护起来的标本，至今仍被银行、酒店与餐厅使用。对岸陆家嘴的天际线是九十年代之后的事，两个年代隔着一条江面对面站着，是这座城市最核心的构图。",
-  "highlights": [
-    "二十余栋建筑仍在正常使用",
-    "隔江对着陆家嘴天际线",
-    "夜景是主要画面"
-  ],
-  "location": {
-    "point": {
-      "lng": 121.487634,
-      "lat": 31.234969,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "上海市黄浦区中山东一路",
-    "district": "黄浦",
-    "transportTip": "地铁2号线/10号线南京东路站步行约8分钟"
+ "id": "the-bund",
+ "name": "外滩",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "一公里长的万国建筑群，上海最直白的一张脸。",
+ "description": "外滩指的是黄浦江西岸从外白渡桥到延安东路那一段，集中了二十余栋二十世纪初到三十年代建成的银行、洋行与总会建筑，风格涵盖古典主义、哥特复兴、装饰艺术等各种当时流行的样式。它的特殊性在于：这些房子不是被保护起来的标本，至今仍被银行、酒店与餐厅使用。对岸陆家嘴的天际线是九十年代之后的事，两个年代隔着一条江面对面站着，是这座城市最核心的构图。",
+ "highlights": [
+  "二十余栋建筑仍在正常使用",
+  "隔江对着陆家嘴天际线",
+  "夜景是主要画面"
+ ],
+ "location": {
+  "point": {
+   "lng": 121.487634,
+   "lat": 31.234969,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放(观景平台)",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 90-240 分钟",
-    "durationMinutes": [
-      90,
-      240
-    ],
-    "priceLevel": "free"
+  "address": "上海市黄浦区中山东一路",
+  "district": "黄浦",
+  "transportTip": "地铁2号线/10号线南京东路站步行约8分钟"
+ },
+ "practical": {
+  "openHours": "全天开放(观景平台)",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 90-240 分钟",
+  "durationMinutes": [
+   90,
+   240
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "kids",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/A_picture_from_China_every_day_101.jpg/1280px-A_picture_from_China_every_day_101.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/A_picture_from_China_every_day_101.jpg/1280px-A_picture_from_China_every_day_101.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "A picture from China every day 101.jpg",
+   "query": "外滩",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Carsten Ullrich from Shanghai, China",
+    "sourceUrl": "https://zh.wikipedia.org/wiki/外滩",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "couple",
-    "kids",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/A_picture_from_China_every_day_101.jpg/1280px-A_picture_from_China_every_day_101.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/A_picture_from_China_every_day_101.jpg/1280px-A_picture_from_China_every_day_101.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "A picture from China every day 101.jpg",
-      "query": "外滩",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Carsten Ullrich from Shanghai, China",
-        "sourceUrl": "https://zh.wikipedia.org/wiki/外滩",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/%E4%BB%8E%E5%A4%96%E6%BB%A9%E8%BF%9C%E7%9C%BA%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA.jpg/1280px-%E4%BB%8E%E5%A4%96%E6%BB%A9%E8%BF%9C%E7%9C%BA%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/%E4%BB%8E%E5%A4%96%E6%BB%A9%E8%BF%9C%E7%9C%BA%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA.jpg/1280px-%E4%BB%8E%E5%A4%96%E6%BB%A9%E8%BF%9C%E7%9C%BA%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "从外滩远眺浦东新区.jpg",
-      "query": "外滩",
-      "credit": {
-        "source": "wikimedia",
-        "author": "金色黎明",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BB%8E%E5%A4%96%E6%BB%A9%E8%BF%9C%E7%9C%BA%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/%E9%BB%91%E4%BA%91%E7%AC%BC%E7%BD%A9%E7%9A%84%E5%A4%96%E6%BB%A9.jpg/1280px-%E9%BB%91%E4%BA%91%E7%AC%BC%E7%BD%A9%E7%9A%84%E5%A4%96%E6%BB%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/%E9%BB%91%E4%BA%91%E7%AC%BC%E7%BD%A9%E7%9A%84%E5%A4%96%E6%BB%A9.jpg/1280px-%E9%BB%91%E4%BA%91%E7%AC%BC%E7%BD%A9%E7%9A%84%E5%A4%96%E6%BB%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "黑云笼罩的外滩.jpg",
-      "query": "外滩",
-      "credit": {
-        "source": "wikimedia",
-        "author": "金色黎明",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%BB%91%E4%BA%91%E7%AC%BC%E7%BD%A9%E7%9A%84%E5%A4%96%E6%BB%A9.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "地标",
-    "万国建筑",
-    "夜景",
-    "必去"
-  ],
-  "popularity": 98,
-  "sources": [
-    {
-      "title": "百度百科·外滩",
-      "url": "https://baike.baidu.com/item/%E5%A4%96%E6%BB%A9",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-11-04",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "外滩"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/%E4%BB%8E%E5%A4%96%E6%BB%A9%E8%BF%9C%E7%9C%BA%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA.jpg/1280px-%E4%BB%8E%E5%A4%96%E6%BB%A9%E8%BF%9C%E7%9C%BA%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/%E4%BB%8E%E5%A4%96%E6%BB%A9%E8%BF%9C%E7%9C%BA%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA.jpg/1280px-%E4%BB%8E%E5%A4%96%E6%BB%A9%E8%BF%9C%E7%9C%BA%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "从外滩远眺浦东新区.jpg",
+   "query": "外滩",
+   "credit": {
+    "source": "wikimedia",
+    "author": "金色黎明",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BB%8E%E5%A4%96%E6%BB%A9%E8%BF%9C%E7%9C%BA%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "外滩街道",
-  "_geocodeSuspect": false,
-  "district": "310101"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/%E9%BB%91%E4%BA%91%E7%AC%BC%E7%BD%A9%E7%9A%84%E5%A4%96%E6%BB%A9.jpg/1280px-%E9%BB%91%E4%BA%91%E7%AC%BC%E7%BD%A9%E7%9A%84%E5%A4%96%E6%BB%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/%E9%BB%91%E4%BA%91%E7%AC%BC%E7%BD%A9%E7%9A%84%E5%A4%96%E6%BB%A9.jpg/1280px-%E9%BB%91%E4%BA%91%E7%AC%BC%E7%BD%A9%E7%9A%84%E5%A4%96%E6%BB%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "黑云笼罩的外滩.jpg",
+   "query": "外滩",
+   "credit": {
+    "source": "wikimedia",
+    "author": "金色黎明",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%BB%91%E4%BA%91%E7%AC%BC%E7%BD%A9%E7%9A%84%E5%A4%96%E6%BB%A9.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "地标",
+  "万国建筑",
+  "夜景",
+  "必去"
+ ],
+ "popularity": 98,
+ "sources": [
+  {
+   "title": "百度百科·外滩",
+   "url": "https://baike.baidu.com/item/%E5%A4%96%E6%BB%A9",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "外滩"
+ },
+ "_geocodeTitle": "外滩街道",
+ "_geocodeSuspect": false,
+ "district": "310101",
+ "review": {
+  "score": 4.7,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "建筑密度",
+    "score": 4.8,
+    "note": "二十余栋老银行洋行至今仍在营业"
+   },
+   {
+    "label": "夜景",
+    "score": 4.6,
+    "note": "灯光亮起后建筑轮廓才立起来"
+   },
+   {
+    "label": "人流",
+    "score": 2.2,
+    "note": "节假日整段几乎无法停留"
+   },
+   {
+    "label": "配套",
+    "score": 2.6,
+    "note": "座椅与卫生间点位少，江边风大"
+   }
+  ],
+  "body": "外滩的价值在密度：一公里内二十余栋老银行洋行至今仍在营业，隔江又是九十年代之后长起来的陆家嘴，两个年代隔着一条江对望，这是上海最核心的一张构图。傍晚到夜间最好，灯光起来后建筑轮廓才立住。负面是节假日人流几乎无法停留，江边风大、休息与卫生间点位都很稀，建议避开整点灯光秀前后，从中山东一路北段往南走会松一些。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "第一次来上海",
+   "看建筑",
+   "夜游"
+  ],
+  "avoid": [
+   "节假日高峰",
+   "怕人多"
+  ],
+  "sources": []
+ }
 }

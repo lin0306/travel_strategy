@@ -1,12 +1,12 @@
 # 厦门 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-09-28
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
 - 省份：福建
 - adcode：350200
-- POI 数量：57
+- POI 数量：68
 
 ## 文本内容来源
 
@@ -18,31 +18,43 @@
 | 北辰山风景名胜区 | [百度百科·北辰山](https://baike.baidu.com/item/%E5%8C%97%E8%BE%B0%E5%B1%B1) | wiki | 2026-09-28 |
 | 大嶝战地观光园 | [百度百科·大嶝岛](https://baike.baidu.com/item/%E5%A4%A7%E5%B6%9D%E5%B2%9B) | wiki | 2026-09-28 |
 | 梵天禅寺 | [百度百科·梵天寺](https://baike.baidu.com/item/%E6%A2%B5%E5%A4%A9%E5%AF%BA) | wiki | 2026-09-28 |
+| 鼓浪屿故宫文物馆 | [故宫鼓浪屿外国文物馆官网·开放信息与购票须知](https://gggly.org.cn/index/visit) | official | 2026-11-10 |
 | 鼓浪屿 | [百度百科·鼓浪屿](https://baike.baidu.com/item/%E9%BC%93%E6%B5%AA%E5%B1%BF) | wiki | 2026-09-28 |
+| 厦门海堤纪念公园 | [厦门市海洋发展局/厦门日报·70 年前移山填海筑就通途](http://mp.weixin.qq.com/s?__biz=MzI1NjU0NTUyNA==&mid=2247561632&idx=1&sn=29f25d786f85e5350c24d21f10f39971&chksm=eb6e9346d1d8fa83ba7d44ee1b5553bf60385f3e2cdf4960d8fd76d613d62add09bb684361fe#rd) | gov | 2026-11-10 |
 | 皓月园 | [百度百科·皓月园](https://baike.baidu.com/item/%E7%9A%93%E6%9C%88%E5%9B%AD) | wiki | 2026-09-28 |
 | 环岛路 | [百度百科·厦门环岛路](https://baike.baidu.com/item/%E5%8E%A6%E9%97%A8%E7%8E%AF%E5%B2%9B%E8%B7%AF) | wiki | 2026-09-28 |
 | 华侨博物院 | [百度百科·华侨博物院](https://baike.baidu.com/item/%E5%8D%8E%E4%BE%A8%E5%8D%9A%E7%89%A9%E9%99%A2) | wiki | 2026-09-28 |
 | 胡里山炮台 | [百度百科·胡里山炮台](https://baike.baidu.com/item/%E8%83%A1%E9%87%8C%E5%B1%B1%E7%82%AE%E5%8F%B0) | wiki | 2026-09-28 |
 | 陈嘉庚先生故居 | [百度百科·陈嘉庚故居](https://baike.baidu.com/item/%E9%99%88%E5%98%89%E5%BA%9A%E6%95%85%E5%B1%85) | wiki | 2026-09-28 |
 | 集美学村 | [百度百科·集美学村](https://baike.baidu.com/item/%E9%9B%86%E7%BE%8E%E5%AD%A6%E6%9D%91) | wiki | 2026-09-28 |
+| 林巧稚纪念馆 | [厦门市鼓浪屿文化旅游发展中心·鼓浪屿「馆」够](http://edu.glyylq.cn/index/news/details?id=132) | official | 2026-11-10 |
 | 南普陀寺 | [百度百科·南普陀寺](https://baike.baidu.com/item/%E5%8D%97%E6%99%AE%E9%99%80%E5%AF%BA) | wiki | 2026-09-28 |
+| 厦门破狱斗争旧址 | [厦门破狱斗争旧址修缮后免费开放·开放时间与展陈](https://www.toutiao.com/article/7330982305504363035) | media | 2026-11-10 |
 | 青礁慈济祖宫 | [百度百科·青礁慈济宫](https://baike.baidu.com/item/%E9%9D%92%E7%A4%81%E6%85%88%E6%B5%8E%E5%AE%AB) | wiki | 2026-09-28 |
 | 日光岩 | [百度百科·日光岩](https://baike.baidu.com/item/%E6%97%A5%E5%85%89%E5%B2%A9) | wiki | 2026-09-28 |
+| 双龙潭生态运动景区 | [集美文旅·集美一日游 如何玩转灌口（项目价格与 903/921 交通）](http://mp.weixin.qq.com/s?__biz=MzA5NzA5NDEyMw==&mid=2653527825&idx=1&sn=a8b18408e83f741de648012b36ef2961&chksm=8b7b2f95bc0ca68304d27a4ac8db71d85ca340351f24523ccc17bdd89e3fbb8c41d341fb85c8#rd) | official | 2026-11-10 |
 | 菽庄花园 | [百度百科·菽庄花园](https://baike.baidu.com/item/%E8%8F%BD%E5%BA%84%E8%8A%B1%E5%9B%AD) | wiki | 2026-09-28 |
 | 天竺山森林公园 | [百度百科·天竺山](https://baike.baidu.com/item/%E5%A4%A9%E7%AB%BA%E5%B1%B1) | wiki | 2026-09-28 |
+| 同安博物馆 | [厦门市同安区人民政府·留住文脉 古建更添新韵](https://www.xmta.gov.cn/zc/gzdt/tayw/202409/t20240905_1067344.htm) | gov | 2026-11-10 |
 | 五缘湾湿地公园 | [百度百科·五缘湾湿地公园](https://baike.baidu.com/item/%E4%BA%94%E7%BC%98%E6%B9%BE%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD) | wiki | 2026-09-28 |
 | 厦门大学(思明校区) | [百度百科·厦门大学](https://baike.baidu.com/item/%E5%8E%A6%E9%97%A8%E5%A4%A7%E5%AD%A6) | wiki | 2026-09-28 |
+| 厦门桥梁博物馆 | [厦门桥梁博物馆·参观信息（百度百科）](https://baike.baidu.com/item/厦门桥梁博物馆/9988538) | wiki | 2026-11-10 |
+| 厦门方特旅游度假区 | [厦门方特梦幻王国官网·票价与营业时间](http://xiamen.fangte.com/) | official | 2026-11-10 |
 | 厦门科技馆 | [百度百科·厦门科技馆](https://baike.baidu.com/item/%E5%8E%A6%E9%97%A8%E7%A7%91%E6%8A%80%E9%A6%86) | wiki | 2026-09-28 |
 | 厦门市博物馆 | [百度百科·厦门市博物馆](https://baike.baidu.com/item/%E5%8E%A6%E9%97%A8%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86) | wiki | 2026-09-28 |
+| 厦门奥林匹克博物馆 | [厦门奥林匹克博物馆官网·周末看点（营业时间与交通指南）](http://xm-olympic-museum.org/mobile/content.asp?table=4&id=4234) | official | 2026-11-10 |
+| 厦门经济特区纪念馆 | [厦门市博物馆官网·开放时间（厦门经济特区纪念馆）](https://www.xmmuseum.com/index.htm) | official | 2026-11-10 |
 | 香山岩 | [百度百科·香山岩](https://baike.baidu.com/item/%E9%A6%99%E5%B1%B1%E5%B2%A9) | wiki | 2026-09-28 |
 | 厦门园林博览苑 | [百度百科·厦门园林博览苑](https://baike.baidu.com/item/%E5%8E%A6%E9%97%A8%E5%9B%AD%E6%9E%97%E5%8D%9A%E8%A7%88%E8%8B%91) | wiki | 2026-09-28 |
 | 郑成功纪念馆 | [百度百科·郑成功纪念馆](https://baike.baidu.com/item/%E9%83%91%E6%88%90%E5%8A%9F%E7%BA%AA%E5%BF%B5%E9%A6%86) | wiki | 2026-09-28 |
 | 厦门园林植物园 | [百度百科·厦门园林植物园](https://baike.baidu.com/item/%E5%8E%A6%E9%97%A8%E5%9B%AD%E6%9E%97%E6%A4%8D%E7%89%A9%E5%9B%AD) | wiki | 2026-09-28 |
 | 厦门第八市场 | [百度百科·厦门第八市场](https://baike.baidu.com/item/%E5%8E%A6%E9%97%A8%E7%AC%AC%E5%85%AB%E5%B8%82%E5%9C%BA) | wiki | 2026-09-28 |
 | 浮屿大同鸭肉粥 | [百度百科·鸭肉粥](https://baike.baidu.com/item/%E9%B8%AD%E8%82%89%E7%B2%A5) | wiki | 2026-09-28 |
+| 浮屿大同鸭肉粥 | [门店明码标价牌实拍写明24小时营业，图商POI亦为全天开放](http://mp.weixin.qq.com/s?__biz=MzU1NTQ5NDg1MQ==&mid=2247484174&idx=1&sn=e0465018bcba494697f4ede65027b82f) | media | 2026-11-12 |
 | 黄则和(大同店) | [百度百科·黄则和](https://baike.baidu.com/item/%E9%BB%84%E5%88%99%E5%92%8C) | wiki | 2026-09-28 |
 | 佳味再添小吃店 | [百度百科·厦门小吃](https://baike.baidu.com/item/%E5%8E%A6%E9%97%A8%E5%B0%8F%E5%90%83) | wiki | 2026-09-28 |
 | 局口拌面(中山路店) | [百度百科·沙茶面](https://baike.baidu.com/item/%E6%B2%99%E8%8C%B6%E9%9D%A2) | wiki | 2026-09-28 |
+| 局口拌面(中山路店) | [厦门日报社新媒体中心探店稿明载营业时间](https://www.toutiao.com/article/6710132877687783940) | media | 2026-11-12 |
 | 老剧场咖啡 | [百度百科·咖啡馆](https://baike.baidu.com/item/%E5%92%96%E5%95%A1%E9%A6%86) | wiki | 2026-09-28 |
 | 莲欢海蛎煎(局口横巷) | [百度百科·海蛎煎](https://baike.baidu.com/item/%E6%B5%B7%E8%9B%8E%E7%85%8E) | wiki | 2026-09-28 |
 | 1980烧肉粽(中山路店) | [百度百科·烧肉粽](https://baike.baidu.com/item/%E7%83%A7%E8%82%89%E7%B2%BD) | wiki | 2026-09-28 |
@@ -54,29 +66,34 @@
 | 鹦哥楼怀旧闽南菜(老厦门地标店) | [百度百科·闽南菜](https://baike.baidu.com/item/%E9%97%BD%E5%8D%97%E8%8F%9C) | wiki | 2026-09-28 |
 | 赵小姐的店(沙坡尾店) | [百度百科·厦门馅饼](https://baike.baidu.com/item/%E5%8E%A6%E9%97%A8%E9%A6%85%E9%A5%BC) | wiki | 2026-09-28 |
 | 厦门海上世界 | [百度百科·厦门海上世界](https://baike.baidu.com/item/%E5%8E%A6%E9%97%A8%E6%B5%B7%E4%B8%8A%E4%B8%96%E7%95%8C) | wiki | 2026-09-28 |
+| 中国美术馆鼓浪屿艺术空间 | [鼓浪屿管委会·中国美术馆鼓浪屿艺术空间游玩贴士](http://mp.weixin.qq.com/s?__biz=MzI4MzA0Nzk2Mg==&mid=2247588897&idx=2&sn=c4244a9433604a2ad4fd9feb568d6dc1&chksm=ea803309a66acee8c083ec745f325767188c2ab4772ce2eddbdf769547163b6ab0eb362fcddd#rd) | official | 2026-11-10 |
 | 厦门山海健康步道 | [百度百科·厦门山海健康步道](https://baike.baidu.com/item/%E5%8E%A6%E9%97%A8%E5%B1%B1%E6%B5%B7%E5%81%A5%E5%BA%B7%E6%AD%A5%E9%81%93) | wiki | 2026-09-28 |
 | 沙坡尾艺术西区 | [百度百科·沙坡尾](https://baike.baidu.com/item/%E6%B2%99%E5%9D%A1%E5%B0%BE) | wiki | 2026-09-28 |
 | 世茂海峡大厦 | [百度百科·世茂海峡大厦](https://baike.baidu.com/item/%E4%B8%96%E8%8C%82%E6%B5%B7%E5%B3%A1%E5%A4%A7%E5%8E%A6) | wiki | 2026-09-28 |
 | 五缘湾游艇港 | [百度百科·五缘湾](https://baike.baidu.com/item/%E4%BA%94%E7%BC%98%E6%B9%BE) | wiki | 2026-09-28 |
 | 厦门大学人类博物馆 | [百度百科·厦门大学人类博物馆](https://baike.baidu.com/item/%E5%8E%A6%E9%97%A8%E5%A4%A7%E5%AD%A6%E4%BA%BA%E7%B1%BB%E5%8D%9A%E7%89%A9%E9%A6%86) | wiki | 2026-09-28 |
+| 厦门大学人类博物馆 | [厦大文博管理中心参观服务页](https://dawb.xmu.edu.cn/wbglzx/cgfw.htm) | media | 2026-11-12 |
 | 厦门市美术馆 | [百度百科·厦门市美术馆](https://baike.baidu.com/item/%E5%8E%A6%E9%97%A8%E5%B8%82%E7%BE%8E%E6%9C%AF%E9%A6%86) | wiki | 2026-09-28 |
 | 演武大桥观景平台 | [百度百科·演武大桥](https://baike.baidu.com/item/%E6%BC%94%E6%AD%A6%E5%A4%A7%E6%A1%A5) | wiki | 2026-09-28 |
 | 椰风寨 | [百度百科·椰风寨](https://baike.baidu.com/item/%E6%A4%B0%E9%A3%8E%E5%AF%A8) | wiki | 2026-09-28 |
 | 厦门中华儿女美术馆 | [百度百科·中华儿女美术馆](https://baike.baidu.com/item/%E4%B8%AD%E5%8D%8E%E5%84%BF%E5%A5%B3%E7%BE%8E%E6%9C%AF%E9%A6%86) | wiki | 2026-09-28 |
 | 华新路老别墅 | [百度百科·华新路](https://baike.baidu.com/item/%E5%8D%8E%E6%96%B0%E8%B7%AF) | wiki | 2026-09-28 |
 | 嘉庚剧院 | [百度百科·嘉庚剧院](https://baike.baidu.com/item/%E5%98%89%E5%BA%9A%E5%89%A7%E9%99%A2) | wiki | 2026-09-28 |
+| 嘉庚剧院 | [剧院官方公众号交通栏：地铁1号线官任站2号口](http://mp.weixin.qq.com/s?__biz=MzA5ODAwNzQ5Ng==&mid=2652847516&idx=2&sn=a7cfd5546acbd67108e362a1f7e49c88) | media | 2026-11-12 |
 | 闽南大戏院 | [百度百科·闽南大戏院](https://baike.baidu.com/item/%E9%97%BD%E5%8D%97%E5%A4%A7%E6%88%8F%E9%99%A2) | wiki | 2026-09-28 |
+| 闽南大戏院 | [厦门市总工会公众号观演指南：最近地铁为软件园二期站](http://mp.weixin.qq.com/s?__biz=MzA5NzI3MTYyNg==&mid=2651231709&idx=1&sn=913c5064111784c39fb2899ad12246fd) | media | 2026-11-12 |
 | 沙坡尾 | [百度百科·沙坡尾](https://baike.baidu.com/item/%E6%B2%99%E5%9D%A1%E5%B0%BE) | wiki | 2026-09-28 |
 | 曾厝垵文创街区 | [百度百科·曾厝垵](https://baike.baidu.com/item/%E6%9B%BE%E5%8E%9D%E5%9E%B5) | wiki | 2026-09-28 |
+| 曾厝垵文创街区 | [思明区滨海街道 2026-06 答复函：更新改造推进中](https://siming.gov.cn/zfxxgkzl/gjdzfxxgk/bhjd/zfxxgkml/zcfg/202606/t20260624_1152382.htm) | media | 2026-11-12 |
 | 中山路步行街 | [百度百科·厦门中山路](https://baike.baidu.com/item/%E5%8E%A6%E9%97%A8%E4%B8%AD%E5%B1%B1%E8%B7%AF) | wiki | 2026-09-28 |
 
 ## 图片版权
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | leoon liang | Unsplash License | [unsplash](https://unsplash.com/photos/a-view-of-a-city-with-tall-buildings-in-the-background-4Muiv_B_CLg) |
-| 城市封面 | leoon liang | Unsplash License | [unsplash](https://unsplash.com/photos/a-man-standing-on-a-balcony-overlooking-a-city-ZBIqhhWuUl8) |
-| 城市封面 | leoon liang | Unsplash License | [unsplash](https://unsplash.com/photos/a-man-standing-on-top-of-a-hill-next-to-a-metal-fence-JY_wU-odTAM) |
+| 城市封面 | Fuzheado | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gulangyu_island.jpg) |
+| 城市封面 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E9%BC%93%E6%B5%AA%E5%B1%BF%E8%BD%AE%E6%B8%A1%E6%9C%9B%E9%BC%93%E6%B5%AA%E5%B1%BF%E5%9C%B0%E6%A0%87_-_%E6%97%A5%E5%85%89%E5%B2%A9_-_panoramio.jpg) |
+| 城市封面 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E6%99%AE%E9%99%80%E5%AF%BA_-_South_Putuo_Temple_-_2014.01_-_panoramio.jpg) |
 | 集美鳌园 | luchangjiang~鲁昌江 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E5%B8%82%E9%9B%86%E7%BE%8E%E5%8C%BA%E9%B3%8C%E5%9B%AD%E7%9C%BA%E7%9C%8B%E9%9B%86%E7%BE%8E%E5%AD%A6%E6%9D%91_-_panoramio.jpg) |
 | 集美鳌园 | luchangjiang~鲁昌江 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E5%B8%82%E9%9B%86%E7%BE%8E%E5%8C%BA%E9%B3%8C%E5%9B%AD%E7%9C%BA%E7%9C%8B%E9%9B%86%E7%BE%8E%E5%AD%A6%E6%9D%91_-_panoramio_(1).jpg) |
 | 集美鳌园 | luchangjiang~鲁昌江 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E5%B8%82%E9%9B%86%E7%BE%8E%E5%8C%BA%E9%B3%8C%E5%9B%AD%E7%9C%BA%E7%9C%8B%E9%9B%86%E7%BE%8E%E5%AD%A6%E6%9D%91_-_panoramio_(2).jpg) |
@@ -89,9 +106,16 @@
 | 梵天禅寺 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 梵天禅寺 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 梵天禅寺 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 鼓浪屿故宫文物馆 | lienyuan lee | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gulangyu_%E9%BC%93%E6%B5%AA%E5%B6%BC_-_panoramio_(4).jpg) |
+| 鼓浪屿故宫文物馆 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Hope_Hospital,_2019-09-26_01.jpg) |
+| 鼓浪屿故宫文物馆 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Hope_Hospital,_2019-09-26_02.jpg) |
+| 鼓浪屿故宫文物馆 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Hope_Hospital,_2019-09-26_03.jpg) |
+| 鼓浪屿故宫文物馆 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Hope_Hospital,_2019-09-26_04.jpg) |
+| 鼓浪屿故宫文物馆 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Hope_Hospital,_2019-09-26_05.jpg) |
 | 鼓浪屿 | Qingwu Zhou (周庆武) | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8_%E9%BC%93%E6%B5%AA%E5%B1%BF_-_panoramio.jpg) |
 | 鼓浪屿 | Qingwu Zhou (周庆武) | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8_%E9%BC%93%E6%B5%AA%E5%B1%BF_-_panoramio_(2).jpg) |
 | 鼓浪屿 | Qingwu Zhou (周庆武) | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8_%E9%BC%93%E6%B5%AA%E5%B1%BF_%E6%B2%99%E6%BB%A9_-_panoramio.jpg) |
+| 厦门海堤纪念公园 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E6%B5%B7%E5%A0%A4%E7%BA%AA%E5%BF%B5%E5%85%AC%E5%9B%AD.jpg) |
 | 皓月园 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%9A%93%E6%9C%88%E5%9B%AD_-_Bright_Moon_Park_-_2013.01_-_panoramio.jpg) |
 | 皓月园 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E3%81%AE%E9%BC%93%E6%B5%AA%E5%B1%BF.jpg) |
 | 皓月园 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%BC%93%E6%B5%AA%E5%B1%BF%E7%9A%93%E6%9C%88%E5%9B%AD.jpg) |
@@ -111,6 +135,12 @@
 | 南普陀寺 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E6%99%AE%E9%99%80%E5%AF%BA_-_South_Putuo_Temple_-_2014.01_-_panoramio.jpg) |
 | 南普陀寺 | Qingwu Zhou (周庆武) | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8_%E5%8D%97%E6%99%AE%E9%99%80%E5%AF%BA_-_panoramio.jpg) |
 | 南普陀寺 | Qingwu Zhou (周庆武) | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8_%E5%8D%97%E6%99%AE%E9%99%80%E5%AF%BA_%E6%9C%A8%E6%A3%89%E6%A0%91_-_panoramio.jpg) |
+| 厦门破狱斗争旧址 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Site_of_Xiamen_Prison_Breaking_Fight,_2019-09-27_01.jpg) |
+| 厦门破狱斗争旧址 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Site_of_Xiamen_Prison_Breaking_Fight,_2019-09-27_02.jpg) |
+| 厦门破狱斗争旧址 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Site_of_Xiamen_Prison_Breaking_Fight,_2019-09-27_03.jpg) |
+| 厦门破狱斗争旧址 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Site_of_Xiamen_Prison_Breaking_Fight,_2019-09-27_04.jpg) |
+| 厦门破狱斗争旧址 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Site_of_Xiamen_Prison_Breaking_Fight,_2019-09-27_05.jpg) |
+| 厦门破狱斗争旧址 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Site_of_Xiamen_Prison_Breaking_Fight,_2019-09-27_06.jpg) |
 | 青礁慈济祖宫 | stone wu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E7%A4%81%E6%85%88%E6%B5%8E%E7%A5%96%E5%AE%AB_-_panoramio.jpg) |
 | 青礁慈济祖宫 | stone wu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E7%A4%81%E6%85%88%E6%B5%8E%E7%A5%96%E5%AE%AB_-_panoramio_-_stone_wu_(1).jpg) |
 | 日光岩 | 颐园新居 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xiamen_20140828.JPG) |
@@ -118,11 +148,19 @@
 | 日光岩 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E9%BC%93%E6%B5%AA%E5%B1%BF%E8%BD%AE%E6%B8%A1%E6%9C%9B%E9%BC%93%E6%B5%AA%E5%B1%BF%E5%9C%B0%E6%A0%87_-_%E6%97%A5%E5%85%89%E5%B2%A9_-_panoramio.jpg) |
 | 菽庄花园 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xiamen_Gulangyu_20120226-22.jpg) |
 | 菽庄花园 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E9%BC%93%E6%B5%AA%E5%B1%BF%E8%8F%BD%E5%BA%84%E8%8A%B1%E5%9B%AD_-_panoramio.jpg) |
+| 同安博物馆 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%9C%E6%99%8B%22%E9%9A%86%E5%AE%89%E4%BA%8C%E5%B9%B4%22%E6%9C%B1%E9%9B%80%E7%94%BB%E5%83%8F%E7%A0%96.jpg) |
+| 同安博物馆 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%9C%E6%99%8B%22%E9%9A%86%E5%AE%89%E4%BA%8C%E5%B9%B4%22%E9%9D%92%E9%BE%99%E7%94%BB%E5%83%8F%E7%A0%96.jpg) |
+| 同安博物馆 | 陳寅恪 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%90%B4%E6%98%8C%E7%A1%95%E3%80%8A%E9%9A%B6%E4%B9%A6%E6%9D%91%E9%87%8C%E5%AE%B6%E4%B8%AD%E4%BA%94%E8%A8%80%E8%81%94%E3%80%8B%E7%BA%B8%E6%9C%AC%E9%9A%B6%E4%B9%A6_127.9%C3%9733.5cm%C3%972_1924%E5%B9%B4_%E6%B5%99%E6%B1%9F%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86%E8%97%8F.jpg) |
 | 五缘湾湿地公园 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E7%9A%84%E5%87%A4%E5%87%B0%E8%8A%B1%E5%BC%801.jpg) |
 | 厦门大学(思明校区) | Ratvirgin | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Panoramatic_view_of_xiamen_university_at_sunset.jpg) |
 | 厦门市博物馆 | FradonStar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86_20250102_02.jpg) |
 | 厦门市博物馆 | FradonStar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86_20250102_05.jpg) |
 | 厦门市博物馆 | FradonStar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86_20250102_08.jpg) |
+| 厦门经济特区纪念馆 | FradonStar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E7%BB%8F%E6%B5%8E%E7%89%B9%E5%8C%BA%E7%BA%AA%E5%BF%B5%E9%A6%86_01.jpg) |
+| 厦门经济特区纪念馆 | FradonStar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E7%BB%8F%E6%B5%8E%E7%89%B9%E5%8C%BA%E7%BA%AA%E5%BF%B5%E9%A6%86_02.jpg) |
+| 厦门经济特区纪念馆 | FradonStar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E7%BB%8F%E6%B5%8E%E7%89%B9%E5%8C%BA%E7%BA%AA%E5%BF%B5%E9%A6%86_03.jpg) |
+| 厦门经济特区纪念馆 | FradonStar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E7%BB%8F%E6%B5%8E%E7%89%B9%E5%8C%BA%E7%BA%AA%E5%BF%B5%E9%A6%86_04.jpg) |
+| 厦门经济特区纪念馆 | FradonStar | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E7%BB%8F%E6%B5%8E%E7%89%B9%E5%8C%BA%E7%BA%AA%E5%BF%B5%E9%A6%86_05.jpg) |
 | 香山岩 | Augustokremo | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%A6%99%E5%B1%B1%E5%B2%A93041.jpg) |
 | 香山岩 | Augustokremo | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%A6%99%E5%B1%B1%E5%B2%A9%E5%AF%BA1238.jpg) |
 | 厦门园林博览苑 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E5%9B%AD%E6%9E%97%E5%8D%9A%E8%A7%88%E8%8B%91_-_Xiamen_Garden_Expo_Garden_-_2015.01_-_panoramio.jpg) |

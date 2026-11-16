@@ -1,71 +1,103 @@
 {
-  "id": "huizhou-maofeng",
-  "name": "徽州毛峰",
-  "category": "food",
-  "subtype": "cafe",
-  "summary": "黄山毛峰核心产区就在歙县，喝一杯明前新茶。",
-  "description": "黄山毛峰是中国十大名茶之一，而它的核心产区就在歙县一带的丘陵茶园，富溪、漕溪这些地方出的毛峰尤其被认。茶形微卷、白毫显露，汤色清绿，滋味鲜醇带点栗香。在歙县，可以找到茶馆坐下来喝一杯明前新茶，也能去茶园看看采茶、制茶。春天新茶上市时，街头茶香最浓。它不算重口味，适合慢慢品，也适合买一点当手信带走，比景区里包装花哨的礼盒更靠谱。",
-  "highlights": [
-    "十大名茶",
-    "歙县产区",
-    "明前新茶",
-    "茶馆"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.449734,
-      "lat": 29.878271,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黄山市歙县徽城镇茶馆及富溪、漕溪茶园（县城周边）",
-    "district": "歙县",
-    "transportTip": "县城茶馆步行可达；茶园需自驾 / 包车"
+ "id": "huizhou-maofeng",
+ "name": "徽州毛峰",
+ "category": "food",
+ "subtype": "cafe",
+ "summary": "黄山毛峰核心产区就在歙县，喝一杯明前新茶。",
+ "description": "黄山毛峰是中国十大名茶之一，而它的核心产区就在歙县一带的丘陵茶园，富溪、漕溪这些地方出的毛峰尤其被认。茶形微卷、白毫显露，汤色清绿，滋味鲜醇带点栗香。在歙县，可以找到茶馆坐下来喝一杯明前新茶，也能去茶园看看采茶、制茶。春天新茶上市时，街头茶香最浓。它不算重口味，适合慢慢品，也适合买一点当手信带走，比景区里包装花哨的礼盒更靠谱。",
+ "highlights": [
+  "十大名茶",
+  "歙县产区",
+  "明前新茶",
+  "茶馆"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.449734,
+   "lat": 29.878271,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "茶馆通常日间营业",
-    "openHoursRef": 0,
-    "ticket": "按茶位或茶叶消费",
-    "ticketRef": 0,
-    "duration": "建议 20-45 分钟",
-    "durationMinutes": [
-      20,
-      45
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "solo",
-    "elders"
+  "address": "黄山市歙县徽城镇茶馆及富溪、漕溪茶园（县城周边）",
+  "district": "歙县",
+  "transportTip": "县城茶馆步行可达；茶园需自驾 / 包车"
+ },
+ "practical": {
+  "openHours": "茶馆通常日间营业",
+  "openHoursRef": 0,
+  "ticket": "按茶位或茶叶消费",
+  "ticketRef": 0,
+  "duration": "建议 20-45 分钟",
+  "durationMinutes": [
+   20,
+   45
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "茶",
-    "名茶",
-    "手信",
-    "茶园"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "solo",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "茶",
+  "名茶",
+  "手信",
+  "茶园"
+ ],
+ "popularity": 83,
+ "sources": [
+  {
+   "title": "百度百科·黄山毛峰",
+   "url": "https://baike.baidu.com/item/%E9%BB%84%E5%B1%B1%E6%AF%9B%E5%B3%B0",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-07"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "徽州毛峰"
+ },
+ "_geocodeTitle": "歙县城东小区-14栋",
+ "_geocodeSuspect": false,
+ "district": "341021",
+ "_noImage": true,
+ "review": {
+  "score": 3.8,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.3,
+    "note": "汤色清绿、栗香明显，明前那一批最细"
+   },
+   {
+    "label": "性价比",
+    "score": 3.2,
+    "note": "景区礼盒溢价高，散装更实在"
+   },
+   {
+    "label": "辨别",
+    "score": 3.0,
+    "note": "外地茶冒充产区茶的情况不少，认店比认包装重要"
+   }
   ],
-  "popularity": 83,
-  "sources": [
-    {
-      "title": "百度百科·黄山毛峰",
-      "url": "https://baike.baidu.com/item/%E9%BB%84%E5%B1%B1%E6%AF%9B%E5%B3%B0",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-07"
-    }
+  "body": "歙县是黄山毛峰的核心产区，春天在茶馆坐下来喝一杯明前新茶，京栗香和回甘都很清楚，是很舒服的一段歇脚。缺点是买茶容易踩坑：景区里的礼盒包装漂亮、价格虚高，散装反而更靠谱；打着「核心产区」名号的外地茶也不少，不懂行就容易被绕。想带手信，找本地老茶店试喝再买。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "喝茶",
+   "买手信"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "徽州毛峰"
-  },
-  "_geocodeTitle": "歙县城东小区-14栋",
-  "_geocodeSuspect": false,
-  "district": "341021",
-  "_noImage": true
+  "avoid": [
+   "只在景区买礼盒"
+  ],
+  "sources": []
+ }
 }

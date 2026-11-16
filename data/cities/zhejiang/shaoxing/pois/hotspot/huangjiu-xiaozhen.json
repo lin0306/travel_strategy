@@ -1,67 +1,104 @@
 {
-  "id": "huangjiu-xiaozhen",
-  "name": "黄酒小镇(东浦)",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "东浦的水乡酒镇，酒坊与河埠头。",
-  "description": "黄酒小镇（东浦）在绍兴西北，是黄酒的发源地之一，水乡格局完整，老酒坊、河埠头与酒文化展陈散布，比老城更静、更「酒」。它正在做文旅开发，可看酿造场景、尝新酒。免费进，适合半日慢游。与柯桥、安昌方向可串。",
-  "highlights": [
-    "东浦黄酒发源地水乡",
-    "老酒坊河埠头酒文化",
-    "比老城更静更酒"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.539911,
-      "lat": 30.052122,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "绍兴市越城区东浦黄酒小镇",
-    "district": "越城区",
-    "transportTip": "公交或打车至东浦约20分钟"
+ "id": "huangjiu-xiaozhen",
+ "name": "黄酒小镇(东浦)",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "东浦的水乡酒镇，酒坊与河埠头。",
+ "description": "黄酒小镇（东浦）在绍兴西北，是黄酒的发源地之一，水乡格局完整，老酒坊、河埠头与酒文化展陈散布，比老城更静、更「酒」。它正在做文旅开发，可看酿造场景、尝新酒。免费进，适合半日慢游。与柯桥、安昌方向可串。",
+ "highlights": [
+  "东浦黄酒发源地水乡",
+  "老酒坊河埠头酒文化",
+  "比老城更静更酒"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.539911,
+   "lat": 30.052122,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放（商铺以各自时段为准）",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "friends",
-    "solo"
+  "address": "绍兴市越城区东浦黄酒小镇",
+  "district": "越城区",
+  "transportTip": "公交或打车至东浦约20分钟"
+ },
+ "practical": {
+  "openHours": "全天开放（商铺以各自时段为准）",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "黄酒",
-    "水乡",
-    "酒坊"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "friends",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "黄酒",
+  "水乡",
+  "酒坊"
+ ],
+ "popularity": 72,
+ "sources": [
+  {
+   "title": "百度百科·东浦",
+   "url": "https://baike.baidu.com/item/%E4%B8%9C%E6%B5%A6",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "黄酒小镇(东浦)"
+ },
+ "_geocodeTitle": "黄酒小镇",
+ "_geocodeSuspect": false,
+ "district": "330602",
+ "_noImage": true,
+ "review": {
+  "score": 3.8,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "氛围",
+    "score": 4.2,
+    "note": "酒坊、河埠头，比老城安静"
+   },
+   {
+    "label": "成熟度",
+    "score": 3.0,
+    "note": "仍在开发，部分场馆与商铺未开"
+   },
+   {
+    "label": "内容",
+    "score": 3.6,
+    "note": "看酿酒的场景有限，多为外景"
+   },
+   {
+    "label": "时长",
+    "score": 3.8,
+    "note": "半天足够，配东浦老街一起走"
+   }
   ],
-  "popularity": 72,
-  "sources": [
-    {
-      "title": "百度百科·东浦",
-      "url": "https://baike.baidu.com/item/%E4%B8%9C%E6%B5%A6",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "黄酒的发源地之一，水乡骨架完整，老酒坊和河埠头比老城安静得多，能看看酿造场景、尝尝新酒。短板是还在开发中，部分场馆和商铺没开，走一圈会有半成品的空旷感；真正可看的内容不多，专程去容易失望，顺路配安昌或柯桥更合适。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "黄酒",
+   "慢走"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "黄酒小镇(东浦)"
-  },
-  "_geocodeTitle": "黄酒小镇",
-  "_geocodeSuspect": false,
-  "district": "330602",
-  "_noImage": true
+  "avoid": [
+   "专程前往"
+  ],
+  "sources": []
+ }
 }

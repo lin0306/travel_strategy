@@ -1,68 +1,107 @@
 {
-  "id": "guandong-alley",
-  "name": "关东古巷",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "群力新区商场里的一条室内仿古街，把东北老街的样子搬进屋里，冬天刮风下雪也不受影响。",
-  "description": "关东古巷在道里区群力第五大道的商业体里面，是一条室内的仿古街 —— 把东北老街的样子搬进屋里：木格子窗、幌子、砖墙、老招牌，顶上是造出来的天空与灯笼。巷子里开着小吃、手作、小铺，也有摆着的老物件与场景复原。它不是真古迹，是一个造出来的场景，但做得很认真，而且在室内，冬天外面零下二十度的时候这里照常逛，带小孩与长辈都省事。免费进，消费另算。逛一小时左右。它在群里新区，与音乐厅、音乐公园是同一个方向，可以连着安排半天。",
-  "highlights": [
-    "把东北老街搬进室内的仿古街，木格子窗幌子老招牌",
-    "室内不受天气影响，冬天零下二十度照常逛",
-    "免费进，与音乐厅、音乐公园同方向"
-  ],
-  "location": {
-    "point": {
-      "lng": 126.566775,
-      "lat": 45.734291,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黑龙江省哈尔滨市道里区群力新区群力第五大道770号",
-    "district": "道里区",
-    "transportTip": "乘公交至群力第五大道站；或网约车前往"
+ "id": "guandong-alley",
+ "name": "关东古巷",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "群力新区商场里的一条室内仿古街，把东北老街的样子搬进屋里，冬天刮风下雪也不受影响。",
+ "description": "关东古巷在道里区群力第五大道的商业体里面，是一条室内的仿古街 —— 把东北老街的样子搬进屋里：木格子窗、幌子、砖墙、老招牌，顶上是造出来的天空与灯笼。巷子里开着小吃、手作、小铺，也有摆着的老物件与场景复原。它不是真古迹，是一个造出来的场景，但做得很认真，而且在室内，冬天外面零下二十度的时候这里照常逛，带小孩与长辈都省事。免费进，消费另算。逛一小时左右。它在群里新区，与音乐厅、音乐公园是同一个方向，可以连着安排半天。",
+ "highlights": [
+  "把东北老街搬进室内的仿古街，木格子窗幌子老招牌",
+  "室内不受天气影响，冬天零下二十度照常逛",
+  "免费进，与音乐厅、音乐公园同方向"
+ ],
+ "location": {
+  "point": {
+   "lng": 126.566775,
+   "lat": 45.734291,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "随商场营业时间，约10:00-21:00",
-    "openHoursRef": 0,
-    "ticket": "免费进入，消费另计",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "family",
-    "kids",
-    "elders",
-    "friends"
+  "address": "黑龙江省哈尔滨市道里区群力新区群力第五大道770号",
+  "district": "道里区",
+  "transportTip": "乘公交至群力第五大道站；或网约车前往"
+ },
+ "practical": {
+  "openHours": "随商场营业时间，约10:00-21:00",
+  "openHoursRef": 0,
+  "ticket": "免费进入，消费另计",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "室内古街",
-    "老场景",
-    "免费"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "family",
+  "kids",
+  "elders",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "室内古街",
+  "老场景",
+  "免费"
+ ],
+ "popularity": 72,
+ "sources": [
+  {
+   "title": "百度百科·关东古巷",
+   "url": "https://baike.baidu.com/item/%E5%85%B3%E4%B8%9C%E5%8F%A4%E5%B7%B7",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "关东古巷"
+ },
+ "_geocodeTitle": "关东古巷",
+ "district": "230102",
+ "_noImage": true,
+ "review": {
+  "score": 3.8,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "场景",
+    "score": 4.0,
+    "note": "木格窗幌子老招牌，复原得认真"
+   },
+   {
+    "label": "保暖",
+    "score": 4.5,
+    "note": "室内仿古街，寒冬照常逛"
+   },
+   {
+    "label": "商业化",
+    "score": 2.8,
+    "note": "小吃手作店铺为主，消费另算"
+   },
+   {
+    "label": "时长",
+    "score": 3.0,
+    "note": "一小时左右到头"
+   }
   ],
-  "popularity": 72,
-  "sources": [
-    {
-      "title": "百度百科·关东古巷",
-      "url": "https://baike.baidu.com/item/%E5%85%B3%E4%B8%9C%E5%8F%A4%E5%B7%B7",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
+  "body": "室内仿古街把东北老街搬进商场，木格窗、幌子、老招牌做得认真，冬天零下二十度还能照常逛，带长辈小孩不用挨冻，这是它最实在的价值。缺点是它终究是造出来的场景，不是真古迹，逛一小时就到头，商铺同质化偏重、消费另算，别指望有市井生活气。适合塞在群力那半天的空档里，顺路看看即可，不值得专程跑一趟。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "带娃",
+   "避寒",
+   "半天行程"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "关东古巷"
-  },
-  "_geocodeTitle": "关东古巷",
-  "district": "230102",
-  "_noImage": true
+  "avoid": [
+   "追真古迹",
+   "专程打卡"
+  ],
+  "sources": []
+ }
 }

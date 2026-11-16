@@ -1,189 +1,213 @@
 {
-  "id": "huishan-guzhen",
-  "name": "惠山古镇",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "祠堂群与泥人街，无锡老城的标本。",
-  "description": "惠山古镇在无锡西郊，以密集的祠堂群、寄畅园和惠山泥人闻名，是江南古镇里「祠堂文化」最密的一处。街巷里泥人铺、小吃店和老茶馆相间，惠山油酥、油面筋都能在这尝到。它免费开放、生活气浓，与锡惠公园相连，半天刚好。节假游人不少，早去更清净。",
-  "highlights": [
-    "祠堂群密集，江南之最",
-    "泥人街与老茶馆相间",
-    "免费，连锡惠公园"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.274111,
-      "lat": 31.578923,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "无锡市梁溪区惠山古镇",
-    "district": "滨湖区",
-    "transportTip": "公交惠山古镇站"
+ "id": "huishan-guzhen",
+ "name": "惠山古镇",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "祠堂群与泥人街，无锡老城的标本。",
+ "description": "惠山古镇在无锡西郊，以密集的祠堂群、寄畅园和惠山泥人闻名，是江南古镇里「祠堂文化」最密的一处。街巷里泥人铺、小吃店和老茶馆相间，惠山油酥、油面筋都能在这尝到。它免费开放、生活气浓，与锡惠公园相连，半天刚好。节假游人不少，早去更清净。",
+ "highlights": [
+  "祠堂群密集，江南之最",
+  "泥人街与老茶馆相间",
+  "免费，连锡惠公园"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.274111,
+   "lat": 31.578923,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放（园中馆以公告为准）",
-    "openHoursRef": 0,
-    "ticket": "免费（园中园另计）",
-    "ticketRef": 0,
-    "duration": "建议 120-240 分钟",
-    "durationMinutes": [
-      120,
-      240
-    ],
-    "priceLevel": "free"
+  "address": "无锡市梁溪区惠山古镇",
+  "district": "梁溪区",
+  "transportTip": "公交惠山古镇站"
+ },
+ "practical": {
+  "openHours": "全天开放（园中馆以公告为准）",
+  "openHoursRef": 0,
+  "ticket": "免费（园中园另计）",
+  "ticketRef": 0,
+  "duration": "建议 120-240 分钟",
+  "durationMinutes": [
+   120,
+   240
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "friends",
+  "family",
+  "solo",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_22.jpg/1280px-%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_22.jpg/1280px-%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "惠山古镇20200912 22.jpg",
+   "query": "惠山古镇",
+   "credit": {
+    "source": "wikimedia",
+    "author": "西安兵马俑",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "front"
+   }
   },
-  "audience": [
-    "friends",
-    "family",
-    "solo",
-    "couple"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/The_historical_photograph_about_Wuxi_Huishan_Ancient_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/The_historical_photograph_about_Wuxi_Huishan_Ancient_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 765,
-      "alt": "The historical photograph about Wuxi Huishan Ancient Town.jpg",
-      "query": "惠山古镇 无锡",
-      "credit": {
-        "source": "wikimedia",
-        "author": "王波波 翻摄",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_historical_photograph_about_Wuxi_Huishan_Ancient_Town.jpg",
-        "license": "Public domain",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_22.jpg/1280px-%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_22.jpg/1280px-%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "惠山古镇20200912 22.jpg",
-      "query": "惠山古镇",
-      "credit": {
-        "source": "wikimedia",
-        "author": "西安兵马俑",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "front"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_23.jpg/1280px-%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_23.jpg/1280px-%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "惠山古镇20200912 23.jpg",
-      "query": "惠山古镇",
-      "credit": {
-        "source": "wikimedia",
-        "author": "西安兵马俑",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "front"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Beitang%2C_Wuxi%2C_Jiangsu%2C_China_-_panoramio_%2819%29.jpg/1280px-Beitang%2C_Wuxi%2C_Jiangsu%2C_China_-_panoramio_%2819%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Beitang%2C_Wuxi%2C_Jiangsu%2C_China_-_panoramio_%2819%29.jpg/1280px-Beitang%2C_Wuxi%2C_Jiangsu%2C_China_-_panoramio_%2819%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Beitang, Wuxi, Jiangsu, China - panoramio (19).jpg",
-      "query": "惠山古镇",
-      "credit": {
-        "source": "wikimedia",
-        "author": "song songroov",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "front"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_21.jpg/1280px-%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_21.jpg/1280px-%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "惠山古镇20200912 21.jpg",
-      "query": "惠山古镇",
-      "credit": {
-        "source": "wikimedia",
-        "author": "西安兵马俑",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "street"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_20.jpg/1280px-%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_20.jpg/1280px-%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "惠山古镇20200912 20.jpg",
-      "query": "惠山古镇",
-      "credit": {
-        "source": "wikimedia",
-        "author": "西安兵马俑",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "street"
-      }
-    }
-  ],
-  "coverIndex": 2,
-  "tags": [
-    "古镇",
-    "祠堂",
-    "泥人"
-  ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·惠山古镇",
-      "url": "https://baike.baidu.com/item/%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%87",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-11-05",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "惠山古镇"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_23.jpg/1280px-%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_23.jpg/1280px-%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "惠山古镇20200912 23.jpg",
+   "query": "惠山古镇",
+   "credit": {
+    "source": "wikimedia",
+    "author": "西安兵马俑",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "front"
+   }
   },
-  "_geocodeTitle": "惠山古镇",
-  "_geocodeSuspect": false,
-  "district": "320211"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Beitang%2C_Wuxi%2C_Jiangsu%2C_China_-_panoramio_%2819%29.jpg/1280px-Beitang%2C_Wuxi%2C_Jiangsu%2C_China_-_panoramio_%2819%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Beitang%2C_Wuxi%2C_Jiangsu%2C_China_-_panoramio_%2819%29.jpg/1280px-Beitang%2C_Wuxi%2C_Jiangsu%2C_China_-_panoramio_%2819%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Beitang, Wuxi, Jiangsu, China - panoramio (19).jpg",
+   "query": "惠山古镇",
+   "credit": {
+    "source": "wikimedia",
+    "author": "song songroov",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "front"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_21.jpg/1280px-%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_21.jpg/1280px-%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "惠山古镇20200912 21.jpg",
+   "query": "惠山古镇",
+   "credit": {
+    "source": "wikimedia",
+    "author": "西安兵马俑",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "street"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_20.jpg/1280px-%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_20.jpg/1280px-%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%8720200912_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "惠山古镇20200912 20.jpg",
+   "query": "惠山古镇",
+   "credit": {
+    "source": "wikimedia",
+    "author": "西安兵马俑",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "street"
+   }
+  }
+ ],
+ "coverIndex": 2,
+ "tags": [
+  "古镇",
+  "祠堂",
+  "泥人"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·惠山古镇",
+   "url": "https://baike.baidu.com/item/%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%87",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "惠山古镇"
+ },
+ "_geocodeTitle": "惠山古镇",
+ "_geocodeSuspect": false,
+ "district": "320213",
+ "_patrol": {
+  "at": "2026-11-08",
+  "reason": "audit --fix-safe：清掉同城撞图的 1 张（待重抓）",
+  "droppedImages": [
+   "https://upload.wikimedia.org/wikipedia/commons/2/2e/The_historical_photograph_about_Wuxi_Huishan_Ancient_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  ]
+ },
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "祠堂群",
+    "score": 4.6,
+    "note": "江南祠堂密度最高的一处，一巷接一巷"
+   },
+   {
+    "label": "生活气",
+    "score": 4.3,
+    "note": "泥人铺、老茶馆与小吃店相间，本地人也来"
+   },
+   {
+    "label": "人流",
+    "score": 3.0,
+    "note": "节假日主街挤，早去明显清净"
+   },
+   {
+    "label": "花费",
+    "score": 4.5,
+    "note": "古镇免费，只有园中园另收"
+   }
+  ],
+  "body": "无锡西郊看“祠堂文化”最密的一处，一条巷接一条巷全是各家祠堂，配上寄畅园与惠山泥人铺，老茶馆和小吃摊混在中间，惠山油酥、油面筋都能在这里尝到；古镇本身免费开放，和锡惠公园连着，半天刚好。问题是节假日主街挤得走不快，泥人店卖的东西同质化严重、价格也虚，真想要手工的得往里走几家。清早去最舒服。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [],
+  "avoid": [],
+  "sources": []
+ }
 }

@@ -1,68 +1,106 @@
 {
-  "id": "tengwang-pavilion-night",
-  "name": "滕王阁夜景",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "灯亮起来的滕王阁，檐角与斗拱被勾成金线，是南昌夜景的头一张。",
-  "description": "天黑以后滕王阁换成另一副样子。楼体的灯从下往上打，一层层的檐角和斗拱被勾成金线，在江面上留一道倒影。拍照最好站在景区外的沿江路上，隔着水取景能把整座楼收进去，江对岸红谷滩的方向也能拍到楼与新城同框。天蓝未全黑的那一小段最漂亮，天空还有余光，楼灯已经亮了，前后也就二十来分钟。带三脚架更稳，手机也可以开夜景模式。江边风大，春秋夜里凉。",
-  "highlights": [
-    "楼体打灯勾出金线",
-    "沿江路隔水取景",
-    "天蓝未黑那二十分钟"
-  ],
-  "location": {
-    "point": {
-      "lng": 115.880458,
-      "lat": 28.680593,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "江西省南昌市东湖区沿江路滕王阁对面",
-    "district": "东湖区",
-    "transportTip": "地铁1号线滕王阁站，步行约十分钟"
+ "id": "tengwang-pavilion-night",
+ "name": "滕王阁夜景",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "灯亮起来的滕王阁，檐角与斗拱被勾成金线，是南昌夜景的头一张。",
+ "description": "天黑以后滕王阁换成另一副样子。楼体的灯从下往上打，一层层的檐角和斗拱被勾成金线，在江面上留一道倒影。拍照最好站在景区外的沿江路上，隔着水取景能把整座楼收进去，江对岸红谷滩的方向也能拍到楼与新城同框。天蓝未全黑的那一小段最漂亮，天空还有余光，楼灯已经亮了，前后也就二十来分钟。带三脚架更稳，手机也可以开夜景模式。江边风大，春秋夜里凉。",
+ "highlights": [
+  "楼体打灯勾出金线",
+  "沿江路隔水取景",
+  "天蓝未黑那二十分钟"
+ ],
+ "location": {
+  "point": {
+   "lng": 115.880458,
+   "lat": 28.680593,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约19:00-22:00灯光时段，以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "外景免费，进景区另计，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "family",
-    "solo"
+  "address": "江西省南昌市东湖区沿江路滕王阁对面",
+  "district": "东湖区",
+  "transportTip": "地铁1号线滕王阁站，步行约十分钟"
+ },
+ "practical": {
+  "openHours": "约19:00-22:00灯光时段，以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "外景免费，进景区另计，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "夜景",
-    "滕王阁",
-    "拍照"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "夜景",
+  "滕王阁",
+  "拍照"
+ ],
+ "popularity": 95,
+ "sources": [
+  {
+   "title": "滕王阁·百度百科",
+   "url": "https://baike.baidu.com/item/%E6%BB%95%E7%8E%8B%E9%98%81",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Tengwang Pavilion Night View Nanchang",
+  "zh": "滕王阁夜景"
+ },
+ "_geocodeTitle": "滕王阁景区-滕王阁",
+ "district": "360102",
+ "_noImage": true,
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "观感",
+    "score": 4.6,
+    "note": "檐角斗拱被勾成金线，江面留倒影"
+   },
+   {
+    "label": "机位",
+    "score": 3.5,
+    "note": "沿江路能站的位置有限，要抢"
+   },
+   {
+    "label": "时段",
+    "score": 3.4,
+    "note": "只有天蓝未黑那二十来分钟最好看"
+   },
+   {
+    "label": "成本",
+    "score": 4.4,
+    "note": "外景免费，不用进景区"
+   }
   ],
-  "popularity": 95,
-  "sources": [
-    {
-      "title": "滕王阁·百度百科",
-      "url": "https://baike.baidu.com/item/%E6%BB%95%E7%8E%8B%E9%98%81",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "天黑以后滕王阁换一副样子：楼体从下往上打灯，一层层檐角和斗拱被勾成金线，江面上留一道倒影。拍照不必进景区，站在沿江路上隔水取景就能把整座楼收进去。缺点是最好看的只有天蓝未全黑那二十来分钟，一晃就过；能站的位置有限，节假日一排三脚架，江边风大，春秋夜里站久了冷。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "拍夜景",
+   "晚饭后散步"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Tengwang Pavilion Night View Nanchang",
-    "zh": "滕王阁夜景"
-  },
-  "_geocodeTitle": "滕王阁景区-滕王阁",
-  "district": "360102",
-  "_noImage": true
+  "avoid": [
+   "天黑透了才到",
+   "没带三脚架还想过曝"
+  ],
+  "sources": []
+ }
 }

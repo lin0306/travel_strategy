@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "湖南省张家界市武陵源区袁家界景区",
-    "district": "永定区",
+    "district": "武陵源区",
     "transportTip": "森林公园内乘环保车或百龙天梯上袁家界"
   },
   "practical": {
@@ -101,7 +101,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Yuanjiajie Zhangjiajie",
@@ -109,5 +109,38 @@
   },
   "_geocodeTitle": "袁家界",
   "_geocodeSuspect": false,
-  "district": "430802"
+  "district": "430811",
+  "review": {
+    "score": 4.6,
+    "verdict": "专程去",
+    "facets": [
+      {
+        "label": "视野",
+        "score": 4.8,
+        "note": "成片石柱拔地而起，云海年份看运气"
+      },
+      {
+        "label": "体力",
+        "score": 3.3,
+        "note": "栈道上下台阶多，走完一趟腿会酸"
+      },
+      {
+        "label": "人流",
+        "score": 3.4,
+        "note": "团队集中在上午十点到下午两点"
+      }
+    ],
+    "body": "武陵源看峰林最集中的一片，乾坤柱从云里钻出来的样子确实像悬浮山。天下第一桥、迷魂台都在这条栈道上，慢慢走能一处处看完。台阶上上下下，整趟走下来腿是酸的，雨后石阶湿滑要留神；雾大时石柱只剩影子，别指望每次都能看到云海。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "看山",
+      "摄影"
+    ],
+    "avoid": [
+      "膝盖不好",
+      "赶时间"
+    ],
+    "sources": []
+  }
 }

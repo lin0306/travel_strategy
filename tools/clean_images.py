@@ -115,7 +115,13 @@ def scan(city: str = "") -> dict:
             hit: list[str] = []
             why: dict[str, str] = {}
 
-            if host_of(url) in STOCK_HOSTS:
+            # ★ 2026-11-08：AI 看图判 ok 的配图库图**不是历史污染**，别自动删。
+            #   这类图由 fetch_candidates.apply 写入，带 review.verdict=ok /
+            #   by=agent-vision，已经逐张确认过"就是这个地点"；本工具的 stock
+            #   规则针对的是那 6602 张"一张图挂 298 个餐饮点位"的未审存量。
+            rev = im.get("review") or {}
+            reviewed = rev.get("verdict") == "ok" and rev.get("by") == "agent-vision"
+            if host_of(url) in STOCK_HOSTS and not reviewed:
                 hit.append("stock")
                 why["stock"] = f"主题图库 {host_of(url)}，全库共用 {reuse[u]} 次"
 

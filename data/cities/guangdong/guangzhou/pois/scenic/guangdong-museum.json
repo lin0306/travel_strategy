@@ -1,194 +1,239 @@
 {
-  "id": "guangdong-museum",
-  "name": "广东省博物馆",
-  "category": "scenic",
-  "subtype": "museum",
-  "summary": "岭南这条线的大纲：从自然资源一路排到近代出海的那一段。",
-  "description": "广东省博在珠江新城，建筑本身是一个「宝盒」的形体，外立面用深色石材做成凹凸的块面，在这一片高楼里算是例外。常设陈列按广东这条线走：自然资源（矿物、海洋标本、古生物）、历史（岭南的分合与海上贸易）、潮州木雕与端砚两个专题厅。外地观众会在这里第一次把「珠三角」这个地理概念读懂——这里不是中原的那一套，而是一个面朝海的系统。免费但要实名预约，至少要留半天。",
-  "highlights": [
-    "按岭南自成一条线叙事：资源、历史、工艺",
-    "潮州木雕与端砚是专题展厅",
-    "免费预约，位置在珠江新城"
-  ],
-  "location": {
-    "point": {
-      "lng": 113.326421,
-      "lat": 23.114772,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "广州市天河区珠江东路2号",
-    "district": "天河区",
-    "transportTip": "地铁3号线、5号线珠江新城站；旅客自动输送线大剧院站"
+ "id": "guangdong-museum",
+ "name": "广东省博物馆",
+ "category": "scenic",
+ "subtype": "museum",
+ "summary": "岭南这条线的大纲：从自然资源一路排到近代出海的那一段。",
+ "description": "广东省博在珠江新城，建筑本身是一个「宝盒」的形体，外立面用深色石材做成凹凸的块面，在这一片高楼里算是例外。常设陈列按广东这条线走：自然资源（矿物、海洋标本、古生物）、历史（岭南的分合与海上贸易）、潮州木雕与端砚两个专题厅。外地观众会在这里第一次把「珠三角」这个地理概念读懂——这里不是中原的那一套，而是一个面朝海的系统。免费但要实名预约，至少要留半天。",
+ "highlights": [
+  "按岭南自成一条线叙事：资源、历史、工艺",
+  "潮州木雕与端砚是专题展厅",
+  "免费预约，位置在珠江新城"
+ ],
+ "location": {
+  "point": {
+   "lng": 113.326421,
+   "lat": 23.114772,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约09:00-17:00（周一闭馆），以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费（需预约），以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 150-300 分钟",
-    "durationMinutes": [
-      150,
-      300
-    ],
-    "priceLevel": "free"
+  "address": "广州市天河区珠江东路2号",
+  "district": "天河区",
+  "transportTip": "地铁3号线、5号线珠江新城站；旅客自动输送线大剧院站"
+ },
+ "practical": {
+  "openHours": "约09:00-17:00（周一闭馆），以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "免费（需预约），以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 150-300 分钟",
+  "durationMinutes": [
+   150,
+   300
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "kids",
+  "family",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86%E4%B8%9C%E5%8D%97%E4%BE%A7_-_panoramio.jpg/1280px-%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86%E4%B8%9C%E5%8D%97%E4%BE%A7_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86%E4%B8%9C%E5%8D%97%E4%BE%A7_-_panoramio.jpg/1280px-%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86%E4%B8%9C%E5%8D%97%E4%BE%A7_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "广东省博物馆东南侧 - panoramio.jpg",
+   "query": "广东省博物馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "zengsx",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "kids",
-    "family",
-    "couple"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86%E4%B8%9C%E5%8D%97%E4%BE%A7_-_panoramio.jpg/1280px-%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86%E4%B8%9C%E5%8D%97%E4%BE%A7_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86%E4%B8%9C%E5%8D%97%E4%BE%A7_-_panoramio.jpg/1280px-%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86%E4%B8%9C%E5%8D%97%E4%BE%A7_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "广东省博物馆东南侧 - panoramio.jpg",
-      "query": "广东省博物馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "zengsx",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Guangdong_Sheng_Bowuguan_2012.11.18_10-57-27.jpg/1280px-Guangdong_Sheng_Bowuguan_2012.11.18_10-57-27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Guangdong_Sheng_Bowuguan_2012.11.18_10-57-27.jpg/1280px-Guangdong_Sheng_Bowuguan_2012.11.18_10-57-27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Guangdong Sheng Bowuguan 2012.11.18 10-57-27.jpg",
-      "query": "广东省博物馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangzhugang",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "inside"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Guangdong_Sheng_Bowuguan_2012.11.18_10-58-10.jpg/1280px-Guangdong_Sheng_Bowuguan_2012.11.18_10-58-10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Guangdong_Sheng_Bowuguan_2012.11.18_10-58-10.jpg/1280px-Guangdong_Sheng_Bowuguan_2012.11.18_10-58-10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Guangdong Sheng Bowuguan 2012.11.18 10-58-10.jpg",
-      "query": "广东省博物馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangzhugang",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "inside"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Guangdong_Sheng_Bowuguan_2012.11.18_11-00-42.jpg/1280px-Guangdong_Sheng_Bowuguan_2012.11.18_11-00-42.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Guangdong_Sheng_Bowuguan_2012.11.18_11-00-42.jpg/1280px-Guangdong_Sheng_Bowuguan_2012.11.18_11-00-42.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Guangdong Sheng Bowuguan 2012.11.18 11-00-42.jpg",
-      "query": "广东省博物馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangzhugang",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "inside"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Guangdong_Museum.jpg/1280px-Guangdong_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Guangdong_Museum.jpg/1280px-Guangdong_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Guangdong Museum.jpg",
-      "query": "广东省博物馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Shujianyang",
-        "sourceUrl": "https://www.wikidata.org/wiki/Q5613636",
-        "license": "CC0",
-        "attributionRequired": false
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "front"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Guangdong_Sheng_Bowuguan_2012.11.18_09-44-39.jpg/1280px-Guangdong_Sheng_Bowuguan_2012.11.18_09-44-39.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Guangdong_Sheng_Bowuguan_2012.11.18_09-44-39.jpg/1280px-Guangdong_Sheng_Bowuguan_2012.11.18_09-44-39.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Guangdong Sheng Bowuguan 2012.11.18 09-44-39.jpg",
-      "query": "广东省博物馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangzhugang",
-        "sourceUrl": "https://www.wikidata.org/wiki/Q5613636",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "front"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "博物馆",
-    "免费",
-    "雨天备选"
-  ],
-  "popularity": 88,
-  "sources": [
-    {
-      "title": "百度百科·广东省博物馆",
-      "url": "https://baike.baidu.com/item/%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-24"
-    }
-  ],
-  "updatedAt": "2026-11-05",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "广东省博物馆"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Guangdong_Sheng_Bowuguan_2012.11.18_10-57-27.jpg/1280px-Guangdong_Sheng_Bowuguan_2012.11.18_10-57-27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Guangdong_Sheng_Bowuguan_2012.11.18_10-57-27.jpg/1280px-Guangdong_Sheng_Bowuguan_2012.11.18_10-57-27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Guangdong Sheng Bowuguan 2012.11.18 10-57-27.jpg",
+   "query": "广东省博物馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "inside"
+   }
   },
-  "_geocodeTitle": "广东省博物馆",
-  "_geocodeSuspect": false,
-  "district": "440106"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Guangdong_Sheng_Bowuguan_2012.11.18_10-58-10.jpg/1280px-Guangdong_Sheng_Bowuguan_2012.11.18_10-58-10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Guangdong_Sheng_Bowuguan_2012.11.18_10-58-10.jpg/1280px-Guangdong_Sheng_Bowuguan_2012.11.18_10-58-10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Guangdong Sheng Bowuguan 2012.11.18 10-58-10.jpg",
+   "query": "广东省博物馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "inside"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Guangdong_Sheng_Bowuguan_2012.11.18_11-00-42.jpg/1280px-Guangdong_Sheng_Bowuguan_2012.11.18_11-00-42.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Guangdong_Sheng_Bowuguan_2012.11.18_11-00-42.jpg/1280px-Guangdong_Sheng_Bowuguan_2012.11.18_11-00-42.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Guangdong Sheng Bowuguan 2012.11.18 11-00-42.jpg",
+   "query": "广东省博物馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "inside"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Guangdong_Museum.jpg/1280px-Guangdong_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Guangdong_Museum.jpg/1280px-Guangdong_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Guangdong Museum.jpg",
+   "query": "广东省博物馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Shujianyang",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q5613636",
+    "license": "CC0",
+    "attributionRequired": false
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "front"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Guangdong_Sheng_Bowuguan_2012.11.18_09-44-39.jpg/1280px-Guangdong_Sheng_Bowuguan_2012.11.18_09-44-39.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Guangdong_Sheng_Bowuguan_2012.11.18_09-44-39.jpg/1280px-Guangdong_Sheng_Bowuguan_2012.11.18_09-44-39.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Guangdong Sheng Bowuguan 2012.11.18 09-44-39.jpg",
+   "query": "广东省博物馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q5613636",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "front"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "博物馆",
+  "免费",
+  "雨天备选"
+ ],
+ "popularity": 88,
+ "sources": [
+  {
+   "title": "百度百科·广东省博物馆",
+   "url": "https://baike.baidu.com/item/%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-24"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "广东省博物馆"
+ },
+ "_geocodeTitle": "广东省博物馆",
+ "_geocodeSuspect": false,
+ "district": "440106",
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "展陈叙事",
+    "score": 4.7,
+    "note": "按岭南自成一条线：资源、历史、工艺"
+   },
+   {
+    "label": "专题厅",
+    "score": 4.3,
+    "note": "潮州木雕与端砚两个专题厅值得单看"
+   },
+   {
+    "label": "免费程度",
+    "score": 4.6,
+    "note": "免费但要实名预约"
+   },
+   {
+    "label": "预约",
+    "score": 2.3,
+    "note": "旺季名额放得快，约不上就白跑"
+   },
+   {
+    "label": "时长",
+    "score": 2.8,
+    "note": "体量大，半天是下限"
+   }
+  ],
+  "body": "按岭南自成一条线叙事是它最值得的地方：自然资源、历史分合与海上贸易，再加潮州木雕和端砚两个专题厅，外地观众常在这里第一次把珠三角读成一个面朝海的系统，而不是中原那一套；宝盒形体在这片高楼里也算例外，还免费。可惜免费要实名预约，旺季名额放得很快，约不上就白跑；体量大、常设展铺得开，走马观花没什么收获，半天是下限，周一还闭馆。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "读懂岭南",
+   "雨天备选",
+   "带娃科普"
+  ],
+  "avoid": [
+   "没预约",
+   "时间只有一小时",
+   "周一"
+  ],
+  "sources": []
+ }
 }

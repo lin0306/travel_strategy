@@ -16,21 +16,21 @@
       "lat": 24.909515,
       "coordSystem": "GCJ-02"
     },
-    "address": "福建省泉州市鲤城区南音艺苑",
+    "address": "福建省泉州市鲤城区新门街483号（南音艺苑·泉州市南音传承中心）",
     "district": "鲤城区",
     "transportTip": "老城茶馆与艺苑，需留意排期"
   },
   "practical": {
-    "openHours": "晚间演出（非每日）",
-    "openHoursRef": 0,
-    "ticket": "免费或低价",
-    "ticketRef": 0,
+    "openHours": "按演出排期（多为 19:30/20:30 晚场，节假日加开下午场；非每日有演）",
+    "openHoursRef": 1,
+    "ticket": "按场次 50-139 元/人（官方公众号购票，双人套票另计）",
+    "ticketRef": 1,
     "duration": "建议 60-120 分钟",
     "durationMinutes": [
       60,
       120
     ],
-    "priceLevel": "free"
+    "priceLevel": "mid"
   },
   "audience": [
     "solo",
@@ -52,9 +52,15 @@
       "url": "https://baike.baidu.com/item/%E5%8D%97%E9%9F%B3",
       "kind": "wiki",
       "fetchedAt": "2026-10-01"
+    },
+    {
+      "title": "泉州市文旅局剧场名录（南音艺苑·新门街483号）",
+      "url": "https://hsqz.qzrcgw.gov.cn/details?id=95016ae1fbfe47c58d51493e4cd06457",
+      "kind": "media",
+      "fetchedAt": "2026-11-10"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-10",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,5 +69,27 @@
   "_geocodeTitle": "泉州南音艺苑",
   "_geocodeSuspect": false,
   "district": "350502",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-10",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "福建省泉州市鲤城区南音艺苑",
+        "new": "福建省泉州市鲤城区新门街483号（南音艺苑·泉州市南音传承中心）"
+      },
+      {
+        "field": "门票",
+        "old": "免费或低价",
+        "new": "按场次 50-139 元/人（官方公众号购票，双人套票另计）"
+      },
+      {
+        "field": "开放时间",
+        "old": "晚间演出（非每日）",
+        "new": "按演出排期（多为 19:30/20:30 晚场，节假日加开下午场；非每日有演）"
+      }
+    ],
+    "source": "https://hsqz.qzrcgw.gov.cn/details?id=95016ae1fbfe47c58d51493e4cd06457",
+    "reason": "泉州市文旅局剧场名录载南音艺苑地址新门街483号；票价与场次据泉州南音乐团官方公众号2026年各专场"
+  }
 }

@@ -44,23 +44,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/2010%E6%B5%B7%E5%8F%A3%E6%B9%BE_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/2010%E6%B5%B7%E5%8F%A3%E6%B9%BE_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 693,
-      "alt": "2010海口湾 - panoramio.jpg",
-      "query": "海口湾 海口",
-      "credit": {
-        "source": "wikimedia",
-        "author": "GPS8",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2010%E6%B5%B7%E5%8F%A3%E6%B9%BE_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "海湾",
@@ -76,7 +60,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -84,5 +68,13 @@
   },
   "_geocodeTitle": "海口湾",
   "_geocodeSuspect": false,
-  "district": "460106"
+  "district": "460106",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 1 张（待重抓）",
+    "droppedImages": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/d7/2010%E6%B5%B7%E5%8F%A3%E6%B9%BE_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    ]
+  }
 }

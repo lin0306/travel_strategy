@@ -1,98 +1,136 @@
 {
-  "id": "hohhot-shaomai",
-  "name": "呼和浩特烧麦",
-  "category": "food",
-  "subtype": "local",
-  "summary": "薄皮大馅的羊肉烧麦，一笼一笼端上来，配砖茶是呼市人的硬早点。",
-  "description": "呼和浩特的烧麦与南方的不同，皮薄得像纸，收口处捏成一朵花，馅是羊肉大葱，一口下去汤汁烫嘴。这里的烧麦按皮的重量论两卖，说要一两其实是八个小笼，第一次点容易被量吓到。老馆子早上最热闹，一壶砖茶配一屉烧麦，呼市人叫这顿硬早点。大召一带烧麦馆扎堆，老绥元、麦香村都有名。吃的时候先咬个小口吸汤，别急，配醋和蒜更解腻。",
-  "highlights": [
-    "皮薄如纸的羊肉烧麦",
-    "按皮重论两卖份量足",
-    "配砖茶的硬早点"
-  ],
-  "location": {
-    "point": {
-      "lng": 111.753216,
-      "lat": 40.86549,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "内蒙古自治区呼和浩特市玉泉区大召一带烧麦馆",
-    "district": "新城区",
-    "transportTip": "市区乘公交或打车到大召站，周边烧麦馆密集"
+ "id": "hohhot-shaomai",
+ "name": "呼和浩特烧麦",
+ "category": "food",
+ "subtype": "local",
+ "summary": "薄皮大馅的羊肉烧麦，一笼一笼端上来，配砖茶是呼市人的硬早点。",
+ "description": "呼和浩特的烧麦与南方的不同，皮薄得像纸，收口处捏成一朵花，馅是羊肉大葱，一口下去汤汁烫嘴。这里的烧麦按皮的重量论两卖，说要一两其实是八个小笼，第一次点容易被量吓到。老馆子早上最热闹，一壶砖茶配一屉烧麦，呼市人叫这顿硬早点。大召一带烧麦馆扎堆，老绥元、麦香村都有名。吃的时候先咬个小口吸汤，别急，配醋和蒜更解腻。",
+ "highlights": [
+  "皮薄如纸的羊肉烧麦",
+  "按皮重论两卖份量足",
+  "配砖茶的硬早点"
+ ],
+ "location": {
+  "point": {
+   "lng": 111.753216,
+   "lat": 40.86549,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约06:30-14:00，早餐时段最旺",
-    "openHoursRef": 0,
-    "ticket": "约20元起，按两计价",
-    "ticketRef": 0,
-    "duration": "建议 40-70 分钟",
-    "durationMinutes": [
-      40,
-      70
-    ],
-    "priceLevel": "budget"
+  "address": "内蒙古自治区呼和浩特市玉泉区大召一带烧麦馆",
+  "district": "新城区",
+  "transportTip": "市区乘公交或打车到大召站，周边烧麦馆密集"
+ },
+ "practical": {
+  "openHours": "约06:30-14:00，早餐时段最旺",
+  "openHoursRef": 0,
+  "ticket": "约20元起，按两计价",
+  "ticketRef": 0,
+  "duration": "建议 40-70 分钟",
+  "durationMinutes": [
+   40,
+   70
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "couple",
+  "family",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Deshunyuan%2C_a_Famous_Shaomai_Restaurant_in_Hohhot.jpg/1280px-Deshunyuan%2C_a_Famous_Shaomai_Restaurant_in_Hohhot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Deshunyuan%2C_a_Famous_Shaomai_Restaurant_in_Hohhot.jpg/1280px-Deshunyuan%2C_a_Famous_Shaomai_Restaurant_in_Hohhot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 811,
+   "alt": "Deshunyuan, a Famous Shaomai Restaurant in Hohhot.jpg",
+   "query": "Hohhot Shaomai",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Phlins Chen",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deshunyuan,_a_Famous_Shaomai_Restaurant_in_Hohhot.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "family",
-    "friends"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Shaomai_and_Dubaorou_in_Inner_Mongolia.jpg/1280px-Shaomai_and_Dubaorou_in_Inner_Mongolia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Shaomai_and_Dubaorou_in_Inner_Mongolia.jpg/1280px-Shaomai_and_Dubaorou_in_Inner_Mongolia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1038,
+   "alt": "Shaomai and Dubaorou in Inner Mongolia.jpg",
+   "query": "Hohhot Shaomai",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Phlins Chen",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shaomai_and_Dubaorou_in_Inner_Mongolia.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "烧麦",
+  "羊肉",
+  "早餐"
+ ],
+ "popularity": 96,
+ "sources": [
+  {
+   "title": "烧麦·百度百科",
+   "url": "https://baike.baidu.com/item/%E7%83%A7%E9%BA%A6",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-03"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Hohhot Shaomai",
+  "zh": "呼和浩特烧麦"
+ },
+ "_geocodeTitle": "呼和浩特市新城区中海九樾曼田烧麦餐饮店",
+ "_geocodeSuspect": false,
+ "district": "150102",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.6,
+    "note": "皮薄如纸，羊肉大葱馅带汤"
+   },
+   {
+    "label": "价格",
+    "score": 4.3,
+    "note": "按皮重论两，人均二十起"
+   },
+   {
+    "label": "分量",
+    "score": 2.9,
+    "note": "一两其实是八个小笼，容易点多"
+   },
+   {
+    "label": "环境",
+    "score": 3.4,
+    "note": "老馆子座位挤、靠喊"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Deshunyuan%2C_a_Famous_Shaomai_Restaurant_in_Hohhot.jpg/1280px-Deshunyuan%2C_a_Famous_Shaomai_Restaurant_in_Hohhot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Deshunyuan%2C_a_Famous_Shaomai_Restaurant_in_Hohhot.jpg/1280px-Deshunyuan%2C_a_Famous_Shaomai_Restaurant_in_Hohhot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 811,
-      "alt": "Deshunyuan, a Famous Shaomai Restaurant in Hohhot.jpg",
-      "query": "Hohhot Shaomai",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Phlins Chen",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deshunyuan,_a_Famous_Shaomai_Restaurant_in_Hohhot.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Shaomai_and_Dubaorou_in_Inner_Mongolia.jpg/1280px-Shaomai_and_Dubaorou_in_Inner_Mongolia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Shaomai_and_Dubaorou_in_Inner_Mongolia.jpg/1280px-Shaomai_and_Dubaorou_in_Inner_Mongolia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1038,
-      "alt": "Shaomai and Dubaorou in Inner Mongolia.jpg",
-      "query": "Hohhot Shaomai",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Phlins Chen",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shaomai_and_Dubaorou_in_Inner_Mongolia.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
+  "body": "皮薄得能透光，羊肉大葱馅咬开汤汁烫嘴，配一壶砖茶就是呼市人的硬早点。按皮重论两卖，一两其实是八个小笼，第一次来容易点多了吃不完。老馆子早上人声鼎沸、座位挤，服务基本靠喊；想安静吃就别赶七八点那波。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "吃早点",
+   "体验本地日常"
   ],
-  "coverIndex": 0,
-  "tags": [
-    "烧麦",
-    "羊肉",
-    "早餐"
+  "avoid": [
+   "想要安静",
+   "不吃羊肉"
   ],
-  "popularity": 96,
-  "sources": [
-    {
-      "title": "烧麦·百度百科",
-      "url": "https://baike.baidu.com/item/%E7%83%A7%E9%BA%A6",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-03"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Hohhot Shaomai",
-    "zh": "呼和浩特烧麦"
-  },
-  "_geocodeTitle": "呼和浩特市新城区中海九樾曼田烧麦餐饮店",
-  "_geocodeSuspect": false,
-  "district": "150102"
+  "sources": []
+ }
 }

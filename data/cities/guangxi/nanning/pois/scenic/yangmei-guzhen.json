@@ -1,67 +1,166 @@
 {
-  "id": "yangmei-guzhen",
-  "name": "扬美古镇",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "邕江边一座明清古圩镇，离城最近的古镇。",
-  "description": "扬美古镇在江南区、左江（邕江上游）畔，是一座始于宋代、明清兴盛的圩镇，保留着石板街、老宅和几座码头遗迹。魁星楼、明清古街是看点，整体比很多古镇安静。它离南宁市区约一小时车程，是最近的一座古镇，适合半天的出城行程。江边有渡口和榕树，傍晚最好看。",
-  "highlights": [
-    "邕江畔始于宋代的明清圩镇",
-    "石板街老宅与码头遗迹",
-    "离城约一小时，最近古镇"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.064512,
-      "lat": 22.8392,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市江南区江西镇共和路136号",
-    "district": "江南区",
-    "transportTip": "市区自驾或乘扬美专线约1小时"
+ "id": "yangmei-guzhen",
+ "name": "扬美古镇",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "邕江边一座明清古圩镇，离城最近的古镇。",
+ "description": "扬美古镇在江南区、左江（邕江上游）畔，是一座始于宋代、明清兴盛的圩镇，保留着石板街、老宅和几座码头遗迹。魁星楼、明清古街是看点，整体比很多古镇安静。它离南宁市区约一小时车程，是最近的一座古镇，适合半天的出城行程。江边有渡口和榕树，傍晚最好看。",
+ "highlights": [
+  "邕江畔始于宋代的明清圩镇",
+  "石板街老宅与码头遗迹",
+  "离城约一小时，最近古镇"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.064512,
+   "lat": 22.8392,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-18:00，以景区公告为准",
-    "openHoursRef": 0,
-    "ticket": "约10元起，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 120-180 分钟",
-    "durationMinutes": [
-      120,
-      180
-    ],
-    "priceLevel": "budget"
+  "address": "南宁市江南区江西镇共和路136号",
+  "district": "江南区",
+  "transportTip": "市区自驾或乘扬美专线约1小时"
+ },
+ "practical": {
+  "openHours": "约08:00-18:00，以景区公告为准",
+  "openHoursRef": 0,
+  "ticket": "约10元起，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 120-180 分钟",
+  "durationMinutes": [
+   120,
+   180
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "couple",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/%E6%A5%8A%E7%BE%8E%E5%8F%A4%E9%8E%AE-%E6%B2%B3%E9%82%8A%E5%B0%8F%E7%A2%BC%E9%A0%AD_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/%E6%A5%8A%E7%BE%8E%E5%8F%A4%E9%8E%AE-%E6%B2%B3%E9%82%8A%E5%B0%8F%E7%A2%BC%E9%A0%AD_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 810,
+   "alt": "楊美古鎮-河邊小碼頭 - panoramio.jpg",
+   "query": "扬美古镇",
+   "credit": {
+    "source": "wikimedia",
+    "author": "BV3CM",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%A5%8A%E7%BE%8E%E5%8F%A4%E9%8E%AE-%E6%B2%B3%E9%82%8A%E5%B0%8F%E7%A2%BC%E9%A0%AD_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "古镇",
-    "明清",
-    "邕江"
-  ],
-  "popularity": 76,
-  "sources": [
-    {
-      "title": "百度百科·扬美古镇",
-      "url": "https://baike.baidu.com/item/%E6%89%AC%E7%BE%8E%E5%8F%A4%E9%95%87",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "扬美古镇"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Yangmeigate.jpg/1280px-Yangmeigate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Yangmeigate.jpg/1280px-Yangmeigate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Yangmeigate.jpg",
+   "query": "扬美古镇 南宁",
+   "credit": {
+    "source": "wikimedia",
+    "author": "kiwi family",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yangmeigate.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "扬美古镇",
-  "_geocodeSuspect": false,
-  "district": "450105",
-  "_noImage": true
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Old_hotel_yangmei.jpg/1280px-Old_hotel_yangmei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Old_hotel_yangmei.jpg/1280px-Old_hotel_yangmei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1554,
+   "alt": "Old hotel yangmei.jpg",
+   "query": "扬美古镇",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Rolfmueller",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_hotel_yangmei.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Yong_jiang_yangmei.jpg/1280px-Yong_jiang_yangmei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Yong_jiang_yangmei.jpg/1280px-Yong_jiang_yangmei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Yong jiang yangmei.jpg",
+   "query": "扬美古镇",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Rolfmueller",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yong_jiang_yangmei.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "古镇",
+  "明清",
+  "邕江"
+ ],
+ "popularity": 76,
+ "sources": [
+  {
+   "title": "百度百科·扬美古镇",
+   "url": "https://baike.baidu.com/item/%E6%89%AC%E7%BE%8E%E5%8F%A4%E9%95%87",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "扬美古镇"
+ },
+ "_geocodeTitle": "扬美古镇",
+ "_geocodeSuspect": false,
+ "district": "450105",
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "古建",
+    "score": 4.0,
+    "note": "石板街、老宅与码头遗迹保留着明清格局"
+   },
+   {
+    "label": "商业化",
+    "score": 3.4,
+    "note": "比热门古镇安静，店少但也意味着配套少"
+   },
+   {
+    "label": "交通",
+    "score": 2.8,
+    "note": "离城约一小时，公共交通不便"
+   },
+   {
+    "label": "时长",
+    "score": 3.2,
+    "note": "两三个小时能走完"
+   }
+  ],
+  "body": "扬美是离南宁最近的古镇：宋代起家、明清兴盛，石板街、老宅、几处码头遗迹还在，魁星楼和江边的大榕树是画面中心，安静程度比那些网红古镇好得多。它的短板也正是「安静」：街上的店不多，吃饭选择少，想找咖啡馆或像样的餐厅基本没有；公共交通不方便，多数人得自驾或包车，来回一小时多的车程配上两三小时的游览，值不值见仁见智。傍晚江边最好看，但也意味着回程要开夜车。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "自驾半日",
+   "看老街",
+   "避开人流"
+  ],
+  "avoid": [
+   "没有车",
+   "想吃住齐全"
+  ],
+  "sources": []
+ }
 }

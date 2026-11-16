@@ -1,72 +1,110 @@
 {
-  "id": "shili-dujuan",
-  "name": "十里杜鹃长廊",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "沿着山脊铺出去的木栈道，四月两边全是百年杜鹃。",
-  "description": "十里杜鹃长廊在杜鹃山（笔架山）的山脊上，是一条贴着脊线修出去的木栈道，两侧是成片的原生杜鹃——以猴头杜鹃为主，也有云锦杜鹃、鹿角杜鹃等，很多株的树龄在百年以上，枝干虬曲、高过人头，不是那种矮矮的园艺花坛。每年四月中下旬到五月初，这些老树一齐开花，粉、白、淡紫连成一条挂在半空的花带，风一过整条脊都在动，是井冈山一年里最出名、人最多的一幕。★ 花期很短且年年浮动，受春季气温影响，出发前务必看景区发布的花讯；花期周末索道排队会长，尽量工作日或赶首班。栈道窄，拍照的人多时容易堵，不要为了取景踩出栈道——这些老树经不起踩踏。花谢之后这条栈道依然值得走，看云海和松。",
-  "highlights": [
-    "百年猴头杜鹃",
-    "贴脊木栈道",
-    "粉白紫花带",
-    "花期短需看花讯",
-    "严禁踩出栈道"
-  ],
-  "location": {
-    "point": {
-      "lng": 114.1632,
-      "lat": 26.502729,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "吉安市井冈山市杜鹃山景区山脊栈道（茨坪西南约 15 公里）",
-    "district": "井冈山",
-    "transportTip": "茨坪乘景区观光车约 35 分钟，换乘索道后步行"
+ "id": "shili-dujuan",
+ "name": "十里杜鹃长廊",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "沿着山脊铺出去的木栈道，四月两边全是百年杜鹃。",
+ "description": "十里杜鹃长廊在杜鹃山（笔架山）的山脊上，是一条贴着脊线修出去的木栈道，两侧是成片的原生杜鹃——以猴头杜鹃为主，也有云锦杜鹃、鹿角杜鹃等，很多株的树龄在百年以上，枝干虬曲、高过人头，不是那种矮矮的园艺花坛。每年四月中下旬到五月初，这些老树一齐开花，粉、白、淡紫连成一条挂在半空的花带，风一过整条脊都在动，是井冈山一年里最出名、人最多的一幕。★ 花期很短且年年浮动，受春季气温影响，出发前务必看景区发布的花讯；花期周末索道排队会长，尽量工作日或赶首班。栈道窄，拍照的人多时容易堵，不要为了取景踩出栈道——这些老树经不起踩踏。花谢之后这条栈道依然值得走，看云海和松。",
+ "highlights": [
+  "百年猴头杜鹃",
+  "贴脊木栈道",
+  "粉白紫花带",
+  "花期短需看花讯",
+  "严禁踩出栈道"
+ ],
+ "location": {
+  "point": {
+   "lng": 114.1632,
+   "lat": 26.502729,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "8:00-17:00（以景区公告为准）",
-    "openHoursRef": 0,
-    "ticket": "含井冈山景区大门票，索道另购（官方为准）",
-    "ticketRef": 0,
-    "duration": "建议 90-200 分钟",
-    "durationMinutes": [
-      90,
-      200
-    ],
-    "priceLevel": "high"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "family",
-    "solo"
+  "address": "吉安市井冈山市杜鹃山景区山脊栈道（茨坪西南约 15 公里）",
+  "district": "井冈山",
+  "transportTip": "茨坪乘景区观光车约 35 分钟，换乘索道后步行"
+ },
+ "practical": {
+  "openHours": "8:00-17:00（以景区公告为准）",
+  "openHoursRef": 0,
+  "ticket": "含井冈山景区大门票，索道另购（官方为准）",
+  "ticketRef": 0,
+  "duration": "建议 90-200 分钟",
+  "durationMinutes": [
+   90,
+   200
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "杜鹃",
-    "花期",
-    "栈道",
-    "摄影"
+  "priceLevel": "high"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "杜鹃",
+  "花期",
+  "栈道",
+  "摄影"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·杜鹃山",
+   "url": "https://baike.baidu.com/item/%E6%9D%9C%E9%B9%83%E5%B1%B1",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-07"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "十里杜鹃长廊"
+ },
+ "_geocodeTitle": "杜鹃山景区-二号观景台",
+ "_geocodeSuspect": false,
+ "district": "360881",
+ "_noImage": true,
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "花期",
+    "score": 3.6,
+    "note": "四五月的两周，年年浮动"
+   },
+   {
+    "label": "视野",
+    "score": 4.6,
+    "note": "贴脊栈道，粉白紫连成花带"
+   },
+   {
+    "label": "体力",
+    "score": 3.4,
+    "note": "栈道窄长，走完全程要力气"
+   },
+   {
+    "label": "人流",
+    "score": 3.2,
+    "note": "花期周末索道排长队"
+   }
   ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·杜鹃山",
-      "url": "https://baike.baidu.com/item/%E6%9D%9C%E9%B9%83%E5%B1%B1",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-07"
-    }
+  "body": "百年猴头杜鹃成片长在山脊两侧，四五月一齐开花，粉白淡紫连成一条挂在半空的带子，风一过整条脊都在动，确实是井冈山一年里最出名的一幕。缺点是花期极短且受春季气温影响年年浮动，来早了只见枝干；花期周末索道排长队，栈道窄处拍照的人堵成一串。花谢后这条道仍值得走，看云海与松，但别专为花赌一趟。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "摄影",
+   "春夏"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "十里杜鹃长廊"
-  },
-  "_geocodeTitle": "杜鹃山景区-二号观景台",
-  "_geocodeSuspect": false,
-  "district": "360881",
-  "_noImage": true
+  "avoid": [
+   "花期外",
+   "怕排队"
+  ],
+  "sources": []
+ }
 }

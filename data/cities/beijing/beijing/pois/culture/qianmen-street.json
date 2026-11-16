@@ -1,158 +1,196 @@
 {
-  "id": "qianmen-street",
-  "name": "前门大街",
-  "category": "culture",
-  "subtype": "street",
-  "summary": "正阳门南侧的老商业街，是进入北京旧城商业气氛的入口。",
-  "description": "前门大街北端正对正阳门，明清这里便是京城最热闹的商业地段。如今路面重铺，两侧被改建成民国风貌的门面——至于这种重修是否真实，一直有争议，但对第一次到北京的人来说，它的位置与尺度确实是建立方位感最快的一站。北端尽头即为正阳门，可以接续进天安门广场一带。",
-  "highlights": [
-    "北端即正阳门",
-    "骑楼下可避雨避晒",
-    "避开正午人流"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.398526,
-      "lat": 39.898377,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "北京市东城区前门大街",
-    "district": "东城",
-    "transportTip": "地铁2号线前门站C口"
+ "id": "qianmen-street",
+ "name": "前门大街",
+ "category": "culture",
+ "subtype": "street",
+ "summary": "正阳门南侧的老商业街，是进入北京旧城商业气氛的入口。",
+ "description": "前门大街北端正对正阳门，明清这里便是京城最热闹的商业地段。如今路面重铺，两侧被改建成民国风貌的门面——至于这种重修是否真实，一直有争议，但对第一次到北京的人来说，它的位置与尺度确实是建立方位感最快的一站。北端尽头即为正阳门，可以接续进天安门广场一带。",
+ "highlights": [
+  "北端即正阳门",
+  "骑楼下可避雨避晒",
+  "避开正午人流"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.398526,
+   "lat": 39.898377,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放(商铺多为10:00-22:00)",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 90-240 分钟",
-    "durationMinutes": [
-      90,
-      240
-    ],
-    "priceLevel": "free"
+  "address": "北京市东城区前门大街",
+  "district": "东城",
+  "transportTip": "地铁2号线前门站C口"
+ },
+ "practical": {
+  "openHours": "全天开放(商铺多为10:00-22:00)",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 90-240 分钟",
+  "durationMinutes": [
+   90,
+   240
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "kids",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/201902_Qianmen_Street_in_snow.jpg/1280px-201902_Qianmen_Street_in_snow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/201902_Qianmen_Street_in_snow.jpg/1280px-201902_Qianmen_Street_in_snow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "201902 Qianmen Street in snow.jpg",
+   "query": "前门大街 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zheng sun",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:201902_Qianmen_Street_in_snow.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "kids",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/201902_Qianmen_Street_in_snow.jpg/1280px-201902_Qianmen_Street_in_snow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/201902_Qianmen_Street_in_snow.jpg/1280px-201902_Qianmen_Street_in_snow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "201902 Qianmen Street in snow.jpg",
-      "query": "前门大街 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zheng sun",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:201902_Qianmen_Street_in_snow.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Beijing_Qianmen_Street_-_panoramio_%282%29.jpg/1280px-Beijing_Qianmen_Street_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Beijing_Qianmen_Street_-_panoramio_%282%29.jpg/1280px-Beijing_Qianmen_Street_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Beijing Qianmen Street - panoramio (2).jpg",
-      "query": "前门大街 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "The Erica Chang",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beijing_Qianmen_Street_-_panoramio_(2).jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Gate_of_Dazhalan_Area_on_Qianmen_Street_2.JPG/1280px-Gate_of_Dazhalan_Area_on_Qianmen_Street_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Gate_of_Dazhalan_Area_on_Qianmen_Street_2.JPG/1280px-Gate_of_Dazhalan_Area_on_Qianmen_Street_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Gate of Dazhalan Area on Qianmen Street 2.JPG",
-      "query": "前门大街 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "そらみみ (Soramimi)",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gate_of_Dazhalan_Area_on_Qianmen_Street_2.JPG",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Gate_of_Qianmen_Street.JPG/1280px-Gate_of_Qianmen_Street.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Gate_of_Qianmen_Street.JPG/1280px-Gate_of_Qianmen_Street.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Gate of Qianmen Street.JPG",
-      "query": "前门大街 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "そらみみ (Soramimi)",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gate_of_Qianmen_Street.JPG",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Gate_of_Qianmen_Street_and_watchtower_of_Zhengyangmen_Gate.JPG/1280px-Gate_of_Qianmen_Street_and_watchtower_of_Zhengyangmen_Gate.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Gate_of_Qianmen_Street_and_watchtower_of_Zhengyangmen_Gate.JPG/1280px-Gate_of_Qianmen_Street_and_watchtower_of_Zhengyangmen_Gate.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Gate of Qianmen Street and watchtower of Zhengyangmen Gate.JPG",
-      "query": "前门大街 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "そらみみ (Soramimi)",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gate_of_Qianmen_Street_and_watchtower_of_Zhengyangmen_Gate.JPG",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Qianmen_Street_%282916199875%29.jpg/1280px-Qianmen_Street_%282916199875%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Qianmen_Street_%282916199875%29.jpg/1280px-Qianmen_Street_%282916199875%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Qianmen Street (2916199875).jpg",
-      "query": "前门大街 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qianmen_Street_(2916199875).jpg",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "老街",
-    "商业",
-    "夜景"
-  ],
-  "popularity": 86,
-  "sources": [
-    {
-      "title": "百度百科·前门大街",
-      "url": "https://baike.baidu.com/item/%E5%89%8D%E9%97%A8%E5%A4%A7%E8%A1%97",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "前门大街"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Beijing_Qianmen_Street_-_panoramio_%282%29.jpg/1280px-Beijing_Qianmen_Street_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Beijing_Qianmen_Street_-_panoramio_%282%29.jpg/1280px-Beijing_Qianmen_Street_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Beijing Qianmen Street - panoramio (2).jpg",
+   "query": "前门大街 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "The Erica Chang",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beijing_Qianmen_Street_-_panoramio_(2).jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "前门大街",
-  "_geocodeSuspect": false,
-  "district": "110101"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Gate_of_Dazhalan_Area_on_Qianmen_Street_2.JPG/1280px-Gate_of_Dazhalan_Area_on_Qianmen_Street_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Gate_of_Dazhalan_Area_on_Qianmen_Street_2.JPG/1280px-Gate_of_Dazhalan_Area_on_Qianmen_Street_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Gate of Dazhalan Area on Qianmen Street 2.JPG",
+   "query": "前门大街 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "そらみみ (Soramimi)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gate_of_Dazhalan_Area_on_Qianmen_Street_2.JPG",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Gate_of_Qianmen_Street.JPG/1280px-Gate_of_Qianmen_Street.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Gate_of_Qianmen_Street.JPG/1280px-Gate_of_Qianmen_Street.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Gate of Qianmen Street.JPG",
+   "query": "前门大街 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "そらみみ (Soramimi)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gate_of_Qianmen_Street.JPG",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Gate_of_Qianmen_Street_and_watchtower_of_Zhengyangmen_Gate.JPG/1280px-Gate_of_Qianmen_Street_and_watchtower_of_Zhengyangmen_Gate.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Gate_of_Qianmen_Street_and_watchtower_of_Zhengyangmen_Gate.JPG/1280px-Gate_of_Qianmen_Street_and_watchtower_of_Zhengyangmen_Gate.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Gate of Qianmen Street and watchtower of Zhengyangmen Gate.JPG",
+   "query": "前门大街 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "そらみみ (Soramimi)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gate_of_Qianmen_Street_and_watchtower_of_Zhengyangmen_Gate.JPG",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Qianmen_Street_%282916199875%29.jpg/1280px-Qianmen_Street_%282916199875%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Qianmen_Street_%282916199875%29.jpg/1280px-Qianmen_Street_%282916199875%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Qianmen Street (2916199875).jpg",
+   "query": "前门大街 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qianmen_Street_(2916199875).jpg",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "老街",
+  "商业",
+  "夜景"
+ ],
+ "popularity": 86,
+ "sources": [
+  {
+   "title": "百度百科·前门大街",
+   "url": "https://baike.baidu.com/item/%E5%89%8D%E9%97%A8%E5%A4%A7%E8%A1%97",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "前门大街"
+ },
+ "_geocodeTitle": "前门大街",
+ "_geocodeSuspect": false,
+ "district": "110101",
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "商业",
+    "score": 2.4,
+    "note": "两侧是统一改造的民国风貌门面，同质化商铺多"
+   },
+   {
+    "label": "位置",
+    "score": 4.5,
+    "note": "北端正对正阳门，接天安门广场最顺"
+   },
+   {
+    "label": "拍照",
+    "score": 4.0,
+    "note": "有轨电车与骑楼一线出片，雪天尤其好看"
+   },
+   {
+    "label": "人流",
+    "score": 2.6,
+    "note": "正午到傍晚人最密，两侧骑楼下可避雨避晒"
+   }
+  ],
+  "body": "前门大街的历史分量不用怀疑，明清这里就是京城最热闹的商业地段，北端正对正阳门，位置感极强。但今天看到的是整体重修的民国风貌街，店铺同质化严重，卖的东西和任何一条旅游街差不多，说它「像布景」并不算冤枉。把它当成从正阳门进老城的一段过渡就好：走一遍、拍张有轨电车的照片，二三十分钟够了，别指望在这儿吃到地道的北京。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "顺路经过",
+   "拍照"
+  ],
+  "avoid": [
+   "专程来吃",
+   "想找老北京"
+  ],
+  "sources": []
+ }
 }

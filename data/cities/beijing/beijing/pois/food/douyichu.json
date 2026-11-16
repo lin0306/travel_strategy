@@ -1,68 +1,113 @@
 {
-  "id": "douyichu",
-  "name": "都一处烧麦馆(前门店)",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "三鲜烧麦的老字号,乾隆赐名的故事写在匾上。",
-  "description": "都一处创于清乾隆三年,因除夕夜仍开门迎客而得名,匾额相传为乾隆所题。它做的是江淮一路的精致路子——三鲜烧麦以猪肉、海参、虾仁为馅,面皮薄到能透光,顶部收口像白菜,和南方纯糯米烧麦不是一回事。前门店开业较早,等位相对可控,是前门步行街上少数仍保有实际操作水准的老店。",
-  "highlights": [
-    "三鲜馅加海参虾仁",
-    "皮薄透光,收口如白菜",
-    "前门上少见的实做老店"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.398241,
-      "lat": 39.896187,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "北京市东城区前门大街38号",
-    "district": "东城",
-    "transportTip": "地铁2号线前门站C口"
+ "id": "douyichu",
+ "name": "都一处烧麦馆(前门店)",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "三鲜烧麦的老字号,乾隆赐名的故事写在匾上。",
+ "description": "都一处创于清乾隆三年,因除夕夜仍开门迎客而得名,匾额相传为乾隆所题。它做的是江淮一路的精致路子——三鲜烧麦以猪肉、海参、虾仁为馅,面皮薄到能透光,顶部收口像白菜,和南方纯糯米烧麦不是一回事。前门店开业较早,等位相对可控,是前门步行街上少数仍保有实际操作水准的老店。",
+ "highlights": [
+  "三鲜馅加海参虾仁",
+  "皮薄透光,收口如白菜",
+  "前门上少见的实做老店"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.398241,
+   "lat": 39.896187,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:30-21:00(以门店公告为准)",
-    "openHoursRef": 0,
-    "ticket": "人均约70元起(以门店为准)",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "mid"
+  "address": "北京市东城区前门大街38号",
+  "district": "东城",
+  "transportTip": "地铁2号线前门站C口"
+ },
+ "practical": {
+  "openHours": "09:30-21:00",
+  "openHoursRef": 0,
+  "ticket": "人均约70元起(以门店为准)",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "kids",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "烧麦",
+  "老字号",
+  "小吃"
+ ],
+ "popularity": 80,
+ "sources": [
+  {
+   "title": "百度百科·都一处",
+   "url": "https://baike.baidu.com/item/%E9%83%BD%E4%B8%80%E5%A4%84",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
   },
-  "audience": [
-    "couple",
-    "kids",
-    "solo"
+  {
+   "title": "北京旅游网老字号专题：都一处前门店 09:30-21:00（图商 POI 一致）",
+   "url": "https://visitbeijing.com.cn/article/4PqmKXLXu5f",
+   "kind": "media",
+   "fetchedAt": "2026-11-14"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "都一处烧麦馆(前门店)"
+ },
+ "_geocodeTitle": "都一处烧麦馆(前门店)",
+ "_geocodeSuspect": false,
+ "district": "110101",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-14",
+  "changes": [
+   {
+    "field": "开放时间",
+    "old": "约10:30-21:00(以门店公告为准)",
+    "new": "09:30-21:00"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "烧麦",
-    "老字号",
-    "小吃"
+  "source": "https://visitbeijing.com.cn/article/4PqmKXLXu5f",
+  "reason": "北京旅游网老字号专题：都一处前门店 09:30-21:00（图商 POI 一致）"
+ },
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.3,
+    "note": "三鲜馅带海参虾仁，皮薄透光"
+   },
+   {
+    "label": "排队",
+    "score": 2.8,
+    "note": "前门游客多，饭点半小时起"
+   },
+   {
+    "label": "价格",
+    "score": 3.4,
+    "note": "比街边小吃高，同档老字号里算稳"
+   }
   ],
-  "popularity": 80,
-  "sources": [
-    {
-      "title": "百度百科·都一处",
-      "url": "https://baike.baidu.com/item/%E9%83%BD%E4%B8%80%E5%A4%84",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "都一处烧麦馆(前门店)"
-  },
-  "_geocodeTitle": "都一处烧麦馆(前门店)",
-  "_geocodeSuspect": false,
-  "district": "110101",
-  "_noImage": true
+  "body": "三鲜烧麦以猪肉、海参、虾仁为馅，皮薄到能透光，收口像白菜，和南方糯米烧麦不是一回事。缺点是前门游客多，饭点排队半小时起，人均比街边小吃高一截；烧麦偏咸，配碗汤更合适。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [],
+  "avoid": [],
+  "sources": []
+ }
 }

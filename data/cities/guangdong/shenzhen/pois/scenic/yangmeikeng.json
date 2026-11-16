@@ -1,95 +1,135 @@
 {
-  "id": "yangmeikeng",
-  "name": "杨梅坑",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "一整段山海相连的海岸：骑车沿着一条线走，尽头是鹿嘴山庄的悬崖段。",
-  "description": "杨梅坑在大鹏半岛东侧，属于地质公园的范围内。它的形态是一条沿海的山路：一边是七娘山的山体，一边是海。这一段常被骑行——沿途有租车点，双人车与家庭车的小生意已经在这条路上很多年。路的尽头是鹿嘴山庄那一侧的悬崖海景。海蚀地貌在这一段保存得很好，火山岩与海蚀穴能看分明。所有这些连起来就是一条线，它不像沙滩那样中心化，更适合慢慢走。夏季偶有塞车。要注意天气——台风影响时这一带会关闭。",
-  "highlights": [
-    "沿海山路骑行是这段的标准用法",
-    "尽头鹿嘴山庄一侧是海蚀崖地貌",
-    "与大鹏半岛地质公园同属一片"
-  ],
-  "location": {
-    "point": {
-      "lng": 114.571039,
-      "lat": 22.542178,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "深圳市大鹏新区南澳街道杨梅坑（新大村方向）",
-    "district": "龙岗区",
-    "transportTip": "公交杨梅坑站或新干线；建议节假日专线",
-    "entrance": {
-      "lng": 114.571511,
-      "lat": 22.544321,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "yangmeikeng",
+ "name": "杨梅坑",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "一整段山海相连的海岸：骑车沿着一条线走，尽头是鹿嘴山庄的悬崖段。",
+ "description": "杨梅坑在大鹏半岛东侧，属于地质公园的范围内。它的形态是一条沿海的山路：一边是七娘山的山体，一边是海。这一段常被骑行——沿途有租车点，双人车与家庭车的小生意已经在这条路上很多年。路的尽头是鹿嘴山庄那一侧的悬崖海景。海蚀地貌在这一段保存得很好，火山岩与海蚀穴能看分明。所有这些连起来就是一条线，它不像沙滩那样中心化，更适合慢慢走。夏季偶有塞车。要注意天气——台风影响时这一带会关闭。",
+ "highlights": [
+  "沿海山路骑行是这段的标准用法",
+  "尽头鹿嘴山庄一侧是海蚀崖地貌",
+  "与大鹏半岛地质公园同属一片"
+ ],
+ "location": {
+  "point": {
+   "lng": 114.571039,
+   "lat": 22.542178,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放，特殊天气可能关闭（以官方公告为准）",
-    "openHoursRef": 0,
-    "ticket": "免费，停车另计以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 180-420 分钟",
-    "durationMinutes": [
-      180,
-      420
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "family"
+  "address": "深圳市大鹏新区南澳街道杨梅坑（新大村方向）",
+  "district": "龙岗区",
+  "transportTip": "公交杨梅坑站或新干线；建议节假日专线",
+  "entrance": {
+   "lng": 114.571511,
+   "lat": 22.544321,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "全天开放，特殊天气可能关闭（以官方公告为准）",
+  "openHoursRef": 0,
+  "ticket": "免费，停车另计以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 180-420 分钟",
+  "durationMinutes": [
+   180,
+   420
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/ShenZhen%2CChina%28%E6%9D%A8%E6%A2%85%E5%9D%91%29_-_panoramio.jpg/1280px-ShenZhen%2CChina%28%E6%9D%A8%E6%A2%85%E5%9D%91%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/ShenZhen%2CChina%28%E6%9D%A8%E6%A2%85%E5%9D%91%29_-_panoramio.jpg/1280px-ShenZhen%2CChina%28%E6%9D%A8%E6%A2%85%E5%9D%91%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "ShenZhen,China(杨梅坑) - panoramio.jpg",
-      "query": "杨梅坑",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Leo Xue",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:ShenZhen,China(%E6%9D%A8%E6%A2%85%E5%9D%91)_-_panoramio.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    }
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/ShenZhen%2CChina%28%E6%9D%A8%E6%A2%85%E5%9D%91%29_-_panoramio.jpg/1280px-ShenZhen%2CChina%28%E6%9D%A8%E6%A2%85%E5%9D%91%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/ShenZhen%2CChina%28%E6%9D%A8%E6%A2%85%E5%9D%91%29_-_panoramio.jpg/1280px-ShenZhen%2CChina%28%E6%9D%A8%E6%A2%85%E5%9D%91%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "ShenZhen,China(杨梅坑) - panoramio.jpg",
+   "query": "杨梅坑",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Leo Xue",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ShenZhen,China(%E6%9D%A8%E6%A2%85%E5%9D%91)_-_panoramio.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "海滨",
+  "骑行",
+  "免费",
+  "地质"
+ ],
+ "popularity": 78,
+ "sources": [
+  {
+   "title": "百度百科·杨梅坑",
+   "url": "https://baike.baidu.com/item/%E6%9D%A8%E6%A2%85%E5%9D%91",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-24"
+  }
+ ],
+ "updatedAt": "2026-11-10",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "杨梅坑"
+ },
+ "_geocodeTitle": "杨梅坑天然潭",
+ "_geocodeSuspect": false,
+ "district": "440307",
+ "review": {
+  "score": 4.12,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "骑行",
+    "score": 4.5,
+    "note": "沿海山路，沿途有双人车与家庭车出租"
+   },
+   {
+    "label": "景观",
+    "score": 4.5,
+    "note": "尽头鹿嘴山庄是海蚀崖，火山岩看得分明"
+   },
+   {
+    "label": "交通",
+    "score": 2.5,
+    "note": "夏季周末进大鹏必堵，停车难"
+   },
+   {
+    "label": "天气",
+    "score": 3.0,
+    "note": "台风影响时整段关闭"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "海滨",
-    "骑行",
-    "免费",
-    "地质"
+  "body": "深圳最好的一段海岸玩法不是沙滩，是沿山路骑过去。一边七娘山、一边海，沿途有租车点，双人车家庭车在这里做了很多年。尽头鹿嘴山庄那段是海蚀崖，火山岩与海蚀穴看得分明，地质公园的核心就在这儿。缺点是交通：夏季周末进大鹏必堵，停车位难找；台风天这一段直接关闭，出发前务必看预警。",
+  "basis": "corpus",
+  "at": "2026-11-10",
+  "fits": [
+   "骑行",
+   "看海",
+   "拍照"
   ],
-  "popularity": 78,
-  "sources": [
-    {
-      "title": "百度百科·杨梅坑",
-      "url": "https://baike.baidu.com/item/%E6%9D%A8%E6%A2%85%E5%9D%91",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-24"
-    }
+  "avoid": [
+   "台风季",
+   "怕堵车",
+   "不想骑车"
   ],
-  "updatedAt": "2026-11-03",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "杨梅坑"
-  },
-  "_geocodeTitle": "杨梅坑天然潭",
-  "_geocodeSuspect": false,
-  "district": "440307"
+  "sources": []
+ }
 }

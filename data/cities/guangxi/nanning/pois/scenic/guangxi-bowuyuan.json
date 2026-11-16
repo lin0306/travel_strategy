@@ -1,83 +1,122 @@
 {
-  "id": "guangxi-bowuyuan",
-  "name": "广西博物馆",
-  "category": "scenic",
-  "subtype": "museum",
-  "summary": "全区最大的综合博物馆，看广西通史与铜鼓。",
-  "description": "广西博物馆在民族大道旁，是全区最大的综合性博物馆，基本陈列讲广西的历史通史，以百越、铜鼓和海上丝绸之路相关文物为亮点。它的铜鼓收藏在全国排得上号，是了解广西的第一站。免费但要预约，周末名额紧。半天是最低限度，别想着一小时走完。它与广西民族博物馆隔江呼应，可以分工看。",
-  "highlights": [
-    "全区最大综合博物馆，铜鼓收藏突出",
-    "广西通史与海丝文物是亮点",
-    "免费需预约，留半天"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.401274,
-      "lat": 22.773827,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市青秀区民族大道34号",
-    "district": "青秀区",
-    "transportTip": "地铁1号线民族广场站步行"
+ "id": "guangxi-bowuyuan",
+ "name": "广西博物馆",
+ "category": "scenic",
+ "subtype": "museum",
+ "summary": "全区最大的综合博物馆，看广西通史与铜鼓。",
+ "description": "广西博物馆在民族大道旁，是全区最大的综合性博物馆，基本陈列讲广西的历史通史，以百越、铜鼓和海上丝绸之路相关文物为亮点。它的铜鼓收藏在全国排得上号，是了解广西的第一站。免费但要预约，周末名额紧。半天是最低限度，别想着一小时走完。它与广西民族博物馆隔江呼应，可以分工看。",
+ "highlights": [
+  "全区最大综合博物馆，铜鼓收藏突出",
+  "广西通史与海丝文物是亮点",
+  "免费需预约，留半天"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.401274,
+   "lat": 22.773827,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约09:00-17:00（周一闭馆），以公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费（需预约）",
-    "ticketRef": 0,
-    "duration": "建议 120-240 分钟",
-    "durationMinutes": [
-      120,
-      240
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "kids",
-    "family",
-    "elders"
+  "address": "南宁市青秀区民族大道34号",
+  "district": "青秀区",
+  "transportTip": "地铁1号线民族广场站步行"
+ },
+ "practical": {
+  "openHours": "约09:00-17:00（周一闭馆），以公告为准",
+  "openHoursRef": 0,
+  "ticket": "免费（需预约）",
+  "ticketRef": 0,
+  "duration": "建议 120-240 分钟",
+  "durationMinutes": [
+   120,
+   240
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/SZ_%E5%BB%A3%E8%A5%BF%E5%A3%AF%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8D%80_Guangxi_Zhuang_Autonomous_Region_Qinghuan_Road_%E5%BB%A3%E8%A5%BF%E6%B0%91%E6%97%8F%E5%8D%9A%E7%89%A9%E9%A4%A8_Guangxi_Museum_of_Nationalities_Anthropology_%E5%95%86%E5%BA%97_shop_bags_September_2023_R12S_08.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/SZ_%E5%BB%A3%E8%A5%BF%E5%A3%AF%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8D%80_Guangxi_Zhuang_Autonomous_Region_Qinghuan_Road_%E5%BB%A3%E8%A5%BF%E6%B0%91%E6%97%8F%E5%8D%9A%E7%89%A9%E9%A4%A8_Guangxi_Museum_of_Nationalities_Anthropology_%E5%95%86%E5%BA%97_shop_bags_September_2023_R12S_08.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "SZ 廣西壯族自治區 Guangxi Zhuang Autonomous Region Qinghuan Road 廣西民族博物館 Guangxi Museum of Nationalities An",
-      "query": "广西博物馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nan Ning Huang Sokaz 12",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:SZ_%E5%BB%A3%E8%A5%BF%E5%A3%AF%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8D%80_Guangxi_Zhuang_Autonomous_Region_Qinghuan_Road_%E5%BB%A3%E8%A5%BF%E6%B0%91%E6%97%8F%E5%8D%9A%E7%89%A9%E9%A4%A8_Guangxi_Museum_of_Nationalities_Anthropology_%E5%95%86%E5%BA%97_shop_bags_September_2023_R12S_08.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
+  "priceLevel": "free"
+ },
+ "audience": [
+  "kids",
+  "family",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/SZ_%E5%BB%A3%E8%A5%BF%E5%A3%AF%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8D%80_Guangxi_Zhuang_Autonomous_Region_Qinghuan_Road_%E5%BB%A3%E8%A5%BF%E6%B0%91%E6%97%8F%E5%8D%9A%E7%89%A9%E9%A4%A8_Guangxi_Museum_of_Nationalities_Anthropology_%E5%95%86%E5%BA%97_shop_bags_September_2023_R12S_08.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/SZ_%E5%BB%A3%E8%A5%BF%E5%A3%AF%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8D%80_Guangxi_Zhuang_Autonomous_Region_Qinghuan_Road_%E5%BB%A3%E8%A5%BF%E6%B0%91%E6%97%8F%E5%8D%9A%E7%89%A9%E9%A4%A8_Guangxi_Museum_of_Nationalities_Anthropology_%E5%95%86%E5%BA%97_shop_bags_September_2023_R12S_08.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "SZ 廣西壯族自治區 Guangxi Zhuang Autonomous Region Qinghuan Road 廣西民族博物館 Guangxi Museum of Nationalities An",
+   "query": "广西博物馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nan Ning Huang Sokaz 12",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SZ_%E5%BB%A3%E8%A5%BF%E5%A3%AF%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8D%80_Guangxi_Zhuang_Autonomous_Region_Qinghuan_Road_%E5%BB%A3%E8%A5%BF%E6%B0%91%E6%97%8F%E5%8D%9A%E7%89%A9%E9%A4%A8_Guangxi_Museum_of_Nationalities_Anthropology_%E5%95%86%E5%BA%97_shop_bags_September_2023_R12S_08.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "博物馆",
+  "免费",
+  "铜鼓"
+ ],
+ "popularity": 86,
+ "sources": [
+  {
+   "title": "百度百科·广西壮族自治区博物馆",
+   "url": "https://baike.baidu.com/item/%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E5%8D%9A%E7%89%A9%E9%A6%86",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "广西博物馆"
+ },
+ "_geocodeTitle": "广西民族博物馆",
+ "_geocodeSuspect": false,
+ "district": "450103",
+ "review": {
+  "score": 4.5,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "展陈",
+    "score": 4.7,
+    "note": "广西通史从百越铺到近现代，铜鼓收藏在全国排得上号"
+   },
+   {
+    "label": "免费程度",
+    "score": 4.8,
+    "note": "免费，需预约"
+   },
+   {
+    "label": "讲解",
+    "score": 4.2,
+    "note": "有定时讲解与语音导览，通史线跟着走不迷路"
+   },
+   {
+    "label": "人流",
+    "score": 3.8,
+    "note": "周末上午亲子团集中"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "博物馆",
-    "免费",
-    "铜鼓"
+  "body": "想在半天里把广西讲清楚，这里是第一站：基本陈列按时间线铺开百越、铜鼓、海上丝绸之路几条线索，铜鼓展厅的体量和纹样密度是全国级别的，值得单独留时间。免费但必须预约，好处是秩序比很多免费馆好，缺点也明显：周末名额放出来就被抢光，临时起意常常约不上；展厅体量大，走完全线两三个小时打底，穿软底鞋。它和江对岸的广西民族博物馆分工不同，一个讲历史脉络、一个讲十二个世居民族，时间够的话两边都看。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "看文物",
+   "带孩子",
+   "下雨天"
   ],
-  "popularity": 86,
-  "sources": [
-    {
-      "title": "百度百科·广西壮族自治区博物馆",
-      "url": "https://baike.baidu.com/item/%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E5%8D%9A%E7%89%A9%E9%A6%86",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "avoid": [
+   "只有一小时",
+   "不提前预约"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "广西博物馆"
-  },
-  "_geocodeTitle": "广西民族博物馆",
-  "_geocodeSuspect": false,
-  "district": "450103"
+  "sources": []
+ }
 }

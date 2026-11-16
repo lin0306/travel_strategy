@@ -1,151 +1,189 @@
 {
-  "id": "diyi-shifan",
-  "name": "湖南第一师范学校旧址",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "城南书院旧址上的老校舍，毛泽东在这里读过五年书。",
-  "description": "湖南第一师范学校旧址在天心区书院路的妙高峰下，前身是南宋创办的城南书院，与岳麓书院隔江相望，旧时并称「朱张讲学」的两处。清末改办师范，1913 年到 1918 年毛泽东在这里读书，前后五年。校舍是一组青砖平房与两层楼，走廊很长，屋面是青瓦，墙上有当年留下的标语与板报。院子里保留了第八班教室、自习室与水井，陈列讲学校历史与名人。1938 年文夕大火里这一片几乎烧尽，现在的校舍是后来按原样复建的。它挨着湘江东岸，往北两公里是太平街。",
-  "highlights": [
-    "前身是南宋城南书院，与岳麓书院隔江相望",
-    "1913-1918 年毛泽东在此读书",
-    "第八班教室、自习室与水井按原样保留"
-  ],
-  "location": {
-    "point": {
-      "lng": 112.972907,
-      "lat": 28.175904,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "湖南省长沙市天心区书院路356号",
-    "district": "天心区",
-    "transportTip": "地铁1号线南门口站或4号线碧沙湖站，步行约十分钟"
+ "id": "diyi-shifan",
+ "name": "湖南第一师范学校旧址",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "城南书院旧址上的老校舍，毛泽东在这里读过五年书。",
+ "description": "湖南第一师范学校旧址在天心区书院路的妙高峰下，前身是南宋创办的城南书院，与岳麓书院隔江相望，旧时并称「朱张讲学」的两处。清末改办师范，1913 年到 1918 年毛泽东在这里读书，前后五年。校舍是一组青砖平房与两层楼，走廊很长，屋面是青瓦，墙上有当年留下的标语与板报。院子里保留了第八班教室、自习室与水井，陈列讲学校历史与名人。1938 年文夕大火里这一片几乎烧尽，现在的校舍是后来按原样复建的。它挨着湘江东岸，往北两公里是太平街。",
+ "highlights": [
+  "前身是南宋城南书院，与岳麓书院隔江相望",
+  "1913-1918 年毛泽东在此读书",
+  "第八班教室、自习室与水井按原样保留"
+ ],
+ "location": {
+  "point": {
+   "lng": 112.972907,
+   "lat": 28.175904,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:30-17:00（需预约），以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费（需预约），以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 45-100 分钟",
-    "durationMinutes": [
-      45,
-      100
-    ],
-    "priceLevel": "free"
+  "address": "湖南省长沙市天心区书院路356号",
+  "district": "天心区",
+  "transportTip": "地铁1号线南门口站或4号线碧沙湖站，步行约十分钟"
+ },
+ "practical": {
+  "openHours": "约08:30-17:00（需预约），以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "免费（需预约），以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 45-100 分钟",
+  "durationMinutes": [
+   45,
+   100
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "elders",
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_%E7%A4%BC%E5%A0%82.jpg/1280px-%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_%E7%A4%BC%E5%A0%82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_%E7%A4%BC%E5%A0%82.jpg/1280px-%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_%E7%A4%BC%E5%A0%82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "第一师范学校 礼堂.jpg",
+   "query": "湖南第一师范学校旧址",
+   "credit": {
+    "source": "wikimedia",
+    "author": "維基小霸王",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "elders",
-    "family",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_%E7%A4%BC%E5%A0%82.jpg/1280px-%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_%E7%A4%BC%E5%A0%82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_%E7%A4%BC%E5%A0%82.jpg/1280px-%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_%E7%A4%BC%E5%A0%82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "第一师范学校 礼堂.jpg",
-      "query": "湖南第一师范学校旧址",
-      "credit": {
-        "source": "wikimedia",
-        "author": "維基小霸王",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_%E6%95%99%E5%AE%A4.jpg/1280px-%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_%E6%95%99%E5%AE%A4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_%E6%95%99%E5%AE%A4.jpg/1280px-%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_%E6%95%99%E5%AE%A4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "第一师范学校 教室.jpg",
-      "query": "湖南第一师范学校旧址",
-      "credit": {
-        "source": "wikimedia",
-        "author": "維基小霸王",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_%E6%AF%9B%E6%B3%BD%E4%B8%9C%E7%9A%84%E5%BA%8A%E4%BD%8D.jpg/1280px-%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_%E6%AF%9B%E6%B3%BD%E4%B8%9C%E7%9A%84%E5%BA%8A%E4%BD%8D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_%E6%AF%9B%E6%B3%BD%E4%B8%9C%E7%9A%84%E5%BA%8A%E4%BD%8D.jpg/1280px-%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_%E6%AF%9B%E6%B3%BD%E4%B8%9C%E7%9A%84%E5%BA%8A%E4%BD%8D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "第一师范学校 毛泽东的床位.jpg",
-      "query": "湖南第一师范学校旧址",
-      "credit": {
-        "source": "wikimedia",
-        "author": "維基小霸王",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/%E8%A6%81%E5%81%9A%E4%BA%BA%E6%B0%91%E7%9A%84%E5%85%88%E7%94%9F_%E5%85%88%E5%81%9A%E4%BA%BA%E6%B0%91%E7%9A%84%E5%AD%B8%E7%94%9F.jpg/1280px-%E8%A6%81%E5%81%9A%E4%BA%BA%E6%B0%91%E7%9A%84%E5%85%88%E7%94%9F_%E5%85%88%E5%81%9A%E4%BA%BA%E6%B0%91%E7%9A%84%E5%AD%B8%E7%94%9F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/%E8%A6%81%E5%81%9A%E4%BA%BA%E6%B0%91%E7%9A%84%E5%85%88%E7%94%9F_%E5%85%88%E5%81%9A%E4%BA%BA%E6%B0%91%E7%9A%84%E5%AD%B8%E7%94%9F.jpg/1280px-%E8%A6%81%E5%81%9A%E4%BA%BA%E6%B0%91%E7%9A%84%E5%85%88%E7%94%9F_%E5%85%88%E5%81%9A%E4%BA%BA%E6%B0%91%E7%9A%84%E5%AD%B8%E7%94%9F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "要做人民的先生 先做人民的學生.jpg",
-      "query": "湖南第一师范学校旧址",
-      "credit": {
-        "source": "wikimedia",
-        "author": "維基小霸王",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "城南书院",
-    "师范",
-    "近代"
-  ],
-  "popularity": 77,
-  "sources": [
-    {
-      "title": "百度百科·湖南第一师范学院",
-      "url": "https://baike.baidu.com/item/%E6%B9%96%E5%8D%97%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E9%99%A2",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
-  ],
-  "updatedAt": "2026-11-05",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "湖南第一师范学校旧址"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_%E6%95%99%E5%AE%A4.jpg/1280px-%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_%E6%95%99%E5%AE%A4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_%E6%95%99%E5%AE%A4.jpg/1280px-%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_%E6%95%99%E5%AE%A4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "第一师范学校 教室.jpg",
+   "query": "湖南第一师范学校旧址",
+   "credit": {
+    "source": "wikimedia",
+    "author": "維基小霸王",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "书院路356号",
-  "district": "430103"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_%E6%AF%9B%E6%B3%BD%E4%B8%9C%E7%9A%84%E5%BA%8A%E4%BD%8D.jpg/1280px-%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_%E6%AF%9B%E6%B3%BD%E4%B8%9C%E7%9A%84%E5%BA%8A%E4%BD%8D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_%E6%AF%9B%E6%B3%BD%E4%B8%9C%E7%9A%84%E5%BA%8A%E4%BD%8D.jpg/1280px-%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_%E6%AF%9B%E6%B3%BD%E4%B8%9C%E7%9A%84%E5%BA%8A%E4%BD%8D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "第一师范学校 毛泽东的床位.jpg",
+   "query": "湖南第一师范学校旧址",
+   "credit": {
+    "source": "wikimedia",
+    "author": "維基小霸王",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/%E8%A6%81%E5%81%9A%E4%BA%BA%E6%B0%91%E7%9A%84%E5%85%88%E7%94%9F_%E5%85%88%E5%81%9A%E4%BA%BA%E6%B0%91%E7%9A%84%E5%AD%B8%E7%94%9F.jpg/1280px-%E8%A6%81%E5%81%9A%E4%BA%BA%E6%B0%91%E7%9A%84%E5%85%88%E7%94%9F_%E5%85%88%E5%81%9A%E4%BA%BA%E6%B0%91%E7%9A%84%E5%AD%B8%E7%94%9F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/%E8%A6%81%E5%81%9A%E4%BA%BA%E6%B0%91%E7%9A%84%E5%85%88%E7%94%9F_%E5%85%88%E5%81%9A%E4%BA%BA%E6%B0%91%E7%9A%84%E5%AD%B8%E7%94%9F.jpg/1280px-%E8%A6%81%E5%81%9A%E4%BA%BA%E6%B0%91%E7%9A%84%E5%85%88%E7%94%9F_%E5%85%88%E5%81%9A%E4%BA%BA%E6%B0%91%E7%9A%84%E5%AD%B8%E7%94%9F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "要做人民的先生 先做人民的學生.jpg",
+   "query": "湖南第一师范学校旧址",
+   "credit": {
+    "source": "wikimedia",
+    "author": "維基小霸王",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "城南书院",
+  "师范",
+  "近代"
+ ],
+ "popularity": 77,
+ "sources": [
+  {
+   "title": "百度百科·湖南第一师范学院",
+   "url": "https://baike.baidu.com/item/%E6%B9%96%E5%8D%97%E7%AC%AC%E4%B8%80%E5%B8%88%E8%8C%83%E5%AD%A6%E9%99%A2",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "湖南第一师范学校旧址"
+ },
+ "_geocodeTitle": "书院路356号",
+ "district": "430103",
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "历史",
+    "score": 4.4,
+    "note": "城南书院旧址，1913-1918 年毛泽东在此读书"
+   },
+   {
+    "label": "讲解",
+    "score": 3.8,
+    "note": "有固定讲解场次，散客要赶点"
+   },
+   {
+    "label": "人流",
+    "score": 3.4,
+    "note": "团队多，免费后需预约"
+   },
+   {
+    "label": "免费程度",
+    "score": 4.7,
+    "note": "免费参观，预约即可"
+   }
+  ],
+  "body": "前身是南宋城南书院，1913 到 1918 年毛泽东在此读书五年，第八班教室、自习室与水井按原样保留。缺点是 1938 年文夕大火后这一片几乎烧尽，现存校舍为复建，「原物感」要打折；需预约，散客能赶上的讲解场次不多。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "近代史",
+   "带娃研学",
+   "免费"
+  ],
+  "avoid": [
+   "想看不改动的原物"
+  ],
+  "sources": []
+ }
 }

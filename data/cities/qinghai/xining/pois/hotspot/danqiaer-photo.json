@@ -40,51 +40,6 @@
   "tips": [],
   "images": [
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/20140427_Dan_Gar_Town.jpg/1280px-20140427_Dan_Gar_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/20140427_Dan_Gar_Town.jpg/1280px-20140427_Dan_Gar_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "20140427 Dan Gar Town.jpg",
-      "query": "丹噶尔古城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20140427_Dan_Gar_Town.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Dangaer_Old_Town.jpg/1280px-Dangaer_Old_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Dangaer_Old_Town.jpg/1280px-Dangaer_Old_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Dangaer Old Town.jpg",
-      "query": "丹噶尔古城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "慕尼黑啤酒",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dangaer_Old_Town.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/%E4%B8%B9%E5%99%B6%E7%88%BE%E5%BB%B3%E7%BD%B2_-_panoramio.jpg/1280px-%E4%B8%B9%E5%99%B6%E7%88%BE%E5%BB%B3%E7%BD%B2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/%E4%B8%B9%E5%99%B6%E7%88%BE%E5%BB%B3%E7%BD%B2_-_panoramio.jpg/1280px-%E4%B8%B9%E5%99%B6%E7%88%BE%E5%BB%B3%E7%BD%B2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 807,
-      "alt": "丹噶爾廳署 - panoramio.jpg",
-      "query": "丹噶尔古城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "ping lin",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%B9%E5%99%B6%E7%88%BE%E5%BB%B3%E7%BD%B2_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/%E2%80%9C%E5%9C%8B%E6%B3%B0%E6%B0%91%E5%AE%89%E2%80%9D%E7%89%8C%E6%A8%93_-_panoramio.jpg/1280px-%E2%80%9C%E5%9C%8B%E6%B3%B0%E6%B0%91%E5%AE%89%E2%80%9D%E7%89%8C%E6%A8%93_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/%E2%80%9C%E5%9C%8B%E6%B3%B0%E6%B0%91%E5%AE%89%E2%80%9D%E7%89%8C%E6%A8%93_-_panoramio.jpg/1280px-%E2%80%9C%E5%9C%8B%E6%B3%B0%E6%B0%91%E5%AE%89%E2%80%9D%E7%89%8C%E6%A8%93_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
@@ -163,7 +118,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-11-03",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -171,5 +126,14 @@
   },
   "_geocodeTitle": "湟源县丹噶尔古城",
   "_geocodeSuspect": false,
-  "district": "630123"
+  "district": "630123",
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 3 张（待重抓）",
+    "droppedImages": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/20140427_Dan_Gar_Town.jpg/1280px-20140427_Dan_Gar_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Dangaer_Old_Town.jpg/1280px-Dangaer_Old_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/%E4%B8%B9%E5%99%B6%E7%88%BE%E5%BB%B3%E7%BD%B2_-_panoramio.jpg/1280px-%E4%B8%B9%E5%99%B6%E7%88%BE%E5%BB%B3%E7%BD%B2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  }
 }

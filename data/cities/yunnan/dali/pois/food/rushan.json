@@ -1,128 +1,166 @@
 {
-  "id": "rushan",
-  "name": "乳扇",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "大理白族的奶制品，薄薄一片奶皮，能烤能炸能生吃。",
-  "description": "乳扇是大理白族的一种奶制品，用牛奶做成薄薄一片像扇子。能烤、能炸、能生吃，撒点白糖最常见。街头常有支着炭火烤乳扇的摊。奶香重，外地人第一次吃会觉得特别。是大理最有代表性的小吃。",
-  "highlights": [
-    "白族奶制品，薄薄一片像扇子",
-    "能烤能炸能生吃，撒白糖最常见",
-    "街头炭火烤乳扇的摊很多"
-  ],
-  "location": {
-    "point": {
-      "lng": 100.227606,
-      "lat": 25.599608,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "云南省大理白族自治州大理市古城内小吃摊",
-    "district": "大理市",
-    "transportTip": "古城街头与喜洲均有售"
+ "id": "rushan",
+ "name": "乳扇",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "大理白族的奶制品，薄薄一片奶皮，能烤能炸能生吃。",
+ "description": "乳扇是大理白族的一种奶制品，用牛奶做成薄薄一片像扇子。能烤、能炸、能生吃，撒点白糖最常见。街头常有支着炭火烤乳扇的摊。奶香重，外地人第一次吃会觉得特别。是大理最有代表性的小吃。",
+ "highlights": [
+  "白族奶制品，薄薄一片像扇子",
+  "能烤能炸能生吃，撒白糖最常见",
+  "街头炭火烤乳扇的摊很多"
+ ],
+ "location": {
+  "point": {
+   "lng": 100.227606,
+   "lat": 25.599608,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约9:00-21:00",
-    "openHoursRef": 0,
-    "ticket": "便宜（几元一片）",
-    "ticketRef": 0,
-    "duration": "建议 15-30 分钟",
-    "durationMinutes": [
-      15,
-      30
-    ],
-    "priceLevel": "budget"
+  "address": "云南省大理白族自治州大理市古城内小吃摊",
+  "district": "大理市",
+  "transportTip": "古城街头与喜洲均有售"
+ },
+ "practical": {
+  "openHours": "约9:00-21:00",
+  "openHoursRef": 0,
+  "ticket": "便宜（几元一片）",
+  "ticketRef": 0,
+  "duration": "建议 15-30 分钟",
+  "durationMinutes": [
+   15,
+   30
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E7%83%A7%E9%A5%B5%E5%9D%97%E3%80%81%E7%83%A4%E4%B9%B3%E6%89%87.jpg/1280px-%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E7%83%A7%E9%A5%B5%E5%9D%97%E3%80%81%E7%83%A4%E4%B9%B3%E6%89%87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E7%83%A7%E9%A5%B5%E5%9D%97%E3%80%81%E7%83%A4%E4%B9%B3%E6%89%87.jpg/1280px-%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E7%83%A7%E9%A5%B5%E5%9D%97%E3%80%81%E7%83%A4%E4%B9%B3%E6%89%87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "大理古城烧饵块、烤乳扇.jpg",
+   "query": "乳扇 大理",
+   "credit": {
+    "source": "wikimedia",
+    "author": "David Hall",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E7%83%A7%E9%A5%B5%E5%9D%97%E3%80%81%E7%83%A4%E4%B9%B3%E6%89%87.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "friends",
-    "family"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E7%83%A7%E9%A5%B5%E5%9D%97%E3%80%81%E7%83%A4%E4%B9%B3%E6%89%87.jpg/1280px-%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E7%83%A7%E9%A5%B5%E5%9D%97%E3%80%81%E7%83%A4%E4%B9%B3%E6%89%87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E7%83%A7%E9%A5%B5%E5%9D%97%E3%80%81%E7%83%A4%E4%B9%B3%E6%89%87.jpg/1280px-%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E7%83%A7%E9%A5%B5%E5%9D%97%E3%80%81%E7%83%A4%E4%B9%B3%E6%89%87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "大理古城烧饵块、烤乳扇.jpg",
-      "query": "乳扇 大理",
-      "credit": {
-        "source": "wikimedia",
-        "author": "David Hall",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E7%83%A7%E9%A5%B5%E5%9D%97%E3%80%81%E7%83%A4%E4%B9%B3%E6%89%87.jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Ru_shan.JPG/1280px-Ru_shan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Ru_shan.JPG/1280px-Ru_shan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 732,
-      "alt": "Ru shan.JPG",
-      "query": "乳扇 大理",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangmoon618",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ru_shan.JPG",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Dali_Rushan.jpg/1280px-Dali_Rushan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Dali_Rushan.jpg/1280px-Dali_Rushan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Dali Rushan.jpg",
-      "query": "乳扇",
-      "credit": {
-        "source": "wikimedia",
-        "author": "rduta",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dali_Rushan.jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Xizhou_Rushan.jpg/1280px-Xizhou_Rushan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Xizhou_Rushan.jpg/1280px-Xizhou_Rushan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1631,
-      "alt": "Xizhou Rushan.jpg",
-      "query": "乳扇",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Chris DeLacy",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xizhou_Rushan.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "奶制品",
-    "小吃",
-    "白族"
-  ],
-  "popularity": 70,
-  "sources": [
-    {
-      "title": "百度百科·乳扇",
-      "url": "https://baike.baidu.com/item/%E4%B9%B3%E6%89%87",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "乳扇"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Ru_shan.JPG/1280px-Ru_shan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Ru_shan.JPG/1280px-Ru_shan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 732,
+   "alt": "Ru shan.JPG",
+   "query": "乳扇 大理",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangmoon618",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ru_shan.JPG",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "阿兰乳扇特产店",
-  "_geocodeSuspect": false,
-  "district": "532901"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Dali_Rushan.jpg/1280px-Dali_Rushan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Dali_Rushan.jpg/1280px-Dali_Rushan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Dali Rushan.jpg",
+   "query": "乳扇",
+   "credit": {
+    "source": "wikimedia",
+    "author": "rduta",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dali_Rushan.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Xizhou_Rushan.jpg/1280px-Xizhou_Rushan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Xizhou_Rushan.jpg/1280px-Xizhou_Rushan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1631,
+   "alt": "Xizhou Rushan.jpg",
+   "query": "乳扇",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Chris DeLacy",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xizhou_Rushan.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "奶制品",
+  "小吃",
+  "白族"
+ ],
+ "popularity": 70,
+ "sources": [
+  {
+   "title": "百度百科·乳扇",
+   "url": "https://baike.baidu.com/item/%E4%B9%B3%E6%89%87",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "乳扇"
+ },
+ "_geocodeTitle": "阿兰乳扇特产店",
+ "_geocodeSuspect": false,
+ "district": "532901",
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 3.8,
+    "note": "奶香重带发酵味，第一次吃未必习惯"
+   },
+   {
+    "label": "价格",
+    "score": 4.2,
+    "note": "几元一片，当零嘴刚好"
+   },
+   {
+    "label": "环境",
+    "score": 3.0,
+    "note": "多为路边炭火摊，站着吃"
+   },
+   {
+    "label": "分量",
+    "score": 3.6,
+    "note": "一片不多，别指望吃饱"
+   }
+  ],
+  "body": "乳扇是白族的奶制品，一片片像扇子，炭火一烤刷上玫瑰糖，奶香混花香，是大理最有代表性的街头小吃。第一次吃的人常被那股发酵奶味劝退，口感偏韧，不是人人受得住；摊子多摆在路边，站着吃完就走，谈不上环境。几元一片，尝个鲜刚好，别一次买多。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "尝鲜",
+   "街头小吃"
+  ],
+  "avoid": [
+   "受不了奶腥",
+   "想坐下来吃"
+  ],
+  "sources": []
+ }
 }

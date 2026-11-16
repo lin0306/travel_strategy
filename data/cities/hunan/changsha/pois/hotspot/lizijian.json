@@ -21,7 +21,7 @@
     "transportTip": "地铁3号线洋湖湿地站，步行约八分钟"
   },
   "practical": {
-    "openHours": "约09:30-17:30，周一闭馆（以公告为准），以官方公告为准",
+    "openHours": "周二至周日 09:30-17:30（17:00 停止入场），周一闭馆",
     "openHoursRef": 0,
     "ticket": "免费（需预约或凭证件），以官方为准",
     "ticketRef": 0,
@@ -143,9 +143,15 @@
       "url": "https://baike.baidu.com/item/%E6%9D%8E%E8%87%AA%E5%81%A5%E7%BE%8E%E6%9C%AF%E9%A6%86",
       "kind": "wiki",
       "fetchedAt": "2026-09-28"
+    },
+    {
+      "title": "李自健美术馆官方服务号：开放时间与预约入口",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3OTA3ODQ4Mg==&mid=2247506339&idx=3&sn=01e25d067ed04e1ed85d3d7905667bc6",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -153,5 +159,56 @@
   },
   "_geocodeTitle": "李自健美术馆",
   "_geocodeSuspect": false,
-  "district": "430104"
+  "district": "430104",
+  "review": {
+    "score": 4.4,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "展陈",
+        "score": 4.5,
+        "note": "《南京大屠杀》与「人性与爱」是核心"
+      },
+      {
+        "label": "建筑",
+        "score": 4.3,
+        "note": "白色方盒子围出水院"
+      },
+      {
+        "label": "免费程度",
+        "score": 4.0,
+        "note": "免费但需预约或凭证件"
+      },
+      {
+        "label": "位置",
+        "score": 2.5,
+        "note": "在洋湖，离老城远"
+      }
+    ],
+    "body": "画家自己出资建、又捐给社会的馆，体量在国内民营个人美术馆里算大的，白色方盒子围着水院，走起来舒服。《南京大屠杀》那幅大幅作品与「人性与爱」系列是核心，站在这两幅前面会停很久。缺点是常年陈列以一位画家的作品为主，看多了会疲；位置在洋湖，离老城远，交通要提前规划；免费但要预约或凭证件，临时过去可能进不去。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "看画",
+      "建筑",
+      "亲子"
+    ],
+    "avoid": [
+      "临时起意",
+      "只要当代艺术"
+    ],
+    "sources": []
+  },
+  "_patrol": {
+    "at": "2026-11-14",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "约09:30-17:30，周一闭馆（以公告为准），以官方公告为准",
+        "new": "周二至周日 09:30-17:30（17:00 停止入场），周一闭馆"
+      }
+    ],
+    "source": "http://mp.weixin.qq.com/s?__biz=Mzg3OTA3ODQ4Mg==&mid=2247506339&idx=3&sn=01e25d067ed04e1ed85d3d7905667bc6",
+    "reason": "李自健美术馆官方服务号：周二至周日9:30-17:30，17:00停止入场，周一闭馆"
+  }
 }

@@ -38,7 +38,50 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/%E5%A4%A9%E6%B4%A5%E6%A2%81%E5%90%AF%E8%B6%85%E7%9A%84%E6%95%85%E5%B1%85_-_panoramio.jpg/1280px-%E5%A4%A9%E6%B4%A5%E6%A2%81%E5%90%AF%E8%B6%85%E7%9A%84%E6%95%85%E5%B1%85_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/%E5%A4%A9%E6%B4%A5%E6%A2%81%E5%90%AF%E8%B6%85%E7%9A%84%E6%95%85%E5%B1%85_-_panoramio.jpg/1280px-%E5%A4%A9%E6%B4%A5%E6%A2%81%E5%90%AF%E8%B6%85%E7%9A%84%E6%95%85%E5%B1%85_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "天津梁启超的故居 - panoramio.jpg",
+      "query": "梁启超纪念馆",
+      "credit": {
+        "source": "wikimedia",
+        "author": "gdczjkk",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/%E5%A4%A9%E6%B4%A5%E6%A2%81%E5%90%AF%E8%B6%85%E6%95%85%E5%B1%85_-_panoramio.jpg/1280px-%E5%A4%A9%E6%B4%A5%E6%A2%81%E5%90%AF%E8%B6%85%E6%95%85%E5%B1%85_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/%E5%A4%A9%E6%B4%A5%E6%A2%81%E5%90%AF%E8%B6%85%E6%95%85%E5%B1%85_-_panoramio.jpg/1280px-%E5%A4%A9%E6%B4%A5%E6%A2%81%E5%90%AF%E8%B6%85%E6%95%85%E5%B1%85_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "天津梁启超故居 - panoramio.jpg",
+      "query": "梁启超纪念馆",
+      "credit": {
+        "source": "wikimedia",
+        "author": "gdczjkk",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
+      }
+    }
+  ],
   "coverIndex": 0,
   "tags": [
     "民国",
@@ -54,7 +97,7 @@
       "fetchedAt": "2026-09-27"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-05",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -62,6 +105,5 @@
   },
   "_geocodeTitle": "天津梁启超纪念馆",
   "_geocodeSuspect": false,
-  "district": "120105",
-  "_noImage": true
+  "district": "120105"
 }

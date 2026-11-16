@@ -1,67 +1,100 @@
 {
-  "id": "cc-dingfengzhen-pastry",
-  "name": "鼎丰真糕点",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "长春最有年头的老字号点心铺，京式做底，萨其马与红白月饼是招牌。",
-  "description": "鼎丰真是长春最有名的点心字号，开在城里的商业街上，已是好几代人共同的记忆。它的做法以京式糕点打底，兼顾本地口味。柜台里的萨其马松而不散，一口下去满是蛋香；中秋前后的红白两色月饼是长春人年节必买的品种。此外还有蜜供、绿豆糕、酥皮点心等常见品类，都做得规矩，价格不贵。现在仍有几处门店，柜台式的排场亲切。来长春的朋友适合带一盒回程，以便宜耐吃著称。买前看当日出炉时间，回家再烤一会更香。",
-  "highlights": [
-    "长春最有年头的点心字号",
-    "萨其马与红白月饼",
-    "柜台式门店亲切好带"
-  ],
-  "location": {
-    "point": {
-      "lng": 125.295262,
-      "lat": 43.871975,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "吉林省长春市南关区重庆路一带鼎丰真门店",
-    "district": "朝阳区",
-    "transportTip": "市内乘公交到重庆路一带，步行可达"
+ "id": "cc-dingfengzhen-pastry",
+ "name": "鼎丰真糕点",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "长春最有年头的老字号点心铺，京式做底，萨其马与红白月饼是招牌。",
+ "description": "鼎丰真是长春最有名的点心字号，开在城里的商业街上，已是好几代人共同的记忆。它的做法以京式糕点打底，兼顾本地口味。柜台里的萨其马松而不散，一口下去满是蛋香；中秋前后的红白两色月饼是长春人年节必买的品种。此外还有蜜供、绿豆糕、酥皮点心等常见品类，都做得规矩，价格不贵。现在仍有几处门店，柜台式的排场亲切。来长春的朋友适合带一盒回程，以便宜耐吃著称。买前看当日出炉时间，回家再烤一会更香。",
+ "highlights": [
+  "长春最有年头的点心字号",
+  "萨其马与红白月饼",
+  "柜台式门店亲切好带"
+ ],
+ "location": {
+  "point": {
+   "lng": 125.295262,
+   "lat": 43.871975,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约09:00-19:00，各店不一",
-    "openHoursRef": 0,
-    "ticket": "约20元起，按重量计",
-    "ticketRef": 0,
-    "duration": "建议 20-45 分钟",
-    "durationMinutes": [
-      20,
-      45
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "elders",
-    "family",
-    "friends"
+  "address": "吉林省长春市南关区重庆路一带鼎丰真门店",
+  "district": "朝阳区",
+  "transportTip": "市内乘公交到重庆路一带，步行可达"
+ },
+ "practical": {
+  "openHours": "约09:00-19:00，各店不一",
+  "openHoursRef": 0,
+  "ticket": "约20元起，按重量计",
+  "ticketRef": 0,
+  "duration": "建议 20-45 分钟",
+  "durationMinutes": [
+   20,
+   45
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "鼎丰真",
-    "老字号",
-    "糕点"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "elders",
+  "family",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "鼎丰真",
+  "老字号",
+  "糕点"
+ ],
+ "popularity": 84,
+ "sources": [
+  {
+   "title": "鼎丰真·百度百科",
+   "url": "https://baike.baidu.com/item/%E9%BC%8E%E4%B8%B0%E7%9C%9F",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-03"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Dingfengzhen Pastry Changchun",
+  "zh": "鼎丰真糕点"
+ },
+ "_geocodeTitle": "鼎新商店",
+ "district": "220104",
+ "_noImage": true,
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "招牌",
+    "score": 4.2,
+    "note": "萨其马松而不散，红白月饼是年节必买"
+   },
+   {
+    "label": "伴手礼",
+    "score": 4.3,
+    "note": "便宜耐吃，适合带一盒回程"
+   },
+   {
+    "label": "口味",
+    "score": 3.2,
+    "note": "京式底子偏甜，柜台式要排队"
+   }
   ],
-  "popularity": 84,
-  "sources": [
-    {
-      "title": "鼎丰真·百度百科",
-      "url": "https://baike.baidu.com/item/%E9%BC%8E%E4%B8%B0%E7%9C%9F",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-03"
-    }
+  "body": "长春最有年头的点心字号，京式做底兼顾本地口味，萨其马松而不散、蛋香足，中秋前后的红白两色月饼是本地人年节必买的品种，蜜供、绿豆糕、酥皮点心都做得规矩。价格不贵、耐放，买一盒当伴手礼很合适。不足是整体偏甜，一次吃多容易腻；柜台式门店高峰要排队，也没有舒服的堂食位置，更适合买了带走而不是坐下来歇脚。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "买伴手礼",
+   "年节尝鲜"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Dingfengzhen Pastry Changchun",
-    "zh": "鼎丰真糕点"
-  },
-  "_geocodeTitle": "鼎新商店",
-  "district": "220104",
-  "_noImage": true
+  "avoid": [
+   "怕甜",
+   "想坐下歇脚"
+  ],
+  "sources": []
+ }
 }

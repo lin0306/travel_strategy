@@ -38,7 +38,10 @@
     "solo"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "这条街现在不只是酒吧：解放路与五一商圈的小剧场从 2025 年初的 6 家增至 20 家，话剧、脱口秀、魔术与相声常年演，看一场小剧场比泡吧更本地",
+    "酒吧协会实行扫码准入、未成年人禁入；消费有纠纷走商圈「一户一码」扫码投诉，30 分钟内初核、200 元以下先行赔付"
+  ],
   "images": [
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/West_Liberation_Road_in_Changsha_2025040101.jpg/1280px-West_Liberation_Road_in_Changsha_2025040101.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -94,9 +97,15 @@
       "url": "https://baike.baidu.com/item/%E8%A7%A3%E6%94%BE%E8%A5%BF%E8%B7%AF",
       "kind": "wiki",
       "fetchedAt": "2026-09-28"
+    },
+    {
+      "title": "长沙推动网红商圈治理迭代升级（人民公安报头版，红网转载）",
+      "url": "https://moment.rednet.cn/content/646042/69/16204702.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -104,5 +113,58 @@
   },
   "_geocodeTitle": "解放西路",
   "_geocodeSuspect": false,
-  "district": "430102"
+  "district": "430102",
+  "review": {
+    "score": 3.8,
+    "verdict": "顺路看看",
+    "facets": [
+      {
+        "label": "夜生活",
+        "score": 4.5,
+        "note": "酒吧、音乐酒馆与小型演出场地沿街排开"
+      },
+      {
+        "label": "消费",
+        "score": 2.6,
+        "note": "低消与套餐口径不一，先问清再进"
+      },
+      {
+        "label": "秩序",
+        "score": 2.8,
+        "note": "路边拉客多，凌晨人流复杂"
+      },
+      {
+        "label": "交通",
+        "score": 3.5,
+        "note": "离五一广场与湘江中路都近"
+      }
+    ],
+    "body": "长沙夜生活的中心，酒吧、音乐酒馆和小型演出场地沿街排开，凌晨两三点街上还热闹。缺点是消费不透明的问题一直存在，拉客与酒托要提防，进场前务必问清低消；周末人挤、吵，不适合想安静喝一杯的人。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "朋友",
+      "夜游"
+    ],
+    "avoid": [
+      "安静小酌",
+      "带小孩"
+    ],
+    "sources": []
+  },
+  "_patrol": {
+    "at": "2026-11-14",
+    "changes": [
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [],
+        "new": [
+          "这条街现在不只是酒吧：解放路与五一商圈的小剧场从 2025 年初的 6 家增至 20 家，话剧、脱口秀、魔术与相声常年演，看一场小剧场比泡吧更本地",
+          "酒吧协会实行扫码准入、未成年人禁入；消费有纠纷走商圈「一户一码」扫码投诉，30 分钟内初核、200 元以下先行赔付"
+        ]
+      }
+    ],
+    "source": "https://moment.rednet.cn/content/646042/69/16204702.html",
+    "reason": "人民公安报头版（红网转载）2026：扫码准入、一户一码投诉、200 元以下先行赔付；湖南卫视/文旅长沙：小剧场 6→20 家"
+  }
 }

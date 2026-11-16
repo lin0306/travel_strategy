@@ -1,67 +1,141 @@
 {
-  "id": "erdao-pailou",
-  "name": "二道牌楼",
-  "category": "culture",
-  "subtype": "street",
-  "summary": "承德老城一处牌楼街区，清代牌楼还在，周围是老铺面和居民区。",
-  "description": "二道牌楼是承德老城里一处街区，因为有牌楼得名。这些牌楼是清代的，木头和彩画都还在，样式讲究。周围是老铺面和居民区，早上有人买菜，生活气重。它不是一个收门票的景点，就是街上走走。离避暑山庄不远。",
-  "highlights": [
-    "老城牌楼街区，清代牌楼犹在",
-    "周遭老铺与居民区，生活气重",
-    "免费街上走走，近避暑山庄"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.927997,
-      "lat": 40.983717,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市双桥区二道牌楼",
-    "district": "双桥区",
-    "transportTip": "市区步行到二道牌楼"
+ "id": "erdao-pailou",
+ "name": "二道牌楼",
+ "category": "culture",
+ "subtype": "street",
+ "summary": "承德老城一处牌楼街区，清代牌楼还在，周围是老铺面和居民区。",
+ "description": "二道牌楼是承德老城里一处街区，因为有牌楼得名。这些牌楼是清代的，木头和彩画都还在，样式讲究。周围是老铺面和居民区，早上有人买菜，生活气重。它不是一个收门票的景点，就是街上走走。离避暑山庄不远。",
+ "highlights": [
+  "老城牌楼街区，清代牌楼犹在",
+  "周遭老铺与居民区，生活气重",
+  "免费街上走走，近避暑山庄"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.927997,
+   "lat": 40.983717,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 40-80 分钟",
-    "durationMinutes": [
-      40,
-      80
-    ],
-    "priceLevel": "free"
+  "address": "河北省承德市双桥区西大街（广仁大街）二道牌楼",
+  "district": "双桥区",
+  "transportTip": "市区步行到二道牌楼"
+ },
+ "practical": {
+  "openHours": "全天开放",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 40-80 分钟",
+  "durationMinutes": [
+   40,
+   80
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "elders",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [
+  "横匾「九功惟叙」出自《尚书·大禹谟》，取政令畅通、百业有序之意",
+  "清代「御路」上原有三座牌楼，皇帝去山庄必经，现存为 2006 年按原制复建",
+  "西大街一线还有头道牌楼（光天化日）与火神庙牌楼（八表同风），可一路走过去",
+  "二道牌楼历史文化街区 2024 年获批保护规划，核心保护区 8.66 公顷",
+  "街区一侧还有热河文庙、热河道台衙署可顺看"
+ ],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "牌楼",
+  "老城",
+  "市井"
+ ],
+ "popularity": 56,
+ "sources": [
+  {
+   "title": "百度百科·承德",
+   "url": "https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
   },
-  "audience": [
-    "elders",
-    "solo"
+  {
+   "title": "承德日报 2024-05-24《守护好城市的记忆》：二道牌楼在广仁大街（西大街）",
+   "url": "https://paper.hehechengde.cn/cdrb/pc/content/202405/24/content_90672.html",
+   "kind": "media",
+   "fetchedAt": "2026-11-14"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "二道牌楼"
+ },
+ "_geocodeTitle": "二道牌楼",
+ "_geocodeSuspect": false,
+ "district": "130802",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-14",
+  "changes": [
+   {
+    "field": "地址",
+    "old": "河北省承德市双桥区二道牌楼",
+    "new": "河北省承德市双桥区西大街（广仁大街）二道牌楼"
+   },
+   {
+    "field": "贴士（用 | 分隔多条，整体替换）",
+    "old": [],
+    "new": [
+     "横匾「九功惟叙」出自《尚书·大禹谟》，取政令畅通、百业有序之意",
+     "清代「御路」上原有三座牌楼，皇帝去山庄必经，现存为 2006 年按原制复建",
+     "西大街一线还有头道牌楼（光天化日）与火神庙牌楼（八表同风），可一路走过去",
+     "二道牌楼历史文化街区 2024 年获批保护规划，核心保护区 8.66 公顷",
+     "街区一侧还有热河文庙、热河道台衙署可顺看"
+    ]
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "牌楼",
-    "老城",
-    "市井"
+  "source": "https://paper.hehechengde.cn/cdrb/pc/content/202405/24/content_90672.html",
+  "reason": "承德日报 2024-05-24《守护好城市的记忆》：二道牌楼在广仁大街（西大街），横匾九功惟叙，三座牌楼复建"
+ },
+ "review": {
+  "score": 3.6,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "历史",
+    "score": 4.1,
+    "note": "清代御路上的牌楼，现存为按原制复建"
+   },
+   {
+    "label": "逛街时长",
+    "score": 2.6,
+    "note": "马路边几座牌楼，十来分钟看完"
+   },
+   {
+    "label": "市井感",
+    "score": 4.0,
+    "note": "周边老铺面和居民区，生活气重"
+   },
+   {
+    "label": "交通",
+    "score": 2.9,
+    "note": "临主街，车流大、停车不方便"
+   }
   ],
-  "popularity": 56,
-  "sources": [
-    {
-      "title": "百度百科·承德",
-      "url": "https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "body": "二道牌楼是承德老城留下的牌楼街区，清代皇帝去山庄必经的御路上原有三座，如今看到的是按原制复建的，横匾「九功惟叙」出自《尚书》。它不收门票，就是街上走走，好处是能看见承德人日常的那一面——老铺面、买菜的人、早市的热闹，比景区真实。缺点是它本质上是马路边几座牌楼，十来分钟就走完，专程来会觉得不值；临着主街车流大、停车不方便，最好和热河文庙、头道牌楼串成一段步行。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "老城散步",
+   "看市井",
+   "免费"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "二道牌楼"
-  },
-  "_geocodeTitle": "二道牌楼",
-  "_geocodeSuspect": false,
-  "district": "130802",
-  "_noImage": true
+  "avoid": [
+   "专程打卡",
+   "自驾找车位"
+  ],
+  "sources": []
+ }
 }

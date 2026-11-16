@@ -1,68 +1,137 @@
 {
-  "id": "hangyang-nn",
-  "name": "会展航洋城",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "凤岭的核心综合体，连着会展中心。",
-  "description": "会展航洋城在青秀区凤岭、民族大道旁，紧邻南宁国际会展中心，是埌东凤岭片区的核心综合体。百货、影院和餐饮都全，是周边居民和商务客的主要去处。它和万象城、会展中心构成民族大道东段商圈。周末人多，停车紧张。免费逛，适合顺路。",
-  "highlights": [
-    "凤岭核心综合体，邻会展中心",
-    "与万象城构成民族大道东商圈",
-    "周末人多停车紧"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.384878,
-      "lat": 22.813838,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市青秀区民族大道131号",
-    "district": "青秀区",
-    "transportTip": "地铁1号线会展中心站"
+ "id": "hangyang-nn",
+ "name": "会展航洋城",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "凤岭的核心综合体，连着会展中心。",
+ "description": "会展航洋城在青秀区凤岭、民族大道旁，紧邻南宁国际会展中心，是埌东凤岭片区的核心综合体。百货、影院和餐饮都全，是周边居民和商务客的主要去处。它和万象城、会展中心构成民族大道东段商圈。周末人多，停车紧张。免费逛，适合顺路。",
+ "highlights": [
+  "凤岭核心综合体，邻会展中心",
+  "与万象城构成民族大道东商圈",
+  "周末人多停车紧"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.384878,
+   "lat": 22.813838,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放（商铺多为10:00-22:00）",
-    "openHoursRef": 0,
-    "ticket": "无门票",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
+  "address": "南宁市青秀区民族大道131号",
+  "district": "青秀区",
+  "transportTip": "地铁1号线会展中心站"
+ },
+ "practical": {
+  "openHours": "全天开放（商铺多为10:00-22:00）",
+  "openHoursRef": 0,
+  "ticket": "无门票",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "friends",
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/%E5%8D%97%E5%AE%81%E4%BC%9A%E5%B1%95%E8%88%AA%E6%B4%8B%E5%9F%8E.jpg/1280px-%E5%8D%97%E5%AE%81%E4%BC%9A%E5%B1%95%E8%88%AA%E6%B4%8B%E5%9F%8E.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/%E5%8D%97%E5%AE%81%E4%BC%9A%E5%B1%95%E8%88%AA%E6%B4%8B%E5%9F%8E.jpg/1280px-%E5%8D%97%E5%AE%81%E4%BC%9A%E5%B1%95%E8%88%AA%E6%B4%8B%E5%9F%8E.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "南宁会展航洋城.jpg",
+   "query": "会展航洋城 南宁",
+   "credit": {
+    "source": "wikimedia",
+    "author": "EditQ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%AE%81%E4%BC%9A%E5%B1%95%E8%88%AA%E6%B4%8B%E5%9F%8E.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "friends",
-    "family",
-    "solo"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/%E4%BC%9A%E5%B1%95%E8%88%AA%E6%B4%8B%E5%9F%8E.jpg/1280px-%E4%BC%9A%E5%B1%95%E8%88%AA%E6%B4%8B%E5%9F%8E.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/%E4%BC%9A%E5%B1%95%E8%88%AA%E6%B4%8B%E5%9F%8E.jpg/1280px-%E4%BC%9A%E5%B1%95%E8%88%AA%E6%B4%8B%E5%9F%8E.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "会展航洋城.jpg",
+   "query": "会展航洋城",
+   "credit": {
+    "source": "wikimedia",
+    "author": "EditQ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BC%9A%E5%B1%95%E8%88%AA%E6%B4%8B%E5%9F%8E.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "购物中心",
+  "凤岭",
+  "商圈"
+ ],
+ "popularity": 70,
+ "sources": [
+  {
+   "title": "百度百科·航洋国际",
+   "url": "https://baike.baidu.com/item/%E8%88%AA%E6%B4%8B%E5%9B%BD%E9%99%85",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "会展航洋城"
+ },
+ "_geocodeTitle": "会展航洋城",
+ "_geocodeSuspect": false,
+ "district": "450103",
+ "review": {
+  "score": 3.6,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "业态",
+    "score": 3.8,
+    "note": "百货影院餐饮都全，日常够用"
+   },
+   {
+    "label": "人流",
+    "score": 3.2,
+    "note": "周末与节假日人多，停车紧张"
+   },
+   {
+    "label": "独特",
+    "score": 3.0,
+    "note": "常规城市综合体，换城市也长这样"
+   },
+   {
+    "label": "位置",
+    "score": 4.2,
+    "note": "民族大道东段，紧邻会展中心"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "购物中心",
-    "凤岭",
-    "商圈"
+  "body": "会展航洋城是凤岭一带的商业中心，吃饭、看电影、买东西一站解决，住在附近的游客拿来填晚饭时间最省事。但如果把它当景点专门跑一趟，大概会失望——品牌同质化严重，逛起来和任何一座城市的综合体没区别；周末停车位难找，餐饮高峰要取号。它更适合作为行程里的补给点，不是目的地。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "吃饭补给",
+   "雨天备选",
+   "住凤岭"
   ],
-  "popularity": 70,
-  "sources": [
-    {
-      "title": "百度百科·航洋国际",
-      "url": "https://baike.baidu.com/item/%E8%88%AA%E6%B4%8B%E5%9B%BD%E9%99%85",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "avoid": [
+   "专程打卡",
+   "找本地特色"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "会展航洋城"
-  },
-  "_geocodeTitle": "会展航洋城",
-  "_geocodeSuspect": false,
-  "district": "450103",
-  "_noImage": true
+  "sources": []
+ }
 }

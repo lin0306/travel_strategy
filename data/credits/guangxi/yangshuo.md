@@ -1,6 +1,6 @@
 # 阳朔 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-07
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-14
 
 ## 概览
 
@@ -74,9 +74,8 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Chensiyuan | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:1_aerial_yangshuo_panorama_2017.jpg) |
-| 城市封面 | Chensiyuan | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:1_pano_cuiping_yangshuo_2016.jpg) |
-| 城市封面 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20160625%E9%98%B3%E6%9C%94%E5%8E%BF%E5%9F%8E.jpg) |
+| 城市封面 | 张元柏 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2007_%E5%B9%BF%E8%A5%BF_%E9%98%B3%E6%9C%94_%E9%81%87%E9%BE%99%E6%B2%B3_-_panoramio.jpg) |
+| 城市封面 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yangshuo_Yulong_He_2012.09.30_13-21-52.jpg) |
 | 碧莲洞 | Unknown authorUnknown author | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:NRA_and_air_force_generals_with_their_family_at_Yunnan.jpg) |
 | 大榕树 | PQ77wd | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Main_Gate_for_Big_Banyan_Tree_in_Yangshuo.jpg) |
 | 大榕树 | landagent | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E6%A6%95%E6%A0%91%E6%99%AF%E5%8C%BA-%E5%A4%A7%E6%A6%95%E6%A0%91_-_panoramio.jpg) |

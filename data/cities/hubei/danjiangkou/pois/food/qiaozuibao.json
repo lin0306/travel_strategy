@@ -1,73 +1,111 @@
 {
-  "id": "qiaozuibao",
-  "name": "丹江口翘嘴鲌",
-  "category": "food",
-  "subtype": "local",
-  "summary": "水库地理标志鱼，肉质细嫩、刺少肉甜，清蒸最显鲜，是丹江口头号河鲜。",
-  "description": "翘嘴鲌是丹江口水库的地理标志水产品，也叫白鱼、翘壳，因为嘴部上翘得名。库区水质好、水温低，养出的翘嘴鲌肉质格外细嫩、鲜甜少腥，是丹江口最拿得出手的一条鱼。做法以清蒸为主，最大程度保住那口鲜；也常做剁椒、红烧或做成鱼丸。本地馆子几乎家家有，挑活鱼现杀最稳。★ 水库鱼受禁捕与季节影响，价格随规格浮动；刺相对细，老人小孩吃时留意。",
-  "highlights": [
-    "地理标志鱼",
-    "肉质细嫩",
-    "清蒸最鲜",
-    "库区河鲜",
-    "丹江口头牌"
-  ],
-  "location": {
-    "point": {
-      "lng": 111.511527,
-      "lat": 32.536496,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "丹江口市区及各库区渔家乐（翘嘴鲌专题店）",
-    "district": "丹江口",
-    "transportTip": "市区打车或公交至餐饮集中区，库区沿线渔家乐亦多"
+ "id": "qiaozuibao",
+ "name": "丹江口翘嘴鲌",
+ "category": "food",
+ "subtype": "local",
+ "summary": "水库地理标志鱼，肉质细嫩、刺少肉甜，清蒸最显鲜，是丹江口头号河鲜。",
+ "description": "翘嘴鲌是丹江口水库的地理标志水产品，也叫白鱼、翘壳，因为嘴部上翘得名。库区水质好、水温低，养出的翘嘴鲌肉质格外细嫩、鲜甜少腥，是丹江口最拿得出手的一条鱼。做法以清蒸为主，最大程度保住那口鲜；也常做剁椒、红烧或做成鱼丸。本地馆子几乎家家有，挑活鱼现杀最稳。★ 水库鱼受禁捕与季节影响，价格随规格浮动；刺相对细，老人小孩吃时留意。",
+ "highlights": [
+  "地理标志鱼",
+  "肉质细嫩",
+  "清蒸最鲜",
+  "库区河鲜",
+  "丹江口头牌"
+ ],
+ "location": {
+  "point": {
+   "lng": 111.511527,
+   "lat": 32.536496,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "午晚餐时段",
-    "openHoursRef": 0,
-    "ticket": "按菜单消费",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "family",
-    "couple",
-    "friends",
-    "solo",
-    "elders"
+  "address": "丹江口市区及各库区渔家乐（翘嘴鲌专题店）",
+  "district": "丹江口",
+  "transportTip": "市区打车或公交至餐饮集中区，库区沿线渔家乐亦多"
+ },
+ "practical": {
+  "openHours": "午晚餐时段",
+  "openHoursRef": 0,
+  "ticket": "按菜单消费",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "水库鱼",
-    "地理标志",
-    "河鲜",
-    "清蒸"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "family",
+  "couple",
+  "friends",
+  "solo",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "水库鱼",
+  "地理标志",
+  "河鲜",
+  "清蒸"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·翘嘴鲌",
+   "url": "https://baike.baidu.com/item/%E7%BF%98%E5%98%B4%E9%B2%8C",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-07"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "丹江口翘嘴鲌"
+ },
+ "_geocodeTitle": "好余轩丹江口翘嘴鲌专卖",
+ "_geocodeSuspect": false,
+ "district": "420381",
+ "_noImage": true,
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.5,
+    "note": "库区水温低，肉细且甜，清蒸最显鲜"
+   },
+   {
+    "label": "价格",
+    "score": 3.4,
+    "note": "随规格浮动，大鱼不便宜"
+   },
+   {
+    "label": "鱼刺",
+    "score": 3.0,
+    "note": "细刺多，吃快了容易卡"
+   },
+   {
+    "label": "供应",
+    "score": 3.2,
+    "note": "受禁捕与季节影响，不一定天天有"
+   }
   ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·翘嘴鲌",
-      "url": "https://baike.baidu.com/item/%E7%BF%98%E5%98%B4%E9%B2%8C",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-07"
-    }
+  "body": "丹江口最拿得出手的一条鱼，水库水温低，肉紧实又带甜，清蒸端上来只放葱姜就够。短板是价格 —— 按规格算，点一条大的不便宜；细刺不少，老人小孩吃的时候要留神；另外受禁捕和季节影响，赶上没有货也别较劲，问清楚再点。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "吃河鲜",
+   "请客"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "丹江口翘嘴鲌"
-  },
-  "_geocodeTitle": "好余轩丹江口翘嘴鲌专卖",
-  "_geocodeSuspect": false,
-  "district": "420381",
-  "_noImage": true
+  "avoid": [
+   "怕刺",
+   "预算很紧"
+  ],
+  "sources": []
+ }
 }

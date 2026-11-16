@@ -1,118 +1,156 @@
 {
-  "id": "hongqiao-park",
-  "name": "光明虹桥公园",
-  "category": "scenic",
-  "subtype": "park",
-  "summary": "一条四公里长的红色栈桥架在山体上：走在这一段上面是它的全部内容。",
-  "description": "2020 年底开放，在光明区。它的核心是一条红色涂装的高线栈桥，长度约四公里，沿山势架在原有植被之上，几乎全程平缓。入口区与周边以塔状台阶连接。这类做法的好处是下层的林子不被踩。整条线走完往返要两个小时上下。光明区离市中心远，地铁六号线能到。周边的农业观光与光明农场在同一方向。夏季要考虑日晒，桥上几乎没遮挡。",
-  "highlights": [
-    "红色高线栈桥全长约四公里，全程平缓",
-    "架空在山体植被之上，下层林地不受踩踏",
-    "夏季无遮挡，日晒明显"
-  ],
-  "location": {
-    "point": {
-      "lng": 113.950772,
-      "lat": 22.742702,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "深圳市光明区光明街道（虹桥公园）",
-    "district": "光明区",
-    "transportTip": "地铁6号线光明大街站换乘公交",
-    "entrance": {
-      "lng": 113.950518,
-      "lat": 22.747593,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "hongqiao-park",
+ "name": "光明虹桥公园",
+ "category": "scenic",
+ "subtype": "park",
+ "summary": "一条四公里长的红色栈桥架在山体上：走在这一段上面是它的全部内容。",
+ "description": "2020 年底开放，在光明区。它的核心是一条红色涂装的高线栈桥，长度约四公里，沿山势架在原有植被之上，几乎全程平缓。入口区与周边以塔状台阶连接。这类做法的好处是下层的林子不被踩。整条线走完往返要两个小时上下。光明区离市中心远，地铁六号线能到。周边的农业观光与光明农场在同一方向。夏季要考虑日晒，桥上几乎没遮挡。",
+ "highlights": [
+  "红色高线栈桥全长约四公里，全程平缓",
+  "架空在山体植被之上，下层林地不受踩踏",
+  "夏季无遮挡，日晒明显"
+ ],
+ "location": {
+  "point": {
+   "lng": 113.950772,
+   "lat": 22.742702,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约06:00-22:00（以官方公告为准）",
-    "openHoursRef": 0,
-    "ticket": "免费（以官方公告为准）",
-    "ticketRef": 0,
-    "duration": "建议 120-300 分钟",
-    "durationMinutes": [
-      120,
-      300
-    ],
-    "priceLevel": "free"
+  "address": "深圳市光明区光明街道（虹桥公园）",
+  "district": "光明区",
+  "transportTip": "地铁6号线光明大街站换乘公交",
+  "entrance": {
+   "lng": 113.950518,
+   "lat": 22.747593,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约06:00-22:00（以官方公告为准）",
+  "openHoursRef": 0,
+  "ticket": "免费（以官方公告为准）",
+  "ticketRef": 0,
+  "duration": "建议 120-300 分钟",
+  "durationMinutes": [
+   120,
+   300
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "friends",
+  "family",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Hongqiao_Park%2C_Guangming_District%2C_Shenzhen_-_20251213_-_1.jpg/1280px-Hongqiao_Park%2C_Guangming_District%2C_Shenzhen_-_20251213_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Hongqiao_Park%2C_Guangming_District%2C_Shenzhen_-_20251213_-_1.jpg/1280px-Hongqiao_Park%2C_Guangming_District%2C_Shenzhen_-_20251213_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Hongqiao Park, Guangming District, Shenzhen - 20251213 - 1.jpg",
+   "query": "光明虹桥公园 深圳",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Pathfinbird",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hongqiao_Park,_Guangming_District,_Shenzhen_-_20251213_-_1.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "friends",
-    "family",
-    "couple"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Hongqiao_Park%2C_Guangming_District%2C_Shenzhen_-_20251213_-_1.jpg/1280px-Hongqiao_Park%2C_Guangming_District%2C_Shenzhen_-_20251213_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Hongqiao_Park%2C_Guangming_District%2C_Shenzhen_-_20251213_-_1.jpg/1280px-Hongqiao_Park%2C_Guangming_District%2C_Shenzhen_-_20251213_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Hongqiao Park, Guangming District, Shenzhen - 20251213 - 1.jpg",
-      "query": "光明虹桥公园 深圳",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Pathfinbird",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hongqiao_Park,_Guangming_District,_Shenzhen_-_20251213_-_1.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Hongqiao_Park%2C_Guangming_District%2C_Shenzhen_-_20251213_-_2.jpg/1280px-Hongqiao_Park%2C_Guangming_District%2C_Shenzhen_-_20251213_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Hongqiao_Park%2C_Guangming_District%2C_Shenzhen_-_20251213_-_2.jpg/1280px-Hongqiao_Park%2C_Guangming_District%2C_Shenzhen_-_20251213_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Hongqiao Park, Guangming District, Shenzhen - 20251213 - 2.jpg",
-      "query": "光明虹桥公园 深圳",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Pathfinbird",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hongqiao_Park,_Guangming_District,_Shenzhen_-_20251213_-_2.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Hongqiao_Park%2C_Guangming_District%2C_Shenzhen_-_20251213_-_3.jpg/1280px-Hongqiao_Park%2C_Guangming_District%2C_Shenzhen_-_20251213_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Hongqiao_Park%2C_Guangming_District%2C_Shenzhen_-_20251213_-_3.jpg/1280px-Hongqiao_Park%2C_Guangming_District%2C_Shenzhen_-_20251213_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Hongqiao Park, Guangming District, Shenzhen - 20251213 - 3.jpg",
-      "query": "光明虹桥公园 深圳",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Pathfinbird",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hongqiao_Park,_Guangming_District,_Shenzhen_-_20251213_-_3.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "免费",
-    "栈桥",
-    "新建"
-  ],
-  "popularity": 68,
-  "sources": [
-    {
-      "title": "百度百科·虹桥公园",
-      "url": "https://baike.baidu.com/item/%E8%99%B9%E6%A1%A5%E5%85%AC%E5%9B%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-24"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "光明虹桥公园"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Hongqiao_Park%2C_Guangming_District%2C_Shenzhen_-_20251213_-_2.jpg/1280px-Hongqiao_Park%2C_Guangming_District%2C_Shenzhen_-_20251213_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Hongqiao_Park%2C_Guangming_District%2C_Shenzhen_-_20251213_-_2.jpg/1280px-Hongqiao_Park%2C_Guangming_District%2C_Shenzhen_-_20251213_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Hongqiao Park, Guangming District, Shenzhen - 20251213 - 2.jpg",
+   "query": "光明虹桥公园 深圳",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Pathfinbird",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hongqiao_Park,_Guangming_District,_Shenzhen_-_20251213_-_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "深圳光明虹桥公园希尔顿花园酒店",
-  "_geocodeSuspect": false,
-  "district": "440311"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Hongqiao_Park%2C_Guangming_District%2C_Shenzhen_-_20251213_-_3.jpg/1280px-Hongqiao_Park%2C_Guangming_District%2C_Shenzhen_-_20251213_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Hongqiao_Park%2C_Guangming_District%2C_Shenzhen_-_20251213_-_3.jpg/1280px-Hongqiao_Park%2C_Guangming_District%2C_Shenzhen_-_20251213_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Hongqiao Park, Guangming District, Shenzhen - 20251213 - 3.jpg",
+   "query": "光明虹桥公园 深圳",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Pathfinbird",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hongqiao_Park,_Guangming_District,_Shenzhen_-_20251213_-_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "免费",
+  "栈桥",
+  "新建"
+ ],
+ "popularity": 68,
+ "sources": [
+  {
+   "title": "百度百科·虹桥公园",
+   "url": "https://baike.baidu.com/item/%E8%99%B9%E6%A1%A5%E5%85%AC%E5%9B%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-24"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "光明虹桥公园"
+ },
+ "_geocodeTitle": "深圳光明虹桥公园希尔顿花园酒店",
+ "_geocodeSuspect": false,
+ "district": "440311",
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.3,
+    "note": "红色高线栈桥架空在山体植被之上"
+   },
+   {
+    "label": "体力",
+    "score": 4.0,
+    "note": "几乎全程平缓，走起来不累"
+   },
+   {
+    "label": "遮阴",
+    "score": 2.2,
+    "note": "桥上几乎没有遮挡，夏季日晒明显"
+   },
+   {
+    "label": "交通",
+    "score": 2.7,
+    "note": "在光明区，离市中心远"
+   }
+  ],
+  "body": "核心就是一条沿山势架在原有植被上的红色高线栈桥，长度很可观，几乎全程平缓，下层林地不被踩踏，走完往返要两个小时上下，入口以塔状台阶连接。这种形式在深圳不多见，拍照与散步都合适。缺点是桥上几乎没遮挡，夏季正午晒得厉害；光明区离市中心远，专线一趟耗时不短，周边可配套的内容也少，不适合临时起意去。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "拍红桥",
+   "轻徒步"
+  ],
+  "avoid": [
+   "盛夏正午",
+   "住在市区想顺路"
+  ],
+  "sources": []
+ }
 }

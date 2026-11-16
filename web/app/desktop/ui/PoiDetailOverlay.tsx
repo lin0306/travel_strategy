@@ -35,6 +35,7 @@ import { Icon } from '~/common/ui/Icon'
 import { Overlay } from '~/common/ui/Overlay'
 import { addToPlanLabel, useCurrentPlanForCity } from '~/common/logic/useAddToPlan'
 import { PoiDetail } from '~/common/ui/city/PoiDetail'
+import { useItemPresence } from '~/common/ui/usePresence'
 import type { Poi } from '~shared/schema'
 
 export function PoiDetailOverlay({
@@ -54,10 +55,20 @@ export function PoiDetailOverlay({
 }) {
   const [gallery, setGallery] = useState(0)
   const [showSources, setShowSources] = useState(false)
-  const poiId = poi?.id ?? ''
+  /*
+   * 退场：`poi` 清空后多留 160ms 播左滑出（anchor='left' 自动选方向）。
+   * `item` 是缓存的最后一份 —— 退场那几帧内容不能先变白板。
+   */
+  const pres = useItemPresence(poi)
+  /*
+   * ★ 取自 `pres.item` 而不是 `poi`：退场时 store 那份已经清空，
+   *   拿它算 id 会让下面那个 effect 把图库下标复位到 0 ——
+   *   屏幕上正播着"这张卡在离开"，封面却突然跳回第一张。
+   */
+  const poiId = pres.item?.id ?? ''
   /**
    * 正在看这条同城的规划吗 —— 决定按钮写「**添加到当前行程**」还是「添加行程」。
-   * ★ 必须在这里调（在 `if (!poi) return null` **之前**）：hook 不能被条件跳过。
+   * ★ 必须在这里调（在 early return **之前**）：hook 不能被条件跳过。
    * ★ 判据与 `useAddToPlan.run()` 里那条短路用的是**同一个函数**（`currentPlanForCity`），
    *   所以按钮上写的字与点下去干的事不可能对不上。
    */
@@ -69,7 +80,9 @@ export function PoiDetailOverlay({
     setShowSources(false)
   }, [poiId])
 
-  if (!poi) return null
+  if (!pres.mounted || !pres.item) return null
+  const shown = pres.item
+  const exiting = pres.exiting
 
   return (
     <>
@@ -81,13 +94,13 @@ export function PoiDetailOverlay({
        *   同族其它浮层：左面板 20 · 规划面板 21 · 挑景点 26 · 居中弹窗 28 ·
        *   移动端的详情 Sheet 本来就是 `z-28`，天然满足。
        */}
-      <Overlay anchor="left" widthToken="--panel-detail" tall z={27} className="overflow-hidden">
+      <Overlay anchor="left" widthToken="--panel-detail" tall z={27} className="overflow-hidden" exiting={exiting}>
         {/* 标题行：名字 + 「添加行程」 + 关闭。动作收在这里，是因为这一层用的是**地图的顶栏** */}
         <div className="flex flex-none items-center gap-2 border-b border-line px-3.5 py-2.5">
-          <b className="min-w-0 flex-1 truncate text-[15px] font-semibold">{poi.name}</b>
+          <b className="min-w-0 flex-1 truncate text-[15px] font-semibold">{shown.name}</b>
           <button
             type="button"
-            onClick={() => onAddToPlan(poi.id)}
+            onClick={() => onAddToPlan(shown.id)}
             className="inline-flex h-8 flex-none items-center gap-1.5 rounded-full border border-line px-3 text-[12.5px] hover:border-primary hover:text-primary"
           >
             <Icon name="plus" size="sm" />
@@ -104,7 +117,7 @@ export function PoiDetailOverlay({
         </div>
 
         <PoiDetail
-          poi={poi}
+          poi={shown}
           cityName={cityName}
           gallery={gallery}
           onGallery={setGallery}

@@ -38,7 +38,11 @@
     "solo"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "免费围观，平日以各城区广场与公园傍晚的自发队伍为主，无固定排期",
+    "拍摄或跟着队伍走两步前先征得同意",
+    "元宵前后有市文旅局主办的新秧歌大集，文化广场展演、新民大街巡游，规模最大"
+  ],
   "images": [],
   "coverIndex": 0,
   "tags": [
@@ -53,9 +57,15 @@
       "url": "https://baike.baidu.com/item/%E4%B8%9C%E5%8C%97%E5%A4%A7%E7%A7%A7%E6%AD%8C",
       "kind": "wiki",
       "fetchedAt": "2026-10-03"
+    },
+    {
+      "title": "长春市文广旅局·2026 新秧歌大集活动公告",
+      "url": "http://wglj.changchun.gov.cn/zjwgl_44812/ysczhyc/202603/t20260303_3471117.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-12"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-12",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Northeast Yangko Folk Dance",
@@ -63,5 +73,21 @@
   },
   "_geocodeTitle": "文化广场",
   "district": "220104",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-12",
+    "changes": [
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [],
+        "new": [
+          "免费围观，平日以各城区广场与公园傍晚的自发队伍为主，无固定排期",
+          "拍摄或跟着队伍走两步前先征得同意",
+          "元宵前后有市文旅局主办的新秧歌大集，文化广场展演、新民大街巡游，规模最大"
+        ]
+      }
+    ],
+    "source": "http://wglj.changchun.gov.cn/zjwgl_44812/ysczhyc/202603/t20260303_3471117.html",
+    "reason": "长春市文广旅局 2026 年新秧歌大集：文化广场展演与新民大街巡游均免费参与"
+  }
 }

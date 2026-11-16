@@ -16,14 +16,14 @@
       "lat": 31.223496,
       "coordSystem": "GCJ-02"
     },
-    "address": "上海市黄浦区淮海中路300号",
+    "address": "上海市黄浦区淮海中路300号K11购物艺术中心B3层",
     "district": "黄浦",
     "transportTip": "地铁1号线/14号线黄陂南路站"
   },
   "practical": {
-    "openHours": "约10:00-22:00(美术馆以展期为准)",
+    "openHours": "10:00-20:00（19:30 停止入场）；商场 10:00-22:00",
     "openHoursRef": 0,
-    "ticket": "免费进入，展览另行收费",
+    "ticket": "美术馆按展收费：常规展约11-39元，特展58-78元；商场免费进入",
     "ticketRef": 0,
     "duration": "建议 90-180 分钟",
     "durationMinutes": [
@@ -52,9 +52,15 @@
       "url": "https://baike.baidu.com/item/K11",
       "kind": "wiki",
       "fetchedAt": "2026-09-19"
+    },
+    {
+      "title": "上海市文旅局展讯｜chi K11 美术馆（2026-10-30）",
+      "url": "https://whlyj.sh.gov.cn/yshd/20261030/3eb3ba2bda464a67a2ea1cd474813639.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,5 +69,27 @@
   "_geocodeTitle": "K11购物艺术中心",
   "_geocodeSuspect": false,
   "district": "310101",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "约10:00-22:00(美术馆以展期为准)",
+        "new": "10:00-20:00（19:30 停止入场）；商场 10:00-22:00"
+      },
+      {
+        "field": "地址",
+        "old": "上海市黄浦区淮海中路300号",
+        "new": "上海市黄浦区淮海中路300号K11购物艺术中心B3层"
+      },
+      {
+        "field": "门票",
+        "old": "免费进入，展览另行收费",
+        "new": "美术馆按展收费：常规展约11-39元，特展58-78元；商场免费进入"
+      }
+    ],
+    "source": "https://whlyj.sh.gov.cn/yshd/20261030/3eb3ba2bda464a67a2ea1cd474813639.html",
+    "reason": "上海市文旅局2026-10-30展讯：chi K11美术馆在K11 B3层，周一至周日10:00-20:00、19:30停止入场，展览票价11-39元"
+  }
 }

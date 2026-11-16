@@ -1,177 +1,214 @@
 {
-  "id": "kaifeng-fu",
-  "name": "开封府",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "北宋的府衙旧址，包公曾在此办公，有公堂和实景演出。",
-  "description": "开封府是北宋的府衙旧址，包拯曾在这里审案。院子里有大堂、议事厅和牢狱复原，门口立着包公像。白天有开衙和铡美案的实景演出，演员穿宋装，挺有代入感。想看包公戏的别错过场次。园区不大，一两个小时能看完。",
-  "highlights": [
-    "北宋府衙包公办公地",
-    "公堂牢狱复原",
-    "开衙审案实景演出"
-  ],
-  "location": {
-    "point": {
-      "lng": 114.346779,
-      "lat": 34.788924,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河南省开封市鼓楼区包公湖北路1号开封府",
-    "district": "鼓楼区",
-    "transportTip": "市区公交或打车到开封府"
+ "id": "kaifeng-fu",
+ "name": "开封府",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "北宋的府衙旧址，包公曾在此办公，有公堂和实景演出。",
+ "description": "开封府是北宋的府衙旧址，包拯曾在这里审案。院子里有大堂、议事厅和牢狱复原，门口立着包公像。白天有开衙和铡美案的实景演出，演员穿宋装，挺有代入感。想看包公戏的别错过场次。园区不大，一两个小时能看完。",
+ "highlights": [
+  "北宋府衙包公办公地",
+  "公堂牢狱复原",
+  "开衙审案实景演出"
+ ],
+ "location": {
+  "point": {
+   "lng": 114.346779,
+   "lat": 34.788924,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约07:30-18:30，以景区公告为准",
-    "openHoursRef": 0,
-    "ticket": "约65元（以官方为准）",
-    "ticketRef": 0,
-    "duration": "建议 120-240 分钟",
-    "durationMinutes": [
-      120,
-      240
-    ],
-    "priceLevel": "mid"
+  "address": "河南省开封市鼓楼区包公湖北路1号开封府",
+  "district": "鼓楼区",
+  "transportTip": "市区公交或打车到开封府"
+ },
+ "practical": {
+  "openHours": "约07:30-18:30，以景区公告为准",
+  "openHoursRef": 0,
+  "ticket": "约65元（以官方为准）",
+  "ticketRef": 0,
+  "duration": "建议 120-240 分钟",
+  "durationMinutes": [
+   120,
+   240
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "family",
+  "elders",
+  "friends",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_02.jpg/1280px-20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_02.jpg/1280px-20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "20241025 Imperial Steles by Kangxi Emperor in Kaifeng Fu Confucian Temple 02.jpg",
+   "query": "开封府 开封",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Windmemories",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_02.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "family",
-    "elders",
-    "friends",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_02.jpg/1280px-20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_02.jpg/1280px-20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "20241025 Imperial Steles by Kangxi Emperor in Kaifeng Fu Confucian Temple 02.jpg",
-      "query": "开封府 开封",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_02.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_05.jpg/1280px-20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_05.jpg/1280px-20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "20241025 Imperial Steles by Kangxi Emperor in Kaifeng Fu Confucian Temple 05.jpg",
-      "query": "开封府 开封",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_05.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_06.jpg/1280px-20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_06.jpg/1280px-20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "20241025 Imperial Steles by Kangxi Emperor in Kaifeng Fu Confucian Temple 06.jpg",
-      "query": "开封府 开封",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_06.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/%E5%BC%80%E5%B0%81%E5%BA%9C%E5%A4%A9%E5%BA%86%E8%A7%82%E9%97%A8%E5%8F%A3.jpg/1280px-%E5%BC%80%E5%B0%81%E5%BA%9C%E5%A4%A9%E5%BA%86%E8%A7%82%E9%97%A8%E5%8F%A3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/%E5%BC%80%E5%B0%81%E5%BA%9C%E5%A4%A9%E5%BA%86%E8%A7%82%E9%97%A8%E5%8F%A3.jpg/1280px-%E5%BC%80%E5%B0%81%E5%BA%9C%E5%A4%A9%E5%BA%86%E8%A7%82%E9%97%A8%E5%8F%A3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "开封府天庆观门口.jpg",
-      "query": "开封府",
-      "credit": {
-        "source": "wikimedia",
-        "author": "David290",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/%E5%BC%80%E5%B0%81%E5%BA%9C%E6%98%8E%E7%A4%BC%E9%99%A2_-_panoramio.jpg/1280px-%E5%BC%80%E5%B0%81%E5%BA%9C%E6%98%8E%E7%A4%BC%E9%99%A2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/%E5%BC%80%E5%B0%81%E5%BA%9C%E6%98%8E%E7%A4%BC%E9%99%A2_-_panoramio.jpg/1280px-%E5%BC%80%E5%B0%81%E5%BA%9C%E6%98%8E%E7%A4%BC%E9%99%A2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "开封府明礼院 - panoramio.jpg",
-      "query": "开封府",
-      "credit": {
-        "source": "wikimedia",
-        "author": "江上清风1961",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/%E5%BC%80%E5%B0%81%E5%BA%9C%E5%9F%8E%E9%97%A8%E5%8F%8A%E5%9F%8E%E6%A5%BC%E8%83%8C%E9%9D%A2_%E5%B8%A6%E6%9C%89%E5%8A%B1%E7%B2%BE%E5%9B%BE%E6%B2%BB%E7%89%8C%E5%8C%BE.jpg/1280px-%E5%BC%80%E5%B0%81%E5%BA%9C%E5%9F%8E%E9%97%A8%E5%8F%8A%E5%9F%8E%E6%A5%BC%E8%83%8C%E9%9D%A2_%E5%B8%A6%E6%9C%89%E5%8A%B1%E7%B2%BE%E5%9B%BE%E6%B2%BB%E7%89%8C%E5%8C%BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/%E5%BC%80%E5%B0%81%E5%BA%9C%E5%9F%8E%E9%97%A8%E5%8F%8A%E5%9F%8E%E6%A5%BC%E8%83%8C%E9%9D%A2_%E5%B8%A6%E6%9C%89%E5%8A%B1%E7%B2%BE%E5%9B%BE%E6%B2%BB%E7%89%8C%E5%8C%BE.jpg/1280px-%E5%BC%80%E5%B0%81%E5%BA%9C%E5%9F%8E%E9%97%A8%E5%8F%8A%E5%9F%8E%E6%A5%BC%E8%83%8C%E9%9D%A2_%E5%B8%A6%E6%9C%89%E5%8A%B1%E7%B2%BE%E5%9B%BE%E6%B2%BB%E7%89%8C%E5%8C%BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "开封府城门及城楼背面 带有励精图治牌匾.jpg",
-      "query": "开封府",
-      "credit": {
-        "source": "wikimedia",
-        "author": "David290",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 5,
-  "tags": [
-    "包公",
-    "北宋",
-    "衙门"
-  ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·开封府",
-      "url": "https://baike.baidu.com/item/%E5%BC%80%E5%B0%81%E5%BA%9C",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-02"
-    }
-  ],
-  "updatedAt": "2026-11-03",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Kaifeng Prefecture",
-    "zh": "开封府"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_05.jpg/1280px-20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_05.jpg/1280px-20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "20241025 Imperial Steles by Kangxi Emperor in Kaifeng Fu Confucian Temple 05.jpg",
+   "query": "开封府 开封",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Windmemories",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_05.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "开封府停车场",
-  "_geocodeSuspect": false,
-  "district": "410204"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_06.jpg/1280px-20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_06.jpg/1280px-20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "20241025 Imperial Steles by Kangxi Emperor in Kaifeng Fu Confucian Temple 06.jpg",
+   "query": "开封府 开封",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Windmemories",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20241025_Imperial_Steles_by_Kangxi_Emperor_in_Kaifeng_Fu_Confucian_Temple_06.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/%E5%BC%80%E5%B0%81%E5%BA%9C%E5%A4%A9%E5%BA%86%E8%A7%82%E9%97%A8%E5%8F%A3.jpg/1280px-%E5%BC%80%E5%B0%81%E5%BA%9C%E5%A4%A9%E5%BA%86%E8%A7%82%E9%97%A8%E5%8F%A3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/%E5%BC%80%E5%B0%81%E5%BA%9C%E5%A4%A9%E5%BA%86%E8%A7%82%E9%97%A8%E5%8F%A3.jpg/1280px-%E5%BC%80%E5%B0%81%E5%BA%9C%E5%A4%A9%E5%BA%86%E8%A7%82%E9%97%A8%E5%8F%A3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "开封府天庆观门口.jpg",
+   "query": "开封府",
+   "credit": {
+    "source": "wikimedia",
+    "author": "David290",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/%E5%BC%80%E5%B0%81%E5%BA%9C%E6%98%8E%E7%A4%BC%E9%99%A2_-_panoramio.jpg/1280px-%E5%BC%80%E5%B0%81%E5%BA%9C%E6%98%8E%E7%A4%BC%E9%99%A2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/%E5%BC%80%E5%B0%81%E5%BA%9C%E6%98%8E%E7%A4%BC%E9%99%A2_-_panoramio.jpg/1280px-%E5%BC%80%E5%B0%81%E5%BA%9C%E6%98%8E%E7%A4%BC%E9%99%A2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "开封府明礼院 - panoramio.jpg",
+   "query": "开封府",
+   "credit": {
+    "source": "wikimedia",
+    "author": "江上清风1961",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/%E5%BC%80%E5%B0%81%E5%BA%9C%E5%9F%8E%E9%97%A8%E5%8F%8A%E5%9F%8E%E6%A5%BC%E8%83%8C%E9%9D%A2_%E5%B8%A6%E6%9C%89%E5%8A%B1%E7%B2%BE%E5%9B%BE%E6%B2%BB%E7%89%8C%E5%8C%BE.jpg/1280px-%E5%BC%80%E5%B0%81%E5%BA%9C%E5%9F%8E%E9%97%A8%E5%8F%8A%E5%9F%8E%E6%A5%BC%E8%83%8C%E9%9D%A2_%E5%B8%A6%E6%9C%89%E5%8A%B1%E7%B2%BE%E5%9B%BE%E6%B2%BB%E7%89%8C%E5%8C%BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/%E5%BC%80%E5%B0%81%E5%BA%9C%E5%9F%8E%E9%97%A8%E5%8F%8A%E5%9F%8E%E6%A5%BC%E8%83%8C%E9%9D%A2_%E5%B8%A6%E6%9C%89%E5%8A%B1%E7%B2%BE%E5%9B%BE%E6%B2%BB%E7%89%8C%E5%8C%BE.jpg/1280px-%E5%BC%80%E5%B0%81%E5%BA%9C%E5%9F%8E%E9%97%A8%E5%8F%8A%E5%9F%8E%E6%A5%BC%E8%83%8C%E9%9D%A2_%E5%B8%A6%E6%9C%89%E5%8A%B1%E7%B2%BE%E5%9B%BE%E6%B2%BB%E7%89%8C%E5%8C%BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "开封府城门及城楼背面 带有励精图治牌匾.jpg",
+   "query": "开封府",
+   "credit": {
+    "source": "wikimedia",
+    "author": "David290",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 5,
+ "tags": [
+  "包公",
+  "北宋",
+  "衙门"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·开封府",
+   "url": "https://baike.baidu.com/item/%E5%BC%80%E5%B0%81%E5%BA%9C",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-02"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Kaifeng Prefecture",
+  "zh": "开封府"
+ },
+ "_geocodeTitle": "开封府停车场",
+ "_geocodeSuspect": false,
+ "district": "410204",
+ "review": {
+  "score": 3.8,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "演出",
+    "score": 4.3,
+    "note": "开衙与铡美案实景，代入感强"
+   },
+   {
+    "label": "复建",
+    "score": 2.6,
+    "note": "院内建筑多为复建，古意有限"
+   },
+   {
+    "label": "时长",
+    "score": 3.8,
+    "note": "园区不大，一两小时够了"
+   },
+   {
+    "label": "性价比",
+    "score": 3.2,
+    "note": "票价不低，主要为看演出"
+   }
+  ],
+  "body": "北宋府衙旧址，包公当年就在这审案，大堂、议事厅和牢狱都做了复原，白天的开衙和铡美案实景演出挺有代入感。缺点是院内建筑基本是复建的，古意有限，票价不算低，主要是为那几场演出买单。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "亲子",
+   "看演出"
+  ],
+  "avoid": [
+   "求古迹原构"
+  ],
+  "sources": []
+ }
 }

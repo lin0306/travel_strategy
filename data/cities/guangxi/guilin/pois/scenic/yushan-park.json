@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "广西壮族自治区桂林市叠彩区虞山公园",
-    "district": "秀峰区",
+    "district": "叠彩区",
     "transportTip": "市区乘公交至虞山站；从叠彩山步行约二十分钟",
     "entrance": {
       "lng": 110.301522,
@@ -76,7 +76,7 @@
       "fetchedAt": "2026-09-30"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-12",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -84,5 +84,37 @@
   },
   "_geocodeTitle": "虞山公园",
   "_geocodeSuspect": false,
-  "district": "450302"
+  "district": "450303",
+  "review": {
+    "score": 3.5,
+    "verdict": "时间富余再说",
+    "facets": [
+      {
+        "label": "看点",
+        "score": 3.3,
+        "note": "孤峰加一处贯通裂隙，二十分钟到顶"
+      },
+      {
+        "label": "人流",
+        "score": 4.3,
+        "note": "旺季也几乎碰不到旅游团"
+      },
+      {
+        "label": "时长",
+        "score": 2.8,
+        "note": "绕一圈二十分钟，内容不多"
+      }
+    ],
+    "body": "城北的一座孤峰，半山那条贯通的裂隙有穿堂风，夏天进去很凉，本地人傍晚来散步的多。缺点是内容单薄：山不高，可看的就那一处裂隙和几处重修的建筑，专程来会觉得没什么；时间紧的话在漓江东岸顺路插进来走二十分钟就够。",
+    "basis": "corpus",
+    "at": "2026-11-12",
+    "fits": [
+      "傍晚散步",
+      "避暑"
+    ],
+    "avoid": [
+      "专程安排"
+    ],
+    "sources": []
+  }
 }

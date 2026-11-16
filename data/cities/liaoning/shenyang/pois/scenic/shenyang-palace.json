@@ -1,176 +1,208 @@
 {
-  "id": "shenyang-palace",
-  "name": "沈阳故宫",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "清入关前的皇宫，满汉合璧的宫殿群，大政殿和十王亭最有看头。",
-  "description": "沈阳故宫是清朝入关前的皇宫，比北京故宫小，但自有气派。大政殿八字形排开十王亭，是满式的布局，别处少见。凤凰楼、清宁宫讲着皇太极的日常。它和北京故宫一脉两枝，对照着看有意思。留出半天，跟着讲解走。",
-  "highlights": [
-    "清入关前皇宫满汉合璧",
-    "大政殿十王亭满式布局",
-    "与北京故宫一脉两枝"
-  ],
-  "location": {
-    "point": {
-      "lng": 123.455654,
-      "lat": 41.798456,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "辽宁省沈阳市沈河区沈阳路171号沈阳故宫",
-    "district": "沈河区",
-    "transportTip": "地铁或公交到沈阳故宫站"
+ "id": "shenyang-palace",
+ "name": "沈阳故宫",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "清入关前的皇宫，满汉合璧的宫殿群，大政殿和十王亭最有看头。",
+ "description": "沈阳故宫是清朝入关前的皇宫，比北京故宫小，但自有气派。大政殿八字形排开十王亭，是满式的布局，别处少见。凤凰楼、清宁宫讲着皇太极的日常。它和北京故宫一脉两枝，对照着看有意思。留出半天，跟着讲解走。",
+ "highlights": [
+  "清入关前皇宫满汉合璧",
+  "大政殿十王亭满式布局",
+  "与北京故宫一脉两枝"
+ ],
+ "location": {
+  "point": {
+   "lng": 123.455654,
+   "lat": 41.798456,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:30-17:30（以公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约60元（以官方为准）",
-    "ticketRef": 0,
-    "duration": "建议 120-240 分钟",
-    "durationMinutes": [
-      120,
-      240
-    ],
-    "priceLevel": "mid"
+  "address": "辽宁省沈阳市沈河区沈阳路171号沈阳故宫",
+  "district": "沈河区",
+  "transportTip": "地铁或公交到沈阳故宫站"
+ },
+ "practical": {
+  "openHours": "约08:30-17:30（以公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约60元（以官方为准）",
+  "ticketRef": 0,
+  "duration": "建议 120-240 分钟",
+  "durationMinutes": [
+   120,
+   240
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "elders",
+  "family",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/A_sundial_in_Mukden_Palace.jpg/1280px-A_sundial_in_Mukden_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/A_sundial_in_Mukden_Palace.jpg/1280px-A_sundial_in_Mukden_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "A sundial in Mukden Palace.jpg",
+   "query": "沈阳故宫 沈阳",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Pauloleong2002",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_sundial_in_Mukden_Palace.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "elders",
-    "family",
-    "friends"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/A_sundial_in_Mukden_Palace.jpg/1280px-A_sundial_in_Mukden_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/A_sundial_in_Mukden_Palace.jpg/1280px-A_sundial_in_Mukden_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "A sundial in Mukden Palace.jpg",
-      "query": "沈阳故宫 沈阳",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Pauloleong2002",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_sundial_in_Mukden_Palace.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Ceiling_in_Mukden_Palace.jpg/1280px-Ceiling_in_Mukden_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Ceiling_in_Mukden_Palace.jpg/1280px-Ceiling_in_Mukden_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 912,
-      "alt": "Ceiling in Mukden Palace.jpg",
-      "query": "沈阳故宫 沈阳",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Pauloleong2002",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ceiling_in_Mukden_Palace.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Mukden_Palace_drone_view_5_%28cropped_%26_rotated%29.jpg/1280px-Mukden_Palace_drone_view_5_%28cropped_%26_rotated%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Mukden_Palace_drone_view_5_%28cropped_%26_rotated%29.jpg/1280px-Mukden_Palace_drone_view_5_%28cropped_%26_rotated%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 501,
-      "alt": "Mukden Palace drone view 5 (cropped & rotated).jpg",
-      "query": "沈阳故宫 沈阳",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Techyan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mukden_Palace_drone_view_5_(cropped_%26_rotated).jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Qingning_Palace_%E6%B8%85%E5%AF%A7%E5%AE%AE_-_panoramio.jpg/1280px-Qingning_Palace_%E6%B8%85%E5%AF%A7%E5%AE%AE_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Qingning_Palace_%E6%B8%85%E5%AF%A7%E5%AE%AE_-_panoramio.jpg/1280px-Qingning_Palace_%E6%B8%85%E5%AF%A7%E5%AE%AE_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Qingning Palace 清寧宮 - panoramio.jpg",
-      "query": "沈阳故宫",
-      "credit": {
-        "source": "wikimedia",
-        "author": "lienyuan lee",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "inside"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/%E7%80%8B%E9%99%BD%E6%95%85%E5%AE%AE_Shenyang_Imperial_Palace_-_panoramio_%282%29.jpg/1280px-%E7%80%8B%E9%99%BD%E6%95%85%E5%AE%AE_Shenyang_Imperial_Palace_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/%E7%80%8B%E9%99%BD%E6%95%85%E5%AE%AE_Shenyang_Imperial_Palace_-_panoramio_%282%29.jpg/1280px-%E7%80%8B%E9%99%BD%E6%95%85%E5%AE%AE_Shenyang_Imperial_Palace_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "瀋陽故宮 Shenyang Imperial Palace - panoramio (2).jpg",
-      "query": "沈阳故宫",
-      "credit": {
-        "source": "wikimedia",
-        "author": "lienyuan lee",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "inside"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/%E9%A0%86%E6%B2%BB%E7%9A%87%E5%B8%9D%E7%9A%84%E6%90%96%E7%B1%83_Cradle_Been_Used_by_Emperor_Junji_-_panoramio.jpg/1280px-%E9%A0%86%E6%B2%BB%E7%9A%87%E5%B8%9D%E7%9A%84%E6%90%96%E7%B1%83_Cradle_Been_Used_by_Emperor_Junji_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/%E9%A0%86%E6%B2%BB%E7%9A%87%E5%B8%9D%E7%9A%84%E6%90%96%E7%B1%83_Cradle_Been_Used_by_Emperor_Junji_-_panoramio.jpg/1280px-%E9%A0%86%E6%B2%BB%E7%9A%87%E5%B8%9D%E7%9A%84%E6%90%96%E7%B1%83_Cradle_Been_Used_by_Emperor_Junji_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "順治皇帝的搖籃 Cradle Been Used by Emperor Junji - panoramio.jpg",
-      "query": "沈阳故宫",
-      "credit": {
-        "source": "wikimedia",
-        "author": "lienyuan lee",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "inside"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "故宫",
-    "盛京",
-    "清皇宫"
-  ],
-  "popularity": 97,
-  "sources": [
-    {
-      "title": "百度百科·沈阳故宫",
-      "url": "https://baike.baidu.com/item/%E6%B2%88%E9%98%B3%E6%95%85%E5%AE%AB",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-02"
-    }
-  ],
-  "updatedAt": "2026-11-03",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Shenyang Imperial Palace",
-    "zh": "沈阳故宫"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Ceiling_in_Mukden_Palace.jpg/1280px-Ceiling_in_Mukden_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Ceiling_in_Mukden_Palace.jpg/1280px-Ceiling_in_Mukden_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 912,
+   "alt": "Ceiling in Mukden Palace.jpg",
+   "query": "沈阳故宫 沈阳",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Pauloleong2002",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ceiling_in_Mukden_Palace.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "沈阳故宫博物院",
-  "_geocodeSuspect": false,
-  "district": "210103"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Mukden_Palace_drone_view_5_%28cropped_%26_rotated%29.jpg/1280px-Mukden_Palace_drone_view_5_%28cropped_%26_rotated%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Mukden_Palace_drone_view_5_%28cropped_%26_rotated%29.jpg/1280px-Mukden_Palace_drone_view_5_%28cropped_%26_rotated%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 501,
+   "alt": "Mukden Palace drone view 5 (cropped & rotated).jpg",
+   "query": "沈阳故宫 沈阳",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Techyan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mukden_Palace_drone_view_5_(cropped_%26_rotated).jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Qingning_Palace_%E6%B8%85%E5%AF%A7%E5%AE%AE_-_panoramio.jpg/1280px-Qingning_Palace_%E6%B8%85%E5%AF%A7%E5%AE%AE_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Qingning_Palace_%E6%B8%85%E5%AF%A7%E5%AE%AE_-_panoramio.jpg/1280px-Qingning_Palace_%E6%B8%85%E5%AF%A7%E5%AE%AE_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Qingning Palace 清寧宮 - panoramio.jpg",
+   "query": "沈阳故宫",
+   "credit": {
+    "source": "wikimedia",
+    "author": "lienyuan lee",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "inside"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/%E7%80%8B%E9%99%BD%E6%95%85%E5%AE%AE_Shenyang_Imperial_Palace_-_panoramio_%282%29.jpg/1280px-%E7%80%8B%E9%99%BD%E6%95%85%E5%AE%AE_Shenyang_Imperial_Palace_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/%E7%80%8B%E9%99%BD%E6%95%85%E5%AE%AE_Shenyang_Imperial_Palace_-_panoramio_%282%29.jpg/1280px-%E7%80%8B%E9%99%BD%E6%95%85%E5%AE%AE_Shenyang_Imperial_Palace_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "瀋陽故宮 Shenyang Imperial Palace - panoramio (2).jpg",
+   "query": "沈阳故宫",
+   "credit": {
+    "source": "wikimedia",
+    "author": "lienyuan lee",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "inside"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/%E9%A0%86%E6%B2%BB%E7%9A%87%E5%B8%9D%E7%9A%84%E6%90%96%E7%B1%83_Cradle_Been_Used_by_Emperor_Junji_-_panoramio.jpg/1280px-%E9%A0%86%E6%B2%BB%E7%9A%87%E5%B8%9D%E7%9A%84%E6%90%96%E7%B1%83_Cradle_Been_Used_by_Emperor_Junji_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/%E9%A0%86%E6%B2%BB%E7%9A%87%E5%B8%9D%E7%9A%84%E6%90%96%E7%B1%83_Cradle_Been_Used_by_Emperor_Junji_-_panoramio.jpg/1280px-%E9%A0%86%E6%B2%BB%E7%9A%87%E5%B8%9D%E7%9A%84%E6%90%96%E7%B1%83_Cradle_Been_Used_by_Emperor_Junji_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "順治皇帝的搖籃 Cradle Been Used by Emperor Junji - panoramio.jpg",
+   "query": "沈阳故宫",
+   "credit": {
+    "source": "wikimedia",
+    "author": "lienyuan lee",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "inside"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "故宫",
+  "盛京",
+  "清皇宫"
+ ],
+ "popularity": 97,
+ "sources": [
+  {
+   "title": "百度百科·沈阳故宫",
+   "url": "https://baike.baidu.com/item/%E6%B2%88%E9%98%B3%E6%95%85%E5%AE%AB",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-02"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Shenyang Imperial Palace",
+  "zh": "沈阳故宫"
+ },
+ "_geocodeTitle": "沈阳故宫博物院",
+ "_geocodeSuspect": false,
+ "district": "210103",
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "满式布局",
+    "score": 4.6,
+    "note": "大政殿与八字十王亭，别处看不到"
+   },
+   {
+    "label": "规模",
+    "score": 3.2,
+    "note": "比北京故宫小得多，两小时逛完"
+   },
+   {
+    "label": "展陈",
+    "score": 3.1,
+    "note": "偏旧，说明牌信息量有限"
+   },
+   {
+    "label": "讲解",
+    "score": 4.0,
+    "note": "跟讲解才读得出满汉合璧的讲究"
+   }
+  ],
+  "body": "清入关前的皇宫，比北京故宫小得多，但自有气派。大政殿与八字排开的十王亭是满式布局，别处看不到；凤凰楼、清宁宫讲的是皇太极的日常，和北京那套对照着看很有意思。缺点是规模真的小，两个小时就逛完，专程跑一趟性价比一般；展陈偏旧，说明牌的信息量有限，不跟讲解收获会少一半。把它和周边的中街、张氏帅府串成半日线更划算。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [],
+  "avoid": [],
+  "sources": []
+ }
 }

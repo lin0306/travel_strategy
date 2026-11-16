@@ -20,9 +20,9 @@
     "transportTip": "地铁 2/3 号线春熙路站步行约 600 米"
   },
   "practical": {
-    "openHours": "按演出排期（以官方公告为准）",
+    "openHours": "每晚 19:00 开演《川剧秀·传奇变脸》（约 70 分钟）；整本戏按排期",
     "openHoursRef": 0,
-    "ticket": "约 80 元起",
+    "ticket": "丙票 68 元 / 乙票 88 元 / 甲票 128 元 / VIP 178 元（均赠盖碗茶）",
     "ticketRef": 0,
     "duration": "建议 120-150 分钟",
     "durationMinutes": [
@@ -72,9 +72,15 @@
       "url": "https://baike.baidu.com/item/%E9%94%A6%E6%B1%9F%E5%89%A7%E5%9C%BA",
       "kind": "wiki",
       "fetchedAt": "2026-09-18"
+    },
+    {
+      "title": "成都市川剧研究院官方购票页票价四档 68/88/128/178；四川新闻网 20",
+      "url": "https://scnews.newssc.org/system/20261027/001650652.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Jinjiang Theatre Chengdu Sichuan opera",
@@ -82,5 +88,22 @@
   },
   "_geocodeTitle": "锦江剧场",
   "_geocodeSuspect": false,
-  "district": "510104"
+  "district": "510104",
+  "_patrol": {
+    "at": "2026-11-08",
+    "changes": [
+      {
+        "field": "门票",
+        "old": "约 80 元起",
+        "new": "丙票 68 元 / 乙票 88 元 / 甲票 128 元 / VIP 178 元（均赠盖碗茶）"
+      },
+      {
+        "field": "开放时间",
+        "old": "按演出排期（以官方公告为准）",
+        "new": "每晚 19:00 开演《川剧秀·传奇变脸》（约 70 分钟）；整本戏按排期"
+      }
+    ],
+    "source": "https://scnews.newssc.org/system/20261027/001650652.html",
+    "reason": "成都市川剧研究院官方购票页票价四档 68/88/128/178；四川新闻网 2026-10-27：锦江剧场川剧秀每晚 19 点开演"
+  }
 }

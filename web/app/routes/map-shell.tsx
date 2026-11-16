@@ -30,7 +30,7 @@ import { MapStatusCard } from '~/common/ui/MapStatusCard'
 import { MapLogPanel } from '~/common/ui/MapLogPanel'
 import { MobileSearchPage } from '~/mobile/ui/SearchPanel'
 import { MobileMapTools } from '~/mobile/ui/MapTools'
-import { usePlanUi } from '~/common/logic/itinerary/planUi'
+import { restorePanelUi, usePlanUi } from '~/common/logic/itinerary/planUi'
 import { usePlanStore } from '~/common/logic/itinerary/planStore'
 import { claimedPoiIds, isPlanFocused, planFocusKey } from '~/common/logic/planFocus'
 import { AddToPlanPicker } from '~/common/ui/plan/AddToPlanPicker'
@@ -40,6 +40,7 @@ import { SpotPicker } from '~/common/ui/plan/SpotPicker'
 import { ToastStack } from '~/common/ui/ToastStack'
 import { AboutModal } from '~/common/ui/doc/AboutModal'
 import { useDocUi } from '~/common/logic/docUi'
+import { usePresence } from '~/common/ui/usePresence'
 import { DesktopRoutePlanPanel } from '~/desktop/ui/RoutePlanPanel'
 import { MobileRoutePlanPanel } from '~/mobile/ui/RoutePlanPanel'
 import {
@@ -70,6 +71,17 @@ export default function MapShellRoute() {
   const containerRef = useRef<HTMLDivElement | null>(null)
   const overlaysRef = useRef<Array<HTMLElement | null>>([])
   const [fallbackData, setFallbackData] = useState<FallbackData>({ pins: [] })
+
+  /**
+   * ★★ 水合后才恢复「路线规划面板开合」（2026-11-15 界面验收 P1）。
+   *
+   * 预渲染 HTML 里面板恒为关；若客户端首帧就带着 sessionStorage 里的「开」，
+   * 整棵服务端 DOM 会被 React 丢弃重渲染，还会撞上腾讯 SDK 的 `<script>` 报错。
+   * 这里挂**全站唯一的布局路由**，一次接回；写回仍走 store 动作，不改任何开关逻辑。
+   */
+  useEffect(() => {
+    restorePanelUi()
+  }, [])
 
   /**
    * 图层重刷注册表。★★ 这是「标注为什么一个都不显示」那一类 bug 的修复点。
@@ -250,8 +262,10 @@ export default function MapShellRoute() {
    */
   const fallback = tmap.status === 'error'
 
-  /** 「关于」弹窗的开关（触发点在顶栏，信道见 `common/logic/docUi.ts`） */
+  /** 「关于」弹窗的开关（触发点在顶栏，信道见 `common/logic/docUi.ts`）。
+   *  退场：清空后多留 160ms 播遮罩淡出（`usePresence`），再真的卸载 */
   const aboutOpen = useDocUi((s) => s.aboutOpen)
+  const aboutP = usePresence(aboutOpen)
 
   const ctx = useMemo<MapShellContext>(
     () => ({
@@ -346,7 +360,7 @@ export default function MapShellRoute() {
              "地图可用区"用的，而模态是**临时遮挡**（打开时用户在看文档），
              参与避让只会让下一次 `fit` 把点位挤到一侧。
              开关走 `docUi` 这条极简信道（触发点在顶栏，见那个文件头的理由）。 */}
-      {aboutOpen ? <AboutModal /> : null}
+      {aboutP.mounted ? <AboutModal exiting={aboutP.exiting} /> : null}
 
       {/* ⑤ 诊断浮层：地图显示日志（**只在开发构建里存在**，生产里连代码都没有）。
           ★ 放在 Provider **外** 且**不带 `data-overlay`** —— 它记的是地图状态，

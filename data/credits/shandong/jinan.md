@@ -1,6 +1,6 @@
 # 济南 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-04
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-13
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Harrison Qi | Unsplash License | [unsplash](https://unsplash.com/photos/city-skyline-during-night-time-GUTW2IDYkyA) |
-| 城市封面 | Harrison Qi | Unsplash License | [unsplash](https://unsplash.com/photos/city-with-high-rise-buildings-during-night-time-f7-xv78IbSM) |
-| 城市封面 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/skyline-view-of-nanjing-city-china-33921375/) |
+| 城市封面 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baotu_Spring,_Jinan_in_Oct_2013.jpg) |
+| 城市封面 | JtWang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%8E%E5%8D%97%E5%A4%A7%E6%98%8E%E6%B9%96_-_panoramio.jpg) |
+| 城市封面 | Rolfmueller | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Back_tiger_spring_2008_09_15.jpg) |
 | 百脉泉 | Qquchn at Chinese Wikipedia | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Moquan.jpg) |
 | 百脉泉 | Qquchn at Chinese Wikipedia | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Shuyuspring.jpg) |
 | 百脉泉 | Zhang Zhiwei, Rolfmueller | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baimai_spring_park_2008_05_30.jpg) |

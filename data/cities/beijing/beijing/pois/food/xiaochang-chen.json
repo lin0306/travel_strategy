@@ -1,66 +1,118 @@
 {
-  "id": "xiaochang-chen",
-  "name": "小肠陈卤煮火烧",
-  "category": "food",
-  "subtype": "local",
-  "summary": "卤煮是老北京最实在的一碗,火烧配上猪下水浇蒜汁。",
-  "description": "卤煮火烧用猪小肠、猪肺、炸豆腐、五花肉加老汤卤,底锅猛火咕嘟,出锅时把火烧(半发面饼)铺在碗底浇上去,配蒜泥、韭菜花、酱豆腐汁。它是南城劳工市场里长出来的东西,重口、顶饱、价格不高,至今仍是非常本地的一种吃法。小肠陈是连锁化做得比较好的老招牌,分店较多,干净程度稳定。",
-  "highlights": [
-    "火烧垫碗底吸卤汁",
-    "蒜泥、韭菜花是灵魂佐料",
-    "重口,清淡派慎点"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.375964,
-      "lat": 39.883108,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "北京市西城区南横东街194号(小肠陈饭庄南横街店)",
-    "district": "西城",
-    "transportTip": "分店较多,以门店地址为准"
+ "id": "xiaochang-chen",
+ "name": "小肠陈卤煮火烧",
+ "category": "food",
+ "subtype": "local",
+ "summary": "卤煮是老北京最实在的一碗,火烧配上猪下水浇蒜汁。",
+ "description": "卤煮火烧用猪小肠、猪肺、炸豆腐、五花肉加老汤卤,底锅猛火咕嘟,出锅时把火烧(半发面饼)铺在碗底浇上去,配蒜泥、韭菜花、酱豆腐汁。它是南城劳工市场里长出来的东西,重口、顶饱、价格不高,至今仍是非常本地的一种吃法。小肠陈是连锁化做得比较好的老招牌,分店较多,干净程度稳定。",
+ "highlights": [
+  "火烧垫碗底吸卤汁",
+  "蒜泥、韭菜花是灵魂佐料",
+  "重口,清淡派慎点"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.375964,
+   "lat": 39.883108,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:00-21:00(以门店公告为准)",
-    "openHoursRef": 0,
-    "ticket": "人均约35元起(以门店为准)",
-    "ticketRef": 0,
-    "duration": "建议 40-80 分钟",
-    "durationMinutes": [
-      40,
-      80
-    ],
-    "priceLevel": "budget"
+  "address": "北京市西城区南横东街194号(小肠陈饭庄南横街店)",
+  "district": "西城",
+  "transportTip": "分店较多,以门店地址为准"
+ },
+ "practical": {
+  "openHours": "约10:30-22:00(以门店公告为准)",
+  "openHoursRef": 0,
+  "ticket": "人均约35元起(以门店为准)",
+  "ticketRef": 0,
+  "duration": "建议 40-80 分钟",
+  "durationMinutes": [
+   40,
+   80
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "卤煮",
+  "重口",
+  "市井"
+ ],
+ "popularity": 80,
+ "sources": [
+  {
+   "title": "百度百科·卤煮火烧",
+   "url": "https://baike.baidu.com/item/%E5%8D%A4%E7%85%AE%E7%81%AB%E7%83%A7",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
   },
-  "audience": [
-    "solo"
+  {
+   "title": "小肠陈火了140年——非遗掌门人专访(附门店营业时间)",
+   "url": "https://c.m.163.com/news/a/LA941QGH0522945C.html",
+   "kind": "media",
+   "fetchedAt": "2026-11-14"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "小肠陈卤煮火烧"
+ },
+ "_geocodeTitle": "小肠陈饭庄(南横街店)",
+ "_geocodeSuspect": false,
+ "district": "110102",
+ "_noImage": true,
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.4,
+    "note": "火烧垫碗底吸卤汁，蒜泥韭菜花是灵魂"
+   },
+   {
+    "label": "环境",
+    "score": 2.6,
+    "note": "南横街老店沿街深巷，店面旧"
+   },
+   {
+    "label": "排队",
+    "score": 3.0,
+    "note": "饭点排队，开门前后最松"
+   },
+   {
+    "label": "价格",
+    "score": 4.2,
+    "note": "一碗几十块，顶饱"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "卤煮",
-    "重口",
-    "市井"
-  ],
-  "popularity": 80,
+  "body": "卤煮的老招牌，老汤卤肠肺豆腐，火烧垫在碗底吸汁，浇蒜泥、韭菜花与酱豆腐汁，是南城最实在的一碗。缺点是南横街老店沿街深巷、店面旧，饭点排队；卤汤偏咸、内脏重口，清淡派慎点。开门前后去不用等。",
+  "basis": "web",
+  "at": "2026-11-14",
+  "fits": [],
+  "avoid": [],
   "sources": [
-    {
-      "title": "百度百科·卤煮火烧",
-      "url": "https://baike.baidu.com/item/%E5%8D%A4%E7%85%AE%E7%81%AB%E7%83%A7",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
+   "https://c.m.163.com/news/a/LA941QGH0522945C.html"
+  ]
+ },
+ "_patrol": {
+  "at": "2026-11-14",
+  "changes": [
+   {
+    "field": "开放时间",
+    "old": "约10:00-21:00(以门店公告为准)",
+    "new": "约10:30-22:00(以门店公告为准)"
+   }
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "小肠陈卤煮火烧"
-  },
-  "_geocodeTitle": "小肠陈饭庄(南横街店)",
-  "_geocodeSuspect": false,
-  "district": "110102",
-  "_noImage": true
+  "source": "https://c.m.163.com/news/a/LA941QGH0522945C.html",
+  "reason": "2026 非遗掌门人专访列门店指引 10:30-22:00，图商与百科一致，旧分时段为 2022 年前口径"
+ }
 }

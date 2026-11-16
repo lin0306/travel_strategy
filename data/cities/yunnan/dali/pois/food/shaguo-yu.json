@@ -1,68 +1,107 @@
 {
-  "id": "shaguo-yu",
-  "name": "大理砂锅鱼",
-  "category": "food",
-  "subtype": "local",
-  "summary": "大理一道名菜，洱海鲜鱼配火腿香菇豆腐用砂锅炖。",
-  "description": "大理砂锅鱼是当地一道名菜，用洱海的鱼，配上火腿、香菇、豆腐、笋之类，在砂锅里慢慢炖。汤鲜，鱼嫩，配料多。过去是宴客才上的菜，现在馆子里都能点。来大理吃一顿砂锅鱼算正经。",
-  "highlights": [
-    "洱海鲜鱼配火腿香菇豆腐砂锅炖",
-    "汤鲜鱼嫩配料多",
-    "当地宴客名菜"
-  ],
-  "location": {
-    "point": {
-      "lng": 100.168,
-      "lat": 25.706,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "云南省大理白族自治州大理市古城内餐馆",
-    "district": "大理市",
-    "transportTip": "古城内多家餐馆有售"
+ "id": "shaguo-yu",
+ "name": "大理砂锅鱼",
+ "category": "food",
+ "subtype": "local",
+ "summary": "大理一道名菜，洱海鲜鱼配火腿香菇豆腐用砂锅炖。",
+ "description": "大理砂锅鱼是当地一道名菜，用洱海的鱼，配上火腿、香菇、豆腐、笋之类，在砂锅里慢慢炖。汤鲜，鱼嫩，配料多。过去是宴客才上的菜，现在馆子里都能点。来大理吃一顿砂锅鱼算正经。",
+ "highlights": [
+  "洱海鲜鱼配火腿香菇豆腐砂锅炖",
+  "汤鲜鱼嫩配料多",
+  "当地宴客名菜"
+ ],
+ "location": {
+  "point": {
+   "lng": 100.168,
+   "lat": 25.706,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:30-21:00",
-    "openHoursRef": 0,
-    "ticket": "约几十到上百元",
-    "ticketRef": 0,
-    "duration": "建议 45-90 分钟",
-    "durationMinutes": [
-      45,
-      90
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "family"
+  "address": "云南省大理白族自治州大理市古城内餐馆",
+  "district": "大理市",
+  "transportTip": "古城内多家餐馆有售"
+ },
+ "practical": {
+  "openHours": "约10:30-21:00",
+  "openHoursRef": 0,
+  "ticket": "约几十到上百元",
+  "ticketRef": 0,
+  "duration": "建议 45-90 分钟",
+  "durationMinutes": [
+   45,
+   90
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "名菜",
-    "砂锅",
-    "鱼"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "名菜",
+  "砂锅",
+  "鱼"
+ ],
+ "popularity": 66,
+ "sources": [
+  {
+   "title": "百度百科·大理砂锅鱼",
+   "url": "https://baike.baidu.com/item/%E5%A4%A7%E7%90%86%E7%A0%82%E9%94%85%E9%B1%BC",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "大理砂锅鱼"
+ },
+ "_geocodeTitle": "大理市",
+ "_geocodeSuspect": false,
+ "district": "532901",
+ "_noImage": true,
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.2,
+    "note": "汤鲜鱼嫩，配料比鱼还下饭"
+   },
+   {
+    "label": "分量",
+    "score": 4.2,
+    "note": "一锅料足，人少会浪费"
+   },
+   {
+    "label": "价格",
+    "score": 3.2,
+    "note": "馆子里一份不便宜"
+   },
+   {
+    "label": "环境",
+    "score": 3.4,
+    "note": "多为旅游区家常菜馆"
+   }
   ],
-  "popularity": 66,
-  "sources": [
-    {
-      "title": "百度百科·大理砂锅鱼",
-      "url": "https://baike.baidu.com/item/%E5%A4%A7%E7%90%86%E7%A0%82%E9%94%85%E9%B1%BC",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "body": "砂锅鱼是大理的正经菜，洱海的鱼配火腿、香菇、豆腐慢慢炖，汤鲜肉嫩，配料比鱼还下饭，过去是宴客才上的菜。现在馆子里多用养殖鱼，鲜味比老辈说的差一截；一份价格不算便宜，人少点会浪费。人多来吃合适，两个人点小份再加个素菜刚好。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "正餐",
+   "多人",
+   "尝本地菜"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "大理砂锅鱼"
-  },
-  "_geocodeTitle": "大理市",
-  "_geocodeSuspect": false,
-  "district": "532901",
-  "_noImage": true
+  "avoid": [
+   "一个人",
+   "预算紧"
+  ],
+  "sources": []
+ }
 }

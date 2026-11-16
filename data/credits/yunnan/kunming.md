@@ -1,6 +1,6 @@
 # 昆明 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-09-28
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-14
 
 ## 概览
 
@@ -74,14 +74,15 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | zhang kaiyv | Unsplash License | [unsplash](https://unsplash.com/photos/a-body-of-water-with-a-land-in-the-back-qn6-cEO8Ryo) |
-| 城市封面 | 鑫洋 俸 | Pexels License | [pexels](https://www.pexels.com/photo/temple-on-cui-lake-in-kunming-in-china-19636078/) |
-| 城市封面 | Steve Chen | Pexels License | [pexels](https://www.pexels.com/photo/downtown-modern-architecture-reflecting-in-lake-19296979/) |
+| 城市封面 | Ngguls | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260222_Kunming_Dianchi_Lake,_looking_at_the_West_Mountain_from_the_East_Bank.jpg) |
+| 城市封面 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:55408-Kunming-Green-Lake-Park.jpg) |
 | 安宁温泉 | Zhangmoon618 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Cliff_inscriptions_in_Wenquan_01.jpg) |
 | 安宁温泉 | Zhangmoon618 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Cliff_inscriptions_in_Wenquan_02.jpg) |
 | 翠湖公园 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:55408-Kunming-Green-Lake-Park.jpg) |
 | 翠湖公园 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:55506-Kunming-Green-Lake-Park.jpg) |
 | 翠湖公园 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:55524-Kunming-Green-Lake-Park.jpg) |
+| 翠湖公园 | drnan tu from Shenzhen, China | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 翠湖公园 | drnan tu from Shenzhen, China | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 大观楼 | Este Momento | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Daguan-pavilion-2_(20220427).jpg) |
 | 大观楼 | Este Momento | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Daguan-pavilion-heritage-1_(20220427).jpg) |
 | 大观楼 | Este Momento | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Daguan-pavilion-heritage-2_(20220427).jpg) |
@@ -104,8 +105,24 @@
 | 云南陆军讲武堂 | zhanyoun | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E9%99%86%E5%86%9B%E8%AE%B2%E6%AD%A6%E5%A0%82%E6%93%8D%E5%9C%BA_-_panoramio.jpg) |
 | 云南陆军讲武堂 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Kunming_Yunnan_Lujun_Jiangwutang_Jiuzhi_2014.09.26_18-26-32.jpg) |
 | 云南陆军讲武堂 | Kcx36 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E9%99%86%E5%86%9B%E8%AE%B2%E6%AD%A6%E5%A0%82-%E8%94%A1%E9%94%B7%E5%8D%8A%E8%BA%AB%E5%83%8F.jpg) |
+| 云南陆军讲武堂 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 云南陆军讲武堂 | 源義信 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 云南陆军讲武堂 | zhanyoun | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 轿子雪山 | 維基小霸王 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E7%9C%81%E6%98%86%E6%98%8E%E5%B8%82%E7%A6%84%E5%8A%9D%E5%8E%BF%E4%B9%8C%E8%92%99%E4%B9%A1%E8%BD%BF%E5%AD%90%E9%9B%AA%E5%B1%B1_1.jpg) |
+| 轿子雪山 | 維基小霸王 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E7%9C%81%E6%98%86%E6%98%8E%E5%B8%82%E7%A6%84%E5%8A%9D%E5%8E%BF%E4%B9%8C%E8%92%99%E4%B9%A1%E8%BD%BF%E5%AD%90%E9%9B%AA%E5%B1%B1_2.jpg) |
+| 轿子雪山 | 維基小霸王 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E7%9C%81%E6%98%86%E6%98%8E%E5%B8%82%E7%A6%84%E5%8A%9D%E5%8E%BF%E4%B9%8C%E8%92%99%E4%B9%A1%E8%BD%BF%E5%AD%90%E9%9B%AA%E5%B1%B1_3.jpg) |
+| 轿子雪山 | Zhangmoon618 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jiaozi_Shan_near_Kunming.jpg) |
+| 轿子雪山 | Timsong311 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jiaozi_snow_mountain_main_peak.jpg) |
+| 金殿 | Gisling | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%98%86%E6%98%8E%E5%A4%AA%E5%92%8C%E5%AE%AB%E9%87%91%E6%AE%BF.JPG) |
+| 金殿 | drnan tu from Shenzhen, China | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%98%86%E6%98%8E%E9%87%91%E6%AE%BF%E5%85%AC%E5%9B%AD_(8511613487).jpg) |
 | 九乡风景区 | Yoshi Canopus | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jiuxiang_-_Bat_Cave.jpg) |
 | 九乡风景区 | Yoshi Canopus | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jiuxiang_-_Entrance.jpg) |
+| 昆明市博物馆 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 昆明市博物馆 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 昆明市博物馆 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 昆明市博物馆 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 昆明市博物馆 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 昆明市博物馆 | Cangminzho | CC BY-SA 4.0 | [wikimedia](https://www.wikidata.org/wiki/Q6444888) |
 | 昆明植物园 | Daderot | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Kunming_Botanical_Garden_-_DSC02720.JPG) |
 | 昆明植物园 | Daderot | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Kunming_Botanical_Garden_-_DSC02725.JPG) |
 | 昆明植物园 | Daderot | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Kunming_Botanical_Garden_-_DSC02753.JPG) |
@@ -118,13 +135,30 @@
 | 石林风景区 | Ngguls | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260222_Yunnan_Stone_Forest_Scenic_Area.jpg) |
 | 石林风景区 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shilin,_Yunnan_24740.jpg) |
 | 石林风景区 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shilin_Yunnan_China_Shilin-Stone-Forest-01.jpg) |
+| 西南联大旧址 | Kcx36 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 西南联大旧址 | Kcx36 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 西南联大旧址 | Kcx36 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 西南联大旧址 | Cangminzho | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9B%BD%E7%AB%8B%E8%A5%BF%E5%8D%97%E8%81%94%E5%A4%A7%E6%97%A7%E5%9D%80_%E7%81%AB%E7%82%AC%E6%9F%B1_2.jpg) |
+| 西南联大旧址 | Jiangshang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E5%8D%97%E8%81%94%E5%A4%A7-%E5%A4%A9%E6%96%87%E5%8F%B0%E6%97%A7%E5%9D%80.jpg) |
+| 西南联大旧址 | ping lin | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 西山龙门 | hellomatt | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 西山龙门 | Colin W | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 西山龙门 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 西山龙门 | 储油站 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E5%B1%B1%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F.jpg) |
+| 西山龙门 | 储油站 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E5%B1%B1%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F_(27060).jpg) |
 | 西山森林公园 | Chinatravelsavvy | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xi_Shan_3.jpg) |
 | 西山森林公园 | Chinatravelsavvy | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xi_Shan_4.jpg) |
 | 西山森林公园 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xishan_Forest_Park,_Shijiazhuang_(20241104154000).jpg) |
 | 阳宗海 | Zhangmoon618 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yangzong_Lake.png) |
+| 圆通山 | Daderot | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Kunming_Zoo_-_DSC04348.JPG) |
+| 圆通山 | Daderot | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Kunming_Zoo_-_DSC04366.JPG) |
+| 圆通山 | Daderot | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Kunming_Zoo_-_DSC04371.JPG) |
 | 圆通寺 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:55594-Kunming-Yuantong-Temple.jpg) |
 | 圆通寺 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:55596-Kunming-Yuantong-Temple.jpg) |
 | 圆通寺 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:55604-Kunming-Yuantong-Temple.jpg) |
+| 圆通寺 | Roller Coaster Philosophy | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 圆通寺 | Roller Coaster Philosophy | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 圆通寺 | Roller Coaster Philosophy | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 云南省博物馆 | Zhangmoon618 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86-%E4%B8%9C%E6%B1%89-%E6%98%86%E6%98%8E%E7%BE%8A%E7%94%AB%E5%A4%B4-%E9%99%B6%E4%BB%93.jpg) |
 | 云南省博物馆 | Zhangmoon618 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86-%E4%B8%9C%E6%B1%89-%E6%98%86%E6%98%8E%E7%BE%8A%E7%94%AB%E5%A4%B4-%E9%99%B6%E5%85%94.jpg) |
 | 云南省博物馆 | Zhangmoon618 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86-%E4%B8%9C%E6%B1%89-%E6%98%86%E6%98%8E%E7%BE%8A%E7%94%AB%E5%A4%B4-%E9%99%B6%E7%81%B6.jpg) |
@@ -132,7 +166,10 @@
 | 饵块烧(嘉年华店) | tak.wing | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%A7%E9%A5%B5%E5%9D%97-%E4%BA%91%E5%8D%97%E6%98%86%E6%98%8E_01.jpg) |
 | 饵块烧(嘉年华店) | tak.wing | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%A7%E9%A5%B5%E5%9D%97-%E4%BA%91%E5%8D%97%E6%98%86%E6%98%8E_02.jpg) |
 | 嘉华饼屋(园西店) | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%98%89%E5%8D%8E%E9%A5%BC%E5%B1%8B%E5%85%89%E5%8D%8E%E8%A1%97%E5%BA%97_-_2025-05-16.jpg) |
+| 建新园云南过桥米线(总店) | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 建新园云南过桥米线(总店) | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 野菌园野生菌火锅(关兴路总店) | Hyuki | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%87%8E%E7%94%9F%E8%8F%8C%E7%81%AB%E9%94%85-1813888.jpg) |
+| 昆明老街茶馆 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 桥香园云南过桥米线(金马碧鸡店) | Baycrest | CC BY-SA 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Crossing_the_Bridge_Noodle_at_Qian_Xiang_Yuan.jpg) |
 | 石屏会馆 | Zhangmoon618 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%9F%B3%E5%B1%8F%E4%BC%9A%E9%A6%86.jpg) |
 | 石屏会馆 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%9F%B3%E5%B1%8F%E4%BC%9A%E9%A6%86_-_2023-08-12_01.jpg) |
@@ -140,6 +177,15 @@
 | 祥云美食城 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%98%86%E6%98%8E_%E7%A5%A5%E4%BA%91%E7%BE%8E%E9%A3%9F%E5%9F%8E_-_panoramio.jpg) |
 | 祥云美食城 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%98%86%E6%98%8E_%E7%A5%A5%E4%BA%91%E7%BE%8E%E9%A3%9F%E5%9F%8E_indoor_-_panoramio.jpg) |
 | 园西路美食街 | Alpha | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%A4%E5%88%80%E9%B8%AD_-_%E4%BC%8A%E6%83%A0%E5%9B%AD_%E6%B8%85%E7%9C%9F_%E9%A4%90%E5%8E%85_2007.jpg) |
+| 斗南花市 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 斗南花市 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 斗南花市 | drnan tu from Shenzhen, China | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 斗南花市 | drnan tu from Shenzhen, China | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 斗南花市 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 斗南花市 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 海埂大坝 | Zhangmoon618 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 海埂大坝 | 张元柏 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 海埂大坝 | 张元柏 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 教场中路 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%98%86%E6%98%8E%E5%B8%82%E6%95%99%E5%9C%BA%E4%B8%AD%E8%B7%AF%E8%93%9D%E8%8A%B1%E6%A5%B9_-_2025-05-17_01.jpg) |
 | 教场中路 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%98%86%E6%98%8E%E5%B8%82%E6%95%99%E5%9C%BA%E4%B8%AD%E8%B7%AF%E8%93%9D%E8%8A%B1%E6%A5%B9_-_2025-05-17_02.jpg) |
 | 教场中路 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%98%86%E6%98%8E%E5%B8%82%E6%95%99%E5%9C%BA%E4%B8%AD%E8%B7%AF%E8%93%9D%E8%8A%B1%E6%A5%B9_-_2025-05-17_03.jpg) |

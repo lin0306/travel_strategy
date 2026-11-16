@@ -1,143 +1,181 @@
 {
-  "id": "xizhou",
-  "name": "喜洲古镇",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "洱海西边的一座白族古镇，保留大片白族民居，麦田环抱。",
-  "description": "喜洲在洱海西边、苍山脚下的坝子里，是白族聚居的古镇。这里保留着大片白族民居，白墙青瓦、飞檐照壁，严家大院是代表。镇子外头是连片的稻田，春天绿、秋天黄，很出片。喜洲粑粑是这里的名吃。比大理古城安静。",
-  "highlights": [
-    "白族古镇，保留大片白族民居",
-    "严家大院是白族建筑代表",
-    "镇外连片稻田，春绿秋黄出片"
-  ],
-  "location": {
-    "point": {
-      "lng": 100.131561,
-      "lat": 25.852982,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "云南省大理白族自治州大理市喜洲镇",
-    "district": "大理市",
-    "transportTip": "从古城沿大丽线乘车约四十分钟"
+ "id": "xizhou",
+ "name": "喜洲古镇",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "洱海西边的一座白族古镇，保留大片白族民居，麦田环抱。",
+ "description": "喜洲在洱海西边、苍山脚下的坝子里，是白族聚居的古镇。这里保留着大片白族民居，白墙青瓦、飞檐照壁，严家大院是代表。镇子外头是连片的稻田，春天绿、秋天黄，很出片。喜洲粑粑是这里的名吃。比大理古城安静。",
+ "highlights": [
+  "白族古镇，保留大片白族民居",
+  "严家大院是白族建筑代表",
+  "镇外连片稻田，春绿秋黄出片"
+ ],
+ "location": {
+  "point": {
+   "lng": 100.131561,
+   "lat": 25.852982,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放（严家大院约9:00-17:30）",
-    "openHoursRef": 0,
-    "ticket": "免费（严家大院收费）",
-    "ticketRef": 0,
-    "duration": "建议 120-180 分钟",
-    "durationMinutes": [
-      120,
-      180
-    ],
-    "priceLevel": "free"
+  "address": "云南省大理白族自治州大理市喜洲镇",
+  "district": "大理市",
+  "transportTip": "从古城沿大丽线乘车约四十分钟"
+ },
+ "practical": {
+  "openHours": "全天开放（严家大院约9:00-17:30）",
+  "openHoursRef": 0,
+  "ticket": "免费（严家大院收费）",
+  "ticketRef": 0,
+  "duration": "建议 120-180 分钟",
+  "durationMinutes": [
+   120,
+   180
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E6%9E%97%E8%8B%91%E5%85%A5%E5%8F%A3.jpg/1280px-%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E6%9E%97%E8%8B%91%E5%85%A5%E5%8F%A3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E6%9E%97%E8%8B%91%E5%85%A5%E5%8F%A3.jpg/1280px-%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E6%9E%97%E8%8B%91%E5%85%A5%E5%8F%A3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1920,
+   "alt": "喜洲古镇-喜林苑入口.jpg",
+   "query": "喜洲古镇",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Kcx36",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E6%9E%97%E8%8B%91%E5%85%A5%E5%8F%A3.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "friends",
-    "family"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E6%9E%97%E8%8B%91%E5%85%A5%E5%8F%A3.jpg/1280px-%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E6%9E%97%E8%8B%91%E5%85%A5%E5%8F%A3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E6%9E%97%E8%8B%91%E5%85%A5%E5%8F%A3.jpg/1280px-%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E6%9E%97%E8%8B%91%E5%85%A5%E5%8F%A3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1920,
-      "alt": "喜洲古镇-喜林苑入口.jpg",
-      "query": "喜洲古镇",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Kcx36",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E6%9E%97%E8%8B%91%E5%85%A5%E5%8F%A3.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_01.jpg/1280px-%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_01.jpg/1280px-%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1920,
-      "alt": "喜洲古镇-喜绣坊 01.jpg",
-      "query": "喜洲古镇",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Kcx36",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_01.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_02.jpg/1280px-%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_02.jpg/1280px-%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 608,
-      "alt": "喜洲古镇-喜绣坊 02.jpg",
-      "query": "喜洲古镇",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Kcx36",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_02.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_03.jpg/1280px-%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_03.jpg/1280px-%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 486,
-      "alt": "喜洲古镇-喜绣坊 03.jpg",
-      "query": "喜洲古镇",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Kcx36",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_03.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_04.jpg/1280px-%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_04.jpg/1280px-%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 486,
-      "alt": "喜洲古镇-喜绣坊 04.jpg",
-      "query": "喜洲古镇",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Kcx36",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_04.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "古镇",
-    "白族",
-    "稻田"
-  ],
-  "popularity": 78,
-  "sources": [
-    {
-      "title": "百度百科·喜洲镇",
-      "url": "https://baike.baidu.com/item/%E5%96%9C%E6%B4%B2%E9%95%87",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "喜洲古镇"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_01.jpg/1280px-%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_01.jpg/1280px-%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1920,
+   "alt": "喜洲古镇-喜绣坊 01.jpg",
+   "query": "喜洲古镇",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Kcx36",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_01.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "喜洲古镇",
-  "_geocodeSuspect": false,
-  "district": "532901"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_02.jpg/1280px-%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_02.jpg/1280px-%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 608,
+   "alt": "喜洲古镇-喜绣坊 02.jpg",
+   "query": "喜洲古镇",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Kcx36",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_02.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_03.jpg/1280px-%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_03.jpg/1280px-%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 486,
+   "alt": "喜洲古镇-喜绣坊 03.jpg",
+   "query": "喜洲古镇",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Kcx36",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_03.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_04.jpg/1280px-%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_04.jpg/1280px-%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 486,
+   "alt": "喜洲古镇-喜绣坊 04.jpg",
+   "query": "喜洲古镇",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Kcx36",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%96%9C%E6%B4%B2%E5%8F%A4%E9%95%87-%E5%96%9C%E7%BB%A3%E5%9D%8A_04.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "古镇",
+  "白族",
+  "稻田"
+ ],
+ "popularity": 78,
+ "sources": [
+  {
+   "title": "百度百科·喜洲镇",
+   "url": "https://baike.baidu.com/item/%E5%96%9C%E6%B4%B2%E9%95%87",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "喜洲古镇"
+ },
+ "_geocodeTitle": "喜洲古镇",
+ "_geocodeSuspect": false,
+ "district": "532901",
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "建筑",
+    "score": 4.5,
+    "note": "严家大院最能看出三坊一照壁"
+   },
+   {
+    "label": "田园",
+    "score": 4.4,
+    "note": "镇外连片稻田，春绿秋黄"
+   },
+   {
+    "label": "商业化",
+    "score": 3.2,
+    "note": "主街渐被旅拍与网红店占"
+   },
+   {
+    "label": "小吃",
+    "score": 4.0,
+    "note": "喜洲粑粑现烤现吃"
+   }
+  ],
+  "body": "喜洲是白族聚居的老镇，白墙青瓦、飞檐照壁成片，严家大院最能看出三坊一照壁的格局。镇外连片稻田，春天绿秋天黄，比大理古城安静得多，一块现烤的喜洲粑粑就能当早饭。可惜主街也慢慢被旅拍和网红店占了，古镇本体不大，一小时走完；真正值得的是大院里和镇外的田。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "看民居",
+   "田园拍照",
+   "半日游"
+  ],
+  "avoid": [
+   "想逛大商圈"
+  ],
+  "sources": []
+ }
 }

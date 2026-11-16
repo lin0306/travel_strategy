@@ -1,6 +1,6 @@
 # 合肥 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-04
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -54,6 +54,7 @@
 | 包公鱼 | [包公鱼·百度百科](https://baike.baidu.com/item/%E5%8C%85%E5%85%AC%E9%B1%BC) | wiki | 2026-10-04 |
 | 曹操鸡 | [曹操鸡·百度百科](https://baike.baidu.com/item/%E6%9B%B9%E6%93%8D%E9%B8%A1) | wiki | 2026-10-04 |
 | 长丰草莓 | [长丰草莓·百度百科](https://baike.baidu.com/item/%E9%95%BF%E4%B8%B0%E8%8D%89%E8%8E%93) | wiki | 2026-10-04 |
+| 长丰草莓 | [长丰县人民政府：水湖镇镇情简介（县城·草莓核心产区 6 万亩）](https://www.changfeng.gov.cn/public/15081/111473835.html) | media | 2026-11-09 |
 | 巢湖银鱼 | [银鱼·百度百科](https://baike.baidu.com/item/%E9%93%B6%E9%B1%BC) | wiki | 2026-10-04 |
 | 寸金糖 | [寸金糖·百度百科](https://baike.baidu.com/item/%E5%AF%B8%E9%87%91%E7%B3%96) | wiki | 2026-10-04 |
 | 合肥小龙虾 | [小龙虾·百度百科](https://baike.baidu.com/item/%E5%B0%8F%E9%BE%99%E8%99%BE) | wiki | 2026-10-04 |
@@ -78,6 +79,8 @@
 | 包公文化 | [包拯·百度百科](https://baike.baidu.com/item/%E5%8C%85%E6%8B%AF) | wiki | 2026-10-04 |
 | 巢湖渔家文化 | [巢湖·百度百科](https://baike.baidu.com/item/%E5%B7%A2%E6%B9%96) | wiki | 2026-10-04 |
 | 合肥龙虾节 | [中国合肥龙虾节·百度百科](https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E5%90%88%E8%82%A5%E9%BE%99%E8%99%BE%E8%8A%82) | wiki | 2026-10-04 |
+| 合肥龙虾节 | [合肥市农业农村局：第25届合肥龙虾节圆满落幕（骆岗公园航南广场·2026-05）](https://nyncj.hefei.gov.cn/nyzx/gzdt/15529063.html) | media | 2026-11-09 |
+| 合肥龙虾节 | [人民网安徽频道：第25届合肥龙虾节将在骆岗公园航南广场启幕（2026-05）](https://ah.people.com.cn/n2/2026/0512/c358339-41578295.html) | media | 2026-11-09 |
 | 徽菜 | [徽菜·百度百科](https://baike.baidu.com/item/%E5%BE%BD%E8%8F%9C) | wiki | 2026-10-04 |
 | 庐剧 | [庐剧·百度百科](https://baike.baidu.com/item/%E5%BA%90%E5%89%A7) | wiki | 2026-10-04 |
 | 三河水乡民俗 | [三河镇·百度百科](https://baike.baidu.com/item/%E4%B8%89%E6%B2%B3%E9%95%87) | wiki | 2026-10-04 |
@@ -86,9 +89,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Zhengdong Hu | Pexels License | [pexels](https://www.pexels.com/photo/high-rise-buildings-in-a-city-under-blue-sky-13395574/) |
-| 城市封面 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/skyline-view-of-nanjing-city-china-33921375/) |
-| 城市封面 | guo fengrui | Pexels License | [pexels](https://www.pexels.com/photo/nighttime-cityscape-of-hangzhou-china-36565301/) |
+| 城市封面 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baogong_Park_4.jpg) |
+| 城市封面 | JtWang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%89%E6%B2%B3%E5%8F%A4%E9%95%87%E6%9C%9D%E9%98%B3%E6%A5%BC_-_panoramio.jpg) |
+| 城市封面 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Skylines_of_Hefei_at_Tianehu.jpg) |
 | 安徽省美术馆 | HCCB3947 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Anhui_Provincal_Art_Museum.jpg) |
 | 安徽省美术馆 | Ding Yunpeng | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Ding_Yunpeng_%E4%B8%81%E9%9B%B2%E9%B5%AC_-_Baimiao_Lohans_-_2001-182_-_Princeton_University_Art_Museum.jpg) |
 | 安徽省美术馆 | Photograph: Andreas Praefcke | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Gelehrtenstein_Museum_Rietberg_RCH_167.jpg) |
@@ -179,6 +182,8 @@
 | 包公文化 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%90%88%E8%82%A5%E5%8C%85%E5%85%AC%E5%85%AC%E5%9B%AD%E6%B8%85%E9%A3%8E%E9%98%81,_2010-10-16.jpg) |
 | 包公文化 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%90%88%E8%82%A5%E5%8C%85%E5%85%AC%E7%A5%A0,_2010-10-16_06.jpg) |
 | 包公文化 | Hsiung/d6478coke from Tainan city, Taiwan | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:DSC_3798_(4840178223).jpg) |
+| 巢湖渔家文化 | pooliwattano P | Pexels License | [pexels](https://www.pexels.com/photo/freshly-dried-fish-on-bamboo-tray-outdoor-34404287/) |
+| 巢湖渔家文化 | pooliwattano P | Pexels License | [pexels](https://www.pexels.com/photo/sunlit-fresh-fish-drying-outdoors-in-basket-35078811/) |
 | 徽菜 | Huihermit | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Anhui_Fuyang_Taihe_Banmian.jpeg) |
 | 徽菜 | Zheng Zhou | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Daobanxiang_Ham.jpg) |
 | 徽菜 | Zheng Zhou | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Free-range_Chicken_Soup_(with_goji_berries).jpg) |

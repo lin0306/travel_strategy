@@ -1,66 +1,105 @@
 {
-  "id": "sengguan-cloud",
-  "name": "僧冠峰云海",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "僧冠峰上看云海的机位，雨后清晨常有，山和城都在云上。",
-  "description": "僧冠峰看云海是本地摄影的一个机位 —— 雨后或湿度大的清晨，山下的城和谷里积着一片云，山头露在上面。它免费，离市区近，所以是本地人常去的一个点。爬上去半个钟头，不累。要赶早，太阳出来后云就散了。",
-  "highlights": [
-    "雨后清晨谷里积云，山头露其上",
-    "免费离市区近，本地常去",
-    "要赶早，日出后云散"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.944583,
-      "lat": 40.948788,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市双桥区僧冠峰风景区",
-    "district": "双桥区",
-    "transportTip": "市区公交或打车到半壁山"
+ "id": "sengguan-cloud",
+ "name": "僧冠峰云海",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "僧冠峰上看云海的机位，雨后清晨常有，山和城都在云上。",
+ "description": "僧冠峰看云海是本地摄影的一个机位 —— 雨后或湿度大的清晨，山下的城和谷里积着一片云，山头露在上面。它免费，离市区近，所以是本地人常去的一个点。爬上去半个钟头，不累。要赶早，太阳出来后云就散了。",
+ "highlights": [
+  "雨后清晨谷里积云，山头露其上",
+  "免费离市区近，本地常去",
+  "要赶早，日出后云散"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.944583,
+   "lat": 40.948788,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "清晨雨后最佳",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "friends"
+  "address": "河北省承德市双桥区僧冠峰风景区",
+  "district": "双桥区",
+  "transportTip": "市区公交或打车到半壁山"
+ },
+ "practical": {
+  "openHours": "清晨雨后最佳",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "云海",
-    "免费",
-    "观景"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "云海",
+  "免费",
+  "观景"
+ ],
+ "popularity": 62,
+ "sources": [
+  {
+   "title": "百度百科·承德",
+   "url": "https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "僧冠峰云海"
+ },
+ "_geocodeTitle": "僧冠峰森林公园",
+ "district": "130802",
+ "_noImage": true,
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.5,
+    "note": "云层压在谷里，山头和城露在上面"
+   },
+   {
+    "label": "体力",
+    "score": 3.6,
+    "note": "半个多钟头能上去，不算累"
+   },
+   {
+    "label": "命中率",
+    "score": 2.6,
+    "note": "要雨后或湿度大的清晨，扑空很常见"
+   },
+   {
+    "label": "成本",
+    "score": 4.6,
+    "note": "免费，离市区近"
+   }
   ],
-  "popularity": 62,
-  "sources": [
-    {
-      "title": "百度百科·承德",
-      "url": "https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "body": "这是本地摄影爱好者的机位，不是景区：雨后或湿度大的清晨，谷里积着一层云，山头从云上冒出来，整座城像浮着。免费、离市区近、爬半个多小时就到，愿意早起的话性价比很高。缺点是它完全看天，晴几天就是普通山头，专程跑一趟扑空的概率不低；天没亮就得上山，山路没灯，得自己带手电，山顶平台也就能站十几个人。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "摄影",
+   "早起",
+   "免费观景"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "僧冠峰云海"
-  },
-  "_geocodeTitle": "僧冠峰森林公园",
-  "district": "130802",
-  "_noImage": true
+  "avoid": [
+   "睡到自然醒",
+   "雨天不想爬山"
+  ],
+  "sources": []
+ }
 }

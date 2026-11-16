@@ -1,68 +1,107 @@
 {
-  "id": "laojie-shaguoju",
-  "name": "老街砂锅居(南勋街店)",
-  "category": "food",
-  "subtype": "local",
-  "summary": "老道外南勋街上的砂锅店，酸菜白肉血肠一锅炖上来，冬天吃最对。",
-  "description": "砂锅居在道外区南勋街，与张包铺隔着不远，是老道外吃饭的一条街上的另一家老铺。做的是砂锅：酸菜白肉、酸菜血肠、丸子锅、豆腐锅，一锅端上来还在滚，配一碗米饭与几碟小菜。酸菜是东北自己渍的，酸得干净，白肉切得薄，血肠嫩，冬天外面冷、屋里一锅热气，是它最好的时候。它不是讲究摆盘的店，就是实惠、热乎、管饱。人均便宜。饭点本地人多，拼桌是常事。吃完可以顺着南勋街往中华巴洛克那边走。",
-  "highlights": [
-    "酸菜白肉血肠一锅端上来还在滚，冬天最对",
-    "老道外吃饭一条街上的老铺，实惠热乎管饱",
-    "与张包铺不远，吃完顺街逛中华巴洛克"
-  ],
-  "location": {
-    "point": {
-      "lng": 126.642352,
-      "lat": 45.780833,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黑龙江省哈尔滨市道外区南勋街307号",
-    "district": "道外区",
-    "transportTip": "乘公交至道外南勋街站；或网约车前往"
+ "id": "laojie-shaguoju",
+ "name": "老街砂锅居(南勋街店)",
+ "category": "food",
+ "subtype": "local",
+ "summary": "老道外南勋街上的砂锅店，酸菜白肉血肠一锅炖上来，冬天吃最对。",
+ "description": "砂锅居在道外区南勋街，与张包铺隔着不远，是老道外吃饭的一条街上的另一家老铺。做的是砂锅：酸菜白肉、酸菜血肠、丸子锅、豆腐锅，一锅端上来还在滚，配一碗米饭与几碟小菜。酸菜是东北自己渍的，酸得干净，白肉切得薄，血肠嫩，冬天外面冷、屋里一锅热气，是它最好的时候。它不是讲究摆盘的店，就是实惠、热乎、管饱。人均便宜。饭点本地人多，拼桌是常事。吃完可以顺着南勋街往中华巴洛克那边走。",
+ "highlights": [
+  "酸菜白肉血肠一锅端上来还在滚，冬天最对",
+  "老道外吃饭一条街上的老铺，实惠热乎管饱",
+  "与张包铺不远，吃完顺街逛中华巴洛克"
+ ],
+ "location": {
+  "point": {
+   "lng": 126.642352,
+   "lat": 45.780833,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约9:00-21:00，以门店公告为准",
-    "openHoursRef": 0,
-    "ticket": "人均便宜",
-    "ticketRef": 0,
-    "duration": "建议 50-90 分钟",
-    "durationMinutes": [
-      50,
-      90
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "family",
-    "friends",
-    "elders"
+  "address": "黑龙江省哈尔滨市道外区南勋街307号",
+  "district": "道外区",
+  "transportTip": "乘公交至道外南勋街站；或网约车前往"
+ },
+ "practical": {
+  "openHours": "约9:00-21:00，以门店公告为准",
+  "openHoursRef": 0,
+  "ticket": "人均便宜",
+  "ticketRef": 0,
+  "duration": "建议 50-90 分钟",
+  "durationMinutes": [
+   50,
+   90
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "砂锅",
-    "酸菜白肉",
-    "实惠"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "family",
+  "friends",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "砂锅",
+  "酸菜白肉",
+  "实惠"
+ ],
+ "popularity": 76,
+ "sources": [
+  {
+   "title": "百度百科·酸菜白肉",
+   "url": "https://baike.baidu.com/item/%E9%85%B8%E8%8F%9C%E7%99%BD%E8%82%89",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "老街砂锅居(南勋街店)"
+ },
+ "_geocodeTitle": "李氏熏酱老街砂锅居(南勋街店)",
+ "_geocodeSuspect": false,
+ "district": "230104",
+ "_noImage": true,
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.0,
+    "note": "酸菜白肉血肠一锅还在滚"
+   },
+   {
+    "label": "分量",
+    "score": 4.2,
+    "note": "实惠热乎管饱"
+   },
+   {
+    "label": "环境",
+    "score": 3.0,
+    "note": "店面偏旧偏挤，拼桌常事"
+   },
+   {
+    "label": "排队",
+    "score": 3.0,
+    "note": "饭点本地人多"
+   }
   ],
-  "popularity": 76,
-  "sources": [
-    {
-      "title": "百度百科·酸菜白肉",
-      "url": "https://baike.baidu.com/item/%E9%85%B8%E8%8F%9C%E7%99%BD%E8%82%89",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
+  "body": "老道外南勋街上的砂锅老铺，酸菜白肉、酸菜血肠、丸子锅一锅端上来还在滚，配一碗米饭与几碟小菜，冬天外面冷、屋里一锅热气是它最好的时候。酸菜渍得干净，白肉切得薄，血肠嫩，走的是实惠热乎管饱那一路。吃完顺街往中华巴洛克逛，动线很顺。缺点是不讲究摆盘，店面环境偏旧、偏挤，饭点本地人多、拼桌是常事；口味重油重盐，吃惯清淡的会觉得冲。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "冬天",
+   "老道外逛吃",
+   "多人分食"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "老街砂锅居(南勋街店)"
-  },
-  "_geocodeTitle": "李氏熏酱老街砂锅居(南勋街店)",
-  "_geocodeSuspect": false,
-  "district": "230104",
-  "_noImage": true
+  "avoid": [
+   "清淡口味",
+   "想安静吃顿饭"
+  ],
+  "sources": []
+ }
 }

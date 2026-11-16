@@ -16,7 +16,7 @@
       "lat": 26.139641,
       "coordSystem": "GCJ-02"
     },
-    "address": "福州市晋安区新店镇",
+    "address": "福州市晋安区新店镇新园路100号",
     "district": "晋安区",
     "transportTip": "公交动物园站；市区打车约25分钟",
     "entrance": {
@@ -26,9 +26,9 @@
     }
   },
   "practical": {
-    "openHours": "约09:00-17:00，以园区公告为准",
+    "openHours": "08:00-18:00（16:30 停止入园，18:00 清场）；7-8 月延至 19:00（17:30 停止入园）",
     "openHoursRef": 0,
-    "ticket": "约30元起，以官方为准",
+    "ticket": "成人票 30 元、半价票 15 元；1.2 米以下儿童、65 岁以上老人、现役军人、残疾人等凭证免票",
     "ticketRef": 0,
     "duration": "建议 120-180 分钟",
     "durationMinutes": [
@@ -58,9 +58,15 @@
       "url": "https://baike.baidu.com/item/%E7%A6%8F%E5%B7%9E%E5%8A%A8%E7%89%A9%E5%9B%AD",
       "kind": "wiki",
       "fetchedAt": "2026-10-04"
+    },
+    {
+      "title": "福州新闻网·动物园恢复营业时间公告（2025-08-29）",
+      "url": "https://m.fznews.com.cn/fzxw/20250829/00T50951S3.shtml",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -69,5 +75,27 @@
   "_geocodeTitle": "福州动物园",
   "_geocodeSuspect": false,
   "district": "350111",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "约09:00-17:00，以园区公告为准",
+        "new": "08:00-18:00（16:30 停止入园，18:00 清场）；7-8 月延至 19:00（17:30 停止入园）"
+      },
+      {
+        "field": "地址",
+        "old": "福州市晋安区新店镇",
+        "new": "福州市晋安区新店镇新园路100号"
+      },
+      {
+        "field": "门票",
+        "old": "约30元起，以官方为准",
+        "new": "成人票 30 元、半价票 15 元；1.2 米以下儿童、65 岁以上老人、现役军人、残疾人等凭证免票"
+      }
+    ],
+    "source": "https://m.fznews.com.cn/fzxw/20250829/00T50951S3.shtml",
+    "reason": "福州新闻网2025-08-29恢复公告：8:00-18:00，16:30停止入园，成人30元"
+  }
 }

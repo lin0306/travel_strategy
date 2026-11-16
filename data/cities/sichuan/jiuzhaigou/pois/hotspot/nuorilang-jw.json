@@ -1,194 +1,232 @@
 {
-  "id": "nuorilang-jw",
-  "name": "诺日朗机位",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "拍宽瀑水帘全景。",
-  "description": "诺日朗机位在三沟交汇的观景台，正对那道两百多米宽的水帘，丰水期水从钙华堤上铺下来，气势铺满画面。它是九寨沟的标志性构图，明信片和宣传照多半出自这里。想拍全景站对面的平台最稳，想拍水帘细节走近一点用慢门。慢门能让水流拉成丝，手机用专业模式也行。冬季冰瀑另有一番冷峻，别错过。这里是换车中心，人来人往，抢机位靠耐心。",
-  "highlights": [
-    "宽瀑全景",
-    "标志构图",
-    "慢门拉丝"
-  ],
-  "location": {
-    "point": {
-      "lng": 103.910389,
-      "lat": 33.160249,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "四川省阿坝藏族羌族自治州九寨沟县漳扎镇九寨沟景区诺日朗中心",
-    "district": "九寨沟",
-    "transportTip": "景区内诺日朗中心站观景台"
+ "id": "nuorilang-jw",
+ "name": "诺日朗机位",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "拍宽瀑水帘全景。",
+ "description": "诺日朗机位在三沟交汇的观景台，正对那道两百多米宽的水帘，丰水期水从钙华堤上铺下来，气势铺满画面。它是九寨沟的标志性构图，明信片和宣传照多半出自这里。想拍全景站对面的平台最稳，想拍水帘细节走近一点用慢门。慢门能让水流拉成丝，手机用专业模式也行。冬季冰瀑另有一番冷峻，别错过。这里是换车中心，人来人往，抢机位靠耐心。",
+ "highlights": [
+  "宽瀑全景",
+  "标志构图",
+  "慢门拉丝"
+ ],
+ "location": {
+  "point": {
+   "lng": 103.910389,
+   "lat": 33.160249,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天（丰水期最佳）",
-    "openHoursRef": 0,
-    "ticket": "含在九寨沟景区门票内",
-    "ticketRef": 0,
-    "duration": "建议 45-120 分钟",
-    "durationMinutes": [
-      45,
-      120
-    ],
-    "priceLevel": "free"
+  "address": "四川省阿坝藏族羌族自治州九寨沟县漳扎镇九寨沟景区诺日朗中心",
+  "district": "九寨沟",
+  "transportTip": "景区内诺日朗中心站观景台"
+ },
+ "practical": {
+  "openHours": "全天（丰水期最佳）",
+  "openHoursRef": 0,
+  "ticket": "含在九寨沟景区门票内",
+  "ticketRef": 0,
+  "duration": "建议 45-120 分钟",
+  "durationMinutes": [
+   45,
+   120
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "friends",
+  "solo",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/%E8%AF%BA%E6%97%A5%E6%9C%97%E7%80%91%E5%B8%83_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/%E8%AF%BA%E6%97%A5%E6%9C%97%E7%80%91%E5%B8%83_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "诺日朗瀑布 - panoramio.jpg",
+   "query": "诺日朗机位",
+   "credit": {
+    "source": "wikimedia",
+    "author": "dayu490301",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "friends",
-    "solo",
-    "couple"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/%E8%AF%BA%E6%97%A5%E6%9C%97%E7%80%91%E5%B8%83_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/%E8%AF%BA%E6%97%A5%E6%9C%97%E7%80%91%E5%B8%83_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "诺日朗瀑布 - panoramio.jpg",
-      "query": "诺日朗机位",
-      "credit": {
-        "source": "wikimedia",
-        "author": "dayu490301",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Jiuzhaigou%2C_Aba%2C_Sichuan%2C_China_-_panoramio_%2873%29.jpg/1280px-Jiuzhaigou%2C_Aba%2C_Sichuan%2C_China_-_panoramio_%2873%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Jiuzhaigou%2C_Aba%2C_Sichuan%2C_China_-_panoramio_%2873%29.jpg/1280px-Jiuzhaigou%2C_Aba%2C_Sichuan%2C_China_-_panoramio_%2873%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Jiuzhaigou, Aba, Sichuan, China - panoramio (73).jpg",
-      "query": "诺日朗机位",
-      "credit": {
-        "source": "wikimedia",
-        "author": "jetsun",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/A6_%E8%AF%BA%E6%97%A5%E6%9C%97%E5%A4%A7%E7%80%91%E5%B8%83_liuzusai2007_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/A6_%E8%AF%BA%E6%97%A5%E6%9C%97%E5%A4%A7%E7%80%91%E5%B8%83_liuzusai2007_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "A6 诺日朗大瀑布 liuzusai2007 - panoramio.jpg",
-      "query": "诺日朗机位",
-      "credit": {
-        "source": "wikimedia",
-        "author": "liuzusai刘祖赛",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/20250513_Norilang_Pubu.jpg/1280px-20250513_Norilang_Pubu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/20250513_Norilang_Pubu.jpg/1280px-20250513_Norilang_Pubu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "20250513 Norilang Pubu.jpg",
-      "query": "诺日朗机位",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Yumeto",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/%E4%B9%9D%E5%AF%A8%E6%B2%9F%E7%9A%84%E8%AF%BA%E6%97%A5%E9%83%8E%E7%80%91%E5%B8%83_-_panoramio.jpg/1280px-%E4%B9%9D%E5%AF%A8%E6%B2%9F%E7%9A%84%E8%AF%BA%E6%97%A5%E9%83%8E%E7%80%91%E5%B8%83_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/%E4%B9%9D%E5%AF%A8%E6%B2%9F%E7%9A%84%E8%AF%BA%E6%97%A5%E9%83%8E%E7%80%91%E5%B8%83_-_panoramio.jpg/1280px-%E4%B9%9D%E5%AF%A8%E6%B2%9F%E7%9A%84%E8%AF%BA%E6%97%A5%E9%83%8E%E7%80%91%E5%B8%83_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "九寨沟的诺日郎瀑布 - panoramio.jpg",
-      "query": "诺日朗机位",
-      "credit": {
-        "source": "wikimedia",
-        "author": "江上清风1961",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/%E9%97%BB%E6%B0%B4%E5%A3%B0.jpg/1280px-%E9%97%BB%E6%B0%B4%E5%A3%B0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/%E9%97%BB%E6%B0%B4%E5%A3%B0.jpg/1280px-%E9%97%BB%E6%B0%B4%E5%A3%B0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "闻水声.jpg",
-      "query": "诺日朗机位",
-      "credit": {
-        "source": "wikimedia",
-        "author": "露茜的笑",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "瀑布",
-    "摄影",
-    "标志"
-  ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·诺日朗瀑布",
-      "url": "https://baike.baidu.com/item/%E8%AF%BA%E6%97%A5%E6%9C%97%E7%80%91%E5%B8%83",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-06"
-    }
-  ],
-  "updatedAt": "2026-11-04",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "诺日朗机位"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Jiuzhaigou%2C_Aba%2C_Sichuan%2C_China_-_panoramio_%2873%29.jpg/1280px-Jiuzhaigou%2C_Aba%2C_Sichuan%2C_China_-_panoramio_%2873%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Jiuzhaigou%2C_Aba%2C_Sichuan%2C_China_-_panoramio_%2873%29.jpg/1280px-Jiuzhaigou%2C_Aba%2C_Sichuan%2C_China_-_panoramio_%2873%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Jiuzhaigou, Aba, Sichuan, China - panoramio (73).jpg",
+   "query": "诺日朗机位",
+   "credit": {
+    "source": "wikimedia",
+    "author": "jetsun",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "诺日朗旅游服务中心",
-  "_geocodeSuspect": false,
-  "district": "513225"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/A6_%E8%AF%BA%E6%97%A5%E6%9C%97%E5%A4%A7%E7%80%91%E5%B8%83_liuzusai2007_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/A6_%E8%AF%BA%E6%97%A5%E6%9C%97%E5%A4%A7%E7%80%91%E5%B8%83_liuzusai2007_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "A6 诺日朗大瀑布 liuzusai2007 - panoramio.jpg",
+   "query": "诺日朗机位",
+   "credit": {
+    "source": "wikimedia",
+    "author": "liuzusai刘祖赛",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/20250513_Norilang_Pubu.jpg/1280px-20250513_Norilang_Pubu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/20250513_Norilang_Pubu.jpg/1280px-20250513_Norilang_Pubu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "20250513 Norilang Pubu.jpg",
+   "query": "诺日朗机位",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Yumeto",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/%E4%B9%9D%E5%AF%A8%E6%B2%9F%E7%9A%84%E8%AF%BA%E6%97%A5%E9%83%8E%E7%80%91%E5%B8%83_-_panoramio.jpg/1280px-%E4%B9%9D%E5%AF%A8%E6%B2%9F%E7%9A%84%E8%AF%BA%E6%97%A5%E9%83%8E%E7%80%91%E5%B8%83_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/%E4%B9%9D%E5%AF%A8%E6%B2%9F%E7%9A%84%E8%AF%BA%E6%97%A5%E9%83%8E%E7%80%91%E5%B8%83_-_panoramio.jpg/1280px-%E4%B9%9D%E5%AF%A8%E6%B2%9F%E7%9A%84%E8%AF%BA%E6%97%A5%E9%83%8E%E7%80%91%E5%B8%83_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "九寨沟的诺日郎瀑布 - panoramio.jpg",
+   "query": "诺日朗机位",
+   "credit": {
+    "source": "wikimedia",
+    "author": "江上清风1961",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/%E9%97%BB%E6%B0%B4%E5%A3%B0.jpg/1280px-%E9%97%BB%E6%B0%B4%E5%A3%B0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/%E9%97%BB%E6%B0%B4%E5%A3%B0.jpg/1280px-%E9%97%BB%E6%B0%B4%E5%A3%B0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "闻水声.jpg",
+   "query": "诺日朗机位",
+   "credit": {
+    "source": "wikimedia",
+    "author": "露茜的笑",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "瀑布",
+  "摄影",
+  "标志"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·诺日朗瀑布",
+   "url": "https://baike.baidu.com/item/%E8%AF%BA%E6%97%A5%E6%9C%97%E7%80%91%E5%B8%83",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-06"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "诺日朗机位"
+ },
+ "_geocodeTitle": "诺日朗旅游服务中心",
+ "_geocodeSuspect": false,
+ "district": "513225",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "构图",
+    "score": 4.7,
+    "note": "宽瀑铺满画面，九寨的标志性一张"
+   },
+   {
+    "label": "人流",
+    "score": 2.3,
+    "note": "换车中心，人一直不断"
+   },
+   {
+    "label": "时段",
+    "score": 4.0,
+    "note": "丰水期水量最足"
+   },
+   {
+    "label": "器材",
+    "score": 3.4,
+    "note": "慢门拉丝要脚架或稳定支撑"
+   }
+  ],
+  "body": "正对两百多米宽的水帘，丰水期水从钙华堤上整片铺下来，九寨沟最标志性的那张构图多半出在这里；站对面平台拍全景最稳，走近用慢门能把水流拉成丝。缺点是这里是换车中心，人一直不断，抢机位全靠耐心；水量小的季节气势要打个折。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "拍瀑布",
+   "慢门"
+  ],
+  "avoid": [
+   "想拍空景",
+   "不爱等"
+  ],
+  "sources": []
+ }
 }

@@ -41,53 +41,7 @@
     "提前 1-3 天在官网或微信公众号实名分时段预约，无预约当日不能入馆",
     "周一闭馆；暑期（7-8 月）闭馆日临时调整为周二"
   ],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/BMNH_Barn.jpg/1280px-BMNH_Barn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/BMNH_Barn.jpg/1280px-BMNH_Barn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 730,
-      "alt": "BMNH Barn.jpg",
-      "query": "国家自然博物馆 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "The Biblical Museum of Natural History",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BMNH_Barn.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/BMNH_Chameleon.jpg/1280px-BMNH_Chameleon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/BMNH_Chameleon.jpg/1280px-BMNH_Chameleon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "BMNH Chameleon.jpg",
-      "query": "国家自然博物馆 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "The Biblical Museum of Natural History",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BMNH_Chameleon.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/BMNH_Museum.jpg/1280px-BMNH_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/BMNH_Museum.jpg/1280px-BMNH_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 723,
-      "alt": "BMNH Museum.jpg",
-      "query": "国家自然博物馆 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "The Biblical Museum of Natural History",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BMNH_Museum.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "自然史",
@@ -104,7 +58,7 @@
       "fetchedAt": "2026-10-23"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "National Natural History Museum of China",
@@ -112,5 +66,43 @@
   },
   "_geocodeTitle": "国家自然博物馆",
   "_geocodeSuspect": false,
-  "district": "110101"
+  "district": "110101",
+  "review": {
+    "score": 4.4,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "展陈",
+        "score": 4.0,
+        "note": "古生物大厅的合川马门溪龙骨架最抓人，标本柜加图文是主调"
+      },
+      {
+        "label": "亲子",
+        "score": 4.8,
+        "note": "恐龙与 4D 影厅能让小孩坐得住"
+      },
+      {
+        "label": "免费程度",
+        "score": 4.8,
+        "note": "基本陈列免费"
+      },
+      {
+        "label": "预约难度",
+        "score": 2.6,
+        "note": "全员实名分时段，周末与假期名额很快见底"
+      }
+    ],
+    "body": "先说结论：这是北京看恐龙性价比最高的一处，基本陈列免费，一层的马门溪龙骨架和人类起源展区足够撑起半天。两个坑要提前知道——一是预约难，得提前几天在官网或公众号抢，现场基本进不去；二是展陈方式偏传统，标本柜配说明牌，互动装置不多，大人自己逛一小时就会觉得单薄。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "带娃",
+      "下雨天"
+    ],
+    "avoid": [
+      "临时起意直接去"
+    ],
+    "sources": []
+  },
+  "_noImage": true
 }

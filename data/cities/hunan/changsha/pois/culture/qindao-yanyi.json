@@ -17,13 +17,13 @@
       "coordSystem": "GCJ-02"
     },
     "address": "湖南省长沙市芙蓉区中山路249号红色剧院内",
-    "district": "开福区",
+    "district": "芙蓉区",
     "transportTip": "地铁1号线或2号线五一广场站，步行约八分钟"
   },
   "practical": {
-    "openHours": "约20:00开演（以当日排期为准），以官方公告为准",
+    "openHours": "每晚 20:30 开演，约 23:00-23:30 结束（以当日排期为准）",
     "openHoursRef": 0,
-    "ticket": "票价按座位分区，含小吃饮料，以官方为准",
+    "ticket": "票价按座位分区约 80-280 元，含矿泉水，以官方售票为准",
     "ticketRef": 0,
     "duration": "建议 120-210 分钟",
     "durationMinutes": [
@@ -53,9 +53,15 @@
       "url": "https://baike.baidu.com/item/%E7%90%B4%E5%B2%9B%E6%BC%94%E8%89%BA%E4%B8%AD%E5%BF%83",
       "kind": "wiki",
       "fetchedAt": "2026-09-28"
+    },
+    {
+      "title": "银幕之外，街巷之间：芙蓉演艺新空间的五个创新样本（湖南省文化和旅游厅）",
+      "url": "https://whhlyt.hunan.gov.cn/whhlyt/news/sxxw/202608/t20260814_34044810.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,6 +69,60 @@
   },
   "_geocodeTitle": "琴岛演艺中心(中山路店)",
   "_geocodeSuspect": false,
-  "district": "430105",
-  "_noImage": true
+  "district": "430102",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-14",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "约20:00开演（以当日排期为准），以官方公告为准",
+        "new": "每晚 20:30 开演，约 23:00-23:30 结束（以当日排期为准）"
+      },
+      {
+        "field": "所属区（自动同步 adcode）",
+        "old": "开福区/430105",
+        "new": "芙蓉区/430102"
+      },
+      {
+        "field": "门票",
+        "old": "票价按座位分区，含小吃饮料，以官方为准",
+        "new": "票价按座位分区约 80-280 元，含矿泉水，以官方售票为准"
+      }
+    ],
+    "source": "https://whhlyt.hunan.gov.cn/whhlyt/news/sxxw/202608/t20260814_34044810.html",
+    "reason": "湖南省文旅厅 2026-08 演艺新空间专题：琴岛位于芙蓉区中山路249号、每晚八点半开锣；官网 qindaoyy.com 同步 20:30-23:30"
+  },
+  "review": {
+    "score": 3.9,
+    "verdict": "顺路看看",
+    "facets": [
+      {
+        "label": "氛围",
+        "score": 4.2,
+        "note": "歌舞杂技小品轮着上，台下边吃边看"
+      },
+      {
+        "label": "语言门槛",
+        "score": 2.9,
+        "note": "主持以长沙话为主，听不懂只能靠热闹补"
+      },
+      {
+        "label": "票价",
+        "score": 3.5,
+        "note": "按座位分区，前后排差得多"
+      }
+    ],
+    "body": "长沙歌厅里做得最久的牌子，中山路这家在红色剧院里，离五一广场很近；一台两个多小时的演出，唱歌、舞蹈、杂技、小品轮着来，主持人用长沙话插科打诨，中间有互动，想看一眼长沙夜生活的话比看演唱会直接。缺点是长沙话听不懂的部分只能靠热闹补；票价按座位分区差得多，散场时门口打车要排队。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "夜生活",
+      "本地文化"
+    ],
+    "avoid": [
+      "听不懂方言又想要内容"
+    ],
+    "sources": []
+  }
 }

@@ -1,24 +1,31 @@
 # 长春 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-03
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
 - 省份：吉林
 - adcode：220100
-- POI 数量：57
+- POI 数量：67
 
 ## 文本内容来源
 
 | POI | 来源标题 | 类型 | 抓取日期 |
 |-----|---------|------|---------|
 | 长春北湖湿地公园 | [长春北湖湿地公园·百度百科](https://baike.baidu.com/item/%E9%95%BF%E6%98%A5%E5%8C%97%E6%B9%96%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD) | wiki | 2026-10-03 |
+| 长春博物馆 | [一大波新面孔来袭！长春送上专属“见面礼”！](https://m.thepaper.cn/newsDetail_forward_34000084) | media | 2026-11-07 |
 | 文化广场 | [长春文化广场·百度百科](https://baike.baidu.com/item/%E9%95%BF%E6%98%A5%E6%96%87%E5%8C%96%E5%B9%BF%E5%9C%BA) | wiki | 2026-10-03 |
+| 中国一汽博物馆 | [长春中国一汽博物馆游玩攻略（购票+路线）](https://cc.bendibao.com/tour/2026721/69441.shtm) | media | 2026-11-07 |
+| 长春历史文化博物馆 | [长春历史文化博物馆（百度百科）](https://baike.baidu.com/item/%E9%95%BF%E6%98%A5%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E5%8D%9A%E7%89%A9%E9%A6%86/65483080) | wiki | 2026-11-07 |
+| 黄大年纪念馆 | [免费，必看！这束光，等你来追](http://mp.weixin.qq.com/s?__biz=MzE5MTkxODcwOA==&mid=2247528152&idx=1&sn=80b8e7a1e3af1717ecfcca92af2bcf4d) | media | 2026-11-07 |
 | 长春冰雪新天地 | [长春冰雪新天地·百度百科](https://baike.baidu.com/item/%E9%95%BF%E6%98%A5%E5%86%B0%E9%9B%AA%E6%96%B0%E5%A4%A9%E5%9C%B0) | wiki | 2026-10-03 |
+| 吉林省自然博物馆 | [周末去逛展！吉林首个国家级重点推介展览](https://www.thepaper.cn/newsDetail_forward_34405007) | media | 2026-11-07 |
 | 胜利公园 | [长春胜利公园·百度百科](https://baike.baidu.com/item/%E9%95%BF%E6%98%A5%E8%83%9C%E5%88%A9%E5%85%AC%E5%9B%AD) | wiki | 2026-10-03 |
+| 王大珩故居 | [王大珩故居（百度百科）](https://baike.baidu.com/item/%E7%8E%8B%E5%A4%A7%E7%8F%A9%E6%95%85%E5%B1%85/13575704) | wiki | 2026-11-07 |
 | 长春水文化生态园 | [长春水文化生态园·百度百科](https://baike.baidu.com/item/%E9%95%BF%E6%98%A5%E6%B0%B4%E6%96%87%E5%8C%96%E7%94%9F%E6%80%81%E5%9B%AD) | wiki | 2026-10-03 |
 | 长春世界雕塑园 | [长春世界雕塑园·百度百科](https://baike.baidu.com/item/%E9%95%BF%E6%98%A5%E4%B8%96%E7%95%8C%E9%9B%95%E5%A1%91%E5%9B%AD) | wiki | 2026-10-03 |
 | 长春动植物公园 | [长春动植物公园·百度百科](https://baike.baidu.com/item/%E9%95%BF%E6%98%A5%E5%8A%A8%E6%A4%8D%E7%89%A9%E5%85%AC%E5%9B%AD) | wiki | 2026-10-03 |
+| 长春动植物公园 | [长春市人民政府·守护春城文脉家底 绘就文旅发展新卷](http://www.changchun.gov.cn/zw_33994/yw/zwdt_74/shms/202611/t20261105_3523613.html) | media | 2026-11-12 |
 | 长春文庙 | [长春文庙·百度百科](https://baike.baidu.com/item/%E9%95%BF%E6%98%A5%E6%96%87%E5%BA%99) | wiki | 2026-10-03 |
 | 长影世纪城 | [长影世纪城·百度百科](https://baike.baidu.com/item/%E9%95%BF%E5%BD%B1%E4%B8%96%E7%BA%AA%E5%9F%8E) | wiki | 2026-10-03 |
 | 长影旧址博物馆 | [长春电影制片厂·百度百科](https://baike.baidu.com/item/%E9%95%BF%E6%98%A5%E7%94%B5%E5%BD%B1%E5%88%B6%E7%89%87%E5%8E%82) | wiki | 2026-10-03 |
@@ -37,9 +44,12 @@
 | 吊水壶溶洞 | [吊水壶溶洞·百度百科](https://baike.baidu.com/item/%E5%90%8A%E6%B0%B4%E5%A3%B6%E6%BA%B6%E6%B4%9E) | wiki | 2026-10-03 |
 | 伪满中央银行旧址 | [伪满中央银行·百度百科](https://baike.baidu.com/item/%E4%BC%AA%E6%BB%A1%E4%B8%AD%E5%A4%AE%E9%93%B6%E8%A1%8C) | wiki | 2026-10-03 |
 | 伪满八大部建筑群 | [伪满八大部·百度百科](https://baike.baidu.com/item/%E4%BC%AA%E6%BB%A1%E5%85%AB%E5%A4%A7%E9%83%A8) | wiki | 2026-10-03 |
+| 伪满八大部建筑群 | [吉林省人民政府·长春城市更新与新民大街保护提升](https://www.jl.gov.cn/szfzt/dxdc/jljxs/jlxxsqt/202601/t20260130_3550893.html) | media | 2026-11-12 |
 | 伪满皇宫博物院 | [伪满皇宫博物院·百度百科](https://baike.baidu.com/item/%E4%BC%AA%E6%BB%A1%E7%9A%87%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%99%A2) | wiki | 2026-10-03 |
 | 长春烧烤 | [烧烤·百度百科](https://baike.baidu.com/item/%E7%83%A7%E7%83%A4) | wiki | 2026-10-03 |
+| 长春烧烤 | [长春文明网·桂林路商圈常态化管护报道](http://chc.wenming.cn/gbkjwm/wmcs1/202608/t20260820_9333421.html) | media | 2026-11-12 |
 | 鸡汤豆腐串 | [鸡汤豆腐串·百度百科](https://baike.baidu.com/item/%E9%B8%A1%E6%B1%A4%E8%B1%86%E8%85%90%E4%B8%B2) | wiki | 2026-10-03 |
+| 春发合饭庄 | [长春最好吃的10家锅包肉都在这了！](https://www.peopleapp.com/rmharticle/30019370494) | media | 2026-11-07 |
 | 鼎丰真糕点 | [鼎丰真·百度百科](https://baike.baidu.com/item/%E9%BC%8E%E4%B8%B0%E7%9C%9F) | wiki | 2026-10-03 |
 | 锅包肉 | [锅包肉·百度百科](https://baike.baidu.com/item/%E9%94%85%E5%8C%85%E8%82%89) | wiki | 2026-10-03 |
 | 回宝珍饺子 | [回宝珍饺子·百度百科](https://baike.baidu.com/item/%E5%9B%9E%E5%AE%9D%E7%8F%8D) | wiki | 2026-10-03 |
@@ -53,8 +63,10 @@
 | 雪衣豆沙 | [雪衣豆沙·百度百科](https://baike.baidu.com/item/%E9%9B%AA%E8%A1%A3%E8%B1%86%E6%B2%99) | wiki | 2026-10-03 |
 | 粘豆包 | [粘豆包·百度百科](https://baike.baidu.com/item/%E7%B2%98%E8%B1%86%E5%8C%85) | wiki | 2026-10-03 |
 | 真不同酱肉 | [真不同酱菜·百度百科](https://baike.baidu.com/item/%E7%9C%9F%E4%B8%8D%E5%90%8C) | wiki | 2026-10-03 |
+| 长拖1958文创园 | [“长拖1958”，从旧厂房到潮流打卡地！带你去长春的“798艺术中心”](https://www.toutiao.com/article/7132278394074726945) | media | 2026-11-07 |
 | 文化广场鸽群 | [长春文化广场·百度百科](https://baike.baidu.com/item/%E9%95%BF%E6%98%A5%E6%96%87%E5%8C%96%E5%B9%BF%E5%9C%BA) | wiki | 2026-10-03 |
 | 桂林路夜市 | [桂林路·百度百科](https://baike.baidu.com/item/%E6%A1%82%E6%9E%97%E8%B7%AF) | wiki | 2026-10-03 |
+| 桂林路夜市 | [长春文明网·桂林路商圈常态化管护报道](http://chc.wenming.cn/gbkjwm/wmcs1/202608/t20260820_9333421.html) | media | 2026-11-12 |
 | 净月潭环潭公路 | [净月潭·百度百科](https://baike.baidu.com/item/%E5%87%80%E6%9C%88%E6%BD%AD) | wiki | 2026-10-03 |
 | 净月潭落日 | [净月潭·百度百科](https://baike.baidu.com/item/%E5%87%80%E6%9C%88%E6%BD%AD) | wiki | 2026-10-03 |
 | 南湖垂柳 | [长春南湖公园·百度百科](https://baike.baidu.com/item/%E9%95%BF%E6%98%A5%E5%8D%97%E6%B9%96%E5%85%AC%E5%9B%AD) | wiki | 2026-10-03 |
@@ -63,30 +75,49 @@
 | 五十四路有轨电车 | [长春有轨电车·百度百科](https://baike.baidu.com/item/%E9%95%BF%E6%98%A5%E6%9C%89%E8%BD%A8%E7%94%B5%E8%BD%A6) | wiki | 2026-10-03 |
 | 新民大街建筑立面 | [新民大街·百度百科](https://baike.baidu.com/item/%E6%96%B0%E6%B0%91%E5%A4%A7%E8%A1%97) | wiki | 2026-10-03 |
 | 这有山 | [这有山·百度百科](https://baike.baidu.com/item/%E8%BF%99%E6%9C%89%E5%B1%B1) | wiki | 2026-10-03 |
+| 北京大街西历史文化街区 | [一个历史文化街区的文学韵味——春京西历史文化街区焕新实录](http://wglj.changchun.gov.cn/sy_44789/hyzx/202603/t20260317_3474016.html) | gov | 2026-11-07 |
 | 长春冰雪季 | [长春·百度百科](https://baike.baidu.com/item/%E9%95%BF%E6%98%A5) | wiki | 2026-10-03 |
+| 长春冰雪季 | [长春文旅·2026—2027 长春大冬冰雪季净月潭滑雪场公告](https://www.thepaper.cn/newsDetail_forward_34454081) | media | 2026-11-12 |
+| 老长春商埠地历史文化街区 | [“南”能可贵：再现历史文脉烟火气 长春商埠地历史文化街区小年开街](https://www.jl.chinanews.com.cn/jlly/2026-02-10/256346.html) | media | 2026-11-07 |
 | 长春电影节 | [中国长春电影节·百度百科](https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E9%95%BF%E6%98%A5%E7%94%B5%E5%BD%B1%E8%8A%82) | wiki | 2026-10-03 |
+| 长春电影节 | [文化和旅游部·同意中国长春电影节变更举办周期（2021）](https://mct.gov.cn/whzx/zxgz/jqhdgl/202109/t20210914_927731.htm) | media | 2026-11-12 |
 | 二人转 | [二人转·百度百科](https://baike.baidu.com/item/%E4%BA%8C%E4%BA%BA%E8%BD%AC) | wiki | 2026-10-03 |
 | 吉剧 | [吉剧·百度百科](https://baike.baidu.com/item/%E5%90%89%E5%89%A7) | wiki | 2026-10-03 |
 | 朝鲜族民俗 | [朝鲜族·百度百科](https://baike.baidu.com/item/%E6%9C%9D%E9%B2%9C%E6%97%8F) | wiki | 2026-10-03 |
 | 东北大秧歌 | [东北大秧歌·百度百科](https://baike.baidu.com/item/%E4%B8%9C%E5%8C%97%E5%A4%A7%E7%A7%A7%E6%AD%8C) | wiki | 2026-10-03 |
+| 东北大秧歌 | [长春市文广旅局·2026 新秧歌大集活动公告](http://wglj.changchun.gov.cn/zjwgl_44812/ysczhyc/202603/t20260303_3471117.html) | media | 2026-11-12 |
 
 ## 图片版权
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Zihao Fang | Pexels License | [pexels](https://www.pexels.com/photo/changcheng-27299079/) |
-| 城市封面 | ainc T | Pexels License | [pexels](https://www.pexels.com/photo/aerial-cityscape-view-of-harbin-at-dusk-36212874/) |
-| 城市封面 | Liz Yang | Pexels License | [pexels](https://www.pexels.com/photo/vibrant-pink-blossoms-in-spring-beijing-36894472/) |
+| 城市封面 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:25238-Changchun,_Museum_of_the_Imperial_Palace_of_Manchukuo.jpg) |
+| 城市封面 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Changchun_skyline_with_Ji_Tower_-_panoramio.jpg) |
+| 城市封面 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:25279-Changchun,_Museum_of_the_Imperial_Palace_of_Manchukuo.jpg) |
 | 长春北湖湿地公园 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%95%BF%E6%98%A5%E5%8C%97%E6%B9%96%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD_North_Lake_Wetland_Park_-_panoramio.jpg) |
 | 长春北湖湿地公园 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8C%97%E6%B9%96_bei_hu_-_panoramio.jpg) |
 | 长春北湖湿地公园 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8C%97%E6%B9%96_bei_hu_-_panoramio_(1).jpg) |
 | 长春北湖湿地公园 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8C%97%E6%B9%96_bei_hu_-_panoramio_(2).jpg) |
 | 长春北湖湿地公园 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A1%9E%E4%B8%BD%E5%A8%9C_Sirena(Christine_R._Choe,_Hawaii)_-_panoramio.jpg) |
 | 长春北湖湿地公园 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%9D%BE%E6%99%9A%E4%BA%AD_song_wan_ting_-_panoramio.jpg) |
+| 长春博物馆 | Francesc Fort | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Changchun_Film_Studio_-_Mao_Zedong.jpg) |
+| 长春博物馆 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Cultural_heritage_stele_of_the_Office_of_Jilin_Changchun_Circuit_Intendant_(20230725114123).jpg) |
+| 长春博物馆 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Entrance_of_the_Site_of_the_Office_of_Jilin_Changchun_Circuit_Intendant_(20230725114054).jpg) |
+| 长春博物馆 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gate_of_the_Site_of_the_Office_of_Jilin_Changchun_Circuit_Intendant_(20230725113954).jpg) |
 | 文化广场 | Augustokremo | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:25050%E6%96%87%E5%8C%96%E5%B9%BF%E5%9C%BA.jpg) |
 | 文化广场 | Licjar Xeymelloz | CC0 | [wikimedia](https://commons.wikimedia.org/) |
 | 文化广场 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 文化广场 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 中国一汽博物馆 | TurnOnTheNight | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mercedes-Benz_230E_assembled_by_FAW_Changchun_in_China_Industry_Museum_20260331121518.jpg) |
+| 中国一汽博物馆 | TurnOnTheNight | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mercedes-Benz_230E_assembled_by_FAW_Changchun_in_China_Industry_Museum_20260331121532.jpg) |
+| 中国一汽博物馆 | TurnOnTheNight | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mercedes-Benz_230E_assembled_by_FAW_Changchun_in_China_Industry_Museum_20260331121626.jpg) |
+| 中国一汽博物馆 | TurnOnTheNight | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mercedes-Benz_230E_assembled_by_FAW_Changchun_in_China_Industry_Museum_20260331121702.jpg) |
+| 中国一汽博物馆 | www.mgaylard.co.uk and thanks for looking | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:DH110_Sea_Vixen_FAW.2,_De_Havilland_Aircraft_Museum.jpg) |
+| 中国一汽博物馆 | www.mgaylard.co.uk and thanks for looking | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:DH110_Sea_Vixen_FAW.2_-_54630302219.jpg) |
+| 长春历史文化博物馆 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A00829D_at_Changchun_International_Aviation_Expo_City_(20250922114842).jpg) |
+| 长春历史文化博物馆 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A45668D_at_Changchun_International_Aviation_Expo_City_(20250922114518).jpg) |
+| 黄大年纪念馆 | Unknown authorUnknown author | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:1904%E5%B9%B4%E4%BD%9C_%E5%BC%A0%E4%B9%8B%E6%B4%9E%E3%80%81%E7%9B%9B%E5%AE%A3%E6%80%80%E3%80%81%E7%BC%AA%E8%8D%83%E5%AD%99%E3%80%81%E5%BC%A0%E8%AC%87%E7%AD%89%E5%8D%81%E4%BA%BA.jpg) |
+| 吉林省自然博物馆 | Francesc Fort | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%90%89%E6%9E%97%E7%9C%81%E8%87%AA%E7%84%B6%E5%8D%9A%E7%89%A9%E9%A6%86%E6%9A%A8%E4%B8%9C%E5%8C%97%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E8%87%AA%E7%84%B6%E5%8D%9A%E7%89%A9%E9%A6%86.jpg) |
 | 胜利公园 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%96%B0%E4%BA%AC%E8%A5%BF%E5%85%AC%E5%9B%AD%E4%BA%8B%E5%8B%99%E6%89%80%E6%97%A7%E5%9D%80%EF%BC%88%E8%83%9C%E5%88%A9%E5%85%AC%E5%9B%AD%E7%AE%A1%E7%90%86%E5%A4%84%EF%BC%89_-_panoramio.jpg) |
 | 胜利公园 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A9%E6%99%A8_%E8%83%9C%E5%88%A9%E5%85%AC%E5%9B%AD%E9%97%A8%E5%89%8D_morning_-_panoramio.jpg) |
 | 胜利公园 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%95%BF%E6%98%A5%E5%8E%86%E5%8F%B2%E7%85%A7%E7%89%87%E5%AE%9A%E4%BD%8D-20%E5%B9%B4%E4%BB%A3%E8%A5%BF%E5%85%AC%E5%9B%AD%E4%BA%8B%E5%8A%A1%E6%89%80%E3%80%81%E8%83%9C%E5%88%A9%E5%85%AC%E5%9B%AD%E7%AE%A1%E7%90%86%E5%A4%84%EF%BC%88%E8%AF%A5%E5%BB%BA%E7%AD%91%E4%BB%8D%E5%81%A5%E5%9C%A8%EF%BC%89_-_panoramio.jpg) |
@@ -118,7 +149,6 @@
 | 长影世纪城 | Francesc Fort | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Changchun_Movie_Wonderland_-_12.jpg) |
 | 长影旧址博物馆 | Francesc Fort | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:B%C3%A1i_M%C3%A1o_N%C7%9A.jpg) |
 | 长影旧址博物馆 | Francesc Fort | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Changchun_Film_Studio.jpg) |
-| 长影旧址博物馆 | Francesc Fort | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Changchun_Film_Studio_-_Mao_Zedong.jpg) |
 | 长影旧址博物馆 | Francesc Fort | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chuangye.jpg) |
 | 长影旧址博物馆 | ChengH | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Classic_car_in_an_exhibition_hall_of_Changchun_Film_Studio_1.jpg) |
 | 长影旧址博物馆 | ChengH | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Classic_car_in_an_exhibition_hall_of_Changchun_Film_Studio_2.jpg) |
@@ -186,9 +216,3 @@
 | 二人转 | lienyuan lee | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dongbeilang_Errenzhuan_%E6%9D%B1%E5%8C%97%E6%B5%AA%E4%BA%8C%E4%BA%BA%E8%BD%89_-_panoramio.jpg) |
 | 二人转 | lienyuan lee | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E5%8C%97%E6%B5%AA%E4%BA%8C%E4%BA%BA%E8%BD%89_Dongbeilang_Errenzhuan_-_panoramio.jpg) |
 | 吉剧 | 柳花 | CC BY-SA 2.5 cn | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E5%9E%8B%E7%8E%B0%E4%BB%A3%E5%90%89%E5%89%A7%E3%80%8A%E7%84%A6%E8%A3%95%E7%A6%84%E3%80%8B%E5%89%A7%E7%85%A7.jpg) |
-| 朝鲜族民俗 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Korean_Folk_Park.jpg) |
-| 朝鲜族民俗 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Korean_Folk_Park_1.jpg) |
-| 朝鲜族民俗 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Korean_Folk_Park_2.jpg) |
-| 朝鲜族民俗 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Korean_Folk_Park_3.jpg) |
-| 朝鲜族民俗 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Korean_Folk_Park_4.jpg) |
-| 朝鲜族民俗 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Korean_Folk_Park_5.jpg) |

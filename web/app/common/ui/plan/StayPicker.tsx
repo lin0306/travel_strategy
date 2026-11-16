@@ -32,12 +32,15 @@ export function StayPicker({
   onClose,
   onDone,
   onUseCenter,
+  exiting = false,
 }: {
   city: City | null
   store: ItineraryState
   onClose: () => void
   onDone: (name: string) => void
   onUseCenter: (fromDay: number, toDay: number) => void
+  /** 正在退场（门组件经 `usePresence` 传入）—— 遮罩与卡片一起淡出 */
+  exiting?: boolean
 }) {
   const [q, setQ] = useState('')
   const [fromDay, setFromDay] = useState(store.activeDay)
@@ -79,7 +82,7 @@ export function StayPicker({
      *      而遮罩是**临时遮挡**（开着的时候用户在这个弹窗里，不在看地图）。
      *      之前留着会让下一次 `fit` 误以为遮罩是常驻面板、把点位挤到一侧。
      */
-    <ModalScrim>
+    <ModalScrim exiting={exiting}>
       <div
         className="flt flt-in flex h-full max-h-[640px] w-full max-w-[520px] flex-col overflow-hidden"
         role="dialog"

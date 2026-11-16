@@ -1,72 +1,110 @@
 {
-  "id": "hanpokou-richu",
-  "name": "含鄱口日出",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "太阳从鄱阳湖那头跳出来，是庐山最值得早起的一次。",
-  "description": "含鄱口日出是庐山最著名的一幕，也是很多人上山的唯一目的。原理和井冈山黄洋界类似：夜里谷底冷却、水汽积成云层，含鄱口海拔一千二百多米、正对鄱阳湖方向，天亮时太阳从湖面之上跃出，光先染红湖面，再沿着山脊往上爬。★ 看日出要满足两件事：住牯岭（山上才有这个便利），以及五点前出发（包车或早班观光车，旺季要提前约车）。最好的月份是 9 月到次年 2 月，这段时间空气通透、晴天概率高；夏天多云雾，常常白跑。★ 拍摄：太阳出来前十分钟的霞光比太阳本身更好看，带一支中长焦可以把太阳拍大；山顶温度比牯岭再低几度，手套、厚外套必备。看不清也不必遗憾——云雾里的含鄱口是另一种样子。",
-  "highlights": [
-    "正对鄱阳湖",
-    "五点前出发",
-    "9-2 月概率最高",
-    "霞光胜于日出",
-    "山顶极冷"
-  ],
-  "location": {
-    "point": {
-      "lng": 115.989141,
-      "lat": 29.543928,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "九江市庐山东谷含鄱口观景台（牯岭东南约 8 公里）",
-    "district": "庐山",
-    "transportTip": "牯岭镇包车或早班观光车约 25 分钟（需提前约车）"
+ "id": "hanpokou-richu",
+ "name": "含鄱口日出",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "太阳从鄱阳湖那头跳出来，是庐山最值得早起的一次。",
+ "description": "含鄱口日出是庐山最著名的一幕，也是很多人上山的唯一目的。原理和井冈山黄洋界类似：夜里谷底冷却、水汽积成云层，含鄱口海拔一千二百多米、正对鄱阳湖方向，天亮时太阳从湖面之上跃出，光先染红湖面，再沿着山脊往上爬。★ 看日出要满足两件事：住牯岭（山上才有这个便利），以及五点前出发（包车或早班观光车，旺季要提前约车）。最好的月份是 9 月到次年 2 月，这段时间空气通透、晴天概率高；夏天多云雾，常常白跑。★ 拍摄：太阳出来前十分钟的霞光比太阳本身更好看，带一支中长焦可以把太阳拍大；山顶温度比牯岭再低几度，手套、厚外套必备。看不清也不必遗憾——云雾里的含鄱口是另一种样子。",
+ "highlights": [
+  "正对鄱阳湖",
+  "五点前出发",
+  "9-2 月概率最高",
+  "霞光胜于日出",
+  "山顶极冷"
+ ],
+ "location": {
+  "point": {
+   "lng": 115.989141,
+   "lat": 29.543928,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "日出时段（观光车常规 7:00 首班，看日出需另安排）",
-    "openHoursRef": 0,
-    "ticket": "含庐山景区大门票（官方为准）",
-    "ticketRef": 0,
-    "duration": "建议 60-150 分钟",
-    "durationMinutes": [
-      60,
-      150
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "solo",
-    "family"
+  "address": "九江市庐山东谷含鄱口观景台（牯岭东南约 8 公里）",
+  "district": "庐山",
+  "transportTip": "牯岭镇包车或早班观光车约 25 分钟（需提前约车）"
+ },
+ "practical": {
+  "openHours": "日出时段（观光车常规 7:00 首班，看日出需另安排）",
+  "openHoursRef": 0,
+  "ticket": "含庐山景区大门票（官方为准）",
+  "ticketRef": 0,
+  "duration": "建议 60-150 分钟",
+  "durationMinutes": [
+   60,
+   150
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "日出",
-    "摄影",
-    "含鄱口",
-    "早起"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "solo",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "日出",
+  "摄影",
+  "含鄱口",
+  "早起"
+ ],
+ "popularity": 94,
+ "sources": [
+  {
+   "title": "百度百科·含鄱口",
+   "url": "https://baike.baidu.com/item/%E5%90%AB%E9%84%B1%E5%8F%A3",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-07"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "含鄱口日出"
+ },
+ "_geocodeTitle": "含鄱口(正门)望鄱亭",
+ "_geocodeSuspect": false,
+ "district": "360483",
+ "_noImage": true,
+ "review": {
+  "score": 4.5,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "日出",
+    "score": 4.6,
+    "note": "太阳从鄱阳湖方向跃出，光先染红湖面"
+   },
+   {
+    "label": "概率",
+    "score": 3.2,
+    "note": "九到次年二月通透，夏天多云雾"
+   },
+   {
+    "label": "交通",
+    "score": 3.0,
+    "note": "五点前出发，旺季要提前约车"
+   },
+   {
+    "label": "保暖",
+    "score": 2.8,
+    "note": "山顶比牯岭再低几度，风硬"
+   }
   ],
-  "popularity": 94,
-  "sources": [
-    {
-      "title": "百度百科·含鄱口",
-      "url": "https://baike.baidu.com/item/%E5%90%AB%E9%84%B1%E5%8F%A3",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-07"
-    }
+  "body": "正对鄱阳湖方向，太阳从湖面之上跃出，光先染红湖面再沿山脊往上爬。要看成就两件事：住牯岭、五点前出发，旺季还得提前约车。九到次年二月空气通透、晴天概率高，夏天多云雾常常什么都看不到，白跑一趟也别太遗憾。日出前十分钟的霞光比太阳本身好看。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "摄影",
+   "愿起早"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "含鄱口日出"
-  },
-  "_geocodeTitle": "含鄱口(正门)望鄱亭",
-  "_geocodeSuspect": false,
-  "district": "360483",
-  "_noImage": true
+  "avoid": [
+   "夏季上山",
+   "怕冷"
+  ],
+  "sources": []
+ }
 }

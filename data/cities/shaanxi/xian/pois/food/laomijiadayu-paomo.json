@@ -16,7 +16,7 @@
       "lat": 34.263194,
       "coordSystem": "GCJ-02"
     },
-    "address": "西安市多区有店（以门店公告为准）",
+    "address": "西安市莲湖区西羊市127号（回民街总店）",
     "district": "莲湖区",
     "transportTip": "各分店位置不同，建议先查门店再出发"
   },
@@ -52,9 +52,15 @@
       "url": "https://baike.baidu.com/item/%E7%89%9B%E7%BE%8A%E8%82%89%E6%B3%A1%E9%A6%8D",
       "kind": "wiki",
       "fetchedAt": "2026-09-19"
+    },
+    {
+      "title": "百度百科·老米家大雨泡馍（回民街总店）",
+      "url": "https://baike.baidu.com/item/%E8%80%81%E7%B1%B3%E5%AE%B6%E5%A4%A7%E9%9B%A8%E6%B3%A1%E9%A6%8D%EF%BC%88%E5%9B%9E%E6%B0%91%E8%A1%97%E6%80%BB%E5%BA%97%EF%BC%89/58355482",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-29",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,5 +69,17 @@
   "_geocodeTitle": "老米家大雨泡馍(西羊市街店)",
   "_geocodeSuspect": false,
   "district": "610104",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "西安市多区有店（以门店公告为准）",
+        "new": "西安市莲湖区西羊市127号（回民街总店）"
+      }
+    ],
+    "source": "https://baike.baidu.com/item/%E8%80%81%E7%B1%B3%E5%AE%B6%E5%A4%A7%E9%9B%A8%E6%B3%A1%E9%A6%8D%EF%BC%88%E5%9B%9E%E6%B0%91%E8%A1%97%E6%80%BB%E5%BA%97%EF%BC%89/58355482",
+    "reason": "总店门牌西羊市127号（图商POI距库内坐标15米，坐标不动）"
+  }
 }

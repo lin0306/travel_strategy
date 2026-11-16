@@ -1,67 +1,108 @@
 {
-  "id": "miaoshi-sichuan",
-  "name": "缪氏川菜",
-  "category": "food",
-  "subtype": "local",
-  "summary": "深圳自己的川菜老牌子：1996 年开到现在，辣度是按本地改过的那一档。",
-  "description": "深圳外来人口多，川菜是最早铺开的外省菜系之一。缪氏是 1996 年在深圳开的本地川菜品牌，到现在还在华强北一带。它做的辣度是调整过的：比四川本地温和，油量也收了一些。水煮鱼、夫妻肺片、干煸四季豆是常点的几样。客单属于实惠那一档。它适合一个具体场景：连续吃了几天清淡之后想换个口味。晚饭时间排队。",
-  "highlights": [
-    "1996 年开到现在的深圳本地川菜品牌",
-    "辣度按本地口味调低",
-    "价位实惠，饭点排队"
-  ],
-  "location": {
-    "point": {
-      "lng": 114.032488,
-      "lat": 22.611513,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "深圳市福田区燕南路华强北一带（多家门店，以实际地址为准）",
-    "district": "龙华区",
-    "transportTip": "地铁1号线华强路站 / 地铁2号线燕南站"
+ "id": "miaoshi-sichuan",
+ "name": "缪氏川菜",
+ "category": "food",
+ "subtype": "local",
+ "summary": "深圳自己的川菜老牌子：1996 年开到现在，辣度是按本地改过的那一档。",
+ "description": "深圳外来人口多，川菜是最早铺开的外省菜系之一。缪氏是 1996 年在深圳开的本地川菜品牌，到现在还在华强北一带。它做的辣度是调整过的：比四川本地温和，油量也收了一些。水煮鱼、夫妻肺片、干煸四季豆是常点的几样。客单属于实惠那一档。它适合一个具体场景：连续吃了几天清淡之后想换个口味。晚饭时间排队。",
+ "highlights": [
+  "1996 年开到现在的深圳本地川菜品牌",
+  "辣度按本地口味调低",
+  "价位实惠，饭点排队"
+ ],
+ "location": {
+  "point": {
+   "lng": 114.032488,
+   "lat": 22.611513,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:30-22:00（以门店公告为准）",
-    "openHoursRef": 0,
-    "ticket": "人均约70元起，以门店为准",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "friends",
-    "family"
+  "address": "深圳市福田区燕南路华强北一带（多家门店，以实际地址为准）",
+  "district": "龙华区",
+  "transportTip": "地铁1号线华强路站 / 地铁2号线燕南站"
+ },
+ "practical": {
+  "openHours": "约10:30-22:00（以门店公告为准）",
+  "openHoursRef": 0,
+  "ticket": "人均约70元起，以门店为准",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "川菜",
-    "老店",
-    "实惠"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "川菜",
+  "老店",
+  "实惠"
+ ],
+ "popularity": 62,
+ "sources": [
+  {
+   "title": "百度百科·川菜",
+   "url": "https://baike.baidu.com/item/%E5%B7%9D%E8%8F%9C",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-24"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "缪氏川菜"
+ },
+ "_geocodeTitle": "缪氏川菜(深圳北站缤果空间店)",
+ "_geocodeSuspect": false,
+ "district": "440309",
+ "_noImage": true,
+ "review": {
+  "score": 3.8,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 3.8,
+    "note": "辣度按本地调低，油量也收了"
+   },
+   {
+    "label": "价格",
+    "score": 4.1,
+    "note": "客单实惠，日常聚餐压力小"
+   },
+   {
+    "label": "排队",
+    "score": 2.9,
+    "note": "晚饭时间要等位"
+   },
+   {
+    "label": "环境",
+    "score": 3.5,
+    "note": "多套门店风格，出品统一但个性弱"
+   }
   ],
-  "popularity": 62,
+  "body": "深圳很早铺开的外省菜系之一，这家是扎根多年的本地川菜连锁，水煮鱼、夫妻肺片、干煸四季豆是常点的几样，全直营、门店覆盖多个商圈，适合连续吃了几天清淡之后换个口味。缺点是辣度与油量按本地口味调过，想吃正宗川味的会失望；饭点排队常见，多套装修风格虽热闹但个性偏弱，连锁化之后少了老店该有的那点锅气。",
+  "basis": "web",
+  "at": "2026-11-13",
+  "fits": [
+   "多人聚餐",
+   "想换个重口"
+  ],
+  "avoid": [
+   "追正宗麻辣",
+   "赶饭点不等位"
+  ],
   "sources": [
-    {
-      "title": "百度百科·川菜",
-      "url": "https://baike.baidu.com/item/%E5%B7%9D%E8%8F%9C",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-24"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "缪氏川菜"
-  },
-  "_geocodeTitle": "缪氏川菜(深圳北站缤果空间店)",
-  "_geocodeSuspect": false,
-  "district": "440309",
-  "_noImage": true
+   "https://www.openrice.com.cn/zh-cn/shenzhen/restaurants?chainId=10000316",
+   "https://www.zgswcn.com/shangxun/news.html?aid=976771"
+  ]
+ }
 }

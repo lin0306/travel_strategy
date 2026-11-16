@@ -1,161 +1,190 @@
 {
-  "id": "heshun-guzhen",
-  "name": "和顺古镇",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "六百年侨乡，家家有人下南洋，村里有中国最大的乡村图书馆。",
-  "description": "和顺在腾冲城西南四公里，是个依着山、傍着河建起来的村子，从明代在这里屯军算起，六百多年了。它不太像一般古镇——因为紧挨着通往缅甸的路，从清代起一代代人走夷方、下南洋，赚了钱回来盖房子、修宗祠、办学校。所以村里既有徽派和滇西民居混在一起的马头墙、照壁、四合院，又有西式的拱窗和铸铁栏杆，这个混搭是侨乡独有的痕迹。村子沿着和顺江铺开，水从各家门前过，有洗衣亭可以蹲下来洗衣服——这种建在水上的亭子是和顺的招牌。青石板路绕着河走，早上雾没散的时候最好看。比起丽江大理，这里节奏慢得多，很多人来就是为了住几天什么都不干。",
-  "highlights": [
-    "六百年侨乡",
-    "中国最大的乡村图书馆",
-    "水上洗衣亭",
-    "中西混搭的民居"
-  ],
-  "location": {
-    "point": {
-      "lng": 98.458288,
-      "lat": 25.006791,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "保山市腾冲市和顺镇，和顺古镇景区（十字路村一带）",
-    "district": "腾冲",
-    "transportTip": "腾冲城区打车约 15 分钟；景区内步行"
+ "id": "heshun-guzhen",
+ "name": "和顺古镇",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "六百年侨乡，家家有人下南洋，村里有中国最大的乡村图书馆。",
+ "description": "和顺在腾冲城西南四公里，是个依着山、傍着河建起来的村子，从明代在这里屯军算起，六百多年了。它不太像一般古镇——因为紧挨着通往缅甸的路，从清代起一代代人走夷方、下南洋，赚了钱回来盖房子、修宗祠、办学校。所以村里既有徽派和滇西民居混在一起的马头墙、照壁、四合院，又有西式的拱窗和铸铁栏杆，这个混搭是侨乡独有的痕迹。村子沿着和顺江铺开，水从各家门前过，有洗衣亭可以蹲下来洗衣服——这种建在水上的亭子是和顺的招牌。青石板路绕着河走，早上雾没散的时候最好看。比起丽江大理，这里节奏慢得多，很多人来就是为了住几天什么都不干。",
+ "highlights": [
+  "六百年侨乡",
+  "中国最大的乡村图书馆",
+  "水上洗衣亭",
+  "中西混搭的民居"
+ ],
+ "location": {
+  "point": {
+   "lng": 98.458288,
+   "lat": 25.006791,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天（内部景点 8:00-18:00）",
-    "openHoursRef": 0,
-    "ticket": "古镇门票约 55 元（含图书馆、宗祠等）",
-    "ticketRef": 0,
-    "duration": "建议 240-480 分钟",
-    "durationMinutes": [
-      240,
-      480
-    ],
-    "priceLevel": "budget"
+  "address": "保山市腾冲市和顺镇，和顺古镇景区（十字路村一带）",
+  "district": "腾冲",
+  "transportTip": "腾冲城区打车约 15 分钟；景区内步行"
+ },
+ "practical": {
+  "openHours": "全天（内部景点 8:00-18:00）",
+  "openHoursRef": 0,
+  "ticket": "古镇门票约 55 元（含图书馆、宗祠等）",
+  "ticketRef": 0,
+  "duration": "建议 240-480 分钟",
+  "durationMinutes": [
+   240,
+   480
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "family",
+  "couple",
+  "friends",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio.jpg/1280px-%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio.jpg/1280px-%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 807,
+   "alt": "和顺古镇 He Shun - panoramio.jpg",
+   "query": "和顺古镇 腾冲",
+   "credit": {
+    "source": "wikimedia",
+    "author": "wanghongliu",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "family",
-    "couple",
-    "friends",
-    "elders"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio.jpg/1280px-%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio.jpg/1280px-%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 807,
-      "alt": "和顺古镇 He Shun - panoramio.jpg",
-      "query": "和顺古镇 腾冲",
-      "credit": {
-        "source": "wikimedia",
-        "author": "wanghongliu",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_%281%29.jpg/1280px-%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_%281%29.jpg/1280px-%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "和顺古镇 He Shun - panoramio (1).jpg",
-      "query": "和顺古镇 腾冲",
-      "credit": {
-        "source": "wikimedia",
-        "author": "wanghongliu",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_(1).jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_%282%29.jpg/1280px-%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_%282%29.jpg/1280px-%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "和顺古镇 He Shun - panoramio (2).jpg",
-      "query": "和顺古镇 腾冲",
-      "credit": {
-        "source": "wikimedia",
-        "author": "wanghongliu",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_(2).jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 810,
-      "alt": "和顺古镇 He Shun - panoramio (3).jpg",
-      "query": "和顺古镇 腾冲",
-      "credit": {
-        "source": "wikimedia",
-        "author": "wanghongliu",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_(3).jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 810,
-      "alt": "和顺古镇 He Shun - panoramio (4).jpg",
-      "query": "和顺古镇 腾冲",
-      "credit": {
-        "source": "wikimedia",
-        "author": "wanghongliu",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_(4).jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/%E5%92%8C%E9%A1%BA%E5%9B%BE%E4%B9%A6%E9%A6%86_20210107_01.jpg/1280px-%E5%92%8C%E9%A1%BA%E5%9B%BE%E4%B9%A6%E9%A6%86_20210107_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/%E5%92%8C%E9%A1%BA%E5%9B%BE%E4%B9%A6%E9%A6%86_20210107_01.jpg/1280px-%E5%92%8C%E9%A1%BA%E5%9B%BE%E4%B9%A6%E9%A6%86_20210107_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "和顺图书馆 20210107 01.jpg",
-      "query": "和顺古镇 腾冲",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangmoon618",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%92%8C%E9%A1%BA%E5%9B%BE%E4%B9%A6%E9%A6%86_20210107_01.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "侨乡",
-    "古镇",
-    "慢生活",
-    "滇西"
-  ],
-  "popularity": 95,
-  "sources": [
-    {
-      "title": "百度百科·和顺古镇",
-      "url": "https://baike.baidu.com/item/%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-07"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "和顺古镇"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_%281%29.jpg/1280px-%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_%281%29.jpg/1280px-%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "和顺古镇 He Shun - panoramio (1).jpg",
+   "query": "和顺古镇 腾冲",
+   "credit": {
+    "source": "wikimedia",
+    "author": "wanghongliu",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_(1).jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "和顺古镇景区",
-  "_geocodeSuspect": false,
-  "district": "530581"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_%282%29.jpg/1280px-%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_%282%29.jpg/1280px-%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "和顺古镇 He Shun - panoramio (2).jpg",
+   "query": "和顺古镇 腾冲",
+   "credit": {
+    "source": "wikimedia",
+    "author": "wanghongliu",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_(2).jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 810,
+   "alt": "和顺古镇 He Shun - panoramio (3).jpg",
+   "query": "和顺古镇 腾冲",
+   "credit": {
+    "source": "wikimedia",
+    "author": "wanghongliu",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_(3).jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 810,
+   "alt": "和顺古镇 He Shun - panoramio (4).jpg",
+   "query": "和顺古镇 腾冲",
+   "credit": {
+    "source": "wikimedia",
+    "author": "wanghongliu",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_(4).jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "侨乡",
+  "古镇",
+  "慢生活",
+  "滇西"
+ ],
+ "popularity": 95,
+ "sources": [
+  {
+   "title": "百度百科·和顺古镇",
+   "url": "https://baike.baidu.com/item/%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-07"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "和顺古镇"
+ },
+ "_geocodeTitle": "和顺古镇景区",
+ "_geocodeSuspect": false,
+ "district": "530581",
+ "_patrol": {
+  "at": "2026-11-08",
+  "reason": "audit --fix-safe：清掉同城撞图的 1 张（待重抓）",
+  "droppedImages": [
+   "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/%E5%92%8C%E9%A1%BA%E5%9B%BE%E4%B9%A6%E9%A6%86_20210107_01.jpg/1280px-%E5%92%8C%E9%A1%BA%E5%9B%BE%E4%B9%A6%E9%A6%86_20210107_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  ]
+ },
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "建筑混搭",
+    "score": 4.6,
+    "note": "马头墙配拱窗铸铁栏杆，侨乡独有"
+   },
+   {
+    "label": "节奏",
+    "score": 4.5,
+    "note": "比丽江大理慢，适合住下来"
+   },
+   {
+    "label": "门票",
+    "score": 2.8,
+    "note": "联票价格对只逛村的人偏高"
+   },
+   {
+    "label": "商业化",
+    "score": 3.4,
+    "note": "主街店铺多，往巷子里走才安静"
+   }
+  ],
+  "body": "适合住两晚再走。六百年侨乡留下的不是仿古街，而是马头墙、照壁和西式拱窗混在一栋房子上的痕迹，水上的洗衣亭至今有人用，早上雾没散时最好看。缺点是商业化已经进了主街，进门那一段全是客栈与特产店，联票也不便宜；只看主街会觉得不过如此，得往巷子和图书馆那边走。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "慢住",
+   "古镇爱好者"
+  ],
+  "avoid": [
+   "只逛两小时就走"
+  ],
+  "sources": []
+ }
 }

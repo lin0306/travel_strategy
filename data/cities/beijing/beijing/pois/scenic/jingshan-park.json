@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "北京市西城区景山西街44号",
-    "district": "东城",
+    "district": "西城",
     "transportTip": "地铁8号线中国美术馆站步行约15分钟;公交111、124路景山东门站",
     "entrance": {
       "lng": 116.399542,
@@ -44,8 +44,51 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [],
-  "coverIndex": 0,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Guande_Gate_in_Jingshan_Park2022.jpg/1280px-Guande_Gate_in_Jingshan_Park2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Guande_Gate_in_Jingshan_Park2022.jpg/1280px-Guande_Gate_in_Jingshan_Park2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Guande Gate in Jingshan Park2022.jpg",
+      "query": "景山公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Charlie fong",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guande_Gate_in_Jingshan_Park2022.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Jingshan_Park_%E6%99%AF%E5%B1%B1%E5%85%AC%E5%9B%AD_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Jingshan_Park_%E6%99%AF%E5%B1%B1%E5%85%AC%E5%9B%AD_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 720,
+      "alt": "Jingshan Park 景山公园 - panoramio.jpg",
+      "query": "景山公园",
+      "credit": {
+        "source": "wikimedia",
+        "author": "fortheworld",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jingshan_Park_%E6%99%AF%E5%B1%B1%E5%85%AC%E5%9B%AD_-_panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
+      }
+    }
+  ],
+  "coverIndex": 1,
   "tags": [
     "中轴线",
     "俯瞰故宫",
@@ -60,7 +103,7 @@
       "fetchedAt": "2026-09-23"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -68,6 +111,44 @@
   },
   "_geocodeTitle": "景山公园",
   "_geocodeSuspect": false,
-  "district": "110101",
-  "_noImage": true
+  "district": "110102",
+  "review": {
+    "score": 4.5,
+    "verdict": "专程去",
+    "facets": [
+      {
+        "label": "视野",
+        "score": 5.0,
+        "note": "万春亭是俯瞰紫禁城全景的第一机位，向南整片中轴线铺开"
+      },
+      {
+        "label": "花费",
+        "score": 5.0,
+        "note": "门票两元，是北京最便宜的一次高价值观景"
+      },
+      {
+        "label": "体力",
+        "score": 3.4,
+        "note": "从南门到万春亭是一段连续上坡台阶，十来分钟能到"
+      },
+      {
+        "label": "人流",
+        "score": 2.9,
+        "note": "日落前一小时亭台上挤满人等金光，机位要抢"
+      }
+    ],
+    "body": "两块钱换一个俯瞰整座紫禁城的位置，这在北京是独一份的性价比。万春亭上向南看琉璃瓦一片铺开，向西是北海白塔，天气好时层次非常清楚；园内还有崇祯自缢处的古槐和寿皇殿，顺路就能看。短板是亭台平台小，日落前一小时挤得转不开身，想拍空镜必须早到；园子本身设施简单，别指望在里面待很久。从故宫神武门出来过马路就到，串联游览最顺。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "俯瞰故宫",
+      "看日落",
+      "拍照"
+    ],
+    "avoid": [
+      "想避开人群",
+      "行动不便"
+    ],
+    "sources": []
+  }
 }

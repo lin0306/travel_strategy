@@ -1,72 +1,110 @@
 {
-  "id": "maojingba",
-  "name": "茅荆坝",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "隆化县一处森林公园与温泉地，夏看林、冬可泡，是本地避暑去处。",
-  "description": "茅荆坝在隆化县，是一片森林公园，也有温泉。山里树多，溪水清，夏天凉，是本地人避暑的去处。秋天层林尽染，颜色好。冬天这里有温泉可泡，也有滑雪。它在承德往北的路上，顺路能歇。人不算多。",
-  "highlights": [
-    "隆化森林公园兼有温泉",
-    "夏看林秋看色，冬可泡可滑",
-    "承德往北顺路歇脚，人不多"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.137871,
-      "lat": 41.535167,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市隆化县茅荆坝国家森林公园",
-    "district": "隆化县",
-    "transportTip": "隆化或承德方向转车到茅荆坝",
-    "entrance": {
-      "lng": 118.098668,
-      "lat": 41.43195,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "maojingba",
+ "name": "茅荆坝",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "隆化县一处森林公园与温泉地，夏看林、冬可泡，是本地避暑去处。",
+ "description": "茅荆坝在隆化县，是一片森林公园，也有温泉。山里树多，溪水清，夏天凉，是本地人避暑的去处。秋天层林尽染，颜色好。冬天这里有温泉可泡，也有滑雪。它在承德往北的路上，顺路能歇。人不算多。",
+ "highlights": [
+  "隆化森林公园兼有温泉",
+  "夏看林秋看色，冬可泡可滑",
+  "承德往北顺路歇脚，人不多"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.137871,
+   "lat": 41.535167,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-17:00，以景区公告为准",
-    "openHoursRef": 0,
-    "ticket": "约50元",
-    "ticketRef": 0,
-    "duration": "建议 180-300 分钟",
-    "durationMinutes": [
-      180,
-      300
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "family",
-    "elders"
+  "address": "河北省承德市隆化县茅荆坝国家森林公园",
+  "district": "隆化县",
+  "transportTip": "隆化或承德方向转车到茅荆坝",
+  "entrance": {
+   "lng": 118.098668,
+   "lat": 41.43195,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约08:00-17:00，以景区公告为准",
+  "openHoursRef": 0,
+  "ticket": "约50元",
+  "ticketRef": 0,
+  "duration": "建议 180-300 分钟",
+  "durationMinutes": [
+   180,
+   300
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "森林",
-    "温泉",
-    "避暑"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "family",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "森林",
+  "温泉",
+  "避暑"
+ ],
+ "popularity": 46,
+ "sources": [
+  {
+   "title": "百度百科·茅荆坝",
+   "url": "https://baike.baidu.com/item/%E8%8C%85%E8%8D%86%E5%9D%9D",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "茅荆坝"
+ },
+ "_geocodeTitle": "茅荆坝村民委员会",
+ "_geocodeSuspect": false,
+ "district": "130825",
+ "_noImage": true,
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "林相",
+    "score": 4.2,
+    "note": "秋色层林尽染，是本地看彩叶的去处"
+   },
+   {
+    "label": "温泉",
+    "score": 3.8,
+    "note": "冬天能泡，也有雪场"
+   },
+   {
+    "label": "开发",
+    "score": 2.8,
+    "note": "标识和补给不足，像半开发状态"
+   },
+   {
+    "label": "交通",
+    "score": 3.2,
+    "note": "承德往北顺路，但要自驾"
+   }
   ],
-  "popularity": 46,
-  "sources": [
-    {
-      "title": "百度百科·茅荆坝",
-      "url": "https://baike.baidu.com/item/%E8%8C%85%E8%8D%86%E5%9D%9D",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "body": "隆化这边一片森林公园带温泉，夏天避暑、秋天看彩叶、冬天泡汤加滑雪，一年能来三季，人还不算多，是本地人的后花园。不足是开发程度低，路标和补给都跟不上，走岔了没人问；森林和温泉分开收费，冬天雪场又另算，预算要留余量。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "自驾",
+   "秋冬"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "茅荆坝"
-  },
-  "_geocodeTitle": "茅荆坝村民委员会",
-  "_geocodeSuspect": false,
-  "district": "130825",
-  "_noImage": true
+  "avoid": [
+   "无车",
+   "想找成熟景区"
+  ],
+  "sources": []
+ }
 }

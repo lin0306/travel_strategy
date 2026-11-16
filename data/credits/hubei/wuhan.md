@@ -1,6 +1,6 @@
 # 武汉 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-09-23
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/sunset-over-nanjing-skyline-and-xuanwu-lake-35022547/) |
-| 城市封面 | 隔壁光头老王 WangMing'Photo | Pexels License | [pexels](https://www.pexels.com/photo/gray-wall-paint-building-355034/) |
-| 城市封面 | yukai yang | Pexels License | [pexels](https://www.pexels.com/photo/skyscrapers-in-city-downtown-25261490/) |
+| 城市封面 | 螺钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%AD%A6%E6%B1%89%E9%BB%84%E9%B9%A4%E6%A5%BC.jpg) |
+| 城市封面 | Nyx Ning | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%AD%A6%E6%B1%89-%E9%BB%84%E9%B9%A4%E6%A5%BC_-_panoramio.jpg) |
+| 城市封面 | Fmwang at Chinese Wikipedia | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Hubei_Provincial_Museum_(5).jpg) |
 | 宝通禅寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20240622_Baotong_Temple.jpg) |
 | 宝通禅寺 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wuhan_-_Baotong_Temple_-_DSCF1209.JPG) |
 | 宝通禅寺 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wuhan_-_Baotong_Temple_-_DSCF1239.JPG) |

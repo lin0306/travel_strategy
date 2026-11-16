@@ -1,33 +1,20 @@
 {
   "cityId": "guangzhou",
   "cityName": "广州",
-  "note": "候选清单，尚未入库。需要人确认后搬进 pipeline/seeds/{city}.py 再跑 seed。",
+  "note": "候选清单，尚未入库。核实后用 tools/intake_candidates.py 增量入库；绝不跑 run.py seed（会清空全城 point 与 images）。",
   "stat": {
     "searched": 36,
-    "returned": 354,
-    "in_lib": 13,
-    "dup": 24,
-    "excluded": 78,
-    "subspot": 10,
-    "new": 229,
-    "quotaHit": 0
+    "returned": 353,
+    "in_lib": 25,
+    "dup": 21,
+    "excluded": 79,
+    "subspot": 15,
+    "new": 213,
+    "quotaHit": 0,
+    "netRequests": 36
   },
   "skippedByQuota": false,
   "candidates": [
-    {
-      "title": "塱头古村",
-      "guessCategory": "scenic",
-      "matchedKeyword": "古镇",
-      "amapCategory": "旅游景点:风景名胜",
-      "address": "广东省广州市花都区企路6号123号楼",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "花都区",
-      "adcode": "440114",
-      "lng": 113.086082,
-      "lat": 23.338884,
-      "status": "candidate"
-    },
     {
       "title": "莲塘古村建筑群",
       "guessCategory": "scenic",
@@ -54,20 +41,6 @@
       "adcode": "440118",
       "lng": 113.652849,
       "lat": 23.2753,
-      "status": "candidate"
-    },
-    {
-      "title": "黄埔古村",
-      "guessCategory": "scenic",
-      "matchedKeyword": "古镇",
-      "amapCategory": "旅游景点:风景名胜",
-      "address": "广东省广州市海珠区埠香里8号胡氏宗祠左侧",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "海珠区",
-      "adcode": "440105",
-      "lng": 113.39818,
-      "lat": 23.093837,
       "status": "candidate"
     },
     {
@@ -113,34 +86,6 @@
       "status": "candidate"
     },
     {
-      "title": "番禺博物馆",
-      "guessCategory": "scenic",
-      "matchedKeyword": "博物馆",
-      "amapCategory": "文化场馆:博物馆",
-      "address": "广东省广州市番禺区沙头街道银平路121号",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "番禺区",
-      "adcode": "440113",
-      "lng": 113.344926,
-      "lat": 22.952731,
-      "status": "candidate"
-    },
-    {
-      "title": "粤剧艺术博物馆",
-      "guessCategory": "scenic",
-      "matchedKeyword": "博物馆",
-      "amapCategory": "文化场馆:博物馆",
-      "address": "广东省广州市荔湾区恩宁路127号",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "荔湾区",
-      "adcode": "440103",
-      "lng": 113.238182,
-      "lat": 23.115363,
-      "status": "candidate"
-    },
-    {
       "title": "南越王博物院",
       "guessCategory": "scenic",
       "matchedKeyword": "博物馆",
@@ -183,20 +128,6 @@
       "status": "candidate"
     },
     {
-      "title": "广州铁路博物馆",
-      "guessCategory": "scenic",
-      "matchedKeyword": "博物馆",
-      "amapCategory": "文化场馆:博物馆",
-      "address": "广东省广州市荔湾区誉江路3-5号(誉景壹号D区)",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "荔湾区",
-      "adcode": "440103",
-      "lng": 113.231595,
-      "lat": 23.111395,
-      "status": "candidate"
-    },
-    {
       "title": "东濠涌博物馆",
       "guessCategory": "scenic",
       "matchedKeyword": "博物馆",
@@ -211,17 +142,17 @@
       "status": "candidate"
     },
     {
-      "title": "南汉二陵博物馆",
+      "title": "广州博物馆",
       "guessCategory": "scenic",
       "matchedKeyword": "博物馆",
       "amapCategory": "文化场馆:博物馆",
-      "address": "广东省广州市番禺区大学城华师一路8号(近国医西路)",
+      "address": "广东省广州市越秀区洪桥街道解放北路988号越秀公园内(近镇海楼)",
       "province": "广东省",
       "city": "广州市",
-      "district": "番禺区",
-      "adcode": "440113",
-      "lng": 113.383837,
-      "lat": 23.047941,
+      "district": "越秀区",
+      "adcode": "440104",
+      "lng": 113.265568,
+      "lat": 23.137961,
       "status": "candidate"
     },
     {
@@ -281,20 +212,6 @@
       "status": "candidate"
     },
     {
-      "title": "帽峰山森林公园铜锣湾生态旅游景区",
-      "guessCategory": "scenic",
-      "matchedKeyword": "风景区",
-      "amapCategory": "旅游景点:风景名胜",
-      "address": "广东省广州市白云区S115古洞乡村段",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "白云区",
-      "adcode": "440111",
-      "lng": 113.41208,
-      "lat": 23.289921,
-      "status": "candidate"
-    },
-    {
       "title": "广州市帽峰山景区",
       "guessCategory": "scenic",
       "matchedKeyword": "风景名胜",
@@ -309,45 +226,31 @@
       "status": "candidate"
     },
     {
-      "title": "紫泥堂文化创意园景区",
+      "title": "溪头旅游村景区",
       "guessCategory": "scenic",
       "matchedKeyword": "风景名胜",
-      "amapCategory": "旅游景点:风景名胜",
-      "address": "广东省广州市番禺区西安路7号广州文化和旅游产业风投小镇",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "番禺区",
-      "adcode": "440113",
-      "lng": 113.286305,
-      "lat": 22.892074,
-      "status": "candidate"
-    },
-    {
-      "title": "塱头古村景区",
-      "guessCategory": "scenic",
-      "matchedKeyword": "风景名胜",
-      "amapCategory": "旅游景点:风景名胜",
-      "address": "广东省广州市花都区企路6号123号楼",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "花都区",
-      "adcode": "440114",
-      "lng": 113.086082,
-      "lat": 23.338884,
-      "status": "candidate"
-    },
-    {
-      "title": "洪秀全故居",
-      "guessCategory": "scenic",
-      "matchedKeyword": "故居",
       "amapCategory": "旅游景点:省级景点",
-      "address": "广东省广州市花都区大布如意街1号",
+      "address": "广东省广州市从化区良口镇溪头村",
       "province": "广东省",
       "city": "广州市",
-      "district": "花都区",
-      "adcode": "440114",
-      "lng": 113.172884,
-      "lat": 23.417021,
+      "district": "从化区",
+      "adcode": "440117",
+      "lng": 113.867675,
+      "lat": 23.712739,
+      "status": "candidate"
+    },
+    {
+      "title": "帽峰山森林公园铜锣湾生态旅游景区",
+      "guessCategory": "scenic",
+      "matchedKeyword": "风景名胜",
+      "amapCategory": "旅游景点:风景名胜",
+      "address": "广东省广州市白云区S115古洞乡村段",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "白云区",
+      "adcode": "440111",
+      "lng": 113.41208,
+      "lat": 23.289921,
       "status": "candidate"
     },
     {
@@ -365,31 +268,31 @@
       "status": "candidate"
     },
     {
-      "title": "红线女故居",
+      "title": "陈廉伯故居",
       "guessCategory": "scenic",
       "matchedKeyword": "故居",
-      "amapCategory": "旅游景点:纪念馆",
-      "address": "广东省广州市越秀区华侨新村友爱路20号",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "越秀区",
-      "adcode": "440104",
-      "lng": 113.291357,
-      "lat": 23.139518,
-      "status": "candidate"
-    },
-    {
-      "title": "詹天佑故居纪念馆",
-      "guessCategory": "scenic",
-      "matchedKeyword": "故居",
-      "amapCategory": "旅游景点:纪念馆",
-      "address": "广东省广州市荔湾区多宝街道十二甫西街42号",
+      "amapCategory": "旅游景点:其它旅游景点",
+      "address": "广东省广州市荔湾区逢源大街历史文化街区内(北侧)",
       "province": "广东省",
       "city": "广州市",
       "district": "荔湾区",
       "adcode": "440103",
-      "lng": 113.239625,
-      "lat": 23.113173,
+      "lng": 113.23578,
+      "lat": 23.119757,
+      "status": "candidate"
+    },
+    {
+      "title": "洪秀全故居",
+      "guessCategory": "scenic",
+      "matchedKeyword": "故居",
+      "amapCategory": "旅游景点:省级景点",
+      "address": "广东省广州市花都区大布如意街1号",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "花都区",
+      "adcode": "440114",
+      "lng": 113.172884,
+      "lat": 23.417021,
       "status": "candidate"
     },
     {
@@ -421,20 +324,6 @@
       "status": "candidate"
     },
     {
-      "title": "李小龙祖居",
-      "guessCategory": "scenic",
-      "matchedKeyword": "故居",
-      "amapCategory": "旅游景点:纪念馆",
-      "address": "广东省广州市荔湾区多宝街道恩宁路41号广州西关永庆坊旅游区内",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "荔湾区",
-      "adcode": "440103",
-      "lng": 113.236908,
-      "lat": 23.115324,
-      "status": "candidate"
-    },
-    {
       "title": "毛泽东办公室",
       "guessCategory": "scenic",
       "matchedKeyword": "故居",
@@ -446,6 +335,20 @@
       "adcode": "440104",
       "lng": 113.276596,
       "lat": 23.127212,
+      "status": "candidate"
+    },
+    {
+      "title": "李小龙祖居",
+      "guessCategory": "scenic",
+      "matchedKeyword": "故居",
+      "amapCategory": "旅游景点:纪念馆",
+      "address": "广东省广州市荔湾区多宝街道恩宁路41号广州西关永庆坊旅游区内",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "荔湾区",
+      "adcode": "440103",
+      "lng": 113.236908,
+      "lat": 23.115324,
       "status": "candidate"
     },
     {
@@ -463,17 +366,31 @@
       "status": "candidate"
     },
     {
-      "title": "伯捷故居",
+      "title": "洪熙官故居遗址",
       "guessCategory": "scenic",
       "matchedKeyword": "故居",
-      "amapCategory": "旅游景点:纪念馆",
-      "address": "广东省广州市荔湾区白鹤洞街道鹤洞路6号",
+      "amapCategory": "旅游景点:风景名胜",
+      "address": "广东省广州市花都区竹洞孔星路",
       "province": "广东省",
       "city": "广州市",
-      "district": "荔湾区",
-      "adcode": "440103",
-      "lng": 113.248421,
-      "lat": 23.078114,
+      "district": "花都区",
+      "adcode": "440114",
+      "lng": 113.079071,
+      "lat": 23.415933,
+      "status": "candidate"
+    },
+    {
+      "title": "贪泉遗址",
+      "guessCategory": "scenic",
+      "matchedKeyword": "遗址",
+      "amapCategory": "旅游景点:风景名胜",
+      "address": "广东省广州市白云区庆隆中路广州铁路职业技术学院西南侧约40米",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "白云区",
+      "adcode": "440111",
+      "lng": 113.20651,
+      "lat": 23.200078,
       "status": "candidate"
     },
     {
@@ -533,17 +450,17 @@
       "status": "candidate"
     },
     {
-      "title": "贪泉遗址",
+      "title": "美国领事馆旧址(新馆)",
       "guessCategory": "scenic",
       "matchedKeyword": "遗址",
       "amapCategory": "旅游景点:风景名胜",
-      "address": "广东省广州市白云区庆隆中路广州铁路职业技术学院西南侧约40米",
+      "address": "广东省广州市荔湾区沙面三街2号",
       "province": "广东省",
       "city": "广州市",
-      "district": "白云区",
-      "adcode": "440111",
-      "lng": 113.20651,
-      "lat": 23.200078,
+      "district": "荔湾区",
+      "adcode": "440103",
+      "lng": 113.241183,
+      "lat": 23.106742,
       "status": "candidate"
     },
     {
@@ -575,45 +492,17 @@
       "status": "candidate"
     },
     {
-      "title": "美国领事馆旧址(新馆)",
+      "title": "花县人民政府旧址",
       "guessCategory": "scenic",
       "matchedKeyword": "遗址",
       "amapCategory": "旅游景点:风景名胜",
-      "address": "广东省广州市荔湾区沙面三街2号",
+      "address": "广东省广州市花都区花山镇洛平中路10号",
       "province": "广东省",
       "city": "广州市",
-      "district": "荔湾区",
-      "adcode": "440103",
-      "lng": 113.241183,
-      "lat": 23.106742,
-      "status": "candidate"
-    },
-    {
-      "title": "法国兵营旧址",
-      "guessCategory": "scenic",
-      "matchedKeyword": "遗址",
-      "amapCategory": "旅游景点:其它旅游景点",
-      "address": "广东省广州市荔湾区沙面街道沙面大10号、12号",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "荔湾区",
-      "adcode": "440103",
-      "lng": 113.247949,
-      "lat": 23.107298,
-      "status": "candidate"
-    },
-    {
-      "title": "鹤边牌坊",
-      "guessCategory": "scenic",
-      "matchedKeyword": "牌坊",
-      "amapCategory": "旅游景点:其它旅游景点",
-      "address": "广东省广州市白云区106国道鹤灵公园东北100米路西",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "白云区",
-      "adcode": "440111",
-      "lng": 113.268537,
-      "lat": 23.216777,
+      "district": "花都区",
+      "adcode": "440114",
+      "lng": 113.283377,
+      "lat": 23.439626,
       "status": "candidate"
     },
     {
@@ -631,11 +520,25 @@
       "status": "candidate"
     },
     {
+      "title": "鹤边牌坊",
+      "guessCategory": "scenic",
+      "matchedKeyword": "牌坊",
+      "amapCategory": "旅游景点:其它旅游景点",
+      "address": "广东省广州市白云区106国道鹤灵公园东北100米路西",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "白云区",
+      "adcode": "440111",
+      "lng": 113.268537,
+      "lat": 23.216777,
+      "status": "candidate"
+    },
+    {
       "title": "瑶台牌坊",
       "guessCategory": "scenic",
       "matchedKeyword": "牌坊",
       "amapCategory": "旅游景点:其它旅游景点",
-      "address": "广东省广州市越秀区矿泉街道三元里站D出囗广东技术师范学院北校区旁",
+      "address": "广东省广州市越秀区矿泉街道三元里站D出囗广东技术师范大学北校区旁",
       "province": "广东省",
       "city": "广州市",
       "district": "越秀区",
@@ -659,20 +562,6 @@
       "status": "candidate"
     },
     {
-      "title": "小龙牌坊",
-      "guessCategory": "scenic",
-      "matchedKeyword": "牌坊",
-      "amapCategory": "旅游景点:其它旅游景点",
-      "address": "广东省广州市番禺区石碁镇小龙村小龙大街1号",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "番禺区",
-      "adcode": "440113",
-      "lng": 113.43574,
-      "lat": 22.959425,
-      "status": "candidate"
-    },
-    {
       "title": "上步牌坊",
       "guessCategory": "scenic",
       "matchedKeyword": "牌坊",
@@ -684,6 +573,20 @@
       "adcode": "440111",
       "lng": 113.2359,
       "lat": 23.16963,
+      "status": "candidate"
+    },
+    {
+      "title": "小龙牌坊",
+      "guessCategory": "scenic",
+      "matchedKeyword": "牌坊",
+      "amapCategory": "旅游景点:其它旅游景点",
+      "address": "广东省广州市番禺区石碁镇小龙村小龙大街1号",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "番禺区",
+      "adcode": "440113",
+      "lng": 113.43574,
+      "lat": 22.959425,
       "status": "candidate"
     },
     {
@@ -757,20 +660,6 @@
       "status": "candidate"
     },
     {
-      "title": "城隍庙",
-      "guessCategory": "scenic",
-      "matchedKeyword": "寺",
-      "amapCategory": "旅游景点:寺庙道观",
-      "address": "广东省广州市越秀区中山四路忠佑大街48号(信德商务大厦旁)",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "越秀区",
-      "adcode": "440104",
-      "lng": 113.271136,
-      "lat": 23.126355,
-      "status": "candidate"
-    },
-    {
       "title": "水月宫(莲溪南路)",
       "guessCategory": "scenic",
       "matchedKeyword": "庙",
@@ -813,20 +702,6 @@
       "status": "candidate"
     },
     {
-      "title": "圆玄道观",
-      "guessCategory": "scenic",
-      "matchedKeyword": "庙",
-      "amapCategory": "旅游景点:国家级景点",
-      "address": "广东省广州市花都区新华街迎宾大道西38号",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "花都区",
-      "adcode": "440114",
-      "lng": 113.180008,
-      "lat": 23.399873,
-      "status": "candidate"
-    },
-    {
       "title": "北帝古庙",
       "guessCategory": "scenic",
       "matchedKeyword": "庙",
@@ -841,7 +716,21 @@
       "status": "candidate"
     },
     {
-      "title": "龙母庙",
+      "title": "城隍庙",
+      "guessCategory": "scenic",
+      "matchedKeyword": "庙",
+      "amapCategory": "旅游景点:寺庙道观",
+      "address": "广东省广州市越秀区中山四路忠佑大街48号(信德商务大厦旁)",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "越秀区",
+      "adcode": "440104",
+      "lng": 113.271136,
+      "lat": 23.126355,
+      "status": "candidate"
+    },
+    {
+      "title": "天河龙母庙",
       "guessCategory": "scenic",
       "matchedKeyword": "庙",
       "amapCategory": "旅游景点:寺庙道观",
@@ -855,17 +744,17 @@
       "status": "candidate"
     },
     {
-      "title": "塔斯汀中国汉堡(时代云图店)",
+      "title": "赤岗塔[地铁站]",
       "guessCategory": "scenic",
       "matchedKeyword": "塔",
-      "amapCategory": "美食:小吃快餐",
-      "address": "广东省广州市南沙区南沙街云泽西二街4号111-112房",
+      "amapCategory": "基础设施:交通设施:地铁站",
+      "address": "地铁12号线东段,地铁28号线",
       "province": "广东省",
       "city": "广州市",
-      "district": "南沙区",
-      "adcode": "440115",
-      "lng": 113.545313,
-      "lat": 22.791635,
+      "district": "海珠区",
+      "adcode": "440105",
+      "lng": 113.32465,
+      "lat": 23.102108,
       "status": "candidate"
     },
     {
@@ -880,6 +769,48 @@
       "adcode": "440106",
       "lng": 113.409177,
       "lat": 23.116533,
+      "status": "candidate"
+    },
+    {
+      "title": "琶洲塔",
+      "guessCategory": "scenic",
+      "matchedKeyword": "塔",
+      "amapCategory": "旅游景点:风景名胜",
+      "address": "广东省广州市海珠区阅江中路690-5号",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "海珠区",
+      "adcode": "440105",
+      "lng": 113.375744,
+      "lat": 23.099164,
+      "status": "candidate"
+    },
+    {
+      "title": "广州塔[地铁站]",
+      "guessCategory": "scenic",
+      "matchedKeyword": "塔",
+      "amapCategory": "基础设施:交通设施:地铁站",
+      "address": "APM线,地铁3号线",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "海珠区",
+      "adcode": "440105",
+      "lng": 113.323608,
+      "lat": 23.106371,
+      "status": "candidate"
+    },
+    {
+      "title": "塔斯汀中国汉堡(时代云图店)",
+      "guessCategory": "scenic",
+      "matchedKeyword": "塔",
+      "amapCategory": "美食:小吃快餐",
+      "address": "广东省广州市南沙区南沙街云泽西二街4号111-112房",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "南沙区",
+      "adcode": "440115",
+      "lng": 113.545313,
+      "lat": 22.791635,
       "status": "candidate"
     },
     {
@@ -922,48 +853,6 @@
       "adcode": "440111",
       "lng": 113.326735,
       "lat": 23.195815,
-      "status": "candidate"
-    },
-    {
-      "title": "塔斯汀中国汉堡(上下九店)",
-      "guessCategory": "scenic",
-      "matchedKeyword": "塔",
-      "amapCategory": "美食:小吃快餐",
-      "address": "广东省广州市荔湾区逢源街道长寿西路9号首层",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "荔湾区",
-      "adcode": "440103",
-      "lng": 113.242653,
-      "lat": 23.11802,
-      "status": "candidate"
-    },
-    {
-      "title": "广州塔[地铁站]",
-      "guessCategory": "scenic",
-      "matchedKeyword": "塔",
-      "amapCategory": "基础设施:交通设施:地铁站",
-      "address": "APM线,地铁3号线",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "海珠区",
-      "adcode": "440105",
-      "lng": 113.323608,
-      "lat": 23.106371,
-      "status": "candidate"
-    },
-    {
-      "title": "塔斯汀中国汉堡(太子街店)",
-      "guessCategory": "scenic",
-      "matchedKeyword": "塔",
-      "amapCategory": "美食:小吃快餐",
-      "address": "广东省广州市花都区新华街道太子步行街商业大道17号蜂型楼8-9号铺",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "花都区",
-      "adcode": "440114",
-      "lng": 113.208406,
-      "lat": 23.375337,
       "status": "candidate"
     },
     {
@@ -1149,20 +1038,6 @@
       "status": "candidate"
     },
     {
-      "title": "W11美术馆",
-      "guessCategory": "scenic",
-      "matchedKeyword": "美术馆",
-      "amapCategory": "文化场馆:美术馆",
-      "address": "广东省广州市海珠区醍磨碟沙大街118号",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "海珠区",
-      "adcode": "440105",
-      "lng": 113.338166,
-      "lat": 23.107621,
-      "status": "candidate"
-    },
-    {
       "title": "广州美术学院美术馆",
       "guessCategory": "scenic",
       "matchedKeyword": "美术馆",
@@ -1188,6 +1063,20 @@
       "adcode": "440111",
       "lng": 113.286503,
       "lat": 23.222333,
+      "status": "candidate"
+    },
+    {
+      "title": "珠江美术馆",
+      "guessCategory": "scenic",
+      "matchedKeyword": "美术馆",
+      "amapCategory": "文化场馆:美术馆",
+      "address": "广东省广州市海珠区赤岗街道赤岗北路珠江帝景灏景轩A座首层",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "海珠区",
+      "adcode": "440105",
+      "lng": 113.326123,
+      "lat": 23.103964,
       "status": "candidate"
     },
     {
@@ -1219,6 +1108,20 @@
       "status": "candidate"
     },
     {
+      "title": "W11美术馆",
+      "guessCategory": "scenic",
+      "matchedKeyword": "美术馆",
+      "amapCategory": "文化场馆:美术馆",
+      "address": "广东省广州市海珠区醍磨碟沙大街118号",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "海珠区",
+      "adcode": "440105",
+      "lng": 113.338166,
+      "lat": 23.107621,
+      "status": "candidate"
+    },
+    {
       "title": "大成收藏钱币邮票金银币纸币回收店",
       "guessCategory": "scenic",
       "matchedKeyword": "纪念馆",
@@ -1230,34 +1133,6 @@
       "adcode": "440104",
       "lng": 113.278545,
       "lat": 23.12449,
-      "status": "candidate"
-    },
-    {
-      "title": "毛泽东同志主办农民运动讲习所旧址纪念馆",
-      "guessCategory": "scenic",
-      "matchedKeyword": "纪念馆",
-      "amapCategory": "旅游景点:风景名胜",
-      "address": "广东省广州市越秀区中山四路42号(近地铁农讲所站西出口)",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "越秀区",
-      "adcode": "440104",
-      "lng": 113.276485,
-      "lat": 23.127529,
-      "status": "candidate"
-    },
-    {
-      "title": "中共三大会址纪念馆",
-      "guessCategory": "scenic",
-      "matchedKeyword": "纪念馆",
-      "amapCategory": "旅游景点:国家级景点",
-      "address": "广东省广州市越秀区恤孤院路3号",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "越秀区",
-      "adcode": "440104",
-      "lng": 113.29607,
-      "lat": 23.11894,
       "status": "candidate"
     },
     {
@@ -1317,31 +1192,17 @@
       "status": "candidate"
     },
     {
-      "title": "辛亥革命纪念馆",
+      "title": "三·廿九起义指挥部旧址纪念馆",
       "guessCategory": "scenic",
       "matchedKeyword": "纪念馆",
       "amapCategory": "旅游景点:纪念馆",
-      "address": "广东省广州市黄埔区长洲岛金洲北路563号",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "黄埔区",
-      "adcode": "440112",
-      "lng": 113.420306,
-      "lat": 23.072077,
-      "status": "candidate"
-    },
-    {
-      "title": "广州起义纪念馆",
-      "guessCategory": "scenic",
-      "matchedKeyword": "纪念馆",
-      "amapCategory": "旅游景点:纪念馆",
-      "address": "广东省广州市越秀区起义路200-1号(公园前地铁站J口步行90米)",
+      "address": "广东省广州市越秀区北京街道越华路小东营5号(近省民政厅)",
       "province": "广东省",
       "city": "广州市",
       "district": "越秀区",
       "adcode": "440104",
-      "lng": 113.264573,
-      "lat": 23.124353,
+      "lng": 113.270054,
+      "lat": 23.129621,
       "status": "candidate"
     },
     {
@@ -1415,20 +1276,6 @@
       "status": "candidate"
     },
     {
-      "title": "天河山庄",
-      "guessCategory": "scenic",
-      "matchedKeyword": "山庄",
-      "amapCategory": "房产小区:住宅区:住宅小区",
-      "address": "广东省广州市天河区沙东街道沙和路15号",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "天河区",
-      "adcode": "440106",
-      "lng": 113.312929,
-      "lat": 23.158509,
-      "status": "candidate"
-    },
-    {
       "title": "富豪山庄",
       "guessCategory": "scenic",
       "matchedKeyword": "山庄",
@@ -1443,17 +1290,31 @@
       "status": "candidate"
     },
     {
-      "title": "龙洞山庄",
+      "title": "天河山庄",
       "guessCategory": "scenic",
       "matchedKeyword": "山庄",
       "amapCategory": "房产小区:住宅区:住宅小区",
-      "address": "广东省广州市天河区龙洞山庄大街9号",
+      "address": "广东省广州市天河区沙东街道沙和路15号",
       "province": "广东省",
       "city": "广州市",
       "district": "天河区",
       "adcode": "440106",
-      "lng": 113.361834,
-      "lat": 23.202434,
+      "lng": 113.312929,
+      "lat": 23.158509,
+      "status": "candidate"
+    },
+    {
+      "title": "畲族枇杷山生态庄园",
+      "guessCategory": "scenic",
+      "matchedKeyword": "山庄",
+      "amapCategory": "娱乐休闲:其它娱乐休闲",
+      "address": "广东省广州市增城区正果镇畲族村293县道附近",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "增城区",
+      "adcode": "440118",
+      "lng": 113.992904,
+      "lat": 23.334999,
       "status": "candidate"
     },
     {
@@ -1461,7 +1322,7 @@
       "guessCategory": "scenic",
       "matchedKeyword": "山庄",
       "amapCategory": "房产小区:住宅区:住宅小区",
-      "address": "广东省广州市天河区黄埔大道萝斗岗1号",
+      "address": "广东省广州市天河区天园街道黄埔大道萝斗岗1号",
       "province": "广东省",
       "city": "广州市",
       "district": "天河区",
@@ -1499,20 +1360,6 @@
       "status": "candidate"
     },
     {
-      "title": "中旅·阿那亚·九龙湖度假区",
-      "guessCategory": "scenic",
-      "matchedKeyword": "度假区",
-      "amapCategory": "旅游景点:国家级景点",
-      "address": "广东省广州市花都区花东镇山前旅游大道3号",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "花都区",
-      "adcode": "440114",
-      "lng": 113.416929,
-      "lat": 23.476709,
-      "status": "candidate"
-    },
-    {
       "title": "南湖国家旅游度假区",
       "guessCategory": "scenic",
       "matchedKeyword": "度假区",
@@ -1524,6 +1371,20 @@
       "adcode": "440111",
       "lng": 113.32745,
       "lat": 23.220459,
+      "status": "candidate"
+    },
+    {
+      "title": "中旅·阿那亚·九龙湖度假区",
+      "guessCategory": "scenic",
+      "matchedKeyword": "度假区",
+      "amapCategory": "旅游景点:国家级景点",
+      "address": "广东省广州市花都区花东镇山前旅游大道3号",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "花都区",
+      "adcode": "440114",
+      "lng": 113.416929,
+      "lat": 23.476709,
       "status": "candidate"
     },
     {
@@ -1541,20 +1402,6 @@
       "status": "candidate"
     },
     {
-      "title": "森林海旅游度假区",
-      "guessCategory": "scenic",
-      "matchedKeyword": "度假区",
-      "amapCategory": "旅游景点:其它旅游景点",
-      "address": "广东省广州市增城区派潭镇白水寨大道101号",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "增城区",
-      "adcode": "440118",
-      "lng": 113.761149,
-      "lat": 23.567189,
-      "status": "candidate"
-    },
-    {
       "title": "旧市场特色美食店(荔城街店)",
       "guessCategory": "food",
       "matchedKeyword": "特色美食",
@@ -1569,17 +1416,17 @@
       "status": "candidate"
     },
     {
-      "title": "普宁特色小吃店(江南大道南店)",
+      "title": "晶晶粤西特色美食",
       "guessCategory": "food",
       "matchedKeyword": "特色美食",
-      "amapCategory": "美食:中餐厅:粤菜",
-      "address": "广东省广州市海珠区瑞宝街道江南大道南875号124号铺",
+      "amapCategory": "美食:中餐厅:其它中餐厅",
+      "address": "广东省广州市番禺区大石街道大石街东联东发美食街101-102、201-202、301-02号",
       "province": "广东省",
       "city": "广州市",
-      "district": "海珠区",
-      "adcode": "440105",
-      "lng": 113.290915,
-      "lat": 23.06834,
+      "district": "番禺区",
+      "adcode": "440113",
+      "lng": 113.314506,
+      "lat": 23.020553,
       "status": "candidate"
     },
     {
@@ -1625,34 +1472,6 @@
       "status": "candidate"
     },
     {
-      "title": "晶晶粤西特色美食",
-      "guessCategory": "food",
-      "matchedKeyword": "特色美食",
-      "amapCategory": "美食:中餐厅:其它中餐厅",
-      "address": "广东省广州市番禺区大石街道大石街东联东发美食街101-102、201-202、301-02号",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "番禺区",
-      "adcode": "440113",
-      "lng": 113.314506,
-      "lat": 23.020553,
-      "status": "candidate"
-    },
-    {
-      "title": "品胜特色美食",
-      "guessCategory": "food",
-      "matchedKeyword": "特色美食",
-      "amapCategory": "美食:海鲜",
-      "address": "广东省广州市番禺区南村镇中约大道1号桥郡外滩商铺118号",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "番禺区",
-      "adcode": "440113",
-      "lng": 113.391418,
-      "lat": 23.017218,
-      "status": "candidate"
-    },
-    {
       "title": "龙洞美食广场",
       "guessCategory": "food",
       "matchedKeyword": "特色美食",
@@ -1681,11 +1500,25 @@
       "status": "candidate"
     },
     {
+      "title": "品胜特色美食",
+      "guessCategory": "food",
+      "matchedKeyword": "特色美食",
+      "amapCategory": "美食:海鲜",
+      "address": "广东省广州市番禺区南村镇中约大道1号桥郡外滩商铺118号",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "番禺区",
+      "adcode": "440113",
+      "lng": 113.391508,
+      "lat": 23.017099,
+      "status": "candidate"
+    },
+    {
       "title": "新疆卡尔湾特色美味羊肉烧烤餐饮美食店",
       "guessCategory": "food",
       "matchedKeyword": "特色美食",
       "amapCategory": "美食:烧烤",
-      "address": "广东省广州市荔湾区环市西路130号",
+      "address": "广东省广州市荔湾区广园西路与环市西路交叉口正东方向54米左右",
       "province": "广东省",
       "city": "广州市",
       "district": "荔湾区",
@@ -1695,17 +1528,31 @@
       "status": "candidate"
     },
     {
-      "title": "银记肠粉北京路店",
+      "title": "洛溪特色风情美食街",
+      "guessCategory": "food",
+      "matchedKeyword": "特色美食",
+      "amapCategory": "美食:其它美食",
+      "address": "广东省广州市番禺区北环路(近康宁路)",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "番禺区",
+      "adcode": "440113",
+      "lng": 113.295613,
+      "lat": 23.047171,
+      "status": "candidate"
+    },
+    {
+      "title": "惠如家潮州菜(海印店)",
       "guessCategory": "food",
       "matchedKeyword": "小吃",
       "amapCategory": "美食:中餐厅:其它中餐厅",
-      "address": "广东省广州市越秀区惠福东路519号",
+      "address": "广东省广州市海珠区建基路广信综合楼底商98号1-8(8号线晓港地铁口A出口步行1400m)中大A口",
       "province": "广东省",
       "city": "广州市",
-      "district": "越秀区",
-      "adcode": "440104",
-      "lng": 113.268204,
-      "lat": 23.121437,
+      "district": "海珠区",
+      "adcode": "440105",
+      "lng": 113.288332,
+      "lat": 23.099752,
       "status": "candidate"
     },
     {
@@ -1737,6 +1584,20 @@
       "status": "candidate"
     },
     {
+      "title": "银记肠粉北京路店",
+      "guessCategory": "food",
+      "matchedKeyword": "小吃",
+      "amapCategory": "美食:中餐厅:其它中餐厅",
+      "address": "广东省广州市越秀区惠福东路519号(北京路地铁站B口步行490米)",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "越秀区",
+      "adcode": "440104",
+      "lng": 113.268204,
+      "lat": 23.121437,
+      "status": "candidate"
+    },
+    {
       "title": "吃了又吃·韩国小吃(江南西店)",
       "guessCategory": "food",
       "matchedKeyword": "小吃",
@@ -1765,20 +1626,6 @@
       "status": "candidate"
     },
     {
-      "title": "大家乐(广州天河城六楼店)",
-      "guessCategory": "food",
-      "matchedKeyword": "小吃",
-      "amapCategory": "美食:小吃快餐",
-      "address": "广东省广州市天河区天河南街道天河路208号天河城购物中心第六层611号商铺",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "天河区",
-      "adcode": "440106",
-      "lng": 113.322182,
-      "lat": 23.132197,
-      "status": "candidate"
-    },
-    {
       "title": "源记肠粉(华贵路店)",
       "guessCategory": "food",
       "matchedKeyword": "小吃",
@@ -1793,20 +1640,6 @@
       "status": "candidate"
     },
     {
-      "title": "遇见小面(花城汇南区店)",
-      "guessCategory": "food",
-      "matchedKeyword": "小吃",
-      "amapCategory": "美食:小吃快餐",
-      "address": "广东省广州市天河区猎德街道花城大道89号负1层3001号B02B商铺",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "天河区",
-      "adcode": "440106",
-      "lng": 113.324239,
-      "lat": 23.118808,
-      "status": "candidate"
-    },
-    {
       "title": "一记面馆(桥南总店)",
       "guessCategory": "food",
       "matchedKeyword": "面馆",
@@ -1816,8 +1649,8 @@
       "city": "广州市",
       "district": "番禺区",
       "adcode": "440113",
-      "lng": 113.366083,
-      "lat": 22.924975,
+      "lng": 113.36607,
+      "lat": 22.925046,
       "status": "candidate"
     },
     {
@@ -1905,20 +1738,6 @@
       "status": "candidate"
     },
     {
-      "title": "啊群竹升面馆(远安围闭小区店)",
-      "guessCategory": "food",
-      "matchedKeyword": "面馆",
-      "amapCategory": "美食:小吃快餐",
-      "address": "广东省广州市海珠区滨江街道滨江东路3-7号1层06铺",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "海珠区",
-      "adcode": "440105",
-      "lng": 113.284467,
-      "lat": 23.10762,
-      "status": "candidate"
-    },
-    {
       "title": "秦记面馆(丽景花苑店)",
       "guessCategory": "food",
       "matchedKeyword": "面馆",
@@ -1944,6 +1763,20 @@
       "adcode": "440104",
       "lng": 113.289055,
       "lat": 23.13406,
+      "status": "candidate"
+    },
+    {
+      "title": "椰林海鲜酒家",
+      "guessCategory": "food",
+      "matchedKeyword": "酒楼",
+      "amapCategory": "美食:海鲜",
+      "address": "广东省广州市花都区雅瑶中路1号",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "花都区",
+      "adcode": "440114",
+      "lng": 113.224435,
+      "lat": 23.361504,
       "status": "candidate"
     },
     {
@@ -1975,11 +1808,25 @@
       "status": "candidate"
     },
     {
+      "title": "椰林海鲜码头(天河云来斯堡店)",
+      "guessCategory": "food",
+      "matchedKeyword": "酒楼",
+      "amapCategory": "美食:海鲜",
+      "address": "广东省广州市天河区冼村街道黄埔大道西126号301铺",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "天河区",
+      "adcode": "440106",
+      "lng": 113.341958,
+      "lat": 23.125919,
+      "status": "candidate"
+    },
+    {
       "title": "乐陶轩酒楼(广百新一城店)",
       "guessCategory": "food",
       "matchedKeyword": "酒楼",
       "amapCategory": "美食:中餐厅:酒楼",
-      "address": "广东省广州市海珠区宝岗大道498号乐4楼",
+      "address": "广东省广州市海珠区宝岗大道498号乐4楼陶轩酒楼",
       "province": "广东省",
       "city": "广州市",
       "district": "海珠区",
@@ -2017,20 +1864,6 @@
       "status": "candidate"
     },
     {
-      "title": "喜悦酒楼(大龙店)",
-      "guessCategory": "food",
-      "matchedKeyword": "酒楼",
-      "amapCategory": "美食:中餐厅:粤菜",
-      "address": "广东省广州市番禺区旧水坑颖川中路20号之101号",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "番禺区",
-      "adcode": "440113",
-      "lng": 113.399253,
-      "lat": 22.959255,
-      "status": "candidate"
-    },
-    {
       "title": "陈记海鲜砂锅粥大排档酒楼",
       "guessCategory": "food",
       "matchedKeyword": "酒楼",
@@ -2059,20 +1892,6 @@
       "status": "candidate"
     },
     {
-      "title": "光明酒楼",
-      "guessCategory": "food",
-      "matchedKeyword": "酒楼",
-      "amapCategory": "美食:中餐厅:酒楼",
-      "address": "广东省广州市增城区正果镇中西村中联路11号",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "增城区",
-      "adcode": "440118",
-      "lng": 113.868581,
-      "lat": 23.376887,
-      "status": "candidate"
-    },
-    {
       "title": "新禧悦酒家(原喜悦酒家)",
       "guessCategory": "food",
       "matchedKeyword": "酒楼",
@@ -2082,8 +1901,22 @@
       "city": "广州市",
       "district": "越秀区",
       "adcode": "440104",
-      "lng": 113.291398,
-      "lat": 23.135758,
+      "lng": 113.291381,
+      "lat": 23.135708,
+      "status": "candidate"
+    },
+    {
+      "title": "THE STARS CAFE 星辰咖啡(体育西路店)",
+      "guessCategory": "food",
+      "matchedKeyword": "咖啡厅",
+      "amapCategory": "娱乐休闲:咖啡厅",
+      "address": "广东省广州市天河区天河南街道六运一街19号105",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "天河区",
+      "adcode": "440106",
+      "lng": 113.323558,
+      "lat": 23.129887,
       "status": "candidate"
     },
     {
@@ -2143,7 +1976,21 @@
       "status": "candidate"
     },
     {
-      "title": "熹上茶咖小院(白水寨森林海店)",
+      "title": "Major Cafe × Life Recipes梦桥乐坊咖啡",
+      "guessCategory": "food",
+      "matchedKeyword": "咖啡厅",
+      "amapCategory": "娱乐休闲:咖啡厅",
+      "address": "广东省广州市海珠区昌岗西路8号自编25栋前宿舍物业101铺",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "海珠区",
+      "adcode": "440105",
+      "lng": 113.25904,
+      "lat": 23.081172,
+      "status": "candidate"
+    },
+    {
+      "title": "熹上咖啡",
       "guessCategory": "food",
       "matchedKeyword": "咖啡厅",
       "amapCategory": "娱乐休闲:咖啡厅",
@@ -2154,20 +2001,6 @@
       "adcode": "440118",
       "lng": 113.765955,
       "lat": 23.576229,
-      "status": "candidate"
-    },
-    {
-      "title": "1200咖啡",
-      "guessCategory": "food",
-      "matchedKeyword": "咖啡厅",
-      "amapCategory": "娱乐休闲:咖啡厅",
-      "address": "广东省广州市天河区体育东路27号1-2层(冼村地铁站G口步行410米)",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "天河区",
-      "adcode": "440106",
-      "lng": 113.327759,
-      "lat": 23.128781,
       "status": "candidate"
     },
     {
@@ -2185,20 +2018,6 @@
       "status": "candidate"
     },
     {
-      "title": "无印良品咖啡Café MUJI(万菱汇店)",
-      "guessCategory": "food",
-      "matchedKeyword": "咖啡厅",
-      "amapCategory": "娱乐休闲:咖啡厅",
-      "address": "广东省广州市天河区天河南街道天河路232号万菱汇B1-104店铺",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "天河区",
-      "adcode": "440106",
-      "lng": 113.331366,
-      "lat": 23.132819,
-      "status": "candidate"
-    },
-    {
       "title": "LOCK CHUCK COFFEE",
       "guessCategory": "food",
       "matchedKeyword": "咖啡厅",
@@ -2210,6 +2029,20 @@
       "adcode": "440104",
       "lng": 113.296841,
       "lat": 23.132732,
+      "status": "candidate"
+    },
+    {
+      "title": "随园茶楼(工业路辅路店)",
+      "guessCategory": "food",
+      "matchedKeyword": "茶馆",
+      "amapCategory": "娱乐休闲:茶馆",
+      "address": "广东省广州市番禺区市桥街道工业路22号之2号",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "番禺区",
+      "adcode": "440113",
+      "lng": 113.368918,
+      "lat": 22.933142,
       "status": "candidate"
     },
     {
@@ -2241,31 +2074,17 @@
       "status": "candidate"
     },
     {
-      "title": "品品香白茶广州运营中心",
+      "title": "华农蜜芽·广东特色茶体验馆",
       "guessCategory": "food",
       "matchedKeyword": "茶馆",
       "amapCategory": "娱乐休闲:茶馆",
-      "address": "广东省广州市增城区新塘镇荔新十二路96号长风国际7幢108号",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "增城区",
-      "adcode": "440118",
-      "lng": 113.621221,
-      "lat": 23.148357,
-      "status": "candidate"
-    },
-    {
-      "title": "华农蜜芽·茶室(长隆时代芳华里店)",
-      "guessCategory": "food",
-      "matchedKeyword": "茶馆",
-      "amapCategory": "娱乐休闲:茶馆",
-      "address": "广东省广州市番禺区钟村街道汉溪大道时代·芳华里-B2栋1305号",
+      "address": "广东省广州市番禺区钟村街道汉溪大道时代·芳华里-A1栋103(B)",
       "province": "广东省",
       "city": "广州市",
       "district": "番禺区",
       "adcode": "440113",
-      "lng": 113.332269,
-      "lat": 22.994103,
+      "lng": 113.333395,
+      "lat": 22.994935,
       "status": "candidate"
     },
     {
@@ -2283,6 +2102,20 @@
       "status": "candidate"
     },
     {
+      "title": "品品香白茶广州运营中心",
+      "guessCategory": "food",
+      "matchedKeyword": "茶馆",
+      "amapCategory": "娱乐休闲:茶馆",
+      "address": "广东省广州市增城区新塘镇荔新十二路96号长风国际7幢108号",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "增城区",
+      "adcode": "440118",
+      "lng": 113.621221,
+      "lat": 23.148357,
+      "status": "candidate"
+    },
+    {
       "title": "四个朋友24小时自助棋牌茶室(宏康东筑店)",
       "guessCategory": "food",
       "matchedKeyword": "茶馆",
@@ -2297,17 +2130,17 @@
       "status": "candidate"
     },
     {
-      "title": "藏安会",
+      "title": "华农蜜芽·茶室(长隆时代芳华里店)",
       "guessCategory": "food",
       "matchedKeyword": "茶馆",
       "amapCategory": "娱乐休闲:茶馆",
-      "address": "广东省广州市番禺区汉兴三街保利大都汇D2栋1层",
+      "address": "广东省广州市番禺区钟村街道汉溪大道时代·芳华里-B2栋1305号",
       "province": "广东省",
       "city": "广州市",
       "district": "番禺区",
       "adcode": "440113",
-      "lng": 113.336313,
-      "lat": 22.992544,
+      "lng": 113.332269,
+      "lat": 22.994103,
       "status": "candidate"
     },
     {
@@ -2339,20 +2172,6 @@
       "status": "candidate"
     },
     {
-      "title": "秋瑜茶社",
-      "guessCategory": "food",
-      "matchedKeyword": "茶馆",
-      "amapCategory": "购物:其它购物",
-      "address": "广东省广州市荔湾区沙面北街79号之一(黄沙地铁口F出口步行500米)",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "荔湾区",
-      "adcode": "440103",
-      "lng": 113.242377,
-      "lat": 23.108116,
-      "status": "candidate"
-    },
-    {
       "title": "吴记餐厅",
       "guessCategory": "food",
       "matchedKeyword": "农家菜",
@@ -2364,6 +2183,20 @@
       "adcode": "440118",
       "lng": 113.649309,
       "lat": 23.137241,
+      "status": "candidate"
+    },
+    {
+      "title": "一家农庄竹筒饭(蒙花布·师爷山·白江湖·正果老街店)",
+      "guessCategory": "food",
+      "matchedKeyword": "农家菜",
+      "amapCategory": "美食:中餐厅:粤菜",
+      "address": "广东省广州市增城区正果镇番丰村松竹元路(好客民宿旁)",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "增城区",
+      "adcode": "440118",
+      "lng": 113.892213,
+      "lat": 23.422129,
       "status": "candidate"
     },
     {
@@ -2392,20 +2225,6 @@
       "adcode": "440106",
       "lng": 113.38846,
       "lat": 23.211812,
-      "status": "candidate"
-    },
-    {
-      "title": "一家农庄竹筒饭(蒙花布·师爷山·白江湖·正果老街店)",
-      "guessCategory": "food",
-      "matchedKeyword": "农家菜",
-      "amapCategory": "美食:中餐厅:粤菜",
-      "address": "广东省广州市增城区松竹元路",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "增城区",
-      "adcode": "440118",
-      "lng": 113.892213,
-      "lat": 23.422129,
       "status": "candidate"
     },
     {
@@ -2493,17 +2312,17 @@
       "status": "candidate"
     },
     {
-      "title": "木屋烧烤(天河石牌桥店)",
+      "title": "木屋烧烤(地王广场店)",
       "guessCategory": "food",
       "matchedKeyword": "烧烤",
       "amapCategory": "美食:烧烤",
-      "address": "广东省广州市天河区天河南街道天河路238号华龙大厦商业裙楼二楼(大门口进去上扶手电梯旁)",
+      "address": "广东省广州市越秀区大东街道较场东路26号地王广场东入口1038铺",
       "province": "广东省",
       "city": "广州市",
-      "district": "天河区",
-      "adcode": "440106",
-      "lng": 113.332297,
-      "lat": 23.132489,
+      "district": "越秀区",
+      "adcode": "440104",
+      "lng": 113.284545,
+      "lat": 23.125643,
       "status": "candidate"
     },
     {
@@ -2516,7 +2335,7 @@
       "city": "广州市",
       "district": "番禺区",
       "adcode": "440113",
-      "lng": 113.316685,
+      "lng": 113.316717,
       "lat": 23.013445,
       "status": "candidate"
     },
@@ -2535,17 +2354,17 @@
       "status": "candidate"
     },
     {
-      "title": "木屋烧烤(圣地店)",
+      "title": "木屋烧烤(天河石牌桥店)",
       "guessCategory": "food",
       "matchedKeyword": "烧烤",
       "amapCategory": "美食:烧烤",
-      "address": "广东省广州市白云区广州大道北1421号圣地大厦首层自编n1002号房",
+      "address": "广东省广州市天河区天河南街道天河路238号华龙大厦商业裙楼二楼",
       "province": "广东省",
       "city": "广州市",
-      "district": "白云区",
-      "adcode": "440111",
-      "lng": 113.321591,
-      "lat": 23.181652,
+      "district": "天河区",
+      "adcode": "440106",
+      "lng": 113.332297,
+      "lat": 23.132489,
       "status": "candidate"
     },
     {
@@ -2560,6 +2379,20 @@
       "adcode": "440114",
       "lng": 113.193958,
       "lat": 23.37563,
+      "status": "candidate"
+    },
+    {
+      "title": "醉初烧烤酒馆",
+      "guessCategory": "food",
+      "matchedKeyword": "烧烤",
+      "amapCategory": "美食:烧烤",
+      "address": "广东省广州市番禺区市桥街桥兴大道184号",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "番禺区",
+      "adcode": "440113",
+      "lng": 113.359372,
+      "lat": 22.952178,
       "status": "candidate"
     },
     {
@@ -2586,36 +2419,22 @@
       "city": "广州市",
       "district": "番禺区",
       "adcode": "440113",
-      "lng": 113.349635,
-      "lat": 23.002121,
+      "lng": 113.349625,
+      "lat": 23.002127,
       "status": "candidate"
     },
     {
-      "title": "木屋烧烤(番禺雄峰城店)",
+      "title": "木屋烧烤(圣地店)",
       "guessCategory": "food",
       "matchedKeyword": "烧烤",
       "amapCategory": "美食:烧烤",
-      "address": "广东省广州市番禺区钟村街道钟村街钟兴路雄峰城B1座1059(沃尔玛旁)",
+      "address": "广东省广州市白云区广州大道北1421号圣地大厦首层自编n1002号房",
       "province": "广东省",
       "city": "广州市",
-      "district": "番禺区",
-      "adcode": "440113",
-      "lng": 113.306333,
-      "lat": 22.971224,
-      "status": "candidate"
-    },
-    {
-      "title": "木屋烧烤(地王广场店)",
-      "guessCategory": "food",
-      "matchedKeyword": "烧烤",
-      "amapCategory": "美食:烧烤",
-      "address": "广东省广州市越秀区大东街道较场东路26号地王广场东入口1038铺",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "越秀区",
-      "adcode": "440104",
-      "lng": 113.284545,
-      "lat": 23.125643,
+      "district": "白云区",
+      "adcode": "440111",
+      "lng": 113.321617,
+      "lat": 23.181586,
       "status": "candidate"
     },
     {
@@ -2661,31 +2480,17 @@
       "status": "candidate"
     },
     {
-      "title": "广州大剧院歌剧厅",
-      "guessCategory": "hotspot",
-      "matchedKeyword": "网红打卡",
-      "amapCategory": "娱乐休闲:剧场音乐厅:剧场",
-      "address": "广东省广州市天河区珠江新城珠江西路1号大剧院4-5层",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "天河区",
-      "adcode": "440106",
-      "lng": 113.321922,
-      "lat": 23.115246,
-      "status": "candidate"
-    },
-    {
-      "title": "COFFEELIN(天河北店)",
+      "title": "Silly Dog Coffee(越秀店)",
       "guessCategory": "hotspot",
       "matchedKeyword": "网红打卡",
       "amapCategory": "娱乐休闲:咖啡厅",
-      "address": "广东省广州市天河区林和街道侨林街51、53号首层自编7",
+      "address": "广东省广州市越秀区大塘街高华里24号101铺",
       "province": "广东省",
       "city": "广州市",
-      "district": "天河区",
-      "adcode": "440106",
-      "lng": 113.329877,
-      "lat": 23.143982,
+      "district": "越秀区",
+      "adcode": "440104",
+      "lng": 113.273932,
+      "lat": 23.123615,
       "status": "candidate"
     },
     {
@@ -2703,6 +2508,20 @@
       "status": "candidate"
     },
     {
+      "title": "OMG网红直播街(岭南电商园店)",
+      "guessCategory": "hotspot",
+      "matchedKeyword": "网红打卡",
+      "amapCategory": "娱乐休闲:其它娱乐休闲",
+      "address": "广东省广州市番禺区洛浦街迎宾路段19号厦滘商务区A区广州岭南电商园市场6街1楼79-80号",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "番禺区",
+      "adcode": "440113",
+      "lng": 113.317489,
+      "lat": 23.039544,
+      "status": "candidate"
+    },
+    {
       "title": "妖都咖啡公司(天河南店)",
       "guessCategory": "hotspot",
       "matchedKeyword": "网红打卡",
@@ -2717,17 +2536,17 @@
       "status": "candidate"
     },
     {
-      "title": "THE DOT",
+      "title": "永汉电影院(北京路总店)",
       "guessCategory": "hotspot",
       "matchedKeyword": "网红打卡",
-      "amapCategory": "娱乐休闲:咖啡厅",
-      "address": "广东省广州市越秀区寺右新马路南二街六巷11号首层101",
+      "amapCategory": "娱乐休闲:电影院",
+      "address": "广东省广州市越秀区文明路9号三层",
       "province": "广东省",
       "city": "广州市",
       "district": "越秀区",
       "adcode": "440104",
-      "lng": 113.312212,
-      "lat": 23.117161,
+      "lng": 113.269536,
+      "lat": 23.121207,
       "status": "candidate"
     },
     {
@@ -2787,20 +2606,6 @@
       "status": "candidate"
     },
     {
-      "title": "新发文具书店",
-      "guessCategory": "hotspot",
-      "matchedKeyword": "书店",
-      "amapCategory": "购物:文化用品",
-      "address": "广东省广州市增城区新塘镇大敦村大新路绿岛生活超市西南侧",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "增城区",
-      "adcode": "440118",
-      "lng": 113.659287,
-      "lat": 23.123415,
-      "status": "candidate"
-    },
-    {
       "title": "扶光书店(时光里店)",
       "guessCategory": "hotspot",
       "matchedKeyword": "书店",
@@ -2815,45 +2620,17 @@
       "status": "candidate"
     },
     {
-      "title": "博览书店·读享咖啡(市桥禺山店)",
+      "title": "新发文具书店",
       "guessCategory": "hotspot",
       "matchedKeyword": "书店",
-      "amapCategory": "娱乐休闲:咖啡厅",
-      "address": "广东省广州市番禺区市桥街禺山大道245号(正太广场对面)",
+      "amapCategory": "购物:文化用品",
+      "address": "广东省广州市增城区新塘镇大敦村大新路绿岛生活超市西南侧",
       "province": "广东省",
       "city": "广州市",
-      "district": "番禺区",
-      "adcode": "440113",
-      "lng": 113.356549,
-      "lat": 22.940405,
-      "status": "candidate"
-    },
-    {
-      "title": "博览文具书店(大田商业步行街店)",
-      "guessCategory": "hotspot",
-      "matchedKeyword": "书店",
-      "amapCategory": "购物:图书音像",
-      "address": "广东省广州市白云区江高镇大田东路67号",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "白云区",
-      "adcode": "440111",
-      "lng": 113.209092,
-      "lat": 23.271087,
-      "status": "candidate"
-    },
-    {
-      "title": "精灵书店(清狮步行街店)",
-      "guessCategory": "hotspot",
-      "matchedKeyword": "书店",
-      "amapCategory": "购物:图书音像",
-      "address": "广东省广州市花都区狮岭镇教育东路22号",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "花都区",
-      "adcode": "440114",
-      "lng": 113.153939,
-      "lat": 23.46196,
+      "district": "增城区",
+      "adcode": "440118",
+      "lng": 113.659287,
+      "lat": 23.123415,
       "status": "candidate"
     },
     {
@@ -2871,6 +2648,48 @@
       "status": "candidate"
     },
     {
+      "title": "博览书店·读享咖啡(市桥禺山店)",
+      "guessCategory": "hotspot",
+      "matchedKeyword": "书店",
+      "amapCategory": "娱乐休闲:咖啡厅",
+      "address": "广东省广州市番禺区市桥街禺山大道245号(正太广场对面)",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "番禺区",
+      "adcode": "440113",
+      "lng": 113.356467,
+      "lat": 22.940404,
+      "status": "candidate"
+    },
+    {
+      "title": "精灵书店(清狮步行街店)",
+      "guessCategory": "hotspot",
+      "matchedKeyword": "书店",
+      "amapCategory": "购物:图书音像",
+      "address": "广东省广州市花都区狮岭镇教育东路22号",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "花都区",
+      "adcode": "440114",
+      "lng": 113.153939,
+      "lat": 23.46196,
+      "status": "candidate"
+    },
+    {
+      "title": "学而优书店(新港店)",
+      "guessCategory": "hotspot",
+      "matchedKeyword": "书店",
+      "amapCategory": "购物:图书音像",
+      "address": "广东省广州市海珠区新港西路93号(近中山大学西门)",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "海珠区",
+      "adcode": "440105",
+      "lng": 113.290173,
+      "lat": 23.092918,
+      "status": "candidate"
+    },
+    {
       "title": "东山口历史文化街区",
       "guessCategory": "culture",
       "matchedKeyword": "历史文化街区",
@@ -2885,45 +2704,17 @@
       "status": "candidate"
     },
     {
-      "title": "恩宁路历史文化街区",
+      "title": "华林寺历史文化街区",
       "guessCategory": "culture",
       "matchedKeyword": "历史文化街区",
-      "amapCategory": "旅游景点:其它旅游景点",
-      "address": "广东省广州市荔湾区多宝街道恩宁路(黄沙地铁站C口步行360米)",
+      "amapCategory": "购物:商业步行街",
+      "address": "广东省广州市荔湾区华林街道毓桂头巷4号",
       "province": "广东省",
       "city": "广州市",
       "district": "荔湾区",
       "adcode": "440103",
-      "lng": 113.237711,
-      "lat": 23.113028,
-      "status": "candidate"
-    },
-    {
-      "title": "人民南历史文化街区",
-      "guessCategory": "culture",
-      "matchedKeyword": "历史文化街区",
-      "amapCategory": "旅游景点:其它旅游景点",
-      "address": "广东省广州市荔湾区岭南街道十三行路22号",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "荔湾区",
-      "adcode": "440103",
-      "lng": 113.252973,
-      "lat": 23.110997,
-      "status": "candidate"
-    },
-    {
-      "title": "泮塘五约历史文化街区",
-      "guessCategory": "culture",
-      "matchedKeyword": "历史文化街区",
-      "amapCategory": "旅游景点:其它旅游景点",
-      "address": "广东省广州市荔湾区泮塘五约涌边街46号(地铁5号线中山八站A出口步行254米)",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "荔湾区",
-      "adcode": "440103",
-      "lng": 113.234555,
-      "lat": 23.123618,
+      "lng": 113.246179,
+      "lat": 23.116332,
       "status": "candidate"
     },
     {
@@ -2955,17 +2746,31 @@
       "status": "candidate"
     },
     {
-      "title": "华林寺历史文化街区",
+      "title": "泮塘五约历史文化街区",
       "guessCategory": "culture",
       "matchedKeyword": "历史文化街区",
-      "amapCategory": "购物:商业步行街",
-      "address": "广东省广州市荔湾区华林街道毓桂头巷4号",
+      "amapCategory": "旅游景点:其它旅游景点",
+      "address": "广东省广州市荔湾区泮塘五约涌边街46号(地铁5号线中山八站A出口步行254米)",
       "province": "广东省",
       "city": "广州市",
       "district": "荔湾区",
       "adcode": "440103",
-      "lng": 113.246179,
-      "lat": 23.116332,
+      "lng": 113.234555,
+      "lat": 23.123618,
+      "status": "candidate"
+    },
+    {
+      "title": "人民南历史文化街区",
+      "guessCategory": "culture",
+      "matchedKeyword": "历史文化街区",
+      "amapCategory": "旅游景点:其它旅游景点",
+      "address": "广东省广州市荔湾区岭南街道十三行路22号",
+      "province": "广东省",
+      "city": "广州市",
+      "district": "荔湾区",
+      "adcode": "440103",
+      "lng": 113.252973,
+      "lat": 23.110997,
       "status": "candidate"
     },
     {
@@ -3011,20 +2816,6 @@
       "status": "candidate"
     },
     {
-      "title": "红花郎酒食品店(沙湾古镇店)",
-      "guessCategory": "culture",
-      "matchedKeyword": "古街",
-      "amapCategory": "购物:烟酒专卖",
-      "address": "广东省广州市番禺区沙湾街道沙湾西村三槐里牌坊巷8号",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "番禺区",
-      "adcode": "440113",
-      "lng": 113.330768,
-      "lat": 22.896879,
-      "status": "candidate"
-    },
-    {
       "title": "黄锡祥(沙湾古镇店)",
       "guessCategory": "culture",
       "matchedKeyword": "古街",
@@ -3053,17 +2844,17 @@
       "status": "candidate"
     },
     {
-      "title": "隆顺百货(沙湾古镇店)",
+      "title": "红花郎酒食品店(沙湾古镇店)",
       "guessCategory": "culture",
       "matchedKeyword": "古街",
-      "amapCategory": "购物:超市",
-      "address": "广东省广州市番禺区沙湾街道三桂路33号",
+      "amapCategory": "购物:烟酒专卖",
+      "address": "广东省广州市番禺区沙湾街道沙湾西村三槐里牌坊巷8号",
       "province": "广东省",
       "city": "广州市",
       "district": "番禺区",
       "adcode": "440113",
-      "lng": 113.334238,
-      "lat": 22.897874,
+      "lng": 113.330768,
+      "lat": 22.896879,
       "status": "candidate"
     },
     {
@@ -3127,7 +2918,7 @@
       "guessCategory": "culture",
       "matchedKeyword": "非遗",
       "amapCategory": "文化场馆:展览馆",
-      "address": "广东省广州市番禺区安宁西街三达巷3号",
+      "address": "广东省广州市番禺区沙湾古镇安宁西街三达巷3号",
       "province": "广东省",
       "city": "广州市",
       "district": "番禺区",
@@ -3176,20 +2967,6 @@
       "adcode": "440111",
       "lng": 113.298994,
       "lat": 23.216083,
-      "status": "candidate"
-    },
-    {
-      "title": "她主力非遗空间",
-      "guessCategory": "culture",
-      "matchedKeyword": "非遗",
-      "amapCategory": "生活服务:生活服务场所",
-      "address": "广东省广州市天河区华强路2号富力盈丰大厦C座3楼346房",
-      "province": "广东省",
-      "city": "广州市",
-      "district": "天河区",
-      "adcode": "440106",
-      "lng": 113.316577,
-      "lat": 23.12571,
       "status": "candidate"
     },
     {

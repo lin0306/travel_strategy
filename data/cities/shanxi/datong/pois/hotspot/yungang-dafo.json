@@ -1,193 +1,231 @@
 {
-  "id": "yungang-dafo",
-  "name": "云冈大佛",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "云冈第二十窟那尊露天大佛，十三米多高，是云冈最上镜的一尊。",
-  "description": "第二十窟那尊露天大佛是云冈最上镜的一尊 —— 十三米多高，因为窟前面塌了，所以整尊佛露在外面。它的脸型饱满，眼睛半睁，嘴角带一点笑。站在下面仰拍最有气势，早上光从侧面打过来最好。它是大多数人对云冈的第一印象。",
-  "highlights": [
-    "第二十窟露天大佛，十三米多",
-    "脸型饱满嘴角带笑",
-    "仰拍最有气势，早上侧光好"
-  ],
-  "location": {
-    "point": {
-      "lng": 113.129931,
-      "lat": 40.111711,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "山西省大同市云冈区云冈石窟第二十窟",
-    "district": "云冈区",
-    "transportTip": "云冈石窟内步行到第二十窟"
+ "id": "yungang-dafo",
+ "name": "云冈大佛",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "云冈第二十窟那尊露天大佛，十三米多高，是云冈最上镜的一尊。",
+ "description": "第二十窟那尊露天大佛是云冈最上镜的一尊 —— 十三米多高，因为窟前面塌了，所以整尊佛露在外面。它的脸型饱满，眼睛半睁，嘴角带一点笑。站在下面仰拍最有气势，早上光从侧面打过来最好。它是大多数人对云冈的第一印象。",
+ "highlights": [
+  "第二十窟露天大佛，十三米多",
+  "脸型饱满嘴角带笑",
+  "仰拍最有气势，早上侧光好"
+ ],
+ "location": {
+  "point": {
+   "lng": 113.129931,
+   "lat": 40.111711,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:30-17:30，随景区",
-    "openHoursRef": 0,
-    "ticket": "含云冈门票",
-    "ticketRef": 0,
-    "duration": "建议 40-90 分钟",
-    "durationMinutes": [
-      40,
-      90
-    ],
-    "priceLevel": "free"
+  "address": "山西省大同市云冈区云冈石窟第二十窟",
+  "district": "云冈区",
+  "transportTip": "云冈石窟内步行到第二十窟"
+ },
+ "practical": {
+  "openHours": "约08:30-17:30，随景区",
+  "openHoursRef": 0,
+  "ticket": "含云冈门票",
+  "ticketRef": 0,
+  "duration": "建议 40-90 分钟",
+  "durationMinutes": [
+   40,
+   90
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "family",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_Yungang_Grottoes_-_panoramio.jpg/1280px-%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_Yungang_Grottoes_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_Yungang_Grottoes_-_panoramio.jpg/1280px-%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_Yungang_Grottoes_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "雲岡石窟 Yungang Grottoes - panoramio.jpg",
+   "query": "云冈大佛",
+   "credit": {
+    "source": "wikimedia",
+    "author": "lienyuan lee",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "family",
-    "couple"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_Yungang_Grottoes_-_panoramio.jpg/1280px-%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_Yungang_Grottoes_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_Yungang_Grottoes_-_panoramio.jpg/1280px-%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_Yungang_Grottoes_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "雲岡石窟 Yungang Grottoes - panoramio.jpg",
-      "query": "云冈大佛",
-      "credit": {
-        "source": "wikimedia",
-        "author": "lienyuan lee",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Yungang_Grottoes_%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_-_panoramio_%281%29.jpg/1280px-Yungang_Grottoes_%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Yungang_Grottoes_%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_-_panoramio_%281%29.jpg/1280px-Yungang_Grottoes_%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Yungang Grottoes 雲岡石窟 - panoramio (1).jpg",
-      "query": "云冈大佛",
-      "credit": {
-        "source": "wikimedia",
-        "author": "lienyuan lee",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Nanjiao%2C_Datong%2C_Shanxi%2C_China_-_panoramio_%287%29.jpg/1280px-Nanjiao%2C_Datong%2C_Shanxi%2C_China_-_panoramio_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Nanjiao%2C_Datong%2C_Shanxi%2C_China_-_panoramio_%287%29.jpg/1280px-Nanjiao%2C_Datong%2C_Shanxi%2C_China_-_panoramio_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Nanjiao, Datong, Shanxi, China - panoramio (7).jpg",
-      "query": "云冈大佛",
-      "credit": {
-        "source": "wikimedia",
-        "author": "牛糞",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Yungang_Grottoes_%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_-_panoramio.jpg/1280px-Yungang_Grottoes_%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Yungang_Grottoes_%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_-_panoramio.jpg/1280px-Yungang_Grottoes_%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Yungang Grottoes 雲岡石窟 - panoramio.jpg",
-      "query": "云冈大佛",
-      "credit": {
-        "source": "wikimedia",
-        "author": "lienyuan lee",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_Yungang_Grottoes_-_panoramio_%283%29.jpg/1280px-%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_Yungang_Grottoes_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_Yungang_Grottoes_-_panoramio_%283%29.jpg/1280px-%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_Yungang_Grottoes_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "雲岡石窟 Yungang Grottoes - panoramio (3).jpg",
-      "query": "云冈大佛",
-      "credit": {
-        "source": "wikimedia",
-        "author": "lienyuan lee",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Yungang_Grottoes_%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_-_panoramio_-_lienyuan_lee.jpg/1280px-Yungang_Grottoes_%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_-_panoramio_-_lienyuan_lee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Yungang_Grottoes_%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_-_panoramio_-_lienyuan_lee.jpg/1280px-Yungang_Grottoes_%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_-_panoramio_-_lienyuan_lee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Yungang Grottoes 雲岡石窟 - panoramio - lienyuan lee.jpg",
-      "query": "云冈大佛",
-      "credit": {
-        "source": "wikimedia",
-        "author": "lienyuan lee",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "大佛",
-    "云冈",
-    "机位"
-  ],
-  "popularity": 94,
-  "sources": [
-    {
-      "title": "百度百科·云冈石窟",
-      "url": "https://baike.baidu.com/item/%E4%BA%91%E5%86%88%E7%9F%B3%E7%AA%9F",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-11-01",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "云冈大佛"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Yungang_Grottoes_%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_-_panoramio_%281%29.jpg/1280px-Yungang_Grottoes_%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Yungang_Grottoes_%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_-_panoramio_%281%29.jpg/1280px-Yungang_Grottoes_%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Yungang Grottoes 雲岡石窟 - panoramio (1).jpg",
+   "query": "云冈大佛",
+   "credit": {
+    "source": "wikimedia",
+    "author": "lienyuan lee",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "云冈石窟-露天大佛",
-  "_geocodeSuspect": false,
-  "district": "140214"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Nanjiao%2C_Datong%2C_Shanxi%2C_China_-_panoramio_%287%29.jpg/1280px-Nanjiao%2C_Datong%2C_Shanxi%2C_China_-_panoramio_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Nanjiao%2C_Datong%2C_Shanxi%2C_China_-_panoramio_%287%29.jpg/1280px-Nanjiao%2C_Datong%2C_Shanxi%2C_China_-_panoramio_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Nanjiao, Datong, Shanxi, China - panoramio (7).jpg",
+   "query": "云冈大佛",
+   "credit": {
+    "source": "wikimedia",
+    "author": "牛糞",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Yungang_Grottoes_%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_-_panoramio.jpg/1280px-Yungang_Grottoes_%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Yungang_Grottoes_%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_-_panoramio.jpg/1280px-Yungang_Grottoes_%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Yungang Grottoes 雲岡石窟 - panoramio.jpg",
+   "query": "云冈大佛",
+   "credit": {
+    "source": "wikimedia",
+    "author": "lienyuan lee",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_Yungang_Grottoes_-_panoramio_%283%29.jpg/1280px-%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_Yungang_Grottoes_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_Yungang_Grottoes_-_panoramio_%283%29.jpg/1280px-%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_Yungang_Grottoes_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "雲岡石窟 Yungang Grottoes - panoramio (3).jpg",
+   "query": "云冈大佛",
+   "credit": {
+    "source": "wikimedia",
+    "author": "lienyuan lee",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Yungang_Grottoes_%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_-_panoramio_-_lienyuan_lee.jpg/1280px-Yungang_Grottoes_%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_-_panoramio_-_lienyuan_lee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Yungang_Grottoes_%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_-_panoramio_-_lienyuan_lee.jpg/1280px-Yungang_Grottoes_%E9%9B%B2%E5%B2%A1%E7%9F%B3%E7%AA%9F_-_panoramio_-_lienyuan_lee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Yungang Grottoes 雲岡石窟 - panoramio - lienyuan lee.jpg",
+   "query": "云冈大佛",
+   "credit": {
+    "source": "wikimedia",
+    "author": "lienyuan lee",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "大佛",
+  "云冈",
+  "机位"
+ ],
+ "popularity": 94,
+ "sources": [
+  {
+   "title": "百度百科·云冈石窟",
+   "url": "https://baike.baidu.com/item/%E4%BA%91%E5%86%88%E7%9F%B3%E7%AA%9F",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "云冈大佛"
+ },
+ "_geocodeTitle": "云冈石窟-露天大佛",
+ "_geocodeSuspect": false,
+ "district": "140214",
+ "review": {
+  "score": 4.6,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "出片",
+    "score": 4.9,
+    "note": "十三米多的露天大佛，仰拍最震撼"
+   },
+   {
+    "label": "光线",
+    "score": 4.2,
+    "note": "早上侧光打在佛面上最好，正午偏平"
+   },
+   {
+    "label": "人流",
+    "score": 3.0,
+    "note": "二十窟前平台不大，团队一到就挤满"
+   },
+   {
+    "label": "时长",
+    "score": 4.6,
+    "note": "单看 30 分钟，连同整个云冈要留半天"
+   }
+  ],
+  "body": "云冈最上镜的一尊：第二十窟的露天大佛高十三米多，因为窟前塌了整尊露在外面，脸型饱满、眼睛半睁、嘴角带一点笑，站在下面仰拍气势最足。它是大多数人对云冈的第一印象，也确实值得单独留时间。短板是位置太热门，窟前平台面积有限，旅行团一到就被人填满，想拍一张干净的照片要等；正午顶光会把佛面的起伏压平，不如早上侧光。建议开园就直奔二十窟，拍够了再回头慢慢看别的窟。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "看石窟",
+   "拍照"
+  ],
+  "avoid": [
+   "正午顶光",
+   "跟大团同时到"
+  ],
+  "sources": []
+ }
 }

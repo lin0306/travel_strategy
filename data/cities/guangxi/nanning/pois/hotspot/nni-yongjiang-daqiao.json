@@ -1,109 +1,147 @@
 {
-  "id": "nni-yongjiang-daqiao",
-  "name": "南宁大桥",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "邕江上的一座曲线斜拉桥，夜景出片。",
-  "description": "南宁大桥是邕江上的一座斜拉桥，主塔是独特的曲线造型，从侧面看像一扇张开的翅膀，是南宁桥梁里最有辨识度的一座。入夜后桥身亮灯，与江面反光一起入画，是摄影爱好者常来的机位。岸边有步道可以靠近，免费、好拍。傍晚去最合适。",
-  "highlights": [
-    "邕江上曲线斜拉桥，造型独特",
-    "入夜桥身亮灯，与江面反光",
-    "岸边步道可靠近，免费"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.372,
-      "lat": 22.783466,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市邕江（连接青秀与江南）",
-    "district": "青秀区",
-    "transportTip": "地铁至邻近站换乘公交/打车至桥畔"
+ "id": "nni-yongjiang-daqiao",
+ "name": "南宁大桥",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "邕江上的一座曲线斜拉桥，夜景出片。",
+ "description": "南宁大桥是邕江上的一座斜拉桥，主塔是独特的曲线造型，从侧面看像一扇张开的翅膀，是南宁桥梁里最有辨识度的一座。入夜后桥身亮灯，与江面反光一起入画，是摄影爱好者常来的机位。岸边有步道可以靠近，免费、好拍。傍晚去最合适。",
+ "highlights": [
+  "邕江上曲线斜拉桥，造型独特",
+  "入夜桥身亮灯，与江面反光",
+  "岸边步道可靠近，免费"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.372,
+   "lat": 22.783466,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放",
-    "openHoursRef": 0,
-    "ticket": "无门票",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "free"
+  "address": "南宁市邕江（连接青秀与江南）",
+  "district": "青秀区",
+  "transportTip": "地铁至邻近站换乘公交/打车至桥畔"
+ },
+ "practical": {
+  "openHours": "全天开放",
+  "openHoursRef": 0,
+  "ticket": "无门票",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "solo",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Nanning_Bridge.jpg/1280px-Nanning_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Nanning_Bridge.jpg/1280px-Nanning_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Nanning Bridge.jpg",
+   "query": "南宁大桥",
+   "credit": {
+    "source": "wikimedia",
+    "author": "EditQ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Nanning Bridge",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "solo",
-    "couple"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Nan%60ning_Bridge%2C2015-5-3.jpg/1280px-Nan%60ning_Bridge%2C2015-5-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Nan%60ning_Bridge%2C2015-5-3.jpg/1280px-Nan%60ning_Bridge%2C2015-5-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Nan`ning Bridge,2015-5-3.jpg",
+   "query": "南宁大桥",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Gmbsfd",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Nanning Bridge",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "front"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "桥梁",
+  "夜景",
+  "邕江"
+ ],
+ "popularity": 66,
+ "sources": [
+  {
+   "title": "百度百科·南宁大桥",
+   "url": "https://baike.baidu.com/item/%E5%8D%97%E5%AE%81%E5%A4%A7%E6%A1%A5",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "南宁大桥"
+ },
+ "_geocodeTitle": "南宁大桥",
+ "_geocodeSuspect": false,
+ "district": "450103",
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "造型",
+    "score": 4.3,
+    "note": "曲线主塔像张开的翅膀，邕江上最有辨识度"
+   },
+   {
+    "label": "拍照",
+    "score": 3.9,
+    "note": "岸边步道能靠近，入夜桥身亮灯"
+   },
+   {
+    "label": "可停留",
+    "score": 2.6,
+    "note": "桥面不能停，得下到江边找机位"
+   },
+   {
+    "label": "时长",
+    "score": 3.2,
+    "note": "拍完就走，半小时足够"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Nanning_Bridge.jpg/1280px-Nanning_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Nanning_Bridge.jpg/1280px-Nanning_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Nanning Bridge.jpg",
-      "query": "南宁大桥",
-      "credit": {
-        "source": "wikimedia",
-        "author": "EditQ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Nanning Bridge",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Nan%60ning_Bridge%2C2015-5-3.jpg/1280px-Nan%60ning_Bridge%2C2015-5-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Nan%60ning_Bridge%2C2015-5-3.jpg/1280px-Nan%60ning_Bridge%2C2015-5-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Nan`ning Bridge,2015-5-3.jpg",
-      "query": "南宁大桥",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Gmbsfd",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Nanning Bridge",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "front"
-      }
-    }
+  "body": "南宁大桥的主塔是曲线造型，侧面看像一扇张开的翅膀，入夜桥身亮灯、江面有倒影，是摄影爱好者常来的机位。岸边的步道可以一直走到桥下，角度比桥上自由。坑在于桥面根本不能停车停留，开车过去只能「路过」；江边晚上蚊虫多，站久了受不了。安排在傍晚走一段江岸就够，别当独立景点。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "拍夜景",
+   "江边散步"
   ],
-  "coverIndex": 0,
-  "tags": [
-    "桥梁",
-    "夜景",
-    "邕江"
+  "avoid": [
+   "想上桥看",
+   "怕蚊虫"
   ],
-  "popularity": 66,
-  "sources": [
-    {
-      "title": "百度百科·南宁大桥",
-      "url": "https://baike.baidu.com/item/%E5%8D%97%E5%AE%81%E5%A4%A7%E6%A1%A5",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-11-01",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "南宁大桥"
-  },
-  "_geocodeTitle": "南宁大桥",
-  "_geocodeSuspect": false,
-  "district": "450103"
+  "sources": []
+ }
 }

@@ -12,12 +12,12 @@
   ],
   "location": {
     "point": {
-      "lng": 117.283912,
-      "lat": 31.858246,
+      "lat": 32.47786,
+      "lng": 117.165901,
       "coordSystem": "GCJ-02"
     },
-    "address": "安徽省合肥市长丰县各草莓采摘园",
-    "district": "庐阳区",
+    "address": "安徽省合肥市长丰县水湖镇一带（草莓核心产区，李杨村草莓守望园等采摘园）",
+    "district": "长丰县",
     "transportTip": "从合肥市区自驾到长丰各采摘园，约一小时"
   },
   "practical": {
@@ -53,9 +53,15 @@
       "url": "https://baike.baidu.com/item/%E9%95%BF%E4%B8%B0%E8%8D%89%E8%8E%93",
       "kind": "wiki",
       "fetchedAt": "2026-10-04"
+    },
+    {
+      "title": "长丰县人民政府：水湖镇镇情简介（县城·草莓核心产区 6 万亩）",
+      "url": "https://www.changfeng.gov.cn/public/15081/111473835.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Changfeng Strawberry",
@@ -63,6 +69,35 @@
   },
   "_geocodeTitle": "长丰草莓",
   "_geocodeSuspect": false,
-  "district": "340103",
-  "_noImage": true
+  "district": "340121",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "所属区（自动同步 adcode）",
+        "old": "庐阳区/340103",
+        "new": "长丰县/340121"
+      },
+      {
+        "field": "地址",
+        "old": "安徽省合肥市长丰县各草莓采摘园",
+        "new": "安徽省合肥市长丰县水湖镇一带（草莓核心产区，李杨村草莓守望园等采摘园）"
+      },
+      {
+        "field": "point",
+        "old": {
+          "lng": 117.283912,
+          "lat": 31.858246,
+          "coordSystem": "GCJ-02"
+        },
+        "new": [
+          32.47786,
+          117.165901
+        ]
+      }
+    ],
+    "source": "https://www.changfeng.gov.cn/public/15081/111473835.html",
+    "reason": "水湖镇为长丰县城与草莓核心产区（县政府镇情简介）；原district庐阳区与地址矛盾，原坐标命中市区同名零售点"
+  }
 }

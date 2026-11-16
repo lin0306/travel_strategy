@@ -12,12 +12,12 @@
   ],
   "location": {
     "point": {
-      "lng": 106.277935,
-      "lat": 29.428538,
+      "lat": 29.435268,
+      "lng": 106.218159,
       "coordSystem": "GCJ-02"
     },
     "address": "重庆市璧山区来凤街道（主城亦有多店）",
-    "district": "江津",
+    "district": "璧山",
     "transportTip": "主城自驾至璧山约 1 小时；主城分店建议先查门店"
   },
   "practical": {
@@ -51,9 +51,15 @@
       "url": "https://baike.baidu.com/item/%E6%9D%A5%E5%87%A4%E9%B1%BC",
       "kind": "wiki",
       "fetchedAt": "2026-09-19"
+    },
+    {
+      "title": "来凤鱼发源地为璧山区来凤街道（人民网重庆 2026-09-24 美食文化季稿），",
+      "url": "https://cq.people.com.cn/BIG5/n2/2026/0924/c365411-41707672.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -61,6 +67,59 @@
   },
   "_geocodeTitle": "来凤鱼(恒大·金碧天下3期店)",
   "_geocodeSuspect": false,
-  "district": "500116",
-  "_noImage": true
+  "district": "500120",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-14",
+    "changes": [
+      {
+        "field": "point",
+        "old": {
+          "lng": 106.277935,
+          "lat": 29.428538,
+          "coordSystem": "GCJ-02"
+        },
+        "new": [
+          29.435268,
+          106.218159
+        ]
+      }
+    ],
+    "source": "https://cq.people.com.cn/BIG5/n2/2026/0924/c365411-41707672.html",
+    "reason": "来凤鱼发源地为璧山区来凤街道（人民网重庆 2026-09-24 美食文化季稿），原坐标落在江津双福加盟店"
+  },
+  "review": {
+    "score": 4.1,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "口味",
+        "score": 4.4,
+        "note": "麻辣厚重，鱼肉嫩而入味"
+      },
+      {
+        "label": "正宗度",
+        "score": 4.2,
+        "note": "发源地在璧山来凤街道，主城多是挂招牌的加盟店"
+      },
+      {
+        "label": "价格",
+        "score": 3.4,
+        "note": "按条点、分量大，两人起步人均七十元往上"
+      },
+      {
+        "label": "距离",
+        "score": 3.2,
+        "note": "主城自驾到璧山约一小时"
+      }
+    ],
+    "body": "江湖菜的源头之一，发源地就在璧山来凤街道，麻辣厚重、汤汁浓稠，鱼肉嫩而入味，配一碗白饭最实在。问题是吃法有门槛：鱼按条点、分量大，一个人基本吃不动，两人起步人均七十元往上；主城挂这块招牌的多是加盟店，口味参差，想吃地道的还得往璧山跑，自驾单程约一小时。顺路去璧山、大足时安排一顿最合适。",
+    "basis": "web",
+    "at": "2026-11-14",
+    "fits": [],
+    "avoid": [],
+    "sources": [
+      "https://cq.people.com.cn/BIG5/n2/2026/0924/c365411-41707672.html"
+    ]
+  }
 }

@@ -20,7 +20,7 @@
     "transportTip": "地铁 2 号线人民公园站 B 口出"
   },
   "practical": {
-    "openHours": "约 06:00-19:00（以实际情况为准）",
+    "openHours": "早茶 06:30 起，夜间营业至约 21:00（夜间有茶饮与演出，以现场公告为准）",
     "openHoursRef": 0,
     "ticket": "人均约 20 元起",
     "ticketRef": 0,
@@ -133,9 +133,15 @@
       "url": "https://baike.baidu.com/item/%E9%B9%A4%E9%B8%A3%E8%8C%B6%E7%A4%BE",
       "kind": "wiki",
       "fetchedAt": "2026-09-18"
+    },
+    {
+      "title": "青羊区政府官网2026-07-28：鹤鸣茶社已打破「日落歇业」传统，夜间亮化+夜",
+      "url": "https://www.cdqingyang.gov.cn/qyq/msqy/2026-07/28/content_c5ad1d21952e404298f2007e675025e8.shtml",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Chengdu teahouse Heming",
@@ -143,5 +149,17 @@
   },
   "_geocodeTitle": "鹤鸣茶社",
   "_geocodeSuspect": false,
-  "district": "510105"
+  "district": "510105",
+  "_patrol": {
+    "at": "2026-11-08",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "约 06:00-19:00（以实际情况为准）",
+        "new": "早茶 06:30 起，夜间营业至约 21:00（夜间有茶饮与演出，以现场公告为准）"
+      }
+    ],
+    "source": "https://www.cdqingyang.gov.cn/qyq/msqy/2026-07/28/content_c5ad1d21952e404298f2007e675025e8.shtml",
+    "reason": "青羊区政府官网2026-07-28：鹤鸣茶社已打破「日落歇业」传统，夜间亮化+夜品清茶；原写06:00-19:00过期"
+  }
 }

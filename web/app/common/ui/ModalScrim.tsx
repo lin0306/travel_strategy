@@ -33,11 +33,14 @@ export function ModalScrim({
   children,
   className = '',
   align = 'center',
+  exiting = false,
 }: {
   children: React.ReactNode
   className?: string
   /** `center` = 居中（决策型）；`end` = 贴底（移动端「图层」这类"从下往上"的开关面板） */
   align?: 'center' | 'end'
+  /** 正在退场（门组件经 `usePresence` 传入）：遮罩淡出，内容卡片跟着一起淡出 */
+  exiting?: boolean
 }) {
   return (
     <div
@@ -52,9 +55,10 @@ export function ModalScrim({
       // ★ `absolute` 而非 `fixed`：弹窗都挂在 `routes/map-shell.tsx` 的浮层区里，
       //   那里已是视口大小的定位祖先，`fixed` 反而会被祖先的 transform 关进某一层
       //   （`AboutModal` 文件头记过这个坑：顶栏带 transform，`fixed` 子元素会被关进 52px 里）。
+      // ★ 入场 `scrim-in`（anim.css）：遮罩淡入；退场 `scrim-exit` 连子内容一起淡出。
       className={`absolute inset-0 z-[50] flex p-4 pb-[calc(1rem+env(safe-area-inset-bottom,0px))] sm:p-6 ${
-        align === 'end' ? 'items-end justify-center' : 'items-center justify-center'
-      } ${className}`}
+        exiting ? 'scrim-exit' : 'scrim-in'
+      } ${align === 'end' ? 'items-end justify-center' : 'items-center justify-center'} ${className}`}
       style={{ background: 'rgba(16,24,40,0.34)' }}
     >
       {children}

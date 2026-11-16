@@ -1,164 +1,203 @@
 {
-  "id": "northeast-martyrs-memorial-hall",
-  "name": "东北烈士纪念馆",
-  "category": "scenic",
-  "subtype": "museum",
-  "summary": "新中国成立前全国首家革命纪念馆，免费但要实名预约，周一闭馆别白跑。",
-  "description": "1948年10月10日成立，是新中国成立之前由中国共产党领导建立的全国首家革命纪念馆，这一点是它区别于后来大量同类馆的地方。馆址在一曼街241号，与东北抗联博物馆、中共黑龙江历史纪念馆同址，一张预约进三馆，一小时到两小时可以连着看完。基本陈列讲东北抗日战争与解放战争时期的烈士，展线以人物与实物为主，不是纯图片墙。全部免费，但必须实名预约、带身份证，周一设备维护闭馆是硬规定。地铁1号线医大一院站出来还要走十分钟，冬天这段路很冷，别穿少了。适合带长辈和学生，行程上和索菲亚教堂、博物馆站一带能串成半天。",
-  "highlights": [
-    "1948年成立，是新中国成立前全国首家革命纪念馆",
-    "与东北抗联博物馆、中共黑龙江历史纪念馆同址，一次预约可连看",
-    "全年免费开放，实名预约、凭身份证件入馆"
-  ],
-  "location": {
-    "point": {
-      "lng": 126.642518,
-      "lat": 45.765848,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黑龙江省哈尔滨市南岗区一曼街241号",
-    "district": "南岗区",
-    "transportTip": "地铁1号线医大一院站下车步行约10分钟；一曼街沿线多路公交可达"
+ "id": "northeast-martyrs-memorial-hall",
+ "name": "东北烈士纪念馆",
+ "category": "scenic",
+ "subtype": "museum",
+ "summary": "新中国成立前全国首家革命纪念馆，免费但要实名预约，周一闭馆别白跑。",
+ "description": "1948年10月10日成立，是新中国成立之前由中国共产党领导建立的全国首家革命纪念馆，这一点是它区别于后来大量同类馆的地方。馆址在一曼街241号，与东北抗联博物馆、中共黑龙江历史纪念馆同址，一张预约进三馆，一小时到两小时可以连着看完。基本陈列讲东北抗日战争与解放战争时期的烈士，展线以人物与实物为主，不是纯图片墙。全部免费，但必须实名预约、带身份证，周一设备维护闭馆是硬规定。地铁1号线医大一院站出来还要走十分钟，冬天这段路很冷，别穿少了。适合带长辈和学生，行程上和索菲亚教堂、博物馆站一带能串成半天。",
+ "highlights": [
+  "1948年成立，是新中国成立前全国首家革命纪念馆",
+  "与东北抗联博物馆、中共黑龙江历史纪念馆同址，一次预约可连看",
+  "全年免费开放，实名预约、凭身份证件入馆"
+ ],
+ "location": {
+  "point": {
+   "lng": 126.642518,
+   "lat": 45.765848,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约9:00-16:00，周二至周日开馆，周一设备维护闭馆；节假日安排以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费，需实名制预约，持有效身份证件到馆参观",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
+  "address": "黑龙江省哈尔滨市南岗区一曼街241号",
+  "district": "南岗区",
+  "transportTip": "地铁1号线医大一院站下车步行约10分钟；一曼街沿线多路公交可达"
+ },
+ "practical": {
+  "openHours": "约9:00-16:00，周二至周日开馆，周一设备维护闭馆；节假日安排以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "免费，需实名制预约，持有效身份证件到馆参观",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "solo",
+  "friends",
+  "family",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [
+  "周一闭馆是硬规定，排行程时先避开",
+  "地铁1号线医大一院站下车还要步行约10分钟，冬季注意保暖",
+  "展厅内禁止摄像，拍照勿用闪光灯和三脚架"
+ ],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall.jpg/1280px-Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall.jpg/1280px-Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 608,
+   "alt": "Northeast China Revolutionary Matyrs' Memorial Hall.jpg",
+   "query": "东北烈士纪念馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Huanokinhejo",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "solo",
-    "friends",
-    "family",
-    "elders"
-  ],
-  "accessible": false,
-  "tips": [
-    "周一闭馆是硬规定，排行程时先避开",
-    "地铁1号线医大一院站下车还要步行约10分钟，冬季注意保暖",
-    "展厅内禁止摄像，拍照勿用闪光灯和三脚架"
-  ],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall.jpg/1280px-Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall.jpg/1280px-Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 608,
-      "alt": "Northeast China Revolutionary Matyrs' Memorial Hall.jpg",
-      "query": "东北烈士纪念馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Huanokinhejo",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_%28side%29.jpg/1280px-Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_%28side%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_%28side%29.jpg/1280px-Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_%28side%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Northeast China Revolutionary Matyrs' Memorial Hall (side).jpg",
-      "query": "东北烈士纪念馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Huanokinhejo",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_(side).jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_1.jpg/1280px-Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_1.jpg/1280px-Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Northeast China Revolutionary Matyrs' Memorial Hall 1.jpg",
-      "query": "东北烈士纪念馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "EditQ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_1.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_10.jpg/1280px-Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_10.jpg/1280px-Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Northeast China Revolutionary Matyrs' Memorial Hall 10.jpg",
-      "query": "东北烈士纪念馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "EditQ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_10.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_11.jpg/1280px-Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_11.jpg/1280px-Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Northeast China Revolutionary Matyrs' Memorial Hall 11.jpg",
-      "query": "东北烈士纪念馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "EditQ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_11.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_12.jpg/1280px-Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_12.jpg/1280px-Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Northeast China Revolutionary Matyrs' Memorial Hall 12.jpg",
-      "query": "东北烈士纪念馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "EditQ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_12.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "红色历史",
-    "免费馆",
-    "需预约",
-    "博物馆"
-  ],
-  "popularity": 74,
-  "sources": [
-    {
-      "title": "东北烈士纪念馆·导览服务（官网）",
-      "url": "https://jn1948.cn/list/44.html",
-      "kind": "official",
-      "fetchedAt": "2026-10-29"
-    }
-  ],
-  "updatedAt": "2026-10-29",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Northeast Martyrs Memorial Hall Harbin",
-    "zh": "东北烈士纪念馆"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_%28side%29.jpg/1280px-Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_%28side%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_%28side%29.jpg/1280px-Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_%28side%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Northeast China Revolutionary Matyrs' Memorial Hall (side).jpg",
+   "query": "东北烈士纪念馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Huanokinhejo",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_(side).jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "东北烈士纪念馆",
-  "_geocodeSuspect": false,
-  "district": "230103"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_1.jpg/1280px-Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_1.jpg/1280px-Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Northeast China Revolutionary Matyrs' Memorial Hall 1.jpg",
+   "query": "东北烈士纪念馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "EditQ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_1.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_10.jpg/1280px-Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_10.jpg/1280px-Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Northeast China Revolutionary Matyrs' Memorial Hall 10.jpg",
+   "query": "东北烈士纪念馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "EditQ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_10.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_11.jpg/1280px-Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_11.jpg/1280px-Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Northeast China Revolutionary Matyrs' Memorial Hall 11.jpg",
+   "query": "东北烈士纪念馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "EditQ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_11.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_12.jpg/1280px-Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_12.jpg/1280px-Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Northeast China Revolutionary Matyrs' Memorial Hall 12.jpg",
+   "query": "东北烈士纪念馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "EditQ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Northeast_China_Revolutionary_Matyrs%27_Memorial_Hall_12.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "红色历史",
+  "免费馆",
+  "需预约",
+  "博物馆"
+ ],
+ "popularity": 74,
+ "sources": [
+  {
+   "title": "东北烈士纪念馆·导览服务（官网）",
+   "url": "https://jn1948.cn/list/44.html",
+   "kind": "official",
+   "fetchedAt": "2026-10-29"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Northeast Martyrs Memorial Hall Harbin",
+  "zh": "东北烈士纪念馆"
+ },
+ "_geocodeTitle": "东北烈士纪念馆",
+ "_geocodeSuspect": false,
+ "district": "230103",
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "历史分量",
+    "score": 4.5,
+    "note": "新中国成立前全国首家革命纪念馆"
+   },
+   {
+    "label": "展陈",
+    "score": 4.2,
+    "note": "人物与实物为主，不是纯图片墙"
+   },
+   {
+    "label": "免费程度",
+    "score": 4.6,
+    "note": "全部免费，一次预约可连看三馆"
+   },
+   {
+    "label": "预约",
+    "score": 2.8,
+    "note": "必须实名预约，周一设备维护闭馆"
+   }
+  ],
+  "body": "新中国成立之前就建立的全国首家革命纪念馆，这一点是它区别于后来大量同类馆的地方。与东北抗联博物馆、中共黑龙江历史纪念馆同址，一次预约能连着看三馆，展线以人物与实物为主，不是纯图片墙。全部免费，适合带长辈和学生，和索菲亚教堂、博物馆站一带能串成半天。缺点是必须实名预约、带身份证，周一设备维护闭馆是硬规定，没做功课容易白跑；地铁出来还要走一段，冬天这段路很冷；展厅内禁止摄像，拍照限制多。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "带长辈学生",
+   "红色历史",
+   "免费"
+  ],
+  "avoid": [
+   "周一场",
+   "没预约直接去"
+  ],
+  "sources": []
+ }
 }

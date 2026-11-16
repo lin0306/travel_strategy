@@ -1,67 +1,129 @@
 {
-  "id": "houhu-art",
-  "name": "后湖国际艺术区",
-  "category": "hotspot",
-  "subtype": "art",
-  "summary": "岳麓山脚下的老村改造区，画室、小店与湖岸连成一片。",
-  "description": "后湖在岳麓区，湖南大学与中南大学的边上，原是一个城中村，改造后成了艺术园区，湖面不大，环湖一圈是老房子改的画室、咖啡馆、设计工作室与小店。路是窄巷子，房子两三层，墙上到处是涂鸦和招贴，随手拍都能出片。湖边有栈道和几处草坪，傍晚有学生在这儿唱歌弹琴。这一片因为靠着两所大学，年轻人的店多，价格不贵。白天安静，晚上灯亮起来以后热闹。它离岳麓山与湖南大学很近，爬山下来顺路绕过来喝一杯合适。",
-  "highlights": [
-    "岳麓山脚下的城中村改造，画室与咖啡馆沿湖分布",
-    "窄巷老楼，墙上涂鸦与招贴多",
-    "靠着湖南大学与中南大学，傍晚学生多"
-  ],
-  "location": {
-    "point": {
-      "lng": 112.952899,
-      "lat": 28.157799,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "湖南省长沙市岳麓区后湖村（后湖路一带）",
-    "district": "岳麓区",
-    "transportTip": "地铁3号线中南大学站或4号线阜埠河站，步行约十分钟"
+ "id": "houhu-art",
+ "name": "后湖国际艺术区",
+ "category": "hotspot",
+ "subtype": "art",
+ "summary": "岳麓山脚下的老村改造区，画室、小店与湖岸连成一片。",
+ "description": "后湖在岳麓区，湖南大学与中南大学的边上，原是一个城中村，改造后成了艺术园区，湖面不大，环湖一圈是老房子改的画室、咖啡馆、设计工作室与小店。路是窄巷子，房子两三层，墙上到处是涂鸦和招贴，随手拍都能出片。湖边有栈道和几处草坪，傍晚有学生在这儿唱歌弹琴。这一片因为靠着两所大学，年轻人的店多，价格不贵。白天安静，晚上灯亮起来以后热闹。它离岳麓山与湖南大学很近，爬山下来顺路绕过来喝一杯合适。",
+ "highlights": [
+  "岳麓山脚下的城中村改造，画室与咖啡馆沿湖分布",
+  "窄巷老楼，墙上涂鸦与招贴多",
+  "靠着湖南大学与中南大学，傍晚学生多"
+ ],
+ "location": {
+  "point": {
+   "lng": 112.952899,
+   "lat": 28.157799,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天（店铺多为10:00-22:00），以现场为准",
-    "openHoursRef": 0,
-    "ticket": "免费（店铺消费另计）",
-    "ticketRef": 0,
-    "duration": "建议 60-180 分钟",
-    "durationMinutes": [
-      60,
-      180
-    ],
-    "priceLevel": "free"
+  "address": "湖南省长沙市岳麓区后湖村（后湖路一带）",
+  "district": "岳麓区",
+  "transportTip": "地铁3号线中南大学站或4号线阜埠河站，步行约十分钟"
+ },
+ "practical": {
+  "openHours": "全天（店铺多为10:00-22:00），以现场为准",
+  "openHoursRef": 0,
+  "ticket": "免费（店铺消费另计）",
+  "ticketRef": 0,
+  "duration": "建议 60-180 分钟",
+  "durationMinutes": [
+   60,
+   180
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [
+  "E 区「后湖·戏码头」是湖南省话剧院与后湖产投合办的演艺空间，2026 年五一开门，驻演沉浸式街区戏剧《长沙》，长沙方言演出配字幕，需另购票\\",
+  "地铁 3/4 号线阜埠河站 3 号口出站步行可达，园区全天开放、免费，不闭园"
+ ],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "艺术区",
+  "涂鸦",
+  "大学城"
+ ],
+ "popularity": 76,
+ "sources": [
+  {
+   "title": "百度百科·后湖",
+   "url": "https://baike.baidu.com/item/%E5%90%8E%E6%B9%96",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
   },
-  "audience": [
-    "couple",
-    "friends"
+  {
+   "title": "岳麓区人民政府《推开后湖这扇门，一脚踏进 90 年代的长沙》：后湖·戏码头与沉浸式戏剧《长沙》",
+   "url": "https://www.yuelu.gov.cn/yl_xxgk/bmxxgkml/qwtxj/gzdt/202608/t20260818_12527136.html",
+   "kind": "gov",
+   "fetchedAt": "2026-11-14"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "后湖国际艺术区"
+ },
+ "_geocodeTitle": "中国后湖国际艺术园区",
+ "_geocodeSuspect": false,
+ "district": "430104",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-14",
+  "changes": [
+   {
+    "field": "贴士（用 | 分隔多条，整体替换）",
+    "old": [],
+    "new": [
+     "E 区「后湖·戏码头」是湖南省话剧院与后湖产投合办的演艺空间，2026 年五一开门，驻演沉浸式街区戏剧《长沙》，长沙方言演出配字幕，需另购票\\",
+     "地铁 3/4 号线阜埠河站 3 号口出站步行可达，园区全天开放、免费，不闭园"
+    ]
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "艺术区",
-    "涂鸦",
-    "大学城"
+  "source": "https://www.yuelu.gov.cn/yl_xxgk/bmxxgkml/qwtxj/gzdt/202608/t20260818_12527136.html",
+  "reason": "岳麓区政府 2026-08 稿：后湖·戏码头 2026 五一开门、演《长沙》方言配字幕；红网 2026-09 稿：阜埠河站3号口、全天免费"
+ },
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "拍照",
+    "score": 4.3,
+    "note": "窄巷老楼配满墙涂鸦与招贴，随手拍都出片"
+   },
+   {
+    "label": "商业化",
+    "score": 3.3,
+    "note": "咖啡馆画室散在湖边，还没被小吃摊填满"
+   },
+   {
+    "label": "人流",
+    "score": 3.7,
+    "note": "白天安静，傍晚学生出来才热闹"
+   },
+   {
+    "label": "配套",
+    "score": 3.2,
+    "note": "正餐选择少，多数是咖啡与轻食"
+   }
   ],
-  "popularity": 76,
-  "sources": [
-    {
-      "title": "百度百科·后湖",
-      "url": "https://baike.baidu.com/item/%E5%90%8E%E6%B9%96",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
+  "body": "岳麓山脚下由城中村改出来的艺术园区，湖不大，环湖一圈是老房子改的画室、咖啡馆和设计工作室，墙上到处是涂鸦，白天安静、傍晚有学生弹琴唱歌，和岳麓山、湖南大学串成半天很顺。缺点是园区还在陆续改造，部分巷子在施工；正经吃饭的地方少，多数店只做咖啡轻食，专为吃饭来会失望。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "citywalk",
+   "拍照",
+   "下午"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "后湖国际艺术区"
-  },
-  "_geocodeTitle": "中国后湖国际艺术园区",
-  "_geocodeSuspect": false,
-  "district": "430104",
-  "_noImage": true
+  "avoid": [
+   "期待成熟商业街区"
+  ],
+  "sources": []
+ }
 }

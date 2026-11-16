@@ -15,7 +15,7 @@
       "lat": 30.557819,
       "coordSystem": "GCJ-02"
     },
-    "address": "成都市高新区铁像寺路",
+    "address": "成都市武侯区铁像寺路 88 号",
     "district": "武侯区",
     "transportTip": "地铁 5 号线大源站或市一医院站步行约 1 公里"
   },
@@ -57,9 +57,15 @@
       "url": "https://baike.baidu.com/item/%E9%93%81%E5%83%8F%E5%AF%BA%E6%B0%B4%E8%A1%97",
       "kind": "wiki",
       "fetchedAt": "2026-09-18"
+    },
+    {
+      "title": "携程 + 腾讯地图 POI",
+      "url": "https://m.ctrip.com/webapp/you/gspoi/sight/104/0.html?poiId=30426028",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Tiexiang Temple Water Street",
@@ -68,5 +74,17 @@
   "_geocodeTitle": "铁像寺水街",
   "_geocodeSuspect": false,
   "district": "510107",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-08",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "成都市高新区铁像寺路",
+        "new": "成都市武侯区铁像寺路 88 号"
+      }
+    ],
+    "source": "https://m.ctrip.com/webapp/you/gspoi/sight/104/0.html?poiId=30426028",
+    "reason": "原缺门牌；街区为铁像寺路88号(古寺为66号，两者不同处)，图商POI写武侯区石羊街道铁像寺路88号\r"
+  }
 }

@@ -43,7 +43,11 @@
     "elders"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "园内雪饼猴主题互动演艺是近两年最火的看点，想看演出先查当日场次",
+    "2026 年起园区做通天河冰雪演艺场景，冬季夜间另有 NPC 主题演绎",
+    "常规日场与夜场分别售票，节假日亲子客流大，建议错峰"
+  ],
   "images": [
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/%E9%95%BF%E6%98%A5%E5%8A%A8%E6%A4%8D%E7%89%A9%E5%9B%AD_Dong_Zhi_Wu_Yuan_-_panoramio.jpg/1280px-%E9%95%BF%E6%98%A5%E5%8A%A8%E6%A4%8D%E7%89%A9%E5%9B%AD_Dong_Zhi_Wu_Yuan_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -112,16 +116,22 @@
     "亲子",
     "公园"
   ],
-  "popularity": 82,
+  "popularity": 90,
   "sources": [
     {
       "title": "长春动植物公园·百度百科",
       "url": "https://baike.baidu.com/item/%E9%95%BF%E6%98%A5%E5%8A%A8%E6%A4%8D%E7%89%A9%E5%85%AC%E5%9B%AD",
       "kind": "wiki",
       "fetchedAt": "2026-10-03"
+    },
+    {
+      "title": "长春市人民政府·守护春城文脉家底 绘就文旅发展新卷",
+      "url": "http://www.changchun.gov.cn/zw_33994/yw/zwdt_74/shms/202611/t20261105_3523613.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-12"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-12",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Changchun Zoo and Botanical Park",
@@ -129,5 +139,26 @@
   },
   "_geocodeTitle": "长春动植物公园",
   "_geocodeSuspect": false,
-  "district": "220102"
+  "district": "220102",
+  "_patrol": {
+    "at": "2026-11-12",
+    "changes": [
+      {
+        "field": "热度（0-100）",
+        "old": 82,
+        "new": 90
+      },
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [],
+        "new": [
+          "园内雪饼猴主题互动演艺是近两年最火的看点，想看演出先查当日场次",
+          "2026 年起园区做通天河冰雪演艺场景，冬季夜间另有 NPC 主题演绎",
+          "常规日场与夜场分别售票，节假日亲子客流大，建议错峰"
+        ]
+      }
+    ],
+    "source": "http://www.changchun.gov.cn/zw_33994/yw/zwdt_74/shms/202611/t20261105_3523613.html",
+    "reason": "长春市政府官网 2026-11：动植物公园雪饼猴爆款 IP，年客流跃升至 300 万人次"
+  }
 }

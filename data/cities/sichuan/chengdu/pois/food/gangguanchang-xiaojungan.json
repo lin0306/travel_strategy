@@ -14,8 +14,8 @@
     "district": "成华区",
     "transportTip": "按具体分店查询",
     "point": {
-      "lng": 104.094982,
-      "lat": 30.705015,
+      "lat": 30.657621,
+      "lng": 104.105771,
       "coordSystem": "GCJ-02"
     }
   },
@@ -62,9 +62,15 @@
       "url": "https://www.dianping.com/review/455763385",
       "kind": "travel-platform",
       "fetchedAt": "2026-09-19"
+    },
+    {
+      "title": "原坐标来自驷马桥店(_geocodeTitle 明写),与地址双林北支路335号",
+      "url": "https://www.zggdmcy.com/ + 腾讯地图POI(新华公园总店)坐标30.657621,104.105771",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Chengdu gizzard hotpot skewers",
@@ -73,5 +79,24 @@
   "_geocodeTitle": "钢管厂五区小郡肝串串香(驷马桥店)",
   "_geocodeSuspect": false,
   "district": "510108",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-08",
+    "changes": [
+      {
+        "field": "point",
+        "old": {
+          "lng": 104.094982,
+          "lat": 30.705015,
+          "coordSystem": "GCJ-02"
+        },
+        "new": [
+          30.657621,
+          104.105771
+        ]
+      }
+    ],
+    "source": "https://www.zggdmcy.com/ + 腾讯地图POI(新华公园总店)坐标30.657621,104.105771",
+    "reason": "原坐标来自驷马桥店(_geocodeTitle 明写),与地址双林北支路335号新华公园对面相差5.4km;按腾讯地图新华公园总店POI纠正"
+  }
 }

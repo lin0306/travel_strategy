@@ -1,6 +1,6 @@
 # 稻城 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-06
+> 生成于 2026-11-16 · 城市数据最后更新 2026-10-06
 
 ## 概览
 
@@ -80,6 +80,9 @@
 | 傍河 | liuzusai刘祖赛 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%82%8D%E6%B2%B3_2016_%E5%88%98%E7%A5%96%E8%B5%9B_-_panoramio.jpg) |
 | 傍河 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%82%8D%E6%B2%B3%E4%B9%8B%E7%A7%8B_-_Banghe_River_-_2012.10_-_panoramio.jpg) |
 | 蚌普寺 | https://picasaweb.google.com/gong.wei1980 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Pangphuk.jpg) |
+| 冲古草甸 | 西風 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 冲古草甸 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 稻城县城 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 贡嘎郎吉岭寺 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%B4%A1%E5%98%8E%E9%83%8E%E5%90%89%E5%B2%AD%E5%AF%BA_-_Langjiling_Temple_of_Gongga_-_2012.10_-_panoramio.jpg) |
 | 海子山 | Jiang Jianhua | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%AD%90%E5%B1%B1_-_Q30023563.jpg) |
 | 海子山 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%AD%90%E5%B1%B1%E4%BF%9D%E6%8A%A4%E5%8C%BA_-_Haizi_Mountain_Protection_Area_-_2012.10_-_panoramio.jpg) |
@@ -96,28 +99,19 @@
 | 牛奶海 | liuzusai刘祖赛 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%89%9B%E5%A5%B6%E6%B5%B7_2016_%E5%88%98%E7%A5%96%E8%B5%9B_%E7%A8%BB%E5%9F%8E%E4%BA%9A%E4%B8%81_-_panoramio.jpg) |
 | 牛奶海 | liuzusai刘祖赛 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%89%9B%E5%A5%B6%E6%B5%B7_2016_%E5%88%98%E7%A5%96%E8%B5%9B_%E7%A8%BB%E5%9F%8E%E4%BA%9A%E4%B8%81_-_panoramio_(1).jpg) |
 | 牛奶海 | CHENG SHIYI | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%A8%BB%E5%9F%8E%E4%BA%9A%E4%B8%81%E7%89%9B%E5%A5%B6%E6%B5%B7.jpg) |
-| 牛奶海 | Peellden | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gueishan_Island_the_Fumarole.jpg) |
 | 桑堆镇 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%A1%91%E5%A0%86%E4%B9%A1_-_Sandui_Township_-_2012.10_-_panoramio.jpg) |
 | 桑堆镇 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E7%84%B6%E5%B2%A9%E7%94%BB_-_Nature_Cliff_Painting_-_2012.10_-_panoramio.jpg) |
 | 桑堆镇 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A0%E9%87%8F%E6%B2%B3_-_Wuliang_River_-_2012.10_-_panoramio_(1).jpg) |
 | 桑堆镇 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A0%E9%87%8F%E6%B2%B3%E8%B0%B7_-_Wuliang_River_Valley_-_2012.10_-_panoramio.jpg) |
 | 色拉草原 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%89%B2%E6%8B%89%E8%8D%89%E5%8E%9F_-_Sela_Grassland_-_2012.10_-_panoramio.jpg) |
-| 香格里拉镇 | Island Shangri-La, Hong Kong | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Island_Shangri-La,_Hong_Kong_-_Lobby.jpg) |
-| 香格里拉镇 | No machine-readable author provided. QWB656 assumed (based o | CC BY-SA 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Island_Shangri-La_HK_design.jpg) |
-| 香格里拉镇 | Island Shangri-La, Hong Kong | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Island_Shangri-La_Hong_Kong_Petrus.jpg) |
-| 香格里拉镇 | Ksl.communications | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Kowloon_Shangri-La_Hotel_lobby.jpg) |
 | 香格里拉镇 | Rod Waddington | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Road_to_Shangri-la.jpg) |
 | 五色海 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%94%E8%89%B2%E6%B5%B7(%E7%99%BB%E5%B4%87%E9%94%99)_-_Five_Colors_Lake_-_2012.10_-_panoramio.jpg) |
 | 五色海 | fsyzh | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%94%E8%89%B2%E6%B5%B7_-_panoramio.jpg) |
 | 仙乃日 | liuzusai刘祖赛 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BB%99%E4%B9%83%E6%97%A5%E5%B3%B0_2016_%E7%A8%BB%E5%9F%8E%E4%BA%9A%E4%B8%81_%E5%88%98%E7%A5%96%E8%B5%9B_-_panoramio.jpg) |
-| 仙乃日 | Wonderlane | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chenrezig_empowerment_seattle_sakya.jpg) |
 | 夏诺多吉 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%8F%E8%AF%BA%E5%A4%9A%E5%90%89%E7%A5%9E%E5%B1%B1_-_Xianuoduoji_Peak_-_2012.10_-_panoramio.jpg) |
 | 夏诺多吉 | Jungne | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Xianuoduoji.jpg) |
 | 夏诺多吉 | Dcpeets | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yading_Chanadorje-Xianuoduoji_Chonggu_Grassland.jpg) |
 | 亚丁村 | Zhanghanphoto | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Autumn_Of_Yading_(179995543).jpeg) |
-| 亚丁村 | Nicolas Richoffer | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Rama_Yade_sports_2009.jpg) |
-| 亚丁村 | Dontworry | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yade-kara-ffm001.jpg) |
-| 亚丁村 | Amrei-Marie | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yade_Yasemin_%C3%96nder_05.jpg) |
 | 亚丁村 | Michael Woodhead | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yading,_Chanadorje.jpg) |
 | 亚丁村 | Michael Woodhead | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yading.jpg) |
 | 稻城亚丁景区 | David.C.LOK | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Daocheng_Yading_scenic_area_gate.jpg) |
@@ -129,9 +123,8 @@
 | 央迈勇 | 归零者 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yangmaiyong,_Daocheng_Banner.jpg) |
 | 珍珠海 | Joachim Huber from Switzerland | CC BY-SA 2.0 | [wikimedia](https://www.wikidata.org/wiki/Q629274) |
 | 著杰寺 | Farm | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Crossoptilon_crossoptilon_at_Daocheng_Sichuan.jpg) |
-| 著杰寺 | Su Shi | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AF%92%E9%A3%9F%E5%B8%96.jpg) |
+| 尊胜塔林 | Anders Johnson | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 高原土豆 | Popolon | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jiuzhaigou.Tibetan_meal.jpg) |
-| 牦牛肉 | Popolon | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jiuzhaigou.Tibetan_meal.jpg) |
 | 甜茶 | Dolapo Falola | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Drinking_sweet_tea_(susan).jpg) |
 | 甜茶 | Go-Go | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Festival_Foods_Sweet_Tea.jpg) |
 | 甜茶 | Huhu at de.wikipedia | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Samt-Hortensie_%27Macrophylla%27.JPG) |
@@ -163,8 +156,21 @@
 | 糌粑 | Leeinm | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:The_Zang_nationality%E2%80%99s_breakfast.jpg) |
 | 糌粑 | Dennis G. Jarvis | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Tibet_-_6013_-_Tibetan_native_barley_awaiting_grinding_into_tsampa_at_a_Tibet_Autonomous_Region_Grinding_Mill.jpg) |
 | 糌粑 | Matt Ming from Beijing, China | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Tibetan_Tsampa_Preparation_(11622364794).jpg) |
+| 白塔机位 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 冲古草甸机位 | 西風 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 冲古草甸机位 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 冲古草甸机位 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 海子山机位 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 洛绒牛场机位 | 龙歌谷 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 洛绒牛场机位 | 龙歌谷 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 洛绒牛场机位 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 洛绒牛场机位 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 洛绒牛场机位 | 龙歌谷 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 牛奶海机位 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 经幡玛尼堆 | Shizhao | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%8E%9B%E5%B0%BC%E5%A0%86%E7%BB%8F%E5%B9%A1.jpg) |
 | 藏传佛教寺院 | Aleksandr Zykov | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Aleksandr_Zykov,_Temple_Doors,_Tibetan_Buddhist_Monastery,_Sarnath.jpg) |
 | 藏传佛教寺院 | Tenace10 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Buddhist_Ceremonial_site_near_Lake_Ximencuo_on_the_Tibetan_Plateau.jpg) |
 | 藏传佛教寺院 | Dialog Center Images | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dialog_Center_Images,_Entrance_to_Tibetan_Buddhist_Monastery,_Sarnath_1605.jpg) |
 | 藏传佛教寺院 | Shrikant Bansod | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Himalayan_Nyinmapa_Tibetan_Buddhist_Monastery_(2).jpg) |
 | 藏传佛教寺院 | InOutPeaceProject | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:InOutPeaceProject,_Buddha_Statue_in_Tibetan_Buddhist_Monastery,_Sarnath.jpg) |
+| 藏传佛教寺院 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |

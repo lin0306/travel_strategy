@@ -1,164 +1,203 @@
 {
-  "id": "juzizhou",
-  "name": "橘子洲",
-  "category": "scenic",
-  "subtype": "park",
-  "summary": "湘江江心的狭长沙洲，洲头立着毛泽东青年艺术雕塑。",
-  "description": "橘子洲是湘江中间由泥沙冲积出来的沙洲，南北长约五公里，最宽的处三百米上下。洲上早年种橘，名字就这么来的。现在整条洲是一个公园，免费开放，里面另有观光小火车。洲头那座毛泽东青年艺术雕塑2009 年落成，高三十多米，是长沙最出名的地标之一。洲的中段有橘园、竹园和一片梅林，春梅开时本地人过来散步。西侧堤岸正对着岳麓山，是看山看江的正面。每年秋冬，橘子洲周末的烟火是长沙的老节目，具体场次以官方公告为准。",
-  "highlights": [
-    "南北长约五公里的江心沙洲",
-    "洲头毛泽东青年艺术雕塑 2009 年落成",
-    "西岸正对岳麓山，是看江看山的一侧"
-  ],
-  "location": {
-    "point": {
-      "lng": 112.96211,
-      "lat": 28.187211,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "湖南省长沙市岳麓区橘子洲（橘子洲大桥以南）",
-    "district": "岳麓区",
-    "transportTip": "地铁2号线橘子洲站，出站即洲头；洲内有观光小火车",
-    "entrance": {
-      "lng": 112.962399,
-      "lat": 28.198365,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "juzizhou",
+ "name": "橘子洲",
+ "category": "scenic",
+ "subtype": "park",
+ "summary": "湘江江心的狭长沙洲，洲头立着毛泽东青年艺术雕塑。",
+ "description": "橘子洲是湘江中间由泥沙冲积出来的沙洲，南北长约五公里，最宽的处三百米上下。洲上早年种橘，名字就这么来的。现在整条洲是一个公园，免费开放，里面另有观光小火车。洲头那座毛泽东青年艺术雕塑2009 年落成，高三十多米，是长沙最出名的地标之一。洲的中段有橘园、竹园和一片梅林，春梅开时本地人过来散步。西侧堤岸正对着岳麓山，是看山看江的正面。每年秋冬，橘子洲周末的烟火是长沙的老节目，具体场次以官方公告为准。",
+ "highlights": [
+  "南北长约五公里的江心沙洲",
+  "洲头毛泽东青年艺术雕塑 2009 年落成",
+  "西岸正对岳麓山，是看江看山的一侧"
+ ],
+ "location": {
+  "point": {
+   "lng": 112.96211,
+   "lat": 28.187211,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约07:00-22:00（烟花之夜以公告为准）",
-    "openHoursRef": 0,
-    "ticket": "免费（观光小火车另计），以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "free"
+  "address": "湖南省长沙市岳麓区橘子洲（橘子洲大桥以南）",
+  "district": "岳麓区",
+  "transportTip": "地铁2号线橘子洲站，出站即洲头；洲内有观光小火车",
+  "entrance": {
+   "lng": 112.962399,
+   "lat": 28.198365,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约07:00-22:00（烟花之夜以公告为准）",
+  "openHoursRef": 0,
+  "ticket": "免费（观光小火车另计），以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "family",
+  "couple",
+  "friends",
+  "elders",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/%E6%A9%98%E5%AD%90%E6%B4%B2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/%E6%A9%98%E5%AD%90%E6%B4%B2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 810,
+   "alt": "橘子洲 - panoramio.jpg",
+   "query": "橘子洲 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Yin沩",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%A9%98%E5%AD%90%E6%B4%B2_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "family",
-    "couple",
-    "friends",
-    "elders",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/%E6%A9%98%E5%AD%90%E6%B4%B2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/%E6%A9%98%E5%AD%90%E6%B4%B2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 810,
-      "alt": "橘子洲 - panoramio.jpg",
-      "query": "橘子洲 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Yin沩",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%A9%98%E5%AD%90%E6%B4%B2_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/%E6%A9%98%E5%AD%90%E6%B4%B2_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/%E6%A9%98%E5%AD%90%E6%B4%B2_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 810,
-      "alt": "橘子洲 - panoramio (2).jpg",
-      "query": "橘子洲 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Yin沩",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%A9%98%E5%AD%90%E6%B4%B2_-_panoramio_(2).jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/%E6%A9%98%E5%AD%90%E6%B4%B2_-_panoramio_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/%E6%A9%98%E5%AD%90%E6%B4%B2_-_panoramio_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 810,
-      "alt": "橘子洲 - panoramio (5).jpg",
-      "query": "橘子洲 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Yin沩",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%A9%98%E5%AD%90%E6%B4%B2_-_panoramio_(5).jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/%E6%A9%98%E5%AD%90%E6%B4%B2_-_panoramio_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/%E6%A9%98%E5%AD%90%E6%B4%B2_-_panoramio_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 810,
-      "alt": "橘子洲 - panoramio (7).jpg",
-      "query": "橘子洲 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Yin沩",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%A9%98%E5%AD%90%E6%B4%B2_-_panoramio_(7).jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Xiang_River_and_Orange_Isle_Bridge%2C_Changsha.jpg/1280px-Xiang_River_and_Orange_Isle_Bridge%2C_Changsha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Xiang_River_and_Orange_Isle_Bridge%2C_Changsha.jpg/1280px-Xiang_River_and_Orange_Isle_Bridge%2C_Changsha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Xiang River and Orange Isle Bridge, Changsha.jpg",
-      "query": "橘子洲 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "JULIANISME",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xiang_River_and_Orange_Isle_Bridge,_Changsha.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/%E5%B2%B3%E9%BA%93%E5%B1%B1_%E6%A9%98%E5%AD%90%E6%B4%B2.jpg/1280px-%E5%B2%B3%E9%BA%93%E5%B1%B1_%E6%A9%98%E5%AD%90%E6%B4%B2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/%E5%B2%B3%E9%BA%93%E5%B1%B1_%E6%A9%98%E5%AD%90%E6%B4%B2.jpg/1280px-%E5%B2%B3%E9%BA%93%E5%B1%B1_%E6%A9%98%E5%AD%90%E6%B4%B2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "岳麓山 橘子洲.jpg",
-      "query": "橘子洲 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "維基小霸王",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B2%B3%E9%BA%93%E5%B1%B1_%E6%A9%98%E5%AD%90%E6%B4%B2.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "湘江",
-    "沙洲",
-    "地标"
-  ],
-  "popularity": 93,
-  "sources": [
-    {
-      "title": "百度百科·橘子洲",
-      "url": "https://baike.baidu.com/item/%E6%A9%98%E5%AD%90%E6%B4%B2",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "橘子洲"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/%E6%A9%98%E5%AD%90%E6%B4%B2_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/%E6%A9%98%E5%AD%90%E6%B4%B2_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 810,
+   "alt": "橘子洲 - panoramio (2).jpg",
+   "query": "橘子洲 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Yin沩",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%A9%98%E5%AD%90%E6%B4%B2_-_panoramio_(2).jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "橘子洲景区",
-  "district": "430104"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/%E6%A9%98%E5%AD%90%E6%B4%B2_-_panoramio_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/%E6%A9%98%E5%AD%90%E6%B4%B2_-_panoramio_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 810,
+   "alt": "橘子洲 - panoramio (5).jpg",
+   "query": "橘子洲 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Yin沩",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%A9%98%E5%AD%90%E6%B4%B2_-_panoramio_(5).jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/%E6%A9%98%E5%AD%90%E6%B4%B2_-_panoramio_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/%E6%A9%98%E5%AD%90%E6%B4%B2_-_panoramio_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 810,
+   "alt": "橘子洲 - panoramio (7).jpg",
+   "query": "橘子洲 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Yin沩",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%A9%98%E5%AD%90%E6%B4%B2_-_panoramio_(7).jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Xiang_River_and_Orange_Isle_Bridge%2C_Changsha.jpg/1280px-Xiang_River_and_Orange_Isle_Bridge%2C_Changsha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Xiang_River_and_Orange_Isle_Bridge%2C_Changsha.jpg/1280px-Xiang_River_and_Orange_Isle_Bridge%2C_Changsha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Xiang River and Orange Isle Bridge, Changsha.jpg",
+   "query": "橘子洲 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "JULIANISME",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xiang_River_and_Orange_Isle_Bridge,_Changsha.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/%E5%B2%B3%E9%BA%93%E5%B1%B1_%E6%A9%98%E5%AD%90%E6%B4%B2.jpg/1280px-%E5%B2%B3%E9%BA%93%E5%B1%B1_%E6%A9%98%E5%AD%90%E6%B4%B2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/%E5%B2%B3%E9%BA%93%E5%B1%B1_%E6%A9%98%E5%AD%90%E6%B4%B2.jpg/1280px-%E5%B2%B3%E9%BA%93%E5%B1%B1_%E6%A9%98%E5%AD%90%E6%B4%B2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "岳麓山 橘子洲.jpg",
+   "query": "橘子洲 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "維基小霸王",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B2%B3%E9%BA%93%E5%B1%B1_%E6%A9%98%E5%AD%90%E6%B4%B2.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "湘江",
+  "沙洲",
+  "地标"
+ ],
+ "popularity": 93,
+ "sources": [
+  {
+   "title": "百度百科·橘子洲",
+   "url": "https://baike.baidu.com/item/%E6%A9%98%E5%AD%90%E6%B4%B2",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "橘子洲"
+ },
+ "_geocodeTitle": "橘子洲景区",
+ "district": "430104",
+ "review": {
+  "score": 4.5,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.6,
+    "note": "西岸正对岳麓山，江面开阔"
+   },
+   {
+    "label": "体力",
+    "score": 2.8,
+    "note": "南北五公里，多数人靠小火车"
+   },
+   {
+    "label": "人流",
+    "score": 2.5,
+    "note": "洲头与小火车排队集中在节假日"
+   },
+   {
+    "label": "时长",
+    "score": 3.8,
+    "note": "步行全程要半天，走一段两小时"
+   }
+  ],
+  "body": "五公里长的江心洲，走完全程是要花力气的，多数人靠观光小火车代步。洲头那段最好，正对湘江、回头是岳麓山，视野是这座城市少有的开阔。缺点明显：不少路段没有成片的遮阴，夏天正午走一趟很晒；周末与节假日人流集中在小火车和洲头，排队上车要等。赶上烟花之夜又是另一回事，散场时人挤得走不动，得提前想好怎么撤。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "看江景",
+   "傍晚散步",
+   "带长辈"
+  ],
+  "avoid": [
+   "正午步行全程",
+   "烟花散场赶时间"
+  ],
+  "sources": []
+ }
 }

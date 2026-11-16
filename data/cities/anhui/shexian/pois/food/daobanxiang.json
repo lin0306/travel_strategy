@@ -1,72 +1,110 @@
 {
-  "id": "daobanxiang",
-  "name": "刀板香",
-  "category": "food",
-  "subtype": "local",
-  "summary": "徽州腌腊肉，咸香不腻，常和笋一起烧。",
-  "description": "刀板香是徽州传统的腌腊肉，选用五花或后腿，用盐、花椒等腌过、风干，再蒸熟或红烧。名字来自切肉的木板都沾了肉香。它咸鲜浓郁、肥而不腻，是徽州人过年过节的硬菜，也常和春笋同烧，油脂渗进笋里，笋比肉还抢手。在歙县的徽菜馆点一份刀板香焖笋，是很地道的一餐。因为偏咸，配米饭或清汤最舒服，不适合空口当零嘴。",
-  "highlights": [
-    "腌腊肉",
-    "徽州硬菜",
-    "焖笋",
-    "咸鲜"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.436159,
-      "lat": 29.865628,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黄山市歙县徽城镇徽菜馆（古城周边）",
-    "district": "歙县",
-    "transportTip": "徽州古城内步行可达"
+ "id": "daobanxiang",
+ "name": "刀板香",
+ "category": "food",
+ "subtype": "local",
+ "summary": "徽州腌腊肉，咸香不腻，常和笋一起烧。",
+ "description": "刀板香是徽州传统的腌腊肉，选用五花或后腿，用盐、花椒等腌过、风干，再蒸熟或红烧。名字来自切肉的木板都沾了肉香。它咸鲜浓郁、肥而不腻，是徽州人过年过节的硬菜，也常和春笋同烧，油脂渗进笋里，笋比肉还抢手。在歙县的徽菜馆点一份刀板香焖笋，是很地道的一餐。因为偏咸，配米饭或清汤最舒服，不适合空口当零嘴。",
+ "highlights": [
+  "腌腊肉",
+  "徽州硬菜",
+  "焖笋",
+  "咸鲜"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.436159,
+   "lat": 29.865628,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "午市、晚市随餐厅",
-    "openHoursRef": 0,
-    "ticket": "按餐厅消费",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "family",
-    "solo",
-    "elders"
+  "address": "黄山市歙县徽城镇徽菜馆（古城周边）",
+  "district": "歙县",
+  "transportTip": "徽州古城内步行可达"
+ },
+ "practical": {
+  "openHours": "午市、晚市随餐厅",
+  "openHoursRef": 0,
+  "ticket": "按餐厅消费",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "徽菜",
-    "腊肉",
-    "咸鲜",
-    "年菜"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family",
+  "solo",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "徽菜",
+  "腊肉",
+  "咸鲜",
+  "年菜"
+ ],
+ "popularity": 84,
+ "sources": [
+  {
+   "title": "百度百科·刀板香",
+   "url": "https://baike.baidu.com/item/%E5%88%80%E6%9D%BF%E9%A6%99",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-07"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "刀板香"
+ },
+ "_geocodeTitle": "歙县古城小吃一条街(徽学堂店)",
+ "_geocodeSuspect": false,
+ "district": "341021",
+ "_noImage": true,
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.4,
+    "note": "咸鲜浓郁、肥而不腻，油脂渗进笋里最香"
+   },
+   {
+    "label": "咸度",
+    "score": 2.8,
+    "note": "腌腊本身偏咸，口淡的人要配饭"
+   },
+   {
+    "label": "分量",
+    "score": 3.8,
+    "note": "一份够两三人，配一道青菜刚好"
+   },
+   {
+    "label": "点单",
+    "score": 3.6,
+    "note": "和问政山笋同烧才是本地吃法"
+   }
   ],
-  "popularity": 84,
-  "sources": [
-    {
-      "title": "百度百科·刀板香",
-      "url": "https://baike.baidu.com/item/%E5%88%80%E6%9D%BF%E9%A6%99",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-07"
-    }
+  "body": "徽州人过年的硬菜，五花或后腿腌过风干，蒸或红烧后切片，咸香里带一点烟腊气，肥的部分入口即化。缺点很实在：偏咸，空口吃几片就得灌水，口淡的人可能吃不消；单点一份肉也容易腻，最好配一道笋或青菜。点的时候认「刀板香焖笋」，油脂被笋吸走，笋往往比肉更抢手。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "爱吃腌腊",
+   "配米饭"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "刀板香"
-  },
-  "_geocodeTitle": "歙县古城小吃一条街(徽学堂店)",
-  "_geocodeSuspect": false,
-  "district": "341021",
-  "_noImage": true
+  "avoid": [
+   "低盐饮食",
+   "一个人点"
+  ],
+  "sources": []
+ }
 }

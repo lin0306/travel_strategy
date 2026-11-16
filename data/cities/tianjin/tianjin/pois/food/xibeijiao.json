@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "天津市红桥区西北角一带（芥园道至西马路段）",
-    "district": "南开",
+    "district": "红桥",
     "transportTip": "地铁1号线西北角站，出站即到"
   },
   "practical": {
@@ -40,7 +40,29 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Tianjin_Strassenmarkt-20150522-RM-102216.jpg/1280px-Tianjin_Strassenmarkt-20150522-RM-102216.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Tianjin_Strassenmarkt-20150522-RM-102216.jpg/1280px-Tianjin_Strassenmarkt-20150522-RM-102216.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Tianjin Strassenmarkt-20150522-RM-102216.jpg",
+      "query": "西北角清真美食街区",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Reinhold Möller Ermell",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
+      }
+    }
+  ],
   "coverIndex": 0,
   "tags": [
     "清真",
@@ -56,13 +78,12 @@
       "fetchedAt": "2026-09-27"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-05",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Tianjin Muslim street food market",
     "zh": "西北角清真美食街区"
   },
   "_geocodeTitle": "西北角",
-  "district": "120104",
-  "_noImage": true
+  "district": "120106"
 }

@@ -67,6 +67,54 @@ export function pageSpotListCity(): string | null {
   return pageSpotOps?.spotListCity ?? null
 }
 
+/** 点一个地区时要的那几个字段（与 `FocusTarget` 的入参同形） */
+export interface RegionPickNode {
+  adcode: string
+  name?: string
+  lng: number
+  lat: number
+  poiCount?: number | null
+}
+
+/**
+ * 页面把「点一个地区」这件事登记进来 —— **只有首页会登记**（它有地域面板）。
+ *
+ * ## 为什么搜索必须走它（2026-11-14 用户）
+ * 用户原话：「左上角的搜索，点省市后不会显示省市的面板」。
+ * 原因是搜索自己算落点（`regionFocusPoints` + `shell.focusPoint`），
+ * 而"开面板"住在页面的 `useState` 里 —— 两条路各有各的落点，又只有一条会开卡。
+ *
+ * ★ 这不是"再加一条落点路径"，恰恰是**取消**第二条：页面登记了它，
+ *   搜索就直接把这一下交给 `regionNav.pick`（内部走 `drillTo`，含空区短路），
+ *   自己**一帧都不挪镜头**。没登记的页面（省级页 / 城市页）照旧走旧路径 ——
+ *   那两页没有面板，旧路径就是它们的全部行为。
+ *
+ * ★ 用注册制而不是 context 字段：只有首页答得上"面板长什么样"，
+ *   与 `PageSpotOps` 同一个理由（见上）。
+ */
+export interface PageRegionOps {
+  pick: (node: RegionPickNode) => void
+}
+
+let pageRegionOps: PageRegionOps | null = null
+
+/** 页面挂载时登记、卸载时传 `null` 注销（同时最多一个页面在场，单槽足够） */
+export function registerPageRegionOps(ops: PageRegionOps | null): void {
+  pageRegionOps = ops
+}
+
+/**
+ * 把"点这个地区"交给当前页面。
+ *
+ * @returns `true` = 页面接管了（开卡 + 由它安排对焦），调用方**不要**再自己挪镜头；
+ *          `false` = 本页没有地域面板，调用方走自己的落点。
+ */
+export function pickPageRegion(node: RegionPickNode): boolean {
+  if (!pageRegionOps) return false
+  pageRegionOps.pick(node)
+  return true
+}
+
 import type { FallbackLeg, FallbackPin, FallbackStay } from '~/common/ui/MapFallback'
 import type { MapFailure, MapStatus, UseTMapResult } from '~/common/map/tencent'
 import type { Poi } from '~shared/schema'

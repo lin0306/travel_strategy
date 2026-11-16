@@ -1,6 +1,6 @@
 # 乐山 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-02
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-14
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | George Wenn | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Leshan,%E4%B9%90%E5%B1%B1%E5%A4%A7%E4%BD%9B_-_panoramio.jpg) |
-| 城市封面 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B9%90%E5%B1%B1%E5%85%9C%E7%8E%87%E5%AE%AB_-_panoramio.jpg) |
-| 城市封面 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B9%90%E5%B1%B1%E5%87%BA%E7%A7%9F%E8%BD%A6.jpg) |
+| 城市封面 | Jan Kranendonk (https://www.jankranendonk.nl) | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Head_and_torso_of_the_Giant_Buddha_of_Leshan.jpg) |
+| 城市封面 | liuzusai刘祖赛 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A6_%E5%B3%A8%E7%9C%89%E9%87%91%E9%A1%B6_-_panoramio.jpg) |
+| 城市封面 | Hanging | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Samanta_Bhadra_in_Mount_Er_Mei.JPG) |
 | 报国寺 | Gisling | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baoguosi.jpg) |
 | 大佛禅院 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E4%BD%9B%E7%A6%85%E9%99%A2_-_panoramio.jpg) |
 | 东风堰 | Danielinblue | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:DFYZ_300m_square.JPG) |
@@ -122,7 +122,6 @@
 | 犍为文庙 | Nekitarc | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%8A%8D%E4%B8%BA%E6%96%87%E5%BA%99%E5%A4%A7%E6%88%90%E9%97%A8.jpg) |
 | 犍为文庙 | Nyx Ning | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9B%9B%E5%B7%9D_%E7%8A%8D%E4%B8%BA%E5%8E%BF-%E6%96%87%E5%BA%99_-_panoramio.jpg) |
 | 犍为文庙 | Nekitarc | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%8A%8D%E4%B8%BA%E6%96%87%E5%BA%99%E5%9B%BD%E4%BF%9D%E7%A2%91.JPG) |
-| 清音阁 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B3%A8%E7%9C%89%E5%B1%B1%E6%99%AF%E5%8C%BA%E6%B8%85%E9%9F%B3%E9%98%81%E4%B9%8B%E3%80%8A%E5%8F%8C%E6%A1%A5%E6%B8%85%E9%9F%B3%E3%80%8B.jpg) |
 | 清音阁 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B3%A8%E7%9C%89%E5%B1%B1%E6%B8%85%E9%9F%B3%E9%98%81,_2005-07-16.jpg) |
 | 清音阁 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Qingyin_Ge,_2017-09-20_01.jpg) |
 | 清音阁 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Qingyin_Ge,_2017-09-20_02.jpg) |

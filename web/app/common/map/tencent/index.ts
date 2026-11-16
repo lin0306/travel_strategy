@@ -127,8 +127,10 @@ export {
   decideReveal,
   DISTRICT_VIEW_PAD,
   FACE_VIEW_PAD,
+  inScope,
   POI_VIEW_PAD,
   type RevealDecision,
+  type RevealScope,
   type RevealSources,
   type RevealTraceRow,
 } from './reveal'
@@ -194,7 +196,6 @@ export {
 export {
   createDistrictLayer,
   type DistrictLayerHandle,
-  type DistrictLayerMode,
   type DistrictLayerOptions,
   type DistrictLayerStats,
 } from './districtLayer'
@@ -203,8 +204,10 @@ export {
   badgeText,
   buildBadgeStyles,
   buildDistrictStyles,
+  faceStyleId,
   isUncollected,
   type DistrictGeoNode,
+  type DistrictLayerMode,
 } from './districtStyles'
 
 export {

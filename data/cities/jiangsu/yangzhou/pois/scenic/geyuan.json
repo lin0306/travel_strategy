@@ -1,113 +1,151 @@
 {
-  "id": "geyuan",
-  "name": "个园",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "清代盐商私园，以四季假山叠石出名。",
-  "description": "个园是清代盐商黄至筠的私家园林，在扬州东关街北侧。它最出名的是用不同石料叠出的春、夏、秋、冬四季假山，在一座园子里走完四个季节的意境。园中还有高大的楠木厅和一圈楼房，是扬州盐商财力与审美的实证。它与何园并称扬州两大名园，但个园更小巧紧凑、叠石更奇。逛完东关街顺路进来最顺。",
-  "highlights": [
-    "清代盐商私园，四季假山叠石出名",
-    "春笋夏云秋枫冬雪一园看尽",
-    "与何园并称扬州两大名园"
-  ],
-  "location": {
-    "point": {
-      "lng": 119.443561,
-      "lat": 32.400349,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "扬州市广陵区盐阜东路10号",
-    "district": "邗江区",
-    "transportTip": "公交个园站；东关街步行约5分钟"
+ "id": "geyuan",
+ "name": "个园",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "清代盐商私园，以四季假山叠石出名。",
+ "description": "个园是清代盐商黄至筠的私家园林，在扬州东关街北侧。它最出名的是用不同石料叠出的春、夏、秋、冬四季假山，在一座园子里走完四个季节的意境。园中还有高大的楠木厅和一圈楼房，是扬州盐商财力与审美的实证。它与何园并称扬州两大名园，但个园更小巧紧凑、叠石更奇。逛完东关街顺路进来最顺。",
+ "highlights": [
+  "清代盐商私园，四季假山叠石出名",
+  "春笋夏云秋枫冬雪一园看尽",
+  "与何园并称扬州两大名园"
+ ],
+ "location": {
+  "point": {
+   "lng": 119.443561,
+   "lat": 32.400349,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约07:30-17:30（以景区公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约45元起，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "mid"
+  "address": "扬州市广陵区盐阜东路10号",
+  "district": "广陵区",
+  "transportTip": "公交个园站；东关街步行约5分钟"
+ },
+ "practical": {
+  "openHours": "约07:30-17:30（以景区公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约45元起，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "family",
+  "elders",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Bamb_Garden_in_Yangzhou.JPG/1280px-Bamb_Garden_in_Yangzhou.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Bamb_Garden_in_Yangzhou.JPG/1280px-Bamb_Garden_in_Yangzhou.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Bamb Garden in Yangzhou.JPG",
+   "query": "个园",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Gisling",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bamb_Garden_in_Yangzhou.JPG",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "family",
-    "elders",
-    "couple"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Bamb_Garden_in_Yangzhou.JPG/1280px-Bamb_Garden_in_Yangzhou.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Bamb_Garden_in_Yangzhou.JPG/1280px-Bamb_Garden_in_Yangzhou.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Bamb Garden in Yangzhou.JPG",
-      "query": "个园",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Gisling",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bamb_Garden_in_Yangzhou.JPG",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/%E4%B8%AA%E5%9B%AD-%E5%81%87%E5%B1%B1%2C_2009-01-29.jpg/1280px-%E4%B8%AA%E5%9B%AD-%E5%81%87%E5%B1%B1%2C_2009-01-29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/%E4%B8%AA%E5%9B%AD-%E5%81%87%E5%B1%B1%2C_2009-01-29.jpg/1280px-%E4%B8%AA%E5%9B%AD-%E5%81%87%E5%B1%B1%2C_2009-01-29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "个园-假山, 2009-01-29.jpg",
-      "query": "个园",
-      "credit": {
-        "source": "wikimedia",
-        "author": "江上清风1961",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AA%E5%9B%AD-%E5%81%87%E5%B1%B1,_2009-01-29.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/%E4%B8%AA%E5%9B%AD-%E6%98%A5%E8%87%AA%E5%A4%A9%E5%A3%B6%2C_2009-01-29.jpg/1280px-%E4%B8%AA%E5%9B%AD-%E6%98%A5%E8%87%AA%E5%A4%A9%E5%A3%B6%2C_2009-01-29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/%E4%B8%AA%E5%9B%AD-%E6%98%A5%E8%87%AA%E5%A4%A9%E5%A3%B6%2C_2009-01-29.jpg/1280px-%E4%B8%AA%E5%9B%AD-%E6%98%A5%E8%87%AA%E5%A4%A9%E5%A3%B6%2C_2009-01-29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "个园-春自天壶, 2009-01-29.jpg",
-      "query": "个园",
-      "credit": {
-        "source": "wikimedia",
-        "author": "江上清风1961",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AA%E5%9B%AD-%E6%98%A5%E8%87%AA%E5%A4%A9%E5%A3%B6,_2009-01-29.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "盐商园林",
-    "四季假山",
-    "东关街"
-  ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·个园",
-      "url": "https://baike.baidu.com/item/%E4%B8%AA%E5%9B%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "个园"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/%E4%B8%AA%E5%9B%AD-%E5%81%87%E5%B1%B1%2C_2009-01-29.jpg/1280px-%E4%B8%AA%E5%9B%AD-%E5%81%87%E5%B1%B1%2C_2009-01-29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/%E4%B8%AA%E5%9B%AD-%E5%81%87%E5%B1%B1%2C_2009-01-29.jpg/1280px-%E4%B8%AA%E5%9B%AD-%E5%81%87%E5%B1%B1%2C_2009-01-29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "个园-假山, 2009-01-29.jpg",
+   "query": "个园",
+   "credit": {
+    "source": "wikimedia",
+    "author": "江上清风1961",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AA%E5%9B%AD-%E5%81%87%E5%B1%B1,_2009-01-29.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "个园停车场",
-  "_geocodeSuspect": false,
-  "district": "321003"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/%E4%B8%AA%E5%9B%AD-%E6%98%A5%E8%87%AA%E5%A4%A9%E5%A3%B6%2C_2009-01-29.jpg/1280px-%E4%B8%AA%E5%9B%AD-%E6%98%A5%E8%87%AA%E5%A4%A9%E5%A3%B6%2C_2009-01-29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/%E4%B8%AA%E5%9B%AD-%E6%98%A5%E8%87%AA%E5%A4%A9%E5%A3%B6%2C_2009-01-29.jpg/1280px-%E4%B8%AA%E5%9B%AD-%E6%98%A5%E8%87%AA%E5%A4%A9%E5%A3%B6%2C_2009-01-29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "个园-春自天壶, 2009-01-29.jpg",
+   "query": "个园",
+   "credit": {
+    "source": "wikimedia",
+    "author": "江上清风1961",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AA%E5%9B%AD-%E6%98%A5%E8%87%AA%E5%A4%A9%E5%A3%B6,_2009-01-29.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "盐商园林",
+  "四季假山",
+  "东关街"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·个园",
+   "url": "https://baike.baidu.com/item/%E4%B8%AA%E5%9B%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "个园"
+ },
+ "_geocodeTitle": "个园停车场",
+ "_geocodeSuspect": false,
+ "district": "321002",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "假山叠石",
+    "score": 4.7,
+    "note": "四季假山用不同石料做，一园走完四季"
+   },
+   {
+    "label": "园子规模",
+    "score": 3.4,
+    "note": "比何园紧凑，逛得快，一小时出头"
+   },
+   {
+    "label": "人流",
+    "score": 3.2,
+    "note": "旺季东关街的人直接灌进园子"
+   },
+   {
+    "label": "顺路程度",
+    "score": 4.5,
+    "note": "出门就是东关街，行程好接"
+   }
+  ],
+  "body": "四季假山是这园子的核心，用不同石料把春夏秋冬摆在一座园林里，这种做法在别处少见，凑近看石头的纹理与叠法也有讲究。园子不大，比何园紧凑，慢慢走一小时出头就到底。可惜旺季时东关街的人流直接灌进来，假山洞里常常要排队错身，想安静看石最好开门就进。票价不算便宜，好在出门就是东关街，能和逛街串成一条线。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "园林爱好者",
+   "顺路逛"
+  ],
+  "avoid": [
+   "专程跑一趟",
+   "怕人多"
+  ],
+  "sources": []
+ }
 }

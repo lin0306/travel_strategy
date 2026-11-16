@@ -1,73 +1,112 @@
 {
-  "id": "sengguan-feng",
-  "name": "僧冠峰",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "双桥区一座像僧帽的山，登顶能俯瞰避暑山庄和外八庙，本地人晨练地。",
-  "description": "僧冠峰在双桥区半壁山路，是一座山。它的顶长得像一顶和尚戴的帽子，所以叫僧冠峰。爬上去能俯瞰整座城 —— 避暑山庄、外八庙、磬锤峰都看得到。它是本地人晨练的地方，免费。山不高，半个钟头能上。清晨有雾时最好。",
-  "highlights": [
-    "山顶似僧帽，故名僧冠峰",
-    "登顶可瞰避暑山庄外八庙磬锤峰",
-    "本地人晨练地，免费，半小时可上"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.944583,
-      "lat": 40.948788,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市双桥区半壁山路95号僧冠峰风景区",
-    "district": "双桥区",
-    "transportTip": "市区公交或打车到半壁山",
-    "entrance": {
-      "lng": 117.947614,
-      "lat": 40.955839,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "sengguan-feng",
+ "name": "僧冠峰",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "双桥区一座像僧帽的山，登顶能俯瞰避暑山庄和外八庙，本地人晨练地。",
+ "description": "僧冠峰在双桥区半壁山路，是一座山。它的顶长得像一顶和尚戴的帽子，所以叫僧冠峰。爬上去能俯瞰整座城 —— 避暑山庄、外八庙、磬锤峰都看得到。它是本地人晨练的地方，免费。山不高，半个钟头能上。清晨有雾时最好。",
+ "highlights": [
+  "山顶似僧帽，故名僧冠峰",
+  "登顶可瞰避暑山庄外八庙磬锤峰",
+  "本地人晨练地，免费，半小时可上"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.944583,
+   "lat": 40.948788,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放（建议白天）",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 90-150 分钟",
-    "durationMinutes": [
-      90,
-      150
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "elders",
-    "family",
-    "friends"
+  "address": "河北省承德市双桥区半壁山路95号僧冠峰风景区",
+  "district": "双桥区",
+  "transportTip": "市区公交或打车到半壁山",
+  "entrance": {
+   "lng": 117.947614,
+   "lat": 40.955839,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "全天开放（建议白天）",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 90-150 分钟",
+  "durationMinutes": [
+   90,
+   150
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "登山",
-    "观景",
-    "免费"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "elders",
+  "family",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "登山",
+  "观景",
+  "免费"
+ ],
+ "popularity": 60,
+ "sources": [
+  {
+   "title": "百度百科·承德",
+   "url": "https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "僧冠峰"
+ },
+ "_geocodeTitle": "僧冠峰森林公园",
+ "_geocodeSuspect": false,
+ "district": "130802",
+ "_noImage": true,
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.5,
+    "note": "山顶能一次看到山庄、外八庙和磬锤峰"
+   },
+   {
+    "label": "体力",
+    "score": 3.6,
+    "note": "半个多钟头上去，部分路段较陡"
+   },
+   {
+    "label": "成本",
+    "score": 4.6,
+    "note": "免费，本地人晨练的地方"
+   },
+   {
+    "label": "配套",
+    "score": 2.6,
+    "note": "山上没商铺，水得自己带"
+   }
   ],
-  "popularity": 60,
-  "sources": [
-    {
-      "title": "百度百科·承德",
-      "url": "https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "body": "僧冠峰的名字来自山顶那块像僧帽的石头，爬上去能一次看全：避暑山庄、外八庙、磬锤峰都在视野里，是理解\"承德为什么这么建\"最直观的一个角度。它免费，也是本地人晨练的地方，慢慢走半个多小时就到。缺点是山顶平台不大，节假日站不开；部分路段较陡、没有遮阴，夏天正午上去很晒；山上没有商铺，水和防晒都得自己备。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "俯瞰全城",
+   "晨练",
+   "免费"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "僧冠峰"
-  },
-  "_geocodeTitle": "僧冠峰森林公园",
-  "_geocodeSuspect": false,
-  "district": "130802",
-  "_noImage": true
+  "avoid": [
+   "正午爬山",
+   "腿脚不便"
+  ],
+  "sources": []
+ }
 }

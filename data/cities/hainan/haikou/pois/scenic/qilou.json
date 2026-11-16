@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "海口市龙华区长堤路5-1号骑楼老街历史文化街区",
-    "district": "美兰区",
+    "district": "龙华区",
     "transportTip": "市区乘公交或打车至长堤路/水巷口"
   },
   "practical": {
@@ -146,7 +146,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -154,5 +154,42 @@
   },
   "_geocodeTitle": "骑楼老街(公交站)",
   "_geocodeSuspect": false,
-  "district": "460108"
+  "district": "460106",
+  "review": {
+    "score": 4.1,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "建筑",
+        "score": 4.5,
+        "note": "清末民初连廊骑楼成片"
+      },
+      {
+        "label": "小吃",
+        "score": 4.4,
+        "note": "水巷口从早卖到晚"
+      },
+      {
+        "label": "商业化",
+        "score": 2.8,
+        "note": "主街店铺重复"
+      },
+      {
+        "label": "逛街",
+        "score": 4.2,
+        "note": "适合大半天的漫步"
+      }
+    ],
+    "body": "海口最有辨识度的一片老城，连廊骑楼把南洋商埠的样子完整留了下来，楼下开店楼上住人，走到水巷口清补凉和海南粉从早卖到晚。可惜几条主街的店铺已高度同质化，部分立面在修缮，脚手架会影响拍照。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "人文",
+      "小吃"
+    ],
+    "avoid": [
+      "求整洁街景"
+    ],
+    "sources": []
+  }
 }

@@ -1,9 +1,9 @@
 {
   "id": "dafudi-jiulou",
-  "name": "西递大夫第酒楼",
+  "name": "大夫第（西递村）",
   "category": "food",
   "subtype": "local",
-  "summary": "西递村中一家徽菜馆，土菜实在，逛村累了就近吃。",
+  "summary": "西递村内清代官宅（1691 年建，胡文照祖居），临街绣楼与「作退一步想」题额是看点；村内吃饭去古月楼、三畏堂、草庐食堂。",
   "description": "大夫第酒楼在西递村里，是村中一家徽菜馆。做的是本地土菜：土鸡汤、笋干烧肉、小河鱼。味道家常，价格实在，逛完西递就近吃一顿方便。店在老房子里，有味道。旺季人多要等。不想出村找吃的，来这儿。",
   "highlights": [
     "西递村内徽菜馆，本地土菜实在",
@@ -16,7 +16,7 @@
       "lat": 29.903534,
       "coordSystem": "GCJ-02"
     },
-    "address": "安徽省黄山市黟县西递大夫第酒楼",
+    "address": "安徽省黄山市黟县西递镇西递村（西递景区内）",
     "district": "黟县",
     "transportTip": "西递村内步行到店"
   },
@@ -52,9 +52,21 @@
       "url": "https://baike.baidu.com/item/%E8%A5%BF%E9%80%92",
       "kind": "wiki",
       "fetchedAt": "2026-10-01"
+    },
+    {
+      "title": "经图商 POI 与四组检索核实：西递村无「大夫第酒楼」，大夫第为清代官宅景点",
+      "url": "https://baike.baidu.com/view/7724218.htm",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
+    },
+    {
+      "title": "地址原写「大夫第酒楼」，订正为西递景区内大夫第本体位置",
+      "url": "https://baike.baidu.com/view/7724218.htm",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -62,5 +74,17 @@
   },
   "_geocodeTitle": "西递沐熹山房私房菜",
   "district": "341023",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "安徽省黄山市黟县西递大夫第酒楼",
+        "new": "安徽省黄山市黟县西递镇西递村（西递景区内）"
+      }
+    ],
+    "source": "https://baike.baidu.com/view/7724218.htm",
+    "reason": "地址原写「大夫第酒楼」，订正为西递景区内大夫第本体位置"
+  }
 }

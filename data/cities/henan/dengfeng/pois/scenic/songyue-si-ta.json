@@ -41,53 +41,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/20250629_Pagoda_of_Songyue_Temple_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/20250629_Pagoda_of_Songyue_Temple_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1620,
-      "alt": "20250629 Pagoda of Songyue Temple 01.jpg",
-      "query": "嵩岳寺塔 登封",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20250629_Pagoda_of_Songyue_Temple_01.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/20250629_Pagoda_of_Songyue_Temple_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/20250629_Pagoda_of_Songyue_Temple_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1620,
-      "alt": "20250629 Pagoda of Songyue Temple 03.jpg",
-      "query": "嵩岳寺塔 登封",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20250629_Pagoda_of_Songyue_Temple_03.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/20250629_Pagoda_of_Songyue_Temple_04.jpg/1280px-20250629_Pagoda_of_Songyue_Temple_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/20250629_Pagoda_of_Songyue_Temple_04.jpg/1280px-20250629_Pagoda_of_Songyue_Temple_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "20250629 Pagoda of Songyue Temple 04.jpg",
-      "query": "嵩岳寺塔 登封",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20250629_Pagoda_of_Songyue_Temple_04.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "世界遗产",
@@ -104,7 +58,7 @@
       "fetchedAt": "2026-10-07"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -112,5 +66,15 @@
   },
   "_geocodeTitle": "嵩岳寺塔",
   "_geocodeSuspect": false,
-  "district": "410185"
+  "district": "410185",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 3 张（待重抓）",
+    "droppedImages": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2c/20250629_Pagoda_of_Songyue_Temple_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://upload.wikimedia.org/wikipedia/commons/1/18/20250629_Pagoda_of_Songyue_Temple_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/20250629_Pagoda_of_Songyue_Temple_04.jpg/1280px-20250629_Pagoda_of_Songyue_Temple_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  }
 }

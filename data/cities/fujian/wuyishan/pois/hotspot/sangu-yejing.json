@@ -1,68 +1,99 @@
 {
-  "id": "sangu-yejing",
-  "name": "三姑度假区夜景机位",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "茶城霓虹与溪桥的夜。",
-  "description": "三姑度假区是武夷山的游客集散地，入夜后沿溪的楼群亮起灯，霓虹映在崇阳溪上，配上几座景观桥，是这座小城最热闹的夜景。它不收门票、抬脚就到，适合吃完饭散步随手拍。想拍倒影就贴着溪边，想拍全景上附近的桥。节假日灯光秀更密，但人也多。手机夜景模式就能出片，带个小三脚架更稳。",
-  "highlights": [
-    "茶城霓虹",
-    "溪桥倒影",
-    "散步随手拍"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.982725,
-      "lat": 27.643725,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "福建省南平市武夷山市三姑度假区崇阳溪畔",
-    "district": "武夷山",
-    "transportTip": "度假区内步行可达"
+ "id": "sangu-yejing",
+ "name": "三姑度假区夜景机位",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "茶城霓虹与溪桥的夜。",
+ "description": "三姑度假区是武夷山的游客集散地，入夜后沿溪的楼群亮起灯，霓虹映在崇阳溪上，配上几座景观桥，是这座小城最热闹的夜景。它不收门票、抬脚就到，适合吃完饭散步随手拍。想拍倒影就贴着溪边，想拍全景上附近的桥。节假日灯光秀更密，但人也多。手机夜景模式就能出片，带个小三脚架更稳。",
+ "highlights": [
+  "茶城霓虹",
+  "溪桥倒影",
+  "散步随手拍"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.982725,
+   "lat": 27.643725,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "入夜后 19:00-22:00 最佳",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "friends",
-    "couple",
-    "solo"
+  "address": "福建省南平市武夷山市三姑度假区崇阳溪畔",
+  "district": "武夷山",
+  "transportTip": "度假区内步行可达"
+ },
+ "practical": {
+  "openHours": "入夜后 19:00-22:00 最佳",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "夜景",
-    "度假区",
-    "溪桥"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "friends",
+  "couple",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "夜景",
+  "度假区",
+  "溪桥"
+ ],
+ "popularity": 84,
+ "sources": [
+  {
+   "title": "百度百科·武夷山",
+   "url": "https://baike.baidu.com/item/%E6%AD%A6%E5%A4%B7%E5%B1%B1",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-06"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "三姑度假区夜景机位"
+ },
+ "_geocodeTitle": "三姑度假区",
+ "_geocodeSuspect": false,
+ "district": "350782",
+ "_noImage": true,
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "夜景",
+    "score": 3.8,
+    "note": "霓虹映在崇阳溪上，桥上有全景"
+   },
+   {
+    "label": "便利",
+    "score": 4.3,
+    "note": "吃住都在这儿，抬脚就到"
+   },
+   {
+    "label": "惊喜",
+    "score": 2.8,
+    "note": "本质是商业街灯光，别期待太高"
+   }
   ],
-  "popularity": 84,
-  "sources": [
-    {
-      "title": "百度百科·武夷山",
-      "url": "https://baike.baidu.com/item/%E6%AD%A6%E5%A4%B7%E5%B1%B1",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-06"
-    }
+  "body": "三姑是武夷山的吃住集散地，入夜沿溪楼群亮灯，映在崇阳溪上，配上几座景观桥，散步顺手拍两张挺舒服。但说句实话，这就是度假区的商业街夜色，专程当景点跑一趟会失望；灯光秀的日子人多车堵，反而不如平日清爽。手机夜景模式足够，想拍倒影就贴着溪边找水面平的一段。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "饭后散步"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "三姑度假区夜景机位"
-  },
-  "_geocodeTitle": "三姑度假区",
-  "_geocodeSuspect": false,
-  "district": "350782",
-  "_noImage": true
+  "avoid": [
+   "专程打卡"
+  ],
+  "sources": []
+ }
 }

@@ -1,67 +1,105 @@
 {
-  "id": "juan-tong-fen",
-  "name": "古记卷筒粉(南一里店)",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "南宁的米浆肠粉，现蒸现卷。",
-  "description": "卷筒粉是南宁的早点小吃，用米浆蒸成薄皮，包入肉末、木耳、豆角一类，卷起切块，淋上黄皮酱和酱油。古记是园湖路一带常提的店，现蒸现卷，皮薄滑、馅清爽。它是一顿很快的早餐，配一碗豆浆。人均低，是市井味道。",
-  "highlights": [
-    "米浆蒸皮包馅，淋黄皮酱",
-    "古记是园湖路常提店",
-    "现蒸现卷，早餐逻辑"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.342013,
-      "lat": 22.824092,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市青秀区园湖北路建政南一里",
-    "district": "青秀区",
-    "transportTip": "地铁3号线至东葛路站换乘公交"
+ "id": "juan-tong-fen",
+ "name": "古记卷筒粉(南一里店)",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "南宁的米浆肠粉，现蒸现卷。",
+ "description": "卷筒粉是南宁的早点小吃，用米浆蒸成薄皮，包入肉末、木耳、豆角一类，卷起切块，淋上黄皮酱和酱油。古记是园湖路一带常提的店，现蒸现卷，皮薄滑、馅清爽。它是一顿很快的早餐，配一碗豆浆。人均低，是市井味道。",
+ "highlights": [
+  "米浆蒸皮包馅，淋黄皮酱",
+  "古记是园湖路常提店",
+  "现蒸现卷，早餐逻辑"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.342013,
+   "lat": 22.824092,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约06:30-13:00（售完为止），以门店公告为准",
-    "openHoursRef": 0,
-    "ticket": "人均约12元，以门店为准",
-    "ticketRef": 0,
-    "duration": "建议 20-45 分钟",
-    "durationMinutes": [
-      20,
-      45
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "solo",
-    "elders"
+  "address": "南宁市青秀区园湖北路建政南一里",
+  "district": "青秀区",
+  "transportTip": "地铁3号线至东葛路站换乘公交"
+ },
+ "practical": {
+  "openHours": "约06:30-13:00（售完为止），以门店公告为准",
+  "openHoursRef": 0,
+  "ticket": "人均约12元，以门店为准",
+  "ticketRef": 0,
+  "duration": "建议 20-45 分钟",
+  "durationMinutes": [
+   20,
+   45
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "卷筒粉",
-    "早餐",
-    "小吃"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "solo",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "卷筒粉",
+  "早餐",
+  "小吃"
+ ],
+ "popularity": 74,
+ "sources": [
+  {
+   "title": "百度百科·卷筒粉",
+   "url": "https://baike.baidu.com/item/%E5%8D%B7%E7%AD%92%E7%B2%89",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "古记卷筒粉(南一里店)"
+ },
+ "_geocodeTitle": "古记卷筒粉店(南一里店)",
+ "_geocodeSuspect": false,
+ "district": "450103",
+ "_noImage": true,
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.2,
+    "note": "米浆现蒸的皮薄滑，黄皮酱提味"
+   },
+   {
+    "label": "价格",
+    "score": 4.4,
+    "note": "早餐价，几块钱起步"
+   },
+   {
+    "label": "排队",
+    "score": 3.4,
+    "note": "现蒸现卷，一笼一笼出，等得慢"
+   },
+   {
+    "label": "分量",
+    "score": 3.6,
+    "note": "一份不顶饱，常配豆浆或再买一条"
+   }
   ],
-  "popularity": 74,
-  "sources": [
-    {
-      "title": "百度百科·卷筒粉",
-      "url": "https://baike.baidu.com/item/%E5%8D%B7%E7%AD%92%E7%B2%89",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "卷筒粉是南宁的早点逻辑：米浆摊薄蒸熟，裹上肉末、木耳、豆角，卷起来切段，淋黄皮酱和酱油，皮薄馅清爽，一条接一条就吃完了。古记这类老店胜在现蒸现卷，皮不是预制的，口感差别一吃就知道。要接受的现实是：现蒸就是一笼一笼出，早高峰队伍走得慢，赶时间的别排；摊位座位少，多数人打包站着吃；一份分量不大，男生往往要两条起。想吃地道早餐值得早起，睡到十点去多半只剩收摊。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "吃早餐",
+   "尝本地小吃"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "古记卷筒粉(南一里店)"
-  },
-  "_geocodeTitle": "古记卷筒粉店(南一里店)",
-  "_geocodeSuspect": false,
-  "district": "450103",
-  "_noImage": true
+  "avoid": [
+   "赶时间",
+   "想吃正餐"
+  ],
+  "sources": []
+ }
 }

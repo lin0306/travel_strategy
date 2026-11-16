@@ -1,6 +1,6 @@
 # 九寨沟 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-06
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-14
 
 ## 概览
 
@@ -75,8 +75,8 @@
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
 | 城市封面 | Chensiyuan | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:1_jiuzhaigou_valley_wu_hua_hai_2011b.jpg) |
-| 城市封面 | liuzusai刘祖赛 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A6_%E4%B9%9D%E5%AF%A8%E6%B2%9F_20111108_liuzusai_-_panoramio_(2).jpg) |
-| 城市封面 | George Wenn | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jiuzhaigou_%E4%B9%9D%E5%AF%A8%E6%B2%9F_-_panoramio.jpg) |
+| 城市封面 | Lvlvmei | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Q30023310_Jiuzhaigou_National_Natural_Reserve_Wuhuahai_Oct.2015.jpg) |
+| 城市封面 | Noé Lecocq | CC BY-SA 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jiuzhaigou_Pearl_Waterfall_2005-08-21.jpeg) |
 | 长海 | liuzusai刘祖赛 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A6_%E9%95%BF%E6%B5%B7_%E4%B9%9D%E5%AF%A8%E6%B2%9F_-_panoramio.jpg) |
 | 长海 | George Wenn | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jiuzhaigou_%E4%B9%9D%E5%AF%A8%E6%B2%9F_%E9%95%BF%E6%B5%B7_-_panoramio.jpg) |
 | 长海 | Lvlvmei | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Q30023310_Jiuzhaigou_National_Natural_Reserve_Changhai_02_Oct.2015.jpg) |
@@ -113,9 +113,6 @@
 | 树正群海 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%A0%91%E6%AD%A3%E7%BE%A4%E6%B5%B7.jpg) |
 | 树正群海 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%A0%91%E6%AD%A3%E7%BE%A4%E6%B5%B7_-_Shuzheng_Lakes_-_2011.10_-_panoramio.jpg) |
 | 树正群海 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%A0%91%E6%AD%A3%E7%BE%A4%E6%B5%B7_-_Shuzheng_Lakes_-_2011.10_-_panoramio_(1).jpg) |
-| 树正寨 | 月亮河a | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B9%9D%E5%AF%A8%E6%A0%91%E6%AD%A3%E6%B2%9F%E7%9A%84%E6%B7%B1%E7%A7%8B_-_panoramio.jpg) |
-| 树正寨 | zhiyin586@163.com | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9B%9B%E5%B7%9D.%E4%B9%9D%E5%AF%A8%E6%B2%9F._%E6%A0%91%E6%AD%A3%E5%AF%A8_-_panoramio.jpg) |
-| 树正寨 | geoff leng | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9B%9B%E5%B7%9D%E4%B9%9D%E5%AF%A8%E6%B2%9F.jpg) |
 | 五彩池 | liuzusai刘祖赛 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 五彩池 | lienyuan lee | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wucai_Lake_%E4%BA%94%E5%BD%A9%E6%B1%A0_-_panoramio.jpg) |
 | 五彩池 | lienyuan lee | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wucai_Lake_%E4%BA%94%E5%BD%A9%E6%B1%A0_-_panoramio_(1).jpg) |
@@ -133,7 +130,6 @@
 | 熊猫海 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%B2%E6%B6%B8%E7%9A%84%E7%86%8A%E7%8C%AB%E6%B5%B7%E7%80%91%E5%B8%83_-_Panda_Lake_Waterfall_Dries_up_in_Autumn_-_2011.10_-_panoramio.jpg) |
 | 原始森林 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8E%9F%E5%A7%8B%E6%A3%AE%E6%9E%97_-_Primeval_Forest_-_2011.10_-_panoramio.jpg) |
 | 则查洼沟 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%88%99%E6%9F%A5%E6%B4%BC%E5%AF%A8_-_Zechawa_Village_-_2011.10_-_panoramio.jpg) |
-| 则查洼沟 | geoff leng | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9B%9B%E5%B7%9D%E4%B9%9D%E5%AF%A8%E6%B2%9F.jpg) |
 | 则查洼沟 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A0%E4%BA%BA%E6%B6%89%E8%B6%B3%E7%9A%84%E5%88%99%E6%9F%A5%E6%B4%BC%E6%B2%9F%E6%A0%88%E9%81%93_-_Boardwalk_in_Zechawa_Valley_-_2011.10_-_panoramio.jpg) |
 | 漳扎镇 | NoGhost | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:PengfengVillage.jpg) |
 | 漳扎镇 | 林高志 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%9C%8B%E5%9B%9B%E5%B7%9D%E4%B9%9D%E5%AF%A8%E6%BA%9D%E4%B8%96%E7%95%8C%E9%81%BA%E7%94%A2836.jpg) |
@@ -149,7 +145,6 @@
 | 青稞酒 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E7%A8%9E%E9%85%92%E5%92%8C%E9%85%A5%E6%B2%B9%E8%8C%B6.jpg) |
 | 酸奶 | No machine-readable author provided. Rainer Zenz assumed (ba | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Joghurt.jpg) |
 | 酸奶 | Zenyrgarden | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Whisking_soy_yogurt.jpg) |
-| 酥油茶 | Popolon | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jiuzhaigou.Tibetan_meal.jpg) |
 | 酥油茶 | Gaurav Dhwaj Khadka | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Butter_Milk_Tea.jpg) |
 | 羊肚菌 | Bernd Haynold | CC BY-SA 2.5 | [wikimedia](https://www.wikidata.org/wiki/Q1129282) |
 | 羊肚菌 | Achim Lammerts (Syntaxys) | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2026-04-04_Z5-3750E_Achim-Lammerts_Morchella-esculenta.jpg) |

@@ -36,6 +36,8 @@ import argparse
 import io
 import json
 import os
+import sys
+import threading
 import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
@@ -43,15 +45,14 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
-import sys
-
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from pipeline.authoring import entity_images as ents          # noqa: E402
 from pipeline.authoring.image_filter import verdict_for        # noqa: E402
 from pipeline.authoring.images import (                        # noqa: E402
-    _core_name, load_env, rejected_urls, search_wikimedia,
+    _core_name, _is_latin, load_env, rejected_urls, search_wikimedia,
+    search_pexels, search_unsplash,
 )
 from tools.review_images import (                               # noqa: E402
     COLS, ROWS, ROOT as REVIEW_ROOT, TILE, fetch, mirror, poi_paths,
@@ -120,18 +121,18 @@ def _fit(font, text: str, width: int) -> str:
             break
     return "…"
 
-#: 每点位最多留多少张候选。
-#: ★★ 2026-11-01 由 12 放开到 60（主人的决定："不限量 + 两轮粗筛"）。
-#:    放开的理由**不是**"这样命中率会变高" —— 实测正好相反：
-#:      满额(11-12 张)点位命中 42/298 = 14%，未满额点位 72/267 = 27%。
-#:      满额的都是「戏曲演出/连锁小吃/同名异地」这类关键词一搜吐一堆的，
-#:      真正对的景点反而候选少而准。
-#:    但仍要放开，因为**截断发生在 grab 里**：第 13 张之后永远没机会被看到，
-#:    而"这张到底对不对"只有看图的人能定。代价由两轮对照表吸收
-#:    （第一轮 48 格/页密排粗筛，第二轮只对入围的看大图），不额外增成本。
-MAX_CAND = 60
-#: 关键词通道搜到这么多「非街道层」就停（后面的查询大概率只增加同义重复）
-STOP_AFTER = 8
+#: ★★ 2026-11-08 主人定：**候选不再有任何数量上限**。
+#:    「查到多少张，就把多少张交给 AI 筛选过滤，不应该限定只存多少张」——
+#:    下面这些数字**全是图源单次请求的上限**，不是"留几张"的截断：
+#:      · 实测 Commons 匿名 API 一次最多回 50 张（geosearch 传 200 也只回 50）；
+#:      · Pexels / Unsplash 的 per_page 上限分别是 80 / 30；
+#:      · Wikidata 实体通道给 20，够覆盖分类页里的图。
+#:    原来 `MAX_CAND=60` / `STOP_AFTER=8` / `quota=5` / `mine[:60]` 全部删除：
+#:    截断发生在 grab 里，被截掉的图"到底对不对"永远没有机会被看到。
+GEO_LIMIT = 50            # Commons generator=geosearch 单次上限（实测 200 也只回 50）
+ENTITY_LIMIT = 20         # Wikidata P18 / 条目主图 / Commons 分类
+KW_PER_PAGE = 50          # Commons generator=search 单次上限
+STOCK_PER_PAGE: dict[str, int] = {"pexels": 80, "unsplash": 30}  # 两家 per_page 上限
 
 #: 餐馆小店的取图层级词汇。顺序 = 优先级：店内 → 门面 → 所在街道（坐标通道）。
 FOOD_TIER_WORDS: dict[str, tuple[str, ...]] = {
@@ -139,8 +140,56 @@ FOOD_TIER_WORDS: dict[str, tuple[str, ...]] = {
     "front": ("门面", "招牌"),
 }
 #: 层级排序：数字小的优先。`exact` 是非食物点位的默认层（等同于"本体"，与店内同权）。
-TIER_ORDER: dict[str, int] = {"inside": 0, "exact": 0, "front": 1, "street": 2}
-TIER_LABEL: dict[str, str] = {"inside": "店内", "front": "门面", "street": "街道", "exact": ""}
+#: ★ `ambience` = 配图库候选（主题配图），排最后：只有前面几层都不够时才补位，
+#:   且**它进候选池不等于合格** —— 判 ok 与否完全由看图那一步定。
+TIER_ORDER: dict[str, int] = {"inside": 0, "exact": 0, "front": 1, "street": 2, "ambience": 3}
+TIER_LABEL: dict[str, str] = {
+    "inside": "店内", "front": "门面", "street": "街道", "exact": "", "ambience": "配图库",
+}
+
+#: ★★ 配图库（Pexels / Unsplash）**只作 AI 审查链路的候选源**（2026-11-08 用户定）。
+#:
+#:   它们不是地点图库：搜「农安辽塔」会给上海的古塔，也没有 GPS / Commons 分类，
+#:   `verdict_for` 对它们基本只能给 `suspect`。但**本工具本来就不据过滤器删图**
+#:   （`filter` 只是参考分），抓完要看图逐格判 ok/reject，reject 还永久进缓存
+#:   ⇒ 错图在这里会被筛掉，而不像 `step4_images` 那样"判完直接入库"。
+#:
+#:   ★ 因此 `pipeline/authoring/images.py` 的 `USE_STOCK_SOURCES` **保持 False**：
+#:     那条是自动入库链路（没有看图环节），6602 张主题图污染就是从那进去的。
+#:
+#:   配额：Pexels 免费 200 次/小时、Unsplash 50 次/小时。
+#:   ★★ 2026-11-08 去掉「每城 12/6 次」封顶：那是**数量截断**，第 13 个点位
+#:      之后就一张配图库候选都拿不到。改成按第三方**小时额度**的全局闸门
+#:      （留一点余量，跨整点自动重置），用完会明确打印一次，不静默跳过。
+STOCK_HOURLY_LIMIT: dict[str, int] = {"pexels": 180, "unsplash": 45}
+_STOCK_LOCK = threading.Lock()
+#: 进程内小时窗口：{"hour": Unix 小时序号, "left": {源: 剩余次数}}
+_STOCK_WINDOW: dict = {"hour": -1, "left": {}}
+_STOCK_EXHAUSTED: set[str] = set()
+
+
+def _take_stock_slot(src: str) -> bool:
+    """按第三方小时额度抢一次调用名额；抢不到就跳过这一家（不是跳过整个点位）。
+
+    ★ 这是**额度闸门**，不是候选数量限制：额度内每个符合条件的点位都能问，
+      拿回来的每一张都进对照表交给看图的人。跨整点自动恢复。
+    """
+    hour = int(time.time() // 3600)
+    with _STOCK_LOCK:
+        if _STOCK_WINDOW["hour"] != hour:
+            _STOCK_WINDOW["hour"] = hour
+            _STOCK_WINDOW["left"] = dict(STOCK_HOURLY_LIMIT)
+            _STOCK_EXHAUSTED.clear()
+        left = _STOCK_WINDOW["left"]
+        if left.get(src, 0) <= 0:
+            if src not in _STOCK_EXHAUSTED:
+                _STOCK_EXHAUSTED.add(src)
+                print(f"    ! 配图库 {src} 本小时 {STOCK_HOURLY_LIMIT[src]} 次额度用尽，"
+                      f"后续点位跳过（下个整点自动恢复）")
+            return False
+        left[src] -= 1
+        return True
+
 
 
 def _queries(poi: dict, city: str) -> list[tuple[str, str]]:
@@ -200,7 +249,10 @@ def _kw_images(kw: str) -> list[dict]:
     for attempt in range(4):
         ents.throttle_slot()             # ★ 走全局时隙，多个 worker 才不会同时撞上去
         try:
-            return search_wikimedia(kw)
+            # ★ 2026-11-08：默认 per_page=8 是关键词通道最隐蔽的一处数量截断。
+            #   候选链路要拿满 Commons 单次上限（实测 50），一张都不提前丢。
+            #   `search_wikimedia` 的默认 8 保持不动 —— 自动入库链路仍走它。
+            return search_wikimedia(kw, per_page=KW_PER_PAGE)
         except Exception as exc:
             if "429" in str(exc):
                 _KW_429 += 1
@@ -236,41 +288,54 @@ def _grab_one(poi: dict, city_name: str, bad: set[str]) -> list[dict]:
     # ① 坐标邻近（图是"附近"，距离交给看图的人）—— 这一层就是"所在街道"
     pt = (poi.get("location") or {}).get("point") or {}
     if isinstance(pt.get("lat"), (int, float)) and isinstance(pt.get("lng"), (int, float)):
-        # limit 16 → 30（2026-11-01，配合"不限量"）：geosearch 是**一个请求**，
-        # 多要几张不额外花请求，只是让候选更全。它按距离由近到远返回，
-        # 截断等于把"稍远但仍可能是本体"的那些直接丢掉。
-        add(ents.geosearch_images(pt["lat"], pt["lng"], limit=30), "geo", "street")
+        # ★ 2026-11-08：30 → 50（Commons 匿名单次上限，实测传 200 也只回 50）。
+        #   geosearch 是**一个请求**，多要几张不多花请求；按距离由近到远返回，
+        #   截断等于把"稍远但仍可能是本体"的那些直接丢掉。
+        add(ents.geosearch_images(pt["lat"], pt["lng"], limit=GEO_LIMIT), "geo", "street")
     # ② 实体（P18 / 条目主图 / Commons 分类）—— 是这个对象，但分不清店内还是门面，记中间层
-    add(ents.entity_images(poi.get("name", ""), limit=4), "ent", "front")
-    # ③ 关键词补漏：**看的不是总张数，而是"非街道层"的张数**
+    add(ents.entity_images(poi.get("name", ""), limit=ENTITY_LIMIT), "ent", "front")
+    # ③ 关键词通道：★★ 2026-11-08 起**所有查询词都跑、不提前停**。
     #
-    #    ★ 这是 2026-11-01 修掉的一个真 bug。原来判据是 `len(mine) < 3`，而 geo
-    #      通道一个点位就能吐 16 张 —— 于是只要点位在村里/街区里，关键词通道就
-    #      永远不跑。黟县「月沼」（宏村半月塘）就是这个下场：12 张候选全是宅院
-    #      木雕与砖雕漏窗，一张水塘都没有。geo 给的是**周边**，不是本体。
-    #
-    #    改成按层判：geo 全打进 `street` 层，`specific` 只数 non-street。
-    #    specific < 3 才跑关键词，STOP_AFTER 也按 specific 算 —— 否则 geo 一多，
-    #    内层循环第一轮就被 `len(mine) >= STOP_AFTER` 掐断（同一处坑）。
-    specific = sum(1 for m in mine if m["_tier"] != "street")
-    # ★ 2026-11-01 阈值 3 → 8、quota 3 → 5（配合"不限量"）：
-    #   实体通道最多只给 4 张，原来的 `< 3` 意味着"有维基条目就别再搜关键词" ——
-    #   而条目的主图经常是徽标/老照片，真正的水塘/门面照在文件名里才搜得到。
-    if specific < 8:
-        quota = 5
-        for tier, group in _group_by_tier(_queries(poi, city_name)):
-            per_group = 2 if tier == "exact" else 1
-            for kw in group[:per_group]:
-                if quota <= 0:
-                    break
-                quota -= 1
-                add(_kw_images(kw), f"kw:{kw}", tier)
-                if sum(1 for m in mine if m["_tier"] != "street") >= STOP_AFTER:
-                    quota = 0
-    return mine[:MAX_CAND]
+    #    原来的三道闸门（`specific < 8` 才跑 / 每层只取 1~2 个词 / quota=5 /
+    #    STOP_AFTER=8 提前 break）会把同一个点位的其他叫法、译名、品类词
+    #    全掐在 grab 里 —— 而"哪张是对的那张"只有看图的人能定。
+    #    代价是请求数涨到每点位约 8~11 次（全部走 `throttle_slot()` 全局节流，
+    #    不并发猛打），429 拦截与退避在 `_kw_images` / grab 结尾继续守着。
+    for tier, group in _group_by_tier(_queries(poi, city_name)):
+        for kw in group:
+            add(_kw_images(kw), f"kw:{kw}", tier)
+
+    # ④ 配图库补位（2026-11-08）：**只在 Commons 连本体层都没捞到时**才问。
+    #    ★ 两条硬门槛，缺一不可（2026-11-08 复核后保留）：
+    #      · 英文关键词必须是拉丁文 —— 拿中文名去查 Pexels 只会得到一堆无关图；
+    #      · Commons 本体层 < 3 张 —— 这是**准确性**护栏，不是数量限制：
+    #        本来就有 20 张实景图的点位没必要再灌 80 张氛围图让 AI 白看。
+    #    ★ 每城 12/6 次封顶已删除，改按第三方小时额度（见 `_take_stock_slot`）。
+    #    ★ 抓回来的图**只进候选池**：这里不据来源删，也不据 `verdict_for` 删，
+    #      由对照表 + 看图判定决定去留（错的 reject 进全局缓存，下轮不再抓回）。
+    specific = sum(1 for m in mine if m["_tier"] not in ("street", "ambience"))
+    en = str((poi.get("_imageQuery") or {}).get("en") or "")
+    if specific < 3 and _is_latin(en):
+        for label, search in (("pexels", search_pexels), ("unsplash", search_unsplash)):
+            if not _take_stock_slot(label):
+                continue
+            try:
+                add(search(en, per_page=STOCK_PER_PAGE[label]), f"stock:{label}", "ambience")
+            except Exception as exc:                     # 配额/网络挂了不该拖垮这一城
+                print(f"    ! 配图库 {label} 取图异常：{type(exc).__name__} {exc}")
+    # ★★ 2026-11-08：删除 `mine[:MAX_CAND]`。抓到多少就留多少，一张都不在
+    #    grab 里截掉 —— 去留只由「看图判定」决定，代价由两轮对照表吸收。
+    return mine
 
 
-def grab(city: str, *, limit: int = 0) -> int:
+def grab(city: str, *, limit: int = 0, only: set[str] | None = None,
+         replace: bool = False) -> int:
+    """抓候选。
+
+    `only`：只抓这些 poi id —— **已有图也抓**。用途是巡检发现「图是错的」时重抓：
+            默认模式只补无图点位，永远碰不到"有图但图错"的点位。
+    `replace`：配合 `only`，apply 时用本轮判 ok 的图**替换**旧图，而不是追加。
+    """
     load_env()
     bad = rejected_urls()
     used: dict[str, str] = {}          # url → 首个占用的点位（同城撞图在这里挡）
@@ -281,8 +346,11 @@ def grab(city: str, *, limit: int = 0) -> int:
     targets = []
     for path in poi_paths(city):
         poi = json.loads(path.read_text(encoding="utf-8"))
-        if poi.get("images"):
-            continue                    # 已有图的不动（这一趟只补旧的空点位）
+        if only:
+            if poi.get("id") not in only:
+                continue
+        elif poi.get("images"):
+            continue                    # 默认模式：只补旧的空点位，不动已有图
         targets.append((path, poi))
     if limit:
         targets = targets[:limit]
@@ -295,6 +363,8 @@ def grab(city: str, *, limit: int = 0) -> int:
     #: Wikimedia 匿名限流很紧，实测把 THROTTLE 压到 0.5 就开始 429。
     workers = max(1, int(os.environ.get("GRAB_WORKERS", "4")))
     hit429_before = ents.hits_429()          # 见结尾：用它区分"真没料"与"被限流"
+    # ★ 2026-11-08：配图库额度不再按「每城每轮」重置，改成第三方小时窗口
+    #   （`_take_stock_slot` 自己判跨整点）。一晚手动连跑多城时共用同一份额度。
     print(f"{city}：{len(targets)} 个无图点位，开始抓候选（{workers} 并发）…")
 
     def job(item: tuple[Path, dict]) -> tuple[Path, dict, list[dict]]:
@@ -328,16 +398,22 @@ def grab(city: str, *, limit: int = 0) -> int:
                     "url": c["url"],
                 "thumb": c.get("thumbUrl") or c["url"],
                 "alt": c.get("alt", ""),
-                "via": c.get("_via", ""),
-                "tier": c.get("_tier", "exact"),
-                "distance_m": c.get("distance_m"),
+                    "via": c.get("_via", ""),
+                    "tier": c.get("_tier", "exact"),
+                    # ★ 来源必须进清单：apply 要按它写 credit，看图的也要靠它认出
+                    #   「这格是主题配图库来的」。旧版 apply 一律写 wikimedia ⇒ 伪造署名。
+                    "source": (c.get("credit") or {}).get("source", "wikimedia"),
+                    "distance_m": c.get("distance_m"),
                 "license": (c.get("credit") or {}).get("license", ""),
                 "author": (c.get("credit") or {}).get("author", ""),
                 "sourceUrl": (c.get("credit") or {}).get("sourceUrl", ""),
                 "attributionRequired": (c.get("credit") or {}).get("attributionRequired", True),
-                "filter": verdict,          # ★ 只是**参考分**，不据此删：ok/suspect/reject 都留着
-                "reason": reason,
-            })
+                    "filter": verdict,          # ★ 只是**参考分**，不据此删：ok/suspect/reject 都留着
+                    "reason": reason,
+                    # ★ 重抓通道的凭据：apply 见 replace 就清掉该点位旧图（只在本轮判 ok 的
+                    #   图上重建），否则旧错图会一直留着跟新图并列。
+                    "replace": bool(replace),
+                })
             print(f"  {done:03d}/{len(targets)} {name[:14]:16s} 候选 {len(kept):2d}", flush=True)
 
     # ── 落盘之前先判：这批"候选 0"是真的没图，还是被限流吞了 ─────────────
@@ -389,10 +465,11 @@ def sheet(city: str, *, refresh: bool = False,
     | `sheet <city> --dense` | 8×6（160px） | `sheet-dense-XX.png` | **第一轮粗筛**，一屏 48 张 |
     | `sheet <city> --only 3,7,12` | 4×5（300px） | `sheet-pick-XX.png` | **第二轮精看**，只列入围的 |
 
-    ★★ 为什么要有 dense：grab 放开到每点位最多 60 张后，一座城可能有 500~900 张候选。
-      按 20 格/页要 25~45 页，逐页精看不现实。dense 把一屏提到 48 格，
-      第一轮只做**粗分类**（是建筑/食物/人像/地图/室内），剔除明显不可能的，
-      剩下的才进第二轮看大图定"是不是这个景点"。
+    ★★ 为什么要有 dense：grab 取消候选数量上限后（2026-11-08），
+      单个点位最多可攒到 50（坐标）+ 20（实体）+ 每词 50（关键词）+ 110（配图库），
+      一座城几千张候选很常见。按 20 格/页要上百页，逐页精看不现实。
+      dense 把一屏提到 48 格，第一轮只做**粗分类**（是建筑/食物/人像/地图/室内），
+      剔除明显不可能的，剩下的才进第二轮看大图定"是不是这个景点"。
       ★ 粗筛判不了"是不是这座庙"—— 那需要看匾额，小图看不清。别在第一轮下结论。
     """
     src = OUT / city / "candidates.jsonl"
@@ -489,10 +566,16 @@ def sheet(city: str, *, refresh: bool = False,
                 draw.text((x + 3, y + tile + 3), _fit(fnt, f"#{e['idx']} {e['poi']}{dist}", tile - 6),
                           fill=(20, 20, 20), font=fnt)
                 tier = TIER_LABEL.get(e.get("tier") or "exact", "")
+                src_tag = {"pexels": "Pexels", "unsplash": "Unsplash"}.get(e.get("source", ""))
                 sub = (f"已属「{owner}」" if owner
                        else f"{tier + ' · ' if tier else ''}{e['via'][:24]}")
+                # ★ 配图库来的必须在格子上标出来：这类图"看着像但可能根本不是这个地点"，
+                #   看图的人得知道要多核对一眼。用暖色，别和过滤器的红/绿/黄撞义。
+                if src_tag:
+                    sub = f"{src_tag} · {sub}"
                 draw.text((x + 3, y + tile + 21), _fit(fnt, sub, tile - 6),
-                          fill=(130, 130, 130) if owner else (90, 90, 90), font=fnt)
+                          fill=(170, 95, 20) if src_tag else
+                          (130, 130, 130) if owner else (90, 90, 90), font=fnt)
         sp = out / f"{stem}-{len(sheets):02d}.png"
         canvas.save(sp)
         sheets.append(sp)
@@ -510,10 +593,43 @@ def sheet(city: str, *, refresh: bool = False,
     return len(entries)
 
 
+def _credit_of(e: dict) -> dict:
+    """按候选的**真实来源**生成 credit（供 apply 写库）。
+
+    ★★ 旧版 apply 一律写 `"source": "wikimedia"` + 默认作者
+        "Wikimedia Commons 贡献者" —— 配图库的图判 ok 后就成了伪造 CC 署名，
+        违反「图片带 credit」红线。老清单没有 `source` 字段，按 URL host 兜底，
+        **不能**默认成 wikimedia（那等于把错误又造一遍）。
+    """
+    src = str(e.get("source") or "")
+    if not src:
+        u = str(e.get("url") or "")
+        src = ("pexels" if "images.pexels.com" in u else
+               "unsplash" if "images.unsplash.com" in u else "wikimedia")
+    if src == "pexels":
+        author, lic, attr = e.get("author") or "Pexels 摄影师", "Pexels License", False
+    elif src == "unsplash":
+        author, lic, attr = e.get("author") or "Unsplash 摄影师", "Unsplash License", False
+    else:
+        src = "wikimedia"
+        author = e.get("author") or "Wikimedia Commons 贡献者"
+        lic = e.get("license") or "见来源页"
+        attr = bool(e.get("attributionRequired", True))
+    return {
+        "source": src,
+        "author": author,
+        "sourceUrl": e.get("sourceUrl") or e.get("url") or "",
+        "license": lic,
+        "attributionRequired": attr,
+    }
+
+
 def _tier_of(e: dict) -> str:
     """候选的取图层级。老候选（分层之前抓的）没有 `tier` 字段，按通道兜底：
     坐标通道就是"所在街道"，其余按"本体"。"""
-    return e.get("tier") or ("street" if str(e.get("via", "")).startswith("geo") else "exact")
+    return (e.get("tier") or ("street" if str(e.get("via", "")).startswith("geo")
+                             else "ambience" if str(e.get("via", "")).startswith("stock")
+                             else "exact"))
 
 
 def apply(city: str, *, dry: bool = False) -> int:
@@ -560,16 +676,20 @@ def apply(city: str, *, dry: bool = False) -> int:
     for rel, rows in by_file.items():
         path = ROOT / rel
         poi = json.loads(path.read_text(encoding="utf-8"))
-        imgs = poi.get("images") or []
-        before = len(imgs)                       # ← 必须在 append 之前取
+        # ★ 重抓通道：本轮所有条目都带 replace ⇒ 旧图整批作废，只用判 ok 的重建。
+        #   追加模式（默认）保持原样，避免把"补图"误做成"换图"。
+        replace = bool(rows) and all(e.get("replace") for e in rows)
+        old_imgs = poi.get("images") or []
+        imgs = [] if replace else old_imgs
+        before = len(old_imgs)                   # ← 统计口径始终是"原有点位上的张数"
         have = {im.get("url") for im in imgs}
         # ★ 取图优先级：店内 > 门面 > 所在街道（主人的口径）。判 ok 的图按层级排好，
-        #   高层的先占位，低层的只用来补足 6 张 —— 不排他，但绝不让街景挤掉店内照。
+        #   高层的排前面（前端 gallery 从第 0 张起显示），但**不再按张数截断**：
+        #   看图已经逐格定过去留，代码再截一次等于替 AI 改判。
         rows.sort(key=lambda e: (TIER_ORDER.get(tier_of.get(e["idx"]) or _tier_of(e), 1), e["idx"]))
         is_food = poi.get("category") == "food"
-        # ★ 三种"没写进去"的原因要分开数：占用跳过 / 超 6 张上限 / 真写进去。
-        #   原来只印一个"超上限截断"，把"同城已被别的点位占用"也说成截断 ——
-        #   阆中「灯会庙会」判 ok 3 张只收 1 张，就是这么被误读成上限问题的。
+        # ★ 没写进去只有一种原因：同城已被别的点位占用。单独数出来，
+        #   别和"判 ok 但被上限截掉"混为一谈（后者 2026-11-08 起已不存在）。
         skipped_used = 0
         for e in rows:
             if e["url"] in have or e["url"] in city_used:
@@ -588,24 +708,19 @@ def apply(city: str, *, dry: bool = False) -> int:
                 "height": 720,
                 "alt": alt,
                 "query": poi.get("name", ""),        # ★ 自愈关键字段
-                "credit": {
-                    "source": "wikimedia",
-                    "author": e["author"] or "Wikimedia Commons 贡献者",
-                    "sourceUrl": e["sourceUrl"] or e["url"],
-                    "license": e["license"] or "见来源页",
-                    "attributionRequired": bool(e["attributionRequired"]),
-                },
-                "review": {"verdict": "ok", "by": "agent-vision", "at": today, "tier": tier},
+                "credit": _credit_of(e),
+                # ★ `via` 留痕：配图库来的图以后能按通道追查，也是"经过看图审查"的凭证
+                "review": {"verdict": "ok", "by": "agent-vision", "at": today,
+                           "tier": tier, "via": e.get("via", "")},
             })
             have.add(e["url"])
             city_used.add(e["url"])
             added += 1
         if imgs:
-            # ★ `added` 只到 6 张上限为止：超出的进了 imgs 却没落盘，
-            #   不然汇总会把"截掉的"也当成新增（呼伦贝尔国门 7 张写 6 张，
-            #   汇总印"新增 8 张"而实际落了 7 张）。
-            added -= max(0, len(imgs) - 6)
-            poi["images"] = imgs[:6]
+            # ★★ 2026-11-08：删除 `added -= max(0, len(imgs)-6)` 与 `imgs[:6]`。
+            #   判 ok 的图**全部落盘**；`schema.py` / `schema.ts` 的 8 张硬上限
+            #   同步去掉，否则 build 校验会拿旧契约把合法数据判成 ERROR。
+            poi["images"] = imgs
             poi["coverIndex"] = 0
             poi.pop("_noImage", None)
             poi["updatedAt"] = today
@@ -613,15 +728,19 @@ def apply(city: str, *, dry: bool = False) -> int:
             if not dry:
                 path.write_text(json.dumps(poi, ensure_ascii=False, indent=2) + "\n",
                                 encoding="utf-8")
-            # ★ 打印**实际写进去的张数**（不是判 ok 的张数），并把没进去的原因分开说。
+            # ★ 打印**实际写进去的张数**（与 `added` 现在严格一致）。
             note = []
             if skipped_used:
                 note.append(f"占用跳过 {skipped_used}")
-            cut = len(rows) - skipped_used - (len(poi["images"]) - before)
-            if cut > 0:
-                note.append(f"超 6 张上限截掉 {cut}")
-            print(f"  + {poi.get('name', '')[:14]:16s} 收 {len(poi['images']) - before} 张"
-                  + (f"（判 ok {len(rows)}，{'，'.join(note)}）" if note else ""))
+            if replace:
+                print(f"  ↻ {poi.get('name', '')[:14]:16s} 重抓替换：{before} → {len(imgs)} 张"
+                      + (f"（{'，'.join(note)}）" if note else ""))
+            else:
+                print(f"  + {poi.get('name', '')[:14]:16s} 收 {len(imgs) - before} 张"
+                      + (f"（判 ok {len(rows)}，{'，'.join(note)}）" if note else ""))
+        elif replace:
+            # 判 ok 为 0：**不动旧图**。宁可留着待重抓，也不能把点位清空。
+            print(f"  = {poi.get('name', '')[:14]:16s} 重抓无 ok 图，旧 {before} 张保持不动")
 
     # 判定全部进缓存（ok 也记：同一 URL 下次不必重看）
     lines = [json.dumps({"url": e["url"], "verdict": verdicts[e["idx"]]}, ensure_ascii=False)
@@ -638,13 +757,22 @@ def main() -> int:
     ap = argparse.ArgumentParser(description="无图点位重新抓图（候选留档 → 逐张看图 → 写回）")
     sub = ap.add_subparsers(dest="cmd", required=True)
     g = sub.add_parser("grab"); g.add_argument("city"); g.add_argument("--limit", type=int, default=0)
+    # ★ 巡检重抓通道：--poi 指定点位（**已有图也抓**），配合 --replace 让 apply 用新图替换旧图。
+    #   不带 --poi 时行为不变（只补无图点位），每晚补图与 refill 链路完全不受影响。
+    g.add_argument("--poi", default="", help="只抓这些点位 id，逗号分隔（已有图也会重抓）")
+    g.add_argument("--replace", action="store_true", help="配合 --poi：用判 ok 的新图替换旧图")
     s = sub.add_parser("sheet"); s.add_argument("city"); s.add_argument("--refresh", action="store_true")
     s.add_argument("--dense", action="store_true", help="第一轮粗筛：8×6=48 格/页 小图")
     s.add_argument("--only", default="", help="第二轮精看：只列这些序号，逗号分隔（3,7,12）")
     a = sub.add_parser("apply"); a.add_argument("city"); a.add_argument("--dry", action="store_true")
     args = ap.parse_args()
     if args.cmd == "grab":
-        return 0 if grab(args.city, limit=args.limit) >= 0 else 1
+        only = {x.strip() for x in args.poi.replace("，", ",").split(",") if x.strip()} or None
+        if args.replace and not only:
+            print("★ --replace 必须配 --poi（不指定点位就替换 = 清全城图）")
+            return 1
+        return 0 if grab(args.city, limit=args.limit, only=only,
+                         replace=args.replace) >= 0 else 1
     if args.cmd == "sheet":
         only = [int(x) for x in args.only.replace("，", ",").split(",") if x.strip().isdigit()]
         return 0 if sheet(args.city, refresh=args.refresh, dense=args.dense,

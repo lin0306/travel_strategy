@@ -1,67 +1,175 @@
 {
-  "id": "niangpi",
-  "name": "酿皮",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "筋道的凉皮拌芝麻酱辣油，兰州街头最常见的小吃。",
-  "description": "酿皮是兰州街头最常见的凉食。皮子用面粉洗出面筋蒸成，筋道不烂。切条后拌芝麻酱、辣油、醋、蒜水，夏天吃最爽。分高担酿皮和水洗酿皮两种口感。夜市、小区门口都有卖。一碗几元到十几元，以摊主为准。想吃地道去正宁路或老店。",
-  "highlights": [
-    "面粉洗筋蒸出的筋道凉皮",
-    "芝麻酱辣油蒜水凉拌",
-    "高担与水洗两种口感"
-  ],
-  "location": {
-    "point": {
-      "lng": 103.817118,
-      "lat": 36.05336,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "甘肃省兰州市城关区正宁路小吃街酿皮摊",
-    "district": "城关区",
-    "transportTip": "城关区夜市或小吃街即买即吃"
+ "id": "niangpi",
+ "name": "酿皮",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "筋道的凉皮拌芝麻酱辣油，兰州街头最常见的小吃。",
+ "description": "酿皮是兰州街头最常见的凉食。皮子用面粉洗出面筋蒸成，筋道不烂。切条后拌芝麻酱、辣油、醋、蒜水，夏天吃最爽。分高担酿皮和水洗酿皮两种口感。夜市、小区门口都有卖。一碗几元到十几元，以摊主为准。想吃地道去正宁路或老店。",
+ "highlights": [
+  "面粉洗筋蒸出的筋道凉皮",
+  "芝麻酱辣油蒜水凉拌",
+  "高担与水洗两种口感"
+ ],
+ "location": {
+  "point": {
+   "lng": 103.817118,
+   "lat": 36.05336,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "以摊主出摊为准",
-    "openHoursRef": 0,
-    "ticket": "约 6 元起，以摊主为准",
-    "ticketRef": 0,
-    "duration": "建议 15-30 分钟",
-    "durationMinutes": [
-      15,
-      30
-    ],
-    "priceLevel": "budget"
+  "address": "甘肃省兰州市城关区正宁路小吃街酿皮摊",
+  "district": "城关区",
+  "transportTip": "城关区夜市或小吃街即买即吃"
+ },
+ "practical": {
+  "openHours": "以摊主出摊为准",
+  "openHoursRef": 0,
+  "ticket": "约 6 元起，以摊主为准",
+  "ticketRef": 0,
+  "duration": "建议 15-30 分钟",
+  "durationMinutes": [
+   15,
+   30
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "friends",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/A_glass_of_white_wine.jpg/1280px-A_glass_of_white_wine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/A_glass_of_white_wine.jpg/1280px-A_glass_of_white_wine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1736,
+   "alt": "A glass of white wine.jpg",
+   "query": "酿皮",
+   "credit": {
+    "source": "wikimedia",
+    "author": "BogTar201213",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_glass_of_white_wine.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "friends",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "酿皮",
-    "凉皮",
-    "小吃"
-  ],
-  "popularity": 78,
-  "sources": [
-    {
-      "title": "酿皮·百度百科",
-      "url": "https://baike.baidu.com/item/%E9%85%BF%E7%9A%AE",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-02"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Niangpi Lanzhou",
-    "zh": "酿皮"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Aged_white_wine_with_brown_color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Aged_white_wine_with_brown_color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Aged white wine with brown color.jpg",
+   "query": "酿皮",
+   "credit": {
+    "source": "wikimedia",
+    "author": "inspector_81",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aged_white_wine_with_brown_color.jpg",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "小龚酿皮(柏道路店)",
-  "_geocodeSuspect": false,
-  "district": "620102",
-  "_noImage": true
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Cinque_Terre_white_wine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Cinque_Terre_white_wine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Cinque Terre white wine.jpg",
+   "query": "酿皮",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nicholas Solga",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cinque_Terre_white_wine.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Glass_of_White_Wine_shot_with_a_bottle_of_white_wine_-_Evan_Swigart.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Glass_of_White_Wine_shot_with_a_bottle_of_white_wine_-_Evan_Swigart.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 1624,
+   "alt": "Glass of White Wine shot with a bottle of white wine - Evan Swigart.jpg",
+   "query": "酿皮",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Evan Swigart from Chicago, USA",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glass_of_White_Wine_shot_with_a_bottle_of_white_wine_-_Evan_Swigart.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Pico_Island_White_Wine_Selection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Pico_Island_White_Wine_Selection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 783,
+   "alt": "Pico Island White Wine Selection.jpg",
+   "query": "酿皮",
+   "credit": {
+    "source": "wikimedia",
+    "author": "BBCLCD",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pico_Island_White_Wine_Selection.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "酿皮",
+  "凉皮",
+  "小吃"
+ ],
+ "popularity": 78,
+ "sources": [
+  {
+   "title": "酿皮·百度百科",
+   "url": "https://baike.baidu.com/item/%E9%85%BF%E7%9A%AE",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-02"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Niangpi Lanzhou",
+  "zh": "酿皮"
+ },
+ "_geocodeTitle": "小龚酿皮(柏道路店)",
+ "_geocodeSuspect": false,
+ "district": "620102",
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.3,
+    "note": "筋道不烂，麻酱辣油蒜水"
+   },
+   {
+    "label": "价格",
+    "score": 4.6,
+    "note": "几元到十几元，最平民的小吃"
+   },
+   {
+    "label": "环境",
+    "score": 2.8,
+    "note": "多为档口，站着吃或打包"
+   }
+  ],
+  "body": "兰州街头最日常的一样凉食，面浆蒸出的皮子筋道不烂，切条拌上芝麻酱、辣油、醋和蒜水，夏天一口下去很解暑，高担和水洗两种口感都值得各试一次。缺点是环境，多数摊子只有档口没有座位，端着吃或者打包；麻酱放多了会糊嘴，不爱蒜味的记得提前说，另外各家调味差异大，第一次踩雷也正常。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "小吃",
+   "夏天",
+   "预算有限"
+  ],
+  "avoid": [
+   "想要堂食环境"
+  ],
+  "sources": []
+ }
 }

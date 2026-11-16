@@ -103,9 +103,20 @@ def fetch(url: str, dest: Path) -> bool:
 
     ★ 镜像全部失败后**必须再试直连**（`direct_thumb`）：镜像对部分历史档案照是
     稳定失败而不是抖动，只重试镜像等于永远看不到那几张。
+
+    ★★ 缓存键是**文件名 + 同名 `.src` 里的 URL**，不是只有文件名。
+      文件名是 `cand-{idx}.jpg` 这种**位置名**，换一批候选后同编号会命中上一批的
+      旧图 —— 2026-11-09 黄山实测：对照表 #48 贴出来的是黄山迎客松，而新清单 #48 是
+      「西递村落.jpg」，看图判定等于在判另一张照片，且**零报错**。
+      旧缓存没有 `.src` ⇒ 一律重下一次（一次性代价），之后才按 URL 命中。
     """
+    src = dest.with_name(dest.name + ".src")
     if dest.exists() and dest.stat().st_size > 1024:
-        return True
+        try:
+            if src.read_text(encoding="utf-8").strip() == url:
+                return True
+        except OSError:
+            pass                                   # 无 .src / 读不到 ⇒ 当作过期，重下
     last = ""
     dt = direct_thumb(url)
     #: ★ 直连缩略图也有 400 的（腾冲实测：`Gaoligongshan IMGP5778.jpeg` 三种宽度全 400，
@@ -120,6 +131,10 @@ def fetch(url: str, dest: Path) -> bool:
             data = urllib.request.urlopen(req, timeout=25).read()
             if len(data) >= 1024:
                 dest.write_bytes(data)
+                try:                               # 记下这张格子到底是哪条 URL（见上文）
+                    src.write_text(url, encoding="utf-8")
+                except OSError:
+                    pass
                 return True
             last = f"too small({len(data)}B)"
         except Exception as e:                  # 取不到就当"没图"，整批不中断

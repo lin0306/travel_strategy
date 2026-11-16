@@ -40,7 +40,71 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/%E8%B5%A4%E5%B3%B0%E9%81%9337-47%E5%8F%B7.jpg/1280px-%E8%B5%A4%E5%B3%B0%E9%81%9337-47%E5%8F%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/%E8%B5%A4%E5%B3%B0%E9%81%9337-47%E5%8F%B7.jpg/1280px-%E8%B5%A4%E5%B3%B0%E9%81%9337-47%E5%8F%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "恩发德蒸饺(和平路店)所在的街区实景（非本店门面）",
+      "query": "恩发德蒸饺(和平路店)",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Xrdtj",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "street"
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/145_Bin_Jiang_Dao%2C_TianJin_BinJiang_Dao%2C_Heping_Qu%2C_Tianjin_Shi%2C_China%2C_300022_-_panoramio.jpg/1280px-145_Bin_Jiang_Dao%2C_TianJin_BinJiang_Dao%2C_Heping_Qu%2C_Tianjin_Shi%2C_China%2C_300022_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/145_Bin_Jiang_Dao%2C_TianJin_BinJiang_Dao%2C_Heping_Qu%2C_Tianjin_Shi%2C_China%2C_300022_-_panoramio.jpg/1280px-145_Bin_Jiang_Dao%2C_TianJin_BinJiang_Dao%2C_Heping_Qu%2C_Tianjin_Shi%2C_China%2C_300022_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "恩发德蒸饺(和平路店)所在的街区实景（非本店门面）",
+      "query": "恩发德蒸饺(和平路店)",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Steffan Chen",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "street"
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/%E6%89%BF%E5%BE%B7%E9%81%93%E6%B5%B7%E5%85%B3%E8%83%A1%E5%90%8C1-9%E5%8F%B7.jpg/1280px-%E6%89%BF%E5%BE%B7%E9%81%93%E6%B5%B7%E5%85%B3%E8%83%A1%E5%90%8C1-9%E5%8F%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/%E6%89%BF%E5%BE%B7%E9%81%93%E6%B5%B7%E5%85%B3%E8%83%A1%E5%90%8C1-9%E5%8F%B7.jpg/1280px-%E6%89%BF%E5%BE%B7%E9%81%93%E6%B5%B7%E5%85%B3%E8%83%A1%E5%90%8C1-9%E5%8F%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "恩发德蒸饺(和平路店)所在的街区实景（非本店门面）",
+      "query": "恩发德蒸饺(和平路店)",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Xrdtj",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "street"
+      }
+    }
+  ],
   "coverIndex": 0,
   "tags": [
     "清真",
@@ -56,13 +120,12 @@
       "fetchedAt": "2026-09-27"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-05",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
     "zh": "恩发德蒸饺(和平路店)"
   },
   "_geocodeTitle": "天津劝业场",
-  "district": "120101",
-  "_noImage": true
+  "district": "120101"
 }

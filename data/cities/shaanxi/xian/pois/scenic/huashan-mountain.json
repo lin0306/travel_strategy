@@ -1,98 +1,136 @@
 {
-  "id": "huashan-mountain",
-  "name": "华山",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "五岳之险，“奇险天下第一山”，长空栈道与鹞子翻身都挂在南峰绝壁上。",
-  "description": "华山在渭南华阴市，距西安约 120 公里，高铁 40 分钟可达，是五岳里以“险”著称的一座。五峰各有性格：东峰看日出，西峰是沉香劈山救母传说的发生地，南峰海拔 2154 米为五岳最高，长空栈道、鹞子翻身两段绝壁体验就挂在其间，需另租安全带量力而行。体力一般者推荐西峰索道上、北峰索道下的经典走法；徒步走“自古华山一条路”需五到七小时，看日出则要夜爬或住东峰。门票与索道、进山车分开计价，一整天的预算要按 300 元上下准备。",
-  "highlights": [
-    "“奇险天下第一山”，五岳最高峰在此",
-    "长空栈道、鹞子翻身两段绝壁体验",
-    "高铁西安北至华山北约 40 分钟"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.225043,
-      "lat": 33.811896,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "陕西省渭南市华阴市华山镇集灵路",
-    "district": "周至县",
-    "transportTip": "西安北站乘高铁至华山北站约 40 分钟，转免费摆渡车至游客中心"
+ "id": "huashan-mountain",
+ "name": "华山",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "五岳之险，“奇险天下第一山”，长空栈道与鹞子翻身都挂在南峰绝壁上。",
+ "description": "华山在渭南华阴市，距西安约 120 公里，高铁 40 分钟可达，是五岳里以“险”著称的一座。五峰各有性格：东峰看日出，西峰是沉香劈山救母传说的发生地，南峰海拔 2154 米为五岳最高，长空栈道、鹞子翻身两段绝壁体验就挂在其间，需另租安全带量力而行。体力一般者推荐西峰索道上、北峰索道下的经典走法；徒步走“自古华山一条路”需五到七小时，看日出则要夜爬或住东峰。门票与索道、进山车分开计价，一整天的预算要按 300 元上下准备。",
+ "highlights": [
+  "“奇险天下第一山”，五岳最高峰在此",
+  "长空栈道、鹞子翻身两段绝壁体验",
+  "高铁西安北至华山北约 40 分钟"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.225043,
+   "lat": 33.811896,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "游客中心（乘索进山）约 07:00-16:00；华山门徒步登山 24 小时（以官方为准）",
-    "openHoursRef": 0,
-    "ticket": "旺季（3-11 月底）160 元 / 淡季 100 元；西峰索道单程约 140 元、进山车 40 元另计（以官方为准）",
-    "ticketRef": 0,
-    "duration": "建议 360-720 分钟",
-    "durationMinutes": [
-      360,
-      720
-    ],
-    "priceLevel": "mid"
+  "address": "陕西省渭南市华阴市华山镇集灵路",
+  "district": "周至县",
+  "transportTip": "西安北站乘高铁至华山北站约 40 分钟，转免费摆渡车至游客中心"
+ },
+ "practical": {
+  "openHours": "游客中心（乘索进山）约 07:00-16:00；华山门徒步登山 24 小时（以官方为准）",
+  "openHoursRef": 0,
+  "ticket": "旺季（3-11 月底）160 元 / 淡季 100 元；西峰索道单程约 140 元、进山车 40 元另计（以官方为准）",
+  "ticketRef": 0,
+  "duration": "建议 360-720 分钟",
+  "durationMinutes": [
+   360,
+   720
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "friends",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/1_mount_hua_shan_china_2011.jpg/1280px-1_mount_hua_shan_china_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/1_mount_hua_shan_china_2011.jpg/1280px-1_mount_hua_shan_china_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 511,
+   "alt": "1 mount hua shan china 2011.jpg",
+   "query": "华山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "chensiyuan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1_mount_hua_shan_china_2011.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "friends",
-    "couple"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/1_mount_hua_shan_steps_2011.JPG/1280px-1_mount_hua_shan_steps_2011.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/1_mount_hua_shan_steps_2011.JPG/1280px-1_mount_hua_shan_steps_2011.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1623,
+   "alt": "1 mount hua shan steps 2011.JPG",
+   "query": "华山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "chensiyuan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1_mount_hua_shan_steps_2011.JPG",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "五岳",
+  "日出",
+  "索道",
+  "5A"
+ ],
+ "popularity": 95,
+ "sources": [
+  {
+   "title": "华山景区 2026 旺季运营公告",
+   "url": "https://m.ly.com/scenery_2/#/pages/list/list?cityId=316&keyword=华山",
+   "kind": "official",
+   "fetchedAt": "2026-09-23"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "华山"
+ },
+ "_geocodeTitle": "华山",
+ "_geocodeSuspect": false,
+ "district": "610124",
+ "review": {
+  "score": 4.7,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "险峻",
+    "score": 4.9,
+    "note": "长空栈道与鹞子翻身挂在南峰绝壁"
+   },
+   {
+    "label": "体力",
+    "score": 2.6,
+    "note": "徒步自古华山一条路要五到七小时"
+   },
+   {
+    "label": "花费",
+    "score": 3.0,
+    "note": "门票、索道、进山车分开计价"
+   },
+   {
+    "label": "日出",
+    "score": 4.6,
+    "note": "东峰看日出，需夜爬或住山上"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/1_mount_hua_shan_china_2011.jpg/1280px-1_mount_hua_shan_china_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/1_mount_hua_shan_china_2011.jpg/1280px-1_mount_hua_shan_china_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 511,
-      "alt": "1 mount hua shan china 2011.jpg",
-      "query": "华山",
-      "credit": {
-        "source": "wikimedia",
-        "author": "chensiyuan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:1_mount_hua_shan_china_2011.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/1_mount_hua_shan_steps_2011.JPG/1280px-1_mount_hua_shan_steps_2011.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/1_mount_hua_shan_steps_2011.JPG/1280px-1_mount_hua_shan_steps_2011.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1623,
-      "alt": "1 mount hua shan steps 2011.JPG",
-      "query": "华山",
-      "credit": {
-        "source": "wikimedia",
-        "author": "chensiyuan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:1_mount_hua_shan_steps_2011.JPG",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
+  "body": "五岳里以险著称的一座，五峰各有性格：东峰看日出，西峰是劈山救母的传说地，南峰为五岳最高，长空栈道与鹞子翻身就挂在绝壁上。体力一般的走西峰索道上、北峰索道下最省力。缺点是门票、索道、进山车分开计价，一天预算要按三百元上下准备；徒步上山五到七小时，体力与膝盖都是硬考验，索道排队也很久。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "登山爱好者",
+   "看日出"
   ],
-  "coverIndex": 0,
-  "tags": [
-    "五岳",
-    "日出",
-    "索道",
-    "5A"
+  "avoid": [
+   "膝盖不好",
+   "只留半天"
   ],
-  "popularity": 95,
-  "sources": [
-    {
-      "title": "华山景区 2026 旺季运营公告",
-      "url": "https://m.ly.com/scenery_2/#/pages/list/list?cityId=316&keyword=华山",
-      "kind": "official",
-      "fetchedAt": "2026-09-23"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "华山"
-  },
-  "_geocodeTitle": "华山",
-  "_geocodeSuspect": false,
-  "district": "610124"
+  "sources": []
+ }
 }

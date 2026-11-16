@@ -3,7 +3,7 @@
   "name": "中亭街",
   "category": "hotspot",
   "subtype": "photo",
-  "summary": "台江的一条商业长街，连着上下杭和闽江。",
+  "summary": "台江的百年商业长街，连着上下杭与闽江；地下 HOWLIKE 创意街区已成潮牌市集与艺术装置聚集地。",
   "description": "中亭街在台江，是一条沿街的商业长街，服装、小商品和餐饮都集中，是老福州人逛街的记忆点之一。它北接达道、南连上下杭，是台江商业动线的一段。建筑是狭长的现代骑楼样式，体量不小。比起三坊七巷的精致，这里更市井、更便宜。适合顺路走，不值得专程。",
   "highlights": [
     "台江沿街商业长街，连着上下杭",
@@ -53,9 +53,15 @@
       "url": "https://baike.baidu.com/item/%E4%B8%AD%E4%BA%AD%E8%A1%97",
       "kind": "wiki",
       "fetchedAt": "2026-10-04"
+    },
+    {
+      "title": "福州新闻网·中亭街HOWLIKE（2026-09-27）",
+      "url": "https://m.fznews.com.cn/fzyw/20260927/6ab87e5bc6792.shtml",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -64,5 +70,17 @@
   "_geocodeTitle": "中亭街",
   "_geocodeSuspect": false,
   "district": "350103",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "一句话简介",
+        "old": "台江的一条商业长街，连着上下杭和闽江。",
+        "new": "台江的百年商业长街，连着上下杭与闽江；地下 HOWLIKE 创意街区已成潮牌市集与艺术装置聚集地。"
+      }
+    ],
+    "source": "https://m.fznews.com.cn/fzyw/20260927/6ab87e5bc6792.shtml",
+    "reason": "福州新闻网2026-09-27：地下HOWLIKE创意街区近两万平潮牌市集"
+  }
 }

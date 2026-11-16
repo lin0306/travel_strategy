@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "广西壮族自治区桂林市七星区穿山路",
-    "district": "象山区",
+    "district": "七星区",
     "transportTip": "市区乘公交至穿山站；从七星景区步行约二十分钟"
   },
   "practical": {
@@ -101,7 +101,7 @@
       "fetchedAt": "2026-09-30"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-12",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -109,5 +109,42 @@
   },
   "_geocodeTitle": "穿山公园",
   "_geocodeSuspect": false,
-  "district": "450304"
+  "district": "450305",
+  "review": {
+    "score": 3.9,
+    "verdict": "顺路看看",
+    "facets": [
+      {
+        "label": "视野",
+        "score": 4.2,
+        "note": "站在对岸看穿洞形状最清楚"
+      },
+      {
+        "label": "门票",
+        "score": 4.8,
+        "note": "免费"
+      },
+      {
+        "label": "内容",
+        "score": 2.9,
+        "note": "可看的东西不多"
+      },
+      {
+        "label": "设施",
+        "score": 3.2,
+        "note": "步道与栏杆有些旧"
+      }
+    ],
+    "body": "漓江东岸的免费公园，山体被水打出穿透的孔，站在对岸远看形状才出来，和旁边的塔山一起构成这一带的水口。缺点是园内可看的内容不多，一小时就走完；步道与栏杆有些旧，夏天沿江蚊子多，傍晚来会舒服些。",
+    "basis": "corpus",
+    "at": "2026-11-12",
+    "fits": [
+      "散步",
+      "傍晚"
+    ],
+    "avoid": [
+      "专程打卡"
+    ],
+    "sources": []
+  }
 }

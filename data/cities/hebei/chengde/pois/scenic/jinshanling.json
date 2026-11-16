@@ -1,157 +1,195 @@
 {
-  "id": "jinshanling",
-  "name": "金山岭长城",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "滦平县一段保存极好的明长城，敌楼密集，是长城里最上镜的一段。",
-  "description": "金山岭长城在滦平县，是明长城保存得最好的一段之一。它的特点是敌楼密 —— 一座接一座，样式还各不一样。墙修在山脊上，起起伏伏，是长城里最上镜的一段，摄影的人都来。它离北京近，很多人从北京当天来回。走完全程要大半天。春天和秋天最好，夏天晒。",
-  "highlights": [
-    "明长城保存最好段之一，敌楼密集",
-    "墙随山脊起伏，长城里最上镜",
-    "离北京近可当天来回，春秋最佳"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.254676,
-      "lat": 40.683892,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市滦平县金山岭长城",
-    "district": "滦平县",
-    "transportTip": "承德或北京方向转车到滦平金山岭"
+ "id": "jinshanling",
+ "name": "金山岭长城",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "滦平县一段保存极好的明长城，敌楼密集，是长城里最上镜的一段。",
+ "description": "金山岭长城在滦平县，是明长城保存得最好的一段之一。它的特点是敌楼密 —— 一座接一座，样式还各不一样。墙修在山脊上，起起伏伏，是长城里最上镜的一段，摄影的人都来。它离北京近，很多人从北京当天来回。走完全程要大半天。春天和秋天最好，夏天晒。",
+ "highlights": [
+  "明长城保存最好段之一，敌楼密集",
+  "墙随山脊起伏，长城里最上镜",
+  "离北京近可当天来回，春秋最佳"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.254676,
+   "lat": 40.683892,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约07:30-17:30，以景区公告为准",
-    "openHoursRef": 0,
-    "ticket": "约65元",
-    "ticketRef": 0,
-    "duration": "建议 200-360 分钟",
-    "durationMinutes": [
-      200,
-      360
-    ],
-    "priceLevel": "budget"
+  "address": "河北省承德市滦平县金山岭长城",
+  "district": "滦平县",
+  "transportTip": "承德或北京方向转车到滦平金山岭"
+ },
+ "practical": {
+  "openHours": "约07:30-17:30，以景区公告为准",
+  "openHoursRef": 0,
+  "ticket": "约65元",
+  "ticketRef": 0,
+  "duration": "建议 200-360 分钟",
+  "durationMinutes": [
+   200,
+   360
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/20090529_Great_Wall_8185.jpg/1280px-20090529_Great_Wall_8185.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/20090529_Great_Wall_8185.jpg/1280px-20090529_Great_Wall_8185.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 718,
+   "alt": "20090529 Great Wall 8185.jpg",
+   "query": "金山岭长城",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Jakub Hałun",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20090529_Great_Wall_8185.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "friends"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/20090529_Great_Wall_8185.jpg/1280px-20090529_Great_Wall_8185.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/20090529_Great_Wall_8185.jpg/1280px-20090529_Great_Wall_8185.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 718,
-      "alt": "20090529 Great Wall 8185.jpg",
-      "query": "金山岭长城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Jakub Hałun",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20090529_Great_Wall_8185.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/%E8%BF%9C%E7%9C%BA%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/%E8%BF%9C%E7%9C%BA%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 813,
-      "alt": "远眺金山岭长城 - panoramio.jpg",
-      "query": "金山岭长城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "西風",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%BF%9C%E7%9C%BA%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_-_panoramio.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E.JPG/1280px-%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E.JPG/1280px-%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1620,
-      "alt": "金山岭长城.JPG",
-      "query": "金山岭长城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Shajia1110",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E.JPG",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_%2820263859341%29.jpg/1280px-%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_%2820263859341%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_%2820263859341%29.jpg/1280px-%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_%2820263859341%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "金山岭长城 (20263859341).jpg",
-      "query": "金山岭长城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nikolaj Potanin from Russia",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_(20263859341).jpg",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_%288094089598%29.jpg/1280px-%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_%288094089598%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_%288094089598%29.jpg/1280px-%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_%288094089598%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "金山岭长城 (8094089598).jpg",
-      "query": "金山岭长城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nikolaj Potanin from Russia",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_(8094089598).jpg",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_-_Jinshanling_Great_Wall_%287837703954%29.jpg/1280px-%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_-_Jinshanling_Great_Wall_%287837703954%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_-_Jinshanling_Great_Wall_%287837703954%29.jpg/1280px-%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_-_Jinshanling_Great_Wall_%287837703954%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1620,
-      "alt": "金山岭长城 - Jinshanling Great Wall (7837703954).jpg",
-      "query": "金山岭长城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nikolaj Potanin from Russia",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_-_Jinshanling_Great_Wall_(7837703954).jpg",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "长城",
-    "明长城",
-    "敌楼"
-  ],
-  "popularity": 94,
-  "sources": [
-    {
-      "title": "百度百科·金山岭长城",
-      "url": "https://baike.baidu.com/item/%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "金山岭长城"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/%E8%BF%9C%E7%9C%BA%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/%E8%BF%9C%E7%9C%BA%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 813,
+   "alt": "远眺金山岭长城 - panoramio.jpg",
+   "query": "金山岭长城",
+   "credit": {
+    "source": "wikimedia",
+    "author": "西風",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%BF%9C%E7%9C%BA%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_-_panoramio.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "金山岭长城",
-  "_geocodeSuspect": false,
-  "district": "130824"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E.JPG/1280px-%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E.JPG/1280px-%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1620,
+   "alt": "金山岭长城.JPG",
+   "query": "金山岭长城",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Shajia1110",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E.JPG",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_%2820263859341%29.jpg/1280px-%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_%2820263859341%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_%2820263859341%29.jpg/1280px-%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_%2820263859341%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "金山岭长城 (20263859341).jpg",
+   "query": "金山岭长城",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nikolaj Potanin from Russia",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_(20263859341).jpg",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_%288094089598%29.jpg/1280px-%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_%288094089598%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_%288094089598%29.jpg/1280px-%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_%288094089598%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "金山岭长城 (8094089598).jpg",
+   "query": "金山岭长城",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nikolaj Potanin from Russia",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_(8094089598).jpg",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_-_Jinshanling_Great_Wall_%287837703954%29.jpg/1280px-%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_-_Jinshanling_Great_Wall_%287837703954%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_-_Jinshanling_Great_Wall_%287837703954%29.jpg/1280px-%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_-_Jinshanling_Great_Wall_%287837703954%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1620,
+   "alt": "金山岭长城 - Jinshanling Great Wall (7837703954).jpg",
+   "query": "金山岭长城",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nikolaj Potanin from Russia",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E_-_Jinshanling_Great_Wall_(7837703954).jpg",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "长城",
+  "明长城",
+  "敌楼"
+ ],
+ "popularity": 94,
+ "sources": [
+  {
+   "title": "百度百科·金山岭长城",
+   "url": "https://baike.baidu.com/item/%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "金山岭长城"
+ },
+ "_geocodeTitle": "金山岭长城",
+ "_geocodeSuspect": false,
+ "district": "130824",
+ "review": {
+  "score": 4.5,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "景观",
+    "score": 4.8,
+    "note": "敌楼密集且样式各异，墙随山脊起伏"
+   },
+   {
+    "label": "人流",
+    "score": 4.2,
+    "note": "比八达岭清静得多"
+   },
+   {
+    "label": "体力",
+    "score": 2.5,
+    "note": "上下起伏大，全程要走大半天"
+   },
+   {
+    "label": "交通",
+    "score": 2.8,
+    "note": "公共交通不便，多数人自驾或包车"
+   }
+  ],
+  "body": "长城里最上镜的一段，敌楼一座接一座、样式还各不相同，墙顺山脊起伏，走两步回一次头。人比八达岭少得多，这点很难得。缺点是体力门槛高：全程上下起伏，走完要大半天，中途没有捷径；交通也偏，公共交通班次少，不自驾就得包车，来回把时间吃掉不少。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "徒步",
+   "摄影"
+  ],
+  "avoid": [
+   "腿脚不便",
+   "没有车"
+  ],
+  "sources": []
+ }
 }

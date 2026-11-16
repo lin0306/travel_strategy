@@ -1,113 +1,152 @@
 {
-  "id": "shuanglang",
-  "name": "双廊",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "洱海东北角的一座临海小镇，面海背山，是看海住下来的地方。",
-  "description": "双廊在洱海东北角，一座临海的白族小镇。它伸进海里，三面环水，对面是苍山。镇上有玉几岛和南诏风情岛，很多人来这里住海景房、看洱海日落。巷子窄，靠海一面全是客栈和咖啡馆。从大理古城过来约一个半小时。",
-  "highlights": [
-    "洱海东北角临海小镇，三面环水",
-    "玉几岛与南诏风情岛在镇上",
-    "海景房与咖啡馆看洱海日落"
-  ],
-  "location": {
-    "point": {
-      "lng": 100.193762,
-      "lat": 25.909495,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "云南省大理白族自治州大理市双廊镇",
-    "district": "大理市",
-    "transportTip": "从古城沿环海东路自驾或乘车约一个半小时"
+ "id": "shuanglang",
+ "name": "双廊",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "洱海东北角的一座临海小镇，面海背山，是看海住下来的地方。",
+ "description": "双廊在洱海东北角，一座临海的白族小镇。它伸进海里，三面环水，对面是苍山。镇上有玉几岛和南诏风情岛，很多人来这里住海景房、看洱海日落。巷子窄，靠海一面全是客栈和咖啡馆。从大理古城过来约一个半小时。",
+ "highlights": [
+  "洱海东北角临海小镇，三面环水",
+  "玉几岛与南诏风情岛在镇上",
+  "海景房与咖啡馆看洱海日落"
+ ],
+ "location": {
+  "point": {
+   "lng": 100.193762,
+   "lat": 25.909495,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放",
-    "openHoursRef": 0,
-    "ticket": "免费（岛上小景点收费）",
-    "ticketRef": 0,
-    "duration": "建议 120-240 分钟",
-    "durationMinutes": [
-      120,
-      240
-    ],
-    "priceLevel": "free"
+  "address": "云南省大理白族自治州大理市双廊镇",
+  "district": "大理市",
+  "transportTip": "从古城沿环海东路自驾或乘车约一个半小时"
+ },
+ "practical": {
+  "openHours": "全天开放",
+  "openHoursRef": 0,
+  "ticket": "免费（岛上小景点收费）",
+  "ticketRef": 0,
+  "duration": "建议 120-240 分钟",
+  "durationMinutes": [
+   120,
+   240
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/%E5%8F%8C%E5%BB%8A%E5%8F%A4%E9%95%87_Shuanglang_Town_-_panoramio.jpg/1280px-%E5%8F%8C%E5%BB%8A%E5%8F%A4%E9%95%87_Shuanglang_Town_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/%E5%8F%8C%E5%BB%8A%E5%8F%A4%E9%95%87_Shuanglang_Town_-_panoramio.jpg/1280px-%E5%8F%8C%E5%BB%8A%E5%8F%A4%E9%95%87_Shuanglang_Town_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 675,
+   "alt": "双廊古镇 Shuanglang Town - panoramio.jpg",
+   "query": "双廊",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Ma Martin",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8F%8C%E5%BB%8A%E5%8F%A4%E9%95%87_Shuanglang_Town_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "friends",
-    "family"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/%E5%8F%8C%E5%BB%8A%E5%8F%A4%E9%95%87_Shuanglang_Town_-_panoramio.jpg/1280px-%E5%8F%8C%E5%BB%8A%E5%8F%A4%E9%95%87_Shuanglang_Town_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/%E5%8F%8C%E5%BB%8A%E5%8F%A4%E9%95%87_Shuanglang_Town_-_panoramio.jpg/1280px-%E5%8F%8C%E5%BB%8A%E5%8F%A4%E9%95%87_Shuanglang_Town_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 675,
-      "alt": "双廊古镇 Shuanglang Town - panoramio.jpg",
-      "query": "双廊",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Ma Martin",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8F%8C%E5%BB%8A%E5%8F%A4%E9%95%87_Shuanglang_Town_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/%E5%8F%8C%E5%BB%8A%E9%95%87%E6%97%81%E6%97%A0%E4%BA%BA%E7%9A%84%E8%BD%BB%E8%88%9F.jpg/1280px-%E5%8F%8C%E5%BB%8A%E9%95%87%E6%97%81%E6%97%A0%E4%BA%BA%E7%9A%84%E8%BD%BB%E8%88%9F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/%E5%8F%8C%E5%BB%8A%E9%95%87%E6%97%81%E6%97%A0%E4%BA%BA%E7%9A%84%E8%BD%BB%E8%88%9F.jpg/1280px-%E5%8F%8C%E5%BB%8A%E9%95%87%E6%97%81%E6%97%A0%E4%BA%BA%E7%9A%84%E8%BD%BB%E8%88%9F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "双廊镇旁无人的轻舟.jpg",
-      "query": "双廊",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Liuxingy",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8F%8C%E5%BB%8A%E9%95%87%E6%97%81%E6%97%A0%E4%BA%BA%E7%9A%84%E8%BD%BB%E8%88%9F.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/%E5%8F%8C%E5%BB%8A%E9%95%87%E7%8E%89%E6%B3%A2%E9%98%81.jpg/1280px-%E5%8F%8C%E5%BB%8A%E9%95%87%E7%8E%89%E6%B3%A2%E9%98%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/%E5%8F%8C%E5%BB%8A%E9%95%87%E7%8E%89%E6%B3%A2%E9%98%81.jpg/1280px-%E5%8F%8C%E5%BB%8A%E9%95%87%E7%8E%89%E6%B3%A2%E9%98%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1620,
-      "alt": "双廊镇玉波阁.jpg",
-      "query": "双廊",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Liuxingy",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8F%8C%E5%BB%8A%E9%95%87%E7%8E%89%E6%B3%A2%E9%98%81.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "小镇",
-    "海景",
-    "免费"
-  ],
-  "popularity": 82,
-  "sources": [
-    {
-      "title": "百度百科·双廊",
-      "url": "https://baike.baidu.com/item/%E5%8F%8C%E5%BB%8A",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "双廊"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/%E5%8F%8C%E5%BB%8A%E9%95%87%E6%97%81%E6%97%A0%E4%BA%BA%E7%9A%84%E8%BD%BB%E8%88%9F.jpg/1280px-%E5%8F%8C%E5%BB%8A%E9%95%87%E6%97%81%E6%97%A0%E4%BA%BA%E7%9A%84%E8%BD%BB%E8%88%9F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/%E5%8F%8C%E5%BB%8A%E9%95%87%E6%97%81%E6%97%A0%E4%BA%BA%E7%9A%84%E8%BD%BB%E8%88%9F.jpg/1280px-%E5%8F%8C%E5%BB%8A%E9%95%87%E6%97%81%E6%97%A0%E4%BA%BA%E7%9A%84%E8%BD%BB%E8%88%9F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "双廊镇旁无人的轻舟.jpg",
+   "query": "双廊",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Liuxingy",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8F%8C%E5%BB%8A%E9%95%87%E6%97%81%E6%97%A0%E4%BA%BA%E7%9A%84%E8%BD%BB%E8%88%9F.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "双廊镇",
-  "_geocodeSuspect": false,
-  "district": "532901"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/%E5%8F%8C%E5%BB%8A%E9%95%87%E7%8E%89%E6%B3%A2%E9%98%81.jpg/1280px-%E5%8F%8C%E5%BB%8A%E9%95%87%E7%8E%89%E6%B3%A2%E9%98%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/%E5%8F%8C%E5%BB%8A%E9%95%87%E7%8E%89%E6%B3%A2%E9%98%81.jpg/1280px-%E5%8F%8C%E5%BB%8A%E9%95%87%E7%8E%89%E6%B3%A2%E9%98%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1620,
+   "alt": "双廊镇玉波阁.jpg",
+   "query": "双廊",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Liuxingy",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8F%8C%E5%BB%8A%E9%95%87%E7%8E%89%E6%B3%A2%E9%98%81.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "小镇",
+  "海景",
+  "免费"
+ ],
+ "popularity": 82,
+ "sources": [
+  {
+   "title": "百度百科·双廊",
+   "url": "https://baike.baidu.com/item/%E5%8F%8C%E5%BB%8A",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "双廊"
+ },
+ "_geocodeTitle": "双廊镇",
+ "_geocodeSuspect": false,
+ "district": "532901",
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "海景",
+    "score": 4.5,
+    "note": "三面环水，正面看苍山"
+   },
+   {
+    "label": "商业化",
+    "score": 2.5,
+    "note": "靠海一面几乎全是客栈与咖啡馆"
+   },
+   {
+    "label": "人流",
+    "score": 2.3,
+    "note": "节假日海景房跳价、巷子走不动"
+   },
+   {
+    "label": "交通",
+    "score": 3.0,
+    "note": "从古城过来约一个半小时"
+   }
+  ],
+  "body": "双廊三面环水，正面看苍山，是洱海东北岸最适合住下来的镇子。玉几岛和南诏风情岛就在镇里，巷子窄，走到海边就是日落。缺点很明显：靠海一面几乎全是客栈、咖啡馆和旅拍店，商业化重；节假日海景房价格跳涨，人挤得走不动。从古城过来一个半小时，别当天来回赶。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "住海景",
+   "看日落",
+   "情侣"
+  ],
+  "avoid": [
+   "怕商业化",
+   "当天往返"
+  ],
+  "sources": []
+ }
 }

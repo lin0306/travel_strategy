@@ -1,84 +1,116 @@
 {
-  "id": "guan-tang-bao",
-  "name": "开封灌汤包",
-  "category": "food",
-  "subtype": "local",
-  "summary": "开封头号小吃，皮薄汤多，提起像灯笼，先吸汤再吃。",
-  "description": "开封灌汤包是这座城的头号小吃。皮薄、汤多，蒸好提起像一盏灯笼。吃的讲究：先在皮上咬小口吸汤，再蘸醋吃馅。第一楼等老店名气大，但街边小店也地道。趁热，凉了皮硬汤凝。一笼几只，配八宝粥刚好。",
-  "highlights": [
-    "开封头号小吃皮薄汤多",
-    "提起像灯笼先吸汤",
-    "第一楼老店与街边皆地道"
-  ],
-  "location": {
-    "point": {
-      "lng": 114.183927,
-      "lat": 34.409325,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河南省开封市各灌汤包老店（第一楼等）",
-    "district": "尉氏县",
-    "transportTip": "市区各老店均有"
+ "id": "guan-tang-bao",
+ "name": "开封灌汤包",
+ "category": "food",
+ "subtype": "local",
+ "summary": "开封头号小吃，皮薄汤多，提起像灯笼，先吸汤再吃。",
+ "description": "开封灌汤包是这座城的头号小吃。皮薄、汤多，蒸好提起像一盏灯笼。吃的讲究：先在皮上咬小口吸汤，再蘸醋吃馅。第一楼等老店名气大，但街边小店也地道。趁热，凉了皮硬汤凝。一笼几只，配八宝粥刚好。",
+ "highlights": [
+  "开封头号小吃皮薄汤多",
+  "提起像灯笼先吸汤",
+  "第一楼老店与街边皆地道"
+ ],
+ "location": {
+  "point": {
+   "lng": 114.183927,
+   "lat": 34.409325,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约06:30-21:00",
-    "openHoursRef": 0,
-    "ticket": "约40元/笼起",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "friends",
-    "family",
-    "couple",
-    "solo"
+  "address": "河南省开封市各灌汤包老店（第一楼等）",
+  "district": "尉氏县",
+  "transportTip": "市区各老店均有"
+ },
+ "practical": {
+  "openHours": "约06:30-21:00",
+  "openHoursRef": 0,
+  "ticket": "约40元/笼起",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Steamed_soup_buns_of_Kaifeng.jpg/1280px-Steamed_soup_buns_of_Kaifeng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Steamed_soup_buns_of_Kaifeng.jpg/1280px-Steamed_soup_buns_of_Kaifeng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Steamed soup buns of Kaifeng.jpg",
-      "query": "开封灌汤包 开封",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Steamed_soup_buns_of_Kaifeng.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "friends",
+  "family",
+  "couple",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Steamed_soup_buns_of_Kaifeng.jpg/1280px-Steamed_soup_buns_of_Kaifeng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Steamed_soup_buns_of_Kaifeng.jpg/1280px-Steamed_soup_buns_of_Kaifeng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Steamed soup buns of Kaifeng.jpg",
+   "query": "开封灌汤包 开封",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Windmemories",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Steamed_soup_buns_of_Kaifeng.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "灌汤包",
+  "小吃",
+  "招牌"
+ ],
+ "popularity": 96,
+ "sources": [
+  {
+   "title": "百度百科·灌汤包",
+   "url": "https://baike.baidu.com/item/%E7%81%8C%E6%B1%A4%E5%8C%85",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-02"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Kaifeng Soup Dumplings",
+  "zh": "开封灌汤包"
+ },
+ "_geocodeTitle": "开封灌汤包",
+ "_geocodeSuspect": false,
+ "district": "410223",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.4,
+    "note": "皮薄汤多，提起像灯笼"
+   },
+   {
+    "label": "价格",
+    "score": 4.3,
+    "note": "一笼几十元，配八宝粥刚好"
+   },
+   {
+    "label": "时效",
+    "score": 3.5,
+    "note": "凉了皮硬汤凝，必须趁热"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "灌汤包",
-    "小吃",
-    "招牌"
+  "body": "开封灌汤包的门道全在「提得起、吸得着」：皮薄到透光，咬小口先吸汤再蘸醋吃馅，顺序错了就白吃。缺点是要趁热，端上桌放五分钟皮就硬、汤也凝；名气大的老店饭点排队很长，其实街边小店水准不差，不必死守一家。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "吃小吃",
+   "早午餐"
   ],
-  "popularity": 96,
-  "sources": [
-    {
-      "title": "百度百科·灌汤包",
-      "url": "https://baike.baidu.com/item/%E7%81%8C%E6%B1%A4%E5%8C%85",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-02"
-    }
+  "avoid": [
+   "赶时间"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Kaifeng Soup Dumplings",
-    "zh": "开封灌汤包"
-  },
-  "_geocodeTitle": "开封灌汤包",
-  "_geocodeSuspect": false,
-  "district": "410223"
+  "sources": []
+ }
 }

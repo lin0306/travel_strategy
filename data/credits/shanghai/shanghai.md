@@ -1,30 +1,42 @@
 # 上海 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-09-19
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-14
 
 ## 概览
 
 - 省份：上海
 - adcode：310000
-- POI 数量：57
+- POI 数量：69
 
 ## 文本内容来源
 
 | POI | 来源标题 | 类型 | 抓取日期 |
 |-----|---------|------|---------|
 | 中华艺术宫(上海美术馆) | [百度百科·中华艺术宫](https://baike.baidu.com/item/%E4%B8%AD%E5%8D%8E%E8%89%BA%E6%9C%AF%E5%AE%AB) | wiki | 2026-09-19 |
+| 中国证券博物馆 | [中国证券博物馆·参观及活动须知](https://csm.sse.com.cn/visit/appointment) | official | 2026-11-08 |
 | 东平国家森林公园 | [百度百科·东平国家森林公园](https://baike.baidu.com/item/%E4%B8%9C%E5%B9%B3%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD) | wiki | 2026-09-23 |
 | 枫泾古镇 | [百度百科·枫泾古镇](https://baike.baidu.com/item/%E6%9E%AB%E6%B3%BE%E5%8F%A4%E9%95%87) | wiki | 2026-09-23 |
 | 广富林文化遗址 | [百度百科·广富林遗址](https://baike.baidu.com/item/%E5%B9%BF%E5%AF%8C%E6%9E%97%E9%81%97%E5%9D%80) | wiki | 2026-09-23 |
+| 嘉定州桥景区 | [上海市嘉定区人民政府·州桥景区服务信息](https://www.jiading.gov.cn/mspd/shgj/content_957842) | gov | 2026-11-08 |
 | 静安寺 | [百度百科·静安寺](https://baike.baidu.com/item/%E9%9D%99%E5%AE%89%E5%AF%BA) | wiki | 2026-09-19 |
+| 龙华烈士纪念馆 | [上海市龙华烈士陵园·开放信息](https://www.slmmm.cn/service/opening.html) | official | 2026-11-08 |
 | 龙华寺 | [百度百科·龙华寺](https://baike.baidu.com/item/%E9%BE%99%E5%8D%8E%E5%AF%BA) | wiki | 2026-09-19 |
 | 马勒别墅(衡山路一带) | [百度百科·马勒别墅](https://baike.baidu.com/item/%E9%A9%AC%E5%8B%92%E5%88%AB%E5%A2%85) | wiki | 2026-09-19 |
 | 上海当代艺术博物馆(PSA) | [百度百科·上海当代艺术博物馆](https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E5%BD%93%E4%BB%A3%E8%89%BA%E6%9C%AF%E5%8D%9A%E7%89%A9%E9%A6%86) | wiki | 2026-09-19 |
 | 七宝古镇 | [百度百科·七宝古镇](https://baike.baidu.com/item/%E4%B8%83%E5%AE%9D%E5%8F%A4%E9%95%87) | wiki | 2026-09-19 |
 | 上海天文馆 | [百度百科·上海天文馆](https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E5%A4%A9%E6%96%87%E9%A6%86) | wiki | 2026-09-23 |
+| 上海汽车博物馆 | [上海汽车博物馆官网·参观、票价与交通](https://www.shautomuseum.com/Home/Venuestourism.html) | official | 2026-11-08 |
 | 上海迪士尼度假区 | [百度百科·上海迪士尼乐园](https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E8%BF%AA%E5%A3%AB%E5%B0%BC%E4%B9%90%E5%9B%AD) | wiki | 2026-09-19 |
+| 上海电影博物馆 | [上海电影博物馆官网·开放时间](http://www.shfilmmuseum.org/NewContents.aspx?ID=112&type=CGDL) | official | 2026-11-08 |
+| 上海市历史博物馆 | [上海市历史博物馆·官网参观服务](https://www.shh-shrhmuseum.org.cn/) | official | 2026-11-08 |
+| 上海犹太难民纪念馆 | [上海犹太难民纪念馆·参观指南](https://www.shhkjrm.com/fw/cgzn.htm) | official | 2026-11-08 |
 | 上海博物馆(人民广场馆) | [百度百科·上海博物馆](https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E5%8D%9A%E7%89%A9%E9%A6%86) | wiki | 2026-09-19 |
+| 上海自然博物馆 | [上海自然博物馆·参观咨询与票价](https://www.snhm.org.cn/cgfw/cgzx.htm) | official | 2026-11-08 |
+| 上海海洋水族馆 | [上海海洋水族馆·官方售票系统与参观须知](https://ticket.sh-aquarium.com/BpsWebSale/Home/List) | official | 2026-11-08 |
+| 上海邮政博物馆 | [中国邮政网·上海邮政博物馆打卡正当时](https://www.chinapost.com.cn/sh/report/2605/7504-1.htm) | official | 2026-11-08 |
+| 上海铁路博物馆 | [上海本地宝·上海铁路博物馆开放时间与交通(腾讯新闻转载)](https://news.qq.com/rain/a/20250911A03UGZ00) | media | 2026-11-08 |
 | 上海中心大厦观光厅 | [百度百科·上海中心大厦](https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%BF%83%E5%A4%A7%E5%8E%A6) | wiki | 2026-09-19 |
+| 上海野生动物园 | [上海野生动物园官网·游园须知与交通](https://www.shwzoo.com/index.do?id=5014&newsDetail=) | official | 2026-11-08 |
 | 佘山国家森林公园 | [百度百科·佘山国家森林公园](https://baike.baidu.com/item/%E4%BD%98%E5%B1%B1%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD) | wiki | 2026-09-23 |
 | 新天地石库门街区 | [百度百科·上海新天地](https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E6%96%B0%E5%A4%A9%E5%9C%B0) | wiki | 2026-09-19 |
 | 外滩 | [百度百科·外滩](https://baike.baidu.com/item/%E5%A4%96%E6%BB%A9) | wiki | 2026-09-19 |
@@ -34,27 +46,34 @@
 | 崇明西沙湿地公园 | [百度百科·西沙湿地](https://baike.baidu.com/item/%E8%A5%BF%E6%B2%99%E6%B9%BF%E5%9C%B0) | wiki | 2026-09-23 |
 | 豫园 | [百度百科·豫园](https://baike.baidu.com/item/%E8%B1%AB%E5%9B%AD) | wiki | 2026-09-19 |
 | 朱家角古镇 | [百度百科·朱家角](https://baike.baidu.com/item/%E6%9C%B1%E5%AE%B6%E8%A7%92) | wiki | 2026-09-19 |
+| 朱家角古镇 | [朱家角古镇官网 · 门票预订与开放时间](https://www.zhujiajiao.com/cn/ticket/) | media | 2026-11-12 |
 | 阿娘面馆(思南路) | [百度百科·黄鱼面](https://baike.baidu.com/item/%E9%BB%84%E9%B1%BC%E9%9D%A2) | wiki | 2026-09-19 |
 | 春风松月楼(豫园) | [百度百科·春风松月楼](https://baike.baidu.com/item/%E6%98%A5%E9%A3%8E%E6%9D%BE%E6%9C%88%E6%A5%BC) | wiki | 2026-09-19 |
 | 古北日料街 | [百度百科·上海日本料理](https://baike.baidu.com/item/%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86) | wiki | 2026-09-19 |
 | 兰心餐厅 | [百度百科·兰心餐厅](https://baike.baidu.com/item/%E5%85%B0%E5%BF%83%E9%A4%90%E5%8E%85) | wiki | 2026-09-23 |
 | 老吉士酒家(天平路店) | [百度百科·上海本帮菜](https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E6%9C%AC%E5%B8%AE%E8%8F%9C) | wiki | 2026-09-19 |
 | 沧浪亭面馆 | [百度百科·苏式汤面](https://baike.baidu.com/item/%E8%8B%8F%E5%BC%8F%E6%B1%A4%E9%9D%A2) | wiki | 2026-09-19 |
+| 沧浪亭面馆 | [黄浦区民政局2026-06-17长者餐厅名单载该店营业时段06:30-19:00](http://mp.weixin.qq.com/s?__biz=MzkxNzY5NjUzOQ==&mid=2247498116&idx=1&sn=a38dbee2eecf4898c43b70ee56b11ba2) | media | 2026-11-09 |
 | 武康路咖啡街区 | [百度百科·武康路](https://baike.baidu.com/item/%E6%AD%A6%E5%BA%B7%E8%B7%AF) | wiki | 2026-09-19 |
+| 武康路咖啡街区 | [上海徐汇｜衡复风貌区武康路漫游指南（2026-03-16）](https://www.toutiao.com/article/761766974703994267/) | media | 2026-11-09 |
 | 南翔馒头店(豫园) | [百度百科·南翔小笼馒头](https://baike.baidu.com/item/%E5%8D%97%E7%BF%94%E5%B0%8F%E7%AC%BC%E9%A6%92%E5%A4%B4) | wiki | 2026-09-19 |
 | 七宝老街的羊肉汤/汤团摊 | [百度百科·七宝古镇](https://baike.baidu.com/item/%E4%B8%83%E5%AE%9D%E5%8F%A4%E9%95%87) | wiki | 2026-09-19 |
 | 沈大成(南京东路总店) | [百度百科·沈大成](https://baike.baidu.com/item/%E6%B2%88%E5%A4%A7%E6%88%90) | wiki | 2026-09-19 |
 | 王宝和酒家(福州路店) | [百度百科·王宝和](https://baike.baidu.com/item/%E7%8E%8B%E5%AE%9D%E5%92%8C) | wiki | 2026-09-19 |
+| 王宝和酒家(福州路店) | [王宝和酒家官方公众号 · 蟹宴活动页](https://mp.weixin.qq.com/s?__biz=MzA4NjY0NjgwNg==&mid=2656320837&idx=4&sn=ed298f4cd65baa2325197a3e31bb969d) | media | 2026-11-12 |
 | 王家沙点心店(南京西路店) | [百度百科·锅贴](https://baike.baidu.com/item/%E9%94%85%E8%B4%B4) | wiki | 2026-09-19 |
+| 王家沙点心店(南京西路店) | [静安官方微信（上观新闻转载）· 王家沙地址与营业时间](https://sghexport.shobserver.com/html/toutiao/2021/10/06/555012.html) | media | 2026-11-12 |
 | 红房子西菜馆(淮海中路店) | [百度百科·海派西餐](https://baike.baidu.com/item/%E6%B5%B7%E6%B4%BE%E8%A5%BF%E9%A4%90) | wiki | 2026-09-19 |
 | 哈尔滨食品厂(淮海中路) | [百度百科·哈尔滨食品厂](https://baike.baidu.com/item/%E5%93%88%E5%B0%94%E6%BB%A8%E9%A3%9F%E5%93%81%E5%8E%82) | wiki | 2026-09-19 |
 | 小杨生煎(吴江路店) | [百度百科·小杨生煎](https://baike.baidu.com/item/%E5%B0%8F%E6%9D%A8%E7%94%9F%E7%85%8E) | wiki | 2026-09-19 |
 | 真老大房(南京东路) | [百度百科·鲜肉月饼](https://baike.baidu.com/item/%E9%B2%9C%E8%82%89%E6%9C%88%E9%A5%BC) | wiki | 2026-09-19 |
 | 西岸美术馆大道(龍美术馆一带) | [百度百科·西岸](https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E8%A5%BF%E5%B2%B8) | wiki | 2026-09-19 |
 | chi K11 美术馆/购物艺术中心 | [百度百科·K11](https://baike.baidu.com/item/K11) | wiki | 2026-09-19 |
+| chi K11 美术馆/购物艺术中心 | [上海市文旅局展讯｜chi K11 美术馆（2026-10-30）](https://whlyj.sh.gov.cn/yshd/20261030/3eb3ba2bda464a67a2ea1cd474813639.html) | media | 2026-11-09 |
 | 陆家嘴天际线观景点 | [百度百科·陆家嘴](https://baike.baidu.com/item/%E9%99%86%E5%AE%B6%E5%98%B4) | wiki | 2026-09-19 |
 | 浦东美术馆 | [百度百科·浦东美术馆](https://baike.baidu.com/item/%E6%B5%A6%E4%B8%9C%E7%BE%8E%E6%9C%AF%E9%A6%86) | wiki | 2026-09-23 |
 | 上生·新所(海军俱乐部改造) | [百度百科·上生新所](https://baike.baidu.com/item/%E4%B8%8A%E7%94%9F%E6%96%B0%E6%89%80) | wiki | 2026-09-19 |
+| 上生·新所(海军俱乐部改造) | [长宁区政府官网：上生新所为7x24小时开放的公共文化街区](https://www.shcn.gov.cn/col7344/20240618/1261648.html) | media | 2026-11-09 |
 | 思南公馆与周公馆片区 | [百度百科·思南公馆](https://baike.baidu.com/item/%E6%80%9D%E5%8D%97%E5%85%AC%E9%A6%86) | wiki | 2026-09-19 |
 | 油罐艺术中心 | [百度百科·油罐艺术中心](https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E6%B2%B9%E7%BD%90%E8%89%BA%E6%9C%AF%E4%B8%AD%E5%BF%83) | wiki | 2026-09-23 |
 | 武康路与安福路街区 | [百度百科·武康路](https://baike.baidu.com/item/%E6%AD%A6%E5%BA%B7%E8%B7%AF) | wiki | 2026-09-19 |
@@ -65,22 +84,30 @@
 | 步高里 | [百度百科·步高里](https://baike.baidu.com/item/%E6%AD%A5%E9%AB%98%E9%87%8C) | wiki | 2026-09-23 |
 | 多伦路文化名人街 | [百度百科·多伦路](https://baike.baidu.com/item/%E5%A4%9A%E4%BC%A6%E8%B7%AF) | wiki | 2026-09-19 |
 | 淮海中路商业街 | [百度百科·淮海路](https://baike.baidu.com/item/%E6%B7%AE%E6%B5%B7%E8%B7%AF) | wiki | 2026-09-19 |
+| 淮海中路商业街 | [P3 看图：原封面是高架桥底(重庆中路路口)，换第3张淮海中路街景](https://commons.wikimedia.org/wiki/File:Huaihai_Road_(M).JPG) | media | 2026-11-12 |
 | 南京路步行街 | [百度百科·南京路步行街](https://baike.baidu.com/item/%E5%8D%97%E4%BA%AC%E8%B7%AF%E6%AD%A5%E8%A1%8C%E8%A1%97) | wiki | 2026-09-19 |
 | 上海马戏城(时空之旅) | [百度百科·上海马戏城](https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E9%A9%AC%E6%88%8F%E5%9F%8E) | wiki | 2026-09-19 |
 | 苏州河步道(河滨大楼段) | [百度百科·苏州河](https://baike.baidu.com/item/%E8%8B%8F%E5%B7%9E%E6%B2%B3) | wiki | 2026-09-19 |
-| 上海越剧院/兰心大戏院 | [百度百科·上海越剧院](https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E8%B6%8A%E5%89%A7%E9%99%A2) | wiki | 2026-09-19 |
+| 兰心大戏院 | [百度百科·上海越剧院](https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E8%B6%8A%E5%89%A7%E9%99%A2) | wiki | 2026-09-19 |
+| 兰心大戏院 | [上海市政府｜兰心大戏院保护性修缮与常态化演出（2026-08-31）](https://www.shanghai.gov.cn/sjbmkf/20260831/2583adebc2e7424f9c4f8e02adac1f82.html) | media | 2026-11-09 |
 
 ## 图片版权
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | King of Hearts | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Pudong_Shanghai_November_2017_HDR_panorama.jpg) |
-| 城市封面 | King of Hearts | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Pudong_Shanghai_November_2017_panorama.jpg) |
-| 城市封面 | Another Believer | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shanghai,_China,_December_2015_-_174.JPG) |
+| 城市封面 | MasaneMiyaPA | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20170130%E4%BB%8E%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%BF%83%E5%A4%A7%E5%8E%A6%E8%A7%82%E6%99%AF%E5%8F%B0%E7%9C%BA%E6%9C%9B%E9%99%86%E5%AE%B6%E5%98%B4%E5%92%8C%E5%A4%96%E6%BB%A9.jpg) |
+| 城市封面 | Chainwit. | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2024-Apr_Shanghai_Yu_Yuan_Garden_%E8%B1%AB%E5%9B%AD_-_img_20.jpg) |
+| 城市封面 | 源義信 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2026-10-02_Shanghai_Museum_East_%E4%B8%8A%E6%B5%B7%E5%8D%9A%E7%89%A9%E9%A6%86%E4%B8%9C%E9%A6%86_01.jpg) |
 | 中华艺术宫(上海美术馆) | xiawilliams | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 中华艺术宫(上海美术馆) | Ludger Heide | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 中华艺术宫(上海美术馆) | ktanaka | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 中华艺术宫(上海美术馆) | xiawilliams | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 中国证券博物馆 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Securities_Museum,_Shanghai.jpg) |
+| 中国证券博物馆 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Securities_Museum.jpg) |
+| 中国证券博物馆 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Securities_Museum_1.jpg) |
+| 中国证券博物馆 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Securities_Museum_10.jpg) |
+| 中国证券博物馆 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Securities_Museum_11.jpg) |
+| 中国证券博物馆 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Securities_Museum_12.jpg) |
 | 东平国家森林公园 | Milkomède | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dongping_Na_Fo_Park_01.jpg) |
 | 枫泾古镇 | Carrot2333 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A_bridge_in_Fengjing_old_town.jpg) |
 | 枫泾古镇 | Carrot2333 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:View_of_Fengjing_old_town_01.jpg) |
@@ -93,6 +120,10 @@
 | 静安寺 | Chainwit. | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2024-Apr_Jing-an_Temple_%E9%9D%99%E5%AE%89%E5%AF%BA_Shanghai_02.jpg) |
 | 静安寺 | Chainwit. | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2024-Apr_Jing-an_Temple_%E9%9D%99%E5%AE%89%E5%AF%BA_Shanghai_03.jpg) |
 | 静安寺 | Chainwit. | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2024-Apr_Jing-an_Temple_%E9%9D%99%E5%AE%89%E5%AF%BA_Shanghai_04.jpg) |
+| 龙华烈士纪念馆 | Unknown authorUnknown author | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BC%8D%E4%BB%B2%E6%96%87.jpg) |
+| 龙华烈士纪念馆 | Unknown authorUnknown author | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%81%BD%E9%9B%A8%E6%A3%A0.jpg) |
+| 龙华烈士纪念馆 | Unknown authorUnknown author | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B1%A4%E5%A3%AB%E4%BC%A6.jpg) |
+| 龙华烈士纪念馆 | Unknown authorUnknown author | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B1%A4%E5%A3%AB%E4%BD%BA.jpg) |
 | 龙华寺 | Balon Greyjoy | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20191113_Longhua_Temple_statue_wall.jpg) |
 | 龙华寺 | Sinopitt | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:LonghuaTemple02.jpg) |
 | 龙华寺 | Corinne Launay | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Longhua_Pagoda.JPG) |
@@ -106,13 +137,55 @@
 | 上海天文馆 | Brookqi | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shanghaitianwenguan.jpg) |
 | 上海天文馆 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E6%B5%B7%E5%A4%A9%E6%96%87%E9%A6%86%E7%90%83%E5%B9%95%E5%BD%B1%E9%99%A2.jpg) |
 | 上海天文馆 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E6%B5%B7%E5%A4%A9%E6%96%87%E9%A6%86%E7%90%83%E5%B9%95%E5%BD%B1%E9%99%A2_1.jpg) |
+| 上海汽车博物馆 | Navigator84 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:1957_Cadillac_Series_62_--_Shanghai_Automobile_Museum_2012-05-26.JPG) |
+| 上海汽车博物馆 | Navigator84 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:EV_Zone_--_Shanghai_Automobile_Museum_2012-05-26.JPG) |
+| 上海汽车博物馆 | Daveduv | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shanghai_Auto_Museum_2007.JPG) |
+| 上海汽车博物馆 | Morio | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shanghai_Auto_Museum_2016_January.jpg) |
+| 上海汽车博物馆 | Morio | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shanghai_Auto_Museum_entrance1_2016_January.jpg) |
+| 上海汽车博物馆 | Morio | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shanghai_Auto_Museum_entrance2_2016_January.jpg) |
 | 上海迪士尼度假区 | MasaneMiyaPA | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20180120%E4%B8%8A%E6%B5%B7%E8%BF%AA%E5%A3%AB%E5%B0%BC%E5%BA%A6%E5%81%87%E5%8C%BA%E8%BF%AA%E5%A3%AB%E5%B0%BC%E4%B8%96%E7%95%8C%E5%95%86%E5%BA%97.jpg) |
 | 上海迪士尼度假区 | Wcr1993 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2018%E5%B9%B411%E6%9C%88%E7%9A%84%E4%B8%8A%E6%B5%B7%E8%BF%AA%E5%A3%AB%E5%B0%BC%E5%BA%A6%E5%81%87%E5%8C%BA%E4%BF%AF%E7%9E%B0.png) |
+| 上海电影博物馆 | Szalai.laci | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:ShanghaiFilmGroup_in_snow.jpeg) |
+| 上海电影博物馆 | Brookqi | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:ShanghaiFilmMuseum.jpg) |
+| 上海电影博物馆 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E6%B5%B7%E7%94%B5%E5%BD%B1%E5%8D%9A%E7%89%A9%E9%A6%86.jpg) |
+| 上海市历史博物馆 | 源義信 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2026-10-04_Shanghai_History_Museum_%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%8E%86%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A6%86_01.jpg) |
+| 上海市历史博物馆 | 源義信 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2026-10-04_Shanghai_History_Museum_%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%8E%86%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A6%86_02.jpg) |
+| 上海市历史博物馆 | 源義信 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2026-10-04_Shanghai_History_Museum_%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%8E%86%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A6%86_03.jpg) |
+| 上海市历史博物馆 | 源義信 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2026-10-04_Shanghai_History_Museum_%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%8E%86%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A6%86_04.jpg) |
+| 上海市历史博物馆 | Baycrest | CC BY-SA 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shanghai_Art_Museum.jpg) |
+| 上海市历史博物馆 | Rolfmueller | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Boundary_stone_shanghai_international_settlement_2010_08_21.jpg) |
+| 上海犹太难民纪念馆 | 源義信 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2026-10-03_Shanghai_Jewish_Refugees_Museum_%E4%B8%8A%E6%B5%B7%E7%8A%B9%E5%A4%AA%E9%9A%BE%E6%B0%91%E7%BA%AA%E5%BF%B5%E9%A6%86_01.jpg) |
+| 上海犹太难民纪念馆 | 源義信 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2026-10-03_Shanghai_Jewish_Refugees_Museum_%E4%B8%8A%E6%B5%B7%E7%8A%B9%E5%A4%AA%E9%9A%BE%E6%B0%91%E7%BA%AA%E5%BF%B5%E9%A6%86_02.jpg) |
+| 上海犹太难民纪念馆 | 源義信 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2026-10-03_Jewish_Refugee_Monument_in_Huoshan_Park,_Shanghai_%E4%B8%8A%E6%B5%B7%E9%9C%8D%E5%B1%B1%E5%85%AC%E5%9B%AD%E7%8A%B9%E5%A4%AA%E9%9A%BE%E6%B0%91%E7%BA%AA%E5%BF%B5%E7%A2%91.jpg) |
+| 上海犹太难民纪念馆 | Ambassador of the United States of America to the People's R | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Ambassador_Burns_with_two_other_people_viewing_the_Torah_Ark_at_the_Shanghai_Jewish_Refugees_Museum.jpg) |
+| 上海犹太难民纪念馆 | HBarrison | CC BY-SA 3.0 us | [wikimedia](https://commons.wikimedia.org/wiki/File:Ho_Feng_Shan_plaque_(Shanghai_Jewish_Refugees_Museum).jpg) |
+| 上海犹太难民纪念馆 | Philip N. Cohen | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Monument_at_the_Shanghai_Jewish_Refugees_Museum.jpg) |
 | 上海博物馆(人民广场馆) | Hanjiang 2009 (寒江2009) | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shanghai_Museum_exterior_1.jpg) |
 | 上海博物馆(人民广场馆) | Mir7ror | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E6%B5%B7%E5%8D%9A%E7%89%A9%E9%A6%86.jpg) |
 | 上海博物馆(人民广场馆) | 白色瑰宝 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E6%B5%B7%E5%8D%9A%E7%89%A9%E9%A6%86_%E4%BF%84%E7%BD%97%E6%96%AF%E2%80%9C%E5%B7%A1%E5%9B%9E%E7%94%BB%E6%B4%BE%E5%B1%95%E2%80%9D(1).jpg) |
+| 上海自然博物馆 | Another Believer | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shanghai_Natural_History_Museum_(2015)_-_01.JPG) |
+| 上海自然博物馆 | Another Believer | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shanghai_Natural_History_Museum_(2015)_-_02.JPG) |
+| 上海自然博物馆 | Another Believer | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shanghai_Natural_History_Museum_(2015)_-_03.JPG) |
+| 上海自然博物馆 | Another Believer | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shanghai_Natural_History_Museum_(2015)_-_04.JPG) |
+| 上海海洋水族馆 | J. Patrick Fischer | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2009_shark_in_Shanghai.JPG) |
+| 上海海洋水族馆 | Vanvelthem Cédric | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_-_Shanghai_Ocean_Aquarium_01.jpg) |
+| 上海海洋水族馆 | Vanvelthem Cédric | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_-_Shanghai_Ocean_Aquarium_02.jpg) |
+| 上海海洋水族馆 | Vanvelthem Cédric | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_-_Shanghai_Ocean_Aquarium_03.jpg) |
+| 上海海洋水族馆 | Vanvelthem Cédric | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_-_Shanghai_Ocean_Aquarium_04.jpg) |
+| 上海海洋水族馆 | Vanvelthem Cédric | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_-_Shanghai_Ocean_Aquarium_05.jpg) |
+| 上海邮政博物馆 | ·˙·ChinaUli2010·.· | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%C2%B7%CB%99%C2%B7ChinaUli2010%C2%B7.%C2%B7_Shanghai_-_Historical_Postbuilding_-_panoramio_(1).jpg) |
+| 上海邮政博物馆 | ·˙·ChinaUli2010·.· | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%C2%B7%CB%99%C2%B7ChinaUli2010%C2%B7.%C2%B7_Shanghai_-_panoramio_(34).jpg) |
+| 上海邮政博物馆 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Shanghai_General_Post_Office_Building,_2019-10-18_02.jpg) |
+| 上海邮政博物馆 | 乔茗星 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:General_Post_Office_Building.jpg) |
+| 上海邮政博物馆 | Unknown authorUnknown author | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:General_Post_Office_Building_in_the_1930s.jpg) |
+| 上海邮政博物馆 | Gerd Eichmann | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shanghai-Bund-30-Uhrturm-2012-gje.jpg) |
 | 上海中心大厦观光厅 | ykeiko | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 上海中心大厦观光厅 | Francisco Javier PB | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 上海野生动物园 | Photograph by Mike Peel (www.mikepeel.net). | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:At_Knowsley_Safari_Park_2006_045.jpg) |
+| 上海野生动物园 | Photograph by Mike Peel (www.mikepeel.net). | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:At_Knowsley_Safari_Park_2006_267.jpg) |
+| 上海野生动物园 | Photograph by Mike Peel (www.mikepeel.net). | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:At_Knowsley_Safari_Park_2006_268.jpg) |
+| 上海野生动物园 | Nairbest10 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Calauit_Safari_Park_of_Coron.jpg) |
+| 上海野生动物园 | Fcmckern | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Drive_Through_Safari_Park-_Panola_County,_Mississippi.jpg) |
 | 佘山国家森林公园 | Hans Anning | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 佘山国家森林公园 | HouZ42 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 佘山国家森林公园 | This illustration was made by Peter Potrowl. Please credit t | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |

@@ -1,68 +1,100 @@
 {
-  "id": "shaoxing-tangyuan",
-  "name": "绍兴汤圆",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "鲜肉与豆沙两路，早餐点心。",
-  "description": "绍兴汤圆分甜咸两路，咸的是鲜肉汤圆、咬开爆汁；甜的多为豆沙或芝麻。它比宁波汤圆个头略小、皮更糯，是本地人早餐与宵夜的常客。街头小店现包现煮，热气腾腾。价格低，一碗管饱。冬夜来一碗最暖。咸甜两派各有支持者，第一次建议各来一只。",
-  "highlights": [
-    "鲜肉与豆沙两路汤圆",
-    "咸的咬开爆汁，皮糯",
-    "早餐宵夜常客，价低"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.582338,
-      "lat": 29.989092,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "绍兴市越城区汤圆铺",
-    "district": "越城区",
-    "transportTip": "街边与早市"
+ "id": "shaoxing-tangyuan",
+ "name": "绍兴汤圆",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "鲜肉与豆沙两路，早餐点心。",
+ "description": "绍兴汤圆分甜咸两路，咸的是鲜肉汤圆、咬开爆汁；甜的多为豆沙或芝麻。它比宁波汤圆个头略小、皮更糯，是本地人早餐与宵夜的常客。街头小店现包现煮，热气腾腾。价格低，一碗管饱。冬夜来一碗最暖。咸甜两派各有支持者，第一次建议各来一只。",
+ "highlights": [
+  "鲜肉与豆沙两路汤圆",
+  "咸的咬开爆汁，皮糯",
+  "早餐宵夜常客，价低"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.582338,
+   "lat": 29.989092,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约06:30-20:00（以门店为准）",
-    "openHoursRef": 0,
-    "ticket": "人均约10元，以门店为准",
-    "ticketRef": 0,
-    "duration": "建议 15-30 分钟",
-    "durationMinutes": [
-      15,
-      30
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "solo",
-    "elders",
-    "friends"
+  "address": "绍兴市越城区汤圆铺",
+  "district": "越城区",
+  "transportTip": "街边与早市"
+ },
+ "practical": {
+  "openHours": "约06:30-20:00（以门店为准）",
+  "openHoursRef": 0,
+  "ticket": "人均约10元，以门店为准",
+  "ticketRef": 0,
+  "duration": "建议 15-30 分钟",
+  "durationMinutes": [
+   15,
+   30
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "汤圆",
-    "早餐",
-    "糯"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "solo",
+  "elders",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "汤圆",
+  "早餐",
+  "糯"
+ ],
+ "popularity": 68,
+ "sources": [
+  {
+   "title": "百度百科·汤圆",
+   "url": "https://baike.baidu.com/item/%E6%B1%A4%E5%9C%86",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "绍兴汤圆"
+ },
+ "_geocodeTitle": "越城区",
+ "_geocodeSuspect": false,
+ "district": "330602",
+ "_noImage": true,
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 3.9,
+    "note": "鲜肉爆汁、皮糯，但水准不稳"
+   },
+   {
+    "label": "价格",
+    "score": 4.4,
+    "note": "一碗十来块，当早饭管饱"
+   },
+   {
+    "label": "门店",
+    "score": 3.3,
+    "note": "街头小店为主，出品参差"
+   }
   ],
-  "popularity": 68,
-  "sources": [
-    {
-      "title": "百度百科·汤圆",
-      "url": "https://baike.baidu.com/item/%E6%B1%A4%E5%9C%86",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "绍兴汤圆分甜咸两路：鲜肉馅咬开爆汁、皮子更糯，豆沙芝麻走甜口，个头比宁波汤圆小一圈，是本地人早餐与宵夜的常客，街头现包现煮，冬天夜里来一碗最舒服，第一次建议咸甜各来一只。缺点是街头小店水准参差，皮厚馅少、汤底偏淡的也不少，认准现包现煮、本地人排队的摊子更稳。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "早餐",
+   "冬夜宵夜"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "绍兴汤圆"
-  },
-  "_geocodeTitle": "越城区",
-  "_geocodeSuspect": false,
-  "district": "330602",
-  "_noImage": true
+  "avoid": [
+   "按网红榜找店"
+  ],
+  "sources": []
+ }
 }

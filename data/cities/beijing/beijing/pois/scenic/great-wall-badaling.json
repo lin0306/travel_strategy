@@ -1,114 +1,176 @@
 {
-  "id": "great-wall-badaling",
-  "name": "八达岭长城",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "距离市区最近、修缮最完善的明长城段落,适合第一次上长城。",
-  "description": "八达岭是明长城中保存最好的一段,居庸关以北的咽喉位置,城墙高大坚固,平均高约七八米,顶宽足够五六匹马并行。景区分南北两线:北线到北十二楼,坡陡人密但视野开阔;南线到南七楼,相对平缓人少。这里的好处是交通方便、设施齐;代价是旺季人多。若想要荒凉感,慕田峪、箭扣、司马台更合适,但路程与体力要求都高出一截。",
-  "highlights": [
-    "北线开阔但人多,南线平缓人少",
-    "明长城保存最好的段落之一",
-    "高铁可直达延庆"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.02004,
-      "lat": 40.359729,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "北京市延庆区八达岭镇军都山",
-    "district": "延庆",
-    "transportTip": "清河站/北京北站乘高铁至八达岭长城站;或德胜门乘877路(以官方为准)"
+ "id": "great-wall-badaling",
+ "name": "八达岭长城",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "距离市区最近、修缮最完善的明长城段落,适合第一次上长城。",
+ "description": "八达岭是明长城中保存最好的一段,居庸关以北的咽喉位置,城墙高大坚固,平均高约七八米,顶宽足够五六匹马并行。景区分南北两线:北线到北十二楼,坡陡人密但视野开阔;南线到南七楼,相对平缓人少。这里的好处是交通方便、设施齐;代价是旺季人多。若想要荒凉感,慕田峪、箭扣、司马台更合适,但路程与体力要求都高出一截。",
+ "highlights": [
+  "北线开阔但人多,南线平缓人少",
+  "明长城保存最好的段落之一",
+  "高铁可直达延庆"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.02004,
+   "lat": 40.359729,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约07:30-16:30(淡旺季有调整),以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "约40元起(旺季),具体以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 240-360 分钟",
-    "durationMinutes": [
-      240,
-      360
-    ],
-    "priceLevel": "budget"
+  "address": "北京市延庆区八达岭镇军都山",
+  "district": "延庆",
+  "transportTip": "清河站/北京北站乘高铁至八达岭长城站;或德胜门乘877路(以官方为准)"
+ },
+ "practical": {
+  "openHours": "旺季 06:30-16:30、淡季 07:30-16:00(检票截止),以景区公告为准",
+  "openHoursRef": 0,
+  "ticket": "旺季(4/1-10/31)40 元、淡季(11/1-3/31)35 元;优惠票半价,以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 240-360 分钟",
+  "durationMinutes": [
+   240,
+   360
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "couple",
+  "kids",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/2014-1-%E5%8C%97%E4%BA%AC-%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E_%2848%29.jpg/1280px-2014-1-%E5%8C%97%E4%BA%AC-%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E_%2848%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/2014-1-%E5%8C%97%E4%BA%AC-%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E_%2848%29.jpg/1280px-2014-1-%E5%8C%97%E4%BA%AC-%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E_%2848%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 608,
+   "alt": "2014-1-北京-八达岭长城 (48).jpg",
+   "query": "八达岭长城 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Willlee710",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2014-1-%E5%8C%97%E4%BA%AC-%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E_(48).jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "kids",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/2014-1-%E5%8C%97%E4%BA%AC-%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E_%2848%29.jpg/1280px-2014-1-%E5%8C%97%E4%BA%AC-%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E_%2848%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/2014-1-%E5%8C%97%E4%BA%AC-%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E_%2848%29.jpg/1280px-2014-1-%E5%8C%97%E4%BA%AC-%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E_%2848%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 608,
-      "alt": "2014-1-北京-八达岭长城 (48).jpg",
-      "query": "八达岭长城 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Willlee710",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2014-1-%E5%8C%97%E4%BA%AC-%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E_(48).jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Badaling_-_Great_Wall_of_China.jpg/1280px-Badaling_-_Great_Wall_of_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Badaling_-_Great_Wall_of_China.jpg/1280px-Badaling_-_Great_Wall_of_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Badaling - Great Wall of China.jpg",
-      "query": "八达岭长城 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Marek Śliwecki",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Badaling_-_Great_Wall_of_China.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Great_Wall_of_China_Museum.jpg/1280px-Great_Wall_of_China_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Great_Wall_of_China_Museum.jpg/1280px-Great_Wall_of_China_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Great Wall of China Museum.jpg",
-      "query": "八达岭长城 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "BabelStone",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Wall_of_China_Museum.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "世界遗产",
-    "长城",
-    "明代",
-    "必去"
-  ],
-  "popularity": 96,
-  "sources": [
-    {
-      "title": "百度百科·八达岭长城",
-      "url": "https://baike.baidu.com/item/%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "八达岭长城"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Badaling_-_Great_Wall_of_China.jpg/1280px-Badaling_-_Great_Wall_of_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Badaling_-_Great_Wall_of_China.jpg/1280px-Badaling_-_Great_Wall_of_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Badaling - Great Wall of China.jpg",
+   "query": "八达岭长城 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Marek Śliwecki",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Badaling_-_Great_Wall_of_China.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "八达岭长城",
-  "_geocodeSuspect": false,
-  "district": "110119"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Great_Wall_of_China_Museum.jpg/1280px-Great_Wall_of_China_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Great_Wall_of_China_Museum.jpg/1280px-Great_Wall_of_China_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Great Wall of China Museum.jpg",
+   "query": "八达岭长城 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "BabelStone",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Wall_of_China_Museum.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "世界遗产",
+  "长城",
+  "明代",
+  "必去"
+ ],
+ "popularity": 96,
+ "sources": [
+  {
+   "title": "百度百科·八达岭长城",
+   "url": "https://baike.baidu.com/item/%E5%85%AB%E8%BE%BE%E5%B2%AD%E9%95%BF%E5%9F%8E",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  },
+  {
+   "title": "八达岭长城开放时间与门票(光明网)",
+   "url": "https://m.gmw.cn/toutiao/2026-10/15/content_1304575805.htm",
+   "kind": "media",
+   "fetchedAt": "2026-11-14"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "八达岭长城"
+ },
+ "_geocodeTitle": "八达岭长城",
+ "_geocodeSuspect": false,
+ "district": "110119",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "保存度",
+    "score": 4.7,
+    "note": "明长城保存最好的段落之一，城墙高大"
+   },
+   {
+    "label": "交通",
+    "score": 4.6,
+    "note": "距市区近，高铁可直达延庆"
+   },
+   {
+    "label": "人流",
+    "score": 2.6,
+    "note": "旺季北线人密，拍照常要等人"
+   },
+   {
+    "label": "坡度",
+    "score": 3.3,
+    "note": "北线坡陡，腿脚一般走不完北十二楼"
+   }
+  ],
+  "body": "明长城里修缮最完善、离市区最近的一段，城墙平均七八米高、顶宽能容五六匹马并行，第一次上长城选它最省心：交通方便、设施齐，高铁到延庆也顺。景区分南北两线，北线到北十二楼视野开阔但坡陡人密，南线到南七楼相对平缓、人也少，时间紧走南线反而更舒服。缺点是旺季人真的多，北线常常一步一等，想拍张空镜基本要等；商业摊位和喇叭声也冲淡了点苍凉感。要荒凉感得去慕田峪、箭扣、司马台，但路程和体力要求都高一截。淡旺季开闭园有调整，出发前看公告。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "第一次上长城",
+   "带长辈孩子",
+   "交通优先"
+  ],
+  "avoid": [
+   "想拍空镜",
+   "追野长城"
+  ],
+  "sources": []
+ },
+ "_patrol": {
+  "at": "2026-11-14",
+  "changes": [
+   {
+    "field": "门票",
+    "old": "约40元起(旺季),具体以官方为准",
+    "new": "旺季(4/1-10/31)40 元、淡季(11/1-3/31)35 元;优惠票半价,以官方为准"
+   },
+   {
+    "field": "开放时间",
+    "old": "约07:30-16:30(淡旺季有调整),以官方公告为准",
+    "new": "旺季 06:30-16:30、淡季 07:30-16:00(检票截止),以景区公告为准"
+   }
+  ],
+  "source": "https://m.gmw.cn/toutiao/2026-10/15/content_1304575805.htm",
+  "reason": "光明网 2026-10 红叶季稿列八达岭开放时间与票价,与景区公告一致"
+ }
 }

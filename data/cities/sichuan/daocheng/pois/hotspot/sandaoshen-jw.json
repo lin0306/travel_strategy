@@ -1,68 +1,106 @@
 {
-  "id": "sandaoshen-jw",
-  "name": "三神山机位",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "洛绒牛场拍三峰同框。",
-  "description": "三神山机位指的是在洛绒牛场一带，把央迈勇和夏诺多吉两座雪峰同框拍下的角度，背后是草甸和经幡。清晨第一缕光打在雪顶上变成金色的“日照金山”，是亚丁最出片的一刻。要拍到得早起、赶第一班观光车，占位要快。三脚架和长焦有用。高原上手会抖、喘得厉害，多拍几张挑好的。天气不好雪顶藏云里，看运气。",
-  "highlights": [
-    "两峰同框",
-    "日照金山",
-    "早起抢位"
-  ],
-  "location": {
-    "point": {
-      "lng": 100.382576,
-      "lat": 28.38666,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "四川省甘孜藏族自治州稻城县香格里拉镇亚丁景区洛绒牛场",
-    "district": "稻城",
-    "transportTip": "亚丁景区内，洛绒牛场站步行"
+ "id": "sandaoshen-jw",
+ "name": "三神山机位",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "洛绒牛场拍三峰同框。",
+ "description": "三神山机位指的是在洛绒牛场一带，把央迈勇和夏诺多吉两座雪峰同框拍下的角度，背后是草甸和经幡。清晨第一缕光打在雪顶上变成金色的“日照金山”，是亚丁最出片的一刻。要拍到得早起、赶第一班观光车，占位要快。三脚架和长焦有用。高原上手会抖、喘得厉害，多拍几张挑好的。天气不好雪顶藏云里，看运气。",
+ "highlights": [
+  "两峰同框",
+  "日照金山",
+  "早起抢位"
+ ],
+ "location": {
+  "point": {
+   "lng": 100.382576,
+   "lat": 28.38666,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "清晨至上午最佳",
-    "openHoursRef": 0,
-    "ticket": "含在亚丁景区门票内",
-    "ticketRef": 0,
-    "duration": "建议 120-300 分钟",
-    "durationMinutes": [
-      120,
-      300
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "friends",
-    "solo",
-    "couple"
+  "address": "四川省甘孜藏族自治州稻城县香格里拉镇亚丁景区洛绒牛场",
+  "district": "稻城",
+  "transportTip": "亚丁景区内，洛绒牛场站步行"
+ },
+ "practical": {
+  "openHours": "清晨至上午最佳",
+  "openHoursRef": 0,
+  "ticket": "含在亚丁景区门票内",
+  "ticketRef": 0,
+  "duration": "建议 120-300 分钟",
+  "durationMinutes": [
+   120,
+   300
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "雪山",
-    "摄影",
-    "日照金山"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "friends",
+  "solo",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "雪山",
+  "摄影",
+  "日照金山"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·稻城亚丁",
+   "url": "https://baike.baidu.com/item/%E7%A8%BB%E5%9F%8E%E4%BA%9A%E4%B8%81",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-06"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "三神山机位"
+ },
+ "_geocodeTitle": "甘孜稻城亚丁景区-洛绒牛场",
+ "_geocodeSuspect": false,
+ "district": "513337",
+ "_noImage": true,
+ "review": {
+  "score": 4.5,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.8,
+    "note": "两座雪峰同框，草甸与经幡退远"
+   },
+   {
+    "label": "时段",
+    "score": 2.1,
+    "note": "要赶第一班观光车占位"
+   },
+   {
+    "label": "体力",
+    "score": 2.4,
+    "note": "高原上快走就喘"
+   },
+   {
+    "label": "运气",
+    "score": 2.0,
+    "note": "雪顶藏云就什么都没有"
+   }
   ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·稻城亚丁",
-      "url": "https://baike.baidu.com/item/%E7%A8%BB%E5%9F%8E%E4%BA%9A%E4%B8%81",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-06"
-    }
+  "body": "洛绒牛场一带能把央迈勇与夏诺多吉同框，背后草甸与经幡一层层退远，清晨第一缕光打在雪顶上的日照金山是亚丁最出片的一刻。缺点是全看天，雪顶一藏进云里就白来；想占位得赶第一班观光车，高原上走快了喘得厉害，手抖也难端稳长焦。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "摄影",
+   "早起"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "三神山机位"
-  },
-  "_geocodeTitle": "甘孜稻城亚丁景区-洛绒牛场",
-  "_geocodeSuspect": false,
-  "district": "513337",
-  "_noImage": true
+  "avoid": [
+   "怕高反",
+   "不接受看运气"
+  ],
+  "sources": []
+ }
 }

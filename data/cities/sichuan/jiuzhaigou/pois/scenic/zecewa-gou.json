@@ -55,21 +55,6 @@
       }
     },
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/%E5%9B%9B%E5%B7%9D%E4%B9%9D%E5%AF%A8%E6%B2%9F.jpg/1280px-%E5%9B%9B%E5%B7%9D%E4%B9%9D%E5%AF%A8%E6%B2%9F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/%E5%9B%9B%E5%B7%9D%E4%B9%9D%E5%AF%A8%E6%B2%9F.jpg/1280px-%E5%9B%9B%E5%B7%9D%E4%B9%9D%E5%AF%A8%E6%B2%9F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "四川九寨沟.jpg",
-      "query": "则查洼沟 九寨沟",
-      "credit": {
-        "source": "wikimedia",
-        "author": "geoff leng",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%9B%9B%E5%B7%9D%E4%B9%9D%E5%AF%A8%E6%B2%9F.jpg",
-        "license": "Public domain",
-        "attributionRequired": false
-      }
-    },
-    {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/%E6%97%A0%E4%BA%BA%E6%B6%89%E8%B6%B3%E7%9A%84%E5%88%99%E6%9F%A5%E6%B4%BC%E6%B2%9F%E6%A0%88%E9%81%93_-_Boardwalk_in_Zechawa_Valley_-_2011.10_-_panoramio.jpg/1280px-%E6%97%A0%E4%BA%BA%E6%B6%89%E8%B6%B3%E7%9A%84%E5%88%99%E6%9F%A5%E6%B4%BC%E6%B2%9F%E6%A0%88%E9%81%93_-_Boardwalk_in_Zechawa_Valley_-_2011.10_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/%E6%97%A0%E4%BA%BA%E6%B6%89%E8%B6%B3%E7%9A%84%E5%88%99%E6%9F%A5%E6%B4%BC%E6%B2%9F%E6%A0%88%E9%81%93_-_Boardwalk_in_Zechawa_Valley_-_2011.10_-_panoramio.jpg/1280px-%E6%97%A0%E4%BA%BA%E6%B6%89%E8%B6%B3%E7%9A%84%E5%88%99%E6%9F%A5%E6%B4%BC%E6%B2%9F%E6%A0%88%E9%81%93_-_Boardwalk_in_Zechawa_Valley_-_2011.10_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
@@ -100,7 +85,7 @@
       "fetchedAt": "2026-10-06"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -108,5 +93,12 @@
   },
   "_geocodeTitle": "九寨沟-则查洼沟",
   "_geocodeSuspect": false,
-  "district": "513225"
+  "district": "513225",
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 1 张（待重抓）",
+    "droppedImages": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/%E5%9B%9B%E5%B7%9D%E4%B9%9D%E5%AF%A8%E6%B2%9F.jpg/1280px-%E5%9B%9B%E5%B7%9D%E4%B9%9D%E5%AF%A8%E6%B2%9F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  }
 }

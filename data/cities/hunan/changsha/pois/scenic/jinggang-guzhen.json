@@ -1,159 +1,196 @@
 {
-  "id": "jinggang-guzhen",
-  "name": "靖港古镇",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "湘江下游的老码头镇，民国时商行林立，旧称「小汉口」。",
-  "description": "靖港在望城区湘江下游西岸，是一个靠水运起来的老镇。清末民初它是湘江上重要的粮食与土货集散地，镇上商行、粮栈、会馆连成一片，当年有「小汉口」的说法。后来公路与铁路取代水运，镇子安静下来，老街的木构店面与麻石路面因此留了下来。现在的景区沿着一条主街展开，两边是复建的铺面，街上有铁器、秤店、糖画一类老手艺的摊。镇里的旧建筑有杨泗庙、宁乡会馆与几处老码头，河边还能看到当年的石阶。进镇免费，里面部分院落单独收费。它与铜官窑在同一片上，两处可以凑一天。",
-  "highlights": [
-    "清末民初湘江上的粮食土货集散地，旧称小汉口",
-    "老街的木构铺面与麻石路面保留下来",
-    "杨泗庙、宁乡会馆与老码头石阶还在"
-  ],
-  "location": {
-    "point": {
-      "lng": 112.795069,
-      "lat": 28.456071,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "湖南省长沙市望城区靖港镇",
-    "district": "望城区",
-    "transportTip": "长沙市区自驾约一小时；或从长沙汽车西站乘车至望城再转当地车"
+ "id": "jinggang-guzhen",
+ "name": "靖港古镇",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "湘江下游的老码头镇，民国时商行林立，旧称「小汉口」。",
+ "description": "靖港在望城区湘江下游西岸，是一个靠水运起来的老镇。清末民初它是湘江上重要的粮食与土货集散地，镇上商行、粮栈、会馆连成一片，当年有「小汉口」的说法。后来公路与铁路取代水运，镇子安静下来，老街的木构店面与麻石路面因此留了下来。现在的景区沿着一条主街展开，两边是复建的铺面，街上有铁器、秤店、糖画一类老手艺的摊。镇里的旧建筑有杨泗庙、宁乡会馆与几处老码头，河边还能看到当年的石阶。进镇免费，里面部分院落单独收费。它与铜官窑在同一片上，两处可以凑一天。",
+ "highlights": [
+  "清末民初湘江上的粮食土货集散地，旧称小汉口",
+  "老街的木构铺面与麻石路面保留下来",
+  "杨泗庙、宁乡会馆与老码头石阶还在"
+ ],
+ "location": {
+  "point": {
+   "lng": 112.795069,
+   "lat": 28.456071,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:30-17:30（部分院落时间不同），以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "进镇免费，部分院落另计，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 120-240 分钟",
-    "durationMinutes": [
-      120,
-      240
-    ],
-    "priceLevel": "free"
+  "address": "湖南省长沙市望城区靖港镇",
+  "district": "望城区",
+  "transportTip": "长沙市区自驾约一小时；或从长沙汽车西站乘车至望城再转当地车"
+ },
+ "practical": {
+  "openHours": "约08:30-17:30（部分院落时间不同），以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "进镇免费，部分院落另计，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 120-240 分钟",
+  "durationMinutes": [
+   120,
+   240
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "family",
+  "elders",
+  "friends",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Gate%2C_Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China1.jpg/1280px-Gate%2C_Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Gate%2C_Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China1.jpg/1280px-Gate%2C_Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Gate, Jinggang Ancient Town, Wangcheng District of Changsha, Hunan, China1.jpg",
+   "query": "靖港古镇 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Huangdan2060",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gate,_Jinggang_Ancient_Town,_Wangcheng_District_of_Changsha,_Hunan,_China1.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
   },
-  "audience": [
-    "family",
-    "elders",
-    "friends",
-    "couple"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Gate%2C_Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China1.jpg/1280px-Gate%2C_Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Gate%2C_Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China1.jpg/1280px-Gate%2C_Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Gate, Jinggang Ancient Town, Wangcheng District of Changsha, Hunan, China1.jpg",
-      "query": "靖港古镇 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Huangdan2060",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gate,_Jinggang_Ancient_Town,_Wangcheng_District_of_Changsha,_Hunan,_China1.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Gate%2C_Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China2.jpg/1280px-Gate%2C_Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Gate%2C_Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China2.jpg/1280px-Gate%2C_Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Gate, Jinggang Ancient Town, Wangcheng District of Changsha, Hunan, China2.jpg",
-      "query": "靖港古镇 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Huangdan2060",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gate,_Jinggang_Ancient_Town,_Wangcheng_District_of_Changsha,_Hunan,_China2.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Guanyin_Temple%2C_Jinggang_Ancient_Town.jpg/1280px-Guanyin_Temple%2C_Jinggang_Ancient_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Guanyin_Temple%2C_Jinggang_Ancient_Town.jpg/1280px-Guanyin_Temple%2C_Jinggang_Ancient_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Guanyin Temple, Jinggang Ancient Town.jpg",
-      "query": "靖港古镇 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Huangdan2060",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guanyin_Temple,_Jinggang_Ancient_Town.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China1.jpg/1280px-Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China1.jpg/1280px-Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Jinggang Ancient Town, Wangcheng District of Changsha, Hunan, China1.jpg",
-      "query": "靖港古镇 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Huangdan2060",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jinggang_Ancient_Town,_Wangcheng_District_of_Changsha,_Hunan,_China1.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China2.jpg/1280px-Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China2.jpg/1280px-Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Jinggang Ancient Town, Wangcheng District of Changsha, Hunan, China2.jpg",
-      "query": "靖港古镇 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Huangdan2060",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jinggang_Ancient_Town,_Wangcheng_District_of_Changsha,_Hunan,_China2.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China3.jpg/1280px-Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China3.jpg/1280px-Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Jinggang Ancient Town, Wangcheng District of Changsha, Hunan, China3.jpg",
-      "query": "靖港古镇 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Huangdan2060",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jinggang_Ancient_Town,_Wangcheng_District_of_Changsha,_Hunan,_China3.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "古镇",
-    "码头",
-    "老街"
-  ],
-  "popularity": 76,
-  "sources": [
-    {
-      "title": "百度百科·靖港古镇",
-      "url": "https://baike.baidu.com/item/%E9%9D%96%E6%B8%AF%E5%8F%A4%E9%95%87",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "靖港古镇"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Gate%2C_Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China2.jpg/1280px-Gate%2C_Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Gate%2C_Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China2.jpg/1280px-Gate%2C_Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Gate, Jinggang Ancient Town, Wangcheng District of Changsha, Hunan, China2.jpg",
+   "query": "靖港古镇 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Huangdan2060",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gate,_Jinggang_Ancient_Town,_Wangcheng_District_of_Changsha,_Hunan,_China2.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
   },
-  "_geocodeTitle": "靖港古镇景区",
-  "_geocodeSuspect": false,
-  "district": "430112"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Guanyin_Temple%2C_Jinggang_Ancient_Town.jpg/1280px-Guanyin_Temple%2C_Jinggang_Ancient_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Guanyin_Temple%2C_Jinggang_Ancient_Town.jpg/1280px-Guanyin_Temple%2C_Jinggang_Ancient_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Guanyin Temple, Jinggang Ancient Town.jpg",
+   "query": "靖港古镇 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Huangdan2060",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guanyin_Temple,_Jinggang_Ancient_Town.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China1.jpg/1280px-Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China1.jpg/1280px-Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Jinggang Ancient Town, Wangcheng District of Changsha, Hunan, China1.jpg",
+   "query": "靖港古镇 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Huangdan2060",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jinggang_Ancient_Town,_Wangcheng_District_of_Changsha,_Hunan,_China1.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China2.jpg/1280px-Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China2.jpg/1280px-Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Jinggang Ancient Town, Wangcheng District of Changsha, Hunan, China2.jpg",
+   "query": "靖港古镇 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Huangdan2060",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jinggang_Ancient_Town,_Wangcheng_District_of_Changsha,_Hunan,_China2.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China3.jpg/1280px-Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China3.jpg/1280px-Jinggang_Ancient_Town%2C_Wangcheng_District_of_Changsha%2C_Hunan%2C_China3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Jinggang Ancient Town, Wangcheng District of Changsha, Hunan, China3.jpg",
+   "query": "靖港古镇 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Huangdan2060",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jinggang_Ancient_Town,_Wangcheng_District_of_Changsha,_Hunan,_China3.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "古镇",
+  "码头",
+  "老街"
+ ],
+ "popularity": 76,
+ "sources": [
+  {
+   "title": "百度百科·靖港古镇",
+   "url": "https://baike.baidu.com/item/%E9%9D%96%E6%B8%AF%E5%8F%A4%E9%95%87",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "靖港古镇"
+ },
+ "_geocodeTitle": "靖港古镇景区",
+ "_geocodeSuspect": false,
+ "district": "430112",
+ "review": {
+  "score": 3.8,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "古意",
+    "score": 3.6,
+    "note": "麻石路面与木构铺面还在，主街不少是复建"
+   },
+   {
+    "label": "商业化",
+    "score": 3.0,
+    "note": "临街铺面卖的东西雷同，老手艺摊只剩零星几家"
+   },
+   {
+    "label": "人流",
+    "score": 3.6,
+    "note": "非节假日街上很空"
+   },
+   {
+    "label": "交通",
+    "score": 2.7,
+    "note": "望城湘江下游，市区过去要转车或自驾"
+   }
+  ],
+  "body": "湘江下游靠水运起来的老镇，清末民初是粮食土货集散地，旧称小汉口；老街的麻石路、木构铺面与河边老码头石阶都还在，杨泗庙和会馆可以进去看。缺点是主街铺面多为复建，卖的东西几条街一个样；从市区过去交通偏折腾，镇子不大，两三个小时就走到头，和铜官窑凑一天更划算。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "古镇",
+   "和铜官窑串线"
+  ],
+  "avoid": [
+   "专程只为逛古镇"
+  ],
+  "sources": []
+ }
 }

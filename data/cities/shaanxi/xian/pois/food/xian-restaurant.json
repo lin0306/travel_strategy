@@ -12,13 +12,13 @@
   ],
   "location": {
     "point": {
-      "lng": 108.94896,
-      "lat": 34.260576,
+      "lat": 34.259168,
+      "lng": 108.957849,
       "coordSystem": "GCJ-02"
     },
-    "address": "西安市碑林区（以门店公告为准）",
-    "district": "新城区",
-    "transportTip": "以门店公告位置为准"
+    "address": "西安市碑林区东大街298号",
+    "district": "碑林区",
+    "transportTip": "地铁 4 号线大差市站 F 口步行约 5 分钟"
   },
   "practical": {
     "openHours": "约 10:30-21:00（以门店公告为准）",
@@ -51,9 +51,15 @@
       "url": "https://baike.baidu.com/item/%E8%A5%BF%E5%AE%89%E9%A5%AD%E5%BA%84",
       "kind": "wiki",
       "fetchedAt": "2026-09-19"
+    },
+    {
+      "title": "百度百科·西安饮食股份有限公司西安饭庄（工商登记）",
+      "url": "https://baike.baidu.com/item/%E8%A5%BF%E5%AE%89%E9%A5%AE%E9%A3%9F%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E8%A5%BF%E5%AE%89%E9%A5%AD%E5%BA%84/24545927",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-29",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -61,6 +67,35 @@
   },
   "_geocodeTitle": "西安饭庄",
   "_geocodeSuspect": false,
-  "district": "610102",
-  "_noImage": true
+  "district": "610103",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "西安市碑林区（以门店公告为准）",
+        "new": "西安市碑林区东大街298号"
+      },
+      {
+        "field": "point",
+        "old": {
+          "lng": 108.94896,
+          "lat": 34.260576,
+          "coordSystem": "GCJ-02"
+        },
+        "new": [
+          34.259168,
+          108.957849
+        ]
+      },
+      {
+        "field": "交通提示",
+        "old": "以门店公告位置为准",
+        "new": "地铁 4 号线大差市站 F 口步行约 5 分钟"
+      }
+    ],
+    "source": "https://baike.baidu.com/item/%E8%A5%BF%E5%AE%89%E9%A5%AE%E9%A3%9F%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E8%A5%BF%E5%AE%89%E9%A5%AD%E5%BA%84/24545927",
+    "reason": "工商登记地址为碑林区东大街298号，原坐标偏西约835米落在钟楼东侧"
+  }
 }

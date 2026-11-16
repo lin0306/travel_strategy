@@ -1,0 +1,85 @@
+{
+  "id": "chengdu-wufengxi-ancient-town",
+  "name": "五凤溪古镇",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "成都唯一的山地古镇，半边山半边江，移民会馆还在用",
+  "description": "五凤溪在金堂、龙泉山脉中段的沱江之畔，距成都约四十八公里，是成都十大古镇里唯一的山地古镇——别的川西场镇都摊在平原上，它是依着山势沿江铺开的，所谓「半边山江半边城」。五条以凤命名的街（金凤、青凤、小凤、白凤、玉凤）顺山势延伸，整体像一只展翅的凤凰，镇名也由此而来；白凤街一面临崖，宽处只有两排房、窄处只剩一排，本地人叫它「半边街」，起雾时有山城的味道。真正的看点是「湖广填四川」留下的移民会馆群：关圣宫是陕西会馆，却套在湖广会馆禹王宫的外围，形成全国罕见的「馆中套馆」格局，门口还留着禹王宫的对联，被古建专家评为四川保存最完好、规模最大的关帝庙；南华宫是广东会馆，岭南风格配川西民居，现为省级文保。镇外金箱村还有贺麟故居，清代二进三重四合院，是中国现代哲学家贺麟的手稿与家训陈列地。沱江边的码头遗迹、尚义桥与观音堂、福音堂散在街巷之间。",
+  "highlights": [
+    "关圣宫「馆中套馆」：陕西会馆套在湖广会馆外围，全国罕见",
+    "白凤街一面临崖，宽处两排房、窄处只剩一排，号称「半边街」",
+    "贺麟故居在镇外金箱村，藏先生手稿与家训"
+  ],
+  "location": {
+    "point": {
+      "lng": 104.483127,
+      "lat": 30.605704,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "成都市金堂县五凤镇小凤街",
+    "district": "金堂县",
+    "transportTip": "五桂桥乘 K7 至洛带客运中心换洛带-五凤公交；或成都东站汽车站乘途经五凤溪的金堂班车"
+  },
+  "practical": {
+    "openHours": "古镇街区全天开放；会馆开放时间以现场公示为准",
+    "openHoursRef": 0,
+    "ticket": "古镇免费；关圣宫免费，部分展馆另收费",
+    "ticketRef": 0,
+    "duration": "建议 180-240 分钟",
+    "durationMinutes": [
+      180,
+      240
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple",
+    "friends",
+    "family",
+    "kids",
+    "elders"
+  ],
+  "accessible": false,
+  "tips": [
+    "公共交通要换乘两次，赶时间建议自驾（约 1 小时）",
+    "关圣宫 15:00 左右有自愿消费的变脸表演，约 30 元",
+    "贺麟故居距古镇约 2 公里，可坐摆渡车"
+  ],
+  "images": [],
+  "coverIndex": 0,
+  "tags": [
+    "山地古镇",
+    "移民会馆",
+    "沱江"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "成都唯一山地古镇，五凤溪详细旅游攻略（2026 版）（微信公众号）",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzI5MjIxOTg1Ng==&mid=2247489240&idx=1&sn=fbf33e4761f2b678f17b86e1e0b1154a&chksm=ed5c7cc91d5fe7ac0fec4f08c5a3d5bd73f0720468ebb20b48960a0a36b42e967a0523794ab3#rd",
+      "kind": "media",
+      "fetchedAt": "2026-11-06"
+    }
+  ],
+  "updatedAt": "2026-11-08",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Wufengxi Ancient Town",
+    "zh": "五凤溪古镇"
+  },
+  "_geocodeTitle": "五凤溪古镇景区",
+  "_geocodeSuspect": false,
+  "_noImage": true,
+  "district": "510121",
+  "_patrol": {
+    "changes": [
+      {
+        "field": "所属区",
+        "old": "简阳市/510185",
+        "new": "金堂县/510121",
+        "why": "五凤镇属金堂县，非简阳市"
+      }
+    ],
+    "at": "2026-11-08"
+  }
+}

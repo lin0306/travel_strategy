@@ -1,69 +1,109 @@
 {
-  "id": "huangzehe",
-  "name": "黄则和(大同店)",
-  "category": "food",
-  "subtype": "local",
-  "summary": "上世纪四十年代开的花生汤店，一碗甜汤配咸点是老吃法。",
-  "description": "黄则和是厦门的花生汤老铺，上世纪四十年代由黄则和本人摆摊做起，店名就是他的名字，传到今天成了本地的招牌之一。招牌是花生汤——花生仁熬到一抿就化，汤是甜的，打一颗鸡蛋进去，本地叫「加蛋」。咸的那一半是韭菜盒、芋包、烧肉粽和炸枣，甜咸搭着吃是这里的方式。店在中山路一带的大同路上，门面不大，桌凳挨着，端着托盘找位是常态。价格便宜，人均二三十块。早上和下午人最多，游客和本地人混在一起。",
-  "highlights": [
-    "上世纪四十年代摆摊起家的花生汤老铺",
-    "花生仁熬到一抿就化，可加蛋",
-    "甜汤配韭菜盒、芋包、烧肉粽"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.079946,
-      "lat": 24.457048,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "福建省厦门市思明区大同路276号",
-    "district": "思明区",
-    "transportTip": "地铁1号线镇海路站，步行约十分钟"
+ "id": "huangzehe",
+ "name": "黄则和(大同店)",
+ "category": "food",
+ "subtype": "local",
+ "summary": "上世纪四十年代开的花生汤店，一碗甜汤配咸点是老吃法。",
+ "description": "黄则和是厦门的花生汤老铺，上世纪四十年代由黄则和本人摆摊做起，店名就是他的名字，传到今天成了本地的招牌之一。招牌是花生汤——花生仁熬到一抿就化，汤是甜的，打一颗鸡蛋进去，本地叫「加蛋」。咸的那一半是韭菜盒、芋包、烧肉粽和炸枣，甜咸搭着吃是这里的方式。店在中山路一带的大同路上，门面不大，桌凳挨着，端着托盘找位是常态。价格便宜，人均二三十块。早上和下午人最多，游客和本地人混在一起。",
+ "highlights": [
+  "上世纪四十年代摆摊起家的花生汤老铺",
+  "花生仁熬到一抿就化，可加蛋",
+  "甜汤配韭菜盒、芋包、烧肉粽"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.079946,
+   "lat": 24.457048,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约06:30-21:30（各店不同），以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "人均约25元起，以实际消费为准",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "elders",
-    "family",
-    "friends",
-    "solo"
+  "address": "福建省厦门市思明区大同路276号",
+  "district": "思明区",
+  "transportTip": "地铁1号线镇海路站，步行约十分钟"
+ },
+ "practical": {
+  "openHours": "约06:30-21:30（各店不同），以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "人均约25元起，以实际消费为准",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "花生汤",
-    "老字号",
-    "中山路"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "elders",
+  "family",
+  "friends",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "花生汤",
+  "老字号",
+  "中山路"
+ ],
+ "popularity": 86,
+ "sources": [
+  {
+   "title": "百度百科·黄则和",
+   "url": "https://baike.baidu.com/item/%E9%BB%84%E5%88%99%E5%92%8C",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "黄则和(大同店)"
+ },
+ "_geocodeTitle": "黄则和(大同店)",
+ "_geocodeSuspect": false,
+ "district": "350203",
+ "_noImage": true,
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.0,
+    "note": "花生熬到一抿就化，加蛋是标准吃法"
+   },
+   {
+    "label": "人流",
+    "score": 2.4,
+    "note": "饭点游客与旅行团集中"
+   },
+   {
+    "label": "环境",
+    "score": 2.8,
+    "note": "桌凳挨着，端着托盘找位是常态"
+   },
+   {
+    "label": "价格",
+    "score": 4.2,
+    "note": "人均二十几块，糕点也便宜"
+   }
   ],
-  "popularity": 86,
+  "body": "厦门的花生汤老铺，花生仁熬到一抿就化，打一颗鸡蛋进去是本地吃法，配韭菜盒与芋包甜咸搭着来，价格便宜。缺点是饭点游客与旅行团集中、座位靠抢，汤偏甜不一定合所有人胃口，端着托盘找位这件事本身就谈不上体验。",
+  "basis": "web",
+  "at": "2026-11-12",
+  "fits": [
+   "吃早饭",
+   "尝老字号"
+  ],
+  "avoid": [
+   "饭点高峰"
+  ],
   "sources": [
-    {
-      "title": "百度百科·黄则和",
-      "url": "https://baike.baidu.com/item/%E9%BB%84%E5%88%99%E5%92%8C",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "黄则和(大同店)"
-  },
-  "_geocodeTitle": "黄则和(大同店)",
-  "_geocodeSuspect": false,
-  "district": "350203",
-  "_noImage": true
+   "https://www.mafengwo.cn/poi/29870158.html",
+   "https://you.ctrip.com/food/175/17548561.html"
+  ]
+ }
 }

@@ -1,201 +1,239 @@
 {
-  "id": "fenghuang-ancient-village",
-  "name": "凤凰古村",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "宝安福永的700年广府古村，免费全天开放，冷门但建筑密度很高",
-  "description": "深圳现存规模最大、保存最完整的广府古村落之一，在宝安福永凤凰山脚下，是文天祥族人后裔的聚落，有七百多年历史。村里保留着 69 座明清民居、12 座公祠、5 座私塾书室和 12 口古井，青砖灰瓦、船形正脊；巷道高宽比大，多数时候处在建筑阴影里，夏天走也不晒。文氏宗祠与清同治年间的拔茹书室是重点，村口的凤凰塔建于清嘉庆年间，六层六角，是宝安现存最高的古塔。古村全天免费开放，文天祥纪念馆单独按周二至周日 09:30-17:00 开放。商业化程度低，餐饮配套少，建议自带水。",
-  "highlights": [
-    "69 座明清民居、12 座公祠、5 座私塾，广府建筑密度全市少见",
-    "清嘉庆年间的六层六角凤凰塔，宝安现存最高的古塔",
-    "巷道窄而高，常年处在建筑阴影里，夏天走也不晒"
-  ],
-  "location": {
-    "point": {
-      "lng": 113.840669,
-      "lat": 22.691011,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "深圳市宝安区福永街道凤凰山大道172号",
-    "district": "宝安区",
-    "transportTip": "地铁11号线塘尾站B口换乘M252路至凤凰广场站；公交M251、M252、M184、M333路至凤凰广场站"
+ "id": "fenghuang-ancient-village",
+ "name": "凤凰古村",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "宝安福永的700年广府古村，免费全天开放，冷门但建筑密度很高",
+ "description": "深圳现存规模最大、保存最完整的广府古村落之一，在宝安福永凤凰山脚下，是文天祥族人后裔的聚落，有七百多年历史。村里保留着 69 座明清民居、12 座公祠、5 座私塾书室和 12 口古井，青砖灰瓦、船形正脊；巷道高宽比大，多数时候处在建筑阴影里，夏天走也不晒。文氏宗祠与清同治年间的拔茹书室是重点，村口的凤凰塔建于清嘉庆年间，六层六角，是宝安现存最高的古塔。古村全天免费开放，文天祥纪念馆单独按周二至周日 09:30-17:00 开放。商业化程度低，餐饮配套少，建议自带水。",
+ "highlights": [
+  "69 座明清民居、12 座公祠、5 座私塾，广府建筑密度全市少见",
+  "清嘉庆年间的六层六角凤凰塔，宝安现存最高的古塔",
+  "巷道窄而高，常年处在建筑阴影里，夏天走也不晒"
+ ],
+ "location": {
+  "point": {
+   "lng": 113.840669,
+   "lat": 22.691011,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "古村全天开放（文天祥纪念馆约 09:30-17:00、周一闭馆），以现场公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费，无需预约",
-    "ticketRef": 0,
-    "duration": "建议 90-150 分钟",
-    "durationMinutes": [
-      90,
-      150
-    ],
-    "priceLevel": "free"
+  "address": "深圳市宝安区福永街道凤凰山大道172号",
+  "district": "宝安区",
+  "transportTip": "地铁11号线塘尾站B口换乘M252路至凤凰广场站；公交M251、M252、M184、M333路至凤凰广场站"
+ },
+ "practical": {
+  "openHours": "古村全天开放（文天祥纪念馆约 09:30-17:00、周一闭馆），以现场公告为准",
+  "openHoursRef": 0,
+  "ticket": "免费，无需预约",
+  "ticketRef": 0,
+  "duration": "建议 90-150 分钟",
+  "durationMinutes": [
+   90,
+   150
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "solo",
+  "couple",
+  "family",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [
+  "没有地铁直达，最近的是 11 号线塘尾站，出站还要换公交或打车",
+  "村里商业化低、餐饮少，务必自带水和食物",
+  "可以紧挨着排凤凰山森林公园，一天刚好"
+ ],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/%E8%8C%85%E5%B1%B1%E5%85%AC%E5%AE%B6%E5%A1%BE_20230726.jpg/1280px-%E8%8C%85%E5%B1%B1%E5%85%AC%E5%AE%B6%E5%A1%BE_20230726.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/%E8%8C%85%E5%B1%B1%E5%85%AC%E5%AE%B6%E5%A1%BE_20230726.jpg/1280px-%E8%8C%85%E5%B1%B1%E5%85%AC%E5%AE%B6%E5%A1%BE_20230726.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "茅山公家塾 20230726.jpg",
+   "query": "凤凰古村",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Uuongkinghe",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "solo",
-    "couple",
-    "family",
-    "friends"
-  ],
-  "accessible": false,
-  "tips": [
-    "没有地铁直达，最近的是 11 号线塘尾站，出站还要换公交或打车",
-    "村里商业化低、餐饮少，务必自带水和食物",
-    "可以紧挨着排凤凰山森林公园，一天刚好"
-  ],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/%E8%8C%85%E5%B1%B1%E5%85%AC%E5%AE%B6%E5%A1%BE_20230726.jpg/1280px-%E8%8C%85%E5%B1%B1%E5%85%AC%E5%AE%B6%E5%A1%BE_20230726.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/%E8%8C%85%E5%B1%B1%E5%85%AC%E5%AE%B6%E5%A1%BE_20230726.jpg/1280px-%E8%8C%85%E5%B1%B1%E5%85%AC%E5%AE%B6%E5%A1%BE_20230726.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "茅山公家塾 20230726.jpg",
-      "query": "凤凰古村",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Uuongkinghe",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/20260607-%E8%8C%85%E5%B1%B1%E5%85%AC%E5%AE%B6%E5%A1%BE.jpg/1280px-20260607-%E8%8C%85%E5%B1%B1%E5%85%AC%E5%AE%B6%E5%A1%BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/20260607-%E8%8C%85%E5%B1%B1%E5%85%AC%E5%AE%B6%E5%A1%BE.jpg/1280px-20260607-%E8%8C%85%E5%B1%B1%E5%85%AC%E5%AE%B6%E5%A1%BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "20260607-茅山公家塾.jpg",
-      "query": "凤凰古村",
-      "credit": {
-        "source": "wikimedia",
-        "author": "BMSBridge",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/%E6%96%87%E6%B0%8F%E5%AE%97%E7%A5%A0_20230726.jpg/1280px-%E6%96%87%E6%B0%8F%E5%AE%97%E7%A5%A0_20230726.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/%E6%96%87%E6%B0%8F%E5%AE%97%E7%A5%A0_20230726.jpg/1280px-%E6%96%87%E6%B0%8F%E5%AE%97%E7%A5%A0_20230726.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "文氏宗祠 20230726.jpg",
-      "query": "凤凰古村",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Uuongkinghe",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/20260607-%E5%87%A4%E5%87%B0%E6%9D%91%E9%87%91%E8%9F%BE%E4%BA%95.jpg/1280px-20260607-%E5%87%A4%E5%87%B0%E6%9D%91%E9%87%91%E8%9F%BE%E4%BA%95.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/20260607-%E5%87%A4%E5%87%B0%E6%9D%91%E9%87%91%E8%9F%BE%E4%BA%95.jpg/1280px-20260607-%E5%87%A4%E5%87%B0%E6%9D%91%E9%87%91%E8%9F%BE%E4%BA%95.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "20260607-凤凰村金蟾井.jpg",
-      "query": "凤凰古村",
-      "credit": {
-        "source": "wikimedia",
-        "author": "BMSBridge",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/%E6%8B%94%E8%8C%B9%E4%B9%A6%E5%AE%A4_20230726.jpg/1280px-%E6%8B%94%E8%8C%B9%E4%B9%A6%E5%AE%A4_20230726.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/%E6%8B%94%E8%8C%B9%E4%B9%A6%E5%AE%A4_20230726.jpg/1280px-%E6%8B%94%E8%8C%B9%E4%B9%A6%E5%AE%A4_20230726.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "拔茹书室 20230726.jpg",
-      "query": "凤凰古村",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Uuongkinghe",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/20260607-%E5%B2%AD%E4%B8%8B%E6%9D%91%E5%8C%97%E4%BA%8C%E5%8D%81%E5%85%AD%E5%B7%B710%E5%8F%B7%E6%B0%91%E5%B1%85.jpg/1280px-20260607-%E5%B2%AD%E4%B8%8B%E6%9D%91%E5%8C%97%E4%BA%8C%E5%8D%81%E5%85%AD%E5%B7%B710%E5%8F%B7%E6%B0%91%E5%B1%85.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/20260607-%E5%B2%AD%E4%B8%8B%E6%9D%91%E5%8C%97%E4%BA%8C%E5%8D%81%E5%85%AD%E5%B7%B710%E5%8F%B7%E6%B0%91%E5%B1%85.jpg/1280px-20260607-%E5%B2%AD%E4%B8%8B%E6%9D%91%E5%8C%97%E4%BA%8C%E5%8D%81%E5%85%AD%E5%B7%B710%E5%8F%B7%E6%B0%91%E5%B1%85.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "20260607-岭下村北二十六巷10号民居.jpg",
-      "query": "凤凰古村",
-      "credit": {
-        "source": "wikimedia",
-        "author": "BMSBridge",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 2,
-  "tags": [
-    "古村",
-    "免费",
-    "广府建筑",
-    "宝安",
-    "拍照"
-  ],
-  "popularity": 66,
-  "sources": [
-    {
-      "title": "一个可以“边玩边学”的天然避暑课堂（宝安日报）",
-      "url": "https://barb.sznews.com/MB/content/202607/31/content_3467600.html",
-      "kind": "media",
-      "fetchedAt": "2026-10-25"
-    }
-  ],
-  "updatedAt": "2026-11-03",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Fenghuang Ancient Village Shenzhen",
-    "zh": "凤凰古村"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/20260607-%E8%8C%85%E5%B1%B1%E5%85%AC%E5%AE%B6%E5%A1%BE.jpg/1280px-20260607-%E8%8C%85%E5%B1%B1%E5%85%AC%E5%AE%B6%E5%A1%BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/20260607-%E8%8C%85%E5%B1%B1%E5%85%AC%E5%AE%B6%E5%A1%BE.jpg/1280px-20260607-%E8%8C%85%E5%B1%B1%E5%85%AC%E5%AE%B6%E5%A1%BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "20260607-茅山公家塾.jpg",
+   "query": "凤凰古村",
+   "credit": {
+    "source": "wikimedia",
+    "author": "BMSBridge",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "凤凰古村405号楼",
-  "_geocodeSuspect": false,
-  "district": "440306"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/%E6%96%87%E6%B0%8F%E5%AE%97%E7%A5%A0_20230726.jpg/1280px-%E6%96%87%E6%B0%8F%E5%AE%97%E7%A5%A0_20230726.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/%E6%96%87%E6%B0%8F%E5%AE%97%E7%A5%A0_20230726.jpg/1280px-%E6%96%87%E6%B0%8F%E5%AE%97%E7%A5%A0_20230726.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "文氏宗祠 20230726.jpg",
+   "query": "凤凰古村",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Uuongkinghe",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/20260607-%E5%87%A4%E5%87%B0%E6%9D%91%E9%87%91%E8%9F%BE%E4%BA%95.jpg/1280px-20260607-%E5%87%A4%E5%87%B0%E6%9D%91%E9%87%91%E8%9F%BE%E4%BA%95.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/20260607-%E5%87%A4%E5%87%B0%E6%9D%91%E9%87%91%E8%9F%BE%E4%BA%95.jpg/1280px-20260607-%E5%87%A4%E5%87%B0%E6%9D%91%E9%87%91%E8%9F%BE%E4%BA%95.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "20260607-凤凰村金蟾井.jpg",
+   "query": "凤凰古村",
+   "credit": {
+    "source": "wikimedia",
+    "author": "BMSBridge",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/%E6%8B%94%E8%8C%B9%E4%B9%A6%E5%AE%A4_20230726.jpg/1280px-%E6%8B%94%E8%8C%B9%E4%B9%A6%E5%AE%A4_20230726.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/%E6%8B%94%E8%8C%B9%E4%B9%A6%E5%AE%A4_20230726.jpg/1280px-%E6%8B%94%E8%8C%B9%E4%B9%A6%E5%AE%A4_20230726.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "拔茹书室 20230726.jpg",
+   "query": "凤凰古村",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Uuongkinghe",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/20260607-%E5%B2%AD%E4%B8%8B%E6%9D%91%E5%8C%97%E4%BA%8C%E5%8D%81%E5%85%AD%E5%B7%B710%E5%8F%B7%E6%B0%91%E5%B1%85.jpg/1280px-20260607-%E5%B2%AD%E4%B8%8B%E6%9D%91%E5%8C%97%E4%BA%8C%E5%8D%81%E5%85%AD%E5%B7%B710%E5%8F%B7%E6%B0%91%E5%B1%85.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/20260607-%E5%B2%AD%E4%B8%8B%E6%9D%91%E5%8C%97%E4%BA%8C%E5%8D%81%E5%85%AD%E5%B7%B710%E5%8F%B7%E6%B0%91%E5%B1%85.jpg/1280px-20260607-%E5%B2%AD%E4%B8%8B%E6%9D%91%E5%8C%97%E4%BA%8C%E5%8D%81%E5%85%AD%E5%B7%B710%E5%8F%B7%E6%B0%91%E5%B1%85.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "20260607-岭下村北二十六巷10号民居.jpg",
+   "query": "凤凰古村",
+   "credit": {
+    "source": "wikimedia",
+    "author": "BMSBridge",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 2,
+ "tags": [
+  "古村",
+  "免费",
+  "广府建筑",
+  "宝安",
+  "拍照"
+ ],
+ "popularity": 66,
+ "sources": [
+  {
+   "title": "一个可以“边玩边学”的天然避暑课堂（宝安日报）",
+   "url": "https://barb.sznews.com/MB/content/202607/31/content_3467600.html",
+   "kind": "media",
+   "fetchedAt": "2026-10-25"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Fenghuang Ancient Village Shenzhen",
+  "zh": "凤凰古村"
+ },
+ "_geocodeTitle": "凤凰古村405号楼",
+ "_geocodeSuspect": false,
+ "district": "440306",
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "建筑",
+    "score": 4.6,
+    "note": "明清民居、公祠、书室与古井密度很高"
+   },
+   {
+    "label": "免费",
+    "score": 4.5,
+    "note": "古村全天免费开放"
+   },
+   {
+    "label": "交通",
+    "score": 2.5,
+    "note": "没有地铁直达，出站还要换公交"
+   },
+   {
+    "label": "配套",
+    "score": 2.4,
+    "note": "商业化低，餐饮少"
+   }
+  ],
+  "body": "宝安福永凤凰山脚下的广府古村，文氏族人后裔的聚落，青砖灰瓦、船形正脊，明清民居、公祠、私塾书室与古井连成一片，巷道高宽比大，多数时候在建筑阴影里，夏天走也不晒；村口的六层六角古塔是标志。文天祥纪念馆另按时段开放。缺点是交通不便，没有地铁直达，最近站点出来还得换公交或打车；村里餐饮配套少，务必自带水，纪念馆还有闭馆日。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "看广府古建",
+   "夏天避暑慢逛"
+  ],
+  "avoid": [
+   "不想转车",
+   "想就地吃正餐"
+  ],
+  "sources": []
+ }
 }

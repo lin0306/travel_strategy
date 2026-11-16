@@ -1,67 +1,122 @@
 {
-  "id": "wupeng-shenghuo",
-  "name": "乌篷船与水乡生活",
-  "category": "culture",
-  "subtype": "street",
-  "summary": "以船为马的出行方式，水城的日常。",
-  "description": "乌篷船与八字桥、台门一起，构成了绍兴「以船代步、枕河而居」的水乡生活方式，是这座城区别于其他古城的筋骨。过去送货、走亲、上学都靠这叶黑篷，如今更多转为游赏，但水巷依旧是日常。想感受活着的绍兴，坐一次船、走一遍河街。",
-  "highlights": [
-    "以船代步枕河而居",
-    "水城区别于他城的筋骨",
-    "活着的绍兴，船与河街"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.582338,
-      "lat": 29.989092,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "绍兴市越城区市河水巷",
-    "district": "越城区",
-    "transportTip": "结合水巷与乌篷船"
+ "id": "wupeng-shenghuo",
+ "name": "乌篷船与水乡生活",
+ "category": "culture",
+ "subtype": "street",
+ "summary": "以船为马的出行方式，水城的日常。",
+ "description": "乌篷船与八字桥、台门一起，构成了绍兴「以船代步、枕河而居」的水乡生活方式，是这座城区别于其他古城的筋骨。过去送货、走亲、上学都靠这叶黑篷，如今更多转为游赏，但水巷依旧是日常。想感受活着的绍兴，坐一次船、走一遍河街。",
+ "highlights": [
+  "以船代步枕河而居",
+  "水城区别于他城的筋骨",
+  "活着的绍兴，船与河街"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.582338,
+   "lat": 29.989092,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天（以水域为准）",
-    "openHoursRef": 0,
-    "ticket": "以游船为准",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
+  "address": "绍兴市越城区市河水巷",
+  "district": "越城区",
+  "transportTip": "结合水巷与乌篷船"
+ },
+ "practical": {
+  "openHours": "全天（以水域为准）",
+  "openHoursRef": 0,
+  "ticket": "按码头与航线计价（限乘 2-3 人）：城市广场游线约 120 元/船，书圣故里、八字桥、鲁迅故里、阳明故里各有游线；OTA 常有优惠",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "solo",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "乌篷船",
+  "水乡",
+  "生活"
+ ],
+ "popularity": 78,
+ "sources": [
+  {
+   "title": "百度百科·绍兴",
+   "url": "https://baike.baidu.com/item/%E7%BB%8D%E5%85%B4",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
   },
-  "audience": [
-    "solo",
-    "friends"
+  {
+   "title": "绍兴文旅发布 · 五一惠民活动合集",
+   "url": "https://mp.weixin.qq.com/s?__biz=MzcwNzI0NjcwMg==&mid=2248034864&idx=1&sn=24d240de926bcb348090caa73219277e",
+   "kind": "media",
+   "fetchedAt": "2026-11-12"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "乌篷船与水乡生活"
+ },
+ "_geocodeTitle": "越城区",
+ "_geocodeSuspect": false,
+ "district": "330602",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-12",
+  "changes": [
+   {
+    "field": "门票",
+    "old": "以游船为准",
+    "new": "按码头与航线计价（限乘 2-3 人）：城市广场游线约 120 元/船，书圣故里、八字桥、鲁迅故里、阳明故里各有游线；OTA 常有优惠"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "乌篷船",
-    "水乡",
-    "生活"
+  "source": "https://mp.weixin.qq.com/s?__biz=MzcwNzI0NjcwMg==&mid=2248034864&idx=1&sn=24d240de926bcb348090caa73219277e",
+  "reason": "绍兴文旅发布五一惠民合集：五大乌篷船游线码头与电话，城市广场游线原价 120 元/船"
+ },
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "体验",
+    "score": 4.3,
+    "note": "黑篷小船穿水巷，是绍兴最独特的一段"
+   },
+   {
+    "label": "性价比",
+    "score": 3.2,
+    "note": "按船计价，旺季一船百元以上"
+   },
+   {
+    "label": "时长",
+    "score": 3.8,
+    "note": "单程多在半小时上下，走不了太远"
+   },
+   {
+    "label": "排队",
+    "score": 3.0,
+    "note": "节假日码头要等，热门游线更久"
+   }
   ],
-  "popularity": 78,
-  "sources": [
-    {
-      "title": "百度百科·绍兴",
-      "url": "https://baike.baidu.com/item/%E7%BB%8D%E5%85%B4",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "坐一次乌篷船才算真的进了绍兴的水巷，船夫脚划桨的姿态本身就是风景，比在岸上拍桥有意思得多。但价格确实偏贵，一条船百元起，分摊到两个人身上也不便宜；节假日码头排队要等。时间紧的话挑书圣故里到八字桥这段最出片。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "情侣",
+   "拍照"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "乌篷船与水乡生活"
-  },
-  "_geocodeTitle": "越城区",
-  "_geocodeSuspect": false,
-  "district": "330602",
-  "_noImage": true
+  "avoid": [
+   "预算紧"
+  ],
+  "sources": []
+ }
 }

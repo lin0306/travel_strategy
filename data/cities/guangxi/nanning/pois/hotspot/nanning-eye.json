@@ -1,68 +1,109 @@
 {
-  "id": "nanning-eye",
-  "name": "南宁夜景灯光秀",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "邕江两岸与桥梁的灯光，夜游船上看最全。",
-  "description": "南宁的夜景集中在邕江两岸，多座跨江桥和沿岸建筑入夜后亮灯，是这座绿城的另一面。最好的看法是坐邕江夜游船，从民生广场码头出发，一路看桥和两岸的光带。岸上则可在民歌湖、南湖边走。免费看、船另计，适合安排一个晚上。",
-  "highlights": [
-    "邕江两岸与跨江桥入夜亮灯",
-    "夜游船上看光带最全",
-    "免费看，船另计"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.313972,
-      "lat": 22.812857,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市邕江两岸（民生广场码头）",
-    "district": "西乡塘区",
-    "transportTip": "地铁1号线民生广场站步行"
+ "id": "nanning-eye",
+ "name": "南宁夜景灯光秀",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "邕江两岸与桥梁的灯光，夜游船上看最全。",
+ "description": "南宁的夜景集中在邕江两岸，多座跨江桥和沿岸建筑入夜后亮灯，是这座绿城的另一面。最好的看法是坐邕江夜游船，从民生广场码头出发，一路看桥和两岸的光带。岸上则可在民歌湖、南湖边走。免费看、船另计，适合安排一个晚上。",
+ "highlights": [
+  "邕江两岸与跨江桥入夜亮灯",
+  "夜游船上看光带最全",
+  "免费看，船另计"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.313972,
+   "lat": 22.812857,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约19:30-21:30（夜游船以公告为准）",
-    "openHoursRef": 0,
-    "ticket": "无门票（夜游船另计）",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "solo"
+  "address": "南宁市邕江两岸（民生广场码头）",
+  "district": "西乡塘区",
+  "transportTip": "地铁1号线民生广场站步行"
+ },
+ "practical": {
+  "openHours": "约19:30-21:30（夜游船以公告为准）",
+  "openHoursRef": 0,
+  "ticket": "无门票（夜游船另计）",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "夜景",
-    "灯光秀",
-    "邕江"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "夜景",
+  "灯光秀",
+  "邕江"
+ ],
+ "popularity": 70,
+ "sources": [
+  {
+   "title": "百度百科·南宁夜景",
+   "url": "https://baike.baidu.com/item/%E5%8D%97%E5%AE%81%E5%A4%9C%E6%99%AF",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "南宁夜景灯光秀"
+ },
+ "_geocodeTitle": "民生广场",
+ "_geocodeSuspect": false,
+ "district": "450107",
+ "_noImage": true,
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "夜景",
+    "score": 4.2,
+    "note": "跨江桥与沿岸建筑一起亮，江面反光好看"
+   },
+   {
+    "label": "观演位置",
+    "score": 4.0,
+    "note": "船上看最全，岸上只能看一段"
+   },
+   {
+    "label": "性价比",
+    "score": 3.5,
+    "note": "岸上看免费，游船要另买票"
+   },
+   {
+    "label": "交通",
+    "score": 4.0,
+    "note": "民生码头在市中心，走得到"
+   }
   ],
-  "popularity": 70,
+  "body": "南宁的夜在邕江两岸：桥、沿岸楼体一起亮起来，江面有反光，和白天那座绿城完全是两副面孔。最省事的看法是坐夜游船从民生码头出发，一路把桥和光带串起来；只在岸上走的话，视角比较平。要注意的是岸上灯光是分散的、没有集中编排的灯光秀，别按「秀」的预期去；游船班次固定，临时到码头常常买不到想要的时段。",
+  "basis": "web",
+  "at": "2026-11-15",
+  "fits": [
+   "情侣",
+   "傍晚安排",
+   "拍照"
+  ],
+  "avoid": [
+   "想看集中式灯光秀",
+   "怕水风大"
+  ],
   "sources": [
-    {
-      "title": "百度百科·南宁夜景",
-      "url": "https://baike.baidu.com/item/%E5%8D%97%E5%AE%81%E5%A4%9C%E6%99%AF",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "南宁夜景灯光秀"
-  },
-  "_geocodeTitle": "民生广场",
-  "_geocodeSuspect": false,
-  "district": "450107",
-  "_noImage": true
+   "https://m.ctrip.com/webapp/tnt/list?allianceid=6032594&sid=170732500&pagetype=city&citytype=dt&keyword=%E7%99%BE%E7%9B%8A%E4%B8%8A%E6%B2%B3%E5%9F%8E&id=166&pshowcode=Ticket2"
+  ]
+ }
 }

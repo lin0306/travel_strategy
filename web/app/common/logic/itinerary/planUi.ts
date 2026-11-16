@@ -204,14 +204,20 @@ export interface PlanUiState {
 
 export const usePlanUi = create<PlanUiState>((set) => {
   /**
-   * 初值从**会话状态**来 —— 刷新之后「面板开着、看着哪条、第几天」还在。
-   * （「关掉标签页再打开」时 sessionStorage 已清空 ⇒ 回到初始，正是用户要的。）
-   * ▲ `activeId` 存在 `planStore` 里，它自己也从同一份状态取初值。
+   * ★★ 水合首帧**不读** sessionStorage（2026-11-15 界面验收 P1）。
+   *
+   * 这里是**模块级** store：`create()` 在 JS 加载时就跑完，比 `hydrateRoot` 的首帧还早。
+   * 原来写 `panelOpen: readUiState().plan.open` ⇒ 用户上次开着面板时客户端首帧渲染
+   * `<MobileRoutePlanPanel>`，而预渲染 HTML 里面板是关的 —— React 判为 hydration
+   * mismatch，**丢弃整棵服务端 DOM 重渲染**；重渲染 `<head>` 又撞上 `loader.ts`
+   * 动态插入的腾讯 SDK `<script>`，刷出第二条 console.error（实测 LCP 2748ms）。
+   *
+   * 口径与 `useViewport.ts` 一致：**服务端 / 水合首帧用稳定快照，水合后立刻同步真值**。
+   * 恢复的唯一入口是下方 `restorePanelUi()`，由 `routes/map-shell.tsx` 挂载后调用。
+   * ⚠️ 别把 `readUiState()` 挪回这里 —— 哪怕只恢复一个字段也会重演。
    */
-  const saved = readUiState().plan
-
   return {
-    panelOpen: saved.open,
+    panelOpen: false,
     addPicker: null,
     picking: null,
     toast: null,
@@ -219,7 +225,8 @@ export const usePlanUi = create<PlanUiState>((set) => {
     // ★ 这几个**故意不恢复**：搜索命中 / 挑景点 / 加到哪个规划 / 重复确认 / toast /
     //   取点进行中 / 刚落下的取点 —— 都是"某一次交互"的中间态，刷新清掉才对
     spotPicker: null,
-    detailDay: saved.day,
+    // ★ 与 panelOpen 同理：day 会渲染到面板上，首帧必须与预渲染一致（= 1）
+    detailDay: 1,
     freshPoint: null,
     legFocus: null,
 
@@ -262,6 +269,23 @@ export const usePlanUi = create<PlanUiState>((set) => {
     stopPicking: () => set({ picking: null }),
   }
 })
+
+/**
+ * **水合完成后**把「面板开着 / 看着第几天」接回会话状态。
+ *
+ * 挂在 `routes/map-shell.tsx` 的挂载 effect 上 —— 那是全站唯一的布局路由，
+ * 所有页面都经过它，且它比任何面板内部组件都早。
+ *
+ * ★ 为什么不用 `useLayoutEffect`：预渲染在 Node 里跑，layout effect 在服务端会警告；
+ *   `useEffect` 晚一帧的代价只是面板**出现**晚一帧，远小于整棵树重渲染。
+ * ★ 幂等：StrictMode 下开发期会跑两次，`setState` 写的是同一个快照值。
+ * ★ 只恢复这两个会**改变 DOM 结构 / 文本**的字段；`activeId` 仍由 `planStore`
+ *   自己读（它只影响面板内容，且 `hydrate()` 会再校验一次）。
+ */
+export function restorePanelUi(): void {
+  const saved = readUiState().plan
+  usePlanUi.setState({ panelOpen: saved.open, detailDay: saved.day })
+}
 
 /**
  * 打开某条规划的详情（并保证面板是开着的）。

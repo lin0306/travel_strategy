@@ -1,102 +1,140 @@
 {
-  "id": "maodoufu",
-  "name": "毛豆腐",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "长毛的豆腐煎了吃，表面绒毛酥脆、内里绵软。",
-  "description": "毛豆腐是徽州特有的小吃，豆腐发酵到表面长出一层白毛，再下油锅煎到两面金黄，外皮微酥，里面还是嫩的，蘸点辣酱或霉卤吃，咸香带点特殊的发酵味。它和臭鳜鱼一样靠发酵出风味，是徽州人从小吃到大的东西。在歙县古城的街边和夜市常有小摊现煎现卖，也有馆子做成红烧毛豆腐。第一次吃建议从街边小摊开始，几块钱一份，试着接受那种毛茸茸的口感和味道，多半会越吃越上头。",
-  "highlights": [
-    "发酵豆腐",
-    "街边小吃",
-    "煎着吃",
-    "便宜"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.436994,
-      "lat": 29.865724,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黄山市歙县徽城镇斗山街、中和街一带小吃摊与饭店",
-    "district": "歙县",
-    "transportTip": "徽州古城内步行可寻小吃摊"
+ "id": "maodoufu",
+ "name": "毛豆腐",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "长毛的豆腐煎了吃，表面绒毛酥脆、内里绵软。",
+ "description": "毛豆腐是徽州特有的小吃，豆腐发酵到表面长出一层白毛，再下油锅煎到两面金黄，外皮微酥，里面还是嫩的，蘸点辣酱或霉卤吃，咸香带点特殊的发酵味。它和臭鳜鱼一样靠发酵出风味，是徽州人从小吃到大的东西。在歙县古城的街边和夜市常有小摊现煎现卖，也有馆子做成红烧毛豆腐。第一次吃建议从街边小摊开始，几块钱一份，试着接受那种毛茸茸的口感和味道，多半会越吃越上头。",
+ "highlights": [
+  "发酵豆腐",
+  "街边小吃",
+  "煎着吃",
+  "便宜"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.436994,
+   "lat": 29.865724,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "白天至夜间均有，夜市更集中",
-    "openHoursRef": 0,
-    "ticket": "小吃按份计，约几元到十几元",
-    "ticketRef": 0,
-    "duration": "建议 20-40 分钟",
-    "durationMinutes": [
-      20,
-      40
-    ],
-    "priceLevel": "budget"
+  "address": "黄山市歙县徽城镇斗山街、中和街一带小吃摊与饭店",
+  "district": "歙县",
+  "transportTip": "徽州古城内步行可寻小吃摊"
+ },
+ "practical": {
+  "openHours": "白天至夜间均有，夜市更集中",
+  "openHoursRef": 0,
+  "ticket": "小吃按份计，约几元到十几元",
+  "ticketRef": 0,
+  "duration": "建议 20-40 分钟",
+  "durationMinutes": [
+   20,
+   40
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "solo",
+  "family",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/%E6%96%B9%E9%91%AB%E7%8E%89%E6%AF%9B%E8%B1%86%E8%85%90.jpg/1280px-%E6%96%B9%E9%91%AB%E7%8E%89%E6%AF%9B%E8%B1%86%E8%85%90.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/%E6%96%B9%E9%91%AB%E7%8E%89%E6%AF%9B%E8%B1%86%E8%85%90.jpg/1280px-%E6%96%B9%E9%91%AB%E7%8E%89%E6%AF%9B%E8%B1%86%E8%85%90.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "方鑫玉毛豆腐.jpg",
+   "query": "毛豆腐",
+   "credit": {
+    "source": "wikimedia",
+    "author": "EditQ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%96%B9%E9%91%AB%E7%8E%89%E6%AF%9B%E8%B1%86%E8%85%90.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "friends",
-    "solo",
-    "family",
-    "elders"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/%E6%96%B9%E9%91%AB%E7%8E%89%E6%AF%9B%E8%B1%86%E8%85%90_2.jpg/1280px-%E6%96%B9%E9%91%AB%E7%8E%89%E6%AF%9B%E8%B1%86%E8%85%90_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/%E6%96%B9%E9%91%AB%E7%8E%89%E6%AF%9B%E8%B1%86%E8%85%90_2.jpg/1280px-%E6%96%B9%E9%91%AB%E7%8E%89%E6%AF%9B%E8%B1%86%E8%85%90_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "方鑫玉毛豆腐 2.jpg",
+   "query": "毛豆腐",
+   "credit": {
+    "source": "wikimedia",
+    "author": "EditQ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%96%B9%E9%91%AB%E7%8E%89%E6%AF%9B%E8%B1%86%E8%85%90_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "小吃",
+  "发酵",
+  "徽州",
+  "街头"
+ ],
+ "popularity": 90,
+ "sources": [
+  {
+   "title": "百度百科·毛豆腐",
+   "url": "https://baike.baidu.com/item/%E6%AF%9B%E8%B1%86%E8%85%90",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-07"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "毛豆腐"
+ },
+ "_geocodeTitle": "中和街",
+ "_geocodeSuspect": false,
+ "district": "341021",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.5,
+    "note": "外皮煎得焦香，里面还是嫩豆腐，蘸辣酱最对"
+   },
+   {
+    "label": "价格",
+    "score": 4.6,
+    "note": "街边一份几块钱，试错成本极低"
+   },
+   {
+    "label": "环境",
+    "score": 3.0,
+    "note": "多是小摊现煎，坐着吃的地方简陋"
+   },
+   {
+    "label": "接受度",
+    "score": 3.2,
+    "note": "发酵味比臭鳜鱼更直接，第一次容易劝退"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/%E6%96%B9%E9%91%AB%E7%8E%89%E6%AF%9B%E8%B1%86%E8%85%90.jpg/1280px-%E6%96%B9%E9%91%AB%E7%8E%89%E6%AF%9B%E8%B1%86%E8%85%90.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/%E6%96%B9%E9%91%AB%E7%8E%89%E6%AF%9B%E8%B1%86%E8%85%90.jpg/1280px-%E6%96%B9%E9%91%AB%E7%8E%89%E6%AF%9B%E8%B1%86%E8%85%90.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "方鑫玉毛豆腐.jpg",
-      "query": "毛豆腐",
-      "credit": {
-        "source": "wikimedia",
-        "author": "EditQ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%96%B9%E9%91%AB%E7%8E%89%E6%AF%9B%E8%B1%86%E8%85%90.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/%E6%96%B9%E9%91%AB%E7%8E%89%E6%AF%9B%E8%B1%86%E8%85%90_2.jpg/1280px-%E6%96%B9%E9%91%AB%E7%8E%89%E6%AF%9B%E8%B1%86%E8%85%90_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/%E6%96%B9%E9%91%AB%E7%8E%89%E6%AF%9B%E8%B1%86%E8%85%90_2.jpg/1280px-%E6%96%B9%E9%91%AB%E7%8E%89%E6%AF%9B%E8%B1%86%E8%85%90_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "方鑫玉毛豆腐 2.jpg",
-      "query": "毛豆腐",
-      "credit": {
-        "source": "wikimedia",
-        "author": "EditQ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%96%B9%E9%91%AB%E7%8E%89%E6%AF%9B%E8%B1%86%E8%85%90_2.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
+  "body": "徽州小吃里最值得先试的一样：豆腐发酵到长白毛，下锅煎到两面金黄，外脆内嫩，配一勺农家辣酱，咸香里带点发酵的回味。短板是吃的地方多为街边小摊，油烟大、座位少，讲究环境的人会不太舒服；味道也有门槛，闻着冲，同行的人常常一半爱一半躲。建议先买一份分着尝，别一上来就点整盘。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "想尝本地小吃",
+   "预算有限"
   ],
-  "coverIndex": 0,
-  "tags": [
-    "小吃",
-    "发酵",
-    "徽州",
-    "街头"
+  "avoid": [
+   "不吃发酵食物",
+   "带孩子挑食"
   ],
-  "popularity": 90,
-  "sources": [
-    {
-      "title": "百度百科·毛豆腐",
-      "url": "https://baike.baidu.com/item/%E6%AF%9B%E8%B1%86%E8%85%90",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-07"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "毛豆腐"
-  },
-  "_geocodeTitle": "中和街",
-  "_geocodeSuspect": false,
-  "district": "341021"
+  "sources": []
+ }
 }

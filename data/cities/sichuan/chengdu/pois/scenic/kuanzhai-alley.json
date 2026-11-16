@@ -1,133 +1,213 @@
 {
-  "id": "kuanzhai-alley",
-  "name": "宽窄巷子",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "老成都院落的门面，适合白天拍照与傍晚喝茶",
-  "description": "宽窄巷子由宽巷子、窄巷子、井巷子三条平行排列的老街组成，是清代满城遗留下来的最后一批老街巷，多为清末民初风格的院落式建筑。这里几乎是外地游客对“老成都”的第一印象：青瓦拱门、砖墙、餐馆与茶铺混杂。客观地说，景区内餐饮与小吃溢价明显，正餐建议走到周边的奎星楼街、泡桐树街这些本地人去的地方。把它当成一个拍照与散步的空间，体验会好很多。免费开放。",
-  "highlights": [
-    "清代满城遗存的宽、窄、井三条老街",
-    "拍照与喝茶的好去处，紧邻奎星楼美食街"
-  ],
-  "location": {
-    "point": {
-      "lng": 104.052984,
-      "lat": 30.663564,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "成都市青羊区金河路口宽窄巷子",
-    "district": "青羊区",
-    "transportTip": "地铁 4 号线宽窄巷子站 B 口出"
+ "id": "kuanzhai-alley",
+ "name": "宽窄巷子",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "老成都院落的门面，适合白天拍照与傍晚喝茶",
+ "description": "宽窄巷子由宽巷子、窄巷子、井巷子三条平行排列的老街组成，是清代满城遗留下来的最后一批老街巷，多为清末民初风格的院落式建筑。这里几乎是外地游客对“老成都”的第一印象：青瓦拱门、砖墙、餐馆与茶铺混杂。客观地说，景区内餐饮与小吃溢价明显，正餐建议走到周边的奎星楼街、泡桐树街这些本地人去的地方。把它当成一个拍照与散步的空间，体验会好很多。免费开放。",
+ "highlights": [
+  "清代满城遗存的宽、窄、井三条老街",
+  "拍照与喝茶的好去处，紧邻奎星楼美食街"
+ ],
+ "location": {
+  "point": {
+   "lng": 104.052984,
+   "lat": 30.663564,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放（街区内店铺多为 10:00-22:00）",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 90-150 分钟",
-    "durationMinutes": [
-      90,
-      150
-    ],
-    "priceLevel": "free"
+  "address": "成都市青羊区金河路口宽窄巷子",
+  "district": "青羊区",
+  "transportTip": "地铁 4 号线宽窄巷子站 B 口出"
+ },
+ "practical": {
+  "openHours": "全天开放（街区内店铺多为 10:00-22:00）",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 90-150 分钟",
+  "durationMinutes": [
+   90,
+   150
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "solo",
+  "couple",
+  "kids",
+  "friends",
+  "family",
+  "elders"
+ ],
+ "accessible": true,
+ "tips": [
+  "正餐建议去旁边的奎星楼街，性价比高很多",
+  "工作日与晚间人相对少"
+ ],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Chengdu_Kuanzhai_Alley_Touristic_Spot_Relics_%E6%88%90%E9%83%BD%E5%AE%BD%E7%AA%84%E5%B7%B7%E5%AD%90%E6%96%87%E7%89%A9%E5%8F%91%E6%8E%98%E9%81%97%E4%BA%A7.jpg/1280px-Chengdu_Kuanzhai_Alley_Touristic_Spot_Relics_%E6%88%90%E9%83%BD%E5%AE%BD%E7%AA%84%E5%B7%B7%E5%AD%90%E6%96%87%E7%89%A9%E5%8F%91%E6%8E%98%E9%81%97%E4%BA%A7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Chengdu_Kuanzhai_Alley_Touristic_Spot_Relics_%E6%88%90%E9%83%BD%E5%AE%BD%E7%AA%84%E5%B7%B7%E5%AD%90%E6%96%87%E7%89%A9%E5%8F%91%E6%8E%98%E9%81%97%E4%BA%A7.jpg/1280px-Chengdu_Kuanzhai_Alley_Touristic_Spot_Relics_%E6%88%90%E9%83%BD%E5%AE%BD%E7%AA%84%E5%B7%B7%E5%AD%90%E6%96%87%E7%89%A9%E5%8F%91%E6%8E%98%E9%81%97%E4%BA%A7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Chengdu Kuanzhai Alley Touristic Spot Relics 成都宽窄巷子文物发掘遗产.jpg",
+   "query": "宽窄巷子 成都",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Breaknet2025",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengdu_Kuanzhai_Alley_Touristic_Spot_Relics_%E6%88%90%E9%83%BD%E5%AE%BD%E7%AA%84%E5%B7%B7%E5%AD%90%E6%96%87%E7%89%A9%E5%8F%91%E6%8E%98%E9%81%97%E4%BA%A7.jpg",
+    "license": "CC BY 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "solo",
-    "couple",
-    "kids",
-    "friends",
-    "family",
-    "elders"
-  ],
-  "accessible": true,
-  "tips": [
-    "正餐建议去旁边的奎星楼街，性价比高很多",
-    "工作日与晚间人相对少"
-  ],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Chengdu_Kuanzhai_Alley_Touristic_Spot_Relics_%E6%88%90%E9%83%BD%E5%AE%BD%E7%AA%84%E5%B7%B7%E5%AD%90%E6%96%87%E7%89%A9%E5%8F%91%E6%8E%98%E9%81%97%E4%BA%A7.jpg/1280px-Chengdu_Kuanzhai_Alley_Touristic_Spot_Relics_%E6%88%90%E9%83%BD%E5%AE%BD%E7%AA%84%E5%B7%B7%E5%AD%90%E6%96%87%E7%89%A9%E5%8F%91%E6%8E%98%E9%81%97%E4%BA%A7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Chengdu_Kuanzhai_Alley_Touristic_Spot_Relics_%E6%88%90%E9%83%BD%E5%AE%BD%E7%AA%84%E5%B7%B7%E5%AD%90%E6%96%87%E7%89%A9%E5%8F%91%E6%8E%98%E9%81%97%E4%BA%A7.jpg/1280px-Chengdu_Kuanzhai_Alley_Touristic_Spot_Relics_%E6%88%90%E9%83%BD%E5%AE%BD%E7%AA%84%E5%B7%B7%E5%AD%90%E6%96%87%E7%89%A9%E5%8F%91%E6%8E%98%E9%81%97%E4%BA%A7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Chengdu Kuanzhai Alley Touristic Spot Relics 成都宽窄巷子文物发掘遗产.jpg",
-      "query": "宽窄巷子 成都",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Breaknet2025",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengdu_Kuanzhai_Alley_Touristic_Spot_Relics_%E6%88%90%E9%83%BD%E5%AE%BD%E7%AA%84%E5%B7%B7%E5%AD%90%E6%96%87%E7%89%A9%E5%8F%91%E6%8E%98%E9%81%97%E4%BA%A7.jpg",
-        "license": "CC BY 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Fountain_and_coins_-_Chengdu_Kuanzhai_Alley_Relics_Museum_-_%E6%88%90%E9%83%BD%E5%AE%BD%E7%AA%84%E5%B7%B7%E5%AD%90%E6%96%87%E7%89%A9%E5%8F%91%E6%8E%98%E9%81%97%E4%BA%A7%E5%96%B7%E6%B0%B4%E6%B1%A0%E7%A1%AC%E5%B8%81.jpg/1280px-Fountain_and_coins_-_Chengdu_Kuanzhai_Alley_Relics_Museum_-_%E6%88%90%E9%83%BD%E5%AE%BD%E7%AA%84%E5%B7%B7%E5%AD%90%E6%96%87%E7%89%A9%E5%8F%91%E6%8E%98%E9%81%97%E4%BA%A7%E5%96%B7%E6%B0%B4%E6%B1%A0%E7%A1%AC%E5%B8%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Fountain_and_coins_-_Chengdu_Kuanzhai_Alley_Relics_Museum_-_%E6%88%90%E9%83%BD%E5%AE%BD%E7%AA%84%E5%B7%B7%E5%AD%90%E6%96%87%E7%89%A9%E5%8F%91%E6%8E%98%E9%81%97%E4%BA%A7%E5%96%B7%E6%B0%B4%E6%B1%A0%E7%A1%AC%E5%B8%81.jpg/1280px-Fountain_and_coins_-_Chengdu_Kuanzhai_Alley_Relics_Museum_-_%E6%88%90%E9%83%BD%E5%AE%BD%E7%AA%84%E5%B7%B7%E5%AD%90%E6%96%87%E7%89%A9%E5%8F%91%E6%8E%98%E9%81%97%E4%BA%A7%E5%96%B7%E6%B0%B4%E6%B1%A0%E7%A1%AC%E5%B8%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Fountain and coins - Chengdu Kuanzhai Alley Relics Museum - 成都宽窄巷子文物发掘遗产喷水池硬币.jpg",
-      "query": "宽窄巷子 成都",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Breaknet2025",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fountain_and_coins_-_Chengdu_Kuanzhai_Alley_Relics_Museum_-_%E6%88%90%E9%83%BD%E5%AE%BD%E7%AA%84%E5%B7%B7%E5%AD%90%E6%96%87%E7%89%A9%E5%8F%91%E6%8E%98%E9%81%97%E4%BA%A7%E5%96%B7%E6%B0%B4%E6%B1%A0%E7%A1%AC%E5%B8%81.jpg",
-        "license": "CC BY 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Kuanzhaixiangzi_Alleys%2C_201907%2C_01.jpg/1280px-Kuanzhaixiangzi_Alleys%2C_201907%2C_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Kuanzhaixiangzi_Alleys%2C_201907%2C_01.jpg/1280px-Kuanzhaixiangzi_Alleys%2C_201907%2C_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Kuanzhaixiangzi Alleys, 201907, 01.jpg",
-      "query": "宽窄巷子 成都",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Jimmyshjj",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kuanzhaixiangzi_Alleys,_201907,_01.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Kuanzhaixiangzi_Alleys%2C_201907%2C_02.jpg/1280px-Kuanzhaixiangzi_Alleys%2C_201907%2C_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Kuanzhaixiangzi_Alleys%2C_201907%2C_02.jpg/1280px-Kuanzhaixiangzi_Alleys%2C_201907%2C_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Kuanzhaixiangzi Alleys, 201907, 02.jpg",
-      "query": "宽窄巷子 成都",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Jimmyshjj",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kuanzhaixiangzi_Alleys,_201907,_02.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "老街院落",
-    "免费",
-    "市区"
-  ],
-  "popularity": 93,
-  "sources": [
-    {
-      "title": "百度百科 · 宽窄巷子",
-      "url": "https://baike.baidu.com/item/%E5%AE%BD%E7%AA%84%E5%B7%B7%E5%AD%90",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-18"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Kuanzhai Alley Chengdu",
-    "zh": "成都宽窄巷子"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Fountain_and_coins_-_Chengdu_Kuanzhai_Alley_Relics_Museum_-_%E6%88%90%E9%83%BD%E5%AE%BD%E7%AA%84%E5%B7%B7%E5%AD%90%E6%96%87%E7%89%A9%E5%8F%91%E6%8E%98%E9%81%97%E4%BA%A7%E5%96%B7%E6%B0%B4%E6%B1%A0%E7%A1%AC%E5%B8%81.jpg/1280px-Fountain_and_coins_-_Chengdu_Kuanzhai_Alley_Relics_Museum_-_%E6%88%90%E9%83%BD%E5%AE%BD%E7%AA%84%E5%B7%B7%E5%AD%90%E6%96%87%E7%89%A9%E5%8F%91%E6%8E%98%E9%81%97%E4%BA%A7%E5%96%B7%E6%B0%B4%E6%B1%A0%E7%A1%AC%E5%B8%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Fountain_and_coins_-_Chengdu_Kuanzhai_Alley_Relics_Museum_-_%E6%88%90%E9%83%BD%E5%AE%BD%E7%AA%84%E5%B7%B7%E5%AD%90%E6%96%87%E7%89%A9%E5%8F%91%E6%8E%98%E9%81%97%E4%BA%A7%E5%96%B7%E6%B0%B4%E6%B1%A0%E7%A1%AC%E5%B8%81.jpg/1280px-Fountain_and_coins_-_Chengdu_Kuanzhai_Alley_Relics_Museum_-_%E6%88%90%E9%83%BD%E5%AE%BD%E7%AA%84%E5%B7%B7%E5%AD%90%E6%96%87%E7%89%A9%E5%8F%91%E6%8E%98%E9%81%97%E4%BA%A7%E5%96%B7%E6%B0%B4%E6%B1%A0%E7%A1%AC%E5%B8%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Fountain and coins - Chengdu Kuanzhai Alley Relics Museum - 成都宽窄巷子文物发掘遗产喷水池硬币.jpg",
+   "query": "宽窄巷子 成都",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Breaknet2025",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fountain_and_coins_-_Chengdu_Kuanzhai_Alley_Relics_Museum_-_%E6%88%90%E9%83%BD%E5%AE%BD%E7%AA%84%E5%B7%B7%E5%AD%90%E6%96%87%E7%89%A9%E5%8F%91%E6%8E%98%E9%81%97%E4%BA%A7%E5%96%B7%E6%B0%B4%E6%B1%A0%E7%A1%AC%E5%B8%81.jpg",
+    "license": "CC BY 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "宽窄巷子民宿",
-  "_geocodeSuspect": false,
-  "district": "510105"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Kuanzhaixiangzi_Alleys%2C_201907%2C_01.jpg/1280px-Kuanzhaixiangzi_Alleys%2C_201907%2C_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Kuanzhaixiangzi_Alleys%2C_201907%2C_01.jpg/1280px-Kuanzhaixiangzi_Alleys%2C_201907%2C_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Kuanzhaixiangzi Alleys, 201907, 01.jpg",
+   "query": "宽窄巷子 成都",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Jimmyshjj",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kuanzhaixiangzi_Alleys,_201907,_01.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Kuanzhaixiangzi_Alleys%2C_201907%2C_02.jpg/1280px-Kuanzhaixiangzi_Alleys%2C_201907%2C_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Kuanzhaixiangzi_Alleys%2C_201907%2C_02.jpg/1280px-Kuanzhaixiangzi_Alleys%2C_201907%2C_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Kuanzhaixiangzi Alleys, 201907, 02.jpg",
+   "query": "宽窄巷子 成都",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Jimmyshjj",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kuanzhaixiangzi_Alleys,_201907,_02.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/%E6%88%90%E9%83%BD%E5%AE%BD%E5%B7%B7%E5%AD%90_-_panoramio.jpg/1280px-%E6%88%90%E9%83%BD%E5%AE%BD%E5%B7%B7%E5%AD%90_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/%E6%88%90%E9%83%BD%E5%AE%BD%E5%B7%B7%E5%AD%90_-_panoramio.jpg/1280px-%E6%88%90%E9%83%BD%E5%AE%BD%E5%B7%B7%E5%AD%90_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "成都宽巷子 - panoramio.jpg",
+   "query": "宽窄巷子",
+   "credit": {
+    "source": "wikimedia",
+    "author": "杨志强Zhiqiang",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-06",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Wide_Alley_-_%E5%AE%BD%E5%B7%B7%E5%AD%90_-_January_2019%2C_Chengdu%2C_Sichuan.jpg/1280px-Wide_Alley_-_%E5%AE%BD%E5%B7%B7%E5%AD%90_-_January_2019%2C_Chengdu%2C_Sichuan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Wide_Alley_-_%E5%AE%BD%E5%B7%B7%E5%AD%90_-_January_2019%2C_Chengdu%2C_Sichuan.jpg/1280px-Wide_Alley_-_%E5%AE%BD%E5%B7%B7%E5%AD%90_-_January_2019%2C_Chengdu%2C_Sichuan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Wide Alley - 宽巷子 - January 2019, Chengdu, Sichuan.jpg",
+   "query": "宽窄巷子",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Breaknet2025",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-06",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 5,
+ "tags": [
+  "老街院落",
+  "免费",
+  "市区"
+ ],
+ "popularity": 93,
+ "sources": [
+  {
+   "title": "百度百科 · 宽窄巷子",
+   "url": "https://baike.baidu.com/item/%E5%AE%BD%E7%AA%84%E5%B7%B7%E5%AD%90",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-18"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Kuanzhai Alley Chengdu",
+  "zh": "成都宽窄巷子"
+ },
+ "_geocodeTitle": "宽窄巷子民宿",
+ "_geocodeSuspect": false,
+ "district": "510105",
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "拍照",
+    "score": 4.2,
+    "note": "青瓦拱门与院落砖墙，白天光线最好"
+   },
+   {
+    "label": "商业化",
+    "score": 2.5,
+    "note": "餐饮小吃溢价明显，本地人少在这吃"
+   },
+   {
+    "label": "人流",
+    "score": 2.7,
+    "note": "节假日三条巷子都走不动"
+   },
+   {
+    "label": "免费",
+    "score": 4.6,
+    "note": "免费开放，随到随逛"
+   }
+  ],
+  "body": "宽巷子、窄巷子、井巷子三条平行的老街，是清代满城留下来的最后一批街巷，青瓦拱门、院落砖墙，外地人对「老成都」的第一印象大多来自这里。当拍照与散步的空间用，体验不错，免费又不用预约。缺点是商业化程度高，巷子里的餐饮与小吃溢价明显，正餐不如走到奎星楼街、泡桐树街；节假日三条巷子都挤得走不动，工作日的傍晚最舒服。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "白天拍照",
+   "傍晚喝茶"
+  ],
+  "avoid": [
+   "节假日",
+   "在巷子里吃正餐"
+  ],
+  "sources": []
+ }
 }

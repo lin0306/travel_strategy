@@ -21,9 +21,9 @@
     "transportTip": "宁波汽车南站乘长途车至余姚后转车；或自驾前往"
   },
   "practical": {
-    "openHours": "约8:30-16:30，以官方公告为准",
+    "openHours": "09:00-16:30（16:00 停止入园）；遗址博物馆周一闭馆",
     "openHoursRef": 0,
-    "ticket": "免费",
+    "ticket": "成人 30 元（遗址公园门票，遗址博物馆免费）",
     "ticketRef": 0,
     "duration": "建议 45-90 分钟",
     "durationMinutes": [
@@ -53,9 +53,15 @@
       "url": "https://baike.baidu.com/item/%E6%B2%B3%E5%A7%86%E6%B8%A1%E9%81%97%E5%9D%80",
       "kind": "wiki",
       "fetchedAt": "2026-09-30"
+    },
+    {
+      "title": "余姚市发改局关于河姆渡考古遗址公园门票试行价格的公告",
+      "url": "https://m.gmw.cn/toutiao/2026-03/17/content_1304379961.htm",
+      "kind": "media",
+      "fetchedAt": "2026-11-10"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-10",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,5 +69,22 @@
   },
   "_geocodeTitle": "浪墅桥",
   "district": "330281",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-10",
+    "changes": [
+      {
+        "field": "门票",
+        "old": "免费",
+        "new": "成人 30 元（遗址公园门票，遗址博物馆免费）"
+      },
+      {
+        "field": "开放时间",
+        "old": "约8:30-16:30，以官方公告为准",
+        "new": "09:00-16:30（16:00 停止入园）；遗址博物馆周一闭馆"
+      }
+    ],
+    "source": "https://m.gmw.cn/toutiao/2026-03/17/content_1304379961.htm",
+    "reason": "余姚市发改局定价公告：遗址公园2026-03-27起30元；余姚市政府公告9:00-16:30"
+  }
 }

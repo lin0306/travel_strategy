@@ -1,68 +1,101 @@
 {
-  "id": "laowang-barbecue",
-  "name": "老王烧烤(东安街北二巷店)",
-  "category": "food",
-  "subtype": "local",
-  "summary": "东安街巷子里的一家烧烤，晚上出摊，本地人配啤酒坐塑料凳吃的那种。",
-  "description": "桂林的夜宵底色是烧烤，东安街这一带的巷子里晚上十点后才热闹。老王这家做的是本地常见的路子：荤的串在铁签上烤，刷的是带一点点甜的酱，辣椒面后撒；素的那几样（韭菜、金针菇、茄子）也是这一套。它的落脚点不在味道多有特点，而在价格低、开着晚，这里就是周围人喝酒的地方。来这里别指望环境，坐在塑料凳上，地上啤酒瓶堆着，是这种店的常态。",
-  "highlights": [
-    "东安街巷子里，晚上十点后才热闹",
-    "本地路子：铁签烤，刷带甜味的酱，后撒辣椒面",
-    "价格低开着晚，周围人配啤酒坐塑料凳的那种店"
-  ],
-  "location": {
-    "point": {
-      "lng": 110.273563,
-      "lat": 25.268767,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "广西壮族自治区桂林市秀峰区东安街北二巷老王烧烤",
-    "district": "秀峰区",
-    "transportTip": "市区步行可达；东安街北二巷内"
+ "id": "laowang-barbecue",
+ "name": "老王烧烤(东安街北二巷店)",
+ "category": "food",
+ "subtype": "local",
+ "summary": "东安街巷子里的一家烧烤，晚上出摊，本地人配啤酒坐塑料凳吃的那种。",
+ "description": "桂林的夜宵底色是烧烤，东安街这一带的巷子里晚上十点后才热闹。老王这家做的是本地常见的路子：荤的串在铁签上烤，刷的是带一点点甜的酱，辣椒面后撒；素的那几样（韭菜、金针菇、茄子）也是这一套。它的落脚点不在味道多有特点，而在价格低、开着晚，这里就是周围人喝酒的地方。来这里别指望环境，坐在塑料凳上，地上啤酒瓶堆着，是这种店的常态。",
+ "highlights": [
+  "东安街巷子里，晚上十点后才热闹",
+  "本地路子：铁签烤，刷带甜味的酱，后撒辣椒面",
+  "价格低开着晚，周围人配啤酒坐塑料凳的那种店"
+ ],
+ "location": {
+  "point": {
+   "lng": 110.273563,
+   "lat": 25.268767,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约18:00-次日凌晨2:00，以门店为准",
-    "openHoursRef": 0,
-    "ticket": "便宜",
-    "ticketRef": 0,
-    "duration": "建议 80-150 分钟",
-    "durationMinutes": [
-      80,
-      150
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "friends",
-    "couple",
-    "solo"
+  "address": "广西壮族自治区桂林市秀峰区东安街北二巷老王烧烤",
+  "district": "秀峰区",
+  "transportTip": "市区步行可达；东安街北二巷内"
+ },
+ "practical": {
+  "openHours": "约18:00-次日凌晨2:00，以门店为准",
+  "openHoursRef": 0,
+  "ticket": "便宜",
+  "ticketRef": 0,
+  "duration": "建议 80-150 分钟",
+  "durationMinutes": [
+   80,
+   150
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "烧烤",
-    "夜宵",
-    "巷子"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "friends",
+  "couple",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "烧烤",
+  "夜宵",
+  "巷子"
+ ],
+ "popularity": 50,
+ "sources": [
+  {
+   "title": "百度百科·烧烤",
+   "url": "https://baike.baidu.com/item/%E7%83%A7%E7%83%A4",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "老王烧烤(东安街北二巷店)"
+ },
+ "_geocodeTitle": "老王烧烤(东安街北二巷店)",
+ "_geocodeSuspect": false,
+ "district": "450302",
+ "_noImage": true,
+ "review": {
+  "score": 3.4,
+  "verdict": "时间富余再说",
+  "facets": [
+   {
+    "label": "环境",
+    "score": 2.2,
+    "note": "塑料凳、地上堆啤酒瓶，别指望环境"
+   },
+   {
+    "label": "价格",
+    "score": 4.2,
+    "note": "便宜，本地人喝酒的价位"
+   },
+   {
+    "label": "时段",
+    "score": 3.5,
+    "note": "晚上十点后才热闹，太早去冷清"
+   }
   ],
-  "popularity": 50,
-  "sources": [
-    {
-      "title": "百度百科·烧烤",
-      "url": "https://baike.baidu.com/item/%E7%83%A7%E7%83%A4",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
+  "body": "东安街巷子里的烧烤摊，铁签烤、刷带一点甜的酱、辣椒面后撒，素的那几样也是同一套。它的定位是便宜和开得晚，不是味道有多特别；环境就是塑料凳加一地啤酒瓶，坐不久，吵也是常态。口味上偏咸偏甜，不吃这一路的会觉得一般。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "夜宵",
+   "朋友喝酒"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "老王烧烤(东安街北二巷店)"
-  },
-  "_geocodeTitle": "老王烧烤(东安街北二巷店)",
-  "_geocodeSuspect": false,
-  "district": "450302",
-  "_noImage": true
+  "avoid": [
+   "要环境",
+   "带孩子"
+  ],
+  "sources": []
+ }
 }

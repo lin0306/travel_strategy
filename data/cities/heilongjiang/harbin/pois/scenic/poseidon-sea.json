@@ -1,74 +1,113 @@
 {
-  "id": "poseidon-sea",
-  "name": "波塞冬海底世界",
-  "category": "scenic",
-  "subtype": "park",
-  "summary": "呼兰区的大型海洋主题度假区，室内水世界与海洋馆连在一起，夏天玩水冬天看鱼。",
-  "description": "波塞冬在呼兰区，离市区约三十公里，是一片度假区：室内水世界、海洋馆、酒店连成一体。水世界是恒温的，有造浪池、滑道、漂流河，外面零下二十度里面照样玩水，这是它在冬天的卖点。海洋馆那一边是鱼、水母、海豚与表演，跟市区的极地公园是两种规模 —— 这里场地大、项目多，更像度假而不是看一次。带小孩的通常安排一整天，想住一晚也有配套。位置偏，公交要转，多数人是网约车或自驾过去。",
-  "highlights": [
-    "恒温室内水世界，冬天外面零下二十度里面玩水",
-    "水世界与海洋馆连成一体，项目多",
-    "位置偏，多数人网约车或自驾"
-  ],
-  "location": {
-    "point": {
-      "lng": 126.681823,
-      "lat": 45.883911,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黑龙江省哈尔滨市呼兰区汇江路153号",
-    "district": "呼兰区",
-    "transportTip": "市区乘公交至呼兰后转车；或网约车、自驾前往",
-    "entrance": {
-      "lng": 126.687254,
-      "lat": 45.879233,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "poseidon-sea",
+ "name": "波塞冬海底世界",
+ "category": "scenic",
+ "subtype": "park",
+ "summary": "呼兰区的大型海洋主题度假区，室内水世界与海洋馆连在一起，夏天玩水冬天看鱼。",
+ "description": "波塞冬在呼兰区，离市区约三十公里，是一片度假区：室内水世界、海洋馆、酒店连成一体。水世界是恒温的，有造浪池、滑道、漂流河，外面零下二十度里面照样玩水，这是它在冬天的卖点。海洋馆那一边是鱼、水母、海豚与表演，跟市区的极地公园是两种规模 —— 这里场地大、项目多，更像度假而不是看一次。带小孩的通常安排一整天，想住一晚也有配套。位置偏，公交要转，多数人是网约车或自驾过去。",
+ "highlights": [
+  "恒温室内水世界，冬天外面零下二十度里面玩水",
+  "水世界与海洋馆连成一体，项目多",
+  "位置偏，多数人网约车或自驾"
+ ],
+ "location": {
+  "point": {
+   "lng": 126.681823,
+   "lat": 45.883911,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约9:30-17:00，季节有调整，以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "分水世界与海洋馆，套票另计，以官方公告为准",
-    "ticketRef": 0,
-    "duration": "建议 150-300 分钟",
-    "durationMinutes": [
-      150,
-      300
-    ],
-    "priceLevel": "high"
-  },
-  "audience": [
-    "kids",
-    "family",
-    "friends",
-    "couple"
+  "address": "黑龙江省哈尔滨市呼兰区汇江路153号",
+  "district": "呼兰区",
+  "transportTip": "市区乘公交至呼兰后转车；或网约车、自驾前往",
+  "entrance": {
+   "lng": 126.687254,
+   "lat": 45.879233,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约9:30-17:00，季节有调整，以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "分水世界与海洋馆，套票另计，以官方公告为准",
+  "ticketRef": 0,
+  "duration": "建议 150-300 分钟",
+  "durationMinutes": [
+   150,
+   300
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "水世界",
-    "室内",
-    "度假区"
+  "priceLevel": "high"
+ },
+ "audience": [
+  "kids",
+  "family",
+  "friends",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "水世界",
+  "室内",
+  "度假区"
+ ],
+ "popularity": 76,
+ "sources": [
+  {
+   "title": "百度百科·波塞冬旅游度假区",
+   "url": "https://baike.baidu.com/item/%E5%93%88%E5%B0%94%E6%BB%A8%E6%B3%A2%E5%A1%9E%E5%86%AC%E6%B5%B7%E6%B4%8B%E7%8E%8B%E5%9B%BD",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "波塞冬海底世界"
+ },
+ "_geocodeTitle": "波塞冬海底世界",
+ "_geocodeSuspect": false,
+ "district": "230111",
+ "_noImage": true,
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "冬季可玩",
+    "score": 4.4,
+    "note": "恒温水世界，外面零下照样玩水"
+   },
+   {
+    "label": "项目丰富",
+    "score": 4.0,
+    "note": "水世界与海洋馆连成一体"
+   },
+   {
+    "label": "交通",
+    "score": 2.6,
+    "note": "位置偏，公交要转，多靠自驾"
+   },
+   {
+    "label": "花费",
+    "score": 3.0,
+    "note": "分区计费、套票另算"
+   }
   ],
-  "popularity": 76,
-  "sources": [
-    {
-      "title": "百度百科·波塞冬旅游度假区",
-      "url": "https://baike.baidu.com/item/%E5%93%88%E5%B0%94%E6%BB%A8%E6%B3%A2%E5%A1%9E%E5%86%AC%E6%B5%B7%E6%B4%8B%E7%8E%8B%E5%9B%BD",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
+  "body": "呼兰区的大型海洋主题度假区，室内水世界、海洋馆、酒店连成一体。水世界是恒温的，外面零下也能玩造浪池、滑道与漂流河，这是它在哈尔滨冬天最硬的卖点；海洋馆那边有鱼、水母与表演，场地比市区同类大，更像度假而不是看一次。带小孩安排一整天合适。缺点是位置偏、离市区远，公交要转，多数人得网约车或自驾；水世界与海洋馆分开计费、套票另算，一家子花费不低。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "带娃",
+   "冬天玩水",
+   "整天空档"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "波塞冬海底世界"
-  },
-  "_geocodeTitle": "波塞冬海底世界",
-  "_geocodeSuspect": false,
-  "district": "230111",
-  "_noImage": true
+  "avoid": [
+   "没车又赶时间",
+   "预算紧"
+  ],
+  "sources": []
+ }
 }

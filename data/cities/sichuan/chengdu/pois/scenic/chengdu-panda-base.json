@@ -1,168 +1,223 @@
 {
-  "id": "chengdu-panda-base",
-  "name": "成都大熊猫繁育研究基地",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "来成都的头号理由，早场能看到最活跃的滚滚进食",
-  "description": "坐落于成华区熊猫大道的这座基地是全球最大的大熊猫迁地保护基地之一，自 1987 年起承担着繁育研究与科普教育的双重任务，馆划分为月亮产房、太阳产房、小熊猫馆等片区，可容纳百余只大熊猫与数十只小熊猫。园区面积很大且起伏多，建议一早开园就入园——上午进食时段熊猫最活跃，午后多数个体回室内休息、参观体验会明显打折。园区提供观光车代步，并配有母婴室与无障碍通道，是成都唯一一个几乎所有人都会满意的点位。禁止投喂、禁止使用闪光灯是硬性规定。",
-  "highlights": [
-    "上午 7:30-10:00 是熊猫进食最活跃的时段",
-    "园区面积大，观光车可按站上下节省体力"
-  ],
-  "location": {
-    "point": {
-      "lng": 104.143773,
-      "lat": 30.736643,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "成都市成华区熊猫大道 1375 号",
-    "district": "成华区",
-    "transportTip": "地铁 3 号线熊猫大道站换乘景区直通车",
-    "entrance": {
-      "lng": 104.143966,
-      "lat": 30.727906,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "chengdu-panda-base",
+ "name": "成都大熊猫繁育研究基地",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "来成都的头号理由，早场能看到最活跃的滚滚进食",
+ "description": "坐落于成华区熊猫大道的这座基地是全球最大的大熊猫迁地保护基地之一，自 1987 年起承担着繁育研究与科普教育的双重任务，馆划分为月亮产房、太阳产房、小熊猫馆等片区，可容纳百余只大熊猫与数十只小熊猫。园区面积很大且起伏多，建议一早开园就入园——上午进食时段熊猫最活跃，午后多数个体回室内休息、参观体验会明显打折。园区提供观光车代步，并配有母婴室与无障碍通道，是成都唯一一个几乎所有人都会满意的点位。禁止投喂、禁止使用闪光灯是硬性规定。",
+ "highlights": [
+  "上午 7:30-10:00 是熊猫进食最活跃的时段",
+  "园区面积大，观光车可按站上下节省体力"
+ ],
+ "location": {
+  "point": {
+   "lng": 104.143773,
+   "lat": 30.736643,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 07:30-18:00，需提前官方预约（以官方渠道为准）",
-    "openHoursRef": 0,
-    "ticket": "约 55 元起",
-    "ticketRef": 0,
-    "duration": "建议 180-240 分钟",
-    "durationMinutes": [
-      180,
-      240
-    ],
-    "priceLevel": "mid"
+  "address": "成都市成华区熊猫大道 1375 号",
+  "district": "成华区",
+  "transportTip": "地铁 3 号线熊猫大道站换乘景区直通车",
+  "entrance": {
+   "lng": 104.143966,
+   "lat": 30.727906,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "冬季（11-2 月）08:00-17:30，16:30 停止入园；夏季（3-10 月）07:30-18:00，17:00 停止入园；需线上实名预约",
+  "openHoursRef": 0,
+  "ticket": "成人票 55 元，学生票 27 元（需线上实名预约，旺季无现场余票）",
+  "ticketRef": 0,
+  "duration": "建议 180-240 分钟",
+  "durationMinutes": [
+   180,
+   240
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "solo",
+  "couple",
+  "kids",
+  "friends",
+  "family",
+  "elders"
+ ],
+ "accessible": true,
+ "tips": [
+  "务必提前在官方公众号分时预约，旺季无现场余票",
+  "建议地铁或直通车前往，节假日周边易堵车"
+ ],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_01.jpg/1280px-Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_01.jpg/1280px-Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Chengdu Research Base of Giant Panda Breeding, 201907, 01.jpg",
+   "query": "成都大熊猫繁育研究基地 成都",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Jimmyshjj",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengdu_Research_Base_of_Giant_Panda_Breeding,_201907,_01.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "solo",
-    "couple",
-    "kids",
-    "friends",
-    "family",
-    "elders"
-  ],
-  "accessible": true,
-  "tips": [
-    "务必提前在官方公众号分时预约，旺季无现场余票",
-    "建议地铁或直通车前往，节假日周边易堵车"
-  ],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_01.jpg/1280px-Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_01.jpg/1280px-Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Chengdu Research Base of Giant Panda Breeding, 201907, 01.jpg",
-      "query": "成都大熊猫繁育研究基地 成都",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Jimmyshjj",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengdu_Research_Base_of_Giant_Panda_Breeding,_201907,_01.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_02.jpg/1280px-Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_02.jpg/1280px-Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Chengdu Research Base of Giant Panda Breeding, 201907, 02.jpg",
-      "query": "成都大熊猫繁育研究基地 成都",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Jimmyshjj",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengdu_Research_Base_of_Giant_Panda_Breeding,_201907,_02.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_03.jpg/1280px-Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_03.jpg/1280px-Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Chengdu Research Base of Giant Panda Breeding, 201907, 03.jpg",
-      "query": "成都大熊猫繁育研究基地 成都",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Jimmyshjj",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengdu_Research_Base_of_Giant_Panda_Breeding,_201907,_03.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_04.jpg/1280px-Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_04.jpg/1280px-Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Chengdu Research Base of Giant Panda Breeding, 201907, 04.jpg",
-      "query": "成都大熊猫繁育研究基地 成都",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Jimmyshjj",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengdu_Research_Base_of_Giant_Panda_Breeding,_201907,_04.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_05.jpg/1280px-Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_05.jpg/1280px-Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Chengdu Research Base of Giant Panda Breeding, 201907, 05.jpg",
-      "query": "成都大熊猫繁育研究基地 成都",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Jimmyshjj",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengdu_Research_Base_of_Giant_Panda_Breeding,_201907,_05.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_06.jpg/1280px-Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_06.jpg/1280px-Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Chengdu Research Base of Giant Panda Breeding, 201907, 06.jpg",
-      "query": "成都大熊猫繁育研究基地 成都",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Jimmyshjj",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengdu_Research_Base_of_Giant_Panda_Breeding,_201907,_06.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "国宝",
-    "亲子必去",
-    "需预约"
-  ],
-  "popularity": 98,
-  "sources": [
-    {
-      "title": "携程 · 成都大熊猫繁育研究基地",
-      "url": "https://m.ctrip.com/webapp/tnt/list?citytype=dt&keyword=%E5%A4%A7%E7%86%8A%E7%8C%AB%E5%9F%BA%E5%9C%B0&id=104",
-      "kind": "travel-platform",
-      "fetchedAt": "2026-09-18"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Chengdu Research Base Giant Panda",
-    "zh": "成都大熊猫基地"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_02.jpg/1280px-Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_02.jpg/1280px-Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Chengdu Research Base of Giant Panda Breeding, 201907, 02.jpg",
+   "query": "成都大熊猫繁育研究基地 成都",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Jimmyshjj",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengdu_Research_Base_of_Giant_Panda_Breeding,_201907,_02.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "成都大熊猫繁育研究基地",
-  "_geocodeSuspect": false,
-  "district": "510108"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_03.jpg/1280px-Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_03.jpg/1280px-Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Chengdu Research Base of Giant Panda Breeding, 201907, 03.jpg",
+   "query": "成都大熊猫繁育研究基地 成都",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Jimmyshjj",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengdu_Research_Base_of_Giant_Panda_Breeding,_201907,_03.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_04.jpg/1280px-Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_04.jpg/1280px-Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Chengdu Research Base of Giant Panda Breeding, 201907, 04.jpg",
+   "query": "成都大熊猫繁育研究基地 成都",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Jimmyshjj",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengdu_Research_Base_of_Giant_Panda_Breeding,_201907,_04.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_05.jpg/1280px-Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_05.jpg/1280px-Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Chengdu Research Base of Giant Panda Breeding, 201907, 05.jpg",
+   "query": "成都大熊猫繁育研究基地 成都",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Jimmyshjj",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengdu_Research_Base_of_Giant_Panda_Breeding,_201907,_05.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_06.jpg/1280px-Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_06.jpg/1280px-Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_201907%2C_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Chengdu Research Base of Giant Panda Breeding, 201907, 06.jpg",
+   "query": "成都大熊猫繁育研究基地 成都",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Jimmyshjj",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengdu_Research_Base_of_Giant_Panda_Breeding,_201907,_06.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "国宝",
+  "亲子必去",
+  "需预约"
+ ],
+ "popularity": 98,
+ "sources": [
+  {
+   "title": "携程 · 成都大熊猫繁育研究基地",
+   "url": "https://m.ctrip.com/webapp/tnt/list?citytype=dt&keyword=%E5%A4%A7%E7%86%8A%E7%8C%AB%E5%9F%BA%E5%9C%B0&id=104",
+   "kind": "travel-platform",
+   "fetchedAt": "2026-09-18"
+  },
+  {
+   "title": "基地官网分季开闭园公告+游客服务页：原记 07:30-18:00 只适用夏季，1",
+   "url": "https://www.panda.org.cn/cn/news/notice/2026-02-19/8855.html",
+   "kind": "media",
+   "fetchedAt": "2026-11-08"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Chengdu Research Base Giant Panda",
+  "zh": "成都大熊猫基地"
+ },
+ "_geocodeTitle": "成都大熊猫繁育研究基地",
+ "_geocodeSuspect": false,
+ "district": "510108",
+ "_patrol": {
+  "at": "2026-11-08",
+  "changes": [
+   {
+    "field": "开放时间",
+    "old": "约 07:30-18:00，需提前官方预约（以官方渠道为准）",
+    "new": "冬季（11-2 月）08:00-17:30，16:30 停止入园；夏季（3-10 月）07:30-18:00，17:00 停止入园；需线上实名预约"
+   },
+   {
+    "field": "门票",
+    "old": "约 55 元起",
+    "new": "成人票 55 元，学生票 27 元（需线上实名预约，旺季无现场余票）"
+   }
+  ],
+  "source": "https://www.panda.org.cn/cn/news/notice/2026-02-19/8855.html",
+  "reason": "基地官网分季开闭园公告+游客服务页：原记 07:30-18:00 只适用夏季，11-2 月为 08:00-17:30"
+ },
+ "review": {
+  "score": 4.7,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "熊猫活跃",
+    "score": 4.8,
+    "note": "上午进食时段最闹，午后多回室内"
+   },
+   {
+    "label": "园区体力",
+    "score": 3.4,
+    "note": "面积大且起伏，走一圈腿废，观光车该坐"
+   },
+   {
+    "label": "预约",
+    "score": 3.2,
+    "note": "旺季无现场余票，须提前分时预约"
+   },
+   {
+    "label": "亲子",
+    "score": 4.6,
+    "note": "母婴室与无障碍通道齐，孩子也看得懂"
+   }
+  ],
+  "body": "来成都的头号理由，早场和午后的差别大到像两个地方。上午进食时段熊猫最活跃，爬架子、抢竹子、闹成一团；过了十一点多数个体回室内休息，剩几个背影给你看。园区面积大且起伏，走完一圈腿是真废，观光车该坐就坐。缺点是旺季没有现场余票，必须提前在官方渠道分时预约，临时起意基本进不去；节假日周边堵得厉害，打车不如坐地铁或直通车。留三到四小时比较合适。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [],
+  "avoid": [],
+  "sources": []
+ }
 }

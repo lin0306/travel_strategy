@@ -1,69 +1,108 @@
 {
-  "id": "minggucheng-wanren",
-  "name": "明故城·万仞宫墙",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "曲阜老城城墙与正南门，城砖上的日落很出片。",
-  "description": "明故城是曲阜的老城，明代建成，城墙周长约四点五公里，把孔庙、孔府与老街一并围在城中。正南门上的「万仞宫墙」四个字取自《论语》，用来赞孔子学问高深，是曲阜最有辨识度的一处题字。城墙近年经过修缮，可以登墙行走，从上面看老城的灰瓦屋顶与远处的鼓楼，傍晚光线最好。城门前的广场常有开城仪式表演。墙内是生活着的街区，早点铺、小卖部与游客混在一起，不像纯景区。它是理解曲阜「城与庙」关系最好的地方。",
-  "highlights": [
-    "登城墙看老城灰瓦",
-    "「万仞宫墙」题字",
-    "傍晚光线最好"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.986212,
-      "lat": 35.581933,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "济宁市曲阜市明故城南门",
-    "district": "曲阜",
-    "transportTip": "孔庙南侧，步行可达"
+ "id": "minggucheng-wanren",
+ "name": "明故城·万仞宫墙",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "曲阜老城城墙与正南门，城砖上的日落很出片。",
+ "description": "明故城是曲阜的老城，明代建成，城墙周长约四点五公里，把孔庙、孔府与老街一并围在城中。正南门上的「万仞宫墙」四个字取自《论语》，用来赞孔子学问高深，是曲阜最有辨识度的一处题字。城墙近年经过修缮，可以登墙行走，从上面看老城的灰瓦屋顶与远处的鼓楼，傍晚光线最好。城门前的广场常有开城仪式表演。墙内是生活着的街区，早点铺、小卖部与游客混在一起，不像纯景区。它是理解曲阜「城与庙」关系最好的地方。",
+ "highlights": [
+  "登城墙看老城灰瓦",
+  "「万仞宫墙」题字",
+  "傍晚光线最好"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.986212,
+   "lat": 35.581933,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "城墙约 8:00-17:30（以官方为准）",
-    "openHoursRef": 0,
-    "ticket": "登城墙约10元起，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "family",
-    "couple",
-    "friends",
-    "solo"
+  "address": "济宁市曲阜市明故城南门",
+  "district": "曲阜",
+  "transportTip": "孔庙南侧，步行可达"
+ },
+ "practical": {
+  "openHours": "城墙约 8:00-17:30（以官方为准）",
+  "openHoursRef": 0,
+  "ticket": "登城墙约10元起，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "古城墙",
-    "万仞宫墙",
-    "日落"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "family",
+  "couple",
+  "friends",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "古城墙",
+  "万仞宫墙",
+  "日落"
+ ],
+ "popularity": 91,
+ "sources": [
+  {
+   "title": "百度百科·曲阜明故城",
+   "url": "https://baike.baidu.com/item/%E6%9B%B2%E9%98%9C%E6%98%8E%E6%95%85%E5%9F%8E",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-06"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "明故城·万仞宫墙"
+ },
+ "_geocodeTitle": "曲阜市",
+ "_geocodeSuspect": false,
+ "district": "370881",
+ "_noImage": true,
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "城墙",
+    "score": 4.2,
+    "note": "登墙能看老城灰瓦与远处鼓楼"
+   },
+   {
+    "label": "拍照",
+    "score": 4.3,
+    "note": "万仞宫墙题字辨识度最高"
+   },
+   {
+    "label": "门票",
+    "score": 3.4,
+    "note": "登城墙要单独买票"
+   },
+   {
+    "label": "时长",
+    "score": 3.2,
+    "note": "墙段不长，走一圈用不了多久"
+   }
   ],
-  "popularity": 91,
-  "sources": [
-    {
-      "title": "百度百科·曲阜明故城",
-      "url": "https://baike.baidu.com/item/%E6%9B%B2%E9%98%9C%E6%98%8E%E6%95%85%E5%9F%8E",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-06"
-    }
+  "body": "曲阜老城是明代建的，城墙把孔庙、孔府与老街一并围在城中，正南门上的万仞宫墙四个字取自《论语》，是这座城最有辨识度的一处题字。城墙近年修缮过，可以登墙行走，从上面看老城的灰瓦屋顶与远处鼓楼，傍晚光线最好；城门前的广场常有开城仪式表演。缺点是墙段不长，走一圈用不了多久，登墙还要单独买票，专程来会显得单薄。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "傍晚登墙",
+   "拍题字",
+   "顺路看老城"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "明故城·万仞宫墙"
-  },
-  "_geocodeTitle": "曲阜市",
-  "_geocodeSuspect": false,
-  "district": "370881",
-  "_noImage": true
+  "avoid": [
+   "专程只为城墙",
+   "想走长线"
+  ],
+  "sources": []
+ }
 }

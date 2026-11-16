@@ -1,152 +1,190 @@
 {
-  "id": "jiangling-guanjing",
-  "name": "江岭观景台",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "看油菜花梯田最经典的那几个台子。",
-  "description": "江岭观景台在一号到四号之间，是拍油菜花梯田最被认可的位置。站高处往下看，田一层层铺到云雾里。三号台子视野最开阔，四号更安静些。清晨有雾的时候，层次最好看。花期人多，三脚架一摆就是一排。想避开人，可以往最上面的台子走。它不收门票，但要先进江岭景区。",
-  "highlights": [
-    "拍梯田最经典的台子",
-    "三号台视野最开阔",
-    "清晨有雾最好看"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.030347,
-      "lat": 29.457269,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "上饶市婺源县溪头乡江岭景区",
-    "district": "婺源",
-    "transportTip": "江岭景区内，步行或摆渡"
+ "id": "jiangling-guanjing",
+ "name": "江岭观景台",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "看油菜花梯田最经典的那几个台子。",
+ "description": "江岭观景台在一号到四号之间，是拍油菜花梯田最被认可的位置。站高处往下看，田一层层铺到云雾里。三号台子视野最开阔，四号更安静些。清晨有雾的时候，层次最好看。花期人多，三脚架一摆就是一排。想避开人，可以往最上面的台子走。它不收门票，但要先进江岭景区。",
+ "highlights": [
+  "拍梯田最经典的台子",
+  "三号台视野最开阔",
+  "清晨有雾最好看"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.030347,
+   "lat": 29.457269,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 07:00-18:00（花期调整，以官方为准）",
-    "openHoursRef": 0,
-    "ticket": "免费（江岭景区门票另计）",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
+  "address": "上饶市婺源县溪头乡江岭景区",
+  "district": "婺源",
+  "transportTip": "江岭景区内，步行或摆渡"
+ },
+ "practical": {
+  "openHours": "约 07:00-18:00（花期调整，以官方为准）",
+  "openHoursRef": 0,
+  "ticket": "免费（江岭景区门票另计）",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2811%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2811%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Wuyuan, Shangrao, Jiangxi, China - panoramio (11).jpg",
+   "query": "江岭观景台",
+   "credit": {
+    "source": "wikimedia",
+    "author": "ping lin",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "street"
+   }
   },
-  "audience": [
-    "couple",
-    "friends",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2811%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2811%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Wuyuan, Shangrao, Jiangxi, China - panoramio (11).jpg",
-      "query": "江岭观景台",
-      "credit": {
-        "source": "wikimedia",
-        "author": "ping lin",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "street"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2813%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2813%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2813%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2813%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Wuyuan, Shangrao, Jiangxi, China - panoramio (13).jpg",
-      "query": "江岭观景台",
-      "credit": {
-        "source": "wikimedia",
-        "author": "ping lin",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "street"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2814%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2814%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2814%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2814%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Wuyuan, Shangrao, Jiangxi, China - panoramio (14).jpg",
-      "query": "江岭观景台",
-      "credit": {
-        "source": "wikimedia",
-        "author": "ping lin",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "street"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2810%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2810%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Wuyuan, Shangrao, Jiangxi, China - panoramio (10).jpg",
-      "query": "江岭观景台",
-      "credit": {
-        "source": "wikimedia",
-        "author": "ping lin",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "street"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "观景台",
-    "油菜花",
-    "拍照"
-  ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·江岭梯田",
-      "url": "https://baike.baidu.com/item/%E6%B1%9F%E5%B2%AD%E6%A2%AF%E7%94%B0",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-06"
-    }
-  ],
-  "updatedAt": "2026-11-01",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "江岭观景台"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2813%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2813%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2813%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2813%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Wuyuan, Shangrao, Jiangxi, China - panoramio (13).jpg",
+   "query": "江岭观景台",
+   "credit": {
+    "source": "wikimedia",
+    "author": "ping lin",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "street"
+   }
   },
-  "_geocodeTitle": "江岭风景区-2号观景台",
-  "_geocodeSuspect": false,
-  "district": "361130"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2814%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2814%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2814%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2814%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Wuyuan, Shangrao, Jiangxi, China - panoramio (14).jpg",
+   "query": "江岭观景台",
+   "credit": {
+    "source": "wikimedia",
+    "author": "ping lin",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "street"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2810%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2810%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Wuyuan, Shangrao, Jiangxi, China - panoramio (10).jpg",
+   "query": "江岭观景台",
+   "credit": {
+    "source": "wikimedia",
+    "author": "ping lin",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "street"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "观景台",
+  "油菜花",
+  "拍照"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·江岭梯田",
+   "url": "https://baike.baidu.com/item/%E6%B1%9F%E5%B2%AD%E6%A2%AF%E7%94%B0",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-06"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "江岭观景台"
+ },
+ "_geocodeTitle": "江岭风景区-2号观景台",
+ "_geocodeSuspect": false,
+ "district": "361130",
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.6,
+    "note": "三号台最开阔，梯田铺到雾里"
+   },
+   {
+    "label": "花期",
+    "score": 3.4,
+    "note": "油菜花期短，非花期只剩田垄"
+   },
+   {
+    "label": "人流",
+    "score": 2.8,
+    "note": "花期三脚架一摆就是一排"
+   },
+   {
+    "label": "交通",
+    "score": 3.4,
+    "note": "要先进江岭景区再往上走"
+   }
+  ],
+  "body": "站在高处往下看，油菜花梯田一层层铺到云雾里，三号台视野最开阔，四号更安静些，清晨有雾的时候层次最好看。观景台本身不收费，但要先进江岭景区。缺点是花期人挤人，三脚架一摆就是一排，想拍空镜得起早摸黑上来；非花期上来只见田垄，价值明显打折。冲着那片花海来的，务必先看花讯再定行程。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "摄影",
+   "春季"
+  ],
+  "avoid": [
+   "非花期",
+   "怕人多"
+  ],
+  "sources": []
+ }
 }

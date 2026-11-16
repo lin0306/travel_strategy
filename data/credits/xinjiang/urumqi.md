@@ -1,6 +1,6 @@
 # 乌鲁木齐 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-02
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-14
 
 ## 概览
 
@@ -74,9 +74,8 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Lywin | Pexels License | [pexels](https://www.pexels.com/photo/a-city-street-with-buildings-and-a-clock-tower-27987227/) |
-| 城市封面 | Nikolai Kolosov | Pexels License | [pexels](https://www.pexels.com/photo/aerial-view-of-an-urban-area-7018462/) |
-| 城市封面 | ainc T | Pexels License | [pexels](https://www.pexels.com/photo/aerial-cityscape-view-of-harbin-at-dusk-36212874/) |
+| 城市封面 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20231218_Xinjiang_International_Grand_Bazaar_01.jpg) |
+| 城市封面 | Tomskyhaha | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A_tour_in_Tian_Mountain_Heavenly_Lake_Scenic_Area_15.jpg) |
 | 亚洲地理中心 | 罗布泊 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%9A%E6%B4%B2%E5%9C%B0%E7%90%86%E4%B8%AD%E5%BF%83_Asia_Geographic_center_China_Xinjiang_Urumqi_Welcome_-_panoramio.jpg) |
 | 亚洲地理中心 | 罗布泊 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%9A%E6%B4%B2%E5%9C%B0%E7%90%86%E4%B8%AD%E5%BF%83_Asia_Geographic_center_China_Xinjiang_Urumqi_Welcome_-_panoramio_(10).jpg) |
 | 亚洲地理中心 | 罗布泊 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%9A%E6%B4%B2%E5%9C%B0%E7%90%86%E4%B8%AD%E5%BF%83_Asia_Geographic_center_China_Xinjiang_Urumqi_Welcome_-_panoramio_(12).jpg) |
@@ -101,8 +100,6 @@
 | 南山风景区 | Dan Lundberg | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20160511_China_6313_Pano_Nanshan_sRGB.jpg) |
 | 一号冰川 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E6%B2%B3%E6%BA%901%E5%8F%B7%E5%86%B0%E5%B7%9D.jpg) |
 | 水磨沟风景区 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B0%B4%E7%A3%A8%E6%B2%9F%E9%A3%8E%E6%99%AF%E5%8C%BA%E5%A4%A7%E9%97%A8.jpg) |
-| 天山丝绸之路滑雪场 | 罗布泊 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%96%86%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%8E%BF_China_Xinjiang_Urumqi_County,_China_Xinjiang_-_panoramio_(10).jpg) |
-| 天山丝绸之路滑雪场 | 罗布泊 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%96%86%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%8E%BF_China_Xinjiang_Urumqi_County,_China_Xinjiang_-_panoramio_(12).jpg) |
 | 天山天池 | zhanyoun | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E5%B1%B1%E5%A4%A9%E6%B1%A01_-_panoramio.jpg) |
 | 天山天池 | zhanyoun | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E5%B1%B1%E5%A4%A9%E6%B1%A02_-_panoramio.jpg) |
 | 天山天池 | Bernard Gagnon | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Tianchi_Lake.jpg) |
@@ -113,21 +110,25 @@
 | 新疆国际大巴扎 | 29cm from Hong Kong | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Urumqi_s_bazzar.jpg) |
 | 新疆国际大巴扎 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%9D%E7%BB%B8%E4%B9%8B%E8%B7%AF%E5%A1%94%E5%86%85%E7%BB%B4%E5%90%BE%E5%B0%94%E6%97%8F%E6%B0%91%E5%B1%85%E5%B1%95%E5%8E%85.jpg) |
 | 乌拉泊古城 | CIA/NRO/USGS | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Ulanbay_Ancient_City_in_1972_by_CORONA_satellite.jpg) |
-| 新疆民街 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E6%96%B0%E5%8D%81%E6%99%AF%E7%A2%91%EF%BC%88%E6%B0%91%E4%BF%97%E9%A3%8E%E6%83%85%E4%B8%80%E6%9D%A1%E8%A1%97%EF%BC%8C%E6%96%B0%E7%96%86%E6%B0%91%E8%A1%97%EF%BC%89_%E7%9B%9B%E4%B8%96%E9%9B%AA%E8%8E%B2%E9%9B%95%E5%A1%91.jpg) |
-| 新疆民街 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%96%B0%E7%96%86%E6%B0%91%E8%A1%97_(2021%E5%B9%B4).jpg) |
-| 新疆民街 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%96%B0%E7%96%86%E6%B0%91%E8%A1%97_(2026%E5%B9%B4).jpg) |
 | 新疆维吾尔自治区博物馆 | Hiroki Ogawa | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xinjiang_Uygur_Autonomous_Region_Museum_Urumqi_Xinjiang_China_%E6%96%B0%E7%96%86_%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90_%E6%96%B0%E7%96%86%E7%BB%B4%E5%90%BE%E5%B0%94%E8%87%AA%E6%B2%BB%E5%8C%BA%E5%8D%9A%E7%89%A9%E9%A6%86_-_panoramio.jpg) |
 | 新疆维吾尔自治区博物馆 | Hiroki Ogawa | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xinjiang_Uygur_Autonomous_Region_Museum_Urumqi_Xinjiang_China_%E6%96%B0%E7%96%86_%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90_%E6%96%B0%E7%96%86%E7%BB%B4%E5%90%BE%E5%B0%94%E8%87%AA%E6%B2%BB%E5%8C%BA%E5%8D%9A%E7%89%A9%E9%A6%86_-_panoramio_(1).jpg) |
 | 新疆维吾尔自治区博物馆 | Hiroki Ogawa | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xinjiang_Uygur_Autonomous_Region_Museum_Urumqi_Xinjiang_China_%E6%96%B0%E7%96%86_%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90_%E6%96%B0%E7%96%86%E7%BB%B4%E5%90%BE%E5%B0%94%E8%87%AA%E6%B2%BB%E5%8C%BA%E5%8D%9A%E7%89%A9%E9%A6%86_-_panoramio_(2).jpg) |
 | 雅玛里克山 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BB%8E%E9%9B%85%E7%8E%9B%E9%87%8C%E5%85%8B%E5%B1%B1%E7%9C%BA%E6%9C%9B%E5%B8%82%E5%8C%BA.jpg) |
 | 雅玛里克山 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BB%8E%E9%9B%85%E7%8E%9B%E9%87%8C%E5%85%8B%E5%B1%B1%E7%9C%BA%E6%9C%9B%E5%B8%82%E5%8C%BA2.jpg) |
 | 雅玛里克山 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9B%85%E7%8E%9B%E9%87%8C%E5%85%8B%E5%B1%B1%E4%B9%85%E4%B9%85%E4%B8%96%E7%BA%AA%E4%BA%AD.jpg) |
+| 妖魔山 | jun jin luo | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 妖魔山 | jun jin luo | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 妖魔山 | 罗布泊 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 妖魔山 | 罗布泊 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 妖魔山 | 罗布泊 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 妖魔山 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A6%96%E9%AD%94%E5%B1%B1%E9%97%A8.jpg) |
 | 大盘鸡 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%87%91%E6%9F%B1%E5%A4%A7%E7%9B%98%E9%B8%A1-%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%B8%82%E9%87%91%E6%9F%B1%E5%91%B3%E9%81%93%E9%A4%90%E9%A5%AE%E7%AE%A1%E7%90%86%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8.jpg) |
 | 大盘鸡 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20231216_Dapanji_served_in_Aksu.jpg) |
 | 大盘鸡 | Mizu basyo | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dapanji_Uyghur_Style.jpg) |
 | 烤包子 | Fumikas Sagisavas | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mutton_samsa.jpg) |
 | 烤包子 | Ji-Elle | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Ouzb%C3%A9kistan-Samsas.jpg) |
 | 烤包子 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Samsa_at_G%C3%BClhan_Restaurant,_Beijing_(20210402171539).jpg) |
+| 烤全羊 | Suginami | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%A4%E5%85%A8%E7%BE%8A%EF%BC%88%E5%8D%8A%E5%8F%AA%EF%BC%89.jpg) |
 | 拉条子 | Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:E7870-Dordoy-laghman.jpg) |
 | 新疆馕 | Ganesh Mohan T | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Butter_Naan_2.jpg) |
 | 新疆馕 | Shisma | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Naan_2.jpg) |
@@ -137,12 +138,40 @@
 | 烤羊肉串 | TurnOnTheNight | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Cooking_Chuan_at_2026_BIFC_20260905153537.jpg) |
 | 烤羊肉串 | Fumikas Sagisavas | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Freshippo_grilled_lamb_kebabs.jpg) |
 | 烤羊肉串 | TurnOnTheNight | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Kebab_in_Dandong_20260329184739.jpg) |
+| 红山塔观城 | David Stanley from Nanaimo, Canada | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 红山塔观城 | Alexander Flühmann | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 红山塔观城 | Y Chen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 红山塔观城 | David Stanley from Nanaimo, Canada | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 丝绸之路滑雪 | 罗布泊 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%96%86%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%8E%BF_China_Xinjiang_Urumqi_County,_China_Xinjiang_-_panoramio_(1).jpg) |
 | 丝绸之路滑雪 | 罗布泊 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%96%86%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%8E%BF_China_Xinjiang_Urumqi_County,_China_Xinjiang_-_panoramio_(10).jpg) |
 | 丝绸之路滑雪 | 罗布泊 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%96%86%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%8E%BF_China_Xinjiang_Urumqi_County,_China_Xinjiang_-_panoramio_(12).jpg) |
+| 新疆美术馆 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 新疆美术馆 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 新疆美术馆 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 新疆美术馆 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 新疆美术馆 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 新疆美术馆 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 新疆国际大巴扎民俗 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 新疆国际大巴扎民俗 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 新疆国际大巴扎民俗 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 新疆国际大巴扎民俗 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 新疆国际大巴扎民俗 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 新疆国际大巴扎民俗 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 二道桥民俗 | neverdance | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 二道桥民俗 | neverdance | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 二道桥民俗 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 二道桥民俗 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 二道桥民俗 | neverdance | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 二道桥民俗 | jun jin luo | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 新疆民街 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E6%96%B0%E5%8D%81%E6%99%AF%E7%A2%91%EF%BC%88%E6%B0%91%E4%BF%97%E9%A3%8E%E6%83%85%E4%B8%80%E6%9D%A1%E8%A1%97%EF%BC%8C%E6%96%B0%E7%96%86%E6%B0%91%E8%A1%97%EF%BC%89_%E7%9B%9B%E4%B8%96%E9%9B%AA%E8%8E%B2%E9%9B%95%E5%A1%91.jpg) |
 | 新疆民街 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%96%B0%E7%96%86%E6%B0%91%E8%A1%97_(2021%E5%B9%B4).jpg) |
 | 新疆民街 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%96%B0%E7%96%86%E6%B0%91%E8%A1%97_(2026%E5%B9%B4).jpg) |
+| 新疆博物馆丝路文物 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 新疆博物馆丝路文物 | Baomi | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 新疆博物馆丝路文物 | Baomi | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 新疆博物馆丝路文物 | Kubilayaxun | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 新疆博物馆丝路文物 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 新疆博物馆丝路文物 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 馕文化 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E9%A6%95%E6%96%87%E5%8C%96%E4%BA%A7%E4%B8%9A%E5%9B%AD%EF%BC%882021.4%EF%BC%89.jpg) |
 | 馕文化 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%96%B0%E7%96%86%E7%BB%B4%E5%90%BE%E5%B0%94%E8%87%AA%E6%B2%BB%E5%8C%BA%E9%9D%9E%E7%89%A9%E8%B4%A8%E6%96%87%E5%8C%96%E9%81%97%E4%BA%A7%E9%A6%86%E5%B1%95%E7%A4%BA%E7%9A%84%E9%A6%95%E5%88%B6%E4%BD%9C%E6%8A%80%E8%89%BA.jpg) |
 | 馕文化 | HaziiDozen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%96%B0%E7%96%86%E9%A6%95%E6%96%87%E5%8C%96%E5%8D%9A%E7%89%A9%E9%A6%86.jpg) |

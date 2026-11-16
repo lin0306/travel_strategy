@@ -1,6 +1,6 @@
 # 曲阜 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-06
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-13
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | User:Vmenkov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Qufu_-_Gulou_St_-_looking_north_-_P1050369.JPG) |
-| 城市封面 | Ngguls | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260502_%22Ancient_Changping_Township%22,_Luyuan_Village,_Sishui_Chounty,_Shandong,_China.jpg) |
-| 城市封面 | Ngguls | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260502_%22Happy_Learning_and_Sprouts_of_Spring%22_performance_at_Zemu_Square,_Luyuan_Village_Scenic_Area,_Qufu_City,_Shandong.jpg) |
+| 城市封面 | Air7538 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%9B%BD%E5%B1%B1%E4%B8%9C%E7%9C%81%E6%9B%B2%E9%98%9C%E5%B8%82%E5%AD%94%E5%BA%99%E4%B8%87%E4%BB%9E%E5%AE%AB%E5%A2%99.jpg) |
+| 城市封面 | brett Vachon from Montreal, canada | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Temple_of_Confucius,_Qufu,_China_(29315106624).jpg) |
+| 城市封面 | Air7538 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%9B%BD%E5%B1%B1%E4%B8%9C%E7%9C%81%E6%9B%B2%E9%98%9C%E5%B8%82%E5%AD%94%E6%9E%97%E8%87%B3%E5%9C%A3%E6%9E%97%E9%97%A8.jpg) |
 | 大沂河 | 祝鱼贵 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 大沂河 | 祝鱼贵 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 大沂河 | 祝鱼贵 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |

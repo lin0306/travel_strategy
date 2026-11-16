@@ -39,7 +39,50 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Kun_Iam_Statue_Night_View_20130521.jpg/1280px-Kun_Iam_Statue_Night_View_20130521.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Kun_Iam_Statue_Night_View_20130521.jpg/1280px-Kun_Iam_Statue_Night_View_20130521.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Kun Iam Statue Night View 20130521.jpg",
+      "query": "观音莲花苑",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Global Reactions from Macau, Macau",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY 2.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-06",
+        "tier": "exact"
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Kun_Iam_statue_%289667696902%29.jpg/1280px-Kun_Iam_statue_%289667696902%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Kun_Iam_statue_%289667696902%29.jpg/1280px-Kun_Iam_statue_%289667696902%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Kun Iam statue (9667696902).jpg",
+      "query": "观音莲花苑",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Filip Maljković from Pancevo, Serbia",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-06",
+        "tier": "exact"
+      }
+    }
+  ],
   "coverIndex": 0,
   "tags": [
     "雕像",
@@ -55,7 +98,7 @@
       "fetchedAt": "2026-10-03"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-06",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Kun Iam Ecumenical Centre Macau",
@@ -63,6 +106,5 @@
   },
   "_geocodeTitle": "观音莲花苑",
   "_geocodeSuspect": false,
-  "district": "820100",
-  "_noImage": true
+  "district": "820100"
 }

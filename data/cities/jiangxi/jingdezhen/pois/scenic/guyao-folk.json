@@ -1,128 +1,165 @@
 {
-  "id": "guyao-folk",
-  "name": "古窑民俗博览区",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "把老窑和作坊集中保护的一片景区，能看到手工拉坯和柴窑，有演示。",
-  "description": "古窑民俗博览区在昌江区瓷都大道，是一片把老窑和作坊集中保护起来的景区。它有历代的窑型 —— 宋的龙窑、元的馒头窑、明清的葫芦窑，都在。最吸引人的是有师傅现场做 —— 拉坯、利坯、画青花，能站着看。它是收费景区，逛完要小半天。",
-  "highlights": [
-    "集中保护历代窑型，龙窑馒头窑葫芦窑",
-    "有师傅现场拉坯利坯画青花",
-    "收费景区，逛完小半天"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.18463,
-      "lat": 29.284102,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "江西省景德镇市昌江区瓷都大道古窑路1号",
-    "district": "昌江区",
-    "transportTip": "市区公交或打车到古窑"
+ "id": "guyao-folk",
+ "name": "古窑民俗博览区",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "把老窑和作坊集中保护的一片景区，能看到手工拉坯和柴窑，有演示。",
+ "description": "古窑民俗博览区在昌江区瓷都大道，是一片把老窑和作坊集中保护起来的景区。它有历代的窑型 —— 宋的龙窑、元的馒头窑、明清的葫芦窑，都在。最吸引人的是有师傅现场做 —— 拉坯、利坯、画青花，能站着看。它是收费景区，逛完要小半天。",
+ "highlights": [
+  "集中保护历代窑型，龙窑馒头窑葫芦窑",
+  "有师傅现场拉坯利坯画青花",
+  "收费景区，逛完小半天"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.18463,
+   "lat": 29.284102,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-17:30，以景区公告为准",
-    "openHoursRef": 0,
-    "ticket": "约95元",
-    "ticketRef": 0,
-    "duration": "建议 150-300 分钟",
-    "durationMinutes": [
-      150,
-      300
-    ],
-    "priceLevel": "mid"
+  "address": "江西省景德镇市昌江区瓷都大道古窑路1号",
+  "district": "昌江区",
+  "transportTip": "市区公交或打车到古窑"
+ },
+ "practical": {
+  "openHours": "约08:00-17:30，以景区公告为准",
+  "openHoursRef": 0,
+  "ticket": "约95元",
+  "ticketRef": 0,
+  "duration": "建议 150-300 分钟",
+  "durationMinutes": [
+   150,
+   300
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "family",
+  "elders",
+  "kids"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_01.jpg/1280px-%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_01.jpg/1280px-%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "景德镇古窑民俗博览区 半成品瓷器 01.jpg",
+   "query": "Ancient Kiln Folk Customs Museum Jingdezhen",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Liuxingy",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_01.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "family",
-    "elders",
-    "kids"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_01.jpg/1280px-%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_01.jpg/1280px-%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "景德镇古窑民俗博览区 半成品瓷器 01.jpg",
-      "query": "Ancient Kiln Folk Customs Museum Jingdezhen",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Liuxingy",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_01.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_07.jpg/1280px-%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_07.jpg/1280px-%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "景德镇古窑民俗博览区 半成品瓷器 07.jpg",
-      "query": "Ancient Kiln Folk Customs Museum Jingdezhen",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Liuxingy",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_07.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_10.jpg/1280px-%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_10.jpg/1280px-%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "景德镇古窑民俗博览区 半成品瓷器 10.jpg",
-      "query": "Ancient Kiln Folk Customs Museum Jingdezhen",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Liuxingy",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_10.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E7%B2%BE%E7%BE%8E%E7%93%B7%E5%99%A8.jpg/1280px-%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E7%B2%BE%E7%BE%8E%E7%93%B7%E5%99%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E7%B2%BE%E7%BE%8E%E7%93%B7%E5%99%A8.jpg/1280px-%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E7%B2%BE%E7%BE%8E%E7%93%B7%E5%99%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "景德镇古窑民俗博览区 精美瓷器.jpg",
-      "query": "Ancient Kiln Folk Customs Museum Jingdezhen",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Liuxingy",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E7%B2%BE%E7%BE%8E%E7%93%B7%E5%99%A8.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "古窑",
-    "手工",
-    "陶瓷"
-  ],
-  "popularity": 94,
-  "sources": [
-    {
-      "title": "百度百科·景德镇古窑民俗博览区",
-      "url": "https://baike.baidu.com/item/%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Ancient Kiln Folk Customs Museum Jingdezhen",
-    "zh": "古窑民俗博览区"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_07.jpg/1280px-%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_07.jpg/1280px-%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "景德镇古窑民俗博览区 半成品瓷器 07.jpg",
+   "query": "Ancient Kiln Folk Customs Museum Jingdezhen",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Liuxingy",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_07.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "景德镇古窑民俗博览区",
-  "_geocodeSuspect": false,
-  "district": "360202"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_10.jpg/1280px-%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_10.jpg/1280px-%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "景德镇古窑民俗博览区 半成品瓷器 10.jpg",
+   "query": "Ancient Kiln Folk Customs Museum Jingdezhen",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Liuxingy",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_10.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E7%B2%BE%E7%BE%8E%E7%93%B7%E5%99%A8.jpg/1280px-%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E7%B2%BE%E7%BE%8E%E7%93%B7%E5%99%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E7%B2%BE%E7%BE%8E%E7%93%B7%E5%99%A8.jpg/1280px-%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E7%B2%BE%E7%BE%8E%E7%93%B7%E5%99%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "景德镇古窑民俗博览区 精美瓷器.jpg",
+   "query": "Ancient Kiln Folk Customs Museum Jingdezhen",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Liuxingy",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E7%B2%BE%E7%BE%8E%E7%93%B7%E5%99%A8.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "古窑",
+  "手工",
+  "陶瓷"
+ ],
+ "popularity": 94,
+ "sources": [
+  {
+   "title": "百度百科·景德镇古窑民俗博览区",
+   "url": "https://baike.baidu.com/item/%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Ancient Kiln Folk Customs Museum Jingdezhen",
+  "zh": "古窑民俗博览区"
+ },
+ "_geocodeTitle": "景德镇古窑民俗博览区",
+ "_geocodeSuspect": false,
+ "district": "360202",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "演示",
+    "score": 4.6,
+    "note": "师傅现场拉坯利坯画青花，能站着看很久"
+   },
+   {
+    "label": "门票",
+    "score": 3.3,
+    "note": "收费景区，票价不算低"
+   },
+   {
+    "label": "讲解",
+    "score": 3.8,
+    "note": "跟着讲解才分得清龙窑馒头窑葫芦窑"
+   },
+   {
+    "label": "时长",
+    "score": 4.0,
+    "note": "逛完小半天，别排在行程尾巴"
+   }
+  ],
+  "body": "宋的龙窑、元的馒头窑、明清的葫芦窑都在，最值得看的是师傅现场拉坯、利坯、画青花，站着能看很久。它是收费景区，票价不算低，逛完要小半天。演示有固定场次，赶不上就只剩一排空窑，多少有点可惜，进门先问清时间。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "带娃",
+   "看手艺"
+  ],
+  "avoid": [
+   "赶时间"
+  ],
+  "sources": []
+ }
 }

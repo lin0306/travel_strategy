@@ -1,155 +1,193 @@
 {
-  "id": "zhang-mansion",
-  "name": "张氏帅府",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "张作霖张学良父子的府邸，中西合璧，大青楼和小青楼都在。",
-  "description": "张氏帅府是张作霖、张学良父子的府邸，民国的风云都在这儿。大青楼、小青楼一西一中，还有四合院和西式花园。边走边看那一段近代史。它紧邻沈阳故宫，常一起安排。留足时间，别赶。",
-  "highlights": [
-    "张作霖张学良父子府邸",
-    "大青楼小青楼中西合璧",
-    "紧邻故宫近代史"
-  ],
-  "location": {
-    "point": {
-      "lng": 123.45768,
-      "lat": 41.79411,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "辽宁省沈阳市沈河区朝阳街少帅府巷48号张氏帅府",
-    "district": "沈河区",
-    "transportTip": "地铁或公交到张氏帅府站"
+ "id": "zhang-mansion",
+ "name": "张氏帅府",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "张作霖张学良父子的府邸，中西合璧，大青楼和小青楼都在。",
+ "description": "张氏帅府是张作霖、张学良父子的府邸，民国的风云都在这儿。大青楼、小青楼一西一中，还有四合院和西式花园。边走边看那一段近代史。它紧邻沈阳故宫，常一起安排。留足时间，别赶。",
+ "highlights": [
+  "张作霖张学良父子府邸",
+  "大青楼小青楼中西合璧",
+  "紧邻故宫近代史"
+ ],
+ "location": {
+  "point": {
+   "lng": 123.45768,
+   "lat": 41.79411,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:30-17:30（以公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约50元（以官方为准）",
-    "ticketRef": 0,
-    "duration": "建议 120-240 分钟",
-    "durationMinutes": [
-      120,
-      240
-    ],
-    "priceLevel": "mid"
+  "address": "辽宁省沈阳市沈河区朝阳街少帅府巷48号张氏帅府",
+  "district": "沈河区",
+  "transportTip": "地铁或公交到张氏帅府站"
+ },
+ "practical": {
+  "openHours": "约08:30-17:30（以公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约50元（以官方为准）",
+  "ticketRef": 0,
+  "duration": "建议 120-240 分钟",
+  "durationMinutes": [
+   120,
+   240
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "elders",
+  "family",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio.jpg/1280px-Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio.jpg/1280px-Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 809,
+   "alt": "Former Residence of Zhang Xueliang 張學良故居 - panoramio.jpg",
+   "query": "张氏帅府 沈阳",
+   "credit": {
+    "source": "wikimedia",
+    "author": "lienyuan lee",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "elders",
-    "family",
-    "friends"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio.jpg/1280px-Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio.jpg/1280px-Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 809,
-      "alt": "Former Residence of Zhang Xueliang 張學良故居 - panoramio.jpg",
-      "query": "张氏帅府 沈阳",
-      "credit": {
-        "source": "wikimedia",
-        "author": "lienyuan lee",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio_%281%29.jpg/1280px-Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio_%281%29.jpg/1280px-Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Former Residence of Zhang Xueliang 張學良故居 - panoramio (1).jpg",
-      "query": "张氏帅府 沈阳",
-      "credit": {
-        "source": "wikimedia",
-        "author": "lienyuan lee",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio_(1).jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio_%282%29.jpg/1280px-Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio_%282%29.jpg/1280px-Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Former Residence of Zhang Xueliang 張學良故居 - panoramio (2).jpg",
-      "query": "张氏帅府 沈阳",
-      "credit": {
-        "source": "wikimedia",
-        "author": "lienyuan lee",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio_(2).jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/%E8%B6%99%E4%B8%80%E8%8D%BB%E5%B0%8F%E5%A7%90%E6%95%85%E5%B1%85_Former_Residence_of_Ms._Zhao_Yidi_-_panoramio.jpg/1280px-%E8%B6%99%E4%B8%80%E8%8D%BB%E5%B0%8F%E5%A7%90%E6%95%85%E5%B1%85_Former_Residence_of_Ms._Zhao_Yidi_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/%E8%B6%99%E4%B8%80%E8%8D%BB%E5%B0%8F%E5%A7%90%E6%95%85%E5%B1%85_Former_Residence_of_Ms._Zhao_Yidi_-_panoramio.jpg/1280px-%E8%B6%99%E4%B8%80%E8%8D%BB%E5%B0%8F%E5%A7%90%E6%95%85%E5%B1%85_Former_Residence_of_Ms._Zhao_Yidi_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "趙一荻小姐故居 Former Residence of Ms. Zhao Yidi - panoramio.jpg",
-      "query": "张氏帅府",
-      "credit": {
-        "source": "wikimedia",
-        "author": "lienyuan lee",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/%E5%BC%B5%E6%B0%8F%E5%B8%A5%E5%BA%9C_Marshal_Chang%60s_Mansion_-_panoramio.jpg/1280px-%E5%BC%B5%E6%B0%8F%E5%B8%A5%E5%BA%9C_Marshal_Chang%60s_Mansion_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/%E5%BC%B5%E6%B0%8F%E5%B8%A5%E5%BA%9C_Marshal_Chang%60s_Mansion_-_panoramio.jpg/1280px-%E5%BC%B5%E6%B0%8F%E5%B8%A5%E5%BA%9C_Marshal_Chang%60s_Mansion_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "張氏帥府 Marshal Chang`s Mansion - panoramio.jpg",
-      "query": "张氏帅府",
-      "credit": {
-        "source": "wikimedia",
-        "author": "lienyuan lee",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "front"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "帅府",
-    "民国",
-    "张作霖"
-  ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·张氏帅府",
-      "url": "https://baike.baidu.com/item/%E5%BC%A0%E6%B0%8F%E5%B8%85%E5%BA%9C",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-02"
-    }
-  ],
-  "updatedAt": "2026-11-03",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Zhang's Marshal Mansion",
-    "zh": "张氏帅府"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio_%281%29.jpg/1280px-Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio_%281%29.jpg/1280px-Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Former Residence of Zhang Xueliang 張學良故居 - panoramio (1).jpg",
+   "query": "张氏帅府 沈阳",
+   "credit": {
+    "source": "wikimedia",
+    "author": "lienyuan lee",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio_(1).jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "张氏帅府博物馆",
-  "_geocodeSuspect": false,
-  "district": "210103"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio_%282%29.jpg/1280px-Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio_%282%29.jpg/1280px-Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Former Residence of Zhang Xueliang 張學良故居 - panoramio (2).jpg",
+   "query": "张氏帅府 沈阳",
+   "credit": {
+    "source": "wikimedia",
+    "author": "lienyuan lee",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Former_Residence_of_Zhang_Xueliang_%E5%BC%B5%E5%AD%B8%E8%89%AF%E6%95%85%E5%B1%85_-_panoramio_(2).jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/%E8%B6%99%E4%B8%80%E8%8D%BB%E5%B0%8F%E5%A7%90%E6%95%85%E5%B1%85_Former_Residence_of_Ms._Zhao_Yidi_-_panoramio.jpg/1280px-%E8%B6%99%E4%B8%80%E8%8D%BB%E5%B0%8F%E5%A7%90%E6%95%85%E5%B1%85_Former_Residence_of_Ms._Zhao_Yidi_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/%E8%B6%99%E4%B8%80%E8%8D%BB%E5%B0%8F%E5%A7%90%E6%95%85%E5%B1%85_Former_Residence_of_Ms._Zhao_Yidi_-_panoramio.jpg/1280px-%E8%B6%99%E4%B8%80%E8%8D%BB%E5%B0%8F%E5%A7%90%E6%95%85%E5%B1%85_Former_Residence_of_Ms._Zhao_Yidi_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "趙一荻小姐故居 Former Residence of Ms. Zhao Yidi - panoramio.jpg",
+   "query": "张氏帅府",
+   "credit": {
+    "source": "wikimedia",
+    "author": "lienyuan lee",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/%E5%BC%B5%E6%B0%8F%E5%B8%A5%E5%BA%9C_Marshal_Chang%60s_Mansion_-_panoramio.jpg/1280px-%E5%BC%B5%E6%B0%8F%E5%B8%A5%E5%BA%9C_Marshal_Chang%60s_Mansion_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/%E5%BC%B5%E6%B0%8F%E5%B8%A5%E5%BA%9C_Marshal_Chang%60s_Mansion_-_panoramio.jpg/1280px-%E5%BC%B5%E6%B0%8F%E5%B8%A5%E5%BA%9C_Marshal_Chang%60s_Mansion_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "張氏帥府 Marshal Chang`s Mansion - panoramio.jpg",
+   "query": "张氏帅府",
+   "credit": {
+    "source": "wikimedia",
+    "author": "lienyuan lee",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "front"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "帅府",
+  "民国",
+  "张作霖"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·张氏帅府",
+   "url": "https://baike.baidu.com/item/%E5%BC%A0%E6%B0%8F%E5%B8%85%E5%BA%9C",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-02"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Zhang's Marshal Mansion",
+  "zh": "张氏帅府"
+ },
+ "_geocodeTitle": "张氏帅府博物馆",
+ "_geocodeSuspect": false,
+ "district": "210103",
+ "review": {
+  "score": 4.5,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "历史含量",
+    "score": 4.7,
+    "note": "民国风云就在几间屋子里"
+   },
+   {
+    "label": "展陈",
+    "score": 4.3,
+    "note": "大青楼小青楼一中一西并置"
+   },
+   {
+    "label": "人流",
+    "score": 3.4,
+    "note": "热门时段团队扎堆"
+   },
+   {
+    "label": "时长",
+    "score": 4.0,
+    "note": "院子多，留两小时才不赶"
+   }
+  ],
+  "body": "张作霖、张学良父子的府邸，大青楼与小青楼一西一中，还有四合院和西式花园，边走边看就是那一段近代史，紧邻沈阳故宫，两处常一起安排。缺点是热门时段团队扎堆，讲解声互相盖；院子多、岔路也多，不看清导览容易漏掉西院。建议先帅府后故宫，把体力留给下午，别一天赶三处。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "历史爱好者",
+   "亲子"
+  ],
+  "avoid": [
+   "赶时间",
+   "怕人多"
+  ],
+  "sources": []
+ }
 }

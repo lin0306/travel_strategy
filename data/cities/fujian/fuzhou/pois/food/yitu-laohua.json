@@ -16,12 +16,12 @@
       "lat": 26.088441,
       "coordSystem": "GCJ-02"
     },
-    "address": "福州市鼓楼区庆城路光复新村",
+    "address": "福州市鼓楼区庆城路光复新村6号楼1层",
     "district": "鼓楼区",
     "transportTip": "地铁1号线东街口站步行约8分钟"
   },
   "practical": {
-    "openHours": "约06:30-14:00（售完为止），以门店公告为准",
+    "openHours": "06:00-次日03:00（营业至次日凌晨3点），以门店公告为准",
     "openHoursRef": 0,
     "ticket": "人均约20元，以门店为准",
     "ticketRef": 0,
@@ -53,9 +53,15 @@
       "url": "https://baike.baidu.com/item/%E6%8D%9E%E5%8C%96",
       "kind": "wiki",
       "fetchedAt": "2026-10-04"
+    },
+    {
+      "title": "福建日报·福州捞化老店（2024-12-23）",
+      "url": "https://www.fjdaily.com/app/content/2024-12/23/content_2996291.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -64,5 +70,22 @@
   "_geocodeTitle": "依土捞化(庆城路店)",
   "_geocodeSuspect": false,
   "district": "350102",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "约06:30-14:00（售完为止），以门店公告为准",
+        "new": "06:00-次日03:00（营业至次日凌晨3点），以门店公告为准"
+      },
+      {
+        "field": "地址",
+        "old": "福州市鼓楼区庆城路光复新村",
+        "new": "福州市鼓楼区庆城路光复新村6号楼1层"
+      }
+    ],
+    "source": "https://www.fjdaily.com/app/content/2024-12/23/content_2996291.html",
+    "reason": "福建日报营业时间6:00至次日3:00，图商同址POI补门牌"
+  }
 }

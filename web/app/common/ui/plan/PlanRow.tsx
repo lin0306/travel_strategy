@@ -23,6 +23,7 @@ import { openPlanDetail, usePlanUi } from '~/common/logic/itinerary/planUi'
 import { planStopCount } from '~/common/logic/itinerary/planStops'
 import { Icon } from '~/common/ui/Icon'
 import { useDismiss } from '~/common/ui/useDismiss'
+import { usePresence } from '~/common/ui/usePresence'
 import type { RoutePlan } from '~shared/schema'
 
 /** 一行**组**（已存的一条）。展开的 ⋯ 菜单在 `PlanRowMenu` 里 */
@@ -50,6 +51,8 @@ export function PlanRow({
     setMenu(false)
     setConfirming(false)
   })
+  /* 菜单出场：开 = pop-in，关 = pop-out 后卸载（同 `BasemapMenu` 那一套） */
+  const menuP = usePresence(menu, 160)
 
   const n = planStopCount(plan)
   const route = plan.route
@@ -121,11 +124,13 @@ export function PlanRow({
         </span>
       </button>
 
-      {menu ? (
+      {menuP.mounted ? (
         <div
           role="menu"
           aria-label={`${plan.name} 的操作`}
-          className="absolute top-8 right-2 z-10 w-[132px] overflow-hidden rounded-lg border border-line bg-surface py-1 shadow-[var(--flt-shadow)]"
+          className={`absolute top-8 right-2 z-10 w-[132px] overflow-hidden rounded-lg border border-line bg-surface py-1 shadow-[var(--flt-shadow)] origin-top-right ${
+            menuP.exiting ? 'pop-out pointer-events-none' : 'pop-in'
+          }`}
         >
           {confirming ? (
             <>

@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "江西省南昌市西湖区中山路380号",
-    "district": "东湖区",
+    "district": "西湖区",
     "transportTip": "地铁1号线八一馆站，步行约五分钟"
   },
   "practical": {
@@ -102,7 +102,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Nanchang August 1st Uprising Memorial Hall",
@@ -110,5 +110,43 @@
   },
   "_geocodeTitle": "南昌八一起义纪念馆-陈列馆",
   "_geocodeSuspect": false,
-  "district": "360102"
+  "district": "360103",
+  "review": {
+    "score": 4.3,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "展陈",
+        "score": 4.4,
+        "note": "按时间线排，手稿枪械与场景复原"
+      },
+      {
+        "label": "建筑",
+        "score": 4.5,
+        "note": "江西大旅社灰砖老楼原貌还在"
+      },
+      {
+        "label": "人流",
+        "score": 3.2,
+        "note": "团体参观多，展厅动线容易被堵"
+      },
+      {
+        "label": "免费",
+        "score": 4.8,
+        "note": "免费开放，凭预约与证件入馆"
+      }
+    ],
+    "body": "馆址就是当年起义总指挥部——江西大旅社那栋灰砖四层老楼，木楼梯与走廊都保留着，走进先被建筑本身打动。陈列按背景、谋划、经过到转战的时间线排，手稿、枪械、军装与场景复原一件件看下来节奏很顺。缺点是团体参观多，展厅常被一队队人堵住动线；免费但要预约，赶上团队时段讲解声混成一片，安静看展不容易。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "红色研学",
+      "带长辈"
+    ],
+    "avoid": [
+      "不预约直接去",
+      "想安静看展"
+    ],
+    "sources": []
+  }
 }

@@ -1,82 +1,121 @@
 {
-  "id": "rehe-spring",
-  "name": "热河泉",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "避暑山庄里一处温泉眼，冬天不冻，热河因此得名，是世界最短的河。",
-  "description": "热河泉在避暑山庄湖区东北，是一处温泉眼。水从地下冒出来，冬天也不冻，所以这条水叫热河 —— 它是世界上最短的河，几百米。泉边有石头刻着字。冬天来，周围结冰，只有这一片冒热气，好看。它在山庄里，含门票。",
-  "highlights": [
-    "山庄内温泉眼，冬不冻故名热河",
-    "热河是世界最短的河，几百米",
-    "冬日周围结冰唯此处冒热气"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.94729,
-      "lat": 40.99176,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市双桥区避暑山庄内热河泉",
-    "district": "双桥区",
-    "transportTip": "进避暑山庄后步行到湖区东北"
+ "id": "rehe-spring",
+ "name": "热河泉",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "避暑山庄里一处温泉眼，冬天不冻，热河因此得名，是世界最短的河。",
+ "description": "热河泉在避暑山庄湖区东北，是一处温泉眼。水从地下冒出来，冬天也不冻，所以这条水叫热河 —— 它是世界上最短的河，几百米。泉边有石头刻着字。冬天来，周围结冰，只有这一片冒热气，好看。它在山庄里，含门票。",
+ "highlights": [
+  "山庄内温泉眼，冬不冻故名热河",
+  "热河是世界最短的河，几百米",
+  "冬日周围结冰唯此处冒热气"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.94729,
+   "lat": 40.99176,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-17:00，随山庄",
-    "openHoursRef": 0,
-    "ticket": "含避暑山庄门票",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "family",
-    "elders"
+  "address": "河北省承德市双桥区避暑山庄内热河泉",
+  "district": "双桥区",
+  "transportTip": "进避暑山庄后步行到湖区东北"
+ },
+ "practical": {
+  "openHours": "约08:00-17:00，随山庄",
+  "openHoursRef": 0,
+  "ticket": "含避暑山庄门票",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Chengde_Mountain_Resort_8.jpg/1280px-Chengde_Mountain_Resort_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Chengde_Mountain_Resort_8.jpg/1280px-Chengde_Mountain_Resort_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Chengde Mountain Resort 8.jpg",
-      "query": "热河泉 承德",
-      "credit": {
-        "source": "wikimedia",
-        "author": "takwing.kwong",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort_8.jpg",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      }
-    }
+  "priceLevel": "free"
+ },
+ "audience": [
+  "family",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Chengde_Mountain_Resort_8.jpg/1280px-Chengde_Mountain_Resort_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Chengde_Mountain_Resort_8.jpg/1280px-Chengde_Mountain_Resort_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Chengde Mountain Resort 8.jpg",
+   "query": "热河泉 承德",
+   "credit": {
+    "source": "wikimedia",
+    "author": "takwing.kwong",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort_8.jpg",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "温泉",
+  "热河",
+  "山庄"
+ ],
+ "popularity": 62,
+ "sources": [
+  {
+   "title": "百度百科·热河",
+   "url": "https://baike.baidu.com/item/%E7%83%AD%E6%B2%B3",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "热河泉"
+ },
+ "_geocodeTitle": "承德避暑山庄景区-热河泉",
+ "_geocodeSuspect": false,
+ "district": "130802",
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "独特性",
+    "score": 4.4,
+    "note": "温泉眼冬不冻，「世界最短的河」的说法就从这来"
+   },
+   {
+    "label": "看点密度",
+    "score": 2.7,
+    "note": "一眼看完，站不住人"
+   },
+   {
+    "label": "人流",
+    "score": 3.0,
+    "note": "湖区游线的必经点，团队一波波"
+   },
+   {
+    "label": "省钱",
+    "score": 4.5,
+    "note": "含在山庄门票里"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "温泉",
-    "热河",
-    "山庄"
+  "body": "热河泉在避暑山庄湖区东北角，是一处冬天也不冻的温泉眼——热河这个名字和\"世界最短的河\"的说法都从这儿来。冬天来最有意思，周围都结了冰，就这一片冒着白气。缺点是它小得超出预期，一眼看完，边上拍张照就可以走了；湖区游线的团队都在这儿停，想拍一张没人的照片得等；把它当专程目标会失望，逛湖区顺手看一眼才对。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "逛山庄顺路",
+   "冬季来",
+   "带娃看稀奇"
   ],
-  "popularity": 62,
-  "sources": [
-    {
-      "title": "百度百科·热河",
-      "url": "https://baike.baidu.com/item/%E7%83%AD%E6%B2%B3",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "avoid": [
+   "专程打卡",
+   "想拍大片"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "热河泉"
-  },
-  "_geocodeTitle": "承德避暑山庄景区-热河泉",
-  "_geocodeSuspect": false,
-  "district": "130802"
+  "sources": []
+ }
 }

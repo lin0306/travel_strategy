@@ -32,6 +32,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 
 import { Icon } from '~/common/ui/Icon'
 import { useSearch } from '~/common/logic/useSearch'
+import { usePresence } from '~/common/ui/usePresence'
 
 /** 面板最矮也要能显示 3 行，最高不超过视口六成（顶栏下面还要看得见地图）。
  *  ★ `.scroll`：结果多时出滚动条，统一 6px 细条（不挂就是浏览器默认粗滚动条） */
@@ -46,6 +47,8 @@ export function SearchBox() {
 
   const typed = query.trim().length > 0
   const open = focused && typed
+  /* 结果面板的出场：开 = pop-in，关（清空/失焦）= pop-out 后卸载 */
+  const pres = usePresence(open, 160)
 
   // `/` 快捷键：不在输入框里时按 `/` 直接聚焦搜索（原型给的位置就是它）
   useEffect(() => {
@@ -128,8 +131,13 @@ export function SearchBox() {
         )}
       </div>
 
-      {open ? (
-        <div id={listId} role="listbox" aria-label="搜索结果" className={PANEL_CLASS}>
+      {pres.mounted ? (
+        <div
+          id={listId}
+          role="listbox"
+          aria-label="搜索结果"
+          className={`${PANEL_CLASS} origin-top-left ${pres.exiting ? 'pop-out pointer-events-none' : 'pop-in'}`}
+        >
           {status === 'loading' ? (
             <p className="px-3 py-2.5 text-[12px] text-ink-2">正在加载搜索数据…</p>
           ) : status === 'unavailable' ? (
@@ -137,9 +145,16 @@ export function SearchBox() {
               搜索数据还没生成 —— 跑一次采集流水线的 <code>build</code> 即可
             </p>
           ) : flat.length === 0 ? (
-            <p className="px-3 py-2.5 text-[12px] text-ink-2">
-              没找到「{query.trim()}」—— 试试城市名或景点名
-            </p>
+            /*
+             * ★ 退场途中**不渲染空态**：清空输入框会立刻让 `flat` 变空，
+             *   而面板还要淡出 160ms —— 那段里挂上"没找到「」"会闪一句
+             *   **没头没尾的空引号**，比不留字更难看。让面板光着淡掉即可。
+             */
+            pres.exiting ? null : (
+              <p className="px-3 py-2.5 text-[12px] text-ink-2">
+                没找到「{query.trim()}」—— 试试城市名或景点名
+              </p>
+            )
           ) : (
             <>
               <Group label="地区" count={results.regions.length} />

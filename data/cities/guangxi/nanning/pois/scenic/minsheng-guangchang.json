@@ -1,88 +1,127 @@
 {
-  "id": "minsheng-guangchang",
-  "name": "民生广场",
-  "category": "scenic",
-  "subtype": "park",
-  "summary": "邕江边的广场，夜游船码头与市集。",
-  "description": "民生广场在邕江边、靠近朝阳与中山路，是一片临江的开放广场，邕江夜游船的码头就在这里。晚上有「水漾市集」一类的活动，是看江和吃夜宵的交汇点。它与中山路、三街两巷连成老城夜生活动线。免费、好拍，适合傍晚来。",
-  "highlights": [
-    "邕江边广场，夜游船码头",
-    "晚有水漾市集，江边夜宵",
-    "与中山路三街两巷连片"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.313972,
-      "lat": 22.812857,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市西乡塘区民生路131号（邕江边）",
-    "district": "西乡塘区",
-    "transportTip": "地铁1号线民生广场站步行",
-    "entrance": {
-      "lng": 108.311356,
-      "lat": 22.812386,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "minsheng-guangchang",
+ "name": "民生广场",
+ "category": "scenic",
+ "subtype": "park",
+ "summary": "邕江边的广场，夜游船码头与市集。",
+ "description": "民生广场在邕江边、靠近朝阳与中山路，是一片临江的开放广场，邕江夜游船的码头就在这里。晚上有「水漾市集」一类的活动，是看江和吃夜宵的交汇点。它与中山路、三街两巷连成老城夜生活动线。免费、好拍，适合傍晚来。",
+ "highlights": [
+  "邕江边广场，夜游船码头",
+  "晚有水漾市集，江边夜宵",
+  "与中山路三街两巷连片"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.313972,
+   "lat": 22.812857,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放（市集以公告为准）",
-    "openHoursRef": 0,
-    "ticket": "无门票",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "friends",
-    "solo",
-    "couple"
+  "address": "南宁市西乡塘区民生路131号（邕江边）",
+  "district": "西乡塘区",
+  "transportTip": "地铁1号线民生广场站步行",
+  "entrance": {
+   "lng": 108.311356,
+   "lat": 22.812386,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "全天开放（市集以公告为准）",
+  "openHoursRef": 0,
+  "ticket": "无门票",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/%E7%95%85%E6%B8%B8%E9%98%81%E4%BF%AF%E7%9E%B0%E9%82%95%E6%B1%9F%E5%92%8C%E6%B0%91%E7%94%9F%E5%B9%BF%E5%9C%BA.jpg/1280px-%E7%95%85%E6%B8%B8%E9%98%81%E4%BF%AF%E7%9E%B0%E9%82%95%E6%B1%9F%E5%92%8C%E6%B0%91%E7%94%9F%E5%B9%BF%E5%9C%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/%E7%95%85%E6%B8%B8%E9%98%81%E4%BF%AF%E7%9E%B0%E9%82%95%E6%B1%9F%E5%92%8C%E6%B0%91%E7%94%9F%E5%B9%BF%E5%9C%BA.jpg/1280px-%E7%95%85%E6%B8%B8%E9%98%81%E4%BF%AF%E7%9E%B0%E9%82%95%E6%B1%9F%E5%92%8C%E6%B0%91%E7%94%9F%E5%B9%BF%E5%9C%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "畅游阁俯瞰邕江和民生广场.jpg",
-      "query": "民生广场 南宁",
-      "credit": {
-        "source": "wikimedia",
-        "author": "世界首都环游",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%95%85%E6%B8%B8%E9%98%81%E4%BF%AF%E7%9E%B0%E9%82%95%E6%B1%9F%E5%92%8C%E6%B0%91%E7%94%9F%E5%B9%BF%E5%9C%BA.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    }
+  "priceLevel": "free"
+ },
+ "audience": [
+  "friends",
+  "solo",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/%E7%95%85%E6%B8%B8%E9%98%81%E4%BF%AF%E7%9E%B0%E9%82%95%E6%B1%9F%E5%92%8C%E6%B0%91%E7%94%9F%E5%B9%BF%E5%9C%BA.jpg/1280px-%E7%95%85%E6%B8%B8%E9%98%81%E4%BF%AF%E7%9E%B0%E9%82%95%E6%B1%9F%E5%92%8C%E6%B0%91%E7%94%9F%E5%B9%BF%E5%9C%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/%E7%95%85%E6%B8%B8%E9%98%81%E4%BF%AF%E7%9E%B0%E9%82%95%E6%B1%9F%E5%92%8C%E6%B0%91%E7%94%9F%E5%B9%BF%E5%9C%BA.jpg/1280px-%E7%95%85%E6%B8%B8%E9%98%81%E4%BF%AF%E7%9E%B0%E9%82%95%E6%B1%9F%E5%92%8C%E6%B0%91%E7%94%9F%E5%B9%BF%E5%9C%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "畅游阁俯瞰邕江和民生广场.jpg",
+   "query": "民生广场 南宁",
+   "credit": {
+    "source": "wikimedia",
+    "author": "世界首都环游",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%95%85%E6%B8%B8%E9%98%81%E4%BF%AF%E7%9E%B0%E9%82%95%E6%B1%9F%E5%92%8C%E6%B0%91%E7%94%9F%E5%B9%BF%E5%9C%BA.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "广场",
+  "江边",
+  "夜市"
+ ],
+ "popularity": 64,
+ "sources": [
+  {
+   "title": "百度百科·民生广场",
+   "url": "https://baike.baidu.com/item/%E6%B0%91%E7%94%9F%E5%B9%BF%E5%9C%BA",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "民生广场"
+ },
+ "_geocodeTitle": "民生广场",
+ "_geocodeSuspect": false,
+ "district": "450107",
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "位置",
+    "score": 4.5,
+    "note": "邕江边，连中山路与三街两巷"
+   },
+   {
+    "label": "夜景",
+    "score": 3.8,
+    "note": "江面与对岸灯光，晚风舒服"
+   },
+   {
+    "label": "设施",
+    "score": 2.9,
+    "note": "广场本身很简单，就是空地加栏杆"
+   },
+   {
+    "label": "人流",
+    "score": 3.1,
+    "note": "市集时拥挤，平日很空"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "广场",
-    "江边",
-    "夜市"
+  "body": "民生广场是邕江边的一块开放空地，夜游船码头就在这里，晚上有市集和小吃摊，往北一走就是中山路和三街两巷，是老城夜生活动线的起点。它的价值在位置，不在广场本身——设施很朴素，没有遮阴也没有多少座椅，白天晒得待不住；市集开的时候人挤人，平日来又空得很。傍晚从这里出发沿江走，顺便上船，是最合理的用法。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "傍晚出发",
+   "坐夜游船",
+   "逛夜市"
   ],
-  "popularity": 64,
-  "sources": [
-    {
-      "title": "百度百科·民生广场",
-      "url": "https://baike.baidu.com/item/%E6%B0%91%E7%94%9F%E5%B9%BF%E5%9C%BA",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "avoid": [
+   "正午来",
+   "想找成规模的景点"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "民生广场"
-  },
-  "_geocodeTitle": "民生广场",
-  "_geocodeSuspect": false,
-  "district": "450107"
+  "sources": []
+ }
 }

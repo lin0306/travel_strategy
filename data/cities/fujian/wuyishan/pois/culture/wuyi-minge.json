@@ -16,12 +16,12 @@
       "lat": 27.652914,
       "coordSystem": "GCJ-02"
     },
-    "address": "福建省南平市武夷山市各乡村及非遗展演场",
+    "address": "福建省南平市武夷山市城关西门头、崇安大桥、横街头一带（柴头会）",
     "district": "武夷山",
     "transportTip": "节俗期间乡村集会，或以非遗展演为准"
   },
   "practical": {
-    "openHours": "柴头会约正月，民歌以展演为准",
+    "openHours": "柴头会每年农历二月初六起连办三天（2026 年为 3 月 24—26 日），民歌以非遗展演为准",
     "openHoursRef": 0,
     "ticket": "免费（民俗活动）",
     "ticketRef": 0,
@@ -37,7 +37,9 @@
     "family"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "柴头会是 2008 年列入的武夷山市级非遗，会期三天：西门头卖花卉苗木、崇安大桥摆竹木农具、横街头至温岭街是中草药与土特产"
+  ],
   "images": [],
   "coverIndex": 0,
   "tags": [
@@ -52,9 +54,15 @@
       "url": "https://baike.baidu.com/item/%E6%9F%B4%E5%A4%B4%E4%BC%9A",
       "kind": "wiki",
       "fetchedAt": "2026-10-06"
+    },
+    {
+      "title": "武夷山市政府《节会活动》：柴头会为农历二月初六，非正月",
+      "url": "https://wys.gov.cn/cms/html/wyssrmzf/jhhd/",
+      "kind": "media",
+      "fetchedAt": "2026-11-13"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-13",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,5 +71,29 @@
   "_geocodeTitle": "吴嘉乐手工佛跳墙·打边炉(武夷山店)",
   "_geocodeSuspect": false,
   "district": "350782",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-13",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "柴头会约正月，民歌以展演为准",
+        "new": "柴头会每年农历二月初六起连办三天（2026 年为 3 月 24—26 日），民歌以非遗展演为准"
+      },
+      {
+        "field": "地址",
+        "old": "福建省南平市武夷山市各乡村及非遗展演场",
+        "new": "福建省南平市武夷山市城关西门头、崇安大桥、横街头一带（柴头会）"
+      },
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [],
+        "new": [
+          "柴头会是 2008 年列入的武夷山市级非遗，会期三天：西门头卖花卉苗木、崇安大桥摆竹木农具、横街头至温岭街是中草药与土特产"
+        ]
+      }
+    ],
+    "source": "https://wys.gov.cn/cms/html/wyssrmzf/jhhd/",
+    "reason": "武夷山市政府《节会活动》：柴头会为农历二月初六，非正月"
+  }
 }

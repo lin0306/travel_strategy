@@ -1,68 +1,101 @@
 {
-  "id": "cc-sha-zhu-cai",
-  "name": "杀猪菜",
-  "category": "food",
-  "subtype": "local",
-  "summary": "酸菜、血肠与五花肉一锅汆出来，热腾腾端上桌，是东北冬天的待客菜。",
-  "description": "杀猪菜源自过去乡间杀年猪的传统，如今在长春全年都能吃到。主料是自家积的酸菜、现灌的血肠和一大块五花肉，先在锅里把五花肉煮到七八分熟，再把酸菜下进去同炖，最后放入血肠。端上桌是一大盆，血肠切段浮在汤面，蘸一点蒜泥酱油的调料是最地道的吃法。汤是这菜的灵魂，酸得有厚度却不清薄。分量大，一盆够三四个人。冬天来长春一定要点一次，配两碗米饭正合适。怕油腻可以让店家多撇一层油。",
-  "highlights": [
-    "酸菜血肠五花肉一锅",
-    "汤厚蒜泥蘸着吃",
-    "冬令待客的大盆菜"
-  ],
-  "location": {
-    "point": {
-      "lng": 125.387843,
-      "lat": 43.950216,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "吉林省长春市各东北农家菜馆",
-    "district": "宽城区",
-    "transportTip": "市内各东北菜馆与农家院均有"
+ "id": "cc-sha-zhu-cai",
+ "name": "杀猪菜",
+ "category": "food",
+ "subtype": "local",
+ "summary": "酸菜、血肠与五花肉一锅汆出来，热腾腾端上桌，是东北冬天的待客菜。",
+ "description": "杀猪菜源自过去乡间杀年猪的传统，如今在长春全年都能吃到。主料是自家积的酸菜、现灌的血肠和一大块五花肉，先在锅里把五花肉煮到七八分熟，再把酸菜下进去同炖，最后放入血肠。端上桌是一大盆，血肠切段浮在汤面，蘸一点蒜泥酱油的调料是最地道的吃法。汤是这菜的灵魂，酸得有厚度却不清薄。分量大，一盆够三四个人。冬天来长春一定要点一次，配两碗米饭正合适。怕油腻可以让店家多撇一层油。",
+ "highlights": [
+  "酸菜血肠五花肉一锅",
+  "汤厚蒜泥蘸着吃",
+  "冬令待客的大盆菜"
+ ],
+ "location": {
+  "point": {
+   "lng": 125.387843,
+   "lat": 43.950216,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约11:00-21:00，各店不一",
-    "openHoursRef": 0,
-    "ticket": "约60元/盆起",
-    "ticketRef": 0,
-    "duration": "建议 60-110 分钟",
-    "durationMinutes": [
-      60,
-      110
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "friends",
-    "family",
-    "elders"
+  "address": "吉林省长春市各东北农家菜馆",
+  "district": "宽城区",
+  "transportTip": "市内各东北菜馆与农家院均有"
+ },
+ "practical": {
+  "openHours": "约11:00-21:00，各店不一",
+  "openHoursRef": 0,
+  "ticket": "约60元/盆起",
+  "ticketRef": 0,
+  "duration": "建议 60-110 分钟",
+  "durationMinutes": [
+   60,
+   110
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "杀猪菜",
-    "酸菜",
-    "冬季"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "friends",
+  "family",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "杀猪菜",
+  "酸菜",
+  "冬季"
+ ],
+ "popularity": 86,
+ "sources": [
+  {
+   "title": "杀猪菜·百度百科",
+   "url": "https://baike.baidu.com/item/%E6%9D%80%E7%8C%AA%E8%8F%9C",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-03"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Northeast Pork Feast Changchun",
+  "zh": "杀猪菜"
+ },
+ "_geocodeTitle": "杀猪菜",
+ "_geocodeSuspect": false,
+ "district": "220103",
+ "_noImage": true,
+ "review": {
+  "score": 3.8,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "分量",
+    "score": 4.4,
+    "note": "一大盆够几个人，汤厚料足"
+   },
+   {
+    "label": "口味",
+    "score": 3.7,
+    "note": "酸菜吸油、血肠蘸蒜泥最地道"
+   },
+   {
+    "label": "油腻",
+    "score": 3.0,
+    "note": "偏重口，夏天吃容易腻"
+   }
   ],
-  "popularity": 86,
-  "sources": [
-    {
-      "title": "杀猪菜·百度百科",
-      "url": "https://baike.baidu.com/item/%E6%9D%80%E7%8C%AA%E8%8F%9C",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-03"
-    }
+  "body": "酸菜、现灌血肠和五花肉一锅汆出来，端上桌一大盆热气带着酱香，血肠切段浮在汤面，蘸蒜泥酱油是地道吃法，汤酸得有厚度，冬天配米饭特别踏实。缺点是油腻重，一盆够三四个人，人少点基本吃不完；夏天吃更显厚重，怕腻可以让店家多撇一层油。它本来是冬令待客菜，把它当日常小炒来期待会失望。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "多人聚餐",
+   "冬天"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Northeast Pork Feast Changchun",
-    "zh": "杀猪菜"
-  },
-  "_geocodeTitle": "杀猪菜",
-  "_geocodeSuspect": false,
-  "district": "220103",
-  "_noImage": true
+  "avoid": [
+   "一人食",
+   "夏天想清淡"
+  ],
+  "sources": []
+ }
 }

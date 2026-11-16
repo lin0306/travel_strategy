@@ -1,162 +1,201 @@
 {
-  "id": "chen-mapo-tofu",
-  "name": "陈麻婆豆腐",
-  "category": "food",
-  "subtype": "local",
-  "summary": "始创于 1862 年的川菜活化石，麻辣烫香酥嫩鲜八字诀",
-  "description": "麻婆豆腐这道菜的源头就在成都。清同治元年（1862 年），成都万福桥边一位陈姓老板娘创制了这道烧豆腐，因脸上有麻痕被食客称为“陈麻婆”，菜名由此而来。它的评价标准被概括为八个字：麻、辣、烫、香、酥、嫩、鲜、活——用汉源花椒与郫县豆瓣起味，豆腐要嫩而不碎，出锅后仍要保持“活”的流动感。作为川菜里辨识度最高的一道菜，来成都吃一次正宗版本基本属于必修课。总店在青华路，多家分店分布在市区。",
-  "highlights": [
-    "麻婆豆腐这道菜的发源老店，创制于 1862 年",
-    "八字诀「麻辣烫香酥嫩鲜活」是评价标准"
-  ],
-  "location": {
-    "point": {
-      "lng": 104.019408,
-      "lat": 30.679148,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "成都市青羊区青华路 10 号（总店）",
-    "district": "青羊区",
-    "transportTip": "地铁 4 号线草堂北路站步行约 700 米"
+ "id": "chen-mapo-tofu",
+ "name": "陈麻婆豆腐",
+ "category": "food",
+ "subtype": "local",
+ "summary": "始创于 1862 年的川菜活化石，麻辣烫香酥嫩鲜八字诀",
+ "description": "麻婆豆腐这道菜的源头就在成都。清同治元年（1862 年），成都万福桥边一位陈姓老板娘创制了这道烧豆腐，因脸上有麻痕被食客称为“陈麻婆”，菜名由此而来。它的评价标准被概括为八个字：麻、辣、烫、香、酥、嫩、鲜、活——用汉源花椒与郫县豆瓣起味，豆腐要嫩而不碎，出锅后仍要保持“活”的流动感。作为川菜里辨识度最高的一道菜，来成都吃一次正宗版本基本属于必修课。总店在青华路，多家分店分布在市区。",
+ "highlights": [
+  "麻婆豆腐这道菜的发源老店，创制于 1862 年",
+  "八字诀「麻辣烫香酥嫩鲜活」是评价标准"
+ ],
+ "location": {
+  "point": {
+   "lng": 104.019408,
+   "lat": 30.679148,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 11:00-21:00（以门店公告为准）",
-    "openHoursRef": 0,
-    "ticket": "人均约 60 元起",
-    "ticketRef": 0,
-    "duration": "建议 60-90 分钟",
-    "durationMinutes": [
-      60,
-      90
-    ],
-    "priceLevel": "budget"
+  "address": "成都市青羊区青华路 10 号（总店）",
+  "district": "青羊区",
+  "transportTip": "地铁 4 号线草堂北路站步行约 700 米"
+ },
+ "practical": {
+  "openHours": "约 11:00-21:00（以门店公告为准）",
+  "openHoursRef": 0,
+  "ticket": "人均约 60 元起",
+  "ticketRef": 0,
+  "duration": "建议 60-90 分钟",
+  "durationMinutes": [
+   60,
+   90
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "solo",
+  "couple",
+  "friends",
+  "family",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [
+  "正餐时段需等位",
+  "不能吃辣可以请店家调整辣度"
+ ],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Mapo_doufu_by_Chen_Mapo_Restaurant_in_Chengdu_Sichuan%EF%BC%88%E9%99%B3%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%E5%BA%97%E3%81%AE%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%EF%BC%89.JPG/1280px-Mapo_doufu_by_Chen_Mapo_Restaurant_in_Chengdu_Sichuan%EF%BC%88%E9%99%B3%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%E5%BA%97%E3%81%AE%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%EF%BC%89.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Mapo_doufu_by_Chen_Mapo_Restaurant_in_Chengdu_Sichuan%EF%BC%88%E9%99%B3%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%E5%BA%97%E3%81%AE%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%EF%BC%89.JPG/1280px-Mapo_doufu_by_Chen_Mapo_Restaurant_in_Chengdu_Sichuan%EF%BC%88%E9%99%B3%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%E5%BA%97%E3%81%AE%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%EF%BC%89.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Mapo doufu by Chen Mapo Restaurant in Chengdu Sichuan（陳麻婆豆腐店の麻婆豆腐）.JPG",
+   "query": "麻婆豆腐 成都 成都",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Kos88",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mapo_doufu_by_Chen_Mapo_Restaurant_in_Chengdu_Sichuan%EF%BC%88%E9%99%B3%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%E5%BA%97%E3%81%AE%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%EF%BC%89.JPG",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "solo",
-    "couple",
-    "friends",
-    "family",
-    "elders"
-  ],
-  "accessible": false,
-  "tips": [
-    "正餐时段需等位",
-    "不能吃辣可以请店家调整辣度"
-  ],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Mapo_doufu_by_Chen_Mapo_Restaurant_in_Chengdu_Sichuan%EF%BC%88%E9%99%B3%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%E5%BA%97%E3%81%AE%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%EF%BC%89.JPG/1280px-Mapo_doufu_by_Chen_Mapo_Restaurant_in_Chengdu_Sichuan%EF%BC%88%E9%99%B3%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%E5%BA%97%E3%81%AE%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%EF%BC%89.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Mapo_doufu_by_Chen_Mapo_Restaurant_in_Chengdu_Sichuan%EF%BC%88%E9%99%B3%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%E5%BA%97%E3%81%AE%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%EF%BC%89.JPG/1280px-Mapo_doufu_by_Chen_Mapo_Restaurant_in_Chengdu_Sichuan%EF%BC%88%E9%99%B3%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%E5%BA%97%E3%81%AE%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%EF%BC%89.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Mapo doufu by Chen Mapo Restaurant in Chengdu Sichuan（陳麻婆豆腐店の麻婆豆腐）.JPG",
-      "query": "麻婆豆腐 成都 成都",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Kos88",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mapo_doufu_by_Chen_Mapo_Restaurant_in_Chengdu_Sichuan%EF%BC%88%E9%99%B3%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%E5%BA%97%E3%81%AE%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%EF%BC%89.JPG",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/%E9%A4%90%E5%8E%85%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90.jpg/1280px-%E9%A4%90%E5%8E%85%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/%E9%A4%90%E5%8E%85%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90.jpg/1280px-%E9%A4%90%E5%8E%85%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1920,
-      "alt": "餐厅麻婆豆腐.jpg",
-      "query": "陈麻婆豆腐",
-      "credit": {
-        "source": "wikimedia",
-        "author": "陈博洋",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%A4%90%E5%8E%85%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Chen_Mapo_tofu_20260512.jpg/1280px-Chen_Mapo_tofu_20260512.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Chen_Mapo_tofu_20260512.jpg/1280px-Chen_Mapo_tofu_20260512.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Chen Mapo tofu 20260512.jpg",
-      "query": "Mapo tofu Chengdu",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Suicasmo",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chen_Mapo_tofu_20260512.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Chen%27s_Mapo_Tofu_-_decor_%281483817296%29.jpg/1280px-Chen%27s_Mapo_Tofu_-_decor_%281483817296%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Chen%27s_Mapo_Tofu_-_decor_%281483817296%29.jpg/1280px-Chen%27s_Mapo_Tofu_-_decor_%281483817296%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Chen's Mapo Tofu - decor (1483817296).jpg",
-      "query": "Mapo tofu Chengdu",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Alpha from Melbourne, Australia",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chen%27s_Mapo_Tofu_-_decor_(1483817296).jpg",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Vegetable%2C_Dried_Pea_and_Bone_Marrow_Soup_-_Chen%27s_Mapo_Tofu_%281483820732%29.jpg/1280px-Vegetable%2C_Dried_Pea_and_Bone_Marrow_Soup_-_Chen%27s_Mapo_Tofu_%281483820732%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Vegetable%2C_Dried_Pea_and_Bone_Marrow_Soup_-_Chen%27s_Mapo_Tofu_%281483820732%29.jpg/1280px-Vegetable%2C_Dried_Pea_and_Bone_Marrow_Soup_-_Chen%27s_Mapo_Tofu_%281483820732%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Vegetable, Dried Pea and Bone Marrow Soup - Chen's Mapo Tofu (1483820732).jpg",
-      "query": "Mapo tofu Chengdu",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Alpha from Melbourne, Australia",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vegetable,_Dried_Pea_and_Bone_Marrow_Soup_-_Chen%27s_Mapo_Tofu_(1483820732).jpg",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8_Sugar_and_Vinegar_Pork_Ribs_-_Chen%27s_Mapo_Tofu_%281483819272%29.jpg/1280px-%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8_Sugar_and_Vinegar_Pork_Ribs_-_Chen%27s_Mapo_Tofu_%281483819272%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8_Sugar_and_Vinegar_Pork_Ribs_-_Chen%27s_Mapo_Tofu_%281483819272%29.jpg/1280px-%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8_Sugar_and_Vinegar_Pork_Ribs_-_Chen%27s_Mapo_Tofu_%281483819272%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "糖醋排骨 Sugar and Vinegar Pork Ribs - Chen's Mapo Tofu (1483819272).jpg",
-      "query": "Mapo tofu Chengdu",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Alpha from Melbourne, Australia",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8_Sugar_and_Vinegar_Pork_Ribs_-_Chen%27s_Mapo_Tofu_(1483819272).jpg",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "川菜源头",
-    "老字号",
-    "市区"
-  ],
-  "popularity": 91,
-  "sources": [
-    {
-      "title": "百度百科 · 陈麻婆豆腐",
-      "url": "https://baike.baidu.com/item/%E9%99%88%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-18"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Mapo tofu Chengdu",
-    "zh": "麻婆豆腐 成都"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/%E9%A4%90%E5%8E%85%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90.jpg/1280px-%E9%A4%90%E5%8E%85%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/%E9%A4%90%E5%8E%85%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90.jpg/1280px-%E9%A4%90%E5%8E%85%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1920,
+   "alt": "餐厅麻婆豆腐.jpg",
+   "query": "陈麻婆豆腐",
+   "credit": {
+    "source": "wikimedia",
+    "author": "陈博洋",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%A4%90%E5%8E%85%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "陈麻婆豆腐(金沙店)",
-  "_geocodeSuspect": false,
-  "district": "510105"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Chen_Mapo_tofu_20260512.jpg/1280px-Chen_Mapo_tofu_20260512.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Chen_Mapo_tofu_20260512.jpg/1280px-Chen_Mapo_tofu_20260512.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Chen Mapo tofu 20260512.jpg",
+   "query": "Mapo tofu Chengdu",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Suicasmo",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chen_Mapo_tofu_20260512.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Chen%27s_Mapo_Tofu_-_decor_%281483817296%29.jpg/1280px-Chen%27s_Mapo_Tofu_-_decor_%281483817296%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Chen%27s_Mapo_Tofu_-_decor_%281483817296%29.jpg/1280px-Chen%27s_Mapo_Tofu_-_decor_%281483817296%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Chen's Mapo Tofu - decor (1483817296).jpg",
+   "query": "Mapo tofu Chengdu",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Alpha from Melbourne, Australia",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chen%27s_Mapo_Tofu_-_decor_(1483817296).jpg",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Vegetable%2C_Dried_Pea_and_Bone_Marrow_Soup_-_Chen%27s_Mapo_Tofu_%281483820732%29.jpg/1280px-Vegetable%2C_Dried_Pea_and_Bone_Marrow_Soup_-_Chen%27s_Mapo_Tofu_%281483820732%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Vegetable%2C_Dried_Pea_and_Bone_Marrow_Soup_-_Chen%27s_Mapo_Tofu_%281483820732%29.jpg/1280px-Vegetable%2C_Dried_Pea_and_Bone_Marrow_Soup_-_Chen%27s_Mapo_Tofu_%281483820732%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Vegetable, Dried Pea and Bone Marrow Soup - Chen's Mapo Tofu (1483820732).jpg",
+   "query": "Mapo tofu Chengdu",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Alpha from Melbourne, Australia",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vegetable,_Dried_Pea_and_Bone_Marrow_Soup_-_Chen%27s_Mapo_Tofu_(1483820732).jpg",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8_Sugar_and_Vinegar_Pork_Ribs_-_Chen%27s_Mapo_Tofu_%281483819272%29.jpg/1280px-%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8_Sugar_and_Vinegar_Pork_Ribs_-_Chen%27s_Mapo_Tofu_%281483819272%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8_Sugar_and_Vinegar_Pork_Ribs_-_Chen%27s_Mapo_Tofu_%281483819272%29.jpg/1280px-%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8_Sugar_and_Vinegar_Pork_Ribs_-_Chen%27s_Mapo_Tofu_%281483819272%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "糖醋排骨 Sugar and Vinegar Pork Ribs - Chen's Mapo Tofu (1483819272).jpg",
+   "query": "Mapo tofu Chengdu",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Alpha from Melbourne, Australia",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8_Sugar_and_Vinegar_Pork_Ribs_-_Chen%27s_Mapo_Tofu_(1483819272).jpg",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "川菜源头",
+  "老字号",
+  "市区"
+ ],
+ "popularity": 91,
+ "sources": [
+  {
+   "title": "百度百科 · 陈麻婆豆腐",
+   "url": "https://baike.baidu.com/item/%E9%99%88%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-18"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Mapo tofu Chengdu",
+  "zh": "麻婆豆腐 成都"
+ },
+ "_geocodeTitle": "陈麻婆豆腐(金沙店)",
+ "_geocodeSuspect": false,
+ "district": "510105",
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.3,
+    "note": "麻婆豆腐的正源版本"
+   },
+   {
+    "label": "排队",
+    "score": 2.8,
+    "note": "正餐时段要等位"
+   },
+   {
+    "label": "环境",
+    "score": 3.4,
+    "note": "游客多、翻台快，比较吵"
+   },
+   {
+    "label": "价格",
+    "score": 3.6,
+    "note": "人均中档，招牌菜不便宜"
+   }
+  ],
+  "body": "麻婆豆腐这道菜的源头就在成都，清同治元年由万福桥边一位陈姓老板娘创制，因脸上有麻痕被食客叫作陈麻婆。评价标准被概括成麻辣烫香酥嫩鲜活八个字，用汉源花椒与郫县豆瓣起味，豆腐要嫩而不碎、出锅仍有流动感，来成都吃一次正宗版本基本算必修课。缺点是正餐时段要排队，游客多、环境吵；分店遍布市区，出品稳定但少了老店的烟火气。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "吃正宗川菜",
+   "一人食",
+   "带外地朋友"
+  ],
+  "avoid": [
+   "饭点不排队",
+   "想吃安静小馆"
+  ],
+  "sources": []
+ }
 }

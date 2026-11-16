@@ -16,8 +16,8 @@
       "lat": 25.297262,
       "coordSystem": "GCJ-02"
     },
-    "address": "广西壮族自治区桂林市七星区阳婆婆松糕",
-    "district": "叠彩区",
+    "address": "广西壮族自治区桂林市七星区六狮洲41号（虞山桥东）",
+    "district": "七星区",
     "transportTip": "市区步行可达；七星区居民区一带"
   },
   "practical": {
@@ -53,9 +53,15 @@
       "url": "https://baike.baidu.com/item/%E6%9D%BE%E7%B3%95",
       "kind": "wiki",
       "fetchedAt": "2026-09-30"
+    },
+    {
+      "title": "国家企业信用信息公示·桂林市七星区阳婆婆餐饮店",
+      "url": "https://www.qcc.com/firm/724d35bc01bc30c4eae5fc15e100851b.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-12"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-12",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,6 +69,53 @@
   },
   "_geocodeTitle": "阳婆婆松糕",
   "_geocodeSuspect": false,
-  "district": "450303",
-  "_noImage": true
+  "district": "450305",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-12",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "广西壮族自治区桂林市七星区阳婆婆松糕",
+        "new": "广西壮族自治区桂林市七星区六狮洲41号（虞山桥东）"
+      }
+    ],
+    "source": "https://www.qcc.com/firm/724d35bc01bc30c4eae5fc15e100851b.html",
+    "reason": "工商登记与图商POI均指向六狮洲41号，补占位地址门牌"
+  },
+  "review": {
+    "score": 3.4,
+    "verdict": "时间富余再说",
+    "facets": [
+      {
+        "label": "口感",
+        "score": 4.0,
+        "note": "松到一捏就散，甜咸两路都做"
+      },
+      {
+        "label": "时段",
+        "score": 2.6,
+        "note": "早上出笼，卖完就收"
+      },
+      {
+        "label": "环境",
+        "score": 2.0,
+        "note": "街边小铺，没有堂食可言"
+      }
+    ],
+    "body": "籼米磨粉上笼蒸的本地松糕，出来松到一捏就散，甜口和咸口（加葱盐肉末）两路都做，一块几块钱，当早饭或路上垫一口刚好。不足是时段很死：早上出笼，卖完就收，去晚了只剩空屉；铺面是街边小店，没有堂食环境，只能站着吃或带走。",
+    "basis": "web",
+    "at": "2026-11-12",
+    "fits": [
+      "早饭",
+      "本地小吃"
+    ],
+    "avoid": [
+      "下午去",
+      "堂食"
+    ],
+    "sources": [
+      "https://www.qcc.com/firm/724d35bc01bc30c4eae5fc15e100851b.html"
+    ]
+  }
 }

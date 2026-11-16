@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "山东省济南市历下区趵突泉南路一号趵突泉公园",
-    "district": "市中区",
+    "district": "历下区",
     "transportTip": "市区乘公交到趵突泉东门站或趵突泉南门站"
   },
   "practical": {
@@ -161,7 +161,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-11-04",
+  "updatedAt": "2026-11-12",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Baotu Spring Park Jinan",
@@ -169,5 +169,37 @@
   },
   "_geocodeTitle": "趵突泉公园",
   "_geocodeSuspect": false,
-  "district": "370103"
+  "district": "370102",
+  "review": {
+    "score": 4.4,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "泉水本体",
+        "score": 4.7,
+        "note": "三股水翻卷如雪，终年不歇"
+      },
+      {
+        "label": "园林",
+        "score": 4.4,
+        "note": "李清照纪念堂、万竹园、泺源堂挨着"
+      },
+      {
+        "label": "旺季人流",
+        "score": 3.1,
+        "note": "泉池边围满人，想安静看水要赶早"
+      },
+      {
+        "label": "枯水期",
+        "score": 3.3,
+        "note": "水势一弱，那股翻涌的劲头就打折"
+      }
+    ],
+    "body": "三股水从池底汩汩上涌，水花翻卷如雪，终年不歇，站在观澜亭边看久了会觉得不真实。园子里还有李清照纪念堂、万竹园和泺源堂，一步一景，比想象中耐逛。冬天水面起雾，是另一番味道。缺点是旺季泉池边围满人，想安静看水得赶开门那一趟；园子不算大，一个多小时能逛完，票价显得偏高；枯水期水势弱，那股翻涌的劲头会打折扣，看运气。",
+    "basis": "corpus",
+    "at": "2026-11-12",
+    "fits": [],
+    "avoid": [],
+    "sources": []
+  }
 }

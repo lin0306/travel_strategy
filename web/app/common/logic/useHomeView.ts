@@ -58,7 +58,7 @@
 
 import { useCallback, useEffect, useMemo, useState } from 'react'
 
-import { drillTo, parentCityOf, sameDistrict, type FocusSources } from '~/common/logic/districtFocus'
+import { parentCityOf, sameDistrict, type FocusSources } from '~/common/logic/districtFocus'
 import { useFitOnce } from '~/common/logic/useFitOnce'
 import { useIsMobile } from '~/common/logic/useViewport'
 import { useMapReveal } from '~/common/logic/useMapReveal'
@@ -66,9 +66,10 @@ import { preloadCities } from '~/common/logic/preloadCities'
 import { useSearchPick } from '~/common/logic/useSearchPick'
 import { useSessionPick } from '~/common/logic/useSessionState'
 import { useAddToPlan } from '~/common/logic/useAddToPlan'
+import { scopeOf, useRegionNav, type RegionNav } from '~/common/logic/regionNav'
 import { useDistrictIndex } from '~/common/logic/useDistrictIndex'
 import { usePlanUi } from '~/common/logic/itinerary/planUi'
-import { registerPageSpotOps, useMapShell, type MapShellContext } from '~/common/logic/mapShell'
+import { registerPageRegionOps, registerPageSpotOps, useMapShell, type MapShellContext } from '~/common/logic/mapShell'
 import { loadCity } from '~/common/data/cityRegistry'
 import {
   findSubdistrictOwner,
@@ -87,6 +88,8 @@ import type { City, Poi } from '~shared/schema'
 
 export interface HomeView {
   shell: MapShellContext
+  /** 地域面板（点省 / 市徽标开卡）。★ 桌面端交给 `RegionPanel`，移动端不渲染、链路照跑 */
+  region: RegionNav
   /** 选中的景点（就地详情面板用）。`null` = 没选中 —— 面板自己会渲染成空 */
   selected: Poi | null
   /** 选中景点所属城市名（详情里的面包屑那一段） */
@@ -206,11 +209,10 @@ export function useHomeView(): HomeView {
     [cityRows, subRows],
   )
 
-  /**
-   * 真正要渲染的那一枚 = 页面自己的选中 > 搜索命中（合并规则见 `useSearchPick`）。
-   * ★ 定义在 `useMapReveal` **之前**：下面几个回调会用到它，写在后面虽然运行期也对，
-   *   但读起来像"先用后定义"。
-   */
+  /** 点省 / 市徽标 = 放大 + 左侧开卡（先挂面板、下一帧再对焦，见 `regionNav` 文件头） */
+  const region = useRegionNav({ shell, sources: focusSources, notify: showHint, cityRows })
+
+  /** 真正要渲染的那一枚 = 页面自己的选中 > 搜索命中（见 `useSearchPick`；定义在揭示之前） */
   const pageSelected = useMemo(
     () => (selectedId ? (poiById.get(selectedId) ?? null) : null),
     [selectedId, poiById],
@@ -222,17 +224,15 @@ export function useHomeView(): HomeView {
   })
 
   // ── 揭示 ──
-  //
-  // ★ 数据源只给「该级的**全部候选**」，**不要在页面里按视野筛** ——
-  //   判据与筛选统一在 `useMapReveal` 里做（见其文件头 ★★）。
-  //   页面自己筛一次、钩子再筛一次的话，两处 pad 不同就会得到
-  //   "判据说有点、集合里没有"这种半空状态。
+  // ★ 只给「该级的全部候选」，**不在页面里按视野筛** —— 判据与筛选统一在
+  //   `useMapReveal` 里（两处各筛一次、pad 不同就会得到"判据说有点、集合里没有"）。
   const { revealed } = useMapReveal({
     base: 'province',
+    // ★ 选中省市/区 ⇒ 只铺它和它的下一级；缩回全国由决策侧放开（见 `RevealScope`）。不用 useMemo：下游按字符串比对
+    scope: scopeOf(region),
     // ★ 面由揭示层按 `d.level` **现取**（见 `loadBoundsForLevel`）—— 本页不再自己传
     //   `districtFile`：那样只会把面固定成"省的面"，放大到市/区级时新徽标一个面都没有。
-    // ★ 末尾那一项是**区索引**：它异步到货，不给它一个坑，揭示就不会重算 ——
-    //   表现是"放大到区这一级什么都没出来"，而数据其实已经在了
+    // ★ 末尾那一项是**区索引**：它异步到货，不给它坑，揭示就不会重算（放大到区级什么都不出来）
     dataKey: `${rows?.length ?? -1}|${cityRows.length}|${poiPoints.length}|${Object.keys(subRows).length}|${districtIndex?.length ?? -1}`,
     // 两端都聚合，只差"独立点要不要挂名字"（见 `poiLayer` 文件头）
     names: !isMobile,
@@ -245,7 +245,8 @@ export function useHomeView(): HomeView {
     // ★★ 定值落点（`t.zoom`），不是 `fit(t.points)` —— 用户 2026-10-28：「市级标签点击固定
     //   缩放到某个比例，其他的也是同理，而不是根据屏幕的尺寸计算」。理由见 `zoomTiers.ts`
     // ★ 收进 `drillTo`：0 景点的区**不挪镜头**、只说一句话（见 `FocusTarget.empty`）
-    onSelectDistrict: (node) => drillTo(node, focusSources, shell, showHint),
+      // ★ 省 / 市 → 放大 + 开卡；区 → 只放大。三种分支都在 `region.pick` 里
+    onSelectDistrict: (node) => region.pick(node),
     onSelectPoi: (poiId) => {
       // ★ 点景点 = **就地看详情**（面板浮在地图上），不推镜头、不换页、两端一致。
       //   再点同一个即收起 —— 用 `isCurrent` 把"搜索命中过的那一枚"也算作已选中，
@@ -332,10 +333,8 @@ export function useHomeView(): HomeView {
   }, [revealed, cityRows, subRows])
 
   // ── 点位的懒加载：第一次真的"该到"点位级时才读 ──
-  // ★ 用 `revealed`（缩放判据说该到哪一级）而不是 `level`（实际铺的是哪一级）——
-  //   数据没到齐时回流会把 `level` 压浅，用 `level` 判就永远不会来加载。
-  // 放在揭示之后是刻意的 —— 绝大多数访问不会放大到 `POI_REVEAL_ZOOM`，
-  // 没必要在首屏就解析三座城市的全部点位。
+  // ★ 用 `revealed` 而不是 `level`：数据没到齐时回流会把 `level` 压浅，用它判就永远不来加载。
+  //   放在揭示之后是刻意的 —— 绝大多数访问不会放大到 `POI_REVEAL_ZOOM`，首屏不必解析全城点位。
   useEffect(() => {
     if (revealed !== 'poi' || poiCities.length > 0 || collectedIds.length === 0) return
     // ★ 分两批读：先把**眼前这几座城**的点位铺出来（其余随后补齐）——
@@ -395,13 +394,16 @@ export function useHomeView(): HomeView {
     clearPick()
   }, [clearPick])
 
+  // 收起本页详情 + 「点一个地区」开卡（搜索命中省 / 市走它）。★ 传 `region.pick` 本身 —— 包一层就是第二条落点路径
   useEffect(() => {
     registerPageSpotOps({ closePoi, spotListCity: null })
-    return () => registerPageSpotOps(null)
-  }, [closePoi])
+    registerPageRegionOps({ pick: region.pick })
+    return () => { registerPageSpotOps(null); registerPageRegionOps(null) }
+  }, [closePoi, region.pick])
 
   return {
     shell,
+    region,
     selected: sel.selected,
     selectedCityName: sel.cityName,
     // ★ 搜索命中优先（它的城市这次才加载）；否则查本页点位索引

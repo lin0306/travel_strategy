@@ -1,67 +1,134 @@
 {
-  "id": "huanhai-ride",
-  "name": "环海骑行",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "沿着洱海生态廊道骑车一圈，是大理最经典的出片方式。",
-  "description": "环海骑行是大理最经典的玩法，沿着洱海生态廊道骑电动车或单车。海西一段田园与白族村，海东一段山地与悬崖看海。随便停哪里都是景，骑车的人本身也是画。租一天几十块，多数人骑半圈。",
-  "highlights": [
-    "沿洱海生态廊道骑车，经典玩法",
-    "海西田园海东悬崖看海",
-    "租一天几十块，多数骑半圈"
-  ],
-  "location": {
-    "point": {
-      "lng": 100.222643,
-      "lat": 25.801418,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "云南省大理白族自治州大理市环海路",
-    "district": "大理市",
-    "transportTip": "才村喜洲双廊均有租车点"
+ "id": "huanhai-ride",
+ "name": "环海骑行",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "沿着洱海生态廊道骑车一圈，是大理最经典的出片方式。",
+ "description": "环海骑行是大理最经典的玩法，沿着洱海生态廊道骑电动车或单车。海西一段田园与白族村，海东一段山地与悬崖看海。随便停哪里都是景，骑车的人本身也是画。租一天几十块，多数人骑半圈。",
+ "highlights": [
+  "沿洱海生态廊道骑车，经典玩法",
+  "海西田园海东悬崖看海",
+  "租一天几十块，多数骑半圈"
+ ],
+ "location": {
+  "point": {
+   "lng": 100.222643,
+   "lat": 25.801418,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天（建议白天）",
-    "openHoursRef": 0,
-    "ticket": "免费（租车另计）",
-    "ticketRef": 0,
-    "duration": "建议 180-360 分钟",
-    "durationMinutes": [
-      180,
-      360
-    ],
-    "priceLevel": "free"
+  "address": "云南省大理白族自治州大理市环海路",
+  "district": "大理市",
+  "transportTip": "才村喜洲双廊均有租车点"
+ },
+ "practical": {
+  "openHours": "全天（建议白天）",
+  "openHoursRef": 0,
+  "ticket": "免费（租车另计）",
+  "ticketRef": 0,
+  "duration": "建议 180-360 分钟",
+  "durationMinutes": [
+   180,
+   360
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [
+  "洱海生态廊道全域禁止机动车和外部租的电动车驶入，只能步行、骑廊道内共享单车/助力车或坐观光车",
+  "在古城、才村租车要选正规车行，提车时对车身划痕、电量拍照留证，拒绝强制捆绑高价保险",
+  "龙龛、才村码头、磻溪 S 弯一带节假日易拥堵限流，早出发或改坐观光车"
+ ],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "骑行",
+  "洱海",
+  "出片"
+ ],
+ "popularity": 74,
+ "sources": [
+  {
+   "title": "百度百科·洱海",
+   "url": "https://baike.baidu.com/item/%E6%B4%B1%E6%B5%B7",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
   },
-  "audience": [
-    "couple",
-    "friends"
+  {
+   "title": "大理州政府信箱 2026-07-10 答复：廊道全域禁行电动车辆、仅特许观光车合",
+   "url": "https://www.dali.gov.cn/dlzrmzf/mail/detail.html?id=2058103581068636160",
+   "kind": "media",
+   "fetchedAt": "2026-11-15"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "环海骑行"
+ },
+ "_geocodeTitle": "环海东路",
+ "_geocodeSuspect": false,
+ "district": "532901",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-15",
+  "changes": [
+   {
+    "field": "贴士（用 | 分隔多条，整体替换）",
+    "old": [],
+    "new": [
+     "洱海生态廊道全域禁止机动车和外部租的电动车驶入，只能步行、骑廊道内共享单车/助力车或坐观光车",
+     "在古城、才村租车要选正规车行，提车时对车身划痕、电量拍照留证，拒绝强制捆绑高价保险",
+     "龙龛、才村码头、磻溪 S 弯一带节假日易拥堵限流，早出发或改坐观光车"
+    ]
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "骑行",
-    "洱海",
-    "出片"
+  "source": "https://www.dali.gov.cn/dlzrmzf/mail/detail.html?id=2058103581068636160",
+  "reason": "大理州政府信箱 2026-07-10 答复：廊道全域禁行电动车辆、仅特许观光车合规；州市场监管局 2026-09-24 消费提示：环洱海租车需验车留证、拒捆绑保险"
+ },
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "风景",
+    "score": 4.7,
+    "note": "海西田园海东悬崖，随处可停"
+   },
+   {
+    "label": "自由度",
+    "score": 4.3,
+    "note": "路线自定，多数人骑半圈"
+   },
+   {
+    "label": "规则",
+    "score": 2.6,
+    "note": "廊道禁外部电动车，只能骑园内共享车或坐观光车"
+   },
+   {
+    "label": "拥挤",
+    "score": 2.5,
+    "note": "热门湾段节假日骑不动"
+   }
   ],
-  "popularity": 74,
+  "body": "环洱海骑一圈是大理最舒服的玩法，海西一段田园加白族村子，海东一段贴着山壁看水，随手停都是景。要提醒的是生态廊道本身禁行机动车和外部租的电动车，只能步行、骑廊道里的共享单车或助力车、或坐观光车，很多人到门口才发现车进不去；龙龛、才村码头、磻溪 S 弯一带节假日堵得骑不动。租车挑正规车行，提车先拍车况，别贪低价。",
+  "basis": "web",
+  "at": "2026-11-15",
+  "fits": [
+   "骑行",
+   "看海",
+   "朋友同行"
+  ],
+  "avoid": [
+   "不想晒太阳",
+   "怕堵"
+  ],
   "sources": [
-    {
-      "title": "百度百科·洱海",
-      "url": "https://baike.baidu.com/item/%E6%B4%B1%E6%B5%B7",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "环海骑行"
-  },
-  "_geocodeTitle": "环海东路",
-  "_geocodeSuspect": false,
-  "district": "532901",
-  "_noImage": true
+   "https://www.dali.gov.cn/dlzrmzf/mail/detail.html?id=2058103581068636160"
+  ]
+ }
 }

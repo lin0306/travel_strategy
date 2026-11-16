@@ -1,0 +1,240 @@
+/**
+ * 浮层动效（2026-11-05 新增）—— 入场/退场 keyframes 的**唯一出处**。
+ *
+ * ## 为什么单独一个文件
+ * `app.css` 已逼近单文件 420 行红线（L 项），动效又是一整块自成体系的样式
+ * （keyframes + 便捷类 + reduced-motion 总开关），搬出来两边都干净。
+ * 从 `app.css` 顶部 `@import`，构建期由 Vite 内联合并，运行时零额外请求。
+ *
+ * ## 三条设计约定（改任何一条先想清楚全站影响）
+ * 1. **方向跟着锚点走**：从哪一侧停靠就从哪一侧滑入（左侧面板从左、右侧从右、
+ *    底部 Sheet 从下），退场沿同一方向离开。居中/顶栏只做淡入 ——
+ *    它们没有"来的方向"。
+ * 2. **入场 0.18s、退场 0.15s**：走的人不回头，退场永远比入场快。
+ *    `app.css` 里 `.flt-in`（0.18s）与本文件的时长是同一套口径。
+ * 3. **退场必须 `both`（fill-mode）**：退场动画播完后元素还要等 React 延迟卸载
+ *    （`usePresence`），`both` 保证它在被卸载前的每一帧都停在"已消失"的终态，
+ *    否则最后 100ms 会闪回来一下再消失。
+ *
+ * ## 与 `usePresence`（common/ui/usePresence.ts）的分工
+ * keyframes 只负责"这一帧长什么样"；"关掉之后先播退场、再卸载"这个时序
+ * 由 `usePresence` 延迟卸载来实现。挂这些 class 的组件必须经由它渲染，
+ * 否则退场 class 没机会播（元素瞬间 `return null`）。
+ */
+
+/* ────────────────────────────────────────────────
+ * 浮层入场：方向性滑入（.flt-in 仍在 app.css，管"无方向"的淡入）
+ * ──────────────────────────────────────────────── */
+@keyframes flt-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-16px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes flt-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(16px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes flt-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.flt-in-left {
+  animation: flt-in-left 0.18s ease-out;
+}
+.flt-in-right {
+  animation: flt-in-right 0.18s ease-out;
+}
+.flt-in-up {
+  animation: flt-in-up 0.18s ease-out;
+}
+
+/* ────────────────────────────────────────────────
+ * 浮层退场：同方向滑出。`both` 的理由见文件头第 3 条
+ * ──────────────────────────────────────────────── */
+@keyframes flt-out {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes flt-out-left {
+  to {
+    opacity: 0;
+    transform: translateX(-16px);
+  }
+}
+@keyframes flt-out-right {
+  to {
+    opacity: 0;
+    transform: translateX(16px);
+  }
+}
+.flt-out {
+  animation: flt-out 0.15s ease-in both;
+}
+.flt-out-left {
+  animation: flt-out-left 0.15s ease-in both;
+}
+.flt-out-right {
+  animation: flt-out-right 0.15s ease-in both;
+}
+
+/* ────────────────────────────────────────────────
+ * 移动端底部 Sheet：入场从下升起（退场不走 keyframes ——
+ * Sheet 是"锚在底部、高度伸缩"，高度过渡到 0 天然就是"滑落"，见 Sheet.tsx）
+ * ──────────────────────────────────────────────── */
+@keyframes sheet-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.sheet-in {
+  animation: sheet-in 0.22s cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+/* ────────────────────────────────────────────────
+ * 下拉气泡（顶栏「底图」、规划行「⋯」菜单）：缩放 + 淡入。
+ * transform-origin 由使用处给（`origin-top-right` 等）——锚点各不相同，不在这里写死
+ * ──────────────────────────────────────────────── */
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes pop-out {
+  to {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+}
+.pop-in {
+  animation: pop-in 0.14s ease-out;
+}
+.pop-out {
+  animation: pop-out 0.14s ease-in both;
+}
+
+/* ────────────────────────────────────────────────
+ * 模态遮罩（ModalScrim）：本体淡入淡出；
+ * 退场时**内容卡片**跟着一起退 —— 遮罩的子元素样式各弹窗自己拼，
+ * 这里用子选择器统一给，改一处四个弹窗全好。
+ *
+ * ★★ `.scrim-exit.scrim-exit > *` 里那个**重复的类名不是手滑**（2026-11-05 实测踩到）：
+ *   弹窗卡片自己挂着 app.css 的 `.flt-in`，两者特异性都是 (0,1,0) ——
+ *   而本文件是 `app.css` 顶部的 `@import`，构建后**排在 .flt-in 之前**，
+ *   于是 `.flt-in` 靠"源码顺序在后"胜出 ⇒ 卡片继续播入场动画（早就播完了，
+ *   等于动画名还占着位）⇒ 退场时**遮罩淡了、卡片硬消失**，比不做还难看。
+ *   重复一次类名把特异性抬到 (0,2,0)，与源码顺序无关。
+ *   ⚠️ 别把它"整理"成单个类名。
+ * ──────────────────────────────────────────────── */
+@keyframes scrim-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.scrim-in {
+  animation: scrim-in 0.15s ease-out;
+}
+.scrim-exit {
+  animation: flt-out 0.15s ease-in both;
+}
+.scrim-exit > *,
+.scrim-exit.scrim-exit > * {
+  animation: flt-out 0.15s ease-in both;
+}
+
+/* ────────────────────────────────────────────────
+ * 全屏页（移动端搜索）：只做淡入淡出 —— 它铺满视口，位移会像"页面在抖"
+ * ──────────────────────────────────────────────── */
+@keyframes page-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.page-in {
+  animation: page-in 0.15s ease-out;
+}
+.page-out {
+  animation: flt-out 0.15s ease-in both;
+}
+
+/* ────────────────────────────────────────────────
+ * 列表行进场（PoiList 筛选/排序切换）：
+ * `backwards` 让带 delay 的行在轮到自己之前保持透明（fill 只管 delay 段）
+ * ──────────────────────────────────────────────── */
+@keyframes row-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.row-in {
+  animation: row-in 0.18s ease-out backwards;
+}
+
+/* ────────────────────────────────────────────────
+ * 展开收起（FilterBar 细类行）：grid-template-rows 0fr→1fr 过渡。
+ * 这不是 keyframes —— transition 写在使用处（Tailwind `transition-[grid-template-rows]`），
+ * 这里只提供 reduced-motion 的关闭出口（见下）
+ * ──────────────────────────────────────────────── */
+
+/* ────────────────────────────────────────────────
+ * 无障碍总开关：用户开了「减少动态效果」就把这一文件里的动效全部关掉
+ * （`.flt-in` 那两个在 app.css 里各自带了同款开关）
+ * ──────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .flt-in-left,
+  .flt-in-right,
+  .flt-in-up,
+  .flt-out,
+  .flt-out-left,
+  .flt-out-right,
+  .sheet-in,
+  .pop-in,
+  .pop-out,
+  .scrim-in,
+  .scrim-exit,
+  .scrim-exit > *,
+  .scrim-exit.scrim-exit > *,
+  .page-in,
+  .page-out,
+  .row-in {
+    animation: none;
+  }
+}

@@ -1,90 +1,128 @@
 {
-  "id": "zhengyang-street",
-  "name": "正阳步行街",
-  "category": "culture",
-  "subtype": "street",
-  "summary": "市中心的一条步行街，从榕湖这一头一路铺到解放桥，晚上人最多。",
-  "description": "正阳步行街在市中心，从榕湖这一头铺到解放桥。两边是连锁的店与本地铺子，楼上住人，楼下做生意。它谈不上老，但它是本地人晚上出来走的那一条街。中段的地方连着 文化宫那一带的小巷，里面有小吃摊。从这里步行十分钟能到日月双塔。白天没什么人，晚上七点之后才开始热闹。",
-  "highlights": [
-    "从榕湖一路铺到解放桥，晚上七点后才热闹",
-    "谈不上老，是本地人晚上出来走的那条街",
-    "中段连着文化宫那边的小吃巷"
-  ],
-  "location": {
-    "point": {
-      "lng": 110.298007,
-      "lat": 25.275146,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "广西壮族自治区桂林市秀峰区正阳步行街",
-    "district": "秀峰区",
-    "transportTip": "市区步行可达；公交至十字街或解放桥站"
+ "id": "zhengyang-street",
+ "name": "正阳步行街",
+ "category": "culture",
+ "subtype": "street",
+ "summary": "市中心的一条步行街，从榕湖这一头一路铺到解放桥，晚上人最多。",
+ "description": "正阳步行街在市中心，从榕湖这一头铺到解放桥。两边是连锁的店与本地铺子，楼上住人，楼下做生意。它谈不上老，但它是本地人晚上出来走的那一条街。中段的地方连着 文化宫那一带的小巷，里面有小吃摊。从这里步行十分钟能到日月双塔。白天没什么人，晚上七点之后才开始热闹。",
+ "highlights": [
+  "从榕湖一路铺到解放桥，晚上七点后才热闹",
+  "谈不上老，是本地人晚上出来走的那条街",
+  "中段连着文化宫那边的小吃巷"
+ ],
+ "location": {
+  "point": {
+   "lng": 110.298007,
+   "lat": 25.275146,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放，店铺多为10:00-22:00",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 60-150 分钟",
-    "durationMinutes": [
-      60,
-      150
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "kids",
-    "family"
+  "address": "广西壮族自治区桂林市秀峰区正阳步行街",
+  "district": "秀峰区",
+  "transportTip": "市区步行可达；公交至十字街或解放桥站"
+ },
+ "practical": {
+  "openHours": "全天开放，店铺多为10:00-22:00",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 60-150 分钟",
+  "durationMinutes": [
+   60,
+   150
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/89738-Guilin_%2849040795886%29.jpg/1280px-89738-Guilin_%2849040795886%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/89738-Guilin_%2849040795886%29.jpg/1280px-89738-Guilin_%2849040795886%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "89738-Guilin (49040795886).jpg",
-      "query": "正阳步行街",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:89738-Guilin_(49040795886).jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    }
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "kids",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/89738-Guilin_%2849040795886%29.jpg/1280px-89738-Guilin_%2849040795886%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/89738-Guilin_%2849040795886%29.jpg/1280px-89738-Guilin_%2849040795886%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "89738-Guilin (49040795886).jpg",
+   "query": "正阳步行街",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:89738-Guilin_(49040795886).jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "步行街",
+  "市中心",
+  "夜市"
+ ],
+ "popularity": 74,
+ "sources": [
+  {
+   "title": "百度百科·桂林市",
+   "url": "https://baike.baidu.com/item/%E6%A1%82%E6%9E%97%E5%B8%82",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "正阳步行街"
+ },
+ "_geocodeTitle": "正阳步行街",
+ "_geocodeSuspect": false,
+ "district": "450302",
+ "review": {
+  "score": 3.4,
+  "verdict": "时间富余再说",
+  "facets": [
+   {
+    "label": "小吃",
+    "score": 3.5,
+    "note": "中段连着文化宫一带的小巷，摊子在里面"
+   },
+   {
+    "label": "商业化",
+    "score": 2.0,
+    "note": "两边多是连锁店，本地铺子被挤得少"
+   },
+   {
+    "label": "人流",
+    "score": 3.0,
+    "note": "晚上七点后最挤"
+   },
+   {
+    "label": "时长",
+    "score": 3.5,
+    "note": "一条街，一小时走完"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "步行街",
-    "市中心",
-    "夜市"
+  "body": "市中心的一条步行街，从榕湖一头铺到解放桥，楼上住人楼下做生意，是本地人晚上出来走的那条路。它的价值更多是位置：走十分钟就到日月双塔，中段连着文化宫一带的小巷，小吃摊都藏在里面。要说缺点：街面本身谈不上特色，连锁店占了大半，卖的东西每座城市都有；白天基本没人，晚上七点后才热闹，赶上节假日会挤得走不动。把它当通路而不是目的地更合适。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "晚上散步",
+   "顺路穿行"
   ],
-  "popularity": 74,
-  "sources": [
-    {
-      "title": "百度百科·桂林市",
-      "url": "https://baike.baidu.com/item/%E6%A1%82%E6%9E%97%E5%B8%82",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
+  "avoid": [
+   "专程去逛",
+   "想买本地特产"
   ],
-  "updatedAt": "2026-11-04",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "正阳步行街"
-  },
-  "_geocodeTitle": "正阳步行街",
-  "_geocodeSuspect": false,
-  "district": "450302"
+  "sources": []
+ }
 }

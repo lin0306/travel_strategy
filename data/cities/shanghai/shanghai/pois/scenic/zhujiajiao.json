@@ -1,113 +1,178 @@
 {
-  "id": "zhujiajiao",
-  "name": "朱家角古镇",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "离市区最近的江南水乡，放生桥与明清街巷是主线。",
-  "description": "朱家角在青浦，是上海保存较完整的水乡市镇。核心是横跨漕港的放生桥——五孔石拱，是江南地区最大的五孔石桥之一；沿河的北大街是「一线天」式的明清街巷，宽度为磢、铺石。它离市区近、地铁能到，代价是节假日人多。它的价值不在「奇」，而在于能用一个下午看到完整的江南水乡结构。",
-  "highlights": [
-    "放生桥是江南少见的五孔石桥",
-    "北大街是一线天的明清街巷",
-    "地铁17号线可直达"
-  ],
-  "location": {
-    "point": {
-      "lng": 121.05391,
-      "lat": 31.109711,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "上海市青浦区新风路美周路交界处",
-    "district": "青浦",
-    "transportTip": "地铁17号线朱家角站"
+ "id": "zhujiajiao",
+ "name": "朱家角古镇",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "离市区最近的江南水乡，放生桥与明清街巷是主线。",
+ "description": "朱家角在青浦，是上海保存较完整的水乡市镇。核心是横跨漕港的放生桥——五孔石拱，是江南地区最大的五孔石桥之一；沿河的北大街是「一线天」式的明清街巷，宽度为磢、铺石。它离市区近、地铁能到，代价是节假日人多。它的价值不在「奇」，而在于能用一个下午看到完整的江南水乡结构。",
+ "highlights": [
+  "放生桥是江南少见的五孔石桥",
+  "北大街是一线天的明清街巷",
+  "地铁17号线可直达"
+ ],
+ "location": {
+  "point": {
+   "lng": 121.05391,
+   "lat": 31.109711,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:30-16:30(旺季)，以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "进镇免费，小景点联票约30元起，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 180-300 分钟",
-    "durationMinutes": [
-      180,
-      300
-    ],
-    "priceLevel": "budget"
+  "address": "上海市青浦区新风路美周路交界处",
+  "district": "青浦",
+  "transportTip": "地铁17号线朱家角站"
+ },
+ "practical": {
+  "openHours": "古镇街区全天开放；内部收费景点 08:30-16:30",
+  "openHoursRef": 0,
+  "ticket": "进镇免费，课植园/和心园/鹤龙美术馆三景点联票 60 元（学生与 60 岁以上半价）",
+  "ticketRef": 0,
+  "duration": "建议 180-300 分钟",
+  "durationMinutes": [
+   180,
+   300
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "couple",
+  "kids",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Zhujiajiao%2C_Shanghai.jpg/1280px-Zhujiajiao%2C_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Zhujiajiao%2C_Shanghai.jpg/1280px-Zhujiajiao%2C_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Zhujiajiao, Shanghai.jpg",
+   "query": "朱家角古镇 上海",
+   "credit": {
+    "source": "wikimedia",
+    "author": "钉钉",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhujiajiao,_Shanghai.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "kids",
-    "solo"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Zhujiajiao-02.JPG/1280px-Zhujiajiao-02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Zhujiajiao-02.JPG/1280px-Zhujiajiao-02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Zhujiajiao-02.JPG",
+   "query": "朱家角古镇 上海",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Anna Frodesiak",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhujiajiao-02.JPG",
+    "license": "Public domain",
+    "attributionRequired": false
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Zhujiajiao-04.JPG/1280px-Zhujiajiao-04.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Zhujiajiao-04.JPG/1280px-Zhujiajiao-04.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Zhujiajiao-04.JPG",
+   "query": "朱家角古镇 上海",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Anna Frodesiak",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhujiajiao-04.JPG",
+    "license": "Public domain",
+    "attributionRequired": false
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "水乡",
+  "古镇",
+  "桥"
+ ],
+ "popularity": 88,
+ "sources": [
+  {
+   "title": "百度百科·朱家角",
+   "url": "https://baike.baidu.com/item/%E6%9C%B1%E5%AE%B6%E8%A7%92",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  },
+  {
+   "title": "朱家角古镇官网 · 门票预订与开放时间",
+   "url": "https://www.zhujiajiao.com/cn/ticket/",
+   "kind": "media",
+   "fetchedAt": "2026-11-12"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "朱家角古镇"
+ },
+ "_geocodeTitle": "上海朱家角古镇旅游区",
+ "_geocodeSuspect": false,
+ "district": "310118",
+ "_patrol": {
+  "at": "2026-11-12",
+  "changes": [
+   {
+    "field": "门票",
+    "old": "进镇免费，小景点联票约30元起，以官方为准",
+    "new": "进镇免费，课植园/和心园/鹤龙美术馆三景点联票 60 元（学生与 60 岁以上半价）"
+   },
+   {
+    "field": "开放时间",
+    "old": "约08:30-16:30(旺季)，以官方公告为准",
+    "new": "古镇街区全天开放；内部收费景点 08:30-16:30"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Zhujiajiao%2C_Shanghai.jpg/1280px-Zhujiajiao%2C_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Zhujiajiao%2C_Shanghai.jpg/1280px-Zhujiajiao%2C_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Zhujiajiao, Shanghai.jpg",
-      "query": "朱家角古镇 上海",
-      "credit": {
-        "source": "wikimedia",
-        "author": "钉钉",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhujiajiao,_Shanghai.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Zhujiajiao-02.JPG/1280px-Zhujiajiao-02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Zhujiajiao-02.JPG/1280px-Zhujiajiao-02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Zhujiajiao-02.JPG",
-      "query": "朱家角古镇 上海",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Anna Frodesiak",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhujiajiao-02.JPG",
-        "license": "Public domain",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Zhujiajiao-04.JPG/1280px-Zhujiajiao-04.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Zhujiajiao-04.JPG/1280px-Zhujiajiao-04.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Zhujiajiao-04.JPG",
-      "query": "朱家角古镇 上海",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Anna Frodesiak",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhujiajiao-04.JPG",
-        "license": "Public domain",
-        "attributionRequired": false
-      }
-    }
+  "source": "https://www.zhujiajiao.com/cn/ticket/",
+  "reason": "朱家角官网门票页三景点联票60元、收费景点8:30-16:30"
+ },
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "水乡格局",
+    "score": 4.5,
+    "note": "五孔放生桥叠加一线天街巷"
+   },
+   {
+    "label": "可达性",
+    "score": 4.6,
+    "note": "17 号线直达，市区一小时级"
+   },
+   {
+    "label": "商业化",
+    "score": 2.5,
+    "note": "沿街商铺重，节假日人流密集"
+   },
+   {
+    "label": "门票",
+    "score": 3.4,
+    "note": "街区免费，三馆联票 60 元"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "水乡",
-    "古镇",
-    "桥"
+  "body": "从市区坐 17 号线就能到的水乡，核心是横跨漕港的五孔放生桥，沿河北大街是一线天式的明清街巷。街区本身全天免费开放，收费的只有课植园、和心园与鹤龙美术馆三家，联票 60 元，取票后建议先逛这三馆再沿河走。负面：节假日人流密度高、沿街商铺商业化重，联票之外的小景点还要另买，想安静看水乡得赶早或避开周末。",
+  "basis": "web",
+  "at": "2026-11-12",
+  "fits": [
+   "半日游",
+   "水乡初体验",
+   "带长辈"
   ],
-  "popularity": 88,
+  "avoid": [
+   "节假日中午",
+   "想找原生态古镇"
+  ],
   "sources": [
-    {
-      "title": "百度百科·朱家角",
-      "url": "https://baike.baidu.com/item/%E6%9C%B1%E5%AE%B6%E8%A7%92",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "朱家角古镇"
-  },
-  "_geocodeTitle": "上海朱家角古镇旅游区",
-  "_geocodeSuspect": false,
-  "district": "310118"
+   "https://www.zhujiajiao.com/cn/ticket/",
+   "https://www.shobserver.com/sgh/detail?id=1730718"
+  ]
+ }
 }

@@ -1,68 +1,105 @@
 {
-  "id": "bazaar-night",
-  "name": "国际大巴扎夜景",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "入夜的大巴扎，楼群灯亮、穹顶生辉，是乌鲁木齐最有西域味的夜景机位。",
-  "description": "入夜的国际大巴扎换了模样。清真寺风楼群亮起暖黄灯，穹顶和尖塔勾出轮廓，像童话里的城。广场上人群来去，烤肉烟和手鼓声混着。想拍夜景，站在对面街口最好取景。带三脚架更稳，手机也能出片。夜里风凉，备外套。",
-  "highlights": [
-    "夜幕楼群灯亮穹顶生辉",
-    "西域味最浓夜景",
-    "对面街口取景机位"
-  ],
-  "location": {
-    "point": {
-      "lng": 87.618044,
-      "lat": 43.780083,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "新疆维吾尔自治区乌鲁木齐市天山区解放南路国际大巴扎",
-    "district": "天山区",
-    "transportTip": "市区乘公交或打车到二道桥"
+ "id": "bazaar-night",
+ "name": "国际大巴扎夜景",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "入夜的大巴扎，楼群灯亮、穹顶生辉，是乌鲁木齐最有西域味的夜景机位。",
+ "description": "入夜的国际大巴扎换了模样。清真寺风楼群亮起暖黄灯，穹顶和尖塔勾出轮廓，像童话里的城。广场上人群来去，烤肉烟和手鼓声混着。想拍夜景，站在对面街口最好取景。带三脚架更稳，手机也能出片。夜里风凉，备外套。",
+ "highlights": [
+  "夜幕楼群灯亮穹顶生辉",
+  "西域味最浓夜景",
+  "对面街口取景机位"
+ ],
+ "location": {
+  "point": {
+   "lng": 87.618044,
+   "lat": 43.780083,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约20:00-22:30灯光最佳",
-    "openHoursRef": 0,
-    "ticket": "免费观景",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "family",
-    "friends"
+  "address": "新疆维吾尔自治区乌鲁木齐市天山区解放南路国际大巴扎",
+  "district": "天山区",
+  "transportTip": "市区乘公交或打车到二道桥"
+ },
+ "practical": {
+  "openHours": "约20:00-22:30灯光最佳",
+  "openHoursRef": 0,
+  "ticket": "免费观景",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "夜景",
-    "大巴扎",
-    "拍照"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "family",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "夜景",
+  "大巴扎",
+  "拍照"
+ ],
+ "popularity": 93,
+ "sources": [
+  {
+   "title": "新疆国际大巴扎·百度百科",
+   "url": "https://baike.baidu.com/item/%E6%96%B0%E7%96%86%E5%9B%BD%E9%99%85%E5%A4%A7%E5%B7%B4%E6%89%8E",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-02"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Bazaar Night View Urumqi",
+  "zh": "国际大巴扎夜景"
+ },
+ "_geocodeTitle": "新疆国际大巴扎",
+ "_geocodeSuspect": false,
+ "district": "650102",
+ "_noImage": true,
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "夜景",
+    "score": 4.6,
+    "note": "穹顶与尖塔亮灯后轮廓最好看"
+   },
+   {
+    "label": "商业化",
+    "score": 2.6,
+    "note": "摊贩多，推销一路缠人"
+   },
+   {
+    "label": "机位",
+    "score": 4.0,
+    "note": "对面街口取景最完整"
+   },
+   {
+    "label": "气温",
+    "score": 2.8,
+    "note": "夜里风凉，夏天也得带外套"
+   }
   ],
-  "popularity": 93,
-  "sources": [
-    {
-      "title": "新疆国际大巴扎·百度百科",
-      "url": "https://baike.baidu.com/item/%E6%96%B0%E7%96%86%E5%9B%BD%E9%99%85%E5%A4%A7%E5%B7%B4%E6%89%8E",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-02"
-    }
+  "body": "入夜的大巴扎换了副模样，暖黄的灯把穹顶和尖塔勾出来，广场上烤肉烟和手鼓声混在一起。不足是商业气息重，一路都有人兜售，想安静拍照得往对面街口退；夜里风凉，站久了会冷。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "拍照",
+   "夜游"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Bazaar Night View Urumqi",
-    "zh": "国际大巴扎夜景"
-  },
-  "_geocodeTitle": "新疆国际大巴扎",
-  "_geocodeSuspect": false,
-  "district": "650102",
-  "_noImage": true
+  "avoid": [
+   "怕吵"
+  ],
+  "sources": []
+ }
 }

@@ -15,7 +15,7 @@
       "lat": 30.651066,
       "coordSystem": "GCJ-02"
     },
-    "address": "成都市锦江区油篓街 48 号附 1-2 号",
+    "address": "成都市锦江区油篓街 68 号（太古里亚朵 S 酒店对面）",
     "district": "锦江区",
     "transportTip": "地铁 2/3 号线春熙路站步行约 500 米"
   },
@@ -56,9 +56,15 @@
       "url": "https://m.toutiao.com/article/7632398778288456243/",
       "kind": "media",
       "fetchedAt": "2026-09-18"
+    },
+    {
+      "title": "腾讯地图 POI",
+      "url": "https://apis.map.qq.com/",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Chengdu bobochi skewers",
@@ -67,5 +73,17 @@
   "_geocodeTitle": "嘉州叶婆婆钵钵鸡(太古里店)",
   "_geocodeSuspect": false,
   "district": "510104",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-08",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "成都市锦江区油篓街 48 号附 1-2 号",
+        "new": "成都市锦江区油篓街 68 号（太古里亚朵 S 酒店对面）"
+      }
+    ],
+    "source": "https://apis.map.qq.com/",
+    "reason": "图商POI写油篓街68号且坐标与库内完全一致(30.651066,104.084302)，原「48号附1-2」与坐标不同源\r"
+  }
 }

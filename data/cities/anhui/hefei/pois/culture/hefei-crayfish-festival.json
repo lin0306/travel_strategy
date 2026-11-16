@@ -12,16 +12,16 @@
   ],
   "location": {
     "point": {
-      "lng": 117.288207,
-      "lat": 31.834736,
+      "lat": 31.777306,
+      "lng": 117.309388,
       "coordSystem": "GCJ-02"
     },
-    "address": "安徽省合肥市包河区宁国路及龙虾节主会场",
+    "address": "安徽省合肥市包河区骆岗公园航南广场（第25届主会场；宁国路为常设龙虾美食街）",
     "district": "包河区",
-    "transportTip": "市区乘公交或打车到宁国路一带"
+    "transportTip": "主会场：地铁1号线骆岗站B口转乘公交至骆岗公园航南广场；宁国路龙虾美食街：地铁1号线合工大南区站B口步行约1.5公里"
   },
   "practical": {
-    "openHours": "约17:00-23:00，以当届公告为准",
+    "openHours": "约16:00-24:00（第25届 2026-05-15至17 在骆岗公园航南广场），以当届公告为准",
     "openHoursRef": 0,
     "ticket": "免费入场，消费另计",
     "ticketRef": 0,
@@ -53,9 +53,21 @@
       "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E5%90%88%E8%82%A5%E9%BE%99%E8%99%BE%E8%8A%82",
       "kind": "wiki",
       "fetchedAt": "2026-10-04"
+    },
+    {
+      "title": "合肥市农业农村局：第25届合肥龙虾节圆满落幕（骆岗公园航南广场·2026-05）",
+      "url": "https://nyncj.hefei.gov.cn/nyzx/gzdt/15529063.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
+    },
+    {
+      "title": "人民网安徽频道：第25届合肥龙虾节将在骆岗公园航南广场启幕（2026-05）",
+      "url": "https://ah.people.com.cn/n2/2026/0512/c358339-41578295.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Hefei Crayfish Festival",
@@ -63,5 +75,17 @@
   },
   "_geocodeTitle": "宁国路",
   "district": "340111",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "交通提示",
+        "old": "市区乘公交或打车到宁国路一带",
+        "new": "主会场：地铁1号线骆岗站B口转乘公交至骆岗公园航南广场；宁国路龙虾美食街：地铁1号线合工大南区站B口步行约1.5公里"
+      }
+    ],
+    "source": "https://ah.people.com.cn/n2/2026/0512/c358339-41578295.html",
+    "reason": "主会场迁至骆岗公园航南广场，交通提示同步更新（人民网安徽频道2026-05-12）"
+  }
 }

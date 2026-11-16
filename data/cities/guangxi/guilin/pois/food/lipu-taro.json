@@ -1,68 +1,100 @@
 {
-  "id": "lipu-taro",
-  "name": "荔浦香芋扣肉",
-  "category": "food",
-  "subtype": "local",
-  "summary": "荔浦芋头蒸出来的一片一片夹着五花肉，是这边酒席上离不了的一道。",
-  "description": "荔浦芋是荔浦出的一种大芋头，个头大、粉、香，过去是进贡的东西。最常做的是香芋扣肉：五花肉先炸皮再下锅，切成片；芋头也切同样厚的片，一片肉一片芋相间排进碗里，浇酱汁上笼蒸到芋头把肉的油吸干净，倒扣出来 —— 芋比肉好吃是这道菜的常识。它在荔浦与桂林市区的本地菜馆都有，点一份两个人吃不完。芋头有季节，秋冬季的最粉。",
-  "highlights": [
-    "荔浦产的大芋头，个头大、粉、香，过去是贡品",
-    "一片芋一片肉相间排进碗里蒸透，倒扣出来",
-    "这道菜的常识是芋比肉好吃"
-  ],
-  "location": {
-    "point": {
-      "lng": 110.403359,
-      "lat": 24.484887,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "广西壮族自治区桂林市荔浦市荔浦香芋扣肉",
-    "district": "荔浦市",
-    "transportTip": "桂林市区或荔浦县城的本地菜馆均有，步行可达"
+ "id": "lipu-taro",
+ "name": "荔浦香芋扣肉",
+ "category": "food",
+ "subtype": "local",
+ "summary": "荔浦芋头蒸出来的一片一片夹着五花肉，是这边酒席上离不了的一道。",
+ "description": "荔浦芋是荔浦出的一种大芋头，个头大、粉、香，过去是进贡的东西。最常做的是香芋扣肉：五花肉先炸皮再下锅，切成片；芋头也切同样厚的片，一片肉一片芋相间排进碗里，浇酱汁上笼蒸到芋头把肉的油吸干净，倒扣出来 —— 芋比肉好吃是这道菜的常识。它在荔浦与桂林市区的本地菜馆都有，点一份两个人吃不完。芋头有季节，秋冬季的最粉。",
+ "highlights": [
+  "荔浦产的大芋头，个头大、粉、香，过去是贡品",
+  "一片芋一片肉相间排进碗里蒸透，倒扣出来",
+  "这道菜的常识是芋比肉好吃"
+ ],
+ "location": {
+  "point": {
+   "lng": 110.403359,
+   "lat": 24.484887,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约11:00-21:00，以门店公告为准",
-    "openHoursRef": 0,
-    "ticket": "便宜至中等",
-    "ticketRef": 0,
-    "duration": "建议 60-110 分钟",
-    "durationMinutes": [
-      60,
-      110
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "family",
-    "elders",
-    "friends"
+  "address": "广西壮族自治区桂林市荔浦市荔浦香芋扣肉",
+  "district": "荔浦市",
+  "transportTip": "桂林市区或荔浦县城的本地菜馆均有，步行可达"
+ },
+ "practical": {
+  "openHours": "约11:00-21:00，以门店公告为准",
+  "openHoursRef": 0,
+  "ticket": "便宜至中等",
+  "ticketRef": 0,
+  "duration": "建议 60-110 分钟",
+  "durationMinutes": [
+   60,
+   110
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "荔浦芋",
-    "扣肉",
-    "蒸菜"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "family",
+  "elders",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "荔浦芋",
+  "扣肉",
+  "蒸菜"
+ ],
+ "popularity": 66,
+ "sources": [
+  {
+   "title": "百度百科·荔浦芋",
+   "url": "https://baike.baidu.com/item/%E8%8D%94%E6%B5%A6%E8%8A%8B",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "荔浦香芋扣肉"
+ },
+ "_geocodeTitle": "荔浦香芋扣肉",
+ "_geocodeSuspect": false,
+ "district": "450381",
+ "_noImage": true,
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.2,
+    "note": "芋头吸饱肉汁，比肉更好吃"
+   },
+   {
+    "label": "分量",
+    "score": 3.4,
+    "note": "一份两人吃不完"
+   },
+   {
+    "label": "油腻",
+    "score": 2.9,
+    "note": "五花肉炸皮，吃多容易腻"
+   }
   ],
-  "popularity": 66,
-  "sources": [
-    {
-      "title": "百度百科·荔浦芋",
-      "url": "https://baike.baidu.com/item/%E8%8D%94%E6%B5%A6%E8%8A%8B",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
+  "body": "荔浦芋粉糯，一片芋一片肉排进碗里蒸透倒扣，芋头把油吸走之后确实比肉好吃，秋冬的芋头最粉。缺点是整道菜偏油，两个人点一份就顶住，再加别的菜容易浪费；景区周边的馆子这道菜要价偏高，往居民区的小馆走会实在些。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "家庭",
+   "尝本地菜"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "荔浦香芋扣肉"
-  },
-  "_geocodeTitle": "荔浦香芋扣肉",
-  "_geocodeSuspect": false,
-  "district": "450381",
-  "_noImage": true
+  "avoid": [
+   "怕油"
+  ],
+  "sources": []
+ }
 }

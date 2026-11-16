@@ -63,21 +63,24 @@ import { Overlay } from '~/common/ui/Overlay'
 import { FilterBar } from '~/common/ui/city/FilterBar'
 import { PoiList, countSubtypes, filterPois, sortPois } from '~/common/ui/city/PoiList'
 import { useDismiss } from '~/common/ui/useDismiss'
+import { useItemPresence } from '~/common/ui/usePresence'
 import type { Category, City, SubType } from '~shared/schema'
 
 /**
  * 门：只负责"开不开"，**不持有任何状态**。
  * 它挂在外壳上常年存在，`return null` 只是不渲染、状态还在 ——
  * 状态必须住在下面那个"内容"组件里（护栏 AF 守这条）。
+ * ★ 退场：req 清空后多留 160ms 播左滑出（presence 缓存最后一份 req）。
  */
 export function SpotPicker() {
   const req = usePlanUi((s) => s.spotPicker)
-  if (!req) return null
-  return <SpotPickerBody req={req} />
+  const pres = useItemPresence(req)
+  if (!pres.mounted || !pres.item) return null
+  return <SpotPickerBody req={pres.item} exiting={pres.exiting} />
 }
 
 /** 内容：每次打开都是**全新实例**，所以筛选 / 滚动位置都不会带到下一次 */
-function SpotPickerBody({ req }: { req: SpotPickerRequest }) {
+function SpotPickerBody({ req, exiting }: { req: SpotPickerRequest; exiting: boolean }) {
   const close = usePlanUi((s) => s.closeSpotPicker)
   const plans = usePlanStore((s) => s.plans)
   /** 面板上正看着的那一天（全站唯一，由 `PlanDetailView` 单向同步） */
@@ -146,6 +149,7 @@ function SpotPickerBody({ req }: { req: SpotPickerRequest }) {
       z={26}
       label="挑景点"
       className="overflow-hidden"
+      exiting={exiting}
     >
       <div ref={wrapRef} className="flex min-h-0 flex-1 flex-col">
         <div className="flex-none border-b border-line px-3.5 py-2.5">

@@ -1,158 +1,190 @@
 {
-  "id": "olympic-forest-park",
-  "name": "奥林匹克森林公园",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "城中最大的一块人工绿地，仰山与奥海是跑步散步的日常路线。",
-  "description": "奥森占地六百余公顷，落在中轴线的北延长线上。南园的仰山与奥海构成一组微缩山水，北园更野、人更少。它是很多北京市民周末的固定安排：跑道、健走道、夏季荡桨与冬季滑冰。登到仰山顶可以望见中轴线向南延伸的方向，是城区里比较少见的开阔视野。",
-  "highlights": [
-    "南园人气足，北园更野",
-    "跑道与健走道是日常用途",
-    "仰山顶看中轴线"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.391712,
-      "lat": 40.022103,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "北京市朝阳区科荟路33号",
-    "district": "朝阳",
-    "transportTip": "地铁8号线森林公园南门站/林萃桥站"
+ "id": "olympic-forest-park",
+ "name": "奥林匹克森林公园",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "城中最大的一块人工绿地，仰山与奥海是跑步散步的日常路线。",
+ "description": "奥森占地六百余公顷，落在中轴线的北延长线上。南园的仰山与奥海构成一组微缩山水，北园更野、人更少。它是很多北京市民周末的固定安排：跑道、健走道、夏季荡桨与冬季滑冰。登到仰山顶可以望见中轴线向南延伸的方向，是城区里比较少见的开阔视野。",
+ "highlights": [
+  "南园人气足，北园更野",
+  "跑道与健走道是日常用途",
+  "仰山顶看中轴线"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.391712,
+   "lat": 40.022103,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约06:00-21:00(旺季，以官方公告为准)",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 120-300 分钟",
-    "durationMinutes": [
-      120,
-      300
-    ],
-    "priceLevel": "free"
+  "address": "北京市朝阳区科荟路33号",
+  "district": "朝阳",
+  "transportTip": "地铁8号线森林公园南门站/林萃桥站"
+ },
+ "practical": {
+  "openHours": "约06:00-21:00(旺季，以官方公告为准)",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 120-300 分钟",
+  "durationMinutes": [
+   120,
+   300
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "kids",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Constructed_wetland_in_Olympic_Forest_Park_%284176672242%29.jpg/1280px-Constructed_wetland_in_Olympic_Forest_Park_%284176672242%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Constructed_wetland_in_Olympic_Forest_Park_%284176672242%29.jpg/1280px-Constructed_wetland_in_Olympic_Forest_Park_%284176672242%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 723,
+   "alt": "Constructed wetland in Olympic Forest Park (4176672242).jpg",
+   "query": "奥林匹克森林公园 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "SuSanA Secretariat",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Constructed_wetland_in_Olympic_Forest_Park_(4176672242).jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "kids",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Constructed_wetland_in_Olympic_Forest_Park_%284176672242%29.jpg/1280px-Constructed_wetland_in_Olympic_Forest_Park_%284176672242%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Constructed_wetland_in_Olympic_Forest_Park_%284176672242%29.jpg/1280px-Constructed_wetland_in_Olympic_Forest_Park_%284176672242%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 723,
-      "alt": "Constructed wetland in Olympic Forest Park (4176672242).jpg",
-      "query": "奥林匹克森林公园 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "SuSanA Secretariat",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Constructed_wetland_in_Olympic_Forest_Park_(4176672242).jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Constructed_wetland_in_Olympic_Forest_Park_%285536874351%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Constructed_wetland_in_Olympic_Forest_Park_%285536874351%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "Constructed wetland in Olympic Forest Park (5536874351).jpg",
-      "query": "奥林匹克森林公园 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "SuSanA Secretariat",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Constructed_wetland_in_Olympic_Forest_Park_(5536874351).jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Constructed_wetland_in_Olympic_Forest_Park_%285536874421%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Constructed_wetland_in_Olympic_Forest_Park_%285536874421%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1638,
-      "alt": "Constructed wetland in Olympic Forest Park (5536874421).jpg",
-      "query": "奥林匹克森林公园 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "SuSanA Secretariat",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Constructed_wetland_in_Olympic_Forest_Park_(5536874421).jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Constructed_wetland_in_Olympic_Forest_Park_%285537452164%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Constructed_wetland_in_Olympic_Forest_Park_%285537452164%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1638,
-      "alt": "Constructed wetland in Olympic Forest Park (5537452164).jpg",
-      "query": "奥林匹克森林公园 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "SuSanA Secretariat",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Constructed_wetland_in_Olympic_Forest_Park_(5537452164).jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Constructed_wetland_in_Olympic_Forest_Park_%285537452422%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Constructed_wetland_in_Olympic_Forest_Park_%285537452422%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "Constructed wetland in Olympic Forest Park (5537452422).jpg",
-      "query": "奥林匹克森林公园 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "SuSanA Secretariat",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Constructed_wetland_in_Olympic_Forest_Park_(5537452422).jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Greenhouse_in_Olympic_Forest_Park_%285536874653%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Greenhouse_in_Olympic_Forest_Park_%285536874653%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "Greenhouse in Olympic Forest Park (5536874653).jpg",
-      "query": "奥林匹克森林公园 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "SuSanA Secretariat",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greenhouse_in_Olympic_Forest_Park_(5536874653).jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "公园",
-    "跑步",
-    "城市绿洲"
-  ],
-  "popularity": 82,
-  "sources": [
-    {
-      "title": "百度百科·奥林匹克森林公园",
-      "url": "https://baike.baidu.com/item/%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "奥林匹克森林公园"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Constructed_wetland_in_Olympic_Forest_Park_%285536874351%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Constructed_wetland_in_Olympic_Forest_Park_%285536874351%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "Constructed wetland in Olympic Forest Park (5536874351).jpg",
+   "query": "奥林匹克森林公园 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "SuSanA Secretariat",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Constructed_wetland_in_Olympic_Forest_Park_(5536874351).jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "奥林匹克森林公园",
-  "_geocodeSuspect": false,
-  "district": "110105"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Constructed_wetland_in_Olympic_Forest_Park_%285536874421%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Constructed_wetland_in_Olympic_Forest_Park_%285536874421%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 1638,
+   "alt": "Constructed wetland in Olympic Forest Park (5536874421).jpg",
+   "query": "奥林匹克森林公园 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "SuSanA Secretariat",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Constructed_wetland_in_Olympic_Forest_Park_(5536874421).jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Constructed_wetland_in_Olympic_Forest_Park_%285537452164%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Constructed_wetland_in_Olympic_Forest_Park_%285537452164%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 1638,
+   "alt": "Constructed wetland in Olympic Forest Park (5537452164).jpg",
+   "query": "奥林匹克森林公园 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "SuSanA Secretariat",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Constructed_wetland_in_Olympic_Forest_Park_(5537452164).jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Constructed_wetland_in_Olympic_Forest_Park_%285537452422%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Constructed_wetland_in_Olympic_Forest_Park_%285537452422%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "Constructed wetland in Olympic Forest Park (5537452422).jpg",
+   "query": "奥林匹克森林公园 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "SuSanA Secretariat",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Constructed_wetland_in_Olympic_Forest_Park_(5537452422).jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Greenhouse_in_Olympic_Forest_Park_%285536874653%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Greenhouse_in_Olympic_Forest_Park_%285536874653%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "Greenhouse in Olympic Forest Park (5536874653).jpg",
+   "query": "奥林匹克森林公园 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "SuSanA Secretariat",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greenhouse_in_Olympic_Forest_Park_(5536874653).jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "公园",
+  "跑步",
+  "城市绿洲"
+ ],
+ "popularity": 82,
+ "sources": [
+  {
+   "title": "百度百科·奥林匹克森林公园",
+   "url": "https://baike.baidu.com/item/%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "奥林匹克森林公园"
+ },
+ "_geocodeTitle": "奥林匹克森林公园",
+ "_geocodeSuspect": false,
+ "district": "110105",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "尺度",
+    "score": 4.5,
+    "note": "六百余公顷，南园仰山奥海、北园更野"
+   },
+   {
+    "label": "用途",
+    "score": 4.4,
+    "note": "跑道与健走道是本地人的日常"
+   },
+   {
+    "label": "配套",
+    "score": 2.8,
+    "note": "园内补给点稀，遮阴一般"
+   },
+   {
+    "label": "交通",
+    "score": 3.0,
+    "note": "地铁站出来还要走一段"
+   }
+  ],
+  "body": "城中最大的一块人工绿地，南园仰山与奥海是一组微缩山水，北园更野、人更少，跑道和健走道是日常用途。缺点是从地铁到园内有段距离，园内补给点稀、遮阴一般，夏天正午晒得厉害；只为打卡拍照会觉得空。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [],
+  "avoid": [],
+  "sources": []
+ }
 }

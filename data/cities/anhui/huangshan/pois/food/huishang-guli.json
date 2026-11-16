@@ -12,11 +12,11 @@
   ],
   "location": {
     "point": {
-      "lng": 118.321328,
-      "lat": 29.719248,
+      "lat": 29.709434,
+      "lng": 118.302324,
       "coordSystem": "GCJ-02"
     },
-    "address": "安徽省黄山市屯溪区徽商故里",
+    "address": "安徽省黄山市屯溪区延安路3号 黄山华山宾馆（徽商故里餐厅）",
     "district": "屯溪区",
     "transportTip": "市区公交或步行到店"
   },
@@ -52,9 +52,15 @@
       "url": "https://baike.baidu.com/item/%E5%BE%BD%E8%8F%9C",
       "kind": "wiki",
       "fetchedAt": "2026-10-01"
+    },
+    {
+      "title": "华山宾馆官网：餐饮以徽商故里品牌为特色，延安路3号老街北入口",
+      "url": "http://huashan.hotelhuangshan.cn/cn",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,5 +69,29 @@
   "_geocodeTitle": "中国徽菜·徽商故里(仙人洞店)",
   "_geocodeSuspect": false,
   "district": "341002",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "安徽省黄山市屯溪区徽商故里",
+        "new": "安徽省黄山市屯溪区延安路3号 黄山华山宾馆（徽商故里餐厅）"
+      },
+      {
+        "field": "point",
+        "old": {
+          "lng": 118.321328,
+          "lat": 29.719248,
+          "coordSystem": "GCJ-02"
+        },
+        "new": [
+          29.709434,
+          118.302324
+        ]
+      }
+    ],
+    "source": "http://huashan.hotelhuangshan.cn/cn",
+    "reason": "华山宾馆官网：餐饮以徽商故里品牌为特色，延安路3号老街北入口"
+  }
 }

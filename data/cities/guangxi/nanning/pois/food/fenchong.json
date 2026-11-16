@@ -1,68 +1,107 @@
 {
-  "id": "fenchong",
-  "name": "南宁粉虫",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "南宁的米制小吃，短粗似虫，拌料炒或煮汤。",
-  "description": "粉虫是南宁特有的米制小吃，用米浆搓成短粗、两头尖的小条，形似虫而得名，口感柔韧弹牙。做法分炒和煮汤两种，炒粉虫配豆芽、胡萝卜和肉末，干香入味；煮汤则清爽。它是南宁人从小吃到大的家常味道，街边和小店都能见到。人均低，是市井小吃里很有辨识度的一款。",
-  "highlights": [
-    "南宁特有米制小吃，形似虫",
-    "炒或煮汤两种做法",
-    "柔韧弹牙，家常味道"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.366407,
-      "lat": 22.8177,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市各城区的粉店与夜市",
-    "district": "青秀区",
-    "transportTip": "市区乘公交或打车至就近粉店"
+ "id": "fenchong",
+ "name": "南宁粉虫",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "南宁的米制小吃，短粗似虫，拌料炒或煮汤。",
+ "description": "粉虫是南宁特有的米制小吃，用米浆搓成短粗、两头尖的小条，形似虫而得名，口感柔韧弹牙。做法分炒和煮汤两种，炒粉虫配豆芽、胡萝卜和肉末，干香入味；煮汤则清爽。它是南宁人从小吃到大的家常味道，街边和小店都能见到。人均低，是市井小吃里很有辨识度的一款。",
+ "highlights": [
+  "南宁特有米制小吃，形似虫",
+  "炒或煮汤两种做法",
+  "柔韧弹牙，家常味道"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.366407,
+   "lat": 22.8177,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:00-21:00（以门店为准）",
-    "openHoursRef": 0,
-    "ticket": "人均约15元，以门店为准",
-    "ticketRef": 0,
-    "duration": "建议 20-45 分钟",
-    "durationMinutes": [
-      20,
-      45
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "solo",
-    "friends",
-    "elders"
+  "address": "南宁市各城区的粉店与夜市",
+  "district": "青秀区",
+  "transportTip": "市区乘公交或打车至就近粉店"
+ },
+ "practical": {
+  "openHours": "约10:00-21:00（以门店为准）",
+  "openHoursRef": 0,
+  "ticket": "人均约15元，以门店为准",
+  "ticketRef": 0,
+  "duration": "建议 20-45 分钟",
+  "durationMinutes": [
+   20,
+   45
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "粉虫",
-    "米制",
-    "小吃"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "solo",
+  "friends",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "粉虫",
+  "米制",
+  "小吃"
+ ],
+ "popularity": 70,
+ "sources": [
+  {
+   "title": "百度百科·粉虫",
+   "url": "https://baike.baidu.com/item/%E7%B2%89%E8%99%AB",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "南宁粉虫"
+ },
+ "_geocodeTitle": "南宁市",
+ "_geocodeSuspect": false,
+ "district": "450103",
+ "_noImage": true,
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 3.9,
+    "note": "米浆搓成短条，柔韧弹牙，炒的比汤的更香"
+   },
+   {
+    "label": "独特",
+    "score": 4.4,
+    "note": "南宁才有的形态，外地几乎见不到"
+   },
+   {
+    "label": "价格",
+    "score": 4.4,
+    "note": "街边价，随便吃"
+   },
+   {
+    "label": "环境",
+    "score": 4.0,
+    "note": "多看小店和摊点，谈不上环境"
+   }
   ],
-  "popularity": 70,
-  "sources": [
-    {
-      "title": "百度百科·粉虫",
-      "url": "https://baike.baidu.com/item/%E7%B2%89%E8%99%AB",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "粉虫不是虫，是米浆搓出来两头尖的短条，炒了配豆芽肉末最香，口感比普通米粉更弹。它是南宁人从小吃到大的家常味，专门找来吃有点勉强，但当早餐或夜宵很合适。可惜的是单吃偏素、味道清淡，口味重的会觉得寡淡；小店的卫生和环境就别指望了，坐门口吃完就走。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "尝本地小吃",
+   "早餐",
+   "预算紧"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "南宁粉虫"
-  },
-  "_geocodeTitle": "南宁市",
-  "_geocodeSuspect": false,
-  "district": "450103",
-  "_noImage": true
+  "avoid": [
+   "口味重",
+   "要环境"
+  ],
+  "sources": []
+ }
 }

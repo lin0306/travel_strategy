@@ -1,132 +1,171 @@
 {
-  "id": "qixing-lake",
-  "name": "七星湖",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "塞罕坝里一处湿地湖泊群，七个泡子连成一片，早晚有水鸟和倒影。",
-  "description": "七星湖在塞罕坝里，是一片湿地 —— 七个小湖连在一起，所以叫七星湖。水浅，草多，木栈道从水面上过。早晚有水鸟，湖面静时能照出树和天。它在塞罕坝景区里，买了门票就能看。夏末和秋天最好，草黄配水。凉，多穿。",
-  "highlights": [
-    "塞罕坝内湿地，七个小湖连成片",
-    "木栈道过水面，早晚有水鸟",
-    "夏末秋初最好，含景区门票"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.093172,
-      "lat": 42.429981,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市围场满族蒙古族自治县塞罕坝七星湖",
-    "district": "围场满族蒙古族自治县",
-    "transportTip": "塞罕坝景区内步行或自驾到",
-    "entrance": {
-      "lng": 117.243536,
-      "lat": 42.432244,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "qixing-lake",
+ "name": "七星湖",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "塞罕坝里一处湿地湖泊群，七个泡子连成一片，早晚有水鸟和倒影。",
+ "description": "七星湖在塞罕坝里，是一片湿地 —— 七个小湖连在一起，所以叫七星湖。水浅，草多，木栈道从水面上过。早晚有水鸟，湖面静时能照出树和天。它在塞罕坝景区里，买了门票就能看。夏末和秋天最好，草黄配水。凉，多穿。",
+ "highlights": [
+  "塞罕坝内湿地，七个小湖连成片",
+  "木栈道过水面，早晚有水鸟",
+  "夏末秋初最好，含景区门票"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.093172,
+   "lat": 42.429981,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约07:30-17:30，冬季封闭",
-    "openHoursRef": 0,
-    "ticket": "含塞罕坝门票",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
+  "address": "河北省承德市围场满族蒙古族自治县塞罕坝七星湖",
+  "district": "围场满族蒙古族自治县",
+  "transportTip": "塞罕坝景区内步行或自驾到",
+  "entrance": {
+   "lng": 117.243536,
+   "lat": 42.432244,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约07:30-17:30，冬季封闭",
+  "openHoursRef": 0,
+  "ticket": "含塞罕坝门票",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "family",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Menghuan_Lake-01.2023-08-19.jpg/1280px-Menghuan_Lake-01.2023-08-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Menghuan_Lake-01.2023-08-19.jpg/1280px-Menghuan_Lake-01.2023-08-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Menghuan Lake-01.2023-08-19.jpg",
+   "query": "七星湖",
+   "credit": {
+    "source": "wikimedia",
+    "author": "阿道",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Menghuan_Lake-01.2023-08-19.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "family",
-    "couple"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Menghuan_Lake-01.2023-08-19.jpg/1280px-Menghuan_Lake-01.2023-08-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Menghuan_Lake-01.2023-08-19.jpg/1280px-Menghuan_Lake-01.2023-08-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Menghuan Lake-01.2023-08-19.jpg",
-      "query": "七星湖",
-      "credit": {
-        "source": "wikimedia",
-        "author": "阿道",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Menghuan_Lake-01.2023-08-19.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Menghuan_Lake-02.2023-08-19.jpg/1280px-Menghuan_Lake-02.2023-08-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Menghuan_Lake-02.2023-08-19.jpg/1280px-Menghuan_Lake-02.2023-08-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Menghuan Lake-02.2023-08-19.jpg",
-      "query": "七星湖",
-      "credit": {
-        "source": "wikimedia",
-        "author": "阿道",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Menghuan_Lake-02.2023-08-19.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Menghuan_Lake-03.2023-08-19.jpg/1280px-Menghuan_Lake-03.2023-08-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Menghuan_Lake-03.2023-08-19.jpg/1280px-Menghuan_Lake-03.2023-08-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Menghuan Lake-03.2023-08-19.jpg",
-      "query": "七星湖",
-      "credit": {
-        "source": "wikimedia",
-        "author": "阿道",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Menghuan_Lake-03.2023-08-19.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Menghuan_Lake-04.2023-08-19.jpg/1280px-Menghuan_Lake-04.2023-08-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Menghuan_Lake-04.2023-08-19.jpg/1280px-Menghuan_Lake-04.2023-08-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Menghuan Lake-04.2023-08-19.jpg",
-      "query": "七星湖",
-      "credit": {
-        "source": "wikimedia",
-        "author": "阿道",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Menghuan_Lake-04.2023-08-19.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "湿地",
-    "湖泊",
-    "塞罕坝"
-  ],
-  "popularity": 58,
-  "sources": [
-    {
-      "title": "百度百科·塞罕坝",
-      "url": "https://baike.baidu.com/item/%E5%A1%9E%E7%BD%95%E5%9D%9D",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "七星湖"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Menghuan_Lake-02.2023-08-19.jpg/1280px-Menghuan_Lake-02.2023-08-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Menghuan_Lake-02.2023-08-19.jpg/1280px-Menghuan_Lake-02.2023-08-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Menghuan Lake-02.2023-08-19.jpg",
+   "query": "七星湖",
+   "credit": {
+    "source": "wikimedia",
+    "author": "阿道",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Menghuan_Lake-02.2023-08-19.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "七星湖公园",
-  "_geocodeSuspect": false,
-  "district": "130828"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Menghuan_Lake-03.2023-08-19.jpg/1280px-Menghuan_Lake-03.2023-08-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Menghuan_Lake-03.2023-08-19.jpg/1280px-Menghuan_Lake-03.2023-08-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Menghuan Lake-03.2023-08-19.jpg",
+   "query": "七星湖",
+   "credit": {
+    "source": "wikimedia",
+    "author": "阿道",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Menghuan_Lake-03.2023-08-19.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Menghuan_Lake-04.2023-08-19.jpg/1280px-Menghuan_Lake-04.2023-08-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Menghuan_Lake-04.2023-08-19.jpg/1280px-Menghuan_Lake-04.2023-08-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Menghuan Lake-04.2023-08-19.jpg",
+   "query": "七星湖",
+   "credit": {
+    "source": "wikimedia",
+    "author": "阿道",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Menghuan_Lake-04.2023-08-19.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "湿地",
+  "湖泊",
+  "塞罕坝"
+ ],
+ "popularity": 58,
+ "sources": [
+  {
+   "title": "百度百科·塞罕坝",
+   "url": "https://baike.baidu.com/item/%E5%A1%9E%E7%BD%95%E5%9D%9D",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "七星湖"
+ },
+ "_geocodeTitle": "七星湖公园",
+ "_geocodeSuspect": false,
+ "district": "130828",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "风景",
+    "score": 4.4,
+    "note": "七个泡子连成湿地，倒影干净"
+   },
+   {
+    "label": "步道",
+    "score": 4.0,
+    "note": "木栈道从水面上过，走起来不累"
+   },
+   {
+    "label": "人流",
+    "score": 3.3,
+    "note": "旺季栈道上人挨人，拍照要等"
+   },
+   {
+    "label": "季节",
+    "score": 3.5,
+    "note": "夏末秋初最好，水浅时景观打折"
+   }
+  ],
+  "body": "七星湖是塞罕坝里的一片湿地，七个小湖连在一起，木栈道贴着水走，早晚安静的时候能把树和天照进水里，是坝上少有的\"静\"景。含在塞罕坝门票里，走一圈一个多小时，节奏轻松，适合放在赶路的半途中。缺点是旺季栈道上人挤人，想拍一张干净的倒影得等；水位低的年份湖面缩水，观感明显打折；湿地蚊虫多，短袖进去会被咬得够呛。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "摄影",
+   "避暑",
+   "慢走"
+  ],
+  "avoid": [
+   "怕蚊虫",
+   "枯水期专程来"
+  ],
+  "sources": []
+ }
 }

@@ -1,182 +1,220 @@
 {
-  "id": "bell-drum-towers",
-  "name": "西安钟楼·鼓楼",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "城市正中轴上的两座明代楼阁，钟楼是中国现存规模最大的一座。",
-  "description": "钟楼与鼓楼一东一西立在西安城的中轴线上，钟楼建于明洪武十七年，是中国现存规模最大、保存最完整的钟楼，基座是十字券洞的砖台，楼身三层檐、四角攒尖，顶上覆着绿琉璃瓦。鼓楼稍晚，也是重檐三滴水式样，楼上原用于击鼓报时。两楼之间现在是广场与商业街，夜里灯打上去非常上镜。登楼可以俯瞰四条大街的棋盘格局。",
-  "highlights": [
-    "钟楼是国内现存规模最大的一座",
-    "两楼同处中轴线，可俯瞰棋盘路网",
-    "夜间灯光很出片"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.946541,
-      "lat": 34.262164,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "西安市碑林区钟楼盘道 / 鼓楼广场",
-    "district": "莲湖区",
-    "transportTip": "地铁 2 号线钟楼站出站即到"
+ "id": "bell-drum-towers",
+ "name": "西安钟楼·鼓楼",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "城市正中轴上的两座明代楼阁，钟楼是中国现存规模最大的一座。",
+ "description": "钟楼与鼓楼一东一西立在西安城的中轴线上，钟楼建于明洪武十七年，是中国现存规模最大、保存最完整的钟楼，基座是十字券洞的砖台，楼身三层檐、四角攒尖，顶上覆着绿琉璃瓦。鼓楼稍晚，也是重檐三滴水式样，楼上原用于击鼓报时。两楼之间现在是广场与商业街，夜里灯打上去非常上镜。登楼可以俯瞰四条大街的棋盘格局。",
+ "highlights": [
+  "钟楼是国内现存规模最大的一座",
+  "两楼同处中轴线，可俯瞰棋盘路网",
+  "夜间灯光很出片"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.946541,
+   "lat": 34.262164,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 08:30-21:00（以官方公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约 50 元起（钟楼鼓楼联票，以官方为准）",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "mid"
+  "address": "西安市碑林区钟楼盘道 / 鼓楼广场",
+  "district": "莲湖区",
+  "transportTip": "地铁 2 号线钟楼站出站即到"
+ },
+ "practical": {
+  "openHours": "约 08:30-21:00（以官方公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约 50 元起（钟楼鼓楼联票，以官方为准）",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "kids"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Xi%27an_Bell_Tower_%E8%A5%BF%E5%AE%89%E9%92%9F%E6%A5%BC%E5%A4%9C%E6%99%AF.jpg/1280px-Xi%27an_Bell_Tower_%E8%A5%BF%E5%AE%89%E9%92%9F%E6%A5%BC%E5%A4%9C%E6%99%AF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Xi%27an_Bell_Tower_%E8%A5%BF%E5%AE%89%E9%92%9F%E6%A5%BC%E5%A4%9C%E6%99%AF.jpg/1280px-Xi%27an_Bell_Tower_%E8%A5%BF%E5%AE%89%E9%92%9F%E6%A5%BC%E5%A4%9C%E6%99%AF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Xi'an Bell Tower 西安钟楼夜景.jpg",
+   "query": "西安钟楼·鼓楼 西安",
+   "credit": {
+    "source": "wikimedia",
+    "author": "归零者",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xi%27an_Bell_Tower_%E8%A5%BF%E5%AE%89%E9%92%9F%E6%A5%BC%E5%A4%9C%E6%99%AF.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "kids"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Xi%27an_Bell_Tower_%E8%A5%BF%E5%AE%89%E9%92%9F%E6%A5%BC%E5%A4%9C%E6%99%AF.jpg/1280px-Xi%27an_Bell_Tower_%E8%A5%BF%E5%AE%89%E9%92%9F%E6%A5%BC%E5%A4%9C%E6%99%AF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Xi%27an_Bell_Tower_%E8%A5%BF%E5%AE%89%E9%92%9F%E6%A5%BC%E5%A4%9C%E6%99%AF.jpg/1280px-Xi%27an_Bell_Tower_%E8%A5%BF%E5%AE%89%E9%92%9F%E6%A5%BC%E5%A4%9C%E6%99%AF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Xi'an Bell Tower 西安钟楼夜景.jpg",
-      "query": "西安钟楼·鼓楼 西安",
-      "credit": {
-        "source": "wikimedia",
-        "author": "归零者",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xi%27an_Bell_Tower_%E8%A5%BF%E5%AE%89%E9%92%9F%E6%A5%BC%E5%A4%9C%E6%99%AF.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/%E9%99%95%E8%A5%BF%E8%A5%BF%E5%AE%89%E9%92%9F%E6%A5%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/%E9%99%95%E8%A5%BF%E8%A5%BF%E5%AE%89%E9%92%9F%E6%A5%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 517,
-      "alt": "陕西西安钟楼.jpg",
-      "query": "西安钟楼·鼓楼 西安",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Smwy09",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%99%95%E8%A5%BF%E8%A5%BF%E5%AE%89%E9%92%9F%E6%A5%BC.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Bell_Tower_and_Drum_Tower%2C_Xi%27an%2C_China_-_panoramio.jpg/1280px-Bell_Tower_and_Drum_Tower%2C_Xi%27an%2C_China_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Bell_Tower_and_Drum_Tower%2C_Xi%27an%2C_China_-_panoramio.jpg/1280px-Bell_Tower_and_Drum_Tower%2C_Xi%27an%2C_China_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Bell Tower and Drum Tower, Xi'an, China - panoramio.jpg",
-      "query": "西安钟楼·鼓楼",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Aaron Zhu",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/2023-10-07_Hsi-an_Bell_Tower_%E8%A5%BF%E5%AE%89%E9%90%98%E6%A8%93_02.jpg/1280px-2023-10-07_Hsi-an_Bell_Tower_%E8%A5%BF%E5%AE%89%E9%90%98%E6%A8%93_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/2023-10-07_Hsi-an_Bell_Tower_%E8%A5%BF%E5%AE%89%E9%90%98%E6%A8%93_02.jpg/1280px-2023-10-07_Hsi-an_Bell_Tower_%E8%A5%BF%E5%AE%89%E9%90%98%E6%A8%93_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "2023-10-07 Hsi-an Bell Tower 西安鐘樓 02.jpg",
-      "query": "西安钟楼·鼓楼",
-      "credit": {
-        "source": "wikimedia",
-        "author": "源義信",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Drum_Tower_at_Night_%286149696149%29.jpg/1280px-Drum_Tower_at_Night_%286149696149%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Drum_Tower_at_Night_%286149696149%29.jpg/1280px-Drum_Tower_at_Night_%286149696149%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Drum Tower at Night (6149696149).jpg",
-      "query": "西安钟楼·鼓楼",
-      "credit": {
-        "source": "wikimedia",
-        "author": "kevinmcgill from Den Bosch, Netherlands",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Drum_Tower_%E9%BC%93%E6%A5%BC_%286142934899%29.jpg/1280px-Drum_Tower_%E9%BC%93%E6%A5%BC_%286142934899%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Drum_Tower_%E9%BC%93%E6%A5%BC_%286142934899%29.jpg/1280px-Drum_Tower_%E9%BC%93%E6%A5%BC_%286142934899%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Drum Tower 鼓楼 (6142934899).jpg",
-      "query": "西安钟楼·鼓楼",
-      "credit": {
-        "source": "wikimedia",
-        "author": "kevinmcgill from Den Bosch, Netherlands",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "明代",
-    "地标",
-    "楼阁",
-    "中轴线"
-  ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·西安钟楼",
-      "url": "https://baike.baidu.com/item/%E8%A5%BF%E5%AE%89%E9%92%9F%E6%A5%BC",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-11-05",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "西安钟楼·鼓楼"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/%E9%99%95%E8%A5%BF%E8%A5%BF%E5%AE%89%E9%92%9F%E6%A5%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/%E9%99%95%E8%A5%BF%E8%A5%BF%E5%AE%89%E9%92%9F%E6%A5%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 517,
+   "alt": "陕西西安钟楼.jpg",
+   "query": "西安钟楼·鼓楼 西安",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Smwy09",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%99%95%E8%A5%BF%E8%A5%BF%E5%AE%89%E9%92%9F%E6%A5%BC.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "西安钟楼鼓楼公寓",
-  "_geocodeSuspect": false,
-  "district": "610104"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Bell_Tower_and_Drum_Tower%2C_Xi%27an%2C_China_-_panoramio.jpg/1280px-Bell_Tower_and_Drum_Tower%2C_Xi%27an%2C_China_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Bell_Tower_and_Drum_Tower%2C_Xi%27an%2C_China_-_panoramio.jpg/1280px-Bell_Tower_and_Drum_Tower%2C_Xi%27an%2C_China_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Bell Tower and Drum Tower, Xi'an, China - panoramio.jpg",
+   "query": "西安钟楼·鼓楼",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Aaron Zhu",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/2023-10-07_Hsi-an_Bell_Tower_%E8%A5%BF%E5%AE%89%E9%90%98%E6%A8%93_02.jpg/1280px-2023-10-07_Hsi-an_Bell_Tower_%E8%A5%BF%E5%AE%89%E9%90%98%E6%A8%93_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/2023-10-07_Hsi-an_Bell_Tower_%E8%A5%BF%E5%AE%89%E9%90%98%E6%A8%93_02.jpg/1280px-2023-10-07_Hsi-an_Bell_Tower_%E8%A5%BF%E5%AE%89%E9%90%98%E6%A8%93_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "2023-10-07 Hsi-an Bell Tower 西安鐘樓 02.jpg",
+   "query": "西安钟楼·鼓楼",
+   "credit": {
+    "source": "wikimedia",
+    "author": "源義信",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Drum_Tower_at_Night_%286149696149%29.jpg/1280px-Drum_Tower_at_Night_%286149696149%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Drum_Tower_at_Night_%286149696149%29.jpg/1280px-Drum_Tower_at_Night_%286149696149%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Drum Tower at Night (6149696149).jpg",
+   "query": "西安钟楼·鼓楼",
+   "credit": {
+    "source": "wikimedia",
+    "author": "kevinmcgill from Den Bosch, Netherlands",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Drum_Tower_%E9%BC%93%E6%A5%BC_%286142934899%29.jpg/1280px-Drum_Tower_%E9%BC%93%E6%A5%BC_%286142934899%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Drum_Tower_%E9%BC%93%E6%A5%BC_%286142934899%29.jpg/1280px-Drum_Tower_%E9%BC%93%E6%A5%BC_%286142934899%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Drum Tower 鼓楼 (6142934899).jpg",
+   "query": "西安钟楼·鼓楼",
+   "credit": {
+    "source": "wikimedia",
+    "author": "kevinmcgill from Den Bosch, Netherlands",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "明代",
+  "地标",
+  "楼阁",
+  "中轴线"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·西安钟楼",
+   "url": "https://baike.baidu.com/item/%E8%A5%BF%E5%AE%89%E9%92%9F%E6%A5%BC",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "西安钟楼·鼓楼"
+ },
+ "_geocodeTitle": "西安钟楼鼓楼公寓",
+ "_geocodeSuspect": false,
+ "district": "610104",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "建筑",
+    "score": 4.6,
+    "note": "钟楼是国内现存规模最大的一座"
+   },
+   {
+    "label": "夜景",
+    "score": 4.5,
+    "note": "夜里打灯，两楼对望很上镜"
+   },
+   {
+    "label": "性价比",
+    "score": 3.4,
+    "note": "联票价格偏高，楼内可看的不多"
+   },
+   {
+    "label": "人流",
+    "score": 3.0,
+    "note": "广场常年人密，等空档要耐心"
+   }
+  ],
+  "body": "两座明代楼阁一东一西立在中轴线上，钟楼是国内现存规模最大、保存最完整的一座，鼓楼稍晚，都是重檐做法，登楼能俯瞰四条大街的棋盘格局。夜里灯一打，两楼对望非常上镜。缺点是联票价格偏高、楼内可看的东西不多，多数人上去就为拍一张；广场人流常年密，取景要等空档。只想拍照，在广场看外观也够。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "夜景",
+   "建筑"
+  ],
+  "avoid": [
+   "预算紧",
+   "怕人多"
+  ],
+  "sources": []
+ }
 }

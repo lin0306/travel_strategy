@@ -1,6 +1,6 @@
 # 绍兴 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-04
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-14
 
 ## 概览
 
@@ -31,17 +31,20 @@
 | 兰亭国家森林公园 | [百度百科·兰亭](https://baike.baidu.com/item/%E5%85%B0%E4%BA%AD) | wiki | 2026-10-04 |
 | 兰亭 | [百度百科·兰亭](https://baike.baidu.com/item/%E5%85%B0%E4%BA%AD) | wiki | 2026-10-04 |
 | 鲁迅故里 | [百度百科·鲁迅故里](https://baike.baidu.com/item/%E9%B2%81%E8%BF%85%E6%95%85%E9%87%8C) | wiki | 2026-10-04 |
+| 鲁迅故里 | [新京报 · 文创店里找故居（2026-06-16）](https://www.toutiao.com/article/7651690331565474319/) | media | 2026-11-12 |
+| 鲁迅故里 | [绍兴鲁迅纪念馆2026-11-07公告：故居部分区域维护暂停开放](https://news.qq.com/rain/a/20261107A06B3H00) | media | 2026-11-12 |
 | 青藤书屋 | [百度百科·青藤书屋](https://baike.baidu.com/item/%E9%9D%92%E8%97%A4%E4%B9%A6%E5%B1%8B) | wiki | 2026-10-04 |
 | 秋瑾故居 | [百度百科·秋瑾故居](https://baike.baidu.com/item/%E7%A7%8B%E7%91%BE%E6%95%85%E5%B1%85) | wiki | 2026-10-04 |
 | 上虞博物馆 | [上虞博物馆新馆 · 百度百科](https://baike.baidu.com/item/%E4%B8%8A%E8%99%9E%E5%8D%9A%E7%89%A9%E9%A6%86%E6%96%B0%E9%A6%86/64147135) | wiki | 2026-10-24 |
 | 绍兴博物馆 | [百度百科·绍兴博物馆](https://baike.baidu.com/item/%E7%BB%8D%E5%85%B4%E5%8D%9A%E7%89%A9%E9%A6%86) | wiki | 2026-10-04 |
+| 绍兴博物馆 | [中国日报网浙江频道 · 绍兴双馆齐开（2026-02-10）](https://zj.chinadaily.com.cn/a/202602/10/WS698aa753a310942cc499f04d.html) | media | 2026-11-12 |
 | 沈园 | [百度百科·沈园](https://baike.baidu.com/item/%E6%B2%88%E5%9B%AD) | wiki | 2026-10-04 |
 | 书圣故里 | [百度百科·书圣故里](https://baike.baidu.com/item/%E4%B9%A6%E5%9C%A3%E6%95%85%E9%87%8C) | wiki | 2026-10-04 |
 | 天烛仙境风景区 | [天燭湖仙境景區 · Trip.com 旅客实拍](https://hk.trip.com/moments/poi-tianzhu-lake-wonderland-scenic-area-86225/) | travel-platform | 2026-10-24 |
 | 世界淡水珍珠博物馆 | [世界淡水珍珠博物馆 · 百度百科](https://baike.baidu.com/item/%E4%B8%96%E7%95%8C%E6%B7%A1%E6%B0%B4%E7%8F%8D%E7%8F%A0%E5%8D%9A%E7%89%A9%E9%A6%86/58008224) | wiki | 2026-10-24 |
 | 五泄风景区 | [百度百科·五泄风景区](https://baike.baidu.com/item/%E4%BA%94%E6%B3%84) | wiki | 2026-10-04 |
 | 新昌大佛寺 | [新昌大佛寺 · 携程景点攻略](https://gs.ctrip.com/html5/you/sight/933/5706115.html) | travel-platform | 2026-10-24 |
-| 新昌博物馆 | [新昌县公共文化场馆免费开放信息 · 新昌县人民政府](https://www.zjxc.gov.cn/col/col1229796776/art/2026/art_da07939943d24390a920e82f1986fed5.html) | gov | 2026-10-24 |
+| 新昌博物馆 | [新昌县公共文化场馆免费开放信息（2026-07-02）](https://www.zjxc.gov.cn/col/col1229796776/art/2026/art_da07939943d24390a920e82f1986fed5.html) | gov | 2026-10-24 |
 | 西施故里 | [百度百科·西施故里](https://baike.baidu.com/item/%E8%A5%BF%E6%96%BD%E6%95%85%E9%87%8C) | wiki | 2026-10-04 |
 | 印山越国王陵 | [百度百科·印山越国王陵](https://baike.baidu.com/item/%E5%8D%B0%E5%B1%B1%E8%B6%8A%E5%9B%BD%E7%8E%8B%E9%99%B5) | wiki | 2026-10-04 |
 | 浙东运河博物馆 | [浙东运河文化园 · 百度百科](https://baike.baidu.com/item/%E6%B5%99%E4%B8%9C%E8%BF%90%E6%B2%B3%E6%96%87%E5%8C%96%E5%9B%AD/68561481) | wiki | 2026-10-24 |
@@ -49,10 +52,12 @@
 | 诸暨博物馆 | [诸暨市博物馆 · 百度百科](https://baike.baidu.com/item/%E8%AF%B8%E6%9A%A8%E5%8D%9A%E7%89%A9%E9%A6%86/1581024) | wiki | 2026-10-24 |
 | 次坞打面(诸暨) | [百度百科·次坞打面](https://baike.baidu.com/item/%E6%AC%A1%E5%9D%9E%E6%89%93%E9%9D%A2) | wiki | 2026-10-04 |
 | 枫桥香榧 | [百度百科·香榧](https://baike.baidu.com/item/%E9%A6%99%E6%A6%A7) | wiki | 2026-10-04 |
+| 枫桥香榧 | [都市快报 · 诸暨香榧小年减产涨价（2026-11-04）](https://www.163.com/dy/article/LATLIE00051492LM.html) | media | 2026-11-12 |
 | 茴香豆 | [百度百科·茴香豆](https://baike.baidu.com/item/%E8%8C%B4%E9%A6%99%E8%B1%86) | wiki | 2026-10-04 |
 | 绍兴酱货(酱鸭·酱肉) | [百度百科·绍兴酱货](https://baike.baidu.com/item/%E9%85%B1%E8%B4%A7) | wiki | 2026-10-04 |
 | 霉干菜扣肉 | [百度百科·霉干菜](https://baike.baidu.com/item/%E9%9C%89%E5%B9%B2%E8%8F%9C) | wiki | 2026-10-04 |
 | 奶油小攀 | [百度百科·奶油小攀](https://baike.baidu.com/item/%E5%A5%B6%E6%B2%B9%E5%B0%8F%E6%94%80) | wiki | 2026-10-04 |
+| 奶油小攀 | [浙江文旅资讯2026-01推荐：高老太奶油小攀新建南路608号](https://news.qq.com/rain/a/20260102A01T1A00) | media | 2026-11-12 |
 | 绍三鲜 | [百度百科·绍三鲜](https://baike.baidu.com/item/%E7%BB%8D%E4%B8%89%E9%B2%9C) | wiki | 2026-10-04 |
 | 绍兴臭豆腐 | [百度百科·绍兴臭豆腐](https://baike.baidu.com/item/%E8%87%AD%E8%B1%86%E8%85%90) | wiki | 2026-10-04 |
 | 绍兴黄酒(花雕) | [百度百科·绍兴黄酒](https://baike.baidu.com/item/%E7%BB%8D%E5%85%B4%E9%BB%84%E9%85%92) | wiki | 2026-10-04 |
@@ -65,6 +70,7 @@
 | 安昌古镇廊棚 | [百度百科·安昌古镇](https://baike.baidu.com/item/%E5%AE%89%E6%98%8C%E5%8F%A4%E9%95%87) | wiki | 2026-10-04 |
 | 仓桥直街夜景 | [百度百科·仓桥直街](https://baike.baidu.com/item/%E4%BB%93%E6%A1%A5%E7%9B%B4%E8%A1%97) | wiki | 2026-10-04 |
 | 迪荡湖公园 | [百度百科·迪荡湖](https://baike.baidu.com/item/%E8%BF%AA%E8%8D%A1%E6%B9%96) | wiki | 2026-10-04 |
+| 迪荡湖公园 | [越城区文广旅游局2025年工作总结：迪荡湖2025年创成3A景区](http://epaper.shaoxing.com.cn/sxrb/pc/content/202601/23/content_629040.html) | media | 2026-11-12 |
 | 黄酒小镇(东浦) | [百度百科·东浦](https://baike.baidu.com/item/%E4%B8%9C%E6%B5%A6) | wiki | 2026-10-04 |
 | 绍兴镜湖湿地 | [百度百科·镜湖](https://baike.baidu.com/item/%E9%95%9C%E6%B9%96) | wiki | 2026-10-04 |
 | 鲁镇(柯岩景区内) | [百度百科·鲁镇](https://baike.baidu.com/item/%E9%B2%81%E9%95%87) | wiki | 2026-10-04 |
@@ -73,21 +79,25 @@
 | 书圣故里文创街 | [百度百科·书圣故里](https://baike.baidu.com/item/%E4%B9%A6%E5%9C%A3%E6%95%85%E9%87%8C) | wiki | 2026-10-04 |
 | 迎恩门水街 | [百度百科·迎恩门](https://baike.baidu.com/item/%E8%BF%8E%E6%81%A9%E9%97%A8) | wiki | 2026-10-04 |
 | 绍兴黄酒酿造技艺 | [百度百科·绍兴黄酒](https://baike.baidu.com/item/%E7%BB%8D%E5%85%B4%E9%BB%84%E9%85%92) | wiki | 2026-10-04 |
+| 绍兴黄酒酿造技艺 | [浙江省侨联 · 侨见越韵文旅十景（2026-08-27）](http://www.zjsql.com.cn/class/ZhenDiFengCai/190146_20260827084234.html) | media | 2026-11-12 |
 | 柯桥历史文化街区 | [万物皆「古」，绍兴古镇「古」在哪 · 绍兴市文化广电旅游局](https://sxwg.sx.gov.cn/col/col1229534423/art/2025/art_f52685fa756a426a979db72af0755154.html) | gov | 2026-10-24 |
+| 柯桥历史文化街区 | [浙江省侨联 · 侨见越韵文旅十景（2026-08-27）](http://www.zjsql.com.cn/class/ZhenDiFengCai/190146_20260827084234.html) | media | 2026-11-12 |
 | 里江北历史文化街区 | [裏江北歷史文化街區 · Trip.com 旅客实拍](https://tw.trip.com/moments/poi-lijiang-north-historical-and-cultural-district-136246313/) | travel-platform | 2026-10-24 |
+| 里江北历史文化街区 | [新昌县公共文化场馆免费开放信息（2026-07-02）](https://www.zjxc.gov.cn/col/col1229796776/art/2026/art_da07939943d24390a920e82f1986fed5.html) | media | 2026-11-12 |
 | 鲁迅与绍兴文学 | [百度百科·鲁迅](https://baike.baidu.com/item/%E9%B2%81%E8%BF%85) | wiki | 2026-10-04 |
 | 绍兴平湖调·莲花落 | [百度百科·绍兴平湖调](https://baike.baidu.com/item/%E7%BB%8D%E5%85%B4%E5%B9%B3%E6%B9%96%E8%B0%83) | wiki | 2026-10-04 |
 | 兰亭书法文化 | [百度百科·兰亭集序](https://baike.baidu.com/item/%E5%85%B0%E4%BA%AD%E9%9B%86%E5%BA%8F) | wiki | 2026-10-04 |
+| 兰亭书法文化 | [浙江省侨联 · 侨见越韵文旅十景（2026-08-27）](http://www.zjsql.com.cn/class/ZhenDiFengCai/190146_20260827084234.html) | media | 2026-11-12 |
+| 兰亭书法文化 | [绍兴市文化广电旅游局 · 兰亭/书圣故里打卡指南（2026）](https://sxwg.sx.gov.cn/col/col1647997/art/2026/art_1e85bf9ad6a84b729c448302b0cedf3c.html) | media | 2026-11-12 |
 | 乌篷船与水乡生活 | [百度百科·绍兴](https://baike.baidu.com/item/%E7%BB%8D%E5%85%B4) | wiki | 2026-10-04 |
+| 乌篷船与水乡生活 | [绍兴文旅发布 · 五一惠民活动合集](https://mp.weixin.qq.com/s?__biz=MzcwNzI0NjcwMg==&mid=2248034864&idx=1&sn=24d240de926bcb348090caa73219277e) | media | 2026-11-12 |
 | 越剧 | [百度百科·越剧](https://baike.baidu.com/item/%E8%B6%8A%E5%89%A7) | wiki | 2026-10-04 |
 
 ## 图片版权
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | 一只猫的橘 | Unsplash License | [unsplash](https://unsplash.com/photos/a-couple-of-boats-that-are-sitting-in-the-water-JSIEd7zfXcE) |
-| 城市封面 | Nicholas Fu | Pexels License | [pexels](https://www.pexels.com/photo/city-at-sunset-17625286/) |
-| 城市封面 | Jaqor Q.I. | Pexels License | [pexels](https://www.pexels.com/photo/skyline-of-nanning-on-a-cloudy-day-38225961/) |
+| 城市封面 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baozhu_Bridge_in_Shaoxing_02_2012-07.jpg) |
 | 安昌古镇 | liubozhi | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%89%E6%98%8C%E5%8F%A4%E9%95%87_-_panoramio.jpg) |
 | 安昌古镇 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 安昌古镇 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
@@ -174,6 +184,3 @@
 | 绍兴平湖调·莲花落 | 陈文 https://www.flickr.com/people/univers-finder/ | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Complete_Tales_of_Yue_Shaoxing_opera_1.jpg) |
 | 绍兴平湖调·莲花落 | 陈文 https://www.flickr.com/people/univers-finder/ | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Complete_Tales_of_Yue_Shaoxing_opera_3.jpg) |
 | 绍兴平湖调·莲花落 | 陈文 https://www.flickr.com/people/univers-finder/ | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Complete_Tales_of_Yue_Shaoxing_opera_orchestra.jpg) |
-| 越剧 | 陈文 https://www.flickr.com/people/univers-finder/ | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Complete_Tales_of_Yue_Shaoxing_opera_1.jpg) |
-| 越剧 | 陈文 https://www.flickr.com/people/univers-finder/ | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Complete_Tales_of_Yue_Shaoxing_opera_3.jpg) |
-| 越剧 | 陈文 https://www.flickr.com/people/univers-finder/ | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Complete_Tales_of_Yue_Shaoxing_opera_orchestra.jpg) |

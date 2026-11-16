@@ -40,21 +40,6 @@
   "tips": [],
   "images": [
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Panorama_of_Inner_Stream_of_Dujiangyan_Irrigation_System.jpg/1280px-Panorama_of_Inner_Stream_of_Dujiangyan_Irrigation_System.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Panorama_of_Inner_Stream_of_Dujiangyan_Irrigation_System.jpg/1280px-Panorama_of_Inner_Stream_of_Dujiangyan_Irrigation_System.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 219,
-      "alt": "Panorama of Inner Stream of Dujiangyan Irrigation System.jpg",
-      "query": "伏龙观 都江堰",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Mlogic",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panorama_of_Inner_Stream_of_Dujiangyan_Irrigation_System.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/%E4%BC%8F%E9%BE%99%E8%A7%82.jpg/1280px-%E4%BC%8F%E9%BE%99%E8%A7%82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/%E4%BC%8F%E9%BE%99%E8%A7%82.jpg/1280px-%E4%BC%8F%E9%BE%99%E8%A7%82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
@@ -163,7 +148,7 @@
       "fetchedAt": "2026-10-06"
     }
   ],
-  "updatedAt": "2026-11-04",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -171,5 +156,12 @@
   },
   "_geocodeTitle": "都江堰景区-伏龙观",
   "_geocodeSuspect": false,
-  "district": "510181"
+  "district": "510181",
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 1 张（待重抓）",
+    "droppedImages": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Panorama_of_Inner_Stream_of_Dujiangyan_Irrigation_System.jpg/1280px-Panorama_of_Inner_Stream_of_Dujiangyan_Irrigation_System.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  }
 }

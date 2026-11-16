@@ -1,96 +1,133 @@
 {
-  "id": "shenzhen-art-museum-new",
-  "name": "深圳美术馆（新馆）",
-  "category": "scenic",
-  "subtype": "museum",
-  "summary": "2023年开放的市级新馆，18个展厅免费免预约，红山站出来5分钟",
-  "description": "深圳美术馆的新馆，2023 年 9 月 28 日开放试运行，位于龙华红山片区，建筑面积 6.6 万平方米，设 18 个艺术展厅和 3900 平方米的半室外雕塑展场。馆藏各类美术作品约 9000 件套，以国内外现当代艺术名家作品和粤港澳大湾区艺术家的创新作品为主。它是深圳目前体量最大的公立美术馆，认真看下来至少留一个半小时。免费、现场扫码登记入馆，不用提前预约，周末人多建议早到。隔壁就是深圳图书馆北馆，两馆可以连着逛半天。",
-  "highlights": [
-    "18 个展厅加 3900 平方米半室外雕塑展场，全市公立美术馆里体量最大",
-    "免费免预约，现场扫码登记即可入馆",
-    "与深圳图书馆北馆紧邻，可连着逛半天"
-  ],
-  "location": {
-    "point": {
-      "lng": 114.023767,
-      "lat": 22.62493,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "深圳市龙华区民治街道大岭社区腾龙路30号1栋",
-    "district": "龙华区",
-    "transportTip": "地铁4号线/6号线红山站A1口步行约300米；公交至润达圆庭站或红山地铁站"
+ "id": "shenzhen-art-museum-new",
+ "name": "深圳美术馆（新馆）",
+ "category": "scenic",
+ "subtype": "museum",
+ "summary": "2023年开放的市级新馆，18个展厅免费免预约，红山站出来5分钟",
+ "description": "深圳美术馆的新馆，2023 年 9 月 28 日开放试运行，位于龙华红山片区，建筑面积 6.6 万平方米，设 18 个艺术展厅和 3900 平方米的半室外雕塑展场。馆藏各类美术作品约 9000 件套，以国内外现当代艺术名家作品和粤港澳大湾区艺术家的创新作品为主。它是深圳目前体量最大的公立美术馆，认真看下来至少留一个半小时。免费、现场扫码登记入馆，不用提前预约，周末人多建议早到。隔壁就是深圳图书馆北馆，两馆可以连着逛半天。",
+ "highlights": [
+  "18 个展厅加 3900 平方米半室外雕塑展场，全市公立美术馆里体量最大",
+  "免费免预约，现场扫码登记即可入馆",
+  "与深圳图书馆北馆紧邻，可连着逛半天"
+ ],
+ "location": {
+  "point": {
+   "lng": 114.023767,
+   "lat": 22.62493,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "周二至周日 约 10:00-18:00（17:30 停止入馆），周一闭馆；暑期等时段会延时，以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费参观，现场扫码登记（个别引进展单独收费）",
-    "ticketRef": 0,
-    "duration": "建议 90-150 分钟",
-    "durationMinutes": [
-      90,
-      150
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "solo",
-    "couple",
-    "friends",
-    "family"
+  "address": "深圳市龙华区民治街道大岭社区腾龙路30号1栋",
+  "district": "龙华区",
+  "transportTip": "地铁4号线/6号线红山站A1口步行约300米；公交至润达圆庭站或红山地铁站"
+ },
+ "practical": {
+  "openHours": "周二至周日 约 10:00-18:00（17:30 停止入馆），周一闭馆；暑期等时段会延时，以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "免费参观，现场扫码登记（个别引进展单独收费）",
+  "ticketRef": 0,
+  "duration": "建议 90-150 分钟",
+  "durationMinutes": [
+   90,
+   150
   ],
-  "accessible": false,
-  "tips": [
-    "4、6 号线红山站 A1 口出来最近，别走到别的出口",
-    "展厅多，先在前台拿平面图再决定重点看哪几层",
-    "地下有收费停车场，周末车位紧张"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "solo",
+  "couple",
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [
+  "4、6 号线红山站 A1 口出来最近，别走到别的出口",
+  "展厅多，先在前台拿平面图再决定重点看哪几层",
+  "地下有收费停车场，周末车位紧张"
+ ],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/%E6%B7%B1%E5%9B%BE%E5%8C%97%E9%A6%86%E5%92%8C%E6%B7%B1%E7%BE%8E%E6%96%B0%E9%A6%86.jpg/1280px-%E6%B7%B1%E5%9B%BE%E5%8C%97%E9%A6%86%E5%92%8C%E6%B7%B1%E7%BE%8E%E6%96%B0%E9%A6%86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/%E6%B7%B1%E5%9B%BE%E5%8C%97%E9%A6%86%E5%92%8C%E6%B7%B1%E7%BE%8E%E6%96%B0%E9%A6%86.jpg/1280px-%E6%B7%B1%E5%9B%BE%E5%8C%97%E9%A6%86%E5%92%8C%E6%B7%B1%E7%BE%8E%E6%96%B0%E9%A6%86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "深图北馆和深美新馆.jpg",
+   "query": "深圳美术馆（新馆）",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Lhzss8",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B7%B1%E5%9B%BE%E5%8C%97%E9%A6%86%E5%92%8C%E6%B7%B1%E7%BE%8E%E6%96%B0%E9%A6%86.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "front"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "美术馆",
+  "免费",
+  "龙华",
+  "当代艺术",
+  "亲子"
+ ],
+ "popularity": 74,
+ "sources": [
+  {
+   "title": "深圳美术馆（深圳政府在线·文化场馆）",
+   "url": "https://www.sz.gov.cn/szzt2010/szwtt/wtcg/whcg/content/mpost_11127097.html",
+   "kind": "gov",
+   "fetchedAt": "2026-10-25"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Shenzhen Art Museum New Wing",
+  "zh": "深圳美术馆新馆"
+ },
+ "_geocodeTitle": "深圳美术馆",
+ "_geocodeSuspect": false,
+ "district": "440309",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "展陈",
+    "score": 4.5,
+    "note": "18 个展厅加半室外雕塑展场，公立馆里最大"
+   },
+   {
+    "label": "免费",
+    "score": 5,
+    "note": "免费免预约，现场扫码登记就进"
+   },
+   {
+    "label": "人流",
+    "score": 2.5,
+    "note": "周末人多，引进展入口要排队"
+   },
+   {
+    "label": "顺路度",
+    "score": 4,
+    "note": "与深圳图书馆北馆紧邻，能连着逛半天"
+   }
   ],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/%E6%B7%B1%E5%9B%BE%E5%8C%97%E9%A6%86%E5%92%8C%E6%B7%B1%E7%BE%8E%E6%96%B0%E9%A6%86.jpg/1280px-%E6%B7%B1%E5%9B%BE%E5%8C%97%E9%A6%86%E5%92%8C%E6%B7%B1%E7%BE%8E%E6%96%B0%E9%A6%86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/%E6%B7%B1%E5%9B%BE%E5%8C%97%E9%A6%86%E5%92%8C%E6%B7%B1%E7%BE%8E%E6%96%B0%E9%A6%86.jpg/1280px-%E6%B7%B1%E5%9B%BE%E5%8C%97%E9%A6%86%E5%92%8C%E6%B7%B1%E7%BE%8E%E6%96%B0%E9%A6%86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "深图北馆和深美新馆.jpg",
-      "query": "深圳美术馆（新馆）",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Lhzss8",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B7%B1%E5%9B%BE%E5%8C%97%E9%A6%86%E5%92%8C%E6%B7%B1%E7%BE%8E%E6%96%B0%E9%A6%86.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "front"
-      }
-    }
+  "body": "体量是它的第一优势：18 个艺术展厅加近四千平方米的半室外雕塑展场，认真看至少留一个半小时，展厅多到需要先在前台拿平面图决定重点。免费、免预约，扫码登记就进，这一点比很多市级馆方便。缺点是周末人多，碰上引进展入口会排队；另外它离市中心有点距离，地铁坐到红山再走一段，专门跑一趟要把图书馆北馆一起排上才不亏。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "半天看展",
+   "雨天备选"
   ],
-  "coverIndex": 0,
-  "tags": [
-    "美术馆",
-    "免费",
-    "龙华",
-    "当代艺术",
-    "亲子"
+  "avoid": [
+   "只想看常设小展"
   ],
-  "popularity": 74,
-  "sources": [
-    {
-      "title": "深圳美术馆（深圳政府在线·文化场馆）",
-      "url": "https://www.sz.gov.cn/szzt2010/szwtt/wtcg/whcg/content/mpost_11127097.html",
-      "kind": "gov",
-      "fetchedAt": "2026-10-25"
-    }
-  ],
-  "updatedAt": "2026-11-03",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Shenzhen Art Museum New Wing",
-    "zh": "深圳美术馆新馆"
-  },
-  "_geocodeTitle": "深圳美术馆",
-  "_geocodeSuspect": false,
-  "district": "440309"
+  "sources": []
+ }
 }

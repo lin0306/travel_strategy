@@ -1,89 +1,121 @@
 {
-  "id": "jiawei-zaitian",
-  "name": "佳味再添小吃店",
-  "category": "food",
-  "subtype": "local",
-  "summary": "大同路上的老小吃店，芋包与油葱粿是两样招牌。",
-  "description": "佳味再添在大同路，是这一带做了很多年的一家小吃店，与吴再添同属厦门小吃老店那一类。招牌是芋包和油葱粿——芋包是槟榔芋泥包馅蒸熟，蘸酱吃；油葱粿是米浆蒸成糕，上面铺一层炸过的红葱头，切成块蘸酱，口感是软糯的那一路。另有沙茶面、扁食汤、肉粽与鱼丸，菜单不长，都是本地日常。店里是简单的桌椅，翻台快，价格便宜，十几到二三十块能吃一顿。它在大同路，与黄则和、第八市场连成一片，走路几分钟。早上到中午最热闹。",
-  "highlights": [
-    "芋包与油葱粿是两样招牌",
-    "油葱粿是米浆蒸糕，上层铺炸红葱头",
-    "在大同路上，与黄则和、第八市场连成一片"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.07502,
-      "lat": 24.455447,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "福建省厦门市思明区大同路26号",
-    "district": "思明区",
-    "transportTip": "地铁1号线镇海路站，步行约十二分钟"
+ "id": "jiawei-zaitian",
+ "name": "佳味再添小吃店",
+ "category": "food",
+ "subtype": "local",
+ "summary": "大同路上的老小吃店，芋包与油葱粿是两样招牌。",
+ "description": "佳味再添在大同路，是这一带做了很多年的一家小吃店，与吴再添同属厦门小吃老店那一类。招牌是芋包和油葱粿——芋包是槟榔芋泥包馅蒸熟，蘸酱吃；油葱粿是米浆蒸成糕，上面铺一层炸过的红葱头，切成块蘸酱，口感是软糯的那一路。另有沙茶面、扁食汤、肉粽与鱼丸，菜单不长，都是本地日常。店里是简单的桌椅，翻台快，价格便宜，十几到二三十块能吃一顿。它在大同路，与黄则和、第八市场连成一片，走路几分钟。早上到中午最热闹。",
+ "highlights": [
+  "芋包与油葱粿是两样招牌",
+  "油葱粿是米浆蒸糕，上层铺炸红葱头",
+  "在大同路上，与黄则和、第八市场连成一片"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.07502,
+   "lat": 24.455447,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约07:00-20:00，以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "人均约25元起，以实际消费为准",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "elders",
-    "solo",
-    "family"
+  "address": "福建省厦门市思明区大同路26号",
+  "district": "思明区",
+  "transportTip": "地铁1号线镇海路站，步行约十二分钟"
+ },
+ "practical": {
+  "openHours": "约07:00-20:00，以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "人均约25元起，以实际消费为准",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Snack_bars_Jia_wei_zai_tian.jpg/1280px-Snack_bars_Jia_wei_zai_tian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Snack_bars_Jia_wei_zai_tian.jpg/1280px-Snack_bars_Jia_wei_zai_tian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Snack bars Jia wei zai tian.jpg",
-      "query": "佳味再添小吃店",
-      "credit": {
-        "source": "wikimedia",
-        "author": "HualinXMN",
-        "sourceUrl": "https://www.wikidata.org/wiki/Q123511615",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "front"
-      }
-    }
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "elders",
+  "solo",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Snack_bars_Jia_wei_zai_tian.jpg/1280px-Snack_bars_Jia_wei_zai_tian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Snack_bars_Jia_wei_zai_tian.jpg/1280px-Snack_bars_Jia_wei_zai_tian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Snack bars Jia wei zai tian.jpg",
+   "query": "佳味再添小吃店",
+   "credit": {
+    "source": "wikimedia",
+    "author": "HualinXMN",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q123511615",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "front"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "小吃",
+  "芋包",
+  "油葱粿"
+ ],
+ "popularity": 80,
+ "sources": [
+  {
+   "title": "百度百科·厦门小吃",
+   "url": "https://baike.baidu.com/item/%E5%8E%A6%E9%97%A8%E5%B0%8F%E5%90%83",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "佳味再添小吃店"
+ },
+ "_geocodeTitle": "佳味再添小吃店",
+ "_geocodeSuspect": false,
+ "district": "350203",
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "招牌",
+    "score": 4.3,
+    "note": "芋包与油葱粿两样最稳"
+   },
+   {
+    "label": "价格",
+    "score": 4.2,
+    "note": "十几到二三十块一顿"
+   },
+   {
+    "label": "环境",
+    "score": 3.1,
+    "note": "简单桌椅，翻台快"
+   },
+   {
+    "label": "出品",
+    "score": 3.6,
+    "note": "菜单不长，水平起伏不大"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "小吃",
-    "芋包",
-    "油葱粿"
-  ],
-  "popularity": 80,
-  "sources": [
-    {
-      "title": "百度百科·厦门小吃",
-      "url": "https://baike.baidu.com/item/%E5%8E%A6%E9%97%A8%E5%B0%8F%E5%90%83",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
-  ],
-  "updatedAt": "2026-11-03",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "佳味再添小吃店"
-  },
-  "_geocodeTitle": "佳味再添小吃店",
-  "_geocodeSuspect": false,
-  "district": "350203"
+  "body": "大同路上的老小吃店，芋包用槟榔芋泥包馅蒸熟蘸酱，油葱粿是米浆蒸糕上面铺炸红葱头，两样最值得点。价格便宜，翻台快，跟黄则和、第八市场连成一片，顺路吃一顿正合适。缺点是店里就是简单桌椅、没什么环境可言，菜品偏家常，沙茶面一类不如专门的沙茶面店做得细，专程跑一趟会觉得普通。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [],
+  "avoid": [],
+  "sources": []
+ }
 }

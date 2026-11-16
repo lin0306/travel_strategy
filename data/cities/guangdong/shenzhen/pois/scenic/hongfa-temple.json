@@ -1,194 +1,232 @@
 {
-  "id": "hongfa-temple",
-  "name": "弘法寺",
-  "category": "scenic",
-  "subtype": "temple",
-  "summary": "深圳规模最大的一处寺院：建在植物园内的一方坡地上，与植物园共用一个门口。",
-  "description": "弘法寺在仙湖植物园内，1985 年起兴建，经过多次扩建成为今天这样。它的平面沿山势往上叠，天王殿、大雄宝殿、藏经楼一层一层升上去。管理上是丛林丛林体制的那一套：由僧团丛林体制运行，寺内也办佛学院。来的人主要有两类：本地信众与进植物园顺路上来的游客。它与老城里那些几十年的小庙不同，体量是新的。因为坐落在园区内，进寺要购买植物园门票。",
-  "highlights": [
-    "依山势层叠布置的新建寺院群",
-    "深圳境内规模最大的一处",
-    "与仙湖植物园在同一门口内"
-  ],
-  "location": {
-    "point": {
-      "lng": 114.18224,
-      "lat": 22.577501,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "深圳市罗湖区莲塘仙湖植物园内",
-    "district": "罗湖区",
-    "transportTip": "地铁2号线仙湖路站步行入园"
+ "id": "hongfa-temple",
+ "name": "弘法寺",
+ "category": "scenic",
+ "subtype": "temple",
+ "summary": "深圳规模最大的一处寺院：建在植物园内的一方坡地上，与植物园共用一个门口。",
+ "description": "弘法寺在仙湖植物园内，1985 年起兴建，经过多次扩建成为今天这样。它的平面沿山势往上叠，天王殿、大雄宝殿、藏经楼一层一层升上去。管理上是丛林丛林体制的那一套：由僧团丛林体制运行，寺内也办佛学院。来的人主要有两类：本地信众与进植物园顺路上来的游客。它与老城里那些几十年的小庙不同，体量是新的。因为坐落在园区内，进寺要购买植物园门票。",
+ "highlights": [
+  "依山势层叠布置的新建寺院群",
+  "深圳境内规模最大的一处",
+  "与仙湖植物园在同一门口内"
+ ],
+ "location": {
+  "point": {
+   "lng": 114.18224,
+   "lat": 22.577501,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-17:00（以官方公告为准）",
-    "openHoursRef": 0,
-    "ticket": "需另购仙湖植物园门票，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 60-150 分钟",
-    "durationMinutes": [
-      60,
-      150
-    ],
-    "priceLevel": "free"
+  "address": "深圳市罗湖区莲塘仙湖植物园内",
+  "district": "罗湖区",
+  "transportTip": "地铁2号线仙湖路站步行入园"
+ },
+ "practical": {
+  "openHours": "约08:00-17:00（以官方公告为准）",
+  "openHoursRef": 0,
+  "ticket": "需另购仙湖植物园门票，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 60-150 分钟",
+  "durationMinutes": [
+   60,
+   150
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "elders",
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_220.jpg/1280px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_220.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_220.jpg/1280px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_220.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "SZ 深圳 Shenzhen 羅湖 Luohu 仙湖植物園 Fairylake Botanical Garden 弘法寺 Hongfa Temple November 2023 R12S 220.jp",
+   "query": "弘法寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "KONGTSUIEN YuenaZie LauouH",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC0",
+    "attributionRequired": false
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "elders",
-    "family",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_220.jpg/1280px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_220.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_220.jpg/1280px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_220.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "SZ 深圳 Shenzhen 羅湖 Luohu 仙湖植物園 Fairylake Botanical Garden 弘法寺 Hongfa Temple November 2023 R12S 220.jp",
-      "query": "弘法寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "KONGTSUIEN YuenaZie LauouH",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC0",
-        "attributionRequired": false
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_221.jpg/1280px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_221.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_221.jpg/1280px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_221.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "SZ 深圳 Shenzhen 羅湖 Luohu 仙湖植物園 Fairylake Botanical Garden 弘法寺 Hongfa Temple November 2023 R12S 221.jp",
-      "query": "弘法寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "KONGTSUIEN YuenaZie LauouH",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC0",
-        "attributionRequired": false
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_222.jpg/1280px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_222.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_222.jpg/1280px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_222.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "SZ 深圳 Shenzhen 羅湖 Luohu 仙湖植物園 Fairylake Botanical Garden 弘法寺 Hongfa Temple November 2023 R12S 222.jp",
-      "query": "弘法寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "KONGTSUIEN YuenaZie LauouH",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC0",
-        "attributionRequired": false
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_223.jpg/1280px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_223.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_223.jpg/1280px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_223.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "SZ 深圳 Shenzhen 羅湖 Luohu 仙湖植物園 Fairylake Botanical Garden 弘法寺 Hongfa Temple November 2023 R12S 223.jp",
-      "query": "弘法寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "KONGTSUIEN YuenaZie LauouH",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC0",
-        "attributionRequired": false
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_224.jpg/1280px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_224.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_224.jpg/1280px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_224.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "SZ 深圳 Shenzhen 羅湖 Luohu 仙湖植物園 Fairylake Botanical Garden 弘法寺 Hongfa Temple November 2023 R12S 224.jp",
-      "query": "弘法寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "KONGTSUIEN YuenaZie LauouH",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC0",
-        "attributionRequired": false
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_225.jpg/1280px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_225.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_225.jpg/1280px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_225.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "SZ 深圳 Shenzhen 羅湖 Luohu 仙湖植物園 Fairylake Botanical Garden 弘法寺 Hongfa Temple November 2023 R12S 225.jp",
-      "query": "弘法寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "KONGTSUIEN YuenaZie LauouH",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC0",
-        "attributionRequired": false
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "inside"
-      }
-    }
-  ],
-  "coverIndex": 3,
-  "tags": [
-    "寺院",
-    "丛林",
-    "山寺"
-  ],
-  "popularity": 74,
-  "sources": [
-    {
-      "title": "百度百科·弘法寺",
-      "url": "https://baike.baidu.com/item/%E5%BC%98%E6%B3%95%E5%AF%BA%EF%BC%88%E6%B7%B1%E5%9C%B3%EF%BC%89",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-24"
-    }
-  ],
-  "updatedAt": "2026-11-03",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "弘法寺"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_221.jpg/1280px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_221.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_221.jpg/1280px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_221.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "SZ 深圳 Shenzhen 羅湖 Luohu 仙湖植物園 Fairylake Botanical Garden 弘法寺 Hongfa Temple November 2023 R12S 221.jp",
+   "query": "弘法寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "KONGTSUIEN YuenaZie LauouH",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC0",
+    "attributionRequired": false
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "弘法寺",
-  "_geocodeSuspect": false,
-  "district": "440303"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_222.jpg/1280px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_222.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_222.jpg/1280px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_222.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "SZ 深圳 Shenzhen 羅湖 Luohu 仙湖植物園 Fairylake Botanical Garden 弘法寺 Hongfa Temple November 2023 R12S 222.jp",
+   "query": "弘法寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "KONGTSUIEN YuenaZie LauouH",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC0",
+    "attributionRequired": false
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_223.jpg/1280px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_223.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_223.jpg/1280px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_223.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "SZ 深圳 Shenzhen 羅湖 Luohu 仙湖植物園 Fairylake Botanical Garden 弘法寺 Hongfa Temple November 2023 R12S 223.jp",
+   "query": "弘法寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "KONGTSUIEN YuenaZie LauouH",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC0",
+    "attributionRequired": false
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_224.jpg/1280px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_224.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_224.jpg/1280px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_224.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "SZ 深圳 Shenzhen 羅湖 Luohu 仙湖植物園 Fairylake Botanical Garden 弘法寺 Hongfa Temple November 2023 R12S 224.jp",
+   "query": "弘法寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "KONGTSUIEN YuenaZie LauouH",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC0",
+    "attributionRequired": false
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_225.jpg/1280px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_225.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_225.jpg/1280px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9C%92_Fairylake_Botanical_Garden_%E5%BC%98%E6%B3%95%E5%AF%BA_Hongfa_Temple_November_2023_R12S_225.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "SZ 深圳 Shenzhen 羅湖 Luohu 仙湖植物園 Fairylake Botanical Garden 弘法寺 Hongfa Temple November 2023 R12S 225.jp",
+   "query": "弘法寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "KONGTSUIEN YuenaZie LauouH",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC0",
+    "attributionRequired": false
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "inside"
+   }
+  }
+ ],
+ "coverIndex": 3,
+ "tags": [
+  "寺院",
+  "丛林",
+  "山寺"
+ ],
+ "popularity": 74,
+ "sources": [
+  {
+   "title": "百度百科·弘法寺",
+   "url": "https://baike.baidu.com/item/%E5%BC%98%E6%B3%95%E5%AF%BA%EF%BC%88%E6%B7%B1%E5%9C%B3%EF%BC%89",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-24"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "弘法寺"
+ },
+ "_geocodeTitle": "弘法寺",
+ "_geocodeSuspect": false,
+ "district": "440303",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "规模",
+    "score": 4,
+    "note": "深圳境内规模最大的一处寺院"
+   },
+   {
+    "label": "布局",
+    "score": 4,
+    "note": "沿山势层层抬升，天王殿到大雄宝殿"
+   },
+   {
+    "label": "门票",
+    "score": 2.5,
+    "note": "在植物园内，进寺要先买植物园门票"
+   },
+   {
+    "label": "人流",
+    "score": 3,
+    "note": "信众与顺路游客混在一起，法会日很挤"
+   }
+  ],
+  "body": "寺院沿山坡一层层叠上去，天王殿、大雄宝殿、藏经楼顺序往上走，体量在深圳是最大的一处，和城里那些几十年的小庙完全不是一类。这里由僧团运行、也办佛学院，碰上法会能看到完整的仪轨，比单纯看建筑有意思。缺点是它在仙湖植物园里面，进寺要先买植物园的门票，等于把两件事捆在一起；法会日和节假日人流很挤，想安静上香要挑工作日早上。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "看寺院格局",
+   "工作日清早"
+  ],
+  "avoid": [
+   "只想单独上香",
+   "法会日凑热闹"
+  ],
+  "sources": []
+ }
 }

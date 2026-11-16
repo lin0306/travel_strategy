@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "福建省厦门市思明区体育路95号文化艺术中心",
-    "district": "湖里区",
+    "district": "思明区",
     "transportTip": "地铁2号线体育中心站或1号线莲花路口站，步行约十分钟"
   },
   "practical": {
@@ -55,7 +55,7 @@
       "fetchedAt": "2026-09-28"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-12",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,6 +63,38 @@
   },
   "_geocodeTitle": "厦门科技馆",
   "_geocodeSuspect": false,
-  "district": "350206",
-  "_noImage": true
+  "district": "350203",
+  "_noImage": true,
+  "review": {
+    "score": 4.1,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "互动",
+        "score": 4.5,
+        "note": "多数装置可上手，模拟舱能进"
+      },
+      {
+        "label": "亲子",
+        "score": 4.4,
+        "note": "儿童科学乐园单设一厅"
+      },
+      {
+        "label": "人流",
+        "score": 3.0,
+        "note": "周末假期人挤，热门装置要等"
+      },
+      {
+        "label": "票价",
+        "score": 3.3,
+        "note": "分展厅联票，叠加起来不便宜"
+      }
+    ],
+    "body": "文化艺术中心里的互动科技馆，海洋科技厅讲潮汐洋流与深海，探索厅是力学声光的动手装置，还有专门的儿童科学乐园，多数东西能直接上手按、拉、钻进去。跟市博物馆在同一片，可以排一天。缺点是周末与假期人太多，热门装置前排长队；票价按展厅联票叠加，一家人玩全套不便宜，部分装置老化、反应不灵。",
+    "basis": "corpus",
+    "at": "2026-11-12",
+    "fits": [],
+    "avoid": [],
+    "sources": []
+  }
 }

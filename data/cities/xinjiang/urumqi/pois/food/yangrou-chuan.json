@@ -1,113 +1,150 @@
 {
-  "id": "yangrou-chuan",
-  "name": "烤羊肉串",
-  "category": "food",
-  "subtype": "local",
-  "summary": "新疆烧烤的灵魂，肥瘦相间的羊肉串在炭火上滋滋冒油，一把孜然辣面子下去。",
-  "description": "烤羊肉串是新疆烧烤的灵魂。肥瘦相间的羊肉切块穿签，架在炭火上翻烤，油脂滋滋往下滴。快好时撒一把孜然和辣面子，香气扑鼻。趁热咬，外焦里嫩，带点肥才香。街头夜市随处有，二道桥、大巴扎最热闹。按串算钱，先问价。",
-  "highlights": [
-    "新疆烧烤灵魂羊肉串",
-    "炭火孜然辣面子",
-    "趁热外焦里嫩"
-  ],
-  "location": {
-    "point": {
-      "lng": 87.615343,
-      "lat": 43.781413,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "新疆维吾尔自治区乌鲁木齐市各夜市与烧烤摊（二道桥、大巴扎周边）",
-    "district": "天山区",
-    "transportTip": "市区各夜市、餐馆均有"
+ "id": "yangrou-chuan",
+ "name": "烤羊肉串",
+ "category": "food",
+ "subtype": "local",
+ "summary": "新疆烧烤的灵魂，肥瘦相间的羊肉串在炭火上滋滋冒油，一把孜然辣面子下去。",
+ "description": "烤羊肉串是新疆烧烤的灵魂。肥瘦相间的羊肉切块穿签，架在炭火上翻烤，油脂滋滋往下滴。快好时撒一把孜然和辣面子，香气扑鼻。趁热咬，外焦里嫩，带点肥才香。街头夜市随处有，二道桥、大巴扎最热闹。按串算钱，先问价。",
+ "highlights": [
+  "新疆烧烤灵魂羊肉串",
+  "炭火孜然辣面子",
+  "趁热外焦里嫩"
+ ],
+ "location": {
+  "point": {
+   "lng": 87.615343,
+   "lat": 43.781413,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约18:00-次日02:00",
-    "openHoursRef": 0,
-    "ticket": "约5元/串起",
-    "ticketRef": 0,
-    "duration": "建议 20-40 分钟",
-    "durationMinutes": [
-      20,
-      40
-    ],
-    "priceLevel": "budget"
+  "address": "新疆维吾尔自治区乌鲁木齐市各夜市与烧烤摊（二道桥、大巴扎周边）",
+  "district": "天山区",
+  "transportTip": "市区各夜市、餐馆均有"
+ },
+ "practical": {
+  "openHours": "约18:00-次日02:00",
+  "openHoursRef": 0,
+  "ticket": "约5元/串起",
+  "ticketRef": 0,
+  "duration": "建议 20-40 分钟",
+  "durationMinutes": [
+   20,
+   40
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "couple",
+  "family",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Cooking_Chuan_at_2026_BIFC_20260905153537.jpg/1280px-Cooking_Chuan_at_2026_BIFC_20260905153537.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Cooking_Chuan_at_2026_BIFC_20260905153537.jpg/1280px-Cooking_Chuan_at_2026_BIFC_20260905153537.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Cooking Chuan at 2026 BIFC 20260905153537.jpg",
+   "query": "烤羊肉串",
+   "credit": {
+    "source": "wikimedia",
+    "author": "TurnOnTheNight",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cooking_Chuan_at_2026_BIFC_20260905153537.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "family",
-    "friends"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Cooking_Chuan_at_2026_BIFC_20260905153537.jpg/1280px-Cooking_Chuan_at_2026_BIFC_20260905153537.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Cooking_Chuan_at_2026_BIFC_20260905153537.jpg/1280px-Cooking_Chuan_at_2026_BIFC_20260905153537.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Cooking Chuan at 2026 BIFC 20260905153537.jpg",
-      "query": "烤羊肉串",
-      "credit": {
-        "source": "wikimedia",
-        "author": "TurnOnTheNight",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cooking_Chuan_at_2026_BIFC_20260905153537.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Freshippo_grilled_lamb_kebabs.jpg/1280px-Freshippo_grilled_lamb_kebabs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Freshippo_grilled_lamb_kebabs.jpg/1280px-Freshippo_grilled_lamb_kebabs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Freshippo grilled lamb kebabs.jpg",
-      "query": "烤羊肉串",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Fumikas Sagisavas",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Freshippo_grilled_lamb_kebabs.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Kebab_in_Dandong_20260329184739.jpg/1280px-Kebab_in_Dandong_20260329184739.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Kebab_in_Dandong_20260329184739.jpg/1280px-Kebab_in_Dandong_20260329184739.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Kebab in Dandong 20260329184739.jpg",
-      "query": "烤羊肉串",
-      "credit": {
-        "source": "wikimedia",
-        "author": "TurnOnTheNight",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kebab_in_Dandong_20260329184739.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "烤肉",
-    "羊肉串",
-    "夜市"
-  ],
-  "popularity": 95,
-  "sources": [
-    {
-      "title": "烤羊肉串·百度百科",
-      "url": "https://baike.baidu.com/item/%E7%83%A4%E7%BE%8A%E8%82%89%E4%B8%B2",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-02"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Grilled Lamb Skewers Urumqi",
-    "zh": "烤羊肉串"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Freshippo_grilled_lamb_kebabs.jpg/1280px-Freshippo_grilled_lamb_kebabs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Freshippo_grilled_lamb_kebabs.jpg/1280px-Freshippo_grilled_lamb_kebabs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Freshippo grilled lamb kebabs.jpg",
+   "query": "烤羊肉串",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Fumikas Sagisavas",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Freshippo_grilled_lamb_kebabs.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
   },
-  "_geocodeTitle": "冬虫夏草店(二道桥大巴扎店)",
-  "_geocodeSuspect": false,
-  "district": "650102"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Kebab_in_Dandong_20260329184739.jpg/1280px-Kebab_in_Dandong_20260329184739.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Kebab_in_Dandong_20260329184739.jpg/1280px-Kebab_in_Dandong_20260329184739.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Kebab in Dandong 20260329184739.jpg",
+   "query": "烤羊肉串",
+   "credit": {
+    "source": "wikimedia",
+    "author": "TurnOnTheNight",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kebab_in_Dandong_20260329184739.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "烤肉",
+  "羊肉串",
+  "夜市"
+ ],
+ "popularity": 95,
+ "sources": [
+  {
+   "title": "烤羊肉串·百度百科",
+   "url": "https://baike.baidu.com/item/%E7%83%A4%E7%BE%8A%E8%82%89%E4%B8%B2",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-02"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Grilled Lamb Skewers Urumqi",
+  "zh": "烤羊肉串"
+ },
+ "_geocodeTitle": "冬虫夏草店(二道桥大巴扎店)",
+ "_geocodeSuspect": false,
+ "district": "650102",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.6,
+    "note": "外焦里嫩，带点肥才香"
+   },
+   {
+    "label": "价格",
+    "score": 3.4,
+    "note": "按串计，游客区单价偏高"
+   },
+   {
+    "label": "环境",
+    "score": 2.8,
+    "note": "夜市摊位油烟大、座位将就"
+   },
+   {
+    "label": "卫生",
+    "score": 2.5,
+    "note": "路边摊水平参差，挑人多的摊"
+   }
+  ],
+  "body": "新疆烧烤的门面，炭火一烤、孜然辣面子一撒，趁热咬下去外焦里嫩，肥的那块最香。缺点是街头摊卫生参差，油烟大、座位就将就；按串算钱，在游客扎堆的夜市很容易不知不觉点超预算，坐下前先问清单价再点。当小吃吃很值，当正餐吃会腻。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "夜市",
+   "吃肉"
+  ],
+  "avoid": [
+   "肠胃敏感"
+  ],
+  "sources": []
+ }
 }

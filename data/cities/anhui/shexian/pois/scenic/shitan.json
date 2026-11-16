@@ -1,77 +1,115 @@
 {
-  "id": "shitan",
-  "name": "石潭",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "春天油菜花、秋天文云海的摄影村，山脊上的观景台很绝。",
-  "description": "石潭在歙县霞坑镇的深山里，由几个散落在山脊上的小村组成，是徽州最出名的摄影点之一。每年三月，山下的油菜花铺满梯田，桃花、梨花点缀其间，晨雾从谷底升起来，是很多摄影人年年要来的场面。到了秋天，这里又是看云海和秋色的地方，雨后初晴的概率最高。村里有观景台可以俯瞰整个山谷，也有农家可以吃饭住宿。山路窄、弯多，自驾要小心，但风景对得起这一路折腾。",
-  "highlights": [
-    "油菜花",
-    "云海",
-    "摄影村",
-    "观景台",
-    "免票"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.669709,
-      "lat": 29.934656,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黄山市歙县霞坑镇石潭村",
-    "district": "歙县",
-    "transportTip": "自驾或包车从县城约 1 小时到石潭；山路较窄",
-    "entrance": {
-      "lng": 118.668737,
-      "lat": 29.935447,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "shitan",
+ "name": "石潭",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "春天油菜花、秋天文云海的摄影村，山脊上的观景台很绝。",
+ "description": "石潭在歙县霞坑镇的深山里，由几个散落在山脊上的小村组成，是徽州最出名的摄影点之一。每年三月，山下的油菜花铺满梯田，桃花、梨花点缀其间，晨雾从谷底升起来，是很多摄影人年年要来的场面。到了秋天，这里又是看云海和秋色的地方，雨后初晴的概率最高。村里有观景台可以俯瞰整个山谷，也有农家可以吃饭住宿。山路窄、弯多，自驾要小心，但风景对得起这一路折腾。",
+ "highlights": [
+  "油菜花",
+  "云海",
+  "摄影村",
+  "观景台",
+  "免票"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.669709,
+   "lat": 29.934656,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天（村落与自然景观）",
-    "openHoursRef": 0,
-    "ticket": "村落免费；观景台可能有人维护收费（以当地为准）",
-    "ticketRef": 0,
-    "duration": "建议 120-300 分钟",
-    "durationMinutes": [
-      120,
-      300
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "solo",
-    "elders"
+  "address": "黄山市歙县霞坑镇石潭村",
+  "district": "歙县",
+  "transportTip": "自驾或包车从县城约 1 小时到石潭；山路较窄",
+  "entrance": {
+   "lng": 118.668737,
+   "lat": 29.935447,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "全天（村落与自然景观）",
+  "openHoursRef": 0,
+  "ticket": "村落免费；观景台可能有人维护收费（以当地为准）",
+  "ticketRef": 0,
+  "duration": "建议 120-300 分钟",
+  "durationMinutes": [
+   120,
+   300
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "摄影",
-    "油菜花",
-    "云海",
-    "古村"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "solo",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "摄影",
+  "油菜花",
+  "云海",
+  "古村"
+ ],
+ "popularity": 85,
+ "sources": [
+  {
+   "title": "百度百科·石潭村",
+   "url": "https://baike.baidu.com/item/%E7%9F%B3%E6%BD%AD%E6%9D%91",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-07"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "石潭"
+ },
+ "_geocodeTitle": "石潭",
+ "_geocodeSuspect": false,
+ "district": "341021",
+ "_noImage": true,
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "风景",
+    "score": 4.5,
+    "note": "梯田菜花配晨雾，是徽州最经典的机位之一"
+   },
+   {
+    "label": "交通",
+    "score": 2.7,
+    "note": "山路窄、弯多，会车要小心"
+   },
+   {
+    "label": "季节",
+    "score": 3.2,
+    "note": "三月的花与秋后的云海是两个世界，其余时候普通"
+   },
+   {
+    "label": "人流",
+    "score": 3.3,
+    "note": "花期观景台一位难求"
+   }
   ],
-  "popularity": 85,
-  "sources": [
-    {
-      "title": "百度百科·石潭村",
-      "url": "https://baike.baidu.com/item/%E7%9F%B3%E6%BD%AD%E6%9D%91",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-07"
-    }
+  "body": "徽州最出名的摄影村之一，几个小村散在山脊上，三月菜花开满梯田、晨雾从谷底升起，的确是别处难复制的场面。代价是交通：盘山公路窄且弯急，自驾要有心理准备，花期观景台更是挤到转不开身；非花季来的话，山村就只是安静的山村，落差会比较大。建议住村里农家，赶清晨那一小时。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "摄影",
+   "春季出行"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "石潭"
-  },
-  "_geocodeTitle": "石潭",
-  "_geocodeSuspect": false,
-  "district": "341021",
-  "_noImage": true
+  "avoid": [
+   "怕盘山路",
+   "只待半天"
+  ],
+  "sources": []
+ }
 }

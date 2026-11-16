@@ -1,71 +1,109 @@
 {
-  "id": "yangchan-shaiqiu",
-  "name": "阳产晒秋",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "皖南土楼群的晒秋，黄墙屋顶铺满红黄农作物。",
-  "description": "阳产晒秋是徽州少见的晒秋场景——阳产是皖南罕见的夯土楼群，几百栋黄泥房顺着山坡叠起来，秋天村民把辣椒、玉米、南瓜、稻谷铺在屋顶和晒簟上，红黄橙一片，和黄墙、青山配在一起格外醒目。它和婺源篁岭的晒秋同款出圈，但阳产更原生态、人更少、不收门票。进村要盘一段山路，但秋色一来，摄影和打卡的人络绎不绝。除了秋天，平时来也能看土楼本身的独特轮廓。",
-  "highlights": [
-    "晒秋",
-    "土楼群",
-    "屋顶色彩",
-    "免票"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.663179,
-      "lat": 29.873822,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黄山市歙县岔口镇阳产村",
-    "district": "歙县",
-    "transportTip": "自驾或包车从县城约 1.5 小时到阳产"
+ "id": "yangchan-shaiqiu",
+ "name": "阳产晒秋",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "皖南土楼群的晒秋，黄墙屋顶铺满红黄农作物。",
+ "description": "阳产晒秋是徽州少见的晒秋场景——阳产是皖南罕见的夯土楼群，几百栋黄泥房顺着山坡叠起来，秋天村民把辣椒、玉米、南瓜、稻谷铺在屋顶和晒簟上，红黄橙一片，和黄墙、青山配在一起格外醒目。它和婺源篁岭的晒秋同款出圈，但阳产更原生态、人更少、不收门票。进村要盘一段山路，但秋色一来，摄影和打卡的人络绎不绝。除了秋天，平时来也能看土楼本身的独特轮廓。",
+ "highlights": [
+  "晒秋",
+  "土楼群",
+  "屋顶色彩",
+  "免票"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.663179,
+   "lat": 29.873822,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天（晒秋集中于秋季）",
-    "openHoursRef": 0,
-    "ticket": "村落免费；停车 / 维护可能收费（以当地为准）",
-    "ticketRef": 0,
-    "duration": "建议 120-260 分钟",
-    "durationMinutes": [
-      120,
-      260
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "solo",
-    "elders"
+  "address": "黄山市歙县岔口镇阳产村",
+  "district": "歙县",
+  "transportTip": "自驾或包车从县城约 1.5 小时到阳产"
+ },
+ "practical": {
+  "openHours": "全天（晒秋集中于秋季）",
+  "openHoursRef": 0,
+  "ticket": "村落免费；停车 / 维护可能收费（以当地为准）",
+  "ticketRef": 0,
+  "duration": "建议 120-260 分钟",
+  "durationMinutes": [
+   120,
+   260
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "晒秋",
-    "土楼",
-    "摄影",
-    "原生态"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "solo",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "晒秋",
+  "土楼",
+  "摄影",
+  "原生态"
+ ],
+ "popularity": 83,
+ "sources": [
+  {
+   "title": "百度百科·阳产土楼",
+   "url": "https://baike.baidu.com/item/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-07"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "阳产晒秋"
+ },
+ "_geocodeTitle": "阳产",
+ "_geocodeSuspect": false,
+ "district": "341021",
+ "_noImage": true,
+ "review": {
+  "score": 3.8,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "出片",
+    "score": 4.5,
+    "note": "黄墙屋顶铺满红黄作物，色彩浓度极高"
+   },
+   {
+    "label": "时节",
+    "score": 2.8,
+    "note": "只在秋季晒秋那一两个月，其余时间看不到"
+   },
+   {
+    "label": "交通",
+    "score": 2.8,
+    "note": "盘山路窄，会车困难"
+   },
+   {
+    "label": "人流",
+    "score": 3.4,
+    "note": "晒秋季周末集中，村道会被堵住"
+   }
   ],
-  "popularity": 83,
-  "sources": [
-    {
-      "title": "百度百科·阳产土楼",
-      "url": "https://baike.baidu.com/item/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-07"
-    }
+  "body": "皖南少见的夯土楼群加上晒秋，黄泥墙、红辣椒、玉米、南瓜铺满屋顶，视觉冲击在徽州是独一份。但它的前提是「秋天」：不是晒秋季，村子就只是安静的老土楼，专程跑一趟会失望；进村的盘山路窄，会车要退让，晒秋季周末更是堵在村口。建议把它和深渡、新安江串起来，别单为一个机位跑半天山路。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "秋季出行",
+   "摄影"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "阳产晒秋"
-  },
-  "_geocodeTitle": "阳产",
-  "_geocodeSuspect": false,
-  "district": "341021",
-  "_noImage": true
+  "avoid": [
+   "非秋季来",
+   "大巴团"
+  ],
+  "sources": []
+ }
 }

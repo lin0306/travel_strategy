@@ -39,23 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Jiuzhaigou.Tibetan_meal.jpg/1280px-Jiuzhaigou.Tibetan_meal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Jiuzhaigou.Tibetan_meal.jpg/1280px-Jiuzhaigou.Tibetan_meal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 608,
-      "alt": "Jiuzhaigou.Tibetan meal.jpg",
-      "query": "牦牛肉",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Popolon",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jiuzhaigou.Tibetan_meal.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "招牌肉",
@@ -71,7 +55,7 @@
       "fetchedAt": "2026-10-06"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -79,5 +63,13 @@
   },
   "_geocodeTitle": "德吉康巴铜锅牦牛肉·野生菌",
   "_geocodeSuspect": false,
-  "district": "513337"
+  "district": "513337",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 1 张（待重抓）",
+    "droppedImages": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Jiuzhaigou.Tibetan_meal.jpg/1280px-Jiuzhaigou.Tibetan_meal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  }
 }

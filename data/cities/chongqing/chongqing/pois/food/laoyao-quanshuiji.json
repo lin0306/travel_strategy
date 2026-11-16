@@ -1,67 +1,109 @@
 {
-  "id": "laoyao-quanshuiji",
-  "name": "老幺泉水鸡",
-  "category": "food",
-  "subtype": "local",
-  "summary": "南山泉水鸡一条街的头牌，“踏破南山路，老幺第一家”，一鸡三吃。",
-  "description": "泉水鸡起源于南山，用山上引下的泉水烹制现杀的土鸡，麻辣鲜香里带着回甜，是南山脚下最有名的一道江湖菜。老幺是泉水鸡一条街上名气最大的一家，开了三十多年，活鸡现称现杀，最小四斤多，一只鸡可做三道菜：泉水鸡、鸡血汤、泡椒鸡杂，两三个人点一只鸡刚好。店里环境是农家乐风格，天暖时坐露台很有感觉。吃完顺路上南山一棵树看夜景，动线正好。",
-  "highlights": [
-    "南山泉水鸡一条街名气最大的一家",
-    "一鸡三吃：泉水鸡、鸡血汤、泡椒鸡杂",
-    "吃完顺路上南山一棵树看夜景"
-  ],
-  "location": {
-    "point": {
-      "lng": 106.615459,
-      "lat": 29.551883,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "重庆市南岸区崇文路 247 号（泉水鸡一条街）",
-    "district": "南岸",
-    "transportTip": "轨道交通环线上新街站转公交；或打车至南山泉水鸡一条街"
+ "id": "laoyao-quanshuiji",
+ "name": "老幺泉水鸡",
+ "category": "food",
+ "subtype": "local",
+ "summary": "南山泉水鸡一条街的头牌，“踏破南山路，老幺第一家”，一鸡三吃。",
+ "description": "泉水鸡起源于南山，用山上引下的泉水烹制现杀的土鸡，麻辣鲜香里带着回甜，是南山脚下最有名的一道江湖菜。老幺是泉水鸡一条街上名气最大的一家，开了三十多年，活鸡现称现杀，最小四斤多，一只鸡可做三道菜：泉水鸡、鸡血汤、泡椒鸡杂，两三个人点一只鸡刚好。店里环境是农家乐风格，天暖时坐露台很有感觉。吃完顺路上南山一棵树看夜景，动线正好。",
+ "highlights": [
+  "南山泉水鸡一条街名气最大的一家",
+  "一鸡三吃：泉水鸡、鸡血汤、泡椒鸡杂",
+  "吃完顺路上南山一棵树看夜景"
+ ],
+ "location": {
+  "point": {
+   "lng": 106.615459,
+   "lat": 29.551883,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 10:00-22:00（以门店公告为准）",
-    "openHoursRef": 0,
-    "ticket": "人均约 85 元（以门店为准）",
-    "ticketRef": 0,
-    "duration": "建议 60-90 分钟",
-    "durationMinutes": [
-      60,
-      90
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "friends",
-    "family"
+  "address": "重庆市南岸区崇文路 247 号（泉水鸡一条街）",
+  "district": "南岸",
+  "transportTip": "轨道交通环线上新街站转公交；或打车至南山泉水鸡一条街"
+ },
+ "practical": {
+  "openHours": "约 10:00-22:00（以门店公告为准）",
+  "openHoursRef": 0,
+  "ticket": "人均约 85 元（以门店为准）",
+  "ticketRef": 0,
+  "duration": "建议 60-90 分钟",
+  "durationMinutes": [
+   60,
+   90
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "泉水鸡",
-    "南山",
-    "江湖菜"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "泉水鸡",
+  "南山",
+  "江湖菜"
+ ],
+ "popularity": 72,
+ "sources": [
+  {
+   "title": "百度百科·老幺泉水鸡",
+   "url": "https://baike.baidu.com/item/%E8%80%81%E5%B9%BA%E6%B3%89%E6%B0%B4%E9%B8%A1",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-23"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "老幺泉水鸡"
+ },
+ "_geocodeTitle": "老幺泉水鸡",
+ "_geocodeSuspect": false,
+ "district": "500108",
+ "_noImage": true,
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.4,
+    "note": "活鸡现杀，麻辣里带回甜"
+   },
+   {
+    "label": "分量",
+    "score": 4.3,
+    "note": "一鸡三吃，两三人点一只刚好"
+   },
+   {
+    "label": "价格",
+    "score": 3.4,
+    "note": "一只鸡起称，人均不低"
+   },
+   {
+    "label": "环境",
+    "score": 3.2,
+    "note": "农家乐风格，露台比室内舒服"
+   }
   ],
-  "popularity": 72,
+  "body": "泉水鸡是南山的招牌江湖菜，老幺又是这条街上名气最大的一家，活鸡现称现杀，一只鸡拆成泉水鸡、鸡血汤、泡椒鸡杂三道，麻辣里带回甜，两三个人点一只刚好。店里是农家乐样子，天暖坐露台有味道，吃完顺路上南山一棵树看夜景动线正好。缺点是鸡最小四斤多起称，人少容易吃不完，人均也就上去了；饭点人多要等位。",
+  "basis": "web",
+  "at": "2026-11-14",
+  "fits": [
+   "朋友聚餐",
+   "配夜景行程"
+  ],
+  "avoid": [
+   "一两个人",
+   "想吃清淡"
+  ],
   "sources": [
-    {
-      "title": "百度百科·老幺泉水鸡",
-      "url": "https://baike.baidu.com/item/%E8%80%81%E5%B9%BA%E6%B3%89%E6%B0%B4%E9%B8%A1",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-23"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "老幺泉水鸡"
-  },
-  "_geocodeTitle": "老幺泉水鸡",
-  "_geocodeSuspect": false,
-  "district": "500108",
-  "_noImage": true
+   "http://mp.weixin.qq.com/s?__biz=MzIzNzc4NzM1Ng==&mid=2247833158&idx=1&sn=fd551da935e8ea5a471e96bed7977e18",
+   "https://m.toutiao.com/article/7400204393703850548/",
+   "https://diqu.16fan.com/lazybag/7_681.html"
+  ]
+ }
 }

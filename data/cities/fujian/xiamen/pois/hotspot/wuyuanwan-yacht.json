@@ -1,68 +1,100 @@
 {
-  "id": "wuyuanwan-yacht",
-  "name": "五缘湾游艇港",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "五缘湾里的帆船与游艇码头，可以报名出海转一圈。",
-  "description": "五缘湾游艇港在湖里区五缘湾内湾，是一片人工挖出来的港湾，水面上泊着几百个泊位的帆船与游艇，桅杆一片。这里的玩法有两类：一类是在岸上，沿着码头栈道走，看船、看水，傍晚光最好的时候拍照最好；另一类是出海——有帆船体验与游艇租赁，从湾里出去绕到外海，一小时到半天不等，价格按船型与时长算，以现场报价为准。风与浪大的日子会停航，出海前先看天气。它紧挨五缘湾湿地公园，两个地方可以排半天。",
-  "highlights": [
-    "内湾里泊着几百个泊位的帆船与游艇",
-    "有帆船体验与游艇租赁，可出海绕一圈",
-    "岸上栈道适合傍晚拍照，紧挨湿地公园"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.180881,
-      "lat": 24.53374,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "福建省厦门市湖里区五缘湾槟城道（五缘湾游艇港）",
-    "district": "湖里区",
-    "transportTip": "地铁2号线五缘湾站，步行约十五分钟"
+ "id": "wuyuanwan-yacht",
+ "name": "五缘湾游艇港",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "五缘湾里的帆船与游艇码头，可以报名出海转一圈。",
+ "description": "五缘湾游艇港在湖里区五缘湾内湾，是一片人工挖出来的港湾，水面上泊着几百个泊位的帆船与游艇，桅杆一片。这里的玩法有两类：一类是在岸上，沿着码头栈道走，看船、看水，傍晚光最好的时候拍照最好；另一类是出海——有帆船体验与游艇租赁，从湾里出去绕到外海，一小时到半天不等，价格按船型与时长算，以现场报价为准。风与浪大的日子会停航，出海前先看天气。它紧挨五缘湾湿地公园，两个地方可以排半天。",
+ "highlights": [
+  "内湾里泊着几百个泊位的帆船与游艇",
+  "有帆船体验与游艇租赁，可出海绕一圈",
+  "岸上栈道适合傍晚拍照，紧挨湿地公园"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.180881,
+   "lat": 24.53374,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约09:00-18:00（出海项目视天气），以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "岸上免费，出海项目按船型与时长另计，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 60-180 分钟",
-    "durationMinutes": [
-      60,
-      180
-    ],
-    "priceLevel": "high"
-  },
-  "audience": [
-    "couple",
-    "family",
-    "friends"
+  "address": "福建省厦门市湖里区五缘湾槟城道（五缘湾游艇港）",
+  "district": "湖里区",
+  "transportTip": "地铁2号线五缘湾站，步行约十五分钟"
+ },
+ "practical": {
+  "openHours": "约09:00-18:00（出海项目视天气），以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "岸上免费，出海项目按船型与时长另计，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 60-180 分钟",
+  "durationMinutes": [
+   60,
+   180
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "帆船",
-    "游艇",
-    "五缘湾"
+  "priceLevel": "high"
+ },
+ "audience": [
+  "couple",
+  "family",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "帆船",
+  "游艇",
+  "五缘湾"
+ ],
+ "popularity": 79,
+ "sources": [
+  {
+   "title": "百度百科·五缘湾",
+   "url": "https://baike.baidu.com/item/%E4%BA%94%E7%BC%98%E6%B9%BE",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "五缘湾游艇港"
+ },
+ "_geocodeTitle": "五缘湾游艇港",
+ "_geocodeSuspect": false,
+ "district": "350206",
+ "_noImage": true,
+ "review": {
+  "score": 3.8,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "氛围",
+    "score": 4.4,
+    "note": "内湾泊满帆船，桅杆连成一片"
+   },
+   {
+    "label": "拍照",
+    "score": 4.3,
+    "note": "傍晚逆光与桅杆最好看"
+   },
+   {
+    "label": "价格",
+    "score": 2.9,
+    "note": "出海按船型时长报，透明度一般"
+   },
+   {
+    "label": "天气",
+    "score": 3.0,
+    "note": "风浪大就停航，行程容易作废"
+   }
   ],
-  "popularity": 79,
-  "sources": [
-    {
-      "title": "百度百科·五缘湾",
-      "url": "https://baike.baidu.com/item/%E4%BA%94%E7%BC%98%E6%B9%BE",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "五缘湾游艇港"
-  },
-  "_geocodeTitle": "五缘湾游艇港",
-  "_geocodeSuspect": false,
-  "district": "350206",
-  "_noImage": true
+  "body": "五缘湾内湾挖出来的一片港湾，几百个泊位停满帆船与游艇，桅杆连成一片，傍晚顺光时在栈道上拍最出片。玩法分两路：岸上沿码头走，或者报名出海绕一圈。缺点是出海价格按船型与时长报，现场问价容易糊涂，多问两家再定；风浪大的日子直接停航，专程赶来可能白跑，最好留个备选。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [],
+  "avoid": [],
+  "sources": []
+ }
 }

@@ -40,7 +40,71 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Hexi%2C_Tianjin%2C_China_-_panoramio_%2858%29.jpg/1280px-Hexi%2C_Tianjin%2C_China_-_panoramio_%2858%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Hexi%2C_Tianjin%2C_China_-_panoramio_%2858%29.jpg/1280px-Hexi%2C_Tianjin%2C_China_-_panoramio_%2858%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Hexi, Tianjin, China - panoramio (58).jpg",
+      "query": "天津自然博物馆",
+      "credit": {
+        "source": "wikimedia",
+        "author": "肖红军",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/%E5%A4%A9%E6%B4%A5%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E7%9A%84%D7%9B.jpg/1280px-%E5%A4%A9%E6%B4%A5%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E7%9A%84%D7%9B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/%E5%A4%A9%E6%B4%A5%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E7%9A%84%D7%9B.jpg/1280px-%E5%A4%A9%E6%B4%A5%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E7%9A%84%D7%9B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "天津文化中心的כ.jpg",
+      "query": "天津自然博物馆",
+      "credit": {
+        "source": "wikimedia",
+        "author": "KangTyngrwey",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "street"
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/%E5%A4%A9%E6%B4%A5%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E4%B8%AD%E5%BF%83%E6%B9%96.jpg/1280px-%E5%A4%A9%E6%B4%A5%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E4%B8%AD%E5%BF%83%E6%B9%96.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/%E5%A4%A9%E6%B4%A5%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E4%B8%AD%E5%BF%83%E6%B9%96.jpg/1280px-%E5%A4%A9%E6%B4%A5%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E4%B8%AD%E5%BF%83%E6%B9%96.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "天津文化中心中心湖.jpg",
+      "query": "天津自然博物馆",
+      "credit": {
+        "source": "wikimedia",
+        "author": "KangTyngrwey",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "street"
+      }
+    }
+  ],
   "coverIndex": 0,
   "tags": [
     "博物馆",
@@ -56,7 +120,7 @@
       "fetchedAt": "2026-09-27"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-05",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -64,6 +128,5 @@
   },
   "_geocodeTitle": "天津自然博物馆",
   "_geocodeSuspect": false,
-  "district": "120103",
-  "_noImage": true
+  "district": "120103"
 }

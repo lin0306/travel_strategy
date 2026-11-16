@@ -22,7 +22,7 @@
     "transportTip": "徽州古城内步行可寻砚店 / 作坊"
   },
   "practical": {
-    "openHours": "作坊与店铺日间营业",
+    "openHours": "老胡开文墨厂砚雕车间周一至周五 09:00-11:30、13:40-17:00；古城砚店多为日间营业",
     "openHoursRef": 0,
     "ticket": "参观多免费；购砚按件计",
     "ticketRef": 0,
@@ -40,7 +40,9 @@
     "elders"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "老胡开文墨厂（城东路19号）设砚雕研学体验车间，可上手浅浮雕；参观免费，体验项目另收费"
+  ],
   "images": [],
   "coverIndex": 0,
   "tags": [
@@ -56,9 +58,15 @@
       "url": "https://baike.baidu.com/item/%E6%AD%99%E7%A0%9A",
       "kind": "wiki",
       "fetchedAt": "2026-10-07"
+    },
+    {
+      "title": "歙县文旅研学基地公布砚雕体验车间",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3NDc4ODM3NA==&mid=2247600036&idx=2&sn=43b4ac11cea4b4d89c972f93de77f068",
+      "kind": "media",
+      "fetchedAt": "2026-11-13"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-13",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -67,5 +75,24 @@
   "_geocodeTitle": "歙砚奇石",
   "_geocodeSuspect": false,
   "district": "341021",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-13",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "作坊与店铺日间营业",
+        "new": "老胡开文墨厂砚雕车间周一至周五 09:00-11:30、13:40-17:00；古城砚店多为日间营业"
+      },
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [],
+        "new": [
+          "老胡开文墨厂（城东路19号）设砚雕研学体验车间，可上手浅浮雕；参观免费，体验项目另收费"
+        ]
+      }
+    ],
+    "source": "https://mp.weixin.qq.com/s?__biz=Mzg3NDc4ODM3NA==&mid=2247600036&idx=2&sn=43b4ac11cea4b4d89c972f93de77f068",
+    "reason": "歙县文旅研学基地公布砚雕体验车间"
+  }
 }

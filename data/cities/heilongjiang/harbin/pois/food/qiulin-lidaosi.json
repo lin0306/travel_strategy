@@ -1,68 +1,107 @@
 {
-  "id": "qiulin-lidaosi",
-  "name": "秋林·里道斯红肠大列巴(中央大街店)",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "哈尔滨最有名的红肠与大列巴品牌，中央大街这家是游客最方便的一处，买完直接带走。",
-  "description": "秋林里道斯是哈尔滨红肠这块最有名的牌子，从上世纪初随中东铁路过来的俄式灌肠做法传下来，用硬木熏，肠衣脆、肉紧实、蒜味重。中央大街这家在西十二道街，店里一端是挂着整排红肠的柜台，另一端是大列巴 —— 那种一个两斤重、外壳硬、里面带酸味的俄式大面包。还有干肠、茶肠、熏酱这些，可以真空打包带走。买的时候看是不是要现切，现切当场吃最香，真空的适合带回去。价格按重量算，红肠比普通火腿肠贵一截。街上打着各种牌子卖红肠的店很多，认准想买的那一家。",
-  "highlights": [
-    "硬木熏的俄式灌肠做法，肠衣脆蒜味重",
-    "大列巴是那种两斤重带酸味的俄式面包",
-    "可真空打包带走，现切当场吃最香"
-  ],
-  "location": {
-    "point": {
-      "lng": 126.620153,
-      "lat": 45.770375,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黑龙江省哈尔滨市道里区中央大街西十二道街71号",
-    "district": "道里区",
-    "transportTip": "地铁二号线中央大街站步行约五分钟"
+ "id": "qiulin-lidaosi",
+ "name": "秋林·里道斯红肠大列巴(中央大街店)",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "哈尔滨最有名的红肠与大列巴品牌，中央大街这家是游客最方便的一处，买完直接带走。",
+ "description": "秋林里道斯是哈尔滨红肠这块最有名的牌子，从上世纪初随中东铁路过来的俄式灌肠做法传下来，用硬木熏，肠衣脆、肉紧实、蒜味重。中央大街这家在西十二道街，店里一端是挂着整排红肠的柜台，另一端是大列巴 —— 那种一个两斤重、外壳硬、里面带酸味的俄式大面包。还有干肠、茶肠、熏酱这些，可以真空打包带走。买的时候看是不是要现切，现切当场吃最香，真空的适合带回去。价格按重量算，红肠比普通火腿肠贵一截。街上打着各种牌子卖红肠的店很多，认准想买的那一家。",
+ "highlights": [
+  "硬木熏的俄式灌肠做法，肠衣脆蒜味重",
+  "大列巴是那种两斤重带酸味的俄式面包",
+  "可真空打包带走，现切当场吃最香"
+ ],
+ "location": {
+  "point": {
+   "lng": 126.620153,
+   "lat": 45.770375,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约8:30-21:00，以门店公告为准",
-    "openHoursRef": 0,
-    "ticket": "按重量计价，人均便宜",
-    "ticketRef": 0,
-    "duration": "建议 20-45 分钟",
-    "durationMinutes": [
-      20,
-      45
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "family",
-    "friends",
-    "elders"
+  "address": "黑龙江省哈尔滨市道里区中央大街西十二道街71号",
+  "district": "道里区",
+  "transportTip": "地铁二号线中央大街站步行约五分钟"
+ },
+ "practical": {
+  "openHours": "约8:30-21:00，以门店公告为准",
+  "openHoursRef": 0,
+  "ticket": "按重量计价，人均便宜",
+  "ticketRef": 0,
+  "duration": "建议 20-45 分钟",
+  "durationMinutes": [
+   20,
+   45
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "红肠",
-    "大列巴",
-    "可带走"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "family",
+  "friends",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "红肠",
+  "大列巴",
+  "可带走"
+ ],
+ "popularity": 88,
+ "sources": [
+  {
+   "title": "百度百科·哈尔滨红肠",
+   "url": "https://baike.baidu.com/item/%E5%93%88%E5%B0%94%E6%BB%A8%E7%BA%A2%E8%82%A0",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "秋林·里道斯红肠大列巴(中央大街店)"
+ },
+ "_geocodeTitle": "秋林·里道斯红肠大列巴",
+ "_geocodeSuspect": false,
+ "district": "230102",
+ "_noImage": true,
+ "review": {
+  "score": 3.8,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.3,
+    "note": "硬木熏制，肠衣脆肉紧蒜味重"
+   },
+   {
+    "label": "价格",
+    "score": 3.4,
+    "note": "按重量算，比普通火腿肠贵一截"
+   },
+   {
+    "label": "排队",
+    "score": 3.8,
+    "note": "中央大街店游客多，柜台要等"
+   },
+   {
+    "label": "带走",
+    "score": 4.2,
+    "note": "可真空打包，适合当伴手礼"
+   }
   ],
-  "popularity": 88,
-  "sources": [
-    {
-      "title": "百度百科·哈尔滨红肠",
-      "url": "https://baike.baidu.com/item/%E5%93%88%E5%B0%94%E6%BB%A8%E7%BA%A2%E8%82%A0",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
+  "body": "硬木熏的俄式灌肠，肠衣脆、肉紧实、蒜味重，加上那种两斤重带酸味的大列巴，是哈尔滨最典型的一份伴手礼。中央大街这家最方便，一端挂整排红肠、一端摆大列巴，可以真空打包带走。要注意价格是按重量算的，比普通火腿肠贵一截，随手拿几根结账时容易超出预期；街上打着各种牌子卖红肠的店很多，认准想买的那家再下手。现切当场吃最香，但带回去只能选真空装，风味会差一点。逛街顺路买，不必专程。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "买伴手礼",
+   "中央大街顺路",
+   "想吃红肠"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "秋林·里道斯红肠大列巴(中央大街店)"
-  },
-  "_geocodeTitle": "秋林·里道斯红肠大列巴",
-  "_geocodeSuspect": false,
-  "district": "230102",
-  "_noImage": true
+  "avoid": [
+   "专程跑一趟",
+   "预算紧"
+  ],
+  "sources": []
+ }
 }

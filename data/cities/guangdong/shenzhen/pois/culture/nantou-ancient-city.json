@@ -1,67 +1,104 @@
 {
-  "id": "nantou-ancient-city",
-  "name": "南头古城",
-  "category": "culture",
-  "subtype": "street",
-  "summary": "这座城市最早的行政中心：一千七百年的县治所在，现在被重新整理了一遍。",
-  "description": "南头是这一带最早的行政中心。东晋时设宝安县，县治就在这里，此后一千多年里一直是。明代为防海患设南头寨，修了城墙。今天留下的是一座不完整的古城：南头古城垣是一处，城内的县衙、文庙与一批民居经过多次修缮。2019 年之后做过一次整体整理，引入了展览与商业。它的价值在位置关系：深圳的历史从这一块开始，往南的南山与蛇口都是后来长出来的。与南山博物馆在同一个方向。",
-  "highlights": [
-    "东晋设宝安县以来的县治所在，一千七百多年",
-    "明代南头寨的城墙遗存",
-    "与南山博物馆同方向，可一并走"
-  ],
-  "location": {
-    "point": {
-      "lng": 113.920546,
-      "lat": 22.543758,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "深圳市南山区南头街道南山大道（南头古城）",
-    "district": "南山区",
-    "transportTip": "地铁1号线大新站步行约10分钟"
+ "id": "nantou-ancient-city",
+ "name": "南头古城",
+ "category": "culture",
+ "subtype": "street",
+ "summary": "这座城市最早的行政中心：一千七百年的县治所在，现在被重新整理了一遍。",
+ "description": "南头是这一带最早的行政中心。东晋时设宝安县，县治就在这里，此后一千多年里一直是。明代为防海患设南头寨，修了城墙。今天留下的是一座不完整的古城：南头古城垣是一处，城内的县衙、文庙与一批民居经过多次修缮。2019 年之后做过一次整体整理，引入了展览与商业。它的价值在位置关系：深圳的历史从这一块开始，往南的南山与蛇口都是后来长出来的。与南山博物馆在同一个方向。",
+ "highlights": [
+  "东晋设宝安县以来的县治所在，一千七百多年",
+  "明代南头寨的城墙遗存",
+  "与南山博物馆同方向，可一并走"
+ ],
+ "location": {
+  "point": {
+   "lng": 113.920546,
+   "lat": 22.543758,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:00-22:00，展馆时间各自不同（以官方公告为准）",
-    "openHoursRef": 0,
-    "ticket": "免费，部分展览另计以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 120-300 分钟",
-    "durationMinutes": [
-      120,
-      300
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "family",
-    "solo"
+  "address": "深圳市南山区南头街道南山大道（南头古城）",
+  "district": "南山区",
+  "transportTip": "地铁1号线大新站步行约10分钟"
+ },
+ "practical": {
+  "openHours": "约10:00-22:00，展馆时间各自不同（以官方公告为准）",
+  "openHoursRef": 0,
+  "ticket": "免费，部分展览另计以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 120-300 分钟",
+  "durationMinutes": [
+   120,
+   300
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "古城",
-    "免费",
-    "老城"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "古城",
+  "免费",
+  "老城"
+ ],
+ "popularity": 82,
+ "sources": [
+  {
+   "title": "百度百科·南头古城",
+   "url": "https://baike.baidu.com/item/%E5%8D%97%E5%A4%B4%E5%8F%A4%E5%9F%8E",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-24"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "南头古城"
+ },
+ "_geocodeTitle": "南头古城",
+ "_geocodeSuspect": false,
+ "district": "440305",
+ "_noImage": true,
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "历史",
+    "score": 4.5,
+    "note": "东晋设宝安县起一千七百多年的县治所在"
+   },
+   {
+    "label": "商业化",
+    "score": 2.5,
+    "note": "2019 年整理后引入展览与商业，街面新旧混着"
+   },
+   {
+    "label": "免费",
+    "score": 4,
+    "note": "街区免费进，部分展览另计"
+   },
+   {
+    "label": "顺路度",
+    "score": 4,
+    "note": "与南山博物馆同方向，一天能串"
+   }
   ],
-  "popularity": 82,
-  "sources": [
-    {
-      "title": "百度百科·南头古城",
-      "url": "https://baike.baidu.com/item/%E5%8D%97%E5%A4%B4%E5%8F%A4%E5%9F%8E",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-24"
-    }
+  "body": "深圳的历史是从这一块起头的：东晋设宝安县，县治就在这里，此后一千多年没搬过，明代为防海患修了城墙，今天还能看到不完整的城垣和县衙、文庙那一批修缮过的老房子。2019 年做过一次整体整理，展览与商业一起进来，走起来舒服。缺点是商业比重不低，街面新旧混着，想看纯粹的老城格局要挑巷子往里走；免费进，但个别展览另收费，别以为全包。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "看城市源流",
+   "半日步行"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "南头古城"
-  },
-  "_geocodeTitle": "南头古城",
-  "_geocodeSuspect": false,
-  "district": "440305",
-  "_noImage": true
+  "avoid": [
+   "只想要原生态老城"
+  ],
+  "sources": []
+ }
 }

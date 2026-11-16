@@ -1,96 +1,123 @@
 {
-  "id": "yaoji-chaogan",
-  "name": "姚记炒肝(鼓楼店)",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "鼓楼附近的老店,一套炒肝加包子是最经典的北京早点组合。",
-  "description": "炒肝是以猪大肠与猪肝为主料勾芡烩成的糊状小吃,蒜香重,配包子吃;它的存在感在外地名声不大,在本地却是很踏实的早点。姚记在鼓楼东侧,开了很多年,装修普通,点一份炒肝配猪肉大葱包子,是那种坐下来十分钟解决一餐的效率。口味偏重并有内脏,接受与否因人而异。",
-  "highlights": [
-    "蒜香重、芡汁浓是炒肝本色",
-    "配包子是最常见组合",
-    "店面普通,讲究环境慎选"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.396658,
-      "lat": 39.940894,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "北京市东城区鼓楼东大街311号",
-    "district": "东城",
-    "transportTip": "地铁8号线什刹海站/什刹海、鼓楼一带步行"
+ "id": "yaoji-chaogan",
+ "name": "姚记炒肝(鼓楼店)",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "鼓楼附近的老店,一套炒肝加包子是最经典的北京早点组合。",
+ "description": "炒肝是以猪大肠与猪肝为主料勾芡烩成的糊状小吃,蒜香重,配包子吃;它的存在感在外地名声不大,在本地却是很踏实的早点。姚记在鼓楼东侧,开了很多年,装修普通,点一份炒肝配猪肉大葱包子,是那种坐下来十分钟解决一餐的效率。口味偏重并有内脏,接受与否因人而异。",
+ "highlights": [
+  "蒜香重、芡汁浓是炒肝本色",
+  "配包子是最常见组合",
+  "店面普通,讲究环境慎选"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.396658,
+   "lat": 39.940894,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约06:00-21:00(以门店公告为准)",
-    "openHoursRef": 0,
-    "ticket": "人均约25元起(以门店为准)",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "budget"
+  "address": "北京市东城区鼓楼东大街311号",
+  "district": "东城",
+  "transportTip": "地铁8号线什刹海站/什刹海、鼓楼一带步行"
+ },
+ "practical": {
+  "openHours": "约06:00-21:00(以门店公告为准)",
+  "openHoursRef": 0,
+  "ticket": "人均约25元起(以门店为准)",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/%E5%A7%9A%E8%AE%B0%E7%82%92%E8%82%9D%E5%BA%97_yao_ji_chao_gan_dian-%E5%8C%97%E4%BA%AC%E9%BC%93%E6%A5%BC%E4%B8%9C%E5%A4%A7%E8%A1%97_-_panoramio.jpg/1280px-%E5%A7%9A%E8%AE%B0%E7%82%92%E8%82%9D%E5%BA%97_yao_ji_chao_gan_dian-%E5%8C%97%E4%BA%AC%E9%BC%93%E6%A5%BC%E4%B8%9C%E5%A4%A7%E8%A1%97_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/%E5%A7%9A%E8%AE%B0%E7%82%92%E8%82%9D%E5%BA%97_yao_ji_chao_gan_dian-%E5%8C%97%E4%BA%AC%E9%BC%93%E6%A5%BC%E4%B8%9C%E5%A4%A7%E8%A1%97_-_panoramio.jpg/1280px-%E5%A7%9A%E8%AE%B0%E7%82%92%E8%82%9D%E5%BA%97_yao_ji_chao_gan_dian-%E5%8C%97%E4%BA%AC%E9%BC%93%E6%A5%BC%E4%B8%9C%E5%A4%A7%E8%A1%97_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "姚记炒肝店 yao ji chao gan dian-北京鼓楼东大街 - panoramio.jpg",
+   "query": "姚记炒肝 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "wanghongliu",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A7%9A%E8%AE%B0%E7%82%92%E8%82%9D%E5%BA%97_yao_ji_chao_gan_dian-%E5%8C%97%E4%BA%AC%E9%BC%93%E6%A5%BC%E4%B8%9C%E5%A4%A7%E8%A1%97_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "solo"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Yaoji_Chaogan_Restaurant_%2820201105155735%29.jpg/1280px-Yaoji_Chaogan_Restaurant_%2820201105155735%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Yaoji_Chaogan_Restaurant_%2820201105155735%29.jpg/1280px-Yaoji_Chaogan_Restaurant_%2820201105155735%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Yaoji Chaogan Restaurant (20201105155735).jpg",
+   "query": "姚记炒肝",
+   "credit": {
+    "source": "wikimedia",
+    "author": "N509FZ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yaoji_Chaogan_Restaurant_(20201105155735).jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "炒肝",
+  "早点",
+  "清真以外"
+ ],
+ "popularity": 82,
+ "sources": [
+  {
+   "title": "百度百科·炒肝",
+   "url": "https://baike.baidu.com/item/%E7%82%92%E8%82%9D",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "姚记炒肝(鼓楼店)"
+ },
+ "_geocodeTitle": "姚记炒肝店(鼓楼店)",
+ "_geocodeSuspect": false,
+ "district": "110101",
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.0,
+    "note": "蒜香重、芡汁浓，配包子是经典组合"
+   },
+   {
+    "label": "环境",
+    "score": 2.4,
+    "note": "店面普通，早高峰拼桌是常态"
+   },
+   {
+    "label": "价格",
+    "score": 4.3,
+    "note": "二十几块解决一顿早点"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/%E5%A7%9A%E8%AE%B0%E7%82%92%E8%82%9D%E5%BA%97_yao_ji_chao_gan_dian-%E5%8C%97%E4%BA%AC%E9%BC%93%E6%A5%BC%E4%B8%9C%E5%A4%A7%E8%A1%97_-_panoramio.jpg/1280px-%E5%A7%9A%E8%AE%B0%E7%82%92%E8%82%9D%E5%BA%97_yao_ji_chao_gan_dian-%E5%8C%97%E4%BA%AC%E9%BC%93%E6%A5%BC%E4%B8%9C%E5%A4%A7%E8%A1%97_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/%E5%A7%9A%E8%AE%B0%E7%82%92%E8%82%9D%E5%BA%97_yao_ji_chao_gan_dian-%E5%8C%97%E4%BA%AC%E9%BC%93%E6%A5%BC%E4%B8%9C%E5%A4%A7%E8%A1%97_-_panoramio.jpg/1280px-%E5%A7%9A%E8%AE%B0%E7%82%92%E8%82%9D%E5%BA%97_yao_ji_chao_gan_dian-%E5%8C%97%E4%BA%AC%E9%BC%93%E6%A5%BC%E4%B8%9C%E5%A4%A7%E8%A1%97_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "姚记炒肝店 yao ji chao gan dian-北京鼓楼东大街 - panoramio.jpg",
-      "query": "姚记炒肝 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "wanghongliu",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A7%9A%E8%AE%B0%E7%82%92%E8%82%9D%E5%BA%97_yao_ji_chao_gan_dian-%E5%8C%97%E4%BA%AC%E9%BC%93%E6%A5%BC%E4%B8%9C%E5%A4%A7%E8%A1%97_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Yaoji_Chaogan_Restaurant_%2820201105155735%29.jpg/1280px-Yaoji_Chaogan_Restaurant_%2820201105155735%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Yaoji_Chaogan_Restaurant_%2820201105155735%29.jpg/1280px-Yaoji_Chaogan_Restaurant_%2820201105155735%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Yaoji Chaogan Restaurant (20201105155735).jpg",
-      "query": "姚记炒肝",
-      "credit": {
-        "source": "wikimedia",
-        "author": "N509FZ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yaoji_Chaogan_Restaurant_(20201105155735).jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "炒肝",
-    "早点",
-    "清真以外"
-  ],
-  "popularity": 82,
-  "sources": [
-    {
-      "title": "百度百科·炒肝",
-      "url": "https://baike.baidu.com/item/%E7%82%92%E8%82%9D",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "姚记炒肝(鼓楼店)"
-  },
-  "_geocodeTitle": "姚记炒肝店(鼓楼店)",
-  "_geocodeSuspect": false,
-  "district": "110101"
+  "body": "炒肝配包子是北京早点最经典的一套，蒜香重、芡汁浓，坐下来十分钟解决一餐。缺点是店面普通、座位挤，早高峰拼桌是常态；内脏与重口对清淡派不友好，第一次来点半份试口更稳。鼓楼一带顺路吃合适，专程跑一趟不值。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [],
+  "avoid": [],
+  "sources": []
+ }
 }

@@ -39,7 +39,29 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Kunming_Zhong%27ai_Fang_20250813_182631.jpg/1280px-Kunming_Zhong%27ai_Fang_20250813_182631.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Kunming_Zhong%27ai_Fang_20250813_182631.jpg/1280px-Kunming_Zhong%27ai_Fang_20250813_182631.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "昆明老街茶馆所在的街区实景（非本店门面）",
+      "query": "昆明老街茶馆",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Zhangzhugang",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "street"
+      }
+    }
+  ],
   "coverIndex": 0,
   "tags": [
     "茶馆",
@@ -55,13 +77,12 @@
       "fetchedAt": "2026-09-28"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-05",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
     "zh": "昆明老街茶馆"
   },
   "_geocodeTitle": "文明街",
-  "district": "530102",
-  "_noImage": true
+  "district": "530102"
 }

@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "重庆市渝北区/渝中区有店（以门店公告为准）",
-    "district": "南岸",
+    "district": "渝中",
     "transportTip": "各分店位置不同，建议先查门店再出发"
   },
   "practical": {
@@ -54,7 +54,7 @@
       "fetchedAt": "2026-09-19"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -62,6 +62,44 @@
   },
   "_geocodeTitle": "花市豌杂面(较场口店)",
   "_geocodeSuspect": false,
-  "district": "500108",
-  "_noImage": true
+  "district": "500103",
+  "_noImage": true,
+  "review": {
+    "score": 4.2,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "口味",
+        "score": 4.5,
+        "note": "豌豆沙软、杂酱香，麻辣之外有回甜"
+      },
+      {
+        "label": "价格",
+        "score": 4.5,
+        "note": "人均十几块"
+      },
+      {
+        "label": "环境",
+        "score": 2.8,
+        "note": "没什么环境，吃完就走"
+      },
+      {
+        "label": "时段",
+        "score": 2.5,
+        "note": "只做早午市，午后基本收摊"
+      }
+    ],
+    "body": "豌豆炖到沙软成泥，杂酱是炒香的肉末酱，拌开以后每根面都裹上酱和豆沙，麻辣之外还有明显的回甜，是重庆小面里辨识度很高的一碗。缺点是只做早午市，午后去大概率收摊；店里没有环境可言，端着碗站着吃完就走。为这一口早起值得。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "早餐",
+      "独自快吃"
+    ],
+    "avoid": [
+      "晚起",
+      "要坐着慢慢吃"
+    ],
+    "sources": []
+  }
 }

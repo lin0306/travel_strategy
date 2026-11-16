@@ -1,68 +1,123 @@
 {
-  "id": "minnan-theatre",
-  "name": "闽南大戏院",
-  "category": "culture",
-  "subtype": "performance",
-  "summary": "会展片区的大剧场，歌剧、舞剧与音乐会在这一带演出。",
-  "description": "闽南大戏院在思明区会展北片区的展鸿路，是厦门近十几年来新建的大型演出场所，外形是一组白色的体量，夜里打上灯，在这一片很显眼。剧场内部是一个标准的大舞台，能演歌剧、舞剧、音乐剧与交响音乐会，另有小剧场与排练厅。座位一千多个，声学与视线按演出要求做的，是厦门看大戏的主要地方。排期里有国内院团与国外团体的巡演，票价按场次与座位分区，热门场次提前卖完。它在会展中心旁边，离环岛路与香山那一段不远，地铁与公交都能到。",
-  "highlights": [
-    "近十几年新建的大型演出场所，白色体量",
-    "标准大舞台，座位一千多个，另有小剧场",
-    "排期含国内院团与国外团体巡演"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.189155,
-      "lat": 24.473839,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "福建省厦门市思明区展鸿路87号",
-    "district": "思明区",
-    "transportTip": "地铁2号线或3号线至会展一带，转乘公交或步行"
+ "id": "minnan-theatre",
+ "name": "闽南大戏院",
+ "category": "culture",
+ "subtype": "performance",
+ "summary": "会展片区的大剧场，歌剧、舞剧与音乐会在这一带演出。",
+ "description": "闽南大戏院在思明区会展北片区的展鸿路，是厦门近十几年来新建的大型演出场所，外形是一组白色的体量，夜里打上灯，在这一片很显眼。剧场内部是一个标准的大舞台，能演歌剧、舞剧、音乐剧与交响音乐会，另有小剧场与排练厅。座位一千多个，声学与视线按演出要求做的，是厦门看大戏的主要地方。排期里有国内院团与国外团体的巡演，票价按场次与座位分区，热门场次提前卖完。它在会展中心旁边，离环岛路与香山那一段不远，地铁与公交都能到。",
+ "highlights": [
+  "近十几年新建的大型演出场所，白色体量",
+  "标准大舞台，座位一千多个，另有小剧场",
+  "排期含国内院团与国外团体巡演"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.189155,
+   "lat": 24.473839,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "随演出排期（票务以公告为准），以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "票价按场次与座位分区，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 120-210 分钟",
-    "durationMinutes": [
-      120,
-      210
-    ],
-    "priceLevel": "mid"
+  "address": "福建省厦门市思明区展鸿路87号",
+  "district": "思明区",
+  "transportTip": "公交58/98/641/30/401路至市金融中心站；地铁2号线软件园二期站转乘公交或打车"
+ },
+ "practical": {
+  "openHours": "随演出排期（票务以公告为准），以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "票价按场次与座位分区，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 120-210 分钟",
+  "durationMinutes": [
+   120,
+   210
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "elders",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "大剧院",
+  "演出",
+  "会展"
+ ],
+ "popularity": 75,
+ "sources": [
+  {
+   "title": "百度百科·闽南大戏院",
+   "url": "https://baike.baidu.com/item/%E9%97%BD%E5%8D%97%E5%A4%A7%E6%88%8F%E9%99%A2",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
   },
-  "audience": [
-    "couple",
-    "elders",
-    "family"
+  {
+   "title": "厦门市总工会公众号观演指南：最近地铁为软件园二期站",
+   "url": "http://mp.weixin.qq.com/s?__biz=MzA5NzI3MTYyNg==&mid=2651231709&idx=1&sn=913c5064111784c39fb2899ad12246fd",
+   "kind": "media",
+   "fetchedAt": "2026-11-12"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "闽南大戏院"
+ },
+ "_geocodeTitle": "闽南大戏院",
+ "_geocodeSuspect": false,
+ "district": "350203",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-12",
+  "changes": [
+   {
+    "field": "交通提示",
+    "old": "地铁2号线或3号线至会展一带，转乘公交或步行",
+    "new": "公交58/98/641/30/401路至市金融中心站；地铁2号线软件园二期站转乘公交或打车"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "大剧院",
-    "演出",
-    "会展"
+  "source": "http://mp.weixin.qq.com/s?__biz=MzA5NzI3MTYyNg==&mid=2651231709&idx=1&sn=913c5064111784c39fb2899ad12246fd",
+  "reason": "厦门市总工会公众号观演指南：最近地铁为软件园二期站"
+ },
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "观演",
+    "score": 4.2,
+    "note": "标准大舞台，声学与视线按演出做"
+   },
+   {
+    "label": "排期",
+    "score": 3.2,
+    "note": "随演出排期，无演出日没什么可看"
+   },
+   {
+    "label": "性价比",
+    "score": 3.1,
+    "note": "按场次与座位分区，热门场次票价高"
+   },
+   {
+    "label": "位置",
+    "score": 3.2,
+    "note": "会展北片区，离老城游览区远"
+   }
   ],
-  "popularity": 75,
-  "sources": [
-    {
-      "title": "百度百科·闽南大戏院",
-      "url": "https://baike.baidu.com/item/%E9%97%BD%E5%8D%97%E5%A4%A7%E6%88%8F%E9%99%A2",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
+  "body": "厦门近十几年新建的大型演出场所，白色体量夜里打灯很显眼，内部是标准大舞台，能演歌剧、舞剧、音乐剧与交响音乐会，另有小剧场与排练厅，一千多个座位按演出要求做声学与视线，是本地看大戏的主要地方，排期里有国内院团与国外团体巡演。缺点是它完全跟着排期走，没有演出的日子去了也只能看个外观；票价按场次与座位分区，热门场次提前卖完且偏贵，位置又在会展片区，专程跑一趟不太划算。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "有想看的演出",
+   "会展片区顺路"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "闽南大戏院"
-  },
-  "_geocodeTitle": "闽南大戏院",
-  "_geocodeSuspect": false,
-  "district": "350203",
-  "_noImage": true
+  "avoid": [
+   "无演出日专门前往"
+  ],
+  "sources": []
+ }
 }

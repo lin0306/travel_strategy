@@ -1,6 +1,6 @@
 # 井冈山 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-07
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-14
 
 ## 概览
 
@@ -74,9 +74,8 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | 《人民画报》 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:1963-03_1963%E5%B9%B4_%E4%BA%95%E5%86%88%E5%B1%B1.jpg) |
-| 城市封面 | 《人民画报》 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:1965-3_1965%E5%B9%B4_%E4%BA%95%E5%86%88%E5%B1%B1%E4%B8%BB%E5%B3%B0.jpg) |
-| 城市封面 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%95%E5%86%88%E5%B1%B1%E5%A4%A7%E4%BA%95%E9%99%84%E8%BF%91_06.jpg) |
+| 城市封面 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%95%E5%86%88%E5%B1%B1%E9%9D%A9%E5%91%BD%E5%8D%9A%E7%89%A9%E9%A6%86_01.jpg) |
+| 城市封面 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Huangyangjie_Cannon_Monument_(20250124102158).jpg) |
 | 茅坪八角楼 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_residence_of_Mao_Zedong_at_Bajiaolou,_Maoping_(20250123164650).jpg) |
 | 红军造币厂 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%95%E5%86%88%E5%B1%B1%E7%BA%A2%E5%86%9B%E9%80%A0%E5%B8%81%E5%8E%82.jpg) |
 | 黄洋界 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%95%E5%86%88%E5%B1%B1%E9%BB%84%E6%B4%8B%E7%95%8C%E5%93%A8%E5%8F%A3%E8%90%A5%E6%88%BF%E6%97%A7%E5%9D%80_01.jpg) |

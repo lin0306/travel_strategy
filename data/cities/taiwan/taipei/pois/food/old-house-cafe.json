@@ -40,7 +40,29 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Taiwan_-i---i-_%2849519936751%29.jpg/1280px-Taiwan_-i---i-_%2849519936751%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Taiwan_-i---i-_%2849519936751%29.jpg/1280px-Taiwan_-i---i-_%2849519936751%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Taiwan -i---i- (49519936751).jpg",
+      "query": "老屋咖啡馆",
+      "credit": {
+        "source": "wikimedia",
+        "author": "玄史生",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC0",
+        "attributionRequired": false
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "inside"
+      }
+    }
+  ],
   "coverIndex": 0,
   "tags": [
     "咖啡馆",
@@ -56,13 +78,12 @@
       "fetchedAt": "2026-10-03"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-05",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Taipei old house cafe",
     "zh": "老屋咖啡馆"
   },
   "_geocodeTitle": "松山区",
-  "district": "711001",
-  "_noImage": true
+  "district": "711001"
 }

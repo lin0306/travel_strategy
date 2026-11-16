@@ -22,15 +22,18 @@ import { usePlanUi } from '~/common/logic/itinerary/planUi'
 import { RoutePlanPanelBody } from '~/common/ui/plan/RoutePlanPanelBody'
 import { Sheet, type SheetTier } from '~/mobile/ui/Sheet'
 import { useSheetClaim } from '~/mobile/ui/sheetHub'
-/** 门：只负责"开不开"，**不持有任何状态**（见文件头） */
+import { usePresence } from '~/common/ui/usePresence'
+/** 门：只负责"开不开"，**不持有任何状态**（见文件头）。
+ *  退场：关掉后多留 260ms 播「滑落」（Sheet 高度归 0，过渡 220ms + 一帧余量），再真的卸载 */
 export function MobileRoutePlanPanel() {
   const open = usePlanUi((s) => s.panelOpen)
-  if (!open) return null
-  return <PlanSheet />
+  const pres = usePresence(open, 260)
+  if (!pres.mounted) return null
+  return <PlanSheet exiting={pres.exiting} />
 }
 
 /** 内容：每次打开都是**全新实例**，所以永远从 `half` 档开始 */
-function PlanSheet() {
+function PlanSheet({ exiting }: { exiting: boolean }) {
   /*
    * 默认给 `half` 而不是 `peek`：打开面板的人一定是来做事的（看列表 / 改顺序），
    * `peek` 只能看到一行，他必然要再拖一次。默认档要落在"马上能用"的那一档。
@@ -48,7 +51,7 @@ function PlanSheet() {
        ★★ `onClose`：与详情浮层同一条规矩 —— 点外部 / 往下拉过阈值 / Esc 都收起
           （用户 2026-10-27：「规划浮窗，也是同理」）。收起走 `closePanel`，
           它会连带清掉取点态与折线，不是单纯把 DOM 藏起来 */
-    <Sheet tier={tier} onTier={setTier} label="路线规划" onClose={closePanel}>
+    <Sheet tier={tier} onTier={setTier} label="路线规划" onClose={closePanel} exiting={exiting}>
       <RoutePlanPanelBody />
     </Sheet>
   )

@@ -1,69 +1,108 @@
 {
-  "id": "songhua-cableway",
-  "name": "松花江观光索道",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "从江南通江街跨江到太阳岛的索道，一趟十分钟，江面与两岸在脚下过去。",
-  "description": "索道跨松花江，一头在道里区通江街的江上城堡，另一头落到太阳岛，单程十分钟上下。车厢不大，四面是玻璃，升到江面上方之后看得最开 —— 往东是公路桥与老铁路桥，往西是江面开阔的那一段。夏天江上有船，冬天江面是一整片白，两种季节看下来完全不同。它本质是一种过江方式，比地铁贵，但把过江这件事本身变成了一段观光，带小孩的会觉得值。票价中等，有单程与往返。旺季要排，下午与日落前人最多。到了太阳岛那头可以直接进岛逛。",
-  "highlights": [
-    "从通江街跨江到太阳岛，单程十分钟，四面玻璃",
-    "冬天看一整片冻实的江面，与夏天完全不同",
-    "旺季要排，日落前人最多"
-  ],
-  "location": {
-    "point": {
-      "lng": 126.610789,
-      "lat": 45.777899,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黑龙江省哈尔滨市道里区通江街218号江上城堡",
-    "district": "道里区",
-    "transportTip": "地铁二号线中央大街站步行至通江街江畔站"
+ "id": "songhua-cableway",
+ "name": "松花江观光索道",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "从江南通江街跨江到太阳岛的索道，一趟十分钟，江面与两岸在脚下过去。",
+ "description": "索道跨松花江，一头在道里区通江街的江上城堡，另一头落到太阳岛，单程十分钟上下。车厢不大，四面是玻璃，升到江面上方之后看得最开 —— 往东是公路桥与老铁路桥，往西是江面开阔的那一段。夏天江上有船，冬天江面是一整片白，两种季节看下来完全不同。它本质是一种过江方式，比地铁贵，但把过江这件事本身变成了一段观光，带小孩的会觉得值。票价中等，有单程与往返。旺季要排，下午与日落前人最多。到了太阳岛那头可以直接进岛逛。",
+ "highlights": [
+  "从通江街跨江到太阳岛，单程十分钟，四面玻璃",
+  "冬天看一整片冻实的江面，与夏天完全不同",
+  "旺季要排，日落前人最多"
+ ],
+ "location": {
+  "point": {
+   "lng": 126.610789,
+   "lat": 45.777899,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约9:00-17:00，季节与天气有调整，以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "单程与往返票价中等，以现场公告为准",
-    "ticketRef": 0,
-    "duration": "建议 40-90 分钟",
-    "durationMinutes": [
-      40,
-      90
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "couple",
-    "family",
-    "kids",
-    "friends"
+  "address": "黑龙江省哈尔滨市道里区通江街218号江上城堡",
+  "district": "道里区",
+  "transportTip": "地铁二号线中央大街站步行至通江街江畔站"
+ },
+ "practical": {
+  "openHours": "约9:00-17:00，季节与天气有调整，以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "单程与往返票价中等，以现场公告为准",
+  "ticketRef": 0,
+  "duration": "建议 40-90 分钟",
+  "durationMinutes": [
+   40,
+   90
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "索道",
-    "跨江",
-    "俯瞰"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "family",
+  "kids",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "索道",
+  "跨江",
+  "俯瞰"
+ ],
+ "popularity": 80,
+ "sources": [
+  {
+   "title": "百度百科·松花江索道",
+   "url": "https://baike.baidu.com/item/%E6%9D%BE%E8%8A%B1%E6%B1%9F%E8%A7%82%E5%85%89%E7%B4%A2%E9%81%93",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "松花江观光索道"
+ },
+ "_geocodeTitle": "松花江观光索道",
+ "_geocodeSuspect": false,
+ "district": "230102",
+ "_noImage": true,
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.5,
+    "note": "升到江面上方，公路桥与老铁路桥都在脚下"
+   },
+   {
+    "label": "价格",
+    "score": 3.3,
+    "note": "比地铁贵，只为过江不划算"
+   },
+   {
+    "label": "排队",
+    "score": 3.2,
+    "note": "旺季下午与日落前人最多"
+   },
+   {
+    "label": "时长",
+    "score": 3.8,
+    "note": "单程十分钟上下，有单程与往返"
+   }
   ],
-  "popularity": 80,
-  "sources": [
-    {
-      "title": "百度百科·松花江索道",
-      "url": "https://baike.baidu.com/item/%E6%9D%BE%E8%8A%B1%E6%B1%9F%E8%A7%82%E5%85%89%E7%B4%A2%E9%81%93",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
+  "body": "从通江街的江上城堡跨到太阳岛，单程十分钟上下，四面玻璃，升到江面上方之后往东能看公路桥和老铁路桥、往西是开阔江面，夏天有船、冬天是一整片白，两种季节完全不同。本质是一种过江方式，但把过江本身变成了观光，带小孩的会觉得值。缺点是票价比地铁贵一截，只为赶路完全没必要；旺季下午和日落前人最多，要排队，车厢不大。有单程与往返两种，到了太阳岛那头可以直接进岛逛。想拍江景就选日落前一趟，怕挤就避开周末傍晚。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "拍江景",
+   "带小孩",
+   "去太阳岛顺路"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "松花江观光索道"
-  },
-  "_geocodeTitle": "松花江观光索道",
-  "_geocodeSuspect": false,
-  "district": "230102",
-  "_noImage": true
+  "avoid": [
+   "只想赶路",
+   "怕排队"
+  ],
+  "sources": []
+ }
 }

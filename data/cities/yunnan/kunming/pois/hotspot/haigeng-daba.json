@@ -40,7 +40,71 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Black-headed_Gulls_in_Lake_Dian%2C_Kunming%2C_China.jpg/1280px-Black-headed_Gulls_in_Lake_Dian%2C_Kunming%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Black-headed_Gulls_in_Lake_Dian%2C_Kunming%2C_China.jpg/1280px-Black-headed_Gulls_in_Lake_Dian%2C_Kunming%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Black-headed Gulls in Lake Dian, Kunming, China.jpg",
+      "query": "海埂大坝",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Zhangmoon618",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/2011_%E4%BA%91%E5%8D%97_%E6%98%86%E6%98%8E_%E6%BB%87%E6%B1%A0-%E6%B5%B7%E9%B8%A5_-_panoramio_%281%29.jpg/1280px-2011_%E4%BA%91%E5%8D%97_%E6%98%86%E6%98%8E_%E6%BB%87%E6%B1%A0-%E6%B5%B7%E9%B8%A5_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/2011_%E4%BA%91%E5%8D%97_%E6%98%86%E6%98%8E_%E6%BB%87%E6%B1%A0-%E6%B5%B7%E9%B8%A5_-_panoramio_%281%29.jpg/1280px-2011_%E4%BA%91%E5%8D%97_%E6%98%86%E6%98%8E_%E6%BB%87%E6%B1%A0-%E6%B5%B7%E9%B8%A5_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "2011 云南 昆明 滇池-海鸥 - panoramio (1).jpg",
+      "query": "海埂大坝",
+      "credit": {
+        "source": "wikimedia",
+        "author": "张元柏",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/2011_%E4%BA%91%E5%8D%97_%E6%98%86%E6%98%8E_%E6%BB%87%E6%B1%A0-%E6%B5%B7%E9%B8%A5_-_panoramio_%282%29.jpg/1280px-2011_%E4%BA%91%E5%8D%97_%E6%98%86%E6%98%8E_%E6%BB%87%E6%B1%A0-%E6%B5%B7%E9%B8%A5_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/2011_%E4%BA%91%E5%8D%97_%E6%98%86%E6%98%8E_%E6%BB%87%E6%B1%A0-%E6%B5%B7%E9%B8%A5_-_panoramio_%282%29.jpg/1280px-2011_%E4%BA%91%E5%8D%97_%E6%98%86%E6%98%8E_%E6%BB%87%E6%B1%A0-%E6%B5%B7%E9%B8%A5_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "2011 云南 昆明 滇池-海鸥 - panoramio (2).jpg",
+      "query": "海埂大坝",
+      "credit": {
+        "source": "wikimedia",
+        "author": "张元柏",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
+      }
+    }
+  ],
   "coverIndex": 0,
   "tags": [
     "滇池",
@@ -56,7 +120,7 @@
       "fetchedAt": "2026-09-28"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-05",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Haigeng Dam Kunming Dianchi",
@@ -64,6 +128,5 @@
   },
   "_geocodeTitle": "海埂大坝",
   "_geocodeSuspect": false,
-  "district": "530112",
-  "_noImage": true
+  "district": "530112"
 }

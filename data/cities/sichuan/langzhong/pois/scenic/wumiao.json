@@ -41,38 +41,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/%E9%98%86%E4%B8%AD%E5%8F%A4%E5%9F%8E%E6%AD%A6%E5%BA%99%E8%A1%97_-_panoramio.jpg/1280px-%E9%98%86%E4%B8%AD%E5%8F%A4%E5%9F%8E%E6%AD%A6%E5%BA%99%E8%A1%97_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/%E9%98%86%E4%B8%AD%E5%8F%A4%E5%9F%8E%E6%AD%A6%E5%BA%99%E8%A1%97_-_panoramio.jpg/1280px-%E9%98%86%E4%B8%AD%E5%8F%A4%E5%9F%8E%E6%AD%A6%E5%BA%99%E8%A1%97_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "阆中古城武庙街 - panoramio.jpg",
-      "query": "阆中武庙 阆中",
-      "credit": {
-        "source": "wikimedia",
-        "author": "杨志强Zhiqiang",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%98%86%E4%B8%AD%E5%8F%A4%E5%9F%8E%E6%AD%A6%E5%BA%99%E8%A1%97_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/%E9%98%86%E4%B8%AD%E5%8F%A4%E5%9F%8E%E6%AD%A6%E5%BA%99%E8%A1%97_-_panoramio_-_%E6%9D%A8%E5%BF%97%E5%BC%BAZhiqiang.jpg/1280px-%E9%98%86%E4%B8%AD%E5%8F%A4%E5%9F%8E%E6%AD%A6%E5%BA%99%E8%A1%97_-_panoramio_-_%E6%9D%A8%E5%BF%97%E5%BC%BAZhiqiang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/%E9%98%86%E4%B8%AD%E5%8F%A4%E5%9F%8E%E6%AD%A6%E5%BA%99%E8%A1%97_-_panoramio_-_%E6%9D%A8%E5%BF%97%E5%BC%BAZhiqiang.jpg/1280px-%E9%98%86%E4%B8%AD%E5%8F%A4%E5%9F%8E%E6%AD%A6%E5%BA%99%E8%A1%97_-_panoramio_-_%E6%9D%A8%E5%BF%97%E5%BC%BAZhiqiang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "阆中古城武庙街 - panoramio - 杨志强Zhiqiang.jpg",
-      "query": "阆中武庙 阆中",
-      "credit": {
-        "source": "wikimedia",
-        "author": "杨志强Zhiqiang",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%98%86%E4%B8%AD%E5%8F%A4%E5%9F%8E%E6%AD%A6%E5%BA%99%E8%A1%97_-_panoramio_-_%E6%9D%A8%E5%BF%97%E5%BC%BAZhiqiang.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "关帝庙",
@@ -89,7 +58,7 @@
       "fetchedAt": "2026-10-07"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -97,5 +66,14 @@
   },
   "_geocodeTitle": "武庙街",
   "_geocodeSuspect": false,
-  "district": "511381"
+  "district": "511381",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 2 张（待重抓）",
+    "droppedImages": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/%E9%98%86%E4%B8%AD%E5%8F%A4%E5%9F%8E%E6%AD%A6%E5%BA%99%E8%A1%97_-_panoramio.jpg/1280px-%E9%98%86%E4%B8%AD%E5%8F%A4%E5%9F%8E%E6%AD%A6%E5%BA%99%E8%A1%97_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/%E9%98%86%E4%B8%AD%E5%8F%A4%E5%9F%8E%E6%AD%A6%E5%BA%99%E8%A1%97_-_panoramio_-_%E6%9D%A8%E5%BF%97%E5%BC%BAZhiqiang.jpg/1280px-%E9%98%86%E4%B8%AD%E5%8F%A4%E5%9F%8E%E6%AD%A6%E5%BA%99%E8%A1%97_-_panoramio_-_%E6%9D%A8%E5%BF%97%E5%BC%BAZhiqiang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  }
 }

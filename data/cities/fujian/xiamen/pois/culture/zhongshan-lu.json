@@ -1,83 +1,120 @@
 {
-  "id": "zhongshan-lu",
-  "name": "中山路步行街",
-  "category": "culture",
-  "subtype": "street",
-  "summary": "老城的骑楼商业街，从轮渡码头往东一路是连绵的骑楼下廊道。",
-  "description": "中山路在厦门老城的西南，西端就接着轮渡码头，是厦门最有名的一条商业街。街是上世纪二三十年代那一轮城市建设里做出来的，两侧是连排的骑楼——楼下留出一条可以遮太阳挡雨的廊道，这种商住两用的房子是闽南与南洋一带通行的做法，本地叫五脚基。骑楼的立面是中西混的：西式的柱头与窗套，配上中式的匾额与灰塑装饰。街上的店以伴手礼、小吃、服装与老字号为主，夜里最热闹，灯牌亮起来整条街连成一片。它与局口街、大同路那片老巷子连在一起，是逛老城的中轴。",
-  "highlights": [
-    "上世纪二三十年代建成的骑楼街，西端接轮渡码头",
-    "骑楼立面中西混：西式柱头配中式匾额与灰塑",
-    "夜里灯牌连成一片，与局口街老巷相连"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.078608,
-      "lat": 24.453793,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "福建省厦门市思明区中山路56号",
-    "district": "思明区",
-    "transportTip": "地铁1号线镇海路站，步行约八分钟"
+ "id": "zhongshan-lu",
+ "name": "中山路步行街",
+ "category": "culture",
+ "subtype": "street",
+ "summary": "老城的骑楼商业街，从轮渡码头往东一路是连绵的骑楼下廊道。",
+ "description": "中山路在厦门老城的西南，西端就接着轮渡码头，是厦门最有名的一条商业街。街是上世纪二三十年代那一轮城市建设里做出来的，两侧是连排的骑楼——楼下留出一条可以遮太阳挡雨的廊道，这种商住两用的房子是闽南与南洋一带通行的做法，本地叫五脚基。骑楼的立面是中西混的：西式的柱头与窗套，配上中式的匾额与灰塑装饰。街上的店以伴手礼、小吃、服装与老字号为主，夜里最热闹，灯牌亮起来整条街连成一片。它与局口街、大同路那片老巷子连在一起，是逛老城的中轴。",
+ "highlights": [
+  "上世纪二三十年代建成的骑楼街，西端接轮渡码头",
+  "骑楼立面中西混：西式柱头配中式匾额与灰塑",
+  "夜里灯牌连成一片，与局口街老巷相连"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.078608,
+   "lat": 24.453793,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天（店铺多为10:00-22:30），以现场为准",
-    "openHoursRef": 0,
-    "ticket": "免费（店铺消费另计）",
-    "ticketRef": 0,
-    "duration": "建议 60-180 分钟",
-    "durationMinutes": [
-      60,
-      180
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "family",
-    "friends"
+  "address": "福建省厦门市思明区中山路56号",
+  "district": "思明区",
+  "transportTip": "地铁1号线镇海路站，步行约八分钟"
+ },
+ "practical": {
+  "openHours": "全天（店铺多为10:00-22:30），以现场为准",
+  "openHoursRef": 0,
+  "ticket": "免费（店铺消费另计）",
+  "ticketRef": 0,
+  "duration": "建议 60-180 分钟",
+  "durationMinutes": [
+   60,
+   180
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Xiamen_Zhongshan_Road_Pedestrian_Street.jpg/1280px-Xiamen_Zhongshan_Road_Pedestrian_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Xiamen_Zhongshan_Road_Pedestrian_Street.jpg/1280px-Xiamen_Zhongshan_Road_Pedestrian_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 811,
-      "alt": "Xiamen Zhongshan Road Pedestrian Street.jpg",
-      "query": "中山路步行街 厦门",
-      "credit": {
-        "source": "wikimedia",
-        "author": "HualinXMN",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xiamen_Zhongshan_Road_Pedestrian_Street.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "family",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Xiamen_Zhongshan_Road_Pedestrian_Street.jpg/1280px-Xiamen_Zhongshan_Road_Pedestrian_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Xiamen_Zhongshan_Road_Pedestrian_Street.jpg/1280px-Xiamen_Zhongshan_Road_Pedestrian_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 811,
+   "alt": "Xiamen Zhongshan Road Pedestrian Street.jpg",
+   "query": "中山路步行街 厦门",
+   "credit": {
+    "source": "wikimedia",
+    "author": "HualinXMN",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xiamen_Zhongshan_Road_Pedestrian_Street.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "骑楼",
+  "步行街",
+  "老城"
+ ],
+ "popularity": 90,
+ "sources": [
+  {
+   "title": "百度百科·厦门中山路",
+   "url": "https://baike.baidu.com/item/%E5%8E%A6%E9%97%A8%E4%B8%AD%E5%B1%B1%E8%B7%AF",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "中山路步行街"
+ },
+ "_geocodeTitle": "中山路步行街",
+ "_geocodeSuspect": false,
+ "district": "350203",
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "建筑",
+    "score": 4.5,
+    "note": "连排骑楼，西式柱头配中式匾额与灰塑"
+   },
+   {
+    "label": "商业化",
+    "score": 2.5,
+    "note": "伴手礼店同质，正街几乎全是游客生意"
+   },
+   {
+    "label": "小吃",
+    "score": 4.0,
+    "note": "往局口街一拐就是老排档与老字号"
+   },
+   {
+    "label": "人流",
+    "score": 2.8,
+    "note": "夜里灯牌全亮时人最挤"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "骑楼",
-    "步行街",
-    "老城"
+  "body": "骑楼廊道遮阳又挡雨，夜里灯牌连成一片，是逛老城的中轴；往巷子里拐就是局口街与大同路那片老排档。缺点是商业化程度高、沿街店铺同质，正街人流密到要侧身走，真正好吃的老店反而都藏在支巷。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "夜里逛",
+   "找小吃"
   ],
-  "popularity": 90,
-  "sources": [
-    {
-      "title": "百度百科·厦门中山路",
-      "url": "https://baike.baidu.com/item/%E5%8E%A6%E9%97%A8%E4%B8%AD%E5%B1%B1%E8%B7%AF",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
+  "avoid": [
+   "正午暴晒时"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "中山路步行街"
-  },
-  "_geocodeTitle": "中山路步行街",
-  "_geocodeSuspect": false,
-  "district": "350203"
+  "sources": []
+ }
 }

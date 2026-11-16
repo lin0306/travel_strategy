@@ -1,74 +1,113 @@
 {
-  "id": "nanhu",
-  "name": "南湖公园",
-  "category": "scenic",
-  "subtype": "park",
-  "summary": "老城中心的大湖，环湖步道是看夜景的地方。",
-  "description": "南湖公园是南宁市中心的一片大湖，环湖是步道、草坪和一片名树博览园，是市民慢跑和散步的主要空间。夜晚湖边的灯光亮起，倒影在水里，是南宁夜景的代表之一。它与周边的南湖名树园、咖啡馆连成一片，适合不赶时间地走一段。免费、开阔，是体会绿城最直接的地方。",
-  "highlights": [
-    "市中心大湖，环湖步道看夜景",
-    "南湖名树园与咖啡馆连片",
-    "免费，绿城代表"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.35404,
-      "lat": 22.805731,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市青秀区双拥路1号",
-    "district": "青秀区",
-    "transportTip": "地铁1号线南湖站步行",
-    "entrance": {
-      "lng": 108.360619,
-      "lat": 22.809073,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "nanhu",
+ "name": "南湖公园",
+ "category": "scenic",
+ "subtype": "park",
+ "summary": "老城中心的大湖，环湖步道是看夜景的地方。",
+ "description": "南湖公园是南宁市中心的一片大湖，环湖是步道、草坪和一片名树博览园，是市民慢跑和散步的主要空间。夜晚湖边的灯光亮起，倒影在水里，是南宁夜景的代表之一。它与周边的南湖名树园、咖啡馆连成一片，适合不赶时间地走一段。免费、开阔，是体会绿城最直接的地方。",
+ "highlights": [
+  "市中心大湖，环湖步道看夜景",
+  "南湖名树园与咖啡馆连片",
+  "免费，绿城代表"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.35404,
+   "lat": 22.805731,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "family",
-    "couple",
-    "solo",
-    "elders"
+  "address": "南宁市青秀区双拥路1号",
+  "district": "青秀区",
+  "transportTip": "地铁1号线南湖站步行",
+  "entrance": {
+   "lng": 108.360619,
+   "lat": 22.809073,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "全天开放",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "湖景",
-    "免费",
-    "夜景"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "family",
+  "couple",
+  "solo",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "湖景",
+  "免费",
+  "夜景"
+ ],
+ "popularity": 80,
+ "sources": [
+  {
+   "title": "百度百科·南湖公园",
+   "url": "https://baike.baidu.com/item/%E5%8D%97%E6%B9%96%E5%85%AC%E5%9B%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "南湖公园"
+ },
+ "_geocodeTitle": "南湖公园",
+ "_geocodeSuspect": false,
+ "district": "450103",
+ "_noImage": true,
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.2,
+    "note": "湖面开阔，环湖看城市天际线"
+   },
+   {
+    "label": "配套",
+    "score": 4.0,
+    "note": "步道、草坪、名树园连成片，周边咖啡店多"
+   },
+   {
+    "label": "夜景",
+    "score": 4.0,
+    "note": "亮灯后湖面倒影是南宁夜色的代表作"
+   },
+   {
+    "label": "人流",
+    "score": 3.5,
+    "note": "傍晚跑步与散步的人多，但不至于挤"
+   }
   ],
-  "popularity": 80,
-  "sources": [
-    {
-      "title": "百度百科·南湖公园",
-      "url": "https://baike.baidu.com/item/%E5%8D%97%E6%B9%96%E5%85%AC%E5%9B%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "南湖是南宁「绿城」最直观的样子：一片大湖嵌在市中心，环湖步道、草坪和名树园连成一条线，免费、开阔，什么时候来都能走。傍晚灯亮之后，湖面把周边楼宇的轮廓反着映出来，是南宁夜景里最不费劲的一处。它的问题是没有「必看点」——没有古迹、没有表演，纯靠环境撑，赶时间的游客容易觉得「就是个公园」；夏天白天遮阴一般，中午走环湖会晒。适合把行程排松一点，当作饭后消食的落脚处。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "散步",
+   "夜跑",
+   "不赶时间"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "南湖公园"
-  },
-  "_geocodeTitle": "南湖公园",
-  "_geocodeSuspect": false,
-  "district": "450103",
-  "_noImage": true
+  "avoid": [
+   "想找标志性景点",
+   "中午暴晒时段"
+  ],
+  "sources": []
+ }
 }

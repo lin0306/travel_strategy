@@ -1,72 +1,110 @@
 {
-  "id": "xinanjiang-chenwu",
-  "name": "新安江晨雾",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "深渡一带清晨起雾，江面缥缈，摄影人蹲守的场面。",
-  "description": "新安江晨雾是歙县最上镜的自然瞬间之一，尤其集中在深渡到漳潭这段江面。清晨气温低、水汽重的时候，雾从江面慢慢升起来，把两岸的青山和村子罩成水墨画的留白，偶尔一条渔船划过，就是一张现成的画。拍雾讲究时机——雨后初晴、无风的清晨概率最高，太晒或起风就散了。想拍的人要住深渡，天不亮就到江边占位。不拍照只是来看，也足够安静治愈，比白天热闹的游船线更有味道。",
-  "highlights": [
-    "江面雾",
-    "水墨感",
-    "深渡",
-    "晨拍",
-    "免票"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.617,
-      "lat": 29.8635,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黄山市歙县深渡镇至漳潭段新安江边",
-    "district": "歙县",
-    "transportTip": "住深渡镇，清晨步行 / 骑行到江边"
+ "id": "xinanjiang-chenwu",
+ "name": "新安江晨雾",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "深渡一带清晨起雾，江面缥缈，摄影人蹲守的场面。",
+ "description": "新安江晨雾是歙县最上镜的自然瞬间之一，尤其集中在深渡到漳潭这段江面。清晨气温低、水汽重的时候，雾从江面慢慢升起来，把两岸的青山和村子罩成水墨画的留白，偶尔一条渔船划过，就是一张现成的画。拍雾讲究时机——雨后初晴、无风的清晨概率最高，太晒或起风就散了。想拍的人要住深渡，天不亮就到江边占位。不拍照只是来看，也足够安静治愈，比白天热闹的游船线更有味道。",
+ "highlights": [
+  "江面雾",
+  "水墨感",
+  "深渡",
+  "晨拍",
+  "免票"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.617,
+   "lat": 29.8635,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "清晨最佳，通常 5:30-8:00",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 40-120 分钟",
-    "durationMinutes": [
-      40,
-      120
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "solo",
-    "elders"
+  "address": "黄山市歙县深渡镇至漳潭段新安江边",
+  "district": "歙县",
+  "transportTip": "住深渡镇，清晨步行 / 骑行到江边"
+ },
+ "practical": {
+  "openHours": "清晨最佳，通常 5:30-8:00",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 40-120 分钟",
+  "durationMinutes": [
+   40,
+   120
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "摄影",
-    "晨雾",
-    "新安江",
-    "免票"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "solo",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "摄影",
+  "晨雾",
+  "新安江",
+  "免票"
+ ],
+ "popularity": 86,
+ "sources": [
+  {
+   "title": "百度百科·新安江",
+   "url": "https://baike.baidu.com/item/%E6%96%B0%E5%AE%89%E6%B1%9F",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-07"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "新安江晨雾"
+ },
+ "_geocodeTitle": "歙县深渡新安江画廊码头",
+ "_geocodeSuspect": false,
+ "district": "341021",
+ "_noImage": true,
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "出片",
+    "score": 4.6,
+    "note": "雾起时江面像水墨，一条渔船就是一张画"
+   },
+   {
+    "label": "成雾概率",
+    "score": 2.8,
+    "note": "要雨后初晴、无风的清晨，白跑是常事"
+   },
+   {
+    "label": "交通",
+    "score": 3.0,
+    "note": "必须住深渡，天亮前到江边"
+   },
+   {
+    "label": "门槛",
+    "score": 3.4,
+    "note": "不拍照的人会觉得就是一片雾"
+   }
   ],
-  "popularity": 86,
-  "sources": [
-    {
-      "title": "百度百科·新安江",
-      "url": "https://baike.baidu.com/item/%E6%96%B0%E5%AE%89%E6%B1%9F",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-07"
-    }
+  "body": "歙县最出名的自然瞬间：清晨雾从江面升起，把两岸青山和村子罩成留白，偶尔一条渔船划过就够了。但它极度看天——起风、太晒、晴得太久都看不到，专程来很可能空手而归，这点必须有心理准备。也不建议只为看雾住一晚，配套一般、早饭摊开得晚。想拍就住深渡、天亮前到位，等不到就当看了个清晨的江。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "摄影爱好者",
+   "行程宽松"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "新安江晨雾"
-  },
-  "_geocodeTitle": "歙县深渡新安江画廊码头",
-  "_geocodeSuspect": false,
-  "district": "341021",
-  "_noImage": true
+  "avoid": [
+   "时间卡死",
+   "不早起"
+  ],
+  "sources": []
+ }
 }

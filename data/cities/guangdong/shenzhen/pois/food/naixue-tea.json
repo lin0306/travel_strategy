@@ -1,67 +1,108 @@
 {
-  "id": "naixue-tea",
-  "name": "奈雪的茶",
-  "category": "food",
-  "subtype": "cafe",
-  "summary": "深圳长起来的茶饮牌子：2015 年从这座城市开始，现在门店遍布全国。",
-  "description": "新茶饮这一类是深圳贡献的一种商业形态。奈雪 2015 年在深圳开出第一家，做法是茶饮加软欧包，门店以空间为主打。它的产品逻辑是茶底加鲜果与芝士，季节限定是常态。在深圳门店密度很高，几乎每个商圈都有。它在这座城市的意义更多是解释性的：为什么这里的新茶饮品牌特别多。与老式茶楼不是一个体系，只是并列着看有意思。排队时间因商圈而异。",
-  "highlights": [
-    "2015 年在深圳开出第一家的茶饮品牌",
-    "茶饮配软欧包的组合是它的做法",
-    "门店密度极高，商圈基本覆盖"
-  ],
-  "location": {
-    "point": {
-      "lng": 114.092315,
-      "lat": 22.543198,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "广东省深圳市福田区华强北街道宝树台c栋717室(奈雪的茶右侧通道上电梯7楼)",
-    "district": "福田区",
-    "transportTip": "各门店就近地铁站可达"
+ "id": "naixue-tea",
+ "name": "奈雪的茶",
+ "category": "food",
+ "subtype": "cafe",
+ "summary": "深圳长起来的茶饮牌子：2015 年从这座城市开始，现在门店遍布全国。",
+ "description": "新茶饮这一类是深圳贡献的一种商业形态。奈雪 2015 年在深圳开出第一家，做法是茶饮加软欧包，门店以空间为主打。它的产品逻辑是茶底加鲜果与芝士，季节限定是常态。在深圳门店密度很高，几乎每个商圈都有。它在这座城市的意义更多是解释性的：为什么这里的新茶饮品牌特别多。与老式茶楼不是一个体系，只是并列着看有意思。排队时间因商圈而异。",
+ "highlights": [
+  "2015 年在深圳开出第一家的茶饮品牌",
+  "茶饮配软欧包的组合是它的做法",
+  "门店密度极高，商圈基本覆盖"
+ ],
+ "location": {
+  "point": {
+   "lng": 114.092315,
+   "lat": 22.543198,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:00-22:30（以门店公告为准）",
-    "openHoursRef": 0,
-    "ticket": "人均约30元起，以门店为准",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "solo"
+  "address": "广东省深圳市福田区华强北街道宝树台c栋717室(奈雪的茶右侧通道上电梯7楼)",
+  "district": "福田区",
+  "transportTip": "各门店就近地铁站可达"
+ },
+ "practical": {
+  "openHours": "约10:00-22:30（以门店公告为准）",
+  "openHoursRef": 0,
+  "ticket": "人均约30元起，以门店为准",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "茶饮",
-    "本地品牌",
-    "甜品"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "茶饮",
+  "本地品牌",
+  "甜品"
+ ],
+ "popularity": 64,
+ "sources": [
+  {
+   "title": "百度百科·奈雪的茶",
+   "url": "https://baike.baidu.com/item/%E5%A5%88%E9%9B%AA%E7%9A%84%E8%8C%B6",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-24"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "奈雪的茶"
+ },
+ "_geocodeTitle": "奈雪的茶(华强北宝树台店)",
+ "district": "440304",
+ "_noImage": true,
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "空间",
+    "score": 3.6,
+    "note": "门店以大店第三空间起家，如今多已缩店"
+   },
+   {
+    "label": "产品",
+    "score": 3.4,
+    "note": "茶底配鲜果与芝士，季节限定是常态"
+   },
+   {
+    "label": "价格",
+    "score": 3.0,
+    "note": "在同类茶饮里偏贵"
+   },
+   {
+    "label": "门店",
+    "score": 4.0,
+    "note": "深圳密度高，商圈基本覆盖"
+   }
   ],
-  "popularity": 64,
+  "body": "这个点的意义更多是解释性的：新茶饮是深圳贡献的一种商业形态，这家 2015 年在本地开出第一家，把茶饮与软欧包放进商场大店，用空间撑起下午茶场景。如今品牌经历一轮门店优化，多数门店改成小店、订单以外卖自提为主，现烤欧包也基本撤掉。缺点是产品与其他茶饮越来越同质、性价比一般，当年的大店体验已难复现；当作了解这座城市的商业样本顺路坐坐即可。",
+  "basis": "web",
+  "at": "2026-11-13",
+  "fits": [
+   "逛商圈歇脚",
+   "看新茶饮发源地"
+  ],
+  "avoid": [
+   "追大店体验",
+   "预算敏感"
+  ],
   "sources": [
-    {
-      "title": "百度百科·奈雪的茶",
-      "url": "https://baike.baidu.com/item/%E5%A5%88%E9%9B%AA%E7%9A%84%E8%8C%B6",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-24"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "奈雪的茶"
-  },
-  "_geocodeTitle": "奈雪的茶(华强北宝树台店)",
-  "district": "440304",
-  "_noImage": true
+   "https://finance.ifeng.com/c/8w0GWkFMN2h",
+   "https://k.sina.cn/article_5328858693_13d9fee4502002d4u2.html"
+  ]
+ }
 }

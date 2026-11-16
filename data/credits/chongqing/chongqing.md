@@ -1,6 +1,6 @@
 # 重庆 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-09-19
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -21,6 +21,7 @@
 | 钓鱼城 | [合川区政府·A级景区名录](https://www.hc.gov.cn/) | official | 2026-09-23 |
 | 歌乐山·白公馆渣滓洞 | [百度百科·渣滓洞](https://baike.baidu.com/item/%E6%B8%A3%E6%BB%93%E6%B4%9E) | wiki | 2026-09-19 |
 | 黑山谷 | [携程·黑山谷攻略](https://gs.ctrip.com/html5/you/sight/226/5073139.html) | wiki | 2026-09-23 |
+| 黑山谷 | [黑山谷景区官方公众号 2026-04-28 半园开放公告](http://mp.weixin.qq.com/s?__biz=MjM5MTA3Mzg0MA==&mid=2653239043&idx=3&sn=a6256655c1d7cc3a882892b9a4f1d7c2) | media | 2026-11-15 |
 | 华岩寺 | [百度百科·华岩寺](https://baike.baidu.com/item/%E5%8D%8E%E5%B2%A9%E5%AF%BA) | wiki | 2026-09-19 |
 | 湖广会馆 | [百度百科·重庆湖广会馆](https://baike.baidu.com/item/%E9%87%8D%E5%BA%86%E6%B9%96%E5%B9%BF%E4%BC%9A%E9%A6%86) | wiki | 2026-09-19 |
 | 解放碑 | [百度百科·解放碑](https://baike.baidu.com/item/%E8%A7%A3%E6%94%BE%E7%A2%91) | wiki | 2026-09-19 |
@@ -37,17 +38,22 @@
 | 磁器口陈麻花 | [百度百科·磁器口麻花](https://baike.baidu.com/item/%E9%99%88%E9%BA%BB%E8%8A%B1) | wiki | 2026-09-19 |
 | 歌乐山辣子鸡 | [百度百科·辣子鸡](https://baike.baidu.com/item/%E8%BE%A3%E5%AD%90%E9%B8%A1) | wiki | 2026-09-19 |
 | 好又来酸辣粉 | [百度百科·酸辣粉](https://baike.baidu.com/item/%E9%85%B8%E8%BE%A3%E7%B2%89) | wiki | 2026-09-19 |
+| 好又来酸辣粉 | [八一路好吃街在渝中区解放碑商圈，库内 district 误标南岸（500108）](https://baike.baidu.com/item/%E5%A5%BD%E5%8F%88%E6%9D%A5%E9%85%B8%E8%BE%A3%E7%B2%89%EF%BC%88%E5%85%AB%E4%B8%80%E8%B7%AF%E5%BA%97%EF%BC%89/14347186) | media | 2026-11-14 |
+| 好又来酸辣粉 | [库内坐标 106.5830/29.5606 与 geocodeTitle「朝天门](https://baike.baidu.com/item/%E5%A5%BD%E5%8F%88%E6%9D%A5%E9%85%B8%E8%BE%A3%E7%B2%89%EF%BC%88%E5%85%AB%E4%B8%80%E8%B7%AF%E5%BA%97%EF%BC%89/14347186) | media | 2026-11-14 |
 | 花市豌杂面 | [百度百科·重庆小面](https://baike.baidu.com/item/%E9%87%8D%E5%BA%86%E5%B0%8F%E9%9D%A2) | wiki | 2026-09-19 |
 | 交通茶馆 | [百度百科·交通茶馆](https://baike.baidu.com/item/%E4%BA%A4%E9%80%9A%E8%8C%B6%E9%A6%86) | wiki | 2026-09-19 |
 | 九园包子 | [百度百科·九园包子](https://baike.baidu.com/item/%E4%B9%9D%E5%9B%AD%E5%8C%85%E5%AD%90) | wiki | 2026-09-19 |
 | 来凤鱼 | [百度百科·来凤鱼](https://baike.baidu.com/item/%E6%9D%A5%E5%87%A4%E9%B1%BC) | wiki | 2026-09-19 |
+| 来凤鱼 | [来凤鱼发源地为璧山区来凤街道（人民网重庆 2026-09-24 美食文化季稿），](https://cq.people.com.cn/BIG5/n2/2026/0924/c365411-41707672.html) | media | 2026-11-14 |
 | 老四川大酒楼 | [百度百科·老四川](https://baike.baidu.com/item/%E8%80%81%E5%9B%9B%E5%B7%9D%E5%A4%A7%E9%85%92%E6%A5%BC) | wiki | 2026-09-19 |
+| 老四川大酒楼 | [重庆市商务委「渝味360碗」2024 旗舰店名单载明老四川酒楼地址为解放碑财汇广](https://sww.cq.gov.cn/zwgk_247/zfxxgkml/qtfdxx/tzgg/202409/P020240906533582694604.docx) | media | 2026-11-14 |
 | 老幺泉水鸡 | [百度百科·老幺泉水鸡](https://baike.baidu.com/item/%E8%80%81%E5%B9%BA%E6%B3%89%E6%B0%B4%E9%B8%A1) | wiki | 2026-09-23 |
 | 珮姐老火锅（解放碑店） | [百度百科·重庆火锅](https://baike.baidu.com/item/%E9%87%8D%E5%BA%86%E7%81%AB%E9%94%85) | wiki | 2026-09-19 |
 | 秦云老太婆摊摊面 | [百度百科·重庆小面](https://baike.baidu.com/item/%E9%87%8D%E5%BA%86%E5%B0%8F%E9%9D%A2) | wiki | 2026-09-19 |
 | 山城小汤圆 | [百度百科·山城小汤圆](https://baike.baidu.com/item/%E5%B1%B1%E5%9F%8E%E5%B0%8F%E6%B1%A4%E5%9C%86) | wiki | 2026-09-19 |
 | 陶然居 | [百度百科·陶然居](https://baike.baidu.com/item/%E9%99%B6%E7%84%B6%E5%B1%85) | wiki | 2026-09-19 |
 | 万州烤鱼 | [百度百科·万州烤鱼](https://baike.baidu.com/item/%E4%B8%87%E5%B7%9E%E7%83%A4%E9%B1%BC) | wiki | 2026-09-19 |
+| 万州烤鱼 | [三峡传媒网（万州官媒）：「天生城文旅街区烤鱼一条街」为万州烤鱼聚集地总店所在；原](http://www.sxcm.net/web/article/2026/03/20/1484579409212166144/web/content_1484579409212166144.html) | media | 2026-11-15 |
 | 邮亭鲫鱼 | [百度百科·邮亭鲫鱼](https://baike.baidu.com/item/%E9%82%AE%E4%BA%AD%E9%B2%AB%E9%B1%BC) | wiki | 2026-09-19 |
 | 渝宗老火锅 | [百度百科·重庆火锅](https://baike.baidu.com/item/%E9%87%8D%E5%BA%86%E7%81%AB%E9%94%85) | wiki | 2026-09-19 |
 | 北仓文创园 | [去哪儿攻略·北仓文创园](https://travelnews.qunar.com/ugc/chongqing-beicang-park-spring-flowers) | wiki | 2026-09-23 |
@@ -55,18 +61,28 @@
 | 戴家巷崖壁步道 | [携程·戴家巷崖壁步道](https://m.ctrip.com/webapp/tnt/list?keyword=戴家巷崖壁步道) | wiki | 2026-09-23 |
 | 鹅岭二厂（TESTBED2） | [百度百科·鹅岭二厂](https://baike.baidu.com/item/%E9%B9%85%E5%B2%AD%E4%BA%8C%E5%8E%82) | wiki | 2026-09-19 |
 | 洪崖洞 | [百度百科·洪崖洞](https://baike.baidu.com/item/%E6%B4%AA%E5%B4%96%E6%B4%9E) | wiki | 2026-09-19 |
+| 洪崖洞 | [封面新闻 2026-05-07 + 渝中区市监局通报（举报基本属实、已立案），涉](https://www.thecover.cn/news/6brMcDMohMWH90qSdq8Jkw==) | media | 2026-11-14 |
 | 皇冠大扶梯 | [百度百科·皇冠大扶梯](https://baike.baidu.com/item/%E7%9A%87%E5%86%A0%E5%A4%A7%E6%89%B6%E6%A2%AF) | wiki | 2026-09-19 |
 | 黄桷坪涂鸦艺术街 | [百度百科·黄桷坪涂鸦艺术街](https://baike.baidu.com/item/%E9%BB%84%E6%A1%B7%E5%9D%AA%E6%B6%82%E9%B8%A6%E8%89%BA%E6%9C%AF%E8%A1%97) | wiki | 2026-09-19 |
 | 李子坝轻轨穿楼 | [百度百科·李子坝站](https://baike.baidu.com/item/%E6%9D%8E%E5%AD%90%E5%9D%9D%E7%AB%99) | wiki | 2026-09-19 |
 | 南山一棵树观景台 | [百度百科·一棵树观景台](https://baike.baidu.com/item/%E5%8D%97%E5%B1%B1%E4%B8%80%E6%A3%B5%E6%A0%91%E8%A7%82%E6%99%AF%E5%8F%B0) | wiki | 2026-09-19 |
+| 南山一棵树观景台 | [人民网领导留言板 2026-10 政府答复：一棵树观景园执行渝价〔2014〕15](https://liuyan.people.com.cn/threads/content?tid=26284752) | media | 2026-11-14 |
+| 南山一棵树观景台 | [重庆南山植物园官方公众号《游园指南》：一棵树观景园 09:00-23:00（5-](http://mp.weixin.qq.com/s?__biz=MjM5ODQ0NTY5MA==&mid=2247511778&idx=3&sn=d59e2c44f1f206b31f5c1cbf4a558d65&chksm=a7264aa0058fe4eb442e9bd6f283400d5b6c2bae5d661a563c698156c3e001ce8dfecd6b68c1#rd) | media | 2026-11-14 |
 | 山城步道（第三步道） | [百度百科·山城步道](https://baike.baidu.com/item/%E5%B1%B1%E5%9F%8E%E6%AD%A5%E9%81%93) | wiki | 2026-09-19 |
 | 四川美术学院（黄桷坪校区） | [百度百科·四川美术学院](https://baike.baidu.com/item/%E5%9B%9B%E5%B7%9D%E7%BE%8E%E6%9C%AF%E5%AD%A6%E9%99%A2) | wiki | 2026-09-19 |
 | 长江索道 | [百度百科·长江索道](https://baike.baidu.com/item/%E9%95%BF%E6%B1%9F%E7%B4%A2%E9%81%93) | wiki | 2026-09-19 |
+| 长江索道 | [P3 看图：原封面第 0 张只有江面与天际线、看不到索道；第 3 张车厢、缆索、](https://commons.wikimedia.org/wiki/File:%E9%87%8D%E5%BA%86_%E9%95%BF%E6%B1%9F%E4%B8%8A%E7%9A%84%E6%B8%A1%E6%B1%9F%E7%B4%A2%E9%81%932.jpg) | media | 2026-11-14 |
 | 重庆市川剧院 | [百度百科·川剧](https://baike.baidu.com/item/%E5%B7%9D%E5%89%A7) | wiki | 2026-09-19 |
 | 弹子石老街 | [百度百科·弹子石](https://baike.baidu.com/item/%E5%BC%B9%E5%AD%90%E7%9F%B3%E8%80%81%E8%A1%97) | wiki | 2026-09-19 |
 | 黄葛古道 | [百度百科·黄葛古道](https://baike.baidu.com/item/%E9%BB%84%E8%91%9B%E5%8F%A4%E9%81%93) | wiki | 2026-09-19 |
+| 黄葛古道 | [本地宝 2026 攻略：免费、地址南岸区上新街前驱路277号；携程 POI 同址](https://m.cq.bendibao.com/traffic/94553.shtm) | media | 2026-11-14 |
+| 黄葛古道 | [南岸文旅 2026 秋季徒步路线稿：黄葛古道线上新街入口—前驱路—黄葛古道—黄桷](http://mp.weixin.qq.com/s?__biz=MjM5NjM1OTY3Mg==&mid=2651096166&idx=1&sn=8c4e1a02c5c5efe61a4da23295c78fa2&chksm=bce9c6e87d8a41acc749be83c3021059c5883f001cf4579339053d38b46b5b82cf9628297470#rd) | media | 2026-11-14 |
 | 《印象·武隆》实景演出 | [百度百科·印象武隆](https://baike.baidu.com/item/%E5%8D%B0%E8%B1%A1%E6%AD%A6%E9%9A%86) | wiki | 2026-09-19 |
+| 《印象·武隆》实景演出 | [武隆旅游网 2026-10-09《演出时间调整公告》：自 2026-10-08 ](https://www.wlkst.com/wlxw/20261009/27999.html) | media | 2026-11-14 |
+| 《印象·武隆》实景演出 | [《印象武隆》官方公众号观演信息：普通 200/尊宾 300/VIP 550/总统](http://mp.weixin.qq.com/s?__biz=MzA5Njk1NTI0OA==&mid=2650992194&idx=1&sn=bd61d7d46b72d3bdcecdfaec6c20300d&chksm=8a9d43e21e9353d542bb2238206849d0ab60052a0f32c6624100cd9620df3db648c993351c85#rd) | media | 2026-11-14 |
 | 龙门浩老街 | [百度百科·龙门浩](https://baike.baidu.com/item/%E9%BE%99%E9%97%A8%E6%B5%A9%E8%80%81%E8%A1%97) | wiki | 2026-09-19 |
+| 龙门浩老街 | [百科「旅游信息」：南滨路105号、全年全天开放、免费；交通与入口据同段交通指南](https://baike.baidu.com/item/%E9%BE%8D%E9%96%80%E6%B5%A9/10843674) | media | 2026-11-14 |
+| 龙门浩老街 | [南岸区政府 2025-03-17：龙门浩老街入选文旅部第四批国家级旅游休闲街区，](https://www.cqna.gov.cn//bm/qzfcxjw/sy/dt_59966/202503/t20250317_14411210.html) | media | 2026-11-14 |
 | 山城巷传统风貌区 | [携程·山城巷](https://gs.ctrip.com/html5/you/sight/tangshan200/65963918.html) | wiki | 2026-09-23 |
 | 十八梯传统风貌区 | [百度百科·十八梯](https://baike.baidu.com/item/%E5%8D%81%E5%85%AB%E6%A2%AF) | wiki | 2026-09-19 |
 
@@ -74,9 +90,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Taken by Fanghong | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:ChongqingAirport.jpg) |
-| 城市封面 | 重庆轨交18 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%87%8D%E5%BA%86%E4%B8%9C%E7%AB%996.jpg) |
-| 城市封面 | 重庆轨交18 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%87%8D%E5%BA%86%E5%8C%97%E7%AB%99.jpg) |
+| 城市封面 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250521_Hongyadong_(223429).jpg) |
+| 城市封面 | Junyi Lou | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Raffles_City_Chongqing_from_Yangtze_River_(3to4).jpg) |
+| 城市封面 | Nyx Ning | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%87%8D%E5%BA%86%E5%9C%B0%E6%A0%87-%E8%A7%A3%E6%94%BE%E7%A2%91-%E5%A4%9C%E6%99%AF_-_panoramio.jpg) |
 | 白帝城·瞿塘峡 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_01.jpg) |
 | 白帝城·瞿塘峡 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_02.jpg) |
 | 白帝城·瞿塘峡 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_03.jpg) |
@@ -113,6 +129,11 @@
 | 钓鱼城 | 天王星 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%85%B5%E8%90%A5_-_panoramio_(1).jpg) |
 | 钓鱼城 | 天王星 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%86%9B%E8%90%A5%E5%A4%A7%E9%97%A8_-_panoramio.jpg) |
 | 钓鱼城 | 天王星 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%90%8D%E4%BA%BA%E5%AD%97%E5%88%BB_-_panoramio.jpg) |
+| 歌乐山·白公馆渣滓洞 | Nyx Ning | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 歌乐山·白公馆渣滓洞 | WeelStone | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 歌乐山·白公馆渣滓洞 | Fxqf | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 歌乐山·白公馆渣滓洞 | xue siyang (df45086) | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 歌乐山·白公馆渣滓洞 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 华岩寺 | landagent | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%8E%E4%B8%A5%E5%AF%BA_-_panoramio.jpg) |
 | 湖广会馆 | 源義信 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2023-06-23_%E9%87%8D%E6%85%B6%E6%B9%96%E5%BB%A3%E6%9C%83%E9%A4%A8_01.jpg) |
 | 湖广会馆 | 源義信 (Minamoto Yoshinobu) | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2023-06-23_%E9%87%8D%E6%85%B6%E6%B9%96%E5%BB%A3%E6%9C%83%E9%A4%A8_02.jpg) |
@@ -175,7 +196,9 @@
 | 交通茶馆 | Liming Huang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Slow_Life_in_A_Tea_House_04.jpg) |
 | 交通茶馆 | Liming Huang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Slow_Life_in_A_Tea_House_05.jpg) |
 | 陶然居 | Huangdan2060 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Taoran_Hall,_Fosheng_Chan_Temple_20250226.jpg) |
-| 来福士水晶连廊 | Simon Wade | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:RafflesCity_Chongqing_Skywalk.jpg) |
+| 北仓文创园 | HoweyYuan | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 北仓文创园 | HoweyYuan | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 来福士水晶连廊 | メイド理世 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 洪崖洞 | Jonashtand | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:202308_Hongya_Cave_at_night_from_Qiansimen_Bridge.jpg) |
 | 洪崖洞 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250521_Hongyadong_(223216).jpg) |
 | 洪崖洞 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250521_Hongyadong_(223429).jpg) |
@@ -184,6 +207,8 @@
 | 皇冠大扶梯 | Qa003qa003 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Huangguan_Escalator_20180429_155129.jpg) |
 | 皇冠大扶梯 | Qa003qa003 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Huangguan_Escalator_20180429_155258.jpg) |
 | 皇冠大扶梯 | 維基小霸王 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%9A%87%E5%86%A0%E5%A4%A7%E6%89%B6%E6%A2%AF.jpg) |
+| 黄桷坪涂鸦艺术街 | Davidmcbride | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 李子坝轻轨穿楼 | David290 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%9D%8E%E5%AD%90%E5%9D%9D%E7%AB%99%E8%BD%BB%E8%BD%A8%E7%A9%BF%E6%A5%BC_0023.png) |
 | 山城步道（第三步道） | HoweyYuan | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shancheng_Alley,_Chongqing.jpg) |
 | 山城步道（第三步道） | 重庆轨交18 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%8A%E5%B1%B1%E5%B4%96%E7%BA%BF.jpg) |
 | 山城步道（第三步道） | 重庆轨交18 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%8A%E5%B1%B1%E5%B4%96%E7%BA%BF%E4%BD%9B%E5%9B%BE%E5%85%B3%E6%AE%B5.jpg) |
@@ -205,3 +230,9 @@
 | 弹子石老街 | HoweyYuan | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Danzishi_Street.jpg) |
 | 弹子石老街 | Xiumuzidiao | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BC%B9%E5%AD%90%E7%9F%B3%E8%80%81%E8%A1%97.jpg) |
 | 山城巷传统风貌区 | 🌈 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B1%B1%E5%9F%8E%E5%B7%B7%E4%B8%8A%E5%8C%BA.jpg) |
+| 十八梯传统风貌区 | Daredemodaisuki 114514 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 十八梯传统风貌区 | メイド理世 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 十八梯传统风貌区 | Daredemodaisuki 114514 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 十八梯传统风貌区 | 杨志强Zhiqiang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 十八梯传统风貌区 | 杨志强Zhiqiang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 十八梯传统风貌区 | Daredemodaisuki 114514 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |

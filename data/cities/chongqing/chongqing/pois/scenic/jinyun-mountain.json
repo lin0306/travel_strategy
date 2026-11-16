@@ -1,103 +1,141 @@
 {
-  "id": "jinyun-mountain",
-  "name": "缙云山",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "主城近郊的森林公园，九峰连绵，是重庆人周末爬山纳凉的老去处。",
-  "description": "缙云山在北碚区，九座山峰沿嘉陵江温塘峡排列，山间古木参天，海拔最高的狮子峰也才九百多米，爬起来不算吃力。山上有始建于南朝的缙云寺，香火延续了一千五百多年；还有绍龙观等道观，佛道共处一山是这里的特点。山腰常年云雾缭绕，夏天温度比市区低好几度，当地人习惯周末上来喝茶纳凉。登狮子峰可以俯瞰嘉陵江小三峡，天气通透时能看到北碚城区。",
-  "highlights": [
-    "九峰连绵，古寺与道观共处一山",
-    "夏季比市区凉爽，本地人纳凉首选",
-    "狮子峰可俯瞰嘉陵江小三峡"
-  ],
-  "location": {
-    "point": {
-      "lng": 106.408637,
-      "lat": 29.859977,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "重庆市北碚区缙云山",
-    "district": "北碚",
-    "transportTip": "轨道交通 6 号线至北碚站，换乘公交至缙云山索道站",
-    "entrance": {
-      "lng": 106.397288,
-      "lat": 29.837203,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "jinyun-mountain",
+ "name": "缙云山",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "主城近郊的森林公园，九峰连绵，是重庆人周末爬山纳凉的老去处。",
+ "description": "缙云山在北碚区，九座山峰沿嘉陵江温塘峡排列，山间古木参天，海拔最高的狮子峰也才九百多米，爬起来不算吃力。山上有始建于南朝的缙云寺，香火延续了一千五百多年；还有绍龙观等道观，佛道共处一山是这里的特点。山腰常年云雾缭绕，夏天温度比市区低好几度，当地人习惯周末上来喝茶纳凉。登狮子峰可以俯瞰嘉陵江小三峡，天气通透时能看到北碚城区。",
+ "highlights": [
+  "九峰连绵，古寺与道观共处一山",
+  "夏季比市区凉爽，本地人纳凉首选",
+  "狮子峰可俯瞰嘉陵江小三峡"
+ ],
+ "location": {
+  "point": {
+   "lng": 106.408637,
+   "lat": 29.859977,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 08:00-17:00（以官方公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约 20 元起（索道另计，以官方为准）",
-    "ticketRef": 0,
-    "duration": "建议 180-300 分钟",
-    "durationMinutes": [
-      180,
-      300
-    ],
-    "priceLevel": "budget"
+  "address": "重庆市北碚区缙云山",
+  "district": "北碚",
+  "transportTip": "轨道交通 6 号线至北碚站，换乘公交至缙云山索道站",
+  "entrance": {
+   "lng": 106.397288,
+   "lat": 29.837203,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约 08:00-17:00（以官方公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约 20 元起（索道另计，以官方为准）",
+  "ticketRef": 0,
+  "duration": "建议 180-300 分钟",
+  "durationMinutes": [
+   180,
+   300
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "kids",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/%E7%BC%99%E4%BA%91%E5%B1%B1_%E5%A4%A7%E9%97%A8.jpg/1280px-%E7%BC%99%E4%BA%91%E5%B1%B1_%E5%A4%A7%E9%97%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/%E7%BC%99%E4%BA%91%E5%B1%B1_%E5%A4%A7%E9%97%A8.jpg/1280px-%E7%BC%99%E4%BA%91%E5%B1%B1_%E5%A4%A7%E9%97%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "缙云山 大门.jpg",
+   "query": "缙云山 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "重庆轨交18",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%BC%99%E4%BA%91%E5%B1%B1_%E5%A4%A7%E9%97%A8.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "kids",
-    "friends"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Karst_peaks_and_bamboo_forest.jpg/1280px-Karst_peaks_and_bamboo_forest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Karst_peaks_and_bamboo_forest.jpg/1280px-Karst_peaks_and_bamboo_forest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Karst peaks and bamboo forest.jpg",
+   "query": "缙云山 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Bernt Rostad",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karst_peaks_and_bamboo_forest.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "森林公园",
+  "登山",
+  "古寺",
+  "避暑"
+ ],
+ "popularity": 74,
+ "sources": [
+  {
+   "title": "百度百科·缙云山",
+   "url": "https://baike.baidu.com/item/%E7%BC%99%E4%BA%91%E5%B1%B1",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "缙云山"
+ },
+ "_geocodeTitle": "缙云山",
+ "_geocodeSuspect": false,
+ "district": "500109",
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.3,
+    "note": "狮子峰俯瞰嘉陵江小三峡"
+   },
+   {
+    "label": "体力",
+    "score": 3.3,
+    "note": "九峰连绵，走到狮子峰有强度"
+   },
+   {
+    "label": "遮阴",
+    "score": 4.6,
+    "note": "古木参天，夏天好走"
+   },
+   {
+    "label": "配套",
+    "score": 3.4,
+    "note": "山上餐饮住宿选择不多"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/%E7%BC%99%E4%BA%91%E5%B1%B1_%E5%A4%A7%E9%97%A8.jpg/1280px-%E7%BC%99%E4%BA%91%E5%B1%B1_%E5%A4%A7%E9%97%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/%E7%BC%99%E4%BA%91%E5%B1%B1_%E5%A4%A7%E9%97%A8.jpg/1280px-%E7%BC%99%E4%BA%91%E5%B1%B1_%E5%A4%A7%E9%97%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "缙云山 大门.jpg",
-      "query": "缙云山 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "重庆轨交18",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%BC%99%E4%BA%91%E5%B1%B1_%E5%A4%A7%E9%97%A8.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Karst_peaks_and_bamboo_forest.jpg/1280px-Karst_peaks_and_bamboo_forest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Karst_peaks_and_bamboo_forest.jpg/1280px-Karst_peaks_and_bamboo_forest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Karst peaks and bamboo forest.jpg",
-      "query": "缙云山 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Bernt Rostad",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karst_peaks_and_bamboo_forest.jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    }
+  "body": "缙云山是主城近郊最顺手的爬山去处：九峰沿嘉陵江温塘峡排开，古木遮阴，海拔不高但走到狮子峰还是要出点汗，山上缙云寺与绍龙观佛道共处一山，香火延续了一千多年。夏天山上比市区凉好几度，本地人上来喝茶纳凉。短板是索道要另买票、山上配套一般，雨后云雾一起，俯瞰小三峡的视野就废了。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "周末爬山",
+   "夏天避暑"
   ],
-  "coverIndex": 0,
-  "tags": [
-    "森林公园",
-    "登山",
-    "古寺",
-    "避暑"
+  "avoid": [
+   "赶时间",
+   "雨天"
   ],
-  "popularity": 74,
-  "sources": [
-    {
-      "title": "百度百科·缙云山",
-      "url": "https://baike.baidu.com/item/%E7%BC%99%E4%BA%91%E5%B1%B1",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "缙云山"
-  },
-  "_geocodeTitle": "缙云山",
-  "_geocodeSuspect": false,
-  "district": "500109"
+  "sources": []
+ }
 }

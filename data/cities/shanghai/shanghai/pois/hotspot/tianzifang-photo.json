@@ -1,172 +1,211 @@
 {
-  "id": "tianzifang-photo",
-  "name": "武康路与安福路街区",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "梧桐树下的老洋房街区，上海最适合走路的一片。",
-  "description": "武康路、安福路、五原路这一片，是上海住宅建筑里最好的一段：邬达克、赉安等建筑师的作品散在里面，风格从西班牙式到装饰艺术都有。街上梧桐成荫，店铺、咖啡与画廊顺着底层铺开。这一带适合的做法不是打卡某一个点，而是不带目的地走两个小时。",
-  "highlights": [
-    "梧桐成荫的多国建筑样本",
-    "邬达克、赉安的作品散落其间",
-    "适合无目的慢走"
-  ],
-  "location": {
-    "point": {
-      "lng": 121.440894,
-      "lat": 31.212618,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "上海市徐汇区武康路",
-    "district": "徐汇",
-    "transportTip": "地铁10号线/11号线交通大学站"
+ "id": "tianzifang-photo",
+ "name": "武康路与安福路街区",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "梧桐树下的老洋房街区，上海最适合走路的一片。",
+ "description": "武康路、安福路、五原路这一片，是上海住宅建筑里最好的一段：邬达克、赉安等建筑师的作品散在里面，风格从西班牙式到装饰艺术都有。街上梧桐成荫，店铺、咖啡与画廊顺着底层铺开。这一带适合的做法不是打卡某一个点，而是不带目的地走两个小时。",
+ "highlights": [
+  "梧桐成荫的多国建筑样本",
+  "邬达克、赉安的作品散落其间",
+  "适合无目的慢走"
+ ],
+ "location": {
+  "point": {
+   "lng": 121.440894,
+   "lat": 31.212618,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 120-300 分钟",
-    "durationMinutes": [
-      120,
-      300
-    ],
-    "priceLevel": "free"
+  "address": "上海市徐汇区武康路",
+  "district": "徐汇",
+  "transportTip": "地铁10号线/11号线交通大学站"
+ },
+ "practical": {
+  "openHours": "全天开放",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 120-300 分钟",
+  "durationMinutes": [
+   120,
+   300
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Shanghai_Art_Deco_%2829878646105%29.jpg/1280px-Shanghai_Art_Deco_%2829878646105%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Shanghai_Art_Deco_%2829878646105%29.jpg/1280px-Shanghai_Art_Deco_%2829878646105%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Shanghai Art Deco (29878646105).jpg",
+   "query": "武康路与安福路街区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Sandra Cohen-Rose and Colin Rose from Montreal, Canada",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "couple",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Shanghai_Art_Deco_%2829878646105%29.jpg/1280px-Shanghai_Art_Deco_%2829878646105%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Shanghai_Art_Deco_%2829878646105%29.jpg/1280px-Shanghai_Art_Deco_%2829878646105%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Shanghai Art Deco (29878646105).jpg",
-      "query": "武康路与安福路街区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Sandra Cohen-Rose and Colin Rose from Montreal, Canada",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Wulumuqi_Road_After_Protest.jpg/1280px-Wulumuqi_Road_After_Protest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Wulumuqi_Road_After_Protest.jpg/1280px-Wulumuqi_Road_After_Protest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Wulumuqi Road After Protest.jpg",
-      "query": "武康路与安福路街区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Cinea467",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "street"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/%E4%BA%94%E5%8E%9F%E8%B7%AF205%E5%BC%843%E5%8F%B7%E4%BD%8F%E5%AE%85.jpg/1280px-%E4%BA%94%E5%8E%9F%E8%B7%AF205%E5%BC%843%E5%8F%B7%E4%BD%8F%E5%AE%85.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/%E4%BA%94%E5%8E%9F%E8%B7%AF205%E5%BC%843%E5%8F%B7%E4%BD%8F%E5%AE%85.jpg/1280px-%E4%BA%94%E5%8E%9F%E8%B7%AF205%E5%BC%843%E5%8F%B7%E4%BD%8F%E5%AE%85.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "五原路205弄3号住宅.jpg",
-      "query": "武康路与安福路街区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Antigng",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "street"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/We_know%2C_a_few_decades_ago_here_belonged_to_France._-_panoramio.jpg/1280px-We_know%2C_a_few_decades_ago_here_belonged_to_France._-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/We_know%2C_a_few_decades_ago_here_belonged_to_France._-_panoramio.jpg/1280px-We_know%2C_a_few_decades_ago_here_belonged_to_France._-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "We know, a few decades ago here belonged to France. - panoramio.jpg",
-      "query": "武康路与安福路街区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Weixi Zeng",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "street"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Shanghai_Art_Deco_%2829585123680%29.jpg/1280px-Shanghai_Art_Deco_%2829585123680%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Shanghai_Art_Deco_%2829585123680%29.jpg/1280px-Shanghai_Art_Deco_%2829585123680%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Shanghai Art Deco (29585123680).jpg",
-      "query": "武康路与安福路街区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Sandra Cohen-Rose and Colin Rose from Montreal, Canada",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "street"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "梧桐",
-    "老洋房",
-    "街区"
-  ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·武康路",
-      "url": "https://baike.baidu.com/item/%E6%AD%A6%E5%BA%B7%E8%B7%AF",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-11-04",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "武康路与安福路街区"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Wulumuqi_Road_After_Protest.jpg/1280px-Wulumuqi_Road_After_Protest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Wulumuqi_Road_After_Protest.jpg/1280px-Wulumuqi_Road_After_Protest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Wulumuqi Road After Protest.jpg",
+   "query": "武康路与安福路街区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Cinea467",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "street"
+   }
   },
-  "_geocodeTitle": "武康路新里",
-  "_geocodeSuspect": false,
-  "district": "310104"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/%E4%BA%94%E5%8E%9F%E8%B7%AF205%E5%BC%843%E5%8F%B7%E4%BD%8F%E5%AE%85.jpg/1280px-%E4%BA%94%E5%8E%9F%E8%B7%AF205%E5%BC%843%E5%8F%B7%E4%BD%8F%E5%AE%85.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/%E4%BA%94%E5%8E%9F%E8%B7%AF205%E5%BC%843%E5%8F%B7%E4%BD%8F%E5%AE%85.jpg/1280px-%E4%BA%94%E5%8E%9F%E8%B7%AF205%E5%BC%843%E5%8F%B7%E4%BD%8F%E5%AE%85.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "五原路205弄3号住宅.jpg",
+   "query": "武康路与安福路街区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Antigng",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "street"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/We_know%2C_a_few_decades_ago_here_belonged_to_France._-_panoramio.jpg/1280px-We_know%2C_a_few_decades_ago_here_belonged_to_France._-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/We_know%2C_a_few_decades_ago_here_belonged_to_France._-_panoramio.jpg/1280px-We_know%2C_a_few_decades_ago_here_belonged_to_France._-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "We know, a few decades ago here belonged to France. - panoramio.jpg",
+   "query": "武康路与安福路街区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Weixi Zeng",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "street"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Shanghai_Art_Deco_%2829585123680%29.jpg/1280px-Shanghai_Art_Deco_%2829585123680%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Shanghai_Art_Deco_%2829585123680%29.jpg/1280px-Shanghai_Art_Deco_%2829585123680%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Shanghai Art Deco (29585123680).jpg",
+   "query": "武康路与安福路街区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Sandra Cohen-Rose and Colin Rose from Montreal, Canada",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "street"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "梧桐",
+  "老洋房",
+  "街区"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·武康路",
+   "url": "https://baike.baidu.com/item/%E6%AD%A6%E5%BA%B7%E8%B7%AF",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "武康路与安福路街区"
+ },
+ "_geocodeTitle": "武康路新里",
+ "_geocodeSuspect": false,
+ "district": "310104",
+ "review": {
+  "score": 4.5,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "建筑",
+    "score": 4.6,
+    "note": "邬达克、赉安作品散在梧桐下"
+   },
+   {
+    "label": "步行体验",
+    "score": 4.5,
+    "note": "适合无目的地走两小时"
+   },
+   {
+    "label": "人流",
+    "score": 2.5,
+    "note": "武康大楼路口拍照人常站到车道"
+   },
+   {
+    "label": "消费",
+    "score": 2.7,
+    "note": "沿街咖啡与买手店价格偏高"
+   }
+  ],
+  "body": "武康路、安福路、五原路这一片是上海住宅建筑最耐走的一段，梧桐成荫、底层店铺与画廊顺着街铺开，正确玩法是不带目的地走两小时而不是打卡某一点。负面：武康大楼路口是打卡热点，拍照的人常站到车道边上；沿街咖啡与买手店价格偏高，周末下午人流密度会让慢走的体验大打折扣，建议工作日或清早来。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "城市漫游",
+   "拍照",
+   "咖啡"
+  ],
+  "avoid": [
+   "周末下午",
+   "追求性价比"
+  ],
+  "sources": []
+ }
 }

@@ -1,68 +1,126 @@
 {
-  "id": "dangdang-hu",
-  "name": "迪荡湖公园",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "城东的湖景公园，夜景与音乐喷泉。",
-  "description": "迪荡湖在绍兴城东新区，是一处现代化湖景公园，环湖绿道、音乐喷泉和灯光秀俱全，是本地人傍晚散步与跑步的去处。它服务新城居民，也比老城开阔，适合轻松逛。免费开放，喷泉与灯光以公告为准。与古城形成新老对照。",
-  "highlights": [
-    "城东现代化湖景公园",
-    "绿道音乐喷泉灯光秀",
-    "免费，新城傍晚散步"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.622111,
-      "lat": 30.010632,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "绍兴市越城区迪荡湖",
-    "district": "越城区",
-    "transportTip": "公交至迪荡湖站"
+ "id": "dangdang-hu",
+ "name": "迪荡湖公园",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "城中湖公园，环湖绿道与莲花阁夜景，2025 年创成国家 3A 级景区",
+ "description": "迪荡湖在绍兴城东新区，是一处现代化湖景公园，环湖绿道、音乐喷泉和灯光秀俱全，是本地人傍晚散步与跑步的去处。它服务新城居民，也比老城开阔，适合轻松逛。免费开放，喷泉与灯光以公告为准。与古城形成新老对照。",
+ "highlights": [
+  "城东现代化湖景公园",
+  "绿道音乐喷泉灯光秀",
+  "免费，新城傍晚散步"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.622111,
+   "lat": 30.010632,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放（喷泉以公告为准）",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
+  "address": "绍兴市越城区二环北路与越东路交汇处西侧（迪荡新城）",
+  "district": "越城区",
+  "transportTip": "公交至迪荡湖站"
+ },
+ "practical": {
+  "openHours": "全天开放（喷泉以公告为准）",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "friends",
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "湖景",
+  "公园",
+  "喷泉"
+ ],
+ "popularity": 70,
+ "sources": [
+  {
+   "title": "百度百科·迪荡湖",
+   "url": "https://baike.baidu.com/item/%E8%BF%AA%E8%8D%A1%E6%B9%96",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
   },
-  "audience": [
-    "friends",
-    "family",
-    "solo"
+  {
+   "title": "越城区文广旅游局2025年工作总结：迪荡湖2025年创成3A景区",
+   "url": "http://epaper.shaoxing.com.cn/sxrb/pc/content/202601/23/content_629040.html",
+   "kind": "media",
+   "fetchedAt": "2026-11-12"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "迪荡湖公园"
+ },
+ "_geocodeTitle": "绍兴迪荡湖公园-人工沙滩",
+ "_geocodeSuspect": false,
+ "district": "330602",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-12",
+  "changes": [
+   {
+    "field": "一句话简介",
+    "old": "城东的湖景公园，夜景与音乐喷泉。",
+    "new": "城中湖公园，环湖绿道与莲花阁夜景，2025 年创成国家 3A 级景区"
+   },
+   {
+    "field": "地址",
+    "old": "绍兴市越城区迪荡湖",
+    "new": "绍兴市越城区二环北路与越东路交汇处西侧（迪荡新城）"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "湖景",
-    "公园",
-    "喷泉"
+  "source": "http://epaper.shaoxing.com.cn/sxrb/pc/content/202601/23/content_629040.html",
+  "reason": "越城区文广旅游局2025年工作总结：迪荡湖2025年创成3A景区"
+ },
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.2,
+    "note": "湖面开阔，莲花阁与天际线同框"
+   },
+   {
+    "label": "配套",
+    "score": 3.2,
+    "note": "停车位少、商业点稀"
+   },
+   {
+    "label": "夜景",
+    "score": 4.1,
+    "note": "双子楼光影秀才是夜景主角"
+   }
   ],
-  "popularity": 70,
+  "body": "迪荡湖是绍兴城中心最大的成片水域，环湖绿道适合跑步骑行，湖心莲花阁与北岸双子楼的光影秀是夜景主力，2025 年已创成国家 3A 级景区、2026 年启动 4A 创建，免费且全天开放，本地人傍晚来得最多。缺点是配套偏弱——停车位只有四百来个、购物点少，「音乐喷泉」的场次各源说法不一，别专程为喷泉跑一趟；对外地游客的吸引力也一般。",
+  "basis": "web",
+  "at": "2026-11-12",
+  "fits": [
+   "傍晚散步",
+   "本地夜跑骑行"
+  ],
+  "avoid": [
+   "专程打卡的远客"
+  ],
   "sources": [
-    {
-      "title": "百度百科·迪荡湖",
-      "url": "https://baike.baidu.com/item/%E8%BF%AA%E8%8D%A1%E6%B9%96",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "迪荡湖公园"
-  },
-  "_geocodeTitle": "绍兴迪荡湖公园-人工沙滩",
-  "_geocodeSuspect": false,
-  "district": "330602",
-  "_noImage": true
+   "http://epaper.shaoxing.com.cn/sxrb/pc/content/202601/23/content_629040.html",
+   "https://c.m.163.com/news/a/KMOSTC8I05564VJO.html"
+  ]
+ }
 }

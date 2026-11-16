@@ -12,8 +12,8 @@
   ],
   "location": {
     "point": {
-      "lng": 119.296355,
-      "lat": 26.0777,
+      "lat": 26.083775,
+      "lng": 119.29661,
       "coordSystem": "GCJ-02"
     },
     "address": "福州市鼓楼区南后街89号",
@@ -53,9 +53,15 @@
       "url": "https://baike.baidu.com/item/%E7%A6%8F%E5%B7%9E%E9%B1%BC%E4%B8%B8",
       "kind": "wiki",
       "fetchedAt": "2026-10-04"
+    },
+    {
+      "title": "三坊七巷官网·永和鱼丸商家页",
+      "url": "https://www.fzsfqx.com.cn/merchant/6122/7b345264.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -64,5 +70,24 @@
   "_geocodeTitle": "永和鱼丸(道山路店)",
   "_geocodeSuspect": false,
   "district": "350102",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "point",
+        "old": {
+          "lng": 119.296355,
+          "lat": 26.0777,
+          "coordSystem": "GCJ-02"
+        },
+        "new": [
+          26.083775,
+          119.29661
+        ]
+      }
+    ],
+    "source": "https://www.fzsfqx.com.cn/merchant/6122/7b345264.html",
+    "reason": "三坊七巷官网商家页南后街89号，图商同址POI坐标，原值偏南672米"
+  }
 }

@@ -1,88 +1,126 @@
 {
-  "id": "mingxiaoling",
-  "name": "明孝陵",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "朱元璋的陵寝，神道石刻绕山而行是它最特别的地方。",
-  "description": "明孝陵是明太祖朱元璋与马皇后的合葬陵寝，是明清皇家陵寝的第一处，后面的十三陵、清东陵都沿用它的规制。最值得看的是神道——它不直，绕着梅花山拐了个弯，这在历代帝陵里是唯一的一处。神道上依次排着狮、獬豸、骆驼、象、麒麟、马六种石兽，每种两对，一对站立一对蹲卧。石象生的体量很大，走一遍要二十来分钟。陵宫部分在神道尽头的北面，宝顶是一整座山。",
-  "highlights": [
-    "神道绕山而建，历代帝陵唯一一处",
-    "六种石兽两立两卧成对排列",
-    "明清陵寝规制的开端"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.844216,
-      "lat": 32.045873,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南京市玄武区紫金山南麓",
-    "district": "玄武区",
-    "transportTip": "地铁2号线苜蓿园站步行，或从中山陵乘观光车"
+ "id": "mingxiaoling",
+ "name": "明孝陵",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "朱元璋的陵寝，神道石刻绕山而行是它最特别的地方。",
+ "description": "明孝陵是明太祖朱元璋与马皇后的合葬陵寝，是明清皇家陵寝的第一处，后面的十三陵、清东陵都沿用它的规制。最值得看的是神道——它不直，绕着梅花山拐了个弯，这在历代帝陵里是唯一的一处。神道上依次排着狮、獬豸、骆驼、象、麒麟、马六种石兽，每种两对，一对站立一对蹲卧。石象生的体量很大，走一遍要二十来分钟。陵宫部分在神道尽头的北面，宝顶是一整座山。",
+ "highlights": [
+  "神道绕山而建，历代帝陵唯一一处",
+  "六种石兽两立两卧成对排列",
+  "明清陵寝规制的开端"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.844216,
+   "lat": 32.045873,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约07:00-18:00（旺季），以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "约70元起（含周边景区可买联票），以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 150-300 分钟",
-    "durationMinutes": [
-      150,
-      300
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "family",
-    "elders"
+  "address": "南京市玄武区紫金山南麓",
+  "district": "玄武区",
+  "transportTip": "地铁2号线苜蓿园站步行，或从中山陵乘观光车"
+ },
+ "practical": {
+  "openHours": "约07:00-18:00（旺季），以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "约70元起（含周边景区可买联票），以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 150-300 分钟",
+  "durationMinutes": [
+   150,
+   300
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Nanjing_Ming_Xiaoling_2017.11.11_08-10-27.jpg/1280px-Nanjing_Ming_Xiaoling_2017.11.11_08-10-27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Nanjing_Ming_Xiaoling_2017.11.11_08-10-27.jpg/1280px-Nanjing_Ming_Xiaoling_2017.11.11_08-10-27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Nanjing Ming Xiaoling 2017.11.11 08-10-27.jpg",
-      "query": "明孝陵",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangzhugang",
-        "sourceUrl": "https://www.wikidata.org/wiki/Q28769",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "exact"
-      }
-    }
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "family",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Nanjing_Ming_Xiaoling_2017.11.11_08-10-27.jpg/1280px-Nanjing_Ming_Xiaoling_2017.11.11_08-10-27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Nanjing_Ming_Xiaoling_2017.11.11_08-10-27.jpg/1280px-Nanjing_Ming_Xiaoling_2017.11.11_08-10-27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Nanjing Ming Xiaoling 2017.11.11 08-10-27.jpg",
+   "query": "明孝陵",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28769",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "世界遗产",
+  "石刻",
+  "必去"
+ ],
+ "popularity": 94,
+ "sources": [
+  {
+   "title": "百度百科·明孝陵",
+   "url": "https://baike.baidu.com/item/%E6%98%8E%E5%AD%9D%E9%99%B5",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-23"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "明孝陵"
+ },
+ "_geocodeTitle": "钟山风景区-明孝陵景区-明雕塑",
+ "_geocodeSuspect": false,
+ "district": "320102",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "石刻",
+    "score": 4.7,
+    "note": "六种石兽两立两卧成对排列，体量很大"
+   },
+   {
+    "label": "徒步量",
+    "score": 3.4,
+    "note": "神道到陵宫往返不短，穿好走的鞋"
+   },
+   {
+    "label": "遮阴",
+    "score": 2.8,
+    "note": "石象路段树荫有限，正午晒"
+   },
+   {
+    "label": "门票",
+    "score": 3.3,
+    "note": "单价不低，可考虑与周边买联票"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "世界遗产",
-    "石刻",
-    "必去"
+  "body": "神道绕梅花山拐了个弯，是历代帝陵里唯一一处，六种石兽成对排开，走一遍要二十来分钟。陵宫在神道尽头，宝顶就是一整座山。景区大，从神道到陵宫往返耗时，夏天遮阴有限、正午走会很晒。想省力可以先看石象路，再决定要不要往深处走。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "看石刻",
+   "秋天来"
   ],
-  "popularity": 94,
-  "sources": [
-    {
-      "title": "百度百科·明孝陵",
-      "url": "https://baike.baidu.com/item/%E6%98%8E%E5%AD%9D%E9%99%B5",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-23"
-    }
+  "avoid": [
+   "正午暴晒",
+   "体弱老人"
   ],
-  "updatedAt": "2026-11-05",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "明孝陵"
-  },
-  "_geocodeTitle": "钟山风景区-明孝陵景区-明雕塑",
-  "_geocodeSuspect": false,
-  "district": "320102"
+  "sources": []
+ }
 }

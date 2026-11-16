@@ -1,6 +1,6 @@
 # 平遥 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-06
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-13
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Crop/edit: Uploader Original: See template below. | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:LocMap_of_WH_Ancient_City_of_Ping_Yao.png) |
-| 城市封面 | Nicor | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Pingyao_40.JPG) |
-| 城市封面 | lienyuan lee | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Pingyao_Ancient_City_%E5%B9%B3%E9%81%99%E5%8F%A4%E5%9F%8E_-_panoramio_-_lienyuan_lee.jpg) |
+| 城市封面 | Gisling | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Pingyao_city_wall.jpg) |
+| 城市封面 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B1%B1%E8%A5%BF%E5%B9%B3%E9%81%A5%E5%8F%A4%E5%9F%8E%E5%A2%99_-_panoramio.jpg) |
+| 城市封面 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B1%B1%E8%A5%BF%E5%B9%B3%E9%81%A5%E6%97%A5%E5%8D%87%E6%98%8C%E7%A5%A8%E5%8F%B7%E5%89%8D%E9%97%A8_-_panoramio.jpg) |
 | 二郎庙 | lienyuan lee | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 二郎庙 | lienyuan lee | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 二郎庙 | lienyuan lee | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |

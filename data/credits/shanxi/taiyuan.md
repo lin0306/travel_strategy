@@ -1,6 +1,6 @@
 # 太原 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-04
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-13
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Andy Lee | Pexels License | [pexels](https://www.pexels.com/photo/city-buildings-under-cloudy-sky-12515134/) |
-| 城市封面 | zhang kaiyv | Pexels License | [pexels](https://www.pexels.com/photo/a-city-under-a-cloudy-sky-9431177/) |
-| 城市封面 | Shuaizhi Tian | Pexels License | [pexels](https://www.pexels.com/photo/modern-high-rise-buildings-in-tianjin-china-38031563/) |
+| 城市封面 | Patrick20242023 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%99%8B%E7%A5%A0%E5%9C%A3%E6%AF%8D%E6%AE%BF%E4%BE%A7%E9%9D%A2%E8%A7%86%E8%A7%92.jpg) |
+| 城市封面 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jinci_Temple_74037-Taiyuan_(49222877402).jpg) |
+| 城市封面 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jinci_Temple_(54572159327).jpg) |
 | 碑林公园 | lienyuan lee | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Fushan_Stele_Forest_Park_%E5%82%85%E5%B1%B1%E7%A2%91%E6%9E%97%E5%85%AC%E5%9C%92_-_panoramio.jpg) |
 | 碑林公园 | lienyuan lee | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Fushan_Stele_Forest_Park_%E5%82%85%E5%B1%B1%E7%A2%91%E6%9E%97%E5%85%AC%E5%9C%92_-_panoramio_-_lienyuan_lee.jpg) |
 | 碑林公园 | lienyuan lee | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Fushan_Stele_Forest_%E5%82%85%E5%B1%B1%E7%A2%91%E6%9E%97_-_panoramio.jpg) |

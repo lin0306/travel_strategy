@@ -23,16 +23,18 @@ import { usePlanUi, type DupConfirmPayload } from '~/common/logic/itinerary/plan
 import { appendStopWithToast } from '~/common/logic/useAddToPlan'
 import { Icon } from '~/common/ui/Icon'
 import { useDismiss } from '~/common/ui/useDismiss'
+import { useItemPresence } from '~/common/ui/usePresence'
 
 /** 门：只负责"开不开"，**不持有任何状态** */
 export function DuplicateConfirm() {
   const dup = usePlanUi((s) => s.dupConfirm)
-  if (!dup) return null
-  return <ConfirmBody dup={dup} />
+  const pres = useItemPresence(dup)
+  if (!pres.mounted || !pres.item) return null
+  return <ConfirmBody dup={pres.item} exiting={pres.exiting} />
 }
 
 /** 内容：每次打开都是**全新实例** */
-function ConfirmBody({ dup }: { dup: DupConfirmPayload }) {
+function ConfirmBody({ dup, exiting }: { dup: DupConfirmPayload; exiting: boolean }) {
   const close = usePlanUi((s) => s.closeDupConfirm)
 
   /**
@@ -67,7 +69,7 @@ function ConfirmBody({ dup }: { dup: DupConfirmPayload }) {
         role="dialog"
         aria-modal="false"
         aria-label="重复添加确认"
-        className="flt flt-in pointer-events-auto w-[min(320px,88vw)] overflow-hidden"
+        className={`flt ${exiting ? 'flt-out' : 'flt-in'} pointer-events-auto w-[min(320px,88vw)] overflow-hidden`}
       >
         <div className="flex items-start gap-2 px-3.5 pt-3 pb-2">
           <Icon name="alert" size="sm" className="mt-0.5 flex-none text-primary" />

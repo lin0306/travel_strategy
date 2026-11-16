@@ -1,96 +1,135 @@
 {
-  "id": "ludagun-lao",
-  "name": "驴打滚",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "承德老点心，黄米面裹豆面卷豆沙，软糯，街头点心铺都有。",
-  "description": "驴打滚是承德的老点心 —— 黄米面蒸熟，擀开，抹上豆沙，卷起来，再在炒熟的黄豆面里滚一圈，所以叫驴打滚。它软，糯，不太甜。承德街头的点心铺都有，论块卖。也有真空装的可以带走。当零食吃。",
-  "highlights": [
-    "黄米面裹豆沙滚黄豆面，故名驴打滚",
-    "软糯不太甜，街头点心铺都有",
-    "有真空装可带走"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.943121,
-      "lat": 40.974679,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市双桥区驴打滚点心铺",
-    "district": "双桥区",
-    "transportTip": "市区步行到点心铺"
+ "id": "ludagun-lao",
+ "name": "驴打滚",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "承德老点心，黄米面裹豆面卷豆沙，软糯，街头点心铺都有。",
+ "description": "驴打滚是承德的老点心 —— 黄米面蒸熟，擀开，抹上豆沙，卷起来，再在炒熟的黄豆面里滚一圈，所以叫驴打滚。它软，糯，不太甜。承德街头的点心铺都有，论块卖。也有真空装的可以带走。当零食吃。",
+ "highlights": [
+  "黄米面裹豆沙滚黄豆面，故名驴打滚",
+  "软糯不太甜，街头点心铺都有",
+  "有真空装可带走"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.943121,
+   "lat": 40.974679,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-20:00",
-    "openHoursRef": 0,
-    "ticket": "每块约3-6元",
-    "ticketRef": 0,
-    "duration": "建议 20-40 分钟",
-    "durationMinutes": [
-      20,
-      40
-    ],
-    "priceLevel": "budget"
+  "address": "河北省承德市双桥区驴打滚点心铺",
+  "district": "双桥区",
+  "transportTip": "市区步行到点心铺"
+ },
+ "practical": {
+  "openHours": "约08:00-20:00",
+  "openHoursRef": 0,
+  "ticket": "每块约3-6元",
+  "ticketRef": 0,
+  "duration": "建议 20-40 分钟",
+  "durationMinutes": [
+   20,
+   40
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "solo",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/%E4%B8%80%E7%9B%92%E6%9E%A3%E6%B3%A5%E3%80%81%E7%BB%BF%E8%8C%B6%E3%80%81%E7%BB%BF%E8%B1%86%E3%80%81%E6%A1%82%E8%8A%B1%EF%BC%8C%E7%8A%B6%E5%85%83%E5%91%B3%E7%B3%95%E7%82%B9%E5%92%8C%E9%A9%B4%E6%89%93%E6%BB%9A%E7%9A%84%E7%A8%BB%E8%8A%B1%E6%9D%91%E7%A4%BC%E7%9B%92.jpg/1280px-%E4%B8%80%E7%9B%92%E6%9E%A3%E6%B3%A5%E3%80%81%E7%BB%BF%E8%8C%B6%E3%80%81%E7%BB%BF%E8%B1%86%E3%80%81%E6%A1%82%E8%8A%B1%EF%BC%8C%E7%8A%B6%E5%85%83%E5%91%B3%E7%B3%95%E7%82%B9%E5%92%8C%E9%A9%B4%E6%89%93%E6%BB%9A%E7%9A%84%E7%A8%BB%E8%8A%B1%E6%9D%91%E7%A4%BC%E7%9B%92.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/%E4%B8%80%E7%9B%92%E6%9E%A3%E6%B3%A5%E3%80%81%E7%BB%BF%E8%8C%B6%E3%80%81%E7%BB%BF%E8%B1%86%E3%80%81%E6%A1%82%E8%8A%B1%EF%BC%8C%E7%8A%B6%E5%85%83%E5%91%B3%E7%B3%95%E7%82%B9%E5%92%8C%E9%A9%B4%E6%89%93%E6%BB%9A%E7%9A%84%E7%A8%BB%E8%8A%B1%E6%9D%91%E7%A4%BC%E7%9B%92.jpg/1280px-%E4%B8%80%E7%9B%92%E6%9E%A3%E6%B3%A5%E3%80%81%E7%BB%BF%E8%8C%B6%E3%80%81%E7%BB%BF%E8%B1%86%E3%80%81%E6%A1%82%E8%8A%B1%EF%BC%8C%E7%8A%B6%E5%85%83%E5%91%B3%E7%B3%95%E7%82%B9%E5%92%8C%E9%A9%B4%E6%89%93%E6%BB%9A%E7%9A%84%E7%A8%BB%E8%8A%B1%E6%9D%91%E7%A4%BC%E7%9B%92.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 647,
+   "alt": "一盒枣泥、绿茶、绿豆、桂花，状元味糕点和驴打滚的稻花村礼盒.jpg",
+   "query": "驴打滚",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zicheng zic",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%80%E7%9B%92%E6%9E%A3%E6%B3%A5%E3%80%81%E7%BB%BF%E8%8C%B6%E3%80%81%E7%BB%BF%E8%B1%86%E3%80%81%E6%A1%82%E8%8A%B1%EF%BC%8C%E7%8A%B6%E5%85%83%E5%91%B3%E7%B3%95%E7%82%B9%E5%92%8C%E9%A9%B4%E6%89%93%E6%BB%9A%E7%9A%84%E7%A8%BB%E8%8A%B1%E6%9D%91%E7%A4%BC%E7%9B%92.jpg",
+    "license": "CC BY 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "solo",
-    "family"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Lyu_Da_Gun.jpg/1280px-Lyu_Da_Gun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Lyu_Da_Gun.jpg/1280px-Lyu_Da_Gun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Lyu Da Gun.jpg",
+   "query": "驴打滚",
+   "credit": {
+    "source": "wikimedia",
+    "author": "ZhengZhou",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lyu_Da_Gun.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "点心",
+  "驴打滚",
+  "老味"
+ ],
+ "popularity": 58,
+ "sources": [
+  {
+   "title": "百度百科·驴打滚",
+   "url": "https://baike.baidu.com/item/%E9%A9%B4%E6%89%93%E6%BB%9A",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "驴打滚"
+ },
+ "_geocodeTitle": "双桥区",
+ "district": "130802",
+ "review": {
+  "score": 3.8,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.0,
+    "note": "黄米面裹豆沙滚黄豆面，软糯不齁"
+   },
+   {
+    "label": "价格",
+    "score": 4.3,
+    "note": "论块卖，几元一块"
+   },
+   {
+    "label": "带走",
+    "score": 3.3,
+    "note": "真空装能带，但口感比现做差一截"
+   },
+   {
+    "label": "甜度",
+    "score": 3.2,
+    "note": "豆沙偏甜，不吃甜的人两块就够"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/%E4%B8%80%E7%9B%92%E6%9E%A3%E6%B3%A5%E3%80%81%E7%BB%BF%E8%8C%B6%E3%80%81%E7%BB%BF%E8%B1%86%E3%80%81%E6%A1%82%E8%8A%B1%EF%BC%8C%E7%8A%B6%E5%85%83%E5%91%B3%E7%B3%95%E7%82%B9%E5%92%8C%E9%A9%B4%E6%89%93%E6%BB%9A%E7%9A%84%E7%A8%BB%E8%8A%B1%E6%9D%91%E7%A4%BC%E7%9B%92.jpg/1280px-%E4%B8%80%E7%9B%92%E6%9E%A3%E6%B3%A5%E3%80%81%E7%BB%BF%E8%8C%B6%E3%80%81%E7%BB%BF%E8%B1%86%E3%80%81%E6%A1%82%E8%8A%B1%EF%BC%8C%E7%8A%B6%E5%85%83%E5%91%B3%E7%B3%95%E7%82%B9%E5%92%8C%E9%A9%B4%E6%89%93%E6%BB%9A%E7%9A%84%E7%A8%BB%E8%8A%B1%E6%9D%91%E7%A4%BC%E7%9B%92.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/%E4%B8%80%E7%9B%92%E6%9E%A3%E6%B3%A5%E3%80%81%E7%BB%BF%E8%8C%B6%E3%80%81%E7%BB%BF%E8%B1%86%E3%80%81%E6%A1%82%E8%8A%B1%EF%BC%8C%E7%8A%B6%E5%85%83%E5%91%B3%E7%B3%95%E7%82%B9%E5%92%8C%E9%A9%B4%E6%89%93%E6%BB%9A%E7%9A%84%E7%A8%BB%E8%8A%B1%E6%9D%91%E7%A4%BC%E7%9B%92.jpg/1280px-%E4%B8%80%E7%9B%92%E6%9E%A3%E6%B3%A5%E3%80%81%E7%BB%BF%E8%8C%B6%E3%80%81%E7%BB%BF%E8%B1%86%E3%80%81%E6%A1%82%E8%8A%B1%EF%BC%8C%E7%8A%B6%E5%85%83%E5%91%B3%E7%B3%95%E7%82%B9%E5%92%8C%E9%A9%B4%E6%89%93%E6%BB%9A%E7%9A%84%E7%A8%BB%E8%8A%B1%E6%9D%91%E7%A4%BC%E7%9B%92.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 647,
-      "alt": "一盒枣泥、绿茶、绿豆、桂花，状元味糕点和驴打滚的稻花村礼盒.jpg",
-      "query": "驴打滚",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zicheng zic",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%80%E7%9B%92%E6%9E%A3%E6%B3%A5%E3%80%81%E7%BB%BF%E8%8C%B6%E3%80%81%E7%BB%BF%E8%B1%86%E3%80%81%E6%A1%82%E8%8A%B1%EF%BC%8C%E7%8A%B6%E5%85%83%E5%91%B3%E7%B3%95%E7%82%B9%E5%92%8C%E9%A9%B4%E6%89%93%E6%BB%9A%E7%9A%84%E7%A8%BB%E8%8A%B1%E6%9D%91%E7%A4%BC%E7%9B%92.jpg",
-        "license": "CC BY 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Lyu_Da_Gun.jpg/1280px-Lyu_Da_Gun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Lyu_Da_Gun.jpg/1280px-Lyu_Da_Gun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Lyu Da Gun.jpg",
-      "query": "驴打滚",
-      "credit": {
-        "source": "wikimedia",
-        "author": "ZhengZhou",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lyu_Da_Gun.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
+  "body": "驴打滚是黄米面蒸熟擀开、抹豆沙卷起来、再在炒熟的黄豆面里滚一圈，所以叫这个名。现做的最好吃：外层豆面干香，里头软糯，甜度比南方点心克制。承德街头点心铺基本都有，论块卖，几块钱一块，当零食刚好。缺点是真空包装的版本为了方便保存做得偏干，回去再吃口感差不少；豆沙对不吃甜的人还是偏甜，一次两块就够，买多了容易剩。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "买伴手礼",
+   "尝本地点心",
+   "预算紧"
   ],
-  "coverIndex": 0,
-  "tags": [
-    "点心",
-    "驴打滚",
-    "老味"
+  "avoid": [
+   "不吃甜",
+   "追求现做口感又长途带"
   ],
-  "popularity": 58,
-  "sources": [
-    {
-      "title": "百度百科·驴打滚",
-      "url": "https://baike.baidu.com/item/%E9%A9%B4%E6%89%93%E6%BB%9A",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "驴打滚"
-  },
-  "_geocodeTitle": "双桥区",
-  "district": "130802"
+  "sources": []
+ }
 }

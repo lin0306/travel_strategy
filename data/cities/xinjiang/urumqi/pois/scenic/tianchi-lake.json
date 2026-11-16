@@ -1,113 +1,146 @@
 {
-  "id": "tianchi-lake",
-  "name": "天山天池",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "天山怀抱里的高山湖泊，雪峰倒映碧水，距市区约七十公里。",
-  "description": "天山天池在乌鲁木齐东北约七十公里的博格达雪峰脚下，是一处高山湖泊。湖水碧蓝，背后是终年不化的雪峰，云杉环湖，景色清冷又壮丽。可以沿栈道散步，也能乘船看倒影。这里海拔接近两千米，紫外线强，要防晒和保暖。旺季最好早去，午后就开始堵车。",
-  "highlights": [
-    "天山雪峰下的高山湖",
-    "云杉环湖雪峰倒映",
-    "海拔近两千米需保暖防晒"
-  ],
-  "location": {
-    "point": {
-      "lng": 87.613329,
-      "lat": 43.781628,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "新疆维吾尔自治区乌鲁木齐市乌鲁木齐县天山天池景区",
-    "district": "天山区",
-    "transportTip": "乌鲁木齐市区乘旅游专线或自驾经吐乌大高速到天池"
+ "id": "tianchi-lake",
+ "name": "天山天池",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "天山怀抱里的高山湖泊，雪峰倒映碧水，距市区约七十公里。",
+ "description": "天山天池在乌鲁木齐东北约七十公里的博格达雪峰脚下，是一处高山湖泊。湖水碧蓝，背后是终年不化的雪峰，云杉环湖，景色清冷又壮丽。可以沿栈道散步，也能乘船看倒影。这里海拔接近两千米，紫外线强，要防晒和保暖。旺季最好早去，午后就开始堵车。",
+ "highlights": [
+  "天山雪峰下的高山湖",
+  "云杉环湖雪峰倒映",
+  "海拔近两千米需保暖防晒"
+ ],
+ "location": {
+  "point": {
+   "lng": 87.613329,
+   "lat": 43.781628,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约09:00-19:00，以景区公告为准",
-    "openHoursRef": 0,
-    "ticket": "约215元（含区间车，以官方为准）",
-    "ticketRef": 0,
-    "duration": "建议 240-420 分钟",
-    "durationMinutes": [
-      240,
-      420
-    ],
-    "priceLevel": "mid"
+  "address": "新疆维吾尔自治区乌鲁木齐市乌鲁木齐县天山天池景区",
+  "district": "天山区",
+  "transportTip": "乌鲁木齐市区乘旅游专线或自驾经吐乌大高速到天池"
+ },
+ "practical": {
+  "openHours": "约09:00-19:00，以景区公告为准",
+  "openHoursRef": 0,
+  "ticket": "约215元（含区间车，以官方为准）",
+  "ticketRef": 0,
+  "duration": "建议 240-420 分钟",
+  "durationMinutes": [
+   240,
+   420
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "family",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/%E5%A4%A9%E5%B1%B1%E5%A4%A9%E6%B1%A01_-_panoramio.jpg/1280px-%E5%A4%A9%E5%B1%B1%E5%A4%A9%E6%B1%A01_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/%E5%A4%A9%E5%B1%B1%E5%A4%A9%E6%B1%A01_-_panoramio.jpg/1280px-%E5%A4%A9%E5%B1%B1%E5%A4%A9%E6%B1%A01_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "天山天池1 - panoramio.jpg",
+   "query": "天山天池 乌鲁木齐",
+   "credit": {
+    "source": "wikimedia",
+    "author": "zhanyoun",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E5%B1%B1%E5%A4%A9%E6%B1%A01_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "family",
-    "friends"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/%E5%A4%A9%E5%B1%B1%E5%A4%A9%E6%B1%A01_-_panoramio.jpg/1280px-%E5%A4%A9%E5%B1%B1%E5%A4%A9%E6%B1%A01_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/%E5%A4%A9%E5%B1%B1%E5%A4%A9%E6%B1%A01_-_panoramio.jpg/1280px-%E5%A4%A9%E5%B1%B1%E5%A4%A9%E6%B1%A01_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "天山天池1 - panoramio.jpg",
-      "query": "天山天池 乌鲁木齐",
-      "credit": {
-        "source": "wikimedia",
-        "author": "zhanyoun",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E5%B1%B1%E5%A4%A9%E6%B1%A01_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/%E5%A4%A9%E5%B1%B1%E5%A4%A9%E6%B1%A02_-_panoramio.jpg/1280px-%E5%A4%A9%E5%B1%B1%E5%A4%A9%E6%B1%A02_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/%E5%A4%A9%E5%B1%B1%E5%A4%A9%E6%B1%A02_-_panoramio.jpg/1280px-%E5%A4%A9%E5%B1%B1%E5%A4%A9%E6%B1%A02_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "天山天池2 - panoramio.jpg",
-      "query": "天山天池 乌鲁木齐",
-      "credit": {
-        "source": "wikimedia",
-        "author": "zhanyoun",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E5%B1%B1%E5%A4%A9%E6%B1%A02_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Tianchi_Lake.jpg/1280px-Tianchi_Lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Tianchi_Lake.jpg/1280px-Tianchi_Lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 736,
-      "alt": "Tianchi Lake.jpg",
-      "query": "天山天池",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Bernard Gagnon",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tianchi_Lake.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "天池",
-    "雪山",
-    "湖泊"
-  ],
-  "popularity": 96,
-  "sources": [
-    {
-      "title": "天山天池·百度百科",
-      "url": "https://baike.baidu.com/item/%E5%A4%A9%E5%B1%B1%E5%A4%A9%E6%B1%A0",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-02"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Tianchi Lake Urumqi",
-    "zh": "天山天池"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/%E5%A4%A9%E5%B1%B1%E5%A4%A9%E6%B1%A02_-_panoramio.jpg/1280px-%E5%A4%A9%E5%B1%B1%E5%A4%A9%E6%B1%A02_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/%E5%A4%A9%E5%B1%B1%E5%A4%A9%E6%B1%A02_-_panoramio.jpg/1280px-%E5%A4%A9%E5%B1%B1%E5%A4%A9%E6%B1%A02_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "天山天池2 - panoramio.jpg",
+   "query": "天山天池 乌鲁木齐",
+   "credit": {
+    "source": "wikimedia",
+    "author": "zhanyoun",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E5%B1%B1%E5%A4%A9%E6%B1%A02_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "乌鲁木齐市天山区天池路源泉美食馆",
-  "_geocodeSuspect": false,
-  "district": "650102"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Tianchi_Lake.jpg/1280px-Tianchi_Lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Tianchi_Lake.jpg/1280px-Tianchi_Lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 736,
+   "alt": "Tianchi Lake.jpg",
+   "query": "天山天池",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Bernard Gagnon",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tianchi_Lake.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "天池",
+  "雪山",
+  "湖泊"
+ ],
+ "popularity": 96,
+ "sources": [
+  {
+   "title": "天山天池·百度百科",
+   "url": "https://baike.baidu.com/item/%E5%A4%A9%E5%B1%B1%E5%A4%A9%E6%B1%A0",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-02"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Tianchi Lake Urumqi",
+  "zh": "天山天池"
+ },
+ "_geocodeTitle": "乌鲁木齐市天山区天池路源泉美食馆",
+ "_geocodeSuspect": false,
+ "district": "650102",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "景色",
+    "score": 4.5,
+    "note": "雪峰、云杉与碧蓝湖面凑成一幅标准的高山湖"
+   },
+   {
+    "label": "交通",
+    "score": 3.2,
+    "note": "市区过去七十公里，旺季午后容易堵在进山路上"
+   },
+   {
+    "label": "海拔",
+    "score": 3.4,
+    "note": "近两千米，紫外线强，早晚温差大"
+   }
+  ],
+  "body": "博格达雪峰脚下的一处高山湖，背后是终年不化的雪峰，云杉环着湖岸，水色碧蓝，沿栈道走一段或者坐船看倒影都行，是新疆最典型的那张高山湖照片。缺点是票价含区间车并不便宜；市区过去七十公里，旺季最好一早出发，午后进山的路就开始堵；海拔接近两千米，紫外线和温差都比城里狠，防晒和外套都要带。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "自然风光",
+   "摄影",
+   "亲子"
+  ],
+  "avoid": [
+   "旺季午后进山"
+  ],
+  "sources": []
+ }
 }

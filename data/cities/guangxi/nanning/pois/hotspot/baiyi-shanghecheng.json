@@ -1,67 +1,109 @@
 {
-  "id": "baiyi-shanghecheng",
-  "name": "百益上河城",
-  "category": "hotspot",
-  "subtype": "art",
-  "summary": "旧厂房改的文创园，工业风加展演。",
-  "description": "百益上河城在江南区，由老厂房改造而成，保留了红砖、钢架和旧车间的壳，引入了文创、展览、小剧场和餐饮。工业风的建筑本身出片，是南宁现在比较出圈的拍照地。它离老城约半小时，适合半天的出城—市区混合行程。周末有市集和展演。免费进园。",
-  "highlights": [
-    "旧厂房改造文创园，工业风出片",
-    "红砖钢架旧车间保留",
-    "周末有市集展演，免费"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.305896,
-      "lat": 22.78737,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市江南区亭洪路45号",
-    "district": "江南区",
-    "transportTip": "地铁2号线至石柱岭站换乘公交/打车约10分钟"
+ "id": "baiyi-shanghecheng",
+ "name": "百益上河城",
+ "category": "hotspot",
+ "subtype": "art",
+ "summary": "旧厂房改的文创园，工业风加展演。",
+ "description": "百益上河城在江南区，由老厂房改造而成，保留了红砖、钢架和旧车间的壳，引入了文创、展览、小剧场和餐饮。工业风的建筑本身出片，是南宁现在比较出圈的拍照地。它离老城约半小时，适合半天的出城—市区混合行程。周末有市集和展演。免费进园。",
+ "highlights": [
+  "旧厂房改造文创园，工业风出片",
+  "红砖钢架旧车间保留",
+  "周末有市集展演，免费"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.305896,
+   "lat": 22.78737,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放（商铺以各自营业时间为准）",
-    "openHoursRef": 0,
-    "ticket": "无门票",
-    "ticketRef": 0,
-    "duration": "建议 90-150 分钟",
-    "durationMinutes": [
-      90,
-      150
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "friends",
-    "couple"
+  "address": "南宁市江南区亭洪路45号",
+  "district": "江南区",
+  "transportTip": "地铁2号线至石柱岭站换乘公交/打车约10分钟"
+ },
+ "practical": {
+  "openHours": "全天开放（商铺以各自营业时间为准）",
+  "openHoursRef": 0,
+  "ticket": "无门票",
+  "ticketRef": 0,
+  "duration": "建议 90-150 分钟",
+  "durationMinutes": [
+   90,
+   150
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "文创园",
-    "工业风",
-    "展览"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "friends",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "文创园",
+  "工业风",
+  "展览"
+ ],
+ "popularity": 66,
+ "sources": [
+  {
+   "title": "百度百科·百益上河城",
+   "url": "https://baike.baidu.com/item/%E7%99%BE%E7%9B%8A%E4%B8%8A%E6%B2%B3%E5%9F%8E",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "百益上河城"
+ },
+ "_geocodeTitle": "百益上河城",
+ "_geocodeSuspect": false,
+ "district": "450105",
+ "_noImage": true,
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "拍照",
+    "score": 4.4,
+    "note": "红砖厂房、涂鸦水塔、钢架车间，出片率高"
+   },
+   {
+    "label": "商业化",
+    "score": 3.2,
+    "note": "铺面有空的，白天人气一般"
+   },
+   {
+    "label": "人流",
+    "score": 3.4,
+    "note": "白天安静，周末市集与演出时才热闹"
+   },
+   {
+    "label": "交通",
+    "score": 3.6,
+    "note": "地铁亭洪路站出站还要往西走一段"
+   }
   ],
-  "popularity": 66,
+  "body": "老绢纺厂改的文创园，红砖、钢架、旧车间都留着，涂鸦水塔和「66 号公路」一带是最好拍的角落，免费进园，周末有市集和小剧场演出。要说缺点：白天人流很淡，部分铺面空着，逛起来有点冷清；地铁亭洪路站出站后还要往西步行五百米左右，夏天走过去一身汗。把它排在傍晚到入夜，灯亮起来才是它的状态。",
+  "basis": "web",
+  "at": "2026-11-15",
+  "fits": [
+   "拍照",
+   "傍晚",
+   "看展演出"
+  ],
+  "avoid": [
+   "早上专程去",
+   "想逛商场"
+  ],
   "sources": [
-    {
-      "title": "百度百科·百益上河城",
-      "url": "https://baike.baidu.com/item/%E7%99%BE%E7%9B%8A%E4%B8%8A%E6%B2%B3%E5%9F%8E",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "百益上河城"
-  },
-  "_geocodeTitle": "百益上河城",
-  "_geocodeSuspect": false,
-  "district": "450105",
-  "_noImage": true
+   "https://baike.baidu.com/item/%E5%B9%BF%E8%A5%BF%E7%99%BE%E7%9B%8A%E4%B8%8A%E6%B2%B3%E5%9F%8E%E6%97%85%E6%B8%B8%E5%8C%BA/65801676",
+   "https://www.meet99.com/jingdian-shanghecheng"
+  ]
+ }
 }

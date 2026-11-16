@@ -1,6 +1,6 @@
 # 九江 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-05
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-14
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/skyline-view-of-nanjing-city-china-33921375/) |
-| 城市封面 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/sunset-over-nanjing-skyline-and-xuanwu-lake-35022547/) |
-| 城市封面 | ainc T | Pexels License | [pexels](https://www.pexels.com/photo/dusk-skyline-of-harbin-china-with-smoky-skies-36213065/) |
+| 城市封面 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BA%90%E5%B1%B1%E8%A5%BF%E6%B5%B7_1.jpg) |
+| 城市封面 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BA%90%E5%B1%B1%E8%A5%BF%E6%B5%B7_3.jpg) |
+| 城市封面 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BA%90%E5%B1%B1%E8%A5%BF%E6%B5%B7%E5%A4%96%E5%A9%86%E6%A1%A5.jpg) |
 | 白鹿洞书院 | Gisling | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lushan_White_Lotus_Grotto_Academy.JPG) |
 | 白鹿洞书院 | 武铁辆玻 | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:White_Deer_Grotto_Academy.jpg) |
 | 白鹿洞书院 | Pauloleong2002 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:White_Deer_Grotto_Academy_in_Jiujiang,_Jiangxi_province.jpg) |

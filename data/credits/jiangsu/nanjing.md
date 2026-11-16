@@ -1,6 +1,6 @@
 # 南京 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-09-23
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-14
 
 ## 概览
 
@@ -74,21 +74,27 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | buduo xing | Unsplash License | [unsplash](https://unsplash.com/photos/a-city-skyline-at-night-with-tall-buildings-in-the-background-jXqqJFwB0aM) |
-| 城市封面 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/skyline-view-of-nanjing-city-china-33921375/) |
-| 城市封面 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/nanjing-skyline-with-zifeng-tower-in-the-distance-33921377/) |
+| 城市封面 | User:Sinopitt | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Qinhuai_River_2010.JPG) |
+| 城市封面 | Farm | CC BY-SA 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Nanjing_Museum_big.jpg) |
 | 朝天宫（南京市博物馆） | Iswzo | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lingxingmen_in_Nanjing_Chaotian_Palace.jpg) |
 | 朝天宫（南京市博物馆） | 东京村子 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E6%9C%9D%E5%A4%A9%E5%AE%AB_-_panoramio.jpg) |
 | 朝天宫（南京市博物馆） | 上海道台 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E6%9C%9D%E5%A4%A9%E5%AE%AB_2014%E5%B9%B410%E6%9C%88.JPG) |
+| 朝天宫（南京市博物馆） | 源義信 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 朝天宫（南京市博物馆） | 史氏 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 朝天宫（南京市博物馆） | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 大报恩寺遗址公园 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E6%8A%A5%E6%81%A9%E5%AF%BA%E9%81%97%E5%9D%80%E5%85%AC%E5%9B%AD,_2025-10-24_01.jpg) |
 | 大报恩寺遗址公园 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E6%8A%A5%E6%81%A9%E5%AF%BA%E9%81%97%E5%9D%80%E5%85%AC%E5%9B%AD,_2025-10-24_04.jpg) |
 | 大报恩寺遗址公园 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E6%8A%A5%E6%81%A9%E5%AF%BA%E9%81%97%E5%9D%80%E5%85%AC%E5%9B%AD,_2025-10-24_06.jpg) |
 | 夫子庙—秦淮河 | zh:User:Tianxiaozhang | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Qinhuaihe.JPG) |
 | 夫子庙—秦淮河 | Original uploader was Tianxiaozhang at Chinese Wikipedia | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:QinhuaiheIntro.JPG) |
 | 夫子庙—秦淮河 | Tiger@西北 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E5%A4%AB%E5%AD%90%E5%BA%99_-_%E5%8F%A4%E7%A7%A6%E6%B7%AE%E6%B2%B3_-_panoramio.jpg) |
+| 夫子庙—秦淮河 | 东京村子 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 夫子庙—秦淮河 | 东京村子 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 夫子庙—秦淮河 | そらみみ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 甘熙故居（南京市民俗博物馆） | Farm | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:GanJiaDaYuan02.JPG) |
 | 甘熙故居（南京市民俗博物馆） | Cangminzho | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Garden,_Gan_Xi_residence.jpg) |
 | 甘熙故居（南京市民俗博物馆） | No machine-readable author provided. Px820~commonswiki assum | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Minzoku.jpg) |
+| 甘熙故居（南京市民俗博物馆） | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 鸡鸣寺 | Chainwit. | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jiming_Temple_Nanjing_-_%E5%8D%97%E4%BA%AC_%E9%B8%A1%E9%B8%A3%E5%AF%BA_(2024)_-_img_01.jpg) |
 | 鸡鸣寺 | Chainwit. | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jiming_Temple_Nanjing_-_%E5%8D%97%E4%BA%AC_%E9%B8%A1%E9%B8%A3%E5%AF%BA_(2024)_-_img_03.jpg) |
 | 灵谷寺 | 蘇一品 | CC BY-SA 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Fireflies_at_Linggu_Temple,_20160627.jpg) |
@@ -96,9 +102,15 @@
 | 美龄宫 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Meiling_Gong_10.jpg) |
 | 美龄宫 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Meiling_Gong_2.jpg) |
 | 美龄宫 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Meiling_Gong_4.jpg) |
+| 明孝陵 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://www.wikidata.org/wiki/Q28769) |
 | 莫愁湖 | Unknown authorUnknown author | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mochou_Lake_-_cropped.jpg) |
 | 莫愁湖 | 东京村子 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E8%8E%AB%E6%84%81%E6%B9%96_-_panoramio.jpg) |
 | 莫愁湖 | 东京村子 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E8%8E%AB%E6%84%81%E6%B9%96_-_panoramio_(2).jpg) |
+| 侵华日军南京大屠杀遇难同胞纪念馆 | Jim Bowen from Zhenhai, China | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 侵华日军南京大屠杀遇难同胞纪念馆 | Jim Bowen from Zhenhai, China | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 侵华日军南京大屠杀遇难同胞纪念馆 | Jim Bowen from Zhenhai, China | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 侵华日军南京大屠杀遇难同胞纪念馆 | Ken Marshall from China | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 侵华日军南京大屠杀遇难同胞纪念馆 | 史氏 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 南京博物院 | Tevatron | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Nanjing_Museum1.jpg) |
 | 南京博物院 | Farm | CC BY-SA 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Nanjing_Museum_big.jpg) |
 | 南京博物院 | 东京村子 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E4%B8%AD%E5%B1%B1%E9%97%A8%E5%8D%97%E4%BA%AC%E5%8D%9A%E7%89%A9%E9%99%A2_-_panoramio.jpg) |
@@ -110,13 +122,25 @@
 | 总统府（中国近代史遗址博物馆） | Legolas1024 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%8D%8E%E6%B0%91%E5%9B%BD%E6%80%BB%E7%BB%9F%E5%BA%9C%C2%B7%E5%8D%97%E4%BA%AC%C2%B7%E8%88%AA%E6%8B%8D.jpg) |
 | 总统府（中国近代史遗址博物馆） | Nyx Ning | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC-%E6%97%A7%E6%80%BB%E7%BB%9F%E5%BA%9C_-_panoramio.jpg) |
 | 总统府（中国近代史遗址博物馆） | Kone718 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E6%80%BB%E7%BB%9F%E5%BA%9C.jpg) |
+| 总统府（中国近代史遗址博物馆） | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 总统府（中国近代史遗址博物馆） | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 总统府（中国近代史遗址博物馆） | ScareCriterion12 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 浦口火车站旧址 | GongKai_tommy | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 浦口火车站旧址 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 浦口火车站旧址 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 浦口火车站旧址 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 浦口火车站旧址 | MNXANL | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 浦口火车站旧址 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 栖霞寺 | Farm | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Pagoda_at_Qixia_Temple_Nanjing.jpg) |
 | 六朝博物馆 | 纳瓦拉的亨利 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Collections_and_visitors_in_the_Oriental_Metropolitan_Museum,_Nanjing.jpg) |
 | 六朝博物馆 | Yuchih | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E5%85%AD%E6%9C%9D%E5%8D%9A%E7%89%A9%E9%A6%86.jpg) |
+| 六朝博物馆 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 明城墙·台城（解放门段） | alexrudd | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Nanjing_View.png) |
 | 明城墙·台城（解放门段） | 史氏 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E6%98%8E%E5%9F%8E%E5%A2%99-%E5%8F%B0%E5%9F%8E%E6%AE%B5_-_panoramio.jpg) |
 | 玄武湖 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260803_Xuanwu_Lake_and_Purple_Mountain.jpg) |
 | 玄武湖 | Farm | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:XuanWuLake_all.JPG) |
+| 玄武湖 | Vanished User d421Lj4N3Cr45as0 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 玄武湖 | Vanished User d421Lj4N3Cr45as0 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 燕子矶 | Sinopitt | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chang_Jiang_in_Yanziji,_Nanjing.jpg) |
 | 颐和路公馆区 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Residence_of_Hu_Xiaoshi_01_2010-11.jpg) |
 | 颐和路公馆区 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Residence_of_Hu_Xiaoshi_02_2010-11.jpg) |
@@ -124,19 +148,24 @@
 | 阅江楼 | Quentin Scouflaire from Berlin, Germany | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Nanjing_Yuejiang_Lou.jpg) |
 | 阅江楼 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E5%9F%8E%E5%A2%99%E4%B8%8A%E7%9C%8B%E9%98%85%E6%B1%9F%E6%A5%BC01.jpg) |
 | 阅江楼 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E5%9F%8E%E5%A2%99%E4%B8%8A%E7%9C%8B%E9%98%85%E6%B1%9F%E6%A5%BC02.jpg) |
+| 阅江楼 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 雨花台 | PeterCheng | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC-%E9%9B%A8%E8%8A%B1%E5%8F%B0_-_panoramio.jpg) |
 | 雨花台 | neverdance | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC_%E9%9B%A8%E8%8A%B1%E5%8F%B0_%E6%98%A5%E5%AD%A3_-_panoramio.jpg) |
 | 雨花台 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E9%9B%A8%E8%8A%B1%E5%8F%B0.jpg) |
 | 瞻园 | neverdance | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC,%E7%9E%BB%E5%9B%AD_-_panoramio.jpg) |
 | 瞻园 | 东京村子 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E7%9E%BB%E5%9B%AD_-_panoramio.jpg) |
 | 瞻园 | helkonig | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E7%9E%BB%E5%9B%AD_-_panoramio_(17).jpg) |
+| 瞻园 | ScareCriterion12 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 中华门瓮城 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%8D%8E%E9%97%A8%E5%9F%8E%E5%A2%99%E4%B8%8A%E7%9C%8B%E7%93%AE%E5%9F%8E.jpg) |
 | 中山陵 | Chainwit. | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China-Nanjing_(2024)_Mausoleum_of_Sun_Yat_Sen_%E4%B8%AD%E5%B1%B1%E9%99%B5_-_img_01.jpg) |
 | 中山陵 | Chainwit. | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China-Nanjing_(2024)_Mausoleum_of_Sun_Yat_Sen_%E4%B8%AD%E5%B1%B1%E9%99%B5_-_img_08.jpg) |
+| 回味鸭血粉丝汤(夫子庙店) | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 绿柳居 | 东京村子 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E5%A4%AA%E5%B9%B3%E5%8D%97%E8%B7%AF%E7%BB%BF%E6%9F%B3%E5%B1%85%E9%A5%AD%E5%BA%97_-_panoramio.jpg) |
 | 绿柳居 | 东京村子 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E5%A4%AA%E5%B9%B3%E5%8D%97%E8%B7%AF%E7%BB%BF%E6%9F%B3%E5%B1%85%E9%A5%AD%E5%BA%97_-_panoramio_-_%E4%B8%9C%E4%BA%AC%E6%9D%91%E5%AD%90.jpg) |
 | 南京大牌档(狮子桥店) | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20230315_Nanjing_Impression_at_Grand_Emporium.jpg) |
 | 南京大牌档(狮子桥店) | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20240118_Nanjing_Impressions_at_Nanjing_Maoye_Plaza.jpg) |
 | 南京大牌档(狮子桥店) | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250702_Nanjing_Impressions_at_Zhengdong_MIXC.jpg) |
+| 奇芳阁 | 东京村子 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E5%A4%AB%E5%AD%90%E5%BA%99%E5%A5%87%E8%8A%B3%E9%98%81_-_panoramio.jpg) |
 | 晨光1865创意产业园 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Ginling_Machinery_Manufacture_Bureau_2011-03.JPG) |
 | 晨光1865创意产业园 | 东京村子 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Qinhuai,_Nanjing,_Jiangsu,_China_-_panoramio_(10).jpg) |
 | 晨光1865创意产业园 | 东京村子 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Qinhuai,_Nanjing,_Jiangsu,_China_-_panoramio_(11).jpg) |
@@ -146,11 +175,27 @@
 | 老门东 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E5%9F%8E%E5%A2%99%E4%BF%AF%E7%9E%B0%E8%80%81%E9%97%A8%E4%B8%9C04.jpg) |
 | 南京眼步行桥 | Uyiliu2 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Full_view_of_Nanjing_Eye_Pedestrian_Bridge.jpg) |
 | 南京眼步行桥 | Uyiliu2 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gaze_into_the_distance_from_the_Nanjing_Eye_Pedestrian_Bridge.jpg) |
+| 石臼湖特大桥 | 长安街上的灯 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20211023_%E5%8D%97%E4%BA%AC%E5%9C%B0%E9%93%81S9%E5%8F%B7%E7%BA%BF_%E7%9F%B3%E8%87%BC%E6%B9%96%E7%89%B9%E5%A4%A7%E6%A1%A5.jpg) |
 | 先锋书店(五台山店) | Shih-Chi Chiang | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bookstore_Avant-Garde_(f9441391399).jpg) |
 | 先锋书店(五台山店) | JosephLai | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Facade_of_Libraire_Avant-Garde(Wutai_Mountain_branch).jpg) |
 | 先锋书店(五台山店) | JosephLai | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Inside_Libraire_Avant-Garde.jpg) |
 | 中山码头 | _初音没有来_ | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2013%E5%B9%B411%E6%9C%8817%E6%97%A5%E2%80%94%E2%80%94%E5%8D%97%E4%BA%AC%E4%B8%AD%E5%B1%B1%E7%A0%81%E5%A4%B4_-_panoramio.jpg) |
 | 中山码头 | zh:user:sinopitt | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Zhongshan_Wharf.jpg) |
+| 1912街区 | helkonig | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 1912街区 | helkonig | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 1912街区 | helkonig | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 1912街区 | helkonig | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 高淳老街 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Zhengyi_Street_in_Gaochun_2012-04.JPG) |
 | 高淳老街 | xiawilliams | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B1%9F%E8%8B%8F%E5%8D%97%E4%BA%AC%E9%AB%98%E6%B7%B3%E8%80%81%E8%A1%97_-_panoramio.jpg) |
 | 高淳老街 | xiawilliams | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B1%9F%E8%8B%8F%E5%8D%97%E4%BA%AC%E9%AB%98%E6%B7%B3%E8%80%81%E8%A1%97%E5%8F%A4%E7%8E%A9%E6%91%8A_-_panoramio.jpg) |
+| 梅园新村历史文化街区 | 鲍向阳 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 梅园新村历史文化街区 | 鲍向阳 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 梅园新村历史文化街区 | 鲍向阳 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 梅园新村历史文化街区 | 东京村子 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 梅园新村历史文化街区 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 梅园新村历史文化街区 | 东京村子 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 熙南里历史文化街区 | helkonig | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 熙南里历史文化街区 | helkonig | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 熙南里历史文化街区 | helkonig | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 熙南里历史文化街区 | helkonig | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 熙南里历史文化街区 | helkonig | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |

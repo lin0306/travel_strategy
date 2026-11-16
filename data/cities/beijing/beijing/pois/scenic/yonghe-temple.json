@@ -1,127 +1,165 @@
 {
-  "id": "yonghe-temple",
-  "name": "雍和宫",
-  "category": "scenic",
-  "subtype": "temple",
-  "summary": "北京规格最高的藏传佛教寺院,万福阁的白檀弥勒是必看的实物。",
-  "description": "雍和宫原是雍正即位前的王府,乾隆时改为喇嘛庙,黄瓦红墙的规格在京城寺庙里顶格。沿着中轴线一路往里,最后是万福阁,里面供奉一尊高约十八米的白檀木弥勒,由整根白檀雕成,地面以上可见的部分就已经压满整座阁楼。这里常年香火旺盛,初一十五尤其。门口街上有不少算命与摊贩,不必理会;宫内请香是真事,随力而行。",
-  "highlights": [
-    "万福阁白檀弥勒高约十八米",
-    "由王府改寺,规格顶格",
-    "初一十五香火最盛"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.417267,
-      "lat": 39.947382,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "北京市东城区雍和宫大街12号",
-    "district": "东城",
-    "transportTip": "地铁2号线/5号线雍和宫站C口"
+ "id": "yonghe-temple",
+ "name": "雍和宫",
+ "category": "scenic",
+ "subtype": "temple",
+ "summary": "北京规格最高的藏传佛教寺院,万福阁的白檀弥勒是必看的实物。",
+ "description": "雍和宫原是雍正即位前的王府,乾隆时改为喇嘛庙,黄瓦红墙的规格在京城寺庙里顶格。沿着中轴线一路往里,最后是万福阁,里面供奉一尊高约十八米的白檀木弥勒,由整根白檀雕成,地面以上可见的部分就已经压满整座阁楼。这里常年香火旺盛,初一十五尤其。门口街上有不少算命与摊贩,不必理会;宫内请香是真事,随力而行。",
+ "highlights": [
+  "万福阁白檀弥勒高约十八米",
+  "由王府改寺,规格顶格",
+  "初一十五香火最盛"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.417267,
+   "lat": 39.947382,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约09:00-16:30(淡季至16:00),以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "约25元起,以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "budget"
+  "address": "北京市东城区雍和宫大街12号",
+  "district": "东城",
+  "transportTip": "地铁2号线/5号线雍和宫站C口"
+ },
+ "practical": {
+  "openHours": "约09:00-16:30(淡季至16:00),以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "约25元起,以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "couple",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Peking_2003_-_Yonghe-Tempel_-_Lamatempel_-_%E5%8C%97%E4%BA%AC2003_-_%E9%9B%8D%E5%92%8C%E5%AE%AB_-_panoramio.jpg/1280px-Peking_2003_-_Yonghe-Tempel_-_Lamatempel_-_%E5%8C%97%E4%BA%AC2003_-_%E9%9B%8D%E5%92%8C%E5%AE%AB_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Peking_2003_-_Yonghe-Tempel_-_Lamatempel_-_%E5%8C%97%E4%BA%AC2003_-_%E9%9B%8D%E5%92%8C%E5%AE%AB_-_panoramio.jpg/1280px-Peking_2003_-_Yonghe-Tempel_-_Lamatempel_-_%E5%8C%97%E4%BA%AC2003_-_%E9%9B%8D%E5%92%8C%E5%AE%AB_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Peking 2003 - Yonghe-Tempel - Lamatempel - 北京2003 - 雍和宫 - panoramio.jpg",
+   "query": "雍和宫 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "giggel",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peking_2003_-_Yonghe-Tempel_-_Lamatempel_-_%E5%8C%97%E4%BA%AC2003_-_%E9%9B%8D%E5%92%8C%E5%AE%AB_-_panoramio.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Peking_2003_-_Yonghe-Tempel_-_Lamatempel_-_%E5%8C%97%E4%BA%AC2003_-_%E9%9B%8D%E5%92%8C%E5%AE%AB_-_panoramio.jpg/1280px-Peking_2003_-_Yonghe-Tempel_-_Lamatempel_-_%E5%8C%97%E4%BA%AC2003_-_%E9%9B%8D%E5%92%8C%E5%AE%AB_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Peking_2003_-_Yonghe-Tempel_-_Lamatempel_-_%E5%8C%97%E4%BA%AC2003_-_%E9%9B%8D%E5%92%8C%E5%AE%AB_-_panoramio.jpg/1280px-Peking_2003_-_Yonghe-Tempel_-_Lamatempel_-_%E5%8C%97%E4%BA%AC2003_-_%E9%9B%8D%E5%92%8C%E5%AE%AB_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Peking 2003 - Yonghe-Tempel - Lamatempel - 北京2003 - 雍和宫 - panoramio.jpg",
-      "query": "雍和宫 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "giggel",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peking_2003_-_Yonghe-Tempel_-_Lamatempel_-_%E5%8C%97%E4%BA%AC2003_-_%E9%9B%8D%E5%92%8C%E5%AE%AB_-_panoramio.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/20200109_Yonghe_Temple_fountain-1.jpg/1280px-20200109_Yonghe_Temple_fountain-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/20200109_Yonghe_Temple_fountain-1.jpg/1280px-20200109_Yonghe_Temple_fountain-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1620,
-      "alt": "20200109 Yonghe Temple fountain-1.jpg",
-      "query": "雍和宫 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Balon Greyjoy",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20200109_Yonghe_Temple_fountain-1.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/20200109_Yonghe_Temple_fountain-2.jpg/1280px-20200109_Yonghe_Temple_fountain-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/20200109_Yonghe_Temple_fountain-2.jpg/1280px-20200109_Yonghe_Temple_fountain-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1620,
-      "alt": "20200109 Yonghe Temple fountain-2.jpg",
-      "query": "雍和宫 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Balon Greyjoy",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20200109_Yonghe_Temple_fountain-2.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/20200109_Yonghe_Temple_turtle_statue-1.jpg/1280px-20200109_Yonghe_Temple_turtle_statue-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/20200109_Yonghe_Temple_turtle_statue-1.jpg/1280px-20200109_Yonghe_Temple_turtle_statue-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "20200109 Yonghe Temple turtle statue-1.jpg",
-      "query": "雍和宫 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Balon Greyjoy",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20200109_Yonghe_Temple_turtle_statue-1.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "藏传佛教",
-    "寺庙",
-    "清代"
-  ],
-  "popularity": 90,
-  "sources": [
-    {
-      "title": "百度百科·雍和宫",
-      "url": "https://baike.baidu.com/item/%E9%9B%8D%E5%92%8C%E5%AE%AB",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "雍和宫"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/20200109_Yonghe_Temple_fountain-1.jpg/1280px-20200109_Yonghe_Temple_fountain-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/20200109_Yonghe_Temple_fountain-1.jpg/1280px-20200109_Yonghe_Temple_fountain-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1620,
+   "alt": "20200109 Yonghe Temple fountain-1.jpg",
+   "query": "雍和宫 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Balon Greyjoy",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20200109_Yonghe_Temple_fountain-1.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
   },
-  "_geocodeTitle": "雍和宫",
-  "_geocodeSuspect": false,
-  "district": "110101"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/20200109_Yonghe_Temple_fountain-2.jpg/1280px-20200109_Yonghe_Temple_fountain-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/20200109_Yonghe_Temple_fountain-2.jpg/1280px-20200109_Yonghe_Temple_fountain-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1620,
+   "alt": "20200109 Yonghe Temple fountain-2.jpg",
+   "query": "雍和宫 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Balon Greyjoy",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20200109_Yonghe_Temple_fountain-2.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/20200109_Yonghe_Temple_turtle_statue-1.jpg/1280px-20200109_Yonghe_Temple_turtle_statue-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/20200109_Yonghe_Temple_turtle_statue-1.jpg/1280px-20200109_Yonghe_Temple_turtle_statue-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "20200109 Yonghe Temple turtle statue-1.jpg",
+   "query": "雍和宫 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Balon Greyjoy",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20200109_Yonghe_Temple_turtle_statue-1.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "藏传佛教",
+  "寺庙",
+  "清代"
+ ],
+ "popularity": 90,
+ "sources": [
+  {
+   "title": "百度百科·雍和宫",
+   "url": "https://baike.baidu.com/item/%E9%9B%8D%E5%92%8C%E5%AE%AB",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "雍和宫"
+ },
+ "_geocodeTitle": "雍和宫",
+ "_geocodeSuspect": false,
+ "district": "110101",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "建筑",
+    "score": 4.7,
+    "note": "王府改寺，黄瓦红墙的规格在京城寺庙里顶格"
+   },
+   {
+    "label": "实物",
+    "score": 4.8,
+    "note": "万福阁白檀弥勒由整根白檀雕成，抬头看很有压迫感"
+   },
+   {
+    "label": "人流",
+    "score": 2.8,
+    "note": "初一十五与节假日香客极多，中轴线几乎走不动"
+   },
+   {
+    "label": "门票",
+    "score": 3.8,
+    "note": "二十几元，按内容算不贵"
+   }
+  ],
+  "body": "雍和宫的看点很集中：一路沿中轴线走到万福阁，那尊整根白檀雕成的弥勒从地面直上阁顶，抬头那一刻是别处给不了的。院落本身规格高，黄瓦红墙，走在里面能感觉到它曾经是王府。要提醒的是香火旺带来的拥挤——初一十五和节假日中轴线几乎走不动，殿内也不适合久留；门口街上一堆算命摊和推销，不必理会。挑普通工作日上午去，安静得多。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "看古建",
+   "宗教文化"
+  ],
+  "avoid": [
+   "初一十五",
+   "怕拥挤"
+  ],
+  "sources": []
+ }
 }

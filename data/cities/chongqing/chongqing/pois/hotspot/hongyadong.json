@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "重庆市渝中区沧白路",
-    "district": "南岸",
+    "district": "渝中",
     "transportTip": "轨道交通 1/6 号线小什字站，步行约 10 分钟"
   },
   "practical": {
@@ -37,7 +37,11 @@
     "friends"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "景区内散装称重零食要多看一眼：2026 年 5 月渝中区市监局查实 4 楼两家奶芙店在袋里预装增重，已立案、门店停业——买之前确认袋子是空的，切块后自己核对单价与总重",
+    "「快速入园票／专属通道票」都是假的，洪崖洞大门票免费，节假日只需在官方小程序免费预约",
+    "人偶主动搂着合影是要收费的，不想花钱就摆手拒绝"
+  ],
   "images": [
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/202308_Hongya_Cave_at_night_from_Qiansimen_Bridge.jpg/1280px-202308_Hongya_Cave_at_night_from_Qiansimen_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -99,9 +103,15 @@
       "url": "https://baike.baidu.com/item/%E6%B4%AA%E5%B4%96%E6%B4%9E",
       "kind": "wiki",
       "fetchedAt": "2026-09-19"
+    },
+    {
+      "title": "封面新闻 2026-05-07 + 渝中区市监局通报（举报基本属实、已立案），涉",
+      "url": "https://www.thecover.cn/news/6brMcDMohMWH90qSdq8Jkw==",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -109,5 +119,58 @@
   },
   "_geocodeTitle": "洪崖洞",
   "_geocodeSuspect": false,
-  "district": "500108"
+  "district": "500103",
+  "review": {
+    "score": 4.0,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "视觉",
+        "score": 4.6,
+        "note": "十一层吊脚楼顺崖叠起，夜里轮廓灯最出片"
+      },
+      {
+        "label": "机位",
+        "score": 4.2,
+        "note": "千厮门大桥与对岸是标准机位"
+      },
+      {
+        "label": "人流",
+        "score": 2.2,
+        "note": "晚上桥上挤满三脚架"
+      },
+      {
+        "label": "内部业态",
+        "score": 2.8,
+        "note": "街区同质化，电梯和楼梯都要排队"
+      }
+    ],
+    "body": "洪崖洞的看点在建筑本身：十一层吊脚楼顺着陡崖叠起来，顶层的马路能直接下到江边，重庆那种立体感在这里最直观；入夜灯一亮，从千厮门大桥拍过去确实好看。缺点是里面就是一条同质化的小吃街，电梯楼梯都要排队，晚上桥上人挤人，拍完就可以撤。",
+    "basis": "corpus",
+    "at": "2026-11-12",
+    "fits": [
+      "情侣",
+      "朋友"
+    ],
+    "avoid": [
+      "进店吃饭"
+    ],
+    "sources": []
+  },
+  "_patrol": {
+    "at": "2026-11-14",
+    "changes": [
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [],
+        "new": [
+          "景区内散装称重零食要多看一眼：2026 年 5 月渝中区市监局查实 4 楼两家奶芙店在袋里预装增重，已立案、门店停业——买之前确认袋子是空的，切块后自己核对单价与总重",
+          "「快速入园票／专属通道票」都是假的，洪崖洞大门票免费，节假日只需在官方小程序免费预约",
+          "人偶主动搂着合影是要收费的，不想花钱就摆手拒绝"
+        ]
+      }
+    ],
+    "source": "https://www.thecover.cn/news/6brMcDMohMWH90qSdq8Jkw==",
+    "reason": "封面新闻 2026-05-07 + 渝中区市监局通报（举报基本属实、已立案），涉事门店已停业；摊贩/称重套路入 tips，热度不下调（负面是租户行为且已查处，景区本身人气未变）"
+  }
 }

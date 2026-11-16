@@ -1,68 +1,107 @@
 {
-  "id": "shao-sanxian",
-  "name": "绍三鲜",
-  "category": "food",
-  "subtype": "local",
-  "summary": "鱼圆肉丸配笋肚，一碗鲜掉眉。",
-  "description": "绍三鲜是绍兴传统宴席大菜，以鱼圆、肉丸、河虾配笋片、肚片等同烩一锅，汤清味鲜、用料扎实，是「鲜」的集大成。它多见于酒席与老馆子，逢年过节必上。价中、分量大，适合多人点一盆分享。想尝绍兴本帮鲜味，这是代表。",
-  "highlights": [
-    "鱼圆肉丸河虾笋肚同烩",
-    "汤清味鲜，用料扎实",
-    "宴席本帮鲜味代表"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.587403,
-      "lat": 29.974756,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "绍兴市越城区本帮菜馆",
-    "district": "越城区",
-    "transportTip": "市区及景区周边"
+ "id": "shao-sanxian",
+ "name": "绍三鲜",
+ "category": "food",
+ "subtype": "local",
+ "summary": "鱼圆肉丸配笋肚，一碗鲜掉眉。",
+ "description": "绍三鲜是绍兴传统宴席大菜，以鱼圆、肉丸、河虾配笋片、肚片等同烩一锅，汤清味鲜、用料扎实，是「鲜」的集大成。它多见于酒席与老馆子，逢年过节必上。价中、分量大，适合多人点一盆分享。想尝绍兴本帮鲜味，这是代表。",
+ "highlights": [
+  "鱼圆肉丸河虾笋肚同烩",
+  "汤清味鲜，用料扎实",
+  "宴席本帮鲜味代表"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.587403,
+   "lat": 29.974756,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约11:00-14:00 / 17:00-21:00（以门店为准）",
-    "openHoursRef": 0,
-    "ticket": "人均约50元（按盆），以门店为准",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "family",
-    "elders",
-    "friends"
+  "address": "绍兴市越城区本帮菜馆",
+  "district": "越城区",
+  "transportTip": "市区及景区周边"
+ },
+ "practical": {
+  "openHours": "约11:00-14:00 / 17:00-21:00（以门店为准）",
+  "openHoursRef": 0,
+  "ticket": "人均约50元（按盆），以门店为准",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "绍三鲜",
-    "本帮",
-    "鲜"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "family",
+  "elders",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "绍三鲜",
+  "本帮",
+  "鲜"
+ ],
+ "popularity": 72,
+ "sources": [
+  {
+   "title": "百度百科·绍三鲜",
+   "url": "https://baike.baidu.com/item/%E7%BB%8D%E4%B8%89%E9%B2%9C",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "绍三鲜"
+ },
+ "_geocodeTitle": "绍三鲜",
+ "_geocodeSuspect": false,
+ "district": "330602",
+ "_noImage": true,
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.3,
+    "note": "鱼圆肉丸河虾笋片同烩，汤清味厚"
+   },
+   {
+    "label": "分量",
+    "score": 4.4,
+    "note": "一盆够三四个人，人少点不动"
+   },
+   {
+    "label": "价格",
+    "score": 3.6,
+    "note": "按盆计，人均五十上下"
+   },
+   {
+    "label": "普及度",
+    "score": 4.2,
+    "note": "老馆子基本都有，不必认某一家"
+   }
   ],
-  "popularity": 72,
+  "body": "绍兴宴席的头牌，手工鱼圆、肉丸、蛋饺配河虾笋片一锅烩，汤清而味厚，是这座城市对「鲜」的理解。缺点是分量太大，一盆下去两三个人就饱了，人少根本点不动；各家做法差异不小，鱼圆好坏能直接决定这一盆的上限。",
+  "basis": "web",
+  "at": "2026-11-12",
+  "fits": [
+   "多人聚餐",
+   "本帮菜"
+  ],
+  "avoid": [
+   "独自用餐"
+  ],
   "sources": [
-    {
-      "title": "百度百科·绍三鲜",
-      "url": "https://baike.baidu.com/item/%E7%BB%8D%E4%B8%89%E9%B2%9C",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "绍三鲜"
-  },
-  "_geocodeTitle": "绍三鲜",
-  "_geocodeSuspect": false,
-  "district": "330602",
-  "_noImage": true
+   "http://mp.weixin.qq.com/s?__biz=MzcwODIxNTU4NQ==&mid=2247484592&idx=1&sn=50140582ca7700b000ea512a87529a10"
+  ]
+ }
 }

@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "广西壮族自治区桂林市叠彩区伏波山",
-    "district": "秀峰区",
+    "district": "叠彩区",
     "transportTip": "市区步行或公交至伏波山站；与叠彩山之间步行约二十分钟",
     "entrance": {
       "lng": 110.303685,
@@ -61,21 +61,6 @@
       }
     },
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/%E6%A1%82%E6%9E%97%E5%8F%A0%E5%BD%A9%E5%B1%B1%E8%BF%9C%E7%9C%BA%E4%BC%8F%E6%B3%A2%E5%B1%B1.jpg/1280px-%E6%A1%82%E6%9E%97%E5%8F%A0%E5%BD%A9%E5%B1%B1%E8%BF%9C%E7%9C%BA%E4%BC%8F%E6%B3%A2%E5%B1%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/%E6%A1%82%E6%9E%97%E5%8F%A0%E5%BD%A9%E5%B1%B1%E8%BF%9C%E7%9C%BA%E4%BC%8F%E6%B3%A2%E5%B1%B1.jpg/1280px-%E6%A1%82%E6%9E%97%E5%8F%A0%E5%BD%A9%E5%B1%B1%E8%BF%9C%E7%9C%BA%E4%BC%8F%E6%B3%A2%E5%B1%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 773,
-      "alt": "桂林叠彩山远眺伏波山.jpg",
-      "query": "伏波山 桂林",
-      "credit": {
-        "source": "wikimedia",
-        "author": "三猎",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%A1%82%E6%9E%97%E5%8F%A0%E5%BD%A9%E5%B1%B1%E8%BF%9C%E7%9C%BA%E4%BC%8F%E6%B3%A2%E5%B1%B1.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Flickr_-_archer10_%28Dennis%29_-_China-7819.jpg/1280px-Flickr_-_archer10_%28Dennis%29_-_China-7819.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Flickr_-_archer10_%28Dennis%29_-_China-7819.jpg/1280px-Flickr_-_archer10_%28Dennis%29_-_China-7819.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
@@ -106,7 +91,7 @@
       "fetchedAt": "2026-09-30"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-12",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -114,5 +99,50 @@
   },
   "_geocodeTitle": "伏波山公园-广西桂林还珠洞",
   "_geocodeSuspect": false,
-  "district": "450302"
+  "district": "450303",
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 1 张（待重抓）",
+    "droppedImages": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/%E6%A1%82%E6%9E%97%E5%8F%A0%E5%BD%A9%E5%B1%B1%E8%BF%9C%E7%9C%BA%E4%BC%8F%E6%B3%A2%E5%B1%B1.jpg/1280px-%E6%A1%82%E6%9E%97%E5%8F%A0%E5%BD%A9%E5%B1%B1%E8%BF%9C%E7%9C%BA%E4%BC%8F%E6%B3%A2%E5%B1%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  "review": {
+    "score": 3.9,
+    "verdict": "顺路看看",
+    "facets": [
+      {
+        "label": "摩崖造像",
+        "score": 4.5,
+        "note": "还珠洞里几十尊唐代造像刻在崖壁上"
+      },
+      {
+        "label": "视野",
+        "score": 4.0,
+        "note": "山顶观景台能俯看漓江拐弯，对面就是叠彩山"
+      },
+      {
+        "label": "体力",
+        "score": 3.0,
+        "note": "山不高但陡，台阶多"
+      },
+      {
+        "label": "时长",
+        "score": 3.5,
+        "note": "一个小时上下能看完"
+      }
+    ],
+    "body": "漓江西岸一座孤零零拔起来的峰，山名来自汉代伏波将军马援，山下有祠。看点很集中：还珠洞里的唐代摩崖造像、洞口那根悬着一线空隙的试剑石，还有庙里那口敲在不同位置会出不同声音的古钟。上到山顶观景台能俯看漓江拐弯，对面就是叠彩山，两座山走二十分钟，很多人一块走。缺点是体量小、内容集中，一小时就看完，门票单买不太划算，最好和叠彩山连着安排。",
+    "basis": "corpus",
+    "at": "2026-11-12",
+    "fits": [
+      "看石刻",
+      "和叠彩山连游"
+    ],
+    "avoid": [
+      "腿脚不便",
+      "只安排一个点"
+    ],
+    "sources": []
+  }
 }

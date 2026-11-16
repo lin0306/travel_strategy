@@ -17,13 +17,13 @@
       "coordSystem": "GCJ-02"
     },
     "address": "福州市马尾区港口路",
-    "district": "长乐区",
+    "district": "马尾区",
     "transportTip": "地铁2号线至鼓山站换乘公交/打车至马尾"
   },
   "practical": {
-    "openHours": "约09:00-17:00（周一闭馆），以公告为准",
+    "openHours": "约09:00-17:00（16:30停止入场，周一闭馆）；罗星塔公园 08:00-17:30 全年开放",
     "openHoursRef": 0,
-    "ticket": "约35元起，以官方为准",
+    "ticket": "各馆免费开放（船政文化博物馆、马江海战纪念馆、罗星塔公园、潮江楼）；《最忆船政》演出 186 元起",
     "ticketRef": 0,
     "duration": "建议 120-180 分钟",
     "durationMinutes": [
@@ -37,7 +37,11 @@
     "elders"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "船政文化博物馆需提前在官方公众号预约，带身份证入场",
+    "636 潜艇登艇 2026-10-20 起试运营，在「船政文化」小程序约场次",
+    "《最忆船政》为独立售票演艺，19:30 场次最常有票"
+  ],
   "images": [],
   "coverIndex": 0,
   "tags": [
@@ -52,9 +56,21 @@
       "url": "https://baike.baidu.com/item/%E9%A9%AC%E5%B0%BE%E8%88%B9%E6%94%BF",
       "kind": "wiki",
       "fetchedAt": "2026-10-04"
+    },
+    {
+      "title": "福州新闻网·船政文化景区一日游（2026-07-20）",
+      "url": "https://fzcac.fznews.com.cn/node/19507/20260720/6a7ed4e6e06f4.shtml",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
+    },
+    {
+      "title": "中国船政文化网（景区官网）",
+      "url": "https://www.czwh.org.cn/",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -62,6 +78,26 @@
   },
   "_geocodeTitle": "中国船政文化景区",
   "_geocodeSuspect": false,
-  "district": "350112",
-  "_noImage": true
+  "district": "350105",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [
+          "船政文化博物馆需提前在官方公众号预约，带身份证入场\\",
+          "636 潜艇登艇 2026-10-20 起试运营，在「船政文化」小程序约场次\\",
+          "《最忆船政》为独立售票演艺，19:30 场次最常有票"
+        ],
+        "new": [
+          "船政文化博物馆需提前在官方公众号预约，带身份证入场",
+          "636 潜艇登艇 2026-10-20 起试运营，在「船政文化」小程序约场次",
+          "《最忆船政》为独立售票演艺，19:30 场次最常有票"
+        ]
+      }
+    ],
+    "source": "https://www.czwh.org.cn/",
+    "reason": "中国船政文化网与船政文化公众号：预约与潜艇试运营"
+  }
 }

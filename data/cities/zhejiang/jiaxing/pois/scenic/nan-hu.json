@@ -1,194 +1,233 @@
 {
-  "id": "nan-hu",
-  "name": "南湖(红船·烟雨楼)",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "红船起航地，湖心岛上的烟雨楼。",
-  "description": "南湖在嘉兴城区，是革命红船的起航地，1921 年中共一大在此续会，红船由此成为象征。湖心岛上的烟雨楼始建于五代，临水而建、登楼望湖，是嘉兴最古老的揽胜处。岛上还有仓圣祠、揽秀园等。南湖与运河相连，环湖有绿地与纪念馆，是了解嘉兴历史与红色文化的第一站。",
-  "highlights": [
-    "革命红船起航地",
-    "湖心岛烟雨楼揽胜",
-    "红色文化与古园"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.75861,
-      "lat": 30.753551,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "嘉兴市南湖区南湖风景区",
-    "district": "南湖区",
-    "transportTip": "公交南湖站；市区步行或骑行可达"
+ "id": "nan-hu",
+ "name": "南湖(红船·烟雨楼)",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "红船起航地，湖心岛上的烟雨楼。",
+ "description": "南湖在嘉兴城区，是革命红船的起航地，1921 年中共一大在此续会，红船由此成为象征。湖心岛上的烟雨楼始建于五代，临水而建、登楼望湖，是嘉兴最古老的揽胜处。岛上还有仓圣祠、揽秀园等。南湖与运河相连，环湖有绿地与纪念馆，是了解嘉兴历史与红色文化的第一站。",
+ "highlights": [
+  "革命红船起航地",
+  "湖心岛烟雨楼揽胜",
+  "红色文化与古园"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.75861,
+   "lat": 30.753551,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-17:30（以景区公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约60元起，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 120-240 分钟",
-    "durationMinutes": [
-      120,
-      240
-    ],
-    "priceLevel": "mid"
+  "address": "嘉兴市南湖区南湖风景区",
+  "district": "南湖区",
+  "transportTip": "公交南湖站；市区步行或骑行可达"
+ },
+ "practical": {
+  "openHours": "约08:00-17:30（以景区公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约60元起，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 120-240 分钟",
+  "durationMinutes": [
+   120,
+   240
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "family",
+  "friends",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/%E7%83%9F%E9%9B%A8%E6%9C%A6%E8%83%A7%E6%B9%96%E5%BF%83%E5%B2%9B_-_panoramio.jpg/1280px-%E7%83%9F%E9%9B%A8%E6%9C%A6%E8%83%A7%E6%B9%96%E5%BF%83%E5%B2%9B_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/%E7%83%9F%E9%9B%A8%E6%9C%A6%E8%83%A7%E6%B9%96%E5%BF%83%E5%B2%9B_-_panoramio.jpg/1280px-%E7%83%9F%E9%9B%A8%E6%9C%A6%E8%83%A7%E6%B9%96%E5%BF%83%E5%B2%9B_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "烟雨朦胧湖心岛 - panoramio.jpg",
+   "query": "南湖(红船·烟雨楼)",
+   "credit": {
+    "source": "wikimedia",
+    "author": "江上清风1961",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "family",
-    "friends",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/%E7%83%9F%E9%9B%A8%E6%9C%A6%E8%83%A7%E6%B9%96%E5%BF%83%E5%B2%9B_-_panoramio.jpg/1280px-%E7%83%9F%E9%9B%A8%E6%9C%A6%E8%83%A7%E6%B9%96%E5%BF%83%E5%B2%9B_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/%E7%83%9F%E9%9B%A8%E6%9C%A6%E8%83%A7%E6%B9%96%E5%BF%83%E5%B2%9B_-_panoramio.jpg/1280px-%E7%83%9F%E9%9B%A8%E6%9C%A6%E8%83%A7%E6%B9%96%E5%BF%83%E5%B2%9B_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "烟雨朦胧湖心岛 - panoramio.jpg",
-      "query": "南湖(红船·烟雨楼)",
-      "credit": {
-        "source": "wikimedia",
-        "author": "江上清风1961",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/%E7%83%9F%E9%9B%A8%E4%B8%AD%E7%9A%84%E5%8D%97%E6%B9%96_-_panoramio.jpg/1280px-%E7%83%9F%E9%9B%A8%E4%B8%AD%E7%9A%84%E5%8D%97%E6%B9%96_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/%E7%83%9F%E9%9B%A8%E4%B8%AD%E7%9A%84%E5%8D%97%E6%B9%96_-_panoramio.jpg/1280px-%E7%83%9F%E9%9B%A8%E4%B8%AD%E7%9A%84%E5%8D%97%E6%B9%96_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "烟雨中的南湖 - panoramio.jpg",
-      "query": "南湖(红船·烟雨楼)",
-      "credit": {
-        "source": "wikimedia",
-        "author": "江上清风1961",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/%E5%98%89%E5%85%B4%E5%8D%97%E6%B9%96%E7%83%9F%E9%9B%A8%E6%A5%BC_-_panoramio_-_2007-01-01.jpg/1280px-%E5%98%89%E5%85%B4%E5%8D%97%E6%B9%96%E7%83%9F%E9%9B%A8%E6%A5%BC_-_panoramio_-_2007-01-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/%E5%98%89%E5%85%B4%E5%8D%97%E6%B9%96%E7%83%9F%E9%9B%A8%E6%A5%BC_-_panoramio_-_2007-01-01.jpg/1280px-%E5%98%89%E5%85%B4%E5%8D%97%E6%B9%96%E7%83%9F%E9%9B%A8%E6%A5%BC_-_panoramio_-_2007-01-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "嘉兴南湖烟雨楼 - panoramio - 2007-01-01.jpg",
-      "query": "南湖(红船·烟雨楼)",
-      "credit": {
-        "source": "wikimedia",
-        "author": "江上清风1961",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/%E5%98%89%E5%85%B4%E5%8D%97%E6%B9%96%E4%BC%9A%E6%99%AF%E5%9B%AD%E5%85%A5%E5%8F%A3%2C_2021-10-30.jpg/1280px-%E5%98%89%E5%85%B4%E5%8D%97%E6%B9%96%E4%BC%9A%E6%99%AF%E5%9B%AD%E5%85%A5%E5%8F%A3%2C_2021-10-30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/%E5%98%89%E5%85%B4%E5%8D%97%E6%B9%96%E4%BC%9A%E6%99%AF%E5%9B%AD%E5%85%A5%E5%8F%A3%2C_2021-10-30.jpg/1280px-%E5%98%89%E5%85%B4%E5%8D%97%E6%B9%96%E4%BC%9A%E6%99%AF%E5%9B%AD%E5%85%A5%E5%8F%A3%2C_2021-10-30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "嘉兴南湖会景园入口, 2021-10-30.jpg",
-      "query": "南湖(红船·烟雨楼)",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Siyuwj",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "street"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/20240120_South_Lake_in_Jiaxing_03.jpg/1280px-20240120_South_Lake_in_Jiaxing_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/20240120_South_Lake_in_Jiaxing_03.jpg/1280px-20240120_South_Lake_in_Jiaxing_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "20240120 South Lake in Jiaxing 03.jpg",
-      "query": "南湖(红船·烟雨楼)",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "street"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/20240120_Wanghu_Pavilion_in_South_Lake%2C_Jiaxing.jpg/1280px-20240120_Wanghu_Pavilion_in_South_Lake%2C_Jiaxing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/20240120_Wanghu_Pavilion_in_South_Lake%2C_Jiaxing.jpg/1280px-20240120_Wanghu_Pavilion_in_South_Lake%2C_Jiaxing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "20240120 Wanghu Pavilion in South Lake, Jiaxing.jpg",
-      "query": "南湖(红船·烟雨楼)",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "street"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "南湖",
-    "红船",
-    "烟雨楼"
-  ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·南湖",
-      "url": "https://baike.baidu.com/item/%E5%8D%97%E6%B9%96",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-05"
-    }
-  ],
-  "updatedAt": "2026-11-02",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "南湖(红船·烟雨楼)"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/%E7%83%9F%E9%9B%A8%E4%B8%AD%E7%9A%84%E5%8D%97%E6%B9%96_-_panoramio.jpg/1280px-%E7%83%9F%E9%9B%A8%E4%B8%AD%E7%9A%84%E5%8D%97%E6%B9%96_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/%E7%83%9F%E9%9B%A8%E4%B8%AD%E7%9A%84%E5%8D%97%E6%B9%96_-_panoramio.jpg/1280px-%E7%83%9F%E9%9B%A8%E4%B8%AD%E7%9A%84%E5%8D%97%E6%B9%96_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "烟雨中的南湖 - panoramio.jpg",
+   "query": "南湖(红船·烟雨楼)",
+   "credit": {
+    "source": "wikimedia",
+    "author": "江上清风1961",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "南湖景区",
-  "_geocodeSuspect": false,
-  "district": "330402"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/%E5%98%89%E5%85%B4%E5%8D%97%E6%B9%96%E7%83%9F%E9%9B%A8%E6%A5%BC_-_panoramio_-_2007-01-01.jpg/1280px-%E5%98%89%E5%85%B4%E5%8D%97%E6%B9%96%E7%83%9F%E9%9B%A8%E6%A5%BC_-_panoramio_-_2007-01-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/%E5%98%89%E5%85%B4%E5%8D%97%E6%B9%96%E7%83%9F%E9%9B%A8%E6%A5%BC_-_panoramio_-_2007-01-01.jpg/1280px-%E5%98%89%E5%85%B4%E5%8D%97%E6%B9%96%E7%83%9F%E9%9B%A8%E6%A5%BC_-_panoramio_-_2007-01-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "嘉兴南湖烟雨楼 - panoramio - 2007-01-01.jpg",
+   "query": "南湖(红船·烟雨楼)",
+   "credit": {
+    "source": "wikimedia",
+    "author": "江上清风1961",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/%E5%98%89%E5%85%B4%E5%8D%97%E6%B9%96%E4%BC%9A%E6%99%AF%E5%9B%AD%E5%85%A5%E5%8F%A3%2C_2021-10-30.jpg/1280px-%E5%98%89%E5%85%B4%E5%8D%97%E6%B9%96%E4%BC%9A%E6%99%AF%E5%9B%AD%E5%85%A5%E5%8F%A3%2C_2021-10-30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/%E5%98%89%E5%85%B4%E5%8D%97%E6%B9%96%E4%BC%9A%E6%99%AF%E5%9B%AD%E5%85%A5%E5%8F%A3%2C_2021-10-30.jpg/1280px-%E5%98%89%E5%85%B4%E5%8D%97%E6%B9%96%E4%BC%9A%E6%99%AF%E5%9B%AD%E5%85%A5%E5%8F%A3%2C_2021-10-30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "嘉兴南湖会景园入口, 2021-10-30.jpg",
+   "query": "南湖(红船·烟雨楼)",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Siyuwj",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "street"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/20240120_South_Lake_in_Jiaxing_03.jpg/1280px-20240120_South_Lake_in_Jiaxing_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/20240120_South_Lake_in_Jiaxing_03.jpg/1280px-20240120_South_Lake_in_Jiaxing_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "20240120 South Lake in Jiaxing 03.jpg",
+   "query": "南湖(红船·烟雨楼)",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Windmemories",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "street"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/20240120_Wanghu_Pavilion_in_South_Lake%2C_Jiaxing.jpg/1280px-20240120_Wanghu_Pavilion_in_South_Lake%2C_Jiaxing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/20240120_Wanghu_Pavilion_in_South_Lake%2C_Jiaxing.jpg/1280px-20240120_Wanghu_Pavilion_in_South_Lake%2C_Jiaxing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "20240120 Wanghu Pavilion in South Lake, Jiaxing.jpg",
+   "query": "南湖(红船·烟雨楼)",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Windmemories",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "street"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "南湖",
+  "红船",
+  "烟雨楼"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·南湖",
+   "url": "https://baike.baidu.com/item/%E5%8D%97%E6%B9%96",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-05"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "南湖(红船·烟雨楼)"
+ },
+ "_geocodeTitle": "南湖景区",
+ "_geocodeSuspect": false,
+ "district": "330402",
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "历史",
+    "score": 4.4,
+    "note": "红船续会与五代烟雨楼叠在一处"
+   },
+   {
+    "label": "视野",
+    "score": 4.2,
+    "note": "登楼望湖是最老的揽胜角度"
+   },
+   {
+    "label": "门票",
+    "score": 3.2,
+    "note": "核心区要买票"
+   },
+   {
+    "label": "人流",
+    "score": 3.4,
+    "note": "节假日团队客集中"
+   }
+  ],
+  "body": "南湖在嘉兴城区，湖心岛上的烟雨楼始建于五代，临水而建、登楼望湖，是嘉兴最老的揽胜处；1921 年一大在此续会，红船由此成为象征，环湖还有绿地与纪念馆，把古城与红色两条线并在一处。缺点是核心区要门票，湖心岛与纪念馆的开放时间并不完全一致，赶时间的人容易扑空；节假日团队客集中，岛上走起来很挤。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "看古城",
+   "红色主题",
+   "亲子"
+  ],
+  "avoid": [
+   "只想免费逛湖",
+   "闭馆日"
+  ],
+  "sources": []
+ }
 }

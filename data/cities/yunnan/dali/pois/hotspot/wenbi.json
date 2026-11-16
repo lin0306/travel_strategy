@@ -71,7 +71,7 @@
       }
     }
   ],
-  "coverIndex": 0,
+  "coverIndex": 1,
   "tags": [
     "村落",
     "俯瞰",
@@ -84,9 +84,15 @@
       "url": "https://baike.baidu.com/item/%E6%B4%B1%E6%B5%B7",
       "kind": "wiki",
       "fetchedAt": "2026-10-01"
+    },
+    {
+      "title": "原封面（才村夜望对岸，几乎全黑）不能当卡片图；换第 2 张白天文笔村牌坊，同点位",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/%E4%BA%91%E5%8D%97%E7%9C%81%E5%A4%A7%E7%90%86%E6%B5%B7%E4%B8%9C%E9%95%87%E6%96%87%E7%AC%94%E6%9D%91.jpg",
+      "kind": "media",
+      "fetchedAt": "2026-11-15"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-15",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -94,5 +100,17 @@
   },
   "_geocodeTitle": "文笔村委会",
   "_geocodeSuspect": false,
-  "district": "532901"
+  "district": "532901",
+  "_patrol": {
+    "at": "2026-11-15",
+    "changes": [
+      {
+        "field": "封面序号",
+        "old": 0,
+        "new": 1
+      }
+    ],
+    "source": "https://upload.wikimedia.org/wikipedia/commons/9/97/%E4%BA%91%E5%8D%97%E7%9C%81%E5%A4%A7%E7%90%86%E6%B5%B7%E4%B8%9C%E9%95%87%E6%96%87%E7%AC%94%E6%9D%91.jpg",
+    "reason": "原封面（才村夜望对岸，几乎全黑）不能当卡片图；换第 2 张白天文笔村牌坊，同点位已抓素材，不新增抓取"
+  }
 }

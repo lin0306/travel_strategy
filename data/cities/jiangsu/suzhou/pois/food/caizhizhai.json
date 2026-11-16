@@ -38,23 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Caizhizhai.jpg/1280px-Caizhizhai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Caizhizhai.jpg/1280px-Caizhizhai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 724,
-      "alt": "Caizhizhai.jpg",
-      "query": "采芝斋 苏州",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Gisling",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caizhizhai.jpg",
-        "license": "CC BY 2.5",
-        "attributionRequired": true
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "苏式糖果",
@@ -70,7 +54,7 @@
       "fetchedAt": "2026-09-19"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -78,5 +62,13 @@
   },
   "_geocodeTitle": "采芝斋茶楼(观前街店)",
   "_geocodeSuspect": false,
-  "district": "320508"
+  "district": "320508",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 1 张（待重抓）",
+    "droppedImages": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Caizhizhai.jpg/1280px-Caizhizhai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  }
 }

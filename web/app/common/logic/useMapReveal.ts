@@ -39,7 +39,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 
 import { loadBoundsForLevel, type DistrictBoundsFile } from '~/common/data/data'
-import { recordMapLog } from '~/common/logic/mapLog'
 import {
   createDistrictLayer,
   createPoiLayer,
@@ -48,15 +47,16 @@ import {
   type DistrictGeoNode,
   type DistrictLayerHandle,
   type DistrictLayerMode,
-  type DistrictLayerStats,
   type MapLevel,
   type PoiLayerHandle,
-  type PoiLayerStats,
   type PoiPoint,
   type RevealDecision,
+  type RevealScope,
 } from '~/common/map/tencent'
 import { useMapShell, type ViewportEnv } from '~/common/logic/mapShell'
+import { logSnapshot } from '~/common/logic/mapSnapshot'
 import { NO_CLAIM } from '~/common/logic/planFocus'
+import { useScopeOutline } from '~/common/logic/useScopeOutline'
 
 /**
  * 揭示状态。**两个字段缺一不可**，它们回答的是两个不同的问题：
@@ -137,6 +137,14 @@ export interface UseMapRevealOptions {
    * 传字符串（如 `'rows,children,pois'` 的拼接），不要传对象 —— 它进 effect 依赖。
    */
   dataKey?: string
+  /**
+   * **作用域** —— 当前选中的行政单位（首页点省 / 点市 / 点区时给）。
+   *
+   * 给了它，这一屏的轮廓与徽标**只铺这个单位和它的下一级**，其余不画；
+   * 缩回全国尺度时自动放开（判据在 `RevealScope` 的表格里）。
+   * 省级页 / 城市页不用传 —— 它们的 `districts()` 本来就只返回本省/本城。
+   */
+  scope?: RevealScope | null
 }
 
 /**
@@ -171,6 +179,9 @@ export function useMapReveal(o: UseMapRevealOptions): RevealState {
     container: null, overlays: [], planFocus: false, claimed: NO_CLAIM,
   })
 
+  /** 「选中单位自身轮廓」的取数与缓存 —— 见 `useScopeOutline`（数据侧独立成钩子） */
+  const syncScope = useScopeOutline()
+
   const paint = useCallback(
     (env?: ViewportEnv) => {
       if (env) envRef.current = env
@@ -179,10 +190,12 @@ export function useMapReveal(o: UseMapRevealOptions): RevealState {
 
       const opts = oRef.current
       const view = readViewport(map, env?.container)
-      const d = decideReveal(opts.base, view, {
-        districts: opts.districts,
-        pois: opts.pois,
-      })
+      const d = decideReveal(
+        opts.base,
+        view,
+        { districts: opts.districts, pois: opts.pois },
+        opts.scope ?? null,
+      )
       // ★ 存下来给 `onSettled` 用：聚合落地是**异步**的，那一刻 `paint()` 的局部变量早没了
       lastDecisionRef.current = d
 
@@ -239,14 +252,16 @@ export function useMapReveal(o: UseMapRevealOptions): RevealState {
           const cached = boundsCacheRef.current.get(cacheKey)
           if (sig !== districtSigRef.current) {
             districtSigRef.current = sig
-            dl.setNodes(faceNodes, cached ?? undefined, mode)
+            // ★ 把 faceLevel 一起交给图层：描边深浅按**揭示级**判，不按绝对 zoom
+            //   （城市页 / 移动端 base 抬高后，z 没到 9.5 也已是街道底图 —— P2）
+            dl.setNodes(faceNodes, cached ?? undefined, mode, d.faceLevel)
           }
           if (cached === undefined) {
             void loadBoundsForLevel(d.faceLevel, adcodes).then((f) => {
               boundsCacheRef.current.set(cacheKey, f)
               // ★ 只有还停在**同一档**时才重铺：换级之后铺回去 = 拿旧几何盖掉新徽标
               if (districtSigRef.current === sig) {
-                dl.setNodes(faceNodes, f ?? undefined, mode)
+                dl.setNodes(faceNodes, f ?? undefined, mode, d.faceLevel)
                 // ★ 面是**异步**到的：`paint()` 末尾那次 `logSnapshot` 记到的是"还没有面"
                 //   的那一帧（`polys: 0`）。不补记的话探针读到的永远是"没有面" ——
                 //   2026-09-30 排查"面没跟着换级"时就被这个陈旧读数误导过一次。
@@ -255,6 +270,12 @@ export function useMapReveal(o: UseMapRevealOptions): RevealState {
             })
           }
         }
+        /**
+         * ★ 作用域外框**每次 paint 都要同步**（不放进上面的签名分支）：
+         *   它是**另一条几何**，与"这一屏铺哪一级"无关 —— 换级时外框不变，
+         *   换选中时下级可能一个都没变（同一个省的另一个市）。放进去会被签名短路掉。
+         */
+        syncScope(dl, d.scope)
         // 视野变了，避让要重算 —— 即使徽标集合没变（挤不挤随缩放变化）
         dl.refreshView()
       }
@@ -366,49 +387,18 @@ export function useMapReveal(o: UseMapRevealOptions): RevealState {
   // ★ 不捕获 paint 之外的任何东西
   useEffect(() => shell.registerRefresh((env) => paint(env)), [shell.registerRefresh, paint])
 
-  // 数据到齐 / 筛选变化 / **选中项或搜索命中变化**时重铺（paint 内部会做签名比对）
+  /**
+   * 作用域键。★ 用字符串而不是对象进依赖：`scope` 每次渲染都是新引用，
+   * 依赖对象会**每帧重铺**（`setNodes` 重建全部几何）。
+   */
+  const scopeKey = o.scope ? `${o.scope.level}|${o.scope.adcode}` : ''
+
+  // 数据到齐 / 筛选变化 / **选中项或搜索命中变化** / **作用域变化**时重铺
+  // （`paint` 内部会做签名比对）
   useEffect(() => {
     paint()
-  }, [paint, dataKey, selectedId, pickedPoint])
+  }, [paint, dataKey, selectedId, pickedPoint, scopeKey])
 
   return state
 }
 
-/**
- * 把这一屏的**实际**内容记一条日志（见 `common/logic/mapLog.ts`）。
- *
- * ★ 数字全部取自图层自己的 `stats()`，**不是** `d.districts.length` / `d.pois.length`。
- *   后者是**候选**：徽标还要过像素避让（实测 165 → 40），点位还要过档位准入、
- *   再被聚合器合成簇（46 个候选 → 8 个簇，其中 3 个是气泡）。只记候选会得出
- *   "明明铺了却看不到"的错觉 —— 而那正是要排查的现象本身。
- *
- * ★ 必须在图层同步**之后**调用：`stats()` 回答的是"上一次重绘的结果"，
- *   提前取会拿到上一屏的数。
- */
-function logSnapshot(
-  zoom: number,
-  base: MapLevel,
-  d: RevealDecision,
-  district: DistrictLayerHandle | null,
-  poi: PoiLayerHandle | null,
-): void {
-  const ds: DistrictLayerStats | undefined = district?.stats()
-  const ps: PoiLayerStats | undefined = poi?.stats()
-  recordMapLog({
-    zoom,
-    base,
-    level: d.level,
-    revealed: d.revealed,
-    pending: d.pending,
-    dTotal: d.districts.length,
-    badges: ds?.badges ?? 0,
-    badgeTexts: ds?.badgeTexts ?? [],
-    polys: ds?.polygons ?? 0,
-    pTotal: d.pois.length,
-    aTotal: ps?.admitted ?? 0,
-    clusters: ps?.clusters ?? 0,
-    bubbles: ps?.bubbles ?? 0,
-    labels: ps?.labels ?? 0,
-    labelTexts: ps?.labelNames ?? [],
-  })
-}

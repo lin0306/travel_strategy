@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "甘肃省兰州市城关区南北滨河路",
-    "district": "城关区",
+    "district": "七里河区",
     "transportTip": "沿黄河南滨河路步行或骑行可达，多座桥连接两岸",
     "entrance": {
       "lng": 103.798484,
@@ -59,7 +59,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-12",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Yellow River Scenic Line",
@@ -67,6 +67,45 @@
   },
   "_geocodeTitle": "黄河风情线",
   "_geocodeSuspect": false,
-  "district": "620102",
-  "_noImage": true
+  "district": "620103",
+  "_noImage": true,
+  "review": {
+    "score": 4.2,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "视野",
+        "score": 4.6,
+        "note": "河面开阔，两岸桥与山都能看"
+      },
+      {
+        "label": "体力",
+        "score": 3.6,
+        "note": "平路好走，但全线很长"
+      },
+      {
+        "label": "配套",
+        "score": 4.0,
+        "note": "绿道、茶摊、公厕沿河分布"
+      },
+      {
+        "label": "时长",
+        "score": 3.0,
+        "note": "别想着一次走完"
+      }
+    ],
+    "body": "兰州最适合放空的一段，沿河步道平缓，白天看水看桥，傍晚吹风，秋天还有候鸟落在河面。短板是它太长：南北两岸加起来是一条几十公里的带子，硬要走全程只会把腿走废，挑中山桥到黄河母亲这一两段慢慢逛就够；另外夏天正午岸上无遮阴，晒得人不想久留。",
+    "basis": "corpus",
+    "at": "2026-11-12",
+    "fits": [
+      "散步",
+      "骑行",
+      "傍晚"
+    ],
+    "avoid": [
+      "正午暴晒",
+      "一次走全程"
+    ],
+    "sources": []
+  }
 }

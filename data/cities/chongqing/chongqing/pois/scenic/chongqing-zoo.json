@@ -1,149 +1,187 @@
 {
-  "id": "chongqing-zoo",
-  "name": "重庆动物园",
-  "category": "scenic",
-  "subtype": "park",
-  "summary": "主城老牌动物园，大熊猫与华南虎是招牌，票价亲民。",
-  "description": "重庆动物园在九龙坡区，是西南地区建园较早的动物园之一，园内坡地起伏、树木成荫，逛起来不算晒。大熊猫馆一直是人气最高的地方，此外还有华南虎、金丝猴、长颈鹿、河马等。园里保留着一些老式的水泥兽舍，设施谈不上新，但胜在票价便宜、离轨道交通近，本地家庭带孩子来的很多。周末上午动物活动比较活跃，午后大多在睡觉。",
-  "highlights": [
-    "大熊猫馆人气最高",
-    "票价亲民，适合带娃",
-    "轨道交通直达，交通方便"
-  ],
-  "location": {
-    "point": {
-      "lng": 106.50627,
-      "lat": 29.5039,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "重庆市九龙坡区西郊一村 1 号",
-    "district": "九龙坡",
-    "transportTip": "轨道交通 2 号线动物园站出站即到",
-    "entrance": {
-      "lng": 106.509994,
-      "lat": 29.503236,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "chongqing-zoo",
+ "name": "重庆动物园",
+ "category": "scenic",
+ "subtype": "park",
+ "summary": "主城老牌动物园，大熊猫与华南虎是招牌，票价亲民。",
+ "description": "重庆动物园在九龙坡区，是西南地区建园较早的动物园之一，园内坡地起伏、树木成荫，逛起来不算晒。大熊猫馆一直是人气最高的地方，此外还有华南虎、金丝猴、长颈鹿、河马等。园里保留着一些老式的水泥兽舍，设施谈不上新，但胜在票价便宜、离轨道交通近，本地家庭带孩子来的很多。周末上午动物活动比较活跃，午后大多在睡觉。",
+ "highlights": [
+  "大熊猫馆人气最高",
+  "票价亲民，适合带娃",
+  "轨道交通直达，交通方便"
+ ],
+ "location": {
+  "point": {
+   "lng": 106.50627,
+   "lat": 29.5039,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 08:00-17:30（以官方公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约 30 元起（以官方为准）",
-    "ticketRef": 0,
-    "duration": "建议 120-180 分钟",
-    "durationMinutes": [
-      120,
-      180
-    ],
-    "priceLevel": "budget"
+  "address": "重庆市九龙坡区西郊一村 1 号",
+  "district": "九龙坡",
+  "transportTip": "轨道交通 2 号线动物园站出站即到",
+  "entrance": {
+   "lng": 106.509994,
+   "lat": 29.503236,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约 08:00-17:30（以官方公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约 30 元起（以官方为准）",
+  "ticketRef": 0,
+  "duration": "建议 120-180 分钟",
+  "durationMinutes": [
+   120,
+   180
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "kids",
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Dinosaur_Valley%2C_Chongqing_Zoo%2C_China.jpg/1280px-Dinosaur_Valley%2C_Chongqing_Zoo%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Dinosaur_Valley%2C_Chongqing_Zoo%2C_China.jpg/1280px-Dinosaur_Valley%2C_Chongqing_Zoo%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 648,
+   "alt": "Dinosaur Valley, Chongqing Zoo, China.jpg",
+   "query": "重庆动物园 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Jpbowen",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dinosaur_Valley,_Chongqing_Zoo,_China.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "kids",
-    "couple",
-    "friends"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Dinosaur_Valley%2C_Chongqing_Zoo%2C_China.jpg/1280px-Dinosaur_Valley%2C_Chongqing_Zoo%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Dinosaur_Valley%2C_Chongqing_Zoo%2C_China.jpg/1280px-Dinosaur_Valley%2C_Chongqing_Zoo%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 648,
-      "alt": "Dinosaur Valley, Chongqing Zoo, China.jpg",
-      "query": "重庆动物园 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Jpbowen",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dinosaur_Valley,_Chongqing_Zoo,_China.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Giant_panda%2C_Chongqing_Zoo%2C_China.JPG/1280px-Giant_panda%2C_Chongqing_Zoo%2C_China.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Giant_panda%2C_Chongqing_Zoo%2C_China.JPG/1280px-Giant_panda%2C_Chongqing_Zoo%2C_China.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Giant panda, Chongqing Zoo, China.JPG",
-      "query": "重庆动物园 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Jpbowen",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giant_panda,_Chongqing_Zoo,_China.JPG",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Hippopotamus_at_Chongqing_Zoo_image_1.jpg/1280px-Hippopotamus_at_Chongqing_Zoo_image_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Hippopotamus_at_Chongqing_Zoo_image_1.jpg/1280px-Hippopotamus_at_Chongqing_Zoo_image_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Hippopotamus at Chongqing Zoo image 1.jpg",
-      "query": "重庆动物园 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "TarnishedPath",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hippopotamus_at_Chongqing_Zoo_image_1.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Hippopotamus_at_Chongqing_Zoo_image_14.jpg/1280px-Hippopotamus_at_Chongqing_Zoo_image_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Hippopotamus_at_Chongqing_Zoo_image_14.jpg/1280px-Hippopotamus_at_Chongqing_Zoo_image_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Hippopotamus at Chongqing Zoo image 14.jpg",
-      "query": "重庆动物园 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "TarnishedPath",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hippopotamus_at_Chongqing_Zoo_image_14.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Hippopotamus_at_Chongqing_Zoo_image_17.jpg/1280px-Hippopotamus_at_Chongqing_Zoo_image_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Hippopotamus_at_Chongqing_Zoo_image_17.jpg/1280px-Hippopotamus_at_Chongqing_Zoo_image_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Hippopotamus at Chongqing Zoo image 17.jpg",
-      "query": "重庆动物园 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "TarnishedPath",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hippopotamus_at_Chongqing_Zoo_image_17.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "动物园",
-    "大熊猫",
-    "亲子",
-    "低价"
-  ],
-  "popularity": 72,
-  "sources": [
-    {
-      "title": "百度百科·重庆动物园",
-      "url": "https://baike.baidu.com/item/%E9%87%8D%E5%BA%86%E5%8A%A8%E7%89%A9%E5%9B%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "重庆动物园"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Giant_panda%2C_Chongqing_Zoo%2C_China.JPG/1280px-Giant_panda%2C_Chongqing_Zoo%2C_China.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Giant_panda%2C_Chongqing_Zoo%2C_China.JPG/1280px-Giant_panda%2C_Chongqing_Zoo%2C_China.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Giant panda, Chongqing Zoo, China.JPG",
+   "query": "重庆动物园 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Jpbowen",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giant_panda,_Chongqing_Zoo,_China.JPG",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "重庆动物园",
-  "_geocodeSuspect": false,
-  "district": "500107"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Hippopotamus_at_Chongqing_Zoo_image_1.jpg/1280px-Hippopotamus_at_Chongqing_Zoo_image_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Hippopotamus_at_Chongqing_Zoo_image_1.jpg/1280px-Hippopotamus_at_Chongqing_Zoo_image_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Hippopotamus at Chongqing Zoo image 1.jpg",
+   "query": "重庆动物园 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "TarnishedPath",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hippopotamus_at_Chongqing_Zoo_image_1.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Hippopotamus_at_Chongqing_Zoo_image_14.jpg/1280px-Hippopotamus_at_Chongqing_Zoo_image_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Hippopotamus_at_Chongqing_Zoo_image_14.jpg/1280px-Hippopotamus_at_Chongqing_Zoo_image_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Hippopotamus at Chongqing Zoo image 14.jpg",
+   "query": "重庆动物园 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "TarnishedPath",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hippopotamus_at_Chongqing_Zoo_image_14.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Hippopotamus_at_Chongqing_Zoo_image_17.jpg/1280px-Hippopotamus_at_Chongqing_Zoo_image_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Hippopotamus_at_Chongqing_Zoo_image_17.jpg/1280px-Hippopotamus_at_Chongqing_Zoo_image_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Hippopotamus at Chongqing Zoo image 17.jpg",
+   "query": "重庆动物园 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "TarnishedPath",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hippopotamus_at_Chongqing_Zoo_image_17.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "动物园",
+  "大熊猫",
+  "亲子",
+  "低价"
+ ],
+ "popularity": 72,
+ "sources": [
+  {
+   "title": "百度百科·重庆动物园",
+   "url": "https://baike.baidu.com/item/%E9%87%8D%E5%BA%86%E5%8A%A8%E7%89%A9%E5%9B%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "重庆动物园"
+ },
+ "_geocodeTitle": "重庆动物园",
+ "_geocodeSuspect": false,
+ "district": "500107",
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "熊猫",
+    "score": 4.7,
+    "note": "大熊猫馆人气最高"
+   },
+   {
+    "label": "票价",
+    "score": 4.3,
+    "note": "价格亲民，轨交直达"
+   },
+   {
+    "label": "设施",
+    "score": 3.0,
+    "note": "部分兽舍仍是老式水泥房"
+   },
+   {
+    "label": "遮阴",
+    "score": 4.0,
+    "note": "坡地树多，夏天不算晒"
+   }
+  ],
+  "body": "重庆动物园胜在实在：大熊猫馆是绝对主角，华南虎、金丝猴、长颈鹿也都有，园内坡地起伏、树多遮阴，逛起来不算晒，票价便宜还挨着轨道交通，本地家庭带孩子来的特别多。不足是园里保留着不少老式水泥兽舍，设施谈不上新；周末上午人多，午后动物大多在睡觉，想看活跃状态得赶早。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "带娃",
+   "看熊猫"
+  ],
+  "avoid": [
+   "想看清爽新园",
+   "怕人多"
+  ],
+  "sources": []
+ }
 }

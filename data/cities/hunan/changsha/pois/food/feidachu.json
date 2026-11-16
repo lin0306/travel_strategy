@@ -1,6 +1,6 @@
 {
   "id": "feidachu",
-  "name": "费大厨辣椒炒肉",
+  "name": "费大厨辣椒炒肉(长沙IFS国金中心店)",
   "category": "food",
   "subtype": "local",
   "summary": "长沙本地做辣椒炒肉的连锁，一道菜拆出好几种辣椒的说法。",
@@ -17,11 +17,11 @@
       "coordSystem": "GCJ-02"
     },
     "address": "湖南省长沙市芙蓉区解放西路188号长沙国际金融中心6楼",
-    "district": "天心区",
+    "district": "芙蓉区",
     "transportTip": "地铁1号线或2号线五一广场站，站内可直达国金中心"
   },
   "practical": {
-    "openHours": "约10:30-21:30，以官方公告为准",
+    "openHours": "11:00-21:30（节假日客流大时可能延长）",
     "openHoursRef": 0,
     "ticket": "人均约70元起，以实际消费为准",
     "ticketRef": 0,
@@ -69,9 +69,27 @@
       "url": "https://baike.baidu.com/item/%E8%B4%B9%E5%A4%A7%E5%8E%A8%E8%BE%A3%E6%A4%92%E7%82%92%E8%82%89",
       "kind": "wiki",
       "fetchedAt": "2026-09-28"
+    },
+    {
+      "title": "湖南日报2026-10实探国金店：营业时间11:00-21:30",
+      "url": "https://i.ifeng.com/c/8wt2cTDSlZL",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
+    },
+    {
+      "title": "新湖南 2026-10-01 报道称该店为国金店",
+      "url": "https://m.voc.com.cn/xhn/news/202610/33899684.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
+    },
+    {
+      "title": "国金中心在芙蓉区解放西路188号，费大厨该店在IFS 6楼",
+      "url": "https://m.toutiao.com/article/7606534469121491491",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -79,5 +97,55 @@
   },
   "_geocodeTitle": "费大厨辣椒炒肉(长沙IFS国金中心店)",
   "_geocodeSuspect": false,
-  "district": "430103"
+  "district": "430102",
+  "review": {
+    "score": 4.2,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "口味",
+        "score": 4.5,
+        "note": "土猪肉配螺丝椒，上桌带锅气"
+      },
+      {
+        "label": "排队",
+        "score": 2.5,
+        "note": "饭点等位是常态"
+      },
+      {
+        "label": "菜单",
+        "score": 2.8,
+        "note": "只围绕一道菜，多人聚餐嫌少"
+      },
+      {
+        "label": "价格",
+        "score": 3.5,
+        "note": "快餐里算中等偏上"
+      }
+    ],
+    "body": "只做一道辣椒炒肉的思路很干脆，土猪肉配螺丝椒，按季节换椒，上桌还带锅气，配米饭确实下饭。缺点是饭点排队是常态，热门商圈的门店等位不短；菜单太短，几个人一起吃会觉得没什么可点，不吃辣的人选择更少；人均在快餐里算中等偏上。想吃一顿快而稳的湘菜可以来，想认真吃一桌湘菜还是去老馆子。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "快速吃饭",
+      "单人两人"
+    ],
+    "avoid": [
+      "多人聚餐",
+      "完全不吃辣"
+    ],
+    "sources": []
+  },
+  "_patrol": {
+    "at": "2026-11-14",
+    "changes": [
+      {
+        "field": "所属区（自动同步 adcode）",
+        "old": "天心区/430103",
+        "new": "芙蓉区/430102"
+      }
+    ],
+    "source": "https://m.toutiao.com/article/7606534469121491491",
+    "reason": "国金中心在芙蓉区解放西路188号，费大厨该店在IFS 6楼"
+  }
 }

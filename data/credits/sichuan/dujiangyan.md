@@ -1,6 +1,6 @@
 # 都江堰 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-06
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-13
 
 ## 概览
 
@@ -74,25 +74,20 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | 星星 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dujiang_Weir.jpg) |
-| 城市封面 | Ihtc2015 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dujiangyan-Irrigation-System-TOUR-Map104.jpg) |
-| 城市封面 | Hugh Llewelyn from Keynsham, UK | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dujiangyan_Irrigation_System_(50619502518).jpg) |
+| 城市封面 | Einar Fredriksen | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mount_Qingcheng_Kina_2009_0199_(4141809304).jpg) |
+| 城市封面 | JianEn Yu | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%9F%8E%E5%B1%B1%E8%80%81%E5%90%9B%E9%98%81_Mount_Qingcheng_1.jpg) |
 | 安澜索桥 | 星星 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dujiang_Weir.jpg) |
 | 安澜索桥 | 星星 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dujiang_Weir_(cropped).jpg) |
 | 白云寺 | 新乡日报-李宝忠 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%83%E5%B9%B4%E5%8F%A4%E5%AF%BA-%E7%99%BD%E4%BA%91%E5%AF%BA_-_panoramio.jpg) |
 | 白云寺 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BE%80%E7%99%BD%E4%BA%91%E5%AF%BA%E7%9A%84%E5%B1%B1%E8%B7%AF_-_Trail_to_Baiyun_Temple_-_2015.11_-_panoramio.jpg) |
 | 宝瓶口 | shizhao | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:At_%E5%AE%9D%E7%93%B6%E5%8F%A3.jpg) |
-| 宝瓶口 | 星星 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dujiang_Weir.jpg) |
 | 宝瓶口 | Shizhao | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%9D%E7%93%B6%E5%8F%A3.jpg) |
 | 都江堰景区 | Einar Fredriksen | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mount_Qingcheng_Kina_2009_0184_(4141805854).jpg) |
 | 都江堰景区 | jetsun | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 二王庙 | 纳瓦拉的亨利 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Erwang_Temple_-_2024.jpg) |
 | 二王庙 | Shizhao | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%8C%E7%8E%8B%E5%BA%99.jpg) |
 | 二王庙 | Shizhao | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%8C%E7%8E%8B%E5%BA%99%E5%86%85%E6%AE%BF.jpg) |
-| 飞沙堰 | 星星 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dujiang_Weir.jpg) |
-| 飞沙堰 | 星星 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dujiang_Weir_(cropped).jpg) |
 | 飞沙堰 | Mlogic | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Panorama_of_Inner_Stream_of_Dujiangyan_Irrigation_System.jpg) |
-| 伏龙观 | Mlogic | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Panorama_of_Inner_Stream_of_Dujiangyan_Irrigation_System.jpg) |
 | 伏龙观 | Shizhao | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BC%8F%E9%BE%99%E8%A7%82.jpg) |
 | 伏龙观 | Shizhao | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%9B%9B%E5%B7%9D%E7%9C%81%E9%83%BD%E6%B1%9F%E5%A0%B0%E5%86%85%E5%A4%96%E6%B1%9F%E6%B2%B3%E6%B5%81%E6%B0%B4%E9%B8%9F%E7%9E%B0%E5%9B%BE.jpg) |
 | 伏龙观 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
@@ -132,7 +127,6 @@
 | 五龙沟 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%94%E9%BE%99%E6%BD%AD%E5%81%9C%E8%BD%A6%E5%9C%BA_-_Parking_Lot_-_2012.10_-_panoramio.jpg) |
 | 五龙沟 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%94%E9%BE%99%E6%BD%AD%E6%99%AF%E5%8C%BA%E5%85%A5%E5%8F%A3_-_Entrance_of_Five_Dragons_Pool_Scenic_Area_-_2012.10_-_panoramio.jpg) |
 | 宣威门 | Kcx36 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%83%BD%E6%B1%9F%E5%A0%B0%E5%AE%A3%E5%A8%81%E9%97%A8%E5%8F%A4%E5%9F%8E%E5%A2%99_2024-05-01_01.jpg) |
-| 宣威门 | Kcx36 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%83%BD%E6%B1%9F%E5%A0%B0%E5%AE%A3%E5%A8%81%E9%97%A8%E5%8F%A4%E5%9F%8E%E5%A2%99_2024-05-01_03.jpg) |
 | 月城湖 | Kcx36 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%9F%8E%E5%B1%B1%E6%9C%88%E5%9F%8E%E6%B9%96_01.jpg) |
 | 月城湖 | Kcx36 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%9F%8E%E5%B1%B1%E6%9C%88%E5%9F%8E%E6%B9%96_02.jpg) |
 | 月城湖 | JianEn Yu | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%9F%8E%E5%B1%B1%E6%9C%88%E5%9F%8E%E6%B9%96_Mount_Qingcheng.jpg) |

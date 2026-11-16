@@ -1,68 +1,107 @@
 {
-  "id": "laochujia",
-  "name": "老厨家(友谊路总店)",
-  "category": "food",
-  "subtype": "local",
-  "summary": "哈尔滨锅包肉这一道的源头老店，名气最大的一家在友谊路，招牌就是那盘酸甜脆的肉片。",
-  "description": "老厨家是哈尔滨讲锅包肉必提的一家：这道菜是上世纪初哈尔滨厨行里为适应俄国客人的口味，把咸鲜的焦炒肉片改成酸甜口做出来的，老厨家就是这条线上传下来的老字号。总店在道里区友谊路，中央大街那一片还有分店，旅游季都排队，饭点等半小时是常事。锅包肉上桌是一片片掛着糖醋汁的，外壳脆，放久了会软，趁热吃。除了锅包肉，地三鲜、杀猪菜、熏酱这些东北菜也都有，分量是东北的分量，两个人两个菜够了。人均中等。不想排队的可以错开十二点与六点。",
-  "highlights": [
-    "锅包肉这道菜在哈尔滨的源头之一，酸甜脆要趁热吃",
-    "饭点常排队半小时，错开十二点与六点",
-    "分量是东北的分量，两人两个菜够"
-  ],
-  "location": {
-    "point": {
-      "lng": 126.601636,
-      "lat": 45.770559,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黑龙江省哈尔滨市道里区友谊路318号",
-    "district": "道里区",
-    "transportTip": "地铁二号线至人民广场站步行约五分钟；或公交至友谊路站"
+ "id": "laochujia",
+ "name": "老厨家(友谊路总店)",
+ "category": "food",
+ "subtype": "local",
+ "summary": "哈尔滨锅包肉这一道的源头老店，名气最大的一家在友谊路，招牌就是那盘酸甜脆的肉片。",
+ "description": "老厨家是哈尔滨讲锅包肉必提的一家：这道菜是上世纪初哈尔滨厨行里为适应俄国客人的口味，把咸鲜的焦炒肉片改成酸甜口做出来的，老厨家就是这条线上传下来的老字号。总店在道里区友谊路，中央大街那一片还有分店，旅游季都排队，饭点等半小时是常事。锅包肉上桌是一片片掛着糖醋汁的，外壳脆，放久了会软，趁热吃。除了锅包肉，地三鲜、杀猪菜、熏酱这些东北菜也都有，分量是东北的分量，两个人两个菜够了。人均中等。不想排队的可以错开十二点与六点。",
+ "highlights": [
+  "锅包肉这道菜在哈尔滨的源头之一，酸甜脆要趁热吃",
+  "饭点常排队半小时，错开十二点与六点",
+  "分量是东北的分量，两人两个菜够"
+ ],
+ "location": {
+  "point": {
+   "lng": 126.601636,
+   "lat": 45.770559,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:30-21:00，以门店公告为准",
-    "openHoursRef": 0,
-    "ticket": "人均中等",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "family",
-    "friends",
-    "couple"
+  "address": "黑龙江省哈尔滨市道里区友谊路318号",
+  "district": "道里区",
+  "transportTip": "地铁二号线至人民广场站步行约五分钟；或公交至友谊路站"
+ },
+ "practical": {
+  "openHours": "约10:30-21:00，以门店公告为准",
+  "openHoursRef": 0,
+  "ticket": "人均中等",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "锅包肉",
-    "老字号",
-    "东北菜"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "family",
+  "friends",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "锅包肉",
+  "老字号",
+  "东北菜"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·锅包肉",
+   "url": "https://baike.baidu.com/item/%E9%94%85%E5%8C%85%E8%82%89",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "老厨家(友谊路总店)"
+ },
+ "_geocodeTitle": "老厨家(友谊路总店)",
+ "_geocodeSuspect": false,
+ "district": "230102",
+ "_noImage": true,
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.6,
+    "note": "锅包肉酸甜脆，是这一道的源头之一"
+   },
+   {
+    "label": "排队",
+    "score": 2.8,
+    "note": "饭点等半小时是常事"
+   },
+   {
+    "label": "分量",
+    "score": 4.4,
+    "note": "东北分量，两人两个菜够"
+   },
+   {
+    "label": "环境",
+    "score": 3.8,
+    "note": "老字号馆子，旅游季嘈杂"
+   }
   ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·锅包肉",
-      "url": "https://baike.baidu.com/item/%E9%94%85%E5%8C%85%E8%82%89",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
+  "body": "锅包肉的源头老店，酸甜脆那一口确实有道理，现上桌趁热吃外壳是脆的，地三鲜、杀猪菜这些东北菜也稳。缺点是饭点排队半小时是常事，十二点和六点正撞上最挤的时候，错开半小时会舒服很多；锅包肉挂了汁放久会回软，一桌人边聊边吃到最后就少了那口脆。分量是东北的分量，两人点两个菜其实够了，别照着南方馆子的习惯点一桌。想吃这一道正宗味道很值，专程排长队则未必。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "想吃锅包肉",
+   "东北菜",
+   "家庭聚餐"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "老厨家(友谊路总店)"
-  },
-  "_geocodeTitle": "老厨家(友谊路总店)",
-  "_geocodeSuspect": false,
-  "district": "230102",
-  "_noImage": true
+  "avoid": [
+   "赶饭点",
+   "怕排队"
+  ],
+  "sources": []
+ }
 }

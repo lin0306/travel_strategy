@@ -1,6 +1,6 @@
 # 深圳 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-09-24
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -17,6 +17,7 @@
 | 大鹏所城 | [百度百科·大鹏所城](https://baike.baidu.com/item/%E5%A4%A7%E9%B9%8F%E6%89%80%E5%9F%8E) | wiki | 2026-09-24 |
 | 大鹏半岛国家地质公园 | [百度百科·大鹏半岛国家地质公园](https://baike.baidu.com/item/%E6%B7%B1%E5%9C%B3%E5%A4%A7%E9%B9%8F%E5%8D%8A%E5%B2%9B%E5%9B%BD%E5%AE%B6%E5%9C%B0%E8%B4%A8%E5%85%AC%E5%9B%AD) | wiki | 2026-09-24 |
 | 东江纵队司令部旧址 | [社区书记带你游⑩ 土洋社区（读特）](https://www.dutenews.com/cmdetail/425759) | media | 2026-10-25 |
+| 东江纵队司令部旧址 | [大鹏新区博物馆开闭馆时间是什么？（大鹏新区政府在线）](https://www.dpxq.gov.cn/isz/ywzsk/lyzx/content/post_13047731.html) | media | 2026-11-13 |
 | 东江游击队指挥部旧址 | [深圳的这些红色“宝藏”景点（深圳新闻网）](https://www.sztv.com.cn/ysz/zx/tj/80504513.shtml) | media | 2026-10-25 |
 | 仙湖植物园 | [百度百科·仙湖植物园](https://baike.baidu.com/item/%E6%B7%B1%E5%9C%B3%E5%B8%82%E4%BB%99%E6%B9%96%E6%A4%8D%E7%89%A9%E5%9B%AD) | wiki | 2026-09-24 |
 | 凤凰古村 | [一个可以“边玩边学”的天然避暑课堂（宝安日报）](https://barb.sznews.com/MB/content/202607/31/content_3467600.html) | media | 2026-10-25 |
@@ -52,7 +53,9 @@
 | 陈鹏鹏卤鹅 | [百度百科·卤鹅](https://baike.baidu.com/item/%E5%8D%A4%E9%B9%85) | wiki | 2026-09-24 |
 | 点都德 | [百度百科·点都德](https://baike.baidu.com/item/%E7%82%B9%E9%83%BD%E5%BE%B7) | wiki | 2026-09-24 |
 | 光明招待所 | [百度百科·光明招待所](https://baike.baidu.com/item/%E5%85%89%E6%98%8E%E5%86%9C%E5%9C%BA) | wiki | 2026-09-24 |
+| 光明招待所 | [光明招待所（光明区政府在线·走进光明专题）](https://www.szgm.gov.cn/zjgm/lsgm_118488/cygm_118492/czgm/content/post_8760826.html) | media | 2026-11-13 |
 | 海门鱼仔店 | [百度百科·潮汕打冷](https://baike.baidu.com/item/%E6%BD%AE%E6%B1%95%E6%89%93%E5%86%B7) | wiki | 2026-09-24 |
+| 海门鱼仔店 | [深圳节日大道美食图鉴（读特）](https://www.dutenews.com/cmdetail/496663) | media | 2026-11-13 |
 | 客家本色 | [百度百科·客家菜](https://baike.baidu.com/item/%E5%AE%A2%E5%AE%B6%E8%8F%9C) | wiki | 2026-09-24 |
 | 好好味面家 | [百度百科·煲仔饭](https://baike.baidu.com/item/%E7%85%B2%E4%BB%94%E9%A5%AD) | wiki | 2026-09-24 |
 | 缪氏川菜 | [百度百科·川菜](https://baike.baidu.com/item/%E5%B7%9D%E8%8F%9C) | wiki | 2026-09-24 |
@@ -84,9 +87,8 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Wei Shen | Unsplash License | [unsplash](https://unsplash.com/photos/an-aerial-view-of-a-city-at-night-_I31Wmh3c7Y) |
-| 城市封面 | Keytion | Unsplash License | [unsplash](https://unsplash.com/photos/gray-concrete-city-building-during-night-time-GL1klJ3WsYM) |
-| 城市封面 | Keytion | Unsplash License | [unsplash](https://unsplash.com/photos/white-bus-on-paved-road-muu57qZciuo) |
+| 城市封面 | Shihu7 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shenzhen_Skyline_Fuhua_Road_Ping_An_International_Finance_Center.jpg) |
+| 城市封面 | Huangdan2060 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shenzhen_Skyline_from_Futian_District3.jpg) |
 | 笔架山公园 | Dinkun Chen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Views_of_Shenzhen_from_bi_Jia_Hill_Park_(11).jpg) |
 | 笔架山公园 | Dinkun Chen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Views_of_Shenzhen_from_bi_Jia_Hill_Park_(12).jpg) |
 | 笔架山公园 | Dinkun Chen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Views_of_Shenzhen_from_bi_Jia_Hill_Park_(17).jpg) |
@@ -167,7 +169,6 @@
 | 客家本色 | Nnao KAIMUE MAUDN | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_Metro_%E9%BB%83%E8%B2%9D%E5%B6%BA_Huangbeiling_Cun_mall_shop_%E5%AE%A2%E5%AE%B6%E6%9C%AC%E8%89%B2_Hakka_Sprint_Restaurant_night_November_2024_R12S_01.jpg) |
 | 客家本色 | Nnao KAIMUE MAUDN | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%BE%85%E6%B9%96_Luohu_Metro_%E9%BB%83%E8%B2%9D%E5%B6%BA_Huangbeiling_Cun_mall_shop_%E5%AE%A2%E5%AE%B6%E6%9C%AC%E8%89%B2_Hakka_Sprint_Restaurant_night_November_2024_R12S_02.jpg) |
 | 好好味面家 | Dinkun Chen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:BAO_AN_SOUTH_ROAD,_SHENZHEN_(682).jpg) |
-| 水围一三六八文化街区 | Dinkun Chen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:BAO_AN_SOUTH_ROAD,_SHENZHEN_(682).jpg) |
 | 深圳当代艺术与城市规划馆 | Pathfinbird | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:MOCAUP,_Futian,_Shenzhen_-_20260702_-_Front.jpg) |
 | 深圳当代艺术与城市规划馆 | Pathfinbird | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:MOCAUP,_Futian,_Shenzhen_-_20260702_-_Stairs.jpg) |
 | 深圳当代艺术与城市规划馆 | Timeahfurm002 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_Futian_Fuzhong_Road_MOCAPE_Museum_of_Contemporary_Art_%26_Planning_Exhibition_facade_Sept_2017_IX1_03.jpg) |

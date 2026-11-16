@@ -1,0 +1,82 @@
+{
+  "id": "lanzhou-city-museum",
+  "name": "兰州市博物馆",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "闹市中心白衣寺旧址上的国家一级馆，院里立着四百多年的明代白衣寺塔。",
+  "description": "1984 年依明代白衣寺旧址建成，是兰州唯一的综合性地方志博物馆、国家一级博物馆，占地约四千七百平方米。院子里那座高 25.7 米的白衣寺塔是汉藏复合式实心砖塔，明崇祯四年肃王朱识鋐重修，塔身砖雕石榴葡萄寓多子多福，还嵌着「玉柱玲珑通帝座，金城保障永皇图」对联；1987 年修塔时从塔刹清出德化窑白瓷、佛经、鎏金铜佛与两枚金累丝嵌玉观音簪等 46 件明代文物，如今是镇馆之宝。正门是清代江西会馆享殿（铁柱宫）1992 年从金塔巷整体迁来，九成构件原装。馆藏一万二千余件，一级文物 53 件，以马家窑文化彩陶、明清甘肃地方名人书画、白衣寺塔藏文物最有特色，半山彩陶鼓是中国已知最早的打击乐器之一，伏龙坪出土的东汉墨迹纸则是蔡伦纸的实物证据、也是书法史「隶变」的重要佐证。西侧「大河流韵——兰州历史文物展」按远古文明、青铜文化、汉唐古道、宋元津城、明清风韵五个单元串起城市通史。规模不大、一小时可细看，胜在清静、古建与文物叠在一处；也有观众觉得布展略杂、缺少一条清晰的城市演变主线。",
+  "highlights": [
+    "明代白衣寺塔与迁建而来的清代铁柱宫大门，省保古建",
+    "马家窑彩陶、半山彩陶鼓与伏龙坪东汉墨迹纸",
+    "「大河流韵」五个单元讲清兰州从远古到清代的城市通史"
+  ],
+  "location": {
+    "point": {
+      "lng": 103.834103,
+      "lat": 36.055235,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "兰州市城关区庆阳路240号（白衣寺院内）",
+    "district": "城关区",
+    "transportTip": "轨道交通1号线东方红广场站出站步行可达；多路公交到「市博物馆」站，紧邻张掖路步行街。"
+  },
+  "practical": {
+    "openHours": "周二至周日 9:00-17:00（16:30 停止预约入馆），周一闭馆（国家法定节假日开放情况另行通告）。",
+    "openHoursRef": 0,
+    "ticket": "免费，须提前在官方渠道实名预约，入馆带身份证。",
+    "ticketRef": 0,
+    "duration": "建议 60-90 分钟",
+    "durationMinutes": [
+      60,
+      90
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "family",
+    "friends",
+    "elders",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [
+    "与甘肃省博物馆不是一回事，规模小但古建和彩陶值得单独安排一小时",
+    "周一闭馆，别和市中心的张掖路行程排在同一天开头",
+    "馆内设有印章打卡区，可顺路盖章"
+  ],
+  "images": [],
+  "coverIndex": 0,
+  "tags": [
+    "博物馆",
+    "国家一级馆",
+    "古塔",
+    "彩陶",
+    "免费"
+  ],
+  "popularity": 75,
+  "sources": [
+    {
+      "title": "中国文物报：繁荣千年的丝路文明在这里和谐共生",
+      "url": "http://www.zhongguowenwubao.com/portal/DigitPager/paperDetail/publishdate/2024-05-10/paperId/20699/id/104985",
+      "kind": "media",
+      "fetchedAt": "2026-11-11"
+    }
+  ],
+  "updatedAt": "2026-11-12",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Lanzhou City Museum Baitasi Pagoda",
+    "zh": "兰州市博物馆 白衣寺塔"
+  },
+  "_geocodeTitle": "兰州市博物馆",
+  "_geocodeSuspect": false,
+  "district": "620102",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-12",
+    "reason": "audit --fix-safe：清掉同城撞图的 1 张（待重抓）",
+    "droppedImages": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/14/Painted_pottery_spinning_wheel_with_triangle_design.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    ]
+  }
+}

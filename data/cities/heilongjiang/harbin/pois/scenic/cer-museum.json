@@ -1,68 +1,134 @@
 {
-  "id": "cer-museum",
-  "name": "中东铁路印象馆",
-  "category": "scenic",
-  "subtype": "museum",
-  "summary": "江桥胡同里的小型铁路主题馆，讲中东铁路这条线怎么造出哈尔滨，就在老桥头边。",
-  "description": "印象馆在道外区江桥胡同的火车主题广场里，紧挨着那座老的滨洲铁路桥，位置很具体 —— 出了馆抬头就是桥。展的是中东铁路这条线：十九世纪末怎么勘线、怎么铺，沿线的站舍、机车、职工住宅是什么样，以及哈尔滨作为这条线上的枢纽怎么被造出来。馆不大，一小时能看完，但它是理解这座城为什么长成这样的钥匙 —— 中央大街、教堂、老站都是这条铁路的副产品。看完顺路走上老桥看江，是一条顺的路线。",
-  "highlights": [
-    "紧挨老的滨洲铁路桥，出了馆抬头就是桥",
-    "讲的是中东铁路这条线怎么造出哈尔滨",
-    "馆不大一小时能看完，是理解这座城的钥匙"
-  ],
-  "location": {
-    "point": {
-      "lng": 126.626864,
-      "lat": 45.782575,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黑龙江省哈尔滨市道外区江桥胡同火车主题广场内",
-    "district": "道外区",
-    "transportTip": "乘公交至道外江桥胡同附近站；或网约车前往"
+ "id": "cer-museum",
+ "name": "中东铁路印象馆",
+ "category": "scenic",
+ "subtype": "museum",
+ "summary": "江桥胡同里的小型铁路主题馆，讲中东铁路这条线怎么造出哈尔滨，就在老桥头边。",
+ "description": "印象馆在道外区江桥胡同的火车主题广场里，紧挨着那座老的滨洲铁路桥，位置很具体 —— 出了馆抬头就是桥。展的是中东铁路这条线：十九世纪末怎么勘线、怎么铺，沿线的站舍、机车、职工住宅是什么样，以及哈尔滨作为这条线上的枢纽怎么被造出来。馆不大，一小时能看完，但它是理解这座城为什么长成这样的钥匙 —— 中央大街、教堂、老站都是这条铁路的副产品。看完顺路走上老桥看江，是一条顺的路线。",
+ "highlights": [
+  "紧挨老的滨洲铁路桥，出了馆抬头就是桥",
+  "讲的是中东铁路这条线怎么造出哈尔滨",
+  "馆不大一小时能看完，是理解这座城的钥匙"
+ ],
+ "location": {
+  "point": {
+   "lng": 126.626864,
+   "lat": 45.782575,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约9:00-16:30，以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "低价票，以现场公告为准",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "budget"
+  "address": "黑龙江省哈尔滨市江桥胡同与铁路桥合围区域，火车主题广场内（滨洲铁路桥南端）",
+  "district": "道外区",
+  "transportTip": "乘公交至道外江桥胡同附近站；或网约车前往"
+ },
+ "practical": {
+  "openHours": "9:00-16:00，周一闭馆（法定节假日正常开放，节假日延至16:30、16:15停止入馆）",
+  "openHoursRef": 0,
+  "ticket": "免费开放，无需预约",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "family",
+  "elders",
+  "kids"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "铁路",
+  "小型馆",
+  "近代史"
+ ],
+ "popularity": 70,
+ "sources": [
+  {
+   "title": "百度百科·中东铁路",
+   "url": "https://baike.baidu.com/item/%E4%B8%AD%E4%B8%9C%E9%93%81%E8%B7%AF",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
   },
-  "audience": [
-    "family",
-    "elders",
-    "kids"
+  {
+   "title": "道里区文博场馆开放指南（魅力道里）",
+   "url": "http://mp.weixin.qq.com/s?__biz=MzI1MjgwOTQ3Ng==&mid=2247775671&idx=3&sn=9425a34348aaf00b11f7542f47eb721c",
+   "kind": "media",
+   "fetchedAt": "2026-11-12"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "中东铁路印象馆"
+ },
+ "_geocodeTitle": "中东铁路印象馆",
+ "_geocodeSuspect": false,
+ "district": "230104",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-12",
+  "changes": [
+   {
+    "field": "门票",
+    "old": "低价票，以现场公告为准",
+    "new": "免费开放，无需预约"
+   },
+   {
+    "field": "开放时间",
+    "old": "约9:00-16:30，以官方公告为准",
+    "new": "9:00-16:00，周一闭馆（法定节假日正常开放，节假日延至16:30、16:15停止入馆）"
+   },
+   {
+    "field": "地址",
+    "old": "黑龙江省哈尔滨市道外区江桥胡同火车主题广场内",
+    "new": "黑龙江省哈尔滨市江桥胡同与铁路桥合围区域，火车主题广场内（滨洲铁路桥南端）"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "铁路",
-    "小型馆",
-    "近代史"
+  "source": "http://mp.weixin.qq.com/s?__biz=MzI1MjgwOTQ3Ng==&mid=2247775671&idx=3&sn=9425a34348aaf00b11f7542f47eb721c",
+  "reason": "道里区文博场馆开放指南（魅力道里）"
+ },
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "选址",
+    "score": 4.5,
+    "note": "紧挨老滨洲铁路桥，出馆见桥"
+   },
+   {
+    "label": "展陈",
+    "score": 3.6,
+    "note": "讲中东铁路怎么造出哈尔滨"
+   },
+   {
+    "label": "时长",
+    "score": 3.0,
+    "note": "馆不大，一小时能看完"
+   },
+   {
+    "label": "联动",
+    "score": 4.2,
+    "note": "看完顺路上老桥看江"
+   }
   ],
-  "popularity": 70,
-  "sources": [
-    {
-      "title": "百度百科·中东铁路",
-      "url": "https://baike.baidu.com/item/%E4%B8%AD%E4%B8%9C%E9%93%81%E8%B7%AF",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
+  "body": "紧挨老滨洲铁路桥的一处小型铁路主题馆，出了馆抬头就是桥，位置很具体。展的是中东铁路怎么勘线怎么铺、沿线站舍与机车什么样，以及哈尔滨怎么被这条线造出来——中央大街、教堂、老站都是它的副产品，是理解这座城的一把钥匙。可惜馆不大、展陈手段偏旧，一小时就看完；名气小、指示也不显眼，容易错过。看完顺路走上老桥看江，这条线才完整，单为它跑一趟不划算。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "近代史爱好者",
+   "老桥连线"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "中东铁路印象馆"
-  },
-  "_geocodeTitle": "中东铁路印象馆",
-  "_geocodeSuspect": false,
-  "district": "230104",
-  "_noImage": true
+  "avoid": [
+   "专程跑一趟",
+   "想看大馆"
+  ],
+  "sources": []
+ }
 }

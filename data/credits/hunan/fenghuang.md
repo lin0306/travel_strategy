@@ -1,6 +1,6 @@
 # 凤凰 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-06
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Loeng Lig | Unsplash License | [unsplash](https://unsplash.com/photos/city-buildings-under-blue-sky-during-daytime-v5TwMWDaHDI) |
-| 城市封面 | ダモ リ | Unsplash License | [unsplash](https://unsplash.com/photos/a-view-of-a-city-from-the-top-of-a-hill-W2X8IJyI_LU) |
-| 城市封面 | Dave Xu | Unsplash License | [unsplash](https://unsplash.com/photos/city-skyline-during-night-time-0vHPFLQqzSs) |
+| 城市封面 | gdczjkk | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%87%A4%E5%87%B0%E6%B2%B1%E6%B1%9F%E8%99%B9%E6%A1%A5_-_panoramio.jpg) |
+| 城市封面 | liuzr99 | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E_(18044410008).jpg) |
+| 城市封面 | liuzr99 | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E_(18205773256).jpg) |
 | 长潭岗 | Lcsm | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%87%A4%E5%87%B0%E5%8E%BF%E9%95%BF%E6%BD%AD%E5%B2%97%E6%B0%B4%E5%BA%93.jpg) |
 | 长潭岗 | Lcsm | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%87%A4%E5%87%B0%E9%95%BF%E6%BD%AD%E5%B2%97%E6%B0%B4%E5%BA%93.jpg) |
 | 东门城楼 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260215_%E4%B8%9C%E9%97%A8%E5%9F%8E%E6%A5%BC.jpg) |
@@ -100,7 +100,6 @@
 | 沱江风光 | George Wenn | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 万名塔 | Zhangmoon618 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Wangming_Pagoda_in_Fenghuang.jpg) |
 | 万名塔 | Zhangmoon618 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Wangming_Pagoda_in_Fenghuang_1.jpg) |
-| 万名塔 | HCCB3947 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E%E4%B8%87%E5%90%8D%E5%A1%94.jpg) |
 | 熊希龄故居 | 章彦博 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%86%8A%E5%B8%8C%E9%BE%84%E6%95%85%E5%B1%85.jpeg) |
 | 熊希龄故居 | Sprt98 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%86%8A%E5%B8%8C%E9%BE%84%E6%95%85%E5%B1%8520250314.jpg) |
 | 熊希龄故居 | 章彦博 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%86%8A%E5%B8%8C%E9%BE%84%E6%95%85%E5%B1%85_(cropped).jpeg) |
@@ -112,8 +111,6 @@
 | 吊脚楼 | corehou | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%87%A4%E5%87%B0%E5%90%8A%E8%84%9A%E6%A5%BC-%E6%B5%81%E6%B5%AA%E7%9A%84%E7%8B%97%E7%8B%97.jpg) |
 | 吊脚楼 | 韩笃一 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Old_buildings_in_Fenghuang.JPG) |
 | 古城晨景 | xiquinhosilva | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E_2024-06-22_03.jpg) |
-| 虹桥机位 | xiquinhosilva | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E_2024-06-22_03.jpg) |
-| 沱江泛舟 | xiquinhosilva | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E_2024-06-22_03.jpg) |
 | 沱江夜景 | Ludger Heide | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 沱江夜景 | Ludger Heide | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 沱江夜景 | Ludger Heide | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/) |

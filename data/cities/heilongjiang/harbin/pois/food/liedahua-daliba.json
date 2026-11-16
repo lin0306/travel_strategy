@@ -1,68 +1,109 @@
 {
-  "id": "liedahua-daliba",
-  "name": "列大花大列巴(果戈里大街店)",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "南岗区革新农贸市场里的一家大列巴铺，本地人买面包的地方，比景区那几家实在。",
-  "description": "大列巴是俄语大面包的音译，是随中东铁路带进来的俄式主食，特点是个头大、外壳硬、用啤酒花发酵所以带一点酸。这家在南岗区奋斗路的革新农贸市场里，是本地人买日常面包的档口，不是景区那种包装好的礼盒。一个大列巴通常一到两斤，买回去切片配红肠、黄油、或者抹果酱，能吃好几天。价格按个算，比中央大街那几家便宜。市场里还有其他俄式点心与干货。营业跟着市场走，早上去最全。位置在果戈里大街那一带，逛完这条街顺路来。它不提供堂食，买了带走。",
-  "highlights": [
-    "啤酒花发酵带一点酸的俄式大面包，一到两斤一个",
-    "在农贸市场里，本地人买日常面包的档口",
-    "价格比中央大街那几家便宜，早上最全"
-  ],
-  "location": {
-    "point": {
-      "lng": 126.659448,
-      "lat": 45.752057,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黑龙江省哈尔滨市南岗区奋斗路街道革新农贸市场",
-    "district": "南岗区",
-    "transportTip": "乘公交至革新街站；或地铁一号线至医大一院站后步行"
+ "id": "liedahua-daliba",
+ "name": "列大花大列巴(果戈里大街店)",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "南岗区革新农贸市场里的一家大列巴铺，本地人买面包的地方，比景区那几家实在。",
+ "description": "大列巴是俄语大面包的音译，是随中东铁路带进来的俄式主食，特点是个头大、外壳硬、用啤酒花发酵所以带一点酸。这家在南岗区奋斗路的革新农贸市场里，是本地人买日常面包的档口，不是景区那种包装好的礼盒。一个大列巴通常一到两斤，买回去切片配红肠、黄油、或者抹果酱，能吃好几天。价格按个算，比中央大街那几家便宜。市场里还有其他俄式点心与干货。营业跟着市场走，早上去最全。位置在果戈里大街那一带，逛完这条街顺路来。它不提供堂食，买了带走。",
+ "highlights": [
+  "啤酒花发酵带一点酸的俄式大面包，一到两斤一个",
+  "在农贸市场里，本地人买日常面包的档口",
+  "价格比中央大街那几家便宜，早上最全"
+ ],
+ "location": {
+  "point": {
+   "lng": 126.659448,
+   "lat": 45.752057,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "跟随市场营业时间，约7:00-17:00，以现场为准",
-    "openHoursRef": 0,
-    "ticket": "按个计价，便宜",
-    "ticketRef": 0,
-    "duration": "建议 20-45 分钟",
-    "durationMinutes": [
-      20,
-      45
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "family",
-    "elders",
-    "friends"
+  "address": "黑龙江省哈尔滨市南岗区奋斗路街道革新农贸市场",
+  "district": "南岗区",
+  "transportTip": "乘公交至革新街站；或地铁一号线至医大一院站后步行"
+ },
+ "practical": {
+  "openHours": "跟随市场营业时间，约7:00-17:00，以现场为准",
+  "openHoursRef": 0,
+  "ticket": "按个计价，便宜",
+  "ticketRef": 0,
+  "duration": "建议 20-45 分钟",
+  "durationMinutes": [
+   20,
+   45
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "大列巴",
-    "农贸市场",
-    "带走"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "family",
+  "elders",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "大列巴",
+  "农贸市场",
+  "带走"
+ ],
+ "popularity": 70,
+ "sources": [
+  {
+   "title": "百度百科·大列巴",
+   "url": "https://baike.baidu.com/item/%E5%A4%A7%E5%88%97%E5%B7%B4",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "列大花大列巴(果戈里大街店)"
+ },
+ "_geocodeTitle": "列大花大列巴(果戈里大街店)",
+ "_geocodeSuspect": false,
+ "district": "230103",
+ "_noImage": true,
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.0,
+    "note": "啤酒花发酵带酸，个大壳硬"
+   },
+   {
+    "label": "价格",
+    "score": 4.2,
+    "note": "按个计价，比景区礼盒实在"
+   },
+   {
+    "label": "环境",
+    "score": 2.4,
+    "note": "市场档口，无堂食"
+   },
+   {
+    "label": "时段",
+    "score": 3.0,
+    "note": "跟市场营业，早上去最全"
+   }
   ],
-  "popularity": 70,
+  "body": "革新农贸市场里的一家大列巴档口，卖的是啤酒花发酵、带点酸的俄式大面包，个头大外壳硬，买回去切片配红肠黄油能吃几天，比中央大街那几家礼盒装实在。本轮核了市场营业时段与档口位置，都在营。缺点是它只是个档口，没有堂食也没有环境可言，只能买了带走；营业跟着市场走，下午去花样就少。逛果戈里大街顺路带一个合适，不值得专程绕路。",
+  "basis": "web",
+  "at": "2026-11-13",
+  "fits": [
+   "买伴手礼",
+   "逛果戈里顺路"
+  ],
+  "avoid": [
+   "想坐下吃",
+   "专程绕路"
+  ],
   "sources": [
-    {
-      "title": "百度百科·大列巴",
-      "url": "https://baike.baidu.com/item/%E5%A4%A7%E5%88%97%E5%B7%B4",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "列大花大列巴(果戈里大街店)"
-  },
-  "_geocodeTitle": "列大花大列巴(果戈里大街店)",
-  "_geocodeSuspect": false,
-  "district": "230103",
-  "_noImage": true
+   "https://news.517cd.net/article/41283.html",
+   "https://www.sina.cn/news/detail/4995221165708154.html"
+  ]
+ }
 }

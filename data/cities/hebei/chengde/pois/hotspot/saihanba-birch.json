@@ -1,66 +1,98 @@
 {
-  "id": "saihanba-birch",
-  "name": "塞罕坝白桦林",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "塞罕坝里的白桦林，白树干配黄叶，是坝上最有代表性的画面。",
-  "description": "白桦林是塞罕坝最有代表性的一个画面 —— 白树干一棵棵立着，秋天叶子黄了，白和黄配在一起，亮。林子不密，光能透进来，所以拍人也好看。它是坝上摄影必拍的一样。秋天最好，夏天是绿的也清爽。早上和傍晚光斜时最出片。",
-  "highlights": [
-    "白树干配黄叶，坝上代表画面",
-    "林不密光可透，拍人也好看",
-    "秋天最好，早晚斜光最出片"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.48,
-      "lat": 42.33,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市围场满族蒙古族自治县塞罕坝",
-    "district": "围场满族蒙古族自治县",
-    "transportTip": "塞罕坝景区内步行或自驾到"
+ "id": "saihanba-birch",
+ "name": "塞罕坝白桦林",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "塞罕坝里的白桦林，白树干配黄叶，是坝上最有代表性的画面。",
+ "description": "白桦林是塞罕坝最有代表性的一个画面 —— 白树干一棵棵立着，秋天叶子黄了，白和黄配在一起，亮。林子不密，光能透进来，所以拍人也好看。它是坝上摄影必拍的一样。秋天最好，夏天是绿的也清爽。早上和傍晚光斜时最出片。",
+ "highlights": [
+  "白树干配黄叶，坝上代表画面",
+  "林不密光可透，拍人也好看",
+  "秋天最好，早晚斜光最出片"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.48,
+   "lat": 42.33,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约07:30-17:30",
-    "openHoursRef": 0,
-    "ticket": "含塞罕坝门票",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "family"
+  "address": "河北省承德市围场满族蒙古族自治县塞罕坝",
+  "district": "围场满族蒙古族自治县",
+  "transportTip": "塞罕坝景区内步行或自驾到"
+ },
+ "practical": {
+  "openHours": "约07:30-17:30",
+  "openHoursRef": 0,
+  "ticket": "含塞罕坝门票",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "白桦林",
-    "秋色",
-    "坝上"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "白桦林",
+  "秋色",
+  "坝上"
+ ],
+ "popularity": 84,
+ "sources": [
+  {
+   "title": "百度百科·塞罕坝",
+   "url": "https://baike.baidu.com/item/%E5%A1%9E%E7%BD%95%E5%9D%9D",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "塞罕坝白桦林"
+ },
+ "_geocodeTitle": "塞罕坝国家森林公园",
+ "district": "130828",
+ "_noImage": true,
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "拍照",
+    "score": 4.7,
+    "note": "白树干配黄叶，坝上最有代表性的画面"
+   },
+   {
+    "label": "人流",
+    "score": 3.6,
+    "note": "路边随意停车拍照的人多"
+   },
+   {
+    "label": "时长",
+    "score": 3.8,
+    "note": "林子不大，拍完就走"
+   }
   ],
-  "popularity": 84,
-  "sources": [
-    {
-      "title": "百度百科·塞罕坝",
-      "url": "https://baike.baidu.com/item/%E5%A1%9E%E7%BD%95%E5%9D%9D",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "body": "坝上最有代表性的一幕：白树干成排立着，秋天叶子黄透，白配黄很亮。林子不密，光能透下来，拍人也好看，早晚斜光时最出片。缺点是白桦林不是独立景点，得先买塞罕坝园区门票再自驾进来找；旺季路边随便停车拍照的人不少，想拍一张无人的画面得往林子深处多走一段。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "拍照",
+   "秋游"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "塞罕坝白桦林"
-  },
-  "_geocodeTitle": "塞罕坝国家森林公园",
-  "district": "130828",
-  "_noImage": true
+  "avoid": [
+   "想单独购票进入"
+  ],
+  "sources": []
+ }
 }

@@ -1,110 +1,149 @@
 {
-  "id": "shanghai-tower",
-  "name": "上海中心大厦观光厅",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "632 米，世界级高层451 米处的观景层是全国最高的室内观景台。",
-  "description": "上海中心是目前中国第一高楼，总高632米，观光厅设在118层。它的看点有两个：一是都能一时间理解「上海有多大」，其次建筑本身——扭曲上升的幕墙造型是为减轻风荷载，并非单纯为了好看。与旁边金茂大厦、环球金融中心形成层次分明的三塔，三者间的相对关系比单看一栋更有意思。",
-  "highlights": [
-    "118层观光，中国第一高楼",
-    "扭曲幕墙造型出于风荷载考虑",
-    "与金茂、环球形成三塔"
-  ],
-  "location": {
-    "point": {
-      "lng": 121.505743,
-      "lat": 31.235258,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "上海市浦东新区陆家嘴银城中路501号",
-    "district": "浦东",
-    "transportTip": "地铁2号线陆家嘴站"
+ "id": "shanghai-tower",
+ "name": "上海中心大厦观光厅",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "632 米，世界级高层451 米处的观景层是全国最高的室内观景台。",
+ "description": "上海中心是目前中国第一高楼，总高632米，观光厅设在118层。它的看点有两个：一是都能一时间理解「上海有多大」，其次建筑本身——扭曲上升的幕墙造型是为减轻风荷载，并非单纯为了好看。与旁边金茂大厦、环球金融中心形成层次分明的三塔，三者间的相对关系比单看一栋更有意思。",
+ "highlights": [
+  "118层观光，中国第一高楼",
+  "扭曲幕墙造型出于风荷载考虑",
+  "与金茂、环球形成三塔"
+ ],
+ "location": {
+  "point": {
+   "lng": 121.505743,
+   "lat": 31.235258,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:30-22:00(旺季)，以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "约180元起，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "high"
+  "address": "上海市浦东新区陆家嘴银城中路501号",
+  "district": "浦东",
+  "transportTip": "地铁2号线陆家嘴站"
+ },
+ "practical": {
+  "openHours": "约08:30-22:00(旺季)，以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "约180元起，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
+  ],
+  "priceLevel": "high"
+ },
+ "audience": [
+  "couple",
+  "kids",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Lujiazui%2C_Pudong%2C_Shanghai%2C_China_-_panoramio_-_ykeiko_%281%29.jpg/1280px-Lujiazui%2C_Pudong%2C_Shanghai%2C_China_-_panoramio_-_ykeiko_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Lujiazui%2C_Pudong%2C_Shanghai%2C_China_-_panoramio_-_ykeiko_%281%29.jpg/1280px-Lujiazui%2C_Pudong%2C_Shanghai%2C_China_-_panoramio_-_ykeiko_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Lujiazui, Pudong, Shanghai, China - panoramio - ykeiko (1).jpg",
+   "query": "上海中心大厦观光厅",
+   "credit": {
+    "source": "wikimedia",
+    "author": "ykeiko",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "couple",
-    "kids",
-    "solo"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Shanghai_Tower%2C_August_2023.jpg/1280px-Shanghai_Tower%2C_August_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Shanghai_Tower%2C_August_2023.jpg/1280px-Shanghai_Tower%2C_August_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Shanghai Tower, August 2023.jpg",
+   "query": "上海中心大厦观光厅",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Francisco Javier PB",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "现代建筑",
+  "观景",
+  "浦东"
+ ],
+ "popularity": 93,
+ "sources": [
+  {
+   "title": "百度百科·上海中心大厦",
+   "url": "https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%BF%83%E5%A4%A7%E5%8E%A6",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "上海中心大厦观光厅"
+ },
+ "_geocodeTitle": "上海金茂大厦88层观光厅游客中心",
+ "_geocodeSuspect": false,
+ "district": "310115",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.7,
+    "note": "118 层一次看清城市尺度"
+   },
+   {
+    "label": "价格",
+    "score": 2.6,
+    "note": "约 180 元起，属高位"
+   },
+   {
+    "label": "天气依赖",
+    "score": 2.8,
+    "note": "能见度差时上去基本白花"
+   },
+   {
+    "label": "排队",
+    "score": 3.0,
+    "note": "安检与电梯换乘都要预留时间"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Lujiazui%2C_Pudong%2C_Shanghai%2C_China_-_panoramio_-_ykeiko_%281%29.jpg/1280px-Lujiazui%2C_Pudong%2C_Shanghai%2C_China_-_panoramio_-_ykeiko_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Lujiazui%2C_Pudong%2C_Shanghai%2C_China_-_panoramio_-_ykeiko_%281%29.jpg/1280px-Lujiazui%2C_Pudong%2C_Shanghai%2C_China_-_panoramio_-_ykeiko_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Lujiazui, Pudong, Shanghai, China - panoramio - ykeiko (1).jpg",
-      "query": "上海中心大厦观光厅",
-      "credit": {
-        "source": "wikimedia",
-        "author": "ykeiko",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Shanghai_Tower%2C_August_2023.jpg/1280px-Shanghai_Tower%2C_August_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Shanghai_Tower%2C_August_2023.jpg/1280px-Shanghai_Tower%2C_August_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Shanghai Tower, August 2023.jpg",
-      "query": "上海中心大厦观光厅",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Francisco Javier PB",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    }
+  "body": "632 米、118 层观光厅，是国内最高的室内观景台，最大价值是一次性看清上海的城市尺度；幕墙的扭曲造型是为减风荷载，不只是为了好看。三塔之间的相对关系比单看一栋更有意思。负面：票价 180 元起在观景类里属高位，能见度差的天气上去基本白花，安检与电梯换乘排队也要预留时间，出发前先确认当日能见度。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "看全景",
+   "带娃",
+   "第一次来"
   ],
-  "coverIndex": 0,
-  "tags": [
-    "现代建筑",
-    "观景",
-    "浦东"
+  "avoid": [
+   "雾霾阴雨天",
+   "预算紧"
   ],
-  "popularity": 93,
-  "sources": [
-    {
-      "title": "百度百科·上海中心大厦",
-      "url": "https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%BF%83%E5%A4%A7%E5%8E%A6",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-11-04",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "上海中心大厦观光厅"
-  },
-  "_geocodeTitle": "上海金茂大厦88层观光厅游客中心",
-  "_geocodeSuspect": false,
-  "district": "310115"
+  "sources": []
+ }
 }

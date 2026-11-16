@@ -16,12 +16,12 @@
       "lat": 25.991775,
       "coordSystem": "GCJ-02"
     },
-    "address": "福州市仓山区春伦茉莉花茶文化创意产业园",
+    "address": "福州市仓山区城门镇城山路84号",
     "district": "仓山区",
     "transportTip": "地铁1号线至仓山换乘公交/打车约20分钟"
   },
   "practical": {
-    "openHours": "约09:00-17:00，以园区公告为准",
+    "openHours": "夏令时(5-9月) 08:00-12:00、14:00-18:00；冬令时(10-次年4月) 08:00-12:00、13:30-17:30",
     "openHoursRef": 0,
     "ticket": "免费参观（购茶另计）",
     "ticketRef": 0,
@@ -52,9 +52,21 @@
       "url": "https://baike.baidu.com/item/%E8%8C%89%E8%8E%89%E8%8A%B1%E8%8C%B6",
       "kind": "wiki",
       "fetchedAt": "2026-10-04"
+    },
+    {
+      "title": "同程旅行·春伦茉莉花茶文创园",
+      "url": "https://m.ly.com/scenery/scenerydetail_676557.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
+    },
+    {
+      "title": "仓山区文体旅局A级景区信息表：分夏令冬令两套开放时段",
+      "url": "https://www.fzcangshan.gov.cn/xjwz/xxgk/ly/lyzy/202312/t20231207_4732396.htm",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,5 +75,17 @@
   "_geocodeTitle": "春伦茉莉花茶文化创意产业园",
   "_geocodeSuspect": false,
   "district": "350104",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "约09:00-17:00，以园区公告为准",
+        "new": "夏令时(5-9月) 08:00-12:00、14:00-18:00；冬令时(10-次年4月) 08:00-12:00、13:30-17:30"
+      }
+    ],
+    "source": "https://www.fzcangshan.gov.cn/xjwz/xxgk/ly/lyzy/202312/t20231207_4732396.htm",
+    "reason": "仓山区文体旅局A级景区信息表：分夏令冬令两套开放时段"
+  }
 }

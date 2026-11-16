@@ -1,68 +1,144 @@
 {
-  "id": "kaorouwan",
-  "name": "烤肉宛(什刹海店)",
-  "category": "food",
-  "subtype": "local",
-  "summary": "「南苑北季」里烤牛肉的那一家，用的是炙子明烤。",
-  "description": "过去北京城里烤肉分两路：南苑北季，南边烤肉宛做牛肉，北边烤肉季做羊肉。烤肉宛创于清康熙年间，做法用铁炙子——下燃松柴，肉与葱、香菜一起摆在炙子上边烤边翻，边⑾边吃。牛肉选的是上脑、里脊一类，讲究横切薄片。两家对比着吃，是理解北京烤肉的一道现成习题。",
-  "highlights": [
-    "炙子明烤是这一派的做法",
-    "专做牛肉，与烤肉季分工",
-    "可与烤肉季对照着吃"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.35279,
-      "lat": 39.910965,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "北京市西城区什刹海前海东沿",
-    "district": "西城",
-    "transportTip": "地铁8号线什刹海站步行"
+ "id": "kaorouwan",
+ "name": "烤肉宛饭庄(南礼士路店)",
+ "category": "food",
+ "subtype": "local",
+ "summary": "「南苑北季」里烤牛肉的那一家，用的是炙子明烤。",
+ "description": "过去北京城里烤肉分两路：南苑北季，南边烤肉宛做牛肉，北边烤肉季做羊肉。烤肉宛创于清康熙年间，做法用铁炙子——下燃松柴，肉与葱、香菜一起摆在炙子上边烤边翻，边⑾边吃。牛肉选的是上脑、里脊一类，讲究横切薄片。两家对比着吃，是理解北京烤肉的一道现成习题。",
+ "highlights": [
+  "炙子明烤是这一派的做法",
+  "专做牛肉，与烤肉季分工",
+  "可与烤肉季对照着吃"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.35279,
+   "lat": 39.910965,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约11:00-21:00(以门店公告为准)",
-    "openHoursRef": 0,
-    "ticket": "人均约120元起(以门店为准)",
-    "ticketRef": 0,
-    "duration": "建议 90-150 分钟",
-    "durationMinutes": [
-      90,
-      150
-    ],
-    "priceLevel": "mid"
+  "address": "北京市西城区南礼士路58号（儿童医院西门南侧）",
+  "district": "西城",
+  "transportTip": "地铁1号线南礼士路站A口出，步行约200米"
+ },
+ "practical": {
+  "openHours": "10:30-22:00（早餐 06:30-09:00）",
+  "openHoursRef": 0,
+  "ticket": "人均约130-160元",
+  "ticketRef": 0,
+  "duration": "建议 90-150 分钟",
+  "durationMinutes": [
+   90,
+   150
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "kids",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "烤肉",
+  "老字号",
+  "牛肉"
+ ],
+ "popularity": 78,
+ "sources": [
+  {
+   "title": "百度百科·烤肉宛",
+   "url": "https://baike.baidu.com/item/%E7%83%A4%E8%82%89%E5%AE%9B",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
   },
-  "audience": [
-    "couple",
-    "kids",
-    "solo"
+  {
+   "title": "北京旅游网华天美食地图：烤肉宛门店在南礼士路58号，什刹海前海东沿14号是烤肉季",
+   "url": "https://visitbeijing.com.cn/article/4PqlmxkDYLU",
+   "kind": "media",
+   "fetchedAt": "2026-11-14"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "烤肉宛(什刹海店)"
+ },
+ "_geocodeTitle": "烤肉宛饭庄(南礼士路店)",
+ "_geocodeSuspect": false,
+ "district": "110102",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-14",
+  "changes": [
+   {
+    "field": "名称",
+    "old": "烤肉宛(什刹海店)",
+    "new": "烤肉宛饭庄(南礼士路店)"
+   },
+   {
+    "field": "地址",
+    "old": "北京市西城区什刹海前海东沿",
+    "new": "北京市西城区南礼士路58号（儿童医院西门南侧）"
+   },
+   {
+    "field": "交通提示",
+    "old": "地铁8号线什刹海站步行",
+    "new": "地铁1号线南礼士路站A口出，步行约200米"
+   },
+   {
+    "field": "开放时间",
+    "old": "约11:00-21:00(以门店公告为准)",
+    "new": "10:30-22:00（早餐 06:30-09:00）"
+   },
+   {
+    "field": "门票",
+    "old": "人均约120元起(以门店为准)",
+    "new": "人均约130-160元"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "烤肉",
-    "老字号",
-    "牛肉"
+  "source": "https://visitbeijing.com.cn/article/4PqlmxkDYLU",
+  "reason": "北京旅游网华天美食地图：烤肉宛门店在南礼士路58号，什刹海前海东沿14号是烤肉季"
+ },
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.3,
+    "note": "炙子明烤的牛肉，葱香与炭火气都在"
+   },
+   {
+    "label": "价格",
+    "score": 3.3,
+    "note": "人均 130-160 元，按老字号标准不算便宜"
+   },
+   {
+    "label": "环境",
+    "score": 3.5,
+    "note": "老店堂食油烟偏重，衣服会带味"
+   },
+   {
+    "label": "对比性",
+    "score": 4.4,
+    "note": "与烤肉季一牛一羊，对照着吃最有意思"
+   }
   ],
-  "popularity": 78,
-  "sources": [
-    {
-      "title": "百度百科·烤肉宛",
-      "url": "https://baike.baidu.com/item/%E7%83%A4%E8%82%89%E5%AE%9B",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
+  "body": "北京烤肉分「南苑北季」，这里是专做牛肉的那一路：铁炙子下燃柴，肉片和葱段边烤边翻，讲究横切薄片。建议和烤肉季排在同一次行程里对照着吃。缺点一是价格偏高，二是油烟重，穿好衣服来会后悔——排风不如新派烤肉店。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "爱吃烤肉",
+   "老字号打卡"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "烤肉宛(什刹海店)"
-  },
-  "_geocodeTitle": "烤肉宛饭庄(南礼士路店)",
-  "_geocodeSuspect": false,
-  "district": "110102",
-  "_noImage": true
+  "avoid": [
+   "怕油烟",
+   "预算紧"
+  ],
+  "sources": []
+ }
 }

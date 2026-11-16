@@ -1,161 +1,199 @@
 {
-  "id": "yangchan-tulou",
-  "name": "阳产土楼",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "皖南少见的土楼群，夯土黄墙层层叠在山坡上。",
-  "description": "阳产土楼在歙县岔口镇的半山上，是皖南很少见的夯土楼群——几百栋黄泥墙的房子顺着山坡一层层叠上去，远远看像立体的土黄色蜂巢。这里缺水少田，过去村民就地取土夯墙造屋，反倒留下了这么一片独特的景观。秋天是阳产最好看的时候，村口的晒秋把辣椒、玉米、南瓜铺满屋顶，和黄墙、青山配在一起格外醒目。进村要盘一段山路，村里有少量农家乐，适合一天往返，喜欢原生态古村的人会非常买账。",
-  "highlights": [
-    "夯土楼群",
-    "晒秋",
-    "山坡村",
-    "免票"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.659081,
-      "lat": 29.868745,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黄山市歙县岔口镇阳产村（县城东南深山，约 50 公里）",
-    "district": "歙县",
-    "transportTip": "自驾或包车从县城约 1.5 小时；山路弯多"
+ "id": "yangchan-tulou",
+ "name": "阳产土楼",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "皖南少见的土楼群，夯土黄墙层层叠在山坡上。",
+ "description": "阳产土楼在歙县岔口镇的半山上，是皖南很少见的夯土楼群——几百栋黄泥墙的房子顺着山坡一层层叠上去，远远看像立体的土黄色蜂巢。这里缺水少田，过去村民就地取土夯墙造屋，反倒留下了这么一片独特的景观。秋天是阳产最好看的时候，村口的晒秋把辣椒、玉米、南瓜铺满屋顶，和黄墙、青山配在一起格外醒目。进村要盘一段山路，村里有少量农家乐，适合一天往返，喜欢原生态古村的人会非常买账。",
+ "highlights": [
+  "夯土楼群",
+  "晒秋",
+  "山坡村",
+  "免票"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.659081,
+   "lat": 29.868745,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天（村落）",
-    "openHoursRef": 0,
-    "ticket": "村落免费；停车 / 维护可能收费（以当地为准）",
-    "ticketRef": 0,
-    "duration": "建议 120-260 分钟",
-    "durationMinutes": [
-      120,
-      260
-    ],
-    "priceLevel": "free"
+  "address": "黄山市歙县岔口镇阳产村（县城东南深山，约 50 公里）",
+  "district": "歙县",
+  "transportTip": "自驾或包车从县城约 1.5 小时；山路弯多"
+ },
+ "practical": {
+  "openHours": "全天（村落）",
+  "openHoursRef": 0,
+  "ticket": "村落免费；停车 / 维护可能收费（以当地为准）",
+  "ticketRef": 0,
+  "duration": "建议 120-260 分钟",
+  "durationMinutes": [
+   120,
+   260
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "solo",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 608,
+   "alt": "阳产土楼 01.jpg",
+   "query": "阳产土楼",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Deweicoffee",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_01.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "friends",
-    "solo",
-    "elders"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 608,
-      "alt": "阳产土楼 01.jpg",
-      "query": "阳产土楼",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Deweicoffee",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_01.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "阳产土楼 02.jpg",
-      "query": "阳产土楼",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Deweicoffee",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_02.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "阳产土楼 03.jpg",
-      "query": "阳产土楼",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Deweicoffee",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_03.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "阳产土楼 04.jpg",
-      "query": "阳产土楼",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Deweicoffee",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_04.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "阳产土楼 05.jpg",
-      "query": "阳产土楼",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Deweicoffee",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_05.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "阳产土楼 06.jpg",
-      "query": "阳产土楼",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Deweicoffee",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_06.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "土楼",
-    "晒秋",
-    "夯土",
-    "原生态"
-  ],
-  "popularity": 82,
-  "sources": [
-    {
-      "title": "百度百科·阳产土楼",
-      "url": "https://baike.baidu.com/item/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-07"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "阳产土楼"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "阳产土楼 02.jpg",
+   "query": "阳产土楼",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Deweicoffee",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_02.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "阳产土楼",
-  "_geocodeSuspect": false,
-  "district": "341021"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "阳产土楼 03.jpg",
+   "query": "阳产土楼",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Deweicoffee",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_03.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "阳产土楼 04.jpg",
+   "query": "阳产土楼",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Deweicoffee",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_04.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "阳产土楼 05.jpg",
+   "query": "阳产土楼",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Deweicoffee",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_05.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "阳产土楼 06.jpg",
+   "query": "阳产土楼",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Deweicoffee",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC_06.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "土楼",
+  "晒秋",
+  "夯土",
+  "原生态"
+ ],
+ "popularity": 82,
+ "sources": [
+  {
+   "title": "百度百科·阳产土楼",
+   "url": "https://baike.baidu.com/item/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-07"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "阳产土楼"
+ },
+ "_geocodeTitle": "阳产土楼",
+ "_geocodeSuspect": false,
+ "district": "341021",
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "建筑",
+    "score": 4.5,
+    "note": "几百栋夯土房顺坡叠起，皖南独一份的轮廓"
+   },
+   {
+    "label": "交通",
+    "score": 2.7,
+    "note": "盘山路窄，旺季会车困难"
+   },
+   {
+    "label": "配套",
+    "score": 2.8,
+    "note": "农家乐数量少、条件简单"
+   },
+   {
+    "label": "季节",
+    "score": 3.4,
+    "note": "秋天配晒秋最好，平时看的是建筑本身"
+   }
+  ],
+  "body": "皖南罕见的夯土楼群，黄泥墙一层层叠在山坡上，远看像立体的蜂巢，和粉墙黛瓦的徽派完全是两种味道，喜欢原生态古建的人会很买账。缺点是进村要先盘一段窄山路，旺季会车得互相退让；村里吃住选择很少，条件也简单，待久了会觉得没处可去。建议半天往返，把它和深渡、新安江串起来。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "看古建",
+   "秋日出行"
+  ],
+  "avoid": [
+   "需要舒适配套",
+   "大巴团"
+  ],
+  "sources": []
+ }
 }

@@ -1,68 +1,105 @@
 {
-  "id": "shaoxing-choudoufu",
-  "name": "绍兴臭豆腐",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "外脆里嫩、闻着臭吃着香的小吃王。",
-  "description": "绍兴臭豆腐是当地最具争议也最上头的小吃，用苋菜梗卤浸泡后油炸，外皮金黄酥脆、内里嫩如豆花，蘸辣酱一口一个。它在鲁迅故里、仓桥直街的摊子上最常见，是游客必试的「勇气料理」。价格低、出餐快，配一杯黄酒更绝。臭是闻的，香是吃的。",
-  "highlights": [
-    "苋菜梗卤浸后油炸",
-    "外脆里嫩，蘸辣酱",
-    "游客必试的勇气料理"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.577411,
-      "lat": 30.000474,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "绍兴市越城区鲁迅故里及仓桥直街摊",
-    "district": "越城区",
-    "transportTip": "街边现炸摊位"
+ "id": "shaoxing-choudoufu",
+ "name": "绍兴臭豆腐",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "外脆里嫩、闻着臭吃着香的小吃王。",
+ "description": "绍兴臭豆腐是当地最具争议也最上头的小吃，用苋菜梗卤浸泡后油炸，外皮金黄酥脆、内里嫩如豆花，蘸辣酱一口一个。它在鲁迅故里、仓桥直街的摊子上最常见，是游客必试的「勇气料理」。价格低、出餐快，配一杯黄酒更绝。臭是闻的，香是吃的。",
+ "highlights": [
+  "苋菜梗卤浸后油炸",
+  "外脆里嫩，蘸辣酱",
+  "游客必试的勇气料理"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.577411,
+   "lat": 30.000474,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约09:00-21:00（以摊点为准）",
-    "openHoursRef": 0,
-    "ticket": "人均约10元，以门店为准",
-    "ticketRef": 0,
-    "duration": "建议 20-45 分钟",
-    "durationMinutes": [
-      20,
-      45
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "solo",
-    "friends",
-    "elders"
+  "address": "绍兴市越城区鲁迅故里及仓桥直街摊",
+  "district": "越城区",
+  "transportTip": "街边现炸摊位"
+ },
+ "practical": {
+  "openHours": "约09:00-21:00（以摊点为准）",
+  "openHoursRef": 0,
+  "ticket": "人均约10元，以门店为准",
+  "ticketRef": 0,
+  "duration": "建议 20-45 分钟",
+  "durationMinutes": [
+   20,
+   45
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "臭豆腐",
-    "小吃",
-    "油炸"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "solo",
+  "friends",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "臭豆腐",
+  "小吃",
+  "油炸"
+ ],
+ "popularity": 88,
+ "sources": [
+  {
+   "title": "百度百科·绍兴臭豆腐",
+   "url": "https://baike.baidu.com/item/%E8%87%AD%E8%B1%86%E8%85%90",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "绍兴臭豆腐"
+ },
+ "_geocodeTitle": "绍兴臭豆腐",
+ "_geocodeSuspect": false,
+ "district": "330602",
+ "_noImage": true,
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.4,
+    "note": "外脆里嫩，蘸辣酱最正"
+   },
+   {
+    "label": "价格",
+    "score": 4.6,
+    "note": "几块钱一份，边走边吃"
+   },
+   {
+    "label": "排队",
+    "score": 3.4,
+    "note": "网红摊子常要排队"
+   },
+   {
+    "label": "环境",
+    "score": 2.8,
+    "note": "多是街边小摊，无座位"
+   }
   ],
-  "popularity": 88,
-  "sources": [
-    {
-      "title": "百度百科·绍兴臭豆腐",
-      "url": "https://baike.baidu.com/item/%E8%87%AD%E8%B1%86%E8%85%90",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "绍兴臭豆腐的臭来自苋菜梗卤，炸到外壳起泡、里面还是嫩的，蘸一点辣酱，一口下去先是脆再是豆香。仓桥直街和鲁迅故里一带摊子最密，几块钱一份，适合边走边吃。缺点是气味真的劝退同行的人，而且摊与摊之间水准差得远——卤水老的更入味，油温不够的会含油发腻。看到排队长的摊子跟一根，通常不会错。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "朋友",
+   "独自"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "绍兴臭豆腐"
-  },
-  "_geocodeTitle": "绍兴臭豆腐",
-  "_geocodeSuspect": false,
-  "district": "330602",
-  "_noImage": true
+  "avoid": [
+   "受不了气味"
+  ],
+  "sources": []
+ }
 }

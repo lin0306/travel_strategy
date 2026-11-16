@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "北京市西城区文津街1号",
-    "district": "东城",
+    "district": "西城",
     "transportTip": "地铁6号线北海北站;或由故宫神武门步行向北",
     "entrance": {
       "lng": 116.389876,
@@ -151,7 +151,7 @@
       "fetchedAt": "2026-09-19"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -159,5 +159,37 @@
   },
   "_geocodeTitle": "北海公园",
   "_geocodeSuspect": false,
-  "district": "110101"
+  "district": "110102",
+  "review": {
+    "score": 4.6,
+    "verdict": "专程去",
+    "facets": [
+      {
+        "label": "湖景",
+        "score": 4.8,
+        "note": "白塔与琼华岛倒影是中轴线旁最松弛的一段"
+      },
+      {
+        "label": "细部",
+        "score": 4.5,
+        "note": "九龙壁、静心斋、团城值得慢慢走"
+      },
+      {
+        "label": "人流",
+        "score": 2.8,
+        "note": "旺季上午团队集中，南门一带最挤"
+      },
+      {
+        "label": "性价比",
+        "score": 3.6,
+        "note": "门票不贵，但登白塔另收费"
+      }
+    ],
+    "body": "皇家园林里最松弛的一段，白塔与琼华岛是核心，南岸的团城、九龙壁、静心斋适合慢慢走。缺点是旺季人多，登白塔还要另收费；傍晚湖边风大偏凉，夏天也建议带件外套。从神武门出来过街就到，与景山串着走刚好一天。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [],
+    "avoid": [],
+    "sources": []
+  }
 }

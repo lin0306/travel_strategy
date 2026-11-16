@@ -1,6 +1,6 @@
 # 呼和浩特 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-03
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-13
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2004%E5%B9%B4%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9_-_panoramio.jpg) |
-| 城市封面 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2004%E5%B9%B4%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9_Hohhot_-_panoramio.jpg) |
-| 城市封面 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2004%E5%B9%B4%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9_Hohhot_2004_-_panoramio_(1).jpg) |
+| 城市封面 | 兜兜 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Da_Zhao_Temple_in_Hohhot3.JPG) |
+| 城市封面 | Cjsy2026 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%9A%E7%89%A9%E9%99%A2.jpg) |
+| 城市封面 | Huangdan2060 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Eight_pagodas,_Dazhao_Temple_20230730.jpg) |
 | 大召寺 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9_%E5%A4%A7%E5%8F%AC%E5%AF%BA_-_panoramio.jpg) |
 | 大召寺 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E5%8F%AC%E5%AF%BA%E6%A6%82%E5%86%B5_-_panoramio.jpg) |
 | 大召寺 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E5%8F%AC%E5%AF%BA%E9%87%8D%E6%96%B0%E4%BF%AE%E8%8C%B8%E6%9A%A8%E8%AE%B2%E7%BB%8F%E6%95%99%E5%BE%92%E7%9A%84%E5%8A%9F%E5%BE%B7%E7%A2%91_-_panoramio.jpg) |

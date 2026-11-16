@@ -1,66 +1,103 @@
 {
-  "id": "bashang-starry",
-  "name": "坝上草原星空",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "坝上草原夜里看星星的地方，光污染少，夏天银河清楚。",
-  "description": "坝上草原夜里看星星是这里的一大卖点 —— 周围没有大城市，光污染少，晴天银河看得清。夏天和初秋的夜里最好，要挑没有月亮的日子。住在度假村或蒙古包，半夜出来看最方便。草原上夜里冷，得穿厚外套。三脚架要带。",
-  "highlights": [
-    "坝上光污染少，晴天银河可见",
-    "夏秋夜晚最好，宜挑无月夜",
-    "住草原里半夜出来看最便，夜冷"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.51,
-      "lat": 42.3,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市围场满族蒙古族自治县坝上草原",
-    "district": "围场满族蒙古族自治县",
-    "transportTip": "坝上草原度假村或蒙古包"
+ "id": "bashang-starry",
+ "name": "坝上草原星空",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "坝上草原夜里看星星的地方，光污染少，夏天银河清楚。",
+ "description": "坝上草原夜里看星星是这里的一大卖点 —— 周围没有大城市，光污染少，晴天银河看得清。夏天和初秋的夜里最好，要挑没有月亮的日子。住在度假村或蒙古包，半夜出来看最方便。草原上夜里冷，得穿厚外套。三脚架要带。",
+ "highlights": [
+  "坝上光污染少，晴天银河可见",
+  "夏秋夜晚最好，宜挑无月夜",
+  "住草原里半夜出来看最便，夜冷"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.51,
+   "lat": 42.3,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "夜间，晴朗无月最佳",
-    "openHoursRef": 0,
-    "ticket": "住宿或草原门票",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "friends"
+  "address": "河北省承德市围场满族蒙古族自治县坝上草原",
+  "district": "围场满族蒙古族自治县",
+  "transportTip": "坝上草原度假村或蒙古包"
+ },
+ "practical": {
+  "openHours": "夜间，晴朗无月最佳",
+  "openHoursRef": 0,
+  "ticket": "住宿或草原门票",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "星空",
-    "银河",
-    "坝上"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "星空",
+  "银河",
+  "坝上"
+ ],
+ "popularity": 80,
+ "sources": [
+  {
+   "title": "百度百科·木兰围场",
+   "url": "https://baike.baidu.com/item/%E6%9C%A8%E5%85%B0%E5%9B%B4%E5%9C%BA",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "坝上草原星空"
+ },
+ "_geocodeTitle": "木兰围场",
+ "district": "130828",
+ "_noImage": true,
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "观感",
+    "score": 4.6,
+    "note": "光污染少，晴天银河确实看得清"
+   },
+   {
+    "label": "时机",
+    "score": 3.4,
+    "note": "阴天、满月、场地灯光都会毁掉"
+   },
+   {
+    "label": "配套",
+    "score": 3.0,
+    "note": "没有专门观星台，全靠自己找位置"
+   },
+   {
+    "label": "舒适",
+    "score": 2.6,
+    "note": "草原夜里冷得站不住"
+   }
   ],
-  "popularity": 80,
-  "sources": [
-    {
-      "title": "百度百科·木兰围场",
-      "url": "https://baike.baidu.com/item/%E6%9C%A8%E5%85%B0%E5%9B%B4%E5%9C%BA",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "body": "周围没有大城市，光污染少，晴天银河是能看清的，夏秋夜里最合适。住在草原里的度假村或蒙古包，半夜出门抬头就是。缺点是全看运气：阴天、满月、或者住处的照明一亮就全废；草原夜里冷得厉害，站十分钟就受不了，厚外套、手电和三脚架都得自己带齐。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "情侣",
+   "摄影"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "坝上草原星空"
-  },
-  "_geocodeTitle": "木兰围场",
-  "district": "130828",
-  "_noImage": true
+  "avoid": [
+   "怕冷的人"
+  ],
+  "sources": []
+ }
 }

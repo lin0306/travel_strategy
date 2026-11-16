@@ -1,103 +1,142 @@
 {
-  "id": "baitashan-park",
-  "name": "白塔山公园",
-  "category": "scenic",
-  "subtype": "park",
-  "summary": "黄河北岸的小山，山顶白塔可俯瞰黄河与城关全景，山下即中山桥。",
-  "description": "白塔山在黄河北岸，和中山桥隔河相望。山不高，爬上去也不累，山顶有一座元代白塔，所以得名。山上是层层的古建筑和林木，登塔能看黄河在脚下拐弯，对岸城关楼群尽收。傍晚亮灯后山形轮廓清楚，是拍中山桥夜景的好位置。从中山桥走五分钟就到山脚。",
-  "highlights": [
-    "黄河北岸与中山桥隔河相望",
-    "山顶白塔俯瞰黄河与城关",
-    "拍中山桥夜景的机位"
-  ],
-  "location": {
-    "point": {
-      "lng": 103.811931,
-      "lat": 36.069482,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "甘肃省兰州市城关区白塔山公园",
-    "district": "城关区",
-    "transportTip": "从中山桥北端步行上山，或公交到白塔山",
-    "entrance": {
-      "lng": 103.816996,
-      "lat": 36.065801,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "baitashan-park",
+ "name": "白塔山公园",
+ "category": "scenic",
+ "subtype": "park",
+ "summary": "黄河北岸的小山，山顶白塔可俯瞰黄河与城关全景，山下即中山桥。",
+ "description": "白塔山在黄河北岸，和中山桥隔河相望。山不高，爬上去也不累，山顶有一座元代白塔，所以得名。山上是层层的古建筑和林木，登塔能看黄河在脚下拐弯，对岸城关楼群尽收。傍晚亮灯后山形轮廓清楚，是拍中山桥夜景的好位置。从中山桥走五分钟就到山脚。",
+ "highlights": [
+  "黄河北岸与中山桥隔河相望",
+  "山顶白塔俯瞰黄河与城关",
+  "拍中山桥夜景的机位"
+ ],
+ "location": {
+  "point": {
+   "lng": 103.811931,
+   "lat": 36.069482,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 07:00-20:00，以景区为准",
-    "openHoursRef": 0,
-    "ticket": "免费（公园，部分殿宇另行）",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
+  "address": "甘肃省兰州市城关区白塔山公园",
+  "district": "城关区",
+  "transportTip": "从中山桥北端步行上山，或公交到白塔山",
+  "entrance": {
+   "lng": 103.816996,
+   "lat": 36.065801,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约 07:00-20:00，以景区为准",
+  "openHoursRef": 0,
+  "ticket": "免费（公园，部分殿宇另行）",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "family",
+  "friends",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/%E5%85%B0%E5%B7%9E%E7%99%BD%E5%A1%94%E5%B1%B1%E5%85%AC%E5%9B%AD.jpg/1280px-%E5%85%B0%E5%B7%9E%E7%99%BD%E5%A1%94%E5%B1%B1%E5%85%AC%E5%9B%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/%E5%85%B0%E5%B7%9E%E7%99%BD%E5%A1%94%E5%B1%B1%E5%85%AC%E5%9B%AD.jpg/1280px-%E5%85%B0%E5%B7%9E%E7%99%BD%E5%A1%94%E5%B1%B1%E5%85%AC%E5%9B%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "兰州白塔山公园.jpg",
+   "query": "白塔山公园 兰州",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Liuxingy",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%85%B0%E5%B7%9E%E7%99%BD%E5%A1%94%E5%B1%B1%E5%85%AC%E5%9B%AD.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "family",
-    "friends",
-    "elders"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/%E5%85%B0%E5%B7%9E%E9%BB%84%E6%B2%B3%E9%93%81%E6%A1%A5_%E7%99%BD%E5%A1%94%E5%B1%B1%E5%85%AC%E5%9B%AD%E6%96%B9%E5%90%91%E4%BF%AF%E8%A7%86%E7%85%A7.jpg/1280px-%E5%85%B0%E5%B7%9E%E9%BB%84%E6%B2%B3%E9%93%81%E6%A1%A5_%E7%99%BD%E5%A1%94%E5%B1%B1%E5%85%AC%E5%9B%AD%E6%96%B9%E5%90%91%E4%BF%AF%E8%A7%86%E7%85%A7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/%E5%85%B0%E5%B7%9E%E9%BB%84%E6%B2%B3%E9%93%81%E6%A1%A5_%E7%99%BD%E5%A1%94%E5%B1%B1%E5%85%AC%E5%9B%AD%E6%96%B9%E5%90%91%E4%BF%AF%E8%A7%86%E7%85%A7.jpg/1280px-%E5%85%B0%E5%B7%9E%E9%BB%84%E6%B2%B3%E9%93%81%E6%A1%A5_%E7%99%BD%E5%A1%94%E5%B1%B1%E5%85%AC%E5%9B%AD%E6%96%B9%E5%90%91%E4%BF%AF%E8%A7%86%E7%85%A7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "兰州黄河铁桥 白塔山公园方向俯视照.jpg",
+   "query": "白塔山公园 兰州",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Kingofpluto",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%85%B0%E5%B7%9E%E9%BB%84%E6%B2%B3%E9%93%81%E6%A1%A5_%E7%99%BD%E5%A1%94%E5%B1%B1%E5%85%AC%E5%9B%AD%E6%96%B9%E5%90%91%E4%BF%AF%E8%A7%86%E7%85%A7.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "山",
+  "白塔",
+  "俯瞰"
+ ],
+ "popularity": 82,
+ "sources": [
+  {
+   "title": "白塔山公园·百度百科",
+   "url": "https://baike.baidu.com/item/%E7%99%BD%E5%A1%94%E5%B1%B1%E5%85%AC%E5%9B%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-02"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Baita Mountain Park",
+  "zh": "白塔山公园"
+ },
+ "_geocodeTitle": "白塔山公园",
+ "_geocodeSuspect": false,
+ "district": "620102",
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.6,
+    "note": "山顶看黄河拐弯与城关楼群"
+   },
+   {
+    "label": "体力",
+    "score": 3.8,
+    "note": "山不高，台阶连爬仍会喘"
+   },
+   {
+    "label": "免费",
+    "score": 5.0,
+    "note": "公园不收门票"
+   },
+   {
+    "label": "顺路",
+    "score": 4.5,
+    "note": "过中山桥五分钟即到山脚"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/%E5%85%B0%E5%B7%9E%E7%99%BD%E5%A1%94%E5%B1%B1%E5%85%AC%E5%9B%AD.jpg/1280px-%E5%85%B0%E5%B7%9E%E7%99%BD%E5%A1%94%E5%B1%B1%E5%85%AC%E5%9B%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/%E5%85%B0%E5%B7%9E%E7%99%BD%E5%A1%94%E5%B1%B1%E5%85%AC%E5%9B%AD.jpg/1280px-%E5%85%B0%E5%B7%9E%E7%99%BD%E5%A1%94%E5%B1%B1%E5%85%AC%E5%9B%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "兰州白塔山公园.jpg",
-      "query": "白塔山公园 兰州",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Liuxingy",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%85%B0%E5%B7%9E%E7%99%BD%E5%A1%94%E5%B1%B1%E5%85%AC%E5%9B%AD.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/%E5%85%B0%E5%B7%9E%E9%BB%84%E6%B2%B3%E9%93%81%E6%A1%A5_%E7%99%BD%E5%A1%94%E5%B1%B1%E5%85%AC%E5%9B%AD%E6%96%B9%E5%90%91%E4%BF%AF%E8%A7%86%E7%85%A7.jpg/1280px-%E5%85%B0%E5%B7%9E%E9%BB%84%E6%B2%B3%E9%93%81%E6%A1%A5_%E7%99%BD%E5%A1%94%E5%B1%B1%E5%85%AC%E5%9B%AD%E6%96%B9%E5%90%91%E4%BF%AF%E8%A7%86%E7%85%A7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/%E5%85%B0%E5%B7%9E%E9%BB%84%E6%B2%B3%E9%93%81%E6%A1%A5_%E7%99%BD%E5%A1%94%E5%B1%B1%E5%85%AC%E5%9B%AD%E6%96%B9%E5%90%91%E4%BF%AF%E8%A7%86%E7%85%A7.jpg/1280px-%E5%85%B0%E5%B7%9E%E9%BB%84%E6%B2%B3%E9%93%81%E6%A1%A5_%E7%99%BD%E5%A1%94%E5%B1%B1%E5%85%AC%E5%9B%AD%E6%96%B9%E5%90%91%E4%BF%AF%E8%A7%86%E7%85%A7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "兰州黄河铁桥 白塔山公园方向俯视照.jpg",
-      "query": "白塔山公园 兰州",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Kingofpluto",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%85%B0%E5%B7%9E%E9%BB%84%E6%B2%B3%E9%93%81%E6%A1%A5_%E7%99%BD%E5%A1%94%E5%B1%B1%E5%85%AC%E5%9B%AD%E6%96%B9%E5%90%91%E4%BF%AF%E8%A7%86%E7%85%A7.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
+  "body": "性价比很高的一处：过桥就到，不收费，爬上去半小时左右，山顶白塔和层叠的古建本身就好看，回望是黄河和对岸城关的楼群，傍晚亮灯后轮廓尤其清楚。不足是台阶多且连续，夏天爬上去一身汗，山上遮阴一般；殿宇部分另收费用，只想看全景的话不必进去。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "傍晚散步",
+   "看城市全景",
+   "顺路"
   ],
-  "coverIndex": 0,
-  "tags": [
-    "山",
-    "白塔",
-    "俯瞰"
+  "avoid": [
+   "腿脚不便",
+   "正午爬"
   ],
-  "popularity": 82,
-  "sources": [
-    {
-      "title": "白塔山公园·百度百科",
-      "url": "https://baike.baidu.com/item/%E7%99%BD%E5%A1%94%E5%B1%B1%E5%85%AC%E5%9B%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-02"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Baita Mountain Park",
-    "zh": "白塔山公园"
-  },
-  "_geocodeTitle": "白塔山公园",
-  "_geocodeSuspect": false,
-  "district": "620102"
+  "sources": []
+ }
 }

@@ -1,68 +1,105 @@
 {
-  "id": "shao-rouzong",
-  "name": "1980烧肉粽(中山路店)",
-  "category": "food",
-  "subtype": "local",
-  "summary": "中山路上的烧肉粽老店，一只粽子里塞满七八样料。",
-  "description": "1980烧肉粽是厦门做肉粽的老牌子，店名就写着年份，中山路这家是游客最容易碰到的那家。肉粽的做法是糯米先拌酱，中间塞五花肉、香菇、虾米、干贝、卤蛋与栗子，包紧了煮几个小时，剥开叶子米是酱色的。吃的时候浇一层甜辣酱和花生酱，再撒一点香菜，本地人还会配一碗沙茶面或者扁食汤。店里也卖鱼丸汤、扁食和拌面，都是几块钱到二十几块的价位。它就在中山路步行街这一段，逛到一半拐进来最方便。",
-  "highlights": [
-    "店名即年份，中山路上的烧肉粽老店",
-    "糯米拌酱，塞五花肉香菇虾米干贝卤蛋栗子",
-    "浇甜辣酱与花生酱，配香菜"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.084691,
-      "lat": 24.455389,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "福建省厦门市思明区中山路353号",
-    "district": "思明区",
-    "transportTip": "地铁1号线镇海路站，步行约十分钟"
+ "id": "shao-rouzong",
+ "name": "1980烧肉粽(中山路店)",
+ "category": "food",
+ "subtype": "local",
+ "summary": "中山路上的烧肉粽老店，一只粽子里塞满七八样料。",
+ "description": "1980烧肉粽是厦门做肉粽的老牌子，店名就写着年份，中山路这家是游客最容易碰到的那家。肉粽的做法是糯米先拌酱，中间塞五花肉、香菇、虾米、干贝、卤蛋与栗子，包紧了煮几个小时，剥开叶子米是酱色的。吃的时候浇一层甜辣酱和花生酱，再撒一点香菜，本地人还会配一碗沙茶面或者扁食汤。店里也卖鱼丸汤、扁食和拌面，都是几块钱到二十几块的价位。它就在中山路步行街这一段，逛到一半拐进来最方便。",
+ "highlights": [
+  "店名即年份，中山路上的烧肉粽老店",
+  "糯米拌酱，塞五花肉香菇虾米干贝卤蛋栗子",
+  "浇甜辣酱与花生酱，配香菜"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.084691,
+   "lat": 24.455389,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-22:00，以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "人均约30元起，以实际消费为准",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "family",
-    "friends",
-    "solo"
+  "address": "福建省厦门市思明区中山路353号",
+  "district": "思明区",
+  "transportTip": "地铁1号线镇海路站，步行约十分钟"
+ },
+ "practical": {
+  "openHours": "约08:00-22:00，以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "人均约30元起，以实际消费为准",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "烧肉粽",
-    "老字号",
-    "中山路"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "family",
+  "friends",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "烧肉粽",
+  "老字号",
+  "中山路"
+ ],
+ "popularity": 84,
+ "sources": [
+  {
+   "title": "百度百科·烧肉粽",
+   "url": "https://baike.baidu.com/item/%E7%83%A7%E8%82%89%E7%B2%BD",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "1980烧肉粽(中山路店)"
+ },
+ "_geocodeTitle": "1980烧肉粽(中山路店)",
+ "_geocodeSuspect": false,
+ "district": "350203",
+ "_noImage": true,
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.2,
+    "note": "糯米拌酱，浇甜辣酱与花生酱最对味"
+   },
+   {
+    "label": "分量",
+    "score": 4.3,
+    "note": "一只粽子里塞七八样料，顶饱"
+   },
+   {
+    "label": "价格",
+    "score": 3.8,
+    "note": "人均三十上下，配汤另算"
+   },
+   {
+    "label": "环境",
+    "score": 2.6,
+    "note": "中山路这家游客多，饭点要等位"
+   }
   ],
-  "popularity": 84,
-  "sources": [
-    {
-      "title": "百度百科·烧肉粽",
-      "url": "https://baike.baidu.com/item/%E7%83%A7%E8%82%89%E7%B2%BD",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
+  "body": "厦门做肉粽的老牌子，糯米先拌酱再塞五花肉、香菇、虾米与卤蛋，煮出来米是酱色的，浇一层甜辣酱加花生酱再撒香菜。缺点是中山路这家游客密集、饭点要等位，一只粽子分量偏大，胃口小的人吃一个就吃不下别的。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "尝老字号",
+   "带走当手信"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "1980烧肉粽(中山路店)"
-  },
-  "_geocodeTitle": "1980烧肉粽(中山路店)",
-  "_geocodeSuspect": false,
-  "district": "350203",
-  "_noImage": true
+  "avoid": [
+   "饭点高峰"
+  ],
+  "sources": []
+ }
 }

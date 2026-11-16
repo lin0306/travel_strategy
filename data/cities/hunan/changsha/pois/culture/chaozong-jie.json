@@ -37,7 +37,10 @@
     "friends"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "国家级旅游休闲街区，6500 块麻石铺成的老街，时务学堂旧址、金九活动旧址等十多处历史节点串成一条步行线路",
+    "巷内已有 24 小时书店与健身房，入夜后最热闹（18:30—22:00），可与西长街、共悦城市公园连着逛"
+  ],
   "images": [
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Chaozong_Street.jpg/1280px-Chaozong_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -74,9 +77,15 @@
       "url": "https://baike.baidu.com/item/%E6%BD%AE%E5%AE%97%E8%A1%97",
       "kind": "wiki",
       "fetchedAt": "2026-09-28"
+    },
+    {
+      "title": "焦点访谈聚焦开福区：潮宗街，从夜经济里走出消费新潮流（开福区人民政府）",
+      "url": "https://www.kaifu.gov.cn/zfxxgk/zfgbm/qrjhjj/dtyw_19321/202609/t20260916_12567931.html",
+      "kind": "gov",
+      "fetchedAt": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-11-05",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -84,5 +93,58 @@
   },
   "_geocodeTitle": "潮宗街历史文化街区",
   "_geocodeSuspect": false,
-  "district": "430105"
+  "district": "430105",
+  "review": {
+    "score": 4.0,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "商业化",
+        "score": 3.2,
+        "note": "咖啡馆书店进来，但还没被小吃摊填满"
+      },
+      {
+        "label": "拍照",
+        "score": 4.3,
+        "note": "麻石路配民国公馆与教堂旧址"
+      },
+      {
+        "label": "逛街时长",
+        "score": 3.2,
+        "note": "街区不长，半小时能到底"
+      },
+      {
+        "label": "人流",
+        "score": 3.8,
+        "note": "比太平街安静"
+      }
+    ],
+    "body": "麻石路面留着，两侧是民国公馆、教堂与商铺旧址，墙上贴着旧门牌说明，更新后开进咖啡馆与书店，比太平街安静。缺点是街区不长，走快点半小时就到底；部分院落还在修缮，围挡挡掉了一些看头。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "citywalk",
+      "拍照",
+      "下午"
+    ],
+    "avoid": [
+      "期待成片大景区"
+    ],
+    "sources": []
+  },
+  "_patrol": {
+    "at": "2026-11-14",
+    "changes": [
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [],
+        "new": [
+          "国家级旅游休闲街区，6500 块麻石铺成的老街，时务学堂旧址、金九活动旧址等十多处历史节点串成一条步行线路",
+          "巷内已有 24 小时书店与健身房，入夜后最热闹（18:30—22:00），可与西长街、共悦城市公园连着逛"
+        ]
+      }
+    ],
+    "source": "https://www.kaifu.gov.cn/zfxxgk/zfgbm/qrjhjj/dtyw_19321/202609/t20260916_12567931.html",
+    "reason": "开福区政府 2026-09 焦点访谈报道：国家级旅游休闲街区、6500 块麻石、时务学堂与金九旧址、24 小时书店健身房"
+  }
 }

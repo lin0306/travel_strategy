@@ -1,6 +1,6 @@
 # 苏州 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-09-19
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Szilas | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Autumn_1980_in_Suzhou_01.jpg) |
-| 城市封面 | Sten van Houwelingen | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Soochow_University_-_Kenneth_Wang_School_of_Law_-_Main_building_background.jpg) |
-| 城市封面 | NASA/METI/AIST/Japan Space Systems, and U.S./Japan ASTER Sci | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Suzhou,_Jingsu,_China_(ASTER).jpg) |
+| 城市封面 | Chensiyuan | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:1_shantang_street_canal_2023.jpg) |
+| 城市封面 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lingering_Garden2.jpg) |
+| 城市封面 | Another Believer | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Suzhou_Museum,_China_(2015)_-_03.JPG) |
 | 苏州工艺美术博物馆 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Suzhou_Shangzhitang_Wuzhai_2015.04.25_12-18-23.jpg) |
 | 苏州工艺美术博物馆 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Suzhou_Shangzhitang_Wuzhai_2015.04.25_12-19-23.jpg) |
 | 沧浪亭 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A_Moon_gate_in_Great_Wave_Pavilion_2012-03.JPG) |
@@ -157,7 +157,6 @@
 | 周庄古镇 | Kristoffer Trolle from Copenhagen, Denmark | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 周庄古镇 | xiquinhosilva | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 周庄古镇 | zhanyoun | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
-| 采芝斋(观前街店) | Gisling | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Caizhizhai.jpg) |
 | 得月楼(观前街店) | Gisling | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Deyuelou.jpg) |
 | 得月楼(观前街店) | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BE%97%E6%9C%88%E6%A5%BC%E7%9A%84%E6%9D%BE%E9%BC%A0%E6%A1%82%E9%B1%BC.jpg) |
 | 得月楼(观前街店) | Shwangtianyuan | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BE%97%E6%9C%88%E6%A5%BC%E8%80%81%E6%A5%BC.JPG) |

@@ -1,158 +1,196 @@
 {
-  "id": "inner-mongolia-museum",
-  "name": "内蒙古博物院",
-  "category": "scenic",
-  "subtype": "museum",
-  "summary": "全自治区最大的博物馆，恐龙化石与草原民族文物是镇馆之宝，免费但要预约。",
-  "description": "内蒙古博物院在新城区，展厅分几层，从远古生物一直讲到草原民族的历史。一楼的恐龙展厅摆着几具巨大的骨架，小朋友一进门就仰头看。楼上是匈奴、鲜卑、契丹到蒙古的文物，金冠、马具和服饰做工讲究。还有专门讲草原生态的展厅，把游牧生活的来龙去脉讲得清楚。免费开放但要提前在公众号预约，周一常闭馆。逛完至少两个小时，别排在行程最后。",
-  "highlights": [
-    "恐龙骨架展厅最震撼",
-    "草原民族金冠与马具",
-    "免费需预约周一闭馆"
-  ],
-  "location": {
-    "point": {
-      "lng": 111.765683,
-      "lat": 40.841698,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "内蒙古自治区呼和浩特市新城区新华东街27号",
-    "district": "赛罕区",
-    "transportTip": "市区乘地铁或公交到内蒙古博物院站"
+ "id": "inner-mongolia-museum",
+ "name": "内蒙古博物院",
+ "category": "scenic",
+ "subtype": "museum",
+ "summary": "全自治区最大的博物馆，恐龙化石与草原民族文物是镇馆之宝，免费但要预约。",
+ "description": "内蒙古博物院在新城区，展厅分几层，从远古生物一直讲到草原民族的历史。一楼的恐龙展厅摆着几具巨大的骨架，小朋友一进门就仰头看。楼上是匈奴、鲜卑、契丹到蒙古的文物，金冠、马具和服饰做工讲究。还有专门讲草原生态的展厅，把游牧生活的来龙去脉讲得清楚。免费开放但要提前在公众号预约，周一常闭馆。逛完至少两个小时，别排在行程最后。",
+ "highlights": [
+  "恐龙骨架展厅最震撼",
+  "草原民族金冠与马具",
+  "免费需预约周一闭馆"
+ ],
+ "location": {
+  "point": {
+   "lng": 111.765683,
+   "lat": 40.841698,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约09:00-17:00（周一闭馆），以公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费，需预约",
-    "ticketRef": 0,
-    "duration": "建议 120-240 分钟",
-    "durationMinutes": [
-      120,
-      240
-    ],
-    "priceLevel": "free"
+  "address": "内蒙古自治区呼和浩特市新城区新华东街27号",
+  "district": "赛罕区",
+  "transportTip": "市区乘地铁或公交到内蒙古博物院站"
+ },
+ "practical": {
+  "openHours": "约09:00-17:00（周一闭馆），以公告为准",
+  "openHoursRef": 0,
+  "ticket": "免费，需预约",
+  "ticketRef": 0,
+  "duration": "建议 120-240 分钟",
+  "durationMinutes": [
+   120,
+   240
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "kids",
+  "family",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%9A%E7%89%A9%E9%99%A2.jpg/1280px-%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%9A%E7%89%A9%E9%99%A2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%9A%E7%89%A9%E9%99%A2.jpg/1280px-%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%9A%E7%89%A9%E9%99%A2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "内蒙古博物院.jpg",
+   "query": "内蒙古博物院 呼和浩特",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Cjsy2026",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%9A%E7%89%A9%E9%99%A2.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "kids",
-    "family",
-    "elders"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%9A%E7%89%A9%E9%99%A2.jpg/1280px-%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%9A%E7%89%A9%E9%99%A2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%9A%E7%89%A9%E9%99%A2.jpg/1280px-%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%9A%E7%89%A9%E9%99%A2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "内蒙古博物院.jpg",
-      "query": "内蒙古博物院 呼和浩特",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Cjsy2026",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%9A%E7%89%A9%E9%99%A2.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Hohhot.inner_mongolia_museum.Platybelodon_grangeri.2.jpg/1280px-Hohhot.inner_mongolia_museum.Platybelodon_grangeri.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Hohhot.inner_mongolia_museum.Platybelodon_grangeri.2.jpg/1280px-Hohhot.inner_mongolia_museum.Platybelodon_grangeri.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 715,
-      "alt": "Hohhot.inner mongolia museum.Platybelodon grangeri.2.jpg",
-      "query": "内蒙古博物院",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Popolon",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hohhot.inner_mongolia_museum.Platybelodon_grangeri.2.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Inner_Mongolia.Hohhot.Mustela_sibirica.jpg/1280px-Inner_Mongolia.Hohhot.Mustela_sibirica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Inner_Mongolia.Hohhot.Mustela_sibirica.jpg/1280px-Inner_Mongolia.Hohhot.Mustela_sibirica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 715,
-      "alt": "Inner Mongolia.Hohhot.Mustela sibirica.jpg",
-      "query": "内蒙古博物院",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Popolon",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inner_Mongolia.Hohhot.Mustela_sibirica.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Inner_Mongolia_Museum.JPG/1280px-Inner_Mongolia_Museum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Inner_Mongolia_Museum.JPG/1280px-Inner_Mongolia_Museum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Inner Mongolia Museum.JPG",
-      "query": "内蒙古博物院",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Mongol",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inner_Mongolia_Museum.JPG",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Nuoerosaurus_chaganensis_mount.jpg/1280px-Nuoerosaurus_chaganensis_mount.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Nuoerosaurus_chaganensis_mount.jpg/1280px-Nuoerosaurus_chaganensis_mount.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Nuoerosaurus chaganensis mount.jpg",
-      "query": "内蒙古博物院",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Gary Todd",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nuoerosaurus_chaganensis_mount.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/20230608_Inner_Mongolia_Museum_and_Wulanqiate.jpg/1280px-20230608_Inner_Mongolia_Museum_and_Wulanqiate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/20230608_Inner_Mongolia_Museum_and_Wulanqiate.jpg/1280px-20230608_Inner_Mongolia_Museum_and_Wulanqiate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "20230608 Inner Mongolia Museum and Wulanqiate.jpg",
-      "query": "内蒙古博物院",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Yumeto",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20230608_Inner_Mongolia_Museum_and_Wulanqiate.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "博物馆",
-    "恐龙",
-    "草原"
-  ],
-  "popularity": 93,
-  "sources": [
-    {
-      "title": "内蒙古博物院·百度百科",
-      "url": "https://baike.baidu.com/item/%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%9A%E7%89%A9%E9%99%A2",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-03"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Inner Mongolia Museum Hohhot",
-    "zh": "内蒙古博物院"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Hohhot.inner_mongolia_museum.Platybelodon_grangeri.2.jpg/1280px-Hohhot.inner_mongolia_museum.Platybelodon_grangeri.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Hohhot.inner_mongolia_museum.Platybelodon_grangeri.2.jpg/1280px-Hohhot.inner_mongolia_museum.Platybelodon_grangeri.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 715,
+   "alt": "Hohhot.inner mongolia museum.Platybelodon grangeri.2.jpg",
+   "query": "内蒙古博物院",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Popolon",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hohhot.inner_mongolia_museum.Platybelodon_grangeri.2.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "内蒙古博物院",
-  "_geocodeSuspect": false,
-  "district": "150105"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Inner_Mongolia.Hohhot.Mustela_sibirica.jpg/1280px-Inner_Mongolia.Hohhot.Mustela_sibirica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Inner_Mongolia.Hohhot.Mustela_sibirica.jpg/1280px-Inner_Mongolia.Hohhot.Mustela_sibirica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 715,
+   "alt": "Inner Mongolia.Hohhot.Mustela sibirica.jpg",
+   "query": "内蒙古博物院",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Popolon",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inner_Mongolia.Hohhot.Mustela_sibirica.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Inner_Mongolia_Museum.JPG/1280px-Inner_Mongolia_Museum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Inner_Mongolia_Museum.JPG/1280px-Inner_Mongolia_Museum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Inner Mongolia Museum.JPG",
+   "query": "内蒙古博物院",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Mongol",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inner_Mongolia_Museum.JPG",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Nuoerosaurus_chaganensis_mount.jpg/1280px-Nuoerosaurus_chaganensis_mount.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Nuoerosaurus_chaganensis_mount.jpg/1280px-Nuoerosaurus_chaganensis_mount.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Nuoerosaurus chaganensis mount.jpg",
+   "query": "内蒙古博物院",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Gary Todd",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nuoerosaurus_chaganensis_mount.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/20230608_Inner_Mongolia_Museum_and_Wulanqiate.jpg/1280px-20230608_Inner_Mongolia_Museum_and_Wulanqiate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/20230608_Inner_Mongolia_Museum_and_Wulanqiate.jpg/1280px-20230608_Inner_Mongolia_Museum_and_Wulanqiate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "20230608 Inner Mongolia Museum and Wulanqiate.jpg",
+   "query": "内蒙古博物院",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Yumeto",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20230608_Inner_Mongolia_Museum_and_Wulanqiate.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "博物馆",
+  "恐龙",
+  "草原"
+ ],
+ "popularity": 93,
+ "sources": [
+  {
+   "title": "内蒙古博物院·百度百科",
+   "url": "https://baike.baidu.com/item/%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%9A%E7%89%A9%E9%99%A2",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-03"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Inner Mongolia Museum Hohhot",
+  "zh": "内蒙古博物院"
+ },
+ "_geocodeTitle": "内蒙古博物院",
+ "_geocodeSuspect": false,
+ "district": "150105",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "展陈",
+    "score": 4.6,
+    "note": "恐龙骨架与草原民族金冠马具是镇馆"
+   },
+   {
+    "label": "免费",
+    "score": 4.8,
+    "note": "免费开放，但要提前在公众号预约"
+   },
+   {
+    "label": "人流",
+    "score": 3.0,
+    "note": "亲子团集中在恐龙厅，上午最挤"
+   },
+   {
+    "label": "时长",
+    "score": 3.6,
+    "note": "逛完至少两小时，别排在行程最后"
+   }
+  ],
+  "body": "到呼和浩特如果只进一个馆，选这里。一楼恐龙厅的骨架尺度先把小朋友镇住，楼上从匈奴、鲜卑、契丹讲到蒙古，金冠、马具、服饰的做工看得出功夫，另有一厅专门讲草原生态，把游牧生活的来龙去脉说清楚了。缺点是免费但要提前在公众号预约，说走就走常常约不到；周一常闭馆，行程别卡在这天。馆大，逛完至少两小时，排在行程最后基本走不动。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "带孩子",
+   "下雨天备选"
+  ],
+  "avoid": [
+   "没预约就直接去",
+   "只留一小时"
+  ],
+  "sources": []
+ }
 }

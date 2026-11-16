@@ -16,7 +16,7 @@
       "lat": 26.086649,
       "coordSystem": "GCJ-02"
     },
-    "address": "福州市鼓楼区盛裕大厦一楼",
+    "address": "福州市鼓楼区八一七北路70号盛裕大厦一楼（东街口地铁B口旁）",
     "district": "鼓楼区",
     "transportTip": "地铁1号线东街口站步行约8分钟"
   },
@@ -54,9 +54,15 @@
       "url": "https://baike.baidu.com/item/%E7%A6%8F%E5%B7%9E%E8%8F%9C",
       "kind": "wiki",
       "fetchedAt": "2026-10-04"
+    },
+    {
+      "title": "腾讯地图POI：老榕城福州小炒佛跳墙·八一七北路70号",
+      "url": "https://map.qq.com/",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -65,5 +71,17 @@
   "_geocodeTitle": "盛裕大楼",
   "_geocodeSuspect": false,
   "district": "350102",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "福州市鼓楼区盛裕大厦一楼",
+        "new": "福州市鼓楼区八一七北路70号盛裕大厦一楼（东街口地铁B口旁）"
+      }
+    ],
+    "source": "https://map.qq.com/place",
+    "reason": "图商POI：老榕城福州小炒佛跳墙 八一七北路70号(东街口地铁站B口旁)"
+  }
 }

@@ -1,6 +1,6 @@
 # 三亚 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-09-29
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | 张元柏 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2005_%E4%B8%89%E4%BA%9A_%E4%BA%9A%E9%BE%99%E6%B9%BE_-_panoramio.jpg) |
-| 城市封面 | Romain Pontida | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Beach_umbrellas,_Sanya,_Hainan,_China_-_%E4%B8%89%E4%BA%9A%EF%BC%8C%E6%B5%B7%E5%8D%97%EF%BC%8C%E4%B8%AD%E5%9B%BD_(10225974024).jpg) |
-| 城市封面 | Romain Pontida | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Fishermen_boats,_Sanya,_Hainan,_China_-_%E4%B8%89%E4%BA%9A%EF%BC%8C%E6%B5%B7%E5%8D%97%EF%BC%8C%E4%B8%AD%E5%9B%BD_(10226073416).jpg) |
+| 城市封面 | Anna Frodesiak | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Phoenix_Island,_Sanya_Bay_-_03.jpg) |
+| 城市封面 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E9%A3%8E%E5%85%89_-_panoramio.jpg) |
+| 城市封面 | Huangdan2060 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dadonghai_12.JPG) |
 | 白鹭公园 | mayanming | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%89%E4%BA%9A_%E7%99%BD%E9%B9%AD%E5%85%AC%E5%9B%AD_-_panoramio.jpg) |
 | 白鹭公园 | mayanming | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%99%BD%E9%B9%AD%E5%85%AC%E5%9B%AD_-_panoramio.jpg) |
 | 大东海 | Huangdan2060 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dadonghai_04.JPG) |

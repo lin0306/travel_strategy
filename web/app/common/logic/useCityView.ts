@@ -92,7 +92,7 @@ export interface CityView {
    */
   selectedId: string | null
   sort: PoiSort
-  /** 「热门优先 ⇄ 名称排序」两档互切 */
+  /** 三档循环：热门优先 → 点评分优先 → 名称排序 → 热门优先 */
   toggleSort: () => void
 
   // ── 动作 ──
@@ -354,7 +354,10 @@ export function useCityView(): CityView {
     // ★ 对外给**生效**的 id（见接口注释）；写入口只有 `openPoi`
     selectedId: sel.layerId,
     sort,
-    toggleSort: () => setSort((s) => (s === 'hot' ? 'name' : 'hot')),
+    // ★ 三档循环（2026-11-10 加 'score'）：用户要「列表能按点评分排」。
+    //   做成循环而不是下拉菜单 —— 这枚按钮只有 11.5px 文字，下拉要另起浮层，
+    //   而三档的空间成本与两档一样。
+    toggleSort: () => setSort((s) => (s === 'hot' ? 'score' : s === 'score' ? 'name' : 'hot')),
     // ★ 打开详情 = **就地浮层**，不换 URL（理由见 `CityView.openPoi` 的注释）
     //   顺手把"搜索命中"清掉：这两件事是同一个浮层的两个来源，
     //   留着会让"pick 优先"的规则把刚点的那一行吃掉（清单行也走这里）

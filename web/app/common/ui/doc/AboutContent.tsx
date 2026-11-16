@@ -24,36 +24,76 @@ import { useEffect, useState } from 'react'
 
 import { Icon } from '~/common/ui/Icon'
 import { SiteMark } from '~/common/ui/SiteMark'
+import { AiReviewNotice } from '~/common/ui/doc/AiReviewNotice'
 import { loadCityIndex } from '~/common/data/data'
 import { GITHUB_ISSUES_URL, GITHUB_REPO_URL, LICENSE_NAME } from '~/common/data/site'
 import type { CityIndexItem } from '~shared/schema'
 
-/** 素材来源与条款。⚠️ 硬编码是对的 —— 它描述的是**采集策略**，不是数据（逐张署名在 `images[].credit`） */
-const IMAGE_SOURCES = [
+/**
+ * 来源清单。⚠️ 硬编码是对的 —— 这里描述的是**采集策略**，不是逐条数据
+ * （逐张署名在 `images[].credit`，每条事实的出处在 `sources[]`）。
+ *
+ * ★ 2026-11-08 三轮修订（前两轮各写错过一处，以第三轮为准）：
+ *   ① 用户「只列了图片素材、数据来源没列」⇒ 拆 `DATA_SOURCES` / `IMAGE_SOURCES`。
+ *   ② 复核发现「配图库存量已清空」是错的：清洗工具只扫点位目录，
+ *      `city.json.heroImages`（83 城 ×3）里仍有 Pexels 83 / Unsplash 46 张；
+ *      4716 条「百度百科」链接则全在 `sources[]`（文字溯源），不在图片 URL。
+ *   ③ 用户「代码取完图还会让 AI 再过一遍，这两个源其实有用」⇒ 复核成立：
+ *      补图链路的 `verdict_for` 只是参考分、不删图，看图判定才是终审。
+ *      ⇒ 配图库恢复为**候选源**，但只准进 AI 审查链路，自动入库那条仍关闭。
+ */
+
+/** 数据本身来自哪里 —— 与下面的「图片素材」是两回事 */
+const DATA_SOURCES = [
   {
-    source: 'Wikimedia Commons',
-    license: 'CC0 / CC BY / CC BY-SA（逐张不同）',
-    url: 'https://commons.wikimedia.org/wiki/Commons:Licensing',
-    note: '主力来源。需要署名的图必须逐张显示作者与许可；图片文件经镜像访问（原始域名国内不可达）。',
+    label: '点位名称、地址与坐标',
+    source: '腾讯位置服务 · 高德开放平台',
+    note: '地点搜索取名称、地址与分类，地理编码补坐标（GCJ-02）。腾讯当日配额用尽时自动改用高德，两家坐标系一致。',
   },
   {
-    source: 'Pexels',
-    license: 'Pexels License',
-    url: 'https://www.pexels.com/license/',
-    note: '补充来源。允许热链、免署名，我们仍保留作者与链接。',
+    label: '行政区划与层级',
+    source: '腾讯位置服务「区划」服务',
+    note: '省 / 市 / 区的代码、层级关系与地图轮廓。三级下钻的计数都挂在这套区划码上，详见下方「地图与边界」。',
   },
   {
-    source: 'Unsplash',
-    license: 'Unsplash License',
-    url: 'https://unsplash.com/license',
-    note: '兜底来源，条款最宽松；对中文景点名的命中率低，所以只在前两源都无果时使用。',
+    label: '行程里的通勤耗时',
+    source: '腾讯位置服务「路径规划 · 距离矩阵」',
+    note: '不预存一份时间表：排行程时按你选的驾车、公交、步行或骑行实时计算，所以路况与线路变化会反映在结果里。',
+  },
+  {
+    label: '文字、门票与开放时间',
+    source: '场馆官网与官媒 · 百科（含百度百科） · 政府文旅部门 · 媒体报道',
+    note: '每个点位逐条记录出处与抓取日期，详情页「溯源」可展开核对 —— 那里出现的「百度百科」是文字出处，不是图片来源。这类信息会变，出行前请以官方渠道为准。',
   },
 ]
 
-const TEXT_SOURCES = [
-  '场馆官网与官方公众号（开放时间、门票、交通）',
-  '维基百科 / 百度百科（历史沿革、文化背景）',
-  '政府文旅部门公开信息（景区等级、预约政策）',
+/**
+ * 图片素材来源与条款 —— **按用途分**：
+ * 点位实景图必须"是这个地方"，城市封面只需传达氛围，两者对图源的要求不同。
+ * 逐张署名不在这里，在 `images[].credit` / `heroImages[].credit`。
+ */
+const IMAGE_SOURCES = [
+  {
+    scope: '点位实景图（详情页）',
+    source: 'Wikimedia Commons · Pexels · Unsplash',
+    license: 'CC 系列 / Pexels License / Unsplash License（逐张不同）',
+    links: [
+      { label: 'Commons 条款 ↗', url: 'https://commons.wikimedia.org/wiki/Commons:Licensing' },
+      { label: 'Pexels 条款 ↗', url: 'https://www.pexels.com/license/' },
+      { label: 'Unsplash 条款 ↗', url: 'https://unsplash.com/license' },
+    ],
+    note: '主力是 Wikimedia Commons：它带 GPS 与 Commons 分类，可校验「是不是这个地方」。Pexels / Unsplash 只作无图点位的补充候选——代码抓完还要逐张看图，判无关的舍弃并永久记住，判对的才入库，署名按真实来源逐张显示。',
+  },
+  {
+    scope: '城市封面（首页城市卡）',
+    source: 'Wikimedia Commons · Pexels · Unsplash',
+    license: 'CC 系列 / Pexels License / Unsplash License（逐张不同）',
+    links: [
+      { label: 'Pexels 条款 ↗', url: 'https://www.pexels.com/license/' },
+      { label: 'Unsplash 条款 ↗', url: 'https://unsplash.com/license' },
+    ],
+    note: '83 座城每城 3 张，其中 43 座仍用着 Pexels / Unsplash 的历史图。封面只负责城市氛围、不对应具体点位，主题配图库在这里是合适的；新城市的封面采集目前未启用这两家。',
+  },
 ]
 
 /** 「怎么用」的每一条 —— 都是**已实现**的交互，能在页面上一试即知 */
@@ -127,8 +167,15 @@ export function AboutContent() {
             <Stat k="城市" v={String(list.length)} />
             <Stat k="景点与场所" v={String(pois)} />
             <Stat k="省级单位" v={String(provinces)} />
-            <Stat k="更新至" v={updatedAt} />
+            {/* 不说「更新至」：那是全库点位里**最近一次内容修改**的日子，不是站点发布日 */}
+            <Stat k="最近更新" v={updatedAt} />
           </dl>
+          <p className="mt-3 mb-0 text-[12px] leading-relaxed text-ink-2">
+            这些数字不是手填的：站点每次构建时直接从已收录的城市与点位里现算 ——
+            城市数、点位数按实际条目统计，省级单位按行政区划代码去重；
+            日期是全部点位中最近一次内容更新的那天。采集任务每天更新数据，
+            页面上的数字会在<strong>站点重新构建后</strong>同步。
+          </p>
           <details className="group mt-4 rounded-lg border border-line bg-surface">
             <summary className="flex cursor-pointer list-none items-center gap-1.5 px-3 py-2.5 text-[12.5px] text-ink-2 [&::-webkit-details-marker]:hidden">
               <Icon name="chev-right" size="sm" className="transition-transform group-open:rotate-90" />
@@ -196,48 +243,79 @@ export function AboutContent() {
         </P>
       </Section>
 
-      <Section title="内容与素材来源">
+      <Section title="数据来源">
         <P>
-          所有图片均为<strong>外链直链</strong>，版权归原作者所有；
-          需要署名的图会在图上直接显示作者与许可。文字与事实整理自：
+          下面这些是<strong>数据本身</strong>的来源 —— 点位、区划、通勤耗时与文字各走一条链，
+          和配图素材是两回事。
         </P>
-        <ul className="m-0 mt-2 list-disc space-y-1 pl-5 text-[12.5px] leading-relaxed text-ink-2">
-          {TEXT_SOURCES.map((t) => (
-            <li key={t}>{t}</li>
-          ))}
-        </ul>
-        <ul className="mt-3 list-none space-y-2 p-0">
-          {IMAGE_SOURCES.map((s) => (
-            <li key={s.source} className="rounded-lg border border-line bg-surface px-3 py-2.5">
-              <div className="flex flex-wrap items-baseline gap-2">
-                <b className="text-[13px]">{s.source}</b>
-                <span className="text-[11.5px] text-ink-2">{s.license}</span>
-                <a
-                  href={s.url}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="text-[11.5px] text-primary no-underline"
-                >
-                  许可条款 ↗
-                </a>
+        <ul className="mt-2.5 list-none space-y-2 p-0">
+          {DATA_SOURCES.map((s) => (
+            <li key={s.label} className="rounded-lg border border-line bg-surface px-3 py-2.5">
+              <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+                <b className="text-[13px]">{s.label}</b>
+                <span className="text-[11.5px] text-ink-2">{s.source}</span>
               </div>
               <p className="mt-1 mb-0 text-[12px] leading-relaxed text-ink-2">{s.note}</p>
             </li>
           ))}
         </ul>
-        <P>每个点位都带出处与抓取时间，详情页的「溯源」可以展开看到具体来源。</P>
+      </Section>
 
-        {/* ★ 采集策略是给维护者看的决策记录，收进折叠区 —— 上一版平铺在正文里，
-            一个想查攻略的人不会关心"为什么不用 Pixabay"。 */}
+      <Section title="图片与文字素材">
+        <P>
+          所有图片均为<strong>外链直链</strong>，版权归原作者所有，需要署名的逐张显示作者与许可。
+          <strong>点位实景图</strong>和<strong>城市封面</strong>对图源的要求不同，所以分开列：
+          前者必须"是这个地方"，后者只需传达城市氛围。
+        </P>
+        <ul className="mt-3 list-none space-y-2 p-0">
+          {IMAGE_SOURCES.map((s) => (
+            <li key={s.scope} className="rounded-lg border border-line bg-surface px-3 py-2.5">
+              <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+                <span className="text-[11px] text-ink-2">{s.scope}</span>
+              </div>
+              <div className="mt-0.5 flex flex-wrap items-baseline gap-2">
+                <b className="text-[13px]">{s.source}</b>
+                <span className="text-[11.5px] text-ink-2">{s.license}</span>
+                {s.links.map((l) => (
+                  <a
+                    key={l.url}
+                    href={l.url}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="text-[11.5px] text-primary no-underline"
+                  >
+                    {l.label}
+                  </a>
+                ))}
+              </div>
+              <p className="mt-1 mb-0 text-[12px] leading-relaxed text-ink-2">{s.note}</p>
+            </li>
+          ))}
+        </ul>
+
+        {/* ★ 采集策略是给维护者看的决策记录，收进折叠区。
+            必须写清"两条链路的边界"与"百度百科为什么只出现在溯源里"。 */}
         <details className="group mt-3 rounded-lg border border-line bg-surface">
           <summary className="flex cursor-pointer list-none items-center gap-1.5 px-3 py-2.5 text-[12.5px] text-ink-2 [&::-webkit-details-marker]:hidden">
             <Icon name="chev-right" size="sm" className="transition-transform group-open:rotate-90" />
-            图片为什么选这几家（选型记录）
+            图片选型记录（两条链路 · 排除的来源）
           </summary>
-          <div className="border-t border-line px-3 py-2.5 text-[12px] leading-relaxed text-ink-2">
+          <div className="space-y-2 border-t border-line px-3 py-2.5 text-[12px] leading-relaxed text-ink-2">
             <p className="m-0">
-              <strong>明确排除：</strong>百度百科（图片有 Referer 防盗链，只有百度自己的域名取得到，
-              且版权归属不清）· Pixabay（条款禁止热链）。携程 / 马蜂窝 / 小红书等平台的内容
+              <strong>为什么要分两条链路：</strong>Pexels / Unsplash 是<strong>主题配图库</strong>而非地点图库
+              —— 搜「农安辽塔」给出的是上海的古塔，也没有 GPS / 分类可供过滤。
+              西安 57 张首审判出 30 张错、长春 57 张判出 33 张错，几乎全来自这两家。
+              但问题出在「代码判完直接入库」：<strong>每日自动采集只收 Wikimedia</strong>；
+              补图任务则把三家候选都抓来、逐张看图，判无关的舍弃且永久记住。
+              暂时没有实景图的点位显示「暂无图片」，绝不垫一张别处的图。
+            </p>
+            <p className="m-0">
+              <strong>百度百科：</strong>图片明确排除（有 Referer 防盗链，只有百度自家域名取得到，版权归属也不清）。
+              详情页「溯源」里那些「××·百度百科」是<strong>文字事实的出处链接</strong>，不是图片来源；
+              另有 6 个点位留着早期用于查百科的关键词字段，目前都没有配图。
+            </p>
+            <p className="m-0">
+              <strong>明确排除：</strong>Pixabay（条款禁止热链）。携程 / 马蜂窝 / 小红书等平台的内容
               <strong>只作参考，不入库、不外链</strong>。
             </p>
           </div>
@@ -246,8 +324,9 @@ export function AboutContent() {
 
       <Section title="地图与边界">
         <P>
-          地图与行政区划边界来自<strong>腾讯位置服务</strong>：省 / 市轮廓只取该服务的官方数据，
+          底图由<strong>腾讯位置服务</strong>渲染；省 / 市轮廓只取该服务的官方数据，
           不使用任何第三方 GeoJSON —— 这关系到国家版图表达的准确性。
+          三级区划的代码与层级见上方「数据来源」。
         </P>
         <P>
           本站是纯静态站点，页面在构建期就渲染好了，运行时没有后端，
@@ -261,6 +340,8 @@ export function AboutContent() {
           本站内容仅供参考，不构成任何出行承诺。发现内容有误、或认为某处素材使用不当，
           欢迎在 <ExtLink href={GITHUB_ISSUES_URL}>项目仓库提 issue</ExtLink>，我们会尽快处理。
         </P>
+        {/* AI 点评的免责。文案在 `AiReviewNotice`（详情卡片取短版），此处只引用 */}
+        <AiReviewNotice />
       </Section>
     </>
   )

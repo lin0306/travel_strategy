@@ -1,157 +1,196 @@
 {
-  "id": "jizushan",
-  "name": "鸡足山",
-  "category": "scenic",
-  "subtype": "temple",
-  "summary": "宾川境内的一座佛教名山，传说是迦叶尊者道场，山顶看日出云海。",
-  "description": "鸡足山在大理东边的宾川县，是一座佛教名山，相传是迦叶尊者守衣入定的地方。山势像鸡足，所以得名。上面寺院很多，金顶寺在最上头。凌晨爬到金顶看日出和云海是经典。从大理过来要两小时左右。",
-  "highlights": [
-    "宾川佛教名山，相传迦叶尊者道场",
-    "金顶寺在最上头，凌晨看日出云海",
-    "山势像鸡足而得名"
-  ],
-  "location": {
-    "point": {
-      "lng": 100.40259,
-      "lat": 25.940033,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "云南省大理白族自治州宾川县鸡足山景区",
-    "district": "宾川县",
-    "transportTip": "从大理古城乘车往宾川方向约两小时"
+ "id": "jizushan",
+ "name": "鸡足山",
+ "category": "scenic",
+ "subtype": "temple",
+ "summary": "宾川境内的一座佛教名山，传说是迦叶尊者道场，山顶看日出云海。",
+ "description": "鸡足山在大理东边的宾川县，是一座佛教名山，相传是迦叶尊者守衣入定的地方。山势像鸡足，所以得名。上面寺院很多，金顶寺在最上头。凌晨爬到金顶看日出和云海是经典。从大理过来要两小时左右。",
+ "highlights": [
+  "宾川佛教名山，相传迦叶尊者道场",
+  "金顶寺在最上头，凌晨看日出云海",
+  "山势像鸡足而得名"
+ ],
+ "location": {
+  "point": {
+   "lng": 100.40259,
+   "lat": 25.940033,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约7:00-18:00（金顶看日出需夜爬）",
-    "openHoursRef": 0,
-    "ticket": "门票加索道约几十到上百元",
-    "ticketRef": 0,
-    "duration": "建议 180-300 分钟",
-    "durationMinutes": [
-      180,
-      300
-    ],
-    "priceLevel": "mid"
+  "address": "云南省大理白族自治州宾川县鸡足山景区",
+  "district": "宾川县",
+  "transportTip": "从大理古城乘车往宾川方向约两小时"
+ },
+ "practical": {
+  "openHours": "约7:00-18:00（金顶看日出需夜爬）",
+  "openHoursRef": 0,
+  "ticket": "门票加索道约几十到上百元",
+  "ticketRef": 0,
+  "duration": "建议 180-300 分钟",
+  "durationMinutes": [
+   180,
+   300
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/From_JiZuShan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/From_JiZuShan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 790,
+   "alt": "From JiZuShan.jpg",
+   "query": "鸡足山 大理",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Philippe Semanaz",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:From_JiZuShan.jpg",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "friends",
-    "family"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/From_JiZuShan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/From_JiZuShan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 790,
-      "alt": "From JiZuShan.jpg",
-      "query": "鸡足山 大理",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Philippe Semanaz",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:From_JiZuShan.jpg",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/JiZuShan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/JiZuShan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1041,
-      "alt": "JiZuShan.jpg",
-      "query": "鸡足山 大理",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Philippe Semanaz",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:JiZuShan.jpg",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/JizuShan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/JizuShan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 972,
-      "alt": "JizuShan.jpg",
-      "query": "鸡足山 大理",
-      "credit": {
-        "source": "wikimedia",
-        "author": "NoGhost",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:JizuShan.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Statue_in_a_temple_of_Jizu_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Statue_in_a_temple_of_Jizu_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Statue in a temple of Jizu Mountain.jpg",
-      "query": "鸡足山 大理",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Philippe Semanaz",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Statue_in_a_temple_of_Jizu_Mountain.jpg",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Jizu_Mountain_20180218.jpg/1280px-Jizu_Mountain_20180218.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Jizu_Mountain_20180218.jpg/1280px-Jizu_Mountain_20180218.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 426,
-      "alt": "Jizu Mountain 20180218.jpg",
-      "query": "鸡足山 大理",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangmoon618",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jizu_Mountain_20180218.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/The_sky_ladder_at_Jizu_Mountain.jpg/1280px-The_sky_ladder_at_Jizu_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/The_sky_ladder_at_Jizu_Mountain.jpg/1280px-The_sky_ladder_at_Jizu_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 717,
-      "alt": "The sky ladder at Jizu Mountain.jpg",
-      "query": "鸡足山 大理",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangmoon618",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_sky_ladder_at_Jizu_Mountain.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "佛教名山",
-    "日出",
-    "云海"
-  ],
-  "popularity": 66,
-  "sources": [
-    {
-      "title": "百度百科·鸡足山",
-      "url": "https://baike.baidu.com/item/%E9%B8%A1%E8%B6%B3%E5%B1%B1",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "鸡足山"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/JiZuShan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/JiZuShan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 1041,
+   "alt": "JiZuShan.jpg",
+   "query": "鸡足山 大理",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Philippe Semanaz",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:JiZuShan.jpg",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "鸡足山镇",
-  "_geocodeSuspect": false,
-  "district": "532924"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/JizuShan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/JizuShan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 972,
+   "alt": "JizuShan.jpg",
+   "query": "鸡足山 大理",
+   "credit": {
+    "source": "wikimedia",
+    "author": "NoGhost",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:JizuShan.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Statue_in_a_temple_of_Jizu_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Statue_in_a_temple_of_Jizu_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Statue in a temple of Jizu Mountain.jpg",
+   "query": "鸡足山 大理",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Philippe Semanaz",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Statue_in_a_temple_of_Jizu_Mountain.jpg",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Jizu_Mountain_20180218.jpg/1280px-Jizu_Mountain_20180218.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Jizu_Mountain_20180218.jpg/1280px-Jizu_Mountain_20180218.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 426,
+   "alt": "Jizu Mountain 20180218.jpg",
+   "query": "鸡足山 大理",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangmoon618",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jizu_Mountain_20180218.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/The_sky_ladder_at_Jizu_Mountain.jpg/1280px-The_sky_ladder_at_Jizu_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/The_sky_ladder_at_Jizu_Mountain.jpg/1280px-The_sky_ladder_at_Jizu_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 717,
+   "alt": "The sky ladder at Jizu Mountain.jpg",
+   "query": "鸡足山 大理",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangmoon618",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_sky_ladder_at_Jizu_Mountain.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "佛教名山",
+  "日出",
+  "云海"
+ ],
+ "popularity": 66,
+ "sources": [
+  {
+   "title": "百度百科·鸡足山",
+   "url": "https://baike.baidu.com/item/%E9%B8%A1%E8%B6%B3%E5%B1%B1",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "鸡足山"
+ },
+ "_geocodeTitle": "鸡足山镇",
+ "_geocodeSuspect": false,
+ "district": "532924",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.6,
+    "note": "金顶看日出与云海是经典"
+   },
+   {
+    "label": "体力",
+    "score": 2.4,
+    "note": "夜爬台阶长、气温低"
+   },
+   {
+    "label": "寺院",
+    "score": 4.3,
+    "note": "一路寺院排到山顶"
+   },
+   {
+    "label": "交通",
+    "score": 3.0,
+    "note": "从大理过来约两小时"
+   }
+  ],
+  "body": "鸡足山是宾川的佛教名山，传说是迦叶尊者守衣入定的地方，山势像鸡足。寺院一路排上去，金顶寺在最上头，凌晨爬上去看日出和云海是经典玩法。缺点是体力要求实打实，夜爬台阶长、山上气温低，受凉的不在少数；从大理过来两小时，加索道和门票，一天下来花费不算低。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "爬山",
+   "看日出",
+   "佛教文化"
+  ],
+  "avoid": [
+   "体力差",
+   "怕冷"
+  ],
+  "sources": []
+ }
 }

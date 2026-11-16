@@ -1,6 +1,6 @@
 # 大同 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-01
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Ralf Leineweber | Unsplash License | [unsplash](https://unsplash.com/photos/oriental-pearl-tower-shanghai-china-sRMzAdjWK_E) |
-| 城市封面 | Peng Originals | Unsplash License | [unsplash](https://unsplash.com/photos/a-city-skyline-with-a-bridge-over-the-water-thTiND-4NsQ) |
-| 城市封面 | Road Trip with Raj | Unsplash License | [unsplash](https://unsplash.com/photos/aerial-photography-of-city-buildings-py8eyAh9J3A) |
+| 城市封面 | Woudloper | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Heng_Shan_(Shanxi)_viewpoint_100_m_below_the_summit.jpg) |
+| 城市封面 | Ganwumao | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20220121_%E5%A4%A7%E5%90%8C_%E5%8D%8E%E4%B8%A5%E5%AF%BA.jpg) |
+| 城市封面 | Charlie fong | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:The_skyline_of_Datong%EF%BC%88Southgate%EF%BC%892019.jpg) |
 | 慈云寺 | Vikarna | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Ciyun_Temple_of_Tianzhen.jpg) |
 | 慈云寺 | Vikarna | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%85%88%E4%BA%91%E5%AF%BA%E4%BC%BD%E8%93%9D%E6%AE%BF.jpg) |
 | 慈云寺 | Vikarna | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%85%88%E4%BA%91%E5%AF%BA%E5%A4%A7%E9%9B%84%E5%AE%9D%E6%AE%BF.jpg) |

@@ -1,200 +1,239 @@
 {
-  "id": "reed-flute-cave",
-  "name": "芦笛岩",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "光明山西側的一个溶洞，里面的钟乳石挂满了整条通道，灯一打像宫殿，进去跟往外看是两个世界。",
-  "description": "芦笛岩是桂林市区最有名的一个溶洞，在城西北的光明山里。洞口很高，进去是一条五百米的通道，两边全是石笋、石柱、石幔 —— 溶洞里的东西差不多全在这儿了。它的特别之处在于数量够多、位置够近：别处的溶洞一个主厅也就几根大的，这里一路都是，加上灯打得很讲究，著名的那几处有名字（水晶宫、花果山之类）。洞里常年十几度，夏天进去要带件外套，冬天反而暖。洞口附近有燕子湖与人工瀑布，出来可以绕一圈。它与南溪山、西山在城的同一侧，三者之间都在二十分钟车程内。要注意洞里湿滑，路窄人多，节假日会排队。",
-  "highlights": [
-    "五百米通道两边全是石笋石柱，密度在国内溶洞里少见",
-    "洞里常年十几度，夏天进去要带外套",
-    "洞口有燕子湖与瀑布，出来绕一圈"
-  ],
-  "location": {
-    "point": {
-      "lng": 110.272435,
-      "lat": 25.309947,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "广西壮族自治区桂林市秀峰区芦笛岩",
-    "district": "秀峰区",
-    "transportTip": "市区乘公交至芦笛岩站；或网约车约二十分钟",
-    "entrance": {
-      "lng": 110.273481,
-      "lat": 25.303735,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "reed-flute-cave",
+ "name": "芦笛岩",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "光明山西側的一个溶洞，里面的钟乳石挂满了整条通道，灯一打像宫殿，进去跟往外看是两个世界。",
+ "description": "芦笛岩是桂林市区最有名的一个溶洞，在城西北的光明山里。洞口很高，进去是一条五百米的通道，两边全是石笋、石柱、石幔 —— 溶洞里的东西差不多全在这儿了。它的特别之处在于数量够多、位置够近：别处的溶洞一个主厅也就几根大的，这里一路都是，加上灯打得很讲究，著名的那几处有名字（水晶宫、花果山之类）。洞里常年十几度，夏天进去要带件外套，冬天反而暖。洞口附近有燕子湖与人工瀑布，出来可以绕一圈。它与南溪山、西山在城的同一侧，三者之间都在二十分钟车程内。要注意洞里湿滑，路窄人多，节假日会排队。",
+ "highlights": [
+  "五百米通道两边全是石笋石柱，密度在国内溶洞里少见",
+  "洞里常年十几度，夏天进去要带外套",
+  "洞口有燕子湖与瀑布，出来绕一圈"
+ ],
+ "location": {
+  "point": {
+   "lng": 110.272435,
+   "lat": 25.309947,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约8:00-17:30，节假日延长，以景区公告为准",
-    "openHoursRef": 0,
-    "ticket": "中等，以景区公告为准",
-    "ticketRef": 0,
-    "duration": "建议 90-150 分钟",
-    "durationMinutes": [
-      90,
-      150
-    ],
-    "priceLevel": "mid"
+  "address": "广西壮族自治区桂林市秀峰区芦笛岩",
+  "district": "秀峰区",
+  "transportTip": "市区乘公交至芦笛岩站；或网约车约二十分钟",
+  "entrance": {
+   "lng": 110.273481,
+   "lat": 25.303735,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约8:00-17:30，节假日延长，以景区公告为准",
+  "openHoursRef": 0,
+  "ticket": "中等，以景区公告为准",
+  "ticketRef": 0,
+  "duration": "建议 90-150 分钟",
+  "durationMinutes": [
+   90,
+   150
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "family",
+  "kids",
+  "couple",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2817%29.jpg/1280px-%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2817%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2817%29.jpg/1280px-%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2817%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "桂林市芦笛岩内景色 - panoramio (17).jpg",
+   "query": "芦笛岩",
+   "credit": {
+    "source": "wikimedia",
+    "author": "luchangjiang~鲁昌江",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "inside"
+   }
   },
-  "audience": [
-    "family",
-    "kids",
-    "couple",
-    "elders"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2817%29.jpg/1280px-%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2817%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2817%29.jpg/1280px-%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2817%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "桂林市芦笛岩内景色 - panoramio (17).jpg",
-      "query": "芦笛岩",
-      "credit": {
-        "source": "wikimedia",
-        "author": "luchangjiang~鲁昌江",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "inside"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%281%29.jpg/1280px-%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%281%29.jpg/1280px-%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "桂林市芦笛岩内景色 - panoramio (1).jpg",
-      "query": "芦笛岩",
-      "credit": {
-        "source": "wikimedia",
-        "author": "luchangjiang~鲁昌江",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "inside"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2811%29.jpg/1280px-%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2811%29.jpg/1280px-%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "桂林市芦笛岩内景色 - panoramio (11).jpg",
-      "query": "芦笛岩",
-      "credit": {
-        "source": "wikimedia",
-        "author": "luchangjiang~鲁昌江",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "inside"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2814%29.jpg/1280px-%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2814%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2814%29.jpg/1280px-%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2814%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "桂林市芦笛岩内景色 - panoramio (14).jpg",
-      "query": "芦笛岩",
-      "credit": {
-        "source": "wikimedia",
-        "author": "luchangjiang~鲁昌江",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "inside"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2815%29.jpg/1280px-%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2815%29.jpg/1280px-%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "桂林市芦笛岩内景色 - panoramio (15).jpg",
-      "query": "芦笛岩",
-      "credit": {
-        "source": "wikimedia",
-        "author": "luchangjiang~鲁昌江",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "inside"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%289%29.jpg/1280px-%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%289%29.jpg/1280px-%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "桂林市芦笛岩内景色 - panoramio (9).jpg",
-      "query": "芦笛岩",
-      "credit": {
-        "source": "wikimedia",
-        "author": "luchangjiang~鲁昌江",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "inside"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "溶洞",
-    "钟乳石",
-    "避暑"
-  ],
-  "popularity": 86,
-  "sources": [
-    {
-      "title": "百度百科·芦笛岩",
-      "url": "https://baike.baidu.com/item/%E8%8A%A6%E7%AC%9B%E5%B2%A9",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
-  ],
-  "updatedAt": "2026-11-04",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "芦笛岩"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%281%29.jpg/1280px-%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%281%29.jpg/1280px-%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "桂林市芦笛岩内景色 - panoramio (1).jpg",
+   "query": "芦笛岩",
+   "credit": {
+    "source": "wikimedia",
+    "author": "luchangjiang~鲁昌江",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "inside"
+   }
   },
-  "_geocodeTitle": "芦笛岩",
-  "_geocodeSuspect": false,
-  "district": "450302"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2811%29.jpg/1280px-%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2811%29.jpg/1280px-%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "桂林市芦笛岩内景色 - panoramio (11).jpg",
+   "query": "芦笛岩",
+   "credit": {
+    "source": "wikimedia",
+    "author": "luchangjiang~鲁昌江",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "inside"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2814%29.jpg/1280px-%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2814%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2814%29.jpg/1280px-%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2814%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "桂林市芦笛岩内景色 - panoramio (14).jpg",
+   "query": "芦笛岩",
+   "credit": {
+    "source": "wikimedia",
+    "author": "luchangjiang~鲁昌江",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "inside"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2815%29.jpg/1280px-%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2815%29.jpg/1280px-%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "桂林市芦笛岩内景色 - panoramio (15).jpg",
+   "query": "芦笛岩",
+   "credit": {
+    "source": "wikimedia",
+    "author": "luchangjiang~鲁昌江",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "inside"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%289%29.jpg/1280px-%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%289%29.jpg/1280px-%E6%A1%82%E6%9E%97%E5%B8%82%E8%8A%A6%E7%AC%9B%E5%B2%A9%E5%86%85%E6%99%AF%E8%89%B2_-_panoramio_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "桂林市芦笛岩内景色 - panoramio (9).jpg",
+   "query": "芦笛岩",
+   "credit": {
+    "source": "wikimedia",
+    "author": "luchangjiang~鲁昌江",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "inside"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "溶洞",
+  "钟乳石",
+  "避暑"
+ ],
+ "popularity": 86,
+ "sources": [
+  {
+   "title": "百度百科·芦笛岩",
+   "url": "https://baike.baidu.com/item/%E8%8A%A6%E7%AC%9B%E5%B2%A9",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "芦笛岩"
+ },
+ "_geocodeTitle": "芦笛岩",
+ "_geocodeSuspect": false,
+ "district": "450302",
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "景观密度",
+    "score": 4.6,
+    "note": "五百米通道两边石笋石柱几乎没断过"
+   },
+   {
+    "label": "人流",
+    "score": 2.5,
+    "note": "节假日排队，通道窄只能跟着走"
+   },
+   {
+    "label": "洞内环境",
+    "score": 3.0,
+    "note": "常年十几度，地面湿滑"
+   },
+   {
+    "label": "时长",
+    "score": 4.0,
+    "note": "一个多小时能走完，效率高"
+   }
+  ],
+  "body": "市区最有名的溶洞，五百米通道两边全是石笋、石柱、石幔，密度在国内溶洞里算少的，灯打得也讲究，几处大的都有名字。洞里常年十几度，夏天进去要带件外套，出来洞口还有燕子湖与瀑布可以绕一圈。要说不好：通道窄，节假日只能跟着人流走，想停下来拍一张都难；地面常年湿滑，穿平底鞋更稳，别指望在洞里慢慢看。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "避暑",
+   "带娃",
+   "半日游"
+  ],
+  "avoid": [
+   "怕湿滑",
+   "节假日不想排队"
+  ],
+  "sources": []
+ }
 }

@@ -15,12 +15,12 @@
       "lat": 30.659568,
       "coordSystem": "GCJ-02"
     },
-    "address": "成都市锦江区华兴正街 52 号",
+    "address": "成都市锦江区华兴正街 62-63 号（近王府井）",
     "district": "锦江区",
     "transportTip": "地铁 2/3 号线春熙路站步行约 500 米"
   },
   "practical": {
-    "openHours": "约 10:00-20:00（以门店公告为准）",
+    "openHours": "堂食 11:00-14:00、17:00-21:00（卤菜外卖窗口全天营业，鲜肉包子约 15:00 出笼、售完为止）",
     "openHoursRef": 0,
     "ticket": "人均约 40 元起",
     "ticketRef": 0,
@@ -56,9 +56,21 @@
       "url": "https://www.toutiao.com/article/7674209797114839579/",
       "kind": "media",
       "fetchedAt": "2026-09-18"
+    },
+    {
+      "title": "原值约10:00-20:00 与所有来源都不一致(晚市21:00才结束),会误导",
+      "url": "https://www.toutiao.com/article/7703810820202889747 + 腾讯地图POI「盘飧市(春熙路店)」营业时间11:00-14:00,17:00-21:00 + https://www.cityhui.com/shop/22026.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
+    },
+    {
+      "title": "成都公共文化服务平台 + 腾讯地图 POI",
+      "url": "https://pandacd.ccic.org.cn/",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Chengdu braised food",
@@ -67,5 +79,17 @@
   "_geocodeTitle": "盘飧市(春熙路店)",
   "_geocodeSuspect": false,
   "district": "510104",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-08",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "成都市锦江区华兴正街 52 号",
+        "new": "成都市锦江区华兴正街 62-63 号（近王府井）"
+      }
+    ],
+    "source": "https://pandacd.ccic.org.cn/",
+    "reason": "门牌52号与坐标不符：腾讯地图POI「盘飧市(春熙路店)」与成都公共文化服务平台均为华兴正街62-63号(近王府井)\r"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "胡兴堂",
   "category": "food",
   "subtype": "local",
-  "summary": "屯溪徽菜馆，招牌臭鳜鱼和胡适一品锅，装修是徽派院子。",
+  "summary": "1823 年（清道光三年）创立的徽州老字号，主打黄山烧饼、徽墨酥、黄山豆干等徽点伴手礼，兼营徽茶徽菜；老街门店复古装修，买手信顺手拍照。",
   "description": "胡兴堂在屯溪，是一家徽菜馆。招牌是臭鳜鱼和胡适一品锅 —— 后者是一锅分层码着肉、笋、蛋饺的炖菜，名字来自胡适。它的院子是徽派老房子改的，有天井，吃饭有味道。除了鱼，毛豆腐、土鸡汤也做。分店黄山市区有几家。人均中等。",
   "highlights": [
     "徽菜馆，招牌臭鳜鱼与胡适一品锅",
@@ -52,9 +52,15 @@
       "url": "https://baike.baidu.com/item/%E5%BE%BD%E8%8F%9C",
       "kind": "wiki",
       "fetchedAt": "2026-10-01"
+    },
+    {
+      "title": "品牌官网：胡兴堂为徽点伴手礼连锁，兼营徽茶徽菜，非纯徽菜馆",
+      "url": "http://bsl.hxt1823.com/info.php?class_id=101101",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,5 +69,17 @@
   "_geocodeTitle": "胡兴堂(老街三店)",
   "_geocodeSuspect": false,
   "district": "341002",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "一句话简介",
+        "old": "屯溪徽菜馆，招牌臭鳜鱼和胡适一品锅，装修是徽派院子。",
+        "new": "1823 年（清道光三年）创立的徽州老字号，主打黄山烧饼、徽墨酥、黄山豆干等徽点伴手礼，兼营徽茶徽菜；老街门店复古装修，买手信顺手拍照。"
+      }
+    ],
+    "source": "http://bsl.hxt1823.com/info.php?class_id=101101",
+    "reason": "品牌官网：胡兴堂为徽点伴手礼连锁，兼营徽茶徽菜，非纯徽菜馆"
+  }
 }

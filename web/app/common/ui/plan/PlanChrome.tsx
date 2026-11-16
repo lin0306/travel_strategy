@@ -46,6 +46,7 @@
 import { Overlay } from '~/common/ui/Overlay'
 import { ToastBar } from '~/common/ui/ToastBar'
 import { StayPicker } from '~/common/ui/plan/StayPicker'
+import { usePresence } from '~/common/ui/usePresence'
 import type { PlanView } from '~/common/logic/usePlanView'
 
 export function PlanToast({ text, onClose }: { text: string; onClose: () => void }) {
@@ -96,15 +97,17 @@ export function PlanLegend({ hasSoftData, as }: { hasSoftData: boolean; as: 'ove
  *   所以图例是个独立组件（`PlanLegend`），由两端视图各自摆放。
  */
 export function PlanExtras({ view }: { view: PlanView }) {
+  const stayP = usePresence(view.stayPickerOpen)
   return (
     <>
-      {view.stayPickerOpen ? (
+      {stayP.mounted ? (
         <StayPicker
           city={view.city}
           store={view.store}
           onClose={view.onCloseStayPicker}
           onUseCenter={view.onUseMapCenter}
           onDone={view.onStayPicked}
+          exiting={stayP.exiting}
         />
       ) : null}
 

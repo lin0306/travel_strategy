@@ -1,66 +1,105 @@
 {
-  "id": "yutu-heyeji",
-  "name": "御土荷叶鸡",
-  "category": "food",
-  "subtype": "local",
-  "summary": "承德名菜，鸡用荷叶和泥裹了烤，拆开有荷香，是宫廷菜一路。",
-  "description": "御土荷叶鸡是承德的名菜 —— 鸡收拾干净，填料，用荷叶一层层裹住，外面再糊上泥，烤。吃的时候敲开泥和荷叶，香味一下出来。它叫御土是因为沾着宫廷的名头。肉嫩，有荷叶的清香。一般要整只点，适合几个人分。",
-  "highlights": [
-    "荷叶裹鸡外糊泥烤，拆开香出",
-    "宫廷名头，肉嫩有荷香",
-    "整只点，宜几人分"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.943121,
-      "lat": 40.974679,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市双桥区御土荷叶鸡",
-    "district": "双桥区",
-    "transportTip": "市区公交或打车到店"
+ "id": "yutu-heyeji",
+ "name": "御土荷叶鸡",
+ "category": "food",
+ "subtype": "local",
+ "summary": "承德名菜，鸡用荷叶和泥裹了烤，拆开有荷香，是宫廷菜一路。",
+ "description": "御土荷叶鸡是承德的名菜 —— 鸡收拾干净，填料，用荷叶一层层裹住，外面再糊上泥，烤。吃的时候敲开泥和荷叶，香味一下出来。它叫御土是因为沾着宫廷的名头。肉嫩，有荷叶的清香。一般要整只点，适合几个人分。",
+ "highlights": [
+  "荷叶裹鸡外糊泥烤，拆开香出",
+  "宫廷名头，肉嫩有荷香",
+  "整只点，宜几人分"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.943121,
+   "lat": 40.974679,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:00-21:00",
-    "openHoursRef": 0,
-    "ticket": "整只约150元起",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "family",
-    "friends"
+  "address": "河北省承德市双桥区御土荷叶鸡",
+  "district": "双桥区",
+  "transportTip": "市区公交或打车到店"
+ },
+ "practical": {
+  "openHours": "约10:00-21:00",
+  "openHoursRef": 0,
+  "ticket": "整只约150元起",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "名菜",
-    "荷叶鸡",
-    "宫廷"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "family",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "名菜",
+  "荷叶鸡",
+  "宫廷"
+ ],
+ "popularity": 58,
+ "sources": [
+  {
+   "title": "百度百科·御土荷叶鸡",
+   "url": "https://baike.baidu.com/item/%E5%BE%A1%E5%9C%9F%E8%8D%B7%E5%8F%B6%E9%B8%A1",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "御土荷叶鸡"
+ },
+ "_geocodeTitle": "双桥区",
+ "district": "130802",
+ "_noImage": true,
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.2,
+    "note": "拆泥开荷叶那一下香气足，肉嫩带荷香"
+   },
+   {
+    "label": "价格",
+    "score": 2.9,
+    "note": "整只起卖，一百多起，人均不低"
+   },
+   {
+    "label": "分量",
+    "score": 3.1,
+    "note": "整只点，人少吃不掉"
+   },
+   {
+    "label": "仪式感",
+    "score": 4.4,
+    "note": "敲泥拆叶，上桌就是一场表演"
+   }
   ],
-  "popularity": 58,
-  "sources": [
-    {
-      "title": "百度百科·御土荷叶鸡",
-      "url": "https://baike.baidu.com/item/%E5%BE%A1%E5%9C%9F%E8%8D%B7%E5%8F%B6%E9%B8%A1",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "body": "御土荷叶鸡是承德的名菜：鸡收拾好填料，荷叶一层层裹住，外面糊泥再烤，上桌敲开泥壳、揭开荷叶，香气一下冲出来，肉嫩还带荷叶的清味。它吃的就是这个仪式感和宫廷名头，几个人分一只正好。缺点是整只起卖、价格不便宜，人少点它就得放弃别的菜；泥壳拆起来有点费劲，桌上有孩子要留神；鸡胸这类厚处容易偏柴，靠蘸汁补。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "多人聚餐",
+   "尝名菜",
+   "带长辈"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "御土荷叶鸡"
-  },
-  "_geocodeTitle": "双桥区",
-  "district": "130802",
-  "_noImage": true
+  "avoid": [
+   "一个人",
+   "赶时间"
+  ],
+  "sources": []
+ }
 }

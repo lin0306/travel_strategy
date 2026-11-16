@@ -1,72 +1,111 @@
 {
-  "id": "daming-shan",
-  "name": "大明山",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "南宁北部的山脉，夏天避暑、冬天看雾凇。",
-  "description": "大明山在武鸣区与马山交界，是南宁周边最高的山之一，主峰海拔约1760米。它森林覆盖率高，夏季比山下低很多，是南宁人避暑的首选；冬天高海拔处偶有雾凇。山上有一条观景长廊，看云海和峡谷。离市区约两小时车程，基本要安排一整天，或在山脚住一晚。台阶多，鞋子要合适。",
-  "highlights": [
-    "南宁周边最高山之一，夏季避暑",
-    "冬季高海拔偶有雾凇",
-    "离城约两小时，安排一整天"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.337457,
-      "lat": 23.52598,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市武鸣区两江镇明山路1号",
-    "district": "武鸣区",
-    "transportTip": "市区自驾或乘武鸣专线约2小时",
-    "entrance": {
-      "lng": 108.336779,
-      "lat": 23.521561,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "daming-shan",
+ "name": "大明山",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "南宁北部的山脉，夏天避暑、冬天看雾凇。",
+ "description": "大明山在武鸣区与马山交界，是南宁周边最高的山之一，主峰海拔约1760米。它森林覆盖率高，夏季比山下低很多，是南宁人避暑的首选；冬天高海拔处偶有雾凇。山上有一条观景长廊，看云海和峡谷。离市区约两小时车程，基本要安排一整天，或在山脚住一晚。台阶多，鞋子要合适。",
+ "highlights": [
+  "南宁周边最高山之一，夏季避暑",
+  "冬季高海拔偶有雾凇",
+  "离城约两小时，安排一整天"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.337457,
+   "lat": 23.52598,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-17:00，以景区公告为准",
-    "openHoursRef": 0,
-    "ticket": "约80元起，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 180-360 分钟",
-    "durationMinutes": [
-      180,
-      360
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "family",
-    "solo"
+  "address": "南宁市武鸣区两江镇明山路1号",
+  "district": "武鸣区",
+  "transportTip": "市区自驾或乘武鸣专线约2小时",
+  "entrance": {
+   "lng": 108.336779,
+   "lat": 23.521561,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约08:00-17:00，以景区公告为准",
+  "openHoursRef": 0,
+  "ticket": "约80元起，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 180-360 分钟",
+  "durationMinutes": [
+   180,
+   360
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "山脉",
-    "避暑",
-    "云海"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "山脉",
+  "避暑",
+  "云海"
+ ],
+ "popularity": 78,
+ "sources": [
+  {
+   "title": "百度百科·大明山",
+   "url": "https://baike.baidu.com/item/%E5%A4%A7%E6%98%8E%E5%B1%B1",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "大明山"
+ },
+ "_geocodeTitle": "大明山(检查站门)",
+ "_geocodeSuspect": false,
+ "district": "450110",
+ "_noImage": true,
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.2,
+    "note": "主峰高、云海与峡谷视野好"
+   },
+   {
+    "label": "体力",
+    "score": 2.8,
+    "note": "台阶多、爬升大，穿错鞋很难受"
+   },
+   {
+    "label": "交通",
+    "score": 2.5,
+    "note": "离市区远，来回耗掉大半时间"
+   },
+   {
+    "label": "时长",
+    "score": 3.0,
+    "note": "基本要一整天或住一晚"
+   }
   ],
-  "popularity": 78,
-  "sources": [
-    {
-      "title": "百度百科·大明山",
-      "url": "https://baike.baidu.com/item/%E5%A4%A7%E6%98%8E%E5%B1%B1",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "大明山是南宁周边避暑的常规答案：海拔高、林子密，夏天山上比城里低好几度，冬天高海拔偶尔还能看到雾凇，云海和峡谷的视野在近郊里算好的。它的缺点也很直接：离城远，从市区过去来回要花掉大半天，真正爬山的时间被压得紧，赶时间的人会一直在赶路。山上台阶多、起伏大，鞋子和水量都要备足；山顶天气变得快，云雾一上来视野就全没了，能不能看到全看运气。安排整天或在山脚住一晚才划算，只留三小时不如不去。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "避暑",
+   "爬山",
+   "看云海"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "大明山"
-  },
-  "_geocodeTitle": "大明山(检查站门)",
-  "_geocodeSuspect": false,
-  "district": "450110",
-  "_noImage": true
+  "avoid": [
+   "只有半天",
+   "体力一般"
+  ],
+  "sources": []
+ }
 }

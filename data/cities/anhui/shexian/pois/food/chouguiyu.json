@@ -1,72 +1,112 @@
 {
-  "id": "chouguiyu",
-  "name": "臭鳜鱼",
-  "category": "food",
-  "subtype": "local",
-  "summary": "徽菜头牌，发酵出臭味、吃着蒜瓣肉鲜香。",
-  "description": "臭鳜鱼是徽菜里最有名的一道，做法很特别：鲜鳜鱼用淡盐水腌、微微发酵，闻着有股臭味，但烧出来肉质像蒜瓣一样一瓣一瓣、鲜嫩无比，咸鲜带点回甘。过去徽商往外走，鱼要腌了才运得动，久而久之成了招牌。在歙县，几乎每家做徽菜的老馆子都有这一道，红烧、干锅、酱汁几种烧法都有。第一次吃可能会被气味劝退，但多半会真香。配米饭尤其下饭，是来徽州必点的一尾鱼。",
-  "highlights": [
-    "徽菜头牌",
-    "蒜瓣肉",
-    "闻臭吃香",
-    "必点"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.435,
-      "lat": 29.866,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黄山市歙县徽城镇徽州路、中和街一带徽菜老馆（如古城周边饭店）",
-    "district": "歙县",
-    "transportTip": "徽州古城内步行可达各家徽菜馆"
+ "id": "chouguiyu",
+ "name": "臭鳜鱼",
+ "category": "food",
+ "subtype": "local",
+ "summary": "徽菜头牌，发酵出臭味、吃着蒜瓣肉鲜香。",
+ "description": "臭鳜鱼是徽菜里最有名的一道，做法很特别：鲜鳜鱼用淡盐水腌、微微发酵，闻着有股臭味，但烧出来肉质像蒜瓣一样一瓣一瓣、鲜嫩无比，咸鲜带点回甘。过去徽商往外走，鱼要腌了才运得动，久而久之成了招牌。在歙县，几乎每家做徽菜的老馆子都有这一道，红烧、干锅、酱汁几种烧法都有。第一次吃可能会被气味劝退，但多半会真香。配米饭尤其下饭，是来徽州必点的一尾鱼。",
+ "highlights": [
+  "徽菜头牌",
+  "蒜瓣肉",
+  "闻臭吃香",
+  "必点"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.435,
+   "lat": 29.866,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "午市 11:00-13:30；晚市 17:00-21:00",
-    "openHoursRef": 0,
-    "ticket": "按餐厅消费",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "family",
-    "solo",
-    "elders"
+  "address": "黄山市歙县徽城镇徽州路、中和街一带徽菜老馆（如古城周边饭店）",
+  "district": "歙县",
+  "transportTip": "徽州古城内步行可达各家徽菜馆"
+ },
+ "practical": {
+  "openHours": "午市 11:00-13:30；晚市 17:00-21:00",
+  "openHoursRef": 0,
+  "ticket": "按餐厅消费",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "徽菜",
-    "名菜",
-    "发酵",
-    "下饭"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family",
+  "solo",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "徽菜",
+  "名菜",
+  "发酵",
+  "下饭"
+ ],
+ "popularity": 95,
+ "sources": [
+  {
+   "title": "百度百科·臭鳜鱼",
+   "url": "https://baike.baidu.com/item/%E8%87%AD%E9%B3%9C%E9%B1%BC",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-07"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "臭鳜鱼"
+ },
+ "_geocodeTitle": "歙县徽州古城徽菜馆",
+ "_geocodeSuspect": false,
+ "district": "341021",
+ "_noImage": true,
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.7,
+    "note": "腌足天数才有蒜瓣肉，红烧比干锅更见功夫"
+   },
+   {
+    "label": "价格",
+    "score": 3.6,
+    "note": "古城里一份多在百元上下，景区门口拉客店更贵"
+   },
+   {
+    "label": "排队",
+    "score": 3.4,
+    "note": "饭点本地老馆子要等位，错峰去省心"
+   },
+   {
+    "label": "稳不稳定",
+    "score": 3.0,
+    "note": "不同店发酵火候差很多，同一道菜能差出一档"
+   }
   ],
-  "popularity": 95,
+  "body": "来歙县不吃这尾鱼等于没来。发酵到位的鳜鱼烧出来是蒜瓣状的紧实肉，咸鲜里带回甘，汤汁拌饭能干两碗。缺点也明显：气味确实劝退同桌的人，而且各店水平不齐——腌得不够的只有咸味没有香，古城正街几家忙起来火候更飘。想吃稳的，往巷子里的老馆子走，别在景区门口被拉客的带进去。",
+  "basis": "web",
+  "at": "2026-11-13",
+  "fits": [
+   "想吃徽菜头牌",
+   "两人以上点整条"
+  ],
+  "avoid": [
+   "介意发酵气味",
+   "单人吃不完一条"
+  ],
   "sources": [
-    {
-      "title": "百度百科·臭鳜鱼",
-      "url": "https://baike.baidu.com/item/%E8%87%AD%E9%B3%9C%E9%B1%BC",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-07"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "臭鳜鱼"
-  },
-  "_geocodeTitle": "歙县徽州古城徽菜馆",
-  "_geocodeSuspect": false,
-  "district": "341021",
-  "_noImage": true
+   "http://mp.weixin.qq.com/s?__biz=Mzg3NDc4ODM3NA==&mid=2247591811&idx=4&sn=fd411ff05a6aee2e75b5272344e0ae06"
+  ]
+ }
 }

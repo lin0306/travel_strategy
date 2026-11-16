@@ -1,67 +1,132 @@
 {
-  "id": "yancha-zhizuo",
-  "name": "武夷岩茶制作技艺",
-  "category": "culture",
-  "subtype": "performance",
-  "summary": "非遗焙火，岩骨花香的由来。",
-  "description": "武夷岩茶制作技艺是国家级非物质文化遗产，也是人类非遗代表作，一套做下来有萎凋、做青、杀青、揉捻、焙火十几道工序，最考人的是“看青做青”和炭焙火候，差一点岩骨花香就出不来。在茶厂能看到师傅摇青、焙笼里炭火慢烤的过程，比喝一口茶更懂这杯茶。它不收门票，很多茶厂开放参观。想深度体验可以预约手工做茶。",
-  "highlights": [
-    "人类非遗",
-    "炭焙火候",
-    "看青做青"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.988918,
-      "lat": 27.609099,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "福建省南平市武夷山市各岩茶厂及茶博园",
-    "district": "武夷山",
-    "transportTip": "三姑茶市及景区周边茶厂可参观"
+ "id": "yancha-zhizuo",
+ "name": "武夷岩茶制作技艺",
+ "category": "culture",
+ "subtype": "performance",
+ "summary": "非遗焙火，岩骨花香的由来。",
+ "description": "武夷岩茶制作技艺是国家级非物质文化遗产，也是人类非遗代表作，一套做下来有萎凋、做青、杀青、揉捻、焙火十几道工序，最考人的是“看青做青”和炭焙火候，差一点岩骨花香就出不来。在茶厂能看到师傅摇青、焙笼里炭火慢烤的过程，比喝一口茶更懂这杯茶。它不收门票，很多茶厂开放参观。想深度体验可以预约手工做茶。",
+ "highlights": [
+  "人类非遗",
+  "炭焙火候",
+  "看青做青"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.988918,
+   "lat": 27.609099,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "白天（以茶厂开放为准）",
-    "openHoursRef": 0,
-    "ticket": "免费观摩（体验另计）",
-    "ticketRef": 0,
-    "duration": "建议 60-150 分钟",
-    "durationMinutes": [
-      60,
-      150
-    ],
-    "priceLevel": "free"
+  "address": "福建省南平市武夷山市星村镇黄村村（世界乌龙茶发源地展示馆）及三姑度假区茶庄园",
+  "district": "武夷山",
+  "transportTip": "三姑茶市及景区周边茶厂可参观"
+ },
+ "practical": {
+  "openHours": "白天（以茶厂开放为准）",
+  "openHoursRef": 0,
+  "ticket": "免费观摩（体验另计）",
+  "ticketRef": 0,
+  "duration": "建议 60-150 分钟",
+  "durationMinutes": [
+   60,
+   150
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "friends",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [
+  "想看完整工序去星村镇黄村村的世界乌龙茶发源地展示馆，老茶厂改造，动态演示千年制茶工序",
+  "三姑度假区的茶庄园可上手体验摇青，研学团多，最好提前预约",
+  "采茶季在 4—5 月，其他时候看得到做青焙火、看不到采青"
+ ],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "非遗",
+  "岩茶",
+  "制茶"
+ ],
+ "popularity": 90,
+ "sources": [
+  {
+   "title": "百度百科·武夷岩茶",
+   "url": "https://baike.baidu.com/item/%E6%AD%A6%E5%A4%B7%E5%B2%A9%E8%8C%B6",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-06"
   },
-  "audience": [
-    "friends",
-    "solo"
+  {
+   "title": "中国旅游报 2026-10：世界乌龙茶发源地展示馆在星村镇黄村村，茶庄园在三姑",
+   "url": "https://www.ctnews.com.cn/xiangcun/content/2026-10/15/content_193206.html",
+   "kind": "media",
+   "fetchedAt": "2026-11-13"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "武夷岩茶制作技艺"
+ },
+ "_geocodeTitle": "格岩茶厂",
+ "_geocodeSuspect": false,
+ "district": "350782",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-13",
+  "changes": [
+   {
+    "field": "地址",
+    "old": "福建省南平市武夷山市各岩茶厂及茶博园",
+    "new": "福建省南平市武夷山市星村镇黄村村（世界乌龙茶发源地展示馆）及三姑度假区茶庄园"
+   },
+   {
+    "field": "贴士（用 | 分隔多条，整体替换）",
+    "old": [],
+    "new": [
+     "想看完整工序去星村镇黄村村的世界乌龙茶发源地展示馆，老茶厂改造，动态演示千年制茶工序",
+     "三姑度假区的茶庄园可上手体验摇青，研学团多，最好提前预约",
+     "采茶季在 4—5 月，其他时候看得到做青焙火、看不到采青"
+    ]
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "非遗",
-    "岩茶",
-    "制茶"
+  "source": "https://www.ctnews.com.cn/xiangcun/content/2026-10/15/content_193206.html",
+  "reason": "中国旅游报 2026-10：世界乌龙茶发源地展示馆在星村镇黄村村，茶庄园在三姑"
+ },
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "工艺",
+    "score": 4.5,
+    "note": "摇青、焙火这些工序看得见"
+   },
+   {
+    "label": "体验",
+    "score": 4.2,
+    "note": "部分茶庄园能上手摇青"
+   },
+   {
+    "label": "门槛",
+    "score": 3.0,
+    "note": "演示看场次，散客容易错过"
+   }
   ],
-  "popularity": 90,
+  "body": "非遗不是挂在墙上的名词，在这儿能看到师傅摇青、焙笼里炭火慢烤，看一遍比喝十杯更懂什么叫岩骨花香。要注意的是工序演示按场次走，散客去得不是时候只能看静态展板；想上手体验还得跟研学团或提前预约。采茶季在春天，其他月份看得到做青焙火，看不到采青，别抱着“上山摘茶”的期待去。",
+  "basis": "web",
+  "at": "2026-11-13",
+  "fits": [
+   "茶友",
+   "亲子研学"
+  ],
+  "avoid": [
+   "只想拍照打卡"
+  ],
   "sources": [
-    {
-      "title": "百度百科·武夷岩茶",
-      "url": "https://baike.baidu.com/item/%E6%AD%A6%E5%A4%B7%E5%B2%A9%E8%8C%B6",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-06"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "武夷岩茶制作技艺"
-  },
-  "_geocodeTitle": "格岩茶厂",
-  "_geocodeSuspect": false,
-  "district": "350782",
-  "_noImage": true
+   "https://www.ctnews.com.cn/xiangcun/content/2026-10/15/content_193206.html"
+  ]
+ }
 }

@@ -260,7 +260,7 @@ function DocButton({ compact = false }: { compact?: boolean }) {
         type="button"
         onClick={openAbout}
         aria-haspopup="dialog"
-        aria-label="关于行迹（数据规模 · 使用说明 · 内容与素材来源）"
+        aria-label="关于行迹（数据规模 · 使用说明 · 数据来源与素材）"
         className="grid size-8 place-items-center rounded-md text-ink-2 hover:bg-line-2 hover:text-primary"
       >
         <Icon name="info" size="md" />
@@ -272,7 +272,7 @@ function DocButton({ compact = false }: { compact?: boolean }) {
       type="button"
       onClick={openAbout}
       aria-haspopup="dialog"
-      aria-label="关于行迹（数据规模 · 使用说明 · 内容与素材来源）"
+      aria-label="关于行迹（数据规模 · 使用说明 · 数据来源与素材）"
       className="rounded-md px-2.5 py-1.5 text-[13px] text-ink-2 hover:bg-line-2 hover:text-primary"
     >
       {DOC_LABEL}

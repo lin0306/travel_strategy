@@ -16,12 +16,12 @@
       "lat": 34.255599,
       "coordSystem": "GCJ-02"
     },
-    "address": "西安市碑林区（以门店公告为准）",
+    "address": "西安市碑林区南院门25号（南院门店）",
     "district": "碑林区",
     "transportTip": "以门店公告位置为准"
   },
   "practical": {
-    "openHours": "约 10:00-21:00（以门店公告为准）",
+    "openHours": "10:30-21:00（以门店公告为准）",
     "openHoursRef": 0,
     "ticket": "人均约 60 元起（以门店为准）",
     "ticketRef": 0,
@@ -51,9 +51,15 @@
       "url": "https://baike.baidu.com/item/%E8%91%AB%E8%8A%A6%E5%A4%B4",
       "kind": "wiki",
       "fetchedAt": "2026-09-19"
+    },
+    {
+      "title": "西安文旅：陕菜老字号门店清单（春发生 10:30-21:00）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU3NDQwMzU4OQ==&mid=2248172607&idx=1&sn=8f6006c945e30f964ae8395571b40d04",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -62,5 +68,22 @@
   "_geocodeTitle": "春发生饭店·非遗(南院门店)",
   "_geocodeSuspect": false,
   "district": "610103",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "西安市碑林区（以门店公告为准）",
+        "new": "西安市碑林区南院门25号（南院门店）"
+      },
+      {
+        "field": "开放时间",
+        "old": "约 10:00-21:00（以门店公告为准）",
+        "new": "10:30-21:00（以门店公告为准）"
+      }
+    ],
+    "source": "https://mp.weixin.qq.com/s?__biz=MzU3NDQwMzU4OQ==&mid=2248172607&idx=1&sn=8f6006c945e30f964ae8395571b40d04",
+    "reason": "西安文旅公众号门店清单：南院门25号、10:30-21:00"
+  }
 }

@@ -1,68 +1,107 @@
 {
-  "id": "lingma-nianyu",
-  "name": "灵马鲶鱼",
-  "category": "food",
-  "subtype": "local",
-  "summary": "武鸣灵马镇的招牌菜，豆腐鲶鱼一锅炖。",
-  "description": "灵马鲶鱼是南宁武鸣区灵马镇的一道招牌菜，用本地鲶鱼配豆腐、番茄和酸笋同炖，汤浓肉嫩、带一点酸鲜，是武鸣人待客的硬菜。这道菜发源于灵马镇，后来在南宁城里也能吃到，多家专做鲶鱼的店。它适合安排一顿正餐，配米饭最合适。价格中等，分量实在，懂本地菜的人会点。",
-  "highlights": [
-    "武鸣灵马镇招牌菜，鲶鱼炖豆腐",
-    "酸笋番茄提鲜，汤浓肉嫩",
-    "待客硬菜，适合正餐"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.339926,
-      "lat": 22.85666,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市武鸣区灵马镇及城区鲶鱼店",
-    "district": "兴宁区",
-    "transportTip": "市区自驾或乘武鸣班车至灵马镇"
+ "id": "lingma-nianyu",
+ "name": "灵马鲶鱼",
+ "category": "food",
+ "subtype": "local",
+ "summary": "武鸣灵马镇的招牌菜，豆腐鲶鱼一锅炖。",
+ "description": "灵马鲶鱼是南宁武鸣区灵马镇的一道招牌菜，用本地鲶鱼配豆腐、番茄和酸笋同炖，汤浓肉嫩、带一点酸鲜，是武鸣人待客的硬菜。这道菜发源于灵马镇，后来在南宁城里也能吃到，多家专做鲶鱼的店。它适合安排一顿正餐，配米饭最合适。价格中等，分量实在，懂本地菜的人会点。",
+ "highlights": [
+  "武鸣灵马镇招牌菜，鲶鱼炖豆腐",
+  "酸笋番茄提鲜，汤浓肉嫩",
+  "待客硬菜，适合正餐"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.339926,
+   "lat": 22.85666,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约11:00-14:00 / 17:00-21:00（以门店为准）",
-    "openHoursRef": 0,
-    "ticket": "人均约70元，以门店为准",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "family",
-    "elders",
-    "friends"
+  "address": "南宁市武鸣区灵马镇及城区鲶鱼店",
+  "district": "兴宁区",
+  "transportTip": "市区自驾或乘武鸣班车至灵马镇"
+ },
+ "practical": {
+  "openHours": "约11:00-14:00 / 17:00-21:00（以门店为准）",
+  "openHoursRef": 0,
+  "ticket": "人均约70元，以门店为准",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "鲶鱼",
-    "武鸣",
-    "本帮"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "family",
+  "elders",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "鲶鱼",
+  "武鸣",
+  "本帮"
+ ],
+ "popularity": 64,
+ "sources": [
+  {
+   "title": "百度百科·灵马鲶鱼",
+   "url": "https://baike.baidu.com/item/%E7%81%B5%E9%A9%AC%E9%B2%B6%E9%B1%BC",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "灵马鲶鱼"
+ },
+ "_geocodeTitle": "灵马鲶鱼",
+ "_geocodeSuspect": false,
+ "district": "450102",
+ "_noImage": true,
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.3,
+    "note": "鲶鱼配豆腐番茄酸笋同炖，酸鲜浓郁"
+   },
+   {
+    "label": "分量",
+    "score": 4.2,
+    "note": "一锅很大，两人吃不完"
+   },
+   {
+    "label": "价格",
+    "score": 3.4,
+    "note": "按锅算，人少不划算"
+   },
+   {
+    "label": "可得性",
+    "score": 3.0,
+    "note": "城区专做店不多，多在武鸣方向"
+   }
   ],
-  "popularity": 64,
-  "sources": [
-    {
-      "title": "百度百科·灵马鲶鱼",
-      "url": "https://baike.baidu.com/item/%E7%81%B5%E9%A9%AC%E9%B2%B6%E9%B1%BC",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "灵马鲶鱼是武鸣灵马镇的招牌：鲶鱼和豆腐、番茄、酸笋一锅炖，汤浓肉嫩，酸味把油腻压住，配米饭能吃两碗。人多的时候点这一锅很值，是本地人待客的硬菜。可惜分量实在太大，两个人基本吃不完，人少点它就不划算；城区专做这道菜的店不多，多数要往武鸣方向跑。凑够三四个人再来点最合适。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "多人聚餐",
+   "武鸣方向",
+   "吃本地菜"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "灵马鲶鱼"
-  },
-  "_geocodeTitle": "灵马鲶鱼",
-  "_geocodeSuspect": false,
-  "district": "450102",
-  "_noImage": true
+  "avoid": [
+   "一个人",
+   "怕酸笋味"
+  ],
+  "sources": []
+ }
 }

@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%B2%A9%E7%94%BB1.jpg/1280px-%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%B2%A9%E7%94%BB1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%B2%A9%E7%94%BB1.jpg/1280px-%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%B2%A9%E7%94%BB1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "贺兰山岩画1.jpg",
-      "query": "贺兰山岩画",
-      "credit": {
-        "source": "wikimedia",
-        "author": "261026CQ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%B2%A9%E7%94%BB1.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%B2%A9%E7%94%BB%E4%B8%8E%E8%A5%BF%E5%A4%8F%E6%96%87%E5%AD%97.jpg/1280px-%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%B2%A9%E7%94%BB%E4%B8%8E%E8%A5%BF%E5%A4%8F%E6%96%87%E5%AD%97.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%B2%A9%E7%94%BB%E4%B8%8E%E8%A5%BF%E5%A4%8F%E6%96%87%E5%AD%97.jpg/1280px-%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%B2%A9%E7%94%BB%E4%B8%8E%E8%A5%BF%E5%A4%8F%E6%96%87%E5%AD%97.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 811,
-      "alt": "贺兰山岩画与西夏文字.jpg",
-      "query": "贺兰山岩画",
-      "credit": {
-        "source": "wikimedia",
-        "author": "HCCB3947",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%B2%A9%E7%94%BB%E4%B8%8E%E8%A5%BF%E5%A4%8F%E6%96%87%E5%AD%97.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%B2%A9%E7%94%BB%E5%A4%AA%E9%98%B3%E7%A5%9E.jpg/1280px-%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%B2%A9%E7%94%BB%E5%A4%AA%E9%98%B3%E7%A5%9E.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%B2%A9%E7%94%BB%E5%A4%AA%E9%98%B3%E7%A5%9E.jpg/1280px-%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%B2%A9%E7%94%BB%E5%A4%AA%E9%98%B3%E7%A5%9E.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1457,
-      "alt": "贺兰山岩画太阳神.jpg",
-      "query": "贺兰山岩画",
-      "credit": {
-        "source": "wikimedia",
-        "author": "霧島聖",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%B2%A9%E7%94%BB%E5%A4%AA%E9%98%B3%E7%A5%9E.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "岩画",
@@ -100,7 +54,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Helan Rock Art Photo",
@@ -108,5 +62,15 @@
   },
   "_geocodeTitle": "贺兰山岩画",
   "_geocodeSuspect": false,
-  "district": "640122"
+  "district": "640122",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 3 张（待重抓）",
+    "droppedImages": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%B2%A9%E7%94%BB1.jpg/1280px-%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%B2%A9%E7%94%BB1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%B2%A9%E7%94%BB%E4%B8%8E%E8%A5%BF%E5%A4%8F%E6%96%87%E5%AD%97.jpg/1280px-%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%B2%A9%E7%94%BB%E4%B8%8E%E8%A5%BF%E5%A4%8F%E6%96%87%E5%AD%97.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%B2%A9%E7%94%BB%E5%A4%AA%E9%98%B3%E7%A5%9E.jpg/1280px-%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%B2%A9%E7%94%BB%E5%A4%AA%E9%98%B3%E7%A5%9E.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  }
 }

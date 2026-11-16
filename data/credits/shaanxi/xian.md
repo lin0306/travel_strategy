@@ -1,6 +1,6 @@
 # 西安 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-09-19
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -45,22 +45,32 @@
 | 西影电影博物馆 | [西安电影制片厂·西影电影博物馆参观信息（西安本地宝）](http://mp.weixin.qq.com/s?__biz=MzAxNzc3OTIxNw==&mid=2247486265&idx=1&sn=b9b937bb1157ab408298e069e576c148) | media | 2026-11-05 |
 | 杨虎城止园别墅 | [杨虎城将军止园别墅参观信息（西安发布·老城四条大街）](https://news.sohu.com/a/1089369923_121106869) | media | 2026-11-05 |
 | 春发生 | [百度百科·葫芦头泡馍](https://baike.baidu.com/item/%E8%91%AB%E8%8A%A6%E5%A4%B4) | wiki | 2026-09-19 |
+| 春发生 | [西安文旅：陕菜老字号门店清单（春发生 10:30-21:00）](https://mp.weixin.qq.com/s?__biz=MzU3NDQwMzU4OQ==&mid=2248172607&idx=1&sn=8f6006c945e30f964ae8395571b40d04) | media | 2026-11-09 |
 | 德发长 | [百度百科·德发长](https://baike.baidu.com/item/%E5%BE%B7%E5%8F%91%E9%95%BF) | wiki | 2026-09-19 |
+| 德发长 | [西安饮食股份有限公司 · 老字号门店布局](http://www.chizhuanxian.com/channels/662.html) | media | 2026-11-09 |
 | 德福巷咖啡街 | [百度百科·德福巷](https://baike.baidu.com/item/%E5%BE%B7%E7%A6%8F%E5%B7%B7) | wiki | 2026-09-19 |
+| 德福巷咖啡街 | [西安新闻网2026-10-16：德福巷已从单一酒吧街转型综合街区](https://www.xiancn.com/content/2026-10/16/content_7538689.htm) | media | 2026-11-09 |
 | 定家小酥肉 | [百度百科·西安小吃](https://baike.baidu.com/item/%E8%A5%BF%E5%AE%89%E5%B0%8F%E5%90%83) | wiki | 2026-09-19 |
+| 定家小酥肉 | [百度百科·清真·定家小酥肉（回民街旗舰店）](https://baike.baidu.com/item/%E6%B8%85%E7%9C%9F%C2%B7%E5%AE%9A%E5%AE%B6%E5%B0%8F%E9%85%A5%E8%82%89%EF%BC%88%E5%9B%9E%E6%B0%91%E8%A1%97%E6%97%97%E8%88%B0%E5%BA%97%EF%BC%89/57804551) | media | 2026-11-09 |
 | 樊记腊汁肉夹馍 | [百度百科·肉夹馍](https://baike.baidu.com/item/%E8%82%89%E5%A4%B9%E9%A6%8D) | wiki | 2026-09-19 |
+| 樊记腊汁肉夹馍 | [百度百科：樊记腊汁肉（竹笆市老店）](https://baike.baidu.com/item/%E6%A8%8A%E8%AE%B0%E8%85%8A%E6%B1%81%E8%82%89%EF%BC%88%E7%AB%B9%E7%AC%86%E5%B8%82%E8%80%81%E5%BA%97%EF%BC%89/14263881) | media | 2026-11-09 |
 | 黄桂柿子饼 | [百度百科·黄桂柿子饼](https://baike.baidu.com/item/%E9%BB%84%E6%A1%82%E6%9F%BF%E5%AD%90%E9%A5%BC) | wiki | 2026-09-19 |
 | 贾三灌汤包 | [百度百科·贾三灌汤包](https://baike.baidu.com/item/%E8%B4%BE%E4%B8%89%E7%81%8C%E6%B1%A4%E5%8C%85) | wiki | 2026-09-19 |
+| 贾三灌汤包 | [补门牌：图商POI与多平台均指北院门93号，坐标已重合](https://hk.trip.com/moments/poi-xi-an-jiasan-stuffed-with-juicy-pork-baoziguan-208275/) | media | 2026-11-09 |
 | 镜糕 | [百度百科·镜糕](https://baike.baidu.com/item/%E9%95%9C%E7%B3%95) | wiki | 2026-09-19 |
 | 老米家大雨泡馍 | [百度百科·牛羊肉泡馍](https://baike.baidu.com/item/%E7%89%9B%E7%BE%8A%E8%82%89%E6%B3%A1%E9%A6%8D) | wiki | 2026-09-19 |
+| 老米家大雨泡馍 | [百度百科·老米家大雨泡馍（回民街总店）](https://baike.baidu.com/item/%E8%80%81%E7%B1%B3%E5%AE%B6%E5%A4%A7%E9%9B%A8%E6%B3%A1%E9%A6%8D%EF%BC%88%E5%9B%9E%E6%B0%91%E8%A1%97%E6%80%BB%E5%BA%97%EF%BC%89/58355482) | media | 2026-11-09 |
 | 老孙家饭庄 | [百度百科·牛羊肉泡馍](https://baike.baidu.com/item/%E7%89%9B%E7%BE%8A%E8%82%89%E6%B3%A1%E9%A6%8D) | wiki | 2026-09-19 |
+| 老孙家饭庄 | [百度百科·老孙家饭庄（东大街店）](https://baike.baidu.com/item/%E8%80%81%E5%AD%99%E5%AE%B6%E9%A5%AD%E5%BA%84%EF%BC%88%E4%B8%9C%E5%A4%A7%E8%A1%97%E5%BA%97%EF%BC%89/14265293) | media | 2026-11-09 |
 | 柳巷面 | [城市惠·柳巷面馆](https://www.cityhui.com/shop/21234.html) | wiki | 2026-09-23 |
 | 秋林食街（李家村） | [秋林公司（李家村）·秋林食街](https://baike.baidu.com/item/%E7%A7%8B%E6%9E%97%E5%85%AC%E5%8F%B8%EF%BC%88%E6%9D%8E%E5%AE%B6%E6%9D%91%EF%BC%89/14236263) | wiki | 2026-11-05 |
 | 盛志望麻酱酿皮 | [百度百科·凉皮](https://baike.baidu.com/item/%E5%87%89%E7%9A%AE) | wiki | 2026-09-19 |
 | 酸汤水饺 | [百度百科·酸汤水饺](https://baike.baidu.com/item/%E9%85%B8%E6%B1%A4%E6%B0%B4%E9%A5%BA) | wiki | 2026-09-19 |
 | 同盛祥 | [百度百科·同盛祥](https://baike.baidu.com/item/%E5%90%8C%E7%9B%9B%E7%A5%A5) | wiki | 2026-09-19 |
+| 同盛祥 | [百度百科·同盛祥（钟楼店）](https://baike.baidu.com/item/%E5%90%8C%E7%9B%9B%E7%A5%A5%EF%BC%88%E9%92%9F%E6%A5%BC%E5%BA%97%EF%BC%89/14255987) | media | 2026-11-09 |
 | 魏家凉皮 | [百度百科·魏家凉皮](https://baike.baidu.com/item/%E9%AD%8F%E5%AE%B6%E5%87%89%E7%9A%AE) | wiki | 2026-09-19 |
 | 西安饭庄 | [百度百科·西安饭庄](https://baike.baidu.com/item/%E8%A5%BF%E5%AE%89%E9%A5%AD%E5%BA%84) | wiki | 2026-09-19 |
+| 西安饭庄 | [百度百科·西安饮食股份有限公司西安饭庄（工商登记）](https://baike.baidu.com/item/%E8%A5%BF%E5%AE%89%E9%A5%AE%E9%A3%9F%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E8%A5%BF%E5%AE%89%E9%A5%AD%E5%BA%84/24545927) | media | 2026-11-09 |
 | 白鹿原·白鹿仓 | [携程·白鹿仓](https://m.ctrip.com/webapp/tnt/list?keyword=白鹿仓) | wiki | 2026-09-23 |
 | 半坡国际艺术区 | [百度百科·半坡国际艺术区](https://baike.baidu.com/item/%E5%8D%8A%E5%9D%A1%E5%9B%BD%E9%99%85%E8%89%BA%E6%9C%AF%E5%8C%BA) | wiki | 2026-09-19 |
 | 长安十二时辰主题街区 | [百度百科·长安十二时辰](https://baike.baidu.com/item/%E9%95%BF%E5%AE%89%E5%8D%81%E4%BA%8C%E6%97%B6%E8%BE%B0) | wiki | 2026-09-19 |
@@ -86,13 +96,15 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E5%9F%8E%E5%A2%99%E6%AC%A3%E8%B5%8F%E5%8D%97%E4%BA%AC%E5%9F%8E%E5%B8%82%E9%A3%8E%E5%85%8902.jpg) |
-| 城市封面 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E5%9F%8E%E5%A2%99%E6%AC%A3%E8%B5%8F%E5%8D%97%E4%BA%AC%E5%9F%8E%E5%B8%82%E9%A3%8E%E5%85%8903.jpg) |
-| 城市封面 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E5%9F%8E%E5%A2%99%E6%AC%A3%E8%B5%8F%E5%8D%97%E4%BA%AC%E5%9F%8E%E5%B8%82%E9%A3%8E%E5%85%8904.jpg) |
+| 城市封面 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:City_wall_of_Xi%27an_51550-Xian_(27959363326).jpg) |
+| 城市封面 | 颐园新居 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Giant_Wild_Goose_Pagoda_20140502.JPG) |
+| 城市封面 | 源義信 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2023-10-10_Shaanxi_History_Museum_%E9%99%9D%E8%A5%BF%E6%AD%B7%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A4%A8_01.jpg) |
 | 西安半坡博物馆 | Wikimedia Commons 贡献者 | CC BY-SA 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Banpo2.jpg) |
 | 西安半坡博物馆 | The original uploader was Dirrival at Chinese Wikipedia. | CC BY-SA 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Banpo_Museus.JPG) |
 | 西安半坡博物馆 | Wikimedia Commons 贡献者 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Pottery_Spinning_Wheel.jpg) |
 | 西安半坡博物馆 | Doctoroftcm | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Red_Pottery_Vase_with_a_Pointed_Bottom.jpg) |
+| 西安半坡博物馆 | momo | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 西安半坡博物馆 | momo from Hong Kong | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 八仙宫 | monicker | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:North_Gate_to_the_Temple_of_Eight_Immortals_%E5%85%AB%E4%BB%99%E5%AE%AB%E5%8C%97%E9%97%A8_-_panoramio.jpg) |
 | 八仙宫 | Acstar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baxian_Gong.jpg) |
 | 八仙宫 | monicker | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Temple_of_Eight_Immortals_-_panoramio.jpg) |
@@ -100,6 +112,10 @@
 | 八仙宫 | monicker | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Temple_of_Eight_Immortals_-_panoramio_-_monicker_(1).jpg) |
 | 西安钟楼·鼓楼 | 归零者 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xi%27an_Bell_Tower_%E8%A5%BF%E5%AE%89%E9%92%9F%E6%A5%BC%E5%A4%9C%E6%99%AF.jpg) |
 | 西安钟楼·鼓楼 | Smwy09 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%99%95%E8%A5%BF%E8%A5%BF%E5%AE%89%E9%92%9F%E6%A5%BC.jpg) |
+| 西安钟楼·鼓楼 | Aaron Zhu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 西安钟楼·鼓楼 | 源義信 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 西安钟楼·鼓楼 | kevinmcgill from Den Bosch, Netherlands | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 西安钟楼·鼓楼 | kevinmcgill from Den Bosch, Netherlands | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 翠华山（终南山） | Caitriana Nicholson | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%BF%A0%E5%8D%8E%E5%B1%B1_(3487673551).jpg) |
 | 大明宫国家遗址公园 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Daming_Palace_National_Heritage_Park_-_Danfeng_Gate_01.jpg) |
 | 大明宫国家遗址公园 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Daming_Palace_National_Heritage_Park_-_Danfeng_Gate_02.jpg) |
@@ -181,6 +197,12 @@
 | 小雁塔·荐福寺 | xiquinhosilva | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Small_Wild_Goose_Pagoda_2024_03.jpg) |
 | 小雁塔·荐福寺 | xiquinhosilva | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Small_Wild_Goose_Pagoda_2024_04.jpg) |
 | 小雁塔·荐福寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20230923_Small_Wild_Goose_Pagoda.jpg) |
+| 太平国家森林公园 | dayu490301 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 太平国家森林公园 | dayu490301 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 太平国家森林公园 | dayu490301 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 太平国家森林公园 | dayu490301 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 太平国家森林公园 | dayu490301 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 太平国家森林公园 | dayu490301 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 秦始皇帝陵博物院（兵马俑） | YikyuenG | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A_Bronze_Carriage_and_Horse_at_Lishan_Garden,_Terracotta_Army_Museum,_Lintong_District,_Xi%27an.jpg) |
 | 秦始皇帝陵博物院（兵马俑） | Huangdan2060 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bronze_sword_of_Qin-style,_Warring_States_period,_Emperor_Qinshihuang%27s_Mausoleum_Site_Museum.jpg) |
 | 秦始皇帝陵博物院（兵马俑） | YikyuenG | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:The_main_gate,_Lishan_Garden,_Terracotta_Army_Museum,_Lintong_District,_Xi%27an.jpg) |
@@ -209,6 +231,8 @@
 | 西安博物院 | 沈澄心 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jianfu_Temple_20240809_12.jpg) |
 | 西安博物院 | 沈澄心 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jianfu_Temple_20240809_14.jpg) |
 | 西安博物院 | 沈澄心 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jianfu_Temple_20240809_17.jpg) |
+| 西影电影博物馆 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 西影电影博物馆 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 杨虎城止园别墅 | K.Y.K.Z.K. | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gate_of_Yang_Hucheng%27s_residence.jpg) |
 | 杨虎城止园别墅 | K.Y.K.Z.K. | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yang_Hucheng%27s_residence.jpg) |
 | 镜糕 | Qianeal | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mirror_cake.jpg) |
@@ -244,13 +268,28 @@
 | 永兴坊 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E5%AE%89%E6%B0%B8%E5%85%B4%E5%9D%8A_03.jpg) |
 | 永兴坊 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E5%AE%89%E6%B0%B8%E5%85%B4%E5%9D%8A_04.jpg) |
 | 永兴坊 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E5%AE%89%E6%B0%B8%E5%85%B4%E5%9D%8A_05.jpg) |
+| 《长恨歌》实景演出 | 源義信 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 《长恨歌》实景演出 | 源義信 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 回民街（北院门） | Qianeal | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Kabob.jpg) |
 | 回民街（北院门） | Qianeal | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Paomo_with_beef.jpg) |
 | 回民街（北院门） | Qianeal | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xi%27an_Muslim_Quarter.jpg) |
 | 回民街（北院门） | Qianeal | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xi%27an_Muslim_Street.jpg) |
+| 回民街（北院门） | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 回民街（北院门） | fading | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 洒金桥 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%8E%B2%E6%B9%96_%E6%B4%92%E9%87%91%E6%A1%A5.jpg) |
 | 顺城巷 | dayu490301 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%97%E9%97%A8%E8%A5%BF%E9%9D%A2%E7%9A%84%E9%A1%BA%E5%9F%8E%E5%B7%B7_-_panoramio.jpg) |
 | 顺城巷 | monicker | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%A1%BA%E5%9F%8E%E5%B7%B7_-_panoramio.jpg) |
 | 顺城巷 | monicker | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%A1%BA%E5%9F%8E%E5%B7%B7_Alley_under_the_city_wall_-_panoramio.jpg) |
 | 顺城巷 | monicker | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%A1%BA%E5%9F%8E%E5%B7%B7_Alley_under_the_city_wall_-_panoramio_-_monicker.jpg) |
 | 顺城巷 | dayu490301 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B0%9A%E6%AD%A6%E9%97%A8%E4%B8%9C%E9%9D%A2%E7%9A%84%E7%9A%84%E9%A1%BA%E5%9F%8E%E5%B7%B7_-_panoramio.jpg) |
 | 顺城巷 | monicker | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%9C%9D%E9%98%B3%E9%97%A8%E5%8C%97%E9%A1%BA%E5%9F%8E%E5%B7%B7_Alley_under_the_city_wall_-_panoramio.jpg) |
+| 书院门文化街 | 源義信 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 书院门文化街 | ·˙·ChinaUli2010·.· | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 书院门文化街 | ·˙·ChinaUli2010·.· | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 书院门文化街 | Gary Todd from Xinzheng, China | CC0 | [wikimedia](https://commons.wikimedia.org/) |
+| 易俗社秦腔 | Kcx36 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 易俗社秦腔 | Kcx36 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 易俗社秦腔 | Kcx36 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 易俗社秦腔 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 易俗社秦腔 | Kcx36 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 易俗社秦腔 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |

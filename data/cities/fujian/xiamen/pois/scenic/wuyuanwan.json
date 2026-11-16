@@ -1,89 +1,121 @@
 {
-  "id": "wuyuanwan",
-  "name": "五缘湾湿地公园",
-  "category": "scenic",
-  "subtype": "park",
-  "summary": "岛东北的一片湿地，红树林、黑天鹅与候鸟都在这一带。",
-  "description": "五缘湾湿地公园在湖里区五缘湾北侧，是城市里保留下来的一片滨海湿地，水面、滩涂与红树林连在一起。园里修了木栈道穿进湿地中间，走一段就有观鸟屋，春秋两季候鸟在这里停，黑天鹅与白鹭常年在水面上。除了湿地那一片，园内还有花溪、迷宫与一片草坪，带小孩的一般在草坪那边。湿地外侧是五缘湾大桥与帆船港，风好的时候海面上全是帆。公园免费，早上来人少，鸟也最活跃。地铁 2 号线有五缘湾站，出来走十来分钟。",
-  "highlights": [
-    "城市里保留的滨海湿地，红树林连着滩涂",
-    "栈道穿进湿地，观鸟屋可看候鸟与黑天鹅",
-    "外侧是五缘湾大桥与帆船港"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.173973,
-      "lat": 24.511024,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "福建省厦门市湖里区五缘湾（汤屿路一带）",
-    "district": "湖里区",
-    "transportTip": "地铁2号线五缘湾站，步行约十分钟",
-    "entrance": {
-      "lng": 118.174279,
-      "lat": 24.511367,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "wuyuanwan",
+ "name": "五缘湾湿地公园",
+ "category": "scenic",
+ "subtype": "park",
+ "summary": "岛东北的一片湿地，红树林、黑天鹅与候鸟都在这一带。",
+ "description": "五缘湾湿地公园在湖里区五缘湾北侧，是城市里保留下来的一片滨海湿地，水面、滩涂与红树林连在一起。园里修了木栈道穿进湿地中间，走一段就有观鸟屋，春秋两季候鸟在这里停，黑天鹅与白鹭常年在水面上。除了湿地那一片，园内还有花溪、迷宫与一片草坪，带小孩的一般在草坪那边。湿地外侧是五缘湾大桥与帆船港，风好的时候海面上全是帆。公园免费，早上来人少，鸟也最活跃。地铁 2 号线有五缘湾站，出来走十来分钟。",
+ "highlights": [
+  "城市里保留的滨海湿地，红树林连着滩涂",
+  "栈道穿进湿地，观鸟屋可看候鸟与黑天鹅",
+  "外侧是五缘湾大桥与帆船港"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.173973,
+   "lat": 24.511024,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约06:30-22:00，以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费（部分游乐项目另计），以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 90-210 分钟",
-    "durationMinutes": [
-      90,
-      210
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "kids",
-    "family",
-    "couple",
-    "solo"
+  "address": "福建省厦门市湖里区五缘湾（汤屿路一带）",
+  "district": "湖里区",
+  "transportTip": "地铁2号线五缘湾站，步行约十分钟",
+  "entrance": {
+   "lng": 118.174279,
+   "lat": 24.511367,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约06:30-22:00，以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "免费（部分游乐项目另计），以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 90-210 分钟",
+  "durationMinutes": [
+   90,
+   210
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/%E5%8E%A6%E9%97%A8%E7%9A%84%E5%87%A4%E5%87%B0%E8%8A%B1%E5%BC%801.jpg/1280px-%E5%8E%A6%E9%97%A8%E7%9A%84%E5%87%A4%E5%87%B0%E8%8A%B1%E5%BC%801.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/%E5%8E%A6%E9%97%A8%E7%9A%84%E5%87%A4%E5%87%B0%E8%8A%B1%E5%BC%801.jpg/1280px-%E5%8E%A6%E9%97%A8%E7%9A%84%E5%87%A4%E5%87%B0%E8%8A%B1%E5%BC%801.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 771,
-      "alt": "厦门的凤凰花开1.jpg",
-      "query": "五缘湾湿地公园 厦门",
-      "credit": {
-        "source": "wikimedia",
-        "author": "向史公哲曰",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E7%9A%84%E5%87%A4%E5%87%B0%E8%8A%B1%E5%BC%801.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
+  "priceLevel": "free"
+ },
+ "audience": [
+  "kids",
+  "family",
+  "couple",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/%E5%8E%A6%E9%97%A8%E7%9A%84%E5%87%A4%E5%87%B0%E8%8A%B1%E5%BC%801.jpg/1280px-%E5%8E%A6%E9%97%A8%E7%9A%84%E5%87%A4%E5%87%B0%E8%8A%B1%E5%BC%801.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/%E5%8E%A6%E9%97%A8%E7%9A%84%E5%87%A4%E5%87%B0%E8%8A%B1%E5%BC%801.jpg/1280px-%E5%8E%A6%E9%97%A8%E7%9A%84%E5%87%A4%E5%87%B0%E8%8A%B1%E5%BC%801.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 771,
+   "alt": "厦门的凤凰花开1.jpg",
+   "query": "五缘湾湿地公园 厦门",
+   "credit": {
+    "source": "wikimedia",
+    "author": "向史公哲曰",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8E%A6%E9%97%A8%E7%9A%84%E5%87%A4%E5%87%B0%E8%8A%B1%E5%BC%801.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "湿地",
+  "观鸟",
+  "红树林"
+ ],
+ "popularity": 81,
+ "sources": [
+  {
+   "title": "百度百科·五缘湾湿地公园",
+   "url": "https://baike.baidu.com/item/%E4%BA%94%E7%BC%98%E6%B9%BE%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "五缘湾湿地公园"
+ },
+ "_geocodeTitle": "五缘湾湿地公园停车场",
+ "_geocodeSuspect": false,
+ "district": "350206",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "生态",
+    "score": 4.5,
+    "note": "红树林连滩涂，黑天鹅常年在水面"
+   },
+   {
+    "label": "观鸟",
+    "score": 4.2,
+    "note": "春秋候鸟停歇，栈道有观鸟屋"
+   },
+   {
+    "label": "蚊虫",
+    "score": 2.9,
+    "note": "湿地蚊多，傍晚尤其厉害"
+   },
+   {
+    "label": "门票",
+    "score": 4.6,
+    "note": "免费开放"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "湿地",
-    "观鸟",
-    "红树林"
-  ],
-  "popularity": 81,
-  "sources": [
-    {
-      "title": "百度百科·五缘湾湿地公园",
-      "url": "https://baike.baidu.com/item/%E4%BA%94%E7%BC%98%E6%B9%BE%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "五缘湾湿地公园"
-  },
-  "_geocodeTitle": "五缘湾湿地公园停车场",
-  "_geocodeSuspect": false,
-  "district": "350206"
+  "body": "城市里留下的一片滨海湿地，木栈道穿进红树林中间，走一段就有观鸟屋，春秋两季候鸟在这里停，黑天鹅和白鹭常年在水面上。免费进，早上人少鸟最活跃，外侧就是五缘湾大桥与帆船港。缺点是湿地蚊虫多，傍晚去没做好防蚊就是一身包；草坪那一段周末遛娃的人挤，想清静要往里走。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [],
+  "avoid": [],
+  "sources": []
+ }
 }

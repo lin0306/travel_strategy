@@ -1,164 +1,196 @@
 {
-  "id": "nanshan-botanical-garden",
-  "name": "南山植物园",
-  "category": "scenic",
-  "subtype": "park",
-  "summary": "南山上的大型植物园，温室里收集热带植物，春天樱花与桃花成片。",
-  "description": "南山植物园在南山风景区里，由蔷薇园、梅园、兰园和展览温室组成，面积很大，是重庆人春季赏花的主要去处之一。温室里收集了大量热带与亚热带植物，外面阴冷的时候进去别有洞天。山上还有一棵树观景台、南山泉水鸡一条街等配套，很多人安排成“上午逛园子，中午吃泉水鸡，傍晚看夜景”的一日线路。从园里望出去能看到渝中半岛的楼群。",
-  "highlights": [
-    "温室收集大量热带植物",
-    "春季樱花桃花成片",
-    "与泉水鸡一条街、观景台串成一日线"
-  ],
-  "location": {
-    "point": {
-      "lng": 106.629441,
-      "lat": 29.555351,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "重庆市南岸区南山公园路",
-    "district": "南岸",
-    "transportTip": "市区打车或自驾上山约 30 分钟；也可乘公交至南山站",
-    "entrance": {
-      "lng": 106.6282,
-      "lat": 29.555835,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "nanshan-botanical-garden",
+ "name": "南山植物园",
+ "category": "scenic",
+ "subtype": "park",
+ "summary": "南山上的大型植物园，温室里收集热带植物，春天樱花与桃花成片。",
+ "description": "南山植物园在南山风景区里，由蔷薇园、梅园、兰园和展览温室组成，面积很大，是重庆人春季赏花的主要去处之一。温室里收集了大量热带与亚热带植物，外面阴冷的时候进去别有洞天。山上还有一棵树观景台、南山泉水鸡一条街等配套，很多人安排成“上午逛园子，中午吃泉水鸡，傍晚看夜景”的一日线路。从园里望出去能看到渝中半岛的楼群。",
+ "highlights": [
+  "温室收集大量热带植物",
+  "春季樱花桃花成片",
+  "与泉水鸡一条街、观景台串成一日线"
+ ],
+ "location": {
+  "point": {
+   "lng": 106.629441,
+   "lat": 29.555351,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 09:00-17:30（以官方公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约 30 元起（温室可能另计，以官方为准）",
-    "ticketRef": 0,
-    "duration": "建议 120-180 分钟",
-    "durationMinutes": [
-      120,
-      180
-    ],
-    "priceLevel": "budget"
+  "address": "重庆市南岸区南山公园路",
+  "district": "南岸",
+  "transportTip": "市区打车或自驾上山约 30 分钟；也可乘公交至南山站",
+  "entrance": {
+   "lng": 106.6282,
+   "lat": 29.555835,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约 09:00-17:30（以官方公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约 30 元起（温室可能另计，以官方为准）",
+  "ticketRef": 0,
+  "duration": "建议 120-180 分钟",
+  "durationMinutes": [
+   120,
+   180
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "kids",
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%90%8A%E5%85%B0_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%90%8A%E5%85%B0_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%90%8A%E5%85%B0_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%90%8A%E5%85%B0_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "南山植物园-吊兰 - panoramio.jpg",
+   "query": "南山植物园 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nyx Ning",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%90%8A%E5%85%B0_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "kids",
-    "couple",
-    "friends"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%90%8A%E5%85%B0_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%90%8A%E5%85%B0_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%90%8A%E5%85%B0_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%90%8A%E5%85%B0_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "南山植物园-吊兰 - panoramio.jpg",
-      "query": "南山植物园 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nyx Ning",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%90%8A%E5%85%B0_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%A4%A7%E9%97%A8_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%A4%A7%E9%97%A8_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%A4%A7%E9%97%A8_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%A4%A7%E9%97%A8_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "南山植物园-大门 - panoramio.jpg",
-      "query": "南山植物园 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nyx Ning",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%A4%A7%E9%97%A8_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%B0%8F%E5%BE%84_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%B0%8F%E5%BE%84_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%B0%8F%E5%BE%84_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%B0%8F%E5%BE%84_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "南山植物园-小径 - panoramio.jpg",
-      "query": "南山植物园 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nyx Ning",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%B0%8F%E5%BE%84_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%99%AF%E8%89%B2_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%99%AF%E8%89%B2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%99%AF%E8%89%B2_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%99%AF%E8%89%B2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "南山植物园-景色 - panoramio.jpg",
-      "query": "南山植物园 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nyx Ning",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%99%AF%E8%89%B2_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%B8%A9%E5%AE%A4-%E5%85%B0%E8%8A%B1_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%B8%A9%E5%AE%A4-%E5%85%B0%E8%8A%B1_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%B8%A9%E5%AE%A4-%E5%85%B0%E8%8A%B1_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%B8%A9%E5%AE%A4-%E5%85%B0%E8%8A%B1_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "南山植物园-温室-兰花 - panoramio.jpg",
-      "query": "南山植物园 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nyx Ning",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%B8%A9%E5%AE%A4-%E5%85%B0%E8%8A%B1_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%B8%A9%E5%AE%A4-%E6%A3%8D%E6%A3%92%E6%A4%B0%E5%AD%90_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%B8%A9%E5%AE%A4-%E6%A3%8D%E6%A3%92%E6%A4%B0%E5%AD%90_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%B8%A9%E5%AE%A4-%E6%A3%8D%E6%A3%92%E6%A4%B0%E5%AD%90_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%B8%A9%E5%AE%A4-%E6%A3%8D%E6%A3%92%E6%A4%B0%E5%AD%90_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "南山植物园-温室-棍棒椰子 - panoramio.jpg",
-      "query": "南山植物园 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nyx Ning",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%B8%A9%E5%AE%A4-%E6%A3%8D%E6%A3%92%E6%A4%B0%E5%AD%90_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "植物园",
-    "赏花",
-    "温室",
-    "南山"
-  ],
-  "popularity": 68,
-  "sources": [
-    {
-      "title": "百度百科·重庆南山植物园",
-      "url": "https://baike.baidu.com/item/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "南山植物园"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%A4%A7%E9%97%A8_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%A4%A7%E9%97%A8_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%A4%A7%E9%97%A8_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%A4%A7%E9%97%A8_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "南山植物园-大门 - panoramio.jpg",
+   "query": "南山植物园 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nyx Ning",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%A4%A7%E9%97%A8_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "重庆南山植物园",
-  "_geocodeSuspect": false,
-  "district": "500108"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%B0%8F%E5%BE%84_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%B0%8F%E5%BE%84_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%B0%8F%E5%BE%84_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%B0%8F%E5%BE%84_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "南山植物园-小径 - panoramio.jpg",
+   "query": "南山植物园 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nyx Ning",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E5%B0%8F%E5%BE%84_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%99%AF%E8%89%B2_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%99%AF%E8%89%B2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%99%AF%E8%89%B2_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%99%AF%E8%89%B2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "南山植物园-景色 - panoramio.jpg",
+   "query": "南山植物园 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nyx Ning",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%99%AF%E8%89%B2_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%B8%A9%E5%AE%A4-%E5%85%B0%E8%8A%B1_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%B8%A9%E5%AE%A4-%E5%85%B0%E8%8A%B1_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%B8%A9%E5%AE%A4-%E5%85%B0%E8%8A%B1_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%B8%A9%E5%AE%A4-%E5%85%B0%E8%8A%B1_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "南山植物园-温室-兰花 - panoramio.jpg",
+   "query": "南山植物园 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nyx Ning",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%B8%A9%E5%AE%A4-%E5%85%B0%E8%8A%B1_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%B8%A9%E5%AE%A4-%E6%A3%8D%E6%A3%92%E6%A4%B0%E5%AD%90_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%B8%A9%E5%AE%A4-%E6%A3%8D%E6%A3%92%E6%A4%B0%E5%AD%90_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%B8%A9%E5%AE%A4-%E6%A3%8D%E6%A3%92%E6%A4%B0%E5%AD%90_-_panoramio.jpg/1280px-%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%B8%A9%E5%AE%A4-%E6%A3%8D%E6%A3%92%E6%A4%B0%E5%AD%90_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "南山植物园-温室-棍棒椰子 - panoramio.jpg",
+   "query": "南山植物园 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nyx Ning",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD-%E6%B8%A9%E5%AE%A4-%E6%A3%8D%E6%A3%92%E6%A4%B0%E5%AD%90_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "植物园",
+  "赏花",
+  "温室",
+  "南山"
+ ],
+ "popularity": 68,
+ "sources": [
+  {
+   "title": "百度百科·重庆南山植物园",
+   "url": "https://baike.baidu.com/item/%E5%8D%97%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9B%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "南山植物园"
+ },
+ "_geocodeTitle": "重庆南山植物园",
+ "_geocodeSuspect": false,
+ "district": "500108",
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "花期",
+    "score": 4.3,
+    "note": "春天樱花桃花成片，其余季节偏平淡"
+   },
+   {
+    "label": "体力",
+    "score": 3.2,
+    "note": "园区面积大、坡多，基本全靠走"
+   },
+   {
+    "label": "温室",
+    "score": 4.2,
+    "note": "热带植物收得密，外面阴冷时反差很大"
+   },
+   {
+    "label": "配套",
+    "score": 3.7,
+    "note": "山下就是泉水鸡一条街，吃饭方便"
+   }
+  ],
+  "body": "南山上的老牌植物园，蔷薇园、梅园、兰园加一座展览温室，春天樱桃花开时确实成片好看；温室里热带亚热带植物收得密，外面阴冷时进去反差很大，出来还能接上一棵树观景台与泉水鸡一条街。短板是季节性太强——过了花期就是普通山地公园，园区大、坡道多，全靠两条腿走，老人小孩容易累；温室可能单独收费，行前先看清票种。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [],
+  "avoid": [],
+  "sources": []
+ }
 }

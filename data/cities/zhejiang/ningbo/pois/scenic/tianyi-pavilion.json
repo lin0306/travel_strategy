@@ -1,83 +1,122 @@
 {
-  "id": "tianyi-pavilion",
-  "name": "天一阁博物院",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "亚洲现存最老的私家藏书楼，明代范钦建的，四百年书没散，现在是博物馆。",
-  "description": "天一阁在海曙区天一街，是明代嘉靖年间兵部右侍郎范钦建的藏书楼，一五六一年前后成，到今天四百多年。它能留下来不是运气：范家定了代不分书、书不出阁的规矩，钥匙分房掌管，要各房到齐才能开，所以书没散。楼是两层硬山建筑，上层通间、下层分六间，取天一生水、地六成之的意思，名字与防火有关。现在是博物院，除了藏书楼，还有尊经阁、假山、池与一批迁建过来的老建筑，院里有碑刻。展的是藏书史、范家的故事与古籍实物。参观一个半到三小时。它与月湖连成一片，出来顺路走湖。",
-  "highlights": [
-    "明代建的私家藏书楼，四百多年书没散",
-    "代不分书、书不出阁，钥匙分房掌管",
-    "楼名取自天一生水，与防火有关"
-  ],
-  "location": {
-    "point": {
-      "lng": 121.539538,
-      "lat": 29.871109,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "浙江省宁波市海曙区天一街10号",
-    "district": "海曙区",
-    "transportTip": "地铁一号线西门口站步行约十分钟；或公交至天一阁站"
+ "id": "tianyi-pavilion",
+ "name": "天一阁博物院",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "亚洲现存最老的私家藏书楼，明代范钦建的，四百年书没散，现在是博物馆。",
+ "description": "天一阁在海曙区天一街，是明代嘉靖年间兵部右侍郎范钦建的藏书楼，一五六一年前后成，到今天四百多年。它能留下来不是运气：范家定了代不分书、书不出阁的规矩，钥匙分房掌管，要各房到齐才能开，所以书没散。楼是两层硬山建筑，上层通间、下层分六间，取天一生水、地六成之的意思，名字与防火有关。现在是博物院，除了藏书楼，还有尊经阁、假山、池与一批迁建过来的老建筑，院里有碑刻。展的是藏书史、范家的故事与古籍实物。参观一个半到三小时。它与月湖连成一片，出来顺路走湖。",
+ "highlights": [
+  "明代建的私家藏书楼，四百多年书没散",
+  "代不分书、书不出阁，钥匙分房掌管",
+  "楼名取自天一生水，与防火有关"
+ ],
+ "location": {
+  "point": {
+   "lng": 121.539538,
+   "lat": 29.871109,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约8:30-17:00（冬季略短），以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "低价票，以官方公告为准",
-    "ticketRef": 0,
-    "duration": "建议 90-210 分钟",
-    "durationMinutes": [
-      90,
-      210
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "family",
-    "elders",
-    "kids"
+  "address": "浙江省宁波市海曙区天一街10号",
+  "district": "海曙区",
+  "transportTip": "地铁一号线西门口站步行约十分钟；或公交至天一阁站"
+ },
+ "practical": {
+  "openHours": "约8:30-17:00（冬季略短），以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "低价票，以官方公告为准",
+  "ticketRef": 0,
+  "duration": "建议 90-210 分钟",
+  "durationMinutes": [
+   90,
+   210
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Banner_of_the_art_gallery_in_Tianyi_Pavilion_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Banner_of_the_art_gallery_in_Tianyi_Pavilion_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 810,
-      "alt": "Banner of the art gallery in Tianyi Pavilion Museum.jpg",
-      "query": "天一阁博物院 宁波",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Wikimedia Commons 贡献者",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Banner_of_the_art_gallery_in_Tianyi_Pavilion_Museum.jpg",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      }
-    }
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "family",
+  "elders",
+  "kids"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Banner_of_the_art_gallery_in_Tianyi_Pavilion_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Banner_of_the_art_gallery_in_Tianyi_Pavilion_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 810,
+   "alt": "Banner of the art gallery in Tianyi Pavilion Museum.jpg",
+   "query": "天一阁博物院 宁波",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Wikimedia Commons 贡献者",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Banner_of_the_art_gallery_in_Tianyi_Pavilion_Museum.jpg",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "藏书楼",
+  "明代",
+  "世界最老"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·天一阁",
+   "url": "https://baike.baidu.com/item/%E5%A4%A9%E4%B8%80%E9%98%81",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "天一阁博物院"
+ },
+ "_geocodeTitle": "天一阁博物院",
+ "_geocodeSuspect": false,
+ "district": "330203",
+ "review": {
+  "score": 4.5,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "展陈",
+    "score": 4.5,
+    "note": "藏书史、范家旧事与古籍实物一起展"
+   },
+   {
+    "label": "院落",
+    "score": 4.4,
+    "note": "藏书楼之外还有尊经阁、假山与池"
+   },
+   {
+    "label": "人流",
+    "score": 3.0,
+    "note": "核心院落窄，团队一进来就满"
+   },
+   {
+    "label": "讲解",
+    "score": 3.8,
+    "note": "展签偏简，不做功课看得浮"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "藏书楼",
-    "明代",
-    "世界最老"
+  "body": "明代范钦建的私家藏书楼，四百多年书没散，靠的是代不分书、书不出阁的家规和分房掌管的钥匙制度。楼名取自天一生水，与防火有关，这些细节在院里都能看到。现在是博物院，除藏书楼还有尊经阁、假山、池与一批迁建来的老建筑，能和月湖串成一片走。缺点是院子本身不大，一小时就能走完，专程为此跑一趟性价比一般；展签偏简，不请讲解容易看得浮。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "看古建",
+   "读书人打卡",
+   "带长辈"
   ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·天一阁",
-      "url": "https://baike.baidu.com/item/%E5%A4%A9%E4%B8%80%E9%98%81",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
+  "avoid": [
+   "追求大展馆体量",
+   "节假日团队高峰"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "天一阁博物院"
-  },
-  "_geocodeTitle": "天一阁博物院",
-  "_geocodeSuspect": false,
-  "district": "330203"
+  "sources": []
+ }
 }

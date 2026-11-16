@@ -3,7 +3,7 @@
   "name": "德福巷咖啡街",
   "category": "food",
   "subtype": "cafe",
-  "summary": "城墙内的咖啡与酒吧一条街，老巷子里的慢节奏。",
+  "summary": "城墙内的老巷，已从酒吧一条街转为咖啡、文创、民宿与特色餐饮的复合街区。",
   "description": "德福巷在碑林区，紧挨着城墙与湘子庙街，是西安最早形成规模的咖啡酒吧街。巷子不长，两侧是青砖老屋改成的咖啡馆、小酒馆与甜品店，很多带院子，下午阳光斜进来的时候最舒服。它离碑林、书院门、城墙都不远，逛完古迹来这里坐一会儿是很顺的安排。夜里酒吧开门，氛围和白天完全不同。",
   "highlights": [
     "城墙内的老巷咖啡街",
@@ -54,9 +54,15 @@
       "url": "https://baike.baidu.com/item/%E5%BE%B7%E7%A6%8F%E5%B7%B7",
       "kind": "wiki",
       "fetchedAt": "2026-09-19"
+    },
+    {
+      "title": "西安新闻网2026-10-16：德福巷已从单一酒吧街转型综合街区",
+      "url": "https://www.xiancn.com/content/2026-10/16/content_7538689.htm",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -65,5 +71,17 @@
   "_geocodeTitle": "德福巷二十二号院",
   "_geocodeSuspect": false,
   "district": "610103",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "一句话简介",
+        "old": "城墙内的咖啡与酒吧一条街，老巷子里的慢节奏。",
+        "new": "城墙内的老巷，已从酒吧一条街转为咖啡、文创、民宿与特色餐饮的复合街区。"
+      }
+    ],
+    "source": "https://www.xiancn.com/content/2026-10/16/content_7538689.htm",
+    "reason": "西安新闻网2026-10-16：德福巷已从单一酒吧街转型综合街区"
+  }
 }

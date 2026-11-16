@@ -1,158 +1,197 @@
 {
-  "id": "zhiweiguan",
-  "name": "知味观(仁和路总店)",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "杭州点心的老字号，小笼、猫耳朵与条头糕都在。",
-  "description": "知味观创建於1913年，是杭州最有名的点心与小吃老字号之一。它的特点是「全」——小笼、猫耳朵、片儿川、条头糕、吴山酥油饼都可以在同一家店里吃到，因此适合作为一次性的清单式体验。总店在仁和路，一楼外卖、楼上堂吃。价格一直在日常区间。",
-  "highlights": [
-    "品种齐全，适合一次尝遍",
-    "猫耳朵是杭州特有的面食",
-    "一楼外卖、楼上堂吃"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.177528,
-      "lat": 30.250068,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "杭州市上城区仁和路83号",
-    "district": "上城区",
-    "transportTip": "地铁1号线龙翔桥站步行"
+ "id": "zhiweiguan",
+ "name": "知味观(仁和路总店)",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "杭州点心的老字号，小笼、猫耳朵与条头糕都在。",
+ "description": "知味观创建於1913年，是杭州最有名的点心与小吃老字号之一。它的特点是「全」——小笼、猫耳朵、片儿川、条头糕、吴山酥油饼都可以在同一家店里吃到，因此适合作为一次性的清单式体验。总店在仁和路，一楼外卖、楼上堂吃。价格一直在日常区间。",
+ "highlights": [
+  "品种齐全，适合一次尝遍",
+  "猫耳朵是杭州特有的面食",
+  "一楼外卖、楼上堂吃"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.177528,
+   "lat": 30.250068,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约06:30-21:00(以门店公告为准)",
-    "openHoursRef": 0,
-    "ticket": "人均约40元起(以门店为准)",
-    "ticketRef": 0,
-    "duration": "建议 45-120 分钟",
-    "durationMinutes": [
-      45,
-      120
-    ],
-    "priceLevel": "budget"
+  "address": "杭州市上城区仁和路83号",
+  "district": "上城区",
+  "transportTip": "地铁1号线龙翔桥站步行"
+ },
+ "practical": {
+  "openHours": "约06:30-21:00(以门店公告为准)",
+  "openHoursRef": 0,
+  "ticket": "人均约40元起(以门店为准)",
+  "ticketRef": 0,
+  "duration": "建议 45-120 分钟",
+  "durationMinutes": [
+   45,
+   120
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "couple",
+  "kids",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/%E6%9D%AD%E5%B7%9E_%E8%A5%BF%E6%B9%96_%E7%9F%A5%E5%91%B3%E8%A7%82%E9%A4%90%E5%8E%85%E6%B8%B8%E8%88%B9%EF%BC%88%E8%BF%9C%E6%99%AF%EF%BC%9A%E9%9B%86%E8%B4%A4%E4%BA%AD%EF%BC%89_-_panoramio.jpg/1280px-%E6%9D%AD%E5%B7%9E_%E8%A5%BF%E6%B9%96_%E7%9F%A5%E5%91%B3%E8%A7%82%E9%A4%90%E5%8E%85%E6%B8%B8%E8%88%B9%EF%BC%88%E8%BF%9C%E6%99%AF%EF%BC%9A%E9%9B%86%E8%B4%A4%E4%BA%AD%EF%BC%89_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/%E6%9D%AD%E5%B7%9E_%E8%A5%BF%E6%B9%96_%E7%9F%A5%E5%91%B3%E8%A7%82%E9%A4%90%E5%8E%85%E6%B8%B8%E8%88%B9%EF%BC%88%E8%BF%9C%E6%99%AF%EF%BC%9A%E9%9B%86%E8%B4%A4%E4%BA%AD%EF%BC%89_-_panoramio.jpg/1280px-%E6%9D%AD%E5%B7%9E_%E8%A5%BF%E6%B9%96_%E7%9F%A5%E5%91%B3%E8%A7%82%E9%A4%90%E5%8E%85%E6%B8%B8%E8%88%B9%EF%BC%88%E8%BF%9C%E6%99%AF%EF%BC%9A%E9%9B%86%E8%B4%A4%E4%BA%AD%EF%BC%89_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 608,
+   "alt": "杭州 西湖 知味观餐厅游船（远景：集贤亭） - panoramio.jpg",
+   "query": "知味观 杭州",
+   "credit": {
+    "source": "wikimedia",
+    "author": "zhiyin586@163.com",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%9D%AD%E5%B7%9E_%E8%A5%BF%E6%B9%96_%E7%9F%A5%E5%91%B3%E8%A7%82%E9%A4%90%E5%8E%85%E6%B8%B8%E8%88%B9%EF%BC%88%E8%BF%9C%E6%99%AF%EF%BC%9A%E9%9B%86%E8%B4%A4%E4%BA%AD%EF%BC%89_-_panoramio.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "kids",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/%E6%9D%AD%E5%B7%9E_%E8%A5%BF%E6%B9%96_%E7%9F%A5%E5%91%B3%E8%A7%82%E9%A4%90%E5%8E%85%E6%B8%B8%E8%88%B9%EF%BC%88%E8%BF%9C%E6%99%AF%EF%BC%9A%E9%9B%86%E8%B4%A4%E4%BA%AD%EF%BC%89_-_panoramio.jpg/1280px-%E6%9D%AD%E5%B7%9E_%E8%A5%BF%E6%B9%96_%E7%9F%A5%E5%91%B3%E8%A7%82%E9%A4%90%E5%8E%85%E6%B8%B8%E8%88%B9%EF%BC%88%E8%BF%9C%E6%99%AF%EF%BC%9A%E9%9B%86%E8%B4%A4%E4%BA%AD%EF%BC%89_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/%E6%9D%AD%E5%B7%9E_%E8%A5%BF%E6%B9%96_%E7%9F%A5%E5%91%B3%E8%A7%82%E9%A4%90%E5%8E%85%E6%B8%B8%E8%88%B9%EF%BC%88%E8%BF%9C%E6%99%AF%EF%BC%9A%E9%9B%86%E8%B4%A4%E4%BA%AD%EF%BC%89_-_panoramio.jpg/1280px-%E6%9D%AD%E5%B7%9E_%E8%A5%BF%E6%B9%96_%E7%9F%A5%E5%91%B3%E8%A7%82%E9%A4%90%E5%8E%85%E6%B8%B8%E8%88%B9%EF%BC%88%E8%BF%9C%E6%99%AF%EF%BC%9A%E9%9B%86%E8%B4%A4%E4%BA%AD%EF%BC%89_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 608,
-      "alt": "杭州 西湖 知味观餐厅游船（远景：集贤亭） - panoramio.jpg",
-      "query": "知味观 杭州",
-      "credit": {
-        "source": "wikimedia",
-        "author": "zhiyin586@163.com",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%9D%AD%E5%B7%9E_%E8%A5%BF%E6%B9%96_%E7%9F%A5%E5%91%B3%E8%A7%82%E9%A4%90%E5%8E%85%E6%B8%B8%E8%88%B9%EF%BC%88%E8%BF%9C%E6%99%AF%EF%BC%9A%E9%9B%86%E8%B4%A4%E4%BA%AD%EF%BC%89_-_panoramio.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/201607_Zhiweiguan_at_Zhijietansi_Lane_%28Weilin%29.jpg/1280px-201607_Zhiweiguan_at_Zhijietansi_Lane_%28Weilin%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/201607_Zhiweiguan_at_Zhijietansi_Lane_%28Weilin%29.jpg/1280px-201607_Zhiweiguan_at_Zhijietansi_Lane_%28Weilin%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "201607 Zhiweiguan at Zhijietansi Lane (Weilin).jpg",
-      "query": "知味观 杭州",
-      "credit": {
-        "source": "wikimedia",
-        "author": "MNXANL",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:201607_Zhiweiguan_at_Zhijietansi_Lane_(Weilin).jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Huntun_Xiaolong.JPG/1280px-Huntun_Xiaolong.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Huntun_Xiaolong.JPG/1280px-Huntun_Xiaolong.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Huntun Xiaolong.JPG",
-      "query": "知味观 杭州",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Original uploader was Hamham at zh.wikipedia",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Huntun_Xiaolong.JPG",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Maoerduo.JPG/1280px-Maoerduo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Maoerduo.JPG/1280px-Maoerduo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Maoerduo.JPG",
-      "query": "知味观 杭州",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Wikimedia Commons 贡献者",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maoerduo.JPG",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Zhi_Wei_Guan%2C_Longjing_Shrimps.jpg/1280px-Zhi_Wei_Guan%2C_Longjing_Shrimps.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Zhi_Wei_Guan%2C_Longjing_Shrimps.jpg/1280px-Zhi_Wei_Guan%2C_Longjing_Shrimps.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Zhi Wei Guan, Longjing Shrimps.jpg",
-      "query": "知味观 杭州",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Gu0427",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhi_Wei_Guan,_Longjing_Shrimps.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Zhiweiguan_20230716_133216.jpg/1280px-Zhiweiguan_20230716_133216.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Zhiweiguan_20230716_133216.jpg/1280px-Zhiweiguan_20230716_133216.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Zhiweiguan 20230716 133216.jpg",
-      "query": "知味观 杭州",
-      "credit": {
-        "source": "wikimedia",
-        "author": "User:CatOnMars",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhiweiguan_20230716_133216.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "点心",
-    "老字号",
-    "小吃"
-  ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·知味观",
-      "url": "https://baike.baidu.com/item/%E7%9F%A5%E5%91%B3%E8%A7%82",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "知味观(仁和路总店)"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/201607_Zhiweiguan_at_Zhijietansi_Lane_%28Weilin%29.jpg/1280px-201607_Zhiweiguan_at_Zhijietansi_Lane_%28Weilin%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/201607_Zhiweiguan_at_Zhijietansi_Lane_%28Weilin%29.jpg/1280px-201607_Zhiweiguan_at_Zhijietansi_Lane_%28Weilin%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "201607 Zhiweiguan at Zhijietansi Lane (Weilin).jpg",
+   "query": "知味观 杭州",
+   "credit": {
+    "source": "wikimedia",
+    "author": "MNXANL",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:201607_Zhiweiguan_at_Zhijietansi_Lane_(Weilin).jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "知味观(天工艺苑店)",
-  "_geocodeSuspect": false,
-  "district": "330102"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Huntun_Xiaolong.JPG/1280px-Huntun_Xiaolong.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Huntun_Xiaolong.JPG/1280px-Huntun_Xiaolong.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Huntun Xiaolong.JPG",
+   "query": "知味观 杭州",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Original uploader was Hamham at zh.wikipedia",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Huntun_Xiaolong.JPG",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Maoerduo.JPG/1280px-Maoerduo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Maoerduo.JPG/1280px-Maoerduo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Maoerduo.JPG",
+   "query": "知味观 杭州",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Wikimedia Commons 贡献者",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maoerduo.JPG",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Zhi_Wei_Guan%2C_Longjing_Shrimps.jpg/1280px-Zhi_Wei_Guan%2C_Longjing_Shrimps.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Zhi_Wei_Guan%2C_Longjing_Shrimps.jpg/1280px-Zhi_Wei_Guan%2C_Longjing_Shrimps.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Zhi Wei Guan, Longjing Shrimps.jpg",
+   "query": "知味观 杭州",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Gu0427",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhi_Wei_Guan,_Longjing_Shrimps.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Zhiweiguan_20230716_133216.jpg/1280px-Zhiweiguan_20230716_133216.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Zhiweiguan_20230716_133216.jpg/1280px-Zhiweiguan_20230716_133216.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Zhiweiguan 20230716 133216.jpg",
+   "query": "知味观 杭州",
+   "credit": {
+    "source": "wikimedia",
+    "author": "User:CatOnMars",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhiweiguan_20230716_133216.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "点心",
+  "老字号",
+  "小吃"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·知味观",
+   "url": "https://baike.baidu.com/item/%E7%9F%A5%E5%91%B3%E8%A7%82",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "知味观(仁和路总店)"
+ },
+ "_geocodeTitle": "知味观(天工艺苑店)",
+ "_geocodeSuspect": false,
+ "district": "330102",
+ "review": {
+  "score": 3.8,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "品种",
+    "score": 4.3,
+    "note": "小吃点心在一家店里能凑齐一整套"
+   },
+   {
+    "label": "口味",
+    "score": 3.6,
+    "note": "稳定但不出彩"
+   },
+   {
+    "label": "人流",
+    "score": 2.8,
+    "note": "正餐时段要排队"
+   },
+   {
+    "label": "价格",
+    "score": 3.8,
+    "note": "日常区间，不算贵也说不上便宜"
+   }
+  ],
+  "body": "杭州点心的老字号，最大的优点是全：小笼、猫耳朵、片儿川、条头糕、酥油饼能在同一家店里一次吃到，适合当一次性的清单式体验。一楼外卖、楼上堂吃，赶时间可以只买点心带走。缺点是游客比例高，正餐时段要排队，出品稳定但谈不上惊喜，很多品类在专门的老店里做得更好。价格在日常区间。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "一次尝多种小吃",
+   "带长辈",
+   "雨天备选"
+  ],
+  "avoid": [
+   "追极致口味",
+   "饭点高峰"
+  ],
+  "sources": []
+ }
 }

@@ -1,68 +1,105 @@
 {
-  "id": "jianghuo",
-  "name": "绍兴酱货(酱鸭·酱肉)",
-  "category": "food",
-  "subtype": "local",
-  "summary": "腊月晒出的酱香，绍兴人的年味。",
-  "description": "绍兴酱货是当地冬季的招牌，酱鸭、酱肉、酱鸡用豆酱反复抹擦、晾晒而成，色泽油亮、咸香浓郁，是绍兴「酱文化」的集中体现。尤其安昌古镇腊月和初春沿河挂满酱货，是最上镜的画面。可真空打包带走，是地道的伴手礼。蒸一蒸就能吃。",
-  "highlights": [
-    "豆酱抹擦晾晒的酱鸭酱肉",
-    "咸香油亮，酱文化代表",
-    "安昌腊月最上镜，可带走"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.495532,
-      "lat": 30.083039,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "绍兴市柯桥区安昌及老城酱铺",
-    "district": "柯桥区",
-    "transportTip": "安昌古镇与老城酱货店"
+ "id": "jianghuo",
+ "name": "绍兴酱货(酱鸭·酱肉)",
+ "category": "food",
+ "subtype": "local",
+ "summary": "腊月晒出的酱香，绍兴人的年味。",
+ "description": "绍兴酱货是当地冬季的招牌，酱鸭、酱肉、酱鸡用豆酱反复抹擦、晾晒而成，色泽油亮、咸香浓郁，是绍兴「酱文化」的集中体现。尤其安昌古镇腊月和初春沿河挂满酱货，是最上镜的画面。可真空打包带走，是地道的伴手礼。蒸一蒸就能吃。",
+ "highlights": [
+  "豆酱抹擦晾晒的酱鸭酱肉",
+  "咸香油亮，酱文化代表",
+  "安昌腊月最上镜，可带走"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.495532,
+   "lat": 30.083039,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约09:00-18:00（以门店为准）",
-    "openHoursRef": 0,
-    "ticket": "人均约40元（礼盒另计），以门店为准",
-    "ticketRef": 0,
-    "duration": "建议 20-45 分钟",
-    "durationMinutes": [
-      20,
-      45
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "elders",
-    "solo",
-    "friends"
+  "address": "绍兴市柯桥区安昌及老城酱铺",
+  "district": "柯桥区",
+  "transportTip": "安昌古镇与老城酱货店"
+ },
+ "practical": {
+  "openHours": "约09:00-18:00（以门店为准）",
+  "openHoursRef": 0,
+  "ticket": "人均约40元（礼盒另计），以门店为准",
+  "ticketRef": 0,
+  "duration": "建议 20-45 分钟",
+  "durationMinutes": [
+   20,
+   45
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "酱货",
-    "酱鸭",
-    "伴手礼"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "elders",
+  "solo",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "酱货",
+  "酱鸭",
+  "伴手礼"
+ ],
+ "popularity": 80,
+ "sources": [
+  {
+   "title": "百度百科·绍兴酱货",
+   "url": "https://baike.baidu.com/item/%E9%85%B1%E8%B4%A7",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "绍兴酱货(酱鸭·酱肉)"
+ },
+ "_geocodeTitle": "柯桥区",
+ "_geocodeSuspect": false,
+ "district": "330603",
+ "_noImage": true,
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.3,
+    "note": "豆酱咸香厚，蒸一蒸就是硬菜"
+   },
+   {
+    "label": "价格",
+    "score": 4.0,
+    "note": "按斤称，礼盒另计"
+   },
+   {
+    "label": "便携",
+    "score": 3.6,
+    "note": "可真空打包，夏天不好带"
+   },
+   {
+    "label": "咸度",
+    "score": 2.7,
+    "note": "咸度高，得配饭"
+   }
   ],
-  "popularity": 80,
-  "sources": [
-    {
-      "title": "百度百科·绍兴酱货",
-      "url": "https://baike.baidu.com/item/%E9%85%B1%E8%B4%A7",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "绍兴酱货是冬天的味道：酱鸭、酱肉用豆酱反复抹、挂在檐下晾，颜色油亮、咸香厚，蒸一蒸切片就是一盘硬菜。安昌古镇腊月沿河挂满，是最上镜的一幕，也能真空打包带走。缺点是咸度高，清淡口味的人吃两口就要配饭；夏天买回去不好存放，气温一高容易返潮，想带手信最好挑秋冬，并让店家抽真空。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "长辈",
+   "独自"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "绍兴酱货(酱鸭·酱肉)"
-  },
-  "_geocodeTitle": "柯桥区",
-  "_geocodeSuspect": false,
-  "district": "330603",
-  "_noImage": true
+  "avoid": [
+   "盛夏购买"
+  ],
+  "sources": []
+ }
 }

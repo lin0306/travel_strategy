@@ -165,11 +165,19 @@ def _norm(name: str) -> str:
     return s.replace(" ", "").replace("　", "")
 
 
-def discover_city(city_id: str, city_name: str, pages: int = 1) -> dict:
-    """拓一座城的候选点位。返回统计字典。"""
+def discover_city(city_id: str, city_name: str, pages: int = 1,
+                  merge: bool = True) -> dict:
+    """拓一座城的候选点位。返回统计字典。
+
+    `merge=True`（默认）时，落盘会与**已有候选清单按标题合并**（本次在前、旧的后），
+    而不是整份重写。理由：本城可能因额度用尽只跑了前几个关键词，整份重写会把
+    上次全量扫出的几十上百条候选**砍成几条**（实测 2026-11-09 广州 pages=1
+    浅扫：候选 229 → 213，日志看着像"正常"，实际是数据退化）。
+    """
     existing = _load_existing(city_id)
     # ★ 本城开工前的账本快照。「有没有真发请求」只能靠它判，见 `_ps_requests()`。
     before_period, before_req = _ps_requests()
+    before_amap = _ap_requests()
     # ★ 归一化索引：图商「青城山风景区」与库内「青城山」是同一处，
     #   精确名去重挡不住（实测成都 5 个国家级景点里3 个被误列为候选）。
     existing_norm = {_norm(n) for n in existing}
@@ -190,81 +198,103 @@ def discover_city(city_id: str, city_name: str, pages: int = 1) -> dict:
         stat["skippedByQuota"] = 1     # ★ 见落盘处的说明：区别于"搜了但没结果"
         return stat
 
-    for guess_cat, kws in KEYWORDS.items():
-        for kw in kws:
-            for page in range(pages):
-                stat["searched"] += 1
-                try:
-                    # ★ 用 get_json 已有的缓存：同一关键字重复跑不重复烧配额
-                    r = geo.place_search(kw, region=city_name,
-                                         page_size=10 * (page + 1), use_cache=True)
-                except Exception as e:                # noqa: BLE001 —— 单个关键字失败不影响整城
-                    print(f"    ⚠️ 「{kw}」失败：{type(e).__name__}: {str(e)[:60]}")
+    pairs = [(cat, kw) for cat, kws in KEYWORDS.items() for kw in kws]
+    for i, (guess_cat, kw) in enumerate(pairs):
+        # ★★ 每个关键词**之前**查一次额度：腾讯一尽就由 `_quota_dead()` 把
+        #   `GEO_PROVIDER` 切成 amap、接着跑本城剩下的关键词（同一份 candidates，
+        #   天然合并，不需要"腾讯跑一半 + 高德跑另一半"两段拼接）。
+        #   两家都尽才中止本城。旧写法只在"空结果"时才查 ⇒ 配额在词与词之间用尽时，
+        #   还要等一次注定 121 的失败请求回来才知道该停（失败也记账）。
+        stat["doneKw"] = i
+        if _quota_dead():
+            stat["quotaHit"] = 1
+            print(f"    ⛔ 两家地点搜索都不可用 ⇒ 中止本城剩余关键字"
+                  f"（已完成 {i}/{len(pairs)} 个，候选 {len(candidates)} 个已保留）")
+            break
+        if not stat.get("switchedAmap") and \
+                (os.environ.get(geo.FORCE_VAR) or "").lower() == "amap":
+            stat["switchedAmap"] = 1
+            stat["switchAtKw"] = i
+            print(f"    ⚠️ 腾讯额度用尽 ⇒ 本城改用高德，从第 {i + 1}/{len(pairs)} 个关键词继续")
+        for page in range(pages):
+            stat["searched"] += 1
+            try:
+                # ★ 用 get_json 已有的缓存：同一关键字重复跑不重复烧配额
+                r = geo.place_search(kw, region=city_name,
+                                     page_size=10 * (page + 1), use_cache=True)
+            except Exception as e:                # noqa: BLE001 —— 单个关键字失败不影响整城
+                print(f"    ⚠️ 「{kw}」失败：{type(e).__name__}: {str(e)[:60]}")
+                continue
+            if not r:
+                # ★★ 关键：空结果要分清是「真没有」还是「配额耗尽」。
+                #   `geoprovider.place_search` 在两家都判死时返回 `[]` 并打一行警告，
+                #   若不区分就会**继续打剩下全部关键字** ——
+                #   实测配额中途耗尽时刷了 10+ 行「两家都不可用」，
+                #   明知失败还在烧请求、还把日志淹掉。
+                #   这里直接**中止本城**：`_quota_dead()` 已经是「腾讯用尽」的判据。
+                if _quota_dead():
+                    # ★ 不直接 return —— 那会**跳过下面的落盘**，
+                    #把这一城已经搜到的候选全丢掉。改成跳出双层循环、
+                    # 走正常落盘流程，只是 `quotaHit` 标记让外层知道该收手了。
+                    stat["quotaHit"] = 1
+                    print(f"    ⛔ 配额见底，中止本城剩余关键字"
+                          f"（已搜 {stat['searched']} 次，候选 {len(candidates)} 个已保留）")
+                    break
+                break
+            if stat.get("quotaHit"):
+                break
+            stat["returned"] += len(r)
+            for x in r:
+                title = (x.get("title") or "").strip()
+                if not title:
                     continue
-                if not r:
-                    # ★★ 关键：空结果要分清是「真没有」还是「配额耗尽」。
-                    #   `geoprovider.place_search` 在两家都判死时返回 `[]` 并打一行警告，
-                    #   若不区分就会**继续打剩下全部关键字** ——
-                    #   实测配额中途耗尽时刷了 10+ 行「两家都不可用」，
-                    #   明知失败还在烧请求、还把日志淹掉。
-                    #   这里直接**中止本城**：`_quota_dead()` 已经是「腾讯用尽」的判据。
-                    if _quota_dead():
-                        # ★ 不直接 return —— 那会**跳过下面的落盘**，
-                        #把这一城已经搜到的候选全丢掉。改成跳出双层循环、
-                        # 走正常落盘流程，只是 `quotaHit` 标记让外层知道该收手了。
-                        stat["quotaHit"] = 1
-                        print(f"    ⛔ 配额见底，中止本城剩余关键字"
-                              f"（已搜 {stat['searched']} 次，候选 {len(candidates)} 个已保留）")
-                        break
-                    break
-                if stat.get("quotaHit"):
-                    break
-                stat["returned"] += len(r)
-                for x in r:
-                    title = (x.get("title") or "").strip()
-                    if not title:
-                        continue
-                    if title in seen:
-                        stat["dup"] += 1
-                        continue
-                    seen.add(title)
+                if title in seen:
+                    stat["dup"] += 1
+                    continue
+                seen.add(title)
 
-                    # ★ 检查**整串** category 而不是只查末级：图商的值是嵌套的
-                    #   （实测 `汽车:加油站:充电站`），只查末级会让「充电站」
-                    #   以「加油站」的身份溜进来（真实踩过）。
-                    cat_raw = x.get("category") or ""
-                    leaf = _leaf(cat_raw)
-                    if any(bad in cat_raw or bad in leaf for bad in EXCLUDE_CATEGORIES):
-                        stat["excluded"] += 1
-                        continue
-                    if any(w in title for w in EXCLUDE_TITLE_WORDS):
-                        stat["excluded"] += 1
-                        continue
-                    if _is_subspot(title):
-                        stat["subspot"] += 1
-                        continue
-                    if title in existing or _norm(title) in existing_norm:
-                        # ★ 记一笔"疑似已在库"：归一化可能把两个不同点位合并了，
-                        #   让人能反查（`exactHit` 为 False 时说明是靠归一化判掉的）
-                        stat["in_lib"] += 1
-                        continue
+                # ★ 检查**整串** category 而不是只查末级：图商的值是嵌套的
+                #   （实测 `汽车:加油站:充电站`），只查末级会让「充电站」
+                #   以「加油站」的身份溜进来（真实踩过）。
+                cat_raw = x.get("category") or ""
+                leaf = _leaf(cat_raw)
+                if any(bad in cat_raw or bad in leaf for bad in EXCLUDE_CATEGORIES):
+                    stat["excluded"] += 1
+                    continue
+                if any(w in title for w in EXCLUDE_TITLE_WORDS):
+                    stat["excluded"] += 1
+                    continue
+                if _is_subspot(title):
+                    stat["subspot"] += 1
+                    continue
+                if title in existing or _norm(title) in existing_norm:
+                    # ★ 记一笔"疑似已在库"：归一化可能把两个不同点位合并了，
+                    #   让人能反查（`exactHit` 为 False 时说明是靠归一化判掉的）
+                    stat["in_lib"] += 1
+                    continue
 
-                    stat["new"] += 1
-                    candidates.append({
-                        "title": title,
-                        "guessCategory": guess_cat,
-                        "matchedKeyword": kw,
-                        "amapCategory": x.get("category") or "",
-                        "address": x.get("address") or "",
-                        "province": x.get("province") or "",
-                        "city": x.get("city") or "",
-                        "district": x.get("district") or "",
-                        "adcode": x.get("adcode"),
-                        "lng": x.get("lng"),
-                        "lat": x.get("lat"),
-                        # ★ 显式标注"还没入库"，避免有人误把它当已收录数据
-                        "status": "candidate",
-                    })
+                stat["new"] += 1
+                candidates.append({
+                    "title": title,
+                    "guessCategory": guess_cat,
+                    "matchedKeyword": kw,
+                    "amapCategory": x.get("category") or "",
+                    "address": x.get("address") or "",
+                    "province": x.get("province") or "",
+                    "city": x.get("city") or "",
+                    "district": x.get("district") or "",
+                    "adcode": x.get("adcode"),
+                    "lng": x.get("lng"),
+                    "lat": x.get("lat"),
+                    # ★ 显式标注"还没入库"，避免有人误把它当已收录数据
+                    "status": "candidate",
+                })
+        # ★ quotaHit 是"两家都不可用"，此时再跑下一个词只会白烧一次失败请求。
+        #   放在关键词层跳出，配合下面的 `else` 记全量完成数。
+        if stat.get("quotaHit"):
+            break
+    else:
+        stat["doneKw"] = len(pairs)
 
     out_path = DISCOVER_DIR / f"{city_id}.json"
     # ★★ 本城**零请求**（全是缓存命中）时**不重写**已存在的 JSON。
@@ -285,10 +315,28 @@ def discover_city(city_id: str, city_name: str, pages: int = 1) -> dict:
     else:
         net_requests = max(0, after_req)
     stat["netRequests"] = net_requests
-    touched = (not same_period) or net_requests > 0
+    after_amap = _ap_requests()
+    stat["netRequestsAmap"] = (max(0, after_amap - before_amap)
+                               if before_amap >= 0 and after_amap >= 0 else -1)
+    touched = (not same_period) or net_requests > 0 or stat["netRequestsAmap"] > 0
     if not touched and out_path.is_file():
         print(f"   （本城全命中缓存，0 次请求 ⇒ 不重写 {out_path.name}）")
         return stat
+    # ★★ 与旧候选合并（本次在前、旧的后），不是整份重写。
+    #   这一城可能只跑了前几个关键词（额度用尽），或只做了一页浅扫 ——
+    #   整份重写会把上次全量扫出的几十上百条砍成几条（实测 2026-11-09 广州
+    #   pages=1：229 → 213，日志看不出异常）。合并保住历史产出。
+    if merge and out_path.is_file():
+        try:
+            prev = json.loads(out_path.read_text(encoding="utf-8")).get("candidates") or []
+        except Exception:                              # noqa: BLE001
+            prev = []
+        if prev:
+            have = {c.get("title") for c in candidates}
+            kept = [c for c in prev if c.get("title") not in have]
+            stat["prevCandidates"] = len(prev)
+            stat["keptPrev"] = len(kept)
+            candidates = candidates + kept
     # ★ `skippedByQuota` 必须落盘：**0 个候选**有两种完全不同的情况——
     #   「配额耗尽、一个请求都没发」 vs 「真去搜了、这城就是没有」。
     #   不区分的话，隔天看清单会误判成"这城没景点"，而真相是没跑成。
@@ -297,7 +345,10 @@ def discover_city(city_id: str, city_name: str, pages: int = 1) -> dict:
         "cityId": city_id,
         "cityName": city_name,
         # ★ 明写"这是候选、不是数据"。build 不会读它（不在 data/cities/ 下）。
-        "note": "候选清单，尚未入库。需要人确认后搬进 pipeline/seeds/{city}.py 再跑 seed。",
+        #   ★★ 2026-11-08 改掉误导性说明：原文让人「搬进 seeds 再跑 seed」，
+        #     而 `run.py seed` 会清空全城 point/images（铁律：绝不跑）。
+        #     候选唯一正确的入库入口是 `tools/intake_candidates.py`（增量入库）。
+        "note": "候选清单，尚未入库。核实后用 tools/intake_candidates.py 增量入库；绝不跑 run.py seed（会清空全城 point 与 images）。",
         "stat": stat,
         "skippedByQuota": bool(stat.get("skippedByQuota")),
         "candidates": candidates,
@@ -324,6 +375,22 @@ def _ps_requests() -> tuple[str, int]:
         return str(daily.get("period") or ""), int(api.get("requests") or 0)
     except Exception:                                  # noqa: BLE001 —— 判据不该崩
         return "", -1
+
+
+def _ap_requests() -> int:
+    """读账本里高德 `amap_place` 的**本月**累计请求数（读不到返回 -1）。
+
+    ★ 为什么要单独看：本城跑到一半腾讯见底、后面几个关键词改用高德，
+      这时 `stat["netRequests"]`（腾讯口径）会明显小于 `searched`。
+      不单独记一笔，日志就会像"漏跑了"。
+    """
+    try:
+        from pipeline.core import fetch
+        monthly = fetch.load_ledger().get("monthly") or {}
+        api = (monthly.get("apis") or {}).get("amap_place") or {}
+        return int(api.get("requests") or 0)
+    except Exception:                                  # noqa: BLE001 —— 判据不该崩
+        return -1
 
 
 def _deadline(until: str) -> datetime:
@@ -456,11 +523,13 @@ def main(argv: list[str] | None = None) -> int:
     pages = 1
     until: str | None = None
     _LOOP = False
-    # ★★ 固定只用腾讯（2026-10-08 用户确认：高德额度已满、不再用）。
-    #   设 `GEO_PROVIDER=tencent` 后，`geoprovider.place_search` 会**直接走腾讯、
-    #   完全不碰高德** —— 省掉"撞腾讯墙 → 再探一次已关的高德门"那几十次白费请求，
-    #   也少刷一屏"两家都不可用"的警告。
-    #   ★ 只在本进程内设（`setdefault` 之外的直接赋值），不污染系统环境变量。
+    # ★★ 默认走腾讯（它 200/日、结果质量更稳），但**不再是"只用腾讯"**：
+    #   · 调用方在腾讯额度偏低时前置 `GEO_PROVIDER=amap`（见 `discover_queue.next`
+    #     的 `AMAP_FALLBACK=1`），这里 `setdefault` 不会覆盖它；
+    #   · 跑的过程中腾讯见底，`_quota_dead()` 会直接把 `GEO_PROVIDER` 改成 amap。
+    #   ★ 2026-10-08 那句「用户确认高德额度已满、不再用」已过期：高德是**月配额**，
+    #     11-01 刷新后实测可用。别按旧注释把切换逻辑改回去。
+    #   ★ 只在本进程内设（`setdefault`），不污染系统环境变量。
     os.environ.setdefault(geo.FORCE_VAR, "tencent")
     i = 0
     while i < len(args):

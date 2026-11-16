@@ -1,161 +1,221 @@
 {
-  "id": "wuhou-shrine",
-  "name": "武侯祠",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "全国唯一君臣合祀的三国祠庙，红墙竹影是成都最出名的机位",
-  "description": "武侯祠是纪念诸葛亮与刘备的祠庙，也是全国唯一一座君臣合祀的庙宇，格局为刘备惠陵、汉昭烈庙与武侯祠三部分并列，现有建筑多为清代重建。不同于其他单纯祭祀武侯的祠堂，这里的刘备殿与诸葛亮殿前后呼应，把蜀汉君臣同祀一堂的做法在国内独一份。真正的流量密码是祠内那条被竹林掩映的红墙夹道——光线透下来时几乎承包了成都所有的“古风汉服”影像作品。相邻即是锦里古街，两个点位通常安排在同一个下午。",
-  "highlights": [
-    "刘备殿与诸葛亮殿君臣合祀，全国独有格局",
-    "祠内红墙夹道掩映竹林，是最经典的古风机位"
-  ],
-  "location": {
-    "point": {
-      "lng": 104.048001,
-      "lat": 30.646202,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "成都市武侯区武侯祠大街 231 号",
-    "district": "武侯区",
-    "transportTip": "地铁 3 号线高升桥站步行约 600 米"
+ "id": "wuhou-shrine",
+ "name": "武侯祠",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "全国唯一君臣合祀的三国祠庙，红墙竹影是成都最出名的机位",
+ "description": "武侯祠是纪念诸葛亮与刘备的祠庙，也是全国唯一一座君臣合祀的庙宇，格局为刘备惠陵、汉昭烈庙与武侯祠三部分并列，现有建筑多为清代重建。不同于其他单纯祭祀武侯的祠堂，这里的刘备殿与诸葛亮殿前后呼应，把蜀汉君臣同祀一堂的做法在国内独一份。真正的流量密码是祠内那条被竹林掩映的红墙夹道——光线透下来时几乎承包了成都所有的“古风汉服”影像作品。相邻即是锦里古街，两个点位通常安排在同一个下午。",
+ "highlights": [
+  "刘备殿与诸葛亮殿君臣合祀，全国独有格局",
+  "祠内红墙夹道掩映竹林，是最经典的古风机位"
+ ],
+ "location": {
+  "point": {
+   "lng": 104.048001,
+   "lat": 30.646202,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 08:00-18:30（淡旺季有调整，以官方为准）",
-    "openHoursRef": 0,
-    "ticket": "约 50 元起",
-    "ticketRef": 0,
-    "duration": "建议 120-180 分钟",
-    "durationMinutes": [
-      120,
-      180
-    ],
-    "priceLevel": "budget"
+  "address": "成都市武侯区武侯祠大街 231 号",
+  "district": "武侯区",
+  "transportTip": "地铁 3 号线高升桥站步行约 600 米"
+ },
+ "practical": {
+  "openHours": "09:00-18:00（17:00 停止入馆；夏季延时开放及惠民活动以馆方公告为准）",
+  "openHoursRef": 0,
+  "ticket": "全价 50 元，半价 25 元，年票 100 元/人/年",
+  "ticketRef": 0,
+  "duration": "建议 120-180 分钟",
+  "durationMinutes": [
+   120,
+   180
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "solo",
+  "couple",
+  "friends",
+  "family"
+ ],
+ "accessible": true,
+ "tips": [
+  "与锦里紧邻，建议下午看祠、傍晚逛锦里",
+  "红墙夹道上午光线更通透"
+ ],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Temple_of_Marquis_Wu%2C_Chengdu%2C_1991_%289964442835%29.jpg/1280px-Temple_of_Marquis_Wu%2C_Chengdu%2C_1991_%289964442835%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Temple_of_Marquis_Wu%2C_Chengdu%2C_1991_%289964442835%29.jpg/1280px-Temple_of_Marquis_Wu%2C_Chengdu%2C_1991_%289964442835%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 803,
+   "alt": "Temple of Marquis Wu, Chengdu, 1991 (9964442835).jpg",
+   "query": "武侯祠 成都",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Gary Todd from Xinzheng, China",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Marquis_Wu,_Chengdu,_1991_(9964442835).jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
   },
-  "audience": [
-    "solo",
-    "couple",
-    "friends",
-    "family"
-  ],
-  "accessible": true,
-  "tips": [
-    "与锦里紧邻，建议下午看祠、傍晚逛锦里",
-    "红墙夹道上午光线更通透"
-  ],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Temple_of_Marquis_Wu%2C_Chengdu%2C_1991_%289964442835%29.jpg/1280px-Temple_of_Marquis_Wu%2C_Chengdu%2C_1991_%289964442835%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Temple_of_Marquis_Wu%2C_Chengdu%2C_1991_%289964442835%29.jpg/1280px-Temple_of_Marquis_Wu%2C_Chengdu%2C_1991_%289964442835%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 803,
-      "alt": "Temple of Marquis Wu, Chengdu, 1991 (9964442835).jpg",
-      "query": "武侯祠 成都",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Gary Todd from Xinzheng, China",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Marquis_Wu,_Chengdu,_1991_(9964442835).jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Temple_of_Marquis_Wu%2C_Chengdu_%2853682689912%29.jpg/1280px-Temple_of_Marquis_Wu%2C_Chengdu_%2853682689912%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Temple_of_Marquis_Wu%2C_Chengdu_%2853682689912%29.jpg/1280px-Temple_of_Marquis_Wu%2C_Chengdu_%2853682689912%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 813,
-      "alt": "Temple of Marquis Wu, Chengdu (53682689912).jpg",
-      "query": "武侯祠 成都",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Jeremy Thompson from Los Angeles, California",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Marquis_Wu,_Chengdu_(53682689912).jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Temple_of_Marquis_Wu%2C_Chengdu_%2853682707992%29.jpg/1280px-Temple_of_Marquis_Wu%2C_Chengdu_%2853682707992%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Temple_of_Marquis_Wu%2C_Chengdu_%2853682707992%29.jpg/1280px-Temple_of_Marquis_Wu%2C_Chengdu_%2853682707992%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 813,
-      "alt": "Temple of Marquis Wu, Chengdu (53682707992).jpg",
-      "query": "武侯祠 成都",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Jeremy Thompson from Los Angeles, California",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Marquis_Wu,_Chengdu_(53682707992).jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Temple_of_Marquis_Wu%2C_Chengdu%2C_Oct-2019_01.jpg/1280px-Temple_of_Marquis_Wu%2C_Chengdu%2C_Oct-2019_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Temple_of_Marquis_Wu%2C_Chengdu%2C_Oct-2019_01.jpg/1280px-Temple_of_Marquis_Wu%2C_Chengdu%2C_Oct-2019_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Temple of Marquis Wu, Chengdu, Oct-2019 01.jpg",
-      "query": "武侯祠 成都",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Mitch Altman",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Marquis_Wu,_Chengdu,_Oct-2019_01.jpg",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Temple_of_Marquis_Wu%2C_Chengdu%2C_Oct-2019_02.jpg/1280px-Temple_of_Marquis_Wu%2C_Chengdu%2C_Oct-2019_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Temple_of_Marquis_Wu%2C_Chengdu%2C_Oct-2019_02.jpg/1280px-Temple_of_Marquis_Wu%2C_Chengdu%2C_Oct-2019_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Temple of Marquis Wu, Chengdu, Oct-2019 02.jpg",
-      "query": "武侯祠 成都",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Mitch Altman",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Marquis_Wu,_Chengdu,_Oct-2019_02.jpg",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Temple_of_Marquis_Wu%2C_Chengdu%2C_Oct-2019_03.jpg/1280px-Temple_of_Marquis_Wu%2C_Chengdu%2C_Oct-2019_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Temple_of_Marquis_Wu%2C_Chengdu%2C_Oct-2019_03.jpg/1280px-Temple_of_Marquis_Wu%2C_Chengdu%2C_Oct-2019_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Temple of Marquis Wu, Chengdu, Oct-2019 03.jpg",
-      "query": "武侯祠 成都",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Mitch Altman",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Marquis_Wu,_Chengdu,_Oct-2019_03.jpg",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "三国",
-    "红墙机位",
-    "市区"
-  ],
-  "popularity": 95,
-  "sources": [
-    {
-      "title": "携程 · 成都武侯祠博物馆",
-      "url": "https://m.ctrip.com/webapp/tnt/list?citytype=dt&keyword=%E6%AD%A6%E4%BE%AF%E7%A5%A0&id=104",
-      "kind": "travel-platform",
-      "fetchedAt": "2026-09-18"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Wuhou Shrine Chengdu",
-    "zh": "成都武侯祠"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Temple_of_Marquis_Wu%2C_Chengdu_%2853682689912%29.jpg/1280px-Temple_of_Marquis_Wu%2C_Chengdu_%2853682689912%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Temple_of_Marquis_Wu%2C_Chengdu_%2853682689912%29.jpg/1280px-Temple_of_Marquis_Wu%2C_Chengdu_%2853682689912%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 813,
+   "alt": "Temple of Marquis Wu, Chengdu (53682689912).jpg",
+   "query": "武侯祠 成都",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Jeremy Thompson from Los Angeles, California",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Marquis_Wu,_Chengdu_(53682689912).jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "武侯祠博物馆",
-  "_geocodeSuspect": false,
-  "district": "510107"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Temple_of_Marquis_Wu%2C_Chengdu_%2853682707992%29.jpg/1280px-Temple_of_Marquis_Wu%2C_Chengdu_%2853682707992%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Temple_of_Marquis_Wu%2C_Chengdu_%2853682707992%29.jpg/1280px-Temple_of_Marquis_Wu%2C_Chengdu_%2853682707992%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 813,
+   "alt": "Temple of Marquis Wu, Chengdu (53682707992).jpg",
+   "query": "武侯祠 成都",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Jeremy Thompson from Los Angeles, California",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Marquis_Wu,_Chengdu_(53682707992).jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Temple_of_Marquis_Wu%2C_Chengdu%2C_Oct-2019_01.jpg/1280px-Temple_of_Marquis_Wu%2C_Chengdu%2C_Oct-2019_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Temple_of_Marquis_Wu%2C_Chengdu%2C_Oct-2019_01.jpg/1280px-Temple_of_Marquis_Wu%2C_Chengdu%2C_Oct-2019_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Temple of Marquis Wu, Chengdu, Oct-2019 01.jpg",
+   "query": "武侯祠 成都",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Mitch Altman",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Marquis_Wu,_Chengdu,_Oct-2019_01.jpg",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Temple_of_Marquis_Wu%2C_Chengdu%2C_Oct-2019_02.jpg/1280px-Temple_of_Marquis_Wu%2C_Chengdu%2C_Oct-2019_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Temple_of_Marquis_Wu%2C_Chengdu%2C_Oct-2019_02.jpg/1280px-Temple_of_Marquis_Wu%2C_Chengdu%2C_Oct-2019_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Temple of Marquis Wu, Chengdu, Oct-2019 02.jpg",
+   "query": "武侯祠 成都",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Mitch Altman",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Marquis_Wu,_Chengdu,_Oct-2019_02.jpg",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Temple_of_Marquis_Wu%2C_Chengdu%2C_Oct-2019_03.jpg/1280px-Temple_of_Marquis_Wu%2C_Chengdu%2C_Oct-2019_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Temple_of_Marquis_Wu%2C_Chengdu%2C_Oct-2019_03.jpg/1280px-Temple_of_Marquis_Wu%2C_Chengdu%2C_Oct-2019_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Temple of Marquis Wu, Chengdu, Oct-2019 03.jpg",
+   "query": "武侯祠 成都",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Mitch Altman",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Marquis_Wu,_Chengdu,_Oct-2019_03.jpg",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "三国",
+  "红墙机位",
+  "市区"
+ ],
+ "popularity": 95,
+ "sources": [
+  {
+   "title": "携程 · 成都武侯祠博物馆",
+   "url": "https://m.ctrip.com/webapp/tnt/list?citytype=dt&keyword=%E6%AD%A6%E4%BE%AF%E7%A5%A0&id=104",
+   "kind": "travel-platform",
+   "fetchedAt": "2026-09-18"
+  },
+  {
+   "title": "成都武侯祠博物馆官网票务页：全价 50 / 半价 25 / 年票 100；09:",
+   "url": "https://www.wuhouci.net.cn/",
+   "kind": "media",
+   "fetchedAt": "2026-11-08"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Wuhou Shrine Chengdu",
+  "zh": "成都武侯祠"
+ },
+ "_geocodeTitle": "武侯祠博物馆",
+ "_geocodeSuspect": false,
+ "district": "510107",
+ "_patrol": {
+  "at": "2026-11-08",
+  "changes": [
+   {
+    "field": "开放时间",
+    "old": "约 08:00-18:30（淡旺季有调整，以官方为准）",
+    "new": "09:00-18:00（17:00 停止入馆；夏季延时开放及惠民活动以馆方公告为准）"
+   },
+   {
+    "field": "门票",
+    "old": "约 50 元起",
+    "new": "全价 50 元，半价 25 元，年票 100 元/人/年"
+   }
+  ],
+  "source": "https://www.wuhouci.net.cn/",
+  "reason": "成都武侯祠博物馆官网票务页：全价 50 / 半价 25 / 年票 100；09:00 开馆 18:00 闭馆 17:00 停止售票（成都市政府同口径）"
+ },
+ "review": {
+  "score": 4.6,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "格局独特",
+    "score": 4.8,
+    "note": "君臣合祀，国内仅此一处"
+   },
+   {
+    "label": "机位",
+    "score": 4.5,
+    "note": "红墙夹道竹林，古风影像的高产地"
+   },
+   {
+    "label": "票价",
+    "score": 3.2,
+    "note": "全价票对只看红墙的人偏贵"
+   },
+   {
+    "label": "人流",
+    "score": 3.0,
+    "note": "节假日夹道人挤人，拍照要排队"
+   }
+  ],
+  "body": "值得进。刘备殿与诸葛亮殿前后呼应，君臣同祀一堂的格局在国内找不出第二处，碑刻与塑像把三国那段讲得比想象中细。红墙夹道确实出片，但这也是缺点所在：假期夹道窄、人挤成一串，想拍空镜只能赶开馆第一批。票价不低，若只打算拍红墙、对三国无感，会觉得性价比一般。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "历史爱好者",
+   "拍古风"
+  ],
+  "avoid": [
+   "只想拍照凑热闹"
+  ],
+  "sources": []
+ }
 }

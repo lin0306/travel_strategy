@@ -1,67 +1,105 @@
 {
-  "id": "eling-testbed2",
-  "name": "鹅岭二厂（TESTBED2）",
-  "category": "hotspot",
-  "subtype": "art",
-  "summary": "老印刷厂改造的文创园，《从你的全世界路过》取景地。",
-  "description": "鹅岭二厂原是民国时期的中央银行印钞厂，后来改作印刷二厂，闲置多年后被改造为文创园。园区保留着旧厂房的混凝土框架与坡道，加进了咖啡馆、买手店、展览空间与涂鸦，新旧叠在一起的效果很适合拍照。顶层与平台能望出去看到江和楼，是园区里最舒服的位置。因电影取景而走红，周末人不少，工作日下午相对安静。",
-  "highlights": [
-    "印钞厂旧址改造，工业感强",
-    "电影取景地，平台可望江",
-    "咖啡与展览空间集中"
-  ],
-  "location": {
-    "point": {
-      "lng": 106.539962,
-      "lat": 29.551142,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "重庆市渝中区鹅岭正街 1 号",
-    "district": "渝中",
-    "transportTip": "轨道交通 1/2 号线鹅岭站，步行约 10 分钟"
+ "id": "eling-testbed2",
+ "name": "鹅岭二厂（TESTBED2）",
+ "category": "hotspot",
+ "subtype": "art",
+ "summary": "老印刷厂改造的文创园，《从你的全世界路过》取景地。",
+ "description": "鹅岭二厂原是民国时期的中央银行印钞厂，后来改作印刷二厂，闲置多年后被改造为文创园。园区保留着旧厂房的混凝土框架与坡道，加进了咖啡馆、买手店、展览空间与涂鸦，新旧叠在一起的效果很适合拍照。顶层与平台能望出去看到江和楼，是园区里最舒服的位置。因电影取景而走红，周末人不少，工作日下午相对安静。",
+ "highlights": [
+  "印钞厂旧址改造，工业感强",
+  "电影取景地，平台可望江",
+  "咖啡与展览空间集中"
+ ],
+ "location": {
+  "point": {
+   "lng": 106.539962,
+   "lat": 29.551142,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 10:00-22:00（店铺时间各异，以现场为准）",
-    "openHoursRef": 0,
-    "ticket": "免费（店铺与展览另计）",
-    "ticketRef": 0,
-    "duration": "建议 90-150 分钟",
-    "durationMinutes": [
-      90,
-      150
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "friends"
+  "address": "重庆市渝中区鹅岭正街 1 号",
+  "district": "渝中",
+  "transportTip": "轨道交通 1/2 号线鹅岭站，步行约 10 分钟"
+ },
+ "practical": {
+  "openHours": "约 10:00-22:00（店铺时间各异，以现场为准）",
+  "openHoursRef": 0,
+  "ticket": "免费（店铺与展览另计）",
+  "ticketRef": 0,
+  "duration": "建议 90-150 分钟",
+  "durationMinutes": [
+   90,
+   150
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "文创园",
-    "工业风",
-    "取景地"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "文创园",
+  "工业风",
+  "取景地"
+ ],
+ "popularity": 86,
+ "sources": [
+  {
+   "title": "百度百科·鹅岭二厂",
+   "url": "https://baike.baidu.com/item/%E9%B9%85%E5%B2%AD%E4%BA%8C%E5%8E%82",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "鹅岭二厂（TESTBED2）"
+ },
+ "_geocodeTitle": "鹅岭二厂停车场",
+ "_geocodeSuspect": false,
+ "district": "500103",
+ "_noImage": true,
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "拍照",
+    "score": 4.4,
+    "note": "旧厂房混凝土框架叠涂鸦和买手店"
+   },
+   {
+    "label": "商业化",
+    "score": 3.0,
+    "note": "店铺更替快，网红店寿命短"
+   },
+   {
+    "label": "人流",
+    "score": 3.2,
+    "note": "周末人多，工作日下午安静"
+   },
+   {
+    "label": "展览",
+    "score": 3.5,
+    "note": "小型展览常换，看运气"
+   }
   ],
-  "popularity": 86,
-  "sources": [
-    {
-      "title": "百度百科·鹅岭二厂",
-      "url": "https://baike.baidu.com/item/%E9%B9%85%E5%B2%AD%E4%BA%8C%E5%8E%82",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
+  "body": "印钞厂的老混凝土框架和坡道都留着，叠上咖啡馆、买手店和涂鸦，新旧咬合的效果在重庆算独一份，顶层平台望出去能看到江和楼。缺点是店铺更替太快，行前被安利的店可能已经换了；周末人流不小，想安静拍照得挑工作日下午。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "拍照",
+   "文创"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "鹅岭二厂（TESTBED2）"
-  },
-  "_geocodeTitle": "鹅岭二厂停车场",
-  "_geocodeSuspect": false,
-  "district": "500103",
-  "_noImage": true
+  "avoid": [
+   "带老人爬坡",
+   "专程购物"
+  ],
+  "sources": []
+ }
 }

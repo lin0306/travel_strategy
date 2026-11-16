@@ -1,156 +1,193 @@
 {
-  "id": "keyan",
-  "name": "柯岩风景区",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "石佛、云骨与鲁镇，自然加人文的大景区。",
-  "description": "柯岩风景区在绍兴柯桥，以采石遗存的奇石（云骨、石佛）和鉴湖、鲁镇三部分组成，是自然与人文合一的大景区。云骨一根石柱拔地而起，石佛依山雕成，都很出片。鲁镇还原了鲁迅笔下的水乡集镇，有演出和市井。建议留大半天，可乘船游鉴湖。距老城约半小时车程。",
-  "highlights": [
-    "采石奇石云骨石佛",
-    "鉴湖鲁镇三部分合一",
-    "鲁迅水乡集镇还原"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.474202,
-      "lat": 30.049039,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "绍兴市柯桥区柯岩大道",
-    "district": "柯桥区",
-    "transportTip": "公交柯岩风景区站；市区打车约30分钟"
+ "id": "keyan",
+ "name": "柯岩风景区",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "石佛、云骨与鲁镇，自然加人文的大景区。",
+ "description": "柯岩风景区在绍兴柯桥，以采石遗存的奇石（云骨、石佛）和鉴湖、鲁镇三部分组成，是自然与人文合一的大景区。云骨一根石柱拔地而起，石佛依山雕成，都很出片。鲁镇还原了鲁迅笔下的水乡集镇，有演出和市井。建议留大半天，可乘船游鉴湖。距老城约半小时车程。",
+ "highlights": [
+  "采石奇石云骨石佛",
+  "鉴湖鲁镇三部分合一",
+  "鲁迅水乡集镇还原"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.474202,
+   "lat": 30.049039,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-17:00（以景区公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约100元起，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 150-300 分钟",
-    "durationMinutes": [
-      150,
-      300
-    ],
-    "priceLevel": "mid"
+  "address": "绍兴市柯桥区柯岩大道",
+  "district": "柯桥区",
+  "transportTip": "公交柯岩风景区站；市区打车约30分钟"
+ },
+ "practical": {
+  "openHours": "约08:00-17:00（以景区公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约100元起，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 150-300 分钟",
+  "durationMinutes": [
+   150,
+   300
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "family",
+  "friends",
+  "couple",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Keyan_Scenic_Area%2C_2021-07-17_01.jpg/1280px-Keyan_Scenic_Area%2C_2021-07-17_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Keyan_Scenic_Area%2C_2021-07-17_01.jpg/1280px-Keyan_Scenic_Area%2C_2021-07-17_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 721,
+   "alt": "Keyan Scenic Area, 2021-07-17 01.jpg",
+   "query": "柯岩风景区 绍兴",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Siyuwj",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Keyan_Scenic_Area,_2021-07-17_01.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "family",
-    "friends",
-    "couple",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Keyan_Scenic_Area%2C_2021-07-17_01.jpg/1280px-Keyan_Scenic_Area%2C_2021-07-17_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Keyan_Scenic_Area%2C_2021-07-17_01.jpg/1280px-Keyan_Scenic_Area%2C_2021-07-17_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 721,
-      "alt": "Keyan Scenic Area, 2021-07-17 01.jpg",
-      "query": "柯岩风景区 绍兴",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Siyuwj",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Keyan_Scenic_Area,_2021-07-17_01.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Keyan_Scenic_Area%2C_2021-07-17_02.jpg/1280px-Keyan_Scenic_Area%2C_2021-07-17_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Keyan_Scenic_Area%2C_2021-07-17_02.jpg/1280px-Keyan_Scenic_Area%2C_2021-07-17_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 721,
-      "alt": "Keyan Scenic Area, 2021-07-17 02.jpg",
-      "query": "柯岩风景区 绍兴",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Siyuwj",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Keyan_Scenic_Area,_2021-07-17_02.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Keyan_Scenic_Area%2C_2021-07-17_03.jpg/1280px-Keyan_Scenic_Area%2C_2021-07-17_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Keyan_Scenic_Area%2C_2021-07-17_03.jpg/1280px-Keyan_Scenic_Area%2C_2021-07-17_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 721,
-      "alt": "Keyan Scenic Area, 2021-07-17 03.jpg",
-      "query": "柯岩风景区 绍兴",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Siyuwj",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Keyan_Scenic_Area,_2021-07-17_03.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Keyan_Cliffside_Inscriptions_01_2017-01.jpg/1280px-Keyan_Cliffside_Inscriptions_01_2017-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Keyan_Cliffside_Inscriptions_01_2017-01.jpg/1280px-Keyan_Cliffside_Inscriptions_01_2017-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Keyan Cliffside Inscriptions 01 2017-01.jpg",
-      "query": "柯岩风景区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "猫猫的日记本",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/%E6%9F%AF%E5%B2%A9%E5%A4%A7%E4%BD%9B_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/%E6%9F%AF%E5%B2%A9%E5%A4%A7%E4%BD%9B_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "柯岩大佛 - panoramio.jpg",
-      "query": "柯岩风景区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "liubozhi",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "奇石",
-    "鉴湖",
-    "鲁镇"
-  ],
-  "popularity": 88,
-  "sources": [
-    {
-      "title": "百度百科·柯岩风景区",
-      "url": "https://baike.baidu.com/item/%E6%9F%AF%E5%B2%A9%E9%A3%8E%E6%99%AF%E5%8C%BA",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-11-01",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "柯岩风景区"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Keyan_Scenic_Area%2C_2021-07-17_02.jpg/1280px-Keyan_Scenic_Area%2C_2021-07-17_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Keyan_Scenic_Area%2C_2021-07-17_02.jpg/1280px-Keyan_Scenic_Area%2C_2021-07-17_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 721,
+   "alt": "Keyan Scenic Area, 2021-07-17 02.jpg",
+   "query": "柯岩风景区 绍兴",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Siyuwj",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Keyan_Scenic_Area,_2021-07-17_02.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "柯岩风景区",
-  "_geocodeSuspect": false,
-  "district": "330603"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Keyan_Scenic_Area%2C_2021-07-17_03.jpg/1280px-Keyan_Scenic_Area%2C_2021-07-17_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Keyan_Scenic_Area%2C_2021-07-17_03.jpg/1280px-Keyan_Scenic_Area%2C_2021-07-17_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 721,
+   "alt": "Keyan Scenic Area, 2021-07-17 03.jpg",
+   "query": "柯岩风景区 绍兴",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Siyuwj",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Keyan_Scenic_Area,_2021-07-17_03.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Keyan_Cliffside_Inscriptions_01_2017-01.jpg/1280px-Keyan_Cliffside_Inscriptions_01_2017-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Keyan_Cliffside_Inscriptions_01_2017-01.jpg/1280px-Keyan_Cliffside_Inscriptions_01_2017-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Keyan Cliffside Inscriptions 01 2017-01.jpg",
+   "query": "柯岩风景区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "猫猫的日记本",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/%E6%9F%AF%E5%B2%A9%E5%A4%A7%E4%BD%9B_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/%E6%9F%AF%E5%B2%A9%E5%A4%A7%E4%BD%9B_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "柯岩大佛 - panoramio.jpg",
+   "query": "柯岩风景区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "liubozhi",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "奇石",
+  "鉴湖",
+  "鲁镇"
+ ],
+ "popularity": 88,
+ "sources": [
+  {
+   "title": "百度百科·柯岩风景区",
+   "url": "https://baike.baidu.com/item/%E6%9F%AF%E5%B2%A9%E9%A3%8E%E6%99%AF%E5%8C%BA",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "柯岩风景区"
+ },
+ "_geocodeTitle": "柯岩风景区",
+ "_geocodeSuspect": false,
+ "district": "330603",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "景观",
+    "score": 4.5,
+    "note": "云骨石柱与石佛最出片"
+   },
+   {
+    "label": "步行",
+    "score": 2.9,
+    "note": "园区大点位散，靠走会累"
+   },
+   {
+    "label": "性价比",
+    "score": 3.4,
+    "note": "园内交通游船另算"
+   },
+   {
+    "label": "时长",
+    "score": 4.2,
+    "note": "值得留大半天"
+   }
+  ],
+  "body": "柯岩的看点是采石留下的两样东西：一根细高的云骨石柱和依山凿出的石佛，配上鉴湖的水与鲁镇的街，构成一个能待大半天的复合景区。云骨那一段最出片。缺点是大门票不便宜，园子大、点位散，全靠走会累，园内交通和游船都要另外算钱；带老人小孩最好先规划动线，否则容易在太阳底下耗掉半天。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "家庭",
+   "朋友"
+  ],
+  "avoid": [
+   "体力差且不愿坐园内车"
+  ],
+  "sources": []
+ }
 }

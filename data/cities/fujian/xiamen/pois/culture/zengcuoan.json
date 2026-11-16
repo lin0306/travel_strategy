@@ -38,7 +38,9 @@
     "family"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "2025 年起曾厝垵社分片更新改造，新村口广场与文青聚落已建成开放，部分巷段仍有施工，店铺照常营业"
+  ],
   "images": [],
   "coverIndex": 0,
   "tags": [
@@ -53,9 +55,15 @@
       "url": "https://baike.baidu.com/item/%E6%9B%BE%E5%8E%9D%E5%9E%B5",
       "kind": "wiki",
       "fetchedAt": "2026-09-28"
+    },
+    {
+      "title": "思明区滨海街道 2026-06 答复函：更新改造推进中",
+      "url": "https://siming.gov.cn/zfxxgkzl/gjdzfxxgk/bhjd/zfxxgkml/zcfg/202606/t20260624_1152382.htm",
+      "kind": "media",
+      "fetchedAt": "2026-11-12"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-12",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -64,5 +72,59 @@
   "_geocodeTitle": "曾厝垵文创街区",
   "_geocodeSuspect": false,
   "district": "350203",
-  "_noImage": true
+  "_noImage": true,
+  "review": {
+    "score": 3.7,
+    "verdict": "顺路看看",
+    "facets": [
+      {
+        "label": "小吃",
+        "score": 3.8,
+        "note": "主街全是小吃与手信铺，选择多但同质"
+      },
+      {
+        "label": "商业化",
+        "score": 2.2,
+        "note": "招牌一层层压在老厝上，几乎看不到原貌"
+      },
+      {
+        "label": "人流",
+        "score": 2.5,
+        "note": "晚上灯牌全开时巷子里走不动"
+      },
+      {
+        "label": "拍照",
+        "score": 3.6,
+        "note": "红砖厝与旧祠堂还夹在支巷里"
+      }
+    ],
+    "body": "原来打鱼的小村改成文创与民宿区，闽南红砖厝和旧祠堂夹在窄巷里，离环岛路与胡里山骑车十分钟，串起来最方便。缺点是商业化很重、同质小铺挤满主街，价格比市区贵一档，高峰期巷子里基本走不动，别指望安静。",
+    "basis": "web",
+    "at": "2026-11-12",
+    "fits": [
+      "住民宿",
+      "吃小吃"
+    ],
+    "avoid": [
+      "想看清静老村"
+    ],
+    "sources": [
+      "https://siming.gov.cn/zfxxgkzl/gjdzfxxgk/bhjd/zfxxgkml/zcfg/202606/t20260624_1152382.htm",
+      "https://cnews.chinadaily.com.cn/a/202608/18/WS6a842257a3105d3d7a27b9c5.html"
+    ]
+  },
+  "_patrol": {
+    "at": "2026-11-12",
+    "changes": [
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [],
+        "new": [
+          "2025 年起曾厝垵社分片更新改造，新村口广场与文青聚落已建成开放，部分巷段仍有施工，店铺照常营业"
+        ]
+      }
+    ],
+    "source": "https://siming.gov.cn/zfxxgkzl/gjdzfxxgk/bhjd/zfxxgkml/zcfg/202606/t20260624_1152382.htm",
+    "reason": "思明区滨海街道 2026-06 答复函：更新改造推进中"
+  }
 }

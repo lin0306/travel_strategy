@@ -1,6 +1,6 @@
 # 郑州 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-04
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-15
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Z Zhang | Unsplash License | [unsplash](https://unsplash.com/photos/a-busy-city-street-G0lQKPbRx-o) |
-| 城市封面 | Glyne Yan | Pexels License | [pexels](https://www.pexels.com/photo/skyline-view-from-balcony-at-dusk-in-guangzhou-35620192/) |
-| 城市封面 | Edward Wallace | Pexels License | [pexels](https://www.pexels.com/photo/aerial-footage-of-a-city-6743444/) |
+| 城市封面 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20190530_Zhengdong_New_Area_CBD.jpg) |
+| 城市封面 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20210220_Henan_Museum_-_main_hall_01.jpg) |
+| 城市封面 | Gary Todd | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2006_Erqi_Tower,_Zhengzhou.jpg) |
 | 碧沙岗公园 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250110_Bishagang_Park_01.jpg) |
 | 碧沙岗公园 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250110_Bishagang_Park_02.jpg) |
 | 碧沙岗公园 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250110_Bishagang_Park_03.jpg) |

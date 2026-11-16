@@ -1,67 +1,99 @@
 {
-  "id": "huangjiu-bowu",
-  "name": "绍兴黄酒博物馆",
-  "category": "scenic",
-  "subtype": "museum",
-  "summary": "黄酒之都的专题馆，从酿造到酒俗。",
-  "description": "绍兴黄酒博物馆在老城，系统展示绍兴黄酒的酿造工艺、器具与酒俗，甚至有地下酒窖可看陈年花雕。它是理解「黄酒之都」的窗口，也能顺带买点正宗黄酒作伴手礼。门票不高，一小时左右。与仓桥直街、鲁迅故里相邻，顺路可进。",
-  "highlights": [
-    "黄酒专题馆，酿造到酒俗",
-    "地下酒窖看陈年花雕",
-    "可买正宗黄酒伴手"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.573923,
-      "lat": 30.012015,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "绍兴市越城区下大路",
-    "district": "越城区",
-    "transportTip": "公交至老城；鲁迅故里步行约10分钟"
+ "id": "huangjiu-bowu",
+ "name": "绍兴黄酒博物馆",
+ "category": "scenic",
+ "subtype": "museum",
+ "summary": "黄酒之都的专题馆，从酿造到酒俗。",
+ "description": "绍兴黄酒博物馆在老城，系统展示绍兴黄酒的酿造工艺、器具与酒俗，甚至有地下酒窖可看陈年花雕。它是理解「黄酒之都」的窗口，也能顺带买点正宗黄酒作伴手礼。门票不高，一小时左右。与仓桥直街、鲁迅故里相邻，顺路可进。",
+ "highlights": [
+  "黄酒专题馆，酿造到酒俗",
+  "地下酒窖看陈年花雕",
+  "可买正宗黄酒伴手"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.573923,
+   "lat": 30.012015,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:30-17:00（以场馆公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约30元起，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "solo",
-    "elders"
+  "address": "绍兴市越城区下大路",
+  "district": "越城区",
+  "transportTip": "公交至老城；鲁迅故里步行约10分钟"
+ },
+ "practical": {
+  "openHours": "约08:30-17:00（以场馆公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约30元起，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "黄酒",
-    "博物馆",
-    "酒俗"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "solo",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "黄酒",
+  "博物馆",
+  "酒俗"
+ ],
+ "popularity": 66,
+ "sources": [
+  {
+   "title": "百度百科·绍兴黄酒",
+   "url": "https://baike.baidu.com/item/%E7%BB%8D%E5%85%B4%E9%BB%84%E9%85%92",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "绍兴黄酒博物馆"
+ },
+ "_geocodeTitle": "中国黄酒博物馆",
+ "_geocodeSuspect": false,
+ "district": "330602",
+ "_noImage": true,
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "展陈",
+    "score": 3.9,
+    "note": "工艺脉络清楚，形式偏传统"
+   },
+   {
+    "label": "特色",
+    "score": 4.3,
+    "note": "地下酒窖看陈年花雕"
+   },
+   {
+    "label": "时长",
+    "score": 3.6,
+    "note": "一小时左右看完"
+   }
   ],
-  "popularity": 66,
-  "sources": [
-    {
-      "title": "百度百科·绍兴黄酒",
-      "url": "https://baike.baidu.com/item/%E7%BB%8D%E5%85%B4%E9%BB%84%E9%85%92",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "绍兴黄酒博物馆把黄酒的酿造工艺、酒器与酒俗讲了一遍，地下酒窖里一排排陈年花雕最有看头，看完再喝一杯，对「黄酒之都」会具体很多。位置在古城内，与仓桥直街、鲁迅故里顺路，一小时够。缺点是展陈偏旧、互动少，对黄酒没兴趣的人会觉得枯燥；门票虽不算贵，性价比一般，讲解还要另约。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "黄酒爱好者",
+   "古城顺路"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "绍兴黄酒博物馆"
-  },
-  "_geocodeTitle": "中国黄酒博物馆",
-  "_geocodeSuspect": false,
-  "district": "330602",
-  "_noImage": true
+  "avoid": [
+   "带低龄孩子"
+  ],
+  "sources": []
+ }
 }

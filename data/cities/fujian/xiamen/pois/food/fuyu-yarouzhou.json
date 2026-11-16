@@ -1,68 +1,118 @@
 {
-  "id": "fuyu-yarouzhou",
-  "name": "浮屿大同鸭肉粥",
-  "category": "food",
-  "subtype": "local",
-  "summary": "1983 年开的老粥铺，鸭肉粥加卤味，开禾路上排队的那家。",
-  "description": "浮屿大同鸭肉粥在开禾路，店名里的浮屿是同安一个老地名，1983 年开到现在，做的是本地人早晚都吃的那一碗粥。粥是用鸭汤熬的米粥，米粒煮到开花，盛出来加鸭肉、鸭肠、鸭胗、鸭血或者卤蛋，撒一层炸红葱头和香菜，配油条吃是标准搭配。卤味单独切盘，卤鸭腿、卤豆干、卤蛋都有。粥是咸的，热，冬天一碗下去最舒服。店里不大，高峰要跟人拼桌。人均二三十块。它就在第八市场边上，逛完菜市场过来吃正好。",
-  "highlights": [
-    "1983 年开的老粥铺，鸭汤熬米粥",
-    "加鸭肉鸭肠鸭胗，撒炸红葱头与香菜",
-    "卤味可单独切盘，配油条是标准搭配"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.075434,
-      "lat": 24.460882,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "福建省厦门市思明区开禾路166号嘉英大厦",
-    "district": "思明区",
-    "transportTip": "地铁1号线镇海路站，步行约十二分钟"
+ "id": "fuyu-yarouzhou",
+ "name": "浮屿大同鸭肉粥",
+ "category": "food",
+ "subtype": "local",
+ "summary": "1983 年开的老粥铺，鸭肉粥加卤味，开禾路上排队的那家。",
+ "description": "浮屿大同鸭肉粥在开禾路，店名里的浮屿是同安一个老地名，1983 年开到现在，做的是本地人早晚都吃的那一碗粥。粥是用鸭汤熬的米粥，米粒煮到开花，盛出来加鸭肉、鸭肠、鸭胗、鸭血或者卤蛋，撒一层炸红葱头和香菜，配油条吃是标准搭配。卤味单独切盘，卤鸭腿、卤豆干、卤蛋都有。粥是咸的，热，冬天一碗下去最舒服。店里不大，高峰要跟人拼桌。人均二三十块。它就在第八市场边上，逛完菜市场过来吃正好。",
+ "highlights": [
+  "1983 年开的老粥铺，鸭汤熬米粥",
+  "加鸭肉鸭肠鸭胗，撒炸红葱头与香菜",
+  "卤味可单独切盘，配油条是标准搭配"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.075434,
+   "lat": 24.460882,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约06:30-次日01:00，以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "人均约30元起，以实际消费为准",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "budget"
+  "address": "福建省厦门市思明区开禾路166号嘉英大厦",
+  "district": "思明区",
+  "transportTip": "地铁1号线镇海路站，步行约十二分钟"
+ },
+ "practical": {
+  "openHours": "24小时营业（门店标价牌与图商 POI 同口径），以门店公告为准",
+  "openHoursRef": 0,
+  "ticket": "人均约30元起，以实际消费为准",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "elders",
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "鸭肉粥",
+  "老店",
+  "第八市场"
+ ],
+ "popularity": 81,
+ "sources": [
+  {
+   "title": "百度百科·鸭肉粥",
+   "url": "https://baike.baidu.com/item/%E9%B8%AD%E8%82%89%E7%B2%A5",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
   },
-  "audience": [
-    "elders",
-    "family",
-    "solo"
+  {
+   "title": "门店明码标价牌实拍写明24小时营业，图商POI亦为全天开放",
+   "url": "http://mp.weixin.qq.com/s?__biz=MzU1NTQ5NDg1MQ==&mid=2247484174&idx=1&sn=e0465018bcba494697f4ede65027b82f",
+   "kind": "media",
+   "fetchedAt": "2026-11-12"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "浮屿大同鸭肉粥"
+ },
+ "_geocodeTitle": "浮屿大同鸭肉粥·始于1983年",
+ "_geocodeSuspect": false,
+ "district": "350203",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-12",
+  "changes": [
+   {
+    "field": "开放时间",
+    "old": "约06:30-次日01:00，以官方公告为准",
+    "new": "24小时营业（门店标价牌与图商 POI 同口径），以门店公告为准"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "鸭肉粥",
-    "老店",
-    "第八市场"
+  "source": "http://mp.weixin.qq.com/s?__biz=MzU1NTQ5NDg1MQ==&mid=2247484174&idx=1&sn=e0465018bcba494697f4ede65027b82f",
+  "reason": "门店明码标价牌实拍写明24小时营业，图商POI亦为全天开放"
+ },
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.4,
+    "note": "鸭汤熬粥，撒炸红葱头最香"
+   },
+   {
+    "label": "时段",
+    "score": 4.6,
+    "note": "全天开，早晚都能吃"
+   },
+   {
+    "label": "环境",
+    "score": 3.0,
+    "note": "店面小，高峰要拼桌"
+   },
+   {
+    "label": "价格",
+    "score": 4.2,
+    "note": "人均二三十，卤味另切"
+   }
   ],
-  "popularity": 81,
-  "sources": [
-    {
-      "title": "百度百科·鸭肉粥",
-      "url": "https://baike.baidu.com/item/%E9%B8%AD%E8%82%89%E7%B2%A5",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "浮屿大同鸭肉粥"
-  },
-  "_geocodeTitle": "浮屿大同鸭肉粥·始于1983年",
-  "_geocodeSuspect": false,
-  "district": "350203",
-  "_noImage": true
+  "body": "开禾路上的老粥铺，鸭汤熬的米粥煮到米粒开花，加鸭肉鸭肠鸭胗，撒一层炸红葱头和香菜，配油条是标准吃法，卤味可以单独切盘。全天营业，逛完八市过来正合适。缺点是店面小、桌少，早市和饭点必须跟人拼桌，粥本身偏咸偏油，口味清淡的人吃半碗就够了。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [],
+  "avoid": [],
+  "sources": []
+ }
 }

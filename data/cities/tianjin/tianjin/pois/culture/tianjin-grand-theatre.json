@@ -16,7 +16,7 @@
       "lat": 39.087342,
       "coordSystem": "GCJ-02"
     },
-    "address": "天津市河西区平江道58号（天津文化中心内）",
+    "address": "天津市河西区平江道58号增1号（天津文化中心内）",
     "district": "河西",
     "transportTip": "地铁5号线/6号线文化中心站，步行约五分钟"
   },
@@ -99,9 +99,15 @@
       "url": "https://baike.baidu.com/item/%E5%A4%A9%E6%B4%A5%E5%A4%A7%E5%89%A7%E9%99%A2",
       "kind": "wiki",
       "fetchedAt": "2026-09-27"
+    },
+    {
+      "title": "天津大剧院·官方公众号售票推文",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU1MTQ5Mzk2MA==&mid=2247710327&idx=3&sn=524ba41e4f572e033db4445571d8249a",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -109,5 +115,17 @@
   },
   "_geocodeTitle": "天津大剧院",
   "_geocodeSuspect": false,
-  "district": "120103"
+  "district": "120103",
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "天津市河西区平江道58号（天津文化中心内）",
+        "new": "天津市河西区平江道58号增1号（天津文化中心内）"
+      }
+    ],
+    "source": "https://mp.weixin.qq.com/s?__biz=MzU1MTQ5Mzk2MA==&mid=2247710327&idx=3&sn=524ba41e4f572e033db4445571d8249a",
+    "reason": "剧院官方公众号页脚地址为平江道58号增1号"
+  }
 }

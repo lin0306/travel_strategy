@@ -1,12 +1,12 @@
 # 黄山 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-01
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
 - 省份：安徽
 - adcode：341000
-- POI 数量：69
+- POI 数量：68
 
 ## 文本内容来源
 
@@ -42,19 +42,23 @@
 | 棠樾牌坊群 | [百度百科·棠樾牌坊群](https://baike.baidu.com/item/%E6%A3%A0%E6%A8%BE%E7%89%8C%E5%9D%8A%E7%BE%A4) | wiki | 2026-10-01 |
 | 屯溪老街 | [百度百科·屯溪老街](https://baike.baidu.com/item/%E5%B1%AF%E6%BA%AA%E8%80%81%E8%A1%97) | wiki | 2026-10-01 |
 | 西递 | [百度百科·西递](https://baike.baidu.com/item/%E8%A5%BF%E9%80%92) | wiki | 2026-10-01 |
+| 西递 | [携程游记·西递纪游（大夫第建于 1691 年、作退一步想题额来历）](https://you.ctrip.com/travels/xidi120557/4175942.html) | travel-platform | 2026-11-09 |
+| 西递 | [携程景点页·西递景区内小景点含大夫第（票 94 元起）](https://m.ctrip.com/webapp/you/gspoi/sight/528/0.html?poiId=80116) | travel-platform | 2026-11-09 |
 | 谢裕大茶文化博物馆 | [黄山市徽州区人民政府·国家 4A 级景区谢裕大茶文化博物馆](https://www.ahhz.gov.cn/mlhz/hzwh/lscs/9213568.html) | gov | 2026-11-03 |
 | 新安江山水画廊 | [百度百科·新安江山水画廊](https://baike.baidu.com/item/%E6%96%B0%E5%AE%89%E6%B1%9F%E5%B1%B1%E6%B0%B4%E7%94%BB%E5%BB%8A) | wiki | 2026-10-01 |
 | 西溪南 | [人民网图游·走进西溪南](http://tuyou.people.com.cn/albumsDetail?pid=15644417) | media | 2026-11-03 |
 | 许村 | [携程·许村](https://you.ctrip.com/sight/shanghai2/55180.html) | travel-platform | 2026-11-03 |
 | 渔梁坝 | [百度百科·渔梁坝](https://baike.baidu.com/item/%E6%B8%94%E6%A2%81%E5%9D%9D) | wiki | 2026-10-01 |
 | 中国状元博物馆 | [休宁县人民政府·状元博物馆免费开放信息](https://www.xiuning.gov.cn/zwgk/grassroots/6616501/10506789.html) | gov | 2026-11-03 |
-| 西递大夫第酒楼 | [百度百科·西递](https://baike.baidu.com/item/%E8%A5%BF%E9%80%92) | wiki | 2026-10-01 |
 | 宏村得月楼 | [百度百科·宏村](https://baike.baidu.com/item/%E5%AE%8F%E6%9D%91) | wiki | 2026-10-01 |
 | 徽商故里 | [百度百科·徽菜](https://baike.baidu.com/item/%E5%BE%BD%E8%8F%9C) | wiki | 2026-10-01 |
+| 徽商故里 | [华山宾馆官网：餐饮以徽商故里品牌为特色，延安路3号老街北入口](http://huashan.hotelhuangshan.cn/cn) | media | 2026-11-09 |
 | 徽茶品鉴馆 | [百度百科·祁门红茶](https://baike.baidu.com/item/%E7%A5%81%E9%97%A8%E7%BA%A2%E8%8C%B6) | wiki | 2026-10-01 |
 | 徽州糕饼 | [百度百科·徽州](https://baike.baidu.com/item/%E5%BE%BD%E5%B7%9E) | wiki | 2026-10-01 |
 | 胡兴堂 | [百度百科·徽菜](https://baike.baidu.com/item/%E5%BE%BD%E8%8F%9C) | wiki | 2026-10-01 |
+| 胡兴堂 | [品牌官网：胡兴堂为徽点伴手礼连锁，兼营徽茶徽菜，非纯徽菜馆](http://bsl.hxt1823.com/info.php?class_id=101101) | media | 2026-11-09 |
 | 老街第一楼 | [百度百科·徽菜](https://baike.baidu.com/item/%E5%BE%BD%E8%8F%9C) | wiki | 2026-10-01 |
+| 老街第一楼 | [门牌247号（老街东口）与两段营业时间经图商POI及多平台互证](https://map.360.cn/site/detail/ca54a412b3ea4711) | media | 2026-11-09 |
 | 老街毛豆腐 | [百度百科·毛豆腐](https://baike.baidu.com/item/%E6%AF%9B%E8%B1%86%E8%85%90) | wiki | 2026-10-01 |
 | 黄山烧饼老店 | [百度百科·黄山烧饼](https://baike.baidu.com/item/%E9%BB%84%E5%B1%B1%E7%83%A7%E9%A5%BC) | wiki | 2026-10-01 |
 | 黎阳街区美食 | [百度百科·屯溪区](https://baike.baidu.com/item/%E5%B1%AF%E6%BA%AA%E5%8C%BA) | wiki | 2026-10-01 |
@@ -77,8 +81,11 @@
 | 新安江滨水步道 | [百度百科·新安江](https://baike.baidu.com/item/%E6%96%B0%E5%AE%89%E6%B1%9F) | wiki | 2026-10-01 |
 | 呈坎晒秋 | [百度百科·呈坎](https://baike.baidu.com/item/%E5%91%88%E5%9D%8E) | wiki | 2026-10-01 |
 | 宏村夜游 | [百度百科·宏村](https://baike.baidu.com/item/%E5%AE%8F%E6%9D%91) | wiki | 2026-10-01 |
-| 大型歌舞《徽韵》 | [百度百科·徽州](https://baike.baidu.com/item/%E5%BE%BD%E5%B7%9E) | wiki | 2026-10-01 |
-| 徽州非遗展示馆 | [百度百科·徽州](https://baike.baidu.com/item/%E5%BE%BD%E5%B7%9E) | wiki | 2026-10-01 |
+| 宏村夜游 | [安徽经济网｜宏村夜游暑期档：花灯巡游每晚19:18-20:18](https://www.ahjjw.com.cn/detail/545822.html) | media | 2026-11-09 |
+| 大型史诗演艺《徽秀》 | [百度百科·徽州](https://baike.baidu.com/item/%E5%BE%BD%E5%B7%9E) | wiki | 2026-10-01 |
+| 大型史诗演艺《徽秀》 | [黄山市教育局｜香茗大剧院上演《徽秀》（2026-03）](https://jyj.huangshan.gov.cn/jyxw/xykx/9322177.html) | media | 2026-11-09 |
+| 黄山市非物质文化遗产馆 | [百度百科·徽州](https://baike.baidu.com/item/%E5%BE%BD%E5%B7%9E) | wiki | 2026-10-01 |
+| 黄山市非物质文化遗产馆 | [屯溪区文旅体局｜关于举办屯溪非遗展示馆建议的答复（2026-07-14）](https://www.ahtxq.gov.cn/zwgk/public/6615872/12154621.html) | media | 2026-11-09 |
 | 黎阳老街 | [百度百科·屯溪区](https://baike.baidu.com/item/%E5%B1%AF%E6%BA%AA%E5%8C%BA) | wiki | 2026-10-01 |
 | 西递夜景 | [百度百科·西递](https://baike.baidu.com/item/%E8%A5%BF%E9%80%92) | wiki | 2026-10-01 |
 
@@ -86,9 +93,8 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Loeng Lig | Unsplash License | [unsplash](https://unsplash.com/photos/city-buildings-under-blue-sky-during-daytime-v5TwMWDaHDI) |
-| 城市封面 | ダモ リ | Unsplash License | [unsplash](https://unsplash.com/photos/a-view-of-a-city-from-the-top-of-a-hill-W2X8IJyI_LU) |
-| 城市封面 | Dave Xu | Unsplash License | [unsplash](https://unsplash.com/photos/city-skyline-during-night-time-0vHPFLQqzSs) |
+| 城市封面 | luchangjiang~鲁昌江 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%BB%84%E5%B1%B1%E5%B8%82%E9%BB%9F%E5%8E%BF%E5%AE%8F%E6%9D%91%EF%BC%8D%E5%8D%97%E6%B9%96%E8%BE%B9%E7%9C%8B%E5%8F%A4%E6%B0%91%E5%B1%85_-_panoramio.jpg) |
+| 城市封面 | Anna Frodesiak | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Xidi_-_05.JPG) |
 | 程大位故居 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Residence_of_Cheng_Dawei_01_2013-04.jpg) |
 | 程大位故居 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Residence_of_Cheng_Dawei_02_2013-04.jpg) |
 | 程大位故居 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Residence_of_Cheng_Dawei_03_2013-04.jpg) |
@@ -147,8 +153,12 @@
 | 屯溪老街 | gdczjkk | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 屯溪老街 | lienyuan lee | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 屯溪老街 | gdczjkk | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
-| 西递 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%89%E5%BE%BD%E9%BB%9F%E5%8E%BF%E4%B8%AD%E5%9F%8E%E5%B1%B1%E5%BA%84%E9%A5%AD%E5%BA%97,_2010-10-19_01.jpg) |
-| 西递 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%89%E5%BE%BD%E9%BB%9F%E5%8E%BF%E4%B8%AD%E5%9F%8E%E5%B1%B1%E5%BA%84%E9%A5%AD%E5%BA%97,_2010-10-19_02.jpg) |
+| 西递 | 牛宇阳 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%89%E5%BE%BD%E8%A5%BF%E9%80%92%E7%99%BD%E5%A2%99.jpg) |
+| 西递 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%89%E5%BE%BD%E9%BB%9F%E5%8E%BF%E8%A5%BF%E9%80%92%E6%9D%91%E9%A3%8E%E5%85%89_-_panoramio_(2).jpg) |
+| 西递 | Smwy09 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%89%E5%BE%BD%EF%BC%8C%E8%A5%BF%E9%80%92%E6%9D%9112.jpg) |
+| 西递 | Smwy09 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%89%E5%BE%BD%EF%BC%8C%E8%A5%BF%E9%80%92%E6%9D%916.jpg) |
+| 西递 | 蒋亦炯 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E9%80%92%E5%8F%A4%E6%9D%91.JPG) |
+| 西递 | 张士锋 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E9%80%92%E6%9D%91.jpg) |
 | 新安江山水画廊 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%96%B0%E5%AE%89%E6%B1%9F%E5%8D%81%E9%87%8C%E5%B1%B1%E6%B0%B4%E7%94%BB%E5%BB%8A_-_panoramio.jpg) |
 | 新安江山水画廊 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%96%B0%E5%AE%89%E6%B1%9F%E5%8D%81%E9%87%8C%E5%B1%B1%E6%B0%B4%E7%94%BB%E5%BB%8A_-_panoramio_(1).jpg) |
 | 新安江山水画廊 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%96%B0%E5%AE%89%E6%B1%9F%E5%8D%81%E9%87%8C%E5%B1%B1%E6%B0%B4%E7%94%BB%E5%BB%8A%E6%B8%B8%E8%88%B9%E7%A0%81%E5%A4%B4_-_panoramio.jpg) |

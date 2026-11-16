@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "广西壮族自治区桂林市象山区日月双塔文化公园",
-    "district": "秀峰区",
+    "district": "象山区",
     "transportTip": "市区步行可达；从正阳步行街约十分钟"
   },
   "practical": {
@@ -86,7 +86,7 @@
       "fetchedAt": "2026-09-30"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-12",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -94,5 +94,37 @@
   },
   "_geocodeTitle": "日月双塔文化公园",
   "_geocodeSuspect": false,
-  "district": "450302"
+  "district": "450304",
+  "review": {
+    "score": 4.0,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "夜景",
+        "score": 4.5,
+        "note": "亮灯后倒影落在杉湖上"
+      },
+      {
+        "label": "登塔",
+        "score": 3.1,
+        "note": "另买票，塔内通道窄"
+      },
+      {
+        "label": "人流",
+        "score": 3.0,
+        "note": "亮灯那一小时岸边挤"
+      }
+    ],
+    "body": "两座塔立在杉湖中间，一座包铜一座琉璃，夜里亮灯后倒影落在水面，是市区最省力的一张夜景，绕湖一圈视角一直在变。缺点是登塔要另外买票、塔内通道窄，亮灯那一小时岸边人挤，想拍空镜得赶在亮灯前后那二十分钟。",
+    "basis": "corpus",
+    "at": "2026-11-12",
+    "fits": [
+      "晚上散步",
+      "拍照"
+    ],
+    "avoid": [
+      "怕人多"
+    ],
+    "sources": []
+  }
 }

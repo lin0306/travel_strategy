@@ -1,73 +1,238 @@
 {
-  "id": "shichahai",
-  "name": "什刹海",
-  "category": "scenic",
-  "subtype": "park",
-  "summary": "前海后海加积水潭,胡同一圈围着水面,是城里最有生活气的一段。",
-  "description": "什刹海由前海、后海、西海(积水潭)三片水面组成,元代这里是京杭大运河的北端码头,商船云集。如今绕湖是酒吧、咖啡与老胡同混杂的区域,银锭桥一侧是水面,一侧是商店与攒动的人群。值得做的是往北岸走去宋庆龄故居、醇亲王府一带,那里安静得多;冬天湖面封冻,滑冰是老北京的一项正经玩法。这里是实现「站着看完一段北京日常」的最低成本方案。",
-  "highlights": [
-    "银锭桥一带最热闹,北岸安静",
-    "冬季湖面滑冰是本地玩法",
-    "与南锣鼓巷、钟鼓楼相连"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.382546,
-      "lat": 39.942644,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "北京市西城区羊房胡同一带",
-    "district": "西城",
-    "transportTip": "地铁8号线什刹海站;或6号线北海北站",
-    "entrance": {
-      "lng": 116.392593,
-      "lat": 39.933535,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "shichahai",
+ "name": "什刹海",
+ "category": "scenic",
+ "subtype": "park",
+ "summary": "前海后海加积水潭,胡同一圈围着水面,是城里最有生活气的一段。",
+ "description": "什刹海由前海、后海、西海(积水潭)三片水面组成,元代这里是京杭大运河的北端码头,商船云集。如今绕湖是酒吧、咖啡与老胡同混杂的区域,银锭桥一侧是水面,一侧是商店与攒动的人群。值得做的是往北岸走去宋庆龄故居、醇亲王府一带,那里安静得多;冬天湖面封冻,滑冰是老北京的一项正经玩法。这里是实现「站着看完一段北京日常」的最低成本方案。",
+ "highlights": [
+  "银锭桥一带最热闹,北岸安静",
+  "冬季湖面滑冰是本地玩法",
+  "与南锣鼓巷、钟鼓楼相连"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.382546,
+   "lat": 39.942644,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 120-300 分钟",
-    "durationMinutes": [
-      120,
-      300
-    ],
-    "priceLevel": "free"
+  "address": "北京市西城区羊房胡同一带",
+  "district": "西城",
+  "transportTip": "地铁8号线什刹海站;或6号线北海北站",
+  "entrance": {
+   "lng": 116.392593,
+   "lat": 39.933535,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "全天开放",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 120-300 分钟",
+  "durationMinutes": [
+   120,
+   300
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "kids",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Shichahai%2C_Xicheng%2C_Beijing%2C_China_-_panoramio_%283%29.jpg/1280px-Shichahai%2C_Xicheng%2C_Beijing%2C_China_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Shichahai%2C_Xicheng%2C_Beijing%2C_China_-_panoramio_%283%29.jpg/1280px-Shichahai%2C_Xicheng%2C_Beijing%2C_China_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Shichahai, Xicheng, Beijing, China - panoramio (3).jpg",
+   "query": "什刹海",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Kuan Li",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "couple",
-    "kids",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "湖区",
-    "胡同",
-    "夜景"
-  ],
-  "popularity": 88,
-  "sources": [
-    {
-      "title": "百度百科·什刹海",
-      "url": "https://baike.baidu.com/item/%E4%BB%80%E5%88%B9%E6%B5%B7",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "什刹海"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Ice_walking_in_Beijing_-_panoramio.jpg/1280px-Ice_walking_in_Beijing_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Ice_walking_in_Beijing_-_panoramio.jpg/1280px-Ice_walking_in_Beijing_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Ice walking in Beijing - panoramio.jpg",
+   "query": "什刹海",
+   "credit": {
+    "source": "wikimedia",
+    "author": "The Erica Chang",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "什刹海-野鸭岛",
-  "_geocodeSuspect": false,
-  "district": "110102",
-  "_noImage": true
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/2016-09-11_Shichahai_Beijing_anagoria_08.jpg/1280px-2016-09-11_Shichahai_Beijing_anagoria_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/2016-09-11_Shichahai_Beijing_anagoria_08.jpg/1280px-2016-09-11_Shichahai_Beijing_anagoria_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "2016-09-11 Shichahai Beijing anagoria 08.jpg",
+   "query": "什刹海",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Anagoria",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016-09-11_Shichahai_Beijing_anagoria_08.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Beijing_Shichahai_1.jpg/1280px-Beijing_Shichahai_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Beijing_Shichahai_1.jpg/1280px-Beijing_Shichahai_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Beijing Shichahai 1.jpg",
+   "query": "什刹海",
+   "credit": {
+    "source": "wikimedia",
+    "author": "FANG Chen",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beijing_Shichahai_1.jpg",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/%E4%BB%80%E5%88%B9%E6%B5%B7_-_panoramio_%2810%29.jpg/1280px-%E4%BB%80%E5%88%B9%E6%B5%B7_-_panoramio_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/%E4%BB%80%E5%88%B9%E6%B5%B7_-_panoramio_%2810%29.jpg/1280px-%E4%BB%80%E5%88%B9%E6%B5%B7_-_panoramio_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "什刹海 - panoramio (10).jpg",
+   "query": "什刹海",
+   "credit": {
+    "source": "wikimedia",
+    "author": "caoyadong",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BB%80%E5%88%B9%E6%B5%B7_-_panoramio_(10).jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/September_Beijing_people_republic_china_-_Master_Asia_Photography_2014_-_panoramio_%281%29.jpg/1280px-September_Beijing_people_republic_china_-_Master_Asia_Photography_2014_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/September_Beijing_people_republic_china_-_Master_Asia_Photography_2014_-_panoramio_%281%29.jpg/1280px-September_Beijing_people_republic_china_-_Master_Asia_Photography_2014_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "September Beijing people republic china - Master Asia Photography 2014 - panoramio (1).jpg",
+   "query": "什刹海",
+   "credit": {
+    "source": "wikimedia",
+    "author": "pictures Jettcom",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "front"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "湖区",
+  "胡同",
+  "夜景"
+ ],
+ "popularity": 88,
+ "sources": [
+  {
+   "title": "百度百科·什刹海",
+   "url": "https://baike.baidu.com/item/%E4%BB%80%E5%88%B9%E6%B5%B7",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "什刹海"
+ },
+ "_geocodeTitle": "什刹海-野鸭岛",
+ "_geocodeSuspect": false,
+ "district": "110102",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "氛围",
+    "score": 4.5,
+    "note": "水面、胡同和居民生活混在一起，是最低成本看到北京日常的地方"
+   },
+   {
+    "label": "人流",
+    "score": 2.7,
+    "note": "银锭桥与酒吧街一侧傍晚极吵，北岸安静得多"
+   },
+   {
+    "label": "花费",
+    "score": 4.6,
+    "note": "公共湖区免费，沿湖随便走"
+   },
+   {
+    "label": "夜景",
+    "score": 4.2,
+    "note": "入夜沿岸亮灯，水面反光好看，但人也最多"
+   }
+  ],
+  "body": "什刹海最舒服的用法是沿湖走：前海热闹、后海松散，往北岸宋庆龄故居、醇亲王府一带走人立刻少下来，那片才是老城生活的样子；冬天湖面封冻还能滑冰，是本地人的正经玩法。缺点也明显——银锭桥两侧和酒吧街一到傍晚就喧闹得厉害，商业化重，沿街拉客的不少。想安静就别在主街停留，直接往北岸绕。免费，随时可来，是什刹海最大的优点。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "散步",
+   "看胡同",
+   "傍晚"
+  ],
+  "avoid": [
+   "想清静又停在银锭桥",
+   "怕吵"
+  ],
+  "sources": []
+ }
 }

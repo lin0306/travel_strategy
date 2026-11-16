@@ -1,6 +1,6 @@
 # 扬州 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-04
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Glyne Yan | Pexels License | [pexels](https://www.pexels.com/photo/skyline-view-from-balcony-at-dusk-in-guangzhou-35620192/) |
-| 城市封面 | Acres of Film | Pexels License | [pexels](https://www.pexels.com/photo/hangzhou-century-center-skyscrapers-20602220/) |
-| 城市封面 | JUNLIN ZOU | Pexels License | [pexels](https://www.pexels.com/photo/urban-landscape-view-framed-by-window-37449699/) |
+| 城市封面 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Five_Pavilion_Bridge1.jpg) |
+| 城市封面 | 螺钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Slender_West_Lake.jpg) |
+| 城市封面 | Gisling | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:He_Garden.jpg) |
 | 扬州八怪纪念馆 | huangdan2060 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Eight_Eccentrics_of_Yangzhou_1.jpg) |
 | 扬州八怪纪念馆 | huangdan2060 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Eight_Eccentrics_of_Yangzhou_3.jpg) |
 | 大明寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250716_Daming_Temple_01.jpg) |

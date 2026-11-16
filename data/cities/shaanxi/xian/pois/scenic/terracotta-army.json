@@ -1,114 +1,146 @@
 {
-  "id": "terracotta-army",
-  "name": "秦始皇帝陵博物院（兵马俑）",
-  "category": "scenic",
-  "subtype": "museum",
-  "summary": "秦始皇陵的陪葬坑，八千陶俑列阵，二十世纪最重要的考古发现之一。",
-  "description": "兵马俑是秦始皇陵东侧的三座陪葬坑，1974 年被当地农民打井时挖出，此后陆续发掘出陶俑、陶马约八千件，车马器与兵器数以万计。一号坑是步兵与车兵混合的主力军阵，规模最大；二号坑是弩兵、骑兵与战车混编，布局最复杂；三号坑面积最小，被认为是军幕（指挥部）。陶俑原本都施彩绘，出土后接触空气迅速氧化褪色，所以至今仍有部分区域保护性停挖。参观务必请讲解，自己看容易只看到“一堆泥人”。",
-  "highlights": [
-    "三个坑各有阵型，一号坑规模最大",
-    "陶俑原本彩绘，出土即氧化",
-    "务必请讲解，否则看不出门道"
-  ],
-  "location": {
-    "point": {
-      "lng": 109.282223,
-      "lat": 34.386947,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "西安市临潼区秦陵北路",
-    "district": "临潼区",
-    "transportTip": "西安站乘游 5（306）路直达；或城东客运站班车"
+ "id": "terracotta-army",
+ "name": "秦始皇帝陵博物院（兵马俑）",
+ "category": "scenic",
+ "subtype": "museum",
+ "summary": "秦始皇陵的陪葬坑，八千陶俑列阵，二十世纪最重要的考古发现之一。",
+ "description": "兵马俑是秦始皇陵东侧的三座陪葬坑，1974 年被当地农民打井时挖出，此后陆续发掘出陶俑、陶马约八千件，车马器与兵器数以万计。一号坑是步兵与车兵混合的主力军阵，规模最大；二号坑是弩兵、骑兵与战车混编，布局最复杂；三号坑面积最小，被认为是军幕（指挥部）。陶俑原本都施彩绘，出土后接触空气迅速氧化褪色，所以至今仍有部分区域保护性停挖。参观务必请讲解，自己看容易只看到“一堆泥人”。",
+ "highlights": [
+  "三个坑各有阵型，一号坑规模最大",
+  "陶俑原本彩绘，出土即氧化",
+  "务必请讲解，否则看不出门道"
+ ],
+ "location": {
+  "point": {
+   "lng": 109.282223,
+   "lat": 34.386947,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 08:30-17:30（淡旺季有调整，以官方公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约 120 元起（旺季价格，以官方为准）",
-    "ticketRef": 0,
-    "duration": "建议 180-300 分钟",
-    "durationMinutes": [
-      180,
-      300
-    ],
-    "priceLevel": "mid"
+  "address": "西安市临潼区秦陵北路",
+  "district": "临潼区",
+  "transportTip": "西安站乘游 5（306）路直达；或城东客运站班车"
+ },
+ "practical": {
+  "openHours": "约 08:30-17:30（淡旺季有调整，以官方公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约 120 元起（旺季价格，以官方为准）",
+  "ticketRef": 0,
+  "duration": "建议 180-300 分钟",
+  "durationMinutes": [
+   180,
+   300
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "kids",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/A_Bronze_Carriage_and_Horse_at_Lishan_Garden%2C_Terracotta_Army_Museum%2C_Lintong_District%2C_Xi%27an.jpg/1280px-A_Bronze_Carriage_and_Horse_at_Lishan_Garden%2C_Terracotta_Army_Museum%2C_Lintong_District%2C_Xi%27an.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/A_Bronze_Carriage_and_Horse_at_Lishan_Garden%2C_Terracotta_Army_Museum%2C_Lintong_District%2C_Xi%27an.jpg/1280px-A_Bronze_Carriage_and_Horse_at_Lishan_Garden%2C_Terracotta_Army_Museum%2C_Lintong_District%2C_Xi%27an.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 715,
+   "alt": "A Bronze Carriage and Horse at Lishan Garden, Terracotta Army Museum, Lintong District, Xi'an.jpg",
+   "query": "秦始皇帝陵博物院",
+   "credit": {
+    "source": "wikimedia",
+    "author": "YikyuenG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Bronze_Carriage_and_Horse_at_Lishan_Garden,_Terracotta_Army_Museum,_Lintong_District,_Xi%27an.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "kids",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/A_Bronze_Carriage_and_Horse_at_Lishan_Garden%2C_Terracotta_Army_Museum%2C_Lintong_District%2C_Xi%27an.jpg/1280px-A_Bronze_Carriage_and_Horse_at_Lishan_Garden%2C_Terracotta_Army_Museum%2C_Lintong_District%2C_Xi%27an.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/A_Bronze_Carriage_and_Horse_at_Lishan_Garden%2C_Terracotta_Army_Museum%2C_Lintong_District%2C_Xi%27an.jpg/1280px-A_Bronze_Carriage_and_Horse_at_Lishan_Garden%2C_Terracotta_Army_Museum%2C_Lintong_District%2C_Xi%27an.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 715,
-      "alt": "A Bronze Carriage and Horse at Lishan Garden, Terracotta Army Museum, Lintong District, Xi'an.jpg",
-      "query": "秦始皇帝陵博物院",
-      "credit": {
-        "source": "wikimedia",
-        "author": "YikyuenG",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Bronze_Carriage_and_Horse_at_Lishan_Garden,_Terracotta_Army_Museum,_Lintong_District,_Xi%27an.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Bronze_sword_of_Qin-style%2C_Warring_States_period%2C_Emperor_Qinshihuang%27s_Mausoleum_Site_Museum.jpg/1280px-Bronze_sword_of_Qin-style%2C_Warring_States_period%2C_Emperor_Qinshihuang%27s_Mausoleum_Site_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Bronze_sword_of_Qin-style%2C_Warring_States_period%2C_Emperor_Qinshihuang%27s_Mausoleum_Site_Museum.jpg/1280px-Bronze_sword_of_Qin-style%2C_Warring_States_period%2C_Emperor_Qinshihuang%27s_Mausoleum_Site_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Bronze sword of Qin-style, Warring States period, Emperor Qinshihuang's Mausoleum Site Museum.jpg",
-      "query": "秦始皇帝陵博物院",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Huangdan2060",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bronze_sword_of_Qin-style,_Warring_States_period,_Emperor_Qinshihuang%27s_Mausoleum_Site_Museum.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/The_main_gate%2C_Lishan_Garden%2C_Terracotta_Army_Museum%2C_Lintong_District%2C_Xi%27an.jpg/1280px-The_main_gate%2C_Lishan_Garden%2C_Terracotta_Army_Museum%2C_Lintong_District%2C_Xi%27an.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/The_main_gate%2C_Lishan_Garden%2C_Terracotta_Army_Museum%2C_Lintong_District%2C_Xi%27an.jpg/1280px-The_main_gate%2C_Lishan_Garden%2C_Terracotta_Army_Museum%2C_Lintong_District%2C_Xi%27an.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 715,
-      "alt": "The main gate, Lishan Garden, Terracotta Army Museum, Lintong District, Xi'an.jpg",
-      "query": "秦始皇帝陵博物院",
-      "credit": {
-        "source": "wikimedia",
-        "author": "YikyuenG",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_main_gate,_Lishan_Garden,_Terracotta_Army_Museum,_Lintong_District,_Xi%27an.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "世界遗产",
-    "考古",
-    "秦代",
-    "必去"
-  ],
-  "popularity": 98,
-  "sources": [
-    {
-      "title": "百度百科·兵马俑",
-      "url": "https://baike.baidu.com/item/%E5%85%B5%E9%A9%AC%E4%BF%91",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "秦始皇帝陵博物院（兵马俑）"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Bronze_sword_of_Qin-style%2C_Warring_States_period%2C_Emperor_Qinshihuang%27s_Mausoleum_Site_Museum.jpg/1280px-Bronze_sword_of_Qin-style%2C_Warring_States_period%2C_Emperor_Qinshihuang%27s_Mausoleum_Site_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Bronze_sword_of_Qin-style%2C_Warring_States_period%2C_Emperor_Qinshihuang%27s_Mausoleum_Site_Museum.jpg/1280px-Bronze_sword_of_Qin-style%2C_Warring_States_period%2C_Emperor_Qinshihuang%27s_Mausoleum_Site_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Bronze sword of Qin-style, Warring States period, Emperor Qinshihuang's Mausoleum Site Museum.jpg",
+   "query": "秦始皇帝陵博物院",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Huangdan2060",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bronze_sword_of_Qin-style,_Warring_States_period,_Emperor_Qinshihuang%27s_Mausoleum_Site_Museum.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
   },
-  "_geocodeTitle": "秦始皇帝陵博物院",
-  "_geocodeSuspect": false,
-  "district": "610115"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/The_main_gate%2C_Lishan_Garden%2C_Terracotta_Army_Museum%2C_Lintong_District%2C_Xi%27an.jpg/1280px-The_main_gate%2C_Lishan_Garden%2C_Terracotta_Army_Museum%2C_Lintong_District%2C_Xi%27an.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/The_main_gate%2C_Lishan_Garden%2C_Terracotta_Army_Museum%2C_Lintong_District%2C_Xi%27an.jpg/1280px-The_main_gate%2C_Lishan_Garden%2C_Terracotta_Army_Museum%2C_Lintong_District%2C_Xi%27an.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 715,
+   "alt": "The main gate, Lishan Garden, Terracotta Army Museum, Lintong District, Xi'an.jpg",
+   "query": "秦始皇帝陵博物院",
+   "credit": {
+    "source": "wikimedia",
+    "author": "YikyuenG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_main_gate,_Lishan_Garden,_Terracotta_Army_Museum,_Lintong_District,_Xi%27an.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "世界遗产",
+  "考古",
+  "秦代",
+  "必去"
+ ],
+ "popularity": 98,
+ "sources": [
+  {
+   "title": "百度百科·兵马俑",
+   "url": "https://baike.baidu.com/item/%E5%85%B5%E9%A9%AC%E4%BF%91",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "秦始皇帝陵博物院（兵马俑）"
+ },
+ "_geocodeTitle": "秦始皇帝陵博物院",
+ "_geocodeSuspect": false,
+ "district": "610115",
+ "review": {
+  "score": 4.7,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "规模",
+    "score": 4.9,
+    "note": "一号坑军阵排开，开阔感是照片给不了的"
+   },
+   {
+    "label": "讲解依赖",
+    "score": 3.5,
+    "note": "不请讲解基本只是看一堆泥人"
+   },
+   {
+    "label": "观展动线",
+    "score": 3.6,
+    "note": "坑位分散，来回走不少路，旺季更乱"
+   },
+   {
+    "label": "拍摄",
+    "score": 3.3,
+    "note": "馆内偏暗、玻璃反光重，大半拍糊"
+   }
+  ],
+  "body": "一号坑的那片开阔感是照片给不了的，几千个陶俑按阵型排开，站在边上会安静下来。三个坑各有各的看头，二号坑的编组最复杂，三号坑最小但被认为是军幕。真正的问题是不请讲解几乎白来，自己看就是一堆泥人；坑与坑之间分散，来回走不少路，旺季人流一压，观展节奏全乱。馆内光线偏暗、玻璃反光重，隔着玻璃拍照大多糊掉。留足三小时，避开上午的团队高峰更从容。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [],
+  "avoid": [],
+  "sources": []
+ }
 }

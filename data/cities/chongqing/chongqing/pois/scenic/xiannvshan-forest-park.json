@@ -1,73 +1,111 @@
 {
-  "id": "xiannvshan-forest-park",
-  "name": "仙女山国家森林公园",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "武隆山上的南国牧场，草原、林海与雪场四时各异，与天生三桥同在武隆。",
-  "description": "仙女山国家森林公园在武隆区仙女山镇，平均海拔约 1900 米，山顶是重庆少见的高山草原，夏天均温二十出头，是主城人避暑露营的老牌去处；冬季草原变雪场，可以滑雪。园区很大，观光小火车串联大草原、跑马场等主要区域。它与天生三桥、龙水峡地缝同属武隆喀斯特世界自然遗产地，从主城自驾约 2.5 小时，当天往返略赶，住一晚更从容。旁边的《印象·武隆》夜场演出也可顺路安排。",
-  "highlights": [
-    "高山草原，重庆少见的地貌",
-    "夏季避暑、冬季滑雪四季皆可",
-    "与天生三桥同属武隆世界自然遗产地"
-  ],
-  "location": {
-    "point": {
-      "lng": 107.740841,
-      "lat": 29.498261,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "重庆市武隆区双河乡仙女山国家森林公园",
-    "district": "武隆",
-    "transportTip": "主城自驾约 2.5 小时；或高铁至武隆站转景区专线约 30 分钟",
-    "entrance": {
-      "lng": 107.743158,
-      "lat": 29.506098,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "xiannvshan-forest-park",
+ "name": "仙女山国家森林公园",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "武隆山上的南国牧场，草原、林海与雪场四时各异，与天生三桥同在武隆。",
+ "description": "仙女山国家森林公园在武隆区仙女山镇，平均海拔约 1900 米，山顶是重庆少见的高山草原，夏天均温二十出头，是主城人避暑露营的老牌去处；冬季草原变雪场，可以滑雪。园区很大，观光小火车串联大草原、跑马场等主要区域。它与天生三桥、龙水峡地缝同属武隆喀斯特世界自然遗产地，从主城自驾约 2.5 小时，当天往返略赶，住一晚更从容。旁边的《印象·武隆》夜场演出也可顺路安排。",
+ "highlights": [
+  "高山草原，重庆少见的地貌",
+  "夏季避暑、冬季滑雪四季皆可",
+  "与天生三桥同属武隆世界自然遗产地"
+ ],
+ "location": {
+  "point": {
+   "lng": 107.740841,
+   "lat": 29.498261,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放（小火车与游乐项目约 08:00-17:00，以官方为准）",
-    "openHoursRef": 0,
-    "ticket": "50 元（园内小火车、滑雪等项目另计，以官方为准）",
-    "ticketRef": 0,
-    "duration": "建议 180-300 分钟",
-    "durationMinutes": [
-      180,
-      300
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "kids",
-    "friends"
+  "address": "重庆市武隆区双河乡仙女山国家森林公园",
+  "district": "武隆",
+  "transportTip": "主城自驾约 2.5 小时；或高铁至武隆站转景区专线约 30 分钟",
+  "entrance": {
+   "lng": 107.743158,
+   "lat": 29.506098,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "全天开放（小火车与游乐项目约 08:00-17:00，以官方为准）",
+  "openHoursRef": 0,
+  "ticket": "50 元（园内小火车、滑雪等项目另计，以官方为准）",
+  "ticketRef": 0,
+  "duration": "建议 180-300 分钟",
+  "durationMinutes": [
+   180,
+   300
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "草原",
-    "避暑",
-    "滑雪",
-    "5A"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "kids",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "草原",
+  "避暑",
+  "滑雪",
+  "5A"
+ ],
+ "popularity": 85,
+ "sources": [
+  {
+   "title": "武隆旅游网",
+   "url": "https://www.wlkst.com/pjdq.jhtml",
+   "kind": "official",
+   "fetchedAt": "2026-09-23"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "仙女山国家森林公园"
+ },
+ "_geocodeTitle": "仙女山国家森林公园",
+ "_geocodeSuspect": false,
+ "district": "500156",
+ "_noImage": true,
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.6,
+    "note": "山顶高山草原，重庆少见的地貌"
+   },
+   {
+    "label": "体力",
+    "score": 3.0,
+    "note": "园区很大，靠走会累"
+   },
+   {
+    "label": "配套",
+    "score": 3.8,
+    "note": "观光小火车串主要区域，需另买票"
+   },
+   {
+    "label": "时长",
+    "score": 4.0,
+    "note": "和天生三桥串起来住一晚更从容"
+   }
   ],
-  "popularity": 85,
-  "sources": [
-    {
-      "title": "武隆旅游网",
-      "url": "https://www.wlkst.com/pjdq.jhtml",
-      "kind": "official",
-      "fetchedAt": "2026-09-23"
-    }
+  "body": "海拔近两千米的山顶摊开一片草原，夏天均温二十出头，是主城人避暑露营的老去处，冬天草场变雪场还能滑雪。园区太大，靠走会很累，观光小火车是刚需但要另外买票，节假日排队上车也费时间。和天生三桥同属武隆遗产地，住一晚比当天往返从容得多。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "避暑",
+   "亲子"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "仙女山国家森林公园"
-  },
-  "_geocodeTitle": "仙女山国家森林公园",
-  "_geocodeSuspect": false,
-  "district": "500156",
-  "_noImage": true
+  "avoid": [
+   "当天往返",
+   "不带车"
+  ],
+  "sources": []
+ }
 }

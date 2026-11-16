@@ -1,192 +1,229 @@
 {
-  "id": "jinshanling-sunrise",
-  "name": "金山岭长城日出",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "金山岭长城看日出的机位，敌楼剪影连成一线，是长城摄影的名场面。",
-  "description": "金山岭看日出是长城摄影里有名的一个场面 —— 太阳从山后升起来，敌楼一座接一座变成剪影，墙顺着山脊一直伸出去。要拍这个得住在附近或很早出发，赶在天亮前上墙。秋冬空气干净，光最好。风大，多穿。",
-  "highlights": [
-    "日出时敌楼剪影连成一线",
-    "长城摄影名场面，需赶天亮前上墙",
-    "秋冬空气净光最好，风大多穿"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.254676,
-      "lat": 40.683892,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市滦平县金山岭长城",
-    "district": "滦平县",
-    "transportTip": "滦平金山岭，建议附近住宿"
+ "id": "jinshanling-sunrise",
+ "name": "金山岭长城日出",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "金山岭长城看日出的机位，敌楼剪影连成一线，是长城摄影的名场面。",
+ "description": "金山岭看日出是长城摄影里有名的一个场面 —— 太阳从山后升起来，敌楼一座接一座变成剪影，墙顺着山脊一直伸出去。要拍这个得住在附近或很早出发，赶在天亮前上墙。秋冬空气干净，光最好。风大，多穿。",
+ "highlights": [
+  "日出时敌楼剪影连成一线",
+  "长城摄影名场面，需赶天亮前上墙",
+  "秋冬空气净光最好，风大多穿"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.254676,
+   "lat": 40.683892,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "日出前到达",
-    "openHoursRef": 0,
-    "ticket": "含长城门票",
-    "ticketRef": 0,
-    "duration": "建议 120-240 分钟",
-    "durationMinutes": [
-      120,
-      240
-    ],
-    "priceLevel": "free"
+  "address": "河北省承德市滦平县金山岭长城",
+  "district": "滦平县",
+  "transportTip": "滦平金山岭，建议附近住宿"
+ },
+ "practical": {
+  "openHours": "日出前到达",
+  "openHoursRef": 0,
+  "ticket": "含长城门票",
+  "ticketRef": 0,
+  "duration": "建议 120-240 分钟",
+  "durationMinutes": [
+   120,
+   240
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/China_20150428_102023_%2816870018044%29.jpg/1280px-China_20150428_102023_%2816870018044%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/China_20150428_102023_%2816870018044%29.jpg/1280px-China_20150428_102023_%2816870018044%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "China 20150428 102023 (16870018044).jpg",
+   "query": "金山岭长城日出",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Yiannis Theologos Michellis",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC0",
+    "attributionRequired": false
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "couple",
-    "friends"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/China_20150428_102023_%2816870018044%29.jpg/1280px-China_20150428_102023_%2816870018044%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/China_20150428_102023_%2816870018044%29.jpg/1280px-China_20150428_102023_%2816870018044%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "China 20150428 102023 (16870018044).jpg",
-      "query": "金山岭长城日出",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Yiannis Theologos Michellis",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC0",
-        "attributionRequired": false
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Great_Wall_of_China_at_Jinshanling_in_September_2026_07.jpg/1280px-Great_Wall_of_China_at_Jinshanling_in_September_2026_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Great_Wall_of_China_at_Jinshanling_in_September_2026_07.jpg/1280px-Great_Wall_of_China_at_Jinshanling_in_September_2026_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Great Wall of China at Jinshanling in September 2026 07.jpg",
-      "query": "金山岭长城日出",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Renek78",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC0",
-        "attributionRequired": false
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Great_Wall_of_China_at_Jinshanling_in_September_2026_06.jpg/1280px-Great_Wall_of_China_at_Jinshanling_in_September_2026_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Great_Wall_of_China_at_Jinshanling_in_September_2026_06.jpg/1280px-Great_Wall_of_China_at_Jinshanling_in_September_2026_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Great Wall of China at Jinshanling in September 2026 06.jpg",
-      "query": "金山岭长城日出",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Renek78",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC0",
-        "attributionRequired": false
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Great_Wall_of_China_at_Jinshanling_in_September_2026_05.jpg/1280px-Great_Wall_of_China_at_Jinshanling_in_September_2026_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Great_Wall_of_China_at_Jinshanling_in_September_2026_05.jpg/1280px-Great_Wall_of_China_at_Jinshanling_in_September_2026_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Great Wall of China at Jinshanling in September 2026 05.jpg",
-      "query": "金山岭长城日出",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Renek78",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC0",
-        "attributionRequired": false
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Great_Wall_of_China_at_Jinshanling_in_September_2026_08.jpg/1280px-Great_Wall_of_China_at_Jinshanling_in_September_2026_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Great_Wall_of_China_at_Jinshanling_in_September_2026_08.jpg/1280px-Great_Wall_of_China_at_Jinshanling_in_September_2026_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Great Wall of China at Jinshanling in September 2026 08.jpg",
-      "query": "金山岭长城日出",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Renek78",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC0",
-        "attributionRequired": false
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Great_Wall_of_China_at_Jinshanling_in_September_2026_09.jpg/1280px-Great_Wall_of_China_at_Jinshanling_in_September_2026_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Great_Wall_of_China_at_Jinshanling_in_September_2026_09.jpg/1280px-Great_Wall_of_China_at_Jinshanling_in_September_2026_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Great Wall of China at Jinshanling in September 2026 09.jpg",
-      "query": "金山岭长城日出",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Renek78",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC0",
-        "attributionRequired": false
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "日出",
-    "长城",
-    "敌楼"
-  ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·金山岭长城",
-      "url": "https://baike.baidu.com/item/%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-11-03",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "金山岭长城日出"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Great_Wall_of_China_at_Jinshanling_in_September_2026_07.jpg/1280px-Great_Wall_of_China_at_Jinshanling_in_September_2026_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Great_Wall_of_China_at_Jinshanling_in_September_2026_07.jpg/1280px-Great_Wall_of_China_at_Jinshanling_in_September_2026_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Great Wall of China at Jinshanling in September 2026 07.jpg",
+   "query": "金山岭长城日出",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Renek78",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC0",
+    "attributionRequired": false
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "金山岭长城",
-  "district": "130824"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Great_Wall_of_China_at_Jinshanling_in_September_2026_06.jpg/1280px-Great_Wall_of_China_at_Jinshanling_in_September_2026_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Great_Wall_of_China_at_Jinshanling_in_September_2026_06.jpg/1280px-Great_Wall_of_China_at_Jinshanling_in_September_2026_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Great Wall of China at Jinshanling in September 2026 06.jpg",
+   "query": "金山岭长城日出",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Renek78",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC0",
+    "attributionRequired": false
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Great_Wall_of_China_at_Jinshanling_in_September_2026_05.jpg/1280px-Great_Wall_of_China_at_Jinshanling_in_September_2026_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Great_Wall_of_China_at_Jinshanling_in_September_2026_05.jpg/1280px-Great_Wall_of_China_at_Jinshanling_in_September_2026_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Great Wall of China at Jinshanling in September 2026 05.jpg",
+   "query": "金山岭长城日出",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Renek78",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC0",
+    "attributionRequired": false
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Great_Wall_of_China_at_Jinshanling_in_September_2026_08.jpg/1280px-Great_Wall_of_China_at_Jinshanling_in_September_2026_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Great_Wall_of_China_at_Jinshanling_in_September_2026_08.jpg/1280px-Great_Wall_of_China_at_Jinshanling_in_September_2026_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Great Wall of China at Jinshanling in September 2026 08.jpg",
+   "query": "金山岭长城日出",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Renek78",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC0",
+    "attributionRequired": false
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Great_Wall_of_China_at_Jinshanling_in_September_2026_09.jpg/1280px-Great_Wall_of_China_at_Jinshanling_in_September_2026_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Great_Wall_of_China_at_Jinshanling_in_September_2026_09.jpg/1280px-Great_Wall_of_China_at_Jinshanling_in_September_2026_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Great Wall of China at Jinshanling in September 2026 09.jpg",
+   "query": "金山岭长城日出",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Renek78",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC0",
+    "attributionRequired": false
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "日出",
+  "长城",
+  "敌楼"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·金山岭长城",
+   "url": "https://baike.baidu.com/item/%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "金山岭长城日出"
+ },
+ "_geocodeTitle": "金山岭长城",
+ "district": "130824",
+ "review": {
+  "score": 4.6,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "景观",
+    "score": 4.8,
+    "note": "日出时敌楼剪影连成一线"
+   },
+   {
+    "label": "体力",
+    "score": 2.6,
+    "note": "天亮前上墙，坡陡路黑"
+   },
+   {
+    "label": "交通",
+    "score": 2.4,
+    "note": "离市区偏，得住附近"
+   },
+   {
+    "label": "季节",
+    "score": 4.5,
+    "note": "秋冬空气干净，光最好"
+   }
+  ],
+  "body": "长城摄影里的名场面，太阳从山后升起来，敌楼一座接一座变成剪影，墙顺着山脊一直伸出去，值得为它早起一次。代价是交通偏，得住到附近再摸黑上墙，山上风大又冷，穿少了撑不到日出。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "摄影",
+   "徒步"
+  ],
+  "avoid": [
+   "怕早起"
+  ],
+  "sources": []
+ }
 }

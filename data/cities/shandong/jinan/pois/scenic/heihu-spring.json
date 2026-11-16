@@ -1,181 +1,219 @@
 {
-  "id": "heihu-spring",
-  "name": "黑虎泉",
-  "category": "scenic",
-  "subtype": "park",
-  "summary": "护城河边的名泉，三只石虎头喷出泉水，泉群一路连成环城带。",
-  "description": "黑虎泉在济南老城东南角的护城河边，泉水从三只石雕虎头口里喷涌，水声轰轰。泉池边总排着提水桶的市民，接水回家泡茶煮饭，这是济南最日常的画面。沿着护城河走，一路还有琵琶泉、九女泉、金线泉接连不断，组成环城泉群。清早和傍晚最热闹。这一段免费，随时可来，走完正好接上解放阁。",
-  "highlights": [
-    "三只虎头喷泉水声轰轰",
-    "泉群沿护城河连成带",
-    "老城最日常的打水画面"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.033593,
-      "lat": 36.662435,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "山东省济南市历下区护城河南岸黑虎泉，解放阁南侧",
-    "district": "历下区",
-    "transportTip": "乘公交到青龙桥南站或黑虎泉站",
-    "entrance": {
-      "lng": 117.03222,
-      "lat": 36.662922,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "heihu-spring",
+ "name": "黑虎泉",
+ "category": "scenic",
+ "subtype": "park",
+ "summary": "护城河边的名泉，三只石虎头喷出泉水，泉群一路连成环城带。",
+ "description": "黑虎泉在济南老城东南角的护城河边，泉水从三只石雕虎头口里喷涌，水声轰轰。泉池边总排着提水桶的市民，接水回家泡茶煮饭，这是济南最日常的画面。沿着护城河走，一路还有琵琶泉、九女泉、金线泉接连不断，组成环城泉群。清早和傍晚最热闹。这一段免费，随时可来，走完正好接上解放阁。",
+ "highlights": [
+  "三只虎头喷泉水声轰轰",
+  "泉群沿护城河连成带",
+  "老城最日常的打水画面"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.033593,
+   "lat": 36.662435,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 45-90 分钟",
-    "durationMinutes": [
-      45,
-      90
-    ],
-    "priceLevel": "free"
+  "address": "山东省济南市历下区护城河南岸黑虎泉，解放阁南侧",
+  "district": "历下区",
+  "transportTip": "乘公交到青龙桥南站或黑虎泉站",
+  "entrance": {
+   "lng": 117.03222,
+   "lat": 36.662922,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "全天开放",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 45-90 分钟",
+  "durationMinutes": [
+   45,
+   90
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "family",
+  "elders",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Black_Tiger_Spring_20250301.jpg/1280px-Black_Tiger_Spring_20250301.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Black_Tiger_Spring_20250301.jpg/1280px-Black_Tiger_Spring_20250301.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Black Tiger Spring 20250301.jpg",
+   "query": "黑虎泉 济南",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Steven Sun",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Tiger_Spring_20250301.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "family",
-    "elders",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Black_Tiger_Spring_20250301.jpg/1280px-Black_Tiger_Spring_20250301.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Black_Tiger_Spring_20250301.jpg/1280px-Black_Tiger_Spring_20250301.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Black Tiger Spring 20250301.jpg",
-      "query": "黑虎泉 济南",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Steven Sun",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Tiger_Spring_20250301.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Black_Tiger_Spring_20251105_01.jpg/1280px-Black_Tiger_Spring_20251105_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Black_Tiger_Spring_20251105_01.jpg/1280px-Black_Tiger_Spring_20251105_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Black Tiger Spring 20251105 01.jpg",
-      "query": "黑虎泉 济南",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Steven Sun",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Tiger_Spring_20251105_01.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Black_Tiger_Spring_20251105_02.jpg/1280px-Black_Tiger_Spring_20251105_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Black_Tiger_Spring_20251105_02.jpg/1280px-Black_Tiger_Spring_20251105_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Black Tiger Spring 20251105 02.jpg",
-      "query": "黑虎泉 济南",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Steven Sun",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Tiger_Spring_20251105_02.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/%E9%BB%91%E8%99%8E%E6%B3%89_-_Black_Tiger_Spring_-_2011.12_-_panoramio.jpg/1280px-%E9%BB%91%E8%99%8E%E6%B3%89_-_Black_Tiger_Spring_-_2011.12_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/%E9%BB%91%E8%99%8E%E6%B3%89_-_Black_Tiger_Spring_-_2011.12_-_panoramio.jpg/1280px-%E9%BB%91%E8%99%8E%E6%B3%89_-_Black_Tiger_Spring_-_2011.12_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "黑虎泉 - Black Tiger Spring - 2011.12 - panoramio.jpg",
-      "query": "黑虎泉",
-      "credit": {
-        "source": "wikimedia",
-        "author": "rheins",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Lixia%2C_Jinan%2C_Shandong%2C_China_-_panoramio_%2836%29.jpg/1280px-Lixia%2C_Jinan%2C_Shandong%2C_China_-_panoramio_%2836%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Lixia%2C_Jinan%2C_Shandong%2C_China_-_panoramio_%2836%29.jpg/1280px-Lixia%2C_Jinan%2C_Shandong%2C_China_-_panoramio_%2836%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Lixia, Jinan, Shandong, China - panoramio (36).jpg",
-      "query": "黑虎泉",
-      "credit": {
-        "source": "wikimedia",
-        "author": "济南视角",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/%E4%BA%94%E8%8E%B2%E6%B3%89_-_Five_Lotus_Spring_-_2011.12_-_panoramio.jpg/1280px-%E4%BA%94%E8%8E%B2%E6%B3%89_-_Five_Lotus_Spring_-_2011.12_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/%E4%BA%94%E8%8E%B2%E6%B3%89_-_Five_Lotus_Spring_-_2011.12_-_panoramio.jpg/1280px-%E4%BA%94%E8%8E%B2%E6%B3%89_-_Five_Lotus_Spring_-_2011.12_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "五莲泉 - Five Lotus Spring - 2011.12 - panoramio.jpg",
-      "query": "黑虎泉",
-      "credit": {
-        "source": "wikimedia",
-        "author": "rheins",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "泉水",
-    "护城河",
-    "市民生活"
-  ],
-  "popularity": 94,
-  "sources": [
-    {
-      "title": "黑虎泉·百度百科",
-      "url": "https://baike.baidu.com/item/%E9%BB%91%E8%99%8E%E6%B3%89",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-11-04",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Black Tiger Spring Jinan",
-    "zh": "黑虎泉"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Black_Tiger_Spring_20251105_01.jpg/1280px-Black_Tiger_Spring_20251105_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Black_Tiger_Spring_20251105_01.jpg/1280px-Black_Tiger_Spring_20251105_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Black Tiger Spring 20251105 01.jpg",
+   "query": "黑虎泉 济南",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Steven Sun",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Tiger_Spring_20251105_01.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "黑虎泉",
-  "_geocodeSuspect": false,
-  "district": "370102"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Black_Tiger_Spring_20251105_02.jpg/1280px-Black_Tiger_Spring_20251105_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Black_Tiger_Spring_20251105_02.jpg/1280px-Black_Tiger_Spring_20251105_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Black Tiger Spring 20251105 02.jpg",
+   "query": "黑虎泉 济南",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Steven Sun",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Tiger_Spring_20251105_02.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/%E9%BB%91%E8%99%8E%E6%B3%89_-_Black_Tiger_Spring_-_2011.12_-_panoramio.jpg/1280px-%E9%BB%91%E8%99%8E%E6%B3%89_-_Black_Tiger_Spring_-_2011.12_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/%E9%BB%91%E8%99%8E%E6%B3%89_-_Black_Tiger_Spring_-_2011.12_-_panoramio.jpg/1280px-%E9%BB%91%E8%99%8E%E6%B3%89_-_Black_Tiger_Spring_-_2011.12_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "黑虎泉 - Black Tiger Spring - 2011.12 - panoramio.jpg",
+   "query": "黑虎泉",
+   "credit": {
+    "source": "wikimedia",
+    "author": "rheins",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Lixia%2C_Jinan%2C_Shandong%2C_China_-_panoramio_%2836%29.jpg/1280px-Lixia%2C_Jinan%2C_Shandong%2C_China_-_panoramio_%2836%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Lixia%2C_Jinan%2C_Shandong%2C_China_-_panoramio_%2836%29.jpg/1280px-Lixia%2C_Jinan%2C_Shandong%2C_China_-_panoramio_%2836%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Lixia, Jinan, Shandong, China - panoramio (36).jpg",
+   "query": "黑虎泉",
+   "credit": {
+    "source": "wikimedia",
+    "author": "济南视角",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/%E4%BA%94%E8%8E%B2%E6%B3%89_-_Five_Lotus_Spring_-_2011.12_-_panoramio.jpg/1280px-%E4%BA%94%E8%8E%B2%E6%B3%89_-_Five_Lotus_Spring_-_2011.12_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/%E4%BA%94%E8%8E%B2%E6%B3%89_-_Five_Lotus_Spring_-_2011.12_-_panoramio.jpg/1280px-%E4%BA%94%E8%8E%B2%E6%B3%89_-_Five_Lotus_Spring_-_2011.12_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "五莲泉 - Five Lotus Spring - 2011.12 - panoramio.jpg",
+   "query": "黑虎泉",
+   "credit": {
+    "source": "wikimedia",
+    "author": "rheins",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "泉水",
+  "护城河",
+  "市民生活"
+ ],
+ "popularity": 94,
+ "sources": [
+  {
+   "title": "黑虎泉·百度百科",
+   "url": "https://baike.baidu.com/item/%E9%BB%91%E8%99%8E%E6%B3%89",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Black Tiger Spring Jinan",
+  "zh": "黑虎泉"
+ },
+ "_geocodeTitle": "黑虎泉",
+ "_geocodeSuspect": false,
+ "district": "370102",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "环境",
+    "score": 4.6,
+    "note": "三只石虎头喷水，水声轰轰，护城河边一路是泉"
+   },
+   {
+    "label": "免费程度",
+    "score": 5.0,
+    "note": "完全免费，全天可进"
+   },
+   {
+    "label": "人流",
+    "score": 3.4,
+    "note": "清晨打水的市民和游客混在一起，泉池边常要侧身过"
+   },
+   {
+    "label": "时长",
+    "score": 4.2,
+    "note": "单看黑虎泉半小时，沿护城河走到解放阁能撑满一小时"
+   }
+  ],
+  "body": "济南最日常的一处：泉水从三只石雕虎头里喷出来，旁边排着提桶接水回家泡茶的市民，这画面比任何布景都真实。沿护城河往西走，琵琶泉、九女泉、金线泉一个接一个，连成带逛很舒服，而且全程免费。只是泉池边常年人多，打水的队伍和拍照的游客挤在一处，路面被水溅得湿滑，穿浅色鞋要当心；周末清晨拍照很难等到空镜。适合顺路走一段，不必当成独立景点安排半天。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "清晨散步",
+   "顺路"
+  ],
+  "avoid": [
+   "周末上午",
+   "想拍空镜"
+  ],
+  "sources": []
+ }
 }

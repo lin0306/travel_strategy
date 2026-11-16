@@ -1,194 +1,233 @@
 {
-  "id": "harbin-museum",
-  "name": "哈尔滨市博物馆",
-  "category": "scenic",
-  "subtype": "museum",
-  "summary": "柳树街上的市级馆，院子里是一组老建筑，讲的是哈尔滨这座城自己的历史。",
-  "description": "市博物馆在道里区柳树街，就在老市委大院那一带，是一组院子里的老房子，不是那种新建的大馆。它分几个小馆：哈尔滨城市历史、中东铁路相关、还有一些专题的收藏，讲的就是这座城 —— 怎么从一个小渔村因为一条铁路变成远东大埠，侨民怎么来、怎么走，留下哪些房子与生活习惯。与省博侧重全省的古代史不同，这里的时间基本集中在近代这一百多年，跟外面街上能看到的建筑对得上。免费，参观一个半小时到两小时，院子安静，人少。",
-  "highlights": [
-    "一组院子里的老房子，本身就是老市委大院的建筑",
-    "讲的是这座城自己从渔村到远东大埠的一百多年",
-    "与省博的全省古代史不同，这里聚焦近代"
-  ],
-  "location": {
-    "point": {
-      "lng": 126.626276,
-      "lat": 45.774509,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黑龙江省哈尔滨市道里区柳树街13号",
-    "district": "道里区",
-    "transportTip": "地铁二号线中央大街站或尚志大街站步行；多条公交至兆麟街站"
+ "id": "harbin-museum",
+ "name": "哈尔滨市博物馆",
+ "category": "scenic",
+ "subtype": "museum",
+ "summary": "柳树街上的市级馆，院子里是一组老建筑，讲的是哈尔滨这座城自己的历史。",
+ "description": "市博物馆在道里区柳树街，就在老市委大院那一带，是一组院子里的老房子，不是那种新建的大馆。它分几个小馆：哈尔滨城市历史、中东铁路相关、还有一些专题的收藏，讲的就是这座城 —— 怎么从一个小渔村因为一条铁路变成远东大埠，侨民怎么来、怎么走，留下哪些房子与生活习惯。与省博侧重全省的古代史不同，这里的时间基本集中在近代这一百多年，跟外面街上能看到的建筑对得上。免费，参观一个半小时到两小时，院子安静，人少。",
+ "highlights": [
+  "一组院子里的老房子，本身就是老市委大院的建筑",
+  "讲的是这座城自己从渔村到远东大埠的一百多年",
+  "与省博的全省古代史不同，这里聚焦近代"
+ ],
+ "location": {
+  "point": {
+   "lng": 126.626276,
+   "lat": 45.774509,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约9:00-16:30，周一闭馆，以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费，凭证件领票",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "free"
+  "address": "黑龙江省哈尔滨市道里区柳树街13号",
+  "district": "道里区",
+  "transportTip": "地铁二号线中央大街站或尚志大街站步行；多条公交至兆麟街站"
+ },
+ "practical": {
+  "openHours": "约9:00-16:30，周一闭馆，以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "免费，凭证件领票",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "family",
+  "elders",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%861%E5%8F%B7%E6%A5%BC_20250114_03.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%861%E5%8F%B7%E6%A5%BC_20250114_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%861%E5%8F%B7%E6%A5%BC_20250114_03.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%861%E5%8F%B7%E6%A5%BC_20250114_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "哈尔滨博物馆1号楼 20250114 03.jpg",
+   "query": "哈尔滨市博物馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "FradonStar",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "family",
-    "elders",
-    "friends"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%861%E5%8F%B7%E6%A5%BC_20250114_03.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%861%E5%8F%B7%E6%A5%BC_20250114_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%861%E5%8F%B7%E6%A5%BC_20250114_03.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%861%E5%8F%B7%E6%A5%BC_20250114_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "哈尔滨博物馆1号楼 20250114 03.jpg",
-      "query": "哈尔滨市博物馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "FradonStar",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%862%E5%8F%B7%E6%A5%BC_20250114_09.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%862%E5%8F%B7%E6%A5%BC_20250114_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%862%E5%8F%B7%E6%A5%BC_20250114_09.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%862%E5%8F%B7%E6%A5%BC_20250114_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "哈尔滨博物馆2号楼 20250114 09.jpg",
-      "query": "哈尔滨市博物馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "FradonStar",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%867%E5%8F%B7%E6%A5%BC_20250114_09.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%867%E5%8F%B7%E6%A5%BC_20250114_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%867%E5%8F%B7%E6%A5%BC_20250114_09.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%867%E5%8F%B7%E6%A5%BC_20250114_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "哈尔滨博物馆7号楼 20250114 09.jpg",
-      "query": "哈尔滨市博物馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "FradonStar",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%866%E5%8F%B7%E6%A5%BC_20250114_08.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%866%E5%8F%B7%E6%A5%BC_20250114_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%866%E5%8F%B7%E6%A5%BC_20250114_08.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%866%E5%8F%B7%E6%A5%BC_20250114_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "哈尔滨博物馆6号楼 20250114 08.jpg",
-      "query": "哈尔滨市博物馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "FradonStar",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%866%E5%8F%B7%E6%A5%BC_20250114_38.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%866%E5%8F%B7%E6%A5%BC_20250114_38.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%866%E5%8F%B7%E6%A5%BC_20250114_38.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%866%E5%8F%B7%E6%A5%BC_20250114_38.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "哈尔滨博物馆6号楼 20250114 38.jpg",
-      "query": "哈尔滨市博物馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "FradonStar",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%867%E5%8F%B7%E6%A5%BC_20250114_06.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%867%E5%8F%B7%E6%A5%BC_20250114_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%867%E5%8F%B7%E6%A5%BC_20250114_06.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%867%E5%8F%B7%E6%A5%BC_20250114_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "哈尔滨博物馆7号楼 20250114 06.jpg",
-      "query": "哈尔滨市博物馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "FradonStar",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "市级馆",
-    "免费",
-    "老院落"
-  ],
-  "popularity": 74,
-  "sources": [
-    {
-      "title": "百度百科·哈尔滨市博物馆",
-      "url": "https://baike.baidu.com/item/%E5%93%88%E5%B0%94%E6%BB%A8%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
-  ],
-  "updatedAt": "2026-11-01",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "哈尔滨市博物馆"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%862%E5%8F%B7%E6%A5%BC_20250114_09.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%862%E5%8F%B7%E6%A5%BC_20250114_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%862%E5%8F%B7%E6%A5%BC_20250114_09.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%862%E5%8F%B7%E6%A5%BC_20250114_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "哈尔滨博物馆2号楼 20250114 09.jpg",
+   "query": "哈尔滨市博物馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "FradonStar",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "哈尔滨市博物馆",
-  "_geocodeSuspect": false,
-  "district": "230102"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%867%E5%8F%B7%E6%A5%BC_20250114_09.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%867%E5%8F%B7%E6%A5%BC_20250114_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%867%E5%8F%B7%E6%A5%BC_20250114_09.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%867%E5%8F%B7%E6%A5%BC_20250114_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "哈尔滨博物馆7号楼 20250114 09.jpg",
+   "query": "哈尔滨市博物馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "FradonStar",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%866%E5%8F%B7%E6%A5%BC_20250114_08.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%866%E5%8F%B7%E6%A5%BC_20250114_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%866%E5%8F%B7%E6%A5%BC_20250114_08.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%866%E5%8F%B7%E6%A5%BC_20250114_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "哈尔滨博物馆6号楼 20250114 08.jpg",
+   "query": "哈尔滨市博物馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "FradonStar",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%866%E5%8F%B7%E6%A5%BC_20250114_38.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%866%E5%8F%B7%E6%A5%BC_20250114_38.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%866%E5%8F%B7%E6%A5%BC_20250114_38.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%866%E5%8F%B7%E6%A5%BC_20250114_38.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "哈尔滨博物馆6号楼 20250114 38.jpg",
+   "query": "哈尔滨市博物馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "FradonStar",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%867%E5%8F%B7%E6%A5%BC_20250114_06.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%867%E5%8F%B7%E6%A5%BC_20250114_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%867%E5%8F%B7%E6%A5%BC_20250114_06.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%9A%E7%89%A9%E9%A6%867%E5%8F%B7%E6%A5%BC_20250114_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "哈尔滨博物馆7号楼 20250114 06.jpg",
+   "query": "哈尔滨市博物馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "FradonStar",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "市级馆",
+  "免费",
+  "老院落"
+ ],
+ "popularity": 74,
+ "sources": [
+  {
+   "title": "百度百科·哈尔滨市博物馆",
+   "url": "https://baike.baidu.com/item/%E5%93%88%E5%B0%94%E6%BB%A8%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "哈尔滨市博物馆"
+ },
+ "_geocodeTitle": "哈尔滨市博物馆",
+ "_geocodeSuspect": false,
+ "district": "230102",
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "院落",
+    "score": 4.1,
+    "note": "几栋老房子组成的院子，安静人少"
+   },
+   {
+    "label": "展陈",
+    "score": 3.9,
+    "note": "聚焦近代这一百多年，跟街上建筑对得上"
+   },
+   {
+    "label": "免费程度",
+    "score": 4.6,
+    "note": "免费参观"
+   },
+   {
+    "label": "动线",
+    "score": 3.0,
+    "note": "小馆分散，第一次来容易漏"
+   }
+  ],
+  "body": "柳树街上一组院子里的老房子，不是新建的大馆，分几个小馆讲这座城自己：怎么因为一条铁路从小渔村变成远东大埠，侨民怎么来怎么走，留下哪些房子与生活习惯。与省博侧重全省古代史不同，这里集中在近代这一百多年，跟街上能看到的建筑对得上；院子安静、人少，免费。缺点是展馆分散在几栋老房里，动线绕，第一次来容易漏掉某个小馆；布展规模与省博比偏小，专程留半天可能看不满。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "看老院落",
+   "配老城散步",
+   "免费"
+  ],
+  "avoid": [
+   "想看大馆大展",
+   "赶时间"
+  ],
+  "sources": []
+ }
 }

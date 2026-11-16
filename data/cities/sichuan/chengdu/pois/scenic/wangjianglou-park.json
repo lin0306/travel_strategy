@@ -15,9 +15,9 @@
       "lat": 30.62948,
       "coordSystem": "GCJ-02"
     },
-    "address": "成都市武侯区望江路 300 号",
-    "district": "锦江区",
-    "transportTip": "地铁 6 号线顺江路站步行约 800 米",
+    "address": "成都市武侯区望江路 30 号",
+    "district": "武侯区",
+    "transportTip": "地铁 6 号线三官堂站 B 口步行约 600 米；13 号线望江楼公园站 C 口步行约 3 分钟至南门",
     "entrance": {
       "lng": 104.090042,
       "lat": 30.627469,
@@ -25,9 +25,9 @@
     }
   },
   "practical": {
-    "openHours": "约 06:00-22:00（以官方公告为准）",
+    "openHours": "园林开放区 06:00-21:00（免费）；文物保护区 09:00-18:00，17:00 停止入园",
     "openHoursRef": 0,
-    "ticket": "约 5 元起",
+    "ticket": "园林开放区免费，文物保护区 20 元（半价 10 元）",
     "ticketRef": 0,
     "duration": "建议 60-120 分钟",
     "durationMinutes": [
@@ -153,9 +153,21 @@
       "url": "https://baike.baidu.com/item/%E6%9C%9B%E6%B1%9F%E6%A5%BC%E5%85%AC%E5%9B%AD",
       "kind": "wiki",
       "fetchedAt": "2026-09-18"
+    },
+    {
+      "title": "文旅成都（成都市文广旅局）2026 口径：开放园区免费、文物保护区 20 元；地",
+      "url": "https://www.sctv.com/news/2087057403488493570",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
+    },
+    {
+      "title": "腾讯新闻(转成都本地宝 2026-10) + 腾讯地图 POI",
+      "url": "https://news.qq.com/rain/a/20261031A0CU6700",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Wangjianglou Park Chengdu",
@@ -163,5 +175,23 @@
   },
   "_geocodeTitle": "望江楼公园",
   "_geocodeSuspect": false,
-  "district": "510104"
+  "district": "510107",
+  "_patrol": {
+    "at": "2026-11-08",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "园林开放区 06:00-21:00（免费）；文物保护区 08:00-18:00，17:00 停止入园",
+        "new": "园林开放区 06:00-21:00（免费）；文物保护区 09:00-18:00，17:00 停止入园"
+      },
+      {
+        "field": "所属区",
+        "old": "锦江区/510104",
+        "new": "武侯区/510107",
+        "why": "公园在锦江南岸望江路 30 号，属武侯区望江路街道"
+      }
+    ],
+    "source": "https://news.qq.com/rain/a/20261031A0CU6700",
+    "reason": "文物区开门时刻原写08:00；图商POI与2026-10稿件均为09:00，17:00后不能进入\r"
+  }
 }

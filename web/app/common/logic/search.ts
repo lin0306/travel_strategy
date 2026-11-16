@@ -62,9 +62,18 @@ function bare(name: string): string {
 function scoreName(name: string, q: string): number {
   const n = name.toLowerCase()
   const b = bare(name)
-  if (n === q || b === q) return SCORE.exact
-  if (n.startsWith(q) || b.startsWith(q)) return SCORE.prefix
-  if (n.includes(q) || b.includes(q)) return SCORE.contains
+  /**
+   * ★ 查询词也剥一次行政后缀（2026-11-14）：
+   *   索引里的省存的是「陕西」，而用户经常打「陕西省」—— 原来只剥了 `name`，
+   *   `'陕西'.includes('陕西省')` 恒 false ⇒ **打全称一条结果都没有**
+   *   （实测「陕西省」/「四川省」都是 0 条，「陕西」「四川」正常）。
+   *   两侧都剥之后，"全称 / 简称 / 混着写"三种输入落到同一档。
+   *   ★ `bare()` 在剥空时会退回原串，所以 `q='省'` 这种不会变成 `includes('')` 匹配一切。
+   */
+  const qb = bare(q)
+  if (n === q || b === q || n === qb || b === qb) return SCORE.exact
+  if (n.startsWith(q) || b.startsWith(q) || n.startsWith(qb) || b.startsWith(qb)) return SCORE.prefix
+  if (n.includes(q) || b.includes(q) || n.includes(qb) || b.includes(qb)) return SCORE.contains
   return 0
 }
 

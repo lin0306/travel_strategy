@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "重庆市渝中区中兴路至石板坡",
-    "district": "南岸",
+    "district": "渝中",
     "transportTip": "轨道交通 1/6 号线小什字站或 2 号线临江门站，步行约 10 分钟"
   },
   "practical": {
@@ -131,7 +131,7 @@
       "fetchedAt": "2026-09-19"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -139,5 +139,43 @@
   },
   "_geocodeTitle": "山城步道",
   "_geocodeSuspect": false,
-  "district": "500108"
+  "district": "500103",
+  "review": {
+    "score": 4.2,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "视野",
+        "score": 4.5,
+        "note": "崖壁栈道一侧直望长江与南岸"
+      },
+      {
+        "label": "人流",
+        "score": 4.2,
+        "note": "比洪崖洞少得多"
+      },
+      {
+        "label": "体力",
+        "score": 2.6,
+        "note": "全程上下坡和台阶"
+      },
+      {
+        "label": "免费",
+        "score": 5.0,
+        "note": "不收门票"
+      }
+    ],
+    "body": "沿崖壁横向凿出来的栈道，一侧是老城墙和老屋，一侧直接望长江与南岸，沿途还有真在住人的老社区，晾着的衣服、门口的黄桷树都在。免费而且人比洪崖洞少得多。缺点是全程上下坡和台阶，走完腿会酸；部分岔口标识不清，第一次来容易走岔。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "市井漫步",
+      "免费"
+    ],
+    "avoid": [
+      "腿脚不便",
+      "赶时间"
+    ],
+    "sources": []
+  }
 }

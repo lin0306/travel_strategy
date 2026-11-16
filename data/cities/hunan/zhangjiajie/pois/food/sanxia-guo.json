@@ -1,68 +1,106 @@
 {
-  "id": "sanxia-guo",
-  "name": "张家界三下锅",
-  "category": "food",
-  "subtype": "local",
-  "summary": "本地招牌菜，把腊肉、豆腐、蔬菜一锅炖，咸香下饭。",
-  "description": "三下锅是张家界的招牌菜。它把腊肉、豆腐、猪肚之类的几样东西放一锅炖，咸香入味，很下饭。有干锅也有汤锅。来张家界基本都要点一锅，是最好认的本地味，配碗米饭刚好。找本地人多的店，味道更稳。",
-  "highlights": [
-    "本地招牌炖菜",
-    "腊肉豆腐同锅咸香",
-    "来张家界必点"
-  ],
-  "location": {
-    "point": {
-      "lng": 110.468022,
-      "lat": 29.167072,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "湖南省张家界市永定区各餐馆",
-    "district": "永定区",
-    "transportTip": "市区餐馆均有"
+ "id": "sanxia-guo",
+ "name": "张家界三下锅",
+ "category": "food",
+ "subtype": "local",
+ "summary": "本地招牌菜，把腊肉、豆腐、蔬菜一锅炖，咸香下饭。",
+ "description": "三下锅是张家界的招牌菜。它把腊肉、豆腐、猪肚之类的几样东西放一锅炖，咸香入味，很下饭。有干锅也有汤锅。来张家界基本都要点一锅，是最好认的本地味，配碗米饭刚好。找本地人多的店，味道更稳。",
+ "highlights": [
+  "本地招牌炖菜",
+  "腊肉豆腐同锅咸香",
+  "来张家界必点"
+ ],
+ "location": {
+  "point": {
+   "lng": 110.468022,
+   "lat": 29.167072,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:00-21:00",
-    "openHoursRef": 0,
-    "ticket": "约50元/锅起",
-    "ticketRef": 0,
-    "duration": "建议 60-90 分钟",
-    "durationMinutes": [
-      60,
-      90
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "friends",
-    "family",
-    "couple"
+  "address": "湖南省张家界市永定区各餐馆",
+  "district": "永定区",
+  "transportTip": "市区餐馆均有"
+ },
+ "practical": {
+  "openHours": "约10:00-21:00",
+  "openHoursRef": 0,
+  "ticket": "约50元/锅起",
+  "ticketRef": 0,
+  "duration": "建议 60-90 分钟",
+  "durationMinutes": [
+   60,
+   90
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "招牌菜",
-    "炖锅",
-    "本土"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "friends",
+  "family",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "招牌菜",
+  "炖锅",
+  "本土"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·张家界",
+   "url": "https://baike.baidu.com/item/%E5%BC%A0%E5%AE%B6%E7%95%8C",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-02"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Zhangjiajie Sanxiaguo",
+  "zh": "张家界三下锅"
+ },
+ "_geocodeTitle": "张家界三下锅",
+ "_geocodeSuspect": false,
+ "district": "430802",
+ "_noImage": true,
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.0,
+    "note": "腊肉配豆腐炖一锅，咸香下饭"
+   },
+   {
+    "label": "分量",
+    "score": 4.2,
+    "note": "一锅够两三人，配米饭刚好"
+   },
+   {
+    "label": "价格",
+    "score": 4.0,
+    "note": "本地馆子实在，景区里偏贵"
+   },
+   {
+    "label": "环境",
+    "score": 3.0,
+    "note": "多为家常店，油烟重"
+   }
   ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·张家界",
-      "url": "https://baike.baidu.com/item/%E5%BC%A0%E5%AE%B6%E7%95%8C",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-02"
-    }
+  "body": "到张家界第一顿基本都吃它：腊肉、豆腐、猪肚一锅炖，咸香油重，配碗米饭刚好。缺点是油大盐重，连着吃两顿就腻；景区门口的店比市区贵一截，想吃得实在就往居民区找本地人多的馆子。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "第一顿",
+   "两三人"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Zhangjiajie Sanxiaguo",
-    "zh": "张家界三下锅"
-  },
-  "_geocodeTitle": "张家界三下锅",
-  "_geocodeSuspect": false,
-  "district": "430802",
-  "_noImage": true
+  "avoid": [
+   "吃清淡",
+   "怕油"
+  ],
+  "sources": []
+ }
 }

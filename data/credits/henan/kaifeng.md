@@ -1,6 +1,6 @@
 # 开封 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-02
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | zhang kaiyv | Pexels License | [pexels](https://www.pexels.com/photo/a-city-under-a-cloudy-sky-9431177/) |
-| 城市封面 | He Zhang | Pexels License | [pexels](https://www.pexels.com/photo/buildings-in-the-light-of-the-sunset-15906464/) |
-| 城市封面 | Tab TS | Pexels License | [pexels](https://www.pexels.com/photo/misty-panorama-of-a-river-and-city-skyline-at-dawn-beijing-china-17152419/) |
+| 城市封面 | 新乡日报-李宝忠 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B2%B3%E5%8D%97-%E5%BC%80%E5%B0%81%E6%B8%85%E6%98%8E%E4%B8%8A%E6%B2%B3%E5%9B%AD_-_panoramio.jpg) |
+| 城市封面 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20241025_Lingxing_Gate_of_Kaifeng_Fu_Confucian_Temple_01.jpg) |
+| 城市封面 | caoyuan | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%BC%93%E6%A5%BC%E5%A4%9C%E5%B8%82_-_panoramio_(1).jpg) |
 | 包公祠 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20210902_Baogong_Memorial_Hall.jpg) |
 | 包公祠 | Gary Todd | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baogong_Temple-_Statue_of_Bao_Zheng_(Lord_Bao),_Incorruptible_Northern_Song_Official.jpg) |
 | 包公祠 | Tak Wing (https://www.flickr.com/photos/takwing/) Timmyshin  | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lord_Bao_Memorial_Temple.jpg) |
@@ -149,9 +149,6 @@
 | 禹王台公园 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 禹王台公园 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 禹王台公园 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
-| 朱仙镇 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20100215_Temple_of_Yue_Fei_at_Zhuxian_Town_01.jpg) |
-| 朱仙镇 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20100215_Temple_of_Yue_Fei_at_Zhuxian_Town_02.jpg) |
-| 朱仙镇 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20100215_Temple_of_Yue_Fei_at_Zhuxian_Town_03.jpg) |
 | 炒凉粉 | Ibrahim Husain Meraj | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Homemade_Japchae,_Dhaka_02.jpg) |
 | 炒凉粉 | Ibrahim Husain Meraj | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Homemade_Japchae,_Dhaka_03.jpg) |
 | 炒凉粉 | Ibrahim Husain Meraj | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Homemade_Japchae,_Dhaka_04.jpg) |

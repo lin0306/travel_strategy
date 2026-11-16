@@ -235,7 +235,10 @@ def search_wikimedia(keyword: str, per_page: int = 8) -> list[dict]:
             "generator": "search",
             "gsrsearch": kw,
             "gsrnamespace": 6,                   # File:
-            "gsrlimit": max(per_page * 3, 20),   # 多取几个：过滤后所剩不多
+            # ★ 匿名调用时 Commons 会把 gsrlimit 钳到 50（实测传 150 也只回 50），
+            #   显式钳住免得每次请求多带一条 API warning。
+            #   `per_page` 由调用方给：自动入库链路默认 8；候选链路传 50 拿满。
+            "gsrlimit": min(50, max(per_page * 3, 20)),   # 多取几个：过滤后所剩不多
             # ★ `categories` 是**人工维护**的，比标题可靠：地铁站照片标题可能只写
             #   「青龙寺」，但分类一定是 "Xi'an Metro stations" —— 过滤靠它抓。
             "prop": "imageinfo|categories",

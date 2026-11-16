@@ -1,67 +1,105 @@
 {
-  "id": "hehu-residence",
-  "name": "鹤湖新居",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "龙岗客家围屋中规模较大的一处：外围的夯土墙与内部的院子都还在。",
-  "description": "鹤湖新居在龙岗街道，是当地罗氏家族建于清乾隆年间的一座客家围屋。它的做法是典型的那一种——外圈夯土墙与角楼，内部是祠堂与一排排带天井的住宅。规模在客家围屋里属于较大的一类。围屋形制对应的是聚族而居：一个家族住在一起，外墙厚实，可以自卫。现在这里同时是龙岗客家民俗博物馆，展出的内容是客家迁徙与本地宗族。它与附近的几处围屋属于同一批遗存。周边是龙岗中心城的城区环境，公交能到。",
-  "highlights": [
-    "清代客家围屋，夯土围墙与角楼保留完整",
-    "现为龙岗客家民俗博物馆",
-    "外围已是龙岗中心城的城区"
-  ],
-  "location": {
-    "point": {
-      "lng": 114.266028,
-      "lat": 22.727642,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "深圳市龙岗区龙岗街道龙园路（鹤湖新居）",
-    "district": "龙岗区",
-    "transportTip": "地铁3号线南联站换乘公交"
+ "id": "hehu-residence",
+ "name": "鹤湖新居",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "龙岗客家围屋中规模较大的一处：外围的夯土墙与内部的院子都还在。",
+ "description": "鹤湖新居在龙岗街道，是当地罗氏家族建于清乾隆年间的一座客家围屋。它的做法是典型的那一种——外圈夯土墙与角楼，内部是祠堂与一排排带天井的住宅。规模在客家围屋里属于较大的一类。围屋形制对应的是聚族而居：一个家族住在一起，外墙厚实，可以自卫。现在这里同时是龙岗客家民俗博物馆，展出的内容是客家迁徙与本地宗族。它与附近的几处围屋属于同一批遗存。周边是龙岗中心城的城区环境，公交能到。",
+ "highlights": [
+  "清代客家围屋，夯土围墙与角楼保留完整",
+  "现为龙岗客家民俗博物馆",
+  "外围已是龙岗中心城的城区"
+ ],
+ "location": {
+  "point": {
+   "lng": 114.266028,
+   "lat": 22.727642,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约09:00-17:30（以官方公告为准）",
-    "openHoursRef": 0,
-    "ticket": "免费（以官方公告为准）",
-    "ticketRef": 0,
-    "duration": "建议 90-210 分钟",
-    "durationMinutes": [
-      90,
-      210
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "elders",
-    "solo"
+  "address": "深圳市龙岗区龙岗街道龙园路（鹤湖新居）",
+  "district": "龙岗区",
+  "transportTip": "地铁3号线南联站换乘公交"
+ },
+ "practical": {
+  "openHours": "约09:00-17:30（以官方公告为准）",
+  "openHoursRef": 0,
+  "ticket": "免费（以官方公告为准）",
+  "ticketRef": 0,
+  "duration": "建议 90-210 分钟",
+  "durationMinutes": [
+   90,
+   210
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "客家",
-    "围屋",
-    "免费"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "elders",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "客家",
+  "围屋",
+  "免费"
+ ],
+ "popularity": 62,
+ "sources": [
+  {
+   "title": "百度百科·鹤湖新居",
+   "url": "https://baike.baidu.com/item/%E9%B9%A4%E6%B9%96%E6%96%B0%E5%B1%85",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-24"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "鹤湖新居"
+ },
+ "_geocodeTitle": "鹤湖新居",
+ "_geocodeSuspect": false,
+ "district": "440307",
+ "_noImage": true,
+ "review": {
+  "score": 3.8,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "建筑",
+    "score": 4.4,
+    "note": "夯土围墙、角楼与带天井的住宅保留完整"
+   },
+   {
+    "label": "免费",
+    "score": 4.5,
+    "note": "免费开放，兼作客家民俗博物馆"
+   },
+   {
+    "label": "展陈",
+    "score": 3.3,
+    "note": "讲客家迁徙与本地宗族，形式偏传统"
+   },
+   {
+    "label": "环境",
+    "score": 2.9,
+    "note": "外围已是龙岗中心城城区"
+   }
   ],
-  "popularity": 62,
-  "sources": [
-    {
-      "title": "百度百科·鹤湖新居",
-      "url": "https://baike.baidu.com/item/%E9%B9%A4%E6%B9%96%E6%96%B0%E5%B1%85",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-24"
-    }
+  "body": "龙岗罗氏家族的清代客家围屋，外圈夯土墙与角楼、内部祠堂加一排排带天井的住宅，规模在同类里较大，形制对应的是聚族而居与自卫；现在同时是龙岗客家民俗博物馆，讲客家迁徙与本地宗族，附近还有同批遗存可以串。缺点是展陈偏传统、更新不多，参观动线略绕；外围已是城区，古村该有的田野环境没了，专程来想找旧时氛围多半会失望，公交能到但路上耗时不短。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "看客家围屋",
+   "龙岗半日串联"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "鹤湖新居"
-  },
-  "_geocodeTitle": "鹤湖新居",
-  "_geocodeSuspect": false,
-  "district": "440307",
-  "_noImage": true
+  "avoid": [
+   "追古村氛围",
+   "想看新式展陈"
+  ],
+  "sources": []
+ }
 }

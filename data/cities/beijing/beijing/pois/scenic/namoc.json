@@ -1,157 +1,189 @@
 {
-  "id": "namoc",
-  "name": "中国美术馆",
-  "category": "scenic",
-  "subtype": "museum",
-  "summary": "国家造型艺术殿堂——齐白石、徐悲鸿的真迹常设，特展常换常新，免费但拼手速预约。",
-  "description": "中国美术馆在五四大街,主楼仿敦煌莫高窟窟檐造型,是一九六三年建成的国家美术馆。馆藏以近现代美术为主,齐白石、徐悲鸿、吴冠中等人的代表作常在典藏展中露面;一层的主题大展轮换频繁,重磅特展经常一票难求。免费开放但必须实名预约:提前七天在官网或公众号放票,每日约下午四点放次周名额,每日限约六千人,节假日手速要快。六十岁以上老人、军人、残障人士等可免预约核验证件入馆。地铁八号线中国美术馆站出站即到;馆前广场与附近的隆福寺街区可以顺路一并逛。",
-  "highlights": [
-    "近现代名家真迹常设展",
-    "重磅特展轮换,需提前七天抢约",
-    "出馆可顺路逛隆福寺街区"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.409,
-      "lat": 39.92535,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "北京市东城区五四大街1号",
-    "district": "东城",
-    "transportTip": "地铁8号线中国美术馆站A口直达;5、6号线东四站步行约5分钟"
+ "id": "namoc",
+ "name": "中国美术馆",
+ "category": "scenic",
+ "subtype": "museum",
+ "summary": "国家造型艺术殿堂——齐白石、徐悲鸿的真迹常设，特展常换常新，免费但拼手速预约。",
+ "description": "中国美术馆在五四大街,主楼仿敦煌莫高窟窟檐造型,是一九六三年建成的国家美术馆。馆藏以近现代美术为主,齐白石、徐悲鸿、吴冠中等人的代表作常在典藏展中露面;一层的主题大展轮换频繁,重磅特展经常一票难求。免费开放但必须实名预约:提前七天在官网或公众号放票,每日约下午四点放次周名额,每日限约六千人,节假日手速要快。六十岁以上老人、军人、残障人士等可免预约核验证件入馆。地铁八号线中国美术馆站出站即到;馆前广场与附近的隆福寺街区可以顺路一并逛。",
+ "highlights": [
+  "近现代名家真迹常设展",
+  "重磅特展轮换,需提前七天抢约",
+  "出馆可顺路逛隆福寺街区"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.409,
+   "lat": 39.92535,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "09:00-17:00(16:00停止入馆),周一闭馆(法定节假日除外),以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费,需提前1-7天实名预约(每日限约6000人),以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "free"
+  "address": "北京市东城区五四大街1号",
+  "district": "东城",
+  "transportTip": "地铁8号线中国美术馆站A口直达;5、6号线东四站步行约5分钟"
+ },
+ "practical": {
+  "openHours": "09:00-17:00(16:00停止入馆),周一闭馆(法定节假日除外),以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "免费,需提前1-7天实名预约(每日限约6000人),以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/BeijingNationalArtMuseumofChina12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/BeijingNationalArtMuseumofChina12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 810,
+   "alt": "BeijingNationalArtMuseumofChina12.jpg",
+   "query": "中国美术馆 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "caswell_tom",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BeijingNationalArtMuseumofChina12.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/BeijingNationalArtMuseumofChina12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/BeijingNationalArtMuseumofChina12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 810,
-      "alt": "BeijingNationalArtMuseumofChina12.jpg",
-      "query": "中国美术馆 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "caswell_tom",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BeijingNationalArtMuseumofChina12.jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/BeijingNationalArtMuseumofChina13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/BeijingNationalArtMuseumofChina13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 810,
-      "alt": "BeijingNationalArtMuseumofChina13.jpg",
-      "query": "中国美术馆 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "caswell_tom",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BeijingNationalArtMuseumofChina13.jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/BeijingNationalArtMuseumofChina14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/BeijingNationalArtMuseumofChina14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 810,
-      "alt": "BeijingNationalArtMuseumofChina14.jpg",
-      "query": "中国美术馆 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "caswell_tom",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BeijingNationalArtMuseumofChina14.jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/BeijingNationalArtMuseumofChina17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/BeijingNationalArtMuseumofChina17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1440,
-      "alt": "BeijingNationalArtMuseumofChina17.jpg",
-      "query": "中国美术馆 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "caswell_tom",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BeijingNationalArtMuseumofChina17.jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/BeijingNationalArtMuseumofChina18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/BeijingNationalArtMuseumofChina18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 810,
-      "alt": "BeijingNationalArtMuseumofChina18.jpg",
-      "query": "中国美术馆 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "caswell_tom",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BeijingNationalArtMuseumofChina18.jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/BeijingNationalArtMuseumofChina19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/BeijingNationalArtMuseumofChina19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 810,
-      "alt": "BeijingNationalArtMuseumofChina19.jpg",
-      "query": "中国美术馆 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "caswell_tom",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BeijingNationalArtMuseumofChina19.jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "美术馆",
-    "免费",
-    "需预约"
-  ],
-  "popularity": 84,
-  "sources": [
-    {
-      "title": "百度百科·中国美术馆",
-      "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E7%BE%8E%E6%9C%AF%E9%A6%86",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-23"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "中国美术馆"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/BeijingNationalArtMuseumofChina13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/BeijingNationalArtMuseumofChina13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 810,
+   "alt": "BeijingNationalArtMuseumofChina13.jpg",
+   "query": "中国美术馆 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "caswell_tom",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BeijingNationalArtMuseumofChina13.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "中国美术馆",
-  "_geocodeSuspect": false,
-  "district": "110101"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/BeijingNationalArtMuseumofChina14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/BeijingNationalArtMuseumofChina14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 810,
+   "alt": "BeijingNationalArtMuseumofChina14.jpg",
+   "query": "中国美术馆 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "caswell_tom",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BeijingNationalArtMuseumofChina14.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/BeijingNationalArtMuseumofChina17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/BeijingNationalArtMuseumofChina17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 1440,
+   "alt": "BeijingNationalArtMuseumofChina17.jpg",
+   "query": "中国美术馆 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "caswell_tom",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BeijingNationalArtMuseumofChina17.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/BeijingNationalArtMuseumofChina18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/BeijingNationalArtMuseumofChina18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 810,
+   "alt": "BeijingNationalArtMuseumofChina18.jpg",
+   "query": "中国美术馆 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "caswell_tom",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BeijingNationalArtMuseumofChina18.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/BeijingNationalArtMuseumofChina19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/BeijingNationalArtMuseumofChina19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 810,
+   "alt": "BeijingNationalArtMuseumofChina19.jpg",
+   "query": "中国美术馆 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "caswell_tom",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BeijingNationalArtMuseumofChina19.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "美术馆",
+  "免费",
+  "需预约"
+ ],
+ "popularity": 84,
+ "sources": [
+  {
+   "title": "百度百科·中国美术馆",
+   "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E7%BE%8E%E6%9C%AF%E9%A6%86",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-23"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "中国美术馆"
+ },
+ "_geocodeTitle": "中国美术馆",
+ "_geocodeSuspect": false,
+ "district": "110101",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "展陈",
+    "score": 4.8,
+    "note": "齐白石、徐悲鸿等近现代名家真迹常设"
+   },
+   {
+    "label": "免费程度",
+    "score": 4.5,
+    "note": "免费，但需提前七天实名抢约"
+   },
+   {
+    "label": "人流",
+    "score": 2.6,
+    "note": "热门特展排队进厅，节假日名额紧张"
+   },
+   {
+    "label": "动线",
+    "score": 3.2,
+    "note": "展厅绕，容易漏掉侧厅"
+   }
+  ],
+  "body": "国家造型艺术殿堂，近现代名家的家底在这里，一层特展换得勤。免费但要抢：提前七天放票、每日限约六千人，节假日手速不够就白跑。展厅动线偏绕，热门特展还得排队进厅，人少的工作日上午体验最好。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [],
+  "avoid": [],
+  "sources": []
+ }
 }

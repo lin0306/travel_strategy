@@ -1,118 +1,157 @@
 {
-  "id": "minggehu",
-  "name": "民歌湖",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "竹溪立交旁的湖，夜景与酒吧街是亮点。",
-  "description": "民歌湖在青秀区、竹溪立交旁，是一处连着南湖的水景片区，周边是酒吧街和一批餐饮。入夜之后灯光亮起、水面反光，是南宁夜生活的一个中心。它与金湖广场、万象城离得近，适合傍晚沿湖走一圈再吃夜宵。免费、开阔，是看南宁夜景的好位置。",
-  "highlights": [
-    "竹溪立交旁水景，夜景酒吧街",
-    "入夜灯光水面反光",
-    "与金湖广场万象城近"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.375331,
-      "lat": 22.810023,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市青秀区金浦路23号",
-    "district": "青秀区",
-    "transportTip": "地铁1号线金湖广场站步行约10分钟",
-    "entrance": {
-      "lng": 108.373618,
-      "lat": 22.810769,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "minggehu",
+ "name": "民歌湖",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "竹溪立交旁的湖，夜景与酒吧街是亮点。",
+ "description": "民歌湖在青秀区、竹溪立交旁，是一处连着南湖的水景片区，周边是酒吧街和一批餐饮。入夜之后灯光亮起、水面反光，是南宁夜生活的一个中心。它与金湖广场、万象城离得近，适合傍晚沿湖走一圈再吃夜宵。免费、开阔，是看南宁夜景的好位置。",
+ "highlights": [
+  "竹溪立交旁水景，夜景酒吧街",
+  "入夜灯光水面反光",
+  "与金湖广场万象城近"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.375331,
+   "lat": 22.810023,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放（酒吧街以各自时段为准）",
-    "openHoursRef": 0,
-    "ticket": "无门票",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
+  "address": "南宁市青秀区金浦路23号",
+  "district": "青秀区",
+  "transportTip": "地铁1号线金湖广场站步行约10分钟",
+  "entrance": {
+   "lng": 108.373618,
+   "lat": 22.810769,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "全天开放（酒吧街以各自时段为准）",
+  "openHoursRef": 0,
+  "ticket": "无门票",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "friends",
+  "couple",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/%E5%8D%97%E5%AE%81%E6%B0%91%E6%AD%8C%E6%B9%96%E5%B9%BF%E5%9C%BA.jpg/1280px-%E5%8D%97%E5%AE%81%E6%B0%91%E6%AD%8C%E6%B9%96%E5%B9%BF%E5%9C%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/%E5%8D%97%E5%AE%81%E6%B0%91%E6%AD%8C%E6%B9%96%E5%B9%BF%E5%9C%BA.jpg/1280px-%E5%8D%97%E5%AE%81%E6%B0%91%E6%AD%8C%E6%B9%96%E5%B9%BF%E5%9C%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "南宁民歌湖广场.jpg",
+   "query": "民歌湖 南宁",
+   "credit": {
+    "source": "wikimedia",
+    "author": "EditQ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%AE%81%E6%B0%91%E6%AD%8C%E6%B9%96%E5%B9%BF%E5%9C%BA.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "friends",
-    "couple",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/%E5%8D%97%E5%AE%81%E6%B0%91%E6%AD%8C%E6%B9%96%E5%B9%BF%E5%9C%BA.jpg/1280px-%E5%8D%97%E5%AE%81%E6%B0%91%E6%AD%8C%E6%B9%96%E5%B9%BF%E5%9C%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/%E5%8D%97%E5%AE%81%E6%B0%91%E6%AD%8C%E6%B9%96%E5%B9%BF%E5%9C%BA.jpg/1280px-%E5%8D%97%E5%AE%81%E6%B0%91%E6%AD%8C%E6%B9%96%E5%B9%BF%E5%9C%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "南宁民歌湖广场.jpg",
-      "query": "民歌湖 南宁",
-      "credit": {
-        "source": "wikimedia",
-        "author": "EditQ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%AE%81%E6%B0%91%E6%AD%8C%E6%B9%96%E5%B9%BF%E5%9C%BA.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/%E5%8D%97%E5%AE%81%E6%B0%91%E6%AD%8C%E6%B9%96%E6%99%AF%E5%8C%BA.jpg/1280px-%E5%8D%97%E5%AE%81%E6%B0%91%E6%AD%8C%E6%B9%96%E6%99%AF%E5%8C%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/%E5%8D%97%E5%AE%81%E6%B0%91%E6%AD%8C%E6%B9%96%E6%99%AF%E5%8C%BA.jpg/1280px-%E5%8D%97%E5%AE%81%E6%B0%91%E6%AD%8C%E6%B9%96%E6%99%AF%E5%8C%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "南宁民歌湖景区.jpg",
-      "query": "民歌湖 南宁",
-      "credit": {
-        "source": "wikimedia",
-        "author": "EditQ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%AE%81%E6%B0%91%E6%AD%8C%E6%B9%96%E6%99%AF%E5%8C%BA.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/%E6%B0%91%E6%AD%8C%E6%B9%96.jpg/1280px-%E6%B0%91%E6%AD%8C%E6%B9%96.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/%E6%B0%91%E6%AD%8C%E6%B9%96.jpg/1280px-%E6%B0%91%E6%AD%8C%E6%B9%96.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "民歌湖.jpg",
-      "query": "民歌湖 南宁",
-      "credit": {
-        "source": "wikimedia",
-        "author": "重庆轨交18",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B0%91%E6%AD%8C%E6%B9%96.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "湖景",
-    "夜景",
-    "酒吧街"
-  ],
-  "popularity": 76,
-  "sources": [
-    {
-      "title": "百度百科·民歌湖",
-      "url": "https://baike.baidu.com/item/%E6%B0%91%E6%AD%8C%E6%B9%96",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "民歌湖"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/%E5%8D%97%E5%AE%81%E6%B0%91%E6%AD%8C%E6%B9%96%E6%99%AF%E5%8C%BA.jpg/1280px-%E5%8D%97%E5%AE%81%E6%B0%91%E6%AD%8C%E6%B9%96%E6%99%AF%E5%8C%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/%E5%8D%97%E5%AE%81%E6%B0%91%E6%AD%8C%E6%B9%96%E6%99%AF%E5%8C%BA.jpg/1280px-%E5%8D%97%E5%AE%81%E6%B0%91%E6%AD%8C%E6%B9%96%E6%99%AF%E5%8C%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "南宁民歌湖景区.jpg",
+   "query": "民歌湖 南宁",
+   "credit": {
+    "source": "wikimedia",
+    "author": "EditQ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%AE%81%E6%B0%91%E6%AD%8C%E6%B9%96%E6%99%AF%E5%8C%BA.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "南宁民歌湖景区",
-  "_geocodeSuspect": false,
-  "district": "450103"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/%E6%B0%91%E6%AD%8C%E6%B9%96.jpg/1280px-%E6%B0%91%E6%AD%8C%E6%B9%96.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/%E6%B0%91%E6%AD%8C%E6%B9%96.jpg/1280px-%E6%B0%91%E6%AD%8C%E6%B9%96.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "民歌湖.jpg",
+   "query": "民歌湖 南宁",
+   "credit": {
+    "source": "wikimedia",
+    "author": "重庆轨交18",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B0%91%E6%AD%8C%E6%B9%96.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "湖景",
+  "夜景",
+  "酒吧街"
+ ],
+ "popularity": 76,
+ "sources": [
+  {
+   "title": "百度百科·民歌湖",
+   "url": "https://baike.baidu.com/item/%E6%B0%91%E6%AD%8C%E6%B9%96",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "民歌湖"
+ },
+ "_geocodeTitle": "南宁民歌湖景区",
+ "_geocodeSuspect": false,
+ "district": "450103",
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "夜景",
+    "score": 4.4,
+    "note": "亮灯后水面反光，是夜生活中心"
+   },
+   {
+    "label": "配套",
+    "score": 3.8,
+    "note": "酒吧街与餐饮环绕，坐得下"
+   },
+   {
+    "label": "人流",
+    "score": 3.3,
+    "note": "入夜后酒吧街吵"
+   },
+   {
+    "label": "遮阴",
+    "score": 3.0,
+    "note": "白天环湖树少，晒"
+   }
+  ],
+  "body": "民歌湖被本地人叫「城市会客厅」，白天是环湖步道，入夜灯光亮起、水面反着楼宇和酒吧街的光，是南宁夜生活最集中的一段。位置好，走完能直接接金湖广场和万象城吃饭。它的短板是内容单薄：湖本身不大，没有古迹也没有展馆，纯看景半小时就走完了，剩下的时间要靠酒吧街和商场填；夜里酒吧街音量不小，想安静散步的会失望，白天来又晒又没什么人。把它当傍晚的一个停靠点最合适，别当独立景点专程跑。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "傍晚散步",
+   "夜生活",
+   "拍照"
+  ],
+  "avoid": [
+   "想要安静",
+   "专程打卡"
+  ],
+  "sources": []
+ }
 }

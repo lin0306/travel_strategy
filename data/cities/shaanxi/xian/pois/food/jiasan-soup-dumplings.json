@@ -16,7 +16,7 @@
       "lat": 34.26224,
       "coordSystem": "GCJ-02"
     },
-    "address": "西安市莲湖区北院门（以门店公告为准）",
+    "address": "西安市莲湖区北院门93号（近鼓楼）",
     "district": "莲湖区",
     "transportTip": "地铁 2 号线钟楼站，步行约 10 分钟"
   },
@@ -52,9 +52,15 @@
       "url": "https://baike.baidu.com/item/%E8%B4%BE%E4%B8%89%E7%81%8C%E6%B1%A4%E5%8C%85",
       "kind": "wiki",
       "fetchedAt": "2026-09-19"
+    },
+    {
+      "title": "补门牌：图商POI与多平台均指北院门93号，坐标已重合",
+      "url": "https://hk.trip.com/moments/poi-xi-an-jiasan-stuffed-with-juicy-pork-baoziguan-208275/",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,5 +69,17 @@
   "_geocodeTitle": "西安贾三清真灌汤包子馆(北院门总店)",
   "_geocodeSuspect": false,
   "district": "610104",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "西安市莲湖区北院门（以门店公告为准）",
+        "new": "西安市莲湖区北院门93号（近鼓楼）"
+      }
+    ],
+    "source": "https://hk.trip.com/moments/poi-xi-an-jiasan-stuffed-with-juicy-pork-baoziguan-208275/",
+    "reason": "补门牌：图商POI与多平台均指北院门93号，坐标已重合"
+  }
 }

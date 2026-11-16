@@ -1,69 +1,108 @@
 {
-  "id": "suofeiya-square",
-  "name": "索菲亚广场",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "教堂前面那片铺石广场，是拍教堂最完整角度的地方，夜里灯一亮人最多。",
-  "description": "广场在教堂前面，是一片铺石的开阔地，把教堂与周围的房子隔开，让那座绿顶能整个看进去。白天这里有鸽子、有拍照的，也有坐着晒太阳的；天黑之后教堂打灯，广场上人反而更多，是这条街最热闹的一段。冬天雪后是最好的时候：白地上立着一座绿顶，灯从下面往上打。广场本身不收任何费用，随时能进，拍半小时到一小时都行。它与中央大街南口、博物馆那一片是连着的，逛完街走过来正好赶上亮灯。想拍人少的就早上来，光也柔。",
-  "highlights": [
-    "教堂正前方那片铺石地，是把绿顶整个拍进去的位置",
-    "天黑后打灯，广场上人反而更多",
-    "冬天雪后最好看，早上来人少光也柔"
-  ],
-  "location": {
-    "point": {
-      "lng": 126.627067,
-      "lat": 45.770623,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黑龙江省哈尔滨市道里区兆麟街道透笼街88号",
-    "district": "道里区",
-    "transportTip": "地铁二号线中央大街站或尚志大街站步行约十分钟"
+ "id": "suofeiya-square",
+ "name": "索菲亚广场",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "教堂前面那片铺石广场，是拍教堂最完整角度的地方，夜里灯一亮人最多。",
+ "description": "广场在教堂前面，是一片铺石的开阔地，把教堂与周围的房子隔开，让那座绿顶能整个看进去。白天这里有鸽子、有拍照的，也有坐着晒太阳的；天黑之后教堂打灯，广场上人反而更多，是这条街最热闹的一段。冬天雪后是最好的时候：白地上立着一座绿顶，灯从下面往上打。广场本身不收任何费用，随时能进，拍半小时到一小时都行。它与中央大街南口、博物馆那一片是连着的，逛完街走过来正好赶上亮灯。想拍人少的就早上来，光也柔。",
+ "highlights": [
+  "教堂正前方那片铺石地，是把绿顶整个拍进去的位置",
+  "天黑后打灯，广场上人反而更多",
+  "冬天雪后最好看，早上来人少光也柔"
+ ],
+ "location": {
+  "point": {
+   "lng": 126.627067,
+   "lat": 45.770623,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 30-90 分钟",
-    "durationMinutes": [
-      30,
-      90
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "family",
-    "kids"
+  "address": "黑龙江省哈尔滨市道里区兆麟街道透笼街88号",
+  "district": "道里区",
+  "transportTip": "地铁二号线中央大街站或尚志大街站步行约十分钟"
+ },
+ "practical": {
+  "openHours": "全天开放",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 30-90 分钟",
+  "durationMinutes": [
+   30,
+   90
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "广场",
-    "夜景",
-    "免费"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family",
+  "kids"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "广场",
+  "夜景",
+  "免费"
+ ],
+ "popularity": 88,
+ "sources": [
+  {
+   "title": "百度百科·圣索菲亚教堂",
+   "url": "https://baike.baidu.com/item/%E5%9C%A3%E7%B4%A2%E8%8F%B2%E4%BA%9A%E6%95%99%E5%A0%82",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "索菲亚广场"
+ },
+ "_geocodeTitle": "索菲亚广场",
+ "_geocodeSuspect": false,
+ "district": "230102",
+ "_noImage": true,
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.7,
+    "note": "正前方铺石地，能把绿顶整个拍进去"
+   },
+   {
+    "label": "人流",
+    "score": 3.0,
+    "note": "天黑打灯后人反而最多"
+   },
+   {
+    "label": "免费",
+    "score": 4.8,
+    "note": "全天开放，不收任何费用"
+   },
+   {
+    "label": "时段",
+    "score": 4.1,
+    "note": "冬天雪后最好，早上光柔人少"
+   }
   ],
-  "popularity": 88,
-  "sources": [
-    {
-      "title": "百度百科·圣索菲亚教堂",
-      "url": "https://baike.baidu.com/item/%E5%9C%A3%E7%B4%A2%E8%8F%B2%E4%BA%9A%E6%95%99%E5%A0%82",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
+  "body": "教堂正前方那片铺石地，是把绿顶整个拍进画面的位置，广场把周围房子隔开，取景上没得挑。天黑打灯之后最好看，冬天雪后白地上立一座绿顶尤其出片，而且全天免费随时能进。可惜亮灯之后人反而最多，想拍干净的画面得早上来，光也柔。广场本身没什么可逛的，半小时到一小时足够，它更像是中央大街南口顺路的一段，别指望在这里消磨半天。拍完往博物馆那一片走正好接上。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "拍教堂",
+   "夜景",
+   "免费行程"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "索菲亚广场"
-  },
-  "_geocodeTitle": "索菲亚广场",
-  "_geocodeSuspect": false,
-  "district": "230102",
-  "_noImage": true
+  "avoid": [
+   "想避开人群",
+   "想逛很久"
+  ],
+  "sources": []
+ }
 }

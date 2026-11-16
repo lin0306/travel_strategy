@@ -1,158 +1,196 @@
 {
-  "id": "changsha-museum",
-  "name": "长沙博物馆",
-  "category": "scenic",
-  "subtype": "museum",
-  "summary": "滨江文化园里的城市馆，讲长沙从商周到近代的这一段。",
-  "description": "长沙博物馆在开福区新河三角洲的滨江文化园，与长沙市图书馆、规划展示馆、音乐厅合称「三馆一厅」。基本陈列是长沙历史文化陈列，从商周时期的青铜礼器讲起——宁乡一带出土的象纹铜铙是商代晚期的大型乐器，这一批铜铙是长沙馆的重头。往下是楚汉时期的长沙国、唐代长沙窑的瓷器，一直到近代的开埠与维新。长沙窑那一段讲的是唐代外销瓷上的题诗与彩绘，与望城的铜官窑遗址能对上。馆是免费的，要预约，周一闭馆。它离湖南博物院不远，两馆之间打车十来分钟。",
-  "highlights": [
-    "基本陈列从商周青铜器讲到近代开埠",
-    "宁乡出土的商代象纹铜铙是重器",
-    "与滨江文化园的图书馆、音乐厅连成一片"
-  ],
-  "location": {
-    "point": {
-      "lng": 112.980727,
-      "lat": 28.241954,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "湖南省长沙市开福区新河三角洲滨江文化园",
-    "district": "开福区",
-    "transportTip": "地铁1号线马厂站或北辰三角洲站，步行约十分钟"
+ "id": "changsha-museum",
+ "name": "长沙博物馆",
+ "category": "scenic",
+ "subtype": "museum",
+ "summary": "滨江文化园里的城市馆，讲长沙从商周到近代的这一段。",
+ "description": "长沙博物馆在开福区新河三角洲的滨江文化园，与长沙市图书馆、规划展示馆、音乐厅合称「三馆一厅」。基本陈列是长沙历史文化陈列，从商周时期的青铜礼器讲起——宁乡一带出土的象纹铜铙是商代晚期的大型乐器，这一批铜铙是长沙馆的重头。往下是楚汉时期的长沙国、唐代长沙窑的瓷器，一直到近代的开埠与维新。长沙窑那一段讲的是唐代外销瓷上的题诗与彩绘，与望城的铜官窑遗址能对上。馆是免费的，要预约，周一闭馆。它离湖南博物院不远，两馆之间打车十来分钟。",
+ "highlights": [
+  "基本陈列从商周青铜器讲到近代开埠",
+  "宁乡出土的商代象纹铜铙是重器",
+  "与滨江文化园的图书馆、音乐厅连成一片"
+ ],
+ "location": {
+  "point": {
+   "lng": 112.980727,
+   "lat": 28.241954,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约09:00-17:00，16:00停止入馆，周一闭馆，需预约",
-    "openHoursRef": 0,
-    "ticket": "免费（需预约），以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 60-150 分钟",
-    "durationMinutes": [
-      60,
-      150
-    ],
-    "priceLevel": "free"
+  "address": "湖南省长沙市开福区新河三角洲滨江文化园",
+  "district": "开福区",
+  "transportTip": "地铁1号线马厂站或北辰三角洲站，步行约十分钟"
+ },
+ "practical": {
+  "openHours": "约09:00-17:00，16:00停止入馆，周一闭馆，需预约",
+  "openHoursRef": 0,
+  "ticket": "免费（需预约），以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 60-150 分钟",
+  "durationMinutes": [
+   60,
+   150
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "kids",
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Changsha_Museum%2C_picture1.jpg/1280px-Changsha_Museum%2C_picture1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Changsha_Museum%2C_picture1.jpg/1280px-Changsha_Museum%2C_picture1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Changsha Museum, picture1.jpg",
+   "query": "长沙博物馆 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Huangdan2060",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Changsha_Museum,_picture1.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
   },
-  "audience": [
-    "kids",
-    "family",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Changsha_Museum%2C_picture1.jpg/1280px-Changsha_Museum%2C_picture1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Changsha_Museum%2C_picture1.jpg/1280px-Changsha_Museum%2C_picture1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Changsha Museum, picture1.jpg",
-      "query": "长沙博物馆 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Huangdan2060",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Changsha_Museum,_picture1.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Changsha_Museum_and_Changsha_Planning_Exhibition_Hall_2023040208.jpg/1280px-Changsha_Museum_and_Changsha_Planning_Exhibition_Hall_2023040208.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Changsha_Museum_and_Changsha_Planning_Exhibition_Hall_2023040208.jpg/1280px-Changsha_Museum_and_Changsha_Planning_Exhibition_Hall_2023040208.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Changsha Museum and Changsha Planning Exhibition Hall 2023040208.jpg",
-      "query": "长沙博物馆 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Huangdan2060",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Changsha_Museum_and_Changsha_Planning_Exhibition_Hall_2023040208.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Changsha_Museum_and_Changsha_Planning_Exhibition_Hall_2023040212.jpg/1280px-Changsha_Museum_and_Changsha_Planning_Exhibition_Hall_2023040212.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Changsha_Museum_and_Changsha_Planning_Exhibition_Hall_2023040212.jpg/1280px-Changsha_Museum_and_Changsha_Planning_Exhibition_Hall_2023040212.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Changsha Museum and Changsha Planning Exhibition Hall 2023040212.jpg",
-      "query": "长沙博物馆 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Huangdan2060",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Changsha_Museum_and_Changsha_Planning_Exhibition_Hall_2023040212.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Covered_Butter_Dish%2C_the_late_Qing_Dynasty%2C_Changsha_Museum.jpg/1280px-Covered_Butter_Dish%2C_the_late_Qing_Dynasty%2C_Changsha_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Covered_Butter_Dish%2C_the_late_Qing_Dynasty%2C_Changsha_Museum.jpg/1280px-Covered_Butter_Dish%2C_the_late_Qing_Dynasty%2C_Changsha_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Covered Butter Dish, the late Qing Dynasty, Changsha Museum.jpg",
-      "query": "长沙博物馆 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Huangdan2060",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Covered_Butter_Dish,_the_late_Qing_Dynasty,_Changsha_Museum.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Emperor_Xuanzong_Descending_to_Sichuan_by_Li_Zhaodao%2C_Changsha_Museum.jpg/1280px-Emperor_Xuanzong_Descending_to_Sichuan_by_Li_Zhaodao%2C_Changsha_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Emperor_Xuanzong_Descending_to_Sichuan_by_Li_Zhaodao%2C_Changsha_Museum.jpg/1280px-Emperor_Xuanzong_Descending_to_Sichuan_by_Li_Zhaodao%2C_Changsha_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Emperor Xuanzong Descending to Sichuan by Li Zhaodao, Changsha Museum.jpg",
-      "query": "长沙博物馆 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Li Zhaodao",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emperor_Xuanzong_Descending_to_Sichuan_by_Li_Zhaodao,_Changsha_Museum.jpg",
-        "license": "Public domain",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Far_view_of_Changsha_Museum%2C_picture2.jpg/1280px-Far_view_of_Changsha_Museum%2C_picture2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Far_view_of_Changsha_Museum%2C_picture2.jpg/1280px-Far_view_of_Changsha_Museum%2C_picture2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Far view of Changsha Museum, picture2.jpg",
-      "query": "长沙博物馆 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Huangdan2060",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Far_view_of_Changsha_Museum,_picture2.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "青铜器",
-    "长沙窑",
-    "城市馆"
-  ],
-  "popularity": 84,
-  "sources": [
-    {
-      "title": "百度百科·长沙博物馆",
-      "url": "https://baike.baidu.com/item/%E9%95%BF%E6%B2%99%E5%8D%9A%E7%89%A9%E9%A6%86",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "长沙博物馆"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Changsha_Museum_and_Changsha_Planning_Exhibition_Hall_2023040208.jpg/1280px-Changsha_Museum_and_Changsha_Planning_Exhibition_Hall_2023040208.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Changsha_Museum_and_Changsha_Planning_Exhibition_Hall_2023040208.jpg/1280px-Changsha_Museum_and_Changsha_Planning_Exhibition_Hall_2023040208.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Changsha Museum and Changsha Planning Exhibition Hall 2023040208.jpg",
+   "query": "长沙博物馆 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Huangdan2060",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Changsha_Museum_and_Changsha_Planning_Exhibition_Hall_2023040208.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "长沙市博物馆",
-  "_geocodeSuspect": false,
-  "district": "430105"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Changsha_Museum_and_Changsha_Planning_Exhibition_Hall_2023040212.jpg/1280px-Changsha_Museum_and_Changsha_Planning_Exhibition_Hall_2023040212.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Changsha_Museum_and_Changsha_Planning_Exhibition_Hall_2023040212.jpg/1280px-Changsha_Museum_and_Changsha_Planning_Exhibition_Hall_2023040212.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Changsha Museum and Changsha Planning Exhibition Hall 2023040212.jpg",
+   "query": "长沙博物馆 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Huangdan2060",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Changsha_Museum_and_Changsha_Planning_Exhibition_Hall_2023040212.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Covered_Butter_Dish%2C_the_late_Qing_Dynasty%2C_Changsha_Museum.jpg/1280px-Covered_Butter_Dish%2C_the_late_Qing_Dynasty%2C_Changsha_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Covered_Butter_Dish%2C_the_late_Qing_Dynasty%2C_Changsha_Museum.jpg/1280px-Covered_Butter_Dish%2C_the_late_Qing_Dynasty%2C_Changsha_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Covered Butter Dish, the late Qing Dynasty, Changsha Museum.jpg",
+   "query": "长沙博物馆 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Huangdan2060",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Covered_Butter_Dish,_the_late_Qing_Dynasty,_Changsha_Museum.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Emperor_Xuanzong_Descending_to_Sichuan_by_Li_Zhaodao%2C_Changsha_Museum.jpg/1280px-Emperor_Xuanzong_Descending_to_Sichuan_by_Li_Zhaodao%2C_Changsha_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Emperor_Xuanzong_Descending_to_Sichuan_by_Li_Zhaodao%2C_Changsha_Museum.jpg/1280px-Emperor_Xuanzong_Descending_to_Sichuan_by_Li_Zhaodao%2C_Changsha_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Emperor Xuanzong Descending to Sichuan by Li Zhaodao, Changsha Museum.jpg",
+   "query": "长沙博物馆 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Li Zhaodao",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emperor_Xuanzong_Descending_to_Sichuan_by_Li_Zhaodao,_Changsha_Museum.jpg",
+    "license": "Public domain",
+    "attributionRequired": false
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Far_view_of_Changsha_Museum%2C_picture2.jpg/1280px-Far_view_of_Changsha_Museum%2C_picture2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Far_view_of_Changsha_Museum%2C_picture2.jpg/1280px-Far_view_of_Changsha_Museum%2C_picture2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Far view of Changsha Museum, picture2.jpg",
+   "query": "长沙博物馆 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Huangdan2060",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Far_view_of_Changsha_Museum,_picture2.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "青铜器",
+  "长沙窑",
+  "城市馆"
+ ],
+ "popularity": 84,
+ "sources": [
+  {
+   "title": "百度百科·长沙博物馆",
+   "url": "https://baike.baidu.com/item/%E9%95%BF%E6%B2%99%E5%8D%9A%E7%89%A9%E9%A6%86",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "长沙博物馆"
+ },
+ "_geocodeTitle": "长沙市博物馆",
+ "_geocodeSuspect": false,
+ "district": "430105",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "展陈",
+    "score": 4.3,
+    "note": "商周青铜与唐代长沙窑两段最扎实，宁乡铜铙是重头"
+   },
+   {
+    "label": "人流",
+    "score": 3.2,
+    "note": "免费预约制，周末上午亲子团集中"
+   },
+   {
+    "label": "免费程度",
+    "score": 4.8,
+    "note": "基本陈列不收费，只需预约"
+   },
+   {
+    "label": "亲子友好",
+    "score": 3.8,
+    "note": "互动装置不多，低龄娃耐心有限"
+   }
+  ],
+  "body": "免费的市级馆，基本陈列从宁乡出土的商代铜铙一路讲到长沙窑的釉下彩题诗，商周与唐代两段最扎实。缺点是体量和重器都不及湖南博物院，专程跑一趟会略觉单薄；位置在滨江文化园，离老城有一段，打车比地铁省事。周一闭馆、要预约，和图书馆、音乐厅连成一片，顺路拼半天刚好。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "带娃",
+   "避雨",
+   "半日"
+  ],
+  "avoid": [
+   "专程追镇馆之宝"
+  ],
+  "sources": []
+ }
 }

@@ -1,158 +1,197 @@
 {
-  "id": "mutianyu-great-wall",
-  "name": "慕田峪长城",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "长城慕田峪独秀——植被最密、敌楼双面垛口独一份，比八达岭清静得多。",
-  "description": "慕田峪长城在怀柔渤海镇,明初在北齐旧址上重建,全长约五点四公里,现存敌楼二十三座。它正关台三座敌楼并立的形制在长城里独一份,双侧垛口也说明这里当年攻防两用。一九八七年与八达岭同以「长城」之名列入世界遗产,植被覆盖率高,秋天层林尽染最好看。缆车到十四号敌楼是核心枢纽,往东到二十号敌楼「好汉坡」景色最陡也最壮;下山可坐滑道。门票之外摆渡车与缆车均需另购,旺季周末仍比八达岭人少;东直门、前门有旅游专线直达。",
-  "highlights": [
-    "正关台三楼并立、双侧垛口形制独特",
-    "十四号敌楼向东至二十号是精华段",
-    "有缆车与滑道,比八达岭人少"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.570401,
-      "lat": 40.432721,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "北京市怀柔区渤海镇慕田峪村",
-    "district": "怀柔",
-    "transportTip": "东直门/前门有旅游专线直达;自驾京承高速13号出口(北台路)约1.5小时"
+ "id": "mutianyu-great-wall",
+ "name": "慕田峪长城",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "长城慕田峪独秀——植被最密、敌楼双面垛口独一份，比八达岭清静得多。",
+ "description": "慕田峪长城在怀柔渤海镇,明初在北齐旧址上重建,全长约五点四公里,现存敌楼二十三座。它正关台三座敌楼并立的形制在长城里独一份,双侧垛口也说明这里当年攻防两用。一九八七年与八达岭同以「长城」之名列入世界遗产,植被覆盖率高,秋天层林尽染最好看。缆车到十四号敌楼是核心枢纽,往东到二十号敌楼「好汉坡」景色最陡也最壮;下山可坐滑道。门票之外摆渡车与缆车均需另购,旺季周末仍比八达岭人少;东直门、前门有旅游专线直达。",
+ "highlights": [
+  "正关台三楼并立、双侧垛口形制独特",
+  "十四号敌楼向东至二十号是精华段",
+  "有缆车与滑道,比八达岭人少"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.570401,
+   "lat": 40.432721,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "旺季约07:30-18:00,淡季约08:00-17:30,以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "约40元(45元含纪念明信片),摆渡车15元,缆车往返约140元,以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 240-360 分钟",
-    "durationMinutes": [
-      240,
-      360
-    ],
-    "priceLevel": "high"
+  "address": "北京市怀柔区渤海镇慕田峪村",
+  "district": "怀柔",
+  "transportTip": "东直门/前门有旅游专线直达;自驾京承高速13号出口(北台路)约1.5小时"
+ },
+ "practical": {
+  "openHours": "旺季约07:30-18:00,淡季约08:00-17:30,以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "约40元(45元含纪念明信片),摆渡车15元,缆车往返约140元,以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 240-360 分钟",
+  "durationMinutes": [
+   240,
+   360
+  ],
+  "priceLevel": "high"
+ },
+ "audience": [
+  "couple",
+  "kids",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/66954-The-Great-Wall%2C_Mutianyu.jpg/1280px-66954-The-Great-Wall%2C_Mutianyu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/66954-The-Great-Wall%2C_Mutianyu.jpg/1280px-66954-The-Great-Wall%2C_Mutianyu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1618,
+   "alt": "66954-The-Great-Wall, Mutianyu.jpg",
+   "query": "慕田峪长城 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:66954-The-Great-Wall,_Mutianyu.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "kids",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/66954-The-Great-Wall%2C_Mutianyu.jpg/1280px-66954-The-Great-Wall%2C_Mutianyu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/66954-The-Great-Wall%2C_Mutianyu.jpg/1280px-66954-The-Great-Wall%2C_Mutianyu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1618,
-      "alt": "66954-The-Great-Wall, Mutianyu.jpg",
-      "query": "慕田峪长城 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:66954-The-Great-Wall,_Mutianyu.jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/67052-The-Great-Wall%2C_Mutianyu.jpg/1280px-67052-The-Great-Wall%2C_Mutianyu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/67052-The-Great-Wall%2C_Mutianyu.jpg/1280px-67052-The-Great-Wall%2C_Mutianyu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 721,
-      "alt": "67052-The-Great-Wall, Mutianyu.jpg",
-      "query": "慕田峪长城 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:67052-The-Great-Wall,_Mutianyu.jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/67054-The-Great-Wall%2C_Mutianyu.jpg/1280px-67054-The-Great-Wall%2C_Mutianyu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/67054-The-Great-Wall%2C_Mutianyu.jpg/1280px-67054-The-Great-Wall%2C_Mutianyu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 721,
-      "alt": "67054-The-Great-Wall, Mutianyu.jpg",
-      "query": "慕田峪长城 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:67054-The-Great-Wall,_Mutianyu.jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Great_Wall_of_China_July_2006.JPG/1280px-Great_Wall_of_China_July_2006.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Great_Wall_of_China_July_2006.JPG/1280px-Great_Wall_of_China_July_2006.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 808,
-      "alt": "Great Wall of China July 2006.JPG",
-      "query": "慕田峪长城 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Velatrix",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Wall_of_China_July_2006.JPG",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Mutianyu%2C_grande_muraglia_cinese%2C_veduta_%28autunno_2024%29_06.jpg/1280px-Mutianyu%2C_grande_muraglia_cinese%2C_veduta_%28autunno_2024%29_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Mutianyu%2C_grande_muraglia_cinese%2C_veduta_%28autunno_2024%29_06.jpg/1280px-Mutianyu%2C_grande_muraglia_cinese%2C_veduta_%28autunno_2024%29_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Mutianyu, grande muraglia cinese, veduta (autunno 2024) 06.jpg",
-      "query": "慕田峪长城 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Francesco Bini",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mutianyu,_grande_muraglia_cinese,_veduta_(autunno_2024)_06.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Mutianyu%2C_grande_muraglia_cinese%2C_veduta_%28autunno_2024%29_07_casotto.jpg/1280px-Mutianyu%2C_grande_muraglia_cinese%2C_veduta_%28autunno_2024%29_07_casotto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Mutianyu%2C_grande_muraglia_cinese%2C_veduta_%28autunno_2024%29_07_casotto.jpg/1280px-Mutianyu%2C_grande_muraglia_cinese%2C_veduta_%28autunno_2024%29_07_casotto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Mutianyu, grande muraglia cinese, veduta (autunno 2024) 07 casotto.jpg",
-      "query": "慕田峪长城 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Francesco Bini",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mutianyu,_grande_muraglia_cinese,_veduta_(autunno_2024)_07_casotto.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "世界遗产",
-    "长城",
-    "秋色"
-  ],
-  "popularity": 93,
-  "sources": [
-    {
-      "title": "百度百科·慕田峪长城",
-      "url": "https://baike.baidu.com/item/%E6%85%95%E7%94%B0%E5%B3%AA%E9%95%BF%E5%9F%8E",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-23"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "慕田峪长城"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/67052-The-Great-Wall%2C_Mutianyu.jpg/1280px-67052-The-Great-Wall%2C_Mutianyu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/67052-The-Great-Wall%2C_Mutianyu.jpg/1280px-67052-The-Great-Wall%2C_Mutianyu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 721,
+   "alt": "67052-The-Great-Wall, Mutianyu.jpg",
+   "query": "慕田峪长城 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:67052-The-Great-Wall,_Mutianyu.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "慕田峪长城",
-  "_geocodeSuspect": false,
-  "district": "110116"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/67054-The-Great-Wall%2C_Mutianyu.jpg/1280px-67054-The-Great-Wall%2C_Mutianyu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/67054-The-Great-Wall%2C_Mutianyu.jpg/1280px-67054-The-Great-Wall%2C_Mutianyu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 721,
+   "alt": "67054-The-Great-Wall, Mutianyu.jpg",
+   "query": "慕田峪长城 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:67054-The-Great-Wall,_Mutianyu.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Great_Wall_of_China_July_2006.JPG/1280px-Great_Wall_of_China_July_2006.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Great_Wall_of_China_July_2006.JPG/1280px-Great_Wall_of_China_July_2006.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 808,
+   "alt": "Great Wall of China July 2006.JPG",
+   "query": "慕田峪长城 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Velatrix",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Wall_of_China_July_2006.JPG",
+    "license": "CC0",
+    "attributionRequired": false
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Mutianyu%2C_grande_muraglia_cinese%2C_veduta_%28autunno_2024%29_06.jpg/1280px-Mutianyu%2C_grande_muraglia_cinese%2C_veduta_%28autunno_2024%29_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Mutianyu%2C_grande_muraglia_cinese%2C_veduta_%28autunno_2024%29_06.jpg/1280px-Mutianyu%2C_grande_muraglia_cinese%2C_veduta_%28autunno_2024%29_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Mutianyu, grande muraglia cinese, veduta (autunno 2024) 06.jpg",
+   "query": "慕田峪长城 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Francesco Bini",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mutianyu,_grande_muraglia_cinese,_veduta_(autunno_2024)_06.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Mutianyu%2C_grande_muraglia_cinese%2C_veduta_%28autunno_2024%29_07_casotto.jpg/1280px-Mutianyu%2C_grande_muraglia_cinese%2C_veduta_%28autunno_2024%29_07_casotto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Mutianyu%2C_grande_muraglia_cinese%2C_veduta_%28autunno_2024%29_07_casotto.jpg/1280px-Mutianyu%2C_grande_muraglia_cinese%2C_veduta_%28autunno_2024%29_07_casotto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Mutianyu, grande muraglia cinese, veduta (autunno 2024) 07 casotto.jpg",
+   "query": "慕田峪长城 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Francesco Bini",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mutianyu,_grande_muraglia_cinese,_veduta_(autunno_2024)_07_casotto.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "世界遗产",
+  "长城",
+  "秋色"
+ ],
+ "popularity": 93,
+ "sources": [
+  {
+   "title": "百度百科·慕田峪长城",
+   "url": "https://baike.baidu.com/item/%E6%85%95%E7%94%B0%E5%B3%AA%E9%95%BF%E5%9F%8E",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-23"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "慕田峪长城"
+ },
+ "_geocodeTitle": "慕田峪长城",
+ "_geocodeSuspect": false,
+ "district": "110116",
+ "review": {
+  "score": 4.6,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.8,
+    "note": "十四号敌楼向东到二十号一段最壮，好汉坡坡度也最陡"
+   },
+   {
+    "label": "体力",
+    "score": 2.6,
+    "note": "台阶高矮不齐，上下全程对膝盖不友好"
+   },
+   {
+    "label": "人流",
+    "score": 4.0,
+    "note": "比八达岭清静不少，但周末上午缆车站仍要排"
+   },
+   {
+    "label": "花费",
+    "score": 2.8,
+    "note": "门票之外摆渡车、缆车、滑道全部另收费，加起来不便宜"
+   }
+  ],
+  "body": "慕田峪是「想看长城又不想挤八达岭」的答案：植被密，秋天层林尽染，正关台三座敌楼并立的形制在长城里独一份。但别指望它便宜省力——门票只是开始，摆渡车、往返缆车、下山滑道都要另外掏钱，全套下来人均并不低；台阶高矮不齐，从十四号往二十号那段走完，腿是要抖的。体力一般的话，缆车上、滑道下，只走精华段最划算。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "看长城",
+   "秋色",
+   "摄影"
+  ],
+  "avoid": [
+   "膝盖不好",
+   "预算很紧"
+  ],
+  "sources": []
+ }
 }

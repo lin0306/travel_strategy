@@ -1,67 +1,100 @@
 {
-  "id": "langu-xune",
-  "name": "岚谷熏鹅",
-  "category": "food",
-  "subtype": "local",
-  "summary": "武夷山招牌菜，辣香熏制。",
-  "description": "岚谷熏鹅是武夷山最有名的本地菜，出自北边的岚谷乡，用当地土鹅先卤后熏，表皮红亮、带着松柏的烟香，再拌上辣椒、八角和桂皮，辣中带香、越啃越上头。它冷吃热吃都行，是下酒下饭的两把好手，几乎每家本地餐馆都有。辣度不低，吃不惯辣的提前说少放。配岩茶解腻正好，是体验武夷味道的必点。",
-  "highlights": [
-    "岚谷招牌",
-    "烟熏辣香",
-    "下酒神器"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.026928,
-      "lat": 27.732971,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "福建省南平市武夷山市各餐馆（岚谷风味）",
-    "district": "武夷山",
-    "transportTip": "市区及三姑餐馆均可点，步行可达"
+ "id": "langu-xune",
+ "name": "岚谷熏鹅",
+ "category": "food",
+ "subtype": "local",
+ "summary": "武夷山招牌菜，辣香熏制。",
+ "description": "岚谷熏鹅是武夷山最有名的本地菜，出自北边的岚谷乡，用当地土鹅先卤后熏，表皮红亮、带着松柏的烟香，再拌上辣椒、八角和桂皮，辣中带香、越啃越上头。它冷吃热吃都行，是下酒下饭的两把好手，几乎每家本地餐馆都有。辣度不低，吃不惯辣的提前说少放。配岩茶解腻正好，是体验武夷味道的必点。",
+ "highlights": [
+  "岚谷招牌",
+  "烟熏辣香",
+  "下酒神器"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.026928,
+   "lat": 27.732971,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 10:30-21:00",
-    "openHoursRef": 0,
-    "ticket": "人均约 60-120 元，以实际为准",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "friends",
-    "couple"
+  "address": "福建省南平市武夷山市各餐馆（岚谷风味）",
+  "district": "武夷山",
+  "transportTip": "市区及三姑餐馆均可点，步行可达"
+ },
+ "practical": {
+  "openHours": "约 10:30-21:00",
+  "openHoursRef": 0,
+  "ticket": "人均约 60-120 元，以实际为准",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "熏鹅",
-    "辣味",
-    "招牌菜"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "friends",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "熏鹅",
+  "辣味",
+  "招牌菜"
+ ],
+ "popularity": 90,
+ "sources": [
+  {
+   "title": "百度百科·岚谷熏鹅",
+   "url": "https://baike.baidu.com/item/%E5%B2%9A%E8%B0%B7%E7%86%8F%E9%B9%85",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-06"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "岚谷熏鹅"
+ },
+ "_geocodeTitle": "岚谷熏鹅",
+ "_geocodeSuspect": false,
+ "district": "350782",
+ "_noImage": true,
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.6,
+    "note": "烟熏香厚，皮紧肉弹"
+   },
+   {
+    "label": "辣度",
+    "score": 3.0,
+    "note": "本地做法偏辣，不吃辣要提前说"
+   },
+   {
+    "label": "价格",
+    "score": 3.5,
+    "note": "按只或半只卖，人少不好点"
+   }
   ],
-  "popularity": 90,
-  "sources": [
-    {
-      "title": "百度百科·岚谷熏鹅",
-      "url": "https://baike.baidu.com/item/%E5%B2%9A%E8%B0%B7%E7%86%8F%E9%B9%85",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-06"
-    }
+  "body": "武夷山的招牌菜，先卤后熏，皮红亮、带松柏和茶叶的烟香，配辣椒八角一拌，越啃越上头，配岩茶解腻刚好。缺点是辣度不低，闽北的辣是往骨头里走的，吃不了辣一定要点单时说；另外多是整只或半只起卖，两三个人点一只就吃不下别的菜了。想带走当伴手礼，真空装比现斩的更稳妥。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "吃肉",
+   "下酒"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "岚谷熏鹅"
-  },
-  "_geocodeTitle": "岚谷熏鹅",
-  "_geocodeSuspect": false,
-  "district": "350782",
-  "_noImage": true
+  "avoid": [
+   "不吃辣",
+   "一个人"
+  ],
+  "sources": []
+ }
 }

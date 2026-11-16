@@ -1,67 +1,138 @@
 {
-  "id": "nanning-zongzi",
-  "name": "南宁粽子",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "南宁的灰水凉粽与肉粽，蘸糖或配肉。",
-  "description": "粽子在南宁是常年的小吃，最具本地特色的是灰水凉粽，用草木灰水浸糯米，煮出后米色微黄、口感清爽，蘸白糖或红糖吃。另一种是包肉、蛋黄和绿豆的咸肉粽，是早餐和过节的主角。街头和菜市现包现煮的摊子不少，热乎乎一个很顶饱。价低、方便，是南宁人的日常零嘴和早点。",
-  "highlights": [
-    "本地特色灰水凉粽，蘸糖吃",
-    "咸肉粽包肉蛋黄绿豆",
-    "街头现包现煮，价低顶饱"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.331925,
-      "lat": 22.84534,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市各城区的早餐摊与菜市",
-    "district": "兴宁区",
-    "transportTip": "市区步行或乘公交至就近摊点"
+ "id": "nanning-zongzi",
+ "name": "南宁粽子",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "南宁的灰水凉粽与肉粽，蘸糖或配肉。",
+ "description": "粽子在南宁是常年的小吃，最具本地特色的是灰水凉粽，用草木灰水浸糯米，煮出后米色微黄、口感清爽，蘸白糖或红糖吃。另一种是包肉、蛋黄和绿豆的咸肉粽，是早餐和过节的主角。街头和菜市现包现煮的摊子不少，热乎乎一个很顶饱。价低、方便，是南宁人的日常零嘴和早点。",
+ "highlights": [
+  "本地特色灰水凉粽，蘸糖吃",
+  "咸肉粽包肉蛋黄绿豆",
+  "街头现包现煮，价低顶饱"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.331925,
+   "lat": 22.84534,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约06:30-12:00（以摊点为准）",
-    "openHoursRef": 0,
-    "ticket": "人均约8元，以门店为准",
-    "ticketRef": 0,
-    "duration": "建议 15-40 分钟",
-    "durationMinutes": [
-      15,
-      40
+  "address": "南宁市各城区的早餐摊与菜市",
+  "district": "兴宁区",
+  "transportTip": "市区步行或乘公交至就近摊点"
+ },
+ "practical": {
+  "openHours": "约06:30-12:00（以摊点为准）",
+  "openHoursRef": 0,
+  "ticket": "人均约8元，以门店为准",
+  "ticketRef": 0,
+  "duration": "建议 15-40 分钟",
+  "durationMinutes": [
+   15,
+   40
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "solo",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [
+  "水街老牌粽店单个 2-8 元，700 克大粽适合一家分享、150 克三角小粽一人食",
+  "灰水粽、凉粽是本地传统款，街头菜市现包现煮的多，端午前后要排队"
+ ],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "粽子",
+  "灰水粽",
+  "小吃"
+ ],
+ "popularity": 66,
+ "sources": [
+  {
+   "title": "百度百科·粽子",
+   "url": "https://baike.baidu.com/item/%E7%B2%BD%E5%AD%90",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  },
+  {
+   "title": "南宁日报 2026-06-16《粽子走俏 国风出圈》给出水街粽店规格与售价",
+   "url": "http://nnrb.nnnews.net:8080/nnrb/20260616/mhtml/page_04_content_001.htm",
+   "kind": "media",
+   "fetchedAt": "2026-11-15"
+  },
+  {
+   "title": "南宁日报 2026-06-16《粽子走俏 国风出圈》给出水街粽店规格与售价（修正",
+   "url": "http://nnrb.nnnews.net:8080/nnrb/20260616/mhtml/page_04_content_001.htm",
+   "kind": "media",
+   "fetchedAt": "2026-11-15"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "南宁粽子"
+ },
+ "_geocodeTitle": "早早餐饮店(虎邱店)",
+ "_geocodeSuspect": false,
+ "district": "450102",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-15",
+  "changes": [
+   {
+    "field": "贴士（用 | 分隔多条，整体替换）",
+    "old": [
+     "水街老牌粽店单个 2-8 元，700 克大粽适合一家分享、150 克三角小粽一人食\\",
+     "灰水粽、凉粽是本地传统款，街头菜市现包现煮的多，端午前后要排队"
     ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "solo",
-    "elders"
+    "new": [
+     "水街老牌粽店单个 2-8 元，700 克大粽适合一家分享、150 克三角小粽一人食",
+     "灰水粽、凉粽是本地传统款，街头菜市现包现煮的多，端午前后要排队"
+    ]
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "粽子",
-    "灰水粽",
-    "小吃"
+  "source": "http://nnrb.nnnews.net:8080/nnrb/20260616/mhtml/page_04_content_001.htm",
+  "reason": "南宁日报 2026-06-16《粽子走俏 国风出圈》给出水街粽店规格与售价（修正上一步转义残留）"
+ },
+ "review": {
+  "score": 3.8,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 3.9,
+    "note": "灰水凉粽清爽蘸糖，咸肉粽管饱"
+   },
+   {
+    "label": "分量",
+    "score": 4.2,
+    "note": "大粽能一家人分，小三角粽一人食"
+   },
+   {
+    "label": "价格",
+    "score": 4.4,
+    "note": "几块钱一个，随买随吃"
+   },
+   {
+    "label": "可得性",
+    "score": 3.0,
+    "note": "摊点分散，得撞时间"
+   }
   ],
-  "popularity": 66,
-  "sources": [
-    {
-      "title": "百度百科·粽子",
-      "url": "https://baike.baidu.com/item/%E7%B2%BD%E5%AD%90",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "南宁的粽子分两路：灰水凉粽米色微黄、清爽，蘸白糖吃；咸肉粽包肉、蛋黄和绿豆，当早饭顶饱。菜市和街头现包现煮的摊子最靠谱，热的一个下去半天不饿。可惜的是这类摊点分散、出摊时间不固定，专门找容易扑空；凉粽偏甜、咸粽偏油，吃第二个就腻了。路过买一个尝味道就够。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "尝本地小吃",
+   "带路上吃"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "南宁粽子"
-  },
-  "_geocodeTitle": "早早餐饮店(虎邱店)",
-  "_geocodeSuspect": false,
-  "district": "450102",
-  "_noImage": true
+  "avoid": [
+   "特意找摊",
+   "怕油腻"
+  ],
+  "sources": []
+ }
 }

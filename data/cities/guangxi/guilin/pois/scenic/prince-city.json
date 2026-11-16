@@ -1,194 +1,262 @@
 {
-  "id": "prince-city",
-  "name": "独秀峰王城景区",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "明代靖江王府的城，中间那座孤峰叫独秀峰，抬头就看见崖壁上刻着桂林山水甲天下。",
-  "description": "王城是明代靖江王的府第，一整套城墙、城门、宫殿基址都在，外面现在围着广西师范大学与一些老院子。进门是端礼门，沿中轴走到底就是独秀峰 —— 一座平地拔起來的孤峰，不高但陡，从后面绕上去十分钟。峰的东北崖壁上刻着八百年前的诗句「桂林山水甲天下」，就是这一句把这座城的广告词定了八百年。除了这些，院子里还有贡院的考棚，是过去广西乡试的地方，可以体验一次模拟科举。夜里有时会做灯光与演出，跟着讲解听着走一遭味道更足，讲解在门口凑够一批就出发。它就在东西巷旁，与两江四湖、正阳街步行都通。",
-  "highlights": [
-    "独秀峰崖壁上刻着「桂林山水甲天下」，八百年了",
-    "一整套明代王府的城墙城门都在，现在是学校与老院子围着",
-    "里面有贡院考棚，可以体验一次模拟科举"
-  ],
-  "location": {
-    "point": {
-      "lng": 110.299321,
-      "lat": 25.28219,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "广西壮族自治区桂林市秀峰区秀峰路8号独秀峰王城景区",
-    "district": "秀峰区",
-    "transportTip": "市区步行或公交至王城站；紧邻东西巷"
+ "id": "prince-city",
+ "name": "独秀峰王城景区",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "明代靖江王府的城，中间那座孤峰叫独秀峰，抬头就看见崖壁上刻着桂林山水甲天下。",
+ "description": "王城是明代靖江王的府第，一整套城墙、城门、宫殿基址都在，外面现在围着广西师范大学与一些老院子。进门是端礼门，沿中轴走到底就是独秀峰 —— 一座平地拔起來的孤峰，不高但陡，从后面绕上去十分钟。峰的东北崖壁上刻着八百年前的诗句「桂林山水甲天下」，就是这一句把这座城的广告词定了八百年。除了这些，院子里还有贡院的考棚，是过去广西乡试的地方，可以体验一次模拟科举。夜里有时会做灯光与演出，跟着讲解听着走一遭味道更足，讲解在门口凑够一批就出发。它就在东西巷旁，与两江四湖、正阳街步行都通。",
+ "highlights": [
+  "独秀峰崖壁上刻着「桂林山水甲天下」，八百年了",
+  "一整套明代王府的城墙城门都在，现在是学校与老院子围着",
+  "里面有贡院考棚，可以体验一次模拟科举"
+ ],
+ "location": {
+  "point": {
+   "lng": 110.299321,
+   "lat": 25.28219,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约7:30-18:00，夜场与演出以景区公告为准",
-    "openHoursRef": 0,
-    "ticket": "中等，含讲解，以景区公告为准",
-    "ticketRef": 0,
-    "duration": "建议 120-210 分钟",
-    "durationMinutes": [
-      120,
-      210
-    ],
-    "priceLevel": "mid"
+  "address": "广西壮族自治区桂林市秀峰区秀峰路8号独秀峰王城景区",
+  "district": "秀峰区",
+  "transportTip": "市区步行或公交至王城站；紧邻东西巷"
+ },
+ "practical": {
+  "openHours": "约7:30-18:00，夜场与演出以景区公告为准",
+  "openHoursRef": 0,
+  "ticket": "中等，含讲解，以景区公告为准",
+  "ticketRef": 0,
+  "duration": "建议 120-210 分钟",
+  "durationMinutes": [
+   120,
+   210
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "family",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [
+  "2026-05 有媒体曝光园内存在消费诱导与动线不合理，二次消费项目与讲解服务先问清价格"
+ ],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%BA%9C%E5%8C%97%E9%96%80_The_North_Gate_of_Prince_Jingjiang%60s_Palace_-_panoramio.jpg/1280px-%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%BA%9C%E5%8C%97%E9%96%80_The_North_Gate_of_Prince_Jingjiang%60s_Palace_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%BA%9C%E5%8C%97%E9%96%80_The_North_Gate_of_Prince_Jingjiang%60s_Palace_-_panoramio.jpg/1280px-%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%BA%9C%E5%8C%97%E9%96%80_The_North_Gate_of_Prince_Jingjiang%60s_Palace_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "靖江王府北門 The North Gate of Prince Jingjiang`s Palace - panoramio.jpg",
+   "query": "独秀峰王城景区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "lienyuan lee",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "couple",
-    "family",
-    "elders"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%BA%9C%E9%9B%B2%E9%99%9B_Cloud_Stairway_in_Prince_Jingjiang%27_Mansion_-_panoramio.jpg/1280px-%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%BA%9C%E9%9B%B2%E9%99%9B_Cloud_Stairway_in_Prince_Jingjiang%27_Mansion_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%BA%9C%E9%9B%B2%E9%99%9B_Cloud_Stairway_in_Prince_Jingjiang%27_Mansion_-_panoramio.jpg/1280px-%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%BA%9C%E9%9B%B2%E9%99%9B_Cloud_Stairway_in_Prince_Jingjiang%27_Mansion_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "靖江王府雲陛 Cloud Stairway in Prince Jingjiang' Mansion - panoramio.jpg",
+   "query": "独秀峰王城景区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "lienyuan lee",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Xiufeng%2C_Guilin%2C_Guangxi%2C_China_-_panoramio_%286%29.jpg/1280px-Xiufeng%2C_Guilin%2C_Guangxi%2C_China_-_panoramio_%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Xiufeng%2C_Guilin%2C_Guangxi%2C_China_-_panoramio_%286%29.jpg/1280px-Xiufeng%2C_Guilin%2C_Guangxi%2C_China_-_panoramio_%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Xiufeng, Guilin, Guangxi, China - panoramio (6).jpg",
+   "query": "独秀峰王城景区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Haluk Comertel",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Xiufeng%2C_Guilin%2C_Guangxi%2C_China_-_panoramio_%281%29.jpg/1280px-Xiufeng%2C_Guilin%2C_Guangxi%2C_China_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Xiufeng%2C_Guilin%2C_Guangxi%2C_China_-_panoramio_%281%29.jpg/1280px-Xiufeng%2C_Guilin%2C_Guangxi%2C_China_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Xiufeng, Guilin, Guangxi, China - panoramio (1).jpg",
+   "query": "独秀峰王城景区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "HALUK COMERTEL",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/89784-Guilin_%2830620376737%29.jpg/1280px-89784-Guilin_%2830620376737%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/89784-Guilin_%2830620376737%29.jpg/1280px-89784-Guilin_%2830620376737%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "89784-Guilin (30620376737).jpg",
+   "query": "独秀峰王城景区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%BA%9C%E5%8C%97%E9%97%A8_The_North_Gate_of_Prince_Jingjiang%60s_Palace_-_panoramio.jpg/1280px-%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%BA%9C%E5%8C%97%E9%97%A8_The_North_Gate_of_Prince_Jingjiang%60s_Palace_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%BA%9C%E5%8C%97%E9%97%A8_The_North_Gate_of_Prince_Jingjiang%60s_Palace_-_panoramio.jpg/1280px-%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%BA%9C%E5%8C%97%E9%97%A8_The_North_Gate_of_Prince_Jingjiang%60s_Palace_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "靖江王府北门 The North Gate of Prince Jingjiang`s Palace - panoramio.jpg",
+   "query": "独秀峰王城景区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "lienyuan lee",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "明代王府",
+  "独秀峰",
+  "摩崖"
+ ],
+ "popularity": 78,
+ "sources": [
+  {
+   "title": "百度百科·靖江王城",
+   "url": "https://baike.baidu.com/item/%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%9F%8E",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  },
+  {
+   "title": "2026-05-25媒体曝光王城景区消费诱导",
+   "url": "https://www.inewsweek.cn/qy/2026-10-15/32545.shtml",
+   "kind": "media",
+   "fetchedAt": "2026-11-12"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "独秀峰王城景区"
+ },
+ "_geocodeTitle": "桂林独秀峰王城景区",
+ "_geocodeSuspect": false,
+ "district": "450302",
+ "_patrol": {
+  "at": "2026-11-12",
+  "changes": [
+   {
+    "field": "贴士（用 | 分隔多条，整体替换）",
+    "old": [],
+    "new": [
+     "2026-05 有媒体曝光园内存在消费诱导与动线不合理，二次消费项目与讲解服务先问清价格"
+    ]
+   },
+   {
+    "field": "热度（0-100）",
+    "old": 88,
+    "new": 78
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%BA%9C%E5%8C%97%E9%96%80_The_North_Gate_of_Prince_Jingjiang%60s_Palace_-_panoramio.jpg/1280px-%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%BA%9C%E5%8C%97%E9%96%80_The_North_Gate_of_Prince_Jingjiang%60s_Palace_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%BA%9C%E5%8C%97%E9%96%80_The_North_Gate_of_Prince_Jingjiang%60s_Palace_-_panoramio.jpg/1280px-%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%BA%9C%E5%8C%97%E9%96%80_The_North_Gate_of_Prince_Jingjiang%60s_Palace_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "靖江王府北門 The North Gate of Prince Jingjiang`s Palace - panoramio.jpg",
-      "query": "独秀峰王城景区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "lienyuan lee",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%BA%9C%E9%9B%B2%E9%99%9B_Cloud_Stairway_in_Prince_Jingjiang%27_Mansion_-_panoramio.jpg/1280px-%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%BA%9C%E9%9B%B2%E9%99%9B_Cloud_Stairway_in_Prince_Jingjiang%27_Mansion_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%BA%9C%E9%9B%B2%E9%99%9B_Cloud_Stairway_in_Prince_Jingjiang%27_Mansion_-_panoramio.jpg/1280px-%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%BA%9C%E9%9B%B2%E9%99%9B_Cloud_Stairway_in_Prince_Jingjiang%27_Mansion_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "靖江王府雲陛 Cloud Stairway in Prince Jingjiang' Mansion - panoramio.jpg",
-      "query": "独秀峰王城景区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "lienyuan lee",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Xiufeng%2C_Guilin%2C_Guangxi%2C_China_-_panoramio_%286%29.jpg/1280px-Xiufeng%2C_Guilin%2C_Guangxi%2C_China_-_panoramio_%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Xiufeng%2C_Guilin%2C_Guangxi%2C_China_-_panoramio_%286%29.jpg/1280px-Xiufeng%2C_Guilin%2C_Guangxi%2C_China_-_panoramio_%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Xiufeng, Guilin, Guangxi, China - panoramio (6).jpg",
-      "query": "独秀峰王城景区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Haluk Comertel",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Xiufeng%2C_Guilin%2C_Guangxi%2C_China_-_panoramio_%281%29.jpg/1280px-Xiufeng%2C_Guilin%2C_Guangxi%2C_China_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Xiufeng%2C_Guilin%2C_Guangxi%2C_China_-_panoramio_%281%29.jpg/1280px-Xiufeng%2C_Guilin%2C_Guangxi%2C_China_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Xiufeng, Guilin, Guangxi, China - panoramio (1).jpg",
-      "query": "独秀峰王城景区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "HALUK COMERTEL",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/89784-Guilin_%2830620376737%29.jpg/1280px-89784-Guilin_%2830620376737%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/89784-Guilin_%2830620376737%29.jpg/1280px-89784-Guilin_%2830620376737%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "89784-Guilin (30620376737).jpg",
-      "query": "独秀峰王城景区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%BA%9C%E5%8C%97%E9%97%A8_The_North_Gate_of_Prince_Jingjiang%60s_Palace_-_panoramio.jpg/1280px-%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%BA%9C%E5%8C%97%E9%97%A8_The_North_Gate_of_Prince_Jingjiang%60s_Palace_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%BA%9C%E5%8C%97%E9%97%A8_The_North_Gate_of_Prince_Jingjiang%60s_Palace_-_panoramio.jpg/1280px-%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%BA%9C%E5%8C%97%E9%97%A8_The_North_Gate_of_Prince_Jingjiang%60s_Palace_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "靖江王府北门 The North Gate of Prince Jingjiang`s Palace - panoramio.jpg",
-      "query": "独秀峰王城景区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "lienyuan lee",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    }
+  "source": "https://www.inewsweek.cn/qy/2026-10-15/32545.shtml",
+  "reason": "2026-05-25媒体曝光王城景区消费诱导"
+ },
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "历史",
+    "score": 4.5,
+    "note": "一整套明代王府城墙城门都在，独秀峰崖壁有「桂林山水甲天下」"
+   },
+   {
+    "label": "讲解",
+    "score": 3.0,
+    "note": "门口凑批出发，节奏由讲解带"
+   },
+   {
+    "label": "消费",
+    "score": 2.0,
+    "note": "2026-05 有媒体曝光园内消费诱导、动线不合理"
+   },
+   {
+    "label": "体力",
+    "score": 4.0,
+    "note": "独秀峰不高，绕上去十分钟"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "明代王府",
-    "独秀峰",
-    "摩崖"
+  "body": "明代靖江王府的城，城墙、城门、宫殿基址都在，中轴走到底就是独秀峰——一座平地拔起的孤峰，不高但陡，十分钟能上去，东北崖壁刻着八百年前的「桂林山水甲天下」。院子里还有贡院考棚，可以体验一次模拟科举。缺点是消费这一块：2026 年 5 月有媒体曝光园内存在消费诱导、游览动线不合理，二次消费项目与讲解服务最好先问清价格再点头；另外讲解是凑够一批就走的模式，节奏由别人带，想自己慢慢看会别扭。",
+  "basis": "web",
+  "at": "2026-11-12",
+  "fits": [
+   "看历史",
+   "带老人小孩",
+   "雨天备选"
   ],
-  "popularity": 88,
+  "avoid": [
+   "反感推销",
+   "只想看自然山水"
+  ],
   "sources": [
-    {
-      "title": "百度百科·靖江王城",
-      "url": "https://baike.baidu.com/item/%E9%9D%96%E6%B1%9F%E7%8E%8B%E5%9F%8E",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
-  ],
-  "updatedAt": "2026-11-04",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "独秀峰王城景区"
-  },
-  "_geocodeTitle": "桂林独秀峰王城景区",
-  "_geocodeSuspect": false,
-  "district": "450302"
+   "https://www.inewsweek.cn/qy/2026-10-15/32545.shtml"
+  ]
+ }
 }

@@ -39,23 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/AndreasPerusinus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/AndreasPerusinus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1244,
-      "alt": "AndreasPerusinus.jpg",
-      "query": "泉州博物馆 泉州",
-      "credit": {
-        "source": "wikimedia",
-        "author": "BabelStone",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AndreasPerusinus.jpg",
-        "license": "Public domain",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "博物馆",
@@ -71,7 +55,7 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -79,5 +63,13 @@
   },
   "_geocodeTitle": "泉州市南建筑博物馆",
   "_geocodeSuspect": false,
-  "district": "350503"
+  "district": "350503",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 1 张（待重抓）",
+    "droppedImages": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/36/AndreasPerusinus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    ]
+  }
 }

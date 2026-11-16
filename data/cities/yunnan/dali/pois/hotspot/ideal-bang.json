@@ -1,67 +1,105 @@
 {
-  "id": "ideal-bang",
-  "name": "理想邦",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "洱海东岸一座仿地中海风的建筑群，蓝白配色，被称为大理圣托里尼。",
-  "description": "理想邦在洱海东岸海东，是一座仿地中海风格的建筑群，蓝白配色，台阶层层下到海。被叫做大理的圣托里尼，很多人专程来拍照。酒店和咖啡馆在里头，非住客也能逛。晴天蓝白反差最好看。",
-  "highlights": [
-    "洱海东岸仿地中海建筑群，蓝白配色",
-    "被称为大理圣托里尼",
-    "晴天蓝白反差最好看"
-  ],
-  "location": {
-    "point": {
-      "lng": 100.26947,
-      "lat": 25.697766,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "云南省大理白族自治州大理市海东镇理想邦",
-    "district": "大理市",
-    "transportTip": "环海东路海东方向，自驾或骑行可达"
+ "id": "ideal-bang",
+ "name": "理想邦",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "洱海东岸一座仿地中海风的建筑群，蓝白配色，被称为大理圣托里尼。",
+ "description": "理想邦在洱海东岸海东，是一座仿地中海风格的建筑群，蓝白配色，台阶层层下到海。被叫做大理的圣托里尼，很多人专程来拍照。酒店和咖啡馆在里头，非住客也能逛。晴天蓝白反差最好看。",
+ "highlights": [
+  "洱海东岸仿地中海建筑群，蓝白配色",
+  "被称为大理圣托里尼",
+  "晴天蓝白反差最好看"
+ ],
+ "location": {
+  "point": {
+   "lng": 100.26947,
+   "lat": 25.697766,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放",
-    "openHoursRef": 0,
-    "ticket": "免费（消费另计）",
-    "ticketRef": 0,
-    "duration": "建议 60-180 分钟",
-    "durationMinutes": [
-      60,
-      180
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "friends"
+  "address": "云南省大理白族自治州大理市海东镇理想邦",
+  "district": "大理市",
+  "transportTip": "环海东路海东方向，自驾或骑行可达"
+ },
+ "practical": {
+  "openHours": "全天开放",
+  "openHoursRef": 0,
+  "ticket": "免费（消费另计）",
+  "ticketRef": 0,
+  "duration": "建议 60-180 分钟",
+  "durationMinutes": [
+   60,
+   180
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "建筑",
-    "海景",
-    "出片"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "建筑",
+  "海景",
+  "出片"
+ ],
+ "popularity": 68,
+ "sources": [
+  {
+   "title": "大理理想邦",
+   "url": "https://baike.baidu.com/item/%E5%A4%A7%E7%90%86",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "理想邦"
+ },
+ "_geocodeTitle": "理想邦旅游度假小镇",
+ "_geocodeSuspect": false,
+ "district": "532901",
+ "_noImage": true,
+ "review": {
+  "score": 3.8,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "出片",
+    "score": 4.4,
+    "note": "蓝白配色，晴天反差最好"
+   },
+   {
+    "label": "商业化",
+    "score": 2.4,
+    "note": "本质是酒店与咖啡馆集合体"
+   },
+   {
+    "label": "人流",
+    "score": 2.6,
+    "note": "几处台阶拍照要排队"
+   },
+   {
+    "label": "免费",
+    "score": 4.0,
+    "note": "公共区域可进，消费另计"
+   }
   ],
-  "popularity": 68,
-  "sources": [
-    {
-      "title": "大理理想邦",
-      "url": "https://baike.baidu.com/item/%E5%A4%A7%E7%90%86",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "body": "理想邦是洱海东岸一片仿地中海的蓝白建筑，台阶层层下到水边，晴天反差很好看，被叫作大理的圣托里尼。但它本质上是酒店与咖啡馆的集合体，能自由逛的公共区域有限，不消费容易觉得拘束；打卡的人集中在少数几处台阶，拍照要排队。免费进，顺路来一趟可以，专程跑就不值了。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "拍照",
+   "顺路"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "理想邦"
-  },
-  "_geocodeTitle": "理想邦旅游度假小镇",
-  "_geocodeSuspect": false,
-  "district": "532901",
-  "_noImage": true
+  "avoid": [
+   "专程前往",
+   "不想消费"
+  ],
+  "sources": []
+ }
 }

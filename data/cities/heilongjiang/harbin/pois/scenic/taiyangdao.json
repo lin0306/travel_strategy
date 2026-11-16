@@ -1,189 +1,228 @@
 {
-  "id": "taiyangdao",
-  "name": "太阳岛风景区",
-  "category": "scenic",
-  "subtype": "park",
-  "summary": "松花江北岸的一片大岛，夏天是草地与花田，冬天是雪雕艺术的场地。",
-  "description": "太阳岛在江北，与市区隔着一条松花江，是一片很大的江心岛，里面有草地、树林、花田、人工湖，本地人夏天来这里铺垫子晒太阳、骑车、放风筝。冬天这里办雪雕艺术博览会，雪坯堆成几十米长的作品，是与冰雪大世界不一样的另一种雪。岛上还有俄罗斯风情小镇、极地公园、松鼠岛这些小片，可以分开看。进岛走公路桥、坐索道或地铁二号线都能到；冬天江面封了，还有直接从冰上过去的通道，以当年开放情况为准。岛上大，走路一圈要两三小时，里面有观光车。",
-  "highlights": [
-    "江心岛，夏天是本地人的草地，冬天是雪雕场地",
-    "与冰雪大世界的冰雕是两种东西，雪雕更柔和",
-    "里面有观光车，岛大走路一圈两三小时"
-  ],
-  "location": {
-    "point": {
-      "lng": 126.597965,
-      "lat": 45.790782,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黑龙江省哈尔滨市松北区太阳大道3号",
-    "district": "松北区",
-    "transportTip": "地铁二号线太阳岛站；或松花江观光索道、公路桥公交",
-    "entrance": {
-      "lng": 126.588958,
-      "lat": 45.786256,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "taiyangdao",
+ "name": "太阳岛风景区",
+ "category": "scenic",
+ "subtype": "park",
+ "summary": "松花江北岸的一片大岛，夏天是草地与花田，冬天是雪雕艺术的场地。",
+ "description": "太阳岛在江北，与市区隔着一条松花江，是一片很大的江心岛，里面有草地、树林、花田、人工湖，本地人夏天来这里铺垫子晒太阳、骑车、放风筝。冬天这里办雪雕艺术博览会，雪坯堆成几十米长的作品，是与冰雪大世界不一样的另一种雪。岛上还有俄罗斯风情小镇、极地公园、松鼠岛这些小片，可以分开看。进岛走公路桥、坐索道或地铁二号线都能到；冬天江面封了，还有直接从冰上过去的通道，以当年开放情况为准。岛上大，走路一圈要两三小时，里面有观光车。",
+ "highlights": [
+  "江心岛，夏天是本地人的草地，冬天是雪雕场地",
+  "与冰雪大世界的冰雕是两种东西，雪雕更柔和",
+  "里面有观光车，岛大走路一圈两三小时"
+ ],
+ "location": {
+  "point": {
+   "lng": 126.597965,
+   "lat": 45.790782,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放；雪博会与园内项目以季节公告为准",
-    "openHoursRef": 0,
-    "ticket": "进岛免费，园内项目与雪博会另收费，以现场公告为准",
-    "ticketRef": 0,
-    "duration": "建议 150-330 分钟",
-    "durationMinutes": [
-      150,
-      330
-    ],
-    "priceLevel": "budget"
+  "address": "黑龙江省哈尔滨市松北区太阳大道3号",
+  "district": "松北区",
+  "transportTip": "地铁二号线太阳岛站；或松花江观光索道、公路桥公交",
+  "entrance": {
+   "lng": 126.588958,
+   "lat": 45.786256,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "全天开放；雪博会与园内项目以季节公告为准",
+  "openHoursRef": 0,
+  "ticket": "进岛免费，园内项目与雪博会另收费，以现场公告为准",
+  "ticketRef": 0,
+  "duration": "建议 150-330 分钟",
+  "durationMinutes": [
+   150,
+   330
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "family",
+  "kids",
+  "friends",
+  "couple",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/%E5%93%88%E5%B0%94%E6%BB%A8%E5%A4%AA%E9%98%B3%E5%B2%9B%E6%99%AF%E5%8C%BA%E5%85%A5%E5%8F%A3%2C_2010-01-10.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%A4%AA%E9%98%B3%E5%B2%9B%E6%99%AF%E5%8C%BA%E5%85%A5%E5%8F%A3%2C_2010-01-10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/%E5%93%88%E5%B0%94%E6%BB%A8%E5%A4%AA%E9%98%B3%E5%B2%9B%E6%99%AF%E5%8C%BA%E5%85%A5%E5%8F%A3%2C_2010-01-10.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%A4%AA%E9%98%B3%E5%B2%9B%E6%99%AF%E5%8C%BA%E5%85%A5%E5%8F%A3%2C_2010-01-10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "哈尔滨太阳岛景区入口, 2010-01-10.jpg",
+   "query": "太阳岛风景区 哈尔滨",
+   "credit": {
+    "source": "wikimedia",
+    "author": "江上清风1961",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%93%88%E5%B0%94%E6%BB%A8%E5%A4%AA%E9%98%B3%E5%B2%9B%E6%99%AF%E5%8C%BA%E5%85%A5%E5%8F%A3,_2010-01-10.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "family",
-    "kids",
-    "friends",
-    "couple",
-    "elders"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/%E5%93%88%E5%B0%94%E6%BB%A8%E5%A4%AA%E9%98%B3%E5%B2%9B%E6%99%AF%E5%8C%BA%E5%85%A5%E5%8F%A3%2C_2010-01-10.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%A4%AA%E9%98%B3%E5%B2%9B%E6%99%AF%E5%8C%BA%E5%85%A5%E5%8F%A3%2C_2010-01-10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/%E5%93%88%E5%B0%94%E6%BB%A8%E5%A4%AA%E9%98%B3%E5%B2%9B%E6%99%AF%E5%8C%BA%E5%85%A5%E5%8F%A3%2C_2010-01-10.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%A4%AA%E9%98%B3%E5%B2%9B%E6%99%AF%E5%8C%BA%E5%85%A5%E5%8F%A3%2C_2010-01-10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "哈尔滨太阳岛景区入口, 2010-01-10.jpg",
-      "query": "太阳岛风景区 哈尔滨",
-      "credit": {
-        "source": "wikimedia",
-        "author": "江上清风1961",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%93%88%E5%B0%94%E6%BB%A8%E5%A4%AA%E9%98%B3%E5%B2%9B%E6%99%AF%E5%8C%BA%E5%85%A5%E5%8F%A3,_2010-01-10.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/%E5%93%88%E5%B0%94%E6%BB%A8%E5%A4%AA%E9%98%B3%E5%B2%9B%E9%9B%AA%E9%9B%95%2C_2010-01-10_04.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%A4%AA%E9%98%B3%E5%B2%9B%E9%9B%AA%E9%9B%95%2C_2010-01-10_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/%E5%93%88%E5%B0%94%E6%BB%A8%E5%A4%AA%E9%98%B3%E5%B2%9B%E9%9B%AA%E9%9B%95%2C_2010-01-10_04.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%A4%AA%E9%98%B3%E5%B2%9B%E9%9B%AA%E9%9B%95%2C_2010-01-10_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "哈尔滨太阳岛雪雕, 2010-01-10 04.jpg",
-      "query": "太阳岛风景区 哈尔滨",
-      "credit": {
-        "source": "wikimedia",
-        "author": "江上清风1961",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%93%88%E5%B0%94%E6%BB%A8%E5%A4%AA%E9%98%B3%E5%B2%9B%E9%9B%AA%E9%9B%95,_2010-01-10_04.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Taiyang_Island_26416-Harbin_%2831690355488%29.jpg/1280px-Taiyang_Island_26416-Harbin_%2831690355488%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Taiyang_Island_26416-Harbin_%2831690355488%29.jpg/1280px-Taiyang_Island_26416-Harbin_%2831690355488%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Taiyang Island 26416-Harbin (31690355488).jpg",
-      "query": "太阳岛风景区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "inside"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Taiyang_Island_26449-Harbin_%2845436247335%29.jpg/1280px-Taiyang_Island_26449-Harbin_%2845436247335%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Taiyang_Island_26449-Harbin_%2845436247335%29.jpg/1280px-Taiyang_Island_26449-Harbin_%2845436247335%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Taiyang Island 26449-Harbin (45436247335).jpg",
-      "query": "太阳岛风景区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "inside"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Taiyang_Island_26395-Harbin_%2844838809884%29.jpg/1280px-Taiyang_Island_26395-Harbin_%2844838809884%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Taiyang_Island_26395-Harbin_%2844838809884%29.jpg/1280px-Taiyang_Island_26395-Harbin_%2844838809884%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Taiyang Island 26395-Harbin (44838809884).jpg",
-      "query": "太阳岛风景区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "inside"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Yu_Qingcheng_Sculpture_Park_26384-Harbin_%2845979830535%29.jpg/1280px-Yu_Qingcheng_Sculpture_Park_26384-Harbin_%2845979830535%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Yu_Qingcheng_Sculpture_Park_26384-Harbin_%2845979830535%29.jpg/1280px-Yu_Qingcheng_Sculpture_Park_26384-Harbin_%2845979830535%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Yu Qingcheng Sculpture Park 26384-Harbin (45979830535).jpg",
-      "query": "太阳岛风景区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "inside"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "江心岛",
-    "雪雕",
-    "避暑"
-  ],
-  "popularity": 93,
-  "sources": [
-    {
-      "title": "百度百科·太阳岛",
-      "url": "https://baike.baidu.com/item/%E5%A4%AA%E9%98%B3%E5%B2%9B",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
-  ],
-  "updatedAt": "2026-11-01",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "太阳岛风景区"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/%E5%93%88%E5%B0%94%E6%BB%A8%E5%A4%AA%E9%98%B3%E5%B2%9B%E9%9B%AA%E9%9B%95%2C_2010-01-10_04.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%A4%AA%E9%98%B3%E5%B2%9B%E9%9B%AA%E9%9B%95%2C_2010-01-10_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/%E5%93%88%E5%B0%94%E6%BB%A8%E5%A4%AA%E9%98%B3%E5%B2%9B%E9%9B%AA%E9%9B%95%2C_2010-01-10_04.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%A4%AA%E9%98%B3%E5%B2%9B%E9%9B%AA%E9%9B%95%2C_2010-01-10_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "哈尔滨太阳岛雪雕, 2010-01-10 04.jpg",
+   "query": "太阳岛风景区 哈尔滨",
+   "credit": {
+    "source": "wikimedia",
+    "author": "江上清风1961",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%93%88%E5%B0%94%E6%BB%A8%E5%A4%AA%E9%98%B3%E5%B2%9B%E9%9B%AA%E9%9B%95,_2010-01-10_04.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "太阳岛风景区",
-  "_geocodeSuspect": false,
-  "district": "230109"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Taiyang_Island_26416-Harbin_%2831690355488%29.jpg/1280px-Taiyang_Island_26416-Harbin_%2831690355488%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Taiyang_Island_26416-Harbin_%2831690355488%29.jpg/1280px-Taiyang_Island_26416-Harbin_%2831690355488%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Taiyang Island 26416-Harbin (31690355488).jpg",
+   "query": "太阳岛风景区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "inside"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Taiyang_Island_26449-Harbin_%2845436247335%29.jpg/1280px-Taiyang_Island_26449-Harbin_%2845436247335%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Taiyang_Island_26449-Harbin_%2845436247335%29.jpg/1280px-Taiyang_Island_26449-Harbin_%2845436247335%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Taiyang Island 26449-Harbin (45436247335).jpg",
+   "query": "太阳岛风景区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "inside"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Taiyang_Island_26395-Harbin_%2844838809884%29.jpg/1280px-Taiyang_Island_26395-Harbin_%2844838809884%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Taiyang_Island_26395-Harbin_%2844838809884%29.jpg/1280px-Taiyang_Island_26395-Harbin_%2844838809884%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Taiyang Island 26395-Harbin (44838809884).jpg",
+   "query": "太阳岛风景区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "inside"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Yu_Qingcheng_Sculpture_Park_26384-Harbin_%2845979830535%29.jpg/1280px-Yu_Qingcheng_Sculpture_Park_26384-Harbin_%2845979830535%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Yu_Qingcheng_Sculpture_Park_26384-Harbin_%2845979830535%29.jpg/1280px-Yu_Qingcheng_Sculpture_Park_26384-Harbin_%2845979830535%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Yu Qingcheng Sculpture Park 26384-Harbin (45979830535).jpg",
+   "query": "太阳岛风景区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "inside"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "江心岛",
+  "雪雕",
+  "避暑"
+ ],
+ "popularity": 93,
+ "sources": [
+  {
+   "title": "百度百科·太阳岛",
+   "url": "https://baike.baidu.com/item/%E5%A4%AA%E9%98%B3%E5%B2%9B",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "太阳岛风景区"
+ },
+ "_geocodeTitle": "太阳岛风景区",
+ "_geocodeSuspect": false,
+ "district": "230109",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.6,
+    "note": "夏天草地花田、冬天雪雕，一岛看两季"
+   },
+   {
+    "label": "配套",
+    "score": 3.8,
+    "note": "岛内有观光车，园内项目分散"
+   },
+   {
+    "label": "时长",
+    "score": 3.4,
+    "note": "走路一圈要两三小时，体力有门槛"
+   },
+   {
+    "label": "人流",
+    "score": 3.6,
+    "note": "雪博会与旺季周末人集中"
+   }
+  ],
+  "body": "夏天是草地与花田、冬天是雪雕艺术博览会，一座岛把哈尔滨的两种季节一次看全，进岛本身免费，这点很友好。可惜岛实在大，走路一圈要两三小时，带小孩或长辈建议直接坐观光车；园内项目和雪博会都是另收费，别以为一张票能全包。冬天江边风硬，站在雪雕前拍照待不久，保暖要按零下二十度准备。它更适合留半天慢慢晃，而不是赶行程时插一脚。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "带娃",
+   "避暑",
+   "看雪雕"
+  ],
+  "avoid": [
+   "赶行程",
+   "只想快速打卡"
+  ],
+  "sources": []
+ }
 }

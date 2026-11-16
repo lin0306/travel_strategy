@@ -1,71 +1,104 @@
 {
-  "id": "zhanqi-yudeng",
-  "name": "瞻淇鱼灯",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "北岸镇瞻淇村的鱼灯，小巧灵动，正月夜游出片。",
-  "description": "瞻淇鱼灯在歙县北岸镇的瞻淇村，和汪满田鱼灯同属徽州鱼灯一脉，但瞻淇的鱼灯更小巧、更灵动，以小鱼、小虾造型为主，举在手里游走巷弄，灯光映着马头墙，很有古村夜晚的氛围感。每年正月，村里的鱼灯队会出来巡游，吸引不少摄影和打卡的人专程来。瞻淇本身是一座保留完整的古村，白天看老宅、晚上看鱼灯，可以安排一整天。鱼灯只在正月有，平时来就是安静逛村。",
-  "highlights": [
-    "瞻淇",
-    "小鱼灯",
-    "古村夜游",
-    "免票"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.517267,
-      "lat": 29.881572,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黄山市歙县北岸镇瞻淇村",
-    "district": "歙县",
-    "transportTip": "自驾或包车从县城约 35 分钟到瞻淇"
+ "id": "zhanqi-yudeng",
+ "name": "瞻淇鱼灯",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "北岸镇瞻淇村的鱼灯，小巧灵动，正月夜游出片。",
+ "description": "瞻淇鱼灯在歙县北岸镇的瞻淇村，和汪满田鱼灯同属徽州鱼灯一脉，但瞻淇的鱼灯更小巧、更灵动，以小鱼、小虾造型为主，举在手里游走巷弄，灯光映着马头墙，很有古村夜晚的氛围感。每年正月，村里的鱼灯队会出来巡游，吸引不少摄影和打卡的人专程来。瞻淇本身是一座保留完整的古村，白天看老宅、晚上看鱼灯，可以安排一整天。鱼灯只在正月有，平时来就是安静逛村。",
+ "highlights": [
+  "瞻淇",
+  "小鱼灯",
+  "古村夜游",
+  "免票"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.517267,
+   "lat": 29.881572,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "正月特定夜间的鱼灯巡游（以村中公告为准）",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 90-200 分钟",
-    "durationMinutes": [
-      90,
-      200
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "family",
-    "elders"
+  "address": "黄山市歙县北岸镇瞻淇村",
+  "district": "歙县",
+  "transportTip": "自驾或包车从县城约 35 分钟到瞻淇"
+ },
+ "practical": {
+  "openHours": "正月特定夜间的鱼灯巡游（以村中公告为准）",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 90-200 分钟",
+  "durationMinutes": [
+   90,
+   200
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "鱼灯",
-    "年俗",
-    "古村",
-    "摄影"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "鱼灯",
+  "年俗",
+  "古村",
+  "摄影"
+ ],
+ "popularity": 80,
+ "sources": [
+  {
+   "title": "百度百科·瞻淇鱼灯",
+   "url": "https://baike.baidu.com/item/%E7%9E%BB%E6%B7%87%E9%B1%BC%E7%81%AF",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-07"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "瞻淇鱼灯"
+ },
+ "_geocodeTitle": "瞻淇村委会",
+ "_geocodeSuspect": false,
+ "district": "341021",
+ "_noImage": true,
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "年味",
+    "score": 4.4,
+    "note": "小鱼小虾造型的灯举在手里走巷，比大灯更灵动"
+   },
+   {
+    "label": "时机",
+    "score": 2.7,
+    "note": "只在正月夜里有，日期看村里公告"
+   },
+   {
+    "label": "人流",
+    "score": 3.2,
+    "note": "巷窄人多，三脚架基本支不开"
+   }
   ],
-  "popularity": 80,
-  "sources": [
-    {
-      "title": "百度百科·瞻淇鱼灯",
-      "url": "https://baike.baidu.com/item/%E7%9E%BB%E6%B7%87%E9%B1%BC%E7%81%AF",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-07"
-    }
+  "body": "和汪满田同属徽州鱼灯，但瞻淇的灯更小巧，举在手上穿巷子，灯光映着马头墙，是很上镜的古村夜景。问题是它只活在正月：平时来就是一座安静古村，看不到灯；正月那几晚巷子窄、人挤，想好好拍几乎不可能。建议白天先看老宅、摸清巷子走向，晚上再挑机位，别指望临时找位置。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "正月出行",
+   "古村夜游"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "瞻淇鱼灯"
-  },
-  "_geocodeTitle": "瞻淇村委会",
-  "_geocodeSuspect": false,
-  "district": "341021",
-  "_noImage": true
+  "avoid": [
+   "非正月来",
+   "要架设备"
+  ],
+  "sources": []
+ }
 }

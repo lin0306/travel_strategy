@@ -1,74 +1,111 @@
 {
-  "id": "talent-park",
-  "name": "深圳人才公园",
-  "category": "scenic",
-  "subtype": "park",
-  "summary": "把人才这个词做成了公园：星光道上刻的是一批在这座城市做过事的人。",
-  "description": "2017 年开放的公园，位置在科苑南路东侧的后海滨水一侧。它的主题在全国少见：以人才为主题，园区里安放了雕塑、群像与一条星光道，星光道上记录的是一批在深圳做过事的人。它是市民日常使用的一处——环湖跑道、亲水平台与草坪。深圳湾方向的天际线在这一侧同样能看到。这里的夜里照明做得足，周边是科技园的上班人群。它与深圳湾公园在不同的位置，两者之间要走一段。",
-  "highlights": [
-    "以人才为主题的公园，星光道记录了一批人",
-    "环湖跑道与草坪是日常使用的部分",
-    "靠近深圳湾，可以看到对岸一线"
-  ],
-  "location": {
-    "point": {
-      "lng": 113.9486,
-      "lat": 22.510111,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "深圳市南山区科苑南路东侧（人才公园）",
-    "district": "南山区",
-    "transportTip": "地铁2号线科苑站 / 地铁9号线深大南站步行",
-    "entrance": {
-      "lng": 113.943959,
-      "lat": 22.508109,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "talent-park",
+ "name": "深圳人才公园",
+ "category": "scenic",
+ "subtype": "park",
+ "summary": "把人才这个词做成了公园：星光道上刻的是一批在这座城市做过事的人。",
+ "description": "2017 年开放的公园，位置在科苑南路东侧的后海滨水一侧。它的主题在全国少见：以人才为主题，园区里安放了雕塑、群像与一条星光道，星光道上记录的是一批在深圳做过事的人。它是市民日常使用的一处——环湖跑道、亲水平台与草坪。深圳湾方向的天际线在这一侧同样能看到。这里的夜里照明做得足，周边是科技园的上班人群。它与深圳湾公园在不同的位置，两者之间要走一段。",
+ "highlights": [
+  "以人才为主题的公园，星光道记录了一批人",
+  "环湖跑道与草坪是日常使用的部分",
+  "靠近深圳湾，可以看到对岸一线"
+ ],
+ "location": {
+  "point": {
+   "lng": 113.9486,
+   "lat": 22.510111,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约06:00-23:00（以官方公告为准）",
-    "openHoursRef": 0,
-    "ticket": "免费（以官方公告为准）",
-    "ticketRef": 0,
-    "duration": "建议 60-180 分钟",
-    "durationMinutes": [
-      60,
-      180
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "family",
-    "friends",
-    "solo"
+  "address": "深圳市南山区科苑南路东侧（人才公园）",
+  "district": "南山区",
+  "transportTip": "地铁2号线科苑站 / 地铁9号线深大南站步行",
+  "entrance": {
+   "lng": 113.943959,
+   "lat": 22.508109,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约06:00-23:00（以官方公告为准）",
+  "openHoursRef": 0,
+  "ticket": "免费（以官方公告为准）",
+  "ticketRef": 0,
+  "duration": "建议 60-180 分钟",
+  "durationMinutes": [
+   60,
+   180
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "免费",
-    "公园",
-    "夜景"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "family",
+  "friends",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "免费",
+  "公园",
+  "夜景"
+ ],
+ "popularity": 74,
+ "sources": [
+  {
+   "title": "百度百科·深圳人才公园",
+   "url": "https://baike.baidu.com/item/%E6%B7%B1%E5%9C%B3%E4%BA%BA%E6%89%8D%E5%85%AC%E5%9B%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-24"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "深圳人才公园"
+ },
+ "_geocodeTitle": "深圳人才公园",
+ "_geocodeSuspect": false,
+ "district": "440305",
+ "_noImage": true,
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "主题",
+    "score": 3.5,
+    "note": "以人才为主题，星光道刻了一批人的名字"
+   },
+   {
+    "label": "日常感",
+    "score": 4,
+    "note": "环湖跑道与草坪是本地人真在用的部分"
+   },
+   {
+    "label": "夜景",
+    "score": 4,
+    "note": "夜里照明足，周边科技园下班人群多"
+   },
+   {
+    "label": "独特度",
+    "score": 2.5,
+    "note": "本质是滨海公园，主题装置看完就没什么"
+   }
   ],
-  "popularity": 74,
-  "sources": [
-    {
-      "title": "百度百科·深圳人才公园",
-      "url": "https://baike.baidu.com/item/%E6%B7%B1%E5%9C%B3%E4%BA%BA%E6%89%8D%E5%85%AC%E5%9B%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-24"
-    }
+  "body": "它最实用的部分是日常属性：环湖跑道、亲水平台、大片草坪，晚上灯打起来，周边科技园的人就在这儿跑步，能看到深圳人怎么用公园。星光道和雕塑群是主题所在，走一遍大概二十分钟，对「人才」这个题的表达比较直白。缺点是主题看完就没什么可挖，本质还是一座滨海公园，专程来会失望；它和后海、深圳湾公园不在同一位置，想连着走要留出步行时间。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "傍晚散步",
+   "看本地生活"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "深圳人才公园"
-  },
-  "_geocodeTitle": "深圳人才公园",
-  "_geocodeSuspect": false,
-  "district": "440305",
-  "_noImage": true
+  "avoid": [
+   "专程为景点"
+  ],
+  "sources": []
+ }
 }

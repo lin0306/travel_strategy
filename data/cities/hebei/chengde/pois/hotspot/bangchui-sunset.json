@@ -1,66 +1,98 @@
 {
-  "id": "bangchui-sunset",
-  "name": "棒槌山日落",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "磬锤峰看日落的地方，棒槌石在夕阳里成剪影，是承德十景的拍法。",
-  "description": "棒槌山看日落是承德的一个经典拍法 —— 太阳落下去，那根棒槌石变成一道黑剪影，衬着橙红的天。在磬锤峰的栈道上、或在城里望过去，都能拍。晴天和有薄云的傍晚最好。它是承德十景里最容易认的一个轮廓。夏天太阳落得晚。",
-  "highlights": [
-    "夕阳里棒槌石成黑剪影衬橙红天",
-    "栈道或城中远望皆可拍",
-    "十景中最易认的轮廓"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.98308,
-      "lat": 40.99075,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市双桥区磬锤峰国家森林公园",
-    "district": "双桥区",
-    "transportTip": "市区公交或打车到森林公园"
+ "id": "bangchui-sunset",
+ "name": "棒槌山日落",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "磬锤峰看日落的地方，棒槌石在夕阳里成剪影，是承德十景的拍法。",
+ "description": "棒槌山看日落是承德的一个经典拍法 —— 太阳落下去，那根棒槌石变成一道黑剪影，衬着橙红的天。在磬锤峰的栈道上、或在城里望过去，都能拍。晴天和有薄云的傍晚最好。它是承德十景里最容易认的一个轮廓。夏天太阳落得晚。",
+ "highlights": [
+  "夕阳里棒槌石成黑剪影衬橙红天",
+  "栈道或城中远望皆可拍",
+  "十景中最易认的轮廓"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.98308,
+   "lat": 40.99075,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "傍晚日落前到达",
-    "openHoursRef": 0,
-    "ticket": "含磬锤峰门票",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "friends"
+  "address": "河北省承德市双桥区磬锤峰国家森林公园",
+  "district": "双桥区",
+  "transportTip": "市区公交或打车到森林公园"
+ },
+ "practical": {
+  "openHours": "傍晚日落前到达",
+  "openHoursRef": 0,
+  "ticket": "含磬锤峰门票",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "日落",
-    "剪影",
-    "棒槌山"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "日落",
+  "剪影",
+  "棒槌山"
+ ],
+ "popularity": 76,
+ "sources": [
+  {
+   "title": "百度百科·磬锤峰",
+   "url": "https://baike.baidu.com/item/%E7%A3%AC%E9%94%A4%E5%B3%B0",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "棒槌山日落"
+ },
+ "_geocodeTitle": "磬锤峰国家森林公园",
+ "district": "130802",
+ "_noImage": true,
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "拍照",
+    "score": 4.4,
+    "note": "棒槌石成黑剪影衬橙红天"
+   },
+   {
+    "label": "时机",
+    "score": 3.3,
+    "note": "无云的晴天反而平淡，要有薄云"
+   },
+   {
+    "label": "体力",
+    "score": 2.9,
+    "note": "上山要算时间，下山路不好走"
+   }
   ],
-  "popularity": 76,
-  "sources": [
-    {
-      "title": "百度百科·磬锤峰",
-      "url": "https://baike.baidu.com/item/%E7%A3%AC%E9%94%A4%E5%B3%B0",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "body": "承德十景里最容易认的一个轮廓：太阳落下去，那根棒槌石变成一道黑剪影，衬着橙红的天。在栈道上拍，或者在城里朝东远望都能成片。缺点是机位完全受天气支配，晴得没有一丝云的傍晚反而平平；日落前上山得算准时间，走晚了天就黑透，下山那段路不好走，最好带个头灯。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "摄影",
+   "傍晚散步"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "棒槌山日落"
-  },
-  "_geocodeTitle": "磬锤峰国家森林公园",
-  "district": "130802",
-  "_noImage": true
+  "avoid": [
+   "想白天拍剪影"
+  ],
+  "sources": []
+ }
 }

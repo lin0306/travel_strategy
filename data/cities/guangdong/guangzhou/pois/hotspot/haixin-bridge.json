@@ -17,13 +17,13 @@
       "coordSystem": "GCJ-02"
     },
     "address": "广州市海珠区阅江西路与天河区临江大道之间",
-    "district": "海珠区",
+    "district": "越秀区",
     "transportTip": "地铁3号线广州塔站；旅客自动输送线大剧院站"
   },
   "practical": {
-    "openHours": "全天或限时开放（以管理方公告为准）",
+    "openHours": "07:00-23:00（22:45停止上桥）",
     "openHoursRef": 0,
-    "ticket": "免费（通常需预约）",
+    "ticket": "免费，无需预约",
     "ticketRef": 0,
     "duration": "建议 30-90 分钟",
     "durationMinutes": [
@@ -99,9 +99,15 @@
       "url": "https://baike.baidu.com/item/%E6%B5%B7%E5%BF%83%E6%A1%A5",
       "kind": "wiki",
       "fetchedAt": "2026-09-24"
+    },
+    {
+      "title": "光明网（转广州日报）：海心桥除夕起取消预约通行",
+      "url": "https://m.gmw.cn/toutiao/2025-01/26/content_1303956841.htm",
+      "kind": "media",
+      "fetchedAt": "2026-11-13"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-13",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -109,5 +115,71 @@
   },
   "_geocodeTitle": "海心桥",
   "_geocodeSuspect": false,
-  "district": "440105"
+  "district": "440104",
+  "_patrol": {
+    "at": "2026-11-13",
+    "changes": [
+      {
+        "field": "门票",
+        "old": "免费（通常需预约）",
+        "new": "免费，无需预约"
+      },
+      {
+        "field": "开放时间",
+        "old": "全天或限时开放（以管理方公告为准）",
+        "new": "07:00-23:00（22:45停止上桥）"
+      }
+    ],
+    "source": "https://m.gmw.cn/toutiao/2025-01/26/content_1303956841.htm",
+    "reason": "海心桥官方公众号2025-01-26公告（广州日报/光明网转载）：01-28起取消预约通行"
+  },
+  "review": {
+    "score": 4.1,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "机位",
+        "score": 4.7,
+        "note": "桥上往广州塔一侧最好看，日落到亮灯出片"
+      },
+      {
+        "label": "通行衔接",
+        "score": 4.5,
+        "note": "两岸两个门户直连，不必再绕地铁"
+      },
+      {
+        "label": "免费程度",
+        "score": 5.0,
+        "note": "免费，且已取消预约"
+      },
+      {
+        "label": "限流",
+        "score": 2.5,
+        "note": "节假日按最大承载量管控客流"
+      },
+      {
+        "label": "遮阴",
+        "score": 2.2,
+        "note": "桥面无遮阴，白天晒、江风大"
+      }
+    ],
+    "body": "把广州塔与珠江新城直接连起来的步行拱桥，两岸两个门户不必再绕地铁；拱形结构本身就是画面，往广州塔那一侧最好看，日落蓝调到亮灯这一段出片率最高，而且免费，现在已取消预约、过安检直接上桥。要注意开放时段有限制，停止上桥比闭桥更早，节假日会按最大承载量管控客流；桥面无遮阴，白天晒、江风大，且仅限步行，自行车与宠物上不去。",
+    "basis": "web",
+    "at": "2026-11-13",
+    "fits": [
+      "拍广州塔",
+      "夜景散步",
+      "串联中轴线"
+    ],
+    "avoid": [
+      "正午暴晒",
+      "带自行车或宠物",
+      "节假日高峰"
+    ],
+    "sources": [
+      "https://m.gmw.cn/toutiao/2025-01/26/content_1303956841.htm",
+      "https://m.gz.bendibao.com/gzsi/296505.html",
+      "https://www.toutiao.com/article/7464145639149191718"
+    ]
+  }
 }

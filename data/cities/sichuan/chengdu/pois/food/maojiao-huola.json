@@ -15,12 +15,12 @@
       "lat": 30.668285,
       "coordSystem": "GCJ-02"
     },
-    "address": "成都市青羊区奎星楼街 29 号附 3 号",
+    "address": "成都市青羊区奎星楼街 33 号",
     "district": "青羊区",
     "transportTip": "地铁 4 号线宽窄巷子站步行约 600 米"
   },
   "practical": {
-    "openHours": "约 11:00-23:00（以门店公告为准）",
+    "openHours": "11:00-22:00（工作日约 11:30 起，以门店公告为准）",
     "openHoursRef": 0,
     "ticket": "人均约 64 元起",
     "ticketRef": 0,
@@ -102,9 +102,15 @@
       "url": "https://m.toutiao.com/article/7632398778288456243/",
       "kind": "media",
       "fetchedAt": "2026-09-18"
+    },
+    {
+      "title": "冒椒火辣奎星楼创始店 2026 年 6 月周末到店全指南（品牌官方公众号）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY5ODMzNjM5MQ==&mid=2247483675&idx=1&sn=45b311a616bd0ffaffb20429f9fb0c1e",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Chengdu skewers street food",
@@ -112,5 +118,22 @@
   },
   "_geocodeTitle": "冒椒火辣(奎星楼街店)",
   "_geocodeSuspect": false,
-  "district": "510105"
+  "district": "510105",
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "成都市青羊区奎星楼街 29 号附 3 号",
+        "new": "成都市青羊区奎星楼街 33 号"
+      },
+      {
+        "field": "开放时间",
+        "old": "约 11:00-23:00（以门店公告为准）",
+        "new": "11:00-22:00（工作日约 11:30 起，以门店公告为准）"
+      }
+    ],
+    "source": "https://mp.weixin.qq.com/s?__biz=MzY5ODMzNjM5MQ==&mid=2247483675&idx=1&sn=45b311a616bd0ffaffb20429f9fb0c1e",
+    "reason": "品牌官方公众号 2026-06 门店指南：唯一正确地址奎星楼街33号、营业11:00-22:00"
+  }
 }

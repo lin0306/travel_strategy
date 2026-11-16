@@ -1,194 +1,231 @@
 {
-  "id": "shapowei",
-  "name": "沙坡尾",
-  "category": "culture",
-  "subtype": "street",
-  "summary": "厦门港旧时的避风坞，渔船、老街与创意园堆在一片水边。",
-  "description": "沙坡尾在厦港，是厦门港最早的一段，名字来自这里原来是沙滩的末端。避风坞是一块被堤岸围出来的水面，几十条渔船挨着停在里面，桅杆、船灯与晾着的衣服是这一片的样子。渔港的功能早就迁走了，剩下的老街与生活留了下来：大学路两侧的旧房子里陆续开进咖啡馆、小酒馆与美术空间，艺术西区就在一旁。傍晚最好，渔船的灯亮起来，水面是暗的，对岸的新楼亮着。它离厦大、南普陀与演武大桥都是步行距离，这一片可以连着走半天。",
-  "highlights": [
-    "厦门港最早的一段，避风坞里停着几十条渔船",
-    "大学路两侧旧房子改成了咖啡馆与美术空间",
-    "离厦大、南普陀、演武大桥都是步行距离"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.088094,
-      "lat": 24.437569,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "福建省厦门市思明区沙坡尾（大学路一带）",
-    "district": "思明区",
-    "transportTip": "地铁1号线镇海路站，步行约十五分钟"
+ "id": "shapowei",
+ "name": "沙坡尾",
+ "category": "culture",
+ "subtype": "street",
+ "summary": "厦门港旧时的避风坞，渔船、老街与创意园堆在一片水边。",
+ "description": "沙坡尾在厦港，是厦门港最早的一段，名字来自这里原来是沙滩的末端。避风坞是一块被堤岸围出来的水面，几十条渔船挨着停在里面，桅杆、船灯与晾着的衣服是这一片的样子。渔港的功能早就迁走了，剩下的老街与生活留了下来：大学路两侧的旧房子里陆续开进咖啡馆、小酒馆与美术空间，艺术西区就在一旁。傍晚最好，渔船的灯亮起来，水面是暗的，对岸的新楼亮着。它离厦大、南普陀与演武大桥都是步行距离，这一片可以连着走半天。",
+ "highlights": [
+  "厦门港最早的一段，避风坞里停着几十条渔船",
+  "大学路两侧旧房子改成了咖啡馆与美术空间",
+  "离厦大、南普陀、演武大桥都是步行距离"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.088094,
+   "lat": 24.437569,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天（店铺多为10:00-22:00），以现场为准",
-    "openHoursRef": 0,
-    "ticket": "免费（店铺消费另计）",
-    "ticketRef": 0,
-    "duration": "建议 60-180 分钟",
-    "durationMinutes": [
-      60,
-      180
-    ],
-    "priceLevel": "free"
+  "address": "福建省厦门市思明区沙坡尾（大学路一带）",
+  "district": "思明区",
+  "transportTip": "地铁1号线镇海路站，步行约十五分钟"
+ },
+ "practical": {
+  "openHours": "全天（店铺多为10:00-22:00），以现场为准",
+  "openHoursRef": 0,
+  "ticket": "免费（店铺消费另计）",
+  "ticketRef": 0,
+  "duration": "建议 60-180 分钟",
+  "durationMinutes": [
+   60,
+   180
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/2015%E5%B9%B4%E7%9A%84%E6%B2%99%E5%9D%A1%E5%B0%BE%E9%81%BF%E9%A3%8E%E5%9D%9E.jpg/1280px-2015%E5%B9%B4%E7%9A%84%E6%B2%99%E5%9D%A1%E5%B0%BE%E9%81%BF%E9%A3%8E%E5%9D%9E.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/2015%E5%B9%B4%E7%9A%84%E6%B2%99%E5%9D%A1%E5%B0%BE%E9%81%BF%E9%A3%8E%E5%9D%9E.jpg/1280px-2015%E5%B9%B4%E7%9A%84%E6%B2%99%E5%9D%A1%E5%B0%BE%E9%81%BF%E9%A3%8E%E5%9D%9E.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "2015年的沙坡尾避风坞.jpg",
+   "query": "沙坡尾",
+   "credit": {
+    "source": "wikimedia",
+    "author": "https://pxhere.com/zh/photo/875404",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2015%E5%B9%B4%E7%9A%84%E6%B2%99%E5%9D%A1%E5%B0%BE%E9%81%BF%E9%A3%8E%E5%9D%9E.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "couple",
-    "friends",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/2015%E5%B9%B4%E7%9A%84%E6%B2%99%E5%9D%A1%E5%B0%BE%E9%81%BF%E9%A3%8E%E5%9D%9E.jpg/1280px-2015%E5%B9%B4%E7%9A%84%E6%B2%99%E5%9D%A1%E5%B0%BE%E9%81%BF%E9%A3%8E%E5%9D%9E.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/2015%E5%B9%B4%E7%9A%84%E6%B2%99%E5%9D%A1%E5%B0%BE%E9%81%BF%E9%A3%8E%E5%9D%9E.jpg/1280px-2015%E5%B9%B4%E7%9A%84%E6%B2%99%E5%9D%A1%E5%B0%BE%E9%81%BF%E9%A3%8E%E5%9D%9E.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "2015年的沙坡尾避风坞.jpg",
-      "query": "沙坡尾",
-      "credit": {
-        "source": "wikimedia",
-        "author": "https://pxhere.com/zh/photo/875404",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2015%E5%B9%B4%E7%9A%84%E6%B2%99%E5%9D%A1%E5%B0%BE%E9%81%BF%E9%A3%8E%E5%9D%9E.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Fishing_boats_in_Shapowei%2C_Xiamen.jpg/1280px-Fishing_boats_in_Shapowei%2C_Xiamen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Fishing_boats_in_Shapowei%2C_Xiamen.jpg/1280px-Fishing_boats_in_Shapowei%2C_Xiamen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Fishing boats in Shapowei, Xiamen.jpg",
-      "query": "沙坡尾",
-      "credit": {
-        "source": "wikimedia",
-        "author": "mojojo.cn",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fishing_boats_in_Shapowei,_Xiamen.jpg",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/LTJcake_-_46321163261.jpg/1280px-LTJcake_-_46321163261.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/LTJcake_-_46321163261.jpg/1280px-LTJcake_-_46321163261.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "LTJcake - 46321163261.jpg",
-      "query": "沙坡尾",
-      "credit": {
-        "source": "wikimedia",
-        "author": "LTJcake",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:LTJcake_-_46321163261.jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE1.jpg/1280px-%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE1.jpg/1280px-%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "网红化沙坡尾1.jpg",
-      "query": "沙坡尾",
-      "credit": {
-        "source": "wikimedia",
-        "author": "向史公哲曰",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE1.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE2.jpg/1280px-%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE2.jpg/1280px-%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "网红化沙坡尾2.jpg",
-      "query": "沙坡尾",
-      "credit": {
-        "source": "wikimedia",
-        "author": "向史公哲曰",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE2.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE3.jpg/1280px-%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE3.jpg/1280px-%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "网红化沙坡尾3.jpg",
-      "query": "沙坡尾",
-      "credit": {
-        "source": "wikimedia",
-        "author": "向史公哲曰",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE3.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "避风坞",
-    "渔船",
-    "老街"
-  ],
-  "popularity": 86,
-  "sources": [
-    {
-      "title": "百度百科·沙坡尾",
-      "url": "https://baike.baidu.com/item/%E6%B2%99%E5%9D%A1%E5%B0%BE",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
-  ],
-  "updatedAt": "2026-11-03",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "沙坡尾"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Fishing_boats_in_Shapowei%2C_Xiamen.jpg/1280px-Fishing_boats_in_Shapowei%2C_Xiamen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Fishing_boats_in_Shapowei%2C_Xiamen.jpg/1280px-Fishing_boats_in_Shapowei%2C_Xiamen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Fishing boats in Shapowei, Xiamen.jpg",
+   "query": "沙坡尾",
+   "credit": {
+    "source": "wikimedia",
+    "author": "mojojo.cn",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fishing_boats_in_Shapowei,_Xiamen.jpg",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "沙坡尾",
-  "_geocodeSuspect": false,
-  "district": "350203"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/LTJcake_-_46321163261.jpg/1280px-LTJcake_-_46321163261.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/LTJcake_-_46321163261.jpg/1280px-LTJcake_-_46321163261.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "LTJcake - 46321163261.jpg",
+   "query": "沙坡尾",
+   "credit": {
+    "source": "wikimedia",
+    "author": "LTJcake",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LTJcake_-_46321163261.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE1.jpg/1280px-%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE1.jpg/1280px-%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "网红化沙坡尾1.jpg",
+   "query": "沙坡尾",
+   "credit": {
+    "source": "wikimedia",
+    "author": "向史公哲曰",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE1.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE2.jpg/1280px-%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE2.jpg/1280px-%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "网红化沙坡尾2.jpg",
+   "query": "沙坡尾",
+   "credit": {
+    "source": "wikimedia",
+    "author": "向史公哲曰",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE2.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE3.jpg/1280px-%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE3.jpg/1280px-%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "网红化沙坡尾3.jpg",
+   "query": "沙坡尾",
+   "credit": {
+    "source": "wikimedia",
+    "author": "向史公哲曰",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%BD%91%E7%BA%A2%E5%8C%96%E6%B2%99%E5%9D%A1%E5%B0%BE3.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "避风坞",
+  "渔船",
+  "老街"
+ ],
+ "popularity": 86,
+ "sources": [
+  {
+   "title": "百度百科·沙坡尾",
+   "url": "https://baike.baidu.com/item/%E6%B2%99%E5%9D%A1%E5%B0%BE",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "沙坡尾"
+ },
+ "_geocodeTitle": "沙坡尾",
+ "_geocodeSuspect": false,
+ "district": "350203",
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "氛围",
+    "score": 4.5,
+    "note": "避风坞里几十条渔船挨着停，傍晚船灯亮起"
+   },
+   {
+    "label": "拍照",
+    "score": 4.4,
+    "note": "渔船、老街、创意园堆在一片水边"
+   },
+   {
+    "label": "商业化",
+    "score": 2.8,
+    "note": "渔港功能迁走后咖啡馆与小酒馆渐多"
+   },
+   {
+    "label": "人流",
+    "score": 3.0,
+    "note": "周末傍晚最挤"
+   }
+  ],
+  "body": "厦门港最早的一段，避风坞的水面上停着几十条渔船，傍晚船灯亮起来、对岸新楼也亮着，大学路两侧旧房子改成了咖啡馆与美术空间。缺点是渔港功能迁走后商业味渐重，片区不大一小时能走完，周末傍晚人挤到拍不出一张干净照片。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "傍晚散步",
+   "拍照"
+  ],
+  "avoid": [
+   "专程跑一趟"
+  ],
+  "sources": []
+ }
 }

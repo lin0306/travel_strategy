@@ -35,6 +35,7 @@ import { BasemapPanelBody, basemapPartsOf, type BasemapMenuProps } from '~/commo
 import { type BasemapState } from '~/common/map/tencent'
 import { Sheet, SheetHead, SHEET_FREE_SVH } from '~/mobile/ui/Sheet'
 import { useSheetClaim } from '~/mobile/ui/sheetHub'
+import { usePresence } from '~/common/ui/usePresence'
 
 export function BasemapSheet({
   open,
@@ -44,8 +45,20 @@ export function BasemapSheet({
   onLevel,
   onToggle,
 }: BasemapMenuProps & { open: boolean; onClose: () => void }) {
-  if (!open || !value) return null
-  return <SheetBody value={value} onClose={onClose} onKind={onKind} onLevel={onLevel} onToggle={onToggle} />
+  /* 退场：关掉后多留 260ms 播「滑落」再卸载 —— 必须比 Sheet 的 220ms 高度过渡长，
+     否则最后一帧的高还没走完就被卸载，看着像"弹一下没了" */
+  const pres = usePresence(open && value !== null, 260)
+  if (!pres.mounted) return null
+  return (
+    <SheetBody
+      value={value as BasemapState}
+      onClose={onClose}
+      onKind={onKind}
+      onLevel={onLevel}
+      onToggle={onToggle}
+      exiting={pres.exiting}
+    />
+  )
 }
 
 /** 内容：每次打开都是新实例，所以永远从 `SHEET_FREE_SVH.initial` 开始 */
@@ -55,14 +68,15 @@ function SheetBody({
   onKind,
   onLevel,
   onToggle,
-}: Omit<BasemapMenuProps, 'value'> & { value: BasemapState; onClose: () => void }) {
+  exiting,
+}: Omit<BasemapMenuProps, 'value'> & { value: BasemapState; onClose: () => void; exiting: boolean }) {
   const { kind, level, checked } = basemapPartsOf(value)
 
   // 占据浮层位：把还开着的详情 / 规划关掉（用户：「同时只显示一个」）
   useSheetClaim('layers', onClose)
 
   return (
-    <Sheet size={SHEET_FREE_SVH} label="图层设置" onClose={onClose} header={<SheetHead title="图层" />}>
+    <Sheet size={SHEET_FREE_SVH} label="图层设置" onClose={onClose} exiting={exiting} header={<SheetHead title="图层" />}>
       <div className="pb-2">
         <BasemapPanelBody
           kind={kind}

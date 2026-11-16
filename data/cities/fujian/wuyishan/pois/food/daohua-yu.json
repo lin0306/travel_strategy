@@ -16,7 +16,7 @@
       "lat": 27.756779,
       "coordSystem": "GCJ-02"
     },
-    "address": "福建省南平市武夷山市农家乐（下梅、五夫周边）",
+    "address": "福建省南平市武夷山市吴屯乡、岚谷乡、五夫镇一带农家乐",
     "district": "武夷山",
     "transportTip": "周边乡镇农家乐可点，自驾或包车"
   },
@@ -37,7 +37,11 @@
     "family"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "秋收前后（9—11 月）最肥，过了季就不是那个味",
+    "吴屯乡是主产区，「吴屯稻花鱼」注册了国家地理标志商标，黄凹垄家庭农场等地可下田捉鱼",
+    "五夫、下梅、岚谷的农家院也常做，点单前问清按斤还是按份"
+  ],
   "images": [],
   "coverIndex": 0,
   "tags": [
@@ -52,9 +56,15 @@
       "url": "https://baike.baidu.com/item/%E7%A8%BB%E8%8A%B1%E9%B1%BC",
       "kind": "wiki",
       "fetchedAt": "2026-10-06"
+    },
+    {
+      "title": "武夷山市政府发布会及闽北日报：稻花鱼主产区在吴屯、岚谷、五夫",
+      "url": "https://www.wys.gov.cn/cms/html/wyssrmzf/2023-09-25/1680538499.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-13"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-13",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,5 +73,26 @@
   "_geocodeTitle": "稻花鱼庄",
   "_geocodeSuspect": false,
   "district": "350782",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-13",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "福建省南平市武夷山市农家乐（下梅、五夫周边）",
+        "new": "福建省南平市武夷山市吴屯乡、岚谷乡、五夫镇一带农家乐"
+      },
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [],
+        "new": [
+          "秋收前后（9—11 月）最肥，过了季就不是那个味",
+          "吴屯乡是主产区，「吴屯稻花鱼」注册了国家地理标志商标，黄凹垄家庭农场等地可下田捉鱼",
+          "五夫、下梅、岚谷的农家院也常做，点单前问清按斤还是按份"
+        ]
+      }
+    ],
+    "source": "https://www.wys.gov.cn/cms/html/wyssrmzf/2023-09-25/1680538499.html",
+    "reason": "武夷山市政府发布会及闽北日报：稻花鱼主产区在吴屯、岚谷、五夫"
+  }
 }

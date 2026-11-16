@@ -16,12 +16,12 @@
       "lat": 25.279452,
       "coordSystem": "GCJ-02"
     },
-    "address": "广西壮族自治区桂林市秀峰区太平路又益轩",
+    "address": "广西壮族自治区桂林市秀峰区解放西路18号1-1号门面（太平路口）",
     "district": "秀峰区",
     "transportTip": "市区步行可达；紧邻榕湖与日月双塔"
   },
   "practical": {
-    "openHours": "约6:30-14:00，以门店公告为准",
+    "openHours": "06:30-次日 03:00（早市做到夜宵，凌晨收档）",
     "openHoursRef": 0,
     "ticket": "便宜",
     "ticketRef": 0,
@@ -53,9 +53,21 @@
       "url": "https://baike.baidu.com/item/%E6%A1%82%E6%9E%97%E7%B1%B3%E7%B2%89",
       "kind": "wiki",
       "fetchedAt": "2026-09-30"
+    },
+    {
+      "title": "寻味桂林——又益轩马肉米粉探访记",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzYyMzIzMjYzNQ==&mid=2247485937&idx=1&sn=e17d873a4edb3c16d5f04f48c44d0900",
+      "kind": "media",
+      "fetchedAt": "2026-11-12"
+    },
+    {
+      "title": "秀峰区融媒体中心非遗打卡攻略：营业至凌晨3点",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzA5NzAxMzEyMw==&mid=2247641605&idx=2&sn=5a82da6362347ab3ac92d999b20b688a",
+      "kind": "media",
+      "fetchedAt": "2026-11-12"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-12",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -64,5 +76,56 @@
   "_geocodeTitle": "又益轩(太平路店)",
   "_geocodeSuspect": false,
   "district": "450302",
-  "_noImage": true
+  "_noImage": true,
+  "review": {
+    "score": 4.0,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "口味",
+        "score": 4.2,
+        "note": "卤水偏清爽一路，粉是当天鲜粉"
+      },
+      {
+        "label": "价格",
+        "score": 4.5,
+        "note": "加料按份另算，本地标准价"
+      },
+      {
+        "label": "环境",
+        "score": 2.0,
+        "note": "门面小、几张桌子，早市得站着吃"
+      },
+      {
+        "label": "时间",
+        "score": 2.5,
+        "note": "偏早市，下午去容易扑空"
+      }
+    ],
+    "body": "太平路上的老粉店，就是本地人日常会去的那种：门面不大，几张桌子，早市时门口端着碗站着吃的也有。招牌是卤菜粉，粉是当天做的鲜粉，卤水偏清爽一路，配菜给得实在，锅烧现炸。它的意义不在「最好吃」，而在于没为游客调整过——价格、分量、味道都是当地标准。缺点是营业偏早市，下午去容易扑空；店里没环境可言，坐着挤，想舒服吃碗粉得赶早。",
+    "basis": "corpus",
+    "at": "2026-11-12",
+    "fits": [
+      "早餐",
+      "一个人吃",
+      "想吃本地日常"
+    ],
+    "avoid": [
+      "下午去",
+      "想要环境"
+    ],
+    "sources": []
+  },
+  "_patrol": {
+    "at": "2026-11-12",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "约6:30-14:00，以门店公告为准",
+        "new": "06:30-次日 03:00（早市做到夜宵，凌晨收档）"
+      }
+    ],
+    "source": "http://mp.weixin.qq.com/s?__biz=MzA5NzAxMzEyMw==&mid=2247641605&idx=2&sn=5a82da6362347ab3ac92d999b20b688a",
+    "reason": "秀峰区融媒体中心非遗打卡攻略：营业至凌晨3点"
+  }
 }

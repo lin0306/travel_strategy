@@ -1,173 +1,210 @@
 {
-  "id": "qianxi-plaza",
-  "name": "千玺广场",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "郑东新区的大玉米楼，夜里通体发光，是郑州最出圈的城市名片。",
-  "description": "千玺广场在郑东新区如意湖东侧，主楼高约二百八十米，因为外形细长、通体金黄，被郑州人叫做大玉米。楼身是曲面玻璃，白天反射天光，傍晚开始亮灯，入夜整栋楼像一根发光的玉米棒，是郑州最容易被认出的形象。楼里有酒店与写字楼，观景要到指定楼层。拍全景最好站在如意湖对岸，湖面能带出倒影。",
-  "highlights": [
-    "大玉米的夜灯",
-    "曲面玻璃反射天光",
-    "如意湖对岸拍全景"
-  ],
-  "location": {
-    "point": {
-      "lng": 113.727853,
-      "lat": 34.770447,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河南省郑州市金水区郑东新区商务外环路千玺广场",
-    "district": "金水区",
-    "transportTip": "市区乘地铁1号线到会展中心站，向东步行到千玺广场"
+ "id": "qianxi-plaza",
+ "name": "千玺广场",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "郑东新区的大玉米楼，夜里通体发光，是郑州最出圈的城市名片。",
+ "description": "千玺广场在郑东新区如意湖东侧，主楼高约二百八十米，因为外形细长、通体金黄，被郑州人叫做大玉米。楼身是曲面玻璃，白天反射天光，傍晚开始亮灯，入夜整栋楼像一根发光的玉米棒，是郑州最容易被认出的形象。楼里有酒店与写字楼，观景要到指定楼层。拍全景最好站在如意湖对岸，湖面能带出倒影。",
+ "highlights": [
+  "大玉米的夜灯",
+  "曲面玻璃反射天光",
+  "如意湖对岸拍全景"
+ ],
+ "location": {
+  "point": {
+   "lng": 113.727853,
+   "lat": 34.770447,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "外观全天，室内以商户时间为准",
-    "openHoursRef": 0,
-    "ticket": "外观免费，观景层另行收费，以现场为准",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "mid"
+  "address": "河南省郑州市金水区郑东新区商务外环路千玺广场",
+  "district": "金水区",
+  "transportTip": "市区乘地铁1号线到会展中心站，向东步行到千玺广场"
+ },
+ "practical": {
+  "openHours": "外观全天，室内以商户时间为准",
+  "openHoursRef": 0,
+  "ticket": "外观免费，观景层另行收费，以现场为准",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/20240801_Millennium_Royal_Plaza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/20240801_Millennium_Royal_Plaza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "20240801 Millennium Royal Plaza.jpg",
+   "query": "千玺广场",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Windmemories",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "couple",
-    "friends",
-    "family"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/20240801_Millennium_Royal_Plaza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/20240801_Millennium_Royal_Plaza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "20240801 Millennium Royal Plaza.jpg",
-      "query": "千玺广场",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/20220524_United_Center_and_Millennium_Royal_Plaza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/20220524_United_Center_and_Millennium_Royal_Plaza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "20220524 United Center and Millennium Royal Plaza.jpg",
-      "query": "千玺广场",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/20220212_Millennium_Royal_Plaza_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/20220212_Millennium_Royal_Plaza_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "20220212 Millennium Royal Plaza at night.jpg",
-      "query": "千玺广场",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/20190530_Zhengdong_New_Area_CBD.jpg/1280px-20190530_Zhengdong_New_Area_CBD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/20190530_Zhengdong_New_Area_CBD.jpg/1280px-20190530_Zhengdong_New_Area_CBD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "20190530 Zhengdong New Area CBD.jpg",
-      "query": "千玺广场",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20190530_Zhengdong_New_Area_CBD.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/20220519_Millennium_Royal_Plaza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/20220519_Millennium_Royal_Plaza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "20220519 Millennium Royal Plaza.jpg",
-      "query": "千玺广场",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20220519_Millennium_Royal_Plaza.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "大玉米",
-    "夜景",
-    "地标"
-  ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "郑州千玺广场·百度百科",
-      "url": "https://baike.baidu.com/item/%E9%83%91%E5%B7%9E%E5%8D%83%E7%8E%BA%E5%B9%BF%E5%9C%BA",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-11-04",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Qianxi Plaza Zhengzhou Corn Tower",
-    "zh": "千玺广场"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/20220524_United_Center_and_Millennium_Royal_Plaza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/20220524_United_Center_and_Millennium_Royal_Plaza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "20220524 United Center and Millennium Royal Plaza.jpg",
+   "query": "千玺广场",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Windmemories",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "千玺广场停车场",
-  "_geocodeSuspect": false,
-  "district": "410105"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/20220212_Millennium_Royal_Plaza_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/20220212_Millennium_Royal_Plaza_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "20220212 Millennium Royal Plaza at night.jpg",
+   "query": "千玺广场",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Windmemories",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/20190530_Zhengdong_New_Area_CBD.jpg/1280px-20190530_Zhengdong_New_Area_CBD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/20190530_Zhengdong_New_Area_CBD.jpg/1280px-20190530_Zhengdong_New_Area_CBD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "20190530 Zhengdong New Area CBD.jpg",
+   "query": "千玺广场",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Windmemories",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20190530_Zhengdong_New_Area_CBD.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/20220519_Millennium_Royal_Plaza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/20220519_Millennium_Royal_Plaza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "20220519 Millennium Royal Plaza.jpg",
+   "query": "千玺广场",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Windmemories",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20220519_Millennium_Royal_Plaza.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "大玉米",
+  "夜景",
+  "地标"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "郑州千玺广场·百度百科",
+   "url": "https://baike.baidu.com/item/%E9%83%91%E5%B7%9E%E5%8D%83%E7%8E%BA%E5%B9%BF%E5%9C%BA",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Qianxi Plaza Zhengzhou Corn Tower",
+  "zh": "千玺广场"
+ },
+ "_geocodeTitle": "千玺广场停车场",
+ "_geocodeSuspect": false,
+ "district": "410105",
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "夜景",
+    "score": 4.5,
+    "note": "通体亮灯时像一根发光的玉米棒，郑州最好认的地标"
+   },
+   {
+    "label": "拍照",
+    "score": 4.3,
+    "note": "如意湖对岸机位最好，湖面带倒影"
+   },
+   {
+    "label": "人流",
+    "score": 2.8,
+    "note": "亮灯那半小时湖边全是人"
+   },
+   {
+    "label": "配套",
+    "score": 3.8,
+    "note": "环湖有步道和商圈，走累了能歇"
+   }
+  ],
+  "body": "夜里亮灯之后确实是郑州最出片的一栋楼，曲面玻璃把光摊开，站在如意湖对岸能把倒影一起收进画面。缺点是亮灯那阵人特别挤，好机位要提前占；想上楼看景得另买票，开放楼层也有限，只看外观其实就够。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "拍城市夜景",
+   "傍晚散步"
+  ],
+  "avoid": [
+   "想登高看全景"
+  ],
+  "sources": []
+ }
 }

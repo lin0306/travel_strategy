@@ -1,69 +1,234 @@
 {
-  "id": "national-museum",
-  "name": "中国国家博物馆",
-  "category": "scenic",
-  "subtype": "museum",
-  "summary": "国家级通史馆,古代中国基本陈列一条线走下来就是半部中国史。",
-  "description": "国博在天安门广场东侧,馆藏一百四十余万件。核心是「古代中国」基本陈列,从远古一路铺到明清,后母戊鼎、四羊方尊、三星堆面具、曾侯乙编钟(部分复制)都在这一线。此外有复兴之路、专题馆与大量临时特展,临展水准往往很高。它是免费的,但预约名额在旺季同样紧张。可以明确地说:如果只能在北京选一个博物馆,和故宫二选一,国博是打基础的地方,故宫是看建筑的地方,顺序建议先国博。",
-  "highlights": [
-    "「古代中国」通史陈列人手一条线",
-    "四羊方尊、后母戊鼎是重量级实物",
-    "免费但需预约"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.401397,
-      "lat": 39.905408,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "北京市东城区东长安街16号",
-    "district": "东城",
-    "transportTip": "地铁1号线天安门东站D口出即到"
+ "id": "national-museum",
+ "name": "中国国家博物馆",
+ "category": "scenic",
+ "subtype": "museum",
+ "summary": "国家级通史馆,古代中国基本陈列一条线走下来就是半部中国史。",
+ "description": "国博在天安门广场东侧,馆藏一百四十余万件。核心是「古代中国」基本陈列,从远古一路铺到明清,后母戊鼎、四羊方尊、三星堆面具、曾侯乙编钟(部分复制)都在这一线。此外有复兴之路、专题馆与大量临时特展,临展水准往往很高。它是免费的,但预约名额在旺季同样紧张。可以明确地说:如果只能在北京选一个博物馆,和故宫二选一,国博是打基础的地方,故宫是看建筑的地方,顺序建议先国博。",
+ "highlights": [
+  "「古代中国」通史陈列人手一条线",
+  "四羊方尊、后母戊鼎是重量级实物",
+  "免费但需预约"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.401397,
+   "lat": 39.905408,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约09:00-17:00(16:00停止入馆),周一闭馆,以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费(需实名预约),部分临展另行收费",
-    "ticketRef": 0,
-    "duration": "建议 240-420 分钟",
-    "durationMinutes": [
-      240,
-      420
-    ],
-    "priceLevel": "free"
+  "address": "北京市东城区东长安街16号",
+  "district": "东城",
+  "transportTip": "地铁1号线天安门东站D口出即到"
+ },
+ "practical": {
+  "openHours": "约09:00-17:00(16:00停止入馆),周一闭馆,以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "免费(需实名预约),部分临展另行收费",
+  "ticketRef": 0,
+  "duration": "建议 240-420 分钟",
+  "durationMinutes": [
+   240,
+   420
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "kids",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/63094-Beijing-National-Museum-of-China_%2828098885753%29.jpg/1280px-63094-Beijing-National-Museum-of-China_%2828098885753%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/63094-Beijing-National-Museum-of-China_%2828098885753%29.jpg/1280px-63094-Beijing-National-Museum-of-China_%2828098885753%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "63094-Beijing-National-Museum-of-China (28098885753).jpg",
+   "query": "中国国家博物馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "couple",
-    "kids",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "国家级馆",
-    "通史",
-    "必去",
-    "雨天备选"
-  ],
-  "popularity": 94,
-  "sources": [
-    {
-      "title": "百度百科·中国国家博物馆",
-      "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%8D%9A%E7%89%A9%E9%A6%86",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "中国国家博物馆"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/63076-Beijing-National-Museum-of-China_%2828096969904%29.jpg/1280px-63076-Beijing-National-Museum-of-China_%2828096969904%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/63076-Beijing-National-Museum-of-China_%2828096969904%29.jpg/1280px-63076-Beijing-National-Museum-of-China_%2828096969904%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "63076-Beijing-National-Museum-of-China (28096969904).jpg",
+   "query": "中国国家博物馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "中国国家博物馆",
-  "_geocodeSuspect": false,
-  "district": "110101",
-  "_noImage": true
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/63100-Beijing-National-Museum-of-China_%2828714631075%29.jpg/1280px-63100-Beijing-National-Museum-of-China_%2828714631075%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/63100-Beijing-National-Museum-of-China_%2828714631075%29.jpg/1280px-63100-Beijing-National-Museum-of-China_%2828714631075%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "63100-Beijing-National-Museum-of-China (28714631075).jpg",
+   "query": "中国国家博物馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/63088-Beijing-National-Museum-of-China_%2828714621245%29.jpg/1280px-63088-Beijing-National-Museum-of-China_%2828714621245%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/63088-Beijing-National-Museum-of-China_%2828714621245%29.jpg/1280px-63088-Beijing-National-Museum-of-China_%2828714621245%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "63088-Beijing-National-Museum-of-China (28714621245).jpg",
+   "query": "中国国家博物馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/62684-Beijing-Tiananmen-Square_%2828609003992%29.jpg/1280px-62684-Beijing-Tiananmen-Square_%2828609003992%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/62684-Beijing-Tiananmen-Square_%2828609003992%29.jpg/1280px-62684-Beijing-Tiananmen-Square_%2828609003992%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "62684-Beijing-Tiananmen-Square (28609003992).jpg",
+   "query": "中国国家博物馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q1074318",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Chrysanthemum_porcelain_vase_with_three_colors.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Chrysanthemum_porcelain_vase_with_three_colors.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "Chrysanthemum porcelain vase with three colors.jpg",
+   "query": "中国国家博物馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "No machine-readable author provided. ○rz assumed (based on c",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chrysanthemum_porcelain_vase_with_three_colors.jpg",
+    "license": "CC BY 2.5",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 4,
+ "tags": [
+  "国家级馆",
+  "通史",
+  "必去",
+  "雨天备选"
+ ],
+ "popularity": 94,
+ "sources": [
+  {
+   "title": "百度百科·中国国家博物馆",
+   "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%8D%9A%E7%89%A9%E9%A6%86",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "中国国家博物馆"
+ },
+ "_geocodeTitle": "中国国家博物馆",
+ "_geocodeSuspect": false,
+ "district": "110101",
+ "review": {
+  "score": 4.6,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "展陈",
+    "score": 4.8,
+    "note": "「古代中国」一条线从远古铺到明清，脉络清楚"
+   },
+   {
+    "label": "人流",
+    "score": 2.6,
+    "note": "周末与假期展厅里人贴着展柜走，重点文物前要等"
+   },
+   {
+    "label": "免费程度",
+    "score": 4.5,
+    "note": "常设展免费，但名额要抢，临展另行收费"
+   },
+   {
+    "label": "时长",
+    "score": 3.0,
+    "note": "四五十个展厅，逛完腿先废，得挑着看"
+   }
+  ],
+  "body": "如果在北京只进一个博物馆，国博是打基础的那一个：古代中国基本陈列把整条通史串起来，后母戊鼎、四羊方尊这类实物摆在面前，比看图片有说服力得多。缺点是它实在太大了，展厅多到走不完，硬逛的结果是后半天完全看不进东西；免费票的预约名额在旺季也很紧张，临时起意基本约不上，周末展厅里还挤得贴着柜子走。可行的做法是只锁定通史陈列加一个临展，三小时收工，把体力留给别处。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "看文物",
+   "下雨天",
+   "带孩子"
+  ],
+  "avoid": [
+   "想一次看完",
+   "临时起意不预约"
+  ],
+  "sources": []
+ }
 }

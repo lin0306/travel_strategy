@@ -1,89 +1,128 @@
 {
-  "id": "guangxi-minzu-bowuyuan",
-  "name": "广西民族博物馆",
-  "category": "scenic",
-  "subtype": "museum",
-  "summary": "看广西十二个世居民族的实物与技艺。",
-  "description": "广西民族博物馆在青秀山旁的青环路，是专门讲广西民族文化的博物馆，主体是壮族干栏式建筑的样子。展览以壮、瑶、苗、侗等世居民族的服饰、织锦、铜鼓和生活器具为主，是理解广西多元民族的最直接窗口。它和青秀山离得近，可以同一天走。免费需预约，预留半天。",
-  "highlights": [
-    "专门讲广西民族的博物馆，干栏式建筑",
-    "壮瑶苗侗服饰织锦铜鼓为主",
-    "与青秀山可同天走"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.401274,
-      "lat": 22.773827,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市青秀区青环路11号",
-    "district": "青秀区",
-    "transportTip": "地铁3号线至青秀山站换乘公交/打车约10分钟"
+ "id": "guangxi-minzu-bowuyuan",
+ "name": "广西民族博物馆",
+ "category": "scenic",
+ "subtype": "museum",
+ "summary": "看广西十二个世居民族的实物与技艺。",
+ "description": "广西民族博物馆在青秀山旁的青环路，是专门讲广西民族文化的博物馆，主体是壮族干栏式建筑的样子。展览以壮、瑶、苗、侗等世居民族的服饰、织锦、铜鼓和生活器具为主，是理解广西多元民族的最直接窗口。它和青秀山离得近，可以同一天走。免费需预约，预留半天。",
+ "highlights": [
+  "专门讲广西民族的博物馆，干栏式建筑",
+  "壮瑶苗侗服饰织锦铜鼓为主",
+  "与青秀山可同天走"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.401274,
+   "lat": 22.773827,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约09:00-17:00（周一闭馆），以公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费（需预约）",
-    "ticketRef": 0,
-    "duration": "建议 120-240 分钟",
-    "durationMinutes": [
-      120,
-      240
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "kids",
-    "family",
-    "elders"
+  "address": "南宁市青秀区青环路11号",
+  "district": "青秀区",
+  "transportTip": "地铁3号线至青秀山站换乘公交/打车约10分钟"
+ },
+ "practical": {
+  "openHours": "约09:00-17:00（周一闭馆），以公告为准",
+  "openHoursRef": 0,
+  "ticket": "免费（需预约）",
+  "ticketRef": 0,
+  "duration": "建议 120-240 分钟",
+  "durationMinutes": [
+   120,
+   240
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%8D%9A%E7%89%A9%E9%A6%86_4009.jpg/1280px-%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%8D%9A%E7%89%A9%E9%A6%86_4009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%8D%9A%E7%89%A9%E9%A6%86_4009.jpg/1280px-%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%8D%9A%E7%89%A9%E9%A6%86_4009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "广西民族博物馆 4009.jpg",
-      "query": "广西民族博物馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Cangminzho",
-        "sourceUrl": "https://www.wikidata.org/wiki/Q48886574",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    }
+  "priceLevel": "free"
+ },
+ "audience": [
+  "kids",
+  "family",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%8D%9A%E7%89%A9%E9%A6%86_4009.jpg/1280px-%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%8D%9A%E7%89%A9%E9%A6%86_4009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%8D%9A%E7%89%A9%E9%A6%86_4009.jpg/1280px-%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%8D%9A%E7%89%A9%E9%A6%86_4009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "广西民族博物馆 4009.jpg",
+   "query": "广西民族博物馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Cangminzho",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q48886574",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "民族",
+  "博物馆",
+  "免费"
+ ],
+ "popularity": 80,
+ "sources": [
+  {
+   "title": "百度百科·广西民族博物馆",
+   "url": "https://baike.baidu.com/item/%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%8D%9A%E7%89%A9%E9%A6%86",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "广西民族博物馆"
+ },
+ "_geocodeTitle": "广西民族博物馆",
+ "_geocodeSuspect": false,
+ "district": "450103",
+ "review": {
+  "score": 4.6,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "展陈",
+    "score": 4.6,
+    "note": "壮瑶苗侗等十二个世居民族的服饰、织锦、铜鼓成体系"
+   },
+   {
+    "label": "建筑",
+    "score": 4.5,
+    "note": "干栏式主体临江而立，本身就是看点"
+   },
+   {
+    "label": "免费程度",
+    "score": 4.8,
+    "note": "室内免费需预约，室外民族村无需预约"
+   },
+   {
+    "label": "人流",
+    "score": 3.6,
+    "note": "暑期与周末有展演时人多"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "民族",
-    "博物馆",
-    "免费"
+  "body": "把「广西有多少个民族、各自怎么生活」讲清楚，这里是最直接的窗口：铜鼓、壮锦、银饰与生活器具按民族分厅陈列，看展的动线不绕，两个小时能建立基本框架。建筑本身也值一看，干栏式主体临着邕江。它的独门优势是室外那片民族村——1:1 复刻的侗族风雨桥、苗族吊脚楼、壮族干栏民居就在馆后，室内看完出门接着看实物，这种「馆+村」的组合在别处少见。不足是人流集中：暑期与节庆有免费展演时，主楼大堂和热门展厅会挤，安静看展要赶工作日早上。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "看民族文化",
+   "带孩子",
+   "半天行程"
   ],
-  "popularity": 80,
-  "sources": [
-    {
-      "title": "百度百科·广西民族博物馆",
-      "url": "https://baike.baidu.com/item/%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%8D%9A%E7%89%A9%E9%A6%86",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "avoid": [
+   "只想拍网红照",
+   "讨厌排队进馆"
   ],
-  "updatedAt": "2026-11-01",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "广西民族博物馆"
-  },
-  "_geocodeTitle": "广西民族博物馆",
-  "_geocodeSuspect": false,
-  "district": "450103"
+  "sources": []
+ }
 }

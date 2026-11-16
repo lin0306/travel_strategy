@@ -1,67 +1,102 @@
 {
-  "id": "youting-crucian-carp",
-  "name": "邮亭鲫鱼",
-  "category": "food",
-  "subtype": "local",
-  "summary": "大足邮亭镇名菜，泡椒与酸菜烧制，酸辣开胃。",
-  "description": "邮亭鲫鱼出自大足邮亭镇，早年因成渝公路上的司机口耳相传而出名。与来凤鱼偏麻辣不同，邮亭鲫鱼更强调酸辣：用泡椒、泡姜与酸菜烧出一层红亮的汤，鱼肉细嫩，汤汁酸香开胃，配一碗白饭很容易吃多。鱼通常选一两斤的土鲫鱼，刺多但肉甜。去大足看石刻的路上顺道吃一顿，是很多人的标准安排。",
-  "highlights": [
-    "泡椒酸菜烧制，酸辣开胃",
-    "与大足石刻顺路",
-    "成渝公路上的老字号名菜"
-  ],
-  "location": {
-    "point": {
-      "lng": 105.750174,
-      "lat": 29.429004,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "重庆市大足区邮亭镇（主城亦有多店）",
-    "district": "大足",
-    "transportTip": "主城自驾至大足约 1.5 小时，邮亭在途中"
+ "id": "youting-crucian-carp",
+ "name": "邮亭鲫鱼",
+ "category": "food",
+ "subtype": "local",
+ "summary": "大足邮亭镇名菜，泡椒与酸菜烧制，酸辣开胃。",
+ "description": "邮亭鲫鱼出自大足邮亭镇，早年因成渝公路上的司机口耳相传而出名。与来凤鱼偏麻辣不同，邮亭鲫鱼更强调酸辣：用泡椒、泡姜与酸菜烧出一层红亮的汤，鱼肉细嫩，汤汁酸香开胃，配一碗白饭很容易吃多。鱼通常选一两斤的土鲫鱼，刺多但肉甜。去大足看石刻的路上顺道吃一顿，是很多人的标准安排。",
+ "highlights": [
+  "泡椒酸菜烧制，酸辣开胃",
+  "与大足石刻顺路",
+  "成渝公路上的老字号名菜"
+ ],
+ "location": {
+  "point": {
+   "lng": 105.750174,
+   "lat": 29.429004,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 11:00-21:00（以门店公告为准）",
-    "openHoursRef": 0,
-    "ticket": "人均约 70 元起（以门店为准）",
-    "ticketRef": 0,
-    "duration": "建议 90-120 分钟",
-    "durationMinutes": [
-      90,
-      120
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "friends",
-    "family"
+  "address": "重庆市大足区邮亭镇（主城亦有多店）",
+  "district": "大足",
+  "transportTip": "主城自驾至大足约 1.5 小时，邮亭在途中"
+ },
+ "practical": {
+  "openHours": "约 11:00-21:00（以门店公告为准）",
+  "openHoursRef": 0,
+  "ticket": "人均约 70 元起（以门店为准）",
+  "ticketRef": 0,
+  "duration": "建议 90-120 分钟",
+  "durationMinutes": [
+   90,
+   120
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "江湖菜",
-    "鲫鱼",
-    "酸辣"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "江湖菜",
+  "鲫鱼",
+  "酸辣"
+ ],
+ "popularity": 62,
+ "sources": [
+  {
+   "title": "百度百科·邮亭鲫鱼",
+   "url": "https://baike.baidu.com/item/%E9%82%AE%E4%BA%AD%E9%B2%AB%E9%B1%BC",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "邮亭鲫鱼"
+ },
+ "_geocodeTitle": "邮亭鲫鱼创始人总店",
+ "_geocodeSuspect": false,
+ "district": "500111",
+ "_noImage": true,
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.3,
+    "note": "泡椒泡姜烧制，酸辣比麻辣更突出"
+   },
+   {
+    "label": "距离",
+    "score": 3.1,
+    "note": "在大足邮亭镇，主城自驾约 1.5 小时"
+   },
+   {
+    "label": "吃法",
+    "score": 3.4,
+    "note": "鲫鱼刺多，按条按斤点单"
+   },
+   {
+    "label": "挑店",
+    "score": 3.6,
+    "note": "镇上一街几十家鱼馆，水平不齐"
+   }
   ],
-  "popularity": 62,
+  "body": "成渝古道驿站上传下来的名菜，泡椒、泡姜加酸菜烧出一层红亮汤，酸辣比麻辣更突出，鱼肉细嫩、汤汁拌饭很下饭；当地还把这门手艺当成非遗在推，节庆时办鱼宴。缺点是吃这口有代价：鲫鱼细刺多，吃不惯细刺的人会很狼狈；鱼按条按斤算，两个人也要吃上人均七十元。镇上鱼馆几十家但水平不齐，认准老店或本地人多的那家更稳。",
+  "basis": "web",
+  "at": "2026-11-14",
+  "fits": [],
+  "avoid": [],
   "sources": [
-    {
-      "title": "百度百科·邮亭鲫鱼",
-      "url": "https://baike.baidu.com/item/%E9%82%AE%E4%BA%AD%E9%B2%AB%E9%B1%BC",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "邮亭鲫鱼"
-  },
-  "_geocodeTitle": "邮亭鲫鱼创始人总店",
-  "_geocodeSuspect": false,
-  "district": "500111",
-  "_noImage": true
+   "https://www.dazu.gov.cn/zwxx_175/jdtp/202611/t20261109_16385794.html",
+   "https://www.cqrb.cn/dy/media/xcq125/2026-03-10/2592016_pc.html"
+  ]
+ }
 }

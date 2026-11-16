@@ -1,74 +1,113 @@
 {
-  "id": "tiger-park",
-  "name": "东北虎林园",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "江北的成片林地，养着几百只东北虎，坐专用车进散放区隔着车窗看。",
-  "description": "虎林园在松北区松北街，是一片很大的林地，养着几百只东北虎，分成成虎园、幼虎园、散放区几块。看的方式是坐园里的专用观光车，车是带铁网的，开进散放区里，虎就在车边走动，隔着网很近。也可以买投喂的肉条，从车上的孔里递出去。步行区有幼虎与其他动物的笼舍，能慢慢看。园子在江北，离市区十几公里，夏天草木多、蚊虫也多，冬天动物反而活跃。整圈走下来两到三小时。这里与极地公园、太阳岛顺路，可以一天连着看。",
-  "highlights": [
-    "坐带网的车进散放区，虎就在车边走动",
-    "几百只东北虎，分幼虎园与成虎园",
-    "可以买肉条从车上投喂"
-  ],
-  "location": {
-    "point": {
-      "lng": 126.601711,
-      "lat": 45.81735,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黑龙江省哈尔滨市松北区太阳岛街道松北街88号",
-    "district": "松北区",
-    "transportTip": "市区乘公交至东北虎林园站；或网约车前往，与太阳岛同日安排",
-    "entrance": {
-      "lng": 126.595444,
-      "lat": 45.818702,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "tiger-park",
+ "name": "东北虎林园",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "江北的成片林地，养着几百只东北虎，坐专用车进散放区隔着车窗看。",
+ "description": "虎林园在松北区松北街，是一片很大的林地，养着几百只东北虎，分成成虎园、幼虎园、散放区几块。看的方式是坐园里的专用观光车，车是带铁网的，开进散放区里，虎就在车边走动，隔着网很近。也可以买投喂的肉条，从车上的孔里递出去。步行区有幼虎与其他动物的笼舍，能慢慢看。园子在江北，离市区十几公里，夏天草木多、蚊虫也多，冬天动物反而活跃。整圈走下来两到三小时。这里与极地公园、太阳岛顺路，可以一天连着看。",
+ "highlights": [
+  "坐带网的车进散放区，虎就在车边走动",
+  "几百只东北虎，分幼虎园与成虎园",
+  "可以买肉条从车上投喂"
+ ],
+ "location": {
+  "point": {
+   "lng": 126.601711,
+   "lat": 45.81735,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约8:30-16:30（冬季略短），以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "门票含观光车，投喂另付，以现场公告为准",
-    "ticketRef": 0,
-    "duration": "建议 120-240 分钟",
-    "durationMinutes": [
-      120,
-      240
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "kids",
-    "family",
-    "friends",
-    "couple"
+  "address": "黑龙江省哈尔滨市松北区太阳岛街道松北街88号",
+  "district": "松北区",
+  "transportTip": "市区乘公交至东北虎林园站；或网约车前往，与太阳岛同日安排",
+  "entrance": {
+   "lng": 126.595444,
+   "lat": 45.818702,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约8:30-16:30（冬季略短），以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "门票含观光车，投喂另付，以现场公告为准",
+  "ticketRef": 0,
+  "duration": "建议 120-240 分钟",
+  "durationMinutes": [
+   120,
+   240
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "东北虎",
-    "观光车",
-    "投喂"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "kids",
+  "family",
+  "friends",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "东北虎",
+  "观光车",
+  "投喂"
+ ],
+ "popularity": 88,
+ "sources": [
+  {
+   "title": "百度百科·东北虎林园",
+   "url": "https://baike.baidu.com/item/%E4%B8%9C%E5%8C%97%E8%99%8E%E6%9E%97%E5%9B%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "东北虎林园"
+ },
+ "_geocodeTitle": "东北虎林园",
+ "_geocodeSuspect": false,
+ "district": "230109",
+ "_noImage": true,
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "观赏",
+    "score": 4.5,
+    "note": "带网观光车进散放区，虎就在车边"
+   },
+   {
+    "label": "交通",
+    "score": 3.2,
+    "note": "在江北，离市区十几公里"
+   },
+   {
+    "label": "时长",
+    "score": 3.6,
+    "note": "整圈走下来两到三小时"
+   },
+   {
+    "label": "季节",
+    "score": 3.8,
+    "note": "冬天动物活跃，夏天蚊虫多"
+   }
   ],
-  "popularity": 88,
-  "sources": [
-    {
-      "title": "百度百科·东北虎林园",
-      "url": "https://baike.baidu.com/item/%E4%B8%9C%E5%8C%97%E8%99%8E%E6%9E%97%E5%9B%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
+  "body": "坐带铁网的观光车开进散放区，几百只东北虎就在车边走动，这种距离感是笼舍给不了的，还能买肉条从车上的孔里递出去。步行区有幼虎和其他动物，整圈走下来两到三小时，和极地公园、太阳岛顺路能连成一天。缺点是园子在江北，离市区十几公里，不自驾得专门安排交通；夏天草木多、蚊虫也多，冬天动物反而活跃。门票含观光车但投喂另付，现场容易被小朋友缠着加钱。带娃很值，单人来会觉得路上花的时间偏多。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "带娃",
+   "江北一日游",
+   "看东北虎"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "东北虎林园"
-  },
-  "_geocodeTitle": "东北虎林园",
-  "_geocodeSuspect": false,
-  "district": "230109",
-  "_noImage": true
+  "avoid": [
+   "单独出行",
+   "怕蚊虫"
+  ],
+  "sources": []
+ }
 }

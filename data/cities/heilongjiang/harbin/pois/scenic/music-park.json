@@ -1,74 +1,135 @@
 {
-  "id": "music-park",
-  "name": "哈尔滨音乐公园",
-  "category": "scenic",
-  "subtype": "park",
-  "summary": "群力新区沿江的一片带状公园，有一条很长的音乐长廊，本地人散步骑车的地方。",
-  "description": "音乐公园在道里区群力那一片，沿着松花江南岸的友谊西路铺开，是一条很长的带状绿地，不收门票。标志性的是那条音乐长廊 —— 一排白色的构架沿路排出去，中间嵌着与音乐相关的内容，哈尔滨是被授予过音乐之城名号的城市，这条路就是摆这个的。公园里有草地、跑道、球场，早晚全是跑步与遛弯的本地人。夏天江风舒服，冬天江边风硬，待不久。它不是很有故事的景点，更像是看一下这座城日常生活的地方，散步一小时足够。",
-  "highlights": [
-    "一条白色音乐长廊沿路排开，是这座音乐之城的名片",
-    "沿江带状绿地，不收门票",
-    "早晚是本地人跑步遛弯的地方"
-  ],
-  "location": {
-    "point": {
-      "lng": 126.548344,
-      "lat": 45.74904,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黑龙江省哈尔滨市道里区友谊西路",
-    "district": "道里区",
-    "transportTip": "乘公交至群力友谊西路沿线站；或网约车前往",
-    "entrance": {
-      "lng": 126.566489,
-      "lat": 45.750925,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "music-park",
+ "name": "哈尔滨音乐公园",
+ "category": "scenic",
+ "subtype": "park",
+ "summary": "群力新区沿江的一片带状公园，有一条很长的音乐长廊，本地人散步骑车的地方。",
+ "description": "音乐公园在道里区群力那一片，沿着松花江南岸的友谊西路铺开，是一条很长的带状绿地，不收门票。标志性的是那条音乐长廊 —— 一排白色的构架沿路排出去，中间嵌着与音乐相关的内容，哈尔滨是被授予过音乐之城名号的城市，这条路就是摆这个的。公园里有草地、跑道、球场，早晚全是跑步与遛弯的本地人。夏天江风舒服，冬天江边风硬，待不久。它不是很有故事的景点，更像是看一下这座城日常生活的地方，散步一小时足够。",
+ "highlights": [
+  "一条白色音乐长廊沿路排开，是这座音乐之城的名片",
+  "沿江带状绿地，不收门票",
+  "早晚是本地人跑步遛弯的地方"
+ ],
+ "location": {
+  "point": {
+   "lng": 126.548344,
+   "lat": 45.74904,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 60-150 分钟",
-    "durationMinutes": [
-      60,
-      150
-    ],
-    "priceLevel": "free"
+  "address": "黑龙江省哈尔滨市道里区友谊西路",
+  "district": "道里区",
+  "transportTip": "乘公交至群力友谊西路沿线站；或网约车前往",
+  "entrance": {
+   "lng": 126.566489,
+   "lat": 45.750925,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "全天开放",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 60-150 分钟",
+  "durationMinutes": [
+   60,
+   150
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "family",
+  "elders",
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [
+  "2026年10月新增3500米三色慢行漫道（蓝、红、紫三条步道），慢跑散步拍照都合适"
+ ],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "沿江",
+  "免费",
+  "散步"
+ ],
+ "popularity": 72,
+ "sources": [
+  {
+   "title": "百度百科·哈尔滨音乐公园",
+   "url": "https://baike.baidu.com/item/%E5%93%88%E5%B0%94%E6%BB%A8%E9%9F%B3%E4%B9%90%E5%85%AC%E5%9B%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
   },
-  "audience": [
-    "family",
-    "elders",
-    "couple",
-    "friends"
+  {
+   "title": "哈尔滨日报：音乐公园新增三色漫道，全长3500米",
+   "url": "http://heb.wenming.cn/rdxw/202610/t20261027_9392470.html",
+   "kind": "media",
+   "fetchedAt": "2026-11-13"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "哈尔滨音乐公园"
+ },
+ "_geocodeTitle": "哈尔滨音乐公园",
+ "_geocodeSuspect": false,
+ "district": "230102",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-13",
+  "changes": [
+   {
+    "field": "贴士（用 | 分隔多条，整体替换）",
+    "old": [],
+    "new": [
+     "2026年10月新增3500米三色慢行漫道（蓝、红、紫三条步道），慢跑散步拍照都合适"
+    ]
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "沿江",
-    "免费",
-    "散步"
+  "source": "http://heb.wenming.cn/rdxw/202610/t20261027_9392470.html",
+  "reason": "哈尔滨日报：音乐公园新增三色漫道，全长3500米"
+ },
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "江景",
+    "score": 4.0,
+    "note": "沿松花江南岸带状绿地"
+   },
+   {
+    "label": "长廊",
+    "score": 4.0,
+    "note": "白色音乐长廊是标志"
+   },
+   {
+    "label": "人流",
+    "score": 3.5,
+    "note": "早晚本地人跑步遛弯"
+   },
+   {
+    "label": "季节",
+    "score": 2.6,
+    "note": "冬天江边风硬待不久"
+   }
   ],
-  "popularity": 72,
-  "sources": [
-    {
-      "title": "百度百科·哈尔滨音乐公园",
-      "url": "https://baike.baidu.com/item/%E5%93%88%E5%B0%94%E6%BB%A8%E9%9F%B3%E4%B9%90%E5%85%AC%E5%9B%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
+  "body": "群力沿松花江铺开的一条带状绿地，标志性的是那排白色音乐长廊，呼应这座音乐之城的名号，傍晚江风舒服，早晚全是跑步遛弯的本地人，新添的三色慢行漫道也适合拍照。可惜它更像看这座城日常的地方，故事性弱，散步一小时就够；冬天江边风硬待不久，夏秋以外体验打折。别指望有什么必看节点，安排在群力那半天顺路走走最合适。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "傍晚散步",
+   "跑步",
+   "顺路"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "哈尔滨音乐公园"
-  },
-  "_geocodeTitle": "哈尔滨音乐公园",
-  "_geocodeSuspect": false,
-  "district": "230102",
-  "_noImage": true
+  "avoid": [
+   "隆冬久待",
+   "专程打卡"
+  ],
+  "sources": []
+ }
 }

@@ -1,6 +1,6 @@
 {
   "id": "hongqi-fanzhuang",
-  "name": "红旗饭庄(红旗路店)",
+  "name": "红旗饭庄(南开店)",
   "category": "food",
   "subtype": "local",
   "summary": "做津菜的老馆子，罾蹦鲤鱼与老爆三是它的招牌。",
@@ -16,8 +16,8 @@
       "lat": 39.139019,
       "coordSystem": "GCJ-02"
     },
-    "address": "天津市南开区红旗路（近长江道）",
-    "district": "西青",
+    "address": "天津市南开区黄河道480号（近向阳路）",
+    "district": "南开",
     "transportTip": "地铁6号线鞍山西道站，步行约十分钟"
   },
   "practical": {
@@ -53,9 +53,15 @@
       "url": "https://baike.baidu.com/item/%E6%B4%A5%E8%8F%9C",
       "kind": "wiki",
       "fetchedAt": "2026-09-27"
+    },
+    {
+      "title": "红旗饭庄（南开店）· 百度百科",
+      "url": "https://baike.baidu.com/item/%E7%BA%A2%E6%97%97%E9%A5%AD%E5%BA%84%EF%BC%88%E5%8D%97%E5%BC%80%E5%BA%97%EF%BC%89/14257824",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,6 +69,23 @@
   },
   "_geocodeTitle": "红旗饭庄(总店)",
   "_geocodeSuspect": false,
-  "district": "120111",
-  "_noImage": true
+  "district": "120104",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "名称",
+        "old": "红旗饭庄(红旗路店)",
+        "new": "红旗饭庄(南开店)"
+      },
+      {
+        "field": "地址",
+        "old": "天津市南开区红旗路（近长江道）",
+        "new": "天津市南开区黄河道480号（近向阳路）"
+      }
+    ],
+    "source": "https://baike.baidu.com/item/%E7%BA%A2%E6%97%97%E9%A5%AD%E5%BA%84%EF%BC%88%E5%8D%97%E5%BC%80%E5%BA%97%EF%BC%89/14257824",
+    "reason": "腾讯地图总店POI坐标与库内重合，实名黄河道480号"
+  }
 }

@@ -1,6 +1,6 @@
 # 银川 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-02
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-13
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | He Zhang | Pexels License | [pexels](https://www.pexels.com/photo/buildings-in-the-light-of-the-sunset-15906464/) |
-| 城市封面 | Shuaizhi Tian | Pexels License | [pexels](https://www.pexels.com/photo/modern-high-rise-buildings-in-tianjin-china-38031563/) |
-| 城市封面 | Andy Lee | Pexels License | [pexels](https://www.pexels.com/photo/city-buildings-under-cloudy-sky-12515134/) |
+| 城市封面 | Thebrainchamber1 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Western_Xia_mausoleums_10.jpg) |
+| 城市封面 | Yanxutong1215 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%95%87%E5%8C%97%E5%A0%A1%E8%A5%BF%E9%83%A8%E5%BD%B1%E5%9F%8E.jpg) |
+| 城市封面 | Thebrainchamber1 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Western_Xia_mausoleums_2.jpg) |
 | 拜寺口双塔 | BabelStone | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baisikou_Pagodas_stone_roller_B.jpg) |
 | 拜寺口双塔 | BabelStone | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baisikou_Twin_Pagodas.jpg) |
 | 拜寺口双塔 | BabelStone | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baisikou_Twin_Pagodas_silk_painting.jpg) |
@@ -110,13 +110,9 @@
 | 水洞沟 | ping lin | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B0%B4%E6%B4%9E%E6%B2%9F_-_panoramio.jpg) |
 | 西夏王陵 | 归零者 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mausoleum_of_Xixia_Dynasty,_Yinchuan_banner.png) |
 | 西夏王陵 | Hiroooooo | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Reconstructed_model_of_Xixia(western_Xia)_Mausoleum_in_Xixia_museum.jpg) |
-| 西夏博物馆 | BabelStone | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xixia_Museum_Yinchuan.jpg) |
-| 西夏博物馆 | BabelStone | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xixia_Museum_caltrop.jpg) |
-| 西夏博物馆 | BabelStone | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xixia_Museum_head_B.jpg) |
 | 玉皇阁 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260810_Yinchuan_Yuhuang_Pavilion_01.jpg) |
 | 玉皇阁 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260810_Yinchuan_Yuhuang_Pavilion_02.jpg) |
 | 玉皇阁 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yinchuan_Yuhuang_Pavilion_-_53725809745_(2024).jpg) |
-| 镇北堡西部影城 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E2%80%9C%E5%8D%81%E5%85%AB%E9%87%8C%E7%BA%A2%E2%80%9D-%E5%AE%81%E5%A4%8F%E9%93%B6%E5%B7%9D_%E9%95%87%E5%8C%97%E5%A0%A1%E5%BD%B1%E8%A7%86%E5%9F%BA%E5%9C%B0_zhen_bei_pu_-_panoramio.jpg) |
 | 镇北堡西部影城 | Yanxutong1215 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%95%87%E5%8C%97%E5%A0%A1%E8%A5%BF%E9%83%A8%E5%BD%B1%E5%9F%8E.jpg) |
 | 银川中山公园 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%B1%B1%E5%85%AC%E5%9B%AD_zhong_shan_gong_yuan_-_panoramio_(2).jpg) |
 | 银川中山公园 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%93%B6%E5%B7%9D_%E4%B8%AD%E5%B1%B1%E5%85%AC%E5%9B%AD_-_panoramio.jpg) |
@@ -124,9 +120,6 @@
 | 烩羊肉 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20230217_Laoqinji_Smelly_Huimian_in_Xinxiang.jpg) |
 | 烤羊腿 | W457137120 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Roast_Whole_Lamb.jpg) |
 | 馓子 | François Nguyen | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bagged_Sangza.jpg) |
-| 贺兰山岩画 | 261026CQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%B2%A9%E7%94%BB1.jpg) |
-| 贺兰山岩画 | HCCB3947 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%B2%A9%E7%94%BB%E4%B8%8E%E8%A5%BF%E5%A4%8F%E6%96%87%E5%AD%97.jpg) |
-| 贺兰山岩画 | 霧島聖 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%B2%A9%E7%94%BB%E5%A4%AA%E9%98%B3%E7%A5%9E.jpg) |
 | 贺兰山风光 | BabelStone | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baisilou_twin_pagodas_from_distance.jpg) |
 | 贺兰山风光 | BabelStone | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Helan_Montains_at_Baisikou_A.jpg) |
 | 贺兰山风光 | BabelStone | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Helan_Montains_at_Baisikou_B.jpg) |

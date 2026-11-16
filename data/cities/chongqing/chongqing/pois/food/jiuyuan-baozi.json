@@ -1,67 +1,99 @@
 {
-  "id": "jiuyuan-baozi",
-  "name": "九园包子",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "百年老字号包子铺，咸甜两味都有，是本地人的早点记忆。",
-  "description": "九园包子创立于上世纪二十年代，是重庆最老的餐饮品牌之一，几经沉浮后重新开张。它的包子分咸甜两路：咸的是酱肉包，甜的是豆沙包，皮子松软、馅料足。老重庆人对它有很强的记忆，很多是小时候跟着长辈来吃的。现在多开在商圈与好吃街附近，当早餐或路上垫肚子的点心都很合适。",
-  "highlights": [
-    "百年老字号，咸甜两味",
-    "皮软馅足",
-    "本地人的早点记忆"
-  ],
-  "location": {
-    "point": {
-      "lng": 106.54708,
-      "lat": 29.562625,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "重庆市渝中区八一路一带（以门店公告为准）",
-    "district": "渝中",
-    "transportTip": "轨道交通 2 号线临江门站，步行约 6 分钟"
+ "id": "jiuyuan-baozi",
+ "name": "九园包子",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "百年老字号包子铺，咸甜两味都有，是本地人的早点记忆。",
+ "description": "九园包子创立于上世纪二十年代，是重庆最老的餐饮品牌之一，几经沉浮后重新开张。它的包子分咸甜两路：咸的是酱肉包，甜的是豆沙包，皮子松软、馅料足。老重庆人对它有很强的记忆，很多是小时候跟着长辈来吃的。现在多开在商圈与好吃街附近，当早餐或路上垫肚子的点心都很合适。",
+ "highlights": [
+  "百年老字号，咸甜两味",
+  "皮软馅足",
+  "本地人的早点记忆"
+ ],
+ "location": {
+  "point": {
+   "lng": 106.54708,
+   "lat": 29.562625,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 07:00-20:00（以门店公告为准）",
-    "openHoursRef": 0,
-    "ticket": "人均约 15 元起（以门店为准）",
-    "ticketRef": 0,
-    "duration": "建议 20-40 分钟",
-    "durationMinutes": [
-      20,
-      40
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "family",
-    "solo"
+  "address": "重庆市渝中区八一路一带（以门店公告为准）",
+  "district": "渝中",
+  "transportTip": "轨道交通 2 号线临江门站，步行约 6 分钟"
+ },
+ "practical": {
+  "openHours": "约 07:00-20:00（以门店公告为准）",
+  "openHoursRef": 0,
+  "ticket": "人均约 15 元起（以门店为准）",
+  "ticketRef": 0,
+  "duration": "建议 20-40 分钟",
+  "durationMinutes": [
+   20,
+   40
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "包子",
-    "老字号",
-    "早餐"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "包子",
+  "老字号",
+  "早餐"
+ ],
+ "popularity": 64,
+ "sources": [
+  {
+   "title": "百度百科·九园包子",
+   "url": "https://baike.baidu.com/item/%E4%B9%9D%E5%9B%AD%E5%8C%85%E5%AD%90",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "九园包子"
+ },
+ "_geocodeTitle": "九园包子(上清寺店)",
+ "_geocodeSuspect": false,
+ "district": "500103",
+ "_noImage": true,
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 3.9,
+    "note": "酱肉包咸香，豆沙包偏甜"
+   },
+   {
+    "label": "价格",
+    "score": 3.4,
+    "note": "单价比街边包子铺高一截"
+   },
+   {
+    "label": "情怀",
+    "score": 4.4,
+    "note": "老重庆的早点记忆"
+   },
+   {
+    "label": "出品稳定",
+    "score": 3.3,
+    "note": "分店多了以后不如老店"
+   }
   ],
-  "popularity": 64,
-  "sources": [
-    {
-      "title": "百度百科·九园包子",
-      "url": "https://baike.baidu.com/item/%E4%B9%9D%E5%9B%AD%E5%8C%85%E5%AD%90",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "九园包子"
-  },
-  "_geocodeTitle": "九园包子(上清寺店)",
-  "_geocodeSuspect": false,
-  "district": "500103",
-  "_noImage": true
+  "body": "上世纪二十年代开起来的老字号，咸的酱肉包、甜的豆沙包分两路，皮子松软、馅给得足，很多本地人是跟着长辈吃出来的记忆，路过买两个当早点很合适，开在商圈与好吃街附近也顺路。要说缺点：单价明显比街边包子铺高一截，买的是招牌与情怀；分店多了以后出品不如老店稳定，赶时间不如就近找家小面馆。当点心吃可以，专程排队不值。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [],
+  "avoid": [],
+  "sources": []
+ }
 }

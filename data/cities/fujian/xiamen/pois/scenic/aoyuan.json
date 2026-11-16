@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "福建省厦门市集美区鳌园路24号",
-    "district": "湖里区",
+    "district": "集美区",
     "transportTip": "地铁1号线集美学村站，步行约十五分钟"
   },
   "practical": {
@@ -100,7 +100,7 @@
       "fetchedAt": "2026-09-28"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-12",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -108,5 +108,37 @@
   },
   "_geocodeTitle": "集美鳌园景区",
   "_geocodeSuspect": false,
-  "district": "350206"
+  "district": "350211",
+  "review": {
+    "score": 4.3,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "石雕",
+        "score": 4.6,
+        "note": "数十组青石浮雕，刻工细"
+      },
+      {
+        "label": "纪念性",
+        "score": 4.4,
+        "note": "解放纪念碑与陈嘉庚墓都在这"
+      },
+      {
+        "label": "说明",
+        "score": 3.2,
+        "note": "浮雕内容缺解说，看得半懂"
+      },
+      {
+        "label": "海景",
+        "score": 4.1,
+        "note": "墙外就是滩涂与对岸高楼"
+      }
+    ],
+    "body": "陈嘉庚亲自规划、用十来年做起来的石雕园，廊道两侧一组组青石浮雕，历史故事、民间传说、花鸟鱼虫与本地风物都有，园中央是集美解放纪念碑，往里是他的墓，墓盖一整块磨光青石。免票，跟嘉庚故居、学村连成一片。缺点是浮雕几乎没有解说牌，不熟悉典故只能看个热闹；临海风大，冬天站久了吃不消。",
+    "basis": "corpus",
+    "at": "2026-11-12",
+    "fits": [],
+    "avoid": [],
+    "sources": []
+  }
 }

@@ -1,88 +1,127 @@
 {
-  "id": "panxi-bay",
-  "name": "磻溪湾",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "洱海西岸一段弯成月牙的湖岸，被称为最美海岸线，骑行必停。",
-  "description": "磻溪湾在洱海西岸，是一段弯成月牙的湖岸，被称为洱海最美的海岸线。岸边一条步道，一侧是水，一侧是树。骑车经过大多停下来拍。清晨和傍晚光线最好。和海舌离得近。免费。",
-  "highlights": [
-    "洱海西岸弯成月牙的最美海岸线",
-    "岸边步道一侧水一侧树",
-    "清晨傍晚光线最好，免费"
-  ],
-  "location": {
-    "point": {
-      "lng": 100.147151,
-      "lat": 25.778603,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "云南省大理白族自治州大理市磻溪村",
-    "district": "大理市",
-    "transportTip": "环海西路磻溪村，骑行必经"
+ "id": "panxi-bay",
+ "name": "磻溪湾",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "洱海西岸一段弯成月牙的湖岸，被称为最美海岸线，骑行必停。",
+ "description": "磻溪湾在洱海西岸，是一段弯成月牙的湖岸，被称为洱海最美的海岸线。岸边一条步道，一侧是水，一侧是树。骑车经过大多停下来拍。清晨和傍晚光线最好。和海舌离得近。免费。",
+ "highlights": [
+  "洱海西岸弯成月牙的最美海岸线",
+  "岸边步道一侧水一侧树",
+  "清晨傍晚光线最好，免费"
+ ],
+ "location": {
+  "point": {
+   "lng": 100.147151,
+   "lat": 25.778603,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天（清晨傍晚最佳）",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 60-180 分钟",
-    "durationMinutes": [
-      60,
-      180
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "friends"
+  "address": "云南省大理白族自治州大理市磻溪村",
+  "district": "大理市",
+  "transportTip": "环海西路磻溪村，骑行必经"
+ },
+ "practical": {
+  "openHours": "全天（清晨傍晚最佳）",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 60-180 分钟",
+  "durationMinutes": [
+   60,
+   180
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/%E7%A3%BB%E6%BA%AA%E7%8F%A0%E8%81%94%E9%98%81_03.jpg/1280px-%E7%A3%BB%E6%BA%AA%E7%8F%A0%E8%81%94%E9%98%81_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/%E7%A3%BB%E6%BA%AA%E7%8F%A0%E8%81%94%E9%98%81_03.jpg/1280px-%E7%A3%BB%E6%BA%AA%E7%8F%A0%E8%81%94%E9%98%81_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "磻溪珠联阁 03.jpg",
-      "query": "磻溪湾",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Kcx36",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "exact"
-      }
-    }
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/%E7%A3%BB%E6%BA%AA%E7%8F%A0%E8%81%94%E9%98%81_03.jpg/1280px-%E7%A3%BB%E6%BA%AA%E7%8F%A0%E8%81%94%E9%98%81_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/%E7%A3%BB%E6%BA%AA%E7%8F%A0%E8%81%94%E9%98%81_03.jpg/1280px-%E7%A3%BB%E6%BA%AA%E7%8F%A0%E8%81%94%E9%98%81_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "磻溪珠联阁 03.jpg",
+   "query": "磻溪湾",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Kcx36",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "海岸线",
+  "骑行",
+  "免费"
+ ],
+ "popularity": 70,
+ "sources": [
+  {
+   "title": "百度百科·磻溪",
+   "url": "https://baike.baidu.com/item/%E6%B4%B1%E6%B5%B7",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "磻溪湾"
+ },
+ "_geocodeTitle": "大理洱海网红S湾.问道磻溪园海景客栈",
+ "_geocodeSuspect": false,
+ "district": "532901",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "风景",
+    "score": 4.6,
+    "note": "弯成月牙的岸线，一侧水一侧树"
+   },
+   {
+    "label": "拍照",
+    "score": 4.4,
+    "note": "清晨与傍晚光线最好"
+   },
+   {
+    "label": "人流",
+    "score": 2.6,
+    "note": "网红机位排队"
+   },
+   {
+    "label": "配套",
+    "score": 3.0,
+    "note": "周边没有成规模的休息点"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "海岸线",
-    "骑行",
-    "免费"
+  "body": "磻溪湾是洱海西岸一段弯成月牙的岸线，步道平整，一侧是水一侧是树，骑车经过几乎都会停下来。清晨和傍晚光线最好，海舌就在附近可以连着走。网红机位排队拍照的人多，想拍空景得起早；周边没有成规模的休息点，风大时湖面起浪，水边注意安全。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "拍照",
+   "骑行",
+   "日出日落"
   ],
-  "popularity": 70,
-  "sources": [
-    {
-      "title": "百度百科·磻溪",
-      "url": "https://baike.baidu.com/item/%E6%B4%B1%E6%B5%B7",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "avoid": [
+   "怕排队",
+   "带老人久站"
   ],
-  "updatedAt": "2026-11-05",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "磻溪湾"
-  },
-  "_geocodeTitle": "大理洱海网红S湾.问道磻溪园海景客栈",
-  "_geocodeSuspect": false,
-  "district": "532901"
+  "sources": []
+ }
 }

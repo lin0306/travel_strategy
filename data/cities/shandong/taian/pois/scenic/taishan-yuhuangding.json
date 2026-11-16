@@ -1,146 +1,162 @@
 {
-  "id": "taishan-yuhuangding",
-  "name": "玉皇顶",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "泰山最高峰，海拔约1545米，五岳独尊石刻在此。",
-  "description": "玉皇顶是泰山的主峰，海拔约一千五百米，是登顶的终点。峰顶有玉皇庙，旁边就是著名的「五岳独尊」石刻，是人民币背面图案的同款意象。站在这里四望，群山在脚下铺开，云海与日出都在此最佳。它是封禅告天的地点，也是多数游客登泰山的终极目标。顶上风大温低，看日出需提前占位。",
-  "highlights": [
-    "泰山主峰，海拔约1545米",
-    "五岳独尊石刻在此",
-    "登顶终点，云海日出最佳"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.109129,
-      "lat": 36.257337,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "泰安市泰山区泰山玉皇顶",
-    "district": "泰山区",
-    "transportTip": "徒步或索道至南天门后上行",
-    "entrance": {
-      "lng": 117.107809,
-      "lat": 36.205827,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "taishan-yuhuangding",
+ "name": "玉皇顶",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "泰山最高峰，海拔约1545米，五岳独尊石刻在此。",
+ "description": "玉皇顶是泰山的主峰，海拔约一千五百米，是登顶的终点。峰顶有玉皇庙，旁边就是著名的「五岳独尊」石刻，是人民币背面图案的同款意象。站在这里四望，群山在脚下铺开，云海与日出都在此最佳。它是封禅告天的地点，也是多数游客登泰山的终极目标。顶上风大温低，看日出需提前占位。",
+ "highlights": [
+  "泰山主峰，海拔约1545米",
+  "五岳独尊石刻在此",
+  "登顶终点，云海日出最佳"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.109129,
+   "lat": 36.257337,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天（随景区开放）",
-    "openHoursRef": 0,
-    "ticket": "含在泰山门票内",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "budget"
+  "address": "泰安市泰山区泰山玉皇顶",
+  "district": "泰山区",
+  "transportTip": "徒步或索道至南天门后上行",
+  "entrance": {
+   "lng": 117.107809,
+   "lat": 36.205827,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "全天（随景区开放）",
+  "openHoursRef": 0,
+  "ticket": "含在泰山门票内",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "friends",
+  "couple",
+  "solo",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/%E6%B3%B0%E5%B1%B1%E9%A1%B6%E5%B3%B0%E6%B0%94%E8%B1%A1%E7%AB%99_-_panoramio.jpg/1280px-%E6%B3%B0%E5%B1%B1%E9%A1%B6%E5%B3%B0%E6%B0%94%E8%B1%A1%E7%AB%99_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/%E6%B3%B0%E5%B1%B1%E9%A1%B6%E5%B3%B0%E6%B0%94%E8%B1%A1%E7%AB%99_-_panoramio.jpg/1280px-%E6%B3%B0%E5%B1%B1%E9%A1%B6%E5%B3%B0%E6%B0%94%E8%B1%A1%E7%AB%99_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "泰山顶峰气象站 - panoramio.jpg",
+   "query": "玉皇顶",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nyx Ning",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "friends",
-    "couple",
-    "solo",
-    "family"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/%E6%B3%B0%E5%B1%B1%E7%8E%89%E7%9A%87%E9%A1%B6_-_panoramio.jpg/1280px-%E6%B3%B0%E5%B1%B1%E7%8E%89%E7%9A%87%E9%A1%B6_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/%E6%B3%B0%E5%B1%B1%E7%8E%89%E7%9A%87%E9%A1%B6_-_panoramio.jpg/1280px-%E6%B3%B0%E5%B1%B1%E7%8E%89%E7%9A%87%E9%A1%B6_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "泰山玉皇顶 - panoramio.jpg",
+   "query": "玉皇顶",
+   "credit": {
+    "source": "wikimedia",
+    "author": "gdczjkk",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "主峰",
+  "五岳独尊",
+  "登顶"
+ ],
+ "popularity": 94,
+ "sources": [
+  {
+   "title": "百度百科·玉皇顶",
+   "url": "https://baike.baidu.com/item/%E7%8E%89%E7%9A%87%E9%A1%B6",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "玉皇顶"
+ },
+ "_geocodeTitle": "泰山风景名胜区-玉皇顶",
+ "_geocodeSuspect": false,
+ "district": "370902",
+ "_patrol": {
+  "at": "2026-11-08",
+  "reason": "audit --fix-safe：清掉同城撞图的 2 张（待重抓）",
+  "droppedImages": [
+   "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Pano_%E5%B1%B1%E6%9D%B1%E6%B3%B0%E5%B1%B1%E7%BA%9C%E8%BB%8A%E6%97%85%E9%81%8A%E4%BA%BA%E6%B5%81_%E5%B1%B1%E4%B8%9C%E6%B3%B0%E5%B1%B1%E7%BC%86%E8%BD%A6%E6%97%85%E6%B8%B8%E4%BA%BA%E6%B5%81_Shandong_Province_Mount_Tai_Cable_Car_Tourism_Human_Logistics_%E4%B8%AD%E5%9C%8B%E6%97%85%E9%81%8A_%E4%B8%AD%E5%9B%BD%E6%97%85%E6%B8%B8_China_Tourism_SML.20121011.7D.09508-09509.Pano_%288372527765%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/%E2%80%9C%E6%97%A5%E8%A7%80%E5%B3%B0%E8%B3%93%E9%A4%A8%E2%80%9D_%E5%B1%B1%E6%9D%B1%E7%9C%81%E6%B3%B0%E5%B1%B1_Mount_Tai%2C_Shandong_Province_%E5%B1%B1%E4%B8%9C%E7%9C%81%E6%B3%B0%E5%B1%B1_%E4%B8%AD%E5%9C%8B%E6%97%85%E9%81%8A_%E4%B8%AD%E5%9B%BD%E6%97%85%E6%B8%B8_China_Tourism_SML.20121011.7D.09570.SQ.ChinaTourism.CN.Shandong.MountTai_%288356722532%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  ]
+ },
+ "review": {
+  "score": 4.6,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.9,
+    "note": "群山在脚下铺开，云海与日出都在这一带看"
+   },
+   {
+    "label": "体力",
+    "score": 2.4,
+    "note": "登到这里基本已走完整个十八盘，腿是硬指标"
+   },
+   {
+    "label": "气候",
+    "score": 2.8,
+    "note": "顶上风大温低，比山下低好几度"
+   },
+   {
+    "label": "时长",
+    "score": 4.6,
+    "note": "只站 30 分钟也够，等日出要提前很久占位"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Pano_%E5%B1%B1%E6%9D%B1%E6%B3%B0%E5%B1%B1%E7%BA%9C%E8%BB%8A%E6%97%85%E9%81%8A%E4%BA%BA%E6%B5%81_%E5%B1%B1%E4%B8%9C%E6%B3%B0%E5%B1%B1%E7%BC%86%E8%BD%A6%E6%97%85%E6%B8%B8%E4%BA%BA%E6%B5%81_Shandong_Province_Mount_Tai_Cable_Car_Tourism_Human_Logistics_%E4%B8%AD%E5%9C%8B%E6%97%85%E9%81%8A_%E4%B8%AD%E5%9B%BD%E6%97%85%E6%B8%B8_China_Tourism_SML.20121011.7D.09508-09509.Pano_%288372527765%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Pano_%E5%B1%B1%E6%9D%B1%E6%B3%B0%E5%B1%B1%E7%BA%9C%E8%BB%8A%E6%97%85%E9%81%8A%E4%BA%BA%E6%B5%81_%E5%B1%B1%E4%B8%9C%E6%B3%B0%E5%B1%B1%E7%BC%86%E8%BD%A6%E6%97%85%E6%B8%B8%E4%BA%BA%E6%B5%81_Shandong_Province_Mount_Tai_Cable_Car_Tourism_Human_Logistics_%E4%B8%AD%E5%9C%8B%E6%97%85%E9%81%8A_%E4%B8%AD%E5%9B%BD%E6%97%85%E6%B8%B8_China_Tourism_SML.20121011.7D.09508-09509.Pano_%288372527765%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 311,
-      "alt": "Pano 山東泰山纜車旅遊人流 山东泰山缆车旅游人流 Shandong Province Mount Tai Cable Car Tourism Human Logistics 中國旅遊 中国旅游 C",
-      "query": "玉皇顶 泰安",
-      "credit": {
-        "source": "wikimedia",
-        "author": "See-ming Lee from Hong Kong SAR, China",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pano_%E5%B1%B1%E6%9D%B1%E6%B3%B0%E5%B1%B1%E7%BA%9C%E8%BB%8A%E6%97%85%E9%81%8A%E4%BA%BA%E6%B5%81_%E5%B1%B1%E4%B8%9C%E6%B3%B0%E5%B1%B1%E7%BC%86%E8%BD%A6%E6%97%85%E6%B8%B8%E4%BA%BA%E6%B5%81_Shandong_Province_Mount_Tai_Cable_Car_Tourism_Human_Logistics_%E4%B8%AD%E5%9C%8B%E6%97%85%E9%81%8A_%E4%B8%AD%E5%9B%BD%E6%97%85%E6%B8%B8_China_Tourism_SML.20121011.7D.09508-09509.Pano_(8372527765).jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/%E2%80%9C%E6%97%A5%E8%A7%80%E5%B3%B0%E8%B3%93%E9%A4%A8%E2%80%9D_%E5%B1%B1%E6%9D%B1%E7%9C%81%E6%B3%B0%E5%B1%B1_Mount_Tai%2C_Shandong_Province_%E5%B1%B1%E4%B8%9C%E7%9C%81%E6%B3%B0%E5%B1%B1_%E4%B8%AD%E5%9C%8B%E6%97%85%E9%81%8A_%E4%B8%AD%E5%9B%BD%E6%97%85%E6%B8%B8_China_Tourism_SML.20121011.7D.09570.SQ.ChinaTourism.CN.Shandong.MountTai_%288356722532%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/%E2%80%9C%E6%97%A5%E8%A7%80%E5%B3%B0%E8%B3%93%E9%A4%A8%E2%80%9D_%E5%B1%B1%E6%9D%B1%E7%9C%81%E6%B3%B0%E5%B1%B1_Mount_Tai%2C_Shandong_Province_%E5%B1%B1%E4%B8%9C%E7%9C%81%E6%B3%B0%E5%B1%B1_%E4%B8%AD%E5%9C%8B%E6%97%85%E9%81%8A_%E4%B8%AD%E5%9B%BD%E6%97%85%E6%B8%B8_China_Tourism_SML.20121011.7D.09570.SQ.ChinaTourism.CN.Shandong.MountTai_%288356722532%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1080,
-      "alt": "“日觀峰賓館” 山東省泰山 Mount Tai, Shandong Province 山东省泰山 中國旅遊 中国旅游 China Tourism SML.20121011.7D.09570.SQ.Ch",
-      "query": "玉皇顶 泰安",
-      "credit": {
-        "source": "wikimedia",
-        "author": "See-ming Lee from Hong Kong SAR, China",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E2%80%9C%E6%97%A5%E8%A7%80%E5%B3%B0%E8%B3%93%E9%A4%A8%E2%80%9D_%E5%B1%B1%E6%9D%B1%E7%9C%81%E6%B3%B0%E5%B1%B1_Mount_Tai,_Shandong_Province_%E5%B1%B1%E4%B8%9C%E7%9C%81%E6%B3%B0%E5%B1%B1_%E4%B8%AD%E5%9C%8B%E6%97%85%E9%81%8A_%E4%B8%AD%E5%9B%BD%E6%97%85%E6%B8%B8_China_Tourism_SML.20121011.7D.09570.SQ.ChinaTourism.CN.Shandong.MountTai_(8356722532).jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/%E6%B3%B0%E5%B1%B1%E9%A1%B6%E5%B3%B0%E6%B0%94%E8%B1%A1%E7%AB%99_-_panoramio.jpg/1280px-%E6%B3%B0%E5%B1%B1%E9%A1%B6%E5%B3%B0%E6%B0%94%E8%B1%A1%E7%AB%99_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/%E6%B3%B0%E5%B1%B1%E9%A1%B6%E5%B3%B0%E6%B0%94%E8%B1%A1%E7%AB%99_-_panoramio.jpg/1280px-%E6%B3%B0%E5%B1%B1%E9%A1%B6%E5%B3%B0%E6%B0%94%E8%B1%A1%E7%AB%99_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "泰山顶峰气象站 - panoramio.jpg",
-      "query": "玉皇顶",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nyx Ning",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/%E6%B3%B0%E5%B1%B1%E7%8E%89%E7%9A%87%E9%A1%B6_-_panoramio.jpg/1280px-%E6%B3%B0%E5%B1%B1%E7%8E%89%E7%9A%87%E9%A1%B6_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/%E6%B3%B0%E5%B1%B1%E7%8E%89%E7%9A%87%E9%A1%B6_-_panoramio.jpg/1280px-%E6%B3%B0%E5%B1%B1%E7%8E%89%E7%9A%87%E9%A1%B6_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "泰山玉皇顶 - panoramio.jpg",
-      "query": "玉皇顶",
-      "credit": {
-        "source": "wikimedia",
-        "author": "gdczjkk",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "exact"
-      }
-    }
+  "body": "登泰山的终点，海拔约一千五百米，玉皇庙旁那块「五岳独尊」石刻是所有人心里的打卡点，人民币背面的意象就来自这儿。天气好的时候四望群山铺开，云海在脚下翻，确实配得上「五岳独尊」这四个字。代价也清楚：上到这里已经走完全程，腿脚不行的人基本没余力；顶上风大且冷，夏天也要带外套，冬天更是站不住；看日出必须提前很久去占位置，晚到只能看人头。冲着景观来值，冲着舒适来会失望。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "登顶",
+   "看日出云海"
   ],
-  "coverIndex": 0,
-  "tags": [
-    "主峰",
-    "五岳独尊",
-    "登顶"
+  "avoid": [
+   "怕冷不带外套",
+   "腿脚不便"
   ],
-  "popularity": 94,
-  "sources": [
-    {
-      "title": "百度百科·玉皇顶",
-      "url": "https://baike.baidu.com/item/%E7%8E%89%E7%9A%87%E9%A1%B6",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-11-02",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "玉皇顶"
-  },
-  "_geocodeTitle": "泰山风景名胜区-玉皇顶",
-  "_geocodeSuspect": false,
-  "district": "370902"
+  "sources": []
+ }
 }

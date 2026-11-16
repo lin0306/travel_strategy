@@ -60,21 +60,6 @@
       }
     },
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/%E5%82%B2%E5%BE%95%E5%B3%B0%E5%92%8C%E6%89%87%E5%AD%90%E5%B4%96_-_Aolai_Peak_and_Fan_Cliff_-_2012.06_-_panoramio.jpg/1280px-%E5%82%B2%E5%BE%95%E5%B3%B0%E5%92%8C%E6%89%87%E5%AD%90%E5%B4%96_-_Aolai_Peak_and_Fan_Cliff_-_2012.06_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/%E5%82%B2%E5%BE%95%E5%B3%B0%E5%92%8C%E6%89%87%E5%AD%90%E5%B4%96_-_Aolai_Peak_and_Fan_Cliff_-_2012.06_-_panoramio.jpg/1280px-%E5%82%B2%E5%BE%95%E5%B3%B0%E5%92%8C%E6%89%87%E5%AD%90%E5%B4%96_-_Aolai_Peak_and_Fan_Cliff_-_2012.06_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 653,
-      "alt": "傲徕峰和扇子崖 - Aolai Peak and Fan Cliff - 2012.06 - panoramio.jpg",
-      "query": "扇子崖",
-      "credit": {
-        "source": "wikimedia",
-        "author": "rheins",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%82%B2%E5%BE%95%E5%B3%B0%E5%92%8C%E6%89%87%E5%AD%90%E5%B4%96_-_Aolai_Peak_and_Fan_Cliff_-_2012.06_-_panoramio.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/%E6%89%87%E5%AD%90%E5%B4%96_-_Fan_Cliff_-_2012.06_-_panoramio.jpg/1280px-%E6%89%87%E5%AD%90%E5%B4%96_-_Fan_Cliff_-_2012.06_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/%E6%89%87%E5%AD%90%E5%B4%96_-_Fan_Cliff_-_2012.06_-_panoramio.jpg/1280px-%E6%89%87%E5%AD%90%E5%B4%96_-_Fan_Cliff_-_2012.06_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
@@ -105,7 +90,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -113,5 +98,12 @@
   },
   "_geocodeTitle": "扇子崖",
   "_geocodeSuspect": false,
-  "district": "370902"
+  "district": "370902",
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 1 张（待重抓）",
+    "droppedImages": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/%E5%82%B2%E5%BE%95%E5%B3%B0%E5%92%8C%E6%89%87%E5%AD%90%E5%B4%96_-_Aolai_Peak_and_Fan_Cliff_-_2012.06_-_panoramio.jpg/1280px-%E5%82%B2%E5%BE%95%E5%B3%B0%E5%92%8C%E6%89%87%E5%AD%90%E5%B4%96_-_Aolai_Peak_and_Fan_Cliff_-_2012.06_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  }
 }

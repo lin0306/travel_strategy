@@ -3,7 +3,7 @@
   "name": "二仙居街",
   "category": "culture",
   "subtype": "street",
-  "summary": "承德市区一条老街，小吃和旧铺子挨着，本地人的日常吃食在这。",
+  "summary": "承德市区一条老街，小吃和旧铺子挨着，晚上是热闹的二仙居夜市，本地人从小吃到大的味道都在这。",
   "description": "二仙居是承德市区一条老街，名字来自一个旧的传说。街不宽，两边是小吃店和旧铺子 —— 碗坨、凉粉、烧饼挨着开。它是本地人过日子的地方，不是给游客摆的景。晚上灯亮，人多热闹。离避暑山庄不远，逛完顺路来吃一顿最方便。",
   "highlights": [
     "市区老街，小吃旧铺挨着开",
@@ -21,7 +21,7 @@
     "transportTip": "市区步行到二仙居"
   },
   "practical": {
-    "openHours": "全天，夜间最热闹",
+    "openHours": "全天开放；夜市摊位约 18:30 出摊，周末营业到 23 点左右",
     "openHoursRef": 0,
     "ticket": "免费",
     "ticketRef": 0,
@@ -37,7 +37,13 @@
     "solo"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "省级夜间经济示范地标，2026 年完成业态优化升级",
+    "老字号小吃：碗坨、汽锅野味、满族烤串",
+    "另一侧是集装箱市集与后备厢潮摊，手打茶饮和文创多",
+    "本地人叫「二仙居夜市」，承载和合二仙的传说",
+    "避暑山庄步行可达，逛完夜市再回酒店刚好"
+  ],
   "images": [],
   "coverIndex": 0,
   "tags": [
@@ -45,16 +51,28 @@
     "市井",
     "小吃"
   ],
-  "popularity": 66,
+  "popularity": 74,
   "sources": [
     {
       "title": "百度百科·承德",
       "url": "https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7",
       "kind": "wiki",
       "fetchedAt": "2026-10-01"
+    },
+    {
+      "title": "承德市政府：夜间经济稿，二仙居夜游街区定为省级夜间经济示范地标（2026-08-08）",
+      "url": "https://www.chengde.gov.cn/art/2026/8/8/art_360_1124240.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
+    },
+    {
+      "title": "和合承德网：多元业态点亮承德夜经济（2026-08-03）",
+      "url": "https://m.hehechengde.cn/content/2026-08-03/281569.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,5 +81,57 @@
   "_geocodeTitle": "二仙居大街",
   "_geocodeSuspect": false,
   "district": "130802",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-14",
+    "changes": [
+      {
+        "field": "一句话简介",
+        "old": "承德市区一条老街，小吃和旧铺子挨着，本地人的日常吃食在这。",
+        "new": "承德市区一条老街，小吃和旧铺子挨着，晚上是热闹的二仙居夜市，本地人从小吃到大的味道都在这。"
+      }
+    ],
+    "source": "https://m.hehechengde.cn/content/2026-08-03/281569.html",
+    "reason": "和合承德网 2026-08-03 夜经济稿：二仙居大街晚 6:30 起夜市出摊、煎碗坨与烤串摊位集中"
+  },
+  "review": {
+    "score": 4.0,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "小吃",
+        "score": 4.2,
+        "note": "碗坨、汽锅野味、满族烤串是主角"
+      },
+      {
+        "label": "商业化",
+        "score": 3.3,
+        "note": "网红摊位渐多，老味道被挤到一边"
+      },
+      {
+        "label": "人流",
+        "score": 3.4,
+        "note": "旺季晚上人贴人"
+      },
+      {
+        "label": "逛街时长",
+        "score": 3.8,
+        "note": "一条街走完一小时上下"
+      }
+    ],
+    "body": "承德市区真正有烟火气的一条街，本地人叫二仙居夜市。碗坨、汽锅野味、满族烤串是主角，另一侧是集装箱市集和后备厢潮摊，手打茶饮、文创、香包都有。2026 年做过一轮业态升级，摊位经营时段也延长了，周末能卖到十一点多。缺点是商业化在往上走，网红摊位越来越多、本地老味道被挤到边上；旺季晚上人贴人，想找座位要碰运气。",
+    "basis": "web",
+    "at": "2026-11-14",
+    "fits": [
+      "吃夜市",
+      "朋友"
+    ],
+    "avoid": [
+      "想安静吃饭"
+    ],
+    "sources": [
+      "https://www.chengde.gov.cn/art/2026/8/8/art_360_1124240.html",
+      "https://paper.hehechengde.cn/cdrb/pc/content/202602/08/content_182323.html"
+    ]
+  }
 }

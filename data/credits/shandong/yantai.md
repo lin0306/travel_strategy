@@ -1,6 +1,6 @@
 # 烟台 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-05
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-13
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Andy Wang 1215 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:1860%E5%B9%B46%E6%9C%8812%E6%97%A5%E4%BB%8E%E7%83%9F%E5%8F%B0%E5%B1%B1%E4%BF%AF%E7%9E%B0%E7%83%9F%E5%8F%B0%E6%B5%B7%E6%B9%BE%E5%9B%BE%E7%94%BB.png) |
-| 城市封面 | 山东巡抚李元华转奏张荫桓有关烟台租界的奏文 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:1877%E5%B9%B4%E7%83%9F%E5%8F%B0%E7%A7%9F%E7%95%8C%E5%88%92%E7%95%8C%E5%A5%8F%E6%96%87.png) |
-| 城市封面 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%83%9F%E5%8F%B0%E5%B1%B1%E4%B8%8A%E8%A5%BF%E6%9C%9B%E7%83%9F%E5%8F%B0%E6%B8%AF.jpg) |
+| 城市封面 | K.Y.K.Z.K. | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Changyu_company.jpg) |
+| 城市封面 | Canuckpilot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chateau-Changyu.jpg) |
+| 城市封面 | Vitsuha | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%89%9F%E6%B0%8F%E8%8E%8A%E5%9C%92%E4%B9%8B%E4%B8%80.jpg) |
 | 八仙过海景区 | David290 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%93%AC%E8%8E%B1%E5%85%AB%E4%BB%99%E8%BF%87%E6%B5%B7%E6%99%AF%E5%8C%BAPANO0001.jpg) |
 | 八仙过海景区 | David290 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%93%AC%E8%8E%B1%E5%85%AB%E4%BB%99%E8%BF%87%E6%B5%B7%E6%99%AF%E5%8C%BA_PANO00011.jpg) |
 | 八仙过海景区 | David290 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%93%AC%E8%8E%B1%E5%85%AB%E4%BB%99%E8%BF%87%E6%B5%B7%E6%99%AF%E5%8C%BA_PANO0003.jpg) |

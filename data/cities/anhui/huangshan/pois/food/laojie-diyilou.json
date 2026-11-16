@@ -12,16 +12,16 @@
   ],
   "location": {
     "point": {
-      "lng": 118.307364,
-      "lat": 29.708087,
+      "lat": 29.708269,
+      "lng": 118.31016,
       "coordSystem": "GCJ-02"
     },
-    "address": "安徽省黄山市屯溪区老街第一楼",
+    "address": "安徽省黄山市屯溪区屯溪老街247号（老街东口）",
     "district": "屯溪区",
     "transportTip": "市区步行到老街"
   },
   "practical": {
-    "openHours": "约10:00-21:00",
+    "openHours": "10:30-13:30 / 16:30-20:30（午市、晚市）",
     "openHoursRef": 0,
     "ticket": "人均约100元",
     "ticketRef": 0,
@@ -52,9 +52,15 @@
       "url": "https://baike.baidu.com/item/%E5%BE%BD%E8%8F%9C",
       "kind": "wiki",
       "fetchedAt": "2026-10-01"
+    },
+    {
+      "title": "门牌247号（老街东口）与两段营业时间经图商POI及多平台互证",
+      "url": "https://map.360.cn/site/detail/ca54a412b3ea4711",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -62,5 +68,34 @@
   },
   "_geocodeTitle": "老街",
   "district": "341002",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "安徽省黄山市屯溪区老街第一楼",
+        "new": "安徽省黄山市屯溪区屯溪老街247号（老街东口）"
+      },
+      {
+        "field": "开放时间",
+        "old": "约10:00-21:00",
+        "new": "10:30-13:30 / 16:30-20:30（午市、晚市）"
+      },
+      {
+        "field": "point",
+        "old": {
+          "lng": 118.307364,
+          "lat": 29.708087,
+          "coordSystem": "GCJ-02"
+        },
+        "new": [
+          29.708269,
+          118.31016
+        ]
+      }
+    ],
+    "source": "https://map.360.cn/site/detail/ca54a412b3ea4711",
+    "reason": "门牌247号（老街东口）与两段营业时间经图商POI及多平台互证"
+  }
 }

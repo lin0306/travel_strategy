@@ -1,119 +1,157 @@
 {
-  "id": "splendid-china-folk-village",
-  "name": "锦绣中华民俗村",
-  "category": "scenic",
-  "subtype": "park",
-  "summary": "把中国的名胜与少数民族村寨各做了一套：地理课本上的名字在这里有实体。",
-  "description": "1989 年开园，由两部分组成。锦绣中华是把中国的名胜古迹按陆区关系排布，万里长城、故宫、布达拉宫、乐山大佛都在里面，比例多数是十几分之一。民俗村那一边是少数民族的村寨，按原样建了二十几个民族的房子，有常驻演员的日常表演。它与隔壁世界之窗的差异在方向：一个往外看，一个往内看。对中小学生通达性高的原因是信息密度——半天能把课本上的名字对上实物。旺季人会比较多，演出时间要提前看园区公告。",
-  "highlights": [
-    "中国名胜缩微景区与少数民族村寨两部分",
-    "演按时间分散在村寨里，需要提前排顺序",
-    "与世界之窗相邻，组合成本低"
-  ],
-  "location": {
-    "point": {
-      "lng": 113.988341,
-      "lat": 22.531061,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "深圳市南山区华侨城锦绣中华",
-    "district": "南山区",
-    "transportTip": "地铁1号线/2号线华侨城站步行至锦绣中华",
-    "entrance": {
-      "lng": 113.986786,
-      "lat": 22.533018,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "splendid-china-folk-village",
+ "name": "锦绣中华民俗村",
+ "category": "scenic",
+ "subtype": "park",
+ "summary": "把中国的名胜与少数民族村寨各做了一套：地理课本上的名字在这里有实体。",
+ "description": "1989 年开园，由两部分组成。锦绣中华是把中国的名胜古迹按陆区关系排布，万里长城、故宫、布达拉宫、乐山大佛都在里面，比例多数是十几分之一。民俗村那一边是少数民族的村寨，按原样建了二十几个民族的房子，有常驻演员的日常表演。它与隔壁世界之窗的差异在方向：一个往外看，一个往内看。对中小学生通达性高的原因是信息密度——半天能把课本上的名字对上实物。旺季人会比较多，演出时间要提前看园区公告。",
+ "highlights": [
+  "中国名胜缩微景区与少数民族村寨两部分",
+  "演按时间分散在村寨里，需要提前排顺序",
+  "与世界之窗相邻，组合成本低"
+ ],
+ "location": {
+  "point": {
+   "lng": 113.988341,
+   "lat": 22.531061,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约09:00-21:00（以官方公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约200元起，两园联票以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 240-480 分钟",
-    "durationMinutes": [
-      240,
-      480
-    ],
-    "priceLevel": "high"
+  "address": "深圳市南山区华侨城锦绣中华",
+  "district": "南山区",
+  "transportTip": "地铁1号线/2号线华侨城站步行至锦绣中华",
+  "entrance": {
+   "lng": 113.986786,
+   "lat": 22.533018,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约09:00-21:00（以官方公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约200元起，两园联票以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 240-480 分钟",
+  "durationMinutes": [
+   240,
+   480
+  ],
+  "priceLevel": "high"
+ },
+ "audience": [
+  "kids",
+  "family",
+  "elders",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Gate_of_Splendid_China_%26_China_Folk_Culture_Village.jpg/1280px-Gate_of_Splendid_China_%26_China_Folk_Culture_Village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Gate_of_Splendid_China_%26_China_Folk_Culture_Village.jpg/1280px-Gate_of_Splendid_China_%26_China_Folk_Culture_Village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Gate of Splendid China & China Folk Culture Village.jpg",
+   "query": "锦绣中华民俗村 深圳",
+   "credit": {
+    "source": "wikimedia",
+    "author": "そらみみ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gate_of_Splendid_China_%26_China_Folk_Culture_Village.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "kids",
-    "family",
-    "elders",
-    "friends"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Gate_of_Splendid_China_%26_China_Folk_Culture_Village.jpg/1280px-Gate_of_Splendid_China_%26_China_Folk_Culture_Village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Gate_of_Splendid_China_%26_China_Folk_Culture_Village.jpg/1280px-Gate_of_Splendid_China_%26_China_Folk_Culture_Village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Gate of Splendid China & China Folk Culture Village.jpg",
-      "query": "锦绣中华民俗村 深圳",
-      "credit": {
-        "source": "wikimedia",
-        "author": "そらみみ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gate_of_Splendid_China_%26_China_Folk_Culture_Village.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Lama_Temple_in_China_Folk_Culture_Village.jpg/1280px-Lama_Temple_in_China_Folk_Culture_Village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Lama_Temple_in_China_Folk_Culture_Village.jpg/1280px-Lama_Temple_in_China_Folk_Culture_Village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Lama Temple in China Folk Culture Village.jpg",
-      "query": "锦绣中华民俗村 深圳",
-      "credit": {
-        "source": "wikimedia",
-        "author": "そらみみ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lama_Temple_in_China_Folk_Culture_Village.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Lisu_and_Lahu_Houses_in_China_Folk_Culture_Village.jpg/1280px-Lisu_and_Lahu_Houses_in_China_Folk_Culture_Village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Lisu_and_Lahu_Houses_in_China_Folk_Culture_Village.jpg/1280px-Lisu_and_Lahu_Houses_in_China_Folk_Culture_Village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Lisu and Lahu Houses in China Folk Culture Village.jpg",
-      "query": "锦绣中华民俗村 深圳",
-      "credit": {
-        "source": "wikimedia",
-        "author": "そらみみ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lisu_and_Lahu_Houses_in_China_Folk_Culture_Village.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "主题公园",
-    "亲子",
-    "民俗"
-  ],
-  "popularity": 84,
-  "sources": [
-    {
-      "title": "百度百科·锦绣中华民俗村",
-      "url": "https://baike.baidu.com/item/%E9%94%A6%E7%BB%A3%E4%B8%AD%E5%8D%8E%E6%B0%91%E4%BF%97%E6%9D%91",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-24"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "锦绣中华民俗村"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Lama_Temple_in_China_Folk_Culture_Village.jpg/1280px-Lama_Temple_in_China_Folk_Culture_Village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Lama_Temple_in_China_Folk_Culture_Village.jpg/1280px-Lama_Temple_in_China_Folk_Culture_Village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Lama Temple in China Folk Culture Village.jpg",
+   "query": "锦绣中华民俗村 深圳",
+   "credit": {
+    "source": "wikimedia",
+    "author": "そらみみ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lama_Temple_in_China_Folk_Culture_Village.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "锦绣中华·中国民俗文化村",
-  "_geocodeSuspect": false,
-  "district": "440305"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Lisu_and_Lahu_Houses_in_China_Folk_Culture_Village.jpg/1280px-Lisu_and_Lahu_Houses_in_China_Folk_Culture_Village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Lisu_and_Lahu_Houses_in_China_Folk_Culture_Village.jpg/1280px-Lisu_and_Lahu_Houses_in_China_Folk_Culture_Village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Lisu and Lahu Houses in China Folk Culture Village.jpg",
+   "query": "锦绣中华民俗村 深圳",
+   "credit": {
+    "source": "wikimedia",
+    "author": "そらみみ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lisu_and_Lahu_Houses_in_China_Folk_Culture_Village.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "主题公园",
+  "亲子",
+  "民俗"
+ ],
+ "popularity": 84,
+ "sources": [
+  {
+   "title": "百度百科·锦绣中华民俗村",
+   "url": "https://baike.baidu.com/item/%E9%94%A6%E7%BB%A3%E4%B8%AD%E5%8D%8E%E6%B0%91%E4%BF%97%E6%9D%91",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-24"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "锦绣中华民俗村"
+ },
+ "_geocodeTitle": "锦绣中华·中国民俗文化村",
+ "_geocodeSuspect": false,
+ "district": "440305",
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "信息密度",
+    "score": 4,
+    "note": "半天把课本上的名字对上实物"
+   },
+   {
+    "label": "复刻感",
+    "score": 2.5,
+    "note": "缩微名胜看的是符号，不是建筑本体"
+   },
+   {
+    "label": "演出",
+    "score": 4,
+    "note": "村寨表演按时间分散，要提前排顺序"
+   },
+   {
+    "label": "走量",
+    "score": 3,
+    "note": "园子大，演出与展区之间走路不少"
+   }
+  ],
+  "body": "它的用处很具体：把长城、故宫、布达拉宫、乐山大佛按比例摆在一起，半天能把地理课本上的名字对上实物，带孩子来信息密度最高。民俗村那半边有二十几个民族的村寨和常驻演出，演出时间是分散的，进园先看公告排顺序，否则容易在两地之间来回跑。缺点是缩微复刻看的是符号、不是建筑本体，成年人单独来会觉得意思不大；园区大、走路多，旺季人挤。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "带孩子",
+   "地理课本对照"
+  ],
+  "avoid": [
+   "专程看古建",
+   "怕走路"
+  ],
+  "sources": []
+ }
 }

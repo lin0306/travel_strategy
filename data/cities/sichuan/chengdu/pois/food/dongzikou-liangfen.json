@@ -11,8 +11,8 @@
   ],
   "location": {
     "point": {
-      "lng": 104.034429,
-      "lat": 30.662657,
+      "lat": 30.674237,
+      "lng": 104.072593,
       "coordSystem": "GCJ-02"
     },
     "address": "成都市青羊区文殊院街 39 号",
@@ -71,9 +71,15 @@
       "url": "https://m.toutiao.com/article/7632398778288456243/",
       "kind": "media",
       "fetchedAt": "2026-09-18"
+    },
+    {
+      "title": "库内坐标104.034429,30.662657 落在杜甫草堂片区，与 addr",
+      "url": "https://map.qq.com/ 腾讯地图POI：洞子口张老二凉粉(文殊院店) 文殊院街39号 经纬度30.674237,104.072593",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Chengdu sweet noodles",
@@ -81,5 +87,24 @@
   },
   "_geocodeTitle": "洞子口张老二凉粉(浣花溪直营店)",
   "_geocodeSuspect": false,
-  "district": "510105"
+  "district": "510105",
+  "_patrol": {
+    "at": "2026-11-08",
+    "changes": [
+      {
+        "field": "point",
+        "old": {
+          "lng": 104.034429,
+          "lat": 30.662657,
+          "coordSystem": "GCJ-02"
+        },
+        "new": [
+          30.674237,
+          104.072593
+        ]
+      }
+    ],
+    "source": "https://map.qq.com/ 腾讯地图POI：洞子口张老二凉粉(文殊院店) 文殊院街39号 经纬度30.674237,104.072593",
+    "reason": "库内坐标104.034429,30.662657 落在杜甫草堂片区，与 address 文殊院街39号相差3.87km；按腾讯地图同址POI订正"
+  }
 }

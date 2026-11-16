@@ -1,199 +1,237 @@
 {
-  "id": "shaolin-gongfu",
-  "name": "少林功夫（武僧表演）",
-  "category": "culture",
-  "subtype": "performance",
-  "summary": "一天几场的武术表演，拳脚器械全都真打，少林寺最热闹的那半小时。",
-  "description": "少林功夫是第一批国家级非物质文化遗产，源头在少林寺僧众自古习武的传统——寺僧为护寺、健身、修禅而形成的一整套拳法、器械与功法，套路有数百种，以刚猛、朴实、实战性强著称。景区里的武术表演是游客最容易接触到的形式：一天几场，在少林寺内的演武厅或景区专门的表演场进行，二三十分钟一场，内容是拳术（小洪拳、大洪拳、罗汉拳）、器械（棍、刀、剑、九节鞭）、对练，还有硬气功一类的表演——银枪刺喉、头断钢板这些看着惊险，都是长期训练出来的真功夫。表演者多是武校学员或寺里的武僧，动作快、力量足，现场能听见棍风。场次在景区门口有公告，旺季加场。看的时候不要越过警戒线，表演结束后合影一般可以，先问一句。这是登封唯一一项「活着的世界级」文化，比看建筑更直接。",
-  "highlights": [
-    "国家级非遗",
-    "拳械与硬气功",
-    "一天数场",
-    "真功夫"
-  ],
-  "location": {
-    "point": {
-      "lng": 112.947662,
-      "lat": 34.51065,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "郑州市登封市少林寺景区内演武场",
-    "district": "登封",
-    "transportTip": "少林寺景区内步行可达；场次见景区公告牌"
+ "id": "shaolin-gongfu",
+ "name": "少林功夫（武僧表演）",
+ "category": "culture",
+ "subtype": "performance",
+ "summary": "一天几场的武术表演，拳脚器械全都真打，少林寺最热闹的那半小时。",
+ "description": "少林功夫是第一批国家级非物质文化遗产，源头在少林寺僧众自古习武的传统——寺僧为护寺、健身、修禅而形成的一整套拳法、器械与功法，套路有数百种，以刚猛、朴实、实战性强著称。景区里的武术表演是游客最容易接触到的形式：一天几场，在少林寺内的演武厅或景区专门的表演场进行，二三十分钟一场，内容是拳术（小洪拳、大洪拳、罗汉拳）、器械（棍、刀、剑、九节鞭）、对练，还有硬气功一类的表演——银枪刺喉、头断钢板这些看着惊险，都是长期训练出来的真功夫。表演者多是武校学员或寺里的武僧，动作快、力量足，现场能听见棍风。场次在景区门口有公告，旺季加场。看的时候不要越过警戒线，表演结束后合影一般可以，先问一句。这是登封唯一一项「活着的世界级」文化，比看建筑更直接。",
+ "highlights": [
+  "国家级非遗",
+  "拳械与硬气功",
+  "一天数场",
+  "真功夫"
+ ],
+ "location": {
+  "point": {
+   "lng": 112.947662,
+   "lat": 34.51065,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "白天多场，通常 9:30-16:00 之间（旺季加场）",
-    "openHoursRef": 0,
-    "ticket": "含少林寺景区门票（专场可能另收费）",
-    "ticketRef": 0,
-    "duration": "建议 40-80 分钟",
-    "durationMinutes": [
-      40,
-      80
-    ],
-    "priceLevel": "high"
+  "address": "郑州市登封市少林寺景区内演武场",
+  "district": "登封",
+  "transportTip": "少林寺景区内步行可达；场次见景区公告牌"
+ },
+ "practical": {
+  "openHours": "白天多场，通常 9:30-16:00 之间（旺季加场）",
+  "openHoursRef": 0,
+  "ticket": "含少林寺景区门票（专场可能另收费）",
+  "ticketRef": 0,
+  "duration": "建议 40-80 分钟",
+  "durationMinutes": [
+   40,
+   80
+  ],
+  "priceLevel": "high"
+ },
+ "audience": [
+  "family",
+  "kids",
+  "couple",
+  "friends",
+  "elders",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/20241103_Shaolin_Martial_Art_Performance_07.jpg/1280px-20241103_Shaolin_Martial_Art_Performance_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/20241103_Shaolin_Martial_Art_Performance_07.jpg/1280px-20241103_Shaolin_Martial_Art_Performance_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "20241103 Shaolin Martial Art Performance 07.jpg",
+   "query": "少林功夫（武僧表演）",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Windmemories",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "family",
-    "kids",
-    "couple",
-    "friends",
-    "elders",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/20241103_Shaolin_Martial_Art_Performance_07.jpg/1280px-20241103_Shaolin_Martial_Art_Performance_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/20241103_Shaolin_Martial_Art_Performance_07.jpg/1280px-20241103_Shaolin_Martial_Art_Performance_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "20241103 Shaolin Martial Art Performance 07.jpg",
-      "query": "少林功夫（武僧表演）",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/20241103_Shaolin_Martial_Art_Performance_08.jpg/1280px-20241103_Shaolin_Martial_Art_Performance_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/20241103_Shaolin_Martial_Art_Performance_08.jpg/1280px-20241103_Shaolin_Martial_Art_Performance_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "20241103 Shaolin Martial Art Performance 08.jpg",
-      "query": "少林功夫（武僧表演）",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/20241103_Shaolin_Martial_Art_Performance_06.jpg/1280px-20241103_Shaolin_Martial_Art_Performance_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/20241103_Shaolin_Martial_Art_Performance_06.jpg/1280px-20241103_Shaolin_Martial_Art_Performance_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "20241103 Shaolin Martial Art Performance 06.jpg",
-      "query": "少林功夫（武僧表演）",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/20241103_Shaolin_Martial_Art_Performance_04.jpg/1280px-20241103_Shaolin_Martial_Art_Performance_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/20241103_Shaolin_Martial_Art_Performance_04.jpg/1280px-20241103_Shaolin_Martial_Art_Performance_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "20241103 Shaolin Martial Art Performance 04.jpg",
-      "query": "少林功夫（武僧表演）",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/20241103_Shaolin_Martial_Art_Performance_02.jpg/1280px-20241103_Shaolin_Martial_Art_Performance_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/20241103_Shaolin_Martial_Art_Performance_02.jpg/1280px-20241103_Shaolin_Martial_Art_Performance_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "20241103 Shaolin Martial Art Performance 02.jpg",
-      "query": "少林功夫（武僧表演）",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/20241103_Shaolin_Martial_Art_Performance_03.jpg/1280px-20241103_Shaolin_Martial_Art_Performance_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/20241103_Shaolin_Martial_Art_Performance_03.jpg/1280px-20241103_Shaolin_Martial_Art_Performance_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "20241103 Shaolin Martial Art Performance 03.jpg",
-      "query": "少林功夫（武僧表演）",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "武术",
-    "非遗",
-    "表演",
-    "少林"
-  ],
-  "popularity": 94,
-  "sources": [
-    {
-      "title": "百度百科·少林功夫",
-      "url": "https://baike.baidu.com/item/%E5%B0%91%E6%9E%97%E5%8A%9F%E5%A4%AB",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-07"
-    }
-  ],
-  "updatedAt": "2026-11-03",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "少林功夫（武僧表演）"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/20241103_Shaolin_Martial_Art_Performance_08.jpg/1280px-20241103_Shaolin_Martial_Art_Performance_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/20241103_Shaolin_Martial_Art_Performance_08.jpg/1280px-20241103_Shaolin_Martial_Art_Performance_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "20241103 Shaolin Martial Art Performance 08.jpg",
+   "query": "少林功夫（武僧表演）",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Windmemories",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "少林寺演武厅(出口)",
-  "_geocodeSuspect": false,
-  "district": "410185"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/20241103_Shaolin_Martial_Art_Performance_06.jpg/1280px-20241103_Shaolin_Martial_Art_Performance_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/20241103_Shaolin_Martial_Art_Performance_06.jpg/1280px-20241103_Shaolin_Martial_Art_Performance_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "20241103 Shaolin Martial Art Performance 06.jpg",
+   "query": "少林功夫（武僧表演）",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Windmemories",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/20241103_Shaolin_Martial_Art_Performance_04.jpg/1280px-20241103_Shaolin_Martial_Art_Performance_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/20241103_Shaolin_Martial_Art_Performance_04.jpg/1280px-20241103_Shaolin_Martial_Art_Performance_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "20241103 Shaolin Martial Art Performance 04.jpg",
+   "query": "少林功夫（武僧表演）",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Windmemories",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/20241103_Shaolin_Martial_Art_Performance_02.jpg/1280px-20241103_Shaolin_Martial_Art_Performance_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/20241103_Shaolin_Martial_Art_Performance_02.jpg/1280px-20241103_Shaolin_Martial_Art_Performance_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "20241103 Shaolin Martial Art Performance 02.jpg",
+   "query": "少林功夫（武僧表演）",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Windmemories",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/20241103_Shaolin_Martial_Art_Performance_03.jpg/1280px-20241103_Shaolin_Martial_Art_Performance_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/20241103_Shaolin_Martial_Art_Performance_03.jpg/1280px-20241103_Shaolin_Martial_Art_Performance_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "20241103 Shaolin Martial Art Performance 03.jpg",
+   "query": "少林功夫（武僧表演）",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Windmemories",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "武术",
+  "非遗",
+  "表演",
+  "少林"
+ ],
+ "popularity": 94,
+ "sources": [
+  {
+   "title": "百度百科·少林功夫",
+   "url": "https://baike.baidu.com/item/%E5%B0%91%E6%9E%97%E5%8A%9F%E5%A4%AB",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-07"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "少林功夫（武僧表演）"
+ },
+ "_geocodeTitle": "少林寺演武厅(出口)",
+ "_geocodeSuspect": false,
+ "district": "410185",
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "观赏性",
+    "score": 4.5,
+    "note": "拳械对练与硬气功，现场能听见棍风"
+   },
+   {
+    "label": "表演感",
+    "score": 3.0,
+    "note": "为游客编排，程式化痕迹明显"
+   },
+   {
+    "label": "人流",
+    "score": 2.6,
+    "note": "旺季场次坐满，提前占位"
+   },
+   {
+    "label": "时长",
+    "score": 4.4,
+    "note": "一场二三十分钟，不占行程"
+   }
+  ],
+  "body": "少林寺里最直观的一段，二三十分钟一场，拳术、器械、对练轮着上，硬气功那几项现场看比视频刺激，能听见棍风。缺点是它终究是为游客编排的表演，程式化明显，看两场就腻；旺季场次坐得满满当当，去晚了只能站后排，得提前十几分钟占位。当行程里的插曲合适，专程为它来不值。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "带孩子",
+   "顺路看"
+  ],
+  "avoid": [
+   "专程前往",
+   "武术从业者"
+  ],
+  "sources": []
+ }
 }

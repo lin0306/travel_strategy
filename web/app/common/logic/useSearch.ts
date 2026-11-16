@@ -16,7 +16,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import { loadCity } from '~/common/data/cityRegistry'
 import { loadSearchIndex } from '~/common/data/searchIndex'
 import { usePlanUi } from '~/common/logic/itinerary/planUi'
-import { useMapShell } from '~/common/logic/mapShell'
+import { pickPageRegion, useMapShell } from '~/common/logic/mapShell'
 import {
   poiFocusPoints,
   regionFocusPoints,
@@ -120,6 +120,27 @@ export function useSearch(): SearchController {
     (hit: SearchHit) => {
       if (hit.kind === 'region') {
         if (!index) return
+        const r = hit.region
+        /**
+         * ★★ 有地域面板的页面（首页）**先交给它**（2026-11-14 用户报「搜索点省市后
+         *   不显示面板」）。`regionNav.pick` 会开卡、并在面板进 DOM 之后才安排对焦
+         *   （`freeRect` 要量得到面板才知道往右偏多少）—— 这里再自己 `focusPoint`
+         *   就是**一帧都量不到面板**的旧落点，而且面板永远不会开。
+         * ★ 没有登记它的页面（省级页 / 城市页）没有面板，走下面那支旧路径即可。
+         */
+        if (r.lng !== null && r.lat !== null) {
+          const took = pickPageRegion({
+            adcode: r.adcode,
+            name: r.name,
+            lng: r.lng,
+            lat: r.lat,
+            poiCount: r.poiCount,
+          })
+          if (took) {
+            reset()
+            return
+          }
+        }
         // 省 / 市的取景点来自**索引本身**（不触发任何加载），口径与点徽标完全一致
         void regionFocusPoints(index, hit.region).then((t) => {
           if (!t) return

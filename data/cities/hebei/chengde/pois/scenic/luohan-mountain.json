@@ -1,72 +1,104 @@
 {
-  "id": "luohan-mountain",
-  "name": "罗汉山",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "城东一座形似罗汉的山，承德十景之一，在路边远看最清楚。",
-  "description": "罗汉山在承德城东，是一座山。它的轮廓像一个坐着的罗汉 —— 头、肩、肚子都能分出来，所以叫罗汉山。它也是承德十景之一。这座山不用爬，在武烈河边或路边远看最清楚。傍晚光斜时轮廓最像。免费。",
-  "highlights": [
-    "城东山形似坐罗汉，十景之一",
-    "不爬，河边路边远看最清",
-    "傍晚斜光轮廓最像，免费"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.914407,
-      "lat": 41.021672,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市双桥区武烈河东岸罗汉山",
-    "district": "双桥区",
-    "transportTip": "市区沿武烈河步行或远观",
-    "entrance": {
-      "lng": 117.947101,
-      "lat": 40.974194,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "luohan-mountain",
+ "name": "罗汉山",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "城东一座形似罗汉的山，承德十景之一，在路边远看最清楚。",
+ "description": "罗汉山在承德城东，是一座山。它的轮廓像一个坐着的罗汉 —— 头、肩、肚子都能分出来，所以叫罗汉山。它也是承德十景之一。这座山不用爬，在武烈河边或路边远看最清楚。傍晚光斜时轮廓最像。免费。",
+ "highlights": [
+  "城东山形似坐罗汉，十景之一",
+  "不爬，河边路边远看最清",
+  "傍晚斜光轮廓最像，免费"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.914407,
+   "lat": 41.021672,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 40-80 分钟",
-    "durationMinutes": [
-      40,
-      80
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "family",
-    "elders"
+  "address": "河北省承德市双桥区武烈河东岸罗汉山",
+  "district": "双桥区",
+  "transportTip": "市区沿武烈河步行或远观",
+  "entrance": {
+   "lng": 117.947101,
+   "lat": 40.974194,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "全天开放",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 40-80 分钟",
+  "durationMinutes": [
+   40,
+   80
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "山岳",
-    "十景",
-    "远观"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "family",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "山岳",
+  "十景",
+  "远观"
+ ],
+ "popularity": 48,
+ "sources": [
+  {
+   "title": "百度百科·承德",
+   "url": "https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "罗汉山"
+ },
+ "_geocodeTitle": "罗汉山庄",
+ "_geocodeSuspect": false,
+ "district": "130802",
+ "_noImage": true,
+ "review": {
+  "score": 3.3,
+  "verdict": "时间富余再说",
+  "facets": [
+   {
+    "label": "观赏",
+    "score": 3.4,
+    "note": "轮廓像坐着的罗汉，傍晚斜光最像"
+   },
+   {
+    "label": "交通",
+    "score": 4.2,
+    "note": "城里武烈河边就能看，不费事"
+   },
+   {
+    "label": "配套",
+    "score": 2.4,
+    "note": "纯远观，没有停留的地方"
+   }
   ],
-  "popularity": 48,
-  "sources": [
-    {
-      "title": "百度百科·承德",
-      "url": "https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "body": "城东一座山的剪影，头、肩、肚子能分出来，所以叫罗汉山，也算承德十景之一。问题在于它只能远看 —— 走近了反而完全看不出形状；没有配套，下车拍两张就走，属于路过时抬头看一眼的景，不值得专门安排时间。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "路过抬头看"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "罗汉山"
-  },
-  "_geocodeTitle": "罗汉山庄",
-  "_geocodeSuspect": false,
-  "district": "130802",
-  "_noImage": true
+  "avoid": [
+   "专程",
+   "想爬山"
+  ],
+  "sources": []
+ }
 }

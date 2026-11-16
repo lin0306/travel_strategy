@@ -62,6 +62,31 @@ function isCityAdcode(adcode: string): boolean {
   return adcode.endsWith('00') && !adcode.endsWith('0000')
 }
 
+/**
+ * 一个 adcode 属于哪一级 —— 省 `510000` / 市 `510100` / 区 `510104`。
+ *
+ * ★ 判据只有 adcode 的段式编码（`省2 + 市2 + 区2`），与"有没有下级""收没收录"无关：
+ *   未收录的市 `610300` 照样是市，`childrenOf` 给不出东西只影响**落点**，不影响**层级**。
+ *
+ * ★ 直辖市 / 特别行政区（`110000`）返回 `'province'` —— 它在区划树里既是省也是市
+ *   （`isCity`），但"点它"这一下跨的量级是省那一档。要不要把卡片直接摊成市，
+ *   是**展示层**的判断（看 `ProvinceDetail.isCity`），不在这里。
+ */
+export function regionLevelOf(adcode: string): 'province' | 'city' | 'district' {
+  if (adcode.endsWith('0000')) return 'province'
+  return isCityAdcode(adcode) ? 'city' : 'district'
+}
+
+/**
+ * 点到一个「一个景点都没有」的单位时说的那句话 —— **唯一出处**。
+ *
+ * ★ 两处要它：`drillTo`（旧的四条徽标链路）与首页的地域面板（`regionNav`）。
+ *   各写一遍的话，一处改了另一处会**静默**说出另一种话术。
+ */
+export function emptyHint(name?: string): string {
+  return `${name || '这一片'}暂无收录景点`
+}
+
 /** 剥掉末尾行政层级字；剥空了就退回原串（别让空串参与比较） */
 function stripAdminSuffix(s: string): string {
   const out = s.replace(ADMIN_SUFFIX, '')
@@ -142,7 +167,7 @@ export interface FocusTarget {
   /** 引擎缩放值。**定值**，见 `zoomTiers.ts` 的「下钻落点」 */
   zoom: number
   /**
-   * **这一级确实一个点都没有**（不是"还没加载"）。
+   * **这一级确实一个点都没有**（不是"还没加载"）—— **只有区会为真**。
    *
    * ## 为什么要有这个字段（2026-10-28 用户：「放大到 12 不显示景点，13 甚至 14 也不显示，
    * 不撒点了」）
@@ -153,6 +178,10 @@ export interface FocusTarget {
    *
    * ⇒ 调用方拿到 `empty: true` 时**不要挪镜头**，改成说一句话（`drillTo` 已经这么做了）。
    *   把这层判断放在这里，是因为只有它同时知道 `poiCount` 与筛出来的点位。
+   *
+   * ★★ 2026-11-14 起**省 / 市永不为真**（见下面第 ③ 支的注释）：它们飞过去看得见
+   *   自己的区徽标与地界，落点是正常下钻；标成 empty 会让"点一座还没收录的市"
+   *   镜头一动不动，看起来像点击失效。
    *
    * ★ 判据是**筛出来的点位为空**，不是 `poiCount === 0`：`poiCount` 可能缺失
    *   （通话方没传 / 未收录的区是 `null`），而"筛出 0 个"是事实。
@@ -228,9 +257,19 @@ export async function focusPointsFor(
   const pois = await src.poisOf(node.adcode, name)
   if (pois.length > 0) return { center: densestPoint(pois) ?? self, zoom, empty: false }
 
-  // ③ 兜底：只有徽标中心（未收录、下级数据还没到货都走这里）。
-  //    ★ 落点**不跟着退化** —— 仍是该级的定值，否则"点了个还没收录的市"会突然落到别的档。
-  return { center: self, zoom, empty: true }
+  /**
+   * ③ 兜底：只有徽标中心（未收录、下级数据还没到货都走这里）。
+   *    ★ 落点**不跟着退化** —— 仍是该级的定值，否则"点了个还没收录的市"会突然落到别的档。
+   *
+   *    ★★ 2026-11-14：省 / 市这一级**不再标 `empty`**（用户：「点省之后再点市，
+   *    不会切换到市的面板」）。原来这里跟区一样返回 `empty: true`，于是点一座
+   *    **还没收录的市**（全国 367 个市里有 284 个是这种）镜头一动不动 ——
+   *    面板是换了，但屏幕上没有任何变化，看起来就是"这一下没生效"。
+   *    区分：**区**飞过去确实只剩底图（它是市内部的一小块，10 几个 km），
+   *    该短路；**市 / 省**飞过去看得见自己的区徽标与地界，落点是正常下钻。
+   *    ⇒ "不挪镜头只说一句"现在只属于**区**（上面 `box` 那一支）。
+   */
+  return { center: self, zoom, empty: false }
 }
 
 /**
@@ -254,7 +293,7 @@ export function drillTo(
 ): void {
   void focusPointsFor(node, src).then((t) => {
     if (t.empty) {
-      notify(`${node.name || '这一片'}暂无收录景点`)
+      notify(emptyHint(node.name))
       return
     }
     before?.()

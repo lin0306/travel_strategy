@@ -1,97 +1,134 @@
 {
-  "id": "nanshan-museum",
-  "name": "南山博物馆",
-  "category": "scenic",
-  "subtype": "museum",
-  "summary": "区级的馆却常有重量级临展：南山的历史线在这一带六个层面上都被挖过。",
-  "description": "2019 年开馆的区级博物馆，位置在南山大道与桃园路一带。它的常设陈列讲两条线：《南山故事》从本地的古代一直讲到近代，另一个方向是这一带的海防与盐业。让它在同类区馆里冒头的是临展——这些年引过国内几家大馆的轮换展，开放日的名额需要预约。建筑本体也值得看：体量处理方式是把大馆的那一套语言用在了区馆的尺度上。它与南头古城在同一方向上，两地之间走一段就到。",
-  "highlights": [
-    "常设《南山故事》讲本地古代至近代的两条线",
-    "引展质量在区级馆里偏高，需预约",
-    "与南头古城方向相同，可连着走"
-  ],
-  "location": {
-    "point": {
-      "lng": 113.923866,
-      "lat": 22.535032,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "深圳市南山区南山大道2093号",
-    "district": "南山区",
-    "transportTip": "地铁1号线桃园站步行约10分钟"
+ "id": "nanshan-museum",
+ "name": "南山博物馆",
+ "category": "scenic",
+ "subtype": "museum",
+ "summary": "区级的馆却常有重量级临展：南山的历史线在这一带六个层面上都被挖过。",
+ "description": "2019 年开馆的区级博物馆，位置在南山大道与桃园路一带。它的常设陈列讲两条线：《南山故事》从本地的古代一直讲到近代，另一个方向是这一带的海防与盐业。让它在同类区馆里冒头的是临展——这些年引过国内几家大馆的轮换展，开放日的名额需要预约。建筑本体也值得看：体量处理方式是把大馆的那一套语言用在了区馆的尺度上。它与南头古城在同一方向上，两地之间走一段就到。",
+ "highlights": [
+  "常设《南山故事》讲本地古代至近代的两条线",
+  "引展质量在区级馆里偏高，需预约",
+  "与南头古城方向相同，可连着走"
+ ],
+ "location": {
+  "point": {
+   "lng": 113.923866,
+   "lat": 22.535032,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:00-18:00，周一闭馆（以官方公告为准）",
-    "openHoursRef": 0,
-    "ticket": "免费，临展可能另计（以官方为准）",
-    "ticketRef": 0,
-    "duration": "建议 120-240 分钟",
-    "durationMinutes": [
-      120,
-      240
-    ],
-    "priceLevel": "free"
+  "address": "深圳市南山区南山大道2093号",
+  "district": "南山区",
+  "transportTip": "地铁1号线桃园站步行约10分钟"
+ },
+ "practical": {
+  "openHours": "约10:00-18:00，周一闭馆（以官方公告为准）",
+  "openHoursRef": 0,
+  "ticket": "免费，临展可能另计（以官方为准）",
+  "ticketRef": 0,
+  "duration": "建议 120-240 分钟",
+  "durationMinutes": [
+   120,
+   240
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "solo",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Nanshan_Museum_2.jpg/1280px-Nanshan_Museum_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Nanshan_Museum_2.jpg/1280px-Nanshan_Museum_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Nanshan Museum 2.jpg",
+   "query": "南山博物馆 深圳",
+   "credit": {
+    "source": "wikimedia",
+    "author": "WhisperToMe",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nanshan_Museum_2.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
   },
-  "audience": [
-    "solo",
-    "family"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/SZ_Shenzhen_%E5%8D%97%E5%B1%B1_Nanshan_%E5%8D%97%E9%A0%AD%E8%A1%97_Nantou_Street_%E6%B7%B1%E5%9C%B3%E5%8D%97%E5%B1%B1%E5%8D%9A%E7%89%A9%E9%A4%A8_Nanshan_Museum_October_2023_R12S_01.jpg/1280px-SZ_Shenzhen_%E5%8D%97%E5%B1%B1_Nanshan_%E5%8D%97%E9%A0%AD%E8%A1%97_Nantou_Street_%E6%B7%B1%E5%9C%B3%E5%8D%97%E5%B1%B1%E5%8D%9A%E7%89%A9%E9%A4%A8_Nanshan_Museum_October_2023_R12S_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/SZ_Shenzhen_%E5%8D%97%E5%B1%B1_Nanshan_%E5%8D%97%E9%A0%AD%E8%A1%97_Nantou_Street_%E6%B7%B1%E5%9C%B3%E5%8D%97%E5%B1%B1%E5%8D%9A%E7%89%A9%E9%A4%A8_Nanshan_Museum_October_2023_R12S_01.jpg/1280px-SZ_Shenzhen_%E5%8D%97%E5%B1%B1_Nanshan_%E5%8D%97%E9%A0%AD%E8%A1%97_Nantou_Street_%E6%B7%B1%E5%9C%B3%E5%8D%97%E5%B1%B1%E5%8D%9A%E7%89%A9%E9%A4%A8_Nanshan_Museum_October_2023_R12S_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "SZ Shenzhen 南山 Nanshan 南頭街 Nantou Street 深圳南山博物館 Nanshan Museum October 2023 R12S 01.jpg",
+   "query": "南山博物馆 深圳",
+   "credit": {
+    "source": "wikimedia",
+    "author": "KWUNGAM Haueng Chanem",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SZ_Shenzhen_%E5%8D%97%E5%B1%B1_Nanshan_%E5%8D%97%E9%A0%AD%E8%A1%97_Nantou_Street_%E6%B7%B1%E5%9C%B3%E5%8D%97%E5%B1%B1%E5%8D%9A%E7%89%A9%E9%A4%A8_Nanshan_Museum_October_2023_R12S_01.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "博物馆",
+  "免费",
+  "临展"
+ ],
+ "popularity": 72,
+ "sources": [
+  {
+   "title": "百度百科·南山博物馆",
+   "url": "https://baike.baidu.com/item/%E5%8D%97%E5%B1%B1%E5%8D%9A%E7%89%A9%E9%A6%86",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-24"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "南山博物馆"
+ },
+ "_geocodeTitle": "南山博物馆",
+ "_geocodeSuspect": false,
+ "district": "440305",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "常设",
+    "score": 4,
+    "note": "《南山故事》把本地古代到近代讲成两条线"
+   },
+   {
+    "label": "临展",
+    "score": 4.5,
+    "note": "引展质量在区级馆里偏高"
+   },
+   {
+    "label": "免费",
+    "score": 4.5,
+    "note": "免费，临展可能要预约"
+   },
+   {
+    "label": "体量",
+    "score": 3,
+    "note": "区馆尺度，两小时能看完"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Nanshan_Museum_2.jpg/1280px-Nanshan_Museum_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Nanshan_Museum_2.jpg/1280px-Nanshan_Museum_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Nanshan Museum 2.jpg",
-      "query": "南山博物馆 深圳",
-      "credit": {
-        "source": "wikimedia",
-        "author": "WhisperToMe",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nanshan_Museum_2.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/SZ_Shenzhen_%E5%8D%97%E5%B1%B1_Nanshan_%E5%8D%97%E9%A0%AD%E8%A1%97_Nantou_Street_%E6%B7%B1%E5%9C%B3%E5%8D%97%E5%B1%B1%E5%8D%9A%E7%89%A9%E9%A4%A8_Nanshan_Museum_October_2023_R12S_01.jpg/1280px-SZ_Shenzhen_%E5%8D%97%E5%B1%B1_Nanshan_%E5%8D%97%E9%A0%AD%E8%A1%97_Nantou_Street_%E6%B7%B1%E5%9C%B3%E5%8D%97%E5%B1%B1%E5%8D%9A%E7%89%A9%E9%A4%A8_Nanshan_Museum_October_2023_R12S_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/SZ_Shenzhen_%E5%8D%97%E5%B1%B1_Nanshan_%E5%8D%97%E9%A0%AD%E8%A1%97_Nantou_Street_%E6%B7%B1%E5%9C%B3%E5%8D%97%E5%B1%B1%E5%8D%9A%E7%89%A9%E9%A4%A8_Nanshan_Museum_October_2023_R12S_01.jpg/1280px-SZ_Shenzhen_%E5%8D%97%E5%B1%B1_Nanshan_%E5%8D%97%E9%A0%AD%E8%A1%97_Nantou_Street_%E6%B7%B1%E5%9C%B3%E5%8D%97%E5%B1%B1%E5%8D%9A%E7%89%A9%E9%A4%A8_Nanshan_Museum_October_2023_R12S_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "SZ Shenzhen 南山 Nanshan 南頭街 Nantou Street 深圳南山博物館 Nanshan Museum October 2023 R12S 01.jpg",
-      "query": "南山博物馆 深圳",
-      "credit": {
-        "source": "wikimedia",
-        "author": "KWUNGAM Haueng Chanem",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:SZ_Shenzhen_%E5%8D%97%E5%B1%B1_Nanshan_%E5%8D%97%E9%A0%AD%E8%A1%97_Nantou_Street_%E6%B7%B1%E5%9C%B3%E5%8D%97%E5%B1%B1%E5%8D%9A%E7%89%A9%E9%A4%A8_Nanshan_Museum_October_2023_R12S_01.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
+  "body": "区级馆里少见的配置：常设《南山故事》从本地古代讲到近代，另一条线讲这一带的海防与盐业，脉络比很多市馆清楚；真正让它冒头的是临展，这些年引过国内几家大馆的轮换展，开放日名额要预约，值得盯它的排期。建筑本身也下了功夫，大馆的语言用在区馆尺度上，看展不累。缺点是体量有限，常设看完一个多小时就到底，专程从远处来不如与南头古城一起排。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "看展",
+   "与南头古城串游"
   ],
-  "coverIndex": 0,
-  "tags": [
-    "博物馆",
-    "免费",
-    "临展"
+  "avoid": [
+   "只为看大馆体量"
   ],
-  "popularity": 72,
-  "sources": [
-    {
-      "title": "百度百科·南山博物馆",
-      "url": "https://baike.baidu.com/item/%E5%8D%97%E5%B1%B1%E5%8D%9A%E7%89%A9%E9%A6%86",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-24"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "南山博物馆"
-  },
-  "_geocodeTitle": "南山博物馆",
-  "_geocodeSuspect": false,
-  "district": "440305"
+  "sources": []
+ }
 }

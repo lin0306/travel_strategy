@@ -1,67 +1,109 @@
 {
-  "id": "bashang-kaoyang",
-  "name": "坝上烤全羊",
-  "category": "food",
-  "subtype": "local",
-  "summary": "围场坝上草原的招牌，整只羊烤了分着吃，外焦里嫩，要提前订。",
-  "description": "烤全羊是坝上草原的招牌吃法 —— 整只羊架在火上转着烤，烤到外皮焦黄，里头还嫩。吃的时候分着吃，配酒最好。它是去草原必点的一样，草原上的度假村和蒙古包都做。一般要提前订，现烤要等一两个钟头。价格按只算，不便宜。",
-  "highlights": [
-    "坝上招牌，整羊架火转烤外焦里嫩",
-    "草原度假村蒙古包都做，宜配酒",
-    "需提前订现烤要等，按只计价"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.059974,
-      "lat": 41.523282,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市围场满族蒙古族自治县坝上烤全羊",
-    "district": "丰宁满族自治县",
-    "transportTip": "坝上草原度假村或蒙古包内"
+ "id": "bashang-kaoyang",
+ "name": "坝上烤全羊",
+ "category": "food",
+ "subtype": "local",
+ "summary": "围场坝上草原的招牌，整只羊烤了分着吃，外焦里嫩，要提前订。",
+ "description": "烤全羊是坝上草原的招牌吃法 —— 整只羊架在火上转着烤，烤到外皮焦黄，里头还嫩。吃的时候分着吃，配酒最好。它是去草原必点的一样，草原上的度假村和蒙古包都做。一般要提前订，现烤要等一两个钟头。价格按只算，不便宜。",
+ "highlights": [
+  "坝上招牌，整羊架火转烤外焦里嫩",
+  "草原度假村蒙古包都做，宜配酒",
+  "需提前订现烤要等，按只计价"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.059974,
+   "lat": 41.523282,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约11:00-22:00，需预约",
-    "openHoursRef": 0,
-    "ticket": "整只约800元起",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "family",
-    "friends"
+  "address": "河北省承德市围场满族蒙古族自治县坝上烤全羊",
+  "district": "丰宁满族自治县",
+  "transportTip": "坝上草原度假村或蒙古包内"
+ },
+ "practical": {
+  "openHours": "约11:00-22:00，需预约",
+  "openHoursRef": 0,
+  "ticket": "整只约800元起",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "烤全羊",
-    "坝上",
-    "草原"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "family",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "烤全羊",
+  "坝上",
+  "草原"
+ ],
+ "popularity": 66,
+ "sources": [
+  {
+   "title": "百度百科·烤全羊",
+   "url": "https://baike.baidu.com/item/%E7%83%A4%E5%85%A8%E7%BE%8A",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "坝上烤全羊"
+ },
+ "_geocodeTitle": "坝上今生友缘度假村-住宿骑马餐饮烤全羊(大营子村分店)",
+ "_geocodeSuspect": false,
+ "district": "130826",
+ "_noImage": true,
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.4,
+    "note": "外皮焦脆、里层还带汁，草原羊膻味轻"
+   },
+   {
+    "label": "分量",
+    "score": 3.2,
+    "note": "按只卖，人少根本吃不完"
+   },
+   {
+    "label": "价格",
+    "score": 2.9,
+    "note": "一只八百元起，人均不便宜"
+   },
+   {
+    "label": "等待",
+    "score": 3.0,
+    "note": "现烤要一两个钟头，必须提前订"
+   }
   ],
-  "popularity": 66,
+  "body": "坝上吃烤全羊是仪式感大于吃饭：整只羊架在火上转着烤，皮烤到焦黄起泡，里头还嫩，撕下来配酒最对。草原上的度假村和蒙古包都做，人多的时候点一只，气氛确实到位。缺点是它按只计价、一只八百元起，四五个人点一只多半吃不完也不划算；现烤要等一两个钟头，不提前订就只能干坐着等，赶上旺季价格还会往上浮。人少建议改点烤羊腿或羊排。",
+  "basis": "web",
+  "at": "2026-11-14",
+  "fits": [
+   "多人聚餐",
+   "草原过夜",
+   "尝地方菜"
+  ],
+  "avoid": [
+   "两三个人",
+   "赶时间"
+  ],
   "sources": [
-    {
-      "title": "百度百科·烤全羊",
-      "url": "https://baike.baidu.com/item/%E7%83%A4%E5%85%A8%E7%BE%8A",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "坝上烤全羊"
-  },
-  "_geocodeTitle": "坝上今生友缘度假村-住宿骑马餐饮烤全羊(大营子村分店)",
-  "_geocodeSuspect": false,
-  "district": "130826",
-  "_noImage": true
+   "http://www.029558.com/content/detail/20427",
+   "https://www.gklaser.com/bkcs/80397.html"
+  ]
+ }
 }

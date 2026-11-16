@@ -1,152 +1,190 @@
 {
-  "id": "tuojiang-night",
-  "name": "沱江夜景",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "灯亮起来，吊脚楼和虹桥倒影在水里。",
-  "description": "沱江夜景是凤凰最被拍的画面，入夜两岸的灯亮起，吊脚楼和虹桥的轮廓一起落进水里。从虹桥、跳岩或者万名塔那边望过去都好看。它免费，沿江走就能拍。想拍干净的倒影要等江面平的时候。周末和节假日人极多，机位要早占。雨后水色更浓。",
-  "highlights": [
-    "灯亮吊脚楼倒影",
-    "虹桥跳岩都入框",
-    "免费沿江拍"
-  ],
-  "location": {
-    "point": {
-      "lng": 109.592944,
-      "lat": 27.950928,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "湘西土家族苗族自治州凤凰县沱江镇沱江",
-    "district": "凤凰",
-    "transportTip": "古城内沿河步行可达"
+ "id": "tuojiang-night",
+ "name": "沱江夜景",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "灯亮起来，吊脚楼和虹桥倒影在水里。",
+ "description": "沱江夜景是凤凰最被拍的画面，入夜两岸的灯亮起，吊脚楼和虹桥的轮廓一起落进水里。从虹桥、跳岩或者万名塔那边望过去都好看。它免费，沿江走就能拍。想拍干净的倒影要等江面平的时候。周末和节假日人极多，机位要早占。雨后水色更浓。",
+ "highlights": [
+  "灯亮吊脚楼倒影",
+  "虹桥跳岩都入框",
+  "免费沿江拍"
+ ],
+ "location": {
+  "point": {
+   "lng": 109.592944,
+   "lat": 27.950928,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 19:00-23:00（灯光时间）",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 30-120 分钟",
-    "durationMinutes": [
-      30,
-      120
-    ],
-    "priceLevel": "free"
+  "address": "湘西土家族苗族自治州凤凰县沱江镇沱江",
+  "district": "凤凰",
+  "transportTip": "古城内沿河步行可达"
+ },
+ "practical": {
+  "openHours": "约 19:00-23:00（灯光时间）",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 30-120 分钟",
+  "durationMinutes": [
+   30,
+   120
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Fenghuang_II_%2830297427525%29.jpg/1280px-Fenghuang_II_%2830297427525%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Fenghuang_II_%2830297427525%29.jpg/1280px-Fenghuang_II_%2830297427525%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Fenghuang II (30297427525).jpg",
+   "query": "沱江夜景",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Ludger Heide",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "couple",
-    "friends",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Fenghuang_II_%2830297427525%29.jpg/1280px-Fenghuang_II_%2830297427525%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Fenghuang_II_%2830297427525%29.jpg/1280px-Fenghuang_II_%2830297427525%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Fenghuang II (30297427525).jpg",
-      "query": "沱江夜景",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Ludger Heide",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Fenghuang_IV_%2830211755471%29.jpg/1280px-Fenghuang_IV_%2830211755471%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Fenghuang_IV_%2830211755471%29.jpg/1280px-Fenghuang_IV_%2830211755471%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Fenghuang IV (30211755471).jpg",
-      "query": "沱江夜景",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Ludger Heide",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Fenghuang_I_%2830211763171%29.jpg/1280px-Fenghuang_I_%2830211763171%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Fenghuang_I_%2830211763171%29.jpg/1280px-Fenghuang_I_%2830211763171%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Fenghuang I (30211763171).jpg",
-      "query": "沱江夜景",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Ludger Heide",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Red_Bridge_at_night_Fenghuang_Hunan.jpg/1280px-Red_Bridge_at_night_Fenghuang_Hunan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Red_Bridge_at_night_Fenghuang_Hunan.jpg/1280px-Red_Bridge_at_night_Fenghuang_Hunan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Red Bridge at night Fenghuang Hunan.jpg",
-      "query": "沱江夜景",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Lianguanlun",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "夜景",
-    "沱江",
-    "倒影"
-  ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·凤凰古城",
-      "url": "https://baike.baidu.com/item/%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-06"
-    }
-  ],
-  "updatedAt": "2026-11-01",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "沱江夜景"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Fenghuang_IV_%2830211755471%29.jpg/1280px-Fenghuang_IV_%2830211755471%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Fenghuang_IV_%2830211755471%29.jpg/1280px-Fenghuang_IV_%2830211755471%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Fenghuang IV (30211755471).jpg",
+   "query": "沱江夜景",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Ludger Heide",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "沱江镇",
-  "_geocodeSuspect": false,
-  "district": "433123"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Fenghuang_I_%2830211763171%29.jpg/1280px-Fenghuang_I_%2830211763171%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Fenghuang_I_%2830211763171%29.jpg/1280px-Fenghuang_I_%2830211763171%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Fenghuang I (30211763171).jpg",
+   "query": "沱江夜景",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Ludger Heide",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Red_Bridge_at_night_Fenghuang_Hunan.jpg/1280px-Red_Bridge_at_night_Fenghuang_Hunan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Red_Bridge_at_night_Fenghuang_Hunan.jpg/1280px-Red_Bridge_at_night_Fenghuang_Hunan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Red Bridge at night Fenghuang Hunan.jpg",
+   "query": "沱江夜景",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Lianguanlun",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "夜景",
+  "沱江",
+  "倒影"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·凤凰古城",
+   "url": "https://baike.baidu.com/item/%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-06"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "沱江夜景"
+ },
+ "_geocodeTitle": "沱江镇",
+ "_geocodeSuspect": false,
+ "district": "433123",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "画面",
+    "score": 4.6,
+    "note": "吊脚楼和虹桥的轮廓一起落进水里"
+   },
+   {
+    "label": "人流",
+    "score": 2.4,
+    "note": "节假日沿江走不动，机位靠抢"
+   },
+   {
+    "label": "费用",
+    "score": 4.6,
+    "note": "沿江看免费，不用买票"
+   },
+   {
+    "label": "时长",
+    "score": 3.6,
+    "note": "灯亮到熄约几小时，看完就走"
+   }
+  ],
+  "body": "凤凰最值得等的一幕：灯一亮，吊脚楼和虹桥的影子一起沉进江里，从跳岩或万名塔那头望过去最完整。缺点也很直接 —— 旺季人挤到走不动，好机位得提前站；两岸商业化重，酒吧的音响会盖过水声，想清静就早点来或往上游走。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "拍夜景",
+   "情侣散步"
+  ],
+  "avoid": [
+   "怕吵",
+   "人多就烦"
+  ],
+  "sources": []
+ }
 }

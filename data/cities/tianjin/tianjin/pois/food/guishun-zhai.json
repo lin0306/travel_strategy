@@ -40,7 +40,29 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Jing_Yi_Tang_%EF%BC%88_Xin_Te_Yao_Dian_%EF%BC%89%2C_TianJin_HePing_Lu%2C_Heping_Qu%2C_Tianjin_Shi%2C_China%2C_300020_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Jing_Yi_Tang_%EF%BC%88_Xin_Te_Yao_Dian_%EF%BC%89%2C_TianJin_HePing_Lu%2C_Heping_Qu%2C_Tianjin_Shi%2C_China%2C_300020_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 720,
+      "alt": "桂顺斋(和平路总店)所在的街区实景（非本店门面）",
+      "query": "桂顺斋(和平路总店)",
+      "credit": {
+        "source": "wikimedia",
+        "author": "张彬",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "street"
+      }
+    }
+  ],
   "coverIndex": 0,
   "tags": [
     "糕点",
@@ -56,7 +78,7 @@
       "fetchedAt": "2026-09-27"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-05",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -64,6 +86,5 @@
   },
   "_geocodeTitle": "芦庄子桂顺斋(和平路总店)",
   "_geocodeSuspect": false,
-  "district": "120101",
-  "_noImage": true
+  "district": "120101"
 }

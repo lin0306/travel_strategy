@@ -17,11 +17,11 @@
       "coordSystem": "GCJ-02"
     },
     "address": "天津市红桥区大丰路25号陆家嘴购物中心5楼",
-    "district": "南开",
+    "district": "红桥",
     "transportTip": "地铁2号线鼓楼站，步行约五分钟"
   },
   "practical": {
-    "openHours": "约13:00-22:00（按场次），以门店公告为准",
+    "openHours": "按场次：节假日 10:30/13:30/16:30/19:30，平日常规 14:30、19:30（每场约 2 小时）",
     "openHoursRef": 0,
     "ticket": "人均约70元起（按场次），以门店为准",
     "ticketRef": 0,
@@ -54,15 +54,33 @@
       "url": "https://baike.baidu.com/item/%E8%B0%A6%E7%A5%A5%E7%9B%8A",
       "kind": "wiki",
       "fetchedAt": "2026-09-27"
+    },
+    {
+      "title": "谦祥益文苑·官方公众号（场次公告）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODcwMDY4NA==&mid=2658196105&idx=1&sn=643dc73018888ad43b974d2f6b0ef3f9",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
     "zh": "谦祥益相声茶馆"
   },
   "_geocodeTitle": "谦祥益相声茶馆(陆家嘴中心店)",
-  "district": "120104",
-  "_noImage": true
+  "district": "120106",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "约13:00-22:00（按场次），以门店公告为准",
+        "new": "按场次：节假日 10:30/13:30/16:30/19:30，平日常规 14:30、19:30（每场约 2 小时）"
+      }
+    ],
+    "source": "https://mp.weixin.qq.com/s?__biz=MjM5ODcwMDY4NA==&mid=2658196105&idx=1&sn=643dc73018888ad43b974d2f6b0ef3f9",
+    "reason": "谦祥益官方公众号公布场次表"
+  }
 }

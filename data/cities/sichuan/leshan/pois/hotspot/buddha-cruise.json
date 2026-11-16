@@ -1,80 +1,118 @@
 {
-  "id": "buddha-cruise",
-  "name": "乐山大佛游船",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "从江上坐船看大佛全貌，能在正对面拍到整尊坐佛，机位经典。",
-  "description": "乐山大佛游船从江上看大佛。在岸边只能仰头看局部，坐船到正对面才能看到整尊坐佛和它守着三江的全貌。船在江心转一圈，是拍大佛最经典的机位。白天晚上都有船，晚上还有灯光。",
-  "highlights": [
-    "江上正对看整尊坐佛",
-    "经典拍摄机位",
-    "日夜皆有船"
-  ],
-  "location": {
-    "point": {
-      "lng": 103.769142,
-      "lat": 29.551986,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "四川省乐山市市中区大佛游船码头",
-    "district": "市中区",
-    "transportTip": "市区乘车到游船码头乘船"
+ "id": "buddha-cruise",
+ "name": "乐山大佛游船",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "从江上坐船看大佛全貌，能在正对面拍到整尊坐佛，机位经典。",
+ "description": "乐山大佛游船从江上看大佛。在岸边只能仰头看局部，坐船到正对面才能看到整尊坐佛和它守着三江的全貌。船在江心转一圈，是拍大佛最经典的机位。白天晚上都有船，晚上还有灯光。",
+ "highlights": [
+  "江上正对看整尊坐佛",
+  "经典拍摄机位",
+  "日夜皆有船"
+ ],
+ "location": {
+  "point": {
+   "lng": 103.769142,
+   "lat": 29.551986,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约07:30-22:00（以公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约70元（以官方为准）",
-    "ticketRef": 0,
-    "duration": "建议 40-90 分钟",
-    "durationMinutes": [
-      40,
-      90
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "couple",
-    "friends"
+  "address": "四川省乐山市市中区大佛游船码头",
+  "district": "市中区",
+  "transportTip": "市区乘车到游船码头乘船"
+ },
+ "practical": {
+  "openHours": "约07:30-22:00（以公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约70元（以官方为准）",
+  "ticketRef": 0,
+  "duration": "建议 40-90 分钟",
+  "durationMinutes": [
+   40,
+   90
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Cruising_the_Minjiang_river.jpg/1280px-Cruising_the_Minjiang_river.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Cruising_the_Minjiang_river.jpg/1280px-Cruising_the_Minjiang_river.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Cruising the Minjiang river.jpg",
-      "query": "Leshan Buddha Cruise",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Bernt Rostad",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cruising_the_Minjiang_river.jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    }
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Cruising_the_Minjiang_river.jpg/1280px-Cruising_the_Minjiang_river.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Cruising_the_Minjiang_river.jpg/1280px-Cruising_the_Minjiang_river.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Cruising the Minjiang river.jpg",
+   "query": "Leshan Buddha Cruise",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Bernt Rostad",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cruising_the_Minjiang_river.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "游船",
+  "大佛",
+  "拍照"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·乐山大佛",
+   "url": "https://baike.baidu.com/item/%E4%B9%90%E5%B1%B1%E5%A4%A7%E4%BD%9B",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-02"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Leshan Buddha Cruise",
+  "zh": "乐山大佛游船"
+ },
+ "district": "511102",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "视角",
+    "score": 4.7,
+    "note": "江心正对，整尊坐佛全貌"
+   },
+   {
+    "label": "排队",
+    "score": 2.5,
+    "note": "旺季等船与检票都慢"
+   },
+   {
+    "label": "时长",
+    "score": 4.0,
+    "note": "船程短，正对只有几分钟"
+   },
+   {
+    "label": "天气",
+    "score": 3.1,
+    "note": "江上风大，雾天能见度差"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "游船",
-    "大佛",
-    "拍照"
+  "body": "岸边只能仰头看局部，坐船到江心正对面才能把整尊坐佛和它守着三江的全貌收进一张，是拍大佛最经典的机位，白天与夜航都有。缺点是船程短，正对的那几分钟一晃就过，想拍到稳的画面得提前站好位置；旺季等船时间长，雾天能见度差也会打折。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "拍大佛全貌",
+   "带长辈"
   ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·乐山大佛",
-      "url": "https://baike.baidu.com/item/%E4%B9%90%E5%B1%B1%E5%A4%A7%E4%BD%9B",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-02"
-    }
+  "avoid": [
+   "晕船",
+   "只想慢慢看细节"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Leshan Buddha Cruise",
-    "zh": "乐山大佛游船"
-  },
-  "district": "511102"
+  "sources": []
+ }
 }

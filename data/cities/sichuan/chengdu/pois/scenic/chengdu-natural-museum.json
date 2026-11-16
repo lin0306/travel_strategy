@@ -17,12 +17,12 @@
     },
     "address": "成都市成华区成华大道十里店路 88 号",
     "district": "成华区",
-    "transportTip": "地铁 7 号线理工大学站 B1 口出"
+    "transportTip": "地铁 8 号线十里店站 B 口出，步行约 100 米"
   },
   "practical": {
-    "openHours": "约 09:00-17:00，周一闭馆（以官方公告为准）",
+    "openHours": "周二至周日 09:00-17:00（16:30 停止入馆），周一闭馆（法定节假日除外）",
     "openHoursRef": 0,
-    "ticket": "约 40 元起",
+    "ticket": "成人票 20 元，儿童/学生优待票 10 元（需官方公众号实名预约）",
     "ticketRef": 0,
     "duration": "建议 120-180 分钟",
     "durationMinutes": [
@@ -148,9 +148,15 @@
       "url": "https://baike.baidu.com/item/%E6%88%90%E9%83%BD%E8%87%AA%E7%84%B6%E5%8D%9A%E7%89%A9%E9%A6%86",
       "kind": "wiki",
       "fetchedAt": "2026-09-18"
+    },
+    {
+      "title": "人民日报客户端+官方公众号：票价原 40 元有误（成人 20/优待 10），地铁",
+      "url": "https://www.peopleapp.com/column/30053209324-500007712783",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Chengdu Natural History Museum",
@@ -158,5 +164,27 @@
   },
   "_geocodeTitle": "精品永康酒店成都自然博物馆理工大学店大堂",
   "_geocodeSuspect": false,
-  "district": "510108"
+  "district": "510108",
+  "_patrol": {
+    "at": "2026-11-08",
+    "changes": [
+      {
+        "field": "门票",
+        "old": "约 40 元起",
+        "new": "成人票 20 元，儿童/学生优待票 10 元（需官方公众号实名预约）"
+      },
+      {
+        "field": "开放时间",
+        "old": "约 09:00-17:00，周一闭馆（以官方公告为准）",
+        "new": "周二至周日 09:00-17:00（16:30 停止入馆），周一闭馆（法定节假日除外）"
+      },
+      {
+        "field": "交通提示",
+        "old": "地铁 7 号线理工大学站 B1 口出",
+        "new": "地铁 8 号线十里店站 B 口出，步行约 100 米"
+      }
+    ],
+    "source": "https://www.peopleapp.com/column/30053209324-500007712783",
+    "reason": "人民日报客户端+官方公众号：票价原 40 元有误（成人 20/优待 10），地铁应为 8 号线十里店站"
+  }
 }

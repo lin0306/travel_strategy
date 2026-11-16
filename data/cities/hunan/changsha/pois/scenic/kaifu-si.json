@@ -1,110 +1,148 @@
 {
-  "id": "kaifu-si",
-  "name": "开福寺",
-  "category": "scenic",
-  "subtype": "temple",
-  "summary": "五代十国时楚王马殷建的寺，现在是长沙香火最旺的一处。",
-  "description": "开福寺在开福区新河，五代后唐时楚王马殷把自己城北的行宫舍出来建寺，寺名取「开福」二字，到今天上千年。它是长沙城区最大的佛寺，也是比丘尼道场，日常有僧众课诵。寺内的格局是山门、天王殿、大雄宝殿、毗卢殿一路进去，两厢有客堂与斋堂。后院有一口古井，寺内的几株老樟树是旧物。每年农历新年和观音诞，来上香的人排到门外，平日里相对安静。它离湘江不远，出来往南走两公里就是滨江文化园那一带。",
-  "highlights": [
-    "五代后唐楚王马殷舍宅建寺",
-    "长沙城区规模最大的佛寺",
-    "比丘尼道场，日常有课诵"
-  ],
-  "location": {
-    "point": {
-      "lng": 112.978319,
-      "lat": 28.224383,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "湖南省长沙市开福区开福寺路152号",
-    "district": "开福区",
-    "transportTip": "地铁1号线开福寺站，出站步行约五分钟"
+ "id": "kaifu-si",
+ "name": "开福寺",
+ "category": "scenic",
+ "subtype": "temple",
+ "summary": "五代十国时楚王马殷建的寺，现在是长沙香火最旺的一处。",
+ "description": "开福寺在开福区新河，五代后唐时楚王马殷把自己城北的行宫舍出来建寺，寺名取「开福」二字，到今天上千年。它是长沙城区最大的佛寺，也是比丘尼道场，日常有僧众课诵。寺内的格局是山门、天王殿、大雄宝殿、毗卢殿一路进去，两厢有客堂与斋堂。后院有一口古井，寺内的几株老樟树是旧物。每年农历新年和观音诞，来上香的人排到门外，平日里相对安静。它离湘江不远，出来往南走两公里就是滨江文化园那一带。",
+ "highlights": [
+  "五代后唐楚王马殷舍宅建寺",
+  "长沙城区规模最大的佛寺",
+  "比丘尼道场，日常有课诵"
+ ],
+ "location": {
+  "point": {
+   "lng": 112.978319,
+   "lat": 28.224383,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-17:00，以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "门票约10元起，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 45-100 分钟",
-    "durationMinutes": [
-      45,
-      100
-    ],
-    "priceLevel": "budget"
+  "address": "湖南省长沙市开福区开福寺路152号",
+  "district": "开福区",
+  "transportTip": "地铁1号线开福寺站，出站步行约五分钟"
+ },
+ "practical": {
+  "openHours": "约08:00-17:00，以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "门票约10元起，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 45-100 分钟",
+  "durationMinutes": [
+   45,
+   100
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "elders",
+  "solo",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Dabei_Hall_and_Fuxie_Pavilion%2C_Kaifu_Temple%2C_picture2.jpg/1280px-Dabei_Hall_and_Fuxie_Pavilion%2C_Kaifu_Temple%2C_picture2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Dabei_Hall_and_Fuxie_Pavilion%2C_Kaifu_Temple%2C_picture2.jpg/1280px-Dabei_Hall_and_Fuxie_Pavilion%2C_Kaifu_Temple%2C_picture2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Dabei Hall and Fuxie Pavilion, Kaifu Temple, picture2.jpg",
+   "query": "开福寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Huangdan2060",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dabei_Hall_and_Fuxie_Pavilion,_Kaifu_Temple,_picture2.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "elders",
-    "solo",
-    "family"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Mahabodhi_Pavilion%2C_Kaifu_Temple%2C_picture2.jpg/1280px-Mahabodhi_Pavilion%2C_Kaifu_Temple%2C_picture2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Mahabodhi_Pavilion%2C_Kaifu_Temple%2C_picture2.jpg/1280px-Mahabodhi_Pavilion%2C_Kaifu_Temple%2C_picture2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Mahabodhi Pavilion, Kaifu Temple, picture2.jpg",
+   "query": "开福寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Huangdan2060",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mahabodhi_Pavilion,_Kaifu_Temple,_picture2.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "佛寺",
+  "五代",
+  "香火"
+ ],
+ "popularity": 80,
+ "sources": [
+  {
+   "title": "百度百科·开福寺",
+   "url": "https://baike.baidu.com/item/%E5%BC%80%E7%A6%8F%E5%AF%BA",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "开福寺"
+ },
+ "_geocodeTitle": "古开福寺",
+ "_geocodeSuspect": false,
+ "district": "430105",
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "香火",
+    "score": 4.2,
+    "note": "长沙城区规模最大的佛寺，节庆排到门外"
+   },
+   {
+    "label": "门票",
+    "score": 4.5,
+    "note": "门票不贵，进门另有香烛可选"
+   },
+   {
+    "label": "环境",
+    "score": 3.8,
+    "note": "殿宇一路进去，后院有古井与老樟树"
+   },
+   {
+    "label": "时长",
+    "score": 3.5,
+    "note": "一小时上下能走完"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Dabei_Hall_and_Fuxie_Pavilion%2C_Kaifu_Temple%2C_picture2.jpg/1280px-Dabei_Hall_and_Fuxie_Pavilion%2C_Kaifu_Temple%2C_picture2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Dabei_Hall_and_Fuxie_Pavilion%2C_Kaifu_Temple%2C_picture2.jpg/1280px-Dabei_Hall_and_Fuxie_Pavilion%2C_Kaifu_Temple%2C_picture2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Dabei Hall and Fuxie Pavilion, Kaifu Temple, picture2.jpg",
-      "query": "开福寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Huangdan2060",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dabei_Hall_and_Fuxie_Pavilion,_Kaifu_Temple,_picture2.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Mahabodhi_Pavilion%2C_Kaifu_Temple%2C_picture2.jpg/1280px-Mahabodhi_Pavilion%2C_Kaifu_Temple%2C_picture2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Mahabodhi_Pavilion%2C_Kaifu_Temple%2C_picture2.jpg/1280px-Mahabodhi_Pavilion%2C_Kaifu_Temple%2C_picture2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Mahabodhi Pavilion, Kaifu Temple, picture2.jpg",
-      "query": "开福寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Huangdan2060",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mahabodhi_Pavilion,_Kaifu_Temple,_picture2.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "exact"
-      }
-    }
+  "body": "五代楚王马殷舍宅而建的寺，长沙城区规模最大的一处，殿宇一路进去、后院有古井与老樟树，香火旺。缺点是周边被居民楼和市场围着，没有通常名寺的那种清静；香烛摊多，进门就被兜售，体验打折。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "上香",
+   "带长辈",
+   "顺路"
   ],
-  "coverIndex": 0,
-  "tags": [
-    "佛寺",
-    "五代",
-    "香火"
+  "avoid": [
+   "求清静"
   ],
-  "popularity": 80,
-  "sources": [
-    {
-      "title": "百度百科·开福寺",
-      "url": "https://baike.baidu.com/item/%E5%BC%80%E7%A6%8F%E5%AF%BA",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
-  ],
-  "updatedAt": "2026-11-05",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "开福寺"
-  },
-  "_geocodeTitle": "古开福寺",
-  "_geocodeSuspect": false,
-  "district": "430105"
+  "sources": []
+ }
 }

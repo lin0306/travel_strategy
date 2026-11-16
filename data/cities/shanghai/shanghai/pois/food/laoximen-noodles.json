@@ -21,7 +21,7 @@
     "transportTip": "以具体门店为准"
   },
   "practical": {
-    "openHours": "约06:00-14:00(多为早午餐，以门店公告为准)",
+    "openHours": "06:30-19:00(以门店公告为准)",
     "openHoursRef": 0,
     "ticket": "人均约35元起(以门店为准)",
     "ticketRef": 0,
@@ -51,9 +51,15 @@
       "url": "https://baike.baidu.com/item/%E8%8B%8F%E5%BC%8F%E6%B1%A4%E9%9D%A2",
       "kind": "wiki",
       "fetchedAt": "2026-09-19"
+    },
+    {
+      "title": "黄浦区民政局2026-06-17长者餐厅名单载该店营业时段06:30-19:00",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkxNzY5NjUzOQ==&mid=2247498116&idx=1&sn=a38dbee2eecf4898c43b70ee56b11ba2",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -62,5 +68,17 @@
   "_geocodeTitle": "百年姑苏面沧浪亭(重庆店)",
   "_geocodeSuspect": false,
   "district": "310101",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "约06:00-14:00(多为早午餐，以门店公告为准)",
+        "new": "06:30-19:00(以门店公告为准)"
+      }
+    ],
+    "source": "http://mp.weixin.qq.com/s?__biz=MzkxNzY5NjUzOQ==&mid=2247498116&idx=1&sn=a38dbee2eecf4898c43b70ee56b11ba2",
+    "reason": "黄浦区民政局2026-06-17长者餐厅名单载该店营业时段06:30-19:00"
+  }
 }

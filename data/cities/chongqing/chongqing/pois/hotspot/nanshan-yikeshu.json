@@ -1,67 +1,153 @@
 {
-  "id": "nanshan-yikeshu",
-  "name": "南山一棵树观景台",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "看渝中半岛夜景的经典机位，楼群与两江一起收进画面。",
-  "description": "一棵树观景台在南山半山腰，因早年此处有一棵大树而得名，位置正对渝中半岛，是重庆最有名的看夜景的地方之一。天黑后对岸的楼群亮灯，长江与嘉陵江在下方汇合，视野几乎没有遮挡，是“山城夜景”的标准画面。日落前一小时上来能同时拍到黄昏与夜景两个版本。山上风大、气温比市区低，晚上要多穿一件。回程打车不易，最好提前约车。",
-  "highlights": [
-    "正对渝中半岛，夜景无遮挡",
-    "日落前可拍黄昏与夜景两版",
-    "山上比市区冷，注意保暖"
-  ],
-  "location": {
-    "point": {
-      "lng": 106.6028,
-      "lat": 29.545148,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "重庆市南岸区南山一棵树观景台",
-    "district": "南岸",
-    "transportTip": "市区打车或自驾上山约 30 分钟"
+ "id": "nanshan-yikeshu",
+ "name": "南山一棵树观景台",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "看渝中半岛夜景的经典机位，楼群与两江一起收进画面。",
+ "description": "一棵树观景台在南山半山腰，因早年此处有一棵大树而得名，位置正对渝中半岛，是重庆最有名的看夜景的地方之一。天黑后对岸的楼群亮灯，长江与嘉陵江在下方汇合，视野几乎没有遮挡，是“山城夜景”的标准画面。日落前一小时上来能同时拍到黄昏与夜景两个版本。山上风大、气温比市区低，晚上要多穿一件。回程打车不易，最好提前约车。",
+ "highlights": [
+  "正对渝中半岛，夜景无遮挡",
+  "日落前可拍黄昏与夜景两版",
+  "山上比市区冷，注意保暖"
+ ],
+ "location": {
+  "point": {
+   "lng": 106.6028,
+   "lat": 29.545148,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 09:00-22:30（以官方公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约 30 元起（以官方为准）",
-    "ticketRef": 0,
-    "duration": "建议 60-90 分钟",
-    "durationMinutes": [
-      60,
-      90
-    ],
-    "priceLevel": "mid"
+  "address": "重庆市南岸区龙黄公路南山风景区内（南山一棵树观景园）",
+  "district": "南岸",
+  "transportTip": "轨道交通环线至上浩站，换乘 384 路；自驾走南坪—四公里—黄沙坎—黄桷垭—龙黄公路"
+ },
+ "practical": {
+  "openHours": "09:00-23:00（5—10 月）／09:00-22:30（11 月—次年 4 月）",
+  "openHoursRef": 0,
+  "ticket": "淡季（11 月—次年 2 月）15 元／旺季（3—10 月）30 元，执行渝价〔2014〕153 号政府指导价；60-64 岁老人、6-18 岁青少年、全日制本科及以下学生半票，65 岁以上、1.2 米以下儿童、现役及退役军人、残疾人凭证免票",
+  "ticketRef": 0,
+  "duration": "建议 60-90 分钟",
+  "durationMinutes": [
+   60,
+   90
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [
+  "园内另有 Laputa 天空之城全景餐酒吧与「天空之眼」9D 球幕影院（单独收费），看完日落可以接着等夜景",
+  "一棵树、南山植物园（含温室 50 元／不含 16 元）、大金鹰（12 元）分别售票，联票先看清含哪几处"
+ ],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "夜景",
+  "观景台",
+  "机位"
+ ],
+ "popularity": 88,
+ "sources": [
+  {
+   "title": "百度百科·一棵树观景台",
+   "url": "https://baike.baidu.com/item/%E5%8D%97%E5%B1%B1%E4%B8%80%E6%A3%B5%E6%A0%91%E8%A7%82%E6%99%AF%E5%8F%B0",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
   },
-  "audience": [
-    "couple",
-    "friends"
+  {
+   "title": "人民网领导留言板 2026-10 政府答复：一棵树观景园执行渝价〔2014〕15",
+   "url": "https://liuyan.people.com.cn/threads/content?tid=26284752",
+   "kind": "media",
+   "fetchedAt": "2026-11-14"
+  },
+  {
+   "title": "重庆南山植物园官方公众号《游园指南》：一棵树观景园 09:00-23:00（5-",
+   "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODQ0NTY5MA==&mid=2247511778&idx=3&sn=d59e2c44f1f206b31f5c1cbf4a558d65&chksm=a7264aa0058fe4eb442e9bd6f283400d5b6c2bae5d661a563c698156c3e001ce8dfecd6b68c1#rd",
+   "kind": "media",
+   "fetchedAt": "2026-11-14"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "南山一棵树观景台"
+ },
+ "_geocodeTitle": "一棵树观景台",
+ "_geocodeSuspect": false,
+ "district": "500108",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-14",
+  "changes": [
+   {
+    "field": "开放时间",
+    "old": "约 09:00-22:30（以官方公告为准）",
+    "new": "09:00-23:00（5—10 月）／09:00-22:30（11 月—次年 4 月）"
+   },
+   {
+    "field": "地址",
+    "old": "重庆市南岸区南山一棵树观景台",
+    "new": "重庆市南岸区龙黄公路南山风景区内（南山一棵树观景园）"
+   },
+   {
+    "field": "交通提示",
+    "old": "市区打车或自驾上山约 30 分钟",
+    "new": "轨道交通环线至上浩站，换乘 384 路；自驾走南坪—四公里—黄沙坎—黄桷垭—龙黄公路"
+   },
+   {
+    "field": "贴士（用 | 分隔多条，整体替换）",
+    "old": [],
+    "new": [
+     "园内另有 Laputa 天空之城全景餐酒吧与「天空之眼」9D 球幕影院（单独收费），看完日落可以接着等夜景",
+     "一棵树、南山植物园（含温室 50 元／不含 16 元）、大金鹰（12 元）分别售票，联票先看清含哪几处"
+    ]
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "夜景",
-    "观景台",
-    "机位"
+  "source": "http://mp.weixin.qq.com/s?__biz=MjM5ODQ0NTY5MA==&mid=2247511778&idx=3&sn=d59e2c44f1f206b31f5c1cbf4a558d65&chksm=a7264aa0058fe4eb442e9bd6f283400d5b6c2bae5d661a563c698156c3e001ce8dfecd6b68c1#rd",
+  "reason": "重庆南山植物园官方公众号《游园指南》：一棵树观景园 09:00-23:00（5-10月）／09:00-22:30（11-次年4月），含价目表与自驾/公交路线"
+ },
+ "review": {
+  "score": 4.6,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.8,
+    "note": "正对渝中半岛，两江在脚下汇合"
+   },
+   {
+    "label": "夜景",
+    "score": 4.7,
+    "note": "日落前一小时上来能收黄昏与夜景两版"
+   },
+   {
+    "label": "交通",
+    "score": 2.8,
+    "note": "山上回程打车难"
+   },
+   {
+    "label": "性价比",
+    "score": 3.4,
+    "note": "园子本身很小，票价与内容不太对得上"
+   }
   ],
-  "popularity": 88,
+  "body": "正对渝中半岛，两江在脚下汇合，天黑后对岸亮灯几乎没有遮挡，日落前一小时上来能把黄昏和夜景两个版本都拍下。可惜园子本身很小，票价与内容不太对得上——淡季十五、旺季三十，走十分钟就到底了。山上风大、比市区冷，回程打车难，最好提前约车或赶末班公交下山。",
+  "basis": "web",
+  "at": "2026-11-14",
+  "fits": [
+   "看夜景",
+   "拍照"
+  ],
+  "avoid": [
+   "只留半小时",
+   "怕冷"
+  ],
   "sources": [
-    {
-      "title": "百度百科·一棵树观景台",
-      "url": "https://baike.baidu.com/item/%E5%8D%97%E5%B1%B1%E4%B8%80%E6%A3%B5%E6%A0%91%E8%A7%82%E6%99%AF%E5%8F%B0",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "南山一棵树观景台"
-  },
-  "_geocodeTitle": "一棵树观景台",
-  "_geocodeSuspect": false,
-  "district": "500108",
-  "_noImage": true
+   "https://liuyan.people.com.cn/threads/content?tid=26284752",
+   "https://m.cq.bendibao.com/job/168634.shtm"
+  ]
+ }
 }

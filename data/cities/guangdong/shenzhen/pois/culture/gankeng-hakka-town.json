@@ -1,90 +1,128 @@
 {
-  "id": "gankeng-hakka-town",
-  "name": "甘坑古镇",
-  "category": "culture",
-  "subtype": "street",
-  "summary": "客家老村改的一座小镇：小凉帽这一形象与旧屋的巷子是两个不同的东西。",
-  "description": "甘坑是布吉一带的一个客家老村，村名与地形有关。2016 年起做整体开发，成为现在的小镇形态。它保留的旧屋是客家排屋与祠堂那一类，巷子的尺度还在。新加的内容分两块：一是小凉帽主题的亲子设施与展馆，二是沿街的商业与餐饮。夜间有灯会一类的活动，节假日的安排更密。它与观澜版画村、大芬油画村都在龙岗或龙华方向，但彼此之间有距离。门票与开放方式以官方公告为准。",
-  "highlights": [
-    "客家老村格局之上开发的景区小镇",
-    "小凉帽主题的展馆与亲子设施",
-    "节假日夜间活动较多"
-  ],
-  "location": {
-    "point": {
-      "lng": 114.103947,
-      "lat": 22.656641,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "深圳市龙岗区布吉街道甘坑社区（甘坑古镇）",
-    "district": "龙岗区",
-    "transportTip": "地铁10号线甘坑站 / 地铁5号线布吉站换乘公交"
+ "id": "gankeng-hakka-town",
+ "name": "甘坑古镇",
+ "category": "culture",
+ "subtype": "street",
+ "summary": "客家老村改的一座小镇：小凉帽这一形象与旧屋的巷子是两个不同的东西。",
+ "description": "甘坑是布吉一带的一个客家老村，村名与地形有关。2016 年起做整体开发，成为现在的小镇形态。它保留的旧屋是客家排屋与祠堂那一类，巷子的尺度还在。新加的内容分两块：一是小凉帽主题的亲子设施与展馆，二是沿街的商业与餐饮。夜间有灯会一类的活动，节假日的安排更密。它与观澜版画村、大芬油画村都在龙岗或龙华方向，但彼此之间有距离。门票与开放方式以官方公告为准。",
+ "highlights": [
+  "客家老村格局之上开发的景区小镇",
+  "小凉帽主题的展馆与亲子设施",
+  "节假日夜间活动较多"
+ ],
+ "location": {
+  "point": {
+   "lng": 114.103947,
+   "lat": 22.656641,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约09:30-21:30（以官方公告为准）",
-    "openHoursRef": 0,
-    "ticket": "按项目分档，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 180-360 分钟",
-    "durationMinutes": [
-      180,
-      360
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "family",
-    "kids",
-    "couple",
-    "friends"
+  "address": "深圳市龙岗区布吉街道甘坑社区（甘坑古镇）",
+  "district": "龙岗区",
+  "transportTip": "地铁10号线甘坑站 / 地铁5号线布吉站换乘公交"
+ },
+ "practical": {
+  "openHours": "约09:30-21:30（以官方公告为准）",
+  "openHoursRef": 0,
+  "ticket": "按项目分档，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 180-360 分钟",
+  "durationMinutes": [
+   180,
+   360
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Gankeng_at_night%2C_December_2024_-9.jpg/1280px-Gankeng_at_night%2C_December_2024_-9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Gankeng_at_night%2C_December_2024_-9.jpg/1280px-Gankeng_at_night%2C_December_2024_-9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Gankeng at night, December 2024 -9.jpg",
-      "query": "甘坑古镇",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Underbar dk",
-        "sourceUrl": "https://zh.wikipedia.org/wiki/甘坑古鎮",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "front"
-      }
-    }
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "family",
+  "kids",
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Gankeng_at_night%2C_December_2024_-9.jpg/1280px-Gankeng_at_night%2C_December_2024_-9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Gankeng_at_night%2C_December_2024_-9.jpg/1280px-Gankeng_at_night%2C_December_2024_-9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Gankeng at night, December 2024 -9.jpg",
+   "query": "甘坑古镇",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Underbar dk",
+    "sourceUrl": "https://zh.wikipedia.org/wiki/甘坑古鎮",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "front"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "客家",
+  "古镇",
+  "亲子"
+ ],
+ "popularity": 70,
+ "sources": [
+  {
+   "title": "百度百科·甘坑古镇",
+   "url": "https://baike.baidu.com/item/%E7%94%98%E5%9D%91%E5%8F%A4%E9%95%87",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-24"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "甘坑古镇"
+ },
+ "_geocodeTitle": "甘坑古镇",
+ "_geocodeSuspect": false,
+ "district": "440307",
+ "review": {
+  "score": 3.6,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "旧村",
+    "score": 3.5,
+    "note": "客家排屋与祠堂的巷子尺度还在"
+   },
+   {
+    "label": "商业化",
+    "score": 2,
+    "note": "小凉帽主题设施与沿街商铺占了大半"
+   },
+   {
+    "label": "亲子",
+    "score": 4,
+    "note": "亲子项目与展馆密度高"
+   },
+   {
+    "label": "夜间",
+    "score": 3.5,
+    "note": "节假日夜里活动更密"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "客家",
-    "古镇",
-    "亲子"
+  "body": "底子是客家老村，排屋与祠堂那类建筑和窄巷的尺度还留着，走走能看出原来的村落结构。后来加进来的内容分两块：小凉帽主题的亲子设施与展馆，和沿街商业餐饮，带孩子来能动起来，节假日夜里活动也密。缺点是商业化占了主导，想找安静的旧村味道基本找不到；门票按项目分档，进去不少东西还要另外付费，算总账不便宜；它和观澜版画村、大芬油画村不在一个方向，别指望一天串三处。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "带娃放电",
+   "节假日夜间"
   ],
-  "popularity": 70,
-  "sources": [
-    {
-      "title": "百度百科·甘坑古镇",
-      "url": "https://baike.baidu.com/item/%E7%94%98%E5%9D%91%E5%8F%A4%E9%95%87",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-24"
-    }
+  "avoid": [
+   "想看原生态村落",
+   "预算紧"
   ],
-  "updatedAt": "2026-11-03",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "甘坑古镇"
-  },
-  "_geocodeTitle": "甘坑古镇",
-  "_geocodeSuspect": false,
-  "district": "440307"
+  "sources": []
+ }
 }

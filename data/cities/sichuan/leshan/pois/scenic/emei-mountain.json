@@ -1,89 +1,121 @@
 {
-  "id": "emei-mountain",
-  "name": "峨眉山",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "中国四大佛教名山之一，金顶看云海日出，半山有猴群和古寺。",
-  "description": "峨眉山在乐山西边的峨眉山市，是中国四大佛教名山之一。它从平坝一直长到三千米出头的金顶，半山是古寺和猴群，山顶有十方普贤金像，云海日出都在。爬上去可以坐缆车省力，全程走完要一两天，是乐山最重头的一站。",
-  "highlights": [
-    "四大佛教名山之一",
-    "金顶普贤金像与云海日出",
-    "半山古寺与猴群"
-  ],
-  "location": {
-    "point": {
-      "lng": 103.484727,
-      "lat": 29.601729,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "四川省乐山市峨眉山市峨眉山景区",
-    "district": "峨眉山市",
-    "transportTip": "峨眉山高铁站或市区乘车到景区，内乘观光车与缆车",
-    "entrance": {
-      "lng": 103.441397,
-      "lat": 29.578438,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "emei-mountain",
+ "name": "峨眉山",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "中国四大佛教名山之一，金顶看云海日出，半山有猴群和古寺。",
+ "description": "峨眉山在乐山西边的峨眉山市，是中国四大佛教名山之一。它从平坝一直长到三千米出头的金顶，半山是古寺和猴群，山顶有十方普贤金像，云海日出都在。爬上去可以坐缆车省力，全程走完要一两天，是乐山最重头的一站。",
+ "highlights": [
+  "四大佛教名山之一",
+  "金顶普贤金像与云海日出",
+  "半山古寺与猴群"
+ ],
+ "location": {
+  "point": {
+   "lng": 103.484727,
+   "lat": 29.601729,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约06:30-18:00，以景区公告为准",
-    "openHoursRef": 0,
-    "ticket": "约160元（以官方为准）",
-    "ticketRef": 0,
-    "duration": "建议 480-960 分钟",
-    "durationMinutes": [
-      480,
-      960
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "couple",
-    "family",
-    "friends",
-    "elders"
+  "address": "四川省乐山市峨眉山市峨眉山景区",
+  "district": "峨眉山市",
+  "transportTip": "峨眉山高铁站或市区乘车到景区，内乘观光车与缆车",
+  "entrance": {
+   "lng": 103.441397,
+   "lat": 29.578438,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约06:30-18:00，以景区公告为准",
+  "openHoursRef": 0,
+  "ticket": "约160元（以官方为准）",
+  "ticketRef": 0,
+  "duration": "建议 480-960 分钟",
+  "durationMinutes": [
+   480,
+   960
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/%E4%B8%8A%E5%B1%B1%E7%9A%84%E8%B7%AF-%E6%B5%81%E6%B5%AA%E7%9A%84%E7%8B%97%E7%8B%97_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/%E4%B8%8A%E5%B1%B1%E7%9A%84%E8%B7%AF-%E6%B5%81%E6%B5%AA%E7%9A%84%E7%8B%97%E7%8B%97_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 605,
-      "alt": "上山的路-流浪的狗狗 - panoramio.jpg",
-      "query": "峨眉山 乐山",
-      "credit": {
-        "source": "wikimedia",
-        "author": "aisccd",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E5%B1%B1%E7%9A%84%E8%B7%AF-%E6%B5%81%E6%B5%AA%E7%9A%84%E7%8B%97%E7%8B%97_-_panoramio.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    }
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "family",
+  "friends",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/%E4%B8%8A%E5%B1%B1%E7%9A%84%E8%B7%AF-%E6%B5%81%E6%B5%AA%E7%9A%84%E7%8B%97%E7%8B%97_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/%E4%B8%8A%E5%B1%B1%E7%9A%84%E8%B7%AF-%E6%B5%81%E6%B5%AA%E7%9A%84%E7%8B%97%E7%8B%97_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 605,
+   "alt": "上山的路-流浪的狗狗 - panoramio.jpg",
+   "query": "峨眉山 乐山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "aisccd",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E5%B1%B1%E7%9A%84%E8%B7%AF-%E6%B5%81%E6%B5%AA%E7%9A%84%E7%8B%97%E7%8B%97_-_panoramio.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "佛教名山",
+  "金顶",
+  "猴群"
+ ],
+ "popularity": 98,
+ "sources": [
+  {
+   "title": "百度百科·峨眉山",
+   "url": "https://baike.baidu.com/item/%E5%B3%A8%E7%9C%89%E5%B1%B1",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-02"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Mount Emei",
+  "zh": "峨眉山"
+ },
+ "_geocodeTitle": "峨眉山市",
+ "_geocodeSuspect": false,
+ "district": "511181",
+ "review": {
+  "score": 4.5,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "登山体力",
+    "score": 3.3,
+    "note": "全程走完要一两天，坐缆车省一半力"
+   },
+   {
+    "label": "古寺猴群",
+    "score": 4.2,
+    "note": "半山古寺与猴群，袋子别拎在手上"
+   },
+   {
+    "label": "山上住宿",
+    "score": 3.0,
+    "note": "贵且条件一般，看日出多是将就一晚"
+   },
+   {
+    "label": "花费",
+    "score": 3.3,
+    "note": "门票外还有索道与观光车，叠起来不便宜"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "佛教名山",
-    "金顶",
-    "猴群"
-  ],
-  "popularity": 98,
-  "sources": [
-    {
-      "title": "百度百科·峨眉山",
-      "url": "https://baike.baidu.com/item/%E5%B3%A8%E7%9C%89%E5%B1%B1",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-02"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Mount Emei",
-    "zh": "峨眉山"
-  },
-  "_geocodeTitle": "峨眉山市",
-  "_geocodeSuspect": false,
-  "district": "511181"
+  "body": "从平坝一直长到三千多米，一座山把古寺、猴群、云海和金顶全都装进去了。想认真走完得安排一两天，坐缆车能省一半力气，但最有味道的还是半山那段石阶和古寺。缺点是花费叠起来不便宜，门票之外还有索道与观光车；半山的猴群会抢东西，袋子别拎在手上晃；山上住宿贵，条件也就一般，很多人凌晨起来看日出只能将就一晚。体力一般的话，把它拆成两天更舒服。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [],
+  "avoid": [],
+  "sources": []
+ }
 }

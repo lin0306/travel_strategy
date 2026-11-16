@@ -168,7 +168,9 @@ export function useCityDistrictLayer(o: UseCityDistrictLayerOptions): UseCityDis
       .join(',')}|${boundsRef.current ? 'b' : '-'}|${facesOnly ? 'ref' : 'full'}`
     if (sig !== sigRef.current) {
       sigRef.current = sig
-      layer.setNodes(nodes, boundsRef.current ?? undefined, facesOnly ? 'reference' : 'full')
+      // ★ 本 hook 铺的恒是**区级**面 —— 把 faceLevel 交给图层决定描边深浅（P2）。
+      //   城市页 z 可能只有 9.46 / 7.99（移动端），按绝对 zoom 判会一直拿浅档。
+      layer.setNodes(nodes, boundsRef.current ?? undefined, facesOnly ? 'reference' : 'full', 'district')
     }
     // 视野变了 → 徽标避让要重算（挤不挤随缩放变化），与 setNodes 是否执行无关
     layer.refreshView()

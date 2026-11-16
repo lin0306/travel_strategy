@@ -12,8 +12,8 @@
   ],
   "location": {
     "point": {
-      "lng": 112.901985,
-      "lat": 28.196329,
+      "lat": 28.178551,
+      "lng": 112.942622,
       "coordSystem": "GCJ-02"
     },
     "address": "湖南省长沙市岳麓区登高路（湖南大学一带）",
@@ -144,9 +144,15 @@
       "url": "https://baike.baidu.com/item/%E8%8C%B6%E9%A2%9C%E6%82%A6%E8%89%B2",
       "kind": "wiki",
       "fetchedAt": "2026-09-28"
+    },
+    {
+      "title": "腾讯地图POI：茶颜悦色(登高路上店)（登高路千惠超市旁）",
+      "url": "https://map.qq.com/?what=%E8%8C%B6%E9%A2%9C%E6%82%A6%E8%89%B2%E7%99%BB%E9%AB%98%E8%B7%AF%E5%BA%97&city=%E9%95%BF%E6%B2%99",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -154,5 +160,62 @@
   },
   "_geocodeTitle": "茶颜悦色",
   "_geocodeSuspect": false,
-  "district": "430104"
+  "district": "430104",
+  "review": {
+    "score": 4.3,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "口味",
+        "score": 4.2,
+        "note": "原叶茶现泡配鲜奶，甜度冰量可调"
+      },
+      {
+        "label": "排队",
+        "score": 2.5,
+        "note": "热门门店要等一阵"
+      },
+      {
+        "label": "价格",
+        "score": 4.0,
+        "note": "十几到二十几块，网红茶里不算贵"
+      },
+      {
+        "label": "门店",
+        "score": 4.8,
+        "note": "密度夸张，找店不是问题"
+      }
+    ],
+    "body": "原叶茶现泡配鲜奶，幽兰拿铁、声声乌龙这几款是稳的，甜度冰量能调，价格十几到二十几块，在网红茶饮里不算贵。门店密度夸张，一条街上能开几家，找店不是问题。缺点是热门门店排队要等，节假日更久；口味偏奶香，追求茶感的人会觉得被盖住；仕女图杯子带来大量打卡人流，店内座位常常不够。登高路这家爬完岳麓山下来喝最顺。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "茶饮",
+      "爬山后"
+    ],
+    "avoid": [
+      "想坐下慢慢喝",
+      "只认茶感"
+    ],
+    "sources": []
+  },
+  "_patrol": {
+    "at": "2026-11-14",
+    "changes": [
+      {
+        "field": "point",
+        "old": {
+          "lng": 112.901985,
+          "lat": 28.196329,
+          "coordSystem": "GCJ-02"
+        },
+        "new": [
+          28.178551,
+          112.942622
+        ]
+      }
+    ],
+    "source": "https://map.qq.com/?what=%E8%8C%B6%E9%A2%9C%E6%82%A6%E8%89%B2%E7%99%BB%E9%AB%98%E8%B7%AF%E5%BA%97&city=%E9%95%BF%E6%B2%99",
+    "reason": "腾讯地图POI：登高路千惠超市旁，原坐标偏4.45km"
+  }
 }

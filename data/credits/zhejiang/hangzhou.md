@@ -1,6 +1,6 @@
 # 杭州 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-09-19
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | China News Service 中国新闻网 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Tan_Jianci_(%E6%AA%80%E5%81%A5%E6%AC%A1)_-_%E6%9D%AD%E5%B7%9E%E4%BA%9A%E8%BF%90%E4%BC%9A%E5%AE%98%E6%96%B9%E4%B8%BB%E9%A2%98%E6%8E%A8%E5%B9%BF%E6%9B%B2%E3%80%8A%E6%9C%89%E4%BD%A0%E6%9C%89%E6%88%91%E3%80%8B.jpg) |
-| 城市封面 | Unknown authorUnknown author | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%89%E7%80%BE%E5%9C%92%E8%87%B3%E6%9D%AD%E5%B7%9E%E5%BA%9C%E8%A1%8C%E5%AE%AE%E9%81%93%E9%87%8C%E5%9C%96%E8%AA%AA%EF%BC%88%E6%9D%AD%E5%B7%9E%E5%9F%8E%E9%83%A8%E5%88%86%EF%BC%89.jpg) |
-| 城市封面 | MasaneMiyaPA | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%9D%AD%E5%B7%9E%E5%9C%B0%E9%93%813%E5%8F%B7%E7%BA%BF%E8%BD%A6%E5%A4%B4%E5%83%8F%E7%B4%A0%E7%94%BB.png) |
+| 城市封面 | User:CatOnMars | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Huanglong_%26_Broken_Bridge_-_Hangzhou_City_%26_Outer_West_Lake.jpg) |
+| 城市封面 | Ludger Heide | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Blubb_(10595970686).jpg) |
+| 城市封面 | MasaneMiyaPA | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20201012%E4%BB%8E%E9%92%B1%E5%A1%98%E6%B1%9F%E6%B1%9F%E9%9D%A2%E4%B8%8A%E7%A9%BA%E8%A7%82%E7%9C%8B%E9%92%B1%E6%B1%9F%E6%96%B0%E5%9F%8E_2.jpg) |
 | 保俶塔与宝石山 | Hermann Luyken | CC0 | [wikimedia](https://commons.wikimedia.org/) |
 | 保俶塔与宝石山 | guan | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 保俶塔与宝石山 | ·˙·ChinaUli2010·.· | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |

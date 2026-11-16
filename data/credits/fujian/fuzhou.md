@@ -1,6 +1,6 @@
 # 福州 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-04
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -15,13 +15,17 @@
 | 苍霞特色历史文化街区 | [遇见福州·福州中平路实况（今日头条）](https://m.toutiao.com/article/7621549976082039338) | media | 2026-10-26 |
 | 陈绍宽故居 | [百度百科·陈绍宽故居](https://baike.baidu.com/view/4520835.htm) | wiki | 2026-10-26 |
 | 中国船政文化景区 | [百度百科·马尾船政](https://baike.baidu.com/item/%E9%A9%AC%E5%B0%BE%E8%88%B9%E6%94%BF) | wiki | 2026-10-04 |
+| 中国船政文化景区 | [福州新闻网·船政文化景区一日游（2026-07-20）](https://fzcac.fznews.com.cn/node/19507/20260720/6a7ed4e6e06f4.shtml) | media | 2026-11-09 |
+| 中国船政文化景区 | [中国船政文化网（景区官网）](https://www.czwh.org.cn/) | media | 2026-11-09 |
 | 福建博物院 | [百度百科·福建博物院](https://baike.baidu.com/item/%E7%A6%8F%E5%BB%BA%E5%8D%9A%E7%89%A9%E9%99%A2) | wiki | 2026-10-04 |
 | 中国闽菜文化博物馆 | [携程·中国闽菜文化博物馆](https://gs.ctrip.com/html5/you/sight/207/145702177.html) | travel-platform | 2026-10-26 |
+| 中国闽菜文化博物馆 | [闽菜文化博物馆·官方公众号开放公告](http://mp.weixin.qq.com/s?__biz=Mzk0OTUxNzcxMQ==&mid=2247502653&idx=1&sn=546057f83c28819879e6eceb42da505d) | media | 2026-11-09 |
 | 福建省革命历史纪念馆 | [百度百科·福建省革命历史纪念馆](https://baike.baidu.com/view/2044827.htm) | wiki | 2026-10-26 |
 | 福州市博物馆 | [福州市博物馆官网·馆所指引](http://www.fzsbwg.com/?name=venueguide) | official | 2026-10-26 |
 | 福州文庙 | [百度百科·福州文庙](https://baike.baidu.com/item/%E7%A6%8F%E5%B7%9E%E6%96%87%E5%BA%99) | wiki | 2026-10-04 |
 | 福州西湖公园 | [百度百科·福州西湖公园](https://baike.baidu.com/item/%E7%A6%8F%E5%B7%9E%E8%A5%BF%E6%B9%96%E5%85%AC%E5%9B%AD) | wiki | 2026-10-04 |
 | 福州动物园 | [百度百科·福州动物园](https://baike.baidu.com/item/%E7%A6%8F%E5%B7%9E%E5%8A%A8%E7%89%A9%E5%9B%AD) | wiki | 2026-10-04 |
+| 福州动物园 | [福州新闻网·动物园恢复营业时间公告（2025-08-29）](https://m.fznews.com.cn/fzxw/20250829/00T50951S3.shtml) | media | 2026-11-09 |
 | 鼓岭 | [百度百科·鼓岭](https://baike.baidu.com/item/%E9%BC%93%E5%B2%AD) | wiki | 2026-10-04 |
 | 福州国家森林公园 | [百度百科·福州国家森林公园](https://baike.baidu.com/item/%E7%A6%8F%E5%B7%9E%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD) | wiki | 2026-10-04 |
 | 鼓山 | [百度百科·鼓山](https://baike.baidu.com/item/%E9%BC%93%E5%B1%B1) | wiki | 2026-10-04 |
@@ -50,20 +54,28 @@
 | 福州镇海楼 | [百度百科·镇海楼](https://baike.baidu.com/item/%E9%95%87%E6%B5%B7%E6%A5%BC) | wiki | 2026-10-04 |
 | 左海公园 | [百度百科·左海公园](https://baike.baidu.com/item/%E5%B7%A6%E6%B5%B7%E5%85%AC%E5%9B%AD) | wiki | 2026-10-04 |
 | 安泰楼 | [百度百科·福州菜](https://baike.baidu.com/item/%E7%A6%8F%E5%B7%9E%E8%8F%9C) | wiki | 2026-10-04 |
+| 安泰楼 | [鼓楼区人民政府·非遗嘉年华东街口美食攻略](https://www.gl.gov.cn/xjwz/rw/czgl/202603/t20260311_5294129.htm) | media | 2026-11-09 |
 | 达道美食城(上下杭店) | [百度百科·福州小吃](https://baike.baidu.com/item/%E7%A6%8F%E5%B7%9E%E5%B0%8F%E5%90%83) | wiki | 2026-10-04 |
 | 和谐苑非遗佛跳墙(三牧坊店) | [百度百科·佛跳墙](https://baike.baidu.com/item/%E4%BD%9B%E8%B7%B3%E5%A2%99) | wiki | 2026-10-04 |
+| 和谐苑非遗佛跳墙(三牧坊店) | [鼓楼区人民政府·非遗嘉年华东街口美食攻略](https://www.gl.gov.cn/xjwz/rw/czgl/202603/t20260311_5294129.htm) | media | 2026-11-09 |
 | 旧巷南(道山路店) | [百度百科·福州鱼丸](https://baike.baidu.com/item/%E7%A6%8F%E5%B7%9E%E9%B1%BC%E4%B8%B8) | wiki | 2026-10-04 |
 | 聚春园(南后街店) | [百度百科·聚春园](https://baike.baidu.com/item/%E8%81%9A%E6%98%A5%E5%9B%AD) | wiki | 2026-10-04 |
-| 老福州(上下杭店) | [百度百科·福州菜](https://baike.baidu.com/item/%E7%A6%8F%E5%B7%9E%E8%8F%9C) | wiki | 2026-10-04 |
+| 老福洲(上下杭店) | [百度百科·福州菜](https://baike.baidu.com/item/%E7%A6%8F%E5%B7%9E%E8%8F%9C) | wiki | 2026-10-04 |
+| 老福洲(上下杭店) | [腾讯地图POI：老福洲(上下杭店)·上下杭隆平路星河巷1号](https://map.qq.com/) | media | 2026-11-09 |
 | 老榕城福州小炒 | [百度百科·福州菜](https://baike.baidu.com/item/%E7%A6%8F%E5%B7%9E%E8%8F%9C) | wiki | 2026-10-04 |
+| 老榕城福州小炒 | [腾讯地图POI：老榕城福州小炒佛跳墙·八一七北路70号](https://map.qq.com/) | media | 2026-11-09 |
 | 连江锅边(东街店) | [百度百科·锅边糊](https://baike.baidu.com/item/%E9%94%85%E8%BE%B9%E7%B3%8A) | wiki | 2026-10-04 |
 | 没牙伯花生汤(老药洲店) | [百度百科·花生汤](https://baike.baidu.com/item/%E8%8A%B1%E7%94%9F%E6%B1%A4) | wiki | 2026-10-04 |
+| 没牙伯花生汤(老药洲店) | [台江区文旅「福游台江」双节美食特辑（区委宣传部矩阵发布）](https://mp.weixin.qq.com/s?__biz=MzIyOTU5NDMzMg==&mid=2248010340&idx=1&sn=18322146ea5d9a1cfa488b0f91afa787) | media | 2026-11-09 |
 | 南门食仙(南门兜店) | [百度百科·福州菜](https://baike.baidu.com/item/%E7%A6%8F%E5%B7%9E%E8%8F%9C) | wiki | 2026-10-04 |
 | 庆城林华光饼(庆城店) | [百度百科·光饼](https://baike.baidu.com/item/%E5%85%89%E9%A5%BC) | wiki | 2026-10-04 |
 | 同利肉燕老铺(三坊七巷店) | [百度百科·肉燕](https://baike.baidu.com/item/%E8%82%89%E7%87%95) | wiki | 2026-10-04 |
 | 叶家花生汤(安福新村店) | [百度百科·花生汤](https://baike.baidu.com/item/%E8%8A%B1%E7%94%9F%E6%B1%A4) | wiki | 2026-10-04 |
+| 叶家花生汤(安福新村店) | [福州市鼓楼区政府·街镇主理人带你逛鼓楼（东街街道）](https://www.gl.gov.cn/xjwz/zwgkml/gzdt/glyw/glywszb/202602/t20260224_5287336.htm) | media | 2026-11-09 |
 | 依土捞化(庆城路店) | [百度百科·捞化](https://baike.baidu.com/item/%E6%8D%9E%E5%8C%96) | wiki | 2026-10-04 |
+| 依土捞化(庆城路店) | [福建日报·福州捞化老店（2024-12-23）](https://www.fjdaily.com/app/content/2024-12/23/content_2996291.html) | media | 2026-11-09 |
 | 永和鱼丸(南后街店) | [百度百科·福州鱼丸](https://baike.baidu.com/item/%E7%A6%8F%E5%B7%9E%E9%B1%BC%E4%B8%B8) | wiki | 2026-10-04 |
+| 永和鱼丸(南后街店) | [三坊七巷官网·永和鱼丸商家页](https://www.fzsfqx.com.cn/merchant/6122/7b345264.html) | media | 2026-11-09 |
 | 宝龙城市广场 | [百度百科·宝龙城市广场](https://baike.baidu.com/item/%E5%AE%9D%E9%BE%99%E5%9F%8E%E5%B8%82%E5%B9%BF%E5%9C%BA) | wiki | 2026-10-04 |
 | 仓山万达 | [百度百科·万达广场](https://baike.baidu.com/item/%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA) | wiki | 2026-10-04 |
 | 达明美食街 | [百度百科·达明美食街](https://baike.baidu.com/item/%E8%BE%BE%E6%98%8E%E7%BE%8E%E9%A3%9F%E8%A1%97) | wiki | 2026-10-04 |
@@ -71,10 +83,14 @@
 | 东街口 | [百度百科·东街口](https://baike.baidu.com/item/%E4%B8%9C%E8%A1%97%E5%8F%A3) | wiki | 2026-10-04 |
 | 福道 | [百度百科·福道](https://baike.baidu.com/item/%E7%A6%8F%E9%81%93) | wiki | 2026-10-04 |
 | 福州万象城 | [百度百科·万象城](https://baike.baidu.com/item/%E4%B8%87%E8%B1%A1%E5%9F%8E) | wiki | 2026-10-04 |
+| 福州万象城 | [宝格丽门店页·福州万象城](https://www.bulgari.com/zh-sg/storelocator/country-region/%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86/fujian/fuzhou/no.-5-gongye-road-and-hongshanyuan-road) | media | 2026-11-09 |
 | 五四路 | [百度百科·五四路](https://baike.baidu.com/item/%E4%BA%94%E5%9B%9B%E8%B7%AF) | wiki | 2026-10-04 |
 | 烟台山商业漫步街区 | [百度百科·烟台山](https://baike.baidu.com/item/%E7%83%9F%E5%8F%B0%E5%B1%B1) | wiki | 2026-10-04 |
 | 中亭街 | [百度百科·中亭街](https://baike.baidu.com/item/%E4%B8%AD%E4%BA%AD%E8%A1%97) | wiki | 2026-10-04 |
+| 中亭街 | [福州新闻网·中亭街HOWLIKE（2026-09-27）](https://m.fznews.com.cn/fzyw/20260927/6ab87e5bc6792.shtml) | media | 2026-11-09 |
 | 春伦茉莉花茶 | [百度百科·茉莉花茶](https://baike.baidu.com/item/%E8%8C%89%E8%8E%89%E8%8A%B1%E8%8C%B6) | wiki | 2026-10-04 |
+| 春伦茉莉花茶 | [同程旅行·春伦茉莉花茶文创园](https://m.ly.com/scenery/scenerydetail_676557.html) | media | 2026-11-09 |
+| 春伦茉莉花茶 | [仓山区文体旅局A级景区信息表：分夏令冬令两套开放时段](https://www.fzcangshan.gov.cn/xjwz/xxgk/ly/lyzy/202312/t20231207_4732396.htm) | media | 2026-11-09 |
 | 闽剧 | [百度百科·闽剧](https://baike.baidu.com/item/%E9%97%BD%E5%89%A7) | wiki | 2026-10-04 |
 | 福州评话伬艺传习所 | [百度百科·福州评话](https://baike.baidu.com/item/%E7%A6%8F%E5%B7%9E%E8%AF%84%E8%AF%9D) | wiki | 2026-10-04 |
 | 软木画馆 | [百度百科·软木画](https://baike.baidu.com/item/%E8%BD%AF%E6%9C%A8%E7%94%BB) | wiki | 2026-10-04 |
@@ -85,9 +101,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2019%E4%B8%96%E7%95%8C%E7%A6%8F%E5%B7%9E%E5%8D%81%E9%82%91%E6%98%A5%E6%99%9A_%E6%AD%8C%E6%9B%B2%E3%80%8A%E5%97%A8%E8%B5%B7%E6%9D%A5%E3%80%8B.jpg) |
-| 城市封面 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2019%E4%B8%96%E7%95%8C%E7%A6%8F%E5%B7%9E%E5%8D%81%E9%82%91%E6%98%A5%E6%99%9A_%E7%A6%8F%E5%B7%9E%E8%AF%AD%E6%AD%8C%E6%9B%B2%E3%80%8A%E4%B9%A1%E4%BA%B2%E6%9D%A5%E6%8B%9C%E5%B9%B4%E3%80%8B01.jpg) |
-| 城市封面 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2019%E4%B8%96%E7%95%8C%E7%A6%8F%E5%B7%9E%E5%8D%81%E9%82%91%E6%98%A5%E6%99%9A_%E7%A6%8F%E5%B7%9E%E8%AF%AD%E6%AD%8C%E6%9B%B2%E3%80%8A%E4%B9%A1%E4%BA%B2%E6%9D%A5%E6%8B%9C%E5%B9%B4%E3%80%8B02.jpg) |
+| 城市封面 | FradonStar | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20251101_%E4%B8%89%E5%9D%8A%E4%B8%83%E5%B7%B7_%E7%A8%8B%E5%AE%B6%E5%B0%8F%E9%99%A2.jpg) |
+| 城市封面 | Lennartbj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Fuzhou_Three_Lanes_and_Seven_Alleys_Mainstreet.jpg) |
+| 城市封面 | Cyclohexane233 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20181221%E7%A6%8F%E5%B7%9E%E7%A6%8F%E9%81%93%EF%BC%88%E6%A2%85%E5%B3%B0%E5%B1%B1%E5%9C%B0%E5%85%AC%E5%9B%AD%EF%BC%89_03.jpg) |
 | 苍霞特色历史文化街区 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 苍霞特色历史文化街区 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 苍霞特色历史文化街区 | 向史公哲曰 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |

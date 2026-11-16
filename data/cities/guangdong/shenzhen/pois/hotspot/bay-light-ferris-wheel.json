@@ -1,68 +1,108 @@
 {
-  "id": "bay-light-ferris-wheel",
-  "name": "欢乐港湾·湾区之光摩天轮",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "临海的一枚大轮子：转一圈约二十分钟，轿厢这一侧看的是伶仃洋。",
-  "description": "湾区之光在宝安中心区外侧的海边，2021 年开放。它的总高度一百二十多米，是这一片的制高点。轿厢数量多，转一圈的时间在二十分钟上下。它朝向伶仃洋的方向，天气好时能看到远处的桥与海岸线。与它连在一起的是欢乐港湾的商业与滨海公园，整片是填海后建的。夜里摩天轮有灯光，从对岸与海边步道看它是另一个样子。节假日排队时间长。",
-  "highlights": [
-    "总高一百二十多米，转一圈约二十分钟",
-    "朝向伶仃洋，可见远处的桥与海岸",
-    "夜间有灯光秀，从步道看是另一个角度"
-  ],
-  "location": {
-    "point": {
-      "lng": 113.887925,
-      "lat": 22.541133,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "深圳市宝安区宝兴路欢乐港湾（湾区之光摩天轮）",
-    "district": "宝安区",
-    "transportTip": "地铁1号线/5号线宝安中心站换乘公交或步行"
+ "id": "bay-light-ferris-wheel",
+ "name": "欢乐港湾·湾区之光摩天轮",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "临海的一枚大轮子：转一圈约二十分钟，轿厢这一侧看的是伶仃洋。",
+ "description": "湾区之光在宝安中心区外侧的海边，2021 年开放。它的总高度一百二十多米，是这一片的制高点。轿厢数量多，转一圈的时间在二十分钟上下。它朝向伶仃洋的方向，天气好时能看到远处的桥与海岸线。与它连在一起的是欢乐港湾的商业与滨海公园，整片是填海后建的。夜里摩天轮有灯光，从对岸与海边步道看它是另一个样子。节假日排队时间长。",
+ "highlights": [
+  "总高一百二十多米，转一圈约二十分钟",
+  "朝向伶仃洋，可见远处的桥与海岸",
+  "夜间有灯光秀，从步道看是另一个角度"
+ ],
+ "location": {
+  "point": {
+   "lng": 113.887925,
+   "lat": 22.541133,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:30-22:00（以官方公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约150元起，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 60-150 分钟",
-    "durationMinutes": [
-      60,
-      150
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "couple",
-    "family",
-    "kids"
+  "address": "深圳市宝安区宝兴路欢乐港湾（湾区之光摩天轮）",
+  "district": "宝安区",
+  "transportTip": "地铁1号线/5号线宝安中心站换乘公交或步行"
+ },
+ "practical": {
+  "openHours": "约10:30-22:00（以官方公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约150元起，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 60-150 分钟",
+  "durationMinutes": [
+   60,
+   150
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "摩天轮",
-    "海景",
-    "夜景"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "family",
+  "kids"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "摩天轮",
+  "海景",
+  "夜景"
+ ],
+ "popularity": 86,
+ "sources": [
+  {
+   "title": "百度百科·湾区之光",
+   "url": "https://baike.baidu.com/item/%E6%B9%BE%E5%8C%BA%E4%B9%8B%E5%85%89%E6%91%A9%E5%A4%A9%E8%BD%AE",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-24"
+  }
+ ],
+ "updatedAt": "2026-11-10",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "欢乐港湾·湾区之光摩天轮"
+ },
+ "_geocodeTitle": "欢乐港湾·湾区之光摩天轮",
+ "_geocodeSuspect": false,
+ "district": "440306",
+ "_noImage": true,
+ "review": {
+  "score": 3.65,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "视角",
+    "score": 4.0,
+    "note": "朝伶仃洋，天好能望到远处的桥"
+   },
+   {
+    "label": "时长",
+    "score": 2.5,
+    "note": "转一圈约二十分钟，内容就这些"
+   },
+   {
+    "label": "性价比",
+    "score": 2.5,
+    "note": "约 150 元起，节假日排队久"
+   },
+   {
+    "label": "夜景",
+    "score": 4.5,
+    "note": "从海边步道看灯光更好，还免费"
+   }
   ],
-  "popularity": 86,
-  "sources": [
-    {
-      "title": "百度百科·湾区之光",
-      "url": "https://baike.baidu.com/item/%E6%B9%BE%E5%8C%BA%E4%B9%8B%E5%85%89%E6%91%A9%E5%A4%A9%E8%BD%AE",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-24"
-    }
+  "body": "二十分钟的体验，价格不便宜。轿厢朝伶仃洋，天气通透时能看到远处的桥与海岸线，日落那一趟最值。但一圈就二十分钟，内容单薄，一百五十元起会觉得贵；节假日排队的时间比坐的时间长。其实不坐也能看——夜里从旁边的滨海步道望过去，灯光比在轿厢里更好看，还不用排队。",
+  "basis": "corpus",
+  "at": "2026-11-10",
+  "fits": [
+   "情侣",
+   "带娃",
+   "拍夜景"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "欢乐港湾·湾区之光摩天轮"
-  },
-  "_geocodeTitle": "欢乐港湾·湾区之光摩天轮",
-  "_geocodeSuspect": false,
-  "district": "440306",
-  "_noImage": true
+  "avoid": [
+   "怕高",
+   "赶时间",
+   "预算紧"
+  ],
+  "sources": []
+ }
 }

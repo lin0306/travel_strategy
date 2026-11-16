@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "重庆市渝中区民权路",
-    "district": "南岸",
+    "district": "渝中",
     "transportTip": "轨道交通 2 号线临江门站或 1/6 号线小什字站，步行约 5 分钟"
   },
   "practical": {
@@ -133,7 +133,7 @@
       "fetchedAt": "2026-09-19"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -141,5 +141,42 @@
   },
   "_geocodeTitle": "解放碑",
   "_geocodeSuspect": false,
-  "district": "500108"
+  "district": "500103",
+  "review": {
+    "score": 4.0,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "地标",
+        "score": 4.5,
+        "note": "城市原点，抗战胜利纪念碑"
+      },
+      {
+        "label": "夜景",
+        "score": 4.5,
+        "note": "灯亮后都市感最强"
+      },
+      {
+        "label": "人流",
+        "score": 2.5,
+        "note": "入夜人山人海"
+      },
+      {
+        "label": "吃喝",
+        "score": 4.3,
+        "note": "八一路好吃街就在旁边"
+      }
+    ],
+    "body": "重庆的城市原点，碑本身不高，被四周摩天楼围着的尺度对比很有冲击力，晚上灯亮起来是这座城最都市的一面。可惜人是真的多，拍照很难避开人头，周边商业气息也重，逛十几分钟就想撤。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "夜景",
+      "吃喝"
+    ],
+    "avoid": [
+      "怕人多"
+    ],
+    "sources": []
+  }
 }

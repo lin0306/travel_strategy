@@ -1,66 +1,104 @@
 {
-  "id": "qinyun-laotaipo-noodles",
-  "name": "秦云老太婆摊摊面",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "从街边摊做起来的小面品牌，辣度实在，本地人认。",
-  "description": "秦云老太婆摊摊面最早是摊主在路边支摊卖面，因为味道扎实渐渐做成了连锁。它的特点是佐料给得足、辣度不打折，麻辣味整体偏重，适合已经适应重庆辣度的人。招牌是摊摊面（素面）与杂酱面，面条偏细，入口滑。店里翻台很快，端着碗找位是常态，别指望安静地坐下来慢慢吃。",
-  "highlights": [
-    "从街边摊做起的本地品牌",
-    "佐料足，辣度实在",
-    "翻台快，适合快吃"
-  ],
-  "location": {
-    "point": {
-      "lng": 106.565812,
-      "lat": 29.554976,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "重庆市多区有店（以门店公告为准）",
-    "district": "渝中",
-    "transportTip": "各分店位置不同，建议先查门店再出发"
+ "id": "qinyun-laotaipo-noodles",
+ "name": "秦云老太婆摊摊面",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "从街边摊做起来的小面品牌，辣度实在，本地人认。",
+ "description": "秦云老太婆摊摊面最早是摊主在路边支摊卖面，因为味道扎实渐渐做成了连锁。它的特点是佐料给得足、辣度不打折，麻辣味整体偏重，适合已经适应重庆辣度的人。招牌是摊摊面（素面）与杂酱面，面条偏细，入口滑。店里翻台很快，端着碗找位是常态，别指望安静地坐下来慢慢吃。",
+ "highlights": [
+  "从街边摊做起的本地品牌",
+  "佐料足，辣度实在",
+  "翻台快，适合快吃"
+ ],
+ "location": {
+  "point": {
+   "lng": 106.565812,
+   "lat": 29.554976,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 07:00-21:00（以门店公告为准）",
-    "openHoursRef": 0,
-    "ticket": "人均约 15 元起（以门店为准）",
-    "ticketRef": 0,
-    "duration": "建议 30-45 分钟",
-    "durationMinutes": [
-      30,
-      45
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "solo"
+  "address": "重庆市多区有店（以门店公告为准）",
+  "district": "渝中",
+  "transportTip": "各分店位置不同，建议先查门店再出发"
+ },
+ "practical": {
+  "openHours": "约 07:00-21:00（以门店公告为准）",
+  "openHoursRef": 0,
+  "ticket": "人均约 15 元起（以门店为准）",
+  "ticketRef": 0,
+  "duration": "建议 30-45 分钟",
+  "durationMinutes": [
+   30,
+   45
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "小面",
-    "老字号",
-    "重辣"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "小面",
+  "老字号",
+  "重辣"
+ ],
+ "popularity": 80,
+ "sources": [
+  {
+   "title": "百度百科·重庆小面",
+   "url": "https://baike.baidu.com/item/%E9%87%8D%E5%BA%86%E5%B0%8F%E9%9D%A2",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "秦云老太婆摊摊面"
+ },
+ "_geocodeTitle": "秦云老太婆摊摊面",
+ "_geocodeSuspect": false,
+ "district": "500103",
+ "_noImage": true,
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.0,
+    "note": "佐料足、辣度不打折"
+   },
+   {
+    "label": "价格",
+    "score": 4.5,
+    "note": "人均十几块"
+   },
+   {
+    "label": "环境",
+    "score": 2.6,
+    "note": "嘈杂，端着碗找位是常态"
+   },
+   {
+    "label": "稳定性",
+    "score": 3.2,
+    "note": "连锁之后各店水平不太一致"
+   }
   ],
-  "popularity": 80,
-  "sources": [
-    {
-      "title": "百度百科·重庆小面",
-      "url": "https://baike.baidu.com/item/%E9%87%8D%E5%BA%86%E5%B0%8F%E9%9D%A2",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
+  "body": "从路边摊做起来的品牌，佐料给得足、辣度不打折，摊摊面和杂酱面是招牌，面条偏细、入口滑，本地人认这个味。缺点是连锁之后各店水平不太一致，赶上出品马虎的店会觉得名不副实；店里翻台快、很吵，端着碗找位是常态。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "早餐",
+   "独自快吃"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "秦云老太婆摊摊面"
-  },
-  "_geocodeTitle": "秦云老太婆摊摊面",
-  "_geocodeSuspect": false,
-  "district": "500103",
-  "_noImage": true
+  "avoid": [
+   "怕辣",
+   "安静就餐"
+  ],
+  "sources": []
+ }
 }

@@ -101,6 +101,54 @@ export const POI_VIEW_PAD = 0.6
  */
 export const FACE_VIEW_PAD = 2
 
+/**
+ * **作用域** —— 「我现在在看哪一片」。
+ *
+ * ## 它解决什么（2026-11-14 用户）
+ * > 「现在不管什么情况，地图轮廓都显示，这个显示逻辑调整一下，比如点省了，
+ * >   就只显示那个省的数据和轮廓」
+ *
+ * 修复前判据只有**视野**：`districts(level)` 返回该级的**全部**候选，再按视野筛。
+ * 首页点省之后镜头落在 z=7（揭示到市级），于是 `districts('city')` 拿的是
+ * **全国 367 个市** —— 陕西周边的甘肃、四川、河南、湖北的市，只要中心落在外扩
+ * （`DISTRICT_VIEW_PAD = 1`，面更是 `FACE_VIEW_PAD = 2`）范围内，就一起画上去了。
+ * 判据里**没有「用户刚点了陕西」这个维度**。
+ *
+ * ⇒ 作用域是这条缺掉的维度：节点集合**先按归属裁剪，再按视野裁剪**。
+ *
+ * ## 什么时候生效（= 「缩回全国自动放开」）
+ * 判据是 `revealed`（缩放说该到哪一级），不是最终的 `level`（可能回流）：
+ * **当前揭示级别必须比作用域单位自己更深**。于是：
+ *
+ * | 选中 | 生效于 | 放开于 |
+ * |------|--------|--------|
+ * | 省 | `level ≥ city`（首页点省 z=7） | 缩回省级（z<6.5，整张中国地图只剩一片有轮廓会很怪） |
+ * | 市 | `level ≥ district`（z=10.5） | 缩回市级（这时该看整省的市界） |
+ * | 区 | `level = poi`（z=12） | 缩回区级（这时该看周边几个区） |
+ *
+ * ★ 不用最终的 `level` 判：它会因"视野内没有下级节点"而回流，用它会让作用域
+ *   在"刚好没有内容"的地方自己放开、再关上，轮廓闪一下。
+ */
+export interface RevealScope {
+  /** 选中单位的 adcode（省 / 市 / 区都是 6 位） */
+  adcode: string
+  /** 它**自己**属于哪一级 —— 决定"这个单位的自身轮廓"要去问哪一级的文件 */
+  level: 'province' | 'city' | 'district'
+}
+
+/**
+ * 这个 adcode 是否落在作用域内。
+ *
+ * 段式前缀判断（不是查表）：省 `610000` → `61`、市 `610100` → `6101`、
+ * 区 `610113` → 全 6 位。直辖市没有中间市层，`110101`.startsWith(`11`) 照样成立；
+ * `110000`（北京市 = 省级单位）也落进 `11`，所以点北京之后它自己不会被裁掉。
+ */
+export function inScope(adcode: string, scope: RevealScope | null | undefined): boolean {
+  if (!scope) return true
+  const keep = scope.level === 'province' ? 2 : scope.level === 'city' ? 4 : 6
+  return adcode.slice(0, keep) === scope.adcode.slice(0, keep)
+}
+
 /** 某一级的诊断行。**只给探针用**，不影响渲染 */
 export interface RevealTraceRow {
   level: MapLevel
@@ -146,6 +194,13 @@ export interface RevealDecision {
   faceLevel: MapLevel
   /** 该级要铺的点位候选（已按视野外扩粗筛）。**给多少由渲染层的聚合决定**，见 `poiLayer` */
   pois: PoiPoint[]
+  /**
+   * 这一屏**实际生效**的作用域（`null` = 没选中任何单位，或已缩回全国而放开）。
+   *
+   * 上层拿它去取「这个单位自身的轮廓」画一圈粗边 —— 光有下级节点的面，
+   * 省界只是各市外沿的拼合，与市界同粗，看不出"这一片是一个省"。
+   */
+  scope: RevealScope | null
   /** 数据未就绪：保持屏幕上现有的内容，别用空数组去 clear（会闪一帧白图） */
   pending: boolean
   trace: RevealTraceRow[]
@@ -167,9 +222,23 @@ export interface RevealSources {
  *
  * @param base 本页路由对应的基准层级：`/` → `province`、`/province/:adcode` → `city`。
  *             **无条件采用** —— 那是这一页的立身之本，哪怕视野里一个徽标都没有。
+ * @param scope 选中单位的作用域（见 `RevealScope`）。`null`/缺席 = 不裁，按老规矩只看视野。
  */
-export function decideReveal(base: MapLevel, view: Viewport, src: RevealSources): RevealDecision {
+export function decideReveal(
+  base: MapLevel,
+  view: Viewport,
+  src: RevealSources,
+  scope?: RevealScope | null,
+): RevealDecision {
   const revealed = deepestLevel(view.zoom, base)
+
+  /**
+   * ★ 生效判据用 `revealed`（纯缩放），**不用最终的 `level`** —— 后者会因
+   *   "视野内没有下级节点"而回流，拿它判会让作用域自己放开又关上（轮廓闪一下）。
+   *   表格见 `RevealScope`。
+   */
+  const active =
+    scope && LEVEL_ORDER.indexOf(revealed) > LEVEL_ORDER.indexOf(scope.level) ? scope : null
 
   const from = Math.max(0, LEVEL_ORDER.indexOf(base))
   const to = Math.max(from, LEVEL_ORDER.indexOf(revealed))
@@ -199,15 +268,16 @@ export function decideReveal(base: MapLevel, view: Viewport, src: RevealSources)
        *   区索引是全量的，任何缩放/视野下都拿得到；而 `loadBoundsForLevel` 对 `'poi'`
        *   直接返回 `null`（那一级没有"自身"的面）。两者必须一致，否则面取不回来。
        */
-      const faceNodes = (src.districts('district') ?? []).filter((n) =>
-        containsPoint(view, n, FACE_VIEW_PAD),
-      )
+      const faceNodes = (src.districts('district') ?? [])
+        // ★ 先按作用域裁，再按视野裁（顺序反了会把邻省的区留在外扩圈里）
+        .filter((n) => inScope(n.adcode, active))
+        .filter((n) => containsPoint(view, n, FACE_VIEW_PAD))
       const faces = { faces: faceNodes, faceLevel: 'district' as MapLevel }
 
       if (all == null) {
         // 未就绪 ≠ 没有。乐观通过交给外层去读数据，但本轮**不动图层**（pending）
         trace.push({ level, inView: -1, taken: true })
-        return { level, revealed, districts: [], pois: [], pending: true, ...faces, trace }
+        return { level, revealed, districts: [], pois: [], pending: true, ...faces, scope: active, trace }
       }
 
       /**
@@ -237,11 +307,12 @@ export function decideReveal(base: MapLevel, view: Viewport, src: RevealSources)
         pois: all.filter((p) => containsPoint(view, p, POI_VIEW_PAD)),
         pending: false,
         ...faces,
+        scope: active,
         trace,
       }
     }
 
-    const all = src.districts(level) ?? []
+    const all = (src.districts(level) ?? []).filter((n) => inScope(n.adcode, active))
     const nodes = all.filter((n) => containsPoint(view, n, DISTRICT_VIEW_PAD))
     trace.push({ level, inView: nodes.length, taken: nodes.length > 0 || atBase })
 
@@ -254,12 +325,12 @@ export function decideReveal(base: MapLevel, view: Viewport, src: RevealSources)
       const faces = nodes.length === 0
         ? []
         : all.filter((n) => containsPoint(view, n, FACE_VIEW_PAD))
-      return { level, revealed, districts: nodes, pois: [], pending: false, faces, faceLevel: level, trace }
+      return { level, revealed, districts: nodes, pois: [], pending: false, faces, faceLevel: level, scope: active, trace }
     }
     // ← 回流：视野里一个市徽标都没有，退回省徽标，而不是摆一张空地图
   }
 
   // 走不到这里（`atBase` 那一轮一定 return）。留一个安全的收口，
   // 免得将来有人改 `LEVEL_ORDER` 时静默返回 undefined。
-  return { level: base, revealed, districts: [], pois: [], pending: false, faces: [], faceLevel: base, trace }
+  return { level: base, revealed, districts: [], pois: [], pending: false, faces: [], faceLevel: base, scope: active, trace }
 }

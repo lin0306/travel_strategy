@@ -1,143 +1,182 @@
 {
-  "id": "shaoshan-liushaoqi",
-  "name": "刘少奇故里",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "宁乡花明楼的故居与纪念馆，一组建于晚清的农家院落。",
-  "description": "刘少奇故里在宁乡市花明楼镇炭子冲，离长沙市区六十公里上下。故居是一组晚清的农家院落，土砖墙、小青瓦，前有池塘后有山，屋里按当年住的样子陈设，堂屋、卧室、厨房、农具房都还在。故居旁边的纪念馆陈列生平照片与实物，外面是纪念广场与一段林荫道。整个景区面积不小，从游客中心走到故居要十几分钟，里面有电瓶车。参观免费，要预约或凭证件领票，具体以官方公告为准。它和韶山在两个方向，两地之间开车约一小时，安排时别挤在同一天。",
-  "highlights": [
-    "晚清农家院落，堂屋卧室厨房按原样陈设",
-    "宁乡花明楼炭子冲，距市区六十公里",
-    "免费参观，需预约或凭证件领票"
-  ],
-  "location": {
-    "point": {
-      "lng": 112.649568,
-      "lat": 28.037249,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "湖南省长沙市宁乡市花明楼镇炭子冲",
-    "district": "宁乡市",
-    "transportTip": "长沙市区自驾约一小时二十分钟；或汽车西站乘班车至花明楼"
+ "id": "shaoshan-liushaoqi",
+ "name": "刘少奇故里",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "宁乡花明楼的故居与纪念馆，一组建于晚清的农家院落。",
+ "description": "刘少奇故里在宁乡市花明楼镇炭子冲，离长沙市区六十公里上下。故居是一组晚清的农家院落，土砖墙、小青瓦，前有池塘后有山，屋里按当年住的样子陈设，堂屋、卧室、厨房、农具房都还在。故居旁边的纪念馆陈列生平照片与实物，外面是纪念广场与一段林荫道。整个景区面积不小，从游客中心走到故居要十几分钟，里面有电瓶车。参观免费，要预约或凭证件领票，具体以官方公告为准。它和韶山在两个方向，两地之间开车约一小时，安排时别挤在同一天。",
+ "highlights": [
+  "晚清农家院落，堂屋卧室厨房按原样陈设",
+  "宁乡花明楼炭子冲，距市区六十公里",
+  "免费参观，需预约或凭证件领票"
+ ],
+ "location": {
+  "point": {
+   "lng": 112.649568,
+   "lat": 28.037249,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:30-17:00（周一或假日安排以公告为准），以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费（需预约），以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "free"
+  "address": "湖南省长沙市宁乡市花明楼镇炭子冲",
+  "district": "宁乡市",
+  "transportTip": "长沙市区自驾约一小时二十分钟；或汽车西站乘班车至花明楼"
+ },
+ "practical": {
+  "openHours": "约08:30-17:00（周一或假日安排以公告为准），以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "免费（需预约），以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "elders",
+  "family",
+  "kids"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C-%E7%89%8C%E5%9D%8A_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C-%E7%89%8C%E5%9D%8A_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 810,
+   "alt": "刘少奇故里-牌坊 - panoramio.jpg",
+   "query": "刘少奇故里 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "蒋鹏飞",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C-%E7%89%8C%E5%9D%8A_-_panoramio.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "elders",
-    "family",
-    "kids"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C-%E7%89%8C%E5%9D%8A_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C-%E7%89%8C%E5%9D%8A_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 810,
-      "alt": "刘少奇故里-牌坊 - panoramio.jpg",
-      "query": "刘少奇故里 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "蒋鹏飞",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C-%E7%89%8C%E5%9D%8A_-_panoramio.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio.jpg/1280px-%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio.jpg/1280px-%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 817,
-      "alt": "刘少奇故里 - panoramio.jpg",
-      "query": "刘少奇故里 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "gdczjkk",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio_%281%29.jpg/1280px-%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio_%281%29.jpg/1280px-%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 817,
-      "alt": "刘少奇故里 - panoramio (1).jpg",
-      "query": "刘少奇故里 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "gdczjkk",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio_(1).jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/%E5%88%98%E5%B0%91%E5%A5%87%E4%B8%BB%E5%B8%AD%E6%95%85%E9%87%8C_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/%E5%88%98%E5%B0%91%E5%A5%87%E4%B8%BB%E5%B8%AD%E6%95%85%E9%87%8C_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 810,
-      "alt": "刘少奇主席故里 - panoramio.jpg",
-      "query": "刘少奇故里 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "蒋鹏飞",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%88%98%E5%B0%91%E5%A5%87%E4%B8%BB%E5%B8%AD%E6%95%85%E9%87%8C_-_panoramio.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/%E6%B9%96%E5%8D%97-%E6%B9%98%E6%BD%AD%E9%9F%B6%E5%B1%B1%E5%B8%82.%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio.jpg/1280px-%E6%B9%96%E5%8D%97-%E6%B9%98%E6%BD%AD%E9%9F%B6%E5%B1%B1%E5%B8%82.%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/%E6%B9%96%E5%8D%97-%E6%B9%98%E6%BD%AD%E9%9F%B6%E5%B1%B1%E5%B8%82.%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio.jpg/1280px-%E6%B9%96%E5%8D%97-%E6%B9%98%E6%BD%AD%E9%9F%B6%E5%B1%B1%E5%B8%82.%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "湖南-湘潭韶山市.刘少奇故里 - panoramio.jpg",
-      "query": "刘少奇故里",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nyx Ning",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B9%96%E5%8D%97-%E6%B9%98%E6%BD%AD%E9%9F%B6%E5%B1%B1%E5%B8%82.%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "故居",
-    "纪念馆",
-    "宁乡"
-  ],
-  "popularity": 80,
-  "sources": [
-    {
-      "title": "百度百科·刘少奇故居",
-      "url": "https://baike.baidu.com/item/%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E5%B1%85",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "刘少奇故里"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio.jpg/1280px-%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio.jpg/1280px-%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 817,
+   "alt": "刘少奇故里 - panoramio.jpg",
+   "query": "刘少奇故里 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "gdczjkk",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "刘少奇故里",
-  "_geocodeSuspect": false,
-  "district": "430182"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio_%281%29.jpg/1280px-%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio_%281%29.jpg/1280px-%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 817,
+   "alt": "刘少奇故里 - panoramio (1).jpg",
+   "query": "刘少奇故里 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "gdczjkk",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio_(1).jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/%E5%88%98%E5%B0%91%E5%A5%87%E4%B8%BB%E5%B8%AD%E6%95%85%E9%87%8C_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/%E5%88%98%E5%B0%91%E5%A5%87%E4%B8%BB%E5%B8%AD%E6%95%85%E9%87%8C_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 810,
+   "alt": "刘少奇主席故里 - panoramio.jpg",
+   "query": "刘少奇故里 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "蒋鹏飞",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%88%98%E5%B0%91%E5%A5%87%E4%B8%BB%E5%B8%AD%E6%95%85%E9%87%8C_-_panoramio.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/%E6%B9%96%E5%8D%97-%E6%B9%98%E6%BD%AD%E9%9F%B6%E5%B1%B1%E5%B8%82.%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio.jpg/1280px-%E6%B9%96%E5%8D%97-%E6%B9%98%E6%BD%AD%E9%9F%B6%E5%B1%B1%E5%B8%82.%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/%E6%B9%96%E5%8D%97-%E6%B9%98%E6%BD%AD%E9%9F%B6%E5%B1%B1%E5%B8%82.%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio.jpg/1280px-%E6%B9%96%E5%8D%97-%E6%B9%98%E6%BD%AD%E9%9F%B6%E5%B1%B1%E5%B8%82.%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "湖南-湘潭韶山市.刘少奇故里 - panoramio.jpg",
+   "query": "刘少奇故里",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nyx Ning",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B9%96%E5%8D%97-%E6%B9%98%E6%BD%AD%E9%9F%B6%E5%B1%B1%E5%B8%82.%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E9%87%8C_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "故居",
+  "纪念馆",
+  "宁乡"
+ ],
+ "popularity": 80,
+ "sources": [
+  {
+   "title": "百度百科·刘少奇故居",
+   "url": "https://baike.baidu.com/item/%E5%88%98%E5%B0%91%E5%A5%87%E6%95%85%E5%B1%85",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "刘少奇故里"
+ },
+ "_geocodeTitle": "刘少奇故里",
+ "_geocodeSuspect": false,
+ "district": "430182",
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "历史分量",
+    "score": 4.3,
+    "note": "晚清农家院落原样陈设，配生平陈列"
+   },
+   {
+    "label": "交通",
+    "score": 2.8,
+    "note": "距市区六十公里，公共交通不便"
+   },
+   {
+    "label": "配套",
+    "score": 3.4,
+    "note": "园区大，靠电瓶车串联"
+   },
+   {
+    "label": "时长",
+    "score": 3.5,
+    "note": "半天起步"
+   }
+  ],
+  "body": "晚清农家院落按原样陈设，堂屋、卧室、厨房、农具房都在，配纪念馆看生平，免费但要预约。缺点是距长沙市区六十公里、公共交通不便，和韶山方向相反，一天里硬塞两处会很赶。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "自驾",
+   "红色研学",
+   "带长辈"
+  ],
+  "avoid": [
+   "与韶山同日安排",
+   "无车"
+  ],
+  "sources": []
+ }
 }

@@ -1,73 +1,111 @@
 {
-  "id": "nanning-zoo",
-  "name": "南宁动物园",
-  "category": "scenic",
-  "subtype": "park",
-  "summary": "老牌动物园，白虎和海豚表演是招牌。",
-  "description": "南宁动物园在西乡塘区，是城区主要的动物园，以白虎种群和海洋表演出名，是很多南宁家庭遛娃的去处。园里动物种类多，场馆偏传统，节奏轻松。它与广西大学离得近，周边是大学城的生活圈。周末亲子家庭多，停车紧张。适合安排一个不累的半天。",
-  "highlights": [
-    "以白虎种群和海洋表演出名",
-    "城区主要遛娃动物园",
-    "周末人多停车紧"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.268284,
-      "lat": 22.834894,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市西乡塘区大学东路73号",
-    "district": "西乡塘区",
-    "transportTip": "地铁1号线动物园站步行",
-    "entrance": {
-      "lng": 108.269048,
-      "lat": 22.837229,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "nanning-zoo",
+ "name": "南宁动物园",
+ "category": "scenic",
+ "subtype": "park",
+ "summary": "老牌动物园，白虎和海豚表演是招牌。",
+ "description": "南宁动物园在西乡塘区，是城区主要的动物园，以白虎种群和海洋表演出名，是很多南宁家庭遛娃的去处。园里动物种类多，场馆偏传统，节奏轻松。它与广西大学离得近，周边是大学城的生活圈。周末亲子家庭多，停车紧张。适合安排一个不累的半天。",
+ "highlights": [
+  "以白虎种群和海洋表演出名",
+  "城区主要遛娃动物园",
+  "周末人多停车紧"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.268284,
+   "lat": 22.834894,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约09:30-17:30，以园区公告为准",
-    "openHoursRef": 0,
-    "ticket": "约50元起，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 120-180 分钟",
-    "durationMinutes": [
-      120,
-      180
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "kids",
-    "family",
-    "solo"
+  "address": "南宁市西乡塘区大学东路73号",
+  "district": "西乡塘区",
+  "transportTip": "地铁1号线动物园站步行",
+  "entrance": {
+   "lng": 108.269048,
+   "lat": 22.837229,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约09:30-17:30，以园区公告为准",
+  "openHoursRef": 0,
+  "ticket": "约50元起，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 120-180 分钟",
+  "durationMinutes": [
+   120,
+   180
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "动物园",
-    "亲子",
-    "白虎"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "kids",
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "动物园",
+  "亲子",
+  "白虎"
+ ],
+ "popularity": 84,
+ "sources": [
+  {
+   "title": "百度百科·南宁动物园",
+   "url": "https://baike.baidu.com/item/%E5%8D%97%E5%AE%81%E5%8A%A8%E7%89%A9%E5%9B%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "南宁动物园"
+ },
+ "_geocodeTitle": "南宁动物园",
+ "_geocodeSuspect": false,
+ "district": "450107",
+ "_noImage": true,
+ "review": {
+  "score": 3.8,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "亲子",
+    "score": 4.4,
+    "note": "白虎种群和海洋表演是招牌，遛娃主力"
+   },
+   {
+    "label": "动物",
+    "score": 4.0,
+    "note": "种类多，白虎是最大看点"
+   },
+   {
+    "label": "场馆",
+    "score": 3.0,
+    "note": "老园子，笼舍偏传统，部分区域显旧"
+   },
+   {
+    "label": "人流",
+    "score": 2.8,
+    "note": "周末亲子家庭扎堆，停车紧张"
+   }
   ],
-  "popularity": 84,
-  "sources": [
-    {
-      "title": "百度百科·南宁动物园",
-      "url": "https://baike.baidu.com/item/%E5%8D%97%E5%AE%81%E5%8A%A8%E7%89%A9%E5%9B%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "南宁动物园的招牌是白虎种群和海洋动物表演，对小朋友吸引力稳定，是本地家庭周末的常规选项。园子在城区，地铁能到，安排半天不累。短板也明显：老牌动物园的笼舍格局偏传统，观赏靠围栏和玻璃，走起来像逛展柜；表演场次人多时提前占位才有好视角，散场后周边通道会很挤。票价和园内小项目另计，带娃一天下来花费不算低。想看珍稀猫科动物值得来，想看沉浸式野生动物园那种体验的不必抱期待。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "带小孩",
+   "半天行程"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "南宁动物园"
-  },
-  "_geocodeTitle": "南宁动物园",
-  "_geocodeSuspect": false,
-  "district": "450107",
-  "_noImage": true
+  "avoid": [
+   "期待沉浸式野生动物园",
+   "怕人多"
+  ],
+  "sources": []
+ }
 }

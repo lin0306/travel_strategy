@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "重庆市渝中区新华路（北站）/南岸区上新街（南站）",
-    "district": "南岸",
+    "district": "渝中",
     "transportTip": "轨道交通 1/6 号线小什字站，步行约 8 分钟"
   },
   "practical": {
@@ -130,7 +130,7 @@
       }
     }
   ],
-  "coverIndex": 0,
+  "coverIndex": 3,
   "tags": [
     "索道",
     "过江",
@@ -143,9 +143,15 @@
       "url": "https://baike.baidu.com/item/%E9%95%BF%E6%B1%9F%E7%B4%A2%E9%81%93",
       "kind": "wiki",
       "fetchedAt": "2026-09-19"
+    },
+    {
+      "title": "P3 看图：原封面第 0 张只有江面与天际线、看不到索道；第 3 张车厢、缆索、",
+      "url": "https://commons.wikimedia.org/wiki/File:%E9%87%8D%E5%BA%86_%E9%95%BF%E6%B1%9F%E4%B8%8A%E7%9A%84%E6%B8%A1%E6%B1%9F%E7%B4%A2%E9%81%932.jpg",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -153,5 +159,55 @@
   },
   "_geocodeTitle": "重庆长江索道景区游客中心",
   "_geocodeSuspect": false,
-  "district": "500108"
+  "district": "500103",
+  "_patrol": {
+    "at": "2026-11-14",
+    "changes": [
+      {
+        "field": "封面序号",
+        "old": 0,
+        "new": 3
+      }
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:%E9%87%8D%E5%BA%86_%E9%95%BF%E6%B1%9F%E4%B8%8A%E7%9A%84%E6%B8%A1%E6%B1%9F%E7%B4%A2%E9%81%932.jpg",
+    "reason": "P3 看图：原封面第 0 张只有江面与天际线、看不到索道；第 3 张车厢、缆索、渝中天际线齐全（Wikimedia，CC），换作封面"
+  },
+  "review": {
+    "score": 4.2,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "视野",
+        "score": 4.6,
+        "note": "空中横跨长江，渝中楼群与江面船只一览"
+      },
+      {
+        "label": "排队",
+        "score": 2.5,
+        "note": "旺季等一两个小时不稀奇"
+      },
+      {
+        "label": "时长",
+        "score": 3.0,
+        "note": "真正在轿厢里只有几分钟"
+      },
+      {
+        "label": "票价",
+        "score": 3.5,
+        "note": "单程三十元左右，往返要另算"
+      }
+    ],
+    "body": "从空中横跨长江，几分钟就把渝中半岛的楼群和江上船只看一遍，这个角度看重庆是别处给不了的。可惜排队常常比乘坐久，旺季等一两个小时很常见。建议清晨来，或者只坐单程、回程换地铁，别把半天耗在队伍里。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "第一次来重庆",
+      "拍照"
+    ],
+    "avoid": [
+      "节假日高峰",
+      "怕排队"
+    ],
+    "sources": []
+  }
 }

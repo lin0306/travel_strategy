@@ -1,6 +1,6 @@
 # 敦煌 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-06
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Sigismund von Dobschütz | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dunhuang-03.JPG) |
-| 城市封面 | Sigismund von Dobschütz | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dunhuang-06.JPG) |
-| 城市封面 | Hanno Böck | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dunhuang-mandolin-statue.jpg) |
+| 城市封面 | N509FZ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Caves_16-17_of_Mogao_Grottoes_(20230918142815).jpg) |
+| 城市封面 | Roy kiki | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Crescent_Spring.JPG) |
+| 城市封面 | Hiroki Ogawa | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mogao_Caves_Dunhuang_Gansu_China_%E6%95%A6%E7%85%8C_%E8%8E%AB%E9%AB%98%E7%AA%9F_-_panoramio_(16).jpg) |
 | 白马塔 | RexCoder | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%95%A6%E7%85%8C%E7%99%BD%E9%A9%AC%E5%A1%9401.jpg) |
 | 白马塔 | RexCoder | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%95%A6%E7%85%8C%E7%99%BD%E9%A9%AC%E5%A1%9402.jpg) |
 | 白马塔 | RexCoder | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%95%A6%E7%85%8C%E7%99%BD%E9%A9%AC%E5%A1%9403.jpg) |

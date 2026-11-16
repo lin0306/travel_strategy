@@ -1,67 +1,106 @@
 {
-  "id": "yantian-seafood-street",
-  "name": "盐田海鲜食街",
-  "category": "food",
-  "subtype": "local",
-  "summary": "避风塘一侧的一整条海鲜街：选完料当场做，多数店的价格是明码写在缸上的。",
-  "description": "盐田墟一带是这一片最早的渔村与码头。避风塘外侧的这条海鲜食街是它后来的样子。它的做法是选看：沿街一排缸与池，看上什么就让店里捞起来过秤，加工方式现场说。常见的品类是东星斑、赖尿虾、花蟹、各种螺与贝。因为靠近盐田港,冰鲜与活鲜的流转都快。这一排的价格与做法各家有差别，进店前先看一眼菜单。它与盐田海滨栈道、中英街在同一侧，可以排在一天里。",
-  "highlights": [
-    "先看料后加工的海鲜街做法",
-    "靠近盐田港，海鲜流转快",
-    "与盐田海滨栈道、中英街在同一侧"
-  ],
-  "location": {
-    "point": {
-      "lng": 114.278205,
-      "lat": 22.584785,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "深圳市盐田区盐梅路盐田海鲜食街",
-    "district": "盐田区",
-    "transportTip": "地铁8号线盐田路站换乘公交或步行"
+ "id": "yantian-seafood-street",
+ "name": "盐田海鲜食街",
+ "category": "food",
+ "subtype": "local",
+ "summary": "避风塘一侧的一整条海鲜街：选完料当场做，多数店的价格是明码写在缸上的。",
+ "description": "盐田墟一带是这一片最早的渔村与码头。避风塘外侧的这条海鲜食街是它后来的样子。它的做法是选看：沿街一排缸与池，看上什么就让店里捞起来过秤，加工方式现场说。常见的品类是东星斑、赖尿虾、花蟹、各种螺与贝。因为靠近盐田港,冰鲜与活鲜的流转都快。这一排的价格与做法各家有差别，进店前先看一眼菜单。它与盐田海滨栈道、中英街在同一侧，可以排在一天里。",
+ "highlights": [
+  "先看料后加工的海鲜街做法",
+  "靠近盐田港，海鲜流转快",
+  "与盐田海滨栈道、中英街在同一侧"
+ ],
+ "location": {
+  "point": {
+   "lng": 114.278205,
+   "lat": 22.584785,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:30-22:00（以各店公告为准）",
-    "openHoursRef": 0,
-    "ticket": "按海鲜与加工方式计价，以门店为准",
-    "ticketRef": 0,
-    "duration": "建议 90-210 分钟",
-    "durationMinutes": [
-      90,
-      210
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "friends",
-    "family"
+  "address": "深圳市盐田区盐梅路盐田海鲜食街",
+  "district": "盐田区",
+  "transportTip": "地铁8号线盐田路站换乘公交或步行"
+ },
+ "practical": {
+  "openHours": "约10:30-22:00（以各店公告为准）",
+  "openHoursRef": 0,
+  "ticket": "按海鲜与加工方式计价，以门店为准",
+  "ticketRef": 0,
+  "duration": "建议 90-210 分钟",
+  "durationMinutes": [
+   90,
+   210
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "海鲜",
-    "美食街",
-    "本地"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "海鲜",
+  "美食街",
+  "本地"
+ ],
+ "popularity": 74,
+ "sources": [
+  {
+   "title": "百度百科·盐田海鲜街",
+   "url": "https://baike.baidu.com/item/%E7%9B%90%E7%94%B0%E5%A2%9F",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-24"
+  }
+ ],
+ "updatedAt": "2026-11-10",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "盐田海鲜食街"
+ },
+ "_geocodeTitle": "盐田海鲜食街",
+ "_geocodeSuspect": false,
+ "district": "440308",
+ "_noImage": true,
+ "review": {
+  "score": 3.8,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "新鲜度",
+    "score": 4.5,
+    "note": "挨着盐田港，冰鲜活鲜流转快"
+   },
+   {
+    "label": "价格",
+    "score": 2.5,
+    "note": "各家时价差异大，进店先问加工费"
+   },
+   {
+    "label": "做法",
+    "score": 4.0,
+    "note": "看缸选料，捞起来过秤，加工方式现场说"
+   },
+   {
+    "label": "环境",
+    "score": 3.5,
+    "note": "避风塘外侧一整排，大排档气质"
+   }
   ],
-  "popularity": 74,
-  "sources": [
-    {
-      "title": "百度百科·盐田海鲜街",
-      "url": "https://baike.baidu.com/item/%E7%9B%90%E7%94%B0%E5%A2%9F",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-24"
-    }
+  "body": "避风塘外侧的一整条海鲜街，做法是「选看」：沿街一排缸与池，看上什么让店里捞起来过秤，加工方式现场说。因为挨着盐田港，冰鲜与活鲜流转快，虾蟹贝类的新鲜度是它最大的本钱。问题是价格：各家差异大、时价不透明，进店前一定先看菜单问清加工费，不然结账容易超预期。与盐田栈道、中英街在同一侧，可以排进一天。",
+  "basis": "corpus",
+  "at": "2026-11-10",
+  "fits": [
+   "吃海鲜",
+   "配栈道走一天",
+   "本地口味"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "盐田海鲜食街"
-  },
-  "_geocodeTitle": "盐田海鲜食街",
-  "_geocodeSuspect": false,
-  "district": "440308",
-  "_noImage": true
+  "avoid": [
+   "不想问价",
+   "预算固定"
+  ],
+  "sources": []
+ }
 }

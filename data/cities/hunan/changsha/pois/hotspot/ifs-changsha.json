@@ -16,8 +16,8 @@
       "lat": 28.19191,
       "coordSystem": "GCJ-02"
     },
-    "address": "湖南省长沙市芙蓉区黄兴路88号",
-    "district": "天心区",
+    "address": "湖南省长沙市芙蓉区解放西路188号",
+    "district": "芙蓉区",
     "transportTip": "地铁1号线或2号线五一广场站，站内可直达"
   },
   "practical": {
@@ -144,9 +144,21 @@
       "url": "https://baike.baidu.com/item/%E9%95%BF%E6%B2%99%E5%9B%BD%E9%99%85%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83",
       "kind": "wiki",
       "fetchedAt": "2026-09-28"
+    },
+    {
+      "title": "长沙芙蓉区官方春节攻略：长沙IFS在解放西路188号，属芙蓉区",
+      "url": "https://m.toutiao.com/article/7606534469121491491",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
+    },
+    {
+      "title": "长沙芙蓉区官方春节攻略：长沙IFS在解放西路188号，属芙蓉区（二次）",
+      "url": "https://m.toutiao.com/article/7606534469121491491",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -154,5 +166,50 @@
   },
   "_geocodeTitle": "长沙国际金融中心",
   "_geocodeSuspect": false,
-  "district": "430103"
+  "district": "430102",
+  "review": {
+    "score": 3.9,
+    "verdict": "顺路看看",
+    "facets": [
+      {
+        "label": "拍照",
+        "score": 4.2,
+        "note": "楼顶坐姿雕塑晚上打光更好看"
+      },
+      {
+        "label": "逛街",
+        "score": 3.2,
+        "note": "常规高端综合体"
+      },
+      {
+        "label": "人流",
+        "score": 2.2,
+        "note": "节假日机位要等"
+      }
+    ],
+    "body": "楼顶那两尊背靠背的坐姿雕塑是这一带被拍得最多的画面，从街上抬头就能看见，晚上打光以后更好看。商场本身是常规的高端综合体，牌子与餐饮都齐。缺点是除了雕塑没有别的非来不可的理由，为一个机位专程跑一趟不值；周末与节假日人流大，观景拍照的位置要等；顶层餐饮价格不低。逛街顺路上楼拍一张就够。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "拍照",
+      "逛街"
+    ],
+    "avoid": [
+      "专程打卡",
+      "购物预算紧"
+    ],
+    "sources": []
+  },
+  "_patrol": {
+    "at": "2026-11-14",
+    "changes": [
+      {
+        "field": "所属区（自动同步 adcode）",
+        "old": "天心区/430103",
+        "new": "芙蓉区/430102"
+      }
+    ],
+    "source": "https://m.toutiao.com/article/7606534469121491491",
+    "reason": "长沙芙蓉区官方春节攻略：长沙IFS在解放西路188号，属芙蓉区（二次）"
+  }
 }

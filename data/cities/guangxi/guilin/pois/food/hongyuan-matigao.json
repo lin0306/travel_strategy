@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "广西壮族自治区桂林市灵川县宏源马蹄糕",
-    "district": "叠彩区",
+    "district": "灵川县",
     "transportTip": "桂林市区公交或网约车可达；在灵川县城一带"
   },
   "practical": {
@@ -55,7 +55,7 @@
       "fetchedAt": "2026-09-30"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-12",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,6 +63,38 @@
   },
   "_geocodeTitle": "宏源马蹄糕(南洲1号东区店)",
   "_geocodeSuspect": false,
-  "district": "450303",
-  "_noImage": true
+  "district": "450323",
+  "_noImage": true,
+  "review": {
+    "score": 3.3,
+    "verdict": "时间富余再说",
+    "facets": [
+      {
+        "label": "口感",
+        "score": 4.0,
+        "note": "半透明、弹而脆，放凉了更好吃"
+      },
+      {
+        "label": "顺路度",
+        "score": 1.8,
+        "note": "在灵川，不在市区动线上"
+      },
+      {
+        "label": "形态",
+        "score": 2.6,
+        "note": "以糕点与粉的批发零售为主"
+      }
+    ],
+    "body": "用马蹄粉调浆层层上笼蒸出来的半透明糕点，切菱形块，咬下去弹而脆，夏天放凉了吃比热的好。短板是位置：它在灵川，不在市区常规动线上，专程跑一趟不太值；店里更像糕点与马蹄粉的批发零售点，堂食体验一般，想带走不如直接买粉回去自己蒸。",
+    "basis": "corpus",
+    "at": "2026-11-12",
+    "fits": [
+      "买手信",
+      "夏天"
+    ],
+    "avoid": [
+      "专程前往"
+    ],
+    "sources": []
+  }
 }

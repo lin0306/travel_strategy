@@ -1,68 +1,107 @@
 {
-  "id": "harnlian-redsausage",
-  "name": "哈肉联正宗哈尔滨红肠(铁岭店)",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "南岗区铁岭街上的一家哈肉联红肠门市，本地人买红肠的地方之一，比景区便宜也更新鲜。",
-  "description": "哈肉联是哈尔滨红肠里另一个老牌子，与秋林里道斯并列，做法同源 —— 都是随中东铁路过来的俄式灌肠，用硬木熏，蒜味重。两家谁更好本地人也各有说法，尝过再选最实在。这家门市在南岗区铁岭街，是社区里的小店，不是景区那种柜台。好处是价格与新鲜度：景区的多卖真空礼盒，这里卖的是当天出的，现切当场吃最香，要带走的也可以真空。红肠之外还有干肠、茶肠、风干肠，风干肠更硬更咸，适合下酒。按重量称，便宜。买完可以配一个大列巴就是一顿。",
-  "highlights": [
-    "与秋林里道斯并列的老牌子，做法同源，谁更好各有说法",
-    "社区门市卖当天出的，比景区礼盒新鲜便宜",
-    "干肠茶肠风干肠都有，风干肠更硬更咸适合下酒"
-  ],
-  "location": {
-    "point": {
-      "lng": 126.65342,
-      "lat": 45.764624,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黑龙江省哈尔滨市南岗区荣市街道铁岭街41号2单元一层3号",
-    "district": "南岗区",
-    "transportTip": "乘公交至铁岭街站；或地铁一号线至铁路局站后步行"
+ "id": "harnlian-redsausage",
+ "name": "哈肉联正宗哈尔滨红肠(铁岭店)",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "南岗区铁岭街上的一家哈肉联红肠门市，本地人买红肠的地方之一，比景区便宜也更新鲜。",
+ "description": "哈肉联是哈尔滨红肠里另一个老牌子，与秋林里道斯并列，做法同源 —— 都是随中东铁路过来的俄式灌肠，用硬木熏，蒜味重。两家谁更好本地人也各有说法，尝过再选最实在。这家门市在南岗区铁岭街，是社区里的小店，不是景区那种柜台。好处是价格与新鲜度：景区的多卖真空礼盒，这里卖的是当天出的，现切当场吃最香，要带走的也可以真空。红肠之外还有干肠、茶肠、风干肠，风干肠更硬更咸，适合下酒。按重量称，便宜。买完可以配一个大列巴就是一顿。",
+ "highlights": [
+  "与秋林里道斯并列的老牌子，做法同源，谁更好各有说法",
+  "社区门市卖当天出的，比景区礼盒新鲜便宜",
+  "干肠茶肠风干肠都有，风干肠更硬更咸适合下酒"
+ ],
+ "location": {
+  "point": {
+   "lng": 126.65342,
+   "lat": 45.764624,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约8:00-19:00，以门店公告为准",
-    "openHoursRef": 0,
-    "ticket": "按重量计价，便宜",
-    "ticketRef": 0,
-    "duration": "建议 20-45 分钟",
-    "durationMinutes": [
-      20,
-      45
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "family",
-    "elders",
-    "friends"
+  "address": "黑龙江省哈尔滨市南岗区荣市街道铁岭街41号2单元一层3号",
+  "district": "南岗区",
+  "transportTip": "乘公交至铁岭街站；或地铁一号线至铁路局站后步行"
+ },
+ "practical": {
+  "openHours": "约8:00-19:00，以门店公告为准",
+  "openHoursRef": 0,
+  "ticket": "按重量计价，便宜",
+  "ticketRef": 0,
+  "duration": "建议 20-45 分钟",
+  "durationMinutes": [
+   20,
+   45
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "红肠",
-    "老牌子",
-    "社区店"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "family",
+  "elders",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "红肠",
+  "老牌子",
+  "社区店"
+ ],
+ "popularity": 74,
+ "sources": [
+  {
+   "title": "百度百科·哈尔滨红肠",
+   "url": "https://baike.baidu.com/item/%E5%93%88%E5%B0%94%E6%BB%A8%E7%BA%A2%E8%82%A0",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "哈肉联正宗哈尔滨红肠(铁岭店)"
+ },
+ "_geocodeTitle": "哈肉联正宗哈尔滨红肠(铁岭店)",
+ "_geocodeSuspect": false,
+ "district": "230103",
+ "_noImage": true,
+ "review": {
+  "score": 3.6,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "新鲜度",
+    "score": 4.3,
+    "note": "社区门市卖当天出的，现切最香"
+   },
+   {
+    "label": "价格",
+    "score": 4.4,
+    "note": "比景区真空礼盒便宜"
+   },
+   {
+    "label": "口味",
+    "score": 4.0,
+    "note": "硬木熏、蒜味重的老牌子"
+   },
+   {
+    "label": "环境",
+    "score": 2.8,
+    "note": "本质是买东西的窗口，没得逛"
+   }
   ],
-  "popularity": 74,
-  "sources": [
-    {
-      "title": "百度百科·哈尔滨红肠",
-      "url": "https://baike.baidu.com/item/%E5%93%88%E5%B0%94%E6%BB%A8%E7%BA%A2%E8%82%A0",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
+  "body": "哈肉联是哈尔滨红肠里与秋林里道斯并列的老牌子，随中东铁路过来的俄式灌肠，硬木熏、蒜味重，谁更好本地人也各有说法。这家是铁岭街上的社区门市，不是景区柜台，卖当天出的、现切当场吃最香，比景区的真空礼盒新鲜也便宜，要带走同样能真空。红肠之外还有干肠、茶肠、风干肠。缺点是它本质是买东西的窗口，几乎没有可逛的环境，专程跑一趟只能待很短时间；口味偏咸偏蒜，不习惯的人会觉得冲。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "买伴手礼",
+   "避开景区柜台",
+   "配大列巴"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "哈肉联正宗哈尔滨红肠(铁岭店)"
-  },
-  "_geocodeTitle": "哈肉联正宗哈尔滨红肠(铁岭店)",
-  "_geocodeSuspect": false,
-  "district": "230103",
-  "_noImage": true
+  "avoid": [
+   "想坐下来吃一顿",
+   "口味清淡"
+  ],
+  "sources": []
+ }
 }

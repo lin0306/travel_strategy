@@ -1,113 +1,152 @@
 {
-  "id": "wanxiang-cheng-nn",
-  "name": "南宁万象城",
-  "category": "food",
-  "subtype": "local",
-  "summary": "东盟商务区的核心综合体，购物餐饮都全。",
-  "description": "南宁万象城在青秀区民族大道，是东盟商务区的核心综合体，百货、影院、餐饮和儿童业态都全，建筑和中庭的设计感比较强。它紧邻东盟商务区和石门森林公园，服务的是埌东一带的居住与商务人口。除了购物，中庭的展陈常被拿来拍照。适合想逛得舒服一点的人。免费逛。",
-  "highlights": [
-    "东盟商务区核心综合体，中庭设计感强",
-    "紧邻石门森林公园",
-    "购物餐饮都全"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.392788,
-      "lat": 22.811806,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市青秀区民族大道136号",
-    "district": "青秀区",
-    "transportTip": "地铁1号线万象城站"
+ "id": "wanxiang-cheng-nn",
+ "name": "南宁万象城",
+ "category": "food",
+ "subtype": "local",
+ "summary": "东盟商务区的核心综合体，购物餐饮都全。",
+ "description": "南宁万象城在青秀区民族大道，是东盟商务区的核心综合体，百货、影院、餐饮和儿童业态都全，建筑和中庭的设计感比较强。它紧邻东盟商务区和石门森林公园，服务的是埌东一带的居住与商务人口。除了购物，中庭的展陈常被拿来拍照。适合想逛得舒服一点的人。免费逛。",
+ "highlights": [
+  "东盟商务区核心综合体，中庭设计感强",
+  "紧邻石门森林公园",
+  "购物餐饮都全"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.392788,
+   "lat": 22.811806,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放（商铺多为10:00-22:00）",
-    "openHoursRef": 0,
-    "ticket": "无门票",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
+  "address": "南宁市青秀区民族大道136号",
+  "district": "青秀区",
+  "transportTip": "地铁1号线万象城站"
+ },
+ "practical": {
+  "openHours": "全天开放（商铺多为10:00-22:00）",
+  "openHoursRef": 0,
+  "ticket": "无门票",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "friends",
+  "couple",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/%E5%8D%97%E5%AE%81%E4%B8%87%E8%B1%A1%E5%9F%8E.jpg/1280px-%E5%8D%97%E5%AE%81%E4%B8%87%E8%B1%A1%E5%9F%8E.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/%E5%8D%97%E5%AE%81%E4%B8%87%E8%B1%A1%E5%9F%8E.jpg/1280px-%E5%8D%97%E5%AE%81%E4%B8%87%E8%B1%A1%E5%9F%8E.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "南宁万象城.jpg",
+   "query": "南宁万象城 南宁",
+   "credit": {
+    "source": "wikimedia",
+    "author": "EditQ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%AE%81%E4%B8%87%E8%B1%A1%E5%9F%8E.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "friends",
-    "couple",
-    "family"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/%E5%8D%97%E5%AE%81%E4%B8%87%E8%B1%A1%E5%9F%8E.jpg/1280px-%E5%8D%97%E5%AE%81%E4%B8%87%E8%B1%A1%E5%9F%8E.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/%E5%8D%97%E5%AE%81%E4%B8%87%E8%B1%A1%E5%9F%8E.jpg/1280px-%E5%8D%97%E5%AE%81%E4%B8%87%E8%B1%A1%E5%9F%8E.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "南宁万象城.jpg",
-      "query": "南宁万象城 南宁",
-      "credit": {
-        "source": "wikimedia",
-        "author": "EditQ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%AE%81%E4%B8%87%E8%B1%A1%E5%9F%8E.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/%E5%8D%97%E5%AE%81%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E4%B8%87%E8%B1%A1%E5%9F%8E%E7%AB%99A%E5%87%BA%E5%8F%A3_%281%29.jpg/1280px-%E5%8D%97%E5%AE%81%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E4%B8%87%E8%B1%A1%E5%9F%8E%E7%AB%99A%E5%87%BA%E5%8F%A3_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/%E5%8D%97%E5%AE%81%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E4%B8%87%E8%B1%A1%E5%9F%8E%E7%AB%99A%E5%87%BA%E5%8F%A3_%281%29.jpg/1280px-%E5%8D%97%E5%AE%81%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E4%B8%87%E8%B1%A1%E5%9F%8E%E7%AB%99A%E5%87%BA%E5%8F%A3_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "南宁轨道交通万象城站A出口 (1).jpg",
-      "query": "南宁万象城 南宁",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Oh nogo",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%AE%81%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E4%B8%87%E8%B1%A1%E5%9F%8E%E7%AB%99A%E5%87%BA%E5%8F%A3_(1).jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/%E5%8D%97%E5%AE%81%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E4%B8%87%E8%B1%A1%E5%9F%8E%E7%AB%99A%E5%87%BA%E5%8F%A3_%282%29.jpg/1280px-%E5%8D%97%E5%AE%81%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E4%B8%87%E8%B1%A1%E5%9F%8E%E7%AB%99A%E5%87%BA%E5%8F%A3_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/%E5%8D%97%E5%AE%81%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E4%B8%87%E8%B1%A1%E5%9F%8E%E7%AB%99A%E5%87%BA%E5%8F%A3_%282%29.jpg/1280px-%E5%8D%97%E5%AE%81%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E4%B8%87%E8%B1%A1%E5%9F%8E%E7%AB%99A%E5%87%BA%E5%8F%A3_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "南宁轨道交通万象城站A出口 (2).jpg",
-      "query": "南宁万象城 南宁",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Oh nogo",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%AE%81%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E4%B8%87%E8%B1%A1%E5%9F%8E%E7%AB%99A%E5%87%BA%E5%8F%A3_(2).jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "购物中心",
-    "东盟",
-    "中庭"
-  ],
-  "popularity": 74,
-  "sources": [
-    {
-      "title": "百度百科·万象城",
-      "url": "https://baike.baidu.com/item/%E4%B8%87%E8%B1%A1%E5%9F%8E",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "南宁万象城"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/%E5%8D%97%E5%AE%81%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E4%B8%87%E8%B1%A1%E5%9F%8E%E7%AB%99A%E5%87%BA%E5%8F%A3_%281%29.jpg/1280px-%E5%8D%97%E5%AE%81%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E4%B8%87%E8%B1%A1%E5%9F%8E%E7%AB%99A%E5%87%BA%E5%8F%A3_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/%E5%8D%97%E5%AE%81%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E4%B8%87%E8%B1%A1%E5%9F%8E%E7%AB%99A%E5%87%BA%E5%8F%A3_%281%29.jpg/1280px-%E5%8D%97%E5%AE%81%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E4%B8%87%E8%B1%A1%E5%9F%8E%E7%AB%99A%E5%87%BA%E5%8F%A3_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "南宁轨道交通万象城站A出口 (1).jpg",
+   "query": "南宁万象城 南宁",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Oh nogo",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%AE%81%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E4%B8%87%E8%B1%A1%E5%9F%8E%E7%AB%99A%E5%87%BA%E5%8F%A3_(1).jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "南宁万象城",
-  "_geocodeSuspect": false,
-  "district": "450103"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/%E5%8D%97%E5%AE%81%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E4%B8%87%E8%B1%A1%E5%9F%8E%E7%AB%99A%E5%87%BA%E5%8F%A3_%282%29.jpg/1280px-%E5%8D%97%E5%AE%81%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E4%B8%87%E8%B1%A1%E5%9F%8E%E7%AB%99A%E5%87%BA%E5%8F%A3_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/%E5%8D%97%E5%AE%81%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E4%B8%87%E8%B1%A1%E5%9F%8E%E7%AB%99A%E5%87%BA%E5%8F%A3_%282%29.jpg/1280px-%E5%8D%97%E5%AE%81%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E4%B8%87%E8%B1%A1%E5%9F%8E%E7%AB%99A%E5%87%BA%E5%8F%A3_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "南宁轨道交通万象城站A出口 (2).jpg",
+   "query": "南宁万象城 南宁",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Oh nogo",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%AE%81%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E4%B8%87%E8%B1%A1%E5%9F%8E%E7%AB%99A%E5%87%BA%E5%8F%A3_(2).jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "购物中心",
+  "东盟",
+  "中庭"
+ ],
+ "popularity": 74,
+ "sources": [
+  {
+   "title": "百度百科·万象城",
+   "url": "https://baike.baidu.com/item/%E4%B8%87%E8%B1%A1%E5%9F%8E",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "南宁万象城"
+ },
+ "_geocodeTitle": "南宁万象城",
+ "_geocodeSuspect": false,
+ "district": "450103",
+ "review": {
+  "score": 3.8,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "购物",
+    "score": 4.0,
+    "note": "品牌齐全，中庭空间设计感强"
+   },
+   {
+    "label": "餐饮",
+    "score": 3.8,
+    "note": "连锁为主，饭点排号"
+   },
+   {
+    "label": "停车",
+    "score": 2.6,
+    "note": "周末车位紧张，费用不低"
+   },
+   {
+    "label": "人流",
+    "score": 3.2,
+    "note": "节假日中庭拍照的人多"
+   }
+  ],
+  "body": "万象城是东盟商务区的核心综合体，品牌、影院、餐饮、儿童业态一站配齐，中庭的空间设计常被拿来拍照，下雨天或大热天想待在室内，这里是最省事的选择。问题在于它的「商场属性」太强：餐饮以连锁为主，想找南宁本地味道得出去；周末车位紧张、饭点热门店要排队，一顿饭等上半小时是常态，逛一圈下来时间成本不低。它周边就是石门森林公园和东盟商务区，安排在傍晚连起来走更划算。专程来打卡的意义不大，住在附近或路过时进来吹空调最合适。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "避暑避雨",
+   "购物",
+   "带娃"
+  ],
+  "avoid": [
+   "想吃本地小吃",
+   "专程打卡"
+  ],
+  "sources": []
+ }
 }

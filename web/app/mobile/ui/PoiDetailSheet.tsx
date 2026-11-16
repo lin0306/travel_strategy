@@ -37,6 +37,7 @@ export function PoiDetailSheet({
   cityId,
   onClose,
   onAddToPlan,
+  exiting = false,
 }: {
   /** `null` = 没选中 → 不渲染 */
   poi: Poi | null
@@ -45,6 +46,8 @@ export function PoiDetailSheet({
   cityId: string
   onClose: () => void
   onAddToPlan: (id: string) => void
+  /** 正在退场（`MobileCityView` 经 `useItemPresence` 传入）—— 高度归 0 滑落 */
+  exiting?: boolean
 }) {
   const [tier, setTier] = useState<SheetTier>('half')
   const [gallery, setGallery] = useState(0)
@@ -70,6 +73,7 @@ export function PoiDetailSheet({
       onTier={setTier}
       label="景点详情"
       onClose={onClose}
+      exiting={exiting}
       header={
         <SheetHead
           title={poi.name}

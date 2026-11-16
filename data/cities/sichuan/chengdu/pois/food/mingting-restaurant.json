@@ -20,7 +20,7 @@
     "transportTip": "地铁 3 号线红星桥站步行约 500 米"
   },
   "practical": {
-    "openHours": "约 11:00-21:00（14:00-17:30 可能休市，以门店公告为准）",
+    "openHours": "11:00-21:00（午市晚市连续营业，无固定休市）",
     "openHoursRef": 0,
     "ticket": "人均约 60 元",
     "ticketRef": 0,
@@ -56,9 +56,15 @@
       "url": "https://simplecms.xiachufang.com/posts/1482",
       "kind": "media",
       "fetchedAt": "2026-09-18"
+    },
+    {
+      "title": "百度百科 + 腾讯地图 POI",
+      "url": "https://baike.baidu.com/item/%E6%98%8E%E5%A9%B7%E9%A5%AD%E5%BA%97/6921198",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -67,5 +73,17 @@
   "_geocodeTitle": "明婷饭店",
   "_geocodeSuspect": false,
   "district": "510106",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-08",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "约 11:00-21:00（14:00-17:30 可能休市，以门店公告为准）",
+        "new": "11:00-21:00（午市晚市连续营业，无固定休市）"
+      }
+    ],
+    "source": "https://baike.baidu.com/item/%E6%98%8E%E5%A9%B7%E9%A5%AD%E5%BA%97/6921198",
+    "reason": "原「14:00-17:30 可能休市」无来源支持；图商POI(与库内坐标同点)、百科、城市惠三处均为11:00-21:00连续营业\r"
+  }
 }

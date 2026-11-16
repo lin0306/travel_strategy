@@ -1,67 +1,105 @@
 {
-  "id": "huixian-wetland",
-  "name": "会仙湿地",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "临桂的一片水网沼泽，晨昏有水鸟从芦苇里起来，来的人很少。",
-  "description": "会仙湿地在临桂区南部，是一片浅水湖泊与沼泽连起来的水网，面积很大，到现在还是这一片水土的样子。它的画面是晨昏：天还没亮水面上一层雾，太阳出来的时候水鸟一片一片从芦苇里起来。适合带望远镜的人。这里没有太多设施，交通也不方便，要去的话得自行安排车。它列入的行列里它也是非常小众的一块 —— 来的人少，安静。",
-  "highlights": [
-    "临桂南部一片浅水湖泊与沼泽连成的水网",
-    "晨昏最好：天没亮一层雾，太阳出来水鸟成片飞起",
-    "设施少交通不便，要去得自行安排车"
-  ],
-  "location": {
-    "point": {
-      "lng": 110.2035,
-      "lat": 25.093465,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "广西壮族自治区桂林市临桂区会仙湿地",
-    "district": "临桂区",
-    "transportTip": "桂林市区乘车至临桂后转车往会仙，建议包车"
+ "id": "huixian-wetland",
+ "name": "会仙湿地",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "临桂的一片水网沼泽，晨昏有水鸟从芦苇里起来，来的人很少。",
+ "description": "会仙湿地在临桂区南部，是一片浅水湖泊与沼泽连起来的水网，面积很大，到现在还是这一片水土的样子。它的画面是晨昏：天还没亮水面上一层雾，太阳出来的时候水鸟一片一片从芦苇里起来。适合带望远镜的人。这里没有太多设施，交通也不方便，要去的话得自行安排车。它列入的行列里它也是非常小众的一块 —— 来的人少，安静。",
+ "highlights": [
+  "临桂南部一片浅水湖泊与沼泽连成的水网",
+  "晨昏最好：天没亮一层雾，太阳出来水鸟成片飞起",
+  "设施少交通不便，要去得自行安排车"
+ ],
+ "location": {
+  "point": {
+   "lng": 110.2035,
+   "lat": 25.093465,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 120-300 分钟",
-    "durationMinutes": [
-      120,
-      300
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "solo"
+  "address": "广西壮族自治区桂林市临桂区会仙湿地",
+  "district": "临桂区",
+  "transportTip": "桂林市区乘车至临桂后转车往会仙，建议包车"
+ },
+ "practical": {
+  "openHours": "全天开放",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 120-300 分钟",
+  "durationMinutes": [
+   120,
+   300
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "湿地",
-    "水鸟",
-    "安静"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "湿地",
+  "水鸟",
+  "安静"
+ ],
+ "popularity": 40,
+ "sources": [
+  {
+   "title": "百度百科·会仙湿地",
+   "url": "https://baike.baidu.com/item/%E4%BC%9A%E4%BB%99%E6%B9%BF%E5%9C%B0",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "会仙湿地"
+ },
+ "_geocodeTitle": "会仙湿地",
+ "_geocodeSuspect": false,
+ "district": "450312",
+ "_noImage": true,
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "时段",
+    "score": 4.3,
+    "note": "清晨与傍晚最好，日出时水鸟成片起飞"
+   },
+   {
+    "label": "交通",
+    "score": 1.9,
+    "note": "没有班车，必须自驾或包车"
+   },
+   {
+    "label": "设施",
+    "score": 2.0,
+    "note": "几乎无配套，厕所与补给都难找"
+   },
+   {
+    "label": "季节",
+    "score": 4.0,
+    "note": "秋末芦苇转黄，稻子收割前后最上镜"
+   }
   ],
-  "popularity": 40,
-  "sources": [
-    {
-      "title": "百度百科·会仙湿地",
-      "url": "https://baike.baidu.com/item/%E4%BC%9A%E4%BB%99%E6%B9%BF%E5%9C%B0",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
+  "body": "临桂南部一大片浅水沼泽连成的水网，天没亮时水面起雾，太阳一出来水鸟成片从芦苇里飞起，是桂林少有人去的一处。不足之处要先讲清：没有公共交通，必须自驾或包车，这是最大的短板；几乎没有配套，厕所和补给都找不到；不在清晨傍晚这两个时段来，画面会平淡很多。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "观鸟",
+   "自驾"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "会仙湿地"
-  },
-  "_geocodeTitle": "会仙湿地",
-  "_geocodeSuspect": false,
-  "district": "450312",
-  "_noImage": true
+  "avoid": [
+   "无车",
+   "正午去"
+  ],
+  "sources": []
+ }
 }

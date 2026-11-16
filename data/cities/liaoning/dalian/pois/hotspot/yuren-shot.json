@@ -16,9 +16,9 @@
       "lat": 38.87445,
       "coordSystem": "GCJ-02"
     },
-    "address": "辽宁省大连市中山区渔人码头",
+    "address": "辽宁省大连市中山区老虎滩滨海东路66-2号",
     "district": "中山区",
-    "transportTip": "中山区乘公交或打车往东可达"
+    "transportTip": "地铁5号线虎滩新区站C口步行约5分钟；公交2路、712路「渔人码头」站下车"
   },
   "practical": {
     "openHours": "傍晚到夜间最佳",
@@ -37,7 +37,11 @@
     "friends"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "免费开放式街区，渔港仍在作业，黄昏看渔船归港最有味道",
+    "海鲜大排档与移动摊位常按只或按斤模糊报价，点单前先确认单价与总价",
+    "地铁5号线虎滩新区站C口出站步行约5分钟，公交2路、712路可达"
+  ],
   "images": [],
   "coverIndex": 0,
   "tags": [
@@ -52,9 +56,15 @@
       "url": "https://baike.baidu.com/item/%E6%B8%94%E4%BA%BA%E7%A0%81%E5%A4%B4",
       "kind": "wiki",
       "fetchedAt": "2026-10-01"
+    },
+    {
+      "title": "占位地址（原写成点位名）替换为门牌：图商 POI+OTA+百科三方一致；交通与避",
+      "url": "https://hk.trip.com/moments/theme/poi-fisherman-pier-10522984-museums-910238",
+      "kind": "media",
+      "fetchedAt": "2026-11-15"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-15",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,5 +73,31 @@
   "_geocodeTitle": "渔人码头",
   "_geocodeSuspect": false,
   "district": "210202",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-15",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "辽宁省大连市中山区渔人码头",
+        "new": "辽宁省大连市中山区老虎滩滨海东路66-2号"
+      },
+      {
+        "field": "交通提示",
+        "old": "中山区乘公交或打车往东可达",
+        "new": "地铁5号线虎滩新区站C口步行约5分钟；公交2路、712路「渔人码头」站下车"
+      },
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [],
+        "new": [
+          "免费开放式街区，渔港仍在作业，黄昏看渔船归港最有味道",
+          "海鲜大排档与移动摊位常按只或按斤模糊报价，点单前先确认单价与总价",
+          "地铁5号线虎滩新区站C口出站步行约5分钟，公交2路、712路可达"
+        ]
+      }
+    ],
+    "source": "https://hk.trip.com/moments/theme/poi-fisherman-pier-10522984-museums-910238",
+    "reason": "占位地址（原写成点位名）替换为门牌：图商 POI+OTA+百科三方一致；交通与避雷补齐"
+  }
 }

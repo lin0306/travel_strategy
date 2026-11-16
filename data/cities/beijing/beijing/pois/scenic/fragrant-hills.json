@@ -1,102 +1,134 @@
 {
-  "id": "fragrant-hills",
-  "name": "香山公园",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "西郊山林,秋天红叶是全年的高潮,香炉峰俯瞰京城。",
-  "description": "香山位于北京西北郊的西山余脉,最高处是海拔五百多的香炉峰(鬼见愁)。秋天黄栌红叶是它最出名的时段,届时人多到需要预约限流;其余季节人少得多,春天山桃与丁香也不错。古迹有碧云寺、双清别墅、见心斋等,分布在山道两侧。爬到山顶约一到两小时,台阶连续但不算陡,是一种「出了城又没走远」的便利感。",
-  "highlights": [
-    "秋季红叶需预约且人极多",
-    "香炉峰可俯瞰城区方向",
-    "春季山花是错峰选项"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.200047,
-      "lat": 39.991438,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "北京市海淀区买卖街40号",
-    "district": "海淀",
-    "transportTip": "地铁西郊线香山站终点",
-    "entrance": {
-      "lng": 116.197629,
-      "lat": 39.991365,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "fragrant-hills",
+ "name": "香山公园",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "西郊山林,秋天红叶是全年的高潮,香炉峰俯瞰京城。",
+ "description": "香山位于北京西北郊的西山余脉,最高处是海拔五百多的香炉峰(鬼见愁)。秋天黄栌红叶是它最出名的时段,届时人多到需要预约限流;其余季节人少得多,春天山桃与丁香也不错。古迹有碧云寺、双清别墅、见心斋等,分布在山道两侧。爬到山顶约一到两小时,台阶连续但不算陡,是一种「出了城又没走远」的便利感。",
+ "highlights": [
+  "秋季红叶需预约且人极多",
+  "香炉峰可俯瞰城区方向",
+  "春季山花是错峰选项"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.200047,
+   "lat": 39.991438,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约06:00-18:30(旺季),红叶季另行公告,以官方为准",
-    "openHoursRef": 0,
-    "ticket": "约10元起(旺季),以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 180-360 分钟",
-    "durationMinutes": [
-      180,
-      360
-    ],
-    "priceLevel": "free"
+  "address": "北京市海淀区买卖街40号",
+  "district": "海淀",
+  "transportTip": "地铁西郊线香山站终点",
+  "entrance": {
+   "lng": 116.197629,
+   "lat": 39.991365,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约06:00-18:30(旺季),红叶季另行公告,以官方为准",
+  "openHoursRef": 0,
+  "ticket": "约10元起(旺季),以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 180-360 分钟",
+  "durationMinutes": [
+   180,
+   360
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "kids"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Duoyun_Pavilion%2C_Fragrant_Hills_%2820190918154424%29.jpg/1280px-Duoyun_Pavilion%2C_Fragrant_Hills_%2820190918154424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Duoyun_Pavilion%2C_Fragrant_Hills_%2820190918154424%29.jpg/1280px-Duoyun_Pavilion%2C_Fragrant_Hills_%2820190918154424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Duoyun Pavilion, Fragrant Hills (20190918154424).jpg",
+   "query": "香山公园 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "N509FZ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duoyun_Pavilion,_Fragrant_Hills_(20190918154424).jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "kids"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Fragrant_Hills-liu_zhong_tomb.JPG/1280px-Fragrant_Hills-liu_zhong_tomb.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Fragrant_Hills-liu_zhong_tomb.JPG/1280px-Fragrant_Hills-liu_zhong_tomb.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Fragrant Hills-liu zhong tomb.JPG",
+   "query": "香山公园 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Wikimedia Commons 贡献者",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fragrant_Hills-liu_zhong_tomb.JPG",
+    "license": "CC BY-SA 1.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "红叶",
+  "登山",
+  "西郊"
+ ],
+ "popularity": 82,
+ "sources": [
+  {
+   "title": "百度百科·香山公园",
+   "url": "https://baike.baidu.com/item/%E9%A6%99%E5%B1%B1%E5%85%AC%E5%9B%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "香山公园"
+ },
+ "_geocodeTitle": "香山公园东门停车场",
+ "_geocodeSuspect": false,
+ "district": "110108",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "红叶",
+    "score": 4.8,
+    "note": "秋季黄栌是全年高潮，需预约限流"
+   },
+   {
+    "label": "体力",
+    "score": 3.2,
+    "note": "爬到香炉峰一到两小时，台阶连续"
+   },
+   {
+    "label": "人流",
+    "score": 2.2,
+    "note": "红叶季人挤到走不动"
+   },
+   {
+    "label": "季节",
+    "score": 3.8,
+    "note": "春天山桃丁香是错峰选项"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Duoyun_Pavilion%2C_Fragrant_Hills_%2820190918154424%29.jpg/1280px-Duoyun_Pavilion%2C_Fragrant_Hills_%2820190918154424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Duoyun_Pavilion%2C_Fragrant_Hills_%2820190918154424%29.jpg/1280px-Duoyun_Pavilion%2C_Fragrant_Hills_%2820190918154424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Duoyun Pavilion, Fragrant Hills (20190918154424).jpg",
-      "query": "香山公园 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "N509FZ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duoyun_Pavilion,_Fragrant_Hills_(20190918154424).jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Fragrant_Hills-liu_zhong_tomb.JPG/1280px-Fragrant_Hills-liu_zhong_tomb.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Fragrant_Hills-liu_zhong_tomb.JPG/1280px-Fragrant_Hills-liu_zhong_tomb.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Fragrant Hills-liu zhong tomb.JPG",
-      "query": "香山公园 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Wikimedia Commons 贡献者",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fragrant_Hills-liu_zhong_tomb.JPG",
-        "license": "CC BY-SA 1.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "红叶",
-    "登山",
-    "西郊"
-  ],
-  "popularity": 82,
-  "sources": [
-    {
-      "title": "百度百科·香山公园",
-      "url": "https://baike.baidu.com/item/%E9%A6%99%E5%B1%B1%E5%85%AC%E5%9B%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "香山公园"
-  },
-  "_geocodeTitle": "香山公园东门停车场",
-  "_geocodeSuspect": false,
-  "district": "110108"
+  "body": "西郊山林，香炉峰俯瞰城区，秋天黄栌红叶是全年高潮，届时预约限流、人挤到走不动。缺点是台阶连续、爬到顶一到两小时，下山膝盖吃力；非红叶季人少但景致平淡，碧云寺与双清别墅是加分项。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [],
+  "avoid": [],
+  "sources": []
+ }
 }

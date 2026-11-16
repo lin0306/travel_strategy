@@ -1,97 +1,136 @@
 {
-  "id": "xiezilong",
-  "name": "谢子龙影像艺术馆",
-  "category": "hotspot",
-  "subtype": "art",
-  "summary": "洋湖边的白色建筑，专门做影像收藏与展览的民营馆。",
-  "description": "谢子龙影像艺术馆在岳麓区潇湘南路，紧挨洋湖湿地公园，2017 年开馆，是收藏家谢子龙创办的民营影像博物馆。建筑是全白的清水混凝土，体量方整，外墙几乎没有装饰，靠光影和留白做空间，本身就是拍照的对象。馆里分几个厅，收藏的是中国近现代的历史影像与当代摄影作品，常年有专题展，展期与主题以官方公告为准。屋顶有平台可以上去，看洋湖那一片水面。它与旁边的李自健美术馆只隔一条路，两馆一般连着看。地铁 3 号线洋湖湿地站出来步行几分钟。",
-  "highlights": [
-    "2017 年开馆的民营影像博物馆",
-    "全白清水混凝土建筑，靠光影做空间",
-    "与李自健美术馆一街之隔，两馆连看"
-  ],
-  "location": {
-    "point": {
-      "lng": 112.947213,
-      "lat": 28.117854,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "湖南省长沙市岳麓区潇湘南路一段387号",
-    "district": "岳麓区",
-    "transportTip": "地铁3号线洋湖湿地站，步行约五分钟"
+ "id": "xiezilong",
+ "name": "谢子龙影像艺术馆",
+ "category": "hotspot",
+ "subtype": "art",
+ "summary": "洋湖边的白色建筑，专门做影像收藏与展览的民营馆。",
+ "description": "谢子龙影像艺术馆在岳麓区潇湘南路，紧挨洋湖湿地公园，2017 年开馆，是收藏家谢子龙创办的民营影像博物馆。建筑是全白的清水混凝土，体量方整，外墙几乎没有装饰，靠光影和留白做空间，本身就是拍照的对象。馆里分几个厅，收藏的是中国近现代的历史影像与当代摄影作品，常年有专题展，展期与主题以官方公告为准。屋顶有平台可以上去，看洋湖那一片水面。它与旁边的李自健美术馆只隔一条路，两馆一般连着看。地铁 3 号线洋湖湿地站出来步行几分钟。",
+ "highlights": [
+  "2017 年开馆的民营影像博物馆",
+  "全白清水混凝土建筑，靠光影做空间",
+  "与李自健美术馆一街之隔，两馆连看"
+ ],
+ "location": {
+  "point": {
+   "lng": 112.947213,
+   "lat": 28.117854,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:00-18:00，17:30停止入场，周一闭馆（以公告为准）",
-    "openHoursRef": 0,
-    "ticket": "门票以官方公告为准（特展另计），以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "mid"
+  "address": "湖南省长沙市岳麓区潇湘南路一段387号",
+  "district": "岳麓区",
+  "transportTip": "地铁3号线洋湖湿地站，步行约五分钟"
+ },
+ "practical": {
+  "openHours": "约10:00-18:00，17:30停止入场，周一闭馆（以公告为准）",
+  "openHoursRef": 0,
+  "ticket": "门票以官方公告为准（特展另计），以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Li_Zijian_Art_Museum_2023040120.jpg/1280px-Li_Zijian_Art_Museum_2023040120.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Li_Zijian_Art_Museum_2023040120.jpg/1280px-Li_Zijian_Art_Museum_2023040120.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Li Zijian Art Museum 2023040120.jpg",
+   "query": "谢子龙影像艺术馆 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Huangdan2060",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Li_Zijian_Art_Museum_2023040120.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "friends"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Li_Zijian_Art_Museum_2023040122.jpg/1280px-Li_Zijian_Art_Museum_2023040122.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Li_Zijian_Art_Museum_2023040122.jpg/1280px-Li_Zijian_Art_Museum_2023040122.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Li Zijian Art Museum 2023040122.jpg",
+   "query": "谢子龙影像艺术馆 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Huangdan2060",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Li_Zijian_Art_Museum_2023040122.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "影像",
+  "美术馆",
+  "洋湖"
+ ],
+ "popularity": 85,
+ "sources": [
+  {
+   "title": "百度百科·谢子龙影像艺术馆",
+   "url": "https://baike.baidu.com/item/%E8%B0%A2%E5%AD%90%E9%BE%99%E5%BD%B1%E5%83%8F%E8%89%BA%E6%9C%AF%E9%A6%86",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "谢子龙影像艺术馆"
+ },
+ "_geocodeTitle": "谢子龙影像艺术馆",
+ "_geocodeSuspect": false,
+ "district": "430104",
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "建筑",
+    "score": 4.8,
+    "note": "全白清水混凝土，靠光影做空间"
+   },
+   {
+    "label": "展陈",
+    "score": 3.8,
+    "note": "历史影像与当代摄影，特展换得勤"
+   },
+   {
+    "label": "人流",
+    "score": 2.8,
+    "note": "周末打卡机位要排队"
+   },
+   {
+    "label": "位置",
+    "score": 2.5,
+    "note": "在洋湖，离老城不近"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Li_Zijian_Art_Museum_2023040120.jpg/1280px-Li_Zijian_Art_Museum_2023040120.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Li_Zijian_Art_Museum_2023040120.jpg/1280px-Li_Zijian_Art_Museum_2023040120.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Li Zijian Art Museum 2023040120.jpg",
-      "query": "谢子龙影像艺术馆 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Huangdan2060",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Li_Zijian_Art_Museum_2023040120.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Li_Zijian_Art_Museum_2023040122.jpg/1280px-Li_Zijian_Art_Museum_2023040122.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Li_Zijian_Art_Museum_2023040122.jpg/1280px-Li_Zijian_Art_Museum_2023040122.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Li Zijian Art Museum 2023040122.jpg",
-      "query": "谢子龙影像艺术馆 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Huangdan2060",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Li_Zijian_Art_Museum_2023040122.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    }
+  "body": "全白清水混凝土的方整体量，靠光影和留白做空间，建筑本身就是拍照对象，屋顶平台能看洋湖那片水面。展览以中国近现代历史影像与当代摄影为主，专题展换得勤。缺点是特展要另外买票，常设内容对不看摄影的人偏薄；周末打卡的人多，热门机位要排队；位置在洋湖，离老城不近，得专门安排半天。和旁边的李自健连着看更划算。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "看展",
+   "拍照",
+   "建筑"
   ],
-  "coverIndex": 0,
-  "tags": [
-    "影像",
-    "美术馆",
-    "洋湖"
+  "avoid": [
+   "只想逛两小时",
+   "不看摄影"
   ],
-  "popularity": 85,
-  "sources": [
-    {
-      "title": "百度百科·谢子龙影像艺术馆",
-      "url": "https://baike.baidu.com/item/%E8%B0%A2%E5%AD%90%E9%BE%99%E5%BD%B1%E5%83%8F%E8%89%BA%E6%9C%AF%E9%A6%86",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "谢子龙影像艺术馆"
-  },
-  "_geocodeTitle": "谢子龙影像艺术馆",
-  "_geocodeSuspect": false,
-  "district": "430104"
+  "sources": []
+ }
 }

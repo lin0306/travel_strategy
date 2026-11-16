@@ -1,68 +1,106 @@
 {
-  "id": "pingyao-xianya",
-  "name": "平遥县衙博物馆",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "保存完整的清代县衙，每天还有升堂表演。",
-  "description": "平遥县衙在古城西南的衙门街，是国内保存最完整的明清县级衙署之一。中轴线上依次是照壁、大门、仪门、大堂与二堂，两侧是六房。大堂上悬着明镜高悬的匾，堂前有戒石铭。后面的二堂是日常问事的地方，再往后是县丞居住的内宅。每天定时有升堂表演，按旧时规矩走一遍流程，时间不长但气氛足。县衙里还能看到旧时的刑具、官服与文牍。规模不算宏大，难得在于格局完整，把一套县级政府的运作摊在同一个院子里。",
-  "highlights": [
-    "保存最完整的明清县衙之一",
-    "定时升堂表演",
-    "六房与大堂格局完整"
-  ],
-  "location": {
-    "point": {
-      "lng": 112.182647,
-      "lat": 37.202245,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "晋中市平遥县古城街道衙门街77号",
-    "district": "平遥",
-    "transportTip": "古城内步行可达，位于古城西南部"
+ "id": "pingyao-xianya",
+ "name": "平遥县衙博物馆",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "保存完整的清代县衙，每天还有升堂表演。",
+ "description": "平遥县衙在古城西南的衙门街，是国内保存最完整的明清县级衙署之一。中轴线上依次是照壁、大门、仪门、大堂与二堂，两侧是六房。大堂上悬着明镜高悬的匾，堂前有戒石铭。后面的二堂是日常问事的地方，再往后是县丞居住的内宅。每天定时有升堂表演，按旧时规矩走一遍流程，时间不长但气氛足。县衙里还能看到旧时的刑具、官服与文牍。规模不算宏大，难得在于格局完整，把一套县级政府的运作摊在同一个院子里。",
+ "highlights": [
+  "保存最完整的明清县衙之一",
+  "定时升堂表演",
+  "六房与大堂格局完整"
+ ],
+ "location": {
+  "point": {
+   "lng": 112.182647,
+   "lat": 37.202245,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 08:00-18:00（季节调整）",
-    "openHoursRef": 0,
-    "ticket": "含在古城通票内，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "family",
-    "elders",
-    "friends"
+  "address": "晋中市平遥县古城街道衙门街77号",
+  "district": "平遥",
+  "transportTip": "古城内步行可达，位于古城西南部"
+ },
+ "practical": {
+  "openHours": "约 08:00-18:00（季节调整）",
+  "openHoursRef": 0,
+  "ticket": "含在古城通票内，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "县衙",
-    "古建筑",
-    "表演"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "family",
+  "elders",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "县衙",
+  "古建筑",
+  "表演"
+ ],
+ "popularity": 94,
+ "sources": [
+  {
+   "title": "百度百科·平遥县衙",
+   "url": "https://baike.baidu.com/item/%E5%B9%B3%E9%81%A5%E5%8E%BF%E8%A1%99",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-06"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "平遥县衙博物馆"
+ },
+ "_geocodeTitle": "平遥县衙博物馆",
+ "_geocodeSuspect": false,
+ "district": "140728",
+ "_noImage": true,
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "展陈",
+    "score": 4.4,
+    "note": "中轴照壁、大门、仪门、大堂二堂一路排开，六房列在两厢"
+   },
+   {
+    "label": "表演",
+    "score": 4.0,
+    "note": "定时升堂表演，时间不长但气氛足"
+   },
+   {
+    "label": "人流",
+    "score": 3.2,
+    "note": "院子不大，团队一进来就转不开"
+   },
+   {
+    "label": "性价比",
+    "score": 4.3,
+    "note": "含在古城通票内，单买不划算"
+   }
   ],
-  "popularity": 94,
-  "sources": [
-    {
-      "title": "百度百科·平遥县衙",
-      "url": "https://baike.baidu.com/item/%E5%B9%B3%E9%81%A5%E5%8E%BF%E8%A1%99",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-06"
-    }
+  "body": "国内保存最完整的明清县级衙署之一，好处在格局完整——照壁、大门、仪门、大堂、二堂一路排在中轴上，六房分列两厢，一套县级政府怎么运作，在一个院子里就能看明白。大堂上悬着「明镜高悬」，堂前有戒石铭，后面是县丞住的内宅，旧刑具和文牍也还留着。定时的升堂表演按旧规矩走一遍流程，不长但有意思。缺点是规模其实不大，单买票会觉得性价比一般，靠古城通票才划得来；院子窄，团队一多就转不开身。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "看古建筑",
+   "带孩子"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "平遥县衙博物馆"
-  },
-  "_geocodeTitle": "平遥县衙博物馆",
-  "_geocodeSuspect": false,
-  "district": "140728",
-  "_noImage": true
+  "avoid": [
+   "单买票",
+   "赶团队高峰"
+  ],
+  "sources": []
+ }
 }

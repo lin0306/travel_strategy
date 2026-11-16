@@ -1,178 +1,217 @@
 {
-  "id": "lijiang-oldtown",
-  "name": "丽江古城",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "没有城墙的古城，水渠从家家门前过，石板路与木楼沿水铺开，是世界文化遗产。",
-  "description": "丽江古城在古城区，宋末元初开始成形，到明代木氏土司时期定下格局。它最特别的是没有城墙 ——土司姓木，围一圈墙就是困字，所以不筑。城靠水组织：玉龙雪山下来的水汇成玉河，在城北分三股进城，再分成无数小渠，沿街流，过户门前。街道顺水铺，石板路被几百年踩得发亮，两侧是两层木楼，前店后宅。一九九七年列入世界文化遗产。它现在很商业 ——主街是店铺、酒吧与客栈，人多的时候很吵；但往狮子山那边与五一街以北走，人立刻少下来，是另一座城。不收门票（早年收过古城维护费，以现场公告为准）。逛三到八小时，住在城里早晚各走一趟最好。",
-  "highlights": [
-    "没有城墙，因为土司姓木，围起来就是困字",
-    "玉河分三股进城再分成无数小渠，从家家门前过",
-    "主街很商业，往狮子山与五一街以北走人立刻少"
-  ],
-  "location": {
-    "point": {
-      "lng": 100.23673,
-      "lat": 26.87076,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "云南省丽江市古城区",
-    "district": "古城区",
-    "transportTip": "市区乘公交至古城口或北门；古城内步行"
+ "id": "lijiang-oldtown",
+ "name": "丽江古城",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "没有城墙的古城，水渠从家家门前过，石板路与木楼沿水铺开，是世界文化遗产。",
+ "description": "丽江古城在古城区，宋末元初开始成形，到明代木氏土司时期定下格局。它最特别的是没有城墙 ——土司姓木，围一圈墙就是困字，所以不筑。城靠水组织：玉龙雪山下来的水汇成玉河，在城北分三股进城，再分成无数小渠，沿街流，过户门前。街道顺水铺，石板路被几百年踩得发亮，两侧是两层木楼，前店后宅。一九九七年列入世界文化遗产。它现在很商业 ——主街是店铺、酒吧与客栈，人多的时候很吵；但往狮子山那边与五一街以北走，人立刻少下来，是另一座城。不收门票（早年收过古城维护费，以现场公告为准）。逛三到八小时，住在城里早晚各走一趟最好。",
+ "highlights": [
+  "没有城墙，因为土司姓木，围起来就是困字",
+  "玉河分三股进城再分成无数小渠，从家家门前过",
+  "主街很商业，往狮子山与五一街以北走人立刻少"
+ ],
+ "location": {
+  "point": {
+   "lng": 100.23673,
+   "lat": 26.87076,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放",
-    "openHoursRef": 0,
-    "ticket": "免费（以现场公告为准）",
-    "ticketRef": 0,
-    "duration": "建议 180-480 分钟",
-    "durationMinutes": [
-      180,
-      480
-    ],
-    "priceLevel": "free"
+  "address": "云南省丽江市古城区",
+  "district": "古城区",
+  "transportTip": "市区乘公交至古城口或北门；古城内步行"
+ },
+ "practical": {
+  "openHours": "全天开放",
+  "openHoursRef": 0,
+  "ticket": "免费（以现场公告为准）",
+  "ticketRef": 0,
+  "duration": "建议 180-480 分钟",
+  "durationMinutes": [
+   180,
+   480
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "family",
+  "friends",
+  "elders",
+  "kids"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/1_lijiang_old_town_night.jpg/1280px-1_lijiang_old_town_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/1_lijiang_old_town_night.jpg/1280px-1_lijiang_old_town_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 547,
+   "alt": "1 lijiang old town night.jpg",
+   "query": "丽江古城 丽江",
+   "credit": {
+    "source": "wikimedia",
+    "author": "chensiyuan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1_lijiang_old_town_night.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "family",
-    "friends",
-    "elders",
-    "kids"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/1_lijiang_old_town_night.jpg/1280px-1_lijiang_old_town_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/1_lijiang_old_town_night.jpg/1280px-1_lijiang_old_town_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 547,
-      "alt": "1 lijiang old town night.jpg",
-      "query": "丽江古城 丽江",
-      "credit": {
-        "source": "wikimedia",
-        "author": "chensiyuan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:1_lijiang_old_town_night.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Lijiang_Yunnan_Heritage-shops-in-old-town-01.jpg/1280px-Lijiang_Yunnan_Heritage-shops-in-old-town-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Lijiang_Yunnan_Heritage-shops-in-old-town-01.jpg/1280px-Lijiang_Yunnan_Heritage-shops-in-old-town-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 693,
-      "alt": "Lijiang Yunnan Heritage-shops-in-old-town-01.jpg",
-      "query": "丽江古城 丽江",
-      "credit": {
-        "source": "wikimedia",
-        "author": "CEphoto, Uwe Aranas",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lijiang_Yunnan_Heritage-shops-in-old-town-01.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/%E4%B8%BD%E6%B1%9F%E5%8F%A4%E5%9F%8E_-_panoramio_%284%29.jpg/1280px-%E4%B8%BD%E6%B1%9F%E5%8F%A4%E5%9F%8E_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/%E4%B8%BD%E6%B1%9F%E5%8F%A4%E5%9F%8E_-_panoramio_%284%29.jpg/1280px-%E4%B8%BD%E6%B1%9F%E5%8F%A4%E5%9F%8E_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1446,
-      "alt": "丽江古城 - panoramio (4).jpg",
-      "query": "丽江古城 丽江",
-      "credit": {
-        "source": "wikimedia",
-        "author": "ping lin",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%BD%E6%B1%9F%E5%8F%A4%E5%9F%8E_-_panoramio_(4).jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Lijiang_Old_Town_-_panoramio.jpg/1280px-Lijiang_Old_Town_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Lijiang_Old_Town_-_panoramio.jpg/1280px-Lijiang_Old_Town_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Lijiang Old Town - panoramio.jpg",
-      "query": "丽江古城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "钟启明",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Lijiang_Old_Town_%28Dayan%29_-_panoramio.jpg/1280px-Lijiang_Old_Town_%28Dayan%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Lijiang_Old_Town_%28Dayan%29_-_panoramio.jpg/1280px-Lijiang_Old_Town_%28Dayan%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Lijiang Old Town (Dayan) - panoramio.jpg",
-      "query": "丽江古城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "钟启明",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/%E4%B8%BD%E6%B1%9F%E5%8F%A4%E8%A1%97_-_panoramio_%284%29.jpg/1280px-%E4%B8%BD%E6%B1%9F%E5%8F%A4%E8%A1%97_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/%E4%B8%BD%E6%B1%9F%E5%8F%A4%E8%A1%97_-_panoramio_%284%29.jpg/1280px-%E4%B8%BD%E6%B1%9F%E5%8F%A4%E8%A1%97_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "丽江古街 - panoramio (4).jpg",
-      "query": "丽江古城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "江上清风1961",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "street"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "世界遗产",
-    "古城",
-    "水渠"
-  ],
-  "popularity": 97,
-  "sources": [
-    {
-      "title": "百度百科·丽江古城",
-      "url": "https://baike.baidu.com/item/%E4%B8%BD%E6%B1%9F%E5%8F%A4%E5%9F%8E",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
-  ],
-  "updatedAt": "2026-11-03",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "丽江古城"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Lijiang_Yunnan_Heritage-shops-in-old-town-01.jpg/1280px-Lijiang_Yunnan_Heritage-shops-in-old-town-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Lijiang_Yunnan_Heritage-shops-in-old-town-01.jpg/1280px-Lijiang_Yunnan_Heritage-shops-in-old-town-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 693,
+   "alt": "Lijiang Yunnan Heritage-shops-in-old-town-01.jpg",
+   "query": "丽江古城 丽江",
+   "credit": {
+    "source": "wikimedia",
+    "author": "CEphoto, Uwe Aranas",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lijiang_Yunnan_Heritage-shops-in-old-town-01.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "丽江古城",
-  "_geocodeSuspect": false,
-  "district": "530702"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/%E4%B8%BD%E6%B1%9F%E5%8F%A4%E5%9F%8E_-_panoramio_%284%29.jpg/1280px-%E4%B8%BD%E6%B1%9F%E5%8F%A4%E5%9F%8E_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/%E4%B8%BD%E6%B1%9F%E5%8F%A4%E5%9F%8E_-_panoramio_%284%29.jpg/1280px-%E4%B8%BD%E6%B1%9F%E5%8F%A4%E5%9F%8E_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1446,
+   "alt": "丽江古城 - panoramio (4).jpg",
+   "query": "丽江古城 丽江",
+   "credit": {
+    "source": "wikimedia",
+    "author": "ping lin",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%BD%E6%B1%9F%E5%8F%A4%E5%9F%8E_-_panoramio_(4).jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Lijiang_Old_Town_-_panoramio.jpg/1280px-Lijiang_Old_Town_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Lijiang_Old_Town_-_panoramio.jpg/1280px-Lijiang_Old_Town_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Lijiang Old Town - panoramio.jpg",
+   "query": "丽江古城",
+   "credit": {
+    "source": "wikimedia",
+    "author": "钟启明",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Lijiang_Old_Town_%28Dayan%29_-_panoramio.jpg/1280px-Lijiang_Old_Town_%28Dayan%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Lijiang_Old_Town_%28Dayan%29_-_panoramio.jpg/1280px-Lijiang_Old_Town_%28Dayan%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Lijiang Old Town (Dayan) - panoramio.jpg",
+   "query": "丽江古城",
+   "credit": {
+    "source": "wikimedia",
+    "author": "钟启明",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/%E4%B8%BD%E6%B1%9F%E5%8F%A4%E8%A1%97_-_panoramio_%284%29.jpg/1280px-%E4%B8%BD%E6%B1%9F%E5%8F%A4%E8%A1%97_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/%E4%B8%BD%E6%B1%9F%E5%8F%A4%E8%A1%97_-_panoramio_%284%29.jpg/1280px-%E4%B8%BD%E6%B1%9F%E5%8F%A4%E8%A1%97_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "丽江古街 - panoramio (4).jpg",
+   "query": "丽江古城",
+   "credit": {
+    "source": "wikimedia",
+    "author": "江上清风1961",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "street"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "世界遗产",
+  "古城",
+  "水渠"
+ ],
+ "popularity": 97,
+ "sources": [
+  {
+   "title": "百度百科·丽江古城",
+   "url": "https://baike.baidu.com/item/%E4%B8%BD%E6%B1%9F%E5%8F%A4%E5%9F%8E",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "丽江古城"
+ },
+ "_geocodeTitle": "丽江古城",
+ "_geocodeSuspect": false,
+ "district": "530702",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "水系格局",
+    "score": 4.7,
+    "note": "玉河分三股进城，水渠从家家门前过"
+   },
+   {
+    "label": "建筑",
+    "score": 4.3,
+    "note": "石板路与两层木楼，没有城墙"
+   },
+   {
+    "label": "商业化",
+    "score": 2.6,
+    "note": "主街店铺酒吧密集，夜里很吵"
+   },
+   {
+    "label": "避人潮",
+    "score": 3.9,
+    "note": "往狮子山、五一街以北走人立刻少"
+   }
+  ],
+  "body": "世界文化遗产里少见的无城墙古城——土司姓木，围一圈墙就成了「困」字。城靠水组织：玉龙雪山水汇成玉河，在城北分三股进城再拆成无数小渠，沿街流、过户门前，石板路被踩得发亮，两侧两层木楼前店后宅。问题也很出名：主街如今是店铺、酒吧与客栈，商业化重、夜里很吵，旺季四方街一带几乎挪不动，想找它原来的样子得往狮子山和五一街以北走，人立刻少下来。清晨是最好时段，水声和开门声比灯牌更清楚。免费开放，但别把它当成纯古建景区，当成一座还活着、又被游客挤满的小城更贴切。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "清晨散步",
+   "看水系与民居",
+   "拍照"
+  ],
+  "avoid": [
+   "想清静",
+   "反感酒吧街"
+  ],
+  "sources": []
+ }
 }

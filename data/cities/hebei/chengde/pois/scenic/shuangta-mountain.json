@@ -1,117 +1,154 @@
 {
-  "id": "shuangta-mountain",
-  "name": "双塔山",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "双滦区两根并立的石柱，柱顶各有一座古塔，怎么修上去的是个谜。",
-  "description": "双塔山在双滦区，是两根并排立着的石柱。柱很高、很陡，上不去，但两根顶上各有一座小古塔 —— 是辽代的。古人怎么爬上去修的，至今没定论，所以这儿一直被当奇观看。现在是景区，底下有步道和庙。离市区近，顺路能看。",
-  "highlights": [
-    "两根并立高陡石柱，柱顶各一辽代小塔",
-    "古人如何上去修塔至今无定论",
-    "离市区近可顺看，底下有步道庙"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.812855,
-      "lat": 40.969989,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市双滦区双塔山镇滨河大街98号",
-    "district": "双滦区",
-    "transportTip": "市区公交或打车到双塔山",
-    "entrance": {
-      "lng": 117.80447,
-      "lat": 40.962073,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "shuangta-mountain",
+ "name": "双塔山",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "双滦区两根并立的石柱，柱顶各有一座古塔，怎么修上去的是个谜。",
+ "description": "双塔山在双滦区，是两根并排立着的石柱。柱很高、很陡，上不去，但两根顶上各有一座小古塔 —— 是辽代的。古人怎么爬上去修的，至今没定论，所以这儿一直被当奇观看。现在是景区，底下有步道和庙。离市区近，顺路能看。",
+ "highlights": [
+  "两根并立高陡石柱，柱顶各一辽代小塔",
+  "古人如何上去修塔至今无定论",
+  "离市区近可顺看，底下有步道庙"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.812855,
+   "lat": 40.969989,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-17:00，以景区公告为准",
-    "openHoursRef": 0,
-    "ticket": "约50元",
-    "ticketRef": 0,
-    "duration": "建议 90-150 分钟",
-    "durationMinutes": [
-      90,
-      150
-    ],
-    "priceLevel": "budget"
+  "address": "河北省承德市双滦区双塔山镇滨河大街98号",
+  "district": "双滦区",
+  "transportTip": "市区公交或打车到双塔山",
+  "entrance": {
+   "lng": 117.80447,
+   "lat": 40.962073,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约08:00-17:00，以景区公告为准",
+  "openHoursRef": 0,
+  "ticket": "约50元",
+  "ticketRef": 0,
+  "duration": "建议 90-150 分钟",
+  "durationMinutes": [
+   90,
+   150
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "family",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/%22Axe_of_the_gods%22_%2828279594953%29.jpg/1280px-%22Axe_of_the_gods%22_%2828279594953%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/%22Axe_of_the_gods%22_%2828279594953%29.jpg/1280px-%22Axe_of_the_gods%22_%2828279594953%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "\"Axe of the gods\" (28279594953).jpg",
+   "query": "双塔山 承德",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Axe_of_the_gods%22_(28279594953).jpg",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "family",
-    "elders"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/%22Axe_of_the_gods%22_%2828279594953%29.jpg/1280px-%22Axe_of_the_gods%22_%2828279594953%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/%22Axe_of_the_gods%22_%2828279594953%29.jpg/1280px-%22Axe_of_the_gods%22_%2828279594953%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "\"Axe of the gods\" (28279594953).jpg",
-      "query": "双塔山 承德",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Axe_of_the_gods%22_(28279594953).jpg",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/%22Axe_of_the_gods%22_%2828279596973%29.jpg/1280px-%22Axe_of_the_gods%22_%2828279596973%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/%22Axe_of_the_gods%22_%2828279596973%29.jpg/1280px-%22Axe_of_the_gods%22_%2828279596973%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "\"Axe of the gods\" (28279596973).jpg",
-      "query": "双塔山 承德",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Axe_of_the_gods%22_(28279596973).jpg",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/%22Turtle_rock%22_shrine_%2828277247784%29.jpg/1280px-%22Turtle_rock%22_shrine_%2828277247784%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/%22Turtle_rock%22_shrine_%2828277247784%29.jpg/1280px-%22Turtle_rock%22_shrine_%2828277247784%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "\"Turtle rock\" shrine (28277247784).jpg",
-      "query": "双塔山 承德",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Turtle_rock%22_shrine_(28277247784).jpg",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "奇石",
-    "辽塔",
-    "奇观"
-  ],
-  "popularity": 72,
-  "sources": [
-    {
-      "title": "百度百科·双塔山",
-      "url": "https://baike.baidu.com/item/%E5%8F%8C%E5%A1%94%E5%B1%B1",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "双塔山"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/%22Axe_of_the_gods%22_%2828279596973%29.jpg/1280px-%22Axe_of_the_gods%22_%2828279596973%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/%22Axe_of_the_gods%22_%2828279596973%29.jpg/1280px-%22Axe_of_the_gods%22_%2828279596973%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "\"Axe of the gods\" (28279596973).jpg",
+   "query": "双塔山 承德",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Axe_of_the_gods%22_(28279596973).jpg",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "双塔山镇",
-  "_geocodeSuspect": false,
-  "district": "130803"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/%22Turtle_rock%22_shrine_%2828277247784%29.jpg/1280px-%22Turtle_rock%22_shrine_%2828277247784%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/%22Turtle_rock%22_shrine_%2828277247784%29.jpg/1280px-%22Turtle_rock%22_shrine_%2828277247784%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "\"Turtle rock\" shrine (28277247784).jpg",
+   "query": "双塔山 承德",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Turtle_rock%22_shrine_(28277247784).jpg",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "奇石",
+  "辽塔",
+  "奇观"
+ ],
+ "popularity": 72,
+ "sources": [
+  {
+   "title": "百度百科·双塔山",
+   "url": "https://baike.baidu.com/item/%E5%8F%8C%E5%A1%94%E5%B1%B1",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "双塔山"
+ },
+ "_geocodeTitle": "双塔山镇",
+ "_geocodeSuspect": false,
+ "district": "130803",
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "奇特度",
+    "score": 4.5,
+    "note": "两根石柱顶上各有一座辽代小塔，成因无定论"
+   },
+   {
+    "label": "体力",
+    "score": 3.4,
+    "note": "园区有步道与台阶"
+   },
+   {
+    "label": "配套",
+    "score": 3.4,
+    "note": "底下有步道和小庙，规模不大"
+   },
+   {
+    "label": "性价比",
+    "score": 3.9,
+    "note": "门票不贵，离市区近"
+   }
+  ],
+  "body": "两根并立的石柱，柱顶各有一座辽代小塔，古人怎么爬上去修的至今没有定论，这个谜就是全部看点。离市区近，顺路能看。缺点是看完柱子之后没什么别的可逛，园区不大，专程跑一趟会觉得单薄；石柱上不去，只能在底下仰头看，想拍清楚得靠长焦，手机拍出来常常只是一团黑。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "奇观",
+   "顺路"
+  ],
+  "avoid": [
+   "期待大园区"
+  ],
+  "sources": []
+ }
 }

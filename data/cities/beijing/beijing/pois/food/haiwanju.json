@@ -1,68 +1,126 @@
 {
-  "id": "haiwanju",
-  "name": "海碗居炸酱面(牡丹园店)",
-  "category": "food",
-  "subtype": "local",
-  "summary": "炸酱面做得比较认真的一家,菜码摆出来的仪式感很足。",
-  "description": "炸酱面的关键在酱与菜码:干黄酱加甜面酱慢熬出汪油,菜码是豆芽、黄豆、心里美萝卜丝、黄瓜丝等七八样分碟摆开,拌的时候自己掌握。海碗居把这套装盘方式做得比较完整,还保留了门口吆喝当年老北京店主招呼客人的形式。牡丹园店是口碑比较稳的一家,和游客聚集的前门店相比，本地客群比例更高。",
-  "highlights": [
-    "七碟八碗的菜码是看点",
-    "酱的炒工决定成败",
-    "门店吆喝保留旧形式"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.330821,
-      "lat": 39.927972,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "北京市海淀区花园路与华盛家园北侧",
-    "district": "海淀",
-    "transportTip": "地铁10号线健德门站/牡丹园一带"
+ "id": "haiwanju",
+ "name": "海碗居炸酱面(牡丹园店)",
+ "category": "food",
+ "subtype": "local",
+ "summary": "炸酱面做得比较认真的一家,菜码摆出来的仪式感很足。",
+ "description": "炸酱面的关键在酱与菜码:干黄酱加甜面酱慢熬出汪油,菜码是豆芽、黄豆、心里美萝卜丝、黄瓜丝等七八样分碟摆开,拌的时候自己掌握。海碗居把这套装盘方式做得比较完整,还保留了门口吆喝当年老北京店主招呼客人的形式。牡丹园店是口碑比较稳的一家,和游客聚集的前门店相比，本地客群比例更高。",
+ "highlights": [
+  "七碟八碗的菜码是看点",
+  "酱的炒工决定成败",
+  "门店吆喝保留旧形式"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.330821,
+   "lat": 39.927972,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约11:00-21:00(以门店公告为准)",
-    "openHoursRef": 0,
-    "ticket": "人均约45元起(以门店为准)",
-    "ticketRef": 0,
-    "duration": "建议 45-90 分钟",
-    "durationMinutes": [
-      45,
-      90
-    ],
-    "priceLevel": "budget"
+  "address": "北京市海淀区花园路2号（近花园东路，地铁10号线牡丹园站A口）",
+  "district": "海淀",
+  "transportTip": "地铁10号线健德门站/牡丹园一带"
+ },
+ "practical": {
+  "openHours": "约11:00-21:00(以门店公告为准)",
+  "openHoursRef": 0,
+  "ticket": "人均约45元起(以门店为准)",
+  "ticketRef": 0,
+  "duration": "建议 45-90 分钟",
+  "durationMinutes": [
+   45,
+   90
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "couple",
+  "kids",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "炸酱面",
+  "家常",
+  "性价比"
+ ],
+ "popularity": 79,
+ "sources": [
+  {
+   "title": "百度百科·炸酱面",
+   "url": "https://baike.baidu.com/item/%E7%82%B8%E9%85%B1%E9%9D%A2",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
   },
-  "audience": [
-    "couple",
-    "kids",
-    "solo"
+  {
+   "title": "工商登记（牡丹海碗居餐饮有限公司）注册地址花园路2号；图商 POI 与百科一致",
+   "url": "https://www.qcc.com/firm/5f2e29c9e9df3c1a5dc4124a23264db5.html",
+   "kind": "media",
+   "fetchedAt": "2026-11-14"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "海碗居炸酱面(牡丹园店)"
+ },
+ "_geocodeTitle": "海碗居老北京炸酱面大王(增光路总店)",
+ "_geocodeSuspect": false,
+ "district": "110108",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-14",
+  "changes": [
+   {
+    "field": "地址",
+    "old": "北京市海淀区花园路与华盛家园北侧",
+    "new": "北京市海淀区花园路2号（近花园东路，地铁10号线牡丹园站A口）"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "炸酱面",
-    "家常",
-    "性价比"
+  "source": "https://www.qcc.com/firm/5f2e29c9e9df3c1a5dc4124a23264db5.html",
+  "reason": "工商登记（牡丹海碗居餐饮有限公司）注册地址花园路2号；图商 POI 与百科一致"
+ },
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.0,
+    "note": "小碗干炸的酱香足，菜码分碟摆开"
+   },
+   {
+    "label": "价格",
+    "score": 3.5,
+    "note": "炸酱面人均 45 元起，在同城属偏贵的一档"
+   },
+   {
+    "label": "排队",
+    "score": 3.2,
+    "note": "饭点本地客多，等位不算短"
+   },
+   {
+    "label": "环境",
+    "score": 3.5,
+    "note": "灰砖青瓦的老北京装修，桌椅偏挤"
+   }
   ],
-  "popularity": 79,
+  "body": "冲着「七碟八碗」的菜码和门口那声吆喝来，仪式感确实给足了，酱也熬得比连锁面馆厚。缺点有两处：一是牡丹园店近两年工商记录不太干净（2026 年被列入经营异常、多次限高），门店是否稳定营业建议去之前打电话确认；二是这个价在炸酱面里偏贵，图省事不如去增光路总店。",
+  "basis": "web",
+  "at": "2026-11-14",
+  "fits": [
+   "想吃老北京炸酱面",
+   "带外地朋友"
+  ],
+  "avoid": [
+   "只想快速吃碗面"
+  ],
   "sources": [
-    {
-      "title": "百度百科·炸酱面",
-      "url": "https://baike.baidu.com/item/%E7%82%B8%E9%85%B1%E9%9D%A2",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "海碗居炸酱面(牡丹园店)"
-  },
-  "_geocodeTitle": "海碗居老北京炸酱面大王(增光路总店)",
-  "_geocodeSuspect": false,
-  "district": "110108",
-  "_noImage": true
+   "https://baike.baidu.com/item/%E6%B5%B7%E7%A2%97%E5%B1%85(%E7%89%A1%E4%B8%B9%E5%9B%AD%E5%BA%97)/14281031",
+   "https://www.qcc.com/cfengxian/5f2e29c9e9df3c1a5dc4124a23264db5.html"
+  ]
+ }
 }

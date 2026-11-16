@@ -1,6 +1,6 @@
 # 嘉兴 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-05
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-14
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | He Zhang | Pexels License | [pexels](https://www.pexels.com/photo/buildings-in-the-light-of-the-sunset-15906464/) |
-| 城市封面 | Lywin | Pexels License | [pexels](https://www.pexels.com/photo/skyline-of-a-city-reflecting-in-a-river-14230261/) |
-| 城市封面 | Neil Ni | Pexels License | [pexels](https://www.pexels.com/photo/modern-cityscape-with-river-at-sunset-31959622/) |
+| 城市封面 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B9%8C%E9%95%87_wu_zhen_-_panoramio.jpg) |
+| 城市封面 | 薄兰安 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%C2%B7%E5%8F%A4%E9%95%87%E6%B0%91%E5%B1%85_-_panoramio.jpg) |
+| 城市封面 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:South_Lake_(Jiaxing).jpg) |
 | 范蠡湖 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://www.wikidata.org/wiki/Q15917168) |
 | 范蠡湖 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Fanli_Lake_03_2013-11.JPG) |
 | 范蠡湖 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Fanli_Lake_04_2013-11.JPG) |
@@ -116,11 +116,7 @@
 | 徐志摩故居(海宁) | 猫猫的日记本 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Residence_of_Xu_Zhimo_in_Haining_08_2014-08.JPG) |
 | 徐志摩故居(海宁) | 猫猫的日记本 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Residence_of_Xu_Zhimo_in_Haining_10_2014-08.JPG) |
 | 徐志摩故居(海宁) | 猫猫的日记本 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Residence_of_Xu_Zhimo_in_Haining_14_2014-08.JPG) |
-| 盐官观潮(海宁) | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yanguan_Seawall,_2025-03-01_01.jpg) |
-| 盐官观潮(海宁) | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yanguan_Seawall,_2025-03-01_02.jpg) |
-| 盐官观潮(海宁) | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yanguan_Seawall,_2025-03-01_03.jpg) |
 | 月河历史街区 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%98%89%E5%85%B4%E6%9C%88%E6%B2%B3%E5%8E%86%E5%8F%B2%E8%A1%97%E5%8C%BA.jpg) |
-| 月河历史街区 | Ddccxl | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%9C%88%E6%B2%B3.jpg) |
 | 月河历史街区 | Antigng | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%9C%88%E6%B2%B3%E5%8E%86%E5%8F%B2%E8%A1%97%E5%8C%BA.jpg) |
 | 嘉兴子城遗址 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%98%89%E5%85%B4%E5%AD%90%E5%9F%8E%E9%81%97%E5%9D%80,_2021-10-30_01.jpg) |
 | 嘉兴子城遗址 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%98%89%E5%85%B4%E5%AD%90%E5%9F%8E%E9%81%97%E5%9D%80,_2021-10-30_02.jpg) |

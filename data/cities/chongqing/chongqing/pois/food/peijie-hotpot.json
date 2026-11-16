@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "重庆市渝中区四贤巷3号青鸟大厦（较场口一带）",
-    "district": "南岸",
+    "district": "渝中",
     "transportTip": "轨道交通 2 号线较场口站，步行约 5 分钟"
   },
   "practical": {
@@ -55,7 +55,7 @@
       "fetchedAt": "2026-09-19"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,6 +63,44 @@
   },
   "_geocodeTitle": "宏源宾馆(重庆解放碑洪崖洞店)·珮姐老火锅楼上",
   "_geocodeSuspect": false,
-  "district": "500108",
-  "_noImage": true
+  "district": "500103",
+  "_noImage": true,
+  "review": {
+    "score": 4.1,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "锅底",
+        "score": 4.5,
+        "note": "牛油厚重，花椒麻味直接"
+      },
+      {
+        "label": "排队",
+        "score": 2.0,
+        "note": "饭点取号等到一两百桌是常态"
+      },
+      {
+        "label": "价格",
+        "score": 3.5,
+        "note": "人均一百三上下，解放碑商圈的正常价"
+      },
+      {
+        "label": "分量",
+        "score": 4.0,
+        "note": "毛肚鸭肠给得实在"
+      }
+    ],
+    "body": "牛油锅底厚重，花椒麻得直接，毛肚鸭肠按店家给的秒数涮确实更脆，酥肉和现炸糍粑也值得点。缺点是排队：饭点取号等到一两百桌不稀奇，等两小时吃一小时，赶行程的人别来。想吃得舒服就下午四点先取号，或者干脆换一家社区店。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "朋友聚餐",
+      "夜宵"
+    ],
+    "avoid": [
+      "赶时间",
+      "带老人小孩久等"
+    ],
+    "sources": []
+  }
 }

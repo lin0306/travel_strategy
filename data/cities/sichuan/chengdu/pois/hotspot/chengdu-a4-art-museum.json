@@ -1,0 +1,74 @@
+{
+  "id": "chengdu-a4-art-museum",
+  "name": "A4美术馆",
+  "category": "hotspot",
+  "subtype": "art",
+  "summary": "麓镇山顶的当代艺术馆，iSTART 儿童艺术节的发起地",
+  "description": "A4 美术馆在天府新区麓山大道，位于麓镇山顶广场，是成都当代艺术最重要的现场之一。它的展陈逻辑偏「艺术家个案」与实验性项目，从马克·夏加尔、马丁·博伊斯到国内的何翔宇、王郁洋，都做过完整个展，展览语汇比一般的美术馆更锋利。它同时是 iSTART 儿童艺术节的发起机构，把儿童艺术当作正经的当代艺术议题来做——这也是成都唯一一个带孩子去不会显得将就的美术馆。建筑本身在麓镇山顶，看完展可以在麓镇的山地商业街区里逛一圈，两侧是低密度的坡地建筑。需要留意的是它有两个容易混的地址：A4 美术馆在麓镇山顶广场，A4X 艺术中心在麓湖生态城艺展中心，导航前先看清票面写的是哪一个。周一闭馆，法定节假日正常开馆。",
+  "highlights": [
+    "以当代艺术家个案为主，展期更换频繁",
+    "iSTART 儿童艺术节的发起机构，带孩子看展友好",
+    "麓镇本身是坡地街区，看完展可顺路逛"
+  ],
+  "location": {
+    "point": {
+      "lng": 104.094612,
+      "lat": 30.482184,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "成都市天府新区麓山大道二段 18 号麓镇山顶广场",
+    "district": "双流区",
+    "transportTip": "地铁 1 号线红石公园站换麓湖园区巴士；公交 T1 路艺展中心站"
+  },
+  "practical": {
+    "openHours": "周二至周日 10:00-18:00（17:30 最后入场），周一闭馆",
+    "openHoursRef": 0,
+    "ticket": "展览票约 68 元，学生 58 元",
+    "ticketRef": 0,
+    "duration": "建议 90-120 分钟",
+    "durationMinutes": [
+      90,
+      120
+    ],
+    "priceLevel": "mid"
+  },
+  "audience": [
+    "solo",
+    "couple",
+    "friends",
+    "family",
+    "kids"
+  ],
+  "accessible": true,
+  "tips": [
+    "周一闭馆，法定节假日正常开馆",
+    "门票按当期展览单独售卖，去前查一下展讯",
+    "A4 美术馆在麓镇、A4X 在麓湖艺展中心，别导航错"
+  ],
+  "images": [],
+  "coverIndex": 0,
+  "tags": [
+    "当代艺术",
+    "iSTART",
+    "麓湖"
+  ],
+  "popularity": 68,
+  "sources": [
+    {
+      "title": "A4 美术馆 · 开馆时间（官网）",
+      "url": "https://www.a4artmuseum.com/zh/",
+      "kind": "official",
+      "fetchedAt": "2026-11-06"
+    }
+  ],
+  "updatedAt": "2026-11-06",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "A4 Art Museum",
+    "zh": "A4美术馆"
+  },
+  "_geocodeTitle": "A4美术馆",
+  "_geocodeSuspect": false,
+  "_noImage": true,
+  "district": "510116"
+}

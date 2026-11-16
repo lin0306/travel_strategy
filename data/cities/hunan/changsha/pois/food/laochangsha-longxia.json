@@ -1,67 +1,109 @@
 {
-  "id": "laochangsha-longxia",
-  "name": "老长沙龙虾馆",
-  "category": "food",
-  "subtype": "local",
-  "summary": "做口味虾的店，夏天长沙夜宵的主角就在这张桌上。",
-  "description": "文和友的老长沙龙虾馆在湘江中路一带，招牌是口味虾与油爆虾。小龙虾按斤上，口味虾是带汤的做法，紫苏、蒜、辣椒一起煮，虾肉蘸着汤吃，底下常垫一份清水面——面条拌汤是这盘虾的收尾。油爆虾是另一路，过油后拌料，虾壳脆，适合直接用手。配着吃的还有臭豆腐、烤串、炒粉和啤酒。四到十月是虾季，夏天晚上店里满座，排队一两个小时不稀奇。它在湘江边，吃完往江边走几步就是杜甫江阁那一带。",
-  "highlights": [
-    "口味虾带汤，紫苏蒜辣椒同煮",
-    "盘底垫清水面，拌汤是收尾",
-    "四到十月是虾季，夏季晚上常排队"
-  ],
-  "location": {
-    "point": {
-      "lng": 112.975872,
-      "lat": 28.193624,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "湖南省长沙市天心区湘江中路二段72号",
-    "district": "天心区",
-    "transportTip": "地铁1号线南门口站，步行约十分钟"
+ "id": "laochangsha-longxia",
+ "name": "老长沙龙虾馆",
+ "category": "food",
+ "subtype": "local",
+ "summary": "做口味虾的店，夏天长沙夜宵的主角就在这张桌上。",
+ "description": "文和友的老长沙龙虾馆在湘江中路一带，招牌是口味虾与油爆虾。小龙虾按斤上，口味虾是带汤的做法，紫苏、蒜、辣椒一起煮，虾肉蘸着汤吃，底下常垫一份清水面——面条拌汤是这盘虾的收尾。油爆虾是另一路，过油后拌料，虾壳脆，适合直接用手。配着吃的还有臭豆腐、烤串、炒粉和啤酒。四到十月是虾季，夏天晚上店里满座，排队一两个小时不稀奇。它在湘江边，吃完往江边走几步就是杜甫江阁那一带。",
+ "highlights": [
+  "口味虾带汤，紫苏蒜辣椒同煮",
+  "盘底垫清水面，拌汤是收尾",
+  "四到十月是虾季，夏季晚上常排队"
+ ],
+ "location": {
+  "point": {
+   "lng": 112.975872,
+   "lat": 28.193624,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约16:30-次日02:00（虾季），以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "人均约120元起，以实际消费为准",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "friends",
-    "couple",
-    "solo"
+  "address": "湖南省长沙市天心区湘江中路二段72号",
+  "district": "天心区",
+  "transportTip": "地铁1号线南门口站，步行约十分钟"
+ },
+ "practical": {
+  "openHours": "约16:30-次日02:00（虾季），以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "人均约120元起，以实际消费为准",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "口味虾",
-    "夜宵",
-    "湘江边"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "friends",
+  "couple",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "口味虾",
+  "夜宵",
+  "湘江边"
+ ],
+ "popularity": 85,
+ "sources": [
+  {
+   "title": "百度百科·文和友",
+   "url": "https://baike.baidu.com/item/%E6%96%87%E5%92%8C%E5%8F%8B",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "老长沙龙虾馆"
+ },
+ "_geocodeTitle": "虾小龙老长沙龙虾馆(长沙春天店)",
+ "district": "430103",
+ "_noImage": true,
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.5,
+    "note": "口味虾带汤，紫苏蒜辣椒同煮"
+   },
+   {
+    "label": "排队",
+    "score": 2.0,
+    "note": "虾季晚上排队一两个小时不稀奇"
+   },
+   {
+    "label": "价格",
+    "score": 2.8,
+    "note": "人均过百，虾规格不算大"
+   },
+   {
+    "label": "环境",
+    "score": 3.0,
+    "note": "嘈杂，说话要靠喊"
+   }
   ],
-  "popularity": 85,
+  "body": "口味虾是带汤的做法，紫苏、蒜、辣椒一起煮，虾肉蘸汤吃，盘底那份清水面拌汤才是收尾，这套吃法很长沙。缺点是虾季的晚上排队一两个小时不稀奇，人均过百不算便宜；虾的规格不算大，走量为主，追求大虾的会失望；店里嘈杂，说话基本要靠喊。四到十月来最合适，淡季菜单会单薄，吃完往江边走几步就是杜甫江阁。",
+  "basis": "web",
+  "at": "2026-11-14",
+  "fits": [
+   "夜宵",
+   "虾季",
+   "朋友聚"
+  ],
+  "avoid": [
+   "淡季",
+   "安静吃饭"
+  ],
   "sources": [
-    {
-      "title": "百度百科·文和友",
-      "url": "https://baike.baidu.com/item/%E6%96%87%E5%92%8C%E5%8F%8B",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "老长沙龙虾馆"
-  },
-  "_geocodeTitle": "虾小龙老长沙龙虾馆(长沙春天店)",
-  "district": "430103",
-  "_noImage": true
+   "https://m.tuniu.com/restaurant/3682406/",
+   "https://www.cnpp100.com/shop/21030.html"
+  ]
+ }
 }

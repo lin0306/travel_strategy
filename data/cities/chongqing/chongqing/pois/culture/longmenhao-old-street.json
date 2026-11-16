@@ -1,67 +1,137 @@
 {
-  "id": "longmenhao-old-street",
-  "name": "龙门浩老街",
-  "category": "culture",
-  "subtype": "street",
-  "summary": "东水门大桥下的老街，开埠时期建筑与江景叠在一起。",
-  "description": "龙门浩在长江南岸、东水门大桥桥头，重庆开埠后这一带曾设海关、建使馆与洋行，留下了一批中西合璧的老建筑。老街依着山坡层层上升，青砖灰瓦与拱廊并存，往上走到高处可以平视渝中半岛与东水门大桥，是看江景与老建筑同框的好位置。夜里灯光打在老墙上，人比洪崖洞少很多，适合慢慢走。",
-  "highlights": [
-    "开埠时期中西合璧建筑",
-    "高处可平视渝中半岛与大桥",
-    "夜景安静，人流适中"
-  ],
-  "location": {
-    "point": {
-      "lng": 106.594751,
-      "lat": 29.556022,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "重庆市南岸区龙门浩",
-    "district": "南岸",
-    "transportTip": "轨道交通 6 号线上新街站，步行约 10 分钟"
+ "id": "longmenhao-old-street",
+ "name": "龙门浩老街",
+ "category": "culture",
+ "subtype": "street",
+ "summary": "东水门大桥下的老街，开埠时期建筑与江景叠在一起。",
+ "description": "龙门浩在长江南岸、东水门大桥桥头，重庆开埠后这一带曾设海关、建使馆与洋行，留下了一批中西合璧的老建筑。老街依着山坡层层上升，青砖灰瓦与拱廊并存，往上走到高处可以平视渝中半岛与东水门大桥，是看江景与老建筑同框的好位置。夜里灯光打在老墙上，人比洪崖洞少很多，适合慢慢走。",
+ "highlights": [
+  "开埠时期中西合璧建筑",
+  "高处可平视渝中半岛与大桥",
+  "夜景安静，人流适中"
+ ],
+ "location": {
+  "point": {
+   "lng": 106.594751,
+   "lat": 29.556022,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 10:00-22:00（以现场公告为准）",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
+  "address": "重庆市南岸区南滨路105号",
+  "district": "南岸",
+  "transportTip": "轨道交通 6 号线／环线 上新街站 2 号口步行约 5 分钟，由上入口进全程下坡；长江索道南站下站步行可达"
+ },
+ "practical": {
+  "openHours": "全天开放（街区无门禁，店铺多为 10:00-22:00）",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [
+  "2025 年 2 月入选第四批国家级旅游休闲街区，全街区由 200 余幢不同时期建筑组成，含 18 栋优秀历史文物建筑",
+  "依山而建、石阶多，穿平底鞋；从上入口（上新街侧）进是一路下坡，反过来走要爬坡",
+  "揽月台 270 度环瞰两江与东水门大桥，傍晚入园可一次收下白日江景和亮灯后的夜景"
+ ],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "开埠",
+  "老建筑",
+  "江景",
+  "免费"
+ ],
+ "popularity": 78,
+ "sources": [
+  {
+   "title": "百度百科·龙门浩",
+   "url": "https://baike.baidu.com/item/%E9%BE%99%E9%97%A8%E6%B5%A9%E8%80%81%E8%A1%97",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
   },
-  "audience": [
-    "couple"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "开埠",
-    "老建筑",
-    "江景",
-    "免费"
-  ],
-  "popularity": 78,
-  "sources": [
-    {
-      "title": "百度百科·龙门浩",
-      "url": "https://baike.baidu.com/item/%E9%BE%99%E9%97%A8%E6%B5%A9%E8%80%81%E8%A1%97",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "龙门浩老街"
+  {
+   "title": "百科「旅游信息」：南滨路105号、全年全天开放、免费；交通与入口据同段交通指南",
+   "url": "https://baike.baidu.com/item/%E9%BE%8D%E9%96%80%E6%B5%A9/10843674",
+   "kind": "media",
+   "fetchedAt": "2026-11-14"
   },
-  "_geocodeTitle": "龙门浩老街",
-  "_geocodeSuspect": false,
-  "district": "500108",
-  "_noImage": true
+  {
+   "title": "南岸区政府 2025-03-17：龙门浩老街入选文旅部第四批国家级旅游休闲街区，",
+   "url": "https://www.cqna.gov.cn//bm/qzfcxjw/sy/dt_59966/202503/t20250317_14411210.html",
+   "kind": "media",
+   "fetchedAt": "2026-11-14"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "龙门浩老街"
+ },
+ "_geocodeTitle": "龙门浩老街",
+ "_geocodeSuspect": false,
+ "district": "500108",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-14",
+  "changes": [
+   {
+    "field": "贴士（用 | 分隔多条，整体替换）",
+    "old": [],
+    "new": [
+     "2025 年 2 月入选第四批国家级旅游休闲街区，全街区由 200 余幢不同时期建筑组成，含 18 栋优秀历史文物建筑",
+     "依山而建、石阶多，穿平底鞋；从上入口（上新街侧）进是一路下坡，反过来走要爬坡",
+     "揽月台 270 度环瞰两江与东水门大桥，傍晚入园可一次收下白日江景和亮灯后的夜景"
+    ]
+   }
+  ],
+  "source": "https://www.cqna.gov.cn//bm/qzfcxjw/sy/dt_59966/202503/t20250317_14411210.html",
+  "reason": "南岸区政府 2025-03-17：龙门浩老街入选文旅部第四批国家级旅游休闲街区，200 余幢建筑含 18 栋优秀历史文物建筑"
+ },
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "建筑",
+    "score": 4.5,
+    "note": "开埠时期中西合璧，拱廊与青砖并存"
+   },
+   {
+    "label": "江景",
+    "score": 4.6,
+    "note": "高处可平视渝中半岛与东水门大桥"
+   },
+   {
+    "label": "商业化",
+    "score": 3.4,
+    "note": "店铺以咖啡与餐饮为主"
+   },
+   {
+    "label": "人流",
+    "score": 4.0,
+    "note": "夜里比洪崖洞安静"
+   }
+  ],
+  "body": "老街依山层层上升，开埠时期的洋行与使馆建筑留下一批拱廊和青砖立面，走到高处正好平视渝中半岛和东水门大桥，是看江景与老建筑同框的好位置；夜里灯打在老墙上，人比洪崖洞少很多。不足是石阶多、一路爬坡，穿平底鞋才走得舒服，街区里的店以咖啡和餐饮为主，逛的内容其实不算多。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "看江景",
+   "拍老建筑"
+  ],
+  "avoid": [
+   "腿脚不便",
+   "想逛成规模的商业街"
+  ],
+  "sources": []
+ }
 }

@@ -1,66 +1,136 @@
 {
-  "id": "manzu-show",
-  "name": "满族民俗展演",
-  "category": "culture",
-  "subtype": "performance",
-  "summary": "承德一带满族民俗的展示与表演，服饰、歌舞和礼俗，节庆时多。",
-  "description": "承德一带满族人多，民俗有底子。在一些场馆和节庆上，能看到满族的服饰、歌舞和礼俗展演 —— 旗装、马上的动作、还有萨满的一些东西。它不是每天都有，节庆和旺季多一些。看一场能对这片的民族构成多点了解。",
-  "highlights": [
-    "满族服饰歌舞礼俗展演",
-    "旗装与马上动作等",
-    "节庆旺季多，非每日有"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.929544,
-      "lat": 40.986904,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市双桥区民俗展演场所",
-    "district": "双桥区",
-    "transportTip": "市区场馆或节庆场地"
+ "id": "manzu-show",
+ "name": "满族民俗展演",
+ "category": "culture",
+ "subtype": "performance",
+ "summary": "承德一带满族民俗的展示与表演，服饰、歌舞和礼俗，节庆时多。",
+ "description": "承德一带满族人多，民俗有底子。在一些场馆和节庆上，能看到满族的服饰、歌舞和礼俗展演 —— 旗装、马上的动作、还有萨满的一些东西。它不是每天都有，节庆和旺季多一些。看一场能对这片的民族构成多点了解。",
+ "highlights": [
+  "满族服饰歌舞礼俗展演",
+  "旗装与马上动作等",
+  "节庆旺季多，非每日有"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.929544,
+   "lat": 40.986904,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "节庆与旺季，以公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费或低价",
-    "ticketRef": 0,
-    "duration": "建议 40-90 分钟",
-    "durationMinutes": [
-      40,
-      90
-    ],
-    "priceLevel": "free"
+  "address": "河北省承德市双桥区避暑山庄内（芳园居非遗展演区）",
+  "district": "双桥区",
+  "transportTip": "市区场馆或节庆场地"
+ },
+ "practical": {
+  "openHours": "节庆与旺季，以公告为准",
+  "openHoursRef": 0,
+  "ticket": "免费或低价",
+  "ticketRef": 0,
+  "duration": "建议 40-90 分钟",
+  "durationMinutes": [
+   40,
+   90
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "elders",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [
+  "市文旅局「非遗进景区」常态化：丰宁满族剪纸、布糊画、面塑、热河缠花都有展位",
+  "承德鼓乐堂的鼓乐舞蹈在芳园居指定区域演出，每场约 15 分钟",
+  "节庆时（五一、中秋）满族歌舞会挪到德汇门广场一类开阔场地",
+  "具体场次看景区当日公告，不是每天都有"
+ ],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "满族",
+  "民俗",
+  "展演"
+ ],
+ "popularity": 54,
+ "sources": [
+  {
+   "title": "百度百科·满族",
+   "url": "https://baike.baidu.com/item/%E6%BB%A1%E6%97%8F",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
   },
-  "audience": [
-    "elders",
-    "family"
+  {
+   "title": "承德市旅游和文化广电局 2026「非遗进景区」：展演与鼓乐舞蹈均在避暑山庄芳园居",
+   "url": "http://mp.weixin.qq.com/s?__biz=MzkyODU3MDU4NA==&mid=2247594613&idx=1&sn=7b969a8e5af2c09689851cbe98a8907f",
+   "kind": "media",
+   "fetchedAt": "2026-11-14"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "满族民俗展演"
+ },
+ "_geocodeTitle": "碧峰门民俗文化街8号楼",
+ "district": "130802",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-14",
+  "changes": [
+   {
+    "field": "地址",
+    "old": "河北省承德市双桥区民俗展演场所",
+    "new": "河北省承德市双桥区避暑山庄内（芳园居非遗展演区）"
+   },
+   {
+    "field": "贴士（用 | 分隔多条，整体替换）",
+    "old": [],
+    "new": [
+     "市文旅局「非遗进景区」常态化：丰宁满族剪纸、布糊画、面塑、热河缠花都有展位",
+     "承德鼓乐堂的鼓乐舞蹈在芳园居指定区域演出，每场约 15 分钟",
+     "节庆时（五一、中秋）满族歌舞会挪到德汇门广场一类开阔场地",
+     "具体场次看景区当日公告，不是每天都有"
+    ]
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "满族",
-    "民俗",
-    "展演"
+  "source": "http://mp.weixin.qq.com/s?__biz=MzkyODU3MDU4NA==&mid=2247594613&idx=1&sn=7b969a8e5af2c09689851cbe98a8907f",
+  "reason": "承德市旅游和文化广电局 2026「非遗进景区」：展演与鼓乐舞蹈均在避暑山庄芳园居，每场 15 分钟；原地址「民俗展演场所」是占位串"
+ },
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "内容",
+    "score": 4.0,
+    "note": "旗装、萨满元素、鼓乐舞蹈都有，非遗展位是真人在做"
+   },
+   {
+    "label": "确定性",
+    "score": 2.6,
+    "note": "节庆与旺季才有，不是每天演"
+   },
+   {
+    "label": "时长",
+    "score": 3.2,
+    "note": "单场约一刻钟，看完还想多看"
+   },
+   {
+    "label": "性价比",
+    "score": 4.0,
+    "note": "免费或低价，撞上就是赚"
+   }
   ],
-  "popularity": 54,
-  "sources": [
-    {
-      "title": "百度百科·满族",
-      "url": "https://baike.baidu.com/item/%E6%BB%A1%E6%97%8F",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "body": "比想象中扎实：丰宁剪纸、布糊画、面塑这些非遗是真人守着展位在做，鼓乐舞蹈在芳园居那片演，一场一刻钟。最大的短板是场次不固定 —— 不是每天都有，专程为它跑一趟容易扑空，赶上了就当白捡的。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "带老人",
+   "下雨天备选"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "满族民俗展演"
-  },
-  "_geocodeTitle": "碧峰门民俗文化街8号楼",
-  "district": "130802",
-  "_noImage": true
+  "avoid": [
+   "专程为演出而来"
+  ],
+  "sources": []
+ }
 }

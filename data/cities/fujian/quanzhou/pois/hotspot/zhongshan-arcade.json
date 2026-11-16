@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "福建省泉州市鲤城区中山路",
-    "district": "丰泽区",
+    "district": "鲤城区",
     "transportTip": "老城步行可达"
   },
   "practical": {
@@ -38,38 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Ducheng_Town_-_20190209-1.jpg/1280px-Ducheng_Town_-_20190209-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Ducheng_Town_-_20190209-1.jpg/1280px-Ducheng_Town_-_20190209-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 721,
-      "alt": "Ducheng Town - 20190209-1.jpg",
-      "query": "中山路骑楼",
-      "credit": {
-        "source": "wikimedia",
-        "author": "DragonSamYU",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ducheng_Town_-_20190209-1.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Ducheng_Town_-_20190209-2.jpg/1280px-Ducheng_Town_-_20190209-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Ducheng_Town_-_20190209-2.jpg/1280px-Ducheng_Town_-_20190209-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 721,
-      "alt": "Ducheng Town - 20190209-2.jpg",
-      "query": "中山路骑楼",
-      "credit": {
-        "source": "wikimedia",
-        "author": "DragonSamYU",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ducheng_Town_-_20190209-2.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "骑楼",
@@ -85,7 +54,7 @@
       "fetchedAt": "2026-10-01"
     }
   ],
-  "updatedAt": "2026-10-27",
+  "updatedAt": "2026-11-10",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -93,5 +62,19 @@
   },
   "_geocodeTitle": "中山路骑楼",
   "_geocodeSuspect": false,
-  "district": "350503"
+  "district": "350502",
+  "_patrol": {
+    "changes": [
+      {
+        "at": "2026-11-10",
+        "field": "image",
+        "from": "2 张 Ducheng Town（广东郁南都城中山路骑楼）",
+        "to": "已删，置 _noImage",
+        "why": "Commons 关键词「中山路骑楼」返回异地同名街道，非泉州中山路",
+        "by": "patrol"
+      }
+    ],
+    "lastChecked": "2026-11-10"
+  },
+  "_noImage": true
 }

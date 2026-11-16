@@ -1,69 +1,192 @@
 {
-  "id": "haihe-scenic",
-  "name": "海河风景线",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "穿城而过的一条河，两岸的桥与旧楼是天津的正面。",
-  "description": "海河从三岔河口起，往东南穿过整个市区到塘沽入海，城里这一段是天津的主轴。两岸排着不同年代的东西：三岔河口一带是引滦入津纪念碑与老码头，往南过狮子林桥、金汤桥、解放桥，桥的样式从老铁桥一路排到现代斜拉。西侧是古文化街与老城厢，东侧是意风区、津湾广场和一片银行旧楼。河堤修了连续的步行道，从天津之眼那一段一路能走到小白楼。晚上两岸的楼会打灯，游船从天津站前的码头出发。这一段不收门票，走多远自己定。",
-  "highlights": [
-    "穿城主轴，两岸排着不同年代的桥",
-    "河堤步行道连续，可从天津之眼走到小白楼",
-    "晚间两岸打灯，游船从天津站前出发"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.194788,
-      "lat": 39.133339,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "天津市海河两岸（三岔河口至光华桥段）",
-    "district": "和平",
-    "transportTip": "地铁2号线/3号线天津站站，或9号线大王庄站，下到河堤"
+ "id": "haihe-scenic",
+ "name": "海河风景线",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "穿城而过的一条河，两岸的桥与旧楼是天津的正面。",
+ "description": "海河从三岔河口起，往东南穿过整个市区到塘沽入海，城里这一段是天津的主轴。两岸排着不同年代的东西：三岔河口一带是引滦入津纪念碑与老码头，往南过狮子林桥、金汤桥、解放桥，桥的样式从老铁桥一路排到现代斜拉。西侧是古文化街与老城厢，东侧是意风区、津湾广场和一片银行旧楼。河堤修了连续的步行道，从天津之眼那一段一路能走到小白楼。晚上两岸的楼会打灯，游船从天津站前的码头出发。这一段不收门票，走多远自己定。",
+ "highlights": [
+  "穿城主轴，两岸排着不同年代的桥",
+  "河堤步行道连续，可从天津之眼走到小白楼",
+  "晚间两岸打灯，游船从天津站前出发"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.194788,
+   "lat": 39.133339,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放（游船班次另计），以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费（游船另计），以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 60-180 分钟",
-    "durationMinutes": [
-      60,
-      180
-    ],
-    "priceLevel": "free"
+  "address": "天津市海河两岸（三岔河口至光华桥段）",
+  "district": "和平",
+  "transportTip": "地铁2号线/3号线天津站站，或9号线大王庄站，下到河堤"
+ },
+ "practical": {
+  "openHours": "全天开放（游船班次另计），以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "免费（游船另计），以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 60-180 分钟",
+  "durationMinutes": [
+   60,
+   180
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "family",
+  "solo",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/%E6%97%B6%E4%BB%A3%E7%9A%84%E5%8F%98%E8%BF%81_-_Buildings_of_Different_Ages_-_2012.05_-_2012.05_-_panoramio.jpg/1280px-%E6%97%B6%E4%BB%A3%E7%9A%84%E5%8F%98%E8%BF%81_-_Buildings_of_Different_Ages_-_2012.05_-_2012.05_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/%E6%97%B6%E4%BB%A3%E7%9A%84%E5%8F%98%E8%BF%81_-_Buildings_of_Different_Ages_-_2012.05_-_2012.05_-_panoramio.jpg/1280px-%E6%97%B6%E4%BB%A3%E7%9A%84%E5%8F%98%E8%BF%81_-_Buildings_of_Different_Ages_-_2012.05_-_2012.05_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "时代的变迁 - Buildings of Different Ages - 2012.05 - 2012.05 - panoramio.jpg",
+   "query": "海河风景线",
+   "credit": {
+    "source": "wikimedia",
+    "author": "rheins",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "couple",
-    "family",
-    "solo",
-    "friends"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "海河",
-    "桥",
-    "夜景"
-  ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·海河",
-      "url": "https://baike.baidu.com/item/%E6%B5%B7%E6%B2%B3",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-27"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "海河风景线"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/%E8%87%AA%E7%94%B1%E9%81%9328%E5%8F%B7.jpg/1280px-%E8%87%AA%E7%94%B1%E9%81%9328%E5%8F%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/%E8%87%AA%E7%94%B1%E9%81%9328%E5%8F%B7.jpg/1280px-%E8%87%AA%E7%94%B1%E9%81%9328%E5%8F%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "自由道28号.jpg",
+   "query": "海河风景线",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Xrdtj",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "海河风景线",
-  "_geocodeSuspect": false,
-  "district": "120101",
-  "_noImage": true
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/%E6%B0%91%E6%97%8F%E8%B7%AF43%E5%8F%B7.jpg/1280px-%E6%B0%91%E6%97%8F%E8%B7%AF43%E5%8F%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/%E6%B0%91%E6%97%8F%E8%B7%AF43%E5%8F%B7.jpg/1280px-%E6%B0%91%E6%97%8F%E8%B7%AF43%E5%8F%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "民族路43号.jpg",
+   "query": "海河风景线",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Xrdtj",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Fountain_on_Marco_Polo_Square_20160825-3.jpg/1280px-Fountain_on_Marco_Polo_Square_20160825-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Fountain_on_Marco_Polo_Square_20160825-3.jpg/1280px-Fountain_on_Marco_Polo_Square_20160825-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Fountain on Marco Polo Square 20160825-3.jpg",
+   "query": "海河风景线",
+   "credit": {
+    "source": "wikimedia",
+    "author": "そらみみ",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "海河",
+  "桥",
+  "夜景"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·海河",
+   "url": "https://baike.baidu.com/item/%E6%B5%B7%E6%B2%B3",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-27"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "海河风景线"
+ },
+ "_geocodeTitle": "海河风景线",
+ "_geocodeSuspect": false,
+ "district": "120101",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "夜景",
+    "score": 4.6,
+    "note": "两岸楼体晚间亮灯，是天津最好看的一段"
+   },
+   {
+    "label": "漫步",
+    "score": 4.2,
+    "note": "河堤步行道连续，可从天津之眼一路走到小白楼"
+   },
+   {
+    "label": "人流",
+    "score": 3.2,
+    "note": "桥上与码头附近傍晚最挤"
+   },
+   {
+    "label": "配套",
+    "score": 3.4,
+    "note": "座椅与卫生间不密，游船另收费"
+   }
+  ],
+  "body": "海河是天津最省力的看城方式：一条河把不同年代的桥串起来，从老铁桥排到现代斜拉，走一段等于读一遍城市的立面。晚上两岸楼体打灯、水面反光，是它最好看的时候；白天来会觉得只是一条普通的河，景观集中度不高。缺点是步行道并非全程连续，中间要绕上桥再下到对岸，走完整段比想象中累。游船从天津站前的码头出发，班次与票价以现场为准。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "傍晚散步",
+   "看夜景",
+   "情侣"
+  ],
+  "avoid": [
+   "白天赶时间",
+   "想一次看完单一景点"
+  ],
+  "sources": []
+ }
 }

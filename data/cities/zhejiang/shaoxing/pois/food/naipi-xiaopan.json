@@ -1,68 +1,126 @@
 {
-  "id": "naipi-xiaopan",
-  "name": "奶油小攀",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "绍兴老式甜点，蛋奶酥壳小杯。",
-  "description": "奶油小攀是绍兴传统的老式甜点，用面粉壳托着蛋奶馅、顶上缀蛋清糖霜，形似小杯，外酥内滑、甜而不腻。它源自西点本土化，是老绍兴人记忆里的下午茶。老字号与糕点铺有售，趁新鲜吃最好。几块钱一个，适合甜口爱好者。",
-  "highlights": [
-    "面粉壳托蛋奶馅的小杯甜点",
-    "外酥内滑，甜而不腻",
-    "老绍兴下午茶记忆"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.584003,
-      "lat": 29.990945,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "绍兴市越城区糕点老店",
-    "district": "越城区",
-    "transportTip": "老城糕点铺"
+ "id": "naipi-xiaopan",
+ "name": "奶油小攀",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "绍兴老式甜点，蛋奶酥壳小杯。",
+ "description": "奶油小攀是绍兴传统的老式甜点，用面粉壳托着蛋奶馅、顶上缀蛋清糖霜，形似小杯，外酥内滑、甜而不腻。它源自西点本土化，是老绍兴人记忆里的下午茶。老字号与糕点铺有售，趁新鲜吃最好。几块钱一个，适合甜口爱好者。",
+ "highlights": [
+  "面粉壳托蛋奶馅的小杯甜点",
+  "外酥内滑，甜而不腻",
+  "老绍兴下午茶记忆"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.584003,
+   "lat": 29.990945,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:30-20:00（以门店为准）",
-    "openHoursRef": 0,
-    "ticket": "人均约6元，以门店为准",
-    "ticketRef": 0,
-    "duration": "建议 15-30 分钟",
-    "durationMinutes": [
-      15,
-      30
-    ],
-    "priceLevel": "budget"
+  "address": "绍兴市越城区新建南路 608 号（高老太奶油小攀）",
+  "district": "越城区",
+  "transportTip": "老城糕点铺"
+ },
+ "practical": {
+  "openHours": "约08:30-20:00（以门店为准）",
+  "openHoursRef": 0,
+  "ticket": "人均约6元，以门店为准",
+  "ticketRef": 0,
+  "duration": "建议 15-30 分钟",
+  "durationMinutes": [
+   15,
+   30
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "couple",
+  "solo",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "甜点",
+  "蛋奶",
+  "老式"
+ ],
+ "popularity": 72,
+ "sources": [
+  {
+   "title": "百度百科·奶油小攀",
+   "url": "https://baike.baidu.com/item/%E5%A5%B6%E6%B2%B9%E5%B0%8F%E6%94%80",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
   },
-  "audience": [
-    "couple",
-    "solo",
-    "elders"
+  {
+   "title": "浙江文旅资讯2026-01推荐：高老太奶油小攀新建南路608号",
+   "url": "https://news.qq.com/rain/a/20260102A01T1A00",
+   "kind": "media",
+   "fetchedAt": "2026-11-12"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "奶油小攀"
+ },
+ "_geocodeTitle": "高老太奶油小攀(新建南路店)",
+ "_geocodeSuspect": false,
+ "district": "330602",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-12",
+  "changes": [
+   {
+    "field": "地址",
+    "old": "绍兴市越城区糕点老店",
+    "new": "绍兴市越城区新建南路 608 号（高老太奶油小攀）"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "甜点",
-    "蛋奶",
-    "老式"
+  "source": "https://news.qq.com/rain/a/20260102A01T1A00",
+  "reason": "浙江文旅资讯2026-01推荐：高老太奶油小攀新建南路608号"
+ },
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.1,
+    "note": "外壳酥、蛋奶馅滑，顶上糖霜微甜"
+   },
+   {
+    "label": "价格",
+    "score": 4.5,
+    "note": "几块钱一个，试错成本低"
+   },
+   {
+    "label": "环境",
+    "score": 2.8,
+    "note": "老店门面小，基本没有座位"
+   },
+   {
+    "label": "时机",
+    "score": 3.6,
+    "note": "趁热吃最好，凉了发腻"
+   }
   ],
-  "popularity": 72,
+  "body": "老绍兴的下午茶，面粉壳托着蛋奶馅、顶上一层蛋清糖霜，拿到手趁热挖一勺最香，外酥内滑。缺点是放凉之后甜腻感明显，别一次买好几个；老店门面很小、基本没有座位，只能端着在巷子里吃。新建南路的高老太是最常被提的那家。",
+  "basis": "web",
+  "at": "2026-11-12",
+  "fits": [
+   "甜食",
+   "随手吃"
+  ],
+  "avoid": [
+   "打包带走"
+  ],
   "sources": [
-    {
-      "title": "百度百科·奶油小攀",
-      "url": "https://baike.baidu.com/item/%E5%A5%B6%E6%B2%B9%E5%B0%8F%E6%94%80",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "奶油小攀"
-  },
-  "_geocodeTitle": "高老太奶油小攀(新建南路店)",
-  "_geocodeSuspect": false,
-  "district": "330602",
-  "_noImage": true
+   "https://news.qq.com/rain/a/20260102A01T1A00",
+   "https://www.toutiao.com/article/7619485808568468031"
+  ]
+ }
 }

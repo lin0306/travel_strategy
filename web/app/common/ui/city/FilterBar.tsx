@@ -129,42 +129,64 @@ export function FilterBar({
             aria-label={openSub ? '收起细类筛选' : '展开细类筛选'}
             className="inline-flex size-9 flex-none items-center justify-center rounded-full border border-line text-ink-2 hover:border-primary hover:text-primary md:size-7"
           >
-            <Icon name={openSub ? 'chev-up' : 'chev-down'} size="sm" />
+            {/* 展开方向指示：箭头跟着状态转 180°，而不是换一张图 —— 视觉上是"同一枚在转" */}
+            <Icon
+              name="chev-down"
+              size="sm"
+              className={`transition-transform duration-200 ${openSub ? 'rotate-180' : ''}`}
+            />
           </button>
         ) : null}
       </div>
 
-      {openSub ? (
-        /*
-         * ★ 移动端**横向滚动**而不是换行（2026-10-25）：字号放大后 8 枚细类会换 4 行，
-         *   在 56svh 的 Sheet 里吃掉一半高度、把列表挤到只剩 ~120px。
-         *   细类兼作**图例**（色点 + 名称 + 计数），所以不隐藏任何一枚 —— 让它滚。
-         *   `.scroll` 是 app.css 里唯一的滚动容器样式出处（不自己写 overflow 修饰）。
-         */
-        <div className="scroll-x flex gap-1.5 pb-1.5 md:flex-wrap md:overflow-visible md:pb-0">
-          {subList.map((s) => {
-            const on = subtype === s
-            return (
-              <button
-                key={s}
-                type="button"
-                onClick={() => onSubtype(on ? null : s)}
-                className={`flex h-8 flex-none items-center gap-1.5 rounded-full border px-2 whitespace-nowrap text-[13px] md:h-6.5 md:text-[11.5px] ${
-                  on ? 'border-ink text-ink' : 'border-line text-ink-2'
-                }`}
-              >
-                <i
-                  aria-hidden="true"
-                  className="size-2 flex-none rounded-full"
-                  style={{ background: SUBTYPE_META[s].color }}
-                />
-                {SUBTYPE_META[s].label}
-                <span className="text-ink-2/70">{counts.get(s) ?? 0}</span>
-              </button>
-            )
-          })}
+      {/* 细类行：0fr→1fr 过渡（收起时内容仍挂载但压成 0 高，展开是"长出来"不是"闪现"）。
+          ★ 收起态给 `visibility:hidden`：0fr 只是视觉上没了，里面的按钮还能被 Tab 聚焦。
+          ★★ visibility 必须**跟着过渡走**，不能立刻切（2026-11-05 修）：它一旦即时生效，
+             收起就变成"这一行先整块消失、再慢慢缩高" —— 看得见的是空白条在收缩。
+             展开方向反过来：延迟会让内容在 200ms 里都不可见（"空着长出来"）。
+             所以两个方向给不同的 transition-delay：展开 0s、收起 200ms。 */}
+      <div
+        // 过渡全写在 style 里（含 visibility 的分向延迟），这里不挂 Tailwind 的 transition-*
+        // —— 两者写同一属性会互相覆盖，留一份就够了
+        className="grid"
+        style={{
+          gridTemplateRows: openSub ? '1fr' : '0fr',
+          visibility: openSub ? 'visible' : 'hidden',
+          transition: `grid-template-rows .2s ease-out, visibility 0s linear ${openSub ? '0s' : '.2s'}`,
+        }}
+      >
+        <div className="min-h-0 overflow-hidden">
+          {/*
+            * ★ 移动端**横向滚动**而不是换行（2026-10-25）：字号放大后 8 枚细类会换 4 行，
+            *   在 56svh 的 Sheet 里吃掉一半高度、把列表挤到只剩 ~120px。
+            *   细类兼作**图例**（色点 + 名称 + 计数），所以不隐藏任何一枚 —— 让它滚。
+            *   `.scroll` 是 app.css 里唯一的滚动容器样式出处（不自己写 overflow 修饰）。
+            */}
+          <div className="scroll-x flex gap-1.5 pb-1.5 md:flex-wrap md:overflow-visible md:pb-0">
+            {subList.map((s) => {
+              const on = subtype === s
+              return (
+                <button
+                  key={s}
+                  type="button"
+                  onClick={() => onSubtype(on ? null : s)}
+                  className={`flex h-8 flex-none items-center gap-1.5 rounded-full border px-2 whitespace-nowrap text-[13px] md:h-6.5 md:text-[11.5px] ${
+                    on ? 'border-ink text-ink' : 'border-line text-ink-2'
+                  }`}
+                >
+                  <i
+                    aria-hidden="true"
+                    className="size-2 flex-none rounded-full"
+                    style={{ background: SUBTYPE_META[s].color }}
+                  />
+                  {SUBTYPE_META[s].label}
+                  <span className="text-ink-2/70">{counts.get(s) ?? 0}</span>
+                </button>
+              )
+            })}
+          </div>
         </div>
-      ) : null}
+      </div>
     </div>
   )
 }

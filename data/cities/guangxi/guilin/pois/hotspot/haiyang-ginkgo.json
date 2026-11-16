@@ -1,68 +1,124 @@
 {
-  "id": "haiyang-ginkgo",
-  "name": "海洋银杏",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "灵川海洋乡的一片古银杏，深秋的时候整条沟全黄了，一年只有十几天是这个样子。",
-  "description": "海洋乡在灵川县东北，一带种了很多古银杏，树龄上百年的成片。每年十一月下旬到十二月初，叶子一起转黄，老房子、晒谷场、田埂上都积着一层。一年只有这么十几天。看的地方主要是那几个自然村 —— 大桐木湾、小桐木湾这一带。它是季节性很强的一处：不是那十几天来就只有一片普通的乡下。",
-  "highlights": [
-    "上百年的古银杏成片，深秋一起转黄",
-    "一年只有十一月下旬到十二月初这十几天",
-    "主要是大桐木湾、小桐木湾那几个自然村"
-  ],
-  "location": {
-    "point": {
-      "lng": 110.581356,
-      "lat": 25.303171,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "广西壮族自治区桂林市灵川县海洋乡银杏",
-    "district": "灵川县",
-    "transportTip": "桂林市区乘车至灵川后转车至海洋乡，约一小时半"
+ "id": "haiyang-ginkgo",
+ "name": "海洋银杏",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "灵川海洋乡的一片古银杏，深秋的时候整条沟全黄了，一年只有十几天是这个样子。",
+ "description": "海洋乡在灵川县东北，一带种了很多古银杏，树龄上百年的成片。每年十一月下旬到十二月初，叶子一起转黄，老房子、晒谷场、田埂上都积着一层。一年只有这么十几天。看的地方主要是那几个自然村 —— 大桐木湾、小桐木湾这一带。它是季节性很强的一处：不是那十几天来就只有一片普通的乡下。",
+ "highlights": [
+  "上百年的古银杏成片，深秋一起转黄",
+  "一年只有十一月下旬到十二月初这十几天",
+  "主要是大桐木湾、小桐木湾那几个自然村"
+ ],
+ "location": {
+  "point": {
+   "lng": 110.581356,
+   "lat": 25.303171,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放（季节性强）",
-    "openHoursRef": 0,
-    "ticket": "免费，部分村落另收清洁费",
-    "ticketRef": 0,
-    "duration": "建议 180-420 分钟",
-    "durationMinutes": [
-      180,
-      420
-    ],
-    "priceLevel": "free"
+  "address": "广西壮族自治区桂林市灵川县海洋乡银杏",
+  "district": "灵川县",
+  "transportTip": "桂林市区乘车至灵川后转车至海洋乡，约一小时半"
+ },
+ "practical": {
+  "openHours": "全天开放（季节性强）",
+  "openHoursRef": 0,
+  "ticket": "免费进乡；大桐木湾、大塘边村各 20 元/人，小桐木湾 10 元/人（画眉弄 20 元/人）",
+  "ticketRef": 0,
+  "duration": "建议 180-420 分钟",
+  "durationMinutes": [
+   180,
+   420
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "古银杏",
+  "深秋",
+  "季节性"
+ ],
+ "popularity": 50,
+ "sources": [
+  {
+   "title": "百度百科·海洋银杏",
+   "url": "https://baike.baidu.com/item/%E9%93%B6%E6%9D%8F",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
   },
-  "audience": [
-    "couple",
-    "friends",
-    "family"
+  {
+   "title": "广西新闻网2026-10-28各村门票公示",
+   "url": "https://www.gxnews.com.cn/staticpages/20261028/newgx6ae1b10f-22009049.shtml",
+   "kind": "media",
+   "fetchedAt": "2026-11-12"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "海洋银杏"
+ },
+ "_geocodeTitle": "海洋银杏",
+ "_geocodeSuspect": false,
+ "district": "450323",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-12",
+  "changes": [
+   {
+    "field": "门票",
+    "old": "免费，部分村落另收清洁费",
+    "new": "免费进乡；大桐木湾、大塘边村各 20 元/人，小桐木湾 10 元/人（画眉弄 20 元/人）"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "古银杏",
-    "深秋",
-    "季节性"
+  "source": "https://www.gxnews.com.cn/staticpages/20261028/newgx6ae1b10f-22009049.shtml",
+  "reason": "广西新闻网2026-10-28各村门票公示"
+ },
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "季节",
+    "score": 4.6,
+    "note": "只有十一月下旬到十二月初这十几天"
+   },
+   {
+    "label": "画面",
+    "score": 4.4,
+    "note": "古银杏成片，老屋与晒谷场都在树下"
+   },
+   {
+    "label": "交通",
+    "score": 2.4,
+    "note": "各村分散，没车很难串起来"
+   },
+   {
+    "label": "收费",
+    "score": 2.8,
+    "note": "进乡免费，主要村落各自另收"
+   }
   ],
-  "popularity": 50,
-  "sources": [
-    {
-      "title": "百度百科·海洋银杏",
-      "url": "https://baike.baidu.com/item/%E9%93%B6%E6%9D%8F",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
+  "body": "灵川海洋乡一带的古银杏，树龄上百年的成片，深秋那十几天整条沟都黄了，老屋、晒谷场、田埂上落满叶子，是广西少见的秋景。要接受两个现实：窗口极短，早来晚来都只有一片普通乡下；各村分散且分别收清洁费，没自驾很难一次串完，村道窄，人多时堵得厉害，交通是最大的短板。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "深秋拍照",
+   "自驾"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "海洋银杏"
-  },
-  "_geocodeTitle": "海洋银杏",
-  "_geocodeSuspect": false,
-  "district": "450323",
-  "_noImage": true
+  "avoid": [
+   "非银杏季",
+   "无车出行"
+  ],
+  "sources": []
+ }
 }

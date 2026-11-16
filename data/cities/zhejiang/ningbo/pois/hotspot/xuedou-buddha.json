@@ -21,9 +21,9 @@
     "transportTip": "宁波站乘城际或长途车至奉化后转公交至溪口，再换乘景交车"
   },
   "practical": {
-    "openHours": "约8:00-17:00，以官方公告为准",
+    "openHours": "08:30-17:00（16:30 停止入园）",
     "openHoursRef": 0,
-    "ticket": "与雪窦山景区联售，价格中等，以官方公告为准",
+    "ticket": "成人 60 元（学生、60-70 岁半价 30 元）；金顶观景另购",
     "ticketRef": 0,
     "duration": "建议 90-180 分钟",
     "durationMinutes": [
@@ -54,9 +54,15 @@
       "url": "https://baike.baidu.com/item/%E9%9B%AA%E7%AA%A6%E5%AF%BA",
       "kind": "wiki",
       "fetchedAt": "2026-09-30"
+    },
+    {
+      "title": "宁波雪窦文旅：弥勒圣坛票价与营业时间公告",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzI1NjQ5NjM5NA==&mid=2247519891&idx=1&sn=a8a9260573b5067c4b0326f97aaf28d1",
+      "kind": "media",
+      "fetchedAt": "2026-11-10"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-10",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -64,5 +70,22 @@
   },
   "_geocodeTitle": "弥勒圣坛",
   "district": "330213",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-10",
+    "changes": [
+      {
+        "field": "门票",
+        "old": "与雪窦山景区联售，价格中等，以官方公告为准",
+        "new": "成人 60 元（学生、60-70 岁半价 30 元）；金顶观景另购"
+      },
+      {
+        "field": "开放时间",
+        "old": "约8:00-17:00，以官方公告为准",
+        "new": "08:30-17:00（16:30 停止入园）"
+      }
+    ],
+    "source": "http://mp.weixin.qq.com/s?__biz=MzI1NjQ5NjM5NA==&mid=2247519891&idx=1&sn=a8a9260573b5067c4b0326f97aaf28d1",
+    "reason": "雪窦文旅官方公告：营业08:30-17:00，门票全价60元，独立售票不与雪窦山联售"
+  }
 }

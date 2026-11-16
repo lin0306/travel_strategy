@@ -21,7 +21,7 @@
     "transportTip": "绍兴地铁 1 号线柯桥站 A 口出站步行约 10 分钟；绍兴市区打车约 15 公里"
   },
   "practical": {
-    "openHours": "街区 24 小时开放（商铺各自时段为准）；音乐水秀夏令 19:30 / 20:30、冬令 18:00 / 19:00，以现场公告为准",
+    "openHours": "街区 24 小时开放；街区内场馆（非遗馆、盘古化石馆等）09:00-17:00，周一闭馆；音乐水秀夏令 19:30 / 20:30、冬令 18:00 / 19:00，以现场公告为准",
     "openHoursRef": 0,
     "ticket": "主街区免费开放，部分展馆单独购票，以现场公示为准",
     "ticketRef": 0,
@@ -60,9 +60,15 @@
       "url": "https://sxwg.sx.gov.cn/col/col1229534423/art/2025/art_f52685fa756a426a979db72af0755154.html",
       "kind": "gov",
       "fetchedAt": "2026-10-24"
+    },
+    {
+      "title": "浙江省侨联 · 侨见越韵文旅十景（2026-08-27）",
+      "url": "http://www.zjsql.com.cn/class/ZhenDiFengCai/190146_20260827084234.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-12"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-12",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Keqiao Ancient Town Shaoxing",
@@ -71,5 +77,58 @@
   "_geocodeTitle": "柯桥历史文化街区",
   "_geocodeSuspect": false,
   "district": "330603",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-12",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "街区 24 小时开放（商铺各自时段为准）；音乐水秀夏令 19:30 / 20:30、冬令 18:00 / 19:00，以现场公告为准",
+        "new": "街区 24 小时开放；街区内场馆（非遗馆、盘古化石馆等）09:00-17:00，周一闭馆；音乐水秀夏令 19:30 / 20:30、冬令 18:00 / 19:00，以现场公告为准"
+      }
+    ],
+    "source": "http://www.zjsql.com.cn/class/ZhenDiFengCai/190146_20260827084234.html",
+    "reason": "省侨联官网柯桥古镇侨韵街区条：古镇全天开放、场馆 9:00-17:00 周一闭馆"
+  },
+  "review": {
+    "score": 4.3,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "格局",
+        "score": 4.6,
+        "note": "三桥四水，桥连桥水绕水"
+      },
+      {
+        "label": "夜景",
+        "score": 4.4,
+        "note": "入夜水雾与音乐水秀起来了"
+      },
+      {
+        "label": "商业化",
+        "score": 3.7,
+        "note": "沿街店铺多但不至于喧宾夺主"
+      },
+      {
+        "label": "指引",
+        "score": 3.5,
+        "note": "水秀场次随季节调，易跑空"
+      }
+    ],
+    "body": "柯桥古镇的骨架是「三桥四水」：浙东古运河与直塘江在融光桥一带交汇，把老街切成四片水面，桥连着桥、水绕着水，走着走着就换个角度。融光桥是省级文保，拱顶龙门石上有盘龙浮雕，桥头的古纤道是世界遗产浙东运河的一段。白天是温婉水乡，入夜灯光与水雾在河面上升起来，完全是两个地方。缺点是白天观感和别的江南水乡差别不大，水秀场次又随季节调整，跑早了只能在河边干等。",
+    "basis": "web",
+    "at": "2026-11-12",
+    "fits": [
+      "情侣",
+      "家庭",
+      "朋友"
+    ],
+    "avoid": [
+      "上午专程来"
+    ],
+    "sources": [
+      "http://www.zjsql.com.cn/class/ZhenDiFengCai/190146_20260827084234.html",
+      "https://sx.bendibao.com/tour/jingdianbangdan/2440.shtml"
+    ]
+  }
 }

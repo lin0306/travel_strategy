@@ -1,67 +1,126 @@
 {
-  "id": "beef-noodle-craft",
-  "name": "牛肉面拉面技艺",
-  "category": "culture",
-  "subtype": "performance",
-  "summary": "师傅现场拉面的手艺秀，一清二白三红四绿五黄的功夫。",
-  "description": "兰州牛肉面的魂在拉面师傅手里。一团面经溜、拉、扯，几秒变成毛细或二细。看师傅表演像功夫秀，不少人专门站窗口看。这门手艺是非遗，讲究一清二白三红四绿五黄。吃面时顺便欣赏。想学门道早去人少的店。",
-  "highlights": [
-    "师傅现场拉面似功夫秀",
-    "毛细二细几秒成型",
-    "非遗手艺一清二白五黄"
-  ],
-  "location": {
-    "point": {
-      "lng": 103.82266,
-      "lat": 36.062176,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "甘肃省兰州市城关区大众巷牛肉面馆",
-    "district": "城关区",
-    "transportTip": "城关区牛肉面馆窗口即看即食"
+ "id": "beef-noodle-craft",
+ "name": "牛肉面拉面技艺",
+ "category": "culture",
+ "subtype": "performance",
+ "summary": "师傅现场拉面的手艺秀，一清二白三红四绿五黄的功夫。",
+ "description": "兰州牛肉面的魂在拉面师傅手里。一团面经溜、拉、扯，几秒变成毛细或二细。看师傅表演像功夫秀，不少人专门站窗口看。这门手艺是非遗，讲究一清二白三红四绿五黄。吃面时顺便欣赏。想学门道早去人少的店。",
+ "highlights": [
+  "师傅现场拉面似功夫秀",
+  "毛细二细几秒成型",
+  "非遗手艺一清二白五黄"
+ ],
+ "location": {
+  "point": {
+   "lng": 103.82266,
+   "lat": 36.062176,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "早市时段，以店家为准",
-    "openHoursRef": 0,
-    "ticket": "免费观看（吃面另计）",
-    "ticketRef": 0,
-    "duration": "建议 20-40 分钟",
-    "durationMinutes": [
-      20,
-      40
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "kids",
-    "friends"
+  "address": "甘肃省兰州市城关区大众巷牛肉面馆",
+  "district": "城关区",
+  "transportTip": "城关区牛肉面馆窗口即看即食"
+ },
+ "practical": {
+  "openHours": "早市时段，以店家为准",
+  "openHoursRef": 0,
+  "ticket": "免费观看（吃面另计）",
+  "ticketRef": 0,
+  "duration": "建议 20-40 分钟",
+  "durationMinutes": [
+   20,
+   40
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "拉面",
-    "非遗",
-    "技艺"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "kids",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://images.pexels.com/photos/27523594/pexels-photo-27523594.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+   "thumbUrl": "https://images.pexels.com/photos/27523594/pexels-photo-27523594.jpeg?auto=compress&cs=tinysrgb&h=350",
+   "width": 1080,
+   "height": 720,
+   "alt": "Chef skillfully stretches handmade noodles in a restaurant kitchen.",
+   "query": "牛肉面拉面技艺",
+   "credit": {
+    "source": "pexels",
+    "author": "Khang Võ Chí",
+    "sourceUrl": "https://www.pexels.com/photo/a-man-in-a-red-shirt-holding-a-piece-of-food-27523594/",
+    "license": "Pexels License",
+    "attributionRequired": false
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-12",
+    "tier": "ambience",
+    "via": "stock:pexels"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "拉面",
+  "非遗",
+  "技艺"
+ ],
+ "popularity": 80,
+ "sources": [
+  {
+   "title": "兰州牛肉面·百度百科",
+   "url": "https://baike.baidu.com/item/%E5%85%B0%E5%B7%9E%E7%89%9B%E8%82%89%E9%9D%A2",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-02"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Beef Noodle Pulling Craft",
+  "zh": "牛肉面拉面技艺"
+ },
+ "_geocodeTitle": "大众巷社区居委会",
+ "_geocodeSuspect": false,
+ "district": "620102",
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "观赏",
+    "score": 4.4,
+    "note": "一团面几秒变毛细或二细"
+   },
+   {
+    "label": "免费",
+    "score": 5.0,
+    "note": "站窗口看不收钱，吃面另计"
+   },
+   {
+    "label": "时段",
+    "score": 3.0,
+    "note": "早市才看得到，午后收档"
+   }
   ],
-  "popularity": 80,
+  "body": "这算兰州最便宜的一场表演：站在窗口看师傅把面团溜、抻、抖，几秒钟拉出一把毛细或二细，粗细还随你点，手艺 2021 年就进了国家级非遗名录，看明白「一清二白三红四绿五黄」是怎么来的。短板是时间——面馆多为早市，午后收档，去晚了只剩空案板；想看清手法得挑人少时段，早高峰师傅忙起来只顾出餐。",
+  "basis": "web",
+  "at": "2026-11-12",
+  "fits": [
+   "带孩子看手艺",
+   "早餐",
+   "预算有限"
+  ],
+  "avoid": [
+   "下午去",
+   "早高峰挤在窗口"
+  ],
   "sources": [
-    {
-      "title": "兰州牛肉面·百度百科",
-      "url": "https://baike.baidu.com/item/%E5%85%B0%E5%B7%9E%E7%89%9B%E8%82%89%E9%9D%A2",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-02"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Beef Noodle Pulling Craft",
-    "zh": "牛肉面拉面技艺"
-  },
-  "_geocodeTitle": "大众巷社区居委会",
-  "_geocodeSuspect": false,
-  "district": "620102",
-  "_noImage": true
+   "https://www.lanzhou.gov.cn/art/2026/3/16/art_122_1687242.html",
+   "https://news.cctv.com/2026/05/18/ARTIMKfADLD0KxFF5PkVPMB6260518.shtml"
+  ]
+ }
 }

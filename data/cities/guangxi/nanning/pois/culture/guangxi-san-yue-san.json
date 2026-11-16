@@ -1,98 +1,136 @@
 {
-  "id": "guangxi-san-yue-san",
-  "name": "广西三月三",
-  "category": "culture",
-  "subtype": "performance",
-  "summary": "广西法定的民族节日，全城歌与舞。",
-  "description": "「三月三」是广西壮族及多个民族的传统节日，在广西被定为全区性的假日，南宁会在三月三期间举办歌圩、歌舞和民族巡游。这是一年里最能集中看到广西多元民族文化的窗口，歌、舞、织锦、五色饭都在这几天集中出现。外地游客专程赶这段时间来的不少。具体时间和场地以当年公告为准。",
-  "highlights": [
-    "广西全区性民族节日与假日",
-    "三月三歌圩歌舞巡游集中",
-    "一年里看多元民族文化的窗口"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.344089,
-      "lat": 22.81171,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市（以当年官方场地为准）",
-    "district": "青秀区",
-    "transportTip": "以官方活动公告为准"
+ "id": "guangxi-san-yue-san",
+ "name": "广西三月三",
+ "category": "culture",
+ "subtype": "performance",
+ "summary": "广西法定的民族节日，全城歌与舞。",
+ "description": "「三月三」是广西壮族及多个民族的传统节日，在广西被定为全区性的假日，南宁会在三月三期间举办歌圩、歌舞和民族巡游。这是一年里最能集中看到广西多元民族文化的窗口，歌、舞、织锦、五色饭都在这几天集中出现。外地游客专程赶这段时间来的不少。具体时间和场地以当年公告为准。",
+ "highlights": [
+  "广西全区性民族节日与假日",
+  "三月三歌圩歌舞巡游集中",
+  "一年里看多元民族文化的窗口"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.344089,
+   "lat": 22.81171,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "农历三月初三前后（以当年公告为准）",
-    "openHoursRef": 0,
-    "ticket": "以公告为准",
-    "ticketRef": 0,
-    "duration": "建议 120-180 分钟",
-    "durationMinutes": [
-      120,
-      180
-    ],
-    "priceLevel": "free"
+  "address": "南宁市（以当年官方场地为准）",
+  "district": "青秀区",
+  "transportTip": "以官方活动公告为准"
+ },
+ "practical": {
+  "openHours": "农历三月初三前后（以当年公告为准）",
+  "openHoursRef": 0,
+  "ticket": "以公告为准",
+  "ticketRef": 0,
+  "duration": "建议 120-180 分钟",
+  "durationMinutes": [
+   120,
+   180
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "family",
+  "solo",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Pingguo_Stadium_%28Double_Third_Festival_2023%29.jpg/1280px-Pingguo_Stadium_%28Double_Third_Festival_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Pingguo_Stadium_%28Double_Third_Festival_2023%29.jpg/1280px-Pingguo_Stadium_%28Double_Third_Festival_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 580,
+   "alt": "Pingguo Stadium (Double Third Festival 2023).jpg",
+   "query": "广西三月三",
+   "credit": {
+    "source": "wikimedia",
+    "author": "EmiliaBear",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pingguo_Stadium_(Double_Third_Festival_2023).jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "family",
-    "solo",
-    "friends"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Zhuang_Girl.jpg/1280px-Zhuang_Girl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Zhuang_Girl.jpg/1280px-Zhuang_Girl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Zhuang Girl.jpg",
+   "query": "广西三月三",
+   "credit": {
+    "source": "wikimedia",
+    "author": "水餃喵",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhuang_Girl.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "三月三",
+  "民族",
+  "节日"
+ ],
+ "popularity": 64,
+ "sources": [
+  {
+   "title": "百度百科·三月三",
+   "url": "https://baike.baidu.com/item/%E4%B8%89%E6%9C%88%E4%B8%89",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "广西三月三"
+ },
+ "_geocodeTitle": "广西三月三杂志社",
+ "_geocodeSuspect": false,
+ "district": "450103",
+ "review": {
+  "score": 3.6,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "文化浓度",
+    "score": 4.4,
+    "note": "歌圩、织锦、五色饭集中出现"
+   },
+   {
+    "label": "时间窗口",
+    "score": 2.5,
+    "note": "只有农历三月三前后，平时没有"
+   },
+   {
+    "label": "人流",
+    "score": 2.6,
+    "note": "节庆期间全城活动点都非常挤"
+   },
+   {
+    "label": "交通",
+    "score": 2.9,
+    "note": "场地每年变，得看当年公告"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Pingguo_Stadium_%28Double_Third_Festival_2023%29.jpg/1280px-Pingguo_Stadium_%28Double_Third_Festival_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Pingguo_Stadium_%28Double_Third_Festival_2023%29.jpg/1280px-Pingguo_Stadium_%28Double_Third_Festival_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 580,
-      "alt": "Pingguo Stadium (Double Third Festival 2023).jpg",
-      "query": "广西三月三",
-      "credit": {
-        "source": "wikimedia",
-        "author": "EmiliaBear",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pingguo_Stadium_(Double_Third_Festival_2023).jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Zhuang_Girl.jpg/1280px-Zhuang_Girl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Zhuang_Girl.jpg/1280px-Zhuang_Girl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Zhuang Girl.jpg",
-      "query": "广西三月三",
-      "credit": {
-        "source": "wikimedia",
-        "author": "水餃喵",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhuang_Girl.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
+  "body": "三月三是广西全区放假的民族节日，南宁这几天会有歌圩、民族巡游和各类展演，是短时间内看遍壮瑶苗侗文化最集中的窗口，值得为它专门排一次行程。但要接受两个现实：时间和场地每年都变，不提前查公告会白跑；节庆那几天人流极大，吃饭住宿都涨价，热门活动挤到看不清。把它当「节令限定」的旅行理由最合适。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "看民族节庆",
+   "摄影"
   ],
-  "coverIndex": 0,
-  "tags": [
-    "三月三",
-    "民族",
-    "节日"
+  "avoid": [
+   "非节庆期",
+   "怕人多"
   ],
-  "popularity": 64,
-  "sources": [
-    {
-      "title": "百度百科·三月三",
-      "url": "https://baike.baidu.com/item/%E4%B8%89%E6%9C%88%E4%B8%89",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "广西三月三"
-  },
-  "_geocodeTitle": "广西三月三杂志社",
-  "_geocodeSuspect": false,
-  "district": "450103"
+  "sources": []
+ }
 }

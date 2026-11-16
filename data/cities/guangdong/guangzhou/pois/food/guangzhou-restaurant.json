@@ -1,82 +1,120 @@
 {
-  "id": "guangzhou-restaurant",
-  "name": "广州酒家（文昌路店）",
-  "category": "food",
-  "subtype": "local",
-  "summary": "本地公认的老字号总店，早茶是最常被安排的那个时段。",
-  "description": "广州酒家的文昌路这一家是本地认作总店的那一个。它对外的一句老话是「食在广州第一家」。早茶时段是它最典型的样子：虾饺、烧卖、豉汁凤爪、以及用文昌鸡做的一整套。出品是老派的稳，不追单个菜的花样。本地人日常未必常来，但招待外地来人时常被默认为首选。饭点与早茶高峰都要排队。",
-  "highlights": [
-    "文昌路这家被本地认作总店",
-    "早茶是最典型的时段",
-    "高峰必定排队"
-  ],
-  "location": {
-    "point": {
-      "lng": 113.275189,
-      "lat": 23.080423,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "广州市荔湾区文昌南路2号",
-    "district": "海珠区",
-    "transportTip": "地铁1号线长寿路站"
+ "id": "guangzhou-restaurant",
+ "name": "广州酒家（文昌路店）",
+ "category": "food",
+ "subtype": "local",
+ "summary": "本地公认的老字号总店，早茶是最常被安排的那个时段。",
+ "description": "广州酒家的文昌路这一家是本地认作总店的那一个。它对外的一句老话是「食在广州第一家」。早茶时段是它最典型的样子：虾饺、烧卖、豉汁凤爪、以及用文昌鸡做的一整套。出品是老派的稳，不追单个菜的花样。本地人日常未必常来，但招待外地来人时常被默认为首选。饭点与早茶高峰都要排队。",
+ "highlights": [
+  "文昌路这家被本地认作总店",
+  "早茶是最典型的时段",
+  "高峰必定排队"
+ ],
+ "location": {
+  "point": {
+   "lng": 113.275189,
+   "lat": 23.080423,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "早茶约07:00起，午晚市接续，以门店公告为准",
-    "openHoursRef": 0,
-    "ticket": "人均约80-150元，以门店为准",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "family",
-    "elders"
+  "address": "广州市荔湾区文昌南路2号",
+  "district": "海珠区",
+  "transportTip": "地铁1号线长寿路站"
+ },
+ "practical": {
+  "openHours": "早茶约07:00起，午晚市接续，以门店公告为准",
+  "openHoursRef": 0,
+  "ticket": "人均约80-150元，以门店为准",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/China_WP_20160811_002_%2828645574423%29.jpg/1280px-China_WP_20160811_002_%2828645574423%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/China_WP_20160811_002_%2828645574423%29.jpg/1280px-China_WP_20160811_002_%2828645574423%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 607,
-      "alt": "China WP 20160811 002 (28645574423).jpg",
-      "query": "广州酒家 广州",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Kuruman from Tokyo, Japan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:China_WP_20160811_002_(28645574423).jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    }
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "family",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/China_WP_20160811_002_%2828645574423%29.jpg/1280px-China_WP_20160811_002_%2828645574423%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/China_WP_20160811_002_%2828645574423%29.jpg/1280px-China_WP_20160811_002_%2828645574423%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 607,
+   "alt": "China WP 20160811 002 (28645574423).jpg",
+   "query": "广州酒家 广州",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Kuruman from Tokyo, Japan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:China_WP_20160811_002_(28645574423).jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "老字号",
+  "早茶",
+  "粤菜"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·广州酒家",
+   "url": "https://baike.baidu.com/item/%E5%B9%BF%E5%B7%9E%E9%85%92%E5%AE%B6",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-24"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "广州酒家（文昌路店）"
+ },
+ "_geocodeTitle": "陶陶居广州酒家手信月饼销售点",
+ "_geocodeSuspect": false,
+ "district": "440105",
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.3,
+    "note": "老派的稳，不追单个菜的花样"
+   },
+   {
+    "label": "老字号",
+    "score": 4.5,
+    "note": "文昌路这家被本地认作总店"
+   },
+   {
+    "label": "排队",
+    "score": 2.2,
+    "note": "饭点与早茶高峰都要排队"
+   },
+   {
+    "label": "价格",
+    "score": 2.8,
+    "note": "在本地茶楼里偏高一档"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "老字号",
-    "早茶",
-    "粤菜"
+  "body": "文昌路这一家被本地认作总店，那句「食在广州第一家」的老话就挂在这里。早茶是最典型的时段，虾饺、烧卖、豉汁凤爪和用文昌鸡做的一整套，出品是老派的稳，不追单个菜的花样，招待外地来人常被默认为首选。要注意饭点与早茶高峰都要排队，等位时间不短；人均在本地茶楼里偏高一档，本地人日常未必常来。想少排就避开周末早茶，把时间挪到午市前后更从容。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "带长辈吃早茶",
+   "招待外地来人"
   ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·广州酒家",
-      "url": "https://baike.baidu.com/item/%E5%B9%BF%E5%B7%9E%E9%85%92%E5%AE%B6",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-24"
-    }
+  "avoid": [
+   "赶时间",
+   "预算紧"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "广州酒家（文昌路店）"
-  },
-  "_geocodeTitle": "陶陶居广州酒家手信月饼销售点",
-  "_geocodeSuspect": false,
-  "district": "440105"
+  "sources": []
+ }
 }

@@ -1,114 +1,146 @@
 {
-  "id": "pijiu-yu",
-  "name": "啤酒鱼",
-  "category": "food",
-  "subtype": "local",
-  "summary": "阳朔的头牌，整条鱼用啤酒焖，鱼鳞炸过是脆的。",
-  "description": "啤酒鱼是阳朔最有名的一道菜，做法很特别：用的是漓江里的剑骨鱼或者毛骨鱼，不去鳞，整条下锅先用油把鱼鳞煎脆，再倒啤酒、番茄、青椒和酸笋一起焖。啤酒把腥气压住，汤汁收得浓浓的，鱼鳞炸过之后居然是脆的，可以直接嚼。上桌通常是一个大铁锅架在小炉子上，边煮边吃。西街和县城到处都有，价格差距大，看鱼是按斤还是按条算。两个人一条一斤多的就够。",
-  "highlights": [
-    "带鳞煎脆",
-    "啤酒焖煮",
-    "阳朔头牌"
-  ],
-  "location": {
-    "point": {
-      "lng": 110.493007,
-      "lat": 24.773748,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "广西壮族自治区桂林市阳朔县西街一带餐馆",
-    "district": "阳朔",
-    "transportTip": "县城西街步行可达"
+ "id": "pijiu-yu",
+ "name": "啤酒鱼",
+ "category": "food",
+ "subtype": "local",
+ "summary": "阳朔的头牌，整条鱼用啤酒焖，鱼鳞炸过是脆的。",
+ "description": "啤酒鱼是阳朔最有名的一道菜，做法很特别：用的是漓江里的剑骨鱼或者毛骨鱼，不去鳞，整条下锅先用油把鱼鳞煎脆，再倒啤酒、番茄、青椒和酸笋一起焖。啤酒把腥气压住，汤汁收得浓浓的，鱼鳞炸过之后居然是脆的，可以直接嚼。上桌通常是一个大铁锅架在小炉子上，边煮边吃。西街和县城到处都有，价格差距大，看鱼是按斤还是按条算。两个人一条一斤多的就够。",
+ "highlights": [
+  "带鳞煎脆",
+  "啤酒焖煮",
+  "阳朔头牌"
+ ],
+ "location": {
+  "point": {
+   "lng": 110.493007,
+   "lat": 24.773748,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "10:00-22:00",
-    "openHoursRef": 0,
-    "ticket": "人均五六十元起，按鱼计价",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "mid"
+  "address": "广西壮族自治区桂林市阳朔县西街一带餐馆",
+  "district": "阳朔",
+  "transportTip": "县城西街步行可达"
+ },
+ "practical": {
+  "openHours": "10:00-22:00",
+  "openHoursRef": 0,
+  "ticket": "人均五六十元起，按鱼计价",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family",
+  "solo",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Pijiu_Yu_%28Beer_fish%29_%28253141965%29.jpg/1280px-Pijiu_Yu_%28Beer_fish%29_%28253141965%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Pijiu_Yu_%28Beer_fish%29_%28253141965%29.jpg/1280px-Pijiu_Yu_%28Beer_fish%29_%28253141965%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Pijiu Yu (Beer fish) (253141965).jpg",
+   "query": "啤酒鱼",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Filipe Fortes from United States",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "inside"
+   }
   },
-  "audience": [
-    "couple",
-    "friends",
-    "family",
-    "solo",
-    "elders"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio_%2842%29.jpg/1280px-%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio_%2842%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio_%2842%29.jpg/1280px-%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio_%2842%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "广西壮族自治区桂林市阳朔西街景色 - panoramio (42).jpg",
+   "query": "啤酒鱼",
+   "credit": {
+    "source": "wikimedia",
+    "author": "luchangjiang~鲁昌江",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "front"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "啤酒鱼",
+  "招牌",
+  "漓江鱼",
+  "火锅式",
+  "必吃"
+ ],
+ "popularity": 96,
+ "sources": [
+  {
+   "title": "百度百科·啤酒鱼",
+   "url": "https://baike.baidu.com/item/%E5%95%A4%E9%85%92%E9%B1%BC",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-07"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "啤酒鱼"
+ },
+ "_geocodeTitle": "桂记啤酒鱼家常私房菜",
+ "_geocodeSuspect": false,
+ "district": "450321",
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.2,
+    "note": "带鳞煎脆再下啤酒焖，汤汁浓"
+   },
+   {
+    "label": "计价",
+    "score": 2.8,
+    "note": "按斤还是按条算差别大，容易多花钱"
+   },
+   {
+    "label": "分量",
+    "score": 4.2,
+    "note": "两人一条一斤多就够"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Pijiu_Yu_%28Beer_fish%29_%28253141965%29.jpg/1280px-Pijiu_Yu_%28Beer_fish%29_%28253141965%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Pijiu_Yu_%28Beer_fish%29_%28253141965%29.jpg/1280px-Pijiu_Yu_%28Beer_fish%29_%28253141965%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Pijiu Yu (Beer fish) (253141965).jpg",
-      "query": "啤酒鱼",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Filipe Fortes from United States",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "inside"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio_%2842%29.jpg/1280px-%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio_%2842%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio_%2842%29.jpg/1280px-%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio_%2842%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "广西壮族自治区桂林市阳朔西街景色 - panoramio (42).jpg",
-      "query": "啤酒鱼",
-      "credit": {
-        "source": "wikimedia",
-        "author": "luchangjiang~鲁昌江",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "front"
-      }
-    }
+  "body": "阳朔的头牌不是虚名：鱼不去鳞，先煎到鳞脆再倒啤酒焖，番茄与酸笋把腥气压住，汤汁拌饭很能打。缺点是价格落差大，同一条街按斤和按条两种算法都有，点之前务必问清单价与分量；西街上的店翻台快，饭点排队不算短。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "想吃本地菜",
+   "两人小聚"
   ],
-  "coverIndex": 0,
-  "tags": [
-    "啤酒鱼",
-    "招牌",
-    "漓江鱼",
-    "火锅式",
-    "必吃"
+  "avoid": [
+   "不愿问价"
   ],
-  "popularity": 96,
-  "sources": [
-    {
-      "title": "百度百科·啤酒鱼",
-      "url": "https://baike.baidu.com/item/%E5%95%A4%E9%85%92%E9%B1%BC",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-07"
-    }
-  ],
-  "updatedAt": "2026-11-02",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "啤酒鱼"
-  },
-  "_geocodeTitle": "桂记啤酒鱼家常私房菜",
-  "_geocodeSuspect": false,
-  "district": "450321"
+  "sources": []
+ }
 }

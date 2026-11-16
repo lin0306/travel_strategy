@@ -1,97 +1,129 @@
 {
-  "id": "caiyuanpei",
-  "name": "蔡元培故居",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "北大校长的绍兴老宅，台门深院。",
-  "description": "蔡元培故居在绍兴老城，是近代教育家、北京大学校长蔡元培的出生与少年居所，典型的绍兴台门院落。宅中陈列其生平与教育思想，安静而有分量。免费开放，与鲁迅故里、周恩来祖居相邻，构成老城名人故居步行线。半小时可看完。",
-  "highlights": [
-    "蔡元培出生少年居所",
-    "绍兴台门院落，教育史料",
-    "免费，名人故居线"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.58336,
-      "lat": 30.006925,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "绍兴市越城区笔飞弄",
-    "district": "越城区",
-    "transportTip": "公交至老城；鲁迅故里步行约10分钟"
+ "id": "caiyuanpei",
+ "name": "蔡元培故居",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "北大校长的绍兴老宅，台门深院。",
+ "description": "蔡元培故居在绍兴老城，是近代教育家、北京大学校长蔡元培的出生与少年居所，典型的绍兴台门院落。宅中陈列其生平与教育思想，安静而有分量。免费开放，与鲁迅故里、周恩来祖居相邻，构成老城名人故居步行线。半小时可看完。",
+ "highlights": [
+  "蔡元培出生少年居所",
+  "绍兴台门院落，教育史料",
+  "免费，名人故居线"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.58336,
+   "lat": 30.006925,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-17:00（以场馆公告为准）",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 45-90 分钟",
-    "durationMinutes": [
-      45,
-      90
-    ],
-    "priceLevel": "free"
+  "address": "绍兴市越城区笔飞弄",
+  "district": "越城区",
+  "transportTip": "公交至老城；鲁迅故里步行约10分钟"
+ },
+ "practical": {
+  "openHours": "约08:00-17:00（以场馆公告为准）",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 45-90 分钟",
+  "durationMinutes": [
+   45,
+   90
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "solo",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Former_Residence_of_Cai_Yuanpei_in_Shaoxing_06_2012-07.jpg/1280px-Former_Residence_of_Cai_Yuanpei_in_Shaoxing_06_2012-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Former_Residence_of_Cai_Yuanpei_in_Shaoxing_06_2012-07.jpg/1280px-Former_Residence_of_Cai_Yuanpei_in_Shaoxing_06_2012-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Former Residence of Cai Yuanpei in Shaoxing 06 2012-07.jpg",
+   "query": "蔡元培故居 绍兴",
+   "credit": {
+    "source": "wikimedia",
+    "author": "猫猫的日记本",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Former_Residence_of_Cai_Yuanpei_in_Shaoxing_06_2012-07.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "solo",
-    "elders"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Former_Residence_of_Cai_Yuanpei_in_Shaoxing_09_2012-07.jpg/1280px-Former_Residence_of_Cai_Yuanpei_in_Shaoxing_09_2012-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Former_Residence_of_Cai_Yuanpei_in_Shaoxing_09_2012-07.jpg/1280px-Former_Residence_of_Cai_Yuanpei_in_Shaoxing_09_2012-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Former Residence of Cai Yuanpei in Shaoxing 09 2012-07.jpg",
+   "query": "蔡元培故居 绍兴",
+   "credit": {
+    "source": "wikimedia",
+    "author": "猫猫的日记本",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Former_Residence_of_Cai_Yuanpei_in_Shaoxing_09_2012-07.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "蔡元培",
+  "故居",
+  "台门"
+ ],
+ "popularity": 70,
+ "sources": [
+  {
+   "title": "百度百科·蔡元培故居",
+   "url": "https://baike.baidu.com/item/%E8%94%A1%E5%85%83%E5%9F%B9%E6%95%85%E5%B1%85",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "蔡元培故居"
+ },
+ "_geocodeTitle": "蔡元培故居",
+ "_geocodeSuspect": false,
+ "district": "330602",
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "史料",
+    "score": 4.0,
+    "note": "生平陈列配手迹，教育脉络清楚"
+   },
+   {
+    "label": "规模",
+    "score": 3.0,
+    "note": "台门数进，半小时看完"
+   },
+   {
+    "label": "人流",
+    "score": 4.4,
+    "note": "常年清静，不用排队"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Former_Residence_of_Cai_Yuanpei_in_Shaoxing_06_2012-07.jpg/1280px-Former_Residence_of_Cai_Yuanpei_in_Shaoxing_06_2012-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Former_Residence_of_Cai_Yuanpei_in_Shaoxing_06_2012-07.jpg/1280px-Former_Residence_of_Cai_Yuanpei_in_Shaoxing_06_2012-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Former Residence of Cai Yuanpei in Shaoxing 06 2012-07.jpg",
-      "query": "蔡元培故居 绍兴",
-      "credit": {
-        "source": "wikimedia",
-        "author": "猫猫的日记本",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Former_Residence_of_Cai_Yuanpei_in_Shaoxing_06_2012-07.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Former_Residence_of_Cai_Yuanpei_in_Shaoxing_09_2012-07.jpg/1280px-Former_Residence_of_Cai_Yuanpei_in_Shaoxing_09_2012-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Former_Residence_of_Cai_Yuanpei_in_Shaoxing_09_2012-07.jpg/1280px-Former_Residence_of_Cai_Yuanpei_in_Shaoxing_09_2012-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Former Residence of Cai Yuanpei in Shaoxing 09 2012-07.jpg",
-      "query": "蔡元培故居 绍兴",
-      "credit": {
-        "source": "wikimedia",
-        "author": "猫猫的日记本",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Former_Residence_of_Cai_Yuanpei_in_Shaoxing_09_2012-07.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    }
+  "body": "蔡元培故居是典型的绍兴台门院落，北大校长的出生地与少年居所，院里陈列他的生平、手迹与教育主张，安静、免费，几乎没人打扰。与鲁迅故里、周恩来祖居离得近，串成一条名人故居步行线正好。缺点是规模小、展陈偏静态，半小时就走完，专程跑一趟会觉得单薄；想看得有收获，最好先补一点近代教育史的背景。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "名人故居串联",
+   "安静看展"
   ],
-  "coverIndex": 0,
-  "tags": [
-    "蔡元培",
-    "故居",
-    "台门"
+  "avoid": [
+   "专程只看这一处"
   ],
-  "popularity": 70,
-  "sources": [
-    {
-      "title": "百度百科·蔡元培故居",
-      "url": "https://baike.baidu.com/item/%E8%94%A1%E5%85%83%E5%9F%B9%E6%95%85%E5%B1%85",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "蔡元培故居"
-  },
-  "_geocodeTitle": "蔡元培故居",
-  "_geocodeSuspect": false,
-  "district": "330602"
+  "sources": []
+ }
 }

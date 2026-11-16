@@ -54,6 +54,12 @@ export interface OverlayProps {
    *   这个坑在 `cdp_planflow_verify.mjs` 第一次跑时真踩了。
    */
   label?: string
+  /**
+   * 正在退场（配合 `usePresence`）：挂同方向的退场 class，盖过入场动画。
+   * ★ 只在该存在性由门组件管（关掉即卸载）的浮层上给 —— 常驻面板（城市清单、
+   *   路由级外壳）没有"退场"这回事，给了也永远不会变 true。
+   */
+  exiting?: boolean
 }
 
 function anchorStyle(anchor: OverlayAnchor): React.CSSProperties {
@@ -91,6 +97,29 @@ function anchorStyle(anchor: OverlayAnchor): React.CSSProperties {
   }
 }
 
+/**
+ * 入/退场动画 class（keyframes 在 anim.css）——**方向跟着锚点走**：
+ * 从哪一侧停靠就从哪一侧滑入、往哪一侧滑出；没有方向的（顶栏 / 居中 / fill）只做淡入。
+ *
+ * ★ `bottom`（底边居中）只有淡入：它靠内联 `transform: translateX(-50%)` 居中，
+ *   keyframes 里的 transform 会把它顶掉，动画结束帧会横跳半屏。
+ * ★ 入/退场是**同一函数的二选一**：exiting 时只返回退场 class，
+ *   不会与入场 class 同时在场（两个 animation 叠在同一个元素上结果不可预期）。
+ */
+function animClass(anchor: OverlayAnchor, noAnim: boolean, exiting: boolean): string {
+  const dir =
+    anchor === 'left' || anchor === 'top-left' || anchor === 'bottom-left'
+      ? 'left'
+      : anchor === 'right' || anchor === 'top-right' || anchor === 'bottom-right'
+        ? 'right'
+        : 'mid'
+  if (exiting) return dir === 'mid' ? 'flt-out' : `flt-out-${dir}`
+  if (noAnim) return ''
+  // 'bottom' 有居中 transform，只给淡入（见上）；'top' / 'fill' 用 app.css 的 .flt-in
+  if (dir === 'mid') return anchor === 'bottom' ? 'page-in' : 'flt-in'
+  return `flt-in-${dir}`
+}
+
 export function Overlay({
   anchor,
   widthToken,
@@ -102,12 +131,13 @@ export function Overlay({
   noAnim = false,
   label,
   plain = false,
+  exiting = false,
 }: OverlayProps) {
   return (
     <div
       data-overlay=""
       {...(label ? { role: 'region' as const, 'aria-label': label } : {})}
-      className={`${plain ? '' : `flt ${noAnim ? '' : 'flt-in'}`} flex flex-col ${tall ? 'min-h-0' : ''} ${className ?? ''}`}
+      className={`${plain ? '' : `flt ${animClass(anchor, noAnim, exiting)}`} ${exiting ? 'pointer-events-none' : ''} flex flex-col ${tall ? 'min-h-0' : ''} ${className ?? ''}`}
       style={{
         ...anchorStyle(anchor),
         width: widthToken ? `var(${widthToken})` : width,
@@ -144,7 +174,7 @@ export function Chip({ children, onClick, active = false, className, label, disa
       disabled={disabled}
       aria-label={label}
       aria-pressed={onClick ? active : undefined}
-      className={`inline-flex h-8 items-center gap-1.5 rounded-full border px-3 text-[12.5px] whitespace-nowrap transition-colors ${
+      className={`inline-flex h-8 items-center gap-1.5 rounded-full border px-3 text-[12.5px] whitespace-nowrap transition-[color,background-color,border-color,transform] duration-150 active:scale-[0.97] ${
         active
           ? 'border-primary bg-primary text-white'
           : 'border-line bg-surface text-ink hover:border-primary hover:text-primary'

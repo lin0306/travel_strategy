@@ -39,23 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E_2024-06-22_03.jpg/1280px-%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E_2024-06-22_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E_2024-06-22_03.jpg/1280px-%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E_2024-06-22_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "凤凰古城 2024-06-22 03.jpg",
-      "query": "China city street view fenghuang",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E_2024-06-22_03.jpg",
-        "license": "CC BY 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "虹桥",
@@ -71,7 +55,7 @@
       "fetchedAt": "2026-10-06"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -79,5 +63,13 @@
   },
   "_geocodeTitle": "虹桥社区",
   "_geocodeSuspect": false,
-  "district": "433123"
+  "district": "433123",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 1 张（待重抓）",
+    "droppedImages": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E_2024-06-22_03.jpg/1280px-%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E_2024-06-22_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  }
 }

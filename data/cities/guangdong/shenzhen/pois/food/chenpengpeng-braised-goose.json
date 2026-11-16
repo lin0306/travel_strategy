@@ -1,68 +1,106 @@
 {
-  "id": "chenpengpeng-braised-goose",
-  "name": "陈鹏鹏卤鹅",
-  "category": "food",
-  "subtype": "local",
-  "summary": "潮汕卤鹅在深圳长出来的一个牌子：卤水与鹅的分解方式是它的两套东西。",
-  "description": "卤鹅是潮汕地区的家常做法，在深圳因为人口结构而被放大。它做的是澄海狮头鹅那一类，卤水讲究,鹅按部位拆：鹅头、鹅肝、鹅掌、鹅肉各自定价，一只鹅的价格可以拉开很大的区间。搭配的是卤汁饭与蒜醋碟。这类店在深圳开得快，门店分布广，出餐速度快，适合赶行程的时候。它的口味偏咸香，与本地的清淡做法不是一个方向。",
-  "highlights": [
-    "澄海狮头鹅，按部位拆分定价",
-    "卤水与蒜醋碟是这一套的固定搭配",
-    "出餐快，适合行程紧凑时"
-  ],
-  "location": {
-    "point": {
-      "lng": 114.025669,
-      "lat": 22.538364,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "深圳市福田区华强南路一带（多家门店，以实际地址为准）",
-    "district": "福田区",
-    "transportTip": "地铁1号线华强路站；各门店另有就近站点"
+ "id": "chenpengpeng-braised-goose",
+ "name": "陈鹏鹏卤鹅",
+ "category": "food",
+ "subtype": "local",
+ "summary": "潮汕卤鹅在深圳长出来的一个牌子：卤水与鹅的分解方式是它的两套东西。",
+ "description": "卤鹅是潮汕地区的家常做法，在深圳因为人口结构而被放大。它做的是澄海狮头鹅那一类，卤水讲究,鹅按部位拆：鹅头、鹅肝、鹅掌、鹅肉各自定价，一只鹅的价格可以拉开很大的区间。搭配的是卤汁饭与蒜醋碟。这类店在深圳开得快，门店分布广，出餐速度快，适合赶行程的时候。它的口味偏咸香，与本地的清淡做法不是一个方向。",
+ "highlights": [
+  "澄海狮头鹅，按部位拆分定价",
+  "卤水与蒜醋碟是这一套的固定搭配",
+  "出餐快，适合行程紧凑时"
+ ],
+ "location": {
+  "point": {
+   "lng": 114.025669,
+   "lat": 22.538364,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约11:00-21:30（以门店公告为准）",
-    "openHoursRef": 0,
-    "ticket": "人均约80元起，以门店为准",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "friends",
-    "family",
-    "solo"
+  "address": "深圳市福田区华强南路一带（多家门店，以实际地址为准）",
+  "district": "福田区",
+  "transportTip": "地铁1号线华强路站；各门店另有就近站点"
+ },
+ "practical": {
+  "openHours": "约11:00-21:30（以门店公告为准）",
+  "openHoursRef": 0,
+  "ticket": "人均约80元起，以门店为准",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "潮汕",
-    "卤味",
-    "快餐"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "friends",
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "潮汕",
+  "卤味",
+  "快餐"
+ ],
+ "popularity": 72,
+ "sources": [
+  {
+   "title": "百度百科·卤鹅",
+   "url": "https://baike.baidu.com/item/%E5%8D%A4%E9%B9%85",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-24"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "陈鹏鹏卤鹅"
+ },
+ "_geocodeTitle": "陈鹏鹏卤鹅饭店·潮汕菜(香蜜湖店)",
+ "_geocodeSuspect": false,
+ "district": "440304",
+ "_noImage": true,
+ "review": {
+  "score": 3.8,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4,
+    "note": "澄海狮头鹅，卤水偏咸香，配蒜醋碟"
+   },
+   {
+    "label": "价格",
+    "score": 3,
+    "note": "按部位拆开定价，一只鹅能拉出很大区间"
+   },
+   {
+    "label": "出餐",
+    "score": 4.5,
+    "note": "出餐快，适合赶行程"
+   },
+   {
+    "label": "环境",
+    "score": 2.5,
+    "note": "门店走快餐路线，坐着不太从容"
+   }
   ],
-  "popularity": 72,
-  "sources": [
-    {
-      "title": "百度百科·卤鹅",
-      "url": "https://baike.baidu.com/item/%E5%8D%A4%E9%B9%85",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-24"
-    }
+  "body": "潮汕卤鹅在深圳被放大成一个能日常吃的品类，这家做的狮头鹅按部位拆：鹅头、鹅肝、鹅掌、鹅肉各自定价，想要哪块直接说，卤水是咸香那一路，配蒜醋碟能压住油。出餐快是它的长处，行程紧的时候点一份卤汁饭十分钟能解决。缺点是价格不低且不透明，一只鹅拆开能拉出很大的区间，不看菜单容易点超；门店是快餐式布局，坐着吃不太从容，也不适合宴客。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "赶行程吃一口",
+   "想吃卤味"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "陈鹏鹏卤鹅"
-  },
-  "_geocodeTitle": "陈鹏鹏卤鹅饭店·潮汕菜(香蜜湖店)",
-  "_geocodeSuspect": false,
-  "district": "440304",
-  "_noImage": true
+  "avoid": [
+   "请客吃饭",
+   "预算有限"
+  ],
+  "sources": []
+ }
 }

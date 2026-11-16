@@ -1,68 +1,105 @@
 {
-  "id": "luzhou-roast-duck",
-  "name": "庐州烤鸭",
-  "category": "food",
-  "subtype": "local",
-  "summary": "合肥的招牌名吃，先腌后烤，皮酥肉香带卤味，片好配薄饼葱丝吃。",
-  "description": "庐州烤鸭是合肥最有代表性的一道名吃。选本地肥嫩的鸭子，先腌后烤，出炉时皮色枣红、油亮酥脆，肉里带着卤汁的香气。师傅当面片鸭，皮肉分开装盘，配薄饼、葱丝和甜面酱卷着吃，一口下去又酥又润。它和北方烤鸭不是一个路子：味道更重卤香，皮更酥，剩下的鸭架还能拿去熬汤。合肥街头老店不少，点一只鸭子配几个炒菜，一家老小都满意。",
-  "highlights": [
-    "皮色枣红酥脆带卤香",
-    "片鸭配薄饼葱丝甜面酱",
-    "鸭架熬汤一点不浪费"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.289314,
-      "lat": 31.864853,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "安徽省合肥市各老字号饭店与庐州菜馆",
-    "district": "庐阳区",
-    "transportTip": "市区各老字号门店均有，公交或打车可达"
+ "id": "luzhou-roast-duck",
+ "name": "庐州烤鸭",
+ "category": "food",
+ "subtype": "local",
+ "summary": "合肥的招牌名吃，先腌后烤，皮酥肉香带卤味，片好配薄饼葱丝吃。",
+ "description": "庐州烤鸭是合肥最有代表性的一道名吃。选本地肥嫩的鸭子，先腌后烤，出炉时皮色枣红、油亮酥脆，肉里带着卤汁的香气。师傅当面片鸭，皮肉分开装盘，配薄饼、葱丝和甜面酱卷着吃，一口下去又酥又润。它和北方烤鸭不是一个路子：味道更重卤香，皮更酥，剩下的鸭架还能拿去熬汤。合肥街头老店不少，点一只鸭子配几个炒菜，一家老小都满意。",
+ "highlights": [
+  "皮色枣红酥脆带卤香",
+  "片鸭配薄饼葱丝甜面酱",
+  "鸭架熬汤一点不浪费"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.289314,
+   "lat": 31.864853,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约11:00-14:00、17:00-21:00",
-    "openHoursRef": 0,
-    "ticket": "约80元/只起，以店为准",
-    "ticketRef": 0,
-    "duration": "建议 60-100 分钟",
-    "durationMinutes": [
-      60,
-      100
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "family",
-    "elders",
-    "friends"
+  "address": "安徽省合肥市各老字号饭店与庐州菜馆",
+  "district": "庐阳区",
+  "transportTip": "市区各老字号门店均有，公交或打车可达"
+ },
+ "practical": {
+  "openHours": "约11:00-14:00、17:00-21:00",
+  "openHoursRef": 0,
+  "ticket": "约80元/只起，以店为准",
+  "ticketRef": 0,
+  "duration": "建议 60-100 分钟",
+  "durationMinutes": [
+   60,
+   100
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "烤鸭",
-    "名吃",
-    "庐州"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "family",
+  "elders",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "烤鸭",
+  "名吃",
+  "庐州"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "庐州烤鸭·百度百科",
+   "url": "https://baike.baidu.com/item/%E5%BA%90%E5%B7%9E%E7%83%A4%E9%B8%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Luzhou Roast Duck Hefei",
+  "zh": "庐州烤鸭"
+ },
+ "_geocodeTitle": "庐州烤鸭店(总店)",
+ "_geocodeSuspect": false,
+ "district": "340103",
+ "_noImage": true,
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.4,
+    "note": "皮酥肉润，卤香比北方烤鸭重"
+   },
+   {
+    "label": "分量",
+    "score": 4.3,
+    "note": "一只鸭子够一家人，鸭架能熬汤"
+   },
+   {
+    "label": "排队",
+    "score": 3.2,
+    "note": "饭点老店要等位"
+   },
+   {
+    "label": "价格",
+    "score": 3.9,
+    "note": "按只算，人多摊下来划算"
+   }
   ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "庐州烤鸭·百度百科",
-      "url": "https://baike.baidu.com/item/%E5%BA%90%E5%B7%9E%E7%83%A4%E9%B8%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "合肥的招牌名吃，先腌后烤，皮是枣红色的酥，肉里带着卤汁香，片好卷薄饼葱丝很顺口，剩下的鸭架还能拿去熬汤。缺点是一只鸭子分量不小，两三个人点完基本吃不下别的菜，饭点老店还得排队。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "家庭",
+   "本地菜"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Luzhou Roast Duck Hefei",
-    "zh": "庐州烤鸭"
-  },
-  "_geocodeTitle": "庐州烤鸭店(总店)",
-  "_geocodeSuspect": false,
-  "district": "340103",
-  "_noImage": true
+  "avoid": [
+   "一人食"
+  ],
+  "sources": []
+ }
 }

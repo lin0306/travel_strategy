@@ -41,23 +41,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/%E7%BD%97%E7%9B%AE%E5%8F%A4%E9%95%87.jpg/1280px-%E7%BD%97%E7%9B%AE%E5%8F%A4%E9%95%87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/%E7%BD%97%E7%9B%AE%E5%8F%A4%E9%95%87.jpg/1280px-%E7%BD%97%E7%9B%AE%E5%8F%A4%E9%95%87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "罗目古镇.jpg",
-      "query": "罗目古镇",
-      "credit": {
-        "source": "wikimedia",
-        "author": "不秋齋主人",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%BD%97%E7%9B%AE%E5%8F%A4%E9%95%87.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "古镇",
@@ -75,7 +59,7 @@
       "fetchedAt": "2026-10-07"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -83,5 +67,13 @@
   },
   "_geocodeTitle": "罗目古镇",
   "_geocodeSuspect": false,
-  "district": "511181"
+  "district": "511181",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 1 张（待重抓）",
+    "droppedImages": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/%E7%BD%97%E7%9B%AE%E5%8F%A4%E9%95%87.jpg/1280px-%E7%BD%97%E7%9B%AE%E5%8F%A4%E9%95%87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  }
 }

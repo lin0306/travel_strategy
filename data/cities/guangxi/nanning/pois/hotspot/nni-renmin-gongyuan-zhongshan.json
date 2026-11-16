@@ -1,67 +1,150 @@
 {
-  "id": "nni-renmin-gongyuan-zhongshan",
-  "name": "南湖名树园",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "南湖边的名木园，树姿与水景都好看。",
-  "description": "南湖名树园在南湖公园内，收集了一批珍贵的名木大树，树姿、草坪和水景搭配，是南湖里最出片的角落。它与环湖步道相连，适合傍晚沿湖走这一段。免费、人比主湖区少，是本地人拍照和散步的偏好点。夏天树荫好。",
-  "highlights": [
-    "南湖内名木大树园，树姿水景",
-    "与环湖步道相连，傍晚好看",
-    "免费，人比主湖区少"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.358634,
-      "lat": 22.807286,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市青秀区南湖名树园",
-    "district": "青秀区",
-    "transportTip": "地铁1号线南湖站步行"
+ "id": "nni-renmin-gongyuan-zhongshan",
+ "name": "南湖公园名树博览园",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "南湖边的名木园，树姿与水景都好看。",
+ "description": "南湖名树园在南湖公园内，收集了一批珍贵的名木大树，树姿、草坪和水景搭配，是南湖里最出片的角落。它与环湖步道相连，适合傍晚沿湖走这一段。免费、人比主湖区少，是本地人拍照和散步的偏好点。夏天树荫好。",
+ "highlights": [
+  "南湖内名木大树园，树姿水景",
+  "与环湖步道相连，傍晚好看",
+  "免费，人比主湖区少"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.358634,
+   "lat": 22.807286,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
+  "address": "南宁市青秀区双拥路1号（南湖公园内）",
+  "district": "青秀区",
+  "transportTip": "地铁1号线南湖站 B2 口出站即到南湖公园；公交 12/25/29/33/607/609/705/706 路至南湖广场站"
+ },
+ "practical": {
+  "openHours": "全天开放",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [
+  "名树博览园是南湖公园里的一处园中园，免费，与环湖步道相连",
+  "早上有雾森，大榕树与古树名木集中的那一片最出片",
+  "公园本身 24 小时开放，水幕电影每周五晚在湖上放"
+ ],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "名树",
+  "南湖",
+  "水景"
+ ],
+ "popularity": 60,
+ "sources": [
+  {
+   "title": "百度百科·南湖公园",
+   "url": "https://baike.baidu.com/item/%E5%8D%97%E6%B9%96%E5%85%AC%E5%9B%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
   },
-  "audience": [
-    "couple",
-    "solo"
+  {
+   "title": "南宁市市政和园林管理局《南湖公园简介》：地址青秀区双拥路1号、公园免费开放，园内",
+   "url": "https://szyl.nanning.gov.cn/xxgk_5612/jgsz_17751/t1216455.html",
+   "kind": "media",
+   "fetchedAt": "2026-11-15"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "南湖名树园"
+ },
+ "_geocodeTitle": "南湖公园名树博览园",
+ "_geocodeSuspect": false,
+ "district": "450103",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-15",
+  "changes": [
+   {
+    "field": "名称",
+    "old": "南湖名树园",
+    "new": "南湖公园名树博览园"
+   },
+   {
+    "field": "地址",
+    "old": "南宁市青秀区南湖名树园",
+    "new": "南宁市青秀区双拥路1号（南湖公园内）"
+   },
+   {
+    "field": "交通提示",
+    "old": "地铁1号线南湖站步行",
+    "new": "地铁1号线南湖站 B2 口出站即到南湖公园；公交 12/25/29/33/607/609/705/706 路至南湖广场站"
+   },
+   {
+    "field": "贴士（用 | 分隔多条，整体替换）",
+    "old": [],
+    "new": [
+     "名树博览园是南湖公园里的一处园中园，免费，与环湖步道相连",
+     "早上有雾森，大榕树与古树名木集中的那一片最出片",
+     "公园本身 24 小时开放，水幕电影每周五晚在湖上放"
+    ]
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "名树",
-    "南湖",
-    "水景"
+  "source": "https://szyl.nanning.gov.cn/xxgk_5612/jgsz_17751/t1216455.html",
+  "reason": "南宁市市政和园林管理局《南湖公园简介》：地址青秀区双拥路1号、公园免费开放，园内景点含名树博览园；原 address「南宁市青秀区南湖名树园」是场所名占位串、无法导航"
+ },
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "景观",
+    "score": 4.2,
+    "note": "古树名木成片，配雾森与草坪"
+   },
+   {
+    "label": "人流",
+    "score": 3.9,
+    "note": "比南湖主湖区清静，早上锻炼的人多"
+   },
+   {
+    "label": "免费程度",
+    "score": 4.6,
+    "note": "园中园，免费进"
+   },
+   {
+    "label": "配套",
+    "score": 3.4,
+    "note": "园内补给点少，得自带水"
+   }
   ],
-  "popularity": 60,
+  "body": "名树博览园是南湖公园里的一处园中园，集中了一批古树名木和大榕树，早上有雾森，光从树缝里下来的时候最好看，比主湖区人少、树荫好，是本地人散步拍照的偏好点。缺点是园内几乎没有补给，买水要走回公园主路；雾森和花期都有时间窗，正午来就是普通绿地。和环湖步道连着走，一个早上刚好。",
+  "basis": "web",
+  "at": "2026-11-15",
+  "fits": [
+   "早上散步",
+   "拍照",
+   "避暑"
+  ],
+  "avoid": [
+   "正午来",
+   "想找餐饮"
+  ],
   "sources": [
-    {
-      "title": "百度百科·南湖公园",
-      "url": "https://baike.baidu.com/item/%E5%8D%97%E6%B9%96%E5%85%AC%E5%9B%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "南湖名树园"
-  },
-  "_geocodeTitle": "南湖公园名树博览园",
-  "_geocodeSuspect": false,
-  "district": "450103",
-  "_noImage": true
+   "https://szyl.nanning.gov.cn/xxgk_5612/jgsz_17751/t1216455.html",
+   "https://www.toutiao.com/article/7120263279414510114"
+  ]
+ }
 }

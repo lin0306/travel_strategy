@@ -1,173 +1,205 @@
 {
-  "id": "zhuxi-lixue",
-  "name": "朱熹理学文化",
-  "category": "culture",
-  "subtype": "street",
-  "summary": "朱子讲学地，宋代理学源头。",
-  "description": "武夷山是朱熹宦游、讲学、著书五十年的地方，被后人尊为“道南理窟”，宋代理学在这里集大成。五夫镇的紫阳楼、兴贤古街，武夷宫旁的武夷精舍，都留着他的足迹。它不只是一堆古迹，而是理解中国人“格物致知”那套思维的一把钥匙。对文史感兴趣的，把这几处串起来走一遍，比单看风景收获大。氛围肃穆、绿意足。",
-  "highlights": [
-    "朱子故里",
-    "道南理窟",
-    "宋代理学"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.213299,
-      "lat": 27.610204,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "福建省南平市武夷山市五夫镇及武夷宫",
-    "district": "武夷山",
-    "transportTip": "五夫镇与武夷宫两地，自驾或包车串联"
+ "id": "zhuxi-lixue",
+ "name": "朱熹理学文化",
+ "category": "culture",
+ "subtype": "street",
+ "summary": "朱子讲学地，宋代理学源头。",
+ "description": "武夷山是朱熹宦游、讲学、著书五十年的地方，被后人尊为“道南理窟”，宋代理学在这里集大成。五夫镇的紫阳楼、兴贤古街，武夷宫旁的武夷精舍，都留着他的足迹。它不只是一堆古迹，而是理解中国人“格物致知”那套思维的一把钥匙。对文史感兴趣的，把这几处串起来走一遍，比单看风景收获大。氛围肃穆、绿意足。",
+ "highlights": [
+  "朱子故里",
+  "道南理窟",
+  "宋代理学"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.213299,
+   "lat": 27.610204,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "白天（古街与遗迹开放时段）",
-    "openHoursRef": 0,
-    "ticket": "免费（部分遗迹以现场为准）",
-    "ticketRef": 0,
-    "duration": "建议 120-240 分钟",
-    "durationMinutes": [
-      120,
-      240
-    ],
-    "priceLevel": "free"
+  "address": "福建省南平市武夷山市五夫镇及武夷宫",
+  "district": "武夷山",
+  "transportTip": "五夫镇与武夷宫两地，自驾或包车串联"
+ },
+ "practical": {
+  "openHours": "白天（古街与遗迹开放时段）",
+  "openHoursRef": 0,
+  "ticket": "免费（部分遗迹以现场为准）",
+  "ticketRef": 0,
+  "duration": "建议 120-240 分钟",
+  "durationMinutes": [
+   120,
+   240
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "friends",
+  "solo",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Wuyishan_Wufu_2012.08.24_13-50-52.jpg/1280px-Wuyishan_Wufu_2012.08.24_13-50-52.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Wuyishan_Wufu_2012.08.24_13-50-52.jpg/1280px-Wuyishan_Wufu_2012.08.24_13-50-52.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Wuyishan Wufu 2012.08.24 13-50-52.jpg",
+   "query": "朱熹理学文化",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "friends",
-    "solo",
-    "elders"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Wuyishan_Wufu_2012.08.24_13-50-52.jpg/1280px-Wuyishan_Wufu_2012.08.24_13-50-52.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Wuyishan_Wufu_2012.08.24_13-50-52.jpg/1280px-Wuyishan_Wufu_2012.08.24_13-50-52.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Wuyishan Wufu 2012.08.24 13-50-52.jpg",
-      "query": "朱熹理学文化",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangzhugang",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Wuyishan_Wufu_2012.08.24_13-51-03.jpg/1280px-Wuyishan_Wufu_2012.08.24_13-51-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Wuyishan_Wufu_2012.08.24_13-51-03.jpg/1280px-Wuyishan_Wufu_2012.08.24_13-51-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Wuyishan Wufu 2012.08.24 13-51-03.jpg",
-      "query": "朱熹理学文化",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangzhugang",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "street"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Wuyishan_Wufu_2012.08.24_13-52-28.jpg/1280px-Wuyishan_Wufu_2012.08.24_13-52-28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Wuyishan_Wufu_2012.08.24_13-52-28.jpg/1280px-Wuyishan_Wufu_2012.08.24_13-52-28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Wuyishan Wufu 2012.08.24 13-52-28.jpg",
-      "query": "朱熹理学文化",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangzhugang",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "street"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Wuyishan_Wufu_2012.08.24_13-52-49.jpg/1280px-Wuyishan_Wufu_2012.08.24_13-52-49.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Wuyishan_Wufu_2012.08.24_13-52-49.jpg/1280px-Wuyishan_Wufu_2012.08.24_13-52-49.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Wuyishan Wufu 2012.08.24 13-52-49.jpg",
-      "query": "朱熹理学文化",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangzhugang",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "street"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/%E6%9C%B1%E7%86%B9%E6%89%8B%E6%A4%8D%E6%A8%9F_-_Camphor_Tree_Planted_by_Zhu_Xi_-_2015.07_-_panoramio.jpg/1280px-%E6%9C%B1%E7%86%B9%E6%89%8B%E6%A4%8D%E6%A8%9F_-_Camphor_Tree_Planted_by_Zhu_Xi_-_2015.07_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/%E6%9C%B1%E7%86%B9%E6%89%8B%E6%A4%8D%E6%A8%9F_-_Camphor_Tree_Planted_by_Zhu_Xi_-_2015.07_-_panoramio.jpg/1280px-%E6%9C%B1%E7%86%B9%E6%89%8B%E6%A4%8D%E6%A8%9F_-_Camphor_Tree_Planted_by_Zhu_Xi_-_2015.07_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "朱熹手植樟 - Camphor Tree Planted by Zhu Xi - 2015.07 - panoramio.jpg",
-      "query": "朱熹理学文化",
-      "credit": {
-        "source": "wikimedia",
-        "author": "rheins",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "street"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "理学",
-    "朱子",
-    "古迹"
-  ],
-  "popularity": 84,
-  "sources": [
-    {
-      "title": "百度百科·朱熹",
-      "url": "https://baike.baidu.com/item/%E6%9C%B1%E7%86%B9",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-06"
-    }
-  ],
-  "updatedAt": "2026-11-02",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "朱熹理学文化"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Wuyishan_Wufu_2012.08.24_13-51-03.jpg/1280px-Wuyishan_Wufu_2012.08.24_13-51-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Wuyishan_Wufu_2012.08.24_13-51-03.jpg/1280px-Wuyishan_Wufu_2012.08.24_13-51-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Wuyishan Wufu 2012.08.24 13-51-03.jpg",
+   "query": "朱熹理学文化",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "street"
+   }
   },
-  "_geocodeTitle": "五夫",
-  "_geocodeSuspect": false,
-  "district": "350782"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Wuyishan_Wufu_2012.08.24_13-52-28.jpg/1280px-Wuyishan_Wufu_2012.08.24_13-52-28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Wuyishan_Wufu_2012.08.24_13-52-28.jpg/1280px-Wuyishan_Wufu_2012.08.24_13-52-28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Wuyishan Wufu 2012.08.24 13-52-28.jpg",
+   "query": "朱熹理学文化",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "street"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Wuyishan_Wufu_2012.08.24_13-52-49.jpg/1280px-Wuyishan_Wufu_2012.08.24_13-52-49.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Wuyishan_Wufu_2012.08.24_13-52-49.jpg/1280px-Wuyishan_Wufu_2012.08.24_13-52-49.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Wuyishan Wufu 2012.08.24 13-52-49.jpg",
+   "query": "朱熹理学文化",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "street"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/%E6%9C%B1%E7%86%B9%E6%89%8B%E6%A4%8D%E6%A8%9F_-_Camphor_Tree_Planted_by_Zhu_Xi_-_2015.07_-_panoramio.jpg/1280px-%E6%9C%B1%E7%86%B9%E6%89%8B%E6%A4%8D%E6%A8%9F_-_Camphor_Tree_Planted_by_Zhu_Xi_-_2015.07_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/%E6%9C%B1%E7%86%B9%E6%89%8B%E6%A4%8D%E6%A8%9F_-_Camphor_Tree_Planted_by_Zhu_Xi_-_2015.07_-_panoramio.jpg/1280px-%E6%9C%B1%E7%86%B9%E6%89%8B%E6%A4%8D%E6%A8%9F_-_Camphor_Tree_Planted_by_Zhu_Xi_-_2015.07_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "朱熹手植樟 - Camphor Tree Planted by Zhu Xi - 2015.07 - panoramio.jpg",
+   "query": "朱熹理学文化",
+   "credit": {
+    "source": "wikimedia",
+    "author": "rheins",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "street"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "理学",
+  "朱子",
+  "古迹"
+ ],
+ "popularity": 84,
+ "sources": [
+  {
+   "title": "百度百科·朱熹",
+   "url": "https://baike.baidu.com/item/%E6%9C%B1%E7%86%B9",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-06"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "朱熹理学文化"
+ },
+ "_geocodeTitle": "五夫",
+ "_geocodeSuspect": false,
+ "district": "350782",
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "文化",
+    "score": 4.3,
+    "note": "朱子在此著书讲学五十年"
+   },
+   {
+    "label": "讲解",
+    "score": 2.8,
+    "note": "现场解说少，不懂背景容易走空"
+   },
+   {
+    "label": "分散",
+    "score": 2.6,
+    "note": "五夫与武夷宫两头跑，路上费时"
+   }
+  ],
+  "body": "武夷山真正压秤的东西不是山，是朱熹在这儿讲学著书那五十年。五夫镇的紫阳楼、兴贤古街，加上武夷宫旁的武夷精舍，串起来走才看得出“道南理窟”是怎么来的。可惜遗迹分散、现场解说不多，不做点功课很容易看成几间旧房子；两处相隔也不近，一天里塞太多点会赶得很累。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "文史爱好者",
+   "研学"
+  ],
+  "avoid": [
+   "只想看风景"
+  ],
+  "sources": []
+ }
 }

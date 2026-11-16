@@ -16,12 +16,12 @@
       "lat": 23.136712,
       "coordSystem": "GCJ-02"
     },
-    "address": "广州市越秀区小北路200号",
+    "address": "广州市越秀区小北路202号",
     "district": "越秀区",
     "transportTip": "地铁5号线小北站"
   },
   "practical": {
-    "openHours": "早茶约07:00起，以门店公告为准",
+    "openHours": "周一至周五 11:00-14:30、17:00-21:30；周六日 09:00 起增设早茶市",
     "openHoursRef": 0,
     "ticket": "人均约70-130元，以门店为准",
     "ticketRef": 0,
@@ -99,9 +99,15 @@
       "url": "https://baike.baidu.com/item/%E5%8C%97%E5%9B%AD%E9%85%92%E5%AE%B6",
       "kind": "wiki",
       "fetchedAt": "2026-09-24"
+    },
+    {
+      "title": "南方+（转载广州越秀发布）2026国庆越秀美食攻略：北园酒家小北路202号、工作日11:00开市",
+      "url": "https://www.nfnews.com/content/ky9vkaVa3G.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -109,5 +115,22 @@
   },
   "_geocodeTitle": "北园酒家(小北路店)",
   "_geocodeSuspect": false,
-  "district": "440104"
+  "district": "440104",
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "广州市越秀区小北路200号",
+        "new": "广州市越秀区小北路202号"
+      },
+      {
+        "field": "开放时间",
+        "old": "早茶约07:00起，以门店公告为准",
+        "new": "周一至周五 11:00-14:30、17:00-21:30；周六日 09:00 起增设早茶市"
+      }
+    ],
+    "source": "https://www.nfnews.com/content/ky9vkaVa3G.html",
+    "reason": "南方+转载越秀发布2026国庆攻略：门牌202号、工作日11:00开市周六日9:00开市"
+  }
 }

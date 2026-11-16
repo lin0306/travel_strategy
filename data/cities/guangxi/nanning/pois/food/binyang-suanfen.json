@@ -1,68 +1,107 @@
 {
-  "id": "binyang-suanfen",
-  "name": "邹家宾阳酸粉(琅西店)",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "宾阳酸粉，干捞配酸甜汁。",
-  "description": "宾阳酸粉是南宁下辖宾阳县的名小吃，细米粉干捞，配炸肉、酸豆角和一种酸甜的酱汁，清爽不腻。邹家是南宁开了很多年的宾阳酸粉店，多家分店。它是一顿很快的饭，夏天尤其合适。人均低，是本地人认可的味道。适合不想吃热汤粉时。",
-  "highlights": [
-    "宾阳名小吃，细粉干捞配酸甜汁",
-    "邹家是开了多年的连锁",
-    "清爽不腻，夏天合适"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.367123,
-      "lat": 22.807684,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市青秀区金湖南路6号",
-    "district": "青秀区",
-    "transportTip": "地铁1号线南湖站步行约10分钟"
+ "id": "binyang-suanfen",
+ "name": "邹家宾阳酸粉(琅西店)",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "宾阳酸粉，干捞配酸甜汁。",
+ "description": "宾阳酸粉是南宁下辖宾阳县的名小吃，细米粉干捞，配炸肉、酸豆角和一种酸甜的酱汁，清爽不腻。邹家是南宁开了很多年的宾阳酸粉店，多家分店。它是一顿很快的饭，夏天尤其合适。人均低，是本地人认可的味道。适合不想吃热汤粉时。",
+ "highlights": [
+  "宾阳名小吃，细粉干捞配酸甜汁",
+  "邹家是开了多年的连锁",
+  "清爽不腻，夏天合适"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.367123,
+   "lat": 22.807684,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:00-20:00，以门店公告为准",
-    "openHoursRef": 0,
-    "ticket": "人均约15元，以门店为准",
-    "ticketRef": 0,
-    "duration": "建议 20-45 分钟",
-    "durationMinutes": [
-      20,
-      45
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "solo",
-    "friends",
-    "elders"
+  "address": "南宁市青秀区金湖南路6号",
+  "district": "青秀区",
+  "transportTip": "地铁1号线南湖站步行约10分钟"
+ },
+ "practical": {
+  "openHours": "约10:00-20:00，以门店公告为准",
+  "openHoursRef": 0,
+  "ticket": "人均约15元，以门店为准",
+  "ticketRef": 0,
+  "duration": "建议 20-45 分钟",
+  "durationMinutes": [
+   20,
+   45
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "宾阳酸粉",
-    "小吃",
-    "干捞"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "solo",
+  "friends",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "宾阳酸粉",
+  "小吃",
+  "干捞"
+ ],
+ "popularity": 70,
+ "sources": [
+  {
+   "title": "百度百科·宾阳酸粉",
+   "url": "https://baike.baidu.com/item/%E5%AE%BE%E9%98%B3%E9%85%B8%E7%B2%89",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "邹家宾阳酸粉(琅西店)"
+ },
+ "_geocodeTitle": "邹家宾阳酸粉(埌西店)",
+ "_geocodeSuspect": false,
+ "district": "450103",
+ "_noImage": true,
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.3,
+    "note": "细粉干捞，酸甜汁解腻，夏天特别对味"
+   },
+   {
+    "label": "价格",
+    "score": 4.5,
+    "note": "人均十几块，一顿快的饭"
+   },
+   {
+    "label": "环境",
+    "score": 3.0,
+    "note": "连锁快餐式小店，座位挤"
+   },
+   {
+    "label": "排队",
+    "score": 3.2,
+    "note": "午市本地人扎堆，要等一会儿"
+   }
   ],
-  "popularity": 70,
-  "sources": [
-    {
-      "title": "百度百科·宾阳酸粉",
-      "url": "https://baike.baidu.com/item/%E5%AE%BE%E9%98%B3%E9%85%B8%E7%B2%89",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "宾阳酸粉是干捞的路子：细米粉过凉，浇酸甜汁，配炸肉、酸豆角，不喝汤也能吃饱，热天吃比汤粉舒服。邹家是南宁开了多年的连锁，出品稳定，适合赶时间的一顿。缺点也清楚：店里就是普通快餐环境、座位紧，午高峰要排队；不同分店的水平有高有低，挑人多的那家更稳。想正经吃一顿不合适，当快餐刚好。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "一个人吃饭",
+   "夏天",
+   "行程赶时间"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "邹家宾阳酸粉(琅西店)"
-  },
-  "_geocodeTitle": "邹家宾阳酸粉(埌西店)",
-  "_geocodeSuspect": false,
-  "district": "450103",
-  "_noImage": true
+  "avoid": [
+   "想吃正餐",
+   "追求环境"
+  ],
+  "sources": []
+ }
 }

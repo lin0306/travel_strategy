@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "北京市西城区廊房头条",
-    "district": "东城",
+    "district": "西城",
     "transportTip": "地铁2号线前门站C口步行"
   },
   "practical": {
@@ -85,7 +85,7 @@
       "fetchedAt": "2026-09-19"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -93,5 +93,42 @@
   },
   "_geocodeTitle": "北京坊",
   "_geocodeSuspect": false,
-  "district": "110101"
+  "district": "110102",
+  "review": {
+    "score": 4.1,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "拍照",
+        "score": 4.5,
+        "note": "书店二楼落地窗正对正阳门，是这片最出名的取景位"
+      },
+      {
+        "label": "建筑",
+        "score": 4.3,
+        "note": "民国银行区青砖楼与现代玻璃体咬合"
+      },
+      {
+        "label": "人流",
+        "score": 3.4,
+        "note": "周末与节假日拍照位要排队"
+      },
+      {
+        "label": "逛店时长",
+        "score": 3.5,
+        "note": "楼座多为办公与酒店，可逛范围比想象小"
+      }
+    ],
+    "body": "北京坊看的是建筑与光线，不是摊市：青砖老楼之间插进钢与玻璃，和隔壁前门大街一动一静。最实用的一个动作是上书店二楼，落地窗正对着正阳门。缺点是不少楼座属写字楼与酒店，不对外开放，实际能走的区域不大；周末拍照位要等。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "建筑与拍照",
+      "雨天备选"
+    ],
+    "avoid": [
+      "想逛市集吃小吃"
+    ],
+    "sources": []
+  }
 }

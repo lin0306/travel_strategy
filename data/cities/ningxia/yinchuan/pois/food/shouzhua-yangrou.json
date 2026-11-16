@@ -1,68 +1,106 @@
 {
-  "id": "shouzhua-yangrou",
-  "name": "手抓羊肉",
-  "category": "food",
-  "subtype": "local",
-  "summary": "宁夏羊肉招牌，清水煮后蘸蒜盐，肉嫩不膻，上手抓着吃最香。",
-  "description": "手抓羊肉是宁夏羊肉的头号吃法。挑滩羊的肋条，清水加几味香料煮到刚熟，不膻不柴，肉带点粉红最嫩。上桌配蒜泥和椒盐，抓着啃最香，也能配生蒜。银川老毛手抓等名店多，但街边清真馆也地道。讲究吃原味，不靠重辣盖。配八宝茶解腻。夏天有冷吃的做法，也爽。",
-  "highlights": [
-    "宁夏羊肉头号吃法",
-    "清水煮蘸蒜盐不膻",
-    "上手抓着啃最香"
-  ],
-  "location": {
-    "point": {
-      "lng": 106.288452,
-      "lat": 38.473972,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "宁夏回族自治区银川市兴庆区各清真餐馆（如老毛手抓）",
-    "district": "兴庆区",
-    "transportTip": "市区各清真餐馆均有"
+ "id": "shouzhua-yangrou",
+ "name": "手抓羊肉",
+ "category": "food",
+ "subtype": "local",
+ "summary": "宁夏羊肉招牌，清水煮后蘸蒜盐，肉嫩不膻，上手抓着吃最香。",
+ "description": "手抓羊肉是宁夏羊肉的头号吃法。挑滩羊的肋条，清水加几味香料煮到刚熟，不膻不柴，肉带点粉红最嫩。上桌配蒜泥和椒盐，抓着啃最香，也能配生蒜。银川老毛手抓等名店多，但街边清真馆也地道。讲究吃原味，不靠重辣盖。配八宝茶解腻。夏天有冷吃的做法，也爽。",
+ "highlights": [
+  "宁夏羊肉头号吃法",
+  "清水煮蘸蒜盐不膻",
+  "上手抓着啃最香"
+ ],
+ "location": {
+  "point": {
+   "lng": 106.288452,
+   "lat": 38.473972,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:00-21:00",
-    "openHoursRef": 0,
-    "ticket": "约80元/斤起",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "friends",
-    "family",
-    "couple"
+  "address": "宁夏回族自治区银川市兴庆区各清真餐馆（如老毛手抓）",
+  "district": "兴庆区",
+  "transportTip": "市区各清真餐馆均有"
+ },
+ "practical": {
+  "openHours": "约10:00-21:00",
+  "openHoursRef": 0,
+  "ticket": "约80元/斤起",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "羊肉",
-    "清真",
-    "招牌"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "friends",
+  "family",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "羊肉",
+  "清真",
+  "招牌"
+ ],
+ "popularity": 95,
+ "sources": [
+  {
+   "title": "百度百科·手抓羊肉",
+   "url": "https://baike.baidu.com/item/%E6%89%8B%E6%8A%93%E7%BE%8A%E8%82%89",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-02"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Hand-grabbed Mutton",
+  "zh": "手抓羊肉"
+ },
+ "_geocodeTitle": "兴庆区",
+ "_geocodeSuspect": false,
+ "district": "640104",
+ "_noImage": true,
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.6,
+    "note": "清水煮到刚熟，肉带粉红不膻"
+   },
+   {
+    "label": "价格",
+    "score": 3.3,
+    "note": "按斤计价，人少容易点过量"
+   },
+   {
+    "label": "吃法",
+    "score": 4.4,
+    "note": "上手抓着啃，配蒜泥椒盐"
+   },
+   {
+    "label": "环境",
+    "score": 3.0,
+    "note": "老店多是大排档式，桌挨桌"
+   }
   ],
-  "popularity": 95,
-  "sources": [
-    {
-      "title": "百度百科·手抓羊肉",
-      "url": "https://baike.baidu.com/item/%E6%89%8B%E6%8A%93%E7%BE%8A%E8%82%89",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-02"
-    }
+  "body": "宁夏羊肉的头号吃法：挑滩羊肋条，清水加几味香料煮到刚熟，肉带点粉红最嫩，配蒜泥椒盐上手抓着啃，讲究吃原味，不靠重辣盖。缺点是按斤计价，人少时点一份就过量，一桌下来不便宜；老店多是大排档的环境，桌挨桌、说话得抬嗓子，夏天冷吃虽爽，口感偏紧。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "多人合点",
+   "吃原味羊肉"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Hand-grabbed Mutton",
-    "zh": "手抓羊肉"
-  },
-  "_geocodeTitle": "兴庆区",
-  "_geocodeSuspect": false,
-  "district": "640104",
-  "_noImage": true
+  "avoid": [
+   "两人小桌",
+   "要安静环境"
+  ],
+  "sources": []
+ }
 }

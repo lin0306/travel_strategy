@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Xixia_Museum_Yinchuan.jpg/1280px-Xixia_Museum_Yinchuan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Xixia_Museum_Yinchuan.jpg/1280px-Xixia_Museum_Yinchuan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Xixia Museum Yinchuan.jpg",
-      "query": "西夏博物馆 银川",
-      "credit": {
-        "source": "wikimedia",
-        "author": "BabelStone",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xixia_Museum_Yinchuan.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Xixia_Museum_caltrop.jpg/1280px-Xixia_Museum_caltrop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Xixia_Museum_caltrop.jpg/1280px-Xixia_Museum_caltrop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1038,
-      "alt": "Xixia Museum caltrop.jpg",
-      "query": "西夏博物馆 银川",
-      "credit": {
-        "source": "wikimedia",
-        "author": "BabelStone",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xixia_Museum_caltrop.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Xixia_Museum_head_B.jpg/1280px-Xixia_Museum_head_B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Xixia_Museum_head_B.jpg/1280px-Xixia_Museum_head_B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1359,
-      "alt": "Xixia Museum head B.jpg",
-      "query": "西夏博物馆 银川",
-      "credit": {
-        "source": "wikimedia",
-        "author": "BabelStone",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xixia_Museum_head_B.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "西夏",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Western Xia Museum",
@@ -109,5 +63,15 @@
   },
   "_geocodeTitle": "西夏陵博物馆",
   "_geocodeSuspect": false,
-  "district": "640105"
+  "district": "640105",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 3 张（待重抓）",
+    "droppedImages": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Xixia_Museum_Yinchuan.jpg/1280px-Xixia_Museum_Yinchuan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Xixia_Museum_caltrop.jpg/1280px-Xixia_Museum_caltrop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Xixia_Museum_head_B.jpg/1280px-Xixia_Museum_head_B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  }
 }

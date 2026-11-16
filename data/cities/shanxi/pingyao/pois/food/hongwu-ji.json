@@ -1,68 +1,106 @@
 {
-  "id": "hongwu-ji",
-  "name": "洪武记饭店",
-  "category": "food",
-  "subtype": "local",
-  "summary": "明清街上的老馆子，平遥牛肉与本地菜都点得到。",
-  "description": "洪武记在南大街上，是古城里回头客最多的一家。主打平遥本地菜，牛肉当然是必点的那一味。还有平遥传统的过油肉与一碗浓稠的刀削面。名气大,来的人多，饭点常常要等。想省事可以错峰去，下午两三点最空。店里有二部在几步之外，排队长了会分流。分量偏实，两个人两菜一汤足够。坐在靠窗位置，能看到街上的行人。价格在本城属于中等偏上，但位置与环境值这个价。",
-  "highlights": [
-    "本地回头客最多",
-    "牛肉与过油肉都扎实",
-    "饭点要等，建议错峰"
-  ],
-  "location": {
-    "point": {
-      "lng": 112.185953,
-      "lat": 37.203088,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "晋中市平遥县古城街道南大街84号",
-    "district": "平遥",
-    "transportTip": "古城内步行可达，南大街中段"
+ "id": "hongwu-ji",
+ "name": "洪武记饭店",
+ "category": "food",
+ "subtype": "local",
+ "summary": "明清街上的老馆子，平遥牛肉与本地菜都点得到。",
+ "description": "洪武记在南大街上，是古城里回头客最多的一家。主打平遥本地菜，牛肉当然是必点的那一味。还有平遥传统的过油肉与一碗浓稠的刀削面。名气大,来的人多，饭点常常要等。想省事可以错峰去，下午两三点最空。店里有二部在几步之外，排队长了会分流。分量偏实，两个人两菜一汤足够。坐在靠窗位置，能看到街上的行人。价格在本城属于中等偏上，但位置与环境值这个价。",
+ "highlights": [
+  "本地回头客最多",
+  "牛肉与过油肉都扎实",
+  "饭点要等，建议错峰"
+ ],
+ "location": {
+  "point": {
+   "lng": 112.185953,
+   "lat": 37.203088,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 10:00-21:00（以到店为准）",
-    "openHoursRef": 0,
-    "ticket": "人均约 60-90 元，以实际为准",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "friends",
-    "family",
-    "couple"
+  "address": "晋中市平遥县古城街道南大街84号",
+  "district": "平遥",
+  "transportTip": "古城内步行可达，南大街中段"
+ },
+ "practical": {
+  "openHours": "约 10:00-21:00（以到店为准）",
+  "openHoursRef": 0,
+  "ticket": "人均约 60-90 元，以实际为准",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "本地菜",
-    "平遥牛肉",
-    "老馆子"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "friends",
+  "family",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "本地菜",
+  "平遥牛肉",
+  "老馆子"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·平遥牛肉",
+   "url": "https://baike.baidu.com/item/%E5%B9%B3%E9%81%A5%E7%89%9B%E8%82%89",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-06"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "洪武记饭店"
+ },
+ "_geocodeTitle": "洪武记饭店",
+ "_geocodeSuspect": false,
+ "district": "140728",
+ "_noImage": true,
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.3,
+    "note": "平遥牛肉与过油肉都扎实"
+   },
+   {
+    "label": "价格",
+    "score": 3.1,
+    "note": "本城属于中等偏上"
+   },
+   {
+    "label": "排队",
+    "score": 2.7,
+    "note": "饭点常要等，靠窗位难抢"
+   },
+   {
+    "label": "环境",
+    "score": 3.8,
+    "note": "老馆子，坐在窗边能看街"
+   }
   ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·平遥牛肉",
-      "url": "https://baike.baidu.com/item/%E5%B9%B3%E9%81%A5%E7%89%9B%E8%82%89",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-06"
-    }
+  "body": "南大街上回头客最多的老馆子，平遥牛肉与过油肉是必点，刀削面浓稠，分量偏实，两个人两菜一汤就够。缺点是饭点等位明显，节假日排得更久，靠窗位置尤其难抢；价格在古城里属于中等偏上，同一条街上能找到更便宜的同类馆子。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "古城正餐",
+   "多人分菜"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "洪武记饭店"
-  },
-  "_geocodeTitle": "洪武记饭店",
-  "_geocodeSuspect": false,
-  "district": "140728",
-  "_noImage": true
+  "avoid": [
+   "赶时间",
+   "想吃清淡"
+  ],
+  "sources": []
+ }
 }

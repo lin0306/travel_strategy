@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "广西壮族自治区桂林市叠彩区木龙湖",
-    "district": "秀峰区",
+    "district": "叠彩区",
     "transportTip": "市区步行可达；位于两江四湖水道北端",
     "entrance": {
       "lng": 110.298522,
@@ -61,7 +61,7 @@
       "fetchedAt": "2026-09-30"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-12",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -69,6 +69,42 @@
   },
   "_geocodeTitle": "木龙湖",
   "_geocodeSuspect": false,
-  "district": "450302",
-  "_noImage": true
+  "district": "450303",
+  "_noImage": true,
+  "review": {
+    "score": 3.9,
+    "verdict": "顺路看看",
+    "facets": [
+      {
+        "label": "夜景",
+        "score": 4.3,
+        "note": "水系里灯最密的一段"
+      },
+      {
+        "label": "空间",
+        "score": 2.8,
+        "note": "湖窄，亮灯后步道挤"
+      },
+      {
+        "label": "门票",
+        "score": 4.0,
+        "note": "沿岸免费"
+      },
+      {
+        "label": "夜航",
+        "score": 3.3,
+        "note": "船票不便宜"
+      }
+    ],
+    "body": "两江四湖里唯一为接水道新挖的湖，挖出的宋代城墙基址就地复建在岸边，夜里灯是全水系最密的一段，夜航会先绕这里。缺点是湖面窄，亮灯后岸边步道挤，拍照很难避开人；夜航船票不便宜，只在岸上走其实也够看。",
+    "basis": "corpus",
+    "at": "2026-11-12",
+    "fits": [
+      "看夜景"
+    ],
+    "avoid": [
+      "怕挤"
+    ],
+    "sources": []
+  }
 }

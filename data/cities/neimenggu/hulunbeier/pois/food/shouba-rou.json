@@ -1,83 +1,121 @@
 {
-  "id": "shouba-rou",
-  "name": "手把肉",
-  "category": "food",
-  "subtype": "local",
-  "summary": "草原最朴素的羊肉，带骨清水煮。",
-  "description": "手把肉是蒙古族最经典的做法，把带骨的羊肋条或大块羊肉清水煮到刚断生，蘸盐或野韭菜花酱吃，突出羊肉本身的鲜。它不加复杂调料，吃的是草原本味和肉质。在草原营地和市区蒙餐馆都能吃到，肥瘦相间、入口不膻。配一碗蒙古奶茶最地道，是到呼伦贝尔必试的第一道。",
-  "highlights": [
-    "蒙古族清水煮带骨羊肉",
-    "蘸盐或韭菜花酱",
-    "草原本味不膻"
-  ],
-  "location": {
-    "point": {
-      "lng": 119.778218,
-      "lat": 49.217085,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "呼伦贝尔市海拉尔区及草原蒙餐馆",
-    "district": "海拉尔区",
-    "transportTip": "市区与营地餐馆"
+ "id": "shouba-rou",
+ "name": "手把肉",
+ "category": "food",
+ "subtype": "local",
+ "summary": "草原最朴素的羊肉，带骨清水煮。",
+ "description": "手把肉是蒙古族最经典的做法，把带骨的羊肋条或大块羊肉清水煮到刚断生，蘸盐或野韭菜花酱吃，突出羊肉本身的鲜。它不加复杂调料，吃的是草原本味和肉质。在草原营地和市区蒙餐馆都能吃到，肥瘦相间、入口不膻。配一碗蒙古奶茶最地道，是到呼伦贝尔必试的第一道。",
+ "highlights": [
+  "蒙古族清水煮带骨羊肉",
+  "蘸盐或韭菜花酱",
+  "草原本味不膻"
+ ],
+ "location": {
+  "point": {
+   "lng": 119.778218,
+   "lat": 49.217085,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约11:00-14:00 / 17:00-21:00（以门店为准）",
-    "openHoursRef": 0,
-    "ticket": "人均约80元，以门店为准",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "elders",
-    "friends",
-    "family"
+  "address": "呼伦贝尔市海拉尔区及草原蒙餐馆",
+  "district": "海拉尔区",
+  "transportTip": "市区与营地餐馆"
+ },
+ "practical": {
+  "openHours": "约11:00-14:00 / 17:00-21:00（以门店为准）",
+  "openHoursRef": 0,
+  "ticket": "人均约80元，以门店为准",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Chanasan_makh.jpg/1280px-Chanasan_makh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Chanasan_makh.jpg/1280px-Chanasan_makh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 862,
-      "alt": "Chanasan makh.jpg",
-      "query": "手把肉",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Mizu_Basyo",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chanasan_makh.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    }
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "elders",
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Chanasan_makh.jpg/1280px-Chanasan_makh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Chanasan_makh.jpg/1280px-Chanasan_makh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 862,
+   "alt": "Chanasan makh.jpg",
+   "query": "手把肉",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Mizu_Basyo",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chanasan_makh.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "羊肉",
+  "蒙餐",
+  "手把肉"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·手把肉",
+   "url": "https://baike.baidu.com/item/%E6%89%8B%E6%8A%8A%E8%82%89",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-05"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "手把肉"
+ },
+ "_geocodeTitle": "玉玲手把肉涮羊肉",
+ "_geocodeSuspect": false,
+ "district": "150702",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.6,
+    "note": "清水煮带骨羊肉，吃草原本味"
+   },
+   {
+    "label": "价格",
+    "score": 4.0,
+    "note": "市区蒙餐馆比营地实在"
+   },
+   {
+    "label": "环境",
+    "score": 3.4,
+    "note": "营地与景区店条件参差"
+   },
+   {
+    "label": "普适性",
+    "score": 3.6,
+    "note": "肥瘦一起上，怕油的人吃力"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "羊肉",
-    "蒙餐",
-    "手把肉"
+  "body": "带骨的羊肋条或大块羊肉清水煮到刚断生，蘸盐或野韭菜花酱吃，不加复杂调料，吃的就是肉质和草原本味，不膻是它最大的说服力，配一碗蒙古奶茶最地道。缺点是肥瘦一起上，怕油的人吃两块就顶；凉了以后口感明显下降，得趁热。景区营地里的价格偏高，市区蒙餐馆更实在。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "蒙餐",
+   "肉食"
   ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·手把肉",
-      "url": "https://baike.baidu.com/item/%E6%89%8B%E6%8A%8A%E8%82%89",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-05"
-    }
+  "avoid": [
+   "怕油",
+   "素食"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "手把肉"
-  },
-  "_geocodeTitle": "玉玲手把肉涮羊肉",
-  "_geocodeSuspect": false,
-  "district": "150702"
+  "sources": []
+ }
 }

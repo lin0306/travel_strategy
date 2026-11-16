@@ -39,38 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%96%86%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%8E%BF_China_Xinjiang_Urumqi_County%2C_China_Xinjiang_-_panoramio_%2810%29.jpg/1280px-%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%96%86%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%8E%BF_China_Xinjiang_Urumqi_County%2C_China_Xinjiang_-_panoramio_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%96%86%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%8E%BF_China_Xinjiang_Urumqi_County%2C_China_Xinjiang_-_panoramio_%2810%29.jpg/1280px-%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%96%86%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%8E%BF_China_Xinjiang_Urumqi_County%2C_China_Xinjiang_-_panoramio_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 717,
-      "alt": "中国新疆乌鲁木齐县 China Xinjiang Urumqi County, China Xinjiang - panoramio (10).jpg",
-      "query": "Silk Road Ski Resort Urumqi 乌鲁木齐",
-      "credit": {
-        "source": "wikimedia",
-        "author": "罗布泊",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%96%86%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%8E%BF_China_Xinjiang_Urumqi_County,_China_Xinjiang_-_panoramio_(10).jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%96%86%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%8E%BF_China_Xinjiang_Urumqi_County%2C_China_Xinjiang_-_panoramio_%2812%29.jpg/1280px-%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%96%86%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%8E%BF_China_Xinjiang_Urumqi_County%2C_China_Xinjiang_-_panoramio_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%96%86%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%8E%BF_China_Xinjiang_Urumqi_County%2C_China_Xinjiang_-_panoramio_%2812%29.jpg/1280px-%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%96%86%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%8E%BF_China_Xinjiang_Urumqi_County%2C_China_Xinjiang_-_panoramio_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 717,
-      "alt": "中国新疆乌鲁木齐县 China Xinjiang Urumqi County, China Xinjiang - panoramio (12).jpg",
-      "query": "Silk Road Ski Resort Urumqi 乌鲁木齐",
-      "credit": {
-        "source": "wikimedia",
-        "author": "罗布泊",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%96%86%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%8E%BF_China_Xinjiang_Urumqi_County,_China_Xinjiang_-_panoramio_(12).jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "滑雪",
@@ -86,7 +55,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Silk Road Ski Resort Urumqi",
@@ -94,5 +63,14 @@
   },
   "_geocodeTitle": "丝绸之路滑雪场(公交站)",
   "_geocodeSuspect": false,
-  "district": "650121"
+  "district": "650121",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 2 张（待重抓）",
+    "droppedImages": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%96%86%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%8E%BF_China_Xinjiang_Urumqi_County%2C_China_Xinjiang_-_panoramio_%2810%29.jpg/1280px-%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%96%86%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%8E%BF_China_Xinjiang_Urumqi_County%2C_China_Xinjiang_-_panoramio_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%96%86%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%8E%BF_China_Xinjiang_Urumqi_County%2C_China_Xinjiang_-_panoramio_%2812%29.jpg/1280px-%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%96%86%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%8E%BF_China_Xinjiang_Urumqi_County%2C_China_Xinjiang_-_panoramio_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  }
 }

@@ -49,7 +49,7 @@ import { GITHUB_REPO_URL } from '~/common/data/site'
  * 再小就比 iOS 的 44pt 指南差得更多。
  */
 const ITEM =
-  'pointer-events-auto relative grid size-10 place-items-center rounded-[12px] border border-line bg-surface text-ink-2 shadow-[var(--flt-shadow)] transition-colors active:bg-line-2'
+  'pointer-events-auto relative grid size-10 place-items-center rounded-[12px] border border-line bg-surface text-ink-2 shadow-[var(--flt-shadow)] transition-[background-color,color,transform] duration-150 active:scale-95 active:bg-line-2'
 
 export function MobileMapTools() {
   const shell = useMapShell()
@@ -115,7 +115,7 @@ export function MobileMapTools() {
           type="button"
           onClick={openAbout}
           aria-haspopup="dialog"
-          aria-label="关于行迹（数据规模 · 使用说明 · 内容与素材来源）"
+          aria-label="关于行迹（数据规模 · 使用说明 · 数据来源与素材）"
           className={ITEM}
         >
           <Icon name="info" size="md" />

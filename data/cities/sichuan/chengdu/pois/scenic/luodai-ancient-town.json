@@ -20,9 +20,9 @@
     "transportTip": "地铁 4 号线西河站转公交/打车约 20 分钟；自驾约 40 分钟"
   },
   "practical": {
-    "openHours": "全天开放（会馆与博客楼约 09:00-17:30）",
+    "openHours": "古镇街区全天开放；四大会馆 09:00-17:00（周一闭馆）；博客楼 2026-08-03 起闭馆改造，重开时间以官方通知为准",
     "openHoursRef": 0,
-    "ticket": "古镇免费，会馆与博客楼单独收票",
+    "ticket": "古镇街区免费；四大会馆（龙泉驿区博物馆）免费开放、周一闭馆；金龙长城 30 元",
     "ticketRef": 0,
     "duration": "建议 180-300 分钟",
     "durationMinutes": [
@@ -40,7 +40,7 @@
   ],
   "accessible": true,
   "tips": [
-    "博客楼需门票但强烈建议进",
+    "博客楼免费，但 2026-08-03 起闭馆改造，去前查景区官方通知",
     "伤心凉粉辣度高，量力而行"
   ],
   "images": [
@@ -149,9 +149,27 @@
       "url": "https://baike.baidu.com/item/%E6%B4%9B%E5%B8%A6%E5%8F%A4%E9%95%87",
       "kind": "wiki",
       "fetchedAt": "2026-09-18"
+    },
+    {
+      "title": "洛带镇人民政府 / 洛带古镇景区管委会 2026-07-31 公告：博客楼自 2",
+      "url": "https://www.sctv.com/news/2083449044481150978",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
+    },
+    {
+      "title": "龙泉驿新闻(区级官媒)",
+      "url": "https://www.newslqy.com/news/315251",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
+    },
+    {
+      "title": "龙泉驿新闻(区级官媒)",
+      "url": "https://www.newslqy.com/news/315251",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Luodai Ancient Town",
@@ -159,5 +177,22 @@
   },
   "_geocodeTitle": "洛带古镇",
   "_geocodeSuspect": false,
-  "district": "510112"
+  "district": "510112",
+  "_patrol": {
+    "at": "2026-11-08",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "古镇街区全天开放；四大会馆 09:00-17:30；博客楼 2026-08-03 起闭馆改造，重开时间以官方通知为准",
+        "new": "古镇街区全天开放；四大会馆 09:00-17:00（周一闭馆）；博客楼 2026-08-03 起闭馆改造，重开时间以官方通知为准"
+      },
+      {
+        "field": "提示",
+        "old": "博客楼需门票但强烈建议进",
+        "new": "博客楼免费，但 2026-08-03 起闭馆改造，去前查景区官方通知"
+      }
+    ],
+    "source": "https://www.newslqy.com/news/315251",
+    "reason": "会馆开放时间09:00-17:00且周一闭馆，原17:30未提周一闭馆\r"
+  }
 }

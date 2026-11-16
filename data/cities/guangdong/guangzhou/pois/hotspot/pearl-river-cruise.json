@@ -1,194 +1,234 @@
 {
-  "id": "pearl-river-cruise",
-  "name": "珠江夜游",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "从水上把两岸连起来看：这一座城市的地标绝大多数排在江的两侧。",
-  "description": "珠江夜游从沿江的码头出发，上行一段再折返，航程通常在一小时上下。它的价值在于水这一层——广州大部分地标都排在江的两岸，白天在陆地上只能一个一个分别去，坐船则把它们连成一条线。沿途经过沙面、西堤、海珠桥、二沙岛，再到珠江新城那一面。码头与船型不同，价格差别不小。",
-  "highlights": [
-    "地标多数排在江两侧，坐船可一次连起来",
-    "航程一般一小时上下",
-    "码头与船型决定价格"
-  ],
-  "location": {
-    "point": {
-      "lng": 113.277825,
-      "lat": 23.114635,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "广州市越秀区沿江西路西堤码头一带（另有多个码头）",
-    "district": "越秀区",
-    "transportTip": "地铁6号线、8号线文化公园站至西堤码头；另有海心沙一带码头"
+ "id": "pearl-river-cruise",
+ "name": "珠江夜游",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "从水上把两岸连起来看：这一座城市的地标绝大多数排在江的两侧。",
+ "description": "珠江夜游从沿江的码头出发，上行一段再折返，航程通常在一小时上下。它的价值在于水这一层——广州大部分地标都排在江的两岸，白天在陆地上只能一个一个分别去，坐船则把它们连成一条线。沿途经过沙面、西堤、海珠桥、二沙岛，再到珠江新城那一面。码头与船型不同，价格差别不小。",
+ "highlights": [
+  "地标多数排在江两侧，坐船可一次连起来",
+  "航程一般一小时上下",
+  "码头与船型决定价格"
+ ],
+ "location": {
+  "point": {
+   "lng": 113.277825,
+   "lat": 23.114635,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "夜航多在19:00-22:00间发船，以运营方公告为准",
-    "openHoursRef": 0,
-    "ticket": "约80元起，视船型与码头而定",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "mid"
+  "address": "广州市越秀区沿江西路西堤码头一带（另有多个码头）",
+  "district": "越秀区",
+  "transportTip": "地铁6号线、8号线文化公园站至西堤码头；另有海心沙一带码头"
+ },
+ "practical": {
+  "openHours": "夜航多在19:00-22:00间发船，以运营方公告为准",
+  "openHoursRef": 0,
+  "ticket": "约80元起，视船型与码头而定",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "family",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Yuexiu%2C_Guangzhou%2C_Guangdong%2C_China_-_panoramio_%289%29.jpg/1280px-Yuexiu%2C_Guangzhou%2C_Guangdong%2C_China_-_panoramio_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Yuexiu%2C_Guangzhou%2C_Guangdong%2C_China_-_panoramio_%289%29.jpg/1280px-Yuexiu%2C_Guangzhou%2C_Guangdong%2C_China_-_panoramio_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Yuexiu, Guangzhou, Guangdong, China - panoramio (9).jpg",
+   "query": "珠江夜游",
+   "credit": {
+    "source": "wikimedia",
+    "author": "张彬",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "couple",
-    "family",
-    "elders"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Yuexiu%2C_Guangzhou%2C_Guangdong%2C_China_-_panoramio_%289%29.jpg/1280px-Yuexiu%2C_Guangzhou%2C_Guangdong%2C_China_-_panoramio_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Yuexiu%2C_Guangzhou%2C_Guangdong%2C_China_-_panoramio_%289%29.jpg/1280px-Yuexiu%2C_Guangzhou%2C_Guangdong%2C_China_-_panoramio_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Yuexiu, Guangzhou, Guangdong, China - panoramio (9).jpg",
-      "query": "珠江夜游",
-      "credit": {
-        "source": "wikimedia",
-        "author": "张彬",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "夜游珠江 - panoramio (7).jpg",
-      "query": "珠江夜游",
-      "credit": {
-        "source": "wikimedia",
-        "author": "蒋鹏飞",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Yuexiu%2C_Guangzhou%2C_Guangdong%2C_China_-_panoramio_%288%29.jpg/1280px-Yuexiu%2C_Guangzhou%2C_Guangdong%2C_China_-_panoramio_%288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Yuexiu%2C_Guangzhou%2C_Guangdong%2C_China_-_panoramio_%288%29.jpg/1280px-Yuexiu%2C_Guangzhou%2C_Guangdong%2C_China_-_panoramio_%288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Yuexiu, Guangzhou, Guangdong, China - panoramio (8).jpg",
-      "query": "珠江夜游",
-      "credit": {
-        "source": "wikimedia",
-        "author": "张彬",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "夜游珠江 - panoramio.jpg",
-      "query": "珠江夜游",
-      "credit": {
-        "source": "wikimedia",
-        "author": "蒋鹏飞",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "夜游珠江 - panoramio (12).jpg",
-      "query": "珠江夜游",
-      "credit": {
-        "source": "wikimedia",
-        "author": "蒋鹏飞",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio_(12).jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio_%2814%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio_%2814%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "夜游珠江 - panoramio (14).jpg",
-      "query": "珠江夜游",
-      "credit": {
-        "source": "wikimedia",
-        "author": "蒋鹏飞",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio_(14).jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "夜景",
-    "珠江",
-    "游船"
-  ],
-  "popularity": 88,
-  "sources": [
-    {
-      "title": "百度百科·珠江夜游",
-      "url": "https://baike.baidu.com/item/%E7%8F%A0%E6%B1%9F%E5%A4%9C%E6%B8%B8",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-24"
-    }
-  ],
-  "updatedAt": "2026-11-05",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "珠江夜游"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "夜游珠江 - panoramio (7).jpg",
+   "query": "珠江夜游",
+   "credit": {
+    "source": "wikimedia",
+    "author": "蒋鹏飞",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "珠江夜游",
-  "_geocodeSuspect": false,
-  "district": "440104"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Yuexiu%2C_Guangzhou%2C_Guangdong%2C_China_-_panoramio_%288%29.jpg/1280px-Yuexiu%2C_Guangzhou%2C_Guangdong%2C_China_-_panoramio_%288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Yuexiu%2C_Guangzhou%2C_Guangdong%2C_China_-_panoramio_%288%29.jpg/1280px-Yuexiu%2C_Guangzhou%2C_Guangdong%2C_China_-_panoramio_%288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Yuexiu, Guangzhou, Guangdong, China - panoramio (8).jpg",
+   "query": "珠江夜游",
+   "credit": {
+    "source": "wikimedia",
+    "author": "张彬",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "夜游珠江 - panoramio.jpg",
+   "query": "珠江夜游",
+   "credit": {
+    "source": "wikimedia",
+    "author": "蒋鹏飞",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "夜游珠江 - panoramio (12).jpg",
+   "query": "珠江夜游",
+   "credit": {
+    "source": "wikimedia",
+    "author": "蒋鹏飞",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio_(12).jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio_%2814%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio_%2814%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "夜游珠江 - panoramio (14).jpg",
+   "query": "珠江夜游",
+   "credit": {
+    "source": "wikimedia",
+    "author": "蒋鹏飞",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio_(14).jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "夜景",
+  "珠江",
+  "游船"
+ ],
+ "popularity": 88,
+ "sources": [
+  {
+   "title": "百度百科·珠江夜游",
+   "url": "https://baike.baidu.com/item/%E7%8F%A0%E6%B1%9F%E5%A4%9C%E6%B8%B8",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-24"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "珠江夜游"
+ },
+ "_geocodeTitle": "珠江夜游",
+ "_geocodeSuspect": false,
+ "district": "440104",
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.5,
+    "note": "两岸地标一次连成一条线"
+   },
+   {
+    "label": "时长",
+    "score": 4.0,
+    "note": "航程一般一小时上下"
+   },
+   {
+    "label": "性价比",
+    "score": 2.6,
+    "note": "码头与船型不同，价格差别不小"
+   },
+   {
+    "label": "班次",
+    "score": 2.7,
+    "note": "夜航集中在一段时段，旺季票紧"
+   }
+  ],
+  "body": "坐船真正的价值在水这一层：广州大部分地标都排在江的两侧，白天在陆地上只能一个一个分别去，上船则把沙面、西堤、海珠桥、二沙岛到珠江新城那一面串成一条线，航程一小时上下。缺点是码头与船型不同、价格差别不小，选错船体验差很多；夜航集中在一小段时段里，旺季船票紧，露天位更靠抢，遇上雨天江景大打折扣。买票前先看清是哪个码头、几点开航。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "初到广州看全貌",
+   "夜景",
+   "带长辈"
+  ],
+  "avoid": [
+   "雨天",
+   "预算紧",
+   "不爱跟团节奏"
+  ],
+  "sources": []
+ }
 }

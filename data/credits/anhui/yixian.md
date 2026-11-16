@@ -1,6 +1,6 @@
 # 黟县 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-07
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%89%E5%BE%BD%E9%BB%9F%E5%8E%BF%E4%B8%AD%E5%9F%8E%E5%B1%B1%E5%BA%84%E9%A5%AD%E5%BA%97,_2010-10-19_01.jpg) |
-| 城市封面 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%89%E5%BE%BD%E9%BB%9F%E5%8E%BF%E4%B8%AD%E5%9F%8E%E5%B1%B1%E5%BA%84%E9%A5%AD%E5%BA%97,_2010-10-19_02.jpg) |
-| 城市封面 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%89%E5%BE%BD%E9%BB%9F%E5%8E%BF%E5%AE%8F%E6%9D%91,_2016-11-15_02.jpg) |
+| 城市封面 | Michele | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%89%E5%BE%BD%E7%9C%81%E5%AE%8F%E6%9D%91%E9%A2%A8%E5%85%89.jpg) |
+| 城市封面 | gdczjkk | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%BB%9F%E5%8E%BF%E5%AE%8F%E6%9D%91_-_panoramio.jpg) |
+| 城市封面 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%89%E5%BE%BD%E9%BB%9F%E5%8E%BF%E8%A5%BF%E9%80%92%E6%9D%91,_2010-10-19_04.jpg) |
 | 碧山村 | Lanyuan | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Ou_Ning_in_Bishan_Village%EF%BC%8C2012.jpg) |
 | 宏村 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%89%E5%BE%BD%E9%BB%9F%E5%8E%BF%E5%AE%8F%E6%9D%91,_2016-11-15_02.jpg) |
 | 宏村 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%89%E5%BE%BD%E9%BB%9F%E5%8E%BF%E5%AE%8F%E6%9D%91,_2016-11-15_03.jpg) |

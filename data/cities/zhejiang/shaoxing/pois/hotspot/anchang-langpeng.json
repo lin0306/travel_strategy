@@ -1,68 +1,105 @@
 {
-  "id": "anchang-langpeng",
-  "name": "安昌古镇廊棚",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "沿河廊棚与挂满的酱货，腊月最出片。",
-  "description": "安昌古镇的廊棚沿市河延绵，雨天不湿脚、晴天好遮阴，是江南廊棚的典型。腊月里沿河挂满腊肠酱货，是最上镜的画面；平日里桥头茶馆、箍桶铺也很有生活感。免费进，适合慢慢拍、慢慢吃。与仓桥直街比更原生态。清早人最少，光线也最柔，适合慢慢拍。",
-  "highlights": [
-    "沿河廊棚，雨晴皆宜",
-    "腊月酱货挂满最上镜",
-    "免费，比热门古镇原生态"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.495973,
-      "lat": 30.135906,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "绍兴市柯桥区安昌古镇",
-    "district": "柯桥区",
-    "transportTip": "公交安昌站；市区打车约30分钟"
+ "id": "anchang-langpeng",
+ "name": "安昌古镇廊棚",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "沿河廊棚与挂满的酱货，腊月最出片。",
+ "description": "安昌古镇的廊棚沿市河延绵，雨天不湿脚、晴天好遮阴，是江南廊棚的典型。腊月里沿河挂满腊肠酱货，是最上镜的画面；平日里桥头茶馆、箍桶铺也很有生活感。免费进，适合慢慢拍、慢慢吃。与仓桥直街比更原生态。清早人最少，光线也最柔，适合慢慢拍。",
+ "highlights": [
+  "沿河廊棚，雨晴皆宜",
+  "腊月酱货挂满最上镜",
+  "免费，比热门古镇原生态"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.495973,
+   "lat": 30.135906,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放（商铺以各自时段为准）",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "friends",
-    "solo",
-    "family"
+  "address": "绍兴市柯桥区安昌古镇",
+  "district": "柯桥区",
+  "transportTip": "公交安昌站；市区打车约30分钟"
+ },
+ "practical": {
+  "openHours": "全天开放（商铺以各自时段为准）",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "廊棚",
-    "酱货",
-    "原生态"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "friends",
+  "solo",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "廊棚",
+  "酱货",
+  "原生态"
+ ],
+ "popularity": 84,
+ "sources": [
+  {
+   "title": "百度百科·安昌古镇",
+   "url": "https://baike.baidu.com/item/%E5%AE%89%E6%98%8C%E5%8F%A4%E9%95%87",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "安昌古镇廊棚"
+ },
+ "_geocodeTitle": "安昌古镇",
+ "_geocodeSuspect": false,
+ "district": "330603",
+ "_noImage": true,
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "拍照",
+    "score": 4.4,
+    "note": "逆光拍酱货整条街都是暖色"
+   },
+   {
+    "label": "原生态",
+    "score": 4.2,
+    "note": "桥头茶馆箍桶铺还在营生"
+   },
+   {
+    "label": "人流",
+    "score": 3.2,
+    "note": "腊月周末人挤，空镜要赶早"
+   },
+   {
+    "label": "遮阴避雨",
+    "score": 4.5,
+    "note": "廊棚连片，雨天不湿鞋"
+   }
   ],
-  "popularity": 84,
-  "sources": [
-    {
-      "title": "百度百科·安昌古镇",
-      "url": "https://baike.baidu.com/item/%E5%AE%89%E6%98%8C%E5%8F%A4%E9%95%87",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "安昌的廊棚沿市河一路铺开，下雨不湿鞋、晴天能遮阴，是江南廊棚里保留得比较完整的一段。腊月里廊下挂满酱鸭腊肠，逆光拍过去整条街都是暖色的。免费进出，桥头茶馆和箍桶铺还留着旧日的手艺气。缺点是腊月与周末人挤，想拍空镜得赶清早；平日去虽然清静，但酱货挂得少，画面就平淡许多。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "朋友",
+   "家庭"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "安昌古镇廊棚"
-  },
-  "_geocodeTitle": "安昌古镇",
-  "_geocodeSuspect": false,
-  "district": "330603",
-  "_noImage": true
+  "avoid": [
+   "怕人多"
+  ],
+  "sources": []
+ }
 }

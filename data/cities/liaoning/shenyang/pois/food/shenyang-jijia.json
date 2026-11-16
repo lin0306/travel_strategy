@@ -1,81 +1,119 @@
 {
-  "id": "shenyang-jijia",
-  "name": "沈阳鸡架",
-  "category": "food",
-  "subtype": "local",
-  "summary": "沈阳的灵魂小吃，烤熏拌炒样样有，配啤酒是夜宵主角。",
-  "description": "鸡架是沈阳的灵魂小吃。一只鸡剩下的骨架，被沈阳人做出花：烤的、熏的、拌的、炒的。肉少但啃着香，配啤酒是夜宵主角。街边小店几块钱一份。来沈阳不成鸡架，等于没来。找本地人多的店，味道更稳，别只信榜单。",
-  "highlights": [
-    "沈阳灵魂小吃样样有",
-    "烤熏拌炒配啤酒",
-    "街边几块夜宵主角"
-  ],
-  "location": {
-    "point": {
-      "lng": 123.349034,
-      "lat": 41.660693,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "辽宁省沈阳市各鸡架小店",
-    "district": "苏家屯区",
-    "transportTip": "市区小店均有"
+ "id": "shenyang-jijia",
+ "name": "沈阳鸡架",
+ "category": "food",
+ "subtype": "local",
+ "summary": "沈阳的灵魂小吃，烤熏拌炒样样有，配啤酒是夜宵主角。",
+ "description": "鸡架是沈阳的灵魂小吃。一只鸡剩下的骨架，被沈阳人做出花：烤的、熏的、拌的、炒的。肉少但啃着香，配啤酒是夜宵主角。街边小店几块钱一份。来沈阳不成鸡架，等于没来。找本地人多的店，味道更稳，别只信榜单。",
+ "highlights": [
+  "沈阳灵魂小吃样样有",
+  "烤熏拌炒配啤酒",
+  "街边几块夜宵主角"
+ ],
+ "location": {
+  "point": {
+   "lng": 123.349034,
+   "lat": 41.660693,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:00-23:00",
-    "openHoursRef": 0,
-    "ticket": "约10元/份起",
-    "ticketRef": 0,
-    "duration": "建议 20-40 分钟",
-    "durationMinutes": [
-      20,
-      40
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "friends",
-    "solo",
-    "couple"
+  "address": "辽宁省沈阳市各鸡架小店",
+  "district": "苏家屯区",
+  "transportTip": "市区小店均有"
+ },
+ "practical": {
+  "openHours": "约10:00-23:00",
+  "openHoursRef": 0,
+  "ticket": "约10元/份起",
+  "ticketRef": 0,
+  "duration": "建议 20-40 分钟",
+  "durationMinutes": [
+   20,
+   40
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Grilled_chicken_ribs_at_Handsome_Cooking_Guys%2C_Hopson_One_%2820220330164842%29.jpg/1280px-Grilled_chicken_ribs_at_Handsome_Cooking_Guys%2C_Hopson_One_%2820220330164842%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Grilled_chicken_ribs_at_Handsome_Cooking_Guys%2C_Hopson_One_%2820220330164842%29.jpg/1280px-Grilled_chicken_ribs_at_Handsome_Cooking_Guys%2C_Hopson_One_%2820220330164842%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Grilled chicken ribs at Handsome Cooking Guys, Hopson One (20220330164842).jpg",
-      "query": "沈阳鸡架 沈阳",
-      "credit": {
-        "source": "wikimedia",
-        "author": "N509FZ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grilled_chicken_ribs_at_Handsome_Cooking_Guys,_Hopson_One_(20220330164842).jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "friends",
+  "solo",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Grilled_chicken_ribs_at_Handsome_Cooking_Guys%2C_Hopson_One_%2820220330164842%29.jpg/1280px-Grilled_chicken_ribs_at_Handsome_Cooking_Guys%2C_Hopson_One_%2820220330164842%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Grilled_chicken_ribs_at_Handsome_Cooking_Guys%2C_Hopson_One_%2820220330164842%29.jpg/1280px-Grilled_chicken_ribs_at_Handsome_Cooking_Guys%2C_Hopson_One_%2820220330164842%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Grilled chicken ribs at Handsome Cooking Guys, Hopson One (20220330164842).jpg",
+   "query": "沈阳鸡架 沈阳",
+   "credit": {
+    "source": "wikimedia",
+    "author": "N509FZ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grilled_chicken_ribs_at_Handsome_Cooking_Guys,_Hopson_One_(20220330164842).jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "鸡架",
+  "小吃",
+  "夜宵"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·沈阳鸡架",
+   "url": "https://baike.baidu.com/item/%E6%B2%88%E9%98%B3%E9%B8%A1%E6%9E%B6",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-02"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Shenyang Chicken Rack",
+  "zh": "沈阳鸡架"
+ },
+ "district": "210111",
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.3,
+    "note": "烤熏拌炒样样有，啃着香"
+   },
+   {
+    "label": "价格",
+    "score": 4.6,
+    "note": "几块钱一份，配啤酒最搭"
+   },
+   {
+    "label": "环境",
+    "score": 3.0,
+    "note": "老店简陋，桌面油、位置挤"
+   },
+   {
+    "label": "分量",
+    "score": 3.8,
+    "note": "肉少骨多，吃的是味道"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "鸡架",
-    "小吃",
-    "夜宵"
+  "body": "一只鸡剩下的骨架被做出烤、熏、拌、炒几种花样，肉少但啃着香，几块钱一份配啤酒就是沈阳夜里的主角，不来一趟等于没到过这座城。缺点是肉少骨多，讲究吃相的会嫌麻烦；老店环境普遍简陋，桌面油、位置挤。榜单店未必比巷子里的小店强，跟着本地人多的门脸走更稳。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "夜宵",
+   "省钱"
   ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·沈阳鸡架",
-      "url": "https://baike.baidu.com/item/%E6%B2%88%E9%98%B3%E9%B8%A1%E6%9E%B6",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-02"
-    }
+  "avoid": [
+   "讲究环境",
+   "怕麻烦"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Shenyang Chicken Rack",
-    "zh": "沈阳鸡架"
-  },
-  "district": "210111"
+  "sources": []
+ }
 }

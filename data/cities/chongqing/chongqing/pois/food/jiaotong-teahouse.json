@@ -1,157 +1,195 @@
 {
-  "id": "jiaotong-teahouse",
-  "name": "交通茶馆",
-  "category": "food",
-  "subtype": "cafe",
-  "summary": "黄桷坪的老茶馆，木质结构、天窗漏光，是重庆最有名的喝茶去处。",
-  "description": "交通茶馆在黄桷坪正街，原是运输公司的职工食堂改造而来，后来成了周边居民与川美师生的日常据点。屋里是老式的木质梁架与条凳，屋顶开着天窗，光线斜着落下来，拍照特别好看；茶客多是下棋、摆龙门阵的老街坊，一杯茶可以坐一下午。因为太出名，现在也常有专程来拍照的人，想安静喝茶建议工作日上午来。",
-  "highlights": [
-    "天窗漏光的老木结构，极出片",
-    "黄桷坪的日常茶馆，市井气浓",
-    "一杯茶坐一下午"
-  ],
-  "location": {
-    "point": {
-      "lng": 106.543103,
-      "lat": 29.48875,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "重庆市九龙坡区黄桷坪正街",
-    "district": "九龙坡",
-    "transportTip": "轨道交通 2 号线杨家坪站换乘公交至黄桷坪"
+ "id": "jiaotong-teahouse",
+ "name": "交通茶馆",
+ "category": "food",
+ "subtype": "cafe",
+ "summary": "黄桷坪的老茶馆，木质结构、天窗漏光，是重庆最有名的喝茶去处。",
+ "description": "交通茶馆在黄桷坪正街，原是运输公司的职工食堂改造而来，后来成了周边居民与川美师生的日常据点。屋里是老式的木质梁架与条凳，屋顶开着天窗，光线斜着落下来，拍照特别好看；茶客多是下棋、摆龙门阵的老街坊，一杯茶可以坐一下午。因为太出名，现在也常有专程来拍照的人，想安静喝茶建议工作日上午来。",
+ "highlights": [
+  "天窗漏光的老木结构，极出片",
+  "黄桷坪的日常茶馆，市井气浓",
+  "一杯茶坐一下午"
+ ],
+ "location": {
+  "point": {
+   "lng": 106.543103,
+   "lat": 29.48875,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 06:00-19:00（以现场公告为准）",
-    "openHoursRef": 0,
-    "ticket": "人均约 10 元起（以现场为准）",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "budget"
+  "address": "重庆市九龙坡区黄桷坪正街",
+  "district": "九龙坡",
+  "transportTip": "轨道交通 2 号线杨家坪站换乘公交至黄桷坪"
+ },
+ "practical": {
+  "openHours": "约 06:00-19:00（以现场公告为准）",
+  "openHoursRef": 0,
+  "ticket": "人均约 10 元起（以现场为准）",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Slow_Life_in_A_Tea_House_01.jpg/1280px-Slow_Life_in_A_Tea_House_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Slow_Life_in_A_Tea_House_01.jpg/1280px-Slow_Life_in_A_Tea_House_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 664,
+   "alt": "Slow Life in A Tea House 01.jpg",
+   "query": "交通茶馆 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Liming Huang",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Slow_Life_in_A_Tea_House_01.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Slow_Life_in_A_Tea_House_01.jpg/1280px-Slow_Life_in_A_Tea_House_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Slow_Life_in_A_Tea_House_01.jpg/1280px-Slow_Life_in_A_Tea_House_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 664,
-      "alt": "Slow Life in A Tea House 01.jpg",
-      "query": "交通茶馆 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Liming Huang",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Slow_Life_in_A_Tea_House_01.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Slow_Life_in_A_Tea_House_01_edited.jpg/1280px-Slow_Life_in_A_Tea_House_01_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Slow_Life_in_A_Tea_House_01_edited.jpg/1280px-Slow_Life_in_A_Tea_House_01_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 664,
-      "alt": "Slow Life in A Tea House 01 edited.jpg",
-      "query": "交通茶馆 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Original: Liming Huang Derivative work: Radomianin",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Slow_Life_in_A_Tea_House_01_edited.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Slow_Life_in_A_Tea_House_02.jpg/1280px-Slow_Life_in_A_Tea_House_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Slow_Life_in_A_Tea_House_02.jpg/1280px-Slow_Life_in_A_Tea_House_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 930,
-      "alt": "Slow Life in A Tea House 02.jpg",
-      "query": "交通茶馆 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Liming Huang",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Slow_Life_in_A_Tea_House_02.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Slow_Life_in_A_Tea_House_03.jpg/1280px-Slow_Life_in_A_Tea_House_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Slow_Life_in_A_Tea_House_03.jpg/1280px-Slow_Life_in_A_Tea_House_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1379,
-      "alt": "Slow Life in A Tea House 03.jpg",
-      "query": "交通茶馆 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Liming Huang",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Slow_Life_in_A_Tea_House_03.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Slow_Life_in_A_Tea_House_04.jpg/1280px-Slow_Life_in_A_Tea_House_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Slow_Life_in_A_Tea_House_04.jpg/1280px-Slow_Life_in_A_Tea_House_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 831,
-      "alt": "Slow Life in A Tea House 04.jpg",
-      "query": "交通茶馆 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Liming Huang",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Slow_Life_in_A_Tea_House_04.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Slow_Life_in_A_Tea_House_05.jpg/1280px-Slow_Life_in_A_Tea_House_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Slow_Life_in_A_Tea_House_05.jpg/1280px-Slow_Life_in_A_Tea_House_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1210,
-      "alt": "Slow Life in A Tea House 05.jpg",
-      "query": "交通茶馆 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Liming Huang",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Slow_Life_in_A_Tea_House_05.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "茶馆",
-    "老建筑",
-    "市井",
-    "便宜"
-  ],
-  "popularity": 78,
-  "sources": [
-    {
-      "title": "百度百科·交通茶馆",
-      "url": "https://baike.baidu.com/item/%E4%BA%A4%E9%80%9A%E8%8C%B6%E9%A6%86",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "交通茶馆"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Slow_Life_in_A_Tea_House_01_edited.jpg/1280px-Slow_Life_in_A_Tea_House_01_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Slow_Life_in_A_Tea_House_01_edited.jpg/1280px-Slow_Life_in_A_Tea_House_01_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 664,
+   "alt": "Slow Life in A Tea House 01 edited.jpg",
+   "query": "交通茶馆 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Original: Liming Huang Derivative work: Radomianin",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Slow_Life_in_A_Tea_House_01_edited.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "交通茶馆",
-  "_geocodeSuspect": false,
-  "district": "500107"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Slow_Life_in_A_Tea_House_02.jpg/1280px-Slow_Life_in_A_Tea_House_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Slow_Life_in_A_Tea_House_02.jpg/1280px-Slow_Life_in_A_Tea_House_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 930,
+   "alt": "Slow Life in A Tea House 02.jpg",
+   "query": "交通茶馆 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Liming Huang",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Slow_Life_in_A_Tea_House_02.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Slow_Life_in_A_Tea_House_03.jpg/1280px-Slow_Life_in_A_Tea_House_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Slow_Life_in_A_Tea_House_03.jpg/1280px-Slow_Life_in_A_Tea_House_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1379,
+   "alt": "Slow Life in A Tea House 03.jpg",
+   "query": "交通茶馆 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Liming Huang",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Slow_Life_in_A_Tea_House_03.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Slow_Life_in_A_Tea_House_04.jpg/1280px-Slow_Life_in_A_Tea_House_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Slow_Life_in_A_Tea_House_04.jpg/1280px-Slow_Life_in_A_Tea_House_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 831,
+   "alt": "Slow Life in A Tea House 04.jpg",
+   "query": "交通茶馆 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Liming Huang",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Slow_Life_in_A_Tea_House_04.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Slow_Life_in_A_Tea_House_05.jpg/1280px-Slow_Life_in_A_Tea_House_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Slow_Life_in_A_Tea_House_05.jpg/1280px-Slow_Life_in_A_Tea_House_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1210,
+   "alt": "Slow Life in A Tea House 05.jpg",
+   "query": "交通茶馆 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Liming Huang",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Slow_Life_in_A_Tea_House_05.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "茶馆",
+  "老建筑",
+  "市井",
+  "便宜"
+ ],
+ "popularity": 78,
+ "sources": [
+  {
+   "title": "百度百科·交通茶馆",
+   "url": "https://baike.baidu.com/item/%E4%BA%A4%E9%80%9A%E8%8C%B6%E9%A6%86",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "交通茶馆"
+ },
+ "_geocodeTitle": "交通茶馆",
+ "_geocodeSuspect": false,
+ "district": "500107",
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "氛围",
+    "score": 4.7,
+    "note": "老木梁加天窗漏光，市井气足"
+   },
+   {
+    "label": "出片",
+    "score": 4.5,
+    "note": "斜射光线是天然布光"
+   },
+   {
+    "label": "环境",
+    "score": 2.8,
+    "note": "老屋条件简陋，桌椅旧"
+   },
+   {
+    "label": "价格",
+    "score": 4.6,
+    "note": "一杯茶坐一下午"
+   }
+  ],
+  "body": "交通茶馆最值钱的是那股日常气：老式木质梁架、条凳、屋顶天窗漏下的斜光，茶客下棋摆龙门阵，一杯茶能耗掉一下午，拍照几乎是自带布光。可惜正因为太出名，专程来拍照的人不少，想安安静静喝茶得挑工作日上午；老屋条件也谈不上舒适，桌椅旧、声音嘈杂，追求环境的人会坐不住。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "喝茶发呆",
+   "拍市井照片"
+  ],
+  "avoid": [
+   "要安静",
+   "讲究环境"
+  ],
+  "sources": []
+ }
 }

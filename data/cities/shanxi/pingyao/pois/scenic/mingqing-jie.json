@@ -1,69 +1,103 @@
 {
-  "id": "mingqing-jie",
-  "name": "明清街",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "古城的主街，两侧全是票号、店铺与老字号。",
-  "description": "明清街是平遥古城的南北主轴，正式的名字叫南大街。街两侧保留着完整的明清铺面，一间挨着一间，招牌、幌子都按旧式样子挂着。当年的票号、镖局、饭庄多数集中在这一条街上。白天人多热闹，晚上灯笼一盏盏亮起来，青砖墙配红灯，是平遥最好拍的一段。街心的市楼把街分成南北两段。所有主要的馆子也都在这条街的两侧，逛累了随时能坐下。它是来平遥绕不开的一条线，建议早、晚各走一遍——两个样。不用买票，随时都能进。",
-  "highlights": [
-    "完整明清铺面一条街",
-    "入夜灯笼亮起最好拍",
-    "主要店铺与票号都在此"
-  ],
-  "location": {
-    "point": {
-      "lng": 112.18561,
-      "lat": 37.20423,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "晋中市平遥县古城街道南大街1号",
-    "district": "平遥",
-    "transportTip": "古城内步行主轴，南门到北门贯穿"
+ "id": "mingqing-jie",
+ "name": "明清街",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "古城的主街，两侧全是票号、店铺与老字号。",
+ "description": "明清街是平遥古城的南北主轴，正式的名字叫南大街。街两侧保留着完整的明清铺面，一间挨着一间，招牌、幌子都按旧式样子挂着。当年的票号、镖局、饭庄多数集中在这一条街上。白天人多热闹，晚上灯笼一盏盏亮起来，青砖墙配红灯，是平遥最好拍的一段。街心的市楼把街分成南北两段。所有主要的馆子也都在这条街的两侧，逛累了随时能坐下。它是来平遥绕不开的一条线，建议早、晚各走一遍——两个样。不用买票，随时都能进。",
+ "highlights": [
+  "完整明清铺面一条街",
+  "入夜灯笼亮起最好拍",
+  "主要店铺与票号都在此"
+ ],
+ "location": {
+  "point": {
+   "lng": 112.18561,
+   "lat": 37.20423,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放；店铺多为 09:00-21:00",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 90-240 分钟",
-    "durationMinutes": [
-      90,
-      240
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "family",
-    "solo"
+  "address": "晋中市平遥县古城街道南大街1号",
+  "district": "平遥",
+  "transportTip": "古城内步行主轴，南门到北门贯穿"
+ },
+ "practical": {
+  "openHours": "全天开放；店铺多为 09:00-21:00",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 90-240 分钟",
+  "durationMinutes": [
+   90,
+   240
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "明清街",
-    "老街",
-    "夜景"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "明清街",
+  "老街",
+  "夜景"
+ ],
+ "popularity": 97,
+ "sources": [
+  {
+   "title": "百度百科·平遥古城",
+   "url": "https://baike.baidu.com/item/%E5%B9%B3%E9%81%A5%E5%8F%A4%E5%9F%8E",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-06"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "明清街"
+ },
+ "_geocodeTitle": "平遥古城-明清一条街",
+ "_geocodeSuspect": false,
+ "district": "140728",
+ "_noImage": true,
+ "review": {
+  "score": 4.5,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "街巷完整",
+    "score": 4.7,
+    "note": "明清铺面一间挨一间，市楼分南北"
+   },
+   {
+    "label": "夜景",
+    "score": 4.6,
+    "note": "灯笼亮起，青砖配红灯最好拍"
+   },
+   {
+    "label": "商业化",
+    "score": 3.0,
+    "note": "白天主街人多，店铺同质化明显"
+   }
   ],
-  "popularity": 97,
-  "sources": [
-    {
-      "title": "百度百科·平遥古城",
-      "url": "https://baike.baidu.com/item/%E5%B9%B3%E9%81%A5%E5%8F%A4%E5%9F%8E",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-06"
-    }
+  "body": "平遥古城的南北主轴，正式名字是南大街。两侧完整留着明清铺面，旧式招牌幌子连成一片，当年的票号、镖局、饭庄都集中在这条线上，街心的市楼把街分成南北两段。它最迷人的时刻是入夜，灯笼一盏盏亮起来，青砖墙配红灯，是平遥最好拍的一段；而且不收门票，早晚各走一遍能看到两个样子。不足也直白：白天主街人多、店铺同质化偏重，逛久了容易觉得重复，想清静得往两侧巷子里拐。主要馆子都在街边，逛累了随时能坐下，把它当成古城行程的骨架最合适，别指望一条街给出什么冷门惊喜。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "夜景拍照",
+   "第一次来平遥",
+   "找地方吃饭"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "明清街"
-  },
-  "_geocodeTitle": "平遥古城-明清一条街",
-  "_geocodeSuspect": false,
-  "district": "140728",
-  "_noImage": true
+  "avoid": [
+   "避开人潮",
+   "反感商业街"
+  ],
+  "sources": []
+ }
 }

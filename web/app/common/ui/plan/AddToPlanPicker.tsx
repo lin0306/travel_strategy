@@ -38,16 +38,19 @@ import { Icon } from '~/common/ui/Icon'
 import { ModalScrim } from '~/common/ui/ModalScrim'
 import { DraftRow } from '~/common/ui/plan/PlanRow'
 import { useDismiss } from '~/common/ui/useDismiss'
+import { useItemPresence } from '~/common/ui/usePresence'
 
 /** 门：只负责"开不开"，**不持有任何状态**（见文件头） */
 export function AddToPlanPicker() {
   const stop = usePlanUi((s) => s.addPicker)
-  if (!stop) return null
-  return <PickerBody stop={stop} />
+  /* 退场：payload 清空后多留 160ms，遮罩与卡片一起淡出（`ModalScrim` 的 scrim-exit） */
+  const pres = useItemPresence(stop)
+  if (!pres.mounted || !pres.item) return null
+  return <PickerBody stop={pres.item} exiting={pres.exiting} />
 }
 
 /** 内容：每次打开都是**全新实例**，所以永远从「选组 + 新建组按钮」开始 */
-function PickerBody({ stop }: { stop: NewStop }) {
+function PickerBody({ stop, exiting }: { stop: NewStop; exiting: boolean }) {
   const close = usePlanUi((s) => s.closeAddPicker)
   const showToast = usePlanUi((s) => s.showToast)
   const plans = usePlanStore((s) => s.plans)
@@ -141,7 +144,7 @@ function PickerBody({ stop }: { stop: NewStop }) {
        ★ 2026-10-16：底板换成 `ModalScrim`，**有遮罩**了。之前是
          `pointer-events-none` 的透明层 —— 但它问的是"加到哪个组"，
          是个必须先回答的问题，屏幕上却没有任何"注意力被收拢"的暗示。 */
-    <ModalScrim>
+    <ModalScrim exiting={exiting}>
       <div
         ref={wrapRef}
         role="dialog"

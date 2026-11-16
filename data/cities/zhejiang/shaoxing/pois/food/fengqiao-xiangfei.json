@@ -1,68 +1,118 @@
 {
-  "id": "fengqiao-xiangfei",
-  "name": "枫桥香榧",
-  "category": "food",
-  "subtype": "local",
-  "summary": "诸暨枫桥的坚果，壳薄香脆。",
-  "description": "枫桥香榧是诸暨枫桥一带的特产坚果，属红豆杉科、三年一熟，壳薄、仁满、香气独特，是坚果里的「贵族」。它营养价值高、产量有限，常作高端伴手礼。炒制后香脆，空口吃或入菜皆可。价中高，认准枫桥产地。买散装前先尝一颗，陈货香气差很多。",
-  "highlights": [
-    "诸暨枫桥特产坚果，三年一熟",
-    "壳薄仁满，香气独特",
-    "高端伴手礼，认产地"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.457361,
-      "lat": 29.753111,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "绍兴市诸暨市枫桥及特产店",
-    "district": "诸暨市",
-    "transportTip": "特产店与景区周边"
+ "id": "fengqiao-xiangfei",
+ "name": "枫桥香榧",
+ "category": "food",
+ "subtype": "local",
+ "summary": "诸暨枫桥的坚果，壳薄香脆。",
+ "description": "枫桥香榧是诸暨枫桥一带的特产坚果，属红豆杉科、三年一熟，壳薄、仁满、香气独特，是坚果里的「贵族」。它营养价值高、产量有限，常作高端伴手礼。炒制后香脆，空口吃或入菜皆可。价中高，认准枫桥产地。买散装前先尝一颗，陈货香气差很多。",
+ "highlights": [
+  "诸暨枫桥特产坚果，三年一熟",
+  "壳薄仁满，香气独特",
+  "高端伴手礼，认产地"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.457361,
+   "lat": 29.753111,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:30-20:00（以门店为准）",
-    "openHoursRef": 0,
-    "ticket": "人均约50元（礼盒另计），以门店为准",
-    "ticketRef": 0,
-    "duration": "建议 15-30 分钟",
-    "durationMinutes": [
-      15,
-      30
-    ],
-    "priceLevel": "budget"
+  "address": "绍兴市诸暨市枫桥及特产店",
+  "district": "诸暨市",
+  "transportTip": "特产店与景区周边"
+ },
+ "practical": {
+  "openHours": "约08:30-20:00（以门店为准）",
+  "openHoursRef": 0,
+  "ticket": "散装约 70-98 元/斤（2026 年小年减产、价格较去年翻倍），礼盒另计",
+  "ticketRef": 0,
+  "duration": "建议 15-30 分钟",
+  "durationMinutes": [
+   15,
+   30
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "elders",
+  "solo",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "香榧",
+  "诸暨",
+  "坚果"
+ ],
+ "popularity": 66,
+ "sources": [
+  {
+   "title": "百度百科·香榧",
+   "url": "https://baike.baidu.com/item/%E9%A6%99%E6%A6%A7",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
   },
-  "audience": [
-    "elders",
-    "solo",
-    "friends"
+  {
+   "title": "都市快报 · 诸暨香榧小年减产涨价（2026-11-04）",
+   "url": "https://www.163.com/dy/article/LATLIE00051492LM.html",
+   "kind": "media",
+   "fetchedAt": "2026-11-12"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "枫桥香榧"
+ },
+ "_geocodeTitle": "枫桥千年香榧",
+ "_geocodeSuspect": false,
+ "district": "330681",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-12",
+  "changes": [
+   {
+    "field": "门票",
+    "old": "人均约50元（礼盒另计），以门店为准",
+    "new": "散装约 70-98 元/斤（2026 年小年减产、价格较去年翻倍），礼盒另计"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "香榧",
-    "诸暨",
-    "坚果"
+  "source": "https://www.163.com/dy/article/LATLIE00051492LM.html",
+  "reason": "都市快报 2026-11-04：诸暨香榧小年产量仅往年两三成，开口普通 88 元/斤、老树 98 元/斤"
+ },
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "品质",
+    "score": 4.3,
+    "note": "壳薄仁满，香气独特"
+   },
+   {
+    "label": "价格",
+    "score": 2.9,
+    "note": "小年减产，单价明显偏高"
+   },
+   {
+    "label": "辨识",
+    "score": 3.7,
+    "note": "散装易混陈货，先试吃"
+   }
   ],
-  "popularity": 66,
-  "sources": [
-    {
-      "title": "百度百科·香榧",
-      "url": "https://baike.baidu.com/item/%E9%A6%99%E6%A6%A7",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "枫桥香榧是诸暨的老牌坚果，三年一熟、壳薄仁满，炒后香气很特别，是坚果里的贵价货，也常被当作高端伴手礼，买散装前先尝一颗，新货香气足、陈货发闷。缺点是价格偏高——2026 年是小年减产，市面价近乎翻倍，礼盒溢价更明显；产地与等级标识不规范，外地摊子上容易买到混装货。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "买伴手礼",
+   "坚果爱好者"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "枫桥香榧"
-  },
-  "_geocodeTitle": "枫桥千年香榧",
-  "_geocodeSuspect": false,
-  "district": "330681",
-  "_noImage": true
+  "avoid": [
+   "预算紧"
+  ],
+  "sources": []
+ }
 }

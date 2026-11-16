@@ -1,67 +1,106 @@
 {
-  "id": "caicun-sunset",
-  "name": "才村日落",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "才村码头看洱海日落，水天一线，很多人专程来等。",
-  "description": "才村是看洱海日落的热门点，水边没遮挡，太阳慢慢落进海里。傍晚很多人架着相机或手机等。运气好碰到晚霞，天空和水面一起红。从古城骑过来十几分钟，不用挤双廊。免费。几个看点：才村水边看洱海日落，无遮挡；傍晚很多人架相机等晚霞；离古城近不挤，免费。",
-  "highlights": [
-    "才村水边看洱海日落，无遮挡",
-    "傍晚很多人架相机等晚霞",
-    "离古城近不挤，免费"
-  ],
-  "location": {
-    "point": {
-      "lng": 100.193303,
-      "lat": 25.718539,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "云南省大理白族自治州大理市才村码头",
-    "district": "大理市",
-    "transportTip": "从古城骑电动车约十几分钟"
+ "id": "caicun-sunset",
+ "name": "才村日落",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "才村码头看洱海日落，水天一线，很多人专程来等。",
+ "description": "才村是看洱海日落的热门点，水边没遮挡，太阳慢慢落进海里。傍晚很多人架着相机或手机等。运气好碰到晚霞，天空和水面一起红。从古城骑过来十几分钟，不用挤双廊。免费。几个看点：才村水边看洱海日落，无遮挡；傍晚很多人架相机等晚霞；离古城近不挤，免费。",
+ "highlights": [
+  "才村水边看洱海日落，无遮挡",
+  "傍晚很多人架相机等晚霞",
+  "离古城近不挤，免费"
+ ],
+ "location": {
+  "point": {
+   "lng": 100.193303,
+   "lat": 25.718539,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "傍晚（日落前后）",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "friends"
+  "address": "云南省大理白族自治州大理市才村码头",
+  "district": "大理市",
+  "transportTip": "从古城骑电动车约十几分钟"
+ },
+ "practical": {
+  "openHours": "傍晚（日落前后）",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "日落",
-    "洱海",
-    "免费"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "日落",
+  "洱海",
+  "免费"
+ ],
+ "popularity": 66,
+ "sources": [
+  {
+   "title": "百度百科·才村",
+   "url": "https://baike.baidu.com/item/%E6%89%8D%E6%9D%91",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "才村日落"
+ },
+ "_geocodeTitle": "才村码头",
+ "_geocodeSuspect": false,
+ "district": "532901",
+ "_noImage": true,
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.5,
+    "note": "水边无遮挡，太阳落进洱海"
+   },
+   {
+    "label": "免费",
+    "score": 4.5,
+    "note": "不要门票，骑车就到"
+   },
+   {
+    "label": "人流",
+    "score": 2.7,
+    "note": "水边一排机位，人多就挤"
+   },
+   {
+    "label": "天气",
+    "score": 3.0,
+    "note": "阴天或云厚就是白等"
+   }
   ],
-  "popularity": 66,
-  "sources": [
-    {
-      "title": "百度百科·才村",
-      "url": "https://baike.baidu.com/item/%E6%89%8D%E6%9D%91",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "body": "才村码头水边没有遮挡，太阳直接落进洱海，晚霞起来时天和水一起红，离古城骑车十几分钟，比挤双廊轻松得多。全靠天气，阴天或者云一厚就是白等一场；好机位就水边那一排，摄影的人一多就挤。傍晚来，带件外套，湖边风凉。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "看日落",
+   "免费",
+   "骑行顺路"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "才村日落"
-  },
-  "_geocodeTitle": "才村码头",
-  "_geocodeSuspect": false,
-  "district": "532901",
-  "_noImage": true
+  "avoid": [
+   "阴天",
+   "怕风"
+  ],
+  "sources": []
+ }
 }

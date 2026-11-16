@@ -1,6 +1,6 @@
 # 婺源 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-06
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-15
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | fisher0528 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A9%BA%E6%BA%90%E6%98%A0%E5%83%8F(Wuyuan)-11_-_panoramio.jpg) |
-| 城市封面 | fisher0528 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A9%BA%E6%BA%90%E6%98%A0%E5%83%8F(Wuyuan)-12_-_panoramio.jpg) |
-| 城市封面 | fisher0528 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A9%BA%E6%BA%90%E6%98%A0%E5%83%8F(Wuyuan)-13_-_panoramio.jpg) |
+| 城市封面 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Huangling_Village,_Wuyuan.jpg) |
+| 城市封面 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Huangling_Village_10.jpg) |
+| 城市封面 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Huangling_Village_12.jpg) |
 | 大鄣山 | liuzr99 | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A9%BA%E6%BA%90%E5%A4%A7%E9%84%A3%E5%B1%B1%E4%B9%A1%EF%BC%88China%EF%BC%89_(13369429525).jpg) |
 | 虹关村 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wuyuan_Hongguan_20120402-02.jpg) |
 | 虹关村 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wuyuan_Hongguan_20120402-03.jpg) |

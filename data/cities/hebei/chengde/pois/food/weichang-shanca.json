@@ -1,66 +1,98 @@
 {
-  "id": "weichang-shanca",
-  "name": "围场山野菜",
-  "category": "food",
-  "subtype": "local",
-  "summary": "围场一带吃山野菜的地方，蕨菜、猴腿、木耳，凉拌或炒。",
-  "description": "围场一带靠山，吃的是山货。蕨菜、猴腿、木耳、榛蘑这些山野菜，凉拌或炒都行。它是坝上和塞罕坝那一片常见的菜，清淡、有山味。来草原玩，吃点这个换换口味也好 —— 不然天天羊肉会腻。价格实在。",
-  "highlights": [
-    "围场靠山，蕨菜猴腿木耳榛蘑",
-    "凉拌或炒，清淡有山味",
-    "吃多羊肉可换口味，价实"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.75934,
-      "lat": 41.938372,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市围场满族蒙古族自治县山野菜馆",
-    "district": "围场满族蒙古族自治县",
-    "transportTip": "围场或坝上度假村内"
+ "id": "weichang-shanca",
+ "name": "围场山野菜",
+ "category": "food",
+ "subtype": "local",
+ "summary": "围场一带吃山野菜的地方，蕨菜、猴腿、木耳，凉拌或炒。",
+ "description": "围场一带靠山，吃的是山货。蕨菜、猴腿、木耳、榛蘑这些山野菜，凉拌或炒都行。它是坝上和塞罕坝那一片常见的菜，清淡、有山味。来草原玩，吃点这个换换口味也好 —— 不然天天羊肉会腻。价格实在。",
+ "highlights": [
+  "围场靠山，蕨菜猴腿木耳榛蘑",
+  "凉拌或炒，清淡有山味",
+  "吃多羊肉可换口味，价实"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.75934,
+   "lat": 41.938372,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:00-21:00",
-    "openHoursRef": 0,
-    "ticket": "人均约60元",
-    "ticketRef": 0,
-    "duration": "建议 40-80 分钟",
-    "durationMinutes": [
-      40,
-      80
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "family",
-    "friends"
+  "address": "河北省承德市围场满族蒙古族自治县山野菜馆",
+  "district": "围场满族蒙古族自治县",
+  "transportTip": "围场或坝上度假村内"
+ },
+ "practical": {
+  "openHours": "约10:00-21:00",
+  "openHoursRef": 0,
+  "ticket": "人均约60元",
+  "ticketRef": 0,
+  "duration": "建议 40-80 分钟",
+  "durationMinutes": [
+   40,
+   80
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "山野菜",
-    "围场",
-    "清淡"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "family",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "山野菜",
+  "围场",
+  "清淡"
+ ],
+ "popularity": 46,
+ "sources": [
+  {
+   "title": "百度百科·山野菜",
+   "url": "https://baike.baidu.com/item/%E5%B1%B1%E9%87%8E%E8%8F%9C",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "围场山野菜"
+ },
+ "_geocodeTitle": "围场满族蒙古族自治县",
+ "district": "130828",
+ "_noImage": true,
+ "review": {
+  "score": 3.6,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 3.4,
+    "note": "蕨菜、猴腿、榛蘑，清淡有山味"
+   },
+   {
+    "label": "价格",
+    "score": 3.8,
+    "note": "县城里实在，景区里偏贵"
+   },
+   {
+    "label": "环境",
+    "score": 3.0,
+    "note": "多为家常馆子，不讲装修"
+   }
   ],
-  "popularity": 46,
-  "sources": [
-    {
-      "title": "百度百科·山野菜",
-      "url": "https://baike.baidu.com/item/%E5%B1%B1%E9%87%8E%E8%8F%9C",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "body": "在坝上连吃几顿羊肉之后，来一盘凉拌蕨菜或猴腿确实解腻，木耳榛蘑炒一炒也有山里的清味。缺点是做得好的馆子不多，景区和度假村里的价格明显偏高；口味偏清淡，重口的人会觉得没滋味。挑县城里的家常馆比景区里靠谱。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "解腻",
+   "吃素菜"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "围场山野菜"
-  },
-  "_geocodeTitle": "围场满族蒙古族自治县",
-  "district": "130828",
-  "_noImage": true
+  "avoid": [
+   "重口味"
+  ],
+  "sources": []
+ }
 }

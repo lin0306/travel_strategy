@@ -1,6 +1,7 @@
 import type { KeyboardEvent } from 'react'
 
 import { Icon } from '~/common/ui/Icon'
+import { IconSpark } from '~/common/ui/city/PoiReviewBlock'
 import { EmptyState, SectionLabel } from '~/common/ui/Overlay'
 import {
   CATEGORY_META,
@@ -11,8 +12,19 @@ import {
   type SubType,
 } from '~shared/schema'
 
-/** 列表排序方式。'hot' = 热门优先，'name' = 名称排序 */
-export type PoiSort = 'hot' | 'name'
+/** 列表排序方式。'hot' = 热门优先，'score' = AI 点评分优先，'name' = 名称排序 */
+export type PoiSort = 'hot' | 'score' | 'name'
+
+/**
+ * 排序按钮上的文案 —— 与 `sortPois` 同一档的**唯一出处**。
+ * ★ 桌面与移动各写过一遍 `sort === 'hot' ? '热门优先' : '名称排序'`，
+ *   加第三档时两处都要改、漏一处就一边显示"点名优先"一边按热门排。
+ */
+export const SORT_LABEL: Record<PoiSort, string> = {
+  hot: '热门优先',
+  score: '点评分优先',
+  name: '名称排序',
+}
 
 /**
  * 排序 —— **唯一出处**：城市页的清单与「挑景点」浮层（`plan/SpotPicker`）都用它。
@@ -20,8 +32,15 @@ export type PoiSort = 'hot' | 'name'
  * ★ 它只是一行纯函数，但值得单独抽出来：两处的清单**必须是同一种顺序**
  *   （用户在两边看到的都是"热门优先"）。各写一份 = 迟早一处改了口径、
  *   另一处照旧，而屏幕上只是"顺序看起来有点怪"，没人会报成 bug。
+ *
+ * ★ `score` 档：有点评的按分数降序，**没点评的沉底**。
+ *   不能把缺失当 0 分 —— 那等于用"还没写点评"惩罚这个点位，
+ *   一个还没轮到的优质景点会掉到末位，看起来像评分很差。
  */
 export function sortPois(list: Poi[], sort: PoiSort): Poi[] {
+  if (sort === 'score') {
+    return [...list].sort((a, b) => (b.review?.score ?? -1) - (a.review?.score ?? -1))
+  }
   return sort === 'hot'
     ? [...list].sort((a, b) => b.popularity - a.popularity)
     : [...list].sort((a, b) => a.name.localeCompare(b.name, 'zh-Hans-CN'))
@@ -125,10 +144,18 @@ export function PoiList({
    */
   const rowAction = pick ? onOpen : onSelect
   let lastCat: Category | null = null
+  /*
+   * 筛选/排序一变，整块列表换血 —— 给容器换 key 让行重挂载、播 `row-in` 进场
+   * （keyframes 在 anim.css；stagger 只给前 8 行，长列表不该拖一条长尾巴）。
+   * ★ key 用"内容指纹"而不是数组本身：`filterPois` 每次渲染都产新数组，
+   *   按引用 keyed 会**每次渲染都重播动画**。字符串拼接 46 个 id 的成本可忽略。
+   * ★ 重挂载不影响滚动位置（滚动容器在这层之外），筛选后停在原处也正合理。
+   */
+  const animKey = list.map((p) => p.id).join('|')
 
   return (
-    <div className="pb-3">
-      {list.map((p) => {
+    <div key={animKey} className="pb-3">
+      {list.map((p, i) => {
         const showCat = grouped && sort === 'hot' && p.category !== lastCat
         lastCat = p.category
         return (
@@ -146,9 +173,10 @@ export function PoiList({
               onKeyDown={(e: KeyboardEvent<HTMLDivElement>) => {
                 if (e.key === 'Enter') rowAction?.(p.id)
               }}
-              className={`flex cursor-pointer items-start gap-2.5 px-3.5 py-2 hover:bg-bg active:bg-bg ${
+              className={`row-in flex cursor-pointer items-start gap-2.5 px-3.5 py-2 hover:bg-bg active:bg-bg ${
                 !pick && selectedId === p.id ? 'bg-bg' : ''
               }`}
+              style={{ animationDelay: `${Math.min(i, 7) * 14}ms` }}
             >
               <span
                 aria-hidden="true"
@@ -161,6 +189,17 @@ export function PoiList({
                   <span className="flex-none text-[10.5px] text-ink-2">
                     {SUBTYPE_META[p.subtype].label}
                   </span>
+                  {/* AI 点评分徽标。★ 没有点评就不显示 —— 与详情页同一条纪律 */}
+                  {p.review ? (
+                    <span
+                      className={`flex flex-none items-center gap-0.5 text-[11px] tabular-nums ${
+                        p.review.score >= 4.0 ? 'text-primary' : 'text-ink-2'
+                      }`}
+                    >
+                      <IconSpark size={9} />
+                      {p.review.score.toFixed(1)}
+                    </span>
+                  ) : null}
                 </div>
                 <p className="mt-0.5 mb-0 line-clamp-1 text-[13.5px] text-ink-2 md:text-[11.5px]">{p.summary}</p>
               </div>

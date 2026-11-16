@@ -1,68 +1,131 @@
 {
-  "id": "cc-barbecue",
-  "name": "长春烧烤",
-  "category": "food",
-  "subtype": "local",
-  "summary": "长春夜生活的硬通货，小串配蒜蓉酱与啤酒，街边排档一直热闹到后半夜。",
-  "description": "长春的烧烤不全是串大的那种，本地人更常吃的是更细小的串，一把一把点。牛羊肉、板筋、心管、肥翅、外加几样蔬菜，刷一层蒜蓉辣酱，几串一手，桌上摆一个小炭盆边热边吃。这里的师傅讲究火候到随手撒孜然，出锅那一刻香气最足。配一小碟蒜蓉辣酱、花生碎和毛葱，别有一番风味。夏天街边的排档一直开到后半夜，冬天则有室内的榻榻米座位。价格便宜，人均不高。想和朋友消磨一整晚的朋友，来长春一定要试一次。",
-  "highlights": [
-    "细串配蒜蓉辣酱",
-    "夏天街边排档通宵",
-    "冬天有室内小炭盆"
-  ],
-  "location": {
-    "point": {
-      "lng": 125.39559,
-      "lat": 43.849709,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "吉林省长春市各烧烤街与夜市（桂林路、红旗街周边最多）",
-    "district": "南关区",
-    "transportTip": "市内各烧烤街与夜市均有"
+ "id": "cc-barbecue",
+ "name": "长春烧烤",
+ "category": "food",
+ "subtype": "local",
+ "summary": "长春夜生活的硬通货，小串配蒜蓉酱与啤酒，街边排档一直热闹到后半夜。",
+ "description": "长春的烧烤不全是串大的那种，本地人更常吃的是更细小的串，一把一把点。牛羊肉、板筋、心管、肥翅、外加几样蔬菜，刷一层蒜蓉辣酱，几串一手，桌上摆一个小炭盆边热边吃。这里的师傅讲究火候到随手撒孜然，出锅那一刻香气最足。配一小碟蒜蓉辣酱、花生碎和毛葱，别有一番风味。夏天街边的排档一直开到后半夜，冬天则有室内的榻榻米座位。价格便宜，人均不高。想和朋友消磨一整晚的朋友，来长春一定要试一次。",
+ "highlights": [
+  "细串配蒜蓉辣酱",
+  "夏天街边排档通宵",
+  "冬天有室内小炭盆"
+ ],
+ "location": {
+  "point": {
+   "lng": 125.39559,
+   "lat": 43.849709,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约16:00-次日02:00",
-    "openHoursRef": 0,
-    "ticket": "约1.5元/串起",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "budget"
+  "address": "吉林省长春市各烧烤街与夜市（桂林路、红旗街周边最多）",
+  "district": "南关区",
+  "transportTip": "市内各烧烤街与夜市均有"
+ },
+ "practical": {
+  "openHours": "约16:00-次日02:00",
+  "openHoursRef": 0,
+  "ticket": "约1.5元/串起",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "friends",
+  "couple",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [
+  "本地常见的是细串，一把一把点，配蒜蓉辣酱、花生碎与毛葱",
+  "2026 年 5 月起桂林路商圈整治，占道流动摊点已取缔，沿街门店与固定档口照常营业",
+  "夏天街边排档热闹到后半夜，冬天多改室内小炭盆座位",
+  "人均不高，价格以门店明码为准"
+ ],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "烧烤",
+  "夜市",
+  "宵夜"
+ ],
+ "popularity": 91,
+ "sources": [
+  {
+   "title": "烧烤·百度百科",
+   "url": "https://baike.baidu.com/item/%E7%83%A7%E7%83%A4",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-03"
   },
-  "audience": [
-    "friends",
-    "couple",
-    "family"
+  {
+   "title": "长春文明网·桂林路商圈常态化管护报道",
+   "url": "http://chc.wenming.cn/gbkjwm/wmcs1/202608/t20260820_9333421.html",
+   "kind": "media",
+   "fetchedAt": "2026-11-12"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Changchun Night Barbecue",
+  "zh": "长春烧烤"
+ },
+ "_geocodeTitle": "长春烧烤(威海店)",
+ "_geocodeSuspect": false,
+ "district": "220102",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-12",
+  "changes": [
+   {
+    "field": "贴士（用 | 分隔多条，整体替换）",
+    "old": [],
+    "new": [
+     "本地常见的是细串，一把一把点，配蒜蓉辣酱、花生碎与毛葱",
+     "2026 年 5 月起桂林路商圈整治，占道流动摊点已取缔，沿街门店与固定档口照常营业",
+     "夏天街边排档热闹到后半夜，冬天多改室内小炭盆座位",
+     "人均不高，价格以门店明码为准"
+    ]
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "烧烤",
-    "夜市",
-    "宵夜"
+  "source": "http://chc.wenming.cn/gbkjwm/wmcs1/202608/t20260820_9333421.html",
+  "reason": "长春文明网 2026-08：桂林路商圈 5 月起整治占道经营，商户正常营业"
+ },
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.5,
+    "note": "细串刷蒜蓉辣酱，小炭盆边热边吃"
+   },
+   {
+    "label": "价格",
+    "score": 4.2,
+    "note": "一把一把点，人均不高"
+   },
+   {
+    "label": "环境",
+    "score": 3.4,
+    "note": "街边排档油烟重，座位局促"
+   }
   ],
-  "popularity": 91,
+  "body": "长春烧烤吃的是细串，牛羊肉、板筋、心管一把一把点，刷蒜蓉辣酱配花生碎和毛葱，桌上小炭盆边热边吃，出锅那一下孜然香最足。价格便宜，适合几个人消磨一整晚。缺点是街边排档油烟重、座位挤，冬天虽有室内榻榻米但也谈不上安静；另外 2026 年 5 月起桂林路一带整治，占道流动摊点已取缔，只剩沿街门店和固定档口，按老攻略找路边摊会扑空。",
+  "basis": "web",
+  "at": "2026-11-12",
+  "fits": [
+   "宵夜",
+   "朋友聚会"
+  ],
+  "avoid": [
+   "怕油烟",
+   "追求安静"
+  ],
   "sources": [
-    {
-      "title": "烧烤·百度百科",
-      "url": "https://baike.baidu.com/item/%E7%83%A7%E7%83%A4",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-03"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Changchun Night Barbecue",
-    "zh": "长春烧烤"
-  },
-  "_geocodeTitle": "长春烧烤(威海店)",
-  "_geocodeSuspect": false,
-  "district": "220102",
-  "_noImage": true
+   "http://chc.wenming.cn/gbkjwm/wmcs1/202608/t20260820_9333421.html"
+  ]
+ }
 }

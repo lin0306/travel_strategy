@@ -1,67 +1,109 @@
 {
-  "id": "xizhou-field",
-  "name": "喜洲稻田",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "喜洲镇外连片稻田，春绿秋黄，配白族民居很出片。",
-  "description": "喜洲镇外是连片的稻田，春夏天绿油油，秋天一片金黄。田边是白族村落和古树，远处是苍山。这个画面是大理最出片的之一。田埂能走，很多人穿裙子来拍。免费，离喜洲古镇几步。",
-  "highlights": [
-    "喜洲镇外连片稻田，春绿秋黄",
-    "白族村落配苍山，最出片画面之一",
-    "田埂能走，免费"
-  ],
-  "location": {
-    "point": {
-      "lng": 100.130699,
-      "lat": 25.850338,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "云南省大理白族自治州大理市喜洲镇外稻田",
-    "district": "大理市",
-    "transportTip": "喜洲古镇外步行可达"
+ "id": "xizhou-field",
+ "name": "喜洲稻田",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "喜洲镇外连片稻田，春绿秋黄，配白族民居很出片。",
+ "description": "喜洲镇外是连片的稻田，春夏天绿油油，秋天一片金黄。田边是白族村落和古树，远处是苍山。这个画面是大理最出片的之一。田埂能走，很多人穿裙子来拍。免费，离喜洲古镇几步。",
+ "highlights": [
+  "喜洲镇外连片稻田，春绿秋黄",
+  "白族村落配苍山，最出片画面之一",
+  "田埂能走，免费"
+ ],
+ "location": {
+  "point": {
+   "lng": 100.130699,
+   "lat": 25.850338,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天（作物季）",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 60-180 分钟",
-    "durationMinutes": [
-      60,
-      180
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "friends"
+  "address": "云南省大理白族自治州大理市喜洲镇外稻田",
+  "district": "大理市",
+  "transportTip": "喜洲古镇外步行可达"
+ },
+ "practical": {
+  "openHours": "全天（作物季）",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 60-180 分钟",
+  "durationMinutes": [
+   60,
+   180
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "稻田",
-    "喜洲",
-    "出片"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "稻田",
+  "喜洲",
+  "出片"
+ ],
+ "popularity": 70,
+ "sources": [
+  {
+   "title": "百度百科·喜洲镇",
+   "url": "https://baike.baidu.com/item/%E5%96%9C%E6%B4%B2%E9%95%87",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "喜洲稻田"
+ },
+ "_geocodeTitle": "喜洲镇",
+ "_geocodeSuspect": false,
+ "district": "532901",
+ "_noImage": true,
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "出片",
+    "score": 4.6,
+    "note": "稻田配白族村落与苍山"
+   },
+   {
+    "label": "免费",
+    "score": 4.5,
+    "note": "田埂与步道全开放，不收门票"
+   },
+   {
+    "label": "季节",
+    "score": 3.0,
+    "note": "收割之后就是一片空地"
+   },
+   {
+    "label": "配套",
+    "score": 2.8,
+    "note": "遮阴少，观光项目另收费"
+   }
   ],
-  "popularity": 70,
+  "body": "喜洲镇外的稻田配白族村落和苍山，是大理最出片的田园画面，春天绿、秋天金黄，田埂能走，全程免费。可惜季节性强，稻子一收就是空地，为这个专程跑一趟可能落空；景区化的部分在增加，稻田小火车要单独买票，路边还有人兜售所谓独家机位，其实田埂都开放。拍照别踩庄稼。",
+  "basis": "web",
+  "at": "2026-11-15",
+  "fits": [
+   "拍照",
+   "田园",
+   "亲子"
+  ],
+  "avoid": [
+   "非作物季",
+   "怕晒"
+  ],
   "sources": [
-    {
-      "title": "百度百科·喜洲镇",
-      "url": "https://baike.baidu.com/item/%E5%96%9C%E6%B4%B2%E9%95%87",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "喜洲稻田"
-  },
-  "_geocodeTitle": "喜洲镇",
-  "_geocodeSuspect": false,
-  "district": "532901",
-  "_noImage": true
+   "https://m.ctrip.com/webapp/you/community/detail?articleId=336849353",
+   "https://www.toutiao.com/article/7702016577994048051"
+  ]
+ }
 }

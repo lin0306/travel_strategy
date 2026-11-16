@@ -19,14 +19,21 @@
  * 靠 `toast.autoHideMs` 自动消失。理由与"哪些不该自动消失"见 `planUi.hint`。
  */
 
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 
 import { openPlanDetail, usePlanUi } from '~/common/logic/itinerary/planUi'
 import { ToastBar } from '~/common/ui/ToastBar'
 
-export function PlanToast() {
+export function PlanToast({ exiting = false }: { exiting?: boolean }) {
   const toast = usePlanUi((s) => s.toast)
   const clearToast = usePlanUi((s) => s.clearToast)
+  /*
+   * 退场缓存（`ToastStack` 的 presence 在 store 清空后还会渲染 150ms）：
+   * 退场那几帧播的是"这条提示正在离开"，内容必须还是原来那条 —— 先变白板比硬切难看。
+   */
+  const last = useRef(toast)
+  if (toast) last.current = toast
+  const cur = toast ?? last.current
 
   /**
    * ★ 只有显式带 `autoHideMs` 的才自动消失（`hint()` 造的）。
@@ -41,26 +48,27 @@ export function PlanToast() {
     return () => clearTimeout(t)
   }, [toast, autoHideMs, clearToast])
 
-  if (!toast) return null
+  if (!cur) return null
 
   return (
     <ToastBar
       onClose={clearToast}
+      exiting={exiting}
       action={
-        toast.planId
+        cur.planId
           ? {
               label: '打开',
               onClick: () => {
                 // ★ 这条「打开」是必需的，不是锦上添花：不点它，用户只知道"加进去了"，
                 //   却不知道加到了哪一条，得自己去列表里翻
-                if (toast.planId) openPlanDetail(toast.planId)
+                if (cur.planId) openPlanDetail(cur.planId)
                 clearToast()
               },
             }
           : undefined
       }
     >
-      {toast.text}
+      {cur.text}
     </ToastBar>
   )
 }

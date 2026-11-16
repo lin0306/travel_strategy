@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "广西壮族自治区桂林市象山区文明路2号李宗仁官邸",
-    "district": "秀峰区",
+    "district": "象山区",
     "transportTip": "市区步行可达；紧邻榕杉湖与日月双塔"
   },
   "practical": {
@@ -182,7 +182,7 @@
       "fetchedAt": "2026-09-30"
     }
   ],
-  "updatedAt": "2026-11-04",
+  "updatedAt": "2026-11-12",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -190,5 +190,41 @@
   },
   "_geocodeTitle": "李宗仁官邸",
   "_geocodeSuspect": false,
-  "district": "450302"
+  "district": "450304",
+  "review": {
+    "score": 3.8,
+    "verdict": "顺路看看",
+    "facets": [
+      {
+        "label": "历史",
+        "score": 4.2,
+        "note": "从广西起家到台儿庄的一条线"
+      },
+      {
+        "label": "展陈",
+        "score": 3.2,
+        "note": "图文为主，实物偏少"
+      },
+      {
+        "label": "门票",
+        "score": 4.6,
+        "note": "免费，登记入内"
+      },
+      {
+        "label": "时长",
+        "score": 3.6,
+        "note": "一小时走完"
+      }
+    ],
+    "body": "市中心的民国官邸，砖木主楼带券廊，院子里的树是当年种的，展厅把他从广西起家、台儿庄到最后回国讲成一条具体的线。缺点是展陈以图文为主、实物偏少，一小时就走完；开放时段短、周一闭馆，绕湖时顺路进来最合适，专程来会偏薄。",
+    "basis": "corpus",
+    "at": "2026-11-12",
+    "fits": [
+      "看近代史"
+    ],
+    "avoid": [
+      "周一"
+    ],
+    "sources": []
+  }
 }

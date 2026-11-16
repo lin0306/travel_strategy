@@ -16,7 +16,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "成都市成华区望平街（猛追湾一带）",
-    "district": "锦江区",
+    "district": "成华区",
     "transportTip": "地铁 3 号线市二医院站步行约 600 米"
   },
   "practical": {
@@ -74,7 +74,7 @@
       "fetchedAt": "2026-09-18"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Wangping Street Chengdu",
@@ -82,5 +82,16 @@
   },
   "_geocodeTitle": "望平街",
   "_geocodeSuspect": false,
-  "district": "510104"
+  "district": "510108",
+  "_patrol": {
+    "changes": [
+      {
+        "field": "所属区",
+        "old": "锦江区/510104",
+        "new": "成华区/510108",
+        "why": "望平街在锦江北岸，属成华区猛追湾街道；腾讯地图POI「望平街」「望平街夜市」均标成华区"
+      }
+    ],
+    "at": "2026-11-08"
+  }
 }

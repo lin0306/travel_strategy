@@ -1,68 +1,102 @@
 {
-  "id": "xishi-doufu",
-  "name": "西施豆腐(诸暨)",
-  "category": "food",
-  "subtype": "local",
-  "summary": "诸暨的豆腐羹，羹稠料足。",
-  "description": "西施豆腐是诸暨一带的传统豆腐羹，以嫩豆腐为主，加肉末、笋丁、香菇、猪血等勾芡成羹，羹稠料足、鲜暖养胃。它因西施故里而得名，是诸暨人待客与节令的暖碗。价低、实在，适合冷天来一碗。诸暨线行程中可尝。羹偏稠偏烫，趁热吃但要小心烫口。",
-  "highlights": [
-    "诸暨嫩豆腐勾芡羹",
-    "肉末笋丁香菇料足",
-    "西施故里名，暖胃"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.233012,
-      "lat": 29.73681,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "绍兴市诸暨市豆腐羹店",
-    "district": "诸暨市",
-    "transportTip": "诸暨市区与景区周边"
+ "id": "xishi-doufu",
+ "name": "西施豆腐(诸暨)",
+ "category": "food",
+ "subtype": "local",
+ "summary": "诸暨的豆腐羹，羹稠料足。",
+ "description": "西施豆腐是诸暨一带的传统豆腐羹，以嫩豆腐为主，加肉末、笋丁、香菇、猪血等勾芡成羹，羹稠料足、鲜暖养胃。它因西施故里而得名，是诸暨人待客与节令的暖碗。价低、实在，适合冷天来一碗。诸暨线行程中可尝。羹偏稠偏烫，趁热吃但要小心烫口。",
+ "highlights": [
+  "诸暨嫩豆腐勾芡羹",
+  "肉末笋丁香菇料足",
+  "西施故里名，暖胃"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.233012,
+   "lat": 29.73681,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:30-14:00 / 16:30-20:30（以门店为准）",
-    "openHoursRef": 0,
-    "ticket": "人均约20元，以门店为准",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "elders",
-    "solo",
-    "family"
+  "address": "绍兴市诸暨市豆腐羹店",
+  "district": "诸暨市",
+  "transportTip": "诸暨市区与景区周边"
+ },
+ "practical": {
+  "openHours": "约10:30-14:00 / 16:30-20:30（以门店为准）",
+  "openHoursRef": 0,
+  "ticket": "人均约20元，以门店为准",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "豆腐羹",
-    "诸暨",
-    "暖碗"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "elders",
+  "solo",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "豆腐羹",
+  "诸暨",
+  "暖碗"
+ ],
+ "popularity": 68,
+ "sources": [
+  {
+   "title": "百度百科·西施豆腐",
+   "url": "https://baike.baidu.com/item/%E8%A5%BF%E6%96%BD%E8%B1%86%E8%85%90",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "西施豆腐(诸暨)"
+ },
+ "_geocodeTitle": "西施豆腐",
+ "_geocodeSuspect": false,
+ "district": "330681",
+ "_noImage": true,
+ "review": {
+  "score": 3.8,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "风味",
+    "score": 4.1,
+    "note": "鸡汤打底，鲜而不腻"
+   },
+   {
+    "label": "分量",
+    "score": 4.2,
+    "note": "一碗料足，顶半个主食"
+   },
+   {
+    "label": "温度",
+    "score": 3.4,
+    "note": "勾芡保温，上桌很烫"
+   }
   ],
-  "popularity": 68,
+  "body": "西施豆腐是诸暨宴席的头道菜，本地人叫「大豆腐」：鸡汤打底，嫩豆腐切丁，配笋丁、香菇、鸡血、油渣，用番薯粉勾芡成羹，汤宽汁厚、滑润鲜香，冷天喝一碗最熨帖，诸暨十碗里它的名气最大。缺点是羹偏稠偏烫，急着吃容易烫口，夏天吃略显厚重；各家配料差别不小，讲究的要挑老店。",
+  "basis": "web",
+  "at": "2026-11-12",
+  "fits": [
+   "冷天暖胃",
+   "诸暨线正餐"
+  ],
+  "avoid": [
+   "赶时间快吃"
+  ],
   "sources": [
-    {
-      "title": "百度百科·西施豆腐",
-      "url": "https://baike.baidu.com/item/%E8%A5%BF%E6%96%BD%E8%B1%86%E8%85%90",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "西施豆腐(诸暨)"
-  },
-  "_geocodeTitle": "西施豆腐",
-  "_geocodeSuspect": false,
-  "district": "330681",
-  "_noImage": true
+   "http://epaper.shaoxing.com.cn/sxwb/pc/content/202606/19/content_650587.html"
+  ]
+ }
 }

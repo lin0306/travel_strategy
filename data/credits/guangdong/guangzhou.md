@@ -1,6 +1,6 @@
 # 广州 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-09-24
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-14
 
 ## 概览
 
@@ -39,6 +39,7 @@
 | 石室圣心大教堂 | [百度百科·石室圣心大教堂](https://baike.baidu.com/item/%E5%B9%BF%E5%B7%9E%E5%9C%A3%E5%BF%83%E5%A4%A7%E6%95%99%E5%A0%82) | wiki | 2026-09-24 |
 | 沙面岛 | [百度百科·沙面岛](https://baike.baidu.com/item/%E6%B2%99%E9%9D%A2%E5%B2%9B) | wiki | 2026-09-24 |
 | 沙湾古镇 | [百度百科·沙湾古镇](https://baike.baidu.com/item/%E6%B2%99%E6%B9%BE%E5%8F%A4%E9%95%87) | wiki | 2026-09-24 |
+| 沙湾古镇 | [沙湾古镇官方公众号（2026 元旦活动公告）](https://mp.weixin.qq.com/s?__biz=MzA5MjIzNTA2Mg==&mid=2453700188&idx=2&sn=9e951d6739cc6dec5d3000a4bc0392c9) | media | 2026-11-09 |
 | 中共三大会址纪念馆 | [百度百科·中共三大会址纪念馆](https://baike.baidu.com/view/2345981.htm) | wiki | 2026-10-30 |
 | 华南国家植物园 | [百度百科·华南植物园](https://baike.baidu.com/item/%E5%8D%8E%E5%8D%97%E6%A4%8D%E7%89%A9%E5%9B%AD) | wiki | 2026-09-24 |
 | 中山纪念堂 | [百度百科·中山纪念堂](https://baike.baidu.com/item/%E5%B9%BF%E5%B7%9E%E4%B8%AD%E5%B1%B1%E7%BA%AA%E5%BF%B5%E5%A0%82) | wiki | 2026-09-24 |
@@ -46,31 +47,39 @@
 | 辛亥革命纪念馆 | [辛亥革命纪念馆参观攻略（腾讯新闻）](https://news.qq.com/rain/a/20260107A037QK00) | media | 2026-10-30 |
 | 圆玄道观 | [广州圆玄道观游玩攻略（去哪儿旅行）](https://travelnews.qunar.com/ugc/guangzhou-yuanxuan-temple-huadu-20yuan) | travel-platform | 2026-10-30 |
 | 粤海关博物馆 | [百度百科·粤海关博物馆](https://baike.baidu.com/item/%E7%B2%A4%E6%B5%B7%E5%85%B3%E5%8D%9A%E7%89%A9%E9%A6%86) | wiki | 2026-09-24 |
+| 粤海关博物馆 | [广州市备案博物馆参观信息表（市政府官网）](https://www.gz.gov.cn/zwgk/zdly/shgysyjs/ggwhty/ggwh/content/post_9864493.html) | media | 2026-11-09 |
 | 越秀公园 | [百度百科·越秀公园](https://baike.baidu.com/item/%E8%B6%8A%E7%A7%80%E5%85%AC%E5%9B%AD) | wiki | 2026-09-24 |
 | 余荫山房 | [百度百科·余荫山房](https://baike.baidu.com/item/%E4%BD%99%E8%8D%AB%E5%B1%B1%E6%88%BF) | wiki | 2026-09-24 |
 | 詹天佑故居纪念馆 | [百度百科·詹天佑故居纪念馆](https://baike.baidu.com/view/326146.htm) | wiki | 2026-10-30 |
 | 镇海楼（广州博物馆） | [百度百科·镇海楼](https://baike.baidu.com/item/%E9%95%87%E6%B5%B7%E6%A5%BC) | wiki | 2026-09-24 |
 | 宝华面店 | [百度百科·宝华面店](https://baike.baidu.com/item/%E5%AE%9D%E5%8D%8E%E9%9D%A2%E5%BA%97) | wiki | 2026-09-24 |
 | 北园酒家 | [百度百科·北园酒家](https://baike.baidu.com/item/%E5%8C%97%E5%9B%AD%E9%85%92%E5%AE%B6) | wiki | 2026-09-24 |
+| 北园酒家 | [南方+（转载广州越秀发布）2026国庆越秀美食攻略：北园酒家小北路202号、工作日11:00开市](https://www.nfnews.com/content/ky9vkaVa3G.html) | media | 2026-11-09 |
 | 陈添记鱼皮 | [百度百科·陈添记](https://baike.baidu.com/item/%E9%99%88%E6%B7%BB%E8%AE%B0%E9%B1%BC%E7%9A%AE) | wiki | 2026-09-24 |
 | 点都德 | [百度百科·点都德](https://baike.baidu.com/item/%E7%82%B9%E9%83%BD%E5%BE%B7) | wiki | 2026-09-24 |
 | 芬芳甜品 | [百度百科·芬芳甜品](https://baike.baidu.com/item/%E5%B9%BF%E5%B7%9E%E8%8A%AC%E8%8A%B3%E7%94%9C%E5%93%81%E5%BA%97) | wiki | 2026-09-24 |
+| 芬芳甜品 | [百度百科·芬芳甜品（东湖西店）](https://baike.baidu.com/item/%E8%8A%AC%E8%8A%B3%E7%94%9C%E5%93%81%EF%BC%88%E4%B8%9C%E6%B9%96%E8%A5%BF%E5%BA%97%EF%BC%89/14275901) | media | 2026-11-09 |
 | 广州酒家（文昌路店） | [百度百科·广州酒家](https://baike.baidu.com/item/%E5%B9%BF%E5%B7%9E%E9%85%92%E5%AE%B6) | wiki | 2026-09-24 |
 | 莲香楼 | [百度百科·莲香楼](https://baike.baidu.com/item/%E8%8E%B2%E9%A6%99%E6%A5%BC) | wiki | 2026-09-24 |
 | 南信牛奶甜品 | [百度百科·南信牛奶甜品](https://baike.baidu.com/item/%E5%8D%97%E4%BF%A1%E7%89%9B%E5%A5%B6%E7%94%9C%E5%93%81%E5%BA%97) | wiki | 2026-09-24 |
 | 泮溪酒家 | [百度百科·泮溪酒家](https://baike.baidu.com/item/%E6%B3%AE%E6%BA%AA%E9%85%92%E5%AE%B6) | wiki | 2026-09-24 |
 | 清平饭店（清平鸡） | [百度百科·清平鸡](https://baike.baidu.com/item/%E6%B8%85%E5%B9%B3%E9%B8%A1) | wiki | 2026-09-24 |
+| 清平饭店（清平鸡） | [广州日报：荔湾老字号活化，清平饭店复业落地三家门店](https://news.dayoo.com/gzrbrmt/202611/11/170615_55022831.htm) | media | 2026-11-13 |
 | 顺记冰室 | [百度百科·顺记冰室](https://baike.baidu.com/item/%E5%B9%BF%E5%B7%9E%E9%A1%BA%E8%AE%B0%E5%86%B0%E5%AE%A4) | wiki | 2026-09-24 |
 | 陶陶居（第十甫路总店） | [百度百科·陶陶居](https://baike.baidu.com/item/%E9%99%B6%E9%99%B6%E5%B1%85) | wiki | 2026-09-24 |
 | 白天鹅宾馆·玉堂春暖 | [百度百科·白天鹅宾馆](https://baike.baidu.com/item/%E7%99%BD%E5%A4%A9%E9%B9%85%E5%AE%BE%E9%A6%86) | wiki | 2026-09-24 |
 | 吴财记面家 | [百度百科·吴财记面家](https://baike.baidu.com/item/%E5%90%B4%E8%B4%A2%E8%AE%B0%E9%9D%A2%E5%AE%B6) | wiki | 2026-09-24 |
+| 吴财记面家 | [2026-08 腾讯新闻实地报道与图商POI一致：店在和隆里20号，大同路84号](https://news.qq.com/rain/a/20260816A0680M00) | media | 2026-11-09 |
 | 银记肠粉（上下九店） | [百度百科·银记肠粉](https://baike.baidu.com/item/%E9%93%B6%E8%AE%B0%E8%82%A0%E7%B2%89%E5%BA%97) | wiki | 2026-09-24 |
+| 银记肠粉（上下九店） | [南方+ 与图商POI一致：上下九79号；原坐标落在宝华路一带偏西1.4km](https://static.nfnews.com/content/202410/08/c10146555.html) | media | 2026-11-09 |
 | 1850 创意园 | [百度百科·1850创意园](https://baike.baidu.com/item/%E5%B9%BF%E5%B7%9E1850%E5%88%9B%E6%84%8F%E5%9B%AD) | wiki | 2026-09-24 |
 | 东山口与新河浦 | [百度百科·新河浦](https://baike.baidu.com/item/%E6%96%B0%E6%B2%B3%E6%B5%A6) | wiki | 2026-09-24 |
 | 二沙岛 | [百度百科·二沙岛](https://baike.baidu.com/item/%E4%BA%8C%E6%B2%99%E5%B2%9B) | wiki | 2026-09-24 |
 | 广州艺术博物院（白鹅潭馆区） | [百度百科·广州艺术博物院](https://baike.baidu.com/item/%E5%B9%BF%E5%B7%9E%E8%89%BA%E6%9C%AF%E5%8D%9A%E7%89%A9%E9%99%A2) | wiki | 2026-09-24 |
 | 广州大剧院 | [百度百科·广州大剧院](https://baike.baidu.com/item/%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%89%A7%E9%99%A2) | wiki | 2026-09-24 |
+| 广州大剧院 | [广州大剧院官网参观须知（2026）](https://www.gzdjy.org/intro.html?name=参观须知&rid=14418) | media | 2026-11-09 |
 | 海心桥 | [百度百科·海心桥](https://baike.baidu.com/item/%E6%B5%B7%E5%BF%83%E6%A1%A5) | wiki | 2026-09-24 |
+| 海心桥 | [光明网（转广州日报）：海心桥除夕起取消预约通行](https://m.gmw.cn/toutiao/2025-01/26/content_1303956841.htm) | media | 2026-11-13 |
 | 花城广场 | [百度百科·花城广场](https://baike.baidu.com/item/%E8%8A%B1%E5%9F%8E%E5%B9%BF%E5%9C%BA) | wiki | 2026-09-24 |
 | 珠江夜游 | [百度百科·珠江夜游](https://baike.baidu.com/item/%E7%8F%A0%E6%B1%9F%E5%A4%9C%E6%B8%B8) | wiki | 2026-09-24 |
 | 石围塘火车站 | [百度百科·石围塘站](https://baike.baidu.com/item/%E7%9F%B3%E5%9B%B4%E5%A1%98%E7%AB%99) | wiki | 2026-09-24 |
@@ -81,14 +90,15 @@
 | 星海音乐厅 | [百度百科·星海音乐厅](https://baike.baidu.com/item/%E6%98%9F%E6%B5%B7%E9%9F%B3%E4%B9%90%E5%8E%85) | wiki | 2026-09-24 |
 | 永庆坊 | [百度百科·永庆坊](https://baike.baidu.com/item/%E6%B0%B8%E5%BA%86%E5%9D%8A) | wiki | 2026-09-24 |
 | 广州粤剧院·红线女艺术中心 | [百度百科·红线女艺术中心](https://baike.baidu.com/item/%E7%BA%A2%E7%BA%BF%E5%A5%B3%E8%89%BA%E6%9C%AF%E4%B8%AD%E5%BF%83) | wiki | 2026-09-24 |
+| 广州粤剧院·红线女艺术中心 | [红线女艺术中心官方公众号·开放时间与地址](http://mp.weixin.qq.com/s?__biz=MzAwNzEyODQ0OA==&mid=2653029153&idx=1&sn=6fac763670b03af52194d29004763b0f) | media | 2026-11-09 |
 
 ## 图片版权
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Edward Wallace | Pexels License | [pexels](https://www.pexels.com/photo/aerial-footage-of-a-city-6743444/) |
-| 城市封面 | Lywin | Pexels License | [pexels](https://www.pexels.com/photo/aiqun-hotel-under-the-moon-14230470/) |
-| 城市封面 | JDer L | Pexels License | [pexels](https://www.pexels.com/photo/canton-tower-against-a-cloudy-sky-in-guangzhou-33481152/) |
+| 城市封面 | JULIANISME | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Canton_Tower_Light_Show_20240712_02.jpg) |
+| 城市封面 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chen_Clan_Ancestral_Hall,_Guangzhou.jpg) |
+| 城市封面 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E7%B2%A4%E5%89%A7%E8%89%BA%E6%9C%AF%E5%8D%9A%E7%89%A9%E9%A6%86.jpg) |
 | 白水寨 | gdczjkk | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A2%9E%E5%9F%8E%E7%99%BD%E6%B0%B4%E5%AF%A8%E7%80%91%E5%B8%83_-_panoramio.jpg) |
 | 白水寨 | gdczjkk | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A2%9E%E5%9F%8E%E7%99%BD%E6%B0%B4%E5%AF%A8%E7%80%91%E5%B8%83_-_panoramio_(1).jpg) |
 | 白水寨 | gdczjkk | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A2%9E%E5%9F%8E%E7%99%BD%E6%B0%B4%E5%AF%A8%E7%80%91%E5%B8%83_-_panoramio_(2).jpg) |
@@ -102,11 +112,28 @@
 | 粤剧艺术博物馆 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%8D%94%E6%B9%BE_%E6%B0%B8%E5%BA%86%E5%9D%8A%E4%B9%8B%E7%B2%A4%E5%89%A7%E8%89%BA%E6%9C%AF%E5%8D%9A%E7%89%A9%E9%A6%86%E9%99%84%E8%BF%91%E7%9A%84%E6%A0%91%E6%8C%82%E7%81%AF%E7%AC%BC.jpg) |
 | 广州塔 | Colin Zhu from Guangzhou, China | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Canton_tower_in_asian_games_opening_ceremony.jpg) |
 | 广州塔 | jiang-wen-jie | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E5%A1%94Scenery_in_Guangzhou,_China_-_panoramio.jpg) |
+| 陈家祠 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 陈家祠 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 陈家祠 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 陈家祠 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 陈家祠 | Shujianyang | CC BY-SA 4.0 | [wikimedia](https://www.wikidata.org/wiki/Q5090739) |
 | 大夫山森林公园 | CRCHF | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:DaiFuSan_Forest_Park.jpg) |
 | 大夫山森林公园 | Kary Foo | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:GZ_Da_Fu_Shan_Garden_%E5%A4%A7%E5%A4%AB%E5%B1%B1%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9C%92_Bike_Leasing.jpg) |
+| 广东省博物馆 | zengsx | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 广东省博物馆 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 广东省博物馆 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 广东省博物馆 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 广东省博物馆 | Shujianyang | CC0 | [wikimedia](https://www.wikidata.org/wiki/Q5613636) |
+| 广东省博物馆 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://www.wikidata.org/wiki/Q5613636) |
 | 光孝寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250222_Guangxiao_Temple_01.jpg) |
 | 光孝寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250222_Guangxiao_Temple_02.jpg) |
 | 光孝寺 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250222_Guangxiao_Temple_03.jpg) |
+| 广州铁路博物馆 | Lhzss8 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:1932%E5%B9%B4%E6%BD%AE%E6%B1%95%E9%93%81%E8%B7%AF%E6%97%B6%E5%88%BB%E8%A1%A8.jpg) |
+| 广州铁路博物馆 | Lhzss8 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Railways_-RZ25Cin_Huangsha_,Guangzhou.jpg) |
+| 广州铁路博物馆 | Lhzss8 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Railways_DJJ1--%E2%80%9CBlue_Arrow%E2%80%9D_in_Huangsha_,Guangzhou.jpg) |
+| 广州铁路博物馆 | Lhzss8 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BC%AA%E6%BB%A1%E6%B4%B2%E5%9B%BD%E6%97%B6%E6%9C%9F%E9%93%81%E9%81%93%E5%88%B6%E6%9C%8D%E7%9A%84%E9%93%9C%E6%89%A3.jpg) |
+| 广州铁路博物馆 | Lhzss8 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B0%91%E5%9B%BD%E4%BA%8C%E5%8D%81%E4%B8%89%E5%B9%B4%EF%BC%881935%E5%B9%B4%EF%BC%89%E5%B9%BF%E4%B8%89%E9%93%81%E8%B7%AF%E8%A1%8C%E8%BD%A6%E6%97%B6%E5%88%BB%E8%A1%A8.jpg) |
+| 广州铁路博物馆 | 中少 | CC BY-SA 4.0 | [wikimedia](https://www.wikidata.org/wiki/Q109351546) |
 | 广州起义纪念馆 | Skywalk1722 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E5%85%AC%E7%A4%BE%E6%97%A7%E5%9D%80.jpg) |
 | 广州起义纪念馆 | Chintunglee | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gzqiyi.jpg) |
 | 广州起义纪念馆 | Chintunglee | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gzqiyigate.jpg) |
@@ -124,6 +151,12 @@
 | 荔湾湖公园 | 中少 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Liang%27s_Temple_20220813-02.jpg) |
 | 荔湾湖公园 | 方人也 | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Liwanhu_Park_20230729.jpg) |
 | 孙中山大元帅府纪念馆 | Pedist | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dabenying_(Generalissimo_Sun_Yat-sen%27s_Mansion).jpg) |
+| 南海神庙 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 南海神庙 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 南海神庙 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 南海神庙 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 南海神庙 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 南海神庙 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 南汉二陵博物馆 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250913_Celadon_covered_jars_with_four_ears_in_the_Southern_Han_Mausoleums_Museum.jpg) |
 | 南汉二陵博物馆 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250913_Celadon_jar_with_six_ears_in_the_Southern_Han_Mausoleums_Museum.jpg) |
 | 南汉二陵博物馆 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250913_Celadon_jars_and_celadon_covered_jars_in_the_Southern_Han_Mausoleums_Museum.jpg) |
@@ -174,12 +207,15 @@
 | 余荫山房 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangzhou_Panyu_Yuyin_Shanfang_2012.11.19_15-39-41.jpg) |
 | 余荫山房 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangzhou_Panyu_Yuyin_Shanfang_2012.11.19_15-47-51.jpg) |
 | 余荫山房 | Zhangzhugang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Guangzhou_Panyu_Yuyin_Shanfang_2012.11.19_15-50-52.jpg) |
+| 詹天佑故居纪念馆 | 钟启明 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 镇海楼（广州博物馆） | Gary Todd from Xinzheng, China | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Zhenhai_Tower,_Yuexiu_Park,_Guangzhou_(10075748113).jpg) |
 | 镇海楼（广州博物馆） | 中少 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Zhenhai_Tower_Exterior.jpg) |
 | 北园酒家 | CRCHF | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:BakJyunZauGaa.jpg) |
 | 北园酒家 | 中少 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Beiyuan_Restaurant.jpg) |
 | 北园酒家 | 古海岸遗址 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Beiyuan_Restaurant_Garden-1.jpg) |
 | 广州酒家（文昌路店） | Kuruman from Tokyo, Japan | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_WP_20160811_002_(28645574423).jpg) |
+| 莲香楼 | MeiOLA 2290 WMENSZ | CC0 | [wikimedia](https://commons.wikimedia.org/) |
+| 莲香楼 | MeiOLA 2290 WMENSZ | CC0 | [wikimedia](https://commons.wikimedia.org/) |
 | 南信牛奶甜品 | PQ77wd | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Naamseon_Milk_Dessert.jpg) |
 | 泮溪酒家 | MeiOLA 2290 WMENSZ | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8D%94%E7%81%A3%E5%8D%80_Liwan_%E9%BE%8D%E6%B4%A5%E8%A5%BF%E8%B7%AF_Longjin_West_Road_shop_%E6%B3%AE%E6%BA%AA%E9%85%92%E5%AE%B6_Pan_Xi_Restaurant_lake_June_2025_R12S_01.jpg) |
 | 泮溪酒家 | MeiOLA 2290 WMENSZ | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8D%94%E7%81%A3%E5%8D%80_Liwan_%E9%BE%8D%E6%B4%A5%E8%A5%BF%E8%B7%AF_Longjin_West_Road_shop_%E6%B3%AE%E6%BA%AA%E9%85%92%E5%AE%B6_Pan_Xi_Restaurant_room_June_2025_R12S_01.jpg) |
@@ -188,6 +224,12 @@
 | 白天鹅宾馆·玉堂春暖 | GAUAI Shfj 992833 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_GZ_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3_Tianhe_%E8%BB%8A%E9%99%82%E8%B7%AF_CheBei_Road_shop_%E7%AD%B7%E7%AF%80%E5%A5%8F_%E8%87%AA%E7%82%92%E8%87%AA%E9%81%B8%E7%B0%A1%E9%A4%90%E5%BB%B3_Kuai_Jie_Zou_Fast_Food_Restaurant_interior_visitors_staff_in_%E9%96%93%E6%A2%9D%E5%88%B6%E6%9C%8D_uniform_October_2024_R12S_01.jpg) |
 | 白天鹅宾馆·玉堂春暖 | GAUAI Shfj 992833 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_GZ_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3_Tianhe_%E8%BB%8A%E9%99%82%E8%B7%AF_CheBei_Road_shop_%E7%AD%B7%E7%AF%80%E5%A5%8F_%E8%87%AA%E7%82%92%E8%87%AA%E9%81%B8%E7%B0%A1%E9%A4%90%E5%BB%B3_Kuai_Jie_Zou_Fast_Food_Restaurant_interior_visitors_staff_in_%E9%96%93%E6%A2%9D%E5%88%B6%E6%9C%8D_uniform_October_2024_R12S_02.jpg) |
 | 白天鹅宾馆·玉堂春暖 | MROMP kam olAIE | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_GZ_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3%E8%B7%AF_383_Tianhe_Road_%E5%BB%A3%E5%B7%9E%E5%A4%AA%E5%8F%A4%E6%BB%99%E5%95%86%E5%A0%B4_Taikoo_Hui_mall_October_2024_R12S_19.jpg) |
+| 东山口与新河浦 | NerawaretaMachi | CC0 | [wikimedia](https://commons.wikimedia.org/) |
+| 东山口与新河浦 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 东山口与新河浦 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 东山口与新河浦 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 东山口与新河浦 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 东山口与新河浦 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 二沙岛 | 蒋鹏飞 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2007%E4%BF%AF%E7%9E%B0%E5%B9%BF%E5%B7%9E%E5%A4%A7%E6%A1%A5%E4%BA%8C%E6%B2%99%E5%B2%9B%E5%85%AC%E5%9B%AD_-_panoramio.jpg) |
 | 广州艺术博物院（白鹅潭馆区） | Tim Wu | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Aerial_View,_Guangzhou_Museum_of_Art_20241027-A.jpg) |
 | 广州艺术博物院（白鹅潭馆区） | Tim Wu | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Aerial_View,_Guangzhou_Museum_of_Art_20241027-B.jpg) |
@@ -197,6 +239,16 @@
 | 花城广场 | zengsx | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BB%8E%E9%98%85%E6%B1%9F%E8%A5%BF%E8%B7%AF%E7%9C%8B%E8%8A%B1%E5%9F%8E%E5%B9%BF%E5%9C%BA_-_panoramio.jpg) |
 | 花城广场 | zengsx | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E4%BA%9A%E8%BF%90%E4%BC%9A%E7%9C%8B%E5%8F%B0_-_panoramio.jpg) |
 | 花城广场 | zengsx | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E5%86%9C%E6%9D%91%E5%95%86%E4%B8%9A%E9%93%B6%E8%A1%8C_-_panoramio.jpg) |
+| 珠江夜游 | 张彬 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 珠江夜游 | 蒋鹏飞 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 珠江夜游 | 张彬 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 珠江夜游 | 蒋鹏飞 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio.jpg) |
+| 珠江夜游 | 蒋鹏飞 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio_(12).jpg) |
+| 珠江夜游 | 蒋鹏飞 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%9C%E6%B8%B8%E7%8F%A0%E6%B1%9F_-_panoramio_(14).jpg) |
+| 石围塘火车站 | Ginwai Tam | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 石围塘火车站 | Ginwai Tam | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 石围塘火车站 | David290 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 石围塘火车站 | David290 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 羊城创意园 | 中少 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yangcheng_Creative_Industrial_Park_20201003-01.jpg) |
 | 羊城创意园 | 中少 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yangcheng_Creative_Industrial_Park_20201003-02.jpg) |
 | 羊城创意园 | 中少 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yangcheng_Creative_Industrial_Park_20201003-03.jpg) |
@@ -209,3 +261,9 @@
 | 星海音乐厅 | Yuxuan1122 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E4%BA%A4%E5%93%8D%E4%B9%90%E5%9B%A2.jpg) |
 | 星海音乐厅 | jiang-wen-jie | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%98%9F%E6%B5%B7%E9%9F%B3%E4%B9%90%E5%8E%85Scenery_in_Guangzhou,_China_-_panoramio.jpg) |
 | 星海音乐厅 | User Wikipedia on zh.wikipedia | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20031122103838.jpg) |
+| 永庆坊 | 钟启明 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 永庆坊 | 钟启明 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 永庆坊 | 钟启明 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 永庆坊 | 钟启明 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 永庆坊 | 钟启明 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 永庆坊 | 钉钉 | CC BY-SA 4.0 | [wikimedia](https://www.wikidata.org/wiki/Q63925707) |

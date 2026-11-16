@@ -1,98 +1,125 @@
 {
-  "id": "bianyifang",
-  "name": "便宜坊烤鸭(哈德门店)",
-  "category": "food",
-  "subtype": "local",
-  "summary": "焖炉烤鸭的代表,比挂炉更早的一路做法。",
-  "description": "便宜坊创于明永乐年间,做的是焖炉——烤时不见明火,炉壁先烧热再放鸭进去,用余温焖熟,皮更柔、肉更嫩,挂炉派的「酥」与焖炉派的「嫩」是两个方向。它的历史比全聚德早得多,但名气在外地被盖过,反而保留下来一种相对日常的价格与客群。想对比两种流派,这里是挂炉之外的另一极。",
-  "highlights": [
-    "焖炉不见明火,口感偏嫩",
-    "历史早于挂炉派",
-    "价格比同档次挂炉店日常"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.419564,
-      "lat": 39.899043,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "北京市东城区崇文门外大街16号",
-    "district": "东城",
-    "transportTip": "地铁2号线/5号线崇文门站"
+ "id": "bianyifang",
+ "name": "便宜坊烤鸭(哈德门店)",
+ "category": "food",
+ "subtype": "local",
+ "summary": "焖炉烤鸭的代表,比挂炉更早的一路做法。",
+ "description": "便宜坊创于明永乐年间,做的是焖炉——烤时不见明火,炉壁先烧热再放鸭进去,用余温焖熟,皮更柔、肉更嫩,挂炉派的「酥」与焖炉派的「嫩」是两个方向。它的历史比全聚德早得多,但名气在外地被盖过,反而保留下来一种相对日常的价格与客群。想对比两种流派,这里是挂炉之外的另一极。",
+ "highlights": [
+  "焖炉不见明火,口感偏嫩",
+  "历史早于挂炉派",
+  "价格比同档次挂炉店日常"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.419564,
+   "lat": 39.899043,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约11:00-21:00(以门店公告为准)",
-    "openHoursRef": 0,
-    "ticket": "人均约150元起(以门店为准)",
-    "ticketRef": 0,
-    "duration": "建议 90-150 分钟",
-    "durationMinutes": [
-      90,
-      150
-    ],
-    "priceLevel": "mid"
+  "address": "北京市东城区崇文门外大街16号",
+  "district": "东城",
+  "transportTip": "地铁2号线/5号线崇文门站"
+ },
+ "practical": {
+  "openHours": "约11:00-21:00(以门店公告为准)",
+  "openHoursRef": 0,
+  "ticket": "人均约150元起(以门店为准)",
+  "ticketRef": 0,
+  "duration": "建议 90-150 分钟",
+  "durationMinutes": [
+   90,
+   150
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "kids",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/%E4%BE%BF%E5%AE%9C%E5%9D%8A%E7%83%A4%E9%B8%AD.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/%E4%BE%BF%E5%AE%9C%E5%9D%8A%E7%83%A4%E9%B8%AD.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 1394,
+   "alt": "便宜坊烤鸭.JPG",
+   "query": "便宜坊烤鸭",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Gisling",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BE%BF%E5%AE%9C%E5%9D%8A%E7%83%A4%E9%B8%AD.JPG",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "kids",
-    "solo"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/%E4%BE%BF%E5%AE%9C%E5%9D%8A%E7%83%A4%E9%B8%AD%E5%BA%97%E4%B8%AD%E4%B8%BA%E5%AE%A2%E6%88%B7%E8%A1%A8%E6%BC%94%E7%89%87%E9%B8%AD.jpg/1280px-%E4%BE%BF%E5%AE%9C%E5%9D%8A%E7%83%A4%E9%B8%AD%E5%BA%97%E4%B8%AD%E4%B8%BA%E5%AE%A2%E6%88%B7%E8%A1%A8%E6%BC%94%E7%89%87%E9%B8%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/%E4%BE%BF%E5%AE%9C%E5%9D%8A%E7%83%A4%E9%B8%AD%E5%BA%97%E4%B8%AD%E4%B8%BA%E5%AE%A2%E6%88%B7%E8%A1%A8%E6%BC%94%E7%89%87%E9%B8%AD.jpg/1280px-%E4%BE%BF%E5%AE%9C%E5%9D%8A%E7%83%A4%E9%B8%AD%E5%BA%97%E4%B8%AD%E4%B8%BA%E5%AE%A2%E6%88%B7%E8%A1%A8%E6%BC%94%E7%89%87%E9%B8%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "便宜坊烤鸭店中为客户表演片鸭.jpg",
+   "query": "便宜坊烤鸭",
+   "credit": {
+    "source": "wikimedia",
+    "author": "蓝芷怡",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BE%BF%E5%AE%9C%E5%9D%8A%E7%83%A4%E9%B8%AD%E5%BA%97%E4%B8%AD%E4%B8%BA%E5%AE%A2%E6%88%B7%E8%A1%A8%E6%BC%94%E7%89%87%E9%B8%AD.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "烤鸭",
+  "焖炉",
+  "老字号"
+ ],
+ "popularity": 84,
+ "sources": [
+  {
+   "title": "百度百科·便宜坊",
+   "url": "https://baike.baidu.com/item/%E4%BE%BF%E5%AE%9C%E5%9D%8A",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "便宜坊烤鸭(哈德门店)"
+ },
+ "_geocodeTitle": "便宜坊烤鸭(国瑞城哈德门店)",
+ "_geocodeSuspect": false,
+ "district": "110101",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.4,
+    "note": "焖炉不见明火，皮更柔、肉更嫩"
+   },
+   {
+    "label": "价格",
+    "score": 3.2,
+    "note": "人均比同档挂炉店高一截"
+   },
+   {
+    "label": "环境",
+    "score": 3.0,
+    "note": "哈德门店团队多，饭点嘈杂"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/%E4%BE%BF%E5%AE%9C%E5%9D%8A%E7%83%A4%E9%B8%AD.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/%E4%BE%BF%E5%AE%9C%E5%9D%8A%E7%83%A4%E9%B8%AD.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1394,
-      "alt": "便宜坊烤鸭.JPG",
-      "query": "便宜坊烤鸭",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Gisling",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BE%BF%E5%AE%9C%E5%9D%8A%E7%83%A4%E9%B8%AD.JPG",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/%E4%BE%BF%E5%AE%9C%E5%9D%8A%E7%83%A4%E9%B8%AD%E5%BA%97%E4%B8%AD%E4%B8%BA%E5%AE%A2%E6%88%B7%E8%A1%A8%E6%BC%94%E7%89%87%E9%B8%AD.jpg/1280px-%E4%BE%BF%E5%AE%9C%E5%9D%8A%E7%83%A4%E9%B8%AD%E5%BA%97%E4%B8%AD%E4%B8%BA%E5%AE%A2%E6%88%B7%E8%A1%A8%E6%BC%94%E7%89%87%E9%B8%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/%E4%BE%BF%E5%AE%9C%E5%9D%8A%E7%83%A4%E9%B8%AD%E5%BA%97%E4%B8%AD%E4%B8%BA%E5%AE%A2%E6%88%B7%E8%A1%A8%E6%BC%94%E7%89%87%E9%B8%AD.jpg/1280px-%E4%BE%BF%E5%AE%9C%E5%9D%8A%E7%83%A4%E9%B8%AD%E5%BA%97%E4%B8%AD%E4%B8%BA%E5%AE%A2%E6%88%B7%E8%A1%A8%E6%BC%94%E7%89%87%E9%B8%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "便宜坊烤鸭店中为客户表演片鸭.jpg",
-      "query": "便宜坊烤鸭",
-      "credit": {
-        "source": "wikimedia",
-        "author": "蓝芷怡",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BE%BF%E5%AE%9C%E5%9D%8A%E7%83%A4%E9%B8%AD%E5%BA%97%E4%B8%AD%E4%B8%BA%E5%AE%A2%E6%88%B7%E8%A1%A8%E6%BC%94%E7%89%87%E9%B8%AD.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "烤鸭",
-    "焖炉",
-    "老字号"
-  ],
-  "popularity": 84,
-  "sources": [
-    {
-      "title": "百度百科·便宜坊",
-      "url": "https://baike.baidu.com/item/%E4%BE%BF%E5%AE%9C%E5%9D%8A",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "便宜坊烤鸭(哈德门店)"
-  },
-  "_geocodeTitle": "便宜坊烤鸭(国瑞城哈德门店)",
-  "_geocodeSuspect": false,
-  "district": "110101"
+  "body": "焖炉派的代表，比挂炉更早的一路做法，鸭皮柔、鸭肉嫩，与挂炉的「酥」是两个方向。缺点是出品看门店，哈德门店旅游团多、饭点嘈杂，人均也比同档挂炉店高一截；想安静吃一顿，避开中午团队时段。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [],
+  "avoid": [],
+  "sources": []
+ }
 }

@@ -1,97 +1,136 @@
 {
-  "id": "dafen-oil-painting-village",
-  "name": "大芬油画村",
-  "category": "culture",
-  "subtype": "street",
-  "summary": "一个村子在画行画：临摹与定制的产业在这里做了三十年。",
-  "description": "大芬原是布吉街道的一个客家村，1989 年起有画商在这里组织画工临摹与批量生产，后来形成完整的产业。高峰期的出货量覆盖海外订单的很大一块。现在走在村里，沿街是画室、装裱店与画材铺，墙上挂着待售的画。村口一侧有美术馆，展的是原创那一块——行画之外，这里也长出了自己的画家。现场能看到画工在原稿上作画。它与布吉一侧的地铁连通，进出方便。",
-  "highlights": [
-    "行画产业在这个村里做了三十年",
-    "沿街是画室、装裱店与画材铺",
-    "现场能看到画工作画的过程"
-  ],
-  "location": {
-    "point": {
-      "lng": 114.13594,
-      "lat": 22.60987,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "深圳市龙岗区布吉街道大芬村",
-    "district": "龙岗区",
-    "transportTip": "地铁3号线大芬站"
+ "id": "dafen-oil-painting-village",
+ "name": "大芬油画村",
+ "category": "culture",
+ "subtype": "street",
+ "summary": "一个村子在画行画：临摹与定制的产业在这里做了三十年。",
+ "description": "大芬原是布吉街道的一个客家村，1989 年起有画商在这里组织画工临摹与批量生产，后来形成完整的产业。高峰期的出货量覆盖海外订单的很大一块。现在走在村里，沿街是画室、装裱店与画材铺，墙上挂着待售的画。村口一侧有美术馆，展的是原创那一块——行画之外，这里也长出了自己的画家。现场能看到画工在原稿上作画。它与布吉一侧的地铁连通，进出方便。",
+ "highlights": [
+  "行画产业在这个村里做了三十年",
+  "沿街是画室、装裱店与画材铺",
+  "现场能看到画工作画的过程"
+ ],
+ "location": {
+  "point": {
+   "lng": 114.13594,
+   "lat": 22.60987,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放，美术馆按馆内时间（以官方公告为准）",
-    "openHoursRef": 0,
-    "ticket": "免费，美术馆另计以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 90-240 分钟",
-    "durationMinutes": [
-      90,
-      240
-    ],
-    "priceLevel": "free"
+  "address": "深圳市龙岗区布吉街道大芬村",
+  "district": "龙岗区",
+  "transportTip": "地铁3号线大芬站"
+ },
+ "practical": {
+  "openHours": "全天开放，美术馆按馆内时间（以官方公告为准）",
+  "openHoursRef": 0,
+  "ticket": "免费，美术馆另计以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 90-240 分钟",
+  "durationMinutes": [
+   90,
+   240
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Artists_at_work_in_Dafen_Oil_Painting_Village.jpg/1280px-Artists_at_work_in_Dafen_Oil_Painting_Village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Artists_at_work_in_Dafen_Oil_Painting_Village.jpg/1280px-Artists_at_work_in_Dafen_Oil_Painting_Village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Artists at work in Dafen Oil Painting Village.jpg",
+   "query": "大芬油画村 深圳",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Mx. Granger",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Artists_at_work_in_Dafen_Oil_Painting_Village.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
   },
-  "audience": [
-    "family",
-    "solo"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Dafen%2C_oil_painters_villiage_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Dafen%2C_oil_painters_villiage_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 810,
+   "alt": "Dafen, oil painters villiage 2006.jpg",
+   "query": "大芬油画村 深圳",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Swoolverton at English Wikipedia",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dafen,_oil_painters_villiage_2006.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "艺术村",
+  "免费",
+  "油画"
+ ],
+ "popularity": 74,
+ "sources": [
+  {
+   "title": "百度百科·大芬油画村",
+   "url": "https://baike.baidu.com/item/%E5%A4%A7%E8%8A%AC%E6%B2%B9%E7%94%BB%E6%9D%91",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-24"
+  }
+ ],
+ "updatedAt": "2026-11-10",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "大芬油画村"
+ },
+ "_geocodeTitle": "大芬油画村",
+ "_geocodeSuspect": false,
+ "district": "440307",
+ "review": {
+  "score": 3.82,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "产业",
+    "score": 4.0,
+    "note": "行画在这里做了三十年，海外订单的大头"
+   },
+   {
+    "label": "原创",
+    "score": 2.5,
+    "note": "以临摹复制为主，原创集中在村口美术馆"
+   },
+   {
+    "label": "可逛性",
+    "score": 3.5,
+    "note": "沿街画室、装裱店、画材铺，一小时逛完"
+   },
+   {
+    "label": "免费",
+    "score": 5.0,
+    "note": "村子全天开放，不收费"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Artists_at_work_in_Dafen_Oil_Painting_Village.jpg/1280px-Artists_at_work_in_Dafen_Oil_Painting_Village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Artists_at_work_in_Dafen_Oil_Painting_Village.jpg/1280px-Artists_at_work_in_Dafen_Oil_Painting_Village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Artists at work in Dafen Oil Painting Village.jpg",
-      "query": "大芬油画村 深圳",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Mx. Granger",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Artists_at_work_in_Dafen_Oil_Painting_Village.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Dafen%2C_oil_painters_villiage_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Dafen%2C_oil_painters_villiage_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 810,
-      "alt": "Dafen, oil painters villiage 2006.jpg",
-      "query": "大芬油画村 深圳",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Swoolverton at English Wikipedia",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dafen,_oil_painters_villiage_2006.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    }
+  "body": "一个村子把「行画」做成了产业，三十年下来，全球卖出的临摹油画有相当一块出自这里。走在村里沿街是画室、装裱店与画材铺，能看见画工在原稿上作画，这个现场感别处没有。短板也直白：以临摹与复制为主，原创很少，真看作品得去村口的美术馆那一侧；业态单一，一小时就逛完，专程来会觉得没什么可看。",
+  "basis": "corpus",
+  "at": "2026-11-10",
+  "fits": [
+   "顺路逛",
+   "买装饰画",
+   "看画工作画"
   ],
-  "coverIndex": 0,
-  "tags": [
-    "艺术村",
-    "免费",
-    "油画"
+  "avoid": [
+   "专程看艺术展",
+   "想要原创作品"
   ],
-  "popularity": 74,
-  "sources": [
-    {
-      "title": "百度百科·大芬油画村",
-      "url": "https://baike.baidu.com/item/%E5%A4%A7%E8%8A%AC%E6%B2%B9%E7%94%BB%E6%9D%91",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-24"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "大芬油画村"
-  },
-  "_geocodeTitle": "大芬油画村",
-  "_geocodeSuspect": false,
-  "district": "440307"
+  "sources": []
+ }
 }

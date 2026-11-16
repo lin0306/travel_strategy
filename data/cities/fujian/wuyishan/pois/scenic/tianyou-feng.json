@@ -1,118 +1,156 @@
 {
-  "id": "tianyou-feng",
-  "name": "天游峰",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "登上便览九曲溪全景的第一观景台。",
-  "description": "天游峰是武夷山观景的王牌，徐霞客当年就夸它“其不临溪而能尽九曲之胜”。它不高，但几乎垂直的一线天台阶爬起来费腿，登顶后整个九曲溪和两列丹霞峰林在脚下铺开，是公认的“武夷第一胜景”。清晨常有云海漫在溪谷，像站在天上俯看。上去的人多、台阶窄，错峰早去最舒服。它不单独售票，含在景区联票里。",
-  "highlights": [
-    "登顶览九曲",
-    "云海常见",
-    "一线天台阶"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.952807,
-      "lat": 27.649984,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "福建省南平市武夷山市武夷山风景名胜区内天游峰",
-    "district": "武夷山",
-    "transportTip": "景区内乘观光车至天游峰路口后徒步上山",
-    "entrance": {
-      "lng": 117.987696,
-      "lat": 27.625608,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "tianyou-feng",
+ "name": "天游峰",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "登上便览九曲溪全景的第一观景台。",
+ "description": "天游峰是武夷山观景的王牌，徐霞客当年就夸它“其不临溪而能尽九曲之胜”。它不高，但几乎垂直的一线天台阶爬起来费腿，登顶后整个九曲溪和两列丹霞峰林在脚下铺开，是公认的“武夷第一胜景”。清晨常有云海漫在溪谷，像站在天上俯看。上去的人多、台阶窄，错峰早去最舒服。它不单独售票，含在景区联票里。",
+ "highlights": [
+  "登顶览九曲",
+  "云海常见",
+  "一线天台阶"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.952807,
+   "lat": 27.649984,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "随景区开放时间",
-    "openHoursRef": 0,
-    "ticket": "含在景区联票内",
-    "ticketRef": 0,
-    "duration": "建议 120-240 分钟",
-    "durationMinutes": [
-      120,
-      240
-    ],
-    "priceLevel": "mid"
+  "address": "福建省南平市武夷山市武夷山风景名胜区内天游峰",
+  "district": "武夷山",
+  "transportTip": "景区内乘观光车至天游峰路口后徒步上山",
+  "entrance": {
+   "lng": 117.987696,
+   "lat": 27.625608,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "随景区开放时间",
+  "openHoursRef": 0,
+  "ticket": "含在景区联票内",
+  "ticketRef": 0,
+  "duration": "建议 120-240 分钟",
+  "durationMinutes": [
+   120,
+   240
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "friends",
+  "couple",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%881%EF%BC%89.jpg/1280px-190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%881%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%881%EF%BC%89.jpg/1280px-190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%881%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 608,
+   "alt": "190801 天游峰景区 （1）.jpg",
+   "query": "天游峰",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Masdggg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%881%EF%BC%89.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "friends",
-    "couple",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%881%EF%BC%89.jpg/1280px-190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%881%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%881%EF%BC%89.jpg/1280px-190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%881%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 608,
-      "alt": "190801 天游峰景区 （1）.jpg",
-      "query": "天游峰",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Masdggg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%881%EF%BC%89.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%882%EF%BC%89.jpg/1280px-190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%882%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%882%EF%BC%89.jpg/1280px-190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%882%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 608,
-      "alt": "190801 天游峰景区 （2）.jpg",
-      "query": "天游峰",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Masdggg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%882%EF%BC%89.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%885%EF%BC%89.jpg/1280px-190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%885%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%885%EF%BC%89.jpg/1280px-190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%885%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 608,
-      "alt": "190801 天游峰景区 （5）.jpg",
-      "query": "天游峰",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Masdggg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%885%EF%BC%89.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "观景台",
-    "丹霞",
-    "登山"
-  ],
-  "popularity": 96,
-  "sources": [
-    {
-      "title": "百度百科·天游峰",
-      "url": "https://baike.baidu.com/item/%E5%A4%A9%E6%B8%B8%E5%B3%B0",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-06"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "天游峰"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%882%EF%BC%89.jpg/1280px-190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%882%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%882%EF%BC%89.jpg/1280px-190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%882%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 608,
+   "alt": "190801 天游峰景区 （2）.jpg",
+   "query": "天游峰",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Masdggg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%882%EF%BC%89.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "天游峰",
-  "_geocodeSuspect": false,
-  "district": "350782"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%885%EF%BC%89.jpg/1280px-190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%885%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%885%EF%BC%89.jpg/1280px-190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%885%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 608,
+   "alt": "190801 天游峰景区 （5）.jpg",
+   "query": "天游峰",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Masdggg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:190801_%E5%A4%A9%E6%B8%B8%E5%B3%B0%E6%99%AF%E5%8C%BA_%EF%BC%885%EF%BC%89.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "观景台",
+  "丹霞",
+  "登山"
+ ],
+ "popularity": 96,
+ "sources": [
+  {
+   "title": "百度百科·天游峰",
+   "url": "https://baike.baidu.com/item/%E5%A4%A9%E6%B8%B8%E5%B3%B0",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-06"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "天游峰"
+ },
+ "_geocodeTitle": "天游峰",
+ "_geocodeSuspect": false,
+ "district": "350782",
+ "review": {
+  "score": 4.6,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.8,
+    "note": "顶上九曲溪与两列丹霞峰林一起铺开"
+   },
+   {
+    "label": "体力",
+    "score": 2.8,
+    "note": "登顶那段台阶近乎垂直，上来一趟费腿"
+   },
+   {
+    "label": "人流",
+    "score": 2.5,
+    "note": "旅行团集中在上午十点前后"
+   },
+   {
+    "label": "云海",
+    "score": 4.2,
+    "note": "清晨溪谷起雾时最有看头"
+   }
+  ],
+  "body": "武夷山观景的头号位置，登顶那一眼确实值回体力：九曲溪在脚下转了九道弯，峰林一层层排到天边，清晨有雾时像站在云上。缺点是台阶又窄又陡，旅行团上来时前后都堵着、想拍照得等人流空隙，夏天爬得满身汗。想舒服点就赶第一批上山，或者下午三点后再爬，光线斜下来也更出片。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "看全景",
+   "摄影"
+  ],
+  "avoid": [
+   "腿脚不便",
+   "怕高"
+  ],
+  "sources": []
+ }
 }

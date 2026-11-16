@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "扬州市广陵区东关街",
-    "district": "邗江区",
+    "district": "广陵区",
     "transportTip": "公交东关街站；老城步行可达"
   },
   "practical": {
@@ -99,7 +99,7 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-11-02",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -107,5 +107,42 @@
   },
   "_geocodeTitle": "东关街",
   "_geocodeSuspect": false,
-  "district": "321003"
+  "district": "321002",
+  "review": {
+    "score": 4.1,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "老宅",
+        "score": 4.3,
+        "note": "个园、汪氏小苑、卢氏宅都在岔巷里"
+      },
+      {
+        "label": "商业化",
+        "score": 2.8,
+        "note": "主街小吃铺重复，价格比巷子贵"
+      },
+      {
+        "label": "小吃",
+        "score": 4.0,
+        "note": "本地吃食集中，边走边吃最省事"
+      },
+      {
+        "label": "人流",
+        "score": 2.9,
+        "note": "白天团队多，天黑后好走"
+      }
+    ],
+    "body": "明清盐商聚集的主街，个园、汪氏小苑、卢氏盐商住宅都在岔巷里，吃、逛、看老宅能一次走完。主街商业化重，小吃铺重复度高，价格也比巷子里贵一些；真要看老宅得拐进岔巷。傍晚灯亮之后最好走，白天人流大。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "逛老街",
+      "吃小吃"
+    ],
+    "avoid": [
+      "只想清静"
+    ],
+    "sources": []
+  }
 }

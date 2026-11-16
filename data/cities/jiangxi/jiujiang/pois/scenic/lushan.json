@@ -1,159 +1,197 @@
 {
-  "id": "lushan",
-  "name": "庐山",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "世界文化景观，云雾瀑布与避暑老别墅。",
-  "description": "庐山在九江庐山市，是联合国世界文化景观，以奇峰、云海、飞瀑与近现代别墅群闻名。含鄱口看日出云海、三叠泉瀑布、如琴湖与锦绣谷串起经典线路；牯岭镇是山上的食宿中枢。它既是避暑胜地，也因历代文人题咏与民国政要行馆而人文厚重。山上温差大，备外套。玩透需一两天。",
-  "highlights": [
-    "世界文化景观",
-    "云海三叠泉",
-    "牯岭老别墅"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.044696,
-      "lat": 29.448007,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "九江市庐山市庐山",
-    "district": "庐山市",
-    "transportTip": "九江/庐山站转观光车与索道"
+ "id": "lushan",
+ "name": "庐山",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "世界文化景观，云雾瀑布与避暑老别墅。",
+ "description": "庐山在九江庐山市，是联合国世界文化景观，以奇峰、云海、飞瀑与近现代别墅群闻名。含鄱口看日出云海、三叠泉瀑布、如琴湖与锦绣谷串起经典线路；牯岭镇是山上的食宿中枢。它既是避暑胜地，也因历代文人题咏与民国政要行馆而人文厚重。山上温差大，备外套。玩透需一两天。",
+ "highlights": [
+  "世界文化景观",
+  "云海三叠泉",
+  "牯岭老别墅"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.044696,
+   "lat": 29.448007,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约07:00-18:00（以公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约160元起+观光车，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 360-720 分钟",
-    "durationMinutes": [
-      360,
-      720
-    ],
-    "priceLevel": "high"
+  "address": "九江市庐山市庐山",
+  "district": "庐山市",
+  "transportTip": "九江/庐山站转观光车与索道"
+ },
+ "practical": {
+  "openHours": "约07:00-18:00（以公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约160元起+观光车，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 360-720 分钟",
+  "durationMinutes": [
+   360,
+   720
+  ],
+  "priceLevel": "high"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Clear_Water_of_Lushan_02.JPG/1280px-Clear_Water_of_Lushan_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Clear_Water_of_Lushan_02.JPG/1280px-Clear_Water_of_Lushan_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Clear Water of Lushan 02.JPG",
+   "query": "庐山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "清水五月",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clear_Water_of_Lushan_02.JPG",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "friends",
-    "family",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Clear_Water_of_Lushan_02.JPG/1280px-Clear_Water_of_Lushan_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Clear_Water_of_Lushan_02.JPG/1280px-Clear_Water_of_Lushan_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Clear Water of Lushan 02.JPG",
-      "query": "庐山",
-      "credit": {
-        "source": "wikimedia",
-        "author": "清水五月",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clear_Water_of_Lushan_02.JPG",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Lushan_-_villas.JPG/1280px-Lushan_-_villas.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Lushan_-_villas.JPG/1280px-Lushan_-_villas.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 803,
-      "alt": "Lushan - villas.JPG",
-      "query": "庐山",
-      "credit": {
-        "source": "wikimedia",
-        "author": "me (w:User:pfctdayelise)",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lushan_-_villas.JPG",
-        "license": "CC BY-SA 2.5",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Lushan_Geopark.jpg/1280px-Lushan_Geopark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Lushan_Geopark.jpg/1280px-Lushan_Geopark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Lushan Geopark.jpg",
-      "query": "庐山",
-      "credit": {
-        "source": "wikimedia",
-        "author": "钉钉",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lushan_Geopark.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Lushan_Geopark_0.jpg/1280px-Lushan_Geopark_0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Lushan_Geopark_0.jpg/1280px-Lushan_Geopark_0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Lushan Geopark 0.jpg",
-      "query": "庐山",
-      "credit": {
-        "source": "wikimedia",
-        "author": "钉钉",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lushan_Geopark_0.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Lushan_Geopark_1.jpg/1280px-Lushan_Geopark_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Lushan_Geopark_1.jpg/1280px-Lushan_Geopark_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Lushan Geopark 1.jpg",
-      "query": "庐山",
-      "credit": {
-        "source": "wikimedia",
-        "author": "钉钉",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lushan_Geopark_1.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Lushan_Geopark_2.jpg/1280px-Lushan_Geopark_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Lushan_Geopark_2.jpg/1280px-Lushan_Geopark_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Lushan Geopark 2.jpg",
-      "query": "庐山",
-      "credit": {
-        "source": "wikimedia",
-        "author": "钉钉",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lushan_Geopark_2.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "庐山",
-    "云海",
-    "避暑"
-  ],
-  "popularity": 96,
-  "sources": [
-    {
-      "title": "百度百科·庐山",
-      "url": "https://baike.baidu.com/item/%E5%BA%90%E5%B1%B1",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-05"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "庐山"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Lushan_-_villas.JPG/1280px-Lushan_-_villas.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Lushan_-_villas.JPG/1280px-Lushan_-_villas.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 803,
+   "alt": "Lushan - villas.JPG",
+   "query": "庐山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "me (w:User:pfctdayelise)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lushan_-_villas.JPG",
+    "license": "CC BY-SA 2.5",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "庐山市",
-  "_geocodeSuspect": false,
-  "district": "360483"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Lushan_Geopark.jpg/1280px-Lushan_Geopark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Lushan_Geopark.jpg/1280px-Lushan_Geopark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Lushan Geopark.jpg",
+   "query": "庐山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "钉钉",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lushan_Geopark.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Lushan_Geopark_0.jpg/1280px-Lushan_Geopark_0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Lushan_Geopark_0.jpg/1280px-Lushan_Geopark_0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Lushan Geopark 0.jpg",
+   "query": "庐山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "钉钉",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lushan_Geopark_0.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Lushan_Geopark_1.jpg/1280px-Lushan_Geopark_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Lushan_Geopark_1.jpg/1280px-Lushan_Geopark_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Lushan Geopark 1.jpg",
+   "query": "庐山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "钉钉",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lushan_Geopark_1.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Lushan_Geopark_2.jpg/1280px-Lushan_Geopark_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Lushan_Geopark_2.jpg/1280px-Lushan_Geopark_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Lushan Geopark 2.jpg",
+   "query": "庐山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "钉钉",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lushan_Geopark_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "庐山",
+  "云海",
+  "避暑"
+ ],
+ "popularity": 96,
+ "sources": [
+  {
+   "title": "百度百科·庐山",
+   "url": "https://baike.baidu.com/item/%E5%BA%90%E5%B1%B1",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-05"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "庐山"
+ },
+ "_geocodeTitle": "庐山市",
+ "_geocodeSuspect": false,
+ "district": "360483",
+ "review": {
+  "score": 4.6,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "景观",
+    "score": 4.8,
+    "note": "奇峰云海瀑布加别墅群"
+   },
+   {
+    "label": "门票",
+    "score": 3.0,
+    "note": "大门票之外观光车另计"
+   },
+   {
+    "label": "体力",
+    "score": 2.8,
+    "note": "三叠泉一线台阶很磨腿"
+   },
+   {
+    "label": "住宿",
+    "score": 3.5,
+    "note": "牯岭镇是中枢，价格偏高"
+   }
+  ],
+  "body": "奇峰、云海、瀑布加近现代别墅群，一两天才玩得透，牯岭镇当食宿中枢最省事。含鄱口看日出、三叠泉走瀑布是两条必走的线，山上温差大，外套别落下。门票之外观光车另计，山上住宿与餐饮价格偏高；雾天是常态，赶上连雾什么都看不见，行程要留出弹性。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "避暑",
+   "看云海"
+  ],
+  "avoid": [
+   "一日游",
+   "怕爬台阶"
+  ],
+  "sources": []
+ }
 }

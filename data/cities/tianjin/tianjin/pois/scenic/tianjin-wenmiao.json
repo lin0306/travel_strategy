@@ -69,21 +69,6 @@
         "license": "CC BY-SA 3.0",
         "attributionRequired": true
       }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/China_Tianjin_5227585.jpg/1280px-China_Tianjin_5227585.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/China_Tianjin_5227585.jpg/1280px-China_Tianjin_5227585.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "China Tianjin 5227585.jpg",
-      "query": "天津文庙 天津",
-      "credit": {
-        "source": "wikimedia",
-        "author": "ermell",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:China_Tianjin_5227585.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
     }
   ],
   "coverIndex": 0,
@@ -101,7 +86,7 @@
       "fetchedAt": "2026-09-27"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -109,5 +94,12 @@
   },
   "_geocodeTitle": "天津文庙",
   "_geocodeSuspect": false,
-  "district": "120104"
+  "district": "120104",
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 1 张（待重抓）",
+    "droppedImages": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/China_Tianjin_5227585.jpg/1280px-China_Tianjin_5227585.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  }
 }

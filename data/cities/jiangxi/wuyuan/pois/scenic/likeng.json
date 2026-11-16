@@ -1,194 +1,232 @@
 {
-  "id": "likeng",
-  "name": "李坑风景区",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "小桥流水人家，溪水从每家门口穿过。",
-  "description": "李坑在秋口镇，是婺源最早开发的几个村子之一。一条小溪从村中穿过，两边是粉墙黛瓦的老屋。每隔几步就有石桥。村里还有几座旧宅与祠堂。它常被叫作小桥流水人家。好处是老房子的密度高，走着走着全是。缺点是名气太大，中午时段人多。清晨与傍晚是它最好的时候。沿溪的店铺近年多了些，往里走会安静。夜里灯笼亮起来，水里有倒影。",
-  "highlights": [
-    "溪水从村中间穿过去",
-    "每隔几步就有一座石桥",
-    "清晨与傍晚人最少"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.929005,
-      "lat": 29.324664,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "上饶市婺源县秋口镇李坑村",
-    "district": "婺源",
-    "transportTip": "县城东南约十五公里，需包车或班车"
+ "id": "likeng",
+ "name": "李坑风景区",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "小桥流水人家，溪水从每家门口穿过。",
+ "description": "李坑在秋口镇，是婺源最早开发的几个村子之一。一条小溪从村中穿过，两边是粉墙黛瓦的老屋。每隔几步就有石桥。村里还有几座旧宅与祠堂。它常被叫作小桥流水人家。好处是老房子的密度高，走着走着全是。缺点是名气太大，中午时段人多。清晨与傍晚是它最好的时候。沿溪的店铺近年多了些，往里走会安静。夜里灯笼亮起来，水里有倒影。",
+ "highlights": [
+  "溪水从村中间穿过去",
+  "每隔几步就有一座石桥",
+  "清晨与傍晚人最少"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.929005,
+   "lat": 29.324664,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 07:30-17:30（以官方为准）",
-    "openHoursRef": 0,
-    "ticket": "约 60 元，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 90-210 分钟",
-    "durationMinutes": [
-      90,
-      210
-    ],
-    "priceLevel": "mid"
+  "address": "上饶市婺源县秋口镇李坑村",
+  "district": "婺源",
+  "transportTip": "县城东南约十五公里，需包车或班车"
+ },
+ "practical": {
+  "openHours": "约 07:30-17:30（以官方为准）",
+  "openHoursRef": 0,
+  "ticket": "约 60 元，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 90-210 分钟",
+  "durationMinutes": [
+   90,
+   210
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2838%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2838%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2838%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2838%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Wuyuan, Shangrao, Jiangxi, China - panoramio (38).jpg",
+   "query": "李坑风景区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "ping lin",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "street"
+   }
   },
-  "audience": [
-    "couple",
-    "friends",
-    "family"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2838%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2838%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2838%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2838%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Wuyuan, Shangrao, Jiangxi, China - panoramio (38).jpg",
-      "query": "李坑风景区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "ping lin",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "street"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/%E6%B1%9F%E8%A5%BF%E5%A9%BA%E6%BA%90%E6%9D%8E%E5%9D%91_-_panoramio.jpg/1280px-%E6%B1%9F%E8%A5%BF%E5%A9%BA%E6%BA%90%E6%9D%8E%E5%9D%91_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/%E6%B1%9F%E8%A5%BF%E5%A9%BA%E6%BA%90%E6%9D%8E%E5%9D%91_-_panoramio.jpg/1280px-%E6%B1%9F%E8%A5%BF%E5%A9%BA%E6%BA%90%E6%9D%8E%E5%9D%91_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "江西婺源李坑 - panoramio.jpg",
-      "query": "李坑风景区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "gdczjkk",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "street"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2837%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2837%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2837%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2837%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Wuyuan, Shangrao, Jiangxi, China - panoramio (37).jpg",
-      "query": "李坑风景区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "ping lin",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "street"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2836%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2836%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2836%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2836%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Wuyuan, Shangrao, Jiangxi, China - panoramio (36).jpg",
-      "query": "李坑风景区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "ping lin",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "street"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/%E6%B1%9F%E8%A5%BF%E5%A9%BA%E6%BA%90%E6%9D%8E%E5%9D%91%E6%9D%91_-_panoramio.jpg/1280px-%E6%B1%9F%E8%A5%BF%E5%A9%BA%E6%BA%90%E6%9D%8E%E5%9D%91%E6%9D%91_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/%E6%B1%9F%E8%A5%BF%E5%A9%BA%E6%BA%90%E6%9D%8E%E5%9D%91%E6%9D%91_-_panoramio.jpg/1280px-%E6%B1%9F%E8%A5%BF%E5%A9%BA%E6%BA%90%E6%9D%8E%E5%9D%91%E6%9D%91_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "江西婺源李坑村 - panoramio.jpg",
-      "query": "李坑风景区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "gdczjkk",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "street"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2846%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2846%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2846%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2846%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Wuyuan, Shangrao, Jiangxi, China - panoramio (46).jpg",
-      "query": "李坑风景区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "ping lin",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "street"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "古村",
-    "小桥流水",
-    "夜景"
-  ],
-  "popularity": 94,
-  "sources": [
-    {
-      "title": "百度百科·李坑",
-      "url": "https://baike.baidu.com/item/%E5%A9%BA%E6%BA%90%E6%9D%8E%E5%9D%91",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-06"
-    }
-  ],
-  "updatedAt": "2026-11-01",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "李坑风景区"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/%E6%B1%9F%E8%A5%BF%E5%A9%BA%E6%BA%90%E6%9D%8E%E5%9D%91_-_panoramio.jpg/1280px-%E6%B1%9F%E8%A5%BF%E5%A9%BA%E6%BA%90%E6%9D%8E%E5%9D%91_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/%E6%B1%9F%E8%A5%BF%E5%A9%BA%E6%BA%90%E6%9D%8E%E5%9D%91_-_panoramio.jpg/1280px-%E6%B1%9F%E8%A5%BF%E5%A9%BA%E6%BA%90%E6%9D%8E%E5%9D%91_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "江西婺源李坑 - panoramio.jpg",
+   "query": "李坑风景区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "gdczjkk",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "street"
+   }
   },
-  "_geocodeTitle": "李坑风景区",
-  "_geocodeSuspect": false,
-  "district": "361130"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2837%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2837%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2837%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2837%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Wuyuan, Shangrao, Jiangxi, China - panoramio (37).jpg",
+   "query": "李坑风景区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "ping lin",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "street"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2836%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2836%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2836%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2836%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Wuyuan, Shangrao, Jiangxi, China - panoramio (36).jpg",
+   "query": "李坑风景区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "ping lin",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "street"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/%E6%B1%9F%E8%A5%BF%E5%A9%BA%E6%BA%90%E6%9D%8E%E5%9D%91%E6%9D%91_-_panoramio.jpg/1280px-%E6%B1%9F%E8%A5%BF%E5%A9%BA%E6%BA%90%E6%9D%8E%E5%9D%91%E6%9D%91_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/%E6%B1%9F%E8%A5%BF%E5%A9%BA%E6%BA%90%E6%9D%8E%E5%9D%91%E6%9D%91_-_panoramio.jpg/1280px-%E6%B1%9F%E8%A5%BF%E5%A9%BA%E6%BA%90%E6%9D%8E%E5%9D%91%E6%9D%91_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "江西婺源李坑村 - panoramio.jpg",
+   "query": "李坑风景区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "gdczjkk",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "street"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2846%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2846%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2846%29.jpg/1280px-Wuyuan%2C_Shangrao%2C_Jiangxi%2C_China_-_panoramio_%2846%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Wuyuan, Shangrao, Jiangxi, China - panoramio (46).jpg",
+   "query": "李坑风景区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "ping lin",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "street"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "古村",
+  "小桥流水",
+  "夜景"
+ ],
+ "popularity": 94,
+ "sources": [
+  {
+   "title": "百度百科·李坑",
+   "url": "https://baike.baidu.com/item/%E5%A9%BA%E6%BA%90%E6%9D%8E%E5%9D%91",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-06"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "李坑风景区"
+ },
+ "_geocodeTitle": "李坑风景区",
+ "_geocodeSuspect": false,
+ "district": "361130",
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "格局",
+    "score": 4.2,
+    "note": "溪穿村而过，隔几步一座石桥"
+   },
+   {
+    "label": "商业化",
+    "score": 2.8,
+    "note": "沿溪店铺多，纪念品同质化"
+   },
+   {
+    "label": "人流",
+    "score": 2.9,
+    "note": "中午团队一茬接一茬"
+   },
+   {
+    "label": "时长",
+    "score": 3.6,
+    "note": "慢慢走一两小时，不必特意久留"
+   }
+  ],
+  "body": "一条小溪从村中穿过，两边粉墙黛瓦，隔几步一座石桥，「小桥流水人家」这句在这里最贴。老房子密度高，走着走着全是。名气太大，中午团队一茬接一茬，巷子窄处挤得走不动；沿溪店铺近年多了，商业化明显，往里走才安静。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "看古村",
+   "拍照"
+  ],
+  "avoid": [
+   "正午前往",
+   "想清静"
+  ],
+  "sources": []
+ }
 }

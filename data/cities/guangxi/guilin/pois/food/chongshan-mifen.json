@@ -1,68 +1,132 @@
 {
-  "id": "chongshan-mifen",
-  "name": "崇善米粉(依仁路店)",
-  "category": "food",
-  "subtype": "local",
-  "summary": "桂林米粉里的老名号，卤水是自家熬的，本地人早上蹲在门口吃的就是这一碗。",
-  "description": "桂林米粉的关键不在粉而在卤水 —— 各家自己熬，用料与火候差一点味道就不同。崇善是本地做得久的几家之一，卤水里香料压得住，咸鲜里带回甜。吃法是先冒一碗热粉，浇卤水，配锅烧（炸过的酥皮猪肉）、卤牛肉、酸豆角、炸黄豆、葱花，自己拌开；本地人叫「卤菜粉」，干拌不加汤，吃完再喝碗骨头汤。加料是另外算的，一两目标是两件套。",
-  "highlights": [
-    "桂林米粉的关键在卤水，各家自己熬，咸鲜里带回甜",
-    "干拌不加汤的叫卤菜粉，配锅烧、卤牛肉、酸豆角一起拌",
-    "本地人早上蹲在门口吃的就是这一碗"
-  ],
-  "location": {
-    "point": {
-      "lng": 110.298494,
-      "lat": 25.275244,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "广西壮族自治区桂林市秀峰区依仁路崇善米粉",
-    "district": "秀峰区",
-    "transportTip": "市区步行可达；紧邻正阳步行街与王城"
+ "id": "chongshan-mifen",
+ "name": "崇善米粉(依仁路店)",
+ "category": "food",
+ "subtype": "local",
+ "summary": "桂林米粉里的老名号，卤水是自家熬的，本地人早上蹲在门口吃的就是这一碗。",
+ "description": "桂林米粉的关键不在粉而在卤水 —— 各家自己熬，用料与火候差一点味道就不同。崇善是本地做得久的几家之一，卤水里香料压得住，咸鲜里带回甜。吃法是先冒一碗热粉，浇卤水，配锅烧（炸过的酥皮猪肉）、卤牛肉、酸豆角、炸黄豆、葱花，自己拌开；本地人叫「卤菜粉」，干拌不加汤，吃完再喝碗骨头汤。加料是另外算的，一两目标是两件套。",
+ "highlights": [
+  "桂林米粉的关键在卤水，各家自己熬，咸鲜里带回甜",
+  "干拌不加汤的叫卤菜粉，配锅烧、卤牛肉、酸豆角一起拌",
+  "本地人早上蹲在门口吃的就是这一碗"
+ ],
+ "location": {
+  "point": {
+   "lng": 110.298494,
+   "lat": 25.275244,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约6:30-14:30，以门店公告为准",
-    "openHoursRef": 0,
-    "ticket": "便宜",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "budget"
+  "address": "广西壮族自治区桂林市秀峰区依仁路步行街（正阳步行街钟楼旁）",
+  "district": "秀峰区",
+  "transportTip": "市区步行可达；紧邻正阳步行街与王城"
+ },
+ "practical": {
+  "openHours": "约07:00起营业至深夜（各源对收档时间说法在22:00至次日01:00之间，以门店公告为准）",
+  "openHoursRef": 0,
+  "ticket": "便宜",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "family",
+  "elders",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "桂林米粉",
+  "卤水",
+  "早餐"
+ ],
+ "popularity": 90,
+ "sources": [
+  {
+   "title": "百度百科·桂林米粉",
+   "url": "https://baike.baidu.com/item/%E6%A1%82%E6%9E%97%E7%B1%B3%E7%B2%89",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
   },
-  "audience": [
-    "family",
-    "elders",
-    "solo"
+  {
+   "title": "百科与图商均记全天营业，原值6:30-14:30为早市误写",
+   "url": "https://baike.baidu.com/item/%E5%B4%87%E5%96%84%E7%B1%B3%E7%B2%89%EF%BC%88%E4%BE%9D%E4%BB%81%E8%B7%AF%E5%BA%97%EF%BC%89/14245938",
+   "kind": "media",
+   "fetchedAt": "2026-11-12"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "崇善米粉(依仁路店)"
+ },
+ "_geocodeTitle": "崇善米粉(依仁路店)",
+ "_geocodeSuspect": false,
+ "district": "450302",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-12",
+  "changes": [
+   {
+    "field": "地址",
+    "old": "广西壮族自治区桂林市秀峰区依仁路崇善米粉",
+    "new": "广西壮族自治区桂林市秀峰区依仁路步行街（正阳步行街钟楼旁）"
+   },
+   {
+    "field": "开放时间",
+    "old": "约6:30-14:30，以门店公告为准",
+    "new": "约07:00起营业至深夜（各源对收档时间说法在22:00至次日01:00之间，以门店公告为准）"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "桂林米粉",
-    "卤水",
-    "早餐"
+  "source": "https://baike.baidu.com/item/%E5%B4%87%E5%96%84%E7%B1%B3%E7%B2%89%EF%BC%88%E4%BE%9D%E4%BB%81%E8%B7%AF%E5%BA%97%EF%BC%89/14245938",
+  "reason": "百科与图商均记全天营业，原值6:30-14:30为早市误写"
+ },
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.5,
+    "note": "卤水香料压得住，咸鲜里带回甜"
+   },
+   {
+    "label": "价格",
+    "score": 4.5,
+    "note": "本地标准价，加料按份另算"
+   },
+   {
+    "label": "排队",
+    "score": 2.5,
+    "note": "早上与饭点是高峰，座位要抢"
+   },
+   {
+    "label": "环境",
+    "score": 2.5,
+    "note": "快餐式翻台，桌子擦得快、坐得挤"
+   }
   ],
-  "popularity": 90,
+  "body": "卤水才是这家的招牌——香料压得住、咸鲜里带回甜，配锅烧、卤牛肉、酸豆角拌开，就是本地人说的卤菜粉；吃完再要一碗骨头汤。价格是本地标准，加料按份另算，一个人花的不多就能吃很饱。坑在两处：名气太大，早上与饭点排队，座位得自己抢；店里是快餐式的翻台节奏，桌子擦得快、坐得挤，不适合坐下来慢慢吃。",
+  "basis": "web",
+  "at": "2026-11-12",
+  "fits": [
+   "早餐",
+   "一个人吃",
+   "想试本地口味"
+  ],
+  "avoid": [
+   "想安静坐着聊",
+   "带孩子慢慢吃"
+  ],
   "sources": [
-    {
-      "title": "百度百科·桂林米粉",
-      "url": "https://baike.baidu.com/item/%E6%A1%82%E6%9E%97%E7%B1%B3%E7%B2%89",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "崇善米粉(依仁路店)"
-  },
-  "_geocodeTitle": "崇善米粉(依仁路店)",
-  "_geocodeSuspect": false,
-  "district": "450302",
-  "_noImage": true
+   "https://baike.baidu.com/item/%E5%B4%87%E5%96%84%E7%B1%B3%E7%B2%89%EF%BC%88%E4%BE%9D%E4%BB%81%E8%B7%AF%E5%BA%97%EF%BC%89/14245938"
+  ]
+ }
 }

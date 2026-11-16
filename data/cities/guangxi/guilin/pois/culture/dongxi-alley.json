@@ -1,195 +1,234 @@
 {
-  "id": "dongxi-alley",
-  "name": "东西巷",
-  "category": "culture",
-  "subtype": "street",
-  "summary": "王城墙根下的一片老巷子，明清就有，现在重修整治后做了商业，白天夜里两种样子。",
-  "description": "东西巷在独秀峰王城的东侧。这一片从明清就有，过去是围着王府住的一批人。现在重修整治后做了商业，青砖墙、石板路、翘起来的飞檐都还在。它的位置最好 —— 一头贴着王城，一头是解放东路，走两步就到。白天人不多，晚上灯亮起来之后是另一回事。要说缺点也明显：新，而且整齐。",
-  "highlights": [
-    "明清就有的老巷子，现在重修整治后做了商业",
-    "一头贴着王城，一头是解放东路",
-    "白天人少，晚上灯亮起来是另一回事"
-  ],
-  "location": {
-    "point": {
-      "lng": 110.299011,
-      "lat": 25.278809,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "广西壮族自治区桂林市秀峰区东西巷",
-    "district": "秀峰区",
-    "transportTip": "市区步行可达；紧邻独秀峰王城景区"
+ "id": "dongxi-alley",
+ "name": "东西巷",
+ "category": "culture",
+ "subtype": "street",
+ "summary": "王城墙根下的一片老巷子，明清就有，现在重修整治后做了商业，白天夜里两种样子。",
+ "description": "东西巷在独秀峰王城的东侧。这一片从明清就有，过去是围着王府住的一批人。现在重修整治后做了商业，青砖墙、石板路、翘起来的飞檐都还在。它的位置最好 —— 一头贴着王城，一头是解放东路，走两步就到。白天人不多，晚上灯亮起来之后是另一回事。要说缺点也明显：新，而且整齐。",
+ "highlights": [
+  "明清就有的老巷子，现在重修整治后做了商业",
+  "一头贴着王城，一头是解放东路",
+  "白天人少，晚上灯亮起来是另一回事"
+ ],
+ "location": {
+  "point": {
+   "lng": 110.299011,
+   "lat": 25.278809,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放，店铺多为10:00-22:00",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 60-150 分钟",
-    "durationMinutes": [
-      60,
-      150
-    ],
-    "priceLevel": "free"
+  "address": "广西壮族自治区桂林市秀峰区东西巷",
+  "district": "秀峰区",
+  "transportTip": "市区步行可达；紧邻独秀峰王城景区"
+ },
+ "practical": {
+  "openHours": "全天开放，店铺多为10:00-22:00",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 60-150 分钟",
+  "durationMinutes": [
+   60,
+   150
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "kids",
+  "friends",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/%E4%B8%9C%E8%A5%BF%E5%B7%B7.jpg/1280px-%E4%B8%9C%E8%A5%BF%E5%B7%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/%E4%B8%9C%E8%A5%BF%E5%B7%B7.jpg/1280px-%E4%B8%9C%E8%A5%BF%E5%B7%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "东西巷.jpg",
+   "query": "东西巷",
+   "credit": {
+    "source": "wikimedia",
+    "author": "西安兵马俑",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%9C%E8%A5%BF%E5%B7%B7.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "couple",
-    "kids",
-    "friends",
-    "elders"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/%E4%B8%9C%E8%A5%BF%E5%B7%B7.jpg/1280px-%E4%B8%9C%E8%A5%BF%E5%B7%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/%E4%B8%9C%E8%A5%BF%E5%B7%B7.jpg/1280px-%E4%B8%9C%E8%A5%BF%E5%B7%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "东西巷.jpg",
-      "query": "东西巷",
-      "credit": {
-        "source": "wikimedia",
-        "author": "西安兵马俑",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%9C%E8%A5%BF%E5%B7%B7.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7.jpg/1280px-%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7.jpg/1280px-%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "桂林东西巷.jpg",
-      "query": "东西巷",
-      "credit": {
-        "source": "wikimedia",
-        "author": "神樂坂秀吉",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_01.jpg/1280px-%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_01.jpg/1280px-%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "桂林东西巷 01.jpg",
-      "query": "东西巷",
-      "credit": {
-        "source": "wikimedia",
-        "author": "神樂坂秀吉",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_01.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_02.jpg/1280px-%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_02.jpg/1280px-%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "桂林东西巷 02.jpg",
-      "query": "东西巷",
-      "credit": {
-        "source": "wikimedia",
-        "author": "神樂坂秀吉",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_02.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/89765-Guilin_%2849040780776%29.jpg/1280px-89765-Guilin_%2849040780776%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/89765-Guilin_%2849040780776%29.jpg/1280px-89765-Guilin_%2849040780776%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "89765-Guilin (49040780776).jpg",
-      "query": "东西巷",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_03.jpg/1280px-%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_03.jpg/1280px-%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "桂林东西巷 03.jpg",
-      "query": "东西巷",
-      "credit": {
-        "source": "wikimedia",
-        "author": "神樂坂秀吉",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_03.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "street"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "老巷",
-    "王城旁",
-    "夜景"
-  ],
-  "popularity": 76,
-  "sources": [
-    {
-      "title": "百度百科·东西巷",
-      "url": "https://baike.baidu.com/item/%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
-  ],
-  "updatedAt": "2026-11-04",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "东西巷"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7.jpg/1280px-%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7.jpg/1280px-%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "桂林东西巷.jpg",
+   "query": "东西巷",
+   "credit": {
+    "source": "wikimedia",
+    "author": "神樂坂秀吉",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "东西巷B",
-  "_geocodeSuspect": false,
-  "district": "450302"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_01.jpg/1280px-%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_01.jpg/1280px-%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "桂林东西巷 01.jpg",
+   "query": "东西巷",
+   "credit": {
+    "source": "wikimedia",
+    "author": "神樂坂秀吉",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_01.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_02.jpg/1280px-%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_02.jpg/1280px-%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "桂林东西巷 02.jpg",
+   "query": "东西巷",
+   "credit": {
+    "source": "wikimedia",
+    "author": "神樂坂秀吉",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_02.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/89765-Guilin_%2849040780776%29.jpg/1280px-89765-Guilin_%2849040780776%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/89765-Guilin_%2849040780776%29.jpg/1280px-89765-Guilin_%2849040780776%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "89765-Guilin (49040780776).jpg",
+   "query": "东西巷",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_03.jpg/1280px-%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_03.jpg/1280px-%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "桂林东西巷 03.jpg",
+   "query": "东西巷",
+   "credit": {
+    "source": "wikimedia",
+    "author": "神樂坂秀吉",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7_03.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "street"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "老巷",
+  "王城旁",
+  "夜景"
+ ],
+ "popularity": 76,
+ "sources": [
+  {
+   "title": "百度百科·东西巷",
+   "url": "https://baike.baidu.com/item/%E6%A1%82%E6%9E%97%E4%B8%9C%E8%A5%BF%E5%B7%B7",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "东西巷"
+ },
+ "_geocodeTitle": "东西巷B",
+ "_geocodeSuspect": false,
+ "district": "450302",
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "位置",
+    "score": 4.5,
+    "note": "一头贴王城、一头连解放东路，顺路就进来了"
+   },
+   {
+    "label": "商业化",
+    "score": 2.5,
+    "note": "重修后整齐划一，同质小店多"
+   },
+   {
+    "label": "夜景",
+    "score": 4.0,
+    "note": "灯亮起来之后比白天好看"
+   },
+   {
+    "label": "时长",
+    "score": 3.0,
+    "note": "一片巷子，一小时够"
+   }
+  ],
+  "body": "王城墙根下的一片老巷子，明清时是围着王府住的一批人，如今重修整治后做了商业：青砖墙、石板路、翘起的飞檐都还在，位置最好，走两步就是王城与解放东路。白天人少，晚上灯亮起来是另一回事。缺点也明显：新，而且整齐——同质的小店与打卡装置把老巷的杂糅感抹掉了，逛完记不住哪家是哪家；想吃本地味道，这条街不是首选，往旁边的小巷钻更实在。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "顺路逛",
+   "看夜景",
+   "买伴手礼"
+  ],
+  "avoid": [
+   "想找老味道",
+   "讨厌商业街"
+  ],
+  "sources": []
+ }
 }

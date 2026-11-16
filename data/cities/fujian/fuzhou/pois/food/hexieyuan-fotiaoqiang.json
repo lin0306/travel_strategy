@@ -16,12 +16,12 @@
       "lat": 26.088143,
       "coordSystem": "GCJ-02"
     },
-    "address": "福州市鼓楼区三牧坊与卫前街交叉口",
+    "address": "福州市鼓楼区卫前街三牧坊5号",
     "district": "鼓楼区",
     "transportTip": "地铁1号线东街口站步行约8分钟"
   },
   "practical": {
-    "openHours": "约11:00-14:00 / 17:00-21:00，以门店公告为准",
+    "openHours": "11:00-14:00 / 17:00-22:00",
     "openHoursRef": 0,
     "ticket": "人均约130元，以门店为准",
     "ticketRef": 0,
@@ -54,9 +54,15 @@
       "url": "https://baike.baidu.com/item/%E4%BD%9B%E8%B7%B3%E5%A2%99",
       "kind": "wiki",
       "fetchedAt": "2026-10-04"
+    },
+    {
+      "title": "鼓楼区人民政府·非遗嘉年华东街口美食攻略",
+      "url": "https://www.gl.gov.cn/xjwz/rw/czgl/202603/t20260311_5294129.htm",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -65,5 +71,22 @@
   "_geocodeTitle": "和谐苑·非遗佛跳墙示范基地",
   "_geocodeSuspect": false,
   "district": "350102",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "约11:00-14:00 / 17:00-21:00，以门店公告为准",
+        "new": "11:00-14:00 / 17:00-22:00"
+      },
+      {
+        "field": "地址",
+        "old": "福州市鼓楼区三牧坊与卫前街交叉口",
+        "new": "福州市鼓楼区卫前街三牧坊5号"
+      }
+    ],
+    "source": "https://www.gl.gov.cn/xjwz/rw/czgl/202603/t20260311_5294129.htm",
+    "reason": "鼓楼区政府美食攻略：和谐苑卫前街三牧坊5号，11:00-14:00/17:00-22:00"
+  }
 }

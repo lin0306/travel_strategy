@@ -35,6 +35,7 @@ import { useEffect, useState } from 'react'
 import { Icon } from '~/common/ui/Icon'
 import { BasemapThumb } from '~/common/ui/BasemapThumb'
 import { useDismiss } from '~/common/ui/useDismiss'
+import { usePresence } from '~/common/ui/usePresence'
 import {
   BASEMAP_KINDS,
   BASEMAP_LEVEL_LABEL,
@@ -192,6 +193,8 @@ export function BasemapMenu({ value, onKind, onLevel, onToggle }: BasemapMenuPro
   // 「点外面 / Esc 关闭」走共用实现（`useDismiss`）—— 与规划行的「⋯」菜单同一份
   const wrapRef = useDismiss(open, () => setOpen(false))
   const disabled = value === null
+  /* 气泡的出场：开 = pop-in（缩放淡入），关 = pop-out 后再卸载（`usePresence`） */
+  const pres = usePresence(open && value !== null, 160)
 
   // 地图未就绪时不该停在一个展开的面板上
   // （换路由会重建地图，那一刻 value 变 null，面板却还挂在屏幕上）
@@ -218,11 +221,13 @@ export function BasemapMenu({ value, onKind, onLevel, onToggle }: BasemapMenuPro
         <Icon name={open ? 'chev-up' : 'chev-down'} size="sm" className="flex-none text-ink-2" />
       </button>
 
-      {open && value ? (
+      {pres.mounted && value ? (
         <div
           role="menu"
           aria-label="选择底图"
-          className={`absolute top-[calc(100%+6px)] right-0 z-40 ${PANEL_W} overflow-hidden rounded-xl border border-line bg-surface pb-1 shadow-[0_12px_36px_rgba(16,24,40,.16)]`}
+          className={`absolute top-[calc(100%+6px)] right-0 z-40 ${PANEL_W} overflow-hidden rounded-xl border border-line bg-surface pb-1 shadow-[0_12px_36px_rgba(16,24,40,.16)] origin-top-right ${
+            pres.exiting ? 'pop-out pointer-events-none' : 'pop-in'
+          }`}
         >
           <BasemapPanelBody
             kind={kind}

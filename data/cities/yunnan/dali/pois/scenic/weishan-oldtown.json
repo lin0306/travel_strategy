@@ -1,89 +1,128 @@
 {
-  "id": "weishan-oldtown",
-  "name": "巍山古城",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "大理以南的一座明代古城，是南诏国的发祥地，慢生活的小城。",
-  "description": "巍山在大理南边，是一座明代格局的古城，也是南诏国的发祥地。城是棋盘式，拱辰楼和星拱楼在中轴。比大理古城更安静，生活气息浓，小吃多。彝族的打歌在这里还活着。从大理过来约一个半小时。",
-  "highlights": [
-    "明代格局古城，南诏国发祥地",
-    "拱辰楼星拱楼在中轴，棋盘式布局",
-    "比大理古城更安静，小吃多"
-  ],
-  "location": {
-    "point": {
-      "lng": 100.30713,
-      "lat": 25.22719,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "云南省大理白族自治州巍山彝族回族自治县巍山古城",
-    "district": "巍山彝族回族自治县",
-    "transportTip": "从大理古城乘车往南约一个半小时"
+ "id": "weishan-oldtown",
+ "name": "巍山古城",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "大理以南的一座明代古城，是南诏国的发祥地，慢生活的小城。",
+ "description": "巍山在大理南边，是一座明代格局的古城，也是南诏国的发祥地。城是棋盘式，拱辰楼和星拱楼在中轴。比大理古城更安静，生活气息浓，小吃多。彝族的打歌在这里还活着。从大理过来约一个半小时。",
+ "highlights": [
+  "明代格局古城，南诏国发祥地",
+  "拱辰楼星拱楼在中轴，棋盘式布局",
+  "比大理古城更安静，小吃多"
+ ],
+ "location": {
+  "point": {
+   "lng": 100.30713,
+   "lat": 25.22719,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放（楼阁约9:00-17:30）",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 120-180 分钟",
-    "durationMinutes": [
-      120,
-      180
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "friends",
-    "solo",
-    "family"
+  "address": "云南省大理白族自治州巍山彝族回族自治县巍山古城",
+  "district": "巍山彝族回族自治县",
+  "transportTip": "从大理古城乘车往南约一个半小时"
+ },
+ "practical": {
+  "openHours": "全天开放（楼阁约9:00-17:30）",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 120-180 分钟",
+  "durationMinutes": [
+   120,
+   180
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Ri_Sheng_Road_in_Weishan%2C_Yunnan%2C_China.jpg/1280px-Ri_Sheng_Road_in_Weishan%2C_Yunnan%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Ri_Sheng_Road_in_Weishan%2C_Yunnan%2C_China.jpg/1280px-Ri_Sheng_Road_in_Weishan%2C_Yunnan%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Ri Sheng Road in Weishan, Yunnan, China.jpg",
-      "query": "巍山古城",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangmoon618",
-        "sourceUrl": "https://www.wikidata.org/wiki/Q15912864",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "exact"
-      }
-    }
+  "priceLevel": "free"
+ },
+ "audience": [
+  "friends",
+  "solo",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Ri_Sheng_Road_in_Weishan%2C_Yunnan%2C_China.jpg/1280px-Ri_Sheng_Road_in_Weishan%2C_Yunnan%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Ri_Sheng_Road_in_Weishan%2C_Yunnan%2C_China.jpg/1280px-Ri_Sheng_Road_in_Weishan%2C_Yunnan%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Ri Sheng Road in Weishan, Yunnan, China.jpg",
+   "query": "巍山古城",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangmoon618",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q15912864",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "古城",
+  "南诏",
+  "免费"
+ ],
+ "popularity": 66,
+ "sources": [
+  {
+   "title": "百度百科·巍山古城",
+   "url": "https://baike.baidu.com/item/%E5%B7%8D%E5%B1%B1%E5%8F%A4%E5%9F%8E",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "巍山古城"
+ },
+ "_geocodeTitle": "巍山古城",
+ "_geocodeSuspect": false,
+ "district": "532927",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "原真度",
+    "score": 4.5,
+    "note": "明代棋盘格局，拱辰楼星拱楼在中轴"
+   },
+   {
+    "label": "小吃",
+    "score": 4.4,
+    "note": "耙肉饵丝一碗就能当早饭"
+   },
+   {
+    "label": "安静",
+    "score": 4.4,
+    "note": "比大理古城清净得多"
+   },
+   {
+    "label": "商业化",
+    "score": 3.6,
+    "note": "主街近两年开始出现网红店"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "古城",
-    "南诏",
-    "免费"
+  "body": "巍山是明代棋盘格局的古城，拱辰楼、星拱楼压在中轴，南诏从这里起家，生活气比大理古城浓得多。早上一碗耙肉饵丝，白天在巷子里乱走，安静得不像景区。缺点是近两年游客变多，主街也开始出现网红店；从大理过来一个半小时，当天来回略赶，住一晚才够。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "住一晚",
+   "小吃",
+   "慢逛"
   ],
-  "popularity": 66,
-  "sources": [
-    {
-      "title": "百度百科·巍山古城",
-      "url": "https://baike.baidu.com/item/%E5%B7%8D%E5%B1%B1%E5%8F%A4%E5%9F%8E",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "avoid": [
+   "当天往返",
+   "想看大景"
   ],
-  "updatedAt": "2026-11-05",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "巍山古城"
-  },
-  "_geocodeTitle": "巍山古城",
-  "_geocodeSuspect": false,
-  "district": "532927"
+  "sources": []
+ }
 }

@@ -1,6 +1,6 @@
 # 登封 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-07
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Emile Guillemot | Unsplash License | [unsplash](https://unsplash.com/photos/birds-eye-view-photography-of-boats-near-houses-ARosbKOjd68) |
-| 城市封面 | zhang kaiyv | Unsplash License | [unsplash](https://unsplash.com/photos/aerial-photography-of-city-escape-during-golden-hour-Ca898f7Rbn8) |
-| 城市封面 | zhang kaiyv | Unsplash License | [unsplash](https://unsplash.com/photos/a-view-of-a-city-from-across-a-lake-LL2dNVqwVfo) |
+| 城市封面 | Aaron Zhu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shaolin_Temple_%E5%B0%91%E6%9E%97%E5%AF%BA%E5%B1%B1%E9%97%A8_-_panoramio.jpg) |
+| 城市封面 | en:user:Wintran | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shaolin_Pagoda_Forest,_Henan,_China_-_June_2001.jpg) |
+| 城市封面 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250629_Songyang_Academy_01.jpg) |
 | 八龙潭 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%85%AB%E9%BE%99%E5%9D%9D.jpg) |
 | 崇福宫 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20231119_Chongfu_Palace_Taoist_Temple_05.jpg) |
 | 崇福宫 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
@@ -131,9 +131,6 @@
 | 嵩山世界地质公园 | Gary Todd | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Song_Shan_01_(Song_Mountain).jpg) |
 | 嵩阳书院 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250629_Songyang_Academy_02.jpg) |
 | 嵩阳书院 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250629_Songyang_Academy_03.jpg) |
-| 嵩岳寺塔 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250629_Pagoda_of_Songyue_Temple_01.jpg) |
-| 嵩岳寺塔 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250629_Pagoda_of_Songyue_Temple_03.jpg) |
-| 嵩岳寺塔 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250629_Pagoda_of_Songyue_Temple_04.jpg) |
 | 少林寺塔林 | 山海风 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 少林寺塔林 | 山海风 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 少林寺塔林 | 张骐 | Public domain | [wikimedia](https://www.wikidata.org/wiki/Q1081096) |

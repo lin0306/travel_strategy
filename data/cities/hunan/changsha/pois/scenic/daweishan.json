@@ -1,74 +1,143 @@
 {
-  "id": "daweishan",
-  "name": "大围山国家森林公园",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "浏阳东北角的山地公园，七星岭是长沙境内最高的地方。",
-  "description": "大围山在浏阳市东北，与江西交界，主峰七星岭海拔一千六百多米，是长沙境内最高的地方。园区主要看两段：一段是山上的杜鹃，四月底到五月初连片的野生杜鹃沿山脊开，是这里最出名的季节；另一段是峡谷与溪水，栗木桥、船底窝几处有瀑布与深潭，夏天能漂流。山上有玉泉寺、陈真人庙几处旧庙，以及一片高山草甸。园区很大，各景点之间要坐景区车，一天只够走一到两条线。海拔高，山顶比市区低十度左右，夏天上山要带件外套。从长沙市区过去单程三小时上下，住一晚更从容。",
-  "highlights": [
-    "主峰七星岭海拔一千六百多米，是长沙最高点",
-    "四月底到五月初的野生杜鹃沿山脊开",
-    "峡谷段有瀑布与深潭，夏季可漂流"
-  ],
-  "location": {
-    "point": {
-      "lng": 114.117221,
-      "lat": 28.413144,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "湖南省长沙市浏阳市大围山镇（大围山国家森林公园）",
-    "district": "浏阳市",
-    "transportTip": "长沙市区自驾约三小时；或乘班车至浏阳再转大围山专线",
-    "entrance": {
-      "lng": 114.07736,
-      "lat": 28.424028,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "daweishan",
+ "name": "大围山国家森林公园",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "浏阳东北角的山地公园，七星岭是长沙境内最高的地方。",
+ "description": "大围山在浏阳市东北，与江西交界，主峰七星岭海拔一千六百多米，是长沙境内最高的地方。园区主要看两段：一段是山上的杜鹃，四月底到五月初连片的野生杜鹃沿山脊开，是这里最出名的季节；另一段是峡谷与溪水，栗木桥、船底窝几处有瀑布与深潭，夏天能漂流。山上有玉泉寺、陈真人庙几处旧庙，以及一片高山草甸。园区很大，各景点之间要坐景区车，一天只够走一到两条线。海拔高，山顶比市区低十度左右，夏天上山要带件外套。从长沙市区过去单程三小时上下，住一晚更从容。",
+ "highlights": [
+  "主峰七星岭海拔一千六百多米，是长沙最高点",
+  "四月底到五月初的野生杜鹃沿山脊开",
+  "峡谷段有瀑布与深潭，夏季可漂流"
+ ],
+ "location": {
+  "point": {
+   "lng": 114.117221,
+   "lat": 28.413144,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-17:30（冬季略短），以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "门票与景区车票以官方公告为准（漂流项目另计），以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 180-360 分钟",
-    "durationMinutes": [
-      180,
-      360
+  "address": "湖南省长沙市浏阳市大围山镇（大围山国家森林公园）",
+  "district": "浏阳市",
+  "transportTip": "长沙市区自驾约三小时；或乘班车至浏阳再转大围山专线",
+  "entrance": {
+   "lng": 114.07736,
+   "lat": 28.424028,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约08:00-17:30（冬季略短），以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "旺季（4-10 月）90 元、淡季（11 月-次年 3 月）68 元；14 周岁以下与 65 周岁以上免票，14-17 岁与 60-64 岁半价 32 元；观光车与索道另计",
+  "ticketRef": 0,
+  "duration": "建议 180-360 分钟",
+  "durationMinutes": [
+   180,
+   360
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "friends",
+  "family",
+  "couple",
+  "kids"
+ ],
+ "accessible": false,
+ "tips": [
+  "购票与门票核验自 2026 年 10 月 1 日起统一在四方丘游客服务中心办理，南大门（张坊）、西大门（泥坞）与老门楼已停办票务",
+  "园区可自驾进山，景点分散、步行距离长，杜鹃花季（4 月底至 5 月初）与暑期人流最集中"
+ ],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "杜鹃",
+  "登山",
+  "漂流"
+ ],
+ "popularity": 82,
+ "sources": [
+  {
+   "title": "百度百科·大围山",
+   "url": "https://baike.baidu.com/item/%E5%A4%A7%E5%9B%B4%E5%B1%B1",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  },
+  {
+   "title": "湖南省林业局《一起森呼吸·大围山》：门票 90 元、14 岁以下与 65 岁以上免票；10 月 1 日起统一在四方丘游客服务中心购票核验",
+   "url": "http://mp.weixin.qq.com/s?__biz=MzAwNTEyNDgwNQ==&mid=2653243231&idx=1&sn=c173b3e35326e2cb3859550896d9b6c2&chksm=81e37dd8de0141445efc6d295ba4923f0e9449e2bd1a71234bfa7bf953221c8b971e0f59e5cc",
+   "kind": "media",
+   "fetchedAt": "2026-11-14"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "大围山国家森林公园"
+ },
+ "_geocodeTitle": "大围山国家森林公园",
+ "_geocodeSuspect": false,
+ "district": "430181",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-14",
+  "changes": [
+   {
+    "field": "贴士（用 | 分隔多条，整体替换）",
+    "old": [
+     "购票与门票核验自 2026 年 10 月 1 日起统一在四方丘游客服务中心办理，南大门（张坊）、西大门（泥坞）与老门楼已停办票务\\",
+     "园区可自驾进山，景点分散、步行距离长，杜鹃花季（4 月底至 5 月初）与暑期人流最集中"
     ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "friends",
-    "family",
-    "couple",
-    "kids"
+    "new": [
+     "购票与门票核验自 2026 年 10 月 1 日起统一在四方丘游客服务中心办理，南大门（张坊）、西大门（泥坞）与老门楼已停办票务",
+     "园区可自驾进山，景点分散、步行距离长，杜鹃花季（4 月底至 5 月初）与暑期人流最集中"
+    ]
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "杜鹃",
-    "登山",
-    "漂流"
+  "source": "http://mp.weixin.qq.com/s?__biz=MzAwNTEyNDgwNQ==&mid=2653243231&idx=1&sn=c173b3e35326e2cb3859550896d9b6c2&chksm=81e37dd8de0141445efc6d295ba4923f0e9449e2bd1a71234bfa7bf953221c8b971e0f59e5cc",
+  "reason": "修正上一步转义残留的反斜杠，内容同前：2026-10-01 起启用四方丘游客服务中心"
+ },
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.6,
+    "note": "七星岭 1607.9 米，湘东之巅看群峰层次"
+   },
+   {
+    "label": "体力",
+    "score": 2.8,
+    "note": "园区大、景点分散，靠景区车与索道"
+   },
+   {
+    "label": "配套",
+    "score": 3.5,
+    "note": "民宿分三片，山上吃住都有但选择不多"
+   },
+   {
+    "label": "时长",
+    "score": 3.0,
+    "note": "单程三小时，一天只够一两条线"
+   }
   ],
-  "popularity": 82,
+  "body": "七星岭是长沙境内最高点，四月底到五月初的山脊杜鹃和夏天的峡谷溪水是两段主线，海拔高、山上比市区凉十度左右。缺点是单程三小时上下、园区大且景点分散，靠景区车串联，一天只够走一两条线；山门购票已集中到四方丘，走错门会白跑。",
+  "basis": "web",
+  "at": "2026-11-14",
+  "fits": [
+   "自驾",
+   "避暑",
+   "赏花"
+  ],
+  "avoid": [
+   "一日往返赶时间",
+   "无车"
+  ],
   "sources": [
-    {
-      "title": "百度百科·大围山",
-      "url": "https://baike.baidu.com/item/%E5%A4%A7%E5%9B%B4%E5%B1%B1",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "大围山国家森林公园"
-  },
-  "_geocodeTitle": "大围山国家森林公园",
-  "_geocodeSuspect": false,
-  "district": "430181",
-  "_noImage": true
+   "http://mp.weixin.qq.com/s?__biz=MzAwNTEyNDgwNQ==&mid=2653243231&idx=1&sn=c173b3e35326e2cb3859550896d9b6c2&chksm=81e37dd8de0141445efc6d295ba4923f0e9449e2bd1a71234bfa7bf953221c8b971e0f59e5cc",
+   "https://www.dwstravel.com/"
+  ]
+ }
 }

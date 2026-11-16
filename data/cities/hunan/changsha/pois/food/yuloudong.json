@@ -1,68 +1,107 @@
 {
-  "id": "yuloudong",
-  "name": "玉楼东(北正街旗舰店)",
-  "category": "food",
-  "subtype": "local",
-  "summary": "清光绪末年开的老菜馆，长沙人请客吃湘菜的老去处。",
-  "description": "玉楼东清光绪三十年开业，一百多年里几度搬迁，一直是长沙做本地菜的招牌之一。本地那句「玉楼东的菜」，说的就是它这一路湘菜。菜单上是麻辣子鸡、发丝百叶、汤泡肚尖、口味虾这些长沙桌上的常菜，口味偏咸辣，油重，下饭。店里是圆桌大厅加包厢，从两人小桌到十人席都有，中午本地人来得最多。它在开福区北正街，离湘江中路与潮宗街不远，逛完老街走过来吃午饭合适。这家是旗舰店，市区另有几家门店。",
-  "highlights": [
-    "清光绪三十年开业，百余年老菜馆",
-    "麻辣子鸡、发丝百叶、汤泡肚尖是常菜",
-    "圆桌大厅加包厢，中午本地人最多"
-  ],
-  "location": {
-    "point": {
-      "lng": 112.975054,
-      "lat": 28.200776,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "湖南省长沙市开福区北正街32-40号",
-    "district": "开福区",
-    "transportTip": "地铁1号线开福寺站或文昌阁站，步行约十分钟"
+ "id": "yuloudong",
+ "name": "玉楼东(北正街旗舰店)",
+ "category": "food",
+ "subtype": "local",
+ "summary": "清光绪末年开的老菜馆，长沙人请客吃湘菜的老去处。",
+ "description": "玉楼东清光绪三十年开业，一百多年里几度搬迁，一直是长沙做本地菜的招牌之一。本地那句「玉楼东的菜」，说的就是它这一路湘菜。菜单上是麻辣子鸡、发丝百叶、汤泡肚尖、口味虾这些长沙桌上的常菜，口味偏咸辣，油重，下饭。店里是圆桌大厅加包厢，从两人小桌到十人席都有，中午本地人来得最多。它在开福区北正街，离湘江中路与潮宗街不远，逛完老街走过来吃午饭合适。这家是旗舰店，市区另有几家门店。",
+ "highlights": [
+  "清光绪三十年开业，百余年老菜馆",
+  "麻辣子鸡、发丝百叶、汤泡肚尖是常菜",
+  "圆桌大厅加包厢，中午本地人最多"
+ ],
+ "location": {
+  "point": {
+   "lng": 112.975054,
+   "lat": 28.200776,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约11:00-14:00、17:00-20:30，以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "人均约90元起，以实际消费为准",
-    "ticketRef": 0,
-    "duration": "建议 60-150 分钟",
-    "durationMinutes": [
-      60,
-      150
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "elders",
-    "family",
-    "friends"
+  "address": "湖南省长沙市开福区北正街32-40号",
+  "district": "开福区",
+  "transportTip": "地铁1号线开福寺站或文昌阁站，步行约十分钟"
+ },
+ "practical": {
+  "openHours": "约11:00-14:00、17:00-20:30，以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "人均约90元起，以实际消费为准",
+  "ticketRef": 0,
+  "duration": "建议 60-150 分钟",
+  "durationMinutes": [
+   60,
+   150
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "湘菜",
-    "老字号",
-    "请客"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "elders",
+  "family",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "湘菜",
+  "老字号",
+  "请客"
+ ],
+ "popularity": 86,
+ "sources": [
+  {
+   "title": "百度百科·玉楼东",
+   "url": "https://baike.baidu.com/item/%E7%8E%89%E6%A5%BC%E4%B8%9C",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "玉楼东(北正街旗舰店)"
+ },
+ "_geocodeTitle": "玉楼东(北正街旗舰店)",
+ "_geocodeSuspect": false,
+ "district": "430105",
+ "_noImage": true,
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.3,
+    "note": "麻辣子鸡、发丝百叶做得规矩"
+   },
+   {
+    "label": "环境",
+    "score": 3.5,
+    "note": "圆桌大厅加包厢，装修有年头"
+   },
+   {
+    "label": "价格",
+    "score": 3.0,
+    "note": "人少点菜不划算"
+   },
+   {
+    "label": "适合",
+    "score": 4.5,
+    "note": "请客办事的稳妥选择"
+   }
   ],
-  "popularity": 86,
-  "sources": [
-    {
-      "title": "百度百科·玉楼东",
-      "url": "https://baike.baidu.com/item/%E7%8E%89%E6%A5%BC%E4%B8%9C",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
+  "body": "「玉楼东的菜」是长沙老话里的一句，麻辣子鸡、发丝百叶、汤泡肚尖这些常菜做得规矩，口味偏咸辣、油重，很下饭。圆桌大厅加包厢，从两人小桌到十人席都有，请客办事合适。缺点是人均不低，人少去点菜不划算；午市人多，服务节奏偏快；老馆子的装修与设备有些年头，想要精致环境的会失望。适合正经吃一顿湘菜，不适合随便解决一顿。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "请客",
+   "家庭聚餐",
+   "湘菜"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "玉楼东(北正街旗舰店)"
-  },
-  "_geocodeTitle": "玉楼东(北正街旗舰店)",
-  "_geocodeSuspect": false,
-  "district": "430105",
-  "_noImage": true
+  "avoid": [
+   "两人随便吃",
+   "追求精致环境"
+  ],
+  "sources": []
+ }
 }

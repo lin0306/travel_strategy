@@ -1,67 +1,106 @@
 {
-  "id": "qingcheng-back",
-  "name": "青城山后山",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "比前山野，溪谷瀑布与原始林。",
-  "description": "青城后山和前山是两种脾气，这里更野、更原始，以溪谷、瀑布和密林为主，道观少、自然多。泰安寺、五龙沟、龙隐峡一线水流潺潺，夏天是成都人漂流避暑的后花园。步道比前山长得多，想走完得大半天，体力的消耗换来人少景幽。雨后云雾绕山，比前山更有‘幽’字那味儿。",
-  "highlights": [
-    "原始山林",
-    "溪谷瀑布",
-    "避暑漂流"
-  ],
-  "location": {
-    "point": {
-      "lng": 103.487137,
-      "lat": 30.930711,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "四川省成都市都江堰市青城山镇后山",
-    "district": "都江堰",
-    "transportTip": "都江堰乘公交至青城山后山泰安古镇"
+ "id": "qingcheng-back",
+ "name": "青城山后山",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "比前山野，溪谷瀑布与原始林。",
+ "description": "青城后山和前山是两种脾气，这里更野、更原始，以溪谷、瀑布和密林为主，道观少、自然多。泰安寺、五龙沟、龙隐峡一线水流潺潺，夏天是成都人漂流避暑的后花园。步道比前山长得多，想走完得大半天，体力的消耗换来人少景幽。雨后云雾绕山，比前山更有‘幽’字那味儿。",
+ "highlights": [
+  "原始山林",
+  "溪谷瀑布",
+  "避暑漂流"
+ ],
+ "location": {
+  "point": {
+   "lng": 103.487137,
+   "lat": 30.930711,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 08:00-17:00（以官方为准）",
-    "openHoursRef": 0,
-    "ticket": "后山门票约 20 元，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 300-600 分钟",
-    "durationMinutes": [
-      300,
-      600
-    ],
-    "priceLevel": "high"
-  },
-  "audience": [
-    "friends",
-    "solo"
+  "address": "四川省成都市都江堰市青城山镇后山",
+  "district": "都江堰",
+  "transportTip": "都江堰乘公交至青城山后山泰安古镇"
+ },
+ "practical": {
+  "openHours": "约 08:00-17:00（以官方为准）",
+  "openHoursRef": 0,
+  "ticket": "后山门票约 20 元，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 300-600 分钟",
+  "durationMinutes": [
+   300,
+   600
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "自然",
-    "徒步",
-    "避暑"
+  "priceLevel": "high"
+ },
+ "audience": [
+  "friends",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "自然",
+  "徒步",
+  "避暑"
+ ],
+ "popularity": 91,
+ "sources": [
+  {
+   "title": "百度百科·青城后山",
+   "url": "https://baike.baidu.com/item/%E9%9D%92%E5%9F%8E%E5%90%8E%E5%B1%B1",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-06"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "青城山后山"
+ },
+ "_geocodeTitle": "青城后山",
+ "_geocodeSuspect": false,
+ "district": "510181",
+ "_noImage": true,
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "清幽",
+    "score": 4.5,
+    "note": "道观少、自然多，比前山野"
+   },
+   {
+    "label": "溪谷",
+    "score": 4.4,
+    "note": "泰安寺到龙隐峡一线水流不断"
+   },
+   {
+    "label": "体力",
+    "score": 3.0,
+    "note": "步道比前山长得多，走完大半天"
+   },
+   {
+    "label": "配套",
+    "score": 3.2,
+    "note": "沿途补给点少"
+   }
   ],
-  "popularity": 91,
-  "sources": [
-    {
-      "title": "百度百科·青城后山",
-      "url": "https://baike.baidu.com/item/%E9%9D%92%E5%9F%8E%E5%90%8E%E5%B1%B1",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-06"
-    }
+  "body": "和前山是两种脾气：这里更野、更原始，以溪谷、瀑布和密林为主，道观少、自然多。泰安寺、五龙沟、龙隐峡一线水流潺潺，夏天是成都人漂流避暑的后花园。步道比前山长得多，想走完得大半天，体力的消耗换来人少景幽，雨后云雾绕山更有幽的味道。缺点是湿滑，雨后石阶难走；沿途补给点少，水和干粮要自己带够。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "徒步",
+   "夏天避暑",
+   "结伴"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "青城山后山"
-  },
-  "_geocodeTitle": "青城后山",
-  "_geocodeSuspect": false,
-  "district": "510181",
-  "_noImage": true
+  "avoid": [
+   "穿平底鞋",
+   "带低龄小孩走全程"
+  ],
+  "sources": []
+ }
 }

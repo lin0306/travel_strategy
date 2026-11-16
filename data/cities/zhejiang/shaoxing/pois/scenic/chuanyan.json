@@ -1,67 +1,100 @@
 {
-  "id": "chuanyan",
-  "name": "穿岩十九峰",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "新昌的丹霞峰林，玻璃栈道与飞龙栈道。",
-  "description": "穿岩十九峰在新昌，是典型的丹霞峰林，十九座石峰拔地而起、连绵如屏。景区有飞龙栈道和玻璃栈道，走在崖壁间看峰林，惊险出片。它距主城约一个半小时，适合喜欢自然与一点刺激的游客，半日足够。与新昌大佛寺可连成线。",
-  "highlights": [
-    "新昌丹霞峰林，十九石峰",
-    "飞龙玻璃栈道走崖壁",
-    "距主城约一个半小时"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.799618,
-      "lat": 29.384574,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "穿岩十九峰",
-    "district": "新昌县",
-    "transportTip": "建议自驾或动车至新昌转车，约1.5小时"
+ "id": "chuanyan",
+ "name": "穿岩十九峰",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "新昌的丹霞峰林，玻璃栈道与飞龙栈道。",
+ "description": "穿岩十九峰在新昌，是典型的丹霞峰林，十九座石峰拔地而起、连绵如屏。景区有飞龙栈道和玻璃栈道，走在崖壁间看峰林，惊险出片。它距主城约一个半小时，适合喜欢自然与一点刺激的游客，半日足够。与新昌大佛寺可连成线。",
+ "highlights": [
+  "新昌丹霞峰林，十九石峰",
+  "飞龙玻璃栈道走崖壁",
+  "距主城约一个半小时"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.799618,
+   "lat": 29.384574,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-17:00（以景区公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约80元起（栈道另计），以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 150-240 分钟",
-    "durationMinutes": [
-      150,
-      240
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "friends",
-    "couple"
+  "address": "穿岩十九峰",
+  "district": "新昌县",
+  "transportTip": "建议自驾或动车至新昌转车，约1.5小时"
+ },
+ "practical": {
+  "openHours": "约08:00-17:00（以景区公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约80元起（栈道另计），以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 150-240 分钟",
+  "durationMinutes": [
+   150,
+   240
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "丹霞",
-    "峰林",
-    "栈道"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "friends",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "丹霞",
+  "峰林",
+  "栈道"
+ ],
+ "popularity": 68,
+ "sources": [
+  {
+   "title": "百度百科·穿岩十九峰",
+   "url": "https://baike.baidu.com/item/%E7%A9%BF%E5%B2%A9%E5%8D%81%E4%B9%9D%E5%B3%B0",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "穿岩十九峰"
+ },
+ "_geocodeTitle": "穿岩十九峰",
+ "_geocodeSuspect": false,
+ "district": "330624",
+ "_noImage": true,
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "景观",
+    "score": 4.5,
+    "note": "丹霞峰林连绵，崖壁栈道出片"
+   },
+   {
+    "label": "刺激",
+    "score": 4.2,
+    "note": "玻璃栈道悬空，恐高者慎入"
+   },
+   {
+    "label": "体力",
+    "score": 3.3,
+    "note": "台阶多，全程三四个小时"
+   }
   ],
-  "popularity": 68,
-  "sources": [
-    {
-      "title": "百度百科·穿岩十九峰",
-      "url": "https://baike.baidu.com/item/%E7%A9%BF%E5%B2%A9%E5%8D%81%E4%B9%9D%E5%B3%B0",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "穿岩十九峰是新昌最典型的丹霞峰林，十九座石峰连绵如屏，飞龙栈道贴着崖壁盘旋，玻璃栈道那一段最能出片。全程台阶多、爬升不小，体力一般的人留足半天，与大佛寺可以串成一天。缺点是玻璃栈道与部分项目要另收费，节假日栈道上人挤人走不动；山上遮阴少，夏天正午暴晒，最好赶早或傍晚。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "爬山看丹霞",
+   "拍崖壁栈道"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "穿岩十九峰"
-  },
-  "_geocodeTitle": "穿岩十九峰",
-  "_geocodeSuspect": false,
-  "district": "330624",
-  "_noImage": true
+  "avoid": [
+   "恐高",
+   "带行动不便的老人"
+  ],
+  "sources": []
+ }
 }

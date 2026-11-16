@@ -1,6 +1,6 @@
 # 丽江 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-09-30
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-13
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | 希 凤 | Pexels License | [pexels](https://www.pexels.com/photo/jade-dragon-snow-mountain-scenic-autumn-view-38267418/) |
-| 城市封面 | jason hu | Pexels License | [pexels](https://www.pexels.com/photo/top-view-of-park-and-streets-in-city-21918297/) |
-| 城市封面 | Franklin David | Pexels License | [pexels](https://www.pexels.com/photo/roofs-of-houses-under-blue-sky-8936979/) |
+| 城市封面 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%BD%E6%B1%9F%E7%8E%89%E9%BE%99%E8%93%9D%E6%9C%88%E8%B0%B7_05.jpg) |
+| 城市封面 | Roller Coaster Philosophy | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%BD%E6%B1%9F%E5%8F%A4%E5%9F%8E_%E6%9C%A8%E5%BA%9C_2026-04-01_11.jpg) |
+| 城市封面 | 祝鱼贵 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260226_Old_Town_of_Lijiang_04.jpg) |
 | 白沙壁画 | Kcx36 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%99%BD%E6%B2%99%E5%A3%81%E7%94%BB%E6%99%AF%E5%8C%BA%E5%A4%A7%E9%97%A8_2024-08-06.jpg) |
 | 白沙古镇 | Caitriana Nicholson | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%99%BD%E6%B2%99%E5%8F%A4%E9%95%87_01.jpg) |
 | 白沙古镇 | Caitriana Nicholson | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%99%BD%E6%B2%99%E5%8F%A4%E9%95%87_02.jpg) |

@@ -1,68 +1,106 @@
 {
-  "id": "historic-centre-of-macau",
-  "name": "澳门历史城区",
-  "category": "culture",
-  "subtype": "street",
-  "summary": "由二十多座建筑与前地组成的整体：2005 年列入世界文化遗产名录，是中国现存年代较早的中西建筑群。",
-  "description": "澳门历史城区不是单独的一处景点，而是由二十多座建筑与若干前地、街道共同组成的整体，2005 年被列入世界文化遗产名录。它覆盖半岛西南与中部的一片区域，妈阁庙、亚婆井前地、郑家大屋、议事亭前地、玫瑰堂、大三巴牌坊、大炮台与东望洋炮台都在范围里，之间用几条老街连起来。它的价值在于整体：中式庙宇与大宅、葡式教堂与公共建筑在同一片街区里共存，街道尺度与生活痕迹都保留着。走完这一片需要大半天，穿好走的鞋是前提。",
-  "highlights": [
-    "2005 年列入世界文化遗产名录",
-    "由二十多座建筑与若干前地共同组成",
-    "中葡建筑在同一片街区里共存"
-  ],
-  "location": {
-    "point": {
-      "lng": 113.545654,
-      "lat": 22.194769,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "澳门半岛西南至中部（澳门历史城区）",
-    "district": "澳门半岛",
-    "transportTip": "乘公共巴士至新马路或妈阁一带站，步行串联"
+ "id": "historic-centre-of-macau",
+ "name": "澳门历史城区",
+ "category": "culture",
+ "subtype": "street",
+ "summary": "由二十多座建筑与前地组成的整体：2005 年列入世界文化遗产名录，是中国现存年代较早的中西建筑群。",
+ "description": "澳门历史城区不是单独的一处景点，而是由二十多座建筑与若干前地、街道共同组成的整体，2005 年被列入世界文化遗产名录。它覆盖半岛西南与中部的一片区域，妈阁庙、亚婆井前地、郑家大屋、议事亭前地、玫瑰堂、大三巴牌坊、大炮台与东望洋炮台都在范围里，之间用几条老街连起来。它的价值在于整体：中式庙宇与大宅、葡式教堂与公共建筑在同一片街区里共存，街道尺度与生活痕迹都保留着。走完这一片需要大半天，穿好走的鞋是前提。",
+ "highlights": [
+  "2005 年列入世界文化遗产名录",
+  "由二十多座建筑与若干前地共同组成",
+  "中葡建筑在同一片街区里共存"
+ ],
+ "location": {
+  "point": {
+   "lng": 113.545654,
+   "lat": 22.194769,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "户外全天开放，各建筑时间不同",
-    "openHoursRef": 0,
-    "ticket": "免费，个别场馆另计以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 240-600 分钟",
-    "durationMinutes": [
-      240,
-      600
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "elders",
-    "couple",
-    "solo"
+  "address": "澳门半岛西南至中部（澳门历史城区）",
+  "district": "澳门半岛",
+  "transportTip": "乘公共巴士至新马路或妈阁一带站，步行串联"
+ },
+ "practical": {
+  "openHours": "户外全天开放，各建筑时间不同",
+  "openHoursRef": 0,
+  "ticket": "免费，个别场馆另计以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 240-600 分钟",
+  "durationMinutes": [
+   240,
+   600
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "世界遗产",
-    "历史城区",
-    "免费"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "elders",
+  "couple",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "世界遗产",
+  "历史城区",
+  "免费"
+ ],
+ "popularity": 94,
+ "sources": [
+  {
+   "title": "百度百科·澳门历史城区",
+   "url": "https://baike.baidu.com/item/%E6%BE%B3%E9%97%A8%E5%8E%86%E5%8F%B2%E5%9F%8E%E5%8C%BA",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-03"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Historic Centre of Macau",
+  "zh": "澳门历史城区"
+ },
+ "_geocodeTitle": "澳门历史城区",
+ "_geocodeSuspect": false,
+ "district": "820100",
+ "_noImage": true,
+ "review": {
+  "score": 4.5,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "价值",
+    "score": 4.8,
+    "note": "二十多座建筑与前地组成整体世遗"
+   },
+   {
+    "label": "体力",
+    "score": 2.6,
+    "note": "坡多路窄，走完要大半天"
+   },
+   {
+    "label": "人流",
+    "score": 2.8,
+    "note": "大三巴一带常年拥挤"
+   },
+   {
+    "label": "花费",
+    "score": 4.6,
+    "note": "街区免费，走进去就能看"
+   }
   ],
-  "popularity": 94,
-  "sources": [
-    {
-      "title": "百度百科·澳门历史城区",
-      "url": "https://baike.baidu.com/item/%E6%BE%B3%E9%97%A8%E5%8E%86%E5%8F%B2%E5%9F%8E%E5%8C%BA",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-03"
-    }
+  "body": "它不是一处景点，是一片能走的城区：妈阁庙、郑家大屋、议事亭前地、大三巴到大炮台，用几条老街连起来，中式庙宇与葡式教堂在同一条巷子里共存，这层关系只有走过才明白。缺点是体力消耗大，坡多、石板路窄，走完要大半天，鞋不舒服会很受罪；大三巴一带人流常年密集，想安静看建筑得往亚婆井、郑家大屋那头走。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "走路看建筑",
+   "世界遗产"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Historic Centre of Macau",
-    "zh": "澳门历史城区"
-  },
-  "_geocodeTitle": "澳门历史城区",
-  "_geocodeSuspect": false,
-  "district": "820100",
-  "_noImage": true
+  "avoid": [
+   "赶时间",
+   "穿高跟鞋"
+  ],
+  "sources": []
+ }
 }

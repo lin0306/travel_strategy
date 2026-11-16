@@ -16,12 +16,12 @@
       "lat": 38.918525,
       "coordSystem": "GCJ-02"
     },
-    "address": "辽宁省大连市中山区东港威尼斯水城",
+    "address": "辽宁省大连市中山区港浦路20号",
     "district": "中山区",
-    "transportTip": "中山区乘地铁或公交可达"
+    "transportTip": "地铁2号线东港站C口出站步行约10分钟；公交13路、536路港东一街站"
   },
   "practical": {
-    "openHours": "全天开放（夜景最佳）",
+    "openHours": "街区全天开放（贡多拉游船约 09:00-21:00，旺季延时）",
     "openHoursRef": 0,
     "ticket": "免费",
     "ticketRef": 0,
@@ -37,7 +37,11 @@
     "friends"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "正式名是「海昌·东方水城」，国家级旅游休闲街区，街区免费、游船另计",
+    "傍晚 16:30 后入场可一次拿下日景与亮灯夜景，大风雨天运河可能抽水停船",
+    "导航搜「东方水城东门」，搜「东方水城」易被带到偏僻北门"
+  ],
   "images": [],
   "coverIndex": 0,
   "tags": [
@@ -52,9 +56,15 @@
       "url": "https://baike.baidu.com/item/%E5%A4%A7%E8%BF%9E%E4%B8%9C%E6%B8%AF",
       "kind": "wiki",
       "fetchedAt": "2026-10-01"
+    },
+    {
+      "title": "地址/交通按大连市文旅局口径；游船时段与入口提示补齐",
+      "url": "https://zsjp.jpntv.cn/a/202510/10/s68e86fdce4b01ca35998f1e9.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-15"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-15",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,5 +73,36 @@
   "_geocodeTitle": "大连东港威尼斯水城港湾街店",
   "_geocodeSuspect": false,
   "district": "210202",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-15",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "辽宁省大连市中山区东港威尼斯水城",
+        "new": "辽宁省大连市中山区港浦路20号"
+      },
+      {
+        "field": "交通提示",
+        "old": "中山区乘地铁或公交可达",
+        "new": "地铁2号线东港站C口出站步行约10分钟；公交13路、536路港东一街站"
+      },
+      {
+        "field": "开放时间",
+        "old": "全天开放（夜景最佳）",
+        "new": "街区全天开放（贡多拉游船约 09:00-21:00，旺季延时）"
+      },
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [],
+        "new": [
+          "正式名是「海昌·东方水城」，国家级旅游休闲街区，街区免费、游船另计",
+          "傍晚 16:30 后入场可一次拿下日景与亮灯夜景，大风雨天运河可能抽水停船",
+          "导航搜「东方水城东门」，搜「东方水城」易被带到偏僻北门"
+        ]
+      }
+    ],
+    "source": "https://zsjp.jpntv.cn/a/202510/10/s68e86fdce4b01ca35998f1e9.html",
+    "reason": "地址/交通按大连市文旅局口径；游船时段与入口提示补齐"
+  }
 }

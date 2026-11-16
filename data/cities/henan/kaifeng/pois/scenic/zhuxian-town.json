@@ -38,53 +38,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/20100215_Temple_of_Yue_Fei_at_Zhuxian_Town_01.jpg/1280px-20100215_Temple_of_Yue_Fei_at_Zhuxian_Town_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/20100215_Temple_of_Yue_Fei_at_Zhuxian_Town_01.jpg/1280px-20100215_Temple_of_Yue_Fei_at_Zhuxian_Town_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "20100215 Temple of Yue Fei at Zhuxian Town 01.jpg",
-      "query": "朱仙镇 开封",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20100215_Temple_of_Yue_Fei_at_Zhuxian_Town_01.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/20100215_Temple_of_Yue_Fei_at_Zhuxian_Town_02.jpg/1280px-20100215_Temple_of_Yue_Fei_at_Zhuxian_Town_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/20100215_Temple_of_Yue_Fei_at_Zhuxian_Town_02.jpg/1280px-20100215_Temple_of_Yue_Fei_at_Zhuxian_Town_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "20100215 Temple of Yue Fei at Zhuxian Town 02.jpg",
-      "query": "朱仙镇 开封",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20100215_Temple_of_Yue_Fei_at_Zhuxian_Town_02.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/20100215_Temple_of_Yue_Fei_at_Zhuxian_Town_03.jpg/1280px-20100215_Temple_of_Yue_Fei_at_Zhuxian_Town_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/20100215_Temple_of_Yue_Fei_at_Zhuxian_Town_03.jpg/1280px-20100215_Temple_of_Yue_Fei_at_Zhuxian_Town_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "20100215 Temple of Yue Fei at Zhuxian Town 03.jpg",
-      "query": "朱仙镇 开封",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20100215_Temple_of_Yue_Fei_at_Zhuxian_Town_03.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "古镇",
@@ -100,7 +54,7 @@
       "fetchedAt": "2026-10-02"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Zhuxian Town Kaifeng",
@@ -108,5 +62,15 @@
   },
   "_geocodeTitle": "朱仙镇",
   "_geocodeSuspect": false,
-  "district": "410212"
+  "district": "410212",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 3 张（待重抓）",
+    "droppedImages": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/20100215_Temple_of_Yue_Fei_at_Zhuxian_Town_01.jpg/1280px-20100215_Temple_of_Yue_Fei_at_Zhuxian_Town_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/20100215_Temple_of_Yue_Fei_at_Zhuxian_Town_02.jpg/1280px-20100215_Temple_of_Yue_Fei_at_Zhuxian_Town_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/20100215_Temple_of_Yue_Fei_at_Zhuxian_Town_03.jpg/1280px-20100215_Temple_of_Yue_Fei_at_Zhuxian_Town_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  }
 }

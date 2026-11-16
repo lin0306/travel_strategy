@@ -39,7 +39,11 @@
     "couple"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "总店已完成沉浸式改造：保留明清建筑与火神庙，增设「火宫茶舍」露天茶座、湖湘非遗体验区、特产文创市集，二楼有汉服旅拍馆",
+    "晚间古戏台常有花鼓戏演出，赶夜场比白天更有氛围",
+    "院内参观免费，小吃王国与湘菜首府分开营业、时间不同"
+  ],
   "images": [
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/%E5%9D%A1%E5%AD%90%E8%A1%97%E7%81%AB%E5%AE%AB%E6%AE%BF_-_panoramio.jpg/1280px-%E5%9D%A1%E5%AD%90%E8%A1%97%E7%81%AB%E5%AE%AB%E6%AE%BF_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -145,9 +149,15 @@
       "url": "https://baike.baidu.com/item/%E7%81%AB%E5%AE%AB%E6%AE%BF",
       "kind": "wiki",
       "fetchedAt": "2026-09-28"
+    },
+    {
+      "title": "经济日报2026-01：改造后新增火宫茶舍、非遗体验区、文创市集、汉服旅拍",
+      "url": "https://www.jingjiribao.cn/static/detail.jsp?id=647170",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -155,5 +165,60 @@
   },
   "_geocodeTitle": "火宫殿(坡子街店)",
   "_geocodeSuspect": false,
-  "district": "430103"
+  "district": "430103",
+  "review": {
+    "score": 3.9,
+    "verdict": "顺路看看",
+    "facets": [
+      {
+        "label": "环境",
+        "score": 4.2,
+        "note": "火神庙与小吃摊长在一个院子里"
+      },
+      {
+        "label": "口味",
+        "score": 3.5,
+        "note": "为游客调得偏温和"
+      },
+      {
+        "label": "价格",
+        "score": 2.8,
+        "note": "比街边摊贵，份量不大"
+      },
+      {
+        "label": "人流",
+        "score": 2.5,
+        "note": "饭点取餐要排几轮"
+      }
+    ],
+    "body": "火神庙和小吃摊长在一个院子里的格局，全国大概只此一处，院子本身值得看，臭豆腐、姊妹团子、龙脂猪血这几样做得规整。缺点是价格明显比街边摊贵，一份的量也不大；饭点人挤，取餐要排几轮；口味为了照顾游客调得偏温和，想吃长沙本地那种冲劲的会觉得不过瘾。把它当文化体验而不是觅食首选，心态会好很多。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "小吃体验",
+      "带长辈",
+      "雨天"
+    ],
+    "avoid": [
+      "觅食首选",
+      "预算紧"
+    ],
+    "sources": []
+  },
+  "_patrol": {
+    "at": "2026-11-14",
+    "changes": [
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [],
+        "new": [
+          "总店已完成沉浸式改造：保留明清建筑与火神庙，增设「火宫茶舍」露天茶座、湖湘非遗体验区、特产文创市集，二楼有汉服旅拍馆",
+          "晚间古戏台常有花鼓戏演出，赶夜场比白天更有氛围",
+          "院内参观免费，小吃王国与湘菜首府分开营业、时间不同"
+        ]
+      }
+    ],
+    "source": "https://www.jingjiribao.cn/static/detail.jsp?id=647170",
+    "reason": "经济日报2026-01：改造后新增火宫茶舍、非遗体验区、文创市集、汉服旅拍"
+  }
 }

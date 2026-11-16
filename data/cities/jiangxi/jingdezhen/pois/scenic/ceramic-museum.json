@@ -1,157 +1,195 @@
 {
-  "id": "ceramic-museum",
-  "name": "景德镇中国陶瓷博物馆",
-  "category": "scenic",
-  "subtype": "museum",
-  "summary": "讲景德镇瓷器历史的一座大馆，从古窑址出的瓷到近代名家作品都有。",
-  "description": "景德镇中国陶瓷博物馆在昌江区紫晶北路，是讲这座城瓷器历史的一座大馆。它从五代、宋、元一路排到明清和近代 —— 古窑址出的瓷片、御窑的器物、各朝的釉色，都在。想弄懂景德镇为什么是瓷都，来这儿打底最合适。它免费，馆大，慢慢看要两个钟头。",
-  "highlights": [
-    "系统讲景德镇瓷器史，五代到近代",
-    "有古窑址瓷片与御窑器物",
-    "免费馆大，游城前打底最宜"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.175799,
-      "lat": 29.293118,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "江西省景德镇市昌江区紫晶北路1号",
-    "district": "昌江区",
-    "transportTip": "市区公交或打车到博物馆"
+ "id": "ceramic-museum",
+ "name": "景德镇中国陶瓷博物馆",
+ "category": "scenic",
+ "subtype": "museum",
+ "summary": "讲景德镇瓷器历史的一座大馆，从古窑址出的瓷到近代名家作品都有。",
+ "description": "景德镇中国陶瓷博物馆在昌江区紫晶北路，是讲这座城瓷器历史的一座大馆。它从五代、宋、元一路排到明清和近代 —— 古窑址出的瓷片、御窑的器物、各朝的釉色，都在。想弄懂景德镇为什么是瓷都，来这儿打底最合适。它免费，馆大，慢慢看要两个钟头。",
+ "highlights": [
+  "系统讲景德镇瓷器史，五代到近代",
+  "有古窑址瓷片与御窑器物",
+  "免费馆大，游城前打底最宜"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.175799,
+   "lat": 29.293118,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约09:00-17:00（周一可能闭馆），以公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "free"
+  "address": "江西省景德镇市昌江区紫晶北路1号",
+  "district": "昌江区",
+  "transportTip": "市区公交或打车到博物馆"
+ },
+ "practical": {
+  "openHours": "约09:00-17:00（周一可能闭馆），以公告为准",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "family",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Jingdezhen_China_Ceramics_Museum_20231020_04.jpg/1280px-Jingdezhen_China_Ceramics_Museum_20231020_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Jingdezhen_China_Ceramics_Museum_20231020_04.jpg/1280px-Jingdezhen_China_Ceramics_Museum_20231020_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Jingdezhen China Ceramics Museum 20231020 04.jpg",
+   "query": "Jingdezhen China Ceramics Museum 景德镇",
+   "credit": {
+    "source": "wikimedia",
+    "author": "沈澄心",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jingdezhen_China_Ceramics_Museum_20231020_04.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
   },
-  "audience": [
-    "family",
-    "elders"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Jingdezhen_China_Ceramics_Museum_20231020_04.jpg/1280px-Jingdezhen_China_Ceramics_Museum_20231020_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Jingdezhen_China_Ceramics_Museum_20231020_04.jpg/1280px-Jingdezhen_China_Ceramics_Museum_20231020_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Jingdezhen China Ceramics Museum 20231020 04.jpg",
-      "query": "Jingdezhen China Ceramics Museum 景德镇",
-      "credit": {
-        "source": "wikimedia",
-        "author": "沈澄心",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jingdezhen_China_Ceramics_Museum_20231020_04.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Jingdezhen_China_Ceramics_Museum_20231020_05.jpg/1280px-Jingdezhen_China_Ceramics_Museum_20231020_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Jingdezhen_China_Ceramics_Museum_20231020_05.jpg/1280px-Jingdezhen_China_Ceramics_Museum_20231020_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Jingdezhen China Ceramics Museum 20231020 05.jpg",
-      "query": "Jingdezhen China Ceramics Museum 景德镇",
-      "credit": {
-        "source": "wikimedia",
-        "author": "沈澄心",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jingdezhen_China_Ceramics_Museum_20231020_05.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Jingdezhen_China_Ceramics_Museum_20231020_06.jpg/1280px-Jingdezhen_China_Ceramics_Museum_20231020_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Jingdezhen_China_Ceramics_Museum_20231020_06.jpg/1280px-Jingdezhen_China_Ceramics_Museum_20231020_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Jingdezhen China Ceramics Museum 20231020 06.jpg",
-      "query": "Jingdezhen China Ceramics Museum 景德镇",
-      "credit": {
-        "source": "wikimedia",
-        "author": "沈澄心",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jingdezhen_China_Ceramics_Museum_20231020_06.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Jingdezhen_China_Ceramics_Museum_20231020_07.jpg/1280px-Jingdezhen_China_Ceramics_Museum_20231020_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Jingdezhen_China_Ceramics_Museum_20231020_07.jpg/1280px-Jingdezhen_China_Ceramics_Museum_20231020_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Jingdezhen China Ceramics Museum 20231020 07.jpg",
-      "query": "Jingdezhen China Ceramics Museum 景德镇",
-      "credit": {
-        "source": "wikimedia",
-        "author": "沈澄心",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jingdezhen_China_Ceramics_Museum_20231020_07.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Jingdezhen_China_Ceramics_Museum_20231020_08.jpg/1280px-Jingdezhen_China_Ceramics_Museum_20231020_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Jingdezhen_China_Ceramics_Museum_20231020_08.jpg/1280px-Jingdezhen_China_Ceramics_Museum_20231020_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Jingdezhen China Ceramics Museum 20231020 08.jpg",
-      "query": "Jingdezhen China Ceramics Museum 景德镇",
-      "credit": {
-        "source": "wikimedia",
-        "author": "沈澄心",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jingdezhen_China_Ceramics_Museum_20231020_08.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Jingdezhen_China_Ceramics_Museum_20231020_09.jpg/1280px-Jingdezhen_China_Ceramics_Museum_20231020_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Jingdezhen_China_Ceramics_Museum_20231020_09.jpg/1280px-Jingdezhen_China_Ceramics_Museum_20231020_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Jingdezhen China Ceramics Museum 20231020 09.jpg",
-      "query": "Jingdezhen China Ceramics Museum 景德镇",
-      "credit": {
-        "source": "wikimedia",
-        "author": "沈澄心",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jingdezhen_China_Ceramics_Museum_20231020_09.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "博物馆",
-    "陶瓷",
-    "免费"
-  ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·景德镇中国陶瓷博物馆",
-      "url": "https://baike.baidu.com/item/%E6%99%AF%E5%BE%B7%E9%95%87%E4%B8%AD%E5%9B%BD%E9%99%B6%E7%93%B7%E5%8D%9A%E7%89%A9%E9%A6%86",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Jingdezhen China Ceramics Museum",
-    "zh": "景德镇中国陶瓷博物馆"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Jingdezhen_China_Ceramics_Museum_20231020_05.jpg/1280px-Jingdezhen_China_Ceramics_Museum_20231020_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Jingdezhen_China_Ceramics_Museum_20231020_05.jpg/1280px-Jingdezhen_China_Ceramics_Museum_20231020_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Jingdezhen China Ceramics Museum 20231020 05.jpg",
+   "query": "Jingdezhen China Ceramics Museum 景德镇",
+   "credit": {
+    "source": "wikimedia",
+    "author": "沈澄心",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jingdezhen_China_Ceramics_Museum_20231020_05.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
   },
-  "_geocodeTitle": "景德镇中国陶瓷博物馆",
-  "_geocodeSuspect": false,
-  "district": "360202"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Jingdezhen_China_Ceramics_Museum_20231020_06.jpg/1280px-Jingdezhen_China_Ceramics_Museum_20231020_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Jingdezhen_China_Ceramics_Museum_20231020_06.jpg/1280px-Jingdezhen_China_Ceramics_Museum_20231020_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Jingdezhen China Ceramics Museum 20231020 06.jpg",
+   "query": "Jingdezhen China Ceramics Museum 景德镇",
+   "credit": {
+    "source": "wikimedia",
+    "author": "沈澄心",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jingdezhen_China_Ceramics_Museum_20231020_06.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Jingdezhen_China_Ceramics_Museum_20231020_07.jpg/1280px-Jingdezhen_China_Ceramics_Museum_20231020_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Jingdezhen_China_Ceramics_Museum_20231020_07.jpg/1280px-Jingdezhen_China_Ceramics_Museum_20231020_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Jingdezhen China Ceramics Museum 20231020 07.jpg",
+   "query": "Jingdezhen China Ceramics Museum 景德镇",
+   "credit": {
+    "source": "wikimedia",
+    "author": "沈澄心",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jingdezhen_China_Ceramics_Museum_20231020_07.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Jingdezhen_China_Ceramics_Museum_20231020_08.jpg/1280px-Jingdezhen_China_Ceramics_Museum_20231020_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Jingdezhen_China_Ceramics_Museum_20231020_08.jpg/1280px-Jingdezhen_China_Ceramics_Museum_20231020_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Jingdezhen China Ceramics Museum 20231020 08.jpg",
+   "query": "Jingdezhen China Ceramics Museum 景德镇",
+   "credit": {
+    "source": "wikimedia",
+    "author": "沈澄心",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jingdezhen_China_Ceramics_Museum_20231020_08.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Jingdezhen_China_Ceramics_Museum_20231020_09.jpg/1280px-Jingdezhen_China_Ceramics_Museum_20231020_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Jingdezhen_China_Ceramics_Museum_20231020_09.jpg/1280px-Jingdezhen_China_Ceramics_Museum_20231020_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Jingdezhen China Ceramics Museum 20231020 09.jpg",
+   "query": "Jingdezhen China Ceramics Museum 景德镇",
+   "credit": {
+    "source": "wikimedia",
+    "author": "沈澄心",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jingdezhen_China_Ceramics_Museum_20231020_09.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "博物馆",
+  "陶瓷",
+  "免费"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·景德镇中国陶瓷博物馆",
+   "url": "https://baike.baidu.com/item/%E6%99%AF%E5%BE%B7%E9%95%87%E4%B8%AD%E5%9B%BD%E9%99%B6%E7%93%B7%E5%8D%9A%E7%89%A9%E9%A6%86",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Jingdezhen China Ceramics Museum",
+  "zh": "景德镇中国陶瓷博物馆"
+ },
+ "_geocodeTitle": "景德镇中国陶瓷博物馆",
+ "_geocodeSuspect": false,
+ "district": "360202",
+ "review": {
+  "score": 4.6,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "展陈",
+    "score": 4.7,
+    "note": "从五代排到近代，序列完整"
+   },
+   {
+    "label": "免费",
+    "score": 4.8,
+    "note": "免费开放，馆大展多"
+   },
+   {
+    "label": "人流",
+    "score": 3.4,
+    "note": "周末团队与亲子团扎堆"
+   },
+   {
+    "label": "逛馆时长",
+    "score": 4.0,
+    "note": "认真看两小时打不住"
+   }
+  ],
+  "body": "把景德镇为什么是瓷都讲清楚了：从五代、宋元一路排到明清与近代，古窑址出的瓷片、御窑器物、各朝釉色都在，看完整个人对这座城市的手艺有了底。免费、馆大，认真看两个钟头打不住。缺点是动线长、展柜说明偏学术，孩子容易走散；周末团队多，热门柜前要挤一挤。时间有限就挑一个朝代精读，别想着一次看完。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "亲子",
+   "下雨天"
+  ],
+  "avoid": [
+   "只想打卡",
+   "赶时间"
+  ],
+  "sources": []
+ }
 }

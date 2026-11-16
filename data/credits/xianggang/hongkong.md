@@ -1,6 +1,6 @@
 # 香港 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-09-24
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-14
 
 ## 概览
 
@@ -74,9 +74,8 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Stephan HK | Unsplash License | [unsplash](https://unsplash.com/photos/a-body-of-water-with-a-city-in-the-background-3sAjw_O4AKQ) |
-| 城市封面 | Stephan HK | Unsplash License | [unsplash](https://unsplash.com/photos/a-group-of-people-on-a-boat-in-the-water-kuQ0GMnhd84) |
-| 城市封面 | Michael Lee | Unsplash License | [unsplash](https://unsplash.com/photos/body-of-water-under-bridge-near-buildings-at-night-JqEzsXA776Y) |
+| 城市封面 | [2] | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A_Symphony_of_Lights_2009.jpg) |
+| 城市封面 | Ralf Roletschek | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:13-08-09-peak-by-RalfR-01.jpg) |
 | 长洲 | Peachyeung316 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A_View_of_Cheung_Chau_Town_Centre.jpg) |
 | 长洲 | Man77 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Blick_%C3%BCber_Cheung_Chau.JPG) |
 | 志莲净苑 | Rob Young from United Kingdom | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chi_Lin_Nunnery_(2037672635).jpg) |
@@ -92,6 +91,11 @@
 | 香港迪士尼乐园 | Philip Nalangan | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Disneyland_Hong_Kong_China_2.jpg) |
 | 香港文化博物馆 | The original uploader was Chong Fat at Chinese Wikipedia. | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:HongKongHeritageMuseum2.jpg) |
 | 香港文化博物馆 | Mk2010 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hong_Kong_Heritage_Museum,_Opera_Stage_Wanfutai_(Hong_Kong).jpg) |
+| 香港历史博物馆 | Baycrest | CC BY-SA 2.5 | [wikimedia](https://commons.wikimedia.org/) |
+| 香港故宫文化博物馆 | 任晏延 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 香港故宫文化博物馆 | 任晏延 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 香港故宫文化博物馆 | 任晏延 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 香港故宫文化博物馆 | Bkemaoe HOMA | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 香港湿地公园 | TimSunWai | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:HK_Wetland_Park_Front_door_entrance.JPG) |
 | 香港湿地公园 | Rob Young from United Kingdom | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hong_Kong_Wetland_Park_%26_Residential_Housing_(2141079680).jpg) |
 | 香港动植物公园 | 文子言木 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Hong_Kong_Zoological_and_Botanical_Garden.JPG) |
@@ -108,9 +112,27 @@
 | 香港海洋公园 | Iswzo | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BF%AF%E7%9E%B0%E9%A6%99%E6%B8%AF%E6%B5%B7%E6%B4%8B%E5%85%AC%E5%9B%AD2013.jpg) |
 | 浅水湾 | Wpcpey | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:ClubONE_Repulse_Bay_2015.jpg) |
 | 浅水湾 | 蒋鹏飞 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Deep_Water_Bay_%26_Repulse_Bay_-_panoramio.jpg) |
+| 西贡东郊野公园 | Minghong | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 西贡东郊野公园 | Minghong | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 西贡东郊野公园 | fading | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 西贡东郊野公园 | fading | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 西贡东郊野公园 | LN9267 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 西贡东郊野公园 | LN9267 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 石澳 | Raita Futo from Tokyo, Japan | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 石澳 | Raita Futo from Tokyo, Japan | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 石澳 | Mk2010 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 石澳 | Богдан Митронов-Слоб… | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 石澳 | Богдан Митронов-Слоб… | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 石澳 | Tombus20032000 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 大帽山 | C J B Scholten at English Wikipedia | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:R38943400718_Tai_Mo_Shan_Road_(%E5%A4%A7%E5%B8%BD%E5%B1%B1%E9%81%93),_and_Tai_Mo_Shan_peak_in_distance.JPG) |
 | 大帽山 | C J B Scholten at English Wikipedia | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:R38943437917_Upper_section_of_Tai_Mo_Shan_Road_meandering_up_the_mountain.JPG) |
 | 大帽山 | Nhk9 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Radar_on_Tai_Mo_Shan.jpg) |
+| 大澳渔村 | Hiroki Ogawa | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大澳渔村 | Michal Osmenda from Brussels, Belgium | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大澳渔村 | Michal Osmenda from Brussels, Belgium | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大澳渔村 | Michal Osmenda from Brussels, Belgium | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大澳渔村 | Michal Osmenda from Brussels, Belgium | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大澳渔村 | Mk2010 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 天坛大佛 | Wilfredor | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Buda_Tian_Tan_on_Hong_Kong.jpg) |
 | 太平山顶 | Ralf Roletschek | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:13-08-09-peak-by-RalfR-01.jpg) |
 | 太平山顶 | 张元柏 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2006_%E9%A6%99%E6%B8%AF_%E5%A4%AA%E5%B9%B3%E5%B1%B1%E9%A1%B6_-_panoramio.jpg) |
@@ -139,6 +161,12 @@
 | 幻彩咏香江 | [2] | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A_Symphony_of_Lights_2009.jpg) |
 | 幻彩咏香江 | Deror_avi | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A_Symphony_of_Lights_IMG_4925.JPG) |
 | 幻彩咏香江 | Deror_avi | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A_Symphony_of_Lights_IMG_4926.JPG) |
+| 大馆 | LN9267 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大馆 | LN9267 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大馆 | Katie Chan | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大馆 | LN9267 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大馆 | LN9267 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大馆 | Kwuong Tiamz Mina | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 南丰纱厂 | Sanmosa | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Gate_of_Plant_No.5_of_Nan_Fung_Cotton_Mills.jpg) |
 | 益昌大厦 | Benh LIEU SONG (Flickr) | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Looking_upward_at_the_Yick_Cheong_Building,_13_June_2019.jpg) |
 | 益昌大厦 | Raita Futo from Tokyo, Japan | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yick_Cheong_Building_(51062796821).jpg) |
@@ -149,3 +177,12 @@
 | 香港文化中心 | FLalkf20 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:HK_Cultural_Centre_%E9%A6%99%E6%B8%AF%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83_interior_ceiling_n_Hong_Kong_Arts_Festival_visitors_Feb-2013.JPG) |
 | 香港文化中心 | FLalkf20 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:HK_Cultural_Centre_%E9%A6%99%E6%B8%AF%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83_interior_ceiling_n_stairs_visitors_Hong_Kong_Arts_Festival_Feb-2013.JPG) |
 | 荷李活道 | No machine-readable author provided. SHOLYWOD~commonswiki as | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:HK_SW_Hollywood_Road_Polic_Qtrs_w1.JPG) |
+| 砵甸乍街 | Eelasoami | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:HK_Central_%E4%B8%AD%E7%92%B0_night_%E7%A0%B5%E7%94%B8%E4%B9%8D%E8%A1%97_Pottinger_Street_May-2013.JPG) |
+| 砵甸乍街 | No machine-readable author provided. SHOLYWOD~commonswiki as | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:HK_Pottinger_Street_stone_step.JPG) |
+| 砵甸乍街 | Dorefuom 993 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:HK_%E4%B8%AD%E7%92%B0_Central_%E7%A0%B5%E7%94%B8%E4%B9%8D%E8%A1%97_Pottinger_Street_February_2023_Px3_01.jpg) |
+| 赤柱市集 | WiNG | CC BY-SA 3.0 | [wikimedia](https://www.wikidata.org/wiki/Q7599773) |
+| 赤柱市集 | tsechanwah | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Stanley_Market,_Stanley_-_panoramio.jpg) |
+| 赤柱市集 | tsechanwah | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Stanley_Market,_Stanley_-_panoramio_(1).jpg) |
+| 赤柱市集 | tsechanwah | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Stanley_Market,_Stanley_-_panoramio_(2).jpg) |
+| 赤柱市集 | DearEdward from New York, NY, USA | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Stanley_Market,_this_way_(3018582327).jpg) |
+| 赤柱市集 | No machine-readable author provided. Enochlau assumed (based | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Stanley_Market_2.jpg) |

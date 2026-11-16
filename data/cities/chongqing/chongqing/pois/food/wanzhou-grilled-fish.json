@@ -12,12 +12,12 @@
   ],
   "location": {
     "point": {
-      "lng": 108.216705,
-      "lat": 30.40226,
+      "lat": 30.829563,
+      "lng": 108.366989,
       "coordSystem": "GCJ-02"
     },
     "address": "重庆市多区有店（以门店公告为准）",
-    "district": "石柱",
+    "district": "万州",
     "transportTip": "各分店位置不同，建议先查门店再出发"
   },
   "practical": {
@@ -52,9 +52,15 @@
       "url": "https://baike.baidu.com/item/%E4%B8%87%E5%B7%9E%E7%83%A4%E9%B1%BC",
       "kind": "wiki",
       "fetchedAt": "2026-09-19"
+    },
+    {
+      "title": "三峡传媒网（万州官媒）：「天生城文旅街区烤鱼一条街」为万州烤鱼聚集地总店所在；原",
+      "url": "http://www.sxcm.net/web/article/2026/03/20/1484579409212166144/web/content_1484579409212166144.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-15"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-15",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -62,6 +68,63 @@
   },
   "_geocodeTitle": "万州烤鱼(月台南路店)",
   "_geocodeSuspect": false,
-  "district": "500240",
-  "_noImage": true
+  "district": "500101",
+  "_noImage": true,
+  "review": {
+    "score": 4.1,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "口味",
+        "score": 4.5,
+        "note": "先烤后炖，鱼皮焦香、汤汁厚"
+      },
+      {
+        "label": "分量",
+        "score": 4.2,
+        "note": "一大盘适合三四个人分"
+      },
+      {
+        "label": "环境",
+        "score": 3.0,
+        "note": "夜宵摊风格，别指望安静"
+      },
+      {
+        "label": "价格",
+        "score": 3.8,
+        "note": "人均八十上下，加配菜会高些"
+      }
+    ],
+    "body": "先炭火烤到鱼皮焦脆，再放进汤底里炖，配菜越煮越入味，麻辣和泡椒两路点得最多，重庆本地版本汤底更厚、花椒更冲。缺点是油重盐重，吃到后半程明显发咸；一大盘鱼三四个人分刚好，两个人点一条多半吃不完。适合当夜宵，不适合当前菜。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "夜宵",
+      "朋友聚会"
+    ],
+    "avoid": [
+      "两人小桌",
+      "清淡口味"
+    ],
+    "sources": []
+  },
+  "_patrol": {
+    "at": "2026-11-15",
+    "changes": [
+      {
+        "field": "point",
+        "old": {
+          "lng": 108.216705,
+          "lat": 30.40226,
+          "coordSystem": "GCJ-02"
+        },
+        "new": [
+          30.829563,
+          108.366989
+        ]
+      }
+    ],
+    "source": "http://www.sxcm.net/web/article/2026/03/20/1484579409212166144/web/content_1484579409212166144.html",
+    "reason": "三峡传媒网（万州官媒）：「天生城文旅街区烤鱼一条街」为万州烤鱼聚集地总店所在；原坐标字面落在石柱县，与万州不符"
+  }
 }

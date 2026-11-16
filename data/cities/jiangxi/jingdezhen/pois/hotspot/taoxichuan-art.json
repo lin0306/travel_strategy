@@ -1,67 +1,104 @@
 {
-  "id": "taoxichuan-art",
-  "name": "陶溪川文创街区",
-  "category": "hotspot",
-  "subtype": "art",
-  "summary": "老瓷厂改成的文创街区，红砖厂房加新店，是景德镇最出片的一片。",
-  "description": "陶溪川是把老瓷厂改成的一片街区。红砖的厂房、老烟囱都留着，里头开了店、咖啡、展览。它是这座城最出片的一片 —— 红砖配着新的灯和字，随便一个角都能拍。周末还有创意集市，摆的是陶瓷和手作。晚上灯亮最好看。",
-  "highlights": [
-    "老瓷厂改的文创街区，红砖厂房老烟囱",
-    "全城最出片，周末有创意集市",
-    "晚上灯亮最好"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.235769,
-      "lat": 29.295636,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "江西省景德镇市珠山区新厂西路351号陶溪川",
-    "district": "珠山区",
-    "transportTip": "市区公交或打车到陶溪川"
+ "id": "taoxichuan-art",
+ "name": "陶溪川文创街区",
+ "category": "hotspot",
+ "subtype": "art",
+ "summary": "老瓷厂改成的文创街区，红砖厂房加新店，是景德镇最出片的一片。",
+ "description": "陶溪川是把老瓷厂改成的一片街区。红砖的厂房、老烟囱都留着，里头开了店、咖啡、展览。它是这座城最出片的一片 —— 红砖配着新的灯和字，随便一个角都能拍。周末还有创意集市，摆的是陶瓷和手作。晚上灯亮最好看。",
+ "highlights": [
+  "老瓷厂改的文创街区，红砖厂房老烟囱",
+  "全城最出片，周末有创意集市",
+  "晚上灯亮最好"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.235769,
+   "lat": 29.295636,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放，店铺约10:00-22:00",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "friends"
+  "address": "江西省景德镇市珠山区新厂西路351号陶溪川",
+  "district": "珠山区",
+  "transportTip": "市区公交或打车到陶溪川"
+ },
+ "practical": {
+  "openHours": "全天开放，店铺约10:00-22:00",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "文创",
-    "老厂房",
-    "免费"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "文创",
+  "老厂房",
+  "免费"
+ ],
+ "popularity": 94,
+ "sources": [
+  {
+   "title": "百度百科·陶溪川",
+   "url": "https://baike.baidu.com/item/%E9%99%B6%E6%BA%AA%E5%B7%9D",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Taoxichuan ceramic art district Jingdezhen",
+  "zh": "陶溪川文创街区"
+ },
+ "_geocodeTitle": "陶溪川文创街区",
+ "_geocodeSuspect": false,
+ "district": "360203",
+ "_noImage": true,
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "出片",
+    "score": 4.6,
+    "note": "红砖厂房配新旧招牌，随手都是背景"
+   },
+   {
+    "label": "集市",
+    "score": 4.2,
+    "note": "周末创意集市多是本地手作，比店里实在"
+   },
+   {
+    "label": "商业化",
+    "score": 3.2,
+    "note": "网红店在增多，价格往上走"
+   },
+   {
+    "label": "人流",
+    "score": 3.3,
+    "note": "白天平缓，夜里灯亮后最密"
+   }
   ],
-  "popularity": 94,
-  "sources": [
-    {
-      "title": "百度百科·陶溪川",
-      "url": "https://baike.baidu.com/item/%E9%99%B6%E6%BA%AA%E5%B7%9D",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "body": "老瓷厂改的街区，红砖厂房、老烟囱都留着，里头是店、咖啡和展览，晚上灯一亮最出片。周末有创意集市，摆的多是本地手作，价格比店里实在。缺点是不少店铺白天开门晚，上午去会觉得空；商业化在往上走，网红店排队也不算短。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "拍照",
+   "逛集市"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Taoxichuan ceramic art district Jingdezhen",
-    "zh": "陶溪川文创街区"
-  },
-  "_geocodeTitle": "陶溪川文创街区",
-  "_geocodeSuspect": false,
-  "district": "360203",
-  "_noImage": true
+  "avoid": [
+   "上午赶早"
+  ],
+  "sources": []
+ }
 }

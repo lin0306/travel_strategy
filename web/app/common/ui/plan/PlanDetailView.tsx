@@ -76,6 +76,7 @@ import { DayTabs } from '~/common/ui/plan/DayTabs'
 import { DegBars } from '~/common/ui/plan/DegBars'
 import { PanelHeader } from '~/common/ui/plan/PanelHeader'
 import { StayPicker } from '~/common/ui/plan/StayPicker'
+import { usePresence } from '~/common/ui/usePresence'
 import { StopTimeline } from '~/common/ui/plan/StopTimeline'
 import { Icon } from '~/common/ui/Icon'
 
@@ -103,6 +104,7 @@ export function PlanDetailView() {
   /** 每一条的坐标 / 名字 / 缩略图 / 区名 —— 按 uid 索引，**只补字段**（结构由 days 决定） */
   const { stops } = usePlanStops(plan)
   const stopByUid = useMemo(() => new Map(stops.map((s) => [s.uid, s])), [stops])
+  const stayP = usePresence(view.stayPickerOpen) // 住宿选择器退场（入口当前被裁掉，接线先留着）
 
   /**
    * **把"展开的那一段"推给地图侧**（`planUi.legFocus`）。
@@ -403,13 +405,14 @@ export function PlanDetailView() {
        * 所以它现在永远打不开。渲染留着 —— 住宿点那套逻辑用户说后面再调，
        * 入口回来时这里不用重新接。
        */}
-      {view.stayPickerOpen ? (
+      {stayP.mounted ? (
         <StayPicker
           city={view.city}
           store={view.store}
           onClose={view.onCloseStayPicker}
           onUseCenter={view.onUseMapCenter}
           onDone={view.onStayPicked}
+          exiting={stayP.exiting}
         />
       ) : null}
     </>

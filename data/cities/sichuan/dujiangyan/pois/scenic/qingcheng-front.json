@@ -1,99 +1,138 @@
 {
-  "id": "qingcheng-front",
-  "name": "青城山前山",
-  "category": "scenic",
-  "subtype": "temple",
-  "summary": "道教发源地，道观藏在幽林里。",
-  "description": "青城山是道教发源地之一，前山是宫观最集中的一段，建福宫、天师洞、上清宫一路向上，红墙黛瓦掩在常青的树林里，素有‘青城天下幽’的说法。山不算高，但石阶多、绿得发沉，走起来清凉。张道陵当年在此结茅传道，山里至今道风很浓。索道能省不少腿力，想清静就慢慢爬。",
-  "highlights": [
-    "道教发源地",
-    "青城天下幽",
-    "宫观林立"
-  ],
-  "location": {
-    "point": {
-      "lng": 103.57292,
-      "lat": 30.89727,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "四川省成都市都江堰市青城山镇青城山景区",
-    "district": "都江堰",
-    "transportTip": "都江堰市区乘公交 101 路至青城山前山，或观光车"
+ "id": "qingcheng-front",
+ "name": "青城山前山",
+ "category": "scenic",
+ "subtype": "temple",
+ "summary": "道教发源地，道观藏在幽林里。",
+ "description": "青城山是道教发源地之一，前山是宫观最集中的一段，建福宫、天师洞、上清宫一路向上，红墙黛瓦掩在常青的树林里，素有‘青城天下幽’的说法。山不算高，但石阶多、绿得发沉，走起来清凉。张道陵当年在此结茅传道，山里至今道风很浓。索道能省不少腿力，想清静就慢慢爬。",
+ "highlights": [
+  "道教发源地",
+  "青城天下幽",
+  "宫观林立"
+ ],
+ "location": {
+  "point": {
+   "lng": 103.57292,
+   "lat": 30.89727,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 08:00-17:30（以官方为准）",
-    "openHoursRef": 0,
-    "ticket": "前山门票约 90 元，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 240-480 分钟",
-    "durationMinutes": [
-      240,
-      480
-    ],
-    "priceLevel": "high"
+  "address": "四川省成都市都江堰市青城山镇青城山景区",
+  "district": "都江堰",
+  "transportTip": "都江堰市区乘公交 101 路至青城山前山，或观光车"
+ },
+ "practical": {
+  "openHours": "约 08:00-17:30（以官方为准）",
+  "openHoursRef": 0,
+  "ticket": "前山门票约 90 元，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 240-480 分钟",
+  "durationMinutes": [
+   240,
+   480
+  ],
+  "priceLevel": "high"
+ },
+ "audience": [
+  "friends",
+  "couple",
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/%E9%9D%92%E5%9F%8E%E5%B1%B1%E8%80%81%E5%90%9B%E9%98%81_Mount_Qingcheng_1.jpg/1280px-%E9%9D%92%E5%9F%8E%E5%B1%B1%E8%80%81%E5%90%9B%E9%98%81_Mount_Qingcheng_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/%E9%9D%92%E5%9F%8E%E5%B1%B1%E8%80%81%E5%90%9B%E9%98%81_Mount_Qingcheng_1.jpg/1280px-%E9%9D%92%E5%9F%8E%E5%B1%B1%E8%80%81%E5%90%9B%E9%98%81_Mount_Qingcheng_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "青城山老君阁 Mount Qingcheng 1.jpg",
+   "query": "青城山前山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "JianEn Yu",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%9F%8E%E5%B1%B1%E8%80%81%E5%90%9B%E9%98%81_Mount_Qingcheng_1.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "friends",
-    "couple",
-    "family",
-    "solo"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/%E9%9D%92%E5%9F%8E%E5%B1%B1%E8%80%81%E5%90%9B%E9%98%81_Mount_Qingcheng_2.jpg/1280px-%E9%9D%92%E5%9F%8E%E5%B1%B1%E8%80%81%E5%90%9B%E9%98%81_Mount_Qingcheng_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/%E9%9D%92%E5%9F%8E%E5%B1%B1%E8%80%81%E5%90%9B%E9%98%81_Mount_Qingcheng_2.jpg/1280px-%E9%9D%92%E5%9F%8E%E5%B1%B1%E8%80%81%E5%90%9B%E9%98%81_Mount_Qingcheng_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "青城山老君阁 Mount Qingcheng 2.jpg",
+   "query": "青城山前山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "JianEn Yu",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%9F%8E%E5%B1%B1%E8%80%81%E5%90%9B%E9%98%81_Mount_Qingcheng_2.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "道教",
+  "世界遗产",
+  "名山"
+ ],
+ "popularity": 97,
+ "sources": [
+  {
+   "title": "百度百科·青城山",
+   "url": "https://baike.baidu.com/item/%E9%9D%92%E5%9F%8E%E5%B1%B1",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-06"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "青城山前山"
+ },
+ "_geocodeTitle": "青城山-青城前山",
+ "_geocodeSuspect": false,
+ "district": "510181",
+ "review": {
+  "score": 4.5,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "氛围",
+    "score": 4.8,
+    "note": "红墙黛瓦藏在常青林里，青城天下幽"
+   },
+   {
+    "label": "人文",
+    "score": 4.4,
+    "note": "道教发源地，建福宫到上清宫一路宫观"
+   },
+   {
+    "label": "体力",
+    "score": 3.3,
+    "note": "石阶多，慢慢爬仍要费腿"
+   },
+   {
+    "label": "配套",
+    "score": 3.8,
+    "note": "有索道可省一段腿力"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/%E9%9D%92%E5%9F%8E%E5%B1%B1%E8%80%81%E5%90%9B%E9%98%81_Mount_Qingcheng_1.jpg/1280px-%E9%9D%92%E5%9F%8E%E5%B1%B1%E8%80%81%E5%90%9B%E9%98%81_Mount_Qingcheng_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/%E9%9D%92%E5%9F%8E%E5%B1%B1%E8%80%81%E5%90%9B%E9%98%81_Mount_Qingcheng_1.jpg/1280px-%E9%9D%92%E5%9F%8E%E5%B1%B1%E8%80%81%E5%90%9B%E9%98%81_Mount_Qingcheng_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "青城山老君阁 Mount Qingcheng 1.jpg",
-      "query": "青城山前山",
-      "credit": {
-        "source": "wikimedia",
-        "author": "JianEn Yu",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%9F%8E%E5%B1%B1%E8%80%81%E5%90%9B%E9%98%81_Mount_Qingcheng_1.jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/%E9%9D%92%E5%9F%8E%E5%B1%B1%E8%80%81%E5%90%9B%E9%98%81_Mount_Qingcheng_2.jpg/1280px-%E9%9D%92%E5%9F%8E%E5%B1%B1%E8%80%81%E5%90%9B%E9%98%81_Mount_Qingcheng_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/%E9%9D%92%E5%9F%8E%E5%B1%B1%E8%80%81%E5%90%9B%E9%98%81_Mount_Qingcheng_2.jpg/1280px-%E9%9D%92%E5%9F%8E%E5%B1%B1%E8%80%81%E5%90%9B%E9%98%81_Mount_Qingcheng_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "青城山老君阁 Mount Qingcheng 2.jpg",
-      "query": "青城山前山",
-      "credit": {
-        "source": "wikimedia",
-        "author": "JianEn Yu",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%9F%8E%E5%B1%B1%E8%80%81%E5%90%9B%E9%98%81_Mount_Qingcheng_2.jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    }
+  "body": "道教发源地之一，前山是宫观最集中的一段：建福宫、天师洞、上清宫顺着山势往上排，红墙黛瓦掩在常青林里，所谓「青城天下幽」走一趟就明白了。山不算高，但林子绿得发沉、湿气足，夏天进山比城里凉快不少，道观里至今道风很浓，不是纯看风景的地方。缺点是石阶密，一路爬上去对膝盖不友好，旺季索道也要排队；想清静就得早进山、慢慢走。索道能省掉大半腿力，但会跳过几段最有味道的林间石阶，体力允许的话建议上行走路、下行再坐。别把它当成半天顺带的景点，留一整天更从容。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "避暑",
+   "道教文化",
+   "愿意慢慢爬"
   ],
-  "coverIndex": 0,
-  "tags": [
-    "道教",
-    "世界遗产",
-    "名山"
+  "avoid": [
+   "膝盖不好",
+   "只想坐车看景"
   ],
-  "popularity": 97,
-  "sources": [
-    {
-      "title": "百度百科·青城山",
-      "url": "https://baike.baidu.com/item/%E9%9D%92%E5%9F%8E%E5%B1%B1",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-06"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "青城山前山"
-  },
-  "_geocodeTitle": "青城山-青城前山",
-  "_geocodeSuspect": false,
-  "district": "510181"
+  "sources": []
+ }
 }

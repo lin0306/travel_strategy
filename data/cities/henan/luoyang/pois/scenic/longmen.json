@@ -1,158 +1,196 @@
 {
-  "id": "longmen",
-  "name": "龙门石窟",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "洛阳最出名的世界遗产，伊河两岸的石刻佛像，卢舍那大佛最著名。",
-  "description": "龙门石窟在洛阳洛龙，伊河两岸的崖壁上，从北魏开凿到唐代，现存窟龛两千多。最出名的是卢舍那大佛，高十七米，据说是按武则天的样子雕的。西山密集，东山有香山寺。是中国三大石窟之一，世界遗产。",
-  "highlights": [
-    "伊河两岸石刻，北魏到唐代",
-    "卢舍那大佛高十七米最著名",
-    "中国三大石窟之一，世界遗产"
-  ],
-  "location": {
-    "point": {
-      "lng": 112.491087,
-      "lat": 34.569969,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河南省洛阳市洛龙区龙门石窟",
-    "district": "洛龙区",
-    "transportTip": "洛龙区乘公交或打车往南约半小时"
+ "id": "longmen",
+ "name": "龙门石窟",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "洛阳最出名的世界遗产，伊河两岸的石刻佛像，卢舍那大佛最著名。",
+ "description": "龙门石窟在洛阳洛龙，伊河两岸的崖壁上，从北魏开凿到唐代，现存窟龛两千多。最出名的是卢舍那大佛，高十七米，据说是按武则天的样子雕的。西山密集，东山有香山寺。是中国三大石窟之一，世界遗产。",
+ "highlights": [
+  "伊河两岸石刻，北魏到唐代",
+  "卢舍那大佛高十七米最著名",
+  "中国三大石窟之一，世界遗产"
+ ],
+ "location": {
+  "point": {
+   "lng": 112.491087,
+   "lat": 34.569969,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约8:00-18:00",
-    "openHoursRef": 0,
-    "ticket": "门票约几十到上百元",
-    "ticketRef": 0,
-    "duration": "建议 120-240 分钟",
-    "durationMinutes": [
-      120,
-      240
-    ],
-    "priceLevel": "mid"
+  "address": "河南省洛阳市洛龙区龙门石窟",
+  "district": "洛龙区",
+  "transportTip": "洛龙区乘公交或打车往南约半小时"
+ },
+ "practical": {
+  "openHours": "约8:00-18:00",
+  "openHoursRef": 0,
+  "ticket": "门票约几十到上百元",
+  "ticketRef": 0,
+  "duration": "建议 120-240 分钟",
+  "durationMinutes": [
+   120,
+   240
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%85%A5%E5%8F%A3_-_panoramio.jpg/1280px-%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%85%A5%E5%8F%A3_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%85%A5%E5%8F%A3_-_panoramio.jpg/1280px-%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%85%A5%E5%8F%A3_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "洛阳龙门石窟入口 - panoramio.jpg",
+   "query": "龙门石窟 洛阳",
+   "credit": {
+    "source": "wikimedia",
+    "author": "江上清风1961",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%85%A5%E5%8F%A3_-_panoramio.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "friends",
-    "family"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%85%A5%E5%8F%A3_-_panoramio.jpg/1280px-%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%85%A5%E5%8F%A3_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%85%A5%E5%8F%A3_-_panoramio.jpg/1280px-%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%85%A5%E5%8F%A3_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "洛阳龙门石窟入口 - panoramio.jpg",
-      "query": "龙门石窟 洛阳",
-      "credit": {
-        "source": "wikimedia",
-        "author": "江上清风1961",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%85%A5%E5%8F%A3_-_panoramio.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%8D%A2%E8%88%8D%E9%82%A3%E5%A4%A7%E4%BD%9B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%8D%A2%E8%88%8D%E9%82%A3%E5%A4%A7%E4%BD%9B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1440,
-      "alt": "洛阳龙门石窟卢舍那大佛.jpg",
-      "query": "龙门石窟 洛阳",
-      "credit": {
-        "source": "wikimedia",
-        "author": "DS90",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%8D%A2%E8%88%8D%E9%82%A3%E5%A4%A7%E4%BD%9B.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/%E6%B2%B3%E5%8D%97_%E6%B4%9B%E9%98%B3_%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F_-_panoramio.jpg/1280px-%E6%B2%B3%E5%8D%97_%E6%B4%9B%E9%98%B3_%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/%E6%B2%B3%E5%8D%97_%E6%B4%9B%E9%98%B3_%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F_-_panoramio.jpg/1280px-%E6%B2%B3%E5%8D%97_%E6%B4%9B%E9%98%B3_%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "河南 洛阳 龙门石窟 - panoramio.jpg",
-      "query": "龙门石窟 洛阳",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nyx Ning",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B2%B3%E5%8D%97_%E6%B4%9B%E9%98%B3_%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/%E6%B2%B3%E5%8D%97_%E6%B4%9B%E9%98%B3_%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F_-_panoramio_%281%29.jpg/1280px-%E6%B2%B3%E5%8D%97_%E6%B4%9B%E9%98%B3_%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/%E6%B2%B3%E5%8D%97_%E6%B4%9B%E9%98%B3_%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F_-_panoramio_%281%29.jpg/1280px-%E6%B2%B3%E5%8D%97_%E6%B4%9B%E9%98%B3_%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "河南 洛阳 龙门石窟 - panoramio (1).jpg",
-      "query": "龙门石窟 洛阳",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nyx Ning",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B2%B3%E5%8D%97_%E6%B4%9B%E9%98%B3_%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F_-_panoramio_(1).jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/%E6%B4%9B%E9%98%B3%E6%B4%9B%E9%BE%99%E5%8C%BA%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E4%BF%9D%E6%8A%A4%E7%A0%94%E7%A9%B6%E5%9F%BA%E5%9C%B0_-_panoramio.jpg/1280px-%E6%B4%9B%E9%98%B3%E6%B4%9B%E9%BE%99%E5%8C%BA%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E4%BF%9D%E6%8A%A4%E7%A0%94%E7%A9%B6%E5%9F%BA%E5%9C%B0_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/%E6%B4%9B%E9%98%B3%E6%B4%9B%E9%BE%99%E5%8C%BA%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E4%BF%9D%E6%8A%A4%E7%A0%94%E7%A9%B6%E5%9F%BA%E5%9C%B0_-_panoramio.jpg/1280px-%E6%B4%9B%E9%98%B3%E6%B4%9B%E9%BE%99%E5%8C%BA%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E4%BF%9D%E6%8A%A4%E7%A0%94%E7%A9%B6%E5%9F%BA%E5%9C%B0_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "洛阳洛龙区龙门石窟保护研究基地 - panoramio.jpg",
-      "query": "龙门石窟 洛阳",
-      "credit": {
-        "source": "wikimedia",
-        "author": "江上清风1961",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B4%9B%E9%98%B3%E6%B4%9B%E9%BE%99%E5%8C%BA%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E4%BF%9D%E6%8A%A4%E7%A0%94%E7%A9%B6%E5%9F%BA%E5%9C%B0_-_panoramio.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%85%A5%E5%8F%A3_-_panoramio_%281%29.jpg/1280px-%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%85%A5%E5%8F%A3_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%85%A5%E5%8F%A3_-_panoramio_%281%29.jpg/1280px-%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%85%A5%E5%8F%A3_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "洛阳龙门石窟入口 - panoramio (1).jpg",
-      "query": "龙门石窟 洛阳",
-      "credit": {
-        "source": "wikimedia",
-        "author": "江上清风1961",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%85%A5%E5%8F%A3_-_panoramio_(1).jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "石窟",
-    "世界遗产",
-    "大佛"
-  ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·龙门石窟",
-      "url": "https://baike.baidu.com/item/%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "龙门石窟"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%8D%A2%E8%88%8D%E9%82%A3%E5%A4%A7%E4%BD%9B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%8D%A2%E8%88%8D%E9%82%A3%E5%A4%A7%E4%BD%9B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 1440,
+   "alt": "洛阳龙门石窟卢舍那大佛.jpg",
+   "query": "龙门石窟 洛阳",
+   "credit": {
+    "source": "wikimedia",
+    "author": "DS90",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%8D%A2%E8%88%8D%E9%82%A3%E5%A4%A7%E4%BD%9B.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "龙门石窟街道",
-  "_geocodeSuspect": false,
-  "district": "410311"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/%E6%B2%B3%E5%8D%97_%E6%B4%9B%E9%98%B3_%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F_-_panoramio.jpg/1280px-%E6%B2%B3%E5%8D%97_%E6%B4%9B%E9%98%B3_%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/%E6%B2%B3%E5%8D%97_%E6%B4%9B%E9%98%B3_%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F_-_panoramio.jpg/1280px-%E6%B2%B3%E5%8D%97_%E6%B4%9B%E9%98%B3_%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "河南 洛阳 龙门石窟 - panoramio.jpg",
+   "query": "龙门石窟 洛阳",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nyx Ning",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B2%B3%E5%8D%97_%E6%B4%9B%E9%98%B3_%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/%E6%B2%B3%E5%8D%97_%E6%B4%9B%E9%98%B3_%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F_-_panoramio_%281%29.jpg/1280px-%E6%B2%B3%E5%8D%97_%E6%B4%9B%E9%98%B3_%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/%E6%B2%B3%E5%8D%97_%E6%B4%9B%E9%98%B3_%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F_-_panoramio_%281%29.jpg/1280px-%E6%B2%B3%E5%8D%97_%E6%B4%9B%E9%98%B3_%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "河南 洛阳 龙门石窟 - panoramio (1).jpg",
+   "query": "龙门石窟 洛阳",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nyx Ning",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B2%B3%E5%8D%97_%E6%B4%9B%E9%98%B3_%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F_-_panoramio_(1).jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/%E6%B4%9B%E9%98%B3%E6%B4%9B%E9%BE%99%E5%8C%BA%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E4%BF%9D%E6%8A%A4%E7%A0%94%E7%A9%B6%E5%9F%BA%E5%9C%B0_-_panoramio.jpg/1280px-%E6%B4%9B%E9%98%B3%E6%B4%9B%E9%BE%99%E5%8C%BA%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E4%BF%9D%E6%8A%A4%E7%A0%94%E7%A9%B6%E5%9F%BA%E5%9C%B0_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/%E6%B4%9B%E9%98%B3%E6%B4%9B%E9%BE%99%E5%8C%BA%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E4%BF%9D%E6%8A%A4%E7%A0%94%E7%A9%B6%E5%9F%BA%E5%9C%B0_-_panoramio.jpg/1280px-%E6%B4%9B%E9%98%B3%E6%B4%9B%E9%BE%99%E5%8C%BA%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E4%BF%9D%E6%8A%A4%E7%A0%94%E7%A9%B6%E5%9F%BA%E5%9C%B0_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "洛阳洛龙区龙门石窟保护研究基地 - panoramio.jpg",
+   "query": "龙门石窟 洛阳",
+   "credit": {
+    "source": "wikimedia",
+    "author": "江上清风1961",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B4%9B%E9%98%B3%E6%B4%9B%E9%BE%99%E5%8C%BA%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E4%BF%9D%E6%8A%A4%E7%A0%94%E7%A9%B6%E5%9F%BA%E5%9C%B0_-_panoramio.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%85%A5%E5%8F%A3_-_panoramio_%281%29.jpg/1280px-%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%85%A5%E5%8F%A3_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%85%A5%E5%8F%A3_-_panoramio_%281%29.jpg/1280px-%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%85%A5%E5%8F%A3_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "洛阳龙门石窟入口 - panoramio (1).jpg",
+   "query": "龙门石窟 洛阳",
+   "credit": {
+    "source": "wikimedia",
+    "author": "江上清风1961",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B4%9B%E9%98%B3%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E5%85%A5%E5%8F%A3_-_panoramio_(1).jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "石窟",
+  "世界遗产",
+  "大佛"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·龙门石窟",
+   "url": "https://baike.baidu.com/item/%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "龙门石窟"
+ },
+ "_geocodeTitle": "龙门石窟街道",
+ "_geocodeSuspect": false,
+ "district": "410311",
+ "review": {
+  "score": 4.6,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "石刻",
+    "score": 4.9,
+    "note": "卢舍那大佛高十七米，气势压人"
+   },
+   {
+    "label": "步行",
+    "score": 2.6,
+    "note": "东西两山串完很费腿"
+   },
+   {
+    "label": "遮阴",
+    "score": 2.8,
+    "note": "崖壁段几乎没有树荫"
+   },
+   {
+    "label": "人流",
+    "score": 3.0,
+    "note": "上午团队最集中"
+   }
+  ],
+  "body": "从北魏凿到唐代的两千多个窟龛铺在伊河两岸，卢舍那大佛高十七米，站在下面抬头那一刻很难不被镇住，西山最密，东山还有香山寺。可惜全程靠走，东西两山串下来很费腿，崖壁段几乎没有树荫，夏天得赶早。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "人文",
+   "摄影"
+  ],
+  "avoid": [
+   "腿脚不便",
+   "盛夏正午"
+  ],
+  "sources": []
+ }
 }

@@ -21,7 +21,7 @@
     "transportTip": "地铁6号线/8号线文化公园站；公交西堤站"
   },
   "practical": {
-    "openHours": "以官方公告为准（存在调整）",
+    "openHours": "周一至周五（非节假日）09:00-16:00（15:30 停止入馆），周六、周日闭馆；国际博物馆日等特定节日开放；免费，需提前在公众号预约",
     "openHoursRef": 0,
     "ticket": "免费（需预约）",
     "ticketRef": 0,
@@ -53,9 +53,15 @@
       "url": "https://baike.baidu.com/item/%E7%B2%A4%E6%B5%B7%E5%85%B3%E5%8D%9A%E7%89%A9%E9%A6%86",
       "kind": "wiki",
       "fetchedAt": "2026-09-24"
+    },
+    {
+      "title": "广州市备案博物馆参观信息表（市政府官网）",
+      "url": "https://www.gz.gov.cn/zwgk/zdly/shgysyjs/ggwhty/ggwh/content/post_9864493.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -64,5 +70,17 @@
   "_geocodeTitle": "粤海关博物馆",
   "_geocodeSuspect": false,
   "district": "440103",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "以官方公告为准（存在调整）",
+        "new": "周一至周五（非节假日）09:00-16:00（15:30 停止入馆），周六、周日闭馆；国际博物馆日等特定节日开放；免费，需提前在公众号预约"
+      }
+    ],
+    "source": "https://www.gz.gov.cn/zwgk/zdly/shgysyjs/ggwhty/ggwh/content/post_9864493.html",
+    "reason": "广州市备案博物馆参观信息表（市政府官网）"
+  }
 }

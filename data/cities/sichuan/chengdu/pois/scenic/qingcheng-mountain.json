@@ -1,106 +1,145 @@
 {
-  "id": "qingcheng-mountain",
-  "name": "青城山",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "道教发源地之一，以「青城天下幽」著称的避暑胜地",
-  "description": "青城山是中国道教的重要发源地，山中的常道观（天师洞）相传为张道陵讲经之处，自东汉以来便是道教圣地。前山道教宫观众多、文化底蕴厚，建福宫、天师洞、上清宫沿山势分布；后山以五龙沟、又一村的峡谷飞瀑与泰安古镇见长，适合徒步。山中林木蓊郁、常年湿润，“幽”是最准确的形容——夏天到这里有明显的降温体感。景区提供索道与渡船，体力有限者可组合减少爬升，但整体台阶较多、不完全适合轮椅通行。",
-  "highlights": [
-    "道教早期圣地，天师洞等宫观保存完整",
-    "前山看人文、后山看自然，可按需选择"
-  ],
-  "location": {
-    "point": {
-      "lng": 103.599199,
-      "lat": 30.88057,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "成都市都江堰市青城山镇青城山路",
-    "district": "都江堰市",
-    "transportTip": "成灌快铁青城山站，转景区观光车",
-    "entrance": {
-      "lng": 103.606112,
-      "lat": 30.894779,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "qingcheng-mountain",
+ "name": "青城山",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "道教发源地之一，以「青城天下幽」著称的避暑胜地",
+ "description": "青城山是中国道教的重要发源地，山中的常道观（天师洞）相传为张道陵讲经之处，自东汉以来便是道教圣地。前山道教宫观众多、文化底蕴厚，建福宫、天师洞、上清宫沿山势分布；后山以五龙沟、又一村的峡谷飞瀑与泰安古镇见长，适合徒步。山中林木蓊郁、常年湿润，“幽”是最准确的形容——夏天到这里有明显的降温体感。景区提供索道与渡船，体力有限者可组合减少爬升，但整体台阶较多、不完全适合轮椅通行。",
+ "highlights": [
+  "道教早期圣地，天师洞等宫观保存完整",
+  "前山看人文、后山看自然，可按需选择"
+ ],
+ "location": {
+  "point": {
+   "lng": 103.599199,
+   "lat": 30.88057,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 08:00-17:00（淡旺季有调整，以官方为准）",
-    "openHoursRef": 0,
-    "ticket": "前山约 80 元起 / 后山约 20 元起",
-    "ticketRef": 0,
-    "duration": "建议 240-420 分钟",
-    "durationMinutes": [
-      240,
-      420
-    ],
-    "priceLevel": "mid"
+  "address": "成都市都江堰市青城山镇青城山路",
+  "district": "都江堰市",
+  "transportTip": "成灌快铁青城山站，转景区观光车",
+  "entrance": {
+   "lng": 103.606112,
+   "lat": 30.894779,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约 08:00-17:00（淡旺季有调整，以官方为准）",
+  "openHoursRef": 0,
+  "ticket": "前山约 80 元起 / 后山约 20 元起",
+  "ticketRef": 0,
+  "duration": "建议 240-420 分钟",
+  "durationMinutes": [
+   240,
+   420
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "solo",
+  "couple",
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [
+  "与都江堰安排同一天最顺路",
+  "徒步线路台阶多，需穿舒适防滑的鞋"
+ ],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/2006_%E6%88%90%E9%83%BD_%E9%9D%92%E5%9F%8E%E5%B1%B1_-_panoramio.jpg/1280px-2006_%E6%88%90%E9%83%BD_%E9%9D%92%E5%9F%8E%E5%B1%B1_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/2006_%E6%88%90%E9%83%BD_%E9%9D%92%E5%9F%8E%E5%B1%B1_-_panoramio.jpg/1280px-2006_%E6%88%90%E9%83%BD_%E9%9D%92%E5%9F%8E%E5%B1%B1_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "2006 成都 青城山 - panoramio.jpg",
+   "query": "青城山 成都",
+   "credit": {
+    "source": "wikimedia",
+    "author": "张元柏",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2006_%E6%88%90%E9%83%BD_%E9%9D%92%E5%9F%8E%E5%B1%B1_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "solo",
-    "couple",
-    "friends",
-    "family"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/2006_%E6%88%90%E9%83%BD_%E9%9D%92%E5%9F%8E%E5%B1%B1_-_panoramio_%281%29.jpg/1280px-2006_%E6%88%90%E9%83%BD_%E9%9D%92%E5%9F%8E%E5%B1%B1_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/2006_%E6%88%90%E9%83%BD_%E9%9D%92%E5%9F%8E%E5%B1%B1_-_panoramio_%281%29.jpg/1280px-2006_%E6%88%90%E9%83%BD_%E9%9D%92%E5%9F%8E%E5%B1%B1_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "2006 成都 青城山 - panoramio (1).jpg",
+   "query": "青城山 成都",
+   "credit": {
+    "source": "wikimedia",
+    "author": "张元柏",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2006_%E6%88%90%E9%83%BD_%E9%9D%92%E5%9F%8E%E5%B1%B1_-_panoramio_(1).jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "道教",
+  "避暑徒步",
+  "近郊"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "携程 · 青城山",
+   "url": "https://m.ctrip.com/webapp/tnt/list?citytype=dt&keyword=%E9%9D%92%E5%9F%8E%E5%B1%B1&id=104",
+   "kind": "travel-platform",
+   "fetchedAt": "2026-09-18"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Mount Qingcheng",
+  "zh": "青城山"
+ },
+ "_geocodeTitle": "青城山镇",
+ "_geocodeSuspect": false,
+ "district": "510181",
+ "review": {
+  "score": 4.5,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "幽静度",
+    "score": 4.8,
+    "note": "林木蓊郁，夏天进山明显降温"
+   },
+   {
+    "label": "人文",
+    "score": 4.5,
+    "note": "前山宫观沿山势铺开"
+   },
+   {
+    "label": "体力",
+    "score": 2.5,
+    "note": "台阶密集，走完全程膝盖吃不住"
+   },
+   {
+    "label": "交通",
+    "score": 3.8,
+    "note": "与都江堰同一天最顺路"
+   }
   ],
-  "accessible": false,
-  "tips": [
-    "与都江堰安排同一天最顺路",
-    "徒步线路台阶多，需穿舒适防滑的鞋"
+  "body": "道教重要发源地，「青城天下幽」不是虚话，前山建福宫、天师洞、上清宫沿山势分布，后山五龙沟一带的峡谷飞瀑适合徒步，夏天进山有明显降温体感。缺点是台阶密集，全靠腿走下来膝盖吃不住，索道和渡船只省得了一段；雨后石阶湿滑，不适合赶时间的行程。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "避暑",
+   "徒步",
+   "看道观"
   ],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/2006_%E6%88%90%E9%83%BD_%E9%9D%92%E5%9F%8E%E5%B1%B1_-_panoramio.jpg/1280px-2006_%E6%88%90%E9%83%BD_%E9%9D%92%E5%9F%8E%E5%B1%B1_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/2006_%E6%88%90%E9%83%BD_%E9%9D%92%E5%9F%8E%E5%B1%B1_-_panoramio.jpg/1280px-2006_%E6%88%90%E9%83%BD_%E9%9D%92%E5%9F%8E%E5%B1%B1_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "2006 成都 青城山 - panoramio.jpg",
-      "query": "青城山 成都",
-      "credit": {
-        "source": "wikimedia",
-        "author": "张元柏",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2006_%E6%88%90%E9%83%BD_%E9%9D%92%E5%9F%8E%E5%B1%B1_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/2006_%E6%88%90%E9%83%BD_%E9%9D%92%E5%9F%8E%E5%B1%B1_-_panoramio_%281%29.jpg/1280px-2006_%E6%88%90%E9%83%BD_%E9%9D%92%E5%9F%8E%E5%B1%B1_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/2006_%E6%88%90%E9%83%BD_%E9%9D%92%E5%9F%8E%E5%B1%B1_-_panoramio_%281%29.jpg/1280px-2006_%E6%88%90%E9%83%BD_%E9%9D%92%E5%9F%8E%E5%B1%B1_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "2006 成都 青城山 - panoramio (1).jpg",
-      "query": "青城山 成都",
-      "credit": {
-        "source": "wikimedia",
-        "author": "张元柏",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2006_%E6%88%90%E9%83%BD_%E9%9D%92%E5%9F%8E%E5%B1%B1_-_panoramio_(1).jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    }
+  "avoid": [
+   "膝盖不好",
+   "只有半天"
   ],
-  "coverIndex": 0,
-  "tags": [
-    "道教",
-    "避暑徒步",
-    "近郊"
-  ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "携程 · 青城山",
-      "url": "https://m.ctrip.com/webapp/tnt/list?citytype=dt&keyword=%E9%9D%92%E5%9F%8E%E5%B1%B1&id=104",
-      "kind": "travel-platform",
-      "fetchedAt": "2026-09-18"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Mount Qingcheng",
-    "zh": "青城山"
-  },
-  "_geocodeTitle": "青城山镇",
-  "_geocodeSuspect": false,
-  "district": "510181"
+  "sources": []
+ }
 }

@@ -40,8 +40,51 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [],
-  "coverIndex": 0,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/College_of_Social_Sciences_-_National_Taiwan_University_-_DSC01072.JPG/1280px-College_of_Social_Sciences_-_National_Taiwan_University_-_DSC01072.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/College_of_Social_Sciences_-_National_Taiwan_University_-_DSC01072.JPG/1280px-College_of_Social_Sciences_-_National_Taiwan_University_-_DSC01072.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "College of Social Sciences - National Taiwan University - DSC01072.JPG",
+      "query": "台湾大学",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Daderot",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:College_of_Social_Sciences_-_National_Taiwan_University_-_DSC01072.JPG",
+        "license": "CC0",
+        "attributionRequired": false
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
+      }
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/National_Taiwan_University_Library_20060802.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/National_Taiwan_University_Library_20060802.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 720,
+      "alt": "National Taiwan University Library 20060802.jpg",
+      "query": "台湾大学",
+      "credit": {
+        "source": "wikimedia",
+        "author": "peellden",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:National_Taiwan_University_Library_20060802.jpg",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
+      }
+    }
+  ],
+  "coverIndex": 1,
   "tags": [
     "校园",
     "椰林大道",
@@ -56,7 +99,7 @@
       "fetchedAt": "2026-10-03"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-05",
   "_geocoded": true,
   "_imageQuery": {
     "en": "National Taiwan University campus",
@@ -64,6 +107,5 @@
   },
   "_geocodeTitle": "台湾师范大学",
   "_geocodeSuspect": false,
-  "district": "711003",
-  "_noImage": true
+  "district": "711003"
 }

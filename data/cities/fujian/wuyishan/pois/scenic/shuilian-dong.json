@@ -1,73 +1,195 @@
 {
-  "id": "shuilian-dong",
-  "name": "水帘洞",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "岩壁泻水如帘，洞里有古刹。",
-  "description": "水帘洞是武夷山最大的岩洞，一道泉水从百来米高的崖顶泻下，像挂了一面水帘，洞就藏在帘子后面。洞里建着三贤祠，供奉过在此讲学的理学家。雨季水量大、帘子厚，声势最好看；旱季水细，反而能钻进洞里看题刻。它和前面的鹰嘴岩挨着，是景区西片常去的一站。台阶有点滑，雨天别大意。",
-  "highlights": [
-    "岩壁水帘",
-    "洞中古祠",
-    "鹰嘴岩相邻"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.99508,
-      "lat": 27.68712,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "福建省南平市武夷山市武夷山风景名胜区水帘洞",
-    "district": "武夷山",
-    "transportTip": "景区西片，乘观光车至水帘洞站后步行",
-    "entrance": {
-      "lng": 117.972009,
-      "lat": 27.676733,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "shuilian-dong",
+ "name": "水帘洞",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "岩壁泻水如帘，洞里有古刹。",
+ "description": "水帘洞是武夷山最大的岩洞，一道泉水从百来米高的崖顶泻下，像挂了一面水帘，洞就藏在帘子后面。洞里建着三贤祠，供奉过在此讲学的理学家。雨季水量大、帘子厚，声势最好看；旱季水细，反而能钻进洞里看题刻。它和前面的鹰嘴岩挨着，是景区西片常去的一站。台阶有点滑，雨天别大意。",
+ "highlights": [
+  "岩壁水帘",
+  "洞中古祠",
+  "鹰嘴岩相邻"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.99508,
+   "lat": 27.68712,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "随景区开放时间",
-    "openHoursRef": 0,
-    "ticket": "含在景区联票内",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
+  "address": "福建省南平市武夷山市武夷山风景名胜区水帘洞",
+  "district": "武夷山",
+  "transportTip": "景区西片，乘观光车至水帘洞站后步行",
+  "entrance": {
+   "lng": 117.972009,
+   "lat": 27.676733,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "随景区开放时间",
+  "openHoursRef": 0,
+  "ticket": "含在景区联票内",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "friends",
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/%E5%B0%8F%E6%B0%B4%E5%B8%98%E6%B4%9E_-_panoramio.jpg/1280px-%E5%B0%8F%E6%B0%B4%E5%B8%98%E6%B4%9E_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/%E5%B0%8F%E6%B0%B4%E5%B8%98%E6%B4%9E_-_panoramio.jpg/1280px-%E5%B0%8F%E6%B0%B4%E5%B8%98%E6%B4%9E_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "小水帘洞 - panoramio.jpg",
+   "query": "水帘洞 武夷山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "江上清风1961",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%B0%B4%E5%B8%98%E6%B4%9E_-_panoramio.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "friends",
-    "family",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "岩洞",
-    "瀑布",
-    "古迹"
-  ],
-  "popularity": 85,
-  "sources": [
-    {
-      "title": "百度百科·水帘洞",
-      "url": "https://baike.baidu.com/item/%E6%B0%B4%E5%B8%98%E6%B4%9E",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-06"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "水帘洞"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/%E6%AD%A6%E5%A4%B7%E5%B1%B1%E5%9B%BD%E5%AE%B6%E5%BA%A6%E5%81%87%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA_-_panoramio.jpg/1280px-%E6%AD%A6%E5%A4%B7%E5%B1%B1%E5%9B%BD%E5%AE%B6%E5%BA%A6%E5%81%87%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/%E6%AD%A6%E5%A4%B7%E5%B1%B1%E5%9B%BD%E5%AE%B6%E5%BA%A6%E5%81%87%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA_-_panoramio.jpg/1280px-%E6%AD%A6%E5%A4%B7%E5%B1%B1%E5%9B%BD%E5%AE%B6%E5%BA%A6%E5%81%87%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 740,
+   "alt": "武夷山国家度假风景区-水帘洞景区 - panoramio.jpg",
+   "query": "水帘洞 武夷山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "luchangjiang~鲁昌江",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%AD%A6%E5%A4%B7%E5%B1%B1%E5%9B%BD%E5%AE%B6%E5%BA%A6%E5%81%87%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "水帘洞天",
-  "_geocodeSuspect": false,
-  "district": "350782",
-  "_noImage": true
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/%E6%AD%A6%E5%A4%B7%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA-%E9%81%AD%E9%81%87%E6%B4%AA%E6%B0%B4_-_panoramio.jpg/1280px-%E6%AD%A6%E5%A4%B7%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA-%E9%81%AD%E9%81%87%E6%B4%AA%E6%B0%B4_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/%E6%AD%A6%E5%A4%B7%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA-%E9%81%AD%E9%81%87%E6%B4%AA%E6%B0%B4_-_panoramio.jpg/1280px-%E6%AD%A6%E5%A4%B7%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA-%E9%81%AD%E9%81%87%E6%B4%AA%E6%B0%B4_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "武夷山风景区-水帘洞景区-遭遇洪水 - panoramio.jpg",
+   "query": "水帘洞 武夷山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "luchangjiang~鲁昌江",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%AD%A6%E5%A4%B7%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA-%E9%81%AD%E9%81%87%E6%B4%AA%E6%B0%B4_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/%E6%AD%A6%E5%A4%B7%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA-%E9%81%AD%E9%81%87%E6%B4%AA%E6%B0%B4_-_panoramio_%281%29.jpg/1280px-%E6%AD%A6%E5%A4%B7%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA-%E9%81%AD%E9%81%87%E6%B4%AA%E6%B0%B4_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/%E6%AD%A6%E5%A4%B7%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA-%E9%81%AD%E9%81%87%E6%B4%AA%E6%B0%B4_-_panoramio_%281%29.jpg/1280px-%E6%AD%A6%E5%A4%B7%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA-%E9%81%AD%E9%81%87%E6%B4%AA%E6%B0%B4_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "武夷山风景区-水帘洞景区-遭遇洪水 - panoramio (1).jpg",
+   "query": "水帘洞 武夷山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "luchangjiang~鲁昌江",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%AD%A6%E5%A4%B7%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA-%E9%81%AD%E9%81%87%E6%B4%AA%E6%B0%B4_-_panoramio_(1).jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/%E6%AD%A6%E5%A4%B7%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA-%E9%81%AD%E9%81%87%E6%B4%AA%E6%B0%B4_-_panoramio_%282%29.jpg/1280px-%E6%AD%A6%E5%A4%B7%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA-%E9%81%AD%E9%81%87%E6%B4%AA%E6%B0%B4_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/%E6%AD%A6%E5%A4%B7%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA-%E9%81%AD%E9%81%87%E6%B4%AA%E6%B0%B4_-_panoramio_%282%29.jpg/1280px-%E6%AD%A6%E5%A4%B7%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA-%E9%81%AD%E9%81%87%E6%B4%AA%E6%B0%B4_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 620,
+   "alt": "武夷山风景区-水帘洞景区-遭遇洪水 - panoramio (2).jpg",
+   "query": "水帘洞 武夷山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "luchangjiang~鲁昌江",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%AD%A6%E5%A4%B7%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA-%E9%81%AD%E9%81%87%E6%B4%AA%E6%B0%B4_-_panoramio_(2).jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/%E6%AD%A6%E5%A4%B7%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA-%E9%81%AD%E9%81%87%E6%B4%AA%E6%B0%B4_-_panoramio_%283%29.jpg/1280px-%E6%AD%A6%E5%A4%B7%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA-%E9%81%AD%E9%81%87%E6%B4%AA%E6%B0%B4_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/%E6%AD%A6%E5%A4%B7%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA-%E9%81%AD%E9%81%87%E6%B4%AA%E6%B0%B4_-_panoramio_%283%29.jpg/1280px-%E6%AD%A6%E5%A4%B7%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA-%E9%81%AD%E9%81%87%E6%B4%AA%E6%B0%B4_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 587,
+   "alt": "武夷山风景区-水帘洞景区-遭遇洪水 - panoramio (3).jpg",
+   "query": "水帘洞 武夷山",
+   "credit": {
+    "source": "wikimedia",
+    "author": "luchangjiang~鲁昌江",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%AD%A6%E5%A4%B7%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA-%E6%B0%B4%E5%B8%98%E6%B4%9E%E6%99%AF%E5%8C%BA-%E9%81%AD%E9%81%87%E6%B4%AA%E6%B0%B4_-_panoramio_(3).jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "岩洞",
+  "瀑布",
+  "古迹"
+ ],
+ "popularity": 85,
+ "sources": [
+  {
+   "title": "百度百科·水帘洞",
+   "url": "https://baike.baidu.com/item/%E6%B0%B4%E5%B8%98%E6%B4%9E",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-06"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "水帘洞"
+ },
+ "_geocodeTitle": "水帘洞天",
+ "_geocodeSuspect": false,
+ "district": "350782",
+ "review": {
+  "score": 3.8,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "水量",
+    "score": 3.4,
+    "note": "雨季成帘，旱季细得像断流"
+   },
+   {
+    "label": "石刻",
+    "score": 4.0,
+    "note": "崖壁题刻不少，慢慢看有料"
+   },
+   {
+    "label": "路况",
+    "score": 3.2,
+    "note": "台阶湿滑，雨天要小心"
+   }
+  ],
+  "body": "武夷山最大的岩洞，泉水从崖顶泻下来像挂了面帘子，洞里还有座三贤祠。它的成色完全看季节，这也是最大的短板：雨季水厚声大值得专门拐进来，旱季水细得几乎断流，只剩空岩穴和几处题刻可看。台阶常年湿滑，穿防滑鞋，雨天别只顾抬头拍。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "雨季",
+   "顺路"
+  ],
+  "avoid": [
+   "旱季专程"
+  ],
+  "sources": []
+ }
 }

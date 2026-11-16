@@ -1,156 +1,193 @@
 {
-  "id": "meilanfang-theatre",
-  "name": "梅兰芳大剧院",
-  "category": "culture",
-  "subtype": "performance",
-  "summary": "正规的京剧演出场所，看整出戏而不是折子片段。",
-  "description": "梅兰芳大剧院在车公庄，以梅兰芳命名，二〇〇八年启用。它排的是完整的京剧剧目，与茶馆里那种两三折片段的性质不同——乐队、舞台与台风都按剧场的整套标准来。如果对京剧有兴趣，可以事先看一眼剧目介绍再看一整出。位置在西二环，散场后仍赶得上地铁。",
-  "highlights": [
-    "演整出戏而非折子片段",
-    "乐队与舞台按剧场标准",
-    "位置在西二环"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.357073,
-      "lat": 39.931826,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "北京市西城区平安里西大街32号",
-    "district": "西城",
-    "transportTip": "地铁2号线/6号线车公庄站"
+ "id": "meilanfang-theatre",
+ "name": "梅兰芳大剧院",
+ "category": "culture",
+ "subtype": "performance",
+ "summary": "正规的京剧演出场所，看整出戏而不是折子片段。",
+ "description": "梅兰芳大剧院在车公庄，以梅兰芳命名，二〇〇八年启用。它排的是完整的京剧剧目，与茶馆里那种两三折片段的性质不同——乐队、舞台与台风都按剧场的整套标准来。如果对京剧有兴趣，可以事先看一眼剧目介绍再看一整出。位置在西二环，散场后仍赶得上地铁。",
+ "highlights": [
+  "演整出戏而非折子片段",
+  "乐队与舞台按剧场标准",
+  "位置在西二环"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.357073,
+   "lat": 39.931826,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "以剧目排期为准",
-    "openHoursRef": 0,
-    "ticket": "约180元起(以剧场为准)",
-    "ticketRef": 0,
-    "duration": "建议 150-210 分钟",
-    "durationMinutes": [
-      150,
-      210
-    ],
-    "priceLevel": "high"
+  "address": "北京市西城区平安里西大街32号",
+  "district": "西城",
+  "transportTip": "地铁2号线/6号线车公庄站"
+ },
+ "practical": {
+  "openHours": "以剧目排期为准",
+  "openHoursRef": 0,
+  "ticket": "约180元起(以剧场为准)",
+  "ticketRef": 0,
+  "duration": "建议 150-210 分钟",
+  "durationMinutes": [
+   150,
+   210
+  ],
+  "priceLevel": "high"
+ },
+ "audience": [
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Cao_Cao_in_Beijing_Opera.JPG/1280px-Cao_Cao_in_Beijing_Opera.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Cao_Cao_in_Beijing_Opera.JPG/1280px-Cao_Cao_in_Beijing_Opera.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 732,
+   "alt": "Cao Cao in Beijing Opera.JPG",
+   "query": "梅兰芳大剧院 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Shizhao",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cao_Cao_in_Beijing_Opera.JPG",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Cao_Cao_in_Beijing_Opera.JPG/1280px-Cao_Cao_in_Beijing_Opera.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Cao_Cao_in_Beijing_Opera.JPG/1280px-Cao_Cao_in_Beijing_Opera.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 732,
-      "alt": "Cao Cao in Beijing Opera.JPG",
-      "query": "梅兰芳大剧院 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Shizhao",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cao_Cao_in_Beijing_Opera.JPG",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Mei_Lanfang_at_Mei_Lanfang_Theatre.JPG/1280px-Mei_Lanfang_at_Mei_Lanfang_Theatre.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Mei_Lanfang_at_Mei_Lanfang_Theatre.JPG/1280px-Mei_Lanfang_at_Mei_Lanfang_Theatre.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 728,
-      "alt": "Mei Lanfang at Mei Lanfang Theatre.JPG",
-      "query": "梅兰芳大剧院 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Shizhao",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mei_Lanfang_at_Mei_Lanfang_Theatre.JPG",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Suolinnang_1.jpg/1280px-Suolinnang_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Suolinnang_1.jpg/1280px-Suolinnang_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 736,
-      "alt": "Suolinnang 1.jpg",
-      "query": "梅兰芳大剧院 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "刻意",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suolinnang_1.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Suolinnang_2.jpg/1280px-Suolinnang_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Suolinnang_2.jpg/1280px-Suolinnang_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 812,
-      "alt": "Suolinnang 2.jpg",
-      "query": "梅兰芳大剧院 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "刻意",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suolinnang_2.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Suolinnang_3.jpg/1280px-Suolinnang_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Suolinnang_3.jpg/1280px-Suolinnang_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 898,
-      "alt": "Suolinnang 3.jpg",
-      "query": "梅兰芳大剧院 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "刻意",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suolinnang_3.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Suolinnang_4.jpg/1280px-Suolinnang_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Suolinnang_4.jpg/1280px-Suolinnang_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 800,
-      "alt": "Suolinnang 4.jpg",
-      "query": "梅兰芳大剧院 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "刻意",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suolinnang_4.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "京剧",
-    "剧院",
-    "传统"
-  ],
-  "popularity": 74,
-  "sources": [
-    {
-      "title": "百度百科·梅兰芳大剧院",
-      "url": "https://baike.baidu.com/item/%E6%A2%85%E5%85%B0%E8%8A%B3%E5%A4%A7%E5%89%A7%E9%99%A2",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "梅兰芳大剧院"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Mei_Lanfang_at_Mei_Lanfang_Theatre.JPG/1280px-Mei_Lanfang_at_Mei_Lanfang_Theatre.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Mei_Lanfang_at_Mei_Lanfang_Theatre.JPG/1280px-Mei_Lanfang_at_Mei_Lanfang_Theatre.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 728,
+   "alt": "Mei Lanfang at Mei Lanfang Theatre.JPG",
+   "query": "梅兰芳大剧院 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Shizhao",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mei_Lanfang_at_Mei_Lanfang_Theatre.JPG",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "梅兰芳大剧院(平安里西大街)",
-  "_geocodeSuspect": false,
-  "district": "110102"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Suolinnang_1.jpg/1280px-Suolinnang_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Suolinnang_1.jpg/1280px-Suolinnang_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 736,
+   "alt": "Suolinnang 1.jpg",
+   "query": "梅兰芳大剧院 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "刻意",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suolinnang_1.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Suolinnang_2.jpg/1280px-Suolinnang_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Suolinnang_2.jpg/1280px-Suolinnang_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 812,
+   "alt": "Suolinnang 2.jpg",
+   "query": "梅兰芳大剧院 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "刻意",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suolinnang_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Suolinnang_3.jpg/1280px-Suolinnang_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Suolinnang_3.jpg/1280px-Suolinnang_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 898,
+   "alt": "Suolinnang 3.jpg",
+   "query": "梅兰芳大剧院 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "刻意",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suolinnang_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Suolinnang_4.jpg/1280px-Suolinnang_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Suolinnang_4.jpg/1280px-Suolinnang_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 800,
+   "alt": "Suolinnang 4.jpg",
+   "query": "梅兰芳大剧院 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "刻意",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suolinnang_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "京剧",
+  "剧院",
+  "传统"
+ ],
+ "popularity": 74,
+ "sources": [
+  {
+   "title": "百度百科·梅兰芳大剧院",
+   "url": "https://baike.baidu.com/item/%E6%A2%85%E5%85%B0%E8%8A%B3%E5%A4%A7%E5%89%A7%E9%99%A2",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "梅兰芳大剧院"
+ },
+ "_geocodeTitle": "梅兰芳大剧院(平安里西大街)",
+ "_geocodeSuspect": false,
+ "district": "110102",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "演出",
+    "score": 4.4,
+    "note": "排整出戏，不是茶馆里两三折的片段"
+   },
+   {
+    "label": "观演位置",
+    "score": 4.2,
+    "note": "池座视野好，散场赶得上地铁"
+   },
+   {
+    "label": "票价",
+    "score": 3.5,
+    "note": "180 元起，好位置要往上加"
+   },
+   {
+    "label": "门槛",
+    "score": 3.0,
+    "note": "整出戏两三个小时，非戏迷容易坐不住"
+   }
+  ],
+  "body": "想认真看一出京剧，这里比旅游茶馆合适：乐队、台风、整本剧目都按剧场标准来，不是折子戏拼盘。缺点一是票价 180 元起、好座更贵；二是时长摆在那儿，两三个小时对没接触过京剧的人是硬门槛，建议先看剧目介绍再决定，别为了「打卡非遗」硬坐。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "京剧爱好者",
+   "看整本戏"
+  ],
+  "avoid": [
+   "只想看片段"
+  ],
+  "sources": []
+ }
 }

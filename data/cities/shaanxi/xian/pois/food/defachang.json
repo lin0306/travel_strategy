@@ -16,7 +16,7 @@
       "lat": 34.260231,
       "coordSystem": "GCJ-02"
     },
-    "address": "西安市碑林区钟楼附近（以门店公告为准）",
+    "address": "西安市莲湖区西大街3号（钟鼓楼广场西北角）",
     "district": "莲湖区",
     "transportTip": "地铁 2 号线钟楼站，步行约 5 分钟"
   },
@@ -52,9 +52,15 @@
       "url": "https://baike.baidu.com/item/%E5%BE%B7%E5%8F%91%E9%95%BF",
       "kind": "wiki",
       "fetchedAt": "2026-09-19"
+    },
+    {
+      "title": "西安饮食股份有限公司 · 老字号门店布局",
+      "url": "http://www.chizhuanxian.com/channels/662.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,5 +69,17 @@
   "_geocodeTitle": "德发长饺子·非遗(钟楼店)",
   "_geocodeSuspect": false,
   "district": "610104",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "西安市碑林区钟楼附近（以门店公告为准）",
+        "new": "西安市莲湖区西大街3号（钟鼓楼广场西北角）"
+      }
+    ],
+    "source": "http://www.chizhuanxian.com/channels/662.html",
+    "reason": "西安饮食股份门店布局：德发长钟楼店西大街3号"
+  }
 }

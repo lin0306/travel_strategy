@@ -1,157 +1,196 @@
 {
-  "id": "art-district-798",
-  "name": "798艺术区",
-  "category": "hotspot",
-  "subtype": "art",
-  "summary": "包豪斯厂房改成的当代艺术区，北京画廊密度最高的一片。",
-  "description": "798 原是社会主义阵营援建的电子工业厂区，锯齿形厂房是典型的包豪斯做法。两千年后陆续有艺术家、画廊与设计工作室进驻，逐渐形成中国最出名的当代艺术聚集地之一。如今这里是画廊、书店、咖啡与展览混合的形态：工作日下午人少，更适合一间间看。几个主力机构如尤伦斯当代艺术中心、木木美术馆、佩斯北京，水准深浅不一，先看当期展讯再取舍。",
-  "highlights": [
-    "锯齿形包豪斯厂房是工业遗产本身",
-    "尤伦斯、木木、佩斯是主力馆",
-    "工作日人少，先看展讯"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.495862,
-      "lat": 39.984245,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "北京市朝阳区酒仙桥路4号",
-    "district": "朝阳",
-    "transportTip": "地铁14号线望京南站换乘公交至798路"
+ "id": "art-district-798",
+ "name": "798艺术区",
+ "category": "hotspot",
+ "subtype": "art",
+ "summary": "包豪斯厂房改成的当代艺术区，北京画廊密度最高的一片。",
+ "description": "798 原是社会主义阵营援建的电子工业厂区，锯齿形厂房是典型的包豪斯做法。两千年后陆续有艺术家、画廊与设计工作室进驻，逐渐形成中国最出名的当代艺术聚集地之一。如今这里是画廊、书店、咖啡与展览混合的形态：工作日下午人少，更适合一间间看。几个主力机构如尤伦斯当代艺术中心、木木美术馆、佩斯北京，水准深浅不一，先看当期展讯再取舍。",
+ "highlights": [
+  "锯齿形包豪斯厂房是工业遗产本身",
+  "尤伦斯、木木、佩斯是主力馆",
+  "工作日人少，先看展讯"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.495862,
+   "lat": 39.984245,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "园区全天开放，画廊与美术馆多为10:00-18:00，以各馆公告为准",
-    "openHoursRef": 0,
-    "ticket": "园区免费，画廊展览多另行收费",
-    "ticketRef": 0,
-    "duration": "建议 180-420 分钟",
-    "durationMinutes": [
-      180,
-      420
-    ],
-    "priceLevel": "free"
+  "address": "北京市朝阳区酒仙桥路4号",
+  "district": "朝阳",
+  "transportTip": "地铁14号线望京南站换乘公交至798路"
+ },
+ "practical": {
+  "openHours": "园区全天开放，画廊与美术馆多为10:00-18:00，以各馆公告为准",
+  "openHoursRef": 0,
+  "ticket": "园区免费，画廊展览多另行收费",
+  "ticketRef": 0,
+  "duration": "建议 180-420 分钟",
+  "durationMinutes": [
+   180,
+   420
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/798%E8%89%BA%E6%9C%AF%E5%8C%BA_%282012-12-12%29_-_panoramio.jpg/1280px-798%E8%89%BA%E6%9C%AF%E5%8C%BA_%282012-12-12%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/798%E8%89%BA%E6%9C%AF%E5%8C%BA_%282012-12-12%29_-_panoramio.jpg/1280px-798%E8%89%BA%E6%9C%AF%E5%8C%BA_%282012-12-12%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1920,
+   "alt": "798艺术区 (2012-12-12) - panoramio.jpg",
+   "query": "798艺术区 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "科技小辛",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:798%E8%89%BA%E6%9C%AF%E5%8C%BA_(2012-12-12)_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/798%E8%89%BA%E6%9C%AF%E5%8C%BA_%282012-12-12%29_-_panoramio.jpg/1280px-798%E8%89%BA%E6%9C%AF%E5%8C%BA_%282012-12-12%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/798%E8%89%BA%E6%9C%AF%E5%8C%BA_%282012-12-12%29_-_panoramio.jpg/1280px-798%E8%89%BA%E6%9C%AF%E5%8C%BA_%282012-12-12%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1920,
-      "alt": "798艺术区 (2012-12-12) - panoramio.jpg",
-      "query": "798艺术区 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "科技小辛",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:798%E8%89%BA%E6%9C%AF%E5%8C%BA_(2012-12-12)_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/798_Art_Zone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/798_Art_Zone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 810,
-      "alt": "798 Art Zone.jpg",
-      "query": "798艺术区 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "kaurjmeb",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:798_Art_Zone.jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/798_Art_Zone_-_panoramio_%281%29.jpg/1280px-798_Art_Zone_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/798_Art_Zone_-_panoramio_%281%29.jpg/1280px-798_Art_Zone_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1075,
-      "alt": "798 Art Zone - panoramio (1).jpg",
-      "query": "798艺术区 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Immanuel Giel",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:798_Art_Zone_-_panoramio_(1).jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Beijing_798_Art_Zone_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Beijing_798_Art_Zone_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "Beijing 798 Art Zone - panoramio (1).jpg",
-      "query": "798艺术区 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "The Erica Chang",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beijing_798_Art_Zone_-_panoramio_(1).jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Beijing_798_Art_Zone_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Beijing_798_Art_Zone_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 721,
-      "alt": "Beijing 798 Art Zone - panoramio (2).jpg",
-      "query": "798艺术区 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "The Erica Chang",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beijing_798_Art_Zone_-_panoramio_(2).jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Beijing_798_Art_Zone_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Beijing_798_Art_Zone_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "Beijing 798 Art Zone - panoramio (3).jpg",
-      "query": "798艺术区 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "The Erica Chang",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beijing_798_Art_Zone_-_panoramio_(3).jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "当代艺术",
-    "工业遗产",
-    "拍照"
-  ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·798艺术区",
-      "url": "https://baike.baidu.com/item/798%E8%89%BA%E6%9C%AF%E5%8C%BA",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "798艺术区"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/798_Art_Zone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/798_Art_Zone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 810,
+   "alt": "798 Art Zone.jpg",
+   "query": "798艺术区 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "kaurjmeb",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:798_Art_Zone.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "798艺术区",
-  "_geocodeSuspect": false,
-  "district": "110105"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/798_Art_Zone_-_panoramio_%281%29.jpg/1280px-798_Art_Zone_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/798_Art_Zone_-_panoramio_%281%29.jpg/1280px-798_Art_Zone_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1075,
+   "alt": "798 Art Zone - panoramio (1).jpg",
+   "query": "798艺术区 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Immanuel Giel",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:798_Art_Zone_-_panoramio_(1).jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Beijing_798_Art_Zone_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Beijing_798_Art_Zone_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "Beijing 798 Art Zone - panoramio (1).jpg",
+   "query": "798艺术区 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "The Erica Chang",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beijing_798_Art_Zone_-_panoramio_(1).jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Beijing_798_Art_Zone_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Beijing_798_Art_Zone_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 721,
+   "alt": "Beijing 798 Art Zone - panoramio (2).jpg",
+   "query": "798艺术区 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "The Erica Chang",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beijing_798_Art_Zone_-_panoramio_(2).jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Beijing_798_Art_Zone_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Beijing_798_Art_Zone_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "Beijing 798 Art Zone - panoramio (3).jpg",
+   "query": "798艺术区 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "The Erica Chang",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beijing_798_Art_Zone_-_panoramio_(3).jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "当代艺术",
+  "工业遗产",
+  "拍照"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·798艺术区",
+   "url": "https://baike.baidu.com/item/798%E8%89%BA%E6%9C%AF%E5%8C%BA",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "798艺术区"
+ },
+ "_geocodeTitle": "798艺术区",
+ "_geocodeSuspect": false,
+ "district": "110105",
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "展览",
+    "score": 4.4,
+    "note": "尤伦斯、木木、佩斯几家水准在线，但要先看当期展讯"
+   },
+   {
+    "label": "商业化",
+    "score": 2.6,
+    "note": "主街被咖啡、文创和打卡装置占满，艺术浓度被稀释"
+   },
+   {
+    "label": "步行",
+    "score": 2.8,
+    "note": "园区跨度大且分散，一趟走下来两三公里"
+   },
+   {
+    "label": "拍照",
+    "score": 4.5,
+    "note": "锯齿形包豪斯厂房本身就好拍，工业感强"
+   }
+  ],
+  "body": "798 的底子是工业遗产：锯齿形厂房、管道、烟囱都还在，光在园区里走一圈就有东西看。但它的艺术含量并不均匀，主街那几条已经被咖啡店、文创铺和网红装置填满，商业化很重，真正有分量的展览散在园区深处还得单独买票。园区又大又分散，不提前查展讯、不规划路线，很容易走两小时只看了几家店。工作日下午来，人少，体验最好。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "看展",
+   "拍照",
+   "半日闲逛"
+  ],
+  "avoid": [
+   "周末下午",
+   "想看重量级名作"
+  ],
+  "sources": []
+ }
 }

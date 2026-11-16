@@ -48,6 +48,8 @@ export interface ToastBarProps {
   onClose?: () => void
   /** 无障碍名（配合 `role="status"`）。图标按钮必须给，否则读屏只念出一个空按钮。 */
   closeLabel?: string
+  /** 正在退场（`ToastStack` 经 `usePresence` 传入）—— 淡出盖过入场 */
+  exiting?: boolean
 }
 
 /** 各语气的强调色。只改色，不改结构 ⇒ 三种提示的高度与版式永远一致。 */
@@ -57,11 +59,18 @@ const ACCENT: Record<ToastKind, string> = {
   warning: 'text-[#E8672F]',
 }
 
-export function ToastBar({ kind = 'info', children, action, onClose, closeLabel = '关闭提示' }: ToastBarProps) {
+export function ToastBar({
+  kind = 'info',
+  children,
+  action,
+  onClose,
+  closeLabel = '关闭提示',
+  exiting = false,
+}: ToastBarProps) {
   return (
     <div
       role="status"
-      className="flt flt-in pointer-events-auto flex max-w-[min(560px,92vw)] items-center gap-2 px-3 py-2 text-[12.5px]"
+      className={`flt ${exiting ? 'flt-out' : 'flt-in'} pointer-events-auto flex max-w-[min(560px,92vw)] items-center gap-2 px-3 py-2 text-[12.5px]`}
     >
       <span className={`min-w-0 flex-1 ${ACCENT[kind]}`}>{children}</span>
       {action ? (

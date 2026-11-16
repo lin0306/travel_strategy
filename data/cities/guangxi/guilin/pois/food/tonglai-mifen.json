@@ -16,8 +16,8 @@
       "lat": 25.269256,
       "coordSystem": "GCJ-02"
     },
-    "address": "广西壮族自治区桂林市象山区通泉巷同来米粉",
-    "district": "秀峰区",
+    "address": "广西壮族自治区桂林市象山区中山中路通泉巷1-3号",
+    "district": "象山区",
     "transportTip": "市区步行可达；紧邻两江四湖沿岸"
   },
   "practical": {
@@ -53,9 +53,15 @@
       "url": "https://baike.baidu.com/item/%E6%A1%82%E6%9E%97%E7%B1%B3%E7%B2%89",
       "kind": "wiki",
       "fetchedAt": "2026-09-30"
+    },
+    {
+      "title": "图商POI与多源同址，补门牌1-3号",
+      "url": "https://m.toutiao.com/article/7620005692430238234",
+      "kind": "media",
+      "fetchedAt": "2026-11-12"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-12",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,6 +69,58 @@
   },
   "_geocodeTitle": "同来米粉(通泉巷店)",
   "_geocodeSuspect": false,
-  "district": "450302",
-  "_noImage": true
+  "district": "450304",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-12",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "广西壮族自治区桂林市象山区通泉巷同来米粉",
+        "new": "广西壮族自治区桂林市象山区中山中路通泉巷1-3号"
+      }
+    ],
+    "source": "https://m.toutiao.com/article/7620005692430238234",
+    "reason": "图商POI与多源同址，补门牌1-3号"
+  },
+  "review": {
+    "score": 4.1,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "口味",
+        "score": 4.3,
+        "note": "卤水醇厚偏重口"
+      },
+      {
+        "label": "卤味",
+        "score": 4.4,
+        "note": "拼盘比粉本身更像回事"
+      },
+      {
+        "label": "排队",
+        "score": 3.0,
+        "note": "中午前最挤，锅烧卖完就没了"
+      },
+      {
+        "label": "价格",
+        "score": 4.5,
+        "note": "二两几块钱，加料也便宜"
+      }
+    ],
+    "body": "通泉巷里的老店，卤水偏重口，真正拿得出手的是卤味拼盘——牛肉、牛肚、腐竹切一套淋汁配着粉吃。缺点是中午前排队，锅烧常常十点往后就卖光，想吃脆皮得赶早；店里座位少，多数人端着碗在门口解决。",
+    "basis": "web",
+    "at": "2026-11-12",
+    "fits": [
+      "本地口味",
+      "早餐"
+    ],
+    "avoid": [
+      "要坐着慢慢吃"
+    ],
+    "sources": [
+      "https://m.toutiao.com/article/7620005692430238234",
+      "http://mp.weixin.qq.com/s?__biz=MzA5MTE1MDQxOQ==&mid=2651527453&idx=1&sn=2b0d5109d5801d1ec696e13e00212527"
+    ]
+  }
 }

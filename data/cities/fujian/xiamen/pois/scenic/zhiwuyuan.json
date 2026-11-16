@@ -1,179 +1,217 @@
 {
-  "id": "zhiwuyuan",
-  "name": "厦门园林植物园",
-  "category": "scenic",
-  "subtype": "park",
-  "summary": "万石山上的老植物园，雨林世界与多肉区是两处最出片的地方。",
-  "description": "厦门园林植物园俗称万石植物园，1960 年代建在市区东边的万石山上，是全国最早的城市植物园之一。园子依着山势分成十几处专类园，最出名的是三块：雨林世界，早上定时喷水雾，光柱从树冠上落下来；多肉植物区，成片的仙人掌与龙舌兰种在坡上；还有一片棕榈与苏铁的园区。山上保存着万石岩、太平岩几处摩崖石刻，以及几座旧庙。园区不小，各区之间要走坡道，也有观光车。它就在厦门站东边，从南门进最方便，园内高处能俯瞰半个城区。",
-  "highlights": [
-    "1960 年代建于万石山，是国内最早的城市植物园之一",
-    "雨林世界定时喷雾，多肉区成片仙人掌",
-    "山上有万石岩、太平岩等摩崖石刻"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.10914,
-      "lat": 24.448061,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "福建省厦门市思明区虎园路25号",
-    "district": "思明区",
-    "transportTip": "地铁1号线中山公园站或将军祠站，步行约十分钟",
-    "entrance": {
-      "lng": 118.117445,
-      "lat": 24.441318,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "zhiwuyuan",
+ "name": "厦门园林植物园",
+ "category": "scenic",
+ "subtype": "park",
+ "summary": "万石山上的老植物园，雨林世界与多肉区是两处最出片的地方。",
+ "description": "厦门园林植物园俗称万石植物园，1960 年代建在市区东边的万石山上，是全国最早的城市植物园之一。园子依着山势分成十几处专类园，最出名的是三块：雨林世界，早上定时喷水雾，光柱从树冠上落下来；多肉植物区，成片的仙人掌与龙舌兰种在坡上；还有一片棕榈与苏铁的园区。山上保存着万石岩、太平岩几处摩崖石刻，以及几座旧庙。园区不小，各区之间要走坡道，也有观光车。它就在厦门站东边，从南门进最方便，园内高处能俯瞰半个城区。",
+ "highlights": [
+  "1960 年代建于万石山，是国内最早的城市植物园之一",
+  "雨林世界定时喷雾，多肉区成片仙人掌",
+  "山上有万石岩、太平岩等摩崖石刻"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.10914,
+   "lat": 24.448061,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约06:30-18:00（喷雾时段以现场为准），以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "门票约30元起，观光车另计，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 120-240 分钟",
-    "durationMinutes": [
-      120,
-      240
-    ],
-    "priceLevel": "budget"
+  "address": "福建省厦门市思明区虎园路25号",
+  "district": "思明区",
+  "transportTip": "地铁1号线中山公园站或将军祠站，步行约十分钟",
+  "entrance": {
+   "lng": 118.117445,
+   "lat": 24.441318,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约06:30-18:00（喷雾时段以现场为准），以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "门票约30元起，观光车另计，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 120-240 分钟",
+  "durationMinutes": [
+   120,
+   240
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "kids",
+  "family",
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/2018%E5%B9%B4%E7%9A%84%E4%B8%87%E7%9F%B3%E6%B9%96.jpg/1280px-2018%E5%B9%B4%E7%9A%84%E4%B8%87%E7%9F%B3%E6%B9%96.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/2018%E5%B9%B4%E7%9A%84%E4%B8%87%E7%9F%B3%E6%B9%96.jpg/1280px-2018%E5%B9%B4%E7%9A%84%E4%B8%87%E7%9F%B3%E6%B9%96.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "2018年的万石湖.jpg",
+   "query": "厦门园林植物园",
+   "credit": {
+    "source": "wikimedia",
+    "author": "向史公哲曰",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2018%E5%B9%B4%E7%9A%84%E4%B8%87%E7%9F%B3%E6%B9%96.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "kids",
-    "family",
-    "couple",
-    "friends"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/2018%E5%B9%B4%E7%9A%84%E4%B8%87%E7%9F%B3%E6%B9%96.jpg/1280px-2018%E5%B9%B4%E7%9A%84%E4%B8%87%E7%9F%B3%E6%B9%96.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/2018%E5%B9%B4%E7%9A%84%E4%B8%87%E7%9F%B3%E6%B9%96.jpg/1280px-2018%E5%B9%B4%E7%9A%84%E4%B8%87%E7%9F%B3%E6%B9%96.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "2018年的万石湖.jpg",
-      "query": "厦门园林植物园",
-      "credit": {
-        "source": "wikimedia",
-        "author": "向史公哲曰",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2018%E5%B9%B4%E7%9A%84%E4%B8%87%E7%9F%B3%E6%B9%96.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/The_view_from_the_%22Banshan_viewing_platform%22_inside_Xiamen_Botanical_Garden%2C_looking_out_over_Wanshilian_Temple.jpg/1280px-The_view_from_the_%22Banshan_viewing_platform%22_inside_Xiamen_Botanical_Garden%2C_looking_out_over_Wanshilian_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/The_view_from_the_%22Banshan_viewing_platform%22_inside_Xiamen_Botanical_Garden%2C_looking_out_over_Wanshilian_Temple.jpg/1280px-The_view_from_the_%22Banshan_viewing_platform%22_inside_Xiamen_Botanical_Garden%2C_looking_out_over_Wanshilian_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "The view from the \"Banshan viewing platform\" inside Xiamen Botanical Garden, looking out over Wanshi",
-      "query": "厦门园林植物园",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Metacladistics",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_view_from_the_%22Banshan_viewing_platform%22_inside_Xiamen_Botanical_Garden,_looking_out_over_Wanshilian_Temple.jpg",
-        "license": "CC BY 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Xiamen_Botanical_Garden3.jpg/1280px-Xiamen_Botanical_Garden3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Xiamen_Botanical_Garden3.jpg/1280px-Xiamen_Botanical_Garden3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Xiamen Botanical Garden3.jpg",
-      "query": "厦门园林植物园",
-      "credit": {
-        "source": "wikimedia",
-        "author": "大禾花",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xiamen_Botanical_Garden3.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Xiamen_Botanical_Garden4.jpg/1280px-Xiamen_Botanical_Garden4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Xiamen_Botanical_Garden4.jpg/1280px-Xiamen_Botanical_Garden4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Xiamen Botanical Garden4.jpg",
-      "query": "厦门园林植物园",
-      "credit": {
-        "source": "wikimedia",
-        "author": "大禾花",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xiamen_Botanical_Garden4.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Xiamen_Botanical_Garden2.jpg/1280px-Xiamen_Botanical_Garden2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Xiamen_Botanical_Garden2.jpg/1280px-Xiamen_Botanical_Garden2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Xiamen Botanical Garden2.jpg",
-      "query": "厦门园林植物园",
-      "credit": {
-        "source": "wikimedia",
-        "author": "大禾花",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xiamen_Botanical_Garden2.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "front"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "植物园",
-    "雨林",
-    "多肉"
-  ],
-  "popularity": 86,
-  "sources": [
-    {
-      "title": "百度百科·厦门园林植物园",
-      "url": "https://baike.baidu.com/item/%E5%8E%A6%E9%97%A8%E5%9B%AD%E6%9E%97%E6%A4%8D%E7%89%A9%E5%9B%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
-  ],
-  "updatedAt": "2026-11-03",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "厦门园林植物园"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/The_view_from_the_%22Banshan_viewing_platform%22_inside_Xiamen_Botanical_Garden%2C_looking_out_over_Wanshilian_Temple.jpg/1280px-The_view_from_the_%22Banshan_viewing_platform%22_inside_Xiamen_Botanical_Garden%2C_looking_out_over_Wanshilian_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/The_view_from_the_%22Banshan_viewing_platform%22_inside_Xiamen_Botanical_Garden%2C_looking_out_over_Wanshilian_Temple.jpg/1280px-The_view_from_the_%22Banshan_viewing_platform%22_inside_Xiamen_Botanical_Garden%2C_looking_out_over_Wanshilian_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "The view from the \"Banshan viewing platform\" inside Xiamen Botanical Garden, looking out over Wanshi",
+   "query": "厦门园林植物园",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Metacladistics",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_view_from_the_%22Banshan_viewing_platform%22_inside_Xiamen_Botanical_Garden,_looking_out_over_Wanshilian_Temple.jpg",
+    "license": "CC BY 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "厦门园林植物园",
-  "_geocodeSuspect": false,
-  "district": "350203"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Xiamen_Botanical_Garden3.jpg/1280px-Xiamen_Botanical_Garden3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Xiamen_Botanical_Garden3.jpg/1280px-Xiamen_Botanical_Garden3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Xiamen Botanical Garden3.jpg",
+   "query": "厦门园林植物园",
+   "credit": {
+    "source": "wikimedia",
+    "author": "大禾花",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xiamen_Botanical_Garden3.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Xiamen_Botanical_Garden4.jpg/1280px-Xiamen_Botanical_Garden4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Xiamen_Botanical_Garden4.jpg/1280px-Xiamen_Botanical_Garden4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Xiamen Botanical Garden4.jpg",
+   "query": "厦门园林植物园",
+   "credit": {
+    "source": "wikimedia",
+    "author": "大禾花",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xiamen_Botanical_Garden4.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Xiamen_Botanical_Garden2.jpg/1280px-Xiamen_Botanical_Garden2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Xiamen_Botanical_Garden2.jpg/1280px-Xiamen_Botanical_Garden2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Xiamen Botanical Garden2.jpg",
+   "query": "厦门园林植物园",
+   "credit": {
+    "source": "wikimedia",
+    "author": "大禾花",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xiamen_Botanical_Garden2.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "front"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "植物园",
+  "雨林",
+  "多肉"
+ ],
+ "popularity": 86,
+ "sources": [
+  {
+   "title": "百度百科·厦门园林植物园",
+   "url": "https://baike.baidu.com/item/%E5%8E%A6%E9%97%A8%E5%9B%AD%E6%9E%97%E6%A4%8D%E7%89%A9%E5%9B%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "厦门园林植物园"
+ },
+ "_geocodeTitle": "厦门园林植物园",
+ "_geocodeSuspect": false,
+ "district": "350203",
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "雨林",
+    "score": 4.7,
+    "note": "定时喷雾，光柱从树冠落下来最出片"
+   },
+   {
+    "label": "体力",
+    "score": 2.8,
+    "note": "园区依山，各区之间全是坡道"
+   },
+   {
+    "label": "人流",
+    "score": 2.8,
+    "note": "喷雾时段人群集中在雨林世界"
+   },
+   {
+    "label": "票价",
+    "score": 3.8,
+    "note": "门票不贵，观光车另计"
+   }
+  ],
+  "body": "建在万石山上的老植物园，雨林世界定时喷雾、光柱从树冠上落下来，多肉区成片仙人掌种在坡上，山上还存着万石岩一带的摩崖石刻。缺点是园区依山、各区之间全是坡道走起来耗体力，喷雾时段集中错过就少一半看头，夏天园内遮阴有限。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "拍照",
+   "带娃",
+   "避暑"
+  ],
+  "avoid": [
+   "只想走平路"
+  ],
+  "sources": []
+ }
 }

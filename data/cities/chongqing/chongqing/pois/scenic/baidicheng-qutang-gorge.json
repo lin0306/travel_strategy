@@ -1,157 +1,195 @@
 {
-  "id": "baidicheng-qutang-gorge",
-  "name": "白帝城·瞿塘峡",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "李白笔下“朝辞白帝彩云间”的托孤故地，10 元人民币背面的夔门实景就在这里。",
-  "description": "白帝城位于奉节县瞿塘峡口，西汉末年公孙述筑城，因三国刘备托孤而闻名。三峡蓄水后白帝城成了江中小岛，进景区要坐免费的摆渡船。庙内明良殿、托孤堂与碑林保留了大量历代题刻，观夔门的位置正对 10 元人民币背面的取景角度。瞿塘峡是三峡中最短最险的一段，两岸绝壁对峙，乘游船穿峡或在山腰俯瞰都各有观感。距离主城约 4 小时车程，更适合与巫山、三峡之巅串成两三日游，单纯一日往返比较赶。",
-  "highlights": [
-    "10 元人民币背面夔门实景",
-    "三国托孤故地，碑林题刻密集",
-    "门票含忠义渡口往返摆渡船"
-  ],
-  "location": {
-    "point": {
-      "lng": 109.589747,
-      "lat": 31.034565,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "重庆市奉节县白帝镇白帝村",
-    "district": "奉节",
-    "transportTip": "主城自驾约 4 小时；或高铁至奉节站转景区直通车约 30 分钟"
+ "id": "baidicheng-qutang-gorge",
+ "name": "白帝城·瞿塘峡",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "李白笔下“朝辞白帝彩云间”的托孤故地，10 元人民币背面的夔门实景就在这里。",
+ "description": "白帝城位于奉节县瞿塘峡口，西汉末年公孙述筑城，因三国刘备托孤而闻名。三峡蓄水后白帝城成了江中小岛，进景区要坐免费的摆渡船。庙内明良殿、托孤堂与碑林保留了大量历代题刻，观夔门的位置正对 10 元人民币背面的取景角度。瞿塘峡是三峡中最短最险的一段，两岸绝壁对峙，乘游船穿峡或在山腰俯瞰都各有观感。距离主城约 4 小时车程，更适合与巫山、三峡之巅串成两三日游，单纯一日往返比较赶。",
+ "highlights": [
+  "10 元人民币背面夔门实景",
+  "三国托孤故地，碑林题刻密集",
+  "门票含忠义渡口往返摆渡船"
+ ],
+ "location": {
+  "point": {
+   "lng": 109.589747,
+   "lat": 31.034565,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 07:40-17:30（摆渡船约 08:30-16:30 运营，以官方公告为准）",
-    "openHoursRef": 0,
-    "ticket": "旺季（3-10 月）100 元 / 淡季 60 元，含往返摆渡船（以官方为准）",
-    "ticketRef": 0,
-    "duration": "建议 150-240 分钟",
-    "durationMinutes": [
-      150,
-      240
-    ],
-    "priceLevel": "mid"
+  "address": "重庆市奉节县白帝镇白帝村",
+  "district": "奉节",
+  "transportTip": "主城自驾约 4 小时；或高铁至奉节站转景区直通车约 30 分钟"
+ },
+ "practical": {
+  "openHours": "约 07:40-17:30（摆渡船约 08:30-16:30 运营，以官方公告为准）",
+  "openHoursRef": 0,
+  "ticket": "旺季（3-10 月）100 元 / 淡季 60 元，含往返摆渡船（以官方为准）",
+  "ticketRef": 0,
+  "duration": "建议 150-240 分钟",
+  "durationMinutes": [
+   150,
+   240
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "kids"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_01.jpg/1280px-%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_01.jpg/1280px-%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "白帝城·瞿塘峡 01.jpg",
+   "query": "白帝城·瞿塘峡",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Liuxingy",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_01.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "kids"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_01.jpg/1280px-%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_01.jpg/1280px-%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "白帝城·瞿塘峡 01.jpg",
-      "query": "白帝城·瞿塘峡",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Liuxingy",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_01.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_02.jpg/1280px-%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_02.jpg/1280px-%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1620,
-      "alt": "白帝城·瞿塘峡 02.jpg",
-      "query": "白帝城·瞿塘峡",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Liuxingy",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_02.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_03.jpg/1280px-%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_03.jpg/1280px-%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "白帝城·瞿塘峡 03.jpg",
-      "query": "白帝城·瞿塘峡",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Liuxingy",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_03.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_04.jpg/1280px-%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_04.jpg/1280px-%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "白帝城·瞿塘峡 04.jpg",
-      "query": "白帝城·瞿塘峡",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Liuxingy",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_04.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_%E5%A4%94%E9%97%A8_01.jpg/1280px-%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_%E5%A4%94%E9%97%A8_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_%E5%A4%94%E9%97%A8_01.jpg/1280px-%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_%E5%A4%94%E9%97%A8_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1620,
-      "alt": "白帝城·瞿塘峡 夔门 01.jpg",
-      "query": "白帝城·瞿塘峡",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Liuxingy",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_%E5%A4%94%E9%97%A8_01.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_%E5%A4%94%E9%97%A8_02.jpg/1280px-%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_%E5%A4%94%E9%97%A8_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_%E5%A4%94%E9%97%A8_02.jpg/1280px-%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_%E5%A4%94%E9%97%A8_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "白帝城·瞿塘峡 夔门 02.jpg",
-      "query": "白帝城·瞿塘峡",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Liuxingy",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_%E5%A4%94%E9%97%A8_02.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "三国遗迹",
-    "三峡",
-    "夔门",
-    "5A"
-  ],
-  "popularity": 90,
-  "sources": [
-    {
-      "title": "白帝城·瞿塘峡景区官网",
-      "url": "http://www.bdcqtx.com/",
-      "kind": "official",
-      "fetchedAt": "2026-09-23"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "白帝城·瞿塘峡"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_02.jpg/1280px-%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_02.jpg/1280px-%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1620,
+   "alt": "白帝城·瞿塘峡 02.jpg",
+   "query": "白帝城·瞿塘峡",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Liuxingy",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_02.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "奉节白帝城瞿塘峡风景旅游区",
-  "_geocodeSuspect": false,
-  "district": "500236"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_03.jpg/1280px-%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_03.jpg/1280px-%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "白帝城·瞿塘峡 03.jpg",
+   "query": "白帝城·瞿塘峡",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Liuxingy",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_03.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_04.jpg/1280px-%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_04.jpg/1280px-%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "白帝城·瞿塘峡 04.jpg",
+   "query": "白帝城·瞿塘峡",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Liuxingy",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_04.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_%E5%A4%94%E9%97%A8_01.jpg/1280px-%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_%E5%A4%94%E9%97%A8_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_%E5%A4%94%E9%97%A8_01.jpg/1280px-%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_%E5%A4%94%E9%97%A8_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1620,
+   "alt": "白帝城·瞿塘峡 夔门 01.jpg",
+   "query": "白帝城·瞿塘峡",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Liuxingy",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_%E5%A4%94%E9%97%A8_01.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_%E5%A4%94%E9%97%A8_02.jpg/1280px-%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_%E5%A4%94%E9%97%A8_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_%E5%A4%94%E9%97%A8_02.jpg/1280px-%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_%E5%A4%94%E9%97%A8_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "白帝城·瞿塘峡 夔门 02.jpg",
+   "query": "白帝城·瞿塘峡",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Liuxingy",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%99%BD%E5%B8%9D%E5%9F%8E%C2%B7%E7%9E%BF%E5%A1%98%E5%B3%A1_%E5%A4%94%E9%97%A8_02.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "三国遗迹",
+  "三峡",
+  "夔门",
+  "5A"
+ ],
+ "popularity": 90,
+ "sources": [
+  {
+   "title": "白帝城·瞿塘峡景区官网",
+   "url": "http://www.bdcqtx.com/",
+   "kind": "official",
+   "fetchedAt": "2026-09-23"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "白帝城·瞿塘峡"
+ },
+ "_geocodeTitle": "奉节白帝城瞿塘峡风景旅游区",
+ "_geocodeSuspect": false,
+ "district": "500236",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.7,
+    "note": "观夔门处正对十元人民币背面的取景角度"
+   },
+   {
+    "label": "人文",
+    "score": 4.6,
+    "note": "托孤堂、明良殿与碑林题刻密集"
+   },
+   {
+    "label": "交通",
+    "score": 2.5,
+    "note": "距主城约四小时车程"
+   },
+   {
+    "label": "时长",
+    "score": 4.0,
+    "note": "含摆渡船，逛完要大半天"
+   }
+  ],
+  "body": "三峡蓄水后白帝城成了江中小岛，坐免费摆渡船过去，庙里的明良殿、托孤堂和碑林把三国那段讲得很实，站在观夔门的位置就是十元人民币背面的角度。缺点是远：从主城开车四小时，一日往返基本全在路上。建议和巫山、三峡之巅串成两三天，单独跑一趟性价比不高。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "三国迷",
+   "三峡线路"
+  ],
+  "avoid": [
+   "一日往返",
+   "时间紧"
+  ],
+  "sources": []
+ }
 }

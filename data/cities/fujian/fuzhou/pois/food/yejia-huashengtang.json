@@ -16,7 +16,7 @@
       "lat": 26.084443,
       "coordSystem": "GCJ-02"
     },
-    "address": "福州市鼓楼区石井巷安福新村",
+    "address": "福州市鼓楼区石井巷51号（安福新村）",
     "district": "鼓楼区",
     "transportTip": "地铁1号线东街口站步行约10分钟"
   },
@@ -52,9 +52,15 @@
       "url": "https://baike.baidu.com/item/%E8%8A%B1%E7%94%9F%E6%B1%A4",
       "kind": "wiki",
       "fetchedAt": "2026-10-04"
+    },
+    {
+      "title": "福州市鼓楼区政府·街镇主理人带你逛鼓楼（东街街道）",
+      "url": "https://www.gl.gov.cn/xjwz/zwgkml/gzdt/glyw/glywszb/202602/t20260224_5287336.htm",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,5 +69,17 @@
   "_geocodeTitle": "叶家花生汤",
   "_geocodeSuspect": false,
   "district": "350102",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "福州市鼓楼区石井巷安福新村",
+        "new": "福州市鼓楼区石井巷51号（安福新村）"
+      }
+    ],
+    "source": "https://www.gl.gov.cn/xjwz/zwgkml/gzdt/glyw/glywszb/202602/t20260224_5287336.htm",
+    "reason": "鼓楼区政府官网东街街道专栏明写石井巷51号"
+  }
 }

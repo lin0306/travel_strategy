@@ -1,6 +1,6 @@
 # 阆中 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-07
+> 生成于 2026-11-16 · 城市数据最后更新 2026-10-07
 
 ## 概览
 
@@ -99,8 +99,6 @@
 | 阆中文庙 | STW932 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Langzhong_Confucian_Temple_(4).jpg) |
 | 阆中文庙 | STW932 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Langzhong_Confucian_Temple_(5).jpg) |
 | 阆中文庙 | Suicasmo | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Langzhong_Confucian_Temple_20260509-1.jpg) |
-| 阆中武庙 | 杨志强Zhiqiang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%98%86%E4%B8%AD%E5%8F%A4%E5%9F%8E%E6%AD%A6%E5%BA%99%E8%A1%97_-_panoramio.jpg) |
-| 阆中武庙 | 杨志强Zhiqiang | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%98%86%E4%B8%AD%E5%8F%A4%E5%9F%8E%E6%AD%A6%E5%BA%99%E8%A1%97_-_panoramio_-_%E6%9D%A8%E5%BF%97%E5%BC%BAZhiqiang.jpg) |
 | 云台观 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8F%B0%E8%A7%82_-_Yuntai_Taoist_Temple_-_2011.08_-_panoramio.jpg) |
 | 云台观 | Nekitarc | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8F%B0%E8%A7%82%E5%9B%BD%E4%BF%9D%E7%A2%91.JPG) |
 | 云台观 | Nekitarc | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8F%B0%E8%A7%82%E7%85%A7%E7%89%87.JPG) |

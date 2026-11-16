@@ -1,6 +1,6 @@
 # 歙县 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-07
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -74,28 +74,32 @@
 | 阳产晒秋 | [百度百科·阳产土楼](https://baike.baidu.com/item/%E9%98%B3%E4%BA%A7%E5%9C%9F%E6%A5%BC) | wiki | 2026-10-07 |
 | 瞻淇鱼灯 | [百度百科·瞻淇鱼灯](https://baike.baidu.com/item/%E7%9E%BB%E6%B7%87%E9%B1%BC%E7%81%AF) | wiki | 2026-10-07 |
 | 叶村叠罗汉 | [百度百科·叶村叠罗汉](https://baike.baidu.com/item/%E5%8F%B6%E6%9D%91%E5%8F%A0%E7%BD%97%E6%B1%89) | wiki | 2026-10-07 |
+| 叶村叠罗汉 | [安徽日报专访传承人：闰年正月初六至十五连演](http://tuopin.ce.cn/news/202604/t20260409_2891377.shtml) | media | 2026-11-13 |
 | 徽剧 | [百度百科·徽剧](https://baike.baidu.com/item/%E5%BE%BD%E5%89%A7) | wiki | 2026-10-07 |
 | 徽墨制作 | [百度百科·徽墨](https://baike.baidu.com/item/%E5%BE%BD%E5%A2%A8) | wiki | 2026-10-07 |
+| 徽墨制作 | [歙县文旅研学基地公告写明月厂营业时段与门牌](https://mp.weixin.qq.com/s?__biz=Mzg3NDc4ODM3NA==&mid=2247600036&idx=2&sn=43b4ac11cea4b4d89c972f93de77f068) | media | 2026-11-13 |
 | 徽州三雕 | [百度百科·徽州三雕](https://baike.baidu.com/item/%E5%BE%BD%E5%B7%9E%E4%B8%89%E9%9B%95) | wiki | 2026-10-07 |
+| 徽州三雕 | [黄山市文旅局：古城已取消大门禁、府衙48元](https://wlj.huangshan.gov.cn/ztzl/ghzwhlyq/jqgk/xxxxjtpwzcd/9327849.html) | media | 2026-11-13 |
 | 歙砚雕刻 | [百度百科·歙砚](https://baike.baidu.com/item/%E6%AD%99%E7%A0%9A) | wiki | 2026-10-07 |
+| 歙砚雕刻 | [歙县文旅研学基地公布砚雕体验车间](https://mp.weixin.qq.com/s?__biz=Mzg3NDc4ODM3NA==&mid=2247600036&idx=2&sn=43b4ac11cea4b4d89c972f93de77f068) | media | 2026-11-13 |
 | 跳钟馗 | [百度百科·跳钟馗](https://baike.baidu.com/item/%E8%B7%B3%E9%92%9F%E9%A6%97) | wiki | 2026-10-07 |
+| 跳钟馗 | [歙县2026端午旅游综述载堨田村跳钟馗巡游](https://www.ahshx.gov.cn/zwgk/public/6616282/12100602.html) | media | 2026-11-13 |
 
 ## 图片版权
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | luchangjiang~鲁昌江 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%89%E5%BE%BD%E7%9C%81%E6%AD%99%E5%8E%BF%E8%80%81%E5%9F%8E%E5%9F%8E%E9%97%A8_-_panoramio.jpg) |
-| 城市封面 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%AD%99%E5%8E%BF%E5%8D%8F%E9%87%8C%E9%A3%8E%E5%85%89%EF%BC%88%E5%8F%91%E5%91%86%E5%86%9C%E5%9C%BA%EF%BC%89_-_panoramio.jpg) |
-| 城市封面 | TIY | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%AD%99%E5%8E%BF%E5%8D%97%E8%B0%AF%E6%A5%BC2.jpg) |
+| 城市封面 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E9%98%B3%E5%92%8C%E9%97%A8_-_panoramio.jpg) |
+| 城市封面 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Tangyue_Village,_2021-09-26_02.jpg) |
+| 城市封面 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%96%B0%E5%AE%89%E6%B1%9F%E5%8D%81%E9%87%8C%E5%B1%B1%E6%B0%B4%E7%94%BB%E5%BB%8A%E6%B8%B8%E8%88%B9%E7%A0%81%E5%A4%B4_-_panoramio.jpg) |
 | 巴慰祖故居 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shexian_Yuliang_2016.11.13_07-47-28.jpg) |
 | 巴慰祖故居 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shexian_Yuliang_2016.11.13_07-47-43.jpg) |
 | 巴慰祖故居 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shexian_Yuliang_2016.11.13_07-48-24.jpg) |
-| 巴慰祖故居 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shexian_Yuliang_2016.11.13_07-48-41.jpg) |
 | 巴慰祖故居 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shexian_Yuliang_2016.11.13_07-48-56.jpg) |
 | 巴慰祖故居 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Shexian_Yuliang_2016.11.13_07-49-10.jpg) |
-| 鲍家花园 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%AD%99%E5%8E%BF%E9%B2%8D%E5%AE%B6%E8%8A%B1%E5%9B%AD%E9%85%92%E5%BA%97_-_panoramio.jpg) |
-| 鲍家花园 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%AD%99%E5%8E%BF%E9%B2%8D%E5%AE%B6%E8%8A%B1%E5%9B%AD%E9%A3%8E%E5%85%89_-_panoramio.jpg) |
-| 鲍家花园 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%AD%99%E5%8E%BF%E9%B2%8D%E5%AE%B6%E8%8A%B1%E5%9B%AD%E9%A3%8E%E5%85%89_-_panoramio_(1).jpg) |
+| 鲍家花园 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 鲍家花园 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 鲍家花园 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 北岸廊桥 | Hongyang813 at Chinese Wikipedia | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%A2%A8%E9%9B%A8%E5%BB%8A%E6%A9%8B2.jpg) |
 | 昌溪 | Alex Needham | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Wooden_bridge_in_Changxi,_She_County,_Anhui_Province,_China.jpg) |
 | 斗山街 | TIY | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%AD%99%E5%8E%BF%E6%96%97%E5%B1%B1%E8%A1%971.jpg) |
@@ -105,7 +109,6 @@
 | 徽州府衙 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E9%A3%8E%E5%85%89%E2%80%94%E2%80%94%E5%BE%BD%E5%B7%9E%E5%BA%9C%E8%A1%99_-_panoramio.jpg) |
 | 徽州府衙 | 猫猫的日记本 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:The_Ceremonial_Door_of_Ancient_Huizhou_Government_Office_03_2014-11.JPG) |
 | 徽州古城 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E2%80%94%E2%80%94%E5%BE%BD%E5%9B%AD_-_panoramio.jpg) |
-| 徽州古城 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E2%80%94%E2%80%94%E5%BE%BD%E5%B7%9E%E5%BA%9C%E8%A1%99_-_panoramio.jpg) |
 | 徽州古城 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E9%A3%8E%E5%85%89_-_panoramio.jpg) |
 | 安徽徽州历史博物馆 | 猫猫的日记本 | CC BY-SA 4.0 | [wikimedia](https://www.wikidata.org/wiki/Q21051843) |
 | 上丰 | Esprit Fugace | CC0 | [wikimedia](https://www.wikidata.org/wiki/Q288630) |

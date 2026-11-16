@@ -1,0 +1,91 @@
+{
+  "id": "chengdu-lichao-aviation-museum",
+  "name": "立巢航空博物馆",
+  "category": "scenic",
+  "subtype": "museum",
+  "summary": "环球中心里的室内航空馆，真机能摸、模拟器免费开",
+  "description": "立巢航空博物馆藏在环球中心西商业 W3 区，是成都少有的民营航空专题馆，也是雨天与盛夏最稳的一个备选——全程室内，空调充足。馆内以航空实物与文献为主体，陈列多架真机与航空发动机实物，配固定飞行模拟器可免费上手，另有智能讲解器可租。每天 10:30 与 14:00 各有一场免费讲解，含周末与节假日，讲解会把机型谱系与背后的航空史串起来，比自己转一圈值钱得多。进门先到售票处换手环，凭手环二维码扫码入馆，当日可以不限次进出，所以中途出去吃饭再回来也没问题。1.1 米以下儿童免票（一名成人最多带一名免票儿童），1.1 到 1.5 米为儿童票，馆内设儿童专用洗手间。建议留 1.5 小时；带孩子的话，讲解场次前后的时间段最好安排。",
+  "highlights": [
+    "固定飞行模拟器免费体验，儿童可上手",
+    "每天 10:30、14:00 两场免费讲解，含周末节假日",
+    "全程室内，下雨天与盛夏都能去"
+  ],
+  "location": {
+    "point": {
+      "lng": 104.060976,
+      "lat": 30.568764,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "成都市武侯区天府大道北段 1700 号环球中心西商业 W3",
+    "district": "武侯区",
+    "transportTip": "地铁 1 号线锦城广场站 C 口进环球中心，穿行至西商业 W3 区"
+  },
+  "practical": {
+    "openHours": "周一至周日 10:00-18:00（17:30 停止售票）",
+    "openHoursRef": 0,
+    "ticket": "成人 168 元，儿童（1.1-1.5 米）98 元，1.1 米以下免票",
+    "ticketRef": 0,
+    "duration": "建议 90-120 分钟",
+    "durationMinutes": [
+      90,
+      120
+    ],
+    "priceLevel": "high"
+  },
+  "audience": [
+    "kids",
+    "family",
+    "friends",
+    "couple"
+  ],
+  "accessible": true,
+  "tips": [
+    "进门先换手环，凭手环扫码入馆，当日可多次进出",
+    "建议留 1.5 小时，跟着讲解场次走比自己逛值",
+    "环球中心停车位充足，但周末仍紧张"
+  ],
+  "images": [],
+  "coverIndex": 0,
+  "tags": [
+    "航空",
+    "室内",
+    "亲子"
+  ],
+  "popularity": 70,
+  "sources": [
+    {
+      "title": "立巢航空博物馆 · 参观攻略（官网）",
+      "url": "https://www.lcam.org.cn/index.php?a=shows&catid=1&id=4",
+      "kind": "official",
+      "fetchedAt": "2026-11-06"
+    },
+    {
+      "title": "官网参观攻略：全年开放、周一至周日 10:00-18:00",
+      "url": "https://www.lcam.org.cn/index.php?a=shows&catid=1&id=4",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
+    }
+  ],
+  "updatedAt": "2026-11-08",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Lichao Aviation Museum",
+    "zh": "立巢航空博物馆"
+  },
+  "_geocodeTitle": "立巢航空博物馆",
+  "_geocodeSuspect": false,
+  "_noImage": true,
+  "district": "510107",
+  "_patrol": {
+    "at": "2026-11-08",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "10:00-18:00（17:30 停止售票）",
+        "new": "周一至周日 10:00-18:00（17:30 停止售票）"
+      }
+    ],
+    "source": "https://www.lcam.org.cn/index.php?a=shows&catid=1&id=4",
+    "reason": "官网参观攻略：全年开放、周一至周日 10:00-18:00"
+  }
+}

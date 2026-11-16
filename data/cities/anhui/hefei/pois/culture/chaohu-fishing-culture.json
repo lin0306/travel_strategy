@@ -39,7 +39,52 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [],
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/34404287/pexels-photo-34404287.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/34404287/pexels-photo-34404287.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 1080,
+      "height": 720,
+      "alt": "Stacks of dried fish on bamboo trays drying in the sun outdoors.",
+      "query": "巢湖渔家文化",
+      "credit": {
+        "source": "pexels",
+        "author": "pooliwattano P",
+        "sourceUrl": "https://www.pexels.com/photo/freshly-dried-fish-on-bamboo-tray-outdoor-34404287/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-09",
+        "tier": "ambience",
+        "via": "stock:pexels"
+      }
+    },
+    {
+      "url": "https://images.pexels.com/photos/35078811/pexels-photo-35078811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "thumbUrl": "https://images.pexels.com/photos/35078811/pexels-photo-35078811.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "width": 1080,
+      "height": 720,
+      "alt": "Close-up of fish drying in woven baskets under sunlight, highlighting traditional preservation methods.",
+      "query": "巢湖渔家文化",
+      "credit": {
+        "source": "pexels",
+        "author": "pooliwattano P",
+        "sourceUrl": "https://www.pexels.com/photo/sunlit-fresh-fish-drying-outdoors-in-basket-35078811/",
+        "license": "Pexels License",
+        "attributionRequired": false
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-09",
+        "tier": "ambience",
+        "via": "stock:pexels"
+      }
+    }
+  ],
   "coverIndex": 0,
   "tags": [
     "渔家",
@@ -55,13 +100,12 @@
       "fetchedAt": "2026-10-04"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Chaohu Fishing Culture",
     "zh": "巢湖渔家文化"
   },
   "_geocodeTitle": "巢湖市",
-  "district": "340181",
-  "_noImage": true
+  "district": "340181"
 }

@@ -1,157 +1,194 @@
 {
-  "id": "chengde-museum",
-  "name": "承德博物馆",
-  "category": "scenic",
-  "subtype": "museum",
-  "summary": "双桥区一座讲承德与清帝避暑的博物馆，器物、模型和民族服饰都有。",
-  "description": "承德博物馆在双桥区，是讲这座城和清朝皇帝避暑的博物馆。清帝怎么来这儿、避暑山庄怎么修、外八庙为什么是这些样式，这里都有讲。展品有器物、建筑模型、民族服饰。它是免费的，馆新，展陈清楚。来避暑山庄之前先看一遍，逛园子会更有数。",
-  "highlights": [
-    "免费博物馆，讲清帝避暑与外八庙由来",
-    "有器物建筑模型民族服饰",
-    "馆新展陈清，逛园前先看更有数"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.950096,
-      "lat": 41.008072,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市双桥区承德博物馆",
-    "district": "双桥区",
-    "transportTip": "市区公交或步行到博物馆"
+ "id": "chengde-museum",
+ "name": "承德博物馆",
+ "category": "scenic",
+ "subtype": "museum",
+ "summary": "双桥区一座讲承德与清帝避暑的博物馆，器物、模型和民族服饰都有。",
+ "description": "承德博物馆在双桥区，是讲这座城和清朝皇帝避暑的博物馆。清帝怎么来这儿、避暑山庄怎么修、外八庙为什么是这些样式，这里都有讲。展品有器物、建筑模型、民族服饰。它是免费的，馆新，展陈清楚。来避暑山庄之前先看一遍，逛园子会更有数。",
+ "highlights": [
+  "免费博物馆，讲清帝避暑与外八庙由来",
+  "有器物建筑模型民族服饰",
+  "馆新展陈清，逛园前先看更有数"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.950096,
+   "lat": 41.008072,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约09:00-17:00（周一可能闭馆），以公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 90-150 分钟",
-    "durationMinutes": [
-      90,
-      150
-    ],
-    "priceLevel": "free"
+  "address": "河北省承德市双桥区承德博物馆",
+  "district": "双桥区",
+  "transportTip": "市区公交或步行到博物馆"
+ },
+ "practical": {
+  "openHours": "约09:00-17:00（周一可能闭馆），以公告为准",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 90-150 分钟",
+  "durationMinutes": [
+   90,
+   150
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "family",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Bronze_Mask%2C_Liao_Dynasty.jpg/1280px-Bronze_Mask%2C_Liao_Dynasty.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Bronze_Mask%2C_Liao_Dynasty.jpg/1280px-Bronze_Mask%2C_Liao_Dynasty.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Bronze Mask, Liao Dynasty.jpg",
+   "query": "承德博物馆 承德",
+   "credit": {
+    "source": "wikimedia",
+    "author": "H2v5o68z",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bronze_Mask,_Liao_Dynasty.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
   },
-  "audience": [
-    "family",
-    "elders"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Bronze_Mask%2C_Liao_Dynasty.jpg/1280px-Bronze_Mask%2C_Liao_Dynasty.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Bronze_Mask%2C_Liao_Dynasty.jpg/1280px-Bronze_Mask%2C_Liao_Dynasty.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Bronze Mask, Liao Dynasty.jpg",
-      "query": "承德博物馆 承德",
-      "credit": {
-        "source": "wikimedia",
-        "author": "H2v5o68z",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bronze_Mask,_Liao_Dynasty.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Chengde_Museum_1.jpg/1280px-Chengde_Museum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Chengde_Museum_1.jpg/1280px-Chengde_Museum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Chengde Museum 1.jpg",
-      "query": "承德博物馆 承德",
-      "credit": {
-        "source": "wikimedia",
-        "author": "H2v5o68z",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengde_Museum_1.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Chengde_Museum_2.jpg/1280px-Chengde_Museum_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Chengde_Museum_2.jpg/1280px-Chengde_Museum_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Chengde Museum 2.jpg",
-      "query": "承德博物馆 承德",
-      "credit": {
-        "source": "wikimedia",
-        "author": "H2v5o68z",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengde_Museum_2.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Chengde_Museum_3.jpg/1280px-Chengde_Museum_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Chengde_Museum_3.jpg/1280px-Chengde_Museum_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Chengde Museum 3.jpg",
-      "query": "承德博物馆 承德",
-      "credit": {
-        "source": "wikimedia",
-        "author": "H2v5o68z",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengde_Museum_3.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Chengde_Museum_4.jpg/1280px-Chengde_Museum_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Chengde_Museum_4.jpg/1280px-Chengde_Museum_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Chengde Museum 4.jpg",
-      "query": "承德博物馆 承德",
-      "credit": {
-        "source": "wikimedia",
-        "author": "H2v5o68z",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengde_Museum_4.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Chengde_Museum_5.jpg/1280px-Chengde_Museum_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Chengde_Museum_5.jpg/1280px-Chengde_Museum_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Chengde Museum 5.jpg",
-      "query": "承德博物馆 承德",
-      "credit": {
-        "source": "wikimedia",
-        "author": "H2v5o68z",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengde_Museum_5.jpg",
-        "license": "CC0",
-        "attributionRequired": false
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "博物馆",
-    "清史",
-    "免费"
-  ],
-  "popularity": 70,
-  "sources": [
-    {
-      "title": "百度百科·承德博物馆",
-      "url": "https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7%E5%8D%9A%E7%89%A9%E9%A6%86",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "承德博物馆"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Chengde_Museum_1.jpg/1280px-Chengde_Museum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Chengde_Museum_1.jpg/1280px-Chengde_Museum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Chengde Museum 1.jpg",
+   "query": "承德博物馆 承德",
+   "credit": {
+    "source": "wikimedia",
+    "author": "H2v5o68z",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengde_Museum_1.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
   },
-  "_geocodeTitle": "承德博物馆",
-  "_geocodeSuspect": false,
-  "district": "130802"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Chengde_Museum_2.jpg/1280px-Chengde_Museum_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Chengde_Museum_2.jpg/1280px-Chengde_Museum_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Chengde Museum 2.jpg",
+   "query": "承德博物馆 承德",
+   "credit": {
+    "source": "wikimedia",
+    "author": "H2v5o68z",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengde_Museum_2.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Chengde_Museum_3.jpg/1280px-Chengde_Museum_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Chengde_Museum_3.jpg/1280px-Chengde_Museum_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Chengde Museum 3.jpg",
+   "query": "承德博物馆 承德",
+   "credit": {
+    "source": "wikimedia",
+    "author": "H2v5o68z",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengde_Museum_3.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Chengde_Museum_4.jpg/1280px-Chengde_Museum_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Chengde_Museum_4.jpg/1280px-Chengde_Museum_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Chengde Museum 4.jpg",
+   "query": "承德博物馆 承德",
+   "credit": {
+    "source": "wikimedia",
+    "author": "H2v5o68z",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengde_Museum_4.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Chengde_Museum_5.jpg/1280px-Chengde_Museum_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Chengde_Museum_5.jpg/1280px-Chengde_Museum_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Chengde Museum 5.jpg",
+   "query": "承德博物馆 承德",
+   "credit": {
+    "source": "wikimedia",
+    "author": "H2v5o68z",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengde_Museum_5.jpg",
+    "license": "CC0",
+    "attributionRequired": false
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "博物馆",
+  "清史",
+  "免费"
+ ],
+ "popularity": 70,
+ "sources": [
+  {
+   "title": "百度百科·承德博物馆",
+   "url": "https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7%E5%8D%9A%E7%89%A9%E9%A6%86",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "承德博物馆"
+ },
+ "_geocodeTitle": "承德博物馆",
+ "_geocodeSuspect": false,
+ "district": "130802",
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "展陈",
+    "score": 4.5,
+    "note": "器物、建筑模型、民族服饰都成体系"
+   },
+   {
+    "label": "免费程度",
+    "score": 4.8,
+    "note": "免费开放"
+   },
+   {
+    "label": "人流",
+    "score": 3.8,
+    "note": "比山庄里清静"
+   },
+   {
+    "label": "讲解",
+    "score": 3.6,
+    "note": "展签偏简，建议租讲解"
+   }
+  ],
+  "body": "讲这座城和清帝避暑的博物馆：皇帝为什么来、山庄怎么修、外八庙为什么是这些样式，一圈看下来再逛园子会心里有数得多。免费、馆新、展陈清楚，器物、建筑模型、民族服饰都有。缺点是位置不在山庄门口，得单独安排一段路；周一常闭馆，临时起意容易吃闭门羹；展签偏简，不租讲解的话信息量要打个折。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "先做功课",
+   "下雨天"
+  ],
+  "avoid": [
+   "周一前往"
+  ],
+  "sources": []
+ }
 }

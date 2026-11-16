@@ -224,6 +224,49 @@ export const PoiPracticalSchema = z
   .default({})
 export type PoiPractical = z.infer<typeof PoiPracticalSchema>
 
+/* ── AI 点评 ────────────────────────────────────────────────────── */
+
+/**
+ * 一条分项判断（这一方面好不好）。
+ *
+ * ★ 与入库四维（`tools/rate_poi.py` 的口碑/独特/密度/可信）**不是同一套东西**：
+ *   四维是固定口径的收录闸门（可复现、可对抗），
+ *   facet 是这点位自己的解释（博物馆看展陈与人流、爬山看体力与视野）。
+ *   别拿 facets 求平均去校验 score，两者刻意不构成算术关系。
+ */
+export const ReviewFacetSchema = z.object({
+  /** 2~6 字，如「展陈」「人流」「排队」 */
+  label: z.string().min(2).max(6),
+  score: z.number().min(0).max(5),
+  /** 一句话依据，一行内说得完 */
+  note: z.string().max(40).optional(),
+})
+export type ReviewFacet = z.infer<typeof ReviewFacetSchema>
+
+/**
+ * AI 点评 —— 详情页卡片 + 列表分数徽标的唯一数据源。
+ *
+ * ★ `basis` 必须诚实：`web` = 联网查过风评与官方口径；`corpus` = 只用站内已核实资料合成。
+ * ★ 免责是硬要求（用户 2026-11-10）：卡片与「关于」弹窗都必须带说明，
+ *   判据在 `check_app.py` 的 AZ 组。绝不当成"用户评分"展示 —— 那是伪造权威。
+ */
+export const PoiReviewSchema = z.object({
+  /** 综合分，与入库打分同源；列表按它排序 */
+  score: z.number().min(0).max(5),
+  verdict: z.enum(['专程去', '值得一去', '顺路看看', '时间富余再说']),
+  /** 2~5 条，按这点位自己的性质取 —— 不必凑满 */
+  facets: z.array(ReviewFacetSchema).min(2).max(5),
+  /** 正文。必须含至少一句负面（`check_app` AZ 组有词表判据） */
+  body: z.string().min(40).max(400),
+  fits: z.array(z.string()).default([]),
+  avoid: z.array(z.string()).default([]),
+  basis: z.enum(['web', 'corpus']),
+  sources: z.array(z.string()).default([]),
+  /** 生成日期 YYYY-MM-DD —— 点评会过期，必须能看出多旧 */
+  at: z.string(),
+})
+export type PoiReview = z.infer<typeof PoiReviewSchema>
+
 /**
  * 停留时长的分类默认值（09 文档 4.2 的降级第 ② 级）。
  * 写在契约层而不是组件里 —— 组件不该持有业务默认值。
@@ -264,8 +307,12 @@ export const PoiSchema = z.object({
   /** ★ 无障碍友好。**默认 false** —— 未核实就不声称 */
   accessible: z.boolean().default(false),
   tips: z.array(z.string()).default([]),
-  /** ★ 允许 0 张（图源覆盖不全时前端渲染占位卡）。与 `schema.py` 同口径，别再加回 `.min(1)` */
-  images: z.array(ImageItemSchema).max(8),
+  /**
+   * ★ 允许 0 张（图源覆盖不全时前端渲染占位卡）。与 `schema.py` 同口径，别再加回 `.min(1)`
+   * ★ 2026-11-08 去掉 `.max(8)`：候选补图链路看图判 ok 的图全部入库，不再按张数截断。
+   *   前端缩略图条是横向滚动（`PoiDetail` 的 `.scroll`），多几张不会撑破布局。
+   */
+  images: z.array(ImageItemSchema),
   coverIndex: z.number().int().min(0).default(0),
   tags: z.array(z.string()).default([]),
   /**
@@ -275,6 +322,14 @@ export const PoiSchema = z.object({
    */
   popularity: z.number().int().min(0).max(100).default(50),
   sources: z.array(SourceRefSchema).min(1),
+  /**
+   * ★ AI 点评（可选）。没有就是 `undefined` —— 前端整块不渲染，
+   *   **不要**写成"暂无点评"占位（那会让全站显得空）。
+   *
+   *   ★ 与入库打分（`tools/rate_poi.py` 的四维）不是一回事：
+   *     四维是固定口径的收录闸门，facets 是这点位自己的分项解释。
+   */
+  review: PoiReviewSchema.optional(),
   updatedAt: z.string(),
   /**
    * ★ 派生字段 —— 所属**区**的 adcode，由 `build` 用「坐标点在区多边形内」判定后写回，
@@ -448,6 +503,35 @@ export const CityIndexItemSchema = CitySchema.pick({
 export type CityIndexItem = z.infer<typeof CityIndexItemSchema>
 
 export const CityIndexSchema = z.array(CityIndexItemSchema)
+
+/* ══════════════════════════════════════════════════════════════════
+ * 五之二、省级展示层（`data/provinces/index.json`，2026-11-14）
+ * ══════════════════════════════════════════════════════════════════ */
+
+/**
+ * 一个省级单位的**可读内容**。
+ *
+ * ★ 省级在 `data/` 里原本只有区划与边界（`_generated/provinces/*.geo.json`），
+ *   没有任何能给人读的东西 —— 首页省卡只能拿"下辖几个市 / 收了哪几座"凑一段话。
+ *   这里补的是"这个省是什么样"，与市级的 `City.intro` / `heroImages` 对齐。
+ *
+ * ★ `heroImages` **允许为空**：省封面要逐张看图后才写回
+ *   （`tools/province_cover.py` 的 grab → sheet → apply）。没审完之前整块不渲染。
+ *   与 `City.heroImages` 的 `min_length: 1` 刻意不同 —— 城市封面是
+ *   "点进这座城市唯一的视觉锚点"，省卡没有它也成立。
+ */
+export const ProvinceContentSchema = z.object({
+  intro: z.string().min(60),
+  heroImages: z.array(ImageItemSchema).max(3).default([]),
+})
+export type ProvinceContent = z.infer<typeof ProvinceContentSchema>
+
+/** `data/provinces/index.json`：键 = 6 位省级 adcode（与 `district-tree.json` 的省节点一致） */
+export const ProvinceIndexSchema = z.object({
+  updatedAt: z.string(),
+  provinces: z.record(z.string(), ProvinceContentSchema),
+})
+export type ProvinceIndex = z.infer<typeof ProvinceIndexSchema>
 export type CityIndex = z.infer<typeof CityIndexSchema>
 
 /* ══════════════════════════════════════════════════════════════════

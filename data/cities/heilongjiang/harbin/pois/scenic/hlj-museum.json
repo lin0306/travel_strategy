@@ -1,158 +1,197 @@
 {
-  "id": "hlj-museum",
-  "name": "黑龙江省博物馆",
-  "category": "scenic",
-  "subtype": "museum",
-  "summary": "红军街上的省级馆，从远古化石到渤海国与金代的文物都有，是了解这片土地的地方。",
-  "description": "省博在南岗区红军街，建筑本身是上世纪初的老楼，早年是商场，后来改成博物馆，是哈尔滨现存比较完整的一批早期公共建筑之一。陈列按时间排：从远古的脊椎动物化石开始，到新石器、渤海国、金代，再到近代；这片土地先后有过渤海、金两个政权，金代那一段与阿城的金上京是连着的。还有一部分讲哈尔滨这座城怎么随铁路长起来。馆藏不算顶级，但作为进黑龙江的第一课够用，一个半小时到两小时。免费，带证件领票。",
-  "highlights": [
-    "上世纪初的老楼改的馆，建筑本身也是展品",
-    "从远古化石到渤海国与金代，串起这片土地的政权",
-    "免费，带证件领票"
-  ],
-  "location": {
-    "point": {
-      "lng": 126.641333,
-      "lat": 45.757518,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黑龙江省哈尔滨市南岗区红军街50号",
-    "district": "南岗区",
-    "transportTip": "地铁一号线或二号线博物馆站；多条公交至博物馆站"
+ "id": "hlj-museum",
+ "name": "黑龙江省博物馆",
+ "category": "scenic",
+ "subtype": "museum",
+ "summary": "红军街上的省级馆，从远古化石到渤海国与金代的文物都有，是了解这片土地的地方。",
+ "description": "省博在南岗区红军街，建筑本身是上世纪初的老楼，早年是商场，后来改成博物馆，是哈尔滨现存比较完整的一批早期公共建筑之一。陈列按时间排：从远古的脊椎动物化石开始，到新石器、渤海国、金代，再到近代；这片土地先后有过渤海、金两个政权，金代那一段与阿城的金上京是连着的。还有一部分讲哈尔滨这座城怎么随铁路长起来。馆藏不算顶级，但作为进黑龙江的第一课够用，一个半小时到两小时。免费，带证件领票。",
+ "highlights": [
+  "上世纪初的老楼改的馆，建筑本身也是展品",
+  "从远古化石到渤海国与金代，串起这片土地的政权",
+  "免费，带证件领票"
+ ],
+ "location": {
+  "point": {
+   "lng": 126.641333,
+   "lat": 45.757518,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约9:00-16:30，周一闭馆，以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费，凭证件领票",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "free"
+  "address": "黑龙江省哈尔滨市南岗区红军街50号",
+  "district": "南岗区",
+  "transportTip": "地铁一号线或二号线博物馆站；多条公交至博物馆站"
+ },
+ "practical": {
+  "openHours": "约9:00-16:30，周一闭馆，以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "免费，凭证件领票",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "family",
+  "kids",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/20230606_Heilongjiang_Sheng_Bowuguan.jpg/1280px-20230606_Heilongjiang_Sheng_Bowuguan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/20230606_Heilongjiang_Sheng_Bowuguan.jpg/1280px-20230606_Heilongjiang_Sheng_Bowuguan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "20230606 Heilongjiang Sheng Bowuguan.jpg",
+   "query": "黑龙江省博物馆 哈尔滨",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Yumeto",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20230606_Heilongjiang_Sheng_Bowuguan.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "family",
-    "kids",
-    "elders"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/20230606_Heilongjiang_Sheng_Bowuguan.jpg/1280px-20230606_Heilongjiang_Sheng_Bowuguan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/20230606_Heilongjiang_Sheng_Bowuguan.jpg/1280px-20230606_Heilongjiang_Sheng_Bowuguan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "20230606 Heilongjiang Sheng Bowuguan.jpg",
-      "query": "黑龙江省博物馆 哈尔滨",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Yumeto",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20230606_Heilongjiang_Sheng_Bowuguan.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Collections_of_the_Heilongjiang_Provincial_Museum_1.jpg/1280px-Collections_of_the_Heilongjiang_Provincial_Museum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Collections_of_the_Heilongjiang_Provincial_Museum_1.jpg/1280px-Collections_of_the_Heilongjiang_Provincial_Museum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Collections of the Heilongjiang Provincial Museum 1.jpg",
-      "query": "黑龙江省博物馆 哈尔滨",
-      "credit": {
-        "source": "wikimedia",
-        "author": "EditQ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Collections_of_the_Heilongjiang_Provincial_Museum_1.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Collections_of_the_Heilongjiang_Provincial_Museum_2.jpg/1280px-Collections_of_the_Heilongjiang_Provincial_Museum_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Collections_of_the_Heilongjiang_Provincial_Museum_2.jpg/1280px-Collections_of_the_Heilongjiang_Provincial_Museum_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Collections of the Heilongjiang Provincial Museum 2.jpg",
-      "query": "黑龙江省博物馆 哈尔滨",
-      "credit": {
-        "source": "wikimedia",
-        "author": "EditQ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Collections_of_the_Heilongjiang_Provincial_Museum_2.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Fossils_in_the_Heilongjiang_Provincial_Museum_1.jpg/1280px-Fossils_in_the_Heilongjiang_Provincial_Museum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Fossils_in_the_Heilongjiang_Provincial_Museum_1.jpg/1280px-Fossils_in_the_Heilongjiang_Provincial_Museum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Fossils in the Heilongjiang Provincial Museum 1.jpg",
-      "query": "黑龙江省博物馆 哈尔滨",
-      "credit": {
-        "source": "wikimedia",
-        "author": "EditQ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fossils_in_the_Heilongjiang_Provincial_Museum_1.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Heilongjiang_Museum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Heilongjiang_Museum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Heilongjiang Museum.JPG",
-      "query": "黑龙江省博物馆 哈尔滨",
-      "credit": {
-        "source": "wikimedia",
-        "author": "myself",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heilongjiang_Museum.JPG",
-        "license": "Public domain",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Heilongjiang_Provincial_Museum_1.jpg/1280px-Heilongjiang_Provincial_Museum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Heilongjiang_Provincial_Museum_1.jpg/1280px-Heilongjiang_Provincial_Museum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 665,
-      "alt": "Heilongjiang Provincial Museum 1.jpg",
-      "query": "黑龙江省博物馆 哈尔滨",
-      "credit": {
-        "source": "wikimedia",
-        "author": "EditQ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heilongjiang_Provincial_Museum_1.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "省级馆",
-    "免费",
-    "老建筑"
-  ],
-  "popularity": 76,
-  "sources": [
-    {
-      "title": "百度百科·黑龙江省博物馆",
-      "url": "https://baike.baidu.com/item/%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "黑龙江省博物馆"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Collections_of_the_Heilongjiang_Provincial_Museum_1.jpg/1280px-Collections_of_the_Heilongjiang_Provincial_Museum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Collections_of_the_Heilongjiang_Provincial_Museum_1.jpg/1280px-Collections_of_the_Heilongjiang_Provincial_Museum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Collections of the Heilongjiang Provincial Museum 1.jpg",
+   "query": "黑龙江省博物馆 哈尔滨",
+   "credit": {
+    "source": "wikimedia",
+    "author": "EditQ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Collections_of_the_Heilongjiang_Provincial_Museum_1.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "黑龙江省博物馆",
-  "_geocodeSuspect": false,
-  "district": "230103"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Collections_of_the_Heilongjiang_Provincial_Museum_2.jpg/1280px-Collections_of_the_Heilongjiang_Provincial_Museum_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Collections_of_the_Heilongjiang_Provincial_Museum_2.jpg/1280px-Collections_of_the_Heilongjiang_Provincial_Museum_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Collections of the Heilongjiang Provincial Museum 2.jpg",
+   "query": "黑龙江省博物馆 哈尔滨",
+   "credit": {
+    "source": "wikimedia",
+    "author": "EditQ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Collections_of_the_Heilongjiang_Provincial_Museum_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Fossils_in_the_Heilongjiang_Provincial_Museum_1.jpg/1280px-Fossils_in_the_Heilongjiang_Provincial_Museum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Fossils_in_the_Heilongjiang_Provincial_Museum_1.jpg/1280px-Fossils_in_the_Heilongjiang_Provincial_Museum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Fossils in the Heilongjiang Provincial Museum 1.jpg",
+   "query": "黑龙江省博物馆 哈尔滨",
+   "credit": {
+    "source": "wikimedia",
+    "author": "EditQ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fossils_in_the_Heilongjiang_Provincial_Museum_1.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Heilongjiang_Museum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Heilongjiang_Museum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Heilongjiang Museum.JPG",
+   "query": "黑龙江省博物馆 哈尔滨",
+   "credit": {
+    "source": "wikimedia",
+    "author": "myself",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heilongjiang_Museum.JPG",
+    "license": "Public domain",
+    "attributionRequired": false
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Heilongjiang_Provincial_Museum_1.jpg/1280px-Heilongjiang_Provincial_Museum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Heilongjiang_Provincial_Museum_1.jpg/1280px-Heilongjiang_Provincial_Museum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 665,
+   "alt": "Heilongjiang Provincial Museum 1.jpg",
+   "query": "黑龙江省博物馆 哈尔滨",
+   "credit": {
+    "source": "wikimedia",
+    "author": "EditQ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heilongjiang_Provincial_Museum_1.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "省级馆",
+  "免费",
+  "老建筑"
+ ],
+ "popularity": 76,
+ "sources": [
+  {
+   "title": "百度百科·黑龙江省博物馆",
+   "url": "https://baike.baidu.com/item/%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "黑龙江省博物馆"
+ },
+ "_geocodeTitle": "黑龙江省博物馆",
+ "_geocodeSuspect": false,
+ "district": "230103",
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "建筑",
+    "score": 4.2,
+    "note": "上世纪初老楼改的馆，本身是展品"
+   },
+   {
+    "label": "展陈",
+    "score": 4.0,
+    "note": "从化石到渤海、金代串起这片土地"
+   },
+   {
+    "label": "免费程度",
+    "score": 4.6,
+    "note": "带证件领票，不花钱"
+   },
+   {
+    "label": "讲解",
+    "score": 3.2,
+    "note": "说明牌信息量有限，展陈偏旧"
+   }
+  ],
+  "body": "红军街上的省级馆，馆址本身就是上世纪初的老楼，早年做商场，后来改成博物馆，建筑算一件展品。陈列按时间铺：从远古化石到新石器、渤海国、金代，再到近代，把这片土地先后有过的政权串起来，还有一部分讲哈尔滨怎么随铁路长起来。免费、带证件领票，作为进黑龙江的第一课够用。缺点是馆藏不算顶级，展陈方式偏旧、说明牌信息量有限，对已经逛过大型综合馆的人会显得单薄；热门时段领票要排队。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "入城第一课",
+   "看老建筑",
+   "免费"
+  ],
+  "avoid": [
+   "追镇馆之宝",
+   "只看精品展"
+  ],
+  "sources": []
+ }
 }

@@ -39,53 +39,7 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/%E4%B9%9D%E5%AF%A8%E6%A0%91%E6%AD%A3%E6%B2%9F%E7%9A%84%E6%B7%B1%E7%A7%8B_-_panoramio.jpg/1280px-%E4%B9%9D%E5%AF%A8%E6%A0%91%E6%AD%A3%E6%B2%9F%E7%9A%84%E6%B7%B1%E7%A7%8B_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/%E4%B9%9D%E5%AF%A8%E6%A0%91%E6%AD%A3%E6%B2%9F%E7%9A%84%E6%B7%B1%E7%A7%8B_-_panoramio.jpg/1280px-%E4%B9%9D%E5%AF%A8%E6%A0%91%E6%AD%A3%E6%B2%9F%E7%9A%84%E6%B7%B1%E7%A7%8B_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "九寨树正沟的深秋 - panoramio.jpg",
-      "query": "树正寨 九寨沟",
-      "credit": {
-        "source": "wikimedia",
-        "author": "月亮河a",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B9%9D%E5%AF%A8%E6%A0%91%E6%AD%A3%E6%B2%9F%E7%9A%84%E6%B7%B1%E7%A7%8B_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/%E5%9B%9B%E5%B7%9D.%E4%B9%9D%E5%AF%A8%E6%B2%9F._%E6%A0%91%E6%AD%A3%E5%AF%A8_-_panoramio.jpg/1280px-%E5%9B%9B%E5%B7%9D.%E4%B9%9D%E5%AF%A8%E6%B2%9F._%E6%A0%91%E6%AD%A3%E5%AF%A8_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/%E5%9B%9B%E5%B7%9D.%E4%B9%9D%E5%AF%A8%E6%B2%9F._%E6%A0%91%E6%AD%A3%E5%AF%A8_-_panoramio.jpg/1280px-%E5%9B%9B%E5%B7%9D.%E4%B9%9D%E5%AF%A8%E6%B2%9F._%E6%A0%91%E6%AD%A3%E5%AF%A8_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 439,
-      "alt": "四川.九寨沟. 树正寨 - panoramio.jpg",
-      "query": "树正寨 九寨沟",
-      "credit": {
-        "source": "wikimedia",
-        "author": "zhiyin586@163.com",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%9B%9B%E5%B7%9D.%E4%B9%9D%E5%AF%A8%E6%B2%9F._%E6%A0%91%E6%AD%A3%E5%AF%A8_-_panoramio.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/%E5%9B%9B%E5%B7%9D%E4%B9%9D%E5%AF%A8%E6%B2%9F.jpg/1280px-%E5%9B%9B%E5%B7%9D%E4%B9%9D%E5%AF%A8%E6%B2%9F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/%E5%9B%9B%E5%B7%9D%E4%B9%9D%E5%AF%A8%E6%B2%9F.jpg/1280px-%E5%9B%9B%E5%B7%9D%E4%B9%9D%E5%AF%A8%E6%B2%9F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "四川九寨沟.jpg",
-      "query": "树正寨 九寨沟",
-      "credit": {
-        "source": "wikimedia",
-        "author": "geoff leng",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%9B%9B%E5%B7%9D%E4%B9%9D%E5%AF%A8%E6%B2%9F.jpg",
-        "license": "Public domain",
-        "attributionRequired": false
-      }
-    }
-  ],
+  "images": [],
   "coverIndex": 0,
   "tags": [
     "藏寨",
@@ -101,7 +55,7 @@
       "fetchedAt": "2026-10-06"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -109,5 +63,15 @@
   },
   "_geocodeTitle": "九寨风景区树正寨观景台(高视角)",
   "_geocodeSuspect": false,
-  "district": "513225"
+  "district": "513225",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 3 张（待重抓）",
+    "droppedImages": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/%E4%B9%9D%E5%AF%A8%E6%A0%91%E6%AD%A3%E6%B2%9F%E7%9A%84%E6%B7%B1%E7%A7%8B_-_panoramio.jpg/1280px-%E4%B9%9D%E5%AF%A8%E6%A0%91%E6%AD%A3%E6%B2%9F%E7%9A%84%E6%B7%B1%E7%A7%8B_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/%E5%9B%9B%E5%B7%9D.%E4%B9%9D%E5%AF%A8%E6%B2%9F._%E6%A0%91%E6%AD%A3%E5%AF%A8_-_panoramio.jpg/1280px-%E5%9B%9B%E5%B7%9D.%E4%B9%9D%E5%AF%A8%E6%B2%9F._%E6%A0%91%E6%AD%A3%E5%AF%A8_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/%E5%9B%9B%E5%B7%9D%E4%B9%9D%E5%AF%A8%E6%B2%9F.jpg/1280px-%E5%9B%9B%E5%B7%9D%E4%B9%9D%E5%AF%A8%E6%B2%9F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  }
 }

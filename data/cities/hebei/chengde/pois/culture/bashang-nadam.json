@@ -1,66 +1,108 @@
 {
-  "id": "bashang-nadam",
-  "name": "坝上那达慕",
-  "category": "culture",
-  "subtype": "performance",
-  "summary": "坝上草原夏季的那达慕大会，赛马、摔跤、射箭，是草原上的热闹日子。",
-  "description": "那达慕是蒙古族的一个老节日 —— 赛马、摔跤、射箭三样是主角。坝上这一片有蒙古族聚居，夏天会办那达慕。那几天草原上搭帐篷，周围的人都来，穿自己的衣服，热闹一整天。它不是每天有，要算准日子。来草原赶上就值了。",
-  "highlights": [
-    "蒙古族老节日，赛马摔跤射箭",
-    "坝上夏天办，帐篷热闹一整天",
-    "需算准日子，赶上就值"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.47,
-      "lat": 42.31,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市围场满族蒙古族自治县坝上草原",
-    "district": "围场满族蒙古族自治县",
-    "transportTip": "坝上草原，节庆期间前往"
+ "id": "bashang-nadam",
+ "name": "坝上那达慕",
+ "category": "culture",
+ "subtype": "performance",
+ "summary": "坝上草原夏季的那达慕大会，赛马、摔跤、射箭，是草原上的热闹日子。",
+ "description": "那达慕是蒙古族的一个老节日 —— 赛马、摔跤、射箭三样是主角。坝上这一片有蒙古族聚居，夏天会办那达慕。那几天草原上搭帐篷，周围的人都来，穿自己的衣服，热闹一整天。它不是每天有，要算准日子。来草原赶上就值了。",
+ "highlights": [
+  "蒙古族老节日，赛马摔跤射箭",
+  "坝上夏天办，帐篷热闹一整天",
+  "需算准日子，赶上就值"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.47,
+   "lat": 42.31,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "夏季节庆日，以当地公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费观看（部分活动另计）",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "family",
-    "elders"
+  "address": "河北省承德市围场满族蒙古族自治县坝上草原",
+  "district": "围场满族蒙古族自治县",
+  "transportTip": "坝上草原，节庆期间前往"
+ },
+ "practical": {
+  "openHours": "夏季节庆日，以当地公告为准",
+  "openHoursRef": 0,
+  "ticket": "免费观看（部分活动另计）",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "那达慕",
-    "蒙古族",
-    "节庆"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "family",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "那达慕",
+  "蒙古族",
+  "节庆"
+ ],
+ "popularity": 60,
+ "sources": [
+  {
+   "title": "百度百科·那达慕",
+   "url": "https://baike.baidu.com/item/%E9%82%A3%E8%BE%BE%E6%85%95",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "坝上那达慕"
+ },
+ "_geocodeTitle": "木兰围场",
+ "district": "130828",
+ "_noImage": true,
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "独特性",
+    "score": 4.4,
+    "note": "赛马、搏克、射箭「男儿三艺」一起看"
+   },
+   {
+    "label": "确定性",
+    "score": 2.4,
+    "note": "没有固定日期，赶不赶得上全看运气"
+   },
+   {
+    "label": "氛围",
+    "score": 4.5,
+    "note": "草原上搭帐篷、周边牧民都来，热闹是真的"
+   },
+   {
+    "label": "辨识度",
+    "score": 2.8,
+    "note": "景区里也有叫「那达慕」的商业体验园，容易买错"
+   }
   ],
-  "popularity": 60,
+  "body": "真正的那达慕是蒙古族的老节日，赛马、摔跤、射箭三样为主角，那几天草原上搭起帐篷，周边的人都来，穿自己的衣服，热闹一整天——这种场面赶上一次就够记很久。缺点是它没有固定日子，多集中在盛夏，行程要围着它排才碰得上；而且御道口一带还有常年经营的「草原那达慕」体验园，名字一样、内容是有偿娱乐套票，想看清真的赛马摔跤，出发前一定先确认是节庆还是园区。",
+  "basis": "web",
+  "at": "2026-11-14",
+  "fits": [
+   "盛夏来草原",
+   "看民俗",
+   "摄影"
+  ],
+  "avoid": [
+   "行程卡死",
+   "只想看演出"
+  ],
   "sources": [
-    {
-      "title": "百度百科·那达慕",
-      "url": "https://baike.baidu.com/item/%E9%82%A3%E8%BE%BE%E6%85%95",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "坝上那达慕"
-  },
-  "_geocodeTitle": "木兰围场",
-  "district": "130828",
-  "_noImage": true
+   "https://visitcn.com.cn/zh/provinces/hebei/chengde/chengde-weichangmanzumengguzuzizhi",
+   "https://m.toutiao.com/article/7640670471196852751"
+  ]
+ }
 }

@@ -1,6 +1,6 @@
 # 丹江口 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-07
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Li Qun | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%22North_Wudang_Mountain%22_by_Li_Qun_1991.jpg) |
-| 城市封面 | Landsat 9 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:19870417_Danjiangkou(chs_3,2,1).png) |
-| 城市封面 | macredants | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Danjiangkou,_Shiyan,_Hubei,_China_-_panoramio.jpg) |
+| 城市封面 | liuzr99 | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%AD%A6%E5%BD%93%E5%B1%B1%E7%B4%AB%E9%9C%84%E5%AE%AB_(14740043848).jpg) |
+| 城市封面 | liuzr99 | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%AD%A6%E5%BD%93%E5%B1%B1%E9%87%91%E9%A1%B6_(14923573151).jpg) |
+| 城市封面 | Seth Kramer | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wudangshan_pic_2.jpg) |
 | 丹江口水库 | Landsat 9 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:19870417_Danjiangkou(chs_3,2,1).png) |
 | 静乐宫 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260815_Guancun_Jingle_Gong_01.jpg) |
 | 静乐宫 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260815_Guancun_Jingle_Gong_02.jpg) |

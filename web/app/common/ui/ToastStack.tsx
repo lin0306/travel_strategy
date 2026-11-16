@@ -31,12 +31,16 @@
 import { usePlanUi } from '~/common/logic/itinerary/planUi'
 import { PickingHint } from '~/common/ui/plan/PickingHint'
 import { PlanToast } from '~/common/ui/plan/PlanToast'
+import { usePresence } from '~/common/ui/usePresence'
 
 export function ToastStack() {
   // ★ 存在性判据直接取自 store —— 只有 `toast` / `picking` 非空才渲染那一行，
   //   避免"空容器占位导致另一条被顶位"。两组件内部还会再判一次，是双保险。
   const toast = usePlanUi((s) => s.toast)
   const picking = usePlanUi((s) => s.picking)
+  /* 退场：清空后多留 150ms 播淡出（两组件各自缓存最后内容，见各自文件） */
+  const toastP = usePresence(Boolean(toast), 150)
+  const pickP = usePresence(Boolean(picking), 150)
 
   return (
     /*
@@ -50,8 +54,8 @@ export function ToastStack() {
       className="pointer-events-none absolute inset-x-0 z-[26] flex flex-col items-center gap-2"
       style={{ top: 'var(--rail-top)' }}
     >
-      {picking ? <PickingHint /> : null}
-      {toast ? <PlanToast /> : null}
+      {pickP.mounted ? <PickingHint exiting={pickP.exiting} /> : null}
+      {toastP.mounted ? <PlanToast exiting={toastP.exiting} /> : null}
     </div>
   )
 }

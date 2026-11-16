@@ -1,68 +1,106 @@
 {
-  "id": "shiji-mifen",
-  "name": "石记米粉",
-  "category": "food",
-  "subtype": "local",
-  "summary": "兴安县的一家粉店，看完灵渠过来顺路吃一碗，本地人比你多。",
-  "description": "石记在兴安县，离灵渠不远，是看灵渠前后顺路吃饭的那一家。它做的还是桂林米粉这一路：卤菜粉干拌，加汤是清汤。兴安这个地方本身有意思 —— 灵渠在这里把湘漓两条水接通，自古是通道，交汇处的口味也偏淡一点点，与桂林市区那几家比，这里的卤水咸味收得轻。它不是专门跑一趟的地方，是看完灵渠顺便把早饭或午饭解决的那一家。",
-  "highlights": [
-    "离灵渠不远，看完遗址顺路吃一碗",
-    "兴安自古是湘漓通道，这里卤水咸味收得轻",
-    "不是专门跑一趟的地方，是解决这一顿的"
-  ],
-  "location": {
-    "point": {
-      "lng": 110.660442,
-      "lat": 25.614549,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "广西壮族自治区桂林市兴安县石记米粉",
-    "district": "兴安县",
-    "transportTip": "兴安县城步行或打车可达；紧邻灵渠景区"
+ "id": "shiji-mifen",
+ "name": "石记米粉",
+ "category": "food",
+ "subtype": "local",
+ "summary": "兴安县的一家粉店，看完灵渠过来顺路吃一碗，本地人比你多。",
+ "description": "石记在兴安县，离灵渠不远，是看灵渠前后顺路吃饭的那一家。它做的还是桂林米粉这一路：卤菜粉干拌，加汤是清汤。兴安这个地方本身有意思 —— 灵渠在这里把湘漓两条水接通，自古是通道，交汇处的口味也偏淡一点点，与桂林市区那几家比，这里的卤水咸味收得轻。它不是专门跑一趟的地方，是看完灵渠顺便把早饭或午饭解决的那一家。",
+ "highlights": [
+  "离灵渠不远，看完遗址顺路吃一碗",
+  "兴安自古是湘漓通道，这里卤水咸味收得轻",
+  "不是专门跑一趟的地方，是解决这一顿的"
+ ],
+ "location": {
+  "point": {
+   "lng": 110.660442,
+   "lat": 25.614549,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约6:30-14:00，以门店公告为准",
-    "openHoursRef": 0,
-    "ticket": "便宜",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "elders",
-    "family",
-    "solo"
+  "address": "广西壮族自治区桂林市兴安县石记米粉",
+  "district": "兴安县",
+  "transportTip": "兴安县城步行或打车可达；紧邻灵渠景区"
+ },
+ "practical": {
+  "openHours": "约6:30-14:00，以门店公告为准",
+  "openHoursRef": 0,
+  "ticket": "便宜",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "兴安",
-    "顺路",
-    "便宜"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "elders",
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "兴安",
+  "顺路",
+  "便宜"
+ ],
+ "popularity": 58,
+ "sources": [
+  {
+   "title": "百度百科·桂林米粉",
+   "url": "https://baike.baidu.com/item/%E6%A1%82%E6%9E%97%E7%B1%B3%E7%B2%89",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "石记米粉"
+ },
+ "_geocodeTitle": "石记米粉",
+ "_geocodeSuspect": false,
+ "district": "450325",
+ "_noImage": true,
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "顺路",
+    "score": 4.3,
+    "note": "离灵渠不远，看完就吃"
+   },
+   {
+    "label": "口味",
+    "score": 3.6,
+    "note": "卤水咸味比市区收得轻"
+   },
+   {
+    "label": "时段",
+    "score": 2.8,
+    "note": "只做早午市，下午收档"
+   },
+   {
+    "label": "环境",
+    "score": 3.2,
+    "note": "小店，座位少"
+   }
   ],
-  "popularity": 58,
+  "body": "兴安县城的小店，离灵渠不远，看完遗址顺路吃一碗最合适，这一带的卤水咸味比桂林市区收得轻。缺点是下午就收档，赶不上只能换别家；店面小、座位少，饭点要等，专门为它跑一趟会偏不值。",
+  "basis": "web",
+  "at": "2026-11-12",
+  "fits": [
+   "逛灵渠顺路"
+  ],
+  "avoid": [
+   "傍晚"
+  ],
   "sources": [
-    {
-      "title": "百度百科·桂林米粉",
-      "url": "https://baike.baidu.com/item/%E6%A1%82%E6%9E%97%E7%B1%B3%E7%B2%89",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "石记米粉"
-  },
-  "_geocodeTitle": "石记米粉",
-  "_geocodeSuspect": false,
-  "district": "450325",
-  "_noImage": true
+   "https://wanjiago.com/article/food/guilin-rice-noodles-local-shops-recommendations-9k3b"
+  ]
+ }
 }

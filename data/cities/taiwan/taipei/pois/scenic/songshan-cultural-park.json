@@ -40,8 +40,72 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [],
-  "coverIndex": 0,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Inspection_room_of_former_Songshan_Tobacco_Factory.jpg/1280px-Inspection_room_of_former_Songshan_Tobacco_Factory.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Inspection_room_of_former_Songshan_Tobacco_Factory.jpg/1280px-Inspection_room_of_former_Songshan_Tobacco_Factory.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Inspection room of former Songshan Tobacco Factory.jpg",
+      "query": "松山文创园区",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Koala0090",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Songshan_Tobacco_Factory_Warehouses_%26_Taipei_New_Horizon_20161106.jpg/1280px-Songshan_Tobacco_Factory_Warehouses_%26_Taipei_New_Horizon_20161106.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Songshan_Tobacco_Factory_Warehouses_%26_Taipei_New_Horizon_20161106.jpg/1280px-Songshan_Tobacco_Factory_Warehouses_%26_Taipei_New_Horizon_20161106.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Songshan Tobacco Factory Warehouses & Taipei New Horizon 20161106.jpg",
+      "query": "松山文创园区",
+      "credit": {
+        "source": "wikimedia",
+        "author": "bryan...",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 2.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/%E6%9D%BE%E5%B1%B1%E8%8F%B8%E5%BB%A0_%E6%9D%B1%E8%A5%BF%E5%A5%BD%E6%96%87%E5%89%B5%E5%B8%82%E9%9B%86_20170610.jpg/1280px-%E6%9D%BE%E5%B1%B1%E8%8F%B8%E5%BB%A0_%E6%9D%B1%E8%A5%BF%E5%A5%BD%E6%96%87%E5%89%B5%E5%B8%82%E9%9B%86_20170610.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/%E6%9D%BE%E5%B1%B1%E8%8F%B8%E5%BB%A0_%E6%9D%B1%E8%A5%BF%E5%A5%BD%E6%96%87%E5%89%B5%E5%B8%82%E9%9B%86_20170610.jpg/1280px-%E6%9D%BE%E5%B1%B1%E8%8F%B8%E5%BB%A0_%E6%9D%B1%E8%A5%BF%E5%A5%BD%E6%96%87%E5%89%B5%E5%B8%82%E9%9B%86_20170610.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "松山菸廠 東西好文創市集 20170610.jpg",
+      "query": "松山文创园区",
+      "credit": {
+        "source": "wikimedia",
+        "author": "李家宇",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
+      }
+    }
+  ],
+  "coverIndex": 2,
   "tags": [
     "文创",
     "老厂房",
@@ -56,7 +120,7 @@
       "fetchedAt": "2026-10-03"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-05",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Songshan Cultural Park Taipei",
@@ -64,6 +128,5 @@
   },
   "_geocodeTitle": "松山文创园区",
   "_geocodeSuspect": false,
-  "district": "711017",
-  "_noImage": true
+  "district": "711017"
 }

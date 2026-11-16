@@ -1,157 +1,195 @@
 {
-  "id": "quanjude-qianmen",
-  "name": "全聚德(前门店)",
-  "category": "food",
-  "subtype": "local",
-  "summary": "挂炉烤鸭的老字号,前门店是最有场面的一家。",
-  "description": "全聚德创于1864年,做的是挂炉明火烤,鸭身灌汤后再入炉,果木燃料带给皮一层特定的香气。前门店是多数外地游客认知里最「正」的一家,场面大、排队长、仪式感足——片鸭、荷叶饼、配料一套上齐。客观说它的价格明显高于同类,更像一次完整的体验而不是性价比之选。想要本地口碑版数多的那种,四季民福、大董是更常被提及的选项。",
-  "highlights": [
-    "挂炉果木明火是招牌工艺",
-    "前门店场面最大、排队最久",
-    "价格偏高,体验属性强"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.398177,
-      "lat": 39.896566,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "北京市东城区前门大街30号",
-    "district": "东城",
-    "transportTip": "地铁2号线前门站C口步行约5分钟"
+ "id": "quanjude-qianmen",
+ "name": "全聚德(前门店)",
+ "category": "food",
+ "subtype": "local",
+ "summary": "挂炉烤鸭的老字号,前门店是最有场面的一家。",
+ "description": "全聚德创于1864年,做的是挂炉明火烤,鸭身灌汤后再入炉,果木燃料带给皮一层特定的香气。前门店是多数外地游客认知里最「正」的一家,场面大、排队长、仪式感足——片鸭、荷叶饼、配料一套上齐。客观说它的价格明显高于同类,更像一次完整的体验而不是性价比之选。想要本地口碑版数多的那种,四季民福、大董是更常被提及的选项。",
+ "highlights": [
+  "挂炉果木明火是招牌工艺",
+  "前门店场面最大、排队最久",
+  "价格偏高,体验属性强"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.398177,
+   "lat": 39.896566,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约11:00-21:00(以门店公告为准)",
-    "openHoursRef": 0,
-    "ticket": "人均约200元起(以门店为准)",
-    "ticketRef": 0,
-    "duration": "建议 90-150 分钟",
-    "durationMinutes": [
-      90,
-      150
-    ],
-    "priceLevel": "high"
+  "address": "北京市东城区前门大街30号",
+  "district": "东城",
+  "transportTip": "地铁2号线前门站C口步行约5分钟"
+ },
+ "practical": {
+  "openHours": "约11:00-21:00(以门店公告为准)",
+  "openHoursRef": 0,
+  "ticket": "人均约200元起(以门店为准)",
+  "ticketRef": 0,
+  "duration": "建议 90-150 分钟",
+  "durationMinutes": [
+   90,
+   150
+  ],
+  "priceLevel": "high"
+ },
+ "audience": [
+  "couple",
+  "kids"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/BJ_%E5%8C%97%E4%BA%AC_Beijing_%E7%8E%8B%E5%BA%9C%E4%BA%95%E5%A4%A7%E8%A1%97_Wangfujing_Street_%E5%85%A8%E8%81%9A%E5%BE%B7_Duck_shop_figure_booth_Aug-2010_Quanjude.JPG/1280px-BJ_%E5%8C%97%E4%BA%AC_Beijing_%E7%8E%8B%E5%BA%9C%E4%BA%95%E5%A4%A7%E8%A1%97_Wangfujing_Street_%E5%85%A8%E8%81%9A%E5%BE%B7_Duck_shop_figure_booth_Aug-2010_Quanjude.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/BJ_%E5%8C%97%E4%BA%AC_Beijing_%E7%8E%8B%E5%BA%9C%E4%BA%95%E5%A4%A7%E8%A1%97_Wangfujing_Street_%E5%85%A8%E8%81%9A%E5%BE%B7_Duck_shop_figure_booth_Aug-2010_Quanjude.JPG/1280px-BJ_%E5%8C%97%E4%BA%AC_Beijing_%E7%8E%8B%E5%BA%9C%E4%BA%95%E5%A4%A7%E8%A1%97_Wangfujing_Street_%E5%85%A8%E8%81%9A%E5%BE%B7_Duck_shop_figure_booth_Aug-2010_Quanjude.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "BJ 北京 Beijing 王府井大街 Wangfujing Street 全聚德 Duck shop figure booth Aug-2010 Quanjude.JPG",
+   "query": "全聚德 北京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Claoisumna",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BJ_%E5%8C%97%E4%BA%AC_Beijing_%E7%8E%8B%E5%BA%9C%E4%BA%95%E5%A4%A7%E8%A1%97_Wangfujing_Street_%E5%85%A8%E8%81%9A%E5%BE%B7_Duck_shop_figure_booth_Aug-2010_Quanjude.JPG",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "kids"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/BJ_%E5%8C%97%E4%BA%AC_Beijing_%E7%8E%8B%E5%BA%9C%E4%BA%95%E5%A4%A7%E8%A1%97_Wangfujing_Street_%E5%85%A8%E8%81%9A%E5%BE%B7_Duck_shop_figure_booth_Aug-2010_Quanjude.JPG/1280px-BJ_%E5%8C%97%E4%BA%AC_Beijing_%E7%8E%8B%E5%BA%9C%E4%BA%95%E5%A4%A7%E8%A1%97_Wangfujing_Street_%E5%85%A8%E8%81%9A%E5%BE%B7_Duck_shop_figure_booth_Aug-2010_Quanjude.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/BJ_%E5%8C%97%E4%BA%AC_Beijing_%E7%8E%8B%E5%BA%9C%E4%BA%95%E5%A4%A7%E8%A1%97_Wangfujing_Street_%E5%85%A8%E8%81%9A%E5%BE%B7_Duck_shop_figure_booth_Aug-2010_Quanjude.JPG/1280px-BJ_%E5%8C%97%E4%BA%AC_Beijing_%E7%8E%8B%E5%BA%9C%E4%BA%95%E5%A4%A7%E8%A1%97_Wangfujing_Street_%E5%85%A8%E8%81%9A%E5%BE%B7_Duck_shop_figure_booth_Aug-2010_Quanjude.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "BJ 北京 Beijing 王府井大街 Wangfujing Street 全聚德 Duck shop figure booth Aug-2010 Quanjude.JPG",
-      "query": "全聚德 北京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Claoisumna",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BJ_%E5%8C%97%E4%BA%AC_Beijing_%E7%8E%8B%E5%BA%9C%E4%BA%95%E5%A4%A7%E8%A1%97_Wangfujing_Street_%E5%85%A8%E8%81%9A%E5%BE%B7_Duck_shop_figure_booth_Aug-2010_Quanjude.JPG",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/1F_dining_area_of_Quanjude_Origin_Roast_Duck_Restaurant_%2820250323150350%29.jpg/1280px-1F_dining_area_of_Quanjude_Origin_Roast_Duck_Restaurant_%2820250323150350%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/1F_dining_area_of_Quanjude_Origin_Roast_Duck_Restaurant_%2820250323150350%29.jpg/1280px-1F_dining_area_of_Quanjude_Origin_Roast_Duck_Restaurant_%2820250323150350%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "1F dining area of Quanjude Origin Roast Duck Restaurant (20250323150350).jpg",
-      "query": "全聚德",
-      "credit": {
-        "source": "wikimedia",
-        "author": "N509FZ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:1F_dining_area_of_Quanjude_Origin_Roast_Duck_Restaurant_(20250323150350).jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Beijing_Quan_Ju_De_He_Ping_Men_Roast_Duck_Restaurant-20110102-RM-192114.jpg/1280px-Beijing_Quan_Ju_De_He_Ping_Men_Roast_Duck_Restaurant-20110102-RM-192114.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Beijing_Quan_Ju_De_He_Ping_Men_Roast_Duck_Restaurant-20110102-RM-192114.jpg/1280px-Beijing_Quan_Ju_De_He_Ping_Men_Roast_Duck_Restaurant-20110102-RM-192114.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Beijing Quan Ju De He Ping Men Roast Duck Restaurant-20110102-RM-192114.jpg",
-      "query": "全聚德",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Ermell",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beijing_Quan_Ju_De_He_Ping_Men_Roast_Duck_Restaurant-20110102-RM-192114.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Carving_Beijing_Roast_Duck_at_Quanjude%2C_Beijing.jpg/1280px-Carving_Beijing_Roast_Duck_at_Quanjude%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Carving_Beijing_Roast_Duck_at_Quanjude%2C_Beijing.jpg/1280px-Carving_Beijing_Roast_Duck_at_Quanjude%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Carving Beijing Roast Duck at Quanjude, Beijing.jpg",
-      "query": "全聚德",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Pixor",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carving_Beijing_Roast_Duck_at_Quanjude,_Beijing.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Cashier_counter_of_Quanjude_Origin_Roast_Duck_Restaurant_%2820250323150356%29.jpg/1280px-Cashier_counter_of_Quanjude_Origin_Roast_Duck_Restaurant_%2820250323150356%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Cashier_counter_of_Quanjude_Origin_Roast_Duck_Restaurant_%2820250323150356%29.jpg/1280px-Cashier_counter_of_Quanjude_Origin_Roast_Duck_Restaurant_%2820250323150356%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Cashier counter of Quanjude Origin Roast Duck Restaurant (20250323150356).jpg",
-      "query": "全聚德",
-      "credit": {
-        "source": "wikimedia",
-        "author": "N509FZ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cashier_counter_of_Quanjude_Origin_Roast_Duck_Restaurant_(20250323150356).jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Central_lobby_of_Quanjude_Origin_Roast_Duck_Restaurant_%2820250323150338%29.jpg/1280px-Central_lobby_of_Quanjude_Origin_Roast_Duck_Restaurant_%2820250323150338%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Central_lobby_of_Quanjude_Origin_Roast_Duck_Restaurant_%2820250323150338%29.jpg/1280px-Central_lobby_of_Quanjude_Origin_Roast_Duck_Restaurant_%2820250323150338%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Central lobby of Quanjude Origin Roast Duck Restaurant (20250323150338).jpg",
-      "query": "全聚德",
-      "credit": {
-        "source": "wikimedia",
-        "author": "N509FZ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Central_lobby_of_Quanjude_Origin_Roast_Duck_Restaurant_(20250323150338).jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "烤鸭",
-    "老字号",
-    "必吃"
-  ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·全聚德",
-      "url": "https://baike.baidu.com/item/%E5%85%A8%E8%81%9A%E5%BE%B7",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "全聚德(前门店)"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/1F_dining_area_of_Quanjude_Origin_Roast_Duck_Restaurant_%2820250323150350%29.jpg/1280px-1F_dining_area_of_Quanjude_Origin_Roast_Duck_Restaurant_%2820250323150350%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/1F_dining_area_of_Quanjude_Origin_Roast_Duck_Restaurant_%2820250323150350%29.jpg/1280px-1F_dining_area_of_Quanjude_Origin_Roast_Duck_Restaurant_%2820250323150350%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "1F dining area of Quanjude Origin Roast Duck Restaurant (20250323150350).jpg",
+   "query": "全聚德",
+   "credit": {
+    "source": "wikimedia",
+    "author": "N509FZ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1F_dining_area_of_Quanjude_Origin_Roast_Duck_Restaurant_(20250323150350).jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "全聚德(前门店)",
-  "_geocodeSuspect": false,
-  "district": "110101"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Beijing_Quan_Ju_De_He_Ping_Men_Roast_Duck_Restaurant-20110102-RM-192114.jpg/1280px-Beijing_Quan_Ju_De_He_Ping_Men_Roast_Duck_Restaurant-20110102-RM-192114.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Beijing_Quan_Ju_De_He_Ping_Men_Roast_Duck_Restaurant-20110102-RM-192114.jpg/1280px-Beijing_Quan_Ju_De_He_Ping_Men_Roast_Duck_Restaurant-20110102-RM-192114.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Beijing Quan Ju De He Ping Men Roast Duck Restaurant-20110102-RM-192114.jpg",
+   "query": "全聚德",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Ermell",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beijing_Quan_Ju_De_He_Ping_Men_Roast_Duck_Restaurant-20110102-RM-192114.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Carving_Beijing_Roast_Duck_at_Quanjude%2C_Beijing.jpg/1280px-Carving_Beijing_Roast_Duck_at_Quanjude%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Carving_Beijing_Roast_Duck_at_Quanjude%2C_Beijing.jpg/1280px-Carving_Beijing_Roast_Duck_at_Quanjude%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Carving Beijing Roast Duck at Quanjude, Beijing.jpg",
+   "query": "全聚德",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Pixor",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carving_Beijing_Roast_Duck_at_Quanjude,_Beijing.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Cashier_counter_of_Quanjude_Origin_Roast_Duck_Restaurant_%2820250323150356%29.jpg/1280px-Cashier_counter_of_Quanjude_Origin_Roast_Duck_Restaurant_%2820250323150356%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Cashier_counter_of_Quanjude_Origin_Roast_Duck_Restaurant_%2820250323150356%29.jpg/1280px-Cashier_counter_of_Quanjude_Origin_Roast_Duck_Restaurant_%2820250323150356%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Cashier counter of Quanjude Origin Roast Duck Restaurant (20250323150356).jpg",
+   "query": "全聚德",
+   "credit": {
+    "source": "wikimedia",
+    "author": "N509FZ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cashier_counter_of_Quanjude_Origin_Roast_Duck_Restaurant_(20250323150356).jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Central_lobby_of_Quanjude_Origin_Roast_Duck_Restaurant_%2820250323150338%29.jpg/1280px-Central_lobby_of_Quanjude_Origin_Roast_Duck_Restaurant_%2820250323150338%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Central_lobby_of_Quanjude_Origin_Roast_Duck_Restaurant_%2820250323150338%29.jpg/1280px-Central_lobby_of_Quanjude_Origin_Roast_Duck_Restaurant_%2820250323150338%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Central lobby of Quanjude Origin Roast Duck Restaurant (20250323150338).jpg",
+   "query": "全聚德",
+   "credit": {
+    "source": "wikimedia",
+    "author": "N509FZ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Central_lobby_of_Quanjude_Origin_Roast_Duck_Restaurant_(20250323150338).jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "烤鸭",
+  "老字号",
+  "必吃"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·全聚德",
+   "url": "https://baike.baidu.com/item/%E5%85%A8%E8%81%9A%E5%BE%B7",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "全聚德(前门店)"
+ },
+ "_geocodeTitle": "全聚德(前门店)",
+ "_geocodeSuspect": false,
+ "district": "110101",
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 3.8,
+    "note": "挂炉果木烤的皮有香气，但鸭肉本身不算惊艳"
+   },
+   {
+    "label": "价格",
+    "score": 2.4,
+    "note": "人均明显高于同类，性价比是它最常被吐槽的点"
+   },
+   {
+    "label": "排队",
+    "score": 2.5,
+    "note": "前门店饭点队伍最长，节假日更甚"
+   },
+   {
+    "label": "场面",
+    "score": 4.2,
+    "note": "片鸭、上菜一套仪式齐全，第一次来确实有气氛"
+   }
+  ],
+  "body": "全聚德前门店更像一次「体验」而不是一顿划算的饭：挂炉果木明火、当面片鸭、荷叶饼配料齐上，第一次来北京的人会觉得仪式感十足。但价格确实偏高，同样一只鸭子在这里要多掏不少，本地人早就转去别的店了；饭点的队伍也长，等一小时是常态。如果只是想尝尝挂炉烤鸭，把它当顺路的一站就好，专程排队不太值。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "第一次来北京",
+   "带长辈"
+  ],
+  "avoid": [
+   "追求性价比",
+   "怕排队"
+  ],
+  "sources": []
+ }
 }

@@ -1,127 +1,165 @@
 {
-  "id": "lingyin-temple",
-  "name": "灵隐寺(飞来峰)",
-  "category": "scenic",
-  "subtype": "temple",
-  "summary": "东晋古刹，嵌在飞来峰石窟与山体之间。",
-  "description": "灵隐寺始建於东晋咸和年间，位置在飞来峰与北高峰之间的谷地里。它的特殊之处在于山与寺的关系：飞来峰是一小块石灰岩山体，五代至宋元的造像直接凿在崖壁与洞窟里，寺与石窟是同一处环境的不同部分。需要先买飞来峰景区门票，再买灵隐寺的门票，二者是分开的。",
-  "highlights": [
-    "飞来峰造像凿在崖壁与洞窟里",
-    "寺与石窟同一环境的两面",
-    "两道门票分开购买"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.101379,
-      "lat": 30.240852,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "杭州市西湖区法云弄1号",
-    "district": "西湖区",
-    "transportTip": "公交灵隐站；地铁3号线黄龙洞站换乘公交"
+ "id": "lingyin-temple",
+ "name": "灵隐寺(飞来峰)",
+ "category": "scenic",
+ "subtype": "temple",
+ "summary": "东晋古刹，嵌在飞来峰石窟与山体之间。",
+ "description": "灵隐寺始建於东晋咸和年间，位置在飞来峰与北高峰之间的谷地里。它的特殊之处在于山与寺的关系：飞来峰是一小块石灰岩山体，五代至宋元的造像直接凿在崖壁与洞窟里，寺与石窟是同一处环境的不同部分。需要先买飞来峰景区门票，再买灵隐寺的门票，二者是分开的。",
+ "highlights": [
+  "飞来峰造像凿在崖壁与洞窟里",
+  "寺与石窟同一环境的两面",
+  "两道门票分开购买"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.101379,
+   "lat": 30.240852,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约06:30-18:00(以官方公告为准)",
-    "openHoursRef": 0,
-    "ticket": "飞来峰约45元起、灵隐寺约30元起，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 180-300 分钟",
-    "durationMinutes": [
-      180,
-      300
-    ],
-    "priceLevel": "mid"
+  "address": "杭州市西湖区法云弄1号",
+  "district": "西湖区",
+  "transportTip": "公交灵隐站；地铁3号线黄龙洞站换乘公交"
+ },
+ "practical": {
+  "openHours": "约06:30-18:00(以官方公告为准)",
+  "openHoursRef": 0,
+  "ticket": "飞来峰约45元起、灵隐寺约30元起，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 180-300 分钟",
+  "durationMinutes": [
+   180,
+   300
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "kids"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/%E6%9D%AD%E5%B7%9E._%E7%81%B5%E9%9A%90%E5%AF%BA_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/%E6%9D%AD%E5%B7%9E._%E7%81%B5%E9%9A%90%E5%AF%BA_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 810,
+   "alt": "杭州. 灵隐寺 - panoramio.jpg",
+   "query": "灵隐寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "zhiyin586@163.com",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%9D%AD%E5%B7%9E._%E7%81%B5%E9%9A%90%E5%AF%BA_-_panoramio.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "kids"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/%E6%9D%AD%E5%B7%9E._%E7%81%B5%E9%9A%90%E5%AF%BA_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/%E6%9D%AD%E5%B7%9E._%E7%81%B5%E9%9A%90%E5%AF%BA_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 810,
-      "alt": "杭州. 灵隐寺 - panoramio.jpg",
-      "query": "灵隐寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "zhiyin586@163.com",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%9D%AD%E5%B7%9E._%E7%81%B5%E9%9A%90%E5%AF%BA_-_panoramio.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Blubb_%2810595970686%29.jpg/1280px-Blubb_%2810595970686%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Blubb_%2810595970686%29.jpg/1280px-Blubb_%2810595970686%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Blubb (10595970686).jpg",
-      "query": "灵隐寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Ludger Heide",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blubb_(10595970686).jpg",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Ling_Yin_Temple_in_Hangzhou.jpg/1280px-Ling_Yin_Temple_in_Hangzhou.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Ling_Yin_Temple_in_Hangzhou.jpg/1280px-Ling_Yin_Temple_in_Hangzhou.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 791,
-      "alt": "Ling Yin Temple in Hangzhou.jpg",
-      "query": "灵隐寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Milan Tvrdy",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ling_Yin_Temple_in_Hangzhou.jpg",
-        "license": "Public domain",
-        "attributionRequired": false
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Lingyin_temple%EF%BC%88%E7%81%B5%E9%9A%90%E5%AF%BA%EF%BC%89.jpg/1280px-Lingyin_temple%EF%BC%88%E7%81%B5%E9%9A%90%E5%AF%BA%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Lingyin_temple%EF%BC%88%E7%81%B5%E9%9A%90%E5%AF%BA%EF%BC%89.jpg/1280px-Lingyin_temple%EF%BC%88%E7%81%B5%E9%9A%90%E5%AF%BA%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Lingyin temple（灵隐寺）.jpg",
-      "query": "灵隐寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Ddccxl",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lingyin_temple%EF%BC%88%E7%81%B5%E9%9A%90%E5%AF%BA%EF%BC%89.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "古刹",
-    "石窟",
-    "必去"
-  ],
-  "popularity": 96,
-  "sources": [
-    {
-      "title": "百度百科·灵隐寺",
-      "url": "https://baike.baidu.com/item/%E7%81%B5%E9%9A%90%E5%AF%BA",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "灵隐寺(飞来峰)"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Blubb_%2810595970686%29.jpg/1280px-Blubb_%2810595970686%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Blubb_%2810595970686%29.jpg/1280px-Blubb_%2810595970686%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Blubb (10595970686).jpg",
+   "query": "灵隐寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Ludger Heide",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blubb_(10595970686).jpg",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "灵隐寺",
-  "_geocodeSuspect": false,
-  "district": "330106"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Ling_Yin_Temple_in_Hangzhou.jpg/1280px-Ling_Yin_Temple_in_Hangzhou.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Ling_Yin_Temple_in_Hangzhou.jpg/1280px-Ling_Yin_Temple_in_Hangzhou.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 791,
+   "alt": "Ling Yin Temple in Hangzhou.jpg",
+   "query": "灵隐寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Milan Tvrdy",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ling_Yin_Temple_in_Hangzhou.jpg",
+    "license": "Public domain",
+    "attributionRequired": false
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Lingyin_temple%EF%BC%88%E7%81%B5%E9%9A%90%E5%AF%BA%EF%BC%89.jpg/1280px-Lingyin_temple%EF%BC%88%E7%81%B5%E9%9A%90%E5%AF%BA%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Lingyin_temple%EF%BC%88%E7%81%B5%E9%9A%90%E5%AF%BA%EF%BC%89.jpg/1280px-Lingyin_temple%EF%BC%88%E7%81%B5%E9%9A%90%E5%AF%BA%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Lingyin temple（灵隐寺）.jpg",
+   "query": "灵隐寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Ddccxl",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lingyin_temple%EF%BC%88%E7%81%B5%E9%9A%90%E5%AF%BA%EF%BC%89.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "古刹",
+  "石窟",
+  "必去"
+ ],
+ "popularity": 96,
+ "sources": [
+  {
+   "title": "百度百科·灵隐寺",
+   "url": "https://baike.baidu.com/item/%E7%81%B5%E9%9A%90%E5%AF%BA",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "灵隐寺(飞来峰)"
+ },
+ "_geocodeTitle": "灵隐寺",
+ "_geocodeSuspect": false,
+ "district": "330106",
+ "review": {
+  "score": 4.6,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "古建",
+    "score": 4.7,
+    "note": "东晋古刹，殿宇沿山势层层往上"
+   },
+   {
+    "label": "石窟",
+    "score": 4.6,
+    "note": "飞来峰五代至宋元造像凿在崖壁与洞窟"
+   },
+   {
+    "label": "人流",
+    "score": 2.8,
+    "note": "香客与旅行团叠加，殿前常年挤"
+   },
+   {
+    "label": "门票",
+    "score": 3.2,
+    "note": "飞来峰与寺院两道票分开买"
+   }
+  ],
+  "body": "东晋古刹夹在飞来峰与北高峰之间的谷地里，殿宇顺山势层层往上，香火很旺。真正难得的是飞来峰——五代到宋元的造像直接凿在崖壁与洞窟里，寺与石窟是同一处环境的两面，绕一圈比单进大殿值。缺点是两道门票分开买，加起来不算便宜；香客与旅行团叠在一起，殿前常年拥挤，想安静看造像得挑清早。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "看古建",
+   "看石窟造像"
+  ],
+  "avoid": [
+   "节假日中午",
+   "怕挤"
+  ],
+  "sources": []
+ }
 }

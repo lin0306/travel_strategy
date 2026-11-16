@@ -1,6 +1,6 @@
 # 石家庄 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-04
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Wjjksjzs | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%82%8D%E6%99%9A%E7%9A%84%E7%9F%B3%E5%AE%B6%E5%BA%84%E4%B8%AD%E5%B1%B1%E4%B8%9C%E8%B7%AF.jpg) |
-| 城市封面 | 云在动 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%81%E5%AE%89%E5%B0%8F%E5%8C%BA-%E7%9F%B3%E5%AE%B6%E5%BA%84.jpg) |
-| 城市封面 | Wikimedia Commons 贡献者 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%9F%B3%E5%AE%B6%E5%BA%84Shijiazhuang.jpg) |
+| 城市封面 | E2568 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%AD%A3%E5%AE%9A%E5%8F%A4%E5%9F%8E%E5%A4%9C%E6%99%AF.jpg) |
+| 城市封面 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250118_Longxing_Temple_-_Mani_Hall_01.jpg) |
+| 城市封面 | ping lin | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Skyline_of_Shijiazhuang_2012.jpg) |
 | 柏林禅寺 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%9F%8F%E6%9E%97%E7%A6%85%E5%AF%BA_bai_lin_chan_si_-_panoramio.jpg) |
 | 柏林禅寺 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%9F%8F%E6%9E%97%E7%A6%85%E5%AF%BA%E5%86%85%E7%9A%84%E5%85%AB%E8%A7%92%E4%BA%AD%EF%BC%9A%E2%80%9C%E5%B9%B3%E5%B8%B8%E5%BF%83%E2%80%9D_-_panoramio.jpg) |
 | 柏林禅寺 | FoxyGrace | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%9F%8F%E6%9E%97%E7%A6%85%E5%AF%BA%E8%88%8D%E5%88%A9%E5%A1%94_-_panoramio.jpg) |

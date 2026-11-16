@@ -16,7 +16,7 @@
       "lat": 34.260281,
       "coordSystem": "GCJ-02"
     },
-    "address": "西安市碑林区钟楼盘道附近（以门店公告为准）",
+    "address": "西安市莲湖区西大街5号（钟鼓楼广场北侧）",
     "district": "莲湖区",
     "transportTip": "地铁 2 号线钟楼站，步行约 5 分钟"
   },
@@ -51,16 +51,39 @@
       "url": "https://baike.baidu.com/item/%E5%90%8C%E7%9B%9B%E7%A5%A5",
       "kind": "wiki",
       "fetchedAt": "2026-09-19"
+    },
+    {
+      "title": "百度百科·同盛祥（钟楼店）",
+      "url": "https://baike.baidu.com/item/%E5%90%8C%E7%9B%9B%E7%A5%A5%EF%BC%88%E9%92%9F%E6%A5%BC%E5%BA%97%EF%BC%89/14255987",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-29",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
     "zh": "同盛祥"
   },
-  "_geocodeTitle": "同盛祥烧烤部",
+  "_geocodeTitle": "同盛祥(钟楼店)",
   "_geocodeSuspect": false,
   "district": "610104",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "西安市碑林区钟楼盘道附近（以门店公告为准）",
+        "new": "西安市莲湖区西大街5号（钟鼓楼广场北侧）"
+      },
+      {
+        "field": "坐标反查名（只改名字，不动坐标）",
+        "old": "同盛祥烧烤部",
+        "new": "同盛祥(钟楼店)"
+      }
+    ],
+    "source": "https://baike.baidu.com/item/%E5%90%8C%E7%9B%9B%E7%A5%A5%EF%BC%88%E9%92%9F%E6%A5%BC%E5%BA%97%EF%BC%89/14255987",
+    "reason": "钟楼店位于莲湖区西大街5号钟鼓楼广场，原地址区名与坐标互斥"
+  }
 }

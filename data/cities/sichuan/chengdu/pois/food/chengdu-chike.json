@@ -15,7 +15,7 @@
       "lat": 30.667851,
       "coordSystem": "GCJ-02"
     },
-    "address": "成都市锦江区（多家分店）",
+    "address": "成都市青羊区奎星楼街（奎星楼店，多家分店）",
     "district": "青羊区",
     "transportTip": "按具体分店查询"
   },
@@ -70,9 +70,15 @@
       "url": "https://www.toutiao.com/article/7674209797114839579/",
       "kind": "media",
       "fetchedAt": "2026-09-18"
+    },
+    {
+      "title": "腾讯地图 POI",
+      "url": "https://apis.map.qq.com/",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Chengdu creative Sichuan cuisine",
@@ -80,5 +86,17 @@
   },
   "_geocodeTitle": "成都吃客(奎星楼店)",
   "_geocodeSuspect": false,
-  "district": "510105"
+  "district": "510105",
+  "_patrol": {
+    "at": "2026-11-08",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "成都市锦江区（多家分店）",
+        "new": "成都市青羊区奎星楼街（奎星楼店，多家分店）"
+      }
+    ],
+    "source": "https://apis.map.qq.com/",
+    "reason": "原地址「锦江区（多家分店）」与坐标30.667851,104.055134(奎星楼街)矛盾；_geocodeTitle 亦为成都吃客(奎星楼店)"
+  }
 }

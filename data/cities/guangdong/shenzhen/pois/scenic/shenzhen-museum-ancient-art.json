@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "深圳市福田区同心路6号",
-    "district": "罗湖区",
+    "district": "福田区",
     "transportTip": "地铁9号线红岭南站A口步行约600米，或1号线/6号线科学馆站A口步行约900米"
   },
   "practical": {
@@ -109,7 +109,7 @@
       "fetchedAt": "2026-10-25"
     }
   ],
-  "updatedAt": "2026-10-25",
+  "updatedAt": "2026-11-10",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Shenzhen Museum Ancient Art Hall",
@@ -117,5 +117,43 @@
   },
   "_geocodeTitle": "深圳博物馆古代艺术馆-南门",
   "_geocodeSuspect": false,
-  "district": "440303"
+  "district": "440304",
+  "review": {
+    "score": 4.33,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "动线",
+        "score": 4.5,
+        "note": "胶囊电梯上顶层，螺旋回廊一路向下"
+      },
+      {
+        "label": "馆藏",
+        "score": 4.0,
+        "note": "陶瓷、青铜、契斋藏印三条常设线"
+      },
+      {
+        "label": "免费",
+        "score": 5.0,
+        "note": "免费免预约，极少特展另收费"
+      },
+      {
+        "label": "规模",
+        "score": 3.0,
+        "note": "一个半小时看完，体量不大"
+      }
+    ],
+    "body": "深博的老馆，专放古代艺术，和市民中心那座历史民俗馆不是一个地方，跑错的人不少。动线设计得聪明：坐黑白胶囊电梯到顶层，再沿螺旋回廊一路往下，一趟不走回头路，省力也不漏展。陶瓷、青铜与契斋藏印三条常设线，有一二级文物。免费免预约最实在。短板是规模不大，一个半小时就能看完，专程跑一趟略薄。",
+    "basis": "corpus",
+    "at": "2026-11-10",
+    "fits": [
+      "看陶瓷青铜",
+      "雨天",
+      "免费避暑"
+    ],
+    "avoid": [
+      "专程追镇馆大展"
+    ],
+    "sources": []
+  }
 }

@@ -1,66 +1,129 @@
 {
-  "id": "baikui-laohao",
-  "name": "白魁老号(安定门店)",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "清真老字号，白水羊头与烧羊肉是两样招牌。",
-  "description": "白魁老号创于清乾隆末年，做的是清真的汤羊与小食。白水羊头是代表一道——白水煮好的羊肉放凉后切薄片，撒上由盐与香料研磨的椒盐，和烧羊肉、豆汁儿一起在同一个橱窗里卖。安定门店位置不在游客区，早点时段常见街坊拿着锅来买。这里最能感觉到「小吃原来还一直是邻居在吃的」。",
-  "highlights": [
-    "白水羊头是招牌一道",
-    "早点时段本地客流真实",
-    "位置不在游客区"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.40821,
-      "lat": 39.943728,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "北京市东城区安定门内大街",
-    "district": "东城",
-    "transportTip": "地铁2号线安定门站步行"
+ "id": "baikui-laohao",
+ "name": "白魁老号(安定门店)",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "清真老字号，白水羊头与烧羊肉是两样招牌。",
+ "description": "白魁老号创于清乾隆末年，做的是清真的汤羊与小食。白水羊头是代表一道——白水煮好的羊肉放凉后切薄片，撒上由盐与香料研磨的椒盐，和烧羊肉、豆汁儿一起在同一个橱窗里卖。安定门店位置不在游客区，早点时段常见街坊拿着锅来买。这里最能感觉到「小吃原来还一直是邻居在吃的」。",
+ "highlights": [
+  "白水羊头是招牌一道",
+  "早点时段本地客流真实",
+  "位置不在游客区"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.40821,
+   "lat": 39.943728,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约06:00-20:00(以门店公告为准)",
-    "openHoursRef": 0,
-    "ticket": "人均约40元起(以门店为准)",
-    "ticketRef": 0,
-    "duration": "建议 40-90 分钟",
-    "durationMinutes": [
-      40,
-      90
-    ],
-    "priceLevel": "budget"
+  "address": "北京市东城区安定门内大街195号",
+  "district": "东城",
+  "transportTip": "地铁2号线安定门站步行"
+ },
+ "practical": {
+  "openHours": "约05:30-21:00(以门店公告为准)",
+  "openHoursRef": 0,
+  "ticket": "人均约40元起(以门店为准)",
+  "ticketRef": 0,
+  "duration": "建议 40-90 分钟",
+  "durationMinutes": [
+   40,
+   90
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "清真",
+  "老字号",
+  "早餐"
+ ],
+ "popularity": 76,
+ "sources": [
+  {
+   "title": "百度百科·白魁老号",
+   "url": "https://baike.baidu.com/item/%E7%99%BD%E9%AD%81%E8%80%81%E5%8F%B7",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
   },
-  "audience": [
-    "solo"
+  {
+   "title": "北京旅游网《百年烟火，舌尖记忆，北京16家百年老字号》",
+   "url": "https://www.visitbeijing.com.cn/article/4QZZhFh4jVF",
+   "kind": "media",
+   "fetchedAt": "2026-11-14"
+  },
+  {
+   "title": "北京旅游网·白魁老号饭庄(安内店)营业时间",
+   "url": "https://s.visitbeijing.com.cn/food/315",
+   "kind": "media",
+   "fetchedAt": "2026-11-14"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "白魁老号(安定门店)"
+ },
+ "_geocodeTitle": "白魁老号饭庄(安内店)",
+ "_geocodeSuspect": false,
+ "district": "110101",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-14",
+  "changes": [
+   {
+    "field": "开放时间",
+    "old": "约06:00-20:00(以门店公告为准)",
+    "new": "约05:30-21:00(以门店公告为准)"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "清真",
-    "老字号",
-    "早餐"
+  "source": "https://s.visitbeijing.com.cn/food/315",
+  "reason": "北京旅游网商家页 5:30 开门；2026-10 现场探访与图商/百科一致 21:00 收工"
+ },
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.3,
+    "note": "白水羊头切薄片撒椒盐，烧羊肉是另一绝"
+   },
+   {
+    "label": "价格",
+    "score": 4.5,
+    "note": "人均 40 元上下，早点更便宜"
+   },
+   {
+    "label": "环境",
+    "score": 3.2,
+    "note": "街坊馆子的做派，桌椅紧凑、声音大"
+   },
+   {
+    "label": "早市",
+    "score": 4.5,
+    "note": "早点时段本地人排队买熟食，烟火气最足"
+   }
   ],
-  "popularity": 76,
+  "body": "白魁的看点在「邻居还在吃」这件事上：门口熟食窗口从早到晚切羊头、卖烧羊肉，早点时段街坊拿着锅来买，比前门一带的老字号真实得多。缺点也明显——环境朴素、座位挤，中午以后熟食剩得少，想吃白水羊头得赶早；收摊也早，晚上去基本没戏。",
+  "basis": "web",
+  "at": "2026-11-14",
+  "fits": [
+   "想吃清真小吃",
+   "赶早市"
+  ],
+  "avoid": [
+   "想要就餐环境"
+  ],
   "sources": [
-    {
-      "title": "百度百科·白魁老号",
-      "url": "https://baike.baidu.com/item/%E7%99%BD%E9%AD%81%E8%80%81%E5%8F%B7",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "白魁老号(安定门店)"
-  },
-  "_geocodeTitle": "白魁老号饭庄(安内店)",
-  "_geocodeSuspect": false,
-  "district": "110101",
-  "_noImage": true
+   "https://www.visitbeijing.com.cn/article/4QZZhFh4jVF"
+  ]
+ }
 }

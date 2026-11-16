@@ -1,127 +1,164 @@
 {
-  "id": "science-museum",
-  "name": "中国科学技术馆",
-  "category": "scenic",
-  "subtype": "museum",
-  "summary": "带孩子的第一选择,互动设备在同类馆里属于顶级配置。",
-  "description": "科技馆在奥林匹克公园北侧,主体是「探索与发现」「科技与生活」等常展加大量可动手动)^{互动装置,球幕影院与特效影院另行付费。它的定位是科普与参与,而不是文物;带孩子的话,这里比多数博物馆更容易消耗掉一整天且不累。和鸟巢、水立方在同一区域内,安排在一天是最顺的方案。",
-  "highlights": [
-    "互动展项多,适合全天",
-    "球幕影院另行收费",
-    "与鸟巢水立方同一片区"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.398428,
-      "lat": 40.005885,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "北京市朝阳区北辰东路5号",
-    "district": "朝阳",
-    "transportTip": "地铁8号线森林公园南门站/15号线安立路站"
+ "id": "science-museum",
+ "name": "中国科学技术馆",
+ "category": "scenic",
+ "subtype": "museum",
+ "summary": "带孩子的第一选择,互动设备在同类馆里属于顶级配置。",
+ "description": "科技馆在奥林匹克公园北侧,主体是「探索与发现」「科技与生活」等常展加大量可动手动)^{互动装置,球幕影院与特效影院另行付费。它的定位是科普与参与,而不是文物;带孩子的话,这里比多数博物馆更容易消耗掉一整天且不累。和鸟巢、水立方在同一区域内,安排在一天是最顺的方案。",
+ "highlights": [
+  "互动展项多,适合全天",
+  "球幕影院另行收费",
+  "与鸟巢水立方同一片区"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.398428,
+   "lat": 40.005885,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约09:30-17:00,周一闭馆(法定节假日除外),以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "主展厅约30元起,影院另行收费,以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 180-360 分钟",
-    "durationMinutes": [
-      180,
-      360
-    ],
-    "priceLevel": "mid"
+  "address": "北京市朝阳区北辰东路5号",
+  "district": "朝阳",
+  "transportTip": "地铁8号线森林公园南门站/15号线安立路站"
+ },
+ "practical": {
+  "openHours": "约09:30-17:00,周一闭馆(法定节假日除外),以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "主展厅约30元起,影院另行收费,以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 180-360 分钟",
+  "durationMinutes": [
+   180,
+   360
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "kids",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/China_Science_and_Technology_Museum_%2820210403155720%29.jpg/1280px-China_Science_and_Technology_Museum_%2820210403155720%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/China_Science_and_Technology_Museum_%2820210403155720%29.jpg/1280px-China_Science_and_Technology_Museum_%2820210403155720%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "China Science and Technology Museum (20210403155720).jpg",
+   "query": "中国科学技术馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "N509FZ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:China_Science_and_Technology_Museum_(20210403155720).jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "kids",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/China_Science_and_Technology_Museum_%2820210403155720%29.jpg/1280px-China_Science_and_Technology_Museum_%2820210403155720%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/China_Science_and_Technology_Museum_%2820210403155720%29.jpg/1280px-China_Science_and_Technology_Museum_%2820210403155720%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "China Science and Technology Museum (20210403155720).jpg",
-      "query": "中国科学技术馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "N509FZ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:China_Science_and_Technology_Museum_(20210403155720).jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/China_Science_and_Technology_Museum_exterior_%28east%29_20171110151456.jpg/1280px-China_Science_and_Technology_Museum_exterior_%28east%29_20171110151456.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/China_Science_and_Technology_Museum_exterior_%28east%29_20171110151456.jpg/1280px-China_Science_and_Technology_Museum_exterior_%28east%29_20171110151456.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "China Science and Technology Museum exterior (east) 20171110151456.jpg",
-      "query": "中国科学技术馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "XiaYZ2023",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:China_Science_and_Technology_Museum_exterior_(east)_20171110151456.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Chuanjiesaurus_fossil_in_China_Science_and_Technology_Museum.jpg/1280px-Chuanjiesaurus_fossil_in_China_Science_and_Technology_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Chuanjiesaurus_fossil_in_China_Science_and_Technology_Museum.jpg/1280px-Chuanjiesaurus_fossil_in_China_Science_and_Technology_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 946,
-      "alt": "Chuanjiesaurus fossil in China Science and Technology Museum.jpg",
-      "query": "中国科学技术馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Mlogic",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chuanjiesaurus_fossil_in_China_Science_and_Technology_Museum.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Beijing_science_and_technology_museum_14_Aug_2010.jpg/1280px-Beijing_science_and_technology_museum_14_Aug_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Beijing_science_and_technology_museum_14_Aug_2010.jpg/1280px-Beijing_science_and_technology_museum_14_Aug_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 601,
-      "alt": "Beijing science and technology museum 14 Aug 2010.jpg",
-      "query": "中国科学技术馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Jason Quinn",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beijing_science_and_technology_museum_14_Aug_2010.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "科普",
-    "互动",
-    "亲子首选"
-  ],
-  "popularity": 76,
-  "sources": [
-    {
-      "title": "百度百科·中国科学技术馆",
-      "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E9%A6%86",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "中国科学技术馆"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/China_Science_and_Technology_Museum_exterior_%28east%29_20171110151456.jpg/1280px-China_Science_and_Technology_Museum_exterior_%28east%29_20171110151456.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/China_Science_and_Technology_Museum_exterior_%28east%29_20171110151456.jpg/1280px-China_Science_and_Technology_Museum_exterior_%28east%29_20171110151456.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "China Science and Technology Museum exterior (east) 20171110151456.jpg",
+   "query": "中国科学技术馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "XiaYZ2023",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:China_Science_and_Technology_Museum_exterior_(east)_20171110151456.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "中国科学技术馆",
-  "_geocodeSuspect": false,
-  "district": "110105"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Chuanjiesaurus_fossil_in_China_Science_and_Technology_Museum.jpg/1280px-Chuanjiesaurus_fossil_in_China_Science_and_Technology_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Chuanjiesaurus_fossil_in_China_Science_and_Technology_Museum.jpg/1280px-Chuanjiesaurus_fossil_in_China_Science_and_Technology_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 946,
+   "alt": "Chuanjiesaurus fossil in China Science and Technology Museum.jpg",
+   "query": "中国科学技术馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Mlogic",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chuanjiesaurus_fossil_in_China_Science_and_Technology_Museum.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Beijing_science_and_technology_museum_14_Aug_2010.jpg/1280px-Beijing_science_and_technology_museum_14_Aug_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Beijing_science_and_technology_museum_14_Aug_2010.jpg/1280px-Beijing_science_and_technology_museum_14_Aug_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 601,
+   "alt": "Beijing science and technology museum 14 Aug 2010.jpg",
+   "query": "中国科学技术馆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Jason Quinn",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beijing_science_and_technology_museum_14_Aug_2010.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "科普",
+  "互动",
+  "亲子首选"
+ ],
+ "popularity": 76,
+ "sources": [
+  {
+   "title": "百度百科·中国科学技术馆",
+   "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E9%A6%86",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "中国科学技术馆"
+ },
+ "_geocodeTitle": "中国科学技术馆",
+ "_geocodeSuspect": false,
+ "district": "110105",
+ "review": {
+  "score": 4.5,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "互动",
+    "score": 4.8,
+    "note": "可动手的展项密度在国内同类馆里属顶级"
+   },
+   {
+    "label": "亲子",
+    "score": 4.9,
+    "note": "一天消耗得了，孩子不腻"
+   },
+   {
+    "label": "人流",
+    "score": 2.7,
+    "note": "周末与假期热门展项要排队"
+   },
+   {
+    "label": "额外花费",
+    "score": 3.5,
+    "note": "球幕与特效影院另行收费"
+   }
+  ],
+  "body": "带孩子来北京，这里比多数博物馆更抗耗：常展里能动手的展项极多，从机械原理到人体感知，一天下来不重样。短板有两条——周末和假期人挤，热门展项排队十几分钟起；球幕影院、特效影院都要另买票，预算要往上留。建议和鸟巢、水立方排在同一天。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "带娃",
+   "科普爱好者"
+  ],
+  "avoid": [
+   "想安静看展"
+  ],
+  "sources": []
+ }
 }

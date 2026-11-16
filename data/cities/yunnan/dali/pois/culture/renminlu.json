@@ -1,128 +1,167 @@
 {
-  "id": "renminlu",
-  "name": "人民路",
-  "category": "culture",
-  "subtype": "street",
-  "summary": "大理古城内一条长街，白天逛店夜里摆摊，是古城最活的街。",
-  "description": "人民路是大理古城内一条长街，从南门到北门纵贯。白天是扎染、银器、唱片、旧物的小店；傍晚起路两边摆满地摊，手作、明信片、鲜花。卖唱的也多。是古城最有生活气的一条街。慢慢走能逛一下午。",
-  "highlights": [
-    "古城内纵贯南门到北门的长街",
-    "白天逛店夜里摆摊，生活气最浓",
-    "能逛一下午"
-  ],
-  "location": {
-    "point": {
-      "lng": 100.16849,
-      "lat": 25.695745,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "云南省大理白族自治州大理市大理古城人民路",
-    "district": "大理市",
-    "transportTip": "大理古城内步行可达"
+ "id": "renminlu",
+ "name": "人民路",
+ "category": "culture",
+ "subtype": "street",
+ "summary": "大理古城内一条长街，白天逛店夜里摆摊，是古城最活的街。",
+ "description": "人民路是大理古城内一条长街，从南门到北门纵贯。白天是扎染、银器、唱片、旧物的小店；傍晚起路两边摆满地摊，手作、明信片、鲜花。卖唱的也多。是古城最有生活气的一条街。慢慢走能逛一下午。",
+ "highlights": [
+  "古城内纵贯南门到北门的长街",
+  "白天逛店夜里摆摊，生活气最浓",
+  "能逛一下午"
+ ],
+ "location": {
+  "point": {
+   "lng": 100.16849,
+   "lat": 25.695745,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天（傍晚摆摊最旺）",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 120-240 分钟",
-    "durationMinutes": [
-      120,
-      240
-    ],
-    "priceLevel": "free"
+  "address": "云南省大理白族自治州大理市大理古城人民路",
+  "district": "大理市",
+  "transportTip": "大理古城内步行可达"
+ },
+ "practical": {
+  "openHours": "全天（傍晚摆摊最旺）",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 120-240 分钟",
+  "durationMinutes": [
+   120,
+   240
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF01.jpg/1280px-%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF01.jpg/1280px-%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 812,
+   "alt": "大理古城人民路01.jpg",
+   "query": "人民路 大理",
+   "credit": {
+    "source": "wikimedia",
+    "author": "瑞丽江的河水",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF01.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "friends",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF01.jpg/1280px-%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF01.jpg/1280px-%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 812,
-      "alt": "大理古城人民路01.jpg",
-      "query": "人民路 大理",
-      "credit": {
-        "source": "wikimedia",
-        "author": "瑞丽江的河水",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF01.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF02.jpg/1280px-%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF02.jpg/1280px-%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1436,
-      "alt": "大理古城人民路02.jpg",
-      "query": "人民路 大理",
-      "credit": {
-        "source": "wikimedia",
-        "author": "瑞丽江的河水",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF02.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF03.jpg/1280px-%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF03.jpg/1280px-%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 812,
-      "alt": "大理古城人民路03.jpg",
-      "query": "人民路 大理",
-      "credit": {
-        "source": "wikimedia",
-        "author": "瑞丽江的河水",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF03.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF04.jpg/1280px-%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF04.jpg/1280px-%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 812,
-      "alt": "大理古城人民路04.jpg",
-      "query": "人民路 大理",
-      "credit": {
-        "source": "wikimedia",
-        "author": "瑞丽江的河水",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF04.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "老街",
-    "逛店",
-    "地摊"
-  ],
-  "popularity": 72,
-  "sources": [
-    {
-      "title": "百度百科·大理古城",
-      "url": "https://baike.baidu.com/item/%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "人民路"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF02.jpg/1280px-%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF02.jpg/1280px-%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1436,
+   "alt": "大理古城人民路02.jpg",
+   "query": "人民路 大理",
+   "credit": {
+    "source": "wikimedia",
+    "author": "瑞丽江的河水",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF02.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "人民路",
-  "_geocodeSuspect": false,
-  "district": "532901"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF03.jpg/1280px-%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF03.jpg/1280px-%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 812,
+   "alt": "大理古城人民路03.jpg",
+   "query": "人民路 大理",
+   "credit": {
+    "source": "wikimedia",
+    "author": "瑞丽江的河水",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF03.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF04.jpg/1280px-%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF04.jpg/1280px-%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 812,
+   "alt": "大理古城人民路04.jpg",
+   "query": "人民路 大理",
+   "credit": {
+    "source": "wikimedia",
+    "author": "瑞丽江的河水",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E%E4%BA%BA%E6%B0%91%E8%B7%AF04.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "老街",
+  "逛店",
+  "地摊"
+ ],
+ "popularity": 72,
+ "sources": [
+  {
+   "title": "百度百科·大理古城",
+   "url": "https://baike.baidu.com/item/%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "人民路"
+ },
+ "_geocodeTitle": "人民路",
+ "_geocodeSuspect": false,
+ "district": "532901",
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "生活气",
+    "score": 4.5,
+    "note": "白天小店、傍晚摆摊，古城最活的一条街"
+   },
+   {
+    "label": "夜里",
+    "score": 4.4,
+    "note": "地摊、卖唱、酒吧连成片"
+   },
+   {
+    "label": "商业化",
+    "score": 2.8,
+    "note": "同款手作重复度高"
+   },
+   {
+    "label": "人流",
+    "score": 2.5,
+    "note": "节假日晚上人挤人"
+   }
+  ],
+  "body": "人民路是古城里最有生活气的一条街，白天是扎染、银器、唱片、旧物小店，傍晚起两边摆满地摊，手作、明信片、鲜花，卖唱的也多，慢慢走能泡一下午。缺点是人一多就没法逛，节假日晚上基本人挤人；同款手作重复度高，价格靠砍。想逛舒服就挑工作日下午。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "逛地摊",
+   "夜游",
+   "慢逛"
+  ],
+  "avoid": [
+   "怕挤",
+   "想买正品"
+  ],
+  "sources": []
+ }
 }

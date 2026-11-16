@@ -1,158 +1,197 @@
 {
-  "id": "songzanlin",
-  "name": "噶丹·松赞林寺",
-  "category": "scenic",
-  "subtype": "temple",
-  "summary": "云南最大的藏传佛教寺院，金顶在半山上。",
-  "description": "松赞林寺在市区北边，是云南规模最大的藏传佛教寺院，有云南布达拉宫的说法。寺院顺着山势一层层排上去，金顶在阳光下很亮。主殿里供着巨大的佛像，墙上是满满的壁画和唐卡。寺前有一片拉姆央措湖，水面把金顶倒映出来。僧人们转经、辩经，是这里日常的动静。进殿要脱帽、顺时针走。",
-  "highlights": [
-    "云南最大的藏传寺院",
-    "金顶在半山层叠",
-    "寺前有拉姆央措湖倒影"
-  ],
-  "location": {
-    "point": {
-      "lng": 99.705871,
-      "lat": 27.860031,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "迪庆藏族自治州香格里拉市建塘镇尼旺路",
-    "district": "香格里拉",
-    "transportTip": "市区以北约五公里，打车或公交可达"
+ "id": "songzanlin",
+ "name": "噶丹·松赞林寺",
+ "category": "scenic",
+ "subtype": "temple",
+ "summary": "云南最大的藏传佛教寺院，金顶在半山上。",
+ "description": "松赞林寺在市区北边，是云南规模最大的藏传佛教寺院，有云南布达拉宫的说法。寺院顺着山势一层层排上去，金顶在阳光下很亮。主殿里供着巨大的佛像，墙上是满满的壁画和唐卡。寺前有一片拉姆央措湖，水面把金顶倒映出来。僧人们转经、辩经，是这里日常的动静。进殿要脱帽、顺时针走。",
+ "highlights": [
+  "云南最大的藏传寺院",
+  "金顶在半山层叠",
+  "寺前有拉姆央措湖倒影"
+ ],
+ "location": {
+  "point": {
+   "lng": 99.705871,
+   "lat": 27.860031,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 08:00-18:00（以官方为准）",
-    "openHoursRef": 0,
-    "ticket": "约 90 元含讲解，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 120-240 分钟",
-    "durationMinutes": [
-      120,
-      240
-    ],
-    "priceLevel": "mid"
+  "address": "迪庆藏族自治州香格里拉市建塘镇尼旺路",
+  "district": "香格里拉",
+  "transportTip": "市区以北约五公里，打车或公交可达"
+ },
+ "practical": {
+  "openHours": "约 08:00-18:00（以官方为准）",
+  "openHoursRef": 0,
+  "ticket": "约 90 元含讲解，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 120-240 分钟",
+  "durationMinutes": [
+   120,
+   240
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "solo",
+  "couple",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Songzanlin_Monastery_-_the_%22Little_Potala_Palace%22_-_panoramio.jpg/1280px-Songzanlin_Monastery_-_the_%22Little_Potala_Palace%22_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Songzanlin_Monastery_-_the_%22Little_Potala_Palace%22_-_panoramio.jpg/1280px-Songzanlin_Monastery_-_the_%22Little_Potala_Palace%22_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 608,
+   "alt": "Songzanlin Monastery - the \"Little Potala Palace\" - panoramio.jpg",
+   "query": "噶丹·松赞林寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Colin W",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Songzanlin_Monastery_-_the_%22Little_Potala_Palace%22_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "solo",
-    "couple",
-    "elders"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Songzanlin_Monastery_-_the_%22Little_Potala_Palace%22_-_panoramio.jpg/1280px-Songzanlin_Monastery_-_the_%22Little_Potala_Palace%22_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Songzanlin_Monastery_-_the_%22Little_Potala_Palace%22_-_panoramio.jpg/1280px-Songzanlin_Monastery_-_the_%22Little_Potala_Palace%22_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 608,
-      "alt": "Songzanlin Monastery - the \"Little Potala Palace\" - panoramio.jpg",
-      "query": "噶丹·松赞林寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Colin W",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Songzanlin_Monastery_-_the_%22Little_Potala_Palace%22_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Songzanlin_Monastery_-_the_%22Little_Potala_Palace%22_-_panoramio_-_Colin_W.jpg/1280px-Songzanlin_Monastery_-_the_%22Little_Potala_Palace%22_-_panoramio_-_Colin_W.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Songzanlin_Monastery_-_the_%22Little_Potala_Palace%22_-_panoramio_-_Colin_W.jpg/1280px-Songzanlin_Monastery_-_the_%22Little_Potala_Palace%22_-_panoramio_-_Colin_W.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 608,
-      "alt": "Songzanlin Monastery - the \"Little Potala Palace\" - panoramio - Colin W.jpg",
-      "query": "噶丹·松赞林寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Colin W",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Songzanlin_Monastery_-_the_%22Little_Potala_Palace%22_-_panoramio_-_Colin_W.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA1.JPG/1280px-%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA1.JPG/1280px-%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1623,
-      "alt": "云南香格里拉松赞林寺1.JPG",
-      "query": "噶丹·松赞林寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "蒋亦炯",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA1.JPG",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA10.JPG/1280px-%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA10.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA10.JPG/1280px-%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA10.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1623,
-      "alt": "云南香格里拉松赞林寺10.JPG",
-      "query": "噶丹·松赞林寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "蒋亦炯",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA10.JPG",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA11.JPG/1280px-%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA11.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA11.JPG/1280px-%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA11.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1623,
-      "alt": "云南香格里拉松赞林寺11.JPG",
-      "query": "噶丹·松赞林寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "蒋亦炯",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA11.JPG",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/1_songzanlin_2018a.jpg/1280px-1_songzanlin_2018a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/1_songzanlin_2018a.jpg/1280px-1_songzanlin_2018a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "1 songzanlin 2018a.jpg",
-      "query": "噶丹·松赞林寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Chensiyuan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:1_songzanlin_2018a.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "藏传佛教",
-    "寺院",
-    "金顶"
-  ],
-  "popularity": 97,
-  "sources": [
-    {
-      "title": "百度百科·噶丹松赞林",
-      "url": "https://baike.baidu.com/item/%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-06"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "噶丹·松赞林寺"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Songzanlin_Monastery_-_the_%22Little_Potala_Palace%22_-_panoramio_-_Colin_W.jpg/1280px-Songzanlin_Monastery_-_the_%22Little_Potala_Palace%22_-_panoramio_-_Colin_W.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Songzanlin_Monastery_-_the_%22Little_Potala_Palace%22_-_panoramio_-_Colin_W.jpg/1280px-Songzanlin_Monastery_-_the_%22Little_Potala_Palace%22_-_panoramio_-_Colin_W.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 608,
+   "alt": "Songzanlin Monastery - the \"Little Potala Palace\" - panoramio - Colin W.jpg",
+   "query": "噶丹·松赞林寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Colin W",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Songzanlin_Monastery_-_the_%22Little_Potala_Palace%22_-_panoramio_-_Colin_W.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "噶丹松赞林寺",
-  "_geocodeSuspect": false,
-  "district": "533401"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA1.JPG/1280px-%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA1.JPG/1280px-%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1623,
+   "alt": "云南香格里拉松赞林寺1.JPG",
+   "query": "噶丹·松赞林寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "蒋亦炯",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA1.JPG",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA10.JPG/1280px-%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA10.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA10.JPG/1280px-%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA10.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1623,
+   "alt": "云南香格里拉松赞林寺10.JPG",
+   "query": "噶丹·松赞林寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "蒋亦炯",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA10.JPG",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA11.JPG/1280px-%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA11.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA11.JPG/1280px-%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA11.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1623,
+   "alt": "云南香格里拉松赞林寺11.JPG",
+   "query": "噶丹·松赞林寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "蒋亦炯",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA11.JPG",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/1_songzanlin_2018a.jpg/1280px-1_songzanlin_2018a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/1_songzanlin_2018a.jpg/1280px-1_songzanlin_2018a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "1 songzanlin 2018a.jpg",
+   "query": "噶丹·松赞林寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Chensiyuan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1_songzanlin_2018a.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "藏传佛教",
+  "寺院",
+  "金顶"
+ ],
+ "popularity": 97,
+ "sources": [
+  {
+   "title": "百度百科·噶丹松赞林",
+   "url": "https://baike.baidu.com/item/%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%AF%BA",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-06"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "噶丹·松赞林寺"
+ },
+ "_geocodeTitle": "噶丹松赞林寺",
+ "_geocodeSuspect": false,
+ "district": "533401",
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "建筑",
+    "score": 4.7,
+    "note": "金顶顺山势层层排上，气势足"
+   },
+   {
+    "label": "倒影",
+    "score": 4.2,
+    "note": "寺前拉姆央措湖能拍到金顶倒影"
+   },
+   {
+    "label": "海拔体力",
+    "score": 3.0,
+    "note": "台阶多，高原上爬着费劲"
+   },
+   {
+    "label": "规矩",
+    "score": 3.5,
+    "note": "进殿脱帽、顺时针走，需留意提示"
+   }
+  ],
+  "body": "云南规模最大的藏传佛教寺院，有「云南布达拉宫」的说法：殿宇顺着山势一层层排上去，金顶在阳光下很亮，主殿里巨佛、满墙壁画和唐卡都密；寺前拉姆央措湖把金顶整个倒映出来，是最出片的角度。僧人转经、辩经是这里的日常，不只是布景。不足是台阶多，在高原上爬一整套院落比想象中费劲，讲解随团队走、散客容易跟不上；进殿要脱帽、顺时针行走，规矩不熟会有点拘束。含讲解的票建议用上，否则满墙图像看过就算过了。上午光线好、人也少些。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "藏传佛教艺术",
+   "拍金顶倒影",
+   "人文摄影"
+  ],
+  "avoid": [
+   "台阶吃力",
+   "只想随意逛逛"
+  ],
+  "sources": []
+ }
 }

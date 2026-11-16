@@ -13,13 +13,24 @@
 import { RoutePlanPanelBody } from '~/common/ui/plan/RoutePlanPanelBody'
 import { usePlanUi } from '~/common/logic/itinerary/planUi'
 import { Overlay } from '~/common/ui/Overlay'
+import { usePresence } from '~/common/ui/usePresence'
 
 export function DesktopRoutePlanPanel() {
   const open = usePlanUi((s) => s.panelOpen)
-  if (!open) return null
+  /* 关掉先播右滑出再卸载（文件头"不渲染"的理由只针对"长期藏着"，多留 160ms 无碍） */
+  const pres = usePresence(open)
+  if (!pres.mounted) return null
 
   return (
-    <Overlay anchor="right" widthToken="--panel-plan" tall z={21} label="路线规划" className="overflow-hidden">
+    <Overlay
+      anchor="right"
+      widthToken="--panel-plan"
+      tall
+      z={21}
+      label="路线规划"
+      className="overflow-hidden"
+      exiting={pres.exiting}
+    >
       <RoutePlanPanelBody />
     </Overlay>
   )

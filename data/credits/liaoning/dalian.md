@@ -1,6 +1,6 @@
 # 大连 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-01
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -45,6 +45,7 @@
 | 海凉粉 | [百度百科·石花菜](https://baike.baidu.com/item/%E7%9F%B3%E8%8A%B1%E8%8F%9C) | wiki | 2026-10-01 |
 | 大连海参 | [百度百科·海参](https://baike.baidu.com/item/%E6%B5%B7%E5%8F%82) | wiki | 2026-10-01 |
 | 海鲜烧烤 | [百度百科·海鲜烧烤](https://baike.baidu.com/item/%E6%B5%B7%E9%B2%9C) | wiki | 2026-10-01 |
+| 海鲜烧烤 | [大连消协秋季旅游消费提示：海鲜排档计价模糊与海上项目强制消费是本城高发项](https://www.dbfzw.cn/2026/wanxiang_1026/5407.html) | media | 2026-11-15 |
 | 鲅鱼饺子 | [百度百科·鲅鱼饺子](https://baike.baidu.com/item/%E9%A5%BA%E5%AD%90) | wiki | 2026-10-01 |
 | 烤鱿鱼 | [百度百科·鱿鱼](https://baike.baidu.com/item/%E9%B1%BF%E9%B1%BC) | wiki | 2026-10-01 |
 | 焖子 | [百度百科·焖子](https://baike.baidu.com/item/%E7%84%96%E5%AD%90) | wiki | 2026-10-01 |
@@ -62,10 +63,13 @@
 | 俄罗斯风情街 | [百度百科·俄罗斯风情街](https://baike.baidu.com/item/%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97) | wiki | 2026-10-01 |
 | 星海广场夜景 | [百度百科·星海广场](https://baike.baidu.com/item/%E6%98%9F%E6%B5%B7%E5%B9%BF%E5%9C%BA) | wiki | 2026-10-01 |
 | 渔人码头 | [百度百科·大连渔人码头](https://baike.baidu.com/item/%E6%B8%94%E4%BA%BA%E7%A0%81%E5%A4%B4) | wiki | 2026-10-01 |
+| 渔人码头 | [占位地址（原写成点位名）替换为门牌：图商 POI+OTA+百科三方一致；交通与避](https://hk.trip.com/moments/theme/poi-fisherman-pier-10522984-museums-910238) | media | 2026-11-15 |
 | 中山广场老建筑 | [百度百科·中山广场](https://baike.baidu.com/item/%E4%B8%AD%E5%B1%B1%E5%B9%BF%E5%9C%BA) | wiki | 2026-10-01 |
 | 东港威尼斯水城 | [百度百科·东港](https://baike.baidu.com/item/%E5%A4%A7%E8%BF%9E%E4%B8%9C%E6%B8%AF) | wiki | 2026-10-01 |
+| 东港威尼斯水城 | [地址/交通按大连市文旅局口径；游船时段与入口提示补齐](https://zsjp.jpntv.cn/a/202510/10/s68e86fdce4b01ca35998f1e9.html) | media | 2026-11-15 |
 | 大连国际服装节 | [百度百科·大连国际服装节](https://baike.baidu.com/item/%E5%A4%A7%E8%BF%9E%E5%9B%BD%E9%99%85%E6%9C%8D%E8%A3%85%E8%8A%82) | wiki | 2026-10-01 |
 | 南山风情街 | [百度百科·南山风情街](https://baike.baidu.com/item/%E5%8D%97%E5%B1%B1%E9%A3%8E%E6%83%85%E8%A1%97) | wiki | 2026-10-01 |
+| 南山风情街 | [占位地址替换为枫林街17号（图商 POI/OTA/百科一致）；补街区规模与银杏时](https://nginx-dlrm.dlrm.cn/dlrm/site1/mweb/jaa7d/content_7134594.html) | media | 2026-11-15 |
 | 俄罗斯风情街 | [百度百科·俄罗斯风情街](https://baike.baidu.com/item/%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97) | wiki | 2026-10-01 |
 | 旅顺太阳沟 | [百度百科·旅顺太阳沟](https://baike.baidu.com/item/%E6%97%85%E9%A1%BA%E5%8F%A3) | wiki | 2026-10-01 |
 | 中山广场 | [百度百科·中山广场](https://baike.baidu.com/item/%E4%B8%AD%E5%B1%B1%E5%B9%BF%E5%9C%BA) | wiki | 2026-10-01 |
@@ -74,9 +78,8 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | 阴阳权政 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2013%E5%A4%A7%E8%BF%9E%E5%AF%92%E5%81%87%E8%81%9A%E4%BC%9A%E5%90%88%E5%BD%B1.jpg) |
-| 城市封面 | 燃玉 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%85%B1%E9%9D%92%E5%9B%A2%E5%A4%A7%E8%BF%9E%E5%B8%82%E5%A7%94%E5%9B%A2%E6%A0%A1-%E6%BB%A8%E6%B5%B7%E4%B8%AD%E8%B7%AF.jpg) |
-| 城市封面 | DukeAnt | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%85%B1%E9%9D%92%E5%9B%A2%E5%A4%A7%E8%BF%9E%E5%B8%82%E5%A7%94%E5%9B%A2%E6%A0%A1.jpg) |
+| 城市封面 | chp13579753 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E6%98%9F%E6%B5%B7%E5%B9%BF%E5%9C%BA_-_panoramio.jpg) |
+| 城市封面 | User:Sinopitt | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_Laohutan_Ocean_Park.JPG) |
 | 棒棰岛 | 逝水流觞 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bangchui_Island.jpg) |
 | 冰峪沟 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bingyu-Valley_Liaoning_China_Gate-at-the-barrier-lake-01.jpg) |
 | 冰峪沟 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bingyu-Valley_Liaoning_China_Reclining-Buddha-01.jpg) |
@@ -105,10 +108,6 @@
 | 付家庄公园 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E4%BB%98%E5%AE%B6%E5%BA%84%E5%85%AC%E5%9B%AD%E6%B2%99%E6%BB%A9%E6%B5%B7%E6%B0%B4.jpg) |
 | 付家庄公园 | Signjing | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BB%98%E5%AE%B6%E5%BA%84%E5%85%AC%E5%9B%AD_1.JPG) |
 | 海之韵公园 | Ffggss | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E4%B9%8B%E9%9F%B5%E5%85%AC%E5%9B%AD_%E5%8D%81%E5%85%AB%E7%9B%98.jpg) |
-| 金石滩 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2002%E5%B9%B4%E5%A4%A7%E8%BF%9E%E9%87%91%E7%9F%B3%E6%BB%A9_jin_shi_tan_-_panoramio.jpg) |
-| 金石滩 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2002%E5%B9%B4%E9%87%91%E7%9F%B3%E6%BB%A9%E4%B8%AD%E5%BF%83%E5%A4%A7%E8%A1%97_zhong_xin_da_jie_-_panoramio.jpg) |
-| 金石滩 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2002%E5%B9%B4%E9%87%91%E7%9F%B3%E6%BB%A9%E6%B5%B7%E6%BB%A8%E6%B5%B4%E5%9C%BA_jin_shi_tan_hai_bin_yu_chang_-_panoramio.jpg) |
-| 金石滩 | 信之洋 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_Jinshitan_Coastal_Geopark.jpg) |
 | 劳动公园 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_China_Labor-Park-01.jpg) |
 | 劳动公园 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_China_Labor-Park-02.jpg) |
 | 劳动公园 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_China_Labor-Park-02a.jpg) |
@@ -138,12 +137,10 @@
 | 旅顺日俄监狱旧址 | Vitsuha | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%89%E9%87%8D%E6%A0%B9%E5%B0%B1%E4%B9%89%E5%A4%84.jpg) |
 | 旅顺日俄监狱旧址 | Vitsuha | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%89%E9%87%8D%E6%A0%B9%E6%89%8B%E4%B9%A6%E2%80%9C%E7%8B%AC%E7%AB%8B%E2%80%9D.jpg) |
 | 人民广场 | CEphoto, Uwe Aranas | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_Liaoning_China_Police-woman-in-front-of-town-hall-01.jpg) |
-| 俄罗斯风情街 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E5%9B%A2%E7%BB%93%E8%A1%97%E5%85%89%E8%BE%89%E5%B7%B7%E8%A5%BF%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97%E5%A4%A7%E8%BF%9E%E8%88%B9%E8%88%B6%E6%8A%80%E6%9C%AF%E5%AD%A6%E6%A0%A1.jpg) |
-| 俄罗斯风情街 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E5%9B%A2%E7%BB%93%E8%A1%97%E6%B5%B7%E6%B4%8B%E8%A1%97%E8%A5%BF%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97.jpg) |
-| 俄罗斯风情街 | 宋迎利 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E5%B8%82%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97_-_panoramio.jpg) |
-| 俄罗斯风情街 | 宋迎利 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E5%B8%82%E5%8C%BA%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97_-_panoramio.jpg) |
-| 俄罗斯风情街 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97%E7%9A%84%E4%BB%8A%E6%97%A5%E4%B8%96%E7%95%8C%E9%A5%AD%E5%BA%97_-_panoramio.jpg) |
-| 俄罗斯风情街 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97%E7%9A%84%E5%A4%A9%E5%A4%A9%E6%B8%94%E6%B8%AF_-_panoramio.jpg) |
+| 人民广场 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 人民广场 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 人民广场 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 人民广场 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 贝壳博物馆 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E6%98%9F%E6%B5%B7%E5%B9%BF%E5%9C%BA%E4%B8%9C%E5%8D%97%E6%8C%91%E6%9C%88%E6%A1%A5%E4%B8%8A%E8%A5%BF%E5%8C%97%E6%9C%9B%E9%A9%AC%E6%A0%8F%E6%B2%B3%E5%A4%A7%E8%BF%9E%E8%B4%9D%E5%A3%B3%E5%8D%9A%E7%89%A9%E9%A6%86.jpg) |
 | 贝壳博物馆 | 燃玉 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%B4%9D%E5%A3%B3%E5%8D%9A%E7%89%A9%E9%A6%86-1.jpg) |
 | 贝壳博物馆 | 燃玉 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%B4%9D%E5%A3%B3%E5%8D%9A%E7%89%A9%E9%A6%86-2.jpg) |
@@ -187,6 +184,7 @@
 | 焖子 | JesseW900 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dalian_Menzi.JPG) |
 | 焖子 | JUNNR | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:FoodMenzi1.jpg) |
 | 焖子 | JUNNR | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:FoodMenzi2.jpg) |
+| 酸菜炖 | Techyan | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Suan_cai,_pork,_and_Chinese_blood_sausage_stew.jpg) |
 | 虾夷扇贝 | A. C. Tatarinov | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mizuhopecten_yessoensis.jpg) |
 | 咸鱼饼子 | JesseW900 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Salted_fish_Dalian.JPG) |
 | 滨海路 | Signjing | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8C%97%E5%A4%A7%E6%A1%A5_%E9%A3%8E%E8%BD%A6%E5%B0%8F%E5%B1%8B.JPG) |
@@ -204,11 +202,18 @@
 | 星海广场夜景 | Air7538 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Dalian_Xinghai_Square_or_Xinghai_Plaza_Night_01.jpg) |
 | 星海广场夜景 | Air7538 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:China_Dalian_Xinghai_Square_or_Xinghai_Plaza_Night_02.jpg) |
 | 星海广场夜景 | User:Sinopitt | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xinghai_Square,_Dalian.JPG) |
+| 中山广场老建筑 | kanegen | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 中山广场老建筑 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 中山广场老建筑 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 中山广场老建筑 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 中山广场老建筑 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 中山广场老建筑 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 俄罗斯风情街 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E5%9B%A2%E7%BB%93%E8%A1%97%E5%85%89%E8%BE%89%E5%B7%B7%E8%A5%BF%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97%E5%A4%A7%E8%BF%9E%E8%88%B9%E8%88%B6%E6%8A%80%E6%9C%AF%E5%AD%A6%E6%A0%A1.jpg) |
 | 俄罗斯风情街 | 董辰兴 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E5%9B%A2%E7%BB%93%E8%A1%97%E6%B5%B7%E6%B4%8B%E8%A1%97%E8%A5%BF%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97.jpg) |
 | 俄罗斯风情街 | 宋迎利 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E5%B8%82%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97_-_panoramio.jpg) |
 | 俄罗斯风情街 | 宋迎利 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%BF%9E%E5%B8%82%E5%8C%BA%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97_-_panoramio.jpg) |
 | 俄罗斯风情街 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97%E7%9A%84%E4%BB%8A%E6%97%A5%E4%B8%96%E7%95%8C%E9%A5%AD%E5%BA%97_-_panoramio.jpg) |
 | 俄罗斯风情街 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BF%84%E7%BD%97%E6%96%AF%E9%A3%8E%E6%83%85%E8%A1%97%E7%9A%84%E5%A4%A9%E5%A4%A9%E6%B8%94%E6%B8%AF_-_panoramio.jpg) |
+| 旅顺太阳沟 | Nyx Ning | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 中山广场 | Paul Louis | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bank_of_China,_Zhangshan_Square,_Dalian.JPG) |
 | 中山广场 | MR+G from Wakayama, Japan | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Zhongshan_Square,_Dalian.jpg) |

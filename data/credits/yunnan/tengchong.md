@@ -1,6 +1,6 @@
 # 腾冲 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-07
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-14
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%92%8C%E9%A1%BA%E5%B0%8F%E5%B7%B7-%E8%85%BE%E5%86%B2%E7%9A%AE%E5%BD%B1%E6%88%8F_01.jpg) |
-| 城市封面 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%92%8C%E9%A1%BA%E5%B0%8F%E5%B7%B7-%E8%85%BE%E5%86%B2%E7%9A%AE%E5%BD%B1%E6%88%8F%E9%81%93%E5%85%B7.jpg) |
-| 城市封面 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%85%BE%E5%86%B2_Tengchong_-_panoramio.jpg) |
+| 城市封面 | Kcx36 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Rehai,_Tengchong_03.jpg) |
+| 城市封面 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_-_%E5%8F%8C%E8%99%B9%E6%A1%A5_-_2023-08-02.jpg) |
+| 城市封面 | Zhangmoon618 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%85%BE%E5%86%B2%E5%92%8C%E9%A1%BA%E5%AF%B8%E6%B0%8F%E5%AE%97%E7%A5%A0.jpg) |
 | 艾思奇故居 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%89%BE%E6%80%9D%E5%A5%87%E6%95%85%E5%B1%85_-_%E5%89%8D%E9%99%A2_-_2023-08-02_01.jpg) |
 | 艾思奇故居 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%89%BE%E6%80%9D%E5%A5%87%E6%95%85%E5%B1%85_-_%E5%89%8D%E9%99%A2_-_2023-08-02_02.jpg) |
 | 艾思奇故居 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%89%BE%E6%80%9D%E5%A5%87%E6%95%85%E5%B1%85_-_%E5%89%8D%E9%99%A2_-_2023-08-02_03.jpg) |
@@ -106,8 +106,6 @@
 | 和顺古镇 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_(2).jpg) |
 | 和顺古镇 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_(3).jpg) |
 | 和顺古镇 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87_He_Shun_-_panoramio_(4).jpg) |
-| 和顺古镇 | Zhangmoon618 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%92%8C%E9%A1%BA%E5%9B%BE%E4%B9%A6%E9%A6%86_20210107_01.jpg) |
-| 和顺图书馆 | Zhangmoon618 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%92%8C%E9%A1%BA%E5%9B%BE%E4%B9%A6%E9%A6%86_20210107_02.jpg) |
 | 和顺宗祠群 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 和顺宗祠群 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 和顺宗祠群 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |

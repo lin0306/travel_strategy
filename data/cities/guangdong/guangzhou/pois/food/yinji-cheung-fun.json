@@ -1,69 +1,138 @@
 {
-  "id": "yinji-cheung-fun",
-  "name": "银记肠粉（上下九店）",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "布拉肠的代表：肠粉这种东西在广州的日常程度，看它的分店密度就知道。",
-  "description": "银记做的是布拉肠——米浆摊在布上蒸，成形后再卷起来。这种做法比抽屉式更薄，口感更滑。最常见的几款是牛肉肠、虾肠与叉烧肠，淋的是豉油。上下九这一片的分店是游客最方便遇到的，本地的分店更多。它是一顿早饭或者下午加餐，不是正餐。高峰期要等位，出餐快，翻台也快。",
-  "highlights": [
-    "布拉肠做法是重点，比抽屉式更薄更滑",
-    "牛肉肠与虾肠是常年款",
-    "当早饭或加餐，不是正餐"
+ "id": "yinji-cheung-fun",
+ "name": "银记肠粉（上下九店）",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "布拉肠的代表：肠粉这种东西在广州的日常程度，看它的分店密度就知道。",
+ "description": "银记做的是布拉肠——米浆摊在布上蒸，成形后再卷起来。这种做法比抽屉式更薄，口感更滑。最常见的几款是牛肉肠、虾肠与叉烧肠，淋的是豉油。上下九这一片的分店是游客最方便遇到的，本地的分店更多。它是一顿早饭或者下午加餐，不是正餐。高峰期要等位，出餐快，翻台也快。",
+ "highlights": [
+  "布拉肠做法是重点，比抽屉式更薄更滑",
+  "牛肉肠与虾肠是常年款",
+  "当早饭或加餐，不是正餐"
+ ],
+ "location": {
+  "point": {
+   "lat": 23.115718,
+   "lng": 113.251168,
+   "coordSystem": "GCJ-02"
+  },
+  "address": "广州市荔湾区上九路 79 号（上下九步行街）",
+  "district": "荔湾区",
+  "transportTip": "地铁1号线长寿路站"
+ },
+ "practical": {
+  "openHours": "约07:00-22:00（各店有别），以门店公告为准",
+  "openHoursRef": 0,
+  "ticket": "人均约20-40元，以门店为准",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
   ],
-  "location": {
-    "point": {
-      "lng": 113.237258,
-      "lat": 23.115378,
-      "coordSystem": "GCJ-02"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "solo",
+  "friends",
+  "family",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "小吃",
+  "肠粉",
+  "连锁"
+ ],
+ "popularity": 86,
+ "sources": [
+  {
+   "title": "百度百科·银记肠粉",
+   "url": "https://baike.baidu.com/item/%E9%93%B6%E8%AE%B0%E8%82%A0%E7%B2%89%E5%BA%97",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-24"
+  },
+  {
+   "title": "南方+ 与图商POI一致：上下九79号；原坐标落在宝华路一带偏西1.4km",
+   "url": "https://static.nfnews.com/content/202410/08/c10146555.html",
+   "kind": "media",
+   "fetchedAt": "2026-11-09"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "银记肠粉（上下九店）"
+ },
+ "_geocodeTitle": "银记肠粉(永庆坊店)",
+ "_geocodeSuspect": false,
+ "district": "440103",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-09",
+  "changes": [
+   {
+    "field": "地址",
+    "old": "广州市荔湾区第十甫路与文昌路一带",
+    "new": "广州市荔湾区上九路 79 号（上下九步行街）"
+   },
+   {
+    "field": "point",
+    "old": {
+     "lng": 113.237258,
+     "lat": 23.115378,
+     "coordSystem": "GCJ-02"
     },
-    "address": "广州市荔湾区第十甫路与文昌路一带",
-    "district": "荔湾区",
-    "transportTip": "地铁1号线长寿路站"
-  },
-  "practical": {
-    "openHours": "约07:00-22:00（各店有别），以门店公告为准",
-    "openHoursRef": 0,
-    "ticket": "人均约20-40元，以门店为准",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "solo",
-    "friends",
-    "family",
-    "couple"
+    "new": [
+     23.115718,
+     113.251168
+    ]
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "小吃",
-    "肠粉",
-    "连锁"
+  "source": "https://static.nfnews.com/content/202410/08/c10146555.html",
+  "reason": "南方+ 与图商POI一致：上下九79号；原坐标落在宝华路一带偏西1.4km"
+ },
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.2,
+    "note": "布拉肠比抽屉式更薄更滑"
+   },
+   {
+    "label": "出餐",
+    "score": 4.3,
+    "note": "出餐快，翻台也快"
+   },
+   {
+    "label": "环境",
+    "score": 2.5,
+    "note": "店面小座位密，站着等是常态"
+   },
+   {
+    "label": "定位",
+    "score": 2.6,
+    "note": "早饭或加餐，不是正餐"
+   }
   ],
-  "popularity": 86,
-  "sources": [
-    {
-      "title": "百度百科·银记肠粉",
-      "url": "https://baike.baidu.com/item/%E9%93%B6%E8%AE%B0%E8%82%A0%E7%B2%89%E5%BA%97",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-24"
-    }
+  "body": "布拉肠是重点，米浆摊在布上蒸、成形后再卷起，这种做法比抽屉式更薄更滑；牛肉肠、虾肠与叉烧肠是常年款，淋的是豉油，上下九这一片的分店游客最方便遇到。它的定位是一顿早饭或者下午加餐，不是正餐，别指望吃出仪式感；高峰期要等位，虽然出餐快、翻台也快，但店面小、座位密，环境一般。顺路吃一份很值，专程跑就没必要。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "早餐",
+   "下午加餐",
+   "上下九顺路"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "银记肠粉（上下九店）"
-  },
-  "_geocodeTitle": "银记肠粉(永庆坊店)",
-  "_geocodeSuspect": false,
-  "district": "440103",
-  "_noImage": true
+  "avoid": [
+   "当正餐",
+   "要坐得舒服"
+  ],
+  "sources": []
+ }
 }

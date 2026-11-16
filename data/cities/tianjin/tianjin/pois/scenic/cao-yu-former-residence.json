@@ -21,7 +21,7 @@
     "transportTip": "地铁2号线建国道站或3号线津湾广场站下，步行进入意式风情区；紧邻天津站"
   },
   "practical": {
-    "openHours": "周二至周日约 9:00-16:00，周一闭馆（法定节假日除外），以官方公告为准",
+    "openHours": "周二至周日 09:00-16:30（16:00 停止入馆），周一闭馆（法定节假日除外）",
     "openHoursRef": 0,
     "ticket": "免费，持身份证登记入馆；曹禺剧院演出另计，以官方为准",
     "ticketRef": 0,
@@ -59,9 +59,15 @@
       "url": "https://baike.baidu.com/view/3572466.html",
       "kind": "wiki",
       "fetchedAt": "2026-10-28"
+    },
+    {
+      "title": "天津市文旅局博物馆名录 09:00-16:30",
+      "url": "https://whly.tj.gov.cn/WSBSYZXBS4230/CXFW5394/CGCX9598/202008/t20200827_3571476.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Cao Yu Former Residence Memorial Hall",
@@ -70,5 +76,17 @@
   "_geocodeTitle": "曹禺故居纪念馆",
   "_geocodeSuspect": false,
   "district": "120105",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "周二至周日约 9:00-16:00，周一闭馆（法定节假日除外），以官方公告为准",
+        "new": "周二至周日 09:00-16:30（16:00 停止入馆），周一闭馆（法定节假日除外）"
+      }
+    ],
+    "source": "https://whly.tj.gov.cn/WSBSYZXBS4230/CXFW5394/CGCX9598/202008/t20200827_3571476.html",
+    "reason": "天津市文旅局博物馆名录 09:00-16:30"
+  }
 }

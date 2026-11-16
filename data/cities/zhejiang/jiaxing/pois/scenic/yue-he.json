@@ -57,21 +57,6 @@
       }
     },
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/%E6%9C%88%E6%B2%B3.jpg/1280px-%E6%9C%88%E6%B2%B3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/%E6%9C%88%E6%B2%B3.jpg/1280px-%E6%9C%88%E6%B2%B3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "月河.jpg",
-      "query": "月河历史街区 嘉兴",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Ddccxl",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%9C%88%E6%B2%B3.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/%E6%9C%88%E6%B2%B3%E5%8E%86%E5%8F%B2%E8%A1%97%E5%8C%BA.jpg/1280px-%E6%9C%88%E6%B2%B3%E5%8E%86%E5%8F%B2%E8%A1%97%E5%8C%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/%E6%9C%88%E6%B2%B3%E5%8E%86%E5%8F%B2%E8%A1%97%E5%8C%BA.jpg/1280px-%E6%9C%88%E6%B2%B3%E5%8E%86%E5%8F%B2%E8%A1%97%E5%8C%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "width": 1080,
@@ -102,7 +87,7 @@
       "fetchedAt": "2026-10-05"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -110,5 +95,12 @@
   },
   "_geocodeTitle": "月河历史街区",
   "_geocodeSuspect": false,
-  "district": "330402"
+  "district": "330402",
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 1 张（待重抓）",
+    "droppedImages": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/%E6%9C%88%E6%B2%B3.jpg/1280px-%E6%9C%88%E6%B2%B3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  }
 }

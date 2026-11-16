@@ -1,66 +1,98 @@
 {
-  "id": "shuangta-shot",
-  "name": "双塔山石柱",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "双塔山两根石柱的合影机位，柱顶双塔是奇观，晴天轮廓清楚。",
-  "description": "双塔山最好拍的是那两根柱子和柱顶的两座塔 —— 石头是深色的，天是蓝的，对比强。在景区底下的观景位置仰拍，能把两根柱子和塔都收进去。晴天轮廓最清楚，阴天就糊。它离市区近，顺路拍一张不费事。",
-  "highlights": [
-    "两根石柱配柱顶双塔，对比强",
-    "底下仰拍可收全柱与塔",
-    "晴天轮廓清，离市区近"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.812855,
-      "lat": 40.969989,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市双滦区双塔山",
-    "district": "双滦区",
-    "transportTip": "市区公交或打车到双塔山"
+ "id": "shuangta-shot",
+ "name": "双塔山石柱",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "双塔山两根石柱的合影机位，柱顶双塔是奇观，晴天轮廓清楚。",
+ "description": "双塔山最好拍的是那两根柱子和柱顶的两座塔 —— 石头是深色的，天是蓝的，对比强。在景区底下的观景位置仰拍，能把两根柱子和塔都收进去。晴天轮廓最清楚，阴天就糊。它离市区近，顺路拍一张不费事。",
+ "highlights": [
+  "两根石柱配柱顶双塔，对比强",
+  "底下仰拍可收全柱与塔",
+  "晴天轮廓清，离市区近"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.812855,
+   "lat": 40.969989,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-17:00",
-    "openHoursRef": 0,
-    "ticket": "含双塔山门票",
-    "ticketRef": 0,
-    "duration": "建议 40-80 分钟",
-    "durationMinutes": [
-      40,
-      80
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "family",
-    "couple"
+  "address": "河北省承德市双滦区双塔山",
+  "district": "双滦区",
+  "transportTip": "市区公交或打车到双塔山"
+ },
+ "practical": {
+  "openHours": "约08:00-17:00",
+  "openHoursRef": 0,
+  "ticket": "含双塔山门票",
+  "ticketRef": 0,
+  "duration": "建议 40-80 分钟",
+  "durationMinutes": [
+   40,
+   80
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "石柱",
-    "双塔",
-    "奇景"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "family",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "石柱",
+  "双塔",
+  "奇景"
+ ],
+ "popularity": 70,
+ "sources": [
+  {
+   "title": "百度百科·双塔山",
+   "url": "https://baike.baidu.com/item/%E5%8F%8C%E5%A1%94%E5%B1%B1",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "双塔山石柱"
+ },
+ "_geocodeTitle": "双塔山镇",
+ "district": "130803",
+ "_noImage": true,
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "拍照",
+    "score": 4.2,
+    "note": "深色石柱配蓝天，对比很强"
+   },
+   {
+    "label": "时机",
+    "score": 3.4,
+    "note": "阴天基本糊成一片"
+   },
+   {
+    "label": "停留",
+    "score": 2.8,
+    "note": "拍完就走，没有别的可停留"
+   }
   ],
-  "popularity": 70,
-  "sources": [
-    {
-      "title": "百度百科·双塔山",
-      "url": "https://baike.baidu.com/item/%E5%8F%8C%E5%A1%94%E5%B1%B1",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "body": "双塔山最值得拍的就是那两根深色石柱和柱顶的小塔，蓝天一衬对比很强，在底下的观景位仰拍能把柱和塔一起收进去。晴天轮廓最清楚，阴天就糊了。缺点是这里只适合拍一张就走，没有别的可停留的内容；想等好光线就得在下面晒着，遮阴的地方很少。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "拍照",
+   "顺路"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "双塔山石柱"
-  },
-  "_geocodeTitle": "双塔山镇",
-  "district": "130803",
-  "_noImage": true
+  "avoid": [
+   "专程为此跑一趟"
+  ],
+  "sources": []
+ }
 }

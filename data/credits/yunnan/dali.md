@@ -1,6 +1,6 @@
 # 大理 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-01
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-13
 
 ## 概览
 
@@ -14,6 +14,7 @@
 |-----|---------|------|---------|
 | 才村码头 | [百度百科·才村](https://baike.baidu.com/item/%E6%89%8D%E6%9D%91) | wiki | 2026-10-01 |
 | 苍山 | [百度百科·苍山](https://baike.baidu.com/item/%E8%8B%8D%E5%B1%B1) | wiki | 2026-10-01 |
+| 苍山 | [大理旅游集团苍山洗马潭索道分公司公告（大理融媒 2026-11-10 转发）：2](https://www.163.com/dy/article/LBB5ND380550AN9P.html) | media | 2026-11-15 |
 | 崇圣寺三塔 | [百度百科·崇圣寺三塔](https://baike.baidu.com/item/%E5%B4%87%E5%9C%A3%E5%AF%BA%E4%B8%89%E5%A1%94) | wiki | 2026-10-01 |
 | 茈碧湖 | [百度百科·茈碧湖](https://baike.baidu.com/item/%E8%8C%88%E7%A2%A7%E6%B9%96) | wiki | 2026-10-01 |
 | 大理州博物馆 | [百度百科·大理州博物馆](https://baike.baidu.com/item/%E5%A4%A7%E7%90%86%E5%B7%9E%E5%8D%9A%E7%89%A9%E9%A6%86) | wiki | 2026-10-01 |
@@ -56,11 +57,14 @@
 | 才村日落 | [百度百科·才村](https://baike.baidu.com/item/%E6%89%8D%E6%9D%91) | wiki | 2026-10-01 |
 | 海舌公园 | [百度百科·海舌](https://baike.baidu.com/item/%E6%B5%B7%E8%88%8C) | wiki | 2026-10-01 |
 | 环海骑行 | [百度百科·洱海](https://baike.baidu.com/item/%E6%B4%B1%E6%B5%B7) | wiki | 2026-10-01 |
+| 环海骑行 | [大理州政府信箱 2026-07-10 答复：廊道全域禁行电动车辆、仅特许观光车合](https://www.dali.gov.cn/dlzrmzf/mail/detail.html?id=2058103581068636160) | media | 2026-11-15 |
 | 理想邦 | [大理理想邦](https://baike.baidu.com/item/%E5%A4%A7%E7%90%86) | wiki | 2026-10-01 |
 | 龙龛码头 | [百度百科·龙龛](https://baike.baidu.com/item/%E6%B4%B1%E6%B5%B7) | wiki | 2026-10-01 |
 | 磻溪湾 | [百度百科·磻溪](https://baike.baidu.com/item/%E6%B4%B1%E6%B5%B7) | wiki | 2026-10-01 |
 | 沙溪先锋书店 | [百度百科·沙溪镇](https://baike.baidu.com/item/%E6%B2%99%E6%BA%AA%E9%95%87) | wiki | 2026-10-01 |
+| 沙溪先锋书店 | [大理融媒 2026-04-29 载明地址北龙村、营业 10:00-19:00；图](http://www.dlzrm.cn/daliwenl/2026/0429/72876.html) | media | 2026-11-15 |
 | 文笔村 | [百度百科·文笔村](https://baike.baidu.com/item/%E6%B4%B1%E6%B5%B7) | wiki | 2026-10-01 |
+| 文笔村 | [原封面（才村夜望对岸，几乎全黑）不能当卡片图；换第 2 张白天文笔村牌坊，同点位](https://upload.wikimedia.org/wikipedia/commons/9/97/%E4%BA%91%E5%8D%97%E7%9C%81%E5%A4%A7%E7%90%86%E6%B5%B7%E4%B8%9C%E9%95%87%E6%96%87%E7%AC%94%E6%9D%91.jpg) | media | 2026-11-15 |
 | 喜洲稻田 | [百度百科·喜洲镇](https://baike.baidu.com/item/%E5%96%9C%E6%B4%B2%E9%95%87) | wiki | 2026-10-01 |
 | 洋人街 | [百度百科·大理古城](https://baike.baidu.com/item/%E5%A4%A7%E7%90%86%E5%8F%A4%E5%9F%8E) | wiki | 2026-10-01 |
 | 洞经古乐 | [百度百科·洞经音乐](https://baike.baidu.com/item/%E6%B4%9E%E7%BB%8F%E9%9F%B3%E4%B9%90) | wiki | 2026-10-01 |
@@ -74,19 +78,29 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | 〔明〕李元陽纂修 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:NLC892-0899-206550_%E5%98%89%E9%9D%96%E5%A4%A7%E7%90%86%E5%BA%9C%E5%BF%97-01-%E5%A4%A7%E7%90%86%E5%BA%9C%E6%89%80%E5%B1%AC%E7%B8%BD%E5%9C%96.jpg) |
-| 城市封面 | ShuQizhe | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dali_Ancient_Town_20260220-1.jpg) |
-| 城市封面 | ShuQizhe | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dali_Ancient_Town_20260220-2.jpg) |
+| 城市封面 | Cherry_sai | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B4%87%E5%9C%A3%E5%AF%BA%E4%B8%89%E5%A1%94-2316933.jpg) |
+| 城市封面 | Ngguls | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260223_Dali_Old_Town_10.jpg) |
+| 城市封面 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E7%90%86%E6%89%8D%E6%9D%91%E7%9A%84%E6%B4%B1%E6%B5%B7_03.jpg) |
+| 才村码头 | zhanyoun | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 才村码头 | Colin W | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 才村码头 | David Stanley from Nanaimo, Canada | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 才村码头 | christiali | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 苍山 | 中国郑开亮 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E5%A4%A7%E7%90%86_%E8%8B%8D%E5%B1%B1%E2%80%94%E6%A3%8B%E7%9B%98_-_panoramio.jpg) |
 | 崇圣寺三塔 | Caihm | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E7%90%86%E5%B4%87%E5%9C%A3%E5%AF%BA%E4%B8%89%E5%A1%94_-_panoramio.jpg) |
 | 崇圣寺三塔 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E7%90%86_%E5%B4%87%E5%9C%A3%E5%AF%BA_%E5%8C%97%E5%A1%94_the_north_pagoda_-_panoramio.jpg) |
 | 崇圣寺三塔 | wanghongliu | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E7%90%86%E5%B4%87%E5%9C%A3%E5%AF%BA%E5%8D%83%E5%AF%BB%E5%A1%94%E5%92%8C%E5%8D%97%E5%8C%97%E4%BA%8C%E5%A1%94_Chong_Sheng_Si_-_panoramio.jpg) |
 | 崇圣寺三塔 | Tdxiang at English Wikipedia | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Three_Pagodas_from_bottom_view.JPG) |
+| 崇圣寺三塔 | DvYang | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 崇圣寺三塔 | DvYang | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 茈碧湖 | Zhangmoon618 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Cibi_Lake.jpg) |
 | 茈碧湖 | Kcx36 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:214%E5%9B%BD%E9%81%93-%E6%B4%B1%E6%BA%90%E5%8E%BF%E8%8C%88%E7%A2%A7%E6%B9%96%E9%95%87%E5%A2%83%E5%86%85_2024-08-08.jpg) |
 | 茈碧湖 | Zhangmoon618 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Cibi_Lake_viewed_form_north_shore.JPG) |
 | 大理州博物馆 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E7%90%86%E5%B7%9E%E5%8D%9A%E7%89%A9%E9%A6%86-%E4%B8%9C%E6%B1%89-%E5%A4%A7%E7%90%86%E5%B7%9E%E5%88%B6%E8%8D%AF%E5%8E%82%E4%B8%9C%E6%B1%89%E5%A2%93-%E9%99%B6%E7%8A%AC.jpg) |
 | 大理州博物馆 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E7%90%86%E5%B7%9E%E5%8D%9A%E7%89%A9%E9%A6%86-%E5%8D%97%E8%AF%8F-%E5%A4%A7%E7%90%86%E5%9B%BD-%E5%A4%A7%E7%90%86%E5%B8%82%E5%A4%A9%E4%BA%95%E6%9D%91-%E5%8D%97%E8%AF%8F-%E5%A4%A7%E7%90%86%E5%9B%BD%E6%9C%89%E5%AD%97%E7%93%A6.jpg) |
+| 大理州博物馆 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大理州博物馆 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大理州博物馆 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 大理州博物馆 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 大理古城 | Ngguls | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260223_Dali_Old_Town_03.jpg) |
 | 大理古城 | Ngguls | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260223_Dali_Old_Town_04.jpg) |
 | 大理古城 | Ngguls | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260223_Dali_Old_Town_05.jpg) |
@@ -134,6 +148,10 @@
 | 沙溪古镇 | Matthieu Lelievre | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%89%91%E5%B7%9D%E6%B2%99%E6%BA%AA%E5%8F%A4%E9%95%87_03.jpg) |
 | 沙溪古镇 | Matthieu Lelievre | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%89%91%E5%B7%9D%E6%B2%99%E6%BA%AA%E5%8F%A4%E9%95%87_04.jpg) |
 | 沙溪古镇 | Matthieu Lelievre | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%89%91%E5%B7%9D%E6%B2%99%E6%BA%AA%E5%8F%A4%E9%95%87_05.jpg) |
+| 石宝山 | Rod Waddington from Kergunyah, Australia | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/Category:Shibao Mountain) |
+| 石宝山 | Rod Waddington | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/Category:Shibao Mountain) |
+| 石宝山 | Rod Waddington | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/Category:Shibao Mountain) |
+| 石宝山 | Rod Waddington | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/Category:Shibao Mountain) |
 | 双廊 | Ma Martin | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8F%8C%E5%BB%8A%E5%8F%A4%E9%95%87_Shuanglang_Town_-_panoramio.jpg) |
 | 双廊 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8F%8C%E5%BB%8A%E9%95%87%E6%97%81%E6%97%A0%E4%BA%BA%E7%9A%84%E8%BD%BB%E8%88%9F.jpg) |
 | 双廊 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8F%8C%E5%BB%8A%E9%95%87%E7%8E%89%E6%B3%A2%E9%98%81.jpg) |
@@ -143,6 +161,7 @@
 | 天龙八部影视城 | Jonashtand | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:202605_%E5%A4%A9%E9%BE%8D%E5%85%AB%E9%83%A8%E5%BD%B1%E8%A6%96%E5%9F%8E_Demi-Gods_and_Semi-Devils_film_city_14.jpg) |
 | 天龙八部影视城 | Jonashtand | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:202605_%E5%A4%A9%E9%BE%8D%E5%85%AB%E9%83%A8%E5%BD%B1%E8%A6%96%E5%9F%8E_Demi-Gods_and_Semi-Devils_film_city_17.jpg) |
 | 天龙八部影视城 | Jonashtand | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:202605_%E5%A4%A9%E9%BE%8D%E5%85%AB%E9%83%A8%E5%BD%B1%E8%A6%96%E5%9F%8E_Demi-Gods_and_Semi-Devils_film_city_21.jpg) |
+| 巍山古城 | Zhangmoon618 | CC BY-SA 3.0 | [wikimedia](https://www.wikidata.org/wiki/Q15912864) |
 | 无为寺 | Kcx36 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A0%E4%B8%BA%E5%AF%BA-%E5%A4%A9%E7%8E%8B%E6%AE%BF_2025-02-10_01.jpg) |
 | 无为寺 | Kcx36 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A0%E4%B8%BA%E5%AF%BA-%E6%96%87%E4%BF%9D%E7%A2%91_2025-02-10.jpg) |
 | 小普陀 | Mx. Granger | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%99%AE%E9%99%80_1.jpg) |
@@ -167,10 +186,15 @@
 | 乳扇 | rduta | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dali_Rushan.jpg) |
 | 乳扇 | Chris DeLacy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xizhou_Rushan.jpg) |
 | 巍山耙肉饵丝 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B7%8D%E5%B1%B1%E8%80%99%E8%82%89%E9%A5%B5%E4%B8%9D.jpg) |
+| 喜洲粑粑 | Mx. Granger | CC0 | [wikimedia](https://zh.wikipedia.org/wiki/喜洲粑粑) |
 | 漾濞核桃 | Kristof Zyskowski & Yulia Bereshpolova | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Juglans_sigillata_(Iron_Walnut),_Baihualin,_Yunnan,_China_1.jpg) |
 | 漾濞核桃 | Kristof Zyskowski & Yulia Bereshpolova | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Juglans_sigillata_(Iron_Walnut),_Baihualin,_Yunnan,_China_2.jpg) |
 | 海舌公园 | Kcx36 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E8%88%8C%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD_01.jpg) |
 | 海舌公园 | Kcx36 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E8%88%8C%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD_02.jpg) |
+| 龙龛码头 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 龙龛码头 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 龙龛码头 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 磻溪湾 | Kcx36 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 文笔村 | Liuxingy | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E7%90%86%E6%89%8D%E6%9D%91%E6%9C%9B%E5%90%91%E6%B4%B1%E6%B5%B7%E5%AF%B9%E5%B2%B8%E7%9A%84%E6%96%87%E7%AC%94%E6%9D%91.jpg) |
 | 文笔村 | Kcx36 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E7%9C%81%E5%A4%A7%E7%90%86%E6%B5%B7%E4%B8%9C%E9%95%87%E6%96%87%E7%AC%94%E6%9D%91.jpg) |
 | 洋人街 | fsyzh | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E7%90%86%E6%B4%8B%E4%BA%BA%E8%A1%97_-_panoramio.jpg) |
@@ -188,3 +212,4 @@
 | 三月街 | David Stanley from Nanaimo, Canada | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chinese_Medicines_(48431188327).jpg) |
 | 三月街 | David Stanley from Nanaimo, Canada | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Ethnic_Minority_People_(48428106746).jpg) |
 | 三月街 | David Stanley from Nanaimo, Canada | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Festival_Time_in_Dali_(48418711482).jpg) |
+| 周城扎染 | 瑞丽江的河水 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |

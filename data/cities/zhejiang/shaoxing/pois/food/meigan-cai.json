@@ -1,68 +1,105 @@
 {
-  "id": "meigan-cai",
-  "name": "霉干菜扣肉",
-  "category": "food",
-  "subtype": "local",
-  "summary": "绍兴家常头牌，咸鲜下饭。",
-  "description": "霉干菜扣肉是绍兴最出圈的家常菜，用本地霉干菜（芥菜腌制晒干）与五花肉同蒸，菜吸油、肉带香，咸鲜浓郁、极其下饭。它也是绍兴人远行的念想，干菜便于携带。几乎每家土菜馆都有，价低。配白饭能多吃一碗。菜偏油偏咸，配白饭最稳，怕咸的点菜时先问一句。",
-  "highlights": [
-    "霉干菜与五花肉同蒸",
-    "菜吸油肉带香，超下饭",
-    "绍兴头牌家常，便于携"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.86098,
-      "lat": 30.00413,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "绍兴市越城区土菜馆",
-    "district": "上虞区",
-    "transportTip": "市区及景区周边"
+ "id": "meigan-cai",
+ "name": "霉干菜扣肉",
+ "category": "food",
+ "subtype": "local",
+ "summary": "绍兴家常头牌，咸鲜下饭。",
+ "description": "霉干菜扣肉是绍兴最出圈的家常菜，用本地霉干菜（芥菜腌制晒干）与五花肉同蒸，菜吸油、肉带香，咸鲜浓郁、极其下饭。它也是绍兴人远行的念想，干菜便于携带。几乎每家土菜馆都有，价低。配白饭能多吃一碗。菜偏油偏咸，配白饭最稳，怕咸的点菜时先问一句。",
+ "highlights": [
+  "霉干菜与五花肉同蒸",
+  "菜吸油肉带香，超下饭",
+  "绍兴头牌家常，便于携"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.86098,
+   "lat": 30.00413,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约11:00-14:00 / 17:00-21:00（以门店为准）",
-    "openHoursRef": 0,
-    "ticket": "人均约30元，以门店为准",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "elders",
-    "family",
-    "solo"
+  "address": "绍兴市越城区土菜馆",
+  "district": "上虞区",
+  "transportTip": "市区及景区周边"
+ },
+ "practical": {
+  "openHours": "约11:00-14:00 / 17:00-21:00（以门店为准）",
+  "openHoursRef": 0,
+  "ticket": "人均约30元，以门店为准",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "霉干菜",
-    "扣肉",
-    "下饭"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "elders",
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "霉干菜",
+  "扣肉",
+  "下饭"
+ ],
+ "popularity": 84,
+ "sources": [
+  {
+   "title": "百度百科·霉干菜",
+   "url": "https://baike.baidu.com/item/%E9%9C%89%E5%B9%B2%E8%8F%9C",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "霉干菜扣肉"
+ },
+ "_geocodeTitle": "张岙土菜馆",
+ "_geocodeSuspect": false,
+ "district": "330604",
+ "_noImage": true,
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.3,
+    "note": "菜吸油肉带香，极下饭"
+   },
+   {
+    "label": "价格",
+    "score": 4.5,
+    "note": "土菜馆都有，人均不高"
+   },
+   {
+    "label": "分量",
+    "score": 4.0,
+    "note": "一份够两三人分"
+   },
+   {
+    "label": "清淡度",
+    "score": 2.6,
+    "note": "偏咸偏油，口淡的人吃不消"
+   }
   ],
-  "popularity": 84,
-  "sources": [
-    {
-      "title": "百度百科·霉干菜",
-      "url": "https://baike.baidu.com/item/%E9%9C%89%E5%B9%B2%E8%8F%9C",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "霉干菜扣肉是绍兴人待客的头一道：芥菜腌晒成干菜，和五花肉一起上笼蒸透，菜吸了油、肉带上菜香，浇在白饭上能多吃一碗。几乎每家土菜馆都有，价格也低。缺点是整体偏咸偏油，口味清淡的人吃两口就想找水；干菜质量差别很大，老坛的陈菜香，新晒的只剩咸味，点单前不妨问一句用的是哪一种。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "长辈",
+   "家庭"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "霉干菜扣肉"
-  },
-  "_geocodeTitle": "张岙土菜馆",
-  "_geocodeSuspect": false,
-  "district": "330604",
-  "_noImage": true
+  "avoid": [
+   "忌油忌咸"
+  ],
+  "sources": []
+ }
 }

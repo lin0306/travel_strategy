@@ -45,7 +45,9 @@
     "solo"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "山顶原长沙电视发射塔 2025-08 改造为「长沙之眼」观景台，省发改委核定 35 元/人次（试行两年），14 周岁以下、65 岁以上免票"
+  ],
   "images": [
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Aiwan_Pavilion_in_Yuelu_Mountain_20251018.jpg/1280px-Aiwan_Pavilion_in_Yuelu_Mountain_20251018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -151,9 +153,15 @@
       "url": "https://baike.baidu.com/item/%E5%B2%B3%E9%BA%93%E5%B1%B1",
       "kind": "wiki",
       "fetchedAt": "2026-09-28"
+    },
+    {
+      "title": "湖南日报·省发改委核定「长沙之眼」门票试行价 35 元/人次（试行两年）",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzAxMTM1ODY3OA==&mid=2649935353&idx=2&sn=71895933b65ed2b6ecc0870c38c1f5ee",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -161,5 +169,58 @@
   },
   "_geocodeTitle": "岳麓山国家重点风景名胜区",
   "_geocodeSuspect": false,
-  "district": "430104"
+  "district": "430104",
+  "review": {
+    "score": 4.6,
+    "verdict": "专程去",
+    "facets": [
+      {
+        "label": "视野",
+        "score": 4.5,
+        "note": "山顶看湘江与橘子洲，傍晚最好"
+      },
+      {
+        "label": "体力",
+        "score": 3.0,
+        "note": "从山脚走到云麓宫要爬一段，可选索道"
+      },
+      {
+        "label": "遮阴",
+        "score": 2.5,
+        "note": "主路树荫不连续，夏天正午晒"
+      },
+      {
+        "label": "时长",
+        "score": 4.0,
+        "note": "只走主轴两三小时，绕后山要半天"
+      }
+    ],
+    "body": "城里有这么一座能走上去的山不算常见，从湖大牌楼路上山，自卑亭、爱晚亭、麓山寺到云麓宫串在一条线上，走起来是有章法的。山顶看湘江和橘子洲那段最值。缺点也直接：主路上人一直不少，秋天枫叶红时爱晚亭一带挤得走不动；山路遮阴一般，夏天正午上去晒得厉害。景区免费，索道与观光车另收，体力一般的可以只走半程。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "徒步",
+      "看城景",
+      "秋天"
+    ],
+    "avoid": [
+      "正午上山",
+      "只想到此一游"
+    ],
+    "sources": []
+  },
+  "_patrol": {
+    "at": "2026-11-14",
+    "changes": [
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [],
+        "new": [
+          "山顶原长沙电视发射塔 2025-08 改造为「长沙之眼」观景台，省发改委核定 35 元/人次（试行两年），14 周岁以下、65 岁以上免票"
+        ]
+      }
+    ],
+    "source": "http://mp.weixin.qq.com/s?__biz=MzAxMTM1ODY3OA==&mid=2649935353&idx=2&sn=71895933b65ed2b6ecc0870c38c1f5ee",
+    "reason": "2026省发改委核定长沙之眼票价"
+  }
 }

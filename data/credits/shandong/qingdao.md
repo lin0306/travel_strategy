@@ -1,6 +1,6 @@
 # 青岛 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-09-28
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-14
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | P C | Unsplash License | [unsplash](https://unsplash.com/photos/a-view-of-a-body-of-water-from-a-window-GpmaMHhx1q8) |
-| 城市封面 | BI ravencrow | Pexels License | [pexels](https://www.pexels.com/photo/skyline-view-of-qingdao-s-mixed-architecture-38373504/) |
-| 城市封面 | BI ravencrow | Pexels License | [pexels](https://www.pexels.com/photo/beautiful-coastal-skyline-of-qingdao-city-38353019/) |
+| 城市封面 | Unknown authorUnknown author | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E5%A4%AA%E5%B9%B3%E8%B7%AF%E6%A0%88%E6%A1%A5%E8%88%AA%E6%8B%8D.jpg) |
+| 城市封面 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20240729_Qingdao_No._2_Beach_01.jpg) |
+| 城市封面 | WFan | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E5%A4%A9%E9%99%85%E7%BA%BF201809.jpg) |
 | 八大关 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20240729_Qingdao_No._2_Beach_01.jpg) |
 | 八大关 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20240729_Qingdao_No._2_Beach_02.jpg) |
 | 八大关 | Antigng | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%B8%82%E5%8D%97%E5%8C%BA%E5%98%89%E5%B3%AA%E5%85%B3%E8%B7%AF5%E5%8F%B7.jpg) |

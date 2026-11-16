@@ -12,12 +12,12 @@
   ],
   "location": {
     "point": {
-      "lng": 106.583002,
-      "lat": 29.56062,
+      "lat": 29.556025,
+      "lng": 106.577678,
       "coordSystem": "GCJ-02"
     },
     "address": "重庆市渝中区八一路好吃街",
-    "district": "南岸",
+    "district": "渝中",
     "transportTip": "轨道交通 2 号线临江门站，步行约 5 分钟"
   },
   "practical": {
@@ -53,16 +53,98 @@
       "url": "https://baike.baidu.com/item/%E9%85%B8%E8%BE%A3%E7%B2%89",
       "kind": "wiki",
       "fetchedAt": "2026-09-19"
+    },
+    {
+      "title": "八一路好吃街在渝中区解放碑商圈，库内 district 误标南岸（500108）",
+      "url": "https://baike.baidu.com/item/%E5%A5%BD%E5%8F%88%E6%9D%A5%E9%85%B8%E8%BE%A3%E7%B2%89%EF%BC%88%E5%85%AB%E4%B8%80%E8%B7%AF%E5%BA%97%EF%BC%89/14347186",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
+    },
+    {
+      "title": "库内坐标 106.5830/29.5606 与 geocodeTitle「朝天门",
+      "url": "https://baike.baidu.com/item/%E5%A5%BD%E5%8F%88%E6%9D%A5%E9%85%B8%E8%BE%A3%E7%B2%89%EF%BC%88%E5%85%AB%E4%B8%80%E8%B7%AF%E5%BA%97%EF%BC%89/14347186",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
     "zh": "好又来酸辣粉"
   },
-  "_geocodeTitle": "好又来杂酱酸辣粉(朝天门店)",
+  "_geocodeTitle": "好又来酸辣粉(八一路店)",
   "_geocodeSuspect": false,
-  "district": "500108",
-  "_noImage": true
+  "district": "500103",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-14",
+    "changes": [
+      {
+        "field": "point",
+        "old": {
+          "lng": 106.583002,
+          "lat": 29.56062,
+          "coordSystem": "GCJ-02"
+        },
+        "new": [
+          29.556025,
+          106.577678
+        ]
+      },
+      {
+        "field": "所属区（自动同步 adcode）",
+        "old": "南岸/500108",
+        "new": "渝中/500103"
+      },
+      {
+        "field": "坐标反查名（只改名字，不动坐标）",
+        "old": "好又来杂酱酸辣粉(朝天门店)",
+        "new": "好又来酸辣粉(八一路店)"
+      }
+    ],
+    "source": "https://baike.baidu.com/item/%E5%A5%BD%E5%8F%88%E6%9D%A5%E9%85%B8%E8%BE%A3%E7%B2%89%EF%BC%88%E5%85%AB%E4%B8%80%E8%B7%AF%E5%BA%97%EF%BC%89/14347186",
+    "reason": "库内坐标 106.5830/29.5606 与 geocodeTitle「朝天门店」对应的是朝天门另一家分店（差 700m），本点位地址是渝中区八一路好吃街；改用图商 POI 八一路177号坐标（29.556025,106.577678，G"
+  },
+  "review": {
+    "score": 4.0,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "口味",
+        "score": 4.3,
+        "note": "红薯宽粉滑而带韧，先酸后辣"
+      },
+      {
+        "label": "价格",
+        "score": 4.6,
+        "note": "人均十元上下"
+      },
+      {
+        "label": "排队",
+        "score": 2.8,
+        "note": "饭点队伍不短"
+      },
+      {
+        "label": "环境",
+        "score": 2.5,
+        "note": "座位少，多数人站着吃"
+      }
+    ],
+    "body": "红薯宽粉煮得滑而带韧，汤底先酸后辣，花生碎和香菜压在上面，一碗下去满头汗，逛街途中垫一口很合适。缺点是座位少，多数人端着碗在街边或花坛边站着吃；饭点队伍不短，出餐虽快也要等。人均十元上下，环境谈不上，冲的就是这口味。",
+    "basis": "web",
+    "at": "2026-11-14",
+    "fits": [
+      "逛街垫一口",
+      "独自快吃"
+    ],
+    "avoid": [
+      "要坐下来吃",
+      "怕辣"
+    ],
+    "sources": [
+      "https://baike.baidu.com/item/%E5%A5%BD%E5%8F%88%E6%9D%A5%E9%85%B8%E8%BE%A3%E7%B2%89%EF%BC%88%E5%85%AB%E4%B8%80%E8%B7%AF%E5%BA%97%EF%BC%89/14347186",
+      "https://post.smzdm.com/talk/p/a5r5lzz7/"
+    ]
+  }
 }

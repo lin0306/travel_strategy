@@ -1,6 +1,6 @@
 # 镇江 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-05
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-14
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/skyline-view-of-nanjing-city-china-33921375/) |
-| 城市封面 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/sunset-over-nanjing-skyline-and-xuanwu-lake-35022547/) |
-| 城市封面 | Acres of Film | Pexels License | [pexels](https://www.pexels.com/photo/stunning-night-view-of-qiantang-river-bridge-in-hangzhou-35003990/) |
+| 城市封面 | helkonig | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%95%87%E6%B1%9F%E8%A5%BF%E6%B4%A5%E6%B8%A1_-_panoramio_(3).jpg) |
+| 城市封面 | Ib | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wanfo_Pagoda.jpg) |
+| 城市封面 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8C%97%E5%9B%BA%E5%B1%B1_-_Beigu_Mountain_-_2015.04_-_panoramio_(1).jpg) |
 | 宝华山 | Tutu163 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:JianYue_tomb_-BaoHua-ZJ-JS.jpg) |
 | 宝华山 | 艾术华拍摄 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%95%87%E6%B1%9F%E5%AE%9D%E5%8D%8E%E5%B1%B1%E9%9A%86%E6%98%8C%E5%AF%BA%E7%9F%B3%E5%88%B6%E6%88%92%E5%9D%9B.png) |
 | 北固山 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8C%97%E5%9B%BA%E5%B1%B1_-_Beigu_Mountain_-_2015.04_-_panoramio.jpg) |

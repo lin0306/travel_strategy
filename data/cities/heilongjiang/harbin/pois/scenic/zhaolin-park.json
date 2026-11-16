@@ -1,200 +1,239 @@
 {
-  "id": "zhaolin-park",
-  "name": "兆麟公园",
-  "category": "scenic",
-  "subtype": "park",
-  "summary": "中央大街北端的一座老公园，夏天有荷花，冬天是哈尔滨冰灯的发源地。",
-  "description": "兆麟公园在道里区森林街，紧挨中央大街北头，是哈尔滨最早的公园之一，名字取自抗日将领李兆麟。园子不大，有湖、有桥、有一片老树，夏天湖面是荷花，早上有人在这里打拳、下棋、跳舞。哈尔滨的冰灯就是从这里起源的 —— 上世纪六十年代第一次做冰灯就在这个园子里，后来才发展成冰雪大世界那种规模。冬天园里也会摆冰灯，规模比江北的小，但在城里、走两步就到，不想跑远的话看这个够。公园免费，散步一小时。它离索菲亚教堂、防洪纪念塔都不远，可以连着走。",
-  "highlights": [
-    "哈尔滨冰灯的发源地，六十年代第一次做冰灯就在这里",
-    "夏天湖面是荷花，早上有本地人打拳跳舞",
-    "紧挨中央大街北头，与索菲亚、防洪纪念塔连着走"
-  ],
-  "location": {
-    "point": {
-      "lng": 126.62295,
-      "lat": 45.7773,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黑龙江省哈尔滨市道里区森林街377号",
-    "district": "道里区",
-    "transportTip": "地铁三号线或二号线兆麟公园站；多条公交至兆麟公园站",
-    "entrance": {
-      "lng": 126.623594,
-      "lat": 45.775657,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "zhaolin-park",
+ "name": "兆麟公园",
+ "category": "scenic",
+ "subtype": "park",
+ "summary": "中央大街北端的一座老公园，夏天有荷花，冬天是哈尔滨冰灯的发源地。",
+ "description": "兆麟公园在道里区森林街，紧挨中央大街北头，是哈尔滨最早的公园之一，名字取自抗日将领李兆麟。园子不大，有湖、有桥、有一片老树，夏天湖面是荷花，早上有人在这里打拳、下棋、跳舞。哈尔滨的冰灯就是从这里起源的 —— 上世纪六十年代第一次做冰灯就在这个园子里，后来才发展成冰雪大世界那种规模。冬天园里也会摆冰灯，规模比江北的小，但在城里、走两步就到，不想跑远的话看这个够。公园免费，散步一小时。它离索菲亚教堂、防洪纪念塔都不远，可以连着走。",
+ "highlights": [
+  "哈尔滨冰灯的发源地，六十年代第一次做冰灯就在这里",
+  "夏天湖面是荷花，早上有本地人打拳跳舞",
+  "紧挨中央大街北头，与索菲亚、防洪纪念塔连着走"
+ ],
+ "location": {
+  "point": {
+   "lng": 126.62295,
+   "lat": 45.7773,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约6:00-21:00，冬季冰灯展期以公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费；冬季冰灯展区另收费，以公告为准",
-    "ticketRef": 0,
-    "duration": "建议 60-150 分钟",
-    "durationMinutes": [
-      60,
-      150
-    ],
-    "priceLevel": "free"
+  "address": "黑龙江省哈尔滨市道里区森林街377号",
+  "district": "道里区",
+  "transportTip": "地铁三号线或二号线兆麟公园站；多条公交至兆麟公园站",
+  "entrance": {
+   "lng": 126.623594,
+   "lat": 45.775657,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约6:00-21:00，冬季冰灯展期以公告为准",
+  "openHoursRef": 0,
+  "ticket": "免费；冬季冰灯展区另收费，以公告为准",
+  "ticketRef": 0,
+  "duration": "建议 60-150 分钟",
+  "durationMinutes": [
+   60,
+   150
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "family",
+  "elders",
+  "couple",
+  "kids"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/%E5%85%86%E9%BA%9F%E5%85%AC%E5%9B%AD_20250114_04.jpg/1280px-%E5%85%86%E9%BA%9F%E5%85%AC%E5%9B%AD_20250114_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/%E5%85%86%E9%BA%9F%E5%85%AC%E5%9B%AD_20250114_04.jpg/1280px-%E5%85%86%E9%BA%9F%E5%85%AC%E5%9B%AD_20250114_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "兆麟公园 20250114 04.jpg",
+   "query": "兆麟公园",
+   "credit": {
+    "source": "wikimedia",
+    "author": "FradonStar",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "family",
-    "elders",
-    "couple",
-    "kids"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/%E5%85%86%E9%BA%9F%E5%85%AC%E5%9B%AD_20250114_04.jpg/1280px-%E5%85%86%E9%BA%9F%E5%85%AC%E5%9B%AD_20250114_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/%E5%85%86%E9%BA%9F%E5%85%AC%E5%9B%AD_20250114_04.jpg/1280px-%E5%85%86%E9%BA%9F%E5%85%AC%E5%9B%AD_20250114_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "兆麟公园 20250114 04.jpg",
-      "query": "兆麟公园",
-      "credit": {
-        "source": "wikimedia",
-        "author": "FradonStar",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E7%9A%84%E5%86%B0%E9%9B%95_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961.jpg/1280px-%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E7%9A%84%E5%86%B0%E9%9B%95_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E7%9A%84%E5%86%B0%E9%9B%95_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961.jpg/1280px-%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E7%9A%84%E5%86%B0%E9%9B%95_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "兆鳞公园的冰雕 - panoramio - 江上清风1961.jpg",
-      "query": "兆麟公园",
-      "credit": {
-        "source": "wikimedia",
-        "author": "江上清风1961",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/%E5%93%88%E5%B0%94%E6%BB%A8%E8%A1%97%E6%99%AF-%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E9%97%A8%E5%8F%A3%E7%9A%84%E5%86%B0%E9%9B%95%E4%BD%9C%E5%93%81_-_panoramio.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E8%A1%97%E6%99%AF-%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E9%97%A8%E5%8F%A3%E7%9A%84%E5%86%B0%E9%9B%95%E4%BD%9C%E5%93%81_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/%E5%93%88%E5%B0%94%E6%BB%A8%E8%A1%97%E6%99%AF-%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E9%97%A8%E5%8F%A3%E7%9A%84%E5%86%B0%E9%9B%95%E4%BD%9C%E5%93%81_-_panoramio.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E8%A1%97%E6%99%AF-%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E9%97%A8%E5%8F%A3%E7%9A%84%E5%86%B0%E9%9B%95%E4%BD%9C%E5%93%81_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "哈尔滨街景-兆鳞公园门口的冰雕作品 - panoramio.jpg",
-      "query": "兆麟公园",
-      "credit": {
-        "source": "wikimedia",
-        "author": "江上清风1961",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E7%9A%84%E5%86%B0%E7%81%AF_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961.jpg/1280px-%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E7%9A%84%E5%86%B0%E7%81%AF_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E7%9A%84%E5%86%B0%E7%81%AF_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961.jpg/1280px-%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E7%9A%84%E5%86%B0%E7%81%AF_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "兆鳞公园的冰灯 - panoramio - 江上清风1961.jpg",
-      "query": "兆麟公园",
-      "credit": {
-        "source": "wikimedia",
-        "author": "江上清风1961",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/%E5%93%88%E5%B0%94%E6%BB%A8%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%2C_2010-01-10_03%2Cjpg.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%2C_2010-01-10_03%2Cjpg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/%E5%93%88%E5%B0%94%E6%BB%A8%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%2C_2010-01-10_03%2Cjpg.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%2C_2010-01-10_03%2Cjpg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "哈尔滨兆鳞公园, 2010-01-10 03,jpg.jpg",
-      "query": "兆麟公园",
-      "credit": {
-        "source": "wikimedia",
-        "author": "江上清风1961",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E7%9A%84%E5%86%B0%E7%81%AF_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961_%2813%29.jpg/1280px-%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E7%9A%84%E5%86%B0%E7%81%AF_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961_%2813%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E7%9A%84%E5%86%B0%E7%81%AF_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961_%2813%29.jpg/1280px-%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E7%9A%84%E5%86%B0%E7%81%AF_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961_%2813%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "兆鳞公园的冰灯 - panoramio - 江上清风1961 (13).jpg",
-      "query": "兆麟公园",
-      "credit": {
-        "source": "wikimedia",
-        "author": "江上清风1961",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "老公园",
-    "冰灯发源",
-    "免费"
-  ],
-  "popularity": 74,
-  "sources": [
-    {
-      "title": "百度百科·兆麟公园",
-      "url": "https://baike.baidu.com/item/%E5%85%86%E9%BA%9F%E5%85%AC%E5%9B%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
-  ],
-  "updatedAt": "2026-11-01",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "兆麟公园"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E7%9A%84%E5%86%B0%E9%9B%95_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961.jpg/1280px-%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E7%9A%84%E5%86%B0%E9%9B%95_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E7%9A%84%E5%86%B0%E9%9B%95_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961.jpg/1280px-%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E7%9A%84%E5%86%B0%E9%9B%95_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "兆鳞公园的冰雕 - panoramio - 江上清风1961.jpg",
+   "query": "兆麟公园",
+   "credit": {
+    "source": "wikimedia",
+    "author": "江上清风1961",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "哈尔滨市兆麟公园",
-  "_geocodeSuspect": false,
-  "district": "230102"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/%E5%93%88%E5%B0%94%E6%BB%A8%E8%A1%97%E6%99%AF-%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E9%97%A8%E5%8F%A3%E7%9A%84%E5%86%B0%E9%9B%95%E4%BD%9C%E5%93%81_-_panoramio.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E8%A1%97%E6%99%AF-%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E9%97%A8%E5%8F%A3%E7%9A%84%E5%86%B0%E9%9B%95%E4%BD%9C%E5%93%81_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/%E5%93%88%E5%B0%94%E6%BB%A8%E8%A1%97%E6%99%AF-%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E9%97%A8%E5%8F%A3%E7%9A%84%E5%86%B0%E9%9B%95%E4%BD%9C%E5%93%81_-_panoramio.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E8%A1%97%E6%99%AF-%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E9%97%A8%E5%8F%A3%E7%9A%84%E5%86%B0%E9%9B%95%E4%BD%9C%E5%93%81_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "哈尔滨街景-兆鳞公园门口的冰雕作品 - panoramio.jpg",
+   "query": "兆麟公园",
+   "credit": {
+    "source": "wikimedia",
+    "author": "江上清风1961",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E7%9A%84%E5%86%B0%E7%81%AF_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961.jpg/1280px-%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E7%9A%84%E5%86%B0%E7%81%AF_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E7%9A%84%E5%86%B0%E7%81%AF_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961.jpg/1280px-%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E7%9A%84%E5%86%B0%E7%81%AF_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "兆鳞公园的冰灯 - panoramio - 江上清风1961.jpg",
+   "query": "兆麟公园",
+   "credit": {
+    "source": "wikimedia",
+    "author": "江上清风1961",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/%E5%93%88%E5%B0%94%E6%BB%A8%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%2C_2010-01-10_03%2Cjpg.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%2C_2010-01-10_03%2Cjpg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/%E5%93%88%E5%B0%94%E6%BB%A8%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%2C_2010-01-10_03%2Cjpg.jpg/1280px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%2C_2010-01-10_03%2Cjpg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "哈尔滨兆鳞公园, 2010-01-10 03,jpg.jpg",
+   "query": "兆麟公园",
+   "credit": {
+    "source": "wikimedia",
+    "author": "江上清风1961",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E7%9A%84%E5%86%B0%E7%81%AF_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961_%2813%29.jpg/1280px-%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E7%9A%84%E5%86%B0%E7%81%AF_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961_%2813%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E7%9A%84%E5%86%B0%E7%81%AF_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961_%2813%29.jpg/1280px-%E5%85%86%E9%B3%9E%E5%85%AC%E5%9B%AD%E7%9A%84%E5%86%B0%E7%81%AF_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961_%2813%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "兆鳞公园的冰灯 - panoramio - 江上清风1961 (13).jpg",
+   "query": "兆麟公园",
+   "credit": {
+    "source": "wikimedia",
+    "author": "江上清风1961",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "老公园",
+  "冰灯发源",
+  "免费"
+ ],
+ "popularity": 74,
+ "sources": [
+  {
+   "title": "百度百科·兆麟公园",
+   "url": "https://baike.baidu.com/item/%E5%85%86%E9%BA%9F%E5%85%AC%E5%9B%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "兆麟公园"
+ },
+ "_geocodeTitle": "哈尔滨市兆麟公园",
+ "_geocodeSuspect": false,
+ "district": "230102",
+ "review": {
+  "score": 3.8,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "免费程度",
+    "score": 4.6,
+    "note": "公园免费，紧挨中央大街北头"
+   },
+   {
+    "label": "冰灯渊源",
+    "score": 4.2,
+    "note": "哈尔滨冰灯的发源地"
+   },
+   {
+    "label": "看点密度",
+    "score": 3.1,
+    "note": "园子不大，非冰灯季看点有限"
+   },
+   {
+    "label": "停留时长",
+    "score": 3.2,
+    "note": "散步一小时足够"
+   }
+  ],
+  "body": "中央大街北头的一座老公园，有湖、有桥、有一片老树，夏天湖面是荷花，早上有人打拳下棋跳舞。它最特别的是身份：哈尔滨冰灯的发源地，六十年代第一次做冰灯就在这个园子里，后来才长成江北那种规模；冬天园里也会摆冰灯，规模小但在城里、走两步就到。免费，与索菲亚、防洪纪念塔连着走很顺。缺点是园子不大，看点有限，非冰灯季基本就是普通社区公园；冬季冰灯展区另收费，性价比一般。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "中央大街顺路",
+   "免费",
+   "冬天看城里冰灯"
+  ],
+  "avoid": [
+   "专程找大景",
+   "非冰灯季久留"
+  ],
+  "sources": []
+ }
 }

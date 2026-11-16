@@ -10,6 +10,8 @@
 # search-index.json       跨城倒排索引
 # image-health.json       月度图片巡检结果（不污染主数据）
 # api-usage.json          腾讯 / 高德用量记账（★ 高德是**月**配额）
+# discover/<city>.json     候选点位（关键词拓取的产物；`merge` 落盘，不砍旧候选）
+# reviews/<city>.json      **风评打分**（`tools/rate_poi.py` 写；入库闸门，判 no 不许入）
 # manifest.json           校验和 + 更新时间
 #
 # ★ 边界的**唯一**允许来源是持牌图商 / 官方平台（腾讯 / 高德 / 百度 / 天地图）——

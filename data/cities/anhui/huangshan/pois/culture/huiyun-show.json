@@ -1,9 +1,9 @@
 {
   "id": "huiyun-show",
-  "name": "大型歌舞《徽韵》",
+  "name": "大型史诗演艺《徽秀》",
   "category": "culture",
   "subtype": "performance",
-  "summary": "屯溪一场讲徽州历史与传说的实景歌舞，徽商、黄山、徽州女人都有。",
+  "summary": "屯溪香茗大剧院一台讲徽州文脉的史诗演艺，六幕串起徽商古道、徽班进京与徽州往事，2026 年入选安徽省旅游演艺精品项目。",
   "description": "《徽韵》是在屯溪演的一场大型歌舞。它用歌、舞、实景讲徽州：徽商出门、黄山奇景、徽州女人的守候，几段故事。舞台大，灯光齐，是了解徽州情绪的一种快方式。演出时间固定，要提前买票。想晚上有个安排，来看这个。",
   "highlights": [
     "屯溪实景歌舞，讲徽商黄山徽州女人",
@@ -16,14 +16,14 @@
       "lat": 29.706071,
       "coordSystem": "GCJ-02"
     },
-    "address": "安徽省黄山市屯溪区徽韵剧院",
+    "address": "安徽省黄山市屯溪区西海路徽商中心·香茗大剧院",
     "district": "屯溪区",
     "transportTip": "市区公交或打车到剧院"
   },
   "practical": {
-    "openHours": "约19:30一场，以公告为准",
+    "openHours": "每晚 20:00 开演（约 60 分钟），以剧院公告为准",
     "openHoursRef": 0,
-    "ticket": "约180元",
+    "ticket": "约188元起（观众席）",
     "ticketRef": 0,
     "duration": "建议 90-120 分钟",
     "durationMinutes": [
@@ -53,9 +53,15 @@
       "url": "https://baike.baidu.com/item/%E5%BE%BD%E5%B7%9E",
       "kind": "wiki",
       "fetchedAt": "2026-10-01"
+    },
+    {
+      "title": "黄山市教育局｜香茗大剧院上演《徽秀》（2026-03）",
+      "url": "https://jyj.huangshan.gov.cn/jyxw/xykx/9322177.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,5 +69,37 @@
   },
   "_geocodeTitle": "徽韵·香茗大剧院",
   "district": "341002",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "名称",
+        "old": "大型歌舞《徽韵》",
+        "new": "大型史诗演艺《徽秀》"
+      },
+      {
+        "field": "地址",
+        "old": "安徽省黄山市屯溪区徽韵剧院",
+        "new": "安徽省黄山市屯溪区西海路徽商中心·香茗大剧院"
+      },
+      {
+        "field": "开放时间",
+        "old": "约19:30一场，以公告为准",
+        "new": "每晚 20:00 开演（约 60 分钟），以剧院公告为准"
+      },
+      {
+        "field": "门票",
+        "old": "约180元",
+        "new": "约188元起（观众席）"
+      },
+      {
+        "field": "一句话简介",
+        "old": "屯溪一场讲徽州历史与传说的实景歌舞，徽商、黄山、徽州女人都有。",
+        "new": "屯溪香茗大剧院一台讲徽州文脉的史诗演艺，六幕串起徽商古道、徽班进京与徽州往事，2026 年入选安徽省旅游演艺精品项目。"
+      }
+    ],
+    "source": "https://jyj.huangshan.gov.cn/jyxw/xykx/9322177.html",
+    "reason": "香茗大剧院 2026 年常设演出已由《徽韵》换为《徽秀》（市教育局官网 2026-03 现场报道）"
+  }
 }

@@ -1,131 +1,170 @@
 {
-  "id": "fantian-si",
-  "name": "梵天禅寺",
-  "category": "scenic",
-  "subtype": "temple",
-  "summary": "同安城北的千年古刹，朱熹在同安任主簿时常来这一带。",
-  "description": "梵天禅寺在同安区大轮山南麓，始建年代早，可上溯到隋代，原名兴教寺，宋熙宁年间合几座庵院为一，改称梵天禅寺，是闽南较早的佛寺之一。寺在历朝几毁几建，现存建筑为近代陆续重修，格局是山门、天王殿、大雄宝殿沿轴线排开，两侧有钟鼓楼。寺后是文公书院，纪念朱熹——朱熹年轻时在同安任主簿，在大轮山一带留下多处题刻。寺前有一片广场和几株老榕树，本地人早晚来散步。它离同安城区很近，公交能到，与北辰山可以串一天。",
-  "highlights": [
-    "可上溯到隋代，原名兴教寺",
-    "宋熙宁年间合数庵为一，改称梵天禅寺",
-    "寺后文公书院纪念朱熹在同安任主簿"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.158624,
-      "lat": 24.739757,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "福建省厦门市同安区大同街道轮山路99号",
-    "district": "同安区",
-    "transportTip": "乘公交至同安城区梵天寺站，步行约五分钟"
+ "id": "fantian-si",
+ "name": "梵天禅寺",
+ "category": "scenic",
+ "subtype": "temple",
+ "summary": "同安城北的千年古刹，朱熹在同安任主簿时常来这一带。",
+ "description": "梵天禅寺在同安区大轮山南麓，始建年代早，可上溯到隋代，原名兴教寺，宋熙宁年间合几座庵院为一，改称梵天禅寺，是闽南较早的佛寺之一。寺在历朝几毁几建，现存建筑为近代陆续重修，格局是山门、天王殿、大雄宝殿沿轴线排开，两侧有钟鼓楼。寺后是文公书院，纪念朱熹——朱熹年轻时在同安任主簿，在大轮山一带留下多处题刻。寺前有一片广场和几株老榕树，本地人早晚来散步。它离同安城区很近，公交能到，与北辰山可以串一天。",
+ "highlights": [
+  "可上溯到隋代，原名兴教寺",
+  "宋熙宁年间合数庵为一，改称梵天禅寺",
+  "寺后文公书院纪念朱熹在同安任主簿"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.158624,
+   "lat": 24.739757,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约07:00-17:30，以现场公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 45-100 分钟",
-    "durationMinutes": [
-      45,
-      100
-    ],
-    "priceLevel": "free"
+  "address": "福建省厦门市同安区大同街道轮山路99号",
+  "district": "同安区",
+  "transportTip": "乘公交至同安城区梵天寺站，步行约五分钟"
+ },
+ "practical": {
+  "openHours": "约07:00-17:30，以现场公告为准",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 45-100 分钟",
+  "durationMinutes": [
+   45,
+   100
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "elders",
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Tongan_Poluomen_Ta_20120227-02.jpg/1280px-Tongan_Poluomen_Ta_20120227-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Tongan_Poluomen_Ta_20120227-02.jpg/1280px-Tongan_Poluomen_Ta_20120227-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Tongan Poluomen Ta 20120227-02.jpg",
+   "query": "梵天禅寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "elders",
-    "family",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Tongan_Poluomen_Ta_20120227-02.jpg/1280px-Tongan_Poluomen_Ta_20120227-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Tongan_Poluomen_Ta_20120227-02.jpg/1280px-Tongan_Poluomen_Ta_20120227-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Tongan Poluomen Ta 20120227-02.jpg",
-      "query": "梵天禅寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangzhugang",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Tongan_Poluomen_Ta_20120227-01.jpg/1280px-Tongan_Poluomen_Ta_20120227-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Tongan_Poluomen_Ta_20120227-01.jpg/1280px-Tongan_Poluomen_Ta_20120227-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Tongan Poluomen Ta 20120227-01.jpg",
-      "query": "梵天禅寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangzhugang",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Tongan_Poluomen_Ta_20120227-12.jpg/1280px-Tongan_Poluomen_Ta_20120227-12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Tongan_Poluomen_Ta_20120227-12.jpg/1280px-Tongan_Poluomen_Ta_20120227-12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Tongan Poluomen Ta 20120227-12.jpg",
-      "query": "梵天禅寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangzhugang",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "front"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "古刹",
-    "朱熹",
-    "同安"
-  ],
-  "popularity": 73,
-  "sources": [
-    {
-      "title": "百度百科·梵天寺",
-      "url": "https://baike.baidu.com/item/%E6%A2%B5%E5%A4%A9%E5%AF%BA",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
-  ],
-  "updatedAt": "2026-11-03",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "梵天禅寺"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Tongan_Poluomen_Ta_20120227-01.jpg/1280px-Tongan_Poluomen_Ta_20120227-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Tongan_Poluomen_Ta_20120227-01.jpg/1280px-Tongan_Poluomen_Ta_20120227-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Tongan Poluomen Ta 20120227-01.jpg",
+   "query": "梵天禅寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "梵天禅寺",
-  "_geocodeSuspect": false,
-  "district": "350212"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Tongan_Poluomen_Ta_20120227-12.jpg/1280px-Tongan_Poluomen_Ta_20120227-12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Tongan_Poluomen_Ta_20120227-12.jpg/1280px-Tongan_Poluomen_Ta_20120227-12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Tongan Poluomen Ta 20120227-12.jpg",
+   "query": "梵天禅寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "front"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "古刹",
+  "朱熹",
+  "同安"
+ ],
+ "popularity": 73,
+ "sources": [
+  {
+   "title": "百度百科·梵天寺",
+   "url": "https://baike.baidu.com/item/%E6%A2%B5%E5%A4%A9%E5%AF%BA",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "梵天禅寺"
+ },
+ "_geocodeTitle": "梵天禅寺",
+ "_geocodeSuspect": false,
+ "district": "350212",
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "历史",
+    "score": 4.2,
+    "note": "可上溯隋代，朱熹任同安主簿的题刻"
+   },
+   {
+    "label": "建筑",
+    "score": 3.1,
+    "note": "现存多为近代重修，古意有限"
+   },
+   {
+    "label": "免费度",
+    "score": 4.5,
+    "note": "免费开放"
+   },
+   {
+    "label": "交通",
+    "score": 3.0,
+    "note": "在同安城北，与北辰山可串一天"
+   }
+  ],
+  "body": "同安大轮山南麓的千年古刹，始建可上溯隋代，原名兴教寺，宋熙宁年间合几座庵院为一改称梵天禅寺，是闽南较早的佛寺之一。格局是山门、天王殿、大雄宝殿沿轴线排开，两侧有钟鼓楼；寺后文公书院纪念朱熹年轻时在同安任主簿的那段，寺前广场与老榕树是本地人早晚散步的地方。免费，公交能到，与北辰山可串一天。可惜现存建筑多为近代陆续重修，冲着早期木构去会失望；看点分散，离岛内也远。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "同安一日串游",
+   "看朱熹相关史迹",
+   "免费"
+  ],
+  "avoid": [
+   "追古建原件",
+   "只想待在岛内"
+  ],
+  "sources": []
+ }
 }

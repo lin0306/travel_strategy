@@ -24,14 +24,18 @@ import { useNavigate } from 'react-router'
 import { Icon } from '~/common/ui/Icon'
 import { useSearchUi } from '~/common/logic/searchUi'
 import { useSearch, type SearchHit } from '~/common/logic/useSearch'
+import { usePresence } from '~/common/ui/usePresence'
 
-/** 挂载点用它判断要不要渲染（关着的时候连 hook 都不该跑） */
+/** 挂载点用它判断要不要渲染（关着的时候连 hook 都不该跑）。
+ *  退场：清空后多留 150ms 播淡出再卸载（全屏页不做位移，只淡入淡出） */
 export function MobileSearchPage() {
   const open = useSearchUi((s) => s.open)
-  return open ? <SearchPanel /> : null
+  const pres = usePresence(open, 150)
+  if (!pres.mounted) return null
+  return <SearchPanel exiting={pres.exiting} />
 }
 
-function SearchPanel() {
+function SearchPanel({ exiting }: { exiting: boolean }) {
   const s = useSearch()
   const close = useSearchUi((s2) => s2.closeSearch)
   const navigate = useNavigate()
@@ -62,7 +66,7 @@ function SearchPanel() {
     <div
       // ★ `absolute` 不是 `fixed`（与 `ModalScrim` 同一条规矩）：外壳根节点铺满视口，
       //   而浮层动画用的是 transform —— 祖先带 transform 时 `fixed` 会相对它定位。
-      className="absolute inset-0 z-[70] flex flex-col bg-surface"
+      className={`absolute inset-0 z-[70] flex flex-col bg-surface ${exiting ? 'page-out' : 'page-in'}`}
       role="dialog"
       aria-modal="true"
       aria-label="搜索省市、景点"

@@ -1,158 +1,190 @@
 {
-  "id": "luohan-temple",
-  "name": "罗汉寺",
-  "category": "scenic",
-  "subtype": "temple",
-  "summary": "藏在解放碑高楼群里的古刹，罗汉堂五百尊塑像是看点。",
-  "description": "罗汉寺始建于北宋，是重庆主城现存最古老的寺庙之一，最特别的是它的位置——四周被解放碑商圈的摩天楼围住，山门外几步就是商场与写字楼，喧闹与清净只隔一道墙。寺内的罗汉堂供奉五百尊罗汉塑像，形态各异、表情生动，是清代的作品；还有明代的“古佛崖”摩崖造像。电影《疯狂的石头》曾在此取景，让这座小寺出了名。",
-  "highlights": [
-    "高楼围合中的古刹，反差强烈",
-    "五百罗汉塑像形态各异",
-    "《疯狂的石头》取景地"
-  ],
-  "location": {
-    "point": {
-      "lng": 106.581806,
-      "lat": 29.559942,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "重庆市渝中区罗汉寺街 7 号",
-    "district": "南岸",
-    "transportTip": "轨道交通 6 号线小什字站，步行约 5 分钟"
+ "id": "luohan-temple",
+ "name": "罗汉寺",
+ "category": "scenic",
+ "subtype": "temple",
+ "summary": "藏在解放碑高楼群里的古刹，罗汉堂五百尊塑像是看点。",
+ "description": "罗汉寺始建于北宋，是重庆主城现存最古老的寺庙之一，最特别的是它的位置——四周被解放碑商圈的摩天楼围住，山门外几步就是商场与写字楼，喧闹与清净只隔一道墙。寺内的罗汉堂供奉五百尊罗汉塑像，形态各异、表情生动，是清代的作品；还有明代的“古佛崖”摩崖造像。电影《疯狂的石头》曾在此取景，让这座小寺出了名。",
+ "highlights": [
+  "高楼围合中的古刹，反差强烈",
+  "五百罗汉塑像形态各异",
+  "《疯狂的石头》取景地"
+ ],
+ "location": {
+  "point": {
+   "lng": 106.581806,
+   "lat": 29.559942,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 08:00-17:00（以现场公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约 10 元起（以现场为准）",
-    "ticketRef": 0,
-    "duration": "建议 45-75 分钟",
-    "durationMinutes": [
-      45,
-      75
-    ],
-    "priceLevel": "budget"
+  "address": "重庆市渝中区罗汉寺街 7 号",
+  "district": "渝中",
+  "transportTip": "轨道交通 6 号线小什字站，步行约 5 分钟"
+ },
+ "practical": {
+  "openHours": "约 08:00-17:00（以现场公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约 10 元起（以现场为准）",
+  "ticketRef": 0,
+  "duration": "建议 45-75 分钟",
+  "durationMinutes": [
+   45,
+   75
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "solo",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Altar_with_bodhisattvas_at_Luohan_Temple_in_Chongqing.jpg/1280px-Altar_with_bodhisattvas_at_Luohan_Temple_in_Chongqing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Altar_with_bodhisattvas_at_Luohan_Temple_in_Chongqing.jpg/1280px-Altar_with_bodhisattvas_at_Luohan_Temple_in_Chongqing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 632,
+   "alt": "Altar with bodhisattvas at Luohan Temple in Chongqing.jpg",
+   "query": "罗汉寺 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva @ Flickr",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Altar_with_bodhisattvas_at_Luohan_Temple_in_Chongqing.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "solo",
-    "couple"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Altar_with_bodhisattvas_at_Luohan_Temple_in_Chongqing.jpg/1280px-Altar_with_bodhisattvas_at_Luohan_Temple_in_Chongqing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Altar_with_bodhisattvas_at_Luohan_Temple_in_Chongqing.jpg/1280px-Altar_with_bodhisattvas_at_Luohan_Temple_in_Chongqing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 632,
-      "alt": "Altar with bodhisattvas at Luohan Temple in Chongqing.jpg",
-      "query": "罗汉寺 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva @ Flickr",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Altar_with_bodhisattvas_at_Luohan_Temple_in_Chongqing.jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Chongqing_-_Luohan_Temple_-_Buda.jpg/1280px-Chongqing_-_Luohan_Temple_-_Buda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Chongqing_-_Luohan_Temple_-_Buda.jpg/1280px-Chongqing_-_Luohan_Temple_-_Buda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 608,
-      "alt": "Chongqing - Luohan Temple - Buda.jpg",
-      "query": "罗汉寺 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Ecelan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chongqing_-_Luohan_Temple_-_Buda.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Chongqing_-_Luohan_Temple_-_Cave.jpg/1280px-Chongqing_-_Luohan_Temple_-_Cave.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Chongqing_-_Luohan_Temple_-_Cave.jpg/1280px-Chongqing_-_Luohan_Temple_-_Cave.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 608,
-      "alt": "Chongqing - Luohan Temple - Cave.jpg",
-      "query": "罗汉寺 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Ecelan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chongqing_-_Luohan_Temple_-_Cave.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Chongqing_-_Luohan_Temple_-_Door.jpg/1280px-Chongqing_-_Luohan_Temple_-_Door.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Chongqing_-_Luohan_Temple_-_Door.jpg/1280px-Chongqing_-_Luohan_Temple_-_Door.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1920,
-      "alt": "Chongqing - Luohan Temple - Door.jpg",
-      "query": "罗汉寺 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Ecelan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chongqing_-_Luohan_Temple_-_Door.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Chongqing_-_Luohan_Temple_-_Door_-_Detail.jpg/1280px-Chongqing_-_Luohan_Temple_-_Door_-_Detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Chongqing_-_Luohan_Temple_-_Door_-_Detail.jpg/1280px-Chongqing_-_Luohan_Temple_-_Door_-_Detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1199,
-      "alt": "Chongqing - Luohan Temple - Door - Detail.jpg",
-      "query": "罗汉寺 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Ecelan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chongqing_-_Luohan_Temple_-_Door_-_Detail.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Chongqing_-_Luohan_Temple_-_Door_god_01.jpg/1280px-Chongqing_-_Luohan_Temple_-_Door_god_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Chongqing_-_Luohan_Temple_-_Door_god_01.jpg/1280px-Chongqing_-_Luohan_Temple_-_Door_god_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1918,
-      "alt": "Chongqing - Luohan Temple - Door god 01.jpg",
-      "query": "罗汉寺 重庆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Ecelan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chongqing_-_Luohan_Temple_-_Door_god_01.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "寺庙",
-    "罗汉堂",
-    "取景地",
-    "闹中取静"
-  ],
-  "popularity": 64,
-  "sources": [
-    {
-      "title": "百度百科·罗汉寺",
-      "url": "https://baike.baidu.com/item/%E7%BD%97%E6%B1%89%E5%AF%BA",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "罗汉寺"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Chongqing_-_Luohan_Temple_-_Buda.jpg/1280px-Chongqing_-_Luohan_Temple_-_Buda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Chongqing_-_Luohan_Temple_-_Buda.jpg/1280px-Chongqing_-_Luohan_Temple_-_Buda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 608,
+   "alt": "Chongqing - Luohan Temple - Buda.jpg",
+   "query": "罗汉寺 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Ecelan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chongqing_-_Luohan_Temple_-_Buda.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "罗汉寺",
-  "_geocodeSuspect": false,
-  "district": "500108"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Chongqing_-_Luohan_Temple_-_Cave.jpg/1280px-Chongqing_-_Luohan_Temple_-_Cave.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Chongqing_-_Luohan_Temple_-_Cave.jpg/1280px-Chongqing_-_Luohan_Temple_-_Cave.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 608,
+   "alt": "Chongqing - Luohan Temple - Cave.jpg",
+   "query": "罗汉寺 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Ecelan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chongqing_-_Luohan_Temple_-_Cave.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Chongqing_-_Luohan_Temple_-_Door.jpg/1280px-Chongqing_-_Luohan_Temple_-_Door.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Chongqing_-_Luohan_Temple_-_Door.jpg/1280px-Chongqing_-_Luohan_Temple_-_Door.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1920,
+   "alt": "Chongqing - Luohan Temple - Door.jpg",
+   "query": "罗汉寺 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Ecelan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chongqing_-_Luohan_Temple_-_Door.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Chongqing_-_Luohan_Temple_-_Door_-_Detail.jpg/1280px-Chongqing_-_Luohan_Temple_-_Door_-_Detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Chongqing_-_Luohan_Temple_-_Door_-_Detail.jpg/1280px-Chongqing_-_Luohan_Temple_-_Door_-_Detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1199,
+   "alt": "Chongqing - Luohan Temple - Door - Detail.jpg",
+   "query": "罗汉寺 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Ecelan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chongqing_-_Luohan_Temple_-_Door_-_Detail.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Chongqing_-_Luohan_Temple_-_Door_god_01.jpg/1280px-Chongqing_-_Luohan_Temple_-_Door_god_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Chongqing_-_Luohan_Temple_-_Door_god_01.jpg/1280px-Chongqing_-_Luohan_Temple_-_Door_god_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1918,
+   "alt": "Chongqing - Luohan Temple - Door god 01.jpg",
+   "query": "罗汉寺 重庆",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Ecelan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chongqing_-_Luohan_Temple_-_Door_god_01.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "寺庙",
+  "罗汉堂",
+  "取景地",
+  "闹中取静"
+ ],
+ "popularity": 64,
+ "sources": [
+  {
+   "title": "百度百科·罗汉寺",
+   "url": "https://baike.baidu.com/item/%E7%BD%97%E6%B1%89%E5%AF%BA",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "罗汉寺"
+ },
+ "_geocodeTitle": "罗汉寺",
+ "_geocodeSuspect": false,
+ "district": "500103",
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "反差",
+    "score": 4.6,
+    "note": "山门外是商场写字楼，门内是北宋古刹"
+   },
+   {
+    "label": "看点",
+    "score": 4.2,
+    "note": "五百尊清代罗汉塑像表情各异"
+   },
+   {
+    "label": "空间",
+    "score": 2.8,
+    "note": "院子小，香客多时转不开身"
+   },
+   {
+    "label": "性价比",
+    "score": 3.6,
+    "note": "十元门票，一小时内看完"
+   }
+  ],
+  "body": "解放碑高楼群里的一座北宋古刹，山门外几步就是商场与写字楼，一墙之隔把喧闹和清净切开，这种反差是它最好看的地方；罗汉堂五百尊清代塑像形态各异，《疯狂的石头》也在此取过景。不足是空间实在太挤，院子小、香客多时转不开身，一小时内基本看完；门票十元不贵，但别指望有山林寺院那种清幽。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [],
+  "avoid": [],
+  "sources": []
+ }
 }

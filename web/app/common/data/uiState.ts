@@ -43,7 +43,12 @@
 
 import type { Category, SubType } from '~shared/schema'
 
-export type PoiSortStored = 'hot' | 'name'
+/**
+ * 会存进 sessionStorage 的排序值。
+ * ★ 与 `PoiSort`（`common/ui/city/PoiList`）保持同一组值：存下来的是 'score'、
+ *   读回来也得认。老用户存着旧值 'hot'/'name' 一样能解析，不需要迁移。
+ */
+export type PoiSortStored = 'hot' | 'score' | 'name'
 
 /** 地图视野。★ 必须带 `path`：换页之后仍然走各页自己的入口取景 */
 export interface StoredView {

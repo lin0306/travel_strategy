@@ -1,113 +1,152 @@
 {
-  "id": "yangshuo-west-street",
-  "name": "阳朔西街",
-  "category": "culture",
-  "subtype": "street",
-  "summary": "阳朔县城里的一条老街，两边都是铺子，外国游客比国内还多是它最特别的地方。",
-  "description": "西街在阳朔县城中间。它其实很老 —— 一千几百年的一条青石板路。特别的是它从八十年代起就被背包客走了出来，一直到现在外国游客比国内还多。街两边是酒吧、咖啡与卖东西的小店，晚上最热闹。它跟丽江西街这种同类老街的问题是同一类：商业化了，本地人搬走了。但挨着的就是这座县城的日常。早上八点前这条街还是安静的。",
-  "highlights": [
-    "一千几百年的青石板路，八十年代起被背包客走了出来",
-    "外国游客比国内还多，是它最特别的一点",
-    "早上八点前这条街还是安静的"
-  ],
-  "location": {
-    "point": {
-      "lng": 110.49488,
-      "lat": 24.77505,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "广西壮族自治区桂林市阳朔县西街",
-    "district": "阳朔县",
-    "transportTip": "阳朔县城步行可达；漓江游船或竹筏到阳朔后步行"
+ "id": "yangshuo-west-street",
+ "name": "阳朔西街",
+ "category": "culture",
+ "subtype": "street",
+ "summary": "阳朔县城里的一条老街，两边都是铺子，外国游客比国内还多是它最特别的地方。",
+ "description": "西街在阳朔县城中间。它其实很老 —— 一千几百年的一条青石板路。特别的是它从八十年代起就被背包客走了出来，一直到现在外国游客比国内还多。街两边是酒吧、咖啡与卖东西的小店，晚上最热闹。它跟丽江西街这种同类老街的问题是同一类：商业化了，本地人搬走了。但挨着的就是这座县城的日常。早上八点前这条街还是安静的。",
+ "highlights": [
+  "一千几百年的青石板路，八十年代起被背包客走了出来",
+  "外国游客比国内还多，是它最特别的一点",
+  "早上八点前这条街还是安静的"
+ ],
+ "location": {
+  "point": {
+   "lng": 110.49488,
+   "lat": 24.77505,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放，店铺多为10:00至深夜",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 90-240 分钟",
-    "durationMinutes": [
-      90,
-      240
-    ],
-    "priceLevel": "free"
+  "address": "广西壮族自治区桂林市阳朔县西街",
+  "district": "阳朔县",
+  "transportTip": "阳朔县城步行可达；漓江游船或竹筏到阳朔后步行"
+ },
+ "practical": {
+  "openHours": "全天开放，店铺多为10:00至深夜",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 90-240 分钟",
+  "durationMinutes": [
+   90,
+   240
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/West_Street_Yangshuo.jpg/1280px-West_Street_Yangshuo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/West_Street_Yangshuo.jpg/1280px-West_Street_Yangshuo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 813,
+   "alt": "West Street Yangshuo.jpg",
+   "query": "阳朔西街",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Imcall",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:West_Street_Yangshuo.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "friends",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/West_Street_Yangshuo.jpg/1280px-West_Street_Yangshuo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/West_Street_Yangshuo.jpg/1280px-West_Street_Yangshuo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 813,
-      "alt": "West Street Yangshuo.jpg",
-      "query": "阳朔西街",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Imcall",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:West_Street_Yangshuo.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio.jpg/1280px-%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio.jpg/1280px-%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "广西壮族自治区桂林市阳朔西街景色 - panoramio.jpg",
-      "query": "阳朔西街",
-      "credit": {
-        "source": "wikimedia",
-        "author": "luchangjiang~鲁昌江",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio_%2815%29.jpg/1280px-%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio_%2815%29.jpg/1280px-%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "广西壮族自治区桂林市阳朔西街景色 - panoramio (15).jpg",
-      "query": "阳朔西街",
-      "credit": {
-        "source": "wikimedia",
-        "author": "luchangjiang~鲁昌江",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio_(15).jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "西街",
-    "背包客",
-    "夜生活"
-  ],
-  "popularity": 84,
-  "sources": [
-    {
-      "title": "百度百科·阳朔西街",
-      "url": "https://baike.baidu.com/item/%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "阳朔西街"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio.jpg/1280px-%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio.jpg/1280px-%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "广西壮族自治区桂林市阳朔西街景色 - panoramio.jpg",
+   "query": "阳朔西街",
+   "credit": {
+    "source": "wikimedia",
+    "author": "luchangjiang~鲁昌江",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "阳朔西街",
-  "_geocodeSuspect": false,
-  "district": "450321"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio_%2815%29.jpg/1280px-%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio_%2815%29.jpg/1280px-%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "广西壮族自治区桂林市阳朔西街景色 - panoramio (15).jpg",
+   "query": "阳朔西街",
+   "credit": {
+    "source": "wikimedia",
+    "author": "luchangjiang~鲁昌江",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%A1%82%E6%9E%97%E5%B8%82%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97%E6%99%AF%E8%89%B2_-_panoramio_(15).jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "西街",
+  "背包客",
+  "夜生活"
+ ],
+ "popularity": 84,
+ "sources": [
+  {
+   "title": "百度百科·阳朔西街",
+   "url": "https://baike.baidu.com/item/%E9%98%B3%E6%9C%94%E8%A5%BF%E8%A1%97",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "阳朔西街"
+ },
+ "_geocodeTitle": "阳朔西街",
+ "_geocodeSuspect": false,
+ "district": "450321",
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "商业化",
+    "score": 2.0,
+    "note": "两边全是酒吧、咖啡与卖东西的店，本地人已搬走"
+   },
+   {
+    "label": "夜生活",
+    "score": 4.0,
+    "note": "晚上最热闹，是这个县城真正的客厅"
+   },
+   {
+    "label": "人流",
+    "score": 2.5,
+    "note": "入夜后挤，节假日走不动"
+   },
+   {
+    "label": "时长",
+    "score": 3.5,
+    "note": "一条街，逛一两个小时够了"
+   }
+  ],
+  "body": "一千几百年的青石板路，从八十年代被背包客走出来，到现在外国游客比国内还多，这是它最特别的地方。白天可以看老房子的檐口与门楣，晚上是另一条街：酒吧、驻唱、卖东西的小店一路排开。问题是商业化太重——本地人基本搬走了，同质化的酒吧与纪念品把老街的味道盖住；入夜后人挤人，想安静说话都难。建议早上八点前来走一趟，那时候街是空的。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "看夜景",
+   "住阳朔",
+   "随便逛"
+  ],
+  "avoid": [
+   "讨厌人多",
+   "想看原生态老街"
+  ],
+  "sources": []
+ }
 }

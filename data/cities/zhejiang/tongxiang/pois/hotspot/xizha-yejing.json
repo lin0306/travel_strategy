@@ -1,71 +1,109 @@
 {
-  "id": "xizha-yejing",
-  "name": "西栅夜景",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "河两岸灯笼与暖光齐亮，乌镇夜色是江南的封面。",
-  "description": "西栅夜景是乌镇最出圈的一幕，也是很多人专程住一晚的理由——入夜后，河两岸的灯笼、屋檐下的暖光和桥上的灯带次第亮起，摇橹船划过水面拖出一道光，整片水乡像被点亮的梦境。白天的人潮退去后，西栅才显出它最安静、最浪漫的样子。最佳机位在几座石桥上和水阁边，带三脚架长曝能把灯影拉成丝。节假日人多、船要排长队，尽量错峰或一早进、等天黑。",
-  "highlights": [
-    "乌镇封面",
-    "灯笼亮灯",
-    "摇橹船光",
-    "住一晚"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.48376,
-      "lat": 30.749544,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "嘉兴市桐乡市乌镇镇西栅景区内（沿河与桥梁）",
-    "district": "桐乡",
-    "transportTip": "西栅景区内步行 / 乘船"
+ "id": "xizha-yejing",
+ "name": "西栅夜景",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "河两岸灯笼与暖光齐亮，乌镇夜色是江南的封面。",
+ "description": "西栅夜景是乌镇最出圈的一幕，也是很多人专程住一晚的理由——入夜后，河两岸的灯笼、屋檐下的暖光和桥上的灯带次第亮起，摇橹船划过水面拖出一道光，整片水乡像被点亮的梦境。白天的人潮退去后，西栅才显出它最安静、最浪漫的样子。最佳机位在几座石桥上和水阁边，带三脚架长曝能把灯影拉成丝。节假日人多、船要排长队，尽量错峰或一早进、等天黑。",
+ "highlights": [
+  "乌镇封面",
+  "灯笼亮灯",
+  "摇橹船光",
+  "住一晚"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.48376,
+   "lat": 30.749544,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "日落后至景区闭园（约 22:00）",
-    "openHoursRef": 0,
-    "ticket": "西栅夜游票；以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 60-150 分钟",
-    "durationMinutes": [
-      60,
-      150
-    ],
-    "priceLevel": "high"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "solo",
-    "elders"
+  "address": "嘉兴市桐乡市乌镇镇西栅景区内（沿河与桥梁）",
+  "district": "桐乡",
+  "transportTip": "西栅景区内步行 / 乘船"
+ },
+ "practical": {
+  "openHours": "日落后至景区闭园（约 22:00）",
+  "openHoursRef": 0,
+  "ticket": "西栅夜游票；以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 60-150 分钟",
+  "durationMinutes": [
+   60,
+   150
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "夜景",
-    "水乡",
-    "灯光",
-    "出片"
+  "priceLevel": "high"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "solo",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "夜景",
+  "水乡",
+  "灯光",
+  "出片"
+ ],
+ "popularity": 95,
+ "sources": [
+  {
+   "title": "百度百科·乌镇",
+   "url": "https://baike.baidu.com/item/%E4%B9%8C%E9%95%87",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-07"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "西栅夜景"
+ },
+ "_geocodeTitle": "乌镇西栅景区",
+ "_geocodeSuspect": false,
+ "district": "330483",
+ "_noImage": true,
+ "review": {
+  "score": 4.5,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "出片",
+    "score": 4.8,
+    "note": "灯笼、屋檐暖光、摇橹船划出的光带"
+   },
+   {
+    "label": "人流",
+    "score": 2.8,
+    "note": "节假日桥上挤，船要排长队"
+   },
+   {
+    "label": "花费",
+    "score": 2.9,
+    "note": "夜游票与船票另计，住一晚更贵"
+   },
+   {
+    "label": "时段",
+    "score": 4.2,
+    "note": "日落后一小时最好，闭园前收灯"
+   }
   ],
-  "popularity": 95,
-  "sources": [
-    {
-      "title": "百度百科·乌镇",
-      "url": "https://baike.baidu.com/item/%E4%B9%8C%E9%95%87",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-07"
-    }
+  "body": "乌镇真正值回票价的是天黑之后：白天的人潮散了，灯笼与屋檐暖光次第亮起，摇橹船划过水面拖出一道光，整片水乡像被点亮的布景。缺点是代价不小，夜游票和船票分开算，想在最佳时段待在园内多半得住一晚，房价摆在那里；节假日石桥上人挤，长曝得等空隙。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "住一晚",
+   "拍夜景"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "西栅夜景"
-  },
-  "_geocodeTitle": "乌镇西栅景区",
-  "_geocodeSuspect": false,
-  "district": "330483",
-  "_noImage": true
+  "avoid": [
+   "当日往返",
+   "怕挤"
+  ],
+  "sources": []
+ }
 }

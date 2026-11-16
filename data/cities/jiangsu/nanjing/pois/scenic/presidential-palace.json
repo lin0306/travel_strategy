@@ -1,175 +1,207 @@
 {
-  "id": "presidential-palace",
-  "name": "总统府（中国近代史遗址博物馆）",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "从两江总督署到总统府，一座院子里装着半部近代史。",
-  "description": "这片院子的身份换过很多次：明代是王府，清代是两江总督署，太平天国时期是天王府，1912 年成为中华民国临时政府所在地，之后长期是国民政府与总统府。所以园区里能看到风格完全不同的建筑并排——中式的官署、西式的办公楼、还有一处江南园林在后园。青砖的走廊是标准的近代行政建筑做法。它的看点在于同一块地上层层相扣，而不是某一个单体。长江路出口就是1912街区，两个可以连着走。",
-  "highlights": [
-    "一处院子串起清、太平天国、民国三个时期",
-    "中式官署与西式办公楼并排",
-    "出口直接接1912街区"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.797444,
-      "lat": 32.044228,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南京市玄武区长江路292号",
-    "district": "玄武区",
-    "transportTip": "地铁2号线/3号线大行宫站步行"
+ "id": "presidential-palace",
+ "name": "总统府（中国近代史遗址博物馆）",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "从两江总督署到总统府，一座院子里装着半部近代史。",
+ "description": "这片院子的身份换过很多次：明代是王府，清代是两江总督署，太平天国时期是天王府，1912 年成为中华民国临时政府所在地，之后长期是国民政府与总统府。所以园区里能看到风格完全不同的建筑并排——中式的官署、西式的办公楼、还有一处江南园林在后园。青砖的走廊是标准的近代行政建筑做法。它的看点在于同一块地上层层相扣，而不是某一个单体。长江路出口就是1912街区，两个可以连着走。",
+ "highlights": [
+  "一处院子串起清、太平天国、民国三个时期",
+  "中式官署与西式办公楼并排",
+  "出口直接接1912街区"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.797444,
+   "lat": 32.044228,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:30-17:00（旺季），周一闭馆，以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "约40元起，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 120-240 分钟",
-    "durationMinutes": [
-      120,
-      240
-    ],
-    "priceLevel": "mid"
+  "address": "南京市玄武区长江路292号",
+  "district": "玄武区",
+  "transportTip": "地铁2号线/3号线大行宫站步行"
+ },
+ "practical": {
+  "openHours": "约08:30-17:00（旺季），周一闭馆，以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "约40元起，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 120-240 分钟",
+  "durationMinutes": [
+   120,
+   240
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "elders",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/%E4%B8%AD%E5%8D%8E%E6%B0%91%E5%9B%BD%E6%80%BB%E7%BB%9F%E5%BA%9C%C2%B7%E5%8D%97%E4%BA%AC%C2%B7%E8%88%AA%E6%8B%8D.jpg/1280px-%E4%B8%AD%E5%8D%8E%E6%B0%91%E5%9B%BD%E6%80%BB%E7%BB%9F%E5%BA%9C%C2%B7%E5%8D%97%E4%BA%AC%C2%B7%E8%88%AA%E6%8B%8D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/%E4%B8%AD%E5%8D%8E%E6%B0%91%E5%9B%BD%E6%80%BB%E7%BB%9F%E5%BA%9C%C2%B7%E5%8D%97%E4%BA%AC%C2%B7%E8%88%AA%E6%8B%8D.jpg/1280px-%E4%B8%AD%E5%8D%8E%E6%B0%91%E5%9B%BD%E6%80%BB%E7%BB%9F%E5%BA%9C%C2%B7%E5%8D%97%E4%BA%AC%C2%B7%E8%88%AA%E6%8B%8D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "中华民国总统府·南京·航拍.jpg",
+   "query": "总统府 南京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Legolas1024",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%8D%8E%E6%B0%91%E5%9B%BD%E6%80%BB%E7%BB%9F%E5%BA%9C%C2%B7%E5%8D%97%E4%BA%AC%C2%B7%E8%88%AA%E6%8B%8D.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "elders",
-    "family"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/%E4%B8%AD%E5%8D%8E%E6%B0%91%E5%9B%BD%E6%80%BB%E7%BB%9F%E5%BA%9C%C2%B7%E5%8D%97%E4%BA%AC%C2%B7%E8%88%AA%E6%8B%8D.jpg/1280px-%E4%B8%AD%E5%8D%8E%E6%B0%91%E5%9B%BD%E6%80%BB%E7%BB%9F%E5%BA%9C%C2%B7%E5%8D%97%E4%BA%AC%C2%B7%E8%88%AA%E6%8B%8D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/%E4%B8%AD%E5%8D%8E%E6%B0%91%E5%9B%BD%E6%80%BB%E7%BB%9F%E5%BA%9C%C2%B7%E5%8D%97%E4%BA%AC%C2%B7%E8%88%AA%E6%8B%8D.jpg/1280px-%E4%B8%AD%E5%8D%8E%E6%B0%91%E5%9B%BD%E6%80%BB%E7%BB%9F%E5%BA%9C%C2%B7%E5%8D%97%E4%BA%AC%C2%B7%E8%88%AA%E6%8B%8D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "中华民国总统府·南京·航拍.jpg",
-      "query": "总统府 南京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Legolas1024",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%8D%8E%E6%B0%91%E5%9B%BD%E6%80%BB%E7%BB%9F%E5%BA%9C%C2%B7%E5%8D%97%E4%BA%AC%C2%B7%E8%88%AA%E6%8B%8D.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/%E5%8D%97%E4%BA%AC-%E6%97%A7%E6%80%BB%E7%BB%9F%E5%BA%9C_-_panoramio.jpg/1280px-%E5%8D%97%E4%BA%AC-%E6%97%A7%E6%80%BB%E7%BB%9F%E5%BA%9C_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/%E5%8D%97%E4%BA%AC-%E6%97%A7%E6%80%BB%E7%BB%9F%E5%BA%9C_-_panoramio.jpg/1280px-%E5%8D%97%E4%BA%AC-%E6%97%A7%E6%80%BB%E7%BB%9F%E5%BA%9C_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "南京-旧总统府 - panoramio.jpg",
-      "query": "总统府 南京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nyx Ning",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC-%E6%97%A7%E6%80%BB%E7%BB%9F%E5%BA%9C_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/%E5%8D%97%E4%BA%AC%E6%80%BB%E7%BB%9F%E5%BA%9C.jpg/1280px-%E5%8D%97%E4%BA%AC%E6%80%BB%E7%BB%9F%E5%BA%9C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/%E5%8D%97%E4%BA%AC%E6%80%BB%E7%BB%9F%E5%BA%9C.jpg/1280px-%E5%8D%97%E4%BA%AC%E6%80%BB%E7%BB%9F%E5%BA%9C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 608,
-      "alt": "南京总统府.jpg",
-      "query": "总统府 南京",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Kone718",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E6%80%BB%E7%BB%9F%E5%BA%9C.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/%E5%8D%97%E4%BA%AC%E6%80%BB%E7%BB%9F%E5%BA%9C%E5%9B%AD%E6%9E%97_the_garden_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/%E5%8D%97%E4%BA%AC%E6%80%BB%E7%BB%9F%E5%BA%9C%E5%9B%AD%E6%9E%97_the_garden_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "南京总统府园林 the garden - panoramio.jpg",
-      "query": "总统府（中国近代史遗址博物馆）",
-      "credit": {
-        "source": "wikimedia",
-        "author": "wanghongliu",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/%E6%80%BB%E7%BB%9F%E5%BA%9C%E8%A5%BF%E8%8A%B1%E5%9B%AD_-_panoramio.jpg/1280px-%E6%80%BB%E7%BB%9F%E5%BA%9C%E8%A5%BF%E8%8A%B1%E5%9B%AD_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/%E6%80%BB%E7%BB%9F%E5%BA%9C%E8%A5%BF%E8%8A%B1%E5%9B%AD_-_panoramio.jpg/1280px-%E6%80%BB%E7%BB%9F%E5%BA%9C%E8%A5%BF%E8%8A%B1%E5%9B%AD_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "总统府西花园 - panoramio.jpg",
-      "query": "总统府（中国近代史遗址博物馆）",
-      "credit": {
-        "source": "wikimedia",
-        "author": "江上清风1961",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/The_Concrete_House_in_Presidential_Palace%2C_Nanjing_%282016%29.jpg/1280px-The_Concrete_House_in_Presidential_Palace%2C_Nanjing_%282016%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/The_Concrete_House_in_Presidential_Palace%2C_Nanjing_%282016%29.jpg/1280px-The_Concrete_House_in_Presidential_Palace%2C_Nanjing_%282016%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "The Concrete House in Presidential Palace, Nanjing (2016).jpg",
-      "query": "总统府（中国近代史遗址博物馆）",
-      "credit": {
-        "source": "wikimedia",
-        "author": "ScareCriterion12",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "近代史",
-    "必去",
-    "长江路"
-  ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·总统府",
-      "url": "https://baike.baidu.com/item/%E6%80%BB%E7%BB%9F%E5%BA%9C",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-23"
-    }
-  ],
-  "updatedAt": "2026-11-05",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "总统府（中国近代史遗址博物馆）"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/%E5%8D%97%E4%BA%AC-%E6%97%A7%E6%80%BB%E7%BB%9F%E5%BA%9C_-_panoramio.jpg/1280px-%E5%8D%97%E4%BA%AC-%E6%97%A7%E6%80%BB%E7%BB%9F%E5%BA%9C_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/%E5%8D%97%E4%BA%AC-%E6%97%A7%E6%80%BB%E7%BB%9F%E5%BA%9C_-_panoramio.jpg/1280px-%E5%8D%97%E4%BA%AC-%E6%97%A7%E6%80%BB%E7%BB%9F%E5%BA%9C_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "南京-旧总统府 - panoramio.jpg",
+   "query": "总统府 南京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nyx Ning",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC-%E6%97%A7%E6%80%BB%E7%BB%9F%E5%BA%9C_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "总统府",
-  "_geocodeSuspect": false,
-  "district": "320102"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/%E5%8D%97%E4%BA%AC%E6%80%BB%E7%BB%9F%E5%BA%9C.jpg/1280px-%E5%8D%97%E4%BA%AC%E6%80%BB%E7%BB%9F%E5%BA%9C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/%E5%8D%97%E4%BA%AC%E6%80%BB%E7%BB%9F%E5%BA%9C.jpg/1280px-%E5%8D%97%E4%BA%AC%E6%80%BB%E7%BB%9F%E5%BA%9C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 608,
+   "alt": "南京总统府.jpg",
+   "query": "总统府 南京",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Kone718",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E6%80%BB%E7%BB%9F%E5%BA%9C.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/%E5%8D%97%E4%BA%AC%E6%80%BB%E7%BB%9F%E5%BA%9C%E5%9B%AD%E6%9E%97_the_garden_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/%E5%8D%97%E4%BA%AC%E6%80%BB%E7%BB%9F%E5%BA%9C%E5%9B%AD%E6%9E%97_the_garden_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "南京总统府园林 the garden - panoramio.jpg",
+   "query": "总统府（中国近代史遗址博物馆）",
+   "credit": {
+    "source": "wikimedia",
+    "author": "wanghongliu",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/%E6%80%BB%E7%BB%9F%E5%BA%9C%E8%A5%BF%E8%8A%B1%E5%9B%AD_-_panoramio.jpg/1280px-%E6%80%BB%E7%BB%9F%E5%BA%9C%E8%A5%BF%E8%8A%B1%E5%9B%AD_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/%E6%80%BB%E7%BB%9F%E5%BA%9C%E8%A5%BF%E8%8A%B1%E5%9B%AD_-_panoramio.jpg/1280px-%E6%80%BB%E7%BB%9F%E5%BA%9C%E8%A5%BF%E8%8A%B1%E5%9B%AD_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "总统府西花园 - panoramio.jpg",
+   "query": "总统府（中国近代史遗址博物馆）",
+   "credit": {
+    "source": "wikimedia",
+    "author": "江上清风1961",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/The_Concrete_House_in_Presidential_Palace%2C_Nanjing_%282016%29.jpg/1280px-The_Concrete_House_in_Presidential_Palace%2C_Nanjing_%282016%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/The_Concrete_House_in_Presidential_Palace%2C_Nanjing_%282016%29.jpg/1280px-The_Concrete_House_in_Presidential_Palace%2C_Nanjing_%282016%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "The Concrete House in Presidential Palace, Nanjing (2016).jpg",
+   "query": "总统府（中国近代史遗址博物馆）",
+   "credit": {
+    "source": "wikimedia",
+    "author": "ScareCriterion12",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "近代史",
+  "必去",
+  "长江路"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·总统府",
+   "url": "https://baike.baidu.com/item/%E6%80%BB%E7%BB%9F%E5%BA%9C",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-23"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "总统府（中国近代史遗址博物馆）"
+ },
+ "_geocodeTitle": "总统府",
+ "_geocodeSuspect": false,
+ "district": "320102",
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "历史密度",
+    "score": 4.7,
+    "note": "一处院子串起清代官署、太平天国与民国"
+   },
+   {
+    "label": "展线",
+    "score": 3.2,
+    "note": "院落多、指示偏弱，容易走回头路"
+   },
+   {
+    "label": "人流",
+    "score": 2.9,
+    "note": "旺季中轴线上几乎是人推着走"
+   },
+   {
+    "label": "串联",
+    "score": 4.2,
+    "note": "长江路出口直接接 1912 街区"
+   }
+  ],
+  "body": "同一块地上层层相扣的半部近代史：明代王府、清代两江总督署、太平天国天王府、民国临时政府与总统府，中式官署和西式办公楼并排站着，后园还藏了一处江南园林。看点在于叠压关系而不在某一栋单体。短板是逛起来累：院落多、指示偏弱，容易走回头路；旺季中轴线上几乎是人推着走，展厅里想细看一段文字都难。出口接 1912 街区，可以连着吃一顿。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [],
+  "avoid": [],
+  "sources": []
+ }
 }

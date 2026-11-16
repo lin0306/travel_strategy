@@ -1,130 +1,162 @@
 {
-  "id": "huaxin-lu",
-  "name": "华新路老别墅",
-  "category": "culture",
-  "subtype": "street",
-  "summary": "中山公园旁的一片华侨老别墅，红砖洋楼改成咖啡馆与小店。",
-  "description": "华新路在中山公园西侧，与溪岸路连成一片，是一片上世纪二三十年代华侨回厦门建的老别墅区。房子是红砖墙体配西式柱廊与百叶窗，院子里有老榕树与芒果树，墙头上常常垂着三角梅。这一片现在基本是咖啡馆、小餐馆、书店与民宿，一家一栋，门牌挂在墙上，不仔细找容易走过。街区安静，白天人少，适合坐着待一下午；傍晚开始热闹。房子与房子之间是窄的斜坡路，走一圈半小时。它与中山公园、斗西路的老巷子连在一起，离向日葵之家咖啡走路几分钟。",
-  "highlights": [
-    "上世纪二三十年代华侨建的红砖老别墅区",
-    "院子里有老榕树与芒果树，墙头垂着三角梅",
-    "一家一栋改作咖啡馆、书店与民宿，街区安静"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.087789,
-      "lat": 24.458698,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "福建省厦门市思明区华新路（溪岸路一带）",
-    "district": "思明区",
-    "transportTip": "地铁1号线中山公园站，步行约五分钟"
+ "id": "huaxin-lu",
+ "name": "华新路老别墅",
+ "category": "culture",
+ "subtype": "street",
+ "summary": "中山公园旁的一片华侨老别墅，红砖洋楼改成咖啡馆与小店。",
+ "description": "华新路在中山公园西侧，与溪岸路连成一片，是一片上世纪二三十年代华侨回厦门建的老别墅区。房子是红砖墙体配西式柱廊与百叶窗，院子里有老榕树与芒果树，墙头上常常垂着三角梅。这一片现在基本是咖啡馆、小餐馆、书店与民宿，一家一栋，门牌挂在墙上，不仔细找容易走过。街区安静，白天人少，适合坐着待一下午；傍晚开始热闹。房子与房子之间是窄的斜坡路，走一圈半小时。它与中山公园、斗西路的老巷子连在一起，离向日葵之家咖啡走路几分钟。",
+ "highlights": [
+  "上世纪二三十年代华侨建的红砖老别墅区",
+  "院子里有老榕树与芒果树，墙头垂着三角梅",
+  "一家一栋改作咖啡馆、书店与民宿，街区安静"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.087789,
+   "lat": 24.458698,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天（店铺多为10:00-22:00），以现场为准",
-    "openHoursRef": 0,
-    "ticket": "免费（店铺消费另计）",
-    "ticketRef": 0,
-    "duration": "建议 45-120 分钟",
-    "durationMinutes": [
-      45,
-      120
-    ],
-    "priceLevel": "free"
+  "address": "福建省厦门市思明区华新路（溪岸路一带）",
+  "district": "思明区",
+  "transportTip": "地铁1号线中山公园站，步行约五分钟"
+ },
+ "practical": {
+  "openHours": "全天（店铺多为10:00-22:00），以现场为准",
+  "openHoursRef": 0,
+  "ticket": "免费（店铺消费另计）",
+  "ticketRef": 0,
+  "duration": "建议 45-120 分钟",
+  "durationMinutes": [
+   45,
+   120
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/070556%E9%BB%84%E9%95%BF%E6%B0%B4%E6%95%85%E5%B1%85.jpg/1280px-070556%E9%BB%84%E9%95%BF%E6%B0%B4%E6%95%85%E5%B1%85.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/070556%E9%BB%84%E9%95%BF%E6%B0%B4%E6%95%85%E5%B1%85.jpg/1280px-070556%E9%BB%84%E9%95%BF%E6%B0%B4%E6%95%85%E5%B1%85.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "070556黄长水故居.jpg",
+   "query": "华新路老别墅",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Augustohai",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "front"
+   }
   },
-  "audience": [
-    "couple",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/070556%E9%BB%84%E9%95%BF%E6%B0%B4%E6%95%85%E5%B1%85.jpg/1280px-070556%E9%BB%84%E9%95%BF%E6%B0%B4%E6%95%85%E5%B1%85.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/070556%E9%BB%84%E9%95%BF%E6%B0%B4%E6%95%85%E5%B1%85.jpg/1280px-070556%E9%BB%84%E9%95%BF%E6%B0%B4%E6%95%85%E5%B1%85.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "070556黄长水故居.jpg",
-      "query": "华新路老别墅",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Augustohai",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "front"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/%E6%97%A5%E6%9C%AC%E5%85%B4%E4%BA%9A%E9%99%A2%E5%8E%A6%E9%97%A8%E8%81%94%E7%BB%9C%E9%83%A81.jpg/1280px-%E6%97%A5%E6%9C%AC%E5%85%B4%E4%BA%9A%E9%99%A2%E5%8E%A6%E9%97%A8%E8%81%94%E7%BB%9C%E9%83%A81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/%E6%97%A5%E6%9C%AC%E5%85%B4%E4%BA%9A%E9%99%A2%E5%8E%A6%E9%97%A8%E8%81%94%E7%BB%9C%E9%83%A81.jpg/1280px-%E6%97%A5%E6%9C%AC%E5%85%B4%E4%BA%9A%E9%99%A2%E5%8E%A6%E9%97%A8%E8%81%94%E7%BB%9C%E9%83%A81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "日本兴亚院厦门联络部1.jpg",
-      "query": "华新路老别墅",
-      "credit": {
-        "source": "wikimedia",
-        "author": "向史公哲曰",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "street"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/%E6%97%A5%E6%9C%AC%E5%85%B4%E4%BA%9A%E9%99%A2%E5%8E%A6%E9%97%A8%E8%81%94%E7%BB%9C%E9%83%A82.jpg/1280px-%E6%97%A5%E6%9C%AC%E5%85%B4%E4%BA%9A%E9%99%A2%E5%8E%A6%E9%97%A8%E8%81%94%E7%BB%9C%E9%83%A82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/%E6%97%A5%E6%9C%AC%E5%85%B4%E4%BA%9A%E9%99%A2%E5%8E%A6%E9%97%A8%E8%81%94%E7%BB%9C%E9%83%A82.jpg/1280px-%E6%97%A5%E6%9C%AC%E5%85%B4%E4%BA%9A%E9%99%A2%E5%8E%A6%E9%97%A8%E8%81%94%E7%BB%9C%E9%83%A82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "日本兴亚院厦门联络部2.jpg",
-      "query": "华新路老别墅",
-      "credit": {
-        "source": "wikimedia",
-        "author": "向史公哲曰",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-03",
-        "tier": "street"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "老别墅",
-    "咖啡馆",
-    "华侨"
-  ],
-  "popularity": 78,
-  "sources": [
-    {
-      "title": "百度百科·华新路",
-      "url": "https://baike.baidu.com/item/%E5%8D%8E%E6%96%B0%E8%B7%AF",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
-  ],
-  "updatedAt": "2026-11-03",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "华新路老别墅"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/%E6%97%A5%E6%9C%AC%E5%85%B4%E4%BA%9A%E9%99%A2%E5%8E%A6%E9%97%A8%E8%81%94%E7%BB%9C%E9%83%A81.jpg/1280px-%E6%97%A5%E6%9C%AC%E5%85%B4%E4%BA%9A%E9%99%A2%E5%8E%A6%E9%97%A8%E8%81%94%E7%BB%9C%E9%83%A81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/%E6%97%A5%E6%9C%AC%E5%85%B4%E4%BA%9A%E9%99%A2%E5%8E%A6%E9%97%A8%E8%81%94%E7%BB%9C%E9%83%A81.jpg/1280px-%E6%97%A5%E6%9C%AC%E5%85%B4%E4%BA%9A%E9%99%A2%E5%8E%A6%E9%97%A8%E8%81%94%E7%BB%9C%E9%83%A81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "日本兴亚院厦门联络部1.jpg",
+   "query": "华新路老别墅",
+   "credit": {
+    "source": "wikimedia",
+    "author": "向史公哲曰",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "street"
+   }
   },
-  "_geocodeTitle": "溪岸华新路老别墅",
-  "_geocodeSuspect": false,
-  "district": "350203"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/%E6%97%A5%E6%9C%AC%E5%85%B4%E4%BA%9A%E9%99%A2%E5%8E%A6%E9%97%A8%E8%81%94%E7%BB%9C%E9%83%A82.jpg/1280px-%E6%97%A5%E6%9C%AC%E5%85%B4%E4%BA%9A%E9%99%A2%E5%8E%A6%E9%97%A8%E8%81%94%E7%BB%9C%E9%83%A82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/%E6%97%A5%E6%9C%AC%E5%85%B4%E4%BA%9A%E9%99%A2%E5%8E%A6%E9%97%A8%E8%81%94%E7%BB%9C%E9%83%A82.jpg/1280px-%E6%97%A5%E6%9C%AC%E5%85%B4%E4%BA%9A%E9%99%A2%E5%8E%A6%E9%97%A8%E8%81%94%E7%BB%9C%E9%83%A82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "日本兴亚院厦门联络部2.jpg",
+   "query": "华新路老别墅",
+   "credit": {
+    "source": "wikimedia",
+    "author": "向史公哲曰",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-03",
+    "tier": "street"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "老别墅",
+  "咖啡馆",
+  "华侨"
+ ],
+ "popularity": 78,
+ "sources": [
+  {
+   "title": "百度百科·华新路",
+   "url": "https://baike.baidu.com/item/%E5%8D%8E%E6%96%B0%E8%B7%AF",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "华新路老别墅"
+ },
+ "_geocodeTitle": "溪岸华新路老别墅",
+ "_geocodeSuspect": false,
+ "district": "350203",
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "建筑",
+    "score": 4.5,
+    "note": "红砖墙体配西式柱廊百叶窗"
+   },
+   {
+    "label": "氛围",
+    "score": 4.3,
+    "note": "白天安静，适合坐一下午"
+   },
+   {
+    "label": "好找度",
+    "score": 2.9,
+    "note": "一家一栋挂在墙上，容易走过"
+   },
+   {
+    "label": "停车",
+    "score": 2.7,
+    "note": "老城窄路，基本没法停"
+   }
+  ],
+  "body": "中山公园西侧一片上世纪二三十年代华侨建的老别墅，红砖配西式柱廊，院里是老榕树和芒果树，墙头垂着三角梅，如今一家一栋改成咖啡馆、书店与民宿，街区安静，白天坐下来最舒服。缺点是门牌都挂在墙上、没有明显入口，走快了很容易整条路穿过去；老城窄巷没有停车的地方，只能靠走或骑。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [],
+  "avoid": [],
+  "sources": []
+ }
 }

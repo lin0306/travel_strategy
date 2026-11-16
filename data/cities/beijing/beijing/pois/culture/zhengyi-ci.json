@@ -17,13 +17,13 @@
       "coordSystem": "GCJ-02"
     },
     "address": "北京市西城区前门西河沿街220号",
-    "district": "东城",
+    "district": "西城",
     "transportTip": "地铁2号线和平门站/前门站步行"
   },
   "practical": {
     "openHours": "以剧目排期为准(多为晚间)",
     "openHoursRef": 0,
-    "ticket": "约300元起(以剧场为准)",
+    "ticket": "280-1280元(按场次与座位)",
     "ticketRef": 0,
     "duration": "建议 120-180 分钟",
     "durationMinutes": [
@@ -51,9 +51,15 @@
       "url": "https://baike.baidu.com/item/%E6%AD%A3%E4%B9%99%E7%A5%A0",
       "kind": "wiki",
       "fetchedAt": "2026-09-19"
+    },
+    {
+      "title": "正乙祠戏楼官方公众号演出推荐：全部场次 280-1280 元",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzIyMDAyMjQ0Ng==&mid=2653496628&idx=1&sn=812d8f047d0dbb9da61b94e1cec753d5",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -61,6 +67,56 @@
   },
   "_geocodeTitle": "正乙祠戏楼",
   "_geocodeSuspect": false,
-  "district": "110101",
-  "_noImage": true
+  "district": "110102",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-14",
+    "changes": [
+      {
+        "field": "门票",
+        "old": "约300元起(以剧场为准)",
+        "new": "280-1280元(按场次与座位)"
+      }
+    ],
+    "source": "http://mp.weixin.qq.com/s?__biz=MzIyMDAyMjQ0Ng==&mid=2653496628&idx=1&sn=812d8f047d0dbb9da61b94e1cec753d5",
+    "reason": "正乙祠戏楼官方公众号演出推荐：全部场次 280-1280 元"
+  },
+  "review": {
+    "score": 4.4,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "空间",
+        "score": 4.7,
+        "note": "三层木构会馆戏楼，池座离台极近"
+      },
+      {
+        "label": "演出",
+        "score": 4.2,
+        "note": "场次不多，多为晚间"
+      },
+      {
+        "label": "票价",
+        "score": 3.3,
+        "note": "280-1280 元按场次与座位"
+      },
+      {
+        "label": "观演体验",
+        "score": 4.5,
+        "note": "小尺度里的声音关系与现代剧院完全不同"
+      }
+    ],
+    "body": "正乙祠最值钱的是空间本身：清康熙年间的银号会馆，戏楼是北京现存最早的室内木构剧场之一，池座贴着台口坐，锣鼓一响跟现代剧院完全两种听感。缺点一是场次少，得先看排期碰运气；二是票价 280 元起、好位到千元，对只是想「看看老戏楼」的人偏贵。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "听戏",
+      "看古建"
+    ],
+    "avoid": [
+      "预算紧",
+      "赶时间"
+    ],
+    "sources": []
+  }
 }

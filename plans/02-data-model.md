@@ -173,7 +173,9 @@ export const PoiSchema = z.object({
   /** ★ 无障碍友好：轮椅 / 婴儿车可通行。**默认 false** —— 未核实就不声称 */
   accessible: z.boolean().default(false),
   tips: z.array(z.string()).default([]),       // 避坑 / 小建议
-  images: z.array(ImageItemSchema).min(1).max(8),
+  // ★ 2026-11-08 与现行 `schema/schema.ts` 对齐：允许 0 张（占位卡），且**无张数上限**
+  //   —— 候选补图链路看图判 ok 的图全部入库。下面的 `.min(1).max(8)` 是旧设计，已废弃。
+  images: z.array(ImageItemSchema),
   coverIndex: z.number().int().min(0).default(0),
   tags: z.array(z.string()).default([]),       // ['亲子','夜景','免门票']
   /** 排序权重（脚本打分）：以公开热度信号为依据。不引入 rating 字段 —— 无权威来源的评分是伪数据 */

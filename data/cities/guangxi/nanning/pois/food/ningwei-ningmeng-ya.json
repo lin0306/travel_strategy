@@ -1,69 +1,107 @@
 {
-  "id": "ningwei-ningmeng-ya",
-  "name": "甘家界柠檬鸭(春晖店)",
-  "category": "food",
-  "subtype": "local",
-  "summary": "南宁本帮菜的门面，酸柠檬焖鸭。",
-  "description": "柠檬鸭是南宁武鸣一带的本帮名菜，用咸柠檬、酸姜和鸭肉同焖，酸香去腻，是南宁菜的代表之一。甘家界是做这道菜的老字号，多家分店，春晖店在民族大道旁。它适合安排一顿正餐，配一碗米饭最合适。价格中等，分量实在。懂本地菜的人会点。",
-  "highlights": [
-    "南宁本帮名菜，咸柠檬焖鸭",
-    "甘家界是做柠檬鸭的老字号",
-    "酸香去腻，适合正餐"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.390839,
-      "lat": 22.814432,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市青秀区民族大道135-1号",
-    "district": "青秀区",
-    "transportTip": "地铁1号线麻村站步行约10分钟"
+ "id": "ningwei-ningmeng-ya",
+ "name": "甘家界柠檬鸭(春晖店)",
+ "category": "food",
+ "subtype": "local",
+ "summary": "南宁本帮菜的门面，酸柠檬焖鸭。",
+ "description": "柠檬鸭是南宁武鸣一带的本帮名菜，用咸柠檬、酸姜和鸭肉同焖，酸香去腻，是南宁菜的代表之一。甘家界是做这道菜的老字号，多家分店，春晖店在民族大道旁。它适合安排一顿正餐，配一碗米饭最合适。价格中等，分量实在。懂本地菜的人会点。",
+ "highlights": [
+  "南宁本帮名菜，咸柠檬焖鸭",
+  "甘家界是做柠檬鸭的老字号",
+  "酸香去腻，适合正餐"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.390839,
+   "lat": 22.814432,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约11:00-14:00 / 17:00-21:00，以门店公告为准",
-    "openHoursRef": 0,
-    "ticket": "人均约70元，以门店为准",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "family",
-    "elders",
-    "friends",
-    "couple"
+  "address": "南宁市青秀区民族大道135-1号",
+  "district": "青秀区",
+  "transportTip": "地铁1号线麻村站步行约10分钟"
+ },
+ "practical": {
+  "openHours": "约11:00-14:00 / 17:00-21:00，以门店公告为准",
+  "openHoursRef": 0,
+  "ticket": "人均约70元，以门店为准",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "柠檬鸭",
-    "南宁菜",
-    "本帮"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "family",
+  "elders",
+  "friends",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "柠檬鸭",
+  "南宁菜",
+  "本帮"
+ ],
+ "popularity": 80,
+ "sources": [
+  {
+   "title": "百度百科·柠檬鸭",
+   "url": "https://baike.baidu.com/item/%E6%9F%A0%E6%AA%AC%E9%B8%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "甘家界柠檬鸭(春晖店)"
+ },
+ "_geocodeTitle": "甘家界柠檬鸭(春晖店)",
+ "_geocodeSuspect": false,
+ "district": "450103",
+ "_noImage": true,
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.4,
+    "note": "咸柠檬与酸姜同焖，酸香压住鸭腥"
+   },
+   {
+    "label": "分量",
+    "score": 4.2,
+    "note": "一大锅，两三人分刚好"
+   },
+   {
+    "label": "价格",
+    "score": 3.6,
+    "note": "比街边粉店贵一档，算正餐价"
+   },
+   {
+    "label": "环境",
+    "score": 3.4,
+    "note": "连锁酒楼风格，饭点吵"
+   }
   ],
-  "popularity": 80,
-  "sources": [
-    {
-      "title": "百度百科·柠檬鸭",
-      "url": "https://baike.baidu.com/item/%E6%9F%A0%E6%AA%AC%E9%B8%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "柠檬鸭是南宁拿得出手的本帮菜：咸柠檬、酸姜、蒜和鸭肉一起焖，酸香出头、油而不腻，配白米饭最对。甘家界是这道菜的老字号，分店多，春晖店位置方便，适合安排一顿正经午饭或晚饭。要注意两点：一是这道菜酸度偏高、油也重，口味清淡的人第一口会觉得冲；二是饭点人多、上菜要等，包间和大厅都吵，不适合谈事。份量实在，人少别点多。想回避排队就错峰，下午两点后进店最松。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "吃本地菜",
+   "家庭聚餐"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "甘家界柠檬鸭(春晖店)"
-  },
-  "_geocodeTitle": "甘家界柠檬鸭(春晖店)",
-  "_geocodeSuspect": false,
-  "district": "450103",
-  "_noImage": true
+  "avoid": [
+   "口味清淡",
+   "要安静包间"
+  ],
+  "sources": []
+ }
 }

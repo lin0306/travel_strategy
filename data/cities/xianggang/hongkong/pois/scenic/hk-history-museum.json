@@ -39,7 +39,29 @@
   ],
   "accessible": false,
   "tips": [],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Hong_Kong_Coliseum_2008.jpg/1280px-Hong_Kong_Coliseum_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Hong_Kong_Coliseum_2008.jpg/1280px-Hong_Kong_Coliseum_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 720,
+      "alt": "Hong Kong Coliseum 2008.jpg",
+      "query": "香港历史博物馆",
+      "credit": {
+        "source": "wikimedia",
+        "author": "Baycrest",
+        "sourceUrl": "https://commons.wikimedia.org/",
+        "license": "CC BY-SA 2.5",
+        "attributionRequired": true
+      },
+      "review": {
+        "verdict": "ok",
+        "by": "agent-vision",
+        "at": "2026-11-05",
+        "tier": "exact"
+      }
+    }
+  ],
   "coverIndex": 0,
   "tags": [
     "博物馆",
@@ -55,7 +77,7 @@
       "fetchedAt": "2026-09-24"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-05",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,6 +85,5 @@
   },
   "_geocodeTitle": "香港历史博物馆",
   "_geocodeSuspect": false,
-  "district": "812100",
-  "_noImage": true
+  "district": "812100"
 }

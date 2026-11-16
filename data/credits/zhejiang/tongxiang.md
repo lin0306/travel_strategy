@@ -1,6 +1,6 @@
 # 桐乡 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-07
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-14
 
 ## 概览
 
@@ -74,9 +74,8 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Cheng Shi Song | Pexels License | [pexels](https://www.pexels.com/photo/scenic-view-of-traditional-village-in-huangshan-39725323/) |
-| 城市封面 | Andy Lee | Pexels License | [pexels](https://www.pexels.com/photo/city-buildings-under-cloudy-sky-12515134/) |
-| 城市封面 | Joy Xu | Pexels License | [pexels](https://www.pexels.com/photo/aerial-photo-of-a-city-17943576/) |
+| 城市封面 | Wanderingchina | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Aerial_vistas_of_Wuzhen_Water_town_and_its_arts_centre.jpg) |
+| 城市封面 | Nyx Ning | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B9%8C%E9%95%87-%E4%B8%9C%E6%A0%85_%E6%B0%B4%E4%B9%A1_-_panoramio.jpg) |
 | 白莲塔 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BB%8A%E6%A1%A5%E4%B8%8E%E7%99%BD%E8%8E%B2%E5%A1%94_-_panoramio.jpg) |
 | 白莲塔 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%99%BD%E8%8E%B2%E5%A1%94_-_panoramio.jpg) |
 | 白莲塔 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%99%BD%E8%8E%B2%E5%AF%BA%E4%B8%8E%E7%99%BD%E8%8E%B2%E5%A1%94_-_panoramio.jpg) |

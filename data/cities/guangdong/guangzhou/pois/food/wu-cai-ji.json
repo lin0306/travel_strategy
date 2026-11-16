@@ -16,7 +16,7 @@
       "lat": 23.11083,
       "coordSystem": "GCJ-02"
     },
-    "address": "广州市荔湾区大同路84号",
+    "address": "广州市荔湾区大同路 84 号旁和隆里 20 号（巷口内约 50 米）",
     "district": "荔湾区",
     "transportTip": "地铁1号线长寿路站；地铁6号线文化公园站"
   },
@@ -53,9 +53,15 @@
       "url": "https://baike.baidu.com/item/%E5%90%B4%E8%B4%A2%E8%AE%B0%E9%9D%A2%E5%AE%B6",
       "kind": "wiki",
       "fetchedAt": "2026-09-24"
+    },
+    {
+      "title": "2026-08 腾讯新闻实地报道与图商POI一致：店在和隆里20号，大同路84号",
+      "url": "https://news.qq.com/rain/a/20260816A0680M00",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -64,5 +70,17 @@
   "_geocodeTitle": "吴财记面家(大同路店)",
   "_geocodeSuspect": false,
   "district": "440103",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "广州市荔湾区大同路84号",
+        "new": "广州市荔湾区大同路 84 号旁和隆里 20 号（巷口内约 50 米）"
+      }
+    ],
+    "source": "https://news.qq.com/rain/a/20260816A0680M00",
+    "reason": "2026-08 腾讯新闻实地报道与图商POI一致：店在和隆里20号，大同路84号只是巷口"
+  }
 }

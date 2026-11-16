@@ -21,7 +21,7 @@
     "transportTip": "地铁1号线天安门东站步行约10分钟"
   },
   "practical": {
-    "openHours": "约10:30-22:00(以门店公告为准)",
+    "openHours": "周一至周四 10:30-21:30，周五至周日 10:30-22:30(以门店公告为准)",
     "openHoursRef": 0,
     "ticket": "人均约160元起(以门店为准)",
     "ticketRef": 0,
@@ -53,9 +53,15 @@
       "url": "https://baike.baidu.com/item/%E5%9B%9B%E5%AD%A3%E6%B0%91%E7%A6%8F",
       "kind": "wiki",
       "fetchedAt": "2026-09-19"
+    },
+    {
+      "title": "北京市文旅局：2026 春节必吃的 20 家京味美食（四季民福故宫店时段）",
+      "url": "https://k.sina.cn/article_1893892941_70e2834d02001xdn6.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -64,5 +70,59 @@
   "_geocodeTitle": "四季民福烤鸭店(故宫店)",
   "_geocodeSuspect": false,
   "district": "110101",
-  "_noImage": true
+  "_noImage": true,
+  "review": {
+    "score": 4.3,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "口味",
+        "score": 4.5,
+        "note": "挂炉皮脆肉嫩，配菜与小食的水准比多数老字号稳定"
+      },
+      {
+        "label": "排队",
+        "score": 2.2,
+        "note": "故宫店节假日取号可破千桌，景观位等更久"
+      },
+      {
+        "label": "观景位",
+        "score": 4.6,
+        "note": "落地窗正对筒子河与角楼，窗边桌数很少，开门半小时内就满"
+      },
+      {
+        "label": "环境",
+        "score": 2.9,
+        "note": "客流大时厅内相当嘈杂，安静聊天不现实"
+      }
+    ],
+    "body": "四季民福故宫店的核心竞争力其实是那扇窗：隔着筒子河看东华门与角楼，下午四五点光线最好，鸭子反倒成了配角。菜品本身也稳，皮脆、配菜不糊弄，比很多靠名气吃饭的老字号用心。缺点同样明确——排队是这个店唯一的门槛，节假日取号能破千桌，景观位只有寥寥几桌，开门半小时就被占满；厅内客流一大就吵得厉害。不想耗两小时，去别的分店吃鸭子，味道是一样的。",
+    "basis": "web",
+    "at": "2026-11-14",
+    "fits": [
+      "看角楼",
+      "吃烤鸭",
+      "情侣"
+    ],
+    "avoid": [
+      "赶时间",
+      "怕排队"
+    ],
+    "sources": [
+      "http://mp.weixin.qq.com/s?__biz=MzA3MDY4NjQ0OA==&mid=2649949218&idx=1&sn=eedb74796f51579f1b7b8ea8372b4f63",
+      "https://tw.trip.com/moments/theme/poi-peking-chamber-25079814-restaurant-993134/"
+    ]
+  },
+  "_patrol": {
+    "at": "2026-11-14",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "约10:30-22:00(以门店公告为准)",
+        "new": "周一至周四 10:30-21:30，周五至周日 10:30-22:30(以门店公告为准)"
+      }
+    ],
+    "source": "https://k.sina.cn/article_1893892941_70e2834d02001xdn6.html",
+    "reason": "北京市文旅局2026春节京味美食榜单：故宫店周一至周四10:30-21:30、周五至周日10:30-22:30"
+  }
 }

@@ -9,6 +9,8 @@
  */
 
 @import 'tailwindcss';
+/* 浮层动效（keyframes 唯一出处）。app.css 已近 420 行红线，动效自成一块搬去单独文件 */
+@import './anim.css';
 
 /* ────────────────────────────────────────────────
  * Tailwind 主题（生成 bg-* / text-* 这类工具类）

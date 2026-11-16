@@ -20,11 +20,14 @@ import { useState } from 'react'
 
 import { Icon } from '~/common/ui/Icon'
 import { CityFilters, CityList } from '~/common/ui/city/CityParts'
+import { CityIntro } from '~/common/ui/city/CityIntro'
+import { SORT_LABEL } from '~/common/ui/city/PoiList'
 import { CityMissing } from '~/common/ui/Missing'
 import { PoiDetailSheet } from '~/mobile/ui/PoiDetailSheet'
 import { Sheet, SheetHead, type SheetTier } from '~/mobile/ui/Sheet'
 import { usePageSheet } from '~/mobile/ui/sheetHub'
 import { TopBar } from '~/common/ui/TopBar'
+import { useItemPresence } from '~/common/ui/usePresence'
 import type { CityView } from '~/common/logic/useCityView'
 
 export function MobileCityView({ view }: { view: CityView }) {
@@ -37,6 +40,14 @@ export function MobileCityView({ view }: { view: CityView }) {
    * —— 城市页没有"关掉清单"这回事。规则与 key 见 `mobile/ui/sheetHub`。
    */
   usePageSheet()
+  /*
+   * 详情的退场：选中清空后多留 260ms 播「滑落」（`Sheet` 高度归 0，过渡 220ms ——
+   * 留 260 是因为过渡要等下一帧才起步，留 40ms 余量，否则最后一段会被卸载截断）。
+   * ★ 退场期间**把列表 Sheet 重新挂上（`noAnim`）**：详情从上面滑走、
+   *   "揭开"底下的列表 —— 列表是从"被盖住"变"露出来"，不是"新来到"，
+   *   再播一遍升起动画就成了两段连续动作。
+   */
+  const det = useItemPresence(view.selected, 260)
 
   if (loaded && !city) {
     return (
@@ -49,81 +60,85 @@ export function MobileCityView({ view }: { view: CityView }) {
     )
   }
 
-  // 选中景点 → 详情顶替列表；「关闭」或点地图空白回到列表
-  // ★ 城市名走 `view.selectedCityName`：搜索命中的可能是**别的城市**的景点
-  if (view.selected) {
-    return (
-      <>
-        <TopBar shell={shell} />
-        <PoiDetailSheet
-          poi={view.selected}
-          cityName={view.selectedCityName}
-          cityId={view.selectedCityId}
-          onClose={view.closePoi}
-          onAddToPlan={view.addToPlan}
-        />
-      </>
-    )
-  }
-
   return (
     <>
       <TopBar shell={shell} />
 
-      <Sheet
-        tier={tier}
-        onTier={setTier}
-        header={
-          <SheetHead
-            title={city?.name ?? '加载中…'}
-            sub={
-              city
-                ? `${city.tagline} · 共 ${city.pois.length} 个点位${
-                    visible.length !== city.pois.length ? ` · 已筛出 ${visible.length}` : ''
-                  }`
-                : undefined
-            }
-          />
-        }
-        footer={
-          /*
-           * ★ 不再给右下角工具条让位（原来的 `mr-[44px]` 已删）：层级改成
-           *   「浮层 `z-28` 压住工具条 `z-[27]`」之后，四枚整块在本浮层底下，
-           *   页脚右端不再有东西压着 —— 留着那 44px 反而变成一条没来由的空白。
-           */
-          <button
-            type="button"
-            onClick={view.toggleSort}
-            className="inline-flex h-11 flex-1 items-center justify-center gap-1.5 rounded-lg border border-line text-[14.5px] md:h-9 md:text-[13px]"
-          >
-            {sort === 'hot' ? '热门优先' : '名称排序'}
-            <Icon name="chev-down" size="sm" />
-          </button>
-        }
-      >
-        {/*
-          * ★★ 筛选条**放进滚动容器**并且吸顶（2026-10-25 修「滚动没办法用」）。
-          *
-          * 原来它在 `header` 里，而 `header` 是 `flex-none`（不滚的）——
-          * 于是 Sheet 上半部（把手 + 标题 + 两行 chip ≈ 230px）**根本不是滚动区**，
-          * 用户很自然地从那里往下滑，得到的却是"面板纹丝不动"（再往下才是列表）。
-          * 实测 half 档里可滚区只剩 237px，比 header 还矮。
-          *
-          * 现在：标题仍固定（回答"这是哪座城"），筛选条与列表一起滚，
-          * 且 `sticky top-0` 吸在滚动区顶部 —— 滚列表时筛选条不跑，
-          * 滚过头也不会挡列表。背景要显式给（否则内容会从它下面透出来）。
-          */}
-        <div className="sticky top-0 z-[1] bg-surface px-3.5 pt-1 pb-1.5">
-          <CityFilters view={view} />
-        </div>
-        {/*
-          * ★ 原来这里有个 `pr-[40px]` 给右下角工具条让位 —— 随层级改成
-          *   「浮层压住工具条」一起删了（工具条已在本浮层底下，不再是覆盖物）。
-          */}
-        <div>
-          <CityList view={view} />
-        </div>
-      </Sheet>
+      {/* ★ 城市名走 `view.selectedCityName`：搜索命中的可能是**别的城市**的景点 */}
+      {view.selected ? null : (
+        <Sheet
+          tier={tier}
+          onTier={setTier}
+          noAnim={det.exiting}
+          header={
+            <SheetHead
+              title={city?.name ?? '加载中…'}
+              sub={
+                city
+                  ? `${city.tagline} · 共 ${city.pois.length} 个点位${
+                      visible.length !== city.pois.length ? ` · 已筛出 ${visible.length}` : ''
+                    }`
+                  : undefined
+              }
+            />
+          }
+          footer={
+            /*
+             * ★ 不再给右下角工具条让位（原来的 `mr-[44px]` 已删）：层级改成
+             *   「浮层 `z-28` 压住工具条 `z-[27]`」之后，四枚整块在本浮层底下，
+             *   页脚右端不再有东西压着 —— 留着那 44px 反而变成一条没来由的空白。
+             */
+            <button
+              type="button"
+              onClick={view.toggleSort}
+              className="inline-flex h-11 flex-1 items-center justify-center gap-1.5 rounded-lg border border-line text-[14.5px] md:h-9 md:text-[13px]"
+            >
+              {SORT_LABEL[sort]}
+              <Icon name="chev-down" size="sm" />
+            </button>
+          }
+        >
+          {/*
+            * ★★ 筛选条**放进滚动容器**并且吸顶（2026-10-25 修「滚动没办法用」）。
+            *
+            * 原来它在 `header` 里，而 `header` 是 `flex-none`（不滚的）——
+            * 于是 Sheet 上半部（把手 + 标题 + 两行 chip ≈ 230px）**根本不是滚动区**，
+            * 用户很自然地从那里往下滑，得到的却是"面板纹丝不动"（再往下才是列表）。
+            * 实测 half 档里可滚区只剩 237px，比 header 还矮。
+            *
+            * 现在：标题仍固定（回答"这是哪座城"），筛选条与列表一起滚，
+            * 且 `sticky top-0` 吸在滚动区顶部 —— 滚列表时筛选条不跑，
+            * 滚过头也不会挡列表。背景要显式给（否则内容会从它下面透出来）。
+            */}
+          {/* 城市介绍（封面 / 简介 / 展开后给四季·天数·交通·气候）。
+              ★ 放在吸顶筛选条**上面**：滚动时它先滚走、筛选条随即吸顶 ——
+                反过来（介绍在筛选条之下）会让筛选条一进来就顶着屏幕，
+                用户看不到"这是座什么城"。 */}
+          {city ? <CityIntro city={city} /> : null}
+          <div className="sticky top-0 z-[1] bg-surface px-3.5 pt-1 pb-1.5">
+            <CityFilters view={view} />
+          </div>
+          {/*
+            * ★ 原来这里有个 `pr-[40px]` 给右下角工具条让位 —— 随层级改成
+            *   「浮层压住工具条」一起删了（工具条已在本浮层底下，不再是覆盖物）。
+            */}
+          <div>
+            <CityList view={view} />
+          </div>
+        </Sheet>
+      )}
+
+      {/* 选中景点 → 详情浮层（退场中的那 220ms 里它还在，盖在刚回来的列表上面） */}
+      {det.mounted && det.item ? (
+        <PoiDetailSheet
+          poi={det.item}
+          cityName={view.selectedCityName}
+          cityId={view.selectedCityId}
+          onClose={view.closePoi}
+          onAddToPlan={view.addToPlan}
+          exiting={det.exiting}
+        />
+      ) : null}
     </>
   )
 }

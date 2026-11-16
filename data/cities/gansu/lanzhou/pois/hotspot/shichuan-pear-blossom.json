@@ -1,67 +1,106 @@
 {
-  "id": "shichuan-pear-blossom",
-  "name": "什川梨花",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "四月什川万亩古梨园如雪，兰州春天最火的赏花打卡。",
-  "description": "每年四月，什川古梨园的梨花开成一片雪白，是兰州春天最火的打卡。老树枝干虬曲，衬着白花很有画意。拍人像用反光板补光，清晨光柔人少。花期短，约十天，具体以当年为准。入园购票，旺季限流。镇上有农家饭，玩半日刚好。",
-  "highlights": [
-    "四月万亩古梨园如雪",
-    "老树虬枝衬白花画意",
-    "花期短约十天限流"
-  ],
-  "location": {
-    "point": {
-      "lng": 104.003658,
-      "lat": 36.153924,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "甘肃省兰州市皋兰县什川镇古梨园",
-    "district": "皋兰县",
-    "transportTip": "市区自驾或乘班车到什川镇，约一小时"
+ "id": "shichuan-pear-blossom",
+ "name": "什川梨花",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "四月什川万亩古梨园如雪，兰州春天最火的赏花打卡。",
+ "description": "每年四月，什川古梨园的梨花开成一片雪白，是兰州春天最火的打卡。老树枝干虬曲，衬着白花很有画意。拍人像用反光板补光，清晨光柔人少。花期短，约十天，具体以当年为准。入园购票，旺季限流。镇上有农家饭，玩半日刚好。",
+ "highlights": [
+  "四月万亩古梨园如雪",
+  "老树虬枝衬白花画意",
+  "花期短约十天限流"
+ ],
+ "location": {
+  "point": {
+   "lng": 104.003658,
+   "lat": 36.153924,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "花期以当年公告为准",
-    "openHoursRef": 0,
-    "ticket": "约 30 元起，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 120-240 分钟",
-    "durationMinutes": [
-      120,
-      240
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "couple",
-    "kids"
+  "address": "甘肃省兰州市皋兰县什川镇古梨园",
+  "district": "皋兰县",
+  "transportTip": "市区自驾或乘班车到什川镇，约一小时"
+ },
+ "practical": {
+  "openHours": "花期以当年公告为准",
+  "openHoursRef": 0,
+  "ticket": "约 30 元起，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 120-240 分钟",
+  "durationMinutes": [
+   120,
+   240
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "梨花",
-    "赏花",
-    "什川"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "couple",
+  "kids"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "梨花",
+  "赏花",
+  "什川"
+ ],
+ "popularity": 84,
+ "sources": [
+  {
+   "title": "什川古梨园·百度百科",
+   "url": "https://baike.baidu.com/item/%E4%BB%80%E5%B7%9D%E5%8F%A4%E6%A2%A8%E5%9B%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-02"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Shichuan Pear Blossom",
+  "zh": "什川梨花"
+ },
+ "_geocodeTitle": "什川古梨园",
+ "_geocodeSuspect": false,
+ "district": "620122",
+ "_noImage": true,
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "花期",
+    "score": 3.0,
+    "note": "一年只十来天，错过等明年"
+   },
+   {
+    "label": "出片",
+    "score": 4.5,
+    "note": "老梨树虬枝配白花很上镜"
+   },
+   {
+    "label": "人流",
+    "score": 2.8,
+    "note": "花期内周末车堵人挤"
+   },
+   {
+    "label": "交通",
+    "score": 3.4,
+    "note": "离市区不近，自驾更顺"
+   }
   ],
-  "popularity": 84,
-  "sources": [
-    {
-      "title": "什川古梨园·百度百科",
-      "url": "https://baike.baidu.com/item/%E4%BB%80%E5%B7%9D%E5%8F%A4%E6%A2%A8%E5%9B%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-02"
-    }
+  "body": "四月什川的古梨园确实好看，几百年的老树枝干虬曲、花开成雪，人像随便一拍都有画意，清晨光线最柔人也最少。最大的风险是花期：一年只有十来天，早了没开、晚了落一地，赶上周末还堵车限流，扑空的概率不低；镇上的农家饭口味一般，别抱太高期待，当半日郊游刚好。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "赏花",
+   "人像摄影",
+   "自驾半日"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Shichuan Pear Blossom",
-    "zh": "什川梨花"
-  },
-  "_geocodeTitle": "什川古梨园",
-  "_geocodeSuspect": false,
-  "district": "620122",
-  "_noImage": true
+  "avoid": [
+   "非花期前往",
+   "只看攻略不查花期"
+  ],
+  "sources": []
+ }
 }

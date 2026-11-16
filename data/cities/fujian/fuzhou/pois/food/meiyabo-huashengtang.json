@@ -21,7 +21,7 @@
     "transportTip": "地铁1号线达道站步行约10分钟"
   },
   "practical": {
-    "openHours": "约07:00-20:00，以门店公告为准",
+    "openHours": "08:00-24:00（次日凌晨），以门店公告为准",
     "openHoursRef": 0,
     "ticket": "人均约15元，以门店为准",
     "ticketRef": 0,
@@ -52,9 +52,15 @@
       "url": "https://baike.baidu.com/item/%E8%8A%B1%E7%94%9F%E6%B1%A4",
       "kind": "wiki",
       "fetchedAt": "2026-10-04"
+    },
+    {
+      "title": "台江区文旅「福游台江」双节美食特辑（区委宣传部矩阵发布）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyOTU5NDMzMg==&mid=2248010340&idx=1&sn=18322146ea5d9a1cfa488b0f91afa787",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,5 +69,17 @@
   "_geocodeTitle": "没牙伯花生汤店(老药洲店)",
   "_geocodeSuspect": false,
   "district": "350103",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "约07:00-20:00，以门店公告为准",
+        "new": "08:00-24:00（次日凌晨），以门店公告为准"
+      }
+    ],
+    "source": "https://mp.weixin.qq.com/s?__biz=MzIyOTU5NDMzMg==&mid=2248010340&idx=1&sn=18322146ea5d9a1cfa488b0f91afa787",
+    "reason": "台江区文旅福游台江双节美食特辑明写08:00-24:00"
+  }
 }

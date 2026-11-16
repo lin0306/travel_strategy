@@ -1,73 +1,112 @@
 {
-  "id": "xinglong-cave",
-  "name": "兴隆溶洞",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "兴隆县一座较大的溶洞，钟乳石和石笋多，洞里常年凉。",
-  "description": "兴隆溶洞在兴隆县，是一座比较大的溶洞。里头钟乳石、石笋、石柱多，打上灯，颜色一层层。洞深，走一圈要一个多钟头。洞里常年十几度，夏天进去舒服，冬天进去也不冷。它在雾灵山那一片，可以一起玩。地面湿，注意滑。",
-  "highlights": [
-    "较大的溶洞，钟乳石笋石柱多",
-    "洞内常年十几度，夏凉冬不冷",
-    "近雾灵山可同游，地面湿滑"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.4917,
-      "lat": 40.49036,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市兴隆县兴隆溶洞",
-    "district": "兴隆县",
-    "transportTip": "兴隆县转车到溶洞",
-    "entrance": {
-      "lng": 117.496678,
-      "lat": 40.487528,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "xinglong-cave",
+ "name": "兴隆溶洞",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "兴隆县一座较大的溶洞，钟乳石和石笋多，洞里常年凉。",
+ "description": "兴隆溶洞在兴隆县，是一座比较大的溶洞。里头钟乳石、石笋、石柱多，打上灯，颜色一层层。洞深，走一圈要一个多钟头。洞里常年十几度，夏天进去舒服，冬天进去也不冷。它在雾灵山那一片，可以一起玩。地面湿，注意滑。",
+ "highlights": [
+  "较大的溶洞，钟乳石笋石柱多",
+  "洞内常年十几度，夏凉冬不冷",
+  "近雾灵山可同游，地面湿滑"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.4917,
+   "lat": 40.49036,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-17:00，以景区公告为准",
-    "openHoursRef": 0,
-    "ticket": "约100元",
-    "ticketRef": 0,
-    "duration": "建议 90-150 分钟",
-    "durationMinutes": [
-      90,
-      150
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "family",
-    "couple",
-    "friends"
+  "address": "河北省承德市兴隆县兴隆溶洞",
+  "district": "兴隆县",
+  "transportTip": "兴隆县转车到溶洞",
+  "entrance": {
+   "lng": 117.496678,
+   "lat": 40.487528,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约08:00-17:00，以景区公告为准",
+  "openHoursRef": 0,
+  "ticket": "约100元",
+  "ticketRef": 0,
+  "duration": "建议 90-150 分钟",
+  "durationMinutes": [
+   90,
+   150
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "溶洞",
-    "钟乳石",
-    "避暑"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "family",
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "溶洞",
+  "钟乳石",
+  "避暑"
+ ],
+ "popularity": 56,
+ "sources": [
+  {
+   "title": "百度百科·兴隆溶洞",
+   "url": "https://baike.baidu.com/item/%E5%85%B4%E9%9A%86%E6%BA%B6%E6%B4%9E",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "兴隆溶洞"
+ },
+ "_geocodeTitle": "兴隆溶洞景区",
+ "_geocodeSuspect": false,
+ "district": "130822",
+ "_noImage": true,
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "景观",
+    "score": 4.1,
+    "note": "钟乳石、石笋、石柱密集，灯光一层层"
+   },
+   {
+    "label": "时长",
+    "score": 3.6,
+    "note": "走一圈一个多钟头"
+   },
+   {
+    "label": "舒适度",
+    "score": 4.3,
+    "note": "洞内常年十几度，夏天进去最舒服"
+   },
+   {
+    "label": "路面",
+    "score": 2.7,
+    "note": "地面湿滑，鞋不防滑很危险"
+   }
   ],
-  "popularity": 56,
-  "sources": [
-    {
-      "title": "百度百科·兴隆溶洞",
-      "url": "https://baike.baidu.com/item/%E5%85%B4%E9%9A%86%E6%BA%B6%E6%B4%9E",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "body": "兴隆溶洞是华北比较少见的规模，洞内钟乳石、石笋、石柱密集，打上彩灯一层层往下走，一个多钟头能逛完。洞内常年十几度，夏天外面三十多度时进去，凉得刚刚好，这是它最大的加分。缺点是洞内地面湿滑，穿平底不防滑的鞋很容易打趔趄；灯光打色偏艳，照片出来比肉眼看更\"假\"；商业化痕迹重，几个拍照点单独收费，不想买就直接走过去。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "夏天避暑",
+   "带娃",
+   "下雨备选"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "兴隆溶洞"
-  },
-  "_geocodeTitle": "兴隆溶洞景区",
-  "_geocodeSuspect": false,
-  "district": "130822",
-  "_noImage": true
+  "avoid": [
+   "穿皮鞋高跟鞋",
+   "怕湿滑"
+  ],
+  "sources": []
+ }
 }

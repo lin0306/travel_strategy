@@ -16,7 +16,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "成都市金牛区永陵路 10 号",
-    "district": "青羊区",
+    "district": "金牛区",
     "transportTip": "地铁 2 号线通惠门站或 5 号线抚琴站步行约 15 分钟；公交 30/48/341 路永陵路东站"
   },
   "practical": {
@@ -44,21 +44,6 @@
     "可与宽窄巷子、奎星楼街串成同一个半日"
   ],
   "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/%E4%BA%94%E4%BB%A3%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F%E5%B9%A2-%E6%88%90%E9%83%BD%E6%B0%B8%E9%99%B5%E5%8D%9A%E7%89%A9%E9%A6%86_2024-05-25.jpg/1280px-%E4%BA%94%E4%BB%A3%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F%E5%B9%A2-%E6%88%90%E9%83%BD%E6%B0%B8%E9%99%B5%E5%8D%9A%E7%89%A9%E9%A6%86_2024-05-25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/%E4%BA%94%E4%BB%A3%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F%E5%B9%A2-%E6%88%90%E9%83%BD%E6%B0%B8%E9%99%B5%E5%8D%9A%E7%89%A9%E9%A6%86_2024-05-25.jpg/1280px-%E4%BA%94%E4%BB%A3%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F%E5%B9%A2-%E6%88%90%E9%83%BD%E6%B0%B8%E9%99%B5%E5%8D%9A%E7%89%A9%E9%A6%86_2024-05-25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1438,
-      "alt": "五代陀罗尼经幢-成都永陵博物馆 2024-05-25.jpg",
-      "query": "成都永陵博物馆",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Kcx36",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%94%E4%BB%A3%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F%E5%B9%A2-%E6%88%90%E9%83%BD%E6%B0%B8%E9%99%B5%E5%8D%9A%E7%89%A9%E9%A6%86_2024-05-25.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/%E5%89%8D%E8%9C%80%E6%B0%B8%E9%99%B5%E5%AE%9D%E7%9B%9D%EF%BC%88%E5%A4%8D%E5%88%B6%E5%93%81%EF%BC%89-%E6%88%90%E9%83%BD%E6%B0%B8%E9%99%B5%E5%8D%9A%E7%89%A9%E9%A6%86_2024-05-25.jpg/1280px-%E5%89%8D%E8%9C%80%E6%B0%B8%E9%99%B5%E5%AE%9D%E7%9B%9D%EF%BC%88%E5%A4%8D%E5%88%B6%E5%93%81%EF%BC%89-%E6%88%90%E9%83%BD%E6%B0%B8%E9%99%B5%E5%8D%9A%E7%89%A9%E9%A6%86_2024-05-25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/%E5%89%8D%E8%9C%80%E6%B0%B8%E9%99%B5%E5%AE%9D%E7%9B%9D%EF%BC%88%E5%A4%8D%E5%88%B6%E5%93%81%EF%BC%89-%E6%88%90%E9%83%BD%E6%B0%B8%E9%99%B5%E5%8D%9A%E7%89%A9%E9%A6%86_2024-05-25.jpg/1280px-%E5%89%8D%E8%9C%80%E6%B0%B8%E9%99%B5%E5%AE%9D%E7%9B%9D%EF%BC%88%E5%A4%8D%E5%88%B6%E5%93%81%EF%BC%89-%E6%88%90%E9%83%BD%E6%B0%B8%E9%99%B5%E5%8D%9A%E7%89%A9%E9%A6%86_2024-05-25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -121,7 +106,7 @@
       "fetchedAt": "2026-09-18"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Yongling Museum Chengdu",
@@ -129,5 +114,20 @@
   },
   "_geocodeTitle": "成都永陵博物馆",
   "_geocodeSuspect": false,
-  "district": "510105"
+  "district": "510106",
+  "_patrol": {
+    "at": "2026-11-08",
+    "reason": "audit --fix-safe：清掉同城撞图的 1 张（待重抓）",
+    "droppedImages": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/%E4%BA%94%E4%BB%A3%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F%E5%B9%A2-%E6%88%90%E9%83%BD%E6%B0%B8%E9%99%B5%E5%8D%9A%E7%89%A9%E9%A6%86_2024-05-25.jpg/1280px-%E4%BA%94%E4%BB%A3%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F%E5%B9%A2-%E6%88%90%E9%83%BD%E6%B0%B8%E9%99%B5%E5%8D%9A%E7%89%A9%E9%A6%86_2024-05-25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ],
+    "changes": [
+      {
+        "field": "所属区",
+        "old": "青羊区/510105",
+        "new": "金牛区/510106",
+        "why": "永陵路 10 号属金牛区西安路街道"
+      }
+    ]
+  }
 }

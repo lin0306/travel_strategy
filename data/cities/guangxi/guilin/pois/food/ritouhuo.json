@@ -1,68 +1,107 @@
 {
-  "id": "ritouhuo",
-  "name": "日头火(阳朔店)",
-  "category": "food",
-  "subtype": "local",
-  "summary": "本地连锁里做得稳的一家，市区也有店，赶行程的时候这一碗最省事。",
-  "description": "日头火是桂林本地的一家连锁，市区与阳朔都有店，开店时间比老粉店长，早上六点多到晚上都开门。它的好处是标准：卤水不出错，配菜干净，价格明码，第一次吃桂林米粉不知道选什么的话，这家不会踩雷也不会惊艳。阳朔这家在西街附近，坐在店里能看到外面的人与山。它也是那种夜里九点还想吃碗热粉时能找到的少数几家。",
-  "highlights": [
-    "本地连锁，标准稳定，不会踩雷也不会惊艳",
-    "开店时间长，早上六点多到晚上都开着",
-    "夜里九点还想吃碗热粉，这里是少数还开的"
-  ],
-  "location": {
-    "point": {
-      "lng": 110.496537,
-      "lat": 24.77015,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "广西壮族自治区桂林市阳朔县日头火",
-    "district": "阳朔县",
-    "transportTip": "阳朔县城步行可达；紧邻西街一带"
+ "id": "ritouhuo",
+ "name": "日头火(阳朔店)",
+ "category": "food",
+ "subtype": "local",
+ "summary": "本地连锁里做得稳的一家，市区也有店，赶行程的时候这一碗最省事。",
+ "description": "日头火是桂林本地的一家连锁，市区与阳朔都有店，开店时间比老粉店长，早上六点多到晚上都开门。它的好处是标准：卤水不出错，配菜干净，价格明码，第一次吃桂林米粉不知道选什么的话，这家不会踩雷也不会惊艳。阳朔这家在西街附近，坐在店里能看到外面的人与山。它也是那种夜里九点还想吃碗热粉时能找到的少数几家。",
+ "highlights": [
+  "本地连锁，标准稳定，不会踩雷也不会惊艳",
+  "开店时间长，早上六点多到晚上都开着",
+  "夜里九点还想吃碗热粉，这里是少数还开的"
+ ],
+ "location": {
+  "point": {
+   "lng": 110.496537,
+   "lat": 24.77015,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约6:30-21:00，以门店公告为准",
-    "openHoursRef": 0,
-    "ticket": "便宜",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "friends",
-    "family",
-    "kids"
+  "address": "广西壮族自治区桂林市阳朔县日头火",
+  "district": "阳朔县",
+  "transportTip": "阳朔县城步行可达；紧邻西街一带"
+ },
+ "practical": {
+  "openHours": "约6:30-21:00，以门店公告为准",
+  "openHoursRef": 0,
+  "ticket": "便宜",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "连锁",
-    "稳定",
-    "早餐"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "friends",
+  "family",
+  "kids"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "连锁",
+  "稳定",
+  "早餐"
+ ],
+ "popularity": 64,
+ "sources": [
+  {
+   "title": "百度百科·桂林米粉",
+   "url": "https://baike.baidu.com/item/%E6%A1%82%E6%9E%97%E7%B1%B3%E7%B2%89",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "日头火(阳朔店)"
+ },
+ "_geocodeTitle": "日头火(阳朔店)",
+ "_geocodeSuspect": false,
+ "district": "450321",
+ "_noImage": true,
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "稳定",
+    "score": 4.2,
+    "note": "连锁标准，基本不会踩雷"
+   },
+   {
+    "label": "口味",
+    "score": 3.4,
+    "note": "中规中矩，没什么惊喜"
+   },
+   {
+    "label": "营业",
+    "score": 4.3,
+    "note": "开到深夜，赶行程友好"
+   },
+   {
+    "label": "价格",
+    "score": 4.2,
+    "note": "明码标价，二两几块钱"
+   }
   ],
-  "popularity": 64,
+  "body": "本地连锁，好处是稳：卤水不出错、配菜干净、开到很晚，赶车或夜里才到阳朔时这一碗最省事。缺点是标准化得没什么个性，锅烧没有老店那种现炸的脆劲；饭点人多，靠西街的店要等位。",
+  "basis": "web",
+  "at": "2026-11-12",
+  "fits": [
+   "赶行程",
+   "深夜到店"
+  ],
+  "avoid": [
+   "想找老店味道"
+  ],
   "sources": [
-    {
-      "title": "百度百科·桂林米粉",
-      "url": "https://baike.baidu.com/item/%E6%A1%82%E6%9E%97%E7%B1%B3%E7%B2%89",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "日头火(阳朔店)"
-  },
-  "_geocodeTitle": "日头火(阳朔店)",
-  "_geocodeSuspect": false,
-  "district": "450321",
-  "_noImage": true
+   "http://mp.weixin.qq.com/s?__biz=MzY4NzQ3MTI5NA==&mid=2247483668&idx=1&sn=c4f9871bb175be86b03b502012741345"
+  ]
+ }
 }

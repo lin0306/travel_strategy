@@ -1,68 +1,105 @@
 {
-  "id": "pingquan-yangtang",
-  "name": "平泉羊汤",
-  "category": "food",
-  "subtype": "local",
-  "summary": "平泉出名的羊汤，汤白、肉烂，配烧饼吃，承德人常当早点。",
-  "description": "平泉羊汤是承德最有名的一样吃食。汤熬得发白，羊肉和羊杂切了放进去，撒香菜、辣椒，配一个烧饼或一碗面。它不腥，热乎，本地人常当早点吃。承德市区和平泉都有店，早上人最多。价格便宜。冬天来一碗最舒服。",
-  "highlights": [
-    "承德名吃，汤白肉烂配烧饼",
-    "不腥热乎，本地人当早点",
-    "市区平泉都有店，价便宜"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.647187,
-      "lat": 41.233202,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市双桥区平泉羊汤馆",
-    "district": "平泉市",
-    "transportTip": "市区公交或步行到店"
+ "id": "pingquan-yangtang",
+ "name": "平泉羊汤",
+ "category": "food",
+ "subtype": "local",
+ "summary": "平泉出名的羊汤，汤白、肉烂，配烧饼吃，承德人常当早点。",
+ "description": "平泉羊汤是承德最有名的一样吃食。汤熬得发白，羊肉和羊杂切了放进去，撒香菜、辣椒，配一个烧饼或一碗面。它不腥，热乎，本地人常当早点吃。承德市区和平泉都有店，早上人最多。价格便宜。冬天来一碗最舒服。",
+ "highlights": [
+  "承德名吃，汤白肉烂配烧饼",
+  "不腥热乎，本地人当早点",
+  "市区平泉都有店，价便宜"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.647187,
+   "lat": 41.233202,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约06:00-14:00（多做早点）",
-    "openHoursRef": 0,
-    "ticket": "人均约25元",
-    "ticketRef": 0,
-    "duration": "建议 40-80 分钟",
-    "durationMinutes": [
-      40,
-      80
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "solo",
-    "friends",
-    "elders"
+  "address": "河北省承德市双桥区平泉羊汤馆",
+  "district": "平泉市",
+  "transportTip": "市区公交或步行到店"
+ },
+ "practical": {
+  "openHours": "约06:00-14:00（多做早点）",
+  "openHoursRef": 0,
+  "ticket": "人均约25元",
+  "ticketRef": 0,
+  "duration": "建议 40-80 分钟",
+  "durationMinutes": [
+   40,
+   80
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "羊汤",
-    "早点",
-    "平泉"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "solo",
+  "friends",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "羊汤",
+  "早点",
+  "平泉"
+ ],
+ "popularity": 76,
+ "sources": [
+  {
+   "title": "百度百科·平泉羊汤",
+   "url": "https://baike.baidu.com/item/%E5%B9%B3%E6%B3%89%E7%BE%8A%E6%B1%A4",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "平泉羊汤"
+ },
+ "_geocodeTitle": "平泉羊汤",
+ "_geocodeSuspect": false,
+ "district": "130881",
+ "_noImage": true,
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.4,
+    "note": "汤白发白，不腥，热乎"
+   },
+   {
+    "label": "价格",
+    "score": 4.5,
+    "note": "便宜，本地人日常价"
+   },
+   {
+    "label": "排队",
+    "score": 3.4,
+    "note": "早高峰要等位"
+   },
+   {
+    "label": "环境",
+    "score": 3.2,
+    "note": "老店桌子挤、油烟重"
+   }
   ],
-  "popularity": 76,
-  "sources": [
-    {
-      "title": "百度百科·平泉羊汤",
-      "url": "https://baike.baidu.com/item/%E5%B9%B3%E6%B3%89%E7%BE%8A%E6%B1%A4",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "body": "承德最有名的一样吃食：汤熬得发白，羊肉羊杂切好放进去，撒香菜辣椒，配一个烧饼或一碗面。不腥、热乎、便宜，本地人拿它当早点。缺点是基本只做早市到中午，去晚了就收摊；老店环境普遍一般，桌子挤、油烟重，赶时间或带小孩的别指望能舒舒服服坐下来吃。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "早点",
+   "本地口味"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "平泉羊汤"
-  },
-  "_geocodeTitle": "平泉羊汤",
-  "_geocodeSuspect": false,
-  "district": "130881",
-  "_noImage": true
+  "avoid": [
+   "下午才来"
+  ],
+  "sources": []
+ }
 }

@@ -1,6 +1,6 @@
 # 张家界 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-02
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Road Trip with Raj | Unsplash License | [unsplash](https://unsplash.com/photos/aerial-photography-of-city-buildings-py8eyAh9J3A) |
-| 城市封面 | zhang kaiyv | Unsplash License | [unsplash](https://unsplash.com/photos/aerial-photography-of-city-escape-during-golden-hour-Ca898f7Rbn8) |
-| 城市封面 | Joshua Sortino | Unsplash License | [unsplash](https://unsplash.com/photos/aerial-view-of-mountains-gii7lF4y0WY) |
+| 城市封面 | JL Cogburn | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Zhangjiajie_National_Forest_Park_%E5%BC%A0%E5%AE%B6%E7%95%8C%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD,_Hunan,_2023_(52669865292).jpg) |
+| 城市封面 | huangdan2060 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Tian_Menshan_Mountain_10.jpg) |
+| 城市封面 | Glabb | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:The_Zhangjiajie_Glass_Bridge.jpg) |
 | 宝峰湖 | 欧治 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BC%A0%E5%AE%B6%E7%95%8C%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD-%E5%AE%9D%E5%B3%B0%E6%B9%96_-_panoramio.jpg) |
 | 宝峰湖 | 欧治 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BC%A0%E5%AE%B6%E7%95%8C%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD-%E5%AE%9D%E5%B3%B0%E6%B9%96%E7%80%91%E5%B8%83_-_panoramio.jpg) |
 | 宝峰湖 | 欧治 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BC%A0%E5%AE%B6%E7%95%8C%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD-%E5%AE%9D%E5%B3%B0%E6%B9%96%E7%80%91%E5%B8%83_-_panoramio_-_%E6%AC%A7%E6%B2%BB.jpg) |
@@ -105,12 +105,10 @@
 | 天门洞 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Tianmen_38184-Zhangjiajie_(49047309251).jpg) |
 | 天门洞 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Tianmen_38220-Zhangjiajie_(49047309516).jpg) |
 | 天门山国家森林公园 | HotShot² | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Tian_Men_Shan_Temple.jpg) |
-| 天门山国家森林公园 | Huangdan2060 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Tian_Menshan_Mountain_1.jpg) |
 | 天门山国家森林公园 | huangdan2060 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Tian_Menshan_Mountain_10.jpg) |
 | 天门山寺 | huangdan2060 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Tian_Men_Shan_Temple_1.jpg) |
 | 天门山寺 | huangdan2060 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Tian_Men_Shan_Temple_2.jpg) |
 | 天门山寺 | huangdan2060 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Tian_Men_Shan_Temple_3.jpg) |
-| 天子山 | 欧治 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BC%A0%E5%AE%B6%E7%95%8C%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD-%E5%A4%A9%E5%AD%90%E5%B1%B1_-_panoramio.jpg) |
 | 天子山 | 欧治 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BC%A0%E5%AE%B6%E7%95%8C%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD-%E5%A4%A9%E5%AD%90%E5%B1%B1_-_panoramio_-_%E6%AC%A7%E6%B2%BB.jpg) |
 | 天子山 | 欧治 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BC%A0%E5%AE%B6%E7%95%8C%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD-%E5%A4%A9%E5%AD%90%E5%B1%B1_-_panoramio_-_%E6%AC%A7%E6%B2%BB_(1).jpg) |
 | 杨家界 | Yoo Chung | CC BY-SA 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yangjiajie.jpg) |

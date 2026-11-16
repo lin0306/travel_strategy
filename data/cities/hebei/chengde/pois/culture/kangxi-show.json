@@ -1,68 +1,150 @@
 {
-  "id": "kangxi-show",
-  "name": "《鼎盛王朝·康熙大典》",
-  "category": "culture",
-  "subtype": "performance",
-  "summary": "承德一场大型实景演出，讲康熙与这座城，夜里演，灯光场面大。",
-  "description": "《鼎盛王朝·康熙大典》是承德一场大型实景演出，在夜里演。它用真山真水当背景，讲康熙和这座城 —— 选址、建园、民族融合，几段连起来。灯光和火效都大，人多，场面足。它是来承德晚上最常选的一个安排。演出季一般在夏秋，要提前买票。",
-  "highlights": [
-    "承德大型实景演出，夜里演",
-    "真山真水当背景，讲康熙与城建园",
-    "灯光火效场面足，夏秋演出季需购票"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.94354,
-      "lat": 40.982281,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市双桥区鼎盛王朝剧场",
-    "district": "双桥区",
-    "transportTip": "市区打车或公交到剧场"
+ "id": "kangxi-show",
+ "name": "《鼎盛王朝·康熙大典》",
+ "category": "culture",
+ "subtype": "performance",
+ "summary": "承德一场大型实景演出，讲康熙与这座城，夜里演，灯光场面大。",
+ "description": "《鼎盛王朝·康熙大典》是承德一场大型实景演出，在夜里演。它用真山真水当背景，讲康熙和这座城 —— 选址、建园、民族融合，几段连起来。灯光和火效都大，人多，场面足。它是来承德晚上最常选的一个安排。演出季一般在夏秋，要提前买票。",
+ "highlights": [
+  "承德大型实景演出，夜里演",
+  "真山真水当背景，讲康熙与城建园",
+  "灯光火效场面足，夏秋演出季需购票"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.94354,
+   "lat": 40.982281,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约20:00一场，以公告为准",
-    "openHoursRef": 0,
-    "ticket": "约200元",
-    "ticketRef": 0,
-    "duration": "建议 90-120 分钟",
-    "durationMinutes": [
-      90,
-      120
-    ],
-    "priceLevel": "mid"
+  "address": "河北省承德市双桥区鼎盛王朝剧场",
+  "district": "双桥区",
+  "transportTip": "市区打车或公交到剧场"
+ },
+ "practical": {
+  "openHours": "4—10 月演出季（冬季停演）；旺季首场约 19:20-20:30，9 月下旬起提前至 18:20-19:30，加场顺延",
+  "openHoursRef": 0,
+  "ticket": "普通区 A 票 288 元、B 票 198 元；VIP 区 588~1888 元",
+  "ticketRef": 0,
+  "duration": "建议 90-120 分钟",
+  "durationMinutes": [
+   90,
+   120
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "family",
+  "couple",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [
+  "山里夜凉，夏季也要带件外套",
+  "实名制购票、人脸比对入园，务必带身份证",
+  "剧场在双滦区元宝山，市区打车约 20 分钟，有免费大停车场",
+  "冬季停演，出行前先确认当日排期",
+  "开演前 30 分钟到场，预留安检时间"
+ ],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "实景",
+  "演出",
+  "康熙"
+ ],
+ "popularity": 74,
+ "sources": [
+  {
+   "title": "百度百科·承德",
+   "url": "https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
   },
-  "audience": [
-    "family",
-    "couple",
-    "elders"
+  {
+   "title": "承德市政府 2026-08-08 夜间经济稿 + 运营方 2026-09-22 ",
+   "url": "https://www.chengde.gov.cn/art/2026/8/8/art_360_1124240.html",
+   "kind": "media",
+   "fetchedAt": "2026-11-14"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "《鼎盛王朝·康熙大典》"
+ },
+ "_geocodeTitle": "鼎盛王朝·康熙大典售票处",
+ "_geocodeSuspect": false,
+ "district": "130802",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-14",
+  "changes": [
+   {
+    "field": "门票",
+    "old": "约200元",
+    "new": "普通区 A 票 288 元、B 票 198 元；VIP 区 588~1888 元"
+   },
+   {
+    "field": "开放时间",
+    "old": "约20:00一场，以公告为准",
+    "new": "4—10 月演出季（冬季停演）；旺季首场约 19:20-20:30，9 月下旬起提前至 18:20-19:30，加场顺延"
+   },
+   {
+    "field": "贴士（用 | 分隔多条，整体替换）",
+    "old": [],
+    "new": [
+     "山里夜凉，夏季也要带件外套",
+     "实名制购票、人脸比对入园，务必带身份证",
+     "剧场在双滦区元宝山，市区打车约 20 分钟，有免费大停车场",
+     "冬季停演，出行前先确认当日排期",
+     "开演前 30 分钟到场，预留安检时间"
+    ]
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "实景",
-    "演出",
-    "康熙"
+  "source": "https://www.chengde.gov.cn/art/2026/8/8/art_360_1124240.html",
+  "reason": "承德市政府 2026-08-08 夜间经济稿 + 运营方 2026-09-22 演出时间调整公告"
+ },
+ "review": {
+  "score": 4.5,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "场面",
+    "score": 4.8,
+    "note": "整座元宝山当舞台，真山真水真人真马"
+   },
+   {
+    "label": "观演位置",
+    "score": 3.2,
+    "note": "系统随机锁座，不能自己挑"
+   },
+   {
+    "label": "性价比",
+    "score": 3.8,
+    "note": "A 区 288、B 区 198，一家三口开销不小"
+   },
+   {
+    "label": "交通",
+    "score": 3.6,
+    "note": "在双滦区元宝山，市区要打车过去"
+   }
   ],
-  "popularity": 74,
+  "body": "元宝山整座山当舞台，真山真水真人真马，七十分钟走完康熙一生，山体灯光一变就换场景，第一次看确实起鸡皮疙瘩。演出季在 4 到 10 月，冬季停演，别白跑一趟。缺点是座位系统随机锁定、不能自己选，带老人孩子很容易坐不到一起；A 区 288、B 区 198，一家三口不算便宜；山里夜里冷，马队从眼前过还会吃土，第一排并不是好位置。",
+  "basis": "web",
+  "at": "2026-11-14",
+  "fits": [
+   "夜游",
+   "带长辈",
+   "看演出"
+  ],
+  "avoid": [
+   "冬季来",
+   "想自己选座"
+  ],
   "sources": [
-    {
-      "title": "百度百科·承德",
-      "url": "https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "《鼎盛王朝·康熙大典》"
-  },
-  "_geocodeTitle": "鼎盛王朝·康熙大典售票处",
-  "_geocodeSuspect": false,
-  "district": "130802",
-  "_noImage": true
+   "https://www.chengde.gov.cn/art/2026/8/8/art_360_1124240.html",
+   "https://m.toutiao.com/article/7691615764364689935"
+  ]
+ }
 }

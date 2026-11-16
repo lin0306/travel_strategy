@@ -1,6 +1,6 @@
 # 西宁 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-02
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -74,15 +74,12 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Ralf Leineweber | Unsplash License | [unsplash](https://unsplash.com/photos/oriental-pearl-tower-shanghai-china-sRMzAdjWK_E) |
-| 城市封面 | Road Trip with Raj | Unsplash License | [unsplash](https://unsplash.com/photos/aerial-photography-of-city-buildings-py8eyAh9J3A) |
-| 城市封面 | Siyuan Hu | Unsplash License | [unsplash](https://unsplash.com/photos/city-skyline-under-cloudy-sky-during-daytime-Jea4t6pte-k) |
+| 城市封面 | Hiroki Ogawa | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Ta%27er_Monastery_Xining_Qinghai_China_%E9%9D%92%E6%B5%B7_%E8%A5%BF%E5%AE%81_%E5%A1%94%E5%B0%94%E5%AF%BA_%E9%87%91%E6%AE%BF_-_panoramio.jpg) |
+| 城市封面 | Hiroki Ogawa | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dongguan_Muslim_Grand_Mosque_Xining_Qinghai_China_%E9%9D%92%E6%B5%B7_%E8%A5%BF%E5%AE%81_%E4%B8%9C%E5%85%B3%E6%B8%85%E7%9C%9F%E5%A4%A7%E5%AF%BA_-_panoramio.jpg) |
+| 城市封面 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Kumbum_Monastery.jpg) |
 | 北山土楼观（北禅寺） | ArishG | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:003-Tulouguan-EingangstorVorAufstieg.jpg) |
 | 北山土楼观（北禅寺） | ArishG | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:005-Tulouguan-DaoistischeEpisoden-AnDerEingangshalle.jpg) |
 | 北山土楼观（北禅寺） | ArishG | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:006-Tulouguan-DaoistischeEpisoden.jpg) |
-| 丹噶尔古城（湟源） | 慕尼黑啤酒 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dangaer_Old_Town.jpg) |
-| 丹噶尔古城（湟源） | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20140427_Dan_Gar_Town.jpg) |
-| 丹噶尔古城（湟源） | ping lin | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%B9%E5%99%B6%E7%88%BE%E5%BB%B3%E7%BD%B2_-_panoramio.jpg) |
 | 丹噶尔古城（湟源） | ping lin | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 丹噶尔古城（湟源） | ping lin | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 丹噶尔古城（湟源） | ping lin | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
@@ -133,9 +130,6 @@
 | 羊杂汤 | Auongkinghe | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%BE%8A%E6%9D%82%E6%B1%A4_20260420_161748.jpg) |
 | 羊杂汤 | Auongkinghe | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%BE%8A%E6%9D%82%E6%B1%A4%E5%A5%97%E9%A4%90_20260420_161700.jpg) |
 | 北山土楼观 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dongguan_mosque_-_Xinning_-_2024.jpg) |
-| 丹噶尔古城 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20140427_Dan_Gar_Town.jpg) |
-| 丹噶尔古城 | 慕尼黑啤酒 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Dangaer_Old_Town.jpg) |
-| 丹噶尔古城 | ping lin | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%B9%E5%99%B6%E7%88%BE%E5%BB%B3%E7%BD%B2_-_panoramio.jpg) |
 | 丹噶尔古城 | ping lin | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 丹噶尔古城 | ping lin | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 丹噶尔古城 | ping lin | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |

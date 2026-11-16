@@ -12,16 +12,16 @@
   ],
   "location": {
     "point": {
-      "lng": 99.84643,
-      "lat": 26.313824,
+      "lat": 26.3218,
+      "lng": 99.8641,
       "coordSystem": "GCJ-02"
     },
-    "address": "云南省大理白族自治州剑川县沙溪镇先锋书店",
+    "address": "云南省大理白族自治州剑川县沙溪镇北龙村",
     "district": "剑川县",
     "transportTip": "沙溪古镇内步行可达"
   },
   "practical": {
-    "openHours": "约9:00-18:00",
+    "openHours": "10:00-19:00",
     "openHoursRef": 0,
     "ticket": "免费",
     "ticketRef": 0,
@@ -38,7 +38,11 @@
     "friends"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "正式全称「先锋沙溪白族书局」，在沙溪镇北龙村，不在寺登街古戏台一带",
+    "书店由废旧粮仓改造，近两万册图书、13 个云南主题陈列",
+    "上午 10 点开门，早到只能在外面等"
+  ],
   "images": [],
   "coverIndex": 0,
   "tags": [
@@ -53,9 +57,15 @@
       "url": "https://baike.baidu.com/item/%E6%B2%99%E6%BA%AA%E9%95%87",
       "kind": "wiki",
       "fetchedAt": "2026-10-01"
+    },
+    {
+      "title": "大理融媒 2026-04-29 载明地址北龙村、营业 10:00-19:00；图",
+      "url": "http://www.dlzrm.cn/daliwenl/2026/0429/72876.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-15"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-15",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -64,5 +74,43 @@
   "_geocodeTitle": "沙溪镇",
   "_geocodeSuspect": false,
   "district": "532931",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-15",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "约9:00-18:00",
+        "new": "10:00-19:00"
+      },
+      {
+        "field": "地址",
+        "old": "云南省大理白族自治州剑川县沙溪镇先锋书店",
+        "new": "云南省大理白族自治州剑川县沙溪镇北龙村"
+      },
+      {
+        "field": "point",
+        "old": {
+          "lng": 99.84643,
+          "lat": 26.313824,
+          "coordSystem": "GCJ-02"
+        },
+        "new": [
+          26.3218,
+          99.8641
+        ]
+      },
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [],
+        "new": [
+          "正式全称「先锋沙溪白族书局」，在沙溪镇北龙村，不在寺登街古戏台一带",
+          "书店由废旧粮仓改造，近两万册图书、13 个云南主题陈列",
+          "上午 10 点开门，早到只能在外面等"
+        ]
+      }
+    ],
+    "source": "http://www.dlzrm.cn/daliwenl/2026/0429/72876.html",
+    "reason": "大理融媒 2026-04-29 载明地址北龙村、营业 10:00-19:00；图商 POI「北龙村先锋书局旁」99.8641,26.3218，原坐标落在寺登街西南 2.1km"
+  }
 }

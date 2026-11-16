@@ -39,7 +39,10 @@
     "elders"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "街里的贾谊故居在实施二期修复工程（恢复明清建制与清湘别墅园林），2026 年多篇官方稿仍称「闭馆改造中」，出发前先确认是否已开放",
+    "主街两侧是游客动线，想要人少去南段的太平里文创巷，老厂房改的文创店与咖啡馆集中"
+  ],
   "images": [
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/%E5%A4%AA%E5%B9%B3%E8%A1%97.jpg/1280px-%E5%A4%AA%E5%B9%B3%E8%A1%97.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -115,9 +118,15 @@
       "url": "https://baike.baidu.com/item/%E5%A4%AA%E5%B9%B3%E8%A1%97",
       "kind": "wiki",
       "fetchedAt": "2026-09-28"
+    },
+    {
+      "title": "长沙何以「谊居」千年？（长沙晚报，长沙市文旅广电局转载）",
+      "url": "http://wlgd.changsha.gov.cn/zwgk/gzdt/wlgdzc/rdxw/202607/t20260709_12471907.html",
+      "kind": "gov",
+      "fetchedAt": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -125,5 +134,59 @@
   },
   "_geocodeTitle": "太平街",
   "_geocodeSuspect": false,
-  "district": "430103"
+  "district": "430103",
+  "review": {
+    "score": 4.0,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "商业化",
+        "score": 2.5,
+        "note": "店铺同质化，别处也能买到"
+      },
+      {
+        "label": "拍照",
+        "score": 3.8,
+        "note": "青石板与老门面在巷子里更出片"
+      },
+      {
+        "label": "小吃",
+        "score": 3.5,
+        "note": "品类多但价格偏游客向"
+      },
+      {
+        "label": "人流",
+        "score": 2.2,
+        "note": "晚上基本被推着走"
+      }
+    ],
+    "body": "三百多米的青石板街，清代街巷格局还在，贾谊故居从街中段拐进去，宜春园古戏台和乾益升粮栈的旧址也在。缺点是商业化程度很高，两边店铺同质化，卖的东西在别的老街也能买到；晚上人流密，走一趟基本是被推着往前。它更适合当串联老城几个点的一段路，而不是专程打卡的目的地，半小时到一小时足够。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "老城串联",
+      "小吃",
+      "夜逛"
+    ],
+    "avoid": [
+      "专程打卡",
+      "想安静散步"
+    ],
+    "sources": []
+  },
+  "_patrol": {
+    "at": "2026-11-14",
+    "changes": [
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [],
+        "new": [
+          "街里的贾谊故居在实施二期修复工程（恢复明清建制与清湘别墅园林），2026 年多篇官方稿仍称「闭馆改造中」，出发前先确认是否已开放",
+          "主街两侧是游客动线，想要人少去南段的太平里文创巷，老厂房改的文创店与咖啡馆集中"
+        ]
+      }
+    ],
+    "source": "http://wlgd.changsha.gov.cn/zwgk/gzdt/wlgdzc/rdxw/202607/t20260709_12471907.html",
+    "reason": "长沙市文旅广电局 2026-07-09《长沙何以谊居千年》：贾谊故居闭馆改造中、二期修复工程推进"
+  }
 }

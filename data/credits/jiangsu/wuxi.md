@@ -1,6 +1,6 @@
 # 无锡 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-04
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | BI ravencrow | Pexels License | [pexels](https://www.pexels.com/photo/beautiful-coastal-skyline-of-qingdao-city-38353019/) |
-| 城市封面 | Lywin | Pexels License | [pexels](https://www.pexels.com/photo/skyline-of-a-city-reflecting-in-a-river-14230261/) |
-| 城市封面 | Acres of Film | Pexels License | [pexels](https://www.pexels.com/photo/majestic-night-view-of-hangzhou-s-skyline-35003991/) |
+| 城市封面 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2021%E5%B9%B43%E6%9C%88_%E6%97%A0%E9%94%A1%E7%81%B5%E5%B1%B1%E5%A4%A7%E4%BD%9B_22.jpg) |
+| 城市封面 | 2009/Synyan；2014/藍風攝影 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wuxi_Taihu_lake_Changchun_bridge.jpg) |
+| 城市封面 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B8%85%E5%90%8D%E6%A1%A5%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA%EF%BC%88%E5%8D%97%E9%95%BF%E8%A1%97%EF%BC%89%E5%A4%9C%E6%99%AF20200911_05.jpg) |
 | 荡口古镇 | Lt2818 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%9B%AA%E5%8F%A3%E5%A4%A7%E5%81%89%E7%9A%B7%E9%9F%BB.jpg) |
 | 荡口古镇 | Lt2818 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%BB%8F%E6%97%B6%E7%BB%86%E6%9F%B3%E6%98%A5%E5%B8%86%E5%A4%96.jpg) |
 | 荡口古镇 | Lt2818 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%8D%A1%E5%8F%A3%E8%8A%B1%E7%AC%91%E6%B1%A0.jpg) |
@@ -85,23 +85,47 @@
 | 东林书院 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%9C%E6%9E%97%E4%B9%A6%E9%99%A2_1.jpg) |
 | 鹅鼻嘴公园 | Caizzz | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E9%B9%85%E9%BC%BB%E5%98%B4%E5%85%AC%E5%9B%AD.png) |
 | 华西村 | song songroov | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B1%9F%E9%98%B4%E5%8D%8E%E8%A5%BF%E6%9D%91%E9%87%91%E5%A1%94_-_panoramio.jpg) |
-| 惠山古镇 | 王波波 翻摄 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:The_historical_photograph_about_Wuxi_Huishan_Ancient_Town.jpg) |
+| 惠山古镇 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 惠山古镇 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 惠山古镇 | song songroov | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 惠山古镇 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 惠山古镇 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 江阴要塞·黄山炮台 | song songroov | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 江阴要塞·黄山炮台 | song songroov | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 江阴要塞·黄山炮台 | song songroov | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 江阴要塞·黄山炮台 | song songroov | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 江阴要塞·黄山炮台 | song songroov | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 江阴要塞·黄山炮台 | song songroov | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 寄畅园 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2021%E5%B9%B44%E6%9C%88_%E6%97%A0%E9%94%A1%E9%94%A1%E6%83%A0%E5%85%AC%E5%9B%AD_10_%E5%AF%84%E7%95%85%E5%9B%AD.jpg) |
 | 寄畅园 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2021%E5%B9%B44%E6%9C%88_%E6%97%A0%E9%94%A1%E9%94%A1%E6%83%A0%E5%85%AC%E5%9B%AD_11_%E5%AF%84%E7%95%85%E5%9B%AD.jpg) |
 | 寄畅园 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2021%E5%B9%B44%E6%9C%88_%E6%97%A0%E9%94%A1%E9%94%A1%E6%83%A0%E5%85%AC%E5%9B%AD_12_%E5%AF%84%E7%95%85%E5%9B%AD.jpg) |
 | 蠡湖公园 | Jiang Zhe | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lihu_Park.jpg) |
-| 蠡湖公园 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%A0%A1%E6%B9%96%E5%A4%A7%E6%A1%A5%E5%85%AC%E5%9B%AD.jpg) |
 | 灵山大佛 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2021%E5%B9%B43%E6%9C%88_%E6%97%A0%E9%94%A1%E7%81%B5%E5%B1%B1%E5%A4%A7%E4%BD%9B_26.jpg) |
 | 蠡园 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A0%E9%94%A1%E8%A0%A1%E5%9B%AD%E5%85%A5%E5%8F%A3.jpg) |
 | 蠡园 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A0%E9%94%A1%E8%A0%A1%E5%9B%AD%E5%85%AC%E5%9B%AD_1.jpg) |
 | 蠡园 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A0%E9%94%A1%E8%A0%A1%E5%9B%AD%E5%85%AC%E5%9B%AD_2.jpg) |
 | 梅园 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2021%E5%B9%B44%E6%9C%88_%E6%97%A0%E9%94%A1%E6%A2%85%E5%9B%AD_01.jpg) |
 | 梅园 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2021%E5%B9%B44%E6%9C%88_%E6%97%A0%E9%94%A1%E6%A2%85%E5%9B%AD_26.jpg) |
+| 梅园 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 梅园 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 梅园 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 梅园 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 拈花湾 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 拈花湾 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 拈花湾 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 拈花湾 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 拈花湾 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 拈花湾 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 钱钟书故居 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Residence_of_Qian_Zhongshu_03_2011-11.JPG) |
 | 钱钟书故居 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Residence_of_Qian_Zhongshu_04_2011-11.JPG) |
-| 清名桥历史文化街区 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B8%85%E5%90%8D%E6%A1%A5%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA%EF%BC%88%E5%8D%97%E9%95%BF%E8%A1%97%EF%BC%89%E5%A4%9C%E6%99%AF20200911_01.jpg) |
-| 清名桥历史文化街区 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B8%85%E5%90%8D%E6%A1%A5%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA%EF%BC%88%E5%8D%97%E9%95%BF%E8%A1%97%EF%BC%89%E5%A4%9C%E6%99%AF20200911_02.jpg) |
+| 钱钟书故居 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 钱钟书故居 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 钱钟书故居 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 钱钟书故居 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 清名桥历史文化街区 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B8%85%E5%90%8D%E6%A1%A5%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA%EF%BC%88%E5%8D%97%E9%95%BF%E8%A1%97%EF%BC%89%E5%A4%9C%E6%99%AF20200911_03.jpg) |
+| 清名桥历史文化街区 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 清名桥历史文化街区 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 清名桥历史文化街区 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 三国水浒城 | Csiiiyu | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%89%E5%9B%BD%E5%9F%8E%E9%97%A8.jpg) |
 | 三国水浒城 | Csiiiyu | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%89%E5%9B%BD%E6%B0%B4%E6%B5%92%E5%9F%8E%E7%94%98%E9%9C%B2%E5%AF%BA.jpg) |
 | 善卷洞 | No machine-readable author provided. Whw assumed (based on c | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Shanjuan_Cave,_Yixing.jpg) |
@@ -115,21 +139,56 @@
 | 锡惠公园 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2021%E5%B9%B44%E6%9C%88_%E6%97%A0%E9%94%A1%E9%94%A1%E6%83%A0%E5%85%AC%E5%9B%AD_40.jpg) |
 | 锡惠公园 | zhanyoun | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A0%E9%94%A1%E9%94%A1%E6%83%A0%E5%85%AC%E5%9B%AD_-_panoramio.jpg) |
 | 锡惠公园 | zhanyoun | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A0%E9%94%A1%E9%94%A1%E6%83%A0%E5%85%AC%E5%9B%AD_-_panoramio_-_zhanyoun.jpg) |
+| 锡惠公园 | zhanyoun | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 锡惠公园 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 锡惠公园 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 薛福成故居 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 薛福成故居 | Walter Grassroot | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%96%9B%E7%A6%8F%E6%88%90%E6%95%85%E5%B1%85.jpg) |
+| 薛福成故居 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 薛福成故居 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 薛福成故居 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 薛福成故居 | Zhangzhugang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 徐霞客故居 | Synyan | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xuxiake_old_house.jpg) |
 | 徐霞客故居 | 白色瑰宝 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BE%90%E6%B0%8F%E5%AE%97%E8%B0%B1_%E5%BE%90%E9%9C%9E%E5%AE%A2%E6%95%85%E5%B1%85.jpg) |
 | 徐霞客故居 | Cangminzho | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BE%90%E9%9C%9E%E5%AE%A2%E6%95%85%E5%B1%85.jpg) |
 | 宜兴竹海 | 山海风 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%9C%E5%85%B4%E7%AB%B9%E6%B5%B7%E9%A3%8E%E6%99%AF%E5%8C%BA%E2%80%94%E2%80%94%E5%A4%AA%E6%B9%96%E4%B9%8B%E6%BA%90_-_panoramio.jpg) |
 | 宜兴竹海 | 山海风 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%9C%E5%85%B4%E7%AB%B9%E6%B5%B7%E9%A3%8E%E6%99%AF%E5%8C%BA%E2%80%94%E2%80%94%E5%B1%B1%E9%97%B4%E5%B0%8F%E6%BA%AA_-_panoramio.jpg) |
 | 宜兴竹海 | 山海风 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%9C%E5%85%B4%E7%AB%B9%E6%B5%B7%E9%A3%8E%E6%99%AF%E5%8C%BA%E2%80%94%E2%80%94%E7%AB%B9%E6%9E%97%E4%B8%AD%E7%9A%84%E5%B1%B1%E6%B0%B4_-_panoramio.jpg) |
+| 鼋头渚 | 2009/Synyan；2014/藍風攝影 | CC BY-SA 3.0 | [wikimedia](https://www.wikidata.org/wiki/Q8060083) |
+| 张公洞 | song songroov | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 张公洞 | song songroov | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 张公洞 | song songroov | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 张公洞 | song songroov | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 张公洞 | song songroov | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 张公洞 | song songroov | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 惠山油酥 | 王波波 | CC BY 3.0 | [wikimedia](https://www.wikidata.org/wiki/Q11073372) |
 | 无锡酱排骨(三凤桥) | Wxxw123 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Spareribs_of_Wuxi_Lugaojian.jpg) |
 | 无锡酱排骨(三凤桥) | 王波波 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wuxi_spareribs_sauce.jpg) |
+| 无锡酱排骨(三凤桥) | 王波波 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 阳山水蜜桃 | Walter Grassroot | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A0%E9%94%A1%E9%98%B3%E5%B1%B1%E6%B0%B4%E8%9C%9C%E6%A1%83.jpg) |
+| 阳山水蜜桃 | Walter Grassroot | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A0%E9%94%A1%E9%98%B3%E5%B1%B1%E6%B0%B4%E8%9C%9C%E6%A1%83_2.jpg) |
+| 阳山水蜜桃 | Walter Grassroot | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A0%E9%94%A1%E9%98%B3%E5%B1%B1%E6%B0%B4%E8%9C%9C%E6%A1%83_3.jpg) |
+| 阳山水蜜桃 | LK00888 | CC BY-SA 4.0 | [wikimedia](https://zh.wikipedia.org/wiki/阳山水蜜桃) |
 | 无锡油面筋 | Fumikas Sagisavas | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Oil-soaked_gluten_stuffed_meat.jpg) |
 | 无锡油面筋 | Fumikas Sagisavas | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wuxi_oil-soaked_gluten_stuffed_pork.jpg) |
+| 崇安寺商圈 | MNXANL | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 崇安寺商圈 | MNXANL | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 崇安寺商圈 | 記小三 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 惠山古镇摄影 | 王波波 翻摄 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:The_historical_photograph_about_Wuxi_Huishan_Ancient_Town.jpg) |
+| 惠山古镇摄影 | song songroov | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 蠡湖大桥公园 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%A0%A1%E6%B9%96%E5%A4%A7%E6%A1%A5%E5%85%AC%E5%9B%AD.jpg) |
+| 拈花湾夜景 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 拈花湾夜景 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 拈花湾夜景 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 拈花湾夜景 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 拈花湾夜景 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 拈花湾夜景 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 清名桥·南长街 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B8%85%E5%90%8D%E6%A1%A5%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA%EF%BC%88%E5%8D%97%E9%95%BF%E8%A1%97%EF%BC%89%E5%A4%9C%E6%99%AF20200911_01.jpg) |
 | 清名桥·南长街 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B8%85%E5%90%8D%E6%A1%A5%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA%EF%BC%88%E5%8D%97%E9%95%BF%E8%A1%97%EF%BC%89%E5%A4%9C%E6%99%AF20200911_02.jpg) |
 | 清名桥·南长街 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B8%85%E5%90%8D%E6%A1%A5%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA%EF%BC%88%E5%8D%97%E9%95%BF%E8%A1%97%EF%BC%89%E5%A4%9C%E6%99%AF20200911_04.jpg) |
+| 清名桥·南长街 | 賈夢龍 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 清名桥·南长街 | song songroov | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 清名桥·南长街 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 尚贤河湿地 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2020.11_%E6%97%A0%E9%94%A1%E5%B0%9A%E8%B4%A4%E6%B2%B3%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD_01.jpg) |
 | 尚贤河湿地 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2020.11_%E6%97%A0%E9%94%A1%E5%B0%9A%E8%B4%A4%E6%B2%B3%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD_02.jpg) |
 | 尚贤河湿地 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2020.11_%E6%97%A0%E9%94%A1%E5%B0%9A%E8%B4%A4%E6%B2%B3%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD_03.jpg) |
@@ -139,6 +198,12 @@
 | 惠山泥人 | Wikimedia Commons 贡献者 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:ClayFigurineAFu.jpg) |
 | 惠山泥人 | 賈夢龍 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:DA_A_FU_-_Qing_Dynasty.jpg) |
 | 惠山泥人 | Huangchenhai | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:DaafuWXM.jpg) |
+| 灵山佛教文化 | gdczjkk | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 灵山佛教文化 | gdczjkk | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 灵山佛教文化 | 东京村子 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 灵山佛教文化 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 灵山佛教文化 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 灵山佛教文化 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 太湖渔家文化 | Thomas Depenbusch | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wuxi,_Jiangsu_-_China_(13603617495).jpg) |
 | 太湖渔家文化 | Thomas Depenbusch | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wuxi,_Jiangsu_-_China_(13619652113).jpg) |
 | 太湖渔家文化 | Thomas Depenbusch | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wuxi,_Jiangsu_-_China_(13619808523).jpg) |

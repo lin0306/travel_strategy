@@ -1,0 +1,110 @@
+{
+  "id": "guiyang-art-museum",
+  "name": "贵阳美术馆",
+  "category": "hotspot",
+  "subtype": "art",
+  "summary": "中山西路市级美术馆，刘知白泼墨山水常设。",
+  "description": "市中山西路的市级公益性美术馆，2005 年建馆，展厅三千余平方米，一楼设刘知白艺术馆，永久陈列家属捐赠的泼墨山水精品，另有多间展厅轮换国画、油画、版画与摄影展，2025 年办过贵州省首届小幅工笔画双年展。免费开放，周二至周日 9:00-17:00、16:30 停止入馆，地铁 1 号线中山西路站 B 口步行几分钟即到，逛完可顺路看旁边的三元宫与市西河。缺点是展览以省内为主、常设陈列不算多，专程跑一趟可能一小时就看完，更适合与甲秀楼、文昌阁串成市区半日线。",
+  "highlights": [
+    "刘知白艺术馆泼墨山水常设",
+    "3000㎡ 展厅轮换省级美展",
+    "地铁 1 号线中山西路站步行可达"
+  ],
+  "location": {
+    "point": {
+      "lng": 106.706617,
+      "lat": 26.577025,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "云岩区中山西路 93 号",
+    "district": "南明区",
+    "transportTip": "地铁 1 号线中山西路站 B 口步行约 300 米；公交 4/5/11/20/64 路至大西门站"
+  },
+  "practical": {
+    "openHours": "周二至周日 9:00-17:00（16:30 停止入馆），周一闭馆",
+    "openHoursRef": 0,
+    "ticket": "免费，凭身份证登记",
+    "ticketRef": 0,
+    "duration": "建议 60-90 分钟",
+    "durationMinutes": [
+      60,
+      90
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "couple"
+  ],
+  "accessible": true,
+  "tips": [
+    "周一闭馆，16:30 停止入馆",
+    "免费无需预约，带身份证",
+    "一楼刘知白馆是常设，别只看临展"
+  ],
+  "images": [],
+  "coverIndex": 0,
+  "tags": [
+    "免费",
+    "美术馆",
+    "刘知白"
+  ],
+  "popularity": 65,
+  "sources": [
+    {
+      "title": "贵阳美术馆（贵阳画院）",
+      "url": "https://baike.baidu.com/item/%E8%B4%B5%E9%98%B3%E7%94%BB%E9%99%A2/67339832",
+      "kind": "wiki",
+      "fetchedAt": "2026-11-16"
+    }
+  ],
+  "updatedAt": "2026-11-16",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Guiyang Art Museum",
+    "zh": "贵阳美术馆"
+  },
+  "review": {
+    "score": 3.85,
+    "verdict": "顺路看看",
+    "facets": [
+      {
+        "label": "展陈",
+        "score": 3.8,
+        "note": "国画油画版画轮换，以省内展览为主"
+      },
+      {
+        "label": "常设",
+        "score": 4.0,
+        "note": "一楼刘知白艺术馆永久陈列泼墨山水"
+      },
+      {
+        "label": "交通",
+        "score": 4.8,
+        "note": "地铁 1 号线中山西路站 B 口 300 米"
+      },
+      {
+        "label": "规模",
+        "score": 3.8,
+        "note": "三千平方米，常设不多、一小时看完"
+      }
+    ],
+    "body": "中山西路的市级馆，三千平方米展厅加一楼刘知白艺术馆常设，免费、地铁 B 口走三百米就到，和甲秀楼、文昌阁串半日线很顺。缺点是展览以省内为主、常设不多，专程跑一趟可能一小时就看完，别指望看到国家级大展。",
+    "basis": "web",
+    "at": "2026-11-16",
+    "fits": [
+      "市区半日",
+      "顺路看展"
+    ],
+    "avoid": [
+      "专程",
+      "期待大展"
+    ],
+    "sources": [
+      "https://baike.baidu.com/item/%E8%B4%B5%E9%98%B3%E7%94%BB%E9%99%A2/67339832"
+    ]
+  },
+  "_geocodeTitle": "贵阳美术馆",
+  "_geocodeSuspect": false,
+  "_noImage": true,
+  "district": "520102"
+}

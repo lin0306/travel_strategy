@@ -1,6 +1,6 @@
 # 沈阳 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-02
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-13
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Createlite | Unsplash License | [unsplash](https://unsplash.com/photos/white-and-brown-concrete-building-near-body-of-water-under-white-clouds-during-daytime-cquUyr8UaeE) |
-| 城市封面 | Createlite | Unsplash License | [unsplash](https://unsplash.com/photos/body-of-water-near-city-buildings-during-daytime-CzkubFD-gDA) |
-| 城市封面 | He Zhang | Pexels License | [pexels](https://www.pexels.com/photo/buildings-in-the-light-of-the-sunset-15906464/) |
+| 城市封面 | 张元柏 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2007_%E8%BE%BD%E5%AE%81_%E6%B2%88%E9%98%B3%E6%95%85%E5%AE%AB_-_panoramio_(5).jpg) |
+| 城市封面 | ScareCriterion12 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BC%A0%E6%B0%8F%E5%B8%85%E5%BA%9C%E5%A4%A7%E9%9D%92%E6%A5%BC2019.jpg) |
+| 城市封面 | Techyan | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Mukden_Palace_drone_view_2.jpg) |
 | 九一八历史博物馆 | 红烧腰果 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B2%88%E9%98%B3%E2%80%9C%E4%B9%9D%E4%B8%80%E5%85%AB%E2%80%9D%E5%8E%86%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A6%86%E5%B1%95%E7%A4%BA%E7%9A%84%E5%B9%B3%E9%A1%B6%E5%B1%B1%E6%9D%91%E5%A4%8D%E5%8E%9F%E6%A8%A1%E5%9E%8B.jpg) |
 | 九一八历史博物馆 | 红烧腰果 | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B9%9D%E4%B8%80%E5%85%AB%E5%8E%86%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A6%86%E5%B1%95%E7%A4%BA%E7%9A%84%E5%85%AB%E5%A5%B3%E6%8A%95%E6%B1%9F%E7%94%BB%E4%BD%9C.jpg) |
 | 北陵公园（清昭陵） | Techyan | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Beiling_Park_Zhao_Mausoleum_(Qing_dynasty)_drone_view_10.jpg) |

@@ -1,66 +1,104 @@
 {
-  "id": "geleshan-laziji",
-  "name": "歌乐山辣子鸡",
-  "category": "food",
-  "subtype": "local",
-  "summary": "在辣椒堆里刨鸡块的经典江湖菜，歌乐山一带做得最出名。",
-  "description": "辣子鸡是把鸡块炸透后与大量干辣椒、花椒同炒，端上来是一大盘红彤彤的辣椒，鸡块藏在里面要自己刨——这个“找鸡”的过程本身就是这道菜的乐趣。歌乐山一带因为靠着山林，早年做这道菜的农家乐成片，渐渐成了招牌。鸡肉外酥里嫩、干香麻辣，配冰啤酒最合适。怕辣可以要求减辣，但完全不辣就失去了这道菜的意思。",
-  "highlights": [
-    "辣椒堆里刨鸡块，吃法本身有趣",
-    "干香麻辣，外酥里嫩",
-    "歌乐山一带最集中"
-  ],
-  "location": {
-    "point": {
-      "lng": 106.420256,
-      "lat": 29.571814,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "重庆市沙坪坝区歌乐山一带",
-    "district": "沙坪坝",
-    "transportTip": "轨道交通 1 号线至烈士墓站后打车前往"
+ "id": "geleshan-laziji",
+ "name": "歌乐山辣子鸡",
+ "category": "food",
+ "subtype": "local",
+ "summary": "在辣椒堆里刨鸡块的经典江湖菜，歌乐山一带做得最出名。",
+ "description": "辣子鸡是把鸡块炸透后与大量干辣椒、花椒同炒，端上来是一大盘红彤彤的辣椒，鸡块藏在里面要自己刨——这个“找鸡”的过程本身就是这道菜的乐趣。歌乐山一带因为靠着山林，早年做这道菜的农家乐成片，渐渐成了招牌。鸡肉外酥里嫩、干香麻辣，配冰啤酒最合适。怕辣可以要求减辣，但完全不辣就失去了这道菜的意思。",
+ "highlights": [
+  "辣椒堆里刨鸡块，吃法本身有趣",
+  "干香麻辣，外酥里嫩",
+  "歌乐山一带最集中"
+ ],
+ "location": {
+  "point": {
+   "lng": 106.420256,
+   "lat": 29.571814,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约 11:00-21:00（以门店公告为准）",
-    "openHoursRef": 0,
-    "ticket": "人均约 80 元起（以门店为准）",
-    "ticketRef": 0,
-    "duration": "建议 90-120 分钟",
-    "durationMinutes": [
-      90,
-      120
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "friends"
+  "address": "重庆市沙坪坝区歌乐山一带",
+  "district": "沙坪坝",
+  "transportTip": "轨道交通 1 号线至烈士墓站后打车前往"
+ },
+ "practical": {
+  "openHours": "约 11:00-21:00（以门店公告为准）",
+  "openHoursRef": 0,
+  "ticket": "人均约 80 元起（以门店为准）",
+  "ticketRef": 0,
+  "duration": "建议 90-120 分钟",
+  "durationMinutes": [
+   90,
+   120
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "江湖菜",
-    "辣子鸡",
-    "重辣"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "江湖菜",
+  "辣子鸡",
+  "重辣"
+ ],
+ "popularity": 80,
+ "sources": [
+  {
+   "title": "百度百科·辣子鸡",
+   "url": "https://baike.baidu.com/item/%E8%BE%A3%E5%AD%90%E9%B8%A1",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "歌乐山辣子鸡"
+ },
+ "_geocodeTitle": "歌乐山辣子鸡(保育路店)",
+ "_geocodeSuspect": false,
+ "district": "500106",
+ "_noImage": true,
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.4,
+    "note": "干香麻辣，外酥里嫩"
+   },
+   {
+    "label": "分量",
+    "score": 4.0,
+    "note": "一大盘适合三四个人"
+   },
+   {
+    "label": "辣度",
+    "score": 1.8,
+    "note": "重辣，怕辣的人吃两口就停"
+   },
+   {
+    "label": "环境",
+    "score": 3.0,
+    "note": "农家乐水平参差"
+   }
   ],
-  "popularity": 80,
-  "sources": [
-    {
-      "title": "百度百科·辣子鸡",
-      "url": "https://baike.baidu.com/item/%E8%BE%A3%E5%AD%90%E9%B8%A1",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
+  "body": "鸡块炸透后和大量干辣椒、花椒同炒，端上来一盘红，鸡块要自己在辣椒堆里刨，这个找的过程本身就有趣，外酥里嫩、干香麻辣，配冰啤酒最对。缺点是辣度硬、油大，怕辣的人吃两口就停；歌乐山一带农家乐水平参差，挑店比挑菜更重要。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "能吃辣",
+   "朋友聚餐"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "歌乐山辣子鸡"
-  },
-  "_geocodeTitle": "歌乐山辣子鸡(保育路店)",
-  "_geocodeSuspect": false,
-  "district": "500106",
-  "_noImage": true
+  "avoid": [
+   "怕辣",
+   "清淡口味"
+  ],
+  "sources": []
+ }
 }

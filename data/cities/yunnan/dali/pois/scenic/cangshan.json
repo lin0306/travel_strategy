@@ -1,88 +1,155 @@
 {
-  "id": "cangshan",
-  "name": "苍山",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "大理西边的一座大山，十九座山峰夹着十八条溪，山顶有雪。",
-  "description": "苍山在大理古城西边，十九座山峰一字排开，峰与峰之间夹着十八条溪水，下到洱海。山顶常年有积雪，所以叫苍山雪，是风花雪月之一。山上有玉带路可以徒步，索道能上到半山。俯瞰洱海和大理坝子是这里最出片的角度。山里多杜鹃和冷杉，植物种类很多。",
-  "highlights": [
-    "十九峰夹十八条溪，山顶常年积雪",
-    "玉带路徒步，索道上到半山",
-    "俯瞰洱海与大理坝子的角度最出片"
-  ],
-  "location": {
-    "point": {
-      "lng": 100.132295,
-      "lat": 25.659024,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "云南省大理白族自治州大理市苍山地质公园",
-    "district": "大理市",
-    "transportTip": "古城西门外乘苍山索道或徒步上山",
-    "entrance": {
-      "lng": 100.148063,
-      "lat": 25.682349,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "cangshan",
+ "name": "苍山",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "大理西边的一座大山，十九座山峰夹着十八条溪，山顶有雪。",
+ "description": "苍山在大理古城西边，十九座山峰一字排开，峰与峰之间夹着十八条溪水，下到洱海。山顶常年有积雪，所以叫苍山雪，是风花雪月之一。山上有玉带路可以徒步，索道能上到半山。俯瞰洱海和大理坝子是这里最出片的角度。山里多杜鹃和冷杉，植物种类很多。",
+ "highlights": [
+  "十九峰夹十八条溪，山顶常年积雪",
+  "玉带路徒步，索道上到半山",
+  "俯瞰洱海与大理坝子的角度最出片"
+ ],
+ "location": {
+  "point": {
+   "lng": 100.132295,
+   "lat": 25.659024,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约8:30-17:00（索道）",
-    "openHoursRef": 0,
-    "ticket": "索道与公园门票约几十元",
-    "ticketRef": 0,
-    "duration": "建议 180-300 分钟",
-    "durationMinutes": [
-      180,
-      300
-    ],
-    "priceLevel": "mid"
+  "address": "云南省大理白族自治州大理市苍山地质公园",
+  "district": "大理市",
+  "transportTip": "古城西门外乘苍山索道或徒步上山",
+  "entrance": {
+   "lng": 100.148063,
+   "lat": 25.682349,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约8:30-17:00（索道）",
+  "openHoursRef": 0,
+  "ticket": "索道与公园门票约几十元",
+  "ticketRef": 0,
+  "duration": "建议 180-300 分钟",
+  "durationMinutes": [
+   180,
+   300
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [
+  "洗马潭 2 号索道（上段）2026-11-09 至 11-30 年度检修停运，期间只到七龙女池一线，登顶洗马潭要等复运",
+  "索道常因大风、检修临时停运，出发前查「苍山洗马潭索道」公众号当日通知",
+  "山上气温明显低于山下、紫外线强，带外套和防晒"
+ ],
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/%E4%BA%91%E5%8D%97%E5%A4%A7%E7%90%86_%E8%8B%8D%E5%B1%B1%E2%80%94%E6%A3%8B%E7%9B%98_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/%E4%BA%91%E5%8D%97%E5%A4%A7%E7%90%86_%E8%8B%8D%E5%B1%B1%E2%80%94%E6%A3%8B%E7%9B%98_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 810,
+   "alt": "云南大理 苍山—棋盘 - panoramio.jpg",
+   "query": "苍山 大理",
+   "credit": {
+    "source": "wikimedia",
+    "author": "中国郑开亮",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E5%A4%A7%E7%90%86_%E8%8B%8D%E5%B1%B1%E2%80%94%E6%A3%8B%E7%9B%98_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "山",
+  "徒步",
+  "索道"
+ ],
+ "popularity": 85,
+ "sources": [
+  {
+   "title": "百度百科·苍山",
+   "url": "https://baike.baidu.com/item/%E8%8B%8D%E5%B1%B1",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
   },
-  "audience": [
-    "couple",
-    "friends",
-    "family"
+  {
+   "title": "大理旅游集团苍山洗马潭索道分公司公告（大理融媒 2026-11-10 转发）：2",
+   "url": "https://www.163.com/dy/article/LBB5ND380550AN9P.html",
+   "kind": "media",
+   "fetchedAt": "2026-11-15"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "苍山"
+ },
+ "_geocodeTitle": "大理苍山世界地质公园",
+ "_geocodeSuspect": false,
+ "district": "532901",
+ "_patrol": {
+  "at": "2026-11-15",
+  "changes": [
+   {
+    "field": "贴士（用 | 分隔多条，整体替换）",
+    "old": [],
+    "new": [
+     "洗马潭 2 号索道（上段）2026-11-09 至 11-30 年度检修停运，期间只到七龙女池一线，登顶洗马潭要等复运",
+     "索道常因大风、检修临时停运，出发前查「苍山洗马潭索道」公众号当日通知",
+     "山上气温明显低于山下、紫外线强，带外套和防晒"
+    ]
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/%E4%BA%91%E5%8D%97%E5%A4%A7%E7%90%86_%E8%8B%8D%E5%B1%B1%E2%80%94%E6%A3%8B%E7%9B%98_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/%E4%BA%91%E5%8D%97%E5%A4%A7%E7%90%86_%E8%8B%8D%E5%B1%B1%E2%80%94%E6%A3%8B%E7%9B%98_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 810,
-      "alt": "云南大理 苍山—棋盘 - panoramio.jpg",
-      "query": "苍山 大理",
-      "credit": {
-        "source": "wikimedia",
-        "author": "中国郑开亮",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E5%A4%A7%E7%90%86_%E8%8B%8D%E5%B1%B1%E2%80%94%E6%A3%8B%E7%9B%98_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    }
+  "source": "https://www.163.com/dy/article/LBB5ND380550AN9P.html",
+  "reason": "大理旅游集团苍山洗马潭索道分公司公告（大理融媒 2026-11-10 转发）：2 号索道上段 11/9-11/30 停运，1 号下段正常"
+ },
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.6,
+    "note": "俯瞰洱海与大理坝子，最好的一档"
+   },
+   {
+    "label": "徒步",
+    "score": 4.2,
+    "note": "玉带路沿山腰横切，路况平整"
+   },
+   {
+    "label": "配套",
+    "score": 3.0,
+    "note": "索道分段，检修或大风就停一段"
+   },
+   {
+    "label": "体力",
+    "score": 2.8,
+    "note": "海拔上来后走快了喘"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "山",
-    "徒步",
-    "索道"
+  "body": "苍山十九峰夹十八条溪，山腰的玉带路横着走一段，脚下是洱海和大理坝子，视野是大理最好的一档。山顶有雪，杜鹃和冷杉成片。要注意索道分上下段，年度检修或大风停一段，冲着登顶去的容易落空；海拔上来走快了喘，体力一般的别硬撑全程。山上比山下凉得多，外套和防晒都带上。",
+  "basis": "web",
+  "at": "2026-11-15",
+  "fits": [
+   "徒步",
+   "看全景",
+   "避暑"
   ],
-  "popularity": 85,
+  "avoid": [
+   "怕累",
+   "赶时间"
+  ],
   "sources": [
-    {
-      "title": "百度百科·苍山",
-      "url": "https://baike.baidu.com/item/%E8%8B%8D%E5%B1%B1",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "苍山"
-  },
-  "_geocodeTitle": "大理苍山世界地质公园",
-  "_geocodeSuspect": false,
-  "district": "532901"
+   "https://www.163.com/dy/article/LBB5ND380550AN9P.html"
+  ]
+ }
 }

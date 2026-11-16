@@ -1,119 +1,150 @@
 {
-  "id": "huizhou-gucheng",
-  "name": "徽州古城",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "许国八脚牌坊、徽州府衙、斗山街都在步行圈里，是活着的府城。",
-  "description": "徽州古城就是当年的徽州府城，也是歙县的县城，全国保存最完整的四大古城之一。城里的许国石坊是罕见的八脚牌坊，为明代大学士许国而立，整座用茶园石雕成，四面八柱，立在街心六百多年没挪过窝。徽州府衙在原址上复原，可以看到完整的中轴线官署格局。斗山街是一条保留了明清民居的巷子，墙高、门小、天井深，是典型徽派建筑的样本。古城不收大门票，适合慢慢走、慢慢看，傍晚亮灯后尤其有味道。",
-  "highlights": [
-    "许国石坊",
-    "徽州府衙",
-    "斗山街",
-    "免大门票",
-    "活着的府城"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.43458,
-      "lat": 29.866991,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黄山市歙县徽城镇徽州路、中和街一带（练江北岸）",
-    "district": "歙县",
-    "transportTip": "黄山北站乘高铁巴士 / 公交约 40 分钟到歙县县城；县城内步行可达"
+ "id": "huizhou-gucheng",
+ "name": "徽州古城",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "许国八脚牌坊、徽州府衙、斗山街都在步行圈里，是活着的府城。",
+ "description": "徽州古城就是当年的徽州府城，也是歙县的县城，全国保存最完整的四大古城之一。城里的许国石坊是罕见的八脚牌坊，为明代大学士许国而立，整座用茶园石雕成，四面八柱，立在街心六百多年没挪过窝。徽州府衙在原址上复原，可以看到完整的中轴线官署格局。斗山街是一条保留了明清民居的巷子，墙高、门小、天井深，是典型徽派建筑的样本。古城不收大门票，适合慢慢走、慢慢看，傍晚亮灯后尤其有味道。",
+ "highlights": [
+  "许国石坊",
+  "徽州府衙",
+  "斗山街",
+  "免大门票",
+  "活着的府城"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.43458,
+   "lat": 29.866991,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "街区全天开放；府衙、相关展馆约 8:00-17:30",
-    "openHoursRef": 0,
-    "ticket": "古城街区免费；府衙等联票收费（以官方为准）",
-    "ticketRef": 0,
-    "duration": "建议 120-300 分钟",
-    "durationMinutes": [
-      120,
-      300
-    ],
-    "priceLevel": "mid"
+  "address": "黄山市歙县徽城镇徽州路、中和街一带（练江北岸）",
+  "district": "歙县",
+  "transportTip": "黄山北站乘高铁巴士 / 公交约 40 分钟到歙县县城；县城内步行可达"
+ },
+ "practical": {
+  "openHours": "街区全天开放；府衙、相关展馆约 8:00-17:30",
+  "openHoursRef": 0,
+  "ticket": "古城街区免费；府衙等联票收费（以官方为准）",
+  "ticketRef": 0,
+  "duration": "建议 120-300 分钟",
+  "durationMinutes": [
+   120,
+   300
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family",
+  "solo",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E2%80%94%E2%80%94%E5%BE%BD%E5%9B%AD_-_panoramio.jpg/1280px-%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E2%80%94%E2%80%94%E5%BE%BD%E5%9B%AD_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E2%80%94%E2%80%94%E5%BE%BD%E5%9B%AD_-_panoramio.jpg/1280px-%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E2%80%94%E2%80%94%E5%BE%BD%E5%9B%AD_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "徽州古城——徽园 - panoramio.jpg",
+   "query": "徽州古城 歙县",
+   "credit": {
+    "source": "wikimedia",
+    "author": "江上清风1961",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E2%80%94%E2%80%94%E5%BE%BD%E5%9B%AD_-_panoramio.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "friends",
-    "family",
-    "solo",
-    "elders"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E9%A3%8E%E5%85%89_-_panoramio.jpg/1280px-%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E9%A3%8E%E5%85%89_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E9%A3%8E%E5%85%89_-_panoramio.jpg/1280px-%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E9%A3%8E%E5%85%89_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "徽州古城风光 - panoramio.jpg",
+   "query": "徽州古城 歙县",
+   "credit": {
+    "source": "wikimedia",
+    "author": "江上清风1961",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E9%A3%8E%E5%85%89_-_panoramio.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "徽州",
+  "古城",
+  "牌坊",
+  "府衙",
+  "免票"
+ ],
+ "popularity": 96,
+ "sources": [
+  {
+   "title": "百度百科·徽州古城",
+   "url": "https://baike.baidu.com/item/%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-07"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "徽州古城"
+ },
+ "_geocodeTitle": "徽州古城景区",
+ "_geocodeSuspect": false,
+ "district": "341021",
+ "_patrol": {
+  "at": "2026-11-08",
+  "reason": "audit --fix-safe：清掉同城撞图的 1 张（待重抓）",
+  "droppedImages": [
+   "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E2%80%94%E2%80%94%E5%BE%BD%E5%B7%9E%E5%BA%9C%E8%A1%99_-_panoramio.jpg/1280px-%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E2%80%94%E2%80%94%E5%BE%BD%E5%B7%9E%E5%BA%9C%E8%A1%99_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  ]
+ },
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "牌坊",
+    "score": 4.8,
+    "note": "许国八脚石坊四面八柱，街心立了六百多年"
+   },
+   {
+    "label": "格局",
+    "score": 4.4,
+    "note": "府衙中轴线复原，斗山街是徽派样本"
+   },
+   {
+    "label": "免费程度",
+    "score": 4.6,
+    "note": "古城街区不收大门票"
+   },
+   {
+    "label": "讲解",
+    "score": 3.2,
+    "note": "展馆与府衙需联票，散点信息偏简"
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E2%80%94%E2%80%94%E5%BE%BD%E5%9B%AD_-_panoramio.jpg/1280px-%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E2%80%94%E2%80%94%E5%BE%BD%E5%9B%AD_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E2%80%94%E2%80%94%E5%BE%BD%E5%9B%AD_-_panoramio.jpg/1280px-%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E2%80%94%E2%80%94%E5%BE%BD%E5%9B%AD_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "徽州古城——徽园 - panoramio.jpg",
-      "query": "徽州古城 歙县",
-      "credit": {
-        "source": "wikimedia",
-        "author": "江上清风1961",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E2%80%94%E2%80%94%E5%BE%BD%E5%9B%AD_-_panoramio.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E2%80%94%E2%80%94%E5%BE%BD%E5%B7%9E%E5%BA%9C%E8%A1%99_-_panoramio.jpg/1280px-%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E2%80%94%E2%80%94%E5%BE%BD%E5%B7%9E%E5%BA%9C%E8%A1%99_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E2%80%94%E2%80%94%E5%BE%BD%E5%B7%9E%E5%BA%9C%E8%A1%99_-_panoramio.jpg/1280px-%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E2%80%94%E2%80%94%E5%BE%BD%E5%B7%9E%E5%BA%9C%E8%A1%99_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "徽州古城——徽州府衙 - panoramio.jpg",
-      "query": "徽州古城 歙县",
-      "credit": {
-        "source": "wikimedia",
-        "author": "江上清风1961",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E2%80%94%E2%80%94%E5%BE%BD%E5%B7%9E%E5%BA%9C%E8%A1%99_-_panoramio.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E9%A3%8E%E5%85%89_-_panoramio.jpg/1280px-%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E9%A3%8E%E5%85%89_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E9%A3%8E%E5%85%89_-_panoramio.jpg/1280px-%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E9%A3%8E%E5%85%89_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "徽州古城风光 - panoramio.jpg",
-      "query": "徽州古城 歙县",
-      "credit": {
-        "source": "wikimedia",
-        "author": "江上清风1961",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E%E9%A3%8E%E5%85%89_-_panoramio.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    }
+  "body": "当年的徽州府城，也是歙县县城，全国保存最完整的四大古城之一。最硬的一件是许国石坊——罕见的八脚牌坊，整座茶园石雕成，四面八柱立在街心六百多年没挪过；府衙在原址复原出完整中轴线官署格局，斗山街那条高墙小门深天井的巷子，就是徽派民居的标准样本。傍晚亮灯后尤其有味道，而且街区不收大门票，适合慢慢走。可惜府衙和几处展馆要联票，散点说明偏简，不请讲解容易只看个热闹；主街也有商铺化的一段。建议把石坊、府衙、斗山街串成一条步行线，留半天到一天。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "徽派建筑",
+   "古牌坊",
+   "慢游免门票"
   ],
-  "coverIndex": 0,
-  "tags": [
-    "徽州",
-    "古城",
-    "牌坊",
-    "府衙",
-    "免票"
+  "avoid": [
+   "追沉浸式展馆",
+   "赶半天行程"
   ],
-  "popularity": 96,
-  "sources": [
-    {
-      "title": "百度百科·徽州古城",
-      "url": "https://baike.baidu.com/item/%E5%BE%BD%E5%B7%9E%E5%8F%A4%E5%9F%8E",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-07"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "徽州古城"
-  },
-  "_geocodeTitle": "徽州古城景区",
-  "_geocodeSuspect": false,
-  "district": "341021"
+  "sources": []
+ }
 }

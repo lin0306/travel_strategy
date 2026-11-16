@@ -1,0 +1,72 @@
+{
+  "id": "jiading-zhouqiao",
+  "name": "嘉定州桥景区",
+  "category": "scenic",
+  "subtype": "historic",
+  "summary": "被称作「嘉定之根」的老街片区，法华塔、州桥与宋元明清旧迹挤在两平方公里里。",
+  "description": "嘉定州桥景区在嘉定镇街道城中街一带，是国家AAAA级旅游景区，也被叫做「嘉定之根」——嘉定自南宋设县，八百多年的城厢中心就在这里。老街沿河展开，法华塔是片区里最高的建筑，宋、元、明、清历代的古塔、旧庙、名园与石桥错落分布，青砖白墙配上小桥流水，属于还留有生活气、没有整体清空改造的江南老城格局。景区里多数点位免费开放，各展馆开放时间并不统一，游客中心在漕溪北路451号一带可拿导览。坐11号线到嘉定北站换嘉定12路或1路即可，和秋霞圃、汇龙潭、嘉定博物馆适合拼成嘉定一日。",
+  "highlights": [
+    "嘉定自南宋设县以来的城厢中心，称「嘉定之根」",
+    "法华塔、州桥与宋元明清旧迹集中在老街沿线",
+    "免费开放，11号线嘉定北站换公交即达"
+  ],
+  "location": {
+    "point": {
+      "lng": 121.251118,
+      "lat": 31.384394,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "上海市嘉定区嘉定镇街道城中街88弄",
+    "district": "嘉定",
+    "transportTip": "地铁11号线嘉定北站换公交嘉定12路或嘉定1路；嘉定3路、9路、13路亦可到附近站点"
+  },
+  "practical": {
+    "openHours": "老街为开放式街区，全天可逛；游客中心9:00-17:00，区内各场馆开放时间各异，以现场公告为准",
+    "openHoursRef": 0,
+    "ticket": "老街免费开放，区内个别展馆或项目另计，以现场公告为准",
+    "ticketRef": 0,
+    "duration": "建议 90-150 分钟",
+    "durationMinutes": [
+      90,
+      150
+    ],
+    "priceLevel": "free"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [
+    "各展馆开闭馆时间不统一，想进馆先查当日公告",
+    "可与秋霞圃、汇龙潭、嘉定博物馆连成嘉定一日线"
+  ],
+  "images": [],
+  "coverIndex": 0,
+  "tags": [
+    "老街",
+    "法华塔",
+    "免费",
+    "嘉定"
+  ],
+  "popularity": 66,
+  "sources": [
+    {
+      "title": "上海市嘉定区人民政府·州桥景区服务信息",
+      "url": "https://www.jiading.gov.cn/mspd/shgj/content_957842",
+      "kind": "gov",
+      "fetchedAt": "2026-11-08"
+    }
+  ],
+  "updatedAt": "2026-11-08",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Zhouqiao Old Street Scenic Area",
+    "zh": "嘉定州桥景区"
+  },
+  "_geocodeTitle": "嘉定州桥景区",
+  "_geocodeSuspect": false,
+  "_noImage": true,
+  "district": "310114"
+}

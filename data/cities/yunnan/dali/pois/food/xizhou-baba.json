@@ -1,89 +1,127 @@
 {
-  "id": "xizhou-baba",
-  "name": "喜洲粑粑",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "喜洲古镇的招牌面食，炭火烤的饼，有甜咸两种。",
-  "description": "喜洲粑粑是喜洲古镇的招牌面食，用炭火吊炉烤的圆饼。分甜咸两种：甜的是红糖玫瑰，咸的是火腿葱花。皮脆、里面软，趁热吃最好。古镇门口一排都是卖的。常和破酥一起说，其实是一家。",
-  "highlights": [
-    "喜洲招牌面食，炭火吊炉烤圆饼",
-    "甜咸两种，红糖玫瑰与火腿葱花",
-    "皮脆里软，趁热吃最好"
-  ],
-  "location": {
-    "point": {
-      "lng": 100.232991,
-      "lat": 25.593742,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "云南省大理白族自治州大理市喜洲镇四方街",
-    "district": "大理市",
-    "transportTip": "喜洲古镇四方街一带"
+ "id": "xizhou-baba",
+ "name": "喜洲粑粑",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "喜洲古镇的招牌面食，炭火烤的饼，有甜咸两种。",
+ "description": "喜洲粑粑是喜洲古镇的招牌面食，用炭火吊炉烤的圆饼。分甜咸两种：甜的是红糖玫瑰，咸的是火腿葱花。皮脆、里面软，趁热吃最好。古镇门口一排都是卖的。常和破酥一起说，其实是一家。",
+ "highlights": [
+  "喜洲招牌面食，炭火吊炉烤圆饼",
+  "甜咸两种，红糖玫瑰与火腿葱花",
+  "皮脆里软，趁热吃最好"
+ ],
+ "location": {
+  "point": {
+   "lng": 100.232991,
+   "lat": 25.593742,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约8:00-19:00",
-    "openHoursRef": 0,
-    "ticket": "便宜（几元一个）",
-    "ticketRef": 0,
-    "duration": "建议 15-30 分钟",
-    "durationMinutes": [
-      15,
-      30
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "family"
+  "address": "云南省大理白族自治州大理市喜洲镇四方街",
+  "district": "大理市",
+  "transportTip": "喜洲古镇四方街一带"
+ },
+ "practical": {
+  "openHours": "约8:00-19:00",
+  "openHoursRef": 0,
+  "ticket": "便宜（几元一个）",
+  "ticketRef": 0,
+  "duration": "建议 15-30 分钟",
+  "durationMinutes": [
+   15,
+   30
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Xizhou_baba.jpg/1280px-Xizhou_baba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Xizhou_baba.jpg/1280px-Xizhou_baba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Xizhou baba.jpg",
-      "query": "喜洲粑粑",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Mx. Granger",
-        "sourceUrl": "https://zh.wikipedia.org/wiki/喜洲粑粑",
-        "license": "CC0",
-        "attributionRequired": false
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "inside"
-      }
-    }
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Xizhou_baba.jpg/1280px-Xizhou_baba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Xizhou_baba.jpg/1280px-Xizhou_baba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Xizhou baba.jpg",
+   "query": "喜洲粑粑",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Mx. Granger",
+    "sourceUrl": "https://zh.wikipedia.org/wiki/喜洲粑粑",
+    "license": "CC0",
+    "attributionRequired": false
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "inside"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "面食",
+  "小吃",
+  "喜洲"
+ ],
+ "popularity": 68,
+ "sources": [
+  {
+   "title": "百度百科·喜洲粑粑",
+   "url": "https://baike.baidu.com/item/%E5%96%9C%E6%B4%B2%E7%B2%91%E7%B2%91",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "喜洲粑粑"
+ },
+ "_geocodeTitle": "喜洲粑粑",
+ "_geocodeSuspect": false,
+ "district": "532901",
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.3,
+    "note": "皮脆里软，甜咸两味各有人爱"
+   },
+   {
+    "label": "价格",
+    "score": 4.3,
+    "note": "几元一个，两个人分着正好"
+   },
+   {
+    "label": "排队",
+    "score": 2.7,
+    "note": "四方街老字号上午排队久"
+   },
+   {
+    "label": "趁热",
+    "score": 4.2,
+    "note": "凉了发艮，回炉也回不来"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "面食",
-    "小吃",
-    "喜洲"
+  "body": "喜洲粑粑是炭火吊炉烤出来的圆饼，甜的红糖玫瑰、咸的火腿葱花，皮脆里软，趁热咬下去最香，几元一个很划算。缺点是凉了就发艮，回炉也回不来那个酥；四方街几家老字号上午排队久，旅游团一到就挤。记住买刚出炉烫手的，别买提前烤好摆着的。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "小吃",
+   "当早饭",
+   "带手信"
   ],
-  "popularity": 68,
-  "sources": [
-    {
-      "title": "百度百科·喜洲粑粑",
-      "url": "https://baike.baidu.com/item/%E5%96%9C%E6%B4%B2%E7%B2%91%E7%B2%91",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "avoid": [
+   "怕排队"
   ],
-  "updatedAt": "2026-11-05",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "喜洲粑粑"
-  },
-  "_geocodeTitle": "喜洲粑粑",
-  "_geocodeSuspect": false,
-  "district": "532901"
+  "sources": []
+ }
 }

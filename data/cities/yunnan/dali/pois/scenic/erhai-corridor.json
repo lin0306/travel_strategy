@@ -1,163 +1,202 @@
 {
-  "id": "erhai-corridor",
-  "name": "洱海生态廊道",
-  "category": "scenic",
-  "subtype": "park",
-  "summary": "环洱海一圈的骑行步道，把村子海岸和湿地连起来，最能感受洱海。",
-  "description": "洱海生态廊道是沿着洱海修的一圈骑行和步道，把沿湖的村子、湿地、海岸连起来。机动车进不去，只能骑车或步行，所以很安静。路面平，一侧是洱海，一侧是稻田和村子。海西一段最成熟，从才村到喜洲。",
-  "highlights": [
-    "环洱海一圈骑行步道，机动车禁入",
-    "一侧洱海一侧稻田与村子",
-    "海西一段最成熟，才村到喜洲"
-  ],
-  "location": {
-    "point": {
-      "lng": 100.210967,
-      "lat": 25.667065,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "云南省大理白族自治州大理市环海路生态廊道",
-    "district": "大理市",
-    "transportTip": "从才村或喜洲进入，租电动车骑行",
-    "entrance": {
-      "lng": 100.223534,
-      "lat": 25.622165,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "erhai-corridor",
+ "name": "洱海生态廊道",
+ "category": "scenic",
+ "subtype": "park",
+ "summary": "环洱海一圈的骑行步道，把村子海岸和湿地连起来，最能感受洱海。",
+ "description": "洱海生态廊道是沿着洱海修的一圈骑行和步道，把沿湖的村子、湿地、海岸连起来。机动车进不去，只能骑车或步行，所以很安静。路面平，一侧是洱海，一侧是稻田和村子。海西一段最成熟，从才村到喜洲。",
+ "highlights": [
+  "环洱海一圈骑行步道，机动车禁入",
+  "一侧洱海一侧稻田与村子",
+  "海西一段最成熟，才村到喜洲"
+ ],
+ "location": {
+  "point": {
+   "lng": 100.210967,
+   "lat": 25.667065,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 120-300 分钟",
-    "durationMinutes": [
-      120,
-      300
-    ],
-    "priceLevel": "free"
+  "address": "云南省大理白族自治州大理市环海路生态廊道",
+  "district": "大理市",
+  "transportTip": "从才村或喜洲进入，租电动车骑行",
+  "entrance": {
+   "lng": 100.223534,
+   "lat": 25.622165,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "全天开放",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 120-300 分钟",
+  "durationMinutes": [
+   120,
+   300
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_02.jpg/1280px-%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_02.jpg/1280px-%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 811,
+   "alt": "洱海生态廊道 02.jpg",
+   "query": "洱海生态廊道",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Kcx36",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_02.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "friends",
-    "family"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_02.jpg/1280px-%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_02.jpg/1280px-%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 811,
-      "alt": "洱海生态廊道 02.jpg",
-      "query": "洱海生态廊道",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Kcx36",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_02.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_03.jpg/1280px-%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_03.jpg/1280px-%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 811,
-      "alt": "洱海生态廊道 03.jpg",
-      "query": "洱海生态廊道",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Kcx36",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_03.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_04.jpg/1280px-%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_04.jpg/1280px-%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 811,
-      "alt": "洱海生态廊道 04.jpg",
-      "query": "洱海生态廊道",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Kcx36",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_04.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_05.jpg/1280px-%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_05.jpg/1280px-%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 811,
-      "alt": "洱海生态廊道 05.jpg",
-      "query": "洱海生态廊道",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Kcx36",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_05.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_01.jpg/1280px-%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_01.jpg/1280px-%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 811,
-      "alt": "洱海生态廊道 01.jpg",
-      "query": "洱海生态廊道",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Kcx36",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_01.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_06.jpg/1280px-%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_06.jpg/1280px-%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 811,
-      "alt": "洱海生态廊道 06.jpg",
-      "query": "洱海生态廊道",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Kcx36",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_06.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "廊道",
-    "骑行",
-    "免费"
-  ],
-  "popularity": 72,
-  "sources": [
-    {
-      "title": "大理洱海生态廊道",
-      "url": "https://baike.baidu.com/item/%E6%B4%B1%E6%B5%B7",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "洱海生态廊道"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_03.jpg/1280px-%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_03.jpg/1280px-%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 811,
+   "alt": "洱海生态廊道 03.jpg",
+   "query": "洱海生态廊道",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Kcx36",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_03.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "洱海生态廊道(观光电瓶车三圣岛停靠点)",
-  "_geocodeSuspect": false,
-  "district": "532901"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_04.jpg/1280px-%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_04.jpg/1280px-%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 811,
+   "alt": "洱海生态廊道 04.jpg",
+   "query": "洱海生态廊道",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Kcx36",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_04.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_05.jpg/1280px-%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_05.jpg/1280px-%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 811,
+   "alt": "洱海生态廊道 05.jpg",
+   "query": "洱海生态廊道",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Kcx36",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_05.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_01.jpg/1280px-%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_01.jpg/1280px-%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 811,
+   "alt": "洱海生态廊道 01.jpg",
+   "query": "洱海生态廊道",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Kcx36",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_01.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_06.jpg/1280px-%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_06.jpg/1280px-%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 811,
+   "alt": "洱海生态廊道 06.jpg",
+   "query": "洱海生态廊道",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Kcx36",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B4%B1%E6%B5%B7%E7%94%9F%E6%80%81%E5%BB%8A%E9%81%93_06.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "廊道",
+  "骑行",
+  "免费"
+ ],
+ "popularity": 72,
+ "sources": [
+  {
+   "title": "大理洱海生态廊道",
+   "url": "https://baike.baidu.com/item/%E6%B4%B1%E6%B5%B7",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "洱海生态廊道"
+ },
+ "_geocodeTitle": "洱海生态廊道(观光电瓶车三圣岛停靠点)",
+ "_geocodeSuspect": false,
+ "district": "532901",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "风景",
+    "score": 4.6,
+    "note": "一侧洱海一侧稻田与村子"
+   },
+   {
+    "label": "骑行",
+    "score": 4.4,
+    "note": "路面平，海西一段最成熟"
+   },
+   {
+    "label": "配套",
+    "score": 3.2,
+    "note": "补给点和厕所要走一段才碰到"
+   },
+   {
+    "label": "拥挤",
+    "score": 2.6,
+    "note": "热门段节假日租车要排队"
+   }
+  ],
+  "body": "廊道沿洱海一圈，把沿湖村子、湿地和湖岸连起来，机动车进不去，所以安静，一侧是水一侧是稻田。路面平，海西一段从才村到喜洲最成熟，适合慢骑。不足是沿途补给点不多，水和厕所要走一段才碰到；热门段节假日人流大，租车和观光车都要排。想清静就早出发。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "骑行",
+   "慢走",
+   "看湖"
+  ],
+  "avoid": [
+   "怕晒",
+   "赶时间"
+  ],
+  "sources": []
+ }
 }

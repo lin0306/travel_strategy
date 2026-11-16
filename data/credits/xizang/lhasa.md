@@ -1,6 +1,6 @@
 # 拉萨 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-01
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-13
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | jacky xing | Pexels License | [pexels](https://www.pexels.com/photo/distant-view-of-dukezong-ancient-city-in-shangri-la-city-in-china-20436779/) |
-| 城市封面 | 光曦 刘 | Pexels License | [pexels](https://www.pexels.com/photo/spectacular-mountains-in-fog-under-sky-in-evening-4402750/) |
-| 城市封面 | zhang kaiyv | Pexels License | [pexels](https://www.pexels.com/photo/a-city-under-a-cloudy-sky-9431177/) |
+| 城市封面 | Hiroki Ogawa | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Potala_Palace_Lhasa_Tibet_Autonomous_Region_China_%E8%A5%BF%E8%97%8F_%E6%8B%89%E8%90%A8_%E5%B8%83%E8%BE%BE%E6%8B%89%E5%AE%AB_-_panoramio_(3).jpg) |
+| 城市封面 | Hiroki Ogawa | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jokhang_Temple_Lhasa_Tibet_China_%E8%A5%BF%E8%97%8F_%E6%8B%89%E8%90%A8_%E5%A4%A7%E6%98%AD%E5%AF%BA_-_panoramio_(10).jpg) |
+| 城市封面 | Gary Todd | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chorten_at_Drepung_Monastery_-_20125375921.jpg) |
 | 布达拉宫 | Jurikowski | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Potala_Palace_(253750663).jpeg) |
 | 布达拉宫 | Hiroki Ogawa | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Potala_Palace_Lhasa_Tibet_Autonomous_Region_China_%E8%A5%BF%E8%97%8F_%E6%8B%89%E8%90%A8_%E5%B8%83%E8%BE%BE%E6%8B%89%E5%AE%AB_-_panoramio.jpg) |
 | 布达拉宫 | Hiroki Ogawa | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Potala_Palace_Lhasa_Tibet_Autonomous_Region_China_%E8%A5%BF%E8%97%8F_%E6%8B%89%E8%90%A8_%E5%B8%83%E8%BE%BE%E6%8B%89%E5%AE%AB_-_panoramio_(3).jpg) |

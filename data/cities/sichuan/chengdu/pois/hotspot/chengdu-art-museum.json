@@ -15,12 +15,12 @@
       "lat": 30.712792,
       "coordSystem": "GCJ-02"
     },
-    "address": "成都市金牛区天府艺术公园内（天府美术馆）",
+    "address": "成都市金牛区华严路 181 号（天府艺术公园内，A 区天府美术馆）",
     "district": "金牛区",
     "transportTip": "地铁 27 号线天府艺术公园站出站即达；自驾停公园地下停车场"
   },
   "practical": {
-    "openHours": "约 10:00-17:00，周一闭馆（以官方公众号公告为准）",
+    "openHours": "10:00-19:00（18:30 停止入馆），周一闭馆（法定节假日除外）；特展/暑期有延时，以官方公众号公告为准",
     "openHoursRef": 0,
     "ticket": "免费，需官方公众号实名预约",
     "ticketRef": 0,
@@ -148,9 +148,15 @@
       "url": "https://baike.baidu.com/item/%E6%88%90%E9%83%BD%E5%B8%82%E7%BE%8E%E6%9C%AF%E9%A6%86",
       "kind": "wiki",
       "fetchedAt": "2026-09-18"
+    },
+    {
+      "title": "成都市美术馆官方开馆公告：闭馆时间原记 17:00 有误，实为 10:00-19",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg4NDY3NzMyMA==&mid=2247564282&idx=2&sn=a29fd80e8e08f71d2e3b9fe00d94ca6f",
+      "kind": "media",
+      "fetchedAt": "2026-11-08"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-08",
   "_geocoded": true,
   "_imageQuery": {
     "en": "Chengdu Art Museum Tianfu",
@@ -158,5 +164,22 @@
   },
   "_geocodeTitle": "成都市美术馆A区(成都市天府美术馆)",
   "_geocodeSuspect": false,
-  "district": "510106"
+  "district": "510106",
+  "_patrol": {
+    "at": "2026-11-08",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "约 10:00-17:00，周一闭馆（以官方公众号公告为准）",
+        "new": "10:00-19:00（18:30 停止入馆），周一闭馆（法定节假日除外）；特展/暑期有延时，以官方公众号公告为准"
+      },
+      {
+        "field": "地址",
+        "old": "成都市金牛区天府艺术公园内（天府美术馆）",
+        "new": "成都市金牛区华严路 181 号（天府艺术公园内，A 区天府美术馆）"
+      }
+    ],
+    "source": "http://mp.weixin.qq.com/s?__biz=Mzg4NDY3NzMyMA==&mid=2247564282&idx=2&sn=a29fd80e8e08f71d2e3b9fe00d94ca6f",
+    "reason": "成都市美术馆官方开馆公告：闭馆时间原记 17:00 有误，实为 10:00-19:00（18:30 停止入馆）；A 区门牌 华严路 181 号"
+  }
 }

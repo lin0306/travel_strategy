@@ -1,67 +1,104 @@
 {
-  "id": "liangma-river",
-  "name": "亮马河滨水步道(国际风情水岸)",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "近年整治完成的城市河道步道，夜色里最接近本地人的傍晚。",
-  "description": "亮马河原先只是一条普通的城区河道，近年做了滨水空间的连贯改造：沿岸步道、原生堤岸与亲水平台，从东直门一带连到朝阳公园方向。它是常态化的公共空间：傍晚附近居民来此散步、垂钓，河边摆着露营椅与野餐垫。夜景集中在朝阳公园至蓝色港湾那一小段，桥与灯光是最常出画面的部分。",
-  "highlights": [
-    "滨水步道连贯，适合傍晚走",
-    "夜景集中在蓝色港湾一段",
-    "本地日常感强"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.47902,
-      "lat": 39.949042,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "北京市朝阳区亮马河国际风情水岸(蓝色港湾东侧)",
-    "district": "朝阳",
-    "transportTip": "地铁10号线亮马桥站/14号线枣营站"
+ "id": "liangma-river",
+ "name": "亮马河滨水步道(国际风情水岸)",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "近年整治完成的城市河道步道，夜色里最接近本地人的傍晚。",
+ "description": "亮马河原先只是一条普通的城区河道，近年做了滨水空间的连贯改造：沿岸步道、原生堤岸与亲水平台，从东直门一带连到朝阳公园方向。它是常态化的公共空间：傍晚附近居民来此散步、垂钓，河边摆着露营椅与野餐垫。夜景集中在朝阳公园至蓝色港湾那一小段，桥与灯光是最常出画面的部分。",
+ "highlights": [
+  "滨水步道连贯，适合傍晚走",
+  "夜景集中在蓝色港湾一段",
+  "本地日常感强"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.47902,
+   "lat": 39.949042,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放(滨水照明夜间约至22:00)",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 60-180 分钟",
-    "durationMinutes": [
-      60,
-      180
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "solo"
+  "address": "北京市朝阳区亮马河国际风情水岸(蓝色港湾东侧)",
+  "district": "朝阳",
+  "transportTip": "地铁10号线亮马桥站/14号线枣营站"
+ },
+ "practical": {
+  "openHours": "全天开放(滨水照明夜间约至22:00)",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 60-180 分钟",
+  "durationMinutes": [
+   60,
+   180
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "滨水",
-    "夜景",
-    "散步"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "滨水",
+  "夜景",
+  "散步"
+ ],
+ "popularity": 74,
+ "sources": [
+  {
+   "title": "百度百科·亮马河",
+   "url": "https://baike.baidu.com/item/%E4%BA%AE%E9%A9%AC%E6%B2%B3",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "亮马河滨水步道(国际风情水岸)"
+ },
+ "_geocodeTitle": "亮马河国际风情水岸",
+ "_geocodeSuspect": false,
+ "district": "110105",
+ "_noImage": true,
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "夜景",
+    "score": 4.3,
+    "note": "桥与灯光集中在蓝色港湾那一段"
+   },
+   {
+    "label": "人流",
+    "score": 4.0,
+    "note": "傍晚本地散步的多，不拥挤"
+   },
+   {
+    "label": "免费程度",
+    "score": 4.8,
+    "note": "步道全天开放"
+   },
+   {
+    "label": "配套",
+    "score": 3.6,
+    "note": "沿线补给少，长段没有遮阴与座椅"
+   }
   ],
-  "popularity": 74,
-  "sources": [
-    {
-      "title": "百度百科·亮马河",
-      "url": "https://baike.baidu.com/item/%E4%BA%AE%E9%A9%AC%E6%B2%B3",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
+  "body": "亮马河最舒服的用法是傍晚从东直门方向往朝阳公园走，河边有人垂钓、支着露营椅，本地日常感很足，比景区更像城市本来的样子。缺点：真正出片的夜景只在蓝色港湾到朝阳公园那一小段，其余段落灯暗、水面也平淡；冬天风大，长段没有遮挡和座椅。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "傍晚散步",
+   "拍夜景"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "亮马河滨水步道(国际风情水岸)"
-  },
-  "_geocodeTitle": "亮马河国际风情水岸",
-  "_geocodeSuspect": false,
-  "district": "110105",
-  "_noImage": true
+  "avoid": [
+   "想一次走完全程"
+  ],
+  "sources": []
+ }
 }

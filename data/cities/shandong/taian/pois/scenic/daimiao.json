@@ -1,188 +1,225 @@
 {
-  "id": "daimiao",
-  "name": "岱庙",
-  "category": "scenic",
-  "subtype": "museum",
-  "summary": "泰山脚下的最大古建筑群，封禅祭器的收藏地。",
-  "description": "岱庙在泰安城区，是泰山最大、最完整的古建筑群，也是历代帝王封禅泰山前举行仪式、存放祭器的地方。天贶殿是其主殿，与故宫太和殿、孔庙大成殿并称东方三大殿，殿内有《泰山神启跸回銮图》壁画。庙内古柏参天、碑刻林立，是了解泰山封禅文化的第一站。它和登山口离得近，通常作为登泰山的前奏。",
-  "highlights": [
-    "泰山最大古建筑群，封禅祭器所藏",
-    "天贶殿为东方三大殿之一",
-    "古柏碑刻，封禅文化第一站"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.131309,
-      "lat": 36.194025,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "泰安市泰山区东岳大街岱庙",
-    "district": "泰山区",
-    "transportTip": "公交岱庙站；红门徒步约15分钟"
+ "id": "daimiao",
+ "name": "岱庙",
+ "category": "scenic",
+ "subtype": "museum",
+ "summary": "泰山脚下的最大古建筑群，封禅祭器的收藏地。",
+ "description": "岱庙在泰安城区，是泰山最大、最完整的古建筑群，也是历代帝王封禅泰山前举行仪式、存放祭器的地方。天贶殿是其主殿，与故宫太和殿、孔庙大成殿并称东方三大殿，殿内有《泰山神启跸回銮图》壁画。庙内古柏参天、碑刻林立，是了解泰山封禅文化的第一站。它和登山口离得近，通常作为登泰山的前奏。",
+ "highlights": [
+  "泰山最大古建筑群，封禅祭器所藏",
+  "天贶殿为东方三大殿之一",
+  "古柏碑刻，封禅文化第一站"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.131309,
+   "lat": 36.194025,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约07:30-17:30（以景区公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约20元起，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "budget"
+  "address": "泰安市泰山区东岳大街岱庙",
+  "district": "泰山区",
+  "transportTip": "公交岱庙站；红门徒步约15分钟"
+ },
+ "practical": {
+  "openHours": "约07:30-17:30（以景区公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约20元起，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "family",
+  "elders",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/20260721_%E5%B2%B1%E5%BA%99_01.jpg/1280px-20260721_%E5%B2%B1%E5%BA%99_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/20260721_%E5%B2%B1%E5%BA%99_01.jpg/1280px-20260721_%E5%B2%B1%E5%BA%99_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "20260721 岱庙 01.jpg",
+   "query": "岱庙 泰安",
+   "credit": {
+    "source": "wikimedia",
+    "author": "祝鱼贵",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20260721_%E5%B2%B1%E5%BA%99_01.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "family",
-    "elders",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/20260721_%E5%B2%B1%E5%BA%99_01.jpg/1280px-20260721_%E5%B2%B1%E5%BA%99_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/20260721_%E5%B2%B1%E5%BA%99_01.jpg/1280px-20260721_%E5%B2%B1%E5%BA%99_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "20260721 岱庙 01.jpg",
-      "query": "岱庙 泰安",
-      "credit": {
-        "source": "wikimedia",
-        "author": "祝鱼贵",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20260721_%E5%B2%B1%E5%BA%99_01.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Tai%27an_Dai_Miao_2015.08.13_10-04-28.jpg/1280px-Tai%27an_Dai_Miao_2015.08.13_10-04-28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Tai%27an_Dai_Miao_2015.08.13_10-04-28.jpg/1280px-Tai%27an_Dai_Miao_2015.08.13_10-04-28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Tai'an Dai Miao 2015.08.13 10-04-28.jpg",
-      "query": "岱庙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangzhugang",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/20260721_%E5%B2%B1%E5%BA%99_%E4%B8%9C%E5%BE%A1%E5%BA%A7.jpg/1280px-20260721_%E5%B2%B1%E5%BA%99_%E4%B8%9C%E5%BE%A1%E5%BA%A7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/20260721_%E5%B2%B1%E5%BA%99_%E4%B8%9C%E5%BE%A1%E5%BA%A7.jpg/1280px-20260721_%E5%B2%B1%E5%BA%99_%E4%B8%9C%E5%BE%A1%E5%BA%A7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "20260721 岱庙 东御座.jpg",
-      "query": "岱庙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "祝鱼贵",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Tai%27an_Dai_Miao_2015.08.13_10-02-25.jpg/1280px-Tai%27an_Dai_Miao_2015.08.13_10-02-25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Tai%27an_Dai_Miao_2015.08.13_10-02-25.jpg/1280px-Tai%27an_Dai_Miao_2015.08.13_10-02-25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Tai'an Dai Miao 2015.08.13 10-02-25.jpg",
-      "query": "岱庙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Zhangzhugang",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Dai_Temple_50114-Taishan_%2849055699431%29.jpg/1280px-Dai_Temple_50114-Taishan_%2849055699431%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Dai_Temple_50114-Taishan_%2849055699431%29.jpg/1280px-Dai_Temple_50114-Taishan_%2849055699431%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Dai Temple 50114-Taishan (49055699431).jpg",
-      "query": "岱庙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/%E5%B2%B1%E5%BB%9F%EF%BC%8D%E9%AD%9A%E6%B1%A0.jpg/1280px-%E5%B2%B1%E5%BB%9F%EF%BC%8D%E9%AD%9A%E6%B1%A0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/%E5%B2%B1%E5%BB%9F%EF%BC%8D%E9%AD%9A%E6%B1%A0.jpg/1280px-%E5%B2%B1%E5%BB%9F%EF%BC%8D%E9%AD%9A%E6%B1%A0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "岱廟－魚池.jpg",
-      "query": "岱庙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Boreas Sawada",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "古建筑",
-    "封禅",
-    "天贶殿"
-  ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·岱庙",
-      "url": "https://baike.baidu.com/item/%E5%B2%B1%E5%BA%99",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-11-02",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "岱庙"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Tai%27an_Dai_Miao_2015.08.13_10-04-28.jpg/1280px-Tai%27an_Dai_Miao_2015.08.13_10-04-28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Tai%27an_Dai_Miao_2015.08.13_10-04-28.jpg/1280px-Tai%27an_Dai_Miao_2015.08.13_10-04-28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Tai'an Dai Miao 2015.08.13 10-04-28.jpg",
+   "query": "岱庙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "岱庙",
-  "_geocodeSuspect": false,
-  "district": "370902"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/20260721_%E5%B2%B1%E5%BA%99_%E4%B8%9C%E5%BE%A1%E5%BA%A7.jpg/1280px-20260721_%E5%B2%B1%E5%BA%99_%E4%B8%9C%E5%BE%A1%E5%BA%A7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/20260721_%E5%B2%B1%E5%BA%99_%E4%B8%9C%E5%BE%A1%E5%BA%A7.jpg/1280px-20260721_%E5%B2%B1%E5%BA%99_%E4%B8%9C%E5%BE%A1%E5%BA%A7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "20260721 岱庙 东御座.jpg",
+   "query": "岱庙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "祝鱼贵",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Tai%27an_Dai_Miao_2015.08.13_10-02-25.jpg/1280px-Tai%27an_Dai_Miao_2015.08.13_10-02-25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Tai%27an_Dai_Miao_2015.08.13_10-02-25.jpg/1280px-Tai%27an_Dai_Miao_2015.08.13_10-02-25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Tai'an Dai Miao 2015.08.13 10-02-25.jpg",
+   "query": "岱庙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Dai_Temple_50114-Taishan_%2849055699431%29.jpg/1280px-Dai_Temple_50114-Taishan_%2849055699431%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Dai_Temple_50114-Taishan_%2849055699431%29.jpg/1280px-Dai_Temple_50114-Taishan_%2849055699431%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Dai Temple 50114-Taishan (49055699431).jpg",
+   "query": "岱庙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/%E5%B2%B1%E5%BB%9F%EF%BC%8D%E9%AD%9A%E6%B1%A0.jpg/1280px-%E5%B2%B1%E5%BB%9F%EF%BC%8D%E9%AD%9A%E6%B1%A0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/%E5%B2%B1%E5%BB%9F%EF%BC%8D%E9%AD%9A%E6%B1%A0.jpg/1280px-%E5%B2%B1%E5%BB%9F%EF%BC%8D%E9%AD%9A%E6%B1%A0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "岱廟－魚池.jpg",
+   "query": "岱庙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Boreas Sawada",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "古建筑",
+  "封禅",
+  "天贶殿"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·岱庙",
+   "url": "https://baike.baidu.com/item/%E5%B2%B1%E5%BA%99",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "岱庙"
+ },
+ "_geocodeTitle": "岱庙",
+ "_geocodeSuspect": false,
+ "district": "370902",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "展陈",
+    "score": 4.5,
+    "note": "天贶殿壁画与满院碑刻是主体"
+   },
+   {
+    "label": "人流",
+    "score": 3.5,
+    "note": "多数人当登山前奏，庙内不算挤"
+   },
+   {
+    "label": "讲解",
+    "score": 2.9,
+    "note": "以自助看牌为主，讲解要另请"
+   },
+   {
+    "label": "性价比",
+    "score": 4.2,
+    "note": "票价不高，一小时值回"
+   }
+  ],
+  "body": "泰山脚下最完整的古建筑群，天贶殿与故宫太和殿、孔庙大成殿并称东方三大殿，殿内《泰山神启跸回銮图》壁画是核心，庙内古柏与碑刻一路铺开，正好当登泰山的前奏。缺点是很多人把它当过场，一小时匆匆走完，碑刻与配殿基本看漏；院里休息点少，夏天中午走一圈偏晒。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "登泰山前预热",
+   "看古建"
+  ],
+  "avoid": [
+   "只想拍打卡照"
+  ],
+  "sources": []
+ }
 }

@@ -1,89 +1,126 @@
 {
-  "id": "dayu-ling",
-  "name": "大禹陵",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "会稽山下的禹陵，祭禹圣地的核心。",
-  "description": "大禹陵在绍兴会稽山麓，是纪念大禹治水、归葬于此的陵寝与祭禹圣地，与黄帝陵、炎帝陵并称。景区有禹陵、禹庙和岣嵝碑，建筑庄重、林木幽深。每年谷雨前后有公祭大禹典礼，是绍兴最重要的文化盛事之一。离城约半小时，可半日。",
-  "highlights": [
-    "会稽山大禹陵寝祭禹圣地",
-    "禹陵禹庙岣嵝碑",
-    "谷雨公祭大禹典礼"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.609946,
-      "lat": 29.95581,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "绍兴市越城区会稽山",
-    "district": "越城区",
-    "transportTip": "公交大禹陵站；市区打车约20分钟"
+ "id": "dayu-ling",
+ "name": "大禹陵",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "会稽山下的禹陵，祭禹圣地的核心。",
+ "description": "大禹陵在绍兴会稽山麓，是纪念大禹治水、归葬于此的陵寝与祭禹圣地，与黄帝陵、炎帝陵并称。景区有禹陵、禹庙和岣嵝碑，建筑庄重、林木幽深。每年谷雨前后有公祭大禹典礼，是绍兴最重要的文化盛事之一。离城约半小时，可半日。",
+ "highlights": [
+  "会稽山大禹陵寝祭禹圣地",
+  "禹陵禹庙岣嵝碑",
+  "谷雨公祭大禹典礼"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.609946,
+   "lat": 29.95581,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-17:00（以景区公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约60元起，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 90-150 分钟",
-    "durationMinutes": [
-      90,
-      150
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "elders",
-    "solo",
-    "family"
+  "address": "绍兴市越城区会稽山",
+  "district": "越城区",
+  "transportTip": "公交大禹陵站；市区打车约20分钟"
+ },
+ "practical": {
+  "openHours": "约08:00-17:00（以景区公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约60元起，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 90-150 分钟",
+  "durationMinutes": [
+   90,
+   150
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Yu_the_Great_mausoleum_stele_in_Shaoxing%2C_Zhejiang%2C_China.jpg/1280px-Yu_the_Great_mausoleum_stele_in_Shaoxing%2C_Zhejiang%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Yu_the_Great_mausoleum_stele_in_Shaoxing%2C_Zhejiang%2C_China.jpg/1280px-Yu_the_Great_mausoleum_stele_in_Shaoxing%2C_Zhejiang%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Yu the Great mausoleum stele in Shaoxing, Zhejiang, China.jpg",
-      "query": "大禹陵",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Gisling",
-        "sourceUrl": "https://www.wikidata.org/wiki/Q10937154",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    }
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "elders",
+  "solo",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Yu_the_Great_mausoleum_stele_in_Shaoxing%2C_Zhejiang%2C_China.jpg/1280px-Yu_the_Great_mausoleum_stele_in_Shaoxing%2C_Zhejiang%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Yu_the_Great_mausoleum_stele_in_Shaoxing%2C_Zhejiang%2C_China.jpg/1280px-Yu_the_Great_mausoleum_stele_in_Shaoxing%2C_Zhejiang%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Yu the Great mausoleum stele in Shaoxing, Zhejiang, China.jpg",
+   "query": "大禹陵",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Gisling",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q10937154",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "大禹",
+  "祭禹",
+  "会稽山"
+ ],
+ "popularity": 80,
+ "sources": [
+  {
+   "title": "百度百科·大禹陵",
+   "url": "https://baike.baidu.com/item/%E5%A4%A7%E7%A6%B9%E9%99%B5",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "大禹陵"
+ },
+ "_geocodeTitle": "大禹陵",
+ "_geocodeSuspect": false,
+ "district": "330602",
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "规模",
+    "score": 4.3,
+    "note": "禹陵、禹庙、岣嵝碑连成一片，半日才走得完"
+   },
+   {
+    "label": "人流",
+    "score": 4.0,
+    "note": "平日清静，谷雨公祭前后极挤"
+   },
+   {
+    "label": "交通",
+    "score": 3.4,
+    "note": "离老城约半小时车程，公交班次偏疏"
+   },
+   {
+    "label": "体力",
+    "score": 3.3,
+    "note": "依山而建，台阶与缓坡不少"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "大禹",
-    "祭禹",
-    "会稽山"
+  "body": "祭禹圣地，禹庙的歇山顶与岣嵝碑值得细看，山门到陵前的松柏道走起来很有分量。缺点是园区大、坡多，夏天走完一趟相当耗体力；离老城也远，赶时间的话只能挑禹庙和陵前两处看。谷雨公祭当天人挤到走不动，想看安静的古建就避开那几天。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "看古建",
+   "半日游"
   ],
-  "popularity": 80,
-  "sources": [
-    {
-      "title": "百度百科·大禹陵",
-      "url": "https://baike.baidu.com/item/%E5%A4%A7%E7%A6%B9%E9%99%B5",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "avoid": [
+   "赶行程"
   ],
-  "updatedAt": "2026-11-01",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "大禹陵"
-  },
-  "_geocodeTitle": "大禹陵",
-  "_geocodeSuspect": false,
-  "district": "330602"
+  "sources": []
+ }
 }

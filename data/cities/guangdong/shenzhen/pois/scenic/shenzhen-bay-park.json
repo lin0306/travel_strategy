@@ -1,75 +1,115 @@
 {
-  "id": "shenzhen-bay-park",
-  "name": "深圳湾公园",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "沿着深圳河出海口铺开的一段滨海绿道：一侧是红树林滩涂，一侧是福田的天际线。",
-  "description": "深圳湾公园压在城市南侧的海岸线上，由原来的滨海大道外侧滩地与填海滨水带连成，东西向很长。它的北侧福田的天际线。南侧是深圳河出海口与后海湾。这条线挤出两类内容：一是走与骑——专用骑行道与步行道分开，租车站点在沿途。二是看鸟。这段滩涂是东亚到澳大利西亚候鸟迁飞路线上的一站，每年十月到次年三月会有大批水鸟在这停。傍晚是全天最舒服的时段，天际线转向剪影。黄昏的人流可能到单行管理的程度，节假日多一些耐心。",
-  "highlights": [
-    "海岸线催化福田天际线，夜景与日落都在这条线上",
-    "秋冬是候鸟季，滩涂一侧有大批水鸟",
-    "骑行道与步行道分开，可租单车"
-  ],
-  "location": {
-    "point": {
-      "lng": 113.95311,
-      "lat": 22.50409,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "深圳市南山区滨海大道辅道（深圳湾公园段）",
-    "district": "南山区",
-    "transportTip": "地铁9号线深圳湾公园站；地铁2号线湾厦站换乘公交",
-    "entrance": {
-      "lng": 113.995191,
-      "lat": 22.521776,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "shenzhen-bay-park",
+ "name": "深圳湾公园",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "沿着深圳河出海口铺开的一段滨海绿道：一侧是红树林滩涂，一侧是福田的天际线。",
+ "description": "深圳湾公园压在城市南侧的海岸线上，由原来的滨海大道外侧滩地与填海滨水带连成，东西向很长。它的北侧福田的天际线。南侧是深圳河出海口与后海湾。这条线挤出两类内容：一是走与骑——专用骑行道与步行道分开，租车站点在沿途。二是看鸟。这段滩涂是东亚到澳大利西亚候鸟迁飞路线上的一站，每年十月到次年三月会有大批水鸟在这停。傍晚是全天最舒服的时段，天际线转向剪影。黄昏的人流可能到单行管理的程度，节假日多一些耐心。",
+ "highlights": [
+  "海岸线催化福田天际线，夜景与日落都在这条线上",
+  "秋冬是候鸟季，滩涂一侧有大批水鸟",
+  "骑行道与步行道分开，可租单车"
+ ],
+ "location": {
+  "point": {
+   "lng": 113.95311,
+   "lat": 22.50409,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约06:00-23:00（以官方公告为准）",
-    "openHoursRef": 0,
-    "ticket": "免费（以官方公告为准）",
-    "ticketRef": 0,
-    "duration": "建议 90-300 分钟",
-    "durationMinutes": [
-      90,
-      300
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "family",
-    "friends",
-    "solo"
+  "address": "深圳市南山区滨海大道辅道（深圳湾公园段）",
+  "district": "南山区",
+  "transportTip": "地铁9号线深圳湾公园站；地铁2号线湾厦站换乘公交",
+  "entrance": {
+   "lng": 113.995191,
+   "lat": 22.521776,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约06:00-23:00（以官方公告为准）",
+  "openHoursRef": 0,
+  "ticket": "免费（以官方公告为准）",
+  "ticketRef": 0,
+  "duration": "建议 90-300 分钟",
+  "durationMinutes": [
+   90,
+   300
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "海滨",
-    "免费",
-    "骑行",
-    "日落"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "family",
+  "friends",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "海滨",
+  "免费",
+  "骑行",
+  "日落"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·深圳湾公园",
+   "url": "https://baike.baidu.com/item/%E6%B7%B1%E5%9C%B3%E6%B9%BE%E5%85%AC%E5%9B%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-24"
+  }
+ ],
+ "updatedAt": "2026-11-10",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Shenzhen Bay Park",
+  "zh": "深圳湾公园"
+ },
+ "_geocodeTitle": "深圳湾公园",
+ "_geocodeSuspect": false,
+ "district": "440305",
+ "_noImage": true,
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "景观",
+    "score": 4.5,
+    "note": "一侧红树林滩涂，一侧福田天际线"
+   },
+   {
+    "label": "骑行",
+    "score": 4.5,
+    "note": "骑行道与步行道分开，沿途有租车点"
+   },
+   {
+    "label": "人流",
+    "score": 2.5,
+    "note": "黄昏与节假日挤到单行管理"
+   },
+   {
+    "label": "遮阴",
+    "score": 2.0,
+    "note": "沿线开阔少树，正午暴晒"
+   }
   ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·深圳湾公园",
-      "url": "https://baike.baidu.com/item/%E6%B7%B1%E5%9C%B3%E6%B9%BE%E5%85%AC%E5%9B%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-24"
-    }
+  "body": "深圳最像「海边」的一段，但不适合正午来。东西向很长，从红树林一路走到人才公园就是大半天；傍晚天际线转成剪影，是全城最好的时段之一，代价是人挤到要单向通行。秋冬有候鸟，滩涂一侧能看到成群水鸟，带望远镜才看得清。缺点很明确：沿线遮阴少、补给点稀，夏天正午走一段就受不了；停车位紧张，地铁站出来还要走上十来分钟。",
+  "basis": "corpus",
+  "at": "2026-11-10",
+  "fits": [
+   "骑行",
+   "看日落",
+   "遛娃",
+   "跑步"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Shenzhen Bay Park",
-    "zh": "深圳湾公园"
-  },
-  "_geocodeTitle": "深圳湾公园",
-  "_geocodeSuspect": false,
-  "district": "440305",
-  "_noImage": true
+  "avoid": [
+   "正午暴晒",
+   "想下海游泳"
+  ],
+  "sources": []
+ }
 }

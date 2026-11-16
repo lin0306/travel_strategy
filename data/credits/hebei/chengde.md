@@ -1,12 +1,12 @@
 # 承德 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-01
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
 - 省份：河北
 - adcode：130800
-- POI 数量：57
+- POI 数量：56
 
 ## 文本内容来源
 
@@ -15,11 +15,14 @@
 | 安远庙 | [百度百科·安远庙](https://baike.baidu.com/item/%E5%AE%89%E8%BF%9C%E5%BA%99) | wiki | 2026-10-01 |
 | 避暑山庄博物馆 | [百度百科·承德避暑山庄](https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84) | wiki | 2026-10-01 |
 | 避暑山庄 | [百度百科·承德避暑山庄](https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84) | wiki | 2026-10-01 |
+| 避暑山庄 | [承德市双桥区旅游和文化局：“三向发力”持续擦亮文旅市场“放心”名片（2026-10-26）](https://news.qq.com/rain/a/20261026A0AXRI00) | media | 2026-11-14 |
+| 避暑山庄 | [承德市政府：避暑山庄及周围寺庙景区今日起执行秋冬季开放时间（2026-10-10）](https://www.chengde.gov.cn/art/2026/10/10/art_360_1129195.html) | media | 2026-11-14 |
 | 承德博物馆 | [百度百科·承德博物馆](https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7%E5%8D%9A%E7%89%A9%E9%A6%86) | wiki | 2026-10-01 |
 | 京北第一草原 | [百度百科·京北第一草原](https://baike.baidu.com/item/%E4%BA%AC%E5%8C%97%E7%AC%AC%E4%B8%80%E8%8D%89%E5%8E%9F) | wiki | 2026-10-01 |
 | 蛤蟆石 | [百度百科·承德](https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7) | wiki | 2026-10-01 |
 | 金山岭长城 | [百度百科·金山岭长城](https://baike.baidu.com/item/%E9%87%91%E5%B1%B1%E5%B2%AD%E9%95%BF%E5%9F%8E) | wiki | 2026-10-01 |
 | 辽河源 | [百度百科·辽河源](https://baike.baidu.com/item/%E8%BE%BD%E6%B2%B3%E6%BA%90) | wiki | 2026-10-01 |
+| 辽河源 | [平泉市旅文广电局 2025-04 答复：2023-10 取消3A资质、已完成保护](https://www.pingquan.gov.cn/art/2025/4/24/art_3185_1077500.html) | media | 2026-11-14 |
 | 罗汉山 | [百度百科·承德](https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7) | wiki | 2026-10-01 |
 | 茅荆坝 | [百度百科·茅荆坝](https://baike.baidu.com/item/%E8%8C%85%E8%8D%86%E5%9D%9D) | wiki | 2026-10-01 |
 | 木兰围场 | [百度百科·木兰围场](https://baike.baidu.com/item/%E6%9C%A8%E5%85%B0%E5%9B%B4%E5%9C%BA) | wiki | 2026-10-01 |
@@ -28,6 +31,7 @@
 | 普宁寺 | [百度百科·普宁寺](https://baike.baidu.com/item/%E6%99%AE%E5%AE%81%E5%AF%BA) | wiki | 2026-10-01 |
 | 普陀宗乘之庙 | [百度百科·普陀宗乘之庙](https://baike.baidu.com/item/%E6%99%AE%E9%99%80%E5%AE%97%E4%B9%98%E4%B9%8B%E5%BA%99) | wiki | 2026-10-01 |
 | 磬锤峰 | [百度百科·磬锤峰](https://baike.baidu.com/item/%E7%A3%AC%E9%94%A4%E5%B3%B0) | wiki | 2026-10-01 |
+| 磬锤峰 | [承德市政府 2026-10-10 秋冬季开放时间公告](https://www.chengde.gov.cn/art/2026/10/10/art_360_1129195.html) | media | 2026-11-14 |
 | 七星湖 | [百度百科·塞罕坝](https://baike.baidu.com/item/%E5%A1%9E%E7%BD%95%E5%9D%9D) | wiki | 2026-10-01 |
 | 热河泉 | [百度百科·热河](https://baike.baidu.com/item/%E7%83%AD%E6%B2%B3) | wiki | 2026-10-01 |
 | 塞罕坝国家森林公园 | [百度百科·塞罕坝](https://baike.baidu.com/item/%E5%A1%9E%E7%BD%95%E5%9D%9D) | wiki | 2026-10-01 |
@@ -38,10 +42,11 @@
 | 兴隆溶洞 | [百度百科·兴隆溶洞](https://baike.baidu.com/item/%E5%85%B4%E9%9A%86%E6%BA%B6%E6%B4%9E) | wiki | 2026-10-01 |
 | 须弥福寿之庙 | [百度百科·须弥福寿之庙](https://baike.baidu.com/item/%E9%A1%BB%E5%BC%A5%E7%A6%8F%E5%AF%BF%E4%B9%8B%E5%BA%99) | wiki | 2026-10-01 |
 | 御道口草原森林风景区 | [百度百科·御道口](https://baike.baidu.com/item/%E5%BE%A1%E9%81%93%E5%8F%A3) | wiki | 2026-10-01 |
+| 御道口草原森林风景区 | [御道口景区官网 2026 开园公告：05:30-20:00 开放、19:00 停](http://m.ydkmc.com/e/action/ShowInfo.php?classid=10&id=761) | media | 2026-11-14 |
 | 坝上烤全羊 | [百度百科·烤全羊](https://baike.baidu.com/item/%E7%83%A4%E5%85%A8%E7%BE%8A) | wiki | 2026-10-01 |
 | 承德凉粉 | [百度百科·凉粉](https://baike.baidu.com/item/%E5%87%89%E7%B2%89) | wiki | 2026-10-01 |
-| 二仙居美食街 | [百度百科·承德](https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7) | wiki | 2026-10-01 |
 | 二仙居碗坨 | [百度百科·碗坨](https://baike.baidu.com/item/%E7%A2%97%E5%9D%A8) | wiki | 2026-10-01 |
+| 二仙居碗坨 | [和合承德网：多元业态点亮承德夜经济（2026-08-03）](https://m.hehechengde.cn/content/2026-08-03/281569.html) | media | 2026-11-14 |
 | 驴打滚 | [百度百科·驴打滚](https://baike.baidu.com/item/%E9%A9%B4%E6%89%93%E6%BB%9A) | wiki | 2026-10-01 |
 | 满族八大碗 | [百度百科·满族八大碗](https://baike.baidu.com/item/%E6%BB%A1%E6%97%8F%E5%85%AB%E5%A4%A7%E7%A2%97) | wiki | 2026-10-01 |
 | 鲜花玫瑰饼 | [百度百科·鲜花玫瑰饼](https://baike.baidu.com/item/%E9%B2%9C%E8%8A%B1%E7%8E%AB%E7%91%B0%E9%A5%BC) | wiki | 2026-10-01 |
@@ -65,18 +70,24 @@
 | 烟雨楼 | [百度百科·烟雨楼](https://baike.baidu.com/item/%E7%83%9F%E9%9B%A8%E6%A5%BC) | wiki | 2026-10-01 |
 | 坝上那达慕 | [百度百科·那达慕](https://baike.baidu.com/item/%E9%82%A3%E8%BE%BE%E6%85%95) | wiki | 2026-10-01 |
 | 二道牌楼 | [百度百科·承德](https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7) | wiki | 2026-10-01 |
+| 二道牌楼 | [承德日报 2024-05-24《守护好城市的记忆》：二道牌楼在广仁大街（西大街）](https://paper.hehechengde.cn/cdrb/pc/content/202405/24/content_90672.html) | media | 2026-11-14 |
 | 二仙居街 | [百度百科·承德](https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7) | wiki | 2026-10-01 |
+| 二仙居街 | [承德市政府：夜间经济稿，二仙居夜游街区定为省级夜间经济示范地标（2026-08-08）](https://www.chengde.gov.cn/art/2026/8/8/art_360_1124240.html) | media | 2026-11-14 |
+| 二仙居街 | [和合承德网：多元业态点亮承德夜经济（2026-08-03）](https://m.hehechengde.cn/content/2026-08-03/281569.html) | media | 2026-11-14 |
 | 皇家礼仪展演 | [百度百科·承德避暑山庄](https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84) | wiki | 2026-10-01 |
+| 皇家礼仪展演 | [河北省政府 2026-09-15 转和合承德网：山庄见驾每日 9/10/11/1](https://www.hebei.gov.cn/columns/e3a00cc9-a329-46f7-9eb0-8e43a2cb68a4/202609/15/4045bd20-20ff-4ab3-b82c-398b9be9adc1.html) | media | 2026-11-14 |
 | 《鼎盛王朝·康熙大典》 | [百度百科·承德](https://baike.baidu.com/item/%E6%89%BF%E5%BE%B7) | wiki | 2026-10-01 |
+| 《鼎盛王朝·康熙大典》 | [承德市政府 2026-08-08 夜间经济稿 + 运营方 2026-09-22 ](https://www.chengde.gov.cn/art/2026/8/8/art_360_1124240.html) | media | 2026-11-14 |
 | 满族民俗展演 | [百度百科·满族](https://baike.baidu.com/item/%E6%BB%A1%E6%97%8F) | wiki | 2026-10-01 |
+| 满族民俗展演 | [承德市旅游和文化广电局 2026「非遗进景区」：展演与鼓乐舞蹈均在避暑山庄芳园居](http://mp.weixin.qq.com/s?__biz=MzkyODU3MDU4NA==&mid=2247594613&idx=1&sn=7b969a8e5af2c09689851cbe98a8907f) | media | 2026-11-14 |
 
 ## 图片版权
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | The Hsing Yeh Bank of Jehol | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:10_Yuan_-_Industrial_Development_Bank_of_Jehol_(1926)_01.jpg) |
-| 城市封面 | The Hsing Yeh Bank of Jehol | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:10_Yuan_-_Industrial_Development_Bank_of_Jehol_(1926)_02.jpg) |
-| 城市封面 | The Hsing Yeh Bank of Jehol | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:5_Yuan_-_Industrial_Development_Bank_of_Jehol_(1925)_02.jpg) |
+| 城市封面 | Gisling | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Putuo_Zongcheng_Temple.jpg) |
+| 城市封面 | H2v5o68z | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Puning_Temple_11.jpg) |
+| 城市封面 | H2v5o68z | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xumi_Fushou_Temple_1.jpg) |
 | 安远庙 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Anyuan_Temple_20160905_(1).jpg) |
 | 安远庙 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Anyuan_Temple_20160905_(2).jpg) |
 | 安远庙 | Siyuwj | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Anyuan_Temple_20160905_(3).jpg) |

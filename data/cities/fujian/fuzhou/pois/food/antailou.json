@@ -16,12 +16,12 @@
       "lat": 26.080774,
       "coordSystem": "GCJ-02"
     },
-    "address": "福州市鼓楼区东街与孝义巷交叉口",
+    "address": "福州市鼓楼区吉庇路1号（三坊七巷南侧）",
     "district": "鼓楼区",
     "transportTip": "地铁1号线东街口站步行约5分钟"
   },
   "practical": {
-    "openHours": "约10:30-14:00 / 16:30-21:30，以门店公告为准",
+    "openHours": "08:00-14:00 / 16:30-21:00",
     "openHoursRef": 0,
     "ticket": "人均约70元，以门店为准",
     "ticketRef": 0,
@@ -54,9 +54,15 @@
       "url": "https://baike.baidu.com/item/%E7%A6%8F%E5%B7%9E%E8%8F%9C",
       "kind": "wiki",
       "fetchedAt": "2026-10-04"
+    },
+    {
+      "title": "鼓楼区人民政府·非遗嘉年华东街口美食攻略",
+      "url": "https://www.gl.gov.cn/xjwz/rw/czgl/202603/t20260311_5294129.htm",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -65,5 +71,17 @@
   "_geocodeTitle": "安泰楼酒家(三坊七巷店)",
   "_geocodeSuspect": false,
   "district": "350102",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "福州市鼓楼区吉庇路（三坊七巷南侧）",
+        "new": "福州市鼓楼区吉庇路1号（三坊七巷南侧）"
+      }
+    ],
+    "source": "https://www.gl.gov.cn/xjwz/rw/czgl/202603/t20260311_5294129.htm",
+    "reason": "鼓楼区政府2026-03非遗美食攻略：安泰楼吉庇路1号"
+  }
 }

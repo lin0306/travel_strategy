@@ -1,158 +1,197 @@
 {
-  "id": "tianxin-ge",
-  "name": "天心阁",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "长沙古城墙仅存的一段，阁楼立在城墙上，是老城南面的制高点。",
-  "description": "天心阁在天心区城南路，建在一段明代城墙之上，是长沙古城墙唯一留下来的部分。这一带古时叫「天星阁」，取的是星象里对应长沙那一颗的说法。1938 年的文夕大火把阁毁了，1983 年按旧样重建，现在看到的三层楼阁与城墙是那次重修的成果。城墙下立着太平军攻长沙时的记事石碑，以及文夕大火的警世钟。整个天心公园是免费进的，登阁要另买票。它就在老城的东南角，往西走一公里是太平街，往北是黄兴南路步行街，串起来是半天的老城线路。",
-  "highlights": [
-    "建在长沙仅存的一段明代城墙上",
-    "1938 年文夕大火中烧毁，1983 年重建",
-    "城墙下有太平军攻城记事碑与警世钟"
-  ],
-  "location": {
-    "point": {
-      "lng": 112.981438,
-      "lat": 28.183671,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "湖南省长沙市天心区天心路4号（天心公园内）",
-    "district": "天心区",
-    "transportTip": "地铁1号线南门口站或黄兴广场站，步行约十分钟"
+ "id": "tianxin-ge",
+ "name": "天心阁",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "长沙古城墙仅存的一段，阁楼立在城墙上，是老城南面的制高点。",
+ "description": "天心阁在天心区城南路，建在一段明代城墙之上，是长沙古城墙唯一留下来的部分。这一带古时叫「天星阁」，取的是星象里对应长沙那一颗的说法。1938 年的文夕大火把阁毁了，1983 年按旧样重建，现在看到的三层楼阁与城墙是那次重修的成果。城墙下立着太平军攻长沙时的记事石碑，以及文夕大火的警世钟。整个天心公园是免费进的，登阁要另买票。它就在老城的东南角，往西走一公里是太平街，往北是黄兴南路步行街，串起来是半天的老城线路。",
+ "highlights": [
+  "建在长沙仅存的一段明代城墙上",
+  "1938 年文夕大火中烧毁，1983 年重建",
+  "城墙下有太平军攻城记事碑与警世钟"
+ ],
+ "location": {
+  "point": {
+   "lng": 112.981438,
+   "lat": 28.183671,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约07:30-18:00（登阁时间以公告为准），以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "公园免费，登阁门票约30元起，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 45-100 分钟",
-    "durationMinutes": [
-      45,
-      100
-    ],
-    "priceLevel": "budget"
+  "address": "湖南省长沙市天心区天心路4号（天心公园内）",
+  "district": "天心区",
+  "transportTip": "地铁1号线南门口站或黄兴广场站，步行约十分钟"
+ },
+ "practical": {
+  "openHours": "约07:30-18:00（登阁时间以公告为准），以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "公园免费，登阁门票约30元起，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 45-100 分钟",
+  "durationMinutes": [
+   45,
+   100
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "family",
+  "elders",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/%E9%95%BF%E6%B2%99%E5%B8%82%E5%A4%A9%E5%BF%83%E9%98%81.jpg/1280px-%E9%95%BF%E6%B2%99%E5%B8%82%E5%A4%A9%E5%BF%83%E9%98%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/%E9%95%BF%E6%B2%99%E5%B8%82%E5%A4%A9%E5%BF%83%E9%98%81.jpg/1280px-%E9%95%BF%E6%B2%99%E5%B8%82%E5%A4%A9%E5%BF%83%E9%98%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1444,
+   "alt": "长沙市天心阁.jpg",
+   "query": "天心阁 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Lcsm",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%95%BF%E6%B2%99%E5%B8%82%E5%A4%A9%E5%BF%83%E9%98%81.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "family",
-    "elders",
-    "friends"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/%E9%95%BF%E6%B2%99%E5%B8%82%E5%A4%A9%E5%BF%83%E9%98%81.jpg/1280px-%E9%95%BF%E6%B2%99%E5%B8%82%E5%A4%A9%E5%BF%83%E9%98%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/%E9%95%BF%E6%B2%99%E5%B8%82%E5%A4%A9%E5%BF%83%E9%98%81.jpg/1280px-%E9%95%BF%E6%B2%99%E5%B8%82%E5%A4%A9%E5%BF%83%E9%98%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1444,
-      "alt": "长沙市天心阁.jpg",
-      "query": "天心阁 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Lcsm",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%95%BF%E6%B2%99%E5%B8%82%E5%A4%A9%E5%BF%83%E9%98%81.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Attic_area_of_Tianxin_Pavilion%2C_Changsha.jpg/1280px-Attic_area_of_Tianxin_Pavilion%2C_Changsha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Attic_area_of_Tianxin_Pavilion%2C_Changsha.jpg/1280px-Attic_area_of_Tianxin_Pavilion%2C_Changsha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Attic area of Tianxin Pavilion, Changsha.jpg",
-      "query": "天心阁 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "JULIANISME",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Attic_area_of_Tianxin_Pavilion,_Changsha.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/%E5%A4%A9%E5%BF%83%E9%98%81_1.jpg/1280px-%E5%A4%A9%E5%BF%83%E9%98%81_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/%E5%A4%A9%E5%BF%83%E9%98%81_1.jpg/1280px-%E5%A4%A9%E5%BF%83%E9%98%81_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "天心阁 1.jpg",
-      "query": "天心阁 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "EditQ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E5%BF%83%E9%98%81_1.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/%E5%A4%A9%E5%BF%83%E9%98%81%E4%BA%AD%E5%AD%90.jpg/1280px-%E5%A4%A9%E5%BF%83%E9%98%81%E4%BA%AD%E5%AD%90.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/%E5%A4%A9%E5%BF%83%E9%98%81%E4%BA%AD%E5%AD%90.jpg/1280px-%E5%A4%A9%E5%BF%83%E9%98%81%E4%BA%AD%E5%AD%90.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "天心阁亭子.jpg",
-      "query": "天心阁 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Lkjidm",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E5%BF%83%E9%98%81%E4%BA%AD%E5%AD%90.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/%E9%95%BF%E6%B2%99%E5%A4%A9%E5%BF%83%E9%98%81.jpg/1280px-%E9%95%BF%E6%B2%99%E5%A4%A9%E5%BF%83%E9%98%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/%E9%95%BF%E6%B2%99%E5%A4%A9%E5%BF%83%E9%98%81.jpg/1280px-%E9%95%BF%E6%B2%99%E5%A4%A9%E5%BF%83%E9%98%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "长沙天心阁.jpg",
-      "query": "天心阁 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Jylqxgd",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%95%BF%E6%B2%99%E5%A4%A9%E5%BF%83%E9%98%81.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/%E9%95%BF%E6%B2%99%E5%A4%A9%E5%BF%83%E9%98%81%E5%AF%BA%E5%BA%99%E5%86%85%E9%83%A8.jpg/1280px-%E9%95%BF%E6%B2%99%E5%A4%A9%E5%BF%83%E9%98%81%E5%AF%BA%E5%BA%99%E5%86%85%E9%83%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/%E9%95%BF%E6%B2%99%E5%A4%A9%E5%BF%83%E9%98%81%E5%AF%BA%E5%BA%99%E5%86%85%E9%83%A8.jpg/1280px-%E9%95%BF%E6%B2%99%E5%A4%A9%E5%BF%83%E9%98%81%E5%AF%BA%E5%BA%99%E5%86%85%E9%83%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "长沙天心阁寺庙内部.jpg",
-      "query": "天心阁 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Lkjidm",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%95%BF%E6%B2%99%E5%A4%A9%E5%BF%83%E9%98%81%E5%AF%BA%E5%BA%99%E5%86%85%E9%83%A8.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "古城墙",
-    "文夕大火",
-    "老城"
-  ],
-  "popularity": 85,
-  "sources": [
-    {
-      "title": "百度百科·天心阁",
-      "url": "https://baike.baidu.com/item/%E5%A4%A9%E5%BF%83%E9%98%81",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "天心阁"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Attic_area_of_Tianxin_Pavilion%2C_Changsha.jpg/1280px-Attic_area_of_Tianxin_Pavilion%2C_Changsha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Attic_area_of_Tianxin_Pavilion%2C_Changsha.jpg/1280px-Attic_area_of_Tianxin_Pavilion%2C_Changsha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Attic area of Tianxin Pavilion, Changsha.jpg",
+   "query": "天心阁 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "JULIANISME",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Attic_area_of_Tianxin_Pavilion,_Changsha.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "天心阁",
-  "_geocodeSuspect": false,
-  "district": "430103"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/%E5%A4%A9%E5%BF%83%E9%98%81_1.jpg/1280px-%E5%A4%A9%E5%BF%83%E9%98%81_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/%E5%A4%A9%E5%BF%83%E9%98%81_1.jpg/1280px-%E5%A4%A9%E5%BF%83%E9%98%81_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "天心阁 1.jpg",
+   "query": "天心阁 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "EditQ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E5%BF%83%E9%98%81_1.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/%E5%A4%A9%E5%BF%83%E9%98%81%E4%BA%AD%E5%AD%90.jpg/1280px-%E5%A4%A9%E5%BF%83%E9%98%81%E4%BA%AD%E5%AD%90.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/%E5%A4%A9%E5%BF%83%E9%98%81%E4%BA%AD%E5%AD%90.jpg/1280px-%E5%A4%A9%E5%BF%83%E9%98%81%E4%BA%AD%E5%AD%90.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "天心阁亭子.jpg",
+   "query": "天心阁 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Lkjidm",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E5%BF%83%E9%98%81%E4%BA%AD%E5%AD%90.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/%E9%95%BF%E6%B2%99%E5%A4%A9%E5%BF%83%E9%98%81.jpg/1280px-%E9%95%BF%E6%B2%99%E5%A4%A9%E5%BF%83%E9%98%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/%E9%95%BF%E6%B2%99%E5%A4%A9%E5%BF%83%E9%98%81.jpg/1280px-%E9%95%BF%E6%B2%99%E5%A4%A9%E5%BF%83%E9%98%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "长沙天心阁.jpg",
+   "query": "天心阁 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Jylqxgd",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%95%BF%E6%B2%99%E5%A4%A9%E5%BF%83%E9%98%81.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/%E9%95%BF%E6%B2%99%E5%A4%A9%E5%BF%83%E9%98%81%E5%AF%BA%E5%BA%99%E5%86%85%E9%83%A8.jpg/1280px-%E9%95%BF%E6%B2%99%E5%A4%A9%E5%BF%83%E9%98%81%E5%AF%BA%E5%BA%99%E5%86%85%E9%83%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/%E9%95%BF%E6%B2%99%E5%A4%A9%E5%BF%83%E9%98%81%E5%AF%BA%E5%BA%99%E5%86%85%E9%83%A8.jpg/1280px-%E9%95%BF%E6%B2%99%E5%A4%A9%E5%BF%83%E9%98%81%E5%AF%BA%E5%BA%99%E5%86%85%E9%83%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "长沙天心阁寺庙内部.jpg",
+   "query": "天心阁 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Lkjidm",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%95%BF%E6%B2%99%E5%A4%A9%E5%BF%83%E9%98%81%E5%AF%BA%E5%BA%99%E5%86%85%E9%83%A8.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "古城墙",
+  "文夕大火",
+  "老城"
+ ],
+ "popularity": 85,
+ "sources": [
+  {
+   "title": "百度百科·天心阁",
+   "url": "https://baike.baidu.com/item/%E5%A4%A9%E5%BF%83%E9%98%81",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "天心阁"
+ },
+ "_geocodeTitle": "天心阁",
+ "_geocodeSuspect": false,
+ "district": "430103",
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "古建",
+    "score": 4.0,
+    "note": "压在仅存的明代城墙上，阁为重建"
+   },
+   {
+    "label": "视野",
+    "score": 4.2,
+    "note": "老城南面的制高点"
+   },
+   {
+    "label": "门票",
+    "score": 3.2,
+    "note": "公园免费，登阁另买票"
+   },
+   {
+    "label": "人流",
+    "score": 3.0,
+    "note": "阁上空间不大"
+   }
+  ],
+  "body": "长沙古城墙唯一留下来的一段，阁楼压在城墙上，是老城南面的制高点。城墙下的太平军攻城记事碑与文夕大火警世钟，比阁楼本身更有分量。缺点是登阁要另买票，公园免费但阁上空间不大，人一多转不开身；现在的阁是后来重修的，想看原物会失望。把它当一段城市史的现场，比当景点看更有意思，往西一公里就是太平街。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "看城史",
+   "登高",
+   "老城串联"
+  ],
+  "avoid": [
+   "想看原构",
+   "人多时登阁"
+  ],
+  "sources": []
+ }
 }

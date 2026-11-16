@@ -16,7 +16,7 @@
       "lat": 38.913009,
       "coordSystem": "GCJ-02"
     },
-    "address": "辽宁省大连市中山区南山风情街",
+    "address": "辽宁省大连市中山区枫林街17号",
     "district": "中山区",
     "transportTip": "中山区步行或公交可达"
   },
@@ -37,7 +37,11 @@
     "friends"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "街长约600余米，近百栋日式和洋折中老别墅，北靠明泽湖、南邻植物园",
+    "银杏 11 月上旬最盛，枫林街是全市「落叶缓扫」秋景打卡路街之一（大连日报 2026-11）",
+    "南山风貌区正在申报省级历史文化街区，周边哈尔滨街一带新开了不少小店"
+  ],
   "images": [],
   "coverIndex": 0,
   "tags": [
@@ -52,9 +56,15 @@
       "url": "https://baike.baidu.com/item/%E5%8D%97%E5%B1%B1%E9%A3%8E%E6%83%85%E8%A1%97",
       "kind": "wiki",
       "fetchedAt": "2026-10-01"
+    },
+    {
+      "title": "占位地址替换为枫林街17号（图商 POI/OTA/百科一致）；补街区规模与银杏时",
+      "url": "https://nginx-dlrm.dlrm.cn/dlrm/site1/mweb/jaa7d/content_7134594.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-15"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-15",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,5 +73,26 @@
   "_geocodeTitle": "南山旅游风情一条街",
   "_geocodeSuspect": false,
   "district": "210202",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-15",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "辽宁省大连市中山区南山风情街",
+        "new": "辽宁省大连市中山区枫林街17号"
+      },
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [],
+        "new": [
+          "街长约600余米，近百栋日式和洋折中老别墅，北靠明泽湖、南邻植物园",
+          "银杏 11 月上旬最盛，枫林街是全市「落叶缓扫」秋景打卡路街之一（大连日报 2026-11）",
+          "南山风貌区正在申报省级历史文化街区，周边哈尔滨街一带新开了不少小店"
+        ]
+      }
+    ],
+    "source": "https://nginx-dlrm.dlrm.cn/dlrm/site1/mweb/jaa7d/content_7134594.html",
+    "reason": "占位地址替换为枫林街17号（图商 POI/OTA/百科一致）；补街区规模与银杏时令"
+  }
 }

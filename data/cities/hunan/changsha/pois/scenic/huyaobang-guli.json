@@ -1,67 +1,127 @@
 {
-  "id": "huyaobang-guli",
-  "name": "胡耀邦故里",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "浏阳中和镇的老屋与纪念馆，湘东乡村里的一组旧居。",
-  "description": "胡耀邦故里在浏阳市中和镇苍坊村，离浏阳城区还有一段山路，从长沙市区过去要两小时上下。故居是一栋清末的湘东民居，土砖墙、小青瓦，屋前有晒谷坪和一口池塘，屋里按当年生活的样子陈设。旁边是纪念馆与陈列室，展出照片、手稿与生前用品。通往故居的一段路是步行道，两边是山冲里的稻田，安静，游客不多。景区免费，要凭证件取票或预约，以现场公告为准。它与文家市的秋收起义旧址在同一方向，两处可以串成浏阳的一天。",
-  "highlights": [
-    "清末湘东民居，屋前有晒谷坪与池塘",
-    "浏阳中和镇苍坊村，距市区两小时上下",
-    "免费参观，需凭证件取票或预约"
-  ],
-  "location": {
-    "point": {
-      "lng": 113.87926,
-      "lat": 28.07716,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "湖南省长沙市浏阳市中和镇苍坊村",
-    "district": "浏阳市",
-    "transportTip": "长沙市区自驾约两小时；或先至浏阳城区再转车至中和镇"
+ "id": "huyaobang-guli",
+ "name": "胡耀邦故里",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "浏阳中和镇的老屋与纪念馆，湘东乡村里的一组旧居。",
+ "description": "胡耀邦故里在浏阳市中和镇苍坊村，离浏阳城区还有一段山路，从长沙市区过去要两小时上下。故居是一栋清末的湘东民居，土砖墙、小青瓦，屋前有晒谷坪和一口池塘，屋里按当年生活的样子陈设。旁边是纪念馆与陈列室，展出照片、手稿与生前用品。通往故居的一段路是步行道，两边是山冲里的稻田，安静，游客不多。景区免费，要凭证件取票或预约，以现场公告为准。它与文家市的秋收起义旧址在同一方向，两处可以串成浏阳的一天。",
+ "highlights": [
+  "清末湘东民居，屋前有晒谷坪与池塘",
+  "浏阳中和镇苍坊村，距市区两小时上下",
+  "免费参观，需凭证件取票或预约"
+ ],
+ "location": {
+  "point": {
+   "lng": 113.87926,
+   "lat": 28.07716,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:30-17:00，以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费（需证件取票或预约），以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "free"
+  "address": "湖南省长沙市浏阳市中和镇苍坊村",
+  "district": "浏阳市",
+  "transportTip": "长沙市区自驾约两小时；或先至浏阳城区再转车至中和镇"
+ },
+ "practical": {
+  "openHours": "09:00-17:00（16:30 停止入园；7 月 1 日—9 月 30 日至 17:30），周一闭馆（故居与耀邦广场周一照常）",
+  "openHoursRef": 0,
+  "ticket": "故居、纪念馆、耀邦广场、文峰塔免费；文博园 32 元；景区游览车 10 元/人单程、20 元/人全程",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "elders",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [
+  "2024-07-06 起个人与团队参观无需预约，到馆即入；周一闭馆只针对纪念馆，故居与耀邦广场照常开放",
+  "浏阳汽车南站有公交专线 1 路直达苍坊旅游区站，票价 2 元；游客中心门口有停车场"
+ ],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "故居",
+  "浏阳",
+  "乡村"
+ ],
+ "popularity": 70,
+ "sources": [
+  {
+   "title": "百度百科·胡耀邦故居",
+   "url": "https://baike.baidu.com/item/%E8%83%A1%E8%80%80%E9%82%A6%E6%95%85%E5%B1%85",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
   },
-  "audience": [
-    "elders",
-    "family"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "故居",
-    "浏阳",
-    "乡村"
-  ],
-  "popularity": 70,
-  "sources": [
-    {
-      "title": "百度百科·胡耀邦故居",
-      "url": "https://baike.baidu.com/item/%E8%83%A1%E8%80%80%E9%82%A6%E6%95%85%E5%B1%85",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "胡耀邦故里"
+  {
+   "title": "胡耀邦故里管理局公告：纪念馆 2025-11-22 恢复开放，开放时间与周一闭馆",
+   "url": "http://mp.weixin.qq.com/s?__biz=MzI4MzM5NzE0NA==&mid=2247537721&idx=5&sn=da9c1c17d8e02207cb409ff02369354d&chksm=ea05b5b8d16d18f12454212f605bb39f4fe1502f2ba4caf29e1078ee0e288ec71e35aea511e4",
+   "kind": "media",
+   "fetchedAt": "2026-11-14"
   },
-  "_geocodeTitle": "胡耀邦故里-游客中心",
-  "_geocodeSuspect": false,
-  "district": "430181",
-  "_noImage": true
+  {
+   "title": "苍坊旅游区景区导览：除文博园外免费，文博园 32 元，游览车 10/20 元",
+   "url": "http://mp.weixin.qq.com/s?__biz=MzI4MzM5NzE0NA==&mid=2247530817&idx=5&sn=2e8f453e2255541e974f4cb4a8b12058&chksm=ea93bba85aa591fe1d6b348fdb7909cff51703c73c1be4dfbd7481f0348ea1e5fa0bb550fa8a",
+   "kind": "media",
+   "fetchedAt": "2026-11-14"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "胡耀邦故里"
+ },
+ "_geocodeTitle": "胡耀邦故里-游客中心",
+ "_geocodeSuspect": false,
+ "district": "430181",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-14",
+  "changes": [
+   {
+    "field": "门票",
+    "old": "免费（需证件取票或预约），以官方为准",
+    "new": "故居、纪念馆、耀邦广场、文峰塔免费；文博园 32 元；景区游览车 10 元/人单程、20 元/人全程"
+   }
+  ],
+  "source": "http://mp.weixin.qq.com/s?__biz=MzI4MzM5NzE0NA==&mid=2247530817&idx=5&sn=2e8f453e2255541e974f4cb4a8b12058&chksm=ea93bba85aa591fe1d6b348fdb7909cff51703c73c1be4dfbd7481f0348ea1e5fa0bb550fa8a",
+  "reason": "苍坊旅游区景区导览：除文博园外免费，文博园 32 元，游览车 10/20 元"
+ },
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "环境",
+    "score": 4.3,
+    "note": "山冲里的土砖老屋、晒谷坪与池塘，很安静"
+   },
+   {
+    "label": "交通",
+    "score": 2.6,
+    "note": "浏阳中和镇，市区过去两小时，公交班次少"
+   },
+   {
+    "label": "内容",
+    "score": 3.8,
+    "note": "故居陈设加纪念馆照片手稿，够看两小时"
+   }
+  ],
+  "body": "浏阳中和镇苍坊村的一栋清末湘东民居，土砖墙、小青瓦，屋前有晒谷坪和一口池塘，屋里按当年生活陈设；旁边纪念馆展照片、手稿与生前用品，通往故居的步行道两边是山冲稻田，游客不多，安静。缺点是位置偏，市区过去两小时，公交班次少；纪念馆周一闭馆，周边吃饭的地方几乎没有，得自带干粮。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "红色研学",
+   "乡村"
+  ],
+  "avoid": [
+   "周一去",
+   "指望周边餐饮"
+  ],
+  "sources": []
+ }
 }

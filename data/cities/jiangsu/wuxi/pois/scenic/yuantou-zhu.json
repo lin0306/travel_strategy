@@ -1,95 +1,132 @@
 {
-  "id": "yuantou-zhu",
-  "name": "鼋头渚",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "太湖第一名胜，樱花季人山人海。",
-  "description": "鼋头渚在无锡太湖北岸，因一块伸入湖中的渚石形似神龟昂首而得名，素有「太湖第一名胜」之誉。春日樱花谷上万株樱花开成云霞，是无锡最出圈的景；平日里则是看太湖烟波、登鹿顶山远眺的好地方。可乘船去太湖仙岛，湖光岛影俱全。建议工作日或清晨去，避开人潮。",
-  "highlights": [
-    "太湖第一名胜，神龟昂首渚石",
-    "樱花谷春日云霞最出圈",
-    "乘船游太湖仙岛"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.242421,
-      "lat": 31.51344,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "无锡市滨湖区鼋头渚公园",
-    "district": "滨湖区",
-    "transportTip": "公交或旅游专线至鼋头渚",
-    "entrance": {
-      "lng": 120.234772,
-      "lat": 31.518056,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "yuantou-zhu",
+ "name": "鼋头渚",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "太湖第一名胜，樱花季人山人海。",
+ "description": "鼋头渚在无锡太湖北岸，因一块伸入湖中的渚石形似神龟昂首而得名，素有「太湖第一名胜」之誉。春日樱花谷上万株樱花开成云霞，是无锡最出圈的景；平日里则是看太湖烟波、登鹿顶山远眺的好地方。可乘船去太湖仙岛，湖光岛影俱全。建议工作日或清晨去，避开人潮。",
+ "highlights": [
+  "太湖第一名胜，神龟昂首渚石",
+  "樱花谷春日云霞最出圈",
+  "乘船游太湖仙岛"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.242421,
+   "lat": 31.51344,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-17:30（以景区公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约90元起（淡旺季不同），以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 180-360 分钟",
-    "durationMinutes": [
-      180,
-      360
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "family",
-    "solo"
+  "address": "无锡市滨湖区鼋头渚公园",
+  "district": "滨湖区",
+  "transportTip": "公交或旅游专线至鼋头渚",
+  "entrance": {
+   "lng": 120.234772,
+   "lat": 31.518056,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约08:00-17:30（以景区公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约90元起（淡旺季不同），以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 180-360 分钟",
+  "durationMinutes": [
+   180,
+   360
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Wuxi_Taihu_lake_Changchun_bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Wuxi_Taihu_lake_Changchun_bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "Wuxi Taihu lake Changchun bridge.jpg",
-      "query": "鼋头渚",
-      "credit": {
-        "source": "wikimedia",
-        "author": "2009/Synyan；2014/藍風攝影",
-        "sourceUrl": "https://www.wikidata.org/wiki/Q8060083",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-05",
-        "tier": "exact"
-      }
-    }
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Wuxi_Taihu_lake_Changchun_bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Wuxi_Taihu_lake_Changchun_bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "Wuxi Taihu lake Changchun bridge.jpg",
+   "query": "鼋头渚",
+   "credit": {
+    "source": "wikimedia",
+    "author": "2009/Synyan；2014/藍風攝影",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q8060083",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "太湖",
+  "樱花",
+  "第一名胜"
+ ],
+ "popularity": 98,
+ "sources": [
+  {
+   "title": "百度百科·鼋头渚",
+   "url": "https://baike.baidu.com/item/%E9%BC%8B%E5%A4%B4%E6%B8%9A",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "鼋头渚"
+ },
+ "_geocodeTitle": "鼋头渚社区",
+ "_geocodeSuspect": false,
+ "district": "320211",
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "湖景",
+    "score": 4.4,
+    "note": "太湖烟波与登高远眺"
+   },
+   {
+    "label": "樱花",
+    "score": 4.7,
+    "note": "樱花季开成云霞，是最出圈的景"
+   },
+   {
+    "label": "人流",
+    "score": 2.3,
+    "note": "樱花季人山人海，进园坐船都排队"
+   },
+   {
+    "label": "性价比",
+    "score": 3.0,
+    "note": "非花期看点少，门票偏贵"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "太湖",
-    "樱花",
-    "第一名胜"
+  "body": "鼋头渚最出圈的是春天：樱花谷一带开成云霞，配着太湖水面确实好看；平日则是看烟波、登鹿顶山远眺，再乘船去太湖仙岛。缺点是樱花季人山人海，进园和坐船都要排队；非花期门票偏贵，可看的东西明显少一截，性价比一般。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "情侣",
+   "老人"
   ],
-  "popularity": 98,
-  "sources": [
-    {
-      "title": "百度百科·鼋头渚",
-      "url": "https://baike.baidu.com/item/%E9%BC%8B%E5%A4%B4%E6%B8%9A",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "avoid": [
+   "非花期专程"
   ],
-  "updatedAt": "2026-11-05",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "鼋头渚"
-  },
-  "_geocodeTitle": "鼋头渚社区",
-  "_geocodeSuspect": false,
-  "district": "320211"
+  "sources": []
+ }
 }

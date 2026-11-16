@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "福建省厦门市集美区银江路183号（集美学村）",
-    "district": "湖里区",
+    "district": "集美区",
     "transportTip": "地铁1号线集美学村站，出站即到"
   },
   "practical": {
@@ -182,7 +182,7 @@
       "fetchedAt": "2026-09-28"
     }
   ],
-  "updatedAt": "2026-11-03",
+  "updatedAt": "2026-11-12",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -190,5 +190,43 @@
   },
   "_geocodeTitle": "集美学村",
   "_geocodeSuspect": false,
-  "district": "350206"
+  "district": "350211",
+  "review": {
+    "score": 4.2,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "建筑",
+        "score": 4.7,
+        "note": "红砖配白花岗岩，中式大屋顶一排排对着龙舟池"
+      },
+      {
+        "label": "散步",
+        "score": 4.4,
+        "note": "沿池走一圈一小时，端午有龙舟赛"
+      },
+      {
+        "label": "人流",
+        "score": 3.8,
+        "note": "比岛内清静，本地居民多"
+      },
+      {
+        "label": "配套",
+        "score": 3.2,
+        "note": "周边餐饮选择偏少"
+      }
+    ],
+    "body": "陈嘉庚从小学一路办到航海商科的学校群，嘉庚风格最成片的地方，南薰楼是最高的一栋，楼群前就是龙舟池。缺点是各楼多为在用校舍不对外开放、只能看外围，学村范围大而餐饮配套少，逛完想吃饭要往集美城区走。",
+    "basis": "corpus",
+    "at": "2026-11-12",
+    "fits": [
+      "看建筑",
+      "散步",
+      "带老人"
+    ],
+    "avoid": [
+      "想进楼参观"
+    ],
+    "sources": []
+  }
 }

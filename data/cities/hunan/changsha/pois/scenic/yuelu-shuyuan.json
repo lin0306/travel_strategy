@@ -1,159 +1,198 @@
 {
-  "id": "yuelu-shuyuan",
-  "name": "岳麓书院",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "北宋创办的书院，讲学千年没断过，现在在湖南大学校园里。",
-  "description": "岳麓书院在岳麓山东面的山脚，北宋开宝九年创建，到今天一千多年，是现存延续时间最长的书院之一。南宋时朱熹来这里讲过学，与张栻的会讲是宋代理学里的一桩大事。门口那副「惟楚有材，于斯为盛」的对联是嘉庆年间山长袁名曜出的句、学生张中阶对的下联。院内的格局是讲堂、斋舍、藏书楼一路进去，御书楼、半学斋、赫曦台几个院子挨着。后园有一片碑廊和园林，是从岳麓山引的泉水。它现在归湖南大学管，进院要买票，从校园里走过去先经过自卑亭。书院旁边就是爱晚亭，两者一并走最顺。",
-  "highlights": [
-    "北宋开宝九年创建，讲学延续千年",
-    "门口「惟楚有材，于斯为盛」是嘉庆年间的对联",
-    "朱熹与张栻的会讲发生在这里"
-  ],
-  "location": {
-    "point": {
-      "lng": 112.94111,
-      "lat": 28.18041,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "湖南省长沙市岳麓区麓山路湖南大学校园内",
-    "district": "岳麓区",
-    "transportTip": "地铁4号线湖南大学站，步行约十分钟"
+ "id": "yuelu-shuyuan",
+ "name": "岳麓书院",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "北宋创办的书院，讲学千年没断过，现在在湖南大学校园里。",
+ "description": "岳麓书院在岳麓山东面的山脚，北宋开宝九年创建，到今天一千多年，是现存延续时间最长的书院之一。南宋时朱熹来这里讲过学，与张栻的会讲是宋代理学里的一桩大事。门口那副「惟楚有材，于斯为盛」的对联是嘉庆年间山长袁名曜出的句、学生张中阶对的下联。院内的格局是讲堂、斋舍、藏书楼一路进去，御书楼、半学斋、赫曦台几个院子挨着。后园有一片碑廊和园林，是从岳麓山引的泉水。它现在归湖南大学管，进院要买票，从校园里走过去先经过自卑亭。书院旁边就是爱晚亭，两者一并走最顺。",
+ "highlights": [
+  "北宋开宝九年创建，讲学延续千年",
+  "门口「惟楚有材，于斯为盛」是嘉庆年间的对联",
+  "朱熹与张栻的会讲发生在这里"
+ ],
+ "location": {
+  "point": {
+   "lng": 112.94111,
+   "lat": 28.18041,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约07:30-17:30（旺季略有延长），以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "门票约40元起，学生半价，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "budget"
+  "address": "湖南省长沙市岳麓区麓山路湖南大学校园内",
+  "district": "岳麓区",
+  "transportTip": "地铁4号线湖南大学站，步行约十分钟"
+ },
+ "practical": {
+  "openHours": "约07:30-17:30（旺季略有延长），以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "门票约40元起，学生半价，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "family",
+  "elders",
+  "solo",
+  "couple"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2_1.jpg/1280px-%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2_1.jpg/1280px-%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "岳麓书院 1.jpg",
+   "query": "岳麓书院 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "EditQ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2_1.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "family",
-    "elders",
-    "solo",
-    "couple"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2_1.jpg/1280px-%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2_1.jpg/1280px-%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "岳麓书院 1.jpg",
-      "query": "岳麓书院 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "EditQ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2_1.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2_2.jpg/1280px-%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2_2.jpg/1280px-%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "岳麓书院 2.jpg",
-      "query": "岳麓书院 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "EditQ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2_2.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2%E6%96%87%E5%BA%99%E5%A4%A7%E6%88%90%E6%AE%BF2026.2.jpg/1280px-%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2%E6%96%87%E5%BA%99%E5%A4%A7%E6%88%90%E6%AE%BF2026.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2%E6%96%87%E5%BA%99%E5%A4%A7%E6%88%90%E6%AE%BF2026.2.jpg/1280px-%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2%E6%96%87%E5%BA%99%E5%A4%A7%E6%88%90%E6%AE%BF2026.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 718,
-      "alt": "岳麓书院文庙大成殿2026.2.jpg",
-      "query": "岳麓书院 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "ScareCriterion12",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2%E6%96%87%E5%BA%99%E5%A4%A7%E6%88%90%E6%AE%BF2026.2.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Entrance_of_Yuelu_Academy_20131120.jpg/1280px-Entrance_of_Yuelu_Academy_20131120.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Entrance_of_Yuelu_Academy_20131120.jpg/1280px-Entrance_of_Yuelu_Academy_20131120.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 675,
-      "alt": "Entrance of Yuelu Academy 20131120.jpg",
-      "query": "岳麓书院 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "颐园新居",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entrance_of_Yuelu_Academy_20131120.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Yuelu_Academy_129.jpg/1280px-Yuelu_Academy_129.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Yuelu_Academy_129.jpg/1280px-Yuelu_Academy_129.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Yuelu Academy 129.jpg",
-      "query": "岳麓书院 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Huangdan2060",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yuelu_Academy_129.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Yuelu_Academy_151.jpg/1280px-Yuelu_Academy_151.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Yuelu_Academy_151.jpg/1280px-Yuelu_Academy_151.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 1440,
-      "alt": "Yuelu Academy 151.jpg",
-      "query": "岳麓书院 长沙",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Uploaded by Huangdan2060",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yuelu_Academy_151.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "书院",
-    "北宋",
-    "理学"
-  ],
-  "popularity": 91,
-  "sources": [
-    {
-      "title": "百度百科·岳麓书院",
-      "url": "https://baike.baidu.com/item/%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "岳麓书院"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2_2.jpg/1280px-%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2_2.jpg/1280px-%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "岳麓书院 2.jpg",
+   "query": "岳麓书院 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "EditQ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "岳麓书院",
-  "_geocodeSuspect": false,
-  "district": "430104"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2%E6%96%87%E5%BA%99%E5%A4%A7%E6%88%90%E6%AE%BF2026.2.jpg/1280px-%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2%E6%96%87%E5%BA%99%E5%A4%A7%E6%88%90%E6%AE%BF2026.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2%E6%96%87%E5%BA%99%E5%A4%A7%E6%88%90%E6%AE%BF2026.2.jpg/1280px-%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2%E6%96%87%E5%BA%99%E5%A4%A7%E6%88%90%E6%AE%BF2026.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 718,
+   "alt": "岳麓书院文庙大成殿2026.2.jpg",
+   "query": "岳麓书院 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "ScareCriterion12",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2%E6%96%87%E5%BA%99%E5%A4%A7%E6%88%90%E6%AE%BF2026.2.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Entrance_of_Yuelu_Academy_20131120.jpg/1280px-Entrance_of_Yuelu_Academy_20131120.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Entrance_of_Yuelu_Academy_20131120.jpg/1280px-Entrance_of_Yuelu_Academy_20131120.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 675,
+   "alt": "Entrance of Yuelu Academy 20131120.jpg",
+   "query": "岳麓书院 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "颐园新居",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entrance_of_Yuelu_Academy_20131120.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Yuelu_Academy_129.jpg/1280px-Yuelu_Academy_129.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Yuelu_Academy_129.jpg/1280px-Yuelu_Academy_129.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Yuelu Academy 129.jpg",
+   "query": "岳麓书院 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Huangdan2060",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yuelu_Academy_129.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Yuelu_Academy_151.jpg/1280px-Yuelu_Academy_151.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Yuelu_Academy_151.jpg/1280px-Yuelu_Academy_151.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 1440,
+   "alt": "Yuelu Academy 151.jpg",
+   "query": "岳麓书院 长沙",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Uploaded by Huangdan2060",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yuelu_Academy_151.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "书院",
+  "北宋",
+  "理学"
+ ],
+ "popularity": 91,
+ "sources": [
+  {
+   "title": "百度百科·岳麓书院",
+   "url": "https://baike.baidu.com/item/%E5%B2%B3%E9%BA%93%E4%B9%A6%E9%99%A2",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "岳麓书院"
+ },
+ "_geocodeTitle": "岳麓书院",
+ "_geocodeSuspect": false,
+ "district": "430104",
+ "review": {
+  "score": 4.6,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "古建",
+    "score": 4.6,
+    "note": "讲堂、斋舍、藏书楼一路进去"
+   },
+   {
+    "label": "讲解",
+    "score": 3.8,
+    "note": "典故密集，没人讲会漏掉大半"
+   },
+   {
+    "label": "人流",
+    "score": 2.5,
+    "note": "旺季团队一波接一波"
+   },
+   {
+    "label": "门票",
+    "score": 3.0,
+    "note": "院区不大，票价显得偏高"
+   }
+  ],
+  "body": "一千多年没断过讲学的书院，讲堂、斋舍、藏书楼一路进去，赫曦台与碑廊是容易走漏的两处，门口那副对联几乎人人要拍。缺点是门票不便宜，院区其实不大，走得快一会儿就到底；旺季团队一波接一波，讲堂前想安静站一会儿很难。建议把它和爱晚亭连着走，单为书院跑一趟会觉得性价比一般。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "看古建",
+   "文化线",
+   "秋天"
+  ],
+  "avoid": [
+   "只安排半小时",
+   "期待宏大"
+  ],
+  "sources": []
+ }
 }

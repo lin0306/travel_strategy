@@ -1,114 +1,151 @@
 {
-  "id": "xi-tang",
-  "name": "西塘古镇",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "廊棚临水、烟雨长廊的江南古镇。",
-  "description": "西塘在嘉善县，是江南六大古镇之一，以千米长的烟雨长廊和临水廊棚闻名，雨天不打伞也能走街串巷。镇上石桥、古宅、弄堂密布，傍晚灯笼亮起格外有味道。它比很多古镇更生活化，居民仍在河边起居。夜游西塘是经典玩法，清晨则安静通透。",
-  "highlights": [
-    "千米烟雨长廊临水",
-    "烟雨弄堂石桥密布",
-    "夜游清晨各有味"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.89319,
-      "lat": 30.94402,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "嘉兴市嘉善县西塘古镇",
-    "district": "嘉善县",
-    "transportTip": "嘉善乘公交或自驾约40分钟"
+ "id": "xi-tang",
+ "name": "西塘古镇",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "廊棚临水、烟雨长廊的江南古镇。",
+ "description": "西塘在嘉善县，是江南六大古镇之一，以千米长的烟雨长廊和临水廊棚闻名，雨天不打伞也能走街串巷。镇上石桥、古宅、弄堂密布，傍晚灯笼亮起格外有味道。它比很多古镇更生活化，居民仍在河边起居。夜游西塘是经典玩法，清晨则安静通透。",
+ "highlights": [
+  "千米烟雨长廊临水",
+  "烟雨弄堂石桥密布",
+  "夜游清晨各有味"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.89319,
+   "lat": 30.94402,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-21:30（以景区公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约95元起，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 180-360 分钟",
-    "durationMinutes": [
-      180,
-      360
-    ],
-    "priceLevel": "mid"
+  "address": "嘉兴市嘉善县西塘古镇",
+  "district": "嘉善县",
+  "transportTip": "嘉善乘公交或自驾约40分钟"
+ },
+ "practical": {
+  "openHours": "约08:00-21:30（以景区公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约95元起，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 180-360 分钟",
+  "durationMinutes": [
+   180,
+   360
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-1.jpg/1280px-%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-1.jpg/1280px-%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "嘉兴西塘古镇20180607-1.jpg",
+   "query": "西塘古镇 嘉兴",
+   "credit": {
+    "source": "wikimedia",
+    "author": "WFan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-1.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "friends",
-    "family",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-1.jpg/1280px-%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-1.jpg/1280px-%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "嘉兴西塘古镇20180607-1.jpg",
-      "query": "西塘古镇 嘉兴",
-      "credit": {
-        "source": "wikimedia",
-        "author": "WFan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-1.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-2.jpg/1280px-%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-2.jpg/1280px-%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "嘉兴西塘古镇20180607-2.jpg",
-      "query": "西塘古镇 嘉兴",
-      "credit": {
-        "source": "wikimedia",
-        "author": "WFan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-2.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1440,
-      "alt": "嘉兴西塘古镇20180607-3.jpg",
-      "query": "西塘古镇 嘉兴",
-      "credit": {
-        "source": "wikimedia",
-        "author": "WFan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-3.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "西塘",
-    "古镇",
-    "廊棚"
-  ],
-  "popularity": 94,
-  "sources": [
-    {
-      "title": "百度百科·西塘古镇",
-      "url": "https://baike.baidu.com/item/%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%87",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-05"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "西塘古镇"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-2.jpg/1280px-%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-2.jpg/1280px-%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "嘉兴西塘古镇20180607-2.jpg",
+   "query": "西塘古镇 嘉兴",
+   "credit": {
+    "source": "wikimedia",
+    "author": "WFan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-2.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "西塘古镇景区",
-  "_geocodeSuspect": false,
-  "district": "330421"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 1440,
+   "alt": "嘉兴西塘古镇20180607-3.jpg",
+   "query": "西塘古镇 嘉兴",
+   "credit": {
+    "source": "wikimedia",
+    "author": "WFan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%98%89%E5%85%B4%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%8720180607-3.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "西塘",
+  "古镇",
+  "廊棚"
+ ],
+ "popularity": 94,
+ "sources": [
+  {
+   "title": "百度百科·西塘古镇",
+   "url": "https://baike.baidu.com/item/%E8%A5%BF%E5%A1%98%E5%8F%A4%E9%95%87",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-05"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "西塘古镇"
+ },
+ "_geocodeTitle": "西塘古镇景区",
+ "_geocodeSuspect": false,
+ "district": "330421",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "廊棚",
+    "score": 4.6,
+    "note": "千米烟雨长廊临水，雨天不打伞也能走"
+   },
+   {
+    "label": "商业化",
+    "score": 2.7,
+    "note": "沿河店铺同质，卖的东西大同小异"
+   },
+   {
+    "label": "夜景",
+    "score": 4.2,
+    "note": "傍晚灯笼亮起，河边最有味道"
+   },
+   {
+    "label": "人流",
+    "score": 2.8,
+    "note": "节假日主街很挤，清晨最通透"
+   }
+  ],
+  "body": "西塘最实用的一件东西是廊棚——千米长的沿河廊子，下雨天不用打伞就能把镇子走完，这在江南古镇里不多见。它比很多古镇更生活化，居民还在河边起居，清晨安静、傍晚灯笼亮起最好看。缺点是沿河店铺同质化严重，卖的东西几乎一样，商业化痕迹明显；节假日主街挤得挪不动步，想拍干净的画面只能起早。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "雨天也能逛",
+   "住一晚看清晨"
+  ],
+  "avoid": [
+   "节假日凑热闹"
+  ],
+  "sources": []
+ }
 }

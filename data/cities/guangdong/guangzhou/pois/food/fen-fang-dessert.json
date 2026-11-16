@@ -16,9 +16,9 @@
       "lat": 23.116161,
       "coordSystem": "GCJ-02"
     },
-    "address": "广州市荔湾区第十甫路与大同路一带",
+    "address": "广州市越秀区东湖西路 50 号 B1 楼 05 铺（东湖店）",
     "district": "越秀区",
-    "transportTip": "地铁1号线长寿路站"
+    "transportTip": "地铁6号线东湖站 B2 口，步行约 200 米"
   },
   "practical": {
     "openHours": "约10:00-23:00（以门店公告为准）",
@@ -54,9 +54,15 @@
       "url": "https://baike.baidu.com/item/%E5%B9%BF%E5%B7%9E%E8%8A%AC%E8%8A%B3%E7%94%9C%E5%93%81%E5%BA%97",
       "kind": "wiki",
       "fetchedAt": "2026-09-24"
+    },
+    {
+      "title": "百度百科·芬芳甜品（东湖西店）",
+      "url": "https://baike.baidu.com/item/%E8%8A%AC%E8%8A%B3%E7%94%9C%E5%93%81%EF%BC%88%E4%B8%9C%E6%B9%96%E8%A5%BF%E5%BA%97%EF%BC%89/14275901",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -65,5 +71,22 @@
   "_geocodeTitle": "芬芳甜品(东湖店)",
   "_geocodeSuspect": false,
   "district": "440104",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "广州市荔湾区第十甫路与大同路一带",
+        "new": "广州市越秀区东湖西路 50 号 B1 楼 05 铺（东湖店）"
+      },
+      {
+        "field": "交通提示",
+        "old": "地铁1号线长寿路站",
+        "new": "地铁6号线东湖站 B2 口，步行约 200 米"
+      }
+    ],
+    "source": "https://baike.baidu.com/item/%E8%8A%AC%E8%8A%B3%E7%94%9C%E5%93%81%EF%BC%88%E4%B8%9C%E6%B9%96%E8%A5%BF%E5%BA%97%EF%BC%89/14275901",
+    "reason": "地址与所在区自相矛盾：库里写荔湾第十甫路，但 district/坐标/反查名均为越秀东湖店；腾讯地图同坐标 POI 亦为东湖西路50号"
+  }
 }

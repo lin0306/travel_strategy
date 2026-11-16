@@ -1,74 +1,112 @@
 {
-  "id": "pingshan-art-museum",
-  "name": "坪山美术馆",
-  "category": "scenic",
-  "subtype": "museum",
-  "summary": "深圳东部的当代艺术馆，免费免预约，白色旋转楼梯是它最出片的地方",
-  "description": "坪山文化聚落里的公立美术馆，主打实验性当代艺术与新媒体艺术，建筑本身是它的第一个展品：纯白色旋转楼梯和带悬浮感的体量，专程来拍照的人不少。馆内常设内容包括开馆以来的馆藏特展和三楼的虚拟美术馆，特展换得比较勤。免费、无需预约，人多时会分段限流。它在深圳东部，从市中心过来一趟要一小时以上，建议和同在汇德路的坪山大剧院、坪山展览馆排在一起，别为它单独跑一趟。",
-  "highlights": [
-    "纯白旋转楼梯与悬浮体量，建筑本身就是打卡点",
-    "馆藏特展与三楼虚拟美术馆常设，特展更换频繁",
-    "与坪山大剧院、坪山展览馆同在汇德路，可一次逛完"
-  ],
-  "location": {
-    "point": {
-      "lng": 114.346558,
-      "lat": 22.706761,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "深圳市坪山区坪山街道汇德路4号",
-    "district": "坪山区",
-    "transportTip": "地铁14号线坪山中心站A口步行约500米，或16号线新和站；公交至坪山实验学校站"
+ "id": "pingshan-art-museum",
+ "name": "坪山美术馆",
+ "category": "scenic",
+ "subtype": "museum",
+ "summary": "深圳东部的当代艺术馆，免费免预约，白色旋转楼梯是它最出片的地方",
+ "description": "坪山文化聚落里的公立美术馆，主打实验性当代艺术与新媒体艺术，建筑本身是它的第一个展品：纯白色旋转楼梯和带悬浮感的体量，专程来拍照的人不少。馆内常设内容包括开馆以来的馆藏特展和三楼的虚拟美术馆，特展换得比较勤。免费、无需预约，人多时会分段限流。它在深圳东部，从市中心过来一趟要一小时以上，建议和同在汇德路的坪山大剧院、坪山展览馆排在一起，别为它单独跑一趟。",
+ "highlights": [
+  "纯白旋转楼梯与悬浮体量，建筑本身就是打卡点",
+  "馆藏特展与三楼虚拟美术馆常设，特展更换频繁",
+  "与坪山大剧院、坪山展览馆同在汇德路，可一次逛完"
+ ],
+ "location": {
+  "point": {
+   "lng": 114.346558,
+   "lat": 22.706761,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "周二至周日 约 09:00-17:00（16:30 停止入场），周一闭馆；节假日安排看官方公众号",
-    "openHoursRef": 0,
-    "ticket": "免费，无需预约",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "solo",
-    "couple",
-    "friends"
+  "address": "深圳市坪山区坪山街道汇德路4号",
+  "district": "坪山区",
+  "transportTip": "地铁14号线坪山中心站A口步行约500米，或16号线新和站；公交至坪山实验学校站"
+ },
+ "practical": {
+  "openHours": "周二至周日 约 09:00-17:00（16:30 停止入场），周一闭馆；节假日安排看官方公众号",
+  "openHoursRef": 0,
+  "ticket": "免费，无需预约",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
   ],
-  "accessible": false,
-  "tips": [
-    "周一闭馆，节假日与恶劣天气的开闭馆看官方公众号",
-    "展厅内禁用闪光灯、三脚架与自拍杆",
-    "离市中心远，建议和坪山大剧院一起排"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "solo",
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [
+  "周一闭馆，节假日与恶劣天气的开闭馆看官方公众号",
+  "展厅内禁用闪光灯、三脚架与自拍杆",
+  "离市中心远，建议和坪山大剧院一起排"
+ ],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "美术馆",
+  "免费",
+  "坪山",
+  "当代艺术",
+  "拍照"
+ ],
+ "popularity": 66,
+ "sources": [
+  {
+   "title": "坪山区美术馆参观须知（坪山区人民政府）",
+   "url": "https://www.szpsq.gov.cn/zwgk/zdlyxxgk/ggqsydw/msggwgk/msggzzd/content/post_12764398.html",
+   "kind": "gov",
+   "fetchedAt": "2026-10-25"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Pingshan Art Museum",
+  "zh": "坪山美术馆"
+ },
+ "_geocodeTitle": "坪山美术馆",
+ "_geocodeSuspect": false,
+ "district": "440310",
+ "_noImage": true,
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "建筑",
+    "score": 4.5,
+    "note": "纯白旋转楼梯与悬浮体量最出片"
+   },
+   {
+    "label": "免费",
+    "score": 4.5,
+    "note": "免费、无需预约"
+   },
+   {
+    "label": "展陈",
+    "score": 3.6,
+    "note": "实验性当代艺术，特展换得勤"
+   },
+   {
+    "label": "交通",
+    "score": 2.3,
+    "note": "在东部，从市中心过来要一小时以上"
+   }
   ],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "美术馆",
-    "免费",
-    "坪山",
-    "当代艺术",
-    "拍照"
+  "body": "坪山文化聚落里的公立美术馆，主打实验性当代艺术与新媒体艺术；纯白旋转楼梯和带悬浮感的体量本身就是第一个展品，专程来拍照的人不少，馆藏特展与三楼虚拟美术馆常设，免费免预约，人多时分段限流。缺点是离市中心远，单独为它跑一趟不划算，最好和同在汇德路的大剧院、展览馆一起排；周一闭馆，展厅内还禁用闪光灯、三脚架与自拍杆。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "拍建筑",
+   "坪山半日串联"
   ],
-  "popularity": 66,
-  "sources": [
-    {
-      "title": "坪山区美术馆参观须知（坪山区人民政府）",
-      "url": "https://www.szpsq.gov.cn/zwgk/zdlyxxgk/ggqsydw/msggwgk/msggzzd/content/post_12764398.html",
-      "kind": "gov",
-      "fetchedAt": "2026-10-25"
-    }
+  "avoid": [
+   "周一来",
+   "只逛一个馆"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Pingshan Art Museum",
-    "zh": "坪山美术馆"
-  },
-  "_geocodeTitle": "坪山美术馆",
-  "_geocodeSuspect": false,
-  "district": "440310",
-  "_noImage": true
+  "sources": []
+ }
 }

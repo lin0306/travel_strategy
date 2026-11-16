@@ -1,6 +1,6 @@
 # 宁波 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-09-30
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-14
 
 ## 概览
 
@@ -67,14 +67,17 @@
 | 慈城老街巷 | [百度百科·慈城](https://baike.baidu.com/item/%E6%85%88%E5%9F%8E%E9%95%87) | wiki | 2026-09-30 |
 | 韩岭美术馆 | [百度百科·韩岭美术馆](https://baike.baidu.com/item/%E9%9F%A9%E5%B2%AD%E7%BE%8E%E6%9C%AF%E9%A6%86) | wiki | 2026-09-30 |
 | 河姆渡干栏式建筑复原 | [百度百科·河姆渡遗址](https://baike.baidu.com/item/%E6%B2%B3%E5%A7%86%E6%B8%A1%E9%81%97%E5%9D%80) | wiki | 2026-09-30 |
+| 河姆渡干栏式建筑复原 | [余姚市发改局关于河姆渡考古遗址公园门票试行价格的公告](https://m.gmw.cn/toutiao/2026-03/17/content_1304379961.htm) | media | 2026-11-10 |
 | 江北天主教堂 | [百度百科·江北天主教堂](https://baike.baidu.com/item/%E5%AE%81%E6%B3%A2%E6%B1%9F%E5%8C%97%E5%A4%A9%E4%B8%BB%E6%95%99%E5%A0%82) | wiki | 2026-09-30 |
 | 宁波美术馆(老外滩馆区) | [百度百科·宁波美术馆](https://baike.baidu.com/item/%E5%AE%81%E6%B3%A2%E7%BE%8E%E6%9C%AF%E9%A6%86) | wiki | 2026-09-30 |
 | 宁波图书馆新馆 | [百度百科·宁波图书馆](https://baike.baidu.com/item/%E5%AE%81%E6%B3%A2%E5%9B%BE%E4%B9%A6%E9%A6%86) | wiki | 2026-09-30 |
 | 三江口 | [百度百科·三江口](https://baike.baidu.com/item/%E5%AE%81%E6%B3%A2%E4%B8%89%E6%B1%9F%E5%8F%A3) | wiki | 2026-09-30 |
 | 天一广场音乐喷泉 | [百度百科·天一广场](https://baike.baidu.com/item/%E5%AE%81%E6%B3%A2%E5%A4%A9%E4%B8%80%E5%B9%BF%E5%9C%BA) | wiki | 2026-09-30 |
 | 雪窦山弥勒圣坛 | [百度百科·雪窦寺](https://baike.baidu.com/item/%E9%9B%AA%E7%AA%A6%E5%AF%BA) | wiki | 2026-09-30 |
+| 雪窦山弥勒圣坛 | [宁波雪窦文旅：弥勒圣坛票价与营业时间公告](http://mp.weixin.qq.com/s?__biz=MzI1NjQ5NjM5NA==&mid=2247519891&idx=1&sn=a8a9260573b5067c4b0326f97aaf28d1) | media | 2026-11-10 |
 | 城隍庙小吃街 | [百度百科·宁波城隍庙](https://baike.baidu.com/item/%E5%AE%81%E6%B3%A2%E5%9F%8E%E9%9A%8D%E5%BA%99) | wiki | 2026-09-30 |
 | 东钱湖环湖绿道 | [百度百科·东钱湖](https://baike.baidu.com/item/%E4%B8%9C%E9%92%B1%E6%B9%96) | wiki | 2026-09-30 |
+| 东钱湖环湖绿道 | [宁波广电：东钱湖环湖骑行攻略（约32公里/70%专用道）](https://www.ncmc.nbtv.cn/xwdsg/nb/40448441.shtml) | media | 2026-11-10 |
 | 老外滩酒吧街 | [百度百科·宁波老外滩](https://baike.baidu.com/item/%E5%AE%81%E6%B3%A2%E8%80%81%E5%A4%96%E6%BB%A9) | wiki | 2026-09-30 |
 | 南塘河夜色 | [百度百科·南塘老街](https://baike.baidu.com/item/%E5%AE%81%E6%B3%A2%E5%8D%97%E5%A1%98%E8%80%81%E8%A1%97) | wiki | 2026-09-30 |
 | 宁波戏曲演出 | [百度百科·甬剧](https://baike.baidu.com/item/%E7%94%AC%E5%89%A7) | wiki | 2026-09-30 |
@@ -85,9 +88,8 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%81%E5%85%B4%E5%9F%8E%E5%B8%82%E8%8A%B1%E5%9B%AD%E9%A3%8E%E5%85%89_-_panoramio.jpg) |
-| 城市封面 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%81%E5%85%B4%E5%9F%8E%E5%B8%82%E8%8A%B1%E5%9B%AD%E9%A3%8E%E5%85%89_-_panoramio_(1).jpg) |
-| 城市封面 | 江上清风1961 | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%81%E5%85%B4%E5%9F%8E%E5%B8%82%E8%8A%B1%E5%9B%AD%E9%A3%8E%E5%85%89_-_panoramio_(2).jpg) |
+| 城市封面 | Huandy618 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Juncture_of_three_main_rivers_in_Ningbo_04.jpg) |
+| 城市封面 | 源義信 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2023-06-03_%E5%AF%A7%E6%B3%A2%E8%80%81%E5%A4%96%E7%81%98.jpg) |
 | 阿育王寺 | 东京村子 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%81%E6%B3%A2%E9%98%BF%E8%82%B2%E7%8E%8B%E5%AF%BA_-_panoramio_(1).jpg) |
 | 阿育王寺 | 东京村子 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%81%E6%B3%A2%E9%98%BF%E8%82%B2%E7%8E%8B%E5%AF%BA_-_panoramio_(10).jpg) |
 | 阿育王寺 | 东京村子 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%81%E6%B3%A2%E9%98%BF%E8%82%B2%E7%8E%8B%E5%AF%BA_-_panoramio_(11).jpg) |

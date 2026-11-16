@@ -26,6 +26,12 @@ tools/intake_candidates.py —— 把**人/AI 审过的候选**落成正式 POI�
      "tips":["..."], "tags":["..."], "src":["来源标题","https://...","gov"],
      "qEn":"English Name", "qZh":"中文名"}
 
+★★ **风评闸门（2026-11-10 起强制）**：每条必须先经 `tools/rate_poi.py rate` 打出
+四维分（口碑/独特/密度/可信 → 0~5）。`no`（<2.5）拒收、未评分拒收
+（`--allow-unrated` 只给历史补录/紧急修数据）、`maybe`（2.5~3.5）放行但提醒。
+理由：`discover` 的候选只是"关键词命中"——图商一个词返回 20 条，好景点和差景点
+混在一起，不评分就等于把「废弃旧址」「连锁复刻街」也当景点收进来。
+
 ★ 幂等：id 已存在则跳过；同名（归一化后）与库内重复则拒收。
 ★ 任何一条校验失败 ⇒ **整批不写**（不做半批入库，避免"一半进了一半没进"）。
 """
@@ -135,16 +141,55 @@ def _insert_into_seed(src: str, attr: str, blocks: list[str]) -> str:
         raise SystemExit(f"采编稿里找不到 `{attr} = [...]` 列表")
     line_no = node.end_lineno                      # 1-based，`]` 所在行
     lines = src.splitlines(keepends=True)
-    # 插到 `]` 行之前；`]` 行本身保持不动
     insert_at = line_no - 1
-    if "]" not in lines[insert_at]:
+    tail = lines[insert_at]
+    if "]" not in tail:
         raise SystemExit(f"`{attr}` 的 end_lineno={line_no} 那行不是 `]` —— 采编稿格式变了")
-    return "".join(lines[:insert_at]) + "".join(b + "\n" for b in blocks) + "".join(lines[insert_at:])
+    block_text = "".join(b + "\n" for b in blocks)
+    # ★ 老采编稿常把列表的 `]` 与最后一条 dict 的收尾挤在同一行
+    #   （如 `src=("...", baike("..."), "wiki"))]`）。此时若整行前插，新条目会
+    #   落进上一条 dict 的参数列表 ⇒ SyntaxError: positional argument follows
+    #   keyword argument。要先拆行、给末项补逗号，再插到 `]` 之前。
+    idx = tail.rfind("]")
+    head = tail[:idx]
+    if not head.strip():                           # `]` 独占一行 ⇒ 原逻辑即可
+        return "".join(lines[:insert_at]) + block_text + "".join(lines[insert_at:])
+    indent = tail[:len(tail) - len(tail.lstrip())]
+    head = head.rstrip()
+    if not head.endswith(","):
+        head += ","
+    return ("".join(lines[:insert_at]) + head + "\n" + block_text
+            + indent + tail[idx:].lstrip() + "".join(lines[insert_at + 1:]))
 
 
-def _validate(items: list[dict], city_id: str, existing_norm: set[str]) -> tuple[list[dict], list[str]]:
+def _load_reviews(city_id: str) -> dict:
+    """读该城的风评打分表（`tools/rate_poi.py` 写的）。
+
+    ★ 键是**候选原名**（strip 后）。评分文件缺失 = 全库还没人评过，不是错误。
+    """
+    p = REPO / "data" / "_generated" / "reviews" / f"{city_id}.json"
+    if not p.is_file():
+        return {}
+    try:
+        return json.loads(p.read_text(encoding="utf-8")).get("items") or {}
+    except Exception:                                          # noqa: BLE001
+        return {}
+
+
+def _validate(items: list[dict], city_id: str, existing_norm: set[str],
+              reviews: dict | None = None,
+              allow_unrated: bool = False) -> tuple[list[dict], list[str]]:
+    """逐条校验。**风评是闸门，不是建议**（2026-11-10 起）。
+
+    `discover` 的候选只代表"关键词命中"，与景点好坏无关：一个词返回 20 条，
+    好景点和差景点混在一起。所以入库前必须有 `rate_poi.py` 的四维分数：
+      · `no`（< 2.5）   ⇒ 拒收，理由会列出来；
+      · 未评分         ⇒ 拒收（`--allow-unrated` 可放开，只给历史补录/紧急修数据用）；
+      · `maybe`（2.5~3.5）⇒ 放行但打印提醒（是否该城该子类还空着，由人/AI 判）。
+    """
     ok: list[dict] = []
     errs: list[str] = []
+    reviews = reviews or {}
     seen_id: set[str] = set()
     seen_norm: dict[str, str] = {}
     for i, d in enumerate(items):
@@ -158,6 +203,23 @@ def _validate(items: list[dict], city_id: str, existing_norm: set[str]) -> tuple
                 errs.append(f"{tag}: 缺必填字段 `{k}`")
         if errs and errs[-1].startswith(tag):
             continue
+        # ★★ 风评闸门（放在重名校验之前：分数低就没必要再比名字）
+        rv = reviews.get(str(d["name"]).strip())
+        if rv is None:
+            if not allow_unrated:
+                errs.append(
+                    f"{tag}: 没有风评分数 —— 先跑 tools/rate_poi.py rate 给四维分"
+                    f"（口碑/独特/密度/可信），再入库。真的不需要评（历史补录）"
+                    f"才加 --allow-unrated")
+                continue
+        elif rv.get("verdict") == "no":
+            errs.append(
+                f"{tag}: 风评判 no（{rv.get('score')}）—— {str(rv.get('why') or '')[:40]}；"
+                f"确有变化先重跑 rate_poi.py rate 覆盖分数")
+            continue
+        elif rv.get("verdict") == "maybe":
+            print(f"  · {tag}: 风评 maybe（{rv.get('score')}）—— "
+                  f"只在这城该子类还空着时才该入，请确认")
         if d["id"] in seen_id:
             errs.append(f"{tag}: id 在本批内重复")
             continue
@@ -190,6 +252,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--items", required=True, help="条目 JSON 文件")
     ap.add_argument("--dry-run", action="store_true", help="只校验与预览，不落盘")
     ap.add_argument("--no-seed", action="store_true", help="不写采编稿（仅落 pois，慎用）")
+    ap.add_argument("--allow-unrated", action="store_true",
+                    help="跳过风评闸门（只给历史补录 / 紧急修数据用）")
     a = ap.parse_args(argv)
 
     city_id = a.city
@@ -200,7 +264,8 @@ def main(argv: list[str] | None = None) -> int:
         raise SystemExit("--items 必须是 JSON 数组")
 
     existing_norm = _load_seed_names(city_id)
-    ok, errs = _validate(raw, city_id, existing_norm)
+    ok, errs = _validate(raw, city_id, existing_norm,
+                         _load_reviews(city_id), a.allow_unrated)
 
     # id 已存在（幂等重跑）⇒ 跳过而不是报错
     skipped: list[str] = []

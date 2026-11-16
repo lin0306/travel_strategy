@@ -1,68 +1,107 @@
 {
-  "id": "nni-yongjiang-night",
-  "name": "邕江夜游船",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "从民生广场出发，水上读南宁夜景。",
-  "description": "邕江夜游船从民生广场码头出发，沿邕江开行一段，看两岸的桥和建筑的灯光，是南宁夜生活里比较出圈的一项。夏季船班次多，冬季减少。它和岸上散步互补——水上能看到更完整的光带。票价以公告为准，建议提前订。适合安排一个晚上。",
-  "highlights": [
-    "民生广场出发，水上读夜景",
-    "夏季班次多，冬季减少",
-    "与岸上散步互补，建议提前订"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.312886,
-      "lat": 22.812054,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市西乡塘区民生路131号民生广场码头",
-    "district": "西乡塘区",
-    "transportTip": "地铁1号线民生广场站步行"
+ "id": "nni-yongjiang-night",
+ "name": "邕江夜游船",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "从民生广场出发，水上读南宁夜景。",
+ "description": "邕江夜游船从民生广场码头出发，沿邕江开行一段，看两岸的桥和建筑的灯光，是南宁夜生活里比较出圈的一项。夏季船班次多，冬季减少。它和岸上散步互补——水上能看到更完整的光带。票价以公告为准，建议提前订。适合安排一个晚上。",
+ "highlights": [
+  "民生广场出发，水上读夜景",
+  "夏季班次多，冬季减少",
+  "与岸上散步互补，建议提前订"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.312886,
+   "lat": 22.812054,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约19:30-21:30（以公告为准）",
-    "openHoursRef": 0,
-    "ticket": "以公告为准",
-    "ticketRef": 0,
-    "duration": "建议 60-90 分钟",
-    "durationMinutes": [
-      60,
-      90
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "family"
+  "address": "南宁市西乡塘区民生路131号民生广场码头",
+  "district": "西乡塘区",
+  "transportTip": "地铁1号线民生广场站步行"
+ },
+ "practical": {
+  "openHours": "约19:30-21:30（以公告为准）",
+  "openHoursRef": 0,
+  "ticket": "以公告为准",
+  "ticketRef": 0,
+  "duration": "建议 60-90 分钟",
+  "durationMinutes": [
+   60,
+   90
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "夜游",
-    "游船",
-    "邕江"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "夜游",
+  "游船",
+  "邕江"
+ ],
+ "popularity": 72,
+ "sources": [
+  {
+   "title": "百度百科·邕江",
+   "url": "https://baike.baidu.com/item/%E9%82%95%E6%B1%9F",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "邕江夜游船"
+ },
+ "_geocodeTitle": "邕江夜游",
+ "_geocodeSuspect": false,
+ "district": "450107",
+ "_noImage": true,
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "观演位置",
+    "score": 4.2,
+    "note": "水面视角能看到完整的桥与楼宇光带"
+   },
+   {
+    "label": "性价比",
+    "score": 3.3,
+    "note": "票价按船型浮动，旺季不便宜"
+   },
+   {
+    "label": "时长",
+    "score": 3.8,
+    "note": "一段航程一小时上下"
+   },
+   {
+    "label": "交通",
+    "score": 4.0,
+    "note": "民生广场码头在市区，步行可达"
+   }
   ],
-  "popularity": 72,
-  "sources": [
-    {
-      "title": "百度百科·邕江",
-      "url": "https://baike.baidu.com/item/%E9%82%95%E6%B1%9F",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "夜游船是看邕江最省力的方式：从民生广场码头出发，沿江走一段，两岸的桥、楼宇和灯光从水面看是另一套构图，比岸上散步完整得多。上船点就在市区，走得到，晚上安排一小时不算占时间。它的短板是「看天吃饭」：水位、天气和船班都会影响体验，冬季班次明显减少，赶上人流多的假期要提前订、现场买常常没位；票价按船型和舱位浮动，性价比一般，很多人下船的第一感受是「景不错，就是贵了点」。想拍夜景值得上一次，想省钱就在岸上走。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "拍夜景",
+   "带长辈",
+   "不费力"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "邕江夜游船"
-  },
-  "_geocodeTitle": "邕江夜游",
-  "_geocodeSuspect": false,
-  "district": "450107",
-  "_noImage": true
+  "avoid": [
+   "预算紧",
+   "临时到现场买票"
+  ],
+  "sources": []
+ }
 }

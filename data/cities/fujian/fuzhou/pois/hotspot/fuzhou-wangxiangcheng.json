@@ -16,7 +16,7 @@
       "lat": 26.074819,
       "coordSystem": "GCJ-02"
     },
-    "address": "福州市鼓楼区工业路万象城",
+    "address": "福州市鼓楼区工业路与洪山园路5号",
     "district": "鼓楼区",
     "transportTip": "地铁2号线宁化站步行约8分钟"
   },
@@ -53,9 +53,15 @@
       "url": "https://baike.baidu.com/item/%E4%B8%87%E8%B1%A1%E5%9F%8E",
       "kind": "wiki",
       "fetchedAt": "2026-10-04"
+    },
+    {
+      "title": "宝格丽门店页·福州万象城",
+      "url": "https://www.bulgari.com/zh-sg/storelocator/country-region/%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86/fujian/fuzhou/no.-5-gongye-road-and-hongshanyuan-road",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -64,5 +70,17 @@
   "_geocodeTitle": "福州万象城",
   "_geocodeSuspect": false,
   "district": "350102",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "福州市鼓楼区工业路万象城",
+        "new": "福州市鼓楼区工业路与洪山园路5号"
+      }
+    ],
+    "source": "https://www.bulgari.com/zh-sg/storelocator/country-region/%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86/fujian/fuzhou/no.-5-gongye-road-and-hongshanyuan-road",
+    "reason": "万象城门牌：品牌门店页与图商同载工业路洪山园路5号"
+  }
 }

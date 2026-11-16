@@ -1,72 +1,110 @@
 {
-  "id": "panlong-lake",
-  "name": "蟠龙湖",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "宽城县一座水库湖，水碧、山青，是本地人钓鱼和水上玩的地方。",
-  "description": "蟠龙湖在宽城满族自治县，是一座水库变成的湖。水是碧绿的，两边是山，山上有长城的遗迹 —— 水下还有一段淹了的长城，所以也叫水下长城。能坐船、钓鱼。它离市区远，本地人来得多。人少，安静。夏天凉快。",
-  "highlights": [
-    "宽城水库湖，水碧山青",
-    "水下有一段淹没的长城，故名水下长城",
-    "可坐船钓鱼，人少安静"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.336632,
-      "lat": 40.434519,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市宽城满族蒙古族自治县蟠龙湖",
-    "district": "宽城满族自治县",
-    "transportTip": "宽城或承德方向转车到蟠龙湖",
-    "entrance": {
-      "lng": 118.336753,
-      "lat": 40.434085,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "panlong-lake",
+ "name": "蟠龙湖",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "宽城县一座水库湖，水碧、山青，是本地人钓鱼和水上玩的地方。",
+ "description": "蟠龙湖在宽城满族自治县，是一座水库变成的湖。水是碧绿的，两边是山，山上有长城的遗迹 —— 水下还有一段淹了的长城，所以也叫水下长城。能坐船、钓鱼。它离市区远，本地人来得多。人少，安静。夏天凉快。",
+ "highlights": [
+  "宽城水库湖，水碧山青",
+  "水下有一段淹没的长城，故名水下长城",
+  "可坐船钓鱼，人少安静"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.336632,
+   "lat": 40.434519,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约07:30-17:30，以景区公告为准",
-    "openHoursRef": 0,
-    "ticket": "免费，游船另计",
-    "ticketRef": 0,
-    "duration": "建议 120-240 分钟",
-    "durationMinutes": [
-      120,
-      240
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "family",
-    "friends"
+  "address": "河北省承德市宽城满族蒙古族自治县蟠龙湖",
+  "district": "宽城满族自治县",
+  "transportTip": "宽城或承德方向转车到蟠龙湖",
+  "entrance": {
+   "lng": 118.336753,
+   "lat": 40.434085,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约07:30-17:30，以景区公告为准",
+  "openHoursRef": 0,
+  "ticket": "免费，游船另计",
+  "ticketRef": 0,
+  "duration": "建议 120-240 分钟",
+  "durationMinutes": [
+   120,
+   240
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "湖",
-    "水下长城",
-    "钓鱼"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "family",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "湖",
+  "水下长城",
+  "钓鱼"
+ ],
+ "popularity": 50,
+ "sources": [
+  {
+   "title": "百度百科·蟠龙湖",
+   "url": "https://baike.baidu.com/item/%E8%9F%A0%E9%BE%99%E6%B9%96",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "蟠龙湖"
+ },
+ "_geocodeTitle": "蟠龙湖景区游船码头",
+ "_geocodeSuspect": false,
+ "district": "130827",
+ "_noImage": true,
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "景观",
+    "score": 4.2,
+    "note": "碧水夹山，山上有长城残迹"
+   },
+   {
+    "label": "人少",
+    "score": 4.4,
+    "note": "本地客为主，节假日也不至于挤"
+   },
+   {
+    "label": "交通",
+    "score": 2.4,
+    "note": "在宽城，离承德市区远，没车不便"
+   },
+   {
+    "label": "水上项目",
+    "score": 3.4,
+    "note": "能坐船钓鱼，另收费"
+   }
   ],
-  "popularity": 50,
-  "sources": [
-    {
-      "title": "百度百科·蟠龙湖",
-      "url": "https://baike.baidu.com/item/%E8%9F%A0%E9%BE%99%E6%B9%96",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "body": "水库改成的大湖，水色碧绿，两岸山上还有长城残迹，水下淹着一段，所以叫水下长城。人少安静，适合带竿子坐一下午。短板是远 —— 在宽城，没车基本去不了；游船和钓位都要另算钱，玩水之前先问清价格。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "自驾",
+   "钓鱼"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "蟠龙湖"
-  },
-  "_geocodeTitle": "蟠龙湖景区游船码头",
-  "_geocodeSuspect": false,
-  "district": "130827",
-  "_noImage": true
+  "avoid": [
+   "无车",
+   "只想看长城"
+  ],
+  "sources": []
+ }
 }

@@ -46,13 +46,50 @@ def load_polygons(adcode: str) -> dict[str, list[list[float]]]:
 
     ★ 同一个函数既吃**省级**（`440000` → 各市的面）也吃**市级**（`440100` → 各区的面）——
       两者文件形状完全一致，只是父级层级不同，而 `loadDistrictBounds()` 前端同样不区分。
+
+    ## 为什么要拿 `districts-own/` 里更细的那些环去换掉腾讯的粗环
+
+    腾讯那份（`districts/`）给下辖区的轮廓**极粗**：实测渝中区只有 **4 个点**（一个矩形），
+    比它大一倍的南岸区也只有 8 个点。矩形之间互相越界 ⇒ 边界附近的点被判给邻居
+    （2026-11-14 实测重庆 18 个点位、北京 7 个点位全错，其中 13 条的 `address` 明写渝中区/西城区）。
+
+    高德那份（`districts-own/`，区**自身**轮廓）精度高一个量级（渝中 94 点、南岸 183 点），
+    而且 `sync_city_bbox()` 与前端 `loadDistrictFaces()` **早就在用它**了 —— 只有归区还停在腾讯那份，
+    于是"画面轮廓"和"点位归属"是两套几何。这里把两者对齐。
+
+    ## 三条守则（都不是可选项）
+
+    1. **只换"确实更细"的环**：`own` 的点数 ≥ 2× 腾讯的点数（且 ≥ 8 点）才换。反例见澳门 ——
+       `districts-own/820000.geo.json` 只有一个「整个澳门」的环、键就是 820000 本身，
+       无脑整份替换会把 820100/820200/820300 一起抹成 820000。
+    2. **只换腾讯也有的 adcode**：`own` 里出现库里没有的键（澳门 711000 那种层级错位）一律忽略，
+       不然会凭空长出第二个"市"。
+    3. **腾讯没有这份文件就返回空**（不做"own 兜底"）：`districts/` 缺失意味着这级根本没抓过边界，
+       拿 own 顶上会让归区结果与 `subdistricts/` 的区清单分家。
+
+    实测（全库 3611 个有坐标的点）：归区变化 389 条、**"兜底到最近区中心"的点从 110 降到 11**，
+    能用 `address` 交叉验证的 349 条里 **327 条与新方案一致**、22 条相反 —— 净收益明确。
     """
     path = DISTRICTS / f"{adcode}.geo.json"
     if not path.exists():
         return {}
     data = read_json(path)
-    polys = data.get("polygons") or {}
-    return {k: v for k, v in polys.items() if v}
+    polys = {k: v for k, v in (data.get("polygons") or {}).items() if v}
+    if not polys:
+        return {}
+
+    own_path = DISTRICT_OWN / f"{adcode}.geo.json"
+    if not own_path.exists():
+        return polys
+    own = (read_json(own_path) or {}).get("polygons") or {}
+    for sub, rings in own.items():
+        if sub not in polys or not rings:
+            continue
+        n_own = max(len(r) for r in rings) // 2
+        n_ten = max((len(r) for r in polys[sub]), default=0) // 2
+        if n_own >= max(8, 2 * n_ten):
+            polys[sub] = rings
+    return polys
 
 
 def point_in_ring(lng: float, lat: float, ring: Iterable[float]) -> bool:

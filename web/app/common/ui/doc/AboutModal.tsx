@@ -35,7 +35,7 @@ import { ModalScrim } from '~/common/ui/ModalScrim'
 import { useDismiss } from '~/common/ui/useDismiss'
 import { useDocUi } from '~/common/logic/docUi'
 
-export function AboutModal() {
+export function AboutModal({ exiting = false }: { exiting?: boolean }) {
   const closeAbout = useDocUi((s) => s.closeAbout)
   /**
    * 点卡片外面 / 按 `Esc` 关闭。
@@ -45,7 +45,7 @@ export function AboutModal() {
   const ref = useDismiss<HTMLDivElement>(true, closeAbout)
 
   return (
-    <ModalScrim className="z-[40]">
+    <ModalScrim className="z-[40]" exiting={exiting}>
       <div
         ref={ref}
         role="dialog"
@@ -69,7 +69,7 @@ export function AboutModal() {
           <div className="min-w-0 flex-1">
             <h2 className="m-0 text-[15px] font-semibold">关于行迹</h2>
             <p className="mt-0.5 mb-0 text-[11.5px] text-ink-2">
-              数据规模 · 使用说明 · 内容与素材来源
+              数据规模 · 使用说明 · 数据来源与素材
             </p>
           </div>
           <button

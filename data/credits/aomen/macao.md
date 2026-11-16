@@ -1,6 +1,6 @@
 # 澳门 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-03
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | Bryanken | Pexels License | [pexels](https://www.pexels.com/photo/traffic-on-street-in-city-17975657/) |
-| 城市封面 | 林 鸿颖 | Pexels License | [pexels](https://www.pexels.com/photo/fishing-boat-on-body-of-water-10753852/) |
-| 城市封面 | Bryanken | Pexels License | [pexels](https://www.pexels.com/photo/city-during-sunset-27093153/) |
+| 城市封面 | Bahnfrend | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Cathedral_of_Saint_Paul_in_Macau,_2023_(04).jpg) |
+| 城市封面 | gdczjkk | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%AE%AE%E4%BA%8B%E4%BA%AD%E5%89%8D%E5%9C%B0_-_panoramio.jpg) |
+| 城市封面 | gdczjkk | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%BE%B3%E9%97%A8%E8%AE%AE%E4%BA%8B%E4%BA%AD%E5%89%8D%E5%9C%B0_-_panoramio.jpg) |
 | 妈阁庙 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%A6%88%E9%98%81%E5%BA%99%E5%89%8D%E5%9C%B0_-_A-Ma_Temple_Square_-_2016.06_-_panoramio.jpg) |
 | 白鸽巢公园 | LN9267 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Camoes_Garden_09-02-2023(1).jpg) |
 | 白鸽巢公园 | LN9267 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Camoes_Garden_09-02-2023(2).jpg) |
@@ -101,6 +101,12 @@
 | 卢家大屋 | yeowatzup | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lou_Kau_Mansion,_Macau_(5240073928).jpg) |
 | 卢家大屋 | LN9267 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lou_Kau_Mansion_08-07-2023(10).jpg) |
 | 卢家大屋 | LN9267 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lou_Kau_Mansion_08-07-2023(11).jpg) |
+| 卢廉若公园 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20250809_Pavilh%C3%A3o_da_Primavera.jpg) |
+| 卢廉若公园 | lienyuan lee | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Bridge_of_Nine_Turnings_in_Lou_Lim_Loc_Garden_%E5%BB%89%E8%8B%A5%E8%8A%B1%E5%9C%92%E4%B9%9D%E6%9B%B2%E6%A9%8B_-_panoramio.jpg) |
+| 卢廉若公园 | LN9267 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jardim_de_Lou_Lim_Ioc_08-06-2023(10).jpg) |
+| 卢廉若公园 | LN9267 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jardim_de_Lou_Lim_Ioc_08-06-2023(13).jpg) |
+| 卢廉若公园 | LN9267 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jardim_de_Lou_Lim_Ioc_08-06-2023(21).jpg) |
+| 卢廉若公园 | LN9267 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jardim_de_Lou_Lim_Ioc_08-06-2023(4).jpg) |
 | 澳门艺术博物馆 | Brenden Brain | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Macau_Museum_Inside.jpg) |
 | 澳门博物馆 | Dllu | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Museum_of_Macau_dllu.jpg) |
 | 澳门旧城墙遗迹 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260324_Macau_city_wall_near_the_Chapel_of_Our_Lady_of_Penha.jpg) |
@@ -157,6 +163,8 @@
 | 路环村 | yeowatzup | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Coloane_Village,_Macau_(2051970053).jpg) |
 | 路环村 | yeowatzup | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Coloane_Village,_Macau_(2051971111).jpg) |
 | 路氹城夜景 | Kamfutiam Georgez | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:MC_%E6%BE%B3%E9%96%80_Macau_%E8%B7%AF%E6%B0%B9%E5%9F%8E_Cotai_Londoner_footbridge_walk_tube_in_art_%E5%9B%9B%E5%AD%A3%E5%90%8D%E5%BA%97_Shoppes_at_Four_Seasons_mall_November_2023_R12S_100.jpg) |
+| 观音莲花苑 | Global Reactions from Macau, Macau | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 观音莲花苑 | Filip Maljković from Pancevo, Serbia | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 恋爱巷 | The original uploader was Sdee at Chinese Wikipedia. | CC BY-SA 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Travessa_da_Paixao.png) |
 | 恋爱巷 | K.Y.K.Z.K. | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Travessa_da_Paix%C3%A3o.jpg) |
 | 恋爱巷 | LN9267 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Travessa_da_Paix%C3%A3o_15-02-2025.jpg) |
@@ -169,8 +177,6 @@
 | 福隆新街 | Huankgduo Yucoke | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:MC_%E6%BE%B3%E9%96%80_Macau_%E4%B8%AD%E5%8D%80_Centro_tour_%E7%A6%8F%E9%9A%86%E6%96%B0%E8%A1%97_Rua_da_Felicidade_shop_November_2019_09.jpg) |
 | 福隆新街 | rheins | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%A6%8F%E9%9A%86%E6%96%B0%E8%A1%97_-_Felicidade_Road_-_2016.06_-_panoramio.jpg) |
 | 福隆新街 | Pauloleong2002 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%22Rua_da_Felicidade%22_at_night.jpg) |
-| 官也街 | Bita RmJohnson Liuosa | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:MC_%E6%BE%B3%E9%97%A8_Macau_%E5%AE%98%E4%B9%9F%E8%A1%97_%E4%B9%B0%E5%8D%96%E8%A1%975%E5%8F%B7_%E5%A4%A7%E5%88%A9%E6%9D%A5%E7%8C%AA%E6%89%92%E5%8C%85%E8%AE%B0_Tailei_Loi_Kei_Pok_Chop_Bun_%E9%A4%90%E5%8E%85_Restaurant_November_2023_R12S_02.jpg) |
-| 官也街 | Bita RmJohnson Liuosa | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:MC_%E6%BE%B3%E9%97%A8_Macau_%E5%AE%98%E4%B9%9F%E8%A1%97_%E4%B9%B0%E5%8D%96%E8%A1%975%E5%8F%B7_%E5%A4%A7%E5%88%A9%E6%9D%A5%E7%8C%AA%E6%89%92%E5%8C%85%E8%AE%B0_Tailei_Loi_Kei_Pok_Chop_Bun_%E9%A4%90%E5%8E%85_Restaurant_%E6%A8%BD%E8%A3%85%E7%BB%B4%E4%BB%96%E5%A5%B6_Vitasoy_milk_bottle_November_2023_R12S_02.jpg) |
 | 官也街 | Limingqimonkey | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%BE%B3%E9%97%A8%E6%B0%B9%E4%BB%94%E7%81%B6%E8%AE%B0%E5%92%96%E5%95%A1.jpg) |
 | 新马路 | 廣九直通車 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:A_CB_RTW_MF-02-92_219@2.jpg) |
 | 澳门土生葡菜 | Yumeto | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260701_Tamarind_pork_with_Macanese_shrimp_paste.jpg) |

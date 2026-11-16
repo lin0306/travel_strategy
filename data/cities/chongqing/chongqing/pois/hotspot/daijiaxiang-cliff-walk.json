@@ -17,7 +17,7 @@
       "coordSystem": "GCJ-02"
     },
     "address": "重庆市渝中区临江路 48 号（解放碑北侧）",
-    "district": "南岸",
+    "district": "渝中",
     "transportTip": "轨道交通 2 号线临江门站，步行约 5 分钟"
   },
   "practical": {
@@ -55,7 +55,7 @@
       "fetchedAt": "2026-09-23"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-14",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,6 +63,44 @@
   },
   "_geocodeTitle": "戴家巷崖壁步道12号",
   "_geocodeSuspect": false,
-  "district": "500108",
-  "_noImage": true
+  "district": "500103",
+  "_noImage": true,
+  "review": {
+    "score": 4.4,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "机位",
+        "score": 4.7,
+        "note": "洪崖洞侧面全景的最佳俯拍位"
+      },
+      {
+        "label": "落差",
+        "score": 4.4,
+        "note": "750 米栈道挂在近 60 米崖壁上"
+      },
+      {
+        "label": "人流",
+        "score": 4.0,
+        "note": "比洪崖洞正门少得多"
+      },
+      {
+        "label": "台阶",
+        "score": 3.0,
+        "note": "全程下切，回程要爬"
+      }
+    ],
+    "body": "戴家巷的价值就是机位：750 米悬空栈道挂在近 60 米的崖壁上，从解放碑北侧一路下切到嘉陵江边，中途穿过“洞见山城”防空洞，出来正好是洪崖洞侧下方的观景位。傍晚亮灯前后最划算，蓝调江景和洪崖洞夜景一次收下，人还比正门少。缺点是台阶陡且连续，雨天湿滑要格外小心，防空洞也有开放时段，去早了进不去。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "拍洪崖洞",
+      "傍晚散步"
+    ],
+    "avoid": [
+      "膝盖不好",
+      "雨天"
+    ],
+    "sources": []
+  }
 }

@@ -1,137 +1,176 @@
 {
-  "id": "rongshan-lake",
-  "name": "榕杉湖景区",
-  "category": "scenic",
-  "subtype": "park",
-  "summary": "宋代城墙留下来的一段护城河，现在是两个连着的湖，沿岸全是树和老房子。",
-  "description": "榕湖与杉湖以前是桂林城墙外的护城河，城墙拆了以后剩下这一段水，成了现在两个相连的湖，是两江四湖里最老的一段。沿湖一圈八九百米，种着上百年的榕树，树冠罩到水面上。湖边散着的东西不少：古南门是宋代城墙唯一留下的一座城门；白崇禧故居、李宗仁文物陈列馆都在这一带；湖中的玻璃桥夜里会变颜色。它没有门票，本地人早晚上这里散步、下棋、唱戏，是活的而不是一个圈起来的景点。日月双塔就立在杉湖里，两个地方是一体的。要逛的话放在傍晚，天没黑到全黑那半小时最好。",
-  "highlights": [
-    "宋代城墙下的护城河剩下来的一段，现在是连着的两个湖",
-    "沿岸上百年的榕树，树冠罩到水面上",
-    "本地人在这散步下棋唱戏，是活的公园不是圈起来的景点"
-  ],
-  "location": {
-    "point": {
-      "lng": 110.290251,
-      "lat": 25.275445,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "广西壮族自治区桂林市秀峰区榕杉湖景区",
-    "district": "秀峰区",
-    "transportTip": "市区步行可达；紧邻日月双塔与古南门",
-    "entrance": {
-      "lng": 110.288127,
-      "lat": 25.274185,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "rongshan-lake",
+ "name": "榕杉湖景区",
+ "category": "scenic",
+ "subtype": "park",
+ "summary": "宋代城墙留下来的一段护城河，现在是两个连着的湖，沿岸全是树和老房子。",
+ "description": "榕湖与杉湖以前是桂林城墙外的护城河，城墙拆了以后剩下这一段水，成了现在两个相连的湖，是两江四湖里最老的一段。沿湖一圈八九百米，种着上百年的榕树，树冠罩到水面上。湖边散着的东西不少：古南门是宋代城墙唯一留下的一座城门；白崇禧故居、李宗仁文物陈列馆都在这一带；湖中的玻璃桥夜里会变颜色。它没有门票，本地人早晚上这里散步、下棋、唱戏，是活的而不是一个圈起来的景点。日月双塔就立在杉湖里，两个地方是一体的。要逛的话放在傍晚，天没黑到全黑那半小时最好。",
+ "highlights": [
+  "宋代城墙下的护城河剩下来的一段，现在是连着的两个湖",
+  "沿岸上百年的榕树，树冠罩到水面上",
+  "本地人在这散步下棋唱戏，是活的公园不是圈起来的景点"
+ ],
+ "location": {
+  "point": {
+   "lng": 110.290251,
+   "lat": 25.275445,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 60-150 分钟",
-    "durationMinutes": [
-      60,
-      150
-    ],
-    "priceLevel": "free"
+  "address": "广西壮族自治区桂林市秀峰区榕杉湖景区",
+  "district": "秀峰区",
+  "transportTip": "市区步行可达；紧邻日月双塔与古南门",
+  "entrance": {
+   "lng": 110.288127,
+   "lat": 25.274185,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "全天开放",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 60-150 分钟",
+  "durationMinutes": [
+   60,
+   150
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "family",
+  "elders",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/89255-Guilin_%2845755976682%29.jpg/1280px-89255-Guilin_%2845755976682%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/89255-Guilin_%2845755976682%29.jpg/1280px-89255-Guilin_%2845755976682%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "89255-Guilin (45755976682).jpg",
+   "query": "榕杉湖景区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "couple",
-    "family",
-    "elders",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/89255-Guilin_%2845755976682%29.jpg/1280px-89255-Guilin_%2845755976682%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/89255-Guilin_%2845755976682%29.jpg/1280px-89255-Guilin_%2845755976682%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "89255-Guilin (45755976682).jpg",
-      "query": "榕杉湖景区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/%E6%A1%82%E6%9E%97%E5%8F%A4%E5%8D%97%E9%97%A8%E5%8C%BE%E9%A2%9D.jpg/1280px-%E6%A1%82%E6%9E%97%E5%8F%A4%E5%8D%97%E9%97%A8%E5%8C%BE%E9%A2%9D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/%E6%A1%82%E6%9E%97%E5%8F%A4%E5%8D%97%E9%97%A8%E5%8C%BE%E9%A2%9D.jpg/1280px-%E6%A1%82%E6%9E%97%E5%8F%A4%E5%8D%97%E9%97%A8%E5%8C%BE%E9%A2%9D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "桂林古南门匾额.jpg",
-      "query": "榕杉湖景区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "沈澄心（匾额作者为郭沫若）",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC0",
-        "attributionRequired": false
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/89269-Guilin_%2843988711810%29.jpg/1280px-89269-Guilin_%2843988711810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/89269-Guilin_%2843988711810%29.jpg/1280px-89269-Guilin_%2843988711810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "89269-Guilin (43988711810).jpg",
-      "query": "榕杉湖景区",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "古护城河",
-    "老榕树",
-    "免费"
-  ],
-  "popularity": 72,
-  "sources": [
-    {
-      "title": "百度百科·榕湖",
-      "url": "https://baike.baidu.com/item/%E6%A6%95%E6%B9%96",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
-  ],
-  "updatedAt": "2026-11-04",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "榕杉湖景区"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/%E6%A1%82%E6%9E%97%E5%8F%A4%E5%8D%97%E9%97%A8%E5%8C%BE%E9%A2%9D.jpg/1280px-%E6%A1%82%E6%9E%97%E5%8F%A4%E5%8D%97%E9%97%A8%E5%8C%BE%E9%A2%9D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/%E6%A1%82%E6%9E%97%E5%8F%A4%E5%8D%97%E9%97%A8%E5%8C%BE%E9%A2%9D.jpg/1280px-%E6%A1%82%E6%9E%97%E5%8F%A4%E5%8D%97%E9%97%A8%E5%8C%BE%E9%A2%9D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "桂林古南门匾额.jpg",
+   "query": "榕杉湖景区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "沈澄心（匾额作者为郭沫若）",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC0",
+    "attributionRequired": false
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "桂林市榕杉湖景区",
-  "_geocodeSuspect": false,
-  "district": "450302"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/89269-Guilin_%2843988711810%29.jpg/1280px-89269-Guilin_%2843988711810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/89269-Guilin_%2843988711810%29.jpg/1280px-89269-Guilin_%2843988711810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "89269-Guilin (43988711810).jpg",
+   "query": "榕杉湖景区",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "古护城河",
+  "老榕树",
+  "免费"
+ ],
+ "popularity": 72,
+ "sources": [
+  {
+   "title": "百度百科·榕湖",
+   "url": "https://baike.baidu.com/item/%E6%A6%95%E6%B9%96",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "榕杉湖景区"
+ },
+ "_geocodeTitle": "桂林市榕杉湖景区",
+ "_geocodeSuspect": false,
+ "district": "450302",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "环境",
+    "score": 4.6,
+    "note": "宋代护城河留下的水面，沿岸老榕树冠罩到水上"
+   },
+   {
+    "label": "免费",
+    "score": 5.0,
+    "note": "不设墙不收票，随时能进"
+   },
+   {
+    "label": "人流",
+    "score": 3.0,
+    "note": "傍晚散步的人多，节假日更挤"
+   },
+   {
+    "label": "时长",
+    "score": 3.5,
+    "note": "沿湖一圈八九百米，一小时够"
+   }
+  ],
+  "body": "榕湖与杉湖原来是宋代城墙外的护城河，城墙拆了剩下这段水，成了两江四湖里最老的一段。沿岸上百年的榕树把树冠罩到水面上，古南门是宋城墙唯一留下的城门，白崇禧故居、李宗仁文物陈列馆都在这一带，日月双塔就立在杉湖里。它最大的好处是活的：不设墙不收票，本地人早晚来散步、下棋、唱戏。缺点是傍晚人最多，想在湖边安静坐一会儿不容易；湖面本身不算大，专程来一趟会觉得短。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "傍晚散步",
+   "免费景点",
+   "住市中心"
+  ],
+  "avoid": [
+   "想要大场面",
+   "怕人多"
+  ],
+  "sources": []
+ }
 }

@@ -1,75 +1,113 @@
 {
-  "id": "shenzhen-jewelry-museum",
-  "name": "深圳珠宝博物馆",
-  "category": "scenic",
-  "subtype": "museum",
-  "summary": "国内首家珠宝专题公共博物馆，免费但要提前在公众号预约，周一闭馆",
-  "description": "2019 年 10 月开馆，是国内第一家以珠宝为专题的公共博物馆，藏在罗湖水贝珠宝商圈的金展珠宝广场 3 至 4 层，建筑面积约 2610 平方米。常设展分自然之宝、物佩之美、设计之光、深圳之路、湾区之梦五个展区，从原石、历代首饰一路讲到深圳本地的珠宝产业；四楼是不定期的精品特展。展厅灯光偏暗，展品在暗底上很出片，但禁止开闪光灯。最大的坑是必须提前在公众号预约，加上周一闭馆，直接过去很可能吃闭门羹。看完可以顺路逛水贝的珠宝市场。",
-  "highlights": [
-    "五大常设展区：从原石、历代首饰到深圳珠宝产业",
-    "暗底打光，珠宝很出片但不能开闪光灯",
-    "水贝商圈核心，出来就是珠宝市场"
-  ],
-  "location": {
-    "point": {
-      "lng": 114.127964,
-      "lat": 22.569469,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "深圳市罗湖区贝丽北路20号金展珠宝广场3-4楼",
-    "district": "罗湖区",
-    "transportTip": "地铁3号线/7号线田贝站C口或F口步行约500米；公交2、62、63、83、107路至翠竹大厦站"
+ "id": "shenzhen-jewelry-museum",
+ "name": "深圳珠宝博物馆",
+ "category": "scenic",
+ "subtype": "museum",
+ "summary": "国内首家珠宝专题公共博物馆，免费但要提前在公众号预约，周一闭馆",
+ "description": "2019 年 10 月开馆，是国内第一家以珠宝为专题的公共博物馆，藏在罗湖水贝珠宝商圈的金展珠宝广场 3 至 4 层，建筑面积约 2610 平方米。常设展分自然之宝、物佩之美、设计之光、深圳之路、湾区之梦五个展区，从原石、历代首饰一路讲到深圳本地的珠宝产业；四楼是不定期的精品特展。展厅灯光偏暗，展品在暗底上很出片，但禁止开闪光灯。最大的坑是必须提前在公众号预约，加上周一闭馆，直接过去很可能吃闭门羹。看完可以顺路逛水贝的珠宝市场。",
+ "highlights": [
+  "五大常设展区：从原石、历代首饰到深圳珠宝产业",
+  "暗底打光，珠宝很出片但不能开闪光灯",
+  "水贝商圈核心，出来就是珠宝市场"
+ ],
+ "location": {
+  "point": {
+   "lng": 114.127964,
+   "lat": 22.569469,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "周二至周日 约 10:00-17:00（16:30 停止入馆），周一闭馆；以预约页面为准",
-    "openHoursRef": 0,
-    "ticket": "免费，需在「深圳珠宝博物馆」公众号提前预约",
-    "ticketRef": 0,
-    "duration": "建议 60-90 分钟",
-    "durationMinutes": [
-      60,
-      90
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "solo",
-    "couple",
-    "friends",
-    "family"
+  "address": "深圳市罗湖区贝丽北路20号金展珠宝广场3-4楼",
+  "district": "罗湖区",
+  "transportTip": "地铁3号线/7号线田贝站C口或F口步行约500米；公交2、62、63、83、107路至翠竹大厦站"
+ },
+ "practical": {
+  "openHours": "周二至周日 约 10:00-17:00（16:30 停止入馆），周一闭馆；以预约页面为准",
+  "openHoursRef": 0,
+  "ticket": "免费，需在「深圳珠宝博物馆」公众号提前预约",
+  "ticketRef": 0,
+  "duration": "建议 60-90 分钟",
+  "durationMinutes": [
+   60,
+   90
   ],
-  "accessible": false,
-  "tips": [
-    "一定要提前在公众号预约，别直接上门",
-    "周一闭馆，法定节假日安排另行通知",
-    "周边停车位紧张，建议坐地铁到田贝站"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "solo",
+  "couple",
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [
+  "一定要提前在公众号预约，别直接上门",
+  "周一闭馆，法定节假日安排另行通知",
+  "周边停车位紧张，建议坐地铁到田贝站"
+ ],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "博物馆",
+  "免费",
+  "水贝",
+  "珠宝",
+  "罗湖"
+ ],
+ "popularity": 64,
+ "sources": [
+  {
+   "title": "深圳珠宝博物馆官网",
+   "url": "https://www.jewelrymuseumsz.com/",
+   "kind": "official",
+   "fetchedAt": "2026-10-25"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Shenzhen Jewelry Museum",
+  "zh": "深圳珠宝博物馆"
+ },
+ "_geocodeTitle": "深圳珠宝博物馆",
+ "_geocodeSuspect": false,
+ "district": "440303",
+ "_noImage": true,
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "展陈",
+    "score": 4.3,
+    "note": "从原石、历代首饰讲到本地珠宝产业"
+   },
+   {
+    "label": "免费",
+    "score": 4.5,
+    "note": "免费开放"
+   },
+   {
+    "label": "预约",
+    "score": 2.3,
+    "note": "必须提前在公众号预约，不能直接上门"
+   },
+   {
+    "label": "灯光",
+    "score": 3.3,
+    "note": "展厅偏暗，禁开闪光灯"
+   }
   ],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "博物馆",
-    "免费",
-    "水贝",
-    "珠宝",
-    "罗湖"
+  "body": "国内第一家以珠宝为专题的公共博物馆，藏在罗湖水贝珠宝商圈的商场里，常设展从自然之宝、物佩之美一路铺到深圳本地珠宝产业与湾区，四楼还有不定期精品特展。暗底打光让展品很出片，出来就是水贝市场，可以顺路逛。缺点是必须提前在公众号预约，加上周一闭馆，直接过去很容易吃闭门羹；展厅灯光偏暗又禁闪光灯，拍照得靠设备，周边停车也紧张。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "看珠宝设计",
+   "水贝商圈顺路"
   ],
-  "popularity": 64,
-  "sources": [
-    {
-      "title": "深圳珠宝博物馆官网",
-      "url": "https://www.jewelrymuseumsz.com/",
-      "kind": "official",
-      "fetchedAt": "2026-10-25"
-    }
+  "avoid": [
+   "临时起意",
+   "没提前预约"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Shenzhen Jewelry Museum",
-    "zh": "深圳珠宝博物馆"
-  },
-  "_geocodeTitle": "深圳珠宝博物馆",
-  "_geocodeSuspect": false,
-  "district": "440303",
-  "_noImage": true
+  "sources": []
+ }
 }

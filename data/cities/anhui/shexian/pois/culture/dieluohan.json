@@ -22,7 +22,7 @@
     "transportTip": "自驾或包车从县城约 1.5 小时到叶村；正月期间"
   },
   "practical": {
-    "openHours": "正月特定日子的叠罗汉表演（以村中公告为准）",
+    "openHours": "闰年正月初六至十五在叶村古戏台连演；非闰年正月多受邀到徽州古城府衙广场展演（2026 年为 2 月 23 日），以歙县文旅公告为准",
     "openHoursRef": 0,
     "ticket": "免费",
     "ticketRef": 0,
@@ -40,7 +40,9 @@
     "elders"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "闰年（如 2028）村里连演十天最完整；非闰年只在正月受邀展演，别专程去空跑"
+  ],
   "images": [],
   "coverIndex": 0,
   "tags": [
@@ -56,9 +58,15 @@
       "url": "https://baike.baidu.com/item/%E5%8F%B6%E6%9D%91%E5%8F%A0%E7%BD%97%E6%B1%89",
       "kind": "wiki",
       "fetchedAt": "2026-10-07"
+    },
+    {
+      "title": "安徽日报专访传承人：闰年正月初六至十五连演",
+      "url": "http://tuopin.ce.cn/news/202604/t20260409_2891377.shtml",
+      "kind": "media",
+      "fetchedAt": "2026-11-13"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-13",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -67,5 +75,24 @@
   "_geocodeTitle": "叶村村委会",
   "_geocodeSuspect": false,
   "district": "341021",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-13",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "正月特定日子的叠罗汉表演（以村中公告为准）",
+        "new": "闰年正月初六至十五在叶村古戏台连演；非闰年正月多受邀到徽州古城府衙广场展演（2026 年为 2 月 23 日），以歙县文旅公告为准"
+      },
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [],
+        "new": [
+          "闰年（如 2028）村里连演十天最完整；非闰年只在正月受邀展演，别专程去空跑"
+        ]
+      }
+    ],
+    "source": "http://tuopin.ce.cn/news/202604/t20260409_2891377.shtml",
+    "reason": "安徽日报专访传承人：闰年正月初六至十五连演"
+  }
 }

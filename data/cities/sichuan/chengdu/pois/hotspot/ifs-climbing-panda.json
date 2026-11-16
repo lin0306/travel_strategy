@@ -1,74 +1,111 @@
 {
-  "id": "ifs-climbing-panda",
-  "name": "成都 IFS 爬墙熊猫",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "商场外墙上那只巨大的攀爬熊猫，成都最出圈的免费地标",
-  "description": "国际金融中心 IFS 的第三期建筑外墙上，趴着一只由数千块不锈钢与 LED 组成的大熊猫雕塑——它由美国艺术家劳伦斯创作，熊猫双足踏在商场七层露台的边缘，屁股朝向室内、脑袋探向幕墙外部，姿态慵懒。这里是成都社交媒体曝光量最高的城市画面之一，站在地面仰拍可以把整只熊猫与楼体一起收进画面。不需要门票、不需要消费，从春熙路站步行几分钟即到，是行程里最容易插入的一个点位。夜里比白天更有层次感。",
-  "highlights": [
-    "国际金融中心外墙上的巨型攀爬熊猫雕塑，免费打卡",
-    "地面仰拍可把整只熊猫与楼体同框"
-  ],
-  "location": {
-    "point": {
-      "lng": 104.080985,
-      "lat": 30.655373,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "成都市锦江区红星路三段 1 号 IFS 国际金融中心",
-    "district": "锦江区",
-    "transportTip": "地铁 2/3 号线春熙路站步行约 300 米"
+ "id": "ifs-climbing-panda",
+ "name": "成都 IFS 爬墙熊猫",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "商场外墙上那只巨大的攀爬熊猫，成都最出圈的免费地标",
+ "description": "国际金融中心 IFS 的第三期建筑外墙上，趴着一只由数千块不锈钢与 LED 组成的大熊猫雕塑——它由美国艺术家劳伦斯创作，熊猫双足踏在商场七层露台的边缘，屁股朝向室内、脑袋探向幕墙外部，姿态慵懒。这里是成都社交媒体曝光量最高的城市画面之一，站在地面仰拍可以把整只熊猫与楼体一起收进画面。不需要门票、不需要消费，从春熙路站步行几分钟即到，是行程里最容易插入的一个点位。夜里比白天更有层次感。",
+ "highlights": [
+  "国际金融中心外墙上的巨型攀爬熊猫雕塑，免费打卡",
+  "地面仰拍可把整只熊猫与楼体同框"
+ ],
+ "location": {
+  "point": {
+   "lng": 104.080985,
+   "lat": 30.655373,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放（户外幕墙，夜间点亮）",
-    "openHoursRef": 0,
-    "ticket": "免费",
-    "ticketRef": 0,
-    "duration": "建议 20-40 分钟",
-    "durationMinutes": [
-      20,
-      40
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "solo",
-    "couple",
-    "kids",
-    "friends",
-    "family",
-    "elders"
+  "address": "成都市锦江区红星路三段 1 号 IFS 国际金融中心",
+  "district": "锦江区",
+  "transportTip": "地铁 2/3 号线春熙路站步行约 300 米"
+ },
+ "practical": {
+  "openHours": "全天开放（户外幕墙，夜间点亮）",
+  "openHoursRef": 0,
+  "ticket": "免费",
+  "ticketRef": 0,
+  "duration": "建议 20-40 分钟",
+  "durationMinutes": [
+   20,
+   40
   ],
-  "accessible": true,
-  "tips": [
-    "建议站在街对面窄一点的机位，人少且能避开人群",
-    "白天与夜里拍出来是两种氛围"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "solo",
+  "couple",
+  "kids",
+  "friends",
+  "family",
+  "elders"
+ ],
+ "accessible": true,
+ "tips": [
+  "建议站在街对面窄一点的机位，人少且能避开人群",
+  "白天与夜里拍出来是两种氛围"
+ ],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "地标机位",
+  "免费",
+  "春熙路"
+ ],
+ "popularity": 95,
+ "sources": [
+  {
+   "title": "百度百科 · 成都国际金融中心",
+   "url": "https://baike.baidu.com/item/%E6%88%90%E9%83%BD%E5%9B%BD%E9%99%85%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-18"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Chengdu IFS climbing panda sculpture",
+  "zh": "成都IFS爬墙熊猫",
+  "baike": "成都国际金融中心"
+ },
+ "_geocodeTitle": "春熙路IFS爬墙大熊猫打卡点",
+ "_geocodeSuspect": false,
+ "district": "510104",
+ "_noImage": true,
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "出片",
+    "score": 4.6,
+    "note": "熊猫与楼体同框，仰拍最稳"
+   },
+   {
+    "label": "人流",
+    "score": 3.0,
+    "note": "周末与假期地面机位要等空档"
+   },
+   {
+    "label": "花费",
+    "score": 5.0,
+    "note": "不进门、不消费也能拍"
+   },
+   {
+    "label": "时长",
+    "score": 4.5,
+    "note": "顺路半小时就够"
+   }
   ],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "地标机位",
-    "免费",
-    "春熙路"
+  "body": "为了那一张照片来的点位，别指望更多。仰拍把整只熊猫和 IFS 楼体收进画面，免费、不排队买票，行程里插半小时正合适。缺点是机位就那几处，假期地面全是人头，想拍干净得早上去；商场一侧的拍摄点常被围，拍完也就走人了，不值得专程为一个雕塑安排半天。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "顺路打卡",
+   "带娃"
   ],
-  "popularity": 95,
-  "sources": [
-    {
-      "title": "百度百科 · 成都国际金融中心",
-      "url": "https://baike.baidu.com/item/%E6%88%90%E9%83%BD%E5%9B%BD%E9%99%85%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-18"
-    }
+  "avoid": [
+   "专程前往"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Chengdu IFS climbing panda sculpture",
-    "zh": "成都IFS爬墙熊猫",
-    "baike": "成都国际金融中心"
-  },
-  "_geocodeTitle": "春熙路IFS爬墙大熊猫打卡点",
-  "_geocodeSuspect": false,
-  "district": "510104",
-  "_noImage": true
+  "sources": []
+ }
 }

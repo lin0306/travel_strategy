@@ -1,6 +1,6 @@
 {
   "id": "laofuzhou",
-  "name": "老福州(上下杭店)",
+  "name": "老福洲(上下杭店)",
   "category": "food",
   "subtype": "local",
   "summary": "上下杭里的一家福州菜馆，环境就是老街区。",
@@ -12,8 +12,8 @@
   ],
   "location": {
     "point": {
-      "lng": 119.309325,
-      "lat": 26.055875,
+      "lat": 26.050225,
+      "lng": 119.305452,
       "coordSystem": "GCJ-02"
     },
     "address": "福州市台江区上下杭隆平路星河巷1号",
@@ -54,9 +54,15 @@
       "url": "https://baike.baidu.com/item/%E7%A6%8F%E5%B7%9E%E8%8F%9C",
       "kind": "wiki",
       "fetchedAt": "2026-10-04"
+    },
+    {
+      "title": "腾讯地图POI：老福洲(上下杭店)·上下杭隆平路星河巷1号",
+      "url": "https://map.qq.com/",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -65,5 +71,29 @@
   "_geocodeTitle": "老福州大排档·万州烤鱼(达道店)",
   "_geocodeSuspect": false,
   "district": "350103",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "名称",
+        "old": "老福州(上下杭店)",
+        "new": "老福洲(上下杭店)"
+      },
+      {
+        "field": "point",
+        "old": {
+          "lng": 119.309325,
+          "lat": 26.055875,
+          "coordSystem": "GCJ-02"
+        },
+        "new": [
+          26.050225,
+          119.305452
+        ]
+      }
+    ],
+    "source": "https://map.qq.com/place",
+    "reason": "图商POI老福洲(上下杭店)与库内地址同址，原坐标偏736m落达道路"
+  }
 }

@@ -1,149 +1,187 @@
 {
-  "id": "wuzhizhou",
-  "name": "蜈支洲岛",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "海棠湾外的一座小岛，海水能见度高，是三亚潜水与海上项目最集中的地方。",
-  "description": "蜈支洲岛在海棠湾南端后海村外的海面上，面积不大，环岛走一圈一个小时出头。这座岛出名在水下：周边海域是三亚珊瑚与热带鱼保存得最好的一片，能见度好的日子能看到十几米深，潜水、半潜船、海底漫步都以此为卖点。岛上分情人桥、观日岩、妈祖庙几处，情人桥是一座伸进海里的铁索桥，拍照的人最多。环岛有电瓶车，步行也能走完。上岛要在后海村旁的码头坐船，航程十几分钟，旺季排队久，早班船人少。船票与岛上项目分开计，以官方公告为准。",
-  "highlights": [
-    "周边海域是三亚珊瑚与热带鱼保存最好的一片",
-    "情人桥伸进海里，拍照的人最多",
-    "后海村旁码头乘船，航程十几分钟"
-  ],
-  "location": {
-    "point": {
-      "lng": 109.767827,
-      "lat": 18.31267,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "海南省三亚市海棠区后海村（蜈支洲岛旅游区）",
-    "district": "海棠区",
-    "transportTip": "市区至海棠区后海村码头乘船上岛，航程约十几分钟",
-    "entrance": {
-      "lng": 109.725662,
-      "lat": 18.272577,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "wuzhizhou",
+ "name": "蜈支洲岛",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "海棠湾外的一座小岛，海水能见度高，是三亚潜水与海上项目最集中的地方。",
+ "description": "蜈支洲岛在海棠湾南端后海村外的海面上，面积不大，环岛走一圈一个小时出头。这座岛出名在水下：周边海域是三亚珊瑚与热带鱼保存得最好的一片，能见度好的日子能看到十几米深，潜水、半潜船、海底漫步都以此为卖点。岛上分情人桥、观日岩、妈祖庙几处，情人桥是一座伸进海里的铁索桥，拍照的人最多。环岛有电瓶车，步行也能走完。上岛要在后海村旁的码头坐船，航程十几分钟，旺季排队久，早班船人少。船票与岛上项目分开计，以官方公告为准。",
+ "highlights": [
+  "周边海域是三亚珊瑚与热带鱼保存最好的一片",
+  "情人桥伸进海里，拍照的人最多",
+  "后海村旁码头乘船，航程十几分钟"
+ ],
+ "location": {
+  "point": {
+   "lng": 109.767827,
+   "lat": 18.31267,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-17:30（旺季有加班船），以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "船票与岛上项目分开计，以官方公告为准",
-    "ticketRef": 0,
-    "duration": "建议 240-480 分钟",
-    "durationMinutes": [
-      240,
-      480
-    ],
-    "priceLevel": "mid"
+  "address": "海南省三亚市海棠区后海村（蜈支洲岛旅游区）",
+  "district": "海棠区",
+  "transportTip": "市区至海棠区后海村码头乘船上岛，航程约十几分钟",
+  "entrance": {
+   "lng": 109.725662,
+   "lat": 18.272577,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约08:00-17:30（旺季有加班船），以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "船票与岛上项目分开计，以官方公告为准",
+  "ticketRef": 0,
+  "duration": "建议 240-480 分钟",
+  "durationMinutes": [
+   240,
+   480
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family",
+  "kids"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio.jpg/1280px-%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio.jpg/1280px-%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 196,
+   "alt": "蜈支洲岛 - panoramio.jpg",
+   "query": "蜈支洲岛",
+   "credit": {
+    "source": "wikimedia",
+    "author": "caoyadong",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "friends",
-    "family",
-    "kids"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio.jpg/1280px-%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio.jpg/1280px-%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 196,
-      "alt": "蜈支洲岛 - panoramio.jpg",
-      "query": "蜈支洲岛",
-      "credit": {
-        "source": "wikimedia",
-        "author": "caoyadong",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio_-_zhanyoun.jpg/1280px-%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio_-_zhanyoun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio_-_zhanyoun.jpg/1280px-%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio_-_zhanyoun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "蜈支洲岛 - panoramio - zhanyoun.jpg",
-      "query": "蜈支洲岛",
-      "credit": {
-        "source": "wikimedia",
-        "author": "zhanyoun",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio_-_zhanyoun.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E5%A4%8F%E5%AD%A3%E7%A0%81%E5%A4%B4_-_panoramio.jpg/1280px-%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E5%A4%8F%E5%AD%A3%E7%A0%81%E5%A4%B4_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E5%A4%8F%E5%AD%A3%E7%A0%81%E5%A4%B4_-_panoramio.jpg/1280px-%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E5%A4%8F%E5%AD%A3%E7%A0%81%E5%A4%B4_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "蜈支洲岛夏季码头 - panoramio.jpg",
-      "query": "蜈支洲岛",
-      "credit": {
-        "source": "wikimedia",
-        "author": "江上清风1961",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E5%A4%8F%E5%AD%A3%E7%A0%81%E5%A4%B4_-_panoramio.jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E6%B5%B7%E6%B5%AA_-_panoramio.jpg/1280px-%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E6%B5%B7%E6%B5%AA_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E6%B5%B7%E6%B5%AA_-_panoramio.jpg/1280px-%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E6%B5%B7%E6%B5%AA_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "蜈支洲岛海浪 - panoramio.jpg",
-      "query": "蜈支洲岛",
-      "credit": {
-        "source": "wikimedia",
-        "author": "zhanyoun",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E6%B5%B7%E6%B5%AA_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E6%B5%B7%E6%BB%A9_-_panoramio.jpg/1280px-%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E6%B5%B7%E6%BB%A9_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E6%B5%B7%E6%BB%A9_-_panoramio.jpg/1280px-%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E6%B5%B7%E6%BB%A9_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "蜈支洲岛海滩 - panoramio.jpg",
-      "query": "蜈支洲岛",
-      "credit": {
-        "source": "wikimedia",
-        "author": "zhanyoun",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E6%B5%B7%E6%BB%A9_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "海岛",
-    "潜水",
-    "海上项目"
-  ],
-  "popularity": 94,
-  "sources": [
-    {
-      "title": "百度百科·蜈支洲岛",
-      "url": "https://baike.baidu.com/item/%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-29"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "蜈支洲岛"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio_-_zhanyoun.jpg/1280px-%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio_-_zhanyoun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio_-_zhanyoun.jpg/1280px-%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio_-_zhanyoun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "蜈支洲岛 - panoramio - zhanyoun.jpg",
+   "query": "蜈支洲岛",
+   "credit": {
+    "source": "wikimedia",
+    "author": "zhanyoun",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B_-_panoramio_-_zhanyoun.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "蜈支洲岛",
-  "_geocodeSuspect": false,
-  "district": "460202"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E5%A4%8F%E5%AD%A3%E7%A0%81%E5%A4%B4_-_panoramio.jpg/1280px-%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E5%A4%8F%E5%AD%A3%E7%A0%81%E5%A4%B4_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E5%A4%8F%E5%AD%A3%E7%A0%81%E5%A4%B4_-_panoramio.jpg/1280px-%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E5%A4%8F%E5%AD%A3%E7%A0%81%E5%A4%B4_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "蜈支洲岛夏季码头 - panoramio.jpg",
+   "query": "蜈支洲岛",
+   "credit": {
+    "source": "wikimedia",
+    "author": "江上清风1961",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E5%A4%8F%E5%AD%A3%E7%A0%81%E5%A4%B4_-_panoramio.jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E6%B5%B7%E6%B5%AA_-_panoramio.jpg/1280px-%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E6%B5%B7%E6%B5%AA_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E6%B5%B7%E6%B5%AA_-_panoramio.jpg/1280px-%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E6%B5%B7%E6%B5%AA_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "蜈支洲岛海浪 - panoramio.jpg",
+   "query": "蜈支洲岛",
+   "credit": {
+    "source": "wikimedia",
+    "author": "zhanyoun",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E6%B5%B7%E6%B5%AA_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E6%B5%B7%E6%BB%A9_-_panoramio.jpg/1280px-%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E6%B5%B7%E6%BB%A9_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E6%B5%B7%E6%BB%A9_-_panoramio.jpg/1280px-%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E6%B5%B7%E6%BB%A9_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "蜈支洲岛海滩 - panoramio.jpg",
+   "query": "蜈支洲岛",
+   "credit": {
+    "source": "wikimedia",
+    "author": "zhanyoun",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B%E6%B5%B7%E6%BB%A9_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "海岛",
+  "潜水",
+  "海上项目"
+ ],
+ "popularity": 94,
+ "sources": [
+  {
+   "title": "百度百科·蜈支洲岛",
+   "url": "https://baike.baidu.com/item/%E8%9C%88%E6%94%AF%E6%B4%B2%E5%B2%9B",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-29"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "蜈支洲岛"
+ },
+ "_geocodeTitle": "蜈支洲岛",
+ "_geocodeSuspect": false,
+ "district": "460202",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "水下",
+    "score": 4.6,
+    "note": "珊瑚与热带鱼保存得最好的一片"
+   },
+   {
+    "label": "排队",
+    "score": 2.4,
+    "note": "旺季码头等船久，早班船人少"
+   },
+   {
+    "label": "岛上消费",
+    "score": 2.5,
+    "note": "项目与餐饮都贵"
+   },
+   {
+    "label": "环岛",
+    "score": 4.2,
+    "note": "走一圈一小时出头，电瓶车可选"
+   }
+  ],
+  "body": "三亚玩水最省事的选择，岛不大，环岛走一圈一小时出头，周边海域的珊瑚和热带鱼确实是这一带保存最好的，潜水与半潜船的体验差距一目了然。缺点是钱和时间都得备着：船票与岛上项目分开算，岛上餐饮价格明显偏高；旺季码头等船久，晚了上岛只剩最晒的几个小时，早班船是唯一解。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "潜水",
+   "带孩子"
+  ],
+  "avoid": [
+   "预算紧",
+   "怕排队"
+  ],
+  "sources": []
+ }
 }

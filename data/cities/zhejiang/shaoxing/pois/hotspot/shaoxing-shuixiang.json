@@ -1,68 +1,105 @@
 {
-  "id": "shaoxing-shuixiang",
-  "name": "绍兴水巷乌篷船",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "坐乌篷船钻桥洞，水城最经典的打开方式。",
-  "description": "乌篷船是绍兴水城的标志，黑篷小舟由船夫脚划，钻过一座座石桥洞，是体验「桥乡」最地道的方式。线路多在仓桥直街、鲁迅故里一带的市河，傍晚灯光映水时最有味道。船程不长、价中，适合情侣与朋友。和步行游老城互补，必体验一项。",
-  "highlights": [
-    "黑篷脚划船，钻石桥洞",
-    "水城最经典打开方式",
-    "傍晚灯光映水最有味"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.582338,
-      "lat": 29.989092,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "绍兴市越城区市河码头",
-    "district": "越城区",
-    "transportTip": "鲁迅故里或仓桥直街码头"
+ "id": "shaoxing-shuixiang",
+ "name": "绍兴水巷乌篷船",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "坐乌篷船钻桥洞，水城最经典的打开方式。",
+ "description": "乌篷船是绍兴水城的标志，黑篷小舟由船夫脚划，钻过一座座石桥洞，是体验「桥乡」最地道的方式。线路多在仓桥直街、鲁迅故里一带的市河，傍晚灯光映水时最有味道。船程不长、价中，适合情侣与朋友。和步行游老城互补，必体验一项。",
+ "highlights": [
+  "黑篷脚划船，钻石桥洞",
+  "水城最经典打开方式",
+  "傍晚灯光映水最有味"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.582338,
+   "lat": 29.989092,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-21:00（以码头为准）",
-    "openHoursRef": 0,
-    "ticket": "约50元起（按船计），以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 45-90 分钟",
-    "durationMinutes": [
-      45,
-      90
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "solo"
+  "address": "绍兴市越城区市河码头",
+  "district": "越城区",
+  "transportTip": "鲁迅故里或仓桥直街码头"
+ },
+ "practical": {
+  "openHours": "约08:00-21:00（以码头为准）",
+  "openHoursRef": 0,
+  "ticket": "约50元起（按船计），以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 45-90 分钟",
+  "durationMinutes": [
+   45,
+   90
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "乌篷船",
-    "水巷",
-    "桥洞"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "乌篷船",
+  "水巷",
+  "桥洞"
+ ],
+ "popularity": 92,
+ "sources": [
+  {
+   "title": "百度百科·乌篷船",
+   "url": "https://baike.baidu.com/item/%E4%B9%8C%E7%AF%B7%E8%88%B9",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "绍兴水巷乌篷船"
+ },
+ "_geocodeTitle": "越城区",
+ "_geocodeSuspect": false,
+ "district": "330602",
+ "_noImage": true,
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "体验",
+    "score": 4.6,
+    "note": "脚划黑篷，钻桥洞别处没有"
+   },
+   {
+    "label": "价格",
+    "score": 3.4,
+    "note": "按船计价，人少不划算"
+   },
+   {
+    "label": "排队",
+    "score": 3.0,
+    "note": "旺季码头等半小时是常态"
+   },
+   {
+    "label": "时长",
+    "score": 3.2,
+    "note": "单程十几分钟，意犹未尽"
+   }
   ],
-  "popularity": 92,
-  "sources": [
-    {
-      "title": "百度百科·乌篷船",
-      "url": "https://baike.baidu.com/item/%E4%B9%8C%E7%AF%B7%E8%88%B9",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
+  "body": "坐乌篷船是绍兴最不该省的一笔钱：船夫脚划、船身贴水，钻桥洞时头顶几乎擦到石拱，那种压迫感是走路得不到的。傍晚灯亮后水面反光最好看。缺点是船程短，单程十几分钟就到头，旺季码头排队能等上半小时；桥洞下光线暗，手机随手拍多半是糊的，想拍清楚得坐船头并调高快门。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "情侣",
+   "朋友"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "绍兴水巷乌篷船"
-  },
-  "_geocodeTitle": "越城区",
-  "_geocodeSuspect": false,
-  "district": "330602",
-  "_noImage": true
+  "avoid": [
+   "赶时间"
+  ],
+  "sources": []
+ }
 }

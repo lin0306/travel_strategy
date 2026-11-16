@@ -1,68 +1,100 @@
 {
-  "id": "chuanren-sandpot",
-  "name": "船上人砂锅饭",
-  "category": "food",
-  "subtype": "local",
-  "summary": "恭城那边的一家做砂锅饭的店，现煲的一锅带锅巴，配本地咸菜与汤。",
-  "description": "恭城在桂林东南，是瑶族自治县，恭城油茶就是从那出来的。这家做的是砂锅饭 —— 米下到砂锅里现煲，底下结一层锅巴，上面铺腊味或者排骨。配一碗咸菜与清汤，一个人一锅刚好。它不是游客菜单上的东西，是本地日常的一顿饭。要从桂林市区专门过去不算顺路，去恭城看文庙时正好。",
-  "highlights": [
-    "恭城那边的砂锅饭，砂锅现煲，底下结一层锅巴",
-    "配一碗咸菜与清汤，一个人一锅刚好",
-    "去恭城看文庙的时候正好顺这一顿"
-  ],
-  "location": {
-    "point": {
-      "lng": 110.830866,
-      "lat": 24.840886,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "广西壮族自治区桂林市恭城瑶族自治县船上人砂锅饭",
-    "district": "恭城瑶族自治县",
-    "transportTip": "桂林市区乘车至恭城县城，步行可达"
+ "id": "chuanren-sandpot",
+ "name": "船上人砂锅饭",
+ "category": "food",
+ "subtype": "local",
+ "summary": "恭城那边的一家做砂锅饭的店，现煲的一锅带锅巴，配本地咸菜与汤。",
+ "description": "恭城在桂林东南，是瑶族自治县，恭城油茶就是从那出来的。这家做的是砂锅饭 —— 米下到砂锅里现煲，底下结一层锅巴，上面铺腊味或者排骨。配一碗咸菜与清汤，一个人一锅刚好。它不是游客菜单上的东西，是本地日常的一顿饭。要从桂林市区专门过去不算顺路，去恭城看文庙时正好。",
+ "highlights": [
+  "恭城那边的砂锅饭，砂锅现煲，底下结一层锅巴",
+  "配一碗咸菜与清汤，一个人一锅刚好",
+  "去恭城看文庙的时候正好顺这一顿"
+ ],
+ "location": {
+  "point": {
+   "lng": 110.830866,
+   "lat": 24.840886,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:30-20:30，以门店公告为准",
-    "openHoursRef": 0,
-    "ticket": "便宜",
-    "ticketRef": 0,
-    "duration": "建议 50-100 分钟",
-    "durationMinutes": [
-      50,
-      100
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "elders",
-    "solo",
-    "friends"
+  "address": "广西壮族自治区桂林市恭城瑶族自治县船上人砂锅饭",
+  "district": "恭城瑶族自治县",
+  "transportTip": "桂林市区乘车至恭城县城，步行可达"
+ },
+ "practical": {
+  "openHours": "约10:30-20:30，以门店公告为准",
+  "openHoursRef": 0,
+  "ticket": "便宜",
+  "ticketRef": 0,
+  "duration": "建议 50-100 分钟",
+  "durationMinutes": [
+   50,
+   100
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "砂锅饭",
-    "恭城",
-    "锅巴"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "elders",
+  "solo",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "砂锅饭",
+  "恭城",
+  "锅巴"
+ ],
+ "popularity": 44,
+ "sources": [
+  {
+   "title": "百度百科·恭城瑶族自治县",
+   "url": "https://baike.baidu.com/item/%E6%81%AD%E5%9F%8E%E7%91%B6%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8E%BF",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "船上人砂锅饭"
+ },
+ "_geocodeTitle": "船上人砂锅饭",
+ "_geocodeSuspect": false,
+ "district": "450332",
+ "_noImage": true,
+ "review": {
+  "score": 3.2,
+  "verdict": "时间富余再说",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 3.8,
+    "note": "砂锅现煲，底下那层锅巴是重点"
+   },
+   {
+    "label": "等待",
+    "score": 2.6,
+    "note": "现煲要等，赶时间不合适"
+   },
+   {
+    "label": "顺路度",
+    "score": 1.8,
+    "note": "在恭城，离市区远，不顺路"
+   }
   ],
-  "popularity": 44,
-  "sources": [
-    {
-      "title": "百度百科·恭城瑶族自治县",
-      "url": "https://baike.baidu.com/item/%E6%81%AD%E5%9F%8E%E7%91%B6%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8E%BF",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
+  "body": "恭城那边做砂锅饭的小馆，米下砂锅现煲、底下结一层锅巴，上面铺腊味或排骨，配咸菜和清汤，一个人一锅刚好。缺点是现煲要等，赶时间不行；而且它在恭城，从桂林市区专程过去完全不顺路，只有去看恭城文庙、喝油茶的时候顺一顿才划算。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "去恭城顺路"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "船上人砂锅饭"
-  },
-  "_geocodeTitle": "船上人砂锅饭",
-  "_geocodeSuspect": false,
-  "district": "450332",
-  "_noImage": true
+  "avoid": [
+   "专程前往",
+   "赶时间"
+  ],
+  "sources": []
+ }
 }

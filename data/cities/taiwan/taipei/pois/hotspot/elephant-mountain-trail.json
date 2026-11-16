@@ -1,113 +1,151 @@
 {
-  "id": "elephant-mountain-trail",
-  "name": "象山步道",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "信义区的登山步道，看摩天楼与盆地夜景的机位。",
-  "description": "象山步道在信义区，是拍夜景最经典的机位。步道从山脚一路往上铺阶梯，坡度不小，走上半小时左右可以到主要的观景平台。平台上可以同时看到整栋高楼与后面的盆地，天黑之后楼身点灯、底下车流拉成光带，是最好的时候。山上还有几处岩石平台，可以坐在石头上等天色变。步道有路灯但亮度有限，下山要带手电。傍晚上山的人多，早点占位；夏天蚊虫多，记得喷防蚊液。",
-  "highlights": [
-    "拍城市夜景的经典机位",
-    "阶梯步道半小时可达",
-    "傍晚人多，建议早占位"
-  ],
-  "location": {
-    "point": {
-      "lng": 121.58194,
-      "lat": 25.022345,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "台北市信义区信义路五段150巷一带",
-    "district": "南港区",
-    "transportTip": "捷运象山站步行十多分钟到登山口"
+ "id": "elephant-mountain-trail",
+ "name": "象山步道",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "信义区的登山步道，看摩天楼与盆地夜景的机位。",
+ "description": "象山步道在信义区，是拍夜景最经典的机位。步道从山脚一路往上铺阶梯，坡度不小，走上半小时左右可以到主要的观景平台。平台上可以同时看到整栋高楼与后面的盆地，天黑之后楼身点灯、底下车流拉成光带，是最好的时候。山上还有几处岩石平台，可以坐在石头上等天色变。步道有路灯但亮度有限，下山要带手电。傍晚上山的人多，早点占位；夏天蚊虫多，记得喷防蚊液。",
+ "highlights": [
+  "拍城市夜景的经典机位",
+  "阶梯步道半小时可达",
+  "傍晚人多，建议早占位"
+ ],
+ "location": {
+  "point": {
+   "lng": 121.58194,
+   "lat": 25.022345,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放，夜间照明有限",
-    "openHoursRef": 0,
-    "ticket": "免费，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "free"
+  "address": "台北市信义区信义路五段150巷一带",
+  "district": "南港区",
+  "transportTip": "捷运象山站步行十多分钟到登山口"
+ },
+ "practical": {
+  "openHours": "全天开放，夜间照明有限",
+  "openHoursRef": 0,
+  "ticket": "免费，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Taipei_Skyline_20130807.jpg/1280px-Taipei_Skyline_20130807.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Taipei_Skyline_20130807.jpg/1280px-Taipei_Skyline_20130807.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Taipei Skyline 20130807.jpg",
+   "query": "象山步道 台北",
+   "credit": {
+    "source": "wikimedia",
+    "author": "陶 澤中",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taipei_Skyline_20130807.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "friends",
-    "family",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Taipei_Skyline_20130807.jpg/1280px-Taipei_Skyline_20130807.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Taipei_Skyline_20130807.jpg/1280px-Taipei_Skyline_20130807.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Taipei Skyline 20130807.jpg",
-      "query": "象山步道 台北",
-      "credit": {
-        "source": "wikimedia",
-        "author": "陶 澤中",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taipei_Skyline_20130807.jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Skyline_of_Taipei_20220628.jpg/1280px-Skyline_of_Taipei_20220628.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Skyline_of_Taipei_20220628.jpg/1280px-Skyline_of_Taipei_20220628.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Skyline of Taipei 20220628.jpg",
-      "query": "象山步道",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Tzuhsun Hsu",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skyline_of_Taipei_20220628.jpg",
-        "license": "CC BY-SA 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Taipei%2C_Keelung_City%2C_Taiwan_-_panoramio_%2858%29.jpg/1280px-Taipei%2C_Keelung_City%2C_Taiwan_-_panoramio_%2858%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Taipei%2C_Keelung_City%2C_Taiwan_-_panoramio_%2858%29.jpg/1280px-Taipei%2C_Keelung_City%2C_Taiwan_-_panoramio_%2858%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 608,
-      "alt": "Taipei, Keelung City, Taiwan - panoramio (58).jpg",
-      "query": "象山步道",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Woodford Yang",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taipei,_Keelung_City,_Taiwan_-_panoramio_(58).jpg",
-        "license": "CC BY 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "夜景",
-    "步道",
-    "机位"
-  ],
-  "popularity": 94,
-  "sources": [
-    {
-      "title": "象山·百度百科",
-      "url": "https://baike.baidu.com/item/%E8%B1%A1%E5%B1%B1_%28%E5%8F%B0%E5%8C%97%29",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-03"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Elephant Mountain Trail Taipei 101 view",
-    "zh": "象山步道"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Skyline_of_Taipei_20220628.jpg/1280px-Skyline_of_Taipei_20220628.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Skyline_of_Taipei_20220628.jpg/1280px-Skyline_of_Taipei_20220628.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Skyline of Taipei 20220628.jpg",
+   "query": "象山步道",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Tzuhsun Hsu",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skyline_of_Taipei_20220628.jpg",
+    "license": "CC BY-SA 2.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "象山",
-  "district": "711013"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Taipei%2C_Keelung_City%2C_Taiwan_-_panoramio_%2858%29.jpg/1280px-Taipei%2C_Keelung_City%2C_Taiwan_-_panoramio_%2858%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Taipei%2C_Keelung_City%2C_Taiwan_-_panoramio_%2858%29.jpg/1280px-Taipei%2C_Keelung_City%2C_Taiwan_-_panoramio_%2858%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 608,
+   "alt": "Taipei, Keelung City, Taiwan - panoramio (58).jpg",
+   "query": "象山步道",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Woodford Yang",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taipei,_Keelung_City,_Taiwan_-_panoramio_(58).jpg",
+    "license": "CC BY 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "夜景",
+  "步道",
+  "机位"
+ ],
+ "popularity": 94,
+ "sources": [
+  {
+   "title": "象山·百度百科",
+   "url": "https://baike.baidu.com/item/%E8%B1%A1%E5%B1%B1_%28%E5%8F%B0%E5%8C%97%29",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-03"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Elephant Mountain Trail Taipei 101 view",
+  "zh": "象山步道"
+ },
+ "_geocodeTitle": "象山",
+ "district": "711013",
+ "review": {
+  "score": 4.3,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.7,
+    "note": "平台上能同时收下整栋高楼与后面的盆地"
+   },
+   {
+    "label": "体力",
+    "score": 3.0,
+    "note": "一路阶梯，坡度不小，走半小时腿会酸"
+   },
+   {
+    "label": "夜间",
+    "score": 3.2,
+    "note": "有路灯但亮度有限，下山要自带照明"
+   },
+   {
+    "label": "人流",
+    "score": 3.4,
+    "note": "傍晚上山人集中，好机位要早点占"
+   }
+  ],
+  "body": "拍台北夜景最经典的机位，没有之一：步道从山脚一路铺阶梯上去，半小时左右到主要观景平台，天黑后楼身点灯、底下车流拉成光带，能同时收下整栋高楼和后面的盆地。山上还有几处岩石平台，可以坐着等天色变化。代价是体力——全程台阶，坡度不小，平时不运动的人上来会喘；天黑后路灯亮度有限，下山必须自己带手电或开手机灯；傍晚上山人很集中，好位置要提前占，夏天还得防蚊。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "拍夜景",
+   "傍晚散步"
+  ],
+  "avoid": [
+   "不带照明下山",
+   "怕爬台阶"
+  ],
+  "sources": []
+ }
 }

@@ -1,67 +1,100 @@
 {
-  "id": "cc-jiang-gu-jia",
-  "name": "酱骨架",
-  "category": "food",
-  "subtype": "local",
-  "summary": "大块猪脊骨长时间酱焖到脱骨，戴上手套啃最香，是东北最痛快的一口。",
-  "description": "酱骨架是把带肉的猪脊骨砍成大块，先在温水中去血水，再放入加了酱油、黄豆酱、葱姜与多种香料的锅里，小火慢焖到肉可用筷子拨下。出锅时色泽深红油亮，热气带着酱香。长春的馆子多半按块卖，端上桌还配着一碟蒜泥。吃法就是用手抓啃，讲究的人戴一副手套，啃完还要吸一吸骨缝里的髓。这道菜量大价实，人多时点一份最划算。剩的骨架顺便可以煮白菜，第二天又是另一道。油腻较重，配一碗粗粮饭最舒服。",
-  "highlights": [
-    "慢焖到脱骨的深红色",
-    "上手抓着啃最痛快",
-    "量大价实适合多人"
-  ],
-  "location": {
-    "point": {
-      "lng": 125.303539,
-      "lat": 43.879827,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "吉林省长春市各东北家常菜馆与酱肉馆",
-    "district": "朝阳区",
-    "transportTip": "市内各东北菜馆均有"
+ "id": "cc-jiang-gu-jia",
+ "name": "酱骨架",
+ "category": "food",
+ "subtype": "local",
+ "summary": "大块猪脊骨长时间酱焖到脱骨，戴上手套啃最香，是东北最痛快的一口。",
+ "description": "酱骨架是把带肉的猪脊骨砍成大块，先在温水中去血水，再放入加了酱油、黄豆酱、葱姜与多种香料的锅里，小火慢焖到肉可用筷子拨下。出锅时色泽深红油亮，热气带着酱香。长春的馆子多半按块卖，端上桌还配着一碟蒜泥。吃法就是用手抓啃，讲究的人戴一副手套，啃完还要吸一吸骨缝里的髓。这道菜量大价实，人多时点一份最划算。剩的骨架顺便可以煮白菜，第二天又是另一道。油腻较重，配一碗粗粮饭最舒服。",
+ "highlights": [
+  "慢焖到脱骨的深红色",
+  "上手抓着啃最痛快",
+  "量大价实适合多人"
+ ],
+ "location": {
+  "point": {
+   "lng": 125.303539,
+   "lat": 43.879827,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:30-21:00，各店不一",
-    "openHoursRef": 0,
-    "ticket": "约15元/块起",
-    "ticketRef": 0,
-    "duration": "建议 40-80 分钟",
-    "durationMinutes": [
-      40,
-      80
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "friends",
-    "couple",
-    "family"
+  "address": "吉林省长春市各东北家常菜馆与酱肉馆",
+  "district": "朝阳区",
+  "transportTip": "市内各东北菜馆均有"
+ },
+ "practical": {
+  "openHours": "约10:30-21:00，各店不一",
+  "openHoursRef": 0,
+  "ticket": "约15元/块起",
+  "ticketRef": 0,
+  "duration": "建议 40-80 分钟",
+  "durationMinutes": [
+   40,
+   80
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "酱骨架",
-    "东北菜",
-    "酱"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "friends",
+  "couple",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "酱骨架",
+  "东北菜",
+  "酱"
+ ],
+ "popularity": 88,
+ "sources": [
+  {
+   "title": "酱骨架·百度百科",
+   "url": "https://baike.baidu.com/item/%E9%85%B1%E9%AA%A8%E6%9E%B6",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-03"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Braised Pork Spine Changchun",
+  "zh": "酱骨架"
+ },
+ "_geocodeTitle": "家常饼特色菜馆",
+ "district": "220104",
+ "_noImage": true,
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "分量",
+    "score": 4.4,
+    "note": "大块脊骨按块卖，肉能拨下来"
+   },
+   {
+    "label": "口味",
+    "score": 3.8,
+    "note": "酱香厚，配蒜泥与粗粮饭最舒服"
+   },
+   {
+    "label": "油腻",
+    "score": 3.0,
+    "note": "油重，一个人点容易吃不完"
+   }
   ],
-  "popularity": 88,
-  "sources": [
-    {
-      "title": "酱骨架·百度百科",
-      "url": "https://baike.baidu.com/item/%E9%85%B1%E9%AA%A8%E6%9E%B6",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-03"
-    }
+  "body": "带肉的猪脊骨砍大块，小火慢焖到筷子一拨就脱骨，端上来深红油亮配一碟蒜泥，戴手套抓着啃是这道菜的痛快处，量大价实，人多分一份最划算。不足也很直白：油腻重，一个人点基本吃不完，剩下的骨架煮白菜算是给第二顿找了个去处；口味偏咸，配粗粮饭或清淡小菜才压得住。想吃清爽的别点它。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "多人聚餐",
+   "冬天进补"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Braised Pork Spine Changchun",
-    "zh": "酱骨架"
-  },
-  "_geocodeTitle": "家常饼特色菜馆",
-  "district": "220104",
-  "_noImage": true
+  "avoid": [
+   "一人食",
+   "怕油腻"
+  ],
+  "sources": []
+ }
 }

@@ -23,7 +23,7 @@
   "practical": {
     "openHours": "全天开放（部分宅院另收门票）",
     "openHoursRef": 0,
-    "ticket": "免费（个别院落收费），以官方为准",
+    "ticket": "古镇街区免费；展馆联票全票 40 元（含留耕堂、三稔厅、何炳林院士纪念馆、沙湾民俗文化博览馆等七馆），优待票约 20 元；节假日常有八折优惠",
     "ticketRef": 0,
     "duration": "建议 150-300 分钟",
     "durationMinutes": [
@@ -52,9 +52,15 @@
       "url": "https://baike.baidu.com/item/%E6%B2%99%E6%B9%BE%E5%8F%A4%E9%95%87",
       "kind": "wiki",
       "fetchedAt": "2026-09-24"
+    },
+    {
+      "title": "沙湾古镇官方公众号（2026 元旦活动公告）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5MjIzNTA2Mg==&mid=2453700188&idx=2&sn=9e951d6739cc6dec5d3000a4bc0392c9",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,5 +69,17 @@
   "_geocodeTitle": "沙湾古镇",
   "_geocodeSuspect": false,
   "district": "440113",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "门票",
+        "old": "免费（个别院落收费），以官方为准",
+        "new": "古镇街区免费；展馆联票全票 40 元（含留耕堂、三稔厅、何炳林院士纪念馆、沙湾民俗文化博览馆等七馆），优待票约 20 元；节假日常有八折优惠"
+      }
+    ],
+    "source": "https://mp.weixin.qq.com/s?__biz=MzA5MjIzNTA2Mg==&mid=2453700188&idx=2&sn=9e951d6739cc6dec5d3000a4bc0392c9",
+    "reason": "沙湾古镇官方公众号（2026 元旦活动公告）"
+  }
 }

@@ -91,12 +91,18 @@ def main() -> int:
         print("用法：python tools/check_seed.py <城市id>|--all [--no-count]")
         print("      --no-count  只查字段级错误，不拿 WANT 目标配额卡数量")
         return 2
+    # ★★ 2026-11-08 修：先在**过滤前**取走 `--all`。
+    #   原来先 `args = [a for a in argv if not a.startswith("--")]`，再判
+    #   `args[0] == "--all"` —— 这个条件永远不成立：带 `--all` 时 args 为空
+    #   ⇒ 打印用法 exit 2；不带时也把 `--all` 当城市 id 去 import
+    #   `pipeline.seeds.--all` ⇒ 导入失败。每晚 A5 的第一道体检因此形同虚设。
+    all_cities = "--all" in argv
     count = "--no-count" not in argv
     args = [a for a in argv if not a.startswith("--")]
-    if not args:
+    if not all_cities and not args:
         print("用法：python tools/check_seed.py <城市id>|--all [--no-count]")
         return 2
-    if args[0] == "--all":
+    if all_cities:
         d = REPO / "pipeline" / "seeds"
         ids = sorted(p.stem for p in d.glob("*.py") if not p.name.startswith("_"))
     else:

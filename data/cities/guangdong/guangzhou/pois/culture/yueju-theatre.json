@@ -16,14 +16,14 @@
       "lat": 23.124632,
       "coordSystem": "GCJ-02"
     },
-    "address": "广州市天河区海安路363号（红线女艺术中心）",
+    "address": "广州市天河区珠江新城海安路 363 号（红线女艺术中心；广州粤剧院新址为 369 号）",
     "district": "天河区",
     "transportTip": "地铁珠江新城站一带，出站后建议打车或骑行（以现场指路为准）"
   },
   "practical": {
-    "openHours": "依演出场次开放，以官方公告为准",
+    "openHours": "红线女艺术中心展览 09:00-17:00（逢周三闭馆）；粤剧院演出以院团排期为准",
     "openHoursRef": 0,
-    "ticket": "依演出定价，以官方为准",
+    "ticket": "红线女艺术中心免费参观；广州粤剧院演出票约 80-380 元",
     "ticketRef": 0,
     "duration": "建议 120-180 分钟",
     "durationMinutes": [
@@ -52,9 +52,15 @@
       "url": "https://baike.baidu.com/item/%E7%BA%A2%E7%BA%BF%E5%A5%B3%E8%89%BA%E6%9C%AF%E4%B8%AD%E5%BF%83",
       "kind": "wiki",
       "fetchedAt": "2026-09-24"
+    },
+    {
+      "title": "红线女艺术中心官方公众号·开放时间与地址",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzAwNzEyODQ0OA==&mid=2653029153&idx=1&sn=6fac763670b03af52194d29004763b0f",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,5 +69,27 @@
   "_geocodeTitle": "红线女艺术中心",
   "_geocodeSuspect": false,
   "district": "440106",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "依演出场次开放，以官方公告为准",
+        "new": "红线女艺术中心展览 09:00-17:00（逢周三闭馆）；粤剧院演出以院团排期为准"
+      },
+      {
+        "field": "门票",
+        "old": "依演出定价，以官方为准",
+        "new": "红线女艺术中心免费参观；广州粤剧院演出票约 80-380 元"
+      },
+      {
+        "field": "地址",
+        "old": "广州市天河区海安路363号（红线女艺术中心）",
+        "new": "广州市天河区珠江新城海安路 363 号（红线女艺术中心；广州粤剧院新址为 369 号）"
+      }
+    ],
+    "source": "http://mp.weixin.qq.com/s?__biz=MzAwNzEyODQ0OA==&mid=2653029153&idx=1&sn=6fac763670b03af52194d29004763b0f",
+    "reason": "红线女艺术中心官方公众号：全年免费开放 09:00-17:00 逢周三休息，地址珠江新城海安路363号"
+  }
 }

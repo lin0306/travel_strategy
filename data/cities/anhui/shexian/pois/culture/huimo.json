@@ -17,12 +17,12 @@
       "lat": 29.86191,
       "coordSystem": "GCJ-02"
     },
-    "address": "黄山市歙县徽城镇老胡开文墨厂及墨业老字号（古城周边）",
+    "address": "黄山市歙县徽城镇城东路19号（老胡开文墨厂）",
     "district": "歙县",
     "transportTip": "徽州古城内步行可达墨厂 / 墨店"
   },
   "practical": {
-    "openHours": "墨厂与店铺日间营业（参观以现场为准）",
+    "openHours": "周一至周五 09:00-11:30、13:40-17:00（周末不开放，研学团可提前预约）",
     "openHoursRef": 0,
     "ticket": "参观多免费；购墨按件计",
     "ticketRef": 0,
@@ -56,9 +56,15 @@
       "url": "https://baike.baidu.com/item/%E5%BE%BD%E5%A2%A8",
       "kind": "wiki",
       "fetchedAt": "2026-10-07"
+    },
+    {
+      "title": "歙县文旅研学基地公告写明月厂营业时段与门牌",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3NDc4ODM3NA==&mid=2247600036&idx=2&sn=43b4ac11cea4b4d89c972f93de77f068",
+      "kind": "media",
+      "fetchedAt": "2026-11-13"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-13",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -67,5 +73,22 @@
   "_geocodeTitle": "老胡开文墨厂",
   "_geocodeSuspect": false,
   "district": "341021",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-13",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "墨厂与店铺日间营业（参观以现场为准）",
+        "new": "周一至周五 09:00-11:30、13:40-17:00（周末不开放，研学团可提前预约）"
+      },
+      {
+        "field": "地址",
+        "old": "黄山市歙县徽城镇老胡开文墨厂及墨业老字号（古城周边）",
+        "new": "黄山市歙县徽城镇城东路19号（老胡开文墨厂）"
+      }
+    ],
+    "source": "https://mp.weixin.qq.com/s?__biz=Mzg3NDc4ODM3NA==&mid=2247600036&idx=2&sn=43b4ac11cea4b4d89c972f93de77f068",
+    "reason": "歙县文旅研学基地公告写明月厂营业时段与门牌"
+  }
 }

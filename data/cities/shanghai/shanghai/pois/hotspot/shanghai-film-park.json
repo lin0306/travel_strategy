@@ -21,7 +21,7 @@
     "transportTip": "地铁3号线/4号线延安西路站步行"
   },
   "practical": {
-    "openHours": "约10:00-22:00(以园区的公告为准)",
+    "openHours": "全天24小时开放(商户多为10:00-22:00)",
     "openHoursRef": 0,
     "ticket": "免费",
     "ticketRef": 0,
@@ -52,9 +52,15 @@
       "url": "https://baike.baidu.com/item/%E4%B8%8A%E7%94%9F%E6%96%B0%E6%89%80",
       "kind": "wiki",
       "fetchedAt": "2026-09-19"
+    },
+    {
+      "title": "长宁区政府官网：上生新所为7x24小时开放的公共文化街区",
+      "url": "https://www.shcn.gov.cn/col7344/20240618/1261648.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -63,5 +69,17 @@
   "_geocodeTitle": "上生新所",
   "_geocodeSuspect": false,
   "district": "310105",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "约10:00-22:00(以园区的公告为准)",
+        "new": "全天24小时开放(商户多为10:00-22:00)"
+      }
+    ],
+    "source": "https://www.shcn.gov.cn/col7344/20240618/1261648.html",
+    "reason": "长宁区政府官网：上生新所为7x24小时开放的公共文化街区"
+  }
 }

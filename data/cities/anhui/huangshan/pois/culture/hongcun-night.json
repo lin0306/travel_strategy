@@ -21,7 +21,7 @@
     "transportTip": "宏村内步行"
   },
   "practical": {
-    "openHours": "日落后至约21:00",
+    "openHours": "花灯巡游每晚 19:18-20:18；南湖竹筏《踏歌行》18:50/19:18/19:55，以景区公告为准",
     "openHoursRef": 0,
     "ticket": "含宏村门票或村中住宿",
     "ticketRef": 0,
@@ -52,9 +52,15 @@
       "url": "https://baike.baidu.com/item/%E5%AE%8F%E6%9D%91",
       "kind": "wiki",
       "fetchedAt": "2026-10-01"
+    },
+    {
+      "title": "安徽经济网｜宏村夜游暑期档：花灯巡游每晚19:18-20:18",
+      "url": "https://www.ahjjw.com.cn/detail/545822.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-09",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -62,5 +68,17 @@
   },
   "_geocodeTitle": "宏村村委会",
   "district": "341023",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-09",
+    "changes": [
+      {
+        "field": "开放时间",
+        "old": "日落后至约21:00",
+        "new": "花灯巡游每晚 19:18-20:18；南湖竹筏《踏歌行》18:50/19:18/19:55，以景区公告为准"
+      }
+    ],
+    "source": "https://www.ahjjw.com.cn/detail/545822.html",
+    "reason": "宏村夜游时刻表（徽黄旅游集团 2026-06-24 起固定演出）"
+  }
 }

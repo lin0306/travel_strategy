@@ -1,81 +1,119 @@
 {
-  "id": "maoer-mountain",
-  "name": "猫儿山",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "漓江的源头，海拔 2142 米的华南第二高峰，山顶是一片风化出来的石河。",
-  "description": "猫儿山在兴安县西北，海拔 2142 米，是华南第二高峰，也是漓江的发源地，那条江从这里的一条沟里出来。它是保护区，海拔一千米以上是一片原始林，再往上是矮林与草甸。山顶是一片风化出来的石河，石头铺满一整片山坡，样子别处少见。来这里的理由有两条：一是它是那条江的起点，二是从山上往下，这一带的景象一路变化下去。",
-  "highlights": [
-    "海拔 2142 米，华南第二高峰，漓江从这里发源",
-    "海拔一千米以上是一片原始林，往上是矮林与草甸",
-    "山顶是一片风化出来的石河，样子别处少见"
-  ],
-  "location": {
-    "point": {
-      "lng": 110.79523,
-      "lat": 25.699789,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "广西壮族自治区桂林市兴安县猫儿山",
-    "district": "兴安县",
-    "transportTip": "桂林汽车站乘班车至兴安后转景区专线；或在桂林报一日游"
+ "id": "maoer-mountain",
+ "name": "猫儿山",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "漓江的源头，海拔 2142 米的华南第二高峰，山顶是一片风化出来的石河。",
+ "description": "猫儿山在兴安县西北，海拔 2142 米，是华南第二高峰，也是漓江的发源地，那条江从这里的一条沟里出来。它是保护区，海拔一千米以上是一片原始林，再往上是矮林与草甸。山顶是一片风化出来的石河，石头铺满一整片山坡，样子别处少见。来这里的理由有两条：一是它是那条江的起点，二是从山上往下，这一带的景象一路变化下去。",
+ "highlights": [
+  "海拔 2142 米，华南第二高峰，漓江从这里发源",
+  "海拔一千米以上是一片原始林，往上是矮林与草甸",
+  "山顶是一片风化出来的石河，样子别处少见"
+ ],
+ "location": {
+  "point": {
+   "lng": 110.79523,
+   "lat": 25.699789,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约8:00-17:00，以景区公告为准",
-    "openHoursRef": 0,
-    "ticket": "中等，含景区交通，以官方公告为准",
-    "ticketRef": 0,
-    "duration": "建议 300-540 分钟",
-    "durationMinutes": [
-      300,
-      540
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "friends"
+  "address": "广西壮族自治区桂林市兴安县猫儿山",
+  "district": "兴安县",
+  "transportTip": "桂林汽车站乘班车至兴安后转景区专线；或在桂林报一日游"
+ },
+ "practical": {
+  "openHours": "约8:00-17:00，以景区公告为准",
+  "openHoursRef": 0,
+  "ticket": "中等，含景区交通，以官方公告为准",
+  "ticketRef": 0,
+  "duration": "建议 300-540 分钟",
+  "durationMinutes": [
+   300,
+   540
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/KittenMountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/KittenMountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 682,
-      "alt": "KittenMountain.jpg",
-      "query": "猫儿山 桂林",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Philg88",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:KittenMountain.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    }
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/KittenMountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/KittenMountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 682,
+   "alt": "KittenMountain.jpg",
+   "query": "猫儿山 桂林",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Philg88",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:KittenMountain.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "漓江源头",
+  "华南第二高",
+  "原始林"
+ ],
+ "popularity": 58,
+ "sources": [
+  {
+   "title": "百度百科·猫儿山",
+   "url": "https://baike.baidu.com/item/%E7%8C%AB%E5%84%BF%E5%B1%B1",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "猫儿山"
+ },
+ "_geocodeTitle": "猫儿山",
+ "_geocodeSuspect": false,
+ "district": "450325",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "体力",
+    "score": 2.5,
+    "note": "上下山占掉大半天，盘山弯道多"
+   },
+   {
+    "label": "视野",
+    "score": 4.5,
+    "note": "山顶石河与云海，华南少见的开阔"
+   },
+   {
+    "label": "季节",
+    "score": 3.5,
+    "note": "春夏雾多，看远景全凭运气"
+   },
+   {
+    "label": "配套",
+    "score": 2.8,
+    "note": "山上补给少，干粮与外套自带"
+   }
   ],
-  "coverIndex": 0,
-  "tags": [
-    "漓江源头",
-    "华南第二高",
-    "原始林"
+  "body": "漓江的源头，海拔两千一百多米，山顶那片石河确实是别处少见的样子，值得为它跑一趟。缺点也很直接：山高路远，光上下山就要占掉大半天，盘山路弯多，晕车的人要提前准备；山上补给点少、气温比市区低不少，长袖和干粮都别省。春夏雾大看不到远景是常事，专程为此而来要有心理准备。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "看云海",
+   "徒步"
   ],
-  "popularity": 58,
-  "sources": [
-    {
-      "title": "百度百科·猫儿山",
-      "url": "https://baike.baidu.com/item/%E7%8C%AB%E5%84%BF%E5%B1%B1",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
+  "avoid": [
+   "带老人小孩半日往返",
+   "赶时间"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "猫儿山"
-  },
-  "_geocodeTitle": "猫儿山",
-  "_geocodeSuspect": false,
-  "district": "450325"
+  "sources": []
+ }
 }

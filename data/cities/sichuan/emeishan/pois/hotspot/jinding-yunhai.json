@@ -1,197 +1,235 @@
 {
-  "id": "jinding-yunhai",
-  "name": "金顶云海",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "云层铺到脚下，山顶像浮在海上，最出片的一幕。",
-  "description": "金顶云海是峨眉山最有代表性的画面：云层填满山谷一直漫到崖边，人站在平台上，脚下是翻涌的白色，远处零星露出几个山尖。雨后天晴最容易出现，尤其是清晨到上午这段时间，太阳把云面照出层次。最佳机位在金顶平台西侧靠近舍身崖一带，或者华藏寺前的广场，能把普贤金像和云海一起框进去。风大的时候云走得极快，几分钟换一个样子，要连拍。冬季云层更厚更白。",
-  "highlights": [
-    "云海",
-    "机位在舍身崖一侧",
-    "雨后清晨"
-  ],
-  "location": {
-    "point": {
-      "lng": 103.336959,
-      "lat": 29.52114,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "峨眉山市峨眉山景区金顶",
-    "district": "峨眉山",
-    "transportTip": "金顶索道上站后步行约二十分钟"
+ "id": "jinding-yunhai",
+ "name": "金顶云海",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "云层铺到脚下，山顶像浮在海上，最出片的一幕。",
+ "description": "金顶云海是峨眉山最有代表性的画面：云层填满山谷一直漫到崖边，人站在平台上，脚下是翻涌的白色，远处零星露出几个山尖。雨后天晴最容易出现，尤其是清晨到上午这段时间，太阳把云面照出层次。最佳机位在金顶平台西侧靠近舍身崖一带，或者华藏寺前的广场，能把普贤金像和云海一起框进去。风大的时候云走得极快，几分钟换一个样子，要连拍。冬季云层更厚更白。",
+ "highlights": [
+  "云海",
+  "机位在舍身崖一侧",
+  "雨后清晨"
+ ],
+ "location": {
+  "point": {
+   "lng": 103.336959,
+   "lat": 29.52114,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天（清晨概率最高）",
-    "openHoursRef": 0,
-    "ticket": "含在峨眉山景区大门票内",
-    "ticketRef": 0,
-    "duration": "建议 60-180 分钟",
-    "durationMinutes": [
-      60,
-      180
-    ],
-    "priceLevel": "high"
+  "address": "峨眉山市峨眉山景区金顶",
+  "district": "峨眉山",
+  "transportTip": "金顶索道上站后步行约二十分钟"
+ },
+ "practical": {
+  "openHours": "全天（清晨概率最高）",
+  "openHoursRef": 0,
+  "ticket": "含在峨眉山景区大门票内",
+  "ticketRef": 0,
+  "duration": "建议 60-180 分钟",
+  "durationMinutes": [
+   60,
+   180
+  ],
+  "priceLevel": "high"
+ },
+ "audience": [
+  "couple",
+  "solo",
+  "friends",
+  "family"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2821%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2821%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Emeishan, Leshan, Sichuan, China - panoramio (21).jpg",
+   "query": "金顶云海",
+   "credit": {
+    "source": "wikimedia",
+    "author": "jetsun",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "couple",
-    "solo",
-    "friends",
-    "family"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2821%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2821%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Emeishan, Leshan, Sichuan, China - panoramio (21).jpg",
-      "query": "金顶云海",
-      "credit": {
-        "source": "wikimedia",
-        "author": "jetsun",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%289%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%289%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Emeishan, Leshan, Sichuan, China - panoramio (9).jpg",
-      "query": "金顶云海",
-      "credit": {
-        "source": "wikimedia",
-        "author": "jetsun",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_-_jetsun_%289%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_-_jetsun_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_-_jetsun_%289%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_-_jetsun_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Emeishan, Leshan, Sichuan, China - panoramio - jetsun (9).jpg",
-      "query": "金顶云海",
-      "credit": {
-        "source": "wikimedia",
-        "author": "jetsun",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2810%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2810%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Emeishan, Leshan, Sichuan, China - panoramio (10).jpg",
-      "query": "金顶云海",
-      "credit": {
-        "source": "wikimedia",
-        "author": "jetsun",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%288%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%288%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Emeishan, Leshan, Sichuan, China - panoramio (8).jpg",
-      "query": "金顶云海",
-      "credit": {
-        "source": "wikimedia",
-        "author": "jetsun",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2812%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2812%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Emeishan, Leshan, Sichuan, China - panoramio (12).jpg",
-      "query": "金顶云海",
-      "credit": {
-        "source": "wikimedia",
-        "author": "jetsun",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-02",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "云海",
-    "摄影",
-    "金顶",
-    "出片",
-    "清晨"
-  ],
-  "popularity": 94,
-  "sources": [
-    {
-      "title": "百度百科·峨眉山云海",
-      "url": "https://baike.baidu.com/item/%E5%B3%A8%E7%9C%89%E5%B1%B1%E4%BA%91%E6%B5%B7",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-07"
-    }
-  ],
-  "updatedAt": "2026-11-02",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "金顶云海"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%289%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%289%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Emeishan, Leshan, Sichuan, China - panoramio (9).jpg",
+   "query": "金顶云海",
+   "credit": {
+    "source": "wikimedia",
+    "author": "jetsun",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "峨眉山金顶山庄(雷洞坪)",
-  "_geocodeSuspect": false,
-  "district": "511181"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_-_jetsun_%289%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_-_jetsun_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_-_jetsun_%289%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_-_jetsun_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Emeishan, Leshan, Sichuan, China - panoramio - jetsun (9).jpg",
+   "query": "金顶云海",
+   "credit": {
+    "source": "wikimedia",
+    "author": "jetsun",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2810%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2810%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Emeishan, Leshan, Sichuan, China - panoramio (10).jpg",
+   "query": "金顶云海",
+   "credit": {
+    "source": "wikimedia",
+    "author": "jetsun",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%288%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%288%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Emeishan, Leshan, Sichuan, China - panoramio (8).jpg",
+   "query": "金顶云海",
+   "credit": {
+    "source": "wikimedia",
+    "author": "jetsun",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2812%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2812%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Emeishan, Leshan, Sichuan, China - panoramio (12).jpg",
+   "query": "金顶云海",
+   "credit": {
+    "source": "wikimedia",
+    "author": "jetsun",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-02",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "云海",
+  "摄影",
+  "金顶",
+  "出片",
+  "清晨"
+ ],
+ "popularity": 94,
+ "sources": [
+  {
+   "title": "百度百科·峨眉山云海",
+   "url": "https://baike.baidu.com/item/%E5%B3%A8%E7%9C%89%E5%B1%B1%E4%BA%91%E6%B5%B7",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-07"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "金顶云海"
+ },
+ "_geocodeTitle": "峨眉山金顶山庄(雷洞坪)",
+ "_geocodeSuspect": false,
+ "district": "511181",
+ "review": {
+  "score": 4.6,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "景观",
+    "score": 4.9,
+    "note": "云层铺到崖边，山尖零星露出来"
+   },
+   {
+    "label": "概率",
+    "score": 2.8,
+    "note": "靠天气，雨后初晴才有，跑空很常见"
+   },
+   {
+    "label": "机位",
+    "score": 4.0,
+    "note": "西侧靠舍身崖或华藏寺前广场能连金像一起框"
+   },
+   {
+    "label": "时长",
+    "score": 3.4,
+    "note": "云走得快，要连拍，等一场半小时到两小时"
+   }
+  ],
+  "body": "峨眉山最出名的一幕：云层填满山谷一直漫到崖边，人站在平台上脚下是翻涌的白，远处零星露出几个山尖，太阳把云面照出层次。雨后天晴最容易碰到，清晨到上午概率最高；机位在金顶平台西侧靠舍身崖一带，或者华藏寺前广场，能把普贤金像和云海一起框进去。它的问题是全看天——阴天、大风天、雾天什么都没，跑空一趟很常见，行程得留出备选；风大的时候云几分钟换一个样子，手慢就错过，得一直举着机器。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "摄影",
+   "看日出云海"
+  ],
+  "avoid": [
+   "只来一天不等天气",
+   "怕冷"
+  ],
+  "sources": []
+ }
 }

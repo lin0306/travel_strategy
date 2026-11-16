@@ -1,68 +1,110 @@
 {
-  "id": "xiangrikui-coffee",
-  "name": "向日葵之家咖啡(公园店)",
-  "category": "food",
-  "subtype": "cafe",
-  "summary": "老别墅里的咖啡馆，一半是座位、一半是杂货。",
-  "description": "向日葵之家在中山公园附近的公园西路，是一栋老房子改的店，前面卖咖啡和甜点，后面一半是杂货与买手选的东西，杯子、布艺、文具、香氛摆在一起，坐着的人可以慢慢翻。咖啡是常规的做法——意式与手冲都有，另有茶与非咖啡的饮品，甜点是当天做的几款。店里的座位不多，窗边的位置最抢手，下午常满。价格中等，一杯三十块上下。老房子的层高与旧地板都留着，是这一带咖啡馆里氛围最舒服的一档。它离中山公园与斗西路的老巷子很近，逛完过来歇脚合适。",
-  "highlights": [
-    "老房子改的店，一半咖啡一半杂货",
-    "意式与手冲都有，甜点当日做",
-    "座位不多，窗边位置抢手"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.088278,
-      "lat": 24.459409,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "福建省厦门市思明区公园西路51号",
-    "district": "思明区",
-    "transportTip": "地铁1号线中山公园站，步行约五分钟"
+ "id": "xiangrikui-coffee",
+ "name": "向日葵之家咖啡(公园店)",
+ "category": "food",
+ "subtype": "cafe",
+ "summary": "老别墅里的咖啡馆，一半是座位、一半是杂货。",
+ "description": "向日葵之家在中山公园附近的公园西路，是一栋老房子改的店，前面卖咖啡和甜点，后面一半是杂货与买手选的东西，杯子、布艺、文具、香氛摆在一起，坐着的人可以慢慢翻。咖啡是常规的做法——意式与手冲都有，另有茶与非咖啡的饮品，甜点是当天做的几款。店里的座位不多，窗边的位置最抢手，下午常满。价格中等，一杯三十块上下。老房子的层高与旧地板都留着，是这一带咖啡馆里氛围最舒服的一档。它离中山公园与斗西路的老巷子很近，逛完过来歇脚合适。",
+ "highlights": [
+  "老房子改的店，一半咖啡一半杂货",
+  "意式与手冲都有，甜点当日做",
+  "座位不多，窗边位置抢手"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.088278,
+   "lat": 24.459409,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:00-22:00，以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "人均约40元起，以实际消费为准",
-    "ticketRef": 0,
-    "duration": "建议 45-120 分钟",
-    "durationMinutes": [
-      45,
-      120
-    ],
-    "priceLevel": "mid"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "solo"
+  "address": "福建省厦门市思明区公园西路51号",
+  "district": "思明区",
+  "transportTip": "地铁1号线中山公园站，步行约五分钟"
+ },
+ "practical": {
+  "openHours": "约10:00-22:00，以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "人均约40元起，以实际消费为准",
+  "ticketRef": 0,
+  "duration": "建议 45-120 分钟",
+  "durationMinutes": [
+   45,
+   120
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "咖啡馆",
-    "老房子",
-    "杂货"
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "咖啡馆",
+  "老房子",
+  "杂货"
+ ],
+ "popularity": 75,
+ "sources": [
+  {
+   "title": "百度百科·咖啡馆",
+   "url": "https://baike.baidu.com/item/%E5%92%96%E5%95%A1%E9%A6%86",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-28"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "向日葵之家咖啡(公园店)"
+ },
+ "_geocodeTitle": "向日葵之家咖啡&杂货买手店(公园店)",
+ "_geocodeSuspect": false,
+ "district": "350203",
+ "_noImage": true,
+ "review": {
+  "score": 3.8,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "环境",
+    "score": 4.4,
+    "note": "老房子层高与旧地板，氛围舒服"
+   },
+   {
+    "label": "口味",
+    "score": 3.4,
+    "note": "意式与手冲常规，甜点当日几款"
+   },
+   {
+    "label": "座位",
+    "score": 2.9,
+    "note": "座位不多，窗边位置下午常满"
+   },
+   {
+    "label": "性价比",
+    "score": 3.2,
+    "note": "价格中等，杂货选物偏贵"
+   }
   ],
-  "popularity": 75,
+  "body": "中山公园附近公园西路上的老房子改的店，前面卖咖啡和甜点，后面一半是杯子、布艺、文具、香氛的杂货选物，坐着能慢慢翻。意式与手冲都有，甜点是当天做的几款，老房子的层高与旧地板留着，是这一带咖啡馆里氛围最舒服的一档，逛完中山公园与斗西路老巷过来歇脚合适。本轮核过仍在营，公园店门牌与平台信息一致。缺点是座位不多，窗边那几个位置下午常满、想坐得排队；价格中等偏上，杂货选物更贵，喝咖啡本身性价比一般。",
+  "basis": "web",
+  "at": "2026-11-12",
+  "fits": [
+   "老城散步歇脚",
+   "喜欢老房子氛围",
+   "逛杂货选物"
+  ],
+  "avoid": [
+   "想找安静办公位",
+   "赶时间"
+  ],
   "sources": [
-    {
-      "title": "百度百科·咖啡馆",
-      "url": "https://baike.baidu.com/item/%E5%92%96%E5%95%A1%E9%A6%86",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-28"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "向日葵之家咖啡(公园店)"
-  },
-  "_geocodeTitle": "向日葵之家咖啡&杂货买手店(公园店)",
-  "_geocodeSuspect": false,
-  "district": "350203",
-  "_noImage": true
+   "https://www.trip.com/restaurant/china/xiamen/detail/restaurant-130453701/",
+   "https://mbd.baidu.com/newspage/data/dtlandingsuper?nid=dt_4636766940325711066"
+  ]
+ }
 }

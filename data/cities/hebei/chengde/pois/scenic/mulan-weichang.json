@@ -1,73 +1,111 @@
 {
-  "id": "mulan-weichang",
-  "name": "木兰围场",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "清代皇帝打猎的一片草原，现在是草原森林风景区，夏天骑马看花。",
-  "description": "木兰围场在围场县，是清代皇帝打猎的地方。当年这儿是皇家猎苑，皇帝带人来围猎，所以叫木兰围场 —— 木兰是满语里哨鹿的意思。现在是草原和森林连成一片的风景区，草绿，花多，能骑马。夏天凉，是北京人常来的草原。它和塞罕坝在一片，一起玩。",
-  "highlights": [
-    "清代皇家猎苑，满语木兰即哨鹿",
-    "草原森林连片可骑马，夏凉花多",
-    "与塞罕坝同片，北京人常来"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.49484,
-      "lat": 42.320467,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市围场满族蒙古族自治县围场镇木兰围场",
-    "district": "围场满族蒙古族自治县",
-    "transportTip": "承德或围场转车到木兰围场",
-    "entrance": {
-      "lng": 117.494863,
-      "lat": 42.318578,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "mulan-weichang",
+ "name": "木兰围场",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "清代皇帝打猎的一片草原，现在是草原森林风景区，夏天骑马看花。",
+ "description": "木兰围场在围场县，是清代皇帝打猎的地方。当年这儿是皇家猎苑，皇帝带人来围猎，所以叫木兰围场 —— 木兰是满语里哨鹿的意思。现在是草原和森林连成一片的风景区，草绿，花多，能骑马。夏天凉，是北京人常来的草原。它和塞罕坝在一片，一起玩。",
+ "highlights": [
+  "清代皇家猎苑，满语木兰即哨鹿",
+  "草原森林连片可骑马，夏凉花多",
+  "与塞罕坝同片，北京人常来"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.49484,
+   "lat": 42.320467,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约07:30-17:30，冬季部分封闭",
-    "openHoursRef": 0,
-    "ticket": "约150元，与塞罕坝有联票",
-    "ticketRef": 0,
-    "duration": "建议 240-480 分钟",
-    "durationMinutes": [
-      240,
-      480
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "family",
-    "couple",
-    "friends"
+  "address": "河北省承德市围场满族蒙古族自治县围场镇木兰围场",
+  "district": "围场满族蒙古族自治县",
+  "transportTip": "承德或围场转车到木兰围场",
+  "entrance": {
+   "lng": 117.494863,
+   "lat": 42.318578,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约07:30-17:30，冬季部分封闭",
+  "openHoursRef": 0,
+  "ticket": "约150元，与塞罕坝有联票",
+  "ticketRef": 0,
+  "duration": "建议 240-480 分钟",
+  "durationMinutes": [
+   240,
+   480
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "草原",
-    "皇家猎苑",
-    "骑马"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "family",
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "草原",
+  "皇家猎苑",
+  "骑马"
+ ],
+ "popularity": 84,
+ "sources": [
+  {
+   "title": "百度百科·木兰围场",
+   "url": "https://baike.baidu.com/item/%E6%9C%A8%E5%85%B0%E5%9B%B4%E5%9C%BA",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Mulan Weichang",
+  "zh": "木兰围场"
+ },
+ "_geocodeTitle": "木兰围场",
+ "_geocodeSuspect": false,
+ "district": "130828",
+ "_noImage": true,
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.6,
+    "note": "草原与森林连片，夏天花多"
+   },
+   {
+    "label": "体验",
+    "score": 4.2,
+    "note": "骑马是这里最直接的项目"
+   },
+   {
+    "label": "体力",
+    "score": 3.5,
+    "note": "点分散，走动量大"
+   },
+   {
+    "label": "性价比",
+    "score": 3.8,
+    "note": "与塞罕坝门票叠加后总价不低"
+   }
   ],
-  "popularity": 84,
-  "sources": [
-    {
-      "title": "百度百科·木兰围场",
-      "url": "https://baike.baidu.com/item/%E6%9C%A8%E5%85%B0%E5%9B%B4%E5%9C%BA",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "body": "清代皇家猎苑，木兰是满语里哨鹿的意思，现在是草原和森林连成一片的风景区，夏天草绿花多，能骑马。和塞罕坝在同一片，通常一起安排。缺点是两张门票叠起来总价不低，园内吃饭选择少、价格还偏高；草原天气变得快，一场雨就能把一天的计划打乱，行程最好留出余量。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "草原",
+   "骑马",
+   "自驾"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Mulan Weichang",
-    "zh": "木兰围场"
-  },
-  "_geocodeTitle": "木兰围场",
-  "_geocodeSuspect": false,
-  "district": "130828",
-  "_noImage": true
+  "avoid": [
+   "预算紧的一日游"
+  ],
+  "sources": []
+ }
 }

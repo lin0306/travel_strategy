@@ -1,66 +1,105 @@
 {
-  "id": "qiaomian-helou",
-  "name": "荞面河漏",
-  "category": "food",
-  "subtype": "snack",
-  "summary": "承德一带用荞面压的粗条面，浇卤或汤，口感粗而香。",
-  "description": "荞面河漏是承德一带的面 —— 荞面和了用工具压成粗条，直接落到锅里煮，所以叫河漏。煮好浇卤或配汤，加黄瓜丝、蒜。它的口感比白面粗，颜色深，荞香重。承德人常吃。店不大，价便宜。想吃本地面，来这个。",
-  "highlights": [
-    "荞面压粗条落锅煮，故名河漏",
-    "浇卤或配汤，口感粗荞香重",
-    "本地常吃，小店便宜"
-  ],
-  "location": {
-    "point": {
-      "lng": 117.916842,
-      "lat": 40.99031,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市双桥区荞面河漏店",
-    "district": "双桥区",
-    "transportTip": "市区步行或公交到店"
+ "id": "qiaomian-helou",
+ "name": "荞面河漏",
+ "category": "food",
+ "subtype": "snack",
+ "summary": "承德一带用荞面压的粗条面，浇卤或汤，口感粗而香。",
+ "description": "荞面河漏是承德一带的面 —— 荞面和了用工具压成粗条，直接落到锅里煮，所以叫河漏。煮好浇卤或配汤，加黄瓜丝、蒜。它的口感比白面粗，颜色深，荞香重。承德人常吃。店不大，价便宜。想吃本地面，来这个。",
+ "highlights": [
+  "荞面压粗条落锅煮，故名河漏",
+  "浇卤或配汤，口感粗荞香重",
+  "本地常吃，小店便宜"
+ ],
+ "location": {
+  "point": {
+   "lng": 117.916842,
+   "lat": 40.99031,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约07:00-20:00",
-    "openHoursRef": 0,
-    "ticket": "人均约15元",
-    "ticketRef": 0,
-    "duration": "建议 30-60 分钟",
-    "durationMinutes": [
-      30,
-      60
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "solo",
-    "friends"
+  "address": "河北省承德市双桥区荞面河漏店",
+  "district": "双桥区",
+  "transportTip": "市区步行或公交到店"
+ },
+ "practical": {
+  "openHours": "约07:00-20:00",
+  "openHoursRef": 0,
+  "ticket": "人均约15元",
+  "ticketRef": 0,
+  "duration": "建议 30-60 分钟",
+  "durationMinutes": [
+   30,
+   60
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "面食",
-    "荞面",
-    "小吃"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "solo",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "面食",
+  "荞面",
+  "小吃"
+ ],
+ "popularity": 62,
+ "sources": [
+  {
+   "title": "百度百科·荞面",
+   "url": "https://baike.baidu.com/item/%E8%8D%9E%E9%9D%A2",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "荞面河漏"
+ },
+ "_geocodeTitle": "荞面饸饹(广仁大街店)",
+ "district": "130802",
+ "_noImage": true,
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 3.9,
+    "note": "荞香重、条粗有嚼劲，浇卤比配汤更入味"
+   },
+   {
+    "label": "价格",
+    "score": 4.3,
+    "note": "一碗十几元，本地人的日常价"
+   },
+   {
+    "label": "环境",
+    "score": 2.9,
+    "note": "多是小店，几张桌子，谈不上环境"
+   },
+   {
+    "label": "接受度",
+    "score": 3.0,
+    "note": "荞面偏粗偏硬，吃惯细面的人不适应"
+   }
   ],
-  "popularity": 62,
-  "sources": [
-    {
-      "title": "百度百科·荞面",
-      "url": "https://baike.baidu.com/item/%E8%8D%9E%E9%9D%A2",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
+  "body": "河漏是荞面用床子压成粗条直接落锅煮，颜色深、荞味冲，浇上卤再配点黄瓜丝和蒜，是承德人日常的一碗面。它不精致，但很实在，价格也就是本地早点价。缺点是荞面本身偏粗偏硬，第一口会觉得\"怎么这么糙\"，吃惯白面条的人不一定受用；店多是街边小铺、几张桌子，坐下就吃，别指望环境和服务。专程来不值，住在市区顺路吃一碗刚好。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "吃本地日常",
+   "预算紧",
+   "早餐"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "荞面河漏"
-  },
-  "_geocodeTitle": "荞面饸饹(广仁大街店)",
-  "district": "130802",
-  "_noImage": true
+  "avoid": [
+   "要环境",
+   "不吃粗粮"
+  ],
+  "sources": []
+ }
 }

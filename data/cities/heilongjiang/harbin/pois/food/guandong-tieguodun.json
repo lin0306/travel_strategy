@@ -1,68 +1,110 @@
 {
-  "id": "guandong-tieguodun",
-  "name": "老关东铁锅炖(红霞街总店)",
-  "category": "food",
-  "subtype": "local",
-  "summary": "道里区红霞街上的铁锅炖，一口大铁锅架在桌上炖鱼或炖鸡，贴一圈玉米饼子。",
-  "description": "铁锅炖是东北很有代表性的一种吃法：一口直径半米的铁锅架在桌上，底下烧柴或气，鱼、鸡、排骨连着土豆、粉条、豆腐一起炖，锅边贴一圈玉米面饼子，饼子一半泡在汤里。这家在道里区红霞街，是本地人常去的一家。点法是先选主料再加配菜，炖上二三十分钟才能开吃，所以去之前要有一个半小时以上的时间。味道是咸鲜带酱香，饼子吸了汤最香。人均便宜到中等，四个人一锅最划算。店里烟火气重，冬天一屋子热气。饭点要等，建议提前一点到。",
-  "highlights": [
-    "半米铁锅架在桌上炖，锅边贴一圈玉米饼子",
-    "炖二三十分钟才开吃，要留一个半小时以上",
-    "四个人一锅最划算，饼子吸了汤最香"
-  ],
-  "location": {
-    "point": {
-      "lng": 126.616949,
-      "lat": 45.774114,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黑龙江省哈尔滨市道里区通江街道红霞街43号",
-    "district": "道里区",
-    "transportTip": "地铁二号线中央大街站步行约十分钟；或网约车前往"
+ "id": "guandong-tieguodun",
+ "name": "老关东铁锅炖(红霞街总店)",
+ "category": "food",
+ "subtype": "local",
+ "summary": "道里区红霞街上的铁锅炖，一口大铁锅架在桌上炖鱼或炖鸡，贴一圈玉米饼子。",
+ "description": "铁锅炖是东北很有代表性的一种吃法：一口直径半米的铁锅架在桌上，底下烧柴或气，鱼、鸡、排骨连着土豆、粉条、豆腐一起炖，锅边贴一圈玉米面饼子，饼子一半泡在汤里。这家在道里区红霞街，是本地人常去的一家。点法是先选主料再加配菜，炖上二三十分钟才能开吃，所以去之前要有一个半小时以上的时间。味道是咸鲜带酱香，饼子吸了汤最香。人均便宜到中等，四个人一锅最划算。店里烟火气重，冬天一屋子热气。饭点要等，建议提前一点到。",
+ "highlights": [
+  "半米铁锅架在桌上炖，锅边贴一圈玉米饼子",
+  "炖二三十分钟才开吃，要留一个半小时以上",
+  "四个人一锅最划算，饼子吸了汤最香"
+ ],
+ "location": {
+  "point": {
+   "lng": 126.616949,
+   "lat": 45.774114,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约10:00-22:00，以门店公告为准",
-    "openHoursRef": 0,
-    "ticket": "人均便宜到中等",
-    "ticketRef": 0,
-    "duration": "建议 90-150 分钟",
-    "durationMinutes": [
-      90,
-      150
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "friends",
-    "family",
-    "elders"
+  "address": "黑龙江省哈尔滨市道里区通江街道红霞街43号",
+  "district": "道里区",
+  "transportTip": "地铁二号线中央大街站步行约十分钟；或网约车前往"
+ },
+ "practical": {
+  "openHours": "约10:00-22:00，以门店公告为准",
+  "openHoursRef": 0,
+  "ticket": "人均便宜到中等",
+  "ticketRef": 0,
+  "duration": "建议 90-150 分钟",
+  "durationMinutes": [
+   90,
+   150
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "铁锅炖",
-    "贴饼子",
-    "分量大"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "friends",
+  "family",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "铁锅炖",
+  "贴饼子",
+  "分量大"
+ ],
+ "popularity": 78,
+ "sources": [
+  {
+   "title": "百度百科·铁锅炖",
+   "url": "https://baike.baidu.com/item/%E9%93%81%E9%94%85%E7%82%96",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-30"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "老关东铁锅炖(红霞街总店)"
+ },
+ "_geocodeTitle": "老关东铁锅炖(红霞街总店)",
+ "_geocodeSuspect": false,
+ "district": "230102",
+ "_noImage": true,
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "口味",
+    "score": 4.1,
+    "note": "咸鲜带酱香，饼子吸汤最香"
+   },
+   {
+    "label": "分量",
+    "score": 4.4,
+    "note": "四个人一锅最划算"
+   },
+   {
+    "label": "等餐",
+    "score": 2.8,
+    "note": "现炖要等二三十分钟才开吃"
+   },
+   {
+    "label": "环境",
+    "score": 3.2,
+    "note": "烟火气重，油烟味会沾衣服"
+   }
   ],
-  "popularity": 78,
+  "body": "红霞街上的铁锅炖，一口大铁锅架在桌上炖鱼或炖鸡，锅边贴一圈玉米饼子，饼子一半泡在汤里最香，咸鲜带酱香是这口的底子。四个人一锅最划算，冬天一屋子热气，烟火气足。图商 POI 与本地点评都把这家红霞街店标成总店，门牌与坐标一致，找起来不费劲。缺点是现炖要等上二三十分钟才能开吃，去之前得留出一个半小时以上，赶时间别选它；饭点排队是常态，店里烟火气重也意味着油烟味会沾在衣服上。",
+  "basis": "web",
+  "at": "2026-11-13",
+  "fits": [
+   "三四人聚餐",
+   "冬天",
+   "不赶时间"
+  ],
+  "avoid": [
+   "行程紧凑",
+   "一人食"
+  ],
   "sources": [
-    {
-      "title": "百度百科·铁锅炖",
-      "url": "https://baike.baidu.com/item/%E9%93%81%E9%94%85%E7%82%96",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-30"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "老关东铁锅炖(红霞街总店)"
-  },
-  "_geocodeTitle": "老关东铁锅炖(红霞街总店)",
-  "_geocodeSuspect": false,
-  "district": "230102",
-  "_noImage": true
+   "https://www.dianping.com/review/397276436",
+   "https://hk.trip.com/restaurant/china/harbin/detail/zhongxianglaoguandongtieguodun-26398076/"
+  ]
+ }
 }

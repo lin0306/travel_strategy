@@ -1,67 +1,100 @@
 {
-  "id": "jingyuetan-sunset",
-  "name": "净月潭落日",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "日落时整潭水变成金色，树影一点点退成剪影，是长春最有把握的一处黄昏机位。",
-  "description": "净月潭的日落是长春口碑最稳的一处黄昏。太阳落到西侧林线之上，水面被拉出一条长长的金带，树木此刻只剩下一个个剪影。观景点以西岸的几个伸出的平台最理想，那里正对水面开阔的一段。日落前半小时到达最好，先看天空的颜色变化，太阳落下去之后还有一段很好看的余光。夏天约在十九点前后，冬天要提前很多。湖边风大，看落日要备一件外套。手机也能拍好看的效果。",
-  "highlights": [
-    "夕阳让整潭水变成金色",
-    "西岸平台正对开阔水面",
-    "落日后还余一段好光"
-  ],
-  "location": {
-    "point": {
-      "lng": 125.463984,
-      "lat": 43.774655,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "吉林省长春市南关区净月潭景区西岸观景平台",
-    "district": "南关区",
-    "transportTip": "市内乘轻轨三号线到净月公园站，进入景区后向西岸走"
+ "id": "jingyuetan-sunset",
+ "name": "净月潭落日",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "日落时整潭水变成金色，树影一点点退成剪影，是长春最有把握的一处黄昏机位。",
+ "description": "净月潭的日落是长春口碑最稳的一处黄昏。太阳落到西侧林线之上，水面被拉出一条长长的金带，树木此刻只剩下一个个剪影。观景点以西岸的几个伸出的平台最理想，那里正对水面开阔的一段。日落前半小时到达最好，先看天空的颜色变化，太阳落下去之后还有一段很好看的余光。夏天约在十九点前后，冬天要提前很多。湖边风大，看落日要备一件外套。手机也能拍好看的效果。",
+ "highlights": [
+  "夕阳让整潭水变成金色",
+  "西岸平台正对开阔水面",
+  "落日后还余一段好光"
+ ],
+ "location": {
+  "point": {
+   "lng": 125.463984,
+   "lat": 43.774655,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约日落前一小时至黄昏，季节差异大",
-    "openHoursRef": 0,
-    "ticket": "含在净月潭景区门票内",
-    "ticketRef": 0,
-    "duration": "建议 45-90 分钟",
-    "durationMinutes": [
-      45,
-      90
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "solo"
+  "address": "吉林省长春市南关区净月潭景区西岸观景平台",
+  "district": "南关区",
+  "transportTip": "市内乘轻轨三号线到净月公园站，进入景区后向西岸走"
+ },
+ "practical": {
+  "openHours": "约日落前一小时至黄昏，季节差异大",
+  "openHoursRef": 0,
+  "ticket": "含在净月潭景区门票内",
+  "ticketRef": 0,
+  "duration": "建议 45-90 分钟",
+  "durationMinutes": [
+   45,
+   90
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "落日",
-    "净月潭",
-    "机位"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "落日",
+  "净月潭",
+  "机位"
+ ],
+ "popularity": 88,
+ "sources": [
+  {
+   "title": "净月潭·百度百科",
+   "url": "https://baike.baidu.com/item/%E5%87%80%E6%9C%88%E6%BD%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-03"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Jingyuetan Sunset View",
+  "zh": "净月潭落日"
+ },
+ "_geocodeTitle": "东北虎园-观景平台",
+ "district": "220102",
+ "_noImage": true,
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "光线",
+    "score": 4.5,
+    "note": "西岸平台正对开阔水面，金带拉得长"
+   },
+   {
+    "label": "时段",
+    "score": 3.6,
+    "note": "日落前到，落日后还有一段余光"
+   },
+   {
+    "label": "天气",
+    "score": 3.0,
+    "note": "看天吃饭，阴天基本没戏"
+   }
   ],
-  "popularity": 88,
-  "sources": [
-    {
-      "title": "净月潭·百度百科",
-      "url": "https://baike.baidu.com/item/%E5%87%80%E6%9C%88%E6%BD%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-03"
-    }
+  "body": "太阳落到西侧林线之上时，水面被拉出一条长金带，树影退成剪影，落下去之后还留一段很好看的余光，是长春口碑最稳的一处黄昏机位。西岸几个伸出的平台正对开阔水面，提前到占位就行，手机也拍得出来。可惜完全是看天吃饭，阴天或风大就没什么可等；湖边风比城里冷，季节不同落时差得远，冬天要提前很多到，站久了挺冻人。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "摄影",
+   "情侣散步"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Jingyuetan Sunset View",
-    "zh": "净月潭落日"
-  },
-  "_geocodeTitle": "东北虎园-观景平台",
-  "district": "220102",
-  "_noImage": true
+  "avoid": [
+   "阴雨天",
+   "怕冷"
+  ],
+  "sources": []
+ }
 }

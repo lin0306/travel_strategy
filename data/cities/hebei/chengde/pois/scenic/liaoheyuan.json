@@ -1,72 +1,143 @@
 {
-  "id": "liaoheyuan",
-  "name": "辽河源",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "平泉市一片森林景区，是辽河的源头之一，林子密、溪流多。",
-  "description": "辽河源在平泉市，是辽河的源头之一，现在是一片森林景区。山里树密，溪多，石头也奇。它是国家级森林公园，人比塞罕坝少很多，清静。夏天凉，秋天红叶好看。有栈道和简单的住宿。想找个不挤的林子走走，来这儿。",
-  "highlights": [
-    "平泉市辽河源头之一，森林公园",
-    "林密溪多石头奇，人比塞罕坝少",
-    "夏凉秋有红叶，有栈道住宿"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.647695,
-      "lat": 41.233415,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河北省承德市平泉市辽河源森林公园",
-    "district": "平泉市",
-    "transportTip": "平泉市转车到辽河源",
-    "entrance": {
-      "lng": 118.523078,
-      "lat": 41.320403,
-      "coordSystem": "GCJ-02"
-    }
+ "id": "liaoheyuan",
+ "name": "辽河源",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "平泉市一片森林景区，是辽河的源头之一，林子密、溪流多。",
+ "description": "辽河源在平泉市，是辽河的源头之一，现在是一片森林景区。山里树密，溪多，石头也奇。它是国家级森林公园，人比塞罕坝少很多，清静。夏天凉，秋天红叶好看。有栈道和简单的住宿。想找个不挤的林子走走，来这儿。",
+ "highlights": [
+  "平泉市辽河源头之一，森林公园",
+  "林密溪多石头奇，人比塞罕坝少",
+  "夏凉秋有红叶，有栈道住宿"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.647695,
+   "lat": 41.233415,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-17:00，以景区公告为准",
-    "openHoursRef": 0,
-    "ticket": "约60元",
-    "ticketRef": 0,
-    "duration": "建议 180-300 分钟",
-    "durationMinutes": [
-      180,
-      300
-    ],
-    "priceLevel": "budget"
+  "address": "河北省承德市平泉市柳溪镇大窝铺林场（辽河源国家森林公园）",
+  "district": "平泉市",
+  "transportTip": "平泉市转车到辽河源",
+  "entrance": {
+   "lng": 118.523078,
+   "lat": 41.320403,
+   "coordSystem": "GCJ-02"
+  }
+ },
+ "practical": {
+  "openHours": "约08:00-17:00，以景区公告为准",
+  "openHoursRef": 0,
+  "ticket": "约60元",
+  "ticketRef": 0,
+  "duration": "建议 180-300 分钟",
+  "durationMinutes": [
+   180,
+   300
+  ],
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "family",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [
+  "2023 年 10 月因涉及自然保护区管理，3A 景区资质被取消；平泉市 2025 年答复称保护区已完成调规、正重新申报 A 级景区，园内服务设施仍不完善",
+  "从平泉市区到公园约 60 公里山路，单程 1 小时以上，没有景区专线，自驾最稳",
+  "出发前先致电平泉市旅文广电局或大窝铺林场确认当日是否开放"
+ ],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "森林",
+  "辽河源",
+  "清静"
+ ],
+ "popularity": 52,
+ "sources": [
+  {
+   "title": "百度百科·辽河源",
+   "url": "https://baike.baidu.com/item/%E8%BE%BD%E6%B2%B3%E6%BA%90",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-01"
   },
-  "audience": [
-    "family",
-    "friends"
+  {
+   "title": "平泉市旅文广电局 2025-04 答复：2023-10 取消3A资质、已完成保护",
+   "url": "https://www.pingquan.gov.cn/art/2025/4/24/art_3185_1077500.html",
+   "kind": "media",
+   "fetchedAt": "2026-11-14"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "辽河源"
+ },
+ "_geocodeTitle": "辽河源冰瀑",
+ "_geocodeSuspect": false,
+ "district": "130881",
+ "_noImage": true,
+ "_patrol": {
+  "at": "2026-11-14",
+  "changes": [
+   {
+    "field": "地址",
+    "old": "河北省承德市平泉市辽河源森林公园",
+    "new": "河北省承德市平泉市柳溪镇大窝铺林场（辽河源国家森林公园）"
+   },
+   {
+    "field": "贴士（用 | 分隔多条，整体替换）",
+    "old": [],
+    "new": [
+     "2023 年 10 月因涉及自然保护区管理，3A 景区资质被取消；平泉市 2025 年答复称保护区已完成调规、正重新申报 A 级景区，园内服务设施仍不完善",
+     "从平泉市区到公园约 60 公里山路，单程 1 小时以上，没有景区专线，自驾最稳",
+     "出发前先致电平泉市旅文广电局或大窝铺林场确认当日是否开放"
+    ]
+   }
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "森林",
-    "辽河源",
-    "清静"
+  "source": "https://www.pingquan.gov.cn/art/2025/4/24/art_3185_1077500.html",
+  "reason": "平泉市旅文广电局 2025-04 答复：2023-10 取消3A资质、已完成保护区调规、正申报A级；公园在柳溪镇大窝铺林场"
+ },
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "林相",
+    "score": 4.4,
+    "note": "原始次生林加亚高山草甸，垂直分布明显"
+   },
+   {
+    "label": "清静",
+    "score": 4.5,
+    "note": "人比塞罕坝少一个量级"
+   },
+   {
+    "label": "配套",
+    "score": 2.6,
+    "note": "服务设施不完善，吃住选择少"
+   },
+   {
+    "label": "交通",
+    "score": 2.4,
+    "note": "市区过去一个多小时山路，没有专线"
+   }
   ],
-  "popularity": 52,
+  "body": "林子是真好，原始次生林一路铺到马盂山的草甸，安静得只剩风声，跟塞罕坝完全两种体验。但要清楚现状：2023 年 10 月因涉及自然保护区管理被取消 3A 资质，平泉市 2025 年的答复说保护区已完成调规、正在重新申报，园内配套明显不足、吃住选择很少；从市区过去一个多小时山路，没车基本去不了，出发前先确认当天开放情况。",
+  "basis": "web",
+  "at": "2026-11-14",
+  "fits": [
+   "自驾",
+   "找清静"
+  ],
+  "avoid": [
+   "无车",
+   "带小孩和老人"
+  ],
   "sources": [
-    {
-      "title": "百度百科·辽河源",
-      "url": "https://baike.baidu.com/item/%E8%BE%BD%E6%B2%B3%E6%BA%90",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-01"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "辽河源"
-  },
-  "_geocodeTitle": "辽河源冰瀑",
-  "_geocodeSuspect": false,
-  "district": "130881",
-  "_noImage": true
+   "https://www.pingquan.gov.cn/art/2025/4/24/art_3185_1077500.html"
+  ]
+ }
 }

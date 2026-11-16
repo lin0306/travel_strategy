@@ -40,7 +40,9 @@
     "elders"
   ],
   "accessible": false,
-  "tips": [],
+  "tips": [
+    "古城已取消大门禁，街巷免费；许国石坊的明代石雕、斗山街老宅的砖雕木雕可直接看，只有徽州府衙需另买 48 元门票"
+  ],
   "images": [],
   "coverIndex": 0,
   "tags": [
@@ -56,9 +58,15 @@
       "url": "https://baike.baidu.com/item/%E5%BE%BD%E5%B7%9E%E4%B8%89%E9%9B%95",
       "kind": "wiki",
       "fetchedAt": "2026-10-07"
+    },
+    {
+      "title": "黄山市文旅局：古城已取消大门禁、府衙48元",
+      "url": "https://wlj.huangshan.gov.cn/ztzl/ghzwhlyq/jqgk/xxxxjtpwzcd/9327849.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-13"
     }
   ],
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-13",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -67,5 +75,19 @@
   "_geocodeTitle": "歙县徽州古城三雕陈列",
   "_geocodeSuspect": false,
   "district": "341021",
-  "_noImage": true
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-13",
+    "changes": [
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [],
+        "new": [
+          "古城已取消大门禁，街巷免费；许国石坊的明代石雕、斗山街老宅的砖雕木雕可直接看，只有徽州府衙需另买 48 元门票"
+        ]
+      }
+    ],
+    "source": "https://wlj.huangshan.gov.cn/ztzl/ghzwhlyq/jqgk/xxxxjtpwzcd/9327849.html",
+    "reason": "黄山市文旅局：古城已取消大门禁、府衙48元"
+  }
 }

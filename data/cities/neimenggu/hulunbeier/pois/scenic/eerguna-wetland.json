@@ -1,68 +1,106 @@
 {
-  "id": "eerguna-wetland",
-  "name": "额尔古纳湿地",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "亚洲最大湿地之一，根河蜿蜒如肺叶。",
-  "description": "额尔古纳湿地在额尔古纳市郊，根河在这里绕出一个巨大的弯，形如一片肺叶，被叫做「亚洲第一湿地」。登上观景台，可以看到根河在草甸与林间蜿蜒，远处是俄罗斯的山峦。这里是候鸟迁徙的重要停歇地，夏秋两季色彩最丰富。木栈道和观景平台修得完整，走起来不累。它是额尔古纳之行的头号看点。",
-  "highlights": [
-    "亚洲最大湿地之一，根河弯如肺叶",
-    "观景台俯瞰界河对岸",
-    "候鸟迁徙停歇地"
-  ],
-  "location": {
-    "point": {
-      "lng": 120.149805,
-      "lat": 50.249696,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "呼伦贝尔市额尔古纳市湿地公园",
-    "district": "额尔古纳市",
-    "transportTip": "额尔古纳市区打车约10分钟"
+ "id": "eerguna-wetland",
+ "name": "额尔古纳湿地",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "亚洲最大湿地之一，根河蜿蜒如肺叶。",
+ "description": "额尔古纳湿地在额尔古纳市郊，根河在这里绕出一个巨大的弯，形如一片肺叶，被叫做「亚洲第一湿地」。登上观景台，可以看到根河在草甸与林间蜿蜒，远处是俄罗斯的山峦。这里是候鸟迁徙的重要停歇地，夏秋两季色彩最丰富。木栈道和观景平台修得完整，走起来不累。它是额尔古纳之行的头号看点。",
+ "highlights": [
+  "亚洲最大湿地之一，根河弯如肺叶",
+  "观景台俯瞰界河对岸",
+  "候鸟迁徙停歇地"
+ ],
+ "location": {
+  "point": {
+   "lng": 120.149805,
+   "lat": 50.249696,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约07:30-18:00（以景区公告为准）",
-    "openHoursRef": 0,
-    "ticket": "约65元起，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "budget"
-  },
-  "audience": [
-    "couple",
-    "family",
-    "solo"
+  "address": "呼伦贝尔市额尔古纳市湿地公园",
+  "district": "额尔古纳市",
+  "transportTip": "额尔古纳市区打车约10分钟"
+ },
+ "practical": {
+  "openHours": "约07:30-18:00（以景区公告为准）",
+  "openHoursRef": 0,
+  "ticket": "约65元起，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "湿地",
-    "观景",
-    "候鸟"
+  "priceLevel": "budget"
+ },
+ "audience": [
+  "couple",
+  "family",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "湿地",
+  "观景",
+  "候鸟"
+ ],
+ "popularity": 95,
+ "sources": [
+  {
+   "title": "百度百科·额尔古纳湿地",
+   "url": "https://baike.baidu.com/item/%E9%A2%9D%E5%B0%94%E5%8F%A4%E7%BA%B3%E6%B9%BF%E5%9C%B0",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-05"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "额尔古纳湿地"
+ },
+ "_geocodeTitle": "额尔古纳湿地",
+ "_geocodeSuspect": false,
+ "district": "150784",
+ "_noImage": true,
+ "review": {
+  "score": 4.5,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.7,
+    "note": "观景台上看根河绕成肺叶，远处是界河对岸"
+   },
+   {
+    "label": "季节",
+    "score": 3.6,
+    "note": "夏秋色彩最浓，入冬一片枯黄"
+   },
+   {
+    "label": "配套",
+    "score": 3.5,
+    "note": "栈道完整但补给点少"
+   },
+   {
+    "label": "门票",
+    "score": 3.4,
+    "note": "在草原景区里不算低"
+   }
   ],
-  "popularity": 95,
-  "sources": [
-    {
-      "title": "百度百科·额尔古纳湿地",
-      "url": "https://baike.baidu.com/item/%E9%A2%9D%E5%B0%94%E5%8F%A4%E7%BA%B3%E6%B9%BF%E5%9C%B0",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-05"
-    }
+  "body": "根河在草甸与林间绕出一个肺叶形的弯，登上观景台能一眼看到界河对岸的山，木栈道与平台修得完整，走起来不累。夏秋两季色彩最浓，也是候鸟停歇的时候。缺点是季节性强，入冬后一片枯黄，观感落差很大；景区里补给点少，观景台上没有遮挡，日晒风大，站久了难受。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "夏秋自驾",
+   "看湿地与界河"
   ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "额尔古纳湿地"
-  },
-  "_geocodeTitle": "额尔古纳湿地",
-  "_geocodeSuspect": false,
-  "district": "150784",
-  "_noImage": true
+  "avoid": [
+   "冬季专程",
+   "怕晒怕风"
+  ],
+  "sources": []
+ }
 }

@@ -1,67 +1,120 @@
 {
-  "id": "shougang-park",
-  "name": "首钢园",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "高炉与冷却塔构成的工业背景，国内工业遗产改造的代表作。",
-  "description": "首钢原址在石景山，为保障奥运环境在二〇〇八年前停产搬迁。留下的是一号高炉、冷却塔、储气罐与输料通廊。这里采取的是「整体保留、内部植入」的写法：工业构筑物原样不动，内部被改造成展馆、会议空间与办公。这是目前国内工业遗产改造完成度最高的一例。拍摄以晨昏光线最好，西十筒仓一带近年也进驻了商业。",
-  "highlights": [
-    "一号高炉与冷却塔保留原貌",
-    "工业遗存加植入功能的改造样本",
-    "晨昏光线最好"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.176173,
-      "lat": 39.897786,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "北京市石景山区石景山路68号",
-    "district": "石景山",
-    "transportTip": "地铁11号线新首钢站/6号线金安桥站"
+ "id": "shougang-park",
+ "name": "首钢园",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "高炉与冷却塔构成的工业背景，国内工业遗产改造的代表作。",
+ "description": "首钢原址在石景山，为保障奥运环境在二〇〇八年前停产搬迁。留下的是一号高炉、冷却塔、储气罐与输料通廊。这里采取的是「整体保留、内部植入」的写法：工业构筑物原样不动，内部被改造成展馆、会议空间与办公。这是目前国内工业遗产改造完成度最高的一例。拍摄以晨昏光线最好，西十筒仓一带近年也进驻了商业。",
+ "highlights": [
+  "一号高炉与冷却塔保留原貌",
+  "工业遗存加植入功能的改造样本",
+  "晨昏光线最好"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.176173,
+   "lat": 39.897786,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "园区全天开放，内部场馆以各馆公告为准",
-    "openHoursRef": 0,
-    "ticket": "园区免费，部分场馆另行收费",
-    "ticketRef": 0,
-    "duration": "建议 180-360 分钟",
-    "durationMinutes": [
-      180,
-      360
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "solo"
+  "address": "北京市石景山区石景山路68号",
+  "district": "石景山",
+  "transportTip": "地铁11号线新首钢站/6号线金安桥站"
+ },
+ "practical": {
+  "openHours": "园区全天开放，内部场馆以各馆公告为准",
+  "openHoursRef": 0,
+  "ticket": "园区免费，部分场馆另行收费",
+  "ticketRef": 0,
+  "duration": "建议 180-360 分钟",
+  "durationMinutes": [
+   180,
+   360
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "工业遗产",
-    "改造",
-    "摄影"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Shougang_International_Convention_and_Exhibition_Center_during_CIFTIS_2024_%2820240916125402%29.jpg/1280px-Shougang_International_Convention_and_Exhibition_Center_during_CIFTIS_2024_%2820240916125402%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Shougang_International_Convention_and_Exhibition_Center_during_CIFTIS_2024_%2820240916125402%29.jpg/1280px-Shougang_International_Convention_and_Exhibition_Center_during_CIFTIS_2024_%2820240916125402%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Shougang International Convention and Exhibition Center during CIFTIS 2024 (20240916125402).jpg",
+   "query": "首钢园",
+   "credit": {
+    "source": "wikimedia",
+    "author": "N509FZ",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q132103533",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-05",
+    "tier": "front"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "工业遗产",
+  "改造",
+  "摄影"
+ ],
+ "popularity": 84,
+ "sources": [
+  {
+   "title": "百度百科·首钢园",
+   "url": "https://baike.baidu.com/item/%E9%A6%96%E9%92%A2%E5%9B%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "首钢园"
+ },
+ "_geocodeTitle": "石景山区首钢园",
+ "_geocodeSuspect": false,
+ "district": "110107",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "拍摄",
+    "score": 4.8,
+    "note": "一号高炉、冷却塔、西十筒仓都是成片背景"
+   },
+   {
+    "label": "尺度",
+    "score": 2.5,
+    "note": "园区极大，走完一圈两万步起"
+   },
+   {
+    "label": "配套",
+    "score": 2.8,
+    "note": "餐饮与洗手间分布稀"
+   },
+   {
+    "label": "遮阴",
+    "score": 2.2,
+    "note": "工业场地空旷，夏天暴晒"
+   }
   ],
-  "popularity": 84,
-  "sources": [
-    {
-      "title": "百度百科·首钢园",
-      "url": "https://baike.baidu.com/item/%E9%A6%96%E9%92%A2%E5%9B%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "首钢园"
-  },
-  "_geocodeTitle": "石景山区首钢园",
-  "_geocodeSuspect": false,
-  "district": "110107",
-  "_noImage": true
+  "body": "国内工业遗产改造完成度最高的一例，高炉、冷却塔、储气罐原样保留，内部植入展馆与办公，晨昏光线最好。缺点是园区尺度极大，走完一圈两万步起；遮阴少、夏天晒，餐饮与洗手间分布稀，水和防晒要自己带。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [],
+  "avoid": [],
+  "sources": []
+ }
 }

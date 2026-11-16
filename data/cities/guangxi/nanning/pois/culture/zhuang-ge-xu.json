@@ -1,112 +1,150 @@
 {
-  "id": "zhuang-ge-xu",
-  "name": "壮族歌圩",
-  "category": "culture",
-  "subtype": "performance",
-  "summary": "壮族的对歌传统，「三月三」是集中展示。",
-  "description": "歌圩是壮族以对歌为核心的民间传统，青年男女在圩日或节日聚会对唱，以歌代言、以歌传情。南宁是壮族聚居区，每年农历「三月三」是歌圩最集中的时候，会有大型的歌会和演出。平时在文化馆、民族博物馆也能看到相关展演。它考验的是能不能接受这个节奏，字幕一般齐全。适合对民族艺术有兴趣的人。",
-  "highlights": [
-    "壮族以对歌为核心的民间传统",
-    "农历三月三歌圩最集中",
-    "文化馆与博物馆有展演"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.367,
-      "lat": 22.815,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市青秀区民歌湖（南宁国际民歌艺术节常设场地）",
-    "district": "青秀区",
-    "transportTip": "以官方活动公告为准"
+ "id": "zhuang-ge-xu",
+ "name": "壮族歌圩",
+ "category": "culture",
+ "subtype": "performance",
+ "summary": "壮族的对歌传统，「三月三」是集中展示。",
+ "description": "歌圩是壮族以对歌为核心的民间传统，青年男女在圩日或节日聚会对唱，以歌代言、以歌传情。南宁是壮族聚居区，每年农历「三月三」是歌圩最集中的时候，会有大型的歌会和演出。平时在文化馆、民族博物馆也能看到相关展演。它考验的是能不能接受这个节奏，字幕一般齐全。适合对民族艺术有兴趣的人。",
+ "highlights": [
+  "壮族以对歌为核心的民间传统",
+  "农历三月三歌圩最集中",
+  "文化馆与博物馆有展演"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.367,
+   "lat": 22.815,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "以官方活动公告为准",
-    "openHoursRef": 0,
-    "ticket": "以公告为准",
-    "ticketRef": 0,
-    "duration": "建议 120-180 分钟",
-    "durationMinutes": [
-      120,
-      180
-    ],
-    "priceLevel": "free"
+  "address": "南宁市青秀区民歌湖（南宁国际民歌艺术节常设场地）",
+  "district": "青秀区",
+  "transportTip": "以官方活动公告为准"
+ },
+ "practical": {
+  "openHours": "以官方活动公告为准",
+  "openHoursRef": 0,
+  "ticket": "以公告为准",
+  "ticketRef": 0,
+  "duration": "建议 120-180 分钟",
+  "durationMinutes": [
+   120,
+   180
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "elders",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/SZ_%E5%BB%A3%E8%A5%BF%E5%A3%AF%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8D%80_Guangxi_Zhuang_Autonomous_Region_%E5%8D%97%E5%AF%A7%E5%B8%82_Nanning_%E6%B1%9F%E5%8D%97%E5%8D%80_Jiangnan_District_%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%89%A7%E9%99%A2_Guanxi_Minzu_Theater_stage_September_2023_R12S_11.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/SZ_%E5%BB%A3%E8%A5%BF%E5%A3%AF%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8D%80_Guangxi_Zhuang_Autonomous_Region_%E5%8D%97%E5%AF%A7%E5%B8%82_Nanning_%E6%B1%9F%E5%8D%97%E5%8D%80_Jiangnan_District_%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%89%A7%E9%99%A2_Guanxi_Minzu_Theater_stage_September_2023_R12S_11.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "SZ 廣西壯族自治區 Guangxi Zhuang Autonomous Region 南寧市 Nanning 江南區 Jiangnan District 广西民族剧院 Guanxi Minzu Th",
+   "query": "Chinese opera performance nanning",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nan Ning Huang Sokaz 12",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SZ_%E5%BB%A3%E8%A5%BF%E5%A3%AF%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8D%80_Guangxi_Zhuang_Autonomous_Region_%E5%8D%97%E5%AF%A7%E5%B8%82_Nanning_%E6%B1%9F%E5%8D%97%E5%8D%80_Jiangnan_District_%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%89%A7%E9%99%A2_Guanxi_Minzu_Theater_stage_September_2023_R12S_11.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "elders",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/SZ_%E5%BB%A3%E8%A5%BF%E5%A3%AF%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8D%80_Guangxi_Zhuang_Autonomous_Region_%E5%8D%97%E5%AF%A7%E5%B8%82_Nanning_%E6%B1%9F%E5%8D%97%E5%8D%80_Jiangnan_District_%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%89%A7%E9%99%A2_Guanxi_Minzu_Theater_stage_September_2023_R12S_11.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/SZ_%E5%BB%A3%E8%A5%BF%E5%A3%AF%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8D%80_Guangxi_Zhuang_Autonomous_Region_%E5%8D%97%E5%AF%A7%E5%B8%82_Nanning_%E6%B1%9F%E5%8D%97%E5%8D%80_Jiangnan_District_%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%89%A7%E9%99%A2_Guanxi_Minzu_Theater_stage_September_2023_R12S_11.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "SZ 廣西壯族自治區 Guangxi Zhuang Autonomous Region 南寧市 Nanning 江南區 Jiangnan District 广西民族剧院 Guanxi Minzu Th",
-      "query": "Chinese opera performance nanning",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nan Ning Huang Sokaz 12",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:SZ_%E5%BB%A3%E8%A5%BF%E5%A3%AF%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8D%80_Guangxi_Zhuang_Autonomous_Region_%E5%8D%97%E5%AF%A7%E5%B8%82_Nanning_%E6%B1%9F%E5%8D%97%E5%8D%80_Jiangnan_District_%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%89%A7%E9%99%A2_Guanxi_Minzu_Theater_stage_September_2023_R12S_11.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/SZ_%E5%BB%A3%E8%A5%BF%E5%A3%AF%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8D%80_Guangxi_Zhuang_Autonomous_Region_%E5%8D%97%E5%AF%A7%E5%B8%82_Nanning_%E6%B1%9F%E5%8D%97%E5%8D%80_Jiangnan_District_%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%89%A7%E9%99%A2_Guanxi_Minzu_Theater_stage_September_2023_R12S_33.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/SZ_%E5%BB%A3%E8%A5%BF%E5%A3%AF%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8D%80_Guangxi_Zhuang_Autonomous_Region_%E5%8D%97%E5%AF%A7%E5%B8%82_Nanning_%E6%B1%9F%E5%8D%97%E5%8D%80_Jiangnan_District_%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%89%A7%E9%99%A2_Guanxi_Minzu_Theater_stage_September_2023_R12S_33.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "SZ 廣西壯族自治區 Guangxi Zhuang Autonomous Region 南寧市 Nanning 江南區 Jiangnan District 广西民族剧院 Guanxi Minzu Th",
-      "query": "Chinese opera performance nanning",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nan Ning Huang Sokaz 12",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:SZ_%E5%BB%A3%E8%A5%BF%E5%A3%AF%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8D%80_Guangxi_Zhuang_Autonomous_Region_%E5%8D%97%E5%AF%A7%E5%B8%82_Nanning_%E6%B1%9F%E5%8D%97%E5%8D%80_Jiangnan_District_%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%89%A7%E9%99%A2_Guanxi_Minzu_Theater_stage_September_2023_R12S_33.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/SZ_%E5%BB%A3%E8%A5%BF%E5%A3%AF%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8D%80_Guangxi_Zhuang_Autonomous_Region_%E5%8D%97%E5%AF%A7%E5%B8%82_Nanning_%E6%B1%9F%E5%8D%97%E5%8D%80_Jiangnan_District_%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%89%A7%E9%99%A2_Guanxi_Minzu_Theater_stage_September_2023_R12S_34.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/SZ_%E5%BB%A3%E8%A5%BF%E5%A3%AF%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8D%80_Guangxi_Zhuang_Autonomous_Region_%E5%8D%97%E5%AF%A7%E5%B8%82_Nanning_%E6%B1%9F%E5%8D%97%E5%8D%80_Jiangnan_District_%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%89%A7%E9%99%A2_Guanxi_Minzu_Theater_stage_September_2023_R12S_34.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "SZ 廣西壯族自治區 Guangxi Zhuang Autonomous Region 南寧市 Nanning 江南區 Jiangnan District 广西民族剧院 Guanxi Minzu Th",
-      "query": "Chinese opera performance nanning",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nan Ning Huang Sokaz 12",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:SZ_%E5%BB%A3%E8%A5%BF%E5%A3%AF%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8D%80_Guangxi_Zhuang_Autonomous_Region_%E5%8D%97%E5%AF%A7%E5%B8%82_Nanning_%E6%B1%9F%E5%8D%97%E5%8D%80_Jiangnan_District_%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%89%A7%E9%99%A2_Guanxi_Minzu_Theater_stage_September_2023_R12S_34.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "壮族",
-    "歌圩",
-    "非遗"
-  ],
-  "popularity": 68,
-  "sources": [
-    {
-      "title": "百度百科·歌圩",
-      "url": "https://baike.baidu.com/item/%E6%AD%8C%E5%9C%A9",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "壮族歌圩"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/SZ_%E5%BB%A3%E8%A5%BF%E5%A3%AF%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8D%80_Guangxi_Zhuang_Autonomous_Region_%E5%8D%97%E5%AF%A7%E5%B8%82_Nanning_%E6%B1%9F%E5%8D%97%E5%8D%80_Jiangnan_District_%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%89%A7%E9%99%A2_Guanxi_Minzu_Theater_stage_September_2023_R12S_33.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/SZ_%E5%BB%A3%E8%A5%BF%E5%A3%AF%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8D%80_Guangxi_Zhuang_Autonomous_Region_%E5%8D%97%E5%AF%A7%E5%B8%82_Nanning_%E6%B1%9F%E5%8D%97%E5%8D%80_Jiangnan_District_%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%89%A7%E9%99%A2_Guanxi_Minzu_Theater_stage_September_2023_R12S_33.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "SZ 廣西壯族自治區 Guangxi Zhuang Autonomous Region 南寧市 Nanning 江南區 Jiangnan District 广西民族剧院 Guanxi Minzu Th",
+   "query": "Chinese opera performance nanning",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nan Ning Huang Sokaz 12",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SZ_%E5%BB%A3%E8%A5%BF%E5%A3%AF%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8D%80_Guangxi_Zhuang_Autonomous_Region_%E5%8D%97%E5%AF%A7%E5%B8%82_Nanning_%E6%B1%9F%E5%8D%97%E5%8D%80_Jiangnan_District_%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%89%A7%E9%99%A2_Guanxi_Minzu_Theater_stage_September_2023_R12S_33.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "南宁市民歌湖",
-  "_geocodeSuspect": false,
-  "district": "450103"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/SZ_%E5%BB%A3%E8%A5%BF%E5%A3%AF%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8D%80_Guangxi_Zhuang_Autonomous_Region_%E5%8D%97%E5%AF%A7%E5%B8%82_Nanning_%E6%B1%9F%E5%8D%97%E5%8D%80_Jiangnan_District_%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%89%A7%E9%99%A2_Guanxi_Minzu_Theater_stage_September_2023_R12S_34.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/SZ_%E5%BB%A3%E8%A5%BF%E5%A3%AF%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8D%80_Guangxi_Zhuang_Autonomous_Region_%E5%8D%97%E5%AF%A7%E5%B8%82_Nanning_%E6%B1%9F%E5%8D%97%E5%8D%80_Jiangnan_District_%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%89%A7%E9%99%A2_Guanxi_Minzu_Theater_stage_September_2023_R12S_34.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "SZ 廣西壯族自治區 Guangxi Zhuang Autonomous Region 南寧市 Nanning 江南區 Jiangnan District 广西民族剧院 Guanxi Minzu Th",
+   "query": "Chinese opera performance nanning",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nan Ning Huang Sokaz 12",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SZ_%E5%BB%A3%E8%A5%BF%E5%A3%AF%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8D%80_Guangxi_Zhuang_Autonomous_Region_%E5%8D%97%E5%AF%A7%E5%B8%82_Nanning_%E6%B1%9F%E5%8D%97%E5%8D%80_Jiangnan_District_%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%89%A7%E9%99%A2_Guanxi_Minzu_Theater_stage_September_2023_R12S_34.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "壮族",
+  "歌圩",
+  "非遗"
+ ],
+ "popularity": 68,
+ "sources": [
+  {
+   "title": "百度百科·歌圩",
+   "url": "https://baike.baidu.com/item/%E6%AD%8C%E5%9C%A9",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "壮族歌圩"
+ },
+ "_geocodeTitle": "南宁市民歌湖",
+ "_geocodeSuspect": false,
+ "district": "450103",
+ "review": {
+  "score": 3.7,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "文化浓度",
+    "score": 4.3,
+    "note": "对歌是壮族最有辨识度的传统"
+   },
+   {
+    "label": "可及性",
+    "score": 2.6,
+    "note": "不是天天有，靠节庆与展演"
+   },
+   {
+    "label": "理解门槛",
+    "score": 2.8,
+    "note": "唱词用壮语，听不懂要靠字幕讲解"
+   },
+   {
+    "label": "人流",
+    "score": 3.0,
+    "note": "三月三集中时非常挤"
+   }
+  ],
+  "body": "歌圩是壮族以对歌为核心的传统，青年男女在圩日聚起来对唱，以歌代言。放到旅行里，它更像一种节令体验：三月三前后最集中，平时只能在文化馆、民族博物馆看片段展演。可惜的是唱词是壮语、现场又没有字幕，外地人容易听个热闹；节庆那几天人挤到走不动，得提前规划进出。对民族音乐真有兴趣再来，否则容易失望。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "民族文化爱好者",
+   "三月三期间"
+  ],
+  "avoid": [
+   "非节庆专程去",
+   "想听流行演出"
+  ],
+  "sources": []
+ }
 }

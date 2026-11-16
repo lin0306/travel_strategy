@@ -2052,7 +2052,9 @@ PROJECT_PIXEL_RE = re.compile(r'\bprojectToPixel\s*\(')
 #   只有这一条路（`viewport.ts` 是唯一出处），留着它就够守住"不得按像素抽稀"。
 DECLUTTER_SYMBOL_RE = re.compile(r'\bpickDots\s*\(|\bDOT_MIN_GAP_PX\b')
 CITY_NULL_RE = re.compile(r'cityId\s*===\s*null')
-TODO_DISABLED_RE = re.compile(r'disabled=\{\s*(todo|pending|c\.cityId\s*===\s*null)\s*\}')
+TODO_DISABLED_RE = re.compile(r'disabled=\{\s*(?:todo|pending|locked|c\.cityId\s*===\s*null)[^}]*\}')
+# ★ 待收录行"可点"必须由消费方**显式**放开，默认关（理由见 T 项 ③ 的注释）
+PENDING_OPT_IN_RE = re.compile(r'pendingPickable\s*=\s*false')
 
 
 def check_point_admission() -> None:
@@ -2108,7 +2110,17 @@ def check_point_admission() -> None:
             '把点扔掉会让气泡上的数字变成"抽稀后的数字"，而**不报错、看着还挺对**'
         )
 
-    # ── ③ 未收录的市必须禁用（顶栏那半 2026-09-22 搬去 Q 项） ──
+    # ── ③ 未收录的市**默认**禁用（顶栏那半 2026-09-22 搬去 Q 项） ──
+    #
+    # ★ 2026-11-14 语义收窄：原来是"一律禁用"，现在拆成两件事 ——
+    #   · **省级页**的点击是**换页**（`/city/:id`），未收录的市没有页可换 ⇒ 必须禁用；
+    #   · **地域面板**要能点开一张"这座城还没收录"的卡（与地图上点它的徽标同一结局，
+    #     那里本来就会开卡）⇒ 由消费方显式传 `pendingPickable` 放开。
+    #   用户报的「点省之后再点市，不会切换到市的面板」有一半就出在这里：
+    #   面板里 9 座待收录的市全是死行，点了连"为什么"都不给。
+    #   ⇒ 判据改两条，守的是"可点性必须显式表达、且默认是关的"：
+    #     ① 组件里有一处 `disabled={…}`（不许默认全开）；
+    #     ② `pendingPickable` 的默认值是 `false`（只能显式放开，不能默认放开）。
     pl = WEB / 'app' / 'common' / 'ui' / 'city' / 'ProvinceList.tsx'
     if not pl.exists():
         problems.append(
@@ -2126,6 +2138,11 @@ def check_point_admission() -> None:
             problems.append(
                 'ProvinceList.tsx 里待收录的市没有落到 `disabled={…}` —— '
                 '能点进一个空白城市页，用户会当成"这个站坏了"'
+            )
+        if not PENDING_OPT_IN_RE.search(pl_text):
+            problems.append(
+                'ProvinceList.tsx 的 `pendingPickable` 默认值不是 `false` —— '
+                '待收录的市必须**默认禁用**，只能由地域面板显式放开（省级页点它是换页，没有页可换）'
             )
 
     check(label, problems, 3, hits)
@@ -4933,7 +4950,7 @@ def check_district_focus() -> None:
     # 就等于绕过空区判断。判据跟着改成"页面只能调 `drillTo`，落点本体只许在
     # `districtFocus`"。★ 只查"出现过"会漏：所以还断言页面里**不许**出现 `shell.focusPoint(`。
     hits += 1
-    for rel in (city_layer_rel, province_rel, home_rel):
+    for rel in (city_layer_rel, province_rel):
         f = WEB / rel
         if not f.exists():
             problems.append(f'{rel} 不存在')
@@ -4952,6 +4969,44 @@ def check_district_focus() -> None:
         if re.search(r'fit\(t\.points', text):
             problems.append(
                 f'{rel} 还在 `fit(t.points, …)` —— 定值落点不能再走 fit'
+            )
+
+    # ★ 2026-11-12：首页的徽标点击多了一层「地域面板」—— `onSelectDistrict` 交给
+    #   `regionNav.pick`（省 / 市要先挂面板、下一帧再对焦，见那个文件头 ★★）。
+    #   落点本体**仍只有 `drillTo` 一条**：`regionNav` 传的是「只记目标、不飞镜头」的
+    #   shell 替身，真正的 `focusPoint` 留到面板进 DOM 之后。
+    #   判据要**两半都在**，少任一半都要红：
+    #     · 首页少了 `region.pick(` ⇒ 点徽标只放大，面板永远不开；
+    #     · `regionNav` 少了 `drillTo(` ⇒ 落点绕开 `FocusTarget.empty`（0 景区飞进空白）；
+    #     · 少了 `requestAnimationFrame(` ⇒ 面板还没进 DOM 就对焦，`freeRect` 量不到它，
+    #       落点仍是屏幕正中 ⇒ 徽标随后被左面板盖住（用户原话「会被挡住」）。
+    hits += 1
+    nav_rel = 'app/common/logic/regionNav.ts'
+    home_text = code(home_rel) if (WEB / home_rel).exists() else ''
+    if 'region.pick(' not in home_text:
+        problems.append(
+            f'{home_rel} 的 `onSelectDistrict` 没走 `region.pick(` —— 点省 / 市徽标不会开卡'
+        )
+    if not (WEB / nav_rel).exists():
+        problems.append(f'{nav_rel} 不存在 —— 首页地域面板的导航没有落点')
+    else:
+        nt = code(nav_rel)
+        if 'drillTo(' not in nt:
+            problems.append(
+                f'{nav_rel} 没有走 `drillTo(` —— 落点会绕开 `FocusTarget.empty`，0 景区飞进空白'
+            )
+        # ★ 只查"出现过 drillTo"是不够的：`pickDistrict` 那条本来就会调它，
+        #   省 / 市那一路自己写 `focusPointsFor` 照样能过。所以再禁掉第二条落点路径 ——
+        #   `focusPointsFor` 只许在 `districtFocus` 里被 `drillTo` 调。
+        if 'focusPointsFor(' in nt:
+            problems.append(
+                f'{nav_rel} 自己调了 `focusPointsFor(` —— 那是绕过 `drillTo` 的第二条落点路径'
+                '（迟早与空区判断分家）'
+            )
+        if 'requestAnimationFrame(' not in nt:
+            problems.append(
+                f'{nav_rel} 没有 `requestAnimationFrame(` —— 面板进 DOM 前就对焦，'
+                '落点不会右偏，徽标会被左面板盖住'
             )
 
     # 落点本体：定值那一档 + 空区短路，两者都在 `drillTo` 里
@@ -6028,10 +6083,12 @@ def check_reveal_deep() -> None:
         hits += 1
         t = strip_comments_keep_lines(reveal_f.read_text(encoding='utf-8'))
         i = t.find("if (level === 'poi')")
-        # ★ 区划分支的取数语句改名过（`const nodes = (src.districts…` →
-        #   `const all = src.districts(level) ?? []`，2026-10-02 加 `faces` 时改的）——
-        #   这条边界锚点要跟着走，否则 AK 会假红成"结构已改"。
-        j = t.find("const all = src.districts", i)
+        # ★ 区划分支的取数语句改名过两次（`const nodes = (src.districts…` →
+        #   `const all = src.districts(level) ?? []` → 2026-11-14 加作用域后
+        #   变成 `const all = (src.districts(level) ?? []).filter(…)`）。
+        #   所以边界锚点改成**区划分支的采用判据**（`if (nodes.length > 0 || atBase)`）——
+        #   它比取数语句稳定得多，不会因为多一层过滤就假红。
+        j = t.find('if (nodes.length > 0 || atBase)', i)
         if i < 0 or j < 0:
             problems.append(
                 f'{reveal_rel} 里找不到 `poi` 分支（结构已改，本项检查需要同步）'
@@ -6197,27 +6254,39 @@ def check_layer_style_ids() -> None:
                 f'{dl_rel} 的徽标几何没有用 `badgeStyleOf(n)` 设 styleId —— '
                 '复用 `styleIdOf()` 就是"标签背景色没了"那次事故的复现路径'
             )
-        if 'styleIdOf(n)' in blk:
+        if 'face' + 'StyleId(mode)' in blk:
             problems.append(
-                f'{dl_rel} 的徽标几何里又出现了 `styleIdOf(n)`（面用的那套 id）—— '
+                f'{dl_rel} 的徽标几何里又出现了 `faceStyleId(`（面用的那套 id）—— '
                 '两套样式 id 混用，SDK 不报错、徽标静默退化'
             )
 
-    # ── ④ 面样式表必须覆盖 `styleIdOf` 会返回的每一个 id ──
+    # ── ④ 面样式表必须覆盖 `faceStyleId` 会返回的每一个 id ──
     hits += 1
     pb = _brace_body(ds, r'export function buildDistrictStyles\(')
     poly_keys = set(re.findall(r'(\w+)\s*:\s*new TMap\.PolygonStyle', pb))
-    sb = _brace_body(dl, r'function styleIdOf\(')
+    # ★ 2026-11-14：判定"面用哪一档"的函数从 `districtLayer.styleIdOf` 搬到
+    #   `districtStyles.faceStyleId`（`districtLayer` 撞了 420 行上限，而它本来就属于
+    #   "面长什么样"）。判据跟着搬 —— 否则 AN/AP/AQ 三组会一起假红成"取不到函数体"。
+    sb = _brace_body(ds, r'export function faceStyleId\(')
+    # ★ 取值要从函数体里**所有**字面量抓，不能只抓 `return 'x'` ——
+    #   `faceStyleId` 是三元表达式（`return mode === 'reference' ? 'reference' : 'face'`），
+    #   只匹配 `return '` 会得到空集，AN 会假红成"取不到取值"。
     face_ids = set(re.findall(r"return '(\w+)'", sb)) | set(
+        # ★ 2026-11-15：从"只认那几个老 id"改成**函数体里所有单引号标识符字面量** ——
+        #   面现在有三档（`face` / `faceDeep` / `reference`），写死列举会把新档漏在
+        #   检查之外，于是"样式表里少写 `faceDeep`"会被判绿（那些面静默退回默认样式）。
+        #   这个函数体里除了样式 id 不该有别的字面量；冒出来就是判据该被看一眼。
+        re.findall(r"'([a-zA-Z]\w*)'", sb)
+    ) | set(
         re.findall(r'return densityTier\(', sb) and ['pending', 'sparse', 'medium', 'dense'] or []
     )
     if not poly_keys or not face_ids:
-        problems.append(f'取不到面样式表的 key（{sorted(poly_keys)}）或 `styleIdOf` 的取值（{sorted(face_ids)}）')
+        problems.append(f'取不到面样式表的 key（{sorted(poly_keys)}）或 `faceStyleId` 的取值（{sorted(face_ids)}）')
     else:
         stray = face_ids - poly_keys
         if stray:
             problems.append(
-                f'`styleIdOf` 会返回面样式表里没有的 id {sorted(stray)} —— 那些面会静默退回默认样式'
+                f'`faceStyleId` 会返回面样式表里没有的 id {sorted(stray)} —— 那些面会静默退回默认样式'
             )
     # ★ 点位档的面必须有自己的一档（它不按收录密度分档，见 `buildDistrictStyles.reference`）
     if 'reference' not in poly_keys:
@@ -6225,9 +6294,9 @@ def check_layer_style_ids() -> None:
             f'{ds_rel} 的面样式表缺 `reference` 一档 —— 点位档的面会沿用 `pending`（待收录的灰虚线），'
             '而"这一片在哪个区"正是那一档唯一要回答的问题'
         )
-    elif "if (mode === 'reference') return 'reference'" not in sb:
+    elif "mode === 'reference'" not in sb or "'reference'" not in sb:
         problems.append(
-            f'{dl_rel} 的 `styleIdOf` 没有在 `reference` 模式下切到 `reference` 样式 —— '
+            f'{ds_rel} 的 `faceStyleId` 没有在 `reference` 模式下切到 `reference` 样式 —— '
             '点位档的面会带着"待收录"的视觉，用户看不出自己站在哪个区'
         )
 
@@ -6455,20 +6524,20 @@ def check_province_tier() -> None:
                 '删了它所有面都会退回 SDK 默认样式（而且**不报错**）'
             )
 
-    # ── ② `styleIdOf` 不许再看数量 ──
+    # ── ② `faceStyleId` 不许再看数量 ──
     hits += 1
-    sb = _brace_body(dl, r'function styleIdOf\(')
+    sb = _brace_body(ds, r'export function faceStyleId\(')
     if not sb:
-        problems.append(f'{dl_rel} 里取不到 `styleIdOf` 的函数体')
+        problems.append(f'{ds_rel} 里取不到 `faceStyleId` 的函数体')
     else:
         for bad in ('poiCount', 'cityCount', 'isUncollected', 'densityTier'):
             if bad in sb:
                 problems.append(
-                    f'`styleIdOf` 里出现了 `{bad}` —— 面又开始看收录数量了。'
-                    "面只回答'这一片是哪块区划'（一律 `return 'face'`），收录情况由徽标表达"
+                    f'`faceStyleId` 里出现了 `{bad}` —— 面又开始看收录数量了。'
+                    "面只回答'这一片是哪块区划'（一律 `face`），收录情况由徽标表达"
                 )
         if "'face'" not in sb:
-            problems.append("`styleIdOf` 没有返回 `'face'` —— 普通面会拿不到样式")
+            problems.append("`faceStyleId` 没有返回 `'face'` —— 普通面会拿不到样式")
 
     # ── ③ `reference` 必须仍在（它不是数量档，也**不是**高亮档）──
     hits += 1
@@ -6477,9 +6546,9 @@ def check_province_tier() -> None:
             '面样式表里缺 `reference` 一档 —— 它服务的是**点位档**（z≥12 的街道底图上'
             '边框要更深才看得见），既不是收录数量档、也不是高亮档，别跟着一起删'
         )
-    if "if (mode === 'reference') return 'reference'" not in sb:
+    if "mode === 'reference'" not in sb or "'reference'" not in sb:
         problems.append(
-            f'{dl_rel} 的 `styleIdOf` 没有在 `reference` 模式下切到 `reference` 样式 —— '
+            f'{ds_rel} 的 `faceStyleId` 没有在 `reference` 模式下切到 `reference` 样式 —— '
             '点位档的面会跟普通面一样深，压在 POI 圆点上'
         )
 
@@ -6624,14 +6693,20 @@ def check_no_face_hover() -> None:
         return
     dl = strip_comments_keep_lines(dl_f.read_text(encoding='utf-8'))
 
-    # ── ① `styleIdOf` 不许再判 `hovered` ──
+    # ── ① `faceStyleId` 不许再判 `hovered`（2026-11-14 搬到 `districtStyles`）──
     hits += 1
-    sb = _brace_body(dl, r'function styleIdOf\(')
+    ds_rel2 = 'app/common/map/tencent/districtStyles.ts'
+    ds_f = WEB / ds_rel2
+    sb = (
+        _brace_body(strip_comments_keep_lines(ds_f.read_text(encoding='utf-8')),
+                    r'export function faceStyleId\(')
+        if ds_f.exists() else ''
+    )
     if not sb:
-        problems.append(f'{dl_rel} 里取不到 `styleIdOf` 的函数体 —— 自身的正则可能失效了')
+        problems.append(f'{ds_rel2} 里取不到 `faceStyleId` 的函数体 —— 自身的正则可能失效了')
     elif 'hovered' in sb:
         problems.append(
-            '`styleIdOf` 又在判 `hovered` —— 面的悬停高亮被加回来了。'
+            '`faceStyleId` 又在判 `hovered` —— 面的悬停高亮被加回来了。'
             '它会连带把 `onHover` 变成全量 `repaint()`（面没有内容签名短路），'
             '区级一屏几百个多边形、鼠标每划过一条边界就重建一次，'
             '就是 2026-10-03 用户报的「会卡」'
@@ -7421,6 +7496,301 @@ def check_image_clean() -> None:
     check(label, problems, 9, hits)
 
 
+def check_discover_quota() -> None:
+    """AX. 拓取额度跑到 0（`run` 循环判据 · 落盘合并 · 两家缓存都清）"""
+    label = ('AX. 拓取额度跑到 0（跑完一城再判 · 候选落盘合并 · 切图商前两家缓存都清）')
+    problems: list[str] = []
+    hits = 0
+
+    # 2026-11-10 立的护栏。守的是**三个都只表现为"数字慢慢变小"的退化**：
+    #   ① 预算式静态切分回来了（72/72/36=180）⇒ 每天固定扔 20 次，日志不报错，
+    #      只有人对账才发现「怎么老是 176/177」；
+    #   ② 落盘改回整份重写 ⇒ 浅扫/截断城把上次全量扫出的候选砍掉（广州 229→213）；
+    #   ③ 清缓存只清腾讯 ⇒ 切高德后整城关键词全命中高德旧缓存 = 零请求。
+    # 三条都不会红、不会报错，只能静态按住。
+    dq_py = REPO / 'tools' / 'discover_queue.py'
+    if not dq_py.exists():
+        problems.append('tools/discover_queue.py 不存在 —— 定时任务的拓取没有调度器')
+    else:
+        # ★ 查运行时真值：`RESERVE = 0` 写没写对不受注释/写法影响。
+        dq = _load_module(dq_py, 'tools_discover_queue_probe')
+        if dq is None:
+            problems.append('discover_queue.py 无法导入 —— 额度规划查不了，本条判据失效')
+        else:
+            hits += 1
+            if getattr(dq, 'RESERVE', None) != 0:
+                problems.append(
+                    f'`discover_queue.RESERVE` = {getattr(dq, "RESERVE", None)!r}，应为 0 —— '
+                    '留尾数 + 预算切分会让每天固定扔掉 20 次（实测连续两晚 176/177，'
+                    '用户两次反馈"跑不满 200"）'
+                )
+            hits += 1
+            if not hasattr(dq, 'cmd_run'):
+                problems.append(
+                    'discover_queue.py 没有 `cmd_run()` —— 定时任务会退回 `next` 的静态'
+                    '预算切分，200 次永远用不满'
+                )
+            hits += 1
+            hits += 1
+            caches = [getattr(p, 'name', '') for p in (getattr(dq, 'CACHES', None) or [])]
+            if not any('amap' in n for n in caches) or not any(
+                    'amap' not in n for n in caches):
+                problems.append(
+                    f'`discover_queue.CACHES` = {caches} —— 必须同时含腾讯与高德两套 '
+                    'place_search 缓存：只清一家，切图商后整城关键词全命中旧缓存 = 零请求'
+                )
+            # ★ 页数必须只由「城市规模」决定，不许再按腾讯余额定。
+            #   反过来（按 left）会把 400 候选的大城在余额见底时浅扫，小城却吃满 72 次。
+            hits += 1
+            if not hasattr(dq, '_pages_for'):
+                problems.append(
+                    'discover_queue.py 没有 `_pages_for()` —— 页数会退回按余额判断：'
+                    '余额见底时候选最多的大城反而被浅扫'
+                )
+            hits += 1
+            run_src = strip_py_comments(inspect.getsource(dq.cmd_run))
+            if re.search(r'pages\s*=\s*2\s+if\b', run_src):
+                problems.append(
+                    '`cmd_run` 里又出现 `pages = 2 if …` —— 这是「按剩余额度定页数」的老写法；'
+                    '用户口径：抓的时候只判腾讯还有没有额度，剩多少不管'
+                )
+            hits += 1
+            if hasattr(dq, '_plan'):
+                problems.append(
+                    '`discover_queue._plan()` 还在 —— 预算切分（72/72/36）让 200 除不尽，'
+                    '每天固定扔掉 20 次（11-08 实跑 176、11-09 实跑 177）'
+                )
+
+    step12 = PIPELINE_DIR / 'steps' / 'step12_discover.py'
+    if not step12.exists():
+        problems.append('pipeline/steps/step12_discover.py 不存在')
+    else:
+        mod = _load_module(step12, 'pipeline_step12_probe')
+        if mod is None:
+            problems.append('step12_discover.py 无法导入 —— 落盘合并查不了，本条失效')
+        else:
+            hits += 1
+            try:
+                sig = inspect.signature(mod.discover_city)
+                default = sig.parameters['merge'].default
+            except (KeyError, ValueError, TypeError):
+                default = None
+            if default is not True:
+                problems.append(
+                    f'`discover_city(merge=…)` 默认值 = {default!r}，必须为 True —— '
+                    '整份重写会让"跑了半个城"的候选砍掉上次全量成果（广州 pages=1 实测 '
+                    '229→213，日志看不出异常）'
+                )
+            # ★ 判行为：这两个键只在合并分支里写，名字不存在即等于没合并。
+            hits += 1
+            src = strip_py_comments(inspect.getsource(mod.discover_city))
+            if 'keptPrev' not in src or 'prevCandidates' not in src:
+                problems.append(
+                    'discover_city 落盘没有保留旧候选（找不到 keptPrev / prevCandidates）—— '
+                    '浅扫或额度截断的城会把候选清单砍小'
+                )
+
+    check(label, problems, 9, hits)
+
+
+def check_review_gate() -> None:
+    """AY. 入库风评闸门 + 热度白名单（2026-11-10）。
+
+    判的是**行为**，不是"文件在不在"：
+      · `rate_poi.WEIGHTS` 权重和必须为 1 —— 否则算出的分数与 A 段 prompt 里的
+        打分卡不是一回事，两边会静默偏移；
+      · `GO_MIN > MAYBE_MIN` 且都在 (0,5] —— 否则 maybe 档永不可达或全覆盖；
+      · `intake_candidates._validate` 必须带 `allow_unrated` —— 这个参数在，说明
+        "未评分 ⇒ 拒收"的分支还在；被删了就说明闸门被拆，未评分的垃圾会直接入库；
+      · `patrol_queue.FIXABLE` 必须含 `popularity`，且 `cmd_fix` 里有 0~100 越界拒收
+        —— 热点巡检（P6.5）只能靠它调热度，越界会让 build 抛 ValidationError。
+    """
+    label = 'AY. 入库风评闸门（四维加权 · 未评分/判 no 拒收）· 热度白名单'
+    problems: list[str] = []
+    hits = 0
+
+    rp = REPO / 'tools' / 'rate_poi.py'
+    if not rp.exists():
+        problems.append('tools/rate_poi.py 不存在 —— 入库前没有任何质量闸门，'
+                        '废弃旧址与差评网红店会被当成景点收进来')
+    else:
+        m = _load_module(rp, 'tools_rate_poi_probe')
+        if m is None:
+            problems.append('rate_poi.py 无法导入 —— 打分卡查不了，本条判据失效')
+        else:
+            hits += 1
+            w = {k: float(v) for k, v in (getattr(m, 'WEIGHTS', {}) or {}).items()}
+            if abs(sum(w.values()) - 1.0) > 1e-6:
+                problems.append(
+                    f'rate_poi.WEIGHTS 权重和 = {sum(w.values()):.3f}，必须为 1 —— '
+                    f'否则分数与 A 段 prompt 的打分卡对不上（{w}）'
+                )
+            hits += 1
+            go, may = getattr(m, 'GO_MIN', None), getattr(m, 'MAYBE_MIN', None)
+            if not (isinstance(go, (int, float)) and isinstance(may, (int, float))
+                    and 0 < may < go <= 5):
+                problems.append(
+                    f'rate_poi 档位异常：GO_MIN={go!r} MAYBE_MIN={may!r} —— '
+                    f'必须 0 < MAYBE_MIN < GO_MIN <= 5，否则 maybe 档永不可达'
+                )
+
+    ic = REPO / 'tools' / 'intake_candidates.py'
+    if not ic.exists():
+        problems.append('tools/intake_candidates.py 不存在')
+    else:
+        m = _load_module(ic, 'tools_intake_probe')
+        if m is None:
+            problems.append('intake_candidates.py 无法导入 —— 风评闸门查不了')
+        else:
+            hits += 1
+            try:
+                params = inspect.signature(m._validate).parameters
+            except (TypeError, ValueError):
+                params = {}
+            if 'allow_unrated' not in params:
+                problems.append(
+                    '`intake_candidates._validate` 没有 `allow_unrated` 参数 —— '
+                    '风评闸门被拆了：未评分的条目会直接入库'
+                )
+            hits += 1
+            vsrc = strip_py_comments(inspect.getsource(m._validate))
+            if "'no'" not in vsrc and '"no"' not in vsrc:
+                problems.append(
+                    '`_validate` 里找不到 verdict == "no" 的分支 —— 判 no 的条目不再被拒'
+                )
+
+    pq = REPO / 'tools' / 'patrol_queue.py'
+    if not pq.exists():
+        problems.append('tools/patrol_queue.py 不存在')
+    else:
+        m = _load_module(pq, 'tools_patrol_probe')
+        if m is None:
+            problems.append('patrol_queue.py 无法导入 —— 热度白名单查不了')
+        else:
+            hits += 1
+            if 'popularity' not in (getattr(m, 'FIXABLE', {}) or {}):
+                problems.append(
+                    '`patrol_queue.FIXABLE` 没有 popularity —— 热点巡检（P6.5）'
+                    '改不动热度，避雷信息只能塞 tips、排序照旧'
+                )
+            hits += 1
+            fsrc = strip_py_comments(inspect.getsource(m.cmd_fix))
+            if '0 <= new <= 100' not in fsrc:
+                problems.append(
+                    '`cmd_fix` 里没有 popularity 的 0~100 越界校验 —— '
+                    'schema 是 ge=0/le=100，越界写进去 build 会抛 ValidationError'
+                )
+
+    check(label, problems, 6, hits)
+
+
+def check_ai_review() -> None:
+    """AZ. AI 点评（档位口径一致 · 免责必现 · 缺失不惩罚排序）2026-11-10。
+
+    判的都是**会静默出错**的地方：
+      · `ai_review.VERDICT_BANDS` 的四个结论字面量必须与 `schema.ts` 的
+        `verdict: z.enum([...])` 完全一致 —— 漂了之后 `safeParseCity` 会整城解析失败，
+        前端表现是"这座城市的景点全没了"，而且不会报任何错；
+      · 四档分数下界必须严格递减 —— 否则 `_verdict_for` 永远命中第一档；
+      · 详情卡片与「关于」两处免责文案必须都在（用户 2026-11-10 明确要求），
+        这是产品承诺，不是可选项；
+      · `sortPois('score')` 必须让无点评的点位沉底（`?? -1`），
+        写成 `?? 0` 等于把"还没写点评"当成 0 分，优质景点会掉到末位。
+    """
+    label = 'AZ. AI 点评（档位口径一致 · 免责必现 · 缺失不惩罚排序）'
+    problems: list[str] = []
+    hits = 0
+
+    ts_schema = REPO / 'schema' / 'schema.ts'
+    if not ts_schema.exists():
+        problems.append('schema/schema.ts 不存在 —— 档位口径无从比对')
+        ts_verdicts: set[str] = set()
+    else:
+        txt = ts_schema.read_text(encoding='utf-8')
+        m = re.search(r'verdict:\s*z\.enum\(\[(.*?)\]\)', txt, re.S)
+        ts_verdicts = set(re.findall(r"'([^']+)'", m.group(1))) if m else set()
+        hits += 1
+        if not ts_verdicts:
+            problems.append('schema.ts 里找不到 `verdict: z.enum([...])` —— '
+                            'AI 点评的结论档位没有任何契约约束')
+
+    ar = REPO / 'tools' / 'ai_review.py'
+    if not ar.exists():
+        problems.append('tools/ai_review.py 不存在 —— AI 点评没有生成入口')
+    else:
+        m = _load_module(ar, 'tools_ai_review_probe')
+        if m is None:
+            problems.append('ai_review.py 无法导入 —— 档位口径查不了')
+        else:
+            hits += 1
+            bands = [(float(lo), str(name)) for lo, name in getattr(m, 'VERDICT_BANDS', [])]
+            py_verdicts = {name for _, name in bands}
+            if ts_verdicts and py_verdicts != ts_verdicts:
+                problems.append(
+                    f'结论档位两边不一致：ai_review={sorted(py_verdicts)} '
+                    f'schema.ts={sorted(ts_verdicts)} —— build 时 zod 会判整城解析失败，'
+                    f'前端表现是「这座城的景点全没了」且不报错'
+                )
+            hits += 1
+            lows = [lo for lo, _ in bands]
+            if lows != sorted(lows, reverse=True):
+                problems.append(
+                    f'VERDICT_BANDS 的分数下界必须严格递减，实际 {lows} —— '
+                    f'`_verdict_for` 从头扫，顺序错了就永远命中第一档'
+                )
+
+    notice = WEB / 'app' / 'common' / 'ui' / 'doc' / 'AiReviewNotice.tsx'
+    if not notice.exists():
+        problems.append('web/.../doc/AiReviewNotice.tsx 不存在 —— AI 点评没有免责文案源')
+        notice_txt = ''
+    else:
+        notice_txt = notice.read_text(encoding='utf-8')
+        hits += 1
+        # ★ 判据串拆开拼：整串写在这儿，这一行注释自己就会把检查 pass 掉
+        if ('可能' + '不准') not in notice_txt:
+            problems.append('AiReviewNotice 里没有「可能不准」—— AI 分数会被当成权威评分读')
+
+    rb = WEB / 'app' / 'common' / 'ui' / 'city' / 'PoiReviewBlock.tsx'
+    if not rb.exists():
+        problems.append('web/.../city/PoiReviewBlock.tsx 不存在 —— 详情页没有 AI 点评卡片')
+    else:
+        hits += 1
+        if 'AI_REVIEW_SHORT' not in rb.read_text(encoding='utf-8'):
+            problems.append('PoiReviewBlock 没有引用 `AI_REVIEW_SHORT` —— '
+                            '自己写了一份免责，改一处另一处就漂了')
+
+    pd = WEB / 'app' / 'common' / 'ui' / 'city' / 'PoiDetail.tsx'
+    if not pd.exists():
+        problems.append('PoiDetail.tsx 不存在')
+    else:
+        hits += 1
+        if 'poi.review ?' not in pd.read_text(encoding='utf-8'):
+            problems.append('PoiDetail 没有按 `poi.review` 决定是否渲染点评 —— '
+                            '没有点评的点位会渲染一块空卡片，或整块内容消失')
+
+    pl = WEB / 'app' / 'common' / 'ui' / 'city' / 'PoiList.tsx'
+    if not pl.exists():
+        problems.append('PoiList.tsx 不存在')
+    else:
+        hits += 1
+        # ★ 判据用完整比较式而不是 `?? -1` 片段：片段在文件头注释里也出现过，
+        #   反证时改坏代码、注释仍把检查 pass 掉（实测 2026-11-10 没抓住）
+        if '(b.review?.score ?? -1) - (a.review?.score ?? -1)' not in pl.read_text(encoding='utf-8'):
+            problems.append('`sortPois` 的 score 档没有把无点评点位沉底（应为 `?? -1`）'
+                            '—— 写成 0 等于用「还没写点评」惩罚它，优质景点会掉到末位')
+
+    about = WEB / 'app' / 'common' / 'ui' / 'doc' / 'AboutContent.tsx'
+    if not about.exists():
+        problems.append('AboutContent.tsx 不存在')
+    else:
+        hits += 1
+        if '<AiReviewNotice' not in about.read_text(encoding='utf-8'):
+            problems.append('「关于」弹窗没有引用 `AiReviewNotice` —— '
+                            '用户明确要求免责在关于与详情两处都出现')
+
+    check(label, problems, 7, hits)
+
+
 def main() -> int:
     print('=== 应用结构静态校验 ===\n')
     check_barrels()
@@ -7472,6 +7842,16 @@ def main() -> int:
     check_mobile_shell()
     check_images()
     check_image_clean()
+    check_discover_quota()
+    check_review_gate()
+    check_ai_review()
+    check_city_cover()
+    check_city_intro()
+    check_region_panel()
+    check_detail_layout()
+    check_panel_click()
+    check_reveal_scope()
+    check_hydration_and_face_level()
 
     print('')
     for n in notes:
@@ -7483,6 +7863,720 @@ def main() -> int:
         return 1
     print('RESULT: ALL_CLEAN')
     return 0
+
+
+def check_city_cover() -> None:
+    """BA. 城市封面（只收 Wikimedia · 换过的必须带中文 alt）2026-11-12。
+
+    背景：83 城 × 3 张 `heroImages` 原先由 `"<城市> city skyline"` 单条关键词抓出来，
+    中间没有"看一眼"，83 张首图里 ≥30 张不是这座城（杭州=明星写真 / 承德=纸币 /
+    西安=南京城墙 / 西宁=东方明珠）。修法是 `tools/city_cover.py`：用地标名当查询词、
+    只收 Wikimedia、逐张看图后再写回。
+
+    判的都是**会静默失效**的地方：
+      · 抓取渠道里一旦混进图库（Pexels/Unsplash），"看着像城市"的图就会回来 ——
+        图库没有地理校验，看图也只能判"是个城市"，判不出是哪座城；
+      · `apply` 的 alt 闸门被拆掉 ⇒ 写回的是 Commons 文件名（`Blubb (10595970686).jpg`），
+        alt 的 a11y 与 SEO 作用全部落空；
+      · 账本口径与判定结果分家 ⇒ 下次巡检不知道哪些城已经换过、哪些还没。
+
+    ★ 后两条**只对账本里 `state=ok` 且 `by=apply` 的城生效**（工具写回的那批）：
+      存量「审过图、alt 还是 Commons 文件名」的城市不在这里判红 —— 那是已知欠账，
+      重抓时一并改成中文。护栏不替存量数据判红，否则每次校验都失败、久了没人看。
+    """
+    label = 'BA. 城市封面（只收 Wikimedia · 换过的必须带中文 alt）'
+    problems: list[str] = []
+    hits = 0
+
+    tool = REPO / 'tools' / 'city_cover.py'
+    if not tool.exists():
+        problems.append('tools/city_cover.py 不存在 —— 城市封面没有审查与重抓入口')
+        check(label, problems, 4, hits)
+        return
+    src = tool.read_text(encoding='utf-8')
+    hits += 1
+    # ★ 判据串拆开拼（整串写在这里，这一行注释自己就会把检查 pass 掉）
+    for mod in ('search_' + 'pexels', 'search_' + 'unsplash'):
+        if mod in src:
+            problems.append(f'city_cover.py 里出现 `{mod}` —— 城市封面只收 Wikimedia：'
+                            f'图库没有地理校验，"看着像城市"的图会立刻回来')
+    hits += 1
+    if 'CJK' + '.search(' not in src or 'MAX_' + 'HERO' not in src:
+        problems.append('city_cover.py 的 apply 缺 alt 闸门或张数上限 —— '
+                        '写回的 alt 会变成 Commons 文件名，或写出 schema 装不下的张数')
+
+    # ★ 2026-11-14 新增：定期复核的入口必须存在（巡检 P5.6 只认它）。
+    #   没有它，巡检就只能"凭记忆挑城"，而 34 省 + 83 城的封面会慢慢烂掉不再被看。
+    review = REPO / 'tools' / 'cover_review.py'
+    if not review.exists():
+        problems.append('tools/cover_review.py 不存在 —— 省/市封面没有定期复核入口'
+                        '（巡检 P5.6 的体检清单、对照表、url 探活全在这里）')
+    else:
+        rsrc = review.read_text(encoding='utf-8')
+        hits += 1
+        for sub in ('next', 'sheet', 'cands', 'keep', 'urls'):
+            if f'cmd == "{sub}"' not in rsrc:
+                problems.append(f'cover_review.py 缺 `{sub}` 子命令 —— 巡检那一步会断')
+        # ★ 判据串拆开拼：整串写在这里，这一行自己会把检查 pass 掉
+        for hook in ('reviewedAt', 'urlCheckedAt'):
+            if hook not in rsrc:
+                problems.append(f'cover_review.py 不写 `{hook}` —— 台账记不住"上次什么时候看的"，'
+                                f'复核会每轮都从同一批开始')
+
+    ledger = REPO / 'data' / '_generated' / 'city-covers.json'
+    if not ledger.exists():
+        problems.append('data/_generated/city-covers.json 不存在 —— 封面审查没有账本，'
+                        '下次巡检不知道哪些城换过')
+        rows = {}
+    else:
+        rows = json.loads(ledger.read_text(encoding='utf-8'))
+        hits += 1
+        bad = [k for k, v in rows.items() if (v or {}).get('state') not in ('ok', 'need')]
+        if bad:
+            problems.append(f'账本里有 {len(bad)} 条 state 不是 ok/need（{bad[:5]}）—— '
+                            f'status 会把它算成"未审"，同一座城被反复审')
+
+    cjk = re.compile(r'[\u3400-\u9fff]')
+    done = 0
+    stale_query: list[str] = []
+    cities_root = REPO / 'data' / 'cities'
+    heads = sorted(cities_root.glob('*/*/city.json')) if cities_root.is_dir() else []
+    for head in heads:
+        doc = json.loads(head.read_text(encoding='utf-8'))
+        cid = str(doc.get('id') or head.parent.name)
+        row = rows.get(cid) or {}
+        # ★ 只校验**工具写回的**那批（by=apply）。存量"审过图、alt 还是 Commons 文件名"
+        #   的城市（by=review）不在这里判红：那是已知欠账，重抓时才一并改成中文，
+        #   在这儿判红会让每次校验都失败，久了就没人看了。
+        if row.get('state') != 'ok' or row.get('by') != 'apply':
+            continue
+        hero = doc.get('heroImages') or []
+        done += 1
+        if not hero:
+            problems.append(f'{cid}：账本记 ok 但 `heroImages` 是空的 —— '
+                            f'schema 要求至少 1 张，整城解析会失败')
+            continue
+        for im in hero:
+            if not cjk.search(str(im.get('alt') or '')):
+                problems.append(f'{cid}：封面 alt 不是中文描述（「{str(im.get("alt"))[:24]}」）')
+                break
+            if str((im.get('credit') or {}).get('source')) != 'wikimedia':
+                problems.append(f'{cid}：封面来源是 {(im.get("credit") or {}).get("source")} —— '
+                                f'城市封面只认 Wikimedia（图库无法验证是哪座城）')
+                break
+            # ★ 2026-11-14：`query` 写成城市名（或「城市 + skyline」）就等于放弃了
+            #   "这是哪座城的门面"—— 30 张错图全是从这条通道出来的。
+            #   ★★ 但这条**只记 note 不判红**：现存 19 城是 2026-11-12 那批 apply 留下的
+            #   城市名兜底图（合肥 / 重庆 / 兰州 / 深圳…），属**已知存量**，正由
+            #   `cover_review.py next` 逐轮换掉。判红会让每次校验都失败（BA 组 docstring 同一条规矩）。
+            q = str(im.get('query') or '')
+            qc = q.replace(' ', '')
+            if not qc or 'skyline' in q.lower() or qc == str(doc.get('name') or '').replace(' ', ''):
+                stale_query.append(cid)
+                break
+    hits += max(1, done)
+
+    if stale_query:
+        notes.append(f'封面 query 还是城市名的城 {len(stale_query)} 个（已知存量，'
+                     f'`cover_review.py next` 逐轮换）：{" ".join(stale_query[:8])}'
+                     + (' …' if len(stale_query) > 8 else ''))
+
+    check(label, problems, 6, hits)
+
+
+def check_city_intro() -> None:
+    """BB. 城市介绍（封面/简介/事实必须有渲染出口 · 署名唯一出口且必须压在图上层）2026-11-12。
+
+    背景（两条都属"数据写好了、界面上一片空"，而且都不报错）：
+
+    ① `city.json` 的 `heroImages`（83 城 × 3 张逐张审过的封面）、`intro`（260~300 字）、
+       `facts`（四季/天数/交通/气候）**一直都有**，但前端一处都没渲染 —— 用户点进任何
+       一座城只看得到「名字 + 一行 tagline + 一串点位名」。`cities.index.json.coverImage`
+       更彻底：`deriveIndexItem` 算出来之后**没有任何组件读它**，从 v1 起就是死字段。
+    ② `.img-skeleton > img { z-index: 1 }`（为了让图盖住骨架扫光）会把压在图上的**署名条**
+       整条盖住 —— `z-index` 只在定位元素上生效，`auto` 的同级谁在后面谁在上，
+       于是 DOM 里排后面的定位 `<span>` 反而在图**下面**。署名条渲染了、`textContent`
+       也在，肉眼一个字看不到。2026-11-12 用 `elementFromPoint` 在署名条中心取点、
+       命中的是 `IMG` 才查出来，此前已静默存在两个月。
+
+    判的都是**会静默失效**的地方：
+      · CityIntro 少读一个字段 ⇒ 那个字段又变回死数据（界面只是"少一块"，不报错）；
+      · 只给一端挂 CityIntro ⇒ 另一端悄悄看不到（本项目最典型的漂移）；
+      · 署名出现第二份实现 ⇒ 迟早一处忘了 `z-index`，又变成看不见；
+      · `PhotoCredit` 丢了 `z-[2]` ⇒ 署名再次被图盖住。
+
+    ★ 判据串一律拆开拼：整串写在这个文件里，这些行自己就会把检查 pass 掉。
+    """
+    label = 'BB. 城市介绍（封面/简介/事实有出口 · 署名唯一出口且盖在图上）'
+    problems: list[str] = []
+    hits = 0
+
+    intro = WEB / 'app' / 'common' / 'ui' / 'city' / 'CityIntro.tsx'
+    if not intro.exists():
+        problems.append('缺 web/app/common/ui/city/CityIntro.tsx —— 城市封面/简介/事实没有渲染出口')
+        check(label, problems, 3, hits)
+        return
+
+    src = intro.read_text(encoding='utf-8')
+    hits += 1
+    for field in ('heroImages', 'intro', 'facts'):
+        # `.字段` 形态：`city.heroImages` / `city.intro` / `city.facts?.[k]`
+        if '.' + field not in src:
+            problems.append(f'CityIntro 没有读 `city.{field}` —— 该字段又变回死数据'
+                            f'（界面上只是少一块，不报错）')
+
+    for end in ('desktop', 'mobile'):
+        view = WEB / 'app' / end / 'ui' / 'CityView.tsx'
+        if not view.exists():
+            problems.append(f'缺 {end}/ui/CityView.tsx')
+            continue
+        hits += 1
+        # ★ 判**用法**不判名字：只看标识符的话，`import { CityIntro }` 还在就算通过 ——
+        #   而"引了不用"正是这组护栏要抓的失效形态（反证 1 第一版就是这么漏的）
+        if '<' + 'CityIntro' not in view.read_text(encoding='utf-8'):
+            problems.append(f'{end} 端城市页没挂 CityIntro —— 两端会不一致'
+                            f'（一端有城市介绍、一端没有，且不报错）')
+
+    # 署名**唯一出口**：除 HeroImage.tsx 外不许再有第二份"摄影 xxx"的渲染实现
+    marker = '摄影' + ' '
+    dup = []
+    for p in (WEB / 'app').rglob('*.tsx'):
+        if p.name == 'HeroImage.tsx':
+            continue
+        if marker in p.read_text(encoding='utf-8'):
+            dup.append(str(p.relative_to(WEB)).replace('\\', '/'))
+    if dup:
+        problems.append('图片署名出现第二份实现（唯一出处是 HeroImage.tsx 的 PhotoCredit）：'
+                        + ', '.join(dup))
+    hits += 1
+
+    hero = (WEB / 'app' / 'common' / 'ui' / 'HeroImage.tsx').read_text(encoding='utf-8')
+    if 'Photo' + 'Credit' in hero:
+        hits += 1
+        seg = hero[hero.index('export function Photo' + 'Credit'):]
+        if 'z-' + '[2]' not in seg:
+            problems.append('PhotoCredit 没给 z-index —— `.img-skeleton > img` 的 z-index:1'
+                            ' 会把它整条盖住（署名渲染了但一个字都看不见）')
+
+    check(label, problems, 5, hits)
+
+
+def check_region_panel() -> None:
+    """BC. 首页地域面板（点省 / 市徽标 → 放大 + 左侧开卡）2026-11-12。
+
+    背景：首页原来点省 / 市徽标**只做一件事** —— 把镜头放大到那一档。屏幕上永远只有
+    徽标和数字，这个省收了哪几座城、是哪座城，全靠用户自己认。现在点徽标会额外开一块
+    左侧面板（省概览 → 城市列表 → 市概览 → 区列表）。
+
+    这组判的是**会静默坏掉**的四处：
+
+      · 面板不走 `Overlay` ⇒ 它身上没有 `data-overlay`，`freeRect` 量不到它，
+        落点仍是整屏中心 ⇒ 徽标被面板盖住（用户原话「往右偏移一点，不然会被挡住」），
+        而且**一点报错都没有**（镜头确实飞了，只是飞到面板底下）；
+      · 首页不挂 `<RegionPanel` ⇒ 状态照跑、镜头照飞、面板永不出现（最像"没生效"的形态）；
+      · 市卡另写一份简介/封面 ⇒ 与城市页分家（署名那条 `z-[2]` 的坑会重新长出来）；
+      · `regionNav` 自己算偏移（写死 348 / 420）⇒ 与 `freeRect` 的实测量打架，
+        而且右侧规划面板一开就必然错位 —— 两种情况恰恰是用户特别点出来要区分的。
+
+    ★ 判据串一律拆开拼：整串写在这个文件里，这些行自己就会把检查 pass 掉。
+    """
+    label = 'BC. 地域面板（Overlay 承载偏移 · 首页必须挂 · 市卡复用 CityIntro）'
+    problems: list[str] = []
+    hits = 0
+
+    panel = WEB / 'app' / 'desktop' / 'ui' / 'RegionPanel.tsx'
+    if not panel.exists():
+        problems.append('缺 web/app/desktop/ui/RegionPanel.tsx —— 点省 / 市徽标不会开卡')
+        check(label, problems, 4, hits)
+        return
+
+    src = panel.read_text(encoding='utf-8')
+    hits += 1
+    if '<' + 'Overlay' not in src:
+        problems.append('RegionPanel 没用 `Overlay` —— 没有 `data-overlay` 就量不到浮层，'
+                        '`freeRect` 仍按整屏算中心 ⇒ 徽标被面板盖住（且不报错）')
+
+    home = WEB / 'app' / 'routes' / 'home.tsx'
+    hits += 1
+    if not home.exists() or '<' + 'RegionPanel' not in home.read_text(encoding='utf-8'):
+        problems.append('首页没挂 `RegionPanel` —— 状态与对焦链路照跑，面板永不出现')
+
+    card = WEB / 'app' / 'common' / 'ui' / 'region' / 'CityCard.tsx'
+    hits += 1
+    if not card.exists():
+        problems.append('缺 common/ui/region/CityCard.tsx —— 市卡没有渲染出口')
+    elif '<' + 'CityIntro' not in card.read_text(encoding='utf-8'):
+        problems.append('市卡没复用 `CityIntro` —— 简介/封面/facts 会另写一份，'
+                        '与城市页分家（署名 `z-[2]` 的坑会重新长出来）')
+
+    nav = WEB / 'app' / 'common' / 'logic' / 'regionNav.ts'
+    hits += 1
+    if not nav.exists():
+        problems.append('缺 common/logic/regionNav.ts —— 地域面板的导航没有落点')
+    else:
+        # ★ 只查**代码行**：文件头注释里本来就要讲"左 348 / 右 420 由 freeRect 现量"
+        #   这件事，注释里出现这两个数字是说明，不是第二套模型。
+        #   （只看整行注释：`//` `/*` `*` 开头 —— 行内 `//` 会误伤 URL。）
+        nt = '\n'.join(
+            ln for ln in nav.read_text(encoding='utf-8').splitlines()
+            if not ln.lstrip().startswith(('//', '/*', '*'))
+        )
+        # 写死宽度 = 第二套偏移模型：左侧 / 右侧都得靠 freeRect 现量
+        hard = [n for n in ('348', '420') if n in nt]
+        if hard:
+            problems.append(f'regionNav 里出现了写死的面板宽度 {hard} —— 偏移必须由 '
+                            f'`freeRect` 实测（右侧规划面板一开就会错位）')
+
+    check(label, problems, 4, hits)
+
+
+def check_detail_layout() -> None:
+    """BD. 详情排版与图集唯一出处 · 省级内容（2026-11-14）。
+
+    三条用户原话，对应三处**会静默失效**的地方：
+
+    ① 「这个图片翻页的逻辑不对吧」—— 城市封面原来是「**点封面图翻下一张**」：
+       看不出能点、看不出还有几张、点击热点还跟以后想加的"点开大图"冲突。
+       而景点详情早就是**缩略条**。两处差一套交互，谁都不会报错，用户只能自己发现。
+    ② 「介绍整体上和景点介绍统一一下」—— 一边 `15.5px` + `H2` 分节 + 84px 标签表，
+       一边 `12.5px` + 折叠。同一站两套阅读节奏，同样不报错。
+    ③ 「省的介绍和图片不抓吗」—— 省级在 `data/` 里只有区划与边界，
+       省卡只能拿"下辖几个市、收了哪几座"凑一段话。补了内容层之后，
+       最怕的是**数据有了、又没人读**（与 `city.coverImage` 那个从 v1 起就死的字段同型）。
+
+    判据都落在"会不会静默退化"上：
+      · 排版基座被绕开 ⇒ 下次改字号必有一处漏；
+      · 缩略条出现第二份 ⇒ 迟早一处忘了 `ring` / `.scroll`；
+      · 城市介绍又长出折叠/点图翻页 ⇒ 用户回到"要自己猜"；
+      · 省内容文件缺项 / 图源不是 Wikimedia ⇒ 省卡退化，且看图也看不出是哪座省；
+      · 省卡不读内容 ⇒ `intro`/`heroImages` 变成第二个死字段。
+
+    ★ 判据串一律拆开拼（`'<' + 'HeroGallery'`）：整串写在这个文件里会自己把自己判过。
+    """
+    label = 'BD. 详情排版与图集唯一出处 · 省级内容'
+    problems: list[str] = []
+    hits = 0
+
+    # ① 排版基座：唯一定义处
+    sec = WEB / 'app' / 'common' / 'ui' / 'Section.tsx'
+    if not sec.exists():
+        problems.append('缺 web/app/common/ui/Section.tsx —— 详情排版没有唯一出处')
+    else:
+        st = sec.read_text(encoding='utf-8')
+        hits += 1
+        for name in ('H2', 'Prose'):
+            if 'export function ' + name not in st:
+                problems.append(f'Section.tsx 没有导出 `{name}` —— 排版基座不完整')
+
+    # ② 三个"读正文的人"都必须走基座，且不许自带字号
+    for rel in ('app/common/ui/city/PoiDetail.tsx',
+                'app/common/ui/city/CityIntro.tsx'):
+        p = WEB / rel
+        if not p.exists():
+            problems.append(f'缺 {rel}')
+            continue
+        t = p.read_text(encoding='utf-8')
+        hits += 1
+        if "from '~/common/ui/Section'" not in t:
+            problems.append(f'{rel} 没用 `~/common/ui/Section` —— 排版会与别处漂开')
+        # 正文/标题字号只许出现在 Section.tsx（这里只钉正文那档，最容易各自为政）
+        if 'text-[' + '15.5' + 'px]' in t:
+            problems.append(f'{rel} 自己写了正文字号 —— 字号只许在 Section.tsx 里')
+
+    # ③ 缩略条：唯一实现（`HeroGallery.tsx`）
+    strip = 'size-12 flex-none ' + 'overflow-hidden rounded-md'
+    dup = []
+    for p in (WEB / 'app').rglob('*.tsx'):
+        if p.name == 'HeroGallery.tsx':
+            continue
+        if strip in p.read_text(encoding='utf-8'):
+            dup.append(str(p.relative_to(WEB)).replace('\\', '/'))
+    hits += 1
+    if dup:
+        problems.append('缩略条出现第二份实现（唯一出处是 HeroGallery.tsx 的 GalleryStrip）：'
+                        + ', '.join(dup))
+
+    # ④ 城市介绍：图集走公共件、**不许**点图翻页、**不许**折叠
+    ci = WEB / 'app' / 'common' / 'ui' / 'city' / 'CityIntro.tsx'
+    if not ci.exists():
+        problems.append('缺 app/common/ui/city/CityIntro.tsx')
+    else:
+        # ★ 只查**代码行**：文件头那张对照表本来就要逐字讲"旧版是点封面翻页 / 折叠 / clamp"
+        #   这件事，注释里出现这些词是说明，不是实现。（整行注释：`//` `/*` `*`）
+        ct = '\n'.join(
+            ln for ln in ci.read_text(encoding='utf-8').splitlines()
+            if not ln.lstrip().startswith(('//', '/*', '*'))
+        )
+        hits += 1
+        if '<' + 'HeroGallery' not in ct:
+            problems.append('CityIntro 没用 HeroGallery —— 图集又变成自己拼的了（翻页语义会与景点分家）')
+        for bad, why in (('切换城市封面', '点封面翻下一页：看不出能点、也看不出还有几张'),
+                         ('展开城市介绍', '又加了折叠：景点简介从不折'),
+                         ('line-clamp', '正文又被压成几行')):
+            if bad in ct:
+                problems.append(f'CityIntro 里出现「{bad}」—— {why}')
+
+    # ⑤ 省内容数据：齐全、可读、图源合规
+    pj = REPO / 'data' / 'provinces' / 'index.json'
+    prov_src = (WEB / 'app' / 'common' / 'data' / 'provinceAdcodes.ts').read_text(encoding='utf-8')
+    body = re.search(r'export const PROVINCES[^=]*=\s*\[(.*?)\n\]', prov_src, re.S)
+    codes = set(re.findall(r'[\'"](\d{6})[\'"]', body.group(1))) if body else set()
+    if not pj.exists():
+        problems.append('缺 data/provinces/index.json —— 省介绍 / 省封面没有承载位置')
+    elif not codes:
+        problems.append('无法从 provinceAdcodes.ts 读出 34 个省级 adcode —— 检查失效')
+    else:
+        doc = json.loads(pj.read_text(encoding='utf-8'))
+        got = doc.get('provinces') or {}
+        hits += 1
+        miss = sorted(codes - set(got))
+        if miss:
+            problems.append(f'省级内容缺 {len(miss)} 个：{miss[:6]}')
+        for code, row in got.items():
+            if len(str(row.get('intro') or '')) < 60:
+                problems.append(f'{code} 的省介绍不足 60 字 —— 省卡会退化成一句收录统计')
+            hero = row.get('heroImages') or []
+            if len(hero) > 3:
+                problems.append(f'{code} 的 heroImages 有 {len(hero)} 张（上限 3）')
+            for h in hero:
+                if 'wikimedia' not in str((h.get('credit') or {}).get('source') or ''):
+                    problems.append(f'{code} 有一张省封面不是 Wikimedia 来源 —— 图库没有地理校验，'
+                                    '看图也判不出是哪个省')
+                alt = str(h.get('alt') or '')
+                if len(alt) < 8 or not re.search(r'[\u3400-\u9fff]', alt):
+                    problems.append(f'{code} 有图的 alt 不是中文描述（当前「{alt[:16]}」）')
+
+    # ⑥ 省卡必须真的读它（否则又出一个死字段）
+    pc = WEB / 'app' / 'common' / 'ui' / 'region' / 'ProvinceCard.tsx'
+    if not pc.exists():
+        problems.append('缺 app/common/ui/region/ProvinceCard.tsx')
+    else:
+        pt = pc.read_text(encoding='utf-8')
+        hits += 1
+        if 'loadProvinceContent(' not in pt:
+            problems.append('ProvinceCard 没读 `loadProvinceContent(` —— 省 intro / 封面会变成死字段')
+        for need in ('<' + 'HeroGallery', '<' + 'Prose'):
+            if need not in pt:
+                problems.append(f'ProvinceCard 没挂 `{need.lstrip("<")}` —— 省卡与市卡排版会分家')
+
+    check(label, problems, 6, hits)
+
+
+def check_panel_click() -> None:
+    """BE. 地域面板的**点击闭环**（2026-11-14 用户：「点省之后再点市，不会切换到市的面板」）。
+
+    两个现象、三个根因，全都不报错：
+
+    | 现象 | 根因 | 为什么静默 |
+    |------|------|------------|
+    | 搜索点省市不开面板 | `useSearch` 自己算落点，而"开面板"住在页面的 `useState` 里 | 镜头飞对了，只是面板没开 —— 看着像"搜索只用来跳地图" |
+    | 点市"不切换面板" | ① 城市列表把未收录市 `disabled` 了（面板里 9 行死行）<br>② 换卡后滚动位置不归零（省卡长、市卡短 ⇒ 屏上剩中段甚至空白）<br>③ 未收录市 `empty: true` ⇒ 镜头一动不动 | 三处都"点了有反应"，只是反应不在用户看的地方 |
+
+    ★ 判据落**行为**：
+      · 搜索命中地区必须**先交给页面**（`pickPageRegion(`），页面必须**登记**（`registerPageRegionOps(`）；
+      · 面板的城市列表必须放开待收录行（`pendingPickable`），旁证：省级页那一侧仍要走 `navigate`；
+      · 面板换卡必须把滚动区归零（`scrollRef` + `scrollTop = 0`）；
+      · `focusPointsFor` 的省 / 市兜底**不许**返回 `empty: true` —— 那会让未收录市点击无位移。
+
+    ★ 判据串拆开拼（`'registerPage' + 'RegionOps('`），否则本文件自己就成了"出现过"的证据。
+    """
+    label = 'BE. 地域面板的点击闭环（搜索开卡 · 待收录可点 · 换卡归零 · 未收录也落点）'
+    problems: list[str] = []
+    hits = 0
+
+    # ① 搜索命中地区 → 交给页面（唯一开卡入口）
+    shell = WEB / 'app' / 'common' / 'logic' / 'mapShell.ts'
+    if not shell.exists():
+        problems.append('缺 app/common/logic/mapShell.ts')
+    else:
+        sh = shell.read_text(encoding='utf-8')
+        hits += 1
+        for need in ('register' + 'PageRegionOps', 'pick' + 'PageRegion'):
+            if need not in sh:
+                problems.append(f'mapShell.ts 没有 `{need}` —— 搜索命中地区时无处交出"开面板"')
+
+    home = WEB / 'app' / 'common' / 'logic' / 'useHomeView.ts'
+    if not home.exists():
+        problems.append('缺 app/common/logic/useHomeView.ts')
+    else:
+        ht = home.read_text(encoding='utf-8')
+        hits += 1
+        # ★ 必须查**注册那一句**（带对象字面量），不能只查名字 ——
+        #   注销那一句 `registerPageRegionOps(null)` 也含这个名字，
+        #   只查名字的话把注册整句删掉它照样绿（本项第一次反证就踩到了）。
+        if 'register' + 'PageRegionOps({' not in ht:
+            problems.append('useHomeView 没登记 `registerPageRegionOps({…})` —— 搜索点省市不会开面板')
+
+    use_search = WEB / 'app' / 'common' / 'logic' / 'useSearch.ts'
+    if not use_search.exists():
+        problems.append('缺 app/common/logic/useSearch.ts')
+    else:
+        st = use_search.read_text(encoding='utf-8')
+        hits += 1
+        if 'pick' + 'PageRegion(' not in st:
+            problems.append(
+                'useSearch 命中地区时没先试 `pickPageRegion(` —— 会自己算落点，面板永远不开'
+            )
+
+    # ② 面板的「城市列表」必须放开待收录行
+    rp = WEB / 'app' / 'desktop' / 'ui' / 'RegionPanel.tsx'
+    if not rp.exists():
+        problems.append('缺 app/desktop/ui/RegionPanel.tsx')
+    else:
+        rt = rp.read_text(encoding='utf-8')
+        hits += 1
+        if 'pending' + 'Pickable' not in rt:
+            problems.append(
+                'RegionPanel 的 `ProvinceList` 没传 `pendingPickable` —— 待收录的市在面板里'
+                '整行 `disabled`，用户点了毫无反应（"点市不切面板"的一半）'
+            )
+        # 旁证：换卡必须归零
+        if 'scroll' + 'Top = 0' not in rt:
+            problems.append(
+                'RegionPanel 换卡时没把滚动区归零 —— 省卡（长）滚到中段再点市（短），'
+                '屏上会停在新卡的中段甚至一段空白，看起来像"面板没换"'
+            )
+
+    # ③ 省 / 市兜底不许判 empty（未收录的市点了要飞，不能"原地不动"）
+    focus = WEB / 'app' / 'common' / 'logic' / 'districtFocus.ts'
+    if focus.exists():
+        fd = focus.read_text(encoding='utf-8')
+        hits += 1
+        if 'return { center: self, zoom, empty: true }' in fd:
+            problems.append(
+                'districtFocus 的省 / 市兜底还在返回 `empty: true` —— 点一座还没收录的市'
+                '镜头一动不动（全国 367 个市里 284 个是这种），看着像点击失效'
+            )
+        # 区那一路必须仍然判空（别为了修市把区一起放开）
+        if 'empty: inDistrict.length === 0' not in fd:
+            problems.append(
+                'districtFocus 的**区**不再判 `empty` —— 0 景点的区会把镜头飞进一片空白'
+                '（2026-10-28 用户报过的那一条）'
+            )
+
+    check(label, problems, 5, hits)
+
+
+def check_reveal_scope() -> None:
+    """BF. 轮廓的**作用域**（2026-11-14 用户：「不管什么情况，地图轮廓都显示，
+    比如点省了，就只显示那个省的数据和轮廓」）。
+
+    ## 修复前是什么样
+    判据只有**视野**：`districts(level)` 返回该级的**全部**候选，再按视野筛。
+    首页点陕西之后镜头落在 z=7（揭示到市级）⇒ `districts('city')` 拿的是
+    **全国 367 个市** —— 甘肃、四川、河南的市只要中心落进外扩圈就一起描线。
+    判据里没有「用户刚点了陕西」这个维度。
+
+    ## 三条判据都是"会静默退化"的那种
+    | 退化方式 | 表现 | 为什么不报错 |
+    |---------|------|-------------|
+    | 过滤条件退回全等（`adcode === scope.adcode`） | 只对**区**有效；省 / 市选中后只画自己那一片，下级全没了 | 地图照样有轮廓，看着像"数据没加载" |
+    | 作用域**无条件生效** | 缩回全国时整张中国地图只剩一片有轮廓 | 用户以为数据丢了 |
+    | 首页不把选中交上去 | 行为完全退回修复前（周边省份照样画） | 只有对比截图才看得出来 |
+
+    ★ 判据串拆开拼（`'Reveal' + 'Scope'`）：本文件的注释里逐字讲了这些名字，
+      不拆的话把整段实现删掉它照样绿。
+    """
+    label = 'BF. 轮廓作用域（选中谁只画谁 · 缩回全国自动放开 · 外框单独一条几何）'
+    problems: list[str] = []
+    hits = 0
+
+    rv = WEB / 'app' / 'common' / 'map' / 'tencent' / 'reveal.ts'
+    if not rv.exists():
+        problems.append('缺 app/common/map/tencent/reveal.ts')
+    else:
+        rt = rv.read_text(encoding='utf-8')
+        hits += 1
+        if 'Reveal' + 'Scope' not in rt:
+            problems.append('reveal.ts 里没有作用域类型 —— 判据只剩视野，点省之后周边省份照样描线')
+        # ★ 判**调用次数**，不是"出现过" —— 只查"出现过"的话，`inScope` 的**定义**
+        #   就足以让它绿：把两处 `.filter((n) => inScope(...))` 全删掉，候选照样
+        #   不经裁剪就进视野筛选（本项第一次反证就漏在这条上）。
+        #   至少 3 处 = 定义 1 + 点位档的面 1 + 区划档的候选 1。
+        scope_calls = rt.count('in' + 'Scope(')
+        if scope_calls < 3:
+            problems.append(
+                f'reveal.ts 只有 {scope_calls} 处 `inScope(`（至少 3：定义 + 点位档的面 + 区划档）'
+                ' —— 有一支候选没被作用域裁过，点省之后那片照样会描线'
+            )
+        # ★ 段式前缀，不是全等 —— 全等只对区有效，省 / 市会把下级全裁掉
+        if 'slice(0, keep)' not in rt:
+            problems.append(
+                'reveal.ts 的作用域不是**段式前缀**（`slice(0, keep)`）—— '
+                '写成全等的话，选中省 / 市之后下级一个都留不下，屏幕上只剩自己那一片面'
+            )
+        # ★ 必须"比作用域单位更深才生效"，否则缩回全国也只剩一片
+        rule = 'LEVEL_ORDER.indexOf(revealed) > LEVEL_ORDER.indexOf(scope.level)'
+        if rule not in rt:
+            problems.append(
+                '作用域没有按「当前揭示级别比它自己更深」来判生效 —— '
+                '缩回全国视野时整张中国地图只剩一片有轮廓（用户会以为数据丢了）'
+            )
+
+    dl = WEB / 'app' / 'common' / 'map' / 'tencent' / 'districtLayer.ts'
+    sc = WEB / 'app' / 'common' / 'map' / 'tencent' / 'districtScope.ts'
+    if not dl.exists() or not sc.exists():
+        problems.append('缺 districtLayer.ts / districtScope.ts —— 作用域外框没有落点')
+    else:
+        hits += 1
+        if 'set' + 'ScopeOutline' not in dl.read_text(encoding='utf-8'):
+            problems.append(
+                'districtLayer 没有 `setScopeOutline` —— 省界只是各市外沿的拼合，'
+                '与市界同粗，屏幕上读不出"这一整个省"'
+            )
+        # ★ 外框几何 id 不能直接用 adcode：点北京时它会同时是下级节点，同 id 会互相覆盖
+        if 'SCOPE_' + 'GEOM_ID' not in sc.read_text(encoding='utf-8'):
+            problems.append(
+                'districtScope 没有独立几何 id —— 外框与节点同 id 会在'
+                '`setGeometries` 里互相覆盖，而且不报错'
+            )
+
+    st = WEB / 'app' / 'common' / 'map' / 'tencent' / 'districtStyles.ts'
+    if st.exists():
+        hits += 1
+        if 'scope: new TMap.PolygonStyle(' not in st.read_text(encoding='utf-8'):
+            problems.append(
+                'districtStyles 里没有 `scope` 面样式 —— 外框会退回 SDK 默认样式（不受控填充）'
+            )
+
+    hm = WEB / 'app' / 'common' / 'logic' / 'useHomeView.ts'
+    rn = WEB / 'app' / 'common' / 'logic' / 'regionNav.ts'
+    if not hm.exists() or not rn.exists():
+        problems.append('缺 useHomeView.ts / regionNav.ts —— 选中的单位没有翻译成作用域的地方')
+    else:
+        hits += 1
+        # 首页只负责"交给揭示层"；翻译规则在 `regionNav.scopeOf`（省 / 市 / 区三种选中都在那）
+        if 'scopeOf(' not in hm.read_text(encoding='utf-8'):
+            problems.append('useHomeView 没把选中交给 `scopeOf(` —— 行为会整个退回修复前')
+        rnt = rn.read_text(encoding='utf-8')
+        if 'nav.region' not in rnt or 'activeDistrict' not in rnt:
+            problems.append(
+                '`regionNav.scopeOf` 没同时看「面板选中的省 / 市」与「点过的区」—— '
+                '有一类选中不会收窄轮廓'
+            )
+
+    um = WEB / 'app' / 'common' / 'logic' / 'useMapReveal.ts'
+    if um.exists():
+        ut = um.read_text(encoding='utf-8')
+        hits += 1
+        if 'opts.scope ?? null' not in ut:
+            problems.append(
+                'useMapReveal 没把作用域交给 `decideReveal` —— 页面算了 scope 也不会生效'
+            )
+        if 'scopeKey' not in ut:
+            problems.append(
+                'useMapReveal 的重铺依赖里没有作用域键 —— 换了选中但数据没变时不会重铺'
+            )
+
+    check(label, problems, 5, hits)
+
+
+def check_hydration_and_face_level() -> None:
+    """BG. 水合稳定快照 + 面样式跟揭示级（2026-11-15 界面整体验收 P1 / P2）。
+
+    ## 两条修复前的样子
+    | 问题 | 判据 | 退化后的表现 |
+    |------|------|-------------|
+    | P1 | `planUi` 是**模块级** store，初值直接读 sessionStorage | 客户端首帧比预渲染多一个 `<MobileRoutePlanPanel>` ⇒ React 丢弃整棵树重渲染；重渲染 `<head>` 撞上腾讯 SDK 的 `<script>` ⇒ console.error，LCP 2748ms |
+    | P2 | `faceStyleId` 按 `zoom >= 9.5` 换深线 | 城市页 / 移动端抬高 base，z=9.46 / 7.99 已是 district（街道底图）却仍拿浅灰 ⇒ 最常见的进城市页路径看不见区界 |
+
+    ★ 判据一律先 `strip_comments()`：这两个文件里注释写满了同样的名字，
+      不剥注释的话把实现删掉，光靠注释就能让判据全绿。
+    ★ 关键串拆开拼（`restore` + `PanelUi` 等）：本段 docstring 与 `planUi` 的
+      JSDoc 都会逐字提到它们，不拆同样会自指。
+    """
+    label = 'BG. 水合稳定快照 · 面样式跟揭示级（面板恢复不过首帧 · 区界按 level 判）'
+    problems: list[str] = []
+    hits = 0
+
+    # ── ① P1：store 初值必须是"服务端也算得出来"的稳定快照 ──
+    pu = strip_comments(read_app('app/common/logic/itinerary/planUi.ts'))
+    hits += 1
+    body = _brace_body(pu, r'export const usePlanUi = create<PlanUiState>\(')
+    if not body:
+        problems.append('取不到 usePlanUi 的函数体 —— 无法判断水合首帧读没读会话状态')
+    else:
+        if 'read' + 'UiState(' in body:
+            problems.append(
+                'usePlanUi 的初值里又读了 sessionStorage —— 客户端首帧会与预渲染 HTML '
+                '结构不同，React 丢整棵树重渲染（hydration mismatch）'
+            )
+        if 'panelOpen: false' not in body or 'detailDay: 1' not in body:
+            problems.append(
+                'usePlanUi 的初值不是「面板关 / 第 1 天」—— 这两个值会渲染成 DOM，'
+                '必须与预渲染时的一致'
+            )
+    rb = _brace_body(pu, r'export function restore' + r'PanelUi\(')
+    if not rb or 'setState({ panelOpen: saved.open, detailDay: saved.day })' not in rb:
+        problems.append(
+            '水合后的恢复入口没把「面板开合 / 当前天」一起接回 —— '
+            '要么刷新丢状态，要么只恢复一半'
+        )
+
+    # ── ② 恢复必须挂在全站唯一的布局路由上 ──
+    ms = strip_comments(read_app('app/routes/map-shell.tsx'))
+    hits += 1
+    if 'restore' + 'PanelUi()' not in ms:
+        problems.append('map-shell 没有调用水合后恢复 —— 刷新后面板永远回不到打开状态')
+    if not re.search(r'useEffect\(\(\) => \{\s*restorePanelUi\(\)\s*\}, \[\]\)', ms):
+        problems.append(
+            '恢复没挂在挂载 effect 上 —— 放在渲染期就又变回"首帧读存储"'
+        )
+
+    # ── ③ P2：档位判据跟揭示级走，不跟绝对缩放 ──
+    ds = strip_comments(read_app('app/common/map/tencent/districtStyles.ts'))
+    hits += 1
+    sb = _brace_body(ds, r'export function faceStyleId\(')
+    if not sb:
+        problems.append('取不到 faceStyleId 的函数体')
+    else:
+        if 'zoom' in sb.lower():
+            problems.append(
+                'faceStyleId 又按 zoom 判档 —— 城市页 / 移动端 z 没到阈值也已经是街道底图，'
+                '区界会退回浅灰'
+            )
+        if 'face' + 'Level ===' not in sb:
+            problems.append('faceStyleId 没有按 faceLevel（揭示级）判档')
+        if "mode === 'reference'" not in sb:
+            problems.append(
+                'faceStyleId 没先判 reference —— 点位档的 faceLevel 也是 district，'
+                '会误切成 faceDeep 压过圆点'
+            )
+    if 'const FACE_DEEP_' + 'LEVEL' not in ds:
+        problems.append('缺 district 档的常量 —— 深浅判据又飘回散落的缩放数字')
+    if 'const FACE_DEEP_LEVEL' in sb:
+        problems.append(
+            'district 常量定义挪进了 faceStyleId 函数体 —— AN ④ 会把函数体里的 '
+            "单引号字面量当样式 id，`'district'` 会被判成样式表里没有的 id"
+        )
+
+    # ── ④ 图层把 level 存下来并用于 repaint ──
+    dl = strip_comments(read_app('app/common/map/tencent/districtLayer.ts'))
+    hits += 1
+    rp = _brace_body(dl, r'function repaint\(')
+    if 'faceStyleId(mode, face' + 'Level)' not in rp:
+        problems.append('repaint 没把 faceLevel 交给 faceStyleId —— 图层里存了值也没用上')
+    if 'faceStyleId(mode, readViewport' in rp:
+        problems.append('repaint 又把缩放量交给 faceStyleId —— P2 的旧判据回来了')
+    if 'faceLevel?: Map' + 'Level' not in dl or 'faceLevel = nextFace' + 'Level' not in dl:
+        problems.append('setNodes 没接住 / 没存下面层级 —— 换级时描边档不会跟着变')
+
+    # ── ⑤ 两条图层通道都得传（首页揭示层 + 城市页区图层）──
+    um = strip_comments(read_app('app/common/logic/useMapReveal.ts'))
+    uc = strip_comments(read_app('app/common/logic/useCityDistrictLayer.ts'))
+    hits += 1
+    if um.count('d.face' + 'Level)') < 2:
+        problems.append(
+            'useMapReveal 的两处 setNodes 没都传 d.faceLevel —— '
+            '同步铺面与异步边界到位这两条支路会有一支停在浅灰'
+        )
+    if not re.search(r"layer\.setNodes\([^)]*'district'\)", uc):
+        problems.append(
+            'useCityDistrictLayer 没传 district —— 城市页走的是**另一条**图层通道，'
+            '不接这条 P2 等于没修（实测城市页 z=9.46 / 移动端 7.99）'
+        )
+
+    check(label, problems, 5, hits)
 
 
 if __name__ == '__main__':

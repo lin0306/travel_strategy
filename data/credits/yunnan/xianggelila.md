@@ -1,6 +1,6 @@
 # 香格里拉 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-06
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-14
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | no rights reserved | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Domestic_Yak,_%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89.jpg) |
-| 城市封面 | WAOSNMAH wocnaprm | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0_Futian_%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E9%85%92%E5%BA%97_Shangri-La_Hotel_June_2025_R12S_52.jpg) |
-| 城市封面 | WAOSNMAH wocnaprm | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0_Futian_%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E9%85%92%E5%BA%97_Shangri-La_Hotel_June_2025_R12S_54.jpg) |
+| 城市封面 | Chensiyuan | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:1_songzanlin_2018a.jpg) |
+| 城市封面 | 祝鱼贵 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20260225_Skyline_of_Dukezong_Ancient_Town_Shangri-La_04.jpg) |
+| 城市封面 | fish4fish | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20130531%E6%99%AE%E8%BE%BE%E6%8E%AA%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD%E7%A2%A7%E5%A1%94%E6%B5%B7%E4%BA%B2%E6%B0%B4%E6%AD%A5%E9%81%93_-_panoramio.jpg) |
 | 白水台 | Chensiyuan | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:1_baishuitai_2018_aerial_pano_2018.jpg) |
 | 白水台 | Ariel Steiner | CC BY 2.5 | [wikimedia](https://commons.wikimedia.org/wiki/File:Baishuitai,_Yunnan,_China.jpg) |
 | 碧塔海 | fish4fish | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20130531%E6%99%AE%E8%BE%BE%E6%8E%AA%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD%E7%A2%A7%E5%A1%94%E6%B5%B7%E4%BA%B2%E6%B0%B4%E6%AD%A5%E9%81%93_-_panoramio.jpg) |

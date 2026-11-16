@@ -75,11 +75,33 @@ export interface SheetProps {
   longPressHandle?: boolean
   /** 给了才有「下拉收起 / 点外部收起 / Esc 收起」 */
   onClose?: () => void
+  /**
+   * 正在退场（配合 `usePresence`，由门组件传入）：高度过渡到 0 + 淡出。
+   * ★ Sheet 锚在底部，高度缩到 0 的过程**天然就是"往下滑落"** ——
+   *   复用已有的 height transition，不需要退场 keyframes。
+   */
+  exiting?: boolean
+  /**
+   * 跳过入场动画。唯一用途：城市页的清单 Sheet 在「详情滑走、揭开列表」时重新挂载 ——
+   * 它是从"被盖住"变"露出来"，不是"新来到"，再播一遍升起动画就成了两段连续动作。
+   */
+  noAnim?: boolean
 }
 
 export function Sheet(props: SheetProps) {
-  const { children, footer, header, label, onClose, size } = props
+  const { children, footer, header, label, onClose, size, exiting = false, noAnim = false } = props
   const free = Boolean(size)
+
+  /**
+   * 入场动画**只在挂载那一刻定一次**，之后不随 `noAnim` 变化。
+   *
+   * ★★ 为什么不能用实时值（2026-11-05 修）：城市页的清单 Sheet 会在
+   *   「详情滑走」期间带着 `noAnim` 重新挂载 —— 如果直接读 prop，260ms 后
+   *   退场结束、`noAnim` 变回 false，`sheet-in` 这个类**加到已挂载的元素上**
+   *   就会再播一遍动画 ⇒ 列表被揭开之后又自己"升起"一次，像卡了一下。
+   *   CSS animation 只认"类被加上"这个事件，跟组件是不是首次渲染无关。
+   */
+  const [animateIn] = useState(() => !noAnim)
 
   /**
    * 自由模式下**用户拉到的位置**（svh）。三档模式不用它。
@@ -151,12 +173,15 @@ export function Sheet(props: SheetProps) {
        *   与 `useIsMobile()` 的 `(max-width: 639px)` 严格互补。
        *   ⚠️ 改这里的断点必须同时改 `common/logic/useViewport.ts` 的 `MOBILE_QUERY`。
        */
-      className="flt sm:hidden absolute inset-x-0 bottom-0 z-28 flex flex-col rounded-t-[16px] rounded-b-none"
+      className={`flt sm:hidden absolute inset-x-0 bottom-0 z-28 flex flex-col rounded-t-[16px] rounded-b-none ${
+        exiting ? 'pointer-events-none' : animateIn ? 'sheet-in' : ''
+      }`}
       style={{
-        height: dragHeight ?? base,
+        /* 退场：高度归 0（滑落）+ 淡出；transition 一直在（拖动中才置 none），这两条直接吃它 */
+        height: exiting ? '0px' : (dragHeight ?? base),
         transition: dragOffset === null ? 'height .22s cubic-bezier(.32,.72,0,1), opacity .18s' : 'none',
         paddingBottom: 'env(safe-area-inset-bottom, 0px)',
-        opacity: fade,
+        opacity: exiting ? 0 : fade,
       }}
     >
       {/* 把手：既是拖拽抓点，也是"点一下切档"的按钮。视觉条 4px，触控区靠上下留白做到 26px */}

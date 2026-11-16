@@ -1,155 +1,193 @@
 {
-  "id": "golden-sunrise",
-  "name": "金顶日出云海",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "峨眉山金顶看日出和云海，天气好时云在脚下翻，是名场面。",
-  "description": "金顶日出云海是峨眉山的名场面。运气好的清晨，云在脚下翻涌，太阳从云上跳出来。要早起，山顶冷，穿厚衣。不是每天都有，看前查天气和云海预报，别白跑。怕高就扶稳栏杆，别逞强。",
-  "highlights": [
-    "金顶名场面日出云海",
-    "云在脚下翻太阳跳出",
-    "需早起查预报"
-  ],
-  "location": {
-    "point": {
-      "lng": 103.335385,
-      "lat": 29.525633,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "四川省乐山市峨眉山市峨眉山金顶",
-    "district": "峨眉山市",
-    "transportTip": "峨眉山金顶住宿或夜爬到观景台"
+ "id": "golden-sunrise",
+ "name": "金顶日出云海",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "峨眉山金顶看日出和云海，天气好时云在脚下翻，是名场面。",
+ "description": "金顶日出云海是峨眉山的名场面。运气好的清晨，云在脚下翻涌，太阳从云上跳出来。要早起，山顶冷，穿厚衣。不是每天都有，看前查天气和云海预报，别白跑。怕高就扶稳栏杆，别逞强。",
+ "highlights": [
+  "金顶名场面日出云海",
+  "云在脚下翻太阳跳出",
+  "需早起查预报"
+ ],
+ "location": {
+  "point": {
+   "lng": 103.335385,
+   "lat": 29.525633,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "以日出时间为准（约05:30-07:00）",
-    "openHoursRef": 0,
-    "ticket": "含峨眉山门票",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
+  "address": "四川省乐山市峨眉山市峨眉山金顶",
+  "district": "峨眉山市",
+  "transportTip": "峨眉山金顶住宿或夜爬到观景台"
+ },
+ "practical": {
+  "openHours": "以日出时间为准（约05:30-07:00）",
+  "openHoursRef": 0,
+  "ticket": "含峨眉山门票",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%281%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%281%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 723,
+   "alt": "Emeishan, Leshan, Sichuan, China - panoramio (1).jpg",
+   "query": "Golden Summit Sea of Clouds",
+   "credit": {
+    "source": "wikimedia",
+    "author": "jetsun",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emeishan,_Leshan,_Sichuan,_China_-_panoramio_(1).jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "friends"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%281%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%281%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 723,
-      "alt": "Emeishan, Leshan, Sichuan, China - panoramio (1).jpg",
-      "query": "Golden Summit Sea of Clouds",
-      "credit": {
-        "source": "wikimedia",
-        "author": "jetsun",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emeishan,_Leshan,_Sichuan,_China_-_panoramio_(1).jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2813%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2813%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2813%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2813%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 723,
-      "alt": "Emeishan, Leshan, Sichuan, China - panoramio (13).jpg",
-      "query": "Golden Summit Sea of Clouds",
-      "credit": {
-        "source": "wikimedia",
-        "author": "jetsun",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emeishan,_Leshan,_Sichuan,_China_-_panoramio_(13).jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2816%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2816%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2816%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2816%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 723,
-      "alt": "Emeishan, Leshan, Sichuan, China - panoramio (16).jpg",
-      "query": "Golden Summit Sea of Clouds",
-      "credit": {
-        "source": "wikimedia",
-        "author": "jetsun",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emeishan,_Leshan,_Sichuan,_China_-_panoramio_(16).jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2817%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2817%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2817%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2817%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 723,
-      "alt": "Emeishan, Leshan, Sichuan, China - panoramio (17).jpg",
-      "query": "Golden Summit Sea of Clouds",
-      "credit": {
-        "source": "wikimedia",
-        "author": "jetsun",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emeishan,_Leshan,_Sichuan,_China_-_panoramio_(17).jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%282%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%282%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 723,
-      "alt": "Emeishan, Leshan, Sichuan, China - panoramio (2).jpg",
-      "query": "Golden Summit Sea of Clouds",
-      "credit": {
-        "source": "wikimedia",
-        "author": "jetsun",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emeishan,_Leshan,_Sichuan,_China_-_panoramio_(2).jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%284%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%284%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 723,
-      "alt": "Emeishan, Leshan, Sichuan, China - panoramio (4).jpg",
-      "query": "Golden Summit Sea of Clouds",
-      "credit": {
-        "source": "wikimedia",
-        "author": "jetsun",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emeishan,_Leshan,_Sichuan,_China_-_panoramio_(4).jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "日出",
-    "云海",
-    "金顶"
-  ],
-  "popularity": 94,
-  "sources": [
-    {
-      "title": "百度百科·金顶",
-      "url": "https://baike.baidu.com/item/%E9%87%91%E9%A1%B6",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-02"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Golden Summit Sea of Clouds",
-    "zh": "金顶日出云海"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2813%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2813%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2813%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2813%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 723,
+   "alt": "Emeishan, Leshan, Sichuan, China - panoramio (13).jpg",
+   "query": "Golden Summit Sea of Clouds",
+   "credit": {
+    "source": "wikimedia",
+    "author": "jetsun",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emeishan,_Leshan,_Sichuan,_China_-_panoramio_(13).jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "district": "511181"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2816%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2816%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2816%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2816%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 723,
+   "alt": "Emeishan, Leshan, Sichuan, China - panoramio (16).jpg",
+   "query": "Golden Summit Sea of Clouds",
+   "credit": {
+    "source": "wikimedia",
+    "author": "jetsun",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emeishan,_Leshan,_Sichuan,_China_-_panoramio_(16).jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2817%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2817%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2817%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%2817%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 723,
+   "alt": "Emeishan, Leshan, Sichuan, China - panoramio (17).jpg",
+   "query": "Golden Summit Sea of Clouds",
+   "credit": {
+    "source": "wikimedia",
+    "author": "jetsun",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emeishan,_Leshan,_Sichuan,_China_-_panoramio_(17).jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%282%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%282%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 723,
+   "alt": "Emeishan, Leshan, Sichuan, China - panoramio (2).jpg",
+   "query": "Golden Summit Sea of Clouds",
+   "credit": {
+    "source": "wikimedia",
+    "author": "jetsun",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emeishan,_Leshan,_Sichuan,_China_-_panoramio_(2).jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%284%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%284%29.jpg/1280px-Emeishan%2C_Leshan%2C_Sichuan%2C_China_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 723,
+   "alt": "Emeishan, Leshan, Sichuan, China - panoramio (4).jpg",
+   "query": "Golden Summit Sea of Clouds",
+   "credit": {
+    "source": "wikimedia",
+    "author": "jetsun",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emeishan,_Leshan,_Sichuan,_China_-_panoramio_(4).jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "日出",
+  "云海",
+  "金顶"
+ ],
+ "popularity": 94,
+ "sources": [
+  {
+   "title": "百度百科·金顶",
+   "url": "https://baike.baidu.com/item/%E9%87%91%E9%A1%B6",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-02"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Golden Summit Sea of Clouds",
+  "zh": "金顶日出云海"
+ },
+ "district": "511181",
+ "review": {
+  "score": 4.4,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "景观",
+    "score": 4.8,
+    "note": "云在脚下翻，太阳从云上跳出来，是名场面"
+   },
+   {
+    "label": "概率",
+    "score": 2.4,
+    "note": "不是每天都有，阴天雾天什么都看不到"
+   },
+   {
+    "label": "舒适",
+    "score": 2.6,
+    "note": "山顶凌晨很冷，风大，等一小时以上"
+   },
+   {
+    "label": "时长",
+    "score": 3.8,
+    "note": "日出前半小时到位，看完一小时散场"
+   }
+  ],
+  "body": "峨眉山最值得早起的一件事：运气好的清晨，云在脚下翻涌，太阳从云层上跳出来，整个金顶被染成暖色，确实是名场面。要看成得付出代价——四点多就要起，山顶凌晨温度低、风硬，站一小时手脚都麻；而且它不是每天都有，出发前必须查天气和云海预报，雾天上来只能看白墙，白跑一趟的人不少。观景位置有限，晚到只能站在人后面从缝里看。怕高的人靠栏杆站稳，别往边上凑。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "看日出",
+   "摄影"
+  ],
+  "avoid": [
+   "不查天气",
+   "怕冷"
+  ],
+  "sources": []
+ }
 }

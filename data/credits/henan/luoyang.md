@@ -1,6 +1,6 @@
 # 洛阳 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-01
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
@@ -74,9 +74,9 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | 马学曾 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Eastern_han_husband_and_wife_banquet_mural_BM2_Zhucun_Luoyang_%E6%B4%9B%E9%98%B3%E6%9C%B1%E6%9D%91%E4%B8%9C%E6%B1%89%E5%A2%93BM2%E5%A4%AB%E5%A6%87%E5%AE%B4%E9%A5%AE%E5%9B%BE.jpg) |
-| 城市封面 | 东汉洛阳城 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%9C%E6%B1%89%E6%B4%9B%E9%98%B3%E5%9F%8E.png) |
-| 城市封面 | Kcx36 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B2%B3%E5%8D%97%E6%B4%9B%E9%98%B3-%E2%80%9C%E8%B6%8A%E7%8E%8B%E2%80%9D%E9%93%9C%E7%9F%9B-%E6%88%98%E5%9B%BD-%E6%B4%9B%E9%98%B3%E5%8D%9A%E7%89%A9%E9%A6%86.jpg) |
+| 城市封面 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:27333-Luoyang,_Longmen_Grottoes.jpg) |
+| 城市封面 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20230124_Yingtian_Gate_at_Night_06.jpg) |
+| 城市封面 | xiquinhosilva | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:27471-Luoyang,_White_Horse_Temple.jpg) |
 | 洛阳古墓博物馆 | Gary Todd from Xinzheng, China | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Ancient_Tomb_Fresco_Masterpieces_Exhibition_(10236243895).jpg) |
 | 洛阳古墓博物馆 | Gary Lee Todd | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Eastern_Han_Dynasty_tomb_fresco_of_chariots,_horses,_and_men,_Luoyang_2.jpg) |
 | 洛阳古墓博物馆 | Gary Lee Todd | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Eastern_Han_Dynasty_tomb_fresco_of_chariots,_horses,_and_men,_Luoyang_3.jpg) |

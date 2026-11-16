@@ -1,158 +1,190 @@
 {
-  "id": "dazhao-temple",
-  "name": "大召寺",
-  "category": "scenic",
-  "subtype": "temple",
-  "summary": "呼和浩特最老的藏传佛教寺院，银佛、蟠龙雕柱与满墙壁画并称三绝。",
-  "description": "大召寺在玉泉区大召前街，明代万历年间建成，是城里最老的一座藏传佛教寺院。殿内供着一尊银铸佛像，与殿前的蟠龙雕柱、满墙的壁画并称三绝。寺外的广场连着塞上老街，一整天都是转经、拍照和喝茶的人。进殿要脱帽轻声，殿内多不让拍照。清早人最少，能听见诵经声；黄昏的灯打在红墙上最出片。",
-  "highlights": [
-    "明代银佛与蟠龙雕柱",
-    "壁画满墙并称三绝",
-    "门外广场连着老街"
-  ],
-  "location": {
-    "point": {
-      "lng": 111.65425,
-      "lat": 40.79981,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "内蒙古自治区呼和浩特市玉泉区大召前街",
-    "district": "玉泉区",
-    "transportTip": "市区乘公交或打车到大召站，步行即到"
+ "id": "dazhao-temple",
+ "name": "大召寺",
+ "category": "scenic",
+ "subtype": "temple",
+ "summary": "呼和浩特最老的藏传佛教寺院，银佛、蟠龙雕柱与满墙壁画并称三绝。",
+ "description": "大召寺在玉泉区大召前街，明代万历年间建成，是城里最老的一座藏传佛教寺院。殿内供着一尊银铸佛像，与殿前的蟠龙雕柱、满墙的壁画并称三绝。寺外的广场连着塞上老街，一整天都是转经、拍照和喝茶的人。进殿要脱帽轻声，殿内多不让拍照。清早人最少，能听见诵经声；黄昏的灯打在红墙上最出片。",
+ "highlights": [
+  "明代银佛与蟠龙雕柱",
+  "壁画满墙并称三绝",
+  "门外广场连着老街"
+ ],
+ "location": {
+  "point": {
+   "lng": 111.65425,
+   "lat": 40.79981,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:30-18:00，以景区公告为准",
-    "openHoursRef": 0,
-    "ticket": "约35元，以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 90-180 分钟",
-    "durationMinutes": [
-      90,
-      180
-    ],
-    "priceLevel": "mid"
+  "address": "内蒙古自治区呼和浩特市玉泉区大召前街",
+  "district": "玉泉区",
+  "transportTip": "市区乘公交或打车到大召站，步行即到"
+ },
+ "practical": {
+  "openHours": "约08:30-18:00，以景区公告为准",
+  "openHoursRef": 0,
+  "ticket": "约35元，以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 90-180 分钟",
+  "durationMinutes": [
+   90,
+   180
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "family",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9_%E5%A4%A7%E5%8F%AC%E5%AF%BA_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9_%E5%A4%A7%E5%8F%AC%E5%AF%BA_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 1440,
+   "alt": "呼和浩特 大召寺 - panoramio.jpg",
+   "query": "大召寺 呼和浩特",
+   "credit": {
+    "source": "wikimedia",
+    "author": "wanghongliu",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9_%E5%A4%A7%E5%8F%AC%E5%AF%BA_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "family",
-    "elders"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9_%E5%A4%A7%E5%8F%AC%E5%AF%BA_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9_%E5%A4%A7%E5%8F%AC%E5%AF%BA_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1440,
-      "alt": "呼和浩特 大召寺 - panoramio.jpg",
-      "query": "大召寺 呼和浩特",
-      "credit": {
-        "source": "wikimedia",
-        "author": "wanghongliu",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9_%E5%A4%A7%E5%8F%AC%E5%AF%BA_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/%E5%A4%A7%E5%8F%AC%E5%AF%BA%E6%A6%82%E5%86%B5_-_panoramio.jpg/1280px-%E5%A4%A7%E5%8F%AC%E5%AF%BA%E6%A6%82%E5%86%B5_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/%E5%A4%A7%E5%8F%AC%E5%AF%BA%E6%A6%82%E5%86%B5_-_panoramio.jpg/1280px-%E5%A4%A7%E5%8F%AC%E5%AF%BA%E6%A6%82%E5%86%B5_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 789,
-      "alt": "大召寺概况 - panoramio.jpg",
-      "query": "大召寺 呼和浩特",
-      "credit": {
-        "source": "wikimedia",
-        "author": "wanghongliu",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E5%8F%AC%E5%AF%BA%E6%A6%82%E5%86%B5_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%E5%A4%A7%E5%8F%AC%E5%AF%BA%E9%87%8D%E6%96%B0%E4%BF%AE%E8%8C%B8%E6%9A%A8%E8%AE%B2%E7%BB%8F%E6%95%99%E5%BE%92%E7%9A%84%E5%8A%9F%E5%BE%B7%E7%A2%91_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%E5%A4%A7%E5%8F%AC%E5%AF%BA%E9%87%8D%E6%96%B0%E4%BF%AE%E8%8C%B8%E6%9A%A8%E8%AE%B2%E7%BB%8F%E6%95%99%E5%BE%92%E7%9A%84%E5%8A%9F%E5%BE%B7%E7%A2%91_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 1440,
-      "alt": "大召寺重新修茸暨讲经教徒的功德碑 - panoramio.jpg",
-      "query": "大召寺 呼和浩特",
-      "credit": {
-        "source": "wikimedia",
-        "author": "wanghongliu",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E5%8F%AC%E5%AF%BA%E9%87%8D%E6%96%B0%E4%BF%AE%E8%8C%B8%E6%9A%A8%E8%AE%B2%E7%BB%8F%E6%95%99%E5%BE%92%E7%9A%84%E5%8A%9F%E5%BE%B7%E7%A2%91_-_panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Da_Zhao_Temple_in_Hohhot3.JPG/1280px-Da_Zhao_Temple_in_Hohhot3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Da_Zhao_Temple_in_Hohhot3.JPG/1280px-Da_Zhao_Temple_in_Hohhot3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Da Zhao Temple in Hohhot3.JPG",
-      "query": "大召寺 呼和浩特",
-      "credit": {
-        "source": "wikimedia",
-        "author": "兜兜",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Da_Zhao_Temple_in_Hohhot3.JPG",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Dazhao_%28Wuliang%29_Temple_in_Hohhot1.JPG/1280px-Dazhao_%28Wuliang%29_Temple_in_Hohhot1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Dazhao_%28Wuliang%29_Temple_in_Hohhot1.JPG/1280px-Dazhao_%28Wuliang%29_Temple_in_Hohhot1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Dazhao (Wuliang) Temple in Hohhot1.JPG",
-      "query": "大召寺 呼和浩特",
-      "credit": {
-        "source": "wikimedia",
-        "author": "兜兜",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dazhao_(Wuliang)_Temple_in_Hohhot1.JPG",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Dazhao_%28Wuliang%29_Temple_of_Hohhot2.JPG/1280px-Dazhao_%28Wuliang%29_Temple_of_Hohhot2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Dazhao_%28Wuliang%29_Temple_of_Hohhot2.JPG/1280px-Dazhao_%28Wuliang%29_Temple_of_Hohhot2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Dazhao (Wuliang) Temple of Hohhot2.JPG",
-      "query": "大召寺 呼和浩特",
-      "credit": {
-        "source": "wikimedia",
-        "author": "兜兜",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dazhao_(Wuliang)_Temple_of_Hohhot2.JPG",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "召庙",
-    "藏传佛教",
-    "老城"
-  ],
-  "popularity": 97,
-  "sources": [
-    {
-      "title": "大召寺·百度百科",
-      "url": "https://baike.baidu.com/item/%E5%A4%A7%E5%8F%AC%E5%AF%BA",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-03"
-    }
-  ],
-  "updatedAt": "2026-10-16",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Dazhao Temple Hohhot",
-    "zh": "大召寺"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/%E5%A4%A7%E5%8F%AC%E5%AF%BA%E6%A6%82%E5%86%B5_-_panoramio.jpg/1280px-%E5%A4%A7%E5%8F%AC%E5%AF%BA%E6%A6%82%E5%86%B5_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/%E5%A4%A7%E5%8F%AC%E5%AF%BA%E6%A6%82%E5%86%B5_-_panoramio.jpg/1280px-%E5%A4%A7%E5%8F%AC%E5%AF%BA%E6%A6%82%E5%86%B5_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 789,
+   "alt": "大召寺概况 - panoramio.jpg",
+   "query": "大召寺 呼和浩特",
+   "credit": {
+    "source": "wikimedia",
+    "author": "wanghongliu",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E5%8F%AC%E5%AF%BA%E6%A6%82%E5%86%B5_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "大召无量寺",
-  "_geocodeSuspect": false,
-  "district": "150104"
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%E5%A4%A7%E5%8F%AC%E5%AF%BA%E9%87%8D%E6%96%B0%E4%BF%AE%E8%8C%B8%E6%9A%A8%E8%AE%B2%E7%BB%8F%E6%95%99%E5%BE%92%E7%9A%84%E5%8A%9F%E5%BE%B7%E7%A2%91_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%E5%A4%A7%E5%8F%AC%E5%AF%BA%E9%87%8D%E6%96%B0%E4%BF%AE%E8%8C%B8%E6%9A%A8%E8%AE%B2%E7%BB%8F%E6%95%99%E5%BE%92%E7%9A%84%E5%8A%9F%E5%BE%B7%E7%A2%91_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 1440,
+   "alt": "大召寺重新修茸暨讲经教徒的功德碑 - panoramio.jpg",
+   "query": "大召寺 呼和浩特",
+   "credit": {
+    "source": "wikimedia",
+    "author": "wanghongliu",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E5%8F%AC%E5%AF%BA%E9%87%8D%E6%96%B0%E4%BF%AE%E8%8C%B8%E6%9A%A8%E8%AE%B2%E7%BB%8F%E6%95%99%E5%BE%92%E7%9A%84%E5%8A%9F%E5%BE%B7%E7%A2%91_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Da_Zhao_Temple_in_Hohhot3.JPG/1280px-Da_Zhao_Temple_in_Hohhot3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Da_Zhao_Temple_in_Hohhot3.JPG/1280px-Da_Zhao_Temple_in_Hohhot3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Da Zhao Temple in Hohhot3.JPG",
+   "query": "大召寺 呼和浩特",
+   "credit": {
+    "source": "wikimedia",
+    "author": "兜兜",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Da_Zhao_Temple_in_Hohhot3.JPG",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Dazhao_%28Wuliang%29_Temple_in_Hohhot1.JPG/1280px-Dazhao_%28Wuliang%29_Temple_in_Hohhot1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Dazhao_%28Wuliang%29_Temple_in_Hohhot1.JPG/1280px-Dazhao_%28Wuliang%29_Temple_in_Hohhot1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Dazhao (Wuliang) Temple in Hohhot1.JPG",
+   "query": "大召寺 呼和浩特",
+   "credit": {
+    "source": "wikimedia",
+    "author": "兜兜",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dazhao_(Wuliang)_Temple_in_Hohhot1.JPG",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Dazhao_%28Wuliang%29_Temple_of_Hohhot2.JPG/1280px-Dazhao_%28Wuliang%29_Temple_of_Hohhot2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Dazhao_%28Wuliang%29_Temple_of_Hohhot2.JPG/1280px-Dazhao_%28Wuliang%29_Temple_of_Hohhot2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Dazhao (Wuliang) Temple of Hohhot2.JPG",
+   "query": "大召寺 呼和浩特",
+   "credit": {
+    "source": "wikimedia",
+    "author": "兜兜",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dazhao_(Wuliang)_Temple_of_Hohhot2.JPG",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "召庙",
+  "藏传佛教",
+  "老城"
+ ],
+ "popularity": 97,
+ "sources": [
+  {
+   "title": "大召寺·百度百科",
+   "url": "https://baike.baidu.com/item/%E5%A4%A7%E5%8F%AC%E5%AF%BA",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-03"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Dazhao Temple Hohhot",
+  "zh": "大召寺"
+ },
+ "_geocodeTitle": "大召无量寺",
+ "_geocodeSuspect": false,
+ "district": "150104",
+ "review": {
+  "score": 4.2,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "银佛壁画",
+    "score": 4.4,
+    "note": "银佛、蟠龙雕柱、满墙壁画并称三绝"
+   },
+   {
+    "label": "寺院规模",
+    "score": 3.2,
+    "note": "本体不大，一个多小时就走完"
+   },
+   {
+    "label": "票价性价比",
+    "score": 3.1,
+    "note": "票价相对内容偏高"
+   },
+   {
+    "label": "广场老街",
+    "score": 4.2,
+    "note": "寺外连着塞上老街，转经喝茶的人不断"
+   }
+  ],
+  "body": "城里最老的一座藏传佛教寺院，殿内的银铸佛像、殿前的蟠龙雕柱和满墙壁画并称三绝，走近看细节保留得相当好。寺外广场连着塞上老街，转经的、拍照的、喝茶的混在一起，一整天都有人。清早人最少，能听见诵经声；黄昏灯打在红墙上，是最好看的时候。缺点是寺院本体不大，一个多小时就走完，票价相对内容偏高；殿内多不让拍照，想留影只能拍院子。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [],
+  "avoid": [],
+  "sources": []
+ }
 }

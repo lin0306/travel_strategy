@@ -1,173 +1,212 @@
 {
-  "id": "yongjiang",
-  "name": "邕江",
-  "category": "scenic",
-  "subtype": "nature",
-  "summary": "南宁的母亲河，夜游与两岸步道都看。",
-  "description": "邕江是南宁的母亲河，也是珠江支流郁江的一段，从城中间流过，把城市分成南北两半。两岸是连续的步道和绿地，多座跨江桥是画面的一部分。傍晚和夜间是它最好的时间：江面反光、桥上灯亮，夜游船从民生广场码头出发。免费、开阔，是体会南宁「城在江边」最直接的地方。",
-  "highlights": [
-    "南宁母亲河，分城南北两半",
-    "两岸步道连续，多座跨江桥",
-    "傍晚夜游船从民生广场出发"
-  ],
-  "location": {
-    "point": {
-      "lng": 108.640432,
-      "lat": 22.82746,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "南宁市邕江两岸（民生广场码头）",
-    "district": "青秀区",
-    "transportTip": "地铁1号线民生广场站步行"
+ "id": "yongjiang",
+ "name": "邕江",
+ "category": "scenic",
+ "subtype": "nature",
+ "summary": "南宁的母亲河，夜游与两岸步道都看。",
+ "description": "邕江是南宁的母亲河，也是珠江支流郁江的一段，从城中间流过，把城市分成南北两半。两岸是连续的步道和绿地，多座跨江桥是画面的一部分。傍晚和夜间是它最好的时间：江面反光、桥上灯亮，夜游船从民生广场码头出发。免费、开阔，是体会南宁「城在江边」最直接的地方。",
+ "highlights": [
+  "南宁母亲河，分城南北两半",
+  "两岸步道连续，多座跨江桥",
+  "傍晚夜游船从民生广场出发"
+ ],
+ "location": {
+  "point": {
+   "lng": 108.640432,
+   "lat": 22.82746,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "全天开放（夜游船以公告为准）",
-    "openHoursRef": 0,
-    "ticket": "无门票（夜游船另计）",
-    "ticketRef": 0,
-    "duration": "建议 60-120 分钟",
-    "durationMinutes": [
-      60,
-      120
-    ],
-    "priceLevel": "free"
+  "address": "南宁市邕江两岸（民生广场码头）",
+  "district": "青秀区",
+  "transportTip": "地铁1号线民生广场站步行"
+ },
+ "practical": {
+  "openHours": "全天开放（夜游船以公告为准）",
+  "openHoursRef": 0,
+  "ticket": "无门票（夜游船另计）",
+  "ticketRef": 0,
+  "duration": "建议 60-120 分钟",
+  "durationMinutes": [
+   60,
+   120
+  ],
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "solo",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/%E9%82%95%E6%B1%9F.jpg/1280px-%E9%82%95%E6%B1%9F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/%E9%82%95%E6%B1%9F.jpg/1280px-%E9%82%95%E6%B1%9F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "邕江.jpg",
+   "query": "邕江",
+   "credit": {
+    "source": "wikimedia",
+    "author": "世界首都环游",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%82%95%E6%B1%9F.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "couple",
-    "solo",
-    "friends"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/%E9%82%95%E6%B1%9F.jpg/1280px-%E9%82%95%E6%B1%9F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/%E9%82%95%E6%B1%9F.jpg/1280px-%E9%82%95%E6%B1%9F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "邕江.jpg",
-      "query": "邕江",
-      "credit": {
-        "source": "wikimedia",
-        "author": "世界首都环游",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%82%95%E6%B1%9F.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/%E9%82%95%E6%B1%9F%E8%BE%B9%E7%95%85%E6%B8%B8%E9%98%81.jpg/1280px-%E9%82%95%E6%B1%9F%E8%BE%B9%E7%95%85%E6%B8%B8%E9%98%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/%E9%82%95%E6%B1%9F%E8%BE%B9%E7%95%85%E6%B8%B8%E9%98%81.jpg/1280px-%E9%82%95%E6%B1%9F%E8%BE%B9%E7%95%85%E6%B8%B8%E9%98%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "邕江边畅游阁.jpg",
-      "query": "邕江",
-      "credit": {
-        "source": "wikimedia",
-        "author": "世界首都环游",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%82%95%E6%B1%9F%E8%BE%B9%E7%95%85%E6%B8%B8%E9%98%81.jpg",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_02.jpg/1280px-GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_02.jpg/1280px-GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "GX 廣西省 Guangxi 南寧 Nanning 邕江大橋 Yongjiang Bridge tour bus view September 2023 R12S 02.jpg",
-      "query": "邕江",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nan Ning Huang Sokaz 12",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_02.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_04.jpg/1280px-GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_04.jpg/1280px-GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "GX 廣西省 Guangxi 南寧 Nanning 邕江大橋 Yongjiang Bridge tour bus view September 2023 R12S 04.jpg",
-      "query": "邕江",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nan Ning Huang Sokaz 12",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_04.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_06.jpg/1280px-GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_06.jpg/1280px-GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "GX 廣西省 Guangxi 南寧 Nanning 邕江大橋 Yongjiang Bridge tour bus view September 2023 R12S 06.jpg",
-      "query": "邕江",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Nan Ning Huang Sokaz 12",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_06.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-01",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "江景",
-    "夜游",
-    "母亲河"
-  ],
-  "popularity": 74,
-  "sources": [
-    {
-      "title": "百度百科·邕江",
-      "url": "https://baike.baidu.com/item/%E9%82%95%E6%B1%9F",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-11-01",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "邕江"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/%E9%82%95%E6%B1%9F%E8%BE%B9%E7%95%85%E6%B8%B8%E9%98%81.jpg/1280px-%E9%82%95%E6%B1%9F%E8%BE%B9%E7%95%85%E6%B8%B8%E9%98%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/%E9%82%95%E6%B1%9F%E8%BE%B9%E7%95%85%E6%B8%B8%E9%98%81.jpg/1280px-%E9%82%95%E6%B1%9F%E8%BE%B9%E7%95%85%E6%B8%B8%E9%98%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "邕江边畅游阁.jpg",
+   "query": "邕江",
+   "credit": {
+    "source": "wikimedia",
+    "author": "世界首都环游",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%82%95%E6%B1%9F%E8%BE%B9%E7%95%85%E6%B8%B8%E9%98%81.jpg",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "邕江",
-  "_geocodeSuspect": false,
-  "district": "450103"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_02.jpg/1280px-GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_02.jpg/1280px-GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "GX 廣西省 Guangxi 南寧 Nanning 邕江大橋 Yongjiang Bridge tour bus view September 2023 R12S 02.jpg",
+   "query": "邕江",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nan Ning Huang Sokaz 12",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_02.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_04.jpg/1280px-GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_04.jpg/1280px-GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "GX 廣西省 Guangxi 南寧 Nanning 邕江大橋 Yongjiang Bridge tour bus view September 2023 R12S 04.jpg",
+   "query": "邕江",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nan Ning Huang Sokaz 12",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_04.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_06.jpg/1280px-GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_06.jpg/1280px-GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "GX 廣西省 Guangxi 南寧 Nanning 邕江大橋 Yongjiang Bridge tour bus view September 2023 R12S 06.jpg",
+   "query": "邕江",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Nan Ning Huang Sokaz 12",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:GX_%E5%BB%A3%E8%A5%BF%E7%9C%81_Guangxi_%E5%8D%97%E5%AF%A7_Nanning_%E9%82%95%E6%B1%9F%E5%A4%A7%E6%A9%8B_Yongjiang_Bridge_tour_bus_view_September_2023_R12S_06.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-01",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "江景",
+  "夜游",
+  "母亲河"
+ ],
+ "popularity": 74,
+ "sources": [
+  {
+   "title": "百度百科·邕江",
+   "url": "https://baike.baidu.com/item/%E9%82%95%E6%B1%9F",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-15",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "邕江"
+ },
+ "_geocodeTitle": "邕江",
+ "_geocodeSuspect": false,
+ "district": "450103",
+ "review": {
+  "score": 4.0,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "视野",
+    "score": 4.3,
+    "note": "江面开阔，多座跨江桥连成画面"
+   },
+   {
+    "label": "步道",
+    "score": 4.0,
+    "note": "两岸步道连续，能走很长一段"
+   },
+   {
+    "label": "夜景",
+    "score": 4.2,
+    "note": "桥上灯亮后江面反光最好看"
+   },
+   {
+    "label": "遮阴",
+    "score": 2.8,
+    "note": "白天沿江树少，晒"
+   }
+  ],
+  "body": "邕江是南宁的母亲河，从城中穿过把城市分成南北两半，两岸步道连续、桥一座接一座，傍晚灯亮起来的时候江面把所有光都收进去，是这座城市最自然的一条景观线。它适合不设目的地地走：从民生广场往东或往西随便挑一段，走累了就近上岸吃东西。短板在于「没有入口」——它太散，没有明确的起点和看点，第一次来容易站在江边不知道往哪走；白天沿江遮阴少，夏天中午基本没法待。想省事就坐夜游船，想自在就等太阳落山再上岸。",
+  "basis": "corpus",
+  "at": "2026-11-15",
+  "fits": [
+   "傍晚散步",
+   "骑行",
+   "拍夜景"
+  ],
+  "avoid": [
+   "中午时段",
+   "想要明确景点"
+  ],
+  "sources": []
+ }
 }

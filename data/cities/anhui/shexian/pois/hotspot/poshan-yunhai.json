@@ -1,71 +1,109 @@
 {
-  "id": "poshan-yunhai",
-  "name": "坡山云海",
-  "category": "hotspot",
-  "subtype": "photo",
-  "summary": "和石潭相邻的云海机位，山顶村庄漂浮在云上。",
-  "description": "坡山云海是徽州顶级的云海摄影机位，和石潭同属霞坑镇的高山村落群。村子坐落在山脊上，前方是深谷，雨后初晴的凌晨，云海从谷底漫上来，把一个个小山头变成海里的岛屿，配上粉墙黛瓦的村舍，是很多摄影人年年蹲守的画面。坡山比石潭更野、更安静，观景台视野开阔，也有农家可以住。要拍得早起、开车走窄山路，但云海一来，这一路都值了。",
-  "highlights": [
-    "云海机位",
-    "山顶村",
-    "雨后初晴",
-    "免票"
-  ],
-  "location": {
-    "point": {
-      "lng": 118.727,
-      "lat": 29.961,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "黄山市歙县霞坑镇坡山村观景台",
-    "district": "歙县",
-    "transportTip": "自驾或包车到坡山；需早起登观景台"
+ "id": "poshan-yunhai",
+ "name": "坡山云海",
+ "category": "hotspot",
+ "subtype": "photo",
+ "summary": "和石潭相邻的云海机位，山顶村庄漂浮在云上。",
+ "description": "坡山云海是徽州顶级的云海摄影机位，和石潭同属霞坑镇的高山村落群。村子坐落在山脊上，前方是深谷，雨后初晴的凌晨，云海从谷底漫上来，把一个个小山头变成海里的岛屿，配上粉墙黛瓦的村舍，是很多摄影人年年蹲守的画面。坡山比石潭更野、更安静，观景台视野开阔，也有农家可以住。要拍得早起、开车走窄山路，但云海一来，这一路都值了。",
+ "highlights": [
+  "云海机位",
+  "山顶村",
+  "雨后初晴",
+  "免票"
+ ],
+ "location": {
+  "point": {
+   "lng": 118.727,
+   "lat": 29.961,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "清晨最佳，云海多见于雨后初晴",
-    "openHoursRef": 0,
-    "ticket": "村落免费；观景台可能有人维护收费（以当地为准）",
-    "ticketRef": 0,
-    "duration": "建议 120-280 分钟",
-    "durationMinutes": [
-      120,
-      280
-    ],
-    "priceLevel": "free"
-  },
-  "audience": [
-    "couple",
-    "friends",
-    "solo",
-    "elders"
+  "address": "黄山市歙县霞坑镇坡山村观景台",
+  "district": "歙县",
+  "transportTip": "自驾或包车到坡山；需早起登观景台"
+ },
+ "practical": {
+  "openHours": "清晨最佳，云海多见于雨后初晴",
+  "openHoursRef": 0,
+  "ticket": "村落免费；观景台可能有人维护收费（以当地为准）",
+  "ticketRef": 0,
+  "duration": "建议 120-280 分钟",
+  "durationMinutes": [
+   120,
+   280
   ],
-  "accessible": false,
-  "tips": [],
-  "images": [],
-  "coverIndex": 0,
-  "tags": [
-    "摄影",
-    "云海",
-    "机位",
-    "山脊"
+  "priceLevel": "free"
+ },
+ "audience": [
+  "couple",
+  "friends",
+  "solo",
+  "elders"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [],
+ "coverIndex": 0,
+ "tags": [
+  "摄影",
+  "云海",
+  "机位",
+  "山脊"
+ ],
+ "popularity": 84,
+ "sources": [
+  {
+   "title": "百度百科·坡山村",
+   "url": "https://baike.baidu.com/item/%E5%9D%A1%E5%B1%B1%E6%9D%91",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-07"
+  }
+ ],
+ "updatedAt": "2026-11-13",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "坡山云海"
+ },
+ "_geocodeTitle": "歙县坡山观景台",
+ "_geocodeSuspect": false,
+ "district": "341021",
+ "_noImage": true,
+ "review": {
+  "score": 3.9,
+  "verdict": "顺路看看",
+  "facets": [
+   {
+    "label": "出片",
+    "score": 4.5,
+    "note": "云海漫过山脊，村舍像浮在海上"
+   },
+   {
+    "label": "机位",
+    "score": 4.0,
+    "note": "观景台视野开阔，比石潭更野更开阔"
+   },
+   {
+    "label": "交通",
+    "score": 2.6,
+    "note": "山路更窄更远，夜路不建议开"
+   },
+   {
+    "label": "概率",
+    "score": 2.8,
+    "note": "同样是看天吃饭，白跑概率高"
+   }
   ],
-  "popularity": 84,
-  "sources": [
-    {
-      "title": "百度百科·坡山村",
-      "url": "https://baike.baidu.com/item/%E5%9D%A1%E5%B1%B1%E6%9D%91",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-07"
-    }
+  "body": "和石潭同属霞坑镇高山村落群，云海起来时村子真的像浮在云上，视野比石潭更野、人更少，摄影人会喜欢。但它的短板也在这份「野」上：山路更窄更远，摸黑上山风险不小，配套只有零星农家，吃住都简单；云海依旧看运气，不起雾的时候就是普通的山顶村。建议与石潭串成一条线，住一晚搏一个清晨。",
+  "basis": "corpus",
+  "at": "2026-11-13",
+  "fits": [
+   "摄影",
+   "能接受简陋住宿"
   ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "坡山云海"
-  },
-  "_geocodeTitle": "歙县坡山观景台",
-  "_geocodeSuspect": false,
-  "district": "341021",
-  "_noImage": true
+  "avoid": [
+   "夜间自驾",
+   "带小孩"
+  ],
+  "sources": []
+ }
 }

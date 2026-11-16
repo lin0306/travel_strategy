@@ -1,144 +1,183 @@
 {
-  "id": "summer-palace",
-  "name": "颐和园",
-  "category": "scenic",
-  "subtype": "historic",
-  "summary": "清代皇家园林的集大成者,昆明湖与万寿山之间的借景写到极致。",
-  "description": "颐和园在清代是慈禧太后挪用海军经费重建的行宫,原名清漪园,1860年被英法联军烧毁后重建。它以昆明湖与万寿山为骨架:山上排云殿到佛香阁一路抬升,山下是长廊——共七百余米、梁枋上彩画八千余幅;十七孔桥连接湖心岛,西侧的西堤仿杭州西湖的做法。后世对它批评很多(经费来源、格局浮华),但作为园林本体,它把「借西山做背景」这件事做到了教科书级别。重点是昆明湖北岸的山前部分,苏州街与后山可略。",
-  "highlights": [
-    "佛香阁是万寿山的视觉收束",
-    "长廊彩画八千余幅",
-    "借西山作背景,格局极大"
-  ],
-  "location": {
-    "point": {
-      "lng": 116.262533,
-      "lat": 39.984134,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "北京市海淀区新建宫门路19号",
-    "district": "海淀",
-    "transportTip": "地铁4号线北宫门站/西苑站;新建宫门与东宫门均可进出"
+ "id": "summer-palace",
+ "name": "颐和园",
+ "category": "scenic",
+ "subtype": "historic",
+ "summary": "清代皇家园林的集大成者,昆明湖与万寿山之间的借景写到极致。",
+ "description": "颐和园在清代是慈禧太后挪用海军经费重建的行宫,原名清漪园,1860年被英法联军烧毁后重建。它以昆明湖与万寿山为骨架:山上排云殿到佛香阁一路抬升,山下是长廊——共七百余米、梁枋上彩画八千余幅;十七孔桥连接湖心岛,西侧的西堤仿杭州西湖的做法。后世对它批评很多(经费来源、格局浮华),但作为园林本体,它把「借西山做背景」这件事做到了教科书级别。重点是昆明湖北岸的山前部分,苏州街与后山可略。",
+ "highlights": [
+  "佛香阁是万寿山的视觉收束",
+  "长廊彩画八千余幅",
+  "借西山作背景,格局极大"
+ ],
+ "location": {
+  "point": {
+   "lng": 116.262533,
+   "lat": 39.984134,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约06:30-18:00(旺季),以官方公告为准",
-    "openHoursRef": 0,
-    "ticket": "约30元起(旺季),园中园另收费,以官方为准",
-    "ticketRef": 0,
-    "duration": "建议 240-420 分钟",
-    "durationMinutes": [
-      240,
-      420
-    ],
-    "priceLevel": "mid"
+  "address": "北京市海淀区新建宫门路19号",
+  "district": "海淀",
+  "transportTip": "地铁4号线北宫门站/西苑站;新建宫门与东宫门均可进出"
+ },
+ "practical": {
+  "openHours": "约06:30-18:00(旺季),以官方公告为准",
+  "openHoursRef": 0,
+  "ticket": "约30元起(旺季),园中园另收费,以官方为准",
+  "ticketRef": 0,
+  "duration": "建议 240-420 分钟",
+  "durationMinutes": [
+   240,
+   420
+  ],
+  "priceLevel": "mid"
+ },
+ "audience": [
+  "couple",
+  "kids",
+  "solo"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/201909_%E9%A2%90%E5%92%8C%E5%9B%AD%E5%9B%BD%E5%BA%86%E8%8A%B1%E5%9D%9B.jpg/1280px-201909_%E9%A2%90%E5%92%8C%E5%9B%AD%E5%9B%BD%E5%BA%86%E8%8A%B1%E5%9D%9B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/201909_%E9%A2%90%E5%92%8C%E5%9B%AD%E5%9B%BD%E5%BA%86%E8%8A%B1%E5%9D%9B.jpg/1280px-201909_%E9%A2%90%E5%92%8C%E5%9B%AD%E5%9B%BD%E5%BA%86%E8%8A%B1%E5%9D%9B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "201909 颐和园国庆花坛.jpg",
+   "query": "颐和园",
+   "credit": {
+    "source": "wikimedia",
+    "author": "WFan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:201909_%E9%A2%90%E5%92%8C%E5%9B%AD%E5%9B%BD%E5%BA%86%E8%8A%B1%E5%9D%9B.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
   },
-  "audience": [
-    "couple",
-    "kids",
-    "solo"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/201909_%E9%A2%90%E5%92%8C%E5%9B%AD%E5%9B%BD%E5%BA%86%E8%8A%B1%E5%9D%9B.jpg/1280px-201909_%E9%A2%90%E5%92%8C%E5%9B%AD%E5%9B%BD%E5%BA%86%E8%8A%B1%E5%9D%9B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/201909_%E9%A2%90%E5%92%8C%E5%9B%AD%E5%9B%BD%E5%BA%86%E8%8A%B1%E5%9D%9B.jpg/1280px-201909_%E9%A2%90%E5%92%8C%E5%9B%AD%E5%9B%BD%E5%BA%86%E8%8A%B1%E5%9D%9B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "201909 颐和园国庆花坛.jpg",
-      "query": "颐和园",
-      "credit": {
-        "source": "wikimedia",
-        "author": "WFan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:201909_%E9%A2%90%E5%92%8C%E5%9B%AD%E5%9B%BD%E5%BA%86%E8%8A%B1%E5%9D%9B.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/2025%E5%B9%B4%E6%98%A5%EF%BC%8C%E9%A2%90%E5%92%8C%E5%9B%AD%E9%9B%BE%E5%A4%A9%EF%BC%8C%E5%BD%A9%E8%89%B2%E7%89%88%E6%9C%AC.jpg/1280px-2025%E5%B9%B4%E6%98%A5%EF%BC%8C%E9%A2%90%E5%92%8C%E5%9B%AD%E9%9B%BE%E5%A4%A9%EF%BC%8C%E5%BD%A9%E8%89%B2%E7%89%88%E6%9C%AC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/2025%E5%B9%B4%E6%98%A5%EF%BC%8C%E9%A2%90%E5%92%8C%E5%9B%AD%E9%9B%BE%E5%A4%A9%EF%BC%8C%E5%BD%A9%E8%89%B2%E7%89%88%E6%9C%AC.jpg/1280px-2025%E5%B9%B4%E6%98%A5%EF%BC%8C%E9%A2%90%E5%92%8C%E5%9B%AD%E9%9B%BE%E5%A4%A9%EF%BC%8C%E5%BD%A9%E8%89%B2%E7%89%88%E6%9C%AC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "2025年春，颐和园雾天，彩色版本.jpg",
-      "query": "颐和园",
-      "credit": {
-        "source": "wikimedia",
-        "author": "宋又文",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2025%E5%B9%B4%E6%98%A5%EF%BC%8C%E9%A2%90%E5%92%8C%E5%9B%AD%E9%9B%BE%E5%A4%A9%EF%BC%8C%E5%BD%A9%E8%89%B2%E7%89%88%E6%9C%AC.jpg",
-        "license": "CC BY 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Chinese_glazed_roof_tile_in_the_Summer_Palace.jpg/1280px-Chinese_glazed_roof_tile_in_the_Summer_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Chinese_glazed_roof_tile_in_the_Summer_Palace.jpg/1280px-Chinese_glazed_roof_tile_in_the_Summer_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 810,
-      "alt": "Chinese glazed roof tile in the Summer Palace.jpg",
-      "query": "颐和园",
-      "credit": {
-        "source": "wikimedia",
-        "author": "HoweyYuan",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chinese_glazed_roof_tile_in_the_Summer_Palace.jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Longevity_Hill_of_the_Summer_Palace.jpg/1280px-Longevity_Hill_of_the_Summer_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Longevity_Hill_of_the_Summer_Palace.jpg/1280px-Longevity_Hill_of_the_Summer_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 718,
-      "alt": "Longevity Hill of the Summer Palace.jpg",
-      "query": "颐和园",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Longevity_Hill_of_the_Summer_Palace.jpg",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/National_cultural_heritage_stele_at_Summer_Palace_North_Gate_%2820250426114457%29.jpg/1280px-National_cultural_heritage_stele_at_Summer_Palace_North_Gate_%2820250426114457%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/National_cultural_heritage_stele_at_Summer_Palace_North_Gate_%2820250426114457%29.jpg/1280px-National_cultural_heritage_stele_at_Summer_Palace_North_Gate_%2820250426114457%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "National cultural heritage stele at Summer Palace North Gate (20250426114457).jpg",
-      "query": "颐和园",
-      "credit": {
-        "source": "wikimedia",
-        "author": "N509FZ",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:National_cultural_heritage_stele_at_Summer_Palace_North_Gate_(20250426114457).jpg",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "世界遗产",
-    "皇家园林",
-    "清代",
-    "必去"
-  ],
-  "popularity": 95,
-  "sources": [
-    {
-      "title": "百度百科·颐和园",
-      "url": "https://baike.baidu.com/item/%E9%A2%90%E5%92%8C%E5%9B%AD",
-      "kind": "wiki",
-      "fetchedAt": "2026-09-19"
-    }
-  ],
-  "updatedAt": "2026-10-31",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "",
-    "zh": "颐和园"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/2025%E5%B9%B4%E6%98%A5%EF%BC%8C%E9%A2%90%E5%92%8C%E5%9B%AD%E9%9B%BE%E5%A4%A9%EF%BC%8C%E5%BD%A9%E8%89%B2%E7%89%88%E6%9C%AC.jpg/1280px-2025%E5%B9%B4%E6%98%A5%EF%BC%8C%E9%A2%90%E5%92%8C%E5%9B%AD%E9%9B%BE%E5%A4%A9%EF%BC%8C%E5%BD%A9%E8%89%B2%E7%89%88%E6%9C%AC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/2025%E5%B9%B4%E6%98%A5%EF%BC%8C%E9%A2%90%E5%92%8C%E5%9B%AD%E9%9B%BE%E5%A4%A9%EF%BC%8C%E5%BD%A9%E8%89%B2%E7%89%88%E6%9C%AC.jpg/1280px-2025%E5%B9%B4%E6%98%A5%EF%BC%8C%E9%A2%90%E5%92%8C%E5%9B%AD%E9%9B%BE%E5%A4%A9%EF%BC%8C%E5%BD%A9%E8%89%B2%E7%89%88%E6%9C%AC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "2025年春，颐和园雾天，彩色版本.jpg",
+   "query": "颐和园",
+   "credit": {
+    "source": "wikimedia",
+    "author": "宋又文",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2025%E5%B9%B4%E6%98%A5%EF%BC%8C%E9%A2%90%E5%92%8C%E5%9B%AD%E9%9B%BE%E5%A4%A9%EF%BC%8C%E5%BD%A9%E8%89%B2%E7%89%88%E6%9C%AC.jpg",
+    "license": "CC BY 4.0",
+    "attributionRequired": true
+   }
   },
-  "_geocodeTitle": "颐和园西门停车场",
-  "_geocodeSuspect": false,
-  "district": "110108"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Chinese_glazed_roof_tile_in_the_Summer_Palace.jpg/1280px-Chinese_glazed_roof_tile_in_the_Summer_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Chinese_glazed_roof_tile_in_the_Summer_Palace.jpg/1280px-Chinese_glazed_roof_tile_in_the_Summer_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 810,
+   "alt": "Chinese glazed roof tile in the Summer Palace.jpg",
+   "query": "颐和园",
+   "credit": {
+    "source": "wikimedia",
+    "author": "HoweyYuan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chinese_glazed_roof_tile_in_the_Summer_Palace.jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Longevity_Hill_of_the_Summer_Palace.jpg/1280px-Longevity_Hill_of_the_Summer_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Longevity_Hill_of_the_Summer_Palace.jpg/1280px-Longevity_Hill_of_the_Summer_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 718,
+   "alt": "Longevity Hill of the Summer Palace.jpg",
+   "query": "颐和园",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Longevity_Hill_of_the_Summer_Palace.jpg",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/National_cultural_heritage_stele_at_Summer_Palace_North_Gate_%2820250426114457%29.jpg/1280px-National_cultural_heritage_stele_at_Summer_Palace_North_Gate_%2820250426114457%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/National_cultural_heritage_stele_at_Summer_Palace_North_Gate_%2820250426114457%29.jpg/1280px-National_cultural_heritage_stele_at_Summer_Palace_North_Gate_%2820250426114457%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "National cultural heritage stele at Summer Palace North Gate (20250426114457).jpg",
+   "query": "颐和园",
+   "credit": {
+    "source": "wikimedia",
+    "author": "N509FZ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:National_cultural_heritage_stele_at_Summer_Palace_North_Gate_(20250426114457).jpg",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "世界遗产",
+  "皇家园林",
+  "清代",
+  "必去"
+ ],
+ "popularity": 95,
+ "sources": [
+  {
+   "title": "百度百科·颐和园",
+   "url": "https://baike.baidu.com/item/%E9%A2%90%E5%92%8C%E5%9B%AD",
+   "kind": "wiki",
+   "fetchedAt": "2026-09-19"
+  }
+ ],
+ "updatedAt": "2026-11-14",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "",
+  "zh": "颐和园"
+ },
+ "_geocodeTitle": "颐和园西门停车场",
+ "_geocodeSuspect": false,
+ "district": "110108",
+ "review": {
+  "score": 4.7,
+  "verdict": "专程去",
+  "facets": [
+   {
+    "label": "格局",
+    "score": 4.9,
+    "note": "借西山做背景，昆明湖与万寿山的关系是教科书级"
+   },
+   {
+    "label": "体力",
+    "score": 2.5,
+    "note": "园子太大，山前走一圈就是半天，穿软底鞋"
+   },
+   {
+    "label": "人流",
+    "score": 2.8,
+    "note": "东宫门与长廊一线团队最密，西堤反而清静"
+   },
+   {
+    "label": "花费",
+    "score": 3.5,
+    "note": "大门票之外佛香阁、德和园等园中园还要另买"
+   }
+  ],
+  "body": "颐和园值得专程来，但要把预期放对：精华是昆明湖北岸的山前一段，佛香阁到长廊这一线把「借景」做到了极致，站在湖边看西山是别处复制不出来的。缺点也很实在——园子大到走断腿，东宫门一进来就是旅行团人潮，挤得长廊走不快，园中园还层层另收费，只想买一张票看完是不现实的。想舒服就早上开园时从北宫门进，或者干脆放弃苏州街和后山，只走路最短的山前环线。",
+  "basis": "corpus",
+  "at": "2026-11-14",
+  "fits": [
+   "看园林",
+   "拍照",
+   "半日以上"
+  ],
+  "avoid": [
+   "只想两小时打卡",
+   "怕走路"
+  ],
+  "sources": []
+ }
 }

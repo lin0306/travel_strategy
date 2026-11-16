@@ -1,6 +1,6 @@
 # 景德镇 · 数据来源与图片版权
 
-> 生成于 2026-11-05 · 城市数据最后更新 2026-10-01
+> 生成于 2026-11-16 · 城市数据最后更新 2026-11-14
 
 ## 概览
 
@@ -74,9 +74,7 @@
 
 | 归属 | 作者 | 协议 | 来源链接 |
 |------|------|------|---------|
-| 城市封面 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%99%AF%E5%BE%B7%E9%95%87%E4%BA%BA%E6%B0%91%E5%85%AC%E5%9B%AD%E5%A4%A7%E9%97%A8.jpg) |
-| 城市封面 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%99%AF%E5%BE%B7%E9%95%87%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA.jpg) |
-| 城市封面 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%99%AF%E5%BE%B7%E9%95%87%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA_2.jpg) |
+| 城市封面 | Simon Wade | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Taoxichuan_20241019.jpg) |
 | 景德镇中国陶瓷博物馆 | 沈澄心 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jingdezhen_China_Ceramics_Museum_20231020_04.jpg) |
 | 景德镇中国陶瓷博物馆 | 沈澄心 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jingdezhen_China_Ceramics_Museum_20231020_05.jpg) |
 | 景德镇中国陶瓷博物馆 | 沈澄心 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jingdezhen_China_Ceramics_Museum_20231020_06.jpg) |

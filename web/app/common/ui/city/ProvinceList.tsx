@@ -12,6 +12,14 @@
  *
  * ★ `null ≠ 0`：未收录写「待收录 —」，绝不写成「0 个」
  *   —— 那是在说"这儿没有可玩的地方"，而事实是我们还没做。
+ *
+ * ★★ `pendingPickable`：未收录的市**点不点得动**由消费者决定（2026-11-14）。
+ *   · **地域面板**（`RegionPanel`）给 `true` —— 点开一张"这座城还没收录"的卡，
+ *     与"在地图上点它的徽标"同一个结局（那里本来就会开卡）。
+ *   · **省级页**用默认 `false` —— 那一页的点击是**换页**（`/city/:id`），
+ *     未收录的市没有页可换，做成可点就是"点了没反应"。
+ *   ★ 修复前这里对两端一律 `disabled`，于是面板里 9 座待收录的市全是死行：
+ *     用户原话「点省之后再点市，不会切换到市的面板」—— 他点的那几行根本没接点击。
  */
 
 import { Icon } from '~/common/ui/Icon'
@@ -21,9 +29,19 @@ import type { CityRow, ProvinceDetail } from '~/common/data/regions'
 export function ProvinceList({
   detail,
   onPick,
+  pendingPickable = false,
 }: {
   detail: ProvinceDetail | null
-  onPick: (cityId: string) => void
+  /**
+   * 点了某座市 —— 给**整行**而不是只给 `cityId`。
+   *
+   * ★ 页面上"导航"与面板里"开卡"是两种结局，但两者都要 `adcode`（查区分片 /
+   *   判 `regionLevelOf`）与 `center`（把镜头飞过去）。只传 `cityId` 的话，
+   *   面板那边就得回头再查一遍行，等于让列表的消费者各写一次匹配。
+   */
+  onPick: (row: CityRow) => void
+  /** 未收录的市也接点击吗（只有地域面板要，理由见文件头） */
+  pendingPickable?: boolean
 }) {
   if (detail === null) {
     return (
@@ -67,7 +85,7 @@ export function ProvinceList({
         <>
           <SectionLabel>已收录</SectionLabel>
           {grouped.map((c) => (
-            <CityRowItem key={c.adcode} row={c} onPick={onPick} />
+            <CityRowItem key={c.adcode} row={c} onPick={onPick} locked={false} />
           ))}
         </>
       ) : null}
@@ -75,7 +93,12 @@ export function ProvinceList({
         <>
           <SectionLabel>待收录</SectionLabel>
           {rest.map((c) => (
-            <CityRowItem key={c.adcode} row={c} onPick={onPick} />
+            <CityRowItem
+              key={c.adcode}
+              row={c}
+              onPick={onPick}
+              locked={!pendingPickable}
+            />
           ))}
         </>
       ) : null}
@@ -83,15 +106,28 @@ export function ProvinceList({
   )
 }
 
-function CityRowItem({ row, onPick }: { row: CityRow; onPick: (cityId: string) => void }) {
+/**
+ * 一行市。
+ * `locked` = **未收录且本处不接点击**（省级页那种"换页"场景）。
+ * 面板里 `locked` 恒为 false —— 未收录照样能点开一张"还没收录"的卡。
+ */
+function CityRowItem({
+  row,
+  onPick,
+  locked,
+}: {
+  row: CityRow
+  onPick: (row: CityRow) => void
+  locked: boolean
+}) {
   const pending = row.cityId === null
   return (
     <button
       type="button"
-      onClick={() => (pending ? undefined : onPick(row.cityId!))}
-      disabled={pending}
+      onClick={() => (locked ? undefined : onPick(row))}
+      disabled={locked}
       className={`flex w-full items-center gap-2.5 px-3.5 py-2 text-left ${
-        pending ? 'cursor-default opacity-70' : 'hover:bg-bg'
+        locked ? 'cursor-default opacity-70' : 'hover:bg-bg'
       }`}
     >
       <span

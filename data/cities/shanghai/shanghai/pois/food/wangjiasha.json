@@ -12,16 +12,16 @@
   ],
   "location": {
     "point": {
-      "lng": 121.442522,
-      "lat": 31.221371,
+      "lat": 31.230628,
+      "lng": 121.461193,
       "coordSystem": "GCJ-02"
     },
-    "address": "上海市虹口区多家小店",
+    "address": "上海市静安区南京西路805号（近石门一路）",
     "district": "静安",
     "transportTip": "以具体门店为准"
   },
   "practical": {
-    "openHours": "多为06:00-13:00(以门店公告为准)",
+    "openHours": "07:00-20:00（全年无休）",
     "openHoursRef": 0,
     "ticket": "人均约20元起(以门店为准)",
     "ticketRef": 0,
@@ -97,9 +97,15 @@
       "url": "https://baike.baidu.com/item/%E9%94%85%E8%B4%B4",
       "kind": "wiki",
       "fetchedAt": "2026-09-19"
+    },
+    {
+      "title": "静安官方微信（上观新闻转载）· 王家沙地址与营业时间",
+      "url": "https://sghexport.shobserver.com/html/toutiao/2021/10/06/555012.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-12"
     }
   ],
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-11-12",
   "_geocoded": true,
   "_imageQuery": {
     "en": "",
@@ -107,5 +113,34 @@
   },
   "_geocodeTitle": "王家沙点心店(南京西路二店)",
   "_geocodeSuspect": false,
-  "district": "310106"
+  "district": "310106",
+  "_patrol": {
+    "at": "2026-11-12",
+    "changes": [
+      {
+        "field": "地址",
+        "old": "上海市虹口区多家小店",
+        "new": "上海市静安区南京西路805号（近石门一路）"
+      },
+      {
+        "field": "开放时间",
+        "old": "多为06:00-13:00(以门店公告为准)",
+        "new": "07:00-20:00（全年无休）"
+      },
+      {
+        "field": "point",
+        "old": {
+          "lng": 121.442522,
+          "lat": 31.221371,
+          "coordSystem": "GCJ-02"
+        },
+        "new": [
+          31.230628,
+          121.461193
+        ]
+      }
+    ],
+    "source": "https://sghexport.shobserver.com/html/toutiao/2021/10/06/555012.html",
+    "reason": "静安官微与上观新闻：南京西路805号、07:00-20:00全年无休"
+  }
 }

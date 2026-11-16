@@ -1,194 +1,231 @@
 {
-  "id": "shaolin-temple",
-  "name": "少林寺",
-  "category": "scenic",
-  "subtype": "temple",
-  "summary": "嵩山少室山下的禅宗祖庭，少林功夫的发源地，塔林与武术表演都在寺区。",
-  "description": "少林寺在登封嵩山少室山北麓，建于北魏年间，是禅宗初祖达摩面壁传法的地方，也被看作少林功夫的源头。进山门后沿中轴一路是天王殿、大雄宝殿、藏经阁，最后一进是千佛殿，殿内砖地上留着历代武僧练功踩出的深坑。寺西不远是塔林，二百多座砖石墓塔层层排列，是国内规模最大的塔群。每天有武僧表演，套路短、节奏紧，看完再出寺最圆满。旺季人多，上午进山最从容。",
-  "highlights": [
-    "禅宗祖庭与功夫源头",
-    "千佛殿武僧练功坑",
-    "塔林二百余座古塔"
-  ],
-  "location": {
-    "point": {
-      "lng": 112.94134,
-      "lat": 34.506981,
-      "coordSystem": "GCJ-02"
-    },
-    "address": "河南省郑州市登封市嵩山少林寺景区",
-    "district": "登封市",
-    "transportTip": "郑州汽车客运总站乘直达登封的班车，或在郑州东站乘城际到登封再转景区车"
+ "id": "shaolin-temple",
+ "name": "少林寺",
+ "category": "scenic",
+ "subtype": "temple",
+ "summary": "嵩山少室山下的禅宗祖庭，少林功夫的发源地，塔林与武术表演都在寺区。",
+ "description": "少林寺在登封嵩山少室山北麓，建于北魏年间，是禅宗初祖达摩面壁传法的地方，也被看作少林功夫的源头。进山门后沿中轴一路是天王殿、大雄宝殿、藏经阁，最后一进是千佛殿，殿内砖地上留着历代武僧练功踩出的深坑。寺西不远是塔林，二百多座砖石墓塔层层排列，是国内规模最大的塔群。每天有武僧表演，套路短、节奏紧，看完再出寺最圆满。旺季人多，上午进山最从容。",
+ "highlights": [
+  "禅宗祖庭与功夫源头",
+  "千佛殿武僧练功坑",
+  "塔林二百余座古塔"
+ ],
+ "location": {
+  "point": {
+   "lng": 112.94134,
+   "lat": 34.506981,
+   "coordSystem": "GCJ-02"
   },
-  "practical": {
-    "openHours": "约08:00-17:30，以景区公告为准",
-    "openHoursRef": 0,
-    "ticket": "约80元起（含常住院、塔林、武术表演，以官方为准）",
-    "ticketRef": 0,
-    "duration": "建议 180-300 分钟",
-    "durationMinutes": [
-      180,
-      300
-    ],
-    "priceLevel": "high"
+  "address": "河南省郑州市登封市嵩山少林寺景区",
+  "district": "登封市",
+  "transportTip": "郑州汽车客运总站乘直达登封的班车，或在郑州东站乘城际到登封再转景区车"
+ },
+ "practical": {
+  "openHours": "约08:00-17:30，以景区公告为准",
+  "openHoursRef": 0,
+  "ticket": "约80元起（含常住院、塔林、武术表演，以官方为准）",
+  "ticketRef": 0,
+  "duration": "建议 180-300 分钟",
+  "durationMinutes": [
+   180,
+   300
+  ],
+  "priceLevel": "high"
+ },
+ "audience": [
+  "couple",
+  "family",
+  "friends"
+ ],
+ "accessible": false,
+ "tips": [],
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Shaolin_Temple_15375-Dengfeng_%2848757383478%29.jpg/1280px-Shaolin_Temple_15375-Dengfeng_%2848757383478%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Shaolin_Temple_15375-Dengfeng_%2848757383478%29.jpg/1280px-Shaolin_Temple_15375-Dengfeng_%2848757383478%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Shaolin Temple 15375-Dengfeng (48757383478).jpg",
+   "query": "少林寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
   },
-  "audience": [
-    "couple",
-    "family",
-    "friends"
-  ],
-  "accessible": false,
-  "tips": [],
-  "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Shaolin_Temple_15375-Dengfeng_%2848757383478%29.jpg/1280px-Shaolin_Temple_15375-Dengfeng_%2848757383478%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Shaolin_Temple_15375-Dengfeng_%2848757383478%29.jpg/1280px-Shaolin_Temple_15375-Dengfeng_%2848757383478%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Shaolin Temple 15375-Dengfeng (48757383478).jpg",
-      "query": "少林寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Shaolin_Temple_15377-Dengfeng_%2848757705956%29.jpg/1280px-Shaolin_Temple_15377-Dengfeng_%2848757705956%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Shaolin_Temple_15377-Dengfeng_%2848757705956%29.jpg/1280px-Shaolin_Temple_15377-Dengfeng_%2848757705956%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Shaolin Temple 15377-Dengfeng (48757705956).jpg",
-      "query": "少林寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Shaolin_Academy_15352-Dengfeng_%2849067945903%29.jpg/1280px-Shaolin_Academy_15352-Dengfeng_%2849067945903%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Shaolin_Academy_15352-Dengfeng_%2849067945903%29.jpg/1280px-Shaolin_Academy_15352-Dengfeng_%2849067945903%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Shaolin Academy 15352-Dengfeng (49067945903).jpg",
-      "query": "少林寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Shaolin_Temple_15353-Dengfeng_%2848757896992%29.jpg/1280px-Shaolin_Temple_15353-Dengfeng_%2848757896992%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Shaolin_Temple_15353-Dengfeng_%2848757896992%29.jpg/1280px-Shaolin_Temple_15353-Dengfeng_%2848757896992%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "width": 1080,
-      "height": 720,
-      "alt": "Shaolin Temple 15353-Dengfeng (48757896992).jpg",
-      "query": "少林寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "xiquinhosilva",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY 2.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/20241103_Ginkgo_Trees_in_Shaolin_Temple_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/20241103_Ginkgo_Trees_in_Shaolin_Temple_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "20241103 Ginkgo Trees in Shaolin Temple 06.jpg",
-      "query": "少林寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "Windmemories",
-        "sourceUrl": "https://commons.wikimedia.org/",
-        "license": "CC BY-SA 4.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Shaolinsi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Shaolinsi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "width": 1080,
-      "height": 720,
-      "alt": "Shaolinsi.JPG",
-      "query": "少林寺",
-      "credit": {
-        "source": "wikimedia",
-        "author": "User:Yaoleilei",
-        "sourceUrl": "https://www.wikidata.org/wiki/Q232771",
-        "license": "CC BY-SA 3.0",
-        "attributionRequired": true
-      },
-      "review": {
-        "verdict": "ok",
-        "by": "agent-vision",
-        "at": "2026-11-04",
-        "tier": "exact"
-      }
-    }
-  ],
-  "coverIndex": 0,
-  "tags": [
-    "少林寺",
-    "禅宗",
-    "功夫"
-  ],
-  "popularity": 98,
-  "sources": [
-    {
-      "title": "少林寺·百度百科",
-      "url": "https://baike.baidu.com/item/%E5%B0%91%E6%9E%97%E5%AF%BA",
-      "kind": "wiki",
-      "fetchedAt": "2026-10-04"
-    }
-  ],
-  "updatedAt": "2026-11-04",
-  "_geocoded": true,
-  "_imageQuery": {
-    "en": "Shaolin Temple Dengfeng",
-    "zh": "少林寺"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Shaolin_Temple_15377-Dengfeng_%2848757705956%29.jpg/1280px-Shaolin_Temple_15377-Dengfeng_%2848757705956%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Shaolin_Temple_15377-Dengfeng_%2848757705956%29.jpg/1280px-Shaolin_Temple_15377-Dengfeng_%2848757705956%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Shaolin Temple 15377-Dengfeng (48757705956).jpg",
+   "query": "少林寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
   },
-  "_geocodeTitle": "少林寺",
-  "_geocodeSuspect": false,
-  "district": "410185"
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Shaolin_Academy_15352-Dengfeng_%2849067945903%29.jpg/1280px-Shaolin_Academy_15352-Dengfeng_%2849067945903%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Shaolin_Academy_15352-Dengfeng_%2849067945903%29.jpg/1280px-Shaolin_Academy_15352-Dengfeng_%2849067945903%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Shaolin Academy 15352-Dengfeng (49067945903).jpg",
+   "query": "少林寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Shaolin_Temple_15353-Dengfeng_%2848757896992%29.jpg/1280px-Shaolin_Temple_15353-Dengfeng_%2848757896992%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Shaolin_Temple_15353-Dengfeng_%2848757896992%29.jpg/1280px-Shaolin_Temple_15353-Dengfeng_%2848757896992%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 1080,
+   "height": 720,
+   "alt": "Shaolin Temple 15353-Dengfeng (48757896992).jpg",
+   "query": "少林寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "xiquinhosilva",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY 2.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/20241103_Ginkgo_Trees_in_Shaolin_Temple_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/20241103_Ginkgo_Trees_in_Shaolin_Temple_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "20241103 Ginkgo Trees in Shaolin Temple 06.jpg",
+   "query": "少林寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "Windmemories",
+    "sourceUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 4.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Shaolinsi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Shaolinsi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 1080,
+   "height": 720,
+   "alt": "Shaolinsi.JPG",
+   "query": "少林寺",
+   "credit": {
+    "source": "wikimedia",
+    "author": "User:Yaoleilei",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q232771",
+    "license": "CC BY-SA 3.0",
+    "attributionRequired": true
+   },
+   "review": {
+    "verdict": "ok",
+    "by": "agent-vision",
+    "at": "2026-11-04",
+    "tier": "exact"
+   }
+  }
+ ],
+ "coverIndex": 0,
+ "tags": [
+  "少林寺",
+  "禅宗",
+  "功夫"
+ ],
+ "popularity": 98,
+ "sources": [
+  {
+   "title": "少林寺·百度百科",
+   "url": "https://baike.baidu.com/item/%E5%B0%91%E6%9E%97%E5%AF%BA",
+   "kind": "wiki",
+   "fetchedAt": "2026-10-04"
+  }
+ ],
+ "updatedAt": "2026-11-12",
+ "_geocoded": true,
+ "_imageQuery": {
+  "en": "Shaolin Temple Dengfeng",
+  "zh": "少林寺"
+ },
+ "_geocodeTitle": "少林寺",
+ "_geocodeSuspect": false,
+ "district": "410185",
+ "review": {
+  "score": 4.1,
+  "verdict": "值得一去",
+  "facets": [
+   {
+    "label": "建筑",
+    "score": 4.4,
+    "note": "常住院中轴七进，千佛殿最有意思"
+   },
+   {
+    "label": "塔林",
+    "score": 4.6,
+    "note": "二百多座砖石墓塔层层排列"
+   },
+   {
+    "label": "表演",
+    "score": 4.0,
+    "note": "武僧表演套路短、节奏紧"
+   },
+   {
+    "label": "人流",
+    "score": 2.7,
+    "note": "旺季上午之后人明显变多"
+   }
+  ],
+  "body": "从山门沿中轴走到千佛殿，砖地上练功踩出的深坑是最直观的历史；寺西的塔林是国内规模最大的塔群，二百多座墓塔层层排开，比寺里更值得多待一会儿。缺点是旺季上午十点后团队客集中，院子里几乎挪不动步，武僧表演场次固定，得掐着时间赶。",
+  "basis": "corpus",
+  "at": "2026-11-12",
+  "fits": [
+   "亲子",
+   "朋友"
+  ],
+  "avoid": [
+   "中午进山"
+  ],
+  "sources": []
+ }
 }

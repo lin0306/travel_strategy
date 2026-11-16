@@ -1,0 +1,71 @@
+{
+  "id": "daanyuan-lvyou-jingqu",
+  "name": "大安源旅游景区",
+  "category": "scenic",
+  "subtype": "nature",
+  "summary": "武夷山国家公园西侧的森林氧吧，峡谷与水上广场。",
+  "description": "大安源在武夷山市北部洋庄乡大安村，是 4A 级生态景区，由黄岗山大峡谷、龙归源、泰平洋水上广场、茶马古道、龙井与峡谷漂流等几片构成，森林覆盖率约百分之九十八，素有「天然氧吧」之称。黄岗山大峡谷以落差一百四十六米的瀑布、连串壶穴深潭和沿溪栈道为主，龙归源则是狭谷急湍与千年原始林，步道上常能遇上野生猴群；泰平洋是一段长约九百六十米的浅水石床，丰水期水没脚踝，可在水面行走，被称为闽北的水上广场。它和武夷山主景区是两套门票、相距约四十公里，景观气质也完全不同：主景区看丹霞与九曲，这里看森林与溪水，适合单独腾出半天到一天。冬春季闭园早，午后才出发会很赶。",
+  "highlights": [
+    "黄岗山大峡谷 146 米瀑布",
+    "泰平洋水上广场",
+    "98% 森林覆盖"
+  ],
+  "location": {
+    "point": {
+      "lng": 117.826433,
+      "lat": 27.878591,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "福建省南平市武夷山市北部洋庄乡大安村",
+    "district": "武夷山",
+    "transportTip": "距三姑度假区约 40 公里，需自驾或从度假区包车（往返约 200 元、车程约 40 分钟）；园内可驾车入园，停车免费"
+  },
+  "practical": {
+    "openHours": "夏秋季（5/1-10/31）08:00-17:00；冬春季（11/1-4/30）08:30-16:30（16:00 停止入园）",
+    "openHoursRef": 0,
+    "ticket": "景区门票约 27 元起；黄岗山大峡谷 45 元、泰平洋水上广场 27 元，联票约 69 元，以现场公示为准",
+    "ticketRef": 0,
+    "duration": "建议 180-360 分钟",
+    "durationMinutes": [
+      180,
+      360
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "family",
+    "solo"
+  ],
+  "accessible": false,
+  "tips": [
+    "11 月起属冬春季时段，16:00 停止入园，别下午才出发",
+    "水上广场最佳季节为 5-10 月，冬季以峡谷步道为主，禁止下河游泳"
+  ],
+  "images": [],
+  "coverIndex": 0,
+  "tags": [
+    "森林氧吧",
+    "峡谷瀑布",
+    "避暑"
+  ],
+  "popularity": 76,
+  "sources": [
+    {
+      "title": "2025南平大安源景区简介+特色介绍+门票预约+价格表",
+      "url": "https://m.dahepiao.com/news/20250516513427.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-09"
+    }
+  ],
+  "updatedAt": "2026-11-09",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "Da'anyuan Scenic Area Wuyishan",
+    "zh": "大安源旅游景区"
+  },
+  "_geocodeTitle": "大安源旅游景区（候选点）",
+  "_geocodeSuspect": false,
+  "_noImage": true,
+  "district": "350782"
+}
