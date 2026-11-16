@@ -71,7 +71,6 @@ export function usePosterExport(
          */
         chosenOption: store.chosenOption,
         webKey: resolveWebServiceKey() ?? '',
-        amapKey: import.meta.env.VITE_AMAP_WEB_KEY ?? '',
         onProgress: (text) => setProgress(text),
       })
       // ★ 底图失败原因必须上 UI（用户「控制台日志看不到」—— 不能只打 console）

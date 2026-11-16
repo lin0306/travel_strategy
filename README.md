@@ -50,7 +50,7 @@ pipeline/
 
 | 组 | 工具 |
 |----|------|
-| 护栏 · 体检 | `check_app`（61 组断言，改代码后必跑）· `check_seed` · `lint_seed` · `audit_suspects` · `audit_history` · `scan_bad_rings` · `fix_districtless` · `make_fixture` · `rmdir_dist` |
+| 护栏 · 体检 | `check_app`（62 组断言，改代码后必跑）· `check_seed` · `lint_seed` · `audit_suspects` · `audit_history` · `scan_bad_rings` · `fix_districtless` · `make_fixture` · `rmdir_dist` |
 | 配图 · 封面 | `review_images` · `clean_images` · `city_cover` · `province_cover` · `cover_review` · `cover_sheet` · `fetch_candidates` · `remap_candidates` |
 | 入库 · 拓取 | `intake_queue` · `intake_candidates` · `rate_poi` · `discover_queue` · `refill_queue` · `refill_one_poi` · `ai_review` |
 | 巡检 | `patrol_queue` · `patrol_findings` · `patrol_report` · `patrol_sheet` · `arrival_progress` |
@@ -104,20 +104,35 @@ E:/BASIC/python/python.exe tools/check_seed.py --all           # 扩城前先体
 
 ## 部署（Netlify）
 
-`netlify.toml` 在仓库根，三处硬约束，改错就是全站 404：
+`netlify.toml` 在仓库根，四处硬约束，改错就是全站 404 或海报没底图：
 
 ```toml
 [build]
   base = "web"
   command = "pnpm build"
-  publish = "dist/client"     # ★ 写 dist 会 404：dist/ 下只有 client/ 一个目录
+  publish = "dist/client"            # ★ 写 dist 会 404：dist/ 下只有 client/ 一个目录
+
+[functions]
+  directory = "netlify/functions"    # ★ 相对 base 解析 ⇒ 实际是 web/netlify/functions
 ```
 
 - **本地永远看不出发布根错误** —— `pnpm preview` 走 vite 自己的 server，不读 `netlify.toml`。
   上线前跑 `E:/BASIC/python/python.exe _tmp/_netlify_check.py`（首页 · redirect 目标 · 全部 `/assets/` 引用 ·
-  三类页面 · localhost 残留 · 两个 key · pnpm 版本两边一致）。
-- 站点环境变量（**不进 git**）：`VITE_TMAP_KEY` + `VITE_AMAP_WEB_KEY`，缺了地图不解锁。
-- 图商控制台给这两个 key 加 **Referer 域名白名单**（如 `*.netlify.app`），否则构建成功但地图空白。
+  三类页面 · localhost 残留 · 两个关键 env · pnpm 版本两边一致）。
+- 站点环境变量（**不进 git**），两条：
+  - `VITE_TMAP_KEY` —— 会被编进 bundle。前端地图渲染（JS API GL）和行程路线（WebService 的
+    direction / matrix / 逆地理，走 JSONP）都用它，**必须有 `VITE_` 前缀**。
+  - `AMAP_WEB_KEY` —— **绝不能带 `VITE_` 前缀**。只给 `netlify/functions/staticmap.mjs` 用
+    （行程海报底图）；带了前缀就会被 Vite 注入 bundle，等于公开。
+- **两家图商的白名单能力不同，别照抄**：
+  - 腾讯 → Key 详情里的**域名白名单**填 `netlify.app` + `localhost`（腾讯按「填了就连子域一起授权」，
+    所以 `xxx.netlify.app` 与 deploy-preview 域名都覆盖）。**必须配**：前端 WebService 是浏览器直连，
+    不配等于把 key 连同配额一起送人。
+  - 高德 → **没有域名白名单**，那只属于「Web端(JS API)」类型的 key；静态图只认「Web服务」key，而
+    Web服务 key 只能配 IP 白名单，浏览器出口 IP 不固定 ⇒ 一配海报就挂。所以底图改走同源函数，
+    域名校验在函数里做（环境变量 `ALLOWED_ORIGINS`，默认 `netlify.app,localhost,127.0.0.1`）。
+- 绑定自定义域名后要**同时改两处**：腾讯的域名白名单 + 函数的 `ALLOWED_ORIGINS`，漏一处就是
+  「地图正常、海报没底图」或反之。
 - `packageManager`（`web/package.json`）与 `PNPM_VERSION`（`netlify.toml`）必须同值 —— 版本不一致是部署失败头号原因。
 
 ---
@@ -128,6 +143,8 @@ E:/BASIC/python/python.exe tools/check_seed.py --all           # 扩城前先体
 2. **引擎限腾讯 / 高德 / 百度 / 天地图**；当前腾讯 GL。业务层只从 `~/map/tencent` 取。
 3. **key 走环境变量**，禁硬编码；采集侧在 `pipeline/.env.local`，前端在 `web/.env.local`
    （`VITE_TMAP_KEY`）—— **两边分家，且都不进 git**。
+   ★ 高德海报 key（`AMAP_WEB_KEY`）**只放服务端**（Netlify 环境变量 / `pipeline/.env.local`），
+   绝不带 `VITE_` 前缀 —— 理由见「部署」节：高德 Web服务 key 没有域名白名单。
    ★ 取坐标只走 `pipeline/providers/geoprovider.py`：腾讯优先，**日配额耗尽（status 121）自动换高德**（同为 GCJ-02）。
 4. **通勤时长运行时算，绝不预存**（2026-10-06 决策）：全量矩阵要几百 MB，且半改会造成跨城口径不一致。
 5. **顺序由用户定，禁 TSP**；只给事实与陈述式建议。

@@ -7852,6 +7852,7 @@ def main() -> int:
     check_panel_click()
     check_reveal_scope()
     check_hydration_and_face_level()
+    check_poster_key_proxy()
 
     print('')
     for n in notes:
@@ -8574,6 +8575,111 @@ def check_hydration_and_face_level() -> None:
         problems.append(
             'useCityDistrictLayer 没传 district —— 城市页走的是**另一条**图层通道，'
             '不接这条 P2 等于没修（实测城市页 z=9.46 / 移动端 7.99）'
+        )
+
+    check(label, problems, 5, hits)
+
+
+def check_poster_key_proxy() -> None:
+    """BH. 海报底图走同源代理（高德 key 不进 bundle）2026-11-17。
+
+    ## 为什么要有这一组
+    高德「Web服务」key **没有域名白名单** —— 那只属于「Web端(JS API)」类型的 key；
+    而静态图 `v3/staticmap` 只认 Web服务 key。两件事叠加 ⇒ 浏览器直连就等于把 key
+    公开（DevTools 里复制即可）。IP 白名单也用不了：浏览器出口 IP 不固定。
+    数字签名同样救不了：签名要在客户端算，SK 一样发到浏览器。
+
+    ⇒ 底图请求挪到 Netlify Function：key 只读服务端 `AMAP_WEB_KEY`，
+      域名白名单由函数自己校验 Referer。
+
+    ## 各判据对应的退化形态
+    | 判据 | 退化后 |
+    |------|--------|
+    | 前端出现 `restapi.amap.com` / `amapKey` | key 又回到 bundle 与每次请求的 URL —— 本轮改动白做 |
+    | 函数没读 `AMAP_WEB_KEY` | 代理 500 ⇒ 海报永远无底图，而构建照样成功 |
+    | 函数没有 Referer 校验 | 任何人 curl 一下就能拿你的配额刷图 |
+    | 函数没有参数白名单 | 变成「任意高德接口代理」，别的接口额度也能被刷 |
+    | toml 的 directory 与真实位置不符 | **静默**：Netlify 只 warning、函数不部署、海报无底图 |
+
+    ★★ 最后一条是本组的主因。`functions.directory` **相对 base（web/）**解析，
+      所以值是 `netlify/functions`（= `web/netlify/functions`）。写成仓库根口径
+      会指向一个不存在的目录，构建日志里只是一行 warning，站点照常上线。
+    ★ 判据串一律拆开拼：本段 docstring 与源码注释都会逐字提到这些名字，
+      不拆的话把实现删掉、光靠注释就能让判据全绿。
+    """
+    label = 'BH. 海报底图走同源代理（高德 key 不进 bundle · 函数目录相对 base）'
+    problems: list[str] = []
+    hits = 0
+
+    # ── ① 代理函数存在 ──
+    fn_path = WEB / 'netlify/functions/staticmap.mjs'
+    hits += 1
+    if not fn_path.exists():
+        problems.append(
+            '缺 web/netlify/functions/staticmap.mjs —— 代理没了，前端只能回头直连高德'
+        )
+    fn = strip_comments(fn_path.read_text(encoding='utf-8')) if fn_path.exists() else ''
+
+    # ── ② 代理该有的四个行为 ──
+    if fn:
+        hits += 1
+        if 'process.env.' + 'AMAP_WEB_KEY' not in fn:
+            problems.append(
+                '代理没读 `AMAP_WEB_KEY` —— 这是 key 唯一的存放处（不带 VITE_ 前缀，永不进 bundle）'
+            )
+        if 'VITE_' + 'AMAP' in fn:
+            problems.append(
+                '代理里出现了 VITE_ 前缀的变量 —— 服务端读不到，且意味着 key 又想回前端'
+            )
+        if 'if (!host' + 'Allowed(' not in fn:
+            problems.append(
+                '代理没有调用 Referer 白名单校验（只留函数定义不算）—— '
+                '等于给高德开了一个不限来源的网关'
+            )
+        if 'PASS' + 'THROUGH' not in fn:
+            problems.append(
+                '代理没有参数白名单 —— 原样转发 query 会变成「任意高德接口代理」，'
+                '别的接口额度同样能被刷'
+            )
+        if "startsWith('image/')" not in fn:
+            problems.append(
+                '代理没按 content-type 判错误 —— 高德参数错误是 200 + JSON，会被当成图片丢给 canvas'
+            )
+
+    # ── ③ 前端不再持有 key ──
+    ep = strip_comments(read_app('app/common/ui/plan/poster/exportPosterFiles.ts'))
+    hits += 1
+    if 'restapi.' + 'amap.com' in ep:
+        problems.append(
+            'exportPosterFiles 又直连高德 —— key 会重新出现在 bundle 与请求 URL 里'
+        )
+    if 'amap' + 'Key' in ep:
+        problems.append(
+            'exportPosterFiles 还留着 amapKey —— 底图来源应当只有同源路径常量'
+        )
+    if "'/.netlify/functions/" + "staticmap'" not in ep:
+        problems.append(
+            'exportPosterFiles 没有指向同源代理的路径常量 —— 底图请求根本发不出去'
+        )
+
+    # ── ④ hook 不再读 env 里的高德 key ──
+    up = strip_comments(read_app('app/common/ui/plan/poster/usePosterExport.ts'))
+    hits += 1
+    if 'VITE_' + 'AMAP_WEB_KEY' in up:
+        problems.append(
+            'usePosterExport 又读 VITE_AMAP_WEB_KEY —— 这把 key 会进 bundle，等于公开'
+        )
+
+    # ── ⑤ toml 的 functions 目录与真实位置一致 ──
+    toml_p = REPO / 'netlify.toml'
+    toml = toml_p.read_text(encoding='utf-8') if toml_p.exists() else ''
+    hits += 1
+    if '[functions]' not in toml:
+        problems.append('netlify.toml 没有 [functions] 段 —— 函数不会被部署')
+    elif not re.search(r'\[functions\][^[]*?directory\s*=\s*"netlify/functions"', toml):
+        problems.append(
+            'netlify.toml 的 functions.directory 不是 "netlify/functions" —— '
+            '它相对 base（web/）解析，写错只会 warning、函数静默不部署、海报永远无底图'
         )
 
     check(label, problems, 5, hits)

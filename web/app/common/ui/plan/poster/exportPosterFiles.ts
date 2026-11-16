@@ -5,8 +5,9 @@
  * ## 与首版的差别
  * - 首版"全部门打包 zip"→ 用户改为逐文件 → 再改为**只导当天**（导出按钮在详情
  *   面板里，选的是哪一天就导哪一天 —— 语义天然对齐，第二天没内容的问题随之消失）。
- * - **底图**：高德静态图 `v3/staticmap`（实测响应带 `Access-Control-Allow-Origin: *`，
- *   画进 canvas 不污染；腾讯静态图实测不带，走不通）。
+ * - **底图**：高德静态图 `v3/staticmap`，**经同源函数代理**（见下方 `STATICMAP_SRC`）。
+ *   2026-11-17 之前是浏览器直连 —— 而高德 Web服务 key 没有域名白名单（那只属于 JS API），
+ *   等于公开。腾讯静态图不带 CORS 头，画进 canvas 会污染，所以不能拿来替代。
  * - **路线**：每段调 `fetchRouteOptions`（腾讯 direction，**与行程页「拉方案」
  *   同一个函数**），取首选方案解码好的 `path` —— 用户原话「和地图上的规划效果
  *   一样，而不是一条直线」。拉不到的段画直线并如实标注。
@@ -41,6 +42,14 @@ import { fetchLegPaths, type LegGeometry } from './posterRoutes'
 /** 阶段文案（进度行显示）—— 定义在原子层，这里转出去保持旧调用方不动 */
 export type { PosterProgress }
 
+/**
+ * 底图来源 = **同源 Netlify Function**（`web/netlify/functions/staticmap.mjs`）。
+ * 前端只发路径，key 由函数从 `AMAP_WEB_KEY` 读，域名白名单由函数自己校验 Referer
+ *（高德没有这个能力）—— 这就是把 key 从 bundle 摘出去的全部机制。
+ * ★ 本地 `pnpm dev` 不跑 functions ⇒ 404 ⇒ 底图降级（路线标记照画），不是故障。
+ */
+const STATICMAP_SRC = '/.netlify/functions/staticmap'
+
 export interface PosterExportInput {
   plan: RoutePlan
   city: City
@@ -55,8 +64,6 @@ export interface PosterExportInput {
   chosenOption: Record<string, string>
   /** 腾讯 WebService key（direction 接口；行程页同一把） */
   webKey: string
-  /** 高德 WebService key（静态图底图） */
-  amapKey: string
   onProgress?: PosterProgress
 }
 
@@ -205,6 +212,8 @@ const C_PRIMARY_FALLBACK = '#1677ff'
  *   「路线和地图对不上」就是这么抓到的。
  */
 export async function loadBaseMap(
+  // ★ 签名保留 `input` 只为不让调用方（含 `_tmp/` 的离屏验证脚本）跟着改；
+  //   本函数**已不读它的任何字段** —— 底图来源是常量 `STATICMAP_SRC`。
   input: PosterExportInput,
   d: PosterDayData,
 ): Promise<{ proj: MapProjection; base: BaseMap | null; note?: string }> {
@@ -253,15 +262,14 @@ export async function loadBaseMap(
   const k = Math.min(W / spanX, mapH / spanY) * MARGIN
 
   /**
-   * ★ 无 key 的降级必须在 `k` **算出来之后**再返回 —— `containProj()` 读的就是 `k`，
-   * 之前这段放在 `const k` 之前 ⇒ 走这条路直接 `ReferenceError: Cannot access 'k'
-   * before initialization`（TDZ），所谓"无底图照画路线"从来没生效过，整个导出会抛错。
-   * 常见触发场景：key 是在 dev server 启动后才写进 `.env.local`（vite 只在启动时读 env）。
+   * ★ 这里**不再有提前返回**了（2026-11-17）。原先是 `if (!input.amapKey) return …`
+   *   表示「没配 key 就不请求底图」；现在底图走同源函数、前端根本没有 key 这个概念，
+   *   函数未部署 / 冷启动失败 / 高德报错全部落到下面的 try/catch 降级（`base: null`）。
+   *
+   * ★★ 但那条历史坑必须继续记住：**任何提前返回都不能挪到 `const k` 之前** ——
+   *   `containProj()` 读的就是 `k`，挪前面直接 TDZ 报错、整个导出抛异常，
+   *   所谓「无底图照画路线」从来不生效（2026-10-17 踩过）。
    */
-  if (!input.amapKey) {
-    console.warn('[poster] 未配置 VITE_AMAP_WEB_KEY，海报无底图（路线与标记照画）')
-    return { proj: containProj(), base: null, note: '未配置 VITE_AMAP_WEB_KEY，底图未生成' }
-  }
 
   /**
    * 底图**必须盖满整个地图区**，否则露浅色空带。
@@ -307,14 +315,14 @@ export async function loadBaseMap(
    * 分辨率提升再加回 `boost` 档（`size` 同步放大 2^boost）。
    */
   const url =
-    `https://restapi.amap.com/v3/staticmap?` +
+    `${STATICMAP_SRC}?` +
     `location=${centerLng.toFixed(6)},${centerLat.toFixed(6)}` +
-    `&zoom=${amapZoomBase + boost}&size=${reqW}*${reqH}` +
-    `&key=${encodeURIComponent(input.amapKey)}`
+    `&zoom=${amapZoomBase + boost}&size=${reqW}*${reqH}`
 
-  // ★ 用 fetch（响应带 CORS 头，可读）而不是直接 img.crossOrigin ——
-  //   高德对错误**也回 HTTP 200 + JSON**（如 size 格式错的 20003），
-  //   img.onerror 只知道"挂了"不知道为什么；fetch 能把错误体打出来。
+  // ★ 用 fetch 而不是直接 img.crossOrigin —— 高德参数错误时**也回 HTTP 200 + JSON**
+  //   （如 size 格式错的 20003），img.onerror 只知道"挂了"不知道为什么。代理函数把
+  //   非图片响应统一转成 502 + 原始 JSON 体，这里就能把 `info` / `infocode` 提出来上 UI。
+  //   ★ 顺带的好处：同源请求 ⇒ canvas 天然不污染（原先靠高德返回的 CORS 头）。
   try {
     const res = await fetch(url)
     const ct = res.headers.get('content-type') ?? ''

@@ -394,7 +394,16 @@ pnpm preview         # 本地预览预渲染结果（务必用它验证 SEO 产�
   NODE_VERSION = "22"
   PNPM_VERSION = "12.16.1"     # 必须与 web/package.json 的 packageManager 同值
 
+# 海报底图代理（2026-11-17）。高德「Web服务」key 没有域名白名单 —— 那只属于
+# Web端(JS API) key，而静态图只认 Web服务 key ⇒ 浏览器直连就等于公开。
+# ★ directory **相对 base 解析** ⇒ 实际是 web/netlify/functions；写错只是 warning、
+#   函数静默不部署、海报永远无底图（站点照常上线，最难查的一类错）。
+[functions]
+  directory = "netlify/functions"
+
 # 地图 key 从 Netlify 环境变量注入（见下方「关于 key 泄露」）
+#   VITE_TMAP_KEY   → 编进 bundle（前端地图 + 路线）
+#   AMAP_WEB_KEY    → **不带 VITE_**，只给上面的函数读
 # 预渲染产物已是完整静态文件，无需 SPA fallback；
 # 仅为未预渲染的深层路径（如未来新增的客户端路由）兜底：
 [[redirects]]

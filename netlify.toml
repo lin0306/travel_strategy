@@ -28,6 +28,14 @@
   #   CI 与本地同版本才能保证 lockfile 解析行为一致（11.1.2 是 11.x 最早期的补丁版）。
   PNPM_VERSION = "12.16.1"
 
+# ★ Functions 目录**相对 base 解析**（base = "web"）⇒ 实际路径是 web/netlify/functions。
+#   目前只有一只 `staticmap.mjs`：海报底图代理。存在的原因是高德「Web服务」key
+#   **没有域名白名单**（那只属于 JS API），浏览器直连就等于公开 ⇒ 把请求挪到服务端，
+#   key 只从环境变量 `AMAP_WEB_KEY` 读（**不带 VITE_ 前缀**，永不进 bundle），
+#   域名白名单由函数自己校验 Referer。
+[functions]
+  directory = "netlify/functions"
+
 # 预渲染产物已是完整静态文件，无需 SPA fallback。
 # 仅为未预渲染的深层路径兜底：Netlify 只在文件不存在时才走这条规则，
 # 因此不会覆盖 /city/chengdu/index.html。
