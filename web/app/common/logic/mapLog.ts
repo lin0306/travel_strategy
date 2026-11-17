@@ -31,6 +31,7 @@
  * ② 探针可以 `window.__mapLog` 直接取（CDP 里不必再去 hook SDK 原型）
  */
 
+import { navKey, navSnapshot } from '~/common/logic/nav/navStore'
 import type { MapLevel } from '~/common/map/tencent'
 
 import { debugLog, setDebugLog } from './debugLog'
@@ -41,7 +42,7 @@ export interface MapLogEntry {
   seq: number
   /** 记录时刻（Date.now()） */
   at: number
-  /** 路由路径，如 `/province/610000` */
+  /** 层级键，如 `province:610000` / `city:chengdu`（不再是路径） */
   page: string
   /** 缩放，保留两位 */
   zoom: number
@@ -143,14 +144,15 @@ const listeners = new Set<() => void>()
 export type MapLogInput = Omit<MapLogEntry, 'seq' | 'at' | 'page'>
 
 /**
- * 当前路由。
+ * 当前层级。
  *
- * 调用方不必回答"我是哪一页" —— 这份日志永远记的是**此刻**这一页，
- * 而从 `location` 读比让四个页面各自传参更难写错。`paint` 只可能在客户端跑
- * （没地图就没有 paint），但仍留 `window` 判空，免得预渲染时抛错。
+ * 调用方不必回答"我是哪一页" —— 这份日志永远记的是**此刻**这一层。
+ * ★ 2026-11-18 前读的是 `location.pathname`；单页化之后它恒为 `/`，
+ *   记下来等于没记（四个层级的日志会长得一模一样）。改读导航键
+ *   （`city:chengdu` / `poi:chengdu:jinli` 这种），才有区分度。
  */
 function pageOf(): string {
-  return typeof window === 'undefined' ? '' : window.location.pathname
+  return typeof window === 'undefined' ? '' : navKey(navSnapshot())
 }
 
 /** 内容签名：只有它变了才值得记一条 */

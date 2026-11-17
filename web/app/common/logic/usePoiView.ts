@@ -12,8 +12,8 @@
  */
 
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { useNavigate, useParams } from 'react-router'
 
+import { navTo, useNavCityId, useNavPoiId } from '~/common/logic/nav/navStore'
 import { useFitOnce } from '~/common/logic/useFitOnce'
 import { useAddToPlan } from '~/common/logic/useAddToPlan'
 import { useMapShell, type MapShellContext } from '~/common/logic/mapShell'
@@ -40,10 +40,11 @@ export interface PoiView {
 }
 
 export function usePoiView(): PoiView {
-  const { cityId = '', poiId = '' } = useParams()
+  // ★ 城与景点都来自导航状态（路径恒为 `/`，`useParams()` 永远是空对象）
+  const cityId = useNavCityId() ?? ''
+  const poiId = useNavPoiId() ?? ''
   const shell = useMapShell()
   const addPoi = useAddToPlan()
-  const navigate = useNavigate()
   const [city, setCity] = useState<City | null>(null)
   const [loaded, setLoaded] = useState(false)
   const [gallery, setGallery] = useState(0)
@@ -147,6 +148,6 @@ export function usePoiView(): PoiView {
       // ★ 不换页，直接加进规划（plans/13 §6.5）。手上已有完整 Poi，顺手传进去省一次 loadCity
       if (poi) addPoi(poi.id, cityId, poi)
     },
-    backToCity: () => navigate(`/city/${cityId}`),
+    backToCity: () => navTo.city(cityId),
   }
 }

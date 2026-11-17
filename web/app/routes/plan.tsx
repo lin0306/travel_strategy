@@ -19,12 +19,13 @@
 import { useEffect } from 'react'
 
 import CityRoute from '~/routes/city'
+import { useNavCityId } from '~/common/logic/nav/navStore'
 import { usePlanStore } from '~/common/logic/itinerary/planStore'
 import { openPlanDetail, usePlanUi } from '~/common/logic/itinerary/planUi'
-import { useParams } from 'react-router'
 
 export default function PlanRoute() {
-  const { cityId = '' } = useParams()
+  // ★ 来自导航状态（路径恒为 `/`）
+  const cityId = useNavCityId() ?? ''
   const status = usePlanStore((s) => s.status)
   const load = usePlanStore((s) => s.load)
   const openPanel = usePlanUi((s) => s.openPanel)

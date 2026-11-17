@@ -169,6 +169,19 @@ function badgeWidth(node: DistrictGeoNode): number {
 }
 
 /**
+ * 一个徽标的**摆放结果**：画在哪 + 它本来属于哪。
+ *
+ * 两者分开是 `badgeLeaders`（引线）存在的前提 —— 徽标一旦被错开，
+ * `node` 的经纬度就不再是真实位置了，必须靠 `home` 把"它到底指哪里"带出来。
+ */
+export interface BadgePlacement {
+  /** 真正画出去的那个节点（被错开时 `lng`/`lat` 已是错开后的坐标） */
+  node: DistrictGeoNode
+  /** 真实锚点（未错开的位置）；原地摆放时与 `node` 的坐标完全相同 */
+  home: { lng: number; lat: number }
+}
+
+/**
  * 当前该显示的徽标，以及各自**要画在哪**。
  *
  * 判据刻意用"投影后的像素矩形"而不是"缩放级别阈值"：徽标挤不挤是**像素问题**，
@@ -183,13 +196,13 @@ function badgeWidth(node: DistrictGeoNode): number {
  *
  * @param all  这一级**全部**候选节点（不预先按视野筛）
  * @param view 视野（唯一读法是 `readViewport`，调用方传进来）
- * @returns adcode → 徽标锚点经纬度（多数与原坐标相同；被错开的那几个不同）
+ * @returns adcode → 摆放结果（`node` 多数与原坐标相同；被错开的那几个不同，且 `home` 记着原位）
  */
-export function layoutBadges(all: DistrictGeoNode[], view: Viewport): Map<string, DistrictGeoNode> {
+export function layoutBadges(all: DistrictGeoNode[], view: Viewport): Map<string, BadgePlacement> {
   const cull = view.width < NARROW_PX || all.length > BADGE_AVOID_OVER
 
   const placed: PlacedRect[] = []
-  const out = new Map<string, DistrictGeoNode>()
+  const out = new Map<string, BadgePlacement>()
 
   for (const n of [...all].sort(badgeRank)) {
     const p = projectToPixel({ lng: n.lng, lat: n.lat }, view)
@@ -204,11 +217,12 @@ export function layoutBadges(all: DistrictGeoNode[], view: Viewport): Map<string
       h: BADGE_H,
     })
 
-    const home = rectAt(ORIGIN)
-    if (!placed.some((r) => rectsIntersect(r, home, 2))) {
-      placed.push(home)
+    const home = { lng: n.lng, lat: n.lat }
+    const rectHome = rectAt(ORIGIN)
+    if (!placed.some((r) => rectsIntersect(r, rectHome, 2))) {
+      placed.push(rectHome)
       // 原位：坐标原样返回（省一次反算，也免得浮点往返引入漂移）
-      out.set(n.adcode, n)
+      out.set(n.adcode, { node: n, home })
       continue
     }
 
@@ -221,7 +235,10 @@ export function layoutBadges(all: DistrictGeoNode[], view: Viewport): Map<string
       const rect = rectAt(o)
       if (placed.some((r) => rectsIntersect(r, rect, 2))) continue
       placed.push(rect)
-      out.set(n.adcode, { ...n, ...unprojectPixel({ x: p.x + o.dx, y: p.y + o.dy }, view) })
+      out.set(n.adcode, {
+        node: { ...n, ...unprojectPixel({ x: p.x + o.dx, y: p.y + o.dy }, view) },
+        home,
+      })
       break
     }
     // 所有候选都被占了 ⇒ 不显示（而不是"画在原位压着别人"）

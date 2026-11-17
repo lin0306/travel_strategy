@@ -16,7 +16,6 @@
  */
 
 import { createContext, useContext } from 'react'
-import { useOutletContext } from 'react-router'
 
 /**
  * 页面登记给外壳的**两件事** —— 规划面板的「添加景点」要用。
@@ -40,9 +39,9 @@ import { useOutletContext } from 'react-router'
  *   · 否（首页 / 省级页 / 点位详情页 / **别的城市的城市页**）→ 由外壳浮一块出来
  *     （`common/ui/plan/SpotPicker`）。
  *
- * ★ 判据必须来自**页面自己**，不能用 URL 猜：`pathname === '/city/<id>'` 这种精确
- *   相等会把"行程深链 `/city/x/plan`"（它就是城市页！）、"点位深链 `/city/x/poi/y`"
- *   一起判错（前者会开两块清单、后者该开却不开）。页面自己知道自己的清单属于哪座城。
+ * ★ 判据必须来自**页面自己**，不能用导航层级猜：`level === 'city'` 会把
+ *   「行程层」（它就是城市页 + 右侧面板）、「景点层」一起判错
+ *   （前者会开两块清单、后者该开却不开）。页面自己知道自己的清单属于哪座城。
  */
 export interface PageSpotOps {
   /** 收起本页已打开的景点详情（含地图上的选中标记） */
@@ -239,9 +238,4 @@ export function useMapShell(): MapShellContext {
   const v = useContext(MapShellCtx)
   if (!v) throw new Error('useMapShell 只能在 map-shell 布局路由内使用')
   return v
-}
-
-/** 兼容 `useOutletContext` 的写法 —— 两种都可用，指向同一份值 */
-export function useMapShellOutlet(): MapShellContext {
-  return useOutletContext<MapShellContext>()
 }

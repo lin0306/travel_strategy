@@ -25,8 +25,8 @@
  */
 
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { useParams } from 'react-router'
 
+import { useNavCityId } from '~/common/logic/nav/navStore'
 import { useCityEntryFit } from '~/common/logic/useCityEntryFit'
 import { useAddToPlan } from '~/common/logic/useAddToPlan'
 import { useFitOnce } from '~/common/logic/useFitOnce'
@@ -103,14 +103,15 @@ export interface CityView {
    *   这个跳转不需要，url 不需要有任何变化」。所以它和 `setSelectedId` 是同一件事 ——
    *   保留成独立动作是因为**清单里那个「详情」按钮**要有自己的出口（行点击是"选中"、
    *   按钮是"明确要看详情"，两者今天汇合到一起了）。
-   *   详情**页**（`/city/:cityId/poi/:poiId`）仍然存在，留给外链 / SEO / 分享。
+   *   2026-11-18 起景点详情也只是一个层级（`navStore` 的 `poi`），不是独立地址。
    */
   openPoi: (id: string) => void
   addToPlan: (id: string) => void
 }
 
 export function useCityView(): CityView {
-  const { cityId = '' } = useParams()
+  // ★ 城市来自导航状态，不再来自 URL（2026-11-18 起路径恒为 `/`）
+  const cityId = useNavCityId() ?? ''
   const shell = useMapShell()
   const addPoi = useAddToPlan()
   /**

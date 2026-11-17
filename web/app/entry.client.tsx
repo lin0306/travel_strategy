@@ -21,6 +21,26 @@ import { StrictMode, startTransition } from 'react'
 import { hydrateRoot } from 'react-dom/client'
 import { HydratedRouter } from 'react-router/dom'
 
+/**
+ * ★★ 路径归一必须在**水合之前**做完（2026-11-18 单页化）。
+ *
+ * 预渲染只产出 `/` 一个页面，路由表也只有 index 一条。用户拿旧链接
+ * （`/city/chengdu`、收藏夹、别人发来的地址）进来时，React Router 会
+ * **先**匹配不到路由 → 渲染 404 → 外壳（`map-shell`）根本不挂载
+ * ⇒ 写在它 effect 里的归一逻辑永远不会执行。实测表现：停在 404 页不动，
+ * 而且地址栏还留着 `/city/chengdu`，看起来像"整个站坏了"。
+ *
+ * 所以这一行只能放在 `hydrateRoot` 之前：先让地址变成 `/`，RR 才会
+ * 匹配到 index、渲染出真正的那一页。
+ *
+ * ★ 保留 hash：`#itin=` 分享链接靠它带行程，归一不能把它一起抹掉。
+ * ★ 保留 `history.state`：RR 自己会往里面写 `key` / `usr`，丢掉会让
+ *   初次水合的后退行为错乱。
+ */
+if (typeof window !== 'undefined' && window.location.pathname !== '/') {
+  window.history.replaceState(window.history.state, '', '/' + window.location.hash)
+}
+
 startTransition(() => {
   hydrateRoot(
     document,

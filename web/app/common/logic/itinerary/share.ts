@@ -202,8 +202,12 @@ export interface ShareResult {
 /**
  * 生成分享链接。
  *
- * 为什么可行：我们已经在城市页用 URL 承载状态（`/city/:cityId/poi/:poiId`）。
- * 分享链接是同一思路的延伸 —— **URL 是可分享状态的唯一载体**，而这恰好不需要后端。
+ * 为什么可行：分享链接是一条**只带数据、不带导航**的地址 —— 打开后落到首页，
+ * 由 `navStore` 跳到行程层再导入。它不违反「URL 不承载导航状态」那条约定：
+ * 地址里除了 `#itin=` 什么都没有，页面层级始终由客户端状态决定。
+ *
+ * ★ 2026-11-18 起路径恒为 `/`，所以链接是 `origin + '/#itin=...'`。
+ *   之前是 `/city/:cityId/plan#itin=...` —— 那条路径已经不存在了。
  */
 export function buildShareUrl(
   origin: string,
@@ -214,7 +218,8 @@ export function buildShareUrl(
 ): ShareResult {
   const payload = buildSharePayload(cityId, stays, days, revealStayNames)
   const hash = `#itin=${compressToEncodedURIComponent(JSON.stringify(payload))}`
-  const url = `${origin}/city/${cityId}/plan${hash}`
+  // ★ 单页模式：路径部分是固定的 `/`，行程全在 hash 里
+  const url = `${origin}/${hash}`
 
   if (url.length > SHARE_URL_SOFT_LIMIT) {
     return {

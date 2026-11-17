@@ -30,6 +30,7 @@ import { Z_LAYER } from './zLayers'
 import { createTapGuard } from './tapGuard'
 
 import { layoutBadges } from './districtBadges'
+import { createBadgeLeaders } from './badgeLeaders'
 import { createGeometryStore } from './districtGeometry'
 import { createScopeOutline, SCOPE_GEOM_ID } from './districtScope'
 import { readViewport } from './viewport'
@@ -136,6 +137,11 @@ export function createDistrictLayer(map: TMap.Map, opts: DistrictLayerOptions): 
     geometries: [],
     zIndex: Z_LAYER.districtBadge,
   })
+  /**
+   * 错开徽标的**引线**（`badgeLeaders`）：被推开的牌子用一条虚线连回真实位置。
+   * 层级由它自己的 `zIndex`（比徽标小 0.5）决定，与创建顺序无关。
+   */
+  const leaders = createBadgeLeaders(map)
 
   let nodeByAdcode = new Map<string, DistrictGeoNode>()
   let hovered: string | null = null
@@ -189,15 +195,21 @@ export function createDistrictLayer(map: TMap.Map, opts: DistrictLayerOptions): 
     //   下一级。**必须在这里早退而不是"生成但透明"**：透明几何依然可点（同下面那条注释）。
     if (mode === 'reference') {
       badges.setGeometries([])
+      leaders.sync([])
       // ★ 签名跟着作废：几何已经清空，切回 `full` 时必须重设一次（否则徽标永远不回来）
       badgeSig = ''
       stats = { ...stats, zoom: readViewport(map).zoom, total: nodeByAdcode.size, badges: 0, badgeTexts: [] }
       return
     }
 
-    // ★ `layoutBadges` 返回的是**已经错开过的节点**（宽屏下游东/香港/澳门这类相碰的
+    // ★ `layoutBadges` 返回的是**已经错开过的节点**（宽屏下广东/中国香港/中国澳门这类相碰的
     //   牌子会被平移一格，经纬度已换算好），所以下面直接用它的取值，不需要再查原节点。
-    const shown = [...layoutBadges([...nodeByAdcode.values()], readViewport(map)).values()]
+    const view = readViewport(map)
+    const placements = [...layoutBadges([...nodeByAdcode.values()], view).values()]
+    const shown = placements.map((p) => p.node)
+    // 引线：只有被错开的那些才有（见 `badgeLeaders`）——**每次重绘都同步**，
+    // 否则 zoom 变了徽标归位而线还留在原处
+    leaders.sync(placements)
     // ★ 被裁掉的徽标**不生成几何**，而不是"生成但设成透明" ——
     //   透明几何依然可点，会出现"点到看不见的东西"。`stats()` 报的也是这一批
 
@@ -364,6 +376,8 @@ export function createDistrictLayer(map: TMap.Map, opts: DistrictLayerOptions): 
     clear() {
       polygons.setGeometries([])
       badges.setGeometries([])
+      // 引线一起清 —— 留着几条指向空处的虚线，比什么都不画更像渲染坏了
+      leaders.sync([])
       nodeByAdcode.clear()
       polygonPaths.clear()
       hovered = null
@@ -395,6 +409,7 @@ export function createDistrictLayer(map: TMap.Map, opts: DistrictLayerOptions): 
       //   不摘就会每换一次页多挂两个空覆盖物。`destroy()` 在基类 `MultiOverlay` 上。
       polygons.destroy()
       badges.destroy()
+      leaders.destroy()
       // ★ 判据的监听也要解（捕获阶段的六个事件，见 `tapGuard`）
       tap.destroy()
     },

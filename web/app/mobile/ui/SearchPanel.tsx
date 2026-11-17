@@ -19,8 +19,8 @@
  */
 
 import { useEffect, useRef } from 'react'
-import { useNavigate } from 'react-router'
 
+import { navTo } from '~/common/logic/nav/navStore'
 import { Icon } from '~/common/ui/Icon'
 import { useSearchUi } from '~/common/logic/searchUi'
 import { useSearch, type SearchHit } from '~/common/logic/useSearch'
@@ -38,7 +38,6 @@ export function MobileSearchPage() {
 function SearchPanel({ exiting }: { exiting: boolean }) {
   const s = useSearch()
   const close = useSearchUi((s2) => s2.closeSearch)
-  const navigate = useNavigate()
   const inputRef = useRef<HTMLInputElement>(null)
 
   // 进页即聚焦 —— 用户点这枚图标的意图就是"我要打字"
@@ -56,7 +55,7 @@ function SearchPanel({ exiting }: { exiting: boolean }) {
   /** 回首页（全国视图）。★ 先关自己再跳：留着它会在新页面上盖住地图 */
   const goHome = () => {
     close()
-    navigate('/')
+    navTo.nation()
   }
 
   const typed = s.query.trim().length > 0

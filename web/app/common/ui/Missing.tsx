@@ -11,8 +11,8 @@
  * 所以这里只给 `EmptyState`（图标 + 标题 + 说明 + 动作），由两端视图自己包壳。
  */
 
-import { useNavigate } from 'react-router'
 
+import { navTo } from '~/common/logic/nav/navStore'
 import { Icon } from '~/common/ui/Icon'
 import { EmptyState } from '~/common/ui/Overlay'
 
@@ -33,7 +33,6 @@ export function CityMissing() {
  *   退错一级会让人以为整站都坏了。
  */
 export function PoiMissing({ cityId, hasCity }: { cityId: string; hasCity: boolean }) {
-  const navigate = useNavigate()
   return (
     <EmptyState
       icon={<Icon name="alert" size="xl" />}
@@ -42,7 +41,7 @@ export function PoiMissing({ cityId, hasCity }: { cityId: string; hasCity: boole
       action={
         <button
           type="button"
-          onClick={() => navigate(hasCity ? `/city/${cityId}` : '/')}
+          onClick={() => (hasCity ? navTo.city(cityId) : navTo.nation())}
           className="mt-1 rounded-lg border border-line px-3 py-1.5 text-[12.5px]"
         >
           {hasCity ? '回到城市页' : '回到首页'}

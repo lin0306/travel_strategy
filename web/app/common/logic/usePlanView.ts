@@ -95,10 +95,10 @@ export interface PlanView {
 
 export function useItineraryView(
   /**
-   * 这条组属于哪座城。★ **不要**从 `useParams()` 里读 —— 这个钩子挂在**外壳**
-   * （`routes/map-shell.tsx`）上时，它根本不在 `/city/:cityId` 路由的内部，
-   * `useParams()` 是空的。城市一律由调用方给：
-   * 面板给「当前打开的那条组」的 `cityId`，页面（如果还有）给 URL 参数。
+   * 这条组属于哪座城。★ **不要**在钩子里自己读导航状态 —— 这个钩子挂在**外壳**
+   * （`routes/map-shell.tsx`）上，那里可能是首页或省级页，当前层级未必是它。
+   * 城市一律由调用方给：面板给「当前打开的那条组」的 `cityId`，
+   * 页面（如果还有）给 `useNavCityId()`。
    */
   cityId: string,
   /**

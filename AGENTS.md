@@ -86,7 +86,7 @@ cd web && pnpm typecheck  # tsc --noEmit
 ★★ **`build <city>` 会覆盖 `cities.index.json`**（只剩一城）—— 除非你就是要单城，否则跑全量 `build`。
 ★ `web/dist` 1 万+ 文件，`pnpm build` 会撞 `SAFE_DELETE_BULK_CONFIRM_REQUIRED`，解法：
 `NODE_OPTIONS= CODEBUDDY_SAFE_DELETE_ENABLED=0 npx react-router build`。
-（Windows 下还会偶发 `EPERM rmdir` 锁在某个 `dist/client/city/<城>/poi/<点>` 上 —— 删掉 `web/dist` 重跑即可，与代码无关。）
+（Windows 下还会偶发 `EPERM rmdir` 锁在 `dist/client/` 某个子目录上 —— 删掉 `web/dist` 重跑即可，与代码无关。）
 
 ★★ **Netlify 的 `publish` 必须是 `dist/client`，写 `dist` 会全站 404**（2026-11-16 实测修正）：
 `web/dist/` 下**只有** `client/` 一个目录（`ssr:false` 时 server 构建被删除），`web/dist/index.html` 不存在
@@ -135,6 +135,10 @@ cd web && pnpm typecheck  # tsc --noEmit
 8. **图片只用开放许可，必带 credit**（`data/**/*.json` 的 `author` 是 CC 署名，不许删）。
 9. **未收录 = 「待收录」灰虚线，绝不显示 0**（`null ≠ 0`）。
 10. **行政边界只能来自持牌图商/官方平台**，绝不用第三方 GeoJSON（版图完整性属《地图管理条例》）。
+11. **URL 不承载任何状态**（2026-11-18 用户定）：地址栏恒为 `/`，层级只走
+    `common/logic/nav/navStore.ts`（持久化在 `data/uiState.ts` 的 sessionStorage 里）。
+    别把 `route('city/:cityId')` 加回来 —— `routes.ts` 现在只有 index 一条，护栏 **A3** 会拦。
+    两套"我在哪"必然漂移，而漂移时**不报错**。
 
 ### B. 数据结构
 

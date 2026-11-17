@@ -35,8 +35,8 @@
  */
 
 import { useEffect, useRef, useState } from 'react'
-import { useNavigate } from 'react-router'
 
+import { navTo } from '~/common/logic/nav/navStore'
 import { Icon } from '~/common/ui/Icon'
 import { Overlay } from '~/common/ui/Overlay'
 import { useItemPresence } from '~/common/ui/usePresence'
@@ -48,7 +48,6 @@ import { loadProvinceDetail, type ProvinceDetail } from '~/common/data/regions'
 import { provinceFullname, type RegionNav } from '~/common/logic/regionNav'
 
 export function RegionPanel({ nav }: { nav: RegionNav }) {
-  const navigate = useNavigate()
   /* 退场那 160ms 里 `region` 已经清空，但屏幕上还得是原来那张卡（`useItemPresence`） */
   const pres = useItemPresence(nav.region)
   const sel = pres.item
@@ -174,7 +173,7 @@ export function RegionPanel({ nav }: { nav: RegionNav }) {
           cityId ? (
             <button
               type="button"
-              onClick={() => navigate(`/city/${cityId}`)}
+              onClick={() => navTo.city(cityId)}
               className="flex w-full items-center justify-between px-3.5 py-2.5 text-[12.5px] hover:bg-bg"
             >
               <span>进入城市页看全部景点</span>

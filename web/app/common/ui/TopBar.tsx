@@ -86,8 +86,8 @@
  * 理由与被删掉的那套设计的代价写在 `basemap.ts` 文件头。
  */
 
-import { useNavigate } from 'react-router'
 
+import { navTo } from '~/common/logic/nav/navStore'
 import { Icon } from '~/common/ui/Icon'
 import { BasemapMenu } from '~/common/ui/BasemapMenu'
 import { Brand } from '~/common/ui/Brand'
@@ -323,7 +323,6 @@ function FullscreenButton() {
 
 export function TopBar({ actions, shell, variant = 'browse' }: TopBarProps) {
   const { basemap, setBasemapKind, setBasemapLevel, toggleBasemapDetail } = shell
-  const navigate = useNavigate()
   const mobile = useIsMobile()
 
   const browse = variant === 'browse'
@@ -339,7 +338,7 @@ export function TopBar({ actions, shell, variant = 'browse' }: TopBarProps) {
       className="h-[var(--topbar-h)] flex-row items-center gap-3 pr-2.5 pl-3.5"
     >
       {/* ① 站标。★ 它可点回首页 —— 到了城市页之后，站标是"回首页"最顺手的出口 */}
-      <Brand onHome={() => navigate('/')} />
+      <Brand onHome={() => navTo.nation()} />
 
       {/* ② 搜索框：原型里占满中段。窄屏不渲染（顶栏一行放不下）。
              ★ 它也是**唯一的换级入口** —— 地区显示撤掉之后，见文件头 */}

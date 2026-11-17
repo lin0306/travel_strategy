@@ -75,8 +75,8 @@ export interface RevealState {
 
 export interface UseMapRevealOptions {
   /**
-   * 本页路由对应的**基准层级**：
-   * `/` → `'province'`、`/province/:adcode` → `'city'`。
+   * 本页的**基准层级** —— 调用方按"自己是谁"给（2026-11-18 起与 URL 无关）：
+   * 首页 → `'province'`、省级页 → `'city'`。
    * 揭示只会比它更深；连它都没有内容时也不再退（那是这一页的立身之本）。
    */
   base: MapLevel

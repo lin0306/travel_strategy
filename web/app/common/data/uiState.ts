@@ -52,7 +52,7 @@ export type PoiSortStored = 'hot' | 'score' | 'name'
 
 /** 地图视野。★ 必须带 `path`：换页之后仍然走各页自己的入口取景 */
 export interface StoredView {
-  /** 存下来时的 `location.pathname` */
+  /** 存下来时的页面身份键（单页模式下是 `navKey()`，如 `city:chengdu`） */
   path: string
   lng: number
   lat: number
@@ -72,6 +72,19 @@ export interface StoredFilter {
   sort: PoiSortStored
 }
 
+/**
+ * 当前层级（2026-11-18 起 URL 不再承载它）。
+ *
+ * ★ 只存**语义字段**，不做校验 —— 校验在 `logic/nav/navStore.ts`（它认得
+ *   每个 level 该有哪些键）。data 层多一份校验就会两处漂移。
+ */
+export interface StoredNav {
+  level: 'nation' | 'province' | 'city' | 'poi' | 'plan'
+  adcode?: string
+  cityId?: string
+  poiId?: string
+}
+
 export interface UiState {
   /** 格式版本。改结构时 +1 —— 旧值一律丢弃，不做迁移（这几个字段丢了无所谓） */
   v: 1
@@ -81,6 +94,8 @@ export interface UiState {
   picks: Record<string, string | null>
   /** key = 城市 id */
   filters: Record<string, StoredFilter>
+  /** 当前层级（刷新恢复用）。★ 与 `view.path` 同一个身份口径 */
+  nav: StoredNav | null
 }
 
 const KEY = 'chexing:ui'
@@ -92,6 +107,7 @@ const EMPTY: UiState = {
   plan: { open: false, activeId: null, day: 1 },
   picks: {},
   filters: {},
+  nav: null,
 }
 
 /** sessionStorage 存不可用时的内存兜底（与 `storage.ts` 同策略：能用就用，不能就退化） */
@@ -133,6 +149,7 @@ export function readUiState(): UiState {
       plan: { ...EMPTY.plan, ...(parsed.plan ?? {}) },
       picks: parsed.picks ?? {},
       filters: parsed.filters ?? {},
+      nav: parsed.nav ?? null,
     }
   } catch {
     // 旧格式 / 手改坏了：当作没有。**不要抛** —— 一个坏键不该让页面打不开
@@ -158,6 +175,16 @@ export function patchFilter(cityId: string, filter: StoredFilter): void {
   patchUiState({ filters: { ...cur.filters, [cityId]: filter } })
 }
 
+/** 读当前层级（没有就是 null，由调用方决定退回首页） */
+export function readNav(): StoredNav | null {
+  return readUiState().nav
+}
+
+/** 写当前层级 */
+export function writeNav(nav: StoredNav | null): void {
+  patchUiState({ nav })
+}
+
 /** 只写视野 */
 export function patchView(view: StoredView): void {
   patchUiState({ view })
@@ -174,33 +201,45 @@ export function patchPlanUi(patch: Partial<StoredPlanUi>): void {
  * ────────────────────────────────────────────── */
 
 /**
- * **页面加载时**那条 `pathname`。
+ * **页面加载时**所处的身份键。
  *
  * ★ 这就是"刷新恢复"与"导航进页面"的分界线，而且比时间窗可靠：
- *   · 刷新：`pathname` 与它相同 ⇒ 用会话里的视野，**入口取景让位**；
- *   · 从首页点进城市页：路径不同 ⇒ 正常走入口取景（fit 行政区）；
- *   · 从景点详情返回城市页：路径又相同 ⇒ 回到"上次在城市页看的那个位置"
+ *   · 刷新：身份键与它相同 ⇒ 用会话里的视野，**入口取景让位**；
+ *   · 从首页点进城市页：键不同 ⇒ 正常走入口取景（fit 行政区）；
+ *   · 从景点详情返回城市页：键又相同 ⇒ 回到"上次在城市页看的那个位置"
  *     （这比重新 fit 全城更贴近用户预期）。
+ *
+ * ⚠️ 2026-11-18 前这里比的是 `location.pathname`。单页化之后路径恒为 `/`，
+ *    再比路径就永远不等 ⇒ **视野恢复整条静默失效**（不报错，只是刷新后视野变了）。
+ *    所以改由 `navStore.hydrateNav()` 在接回层级时**显式标记**一次。
  */
-let bootPathCache: string | null = null
+let bootPageCache: string | null = null
 
-function bootPath(): string {
-  if (bootPathCache === null) {
-    bootPathCache = typeof window === 'undefined' ? '' : window.location.pathname
+/** 标记"加载时我在哪一层"。只有 `navStore.hydrateNav()` 调，别处不许调 */
+export function markBootPage(key: string): void {
+  bootPageCache = key
+}
+
+function bootPage(): string {
+  if (bootPageCache === null) {
+    // 兜底：没人标记时退回路径（预渲染 / 未来若恢复路由，这条仍然成立）
+    bootPageCache = typeof window === 'undefined' ? '' : window.location.pathname
   }
-  return bootPathCache
+  return bootPageCache
 }
 
 /**
  * 这一页**该用会话里存的视野**吗？是则返回它（同时供"建图初值"与"跳过入口取景"两处用）。
  *
- * 两个条件缺一不可：`pathname` 与加载时相同、且存下的视野**也是这条路径的**。
+ * 两个条件缺一不可：身份键与加载时相同、且存下的视野**也是这一页的**。
  * 后者防的是"在别的页面存了视野、却拿到这一页来用"。
+ *
+ * @param pageKey 页面身份键 —— 单页模式下是 `navKey()`（如 `city:chengdu`）
  */
-export function restoredViewFor(pathname: string): StoredView | null {
-  if (!pathname || pathname !== bootPath()) return null
+export function restoredViewFor(pageKey: string): StoredView | null {
+  if (!pageKey || pageKey !== bootPage()) return null
   const v = readUiState().view
-  if (!v || v.path !== pathname) return null
+  if (!v || v.path !== pageKey) return null
   // 字段类型校验：手改坏了不该让地图飞到 NaN 去
   if (typeof v.lng !== 'number' || typeof v.lat !== 'number' || typeof v.zoom !== 'number') return null
   if (!Number.isFinite(v.lng) || !Number.isFinite(v.lat) || !Number.isFinite(v.zoom)) return null

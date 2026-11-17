@@ -43,7 +43,23 @@
     "部分特展禁止拍照，以现场标识为准",
     "与河南艺术中心、文化馆连通，可以一并逛"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/%E9%83%91%E5%B7%9E%E7%BE%8E%E6%9C%AF%E9%A6%86.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/%E9%83%91%E5%B7%9E%E7%BE%8E%E6%9C%AF%E9%A6%86.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1080,
+      "height": 744,
+      "alt": "郑州美术馆.png",
+      "query": "Henan Art Museum 郑州",
+      "credit": {
+        "source": "wikimedia",
+        "author": "栽一棵树",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%83%91%E5%B7%9E%E7%BE%8E%E6%9C%AF%E9%A6%86.png",
+        "license": "CC BY-SA 3.0",
+        "attributionRequired": true
+      }
+    }
+  ],
   "coverIndex": 0,
   "tags": [
     "美术馆",
@@ -107,5 +123,6 @@
     ]
   },
   "_geocodeTitle": "河南省美术馆",
-  "_geocodeSuspect": false
+  "_geocodeSuspect": false,
+  "district": "410105"
 }

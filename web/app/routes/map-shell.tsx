@@ -23,7 +23,6 @@
  */
 
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { Outlet, useLocation } from 'react-router'
 
 import { MapFallback } from '~/common/ui/MapFallback'
 import { MapStatusCard } from '~/common/ui/MapStatusCard'
@@ -53,6 +52,9 @@ import {
 import { useIsMobile } from '~/common/logic/useViewport'
 import { readViewport, useTMap, type ViewportChange } from '~/common/map/tencent'
 import { patchView, restoredViewFor } from '~/common/data/uiState'
+import { hydrateNav, navTo, useNavKey } from '~/common/logic/nav/navStore'
+import { parseShareHash } from '~/common/logic/itinerary/share'
+import { NavView } from './nav-view'
 
 /**
  * ★★ 「规划详情态」与「认领名单」的判据**已搬到 `common/logic/planFocus.ts`**。
@@ -66,8 +68,13 @@ import { patchView, restoredViewFor } from '~/common/data/uiState'
 export default function MapShellRoute() {
   /** 端别。★ 唯一出处是 `useViewport`（媒体查询，不是 UA），与页面薄壳读的是同一份快照 */
   const isDesktopViewport = !useIsMobile()
-  /** 当前路由 —— 顶上的"视野恢复"与下面的"换页清浮层"都要用，所以在这里一次取好 */
-  const { pathname } = useLocation()
+  /**
+   * 当前层级键（如 `city:chengdu`）—— 顶上的「视野恢复」与下面的「换层清浮层」都要用。
+   *
+   * ★ 2026-11-18 起 URL 恒为 `/`，`pathname` 永远是 `/`、不再能区分页面；
+   *   所有原本按路径区分的地方一律改用这个键（见 `nav/navStore.ts`）。
+   */
+  const navK = useNavKey()
   const containerRef = useRef<HTMLDivElement | null>(null)
   const overlaysRef = useRef<Array<HTMLElement | null>>([])
   const [fallbackData, setFallbackData] = useState<FallbackData>({ pins: [] })
@@ -80,7 +87,27 @@ export default function MapShellRoute() {
    * 这里挂**全站唯一的布局路由**，一次接回；写回仍走 store 动作，不改任何开关逻辑。
    */
   useEffect(() => {
+    // 先接回「我在哪」（会话内刷新不丢层级），再接回面板开合
+    hydrateNav()
     restorePanelUi()
+
+    /**
+     * 分享链接的**落点**。
+     *
+     * 链接形如 `https://site/#itin=xxx` —— 地址里没有路径信息，所以必须由外壳
+     * 先解析出城市、跳到行程层；**真正的导入仍留在 `usePlanView`**（那里有行程
+     * store 的就绪态）。这里只做路由，不碰数据。
+     *
+     * ★ 失败分支要清 hash 并提示：留着它，用户刷新一次就又失败一次，
+     *   而画面上什么都不会变，看起来像"链接卡住了"。
+     */
+    const shared = parseShareHash(window.location.hash)
+    if (shared?.ok) {
+      navTo.plan(shared.cityId)
+    } else if (shared) {
+      usePlanUi.getState().hint(shared.error)
+      window.history.replaceState(null, '', '/')
+    }
   }, [])
 
   /**
@@ -165,16 +192,16 @@ export default function MapShellRoute() {
       // ★ 视野的**唯一读法**是 `readViewport()`（护栏 V 拦的正是直接 `getCenter()`/`getZoom()`）：
       //   地图正在移动时，同一帧里分头读会拿到不同的中心，而这里要写的是一份"终值"
       const v = readViewport(m, el)
-      patchView({ path: pathname, lng: v.centerLng, lat: v.centerLat, zoom: v.zoom })
+      patchView({ path: navK, lng: v.centerLng, lat: v.centerLat, zoom: v.zoom })
     },
-    [refreshView, pathname],
+    [refreshView, navK],
   )
 
   /**
    * 「这一页该不该用会话里存的视野」—— 刷新（或从别的页回到**加载时那条路径**）时为真，
    * 此时建图直接用存下的中心与缩放，同时各页的**入口取景会让位**（见 `useFitOnce`）。
    */
-  const restoredView = useMemo(() => restoredViewFor(pathname), [pathname])
+  const restoredView = useMemo(() => restoredViewFor(navK), [navK])
 
   const tmap = useTMap({
     containerRef,
@@ -208,6 +235,23 @@ export default function MapShellRoute() {
     }
   }, [tmap.map])
 
+  /**
+   * DEV 探针：把 `navTo` 挂到 `window.__nav`（与 `__tmap` 同一档次的观测口）。
+   *
+   * ## 为什么验收脚本不能直接 `import('/app/.../navStore.ts')`
+   * 改动过该文件之后，Vite 加载应用用的是 `navStore.ts?t=1758…`，
+   * 而脚本 import 裸路径会拿到**另一个模块实例** —— store 变了、UI 不动，
+   * 而且两边都不报错。只走这个出口才保证是同一个实例。
+   */
+  useEffect(() => {
+    if (!import.meta.env.DEV) return
+    const g = window as unknown as { __nav?: typeof navTo }
+    g.__nav = navTo
+    return () => {
+      delete g.__nav
+    }
+  }, [])
+
   // 每次渲染后收集浮层（父 effect 晚于子组件执行，此时 DOM 已完整）
   useEffect(() => {
     const root = containerRef.current?.parentElement
@@ -239,7 +283,7 @@ export default function MapShellRoute() {
   const [searchPick, setSearchPick] = useState<SearchPick | null>(null)
   useEffect(() => {
     setSearchPick(null)
-  }, [pathname])
+  }, [navK])
 
   /**
    * ★ 「挑景点」浮层**也跟着换页清**（与上面那条同源理由）：它的意图同样属于
@@ -247,13 +291,13 @@ export default function MapShellRoute() {
    *   这座城的清单**（城市页）—— 留着它就变成同屏两份清单
    *   （正是 `PageSpotOps.spotListCity` 要避免的那件事）。
    *   ★ 单独一个 effect 而不是并进上面那条：两条各自只有一个职责，
-   *     上面那条同时被 AA④ 的护栏盯着（"清空必须就挂在 `[pathname]` 上"）。
+   *     上面那条同时被 AA④ 的护栏盯着（"清空必须就挂在 `[navK]` 上"）。
    */
   useEffect(() => {
     usePlanUi.getState().closeSpotPicker()
     // ★ 「关于」弹窗同理：它的意图属于"这一次交互"，不是可长期持有的状态
     useDocUi.getState().closeAbout()
-  }, [pathname])
+  }, [navK])
 
   /**
    * ⚠️ 只在**失败**时切降级画布，不在 `loading` 时切。
@@ -315,7 +359,7 @@ export default function MapShellRoute() {
 
       {/* ③ 页面浮层 */}
       <MapShellCtx.Provider value={ctx}>
-        <Outlet context={ctx} />
+        <NavView />
         {/* ③′ 右侧「路线规划」浮层 —— ★ 长在**外壳**而不是页面里。
                入口按钮在每个页面的顶栏各有一份，而面板全站只能有一块
                （否则四个页面各挂一次 = 四份实例抢同一份全局状态）。

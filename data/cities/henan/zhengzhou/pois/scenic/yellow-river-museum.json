@@ -42,7 +42,38 @@
     "展厅以图文和模型为主，互动设备少，低龄孩子耐心有限",
     "周一闭馆，出发前确认当天是否开放"
   ],
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/%E9%83%91%E5%B7%9E%E9%BB%84%E6%B2%B3%E5%8D%9A%E7%89%A9%E9%A6%86.jpg/1280px-%E9%83%91%E5%B7%9E%E9%BB%84%E6%B2%B3%E5%8D%9A%E7%89%A9%E9%A6%86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/%E9%83%91%E5%B7%9E%E9%BB%84%E6%B2%B3%E5%8D%9A%E7%89%A9%E9%A6%86.jpg/1280px-%E9%83%91%E5%B7%9E%E9%BB%84%E6%B2%B3%E5%8D%9A%E7%89%A9%E9%A6%86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "郑州黄河博物馆.jpg",
+      "query": "黄河博物馆 郑州",
+      "credit": {
+        "source": "wikimedia",
+        "author": "NAN LIU",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%83%91%E5%B7%9E%E9%BB%84%E6%B2%B3%E5%8D%9A%E7%89%A9%E9%A6%86.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/%E9%BB%84%E6%B2%B3%E5%8D%9A%E7%89%A9%E9%A6%86%E8%97%8F%E5%93%81.jpg/1280px-%E9%BB%84%E6%B2%B3%E5%8D%9A%E7%89%A9%E9%A6%86%E8%97%8F%E5%93%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/%E9%BB%84%E6%B2%B3%E5%8D%9A%E7%89%A9%E9%A6%86%E8%97%8F%E5%93%81.jpg/1280px-%E9%BB%84%E6%B2%B3%E5%8D%9A%E7%89%A9%E9%A6%86%E8%97%8F%E5%93%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "黄河博物馆藏品.jpg",
+      "query": "黄河博物馆 郑州",
+      "credit": {
+        "source": "wikimedia",
+        "author": "NAN LIU",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%BB%84%E6%B2%B3%E5%8D%9A%E7%89%A9%E9%A6%86%E8%97%8F%E5%93%81.jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
   "coverIndex": 0,
   "tags": [
     "博物馆",
@@ -106,5 +137,6 @@
     ]
   },
   "_geocodeTitle": "黄河博物馆",
-  "_geocodeSuspect": false
+  "_geocodeSuspect": false,
+  "district": "410108"
 }

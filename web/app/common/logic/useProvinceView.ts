@@ -35,8 +35,8 @@
  */
 
 import { useCallback, useEffect, useMemo, useState } from 'react'
-import { useNavigate, useParams } from 'react-router'
 
+import { navTo, useNavAdcode } from '~/common/logic/nav/navStore'
 import { drillTo, parentCityOf, sameDistrict, type FocusSources } from '~/common/logic/districtFocus'
 import { useFitOnce } from '~/common/logic/useFitOnce'
 import { useIsMobile } from '~/common/logic/useViewport'
@@ -82,10 +82,10 @@ export interface ProvinceView {
 }
 
 export function useProvinceView(): ProvinceView {
-  const { adcode = '' } = useParams()
+  // ★ 省级 adcode 来自导航状态，不再来自 URL
+  const adcode = useNavAdcode() ?? ''
   const shell = useMapShell()
   const addPoi = useAddToPlan()
-  const navigate = useNavigate()
   const isMobile = useIsMobile()
   // ★ 点徽标落到"一个景点都没有的区"时用它说一句话（`FocusTarget.empty`）。
   //   用 `hint` 不用 `showToast`：这条是"这一下为什么没成"，**到点自己消失**
@@ -399,7 +399,7 @@ export function useProvinceView(): ProvinceView {
     title: detail?.province?.fullname ?? '省级视图',
     pickCity: (row) => {
       // ★ 未收录的市在清单里是 disabled 的，这里再判一次只是兜底 —— 不给 `cityId!`
-      if (row.cityId) navigate(`/city/${row.cityId}`)
+      if (row.cityId) navTo.city(row.cityId)
     },
     selected: sel.selected,
     selectedCityName: sel.cityName,

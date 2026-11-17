@@ -256,6 +256,9 @@ def check_barrels() -> None:
     # A3: 路由表里的模块路径是否存在。
     #     `routes.ts` 用的是 `layout('routes/x.tsx', …)` 这种**字符串**形式，
     #     不在 import 语法里，上面那两条正则都不覆盖 —— 路由文件改个名就静默 404。
+    #
+    #     ★ 2026-11-18 单页化：路由表只剩「外壳 + 首页」两条，所以**不再按数量判定**
+    #       （原来卡 min_count=4）。改判两件事：引用的模块真实存在 + 页面路由没被加回来。
     routes_file = WEB / 'app' / 'routes.ts'
     r_problems: list[str] = []
     r_hits = 0
@@ -265,10 +268,17 @@ def check_barrels() -> None:
             r_hits += 1
             if not (WEB / 'app' / spec).exists():
                 r_problems.append(f'routes.ts 引用了不存在的模块 app/{spec}')
+        # 单页约束：URL 不承载层级 ⇒ 不许再声明 city / province / poi / plan 路由。
+        # 加回来不会报错，只会让「地址栏固定」这条约定静默失效。
+        if re.search(r'\b(?:route|index)\(\s*[\'"](?:city|province|poi|plan)[/\'"]', text):
+            r_problems.append(
+                'routes.ts 又声明了页面路由（city/province/poi/plan）—— '
+                '单页模式已被打破：URL 一旦表达层级，navStore 就变成第二份真源'
+            )
     else:
         r_problems.append('缺少 app/routes.ts')
 
-    check('A3. 路由表引用的模块存在', r_problems, min_count=4, count=r_hits)
+    check('A3. 路由表引用的模块存在', r_problems, min_count=2, count=r_hits)
 
 
 # ────────────────────────────────────────────────
@@ -3653,7 +3663,7 @@ SEARCH_PICKED_WIRINGS = (
 SEARCH_INDEX_NAME = 'search-index.json'
 # 换页清空：`setSearchPick(null)` 必须挂在 `[pathname]` 这个 effect 里
 #   （光有这一句不算 —— 挂在别处的调用清不掉"带着命中切页"那一瞬间的状态）
-SEARCH_PICK_CLEAR_RE = re.compile(r'setSearchPick\(null\)\s*\}?\s*,\s*\[\s*\w*pathname\w*\s*\]')
+SEARCH_PICK_CLEAR_RE = re.compile(r'setSearchPick\(null\)\s*\}?\s*,\s*\[\s*\w*(?:pathname|navK)\w*\s*\]')
 # 关闭面板要清两个源。★ 用"定义体"而不是"文件里有没有这两个名字"：
 #   两个名字分开出现时（比如 `clearPick` 只用在 `isCurrent` 旁边）光查名字会放行。
 CLOSE_POI_CLEARS_BOTH_RE = re.compile(
@@ -3732,7 +3742,7 @@ def check_search() -> None:
     shell_text = strip_comments_keep_lines((WEB / SEARCH_SHELL_REL).read_text(encoding='utf-8'))
     if not SEARCH_PICK_CLEAR_RE.search(shell_text):
         problems.append(
-            f'{SEARCH_SHELL_REL} 没有"换页清空 searchPick"（缺挂在 `[pathname]` 上的 '
+            f'{SEARCH_SHELL_REL} 没有"换页清空 searchPick"（缺挂在 `[navK]` / `[pathname]` 上的 '
             '`setSearchPick(null)`）—— 搜索命中之后切页，下一个页面一进来就会弹出'
             '一枚它根本没在显示的点位的详情'
         )
@@ -6280,6 +6290,57 @@ def check_layer_style_ids() -> None:
                 '两套样式 id 混用，SDK 不报错、徽标静默退化'
             )
 
+    # ── ③½ 错开的徽标必须有引线（否则"标签飘到海里"没有任何东西指认它属于哪）──
+    #
+    # 2026-11-18 用户看着全国视图说「这个标签都跑哪去了」——`layoutBadges` 把粤港澳推开了
+    # 一格（34×30px），在 z4.57 那是上百公里，牌子和底图上的「香港特别行政区」对不上，
+    # 读起来就是标错了地方。修法是给被错开的牌子画一条虚线连回真实锚点。
+    # 这一项守的是"引线链路完整"——它有三个容易各自静默失效的接点：
+    #   ① 只建了图层但没人调用（线永远不出来）
+    #   ② `repaintBadges` 里不同步 ⇒ zoom 变了徽标归位、线还停在旧位置
+    #   ③ `destroy` 不摘 ⇒ 换页后再回来会多挂一层空覆盖物
+    hits += 1
+    bl_rel = 'app/common/map/tencent/badgeLeaders.ts'
+    if not (WEB / bl_rel).exists():
+        problems.append(f'缺 {bl_rel} —— 错开的徽标没有引线，位置看起来就是错的')
+    else:
+        bl = strip_comments(read_app(bl_rel))
+        if 'export function createBadgeLeaders(' not in bl:
+            problems.append(f'{bl_rel} 没有导出 `createBadgeLeaders(`')
+        if 'new TMap.MultiPolyline(' not in bl:
+            problems.append(f'{bl_rel} 没有建 `MultiPolyline` 图层 —— 引线画不出来')
+        if 'const leaders = createBadgeLeaders(map)' not in dl:
+            problems.append(
+                f'{dl_rel} 没有调用 `createBadgeLeaders(map)` —— 图层建了也没人用'
+            )
+        rb_leaders = _brace_body(dl, r'function repaintBadges\(')
+        # ⚠️ 判据必须写成 `leaders.sync(placements)` 而不是 `leaders.sync(` ——
+        #   函数开头 reference 档的 `leaders.sync([])` 也在同一个函数体里，
+        #   只判前缀的话"把正常路径的同步删了"仍然判绿（第一版反证就是这么漏的）。
+        if 'leaders.sync(placements)' not in rb_leaders:
+            problems.append(
+                f'{dl_rel} 的 `repaintBadges` 没有 `leaders.sync(placements)` —— '
+                '徽标重摆了而引线不跟，zoom 变化后线会停在旧位置'
+            )
+        if 'leaders.sync([])' not in rb_leaders:
+            problems.append(
+                f'{dl_rel} 的 `repaintBadges` 在 reference 档没有 `leaders.sync([])` —— '
+                '不画徽标的那一档还留着几条指向空处的虚线'
+            )
+        if 'leaders.destroy()' not in dl:
+            problems.append(
+                f'{dl_rel} 的 `destroy` 没有 `leaders.destroy()` —— '
+                '地图实例跨页复用，不摘就会每换一次页多挂一层空覆盖物'
+            )
+        # 引线的起点来自 `layoutBadges` 返回的 `home`；只能放坐标不许放节点
+        if 'home: { lng: number; lat: number }' not in strip_comments(
+            read_app('app/common/map/tencent/districtBadges.ts')
+        ):
+            problems.append(
+                '`districtBadges.BadgePlacement` 丢了 `home` —— '
+                '徽标被错开后就没有"真实锚点"了，引线无从画起'
+            )
+
     # ── ④ 面样式表必须覆盖 `faceStyleId` 会返回的每一个 id ──
     hits += 1
     pb = _brace_body(ds, r'export function buildDistrictStyles\(')
@@ -6339,7 +6400,7 @@ def check_layer_style_ids() -> None:
             '用 rgba(...) 让线不再压过底图'
         )
 
-    check(label, problems, 5, hits)
+    check(label, problems, 6, hits)
 
 
 def check_district_outline_source() -> None:
@@ -8540,7 +8601,11 @@ def check_hydration_and_face_level() -> None:
     hits += 1
     if 'restore' + 'PanelUi()' not in ms:
         problems.append('map-shell 没有调用水合后恢复 —— 刷新后面板永远回不到打开状态')
-    if not re.search(r'useEffect\(\(\) => \{\s*restorePanelUi\(\)\s*\}, \[\]\)', ms):
+    # ★ 2026-11-18：挂载 effect 里现在不止恢复面板（还有 hydrateNav 与分享落点），
+    #   所以只断言「restorePanelUi() 出现在某个 useEffect(() => { 的开头附近」，
+    #   不再要求整个 effect 只有那一句 —— 判据落在**行为**（恢复发生在水合后），
+    #   而不是落在一段恰好对得上的源码形状上。
+    if not re.search(r'useEffect\(\(\) => \{[\s\S]{0,300}?restorePanelUi\(\)', ms):
         problems.append(
             '恢复没挂在挂载 effect 上 —— 放在渲染期就又变回"首帧读存储"'
         )

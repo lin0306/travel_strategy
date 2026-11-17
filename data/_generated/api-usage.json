@@ -8,8 +8,8 @@
         "quota": 10000
       },
       "place_search": {
-        "requests": 192,
-        "units": 192,
+        "requests": 200,
+        "units": 200,
         "quota": 200
       }
     }
@@ -18,11 +18,11 @@
     "period": "2026-11",
     "apis": {
       "amap_place": {
-        "requests": 88,
-        "units": 88,
+        "requests": 106,
+        "units": 106,
         "quota": null
       }
     }
   },
-  "updatedAt": "2026-11-18T00:16:07"
+  "updatedAt": "2026-11-18T00:17:00"
 }
