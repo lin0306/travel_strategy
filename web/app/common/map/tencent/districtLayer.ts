@@ -29,7 +29,7 @@ import type { DistrictBoundsFile } from '~/common/data/data'
 import { Z_LAYER } from './zLayers'
 import { createTapGuard } from './tapGuard'
 
-import { visibleBadges } from './districtBadges'
+import { layoutBadges } from './districtBadges'
 import { createGeometryStore } from './districtGeometry'
 import { createScopeOutline, SCOPE_GEOM_ID } from './districtScope'
 import { readViewport } from './viewport'
@@ -78,7 +78,7 @@ export interface DistrictLayerHandle {
   /**
    * 缩放 / 平移结束后重算**徽标可见集合**。
    *
-   * 徽标要不要显示取决于像素间距（见 `visibleBadges`），所以视野一变就得重算。
+   * 徽标要不要显示、要不要错开取决于像素间距（见 `layoutBadges`），所以视野一变就得重算。
    * 外壳在缩放/平移结束后广播一次，页面转手调这里 —— 不接这条线的话，
    * 徽标只会按"数据到达那一刻"的视野算一次，之后永远不动。
    */
@@ -89,7 +89,7 @@ export interface DistrictLayerHandle {
    * 这一刻**实际**挂在地图上的东西 —— 不是"打算挂什么"。
    *
    * 供诊断日志（`lib/mapLog.ts`）。徽标上屏前要过**像素避让**
-   * （见 `visibleBadges`），候选 165 个可能只留 40 个 —— 只记候选会得出
+   * （见 `layoutBadges`），候选 165 个可能只留 40 个 —— 只记候选会得出
    * "明明铺了却看不到"的错觉，而那正是要排查的现象本身。
    */
   stats(): DistrictLayerStats
@@ -195,12 +195,11 @@ export function createDistrictLayer(map: TMap.Map, opts: DistrictLayerOptions): 
       return
     }
 
-    const visible = visibleBadges([...nodeByAdcode.values()], readViewport(map))
-    // ★ 被避让裁掉的徽标**不生成几何**，而不是"生成但设成透明" ——
-    //   透明几何依然可点，会出现"点到看不见的东西"。
-    //   这里先算出**实际要上屏的那一批**：`stats()` 要如实报它，而不是
-    //   "这一级有几个节点" —— 避让 + 视口裁剪会削掉一大半（实测 165 → 40）
-    const shown = [...nodeByAdcode.values()].filter((n) => visible.has(n.adcode))
+    // ★ `layoutBadges` 返回的是**已经错开过的节点**（宽屏下游东/香港/澳门这类相碰的
+    //   牌子会被平移一格，经纬度已换算好），所以下面直接用它的取值，不需要再查原节点。
+    const shown = [...layoutBadges([...nodeByAdcode.values()], readViewport(map)).values()]
+    // ★ 被裁掉的徽标**不生成几何**，而不是"生成但设成透明" ——
+    //   透明几何依然可点，会出现"点到看不见的东西"。`stats()` 报的也是这一批
 
     /**
      * ★★ **内容没变就不重设**（2026-10-02 · 用户：「拖拽时如果渲染过了就不需要再
@@ -211,7 +210,11 @@ export function createDistrictLayer(map: TMap.Map, opts: DistrictLayerOptions): 
      * ⚠️ 位置（`LatLng`）不进签名是对的，但**必须**带上样式 id —— 激活 / 悬浮
      *   高亮是同一个 adcode 换了样式，漏了它 hover 就不再变色。
      */
-    const contentSig = shown.map((n) => `${n.adcode}|${badgeStyleOf(n)}`).join(',')
+    // ★ 坐标必须进签名：错开量是**像素**，zoom 一变偏移后的经纬度就变；只按
+    //   adcode+样式 判重会让徽标停在旧 zoom 的错位处。拖拽时坐标不变，不会白重设。
+    const contentSig = shown
+      .map((n) => `${n.adcode}|${n.lng.toFixed(6)},${n.lat.toFixed(6)}|${badgeStyleOf(n)}`)
+      .join(',')
     const didSet = contentSig !== badgeSig
     if (didSet) {
       badgeSig = contentSig

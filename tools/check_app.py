@@ -6238,12 +6238,32 @@ def check_layer_style_ids() -> None:
             )
 
     # ── ③ 徽标几何只能由 `badgeStyleOf()` 出 id，**禁止**复用面的 `styleIdOf()` ──
+    #
+    # ★ 判据落**行为**不落格式（2026-11-17 修正）：原来硬匹配单行
+    #   `const contentSig = shown.map((n) => \`${n.adcode}|${badgeStyleOf(n)}\`)`，
+    #   一旦签名里加一项（本轮加了坐标，因为错开量随 zoom 变）就误报。
+    #   现在只取「签名表达式的整段」来判：里面必须出现 `badgeStyleOf(n)`、
+    #   不许出现面的 `styleIdOf`。格式随便换，判据不动。
     hits += 1
-    if 'const contentSig = shown.map((n) => `${n.adcode}|${badgeStyleOf(n)}`)' not in dl:
+    rb = _brace_body(dl, r'function repaintBadges\(')
+    sig_m = re.search(r'contentSig\s*=\s*(.+?)\.join\(', rb, re.S) if rb else None
+    if not sig_m:
         problems.append(
-            f'{dl_rel} 的 `repaintBadges` 内容签名没有用 `badgeStyleOf(n)` —— '
-            '签名与几何必须同源，否则 hover 换了样式而几何不重设'
+            f'{dl_rel} 的 `repaintBadges` 取不到 `contentSig` 的表达式 —— '
+            '无法判断签名与几何是否同源'
         )
+    else:
+        sig_expr = sig_m.group(1)
+        if 'badgeStyleOf(n)' not in sig_expr:
+            problems.append(
+                f'{dl_rel} 的 `repaintBadges` 内容签名没有用 `badgeStyleOf(n)` —— '
+                '签名与几何必须同源，否则 hover 换了样式而几何不重设'
+            )
+        if 'styleIdOf' in sig_expr:
+            problems.append(
+                f'{dl_rel} 的 `repaintBadges` 内容签名用了面的 `styleIdOf` —— '
+                '面与徽标是两套样式表，串用会让徽标退回默认样式'
+            )
     geo_i = dl.find('badges.setGeometries(')
     if geo_i < 0:
         problems.append(f'{dl_rel} 找不到 `badges.setGeometries(`')

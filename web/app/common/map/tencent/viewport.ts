@@ -102,21 +102,58 @@ export function projectToPixel(
   point: { lng: number; lat: number },
   view: Viewport,
 ): { x: number; y: number } {
-  const worldSize = 256 * 2 ** view.zoom
-  const toWorldX = (lng: number) => ((lng + 180) / 360) * worldSize
-  const toWorldY = (lat: number) => {
-    const clamped = Math.max(-85.05112878, Math.min(85.05112878, lat))
-    const s = Math.sin((clamped * Math.PI) / 180)
-    return (0.5 - Math.log((1 + s) / (1 - s)) / (4 * Math.PI)) * worldSize
-  }
-
-  const cx = toWorldX(view.centerLng)
-  const cy = toWorldY(view.centerLat)
+  const worldSize = worldSizeOf(view.zoom)
+  const cx = toWorldX(view.centerLng, worldSize)
+  const cy = toWorldY(view.centerLat, worldSize)
 
   return {
-    x: toWorldX(point.lng) - cx + view.width / 2,
-    y: toWorldY(point.lat) - cy + view.height / 2,
+    x: toWorldX(point.lng, worldSize) - cx + view.width / 2,
+    y: toWorldY(point.lat, worldSize) - cy + view.height / 2,
   }
+}
+
+/** Web Mercator 的世界像素边长（`projectToPixel` 与 `unprojectPixel` 共用） */
+function worldSizeOf(zoom: number): number {
+  return 256 * 2 ** zoom
+}
+
+function toWorldX(lng: number, worldSize: number): number {
+  return ((lng + 180) / 360) * worldSize
+}
+
+function toWorldY(lat: number, worldSize: number): number {
+  const clamped = Math.max(-85.05112878, Math.min(85.05112878, lat))
+  const s = Math.sin((clamped * Math.PI) / 180)
+  return (0.5 - Math.log((1 + s) / (1 - s)) / (4 * Math.PI)) * worldSize
+}
+
+/**
+ * 像素坐标 → 经纬度（`projectToPixel` 的严格逆运算）。
+ *
+ * ## 为什么需要它
+ * 徽标避让想在**像素**里错开（"往下一格"），但腾讯 `MultiLabel` 的几何只认
+ * `position: LatLng` —— 没有几何级偏移，样式级的 `offset` 又是**按 styleId 生效**
+ * （徽标只有 4 个 styleId，乘上偏移方向会炸成几十个样式）。
+ * ⇒ 在像素域算出目标点，再反算回经纬度喂给 `position`。
+ *
+ * ★ 用「像素偏移 → 反算经纬度」而不是「直接给经纬度加固定度数」：像素偏移量
+ *   与 zoom 解耦，放大后徽标自然各自归位（那时本来就不撞了，偏移归 0）。
+ * ★ 它是纯函数、不碰地图实例，与 `projectToPixel` 互为逆运算，
+ *   可以用来做往返一致性测试（`unproject(project(p)) ≈ p`）。
+ */
+export function unprojectPixel(
+  pixel: { x: number; y: number },
+  view: Viewport,
+): { lng: number; lat: number } {
+  const worldSize = worldSizeOf(view.zoom)
+  const wx = pixel.x - view.width / 2 + toWorldX(view.centerLng, worldSize)
+  const wy = pixel.y - view.height / 2 + toWorldY(view.centerLat, worldSize)
+
+  // y 的逆运算：toWorldY 里 (0.5 - ln((1+s)/(1-s))/(4π)) ⇒ 反解 s = tanh(2πn)
+  const n = 0.5 - wy / worldSize
+  const lat = (Math.atan(Math.sinh(n * 2 * Math.PI)) * 180) / Math.PI
+  const lng = (wx / worldSize) * 360 - 180
+  return { lng, lat }
 }
 
 /**
