@@ -21,8 +21,9 @@
  *   否则 POI 数组顺序变了会牵连搜索、地图图例、以及一切按下标取值的逻辑。
  *   两边都用 JS 的 `localeCompare` —— 不要在这写成 Python，排序规则会静默漂。
  *
- * ★ 这是**产物**，不进 git。`pnpm dev` / `pnpm build` 都会经 pre 钩子重跑，
- *   所以改了 POI 文件不需要手动执行；单独重跑：`node scripts/gen-web-data.mjs`。
+ * ★ 这是**产物**，不进 git。`dev` / `build` 脚本各自内联前置调用本脚本
+ *   （`"build": "pnpm gen:data && react-router build"`），所以改了 POI 文件不需要手动执行；
+ *   单独重跑：`pnpm gen:data`。
  */
 
 import { mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises'

@@ -22,7 +22,8 @@
  *      （实测 exit 134）。本地能过纯属侥幸：31 GB 内存 ⇒ 堆上限 4144 MB，
  *      只比峰值高 25 MB。
  *      聚合后数据模块 5066 → 83，这是本项目能在 Netlify 上构建成功的前提。
- *      ★ 产物由 `predev` / `prebuild` 自动重生成，改完 POI 不用手动跑。
+ *      ★ 产物由 `pnpm gen:data` 生成；`dev` / `build` 两个脚本各自**内联前置**调用它
+ *      （`"build": "pnpm gen:data && react-router build"`），改完 POI 不用手动跑。
  *
  *   为什么源数据仍分片：单城 57 个点位写成一个 JSON 会超过 400 行，AI 每次读文件
  *   整篇进上下文；分片后改一个点位只产生**一个文件**的 diff，PR review 一眼看清。

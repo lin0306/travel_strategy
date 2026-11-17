@@ -7853,6 +7853,7 @@ def main() -> int:
     check_reveal_scope()
     check_hydration_and_face_level()
     check_poster_key_proxy()
+    check_build_scale()
 
     print('')
     for n in notes:
@@ -8680,6 +8681,123 @@ def check_poster_key_proxy() -> None:
         problems.append(
             'netlify.toml 的 functions.directory 不是 "netlify/functions" —— '
             '它相对 base（web/）解析，写错只会 warning、函数静默不部署、海报永远无底图'
+        )
+
+    check(label, problems, 5, hits)
+
+
+def check_build_scale() -> None:
+    """BI. 构建规模与密钥扫描（数据出模块图 · 公开 key 免扫）2026-11-17。
+
+    ## 这一组守的是「本地能过、Netlify 必挂」的两道坎
+
+    | 坎 | 成因 | 失败表现 |
+    |----|------|---------|
+    | 内存 | `import.meta.glob` 的**每个文件**都是 Rollup 的一个模块；直接 glob 源分片 = 5066 个数据模块 + 1191 边界模块 | 构建进程 exit 134（OOM）。Netlify 容器被 Node 判定 4 GB ⇒ V8 默认堆上限 2 GB；本机 31 GB ⇒ 上限 4144 MB，只比峰值高 25 MB，纯属侥幸 |
+    | 密钥 | `VITE_` 前缀在构建期是**字符串替换**，值直接写进 JS bundle；Netlify 对标记为 secret 的变量做产物扫描 | build.command 已 exit 0，紧接着在 "Scanning for secrets" 阶段 exit 2 —— 看起来像构建失败，其实代码全对 |
+
+    ## 修法（两个都不能删）
+    1. `web/scripts/gen-web-data.mjs` 把一城的分片聚合成
+       `data/_generated/web/cities/{cityId}.json` ⇒ 数据模块 5066 → 83。
+       实测：改前 3.9 GB / 改后 36 s 构建通过。
+    2. `netlify.toml` 的 `SECRETS_SCAN_OMIT_KEYS` 放行 `VITE_TMAP_KEY`。
+       腾讯 JS API 是**浏览器端 SDK**，加载时必须带 key，前端拿不到地图都打不开 ——
+       它的保护手段是 Referer 白名单，不是保密。真正的密文是 `AMAP_WEB_KEY`
+       （只被服务端函数读），它**不在**排除名单里，仍全程受扫描保护。
+
+    ## 各判据对应的退化形态
+    | 判据 | 退化后 |
+    |------|--------|
+    | glob 又指回 `data/cities` 源分片 | 模块数回到 6000+ ⇒ 部署 OOM，本地看不出 |
+    | glob 加了 `eager` | 同上，且首屏 bundle 把全部城市数据塞进一个 chunk |
+    | `gen:data` 从 build/dev 里掉了 | 产物过期或不生成 ⇒ 全站空态（页面能开、每城 0 个点位） |
+    | toml 少了 `SECRETS_SCAN_OMIT_KEYS` | 部署必失败于扫描阶段，报错里只有 bundle 文件名，指向性极差 |
+    | `.gitignore` 漏了 `data/_generated/web/` | 17 MB、83 个文件随源分片一起入库，改了 POI 忘了重生成就会带上过期数据 |
+
+    ★★ 判据串一律拆开拼：本段 docstring 逐字提到了这些名字与路径，
+      不拆的话把实现删掉、光靠注释就能让判据全绿。
+    """
+    label = 'BI. 构建规模与密钥扫描（聚合产物出模块图 · 公开 key 免扫）'
+    problems: list[str] = []
+    hits = 0
+
+    # ── ① 聚合脚本还在 ──
+    gen = WEB / 'scripts/gen-web-data.mjs'
+    hits += 1
+    if not gen.exists():
+        problems.append(
+            '缺 web/scripts/gen-web-data.mjs —— 没有聚合就等于回到 glob 6000+ 个数据模块，'
+            'Netlify 构建必 OOM（exit 134）'
+        )
+
+    # ── ② 注册表只吃聚合产物，且不许 eager ──
+    # ★★ 这里**绝不能**用 `strip_comments()` 之后再找路径：glob 参数里写着
+    #   `cities/*.json`，其中的 `/*` 会被块注释正则 `/\*.*?\*/` 当成注释开头，
+    #   从那里一路吃到下一个 `*/` —— 整段代码被抹掉，判据读到空文本，
+    #   于是「明明实现是好的却报红」或更糟：实现删了也照样全绿。
+    #   ⇒ 从**原文**用 `glob_param` 精确抓括号里的字面量，不依赖剥注释。
+    raw_cr = read_app('app/common/data/cityRegistry.ts')
+    globs = re.findall(r"import\.meta\.glob<JsonModule>\(\s*['\"]([^'\"]+)['\"]", raw_cr)
+    hits += 1
+    if not any('_generated/web/' + 'cities/' in g for g in globs):
+        problems.append(
+            'cityRegistry 的 glob 没指向聚合产物（data/_generated/web/cities/*.json）—— '
+            '数据又直接进了 Rollup 模块图'
+        )
+    if any('data/' + 'cities/' in g for g in globs):
+        problems.append(
+            'cityRegistry 又 glob 源分片 data/cities —— 每个 POI 文件都是一个模块，'
+            '构建内存会重新顶到 3.9 GB'
+        )
+    # eager 只看 glob 的**选项位**（`) `之前），注释里出现这个词不算
+    if re.search(r'import\.meta\.glob<JsonModule>\([^)]*\beager\b', raw_cr):
+        problems.append(
+            'cityRegistry 的 glob 带上了 eager —— 全部城市数据会被打进入口 chunk，'
+            '既撑爆内存又拖死首屏'
+        )
+
+    # ── ③ 生成步骤挂在 build 与 dev 上 ──
+    pkg_p = WEB / 'package.json'
+    pkg = pkg_p.read_text(encoding='utf-8') if pkg_p.exists() else ''
+    hits += 1
+    for script, why in (('build', '线上构建'), ('dev', '本地开发')):
+        m = re.search(r'"' + script + r'"\s*:\s*"([^"]*)"', pkg)
+        if not m or 'gen:data' not in m.group(1):
+            problems.append(
+                f'package.json 的 `{script}` 脚本里没有 gen:data —— {why}会用过期或不存在的'
+                '聚合产物（表现是全站空态，不是报错）'
+            )
+
+    # ── ④ toml 放行公开的腾讯 key ──
+    toml_p = REPO / 'netlify.toml'
+    toml = toml_p.read_text(encoding='utf-8') if toml_p.exists() else ''
+    hits += 1
+    m = re.search(r'SECRETS_SCAN_OMIT_KEYS\s*=\s*"([^"]*)"', toml)
+    if not m:
+        problems.append(
+            'netlify.toml 没有 SECRETS_SCAN_OMIT_KEYS —— 腾讯 key 必然出现在 bundle 里，'
+            '构建完成后密钥扫描会把部署打回 exit 2'
+        )
+    elif 'VITE_TMAP_KEY' not in m.group(1):
+        problems.append(
+            'SECRETS_SCAN_OMIT_KEYS 里没有 VITE_TMAP_KEY —— 这是唯一必须放行的变量'
+            '（浏览器端 JS API key，靠 Referer 白名单保护）；'
+            '★ 别把 AMAP_WEB_KEY 加进来，那才是真密文'
+        )
+    if 'AMAP_WEB_KEY' in (m.group(1) if m else ''):
+        problems.append(
+            'SECRETS_SCAN_OMIT_KEYS 里出现了 AMAP_WEB_KEY —— 那是服务端唯一密文，'
+            '放行它等于关掉真正的保护'
+        )
+
+    # ── ⑤ 产物不入库 ──
+    gi_p = REPO / '.gitignore'
+    gi = gi_p.read_text(encoding='utf-8') if gi_p.exists() else ''
+    hits += 1
+    if not re.search(r'^data/_generated/web/?\s*$', gi, re.M):
+        problems.append(
+            '.gitignore 没有忽略 data/_generated/web/ —— 20 MB 级聚合产物会随源分片入库，'
+            '与「改了 POI 就重生成」的约定互相打架'
         )
 
     check(label, problems, 5, hits)

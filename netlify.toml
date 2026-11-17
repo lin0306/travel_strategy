@@ -28,6 +28,26 @@
   #   CI 与本地同版本才能保证 lockfile 解析行为一致（11.1.2 是 11.x 最早期的补丁版）。
   PNPM_VERSION = "12.16.1"
 
+  # ★★ 腾讯地图 JS API 的 key **天然是公开的**，别当密文扫（2026-11-17）
+  #
+  #   失败原文：`Secret env var "VITE_TMAP_KEY"'s value detected ... at line 1 in
+  #   dist/client/assets/map-shell-*.js` ⇒ exit code 2，构建「成功后被判失败」。
+  #
+  #   为什么打进去：`VITE_` 前缀在构建期是**字符串替换**，值直接写进 JS bundle。
+  #   为什么必须打进去：腾讯 JS API GL 是浏览器端 SDK，加载脚本时就要带 key，
+  #   前端拿不到就等于地图打不开。**它的保护手段是 Referer 白名单**（在腾讯控制台配
+  #   `*.netlify.app` + 勾 JavaScript API GL），不是保密。
+  #
+  #   为什么用 OMIT_KEYS 而不是取消标记：Netlify 一旦把变量标记为 secret 就**不可撤销**。
+  #   为什么安全：真正的密文是 `AMAP_WEB_KEY`（高德 Web 服务 key，只被
+  #   `netlify/functions/staticmap.mjs` 在服务端读，永不进 bundle）—— 它不在排除名单里，
+  #   仍然全程受扫描保护。排除的只有一个「公开即设计」的浏览器 key。
+  #
+  #   ★ 值必须是**变量名**（逗号分隔），不是 key 的值本身。
+  #   ★ 这套 SECRETS_SCAN_* 按官方口径属于「站点级环境变量」，UI 里同样配一份最稳妥；
+  #     两边同值即可，不冲突。
+  SECRETS_SCAN_OMIT_KEYS = "VITE_TMAP_KEY"
+
 # ★ Functions 目录**相对 base 解析**（base = "web"）⇒ 实际路径是 web/netlify/functions。
 #   目前只有一只 `staticmap.mjs`：海报底图代理。存在的原因是高德「Web服务」key
 #   **没有域名白名单**（那只属于 JS API），浏览器直连就等于公开 ⇒ 把请求挪到服务端，

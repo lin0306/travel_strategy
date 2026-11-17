@@ -37,6 +37,14 @@ _tmp/**/_tmp/
 /pipeline/.cache/
 data/_generated/*.progress.json
 
+# ★★ 前端聚合产物：`web/scripts/gen-web-data.mjs` 现算出来的构建中间件（2026-11-17）
+#   83 个文件 / ~17 MB，由 `predev` / `prebuild` 自动重建 ⇒ 入库既臃肿又会与
+#   源分片打架（改了 POI 忘了重新生成，PR 里看到的是过期数据）。
+#   ★ 只忽略 web/ 这一层：同目录的 `city-covers.json` / `province-covers.json` /
+#     `findings-*.json` 是**账本**（唯一进度真源），必须入库，别扩大成整个
+#     `data/_generated/`。
+data/_generated/web/
+
 # ── Python 字节码（以前漏了，抓到过 .pyc 混进仓库）──
 __pycache__/
 *.py[cod]

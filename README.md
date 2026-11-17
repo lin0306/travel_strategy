@@ -50,7 +50,7 @@ pipeline/
 
 | 组 | 工具 |
 |----|------|
-| 护栏 · 体检 | `check_app`（62 组断言，改代码后必跑）· `check_seed` · `lint_seed` · `audit_suspects` · `audit_history` · `scan_bad_rings` · `fix_districtless` · `make_fixture` · `rmdir_dist` |
+| 护栏 · 体检 | `check_app`（63 组断言，改代码后必跑）· `check_seed` · `lint_seed` · `audit_suspects` · `audit_history` · `scan_bad_rings` · `fix_districtless` · `make_fixture` · `rmdir_dist` |
 | 配图 · 封面 | `review_images` · `clean_images` · `city_cover` · `province_cover` · `cover_review` · `cover_sheet` · `fetch_candidates` · `remap_candidates` |
 | 入库 · 拓取 | `intake_queue` · `intake_candidates` · `rate_poi` · `discover_queue` · `refill_queue` · `refill_one_poi` · `ai_review` |
 | 巡检 | `patrol_queue` · `patrol_findings` · `patrol_report` · `patrol_sheet` · `arrival_progress` |
