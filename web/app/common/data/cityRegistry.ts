@@ -12,8 +12,21 @@
  *   ★ 2026-10-25：`transit.json`（构建期通勤矩阵）**不再存在**，这里也不再 glob 它。
  *     通勤时长改为运行时算（2026-10-06 决策），真实值来自 `routeSetCache`。
  *
- *   为什么分片而不是一个大 JSON：单城 46 个点位会超过 400 行，
- *   AI 每次读文件都要整篇进上下文；分片后改一个点位只产生一个文件的 diff。
+ *   ★★ 2026-11-17：**不再 glob 源分片，改 glob 聚合产物**。
+ *      `web/scripts/gen-web-data.mjs` 把一城的分片合成为
+ *      `data/_generated/web/cities/{cityId}.json`，这里只认那 83 个文件。
+ *
+ *      为什么必须这么做：`import.meta.glob` 的**每个文件**都是 Rollup 的一个模块。
+ *      直接 glob 源分片 = 5066 个数据模块，构建内存峰值 **3.9 GB** ——
+ *      Netlify 构建容器被 Node 判定为 4 GB（V8 默认堆上限只有 2 GB），SSR 阶段必 OOM
+ *      （实测 exit 134）。本地能过纯属侥幸：31 GB 内存 ⇒ 堆上限 4144 MB，
+ *      只比峰值高 25 MB。
+ *      聚合后数据模块 5066 → 83，这是本项目能在 Netlify 上构建成功的前提。
+ *      ★ 产物由 `predev` / `prebuild` 自动重生成，改完 POI 不用手动跑。
+ *
+ *   为什么源数据仍分片：单城 57 个点位写成一个 JSON 会超过 400 行，AI 每次读文件
+ *   整篇进上下文；分片后改一个点位只产生**一个文件**的 diff，PR review 一眼看清。
+ *   ⇒ 源分片是给人看的，聚合产物是给构建看的，两者职责不同。
  *
  * ★ 两条自我约束（本文件被 react-router.config.ts 直接引用，跑在构建期 Node 里）：
  *   1. **只用相对路径 import**，不用 `~shared` 这类 alias
@@ -30,34 +43,20 @@ import { mirrorCityImages } from './imageMirror'
 type JsonModule = { default: unknown }
 type Loader = () => Promise<JsonModule>
 
-/** 城市主数据：`data/cities/{省}/{市}/city.json` */
-const cityModules = import.meta.glob<JsonModule>('../../../../data/cities/*/*/city.json')
-
-/** ★ POI 分片：`data/cities/{省}/{市}/pois/{大类}/{poiId}.json` */
-const poiModules = import.meta.glob<JsonModule>('../../../../data/cities/*/*/pois/*/*.json')
+/**
+ * ★ 聚合产物：`data/_generated/web/cities/{cityId}.json` = `{ city, pois[] }`。
+ *   POI 已按「大类顺序 + poiId 字典序」排好（排序规则在 gen-web-data.mjs 里，
+ *   与原来的运行时排序完全一致 —— 顺序变了会牵连搜索、图例、按下标取值的一切）。
+ *   产物缺失时这里匹配 0 个文件 ⇒ 全站空态，所以下面留了一条 console.error。
+ */
+const cityModules = import.meta.glob<JsonModule>('../../../../data/_generated/web/cities/*.json')
 
 /** 开发占位数据：`data/_fixtures/*.json`（仅 DEV 且真实数据缺失时兜底） */
 const fixtureModules = import.meta.glob<JsonModule>('../../../../data/_fixtures/*.json')
 
 const DEV = Boolean(import.meta.env?.DEV)
 
-/** ★ 大类的展示顺序 —— 必须与 `layout.CATEGORY_DIRS` 一致。
- *  这个顺序决定了 `city.pois` 的数组顺序（列表、搜索、地图图例都按它排）。 */
-const CATEGORY_ORDER = ['scenic', 'food', 'hotspot', 'culture'] as const
-
-/**
- * 从 glob 路径里解析出 (省 slug, 城市 id)。
- * `'../../../../data/cities/sichuan/chengdu/city.json'` → `{ slug: 'sichuan', cityId: 'chengdu' }`
- */
-function parseCityPath(path: string): { slug: string; cityId: string } | null {
-  const m = /\/cities\/([^/]+)\/([^/]+)\//.exec(path)
-  const slug = m?.[1]
-  const cityId = m?.[2]
-  // 显式判空：`noUncheckedIndexedAccess` 下正则分组结果是 string | undefined
-  return slug && cityId ? { slug, cityId } : null
-}
-
-/** `'../../../../data/cities/sichuan/chengdu/city.json'` → `'chengdu'` */
+/** `'../../../../data/_generated/web/cities/chengdu.json'` → `'chengdu'` */
 function idOf(path: string): string {
   return path.split('/').pop()!.replace(/\.json$/, '')
 }
@@ -66,33 +65,7 @@ function idOf(path: string): string {
 
 const cityLoaders = new Map<string, Loader>()
 for (const [path, load] of Object.entries(cityModules)) {
-  const p = parseCityPath(path)
-  if (p) cityLoaders.set(p.cityId, load)
-}
-
-/** cityId → [{ category, poiId, load }]，已按「大类顺序 + 文件名字典序」排序 */
-const poiLoaders = new Map<string, Array<{ category: string; poiId: string; load: Loader }>>()
-{
-  const bucket = new Map<string, Array<{ category: string; poiId: string; load: Loader }>>()
-  for (const [path, load] of Object.entries(poiModules)) {
-    const p = parseCityPath(path)
-    if (!p) continue
-    const tail = path.slice(path.indexOf('/pois/') + '/pois/'.length)   // 'scenic/wuhou-shrine.json'
-    const [category, filename] = tail.split('/')
-    if (!category || !filename) continue
-    const list = bucket.get(p.cityId) ?? []
-    list.push({ category, poiId: filename.replace(/\.json$/, ''), load })
-    bucket.set(p.cityId, list)
-  }
-  for (const [cityId, list] of bucket) {
-    list.sort((a, b) => {
-      const ra = CATEGORY_ORDER.indexOf(a.category as (typeof CATEGORY_ORDER)[number])
-      const rb = CATEGORY_ORDER.indexOf(b.category as (typeof CATEGORY_ORDER)[number])
-      const norm = (x: number) => (x === -1 ? CATEGORY_ORDER.length : x)  // 未知大类排最后
-      return norm(ra) - norm(rb) || a.poiId.localeCompare(b.poiId)
-    })
-    poiLoaders.set(cityId, list)
-  }
+  cityLoaders.set(idOf(path), load)
 }
 
 const fixtureLoaders: Record<string, Loader> = Object.fromEntries(
@@ -107,13 +80,21 @@ export const hasRealCities = realCityIds.length > 0
 
 /**
  * 是否正在使用开发占位数据。
- * 判据是「DEV 环境 + 没有任何真实城市」—— 所以**一旦 data/cities/ 里有任意一份真实数据，
+ * 判据是「DEV 环境 + 没有任何真实城市」—— 所以**一旦有任意一份聚合产物，
  * fixtures 立即失效**，不需要手动关。生产构建（DEV=false）永不使用 fixtures。
  */
 export const usingFixtures = !hasRealCities && DEV && fixtureCityIds.length > 0
 
 /** 有效城市 id 列表 —— `prerender()` 直接用它生成路由 */
 export const cityIds: string[] = usingFixtures ? fixtureCityIds : realCityIds
+
+// 产物缺失是「静默空态」型故障（站点能打开、每座城都 0 个点位），必须留一句话
+if (!hasRealCities && !usingFixtures) {
+  console.error(
+    '[data] 没有匹配到任何城市 —— 聚合产物缺失？先跑 `node scripts/gen-web-data.mjs`' +
+      '（`pnpm dev` / `pnpm build` 会经 pre 钩子自动跑）',
+  )
+}
 
 const cache = new Map<string, City | null>()
 
@@ -122,21 +103,9 @@ async function loadFromParts(cityId: string): Promise<unknown> {
   if (!loader) return null
 
   const mod = await loader()
-  const city = { ...(mod.default as Record<string, unknown>) }
-
-  const parts = poiLoaders.get(cityId) ?? []
-  const pois = await Promise.all(
-    parts.map(async (it) => {
-      const poiMod = await it.load()
-      const poi = { ...(poiMod.default as Record<string, unknown>) }
-      // POI 文件里可以不写 category（所在目录已经表达了）—— 这里补上，保持数据自包含
-      poi.category ??= it.category
-      return poi
-    }),
-  )
-  city.pois = pois
-
-  return city
+  const bundle = mod.default as { city?: Record<string, unknown>; pois?: unknown[] } | undefined
+  if (!bundle?.city) return null
+  return { ...bundle.city, pois: bundle.pois ?? [] }
 }
 
 /**

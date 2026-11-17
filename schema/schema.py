@@ -56,20 +56,6 @@ CATEGORY_META: dict[str, tuple[str, str]] = {
 Audience = Literal["solo", "couple", "kids", "friends", "family", "elders"]
 
 TravelMode = Literal["driving", "taxi", "transit", "subway", "bicycling", "walking"]
-MatrixChannelKey = Literal["driving", "walking", "bicycling"]
-
-#: ★ 六种出行方式 → 三条矩阵通道。打车复用 driving；公交/地铁不预计算
-MATRIX_CHANNEL: dict[str, Optional[str]] = {
-    "driving": "driving",
-    "taxi": "driving",
-    "transit": None,
-    "subway": None,
-    "bicycling": "bicycling",
-    "walking": "walking",
-}
-
-#: 各方式直线距离适用上限（米）。0 = 不限
-MODE_MAX_STRAIGHT_METERS: dict[str, int] = {"driving": 0, "walking": 3000, "bicycling": 8000}
 
 #: 停留时长的分类默认值（09 文档 4.2 降级第 ② 级）
 DURATION_DEFAULT_MINUTES: dict[str, int] = {
@@ -271,25 +257,7 @@ class Poi(BaseModel):
 
 
 # ══════════════════════════════════════════════════════════════════
-# 四、通勤矩阵
-# ══════════════════════════════════════════════════════════════════
-
-
-class MatrixChannel(BaseModel):
-    """定长 4 位 base36 扁平串，按行优先上三角展开：idx(i,j) = i(i-1)/2 + j  (i > j)"""
-
-    distance: str
-    duration: str
-    maxStraightMeters: int = Field(ge=0)
-
-
-# ★ 2026-10-25：`CityTransitMatrix` 整块删除 —— 它从来没有数据（`data/` 里 0 个
-#   `transit.json`）。通勤时长改为运行时算，真实值来自前端的 `routeSetCache`。
-#   `MatrixChannel` / `MatrixChannelKey` 仍保留：住宿点的一对多查询还在用通道映射。
-
-
-# ══════════════════════════════════════════════════════════════════
-# 五、城市
+# 四、城市
 # ══════════════════════════════════════════════════════════════════
 
 
@@ -382,7 +350,7 @@ class ProvinceIndex(BaseModel):
 
 
 # ══════════════════════════════════════════════════════════════════
-# 六、区划树
+# 五、区划树
 # ══════════════════════════════════════════════════════════════════
 
 
@@ -519,7 +487,7 @@ class SearchIndex(BaseModel):
 
 
 # ══════════════════════════════════════════════════════════════════
-# 七、行程（只存 localStorage，不参与 data/ 产出）
+# 六、行程（只存 localStorage，不参与 data/ 产出）
 # ══════════════════════════════════════════════════════════════════
 
 
@@ -622,67 +590,3 @@ class RoutePlan(BaseModel):
     stays: list[Stay] = Field(default_factory=list)
     days: list[ItineraryDay] = Field(default_factory=list)
     route: Optional[PlanRoute] = None
-
-
-# ══════════════════════════════════════════════════════════════════
-# 八、矩阵编解码（脚本侧写矩阵用；读取端实现在 app/itinerary/matrix.ts）
-# ══════════════════════════════════════════════════════════════════
-
-B36_ALPHABET = "0123456789abcdefghijklmnopqrstuvwxyz"
-B36_MAX = 36 ** 4 - 1  # 1,679,615
-NOT_APPLICABLE = "0000"
-
-
-def encode_b36(value: int) -> str:
-    """整数 → 定长 4 位 base36。0 会被编码成 '0000'，与「不适用」哨兵同形 ——
-    所以调用方必须先判「是否为 0」并自行决定写哨兵还是写值。"""
-    if value < 0:
-        raise ValueError(f"不能编码负数：{value}")
-    if value > B36_MAX:
-        raise ValueError(f"{value} 超出 4 位 base36 上限 {B36_MAX}")
-    out = ""
-    v = value
-    while v:
-        v, r = divmod(v, 36)
-        out = B36_ALPHABET[r] + out
-    return out.rjust(4, "0")
-
-
-def decode_b36(s: str) -> int:
-    return int(s, 36)
-
-
-def tri_index(i: int, j: int) -> int:
-    """行优先上三角下标。i > j 时 idx(i,j) = i(i-1)/2 + j；对称取值。"""
-    if i == j:
-        raise ValueError("同一个点没有通勤段")
-    a, b = (i, j) if i > j else (j, i)
-    return a * (a - 1) // 2 + b
-
-
-def alloc_matrix(n: int) -> list[str]:
-    """分配 n 个点的上三角格子（每格 4 位），返回可变列表，最后 ''.join 即可。"""
-    return [NOT_APPLICABLE] * ((n * (n - 1)) // 2)
-
-
-def set_cell(cells: list[str], n: int, i: int, j: int, value: int) -> None:
-    """写入一格。value 为 0 或超限时保持哨兵（不适用）。"""
-    if i == j:
-        return
-    k = tri_index(i, j)
-    cells[k] = encode_b36(value) if 0 < value <= B36_MAX else NOT_APPLICABLE
-
-
-def haversine_meters(lng1: float, lat1: float, lng2: float, lat2: float) -> float:
-    """两点球面距离（米）。用于阈值裁剪判定（纯本地计算，零 API 调用）。
-
-    注意入参顺序是 (lng, lat) —— 与腾讯接口的 lat,lng 相反。
-    """
-    from math import asin, cos, radians, sin, sqrt
-
-    r = 6371008.8  # 地球平均半径（米）
-    p1, p2 = radians(lat1), radians(lat2)
-    dp = p2 - p1
-    dl = radians(lng2 - lng1)
-    h = sin(dp / 2) ** 2 + cos(p1) * cos(p2) * sin(dl / 2) ** 2
-    return 2 * r * asin(sqrt(h))

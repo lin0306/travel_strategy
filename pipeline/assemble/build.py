@@ -57,8 +57,8 @@ def assemble_city(slug: str, city_id: str) -> dict:
         pois.append(poi)
 
     city["pois"] = pois
-    # ★ 2026-10-25：不再拼 `transit.json` —— 通勤矩阵已彻底删除（改运行时按需算）。
-    #   schema 里 `transit` 恒为 null（`null ≠ 0` 的占位），别在这里留"有文件就带上"的口子。
+    # ★ 通勤时长**不在构建期产出**（运行时按需算，见前端 `routeSetCache.ts`）。
+    #   别在这里加"有 transit.json 就带上"的口子 —— 那个文件和它的 schema 都已删除。
     return city
 
 
@@ -170,11 +170,6 @@ def check_city(slug: str, city_id: str, city: dict) -> list[Issue]:
 
         if p.get("_geocoded") is False:
             add("WARN", "该点位已被 step3 标记为地理编码失败（needs_geocode）", scope)
-
-    # ★ 2026-10-25：这里原本有一条「缺 transit（通勤矩阵）」的 WARN —— 那是**假告警**。
-    #   通勤时长 2026-10-06 就改成运行时算了，`data/` 里根本没有 `transit.json`，
-    #   所以它每座城都报一次，报了两个月没人能"修"（因为不需要修）。
-    #   真实时长来源见前端 `common/logic/itinerary/routeSetCache.ts`。
 
     return issues
 
@@ -307,8 +302,8 @@ def build_search_index(cities: list[dict]) -> dict:
     """search-index.json —— 顶栏搜索用的**轻量**索引（跨城市）。
 
     ## 为什么必须构建期生成
-    景点数据是**按城市整包**加载的（一城 1 个 `city.json` + 57 个 poi 分片 + 1 个
-    `transit.json`）—— 搜索框要是为了拿到名字去 `loadCity` 全部城市，首屏就要发
+    景点数据是**按城市整包**加载的（一城 1 个 `city.json` + 57 个 poi 分片）——
+    搜索框要是为了拿到名字去 `loadCity` 全部城市，首屏就要发
     几百个请求。索引只留"够用来找"的东西，一个文件（约 100KB，gzip 后 ~30KB）。
 
     ## 两类条目
@@ -842,9 +837,9 @@ def main(argv: list[str] | None = None) -> int:
             print(f"    … 还有 {len(issues) - 40} 条")
 
         # Pydantic 严格校验。
-        # ★ 这里**不能**只在"零 ERROR"时才跑：实测 transit 缺失（1 个 ERROR）就把
-        #   `sources.kind` 用了非法枚举值这件事完全掩盖了 —— 等到配额恢复、transit 补上
-        #   才突然冒出来，排查成本翻倍。形状错误是根本性的，任何时候都要报。
+        # ★ 这里**不能**只在"零 ERROR"时才跑：实测只要有个把 ERROR 打头，
+        #   `sources.kind` 用了非法枚举值这种事就会被完全掩盖 —— 修完头一个才冒出来，
+        #   排查成本翻倍。形状错误是根本性的，任何时候都要报。
         #   只在错误已经很多时（>20）才让位于可读性，避免两类错误互相淹没。
         if len(errs) <= 20:
             try:

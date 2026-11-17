@@ -205,7 +205,7 @@ E:/BASIC/python/python.exe tools/review_images.py sheet <city> --covers --refres
 - **不要 `git add` / `git commit`** —— 未审的图不许进版本库（2026-10-31 00:30 那次自动提交了 changsha/chengde 的 113 个未审文件，等于绕过了审查这道关）。提交与部署由我在审查回写后做。
 - 不自己"看图判定"，也不许按标题/alt 文字猜对错 —— 已证明文字完全对也可能是错图（青龙寺那张马路照的文件名就叫 "Qinglong Temple, Xi'an"）。
 - 不要建议"把配图库接回 `run.py images`" —— 自动入库链路没有看图环节，两城实测的 58% 错图率就是从那进去的。补图链路已把 Pexels / Unsplash 用作候选源（见第十七节），缺图的正确出路仍是**占位卡** / 看图审查 / 改进 Wikimedia 查询策略。
-- 绝不跑 `run.py seed`（它按采编稿整体重建，会清空全城 point 与 images，不可恢复）、`run.py discover`（83 城全缓存，零产出）、`run.py entrance`（图商接口已封）、`step6_transit`（死链路）。
+- 绝不跑 `run.py seed`（它按采编稿整体重建，会清空全城 point 与 images，不可恢复）、`run.py discover`（83 城全缓存，零产出）、`run.py entrance`（图商接口已封）、`step6_transit`（2026-10-25 已删除）。
 - 不改 `pipeline/.env.local` / `web/.env.local`，不清 `pipeline/.cache/`。
 - 日志文件只许 `cat >>` 追加（曾因 `cat >` 覆盖写毁掉过一整天的记录）。
 - 收尾可跑一次 `E:/BASIC/python/python.exe tools/check_app.py`，正常应为 ALL_CLEAN；若 AV 报红，把原因写进日报。

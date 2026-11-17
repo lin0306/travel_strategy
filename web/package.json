@@ -9,8 +9,9 @@
     "node": ">=20.11"
   },
   "scripts": {
-    "dev": "react-router dev",
-    "build": "react-router build",
+    "gen:data": "node scripts/gen-web-data.mjs",
+    "dev": "pnpm gen:data && react-router dev",
+    "build": "pnpm gen:data && react-router build",
     "preview": "vite preview --port 4173",
     "typecheck": "react-router typegen && tsc --noEmit",
     "check": "python ../tools/check_app.py",

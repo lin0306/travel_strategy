@@ -233,7 +233,7 @@ E:/BASIC/python/python.exe pipeline/run.py build --city chengdu   # 只组装一
 （前者不覆盖后者；从 `web/` 捡到采集侧 key 时会打印一次迁移提示）。
 **采集侧的 key 一律放 `pipeline/.env.local`**，前端那把 `VITE_TMAP_KEY` 放 `web/.env.local`。
 
-- `TMAP_WEB_KEY` —— 腾讯 WebService key（地理编码 / 矩阵 / 区划），**推荐单独申请**
+- `TMAP_WEB_KEY` —— 腾讯 WebService key（地理编码 / 区划），**推荐单独申请**
 - `VITE_TMAP_KEY` —— 前端 JSAPI key。只有它在腾讯后台**同时开通了 WebService 权限**时才可作兜底（脚本会打印提示）
 - `UNSPLASH_ACCESS_KEY` / `PEXELS_API_KEY` —— 可选，缺则自动降级
 
@@ -251,7 +251,6 @@ E:/BASIC/python/python.exe pipeline/run.py build --city chengdu   # 只组装一
 | 坐标对但**是另一个点** | 地理编码模糊匹配：adcode 前 4 位相同就放行 | ★ 追加**名称一致性**校验：`name` 的核心字符必须全出现在接口返回的 `title` 里（单向，不是双向子串） |
 | 重跑时 `AttributeError: 'bool' object has no attribute 'get'` | 缓存用 `False` 表示"确认没命中"，被当 dict 用 | `tmap.geocode` 在返回处归一化成 `dict \| None` |
 | `AttributeError: 'list' object has no attribute 'get'`（区划） | 腾讯三个区划接口的 `result` **形状各不相同**（list 包数组 / 数组 / 对象数组） | `tmap._flatten_nodes()` 统一展平 |
-| 矩阵 `status=120` 且退避 40s、60s 都无效 | 免费/复用 key 的矩阵限流窗口很长；**减小分块（5×5）也一样被拒** | 主动拉长块间隔（60s）+ 指数退避；仍失败就是当日额度用尽 → 明日续跑 |
 | 有 ERROR 时 schema 问题被掩盖 | `build` 原本只在零 ERROR 时才跑 Pydantic | 改成错误 ≤20 条时**总是**跑（形状错误是根本性的） |
 
 ### 6.3 地理编码的质量闸门（★ 最要紧的一条）

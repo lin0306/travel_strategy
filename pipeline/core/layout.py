@@ -24,17 +24,12 @@ pipeline/core/layout.py —— data/ 目录布局的**单一真源**
     │        │  ├─ food/{poiId}.json
     │        │  ├─ hotspot/{poiId}.json
     │        │  └─ culture/{poiId}.json
-    │        └─ transit.json                通勤矩阵（脚本生成，派生数据）
     ├─ credits/{province_slug}/{city_id}.md
     └─ _generated/                          全部脚本生成
 
 为什么 city.json 与 pois/ 分开：
   单个大城市 JSON 会超过 400 行，AI 每次读文件整篇进上下文（本项目有 ~420 行/文件约定）。
   分片后每个 POI 是一个 60 行左右的小文件，改一个点位只产生一个文件的 diff，PR 能看清。
-
-为什么 transit.json 独立：
-  它是**派生数据**（由坐标算出来），不是人写的。和 POI 混在一起会让人误以为可以手动改，
-  也会让"改一个 POI 文案"的 PR 带上几千字符的矩阵噪声。
 """
 
 from __future__ import annotations
@@ -160,10 +155,6 @@ def poi_dir(slug: str, city_id: str, category: str) -> Path:
 
 def poi_json_path(slug: str, city_id: str, category: str, poi_id: str) -> Path:
     return poi_dir(slug, city_id, category) / f"{poi_id}.json"
-
-
-def transit_json_path(slug: str, city_id: str) -> Path:
-    return city_dir(slug, city_id) / "transit.json"
 
 
 def credits_md_path(slug: str, city_id: str) -> Path:

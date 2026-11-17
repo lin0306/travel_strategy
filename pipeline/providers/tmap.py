@@ -8,12 +8,9 @@ pipeline/providers/tmap.py —— 腾讯位置服务 WebService 封装
      所以本模块的入参统一规定为 **(lng, lat)** 元组（与数据文件一致），
      只在**拼 URL 的那一行**才转成腾讯要的 `lat,lng` —— 让转换集中在一处。
   ② **地理编码是一对一**（无批量），请求数 = POI 数（~46/城），靠缓存去重。
-  ③ **距离矩阵 /ws/distance/v1/matrix** 按"计算次数"计费（from 数 × to 数），
-     单侧上限 **25**（25×25=625 对/次）。三种方式（驾车/步行/骑行）**都支持批量**。
-  ④ **duration 单位是秒**（路线规划接口是分钟，混用差 60 倍）。
-  ⑤ **单个元素可能失败**：起终点 5km 内无路时 status=4，distance 退化为直线且不给 duration。
-  ⑥ **缩放范围 3~20**（不是 2 也不是 22）—— 前端用，这里记一笔。
-  ⑦ 腾讯 GL JS **无需 securityJsCode**；脚本侧用 WebService key，与前端 JSAPI key 分开。
+  ③ **duration 单位是秒**（前端路线规划接口是分钟，混用差 60 倍）。
+  ④ **缩放范围 3~20**（不是 2 也不是 22）—— 前端用，这里记一笔。
+  ⑤ 腾讯 GL JS **无需 securityJsCode**；脚本侧用 WebService key，与前端 JSAPI key 分开。
 
 key 走 `env.get_key()`：**禁止硬编码**（合规红线）。它会自动加载 `pipeline/.env.local`，
 优先级为 TMAP_WEB_KEY → TMAP_KEY → VITE_TMAP_KEY（最后一把是前端 key，
@@ -23,8 +20,7 @@ key 走 `env.get_key()`：**禁止硬编码**（合规红线）。它会自动�
 
 from __future__ import annotations
 
-import time
-from typing import Any, Iterable, Sequence
+from typing import Any, Sequence
 
 from pipeline.core.env import MissingKeyError, get_key
 from pipeline.core.fetch import build_url, count_usage, get_json, load_cache, save_cache
@@ -35,24 +31,8 @@ BASE = "https://apis.map.qq.com"
 GEOCODE_CACHE = "geocode.json"
 PLACE_CACHE = "place.json"
 
-#: 矩阵单边上限（腾讯限制）：25 × 25 = 625 对/请求
-MATRIX_CHUNK = 25
-
-#: 各方式的直线距离适用上限（米）。0 = 不限。超过就不问接口，直接记"不适用"
-MODE_MAX_STRAIGHT_METERS: dict[str, int] = {"driving": 0, "walking": 3000, "bicycling": 8000}
-
-#: matrix 的 mode 取值（注意不是 TravelMode 的六种 —— 六种里打车复用 driving、公交地铁不预计算）
-TMAP_MATRIX_MODES = ("driving", "walking", "bicycling")
-
-#: 接口层限流码：120 = 每秒请求量达上限（**等待可恢复**）；121 = 日配额耗尽（等待无用）
-RATE_LIMIT_STATUS = {120}
+#: 接口层限流码：121 = 日配额耗尽（等待无用，该换源）
 DAILY_QUOTA_STATUS = {121}
-
-#: 120 的退避秒数。★ 实测：免费/复用 key 的矩阵限流窗口很长 ——
-#:   退避 5/15/40s **全部无效**（连续 4 次都 120），拉到 30/60/120s 才可能放行。
-#:   宁可慢，也别让失败请求白白吃掉配额（失败的那次同样计费）。
-RATE_LIMIT_BACKOFF = (30, 60, 120)
-MAX_RATE_LIMIT_RETRIES = len(RATE_LIMIT_BACKOFF)
 
 #: ★★ 本次进程里「日配额耗尽」（121）有没有发生过 —— **按接口分别记**。
 #: 为什么要单独记：121 是 **HTTP 200 + body 里的错误码**，而调用方看到的
@@ -275,81 +255,6 @@ def place_search(
     return out
 
 
-# ── 距离矩阵（三种方式都支持批量，这是选腾讯的决定性理由）──────────
-
-def _norm_element(el: dict) -> tuple[int, int] | None:
-    """单个矩阵元素 → (distance米, duration秒)。
-
-    ⚠️ status != 0 或没有 duration → None（落库为 '0000'）。
-    例：步行超 5km 时腾讯退化为直线距离且**不返回 duration**；
-    直接读会得到 KeyError/undefined 而不是明确报错。
-    """
-    if el.get("status") != 0:
-        return None
-    if "duration" not in el or "distance" not in el:
-        return None
-    try:
-        return int(el["distance"]), int(el["duration"])
-    except (TypeError, ValueError):
-        return None
-
-
-def matrix(
-    origins: Sequence[Coord],
-    dests: Sequence[Coord],
-    mode: str,
-) -> list[list[tuple[int, int] | None]]:
-    """批量距离矩阵 → `rows[from][to]`。
-
-    约束：len(origins) ≤ 25 且 len(dests) ≤ 25（腾讯上限 25×25=625 对/请求）。
-    超了调用方必须自行分块（见 step6 的 CHUNK 循环）。
-
-    ⚠️ 计费单位是**计算次数** = len(origins) × len(dests)，不是请求次数。
-    """
-    if mode not in TMAP_MATRIX_MODES:
-        raise ValueError(f"矩阵不支持的 mode「{mode}」，合法值：{TMAP_MATRIX_MODES}")
-    if len(origins) > MATRIX_CHUNK or len(dests) > MATRIX_CHUNK:
-        raise ValueError(
-            f"矩阵单侧超过 {MATRIX_CHUNK}：from={len(origins)} to={len(dests)} —— 调用方需先分块"
-        )
-
-    # ★ 限流退避：一次矩阵请求带 625 对计算，很容易撞上腾讯的 QPS 上限
-    #   （status=120「此key每秒请求量已达到上限」）。它是 HTTP 200 + body 里的错误码，
-    #   http 层的网络重试**不会**覆盖到 —— 必须在这里单独识别并等待重试。
-    #   121 是"日调用量已达上限"，等待也没用，直接抛错让人明天再来。
-    url = build_url(f"{BASE}/ws/distance/v1/matrix", {
-        "mode": mode,
-        "from": _to_tmap(origins),        # ★ lat,lng（纬度在前）
-        "to": _to_tmap(dests),
-        "key": web_key(),
-    })
-    units = len(origins) * len(dests)
-    last_msg = ""
-    for attempt in range(MAX_RATE_LIMIT_RETRIES + 1):
-        data = get_json(url)
-        count_usage("matrix", units)                     # ★ 按"计算次数"记账
-        status = data.get("status")
-        if status == 0:
-            rows = data.get("result", {}).get("rows", [])
-            return [[_norm_element(e) for e in row.get("elements", [])] for row in rows]
-
-        last_msg = f"status={status} {data.get('message')}"
-        if status in RATE_LIMIT_STATUS and attempt < MAX_RATE_LIMIT_RETRIES:
-            wait = RATE_LIMIT_BACKOFF[attempt]
-            print(f"  ⏳ 矩阵被限流（{last_msg}）—— {wait}s 后重试"
-                  f"（{attempt + 1}/{MAX_RATE_LIMIT_RETRIES}）", flush=True)
-            time.sleep(wait)
-            continue
-        break
-
-    if status in DAILY_QUOTA_STATUS:
-        raise RuntimeError(
-            f"矩阵接口今日配额已耗尽（{last_msg}）—— 请明日再跑；"
-            f"进度已逐块落盘，下次跑会自动断点续跑，不重复计费"
-        )
-    raise RuntimeError(f"距离矩阵请求失败（{mode}）：{last_msg}")
-
-
 # ── 行政区划（★ 合规红线：边界唯一合法来源）────────────────────────
 
 def district_list() -> dict:
@@ -421,9 +326,3 @@ def district_search(keyword: str) -> list[dict]:
     if data.get("status") != 0:
         return []
     return _flatten_nodes(data.get("result"))
-
-
-def iter_chunks(n: int, chunk: int = MATRIX_CHUNK) -> Iterable[range]:
-    """[0, n) 按 chunk 切块的索引块，给分块循环用。"""
-    for start in range(0, n, chunk):
-        yield range(start, min(start + chunk, n))

@@ -57,7 +57,6 @@ LEDGER_PATH = GENERATED / "api-usage.json"
 #:      拿不准就照控制台填；填错的代价比不填大。
 TMAP_DAILY_QUOTA: dict[str, int] = {
     "geocoder": 10_000,
-    "matrix": 10_000,       # ⚠️ 单位是"计算次数"，不是请求次数
     "district": 10_000,
     "place_search": 200,    # ★ 实测值，不是文档值
 }

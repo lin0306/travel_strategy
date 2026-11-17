@@ -17,18 +17,11 @@ tools/make_fixture.py —— 生成 data/_fixtures/ 下的开发占位数据
 from __future__ import annotations
 
 import json
-import math
 import sys
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]     # 仓库根：data/ 与 schema/ 在这一层
 sys.path.insert(0, str(REPO))
-
-from schema.schema import (  # noqa: E402
-    alloc_matrix,
-    haversine_meters,
-    set_cell,
-)
 
 NOW = "2026-09-18"
 
@@ -114,46 +107,8 @@ def _poi(row: tuple) -> dict:
     }
 
 
-def build_matrix(coords: list[tuple[float, float]], n: int) -> dict:
-    """按「直线距离 × 绕行系数 ÷ 方式速度」推算三通道矩阵。
-
-    真实流水线走腾讯 /ws/distance/v1/matrix（25×25 分块 · 三通道 · 阈值裁剪），
-    这里的本地推算只是为了让占位数据的**形状**正确、量级合理。
-    """
-    channels = {
-        #          绕行系数, 速度(m/s), 直线上限(米)
-        "driving": (1.35, 30_000 / 3600, 0),
-        "walking": (1.25, 1.25, 3000),
-        "bicycling": (1.20, 4.20, 8000),
-    }
-    out: dict[str, dict] = {}
-    for mode, (detour, speed, max_straight) in channels.items():
-        d_cells = alloc_matrix(n)
-        t_cells = alloc_matrix(n)
-        for i in range(n):
-            for j in range(i):
-                lng1, lat1 = coords[i]
-                lng2, lat2 = coords[j]
-                straight = haversine_meters(lng1, lat1, lng2, lat2)
-                # ★ 超出该方式的合理直线距离 → 保持哨兵 '0000'（不适用）
-                if max_straight and straight > max_straight:
-                    continue
-                dist = int(round(straight * detour))
-                dur = int(round(dist / speed))
-                # 距离与时长的编码上限都是 36⁴ = 1,679,615
-                set_cell(d_cells, n, i, j, min(dist, 1_679_615))
-                set_cell(t_cells, n, i, j, min(max(dur, 60), 1_679_615))
-        out[mode] = {
-            "distance": "".join(d_cells),
-            "duration": "".join(t_cells),
-            "maxStraightMeters": max_straight,
-        }
-    return out
-
-
 def main() -> int:
     n = len(POIS)
-    coords = [(r[5], r[6]) for r in POIS]
 
     city = {
         "schemaVersion": 1,
@@ -215,12 +170,6 @@ def main() -> int:
             },
         ],
         "pois": [_poi(r) for r in POIS],
-        "transit": {
-            "generatedAt": NOW,
-            "sampledAtLabel": "工作日上午 · 含路况（占位推算，非真实矩阵）",
-            "poiIndex": [r[0] for r in POIS],  # ★ 必须与 pois 顺序一致
-            "modes": build_matrix(coords, n),
-        },
         "credits": {
             "imageSources": ["Unsplash（占位）"],
             "textSources": ["fixture 生成器（非真实来源）"],
@@ -230,7 +179,7 @@ def main() -> int:
     }
 
     # 写盘前先自校验 —— 这正是采集脚本该有的习惯
-    from shared.schema import City
+    from schema.schema import City
 
     City.model_validate(city)
 
@@ -239,12 +188,8 @@ def main() -> int:
     out = out_dir / "chengdu.json"
     out.write_text(json.dumps(city, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    tri = n * (n - 1) // 2
     print(f"✅ 已写入 {out.relative_to(REPO)}")
-    print(f"   {n} 个 POI · 上三角 {tri} 格 · 每通道 {tri * 4} 字符")
-    for mode, ch in city["transit"]["modes"].items():
-        na = ch["duration"].count("0000")
-        print(f"   {mode:10s} 不适用 {na:2d}/{tri} 格（超出 {ch['maxStraightMeters'] or '∞'} m 直线距离）")
+    print(f"   {n} 个 POI")
     return 0
 
 

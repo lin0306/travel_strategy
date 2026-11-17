@@ -228,12 +228,12 @@ data/                          ← 与代码解耦，任何人拿走这个目录
 > **原因**：62 城 × 约 1600 对 × 3 方式预存要**几百 MB**，远超"单城 ≤300KB gzip"的预算；
 > 且矩阵时长是生成时刻的**快照**，一两个月后驾车时长已明显失真。
 >
-> - `pipeline/steps/step6_transit.py` 仍在仓库里作为**遗留实现**，但**不许跑** ——
->   `run.py` 已把 `transit` 子命令摘掉（见 `run.py:150`）。
+> - `pipeline/steps/step6_transit.py` 与 `schema` 里的矩阵类型**已于 2026-10-25 删除**，
+>   `pipeline/providers/tmap.py` 的 `matrix()` 也一并移除。
 > - `transit` 字段不再生成；本节下方提到的 `transit.progress.json`、体积预算、覆盖率验收项**均已失效**。
 > - **当前实现**：通勤时长在运行时算（`web/app/common/logic/itinerary/routeOptions.ts`），带缓存 + 配额账本。
-> - 残留消费点**待拆**：`cityRegistry.ts:38`/`:149`、`usePlanView.ts:208`。
-> - ⚠️ `build.py` 那条「缺 transit」WARN 是**假告警**，不代表有数据缺口。
+> - 前端消费点（`cityRegistry` 的 glob 与赋值、`usePlanView` 读 `city.transit`）**已全部拆除**。
+> - `build.py` 里那条「缺 transit」WARN **也已删除** —— 它从未代表真实缺口。
 >
 > 以下内容**保留作决策来由与接口知识**（腾讯矩阵的批量能力、计量口径、`status:4` 退化等仍然有用）。
 

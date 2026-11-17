@@ -19,9 +19,9 @@
 > **仍然成立**的部分：住宿段模型（§4）、时间链推导（§5.2）、六种方式与两条接口链路的映射、
 > 地图连线（§5.3）、多方案路线（§3.6）、配额账本、降级策略（§九）、N3–N15 任务。
 >
-> ⚠️ 残留死链路**待拆**：`web/app/common/data/cityRegistry.ts:38`（`transit.json` glob）、`:149`（赋值）、
-> `web/app/common/logic/usePlanView.ts:208`（读 `city?.transit` 当矩阵）。
-> `pipeline/steps/step6_transit.py` 仍在仓库里作为遗留实现，**但不许跑**（`run.py` 已摘掉该子命令）。
+> ✅ 残留死链路**已全部拆除**（2026-10-25）：`cityRegistry.ts` 的 `transit.json` glob 与赋值、
+> `usePlanView` 读 `city.transit` 的分支、`itinerary/matrix.ts`、`pipeline/steps/step6_transit.py`、
+> `schema` 里的矩阵类型与 base36 编解码 —— 一个不留。
 >
 > 详见 [README 的决策变更记录](./README.md)。
 
@@ -926,7 +926,7 @@ const hash = `#itin=${LZString.compressToEncodedURIComponent(JSON.stringify(payl
 | # | 任务 | 产出 | 依赖 |
 |---|------|------|------|
 | ~~N1~~ | ⛔ **已废弃** ~~`transit` 矩阵 Schema + base36 编解码 + `readLeg()`~~ | ~~`schema/schema.ts`~~ | — |
-| ~~N2~~ | ⛔ **已废弃** ~~构建期 step6_transit~~ —— **脚本仍在仓库但不许跑**，`run.py` 已摘掉该子命令 | ~~`pipeline/steps/step6_transit.py`~~ | — |
+| ~~N2~~ | ⛔ **已废弃** ~~构建期 step6_transit~~ —— 脚本与 schema 均已于 2026-10-25 删除 | ~~`pipeline/steps/step6_transit.py`~~ | — |
 | N3 | POI 数据补 `practical.durationMinutes`（含分类默认值配置） | Schema + 采集脚本 | — |
 | N4 | 行程数据模型（含六种 `TravelMode`）+ `localStorage` 持久化 + Zod 校验 | `app/itinerary/store.ts` | N3 |
 | N5 | ~~`resolveLeg` 三级解析~~ → **现为两级（缓存 → 实时）** + `legCache` 上限与 LRU | `app/common/logic/itinerary/resolveLeg.ts` | ~~N1~~ |
