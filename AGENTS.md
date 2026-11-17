@@ -22,8 +22,8 @@
 
 ## 1. 项目一句话
 
-83 城 / 4900 个 POI（以 `data/cities.index.json` 为准，别信写死的数字）的**纯静态**旅游攻略站：地图即画布（铺满视口，UI 全浮层）、
-四级下钻（全国 → 省 → 市 → **区** → 景点）、行程规划、路线规划。**运行时零后端**。
+收录城市与点位**持续增长**（每日采集任务在补，不许把数字写死进任何文案）的**纯静态**旅游攻略站：地图即画布（铺满视口，UI 全浮层）、
+四级下钻（全国 → 省 → 市 → **区** → 景点）、行程规划、路线规划。**运行时零后端**。当前数量以 `data/cities.index.json` 为准。
 
 ---
 
@@ -36,11 +36,14 @@
 | `web/` | 展示（Vite7 + React19 + TS + RR7，SSG） | **不许有任何 `.py`** |
 | `schema/` | 字段契约 `schema.ts` ↔ `schema.py` | 改一边必须改另一边（D 项守） |
 | `tools/` | 工程护栏与体检 | 跨两端，不属于任何一端 |
-| `plans/` | 设计文档（人读） | 不是代码注释的垃圾桶 |
+| `plans/` | 设计文档（人读）｜**本机，不入库** | 不是代码注释的垃圾桶 |
 | `_tmp/` | 一次性探针（git 忽略） | 不许被 `pipeline/` / `web/` import |
-| `docs/` | 操作手册（本文件的补充） | 同上 |
+| `docs/` | 操作手册（本文件的补充）｜**本机，不入库** | 同上 |
 
 **一个目录只做一件事：抓取不 import 展示，展示不 import 抓取。**
+
+★ `plans/` `docs/` 是**过程资产**，`.gitignore` 里已排除：仓库对外只放代码、数据、部署三样。
+新 clone 的人看不到它们，所以**任何"必须读"的信息都不许只写在那里** —— 该进本文件就进本文件。
 
 ---
 
@@ -89,9 +92,15 @@ cd web && pnpm typecheck  # tsc --noEmit
 `web/dist/` 下**只有** `client/` 一个目录（`ssr:false` 时 server 构建被删除），`web/dist/index.html` 不存在
 ⇒ 发布根错一层，首页、`/assets/*`、连 SPA 兜底的 `/index.html` 全部落空。
 **本地永远看不出来**：`pnpm preview` 走 vite 自己的 server，根本不读 `netlify.toml`。
-校验脚本 `python _tmp/_netlify_check.py`（首页 · redirect 目标 · 全部 `/assets/` 引用 · 三类页面 · localhost 残留 · 两个 key · pnpm 版本两边一致）。
-上线还差两件事，**都不进 git**：① Netlify 站点环境变量 `VITE_TMAP_KEY` + `VITE_AMAP_WEB_KEY`（缺 key 地图不解锁）；
-② 腾讯 / 高德控制台给 key 加 **Referer 域名白名单** `*.netlify.app`（注释里写死了：护城河只有白名单 + 配额告警；不配则构建成功但地图不显示）。
+校验脚本 `python _tmp/_netlify_check.py`（本机探针，不入库；首页 · redirect 目标 · 全部 `/assets/` 引用 · 三类页面 · localhost 残留 · 两个 key · pnpm 版本两边一致）。
+上线还差两件事，**都不进 git**，且两边口径不同（别照抄）：
+① Netlify 站点环境变量 —— `VITE_TMAP_KEY`（**必须带** `VITE_` 前缀，浏览器端地图 SDK 要用）
+＋ `AMAP_WEB_KEY`（**绝不能带** `VITE_` 前缀，只给 `netlify/functions/staticmap.mjs` 出海报底图；
+带了前缀会被 Vite 在构建期替换进 JS，等于公开）。`VITE_TMAP_KEY` 已列入 `SECRETS_SCAN_OMIT_KEYS`
+—— 它是公开 key，扫描器命中会让构建在最后一步 exit 2；
+② 白名单只能配一半：腾讯 Key 详情里填**域名** `*.netlify.app`（公开 key，护城河只有白名单 + 配额告警）；
+高德**没有域名白名单**（那只属于 JS API），Web 服务 key 只能配 IP，而浏览器出口 IP 不固定
+⇒ 海报底图走同源函数，域名校验在函数里（`ALLOWED_ORIGINS`）。
 ★★ **不要自动 `git add` / `git commit`** —— 提交只在用户明确要求时做。
 （2026-10-31 定时任务自作主张提交了 changsha/chengde 的 113 个**未审**文件，等于绕过图片审查。）
 
@@ -157,10 +166,10 @@ cd web && pnpm typecheck  # tsc --noEmit
 
 | 事实 | 值 | 怎么核 |
 |---|---|---|
-| 城市 / POI | **83 城 / 4900 POI** | `data/cities.index.json` / `tools/review_images.py status` |
+| 城市 / POI | **不写死**（持续增长） | `data/cities.index.json` 的城市数 + `poiCount` 求和 |
 | 图源（自动入库） | **只有 `wikimedia`** | `images.py` 的 `configured_sources()` |
 | 图源（候选补图） | Wikimedia + **Pexels / Unsplash**（只进候选池，**AI 看图判 ok 才入库**） | `tools/fetch_candidates.py grab → sheet → apply` |
-| 配图库 | 自动入库链路**停用**（`USE_STOCK_SOURCES=False`，护栏 AV ②½）；补图链路 2026-11-08 **恢复为候选源**；83 城 ×3 张**城市封面**仍有存量在用 | 手册第 17 节 / `AboutContent.tsx` 按用途分列 |
+| 配图库 | 自动入库链路**停用**（`USE_STOCK_SOURCES=False`，护栏 AV ②½）；补图链路 2026-11-08 **恢复为候选源**；每城 ×3 张**城市封面**仍有存量在用 | 手册第 17 节 / `AboutContent.tsx` 按用途分列 |
 | 每点位图片数 | 自动入库上限 6；**候选补图判 ok 全收、无张数上限**（`schema.py` / `schema.ts` 的 8 已删） | 别假设"都是 3 张 / 最多 6 张" |
 | 定时任务 | **2 条**：「行迹 · 每日抓新城市数据」00:00（A 入库 + **A4.5 写点评** + B 拓取，造新数据）·「行迹 · 历史数据巡检」每小时（1 城 6 点内容稽查 + **20 条 AI 点评** + **1~2 个单位省/市封面复核** + 图片 URL 探活，**修旧数据 / 补长尾**）；都常驻不自删、同目录不并发 | `automation_update list`；手册第 3 / 19 / 22 节 |
 | 城市封面 | `city.json.heroImages`（1~3 张）。**只收 Wikimedia、查询词用本城地标名、逐张看图**（图库没有地理校验）；账本 `data/_generated/city-covers.json`，工具 `tools/city_cover.py`（grab → sheet/cands → verdicts → apply，alt 必须中文） | `city_cover.py status`；图片手册第二十节 |
@@ -184,7 +193,7 @@ cd web && pnpm typecheck  # tsc --noEmit
 
 ---
 
-## 7. 六个高频坑（完整叙事见 `TRAPS.md`）
+## 7. 六个高频坑（更长的复盘在本机 `.workbuddy/memory/`，不入库）
 
 | 坑 | 一句话 |
 |---|---|
@@ -198,6 +207,9 @@ cd web && pnpm typecheck  # tsc --noEmit
 ---
 
 ## 8. 定时任务与图片审查（这里的"你"要分清）
+
+★ 本节的详细手册在 `docs/`（**本机，不入库**）：`automation-image-review.md`（第 3/17/19/20/21/22 节）、
+`automation-patrol.md`。两条任务的 prompt 唯一真源是 `automation_update mode=view`，**文档里不抄第二份**。
 
 现在**有 2 条常驻任务**，同一工作目录 ⇒ 调度器 `serialized, max 1`，**永不并发**（只是顺延）：
 
