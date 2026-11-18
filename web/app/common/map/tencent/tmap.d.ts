@@ -151,6 +151,19 @@ declare namespace TMap {
 
     getZoom(): number
     setZoom(zoom: number, options?: { duration?: number }): this
+    /**
+     * 运行期改缩放上下限 + 按框反算缩放。
+     *
+     * ★ 三个都是**实测存在**（`_tmp/probe_limits.mjs` 遍历原型链读到的
+     *   `getZoomByBounds` / `setMinZoom` / `setMaxZoom`）。用途见 `mapLimits.ts`：
+     *   缩放下限要按**当前容器**现算（同一个 zoom 在手机和桌面看到的范围差三倍），
+     *   所以建图时给的那些只是初值，窗口尺寸一变就得重设。
+     */
+    setMinZoom?(zoom: number): this
+    setMaxZoom?(zoom: number): this
+    getMinZoom?(): number
+    getMaxZoom?(): number
+    getZoomByBounds?(bounds: LatLngBounds): number
     getCenter(): LatLng
     setCenter(center: LatLng, options?: { duration?: number }): this
     /**

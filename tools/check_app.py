@@ -6290,56 +6290,65 @@ def check_layer_style_ids() -> None:
                 '两套样式 id 混用，SDK 不报错、徽标静默退化'
             )
 
-    # ── ③½ 错开的徽标必须有引线（否则"标签飘到海里"没有任何东西指认它属于哪）──
+    # ── ③½ 徽标：位置永远真实，去留**只由像素碰撞**决定（2026-11-18 用户定）──
     #
-    # 2026-11-18 用户看着全国视图说「这个标签都跑哪去了」——`layoutBadges` 把粤港澳推开了
-    # 一格（34×30px），在 z4.57 那是上百公里，牌子和底图上的「香港特别行政区」对不上，
-    # 读起来就是标错了地方。修法是给被错开的牌子画一条虚线连回真实锚点。
-    # 这一项守的是"引线链路完整"——它有三个容易各自静默失效的接点：
-    #   ① 只建了图层但没人调用（线永远不出来）
-    #   ② `repaintBadges` 里不同步 ⇒ zoom 变了徽标归位、线还停在旧位置
-    #   ③ `destroy` 不摘 ⇒ 换页后再回来会多挂一层空覆盖物
+    # 用户两次否决，两次都是"我用阈值代替了判断"：
+    #   ① 「撞了就错开一格 + 画引线」→ 一格 34×30px 在 z4.57 是上百公里，
+    #      牌子飘到南海，用户：「这个标签都跑哪去了，标签完全乱了」。
+    #   ② 「按缩放给数量上限」→ 全国视图只留 1 个，用户：「小于 4.8 就一个？
+    #      我是让你去计算标签是否会出现重叠，重叠就显示数量多的那个，你这干啥呢」。
+    # ⇒ 现在的唯一判据是像素矩形相交，数量是**结果**不是输入。
+    # 这一项守四个各自会静默失效的接点：
+    #   ① 必须真的做碰撞检测（`rectsIntersect(`）—— 删了就又变成"全挂出去"
+    #   ② 必须先按 `badgeRank` 排序 —— 否则撞了留下的是"谁先遍历到"，
+    #      而不是景点多的那个（不报错，只是留错了人）
+    #   ③ 不许再引入缩放分档数量（`badgeBudgetForZoom` / `BADGE_BUDGET`）——
+    #      它一回来，低缩放又只剩 1 个
+    #   ④ 坐标不许偏移（`unprojectPixel` / `BadgePlacement` / `leaders` / `badgeLeaders.ts`）
     hits += 1
-    bl_rel = 'app/common/map/tencent/badgeLeaders.ts'
-    if not (WEB / bl_rel).exists():
-        problems.append(f'缺 {bl_rel} —— 错开的徽标没有引线，位置看起来就是错的')
+    db_rel = 'app/common/map/tencent/districtBadges.ts'
+    if not (WEB / db_rel).exists():
+        problems.append(f'缺 {db_rel} —— 徽标显示集合没有唯一出处')
     else:
-        bl = strip_comments(read_app(bl_rel))
-        if 'export function createBadgeLeaders(' not in bl:
-            problems.append(f'{bl_rel} 没有导出 `createBadgeLeaders(`')
-        if 'new TMap.MultiPolyline(' not in bl:
-            problems.append(f'{bl_rel} 没有建 `MultiPolyline` 图层 —— 引线画不出来')
-        if 'const leaders = createBadgeLeaders(map)' not in dl:
+        db = strip_comments(read_app(db_rel))
+        # ⚠️ 判据带括号：`rectsIntersect` 也出现在 import 里，
+        #   只判裸名字的话"把调用删掉"仍然判绿。
+        if 'rectsIntersect(' not in db:
             problems.append(
-                f'{dl_rel} 没有调用 `createBadgeLeaders(map)` —— 图层建了也没人用'
+                f'{db_rel} 没有做像素碰撞（缺 `rectsIntersect(`）—— '
+                '徽标唯一的重叠判据就是它，删了就等于"全都挂出去"'
             )
-        rb_leaders = _brace_body(dl, r'function repaintBadges\(')
-        # ⚠️ 判据必须写成 `leaders.sync(placements)` 而不是 `leaders.sync(` ——
-        #   函数开头 reference 档的 `leaders.sync([])` 也在同一个函数体里，
-        #   只判前缀的话"把正常路径的同步删了"仍然判绿（第一版反证就是这么漏的）。
-        if 'leaders.sync(placements)' not in rb_leaders:
+        if 'sort(badgeRank)' not in db:
             problems.append(
-                f'{dl_rel} 的 `repaintBadges` 没有 `leaders.sync(placements)` —— '
-                '徽标重摆了而引线不跟，zoom 变化后线会停在旧位置'
+                f'{db_rel} 没有先按 `sort(badgeRank)` 排序 —— 碰撞时留下的会是'
+                '"谁先遍历到"，而不是景点最多的那个（用户明确要求重叠时留数量多的）'
             )
-        if 'leaders.sync([])' not in rb_leaders:
+        if 'badgeBudgetForZoom' in db or 'BADGE_BUDGET' in db:
             problems.append(
-                f'{dl_rel} 的 `repaintBadges` 在 reference 档没有 `leaders.sync([])` —— '
-                '不画徽标的那一档还留着几条指向空处的虚线'
+                f'{db_rel} 又出现了按缩放的数量上限（`badgeBudgetForZoom` / `BADGE_BUDGET`）'
+                ' —— 用户已否决：数量必须是碰撞的**结果**，不能是输入'
             )
-        if 'leaders.destroy()' not in dl:
+        if 'unprojectPixel' in db or 'BadgePlacement' in db:
             problems.append(
-                f'{dl_rel} 的 `destroy` 没有 `leaders.destroy()` —— '
-                '地图实例跨页复用，不摘就会每换一次页多挂一层空覆盖物'
+                f'{db_rel} 又出现了坐标偏移（`unprojectPixel` / `BadgePlacement`）—— '
+                '用户明确要求"不做标签偏移"：位置标错比缺几个更误导人'
             )
-        # 引线的起点来自 `layoutBadges` 返回的 `home`；只能放坐标不许放节点
-        if 'home: { lng: number; lat: number }' not in strip_comments(
-            read_app('app/common/map/tencent/districtBadges.ts')
-        ):
-            problems.append(
-                '`districtBadges.BadgePlacement` 丢了 `home` —— '
-                '徽标被错开后就没有"真实锚点"了，引线无从画起'
-            )
+    zt = strip_comments(read_app('app/common/map/tencent/zoomTiers.ts'))
+    if 'BADGE_BUDGET' in zt or 'badgeBudgetForZoom' in zt:
+        problems.append(
+            '`zoomTiers.ts` 又出现了徽标数量分档（`BADGE_BUDGET` / `badgeBudgetForZoom`）—— '
+            '徽标去留属于像素碰撞，不属于缩放分档表；放回这里会诱导调用方按缩放切数量'
+        )
+    if 'leaders' in dl:
+        problems.append(
+            f'{dl_rel} 里又出现了 `leaders` —— 引线是"错开一格"的配套，'
+            '偏移取消后它只会画出指向混乱的虚线'
+        )
+    if (WEB / 'app/common/map/tencent/badgeLeaders.ts').exists():
+        problems.append(
+            'app/common/map/tencent/badgeLeaders.ts 又回来了 —— '
+            '它存在就等于"标签偏移"又回来了（用户 2026-11-18 已明确不要）'
+        )
 
     # ── ④ 面样式表必须覆盖 `faceStyleId` 会返回的每一个 id ──
     hits += 1
@@ -7872,6 +7881,68 @@ def check_ai_review() -> None:
     check(label, problems, 7, hits)
 
 
+def check_map_limits() -> None:
+    """BJ. 伸缩与拖拽边界：按端分表 + 下限按容器现算（2026-11-18）。
+
+    用户原话：「还需要限定缩放大小和可拖拽的区域，手机端和 web 端的限制是
+    不一样的，不能都统一用同一个」。三件事**各自会静默失效**：
+      ① 下限写死 ⇒ 手机被卡在"看不到全国"、桌面又能缩到中国只剩半屏
+      ② 没有中心钳制 ⇒ 能拖到屏幕上一个中国城市都没有（不报错，只是"迷路"）
+      ③ 两端共用一套值 ⇒ 字面满足、实际只对一端成立
+    实测依据（`_tmp/probe_limits.mjs`）：全国 fit 桌面 4.57 / 移动 3.04 ——
+    同一个 zoom 两端看到的地盘差三倍，所以下限只能是算出来的。
+    """
+    label = 'BJ. 缩放与拖拽有边界，且两端不同一套（下限按容器现算）'
+    problems: list[str] = []
+    hits = 0
+
+    ml_rel = 'app/common/map/tencent/mapLimits.ts'
+    if not (WEB / ml_rel).exists():
+        check(label, [f'缺 {ml_rel} —— 边界散在调用方，两端必然漂移'], 1, 0)
+        return
+    ml = strip_comments(read_app(ml_rel))
+    hits += 1
+    for fn_name in ('mapLimitsFor(', 'clampCenter(', 'minZoomOf('):
+        if f'export function {fn_name}' not in ml:
+            problems.append(f'{ml_rel} 没有导出 `{fn_name}` —— 边界的唯一出处不完整')
+    if 'desktop:' not in ml or 'mobile:' not in ml:
+        problems.append(
+            f'{ml_rel} 没有分端给出限制表（desktop / mobile）—— 用户明确要求两端不同，'
+            '一套值实际只对一端成立'
+        )
+
+    ut_rel = 'app/common/map/tencent/useTMap.ts'
+    ut = strip_comments(read_app(ut_rel))
+    hits += 1
+    # ★ 判据认**调用点**，不认"实现写在这里"：2026-11-18 把 `applyLimits` /
+    #   `clampMapCenter` 搬进了 `mapLimits.ts`（`useTMap` 撞了 420 行上限）。
+    #   只判 `minZoomOf(` 会假红成"下限没算"—— 判据落行为：接线在不在。
+    if 'attachLimits(' not in ut:
+        problems.append(
+            f'{ut_rel} 没有调用 `attachLimits(` —— 缩放下限没按容器现算、resize 也不重算'
+            '（写死 = 一端卡死、一端白设）'
+        )
+    if 'clampMapCenter(' not in ut:
+        problems.append(
+            f'{ut_rel} 没有调用 `clampMapCenter(` —— 拖到国外/洋面时中心不会被拉回，'
+            '屏幕上会一个中国城市都没有'
+        )
+    if 'setMinZoom?.(' not in ml:
+        problems.append(f'{ml_rel} 算了下限却没落到引擎（缺 `setMinZoom?.(`）')
+    if 'minZoomOf(' not in ml:
+        problems.append(f'{ml_rel} 没有 `minZoomOf(` —— 下限不是算出来的，就是写死的')
+
+    sh_rel = 'app/routes/map-shell.tsx'
+    sh = strip_comments(read_app(sh_rel))
+    hits += 1
+    if 'mapLimitsFor(' not in sh:
+        problems.append(f'{sh_rel} 没有按端取限制（缺 `mapLimitsFor(`）')
+    if 'limits,' not in sh:
+        problems.append(f'{sh_rel} 没有把 `limits` 传给 `useTMap` —— 图层拿到的还是默认那一套')
+
+    check(label, problems, 3, hits)
+
+
 def main() -> int:
     print('=== 应用结构静态校验 ===\n')
     check_barrels()
@@ -7933,6 +8004,7 @@ def main() -> int:
     check_panel_click()
     check_reveal_scope()
     check_hydration_and_face_level()
+    check_map_limits()
     check_poster_key_proxy()
     check_build_scale()
 

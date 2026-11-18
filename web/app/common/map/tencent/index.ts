@@ -24,7 +24,9 @@
  * | `poiLayer.ts` | **点位三层**：聚合 + 选中项 `MultiMarker` + 名字 `MultiLabel` |
  * | `poiCluster.ts` | **聚合层的封装**（`MarkerCluster` 参数 / 点击分派 / 落地结算 / 读数）。★ 不对外导出 |
  * | `labelAvoidance.ts` | 自研标注避让（腾讯无原生避让，必须自算） |
- * | `zoomTiers.ts` | **缩放分档表**：放大到多少揭示下一级 + 这一档铺不铺点位 + 名字上限（唯一出处） |
+ * | `zoomTiers.ts` | **缩放分档表**：放大到多少揭示下一级 + 这一档铺不铺点位 + 名字上限 + **徽标预算**（唯一出处） |
+ * | `mapLimits.ts` | **伸缩与拖拽边界**：能缩多小（按容器现算）、能拖到哪 —— 两端不同 |
+ * | `districtBadges.ts` | 徽标**显示集合**：预算内按景点数排序 + 像素碰撞丢弃（位置绝不偏移） |
  * | `districtLayer.ts` | 区划多边形 + 计数徽标（三级下钻的地图侧） |
  * | `routeLayer.ts` | 行程连线（逐段 geometry + 拥堵双线 + 步行虚线 + 换乘点） |
  * | `zLayers.ts` | **覆盖物图层的 zIndex 唯一出处**（"谁压谁"只在这里定义） |
@@ -185,6 +187,15 @@ export {
   type MapLevel,
   type PoiTier,
 } from './zoomTiers'
+
+// 伸缩与拖拽边界 —— 唯一出处（首屏取什么景、能缩多小、能拖到哪）
+export {
+  clampCenter,
+  MAP_LIMITS,
+  mapLimitsFor,
+  minZoomOf,
+  type MapLimits,
+} from './mapLimits'
 
 export {
   createMarkerLayer,

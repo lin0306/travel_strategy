@@ -50,7 +50,7 @@ import {
   type ViewportEnv,
 } from '~/common/logic/mapShell'
 import { useIsMobile } from '~/common/logic/useViewport'
-import { readViewport, useTMap, type ViewportChange } from '~/common/map/tencent'
+import { mapLimitsFor, readViewport, useTMap, type ViewportChange } from '~/common/map/tencent'
 import { patchView, restoredViewFor } from '~/common/data/uiState'
 import { hydrateNav, navTo, useNavKey } from '~/common/logic/nav/navStore'
 import { parseShareHash } from '~/common/logic/itinerary/share'
@@ -203,10 +203,14 @@ export default function MapShellRoute() {
    */
   const restoredView = useMemo(() => restoredViewFor(navK), [navK])
 
+  const isMobile = useIsMobile() // 边界按端取（`mapLimits.ts`）：同 zoom 桌面 85°、手机 45°
+  const limits = useMemo(() => mapLimitsFor(isMobile), [isMobile])
+
   const tmap = useTMap({
     containerRef,
     overlaysRef,
     onViewportChange,
+    limits,
     // 只有恢复了视野才覆盖默认（中国全图）——否则一律交给入口取景
     ...(restoredView
       ? { center: { lng: restoredView.lng, lat: restoredView.lat }, zoom: restoredView.zoom }

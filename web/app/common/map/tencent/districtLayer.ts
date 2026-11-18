@@ -30,7 +30,6 @@ import { Z_LAYER } from './zLayers'
 import { createTapGuard } from './tapGuard'
 
 import { layoutBadges } from './districtBadges'
-import { createBadgeLeaders } from './badgeLeaders'
 import { createGeometryStore } from './districtGeometry'
 import { createScopeOutline, SCOPE_GEOM_ID } from './districtScope'
 import { readViewport } from './viewport'
@@ -79,7 +78,7 @@ export interface DistrictLayerHandle {
   /**
    * 缩放 / 平移结束后重算**徽标可见集合**。
    *
-   * 徽标要不要显示、要不要错开取决于像素间距（见 `layoutBadges`），所以视野一变就得重算。
+   * 徽标显示哪几个、显示多少个取决于缩放预算与像素间距（见 `layoutBadges`），所以视野一变就得重算。
    * 外壳在缩放/平移结束后广播一次，页面转手调这里 —— 不接这条线的话，
    * 徽标只会按"数据到达那一刻"的视野算一次，之后永远不动。
    */
@@ -137,11 +136,6 @@ export function createDistrictLayer(map: TMap.Map, opts: DistrictLayerOptions): 
     geometries: [],
     zIndex: Z_LAYER.districtBadge,
   })
-  /**
-   * 错开徽标的**引线**（`badgeLeaders`）：被推开的牌子用一条虚线连回真实位置。
-   * 层级由它自己的 `zIndex`（比徽标小 0.5）决定，与创建顺序无关。
-   */
-  const leaders = createBadgeLeaders(map)
 
   let nodeByAdcode = new Map<string, DistrictGeoNode>()
   let hovered: string | null = null
@@ -195,21 +189,16 @@ export function createDistrictLayer(map: TMap.Map, opts: DistrictLayerOptions): 
     //   下一级。**必须在这里早退而不是"生成但透明"**：透明几何依然可点（同下面那条注释）。
     if (mode === 'reference') {
       badges.setGeometries([])
-      leaders.sync([])
       // ★ 签名跟着作废：几何已经清空，切回 `full` 时必须重设一次（否则徽标永远不回来）
       badgeSig = ''
       stats = { ...stats, zoom: readViewport(map).zoom, total: nodeByAdcode.size, badges: 0, badgeTexts: [] }
       return
     }
 
-    // ★ `layoutBadges` 返回的是**已经错开过的节点**（宽屏下广东/中国香港/中国澳门这类相碰的
-    //   牌子会被平移一格，经纬度已换算好），所以下面直接用它的取值，不需要再查原节点。
+    // ★ `layoutBadges` 只决定**显示哪几个**（数量预算 + 碰撞丢弃），坐标是节点原样 ——
+    //   2026-11-18 起不再有"错开一格"，所以这里拿到的就是真实位置。
     const view = readViewport(map)
-    const placements = [...layoutBadges([...nodeByAdcode.values()], view).values()]
-    const shown = placements.map((p) => p.node)
-    // 引线：只有被错开的那些才有（见 `badgeLeaders`）——**每次重绘都同步**，
-    // 否则 zoom 变了徽标归位而线还留在原处
-    leaders.sync(placements)
+    const shown = [...layoutBadges([...nodeByAdcode.values()], view).values()]
     // ★ 被裁掉的徽标**不生成几何**，而不是"生成但设成透明" ——
     //   透明几何依然可点，会出现"点到看不见的东西"。`stats()` 报的也是这一批
 
@@ -222,8 +211,8 @@ export function createDistrictLayer(map: TMap.Map, opts: DistrictLayerOptions): 
      * ⚠️ 位置（`LatLng`）不进签名是对的，但**必须**带上样式 id —— 激活 / 悬浮
      *   高亮是同一个 adcode 换了样式，漏了它 hover 就不再变色。
      */
-    // ★ 坐标必须进签名：错开量是**像素**，zoom 一变偏移后的经纬度就变；只按
-    //   adcode+样式 判重会让徽标停在旧 zoom 的错位处。拖拽时坐标不变，不会白重设。
+    // ★ 判断依据是**哪几个 adcode + 什么样式**；坐标已不再随缩放变化（不再错开），
+    //   但留着它无害且能挡住"同一 adcode 换了位置"这种将来可能出现的改动。
     const contentSig = shown
       .map((n) => `${n.adcode}|${n.lng.toFixed(6)},${n.lat.toFixed(6)}|${badgeStyleOf(n)}`)
       .join(',')
@@ -376,8 +365,6 @@ export function createDistrictLayer(map: TMap.Map, opts: DistrictLayerOptions): 
     clear() {
       polygons.setGeometries([])
       badges.setGeometries([])
-      // 引线一起清 —— 留着几条指向空处的虚线，比什么都不画更像渲染坏了
-      leaders.sync([])
       nodeByAdcode.clear()
       polygonPaths.clear()
       hovered = null
@@ -409,7 +396,6 @@ export function createDistrictLayer(map: TMap.Map, opts: DistrictLayerOptions): 
       //   不摘就会每换一次页多挂两个空覆盖物。`destroy()` 在基类 `MultiOverlay` 上。
       polygons.destroy()
       badges.destroy()
-      leaders.destroy()
       // ★ 判据的监听也要解（捕获阶段的六个事件，见 `tapGuard`）
       tap.destroy()
     },

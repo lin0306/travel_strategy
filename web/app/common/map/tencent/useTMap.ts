@@ -23,6 +23,9 @@
  *   · 缩放是**光杆 `zoom`**，写成 `zoom_changed` 不会报错、只是永不触发
  *   · 中心/视野变化**带下划线**：`center_changed` / `bounds_changed`
  * 三条都注册，统一交给 `viewportEmitter` 做防抖 —— 拖动过程中每帧重算会明显掉帧。
+ *
+ * ## 3. 缩放与拖拽有边界（2026-11-18 用户定，「两端限制不一样」）
+ * 值在 `mapLimits.ts`；本文件只负责落到地图上（`attachLimits` + `clampMapCenter`）。
  */
 
 import { useCallback, useEffect, useRef, useState } from 'react'
@@ -37,6 +40,7 @@ import {
   type BasemapState,
 } from './basemap'
 import { fitPoints, NATIONAL_VIEW, type FitOptions, type LatLngLike } from './fitView'
+import { applyLimits, attachLimits, clampMapCenter, mapLimitsFor, type MapLimits } from './mapLimits'
 import { focusPointTo, panPointToCenter } from './panTo'
 import { loadTMapSdk, mapErrorText, warnIfMapLikelyFailed, type MapErrorCode } from './loader'
 import { createViewportEmitter, type ViewportChange, type ViewportEmitter } from './viewportEmitter'
@@ -73,6 +77,11 @@ export interface UseTMapOptions {
   /** 初始中心（默认中国全图） */
   center?: LatLngLike
   zoom?: number
+  /**
+   * 伸缩与拖拽边界（`mapLimits.ts` 是唯一出处）。★ **按端**传：同一个 zoom 在手机
+   * 和桌面看到的地盘差三倍，一套值必然一端卡死。不传时按桌面处理。
+   */
+  limits?: MapLimits
 }
 
 export interface UseTMapResult {
@@ -112,15 +121,12 @@ export interface UseTMapResult {
    *   · 取景（`fit`）→ 稳定检测到动画结束再广播
    *   · 外壳发现浮层增删 → 由外壳调
    * 它剩下的用途只有一个：**地图没动、但可用区变了**（浮层显隐）时强制重算。
-   * 页面在 `shell.fit()` 之后补调它曾经是必须的 —— 现在有了稳定检测就不再需要，
-   * 而且补调反而有害（读到动画第 0 帧）。`check_app.py` 的 V 项守这条。
+   * `fit()` 之后补调它曾经是必须的，现在有害（读到动画第 0 帧）—— V 项守这条。
    */
   refreshView: () => void
   /**
-   * 当前地图中心。用于「用地图中心点当住宿点」这类**用户主动点击**的取值场景。
-   *
-   * ★ 它不是"获取用户位置"—— 中心点取决于用户自己把地图挪到了哪，
-   *   与设备的定位权限无关。本项目不采集、不上传任何位置信息。
+   * 当前地图中心（「用地图中心点当住宿点」这类**用户主动点击**的取值场景）。
+   * ★ 不是"获取用户位置"：中心取决于用户把地图挪到哪，与定位权限无关。
    */
   center: () => LatLngLike | null
 }
@@ -128,13 +134,10 @@ export interface UseTMapResult {
 /**
  * 初始视野：**中国全图**。
  *
- * ⚠️ 这里曾经写死成都（`104.0668, 30.5728` / zoom 11），注释写的是"首批数据只做成都"。
- *    那在只有一座城市时看着没毛病，但它埋了一个后果：**任何页面只要没能自己
- *    `fit()` 成功，就会露出这个"默认城市"** —— 首页（全国视图）在区划树缺席时
- *    正好是这种情况，于是打开首页看到的是一片成都市区。
- *
- *    取景该由**页面**决定：首页框全国（`NATIONAL_FIT_CORNERS`）、城市页框本城。
- *    引擎给一个中性的全国视野，只在页面还没接手前兜住第一帧。
+ * ⚠️ 这里曾写死成都（`104.0668, 30.5728` / zoom 11，理由"首批数据只做成都"）。
+ *    后果是**任何页面只要 `fit()` 没成功就会露出这座"默认城市"** —— 首页在区划树
+ *    缺席时正是如此，于是打开首页看到一片成都市区。取景该由页面决定
+ *    （首页框全国 = `NATIONAL_FIT_CORNERS`、城市页框本城），引擎只兜第一帧。
  */
 const DEFAULT_CENTER: LatLngLike = NATIONAL_VIEW.center
 const DEFAULT_ZOOM = NATIONAL_VIEW.zoom
@@ -163,7 +166,13 @@ export function useTMap(opts: UseTMapOptions): UseTMapResult {
   if (emitterRef.current === null) {
     emitterRef.current = createViewportEmitter({
       getMap: () => mapRef.current,
-      onChange: (e) => optsRef.current.onViewportChange?.(e),
+      onChange: (e) => {
+        // ★ **拖拽边界**：越界时只修正、不广播（理由见 `mapLimits.clampMapCenter`）。
+        //   放在这里是因为它就是"手势停稳"的唯一时机 —— 拖动中逐帧拉回会抖。
+        const map = mapRef.current
+        if (map && clampMapCenter(map, optsRef.current.limits ?? mapLimitsFor(false))) return
+        optsRef.current.onViewportChange?.(e)
+      },
     })
   }
   const emitter = emitterRef.current
@@ -178,6 +187,8 @@ export function useTMap(opts: UseTMapOptions): UseTMapResult {
 
     let disposed = false
     let stopSuspectCheck: (() => void) | null = null
+    /** 解绑 resize 监听（清理时用；`onResize` 活在 then 回调里，外面拿不到） */
+    let detachResize: (() => void) | null = null
 
     setStatus('loading')
     setFailure(null)
@@ -193,9 +204,9 @@ export function useTMap(opts: UseTMapOptions): UseTMapResult {
             optsRef.current.center?.lng ?? DEFAULT_CENTER.lng,
           ),
           zoom: optsRef.current.zoom ?? DEFAULT_ZOOM,
-          // ⚠️ 腾讯缩放范围是 3~20（不是 2，也不是 22）
+          // ⚠️ 腾讯缩放范围是 3~20。这里给宽松初值，真正的上下限由 `attachLimits` 收到位
           minZoom: 3,
-          maxZoom: 20,
+          maxZoom: optsRef.current.limits?.maxZoom ?? 20,
           viewMode: '2D',
           // 腾讯自带控件与我们自绘的浮层风格冲突 → 关掉
           showControl: false,
@@ -241,6 +252,9 @@ export function useTMap(opts: UseTMapOptions): UseTMapResult {
           console.warn('[map]', msg)
         })
 
+        // 缩放下限按**当前容器**现算（见 `mapLimits`），resize 也跟着重算
+        detachResize = attachLimits(map, () => optsRef.current.limits ?? mapLimitsFor(false))
+
         setStatus('ready')
         // 开机先把「哪个缩放级别该显示什么」打出来 —— 之后每一个异常读数都能
         // 当场对照规则表，不必回头翻源码（见 `zoomTiers.describeTierRules`）
@@ -261,6 +275,7 @@ export function useTMap(opts: UseTMapOptions): UseTMapResult {
     return () => {
       disposed = true
       if (stopSuspectCheck) stopSuspectCheck()
+      detachResize?.()
       emitter.dispose()
 
       // ★ 逐个 off —— 腾讯不接受"统一清除"，也不返回取消函数
@@ -275,6 +290,13 @@ export function useTMap(opts: UseTMapOptions): UseTMapResult {
       mapRef.current = null
     }
   }, [attempt, emitter])
+
+  /** 换端（移动 ↔ 桌面）：两端不是同一套值。★ 依赖用数值键，避免对象引用白跑 */
+  const limitsKey = opts.limits ? `${opts.limits.zoomOutSlack}|${opts.limits.maxZoom}` : ''
+  useEffect(() => {
+    const map = mapRef.current
+    if (map && optsRef.current.limits) applyLimits(map, optsRef.current.limits)
+  }, [limitsKey])
 
   const fit = useCallback<UseTMapResult['fit']>(
     (points, o) => {
