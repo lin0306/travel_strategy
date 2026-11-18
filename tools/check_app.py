@@ -7889,10 +7889,12 @@ def check_map_limits() -> None:
       ① 下限写死 ⇒ 手机被卡在"看不到全国"、桌面又能缩到中国只剩半屏
       ② 没有中心钳制 ⇒ 能拖到屏幕上一个中国城市都没有（不报错，只是"迷路"）
       ③ 两端共用一套值 ⇒ 字面满足、实际只对一端成立
-    实测依据（`_tmp/probe_limits.mjs`）：全国 fit 桌面 4.57 / 移动 3.04 ——
-    同一个 zoom 两端看到的地盘差三倍，所以下限只能是算出来的。
+      ④ **只在自己这边钳中心** ⇒ 手指一直按着拖就永远没有"停稳"那一刻，
+         画面一路滑到美洲，松手才弹回（用户 2026-11-18 第二次报的就是这个）
+    实测依据：全国 fit 桌面 4.57 / 移动 3.04（`_tmp/probe_limits.mjs`）；
+    拖动过程中是否被拦用 `_tmp/probe_drag_live.mjs`（不 touchEnd 中途读中心）。
     """
-    label = 'BJ. 缩放与拖拽有边界，且两端不同一套（下限按容器现算）'
+    label = 'BJ. 缩放与拖拽有边界，且两端不同一套（下限现算 + 引擎级边界）'
     problems: list[str] = []
     hits = 0
 
@@ -7926,6 +7928,18 @@ def check_map_limits() -> None:
         problems.append(
             f'{ut_rel} 没有调用 `clampMapCenter(` —— 拖到国外/洋面时中心不会被拉回，'
             '屏幕上会一个中国城市都没有'
+        )
+    # ★ ④ 只钳中心不够（2026-11-18 用户第二次报）：必须落到引擎的 `setBoundary`，
+    #   否则"按住一直拖"永远等不到停稳，画面仍能滑到美洲。
+    if 'export function syncBoundary(' not in ml:
+        problems.append(
+            f'{ml_rel} 没有 `syncBoundary(` —— 没有引擎级边界，拖拽过程中不设防；'
+            '自己钳中心只能等"停手 120ms"，按住一直拖就永远不触发'
+        )
+    if "e.kind === 'fit'" not in ut or 'syncBoundary(' not in ut:
+        problems.append(
+            f'{ut_rel} 没有在取景停稳后挂引擎级边界（缺 `e.kind === \'fit\'` + `syncBoundary(`）——'
+            '边界会退化成"永不生效"或"建图时挂、把首页取景顶住"'
         )
     if 'setMinZoom?.(' not in ml:
         problems.append(f'{ml_rel} 算了下限却没落到引擎（缺 `setMinZoom?.(`）')

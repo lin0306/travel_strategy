@@ -1,105 +1,120 @@
 {
- "id": "dongguashan",
- "name": "冬瓜山",
- "category": "food",
- "subtype": "snack",
- "summary": "城南的夜宵一条街，烧烤与炸串从傍晚摆到凌晨。",
- "description": "冬瓜山在天心区劳动广场南侧，是一片老住宅区里的几条街巷，长沙最有名的夜宵地之一。这里白天没什么人，傍晚六点后摊子陆续出来，烧烤、炸串、口味虾、猪油拌粉、唆螺、炒粉，一路排开。来吃的多是本地人，塑料凳摆在路边，一坐就是一两个小时。这儿的口味偏重——辣、咸、油，配啤酒或者本地的凉茶。价格不高，一个人几十块能吃撑。它离南门口与书院路都不远，晚上从老城走过来十来分钟。巷子窄、油烟重，穿旧衣服来更合适。",
- "highlights": [
-  "老住宅区里的夜宵街，傍晚六点后开摊",
-  "烧烤、炸串、猪油拌粉、唆螺一路排开",
-  "本地人占多数，路边塑料凳坐一晚上"
- ],
- "location": {
-  "point": {
-   "lng": 112.972508,
-   "lat": 28.172886,
-   "coordSystem": "GCJ-02"
+  "id": "dongguashan",
+  "name": "冬瓜山",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "城南的夜宵一条街，烧烤与炸串从傍晚摆到凌晨。",
+  "description": "冬瓜山在天心区劳动广场南侧，是一片老住宅区里的几条街巷，长沙最有名的夜宵地之一。这里白天没什么人，傍晚六点后摊子陆续出来，烧烤、炸串、口味虾、猪油拌粉、唆螺、炒粉，一路排开。来吃的多是本地人，塑料凳摆在路边，一坐就是一两个小时。这儿的口味偏重——辣、咸、油，配啤酒或者本地的凉茶。价格不高，一个人几十块能吃撑。它离南门口与书院路都不远，晚上从老城走过来十来分钟。巷子窄、油烟重，穿旧衣服来更合适。",
+  "highlights": [
+    "老住宅区里的夜宵街，傍晚六点后开摊",
+    "烧烤、炸串、猪油拌粉、唆螺一路排开",
+    "本地人占多数，路边塑料凳坐一晚上"
+  ],
+  "location": {
+    "point": {
+      "lng": 112.972508,
+      "lat": 28.172886,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "湖南省长沙市天心区冬瓜山（劳动广场南侧）",
+    "district": "天心区",
+    "transportTip": "地铁1号线南门口站，步行约十分钟"
   },
-  "address": "湖南省长沙市天心区冬瓜山（劳动广场南侧）",
-  "district": "天心区",
-  "transportTip": "地铁1号线南门口站，步行约十分钟"
- },
- "practical": {
-  "openHours": "约17:00-次日02:00（各摊不同），以现场为准",
-  "openHoursRef": 0,
-  "ticket": "人均约50元起，以实际消费为准",
-  "ticketRef": 0,
-  "duration": "建议 60-150 分钟",
-  "durationMinutes": [
-   60,
-   150
+  "practical": {
+    "openHours": "约17:00-次日02:00（各摊不同），以现场为准",
+    "openHoursRef": 0,
+    "ticket": "人均约50元起，以实际消费为准",
+    "ticketRef": 0,
+    "duration": "建议 60-150 分钟",
+    "durationMinutes": [
+      60,
+      150
+    ],
+    "priceLevel": "budget"
+  },
+  "audience": [
+    "friends",
+    "solo"
   ],
-  "priceLevel": "budget"
- },
- "audience": [
-  "friends",
-  "solo"
- ],
- "accessible": false,
- "tips": [],
- "images": [],
- "coverIndex": 0,
- "tags": [
-  "夜宵",
-  "烧烤",
-  "本地"
- ],
- "popularity": 83,
- "sources": [
-  {
-   "title": "百度百科·冬瓜山",
-   "url": "https://baike.baidu.com/item/%E5%86%AC%E7%93%9C%E5%B1%B1",
-   "kind": "wiki",
-   "fetchedAt": "2026-09-28"
-  }
- ],
- "updatedAt": "2026-11-14",
- "_geocoded": true,
- "_imageQuery": {
-  "en": "",
-  "zh": "冬瓜山"
- },
- "_geocodeTitle": "冬瓜山小酒馆",
- "_geocodeSuspect": false,
- "district": "430103",
- "_noImage": true,
- "review": {
-  "score": 4.0,
-  "verdict": "值得一去",
-  "facets": [
-   {
-    "label": "口味",
-    "score": 4.2,
-    "note": "辣咸油一路，烧烤炸串与唆螺是主线"
-   },
-   {
-    "label": "价格",
+  "accessible": false,
+  "tips": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Dongshan_Ridge_%2824%29.jpg/1280px-Dongshan_Ridge_%2824%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Dongshan_Ridge_%2824%29.jpg/1280px-Dongshan_Ridge_%2824%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1080,
+      "height": 810,
+      "alt": "Dongshan Ridge (24).jpg",
+      "query": "冬瓜山",
+      "credit": {
+        "source": "wikimedia",
+        "author": "STW932",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dongshan_Ridge_(24).jpg",
+        "license": "CC BY-SA 4.0",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "coverIndex": 0,
+  "tags": [
+    "夜宵",
+    "烧烤",
+    "本地"
+  ],
+  "popularity": 83,
+  "sources": [
+    {
+      "title": "百度百科·冬瓜山",
+      "url": "https://baike.baidu.com/item/%E5%86%AC%E7%93%9C%E5%B1%B1",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-28"
+    }
+  ],
+  "updatedAt": "2026-11-14",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "冬瓜山"
+  },
+  "_geocodeTitle": "冬瓜山小酒馆",
+  "_geocodeSuspect": false,
+  "district": "430103",
+  "review": {
     "score": 4.0,
-    "note": "一人几十块能吃撑"
-   },
-   {
-    "label": "环境",
-    "score": 2.6,
-    "note": "塑料凳摆路边，油烟重、巷子窄"
-   },
-   {
-    "label": "排队",
-    "score": 3.0,
-    "note": "热门摊要等，十点后才松动"
-   }
-  ],
-  "body": "傍晚六点后摊子才陆续出来，烧烤、炸串、唆螺、猪油拌粉一条巷排开，人均几十块能吃撑，本地人比游客多。缺点是环境粗糙——塑料凳摆到路边、油烟重、巷子窄，夏天坐着闷热；热门摊要排队，十点后人才松。",
-  "basis": "corpus",
-  "at": "2026-11-14",
-  "fits": [
-   "朋友",
-   "夜宵"
-  ],
-  "avoid": [
-   "怕油烟",
-   "带长辈"
-  ],
-  "sources": []
- }
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "口味",
+        "score": 4.2,
+        "note": "辣咸油一路，烧烤炸串与唆螺是主线"
+      },
+      {
+        "label": "价格",
+        "score": 4.0,
+        "note": "一人几十块能吃撑"
+      },
+      {
+        "label": "环境",
+        "score": 2.6,
+        "note": "塑料凳摆路边，油烟重、巷子窄"
+      },
+      {
+        "label": "排队",
+        "score": 3.0,
+        "note": "热门摊要等，十点后才松动"
+      }
+    ],
+    "body": "傍晚六点后摊子才陆续出来，烧烤、炸串、唆螺、猪油拌粉一条巷排开，人均几十块能吃撑，本地人比游客多。缺点是环境粗糙——塑料凳摆到路边、油烟重、巷子窄，夏天坐着闷热；热门摊要排队，十点后人才松。",
+    "basis": "corpus",
+    "at": "2026-11-14",
+    "fits": [
+      "朋友",
+      "夜宵"
+    ],
+    "avoid": [
+      "怕油烟",
+      "带长辈"
+    ],
+    "sources": []
+  }
 }

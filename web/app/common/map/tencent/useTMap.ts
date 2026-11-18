@@ -7,7 +7,7 @@
  * 那部分由页面组件在拿到 `map` 之后自行创建，这样图层可以随路由自由增删。
  * 也不负责"收到事件之后怎么办"—— 那部分在 `viewportEmitter.ts`（时序是另一种知识）。
  *
- * ## 两个必须做对的地方
+ * ## 三个必须做对的地方
  *
  * ### 1. 卸载要逐个 `off()`
  * 腾讯的 `map.on(name, fn)` **返回的是 map 实例，不是取消订阅函数**，
@@ -16,16 +16,17 @@
  * 漏掉的后果：缩放一次触发多次回调（旧实例的 handler 还活着）。
  *
  * ### 2. 地图失败绝不能拖垮页面
- * 列表 / 筛选 / 详情 / 区划列表 / 行程时间计算全部独立于地图存活。
- * 所以这里把失败收敛成 `status: 'error'` 让 UI 渲染降级卡片，**不往外抛**。
+ * 列表 / 筛选 / 详情 / 区划列表 / 行程时间计算全部独立于地图存活 —— 失败收敛成
+ * `status: 'error'` 让 UI 渲染降级卡片，**不往外抛**。
+ *
+ * ### 3. 缩放与拖拽有边界（2026-11-18 用户定，「两端限制不一样」）
+ * 值在 `mapLimits.ts`；本文件只负责接线：`attachLimits` + `clampMapCenter` +
+ * 取景停稳后的 `syncBoundary`（引擎级，拖动过程中就拦）。
  *
  * ## 事件名（腾讯这边最阴的地方）
  *   · 缩放是**光杆 `zoom`**，写成 `zoom_changed` 不会报错、只是永不触发
  *   · 中心/视野变化**带下划线**：`center_changed` / `bounds_changed`
  * 三条都注册，统一交给 `viewportEmitter` 做防抖 —— 拖动过程中每帧重算会明显掉帧。
- *
- * ## 3. 缩放与拖拽有边界（2026-11-18 用户定，「两端限制不一样」）
- * 值在 `mapLimits.ts`；本文件只负责落到地图上（`attachLimits` + `clampMapCenter`）。
  */
 
 import { useCallback, useEffect, useRef, useState } from 'react'
@@ -40,7 +41,7 @@ import {
   type BasemapState,
 } from './basemap'
 import { fitPoints, NATIONAL_VIEW, type FitOptions, type LatLngLike } from './fitView'
-import { applyLimits, attachLimits, clampMapCenter, mapLimitsFor, type MapLimits } from './mapLimits'
+import { applyLimits, attachLimits, clampMapCenter, mapLimitsFor, syncBoundary, type MapLimits } from './mapLimits'
 import { focusPointTo, panPointToCenter } from './panTo'
 import { loadTMapSdk, mapErrorText, warnIfMapLikelyFailed, type MapErrorCode } from './loader'
 import { createViewportEmitter, type ViewportChange, type ViewportEmitter } from './viewportEmitter'
@@ -114,14 +115,9 @@ export interface UseTMapResult {
    */
   focusPoint: (point: LatLngLike, zoom: number) => boolean
   /**
-   * 手动触发一次视野重刷（圆点/徽标/标注都按当前缩放重算）。
-   *
-   * ★ 三条自动路径已经覆盖了绝大多数情况，**页面不要自己调它**：
-   *   · 用户缩放/平移 → 停手 120ms 后广播
-   *   · 取景（`fit`）→ 稳定检测到动画结束再广播
-   *   · 外壳发现浮层增删 → 由外壳调
-   * 它剩下的用途只有一个：**地图没动、但可用区变了**（浮层显隐）时强制重算。
-   * `fit()` 之后补调它曾经是必须的，现在有害（读到动画第 0 帧）—— V 项守这条。
+   * 手动触发一次视野重刷。★ **页面不要自己调它** —— 三条自动路径（手势停手
+   * 120ms / 取景动画停稳 / 外壳发现浮层增删）已覆盖绝大多数情况；它只剩一个用途：
+   * 地图没动但**可用区变了**（浮层显隐）。`fit()` 之后补调有害（读到动画第 0 帧），V 项守这条。
    */
   refreshView: () => void
   /**
@@ -170,7 +166,11 @@ export function useTMap(opts: UseTMapOptions): UseTMapResult {
         // ★ **拖拽边界**：越界时只修正、不广播（理由见 `mapLimits.clampMapCenter`）。
         //   放在这里是因为它就是"手势停稳"的唯一时机 —— 拖动中逐帧拉回会抖。
         const map = mapRef.current
-        if (map && clampMapCenter(map, optsRef.current.limits ?? mapLimitsFor(false))) return
+        const lim = optsRef.current.limits ?? mapLimitsFor(false)
+        if (map && clampMapCenter(map, lim)) return
+        // ★ 引擎级边界**只在取景停稳后**挂：建图那一刻读到的是初始 3.6 档大视野，
+        //   挂了会把首页 fit 顶住（实测 4.574→4.33）。见 `mapLimits.syncBoundary`。
+        if (map && e.kind === 'fit') syncBoundary(map, lim, e.zoom)
         optsRef.current.onViewportChange?.(e)
       },
     })

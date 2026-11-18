@@ -1,28 +1,28 @@
 {
   "daily": {
-    "period": "2026-11-18",
+    "period": "2026-11-19",
     "apis": {
-      "geocoder": {
-        "requests": 23,
-        "units": 23,
-        "quota": 10000
-      },
       "place_search": {
-        "requests": 200,
-        "units": 200,
+        "requests": 196,
+        "units": 196,
         "quota": 200
+      },
+      "geocoder": {
+        "requests": 18,
+        "units": 18,
+        "quota": 10000
       }
     }
   },
+  "updatedAt": "2026-11-19T00:11:37",
   "monthly": {
     "period": "2026-11",
     "apis": {
       "amap_place": {
-        "requests": 106,
-        "units": 106,
+        "requests": 16,
+        "units": 16,
         "quota": null
       }
     }
-  },
-  "updatedAt": "2026-11-18T00:17:00"
+  }
 }

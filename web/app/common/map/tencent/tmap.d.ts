@@ -164,6 +164,15 @@ declare namespace TMap {
     getMinZoom?(): number
     getMaxZoom?(): number
     getZoomByBounds?(bounds: LatLngBounds): number
+    /**
+     * **视野不许超出**给定框（实测语义，`_tmp/probe_boundary.mjs`）。
+     *
+     * ★ 它是「拖拽过程里就拦住」的唯一手段 —— 自己钳中心只能等手势停稳，
+     *   用户一直按着拖就永远不停稳（见 `mapLimits.ts` 文件头）。
+     * ★ 设成"中国框"会把 zoom 顶上去（装不下就自己放大），所以边界必须由
+     *   「中心框 ± 最小缩放那一档的半视野」现算，见 `syncBoundary`。
+     */
+    setBoundary?(bounds: LatLngBounds | null): this
     getCenter(): LatLng
     setCenter(center: LatLng, options?: { duration?: number }): this
     /**

@@ -1,134 +1,134 @@
 {
- "id": "wenmiaoping",
- "name": "文庙坪",
- "category": "food",
- "subtype": "snack",
- "summary": "老文庙旁边的小吃巷，做的多是长沙本地的老口味。",
- "description": "文庙坪在天心区，因旧时长沙府文庙在此得名，庙早就没了，地名留下来，这一片现在是几条窄巷子里的小吃铺。这里的店多是做了十几年的小门脸，卖的是糖油粑粑、猪油拌粉、热卤、唆螺、臭豆腐、刮凉粉这一类长沙日常的东西，价格比游客区便宜一档。巷子窄，桌子摆到门口，中午和傍晚最挤。它紧挨着长郡中学，放学那阵全是学生。离黄兴南路步行街与南门口都在步行范围内，跟坡子街可以连着吃。",
- "highlights": [
-  "旧时长沙府文庙所在地，现在是小吃巷",
-  "糖油粑粑、猪油拌粉、热卤、刮凉粉都有",
-  "紧挨长郡中学，价格比游客区便宜"
- ],
- "location": {
-  "point": {
-   "lng": 112.972331,
-   "lat": 28.184947,
-   "coordSystem": "GCJ-02"
+  "id": "wenmiaoping",
+  "name": "文庙坪",
+  "category": "food",
+  "subtype": "snack",
+  "summary": "老文庙旁边的小吃巷，做的多是长沙本地的老口味。",
+  "description": "文庙坪在天心区，因旧时长沙府文庙在此得名，庙早就没了，地名留下来，这一片现在是几条窄巷子里的小吃铺。这里的店多是做了十几年的小门脸，卖的是糖油粑粑、猪油拌粉、热卤、唆螺、臭豆腐、刮凉粉这一类长沙日常的东西，价格比游客区便宜一档。巷子窄，桌子摆到门口，中午和傍晚最挤。它紧挨着长郡中学，放学那阵全是学生。离黄兴南路步行街与南门口都在步行范围内，跟坡子街可以连着吃。",
+  "highlights": [
+    "旧时长沙府文庙所在地，现在是小吃巷",
+    "糖油粑粑、猪油拌粉、热卤、刮凉粉都有",
+    "紧挨长郡中学，价格比游客区便宜"
+  ],
+  "location": {
+    "point": {
+      "lng": 112.972331,
+      "lat": 28.184947,
+      "coordSystem": "GCJ-02"
+    },
+    "address": "湖南省长沙市天心区文庙坪（西湖路一带）",
+    "district": "天心区",
+    "transportTip": "地铁1号线南门口站，步行约八分钟"
   },
-  "address": "湖南省长沙市天心区文庙坪（西湖路一带）",
-  "district": "天心区",
-  "transportTip": "地铁1号线南门口站，步行约八分钟"
- },
- "practical": {
-  "openHours": "约10:00-21:00（各铺不同），以现场为准",
-  "openHoursRef": 0,
-  "ticket": "人均约30元起，以实际消费为准",
-  "ticketRef": 0,
-  "duration": "建议 45-100 分钟",
-  "durationMinutes": [
-   45,
-   100
-  ],
-  "priceLevel": "budget"
- },
- "audience": [
-  "solo",
-  "friends"
- ],
- "accessible": false,
- "tips": [
-  "西文庙坪片区 2026 年仍在分片更新：白鹤巷老厂房、江阁广场一带在施工，主街巷与小吃摊照常营业",
-  "唐家湾片区 2024 年 9 月改造后重新开街，新增民宿、数字艺术馆与新茶饮",
-  "从南门口地铁站 1 号口步行约 400 米进入，傍晚至夜间摊位最全"
- ],
- "images": [],
- "coverIndex": 0,
- "tags": [
-  "小吃",
-  "老巷",
-  "本地"
- ],
- "popularity": 78,
- "sources": [
-  {
-   "title": "百度百科·文庙坪",
-   "url": "https://baike.baidu.com/item/%E6%96%87%E5%BA%99%E5%9D%AA",
-   "kind": "wiki",
-   "fetchedAt": "2026-09-28"
+  "practical": {
+    "openHours": "约10:00-21:00（各铺不同），以现场为准",
+    "openHoursRef": 0,
+    "ticket": "人均约30元起，以实际消费为准",
+    "ticketRef": 0,
+    "duration": "建议 45-100 分钟",
+    "durationMinutes": [
+      45,
+      100
+    ],
+    "priceLevel": "budget"
   },
-  {
-   "title": "文庙坪-湘江东岸城市更新片区调研（湖南省人民政府）",
-   "url": "https://www.hunan.gov.cn/hnszf/szf/zfld/jdf/jdfhd/202608/t20260821_34048401.html",
-   "kind": "media",
-   "fetchedAt": "2026-11-14"
-  }
- ],
- "updatedAt": "2026-11-14",
- "_geocoded": true,
- "_imageQuery": {
-  "en": "",
-  "zh": "文庙坪"
- },
- "_geocodeTitle": "文庙坪小区",
- "_geocodeSuspect": false,
- "district": "430103",
- "_noImage": true,
- "_patrol": {
-  "at": "2026-11-14",
-  "changes": [
-   {
-    "field": "贴士（用 | 分隔多条，整体替换）",
-    "old": [],
-    "new": [
-     "西文庙坪片区 2026 年仍在分片更新：白鹤巷老厂房、江阁广场一带在施工，主街巷与小吃摊照常营业",
-     "唐家湾片区 2024 年 9 月改造后重新开街，新增民宿、数字艺术馆与新茶饮",
-     "从南门口地铁站 1 号口步行约 400 米进入，傍晚至夜间摊位最全"
-    ]
-   }
+  "audience": [
+    "solo",
+    "friends"
   ],
-  "source": "https://www.hunan.gov.cn/hnszf/szf/zfld/jdf/jdfhd/202608/t20260821_34048401.html",
-  "reason": "湖南省政府 2026-08 西文庙坪城市更新调研 + 长沙晚报 2026-08-27 片区施工进展 + 长沙市城市人居环境局 2026-10-19 转载中新网"
- },
- "review": {
-  "score": 4.1,
-  "verdict": "值得一去",
-  "facets": [
-   {
-    "label": "小吃",
-    "score": 4.3,
-    "note": "糖油粑粑、猪油拌粉、热卤、刮凉粉都是本地日常"
-   },
-   {
-    "label": "价格",
-    "score": 4.4,
-    "note": "比游客区便宜一档"
-   },
-   {
-    "label": "环境",
-    "score": 2.8,
-    "note": "巷窄、桌子摆到门口"
-   },
-   {
-    "label": "人流",
-    "score": 3.2,
-    "note": "放学与傍晚最挤"
-   }
+  "accessible": false,
+  "tips": [
+    "西文庙坪片区 2026 年仍在分片更新：白鹤巷老厂房、江阁广场一带在施工，主街巷与小吃摊照常营业",
+    "唐家湾片区 2024 年 9 月改造后重新开街，新增民宿、数字艺术馆与新茶饮",
+    "从南门口地铁站 1 号口步行约 400 米进入，傍晚至夜间摊位最全"
   ],
-  "body": "旧时长沙府文庙留下的地名，现在是几条窄巷里的小吃铺，糖油粑粑、猪油拌粉、热卤、刮凉粉都是本地日常价，比游客区便宜一档。缺点是巷子窄、桌子摆到门口，坐着吃并不舒服；片区还在分片施工，围挡和噪音免不了。",
-  "basis": "web",
-  "at": "2026-11-14",
-  "fits": [
-   "小吃",
-   "单人",
-   "傍晚"
+  "images": [],
+  "coverIndex": 0,
+  "tags": [
+    "小吃",
+    "老巷",
+    "本地"
   ],
-  "avoid": [
-   "要坐着慢慢吃"
-  ],
+  "popularity": 78,
   "sources": [
-   "https://www.hunantoday.cn/news/xhn/202609/33882184.html",
-   "https://www.csudgroup.com/portal/article/index/navId/62/id/4094/cid/45.html"
-  ]
- }
+    {
+      "title": "百度百科·文庙坪",
+      "url": "https://baike.baidu.com/item/%E6%96%87%E5%BA%99%E5%9D%AA",
+      "kind": "wiki",
+      "fetchedAt": "2026-09-28"
+    },
+    {
+      "title": "文庙坪-湘江东岸城市更新片区调研（湖南省人民政府）",
+      "url": "https://www.hunan.gov.cn/hnszf/szf/zfld/jdf/jdfhd/202608/t20260821_34048401.html",
+      "kind": "media",
+      "fetchedAt": "2026-11-14"
+    }
+  ],
+  "updatedAt": "2026-11-14",
+  "_geocoded": true,
+  "_imageQuery": {
+    "en": "",
+    "zh": "文庙坪"
+  },
+  "_geocodeTitle": "文庙坪小区",
+  "_geocodeSuspect": false,
+  "district": "430103",
+  "_noImage": true,
+  "_patrol": {
+    "at": "2026-11-14",
+    "changes": [
+      {
+        "field": "贴士（用 | 分隔多条，整体替换）",
+        "old": [],
+        "new": [
+          "西文庙坪片区 2026 年仍在分片更新：白鹤巷老厂房、江阁广场一带在施工，主街巷与小吃摊照常营业",
+          "唐家湾片区 2024 年 9 月改造后重新开街，新增民宿、数字艺术馆与新茶饮",
+          "从南门口地铁站 1 号口步行约 400 米进入，傍晚至夜间摊位最全"
+        ]
+      }
+    ],
+    "source": "https://www.hunan.gov.cn/hnszf/szf/zfld/jdf/jdfhd/202608/t20260821_34048401.html",
+    "reason": "湖南省政府 2026-08 西文庙坪城市更新调研 + 长沙晚报 2026-08-27 片区施工进展 + 长沙市城市人居环境局 2026-10-19 转载中新网"
+  },
+  "review": {
+    "score": 4.1,
+    "verdict": "值得一去",
+    "facets": [
+      {
+        "label": "小吃",
+        "score": 4.3,
+        "note": "糖油粑粑、猪油拌粉、热卤、刮凉粉都是本地日常"
+      },
+      {
+        "label": "价格",
+        "score": 4.4,
+        "note": "比游客区便宜一档"
+      },
+      {
+        "label": "环境",
+        "score": 2.8,
+        "note": "巷窄、桌子摆到门口"
+      },
+      {
+        "label": "人流",
+        "score": 3.2,
+        "note": "放学与傍晚最挤"
+      }
+    ],
+    "body": "旧时长沙府文庙留下的地名，现在是几条窄巷里的小吃铺，糖油粑粑、猪油拌粉、热卤、刮凉粉都是本地日常价，比游客区便宜一档。缺点是巷子窄、桌子摆到门口，坐着吃并不舒服；片区还在分片施工，围挡和噪音免不了。",
+    "basis": "web",
+    "at": "2026-11-14",
+    "fits": [
+      "小吃",
+      "单人",
+      "傍晚"
+    ],
+    "avoid": [
+      "要坐着慢慢吃"
+    ],
+    "sources": [
+      "https://www.hunantoday.cn/news/xhn/202609/33882184.html",
+      "https://www.csudgroup.com/portal/article/index/navId/62/id/4094/cid/45.html"
+    ]
+  }
 }

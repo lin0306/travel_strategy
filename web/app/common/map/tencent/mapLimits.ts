@@ -15,11 +15,20 @@
  * ⇒ 所以下限不是写死的数，而是「**当前容器下装下全国所需的缩放 − 端专属余量**」，
  *   由 `minZoomOf(map, limits)` 现算 —— 窗口 resize、换端都自动跟上。
  *
- * ## 为什么不用 `setBoundary`（踩过）
- * 腾讯有 `map.setBoundary(bounds)`，实测（`_tmp/probe_boundary.mjs`）它的语义是
- * **"视野不许超出"**：设成中国框后，桌面首页的 z 被从 4.574 强行推到 **5.018**
- * —— 也就是"装不下就自己放大"。而这里要的恰恰相反：低缩放**必须**看得到全中国。
- * ⇒ 边界改成自己钳**中心点**（`clampCenter`），视野大小不管，位置不许出框。
+ * ## 为什么**必须**用 `setBoundary`（2026-11-18 第二次返工）
+ * 第一版只在自己这边的「手势停稳 120ms」里钳中心（`clampMapCenter`）。实测
+ * （`_tmp/probe_limit_path.mjs`）程序 `setCenter` 与触摸拖拽都能被拉回 ——
+ * 但用户仍然说「我现在都能直接拖拽到美国和南北极去了」。
+ * 原因：**手指一直按着拖，就永远没有"停稳"那一刻**，120ms 的钳制从头到尾不触发，
+ * 画面于是一路滑到美洲；松手后才弹回中国。钳制位置对了，但**时机**错了 ——
+ * 而"拖动过程中不许出去"只有引擎自己拦得住。
+ *
+ * ★ `setBoundary` 的语义是「**视野**不许超出 boundary」（实测），
+ *   所以直接设成"中国框"会把桌面首页的 z 从 4.574 顶到 5.018（装不下就自己放大）。
+ *   ⇒ 正确用法是**每档缩放现算**边界框：
+ *       视野允许框 = 允许的中心框 ± 半个当前视野
+ *     于是「视野 ⊆ 允许框」恰好等价于「中心 ∈ 中心框」，且框永远装得下视野、
+ *     永远不会触发引擎放大。放大后边界自动收紧，缩小后自动放宽 —— 不需要分支。
  *
  * ⚠️ 中心范围必须**盖住每一个有景点的城市**（三亚 18.2°N / 喀什 76.0°E）——
  *   钳得太紧会在点城市时把镜头推开几十公里，而那看起来就像"点错了地方"。
@@ -101,7 +110,23 @@ function clamp(v: number, lo: number, hi: number): number {
 }
 
 /**
- * 当前容器下的**缩放下限** = 「装下全国要多少」− 端专属余量。
+ * 每张地图**实测到的**缩放地板（首页取景停稳那一刻的 zoom）。
+ *
+ * ## 为什么不能只靠 `minZoomOf` 的"fit − 余量"
+ * `getZoomByBounds`（无 padding）比真实的 `fitBounds`（避让浮层、带 8% 留白）
+ * 大 0.1 档左右。为了保证首页能取到景，`zoomOutSlack` 必须留出这个差 ——
+ * 结果是用户还能再缩 0.35 档（视野大 27%），"框住中国"就又松了一圈。
+ * ⇒ 取景停稳时把**真实值**记下来，用它当地板（比算出来的紧、又绝不会打架）。
+ *
+ * ★ 只在"接近全国那一档"的取景才记（`NEAR_NATIONAL`）：否则从城市页刷新进来时，
+ *   城市 fit（z10+）会被记成地板，用户再也缩不回全国。
+ */
+const fitFloor = new WeakMap<TMap.Map, number>()
+const NEAR_NATIONAL = 0.5
+
+/**
+ * 当前容器下的**缩放下限** = 「装下全国要多少」− 端专属余量
+ * （若首页取景已停稳，则取那个**实测值**，它更紧）。
  *
  * 用引擎自己的 `getZoomByBounds` 算，不自己推 Mercator：它已经把 padding、
  * 容器尺寸、经纬度比例一起算进去了（实测存在，见 `tmap.d.ts`）。
@@ -114,7 +139,7 @@ export function minZoomOf(map: TMap.Map, limits: MapLimits): number {
       ? map.getZoomByBounds(box)
       : NATIONAL_VIEW.zoom
   // 腾讯缩放范围下限是 3（不是 2，也不是 22）
-  return Math.max(3, fit - limits.zoomOutSlack)
+  return Math.max(3, fit - limits.zoomOutSlack, fitFloor.get(map) ?? 0)
 }
 
 /**
@@ -152,16 +177,87 @@ export function clampMapCenter(map: TMap.Map, limits: MapLimits): boolean {
 }
 
 /**
+ * 当前 `zoom` 下的**半视野**（度）—— 直接从引擎的 `getBounds()` 反读。
+ *
+ * ★ 不自己推 Mercator：同一 zoom 下横竖比例、容器尺寸、纬度非线性都被引擎算过了，
+ *   自己算一遍只会与它差一点，而这点差会变成"边界有时松有时紧"。
+ */
+function halfSpanOf(map: TMap.Map): { lng: number; lat: number } | null {
+  if (typeof map.getBounds !== 'function') return null
+  const b = map.getBounds()
+  const sw = b.getSouthWest()
+  const ne = b.getNorthEast()
+  return {
+    lng: Math.abs(ne.getLng() - sw.getLng()) / 2,
+    lat: Math.abs(ne.getLat() - sw.getLat()) / 2,
+  }
+}
+
+/**
+ * 把「允许的中心框」翻译成引擎能懂的边界：**允许的视野框 = 中心框 ± 半视野**。
+ *
+ * 这是整个拖拽限制的**唯一落点** —— 调用一次，拖动、惯性、双击、键盘平移
+ * 全部被引擎拦在框内，不再依赖"停手 120ms"那个永远不会到来的时机。
+ *
+ * ## 半视野取「最小缩放那一档」，**不随当前 zoom 变**
+ * 直观想法是每档缩放现算（放大后收紧），但它有一个静默死角：
+ * `fitBounds` 是**动画**，动画中途 `getBounds()` 读到的是中间值，收紧后的边界
+ * 会把动画本身顶住 —— 从城市页回首页时"视野想变大、边界不让"，引擎只能把
+ * zoom 往上推，于是首页再也看不到全中国（正是 `setBoundary` 那个 5.018 陷阱）。
+ * ⇒ 用**最宽的视野**（= 缩放下限那一档）算一次，边界于是固定：
+ *   低缩放时它恰好包住全中国，放大后中心仍只能走到中心框边界。
+ *   这正是用户要的语义（「框死在中国境内」），而且与 fit 动画永不冲突。
+ *
+ * ★ `setBoundary` 标可选：SDK 没有它时退化成"只有停稳后钳中心"（旧行为，不崩）。
+ */
+export function syncBoundary(map: TMap.Map, limits: MapLimits, fitZoom?: number): void {
+  // 取景停稳时顺手把**实测地板**记下来（见 `fitFloor` 的注释）
+  if (fitZoom !== undefined && fitZoom <= minZoomOf(map, limits) + NEAR_NATIONAL) {
+    const prev = fitFloor.get(map)
+    const next = prev === undefined ? fitZoom : Math.min(prev, fitZoom)
+    fitFloor.set(map, next)
+    map.setMinZoom?.(next)
+  }
+  if (typeof map.setBoundary !== 'function') return
+  const half = halfSpanOf(map)
+  if (!half) return
+  // 当前视野 → 缩放下限那一档的视野：z 越小视野越大，跨度与 2^z 成反比
+  const shrink = Math.pow(2, map.getZoom() - minZoomOf(map, limits))
+  // 2% 余量：浮点误差会让"正好相等"被判越界，引擎随后反复 push zoom
+  const PAD = 1.02
+  const hl = half.lng * shrink * PAD
+  const hb = half.lat * shrink * PAD
+  // ⚠️ 腾讯是 LatLng(lat, lng) —— 纬度在前
+  map.setBoundary(
+    new TMap.LatLngBounds(
+      new TMap.LatLng(limits.center.lat[0] - hb, limits.center.lng[0] - hl),
+      new TMap.LatLng(limits.center.lat[1] + hb, limits.center.lng[1] + hl),
+    ),
+  )
+}
+
+/**
  * 建图后挂上限制，并随窗口尺寸自动重算；返回解绑函数。
  *
  * ★ resize 必须重算：窗口从 1440 拉到 1920，同一个 zoom 看到的地盘变宽，
  *   原来的下限就偏松了（用户又能缩到"中国只剩半屏"）。
+ * ★ 不监听 `zoom`：边界取的是**最宽那一档**的视野（见 `syncBoundary`），
+ *   与当前缩放无关 ⇒ 不用重算，也就不可能在 fit 动画途中把镜头顶住。
  * ★ `getLimits` 是现取的函数而不是值 —— 换端（移动 ↔ 桌面）后要跟着换，
  *   这个监听不该因此重挂。
  */
 export function attachLimits(map: TMap.Map, getLimits: () => MapLimits): () => void {
-  const sync = () => applyLimits(map, getLimits())
-  sync()
-  window.addEventListener('resize', sync)
-  return () => window.removeEventListener('resize', sync)
+  const onResize = () => {
+    const lim = getLimits()
+    applyLimits(map, lim)
+    // resize 后视野是终值（没有动画在跑），重算边界安全
+    syncBoundary(map, lim)
+  }
+  // ★ 建图时只设缩放上下限，**不**挂边界：那一刻还在引擎的初始 3.6 档，
+  //   `getBounds()` 读到的是那个大视野，算出来的框会与首页 fit 的目标打架
+  //   （实测首页从 4.574 掉到 4.33、中心退回 `NATIONAL_VIEW.center`）。
+  //   边界由第一次取景停稳后挂 —— 见 `useTMap` 的 `kind === 'fit'` 分支。
+  applyLimits(map, getLimits())
+  window.addEventListener('resize', onResize)
+  return () => window.removeEventListener('resize', onResize)
 }
