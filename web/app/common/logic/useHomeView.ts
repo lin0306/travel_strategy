@@ -234,8 +234,8 @@ export function useHomeView(): HomeView {
     //   `districtFile`：那样只会把面固定成"省的面"，放大到市/区级时新徽标一个面都没有。
     // ★ 末尾那一项是**区索引**：它异步到货，不给它坑，揭示就不会重算（放大到区级什么都不出来）
     dataKey: `${rows?.length ?? -1}|${cityRows.length}|${poiPoints.length}|${Object.keys(subRows).length}|${districtIndex?.length ?? -1}`,
-    // 两端都聚合，只差"独立点要不要挂名字"（见 `poiLayer` 文件头）
-    names: !isMobile,
+    // 两端都挂名字（2026-11-19 用户要求）；个数由 `poiTierForZoom` 封顶 + 避让裁
+    names: true,
     // 选中的那一枚画在选中层上（彩色白环 + 名字置为选中态），不进聚合
     // ★ 传 `layerId` 而不是 `selectedId`：搜索命中的那一枚也要高亮（它在候选里时才画得出来）
     selectedId: sel.layerId,

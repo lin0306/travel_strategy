@@ -27,7 +27,7 @@ export interface PoiLabelsInput {
   labels: TMap.MultiLabel
   /** 当前候选点集，按 id 查 */
   byId: ReadonlyMap<string, PoiPoint>
-  /** 是否给**独立点**挂名字（移动端不给，只留选中项与认领点） */
+  /** 是否给**独立点**挂名字（2026-11-19 起两端都为真；选中项与认领点另有例外，见文件头） */
   names: boolean
   /**
    * 聚合器给出的"这些是独立点"（`Set` 或数组都行）—— **唯一出处**，别在外面另算一遍。

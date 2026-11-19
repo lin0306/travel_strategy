@@ -7915,6 +7915,8 @@ def check_map_limits() -> None:
 
     ut_rel = 'app/common/map/tencent/useTMap.ts'
     ut = strip_comments(read_app(ut_rel))
+    ve_rel = 'app/common/map/tencent/viewportEmitter.ts'
+    ve = strip_comments(read_app(ve_rel))
     hits += 1
     # ★ 判据认**调用点**，不认"实现写在这里"：2026-11-18 把 `applyLimits` /
     #   `clampMapCenter` 搬进了 `mapLimits.ts`（`useTMap` 撞了 420 行上限）。
@@ -7936,10 +7938,32 @@ def check_map_limits() -> None:
             f'{ml_rel} 没有 `syncBoundary(` —— 没有引擎级边界，拖拽过程中不设防；'
             '自己钳中心只能等"停手 120ms"，按住一直拖就永远不触发'
         )
-    if "e.kind === 'fit'" not in ut or 'syncBoundary(' not in ut:
+    if "e.kind === 'fit'" not in ut or 'syncBoundaryWhenReady(' not in ut:
         problems.append(
-            f'{ut_rel} 没有在取景停稳后挂引擎级边界（缺 `e.kind === \'fit\'` + `syncBoundary(`）——'
+            f'{ut_rel} 没有在取景停稳后挂引擎级边界（缺 `e.kind === \'fit\'` + `syncBoundaryWhenReady(`）——'
             '边界会退化成"永不生效"或"建图时挂、把首页取景顶住"'
+        )
+    # ★ ⑤ 2026-11-19 用户第三次报「拖拽超过边界，松手后回弹」：
+    #   回弹的根因是 `clampMapCenter` 用了**另一套中心框**（比引擎边界紧半个视野）⇒
+    #   拖动被放过一屏、松手又被拽回。判据落行为：钳制必须走与边界同源的 `centerRangeOf`。
+    if 'centerRangeOf(map, limits)' not in ml:
+        problems.append(
+            f'{ml_rel} 的 `clampMapCenter` 没有用 `centerRangeOf(map, limits)` ——'
+            '判据与引擎边界不同源就会有"松手回弹"'
+        )
+    # ★ ⑥ 首屏边界必须挂上：fit 广播常因签名与上一次缩放相同被去重，
+    #   若去重把整条广播吞掉，`syncBoundary` 永不执行 ⇒ 整张地图没有边界（实测 boundary:false）。
+    if 'deduped: true' not in ve:
+        problems.append(
+            f'{ve_rel} 的 `emit` 去重时没有把 fit 广播带 `deduped: true` 交出去 ——'
+            '边界同步会被签名去重静默吞掉，整张地图没有边界'
+        )
+    # ★ ⑦ 缩小方向必须放宽：边界收紧到当前视野后，缩小会被自己顶住（实测卡在 z4.85）。
+    if "map.on('zoom'" not in ml or 'syncBoundary(map, getLimits(), undefined, true)' not in ml:
+        problems.append(
+            f'{ml_rel} 没有在 `attachLimits` 里监听 zoom 并放宽边界（缺 '
+            "`map.on('zoom'` + `syncBoundary(map, getLimits(), undefined, true)`）——"
+            '从城市页缩不回全国'
         )
     if 'setMinZoom?.(' not in ml:
         problems.append(f'{ml_rel} 算了下限却没落到引擎（缺 `setMinZoom?.(`）')
@@ -8020,6 +8044,8 @@ def main() -> int:
     check_hydration_and_face_level()
     check_map_limits()
     check_doc_head()
+    check_mobile_input()
+    check_drag_brake()
     check_poster_key_proxy()
     check_build_scale()
 
@@ -8918,6 +8944,162 @@ def check_doc_head() -> None:
             )
 
     check('BK. HTML 骨架必须带标题', problems, 2, hits)
+
+
+def check_mobile_input() -> None:
+    """BL. 手机端的三条静默失效（2026-11-19 用户报「点省的标签不会缩放」「点不显示名字」）。
+
+    这一组守的三处，共同点是**全程不报错**，只有用手指在真机上戳才会发现：
+
+    | 失效 | 表现 | 为什么静态检查全绿 |
+    |------|------|--------------------|
+    | 触摸端没有 `click` | 徽标 / 点位一律点不动 | `addEventListener('click')` 那行字面量还在，只是浏览器不给触摸补 click |
+    | 稳定检测被"启动延迟"骗过 | 点徽标会放大，但徽标不换级 | 广播确实发生了一次，只是发生在动画开始前 |
+    | `names: !isMobile` | 有点位、没有名字 | 属性名合法、类型对得上 |
+
+    判据一律落**行为**（补发了哪几个事件 / 收口条件里有没有"确实动过" / 开关是不是恒 true），
+    不落函数名 —— 否则改个名字就能让它变绿。
+    """
+    problems: list[str] = []
+    hits = 0
+
+    def src_of(rel: str) -> str:
+        return strip_comments_keep_lines((WEB / rel).read_text(encoding='utf-8'))
+
+    # ① 触摸抬起后必须**补发一整套鼠标事件**，而且 `mousemove` 不能省
+    tg_rel = 'app/common/map/tencent/tapGuard.ts'
+    tg = src_of(tg_rel)
+    hits += 1
+    if not re.search(r"new MouseEvent\('mousemove'", tg):
+        problems.append(
+            f'{tg_rel} 补发点击时没有 `mousemove` —— 腾讯的命中测试挂**悬停态**，'
+            '不先 move 一次，按下那一下经常命中不到（表现为"有的点能点、有的点不能"）'
+        )
+    elif not re.search(r"new MouseEvent\('click'", tg):
+        problems.append(f'{tg_rel} 没有补发 `click` —— 触摸端压根没有这个事件，整张地图点不动')
+    hits += 1
+    if 'installTouchClickBridge(map)' not in tg:
+        problems.append(
+            f'{tg_rel} 的 `createTapGuard` 没接线触摸桥 —— 每个 tapGuard 各自补一次会让'
+            '一次点击触发五六次下钻（"点了乱跳"），所以必须由桥统一补'
+        )
+    elif 'detachTouchClick()' not in tg:
+        problems.append(f'{tg_rel} 拆图层时没解绑触摸桥 —— 来回切页面会越挂越多')
+
+    # ② 稳定检测必须"收时长 + 确实动过"才收口（`focusPoint` 的动画有 600ms 启动延迟）
+    ve_rel = 'app/common/map/tencent/viewportEmitter.ts'
+    ve = src_of(ve_rel)
+    hits += 1
+    if not re.search(r'function watchSettle\(durationMs', ve):
+        problems.append(
+            f'{ve_rel} 的 `watchSettle` 不收时长 —— `focusPoint` 发起动画后立刻采样，'
+            '前两次读到的还是动画前的视野，会被判"已停稳"并停止采样，'
+            '于是镜头飞到位后再没人广播（点徽标会放大但不换级）'
+        )
+    elif 'seenMove' not in ve:
+        problems.append(f'{ve_rel} 的收口条件里没有"确实动过"（`seenMove`）—— 同一次误判会再犯')
+    elif 'SETTLE_MAX_MS' not in ve:
+        problems.append(f'{ve_rel} 没有兜底上限（`SETTLE_MAX_MS`）—— 视野一直抖就永远不广播')
+
+    ut_rel = 'app/common/map/tencent/useTMap.ts'
+    ut = src_of(ut_rel)
+    hits += 1
+    if 'watchSettle(FLY_DURATION_MS' not in ut:
+        problems.append(
+            f'{ut_rel} 调 `watchSettle` 时没传飞行时长 —— 不传就等于退回"立刻收口"，'
+            '上面那条读数再对也没用（参数必须真的有值传进来）'
+        )
+
+    # ③ 三个页面都必须恒挂名字（`!isMobile` 那次就是"有点没名"的成因）
+    for rel in (
+        'app/common/logic/useHomeView.ts',
+        'app/common/logic/useProvinceView.ts',
+        'app/common/logic/useCityView.ts',
+    ):
+        s = src_of(rel)
+        hits += 1
+        if re.search(r'names:\s*(?:!|false)', s):
+            problems.append(
+                f'{rel} 把名字关在移动端之外了（`names: !isMobile` 之类）—— '
+                '2026-11-19 用户要的就是"地图上的点显示名字"，两端同一套'
+            )
+        elif not re.search(r'names:\s*true', s):
+            problems.append(f'{rel} 没有 `names: true` —— 这一端的点位会没有名字')
+
+    check('BL. 手机端点击与名字（触摸补发 · 稳定检测 · 两端都挂名字）', problems, 6, hits)
+
+
+def check_drag_brake() -> None:
+    """BM. 拖拽抬手即停（引擎惯性必须被刹住）2026-11-19。
+
+    用户原话：「这地图快速拖拽，不是拖拽到哪就停在哪的，而是会有惯性效果，
+    再往一侧滚动，这个是个bug」。实测（`_tmp/probe_inertia_distance.mjs`，z12）：
+
+    | 输入 | 拖动本体 | 抬手后额外滑行 |
+    |------|----------|----------------|
+    | 鼠标快拖 | −500px | **−200px** |
+    | 手指快甩 | −230px | −9px |
+
+    惯性是引擎内置的（Leaflet 血统的 `inertia`），`TMap.Map` 没把它透出来 ⇒ 只能刹车。
+    守四点，缺一条都会静默退化成旧行为：
+
+      ① 刹车文件在，且真的调了 `stopEase` / `stopMoving`（引擎唯一的公开打断手段）
+      ② "点一下"不刹车 —— 否则同一次点击触发的下钻动画会被 `stopEase` 掐死
+         （表现是"点徽标只放大一点就不动了"，比惯性更难查）
+      ③ 新的 `pointerdown` 要能解除刹车（下一个手势开始前刹车必须撤干净）
+      ④ 真的挂到图上了（`attachLimits` 里的 `attachDragBrake(map)`），且解绑时一起拆
+    """
+    problems: list[str] = []
+    hits = 0
+
+    db_rel = 'app/common/map/tencent/dragBrake.ts'
+    db_path = WEB / db_rel
+    if not db_path.exists():
+        problems.append(
+            f'{db_rel} 不见了 —— 引擎的拖拽惯性没有开关可关，删了刹车就等于'
+            '「拖到哪」和「停在哪」差出小半个屏'
+        )
+        check('BM. 拖拽抬手即停（引擎惯性必须被刹住）', problems, 4, 1)
+        return
+
+    db = strip_comments_keep_lines(db_path.read_text(encoding='utf-8'))
+    hits += 1
+    if 'export function attachDragBrake' not in db:
+        problems.append(f'{db_rel} 没有导出 `attachDragBrake` —— 刹车没挂上的话图省事写着也没用')
+    elif not re.search(r'map\.stopEase\?\.\(\)', db):
+        problems.append(f'{db_rel} 没有调 `stopEase` —— 只靠 `setCenter` 追，引擎会一直推着往前滑')
+    elif not re.search(r'map\.stopMoving\?\.\(\)', db):
+        problems.append(f'{db_rel} 没有调 `stopMoving` —— 两个是成对的，只掐一个会剩半条惯性')
+
+    hits += 1
+    # ② "点一下不刹车"：抬起时读到的中心与按下时相同就直接 return
+    if not re.search(r'if \(samePos\(from, up\)\) return', db):
+        problems.append(
+            f'{db_rel} 缺少"中心没动过 ⇒ 不刹车"这条分支 —— 同一次点击触发的下钻动画'
+            '会在下一帧被 stopEase 掐死（点徽标只放大一点就不动）'
+        )
+
+    hits += 1
+    # ③ 新手势开始必须先撤掉上一轮刹车
+    on_down = re.search(r'const onDown = [\s\S]{0,400}?\n  \}', db)
+    if not on_down or 'cancel()' not in on_down.group(0):
+        problems.append(
+            f'{db_rel} 的 `onDown` 里没有 `cancel()` —— 上一轮刹车还在跑时开始新手势，'
+            '两个循环会互相抢镜头'
+        )
+
+    hits += 1
+    ml_rel = 'app/common/map/tencent/mapLimits.ts'
+    ml = strip_comments_keep_lines((WEB / ml_rel).read_text(encoding='utf-8'))
+    if 'attachDragBrake(map)' not in ml:
+        problems.append(
+            f'{ml_rel} 没有调用 `attachDragBrake(map)` —— 刹车实现写好了但没挂到图上，'
+            '等于没有（`attachLimits` 是一图一份的唯一挂载点）'
+        )
+    elif not re.search(r'attachLimits[\s\S]*?detachBrake\(\)', ml):
+        problems.append(f'{ml_rel} 解绑时没调 `detachBrake()` —— 来回切页面会越挂越多')
+
+    check('BM. 拖拽抬手即停（引擎惯性必须被刹住）', problems, 4, hits)
 
 
 def check_build_scale() -> None:

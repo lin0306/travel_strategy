@@ -1,40 +1,51 @@
 # 无锡 · 数据来源与图片版权
 
-> 生成于 2026-11-19 · 城市数据最后更新 2026-11-12
+> 生成于 2026-11-20 · 城市数据最后更新 2026-11-12
 
 ## 概览
 
 - 省份：江苏
 - adcode：320200
-- POI 数量：57
+- POI 数量：69
 
 ## 文本内容来源
 
 | POI | 来源标题 | 类型 | 抓取日期 |
 |-----|---------|------|---------|
+| 阿炳故居 | [携程·阿炳故居点评与开放时间](https://you.ctrip.com/sight/wuxi10/136035-dianping160542117.html) | travel-platform | 2026-11-20 |
 | 荡口古镇 | [百度百科·荡口古镇](https://baike.baidu.com/item/%E8%8D%A1%E5%8F%A3%E5%8F%A4%E9%95%87) | wiki | 2026-10-04 |
 | 东林书院 | [百度百科·东林书院](https://baike.baidu.com/item/%E4%B8%9C%E6%9E%97%E4%B9%A6%E9%99%A2) | wiki | 2026-10-04 |
 | 鹅鼻嘴公园 | [百度百科·鹅鼻嘴公园](https://baike.baidu.com/item/%E9%B9%85%E9%BC%BB%E5%98%B4%E5%85%AC%E5%9B%AD) | wiki | 2026-10-04 |
 | 华西村 | [百度百科·华西村](https://baike.baidu.com/item/%E5%8D%8E%E8%A5%BF%E6%9D%91) | wiki | 2026-10-04 |
 | 惠山古镇 | [百度百科·惠山古镇](https://baike.baidu.com/item/%E6%83%A0%E5%B1%B1%E5%8F%A4%E9%95%87) | wiki | 2026-10-04 |
+| 江阴市博物馆 | [江阴市博物馆官网·参观须知](https://www.jymuseum.com.cn/index.php?option=com_content&view=article&id=96&Itemid=43) | official | 2026-11-20 |
 | 江阴要塞·黄山炮台 | [百度百科·江阴要塞](https://baike.baidu.com/item/%E6%B1%9F%E9%98%B4%E8%A6%81%E5%A1%9E) | wiki | 2026-10-04 |
 | 寄畅园 | [百度百科·寄畅园](https://baike.baidu.com/item/%E5%AF%84%E7%95%85%E5%9B%AD) | wiki | 2026-10-04 |
 | 蠡湖公园 | [百度百科·蠡湖](https://baike.baidu.com/item/%E8%A0%A1%E6%B9%96) | wiki | 2026-10-04 |
 | 灵山大佛 | [百度百科·灵山大佛](https://baike.baidu.com/item/%E7%81%B5%E5%B1%B1%E5%A4%A7%E4%BD%9B) | wiki | 2026-10-04 |
+| 礼社古村 | [腾讯新闻·锚定「中国经济学特色名村」，800 年无锡礼社老街悄悄火了](https://new.qq.com/rain/a/20251030A05X1900) | media | 2026-11-20 |
 | 蠡园 | [百度百科·蠡园](https://baike.baidu.com/item/%E8%A0%A1%E5%9B%AD) | wiki | 2026-10-04 |
 | 龙背山森林公园 | [百度百科·龙背山](https://baike.baidu.com/item/%E9%BE%99%E8%83%8C%E5%B1%B1) | wiki | 2026-10-04 |
 | 梅园 | [百度百科·梅园](https://baike.baidu.com/item/%E6%A2%85%E5%9B%AD) | wiki | 2026-10-04 |
+| 无锡中国民族工商业博物馆 | [梁溪发布·这里是茂新面粉厂（无锡中国民族工商业博物馆）](http://mp.weixin.qq.com/s?__biz=MzA4Njk3Njk0OQ==&mid=2247889748&idx=1&sn=e34a71320722f66baea5ed37020cbda6) | media | 2026-11-20 |
 | 南禅寺 | [百度百科·南禅寺](https://baike.baidu.com/item/%E5%8D%97%E7%A6%85%E5%AF%BA) | wiki | 2026-10-04 |
 | 拈花湾 | [百度百科·拈花湾](https://baike.baidu.com/item/%E6%8B%88%E8%8A%B1%E6%B9%BE) | wiki | 2026-10-04 |
 | 钱钟书故居 | [百度百科·钱钟书故居](https://baike.baidu.com/item/%E9%92%B1%E9%92%9F%E4%B9%A6%E6%95%85%E5%B1%85) | wiki | 2026-10-04 |
+| 前墅龙窑 | [大皖新闻·紫砂界顶流文化盲盒！前墅龙窑六百年窑火永续匠心](https://www.ahwang.cn/p/2987429.html) | media | 2026-11-20 |
 | 清名桥历史文化街区 | [百度百科·清名桥](https://baike.baidu.com/item/%E6%B8%85%E5%90%8D%E6%A1%A5) | wiki | 2026-10-04 |
+| 荣巷历史街区 | [扬子晚报·荣巷：「工商文明」绘就幸福新图景](https://www.yzwb.net/news/jiangsu/wuxi/202611/t20261118_413521.html) | media | 2026-11-20 |
 | 三国水浒城 | [百度百科·三国城](https://baike.baidu.com/item/%E4%B8%89%E5%9B%BD%E5%9F%8E) | wiki | 2026-10-04 |
 | 善卷洞 | [百度百科·善卷洞](https://baike.baidu.com/item/%E5%96%84%E5%8D%B7%E6%B4%9E) | wiki | 2026-10-04 |
+| 蜀山古南街 | [中央广播电视总台·江苏蜀山古南街 传承陶都遗风的文脉基因](https://travel.cnr.cn/hydt/20260506/t20260506_527611159.shtml) | media | 2026-11-20 |
 | 太湖仙岛 | [百度百科·太湖仙岛](https://baike.baidu.com/item/%E5%A4%AA%E6%B9%96%E4%BB%99%E5%B2%9B) | wiki | 2026-10-04 |
 | 无锡博物院 | [百度百科·无锡博物院](https://baike.baidu.com/item/%E6%97%A0%E9%94%A1%E5%8D%9A%E7%89%A9%E9%99%A2) | wiki | 2026-10-04 |
+| 中国乡镇企业博物馆 | [新浪财经·锡山国庆遛娃清单（中国乡镇企业博物馆）](https://finance.sina.cn/2026-10-04/detail-initzerr5741832.d.html) | media | 2026-11-20 |
 | 锡惠公园 | [百度百科·锡惠公园](https://baike.baidu.com/item/%E9%94%A1%E6%83%A0%E5%85%AC%E5%9B%AD) | wiki | 2026-10-04 |
 | 薛福成故居 | [百度百科·薛福成故居](https://baike.baidu.com/item/%E8%96%9B%E7%A6%8F%E6%88%90%E6%95%85%E5%B1%85) | wiki | 2026-10-04 |
+| 雪浪山风景区 | [Trip.com·2026 雪浪山薰衣草园游玩指南](https://tw.trip.com/moments/poi-lavender-garden-xuelang-moutain-52252120) | travel-platform | 2026-11-20 |
 | 徐霞客故居 | [百度百科·徐霞客故居](https://baike.baidu.com/item/%E5%BE%90%E9%9C%9E%E5%AE%A2%E6%95%85%E5%B1%85) | wiki | 2026-10-04 |
+| 宜兴市博物馆 | [去哪儿·宜兴国家一级博物馆，免费半日怎么参观相国牌坊](https://travelnews.qunar.com/ugc/yixing-museum-free-halfday-tour) | travel-platform | 2026-11-20 |
+| 中国宜兴陶瓷博物馆 | [宜兴陶瓷博物馆官网·服务](https://www.yxtcbwg.com/#/service) | official | 2026-11-20 |
 | 宜兴竹海 | [百度百科·宜兴竹海](https://baike.baidu.com/item/%E5%AE%9C%E5%85%B4%E7%AB%B9%E6%B5%B7) | wiki | 2026-10-04 |
 | 鼋头渚 | [百度百科·鼋头渚](https://baike.baidu.com/item/%E9%BC%8B%E5%A4%B4%E6%B8%9A) | wiki | 2026-10-04 |
 | 张公洞 | [百度百科·张公洞](https://baike.baidu.com/item/%E5%BC%A0%E5%85%AC%E6%B4%9E) | wiki | 2026-10-04 |
@@ -61,6 +72,7 @@
 | 融创文旅城 | [百度百科·融创文旅城](https://baike.baidu.com/item/%E8%9E%8D%E5%88%9B%E6%96%87%E6%97%85%E5%9F%8E) | wiki | 2026-10-04 |
 | 尚贤河湿地 | [百度百科·尚贤河](https://baike.baidu.com/item/%E5%B0%9A%E8%B4%A4%E6%B2%B3) | wiki | 2026-10-04 |
 | 太湖新城·金匮公园 | [百度百科·金匮公园](https://baike.baidu.com/item/%E9%87%91%E5%8C%AE%E5%85%AC%E5%9B%AD) | wiki | 2026-10-04 |
+| UCCA陶美术馆 | [UCCA 尤伦斯当代艺术中心官网·参观](https://ucca.org.cn/visit) | official | 2026-11-20 |
 | 无锡影视基地 | [百度百科·三国城](https://baike.baidu.com/item/%E4%B8%89%E5%9B%BD%E5%9F%8E) | wiki | 2026-10-04 |
 | 鼋头渚夜樱 | [百度百科·鼋头渚](https://baike.baidu.com/item/%E9%BC%8B%E5%A4%B4%E6%B8%9A) | wiki | 2026-10-04 |
 | 惠山泥人 | [百度百科·惠山泥人](https://baike.baidu.com/item/%E6%83%A0%E5%B1%B1%E6%B3%A5%E4%BA%BA) | wiki | 2026-10-04 |
@@ -77,6 +89,12 @@
 | 城市封面 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:2021%E5%B9%B43%E6%9C%88_%E6%97%A0%E9%94%A1%E7%81%B5%E5%B1%B1%E5%A4%A7%E4%BD%9B_22.jpg) |
 | 城市封面 | 2009/Synyan；2014/藍風攝影 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wuxi_Taihu_lake_Changchun_bridge.jpg) |
 | 城市封面 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%B8%85%E5%90%8D%E6%A1%A5%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA%EF%BC%88%E5%8D%97%E9%95%BF%E8%A1%97%EF%BC%89%E5%A4%9C%E6%99%AF20200911_05.jpg) |
+| 阿炳故居 | 記小三 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Residence_of_Abing_-_Entrance.JPG) |
+| 阿炳故居 | 記小三 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Residence_of_Abing_-_Indoor.JPG) |
+| 阿炳故居 | 記小三 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Residence_of_Abing_-_Photograph.JPG) |
+| 阿炳故居 | EditQ | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Residence_of_Abing,_Wuxi.jpg) |
+| 阿炳故居 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Residence_of_Abing_01_2011-11.JPG) |
+| 阿炳故居 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Former_Residence_of_Abing_02_2011-11.JPG) |
 | 荡口古镇 | Lt2818 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%9B%AA%E5%8F%A3%E5%A4%A7%E5%81%89%E7%9A%B7%E9%9F%BB.jpg) |
 | 荡口古镇 | Lt2818 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E7%BB%8F%E6%97%B6%E7%BB%86%E6%9F%B3%E6%98%A5%E5%B8%86%E5%A4%96.jpg) |
 | 荡口古镇 | Lt2818 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%8D%A1%E5%8F%A3%E8%8A%B1%E7%AC%91%E6%B1%A0.jpg) |
@@ -90,6 +108,12 @@
 | 惠山古镇 | song songroov | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 惠山古镇 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 惠山古镇 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 江阴市博物馆 | Cangminzho | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Jiangyin_Museum.jpg) |
+| 江阴市博物馆 | Cangminzho | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%83%A7%E4%BC%BD%E8%88%8D%E5%88%A9.jpg) |
+| 江阴市博物馆 | Cangminzho | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%87%A4%E9%A6%96%E9%93%B6%E5%BA%A7%E9%BE%99.jpg) |
+| 江阴市博物馆 | 白色瑰宝 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%8D%9A%E5%B1%B1%E7%9B%96%E7%94%BB%E5%83%8F%E7%BA%B9%E9%93%9C%E5%B0%8AJM.jpg) |
+| 江阴市博物馆 | 白色瑰宝 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%99%A8%E7%9B%96%E3%80%81%E9%99%B6%E9%BC%8E_%E8%8A%B1%E5%B1%B1.jpg) |
+| 江阴市博物馆 | Cangminzho | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BD%B1%E9%9D%92%E7%82%B9%E5%BD%A9%E8%88%8D%E5%88%A9%E7%93%B6.jpg) |
 | 江阴要塞·黄山炮台 | song songroov | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 江阴要塞·黄山炮台 | song songroov | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 江阴要塞·黄山炮台 | song songroov | CC BY 3.0 | [wikimedia](https://commons.wikimedia.org/) |
@@ -110,6 +134,11 @@
 | 梅园 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 梅园 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 梅园 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
+| 无锡中国民族工商业博物馆 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A0%E9%94%A1_%E4%BD%93%E8%82%B2%E5%9C%BA%E6%A1%A5_%E4%B8%AD%E5%9B%BD%E6%B0%91%E6%97%8F%E5%B7%A5%E5%95%86%E4%B8%9A%E5%8D%9A%E7%89%A9%E9%A6%86.jpg) |
+| 无锡中国民族工商业博物馆 | Walter Grassroot | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E6%97%A0%E9%94%A1_%E8%A5%BF%E6%B0%B4%E5%85%B3%E6%A1%A5_%E4%B8%AD%E5%9B%BD%E6%B0%91%E6%97%8F%E5%B7%A5%E5%95%86%E4%B8%9A%E5%8D%9A%E7%89%A9%E9%A6%86.jpg) |
+| 南禅寺 | 4084470 0.smil | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wuxi_Bus_Route_24_at_Qingheqiao_in_Jiangsu,_China_202607018.jpg) |
+| 南禅寺 | 4084470 0.smil | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wuxi_Bus_Route_3_at_No._2_Hospital_(Zhongshan_Rd.)_in_Jiangsu,_China_202607018.jpg) |
+| 南禅寺 | 4084470 0.smil | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wuxi_Bus_Route_501_at_Shangmadun_Rd._in_Jiangsu,_China_20251122.jpg) |
 | 拈花湾 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 拈花湾 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
 | 拈花湾 | 西安兵马俑 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/) |
@@ -130,6 +159,12 @@
 | 三国水浒城 | Csiiiyu | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E4%B8%89%E5%9B%BD%E6%B0%B4%E6%B5%92%E5%9F%8E%E7%94%98%E9%9C%B2%E5%AF%BA.jpg) |
 | 善卷洞 | No machine-readable author provided. Whw assumed (based on c | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Shanjuan_Cave,_Yixing.jpg) |
 | 善卷洞 | No machine-readable author provided. Whw assumed (based on c | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Shanjuan_Cave_-_Gate,_Yixing.jpg) |
+| 蜀山古南街 | Internet Archive Book Images | No restrictions | [wikimedia](https://commons.wikimedia.org/wiki/File:Antiquities_of_the_Orient_unveiled,_containing_a_concise_description_of_the_remarkable_ruins_of_King_Solomon%27s_temple,_and_store_cities_,together_with_those_of_all_the_most_ancient_and_renowned_cities_(14595600490).jpg) |
+| 蜀山古南街 | Internet Archive Book Images | No restrictions | [wikimedia](https://commons.wikimedia.org/wiki/File:Antiquities_of_the_Orient_unveiled,_containing_a_concise_description_of_the_remarkable_ruins_of_King_Solomon%27s_temple,_and_store_cities_,together_with_those_of_all_the_most_ancient_and_renowned_cities_(14595631420).jpg) |
+| 蜀山古南街 | Internet Archive Book Images | No restrictions | [wikimedia](https://commons.wikimedia.org/wiki/File:Antiquities_of_the_Orient_unveiled,_containing_a_concise_description_of_the_remarkable_ruins_of_King_Solomon%27s_temple,_and_store_cities_,together_with_those_of_all_the_most_ancient_and_renowned_cities_(14595760410).jpg) |
+| 蜀山古南街 | Internet Archive Book Images | No restrictions | [wikimedia](https://commons.wikimedia.org/wiki/File:Antiquities_of_the_Orient_unveiled,_containing_a_concise_description_of_the_remarkable_ruins_of_King_Solomon%27s_temple,_and_store_cities_,together_with_those_of_all_the_most_ancient_and_renowned_cities_(14595795247).jpg) |
+| 蜀山古南街 | Internet Archive Book Images | No restrictions | [wikimedia](https://commons.wikimedia.org/wiki/File:Antiquities_of_the_Orient_unveiled,_containing_a_concise_description_of_the_remarkable_ruins_of_King_Solomon%27s_temple,_and_store_cities_,together_with_those_of_all_the_most_ancient_and_renowned_cities_(14759352016).jpg) |
+| 蜀山古南街 | Internet Archive Book Images | No restrictions | [wikimedia](https://commons.wikimedia.org/wiki/File:Antiquities_of_the_Orient_unveiled,_containing_a_concise_description_of_the_remarkable_ruins_of_King_Solomon%27s_temple,_and_store_cities_,together_with_those_of_all_the_most_ancient_and_renowned_cities_(14779939274).jpg) |
 | 太湖仙岛 | Gisling | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Lingxiaogong.JPG) |
 | 太湖仙岛 | Huanokinhejo | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Enlightenment_Bay,_Yuantouzhu.jpg) |
 | 太湖仙岛 | Huanokinhejo | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Heaven_Emperor%27s_Palace,_Taihu.jpg) |
@@ -151,6 +186,16 @@
 | 徐霞客故居 | Synyan | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xuxiake_old_house.jpg) |
 | 徐霞客故居 | 白色瑰宝 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BE%90%E6%B0%8F%E5%AE%97%E8%B0%B1_%E5%BE%90%E9%9C%9E%E5%AE%A2%E6%95%85%E5%B1%85.jpg) |
 | 徐霞客故居 | Cangminzho | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BE%90%E9%9C%9E%E5%AE%A2%E6%95%85%E5%B1%85.jpg) |
+| 宜兴市博物馆 | Huangchenhai | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:DamodiaoxiangWXM.jpg) |
+| 宜兴市博物馆 | Huangchenhai | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:ShouxingguilongdiaosuWXM.jpg) |
+| 宜兴市博物馆 | 賈夢龍翻摄 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yixing_Clay_Teapot_by_Gu_Jingzhou.jpg) |
+| 宜兴市博物馆 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yixing_clay_in_Wuxi_Museum_01_2013-04.JPG) |
+| 宜兴市博物馆 | 猫猫的日记本 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Yixing_clay_in_Wuxi_Museum_02_2013-04.JPG) |
+| 宜兴市博物馆 | 猫猫的日记本 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Silver_Chunsheng_with_Inscription_in_Yixing_Museum_2026-05.jpg) |
+| 中国宜兴陶瓷博物馆 | Windmemories | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:20241025_Cong_Shaped_Vase,_Yixing_Kiln,_Ming_Dynasty.jpg) |
+| 中国宜兴陶瓷博物馆 | Johnbod | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Ceramics_Victoria_and_Albert_Museum_DSCF3451_01.jpg) |
+| 中国宜兴陶瓷博物馆 | Daderot | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Flask,_Yixing_ware,_China,_Jiangsu_province,_Wuxi,_1900s_AD,_stoneware_-_Portland_Art_Museum_-_Portland,_Oregon_-_DSC08424.jpg) |
+| 中国宜兴陶瓷博物馆 | Daderot | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Hexagonal_teapot_with_stamped_inscription_and_landscape_design,_by_Shao_Yuting,_Yixing_ware,_China,_late_1700s_AD,_stoneware_-_Portland_Art_Museum_-_Portland,_Oregon_-_DSC08422.jpg) |
 | 宜兴竹海 | 山海风 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%9C%E5%85%B4%E7%AB%B9%E6%B5%B7%E9%A3%8E%E6%99%AF%E5%8C%BA%E2%80%94%E2%80%94%E5%A4%AA%E6%B9%96%E4%B9%8B%E6%BA%90_-_panoramio.jpg) |
 | 宜兴竹海 | 山海风 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%9C%E5%85%B4%E7%AB%B9%E6%B5%B7%E9%A3%8E%E6%99%AF%E5%8C%BA%E2%80%94%E2%80%94%E5%B1%B1%E9%97%B4%E5%B0%8F%E6%BA%AA_-_panoramio.jpg) |
 | 宜兴竹海 | 山海风 | CC BY-SA 3.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%AE%9C%E5%85%B4%E7%AB%B9%E6%B5%B7%E9%A3%8E%E6%99%AF%E5%8C%BA%E2%80%94%E2%80%94%E7%AB%B9%E6%9E%97%E4%B8%AD%E7%9A%84%E5%B1%B1%E6%B0%B4_-_panoramio.jpg) |
@@ -207,6 +252,11 @@
 | 太湖渔家文化 | Thomas Depenbusch | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wuxi,_Jiangsu_-_China_(13603617495).jpg) |
 | 太湖渔家文化 | Thomas Depenbusch | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wuxi,_Jiangsu_-_China_(13619652113).jpg) |
 | 太湖渔家文化 | Thomas Depenbusch | CC BY 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Wuxi,_Jiangsu_-_China_(13619808523).jpg) |
+| 吴文化(泰伯·梅里) | 章彦博 | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E8%8C%85%E5%B1%B1%E5%85%88%E5%90%B4%E6%96%87%E5%8C%96%E5%8D%9A%E7%89%A9%E9%A6%86.jpeg) |
+| 吴文化(泰伯·梅里) | Lt2818 | CC0 | [wikimedia](https://commons.wikimedia.org/wiki/File:%E5%90%B4%E8%B6%8A%E6%96%87%E5%8C%96%E9%9D%92%E9%93%9C%E5%99%A8.jpg) |
 | 锡剧 | 无锡市锡剧院 | Public domain | [wikimedia](https://commons.wikimedia.org/wiki/File:Historical_photograp_of_Wuxi_Opera.jpg) |
 | 锡剧 | Huang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xi_Opera_Costumes.jpg) |
 | 锡剧 | Huang | CC BY-SA 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Xi_Opera_instruments.jpg) |
+| 宜兴紫砂陶艺 | XUJIE HUAZANG | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengqi-suifangzhuyuan-cover.jpg) |
+| 宜兴紫砂陶艺 | XUJIE HUAZANG | CC BY 4.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Chengqi-wugou-side-cover.jpg) |
+| 宜兴紫砂陶艺 | 于/Yu 回/Hui from Chengdu, China | CC BY-SA 2.0 | [wikimedia](https://commons.wikimedia.org/wiki/File:Heishui_People.jpg) |

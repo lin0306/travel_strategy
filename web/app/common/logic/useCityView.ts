@@ -248,9 +248,9 @@ export function useCityView(): CityView {
     if (!map) return
 
     const layer = createPoiLayer(map, {
-      // ★ 两端**同一套聚合**，唯一的差别是"独立点要不要挂名字"（见 plans/12）。
-      //   密集处由 MarkerCluster 合成数字气泡，点气泡放大逐级展开 —— 不再抽稀丢点。
-      names: !isMobile,
+      // ★ 两端**同一套聚合**；名字两端都挂（2026-11-19 用户要求）——
+      //   密集处由 MarkerCluster 合成数字气泡，点气泡放大逐级展开，不抽稀丢点。
+      names: true,
       // ★ 点景点 = 就地看详情。用 `isCurrent` 把"搜索命中过的那一枚"也算作已选中，
       //   否则搜出来之后再点它一下关不掉（面板看着像卡住了）。
       onSelect: (poiId) => {
@@ -278,7 +278,8 @@ export function useCityView(): CityView {
       layer.destroy()
       layerRef.current = null
     }
-  }, [shell.map, isMobile])
+    // ★ 不再依赖 `isMobile`：名字两端都挂，这个图层不必随端别重建
+  }, [shell.map])
 
   useEffect(() => {
     const layer = layerRef.current

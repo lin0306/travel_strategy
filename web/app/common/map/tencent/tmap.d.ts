@@ -205,6 +205,18 @@ declare namespace TMap {
     /** ★ 接收配置对象，不是图层实例 —— 与高德的 `add/remove` 心智完全不同 */
     setBaseMap(baseMap: BaseMapOptions): this
     setStyleId(styleId: string): this
+    /**
+     * 立刻掐掉"正在跑的位移动画"（拖拽惯性、`panTo`/`easeTo` 都算）。
+     *
+     * ★ 实测存在（`_tmp/probe_inertia_api2.mjs` 把原型方法全列了一遍）。
+     *   本项目只在一处用：`dragBrake` 抬手后刹车。
+     *   ★ 引擎的拖拽惯性**没有开关**（`inertia` 只在内部 map 的 options 上，
+     *   `TMap.Map` 这层没透出来），这两个方法是唯一能打断它的公开手段。
+     * ★ 标成可选：哪天 SDK 去掉，刹车退化成"只 `setCenter` 拉回"，不抛错。
+     */
+    stopEase?(): this
+    /** 同上（成对调用：一个停 ease，一个停移动态，任意一个生效就够） */
+    stopMoving?(): this
     destroy(): void
   }
 

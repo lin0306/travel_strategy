@@ -51,11 +51,28 @@ export const GESTURE_SETTLE_MS = 120
  */
 export const SETTLE_STEP_MS = 60
 
+/**
+ * 稳定检测的**兜底上限**（ms）：采样最多盯这么久。
+ * 只有"镜头一直在动"（用户手指没松）才会走到它 —— 到点也必须广播一次，
+ * 否则这一页的图层会一直停在旧缩放上（不报错，只是内容不对）。
+ */
+const SETTLE_MAX_MS = 3000
+
 /** 视野变化广播载荷 —— 图层用它决定要不要重算标注避让 */
 export interface ViewportChange {
   /** `fit` = 取景动画结束（由稳定检测发出），`zoom` / `move` = 用户手势 */
   kind: 'zoom' | 'move' | 'fit'
   zoom: number
+  /**
+   * 这次广播的**视野与上一次相同**（被签名去重命中）。
+   *
+   * ★ 仍然会送到 `onChange`，因为有些事**不能**被去重挡掉 ——
+   *   2026-11-19：首页 `fit` 停稳时签名早已被前面的 `zoom` 广播占住，
+   *   于是 `syncBoundary` 从来没执行过，整张地图**一个边界都没有**
+   *   （`_tmp/probe_boundary_when.mjs` 实测 `boundary: false`），
+   *   用户能一路拖到美洲。内容重算可以省，边界同步不能省。
+   */
+  deduped?: boolean
 }
 
 /** 手势的中文名 —— 只给控制台日志用 */
@@ -69,7 +86,7 @@ export interface ViewportEmitter {
   /** 收到引擎的缩放/平移信号（`zoom` / `center_changed` / `bounds_changed`） */
   scheduleGesture(kind: 'zoom' | 'move'): void
   /** `fit()` 之后调用，开始盯镜头 */
-  watchSettle(): void
+  watchSettle(durationMs?: number): void
   /** 地图没动、但可用区变了 —— 立即广播（不过滤） */
   refreshView(): void
   /** 卸载：清掉两个定时器 */
@@ -118,6 +135,8 @@ export function createViewportEmitter(o: ViewportEmitterOptions): ViewportEmitte
         //   真相是引擎把同一个视野连发了多条事件 —— 去重挡的是噪音，不是用户操作。
         if (kind === 'fit') {
           debugLog('手势', '取景动画停稳，但视野签名同上 → 跳过重算（引擎重复事件）')
+          // ★ 但**不能整条丢掉**：边界同步就挂在这条路上（见 `deduped` 的注释）。
+          o.onChange({ kind, zoom: map.getZoom(), deduped: true })
         }
         return
       }
@@ -178,23 +197,52 @@ export function createViewportEmitter(o: ViewportEmitterOptions): ViewportEmitte
     }, GESTURE_SETTLE_MS)
   }
 
-  function watchSettle(): void {
+  /**
+   * 盯住一次**动画取景**，停稳后广播一次（`kind: 'fit'`）。
+   *
+   * @param durationMs 这一段动画本身有多久（`FLY_DURATION_MS[reason]`）。
+   *   ★ **必须传**：只靠"连续两次采样相同"判停稳会被**启动延迟**骗过去 ——
+   *   2026-11-19 手机端就是这个坑：`focusPoint` 发起 600ms 动画后立刻采样，
+   *   头两次（0ms / 60ms）读到的都还是**动画开始前**的视野 ⇒ 判"已停稳" ⇒
+   *   广播一次（签名与上次相同被去重）⇒ 停止采样。之后镜头飞到新位置，
+   *   但**再也没有人广播** —— 于是"点省徽标会放大、但徽标不换级"，
+   *   手机上一整张图停在省徽标，而且不报任何错。
+   */
+  function watchSettle(durationMs = 0): void {
     stopSettle()
+    const startedAt = Date.now()
+    /** 动画到底**动过没有** —— 没有"动过"就不能用"两次采样相同"判停稳（理由见 @param） */
+    let seenMove = false
+    let firstSig = ''
+
     const step = (): void => {
       const map = o.getMap()
       if (!map) return
       const sig = viewSignature(map)
 
-      if (sig === settleSig) {
-        settleStable += 1
-        if (settleStable >= 1) {
-          stopSettle()
-          emit('fit', true)
-          return
-        }
-      } else {
+      if (firstSig === '') firstSig = sig
+      else if (sig !== firstSig) seenMove = true
+
+      if (sig === settleSig) settleStable += 1
+      else {
         settleSig = sig
         settleStable = 0
+      }
+
+      // 停稳的两个充分条件（满足任一即可收口）：
+      //   ① 确实动过，且连续两次采样相同 —— 动画已经结束
+      //   ② 等过了「动画时长 + 余量」还没动过 —— 说明这次取景本来就没位移
+      const waitedEnough = Date.now() - startedAt >= durationMs + SETTLE_STEP_MS + 120
+      if (settleStable >= 1 && (seenMove || waitedEnough)) {
+        stopSettle()
+        emit('fit', true)
+        return
+      }
+      // 兜底：用户在这期间一直操作（镜头持续在动）也要收口，不能无限采样
+      if (Date.now() - startedAt > SETTLE_MAX_MS) {
+        stopSettle()
+        emit('fit', true)
+        return
       }
       settleTimer = window.setTimeout(step, SETTLE_STEP_MS)
     }

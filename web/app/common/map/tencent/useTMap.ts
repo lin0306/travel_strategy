@@ -17,16 +17,11 @@
  *
  * ### 2. 地图失败绝不能拖垮页面
  * 列表 / 筛选 / 详情 / 区划列表 / 行程时间计算全部独立于地图存活 —— 失败收敛成
- * `status: 'error'` 让 UI 渲染降级卡片，**不往外抛**。
- *
- * ### 3. 缩放与拖拽有边界（2026-11-18 用户定，「两端限制不一样」）
- * 值在 `mapLimits.ts`；本文件只负责接线：`attachLimits` + `clampMapCenter` +
- * 取景停稳后的 `syncBoundary`（引擎级，拖动过程中就拦）。
+ * `status: 'error'` 让 UI 渲染降级卡片，**不往外抛**。缩放边界见 `mapLimits.ts`。
  *
  * ## 事件名（腾讯这边最阴的地方）
- *   · 缩放是**光杆 `zoom`**，写成 `zoom_changed` 不会报错、只是永不触发
- *   · 中心/视野变化**带下划线**：`center_changed` / `bounds_changed`
- * 三条都注册，统一交给 `viewportEmitter` 做防抖 —— 拖动过程中每帧重算会明显掉帧。
+ * 缩放是**光杆 `zoom`**（写成 `zoom_changed` 不报错、只是永不触发）；中心/视野带下划线
+ * （`center_changed` / `bounds_changed`）。三条都注册，统一交给 `viewportEmitter` 防抖。
  */
 
 import { useCallback, useEffect, useRef, useState } from 'react'
@@ -40,8 +35,15 @@ import {
   type BasemapLevel,
   type BasemapState,
 } from './basemap'
-import { fitPoints, NATIONAL_VIEW, type FitOptions, type LatLngLike } from './fitView'
-import { applyLimits, attachLimits, clampMapCenter, mapLimitsFor, syncBoundary, type MapLimits } from './mapLimits'
+import { FLY_DURATION_MS, fitPoints, NATIONAL_VIEW, type FitOptions, type LatLngLike } from './fitView'
+import {
+  applyLimits,
+  attachLimits,
+  clampMapCenter,
+  mapLimitsFor,
+  syncBoundaryWhenReady,
+  type MapLimits,
+} from './mapLimits'
 import { focusPointTo, panPointToCenter } from './panTo'
 import { loadTMapSdk, mapErrorText, warnIfMapLikelyFailed, type MapErrorCode } from './loader'
 import { createViewportEmitter, type ViewportChange, type ViewportEmitter } from './viewportEmitter'
@@ -152,31 +154,30 @@ export function useTMap(opts: UseTMapOptions): UseTMapResult {
   optsRef.current = opts
 
   /*
-   * 视野广播器：**每个 hook 实例一个，跨建图/卸载存活**。
-   * 它的状态（手势起点、上次签名）不属于地图实例，属于"这个页面在看什么"，
-   * 所以放在 effect 外 —— 否则重试建图会把时序状态一起清掉。
-   * 用惰性初始化而不是 `useRef(createViewportEmitter(...))`：后者每次渲染都会
-   * 白白造一个被丢弃的对象（并发两个 emitter 还会各记一份日志）。
+   * 视野广播器：**每个 hook 实例一个，跨建图/卸载存活** —— 它的状态（手势起点、
+   * 上次签名）属于"这个页面在看什么"而不是地图实例，放 effect 里会被重试建图清掉。
+   * 惰性初始化：直接 `useRef(createViewportEmitter(...))` 每次渲染都白造一个。
    */
   const emitterRef = useRef<ViewportEmitter | null>(null)
   if (emitterRef.current === null) {
     emitterRef.current = createViewportEmitter({
       getMap: () => mapRef.current,
       onChange: (e) => {
-        // ★ **拖拽边界**：越界时只修正、不广播（理由见 `mapLimits.clampMapCenter`）。
-        //   放在这里是因为它就是"手势停稳"的唯一时机 —— 拖动中逐帧拉回会抖。
         const map = mapRef.current
         const lim = optsRef.current.limits ?? mapLimitsFor(false)
+        // ★ 边界同步**不能被去重挡掉**（`deduped` 的 fit 也得同步）：2026-11-19 实测
+        //   首屏没有边界、能拖到美洲。走 WhenReady 是因为停稳那刻 `getBounds()` 可能还没好。
+        if (map && (e.kind === 'fit' || e.kind === 'zoom')) {
+          syncBoundaryWhenReady(map, lim, e.kind === 'fit' ? e.zoom : undefined)
+        }
+        // ★ 越界只修正、不广播；判据与引擎同源 ⇒ 拖拽停稳时它不动 ⇒ 没有"松手回弹"。
         if (map && clampMapCenter(map, lim)) return
-        // ★ 引擎级边界**只在取景停稳后**挂：建图那一刻读到的是初始 3.6 档大视野，
-        //   挂了会把首页 fit 顶住（实测 4.574→4.33）。见 `mapLimits.syncBoundary`。
-        if (map && e.kind === 'fit') syncBoundary(map, lim, e.zoom)
+        if (e.deduped) return
         optsRef.current.onViewportChange?.(e)
       },
     })
   }
   const emitter = emitterRef.current
-
   useEffect(() => {
     const el = optsRef.current.containerRef.current
     if (!el) {
@@ -308,10 +309,9 @@ export function useTMap(opts: UseTMapOptions): UseTMapResult {
         overlays: optsRef.current.overlaysRef?.current ?? [],
         ...o,
       })
-      // ★ 取景是**动画**：以"稳定检测"代替"页面自己再补一次重刷"。
-      //   补的那次读的是动画第 0 帧，两层内容会各按一个缩放铺一遍（闪一下），
-      //   而且四个页面里只有两个补了、另外两个没补 —— 同一件事四种写法。
-      if (ok) emitter.watchSettle()
+      // ★ 取景是**动画**：以"稳定检测"代替"页面自己再补一次重刷"（补的读的是第 0 帧）。
+      //   时长必须一起传：稳定检测靠它区分"还没开始动"与"已停稳"（见 `watchSettle`）。
+      if (ok) emitter.watchSettle(FLY_DURATION_MS[o?.reason ?? 'drill'])
       return ok
     },
     [emitter],
@@ -349,7 +349,7 @@ export function useTMap(opts: UseTMapOptions): UseTMapResult {
       const { map, el, overlays } = overlayAware()
       if (!map || !el) return false
       const ok = panPointToCenter(map, point, { container: el, overlays })
-      if (ok) emitter.watchSettle()
+      if (ok) emitter.watchSettle(FLY_DURATION_MS.drill)
       return ok
     },
     [emitter, overlayAware],
@@ -364,7 +364,7 @@ export function useTMap(opts: UseTMapOptions): UseTMapResult {
       const { map, el, overlays } = overlayAware()
       if (!map || !el) return false
       const ok = focusPointTo(map, point, zoom, { container: el, overlays })
-      if (ok) emitter.watchSettle()
+      if (ok) emitter.watchSettle(FLY_DURATION_MS.drill)
       return ok
     },
     [emitter, overlayAware],

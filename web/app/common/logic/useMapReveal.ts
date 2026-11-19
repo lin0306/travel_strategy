@@ -126,8 +126,11 @@ export interface UseMapRevealOptions {
    */
   pickedPoint?: PoiPoint | null
   /**
-   * 点位给**独立点**挂不挂名字（与城市页同一套判据：桌面挂、移动端不挂）。
+   * 点位给**独立点**挂不挂名字。2026-11-19 起**两端都挂**（用户：「地图上这个点，
+   * 怎么不显示景点名称」）—— 手机上只剩一枚小圆点，看不出是什么。
    *
+   * ★ 数量由 `poiTierForZoom().labels` 封顶、再交给避让裁（`poiLabels`），
+   *   不是"有多少给多少"，所以不会糊成一团。
    * ★ 这只是"名字"的开关，**不是"要不要聚合"** —— 聚合两端都开，且由 `poiLayer` 独占，
    *   页面没有开关可拨（见 `plans/12-poi-aggregation.md`）。
    */

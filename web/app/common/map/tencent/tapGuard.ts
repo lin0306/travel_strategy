@@ -80,6 +80,138 @@ function releaseNoSelect(): void {
   selectPrev = null
 }
 
+/* ════════════════════════════════════════════════
+ * 触摸端的「补发点击」
+ * ══════════════════════════════════════════════════ */
+
+/**
+ * 手指抬起时允许的抖动（px）。比鼠标的 6 宽 —— 触摸屏抖得更多，
+ * 卡 6 会让"点一下"经常被判成拖动（用户会觉得"点了没反应"）。
+ */
+const TOUCH_SLOP_PX = 10
+/** 补发之后吞掉"浏览器自己又发一次 click"的时间窗（ms） */
+const SUPPRESS_MS = 500
+/** 按住超过这么久不算点击（长按是另一种手势，别替用户点） */
+const LONG_PRESS_MS = 700
+
+/** 容器 → 已装好的桥 + 引用计数（同一容器只装一份，见 `installTouchClickBridge`） */
+const bridges = new WeakMap<HTMLElement, { refs: number; dispose: () => void }>()
+
+/**
+ * 让 canvas 上画出来的东西在**触摸屏**上能点。
+ *
+ * ## 问题（2026-11-19 用户报「点省的标签，不会缩放到市，其他标签同理」）
+ * 腾讯 GL 把徽标 / 区划面 / 景点标记**全画在 canvas 里**，命中测试只在它自己的
+ * `click` 处理里做；而它对手势做了 `preventDefault`，于是触摸屏上**根本没有 `click`**：
+ *
+ * | 输入 | 实测事件序列（390×844 触屏模拟，`_tmp/probe_mobile_events.mjs`） |
+ * |------|--------------------------------------------------------------|
+ * | 鼠标 | pointerdown → mousedown → pointerup → mouseup → **click** ✅ |
+ * | 手指 | pointerdown → touchstart → pointerup → touchend —— **没有 click** ❌ |
+ *
+ * 结果：手机上整张地图只有拖动与缩放能用，**任何"点一下"都是死的**
+ * （省徽标、市徽标、景点圆点、聚合气泡），而且不报任何错。
+ *
+ * ## 做法
+ * 手指抬起、位移 ≤ `TOUCH_SLOP_PX`、不是多指、不是长按 ⇒ 在那个坐标上补发
+ * `mousemove → mousedown → mouseup → click`，交给 SDK 自己的命中测试判断点中了谁。
+ *
+ * ★ **补坐标而不是自己算几何**：徽标是 canvas 画的、面有上万个点、聚合气泡是
+ *   worker 算的 —— 自己实现一遍命中测试等于把 SDK 那份抄一份，还必然漂移
+ *   （它按 anchor、zIndex、可见性判，这些我们都读不到）。
+ * ★ `mousemove` 必须补：腾讯的命中测试挂**悬停态**，不在坐标上先 move 一次，
+ *   按下那一下经常命中不到（CDP 探针里踩过同一条）。
+ * ★ **同一容器只装一份**：`tapGuard` 有 5~6 个实例共用一个容器，
+ *   各补一次 = 一次点击触发五六次下钻（表现为"点了乱跳"）。
+ * ★ **吞掉随后自己冒出来的原生 click**：有的浏览器不因 `preventDefault` 取消
+ *   合成 click，那一下会和补发的重复（选中又取消，看起来像"点了没反应"）。
+ *   只吞 `isTrusted` 的 —— 自己补发的不受影响。
+ * ★ **多指不补**：双指缩放时第二根手指一落下就作废，否则捏合结束会变成一次点击。
+ */
+export function installTouchClickBridge(map: TMap.Map): () => void {
+  const container = (map.getContainer?.() ?? null) as HTMLElement | null
+  if (!container) return () => {}
+
+  const existing = bridges.get(container)
+  if (existing) {
+    existing.refs += 1
+    return () => {
+      existing.refs -= 1
+      if (existing.refs > 0) return
+      existing.dispose()
+      bridges.delete(container)
+    }
+  }
+
+  let down: { x: number; y: number; t: number; id: number } | null = null
+  let moved = 0
+  let multi = false
+  let suppressUntil = 0
+
+  const onDown = (e: PointerEvent) => {
+    if (e.pointerType !== 'touch') return
+    if (down) {
+      multi = true
+      return
+    }
+    down = { x: e.clientX, y: e.clientY, t: Date.now(), id: e.pointerId }
+    moved = 0
+  }
+  const onMove = (e: PointerEvent) => {
+    if (!down || e.pointerId !== down.id) return
+    const d = Math.hypot(e.clientX - down.x, e.clientY - down.y)
+    if (d > moved) moved = d
+  }
+  const onUp = (e: PointerEvent) => {
+    if (!down || e.pointerId !== down.id) return
+    const s = down
+    down = null
+    if (multi || moved > TOUCH_SLOP_PX || Date.now() - s.t > LONG_PRESS_MS) return
+    replayClick(container, s.x, s.y)
+    suppressUntil = Date.now() + SUPPRESS_MS
+  }
+  const onCancel = (e: PointerEvent) => {
+    if (down && e.pointerId === down.id) down = null
+  }
+  const onClickCapture = (e: MouseEvent) => {
+    if (!e.isTrusted || Date.now() >= suppressUntil) return
+    e.stopPropagation()
+    e.preventDefault()
+  }
+
+  container.addEventListener('pointerdown', onDown, true)
+  container.addEventListener('pointermove', onMove, true)
+  container.addEventListener('pointerup', onUp, true)
+  container.addEventListener('pointercancel', onCancel, true)
+  container.addEventListener('click', onClickCapture, true)
+
+  const dispose = () => {
+    container.removeEventListener('pointerdown', onDown, true)
+    container.removeEventListener('pointermove', onMove, true)
+    container.removeEventListener('pointerup', onUp, true)
+    container.removeEventListener('pointercancel', onCancel, true)
+    container.removeEventListener('click', onClickCapture, true)
+  }
+  bridges.set(container, { refs: 1, dispose })
+  return () => {
+    const cur = bridges.get(container)
+    if (!cur) return
+    cur.refs -= 1
+    if (cur.refs > 0) return
+    cur.dispose()
+    bridges.delete(container)
+  }
+}
+
+/** 在给定坐标补发一整套鼠标事件（顺序与真实点击一致） */
+function replayClick(el: HTMLElement, x: number, y: number): void {
+  const base = { bubbles: true, cancelable: true, view: window, clientX: x, clientY: y, button: 0 }
+  el.dispatchEvent(new MouseEvent('mousemove', { ...base, buttons: 0 }))
+  el.dispatchEvent(new MouseEvent('mousedown', { ...base, buttons: 1 }))
+  el.dispatchEvent(new MouseEvent('mouseup', { ...base, buttons: 0 }))
+  el.dispatchEvent(new MouseEvent('click', { ...base, buttons: 0 }))
+}
+
 export interface TapGuard {
   /**
    * 指针**最后一次按下**时的客户端坐标；从没按过 = `null`。
@@ -189,6 +321,13 @@ export function createTapGuard(map: TMap.Map, slopPx: number = TAP_SLOP_PX): Tap
   if (container) holdNoSelect(container)
 
   /**
+   * 触摸端补发 click —— **每个图层都装、但同一容器只生效一份**（引用计数）。
+   * 装在这里而不是 `useTMap`：所有能点的图层都必然先建 `tapGuard`，
+   * 一处接上就覆盖徽标 / 面 / 标记 / 聚合气泡，不必逐个图层再接线。
+   */
+  const detachTouchClick = installTouchClickBridge(map)
+
+  /**
    * ⚠️ **不要在 `mouseup` / `pointerup` 里清 `pointer`** —— `click` 是在
    * `mouseup` **之后**派发的，提前清掉会让"离指针多远"那类判据一律返回 0（不裁），
    * 于是"点景点却把远处气泡也放大"的老毛病会原样回来。
@@ -202,6 +341,7 @@ export function createTapGuard(map: TMap.Map, slopPx: number = TAP_SLOP_PX): Tap
     destroy: () => {
       // 解禁选（引用计数归零才真的还原）—— 见 `holdNoSelect`
       if (container) releaseNoSelect()
+      detachTouchClick()
       container?.removeEventListener('selectstart', onSelectStart, true)
       container?.removeEventListener('dragstart', onDragStart, true)
       container?.removeEventListener('mousedown', onDown, true)
