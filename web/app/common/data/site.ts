@@ -20,3 +20,25 @@ export const GITHUB_ISSUES_URL = `${GITHUB_REPO_URL}/issues`
 
 /** 许可证名。与仓库根的 `LICENSE` 文件一致 —— 改一处要记得改另一处。 */
 export const LICENSE_NAME = 'Apache-2.0'
+
+/**
+ * 站名。顶栏站标（`Brand.tsx`）、关于弹窗、海报页脚三处用的是同一个词，
+ * 所以 `document.title` 也从这里取 —— 别在 `root.tsx` 里再写一遍字面量，
+ * 否则改站名时标签页会留旧名（而标签页恰恰是最不容易被自己看到的地方）。
+ */
+export const SITE_NAME = '行迹'
+
+/** 副标题 / 一句话定位。窄屏顶栏会藏掉它，但标签页与分享卡片必须有。 */
+export const SITE_TAGLINE = '城市旅游攻略'
+
+/** `document.title` 的完整形态 */
+export const SITE_TITLE = `${SITE_NAME} · ${SITE_TAGLINE}`
+
+/**
+ * `<meta name="description">` 与 `og:description` 的正文。
+ *
+ * 写给**没打开过这个站的人**看的一句话（搜索结果、分享卡片、社交平台预览）：
+ * 说清「是什么」+「能做到哪一步」，不堆形容词。
+ */
+export const SITE_DESCRIPTION =
+  '把地图当目录的旅游攻略：全国 → 省 → 市 → 景点一路缩放钻下去，点位、图片、开放时间与门票都在同一张地图上。'

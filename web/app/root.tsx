@@ -11,9 +11,34 @@
 
 import { Links, Meta, Outlet, Scripts, ScrollRestoration, isRouteErrorResponse } from 'react-router'
 
+import { SITE_DESCRIPTION, SITE_NAME, SITE_TITLE } from './common/data/site'
 import { IconSprite } from './common/ui/Icon'
 
 import './app.css'
+
+/**
+ * `<head>` 里的元信息（`<Meta />` 在这里取值）。
+ *
+ * ## 为什么单独记一笔（2026-11-19）
+ * 之前**一条 meta 都没导出**，于是预渲染出来的 `index.html` 里连 `<title>` 都没有 ——
+ * 浏览器拿不出标题，就把 URL 显示在标签页上（Netlify 上就是
+ * `travel-strategy.netlify.app`）。所有静态检查都是绿的：`tsc` 不看 HTML、
+ * 构建也不报错，只有**真的看一眼标签页**才会发现。
+ *
+ * ★ 站名与描述都从 `data/site.ts` 取，不在这里写第二份 —— 顶栏站标用的是同一个词，
+ *   两处各写一遍等于给「改站名」留一个必然漏改的点。
+ * ★ 单页站没有路由级 meta（`routes.ts` 只剩一条），所以这组值是**全站唯一的一套**。
+ */
+export const meta = () => [
+  { title: SITE_TITLE },
+  { name: 'description', content: SITE_DESCRIPTION },
+  { name: 'color-scheme', content: 'light' },
+  { property: 'og:type', content: 'website' },
+  { property: 'og:site_name', content: SITE_NAME },
+  { property: 'og:title', content: SITE_TITLE },
+  { property: 'og:description', content: SITE_DESCRIPTION },
+  { name: 'twitter:card', content: 'summary' },
+]
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (

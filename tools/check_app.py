@@ -8019,6 +8019,7 @@ def main() -> int:
     check_reveal_scope()
     check_hydration_and_face_level()
     check_map_limits()
+    check_doc_head()
     check_poster_key_proxy()
     check_build_scale()
 
@@ -8855,6 +8856,68 @@ def check_poster_key_proxy() -> None:
         )
 
     check(label, problems, 5, hits)
+
+
+def check_doc_head() -> None:
+    """BK. HTML 骨架必须带标题（2026-11-19 用户报「网站的 title 你没设置吗」）。
+
+    用户贴的是浏览器标签页：上面写着 `travel-strategy.netlify.app`。原因是
+    `root.tsx` **一条 meta 都没导出**，预渲染出来的 index.html 里连 `<title>` 都没有，
+    浏览器拿不出标题就把 URL 显示上去。
+
+    这类坑的全部特点是「静态检查全绿」：`tsc` 不看 HTML、构建不报错、
+    控制台也不报错 —— 只有**真的看一眼标签页**才会发现。所以守三点：
+      ① `root.tsx` 必须导出 `meta`
+      ② 标题必须取自 `site.ts` 的 `SITE_TITLE`（站名只有一份）
+      ③ 构建产物 `dist/client/index.html`（存在时）必须有非空 `<title>`
+    """
+    problems: list[str] = []
+    hits = 0
+
+    root_rel = 'app/root.tsx'
+    root_src = strip_comments_keep_lines((WEB / root_rel).read_text(encoding='utf-8'))
+    hits += 1
+    # ⚠️ 判据带 `=` / `:`：裸 `export const meta` 会被 `export const metaGone` 命中
+    #    （同一个"子串掩护"坑，见 MEMORY 里 `badgeBudgetForZoom(` 那条）。
+    if not re.search(r'export const meta\s*[=:]', root_src):
+        problems.append(
+            f'{root_rel} 没有导出 `meta` —— 预渲染的 index.html 会没有 <title>，'
+            '浏览器就把 URL 当标题显示（Netlify 上就是域名）'
+        )
+    elif 'title: SITE_TITLE' not in root_src:
+        problems.append(
+            f'{root_rel} 的 meta 没有用 `title: SITE_TITLE` —— 站名只能有一份'
+            '（`common/data/site.ts`），在手写第二份会在改站名时把旧名留在标签页上'
+        )
+
+    nv_rel = 'app/routes/nav-view.tsx'
+    nv_src = strip_comments_keep_lines((WEB / nv_rel).read_text(encoding='utf-8'))
+    hits += 1
+    if 'useDocTitle(' not in nv_src:
+        problems.append(
+            f'{nv_rel} 没有调用 `useDocTitle(` —— 地址栏恒为 /，标签页是唯一能看出'
+            '"我在哪"的线索；不接线的话标题永远停在首页那一句'
+        )
+
+    site_rel = 'app/common/data/site.ts'
+    site_src = strip_comments_keep_lines((WEB / site_rel).read_text(encoding='utf-8'))
+    hits += 1
+    if 'export const SITE_TITLE' not in site_src:
+        problems.append(f'{site_rel} 没有 `SITE_TITLE` —— 标签页标题的唯一出处没了')
+
+    # ★ 产物检查只在构建过之后跑：这里不做"必须先 build"的假设，
+    #   但一旦产物在，它就是用户真正拿到的那份 HTML —— 必须验。
+    html = WEB / 'dist' / 'client' / 'index.html'
+    if html.exists():
+        hits += 1
+        m = re.search(r'<title>(.*?)</title>', html.read_text(encoding='utf-8'), re.S)
+        if not m or not m.group(1).strip():
+            problems.append(
+                'dist/client/index.html 里没有 <title> —— 产物才是部署出去的那份 HTML，'
+                '它没标题等于线上标签页还是域名'
+            )
+
+    check('BK. HTML 骨架必须带标题', problems, 2, hits)
 
 
 def check_build_scale() -> None:

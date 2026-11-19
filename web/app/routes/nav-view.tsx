@@ -15,6 +15,7 @@
 import { Outlet } from 'react-router'
 
 import { useNav } from '~/common/logic/nav/navStore'
+import { useDocTitle } from '~/common/logic/nav/useDocTitle'
 import CityRoute from '~/routes/city'
 import PlanRoute from '~/routes/plan'
 import PoiRoute from '~/routes/poi'
@@ -22,6 +23,8 @@ import ProvinceRoute from '~/routes/province'
 
 export function NavView() {
   const nav = useNav()
+  // 标签页标题跟着层级走（`useDocTitle`）：地址栏恒为 `/`，所以它是唯一的"我在哪"线索
+  useDocTitle()
   switch (nav.level) {
     case 'province':
       return <ProvinceRoute />
