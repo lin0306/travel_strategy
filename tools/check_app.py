@@ -7904,7 +7904,7 @@ def check_map_limits() -> None:
         return
     ml = strip_comments(read_app(ml_rel))
     hits += 1
-    for fn_name in ('mapLimitsFor(', 'clampCenter(', 'minZoomOf('):
+    for fn_name in ('mapLimitsFor(', 'minZoomOf(', 'syncBoundary('):
         if f'export function {fn_name}' not in ml:
             problems.append(f'{ml_rel} 没有导出 `{fn_name}` —— 边界的唯一出处不完整')
     if 'desktop:' not in ml or 'mobile:' not in ml:
@@ -7926,10 +7926,11 @@ def check_map_limits() -> None:
             f'{ut_rel} 没有调用 `attachLimits(` —— 缩放下限没按容器现算、resize 也不重算'
             '（写死 = 一端卡死、一端白设）'
         )
-    if 'clampMapCenter(' not in ut:
+    if 'clampMapCenter(' in ut or 'clampMapCenter(' in ml:
         problems.append(
-            f'{ut_rel} 没有调用 `clampMapCenter(` —— 拖到国外/洋面时中心不会被拉回，'
-            '屏幕上会一个中国城市都没有'
+            f'{ut_rel} / {ml_rel} 又加回了 `clampMapCenter(` —— 它是**第二套中心框**，'
+            '天然比引擎边界紧半个视野：引擎放行、我们拉回 ⇒ 拖到框外再弹回来'
+            '（2026-11-21 用户第三次报的就是这条，已删。钳制交给引擎自己的 `_constrain`）'
         )
     # ★ ④ 只钳中心不够（2026-11-18 用户第二次报）：必须落到引擎的 `setBoundary`，
     #   否则"按住一直拖"永远等不到停稳，画面仍能滑到美洲。
@@ -7943,13 +7944,14 @@ def check_map_limits() -> None:
             f'{ut_rel} 没有在取景停稳后挂引擎级边界（缺 `e.kind === \'fit\'` + `syncBoundaryWhenReady(`）——'
             '边界会退化成"永不生效"或"建图时挂、把首页取景顶住"'
         )
-    # ★ ⑤ 2026-11-19 用户第三次报「拖拽超过边界，松手后回弹」：
-    #   回弹的根因是 `clampMapCenter` 用了**另一套中心框**（比引擎边界紧半个视野）⇒
-    #   拖动被放过一屏、松手又被拽回。判据落行为：钳制必须走与边界同源的 `centerRangeOf`。
-    if 'centerRangeOf(map, limits)' not in ml:
+    # ★ ⑤ 2026-11-21 用户第三次报「还是能拖到限定区域外再恢复」：
+    #   真因是**边界框停在旧缩放档**（放大后视野变小、框还是大的）⇒ 引擎放行一屏，
+    #   再被第二套判据拽回。判据落行为：放大方向也必须收紧边界，且不允许再出现第二套判据。
+    if 'ZOOM_SETTLE_MS' not in ml or 'window.clearTimeout(settleTimer)' not in ml:
         problems.append(
-            f'{ml_rel} 的 `clampMapCenter` 没有用 `centerRangeOf(map, limits)` ——'
-            '判据与引擎边界不同源就会有"松手回弹"'
+            f'{ml_rel} 的 `attachLimits` 没有在缩放手势停稳后收紧边界（缺 '
+            '`ZOOM_SETTLE_MS` / `clearTimeout(settleTimer)`）—— 放大后边界停在缩小那个档，'
+            '引擎会放行"中心再往外走一屏"，用户能把地图拖出去再弹回来'
         )
     # ★ ⑥ 首屏边界必须挂上：fit 广播常因签名与上一次缩放相同被去重，
     #   若去重把整条广播吞掉，`syncBoundary` 永不执行 ⇒ 整张地图没有边界（实测 boundary:false）。
@@ -7969,6 +7971,49 @@ def check_map_limits() -> None:
         problems.append(f'{ml_rel} 算了下限却没落到引擎（缺 `setMinZoom?.(`）')
     if 'minZoomOf(' not in ml:
         problems.append(f'{ml_rel} 没有 `minZoomOf(` —— 下限不是算出来的，就是写死的')
+
+    # ★ ⑧ 2026-11-20 用户第四次报「还能拖到其他位置，然后重置中心点」：
+    #   根因是纬度用**对称半跨**算 ⇒ 竖屏 z3.04 北边界算成 100.3° ⇒ 引擎抛
+    #   「LatLng.lat 取值应在 [−90, 90]」⇒ 整条边界失效（能拖到西经 179°，松手被拽回）。
+    #   判据落行为：边界必须按「中心到四边的**真实**距离」，且纬度钳到 ±85。
+    #
+    # ★★ 2026-11-21 补：纬度**必须在墨卡托 y 空间**里加减。在纬度空间直接
+    #   `limits.center.lat[1] + (g.n - g.clat)` 会随纬度漂移（同一视野像素在高纬只跨几度）
+    #   ⇒ 实测移动端中心被拖到 72.56°N，而设计上限是 50°。反证：改回纬度加减必报红。
+    for frag, why in (
+        ('(g.clng - g.w) * k', '西侧'),
+        ('(g.e - g.clng) * k', '东侧'),
+        ('yC - mercY(g.n, world)', '北侧（必须在墨卡托 y 空间）'),
+        ('mercY(g.s, world) - yC', '南侧（必须在墨卡托 y 空间）'),
+    ):
+        if frag not in ml:
+            problems.append(
+                f'{ml_rel} 的边界没有用「{why}真实距离」算 —— 纬度对称半跨在竖屏会得出 >90° 的'
+                '边界（引擎整条拒收）；在纬度空间加减则会让允许中心随纬度漂移（能拖到北极圈）'
+            )
+    if 'invMerc(' not in ml:
+        problems.append(
+            f'{ml_rel} 没有 `invMerc(` —— 边界框不是从墨卡托 y 空间反算回来的，'
+            '高纬度会失真（能拖到 72°N 而设计上限是 50°）'
+        )
+    if 'Math.min(85' not in ml or 'Math.max(-85' not in ml:
+        problems.append(
+            f'{ml_rel} 没有把边界纬度钳到 ±85 —— 超出去 `setBoundary` 直接抛错，'
+            '整张地图没有边界（拖到西经 179° 再被拽回）'
+        )
+    # ★ ⑨ 一次性广播的机会太窄：移动端首屏 1 秒内 `getBounds()` 一直抛，
+    #   边界必须**持久重试**，不能只靠 fit 那一记。
+    if 'setInterval(' not in ml or 'syncBoundary(map, getLimits())' not in ml:
+        problems.append(
+            f'{ml_rel} 没有持久兜底重试（缺 `setInterval(` + `syncBoundary(map, getLimits())`）——'
+            '首屏一次失败就永远没有边界，用户能一路拖出地球再被拽回'
+        )
+    # ★ ⑩ 去重不能只在 fit 上送出 `deduped`：缩小途中边界被放宽成 floor，
+    #   若紧接着的 zoom 广播被签名去重吞掉，边界永久停在最宽档。
+    if re.search(r"if \(kind === 'fit'\)\s*\{?\s*o\.onChange", ve):
+        problems.append(
+            f'{ve_rel} 的 `emit` 只在 fit 时才把去重广播交出去 —— 缩放去重会让边界停在全宽档'
+        )
 
     sh_rel = 'app/routes/map-shell.tsx'
     sh = strip_comments(read_app(sh_rel))

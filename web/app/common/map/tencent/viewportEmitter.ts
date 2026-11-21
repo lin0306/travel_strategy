@@ -133,11 +133,13 @@ export function createViewportEmitter(o: ViewportEmitterOptions): ViewportEmitte
       if (sig === lastAutoSig) {
         // ★ 跳过也要**说出来**：否则用户会以为"监听没生效"。
         //   真相是引擎把同一个视野连发了多条事件 —— 去重挡的是噪音，不是用户操作。
-        if (kind === 'fit') {
-          debugLog('手势', '取景动画停稳，但视野签名同上 → 跳过重算（引擎重复事件）')
-          // ★ 但**不能整条丢掉**：边界同步就挂在这条路上（见 `deduped` 的注释）。
-          o.onChange({ kind, zoom: map.getZoom(), deduped: true })
-        }
+        if (kind === 'fit') debugLog('手势', '取景动画停稳，但视野签名同上 → 跳过重算（引擎重复事件）')
+        // ★★ 但**任何 kind 都不能整条丢掉**：边界同步挂在这条路上，而它一次都不能省。
+        //   2026-11-20：缩小途中边界被放宽成 floor（否则缩不回全国），若紧接着这记
+        //   `zoom` 因签名相同被吞，边界就**永久停在最宽档** —— 于是能拖着地图绕地球，
+        //   松手再被 `clampMapCenter` 拽回中心框，正是用户说的"中心被重置"。
+        //   内容重算可以省（`deduped` 让上层跳过），边界同步不行。
+        o.onChange({ kind, zoom: map.getZoom(), deduped: true })
         return
       }
       lastAutoSig = sig

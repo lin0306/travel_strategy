@@ -39,7 +39,6 @@ import { FLY_DURATION_MS, fitPoints, NATIONAL_VIEW, type FitOptions, type LatLng
 import {
   applyLimits,
   attachLimits,
-  clampMapCenter,
   mapLimitsFor,
   syncBoundaryWhenReady,
   type MapLimits,
@@ -167,11 +166,10 @@ export function useTMap(opts: UseTMapOptions): UseTMapResult {
         const lim = optsRef.current.limits ?? mapLimitsFor(false)
         // ★ 边界同步**不能被去重挡掉**（`deduped` 的 fit 也得同步）：2026-11-19 实测
         //   首屏没有边界、能拖到美洲。走 WhenReady 是因为停稳那刻 `getBounds()` 可能还没好。
-        if (map && (e.kind === 'fit' || e.kind === 'zoom')) {
-          syncBoundaryWhenReady(map, lim, e.kind === 'fit' ? e.zoom : undefined)
+        //   ★ 缩放档的同步在 `attachLimits` 的 `onZoom` 里做（含放大方向），这条路只补取景。
+        if (map && e.kind === 'fit') {
+          syncBoundaryWhenReady(map, lim, e.zoom)
         }
-        // ★ 越界只修正、不广播；判据与引擎同源 ⇒ 拖拽停稳时它不动 ⇒ 没有"松手回弹"。
-        if (map && clampMapCenter(map, lim)) return
         if (e.deduped) return
         optsRef.current.onViewportChange?.(e)
       },

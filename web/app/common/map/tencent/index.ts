@@ -190,7 +190,6 @@ export {
 
 // 伸缩与拖拽边界 —— 唯一出处（首屏取什么景、能缩多小、能拖到哪）
 export {
-  clampCenter,
   MAP_LIMITS,
   mapLimitsFor,
   minZoomOf,
